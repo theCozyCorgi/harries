@@ -1,4 +1,5 @@
 const MissionsModule = (function () {
+  // este es un cambio
   let missions = {
     "secrets of the silent dead": {
       "description": "Los cuerpos de Edwin, Morgana y Sirius, habían sido trasladados el 28 de Agosto a las instalaciones de San Mungo, donde los nigromantes habilitados, buscarían encontrar información sobre la muerte de los tres difuntos. Con la presencia de un auror y algunos testigos que validen la información que se está transmitiendo sobre los cuerpos.",
