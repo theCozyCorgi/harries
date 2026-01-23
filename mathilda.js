@@ -1298,39 +1298,61 @@ const MissionsModule = (function () {
 
       "cards": [],
       "searchs": {
+        "inspeccionar la escena": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "estudiantes calmados",
+          "cont": '<span>Dentro de lo que es el usual despacho del Director Dippet, se puede ver que el hombre reposa sobre el escritorio. Desde la distancia no parece que respire, y su piel ha tomado colores grisaceos que no parecen nada sanos y sus ojos miran sin ver cristalizados.</span>',
+        },
         "la taza de té": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "estudiantes calmados",
-          "cont": '<span>Investigación</span>',
+          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "inspeccionar la escena",
+          "cont": '<span>Sobre el escritorio, se encuentra una de las tantas tazas de té que se usan para el desayuno del director. La taza está vacía, pero hay una mancha de color rojo en la superficie.</span>',
         },
-        "preguntar a los cuadros": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "estudiantes calmados",
-          "cont": '<span>Investigación</span>',
+        "orden en el despacho": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "la taza de té",
+          "cont": '<span>Por lo general, Dippet suele mantener un orden que para muchos, no es apropiado para el puesto que posee. Siempre su despacho cuenta con periódicos por todas partes, tazas que fue dejando con té en diferentes cantidades. Sin embargo, ese día parece que hay algo fuera de lugar. Y es que, no es que haya algo fuera de lugar, sino que hay demasiado orden y el despacho esta demasiado limpio para que parezca el espacio usual del Director.</span>',
         },
-        "analisis medico": {
+        "preguntar a los cuadros qué han visto": {
           "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "estudiantes calmados",
-          "cont": '<span>Investigación</span>',
+          "cont": '<span>Un silencio se distribuye entre los cuadros mientras los ojos de los antiguos directores se miran unos a otros. Es Phineas Nigellus Black el primero en hablar: «Nuestro deber es acompañar y aconsejar a los directores que vengan detrás nuestro. Lo que ha pasado, no lo sabemos, pues, nos han bloqueado el acceso a nuestros propios cuadros y cuando hermos regresado, así lo hemos encontrado».</span>',
         },
-        "donde esta dumbledore": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "estudiantes calmados",
-          "cont": '<span>Investigación</span>',
+        "preguntar a los cuadros quién ha ordenado el lugar": {
+          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "orden del despacho",
+          "cont": '<span>«Dippet mismo lo ha hecho. Le llevó más tiempo del que creímos posible. Alguien diría que una eminencia en encantamientos lo debería haber resuelto en menos de cuarenta minutos, pero le ha llevado al menos dos días y medio», comentó Elizabeth Burke sin ocultar su desagrado al hombre.</span>',
+        },
+        "preguntar a los cuadros vieron algo extraño antes de ser cegado": {
+          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar a los cuadros qué han visto",
+          "cont": '<span>«Estuvimos en el despacho, pero no vimos nada extraño. Solo vimos a Dippet, que estaba muy quieto, para su inquietud de los días anteriores. Luego, todo se volvió negro y nos cegaron», respondió Everard. «Ah, verdad. Decía que iban a ir por él porque se había presentado como candidato y no paraba de caminar de un lado del desapacho a otro», agregó Phyllida Spore.</span>',
+        },
+        "analizar la salud del director": {
+          "visible": { "attr": { "val": "min" }, "know": { "curación": "5" }, "job": "invalid", "name": "invalid", }, "place": "inspeccionar la escena",
+          "cont": '<span>Si se trata de tomar el pulso, pueden notar que el mismo es lento y pausado, pero constante. Necesitarán un hechizo de sanación para obtener más información.</span>',
+        },
+        "preguntar a los cuadros dónde esta dumbledore": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "inspeccionar la escena",
+          "cont": '<span>«¡Oh, Albus!» dijo Phyllida Spore. «Se ha ido a un congreso en Italia, ya saben como es. Demasiado importante, un ejemplo de mago. Creo que debería estar a cargo de la dirección ahora que Dippet...» Dejó la frase sin terminar, aunque todos sabían a qué se refería. Incluso aunque no estuviera muerto, aquello no podía terminar de otra manera más que con la renuncia del mismo. «Ya se lo hemos comunicado, dijo que viajará tan pronto sea posible, pero le tomará unas horas».</span>',
         },
         "trampa los libros": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "estudiantes calmados",
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar a los cuadros vieron algo extraño antes de ser cegado",
           "cont": 'Completar',
         },
       },
       "actions": {
         "vox imperium": {
-          "leve": 'Todos los estudiantes obedecen liberando el despacho del director y dejando que las personas presentes se encarguen de ',
-          "moderado": 'Algo',
-          "exitoso": 'Algo',
-          "critico": 'Algo',
+          "leve": 'No es suficiente para revelar información adicional.',
+          "moderado": 'Todos los estudiantes obedecen liberando el despacho del director y dejando que las personas presentes se encarguen de la investigación correspondiente.<adding search="estudiantes clamados" class="check-cards"></adding>',
+          "exitoso": 'Todos los estudiantes obedecen liberando el despacho del director y dejando que las personas presentes se encarguen de la investigación correspondiente.<adding search="estudiantes clamados" class="check-cards"></adding>',
+          "critico": 'Todos los estudiantes obedecen liberando el despacho del director y dejando que las personas presentes se encarguen de la investigación correspondiente.<adding search="estudiantes clamados" class="check-cards"></adding>',
         },
-        "potionis": {
-          "leve": 'Algo',
-          "moderado": 'Algo',
-          "exitoso": 'Algo',
-          "critico": 'Algo',
+        "revelio potionis": {
+          "leve": 'No es suficiente para revelar información adicional.',
+          "moderado": 'Puede detectarse que se trata de una poción para la tos, pero ha sido adulterada para que entumesca más de lo que debería. El frasco posee raiz de asfódelo molida en su interior, provocando dichos efectos.',
+          "exitoso": 'Puede detectarse que se trata de una poción para la tos, pero ha sido adulterada para que entumesca más de lo que debería. El frasco posee raiz de asfódelo molida en su interior, provocando dichos efectos.',
+          "critico": 'Puede detectarse que se trata de una poción para la tos, pero ha sido adulterada para que entumesca más de lo que debería. El frasco posee raiz de asfódelo molida en su interior, provocando dichos efectos.',
+        },
+        "morbus revela": {
+          "leve": 'No es suficiente para revelar información adicional.',
+          "moderado": 'Permite identificar que Dippet esta vivo, sin embargo, puede identificarse que su cuerpo esta siendo afectado por una poción que le impide moverse con normalidad. Y que el daño ha sido más severo de lo que se esperaba. Pues su cuerpo esta entumecido de la cintura hacia abajo. Un profesional de la salud mágica debería atenderlo a la brevedad antes de que los daños sean permanentes.',
+          "exitoso": 'Permite identificar que Dippet esta vivo, sin embargo, puede identificarse que su cuerpo esta siendo afectado por una poción que le impide moverse con normalidad. Y que el daño ha sido más severo de lo que se esperaba. Pues su cuerpo esta entumecido de la cintura hacia abajo. Un profesional de la salud mágica debería atenderlo a la brevedad antes de que los daños sean permanentes.',
+          "critico": 'Permite identificar que Dippet esta vivo, sin embargo, puede identificarse que su cuerpo esta siendo afectado por una poción que le impide moverse con normalidad. Y que el daño ha sido más severo de lo que se esperaba. Pues su cuerpo esta entumecido de la cintura hacia abajo. Un profesional de la salud mágica debería atenderlo a la brevedad antes de que los daños sean permanentes.',
         },
       },
     },
