@@ -3328,7 +3328,38 @@ const MissionsModule = (function () {
       "type": "investigación", "closed": false, "link": "", "tagged": ["original"],
 
       "cards": [],
-      "searchs": {},
+
+      "searchs": {
+        "diario de misión 11 de enero de 1952 - wrenn wraithwood": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "",
+          "cont": '<span>A continuación, se presenta las bitácoras de los hechos correspondiente al incidente de Wrenn Wraithwood que acabó con su vida y las de tres personas. Siete heridos han sido registrados.</span>'
+        },
+        "bitácora de los hechos nro.01": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "diario de misión 11 de enero de 1952 - wrenn wraithwood",
+          "cont": '<span>A las 8:30am del 11 de Enero, se llevó a cabo una redada que buscaba detener a un legeremante que había sido reportado por el Departamento de Seguridad. El legeremante, no identificado, había sido acusado de infiltrar información del Ministerio de Magia Británico a Ministerios de Magia del exterior, además de infiltrar información a los Ministros Muggles de diferentes partes del mundo.</span>'
+        },
+        "bitácora de los hechos nro.02": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "bitácora de los hechos nro.01",
+          "cont": '<span>A las 9:05 am, el grupo compuesto por diez aurores del Departamento de Seguridad, se dirigió a la supuesta dirección del legeremante. Al llegar, se encontraron con un escenario de caos: había dos cuerpos ensangrentados cuyas vidas habían sido tomadas por, se supone, el legeremante. Dos personas, identificadas posteriormente, como nigromantes ilegales, presentaron un duelo a los aurores presentes.</span>'
+        },
+        "bitácora de los hechos nro.03": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "bitácora de los hechos nro.02",
+          "cont": '<span>A las 9:08 am, la situación se encontraba bajo control total. Los aurores habían logrado incapacitar a los nigromantes para su correspondiente interrogatorio, y otros aurores ingresaban al lugar para realizar el correspondiente peritaje. Sin embargo, la aurora Wrenn Wraithwood, conjuró un hechizo explosivo, sin razón aparente, que terminó provocando una explosión que destruyó el lugar y causó heridas a varios aurores.</span>'
+        },
+        "bitácora de los hechos nro.04": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "bitácora de los hechos nro.03",
+          "cont": '<span>A las 9:42 am, se registró la muerte de Wrenn Wraithwood, quien había sido herida por el hechizo explosivo. La aurora fue declarada muerta por el Departamento de Seguridad, junto a tres compañeros. Los heridos habían sido colocados en resguardo, sus heridas más graves habían sido curadas y solo debían esperar la llegada de los medimagos correspondientes. Los nigromantes, aprovecharon la situación para escapar.</span>'
+        },
+        "bitácora de los hechos nro.05": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "bitácora de los hechos nro.04",
+          "cont": '<span>A las 10:30 am, Edwin Merrythought localizó a los nigromantes, los cuales fueron detenidos por el resto de los aurores del Departamento de Seguridad Mágica y fueron trasladados a la cárcel de Azkaban.</span>'
+        },
+        "informe de la morgue": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "nigromante", "name": "invalid", }, "place": "bitácora de los hechos nro.05",
+          "cont": 'Completar'
+        },
+      },
+
       "actions": {},
     },
     // midnight ashes
