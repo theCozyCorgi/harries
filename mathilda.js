@@ -2050,13 +2050,13 @@ const MissionsModule = (function () {
           "critico": '<span>Paso #1: Permite identificar los siguientes ingredientes: Tentáculo de Murtlap, Lavanda seca, Cuerno en polvo de Bicornio, Agua de Luna, veneno de Acromántula, Hojas de Belladona y un ingrendiente adicional que no se llega a reconocer.</span>',
         },
         "ignis mortis": {
-          "leve": '<span>Paso #2: no es suficiente para revelar información.</span>',
+          "leve": '<span>Paso #2: Permite sin reconocer la sustancia original, que fue agregada en escencia pura.</span>',
           "moderado": '<span>Paso #2: Permite sin reconocer la sustancia original, que fue agregada en escencia pura.</span>',
           "exitoso": '<span>Paso #2: Permite sin reconocer la sustancia original, que fue agregada en escencia pura.</span>',
           "critico": '<span>Paso #2: Permite sin reconocer la sustancia original, que fue agregada en escencia pura.</span>',
         },
         "unus multis": {
-          "leve": '<span>Paso #3: No es suficiente para revelar información.</span>',
+          "leve": '<span>Paso #3: Al realizarse copias y analisis de las mismas, se puede llegar a la conclusión de que el elixir mantiene propiedades que generan un bloqueo emocional y parálisis.</span>',
           "moderado": '<span>Paso #3: Al realizarse copias y analisis de las mismas, se puede llegar a la conclusión de que el elixir mantiene propiedades que generan un bloqueo emocional y parálisis.</span>',
           "exitoso": '<span>Paso #3: Al realizarse copias y analisis de las mismas, se puede llegar a la conclusión de que el elixir mantiene propiedades que generan un bloqueo emocional y parálisis.</span>',
           "critico": '<span>Paso #3: Al realizarse copias y analisis de las mismas, se puede llegar a la conclusión de que el elixir mantiene propiedades que generan un bloqueo emocional y parálisis.</span>',
