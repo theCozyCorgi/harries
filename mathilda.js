@@ -1152,7 +1152,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/LKuQkxz.png", "requisitos": [],
       "users": ["/u130","/u8","/u145","/u97"],
       "dependency": ["botanical market", "promise in crimson"],
-      "type": "misión", "closed": false, "link": "", "tagged": ["morgana"],
+      "type": "misión", "closed": false, "link": "https://blackwave.foroactivo.com/t931-mision-moth-to-a-flame", "tagged": ["morgana"],
 
       "cards": [],
       "searchs": {
@@ -1294,7 +1294,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/YQ3QDyq.png", "requisitos": ["un miembro del departamento del Seguridad Mágica", "un miembro del personal o profesorado de hogwarts","Solo se aceptarán 2 estudiantes como máximo"],
       "users": ["/u50","/u24","/u110","/u108","/u141"],
       "dependency": [],
-      "type": "misión", "closed": false, "link": "", "tagged": ["wave"],
+      "type": "misión", "closed": false, "link": "https://blackwave.foroactivo.com/t932-mision-the-murmur-of-the-old-guard", "tagged": ["wave"],
 
       "cards": [],
       "searchs": {
@@ -3128,7 +3128,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/zZ5WNNh.png", "requisitos": ["Un personaje tendrá que tener curación en avanzado", "Un personaje tendrá que tener Transformaciones en Avanzado", "Un personaje deberá ser miembro del Departamento de Seguridad"],
       "users": ["c/u1","/u8","/u24","/u12","/u145"],
       "dependency": [],
-      "type": "misión", "closed": false, "link": "", "tagged": ["original"],
+      "type": "misión", "closed": false, "link": "https://blackwave.foroactivo.com/t933-mision-the-rest-of-us", "tagged": ["original"],
 
       "cards": [],
       "searchs": {
@@ -3325,7 +3325,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/5xLMKUg.png", "requisitos": ["Un personaje deberá ser miembro del Departamento de Seguridad"],
       "users": ["c/u8", "c/u55","/u78","/u146"],
       "dependency": ["frozen sunflowers"],
-      "type": "investigación", "closed": false, "link": "", "tagged": ["original"],
+      "type": "investigación", "closed": false, "link": "https://blackwave.foroactivo.com/t934-investigacion-midnight-ashes", "tagged": ["original"],
 
       "cards": [],
 
