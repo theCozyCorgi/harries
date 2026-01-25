@@ -1338,9 +1338,9 @@ const MissionsModule = (function () {
       "actions": {
         "vox imperium": {
           "leve": 'No es suficiente para revelar información adicional.',
-          "moderado": 'Todos los estudiantes obedecen liberando el despacho del director y dejando que las personas presentes se encarguen de la investigación correspondiente.<adding search="estudiantes clamados" class="check-cards"></adding>',
-          "exitoso": 'Todos los estudiantes obedecen liberando el despacho del director y dejando que las personas presentes se encarguen de la investigación correspondiente.<adding search="estudiantes clamados" class="check-cards"></adding>',
-          "critico": 'Todos los estudiantes obedecen liberando el despacho del director y dejando que las personas presentes se encarguen de la investigación correspondiente.<adding search="estudiantes clamados" class="check-cards"></adding>',
+          "moderado": 'Todos los estudiantes obedecen liberando el despacho del director y dejando que las personas presentes se encarguen de la investigación correspondiente.<adding search="estudiantes calmados" class="check-cards"></adding>',
+          "exitoso": 'Todos los estudiantes obedecen liberando el despacho del director y dejando que las personas presentes se encarguen de la investigación correspondiente.<adding search="estudiantes calmados" class="check-cards"></adding>',
+          "critico": 'Todos los estudiantes obedecen liberando el despacho del director y dejando que las personas presentes se encarguen de la investigación correspondiente.<adding search="estudiantes calmados" class="check-cards"></adding>',
         },
         "revelio potionis": {
           "leve": 'No es suficiente para revelar información adicional.',
