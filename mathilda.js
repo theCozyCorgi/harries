@@ -3137,7 +3137,7 @@ const MissionsModule = (function () {
           "cont": '<span>Lo primero que se puede observar al ingresar a la residencia, es que la mayoría de los vidrios de la sala de estar, se encuentran rotos. En algunos faltan algunas partes, otros se encuentran trizados.</span>',
         },
         "forma de la ruptura de los vidrios": {
-          "visible": { "attr": { "sab": "3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "vidrios rotos",
+          "visible": { "attr": { "int": "3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "vidrios rotos",
           "cont": '<span>Por la forma en la que se encuentran rotos y trizados los vidrios, se puede concluir que el origen fue el mismo para todo lo que era de vidrio del lugar. Algo provocó un estallido que tuvo como consecuencia, los vidrios rotos.</span>',
         },
         "preguntar: ¿por qué aun no repararon los vidrios?": {
