@@ -3145,7 +3145,7 @@ const MissionsModule = (function () {
           "cont": '<span>Uno de los coordinadores responde a la pregunta: «Un miembro del Departamento de seguridad, nos pidió que no tocaramos nada hasta que alguien pudiera analizar la escena. Y como queremos que encuentren a todos, no lo hemos hecho. Estabamos esperando que encuentren todo lo que necesiten para poder reparar todo, en especial los vidios».</span>',
         },
         "origen de la explosión": {
-          "visible": { "attr": { "sab": "3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "forma de la ruptura de los vidrios",
+          "visible": { "attr": { "int": "3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "forma de la ruptura de los vidrios",
           "cont": '<span>Lo que haya hecho explotar los vidrios, lo hizo en un costado de la sala, cerca de un juego de niños, unos cubos con letras. Es donde más daño hay y desde allí se propaga. Lo que parecería indicar que el origen fue un niño de la residencia.</span>',
         },
         "preguntar: ¿a qué niño le gusta jugar con esos juegos?": {
@@ -3189,11 +3189,11 @@ const MissionsModule = (function () {
           "cont": '<span>La falta de movimiento y que la llave este colgada como si nada hubiera pasado, indica que el protocolo no se siguió aquella noche.</span>',
         },
         "preguntar sobre los poderes de banshee de velisse": {
-          "visible": { "attr": { "sab": "4" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar: ¿velisse ya ha realizado sus primera muestra de magia?",
+          "visible": { "attr": { "int": "4" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar: ¿velisse ya ha realizado sus primera muestra de magia?",
           "cont": '<span>Un Lorien responde: «La encontró Baird cuando tenía tres años y medio. Ya era pequeña, pero ya podía ver trágicos futuros con claridad, a muchos les daba miedo. Aterró a más de un semi gigante. Creemos que por eso es tan introvertida, no se relaciona demasiado con las personas. Le tiene mucho miedo a sus propios poderes, teme que todo lo que ve pase».</span>',
         },
         "preguntar: ¿dónde se esconde velisse cuando tiene miedo?": {
-          "visible": { "attr": { "sab": "4" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar sobre los poderes de banshee de velisse",
+          "visible": { "attr": { "int": "4" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar sobre los poderes de banshee de velisse",
           "cont": '<span>Un Lorien responde: «Por lo general, a los brazos de Baird, si él no esta, busca una sala que tenemos para banshees que esta asilada».</span>',
         },
         "visitar la sala": {
@@ -3209,11 +3209,11 @@ const MissionsModule = (function () {
           "cont": '<span>En el suelo se marcan unas pisadas. Por su tamaño, podría deducirse que se trata de un hombre. Los pasos recorren todas las habitaciones.</span>',
         },
         "dirección de las pisadas": {
-          "visible": { "attr": { "sab": "3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "marcas del suelo",
+          "visible": { "attr": { "int": "3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "marcas del suelo",
           "cont": '<span>Las marcas de las pisadas entran y salen, y por el peso de las mismas, se puede deducir que no llevaba carga extra al salir. Aunque el caminar delata que iba borrando su paso al salir.</span>',
         },
         "cuadro roto": {
-          "visible": { "attr": { "sab": "3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
+          "visible": { "attr": { "int": "3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
           "cont": '<span>Un cuadro se encuentra roto. Es un cuadro dibujado por un niño. Parece que alguien lo ha golpeado.</span>',
         },
       },
