@@ -2040,6 +2040,38 @@ const MissionsModule = (function () {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "15" }, "job": "invalid", "name": "invalid", }, "place": "",
           "cont": '<span>El veneno color rosa, de un tono chillón de rosa, es una toxina de acción rápida que ataca el sistema nervioso, provocando un estado inicial de euforia seguido de desorientación, debilidad muscular y, finalmente, una parálisis progresiva. Por alguna razón, y aunque el elixir tiene un color diferente, mantiene una estructura similar.</span>',
         },
+        "información de muted magic": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "o", }, "place": "intervención",
+          "cont": '<span>Durante la investigación Muted Magic, donde investigaron los diarios de Morgana, habían encontrado una carta que indicaba que un buen inhibidor de los alelos licántropos podía llegar a ser la lágrima de mandrágora en estado puro. Sin embargo, iba acompañada de una lista de contras. Para quien lo ingería, en caso de que la proporción no fuera la correcta, podía generar parálisis total o, incluso, muerte. Para quien la recolectaba, las expectativas de vida eran parecidas, debido a que su llanto es fatal. Incluso, en el diario, encontraron una nota de Morgana indicando que ese no era el mejor camino a tomar. Textualmente: «No, gracias». Sin embargo, todo parecería indicar que no encontró mejor solución.</span>',
+        },
+        "efectos de las lágrimas de mandrágora en la poción": {
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "15" }, "job": "invalid", "name": "invalid", }, "place": "información de muted magic",
+          "cont": '<span>Al revisar la lista de ingredientes, suponiendo que el último ingrediente son lágrimas de mandrágora se podría concluir que los efectos son suficientes como para dejar incapacitado a un gigante.</span>',
+        },
+        "sobre las lágrimas de mandrágora": {
+          "visible": { "attr": { "val": "min" }, "know": { "herbología": "15" }, "job": "invalid", "name": "invalid", }, "place": "información de muted magic",
+          "cont": '<span>Las lágrimas de mandrágora son extremadamente valiosas y peligrosas. Se dice que su llanto es mortal para quien lo recolecta, y que solo pueden ser utilizadas en proporciones mínimas para evitar efectos letales. Se intentó en varias ocasiones, sin embargo, herbologos de todas partes del mundo continuaban muriendo a causa del llanto de la planta. Finalmente, se dejó de intentar y comenzó a utilizarse únicamente sus raíces, pues eran más fáciles de recolectar.</span>',
+        },
+        "historia de las lágrimas": {
+          "visible": { "attr": { "val": "min" }, "know": { "historia de la magia": "10" }, "job": "invalid", "name": "invalid", }, "place": "sobre las lágrimas de mandrágora",
+          "cont": '<span>Durante muchos años se intentó la manera de recolectar este líquido. Dado que, en los primeros siglos donde se registró la magia, se utilizaba como un potente antídoto que, mezclado con las hierbas correctas, anulaba cualquier rastro de dolor. Sin embargo, el peligro de su recolección y las muertes que produjo, generó que en el XII, comenzara a recomendarse el uso de las raíces. Para cuando el Ministerio se formó, muchos años después, prohíbieron la comercialización de dichas lágrimas con el fin de evitar más muertes.</span>',
+        },
+        "alcance de la poción": {
+          "visible": { "attr": { "val": "min" }, "know": { "alquimia": "10" }, "job": "invalid", "name": "invalid", }, "place": "efectos de las lágrimas de mandrágora en la poción",
+          "cont": '<span>Si se tiene en cuenta que la poción buscaba aplicarse en licantropos, podría concluirse que si una persona tomaba la poción antes de la luna llena, lograría mantener su cuerpo paralisado durante todo el efecto de la luna. Recuperando la consciencia unas 12 o 15 horas después de haber ingerido la misma.</span>',
+        },
+        "conclusión de la poción": {
+          "visible": { "attr": { "val": "min" }, "know": { "curación": "15" }, "job": "invalid", "name": "invalid", }, "place": "efectos de las lágrimas de mandrágora en la poción",
+          "cont": '<span>Lo que Morgana logró no fue inhibir los alelos licantropos de su hermana, sino generar una poción tan potente que la mantendría inconsciente durante toda su transición de luna llena, recuperando la consciencia cuando el proceso hubiera terminado, se transformara o no. No era una solución a la licantropía, era un parche para evitar que Merlina se volviera peligrosa para ella o demás personas durante la luna llena.</span>',
+        },
+        "replicar la poción": {
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "15" }, "job": "invalid", "name": "invalid", }, "place": "efectos de las lágrimas de mandrágora en la poción",
+          "cont": '<span>Por mucho que deseen intentar replicar la poción, la única forma de lograrlo sería poder recolectar lágrimas de mandrágora, las cuales, al no ser comercializables requerirán seguir los pasos de Morgana para descubrir dónde consiguió ella las mismas para elaborar aquella poción.</span>',
+        },
+        "revisar al ratón": {
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "15" }, "job": "invalid", "name": "invalid", }, "place": "efectos de las lágrimas de mandrágora en la poción",
+          "cont": '<span>Al revisar la jaula donde se encontraba el pequeño ratón, pueden descubrir que, aunque la poción hizo efecto, la ingesta era demasiado para alguien de su tamaño y, en conclusión, ha fallecido.</span>',
+        },
       },
 
       "actions": {
@@ -3297,7 +3329,7 @@ const MissionsModule = (function () {
     "silent sentinel": {
       "description": "Tras los sucesos de Frozen Sunflower, se busca interrogar al guardia que fue incapacitado por Nina Wraithwood, para comprender si posee una información que pueda dar más luz al objeto robado.",
       "image": "https://2img.net/i.imgur.com/fDwQ2CI.png", "requisitos": ["Un personaje deberá ser miembro del Departamento de Seguridad"],
-      "users": ["c/u8", "c/u55", "/u146"],
+      "users": ["c/u8", "c/u55", "/u146", "/u130"],
       "dependency": ["frozen sunflowers"],
       "type": "investigación", "closed": false, "link": "", "tagged": ["original"],
 
@@ -4893,6 +4925,10 @@ const MissionsModule = (function () {
         {
           "visible": { "attr": { "int": "3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "tercera intervención",
           "cont": '<span>Briseida lleva puesto un colgante muy delicado. Una cadena de oro de la que cuelga una delicada libélula, pero si se presta atención, se podrá notar que la libélula es, en realidad, una llave.</span>',
+        },
+        {
+          "visible": { "attr": { "int": "3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar a briseida si se encuentra bien",
+          "cont": '<span>La cadena de oro que Briseida llevaba, actualmente no se encuentra en su cuello. Ha desaparecido.</span>',
         }
       ],
 
@@ -4981,6 +5017,34 @@ const MissionsModule = (function () {
           "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "rompemaldiciones", "name": "invalid", }, "place": "maldición de la caja musical",
           "cont": '<span>Para romper la maldición de la caja de la caja de Luthier, se deberá volcar una lágrima de un padre de las personas atrapadas. Solicitar intervención, una vez que hayan regresado a Astorius o Briseida del sueño profundo.</span>',
         },
+        "investigar envenenamiento de los invitados": {
+          "visible": { "attr": { "int": "3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "cuarta intervención",
+          "cont": '<span>Al preguntar a Astorius Moody sobre las bebidas. El mismo responde que es imposible, porque se utilizaron más de 30 botellas diferentes, las cuales llegaron de diferentes proveedores y todas estaban cerradas.</span>',
+        },
+        "revelio potionis sobre la bebida de una copa": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "pociones": "10", "name": "invalid", }, "place": "investigar envenenamiento de los invitados",
+          "cont": '<span>Al aplicar el hechizo revelio potionis sobre la bebida dentro de una copa, se encuentra presencia de veneno, pero en muy pequeñas cantidades. El hechizo revela que el veneno usado fue filtro de muertos en vida en pequeñas cantidades.</span>',
+        },
+        "revelio potionis sobre la bebida en una botella": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "pociones": "10", "name": "invalid", }, "place": "investigar envenenamiento de los invitados",
+          "cont": '<span>Al aplicar el hechizo revelio potionis sobre la bebida, se revela que todas las bebidas alcoholicas, no estaban envenadas, sino que poseían el contenido que deberían haber tenido en un principio.</span>',
+        },
+        "posibilidad de envenenamiento de las copas": {
+          "visible": { "attr": { "int": "4" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "investigar envenenamiento de los invitados",
+          "cont": '<span>Si las bebidas no estaban envenenadas, entonces el veneno debía estar en las copas, sería una buena teoría, aunque para aquello deberán aplicarse hechizos alquímicos.</span>',
+        },
+        "preguntar a briseida si se encuentra bien": {
+          "visible": { "attr": { "int": "3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "cuarta intervención",
+          "cont": '<span>La mujer se encuentra horrorizada por lo que acaba de suceder y no sabe bien cómo explicar lo ocurrido. Sin embargo, cuando le preguntan si se encuentra bien, se lleva una mano al cuello, mencionando que sintió como si un fantasma la atravesara. Aunque ninguno de los invitados pareció sentir lo mismo.</span>',
+        },
+        "solución para los invitados que no lograron recuperarse": {
+          "visible": { "attr": { "int": "3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "solución para los invitados",
+          "cont": '<span>Dado que las copas estaban envenenadas, la solución sería limpiar las mismas para poder volver a consumir líquidos sin envenenar a nadie en el proceso. Además, si se limpian las copas, con una bebida fuerte, pueden reponerse todas las personas que hayan despertado a medias.</span>',
+        },
+        "ofrecer hidromiel a los que personajes que no lograron recuperarse": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "copas limpias",
+          "cont": '<span>Una vez limpias las copas, si se les ofrece hidromiel a los que no lograron recuperarse, podrán reponerse completamente. Todos ellos.</span>',
+        },
       },
 
       "actions": {
@@ -5013,6 +5077,18 @@ const MissionsModule = (function () {
           "moderado": '<span>Elimina el estado somniolento de un personaje.</span>',
           "exitoso": '<span>Elimina el estado somniolento de un personaje.</span>',
           "critico": '<span>Elimina el estado somniolento de un personaje.</span>',
+        },
+        "fac illum clamorem": {
+          "leve": '<span>No es suficiente para producir un efecto.</span>',
+          "moderado": '<span>Al aplicar sobre las copas de cristal, revela un vapor color azulado, revelando que el veneno no estaba en las bebidas, sino en las copas.<adding search="solución para los invitados" class="check-cards"></adding></span>',
+          "exitoso": '<span>Al aplicar sobre las copas de cristal, revela un vapor color azulado, revelando que el veneno no estaba en las bebidas, sino en las copas.<adding search="solución para los invitados" class="check-cards"></adding></span>',
+          "critico": '<span>Al aplicar sobre las copas de cristal, revela un vapor color azulado, revelando que el veneno no estaba en las bebidas, sino en las copas.<adding search="solución para los invitados" class="check-cards"></adding></span>',
+        },
+        "tergeo": {
+          "leve": '<span>No es suficiente para producir un efecto.</span>',
+          "moderado": '<span>Limpia todas las copas eliminando cualquier rastro de veneno restante.<adding search="copas limpias" class="check-cards"></adding></span>',
+          "exitoso": '<span>Limpia todas las copas eliminando cualquier rastro de veneno restante.<adding search="copas limpias" class="check-cards"></adding></span>',
+          "critico": '<span>Limpia todas las copas eliminando cualquier rastro de veneno restante.<adding search="copas limpias" class="check-cards"></adding></span>',
         },
         "engorgio": {
           "leve": '<span>Si se aplica sobre la caja musical, los personajes dentro de la misma sienten un temblor, pero no produce ningún efecto.</span>',
