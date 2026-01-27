@@ -1912,9 +1912,9 @@ const MissionsModule = (function () {
       "actions": {
         "legeremens": {
           "leve": 'No es suficiente para revelar información adicional.',
-          "moderado": 'El personaje interrogado deberá narrar una escena que se corresponda al recuerdo buscado.',
-          "exitoso": 'El personaje interrogado deberá narrar una escena que se corresponda al recuerdo buscado.',
-          "critico": 'El personaje interrogado deberá narrar una escena que se corresponda al recuerdo buscado.',
+          "moderado": 'El personaje puede acceder a los recuerdos del 16 de agosto, visualizar a Theolonius al lado de su madre quien yace recostada en una cama. El reloj sobre la misma, marca las 11:05 am. Sin embargo, hay un pequeño vacío. Las luces cambian de lugar, Theolonius sigue al lado de su madre, pero el reloj marca las 12:30hs.',
+          "exitoso": 'El personaje puede acceder a los recuerdos del 16 de agosto, visualizar a Theolonius al lado de su madre quien yace recostada en una cama. El reloj sobre la misma, marca las 11:05 am. Sin embargo, hay un pequeño vacío. Las luces cambian de lugar, Theolonius sigue al lado de su madre, pero el reloj marca las 12:30hs.',
+          "critico": 'El personaje puede acceder a los recuerdos del 16 de agosto, visualizar a Theolonius al lado de su madre quien yace recostada en una cama. El reloj sobre la misma, marca las 11:05 am. Sin embargo, hay un pequeño vacío. Las luces cambian de lugar, Theolonius sigue al lado de su madre, pero el reloj marca las 12:30hs.',
         },
 
         "veritas relego": {
