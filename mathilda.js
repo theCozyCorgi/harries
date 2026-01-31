@@ -1257,9 +1257,26 @@ const MissionsModule = (function () {
           "visible": { "attr": { "val": "min" }, "know": { "ccm": "0" }, "job": "invalid", "name": "invalid", }, "place": "el cúmulo de barro",
           "cont": '<span>Justo cuando parece que no hay más huellas que seguir, se escucha un chillido agudo y lastimero proveniente de lo profundo de un montículo de tierra. No es el tintineo de monedas, sino la criatura quejándose de dolor.</span>',
         },
+        "el niffler herido": {
+          "visible": { "attr": { "val": "min" }, "know": { "ccm": "0" }, "job": "invalid", "name": "invalid", }, "place": "el cúmulo de barro",
+          "cont": '<span>Cuando encuentran la madriguera seguidos por el lamento, pueden encontrar a un Niffler de pelaje marrón herido. Su pelaje está manchado de barro y sangre, y se tiembla en su lugar. Para continuar deberán curarlo.</span>',
+        },
       },
 
-      "actions": {},
+      "actions": {
+        "pellis sana": {
+          "leve": 'Logra curar las heridas del Niffler, pero este sigue asustado y no colabora mucho.',
+          "moderado": 'Logra curar las heridas del Niffler, pero este sigue asustado y no colabora mucho.',
+          "exitoso": 'Logra curar las heridas del Niffler, pero este sigue asustado y no colabora mucho.',
+          "critico": 'Logra curar las heridas del Niffler, pero este sigue asustado y no colabora mucho.',
+        },
+        "sensus mitigo": {
+          "leve": 'Logra tranquilizar al Niffler lo suficiente para que colabore.<adding search="el niffler herido" class="check-cards"></adding>',
+          "moderado": 'Logra tranquilizar al Niffler lo suficiente para que colabore.<adding search="el niffler herido" class="check-cards"></adding>',
+          "exitoso": 'Logra tranquilizar al Niffler lo suficiente para que colabore.<adding search="el niffler herido" class="check-cards"></adding>',
+          "critico": 'Logra tranquilizar al Niffler lo suficiente para que colabore.<adding search="el niffler herido" class="check-cards"></adding>',
+        },
+      },
     },
     // fin the lone bellow
 
@@ -1296,6 +1313,100 @@ const MissionsModule = (function () {
       "dependency": [],
       "type": "misión", "closed": false, "link": "https://blackwave.foroactivo.com/t932-mision-the-murmur-of-the-old-guard", "tagged": ["wave"],
 
+      
+      "creatures": {
+        "sombra aidan": {
+          "atributos": ["+6 fue", "+6 con"],
+          "clasificación": "ser / personaje no jugable",
+          "descripción": "personaje no jugable",
+          "ataques": {
+            "leve": 'Ataca con hechizo: "Colloshoo". El objetivo queda pegado al suelo hasta que se le libere mágicamente, todas las acciones hasta que se libere pierden -5 puntos.',
+            "moderado": 'Ataca con hechizo: "Obscuro". El objetivo queda completamente cegado hasta que se elimine el hechizo. Disminuye 4 puntos de sus siguientes dos acciones o hasta que se libere del encantamiento.',
+            "exitoso": 'Ataca con hechizo: "Fulgari". Las cuerdas atan firmemente al objetivo, restringiendo su movimiento. Incapacita todas las acciones de la víctima hasta que no se la libere.',
+            "critico": 'Ataca con hechizo: "Desmaius". El objetivo cae inconsciente al instante. La víctima pierde sus siguientes 2 acciones.',
+          },
+
+          "defensas": {
+            "leve": 'Defiende con hechizo: "Protego". Adiciona +6 de defensa.',
+            "moderado": 'Defiende con hechizo: "Protego". Adiciona +8 de defensa.',
+            "exitoso": 'Defiende con hechizo: "Protego". Adiciona +10 de defensa.',
+            "critico": 'Defiende con hechizo: "Protego". Adiciona +13 de defensa.',
+          },
+        },
+        "sombra cuthbert": {
+          "atributos": ["+6 fue", "+5 con"],
+          "clasificación": "ser / personaje no jugable",
+          "descripción": "personaje no jugable",
+          "ataques": {
+            "leve": 'Ataca con hechizo: "Relashio". El objetivo suelta la varita con un grito de dolor por la quemadura. Disminuye 6 puntos de la siguiente acción a realizar y reduce 10 PV.',
+            "moderado": 'Ataca con hechizo: "Confringo". La explosión es fuerte y puede destrozar objetos y causar heridas serias. Adiciona +10 en daño.',
+            "exitoso": 'Ataca con hechizo: "Atabraquium". El objetivo queda firmemente atado de pies y manos. Deberá consumir una acción en liberarse de las ataduras a través de hechizos.',
+            "critico": 'Ataca con hechizo: "Immobulus Glacius". Las extremidades del objetivo quedan completamente congeladas y adheridas al suelo. Adiciona +8 en el daño y la víctima pierde su siguiente acción inmediata.',
+          },
+
+          "defensas": {
+            "leve": 'Defiende con hechizo: "Protego". Adiciona +5 de defensa.',
+            "moderado": 'Defiende con hechizo: "Protego". Adiciona +7 de defensa.',
+            "exitoso": 'Defiende con hechizo: "Protego". Adiciona +9 de defensa.',
+            "critico": 'Defiende con hechizo: "Protego". Adiciona +12 de defensa.',
+          },
+        },
+        "sombra hermes": {
+          "atributos": ["+7 fue", "+5 con"],
+          "clasificación": "ser / personaje no jugable",
+          "descripción": "personaje no jugable",
+          "ataques": {
+            "leve": 'Ataca con hechizo: "Repello Inimicum". El enemigo es empujado hacia atrás con fuerza y su ataque se desvanece. Adiciona al ataque el daño realizado previamente por el atacante.',
+            "moderado": 'Ataca con hechizo: "Levare". El objetivo es lanzado con fuerza al aire, sufriendo una caída dolorosa. Adiciona +12 al daño.',
+            "exitoso": 'Ataca con hechizo: "Ignis Funis". La cuerda envuelve firmemente al objetivo, causando quemaduras y restringiendo su movimiento. Adiciona +10 en daño y la víctima perderá su siguiente acción instantánea.',
+            "critico": 'Ataca con hechizo: "Ebublio". El objetivo es completamente atrapado en una burbuja sólida, solo rompible con fuerza significativa. La víctima deberá tirar un lado de acción y sumar su fuerza, si el resultado es mayor a 20 queda liberado. En caso de no poder liberarse, deberá rolear 2 respuestas para que la burbuja se rompa.',
+          },
+
+          "defensas": {
+            "leve": 'Defiende con hechizo: "Protego". Adiciona +5 de defensa.',
+            "moderado": 'Defiende con hechizo: "Protego". Adiciona +7 de defensa.',
+            "exitoso": 'Defiende con hechizo: "Protego". Adiciona +9 de defensa.',
+            "critico": 'Defiende con hechizo: "Protego". Adiciona +12 de defensa.',
+          },
+        },
+        "sombra minerva": {
+          "atributos": ["+5 fue", "+6 con"],
+          "clasificación": "ser / personaje no jugable",
+          "descripción": "personaje no jugable",
+          "ataques": {
+            "leve": 'Ataca con hechizo: "Colloshoo". El objetivo queda pegado al suelo hasta que se le libere mágicamente, todas las acciones hasta que se libere pierden -5 puntos.',
+            "moderado": 'Ataca con hechizo: "Obscuro". El objetivo queda completamente cegado hasta que se elimine el hechizo. Disminuye 4 puntos de sus siguientes dos acciones o hasta que se libere del encantamiento.',
+            "exitoso": 'Ataca con hechizo: "Fulgari". Las cuerdas atan firmemente al objetivo, restringiendo su movimiento. Incapacita todas las acciones de la víctima hasta que no se la libere.',
+            "critico": 'Ataca con hechizo: "Desmaius". El objetivo cae inconsciente al instante. La víctima pierde sus siguientes 2 acciones.',
+          },
+
+          "defensas": {
+            "leve": 'Defiende con hechizo: "Protego". Adiciona +6 de defensa.',
+            "moderado": 'Defiende con hechizo: "Protego". Adiciona +8 de defensa.',
+            "exitoso": 'Defiende con hechizo: "Protego". Adiciona +10 de defensa.',
+            "critico": 'Defiende con hechizo: "Protego". Adiciona +13 de defensa.',
+          },
+        },
+        "sombra montgomery": {
+          "atributos": ["+3 fue", "+3 con"],
+          "clasificación": "ser / personaje no jugable",
+          "descripción": "personaje no jugable",
+          "ataques": {
+            "leve": 'Ataca con hechizo: "Expelliarmus". El objeto es expulsado con fuerza y queda fuera del alcance inmediato del objetivo. El objetivo pierde una acción utilizada para recuperar su varita.',
+            "moderado": 'Ataca con hechizo: "Mimble Wimble". La víctima apenas puede pronunciar palabras coherentes, dificultando cualquier comunicación. Pierde 5 puntos en todos los hechizos verbales.',
+            "exitoso": 'Ataca con hechizo: "Flipendo". El oponente es derribado y lanzado al suelo. Adiciona +10 en el daño.',
+            "critico": 'Ataca con hechizo: "Petrificus Totalus". El objetivo queda completamente inmóvil hasta que el efecto se disipe. El personaje no podrá realizar acciones hasta que otro personaje lo libere o realice dos roles. Si al conjurador le anulan acciones, se eliminan los efectos inmediatamente.',
+          },
+
+          "defensas": {
+            "leve": 'Defiende con hechizo: "Protego". Adiciona +3 de defensa.',
+            "moderado": 'Defiende con hechizo: "Protego". Adiciona +5 de defensa.',
+            "exitoso": 'Defiende con hechizo: "Protego". Adiciona +7 de defensa.',
+            "critico": 'Defiende con hechizo: "Protego". Adiciona +10 de defensa.',
+          },
+        },
+      },
+
       "cards": [],
       "searchs": {
         "inspeccionar la escena": {
@@ -1330,9 +1441,9 @@ const MissionsModule = (function () {
           "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "inspeccionar la escena",
           "cont": '<span>«¡Oh, Albus!» dijo Phyllida Spore. «Se ha ido a un congreso en Italia, ya saben como es. Demasiado importante, un ejemplo de mago. Creo que debería estar a cargo de la dirección ahora que Dippet...» Dejó la frase sin terminar, aunque todos sabían a qué se refería. Incluso aunque no estuviera muerto, aquello no podía terminar de otra manera más que con la renuncia del mismo. «Ya se lo hemos comunicado, dijo que viajará tan pronto sea posible, pero le tomará unas horas».</span>',
         },
-        "trampa los libros": {
+        "el reflejo en el techo": {
           "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar a los cuadros vieron algo extraño antes de ser cegado",
-          "cont": 'Completar',
+          "cont": '<span>Al observar el techo, pueden notar un reflejo borroso de la realidad. Al principio sus propios reflejos parecen ser iguales e imitan sus movimientos. Sin embargo, cuando un personaje aparta la mirada, todos los reflejos toman forma propia. Cayendo del reflejo al despacho. Deberán incluir los siguientes personajes no jugables y enfrentarse a sus propios reflejos. Cuando un personaje logre liberarse de su sombra podrán pedir intervención al staff: Sombra Aidan (6 FUE / 6 CON), Sombra Cuthbert (6 FUE / 5 CON), Sombra Hermes (7 FUE / 5 CON), Sombra Minerva (5 FUE / 6 CON) y Sombra Monthgomery (3 FUE / 3 CON). Solo podrán enfrentarse a su propia sombra.</span>',
         },
       },
       "actions": {
@@ -3392,7 +3503,15 @@ const MissionsModule = (function () {
         },
         "informe de la morgue": {
           "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "nigromante", "name": "invalid", }, "place": "bitácora de los hechos nro.05",
-          "cont": 'Completar'
+          "cont": '<span><span class="book-clipping"><br><div align="center"><strong>PERGAMINO DE DEFUNCIÓN</strong><br><i>Hospital San Mungo para Enfermedades y Heridas Mágicas – Archivo de los Caídos</i></div><br><strong>Nombre Completo del Paciente</strong>: Wrenn Wraithwood<br><strong>No. Expediente</strong>: SM-FD/5034-G<br><strong>Fecha de Ingreso</strong>: 11 de Enero de 1952.<br><strong>Fecha de fallecimiento</strong>: 11 de Enero de 1952 a las 9:42 am.<br><br><strong>Edad</strong>: 31 años.<br><strong>Sangre</strong>: ☐ Pura &nbsp;☒ Mestiza &nbsp;☐ Muggle &nbsp;☐ Criatura<br><br><strong>Motivo del ingreso</strong>: Víctima de la explosión de un bombarda que ella misma conjuró.<br><strong>Causa de fallecimiento</strong>: Traumatismo masivo por la explosión que causó un daño multisistémico instantáneo; destrucción cerebral y del tallo encefálico, causando la desintegración de las estructuras vitales que controlan el cuerpo; exanguinación, la pérdida de sangre rápida y masiva por la rotura de grandes vasos y órganos; laceración y fragmentación de órganos virales, provocando un daño físico al corazón, pulmones y aorta que es incompatible con la vida.<br><br><strong>Área médica asignada</strong>: Archivo de los caídos.<br><strong>Atendido por</strong>: Jasper R. Gryffith, nigromante.<br><strong>Acompañante familiar</strong>: Nina Wraithwood (hermana)<br><br><strong>Anexos</strong>:<br>☒ Firma de Jasper R. Gryffith.<br>☒ Firma de Nina Wraithwood.<br>☒ Sello de defunción emitido.</span></span>'
+        },
+        "información adicional por presencia": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "parkinson", }, "place": "bitácora de los hechos nro.05",
+          "cont": '<span>Como alguien que participó de aquella situación, puedes constatar que toda la información revelada ha sido la correcta. Se suponía que el caso era sencillo, atrapar al legeremante e irse. Solo que no era un legeremante, sino dos nigromantes. Había una veela que mantenían drogada y era la que usaban para extraer la información. Esa información está censurada para proteger la identidad de la víctima. La identidad de la víctima no fue revelada y se la llevaron a otro país donde pudiera iniciar su vida desde cero. Sin embargo, el personaje puede haber estado presente cuando se comprobó que se trataba de una veela.</span>'
+        },
+        "informe de asaldo 11 de enero de 1952": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "bitácora de los hechos nro.05",
+          "cont": '<span><span class="book-clipping"><br><div align="center"><strong>INFORME DE ASALTO: 11 DE ENERO DE 1952 A LAS 10:30 AM</strong><br><i>Ministerio de Magia – Departamento de Seguridad</i></div><br><strong>Resumen Ejecutivo</strong>: Bajo la autorización directa del Jefe del Departamento, Edwin Merrythought, se procedió a la interceptación y captura de dos individuos vinculados a artes oscuras. Debido a la peligrosidad de los sujetos y la inmediatez del riesgo de fuga tras una escena del crimen activa, los protocolos de captura se formalizaron a posteriori de la intervención.<br><br><strong>Detalle del Enfrentamiento</strong>: La unidad de intervención localizó a los sospechosos en las afueras de Leeds. Se produjo un duelo mágico de alta intensidad con una duración aproximada de 25 minutos.<br><br>- Bajas/Heridos: Ninguna víctima fatal reportada.<br>- Intervención civil: Se requirió el despliegue del Comité de Disculpas para Muggles para la aplicación masiva de encantamientos desmemorizantes y reparación de daños estructurales en el área.<br><br><strong>Identificación de los detenidos</strong>: Los sujetos han sido identificados como: <br>- Yusuf Lochlan: Ex nigromante de San Mungo.<br>- Vinnie Grayson: Ex nigromante de San Mungo.<br><br>Antecedentes: Ambos sirvieron en el Archivo de los Caídos hasta 1938 y fueron reportados como desaparecidos de la sociedad mágica británica en 1947.<br><br><strong>Hallazgos y Evidencias</strong>: <br>- Marca Distintiva: Ambos detenidos presentan una quemadura queloide en el antebrazo con la forma de una "W" alargada y de puntas afiladas. Se investiga posible vinculación con organizaciones clandestinas.<br><br><strong>Declaraciones de los imputados</strong>: Tras el interrogatorio bajo los protocolos estándar de seguridad, ambos detenidos coincidieron en sus testimonios:<br><br><i>Los imputados admitieron haber actuado bajo estricta voluntad propia, negando coacción externa. Confesaron mantener a la Veela en cautiverio con el único fin de explotar sus facultades mágicas para la sustracción de información confidencial, la cual era posteriormente subastada al mejor postor en el mercado negro.</i><br><br>Firma: <i class="fi fi-tr-signature" style="font-size: 30px; margin-bottom: -25px; display: block; margin-right: 30px;"></i><br>_________________________<br>Nombre y título: Edwin Merrythought, Jefe del Departamento de Seguridad Mágica.<br></span></span>'
         },
       },
 
