@@ -3590,6 +3590,14 @@ const MissionsModule = (function () {
           "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "origen del tatuaje",
           "cont": '<span>Wrenn pertenció a la casa Gryffindor, en conscuencia, no puede haber tenido nunca aquel tatuaje.</span>',
         },
+        "soly nisrine: información": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "soly",
+          "cont": '<span>Soly Nisrine fue una estudiante que egresó de Hogwarts en 1920. Se dice que era una alumna muy brillante, con mucho potencial mágico. Trabajó como magizoologa en la Reserva Natural de Flint. Sin embargo, el 9 de Enero de 1952, sus padres confesaron encontrar a Soly muerta en el baño de la casa. La causa de la muerte fue suicidio.</span>',
+        },
+        "soly nisrine: certificado de defunción": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "nigromante", "name": "invalid", }, "place": "soly",
+          "cont": '<span>Jasper puede reconocer el nombre, dado que le informaron que había que hacer una autopsia y se encontró a los padres junto al personal del Ministerio y San Mungo, porque su hija había muerto y no querían que nadie realizara esas tareas sobre ellas. Después de una gran discusión, los padres se llevaron al cuerpo de su hija sin que se pueda realizar la autopsia.</span>',
+        },
         "hechizos habilitados": {
           "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "nigromante", "name": "invalid", }, "place": "origen del tatuaje",
           "cont": '<span>Mientras el grupo debate, un memo volador llega al espacio de trabajo, firmado por el actual Director de San Mungo indicando: <span class="book-clipping">Gryffith, conseguí la autorización. Por el día de la fecha puedes realizar los siguientes hechizos de los inefables: memoriae vestigium, . Adjunto la información que me mandaron para que puedas realizarlos. Éxitos.</span></span>',
@@ -3650,6 +3658,12 @@ const MissionsModule = (function () {
           "moderado": '<span>Los síntomas de los efectos de la canción de Banshee desaparecen de todos los presentes.</span>',
           "exitoso": '<span>Los síntomas de los efectos de la canción de Banshee desaparecen de todos los presentes.</span>',
           "critico": '<span>Los síntomas de los efectos de la canción de Banshee desaparecen de todos los presentes.</span>',
+        },
+        "extractum genericae": {
+          "leve": '<span>Permite identificar a la víctima como Soly Nisrine.<adding search="soly" class="check-cards"></adding></span>',
+          "moderado": '<span>Permite identificar a la víctima como Soly Nisrine.<adding search="soly" class="check-cards"></adding></span>',
+          "exitoso": '<span>Permite identificar a la víctima como Soly Nisrine.<adding search="soly" class="check-cards"></adding></span>',
+          "critico": '<span>Permite identificar a la víctima como Soly Nisrine.<adding search="soly" class="check-cards"></adding></span>',
         },
         "specialis revelio": {
           "leve": '<span>No es suficiente para revelar la información.</span>',
