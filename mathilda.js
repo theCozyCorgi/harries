@@ -3600,7 +3600,7 @@ const MissionsModule = (function () {
         },
         "hechizos habilitados": {
           "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "nigromante", "name": "invalid", }, "place": "origen del tatuaje",
-          "cont": '<span>Mientras el grupo debate, un memo volador llega al espacio de trabajo, firmado por el actual Director de San Mungo indicando: <span class="book-clipping">Gryffith, conseguí la autorización. Por el día de la fecha puedes realizar los siguientes hechizos de los inefables: memoriae vestigium, . Adjunto la información que me mandaron para que puedas realizarlos. Éxitos.</span></span>',
+          "cont": '<span>Mientras el grupo debate, un memo volador llega al espacio de trabajo, firmado por el actual Director de San Mungo indicando: <span class="book-clipping">Gryffith, conseguí la autorización. Por el día de la fecha puedes realizar los siguientes hechizos de los inefables: memoriae vestigium, vestigium sanguinis y extractum genericae. Adjunto la información que me mandaron para que puedas realizarlos. Éxitos.</span></span>',
         },
       },
 
