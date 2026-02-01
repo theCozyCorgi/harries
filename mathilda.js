@@ -5735,7 +5735,7 @@ const MissionsModule = (function () {
     "quidditch": {
       "description": "",
       "image": "", "requisitos": [],
-      "users": ["/u118", "/u24", "/u34", "/u63", "/u119", "/u38", "/u12"],
+      "users": ["/u118", "/u24", "/u34", "/u63", "/u119", "/u38", "/u12","/u152"],
       "dependency": [],
       "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
 
