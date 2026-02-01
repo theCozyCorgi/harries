@@ -2090,7 +2090,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/uhzqWY8.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica"],
       "users": ["/u50", "/u13"],
       "dependency": ["traces in black"],
-      "type": "interrogatorio", "closed": false, "link": "/t660-interrogatorio-the-foretold-story", "tagged": ["sirius"],
+      "type": "interrogatorio", "closed": true, "link": "/t660-interrogatorio-the-foretold-story", "tagged": ["sirius"],
 
       "cards": [],
       "searchs": {},
