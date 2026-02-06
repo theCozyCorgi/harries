@@ -1573,7 +1573,7 @@ const MissionsModule = (function () {
     "the price of silence": {
       "description": "El animal al que pertenece la toxina, es propio del suroeste asiático, pero aquello no es lo más exótico, sino que su compra y venta de veneno es ilegal. La investigación se mueve hacia algún contrabandista que quiera dar la información sobre dónde puede conseguirse dicho ingrediente para generar el veneno que, aparentemente, ha acabado con la vida de Sirius Black.",
       "image": "https://2img.net/i.imgur.com/GfHnpgi.png", "requisitos": ["un miembro del departamento del Seguridad Mágica", "Un personaje con Contrabando en Avanzado"],
-      "users": [],
+      "users": ["/u134"],
       "dependency": ["ryu's breath"],
       "type": "misión", "closed": false, "link": "", "tagged": ["sirius"],
 
@@ -2090,7 +2090,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/uhzqWY8.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica"],
       "users": ["/u50", "/u13"],
       "dependency": ["traces in black"],
-      "type": "interrogatorio", "closed": false, "link": "/t660-interrogatorio-the-foretold-story", "tagged": ["sirius"],
+      "type": "interrogatorio", "closed": true, "link": "/t660-interrogatorio-the-foretold-story", "tagged": ["sirius"],
 
       "cards": [],
       "searchs": {},
@@ -2101,7 +2101,7 @@ const MissionsModule = (function () {
     "whispers of the future": {
       "description": "Con la historia que lograron recabar del interrogatorio de la señora Flint, lo único que queda es validar que sea verdad. Por lo tanto, un miembro del departamento de seguridad y un inefable, se internarán dentro de los pasillos de la cámara de las profecías para ver si Úrsula tenía razón o si solo eran los dichos de una señora que ya entró en la edad de inventar aquello que no recuerda.",
       "image": "https://2img.net/i.imgur.com/NhDTPNU.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica", "Un inefable"],
-      "users": [],
+      "users": ["/u50","/u150","/u17",],
       "dependency": ["the foretold story"],
       "type": "investigación", "closed": false, "link": "", "tagged": ["sirius"],
 
@@ -5739,7 +5739,7 @@ const MissionsModule = (function () {
     "quidditch": {
       "description": "",
       "image": "", "requisitos": [],
-      "users": ["/u118", "/u24", "/u34", "/u63", "/u119", "/u38", "/u12"],
+      "users": ["/u118", "/u24", "/u34", "/u63", "/u119", "/u38", "/u12","/u152"],
       "dependency": [],
       "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
 
