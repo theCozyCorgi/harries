@@ -1176,6 +1176,26 @@ const MissionsModule = (function () {
           "visible": { "attr": { "sab": "3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "sala de molienda",
           "cont": '<span>Los huecos en el techo no son más que tubos por los que procesaban el grano, transportando el mismo de una sala a la otra.</span>',
         },
+        "el hueco detrás de la pared": {
+          "visible": { "attr": { "int": "3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "tubos de granos",
+          "cont": '<span>Detrás del lugar donde estaban los tubos, puedo observarse un espacio que demostró los destrozos del incendio, pues permiten pasar a la habitación continua, si se tiene cuidado con el pasaje. La habitación de al lado parece haber sido completamente destruida por el fuego, pero puede notarse un espacio vasto con suelos de baldosas rojas, ahora agrietados y cubiertos por una capa de polvo que oculta su hermoso color.</span>',
+        },
+        "la sala de maceración": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "el hueco detrás de la pared",
+          "cont": '<span>Lo más impresionante son los enormes huecos circulares en el suelo donde antes encajaban las tinas de maceración de madera o hierro. Al mirar hacia abajo, se ve el sótano y las tuberías de drenaje cortadas que parecen arterias expuestas. Las paredes conservan una marca de humedad a media altura, recuerdo del vapor constante que alguna vez llenó la habitación. Es un lugar húmedo y sombrío donde el eco de los pasos se amplifica.</span>',
+        },
+        "escalera al sótano": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "la sala de maceración",
+          "cont": '<span>Una escalera de madera que conduce al sótano, o eso solía hacerlo. La madera completamente destruida por el fuego, solo ha dejado un vago recuerdo de lo que había sido y un vacío que indica que es mala idea intentar bajar por allí.</span>',
+        },
+        "puerta caída": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "la sala de maceración",
+          "cont": '<span>Una puerta de madera caída, que probablemente fue arrancada por el fuego. La madera está completamente carbonizada, y el marco de hierro está oxidado. No hay forma de saber si la puerta era una entrada o una salida, pero si se pasa por las vigas caídas, se puede llegar al siguiente espacio.</span>',
+        },
+        "cuarto de levaduras": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "puerta caída",
+          "cont": '<span>Un pequeño cuarto de levaduras. Las paredes están cubiertas de una capa de polvo y humedad. Se puede notar un olor a levadura que aún perdura con el tiempo y a madera vieja quemada. Gran parte del lugar esta revestido con azulejos blancos que pasaron a ser amarillos y negros, y se han cubierto con una capa de moho. Parece ser la parte más fría de toda la estructura, pues el frío sopla con fuerza por los huecos de las paredes.</span>',
+        },
       },
       "actions": {
 
