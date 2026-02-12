@@ -3148,8 +3148,8 @@ const MissionsModule = (function () {
     // fin unveiling the unseen
 
     "stargazer's night": {
-      "description": "La investigación los lleva a un nuevo espacio guíado por el mismo Edwin Merrythought, aunque no saben a dónde conduce. EDITAR",
-      "image": "https://2img.net/i.imgur.com/3N0DmMz.png", "requisitos": ["Un miembro debe poseer Aritmancia en Avanzado"],
+      "description": "La investigación los lleva a un nuevo espacio guíado por el mismo Edwin Merrythought, aunque no saben a dónde conduce. Lo que implica una nueva investigación para descubrir qué es ese lugar, por qué Edwin lo guió allí y qué relación tiene con los asesinatos.",
+      "image": "https://2img.net/i.imgur.com/3N0DmMz.png", "requisitos": ["Un miembro debe pertenecer a la familia Merrythought o ser un conocido cercano a la misma"],
       "users": [],
       "dependency": ["unveiling the unseen"],
       "type": "investigación", "closed": false, "link": "", "tagged": ["edwin"],
@@ -3164,7 +3164,7 @@ const MissionsModule = (function () {
       "description": "Los frascos encontrados son enviados a los laboratorios de San Mungo para que estos puedan investigar qué poseían en el mismo y por qué Edwin los trató de descartar.",
       "image": "https://2img.net/i.imgur.com/Bt35Exz.png", "requisitos": ["Un miembro debe poseer Alquimia o Pociones en Avanzado"],
       "users": [],
-      "dependency": ["unveiling the unseen"],
+      "dependency": ["unveiling the unseen","stargazer's night"],
       "type": "investigación", "closed": false, "link": "", "tagged": ["edwin"],
 
       "cards": [],
