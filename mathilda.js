@@ -2035,7 +2035,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/MAA4xsy.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica"],
       "users": ["i/u97", "/u8"],
       "dependency": ["the withered pot", "ember pass"],
-      "type": "interrogatorio", "closed": false, "link": "/t847-interrogatorio-the-fortune-of-the-three-eyes", "tagged": ["sirius"],
+      "type": "interrogatorio", "closed": true, "link": "/t847-interrogatorio-the-fortune-of-the-three-eyes", "tagged": ["sirius"],
 
       "cards": [],
       "searchs": {},
@@ -2826,7 +2826,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/faVXbWl.png", "requisitos": ["Un miembro de la familia Merrythrought o un amigo cercano a la familia", "Un miembro del Dpto de Seguridad Mágica", "Un miembro debe poseer Astronomía en Avanzado"],
       "users": ["/u7", "/u50", "/u8", "/u55", "/u130"],
       "dependency": ["commander's orders"],
-      "type": "misión", "closed": false, "link": "/t665-mision-unveiling-the-unseen", "tagged": ["edwin"],
+      "type": "misión", "closed": true, "link": "/t665-mision-unveiling-the-unseen", "tagged": ["edwin"],
 
       "cards": [
         {
@@ -3492,7 +3492,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/5xLMKUg.png", "requisitos": ["Un personaje deberá ser miembro del Departamento de Seguridad"],
       "users": ["c/u8", "c/u55","/u78","/u146"],
       "dependency": ["frozen sunflowers"],
-      "type": "investigación", "closed": false, "link": "https://blackwave.foroactivo.com/t934-investigacion-midnight-ashes", "tagged": ["original"],
+      "type": "investigación", "closed": true, "link": "https://blackwave.foroactivo.com/t934-investigacion-midnight-ashes", "tagged": ["original"],
 
       "cards": [],
 
