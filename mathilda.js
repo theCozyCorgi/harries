@@ -2239,7 +2239,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/3KEU7L5.png", "requisitos": ["Un miembro debe poseer Historia de la Magia en Avanzado", "Un miembro debe tener Curacion en Avanzado"],
       "users": ["/u55", "/u8","/u91"],
       "dependency": ["wounds from the past"],
-      "type": "investigación", "closed": false, "link": "https://blackwave.foroactivo.com/t836-investigacion-muted-magic", "tagged": ["morgana"],
+      "type": "investigación", "closed": true, "link": "https://blackwave.foroactivo.com/t836-investigacion-muted-magic", "tagged": ["morgana"],
 
       "cards": [],
 
