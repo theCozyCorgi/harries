@@ -3160,11 +3160,24 @@ const MissionsModule = (function () {
     },
     // fin stargazer's night
 
+    "dayflower gardens": {
+      "description": "Tras la investigación sobre el lugar al que Edwin los llevó, descubren la existencia de una herencia de los Merrythought. Un lugar que había sido abandonado, pero cuyo objetivo se centra en ser un pulmón verde en las tierras escocesas. En esta misión se busca descubrir qué relación tiene este lugar con los asesinatos y por qué Edwin los llevó allí.",
+      "image": "https://2img.net/i.imgur.com/3N0DmMz.png", "requisitos": ["Un miembro debe pertenecer a la familia Merrythought o ser un conocido cercano a la misma","Un miembro debe poseer Herbología en Avanzado", "Un miembro debe poseer Música en Avanzado"],
+      "users": [],
+      "dependency": ["stargazer's night"],
+      "type": "misión", "closed": false, "link": "", "tagged": ["edwin"],
+
+      "cards": [],
+      "searchs": {},
+      "actions": {},
+    },
+    // fin stargazer's night
+
     "velvet death": {
       "description": "Los frascos encontrados son enviados a los laboratorios de San Mungo para que estos puedan investigar qué poseían en el mismo y por qué Edwin los trató de descartar.",
       "image": "https://2img.net/i.imgur.com/Bt35Exz.png", "requisitos": ["Un miembro debe poseer Alquimia o Pociones en Avanzado"],
       "users": [],
-      "dependency": ["unveiling the unseen","stargazer's night"],
+      "dependency": ["dayflower gardens"],
       "type": "investigación", "closed": false, "link": "", "tagged": ["edwin"],
 
       "cards": [],
