@@ -3491,7 +3491,7 @@ const MissionsModule = (function () {
           "cont": '<span>En los registros oficiales del Ministerio de Magia, el nombre de Daelan Blevins figura bajo la etiqueta de Squib. Actualmente, reside con su madre, manteniendo un vínculo estrecho con la única parte de su herencia que parece aceptarlo plenamente.</span>'
         },
         {
-          "visible": { "attr": { "val": "min" }, "know": { "estudios muggles": "10" }, "job": "seguridad", "name": "invalid", }, "place": "",
+          "visible": { "attr": { "val": "min" }, "know": { "estudios muggles": "10" }, "job": "invalid", "name": "invalid", }, "place": "",
           "cont": '<span>Para un conocedor del mundo muggle, el apellido Blevins evoca antiguas raíces galesas, derivado del nombre Bleddyn, que significa "cachorro de lobo". Es un apellido que habla de linajes humildes pero resistentes, de pastores y artesanos que trabajaron la tierra mucho antes de que el Ministerio empezara a clasificar la sangre.</span>'
         }
       ],
