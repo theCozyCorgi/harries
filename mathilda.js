@@ -3481,9 +3481,41 @@ const MissionsModule = (function () {
       "dependency": ["frozen sunflowers"],
       "type": "investigación", "closed": false, "link": "", "tagged": ["original"],
 
-      "cards": [],
+      "cards": [
+        {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
+          "cont": '<span>Con poco más de veinte años, Daelan Blevins posee una presencia física difícil de ignorar pero fácil de subestimar. Su figura es esbelta y larguirucha, marcada por facciones puntiagudas que le dan un perfil definido y algo severo. El color arena de su cabello contrasta con la calidez de sus ojos castaños, mientras que sus orejas, algo despegadas, rompen la simetría de su rostro dándole un aspecto genuino. Es, en todo sentido, el retrato de la juventud temprana: enérgico, algo desgarbado y claramente en pleno crecimiento.</span>'
+        },
+        {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "",
+          "cont": '<span>En los registros oficiales del Ministerio de Magia, el nombre de Daelan Blevins figura bajo la etiqueta de Squib. Actualmente, reside con su madre, manteniendo un vínculo estrecho con la única parte de su herencia que parece aceptarlo plenamente.</span>'
+        },
+        {
+          "visible": { "attr": { "val": "min" }, "know": { "estudios muggles": "10" }, "job": "seguridad", "name": "invalid", }, "place": "",
+          "cont": '<span>Para un conocedor del mundo muggle, el apellido Blevins evoca antiguas raíces galesas, derivado del nombre Bleddyn, que significa "cachorro de lobo". Es un apellido que habla de linajes humildes pero resistentes, de pastores y artesanos que trabajaron la tierra mucho antes de que el Ministerio empezara a clasificar la sangre.</span>'
+        }
+      ],
       "searchs": {},
-      "actions": {},
+      "actions": {
+        "legeremens": {
+          "leve": '<span>No es suficiente para revelar información.</span>',
+          "moderado": '<span>Si se buscan los recuerdos de ese día, puede recordar que Daelan se encontraba ingresando a la cabaña cuando sintió un golpe por detrás que lo dejó inconsciente.</span>',
+          "exitoso": '<span>Si se buscan los recuerdos de ese día, puede recordar que Daelan se encontraba ingresando a la cabaña cuando sintió un golpe por detrás que lo dejó inconsciente.</span>',
+          "critico": '<span>Si se buscan los recuerdos de ese día, puede recordar que Daelan se encontraba ingresando a la cabaña cuando sintió un golpe por detrás que lo dejó inconsciente.</span>',
+        },
+        "sensum eximo": {
+          "leve": '<span>No es suficiente para revelar información.</span>',
+          "moderado": '<span>Puede notarse que el joven esta nervioso, si bien esta intentando colaborar, ver a tantas personas juntas lo altera.</span>',
+          "exitoso": '<span>Puede notarse que el joven esta nervioso, si bien esta intentando colaborar, ver a tantas personas juntas lo altera.</span>',
+          "critico": '<span>Puede notarse que el joven esta nervioso, si bien esta intentando colaborar, ver a tantas personas juntas lo altera.</span>',
+        },
+        "veritas relego": {
+          "leve": '<span>No es suficiente para revelar información.</span>',
+          "moderado": '<span>Permite confirmar que Daelan no mintió en ninguna pregunta.</span>',
+          "exitoso": '<span>Permite confirmar que Daelan no mintió en ninguna pregunta.</span>',
+          "critico": '<span>Permite confirmar que Daelan no mintió en ninguna pregunta.</span>',
+        },
+      },
     },
     // silent sentinel
 
