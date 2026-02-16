@@ -3554,11 +3554,11 @@ const MissionsModule = (function () {
           "cont": '<span>Tras presentarse como neutrales, el tono de la banda se vuelve burlón: «Si no traes causa ni guerra, y tu sangre es de cristal, / el baño está a la derecha, al fondo del pastizal. / Si el vientre te ruge fuerte y el apuro te condena, / abre bien la ventana para que el aire no dé pena».</span>'
         },
         "volver a presentarse como miembros del ministerio":{
-          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
+          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "presentarse como personas que buscan información",
           "cont": '<span>Tras corregir la presentación y confesar ser enviados por el Ministerio de Magia, Cillian da un golpe violento a la caja de la guitarra antes de señalar al grupo: «Amigo, a nosotros no se nos engaña con ese disfraz barato, / el ojo que todo lo ve ha detectado el maltrato. / Dos mil galeones de multa por el error cometido, / el precio de ser un sordo en este nido de ruido».</span>'
         },
         "pagar":{
-          "visible": { "attr": { "int": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
+          "visible": { "attr": { "int": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "volver a presentarse como miembros del ministerio",
           "cont": '<span>La música, detenida por un momento, cobra el ritmo nuevamente, de una manera prolija y profesional: «Ya suena el metal de nuevo, el costo de ser sincero, / nuestras rimas son de acero, pero el trato es lo primero. / No aceptamos la mentira en el verso ni en el suelo, / ahora habla con la verdad, o busca paz en el cielo».<adding search="comenzar interrogatorio" class="check-cards"></adding></span>'
         },
         "preguntar por los denmar":{
