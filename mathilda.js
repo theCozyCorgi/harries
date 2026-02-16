@@ -3479,7 +3479,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/fDwQ2CI.png", "requisitos": ["Un personaje deberá ser miembro del Departamento de Seguridad"],
       "users": ["c/u8", "c/u55", "/u146", "/u130"],
       "dependency": ["frozen sunflowers"],
-      "type": "investigación", "closed": false, "link": "", "tagged": ["original"],
+      "type": "investigación", "closed": false, "link": "/t984-interrogatorio-silent-sentinel", "tagged": ["original"],
 
       "cards": [
         {
@@ -3524,7 +3524,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/tKGTsc9.png", "requisitos": ["Un miembro debe tener Contrabando en Avanzado", "Un miembro debe tener Magia Oscura en Consagrado"],
       "users": ["c/u131","/u8","/u55","/u9","/u145"],
       "dependency": ["frozen sunflowers"],
-      "type": "misión", "closed": false, "link": "", "tagged": ["original"],
+      "type": "misión", "closed": false, "link": "/t983-mision-clandestine-melodies", "tagged": ["original"],
 
       "cards": [],
 
