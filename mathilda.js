@@ -3495,8 +3495,134 @@ const MissionsModule = (function () {
       "type": "misión", "closed": false, "link": "", "tagged": ["original"],
 
       "cards": [],
-      "searchs": {},
-      "actions": {},
+
+      "searchs": {
+        "presentarse como contrabandistas":{
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
+          "cont": '<span>A ritmo constante de una marcha exigente y ruda, la banda responde: «A nadie cerramos la puerta si el rastro es de oscuridad, / pero el hierro no se dobla sin la palabra de verdad. / Di el nombre que abre el cerrojo, suelta el santo y la señal, / y verás que nuestra lengua no distingue el bien del mal».</span>'
+        },
+        "ofrecer la contraseña":{
+          "visible": { "attr": { "val": "min" }, "know": { "contrabando": "10" }, "job": "invalid", "name": "invalid", }, "place": "presentarse como contrabandistas",
+          "cont": '<span>Tras brindar la contraseña, que es nombrar al primer trovador en entonar una nota, en este caso Tadhg, el ritmo de la guitarra cambia. Las notas se vuelven más suaves y cálidas, un acorde de Sol Mayor: «Viejo amigo de las sombras, es un gusto volverte a ver, / dime qué carga traes hoy que nos pueda convencer. / ¿Buscas llenar los bolsillos, o que el cuervo dicte sentencia? / ¿O es que el camino te pesa y buscas paz y clemencia?».<adding search="comenzar interrogatorio" class="check-cards"></adding></span>'
+        },
+        "deducir la contraseña":{
+          "visible": { "attr": { "sab": "3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "presentarse como contrabandistas",
+          "cont": '<span>Mientras suena un punteo tenso y agudo esperando la respuesta. El personaje puede darse cuenta de que un par de músicos observan a uno de sus miembros en particular, que suavemente mueve la pierna con una sonrisa vaga en sus labios. El personaje puede señalar al trovador, y varios miembros de la banda mostrarían su sorpresa antes de que Cillian responda: «Bienvenido sea el colega, aunque el rostro no nos suena, / no recordamos tu sombra en esta mesa ajena. / Si quieres ganar el sitio y que el juicio se desvanezca, / haz que un poco de arte negro ante nosotros florezca».</span>'
+        },
+        "inventar la contraseña":{
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "presentarse como contrabandistas",
+          "cont": '<span>Tras inventar una contraseña, la música se detiene de súbito. Algunos miembros cuelgan sus guitarras dando la intervención por terminada: «Lamentamos el desvío, caminante de otra acera, / aquí solo hay viejas cuerdas y madera que desespera. / Somos músicos de paso, no buscamos el conflicto, / siga su ruta, viajero, su nombre no está escrito». <br>Los usuarios deben avisar a la administración. No pasaron la prueba de los trovadores y, en consecuencia, han perdido la misión. Todos los personajes pierden 2 puntos en contrabando o 1 de sabiduría.</span>'
+        },
+        "presentarse como miembros del ministerio":{
+          "visible": { "attr": { "int": "3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
+          "cont": '<span>Tras presentarse como miembros del Ministerio de Magia, los trovadores sonríen, enderezan sus aspectos y acomodan los chalecos o las gabardinas. El tono empleado es servil, pero cargado con una ironía peligrosa: «Por nuestra querida Tuft, lo que el orden necesite, / que la ley toque a la puerta y el miedo se nos quite. / ¿Ha enviado la señora a quien domeñe lo oscuro? / ¿Traes contigo la marca que atraviese este muro?».</span>'
+        },
+        "presentarse como personas que buscan información":{
+          "visible": { "attr": { "int": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
+          "cont": '<span>Tras presentarse como neutrales, el tono de la banda se vuelve burlón: «Si no traes causa ni guerra, y tu sangre es de cristal, / el baño está a la derecha, al fondo del pastizal. / Si el vientre te ruge fuerte y el apuro te condena, / abre bien la ventana para que el aire no dé pena».</span>'
+        },
+        "volver a presentarse como miembros del ministerio":{
+          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
+          "cont": '<span>Tras corregir la presentación y confesar ser enviados por el Ministerio de Magia, Cillian da un golpe violento a la caja de la guitarra antes de señalar al grupo: «Amigo, a nosotros no se nos engaña con ese disfraz barato, / el ojo que todo lo ve ha detectado el maltrato. / Dos mil galeones de multa por el error cometido, / el precio de ser un sordo en este nido de ruido».</span>'
+        },
+        "pagar":{
+          "visible": { "attr": { "int": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
+          "cont": '<span>La música, detenida por un momento, cobra el ritmo nuevamente, de una manera prolija y profesional: «Ya suena el metal de nuevo, el costo de ser sincero, / nuestras rimas son de acero, pero el trato es lo primero. / No aceptamos la mentira en el verso ni en el suelo, / ahora habla con la verdad, o busca paz en el cielo».<adding search="comenzar interrogatorio" class="check-cards"></adding></span>'
+        },
+        "preguntar por los denmar":{
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "comenzar interrogatorio",
+          "cont": '<span>La música se vuelve lenta y lúgubre: «Eran gente simple, de mente muy llana, / que quiso burlar la ley soberana. / Buscaron la vida donde habita el frío, / y el arte prohibido causó su desvío. / La magia tiene fronteras de fuego, / y a los Denmar atrapó en su juego. / La sombra los quiso a todos llevar, / ni un alma quedó para el cuento narrar».</span>'
+        },
+        "preguntar por el anillo":{
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar por los denmar",
+          "cont": '<span>Con una pausa larga, los músicos buscan a Cillian, quien turce el gesto y la música continúa: «Se dice que el viejo, con mano de acero, / cazó a un gran lobo en el monte fiero. / De un hueso bendito talló su amuleto, / cargando en su dedo un poder secreto. / Dicen que el brillo su magia ensanchaba, / y al mismo destino el hombre retaba. / Aunque él con silencio su obra cubrió, / la fama del anillo su tumba cavó».</span>'
+        },
+        "preguntar por los wraitwood":{
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "comenzar interrogatorio",
+          "cont": '<span>La música se vuelve un susurro, los músicos que preguntan a su líder si continuar: «No llames al muerto que duerme en el lodo, / que el nombre de Morian lo pudre todo. / Las gemelas pronto el umbral cruzaron, / y en oscuras artes su sed calmaron. / Dijeron a todos: "Estamos en Francia", / mintiendo con clase y con elegancia. / Pero en Inglaterra la sombra buscaban, / y al mundo entre robos ellas engañaban».</span>'
+        },
+        "preguntar sobre morian":{
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar por los wraitwood",
+          "cont": '<span>Una sonrisa aparece en Cillian y la música cobra ritmo golpeado: «Mejor le hubiera ido al pobre de Zeke, / si el odio fraterno no fuera su trueque. / Escapó de la Parca por sendas extrañas, / burlando a la muerte con mil artimañas. / Pero ella es más lista, su hermana es astuta, / lo halló en el final de su lúgubre ruta. / Las causas son justas, la ley lo aceptó, / y el beso del ente su alma bebió».</span>'
+        },
+        "preguntar por la traición":{
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar sobre morian",
+          "cont": '<span>Puede notarse el respeto de los músicos en aquella parte, el estilo solemne que arrastran con la voz quebrada: «Un padre podrido, de estirpe acabada, / vendió a la muchacha por una tajada. / Tan joven e indigna de tal sufrimiento, / su propia familia fue su tormento. / El hijo mayor puso mano en la infamia, / el menor calló con su cobarde infamia. / Pero ella guardó cada herida y rencor, / tejiendo en su pecho un invierno de horror». Por el fondo se escucha a uno de los músicos negar y decir: «A penas había abandonado los quince». Los otros músicos lo callan, que interrumpa la música.</span>'
+        },
+        "preguntar por la justicia":{
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar por la traición",
+          "cont": '<span>Después de la interrupción, la música cobra ritmo: «La tinta del diario gritó su bajeza, / poniendo precio a cada cabeza. / Pues ella entregó los secretos de casa, / quemando el linaje con fuego y con brasa. / Recibieron todos su amargo merecido, / por lo que a la joven le habían rendido. / Apenas la ley ellos osaron romper, / ella les hizo el infierno conocer». La sonrisa orgullosa de los músicos cobra fuerza, sabiendo que la triste historia tenía final feliz.</span>'
+        },
+        "preguntar por la identidad":{
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar por la justicia",
+          "cont": '<span>La tonada toma silencio, Cillian los observa hasta decidir que son de confianza: «Ya no hay Rosier que recuerde la historia, / borró su apellido de toda memoria. / Ni influencias ni oro la pueden atar, / prefirió su pasado del mapa borrar. / Nosotros la amamos, fue escudo y fue guía, / para que nadie sufra su propia agonía. / Pero hasta en la sombra le guardan respeto, / pues lleva el filo bajo el amuleto».</span>'
+        },
+        "preguntar por el apellido":{
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar por la identidad",
+          "cont": '<span>«Aurelius dejó solo sangre en el suelo, / Valerian fue muerte bajo un negro velo. / Zeke fue Morian, fingiendo su vida, / pero Wilhelmina cerró la salida. / No dejó a ninguno de aquellos varones, / pagaron sus deudas en mil ocasiones. / Salvo a las gemelas, que al ver la matanza, / juraron ser rostro de otra venganza». la música se vuelve desgarradora en esa pequeña parte. Una mueca pues la sangre con sangre se paga.</span>'
+        },
+        "preguntar por wrenn":{
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "comenzar interrogatorio",
+          "cont": '<span>la voz de Cillian se vuelve seca y cortante: «Vendió su linaje, vendió su decencia, / buscando en el mundo mayor eminencia. / Quiso ser más grande que el padre maldito, / y alzó su bandera en un reino proscrito. / Mas puso los ojos en manos erradas, / y vio sus apuestas del todo truncadas. / No pudo el dinero la deuda pagar, / y un tiro en el pecho la fue a silenciar».</span>'
+        },
+      },
+
+      "actions": {
+        "anima vinculum": {
+          "leve": '<span>No es suficiente para revelar información.</span>',
+          "moderado": '<span>Cuando la muestra de magia negra es requerida y el hechizo realizado. El ritmo de la música cambia a un rasgueo desordenado y disonante, celebrando el hechizo realizado: «Ahora que el aire se pudre y el pacto se ha consumado, / un placer es conocerte, compañero del pecado. / Abre el libro de tus cuitas, dinos qué es lo que te guía, / los Fhómhair son tus siervos en este día sombrío».<adding search="comenzar interrogatorio" class="check-cards"></adding></span>',
+          "exitoso": '<span>Cuando la muestra de magia negra es requerida y el hechizo realizado. El ritmo de la música cambia a un rasgueo desordenado y disonante, celebrando el hechizo realizado: «Ahora que el aire se pudre y el pacto se ha consumado, / un placer es conocerte, compañero del pecado. / Abre el libro de tus cuitas, dinos qué es lo que te guía, / los Fhómhair son tus siervos en este día sombrío».<adding search="comenzar interrogatorio" class="check-cards"></adding></span>',
+          "critico": '<span>Cuando la muestra de magia negra es requerida y el hechizo realizado. El ritmo de la música cambia a un rasgueo desordenado y disonante, celebrando el hechizo realizado: «Ahora que el aire se pudre y el pacto se ha consumado, / un placer es conocerte, compañero del pecado. / Abre el libro de tus cuitas, dinos qué es lo que te guía, / los Fhómhair son tus siervos en este día sombrío».<adding search="comenzar interrogatorio" class="check-cards"></adding></span>',
+        },
+        "animae inquisitio": {
+          "leve": '<span>No es suficiente para revelar información.</span>',
+          "moderado": '<span>Cuando la muestra de magia negra es requerida y el hechizo realizado. El ritmo de la música cambia a un rasgueo desordenado y disonante, celebrando el hechizo realizado: «Ahora que el aire se pudre y el pacto se ha consumado, / un placer es conocerte, compañero del pecado. / Abre el libro de tus cuitas, dinos qué es lo que te guía, / los Fhómhair son tus siervos en este día sombrío».<adding search="comenzar interrogatorio" class="check-cards"></adding></span>',
+          "exitoso": '<span>Cuando la muestra de magia negra es requerida y el hechizo realizado. El ritmo de la música cambia a un rasgueo desordenado y disonante, celebrando el hechizo realizado: «Ahora que el aire se pudre y el pacto se ha consumado, / un placer es conocerte, compañero del pecado. / Abre el libro de tus cuitas, dinos qué es lo que te guía, / los Fhómhair son tus siervos en este día sombrío».<adding search="comenzar interrogatorio" class="check-cards"></adding></span>',
+          "critico": '<span>Cuando la muestra de magia negra es requerida y el hechizo realizado. El ritmo de la música cambia a un rasgueo desordenado y disonante, celebrando el hechizo realizado: «Ahora que el aire se pudre y el pacto se ha consumado, / un placer es conocerte, compañero del pecado. / Abre el libro de tus cuitas, dinos qué es lo que te guía, / los Fhómhair son tus siervos en este día sombrío».<adding search="comenzar interrogatorio" class="check-cards"></adding></span>',
+        },
+        "memoriae vestigium": {
+          "leve": '<span>No es suficiente para revelar información.</span>',
+          "moderado": '<span>Cuando la muestra de magia negra es requerida y el hechizo realizado. El ritmo de la música cambia a un rasgueo desordenado y disonante, celebrando el hechizo realizado: «Ahora que el aire se pudre y el pacto se ha consumado, / un placer es conocerte, compañero del pecado. / Abre el libro de tus cuitas, dinos qué es lo que te guía, / los Fhómhair son tus siervos en este día sombrío».<adding search="comenzar interrogatorio" class="check-cards"></adding></span>',
+          "exitoso": '<span>Cuando la muestra de magia negra es requerida y el hechizo realizado. El ritmo de la música cambia a un rasgueo desordenado y disonante, celebrando el hechizo realizado: «Ahora que el aire se pudre y el pacto se ha consumado, / un placer es conocerte, compañero del pecado. / Abre el libro de tus cuitas, dinos qué es lo que te guía, / los Fhómhair son tus siervos en este día sombrío».<adding search="comenzar interrogatorio" class="check-cards"></adding></span>',
+          "critico": '<span>Cuando la muestra de magia negra es requerida y el hechizo realizado. El ritmo de la música cambia a un rasgueo desordenado y disonante, celebrando el hechizo realizado: «Ahora que el aire se pudre y el pacto se ha consumado, / un placer es conocerte, compañero del pecado. / Abre el libro de tus cuitas, dinos qué es lo que te guía, / los Fhómhair son tus siervos en este día sombrío».<adding search="comenzar interrogatorio" class="check-cards"></adding></span>',
+        },
+        "obliviorum sugo": {
+          "leve": '<span>No es suficiente para revelar información.</span>',
+          "moderado": '<span>Cuando la muestra de magia negra es requerida y el hechizo realizado. El ritmo de la música cambia a un rasgueo desordenado y disonante, celebrando el hechizo realizado: «Ahora que el aire se pudre y el pacto se ha consumado, / un placer es conocerte, compañero del pecado. / Abre el libro de tus cuitas, dinos qué es lo que te guía, / los Fhómhair son tus siervos en este día sombrío».<adding search="comenzar interrogatorio" class="check-cards"></adding></span>',
+          "exitoso": '<span>Cuando la muestra de magia negra es requerida y el hechizo realizado. El ritmo de la música cambia a un rasgueo desordenado y disonante, celebrando el hechizo realizado: «Ahora que el aire se pudre y el pacto se ha consumado, / un placer es conocerte, compañero del pecado. / Abre el libro de tus cuitas, dinos qué es lo que te guía, / los Fhómhair son tus siervos en este día sombrío».<adding search="comenzar interrogatorio" class="check-cards"></adding></span>',
+          "critico": '<span>Cuando la muestra de magia negra es requerida y el hechizo realizado. El ritmo de la música cambia a un rasgueo desordenado y disonante, celebrando el hechizo realizado: «Ahora que el aire se pudre y el pacto se ha consumado, / un placer es conocerte, compañero del pecado. / Abre el libro de tus cuitas, dinos qué es lo que te guía, / los Fhómhair son tus siervos en este día sombrío».<adding search="comenzar interrogatorio" class="check-cards"></adding></span>',
+        },
+        "reductus bestia": {
+          "leve": '<span>No es suficiente para revelar información.</span>',
+          "moderado": '<span>Cuando la muestra de magia negra es requerida y el hechizo realizado. El ritmo de la música cambia a un rasgueo desordenado y disonante, celebrando el hechizo realizado: «Ahora que el aire se pudre y el pacto se ha consumado, / un placer es conocerte, compañero del pecado. / Abre el libro de tus cuitas, dinos qué es lo que te guía, / los Fhómhair son tus siervos en este día sombrío».<adding search="comenzar interrogatorio" class="check-cards"></adding></span>',
+          "exitoso": '<span>Cuando la muestra de magia negra es requerida y el hechizo realizado. El ritmo de la música cambia a un rasgueo desordenado y disonante, celebrando el hechizo realizado: «Ahora que el aire se pudre y el pacto se ha consumado, / un placer es conocerte, compañero del pecado. / Abre el libro de tus cuitas, dinos qué es lo que te guía, / los Fhómhair son tus siervos en este día sombrío».<adding search="comenzar interrogatorio" class="check-cards"></adding></span>',
+          "critico": '<span>Cuando la muestra de magia negra es requerida y el hechizo realizado. El ritmo de la música cambia a un rasgueo desordenado y disonante, celebrando el hechizo realizado: «Ahora que el aire se pudre y el pacto se ha consumado, / un placer es conocerte, compañero del pecado. / Abre el libro de tus cuitas, dinos qué es lo que te guía, / los Fhómhair son tus siervos en este día sombrío».<adding search="comenzar interrogatorio" class="check-cards"></adding></span>',
+        },
+        "serpens internus": {
+          "leve": '<span>No es suficiente para revelar información.</span>',
+          "moderado": '<span>Cuando la muestra de magia negra es requerida y el hechizo realizado. El ritmo de la música cambia a un rasgueo desordenado y disonante, celebrando el hechizo realizado: «Ahora que el aire se pudre y el pacto se ha consumado, / un placer es conocerte, compañero del pecado. / Abre el libro de tus cuitas, dinos qué es lo que te guía, / los Fhómhair son tus siervos en este día sombrío».<adding search="comenzar interrogatorio" class="check-cards"></adding></span>',
+          "exitoso": '<span>Cuando la muestra de magia negra es requerida y el hechizo realizado. El ritmo de la música cambia a un rasgueo desordenado y disonante, celebrando el hechizo realizado: «Ahora que el aire se pudre y el pacto se ha consumado, / un placer es conocerte, compañero del pecado. / Abre el libro de tus cuitas, dinos qué es lo que te guía, / los Fhómhair son tus siervos en este día sombrío».<adding search="comenzar interrogatorio" class="check-cards"></adding></span>',
+          "critico": '<span>Cuando la muestra de magia negra es requerida y el hechizo realizado. El ritmo de la música cambia a un rasgueo desordenado y disonante, celebrando el hechizo realizado: «Ahora que el aire se pudre y el pacto se ha consumado, / un placer es conocerte, compañero del pecado. / Abre el libro de tus cuitas, dinos qué es lo que te guía, / los Fhómhair son tus siervos en este día sombrío».<adding search="comenzar interrogatorio" class="check-cards"></adding></span>',
+        },
+        "umbrae revelantur": {
+          "leve": '<span>No es suficiente para revelar información.</span>',
+          "moderado": '<span>Cuando la muestra de magia negra es requerida y el hechizo realizado. El ritmo de la música cambia a un rasgueo desordenado y disonante, celebrando el hechizo realizado: «Ahora que el aire se pudre y el pacto se ha consumado, / un placer es conocerte, compañero del pecado. / Abre el libro de tus cuitas, dinos qué es lo que te guía, / los Fhómhair son tus siervos en este día sombrío».<adding search="comenzar interrogatorio" class="check-cards"></adding></span>',
+          "exitoso": '<span>Cuando la muestra de magia negra es requerida y el hechizo realizado. El ritmo de la música cambia a un rasgueo desordenado y disonante, celebrando el hechizo realizado: «Ahora que el aire se pudre y el pacto se ha consumado, / un placer es conocerte, compañero del pecado. / Abre el libro de tus cuitas, dinos qué es lo que te guía, / los Fhómhair son tus siervos en este día sombrío».<adding search="comenzar interrogatorio" class="check-cards"></adding></span>',
+          "critico": '<span>Cuando la muestra de magia negra es requerida y el hechizo realizado. El ritmo de la música cambia a un rasgueo desordenado y disonante, celebrando el hechizo realizado: «Ahora que el aire se pudre y el pacto se ha consumado, / un placer es conocerte, compañero del pecado. / Abre el libro de tus cuitas, dinos qué es lo que te guía, / los Fhómhair son tus siervos en este día sombrío».<adding search="comenzar interrogatorio" class="check-cards"></adding></span>',
+        },
+        "umbrae targere": {
+          "leve": '<span>No es suficiente para revelar información.</span>',
+          "moderado": '<span>Cuando la muestra de magia negra es requerida y el hechizo realizado. El ritmo de la música cambia a un rasgueo desordenado y disonante, celebrando el hechizo realizado: «Ahora que el aire se pudre y el pacto se ha consumado, / un placer es conocerte, compañero del pecado. / Abre el libro de tus cuitas, dinos qué es lo que te guía, / los Fhómhair son tus siervos en este día sombrío».<adding search="comenzar interrogatorio" class="check-cards"></adding></span>',
+          "exitoso": '<span>Cuando la muestra de magia negra es requerida y el hechizo realizado. El ritmo de la música cambia a un rasgueo desordenado y disonante, celebrando el hechizo realizado: «Ahora que el aire se pudre y el pacto se ha consumado, / un placer es conocerte, compañero del pecado. / Abre el libro de tus cuitas, dinos qué es lo que te guía, / los Fhómhair son tus siervos en este día sombrío».<adding search="comenzar interrogatorio" class="check-cards"></adding></span>',
+          "critico": '<span>Cuando la muestra de magia negra es requerida y el hechizo realizado. El ritmo de la música cambia a un rasgueo desordenado y disonante, celebrando el hechizo realizado: «Ahora que el aire se pudre y el pacto se ha consumado, / un placer es conocerte, compañero del pecado. / Abre el libro de tus cuitas, dinos qué es lo que te guía, / los Fhómhair son tus siervos en este día sombrío».<adding search="comenzar interrogatorio" class="check-cards"></adding></span>',
+        },
+        "veritas macula": {
+          "leve": '<span>No es suficiente para revelar información.</span>',
+          "moderado": '<span>Cuando la muestra de magia negra es requerida y el hechizo realizado. El ritmo de la música cambia a un rasgueo desordenado y disonante, celebrando el hechizo realizado: «Ahora que el aire se pudre y el pacto se ha consumado, / un placer es conocerte, compañero del pecado. / Abre el libro de tus cuitas, dinos qué es lo que te guía, / los Fhómhair son tus siervos en este día sombrío».<adding search="comenzar interrogatorio" class="check-cards"></adding></span>',
+          "exitoso": '<span>Cuando la muestra de magia negra es requerida y el hechizo realizado. El ritmo de la música cambia a un rasgueo desordenado y disonante, celebrando el hechizo realizado: «Ahora que el aire se pudre y el pacto se ha consumado, / un placer es conocerte, compañero del pecado. / Abre el libro de tus cuitas, dinos qué es lo que te guía, / los Fhómhair son tus siervos en este día sombrío».<adding search="comenzar interrogatorio" class="check-cards"></adding></span>',
+          "critico": '<span>Cuando la muestra de magia negra es requerida y el hechizo realizado. El ritmo de la música cambia a un rasgueo desordenado y disonante, celebrando el hechizo realizado: «Ahora que el aire se pudre y el pacto se ha consumado, / un placer es conocerte, compañero del pecado. / Abre el libro de tus cuitas, dinos qué es lo que te guía, / los Fhómhair son tus siervos en este día sombrío».<adding search="comenzar interrogatorio" class="check-cards"></adding></span>',
+        },
+      },
     },
     // clandestine melodies
 
