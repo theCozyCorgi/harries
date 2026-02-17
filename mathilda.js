@@ -1593,7 +1593,7 @@ const MissionsModule = (function () {
     "the price of silence": {
       "description": "El animal al que pertenece la toxina, es propio del suroeste asiático, pero aquello no es lo más exótico, sino que su compra y venta de veneno es ilegal. La investigación se mueve hacia algún contrabandista que quiera dar la información sobre dónde puede conseguirse dicho ingrediente para generar el veneno que, aparentemente, ha acabado con la vida de Sirius Black.",
       "image": "https://2img.net/i.imgur.com/GfHnpgi.png", "requisitos": ["un miembro del departamento del Seguridad Mágica", "Un personaje con Contrabando en Avanzado"],
-      "users": ["/u134","/u146"],
+      "users": ["/u134","/u146","/u131"],
       "dependency": ["ryu's breath"],
       "type": "misión", "closed": false, "link": "", "tagged": ["sirius"],
 
@@ -2020,7 +2020,7 @@ const MissionsModule = (function () {
     "the lupine killer": {
       "description": "Aidan Flamel se encuentra bajo la lupa del Ministerio de Magia, que busca descubrir si el Acónito que Sirius alejó del castillo está relacionada con su correspondiente muerte. Y lo más importante, esa planta fue utilizada para algo más.",
       "image": "https://2img.net/i.imgur.com/xPVXOxC.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica"],
-      "users": ["i/u108", "/u146"],
+      "users": ["i/u108", "/u146","/u156"],
       "dependency": ["the withered pot"],
       "type": "interrogatorio", "closed": false, "link": "", "tagged": ["sirius"],
 
@@ -3150,7 +3150,7 @@ const MissionsModule = (function () {
     "stargazer's night": {
       "description": "La investigación los lleva a un nuevo espacio guíado por el mismo Edwin Merrythought, aunque no saben a dónde conduce. Lo que implica una nueva investigación para descubrir qué es ese lugar, por qué Edwin lo guió allí y qué relación tiene con los asesinatos.",
       "image": "https://2img.net/i.imgur.com/3N0DmMz.png", "requisitos": ["Un miembro debe pertenecer a la familia Merrythought o ser un conocido cercano a la misma"],
-      "users": ["/u150","/u7"],
+      "users": ["/u150","/u7","/u156"],
       "dependency": ["unveiling the unseen"],
       "type": "investigación", "closed": false, "link": "", "tagged": ["edwin"],
 
