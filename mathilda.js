@@ -3520,7 +3520,7 @@ const MissionsModule = (function () {
     // silent sentinel
 
     "clandestine melodies": {
-      "description": "Aquellos que se mueven en los círculos saben perfectamente que existe una banda de trovadores cuyos cánticos ocultan un precio y las guitarras, un secreto. Para poder obtener más información de la familia Denmar deberán infiltrarse a los ensaños de la banda Fhómhair quiénes suelen tener toda la información sobre los trabajos más clandestinos de la sociedad.",
+      "description": "Aquellos que se mueven en los círculos saben perfectamente que existe una banda de trovadores cuyos cánticos ocultan un precio y las guitarras, un secreto. Para poder obtener más información de la familia Denman deberán infiltrarse a los ensaños de la banda Fhómhair quiénes suelen tener toda la información sobre los trabajos más clandestinos de la sociedad.",
       "image": "https://2img.net/i.imgur.com/tKGTsc9.png", "requisitos": ["Un miembro debe tener Contrabando en Avanzado", "Un miembro debe tener Magia Oscura en Consagrado"],
       "users": ["c/u131","/u8","/u55","/u9","/u145"],
       "dependency": ["frozen sunflowers"],
@@ -3561,12 +3561,12 @@ const MissionsModule = (function () {
           "visible": { "attr": { "int": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "volver a presentarse como miembros del ministerio",
           "cont": '<span>La música, detenida por un momento, cobra el ritmo nuevamente, de una manera prolija y profesional: «Ya suena el metal de nuevo, el costo de ser sincero, / nuestras rimas son de acero, pero el trato es lo primero. / No aceptamos la mentira en el verso ni en el suelo, / ahora habla con la verdad, o busca paz en el cielo».<adding search="comenzar interrogatorio" class="check-cards"></adding></span>'
         },
-        "preguntar por los denmar":{
+        "preguntar por los denman":{
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "comenzar interrogatorio",
-          "cont": '<span>La música se vuelve lenta y lúgubre: «Eran gente simple, de mente muy llana, / que quiso burlar la ley soberana. / Buscaron la vida donde habita el frío, / y el arte prohibido causó su desvío. / La magia tiene fronteras de fuego, / y a los Denmar atrapó en su juego. / La sombra los quiso a todos llevar, / ni un alma quedó para el cuento narrar».</span>'
+          "cont": '<span>La música se vuelve lenta y lúgubre: «Eran gente simple, de mente muy llana, / que quiso burlar la ley soberana. / Buscaron la vida donde habita el frío, / y el arte prohibido causó su desvío. / La magia tiene fronteras de fuego, / y a los Denman atrapó en su juego. / La sombra los quiso a todos llevar, / ni un alma quedó para el cuento narrar».</span>'
         },
         "preguntar por el anillo":{
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar por los denmar",
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar por los denman",
           "cont": '<span>Con una pausa larga, los músicos buscan a Cillian, quien turce el gesto y la música continúa: «Se dice que el viejo, con mano de acero, / cazó a un gran lobo en el monte fiero. / De un hueso bendito talló su amuleto, / cargando en su dedo un poder secreto. / Dicen que el brillo su magia ensanchaba, / y al mismo destino el hombre retaba. / Aunque él con silencio su obra cubrió, / la fama del anillo su tumba cavó».</span>'
         },
         "preguntar por los wraitwood":{
