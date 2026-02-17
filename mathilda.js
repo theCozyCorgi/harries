@@ -6116,6 +6116,51 @@ const MissionsModule = (function () {
       },
     },
     // fin grabado de runas
+
+    "ruleta de prácticas grupo9": {
+      "description": "",
+      "image": "", "requisitos": [],
+      "users": ["/u145", "/u153"],
+      "dependency": [],
+      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+
+      "cards": [],
+      "searchs": {},
+
+      "actions": {
+        "capistrum": {
+          "leve": '<span>Paso previo completado: No es suficiente para revelar información</span>',
+          "moderado": '<span>Paso previo completado: Calma al caballo alado permitiendo evaluar sus heridas.</span>',
+          "exitoso": '<span>Paso previo completado: Calma al caballo alado permitiendo evaluar sus heridas.</span>',
+          "critico": '<span>Paso previo completado: Calma al caballo alado permitiendo evaluar sus heridas.</span>',
+        },
+        "pellis sana": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Si no se ha completado el paso previo, no genera consecuencias. Si ya se ha completado el paso previo, cura 5PV del caballo alado.</span>',
+          "exitoso": '<span>Si no se ha completado el paso previo, no genera consecuencias. Si ya se ha completado el paso previo, cura 5PV del caballo alado.</span>',
+          "critico": '<span>Si no se ha completado el paso previo, no genera consecuencias. Si ya se ha completado el paso previo, cura 5PV del caballo alado.</span>',
+        },
+        "sensus mitigo": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Al calmar al caballo, adiciona +2PV a todos los hechizos curativos para criaturas mágicas.</span>',
+          "exitoso": '<span>Al calmar al caballo, adiciona +2PV a todos los hechizos curativos para criaturas mágicas.</span>',
+          "critico": '<span>Al calmar al caballo, adiciona +2PV a todos los hechizos curativos para criaturas mágicas.</span>',
+        },
+        "lapsus corpus": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Si no se ha completado el paso previo, no genera consecuencias. Si ya se ha completado el paso previo, permite identificar que el caballo alado tiene rota una de sus patas.</span>',
+          "exitoso": '<span>Si no se ha completado el paso previo, no genera consecuencias. Si ya se ha completado el paso previo, permite identificar que el caballo alado tiene rota una de sus patas.</span>',
+          "critico": '<span>Si no se ha completado el paso previo, no genera consecuencias. Si ya se ha completado el paso previo, permite identificar que el caballo alado tiene rota una de sus patas.</span>',
+        },
+        "brackium emende": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Si no se ha completado el paso previo, no genera consecuencias. Si ya se ha completado el paso previo, cura 15PV del caballo alado.</span>',
+          "exitoso": '<span>Si no se ha completado el paso previo, no genera consecuencias. Si ya se ha completado el paso previo, cura 20PV del caballo alado.</span>',
+          "critico": '<span>Si no se ha completado el paso previo, no genera consecuencias. Si ya se ha completado el paso previo, cura 25PV del caballo alado.</span>',
+        },
+      },
+    },
+    // fin: ruleta de prácticas grupo9
   };
 
   function getMission(mission) {
@@ -6145,3 +6190,37 @@ const MissionsModule = (function () {
     getClosedMissionByTag,
   };
 })();
+
+
+/*
+    "evento": {
+      "description": "",
+      "image": "", "requisitos": [],
+      "users": ["invalid", "invalid", "invalid", "invalid", "invalid", "invalid"],
+      "dependency": [],
+      "type": "type", "closed": false, "link": "", "tagged": ["tag"],
+
+      "cards": [
+        {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
+          "cont": '<span>COMPLETAR</span>',
+        }
+      ],
+      "searchs": {
+        "busqueda": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
+          "cont": '<span>COMPLETAR</span>',
+        }
+      },
+
+      "actions": {
+        "hechiz": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>ADICIONAL</span>',
+          "exitoso": '<span>ADICIONAL</span>',
+          "critico": '<span>ADICIONAL</span>',
+        },
+      },
+    },
+    // fin: evento
+*/
