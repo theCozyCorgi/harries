@@ -6117,6 +6117,186 @@ const MissionsModule = (function () {
     },
     // fin grabado de runas
 
+    "ruleta de prácticas grupo1": {
+      "description": "",
+      "image": "", "requisitos": [],
+      "users": ["/u150", "/u124"],
+      "dependency": [],
+      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+
+      "cards": [],
+      "searchs": {},
+
+      "actions": {
+        "hechiz": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>ADICIONAL</span>',
+          "exitoso": '<span>ADICIONAL</span>',
+          "critico": '<span>ADICIONAL</span>',
+        },
+      },
+    },
+    // fin: ruleta de prácticas grupo1
+
+    "ruleta de prácticas grupo2": {
+      "description": "",
+      "image": "", "requisitos": [],
+      "users": ["/u12", "/u141"],
+      "dependency": [],
+      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+
+      "cards": [],
+      "searchs": {},
+
+      "actions": {
+        "hechiz": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>ADICIONAL</span>',
+          "exitoso": '<span>ADICIONAL</span>',
+          "critico": '<span>ADICIONAL</span>',
+        },
+      },
+    },
+    // fin: ruleta de prácticas grupo2
+
+    "ruleta de prácticas grupo3": {
+      "description": "",
+      "image": "", "requisitos": [],
+      "users": ["/u118", "/u146"],
+      "dependency": [],
+      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+
+      "cards": [],
+      "searchs": {},
+
+      "actions": {
+        "identificar runa": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Permite identificar las siguientes runas:<br/>— Haglaz.<br/>— Naudiz.<br/>— Isaz.</span>',
+          "exitoso": '<span>Permite identificar las siguientes runas:<br/>— Haglaz.<br/>— Naudiz.<br/>— Isaz.</span>',
+          "critico": '<span>Permite identificar las siguientes runas:<br/>— Haglaz.<br/>— Naudiz.<br/>— Isaz.</span>',
+        },
+        "hechiz": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Permite interpretar una de las siguientes runas:<br/>— Haglaz: Granizo.<br/>— Naudiz: Necesidad.<br/>— Isaz: Hielo.</span>',
+          "exitoso": '<span>Permite interpretar una de las siguientes runas:<br/>— Haglaz: Granizo.<br/>— Naudiz: Necesidad.<br/>— Isaz: Hielo.</span>',
+          "critico": '<span>Permite interpretar una de las siguientes runas:<br/>— Haglaz: Granizo.<br/>— Naudiz: Necesidad.<br/>— Isaz: Hielo.</span>',
+        },
+        "incísio fúndito": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Permite grabar una runa en el pentagrama. Cuando se graben las dos runas, deberán preguntar a la administración si fueron las correctas.</span>',
+          "exitoso": '<span>Permite grabar una runa en el pentagrama. Cuando se graben las dos runas, deberán preguntar a la administración si fueron las correctas.</span>',
+          "critico": '<span>Permite grabar una runa en el pentagrama. Cuando se graben las dos runas, deberán preguntar a la administración si fueron las correctas.</span>',
+        },
+      },
+    },
+    // fin: ruleta de prácticas grupo3
+
+    "ruleta de prácticas grupo4": {
+      "description": "",
+      "image": "", "requisitos": [],
+      "users": ["/u24", "/u63"],
+      "dependency": [],
+      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+
+      "cards": [],
+      "searchs": {},
+
+      "actions": {
+        "hechiz": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>ADICIONAL</span>',
+          "exitoso": '<span>ADICIONAL</span>',
+          "critico": '<span>ADICIONAL</span>',
+        },
+      },
+    },
+    // fin: ruleta de prácticas grupo4
+
+    "ruleta de prácticas grupo5": {
+      "description": "",
+      "image": "", "requisitos": [],
+      "users": ["invalid", "invalid"],
+      "dependency": [],
+      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+
+      "cards": [],
+      "searchs": {},
+
+      "actions": {
+        "hechiz": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>ADICIONAL</span>',
+          "exitoso": '<span>ADICIONAL</span>',
+          "critico": '<span>ADICIONAL</span>',
+        },
+      },
+    },
+    // fin: ruleta de prácticas grupo5
+
+    "ruleta de prácticas grupo6": {
+      "description": "",
+      "image": "", "requisitos": [],
+      "users": ["/u55", "/u91"],
+      "dependency": [],
+      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+
+      "cards": [],
+      "searchs": {},
+
+      "actions": {
+        "hechiz": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>ADICIONAL</span>',
+          "exitoso": '<span>ADICIONAL</span>',
+          "critico": '<span>ADICIONAL</span>',
+        },
+      },
+    },
+    // fin: ruleta de prácticas grupo6
+
+    "ruleta de prácticas grupo7": {
+      "description": "",
+      "image": "", "requisitos": [],
+      "users": ["/u130", "/u8"],
+      "dependency": [],
+      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+
+      "cards": [],
+      "searchs": {},
+
+      "actions": {
+        "hechiz": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>ADICIONAL</span>',
+          "exitoso": '<span>ADICIONAL</span>',
+          "critico": '<span>ADICIONAL</span>',
+        },
+      },
+    },
+    // fin: ruleta de prácticas grupo7
+
+    "ruleta de prácticas grupo8": {
+      "description": "",
+      "image": "", "requisitos": [],
+      "users": ["/u9", "/u143", "/u112"],
+      "dependency": [],
+      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+
+      "cards": [],
+      "searchs": {},
+
+      "actions": {
+        "hechiz": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>ADICIONAL</span>',
+          "exitoso": '<span>ADICIONAL</span>',
+          "critico": '<span>ADICIONAL</span>',
+        },
+      },
+    },
+    // fin: ruleta de prácticas grupo8
+
     "ruleta de prácticas grupo9": {
       "description": "",
       "image": "", "requisitos": [],
@@ -6161,6 +6341,60 @@ const MissionsModule = (function () {
       },
     },
     // fin: ruleta de prácticas grupo9
+
+    "ruleta de prácticas grupo10": {
+      "description": "",
+      "image": "", "requisitos": [],
+      "users": ["invalid", "invalid"],
+      "dependency": [],
+      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+
+      "cards": [],
+      "searchs": {},
+
+      "actions": {
+        "hechiz": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>ADICIONAL</span>',
+          "exitoso": '<span>ADICIONAL</span>',
+          "critico": '<span>ADICIONAL</span>',
+        },
+      },
+    },
+    // fin: ruleta de prácticas grupo10
+
+    "ruleta de prácticas grupo11": {
+      "description": "",
+      "image": "", "requisitos": [],
+      "users": ["/u7", "/u108"],
+      "dependency": [],
+      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+
+      "cards": [],
+      "searchs": {},
+
+      "actions": {
+        "identificar runa": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Permite identificar las siguientes runas:<br/>— Thurisaz.<br/>— Ansuz.<br/>— Raido.</span>',
+          "exitoso": '<span>Permite identificar las siguientes runas:<br/>— Thurisaz.<br/>— Ansuz.<br/>— Raido.</span>',
+          "critico": '<span>Permite identificar las siguientes runas:<br/>— Thurisaz.<br/>— Ansuz.<br/>— Raido.</span>',
+        },
+        "hechiz": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Permite interpretar una de las siguientes runas:<br/>— Thurisaz: Gigante.<br/>— Ansuz: Mensaje.<br/>— Raido: Camino.</span>',
+          "exitoso": '<span>Permite interpretar una de las siguientes runas:<br/>— Thurisaz: Gigante.<br/>— Ansuz: Mensaje.<br/>— Raido: Camino.</span>',
+          "critico": '<span>Permite interpretar una de las siguientes runas:<br/>— Thurisaz: Gigante.<br/>— Ansuz: Mensaje.<br/>— Raido: Camino.</span>',
+        },
+        "incísio fúndito": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Permite grabar una runa en el pentagrama. Cuando se graben las dos runas, deberán preguntar a la administración si fueron las correctas.</span>',
+          "exitoso": '<span>Permite grabar una runa en el pentagrama. Cuando se graben las dos runas, deberán preguntar a la administración si fueron las correctas.</span>',
+          "critico": '<span>Permite grabar una runa en el pentagrama. Cuando se graben las dos runas, deberán preguntar a la administración si fueron las correctas.</span>',
+        },
+      },
+    },
+    // fin: ruleta de prácticas grupo11
   };
 
   function getMission(mission) {
