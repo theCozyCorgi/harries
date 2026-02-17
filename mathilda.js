@@ -6149,11 +6149,23 @@ const MissionsModule = (function () {
       "searchs": {},
 
       "actions": {
-        "hechiz": {
+        "identificar runa": {
           "leve": '<span>No es suficiente para revelar información</span>',
-          "moderado": '<span>ADICIONAL</span>',
-          "exitoso": '<span>ADICIONAL</span>',
-          "critico": '<span>ADICIONAL</span>',
+          "moderado": '<span>Permite identificar las siguientes runas:<br/>— Haglaz.<br/>— Naudiz.<br/>— Isaz.</span>',
+          "exitoso": '<span>Permite identificar las siguientes runas:<br/>— Haglaz.<br/>— Naudiz.<br/>— Isaz.</span>',
+          "critico": '<span>Permite identificar las siguientes runas:<br/>— Haglaz.<br/>— Naudiz.<br/>— Isaz.</span>',
+        },
+        "interpretar runas": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Permite interpretar una de las siguientes runas:<br/>— Haglaz: Granizo.<br/>— Naudiz: Necesidad.<br/>— Isaz: Hielo.</span>',
+          "exitoso": '<span>Permite interpretar una de las siguientes runas:<br/>— Haglaz: Granizo.<br/>— Naudiz: Necesidad.<br/>— Isaz: Hielo.</span>',
+          "critico": '<span>Permite interpretar una de las siguientes runas:<br/>— Haglaz: Granizo.<br/>— Naudiz: Necesidad.<br/>— Isaz: Hielo.</span>',
+        },
+        "incísio fúndito": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Permite grabar una runa en el pentagrama. Cuando se graben las dos runas, deberán preguntar a la administración si fueron las correctas.</span>',
+          "exitoso": '<span>Permite grabar una runa en el pentagrama. Cuando se graben las dos runas, deberán preguntar a la administración si fueron las correctas.</span>',
+          "critico": '<span>Permite grabar una runa en el pentagrama. Cuando se graben las dos runas, deberán preguntar a la administración si fueron las correctas.</span>',
         },
       },
     },
@@ -6170,23 +6182,11 @@ const MissionsModule = (function () {
       "searchs": {},
 
       "actions": {
-        "identificar runa": {
-          "leve": '<span>No es suficiente para revelar información</span>',
-          "moderado": '<span>Permite identificar las siguientes runas:<br/>— Haglaz.<br/>— Naudiz.<br/>— Isaz.</span>',
-          "exitoso": '<span>Permite identificar las siguientes runas:<br/>— Haglaz.<br/>— Naudiz.<br/>— Isaz.</span>',
-          "critico": '<span>Permite identificar las siguientes runas:<br/>— Haglaz.<br/>— Naudiz.<br/>— Isaz.</span>',
-        },
         "hechiz": {
           "leve": '<span>No es suficiente para revelar información</span>',
-          "moderado": '<span>Permite interpretar una de las siguientes runas:<br/>— Haglaz: Granizo.<br/>— Naudiz: Necesidad.<br/>— Isaz: Hielo.</span>',
-          "exitoso": '<span>Permite interpretar una de las siguientes runas:<br/>— Haglaz: Granizo.<br/>— Naudiz: Necesidad.<br/>— Isaz: Hielo.</span>',
-          "critico": '<span>Permite interpretar una de las siguientes runas:<br/>— Haglaz: Granizo.<br/>— Naudiz: Necesidad.<br/>— Isaz: Hielo.</span>',
-        },
-        "incísio fúndito": {
-          "leve": '<span>No es suficiente para revelar información</span>',
-          "moderado": '<span>Permite grabar una runa en el pentagrama. Cuando se graben las dos runas, deberán preguntar a la administración si fueron las correctas.</span>',
-          "exitoso": '<span>Permite grabar una runa en el pentagrama. Cuando se graben las dos runas, deberán preguntar a la administración si fueron las correctas.</span>',
-          "critico": '<span>Permite grabar una runa en el pentagrama. Cuando se graben las dos runas, deberán preguntar a la administración si fueron las correctas.</span>',
+          "moderado": '<span>ADICIONAL</span>',
+          "exitoso": '<span>ADICIONAL</span>',
+          "critico": '<span>ADICIONAL</span>',
         },
       },
     },
@@ -6380,7 +6380,7 @@ const MissionsModule = (function () {
           "exitoso": '<span>Permite identificar las siguientes runas:<br/>— Thurisaz.<br/>— Ansuz.<br/>— Raido.</span>',
           "critico": '<span>Permite identificar las siguientes runas:<br/>— Thurisaz.<br/>— Ansuz.<br/>— Raido.</span>',
         },
-        "hechiz": {
+        "interpretar runas": {
           "leve": '<span>No es suficiente para revelar información</span>',
           "moderado": '<span>Permite interpretar una de las siguientes runas:<br/>— Thurisaz: Gigante.<br/>— Ansuz: Mensaje.<br/>— Raido: Camino.</span>',
           "exitoso": '<span>Permite interpretar una de las siguientes runas:<br/>— Thurisaz: Gigante.<br/>— Ansuz: Mensaje.<br/>— Raido: Camino.</span>',
