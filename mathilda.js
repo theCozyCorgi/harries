@@ -3719,7 +3719,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/SvlR6WP.png", "requisitos": ["Un personaje debe ser Nigromante"],
       "users": ["c/u78","/u8","/u55","/u91"],
       "dependency": ["frozen sunflowers"],
-      "type": "investigación", "closed": false, "link": "https://blackwave.foroactivo.com/t838-investigacion-18-paper-mask", "tagged": ["original"],
+      "type": "investigación", "closed": true, "link": "https://blackwave.foroactivo.com/t838-investigacion-18-paper-mask", "tagged": ["original"],
 
       "cards": [
         {
