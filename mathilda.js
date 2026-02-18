@@ -6159,7 +6159,7 @@ const MissionsModule = (function () {
           "critico": '<span>Hechizo 5 de 5: entablilla el brazo de la joven evitando movimientos hasta que un sanador pueda finalizar las curaciones.</span>',
         },
         "morbus revela": {
-          "leve": '<span>No es suficiente para revelar información</span>',
+          "leve": '<span>La niña presenta signos de hipotermia, todo su cuerpo tiembla como una hoja y se encuentra extremadamente frío. Le cuesta respirar y tiene varios dedos de la mano rotos, al igual que el brazo en el cual cayó.</span>',
           "moderado": '<span>La niña presenta signos de hipotermia, todo su cuerpo tiembla como una hoja y se encuentra extremadamente frío. Le cuesta respirar y tiene varios dedos de la mano rotos, al igual que el brazo en el cual cayó.</span>',
           "exitoso": '<span>La niña presenta signos de hipotermia, todo su cuerpo tiembla como una hoja y se encuentra extremadamente frío. Le cuesta respirar y tiene varios dedos de la mano rotos, al igual que el brazo en el cual cayó.</span>',
           "critico": '<span>La niña presenta signos de hipotermia, todo su cuerpo tiembla como una hoja y se encuentra extremadamente frío. Le cuesta respirar y tiene varios dedos de la mano rotos, al igual que el brazo en el cual cayó.</span>',
@@ -6240,8 +6240,8 @@ const MissionsModule = (function () {
 
       "actions": {
         "noctis luminis": {
-          "leve": '<span>Permite reducir la contaminación luminica hasta visualizar la constelación de Orión.</span>',
-          "moderado": '<span>Permite reducir la contaminación luminica hasta visualizar la constelación de Orión y Tauro.</span>',
+          "leve": '<span>Permite reducir la contaminación luminica hasta visualizar la constelación de Orión y Tauro.</span>',
+          "moderado": '<span>Permite reducir la contaminación luminica hasta visualizar la constelación de Orión, Tauro y Géminis.</span>',
           "exitoso": '<span>Permite reducir la contaminación luminica hasta visualizar la constelación de Orión, Tauro y Géminis.</span>',
           "critico": '<span>Permite reducir la contaminación luminica hasta visualizar la constelación de Orión, Tauro y Géminis.</span>',
         },
