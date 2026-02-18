@@ -6128,11 +6128,41 @@ const MissionsModule = (function () {
       "searchs": {},
 
       "actions": {
-        "hechiz": {
+        "nervus flemere": {
           "leve": '<span>No es suficiente para revelar información</span>',
-          "moderado": '<span>ADICIONAL</span>',
-          "exitoso": '<span>ADICIONAL</span>',
-          "critico": '<span>ADICIONAL</span>',
+          "moderado": '<span>Hechizo 1 de 5: el cuerpo de la niña se relaja, permitiendo que los hechizos actúen con mayor eficacia.</span>',
+          "exitoso": '<span>Hechizo 1 de 5: el cuerpo de la niña se relaja, permitiendo que los hechizos actúen con mayor eficacia.</span>',
+          "critico": '<span>Hechizo 1 de 5: el cuerpo de la niña se relaja, permitiendo que los hechizos actúen con mayor eficacia.</span>',
+        },
+        "calor vitalis": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Hechizo 2 de 5: el cuerpo de la niña se calienta, evitando consecuencias graves de hipotermia.</span>',
+          "exitoso": '<span>Hechizo 2 de 5: el cuerpo de la niña se calienta, evitando consecuencias graves de hipotermia.</span>',
+          "critico": '<span>Hechizo 2 de 5: el cuerpo de la niña se calienta, evitando consecuencias graves de hipotermia.</span>',
+        },
+        "anapneo": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Hechizo 3 de 5: libera las vías respiratorias de la niña, permitiendo que respire con normalidad.</span>',
+          "exitoso": '<span>Hechizo 3 de 5: libera las vías respiratorias de la niña, permitiendo que respire con normalidad.</span>',
+          "critico": '<span>Hechizo 3 de 5: libera las vías respiratorias de la niña, permitiendo que respire con normalidad.</span>',
+        },
+        "episkey": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Hechizo 4 de 5: repara los huesos rotos de los dedos de la mano.</span>',
+          "exitoso": '<span>Hechizo 4 de 5: repara los huesos rotos de los dedos de la mano.</span>',
+          "critico": '<span>Hechizo 4 de 5: repara los huesos rotos de los dedos de la mano.</span>',
+        },
+        "férula": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Hechizo 5 de 5: entablilla el brazo de la joven evitando movimientos hasta que un sanador pueda finalizar las curaciones.</span>',
+          "exitoso": '<span>Hechizo 5 de 5: entablilla el brazo de la joven evitando movimientos hasta que un sanador pueda finalizar las curaciones.</span>',
+          "critico": '<span>Hechizo 5 de 5: entablilla el brazo de la joven evitando movimientos hasta que un sanador pueda finalizar las curaciones.</span>',
+        },
+        "morbus revela": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>La niña presenta signos de hipotermia, todo su cuerpo tiembla como una hoja y se encuentra extremadamente frío. Le cuesta respirar y tiene varios dedos de la mano rotos, al igual que el brazo en el cual cayó.</span>',
+          "exitoso": '<span>La niña presenta signos de hipotermia, todo su cuerpo tiembla como una hoja y se encuentra extremadamente frío. Le cuesta respirar y tiene varios dedos de la mano rotos, al igual que el brazo en el cual cayó.</span>',
+          "critico": '<span>La niña presenta signos de hipotermia, todo su cuerpo tiembla como una hoja y se encuentra extremadamente frío. Le cuesta respirar y tiene varios dedos de la mano rotos, al igual que el brazo en el cual cayó.</span>',
         },
       },
     },
@@ -6182,11 +6212,17 @@ const MissionsModule = (function () {
       "searchs": {},
 
       "actions": {
-        "hechiz": {
-          "leve": '<span>No es suficiente para revelar información</span>',
-          "moderado": '<span>ADICIONAL</span>',
-          "exitoso": '<span>ADICIONAL</span>',
-          "critico": '<span>ADICIONAL</span>',
+        "waddiwasi": {
+          "leve": '<span>Propulsiona una pelotita de goma espuma.</span>',
+          "moderado": '<span>Propulsiona tres pelotitas de goma espuma.</span>',
+          "exitoso": '<span>Propulsiona cinco pelotitas de goma espuma.</span>',
+          "critico": '<span>Propulsiona diez pelotitas de goma espuma.</span>',
+        },
+        "expulso": {
+          "leve": '<span>Evita el impacto de una pelotita de goma espuma.</span>',
+          "moderado": '<span>Evita el impacto de tres pelotitas de goma espuma.</span>',
+          "exitoso": '<span>Evita el impacto de cinco pelotitas de goma espuma.</span>',
+          "critico": '<span>Evita el impacto de diez pelotitas de goma espuma.</span>',
         },
       },
     },
@@ -6203,11 +6239,23 @@ const MissionsModule = (function () {
       "searchs": {},
 
       "actions": {
-        "hechiz": {
+        "noctis luminis": {
+          "leve": '<span>Permite reducir la contaminación luminica hasta visualizar la constelación de Orión.</span>',
+          "moderado": '<span>Permite reducir la contaminación luminica hasta visualizar la constelación de Orión y Tauro.</span>',
+          "exitoso": '<span>Permite reducir la contaminación luminica hasta visualizar la constelación de Orión, Tauro y Géminis.</span>',
+          "critico": '<span>Permite reducir la contaminación luminica hasta visualizar la constelación de Orión, Tauro y Géminis.</span>',
+        },
+        "oculus stellarum": {
           "leve": '<span>No es suficiente para revelar información</span>',
-          "moderado": '<span>ADICIONAL</span>',
-          "exitoso": '<span>ADICIONAL</span>',
-          "critico": '<span>ADICIONAL</span>',
+          "moderado": '<span>Permite potencial la visión noctura para brindar una de las siguiente información:<br>— Permite visualizar las estrellas Betelgeuse, Rigel, Bellatrix, Alnilam, Alnitak y Mintaka de la constelación de Orión.<br>— Permite visualizar las estrellas Aldebarán, Elnath, Cúmulo de las Pléyades y Las Híades de la constelación Tauro.<br>— Permite visualizar las estrellas Pólux, Cástor y Alhena de la constelación de Géminis.</span>',
+          "exitoso": '<span>Permite potencial la visión noctura para brindar una de las siguiente información:<br>— Permite visualizar las estrellas Betelgeuse, Rigel, Bellatrix, Alnilam, Alnitak y Mintaka de la constelación de Orión.<br>— Permite visualizar las estrellas Aldebarán, Elnath, Cúmulo de las Pléyades y Las Híades de la constelación Tauro.<br>— Permite visualizar las estrellas Pólux, Cástor y Alhena de la constelación de Géminis.</span>',
+          "critico": '<span>Permite potencial la visión noctura para brindar una de las siguiente información:<br>— Permite visualizar las estrellas Betelgeuse, Rigel, Bellatrix, Alnilam, Alnitak y Mintaka de la constelación de Orión.<br>— Permite visualizar las estrellas Aldebarán, Elnath, Cúmulo de las Pléyades y Las Híades de la constelación Tauro.<br>— Permite visualizar las estrellas Pólux, Cástor y Alhena de la constelación de Géminis.</span>',
+        },
+        "stellaris illustra": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Permite dibujar las estrellas de la constelación de Géminis, Tauro u Orión.</span>',
+          "exitoso": '<span>Permite dibujar las estrellas de la constelación de Géminis, Tauro u Orión.</span>',
+          "critico": '<span>Permite dibujar las estrellas de la constelación de Géminis, Tauro u Orión.</span>',
         },
       },
     },
@@ -6245,11 +6293,17 @@ const MissionsModule = (function () {
       "searchs": {},
 
       "actions": {
-        "hechiz": {
+        "oppugno": {
+          "leve": '<span>No golpea ningún globo.</span>',
+          "moderado": '<span>Golpea un globo morado.</span>',
+          "exitoso": '<span>Golpea un globo turquesa.</span>',
+          "critico": '<span>Golpea un globo dorado.</span>',
+        },
+        "confringo": {
           "leve": '<span>No es suficiente para revelar información</span>',
-          "moderado": '<span>ADICIONAL</span>',
-          "exitoso": '<span>ADICIONAL</span>',
-          "critico": '<span>ADICIONAL</span>',
+          "moderado": '<span>Explota el globo seleccionado.</span>',
+          "exitoso": '<span>Explota el globo seleccionado y uno morado.</span>',
+          "critico": '<span>Explota el globo seleccionado y uno turquesa.</span>',
         },
       },
     },
@@ -6266,11 +6320,65 @@ const MissionsModule = (function () {
       "searchs": {},
 
       "actions": {
-        "hechiz": {
+        "captivum": {
           "leve": '<span>No es suficiente para revelar información</span>',
-          "moderado": '<span>ADICIONAL</span>',
-          "exitoso": '<span>ADICIONAL</span>',
-          "critico": '<span>ADICIONAL</span>',
+          "moderado": '<span>Captura dos libros entre las cortinas de la sala impidiendo futuros ataques.</span>',
+          "exitoso": '<span>Captura tres libros entre las cortinas de la sala impidiendo futuros ataques.</span>',
+          "critico": '<span>Capture cinco libros entre las cortinas de la sala impidiendo futuros ataques.</span>',
+        },
+        "duro": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Endurece un libro limitando cualquier acción futura.</span>',
+          "exitoso": '<span>Endurece dos libros limitando cualquier acción futura.</span>',
+          "critico": '<span>Endurece tres libros limitando cualquier acción futura.</span>',
+        },
+        "evanesco": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Elimina el libro que fue atacado justo cuando uno de los bibliotecarios abre la puerta y los mira con una cara cargada de horror: ¿Qué han hecho? ¿Cómo se les ocurre? ¡No vuelvan a hacer eso! Su superior se enterará y serán multados por esto.</span>',
+          "exitoso": '<span>Elimina el libro que fue atacado justo cuando uno de los bibliotecarios abre la puerta y los mira con una cara cargada de horror: ¿Qué han hecho? ¿Cómo se les ocurre? ¡No vuelvan a hacer eso! Su superior se enterará y serán multados por esto.</span>',
+          "critico": '<span>Elimina el libro que fue atacado justo cuando uno de los bibliotecarios abre la puerta y los mira con una cara cargada de horror: ¿Qué han hecho? ¿Cómo se les ocurre? ¡No vuelvan a hacer eso! Su superior se enterará y serán multados por esto.</span>',
+        },
+        "lapifors": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>La transformación elimina cualquier ataque de un libro.</span>',
+          "exitoso": '<span>La transformación elimina cualquier ataque de un libro.</span>',
+          "critico": '<span>La transformación elimina cualquier ataque de un libro.</span>',
+        },
+        "mutareforma": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>La transformación elimina cualquier ataque de un libro.</span>',
+          "exitoso": '<span>La transformación elimina cualquier ataque de un libro.</span>',
+          "critico": '<span>La transformación elimina cualquier ataque de un libro.</span>',
+        },
+        "patolifors": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>La transformación elimina cualquier ataque de un libro.</span>',
+          "exitoso": '<span>La transformación elimina cualquier ataque de un libro.</span>',
+          "critico": '<span>La transformación elimina cualquier ataque de un libro.</span>',
+        },
+        "reparifarge": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Regresa las estanterías a su forma original.</span>',
+          "exitoso": '<span>Regresa las estanterías a su forma original.</span>',
+          "critico": '<span>Regresa las estanterías a su forma original.</span>',
+        },
+        "vera verto": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>La transformación elimina cualquier ataque de un libro.</span>',
+          "exitoso": '<span>La transformación elimina cualquier ataque de un libro.</span>',
+          "critico": '<span>La transformación elimina cualquier ataque de un libro.</span>',
+        },
+        "simifors": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>La transformación elimina cualquier ataque de un libro.</span>',
+          "exitoso": '<span>La transformación elimina cualquier ataque de un libro.</span>',
+          "critico": '<span>La transformación elimina cualquier ataque de un libro.</span>',
+        },
+        "vitafigura": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>La transformación elimina cualquier ataque de un libro.</span>',
+          "exitoso": '<span>La transformación elimina cualquier ataque de un libro.</span>',
+          "critico": '<span>La transformación elimina cualquier ataque de un libro.</span>',
         },
       },
     },
@@ -6287,11 +6395,35 @@ const MissionsModule = (function () {
       "searchs": {},
 
       "actions": {
-        "hechiz": {
+        "captivum": {
           "leve": '<span>No es suficiente para revelar información</span>',
-          "moderado": '<span>ADICIONAL</span>',
-          "exitoso": '<span>ADICIONAL</span>',
-          "critico": '<span>ADICIONAL</span>',
+          "moderado": '<span>Permite contener a 5 comadrejas entre las mesas o las cortinas.</span>',
+          "exitoso": '<span>Permite contener a 10 comadrejas entre las mesas o las cortinas.</span>',
+          "critico": '<span>Permite contener a 15 comadrejas entre las mesas o las cortinas.</span>',
+        },
+        "duro": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Permite endurecer la piel de 5 comadrejas impidiendo su movimiento.</span>',
+          "exitoso": '<span>Permite endurecer la piel de 10 comadrejas impidiendo su movimiento.</span>',
+          "critico": '<span>Permite endurecer la piel de 15 comadrejas impidiendo su movimiento.</span>',
+        },
+        "reparifarge": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Permite regresar a 5 jarvey a su estado original aunque sin voz.</span>',
+          "exitoso": '<span>Permite regresar a 10 jarvey a su estado original aunque sin voz.</span>',
+          "critico": '<span>Permite regresar a 15 jarvey a su estado original aunque sin voz.</span>',
+        },
+        "reparo": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Permite reparar los objetos dañados por una comadreja.</span>',
+          "exitoso": '<span>Permite reparar los objetos dañados por una comadreja.</span>',
+          "critico": '<span>Permite reparar los objetos dañados por una comadreja.</span>',
+        },
+        "sonorus": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Permite devolver la voz a 5 jarvey.</span>',
+          "exitoso": '<span>Permite devolver la voz a 10 jarvey.</span>',
+          "critico": '<span>Permite devolver la voz a 15 jarvey.</span>',
         },
       },
     },
