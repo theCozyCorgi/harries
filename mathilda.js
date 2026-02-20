@@ -3966,7 +3966,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/UpUxWLM.png", "requisitos": ["Un personaje con habilidad heredada"],
       "users": ["c/u101", "/u9", "/u97"],
       "dependency": ["faded lineage"],
-      "type": "investigación", "closed": false, "link": "https://blackwave.foroactivo.com/t833-investigacion-ancestral-code", "tagged": ["original"],
+      "type": "investigación", "closed": true, "link": "https://blackwave.foroactivo.com/t833-investigacion-ancestral-code", "tagged": ["original"],
 
       "cards": [],
       "searchs": {
@@ -4026,6 +4026,7 @@ const MissionsModule = (function () {
     },
     // fin ancestral code
 
+    /*
     "borrowed bloodline": {
       "description": "En la cámara de la sangre, los inefables buscan descubrir si es posible traspasar habilidades heredadas a otros magos y brujas. ¿Podrán conseguirlo?",
       "image": "https://2img.net/i.imgur.com/UpUxWLM.png", "requisitos": ["Un personaje con habilidad heredada"],
@@ -4037,7 +4038,7 @@ const MissionsModule = (function () {
       "searchs": {},
       "actions": {},
     },
-    // fin borrowed bloodline
+    // fin borrowed bloodline */
 
     "operation birth ledger": {
       "description": "Los archivos de San Mungo e historial de pacientes, rara vez son entregados, salvo cuando un auror aparece para preguntar sobre registros particulares que buscan encontrar a un primo que la familia ha olvidado.",
