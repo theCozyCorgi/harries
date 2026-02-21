@@ -1281,6 +1281,22 @@ const MissionsModule = (function () {
           "visible": { "attr": { "val": "min" }, "know": { "ccm": "0" }, "job": "invalid", "name": "invalid", }, "place": "el cúmulo de barro",
           "cont": '<span>Cuando encuentran la madriguera seguidos por el lamento, pueden encontrar a un Niffler de pelaje marrón herido. Su pelaje está manchado de barro y sangre, y se tiembla en su lugar. Para continuar deberán curarlo.</span>',
         },
+        "el regalo": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "el niffler",
+          "cont": '<span>Cuando logran calmar al niffler, el mismo comienza a corretear entre las piernas de sus curanderlos. No tarda en volver a la madriguera y buscar lo que tiene de plata para poder entregarlo a sus nuevos amigos. Aunque algo parece captar su atención. Se para en dos patas y comienza a olisquear, persiguiendo un rastro que los humanos no pueden seguir.</span>',
+        },
+        "seguir al niffler": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "el regalo",
+          "cont": '<span>El Niffler, al sentirse seguro, comienza a arrastrarse bajo ramas y hojas, siguiendo un rastro perdido. Se mueve velozmente, como si estuviera siguiendo una pista invisible, hasta que deja de serlo. La madriguera era mucho más grande del lugar en el que habían encontrado al primer niffler y la visión, mucho más desgarradora. Bajo las hojas secas del invierno, una familia de nifflers se encuentra muerta. Sus colores perdidos para siempre.</span>',
+        },
+        "pertenencias de los dempsey": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "seguir al niffler",
+          "cont": '<span>Escondidos entre los nifflers, el tesoro de los Dempsey se encuentra disponibles para ellos. Cubiertos, vajillas, todo cubierto de tierra y enterrado por la familia que se durmió para siempre sobre ellos.</span>',
+        },
+        "adoptar al niffler": {
+          "visible": { "attr": { "val": "min" }, "know": { "ccm": "5" }, "job": "invalid", "name": "invalid", }, "place": "seguir al niffler",
+          "cont": '<span>El pequeño niffler marrón, olisquea a un niffler más grande y deja escapar un gimoteo. Cualquier personaje que lo tome, podrá adoptarlo como propio.</span>',
+        },
       },
 
       "actions": {
@@ -1291,10 +1307,10 @@ const MissionsModule = (function () {
           "critico": 'Logra curar las heridas del Niffler, pero este sigue asustado y no colabora mucho.',
         },
         "sensus mitigo": {
-          "leve": 'Logra tranquilizar al Niffler lo suficiente para que colabore.<adding search="el niffler herido" class="check-cards"></adding>',
-          "moderado": 'Logra tranquilizar al Niffler lo suficiente para que colabore.<adding search="el niffler herido" class="check-cards"></adding>',
-          "exitoso": 'Logra tranquilizar al Niffler lo suficiente para que colabore.<adding search="el niffler herido" class="check-cards"></adding>',
-          "critico": 'Logra tranquilizar al Niffler lo suficiente para que colabore.<adding search="el niffler herido" class="check-cards"></adding>',
+          "leve": 'Logra tranquilizar al Niffler lo suficiente para que colabore.<adding search="el niffler" class="check-cards"></adding>',
+          "moderado": 'Logra tranquilizar al Niffler lo suficiente para que colabore.<adding search="el niffler" class="check-cards"></adding>',
+          "exitoso": 'Logra tranquilizar al Niffler lo suficiente para que colabore.<adding search="el niffler" class="check-cards"></adding>',
+          "critico": 'Logra tranquilizar al Niffler lo suficiente para que colabore.<adding search="el niffler" class="check-cards"></adding>',
         },
       },
     },
