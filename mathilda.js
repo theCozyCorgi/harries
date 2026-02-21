@@ -1347,10 +1347,10 @@ const MissionsModule = (function () {
           },
 
           "defensas": {
-            "leve": 'Defiende con hechizo: "Protego". Adiciona +6 de defensa.',
-            "moderado": 'Defiende con hechizo: "Protego". Adiciona +8 de defensa.',
-            "exitoso": 'Defiende con hechizo: "Protego". Adiciona +10 de defensa.',
-            "critico": 'Defiende con hechizo: "Protego". Adiciona +13 de defensa.',
+            "leve": 'Defiende con hechizo: "Protego". Adiciona +6 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.',
+            "moderado": 'Defiende con hechizo: "Protego". Adiciona +8 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.',
+            "exitoso": 'Defiende con hechizo: "Protego". Adiciona +10 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.',
+            "critico": 'Defiende con hechizo: "Protego". Adiciona +13 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.',
           },
         },
         "sombra cuthbert": {
@@ -1365,10 +1365,10 @@ const MissionsModule = (function () {
           },
 
           "defensas": {
-            "leve": 'Defiende con hechizo: "Protego". Adiciona +5 de defensa.',
-            "moderado": 'Defiende con hechizo: "Protego". Adiciona +7 de defensa.',
-            "exitoso": 'Defiende con hechizo: "Protego". Adiciona +9 de defensa.',
-            "critico": 'Defiende con hechizo: "Protego". Adiciona +12 de defensa.',
+            "leve": 'Defiende con hechizo: "Protego". Adiciona +5 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.',
+            "moderado": 'Defiende con hechizo: "Protego". Adiciona +7 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.',
+            "exitoso": 'Defiende con hechizo: "Protego". Adiciona +9 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.',
+            "critico": 'Defiende con hechizo: "Protego". Adiciona +12 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.',
           },
         },
         "sombra hermes": {
@@ -1383,10 +1383,10 @@ const MissionsModule = (function () {
           },
 
           "defensas": {
-            "leve": 'Defiende con hechizo: "Protego". Adiciona +5 de defensa.',
-            "moderado": 'Defiende con hechizo: "Protego". Adiciona +7 de defensa.',
-            "exitoso": 'Defiende con hechizo: "Protego". Adiciona +9 de defensa.',
-            "critico": 'Defiende con hechizo: "Protego". Adiciona +12 de defensa.',
+            "leve": 'Defiende con hechizo: "Protego". Adiciona +5 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.',
+            "moderado": 'Defiende con hechizo: "Protego". Adiciona +7 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.',
+            "exitoso": 'Defiende con hechizo: "Protego". Adiciona +9 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.',
+            "critico": 'Defiende con hechizo: "Protego". Adiciona +12 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.',
           },
         },
         "sombra minerva": {
@@ -1401,10 +1401,10 @@ const MissionsModule = (function () {
           },
 
           "defensas": {
-            "leve": 'Defiende con hechizo: "Protego". Adiciona +6 de defensa.',
-            "moderado": 'Defiende con hechizo: "Protego". Adiciona +8 de defensa.',
-            "exitoso": 'Defiende con hechizo: "Protego". Adiciona +10 de defensa.',
-            "critico": 'Defiende con hechizo: "Protego". Adiciona +13 de defensa.',
+            "leve": 'Defiende con hechizo: "Protego". Adiciona +6 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.',
+            "moderado": 'Defiende con hechizo: "Protego". Adiciona +8 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.',
+            "exitoso": 'Defiende con hechizo: "Protego". Adiciona +10 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.',
+            "critico": 'Defiende con hechizo: "Protego". Adiciona +13 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.',
           },
         },
         "sombra montgomery": {
@@ -1419,10 +1419,10 @@ const MissionsModule = (function () {
           },
 
           "defensas": {
-            "leve": 'Defiende con hechizo: "Protego". Adiciona +3 de defensa.',
-            "moderado": 'Defiende con hechizo: "Protego". Adiciona +5 de defensa.',
-            "exitoso": 'Defiende con hechizo: "Protego". Adiciona +7 de defensa.',
-            "critico": 'Defiende con hechizo: "Protego". Adiciona +10 de defensa.',
+            "leve": 'Defiende con hechizo: "Protego". Adiciona +3 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.',
+            "moderado": 'Defiende con hechizo: "Protego". Adiciona +5 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.',
+            "exitoso": 'Defiende con hechizo: "Protego". Adiciona +7 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.',
+            "critico": 'Defiende con hechizo: "Protego". Adiciona +10 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.',
           },
         },
       },
@@ -1442,7 +1442,7 @@ const MissionsModule = (function () {
           "cont": '<span>Por lo general, Dippet suele mantener un orden que para muchos, no es apropiado para el puesto que posee. Siempre su despacho cuenta con periódicos por todas partes, tazas que fue dejando con té en diferentes cantidades. Sin embargo, ese día parece que hay algo fuera de lugar. Y es que, no es que haya algo fuera de lugar, sino que hay demasiado orden y el despacho esta demasiado limpio para que parezca el espacio usual del Director.</span>',
         },
         "preguntar a los cuadros qué han visto": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "estudiantes calmados",
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "estudiantes calmados",
           "cont": '<span>Un silencio se distribuye entre los cuadros mientras los ojos de los antiguos directores se miran unos a otros. Es Phineas Nigellus Black el primero en hablar: «Nuestro deber es acompañar y aconsejar a los directores que vengan detrás nuestro. Lo que ha pasado, no lo sabemos, pues, nos han bloqueado el acceso a nuestros propios cuadros y cuando hermos regresado, así lo hemos encontrado».</span>',
         },
         "preguntar a los cuadros quién ha ordenado el lugar": {
