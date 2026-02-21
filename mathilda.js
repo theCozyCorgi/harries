@@ -2149,7 +2149,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/l0Qfh5X.png", "requisitos": ["Un miembro debe tener Alquimia o Pociones en Avanzado"],
       "users": ["/u91", "/u8","/u134"],
       "dependency": ["wounds from the past"],
-      "type": "investigación", "closed": false, "link": "https://blackwave.foroactivo.com/t837-investigacion-bottle-of-sorrows", "tagged": ["morgana"],
+      "type": "investigación", "closed": true, "link": "https://blackwave.foroactivo.com/t837-investigacion-bottle-of-sorrows", "tagged": ["morgana"],
 
       "cards": [
         {
@@ -2339,7 +2339,7 @@ const MissionsModule = (function () {
       "description": "Con las diferentes informaciones obtenidas, deberán ir al invernadero que Edwin había prestado a Morgana para encontrar cuál era el ingrediente secreto que posee el elixir y así poder replicar su fórmula y averiguar si aquello es o no una cura para los squibs.",
       "image": "https://2img.net/i.imgur.com/VMpvsfT.png", "requisitos": ["Un miembro debe tener Herbología en Avanzado", "Un miembro debe tener Encantamientos en Consagrado", "Se recomienda que un miembro posea Música en Principiante o una hija de Banshees"],
       "users": [],
-      "dependency": ["bottle of sorrows", "muted magic"], "tagged": ["morgana"],
+      "dependency": ["bottle of sorrows", "muted magic","stargazer's night"], "tagged": ["morgana","edwin"],
       "type": "misión", "closed": false, "link": "",
 
       "cards": [],
