@@ -2142,8 +2142,72 @@ const MissionsModule = (function () {
       "type": "investigación", "closed": false, "link": "", "tagged": ["sirius","capitulo 0"],
 
       "cards": [],
-      "searchs": {},
-      "actions": {},
+
+      "searchs": {
+        "ingresar a la cámara de las profecías": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "inefable", "name": "invalid", }, "place": "",
+          "cont": '<span>La cámara de las profecías cuenta con una interminable cantidad de estanterias que se abren durante todo el espacio. Si bien puede ser fácil perderse allí, los inefables pueden ver las señales que los guían a donde necesitan.</span>',
+        },
+        "investigar las estanterías": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ingresar a la cámara de las profecías",
+          "cont": '<span>Todas las estanterías parecen tener el mismo patrón. El mismo material de madera, donde se encuentran las profecías de diferentes tamaños. Además, todos los estantes, cuentan con letreros que citan «No Tocar».</span>',
+        },
+        "explicación letrero 'no tocar'": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "inefable", "name": "invalid", }, "place": "ingresar a la cámara de las profecías",
+          "cont": '<span>Las profecías están preparadas para guardar la información y que solo su lector pueda verla. Si alguien intenta tocar una profecía sin ser un inefable, recibirá una enfermedad que inflamará el cerebro produciendo locura o daños irreparables.</span>',
+        },
+        "organización de las estanterías": {
+          "visible": { "attr": { "int": "4" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "investigar las estanterías",
+          "cont": '<span>Si se presta atención, todas las profecías parecen estar numeradas y organizadas de mayor a menor. Aunque hay algunas que faltan. Los inefables conocen que aquellas que faltan son debido a que son profecías ya cumplidas que han sido descartadas de su lugar. Todas las profecías contienen la siguiente información: quién dictó la profecía y para quién correspondía. Las profecías que no están destinadas a una sola persona están marcadas como «Incierto».</span>',
+        },
+        "profecía sirius black": {
+          "visible": { "attr": { "int": "3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "organización de las estanterías",
+          "cont": '<span>La profecía de Sirius Black está ubicada en el estante número 12, doblando a la izquierda y superando unas tres estanterías adicionales. La profecía dicta que el vidente fue: Enfys Elleanore Holcomb y esta destinada a Sirius Black.</span>',
+        },
+        "tomar profecía de sirius black": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "inefable", "name": "invalid", }, "place": "profecía sirius black",
+          "cont": '<span>Solo un inefable puede conjurar las pinzas que toman la profecía y llevarla al pensadero, para poder leer su contenido.</span>',
+        },
+        "leer profecía de sirius black": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "tomar profecía de sirius black",
+          "cont": '<span>Tras ingresar la profecía al pensadero, la misma comienza a narrarse de manera que todos pueden escucharla: «Sobre la casa de los antiguos pesará una marca de luz y sombra. Todo aquel que herede el nombre de la estrella más brillante, heredará también el frío de un invierno prematuro. No busquéis al verdugo en tierras lejanas ni en campos de batalla, pues el final del Sirius siempre se escribe con tinta de su misma sangre. Una mano del mismo tronco cortará la rama que intenta florecer; pues en este linaje, el amor es traición, y el apellido, la propia mortaja. Morirá joven el nombre, morirá a manos de su cuna, hasta que no quede estrella que guíe a la estirpe en la oscuridad».</span>',
+        },
+        "uso de pensaderos": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "inefable", "name": "invalid", }, "place": "pensaderos",
+          "cont": '<span>Los pensaderos son utilizados para almacenar profecías y memorias de los inefables. A su vez, permiten la lectura de dichas profecías y memorias en un entorno seguro y controlado cuando no son los dueños o de quiénes la profecía habla.</span>',
+        },
+        "doblar a la derecha": {
+          "visible": { "attr": { "val": "min" }, "know": { "videncia": "10" }, "job": "invalid", "name": "invalid", }, "place": "seguir la voz",
+          "cont": '<span>La voz susurra en una dirección. Se la nota anciana, pero insistente «Debés escuchar. Escucha. El agua tiene memoria, sus murmullos intentan hablar».</span>',
+        },
+        "pasar tres estanterías": {
+          "visible": { "attr": { "val": "min" }, "know": { "videncia": "10" }, "job": "invalid", "name": "invalid", }, "place": "doblar a la derecha",
+          "cont": '<span>«Sigue, sigue, deja que el agua te lleve» persiste la voz de la mujer mientras lo guía por unas estanterías sin que el camino tenga sentido.</span>',
+        },
+        "doblar a la izquierda": {
+          "visible": { "attr": { "val": "min" }, "know": { "videncia": "10" }, "job": "invalid", "name": "invalid", }, "place": "pasar tres estanterías",
+          "cont": '<span>Al doblar a la izquierda, el vidente se encuentra frente a una puerta de madera oscura. La voz de la mujer se escucha más cerca, como si estuviera al otro lado de la puerta. «No te detengas, sigue el camino que te ha sido señalado».</span>',
+        },
+        "profecía latente": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "doblar a la izquierda",
+          "cont": '<span>Tras realizar todo el camino, puede verse en una de las estanterías una profecía cuyo humo interior brilla y se retuerce. Cualquiera de los prsentes puede tomarla, pues cualquiera de ellos podría tomar la profecía como propia: «Cerrasteis los ojos ante el fuego, creyendo que la oscuridad era refugio. Tapasteis vuestros oídos al grito del destino, pensando que el silencio era olvido. Pero el tiempo no perdona la soberbia de los que se creen eternos. Ya que no buscasteis el mañana, el mañana os dará caza a vosotros. No vendrá como un camino que recorrer, sino como un muro que se desploma; no será una advertencia que escuchar, sino el frío acero que ya os toca. Aquello que evitasteis mirar os encontrará en el rincón más oscuro, y cuando vuestra sangre reclame a su propia sangre bajo el nombre de la estrella, comprenderéis que el futuro no se espera... el futuro os devora.»</span>',
+        },
+      },
+
+      "actions": {
+        "murmura futuri": {
+          "leve": '<span>No es suficiente para revelar información.</span>',
+          "moderado": '<span>Una voz susurrante se escucha durante toda la cámara, pero solo es el vidente quién la puede escuchar. «Tienen que escuchar el pasado, estoy ya ha pasado». La voz parece provenir de un lugar en participar de la sala.<adding search="seguir la voz" class="check-cards"></adding></span>',
+          "exitoso": '<span>Una voz susurrante se escucha durante toda la cámara, pero solo es el vidente quién la puede escuchar. «Tienen que escuchar el pasado, estoy ya ha pasado». La voz parece provenir de un lugar en participar de la sala.<adding search="seguir la voz" class="check-cards"></adding></span>',
+          "critico": '<span>Una voz susurrante se escucha durante toda la cámara, pero solo es el vidente quién la puede escuchar. «Tienen que escuchar el pasado, estoy ya ha pasado». La voz parece provenir de un lugar en participar de la sala.<adding search="seguir la voz" class="check-cards"></adding></span>',
+        },
+        "revelio": {
+          "leve": '<span>No es suficiente para revelar información.</span>',
+          "moderado": '<span>Todas las estanterías revelan que en sus bordes cuentan con un pensadero.<adding search="pensaderos" class="check-cards"></adding></span>',
+          "exitoso": '<span>Todas las estanterías revelan que en sus bordes cuentan con un pensadero.<adding search="pensaderos" class="check-cards"></adding></span>',
+          "critico": '<span>Todas las estanterías revelan que en sus bordes cuentan con un pensadero.<adding search="pensaderos" class="check-cards"></adding></span>',
+        },
+      },
     },
     // fin whispers of the future
 
