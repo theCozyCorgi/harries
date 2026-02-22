@@ -6491,15 +6491,16 @@ const MissionsModule = (function () {
 
   function getClosedMissionByTag(tag) {
     let closed = 0; let total = 0;
+    let title = [];
     for (const id of getAllMissions()) {
       const m = getMission(id);
       if (m.tagged.includes(tag)) {
-        if (m.closed) { closed++; }
+        if (m.closed) { closed++; title.push(id); }
         total++;
       }
     }
 
-    return { 'closed': closed, 'total': total };
+    return { 'closed': closed, 'total': total, 'title': title };
   }
 
   return {
