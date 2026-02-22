@@ -6319,7 +6319,7 @@ const MissionsModule = (function () {
     "ruleta de prácticas grupo5": {
       "description": "",
       "image": "", "requisitos": [],
-      "users": ["invalid", "invalid"],
+      "users": ["/u13", "/u94"],
       "dependency": [],
       "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
 
@@ -6327,11 +6327,23 @@ const MissionsModule = (function () {
       "searchs": {},
 
       "actions": {
-        "hechiz": {
+        "accio": {
           "leve": '<span>No es suficiente para revelar información</span>',
-          "moderado": '<span>ADICIONAL</span>',
-          "exitoso": '<span>ADICIONAL</span>',
-          "critico": '<span>ADICIONAL</span>',
+          "moderado": '<span>Permite al personaje obtener el triangulo en sus manos.</span>',
+          "exitoso": '<span>Permite al personaje obtener el triangulo en sus manos.</span>',
+          "critico": '<span>Permite al personaje obtener el triangulo en sus manos.</span>',
+        },
+        "revelio": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Permite al personaje revelar el triangulo oculto.</span>',
+          "exitoso": '<span>Permite al personaje revelar el triangulo oculto.</span>',
+          "critico": '<span>Permite al personaje revelar el triangulo oculto.</span>',
+        },
+        "spongify": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Permite suavizar el triangulo, revelando una porción de torta de chocolate.</span>',
+          "exitoso": '<span>Permite suavizar el triangulo, revelando una porción de torta de chocolate.</span>',
+          "critico": '<span>Permite suavizar el triangulo, revelando una porción de torta de chocolate.</span>',
         },
       },
     },
@@ -6532,7 +6544,7 @@ const MissionsModule = (function () {
     "ruleta de prácticas grupo10": {
       "description": "",
       "image": "", "requisitos": [],
-      "users": ["invalid", "invalid"],
+      "users": ["/u44", "/u137"],
       "dependency": [],
       "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
 
@@ -6540,11 +6552,17 @@ const MissionsModule = (function () {
       "searchs": {},
 
       "actions": {
-        "hechiz": {
+        "wingardium leviosa": {
           "leve": '<span>No es suficiente para revelar información</span>',
-          "moderado": '<span>ADICIONAL</span>',
-          "exitoso": '<span>ADICIONAL</span>',
-          "critico": '<span>ADICIONAL</span>',
+          "moderado": '<span>Permite al personaje levitar la estrella hasta llegar al techo.</span>',
+          "exitoso": '<span>Permite al personaje levitar la estrella hasta llegar al techo.</span>',
+          "critico": '<span>Permite al personaje levitar la estrella hasta llegar al techo.</span>',
+        },
+        "epoximise": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Permite al personaje aplicar una capa de pegamente que pega la estrella al techo.</span>',
+          "exitoso": '<span>Permite al personaje aplicar una capa de pegamente que pega la estrella al techo.</span>',
+          "critico": '<span>Permite al personaje aplicar una capa de pegamente que pega la estrella al techo.</span>',
         },
       },
     },
