@@ -5,7 +5,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/atsv3ay.png", "requisitos": ["Un Nigromante de San Mungo", "Un trabajador del Dpto de Seguridad Mágica", "Solo podrán participar familiares de la víctima, trabajadores del Ministerio o trabajadores de San Mungo."],
       "users": ["/u8", "/u41", "/u32", "/u78", "/u53", "/u36"],
       "dependency": [],
-      "type": "misión", "closed": true, "link": "/t351-mision-secrets-of-the-silent-dead", "tagged": ["edwin", "morgana", "sirius"],
+      "type": "misión", "closed": true, "link": "/t351-mision-secrets-of-the-silent-dead", "tagged": ["edwin", "morgana", "sirius","capitulo 0"],
 
       "cards": [
         {
@@ -108,7 +108,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/gGo598Z.png", "requisitos": [],
       "users": ["/u38", "/u116", "/u115", "/u119", "/u118", "/u63"],
       "dependency": [],
-      "type": "misión", "closed": true, "link": "https://blackwave.foroactivo.com/t559-mision-potions-for-all-the-afflections", "tagged": ["morgana"],
+      "type": "misión", "closed": true, "link": "https://blackwave.foroactivo.com/t559-mision-potions-for-all-the-afflections", "tagged": ["morgana","capitulo 0"],
 
       "cards": [
         {
@@ -334,7 +334,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/AqXgADy.png", "requisitos": ["Un trabajador del Dpto de Seguridad Mágica", "Un miembro familiar Black", "Solo podrán participar los personajes del Dpto de Seguridad Mágica, San Mungo o miembros familiares"],
       "users": ["/u25", "/u51", "/u50", "/u17", "/u9", "/u8"],
       "dependency": [],
-      "type": "misión", "closed": true, "link": "https://blackwave.foroactivo.com/t353-mision-traces-in-black", "tagged": ["sirius"],
+      "type": "misión", "closed": true, "link": "https://blackwave.foroactivo.com/t353-mision-traces-in-black", "tagged": ["sirius","capitulo 0"],
 
       "cards": [
         {
@@ -450,7 +450,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/Hql0xVA.png", "requisitos": ["Un trabajador del Dpto de Seguridad Mágica", "Un personaje cercano a Edwin", "Solo podrán participar personajes del Dpto se Seguridad Mágica, San Mungo o cercanos a la víctima"],
       "users": ["/u60", "/u7", "/u55", "/u50", "/u79", "/u84"],
       "dependency": [],
-      "type": "misión", "closed": true, "link": "https://blackwave.foroactivo.com/t354-mision-haunted-dwelling", "tagged": ["edwin"],
+      "type": "misión", "closed": true, "link": "https://blackwave.foroactivo.com/t354-mision-haunted-dwelling", "tagged": ["edwin","capitulo 0"],
 
       "cards": [
         {
@@ -556,7 +556,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/fyKLKgt.png", "requisitos": ["Un miembro debe tener Alquimia en Avanzado", "Un trabajador del Dpto de Seguridad Mágica", "Personajes que puedan colaborar oficialmente con la investigación de venenos"],
       "users": ["/u10", "/u77", "/u89", "/u18", "/u42"],
       "dependency": [],
-      "type": "misión", "closed": true, "link": "https://blackwave.foroactivo.com/t365-mision-death-in-a-teacup", "tagged": ["edwin", "morgana", "sirius"],
+      "type": "misión", "closed": true, "link": "https://blackwave.foroactivo.com/t365-mision-death-in-a-teacup", "tagged": ["edwin", "morgana", "sirius","capitulo 0"],
 
       "cards": [
         {
@@ -671,7 +671,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/DfRLWoB.png", "requisitos": ["Un trabajador del Dpto de Seguridad Mágica", "Un personaje cercano a Morgana", "Solo podrán participar personajes del Dpto se Seguridad Mágica, San Mungo o cercanos a la víctima"],
       "users": ["/u91", "/u78", "/u7", "/u55", "/u50", "/u8"],
       "dependency": [],
-      "type": "misión", "closed": true, "link": "https://blackwave.foroactivo.com/t560-mision-wounds-from-the-past", "tagged": ["morgana"],
+      "type": "misión", "closed": true, "link": "https://blackwave.foroactivo.com/t560-mision-wounds-from-the-past", "tagged": ["morgana","capitulo 0"],
 
       "cards": [
         {
@@ -1097,7 +1097,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/CzU2l87.png", "requisitos": ["Un integrante tiene que tener Herbología en Avanzado"],
       "users": ["/u18", "/u108", "/u97"],
       "dependency": ["death in a teacup"],
-      "type": "investigación", "closed": true, "link": "/t522-investigacion-botanical-market", "tagged": ["morgana"],
+      "type": "investigación", "closed": true, "link": "/t522-investigacion-botanical-market", "tagged": ["morgana","capitulo 0"],
 
       "cards": [],
       "actions": {},
@@ -1152,7 +1152,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/LKuQkxz.png", "requisitos": [],
       "users": ["/u130","/u8","/u145","/u97"],
       "dependency": ["botanical market", "promise in crimson"],
-      "type": "misión", "closed": false, "link": "https://blackwave.foroactivo.com/t931-mision-moth-to-a-flame", "tagged": ["morgana"],
+      "type": "misión", "closed": false, "link": "https://blackwave.foroactivo.com/t931-mision-moth-to-a-flame", "tagged": ["morgana","capitulo 0"],
 
       "cards": [],
       "searchs": {
@@ -1228,7 +1228,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/u5EtFU0.png", "requisitos": ["Ser invitado por Damien o alguien más de la trama a la misión."],
       "users": ["c/u127", "/u119", "/u12", "/u63"],
       "dependency": [],
-      "type": "misión", "closed": false, "link": "https://blackwave.foroactivo.com/t752-mision-the-lone-bellow", "tagged": [],
+      "type": "misión", "closed": false, "link": "https://blackwave.foroactivo.com/t752-mision-the-lone-bellow", "tagged": ["capitulo 1"],
 
       "cards": [],
 
@@ -1320,7 +1320,7 @@ const MissionsModule = (function () {
       "description": "Una expedición a las bodegas Dempsey, buscan desentrañar qué poseían las bebidas de las víctimas. Irrumpir en el lugar solo buscará respuestas que pueden convertirse en nuevas preguntas.",
       "image": "https://2img.net/i.imgur.com/CzU2l87.png", "requisitos": ["Un integrante tiene que tener Herbología en Avanzado"],
       "users": [],
-      "dependency": ["moth to a flame", "potions for all the afflictions"], "tagged": ["morgana"],
+      "dependency": ["moth to a flame", "potions for all the afflictions"], "tagged": ["morgana","capitulo 0"],
       "type": "misión", "closed": false, "link": "",
 
       "cards": [],
@@ -1334,7 +1334,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/9mnS7Op.png", "requisitos": ["un miembro del departamento del Seguridad Mágica"],
       "users": [],
       "dependency": ["gilded herb"],
-      "type": "interrogatorio", "closed": false, "link": "", "tagged": ["morgana"],
+      "type": "interrogatorio", "closed": false, "link": "", "tagged": ["morgana","capitulo 0"],
 
       "cards": [],
       "searchs": {},
@@ -1347,7 +1347,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/YQ3QDyq.png", "requisitos": ["un miembro del departamento del Seguridad Mágica", "un miembro del personal o profesorado de hogwarts","Solo se aceptarán 2 estudiantes como máximo"],
       "users": ["/u50","/u24","/u110","/u108","/u141"],
       "dependency": [],
-      "type": "misión", "closed": false, "link": "https://blackwave.foroactivo.com/t932-mision-the-murmur-of-the-old-guard", "tagged": ["wave"],
+      "type": "misión", "closed": false, "link": "https://blackwave.foroactivo.com/t932-mision-the-murmur-of-the-old-guard", "tagged": ["wave","capitulo 1"],
 
       
       "creatures": {
@@ -1510,7 +1510,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/V6MkXm7.png", "requisitos": ["Un personaje con Alquimia en Consagrado", "Un personaje con CCM en Avanzado"],
       "users": ["/u8", "/u131", "/u78"],
       "dependency": ["secrets of the silent dead"],
-      "type": "investigación", "closed": true, "link": "/t658-investigacion-ryu-s-breath", "tagged": ["sirius"],
+      "type": "investigación", "closed": true, "link": "/t658-investigacion-ryu-s-breath", "tagged": ["sirius","capitulo 0"],
 
       "cards": [
         {
@@ -1611,7 +1611,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/GfHnpgi.png", "requisitos": ["un miembro del departamento del Seguridad Mágica", "Un personaje con Contrabando en Avanzado"],
       "users": ["/u134","/u146","/u131"],
       "dependency": ["ryu's breath"],
-      "type": "misión", "closed": false, "link": "", "tagged": ["sirius"],
+      "type": "misión", "closed": false, "link": "", "tagged": ["sirius","capitulo 0"],
 
       "cards": [],
       "searchs": {},
@@ -1624,7 +1624,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/LzSqfVa.png", "requisitos": ["un miembro del departamento del Seguridad Mágica o del Departamento de Transporte"],
       "users": ["/u8", "/u101", "/u17"],
       "dependency": ["traces in black"],
-      "type": "investigación", "closed": true, "link": "https://blackwave.foroactivo.com/t562-investigacion-the-beryl-ash-trail", "tagged": ["sirius"],
+      "type": "investigación", "closed": true, "link": "https://blackwave.foroactivo.com/t562-investigacion-the-beryl-ash-trail", "tagged": ["sirius","capitulo 0"],
 
       "cards": [
         {
@@ -1704,7 +1704,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/UnoEX43.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica"],
       "users": ["/u55", "/u8", "/u94"],
       "dependency": ["the beryl ash trail"],
-      "type": "interrogatorio", "closed": true, "link": "https://blackwave.foroactivo.com/t646-interrogatorio-golden-pathways", "tagged": ["sirius"],
+      "type": "interrogatorio", "closed": true, "link": "https://blackwave.foroactivo.com/t646-interrogatorio-golden-pathways", "tagged": ["sirius","capitulo 0"],
 
       "cards": [],
       "searchs": {},
@@ -1725,7 +1725,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/e1LeX7A.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica"],
       "users": ["/u8", "/u17", "/u101"],
       "dependency": ["the beryl ash trail"],
-      "type": "investigación", "closed": true, "link": "/t659-investigacion-ember-pass", "tagged": ["sirius"],
+      "type": "investigación", "closed": true, "link": "/t659-investigacion-ember-pass", "tagged": ["sirius","capitulo 0"],
 
       "cards": [],
 
@@ -1820,7 +1820,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/WgAQvWA.png", "requisitos": ["Un personaje con Herbología en Avanzado"],
       "users": ["/u9", "/u44", "/u8"],
       "dependency": ["traces in black"],
-      "type": "investigación", "closed": true, "link": "https://blackwave.foroactivo.com/t563-investigacion-underground-roots", "tagged": ["sirius"],
+      "type": "investigación", "closed": true, "link": "https://blackwave.foroactivo.com/t563-investigacion-underground-roots", "tagged": ["sirius","capitulo 0"],
 
       "cards": [
         {
@@ -1890,7 +1890,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/CmIJAA5.png", "requisitos": ["Uno de los integrantes debe ser un miembro de la familia Black"],
       "users": ["/u9", "/u17", "/u101"],
       "dependency": ["underground roots", "the beryl ash trail"],
-      "type": "investigación", "closed": true, "link": "https://blackwave.foroactivo.com/t643-investigacion-the-withered-pot", "tagged": ["sirius"],
+      "type": "investigación", "closed": true, "link": "https://blackwave.foroactivo.com/t643-investigacion-the-withered-pot", "tagged": ["sirius","capitulo 0"],
 
       "cards": [],
       "searchs": {
@@ -2038,7 +2038,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/xPVXOxC.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica"],
       "users": ["i/u108", "/u146","/u156"],
       "dependency": ["the withered pot"],
-      "type": "interrogatorio", "closed": false, "link": "", "tagged": ["sirius"],
+      "type": "interrogatorio", "closed": false, "link": "", "tagged": ["sirius","capitulo 0"],
 
       "cards": [],
       "searchs": {},
@@ -2051,7 +2051,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/MAA4xsy.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica"],
       "users": ["i/u97", "/u8"],
       "dependency": ["the withered pot", "ember pass"],
-      "type": "interrogatorio", "closed": true, "link": "/t847-interrogatorio-the-fortune-of-the-three-eyes", "tagged": ["sirius"],
+      "type": "interrogatorio", "closed": true, "link": "/t847-interrogatorio-the-fortune-of-the-three-eyes", "tagged": ["sirius","capitulo 0"],
 
       "cards": [],
       "searchs": {},
@@ -2100,7 +2100,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/c4omOwT.png", "requisitos": ["Un miembro debe tener CCM en Avanzado", "Un miembro del Dpto de Seguridad Mágica"],
       "users": [],
       "dependency": ["the lupine killer"],
-      "type": "misión", "closed": false, "link": "", "tagged": ["sirius"],
+      "type": "misión", "closed": false, "link": "", "tagged": ["sirius","capitulo 0"],
 
       "cards": [],
       "searchs": {},
@@ -2113,7 +2113,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/LhHwm7Y.png", "requisitos": ["Un miembro debe tener Alquimia en Avanzado", "Un miembro debe tener CCM en Avanzado", "Un licántropo voluntario"],
       "users": [],
       "dependency": ["through the green abyss"],
-      "type": "misión", "closed": false, "link": "", "tagged": ["sirius"],
+      "type": "misión", "closed": false, "link": "", "tagged": ["sirius","capitulo 0"],
 
       "cards": [],
       "searchs": {},
@@ -2126,7 +2126,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/uhzqWY8.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica"],
       "users": ["/u50", "/u13"],
       "dependency": ["traces in black"],
-      "type": "interrogatorio", "closed": true, "link": "/t660-interrogatorio-the-foretold-story", "tagged": ["sirius"],
+      "type": "interrogatorio", "closed": true, "link": "/t660-interrogatorio-the-foretold-story", "tagged": ["sirius","capitulo 0"],
 
       "cards": [],
       "searchs": {},
@@ -2139,7 +2139,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/NhDTPNU.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica", "Un inefable"],
       "users": ["/u50","/u150","/u17",],
       "dependency": ["the foretold story"],
-      "type": "investigación", "closed": false, "link": "", "tagged": ["sirius"],
+      "type": "investigación", "closed": false, "link": "", "tagged": ["sirius","capitulo 0"],
 
       "cards": [],
       "searchs": {},
@@ -2152,7 +2152,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/DWMLO6R.png", "requisitos": [],
       "users": [],
       "dependency": ["whispers of the future"],
-      "type": "misión", "closed": false, "link": "", "tagged": ["wave"],
+      "type": "misión", "closed": false, "link": "", "tagged": ["wave","capitulo 0"],
 
       "cards": [],
       "searchs": {},
@@ -2165,7 +2165,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/l0Qfh5X.png", "requisitos": ["Un miembro debe tener Alquimia o Pociones en Avanzado"],
       "users": ["/u91", "/u8","/u134"],
       "dependency": ["wounds from the past"],
-      "type": "investigación", "closed": true, "link": "https://blackwave.foroactivo.com/t837-investigacion-bottle-of-sorrows", "tagged": ["morgana"],
+      "type": "investigación", "closed": true, "link": "https://blackwave.foroactivo.com/t837-investigacion-bottle-of-sorrows", "tagged": ["morgana","capitulo 0"],
 
       "cards": [
         {
@@ -2255,7 +2255,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/3KEU7L5.png", "requisitos": ["Un miembro debe poseer Historia de la Magia en Avanzado", "Un miembro debe tener Curacion en Avanzado"],
       "users": ["/u55", "/u8","/u91"],
       "dependency": ["wounds from the past"],
-      "type": "investigación", "closed": true, "link": "https://blackwave.foroactivo.com/t836-investigacion-muted-magic", "tagged": ["morgana"],
+      "type": "investigación", "closed": true, "link": "https://blackwave.foroactivo.com/t836-investigacion-muted-magic", "tagged": ["morgana","capitulo 0"],
 
       "cards": [],
 
@@ -2355,7 +2355,7 @@ const MissionsModule = (function () {
       "description": "Con las diferentes informaciones obtenidas, deberán ir al invernadero que Edwin había prestado a Morgana para encontrar cuál era el ingrediente secreto que posee el elixir y así poder replicar su fórmula y averiguar si aquello es o no una cura para los squibs.",
       "image": "https://2img.net/i.imgur.com/VMpvsfT.png", "requisitos": ["Un miembro debe tener Herbología en Avanzado", "Un miembro debe tener Encantamientos en Consagrado", "Se recomienda que un miembro posea Música en Principiante o una hija de Banshees"],
       "users": [],
-      "dependency": ["bottle of sorrows", "muted magic","stargazer's night"], "tagged": ["morgana","edwin"],
+      "dependency": ["bottle of sorrows", "muted magic","stargazer's night"], "tagged": ["morgana","edwin","capitulo 0"],
       "type": "misión", "closed": false, "link": "",
 
       "cards": [],
@@ -2369,7 +2369,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/gr7QrwZ.png", "requisitos": ["Un miembro debe tener Alquimia en Avanzado", "Un miembro debe tener Pociones en Avanzado"],
       "users": [],
       "dependency": ["the murmuring woods"],
-      "type": "investigación", "closed": false, "link": "", "tagged": ["morgana"],
+      "type": "investigación", "closed": false, "link": "", "tagged": ["morgana","capitulo 0"],
 
       "cards": [],
       "searchs": {},
@@ -2382,7 +2382,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/9HSXJzG.png", "requisitos": ["Un Nigromante o Alto cargo de San Mungo"],
       "users": ["/u8", "/u78", "/u7"],
       "dependency": ["secrets of the silent dead"],
-      "type": "investigación", "closed": true, "link": "https://blackwave.foroactivo.com/t561-investigacion-promise-in-crimson", "tagged": ["morgana"],
+      "type": "investigación", "closed": true, "link": "https://blackwave.foroactivo.com/t561-investigacion-promise-in-crimson", "tagged": ["morgana","capitulo 0"],
 
       "cards": [
         {
@@ -2465,7 +2465,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/Bm8BRJM.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica"],
       "users": ["/u130", "/u8", "/u55", "/u7"],
       "dependency": ["promise in crimson"],
-      "type": "investigación", "closed": true, "link": "/t661-investigacion-full-of-emptiness", "tagged": ["morgana"],
+      "type": "investigación", "closed": true, "link": "/t661-investigacion-full-of-emptiness", "tagged": ["morgana","capitulo 0"],
 
       "cards": [{
         "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "caja de madera rúnica",
@@ -2570,7 +2570,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/dYv886y.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica"],
       "users": ["i/u38", "/u130", "/u8"],
       "dependency": ["promise in crimson"],
-      "type": "interrogatorio", "closed": true, "link": "/t662-interrogatorio-green-to-blue", "tagged": ["morgana"],
+      "type": "interrogatorio", "closed": true, "link": "/t662-interrogatorio-green-to-blue", "tagged": ["morgana","capitulo 0"],
 
       "cards": [],
       "searchs": {},
@@ -2583,7 +2583,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/sjiXJ68.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica"],
       "users": ["i/u108", "i/u119", "/u7", "/u8"],
       "dependency": ["promise in crimson"],
-      "type": "interrogatorio", "closed": true, "link": "/t663-interrogatorio-distorted-memories", "tagged": ["morgana"],
+      "type": "interrogatorio", "closed": true, "link": "/t663-interrogatorio-distorted-memories", "tagged": ["morgana","capitulo 0"],
 
       "cards": [],
       "searchs": {},
@@ -2596,7 +2596,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/bjwrBd2.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica"],
       "users": ["i/u127", "/u78", "/u55"],
       "dependency": ["promise in crimson"],
-      "type": "interrogatorio", "closed": false, "link": "https://blackwave.foroactivo.com/t834-interrogatorio-journey-of-a-bird", "tagged": ["morgana"],
+      "type": "interrogatorio", "closed": false, "link": "https://blackwave.foroactivo.com/t834-interrogatorio-journey-of-a-bird", "tagged": ["morgana","capitulo 0"],
 
       "cards": [],
       "searchs": {},
@@ -2609,7 +2609,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/RMYPxuz.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica"],
       "users": ["/u8", "/u78", "/u55", "/u131"],
       "dependency": ["promise in crimson"],
-      "type": "misión", "closed": true, "link": "/t664-mision-frozen-sunflowers", "tagged": ["morgana"],
+      "type": "misión", "closed": true, "link": "/t664-mision-frozen-sunflowers", "tagged": ["morgana","capitulo 2"],
 
       "cards": [
         {
@@ -2765,7 +2765,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/cX0CEv6.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica"],
       "users": [],
       "dependency": ["full of emptiness", "green to blue", "distorted memories", "journey of a bird", "frozen sunflowers"],
-      "type": "interrogatorio", "closed": false, "link": "", "tagged": ["morgana"],
+      "type": "interrogatorio", "closed": false, "link": "", "tagged": ["morgana","capitulo 0"],
 
       "cards": [],
       "searchs": {},
@@ -2778,7 +2778,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/m4Mton6.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica"],
       "users": ["/u55", "/u7", "/u50"],
       "dependency": ["haunted dwelling"],
-      "type": "investigación", "closed": true, "link": "/t523-investigacion-commander-s-orders", "tagged": ["edwin"],
+      "type": "investigación", "closed": true, "link": "/t523-investigacion-commander-s-orders", "tagged": ["edwin","capitulo 0"],
 
       "cards": [],
       "actions": {},
@@ -2842,7 +2842,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/faVXbWl.png", "requisitos": ["Un miembro de la familia Merrythrought o un amigo cercano a la familia", "Un miembro del Dpto de Seguridad Mágica", "Un miembro debe poseer Astronomía en Avanzado"],
       "users": ["/u7", "/u50", "/u8", "/u55", "/u130"],
       "dependency": ["commander's orders"],
-      "type": "misión", "closed": true, "link": "/t665-mision-unveiling-the-unseen", "tagged": ["edwin"],
+      "type": "misión", "closed": true, "link": "/t665-mision-unveiling-the-unseen", "tagged": ["edwin","capitulo 0"],
 
       "cards": [
         {
@@ -3168,7 +3168,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/3N0DmMz.png", "requisitos": ["Un miembro debe pertenecer a la familia Merrythought o ser un conocido cercano a la misma"],
       "users": ["/u150","/u7","/u156"],
       "dependency": ["unveiling the unseen"],
-      "type": "investigación", "closed": false, "link": "", "tagged": ["edwin"],
+      "type": "investigación", "closed": false, "link": "", "tagged": ["edwin","capitulo 0"],
 
       "cards": [],
       "searchs": {},
@@ -3181,7 +3181,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/3N0DmMz.png", "requisitos": ["Un miembro debe pertenecer a la familia Merrythought o ser un conocido cercano a la misma","Un miembro debe poseer Herbología en Avanzado", "Un miembro debe poseer Música en Avanzado"],
       "users": [],
       "dependency": ["stargazer's night"],
-      "type": "misión", "closed": false, "link": "", "tagged": ["edwin"],
+      "type": "misión", "closed": false, "link": "", "tagged": ["edwin","capitulo 0"],
 
       "cards": [],
       "searchs": {},
@@ -3194,7 +3194,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/Bt35Exz.png", "requisitos": ["Un miembro debe poseer Alquimia o Pociones en Avanzado"],
       "users": [],
       "dependency": ["dayflower gardens"],
-      "type": "investigación", "closed": false, "link": "", "tagged": ["edwin"],
+      "type": "investigación", "closed": false, "link": "", "tagged": ["edwin","capitulo 0"],
 
       "cards": [],
       "searchs": {},
@@ -3207,7 +3207,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/MbBcQcL.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica"],
       "users": [],
       "dependency": ["velvet death", "stargazer's night"],
-      "type": "interrogatorio", "closed": false, "link": "", "tagged": ["edwin", "wave"],
+      "type": "interrogatorio", "closed": false, "link": "", "tagged": ["edwin", "wave","capitulo 0"],
 
       "cards": [],
       "searchs": {},
@@ -3220,7 +3220,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/JyNcMmD.png", "requisitos": ["Un miembro debe tener CCM en Avanzado", "Un miembro debe poseer Curación en Avanzado"],
       "users": [],
       "dependency": ["the apple house", "stargazer's night", "in search of the deathly hallows"],
-      "type": "misión", "closed": false, "link": "", "tagged": ["wave"],
+      "type": "misión", "closed": false, "link": "", "tagged": ["wave","capitulo 1"],
 
       "cards": [],
       "searchs": {},
@@ -3233,7 +3233,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/chnJil9.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica", "Se recomienda una persona que crea en la Orden de los Ancestros"],
       "users": [],
       "dependency": ["the wounded dragon"],
-      "type": "misión", "closed": false, "link": "", "tagged": ["wave"],
+      "type": "misión", "closed": false, "link": "", "tagged": ["wave","capitulo 1"],
 
       "cards": [],
       "searchs": {},
@@ -3246,7 +3246,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/K4LFLIJ.png", "requisitos": ["Un miembro debe poseer Adivinación en Consagrado o ser vidente"],
       "users": [],
       "dependency": ["heaven of the forgotten", "nothing but the truth"],
-      "type": "investigación", "closed": false, "link": "", "tagged": ["wave"],
+      "type": "investigación", "closed": false, "link": "", "tagged": ["wave","capitulo 0"],
 
       "cards": [],
       "searchs": {},
@@ -3259,7 +3259,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/f4NsoJy.png", "requisitos": [],
       "users": [],
       "dependency": ["the wounded dragon"],
-      "type": "investigación", "closed": false, "link": "", "tagged": ["wave"],
+      "type": "investigación", "closed": false, "link": "", "tagged": ["wave","capitulo 1"],
 
       "cards": [],
       "searchs": {},
@@ -3272,7 +3272,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/0E6XyJW.png", "requisitos": ["Un miembro debe poseer CCM en Avanzado", "Un miembro del Dpto de Seguridad Mágica"],
       "users": [],
       "dependency": ["the wounded dragon"],
-      "type": "misión", "closed": false, "link": "", "tagged": ["wave"],
+      "type": "misión", "closed": false, "link": "", "tagged": ["wave","capitulo 1"],
 
       "cards": [],
       "searchs": {},
@@ -3285,7 +3285,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/lVnrOfx.png", "requisitos": ["La administración abrirá un tema con las condiciones para desbloquear esta trama"],
       "users": [],
       "dependency": ["lethal trail"],
-      "type": "misión", "closed": false, "link": "", "tagged": ["edwin", "morgana", "sirius", "wave"],
+      "type": "misión", "closed": false, "link": "", "tagged": ["edwin", "morgana", "sirius", "wave","capitulo 0"],
 
       "cards": [],
       "searchs": {},
@@ -3298,7 +3298,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/BgdlkCZ.png", "requisitos": ["La administración abrirá un tema con las condiciones para desbloquear esta trama"],
       "users": [],
       "dependency": ["nothing but the truth"],
-      "type": "misión", "closed": false, "link": "", "tagged": ["wave"],
+      "type": "misión", "closed": false, "link": "", "tagged": ["wave","capitulo 1"],
 
       "cards": [],
       "searchs": {},
@@ -3311,7 +3311,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/AFEm2I9.png", "requisitos": ["La administración abrirá un tema con las condiciones para desbloquear esta trama"],
       "users": [],
       "dependency": ["the obsidian tide"],
-      "type": "misión", "closed": false, "link": "", "tagged": ["wave"],
+      "type": "misión", "closed": false, "link": "", "tagged": ["wave","capitulo 1"],
 
       "cards": [],
       "searchs": {},
@@ -3324,7 +3324,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/zZ5WNNh.png", "requisitos": ["Un personaje tendrá que tener curación en avanzado", "Un personaje tendrá que tener Transformaciones en Avanzado", "Un personaje deberá ser miembro del Departamento de Seguridad"],
       "users": ["c/u1","/u8","/u24","/u12","/u145"],
       "dependency": [],
-      "type": "misión", "closed": false, "link": "https://blackwave.foroactivo.com/t933-mision-the-rest-of-us", "tagged": ["original"],
+      "type": "misión", "closed": false, "link": "https://blackwave.foroactivo.com/t933-mision-the-rest-of-us", "tagged": ["original","capitulo 3"],
 
       "cards": [],
       "searchs": {
@@ -3425,77 +3425,12 @@ const MissionsModule = (function () {
     },
     // the rest of us
 
-    "the night watchman's route": {
-      "description": "Completar",
-      "image": "https://2img.net/i.imgur.com/zZ5WNNh.png", "requisitos": ["Un personaje deberá ser miembro del Departamento de Seguridad"],
-      "users": ["c/u1"],
-      "dependency": ["the rest of us"],
-      "type": "misión", "closed": false, "link": "", "tagged": ["original"],
-
-      "cards": [],
-      "searchs": {},
-      "actions": {},
-    },
-    // the night watchman's route
-
-    "archives beneath the frame": {
-      "description": "Completar",
-      "image": "https://2img.net/i.imgur.com/zZ5WNNh.png", "requisitos": ["Un personaje deberá ser miembro del Departamento de Seguridad"],
-      "users": ["c/u1"],
-      "dependency": ["the rest of us"],
-      "type": "investigación", "closed": false, "link": "", "tagged": ["original"],
-
-      "cards": [],
-      "searchs": {},
-      "actions": {},
-    },
-    // archives beneath the frame
-
-    "the chaser's wrath": {
-      "description": "Completar",
-      "image": "https://2img.net/i.imgur.com/zZ5WNNh.png", "requisitos": ["Un personaje deberá ser miembro del Departamento de Seguridad"],
-      "users": ["c/u1"],
-      "dependency": ["the night watchman's route", "archives beneath the frame"],
-      "type": "investigación", "closed": false, "link": "", "tagged": ["original"],
-
-      "cards": [],
-      "searchs": {},
-      "actions": {},
-    },
-    // the chaser's wrath
-
-    "the echo of the lost sisterhood": {
-      "description": "Completar",
-      "image": "https://2img.net/i.imgur.com/zZ5WNNh.png", "requisitos": ["Un personaje deberá ser miembro del Departamento de Seguridad"],
-      "users": ["c/u1"],
-      "dependency": ["the chaser's wrath"],
-      "type": "investigación", "closed": false, "link": "", "tagged": ["original"],
-
-      "cards": [],
-      "searchs": {},
-      "actions": {},
-    },
-    // the echo of the lost sisterhood
-
-    "the throne of the nightingales": {
-      "description": "Completar",
-      "image": "https://2img.net/i.imgur.com/zZ5WNNh.png", "requisitos": ["Un personaje deberá ser miembro del Departamento de Seguridad"],
-      "users": ["c/u1"],
-      "dependency": ["the echo of the lost sisterhood"],
-      "type": "investigación", "closed": false, "link": "", "tagged": ["original"],
-
-      "cards": [],
-      "searchs": {},
-      "actions": {},
-    },
-    // the throne of the nightingales
-
     "silent sentinel": {
       "description": "Tras los sucesos de Frozen Sunflower, se busca interrogar al guardia que fue incapacitado por Nina Wraithwood, para comprender si posee una información que pueda dar más luz al objeto robado.",
       "image": "https://2img.net/i.imgur.com/fDwQ2CI.png", "requisitos": ["Un personaje deberá ser miembro del Departamento de Seguridad"],
       "users": ["c/u8", "c/u55", "/u146", "/u130"],
       "dependency": ["frozen sunflowers"],
-      "type": "investigación", "closed": false, "link": "/t984-interrogatorio-silent-sentinel", "tagged": ["original"],
+      "type": "investigación", "closed": false, "link": "/t984-interrogatorio-silent-sentinel", "tagged": ["original","capitulo 2"],
 
       "cards": [
         {
@@ -3540,7 +3475,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/tKGTsc9.png", "requisitos": ["Un miembro debe tener Contrabando en Avanzado", "Un miembro debe tener Magia Oscura en Consagrado"],
       "users": ["c/u131","/u8","/u55","/u9","/u145"],
       "dependency": ["frozen sunflowers"],
-      "type": "misión", "closed": false, "link": "/t983-mision-clandestine-melodies", "tagged": ["original"],
+      "type": "misión", "closed": false, "link": "/t983-mision-clandestine-melodies", "tagged": ["original","capitulo 3"],
 
       "cards": [],
 
@@ -3679,7 +3614,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/5xLMKUg.png", "requisitos": ["Un personaje deberá ser miembro del Departamento de Seguridad"],
       "users": ["c/u8", "c/u55","/u78","/u146"],
       "dependency": ["frozen sunflowers"],
-      "type": "investigación", "closed": true, "link": "https://blackwave.foroactivo.com/t934-investigacion-midnight-ashes", "tagged": ["original"],
+      "type": "investigación", "closed": true, "link": "https://blackwave.foroactivo.com/t934-investigacion-midnight-ashes", "tagged": ["original","capitulo 2"],
 
       "cards": [],
 
@@ -3735,7 +3670,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/SvlR6WP.png", "requisitos": ["Un personaje debe ser Nigromante"],
       "users": ["c/u78","/u8","/u55","/u91"],
       "dependency": ["frozen sunflowers"],
-      "type": "investigación", "closed": true, "link": "https://blackwave.foroactivo.com/t838-investigacion-18-paper-mask", "tagged": ["original"],
+      "type": "investigación", "closed": true, "link": "https://blackwave.foroactivo.com/t838-investigacion-18-paper-mask", "tagged": ["original","capitulo 2"],
 
       "cards": [
         {
@@ -3891,7 +3826,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/nVh3XB1.png", "requisitos": ["Un personaje deberá ser miembro del Departamento de Seguridad"],
       "users": ["c/u8", "c/u55"],
       "dependency": ["paper mask", "midnight ashes", "clandestine melodies", "silent sentinel"],
-      "type": "misión", "closed": false, "link": "", "tagged": ["original"],
+      "type": "misión", "closed": false, "link": "", "tagged": ["original","capitulo 3"],
 
       "cards": [],
       "searchs": {},
