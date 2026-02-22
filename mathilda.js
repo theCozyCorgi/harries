@@ -3847,6 +3847,45 @@ const MissionsModule = (function () {
     },*/
     // dragonfly's secrets
 
+    "the mercy of death": {
+      "description": "Entre los muros de Azkaban, Yusuf y Vinnie guardan el secreto del canto de la banshee y el enigma de la W. Un interrogatorio cargado de cinismo revelará una verdad amarga: ¿qué es lo que realmente ocurrió aquella noche en la que Wrenn Wraithwood perdió la vida? ¿Qué secretos se esconden detrás de su trágico destino? La respuesta a estas preguntas podría cambiarlo todo, pero también podría ser más dolorosa de lo que imaginan.",
+      "image": "https://i.imgur.com/0VEBWJ2.png", "requisitos": ["Un personaje deberá ser miembro del Departamento de Seguridad","Un personaje deberá tener Magia Oscura en Avanzado","Tres personajes deberán tener Patronus en Avanzado"],
+      "users": ["c/u8"],
+      "dependency": ["midnight ashes"],
+      "type": "misión", "closed": false, "link": "", "tagged": ["original","capitulo 3"],
+
+      "cards": [],
+      "searchs": {},
+      "actions": {},
+    },
+    // the mercy of death
+
+    "stolen shroud": {
+      "description": "Una investigación sobre la identidad y el sacrificio para descrubrir el rastro de Soly, quien decidió usurpar la vida de otro, no por ambición ni poder, sino como el único método efectivo para orquestar su propio final. El rastro de una existencia construida solo para ser destruida.",
+      "image": "https://i.imgur.com/2kfwlbB.png", "requisitos": ["Un personaje deberá ser miembro del Departamento de Seguridad","Un personaje o PNJ llevado por usuario deberá tener entre 45 y 55 años"],
+      "users": ["c/u8"],
+      "dependency": ["paper mask", "midnight ashes"],
+      "type": "investigación", "closed": false, "link": "", "tagged": ["original","capitulo 3"],
+
+      "cards": [],
+      "searchs": {},
+      "actions": {},
+    },
+    // stolen shroud
+
+    "licking salted wounds": {
+      "description": "El interrogatorio a Hadiya es la llave para desentrañar el destino de Morian y la verdad oculta de las gemelas. Se deberá llevar a cabo un interrogatorio donde requerirán ganar la confianza de Hadiya para que esta revele toda la verdad que conoce.",
+      "image": "https://i.imgur.com/4EJznhF.png", "requisitos": ["Un personaje deberá ser miembro del Departamento de Seguridad","Un personaje deberá saber hablar Frances (debe estar especificado en la ficha)"],
+      "users": ["c/u8"],
+      "dependency": ["paper mask", "midnight ashes"],
+      "type": "interrogatorio", "closed": false, "link": "", "tagged": ["original","capitulo 3"],
+
+      "cards": [],
+      "searchs": {},
+      "actions": {},
+    },
+    // licking salted wounds
+
     "faded lineage": {
       "description": "En la cámara de la sangre, las investigaciones siempre resultan más que curiosas. En esta oportunidad, podrán investigar aquellas habilidades que, en el pasado existían y ahora han quedado olvidadas productos de una genética que se perdió.",
       "image": "https://2img.net/i.imgur.com/UpUxWLM.png", "requisitos": [],
