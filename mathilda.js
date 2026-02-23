@@ -2159,7 +2159,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/NhDTPNU.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica", "Un inefable"],
       "users": ["/u50","/u150","/u17",],
       "dependency": ["the foretold story"],
-      "type": "investigación", "closed": false, "link": "", "tagged": ["sirius","capitulo 0"],
+      "type": "investigación", "closed": false, "link": "https://blackwave.foroactivo.com/t1008-investigacion-whispers-of-the-future", "tagged": ["sirius","capitulo 0"],
 
       "cards": [],
 
@@ -3252,7 +3252,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/3N0DmMz.png", "requisitos": ["Un miembro debe pertenecer a la familia Merrythought o ser un conocido cercano a la misma"],
       "users": ["/u150","/u7","/u156"],
       "dependency": ["unveiling the unseen"],
-      "type": "investigación", "closed": false, "link": "", "tagged": ["edwin","capitulo 0"],
+      "type": "investigación", "closed": false, "link": "https://blackwave.foroactivo.com/t1009-investigacion-stargazer-s-night", "tagged": ["edwin","capitulo 0"],
 
       "cards": [],
       "searchs": {},
