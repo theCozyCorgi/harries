@@ -1196,6 +1196,26 @@ const MissionsModule = (function () {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "puerta caída",
           "cont": '<span>Un pequeño cuarto de levaduras. Las paredes están cubiertas de una capa de polvo y humedad. Se puede notar un olor a levadura que aún perdura con el tiempo y a madera vieja quemada. Gran parte del lugar esta revestido con azulejos blancos que pasaron a ser amarillos y negros, y se han cubierto con una capa de moho. Parece ser la parte más fría de toda la estructura, pues el frío sopla con fuerza por los huecos de las paredes.</span>',
         },
+        "mas allá de la sala": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "cuarto de levaduras",
+          "cont": '<span>Del cuarto de levaduras, sale una puerta que conduce a la nada. Salas y salas comidas en su totalidad por el fuego. El suelo está cubierto de cenizas y los muros están completamente carbonizados. No hay forma de saber qué hay más allá, solo una oscuridad absoluta.</span>',
+        },
+        "dibujos en los cerámicos": {
+          "visible": { "attr": { "sab": "3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "cuarto de levaduras",
+          "cont": '<span>En las paredes del cuarto de lavaduras, hay unos ceramicos que apenas se distinguen bajo la capa de polvo. Los dibujos son simples, pero parecen representar figuras humanas con rostros sombríos y manos extendidas hacia el vacío. Al observarlos con atención, se nota una mano que señala hacia la oscuridad del otro lado de la sala. Hay algo en su mirada que parece desentonar.</span>',
+        },
+        "seguir la seña": {
+          "visible": { "attr": { "sab": "3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "dibujo de los cerámicos",
+          "cont": '<span>Si se sigue la seña, podrá notarse que señala hacia un cuadro de una mujer que parece amazar. Los razgos de la mujer se perdieron por el paso del tiempo y el fuego, pero arriba de una salamandra apagada, parece empujar hacia abajo.</span>',
+        },
+        "hacer presión hacia abajo": {
+          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "seguir la seña",
+          "cont": '<span>Si se hace presión sobre la salamandra, se siente un leve temblor en el suelo. La salamandra comienza a moverse, y una grieta aparece en la pared detrás de ella. Se puede ver una entrada oculta. Sin embargo, la salamandra, solo llega a revelar el camino antes de terminar de romperse ante el paso del tiempo.</span>',
+        },
+        "ingresar por el pasadizo": {
+          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "hacer presión hacia abajo",
+          "cont": '<span>Después de ingresar por el pasadizo, pueden verse una escalera que parece haber sobrevivido al fuego. Toda la sala a la que conduce parece haber logrado escaparse de las llamas que habían lanzado en el interior. Las mesas y mesas que se encuentran abajo, demuestan que ese había sido un espacio para el Corazón de Fuego, aunque allí no había nada.</span>',
+        },
       },
       "actions": {
 
