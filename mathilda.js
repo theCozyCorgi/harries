@@ -3947,7 +3947,7 @@ const MissionsModule = (function () {
     "stolen shroud": {
       "description": "Una investigación sobre la identidad y el sacrificio para descrubrir el rastro de Soly, quien decidió usurpar la vida de otro, no por ambición ni poder, sino como el único método efectivo para orquestar su propio final. El rastro de una existencia construida solo para ser destruida.",
       "image": "https://i.imgur.com/2kfwlbB.png", "requisitos": ["Un personaje deberá ser miembro del Departamento de Seguridad","Un personaje o PNJ llevado por usuario deberá tener entre 45 y 55 años"],
-      "users": ["c/u8","/u146","/u91"],
+      "users": ["c/u8","/u146","/u153"],
       "dependency": ["paper mask", "midnight ashes"],
       "type": "investigación", "closed": false, "link": "", "tagged": ["original","capitulo 3"],
 
