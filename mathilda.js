@@ -3250,7 +3250,7 @@ const MissionsModule = (function () {
     "stargazer's night": {
       "description": "La investigación los lleva a un nuevo espacio guíado por el mismo Edwin Merrythought, aunque no saben a dónde conduce. Lo que implica una nueva investigación para descubrir qué es ese lugar, por qué Edwin lo guió allí y qué relación tiene con los asesinatos.",
       "image": "https://2img.net/i.imgur.com/3N0DmMz.png", "requisitos": ["Un miembro debe pertenecer a la familia Merrythought o ser un conocido cercano a la misma"],
-      "users": ["/u150","/u7","/u156"],
+      "users": ["/u150","/u7","/u156","u119"],
       "dependency": ["unveiling the unseen"],
       "type": "investigación", "closed": false, "link": "https://blackwave.foroactivo.com/t1009-investigacion-stargazer-s-night", "tagged": ["edwin","capitulo 0"],
 
@@ -3934,7 +3934,7 @@ const MissionsModule = (function () {
     "the mercy of death": {
       "description": "Entre los muros de Azkaban, Yusuf y Vinnie guardan el secreto del canto de la banshee y el enigma de la W. Un interrogatorio cargado de cinismo revelará una verdad amarga: ¿qué es lo que realmente ocurrió aquella noche en la que Wrenn Wraithwood perdió la vida? ¿Qué secretos se esconden detrás de su trágico destino? La respuesta a estas preguntas podría cambiarlo todo, pero también podría ser más dolorosa de lo que imaginan.",
       "image": "https://i.imgur.com/0VEBWJ2.png", "requisitos": ["Un personaje deberá ser miembro del Departamento de Seguridad","Un personaje deberá tener Magia Oscura en Avanzado","Tres personajes deberán tener Patronus en Avanzado"],
-      "users": ["c/u8","/u55","/u91"],
+      "users": ["c/u8","/u55","/u153","/u78"],
       "dependency": ["midnight ashes"],
       "type": "misión", "closed": false, "link": "", "tagged": ["original","capitulo 3"],
 
@@ -3960,7 +3960,7 @@ const MissionsModule = (function () {
     "licking salted wounds": {
       "description": "El interrogatorio a Hadiya es la llave para desentrañar el destino de Morian y la verdad oculta de las gemelas. Se deberá llevar a cabo un interrogatorio donde requerirán ganar la confianza de Hadiya para que esta revele toda la verdad que conoce.",
       "image": "https://i.imgur.com/4EJznhF.png", "requisitos": ["Un personaje deberá ser miembro del Departamento de Seguridad","Un personaje deberá saber hablar Frances (debe estar especificado en la ficha)"],
-      "users": ["c/u8","/u7","/u108"],
+      "users": ["c/u8","/u7","/u91","/u110"],
       "dependency": ["paper mask", "midnight ashes"],
       "type": "interrogatorio", "closed": false, "link": "", "tagged": ["original","capitulo 3"],
 
@@ -6204,31 +6204,31 @@ const MissionsModule = (function () {
 
       "actions": {
         "nervus flemere": {
-          "leve": '<span>No es suficiente para revelar información</span>',
+          "leve": '<span>Hechizo 1 de 5: el cuerpo de la niña se relaja, permitiendo que los hechizos actúen con mayor eficacia.</span>',
           "moderado": '<span>Hechizo 1 de 5: el cuerpo de la niña se relaja, permitiendo que los hechizos actúen con mayor eficacia.</span>',
           "exitoso": '<span>Hechizo 1 de 5: el cuerpo de la niña se relaja, permitiendo que los hechizos actúen con mayor eficacia.</span>',
           "critico": '<span>Hechizo 1 de 5: el cuerpo de la niña se relaja, permitiendo que los hechizos actúen con mayor eficacia.</span>',
         },
         "calor vitalis": {
-          "leve": '<span>No es suficiente para revelar información</span>',
+          "leve": '<span>Hechizo 2 de 5: el cuerpo de la niña se calienta, evitando consecuencias graves de hipotermia.</span>',
           "moderado": '<span>Hechizo 2 de 5: el cuerpo de la niña se calienta, evitando consecuencias graves de hipotermia.</span>',
           "exitoso": '<span>Hechizo 2 de 5: el cuerpo de la niña se calienta, evitando consecuencias graves de hipotermia.</span>',
           "critico": '<span>Hechizo 2 de 5: el cuerpo de la niña se calienta, evitando consecuencias graves de hipotermia.</span>',
         },
         "anapneo": {
-          "leve": '<span>No es suficiente para revelar información</span>',
+          "leve": '<span>Hechizo 3 de 5: libera las vías respiratorias de la niña, permitiendo que respire con normalidad.</span>',
           "moderado": '<span>Hechizo 3 de 5: libera las vías respiratorias de la niña, permitiendo que respire con normalidad.</span>',
           "exitoso": '<span>Hechizo 3 de 5: libera las vías respiratorias de la niña, permitiendo que respire con normalidad.</span>',
           "critico": '<span>Hechizo 3 de 5: libera las vías respiratorias de la niña, permitiendo que respire con normalidad.</span>',
         },
         "episkey": {
-          "leve": '<span>No es suficiente para revelar información</span>',
+          "leve": '<span>Hechizo 4 de 5: repara los huesos rotos de los dedos de la mano.</span>',
           "moderado": '<span>Hechizo 4 de 5: repara los huesos rotos de los dedos de la mano.</span>',
           "exitoso": '<span>Hechizo 4 de 5: repara los huesos rotos de los dedos de la mano.</span>',
           "critico": '<span>Hechizo 4 de 5: repara los huesos rotos de los dedos de la mano.</span>',
         },
         "férula": {
-          "leve": '<span>No es suficiente para revelar información</span>',
+          "leve": '<span>Hechizo 5 de 5: entablilla el brazo de la joven evitando movimientos hasta que un sanador pueda finalizar las curaciones.</span>',
           "moderado": '<span>Hechizo 5 de 5: entablilla el brazo de la joven evitando movimientos hasta que un sanador pueda finalizar las curaciones.</span>',
           "exitoso": '<span>Hechizo 5 de 5: entablilla el brazo de la joven evitando movimientos hasta que un sanador pueda finalizar las curaciones.</span>',
           "critico": '<span>Hechizo 5 de 5: entablilla el brazo de la joven evitando movimientos hasta que un sanador pueda finalizar las curaciones.</span>',
