@@ -6332,6 +6332,36 @@ const MissionsModule = (function () {
           "exitoso": '<span>Permite dibujar las estrellas de la constelación de Géminis, Tauro u Orión.</span>',
           "critico": '<span>Permite dibujar las estrellas de la constelación de Géminis, Tauro u Orión.</span>',
         },
+        "vuelo en velocidad": {
+          "leve": '<span>Permite pasar 2 aros Peltre.</span>',
+          "moderado": '<span>Permite pasar 3 aros Peltre.</span>',
+          "exitoso": '<span>Permite pasar 4 aros Peltre.</span>',
+          "critico": '<span>Permite pasar 5 aros Peltre.</span>',
+        },
+        "amago de wronski": {
+          "leve": '<span>Permite pasar 1 aro Cobre.</span>',
+          "moderado": '<span>Permite pasar 2 aros Cobre.</span>',
+          "exitoso": '<span>Permite pasar 3 aros Cobre.</span>',
+          "critico": '<span>Permite pasar 4 aros Cobre.</span>',
+        },
+        "vuelo": {
+          "leve": '<span>Permite pasar 1 aro Peltre.</span>',
+          "moderado": '<span>Permite pasar 2 aros Peltre.</span>',
+          "exitoso": '<span>Permite pasar 3 aros Peltre.</span>',
+          "critico": '<span>Permite pasar 4 aros Peltre.</span>',
+        },
+        "giro del colacuerno": {
+          "leve": '<span>Permite pasar 1 aro Oro.</span>',
+          "moderado": '<span>Permite pasar 2 aros Oro.</span>',
+          "exitoso": '<span>Permite pasar 3 aros Oro.</span>',
+          "critico": '<span>Permite pasar 4 aros Oro.</span>',
+        },
+        "pivotao aereo": {
+          "leve": '<span>Permite pasar 1 aro Ocre.</span>',
+          "moderado": '<span>Permite pasar 2 aros Ocre.</span>',
+          "exitoso": '<span>Permite pasar 3 aros Ocre.</span>',
+          "critico": '<span>Permite pasar 4 aros Ocre.</span>',
+        },
       },
     },
     // fin: ruleta de prácticas grupo4
