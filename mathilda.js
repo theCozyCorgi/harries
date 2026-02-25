@@ -3605,7 +3605,7 @@ const MissionsModule = (function () {
           "cont": '<span>Con una pausa larga, los músicos buscan a Cillian, quien turce el gesto y la música continúa: «Se dice que el viejo, con mano de acero, / cazó a un gran lobo en el monte fiero. / De un hueso bendito talló su amuleto, / cargando en su dedo un poder secreto. / Dicen que el brillo su magia ensanchaba, / y al mismo destino el hombre retaba. / Aunque él con silencio su obra cubrió, / la fama del anillo su tumba cavó».</span>'
         },
         "preguntar por los wraitwood":{
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "comenzar interrogatorio",
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar por el anillo",
           "cont": '<span>La música se vuelve un susurro, los músicos que preguntan a su líder si continuar: «No llames al muerto que duerme en el lodo, / que el nombre de Morian lo pudre todo. / Las gemelas pronto el umbral cruzaron, / y en oscuras artes su sed calmaron. / Dijeron a todos: "Estamos en Francia", / mintiendo con clase y con elegancia. / Pero en Inglaterra la sombra buscaban, / y al mundo entre robos ellas engañaban».</span>'
         },
         "preguntar sobre morian":{
