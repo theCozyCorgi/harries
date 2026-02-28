@@ -3934,7 +3934,7 @@ const MissionsModule = (function () {
     "the mercy of death": {
       "description": "Entre los muros de Azkaban, Yusuf y Vinnie guardan el secreto del canto de la banshee y el enigma de la W. Un interrogatorio cargado de cinismo revelará una verdad amarga: ¿qué es lo que realmente ocurrió aquella noche en la que Wrenn Wraithwood perdió la vida? ¿Qué secretos se esconden detrás de su trágico destino? La respuesta a estas preguntas podría cambiarlo todo, pero también podría ser más dolorosa de lo que imaginan.",
       "image": "https://i.imgur.com/0VEBWJ2.png", "requisitos": ["Un personaje deberá ser miembro del Departamento de Seguridad","Un personaje deberá tener Magia Oscura en Avanzado","Tres personajes deberán tener Patronus en Avanzado"],
-      "users": ["c/u8","/u55","/u153","/u78"],
+      "users": ["c/u8","/u55","/u153","/u78","/u159","/u50"],
       "dependency": ["midnight ashes"],
       "type": "misión", "closed": false, "link": "", "tagged": ["original","capitulo 3"],
 
