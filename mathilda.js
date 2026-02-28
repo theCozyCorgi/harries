@@ -3461,7 +3461,7 @@ const MissionsModule = (function () {
           "cont": '<span>Al seguir el protocolo de seguridad, pueden notar que todas las puertas están cerradas, pero ninguna de ellas se encuentra trabada. Salvo la puerta que da al jardín que se encuentra cerrada con llave, aunque la misma se encuentra colgada al lado de la puerta.</span>',
         },
         "preguntar: ¿esta llave abre la puerta?": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "seguir protocolo de seguridad",
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "seguir protocolo de seguridad",
           "cont": '<span>Un Lorien responde: «Sí, la cerramos cuando ya no estamos todos. El resto de las puertas al exterior se cierran cuando todos van a dormir».</span>',
         },
         "conclusión sobre el protocolo de seguridad": {
@@ -3478,12 +3478,45 @@ const MissionsModule = (function () {
         },
         "visitar la sala": {
           "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar: ¿dónde se esconde velisse cuando tiene miedo?",
-          "cont": 'completar',
+          "cont": '<span>Uno de los Lorien encamina la marcha. Comienza por uno de los pasillos que conduce a una escalera, y recorre el tramo hasta llegar al sótano. Abren la puerta y allí encuentran una sala completamente vacía. También se puede notar que la sala esta insonorizada. Por lo tanto, ninguno de los ruidos interiores se escucha desde el exterior.</span>',
         },
+        "realizar revelio en la sala de banshees": {
+          "visible": { "attr": { "int": "4" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "visitar la sala",
+          "cont": '<span>Si se realiza revelio en la sala, se pueden visulizar las huellas embarradas que llegaban hasta allí, giraban en la sala y regresaban.</span>',
+        },
+        "abrir la puerta al exterior": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar: ¿esta llave abre la puerta?",
+          "cont": '<span>Si se realiza revelio en la sala, se pueden visulizar las huellas embarradas que llegaban hasta allí, giraban en la sala y regresaban.</span>',
+        },
+        "pisadas en el barro": {
+          "visible": { "attr": { "int": "4" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar: ¿esta llave abre la puerta?",
+          "cont": '<span>Si se observa con detalle, se puede notar que hay varias pisadas en el suelo que se dirigen al exterior. Si se pregunta a un Lorien, este mencionará que llevan a la casa del árbol.</span>',
+        },
+        "ir a la casa del árbol": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar: ¿esta llave abre la puerta?",
+          "cont": '<span>Si se sigue la dirección de las pisadas, estás llegan, como el Lorien había mencionado, a la casa del árbol. Una casa de madera a los pies de un sauce que aún no ha perdido la nieve sobre sus ramas. Desde el exterior, puede escucharse lo que parece ser una nana.</span>',
+        },
+
         "la canción de cuna": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "visitar la sala",
-          "cont": '<span>Pueden escuchar una canción de cuna al otro lado de la puerta -> los desvía a otro lugar</span>',
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ir a la casa del árbol",
+          "cont": '<span>Mientras todos se acercan, la canción de cuna se vuelve más clara. Es la canción para niños. El o los personajes con menos constitución comienza a sentir una somnolencia que los lleva a tambalearse y con determinación querer regresar al lugar por el que vinieron. Los coordinadores y lorien caen bajo el encanto.</span>',
         },
+
+        "el canto de la banshee": {
+          "visible": { "attr": { "con": "4" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "la canción de cuna",
+          "cont": '<span>Quien canta la canción es una niña y las palabras con las que las canta produce sueño, pero no parece ser demasiado agresivo. Simplemente, una forma de calmar a aquellos que quieran acercarse.</span>',
+        },
+
+        "abrir la casa del árbol": {
+          "visible": { "attr": { "fue": "3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "el canto de la banshee",
+          "cont": '<span>Al abrir la puerta de la casa del árbol, se puede observar a Velisse junto a todas las personas que estaban desaparecitas. La niña se encuentra en el centro de todos ellos, cantando y acariciando sus cabellos. Parece cansada, como si hubiera estado así toda la noche. Al verlos, deja de cantar y el hechizo se rompe.</span>',
+        },
+
+        "preguntarle a velisse qué sucedió": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "el canto de la banshee",
+          "cont": '<span>Velisse corre a esconderse detrás de uno de los coordinadores y se esconde detrás de una de sus piernas antes de responder: «Lo vi venir, quería sacarle el corazón a todos. Entonces me los traje aquí. Tenía un ojo cerrado y una cicatriz extraña que le recorría dicho ojo». Por más que se intente, Velisse está demasiado asustada para responder más preguntas.</span>',
+        },
+
         "marcas de pisadas": {
           "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "marcas del suelo",
           "cont": '<span>En el suelo se marcan unas pisadas. Por su tamaño, podría deducirse que se trata de un hombre. Los pasos recorren todas las habitaciones.</span>',
