@@ -3477,7 +3477,7 @@ const MissionsModule = (function () {
           "cont": '<span>Un Lorien responde: «Por lo general, a los brazos de Baird, si él no esta, busca una sala que tenemos para banshees que esta asilada».</span>',
         },
         "visitar la sala": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar: ¿dónde se esconde velisse cuando tiene miedo?",
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar: ¿dónde se esconde velisse cuando tiene miedo?",
           "cont": '<span>Uno de los Lorien encamina la marcha. Comienza por uno de los pasillos que conduce a una escalera, y recorre el tramo hasta llegar al sótano. Abren la puerta y allí encuentran una sala completamente vacía. También se puede notar que la sala esta insonorizada. Por lo tanto, ninguno de los ruidos interiores se escucha desde el exterior.</span>',
         },
         "realizar revelio en la sala de banshees": {
