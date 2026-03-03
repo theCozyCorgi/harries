@@ -1205,7 +1205,7 @@ const MissionsModule = (function () {
           "cont": '<span>En las paredes del cuarto de lavaduras, hay unos ceramicos que apenas se distinguen bajo la capa de polvo. Los dibujos son simples, pero parecen representar figuras humanas con rostros sombríos y manos extendidas hacia el vacío. Al observarlos con atención, se nota una mano que señala hacia la oscuridad del otro lado de la sala. Hay algo en su mirada que parece desentonar.</span>',
         },
         "seguir la seña": {
-          "visible": { "attr": { "sab": "3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "dibujo de los cerámicos",
+          "visible": { "attr": { "sab": "3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "dibujo en los cerámicos",
           "cont": '<span>Si se sigue la seña, podrá notarse que señala hacia un cuadro de una mujer que parece amazar. Los razgos de la mujer se perdieron por el paso del tiempo y el fuego, pero arriba de una salamandra apagada, parece empujar hacia abajo.</span>',
         },
         "hacer presión hacia abajo": {
