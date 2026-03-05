@@ -3486,14 +3486,14 @@ const MissionsModule = (function () {
         },
         "abrir la puerta al exterior": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar: ¿esta llave abre la puerta?",
-          "cont": '<span>Si se realiza revelio en la sala, se pueden visulizar las huellas embarradas que llegaban hasta allí, giraban en la sala y regresaban.</span>',
+          "cont": '<span>El frío saluda a los invitados. Un jardín que se extiendo con el césped bien cortado y algunos lugares donde aún no ha logrado derretir la nieve de la temporada.</span>',
         },
         "pisadas en el barro": {
-          "visible": { "attr": { "int": "4" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar: ¿esta llave abre la puerta?",
+          "visible": { "attr": { "int": "4" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir la puerta al exterior",
           "cont": '<span>Si se observa con detalle, se puede notar que hay varias pisadas en el suelo que se dirigen al exterior. Si se pregunta a un Lorien, este mencionará que llevan a la casa del árbol.</span>',
         },
         "ir a la casa del árbol": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar: ¿esta llave abre la puerta?",
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "pisadas en el barro",
           "cont": '<span>Si se sigue la dirección de las pisadas, estás llegan, como el Lorien había mencionado, a la casa del árbol. Una casa de madera a los pies de un sauce que aún no ha perdido la nieve sobre sus ramas. Desde el exterior, puede escucharse lo que parece ser una nana.</span>',
         },
 
