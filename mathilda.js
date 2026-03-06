@@ -1426,7 +1426,7 @@ const MissionsModule = (function () {
           },
         },
         "sombra minerva": {
-          "atributos": ["+7 fue", "+5 con"],
+          "atributos": ["+5 fue", "+7 con"],
           "clasificación": "ser / personaje no jugable",
           "descripción": "personaje no jugable",
           "ataques": {
@@ -1499,7 +1499,7 @@ const MissionsModule = (function () {
         },
         "el reflejo en el techo": {
           "visible": { "attr": { "int": "5" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar a los cuadros vieron algo extraño antes de ser cegado",
-          "cont": '<span>En conclusión a lo dicho, la persona que cegó al director debió haber estado presente antes o debió realizarlo el mismo Director. Al observar el techo, pueden notar un reflejo borroso de la realidad. Al principio sus propios reflejos parecen ser iguales e imitan sus movimientos. Sin embargo, cuando un personaje aparta la mirada, todos los reflejos toman forma propia. Cayendo del reflejo al despacho. Deberán incluir los siguientes personajes no jugables y enfrentarse a sus propios reflejos. Cuando un personaje logre liberarse de su sombra podrán pedir intervención al staff: Sombra Aidan (6 FUE / 6 CON), Sombra Cuthbert (6 FUE / 5 CON), Sombra Hermes (7 FUE / 5 CON), Sombra Minerva (7 FUE / 5 CON) y Sombra Monthgomery (3 FUE / 3 CON). Solo podrán enfrentarse a su propia sombra.<br>Solo podrán enfrentarse a su propia sombra. Si la misma les habla o qué les dice, depende de cada personaje. Cuando un personaje logre librarse de una sombra, deberá avisar al staff para que se realice la siguiente intervención.</span>',
+          "cont": '<span>En conclusión a lo dicho, la persona que cegó al director debió haber estado presente antes o debió realizarlo el mismo Director. Al observar el techo, pueden notar un reflejo borroso de la realidad. Al principio sus propios reflejos parecen ser iguales e imitan sus movimientos. Sin embargo, cuando un personaje aparta la mirada, todos los reflejos toman forma propia. Cayendo del reflejo al despacho. Deberán incluir los siguientes personajes no jugables y enfrentarse a sus propios reflejos. Cuando un personaje logre liberarse de su sombra podrán pedir intervención al staff: Sombra Aidan (6 FUE / 6 CON), Sombra Cuthbert (6 FUE / 5 CON), Sombra Hermes (7 FUE / 5 CON), Sombra Minerva (5 FUE / 7 CON) y Sombra Monthgomery (3 FUE / 3 CON). Solo podrán enfrentarse a su propia sombra.<br>Solo podrán enfrentarse a su propia sombra. Si la misma les habla o qué les dice, depende de cada personaje. Cuando un personaje logre librarse de una sombra, deberá avisar al staff para que se realice la siguiente intervención.</span>',
         },
       },
       "actions": {
