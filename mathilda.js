@@ -1252,7 +1252,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/u5EtFU0.png", "requisitos": ["Ser invitado por Damien o alguien más de la trama a la misión."],
       "users": ["c/u127", "/u119", "/u12", "/u63"],
       "dependency": [],
-      "type": "misión", "closed": false, "link": "https://blackwave.foroactivo.com/t752-mision-the-lone-bellow", "tagged": ["capitulo 1"],
+      "type": "misión", "closed": true, "link": "https://blackwave.foroactivo.com/t752-mision-the-lone-bellow", "tagged": ["capitulo 1"],
 
       "cards": [],
 
@@ -6237,7 +6237,7 @@ const MissionsModule = (function () {
     "el lazo enamorado": {
       "description": "Sin descripcion.",
       "image": "https://2img.net/i.imgur.com/Bm8BRJM.png", "requisitos": [],
-      "users": ["/u110", "/u119", "/u12", "/u118", "/u120", "/u124"],
+      "users": ["/u151", "/u12", "/u118", "/u148", "/u24", "/u119", "/u141", "/u63", "/u124", "/u154", "/u162", "/u163"],
       "dependency": [],
       "type": "clase", "closed": true, "link": "", "tagged": ["clase"],
 
