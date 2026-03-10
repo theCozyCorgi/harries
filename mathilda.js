@@ -1438,17 +1438,17 @@ const MissionsModule = (function () {
           "clasificación": "ser / personaje no jugable",
           "descripción": "personaje no jugable",
           "ataques": {
-            "leve": 'Ataca con hechizo: "Colloshoo". El objetivo queda pegado al suelo hasta que se le libere mágicamente, todas las acciones hasta que se libere pierden -5 puntos.',
-            "moderado": 'Ataca con hechizo: "Obscuro". El objetivo queda completamente cegado hasta que se elimine el hechizo. Disminuye 4 puntos de sus siguientes dos acciones o hasta que se libere del encantamiento.',
-            "exitoso": 'Ataca con hechizo: "Fulgari". Las cuerdas atan firmemente al objetivo, restringiendo su movimiento. Incapacita todas las acciones de la víctima hasta que no se la libere.',
-            "critico": 'Ataca con hechizo: "Desmaius". El objetivo cae inconsciente al instante. La víctima pierde sus siguientes 2 acciones.',
+            "leve": 'Ataca con hechizo: "Relashio". El objetivo suelta la varita con un grito de dolor por la quemadura. Disminuye 6 puntos de la siguiente acción a realizar y reduce 10 PV.',
+            "moderado": 'Ataca con hechizo: "Confringo". La explosión es fuerte y puede destrozar objetos y causar heridas serias. Adiciona +10 en daño.',
+            "exitoso": 'Ataca con hechizo: "Atabraquium". El objetivo queda firmemente atado de pies y manos. Deberá consumir una acción en liberarse de las ataduras a través de hechizos.',
+            "critico": 'Ataca con hechizo: "Immobulus Glacius". Las extremidades del objetivo quedan completamente congeladas y adheridas al suelo. Adiciona +8 en el daño y la víctima pierde su siguiente acción inmediata.',
           },
 
           "defensas": {
-            "leve": 'Defiende con hechizo: "Protego". Adiciona +6 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.',
-            "moderado": 'Defiende con hechizo: "Protego". Adiciona +8 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.',
-            "exitoso": 'Defiende con hechizo: "Protego". Adiciona +10 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.',
-            "critico": 'Defiende con hechizo: "Protego". Adiciona +13 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.',
+            "leve": 'Defiende con hechizo: "Protego". Adiciona +5 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.',
+            "moderado": 'Defiende con hechizo: "Protego". Adiciona +7 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.',
+            "exitoso": 'Defiende con hechizo: "Protego". Adiciona +9 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.',
+            "critico": 'Defiende con hechizo: "Protego". Adiciona +12 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.',
           },
         },
         "sombra montgomery": {
