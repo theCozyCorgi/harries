@@ -1216,6 +1216,10 @@ const MissionsModule = (function () {
           "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "hacer presión hacia abajo",
           "cont": '<span>Después de ingresar por el pasadizo, pueden verse una escalera que parece haber sobrevivido al fuego. Toda la sala a la que conduce parece haber logrado escaparse de las llamas que habían lanzado en el interior. Las mesas y mesas que se encuentran abajo, demuestan que ese había sido un espacio para el Corazón de Fuego, aunque allí no había nada.</span>',
         },
+        "marcas en el suelo del sótano": {
+          "visible": { "attr": { "sab": "4" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ingresar por el pasadizo",
+          "cont": '<span>En el suelo se pueden observar unas marcas. Los pisos que intercalan blanco y negro en cuadrados perfectos, marcan los blancos con una hoja verde. Algo sobre el borde de los mismos parece fuera de lugar, como si estuviera esperando a que alguien lo pise para caer en la trampa.</span>',
+        },
       },
       "actions": {
 
@@ -6229,6 +6233,37 @@ const MissionsModule = (function () {
       },
     },
     // fin grabado de runas
+
+    "el lazo enamorado": {
+      "description": "Sin descripcion.",
+      "image": "https://2img.net/i.imgur.com/Bm8BRJM.png", "requisitos": [],
+      "users": ["/u110", "/u119", "/u12", "/u118", "/u120", "/u124"],
+      "dependency": [],
+      "type": "clase", "closed": true, "link": "", "tagged": ["clase"],
+
+      "creatures": {
+        "lazo del diablo": {
+          "ataques": {
+            "leve": 'Golpea la mano del atacante. Adiciona +3 en el ataque. Además, resta 1 punto de las siguientes dos acciones.',
+            "moderado": 'Hace tropezar al rival. Adiciona +5 en el ataque. Además, resta 2 puntos de las siguientes dos acciones.',
+            "exitoso": 'Atrapa la mano del atacante. Adiciona +7 en el ataque. Además, resta 2 puntos de los 2 de las siguientes dos acciones.',
+            "critico": 'Uno de los lazos toma la varita del rival y la tira lejos del aula. Adiciona +10 en el ataque. Además, resta 3 puntos de los 2 de las siguientes dos acciones.',
+          },
+
+          "defensas": {
+            "leve": 'El lazo se encoje en el lugar. Adiciona +6 en defensa.',
+            "moderado": 'Los lazos se entrelazan entre sí tratando de ganar resistencia. Adiciona +8 en defensa.',
+            "exitoso": 'Un nuevo lazo aparece. Adiciona +10 en defensa y, si el lazo tiene +40 PV se le adicionan 15PV.',
+            "critico": 'Un nuevo lazo aparece. Adiciona +15 en defensa y, si el lazo tiene +35 PV se le adicionan 25PV.',
+          },
+        },
+      },
+
+      "cards": [],
+      "searchs": {},
+      "actions": {},
+    },
+    // fin el lazo enamorado
 
     "ruleta de prácticas grupo1": {
       "description": "",
