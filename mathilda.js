@@ -3672,7 +3672,7 @@ const MissionsModule = (function () {
         },
         "preguntar por wrenn":{
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "comenzar interrogatorio",
-          "cont": '<span>la voz de Cillian se vuelve seca y cortante: «Vendió su linaje, vendió su decencia, / buscando en el mundo mayor eminencia. / Quiso ser más grande que el padre maldito, / y alzó su bandera en un reino proscrito. / Mas puso los ojos en manos erradas, / y vio sus apuestas del todo truncadas. / No pudo el dinero la deuda pagar, / y un tiro en el pecho la fue a silenciar».</span>'
+          "cont": '<span>la voz de Cillian se vuelve seca y cortante: «Vendió su linaje, vendió su decencia, / buscando en el mundo mayor eminencia. / Quiso ser más grande que el padre maldito, / y alzó su bandera en un reino proscrito. / Mas puso los ojos en manos erradas, / y vio sus apuestas del todo truncadas. / No pudo el dinero la deuda pagar, / y un tiro en el pecho la fue a silenciar».<br><br><u>Nota</u>Si tienen más preguntas que quieran hacer, pueden enviar las mismas por privado. En caso contrario, deberán avisar a la administración para que realice el correspondiente masteo.</span>'
         },
       },
 
