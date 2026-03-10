@@ -1220,6 +1220,14 @@ const MissionsModule = (function () {
           "visible": { "attr": { "sab": "4" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ingresar por el pasadizo",
           "cont": '<span>En el suelo se pueden observar unas marcas. Los pisos que intercalan blanco y negro en cuadrados perfectos, marcan los blancos con una hoja verde. Algo sobre el borde de los mismos parece fuera de lugar, como si estuviera esperando a que alguien lo pise para caer en la trampa.</span>',
         },
+        "pisar sobre blanco": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "marcas en el suelo del sótano",
+          "cont": '<span></span>',
+        },
+        "pisar sobre negro": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "marcas en el suelo del sótano",
+          "cont": '<span></span>',
+        },
       },
       "actions": {
 
