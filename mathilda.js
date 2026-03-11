@@ -4051,6 +4051,19 @@ const MissionsModule = (function () {
     },*/
     // dragonfly's secrets
 
+    "a gentle hand": {
+      "description": "Tras una pequeña investigación realizada por los hermanos Moody, las pistas conducen a dos magos y a la dirección de la casa de los mismos, donde ya desde afuera se pueden escuchar los ladridos y los lamentos de unos cachorros de crup que reclaman ayuda.",
+      "image": "https://i.imgur.com/nNgVsfv.png", "requisitos": ["Dos personajes deberán ser miembro del Departamento de Seguridad", "Un personaje deberá tener CCM en Consagrado"],
+      "users": ["/u157"],
+      "dependency": [],
+      "type": "investigación", "closed": false, "link": "", "tagged": ["original"],
+
+      "cards": [],
+      "searchs": {},
+      "actions": {},
+    },
+    // dragonfly's secrets
+
     "the mercy of death": {
       "description": "Entre los muros de Azkaban, Yusuf y Vinnie guardan el secreto del canto de la banshee y el enigma de la W. Un interrogatorio cargado de cinismo revelará una verdad amarga: ¿qué es lo que realmente ocurrió aquella noche en la que Wrenn Wraithwood perdió la vida? ¿Qué secretos se esconden detrás de su trágico destino? La respuesta a estas preguntas podría cambiarlo todo, pero también podría ser más dolorosa de lo que imaginan.",
       "image": "https://i.imgur.com/0VEBWJ2.png", "requisitos": ["Un personaje deberá ser miembro del Departamento de Seguridad","Un personaje deberá tener Magia Oscura en Avanzado","Tres personajes deberán tener Patronus en Avanzado"],
