@@ -4054,7 +4054,7 @@ const MissionsModule = (function () {
     "a gentle hand": {
       "description": "Tras una pequeña investigación realizada por los hermanos Moody, las pistas conducen a dos magos y a la dirección de la casa de los mismos, donde ya desde afuera se pueden escuchar los ladridos y los lamentos de unos cachorros de crup que reclaman ayuda.",
       "image": "https://i.imgur.com/nNgVsfv.png", "requisitos": ["Dos personajes deberán ser miembro del Departamento de Seguridad", "Un personaje deberá tener CCM en Consagrado"],
-      "users": ["/u157"],
+      "users": ["c/u157"],
       "dependency": [],
       "type": "investigación", "closed": false, "link": "", "tagged": ["original"],
 
