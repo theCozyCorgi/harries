@@ -4056,7 +4056,7 @@ const MissionsModule = (function () {
       "image": "https://i.imgur.com/nNgVsfv.png", "requisitos": ["Dos personajes deberán ser miembro del Departamento de Seguridad", "Un personaje deberá tener CCM en Consagrado"],
       "users": ["c/u157"],
       "dependency": [],
-      "type": "investigación", "closed": false, "link": "", "tagged": ["original"],
+      "type": "misión", "closed": false, "link": "", "tagged": ["original"],
 
       "cards": [],
       "searchs": {},
@@ -6344,8 +6344,8 @@ const MissionsModule = (function () {
           "defensas": {
             "leve": 'El lazo se encoje en el lugar. Adiciona +6 en defensa.',
             "moderado": 'Los lazos se entrelazan entre sí tratando de ganar resistencia. Adiciona +8 en defensa.',
-            "exitoso": 'Un nuevo lazo aparece. Adiciona +10 en defensa y, si el lazo tiene +40 PV se le adicionan 15PV.',
-            "critico": 'Un nuevo lazo aparece. Adiciona +15 en defensa y, si el lazo tiene +35 PV se le adicionan 25PV.',
+            "exitoso": 'Al lazo le crece una nueva rama. Adiciona +10 en defensa y, si el lazo tiene +40 PV se le adicionan 15PV.',
+            "critico": 'Al lazo le crece una nueva rama. Adiciona +15 en defensa y, si el lazo tiene +35 PV se le adicionan 25PV.',
           },
         },
       },
