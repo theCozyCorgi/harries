@@ -1222,11 +1222,11 @@ const MissionsModule = (function () {
         },
         "pisar sobre blanco": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "marcas en el suelo del sótano",
-          "cont": '<span></span>',
+          "cont": '<span>Al pisar las baldosas blancas, se siente un leve silbido antes de que de las paredes comience a salir un humo que empieza a llenar la sala. El clic de la puerta al cerrarse puede escucharse detrás de ellos, indicando que están atrapados.<br>Por cada personaje que intervenga, los personajes deberán descontar 1 punto de sus acciones. En caso de que la penalidad llegue a diez, todos los personajes quedarán inconscientes. Al terminar, deberán avisar al staff para que realice su correspondiente intervención. Una vez seleccionada esta opción, no puede elegirse la otra.</span>',
         },
         "pisar sobre negro": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "marcas en el suelo del sótano",
-          "cont": '<span></span>',
+          "cont": '<span>Al pisar las baldosas negras, un leve temblor se siente en el suelo y de las baldosas comienza a subir agua. El click de la puerta al cerrarse puede escucharse detrás de ellos, indicando que están atrapados.<br>Por cada personaje que intervenga el agua sube 25 centímetros. Dado que el espacio tiene 2 metros y medio de altura, los personajes tendrán 10 intervenciones para poder liberarse de los efectos. Al terminar, deberán avisar al staff para que realice su correspondiente intervención. Una vez seleccionada esta opción, no puede elegirse la otra.</span>',
         },
       },
       "actions": {
@@ -1250,6 +1250,76 @@ const MissionsModule = (function () {
           "moderado": 'Pueden notarse los restos de fosforos que han caído al suelo. La causa de que aquel lugar haya sido reducido a cimientos.',
           "exitoso": 'Pueden notarse los restos de fosforos que han caído al suelo. La causa de que aquel lugar haya sido reducido a cimientos.',
           "critico": 'Pueden notarse los restos de fosforos que han caído al suelo. La causa de que aquel lugar haya sido reducido a cimientos.',
+        },
+
+        "bulla galea": {
+          "leve": 'No es suficiente para revelar información adicional.',
+          "moderado": 'Previene a los personajes sentirse débiles o mojados, pero los efectos de la penalidad se mantienen.',
+          "exitoso": 'Previene a los personajes sentirse débiles o mojados, pero los efectos de la penalidad se mantienen.',
+          "critico": 'Previene a los personajes sentirse débiles o mojados, pero los efectos de la penalidad se mantienen.',
+        },
+
+        "impervius": {
+          "leve": 'No es suficiente para revelar información adicional.',
+          "moderado": 'Previene a los personajes sentirse débiles o mojados, pero los efectos de la penalidad se mantienen.',
+          "exitoso": 'Previene a los personajes sentirse débiles o mojados, pero los efectos de la penalidad se mantienen.',
+          "critico": 'Previene a los personajes sentirse débiles o mojados, pero los efectos de la penalidad se mantienen.',
+        },
+
+        "umor excido": {
+          "leve": 'No es suficiente para revelar información adicional.',
+          "moderado": 'Retrae el agua 10 centímetros.',
+          "exitoso": 'Retrae el agua 15 centímetros.',
+          "critico": 'Retrae el agua 25 centímetros.',
+        },
+
+        "umor infundo": {
+          "leve": 'No es suficiente para revelar información adicional.',
+          "moderado": 'Retrae el humo disminuyendo 1 punto la penalidad.',
+          "exitoso": 'Retrae el humo disminuyendo 2 puntos la penalidad.',
+          "critico": 'Retrae el humo disminuyendo 3 puntos la penalidad.',
+        },
+
+        "aguamenti": {
+          "leve": 'No es suficiente para revelar información adicional.',
+          "moderado": 'Contrahechizo para el humo (baldosas blancas): otorga 10 puntos para finalizar los efectos. Para librarse del todo deberán llegar a los 100 puntos.',
+          "exitoso": 'Contrahechizo para el humo (baldosas blancas): otorga 15 puntos para finalizar los efectos. Para librarse del todo deberán llegar a los 100 puntos.',
+          "critico": 'Contrahechizo para el humo (baldosas blancas): otorga 20 puntos para finalizar los efectos. Para librarse del todo deberán llegar a los 100 puntos.',
+        },
+
+        "aqua eructo": {
+          "leve": 'No es suficiente para revelar información adicional.',
+          "moderado": 'Contrahechizo para el humo (baldosas blancas): otorga 10 puntos para finalizar los efectos. Para librarse del todo deberán llegar a los 100 puntos.',
+          "exitoso": 'Contrahechizo para el humo (baldosas blancas): otorga 15 puntos para finalizar los efectos. Para librarse del todo deberán llegar a los 100 puntos.',
+          "critico": 'Contrahechizo para el humo (baldosas blancas): otorga 20 puntos para finalizar los efectos. Para librarse del todo deberán llegar a los 100 puntos.',
+        },
+
+        "lacarnum inflamarae": {
+          "leve": 'No es suficiente para revelar información adicional.',
+          "moderado": 'Contrahechizo para el agua (baldosas negras): otorga 5 puntos para finalizar los efectos. Para librarse del todo deberán llegar a los 100 puntos.',
+          "exitoso": 'Contrahechizo para el agua (baldosas negras): otorga 10 puntos para finalizar los efectos. Para librarse del todo deberán llegar a los 100 puntos.',
+          "critico": 'Contrahechizo para el agua (baldosas negras): otorga 15 puntos para finalizar los efectos. Para librarse del todo deberán llegar a los 100 puntos.',
+        },
+
+        "vocare kanu": {
+          "leve": 'No es suficiente para revelar información adicional.',
+          "moderado": 'Contrahechizo para el agua (baldosas negras): otorga 15 puntos para finalizar los efectos. Para librarse del todo deberán llegar a los 100 puntos.',
+          "exitoso": 'Contrahechizo para el agua (baldosas negras): otorga 20 puntos para finalizar los efectos. Para librarse del todo deberán llegar a los 100 puntos.',
+          "critico": 'Contrahechizo para el agua (baldosas negras): otorga 30 puntos para finalizar los efectos. Para librarse del todo deberán llegar a los 100 puntos.',
+        },
+
+        "pestis incendium": {
+          "leve": 'No es suficiente para revelar información adicional.',
+          "moderado": 'Contrahechizo para el agua (baldosas negras): otorga 15 puntos para finalizar los efectos. Para librarse del todo deberán llegar a los 100 puntos.',
+          "exitoso": 'Contrahechizo para el agua (baldosas negras): otorga 20 puntos para finalizar los efectos. Para librarse del todo deberán llegar a los 100 puntos.',
+          "critico": 'Contrahechizo para el agua (baldosas negras): otorga 30 puntos para finalizar los efectos. Para librarse del todo deberán llegar a los 100 puntos.',
+        },
+
+        "herbivicus": {
+          "leve": 'No es suficiente para revelar información adicional.',
+          "moderado": 'Libera cualquier penalidad de las baldosas haciendo crecer césped en los bordes de las baldosas para prevenir su accionar. En caso de que ya se haya activado una trampa, detendrá su accionar. Sin embargo, aún deberán librarse de la misma, teniendo que llegar a 10 por cantidad de intervenciones antes de dar con el hechizo, cuando ejecuten los contrahechizos correctos (es decir, si realizaron el hechizo en la tercera intervención, deberán llegar a 30 en vez de a 100).',
+          "exitoso": 'Libera cualquier penalidad de las baldosas haciendo crecer césped en los bordes de las baldosas para prevenir su accionar. En caso de que ya se haya activado una trampa, detendrá su accionar. Sin embargo, aún deberán librarse de la misma, teniendo que llegar a 10 por cantidad de intervenciones antes de dar con el hechizo, cuando ejecuten los contrahechizos correctos (es decir, si realizaron el hechizo en la tercera intervención, deberán llegar a 30 en vez de a 100).',
+          "critico": 'Libera cualquier penalidad de las baldosas haciendo crecer césped en los bordes de las baldosas para prevenir su accionar. En caso de que ya se haya activado una trampa, detendrá su accionar. Sin embargo, aún deberán librarse de la misma, teniendo que llegar a 10 por cantidad de intervenciones antes de dar con el hechizo, cuando ejecuten los contrahechizos correctos (es decir, si realizaron el hechizo en la tercera intervención, deberán llegar a 30 en vez de a 100).',
         },
       },
     },
