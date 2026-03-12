@@ -1254,9 +1254,9 @@ const MissionsModule = (function () {
 
         "bulla galea": {
           "leve": 'No es suficiente para revelar información adicional.',
-          "moderado": 'Previene a los personajes sentirse débiles o mojados, pero los efectos de la penalidad se mantienen.',
-          "exitoso": 'Previene a los personajes sentirse débiles o mojados, pero los efectos de la penalidad se mantienen.',
-          "critico": 'Previene a los personajes sentirse débiles o mojados, pero los efectos de la penalidad se mantienen.',
+          "moderado": 'Previene a los personajes sentirse débiles o les permite respirar bajo el agua, pero los efectos de la penalidad se mantienen.',
+          "exitoso": 'Previene a los personajes sentirse débiles o les permite respirar bajo el agua, pero los efectos de la penalidad se mantienen.',
+          "critico": 'Previene a los personajes sentirse débiles o les permite respirar bajo el agua, pero los efectos de la penalidad se mantienen.',
         },
 
         "impervius": {
