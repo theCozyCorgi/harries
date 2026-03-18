@@ -3600,7 +3600,7 @@ const MissionsModule = (function () {
         },
 
         "preguntarle a velisse qué sucedió": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "el canto de la banshee",
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir la casa del árbol",
           "cont": '<span>Velisse corre a esconderse detrás de uno de los coordinadores y se esconde detrás de una de sus piernas antes de responder: «Lo vi venir, quería sacarle el corazón a todos. Entonces me los traje aquí. Tenía un ojo cerrado y una cicatriz extraña que le recorría dicho ojo». Por más que se intente, Velisse está demasiado asustada para responder más preguntas.</span>',
         },
 
