@@ -4089,7 +4089,7 @@ const MissionsModule = (function () {
       "image": "https://i.imgur.com/nmW3tFz.png", "requisitos": ["Un personaje deberán ser miembro del Departamento de Seguridad"],
       "users": ["c/u8","c/u145"],
       "dependency": [],
-      "type": "misión", "closed": false, "link": "", "tagged": ["original"],
+      "type": "misión", "closed": false, "link": "/t1109-mision-the-mercy-of-death", "tagged": ["original"],
 
       "cards": [],
       "searchs": {},
