@@ -3752,6 +3752,26 @@ const MissionsModule = (function () {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "comenzar interrogatorio",
           "cont": '<span>la voz de Cillian se vuelve seca y cortante: «Vendió su linaje, vendió su decencia, / buscando en el mundo mayor eminencia. / Quiso ser más grande que el padre maldito, / y alzó su bandera en un reino proscrito. / Mas puso los ojos en manos erradas, / y vio sus apuestas del todo truncadas. / No pudo el dinero la deuda pagar, / y un tiro en el pecho la fue a silenciar».<br><br><u>Nota</u>Si tienen más preguntas que quieran hacer, pueden enviar las mismas por privado. En caso contrario, deberán avisar a la administración para que realice el correspondiente masteo.</span>'
         },
+        "preguntar por nina":{
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "primer intervención",
+          "cont": '<span>La voz de Cillian se aclara y la música suave comienza a sonar: «Nina nació sin la chispa, / la magia su sangre hería, / mas halló valor distinto / donde nadie lo veía. / Callada como la sombra, / escurridiza en su andar, / buscaba siempre las luces / para a su hermana ocultar. / Hoy es alma entre dos mundos, / espectro que el viento trajo, / y aún no se sabe si es buena / o viene del mismo averno».</span>'
+        },
+        "preguntar por el trato de wrenn":{
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "primer intervención",
+          "cont": '<span>Las cuerdas parecen tensarse, pero la música continua mientras la banda busca a su lider, evaluando si es seguro responder. Cillian responde, «Se buscaba un cuerpo breve / para un robo realizar, / Wrenn necesitaba el oro, / nosotros solo el hablar. / El contacto fue sencillo, / mas dicen que ella guardó / el objeto prohibido / y este sitio la expulsó».</span>'
+        },
+        "preguntar por el beso de zeke":{
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "primer intervención",
+          "cont": '<span>Cillian comparte una sonrisa con su compañero de guitarra antes de volverse a los invitados: «Morian se creyó astuto, / de la muerte hizo su hogar, / oculto entre los difuntos / para al mundo engañar. / Una magia practicaba / que no gusta al Ministerio, / pero el rastro de una gota / desveló su vil misterio. / Una sangre en el camino / que Tuft supo rastrear, / y veinte vidas segadas / tuvo el reo que pagar».</span>'
+        },
+        "preguntar por el anillo de denman":{
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "primer intervención",
+          "cont": '<span>Dos músicos se miraron, pero luego se encogieron de hombro y aligeraron la música: «Dicen que el hueso de bestia / abre un puente al más allá, / que el hechizo se hace fuerte / con lo que muerto ya está. / Por eso el oso en el dedo, / por magia negra caído, / un nexo con los espectros / que el anillo ha bendecido».</span>'
+        },
+        "preguntar por soly":{
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "primer intervención",
+          "cont": '<span>Por un momento, Cillian se rasca la barbilla antes de decir: «¿Soly dice? No me suena, / ese nombre no es de aquí. / Sus pies nunca caminaron / por el suelo que yo vi».</span>'
+        },
       },
 
       "actions": {
