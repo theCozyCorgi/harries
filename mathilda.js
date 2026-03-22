@@ -4155,6 +4155,24 @@ const MissionsModule = (function () {
             "exitoso": '<span>El hechizo adiciona 2 turnos adicionales antes del ataque de los dementores.</span>',
             "critico": '<span>El hechizo adiciona 3 turnos adicionales antes del ataque de los dementores.</span>',
           },
+          "patronus nuntius": {
+            "leve": '<span>El hechizo no es suficiente para agregar turnos adicionales.</span>',
+            "moderado": '<span>El hechizo adiciona 2 turnos adicionales antes del ataque de los dementores.</span>',
+            "exitoso": '<span>El hechizo adiciona 3 turnos adicionales antes del ataque de los dementores.</span>',
+            "critico": '<span>El hechizo adiciona 4 turnos adicionales antes del ataque de los dementores.</span>',
+          },
+          "patronus ductor": {
+            "leve": '<span>El hechizo no es suficiente para agregar turnos adicionales.</span>',
+            "moderado": '<span>El hechizo adiciona 3 turno adicional antes del ataque de los dementores.</span>',
+            "exitoso": '<span>El hechizo adiciona 4 turnos adicionales antes del ataque de los dementores.</span>',
+            "critico": '<span>El hechizo adiciona 5 turnos adicionales antes del ataque de los dementores.</span>',
+          },
+          "patronus custos": {
+            "leve": '<span>El hechizo no es suficiente para agregar turnos adicionales.</span>',
+            "moderado": '<span>El hechizo adiciona 4 turno adicional antes del ataque de los dementores.</span>',
+            "exitoso": '<span>El hechizo adiciona 5 turnos adicionales antes del ataque de los dementores.</span>',
+            "critico": '<span>El hechizo adiciona 6 turnos adicionales antes del ataque de los dementores.</span>',
+          },
       },
     },
     // the mercy of death
