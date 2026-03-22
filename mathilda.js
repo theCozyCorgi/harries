@@ -2145,7 +2145,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/xPVXOxC.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica"],
       "users": ["i/u108", "/u146","/u156","/u8"],
       "dependency": ["the withered pot"],
-      "type": "interrogatorio", "closed": false, "link": "", "tagged": ["sirius","capitulo 0"],
+      "type": "interrogatorio", "closed": false, "link": "/t1110-interrogatorio-the-lupine-killer", "tagged": ["sirius","capitulo 0"],
 
       "cards": [],
       "searchs": {},
@@ -4148,7 +4148,14 @@ const MissionsModule = (function () {
           },
       },
 
-      "actions": {},
+      "actions": {
+          "expecto patronum": {
+            "leve": '<span>El hechizo no es suficiente para agregar turnos adicionales.</span>',
+            "moderado": '<span>El hechizo adiciona 1 turno adicional antes del ataque de los dementores.</span>',
+            "exitoso": '<span>El hechizo adiciona 2 turnos adicionales antes del ataque de los dementores.</span>',
+            "critico": '<span>El hechizo adiciona 3 turnos adicionales antes del ataque de los dementores.</span>',
+          },
+      },
     },
     // the mercy of death
 
@@ -4157,7 +4164,7 @@ const MissionsModule = (function () {
       "image": "https://i.imgur.com/2kfwlbB.png", "requisitos": ["Un personaje deberá ser miembro del Departamento de Seguridad","Un personaje o PNJ llevado por usuario deberá tener entre 45 y 55 años"],
       "users": ["c/u8","/u146","/u153"],
       "dependency": ["paper mask", "midnight ashes"],
-      "type": "investigación", "closed": false, "link": "", "tagged": ["original","capitulo 3"],
+      "type": "investigación", "closed": false, "link": "/t1108-interrogatorio-licking-salted-wounds", "tagged": ["original","capitulo 3"],
 
       "cards": [],
       "searchs": {},
