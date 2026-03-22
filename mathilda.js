@@ -4092,7 +4092,62 @@ const MissionsModule = (function () {
       "type": "misión", "closed": false, "link": "", "tagged": ["original","capitulo 3"],
 
       "cards": [],
-      "searchs": {},
+
+      "searchs": {
+          "activar traslador": {
+            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
+            "cont": '<span>Al activar el traslador, el mismo tiembla por un momento hasta que los traslada al Hall de Azkaban. El Hall, al igual que toda la prisión es un espacio húmedo y frío. Sus paredes y pisos de hierro hacen que cada paso o voz resuene con un eco capaz de causar escalofríos.<adding search="hall" class="check-cards"></adding></span>',
+          },
+          "primera instrucción": {
+            "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "activar traslador",
+            "cont": '<span>Se deberá ignorar la primera escalera y caminar hasta el final del corredor que tienen frente a ellos.</span>',
+          },
+          "subir las primeras escaleras": {
+            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "hall",
+            "cont": '<span>Las primeras escaleras se encuentran a la derecha del Hall. Al subir las mismas, llegan a una hilera de celdas que parecen estar vacías. Excepto una.<adding search="primer piso lado a" class="check-cards"></adding></span>',
+          },
+          "revisar celdas": {
+            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "primer piso lado a",
+            "cont": '<span>Las celdas que parecen estar vacías, en realidad, tienen personas dentro, pero sus personalidades ya han desparecido. Miran sin ver, no responden a ninguna estimulación de sonido. Algunos aún se mueven, uno en particular, lastima su cabeza contra la pared.</span>',
+          },
+          "seguir subiendo": {
+            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "primer piso lado a",
+            "cont": '<span>Al subir un piso más, se encuentran con un grupo de 25 dementores que atacan inmediatamente.</span>',
+          }, 
+          "bajar al hall desde el lado a": {
+            "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "primer piso lado a",
+            "cont": '<span>Al regresar al hall pueden tomar una nueva decisión.<adding search="hall" class="check-cards"></adding></span>',
+          },
+          "caminar hasta el final del pasillo": {
+            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "hall",
+            "cont": '<span>Al caminar hasta el final del pasillo, se encuentran con otra escalera.</span>',
+          },
+          "subir las escaleras del lado b": {
+            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "caminar hasta el final del pasillo",
+            "cont": '<span>Al subir las escaleras se encuentran con una fila de celdas vacías. Sin embargo, al mirar por la pequeña rendija, pueden darse cuenta que han subido más pisos, porque el agua de nota muy debajo de donde se encuentran.<adding class="check-cards" search="primer piso lado b"></adding></span>',
+          },
+          "regresar al corredor": {
+            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "primer piso lado b",
+            "cont": '<span>Permite regresar al Hall donde podrán irse si lo desean<adding search="hall" class="check-cards"></adding></span>',
+          },
+          "seguir subiendo": {
+            "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "primer piso lado b",
+            "cont": '<span>Al caminar hasta el final del corredor de celdas, donde sus presos los miran con curiosidad y algunos se acercan a los barrotes pidiendo ayuda. Pueden llegar al siguiente tramo de escaleras que les permite subir.</span>',
+          },
+          "segunda instrucción": {
+            "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "seguridad": "invalid", }, "place": "subir las escaleras del lado b",
+            "cont": '<span>Las instrucciones indican que deben subir un piso más.</span>',
+          },
+          "caminar por el corredor de la izquierda": {
+            "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "hall",
+            "cont": '<span>COMPLETAR</span>',
+          },
+          "subir escaleras": {
+            "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "caminar por el corredor de la izquierda",
+            "cont": '<span>Al subir las escaleras se encuentran con la terraza de la prisión y 18 dementores comienzan a atacarlos.</span>',
+          },
+      },
+
       "actions": {},
     },
     // the mercy of death
