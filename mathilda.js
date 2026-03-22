@@ -4089,7 +4089,7 @@ const MissionsModule = (function () {
       "image": "https://i.imgur.com/nmW3tFz.png", "requisitos": ["Un personaje deberán ser miembro del Departamento de Seguridad"],
       "users": ["c/u8","c/u145"],
       "dependency": [],
-      "type": "misión", "closed": false, "link": "/t1109-mision-the-mercy-of-death", "tagged": ["original"],
+      "type": "misión", "closed": false, "link": "", "tagged": ["original"],
 
       "cards": [],
       "searchs": {},
@@ -4102,7 +4102,7 @@ const MissionsModule = (function () {
       "image": "https://i.imgur.com/0VEBWJ2.png", "requisitos": ["Un personaje deberá ser miembro del Departamento de Seguridad","Un personaje deberá tener Magia Oscura en Avanzado","Tres personajes deberán tener Patronus en Avanzado"],
       "users": ["c/u8","/u55","/u153","/u78","/u159","/u50"],
       "dependency": ["midnight ashes"],
-      "type": "misión", "closed": false, "link": "", "tagged": ["original","capitulo 3"],
+      "type": "misión", "closed": false, "link": "/t1109-mision-the-mercy-of-death", "tagged": ["original","capitulo 3"],
 
       "cards": [],
 
@@ -4195,7 +4195,7 @@ const MissionsModule = (function () {
       "image": "https://i.imgur.com/2kfwlbB.png", "requisitos": ["Un personaje deberá ser miembro del Departamento de Seguridad","Un personaje o PNJ llevado por usuario deberá tener entre 45 y 55 años"],
       "users": ["c/u8","/u146","/u153"],
       "dependency": ["paper mask", "midnight ashes"],
-      "type": "investigación", "closed": false, "link": "/t1108-interrogatorio-licking-salted-wounds", "tagged": ["original","capitulo 3"],
+      "type": "investigación", "closed": false, "link": "", "tagged": ["original","capitulo 3"],
 
       "cards": [],
       "searchs": {},
@@ -4208,7 +4208,7 @@ const MissionsModule = (function () {
       "image": "https://i.imgur.com/4EJznhF.png", "requisitos": ["Un personaje deberá ser miembro del Departamento de Seguridad","Un personaje deberá saber hablar Frances (debe estar especificado en la ficha)"],
       "users": ["c/u8","/u7","/u91","/u110"],
       "dependency": ["paper mask", "midnight ashes"],
-      "type": "interrogatorio", "closed": false, "link": "", "tagged": ["original","capitulo 3"],
+      "type": "interrogatorio", "closed": false, "link": "/t1108-interrogatorio-licking-salted-wounds", "tagged": ["original","capitulo 3"],
 
       "cards": [],
 
