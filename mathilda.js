@@ -4166,11 +4166,11 @@ const MissionsModule = (function () {
             "cont": '<span>Las instrucciones indican que deben subir un piso más.</span>',
           },
           "caminar por el corredor de la izquierda": {
-            "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "hall",
+            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "hall",
             "cont": '<span>COMPLETAR</span>',
           },
           "subir escaleras": {
-            "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "caminar por el corredor de la izquierda",
+            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "caminar por el corredor de la izquierda",
             "cont": '<span>Al subir las escaleras se encuentran con la terraza de la prisión y 18 dementores comienzan a atacarlos.</span>',
           },
       },
