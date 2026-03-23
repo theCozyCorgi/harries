@@ -1266,18 +1266,18 @@ const MissionsModule = (function () {
           "critico": 'Previene a los personajes sentirse débiles o mojados, pero los efectos de la penalidad se mantienen.',
         },
 
-        "umor excido": {
-          "leve": 'No es suficiente para revelar información adicional.',
-          "moderado": 'Retrae el agua 10 centímetros.',
-          "exitoso": 'Retrae el agua 15 centímetros.',
-          "critico": 'Retrae el agua 25 centímetros.',
-        },
-
         "umor infundo": {
           "leve": 'No es suficiente para revelar información adicional.',
-          "moderado": 'Retrae el humo disminuyendo 1 punto la penalidad.',
-          "exitoso": 'Retrae el humo disminuyendo 2 puntos la penalidad.',
-          "critico": 'Retrae el humo disminuyendo 3 puntos la penalidad.',
+          "moderado": 'Si se pisó la baldosa blanca: Retrae el humo disminuyendo 1 punto la penalidad. En caso de haber pisado la baldosa negra: Sube el agua el agua 10 centímetros.',
+          "exitoso": 'Si se pisó la baldosa blanca: Retrae el humo disminuyendo 1 punto la penalidad. En caso de haber pisado la baldosa negra: Sube el agua el agua 15 centímetros.',
+          "critico": 'Si se pisó la baldosa blanca: Retrae el humo disminuyendo 3 puntos la penalidad. En caso de haber pisado la baldosa negra: Sube el agua el agua 25 centímetros.',
+        },
+
+        "arresto momentum": {
+          "leve": 'No es suficiente para revelar información adicional.',
+          "moderado": 'Si se pisó la baldosa blanca: Retrae el humo disminuyendo 1 punto la penalidad. En caso de haber pisado la baldosa negra: El agua sube 5 centímetros menos a partir de este momento.',
+          "exitoso": 'Si se pisó la baldosa blanca: Retrae el humo disminuyendo 1 punto la penalidad. En caso de haber pisado la baldosa negra: El agua sube 10 centímetros menos a partir de este momento.',
+          "critico": 'Si se pisó la baldosa blanca: Retrae el humo disminuyendo 3 puntos la penalidad. En caso de haber pisado la baldosa negra: El agua sube 15 centímetros menos a partir de este momento.',
         },
 
         "aguamenti": {
@@ -1294,25 +1294,39 @@ const MissionsModule = (function () {
           "critico": 'Contrahechizo para el humo (baldosas blancas): otorga 20 puntos para finalizar los efectos. Para librarse del todo deberán llegar a los 100 puntos.',
         },
 
-        "lacarnum inflamarae": {
+        "umor excido": {
           "leve": 'No es suficiente para revelar información adicional.',
           "moderado": 'Contrahechizo para el agua (baldosas negras): otorga 5 puntos para finalizar los efectos. Para librarse del todo deberán llegar a los 100 puntos.',
           "exitoso": 'Contrahechizo para el agua (baldosas negras): otorga 10 puntos para finalizar los efectos. Para librarse del todo deberán llegar a los 100 puntos.',
           "critico": 'Contrahechizo para el agua (baldosas negras): otorga 15 puntos para finalizar los efectos. Para librarse del todo deberán llegar a los 100 puntos.',
         },
 
-        "vocare kanu": {
+        "defodio": {
+          "leve": 'No es suficiente para revelar información adicional.',
+          "moderado": 'Contrahechizo para el agua (baldosas negras): otorga 5 puntos para finalizar los efectos. Para librarse del todo deberán llegar a los 100 puntos.',
+          "exitoso": 'Contrahechizo para el agua (baldosas negras): otorga 10 puntos para finalizar los efectos. Para librarse del todo deberán llegar a los 100 puntos.',
+          "critico": 'Contrahechizo para el agua (baldosas negras): otorga 15 puntos para finalizar los efectos. Para librarse del todo deberán llegar a los 100 puntos.',
+        },
+
+        "glacius": {
+          "leve": 'No es suficiente para revelar información adicional.',
+          "moderado": 'Contrahechizo para el agua (baldosas negras): otorga 5 puntos para finalizar los efectos. Para librarse del todo deberán llegar a los 100 puntos.',
+          "exitoso": 'Contrahechizo para el agua (baldosas negras): otorga 10 puntos para finalizar los efectos. Para librarse del todo deberán llegar a los 100 puntos.',
+          "critico": 'Contrahechizo para el agua (baldosas negras): otorga 15 puntos para finalizar los efectos. Para librarse del todo deberán llegar a los 100 puntos.',
+        },
+
+        "succendam bullae": {
           "leve": 'No es suficiente para revelar información adicional.',
           "moderado": 'Contrahechizo para el agua (baldosas negras): otorga 15 puntos para finalizar los efectos. Para librarse del todo deberán llegar a los 100 puntos.',
           "exitoso": 'Contrahechizo para el agua (baldosas negras): otorga 20 puntos para finalizar los efectos. Para librarse del todo deberán llegar a los 100 puntos.',
           "critico": 'Contrahechizo para el agua (baldosas negras): otorga 30 puntos para finalizar los efectos. Para librarse del todo deberán llegar a los 100 puntos.',
         },
 
-        "pestis incendium": {
+        "iteratio perfectum": {
           "leve": 'No es suficiente para revelar información adicional.',
-          "moderado": 'Contrahechizo para el agua (baldosas negras): otorga 15 puntos para finalizar los efectos. Para librarse del todo deberán llegar a los 100 puntos.',
-          "exitoso": 'Contrahechizo para el agua (baldosas negras): otorga 20 puntos para finalizar los efectos. Para librarse del todo deberán llegar a los 100 puntos.',
-          "critico": 'Contrahechizo para el agua (baldosas negras): otorga 30 puntos para finalizar los efectos. Para librarse del todo deberán llegar a los 100 puntos.',
+          "moderado": 'Adiciona 10 puntos a todas las lanzadas para liberarse de la trampa.',
+          "exitoso": 'Adiciona 15 puntos a todas las lanzadas para liberarse de la trampa.',
+          "critico": 'Adiciona 20 puntos a todas las lanzadas para liberarse de la trampa.',
         },
 
         "herbivicus": {
