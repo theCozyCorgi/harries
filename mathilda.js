@@ -4088,7 +4088,7 @@ const MissionsModule = (function () {
     "a gentle hand": {
       "description": "Tras una pequeña investigación realizada por los hermanos Moody, las pistas conducen a dos magos y a la dirección de la casa de los mismos, donde ya desde afuera se pueden escuchar los ladridos y los lamentos de unos cachorros de crup que reclaman ayuda.",
       "image": "https://i.imgur.com/nNgVsfv.png", "requisitos": ["Dos personajes deberán ser miembro del Departamento de Seguridad", "Un personaje deberá tener CCM en Avanzado"],
-      "users": ["c/u157","/u150"],
+      "users": ["c/u157","/u150","/u13","/u55"],
       "dependency": [],
       "type": "misión", "closed": false, "link": "", "tagged": ["original"],
 
@@ -4207,7 +4207,7 @@ const MissionsModule = (function () {
     "stolen shroud": {
       "description": "Una investigación sobre la identidad y el sacrificio para descrubrir el rastro de Soly, quien decidió usurpar la vida de otro, no por ambición ni poder, sino como el único método efectivo para orquestar su propio final. El rastro de una existencia construida solo para ser destruida.",
       "image": "https://i.imgur.com/2kfwlbB.png", "requisitos": ["Un personaje deberá ser miembro del Departamento de Seguridad","Un personaje o PNJ llevado por usuario deberá tener entre 45 y 55 años"],
-      "users": ["c/u8","/u146","/u153"],
+      "users": ["c/u8","/u146","/u153","/u55"],
       "dependency": ["paper mask", "midnight ashes"],
       "type": "investigación", "closed": false, "link": "", "tagged": ["original","capitulo 3"],
 
