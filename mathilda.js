@@ -1275,9 +1275,9 @@ const MissionsModule = (function () {
 
         "arresto momentum": {
           "leve": 'No es suficiente para revelar información adicional.',
-          "moderado": 'Si se pisó la baldosa blanca: Retrae el humo disminuyendo 1 punto la penalidad. En caso de haber pisado la baldosa negra: El agua sube 5 centímetros menos a partir de este momento.',
-          "exitoso": 'Si se pisó la baldosa blanca: Retrae el humo disminuyendo 1 punto la penalidad. En caso de haber pisado la baldosa negra: El agua sube 10 centímetros menos a partir de este momento.',
-          "critico": 'Si se pisó la baldosa blanca: Retrae el humo disminuyendo 3 puntos la penalidad. En caso de haber pisado la baldosa negra: El agua sube 15 centímetros menos a partir de este momento.',
+          "moderado": 'Si se pisó la baldosa blanca: Retrae el humo disminuyendo 1 punto la penalidad. En caso de haber pisado la baldosa negra: Reduce 1 turno antes de que el agua llegue arriba.',
+          "exitoso": 'Si se pisó la baldosa blanca: Retrae el humo disminuyendo 1 punto la penalidad. En caso de haber pisado la baldosa negra: Reduce 2 turnos antes de que el agua llegue arriba.',
+          "critico": 'Si se pisó la baldosa blanca: Retrae el humo disminuyendo 3 puntos la penalidad. En caso de haber pisado la baldosa negra: Reduce 3 turnos antes de que el agua llegue arriba.',
         },
 
         "aguamenti": {
