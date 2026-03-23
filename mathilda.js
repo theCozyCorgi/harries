@@ -4227,15 +4227,15 @@ const MissionsModule = (function () {
       "cards": [],
 
       "searchs": {
-        "introducción de la cuidadora de hadiya": {
+        "introducción de la cuidadora de hadiya (solo para los que saben francés)": {
           "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "e", }, "place": "",
           "cont": '<span>La cuidadora de Hadiya les dice en fracés: «Tengan cuidado, Hadiya es vieja bruja. No le gustan las visitas, pero hagan lo que hagan, procuren hablar con voz clara y fuerte. Está perdiendo audición del oído izquierdo. El que no lo escucha no lo responde. Y, hagan lo que hagan, no se olviden de presentarse con sus nombres. No le gustan las voces a las que no les puede dar nombre».</span>',
         },
-        "advertencia de la cuidadora de hadiya": {
+        "advertencia de la cuidadora de hadiya (solo para los que saben francés)": {
           "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "e", }, "place": "",
           "cont": '<span>Antes de despedirse, la cuidadora dice: «Volveré en 10 minutos con té para todos».</span>',
         },
-        "presentación de hadiya": {
+        "presentación de hadiya (solo para los que saben francés)": {
           "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "e", }, "place": "",
           "cont": '<span>Cuando Hadiya habla, dice lo siguiente: «¿Quién está ahí? Marilou, ¿eres tú? ¿Ya es hora de mi té?».</span>',
         },
