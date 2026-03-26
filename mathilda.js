@@ -4224,23 +4224,22 @@ const MissionsModule = (function () {
       "dependency": ["paper mask", "midnight ashes"],
       "type": "interrogatorio", "closed": false, "link": "/t1108-interrogatorio-licking-salted-wounds", "tagged": ["original","capitulo 3"],
 
-      "cards": [],
-
-      "searchs": {
-        "introducción de la cuidadora de hadiya (solo para los que saben francés)": {
+      "cards": [
+        {
           "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "e", }, "place": "",
           "cont": '<span>La cuidadora de Hadiya les dice en fracés: «Tengan cuidado, Hadiya es vieja bruja. No le gustan las visitas, pero hagan lo que hagan, procuren hablar con voz clara y fuerte. Está perdiendo audición del oído izquierdo. El que no lo escucha no lo responde. Y, hagan lo que hagan, no se olviden de presentarse con sus nombres. No le gustan las voces a las que no les puede dar nombre».</span>',
         },
-        "advertencia de la cuidadora de hadiya (solo para los que saben francés)": {
+        {
           "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "e", }, "place": "",
           "cont": '<span>Antes de despedirse, la cuidadora dice: «Volveré en 10 minutos con té para todos».</span>',
         },
-        "presentación de hadiya (solo para los que saben francés)": {
+        {
           "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "e", }, "place": "",
           "cont": '<span>Cuando Hadiya habla, dice lo siguiente: «¿Quién está ahí? Marilou, ¿eres tú? ¿Ya es hora de mi té?».</span>',
-        },
-      },
+        }
+      ],
 
+      "searchs": {},
       "actions": {},
     },
     // licking salted wounds
