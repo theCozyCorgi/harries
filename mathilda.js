@@ -4137,13 +4137,21 @@ const MissionsModule = (function () {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "primer piso lado a",
             "cont": '<span>Las celdas que parecen estar vacías, en realidad, tienen personas dentro, pero sus personalidades ya han desparecido. Miran sin ver, no responden a ninguna estimulación de sonido. Algunos aún se mueven, uno en particular, lastima su cabeza contra la pared.</span>',
           },
-          "seguir subiendo": {
+          "seguir subiendo por lado a": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "primer piso lado a",
             "cont": '<span>Al subir un piso más, se encuentran con un grupo de 25 dementores que atacan inmediatamente.</span>',
           }, 
           "bajar al hall desde el lado a": {
             "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "primer piso lado a",
             "cont": '<span>Al regresar al hall pueden tomar una nueva decisión.<adding search="hall" class="check-cards"></adding></span>',
+          },
+          "caminar por el corredor de la izquierda": {
+            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "hall",
+            "cont": '<span>COMPLETAR</span>',
+          },
+          "subir escaleras": {
+            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "caminar por el corredor de la izquierda",
+            "cont": '<span>Al subir las escaleras se encuentran con la terraza de la prisión y 18 dementores comienzan a atacarlos.</span>',
           },
           "caminar hasta el final del pasillo": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "hall",
@@ -4158,20 +4166,64 @@ const MissionsModule = (function () {
             "cont": '<span>Permite regresar al Hall donde podrán irse si lo desean<adding search="hall" class="check-cards"></adding></span>',
           },
           "seguir subiendo": {
-            "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "primer piso lado b",
+            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "primer piso lado b",
             "cont": '<span>Al caminar hasta el final del corredor de celdas, donde sus presos los miran con curiosidad y algunos se acercan a los barrotes pidiendo ayuda. Pueden llegar al siguiente tramo de escaleras que les permite subir.</span>',
           },
           "segunda instrucción": {
-            "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "seguridad": "invalid", }, "place": "subir las escaleras del lado b",
-            "cont": '<span>Las instrucciones indican que deben subir un piso más.</span>',
+            "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "subir las escaleras del lado b",
+            "cont": '<span>Las instrucciones indican que deben subir dos pisos más.</span>',
           },
-          "caminar por el corredor de la izquierda": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "hall",
-            "cont": '<span>COMPLETAR</span>',
+          "subir al segundo piso": {
+            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "subir las escaleras del lado b",
+            "cont": '<span>El segundo corredor los recibe con el aroma a mar y humedad. Se encuentra vacío, como una planta que no se utiliza. Los dementores se mueven alejados por los patronus. Sin embargo, descuentan 2 turnos del contador si el numero del dado lanzado en la tarjeta es par; descuenta 4 turnos si es impar.<adding class="check-cards" search="segundo piso"></adding></span>',
           },
-          "subir escaleras": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "caminar por el corredor de la izquierda",
-            "cont": '<span>Al subir las escaleras se encuentran con la terraza de la prisión y 18 dementores comienzan a atacarlos.</span>',
+          "regresar al primer piso": {
+            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "segundo piso",
+            "cont": '<span>Permite regresar al primer piso. Los dementores se mueven alejados por los patronus. Sin embargo, descuentan 1 turno del contador si el numero del dado lanzado en la tarjeta es par; descuenta 3 turnos si es impar.<adding class="check-cards" search="primer piso lado b"></adding></span>',
+          },
+          "subir al tercer piso": {
+            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "segundo piso",
+            "cont": '<span>El tercer piso, igual de frío que los anteriores, está iluminado por una luz tenue que se filtra a través de las ventanas. Los presos en las celdas observan a las personas confundidos en un principio, sin entender si terminan de ser una ilusión. Los dementores se mueven alejados por los patronus. Sin embargo, descuentan 3 turnos del contador si el numero del dado lanzado en la tarjeta es par; descuenta 5 turnos si es impar.<adding class="check-cards" search="tercer piso"></adding></span>',
+          },
+          "instrucción tercer piso": {
+            "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "tercer piso",
+            "cont": '<span>Deben tomar el corredor entre las celdas y subir un piso adicional.</span>',
+          },
+          "regresar al segundo piso": {
+            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "tercer piso",
+            "cont": '<span>Permite regresar al segundo piso. Los dementores se mueven alejados por los patronus. Sin embargo, descuentan 1 turno del contador si el numero del dado lanzado en la tarjeta es par; descuenta 3 turnos si es impar.<adding class="check-cards" search="primer piso lado b"></adding></span>',
+          },
+          "subir al cuarto piso": {
+            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "tercer piso",
+            "cont": '<span>Los dementores no esperaban que tomen ese lugar. Dismiuye 8 turnos el contador y elimina todos los patronus que deberán volver a ser conjurados.<adding class="check-cards" search="cuarto piso"></adding></span>',
+          },
+          "regresar al tercer piso": {
+            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "cuarto piso",
+            "cont": '<span>Permite regresar al tercer piso. Los dementores se mueven alejados por los patronus. Sin embargo, descuentan 1 turno del contador si el numero del dado lanzado en la tarjeta es par; descuenta 3 turnos si es impar.<adding class="check-cards" search="cuarto piso"></adding></span>',
+          },
+          "revisar celdas": {
+            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "tercer piso",
+            "cont": '<span>Los presos se dividen entre quienes los miran y quienes les imploran ayuda. «Por favor, ya aprendí» susurran algunos pidiendo ayuda. Los dementores se mueven alejados por los patronus. Sin embargo, descuentan 1 turno del contador si el numero del dado lanzado en la tarjeta es par; descuenta 3 turnos si es impar.</span>',
+          },
+          "tomar el corredor entre las celdas": {
+            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "tercer piso",
+            "cont": '<span>El corredor, si bien esta vacío, ofrece una visión lateral de todos los presos del lugar. Las celdas vacías, frías y húmedas que no parecen ofrecer descanso alguno.</span>',
+          },
+          "llegar a la escalera del fondo": {
+            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "tomar el corredor entre las celdas",
+            "cont": '<span>El corredor los regresa a un pequeño espacio, donde se puede ver una escalera mucho más pequeña que las anteriores. Los dementores se mueven alejados por los patronus. Sin embargo, descuentan 6 turnos del contador si el numero del dado lanzado en la tarjeta es par; descuenta 4 turnos si es impar.</span>',
+          },
+          "subir la escalera del fondo": {
+            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "llegar a la escalera del fondo",
+            "cont": '<span>Al subir por las escaleras, deberán tener cuidado de no resbalarse por ellas, logran llegar a un espacio de pocas celdas, donde puede verse un cartel escrito en runas.Los dementores se mueven alejados por los patronus. Sin embargo, descuentan 4 turnos del contador si el numero del dado lanzado en la tarjeta es par; descuenta 2 turnos si es impar.</span>',
+          },
+          "cuatro instrucción": {
+            "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "subir la escalera del fondo",
+            "cont": '<span>Al llegar al espacio donde se encuentran los nigromantes, deberán buscar la tercera y cuarta celda.</span>',
+          },
+          "llegar a la tercera y cuarta celda": {
+            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "cuatro instrucción",
+            "cont": '<span>Inicia el interrogatorio. Deberán pedir la intervención administrativa para el mismo.</span>',
           },
       },
 
