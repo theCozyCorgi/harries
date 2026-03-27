@@ -4179,7 +4179,7 @@ const MissionsModule = (function () {
           },
           "subir al tercer piso": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "segundo piso",
-            "cont": '<span>El tercer piso, igual de frío que los anteriores, está iluminado por una luz tenue que se filtra a través de las ventanas. Los presos en las celdas observan a las personas confundidos en un principio, sin entender si terminan de ser una ilusión. Los dementores se mueven alejados por los patronus. Sin embargo, descuentan 3 turnos del contador si el numero del dado lanzado en la tarjeta es par; descuenta 5 turnos si es impar.<adding class="check-cards" search="tercer piso"></adding></span>',
+            "cont": '<span>El tercer piso, igual de frío que los anteriores, está iluminado por una luz tenue que se filtra a través de las ventanas. Los presos en las celdas observan a las personas confundidos en un principio, sin entender si terminan de ser una ilusión. Los dementores se mueven alejados por los patronus. Sin embargo, descuentan 5 turnos del contador si el numero del dado lanzado en la tarjeta es par; descuenta 3 turnos si es impar.<adding class="check-cards" search="tercer piso"></adding></span>',
           },
           "instrucción tercer piso": {
             "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "tercer piso",
@@ -4191,7 +4191,7 @@ const MissionsModule = (function () {
           },
           "subir al cuarto piso": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "tercer piso",
-            "cont": '<span>Los dementores no esperaban que tomen ese lugar. Dismiuye 8 turnos el contador y elimina todos los patronus que deberán volver a ser conjurados.<adding class="check-cards" search="cuarto piso"></adding></span>',
+            "cont": '<span>Los dementores no esperaban que tomen ese lugar. Dismiuye 10 turnos el contador y elimina todos los patronus que deberán volver a ser conjurados.<adding class="check-cards" search="cuarto piso"></adding></span>',
           },
           "regresar al tercer piso": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "cuarto piso",
@@ -4207,11 +4207,11 @@ const MissionsModule = (function () {
           },
           "llegar a la escalera del fondo": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "tomar el corredor entre las celdas",
-            "cont": '<span>El corredor los regresa a un pequeño espacio, donde se puede ver una escalera mucho más pequeña que las anteriores. Los dementores se mueven alejados por los patronus. Sin embargo, descuentan 6 turnos del contador si el numero del dado lanzado en la tarjeta es par; descuenta 4 turnos si es impar.</span>',
+            "cont": '<span>El corredor los regresa a un pequeño espacio, donde se puede ver una escalera mucho más pequeña que las anteriores. Los dementores se mueven alejados por los patronus. Sin embargo, descuentan 7 turnos del contador si el numero del dado lanzado en la tarjeta es par; descuenta 5 turnos si es impar.</span>',
           },
           "subir la escalera del fondo": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "llegar a la escalera del fondo",
-            "cont": '<span>Al subir por las escaleras, deberán tener cuidado de no resbalarse por ellas, logran llegar a un espacio de pocas celdas, donde puede verse un cartel escrito en runas.Los dementores se mueven alejados por los patronus. Sin embargo, descuentan 4 turnos del contador si el numero del dado lanzado en la tarjeta es par; descuenta 2 turnos si es impar.</span>',
+            "cont": '<span>Al subir por las escaleras, deberán tener cuidado de no resbalarse por ellas, logran llegar a un espacio de pocas celdas, donde puede verse un cartel escrito en runas.Los dementores se mueven alejados por los patronus. Sin embargo, descuentan 2 turnos del contador si el numero del dado lanzado en la tarjeta es par; descuenta 4 turnos si es impar.</span>',
           },
           "cuatro instrucción": {
             "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "subir la escalera del fondo",
