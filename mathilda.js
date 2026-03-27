@@ -4165,10 +4165,6 @@ const MissionsModule = (function () {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "primer piso lado b",
             "cont": '<span>Permite regresar al Hall donde podrán irse si lo desean<adding search="hall" class="check-cards"></adding></span>',
           },
-          "seguir subiendo": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "primer piso lado b",
-            "cont": '<span>Al caminar hasta el final del corredor de celdas, donde sus presos los miran con curiosidad y algunos se acercan a los barrotes pidiendo ayuda. Pueden llegar al siguiente tramo de escaleras que les permite subir.</span>',
-          },
           "segunda instrucción": {
             "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "subir las escaleras del lado b",
             "cont": '<span>Las instrucciones indican que deben subir dos pisos más.</span>',
