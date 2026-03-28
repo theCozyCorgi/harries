@@ -3356,7 +3356,19 @@ const MissionsModule = (function () {
       "type": "investigación", "closed": false, "link": "https://blackwave.foroactivo.com/t1009-investigacion-stargazer-s-night", "tagged": ["edwin","capitulo 0"],
 
       "cards": [],
-      "searchs": {},
+
+      "searchs": {
+        "copia de la red flu": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "neptune", }, "place": "",
+          "cont": '<span>Permite recolectar el sobre con la información de la red flu que conecta a Dayflower Garden. La ubicación del mismo queda a disposición del usuario.</span>',
+        },
+        
+        "información red flu chim-sco/0123-p": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "copia de la red flu",
+          "cont": '<span><span class="book-clipping"><br><div align="center"><strong>ALTA DE PUNTO RED FLU</strong></div><br><strong>Código de registro</strong>: CHIM-SCO/0123-P<br><strong>Fecha alta</strong>: 17 de Agosto de 1893.<br><strong>Oficina</strong>: Ministerio de Magia, Departamento de transporte, oficina 3.<br><br><div align="center"><strong>Información punto de conexión</strong></div><br><strong>Dirección</strong>: Dayflower Garden, Tairlaw en Sala de Estar.<br><br><strong>Tipo de Propiedad</strong>:<br>☒ Residencia Privada<br>☐ Comercial<br>☐ Institucional<br>☐ Clasificado<br><br><strong>Propietario Registrado</strong>: Mabel Merrythought<br><br><div align="center"><strong>Detalles técnicos de la chimenea</strong></div><br><strong>Designación oficial de la red flu</strong>: SCO-0123<br><br><strong>Tipo de conexión</strong>: <br>☒ Permanente<br>☐ Temporal<br><br><strong>Estado de seguridad mágica</strong>: <br>☐ Supervisada con runas<br>☒ Restringido (solo usuarios autorizados, ver anexo W-934)<br>☐ Abierta al público<br><br><strong>Encantamientos de protección aplicados</strong>:<br>☒ Sello de trazabilidad Flu<br>☒ Encantamiento de refracción muggle (nivel 3)<br>☒ Alarma de flujo inverso<br><br><strong>Documentación presentada</strong> (ver anexos):<br>☒ Contrato de responsabilidad<br>☐ Licencia de uso comercial<br>☒ Declaración jurada de propietario<br>☒ Informe de instalación: inspector Harlan Jaxtyn.<br>☒ Comprobante de pago</span></span>',
+        },
+      },
+
       "actions": {},
     },
     // fin stargazer's night
