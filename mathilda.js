@@ -3351,7 +3351,7 @@ const MissionsModule = (function () {
     "stargazer's night": {
       "description": "La investigación los lleva a un nuevo espacio guíado por el mismo Edwin Merrythought, aunque no saben a dónde conduce. Lo que implica una nueva investigación para descubrir qué es ese lugar, por qué Edwin lo guió allí y qué relación tiene con los asesinatos.",
       "image": "https://2img.net/i.imgur.com/3N0DmMz.png", "requisitos": ["Un miembro debe pertenecer a la familia Merrythought o ser un conocido cercano a la misma"],
-      "users": ["/u150","/u7","/u156","u119"],
+      "users": ["/u150","/u7","/u156","/u119"],
       "dependency": ["unveiling the unseen"],
       "type": "investigación", "closed": false, "link": "https://blackwave.foroactivo.com/t1009-investigacion-stargazer-s-night", "tagged": ["edwin","capitulo 0"],
 
