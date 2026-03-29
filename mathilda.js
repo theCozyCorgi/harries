@@ -4298,19 +4298,19 @@ const MissionsModule = (function () {
           "cont": '<span>Cuando Hadiya habla, dice lo siguiente: «¿Quién está ahí? Marilou, ¿eres tú? ¿Ya es hora de mi té?».</span>',
         },
         {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "intervencion 1",
           "cont": '<span>1. No pronuncie nunca más ese nombre, o pediré que lo pongan de patitas en la calle.</span>',
         },
         {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "intervencion 1",
           "cont": '<span>2. Le agradezco el haberse presentado, señor Rosier, pero son sus compañeros quienes deben hacer lo mismo.</span>',
         },
         {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "intervencion 1",
           "cont": '<span>3. Llámeme Hadiya o Madame Nisrine. Aunque no pueda liberarme de mis propias decisiones, prefiero no recordarlas</span>',
         },
         {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "intervencion 1",
           "cont": '<span>4. Se lo ruego, siéntense. ¿Marilou les ha dicho cuándo traería el té?</span>',
         }
       ],
