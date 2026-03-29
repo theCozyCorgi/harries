@@ -4286,16 +4286,32 @@ const MissionsModule = (function () {
 
       "cards": [
         {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "e", }, "place": "",
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
           "cont": '<span>La cuidadora de Hadiya les dice en fracés: «Tengan cuidado, Hadiya es vieja bruja. No le gustan las visitas, pero hagan lo que hagan, procuren hablar con voz clara y fuerte. Está perdiendo audición del oído izquierdo. El que no lo escucha no lo responde. Y, hagan lo que hagan, no se olviden de presentarse con sus nombres. No le gustan las voces a las que no les puede dar nombre».</span>',
         },
         {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "e", }, "place": "",
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
           "cont": '<span>Antes de despedirse, la cuidadora dice: «Volveré en 10 minutos con té para todos».</span>',
         },
         {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "e", }, "place": "",
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
           "cont": '<span>Cuando Hadiya habla, dice lo siguiente: «¿Quién está ahí? Marilou, ¿eres tú? ¿Ya es hora de mi té?».</span>',
+        },
+        {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
+          "cont": '<span>1. No pronuncie nunca más ese nombre, o pediré que lo pongan de patitas en la calle.</span>',
+        },
+        {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
+          "cont": '<span>2. Le agradezco el haberse presentado, señor Rosier, pero son sus compañeros quienes deben hacer lo mismo.</span>',
+        },
+        {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
+          "cont": '<span>3. Llámeme Hadiya o Madame Nisrine. Aunque no pueda liberarme de mis propias decisiones, prefiero no recordarlas</span>',
+        },
+        {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
+          "cont": '<span>4. Se lo ruego, siéntense. ¿Marilou les ha dicho cuándo traería el té?</span>',
         }
       ],
 
