@@ -6500,6 +6500,39 @@ const MissionsModule = (function () {
     },
     // fin más allá de la defensa
 
+    "concierto de spellbound": {
+      "description": "Sin descripcion.",
+      "image": "https://2img.net/i.imgur.com/Bm8BRJM.png", "requisitos": [],
+      "users": [],
+      "dependency": [],
+      "type": "clase", "closed": true, "link": "", "tagged": ["clase"],
+
+      "cards": [],
+      "searchs": {},
+
+      "actions": {
+        "arresto momentum": {
+          "leve": '<span>Permite que un duendecillo quede relentizados impidiendo sus movimientos.</span>',
+          "moderado": '<span>Permite que dos duendecillos queden relentizados impidiendo sus movimientos.</span>',
+          "exitoso": '<span>Permite que tres duendecillos queden relentizados impidiendo sus movimientos.</span>',
+          "critico": '<span>Permite que cuatro duendecillos queden relentizados impidiendo sus movimientos.</span>',
+        },
+        "incarcerous": {
+          "leve": '<span>Permite atar dos duendecillos impidiendo sus movimientos.</span>',
+          "moderado": '<span>Permite atar tres duendecillos impidiendo sus movimientos.</span>',
+          "exitoso": '<span>Permite atar cuatro duendecillos impidiendo sus movimientos.</span>',
+          "critico": '<span>Permite atar cinco duendecillos impidiendo sus movimientos.</span>',
+        },
+        "waddiwasi": {
+          "leve": '<span>Permite descontar 5 PV a 2 duendecillos.</span>',
+          "moderado": '<span>Permite descontar 10 PV a 4 duendecillos.</span>',
+          "exitoso": '<span>Permite descontar 15 PV a 6 duendecillos.</span>',
+          "critico": '<span>Permite descontar 20 PV a 8 duendecillos.</span>',
+        },
+      },
+    },
+    // concierto
+
     "grabado de runas": {
       "description": "Sin descripcion.",
       "image": "https://2img.net/i.imgur.com/Bm8BRJM.png", "requisitos": [],
