@@ -1228,6 +1228,42 @@ const MissionsModule = (function () {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "marcas en el suelo del sótano",
           "cont": '<span>Al pisar las baldosas negras, un leve temblor se siente en el suelo y de las baldosas comienza a subir agua. El click de la puerta al cerrarse puede escucharse detrás de ellos, indicando que están atrapados.<br>Por cada personaje que intervenga el agua sube 25 centímetros. Dado que el espacio tiene 2 metros y medio de altura, los personajes tendrán 10 intervenciones para poder liberarse de los efectos. Al terminar, deberán avisar al staff para que realice su correspondiente intervención. Una vez seleccionada esta opción, no puede elegirse la otra.</span>',
         },
+        "observar las mesadas": {
+          "visible": { "attr": { "val": "min" }, "know": { "herbología": "10" }, "job": "invalid", "name": "invalid", }, "place": "intervención",
+          "cont": '<span>Esta sección, que se encontraba a la altura de la cintura, era donde la Salvia Ignicor solía crecer. Ahora que las plantas han sido retiradas, la mesada presenta un aspecto desolado y marcado por la intensidad de la vida que una vez albergó. Puede concluirse que la planta fue removida del lugar, debido a que no hay rastro de hojas secas o raíces muertas.</span>',
+        },
+        "observar debajo de las mesadas": {
+          "visible": { "attr": { "val": "min" }, "know": { "herbología": "5" }, "job": "invalid", "name": "invalid", }, "place": "observar las mesadas",
+          "cont": '<span>En el fondo de la mesada, que tiene una profundidad de unos 20 cm, queda una capa residual de tierra negra, densa y arcillosa. Esta tierra está salpicada de fragmentos de roca volcánica porosa (puzolana) y restos carbonizados de raíces finas.</span>',
+        },
+        "marcas en la mesada": {
+          "visible": { "attr": { "val": "min" }, "know": { "herbología": "10" }, "job": "invalid", "name": "invalid", }, "place": "observar las mesadas",
+          "cont": '<span>La superficie interior de la mesada está revestida de placas de cerámica. Estas placas muestran marcas de quemaduras localizadas y un tono rojizo permanente, testimonio del calor que generaba la floración de la Salvia. El borde superior de la mesada, donde los cosechadores apoyaban sus brazos protegidos con guantes térmicos, está desgastado y ligeramente ennegrecido.</span>',
+        },
+        "canales de riego": {
+          "visible": { "attr": { "val": "min" }, "know": { "herbología": "5" }, "job": "invalid", "name": "invalid", }, "place": "observar las mesadas",
+          "cont": '<span>A lo largo del perímetro interior de la mesada corre un sistema de tuberías de cobre expuestas con pequeños aspersores, ahora inactivos. Estos aspersores estaban diseñados para suministrar la "gran cantidad de agua volcánica natural" directamente a la base de las plantas.</span>',
+        },
+        "un rastro de testigo": {
+          "visible": { "attr": { "val": "min" }, "know": { "herbología": "10" }, "job": "invalid", "name": "invalid", }, "place": "observar las mesadas",
+          "cont": '<span>Cerca de uno de los extremos, donde quizás una planta fue cortada apresuradamente, hay una mancha seca y de un rojo intenso, casi carmesí. Es la savia endurecida de un tallo partido, que aún parece tener un brillo tenue, como una brasa apagada, incluso a pesar de los años que pasaron. Puede concluirse que, allí se cultivaba el Corazón de Fuego. Sin embargo, alguien se lo llevó.</span>',
+        },
+        "reliquia": {
+          "visible": { "attr": { "sab": "4" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "intervención",
+          "cont": '<span>Bajo el polvo asfixiante y el rastro del agua que pretendía borrarlo todo, un resto sobrevive. En el borde de la mesada, una esquina de papel amarillento asoma como un descuido deliberado. Parece haber eludido el caos, aguardando en silencio a que alguien reclame el secreto que aún late en su fibra. Aquella reliquia olvidada es lo único que el fuego y el olvido no pudieron reclamar.<br>Al tomar la misma se puede observar que se trata de una tarjeta.</span>',
+        },
+        "la tarjeta de maroon steed": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "reliquia",
+          "cont": '<span>La tarjeta es de un cartón grueso, con los bordes desgastados y un profundo color carmesí que parece brillar bajo la luz mortecina, tal como la savia de la Salvia Ignicor. En el frente, un relieve dorado muestra la silueta de un corcel encabritado rodeado de nudos celtas que parecen moverse si se los mira de reojo. Debajo, con una caligrafía elegante pero firme, se lee: "The Maroon Steed: Para las penas que el alma no puede cargar sola". No hay una dirección fija impresa; en su lugar, un pequeño grabado de un trébol de cuatro hojas cambia de color según el clima, indicando que el bar aparece siempre «donde el camino se cruza con el deseo».</span>',
+        },
+        "dorso de la tarjeta": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "la tarjeta de maroon steed",
+          "cont": '<span>Al dorso, los datos de contacto parecen escritos con una tinta que huele sutilmente a turba quemada y whisky añejo. En lugar de su ubicación, reza una instrucción casi ritual: «Vierte tu bebida favorita para ahogar las penas». Se mencionan especialidades como el "Fuego de Otoño" y la "Gota del Olvido", prometiendo que el primer trago corre por cuenta de la casa para quien tenga el corazón lo suficientemente roto.</span>',
+        },
+        "realizar el ritual": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "dorso de la tarjeta",
+          "cont": '<span>Los personajes pueden optar por realizar el ritual al salir del lugar o indicar narrativamente cómo obtuvieron la bebida. Al verter una gota sobre la tarjeta, puede notarse que la tarjeta cambia. Muestra cinco runas, una por Inglaterra, otra por Escocia, otra por Gales, otra por Irlanda y otra por Irlanda del Norte. Una nota cita: "Cambia de ubicación cada noche". Sin embargo, hay una marca adicional. Una pequeña cruz roja al norte de Irlanda que lo único que puede significar es una cosa, la sede del lugar y dónde trasladaron todo el material.</span>',
+        },
       },
       "actions": {
 
@@ -1433,7 +1469,7 @@ const MissionsModule = (function () {
     // fin the lone bellow
 
     "gilded herb": {
-      "description": "Una expedición a las bodegas Dempsey, buscan desentrañar qué poseían las bebidas de las víctimas. Irrumpir en el lugar solo buscará respuestas que pueden convertirse en nuevas preguntas.",
+      "description": "Siguiendo el rastro de Manufacturas Dempsey, deberán ingresar en el lugar donde se generan las bebidas para The Maroon Steed para identificar qué poseían las bebidas del lugar. Irrumpir en el lugar solo buscará respuestas que pueden convertirse en nuevas preguntas.",
       "image": "https://2img.net/i.imgur.com/CzU2l87.png", "requisitos": ["Un integrante tiene que tener Herbología en Avanzado"],
       "users": [],
       "dependency": ["moth to a flame", "potions for all the afflictions"], "tagged": ["morgana","capitulo 0"],
@@ -2781,7 +2817,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/bjwrBd2.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica"],
       "users": ["i/u127", "/u78", "/u55"],
       "dependency": ["promise in crimson"],
-      "type": "interrogatorio", "closed": false, "link": "https://blackwave.foroactivo.com/t834-interrogatorio-journey-of-a-bird", "tagged": ["morgana","capitulo 0"],
+      "type": "interrogatorio", "closed": true, "link": "https://blackwave.foroactivo.com/t834-interrogatorio-journey-of-a-bird", "tagged": ["morgana","capitulo 0"],
 
       "cards": [],
       "searchs": {},
@@ -2947,9 +2983,9 @@ const MissionsModule = (function () {
 
     "the apple house": {
       "description": "Visitar las granjas galesas suele ser un sueño para muchos y una pesadilla para otros, pero deberán llegar a la casa que les mencionaron, para investigar lo sucedido con Merlina Dempsey de primera mano. En aquella granja algunas respuestas podrán encontrarse y otras implicarán nuevas investigaciones.",
-      "image": "https://2img.net/i.imgur.com/cX0CEv6.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica"],
+      "image": "https://2img.net/i.imgur.com/cX0CEv6.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica","Un miembro deberá haber obtenido la pista del interrogatorio 'green to blue' o de la investigación 'full of emptiness'","Un miembro deberá haber obtenido la pista del interrogatorio 'distorted memories' o 'journey of a bird"],
       "users": [],
-      "dependency": ["full of emptiness", "green to blue", "distorted memories", "journey of a bird", "frozen sunflowers"],
+      "dependency": ["frozen sunflowers"],
       "type": "interrogatorio", "closed": false, "link": "", "tagged": ["morgana","capitulo 0"],
 
       "cards": [],
