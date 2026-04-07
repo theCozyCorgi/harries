@@ -3584,7 +3584,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/zZ5WNNh.png", "requisitos": ["Un personaje tendrá que tener curación en avanzado", "Un personaje tendrá que tener Transformaciones en Avanzado", "Un personaje deberá ser miembro del Departamento de Seguridad"],
       "users": ["c/u1","/u8","/u24","/u12","/u145"],
       "dependency": [],
-      "type": "misión", "closed": false, "link": "https://blackwave.foroactivo.com/t933-mision-the-rest-of-us", "tagged": ["original","capitulo 3"],
+      "type": "misión", "closed": true, "link": "https://blackwave.foroactivo.com/t933-mision-the-rest-of-us", "tagged": ["original","capitulo 3"],
 
       "cards": [],
       "searchs": {
