@@ -1638,6 +1638,27 @@ const MissionsModule = (function () {
           "visible": { "attr": { "int": "5" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar a los cuadros vieron algo extraño antes de ser cegado",
           "cont": '<span>En conclusión a lo dicho, la persona que cegó al director debió haber estado presente antes o debió realizarlo el mismo Director. Al observar el techo, pueden notar un reflejo borroso de la realidad. Al principio sus propios reflejos parecen ser iguales e imitan sus movimientos. Sin embargo, cuando un personaje aparta la mirada, todos los reflejos toman forma propia. Cayendo del reflejo al despacho. Deberán incluir los siguientes personajes no jugables y enfrentarse a sus propios reflejos. Cuando un personaje logre liberarse de su sombra podrán pedir intervención al staff: Sombra Aidan (6 FUE / 6 CON), Sombra Cuthbert (6 FUE / 5 CON), Sombra Hermes (7 FUE / 5 CON), Sombra Minerva (5 FUE / 7 CON) y Sombra Monthgomery (3 FUE / 3 CON). Solo podrán enfrentarse a su propia sombra.<br>Solo podrán enfrentarse a su propia sombra. Si la misma les habla o qué les dice, depende de cada personaje. Cuando un personaje logre librarse de una sombra, deberá avisar al staff para que se realice la siguiente intervención. Las sombras poseen 50PV.</span>',
         },
+        "la magia de las sombras": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "rompemaldiciones", "name": "invalid", }, "place": "la magia del espejo",
+          "cont": '<span>La maldición que habita en el espejo se conoce como el "Cisma del Alma Alquilada". No es un simple reflejo, sino un parásito dimensional que se alimenta del arrepentimiento y la duda.<br><br>Se dice que el origen de este artefacto radica en la obsesión de un alquimista por alcanzar la perfección absoluta a través de la purga de la debilidad humana. El proceso culminó con un acto de automutilación: su propia mano derecha fue cercenada y sumergida en el mercurio con el que se selló el espejo, imbuyendo al cristal con una voluntad propia y tóxica.<br><br>El espejo no actúa como una superficie de reflexión común, sino como un prisma de disonancia moral. Al activarse, proyecta versiones de los observadores que encarnan sus temores más profundos o sus potenciales más egoístas. Estas manifestaciones carecen de ética y fatiga, permitiéndoles ejecutar ataques físicos de precisión absoluta mientras desestabilizan emocionalmente a sus objetivos mediante el susurro de verdades privadas y crueles. Al ser proyecciones de una "perfección" sin conciencia, las sombras buscan suplantar al individuo original, eliminando aquello que el espejo considera imperfecto.</span>',
+        },
+        "contrahechizo para las sombras": {
+          "visible": { "attr": { "val": "min" }, "know": { "dcao": "15" }, "job": "invalid", "name": "invalid", }, "place": "intervención",
+          "cont": '<span>Al alzar la vista, el espejo del techo no devuelve un reflejo, sino una distorsión sombría que parece devorar la luz de la estancia. La imagen proyectada es una versión macabra de la realidad, donde las sombras se alargan y los rostros se marchitan en la penumbra. Esta anomalía mágica solo cede ante la voluntad del observador: un encantamiento "Confundus" para desorientar su percepción o un audaz "Riddikulus" que transforme el horror en una farsa grotesca, rompiendo el hechizo de la superficie.</span>',
+        },
+        "efectos del espejo": {
+          "visible": { "attr": { "val": "min" }, "know": { "dcao": "15" }, "job": "invalid", "name": "invalid", }, "place": "la magia del espejo",
+          "cont": '<span>Puede concluirse, entonces, que Dippet no se enfrentó a su propia sombra. Pues, no hay muestras de duelo. Lo que quiere decir que alguien puso el espejo ahí para distraer a las demás personas.</span>',
+        },
+        "comentario de los cuadros": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "efectos del espejo",
+          "cont": '<span>«Parece evidente concluir que Dippet se envenenó a sí mismo», comentó Black desde su rincón levantando ligeramente el mentón. «Si no fue atacado por su sombra y la única persona dentro del despacho era él, sería lógico concluir que fue él mismo.»</span>',
+        },
+        "una pista oculta": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "cuthbert", }, "place": "efectos del espejo",
+          "cont": '<span>A pesar de las conclusiones que parecen evidentes, hay algo en el despacho que recuerda al Castillo Black, a la casa de Merrythought y la casa de Dempsey. Se puede concluir que, Dippet, a pesar de su locura, algo sabía sobre las muertes de los candidatos para poder intentar fingir que fue atacado de la misma manera.</span>',
+        }
+
       },
       "actions": {
         "vox imperium": {
@@ -1657,6 +1678,12 @@ const MissionsModule = (function () {
           "moderado": 'Permite identificar que Dippet esta vivo, sin embargo, puede identificarse que su cuerpo esta siendo afectado por una poción que le impide moverse con normalidad. Y que el daño ha sido más severo de lo que se esperaba. Pues su cuerpo esta entumecido de la cintura hacia abajo. Un profesional de la salud mágica debería atenderlo a la brevedad antes de que los daños sean permanentes.',
           "exitoso": 'Permite identificar que Dippet esta vivo, sin embargo, puede identificarse que su cuerpo esta siendo afectado por una poción que le impide moverse con normalidad. Y que el daño ha sido más severo de lo que se esperaba. Pues su cuerpo esta entumecido de la cintura hacia abajo. Un profesional de la salud mágica debería atenderlo a la brevedad antes de que los daños sean permanentes.',
           "critico": 'Permite identificar que Dippet esta vivo, sin embargo, puede identificarse que su cuerpo esta siendo afectado por una poción que le impide moverse con normalidad. Y que el daño ha sido más severo de lo que se esperaba. Pues su cuerpo esta entumecido de la cintura hacia abajo. Un profesional de la salud mágica debería atenderlo a la brevedad antes de que los daños sean permanentes.',
+        },
+        "confundus": {
+          "leve": 'No es suficiente para revelar información adicional.',
+          "moderado": 'El espejo distorciona la imagen antes de romperse. Las sombras desaparecen en ese mismo momento.<adding search="la magia del espejo" class="check-cards"></adding>',
+          "exitoso": 'El espejo distorciona la imagen antes de romperse. Las sombras desaparecen en ese mismo momento.<adding search="la magia del espejo" class="check-cards"></adding>',
+          "critico": 'El espejo distorciona la imagen antes de romperse. Las sombras desaparecen en ese mismo momento.<adding search="la magia del espejo" class="check-cards"></adding>',
         },
       },
     },
