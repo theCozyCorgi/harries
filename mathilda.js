@@ -3770,7 +3770,24 @@ const MissionsModule = (function () {
       "dependency": ["frozen sunflowers"],
       "type": "misión", "closed": false, "link": "/t983-mision-clandestine-melodies", "tagged": ["original","capitulo 3"],
 
-      "cards": [],
+      "cards": [
+        {
+          "visible": { "attr": { "val": "min" }, "know": { "contrabando": "10" }, "job": "invalid", "name": "invalid", }, "place": "segunda intervención",
+          "cont": '<span>Puedes notar que el líquido azul brilla con un matiz metálico, similar al de los galeones encantados; es una bebida que exige saldar cuentas. Además, puedes observar que el vaso verde es el único que no deja rastro de sedimento, indicando una pureza que los otros no tienen.</span>'
+        },
+        {
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "10" }, "job": "invalid", "name": "invalid", }, "place": "segunda intervención",
+          "cont": '<span>El líquido amarillo desprende un vapor incoloro que adormece los sentidos, típico de los bloqueadores de memoria a largo plazo. Puedes identificar también que el líquido naranja tiene una textura viscosa que, al ser ingerida, suele agarrotar las articulaciones y los canales de flujo mágico.</span>'
+        },
+        {
+          "visible": { "attr": { "val": "min" }, "know": { "dcao": "15" }, "job": "invalid", "name": "invalid", }, "place": "segunda intervención",
+          "cont": '<span>Puedes sentir una vibración punzante en el líquido rojo, un calor agresivo que presagia dolor físico. Por otro lado, puedes detectar que el vaso morado emite un eco residual; no es una maldición de daño, sino un lazo sensorial que pretende quedarse contigo tras marcharte.</span>'
+        },
+        {
+          "visible": { "attr": { "val": "min" }, "know": { "magia oscura": "10" }, "job": "invalid", "name": "invalid", }, "place": "segunda intervención",
+          "cont": '<span>Puedes percibir una falta total de energía en el líquido índigo; es una bebida que drena la voluntad, dejando a quien la toma como una cáscara vacía incapaz de sostenerse. Sin embargo, puedes sentir que el líquido verde es neutral, carente de cualquier rastro de oscuridad o manipulación.</span>'
+        }
+      ],
 
       "searchs": {
         "presentarse como contrabandistas":{
@@ -3860,6 +3877,34 @@ const MissionsModule = (function () {
         "preguntar por soly":{
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "primera intervención",
           "cont": '<span>Por un momento, Cillian se rasca la barbilla antes de decir: «¿Soly dice? No me suena, / ese nombre no es de aquí. / Sus pies nunca caminaron / por el suelo que yo vi».</span>'
+        },
+        "beber vaso con líquido rojo":{
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "segunda intervención",
+          "cont": '<span>La bebida hace que el líquido arda en las venas. El personaje pierde 100 PV. El personaje no podrá mencionar a la banda ni el lugar donde se encuentran.</span>'
+        },
+        "beber vaso con líquido naranja":{
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "segunda intervención",
+          "cont": '<span>La bebida provoca que el cuerpo se paralice ligeramente, impidiendo que realice hechizos por el tiempo que el personaje considere adecuado para su trama. El personaje no podrá mencionar a la banda ni el lugar donde se encuentran.</span>'
+        },
+        "beber vaso con líquido amarillo":{
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "segunda intervención",
+          "cont": '<span>El personaje olvida quién es y por qué esta ahí por el tiempo que el personaje considere adecuado para su trama. El personaje no podrá mencionar a la banda ni el lugar donde se encuentran.</span>'
+        },
+        "beber vaso con líquido verde":{
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "segunda intervención",
+          "cont": '<span>El líquido sabe a agua fresca. El personaje no podrá mencionar a la banda ni el lugar donde se encuentran.</span>'
+        },
+        "beber vaso con líquido azul":{
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "segunda intervención",
+          "cont": '<span>El personaje deberá confesar si mintió en algún momento de todo el intercambio. Si lo hizo, deberá pagar 500 galeones para poder irse. El personaje no podrá mencionar a la banda ni el lugar donde se encuentran.</span>'
+        },
+        "beber vaso con líquido índigo":{
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "segunda intervención",
+          "cont": '<span>El personaje sentirá las piernas de gelatina, otro personaje deberá ayudarlo a salir. El personaje no podrá mencionar a la banda ni el lugar donde se encuentran.</span>'
+        },
+        "beber vaso con líquido morado":{
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "segunda intervención",
+          "cont": '<span>Hace que el personaje siga escuchando la melodía de la banda por el tiempo que el personaje considere adecuado. El personaje no podrá mencionar a la banda ni el lugar donde se encuentran.</span>'
         },
       },
 
