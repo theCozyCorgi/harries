@@ -3043,7 +3043,7 @@ const MissionsModule = (function () {
     "the apple house": {
       "description": "Visitar las granjas galesas suele ser un sueño para muchos y una pesadilla para otros, pero deberán llegar a la casa que les mencionaron, para investigar lo sucedido con Merlina Dempsey de primera mano. En aquella granja algunas respuestas podrán encontrarse y otras implicarán nuevas investigaciones.",
       "image": "https://2img.net/i.imgur.com/cX0CEv6.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica","Un miembro deberá haber obtenido la pista del interrogatorio 'green to blue' o de la investigación 'full of emptiness'","Un miembro deberá haber obtenido la pista del interrogatorio 'distorted memories' o 'journey of a bird"],
-      "users": [],
+      "users": ["/u55","/u78", "/u8"],
       "dependency": ["frozen sunflowers"],
       "type": "interrogatorio", "closed": false, "link": "", "tagged": ["morgana","capitulo 0"],
 
@@ -4240,7 +4240,7 @@ const MissionsModule = (function () {
     "a gentle hand": {
       "description": "Tras una pequeña investigación realizada por los hermanos Moody, las pistas conducen a dos magos y a la dirección de la casa de los mismos, donde ya desde afuera se pueden escuchar los ladridos y los lamentos de unos cachorros de crup que reclaman ayuda.",
       "image": "https://i.imgur.com/nNgVsfv.png", "requisitos": ["Dos personajes deberán ser miembro del Departamento de Seguridad", "Un personaje deberá tener CCM en Avanzado"],
-      "users": ["c/u157","/u150","/u13","/u55"],
+      "users": ["c/u157","/u150","/u13","/u55","/u171"],
       "dependency": [],
       "type": "misión", "closed": false, "link": "", "tagged": ["original"],
 
@@ -4253,7 +4253,7 @@ const MissionsModule = (function () {
     "through the night": {
       "description": "Lo que empezó como una nota para El Profeta sobre plantas prohibidas ha mutado en algo oscuro. Entre calderos marcados y un sospechoso que calla para siempre, Amanirenas y Moody acechan una verdad que implica un interrogatorio a la familia Borges.",
       "image": "https://i.imgur.com/nmW3tFz.png", "requisitos": ["Un personaje deberán ser miembro del Departamento de Seguridad"],
-      "users": ["c/u8","c/u145"],
+      "users": ["c/u8","c/u145","/u171"],
       "dependency": [],
       "type": "misión", "closed": false, "link": "", "tagged": ["original"],
 
@@ -4495,7 +4495,7 @@ const MissionsModule = (function () {
     "stolen shroud": {
       "description": "Una investigación sobre la identidad y el sacrificio para descrubrir el rastro de Soly, quien decidió usurpar la vida de otro, no por ambición ni poder, sino como el único método efectivo para orquestar su propio final. El rastro de una existencia construida solo para ser destruida.",
       "image": "https://i.imgur.com/2kfwlbB.png", "requisitos": ["Un personaje deberá ser miembro del Departamento de Seguridad","Un personaje o PNJ llevado por usuario deberá tener entre 45 y 55 años"],
-      "users": ["c/u8","/u146","/u153","/u55"],
+      "users": ["c/u8","/u146","/u153","c/u55","/u78"],
       "dependency": ["paper mask", "midnight ashes"],
       "type": "investigación", "closed": false, "link": "", "tagged": ["original","capitulo 3"],
 
