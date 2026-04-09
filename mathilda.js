@@ -2376,6 +2376,38 @@ const MissionsModule = (function () {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "doblar a la izquierda",
           "cont": '<span>Tras realizar todo el camino, puede verse en una de las estanterías una profecía cuyo humo interior brilla y se retuerce. Cualquiera de los prsentes puede tomarla, pues cualquiera de ellos podría tomar la profecía como propia: «Cerrasteis los ojos ante el fuego, creyendo que la oscuridad era refugio. Tapasteis vuestros oídos al grito del destino, pensando que el silencio era olvido. Pero el tiempo no perdona la soberbia de los que se creen eternos. Ya que no buscasteis el mañana, el mañana os dará caza a vosotros. No vendrá como un camino que recorrer, sino como un muro que se desploma; no será una advertencia que escuchar, sino el frío acero que ya os toca. Aquello que evitasteis mirar os encontrará en el rincón más oscuro, y cuando vuestra sangre reclame a su propia sangre bajo el nombre de la estrella, comprenderéis que el futuro no se espera... el futuro os devora.»</span>',
         },
+        "profecía de aloysius keefe": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "intervención",
+          "cont": '<span>No muy lejos de donde los estantes crujen bajo el peso de verdades olvidadas, una esfera de cristal comienza a vibrar con una luminiscencia turbia. Su brillo, similar al de una tormenta atrapada en vidrio, parece alertar a quienes se atreven a escuchar.</span>',
+        },
+        "escuchar profecía de aloysius keefe": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "profecía de aloysius keefe",
+          "cont": '<span>Desde su interior, la voz de un hombre emerge en un susurro líquido y profundo, dictando una sentencia que parece empapar el aire de la sala: "Cuando el cielo se quiebre en silencio y olvido, llegará el agua sin previo rugido. Del mago la esencia será desnudada, sacando su parte más vil y malvada." El eco de la profecía se desvanece dejando un rastro de humedad antinatural en el ambiente, una advertencia de que la pureza de la magia no resistirá el embate de la marea que se avecina.</span>',
+        },
+        "profecía de roccius keefe": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "escuchar profecía de aloysius keefe",
+          "cont": '<span>Varias hileras más atrás, donde las sombras se vuelven más densas y el aire más gélido, una esfera de cristal pulsa con una luz plateada y rítmica. La etiqueta, que reza Roccius Keefe, delata que este presagio pertenece a una estirpe marcada por el destino, siendo considerablemente posterior a la visión de su antepasado Aloysius.</span>',
+        },
+        "escuchar profecía de roccius keefe": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "profecía de roccius keefe",
+          "cont": '<span>Al tomar la profecía, la voz cristalina de un niño surge del corazón del orbe, entonando una rima que parece flotar sobre el polvo del tiempo: "Días de calma y de sombras inciertas, abrirán paso a verdades desiertas. Cuando el agua a los magos logre alcanzar, solo manos unidas al sol podrán llegar." El mensaje, aunque cargado de una esperanza inusual en este lugar, deja un sabor amargo; la unión no es una opción, sino el último aliento antes de que el abismo los reclame.</span>',
+        },
+        "profecía de cuthbert selwyn": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "profecía de roccius keefe",
+          "cont": '<span>A escasa distancia del presagio de Roccius, el aire parece espesarse alrededor de una esfera que vibra con una autoridad gélida. El nombre inscrito en la etiqueta, Cuthbert Selwyn, resuena en la sala con el peso de la sangre pura y antiguas ambiciones, proyectando un brillo metálico que corta la penumbra.</span>',
+        },
+        "escuchar profecía de cuthbert selwyn": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "inefable", "name": "cuthbert", }, "place": "profecía de cuthbert selwyn",
+          "cont": '<span>La voz resonando en un eco de Cuthbert resuena dentro de la esfera: "Una ola negra borrará los nombres, caerá los sabios, caerá la magia. Si alza la vista y vence el temor, podrá advertir del gran error. Once cuervos sellaron el paso, tejieron la grieta, torcieron el lazo. Ya no es de uno, ni de un elegido: el poder se encuentra en lo compartido."</span>',
+        },
+        "profecía de theolonius covey": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "profecía de roccius keefe",
+          "cont": '<span>Allí, no muy lejos de la profecía de Selwyn, reposa una esfera inusualmente pequeña y de un cristal lechoso. Dictada por Theolonius Covey, esta profecía emite un pulso débil pero constante, como un corazón que late en el vacío.</span>',
+        },
+        "escuchar profecía de theolonius covey": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "inefable", "name": "invalid", }, "place": "profecía de theolonius covey",
+          "cont": '<span>El eco de la voz de Theonolius Covey resuena dentro de la profecía: "Cuando el metal de las insignias pierda su brillo ante el cielo ceniza, no será el fuego lo que devore los cimientos, sino lo que el mar oculta. Donde antes hubo orden, la marea sembrará la duda; donde hubo valor, la espuma dejará miedo. Los guardianes, cuya mano nunca tembló al alzar la madera, sentirán el peso. Porque cuando la ola rompa contra las puertas del Ministerio, no habrá refugio para los pastores, solo el deber de ser el muro mientras el mundo, a sus espaldas, se ahoga en silencio."</span>',
+        },
       },
 
       "actions": {
