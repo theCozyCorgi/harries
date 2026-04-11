@@ -1644,7 +1644,7 @@ const MissionsModule = (function () {
         },
         "contrahechizo para las sombras": {
           "visible": { "attr": { "val": "min" }, "know": { "dcao": "15" }, "job": "invalid", "name": "invalid", }, "place": "intervención",
-          "cont": '<span>Al alzar la vista, el espejo del techo no devuelve un reflejo, sino una distorsión sombría que parece devorar la luz de la estancia. La imagen proyectada es una versión macabra de la realidad, donde las sombras se alargan y los rostros se marchitan en la penumbra. Esta anomalía mágica solo cede ante la voluntad del observador: un encantamiento "Confundus" para desorientar su percepción o un audaz "Riddikulus" que transforme el horror en una farsa grotesca, rompiendo el hechizo de la superficie.</span>',
+          "cont": '<span>Al alzar la vista, el espejo del techo no devuelve un reflejo, sino una distorsión sombría que parece devorar la luz de la estancia. La imagen proyectada es una versión macabra de la realidad, donde las sombras se alargan y los rostros se marchitan en la penumbra. Esta anomalía mágica solo cede ante la voluntad del observador: un audaz "Riddikulus" que transforme el horror en una farsa grotesca, rompiendo el hechizo de la superficie.</span>',
         },
         "efectos del espejo": {
           "visible": { "attr": { "val": "min" }, "know": { "dcao": "15" }, "job": "invalid", "name": "invalid", }, "place": "la magia del espejo",
@@ -1679,7 +1679,7 @@ const MissionsModule = (function () {
           "exitoso": 'Permite identificar que Dippet esta vivo, sin embargo, puede identificarse que su cuerpo esta siendo afectado por una poción que le impide moverse con normalidad. Y que el daño ha sido más severo de lo que se esperaba. Pues su cuerpo esta entumecido de la cintura hacia abajo. Un profesional de la salud mágica debería atenderlo a la brevedad antes de que los daños sean permanentes.',
           "critico": 'Permite identificar que Dippet esta vivo, sin embargo, puede identificarse que su cuerpo esta siendo afectado por una poción que le impide moverse con normalidad. Y que el daño ha sido más severo de lo que se esperaba. Pues su cuerpo esta entumecido de la cintura hacia abajo. Un profesional de la salud mágica debería atenderlo a la brevedad antes de que los daños sean permanentes.',
         },
-        "confundus": {
+        "riddikulus": {
           "leve": 'No es suficiente para revelar información adicional.',
           "moderado": 'El espejo distorciona la imagen antes de romperse. Las sombras desaparecen en ese mismo momento.<adding search="la magia del espejo" class="check-cards"></adding>',
           "exitoso": 'El espejo distorciona la imagen antes de romperse. Las sombras desaparecen en ese mismo momento.<adding search="la magia del espejo" class="check-cards"></adding>',
