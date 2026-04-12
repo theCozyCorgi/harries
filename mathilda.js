@@ -7557,7 +7557,7 @@ const MissionsModule = (function () {
   "futuros lideres: letselina": {
       "description": "",
       "image": "", "requisitos": [],
-      "users": ["/u63"],
+      "users": ["/u63","/u145","/u12","/u38","/u24"],
       "dependency": [],
       "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
 
