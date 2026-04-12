@@ -3448,7 +3448,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/3N0DmMz.png", "requisitos": ["Un miembro debe pertenecer a la familia Merrythought o ser un conocido cercano a la misma"],
       "users": ["/u150","/u7","/u156","/u119"],
       "dependency": ["unveiling the unseen"],
-      "type": "investigación", "closed": false, "link": "https://blackwave.foroactivo.com/t1009-investigacion-stargazer-s-night", "tagged": ["edwin","capitulo 0"],
+      "type": "investigación", "closed": true, "link": "https://blackwave.foroactivo.com/t1009-investigacion-stargazer-s-night", "tagged": ["edwin","capitulo 0"],
 
       "cards": [],
 
@@ -7356,7 +7356,7 @@ const MissionsModule = (function () {
     "futuros lideres: arcturus": {
       "description": "",
       "image": "", "requisitos": [],
-      "users": [],
+      "users": ["/u50","/u149","/u161","/u141","/u9"],
       "dependency": [],
       "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
 
@@ -7446,7 +7446,7 @@ const MissionsModule = (function () {
   "futuros lideres: barbara": {
       "description": "",
       "image": "", "requisitos": [],
-      "users": [],
+      "users": ["/u78"],
       "dependency": [],
       "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
 
@@ -7479,7 +7479,7 @@ const MissionsModule = (function () {
   "futuros lideres: hamish": {
       "description": "",
       "image": "", "requisitos": [],
-      "users": [],
+      "users": ["/u110"],
       "dependency": [],
       "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
 
@@ -7530,7 +7530,7 @@ const MissionsModule = (function () {
   "futuros lideres: hisashi": {
       "description": "",
       "image": "", "requisitos": [],
-      "users": [],
+      "users": ["/u124"],
       "dependency": [],
       "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
 
@@ -7557,7 +7557,7 @@ const MissionsModule = (function () {
   "futuros lideres: letselina": {
       "description": "",
       "image": "", "requisitos": [],
-      "users": [],
+      "users": ["/u63"],
       "dependency": [],
       "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
 
@@ -7691,7 +7691,7 @@ const MissionsModule = (function () {
   "futuros lideres: nuala": {
       "description": "",
       "image": "", "requisitos": [],
-      "users": [],
+      "users": ["/u134"],
       "dependency": [],
       "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
 
@@ -7736,7 +7736,7 @@ const MissionsModule = (function () {
   "futuros lideres: thyra": {
       "description": "",
       "image": "", "requisitos": [],
-      "users": [],
+      "users": ["/u156"],
       "dependency": [],
       "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
 
