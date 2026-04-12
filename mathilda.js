@@ -7736,7 +7736,7 @@ const MissionsModule = (function () {
   "futuros lideres: thyra": {
       "description": "",
       "image": "", "requisitos": [],
-      "users": ["/u156"],
+      "users": ["/u156","/u154","/u159","/u13"],
       "dependency": [],
       "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
 
