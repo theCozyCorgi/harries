@@ -7530,7 +7530,7 @@ const MissionsModule = (function () {
   "futuros lideres: hisashi": {
       "description": "",
       "image": "", "requisitos": [],
-      "users": ["/u124"],
+      "users": ["/u124","/u127","/u91","/u55"],
       "dependency": [],
       "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
 
