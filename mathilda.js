@@ -7446,7 +7446,7 @@ const MissionsModule = (function () {
   "futuros lideres: barbara": {
       "description": "",
       "image": "", "requisitos": [],
-      "users": ["/u78"],
+      "users": ["/u78","/u108","/u131","/u157","/u171"],
       "dependency": [],
       "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
 
