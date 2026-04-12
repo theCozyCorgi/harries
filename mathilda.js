@@ -7691,7 +7691,7 @@ const MissionsModule = (function () {
   "futuros lideres: nuala": {
       "description": "",
       "image": "", "requisitos": [],
-      "users": ["/u134"],
+      "users": ["/u134","/u150","/u135","/u118"],
       "dependency": [],
       "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
 
