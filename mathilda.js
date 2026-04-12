@@ -7479,7 +7479,7 @@ const MissionsModule = (function () {
   "futuros lideres: hamish": {
       "description": "",
       "image": "", "requisitos": [],
-      "users": ["/u110"],
+      "users": ["/u110","/u8","/u119","/u130","/u138"],
       "dependency": [],
       "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
 
