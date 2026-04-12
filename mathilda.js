@@ -7352,6 +7352,492 @@ const MissionsModule = (function () {
       },
     },
     // fin: ruleta de prácticas grupo11
+
+    "futuros lideres: arcturus": {
+      "description": "",
+      "image": "", "requisitos": [],
+      "users": [],
+      "dependency": [],
+      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+
+      "cards": [],
+      "searchs": {
+        "escultura el ayuno de la bestia": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "esculturas",
+          "cont": '<span>La forma de la escultura cambia revelando un bloque macizo de basalto negro con forma de garras cerradas sobre sí mismas. La piedra es tan porosa que parece absorber el sonido a su alrededor.</span>',
+        },
+        "escultura plegaria de mármol": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "esculturas",
+          "cont": '<span>La forma de la escultura cambia revelando una columna de mármol de Carrara pulido con la forma de un torso humano sin cabeza ni extremidades. El material vibra con una calidez antinatural.</span>',
+        },
+        "escultura la agonía del hierro": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "esculturas",
+          "cont": '<span>La forma de la escultura cambia revelando un conjunto de cadenas de hierro frío fundidas en una masa informe y abstracta. El metal gotea un óxido rojizo similar a la sangre seca; es una pieza brutalista.</span>',
+        },
+        "escultura el oraculo de granito": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "esculturas",
+          "cont": '<span>La forma de la escultura cambia revelando una esfera perfecta de granito gris, pesada y gélida. La superficie es lisa hasta que se la observa bien, momento en el cual la piedra se agrieta para revelar runas incandescentes talladas en su núcleo oculto.</span>',
+        },
+        "escultura el altar del sacrificio": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "esculturas",
+          "cont": '<span>La forma de la escultura cambia revelando una losa de obsidiana translúcida tallada en forma de cáliz gigante. El material es tan afilado que parece cortar el aire; cuando las personas se acercan, el caliz parece llenarse.</span>',
+        },
+        "escultura el guardián del umbral": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "esculturas",
+          "cont": '<span>La forma de la escultura cambia revelando una gárgola de piedra caliza que aún no ha sido esculpida del todo, dejando los rasgos de la criatura borrosos y amorfos. Es una pieza de arte interactivo que toma la apariencia de los miedos más profundos de quien la hechiza.</span>',
+        },
+        "escultura el corazón de la tierra": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "esculturas",
+          "cont": '<span>La forma de la escultura cambia revelando una geoda de amatista bruta del tamaño de un busto real. Los cristales internos están apagados, pero al acercarse, revelan la silueta de un ancestro de quien lo observa.</span>',
+        },
+        "cuadro el juicio de las almas": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "cuadros",
+          "cont": '<span>El cuadro pierde el bloqueo de la runa y revela un fresco de yeso agrietado que muestra un campo de batalla desolado bajo un cielo sin estrellas. Las figuras de los soldados son apenas siluetas blancas que parecen estar esperando que la batalla termine.</span>',
+        },
+        "cuadro el testamento de oro": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "cuadros",
+          "cont": '<span>El cuadro pierde el bloqueo de la runa y revela un marco barroco de oro macizo que rodea un vacío absoluto. El espacio del lienzo es una ventana que proyecta la gloria de sus ancestros cuando se acerca al mismo.</span>',
+        },
+        "cuadro la sinfonía muda": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "cuadros",
+          "cont": '<span>El cuadro pierde el bloqueo de la runa y revela un lienzo de pergamino envejecido dividido en siete secciones vacías. Cada sección está imbuida con una frecuencia mágica distinta que se representa en diferentes colores.</span>',
+        },
+        "cuadro el velo de la memoria": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "cuadros",
+          "cont": '<span>El cuadro pierde el bloqueo de la runa y revela un tapiz de terciopelo azul noche sin bordados visibles. El tejido tiene la propiedad de absorber recuerdos; si un mago deposita un pensamiento en él, el tapiz comienza a tejer automáticamente una escena histórica en hilos de oro y plata.</span>',
+        },
+        "cuadro la cámara de los ecos": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "cuadros",
+          "cont": '<span>El cuadro pierde el bloqueo de la runa y revela un lienzo de seda tensado donde los pigmentos parecen haber huido hacia los bordes, dejando un vacío blanco en el centro. Es una pieza conceptual que captura los susurros de los muertos.</span>',
+        },
+        "cuadro el abismo reflejado": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "cuadros",
+          "cont": '<span>El cuadro pierde el bloqueo de la runa y revela una obra de técnica mixta sobre madera de roble. No hay pintura, solo una capa de resina oscura y profunda que actúa como un espejo negro. Está diseñado para que el espectador proyecte sus pesadillas.</span>',
+        },
+        "cuadro el linaje borrado": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "cuadros",
+          "cont": '<span>El cuadro pierde el bloqueo de la runa y revela un lienzo de gran formato con un marco de plata ennegrecida. El lienzo está cubierto de una imprimación de ceniza y aceite que repele la luz natural; es una obra de estilo barroco que muestra el árbol genealógico de quien lo mira.</span>',
+        },
+      },
+
+      "actions": {
+        "piertotum locomotor": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Da vida a una de las esculturas que se listan a continuación.<adding class="check-cards" search="esculturas"></adding></span>',
+          "exitoso": '<span>Da vida a una de las esculturas que se listan a continuación.<adding class="check-cards" search="esculturas"></adding></span>',
+          "critico": '<span>Da vida a una de las esculturas que se listan a continuación.<adding class="check-cards" search="esculturas"></adding></span>',
+        },
+        "deletio runicum": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Elimina los efectos de la runa mostrando el contenido de uno de los siguientes cuadros.<adding class="check-cards" search="cuadros"></adding></span>',
+          "exitoso": '<span>Elimina los efectos de la runa mostrando el contenido de uno de los siguientes cuadros.<adding class="check-cards" search="cuadros"></adding></span>',
+          "critico": '<span>Elimina los efectos de la runa mostrando el contenido de uno de los siguientes cuadros.<adding class="check-cards" search="cuadros"></adding></span>',
+        },
+        "abolitio signi": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Anula los efectos de la runa mostrando el contenido de uno de los siguientes cuadros.<adding class="check-cards" search="cuadros"></adding></span>',
+          "exitoso": '<span>Anula los efectos de la runa mostrando el contenido de uno de los siguientes cuadros.<adding class="check-cards" search="cuadros"></adding></span>',
+          "critico": '<span>Anula los efectos de la runa mostrando el contenido de uno de los siguientes cuadros.<adding class="check-cards" search="cuadros"></adding></span>',
+        },
+      },
+    },
+    // fin: evento futuros lideres: arcturus
+
+  "futuros lideres: barbara": {
+      "description": "",
+      "image": "", "requisitos": [],
+      "users": [],
+      "dependency": [],
+      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+
+      "cards": [],
+      "searchs": {},
+
+      "actions": {
+        "adligat": {
+          "leve": '<span>Es lo que la salamandra espera, pero no lo suficiente. Deberá realizarle el hechizo una vez más para poder satisfacer sus necesidades.</span>',
+          "moderado": '<span>Es lo que la salamandra quería, la zona enfriada hace que la salamandra se tire sobre ella regodeandose del frío y apagando el fuego que ella misma había provocado.</span>',
+          "exitoso": '<span>Es lo que la salamandra quería, la zona enfriada hace que la salamandra se tire sobre ella regodeandose del frío y apagando el fuego que ella misma había provocado.</span>',
+          "critico": '<span>Es lo que la salamandra quería, la zona enfriada hace que la salamandra se tire sobre ella regodeandose del frío y apagando el fuego que ella misma había provocado.</span>',
+        },
+        "tectumque": {
+          "leve": '<span>Es lo que la salamandra espera, pero no lo suficiente. Deberá realizarle el hechizo una vez más para poder satisfacer sus necesidades.</span>',
+          "moderado": '<span>Es lo que la salamandra quería, la zona calentada hace que la salamandra se tire sobre ella regodeandose del calor y apagando el fuego que ella misma había provocado.</span>',
+          "exitoso": '<span>Es lo que la salamandra quería, la zona calentada hace que la salamandra se tire sobre ella regodeandose del calor y apagando el fuego que ella misma había provocado.</span>',
+          "critico": '<span>Es lo que la salamandra quería, la zona calentada hace que la salamandra se tire sobre ella regodeandose del calor y apagando el fuego que ella misma había provocado.</span>',
+        },
+        "sensus mitigo": {
+          "leve": '<span>Permite calmar a la salamandra, si el dado obtenido es par la misma quiere calor y si es impar quiere frío.</span>',
+          "moderado": '<span>Permite calmar a la salamandra, si el dado obtenido es par la misma quiere calor y si es impar quiere frío.</span>',
+          "exitoso": '<span>Permite calmar a la salamandra, si el dado obtenido es par la misma quiere calor y si es impar quiere frío.</span>',
+          "critico": '<span>Permite calmar a la salamandra, si el dado obtenido es par la misma quiere calor y si es impar quiere frío.</span>',
+        },
+      },
+    },
+    // fin: evento futuros lideres: barbara
+
+  "futuros lideres: hamish": {
+      "description": "",
+      "image": "", "requisitos": [],
+      "users": [],
+      "dependency": [],
+      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+
+      "cards": [],
+      "searchs": {},
+
+      "actions": {
+        "fianto duri": {
+          "leve": '<span>Permite adicionar +5 puntos a la siguiente acción correspondiente a Estudios Muggles.</span>',
+          "moderado": '<span>Permite adicionar +10 puntos a la siguiente acción correspondiente a Estudios Muggles.</span>',
+          "exitoso": '<span>Permite adicionar +15 puntos a la siguiente acción correspondiente a Estudios Muggles.</span>',
+          "critico": '<span>Permite adicionar +20 puntos a la siguiente acción correspondiente a Estudios Muggles.</span>',
+        },
+        "cave inimicum": {
+          "leve": '<span>Permite adicionar +10 puntos a la siguiente acción correspondiente a Estudios Muggles.</span>',
+          "moderado": '<span>Permite adicionar +15 puntos a la siguiente acción correspondiente a Estudios Muggles.</span>',
+          "exitoso": '<span>Permite adicionar +20 puntos a la siguiente acción correspondiente a Estudios Muggles.</span>',
+          "critico": '<span>Permite adicionar +25 puntos a la siguiente acción correspondiente a Estudios Muggles.</span>',
+        },
+        "arcana visus": {
+          "leve": '<span>Adiciona +5 a las protecciones de la nueva área.</span>',
+          "moderado": '<span>Adiciona +10 a las protecciones de la nueva área.</span>',
+          "exitoso": '<span>Adiciona +15 a las protecciones de la nueva área.</span>',
+          "critico": '<span>Adiciona +20 a las protecciones de la nueva área.</span>',
+        },
+        "caligo": {
+          "leve": '<span>Adiciona +10 a las protecciones de la nueva área.</span>',
+          "moderado": '<span>Adiciona +15 a las protecciones de la nueva área.</span>',
+          "exitoso": '<span>Adiciona +20 a las protecciones de la nueva área.</span>',
+          "critico": '<span>Adiciona +25 a las protecciones de la nueva área.</span>',
+        },
+        "repello muggletum": {
+          "leve": '<span>Adiciona +15 a las protecciones de la nueva área.</span>',
+          "moderado": '<span>Adiciona +20 a las protecciones de la nueva área.</span>',
+          "exitoso": '<span>Adiciona +25 a las protecciones de la nueva área.</span>',
+          "critico": '<span>Adiciona +30 a las protecciones de la nueva área.</span>',
+        },
+        "illusio mundae": {
+          "leve": '<span>Adiciona +20 a las protecciones de la nueva área.</span>',
+          "moderado": '<span>Adiciona +25 a las protecciones de la nueva área.</span>',
+          "exitoso": '<span>Adiciona +30 a las protecciones de la nueva área.</span>',
+          "critico": '<span>Adiciona +35 a las protecciones de la nueva área.</span>',
+        },
+      },
+    },
+    // fin: evento futuros lideres: hamish
+
+  "futuros lideres: hisashi": {
+      "description": "",
+      "image": "", "requisitos": [],
+      "users": [],
+      "dependency": [],
+      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+
+      "cards": [],
+      "searchs": {},
+
+      "actions": {
+        "calor vitalis": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Reduce la temperatura corporal de 1 niño.</span>',
+          "exitoso": '<span>Reduce la temperatura corporal de 1 niño.</span>',
+          "critico": '<span>Reduce la temperatura corporal de 2 niño.</span>',
+        },
+        "morbus revela": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Permite detectar que los niños tienen fiebre alta producto de un estado gripal. Se deberá bajar la temperatura corporal y administrar poción para la tos.</span>',
+          "exitoso": '<span>Permite detectar que los niños tienen fiebre alta producto de un estado gripal. Se deberá bajar la temperatura corporal y administrar poción para la tos.</span>',
+          "critico": '<span>Permite detectar que los niños tienen fiebre alta producto de un estado gripal. Se deberá bajar la temperatura corporal y administrar poción para la tos.</span>',
+        },
+      },
+    },
+    // fin: evento futuros lideres: hisashi
+
+  "futuros lideres: letselina": {
+      "description": "",
+      "image": "", "requisitos": [],
+      "users": [],
+      "dependency": [],
+      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+
+      "cards": [],
+      "searchs": {
+        "ministro ulick gamp": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros",
+          "cont": '<span>El cuadro muestra un hombre de rostro severo y peluca empolvada, retratado mientras sostiene el pergamino fundacional del Ministerio. El fondo es un claroscuro denso que resalta su mano derecha apoyada sobre una mesa de caoba. Ministro durante 1707 - 1718.</span>',
+        },
+        "ministro damocles rowle": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros",
+          "cont": '<span>El cuadro muestra a un caballero retratado con una armadura ornamental bajo su túnica negra. Su mirada es despótica y de fondo se vislumbra una silueta lejana de Azkaban entre brumas, simbolizando su insistencia en usar la fortaleza. Ministro durante 1718 - 1726.</span>',
+        },
+        "ministro perseus parkinson": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros",
+          "cont": '<span>El cuadro muestra un caballero de facciones afiladas y dedos largos adornados con anillos de plata. Aparece intentando promulgar una ley que prohíba el matrimonio con muggles, sosteniendo una pluma de águila con desdén. Ministro durante 1726 - 1733.</span>',
+        },
+        "ministro eldritch diggory": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros",
+          "cont": '<span>El cuadro muestra a un hombre de semblante amable pero cansado. Se le ve sentado en un sillón orejero, con una ventana abierta de donde parece entrar una luz celestial. Una pequeña calavera sobre su escritorio alude a su muerte por viruela de dragón. Ministro durante 1733 - 1747.</span>',
+        },
+        "ministro albert boot": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros",
+          "cont": '<span>El cuadro muestra un hombre robusto con una expresión de pánico contenido. El cuadro muestra de fondo una escena borrosa de una rebelión de duendes, mientras él sostiene un mapa de Gran Bretaña que parece quemarse en los bordes. Ministro durante 1747 - 1752.</span>',
+        },
+        "ministro basil flack": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros",
+          "cont": '<span>El cuadro muestra poco. Se le ve apenas de perfil, con una túnica que le queda grande, mirando hacia la puerta como si estuviera a punto de huir, capturando sus escasos dos meses de mandato. Ministro durante 1752 - 1752.</span>',
+        },
+        "ministro hesphaestus gore": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros",
+          "cont": '<span>El cuadro muestra un guerrero en túnica de gala. Aparece limpiando su varita con un pañuelo de seda, con una fila de celdas de hierro al fondo, representando su refuerzo de la seguridad en las prisiones mágicas. Ministro durante 1752 - 1770.</span>',
+        },
+        "ministro maximilian crowdy": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros",
+          "cont": '<span>El cuadro muestra un hombre de ojos vivaces y sonrisa astuta. Está rodeado de documentos y mapas de espionaje; se le ve señalando un escondite secreto, recordado por desmantelar grupos extremistas puristas. Ministro durante 1770 - 1781.</span>',
+        },
+        "ministro porteus knatchbull": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros",
+          "cont": '<span>El cuadro muestra un hombre retratado en un jardín sombrío. Su figura es alta y delgada; en el lienzo hay un detalle discordante: una pequeña efigie de un muggle al que parece estar observando con una mezcla de curiosidad y rechazo. Ministro durante 1781 - 1789.</span>',
+        },
+        "ministro unctuous osbert": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros",
+          "cont": '<span>El cuadro muestra a un hombre de apariencia servil y rostro redondeado. Se le muestra susurrando al oído de un mago de gran influencia, simbolizando su reputación de ser una marioneta de las familias de sangre pura más ricas. Ministro durante 1789 - 1798.</span>',
+        },
+        "ministro artemisia lufkin": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros",
+          "cont": '<span>El cuadro muestra a la primera bruja en el cargo. Aparece con una túnica de encaje complejo, sosteniendo un reloj de arena. Su expresión es de una inteligencia vibrante, rodeada de los planos del Departamento de Cooperación Mágica Internacional. Ministra durante 1798 - 1811.</span>',
+        },
+        "ministro grogan stump": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros",
+          "cont": '<span>El cuadro muestra un hombre de barba poblada y manos callosas. Se le ve redactando la famosa ley sobre la división de "Seres" y "Bestias", con un fénix y un troll representados alegóricamente a sus costados. Ministro durante 1811 - 1819.</span>',
+        },
+        "ministro josephina flint": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros",
+          "cont": '<span>El cuadro muestra una mujer de porte aristocrático y mirada gélida. El cuadro resalta su fobia a la tecnología muggle: se la ve pisoteando un pequeño mecanismo de relojería con un gesto de absoluto asco. Ministro durante 1819 - 1827.</span>',
+        },
+        "ministro ottaline gambol": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros",
+          "cont": '<span>El cuadro muestra a una mujer de rostro enigmático y elegante. Aparece frente a una locomotora roja envuelta en vapor (el Expreso de Hogwarts), sosteniendo una llave dorada. Ministro durante 1827 - 1835.</span>',
+        },
+        "ministro radolphus lestrange": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros",
+          "cont": '<span>El cuadro muestra un hombre de mandíbula cuadrada y ojos oscuros, casi negros. Se le retrata intentando cerrar el Departamento de Misterios, con una sombra informe que parece emerger del lienzo para tocar su hombro. Ministro durante 1835 - 1841.</span>',
+        },
+        "ministro hortensia milliphutt": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros",
+          "cont": '<span>El cuadro muestra una mujer de aspecto administrativo y ordenado. Su cuadro está lleno de pergaminos y leyes sobre el orden público; se la ve con una expresión de frustración ante el caos que no pudo controlar. Ministro durante 1841 - 1849.</span>',
+        },
+        "ministro evangeline orpington": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros",
+          "cont": '<span>El cuadro muestra una figura imponente y maternal. Aparece con un sombrero de ala ancha y se rumorea que el cuadro oculta una puerta secreta, aludiendo a su supuesta intervención mágica en la guerra de Crimea. Ministro durante 1849 - 1855.</span>',
+        },
+        "ministro priscilla dupont": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros",
+          "cont": '<span>El cuadro muestra una mujer retratada con una túnica de seda amarilla que contrasta con su rostro amargado. Se la ve gesticulando con desprecio hacia el Primer Ministro Muggle, cuya figura es apenas un boceto borroso en el lienzo. Ministro durante 1855 - 1858.</span>',
+        },
+        "ministro dugald mcphail": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros",
+          "cont": '<span>El cuadro muestra un escocés de mirada noble y vestimenta tradicional. Aparece frente a las puertas de San Mungo, con un estetoscopio mágico al cuello, representando su apoyo incondicional a los sanadores. Ministro durante 1858 - 1865.</span>',
+        },
+        "ministro faris spavin": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros",
+          "cont": '<span>El cuadro muestra a un hombre de aspecto grande. Se le ve envejeciendo gradualmente en el lienzo debido a su largo mandato. Lleva una túnica de gala excesivamente ornamentada y una expresión de terquedad absoluta. Ministro durante 1865 - 1903.</span>',
+        },
+        "ministro venusia crickerly": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros",
+          "cont": '<span>El cuadro muestra una mujer de aspecto severo y manos manchadas de tierra. Aparece rodeada de mandrágoras y plantas peligrosas; su muerte por un "accidente" de jardinería se sugiere por una sombra vegetal tras ella. Ministro durante 1903 - 1912.</span>',
+        },
+        "ministro archer evermonde": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros",
+          "cont": '<span>El cuadro muestra un hombre de aspecto marcial y bigote pulcro. Su cuadro está envuelto en un aura de secretismo; se le ve mirando a través de una ventana hacia un horizonte donde se intuye la Primera Guerra Mundial muggle. Ministro durante 1912 - 1923.</span>',
+        },
+        "ministro lorcan mclaird": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros",
+          "cont": '<span>El cuadro muestra al "ministro mudo". Se le ve sentado en un rincón del lienzo, comunicándose solo a través de nubes de humo que salen de su varita, con una expresión de timidez que raya en lo patológico. Ministro durante 1923 - 1925.</span>',
+        },
+        "ministro héctor fawley": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros",
+          "cont": '<span>El cuadro muestra un hombre de aspecto vivaz y algo extravagante. Aparece rodeado de maletas mágicas y pasaportes, simbolizando su excesiva preocupación por el comercio internacional mientras ignoraba las amenazas internas. Ministro durante 1925 - 1939.</span>',
+        },
+        "ministro leonard spencer-moon": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros",
+          "cont": '<span>El cuadro muestra un estratega de mirada penetrante. Aparece en una oficina llena de mapas de guerra y comunicaciones por chimenea, reflejando su estrecha y necesaria colaboración con Winston Churchill. Ministro durante 1939 - 1948.</span>',
+        },
+      },
+
+      "actions": {
+        "sectio aurea": {
+          "leve": '<span>Permite identificar el centro en el cual se debe colgar el cuadro y colgarlo.</span>',
+          "moderado": '<span>Permite identificar el centro en el cual se debe colgar el cuadro y colgarlo.</span>',
+          "exitoso": '<span>Permite identificar el centro en el cual se debe colgar el cuadro y colgarlo.</span>',
+          "critico": '<span>Permite identificar el centro en el cual se debe colgar el cuadro y colgarlo.</span>',
+        },
+        "historia magicae": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Permite obtener la información de uno de los siguientes Ministros.<adding class="check-cards" search="ministros"></adding></span>',
+          "exitoso": '<span>Permite obtener la información de dos de los siguientes Ministros.<adding class="check-cards" search="ministros"></adding></span>',
+          "critico": '<span>Permite obtener la información de tres de los siguientes Ministros.<adding class="check-cards" search="ministros"></adding></span>',
+        },
+        "tempus revela": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Permite obtener la información de uno de los siguientes Ministros.<adding class="check-cards" search="ministros"></adding></span>',
+          "exitoso": '<span>Permite obtener la información de dos de los siguientes Ministros.<adding class="check-cards" search="ministros"></adding></span>',
+          "critico": '<span>Permite obtener la información de tres de los siguientes Ministros.<adding class="check-cards" search="ministros"></adding></span>',
+        },
+      },
+    },
+    // fin: evento futuros lideres: letselina
+
+  "futuros lideres: nuala": {
+      "description": "",
+      "image": "", "requisitos": [],
+      "users": [],
+      "dependency": [],
+      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+
+      "cards": [],
+      "searchs": {},
+
+      "actions": {
+        "fortitudo cordis": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Los niños ayudan y adicionan 1 imagen más.</span>',
+          "exitoso": '<span>Los niños ayudan y adicionan 2 imágenes más.</span>',
+          "critico": '<span>Los niños ayudan y adicionan 3 imágenes más.</span>',
+        },
+        "vox imperium": {
+          "leve": '<span>Los niños ayudan y adicionan 1 imagen más.</span>',
+          "moderado": '<span>Los niños ayudan y adicionan 2 imágenes más.</span>',
+          "exitoso": '<span>Los niños ayudan y adicionan 3 imágenes más.</span>',
+          "critico": '<span>Los niños ayudan y adicionan 4 imágenes más.</span>',
+        },
+        "texturae veritatis": {
+          "leve": '<span>Permite agregar 2 imágenes al collage.</span>',
+          "moderado": '<span>Permite agregar 2 imágenes al collage.</span>',
+          "exitoso": '<span>Permite agregar 3 imágenes al collage.</span>',
+          "critico": '<span>Permite agregar 4 imágenes al collage.</span>',
+        },
+        "tabulae animatae": {
+          "leve": '<span>Permite agregar 2 imágenes al collage.</span>',
+          "moderado": '<span>Permite agregar 2 imágenes al collage.</span>',
+          "exitoso": '<span>Permite agregar 3 imágenes al collage.</span>',
+          "critico": '<span>Permite agregar 4 imágenes al collage.</span>',
+        },
+        "sculptura mutatio": {
+          "leve": '<span>Permite agregar 1 imagen al collage.</span>',
+          "moderado": '<span>Permite agregar 1 imagen al collage.</span>',
+          "exitoso": '<span>Permite agregar 2 imágenes al collage.</span>',
+          "critico": '<span>Permite agregar 3 imágenes al collage.</span>',
+        },
+      },
+    },
+    // fin: evento futuros lideres: nuala
+
+  "futuros lideres: thyra": {
+      "description": "",
+      "image": "", "requisitos": [],
+      "users": [],
+      "dependency": [],
+      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+
+      "creatures": {
+        "topo rojo": {
+          "atributos": ["+2 fue", "+2 con"],
+          "pv": "50",
+          "clasificación": "ser / personaje no jugable",
+          "descripción": "personaje no jugable",
+          "ataques": {
+            "leve": 'El topo arroja tierra al oponente. Adiciona +2 al ataque.',
+            "moderado": 'El topo rueda hasta chocar con los talones del oponente. Adiciona +5 al ataque.',
+            "exitoso": 'El topo se lanza al oponente con sus garras. Adiciona +8 al ataque.',
+            "critico": 'El topo se lanza al oponente con sus garras y muerde su pierna. Adiciona +12 al ataque.',
+          },
+
+          "defensas": {
+            "leve": 'El topo se oculta en la tierra para evitar el ataque. Adiciona +2 a la defensa.',
+            "moderado": 'El topo se protege con su caparazón. Adiciona +5 a la defensa.',
+            "exitoso": 'El topo se esconde en un agujero. Adiciona +8 a la defensa.',
+            "critico": 'El topo se oculta en la tierra para evitar el ataque. Adiciona +12 a la defensa.',
+          },
+        },
+        "topo azul": {
+          "atributos": ["+3 fue", "+3 con"],
+          "pv": "70",
+          "clasificación": "ser / personaje no jugable",
+          "descripción": "personaje no jugable",
+          "ataques": {
+            "leve": 'El topo arroja tierra al oponente. Adiciona +3 al ataque.',
+            "moderado": 'El topo rueda hasta chocar con los talones del oponente. Adiciona +6 al ataque.',
+            "exitoso": 'El topo se lanza al oponente con sus garras. Adiciona +9 al ataque.',
+            "critico": 'El topo se lanza al oponente con sus garras y muerde su pierna. Adiciona +15 al ataque.',
+          },
+
+          "defensas": {
+            "leve": 'El topo se oculta en la tierra para evitar el ataque. Adiciona +2 a la defensa.',
+            "moderado": 'El topo se protege con su caparazón. Adiciona +5 a la defensa.',
+            "exitoso": 'El topo se esconde en un agujero. Adiciona +8 a la defensa.',
+            "critico": 'El topo se oculta en la tierra para evitar el ataque. Adiciona +12 a la defensa.',
+          },
+        },
+        "topo verde": {
+          "atributos": ["+4 fue", "+4 con"],
+          "pv": "90",
+          "clasificación": "ser / personaje no jugable",
+          "descripción": "personaje no jugable",
+          "ataques": {
+            "leve": 'El topo arroja tierra al oponente. Adiciona +4 al ataque.',
+            "moderado": 'El topo rueda hasta chocar con los talones del oponente. Adiciona +8 al ataque.',
+            "exitoso": 'El topo se lanza al oponente con sus garras. Adiciona +12 al ataque.',
+            "critico": 'El topo se lanza al oponente con sus garras y muerde su pierna. Adiciona +16 al ataque.',
+          },
+
+          "defensas": {
+            "leve": 'El topo se oculta en la tierra para evitar el ataque. Adiciona +2 a la defensa.',
+            "moderado": 'El topo se protege con su caparazón. Adiciona +5 a la defensa.',
+            "exitoso": 'El topo se esconde en un agujero. Adiciona +8 a la defensa.',
+            "critico": 'El topo se oculta en la tierra para evitar el ataque. Adiciona +12 a la defensa.',
+          },
+        },
+        "topo amarillo": {
+          "atributos": ["+5 fue", "+5 con"],
+          "pv": "110",
+          "clasificación": "ser / personaje no jugable",
+          "descripción": "personaje no jugable",
+          "ataques": {
+            "leve": 'El topo arroja tierra al oponente. Adiciona +5 al ataque.',
+            "moderado": 'El topo rueda hasta chocar con los talones del oponente. Adiciona +10 al ataque.',
+            "exitoso": 'El topo se lanza al oponente con sus garras. Adiciona +15 al ataque.',
+            "critico": 'El topo se lanza al oponente con sus garras y muerde su pierna. Adiciona +20 al ataque.',
+          },
+
+          "defensas": {
+            "leve": 'El topo se oculta en la tierra para evitar el ataque. Adiciona +2 a la defensa.',
+            "moderado": 'El topo se protege con su caparazón. Adiciona +5 a la defensa.',
+            "exitoso": 'El topo se esconde en un agujero. Adiciona +8 a la defensa.',
+            "critico": 'El topo se oculta en la tierra para evitar el ataque. Adiciona +12 a la defensa.',
+          },
+        },
+      },
+
+      "cards": [],
+      "searchs": {},
+
+      "actions": {
+        "baubillious": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Sube la barra blanca 10 puntos.</span>',
+          "exitoso": '<span>Sube la barra blanca 15 puntos.</span>',
+          "critico": '<span>Sube la barra blanca 20 puntos.</span>',
+        },
+        "vermillious": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Sube la barra roja 10 puntos.</span>',
+          "exitoso": '<span>Sube la barra roja 15 puntos.</span>',
+          "critico": '<span>Sube la barra roja 20 puntos.</span>',
+        },
+      },
+    },
+    // fin: evento futuros lideres: thyra
   };
 
   function getMission(mission) {
