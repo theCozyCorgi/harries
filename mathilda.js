@@ -7550,7 +7550,7 @@ const MissionsModule = (function () {
       "searchs": {},
 
       "actions": {
-        "calor vitalis": {
+        "frigus internum": {
           "leve": '<span>No es suficiente para revelar información</span>',
           "moderado": '<span>Reduce la temperatura corporal de 1 niño.</span>',
           "exitoso": '<span>Reduce la temperatura corporal de 1 niño.</span>',
