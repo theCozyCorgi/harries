@@ -7422,7 +7422,7 @@ const MissionsModule = (function () {
 
       "actions": {
         "piertotum locomotor": {
-          "leve": '<span>No es suficiente para revelar información</span>',
+          "leve": '<span>Da vida a una de las esculturas que se listan a continuación.<adding class="check-cards" search="esculturas"></adding></span>',
           "moderado": '<span>Da vida a una de las esculturas que se listan a continuación.<adding class="check-cards" search="esculturas"></adding></span>',
           "exitoso": '<span>Da vida a una de las esculturas que se listan a continuación.<adding class="check-cards" search="esculturas"></adding></span>',
           "critico": '<span>Da vida a una de las esculturas que se listan a continuación.<adding class="check-cards" search="esculturas"></adding></span>',
