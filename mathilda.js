@@ -7523,6 +7523,18 @@ const MissionsModule = (function () {
           "exitoso": '<span>Adiciona +30 a las protecciones de la nueva área.</span>',
           "critico": '<span>Adiciona +35 a las protecciones de la nueva área.</span>',
         },
+        "salvio hexia": {
+          "leve": '<span>Adiciona +15 a las protecciones de la nueva área.</span>',
+          "moderado": '<span>Adiciona +20 a las protecciones de la nueva área.</span>',
+          "exitoso": '<span>Adiciona +25 a las protecciones de la nueva área.</span>',
+          "critico": '<span>Adiciona +30 a las protecciones de la nueva área.</span>',
+        },
+        "fidelio": {
+          "leve": '<span>Adiciona +20 a las protecciones de la nueva área.</span>',
+          "moderado": '<span>Adiciona +25 a las protecciones de la nueva área.</span>',
+          "exitoso": '<span>Adiciona +30 a las protecciones de la nueva área.</span>',
+          "critico": '<span>Adiciona +35 a las protecciones de la nueva área.</span>',
+        },
       },
     },
     // fin: evento futuros lideres: hamish
