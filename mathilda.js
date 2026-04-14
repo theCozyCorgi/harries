@@ -7576,103 +7576,103 @@ const MissionsModule = (function () {
       "cards": [],
       "searchs": {
         "ministro faris spavin": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros grupo2",
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ministros grupo2",
           "cont": '<span>El cuadro muestra a un hombre de aspecto grande. Se le ve envejeciendo gradualmente en el lienzo debido a su largo mandato. Lleva una túnica de gala excesivamente ornamentada y una expresión de terquedad absoluta. Ministro durante 1865 - 1903.</span>',
         },
         "ministro artemisia lufkin": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros grupo1",
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ministros grupo1",
           "cont": '<span>El cuadro muestra a la primera bruja en el cargo. Aparece con una túnica de encaje complejo, sosteniendo un reloj de arena. Su expresión es de una inteligencia vibrante, rodeada de los planos del Departamento de Cooperación Mágica Internacional. Ministra durante 1798 - 1811.</span>',
         },
         "ministro lorcan mclaird": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros grupo3",
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ministros grupo3",
           "cont": '<span>El cuadro muestra al "ministro mudo". Se le ve sentado en un rincón del lienzo, comunicándose solo a través de nubes de humo que salen de su varita, con una expresión de timidez que raya en lo patológico. Ministro durante 1923 - 1925.</span>',
         },
         "ministro perseus parkinson": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros grupo2",
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ministros grupo2",
           "cont": '<span>El cuadro muestra un caballero de facciones afiladas y dedos largos adornados con anillos de plata. Aparece intentando promulgar una ley que prohíba el matrimonio con muggles, sosteniendo una pluma de águila con desdén. Ministro durante 1726 - 1733.</span>',
         },
         "ministro leonard spencer-moon": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros grupo1",
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ministros grupo1",
           "cont": '<span>El cuadro muestra un estratega de mirada penetrante. Aparece en una oficina llena de mapas de guerra y comunicaciones por chimenea, reflejando su estrecha y necesaria colaboración con Winston Churchill. Ministro durante 1939 - 1948.</span>',
         },
         "ministro ulick gamp": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros grupo3",
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ministros grupo3",
           "cont": '<span>El cuadro muestra un hombre de rostro severo y peluca empolvada, retratado mientras sostiene el pergamino fundacional del Ministerio. El fondo es un claroscuro denso que resalta su mano derecha apoyada sobre una mesa de caoba. Ministro durante 1707 - 1718.</span>',
         },
         "ministro josephina flint": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros grupo2",
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ministros grupo2",
           "cont": '<span>El cuadro muestra una mujer de porte aristocrático y mirada gélida. El cuadro resalta su fobia a la tecnología muggle: se la ve pisoteando un pequeño mecanismo de relojería con un gesto de absoluto asco. Ministro durante 1819 - 1827.</span>',
         },
         "ministro grogan stump": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros grupo1",
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ministros grupo1",
           "cont": '<span>El cuadro muestra un hombre de barba poblada y manos callosas. Se le ve redactando la famosa ley sobre la división de "Seres" y "Bestias", con un fénix y un troll representados alegóricamente a sus costados. Ministro durante 1811 - 1819.</span>',
         },
         "ministro hesphaestus gore": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros grupo3",
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ministros grupo3",
           "cont": '<span>El cuadro muestra un guerrero en túnica de gala. Aparece limpiando su varita con un pañuelo de seda, con una fila de celdas de hierro al fondo, representando su refuerzo de la seguridad en las prisiones mágicas. Ministro durante 1752 - 1770.</span>',
         },
         "ministro albert boot": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros grupo2",
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ministros grupo2",
           "cont": '<span>El cuadro muestra un hombre robusto con una expresión de pánico contenido. El cuadro muestra de fondo una escena borrosa de una rebelión de duendes, mientras él sostiene un mapa de Gran Bretaña que parece quemarse en los bordes. Ministro durante 1747 - 1752.</span>',
         },
         "ministro evangeline orpington": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros grupo1",
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ministros grupo1",
           "cont": '<span>El cuadro muestra una figura imponente y maternal. Aparece con un sombrero de ala ancha y se rumorea que el cuadro oculta una puerta secreta, aludiendo a su supuesta intervención mágica en la guerra de Crimea. Ministro durante 1849 - 1855.</span>',
         },
         "ministro archer evermonde": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros grupo3",
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ministros grupo3",
           "cont": '<span>El cuadro muestra un hombre de aspecto marcial y bigote pulcro. Su cuadro está envuelto en un aura de secretismo; se le ve mirando a través de una ventana hacia un horizonte donde se intuye la Primera Guerra Mundial muggle. Ministro durante 1912 - 1923.</span>',
         },
         "ministro porteus knatchbull": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros grupo2",
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ministros grupo2",
           "cont": '<span>El cuadro muestra un hombre retratado en un jardín sombrío. Su figura es alta y delgada; en el lienzo hay un detalle discordante: una pequeña efigie de un muggle al que parece estar observando con una mezcla de curiosidad y rechazo. Ministro durante 1781 - 1789.</span>',
         },
         "ministro ottaline gambol": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros grupo1",
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ministros grupo1",
           "cont": '<span>El cuadro muestra a una mujer de rostro enigmático y elegante. Aparece frente a una locomotora roja envuelta en vapor (el Expreso de Hogwarts), sosteniendo una llave dorada. Ministro durante 1827 - 1835.</span>',
         },
         "ministro radolphus lestrange": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros grupo3",
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ministros grupo3",
           "cont": '<span>El cuadro muestra un hombre de mandíbula cuadrada y ojos oscuros, casi negros. Se le retrata intentando cerrar el Departamento de Misterios, con una sombra informe que parece emerger del lienzo para tocar su hombro. Ministro durante 1835 - 1841.</span>',
         },
         "ministro unctuous osbert": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros grupo2",
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ministros grupo2",
           "cont": '<span>El cuadro muestra a un hombre de apariencia servil y rostro redondeado. Se le muestra susurrando al oído de un mago de gran influencia, simbolizando su reputación de ser una marioneta de las familias de sangre pura más ricas. Ministro durante 1789 - 1798.</span>',
         },
         "ministro dugald mcphail": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros grupo1",
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ministros grupo1",
           "cont": '<span>El cuadro muestra un escocés de mirada noble y vestimenta tradicional. Aparece frente a las puertas de San Mungo, con un estetoscopio mágico al cuello, representando su apoyo incondicional a los sanadores. Ministro durante 1858 - 1865.</span>',
         },
         "ministro basil flack": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros grupo3",
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ministros grupo3",
           "cont": '<span>El cuadro muestra poco. Se le ve apenas de perfil, con una túnica que le queda grande, mirando hacia la puerta como si estuviera a punto de huir, capturando sus escasos dos meses de mandato. Ministro durante 1752 - 1752.</span>',
         },
         "ministro hortensia milliphutt": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros grupo2",
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ministros grupo2",
           "cont": '<span>El cuadro muestra una mujer de aspecto administrativo y ordenado. Su cuadro está lleno de pergaminos y leyes sobre el orden público; se la ve con una expresión de frustración ante el caos que no pudo controlar. Ministro durante 1841 - 1849.</span>',
         },
         "ministro damocles rowle": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros grupo1",
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ministros grupo1",
           "cont": '<span>El cuadro muestra a un caballero retratado con una armadura ornamental bajo su túnica negra. Su mirada es despótica y de fondo se vislumbra una silueta lejana de Azkaban entre brumas, simbolizando su insistencia en usar la fortaleza. Ministro durante 1718 - 1726.</span>',
         },
         "ministro maximilian crowdy": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros grupo3",
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ministros grupo3",
           "cont": '<span>El cuadro muestra un hombre de ojos vivaces y sonrisa astuta. Está rodeado de documentos y mapas de espionaje; se le ve señalando un escondite secreto, recordado por desmantelar grupos extremistas puristas. Ministro durante 1770 - 1781.</span>',
         },
         "ministro priscilla dupont": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros grupo2",
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ministros grupo2",
           "cont": '<span>El cuadro muestra una mujer retratada con una túnica de seda amarilla que contrasta con su rostro amargado. Se la ve gesticulando con desprecio hacia el Primer Ministro Muggle, cuya figura es apenas un boceto borroso en el lienzo. Ministro durante 1855 - 1858.</span>',
         },
         "ministro héctor fawley": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros grupo1",
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ministros grupo1",
           "cont": '<span>El cuadro muestra un hombre de aspecto vivaz y algo extravagante. Aparece rodeado de maletas mágicas y pasaportes, simbolizando su excesiva preocupación por el comercio internacional mientras ignoraba las amenazas internas. Ministro durante 1925 - 1939.</span>',
         },
         "ministro eldritch diggory": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros grupo3",
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ministros grupo3",
           "cont": '<span>El cuadro muestra a un hombre de semblante amable pero cansado. Se le ve sentado en un sillón orejero, con una ventana abierta de donde parece entrar una luz celestial. Una pequeña calavera sobre su escritorio alude a su muerte por viruela de dragón. Ministro durante 1733 - 1747.</span>',
         },
         "ministro venusia crickerly": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros grupo2",
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ministros grupo2",
           "cont": '<span>El cuadro muestra una mujer de aspecto severo y manos manchadas de tierra. Aparece rodeada de mandrágoras y plantas peligrosas; su muerte por un "accidente" de jardinería se sugiere por una sombra vegetal tras ella. Ministro durante 1903 - 1912.</span>',
         }
       },
