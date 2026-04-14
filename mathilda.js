@@ -5,7 +5,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/atsv3ay.png", "requisitos": ["Un Nigromante de San Mungo", "Un trabajador del Dpto de Seguridad Mágica", "Solo podrán participar familiares de la víctima, trabajadores del Ministerio o trabajadores de San Mungo."],
       "users": ["/u8", "/u41", "/u32", "/u78", "/u53", "/u36"],
       "dependency": [],
-      "type": "misión", "closed": true, "link": "/t351-mision-secrets-of-the-silent-dead", "tagged": ["edwin", "morgana", "sirius","capitulo 0"],
+      "type": "misión", "closed": true, "link": "/t351-mision-secrets-of-the-silent-dead", "tagged": ["edwin", "morgana", "sirius", "capitulo 0"],
 
       "cards": [
         {
@@ -108,7 +108,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/gGo598Z.png", "requisitos": [],
       "users": ["/u38", "/u116", "/u115", "/u119", "/u118", "/u63"],
       "dependency": [],
-      "type": "misión", "closed": true, "link": "https://blackwave.foroactivo.com/t559-mision-potions-for-all-the-afflections", "tagged": ["morgana","capitulo 0"],
+      "type": "misión", "closed": true, "link": "https://blackwave.foroactivo.com/t559-mision-potions-for-all-the-afflections", "tagged": ["morgana", "capitulo 0"],
 
       "cards": [
         {
@@ -334,7 +334,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/AqXgADy.png", "requisitos": ["Un trabajador del Dpto de Seguridad Mágica", "Un miembro familiar Black", "Solo podrán participar los personajes del Dpto de Seguridad Mágica, San Mungo o miembros familiares"],
       "users": ["/u25", "/u51", "/u50", "/u17", "/u9", "/u8"],
       "dependency": [],
-      "type": "misión", "closed": true, "link": "https://blackwave.foroactivo.com/t353-mision-traces-in-black", "tagged": ["sirius","capitulo 0"],
+      "type": "misión", "closed": true, "link": "https://blackwave.foroactivo.com/t353-mision-traces-in-black", "tagged": ["sirius", "capitulo 0"],
 
       "cards": [
         {
@@ -450,7 +450,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/Hql0xVA.png", "requisitos": ["Un trabajador del Dpto de Seguridad Mágica", "Un personaje cercano a Edwin", "Solo podrán participar personajes del Dpto se Seguridad Mágica, San Mungo o cercanos a la víctima"],
       "users": ["/u60", "/u7", "/u55", "/u50", "/u79", "/u84"],
       "dependency": [],
-      "type": "misión", "closed": true, "link": "https://blackwave.foroactivo.com/t354-mision-haunted-dwelling", "tagged": ["edwin","capitulo 0"],
+      "type": "misión", "closed": true, "link": "https://blackwave.foroactivo.com/t354-mision-haunted-dwelling", "tagged": ["edwin", "capitulo 0"],
 
       "cards": [
         {
@@ -556,7 +556,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/fyKLKgt.png", "requisitos": ["Un miembro debe tener Alquimia en Avanzado", "Un trabajador del Dpto de Seguridad Mágica", "Personajes que puedan colaborar oficialmente con la investigación de venenos"],
       "users": ["/u10", "/u77", "/u89", "/u18", "/u42"],
       "dependency": [],
-      "type": "misión", "closed": true, "link": "https://blackwave.foroactivo.com/t365-mision-death-in-a-teacup", "tagged": ["edwin", "morgana", "sirius","capitulo 0"],
+      "type": "misión", "closed": true, "link": "https://blackwave.foroactivo.com/t365-mision-death-in-a-teacup", "tagged": ["edwin", "morgana", "sirius", "capitulo 0"],
 
       "cards": [
         {
@@ -671,7 +671,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/DfRLWoB.png", "requisitos": ["Un trabajador del Dpto de Seguridad Mágica", "Un personaje cercano a Morgana", "Solo podrán participar personajes del Dpto se Seguridad Mágica, San Mungo o cercanos a la víctima"],
       "users": ["/u91", "/u78", "/u7", "/u55", "/u50", "/u8"],
       "dependency": [],
-      "type": "misión", "closed": true, "link": "https://blackwave.foroactivo.com/t560-mision-wounds-from-the-past", "tagged": ["morgana","capitulo 0"],
+      "type": "misión", "closed": true, "link": "https://blackwave.foroactivo.com/t560-mision-wounds-from-the-past", "tagged": ["morgana", "capitulo 0"],
 
       "cards": [
         {
@@ -1097,7 +1097,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/CzU2l87.png", "requisitos": ["Un integrante tiene que tener Herbología en Avanzado"],
       "users": ["/u18", "/u108", "/u97"],
       "dependency": ["death in a teacup"],
-      "type": "investigación", "closed": true, "link": "/t522-investigacion-botanical-market", "tagged": ["morgana","capitulo 0"],
+      "type": "investigación", "closed": true, "link": "/t522-investigacion-botanical-market", "tagged": ["morgana", "capitulo 0"],
 
       "cards": [],
       "actions": {},
@@ -1150,9 +1150,9 @@ const MissionsModule = (function () {
     "moth to a flame": {
       "description": "Una destileria es lo que todos parecen necesitar, y allí esta la vieja destileria Dempsey, al menos, lo que ha quedado de ella, luego de que el incendio acabara con ella. Existen rumores entre los vecinos que fue la misma Morgana quien inicio el fuego, asegurando que no hubiera ninguna víctima ¿Estarán allí las respuestas del whiskey?",
       "image": "https://2img.net/i.imgur.com/LKuQkxz.png", "requisitos": [],
-      "users": ["/u130","/u8","/u145","/u97"],
+      "users": ["/u130", "/u8", "/u145", "/u97"],
       "dependency": ["botanical market", "promise in crimson"],
-      "type": "misión", "closed": false, "link": "https://blackwave.foroactivo.com/t931-mision-moth-to-a-flame", "tagged": ["morgana","capitulo 0"],
+      "type": "misión", "closed": false, "link": "https://blackwave.foroactivo.com/t931-mision-moth-to-a-flame", "tagged": ["morgana", "capitulo 0"],
 
       "cards": [],
       "searchs": {
@@ -1472,7 +1472,7 @@ const MissionsModule = (function () {
       "description": "Siguiendo el rastro de Manufacturas Dempsey, deberán ingresar en el lugar donde se generan las bebidas para The Maroon Steed para identificar qué poseían las bebidas del lugar. Irrumpir en el lugar solo buscará respuestas que pueden convertirse en nuevas preguntas.",
       "image": "https://2img.net/i.imgur.com/CzU2l87.png", "requisitos": ["Un integrante tiene que tener Herbología en Avanzado"],
       "users": [],
-      "dependency": ["moth to a flame", "potions for all the afflictions"], "tagged": ["morgana","capitulo 0"],
+      "dependency": ["moth to a flame", "potions for all the afflictions"], "tagged": ["morgana", "capitulo 0"],
       "type": "misión", "closed": false, "link": "",
 
       "cards": [],
@@ -1486,7 +1486,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/9mnS7Op.png", "requisitos": ["un miembro del departamento del Seguridad Mágica"],
       "users": [],
       "dependency": ["gilded herb"],
-      "type": "interrogatorio", "closed": false, "link": "", "tagged": ["morgana","capitulo 0"],
+      "type": "interrogatorio", "closed": false, "link": "", "tagged": ["morgana", "capitulo 0"],
 
       "cards": [],
       "searchs": {},
@@ -1496,12 +1496,12 @@ const MissionsModule = (function () {
 
     "the murmur of the old guard": {
       "description": "Cuando la situación del mundo actual no podría ser más incierta, un nuevo ataque se produce en uno de los lugares más seguros del mundo mágico. Hogwarts parece tener filtraciones y eso podría poner en riesgo la continuidad de su actual director.",
-      "image": "https://2img.net/i.imgur.com/YQ3QDyq.png", "requisitos": ["un miembro del departamento del Seguridad Mágica", "un miembro del personal o profesorado de hogwarts","Solo se aceptarán 2 estudiantes como máximo"],
-      "users": ["/u50","/u24","/u110","/u108","/u141"],
+      "image": "https://2img.net/i.imgur.com/YQ3QDyq.png", "requisitos": ["un miembro del departamento del Seguridad Mágica", "un miembro del personal o profesorado de hogwarts", "Solo se aceptarán 2 estudiantes como máximo"],
+      "users": ["/u50", "/u24", "/u110", "/u108", "/u141"],
       "dependency": [],
-      "type": "misión", "closed": false, "link": "https://blackwave.foroactivo.com/t932-mision-the-murmur-of-the-old-guard", "tagged": ["wave","capitulo 1"],
+      "type": "misión", "closed": false, "link": "https://blackwave.foroactivo.com/t932-mision-the-murmur-of-the-old-guard", "tagged": ["wave", "capitulo 1"],
 
-      
+
       "creatures": {
         "sombra aidan": {
           "atributos": ["+6 fue", "+6 con"],
@@ -1694,7 +1694,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/V6MkXm7.png", "requisitos": ["Un personaje con Alquimia en Consagrado", "Un personaje con CCM en Avanzado"],
       "users": ["/u8", "/u131", "/u78"],
       "dependency": ["secrets of the silent dead"],
-      "type": "investigación", "closed": true, "link": "/t658-investigacion-ryu-s-breath", "tagged": ["sirius","capitulo 0"],
+      "type": "investigación", "closed": true, "link": "/t658-investigacion-ryu-s-breath", "tagged": ["sirius", "capitulo 0"],
 
       "cards": [
         {
@@ -1793,9 +1793,9 @@ const MissionsModule = (function () {
     "the price of silence": {
       "description": "El animal al que pertenece la toxina, es propio del suroeste asiático, pero aquello no es lo más exótico, sino que su compra y venta de veneno es ilegal. La investigación se mueve hacia algún contrabandista que quiera dar la información sobre dónde puede conseguirse dicho ingrediente para generar el veneno que, aparentemente, ha acabado con la vida de Sirius Black.",
       "image": "https://2img.net/i.imgur.com/GfHnpgi.png", "requisitos": ["un miembro del departamento del Seguridad Mágica", "Un personaje con Contrabando en Avanzado"],
-      "users": ["/u134","/u146","/u131"],
+      "users": ["/u134", "/u146", "/u131"],
       "dependency": ["ryu's breath"],
-      "type": "misión", "closed": false, "link": "", "tagged": ["sirius","capitulo 0"],
+      "type": "misión", "closed": false, "link": "", "tagged": ["sirius", "capitulo 0"],
 
       "cards": [],
       "searchs": {},
@@ -1808,7 +1808,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/LzSqfVa.png", "requisitos": ["un miembro del departamento del Seguridad Mágica o del Departamento de Transporte"],
       "users": ["/u8", "/u101", "/u17"],
       "dependency": ["traces in black"],
-      "type": "investigación", "closed": true, "link": "https://blackwave.foroactivo.com/t562-investigacion-the-beryl-ash-trail", "tagged": ["sirius","capitulo 0"],
+      "type": "investigación", "closed": true, "link": "https://blackwave.foroactivo.com/t562-investigacion-the-beryl-ash-trail", "tagged": ["sirius", "capitulo 0"],
 
       "cards": [
         {
@@ -1888,7 +1888,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/UnoEX43.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica"],
       "users": ["/u55", "/u8", "/u94"],
       "dependency": ["the beryl ash trail"],
-      "type": "interrogatorio", "closed": true, "link": "https://blackwave.foroactivo.com/t646-interrogatorio-golden-pathways", "tagged": ["sirius","capitulo 0"],
+      "type": "interrogatorio", "closed": true, "link": "https://blackwave.foroactivo.com/t646-interrogatorio-golden-pathways", "tagged": ["sirius", "capitulo 0"],
 
       "cards": [],
       "searchs": {},
@@ -1909,7 +1909,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/e1LeX7A.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica"],
       "users": ["/u8", "/u17", "/u101"],
       "dependency": ["the beryl ash trail"],
-      "type": "investigación", "closed": true, "link": "/t659-investigacion-ember-pass", "tagged": ["sirius","capitulo 0"],
+      "type": "investigación", "closed": true, "link": "/t659-investigacion-ember-pass", "tagged": ["sirius", "capitulo 0"],
 
       "cards": [],
 
@@ -2004,7 +2004,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/WgAQvWA.png", "requisitos": ["Un personaje con Herbología en Avanzado"],
       "users": ["/u9", "/u44", "/u8"],
       "dependency": ["traces in black"],
-      "type": "investigación", "closed": true, "link": "https://blackwave.foroactivo.com/t563-investigacion-underground-roots", "tagged": ["sirius","capitulo 0"],
+      "type": "investigación", "closed": true, "link": "https://blackwave.foroactivo.com/t563-investigacion-underground-roots", "tagged": ["sirius", "capitulo 0"],
 
       "cards": [
         {
@@ -2074,7 +2074,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/CmIJAA5.png", "requisitos": ["Uno de los integrantes debe ser un miembro de la familia Black"],
       "users": ["/u9", "/u17", "/u101"],
       "dependency": ["underground roots", "the beryl ash trail"],
-      "type": "investigación", "closed": true, "link": "https://blackwave.foroactivo.com/t643-investigacion-the-withered-pot", "tagged": ["sirius","capitulo 0"],
+      "type": "investigación", "closed": true, "link": "https://blackwave.foroactivo.com/t643-investigacion-the-withered-pot", "tagged": ["sirius", "capitulo 0"],
 
       "cards": [],
       "searchs": {
@@ -2220,9 +2220,9 @@ const MissionsModule = (function () {
     "the lupine killer": {
       "description": "Aidan Flamel se encuentra bajo la lupa del Ministerio de Magia, que busca descubrir si el Acónito que Sirius alejó del castillo está relacionada con su correspondiente muerte. Y lo más importante, esa planta fue utilizada para algo más.",
       "image": "https://2img.net/i.imgur.com/xPVXOxC.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica"],
-      "users": ["i/u108", "/u146","/u156","/u8"],
+      "users": ["i/u108", "/u146", "/u156", "/u8"],
       "dependency": ["the withered pot"],
-      "type": "interrogatorio", "closed": false, "link": "/t1110-interrogatorio-the-lupine-killer", "tagged": ["sirius","capitulo 0"],
+      "type": "interrogatorio", "closed": false, "link": "/t1110-interrogatorio-the-lupine-killer", "tagged": ["sirius", "capitulo 0"],
 
       "cards": [],
       "searchs": {},
@@ -2235,11 +2235,11 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/MAA4xsy.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica"],
       "users": ["i/u97", "/u8"],
       "dependency": ["the withered pot", "ember pass"],
-      "type": "interrogatorio", "closed": true, "link": "/t847-interrogatorio-the-fortune-of-the-three-eyes", "tagged": ["sirius","capitulo 0"],
+      "type": "interrogatorio", "closed": true, "link": "/t847-interrogatorio-the-fortune-of-the-three-eyes", "tagged": ["sirius", "capitulo 0"],
 
       "cards": [],
       "searchs": {},
-                        
+
       "actions": {
         "legeremens": {
           "leve": 'No es suficiente para revelar información adicional.',
@@ -2284,7 +2284,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/c4omOwT.png", "requisitos": ["Un miembro debe tener CCM en Avanzado", "Un miembro del Dpto de Seguridad Mágica"],
       "users": [],
       "dependency": ["the lupine killer"],
-      "type": "misión", "closed": false, "link": "", "tagged": ["sirius","capitulo 0"],
+      "type": "misión", "closed": false, "link": "", "tagged": ["sirius", "capitulo 0"],
 
       "cards": [],
       "searchs": {},
@@ -2297,7 +2297,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/LhHwm7Y.png", "requisitos": ["Un miembro debe tener Alquimia en Avanzado", "Un miembro debe tener CCM en Avanzado", "Un licántropo voluntario"],
       "users": [],
       "dependency": ["through the green abyss"],
-      "type": "misión", "closed": false, "link": "", "tagged": ["sirius","capitulo 0"],
+      "type": "misión", "closed": false, "link": "", "tagged": ["sirius", "capitulo 0"],
 
       "cards": [],
       "searchs": {},
@@ -2310,7 +2310,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/uhzqWY8.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica"],
       "users": ["/u50", "/u13"],
       "dependency": ["traces in black"],
-      "type": "interrogatorio", "closed": true, "link": "/t660-interrogatorio-the-foretold-story", "tagged": ["sirius","capitulo 0"],
+      "type": "interrogatorio", "closed": true, "link": "/t660-interrogatorio-the-foretold-story", "tagged": ["sirius", "capitulo 0"],
 
       "cards": [],
       "searchs": {},
@@ -2321,9 +2321,9 @@ const MissionsModule = (function () {
     "whispers of the future": {
       "description": "Con la historia que lograron recabar del interrogatorio de la señora Flint, lo único que queda es validar que sea verdad. Por lo tanto, un miembro del departamento de seguridad y un inefable, se internarán dentro de los pasillos de la cámara de las profecías para ver si Úrsula tenía razón o si solo eran los dichos de una señora que ya entró en la edad de inventar aquello que no recuerda.",
       "image": "https://2img.net/i.imgur.com/NhDTPNU.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica", "Un inefable"],
-      "users": ["/u50","/u150","/u17",],
+      "users": ["/u50", "/u150", "/u17",],
       "dependency": ["the foretold story"],
-      "type": "investigación", "closed": false, "link": "https://blackwave.foroactivo.com/t1008-investigacion-whispers-of-the-future", "tagged": ["sirius","capitulo 0"],
+      "type": "investigación", "closed": false, "link": "https://blackwave.foroactivo.com/t1008-investigacion-whispers-of-the-future", "tagged": ["sirius", "capitulo 0"],
 
       "cards": [],
 
@@ -2432,7 +2432,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/DWMLO6R.png", "requisitos": [],
       "users": [],
       "dependency": ["whispers of the future"],
-      "type": "misión", "closed": false, "link": "", "tagged": ["wave","capitulo 0"],
+      "type": "misión", "closed": false, "link": "", "tagged": ["wave", "capitulo 0"],
 
       "cards": [],
       "searchs": {},
@@ -2443,9 +2443,9 @@ const MissionsModule = (function () {
     "bottle of sorrows": {
       "description": "Los laboratorios de San Mungo, se llenan con una nueva incógnita, ¿Qué está investigando Morgana? Con un frasco y una pequeña muestra de un líquido malva brillante, deberán descubrir qué buscaba realizar aquel elixir.",
       "image": "https://2img.net/i.imgur.com/l0Qfh5X.png", "requisitos": ["Un miembro debe tener Alquimia o Pociones en Avanzado"],
-      "users": ["/u91", "/u8","/u134"],
+      "users": ["/u91", "/u8", "/u134"],
       "dependency": ["wounds from the past"],
-      "type": "investigación", "closed": true, "link": "https://blackwave.foroactivo.com/t837-investigacion-bottle-of-sorrows", "tagged": ["morgana","capitulo 0"],
+      "type": "investigación", "closed": true, "link": "https://blackwave.foroactivo.com/t837-investigacion-bottle-of-sorrows", "tagged": ["morgana", "capitulo 0"],
 
       "cards": [
         {
@@ -2533,83 +2533,83 @@ const MissionsModule = (function () {
     "muted magic": {
       "description": "Con el diario de investigaciones de Morgana y las notas que encontraron en su casa, la investigación es dejada en manos de quienes más saben, para poder llegar a comprender qué estaba investigando la ex Directora de San Mungo y hasta dónde llegaban sus investigaciones.",
       "image": "https://2img.net/i.imgur.com/3KEU7L5.png", "requisitos": ["Un miembro debe poseer Historia de la Magia en Avanzado", "Un miembro debe tener Curacion en Avanzado"],
-      "users": ["/u55", "/u8","/u91"],
+      "users": ["/u55", "/u8", "/u91"],
       "dependency": ["wounds from the past"],
-      "type": "investigación", "closed": true, "link": "https://blackwave.foroactivo.com/t836-investigacion-muted-magic", "tagged": ["morgana","capitulo 0"],
+      "type": "investigación", "closed": true, "link": "https://blackwave.foroactivo.com/t836-investigacion-muted-magic", "tagged": ["morgana", "capitulo 0"],
 
       "cards": [],
 
       "searchs": {
         "secciones del cuaderno": {
-          "visible": { "attr": {"int": "1"}, "know": {"val": "min"}, "job": "invalid", "name": "invalid", }, "place": "",
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
           "cont": '<span>El cuaderno se encuentra separado en 8 partes correspondientes a cada fase lunar. Entre cada parte hay hojas en blanco con anotaciones de Morgana o información adicional.</span>',
         },
         "luna nueva": {
-          "visible": { "attr": {"val": "min"}, "know": {"curación": "5"}, "job": "invalid", "name": "invalid", }, "place": "secciones del cuaderno",
+          "visible": { "attr": { "val": "min" }, "know": { "curación": "5" }, "job": "invalid", "name": "invalid", }, "place": "secciones del cuaderno",
           "cont": '<span class="book-clipping"><u><strong>LUNA NUEVA</strong></u><br><br><strong>Se observan los siguientes comportamientos</strong>: Introspección profunda. Periodo de calma forzada, reclusión. Aislamiento voluntario para planear cómo manejar la siguiente fase.<br><br><strong>Emociones frecuentes</strong>: Serenidad, pero con una melancolía subyacente. Establece intenciones para el ciclo.<br><br><strong>Alelos Genéticos</strong>: Baja: 1/8. El gen licántropo está en su punto de menor expresión, casi inactivo.<br></span>',
         },
         "luna creciente": {
-          "visible": { "attr": {"val": "min"}, "know": {"curación": "5"}, "job": "invalid", "name": "invalid", }, "place": "secciones del cuaderno",
+          "visible": { "attr": { "val": "min" }, "know": { "curación": "5" }, "job": "invalid", "name": "invalid", }, "place": "secciones del cuaderno",
           "cont": '<span class="book-clipping"><u><strong>LUNA CRECIENTE</strong></u><br><br><strong>Se observan los siguientes comportamientos</strong>: Iniciativa para pequeñas tareas sociales o mágicas. Busca amistad y apoyo emocional. Nutre planes o relaciones iniciadas en la Luna Nueva.<br><br><strong>Emociones frecuentes</strong>: Optimismo, cautela. Ligeros picos de suerte o éxito en tareas menores.<br><br><strong>Alelos Genéticos</strong>: Baja-Media: 2/8. El gen comienza a "despertar", incrementando ligeramente la sensibilidad a ruidos o movimientos.<br></span>',
         },
         "luna cuarto creciente": {
-          "visible": { "attr": {"val": "min"}, "know": {"curación": "5"}, "job": "invalid", "name": "invalid", }, "place": "secciones del cuaderno",
+          "visible": { "attr": { "val": "min" }, "know": { "curación": "5" }, "job": "invalid", "name": "invalid", }, "place": "secciones del cuaderno",
           "cont": '<span class="book-clipping"><u><strong>LUNA CUARTO CRECIENTE</strong></u><br><br><strong>Se observan los siguientes comportamientos</strong>: Actúa con fuerza y determinación para lograr una intención. Periodos de gran creatividad mental o mágica. Ciertos cierres o resoluciones de problemas.<br><br><strong>Emociones frecuentes</strong>: Calma superficial, pero con aumento de la motivación y la energía física. Irritabilidad creciente si se frustra.<br><br><strong>Alelos Genéticos</strong>: Media: 4/8. La mitad de la influencia lunar. Aumento notable de la energía y la necesidad de movimiento. Primeros indicios de una postura más defensiva.<br></span>',
         },
         "luna creciente gibosa": {
-          "visible": { "attr": {"val": "min"}, "know": {"curación": "5"}, "job": "invalid", "name": "invalid", }, "place": "secciones del cuaderno",
+          "visible": { "attr": { "val": "min" }, "know": { "curación": "5" }, "job": "invalid", "name": "invalid", }, "place": "secciones del cuaderno",
           "cont": '<span class="book-clipping"><u><strong>LUNA CRECIENTE GIBOSA</strong></u><br><br><strong>Se observan los siguientes comportamientos</strong>: Revisar y doble-chequear planes. Muestra paciencia extrema. Aumenta la perspectiva sobre su condición. Puede mostrar colaboración si se siente segura.<br><br><strong>Emociones frecuentes</strong>: Tranquilidad forzada. Sentimiento de gestación o espera inminente. Ligeros temblores o inquietud nocturna.<br><br><strong>Alelos Genéticos</strong>: Alta: 6/8. El gen está a un nivel de expresión crítica. La biología se prepara para la transformación. Aumento de la fuerza muscular y la agudeza sensorial.<br></span>',
         },
         "luna llena": {
-          "visible": { "attr": {"val": "min"}, "know": {"curación": "5"}, "job": "invalid", "name": "invalid", }, "place": "secciones del cuaderno",
+          "visible": { "attr": { "val": "min" }, "know": { "curación": "5" }, "job": "invalid", "name": "invalid", }, "place": "secciones del cuaderno",
           "cont": '<span class="book-clipping"><u><strong>LUNA LLENA</strong></u><br><br><strong>Se observan los siguientes comportamientos</strong>: Máximo potencial de romance o sanación antes de la transformación. Muestra claridad momentánea sobre su estado. Necesidad de dejar ir y corregir viejas heridas. Carga energía (si se le permite el ritual). Transformación Licántropa.<br><br><strong>Emociones frecuentes</strong>: Exaltación, picos de ansiedad, y finalmente la rendición a la transformación. Miedo seguido de ira/salvajismo.<br><br><strong>Alelos Genéticos</strong>: Máxima: 8/8. Expresión total del gen licántropo. Alteración completa del sistema nervioso y físico.<br></span>',
         },
         "luna menguante gibosa": {
-          "visible": { "attr": {"val": "min"}, "know": {"curación": "5"}, "job": "invalid", "name": "invalid", }, "place": "secciones del cuaderno",
+          "visible": { "attr": { "val": "min" }, "know": { "curación": "5" }, "job": "invalid", "name": "invalid", }, "place": "secciones del cuaderno",
           "cont": '<span class="book-clipping"><u><strong>LUNA MENGUANTE GIBOSA</strong></u><br><br><strong>Se observan los siguientes comportamientos</strong>: Generosidad post-transformación (si la transformación fue "exitosa"). Necesidad de purificación y descanso. Se esfuerza por romper con la sensación de maldición.<br><br><strong>Emociones frecuentes</strong>: Alivio, dolor físico. Sentimiento de abundancia de vida, aunque agotador. Intenta cosechar los frutos de su introspección.<br><br><strong>Alelos Genéticos</strong>: Alta: 6/8. El gen retrocede rápidamente, pero los efectos residuales (dolor, fatiga) son altos. El cuerpo está en modo de recuperación intensiva.<br></span>',
         },
         "luna cuarto menguante": {
-          "visible": { "attr": {"val": "min"}, "know": {"curación": "5"}, "job": "invalid", "name": "invalid", }, "place": "secciones del cuaderno",
+          "visible": { "attr": { "val": "min" }, "know": { "curación": "5" }, "job": "invalid", "name": "invalid", }, "place": "secciones del cuaderno",
           "cont": '<span class="book-clipping"><u><strong>LUNA CUARTO CRECIENTE</strong></u><br><br><strong>Se observan los siguientes comportamientos</strong>: Se enfoca en la limpieza y purga de su entorno. Selección estricta de sus prioridades. Busca activamente la conclusión de temas pendientes.<br><br><strong>Emociones frecuentes</strong>: Sentimiento de reflexión profunda. Cierta frialdad emocional o desapego (para poder dejar ir las toxinas emocionales del ciclo).<br><br><strong>Alelos Genéticos</strong>: Media: 4/8. El gen sigue disminuyendo. Recuperación emocional más lenta que la física. Vuelve a una línea base de control.<br></span>',
         },
         "luna menguante": {
-          "visible": { "attr": {"val": "min"}, "know": {"curación": "5"}, "job": "invalid", "name": "invalid", }, "place": "secciones del cuaderno",
+          "visible": { "attr": { "val": "min" }, "know": { "curación": "5" }, "job": "invalid", "name": "invalid", }, "place": "secciones del cuaderno",
           "cont": '<span class="book-clipping"><u><strong>LUNA MENGUANTE</strong></u><br><br><strong>Se observan los siguientes comportamientos</strong>: Necesidad de descanso y recuperación total. Muestra gran sabiduría al compartir sus aprendizajes. Símbolo de renacimiento personal después de la "muerte" del ciclo anterior.<br><br><strong>Emociones frecuentes</strong>: Profunda rendición al proceso. Una sanación mental y emocional que la prepara para la Luna Nueva.<br><br><strong>Alelos Genéticos</strong>: Baja-Media: 2/8. El gen está casi en el nivel de reposo. El cuerpo prioriza la curación celular y el descanso profundo.<br></span>',
         },
         "sobre: explicación de la marea lunar de nuestro querido amiguito": {
-          "visible": { "attr": {"val": "min"}, "know": {"curación": "5"}, "job": "invalid", "name": "invalid", }, "place": "luna cuarto creciente",
+          "visible": { "attr": { "val": "min" }, "know": { "curación": "5" }, "job": "invalid", "name": "invalid", }, "place": "luna cuarto creciente",
           "cont": '<span class="book-clipping"><span class="notebook">Estimada señorita Dempsey,<br><br>Por petición de Amaya respondo a su consulta, pero quisiera dejar en claro que, la astronomía, para mí, es solo un pasatiempo. Prefiero dedicar mis conocimientos en la seguridad. Sin embargo, he aceptado formar parte de esta investigación y responderé la consulta que me presenta.<br><br>He analizado tus datos sobre la progresión de los alelos licántropos de tu hermana a lo largo del ciclo lunar. Mi teoría propone que la expresión del gen licántropo no es un simple interruptor de encendido/apagado, sino que funciona al igual que la marea, impulsada por la misma fuerza gravitacional que afecta a los océanos de nuestro planeta.<br><br>Las mareas terrestres son el resultado de la atracción gravitacional de la Luna, principalmente, y el sol sobre la tierra.<br><br>Durante el punto más alto, el agua se abulta en el lado de la Tierra más cercano a la luna y, crucialmente, también en el lado opuesto, debido a la inercia y al centro de la masa del sistema Tierra-Luna. Mientras que el punto más bajo ocurre en las zonas intermedias.<br><br>La masa de la Luna, al alcanzar su máximo potencial de visibilidad (lo que conocemos como Luna Llena), ejerce una atracción gravitacional que estimula directamente la expresión de los alelos licántropos en el torrente sanguíneo, el sistema nervioso o el cerebro.<br><br>La variación de los alelos, tu escala de 1/8 a 8/8, calca perfectamente el ciclo de una marea alta, luna llena, y una marea baja, luna nueva.<br><br>Desde la luna nueva, donde se genera la mínima influencia, la marea genética está en su punto más bajo. Los alelos están en estado de latencia, lo que explica la calma y la introspección. <br><br>Durante las lunas crecientes, el campo gravitacional percibido aumenta progresivamente. La energía lunar empieza a atraer o activar la expresión genética. Esto se traduce en el aumento de la energía, la creatividad y la irritabilidad.<br><br>El pico se produce durante la luna llena, la marea genética alcanza su punto máximo de expresión y saturación. Esto provoca la reacción biológica extrema de la transformación. La concentración de los alelos activos es tan alta que sobrepasa el umbral de control mágico o mental. <br><br>Inmediatamente después de la luna llena, la influencia decrece, y el cuerpo entra en un estrado de drenaje y purificación.<br><br>Por supuesto, mis conocimientos de sanación, se basan en curar rápidamente compañeros de trabajo, por lo tanto, no podría ayudarla con cuáles son los siguientes pasos para que enfoque sus intervenciones. <br><br>Sin embargo, dado el puesto de trabajo que ostento y aunque sus intenciones sean buenas, tengo que comentar mi desacuerdo con documentos oficiales en relación con su hermana. Si por el momento guardo silencio se debe a las promesas que le he hecho a Amaya y porque sé que Merlina es inocente de todos los sucesos acontecidos. Pese a eso, si intuyo que algún movimiento excede la protección de su hermana como licántropo, activaré las investigaciones correspondientes. En otras palabras, agradecería que, cualquier acción ilegal, la mantenga alejada de mi conocimiento.<br><br>Espero que esta analogía ayude a estructurar su investigación. La luna no solo se ilumina, también empuja. <br>Suerte con su búsqueda, espero, por el bien de los hombres lobos, que tenga éxito. <br><br>Saludos,<br>Edwin Merrythought.<br>2 de septiembre de 1938.</span><br></span>',
         },
         "sobre: opinión de tratamiento médico": {
-          "visible": { "attr": {"val": "min"}, "know": {"curación": "5"}, "job": "invalid", "name": "invalid", }, "place": "luna menguante gibosa",
+          "visible": { "attr": { "val": "min" }, "know": { "curación": "5" }, "job": "invalid", "name": "invalid", }, "place": "luna menguante gibosa",
           "cont": '<span class="book-clipping"><span class="notebook">Señorita Dempsey,<br><br>Tras revisar sus notas sobre el estado de Merlina en sus diferentes estados de transformación, mi diagnóstico es claro: el cuerpo sufre un «síndrome de resaca celular». Cuando los alelos bajan de 8/8 a 6/8 bruscamente, el tejido muscular y óseo queda exhausto por la contracción acelerada.<br><br>Mi opinión profesional es que cualquier tratamiento debe evitar los sedantes mágicos fuertes en esta fase; el hígado ya está procesando el exceso de toxinas licántropas y añadir pociones para dormir podría inducir un coma. Recomiendo baños de sales para drenar la energía estática de los músculos y una dieta rica en hierro para recuperar la sangre perdida en la regeneración. La sanación aquí no es solo física, es homeostática. Hay que convencer al cuerpo de que la marea ya se ha ido.<br><br>Adjunto diferentes ideas que pueden llegar a recuperar el estado de su hermana y las notas que llevan a mis conclusiones.<br><br>Gracias por permitir que me quede en el anonimato, entenderás que no todos quieren estar relacionados con alguien como tú, excluiré la condición de Merlina de mi decisión, ella no tiene la culpa.<br></span></span>',
         },
         "conclusión notas fibras musculares": {
-          "visible": { "attr": {"val": "min"}, "know": {"curación": "10"}, "job": "invalid", "name": "invalid", }, "place": "sobre: opinión de tratamiento médico",
+          "visible": { "attr": { "val": "min" }, "know": { "curación": "10" }, "job": "invalid", "name": "invalid", }, "place": "sobre: opinión de tratamiento médico",
           "cont": '<span class="book-clipping"><strong>Análisis de fibras musculares tras el retroceso de la fase 8/8 a 6/8</strong>:<br><br>Al observar las muestras de tejido de Merlina apenas doce horas después de la reversión, las células presentan una distorsión por tracción. No es una herida externa, es una fatiga estructural. El paso de la morfología loba a la humana en un tiempo tan reducido obliga a las mitocondrias mágicas a trabajar al triple de su capacidad. Suministrar un sedante fuerte ahora sería como intentar apagar un incendio inundando los cimientos: el sistema colapsaría por exceso de presión, no por falta de descanso.</span>',
         },
         "conclusión notas conteo de hematíes": {
-          "visible": { "attr": {"val": "min"}, "know": {"curación": "10"}, "job": "invalid", "name": "invalid", }, "place": "sobre: opinión de tratamiento médico",
+          "visible": { "attr": { "val": "min" }, "know": { "curación": "10" }, "job": "invalid", "name": "invalid", }, "place": "sobre: opinión de tratamiento médico",
           "cont": '<span class="book-clipping"><strong>Conteo de hematíes en la fase de Luna Menguante Gibosa</strong>:<br><br>He detectado una anemia súbita y severa justo cuando la marea genética, como la has llamado, empieza a retirarse. La regeneración acelerada de heridas y el cambio de pelaje a piel consumen las reservas de hierro de forma voraz. Si no se repone mediante una dieta específica, el cuerpo empezará a canibalizar su propia energía vital para mantener la temperatura corporal. La palidez de Merlina no es por el trauma, es por el consumo interno de recursos.</span>',
         },
         "conclusión notas conductividad eléctrica en la piel": {
-          "visible": { "attr": {"val": "min"}, "know": {"curación": "10"}, "job": "invalid", "name": "invalid", }, "place": "sobre: opinión de tratamiento médico",
+          "visible": { "attr": { "val": "min" }, "know": { "curación": "10" }, "job": "invalid", "name": "invalid", }, "place": "sobre: opinión de tratamiento médico",
           "cont": '<span class="book-clipping"><strong>Medición de la conductividad eléctrica en la piel post-transformación</strong>:<br><br>El cuerpo de un licántropo retiene una carga residual de magia lunar que yo llamo "energía estática de marea". Esta carga mantiene los músculos en un estado de tensión involuntaria (micro-espasmos). Los baños de sales no son un lujo estético, Morgana; actúan como un polo a tierra. El sodio y el magnesio en el agua atraen esa estática hacia afuera, permitiendo que las fibras musculares finalmente "suelten" la forma del lobo y acepten la forma humana.</span>',
         },
         "conclusión notas toxinas en el torrente sanguíneo": {
-          "visible": { "attr": {"val": "min"}, "know": {"curación": "10"}, "job": "invalid", "name": "invalid", }, "place": "sobre: opinión de tratamiento médico",
+          "visible": { "attr": { "val": "min" }, "know": { "curación": "10" }, "job": "invalid", "name": "invalid", }, "place": "sobre: opinión de tratamiento médico",
           "cont": '<span class="book-clipping"><strong>Filtración de toxinas en el torrente sanguíneo</strong>:<br><br>Durante la transformación, el metabolismo cambia tan rápido que genera subproductos químicos que el hígado humano no está diseñado para procesar en grandes cantidades. Mis notas indican que el hígado de Merlina está operando al límite de su capacidad metabólica durante la Luna Menguante. Cualquier poción compleja o "filtro de sueño" adicional en este momento actuaría como un veneno, ya que el órgano simplemente no tendría cómo filtrarlo. Debemos limpiar el filtro antes de añadir más líquido.</span>',
         },
         "sobre: sugerencia de ingredientes de nuestro querido amiguito": {
-          "visible": { "attr": {"val": "min"}, "know": {"curación": "5"}, "job": "invalid", "name": "invalid", }, "place": "luna cuarto menguante",
+          "visible": { "attr": { "val": "min" }, "know": { "curación": "5" }, "job": "invalid", "name": "invalid", }, "place": "luna cuarto menguante",
           "cont": '<span class="book-clipping"><span class="notebook">Morgana,<br><br>Si vas a intentar fabricar un regulador que logre limitar los efectos lunares en los cuerpos de tu hermana, necesitarás componentes que actúen como «anclas» o «diques» para frenar el flujo genético. <br><br>Sé que mi rigidez legal te exaspera y que ves en mi prudencia un obstáculo para tu ambición. No pretendo disculparme, mi lealtad a los protocolos de seguridad es lo que me mantiene con vida en mi profesión. Aunque coincido en que un regulador es una necesidad humanitaria para quienes portan esta condición, no puedo —ni quiero— permitir que experimentes con tu propia hermana en la sombra.<br><br>La experimentación humana no se vuelve aceptable porque el fin sea noble. Una poción de esta naturaleza, mal calibrada, podría derivar en resultados catastróficos: desde un colapso multiorgánico letal hasta una fijación genética irreversible que la deje atrapada en su forma lupina de manera permanente.<br><br>Por lo tanto, mi colaboración se detiene aquí hasta que reciba una confirmación escrita y consciente de Merlina. Ella debe conocer los riesgos, entender que su propia biología es el campo de pruebas y aceptar las consecuencias de un posible fallo. Sin su consentimiento explícito, no habrá más ingredientes, ni más teorías, ni más ayuda por mi parte.<br><br>Espero que tu deseo de salvarla no nuble tu respeto por su voluntad.<br><br>Atentamente,<br>Edwin Merrythought.<br></span></span>',
         },
         "segunda parte": {
-          "visible": { "attr": {"val": "min"}, "know": {"curación": "10"}, "job": "invalid", "name": "invalid", }, "place": "sobre: sugerencia de ingredientes de nuestro querido amiguito",
+          "visible": { "attr": { "val": "min" }, "know": { "curación": "10" }, "job": "invalid", "name": "invalid", }, "place": "sobre: sugerencia de ingredientes de nuestro querido amiguito",
           "cont": '<span class="book-clipping"><span class="notebook">Morgana,<br><br>Acuso recibo de la confirmación de Merlina. Debo decir que, aunque su saludo de «Estimado Idiota» me resulta del todo innecesario, la validez del consentimiento es lo único que me compete en este asunto, al menos una de las dos se atreve a decir lo que piensa.<br><br>Como te anticipé, para fabricar un regulador capaz de contener la marea genética, requerirás componentes que funcionen como «diques» biológicos. Mi propuesta principal se centra en las lágrimas de mandrágora. He estudiado sus efectos desde mi infancia en las plantaciones familiares, poseen una naturaleza dual única al estar ancladas a la tierra, pero dotadas de una reactividad nerviosa extrema.<br><br>A diferencia de la raíz, cuyo uso es más tosco, las lágrimas actúan directamente sobre el sistema nervioso central. Su propósito no es anular la transformación física —un error común que suele llevar a la muerte— sino preservar un hilo de conciencia humana durante el pico de saturación 8/8. Actúan como un sedante para el instinto atávico, permitiendo que la psique de Merlina flote sobre la marea en lugar de ser devorada por ella.<br><br>Además, su potencia analgésica facilitará que la transición entre fases, especialmente el salto crítico de 4/8 a 6/8, sea un deslizamiento elástico y no un choque violento. Esto debería prevenir las microrroturas de tejido que causan su agotamiento crónico.<br><br>Sin embargo, mi advertencia es severa: una dosificación excesiva o una destilación impura provocaría un «silencio nervioso» permanente. Merlina no solo dejaría de sentir la luna; podría perder la capacidad de procesar cualquier emoción o estímulo mágico, quedando en un estado catatónico irreversible.<br><br>Puedes complementar la fórmula con plata coloidal en dosis homeopáticas para fortalecer la resistencia de la membrana celular contra la mutación, y esencia de díctamo para sellar las fisuras neuronales post-ciclo. Pero ten cuidado: si la pureza de la plata no es absoluta, provocarás un choque anafiláctico inmediato.<br><br>Procede con cautela, si es que conoces el significado de la palabra.<br><br>Atentamente,<br>Edwin Merrythought.<br></span></span>',
         },
         "reporte de herbología": {
-          "visible": { "attr": {"val": "min"}, "know": {"curación": "10"}, "job": "invalid", "name": "invalid", }, "place": "segunda parte",
+          "visible": { "attr": { "val": "min" }, "know": { "curación": "10" }, "job": "invalid", "name": "invalid", }, "place": "segunda parte",
           "cont": '<span class="book-clipping"><span class="notebook">Señorita Dempsey,<br><br>Siento decirle que lo que pretende, implica un alto riesgo. Entiendo que haya llegado a la conclusión de que las lágrimas de mandrágora tienen mejores efectos que las raíces, pero, han muerto cientos de herbólogos tratando de dar con ellas. Actualmente, no encontrará nadie que brinde ese ingrediente y le tengo que decir que es extremadamente peligroso que usted lo intente. Mi consejo es que renuncie a la idea. Busque algo más. Puedo ofrecer la lista de sugerencias, pero descarte la que le han dado.<br><br>Si mi opinión no parece suficiente, le contaré lo que pasa cuando se acerca a una mandrágora y escucha su llanto.<br><br>El llanto produce una vibración que no golpea los oídos. Al instante, los pulmones se bloquean y el corazón estalla en un espasmo violento.. Creame, no es algo lindo de ver. Las estadísticas marcan que 9 de cada 10 herbologos expertos en la materia, han fallecido tratando de recolectar aquel elemento. No pierda su vida de aquella manera.<br><br>(En la letra de Morgana se puede leer una nota al final que reza: No, gracias).</span></span>',
         },
       },
@@ -2635,7 +2635,7 @@ const MissionsModule = (function () {
       "description": "Con las diferentes informaciones obtenidas, deberán ir al invernadero que Edwin había prestado a Morgana para encontrar cuál era el ingrediente secreto que posee el elixir y así poder replicar su fórmula y averiguar si aquello es o no una cura para los squibs.",
       "image": "https://2img.net/i.imgur.com/VMpvsfT.png", "requisitos": ["Un miembro debe tener Herbología en Avanzado", "Un miembro debe tener Encantamientos en Consagrado", "Se recomienda que un miembro posea Música en Principiante o una hija de Banshees"],
       "users": [],
-      "dependency": ["bottle of sorrows", "muted magic","stargazer's night"], "tagged": ["morgana","edwin","capitulo 0"],
+      "dependency": ["bottle of sorrows", "muted magic", "stargazer's night"], "tagged": ["morgana", "edwin", "capitulo 0"],
       "type": "misión", "closed": false, "link": "",
 
       "cards": [],
@@ -2649,7 +2649,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/gr7QrwZ.png", "requisitos": ["Un miembro debe tener Alquimia en Avanzado", "Un miembro debe tener Pociones en Avanzado"],
       "users": [],
       "dependency": ["the murmuring woods"],
-      "type": "investigación", "closed": false, "link": "", "tagged": ["morgana","capitulo 0"],
+      "type": "investigación", "closed": false, "link": "", "tagged": ["morgana", "capitulo 0"],
 
       "cards": [],
       "searchs": {},
@@ -2662,7 +2662,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/9HSXJzG.png", "requisitos": ["Un Nigromante o Alto cargo de San Mungo"],
       "users": ["/u8", "/u78", "/u7"],
       "dependency": ["secrets of the silent dead"],
-      "type": "investigación", "closed": true, "link": "https://blackwave.foroactivo.com/t561-investigacion-promise-in-crimson", "tagged": ["morgana","capitulo 0"],
+      "type": "investigación", "closed": true, "link": "https://blackwave.foroactivo.com/t561-investigacion-promise-in-crimson", "tagged": ["morgana", "capitulo 0"],
 
       "cards": [
         {
@@ -2745,7 +2745,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/Bm8BRJM.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica"],
       "users": ["/u130", "/u8", "/u55", "/u7"],
       "dependency": ["promise in crimson"],
-      "type": "investigación", "closed": true, "link": "/t661-investigacion-full-of-emptiness", "tagged": ["morgana","capitulo 0"],
+      "type": "investigación", "closed": true, "link": "/t661-investigacion-full-of-emptiness", "tagged": ["morgana", "capitulo 0"],
 
       "cards": [{
         "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "caja de madera rúnica",
@@ -2850,7 +2850,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/dYv886y.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica"],
       "users": ["i/u38", "/u130", "/u8"],
       "dependency": ["promise in crimson"],
-      "type": "interrogatorio", "closed": true, "link": "/t662-interrogatorio-green-to-blue", "tagged": ["morgana","capitulo 0"],
+      "type": "interrogatorio", "closed": true, "link": "/t662-interrogatorio-green-to-blue", "tagged": ["morgana", "capitulo 0"],
 
       "cards": [],
       "searchs": {},
@@ -2863,7 +2863,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/sjiXJ68.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica"],
       "users": ["i/u108", "i/u119", "/u7", "/u8"],
       "dependency": ["promise in crimson"],
-      "type": "interrogatorio", "closed": true, "link": "/t663-interrogatorio-distorted-memories", "tagged": ["morgana","capitulo 0"],
+      "type": "interrogatorio", "closed": true, "link": "/t663-interrogatorio-distorted-memories", "tagged": ["morgana", "capitulo 0"],
 
       "cards": [],
       "searchs": {},
@@ -2876,7 +2876,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/bjwrBd2.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica"],
       "users": ["i/u127", "/u78", "/u55"],
       "dependency": ["promise in crimson"],
-      "type": "interrogatorio", "closed": true, "link": "https://blackwave.foroactivo.com/t834-interrogatorio-journey-of-a-bird", "tagged": ["morgana","capitulo 0"],
+      "type": "interrogatorio", "closed": true, "link": "https://blackwave.foroactivo.com/t834-interrogatorio-journey-of-a-bird", "tagged": ["morgana", "capitulo 0"],
 
       "cards": [],
       "searchs": {},
@@ -2889,7 +2889,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/RMYPxuz.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica"],
       "users": ["/u8", "/u78", "/u55", "/u131"],
       "dependency": ["promise in crimson"],
-      "type": "misión", "closed": true, "link": "/t664-mision-frozen-sunflowers", "tagged": ["morgana","capitulo 2"],
+      "type": "misión", "closed": true, "link": "/t664-mision-frozen-sunflowers", "tagged": ["morgana", "capitulo 2"],
 
       "cards": [
         {
@@ -3042,10 +3042,10 @@ const MissionsModule = (function () {
 
     "the apple house": {
       "description": "Visitar las granjas galesas suele ser un sueño para muchos y una pesadilla para otros, pero deberán llegar a la casa que les mencionaron, para investigar lo sucedido con Merlina Dempsey de primera mano. En aquella granja algunas respuestas podrán encontrarse y otras implicarán nuevas investigaciones.",
-      "image": "https://2img.net/i.imgur.com/cX0CEv6.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica","Un miembro deberá haber obtenido la pista del interrogatorio 'green to blue' o de la investigación 'full of emptiness'","Un miembro deberá haber obtenido la pista del interrogatorio 'distorted memories' o 'journey of a bird"],
-      "users": ["/u55","/u78", "/u8"],
+      "image": "https://2img.net/i.imgur.com/cX0CEv6.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica", "Un miembro deberá haber obtenido la pista del interrogatorio 'green to blue' o de la investigación 'full of emptiness'", "Un miembro deberá haber obtenido la pista del interrogatorio 'distorted memories' o 'journey of a bird"],
+      "users": ["/u55", "/u78", "/u8"],
       "dependency": ["frozen sunflowers"],
-      "type": "interrogatorio", "closed": false, "link": "", "tagged": ["morgana","capitulo 0"],
+      "type": "interrogatorio", "closed": false, "link": "", "tagged": ["morgana", "capitulo 0"],
 
       "cards": [],
       "searchs": {},
@@ -3058,7 +3058,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/m4Mton6.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica"],
       "users": ["/u55", "/u7", "/u50"],
       "dependency": ["haunted dwelling"],
-      "type": "investigación", "closed": true, "link": "/t523-investigacion-commander-s-orders", "tagged": ["edwin","capitulo 0"],
+      "type": "investigación", "closed": true, "link": "/t523-investigacion-commander-s-orders", "tagged": ["edwin", "capitulo 0"],
 
       "cards": [],
       "actions": {},
@@ -3122,7 +3122,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/faVXbWl.png", "requisitos": ["Un miembro de la familia Merrythrought o un amigo cercano a la familia", "Un miembro del Dpto de Seguridad Mágica", "Un miembro debe poseer Astronomía en Avanzado"],
       "users": ["/u7", "/u50", "/u8", "/u55", "/u130"],
       "dependency": ["commander's orders"],
-      "type": "misión", "closed": true, "link": "/t665-mision-unveiling-the-unseen", "tagged": ["edwin","capitulo 0"],
+      "type": "misión", "closed": true, "link": "/t665-mision-unveiling-the-unseen", "tagged": ["edwin", "capitulo 0"],
 
       "cards": [
         {
@@ -3446,9 +3446,9 @@ const MissionsModule = (function () {
     "stargazer's night": {
       "description": "La investigación los lleva a un nuevo espacio guíado por el mismo Edwin Merrythought, aunque no saben a dónde conduce. Lo que implica una nueva investigación para descubrir qué es ese lugar, por qué Edwin lo guió allí y qué relación tiene con los asesinatos.",
       "image": "https://2img.net/i.imgur.com/3N0DmMz.png", "requisitos": ["Un miembro debe pertenecer a la familia Merrythought o ser un conocido cercano a la misma"],
-      "users": ["/u150","/u7","/u156","/u119"],
+      "users": ["/u150", "/u7", "/u156", "/u119"],
       "dependency": ["unveiling the unseen"],
-      "type": "investigación", "closed": true, "link": "https://blackwave.foroactivo.com/t1009-investigacion-stargazer-s-night", "tagged": ["edwin","capitulo 0"],
+      "type": "investigación", "closed": true, "link": "https://blackwave.foroactivo.com/t1009-investigacion-stargazer-s-night", "tagged": ["edwin", "capitulo 0"],
 
       "cards": [],
 
@@ -3457,7 +3457,7 @@ const MissionsModule = (function () {
           "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "neptune", }, "place": "",
           "cont": '<span>Permite recolectar el sobre con la información de la red flu que conecta a Dayflower Garden. La ubicación del mismo queda a disposición del usuario.</span>',
         },
-        
+
         "información red flu chim-sco/0123-p": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "copia de la red flu",
           "cont": '<span><span class="book-clipping"><br><div align="center"><strong>ALTA DE PUNTO RED FLU</strong></div><br><strong>Código de registro</strong>: CHIM-SCO/0123-P<br><strong>Fecha alta</strong>: 17 de Agosto de 1893.<br><strong>Oficina</strong>: Ministerio de Magia, Departamento de transporte, oficina 3.<br><br><div align="center"><strong>Información punto de conexión</strong></div><br><strong>Dirección</strong>: Dayflower Garden, Tairlaw en Sala de Estar.<br><br><strong>Tipo de Propiedad</strong>:<br>☒ Residencia Privada<br>☐ Comercial<br>☐ Institucional<br>☐ Clasificado<br><br><strong>Propietario Registrado</strong>: Mabel Merrythought<br><br><div align="center"><strong>Detalles técnicos de la chimenea</strong></div><br><strong>Designación oficial de la red flu</strong>: SCO-0123<br><br><strong>Tipo de conexión</strong>: <br>☒ Permanente<br>☐ Temporal<br><br><strong>Estado de seguridad mágica</strong>: <br>☐ Supervisada con runas<br>☒ Restringido (solo usuarios autorizados, ver anexo W-934)<br>☐ Abierta al público<br><br><strong>Encantamientos de protección aplicados</strong>:<br>☒ Sello de trazabilidad Flu<br>☒ Encantamiento de refracción muggle (nivel 3)<br>☒ Alarma de flujo inverso<br><br><strong>Documentación presentada</strong> (ver anexos):<br>☒ Contrato de responsabilidad<br>☐ Licencia de uso comercial<br>☒ Declaración jurada de propietario<br>☒ Informe de instalación: inspector Harlan Jaxtyn.<br>☒ Comprobante de pago</span></span>',
@@ -3470,10 +3470,10 @@ const MissionsModule = (function () {
 
     "dayflower gardens": {
       "description": "Tras la investigación sobre el lugar al que Edwin los llevó, descubren la existencia de una herencia de los Merrythought. Un lugar que había sido abandonado, pero cuyo objetivo se centra en ser un pulmón verde en las tierras escocesas. En esta misión se busca descubrir qué relación tiene este lugar con los asesinatos y por qué Edwin los llevó allí.",
-      "image": "https://2img.net/i.imgur.com/3N0DmMz.png", "requisitos": ["Un miembro debe pertenecer a la familia Merrythought o ser un conocido cercano a la misma","Un miembro debe poseer Herbología en Avanzado", "Un miembro debe poseer Música en Avanzado"],
+      "image": "https://2img.net/i.imgur.com/3N0DmMz.png", "requisitos": ["Un miembro debe pertenecer a la familia Merrythought o ser un conocido cercano a la misma", "Un miembro debe poseer Herbología en Avanzado", "Un miembro debe poseer Música en Avanzado"],
       "users": [],
       "dependency": ["stargazer's night"],
-      "type": "misión", "closed": false, "link": "", "tagged": ["edwin","capitulo 0"],
+      "type": "misión", "closed": false, "link": "", "tagged": ["edwin", "capitulo 0"],
 
       "cards": [],
       "searchs": {},
@@ -3486,7 +3486,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/Bt35Exz.png", "requisitos": ["Un miembro debe poseer Alquimia o Pociones en Avanzado"],
       "users": [],
       "dependency": ["dayflower gardens"],
-      "type": "investigación", "closed": false, "link": "", "tagged": ["edwin","capitulo 0"],
+      "type": "investigación", "closed": false, "link": "", "tagged": ["edwin", "capitulo 0"],
 
       "cards": [],
       "searchs": {},
@@ -3499,7 +3499,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/MbBcQcL.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica"],
       "users": [],
       "dependency": ["velvet death", "stargazer's night"],
-      "type": "interrogatorio", "closed": false, "link": "", "tagged": ["edwin", "wave","capitulo 0"],
+      "type": "interrogatorio", "closed": false, "link": "", "tagged": ["edwin", "wave", "capitulo 0"],
 
       "cards": [],
       "searchs": {},
@@ -3512,7 +3512,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/JyNcMmD.png", "requisitos": ["Un miembro debe tener CCM en Avanzado", "Un miembro debe poseer Curación en Avanzado"],
       "users": [],
       "dependency": ["the apple house", "stargazer's night", "in search of the deathly hallows"],
-      "type": "misión", "closed": false, "link": "", "tagged": ["wave","capitulo 1"],
+      "type": "misión", "closed": false, "link": "", "tagged": ["wave", "capitulo 1"],
 
       "cards": [],
       "searchs": {},
@@ -3525,7 +3525,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/chnJil9.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica", "Se recomienda una persona que crea en la Orden de los Ancestros"],
       "users": [],
       "dependency": ["the wounded dragon"],
-      "type": "misión", "closed": false, "link": "", "tagged": ["wave","capitulo 1"],
+      "type": "misión", "closed": false, "link": "", "tagged": ["wave", "capitulo 1"],
 
       "cards": [],
       "searchs": {},
@@ -3538,7 +3538,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/K4LFLIJ.png", "requisitos": ["Un miembro debe poseer Adivinación en Consagrado o ser vidente"],
       "users": [],
       "dependency": ["heaven of the forgotten", "nothing but the truth"],
-      "type": "investigación", "closed": false, "link": "", "tagged": ["wave","capitulo 0"],
+      "type": "investigación", "closed": false, "link": "", "tagged": ["wave", "capitulo 0"],
 
       "cards": [],
       "searchs": {},
@@ -3551,7 +3551,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/f4NsoJy.png", "requisitos": [],
       "users": [],
       "dependency": ["the wounded dragon"],
-      "type": "investigación", "closed": false, "link": "", "tagged": ["wave","capitulo 1"],
+      "type": "investigación", "closed": false, "link": "", "tagged": ["wave", "capitulo 1"],
 
       "cards": [],
       "searchs": {},
@@ -3564,7 +3564,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/0E6XyJW.png", "requisitos": ["Un miembro debe poseer CCM en Avanzado", "Un miembro del Dpto de Seguridad Mágica"],
       "users": [],
       "dependency": ["the wounded dragon"],
-      "type": "misión", "closed": false, "link": "", "tagged": ["wave","capitulo 1"],
+      "type": "misión", "closed": false, "link": "", "tagged": ["wave", "capitulo 1"],
 
       "cards": [],
       "searchs": {},
@@ -3577,7 +3577,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/lVnrOfx.png", "requisitos": ["La administración abrirá un tema con las condiciones para desbloquear esta trama"],
       "users": [],
       "dependency": ["lethal trail"],
-      "type": "misión", "closed": false, "link": "", "tagged": ["edwin", "morgana", "sirius", "wave","capitulo 0"],
+      "type": "misión", "closed": false, "link": "", "tagged": ["edwin", "morgana", "sirius", "wave", "capitulo 0"],
 
       "cards": [],
       "searchs": {},
@@ -3590,7 +3590,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/BgdlkCZ.png", "requisitos": ["La administración abrirá un tema con las condiciones para desbloquear esta trama"],
       "users": [],
       "dependency": ["nothing but the truth"],
-      "type": "misión", "closed": false, "link": "", "tagged": ["wave","capitulo 1"],
+      "type": "misión", "closed": false, "link": "", "tagged": ["wave", "capitulo 1"],
 
       "cards": [],
       "searchs": {},
@@ -3603,7 +3603,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/AFEm2I9.png", "requisitos": ["La administración abrirá un tema con las condiciones para desbloquear esta trama"],
       "users": [],
       "dependency": ["the obsidian tide"],
-      "type": "misión", "closed": false, "link": "", "tagged": ["wave","capitulo 1"],
+      "type": "misión", "closed": false, "link": "", "tagged": ["wave", "capitulo 1"],
 
       "cards": [],
       "searchs": {},
@@ -3614,9 +3614,9 @@ const MissionsModule = (function () {
     "the rest of us": {
       "description": "Un ataque se ha llevado a cabo en la Residencia Hawksmoor, donde han secuestrado a 6 niños y 3 adultos de diferentes especies mágicas. A ellos se suman 2 coordinadores y 2 Loriens.",
       "image": "https://2img.net/i.imgur.com/zZ5WNNh.png", "requisitos": ["Un personaje tendrá que tener curación en avanzado", "Un personaje tendrá que tener Transformaciones en Avanzado", "Un personaje deberá ser miembro del Departamento de Seguridad"],
-      "users": ["c/u1","/u8","/u24","/u12","/u145"],
+      "users": ["c/u1", "/u8", "/u24", "/u12", "/u145"],
       "dependency": [],
-      "type": "misión", "closed": true, "link": "https://blackwave.foroactivo.com/t933-mision-the-rest-of-us", "tagged": ["original","capitulo 3"],
+      "type": "misión", "closed": true, "link": "https://blackwave.foroactivo.com/t933-mision-the-rest-of-us", "tagged": ["original", "capitulo 3"],
 
       "cards": [],
       "searchs": {
@@ -3755,7 +3755,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/fDwQ2CI.png", "requisitos": ["Un personaje deberá ser miembro del Departamento de Seguridad"],
       "users": ["c/u8", "c/u55", "/u146", "/u130"],
       "dependency": ["frozen sunflowers"],
-      "type": "investigación", "closed": false, "link": "/t984-interrogatorio-silent-sentinel", "tagged": ["original","capitulo 2"],
+      "type": "investigación", "closed": false, "link": "/t984-interrogatorio-silent-sentinel", "tagged": ["original", "capitulo 2"],
 
       "cards": [
         {
@@ -3798,9 +3798,9 @@ const MissionsModule = (function () {
     "clandestine melodies": {
       "description": "Aquellos que se mueven en los círculos saben perfectamente que existe una banda de trovadores cuyos cánticos ocultan un precio y las guitarras, un secreto. Para poder obtener más información de la familia Denman deberán infiltrarse a los ensaños de la banda Fhómhair quiénes suelen tener toda la información sobre los trabajos más clandestinos de la sociedad.",
       "image": "https://2img.net/i.imgur.com/tKGTsc9.png", "requisitos": ["Un miembro debe tener Contrabando en Avanzado", "Un miembro debe tener Magia Oscura en Consagrado"],
-      "users": ["c/u131","/u8","/u55","/u9","/u145"],
+      "users": ["c/u131", "/u8", "/u55", "/u9", "/u145"],
       "dependency": ["frozen sunflowers"],
-      "type": "misión", "closed": false, "link": "/t983-mision-clandestine-melodies", "tagged": ["original","capitulo 3"],
+      "type": "misión", "closed": false, "link": "/t983-mision-clandestine-melodies", "tagged": ["original", "capitulo 3"],
 
       "cards": [
         {
@@ -3822,119 +3822,119 @@ const MissionsModule = (function () {
       ],
 
       "searchs": {
-        "presentarse como contrabandistas":{
+        "presentarse como contrabandistas": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
           "cont": '<span>A ritmo constante de una marcha exigente y ruda, la banda responde: «A nadie cerramos la puerta si el rastro es de oscuridad, / pero el hierro no se dobla sin la palabra de verdad. / Di el nombre que abre el cerrojo, suelta el santo y la señal, / y verás que nuestra lengua no distingue el bien del mal».</span>'
         },
-        "ofrecer la contraseña":{
+        "ofrecer la contraseña": {
           "visible": { "attr": { "val": "min" }, "know": { "contrabando": "10" }, "job": "invalid", "name": "invalid", }, "place": "presentarse como contrabandistas",
           "cont": '<span>Tras brindar la contraseña, que es nombrar al primer trovador en entonar una nota, en este caso Tadhg, el ritmo de la guitarra cambia. Las notas se vuelven más suaves y cálidas, un acorde de Sol Mayor: «Viejo amigo de las sombras, es un gusto volverte a ver, / dime qué carga traes hoy que nos pueda convencer. / ¿Buscas llenar los bolsillos, o que el cuervo dicte sentencia? / ¿O es que el camino te pesa y buscas paz y clemencia?».<adding search="comenzar interrogatorio" class="check-cards"></adding></span>'
         },
-        "deducir la contraseña":{
+        "deducir la contraseña": {
           "visible": { "attr": { "sab": "3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "presentarse como contrabandistas",
           "cont": '<span>Mientras suena un punteo tenso y agudo esperando la respuesta. El personaje puede darse cuenta de que un par de músicos observan a uno de sus miembros en particular, que suavemente mueve la pierna con una sonrisa vaga en sus labios. El personaje puede señalar al trovador, y varios miembros de la banda mostrarían su sorpresa antes de que Cillian responda: «Bienvenido sea el colega, aunque el rostro no nos suena, / no recordamos tu sombra en esta mesa ajena. / Si quieres ganar el sitio y que el juicio se desvanezca, / haz que un poco de arte negro ante nosotros florezca».</span>'
         },
-        "inventar la contraseña":{
+        "inventar la contraseña": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "presentarse como contrabandistas",
           "cont": '<span>Tras inventar una contraseña, la música se detiene de súbito. Algunos miembros cuelgan sus guitarras dando la intervención por terminada: «Lamentamos el desvío, caminante de otra acera, / aquí solo hay viejas cuerdas y madera que desespera. / Somos músicos de paso, no buscamos el conflicto, / siga su ruta, viajero, su nombre no está escrito». <br>Los usuarios deben avisar a la administración. No pasaron la prueba de los trovadores y, en consecuencia, han perdido la misión. Todos los personajes pierden 2 puntos en contrabando o 1 de sabiduría.</span>'
         },
-        "presentarse como miembros del ministerio":{
+        "presentarse como miembros del ministerio": {
           "visible": { "attr": { "int": "3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
           "cont": '<span>Tras presentarse como miembros del Ministerio de Magia, los trovadores sonríen, enderezan sus aspectos y acomodan los chalecos o las gabardinas. El tono empleado es servil, pero cargado con una ironía peligrosa: «Por nuestra querida Tuft, lo que el orden necesite, / que la ley toque a la puerta y el miedo se nos quite. / ¿Ha enviado la señora a quien domeñe lo oscuro? / ¿Traes contigo la marca que atraviese este muro?».</span>'
         },
-        "presentarse como personas que buscan información":{
+        "presentarse como personas que buscan información": {
           "visible": { "attr": { "int": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
           "cont": '<span>Tras presentarse como neutrales, el tono de la banda se vuelve burlón: «Si no traes causa ni guerra, y tu sangre es de cristal, / el baño está a la derecha, al fondo del pastizal. / Si el vientre te ruge fuerte y el apuro te condena, / abre bien la ventana para que el aire no dé pena».</span>'
         },
-        "volver a presentarse como miembros del ministerio":{
+        "volver a presentarse como miembros del ministerio": {
           "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "presentarse como personas que buscan información",
           "cont": '<span>Tras corregir la presentación y confesar ser enviados por el Ministerio de Magia, Cillian da un golpe violento a la caja de la guitarra antes de señalar al grupo: «Amigo, a nosotros no se nos engaña con ese disfraz barato, / el ojo que todo lo ve ha detectado el maltrato. / Dos mil galeones de multa por el error cometido, / el precio de ser un sordo en este nido de ruido».</span>'
         },
-        "pagar":{
+        "pagar": {
           "visible": { "attr": { "int": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "volver a presentarse como miembros del ministerio",
           "cont": '<span>La música, detenida por un momento, cobra el ritmo nuevamente, de una manera prolija y profesional: «Ya suena el metal de nuevo, el costo de ser sincero, / nuestras rimas son de acero, pero el trato es lo primero. / No aceptamos la mentira en el verso ni en el suelo, / ahora habla con la verdad, o busca paz en el cielo».<adding search="comenzar interrogatorio" class="check-cards"></adding></span>'
         },
-        "preguntar por los denman":{
+        "preguntar por los denman": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "comenzar interrogatorio",
           "cont": '<span>La música se vuelve lenta y lúgubre: «Eran gente simple, de mente muy llana, / que quiso burlar la ley soberana. / Buscaron la vida donde habita el frío, / y el arte prohibido causó su desvío. / La magia tiene fronteras de fuego, / y a los Denman atrapó en su juego. / La sombra los quiso a todos llevar, / ni un alma quedó para el cuento narrar».</span>'
         },
-        "preguntar por el anillo":{
+        "preguntar por el anillo": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar por los denman",
           "cont": '<span>Con una pausa larga, los músicos buscan a Cillian, quien turce el gesto y la música continúa: «Se dice que el viejo, con mano de acero, / cazó a un gran lobo en el monte fiero. / De un hueso bendito talló su amuleto, / cargando en su dedo un poder secreto. / Dicen que el brillo su magia ensanchaba, / y al mismo destino el hombre retaba. / Aunque él con silencio su obra cubrió, / la fama del anillo su tumba cavó».</span>'
         },
-        "preguntar por los wraitwood":{
+        "preguntar por los wraitwood": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar por el anillo",
           "cont": '<span>La música se vuelve un susurro, los músicos que preguntan a su líder si continuar: «No llames al muerto que duerme en el lodo, / que el nombre de Morian lo pudre todo. / Las gemelas pronto el umbral cruzaron, / y en oscuras artes su sed calmaron. / Dijeron a todos: "Estamos en Francia", / mintiendo con clase y con elegancia. / Pero en Inglaterra la sombra buscaban, / y al mundo entre robos ellas engañaban».</span>'
         },
-        "preguntar sobre morian":{
+        "preguntar sobre morian": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar por los wraitwood",
           "cont": '<span>Una sonrisa aparece en Cillian y la música cobra ritmo golpeado: «Mejor le hubiera ido al pobre de Zeke, / si el odio fraterno no fuera su trueque. / Escapó de la Parca por sendas extrañas, / burlando a la muerte con mil artimañas. / Pero ella es más lista, su hermana es astuta, / lo halló en el final de su lúgubre ruta. / Las causas son justas, la ley lo aceptó, / y el beso del ente su alma bebió».</span>'
         },
-        "preguntar por la traición":{
+        "preguntar por la traición": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar sobre morian",
           "cont": '<span>Puede notarse el respeto de los músicos en aquella parte, el estilo solemne que arrastran con la voz quebrada: «Un padre podrido, de estirpe acabada, / vendió a la muchacha por una tajada. / Tan joven e indigna de tal sufrimiento, / su propia familia fue su tormento. / El hijo mayor puso mano en la infamia, / el menor calló con su cobarde infamia. / Pero ella guardó cada herida y rencor, / tejiendo en su pecho un invierno de horror». Por el fondo se escucha a uno de los músicos negar y decir: «A penas había abandonado los quince». Los otros músicos lo callan, que interrumpa la música.</span>'
         },
-        "preguntar por la justicia":{
+        "preguntar por la justicia": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar por la traición",
           "cont": '<span>Después de la interrupción, la música cobra ritmo: «La tinta del diario gritó su bajeza, / poniendo precio a cada cabeza. / Pues ella entregó los secretos de casa, / quemando el linaje con fuego y con brasa. / Recibieron todos su amargo merecido, / por lo que a la joven le habían rendido. / Apenas la ley ellos osaron romper, / ella les hizo el infierno conocer». La sonrisa orgullosa de los músicos cobra fuerza, sabiendo que la triste historia tenía final feliz.</span>'
         },
-        "preguntar por la identidad":{
+        "preguntar por la identidad": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar por la justicia",
           "cont": '<span>La tonada toma silencio, Cillian los observa hasta decidir que son de confianza: «Ya no hay Rosier que recuerde la historia, / borró su apellido de toda memoria. / Ni influencias ni oro la pueden atar, / prefirió su pasado del mapa borrar. / Nosotros la amamos, fue escudo y fue guía, / para que nadie sufra su propia agonía. / Pero hasta en la sombra le guardan respeto, / pues lleva el filo bajo el amuleto».</span>'
         },
-        "preguntar por el apellido":{
+        "preguntar por el apellido": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar por la identidad",
           "cont": '<span>«Aurelius dejó solo sangre en el suelo, / Valerian fue muerte bajo un negro velo. / Zeke fue Morian, fingiendo su vida, / pero Wilhelmina cerró la salida. / No dejó a ninguno de aquellos varones, / pagaron sus deudas en mil ocasiones. / Salvo a las gemelas, que al ver la matanza, / juraron ser rostro de otra venganza». la música se vuelve desgarradora en esa pequeña parte. Una mueca pues la sangre con sangre se paga.</span>'
         },
-        "preguntar por wrenn":{
+        "preguntar por wrenn": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "comenzar interrogatorio",
           "cont": '<span>la voz de Cillian se vuelve seca y cortante: «Vendió su linaje, vendió su decencia, / buscando en el mundo mayor eminencia. / Quiso ser más grande que el padre maldito, / y alzó su bandera en un reino proscrito. / Mas puso los ojos en manos erradas, / y vio sus apuestas del todo truncadas. / No pudo el dinero la deuda pagar, / y un tiro en el pecho la fue a silenciar».<br><br><u>Nota</u>Si tienen más preguntas que quieran hacer, pueden enviar las mismas por privado. En caso contrario, deberán avisar a la administración para que realice el correspondiente masteo.</span>'
         },
-        "preguntar por nina":{
+        "preguntar por nina": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "primera intervención",
           "cont": '<span>La voz de Cillian se aclara y la música suave comienza a sonar: «Nina nació sin la chispa, / la magia su sangre hería, / mas halló valor distinto / donde nadie lo veía. / Callada como la sombra, / escurridiza en su andar, / buscaba siempre las luces / para a su hermana ocultar. / Hoy es alma entre dos mundos, / espectro que el viento trajo, / y aún no se sabe si es buena / o viene del mismo averno».</span>'
         },
-        "preguntar por el trato de wrenn":{
+        "preguntar por el trato de wrenn": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "primera intervención",
           "cont": '<span>Las cuerdas parecen tensarse, pero la música continua mientras la banda busca a su lider, evaluando si es seguro responder. Cillian responde, «Se buscaba un cuerpo breve / para un robo realizar, / Wrenn necesitaba el oro, / nosotros solo el hablar. / El contacto fue sencillo, / mas dicen que ella guardó / el objeto prohibido / y este sitio la expulsó».</span>'
         },
-        "preguntar por el beso de zeke":{
+        "preguntar por el beso de zeke": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "primera intervención",
           "cont": '<span>Cillian comparte una sonrisa con su compañero de guitarra antes de volverse a los invitados: «Morian se creyó astuto, / de la muerte hizo su hogar, / oculto entre los difuntos / para al mundo engañar. / Una magia practicaba / que no gusta al Ministerio, / pero el rastro de una gota / desveló su vil misterio. / Una sangre en el camino / que Tuft supo rastrear, / y veinte vidas segadas / tuvo el reo que pagar».</span>'
         },
-        "preguntar por el anillo de denman":{
+        "preguntar por el anillo de denman": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "primera intervención",
           "cont": '<span>Dos músicos se miraron, pero luego se encogieron de hombro y aligeraron la música: «Dicen que el hueso de bestia / abre un puente al más allá, / que el hechizo se hace fuerte / con lo que muerto ya está. / Por eso el oso en el dedo, / por magia negra caído, / un nexo con los espectros / que el anillo ha bendecido».</span>'
         },
-        "preguntar por soly":{
+        "preguntar por soly": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "primera intervención",
           "cont": '<span>Por un momento, Cillian se rasca la barbilla antes de decir: «¿Soly dice? No me suena, / ese nombre no es de aquí. / Sus pies nunca caminaron / por el suelo que yo vi».</span>'
         },
-        "beber vaso con líquido rojo":{
+        "beber vaso con líquido rojo": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "segunda intervención",
           "cont": '<span>La bebida hace que el líquido arda en las venas. El personaje pierde 100 PV. El personaje no podrá mencionar a la banda ni el lugar donde se encuentran.</span>'
         },
-        "beber vaso con líquido naranja":{
+        "beber vaso con líquido naranja": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "segunda intervención",
           "cont": '<span>La bebida provoca que el cuerpo se paralice ligeramente, impidiendo que realice hechizos por el tiempo que el personaje considere adecuado para su trama. El personaje no podrá mencionar a la banda ni el lugar donde se encuentran.</span>'
         },
-        "beber vaso con líquido amarillo":{
+        "beber vaso con líquido amarillo": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "segunda intervención",
           "cont": '<span>El personaje olvida quién es y por qué esta ahí por el tiempo que el personaje considere adecuado para su trama. El personaje no podrá mencionar a la banda ni el lugar donde se encuentran.</span>'
         },
-        "beber vaso con líquido verde":{
+        "beber vaso con líquido verde": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "segunda intervención",
           "cont": '<span>El líquido sabe a agua fresca. El personaje no podrá mencionar a la banda ni el lugar donde se encuentran.</span>'
         },
-        "beber vaso con líquido azul":{
+        "beber vaso con líquido azul": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "segunda intervención",
           "cont": '<span>El personaje deberá confesar si mintió en algún momento de todo el intercambio. Si lo hizo, deberá pagar 500 galeones para poder irse. El personaje no podrá mencionar a la banda ni el lugar donde se encuentran.</span>'
         },
-        "beber vaso con líquido índigo":{
+        "beber vaso con líquido índigo": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "segunda intervención",
           "cont": '<span>El personaje sentirá las piernas de gelatina, otro personaje deberá ayudarlo a salir. El personaje no podrá mencionar a la banda ni el lugar donde se encuentran.</span>'
         },
-        "beber vaso con líquido morado":{
+        "beber vaso con líquido morado": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "segunda intervención",
           "cont": '<span>Hace que el personaje siga escuchando la melodía de la banda por el tiempo que el personaje considere adecuado. El personaje no podrá mencionar a la banda ni el lugar donde se encuentran.</span>'
         },
@@ -4002,9 +4002,9 @@ const MissionsModule = (function () {
     "midnight ashes": {
       "description": "La redada en la que Wrenn Wraithwood falleció, oculta una verdad que se ha vuelto necesaria descubrir. Por lo tanto, deberán conseguir toda la información que puedan de la misma para comprender la relación de Wrenn y Nina.",
       "image": "https://2img.net/i.imgur.com/5xLMKUg.png", "requisitos": ["Un personaje deberá ser miembro del Departamento de Seguridad"],
-      "users": ["c/u8", "c/u55","/u78","/u146"],
+      "users": ["c/u8", "c/u55", "/u78", "/u146"],
       "dependency": ["frozen sunflowers"],
-      "type": "investigación", "closed": true, "link": "https://blackwave.foroactivo.com/t934-investigacion-midnight-ashes", "tagged": ["original","capitulo 2"],
+      "type": "investigación", "closed": true, "link": "https://blackwave.foroactivo.com/t934-investigacion-midnight-ashes", "tagged": ["original", "capitulo 2"],
 
       "cards": [],
 
@@ -4058,9 +4058,9 @@ const MissionsModule = (function () {
     "paper mask": {
       "description": "Para poder completar toda la información, deberán revisar toda la información que se tiene sobre la familia Wraithwood, incluyendo anomalías en el documento final de Wrenn Wraithwood.",
       "image": "https://2img.net/i.imgur.com/SvlR6WP.png", "requisitos": ["Un personaje debe ser Nigromante"],
-      "users": ["c/u78","/u8","/u55","/u91"],
+      "users": ["c/u78", "/u8", "/u55", "/u91"],
       "dependency": ["frozen sunflowers"],
-      "type": "investigación", "closed": true, "link": "https://blackwave.foroactivo.com/t838-investigacion-18-paper-mask", "tagged": ["original","capitulo 2"],
+      "type": "investigación", "closed": true, "link": "https://blackwave.foroactivo.com/t838-investigacion-18-paper-mask", "tagged": ["original", "capitulo 2"],
 
       "cards": [
         {
@@ -4216,7 +4216,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/nVh3XB1.png", "requisitos": ["Un personaje deberá ser miembro del Departamento de Seguridad"],
       "users": ["c/u8", "c/u55"],
       "dependency": ["paper mask", "midnight ashes", "clandestine melodies", "silent sentinel"],
-      "type": "misión", "closed": false, "link": "", "tagged": ["original","capitulo 3"],
+      "type": "misión", "closed": false, "link": "", "tagged": ["original", "capitulo 3"],
 
       "cards": [],
       "searchs": {},
@@ -4240,7 +4240,7 @@ const MissionsModule = (function () {
     "a gentle hand": {
       "description": "Tras una pequeña investigación realizada por los hermanos Moody, las pistas conducen a dos magos y a la dirección de la casa de los mismos, donde ya desde afuera se pueden escuchar los ladridos y los lamentos de unos cachorros de crup que reclaman ayuda.",
       "image": "https://i.imgur.com/nNgVsfv.png", "requisitos": ["Dos personajes deberán ser miembro del Departamento de Seguridad", "Un personaje deberá tener CCM en Avanzado"],
-      "users": ["c/u157","/u150","/u13","/u55","/u171"],
+      "users": ["c/u157", "/u150", "/u13", "/u55", "/u171"],
       "dependency": [],
       "type": "misión", "closed": false, "link": "", "tagged": ["original"],
 
@@ -4253,7 +4253,7 @@ const MissionsModule = (function () {
     "through the night": {
       "description": "Lo que empezó como una nota para El Profeta sobre plantas prohibidas ha mutado en algo oscuro. Entre calderos marcados y un sospechoso que calla para siempre, Amanirenas y Moody acechan una verdad que implica un interrogatorio a la familia Borges.",
       "image": "https://i.imgur.com/nmW3tFz.png", "requisitos": ["Un personaje deberán ser miembro del Departamento de Seguridad"],
-      "users": ["c/u8","c/u145","/u171"],
+      "users": ["c/u8", "c/u145", "/u171"],
       "dependency": [],
       "type": "misión", "closed": false, "link": "", "tagged": ["original"],
 
@@ -4265,239 +4265,239 @@ const MissionsModule = (function () {
 
     "the mercy of death": {
       "description": "Entre los muros de Azkaban, Yusuf y Vinnie guardan el secreto del canto de la banshee y el enigma de la W. Un interrogatorio cargado de cinismo revelará una verdad amarga: ¿qué es lo que realmente ocurrió aquella noche en la que Wrenn Wraithwood perdió la vida? ¿Qué secretos se esconden detrás de su trágico destino? La respuesta a estas preguntas podría cambiarlo todo, pero también podría ser más dolorosa de lo que imaginan.",
-      "image": "https://i.imgur.com/0VEBWJ2.png", "requisitos": ["Un personaje deberá ser miembro del Departamento de Seguridad","Un personaje deberá tener Magia Oscura en Avanzado","Tres personajes deberán tener Patronus en Avanzado"],
-      "users": ["c/u8","/u55","/u153","/u78","/u159","/u50"],
+      "image": "https://i.imgur.com/0VEBWJ2.png", "requisitos": ["Un personaje deberá ser miembro del Departamento de Seguridad", "Un personaje deberá tener Magia Oscura en Avanzado", "Tres personajes deberán tener Patronus en Avanzado"],
+      "users": ["c/u8", "/u55", "/u153", "/u78", "/u159", "/u50"],
       "dependency": ["midnight ashes"],
-      "type": "misión", "closed": false, "link": "/t1109-mision-the-mercy-of-death", "tagged": ["original","capitulo 3"],
+      "type": "misión", "closed": false, "link": "/t1109-mision-the-mercy-of-death", "tagged": ["original", "capitulo 3"],
 
       "cards": [],
 
       "searchs": {
-          "activar traslador": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-            "cont": '<span>Al activar el traslador, el mismo tiembla por un momento hasta que los traslada al Hall de Azkaban. El Hall, al igual que toda la prisión es un espacio húmedo y frío. Sus paredes y pisos de hierro hacen que cada paso o voz resuene con un eco capaz de causar escalofríos.<adding search="hall" class="check-cards"></adding></span>',
-          },
-          "primera instrucción": {
-            "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "activar traslador",
-            "cont": '<span>Se deberá ignorar la primera escalera y caminar hasta el final del corredor que tienen frente a ellos.</span>',
-          },
-          "subir las primeras escaleras": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "hall",
-            "cont": '<span>Las primeras escaleras se encuentran a la derecha del Hall. Al subir las mismas, llegan a una hilera de celdas que parecen estar vacías. Excepto una.<adding search="primer piso lado a" class="check-cards"></adding></span>',
-          },
-          "revisar celdas": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "primer piso lado a",
-            "cont": '<span>Las celdas que parecen estar vacías, en realidad, tienen personas dentro, pero sus personalidades ya han desparecido. Miran sin ver, no responden a ninguna estimulación de sonido. Algunos aún se mueven, uno en particular, lastima su cabeza contra la pared.</span>',
-          },
-          "seguir subiendo por lado a": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "primer piso lado a",
-            "cont": '<span>Al subir un piso más, se encuentran con un grupo de 25 dementores que atacan inmediatamente.</span>',
-          }, 
-          "bajar al hall desde el lado a": {
-            "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "primer piso lado a",
-            "cont": '<span>Al regresar al hall pueden tomar una nueva decisión.<adding search="hall" class="check-cards"></adding></span>',
-          },
-          "caminar por el corredor de la izquierda": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "hall",
-            "cont": '<span>COMPLETAR</span>',
-          },
-          "subir escaleras": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "caminar por el corredor de la izquierda",
-            "cont": '<span>Al subir las escaleras se encuentran con la terraza de la prisión y 18 dementores comienzan a atacarlos.</span>',
-          },
-          "caminar hasta el final del pasillo": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "hall",
-            "cont": '<span>Al caminar hasta el final del pasillo, se encuentran con otra escalera.</span>',
-          },
-          "subir las escaleras del lado b": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "caminar hasta el final del pasillo",
-            "cont": '<span>Al subir las escaleras se encuentran con una fila de celdas vacías. Sin embargo, al mirar por la pequeña rendija, pueden darse cuenta que han subido más pisos, porque el agua de nota muy debajo de donde se encuentran.<adding class="check-cards" search="primer piso lado b"></adding></span>',
-          },
-          "regresar al corredor": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "primer piso lado b",
-            "cont": '<span>Permite regresar al Hall donde podrán irse si lo desean<adding search="hall" class="check-cards"></adding></span>',
-          },
-          "segunda instrucción": {
-            "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "subir las escaleras del lado b",
-            "cont": '<span>Las instrucciones indican que deben subir dos pisos más.</span>',
-          },
-          "subir al segundo piso": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "subir las escaleras del lado b",
-            "cont": '<span>El segundo corredor los recibe con el aroma a mar y humedad. Se encuentra vacío, como una planta que no se utiliza. Los dementores se mueven alejados por los patronus. Sin embargo, descuentan 2 turnos del contador si el numero del dado lanzado en la tarjeta es par; descuenta 4 turnos si es impar.<adding class="check-cards" search="segundo piso"></adding></span>',
-          },
-          "regresar al primer piso": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "segundo piso",
-            "cont": '<span>Permite regresar al primer piso. Los dementores se mueven alejados por los patronus. Sin embargo, descuentan 1 turno del contador si el numero del dado lanzado en la tarjeta es par; descuenta 3 turnos si es impar.<adding class="check-cards" search="primer piso lado b"></adding></span>',
-          },
-          "subir al tercer piso": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "segundo piso",
-            "cont": '<span>El tercer piso, igual de frío que los anteriores, está iluminado por una luz tenue que se filtra a través de las ventanas. Los presos en las celdas observan a las personas confundidos en un principio, sin entender si terminan de ser una ilusión. Los dementores se mueven alejados por los patronus. Sin embargo, descuentan 5 turnos del contador si el numero del dado lanzado en la tarjeta es par; descuenta 3 turnos si es impar.<adding class="check-cards" search="tercer piso"></adding></span>',
-          },
-          "instrucción tercer piso": {
-            "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "tercer piso",
-            "cont": '<span>Deben tomar el corredor entre las celdas y subir un piso adicional.</span>',
-          },
-          "regresar al segundo piso": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "tercer piso",
-            "cont": '<span>Permite regresar al segundo piso. Los dementores se mueven alejados por los patronus. Sin embargo, descuentan 1 turno del contador si el numero del dado lanzado en la tarjeta es par; descuenta 3 turnos si es impar.<adding class="check-cards" search="primer piso lado b"></adding></span>',
-          },
-          "subir al cuarto piso": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "tercer piso",
-            "cont": '<span>Los dementores no esperaban que tomen ese lugar. Dismiuye 10 turnos el contador y elimina todos los patronus que deberán volver a ser conjurados.<adding class="check-cards" search="cuarto piso"></adding></span>',
-          },
-          "regresar al tercer piso": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "cuarto piso",
-            "cont": '<span>Permite regresar al tercer piso. Los dementores se mueven alejados por los patronus. Sin embargo, descuentan 1 turno del contador si el numero del dado lanzado en la tarjeta es par; descuenta 3 turnos si es impar.<adding class="check-cards" search="cuarto piso"></adding></span>',
-          },
-          "revisar celdas": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "tercer piso",
-            "cont": '<span>Los presos se dividen entre quienes los miran y quienes les imploran ayuda. «Por favor, ya aprendí» susurran algunos pidiendo ayuda. Los dementores se mueven alejados por los patronus. Sin embargo, descuentan 1 turno del contador si el numero del dado lanzado en la tarjeta es par; descuenta 3 turnos si es impar.</span>',
-          },
-          "tomar el corredor entre las celdas": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "tercer piso",
-            "cont": '<span>El corredor, si bien esta vacío, ofrece una visión lateral de todos los presos del lugar. Las celdas vacías, frías y húmedas que no parecen ofrecer descanso alguno.</span>',
-          },
-          "llegar a la escalera del fondo": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "tomar el corredor entre las celdas",
-            "cont": '<span>El corredor los regresa a un pequeño espacio, donde se puede ver una escalera mucho más pequeña que las anteriores. Los dementores se mueven alejados por los patronus. Sin embargo, descuentan 7 turnos del contador si el numero del dado lanzado en la tarjeta es par; descuenta 5 turnos si es impar.</span>',
-          },
-          "subir la escalera del fondo": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "llegar a la escalera del fondo",
-            "cont": '<span>Al subir por las escaleras, deberán tener cuidado de no resbalarse por ellas, logran llegar a un espacio de pocas celdas, donde puede verse un cartel escrito en runas.Los dementores se mueven alejados por los patronus. Sin embargo, descuentan 2 turnos del contador si el numero del dado lanzado en la tarjeta es par; descuenta 4 turnos si es impar.</span>',
-          },
-          "cuatro instrucción": {
-            "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "subir la escalera del fondo",
-            "cont": '<span>Al llegar al espacio donde se encuentran los nigromantes, deberán buscar la tercera y cuarta celda.</span>',
-          },
-          "llegar a la tercera y cuarta celda": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "cuatro instrucción",
-            "cont": '<span>Inicia el interrogatorio. Deberán pedir la intervención administrativa para el mismo.</span>',
-          },
-          "descripción de yusuf lochlan": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "intervención",
-            "cont": '<span>De Yusuf Lochlan apenas quedaba un eco material. La imponente figura que alguna vez intimidó con su sola presencia había sido devorada por el implacable frío de Azkaban, dejándolo reducido a un espectro de carne marchita tras un oscuro año de encierro. La brutal ausencia de uno de sus brazos se presentaba como el testimonio silencioso de los horrores inconfesables que aguardan en esa fortaleza. Sin embargo, lo más perturbador en aquel despojo humano no era su fragilidad física. Cuando sus labios agrietados se curvaban en una sonrisa ladeada y afilada, revelaban una verdad inquietante: la prisión le había arrebatado la fuerza, la libertad y hasta una extremidad, pero su sentido del humor seguía intacto. Aquella ironía, retorcida e inquebrantable, resistía en él como un arma secreta que los carceleros jamás lograron quebrar.</span>',
-          },
-          "detalles de yusuf lochlan": {
-            "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "descripción de yusuf lochlan",
-            "cont": '<span>Una mirada atenta a la túnica raída de Yusuf revela un detalle discordante en la anatomía de su tragedia. La cicatriz que sella el muñón de su hombro no es una herida reciente, ni la obra de los horrores que acechan en el penal. Es una marca pálida, curtida por el tiempo y completamente fusionada con el tejido, un testimonio silencioso que narra una historia distinta.<br><br>La textura de esa piel endurecida revela una verdad irrefutable: la mutilación ocurrió hace bastante más de un año. Azkaban no fue el filo que le arrebató el brazo; Yusuf cruzó los umbrales de la fortaleza estando ya incompleto. Esa vieja amputación sugiere que los fantasmas de su pasado, aquellos que lo acechaban en la penumbra antes de perder su libertad, cobraron su peaje en sangre mucho antes de que la justicia lo alcanzara.</span>',
-          },
-          "descripción de vinnie grayson": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "intervención",
-            "cont": '<span>Vinnie Grayson se alzaba como una sombra estirada en la penumbra, un hombre alto y de una delgadez cadavérica que parecía ocultar secretos inconfesables bajo su gélida postura. Su rostro era un mapa de violencia pasada, marcado por una larga cicatriz que le atravesaba la nariz, innegablemente fracturada tiempo atrás por un impacto brutal y nunca sanada del todo.<br><br>A diferencia del inquietante buen humor del otro nigromante, Grayson era un pozo de mutismo insondable. Mantenía los labios rígidamente sellados, carentes de cualquier atisbo de sonrisa. En su mirada calculadora latía una certeza perturbadora: daba la escalofriante sensación de ser alguien que no necesitaba hablar, simplemente porque ya guardaba en su mente las respuestas oscuras que los demás ni siquiera se atrevían a formular.</span>',
-          },
-          "detalles de vinnie grayson": {
-            "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "descripción de vinnie grayson",
-            "cont": '<span>Al reconocer a uno de los aurores, un destello de desprecio cruzó los ojos de Vinnie. En un acto de insolencia muda, abrió los labios rígidamente sellados y expuso su lengua. Lo que pretendía ser una burla reveló una verdad macabra: la carne estaba brutalmente cercenada, faltándole un fragmento considerable.<br><br>Sin embargo, no se trataba de una simple amputación física. Un rastro miasmático de magia negra, antiguo y denso, aún palpitaba alrededor del tejido mutilado. Para un ojo entrenado, la firma de esa maldición era inconfundible y escalofriante. Aquel daño no buscaba únicamente infligir dolor, sino imponer una mordaza irrevocable. A Vinnie Grayson no le habían cortado la lengua en una simple riña en los bajos fondos; alguien, mediante un ritual oscuro, le había arrancado deliberadamente la capacidad de hablar para sepultar sus secretos en el silencio absoluto.</span>',
-          },
-          "el pago por hablar": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "intervención",
-            "cont": '<span>Rompiendo el tenso silencio de la galería, Yusuf fue el primero en reaccionar. Sus labios agrietados se estiraron en una sonrisa macabra, revelando una hilera de dientes ennegrecidos por la podredumbre y el abandono. Con una lentitud casi predatoria, se inclinó hacia adelante hasta que su rostro demacrado rozó los fríos barrotes de hierro oxidado. Las sombras de la celda parecían aferrarse a él mientras bajaba la voz a un susurro rasposo, cargado de una anticipación perturbadora.<br><br>—Y, algún día, iban a venir a hacer preguntas —murmuró, con un brillo febril y calculador en sus ojos hundidos—. Un galeón de oro... y les cuento todo.<br><br>Su oferta flotó en el aire viciado del corredor. No era la súplica de un prisionero desesperado, sino el chantaje sutil de un hombre que, incluso desde el abismo, sabe que posee la moneda de cambio más peligrosa: la verdad.</span>',
-          },
-          "el ritual entre las manos": {
-            "visible": { "attr": { "val": "min" }, "know": { "magia oscura": "10" }, "job": "invalid", "name": "invalid", }, "place": "intervención",
-            "cont": '<span>Oculto tras la humedad perenne de la pared, en un hueco que a nadie parece importarle, revela una pequeña oquedad oscura. En su interior reposan varias piezas sueltas, dispuestas con una escalofriante simetría. Allí yace el fragmento carnoso y desecado de la lengua de Vinnie, antinaturalmente conservado. A su lado, acompañando el macabro hallazgo, descansan objetos igualmente perturbadores: un diente astillado envuelto en hilo negro, una moneda de plata oxidada por la sangre y un puñado de ceniza de hueso pálido. Evidentemente, no se trata de un simple escondite para contrabando carcelario, sino de un altar clandestino. El ritual, no obstante, no parece destilar maldad.</span>',
-          },
-          "la naturaleza del ritual": {
-            "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "nigromante", "name": "invalid", }, "place": "el ritual entre las manos",
-            "cont": '<span>Para aquellos eruditos versados en las artes más herméticas, el significado de este grotesco relicario es inconfundible. Se trata de un antiguo ritual practicado por nigromantes acorralados para garantizarse un adiós seguro de este mundo. Este rito, estrictamente reservado para los verdaderos creyentes, es una súplica silenciosa. Al ofrendar pedazos de sí mismos y símbolos de su magia, piden disculpas a las fuerzas del más allá. Buscan ser perdonados por las almas que alguna vez profanaron, asegurando que, cuando llegue su hora, su propio espíritu no sea devorado y logre viajar intacto hacia el otro lado del velo. Lo único que les falta es oro y fuego para finalizar el mismo.</span>',
-          },
-          "preguntar sobre las wraithwood": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "el pago por hablar",
-            "cont": '<span>Al pronunciar el apellido Wraithwood, la atmósfera en la celda pareció enfriarse de golpe. Los dos nigromantes intercambiaron una mirada lenta, cargada de una complicidad sombría y macabra. Yusuf rompió la tensión con una carcajada áspera que arañó los muros de piedra.<br><br>—¿A esas mocosas? —escupió con absoluto desdén—. Creí que ya habíamos matado a una. Pero ya saben lo que dicen... hierba mala nunca muere.<br><br>Un destello de malicia iluminó su rostro demacrado antes de encogerse de hombros, saboreando genuinamente el caos ajeno.<br><br>—Si les están causando problemas a ustedes... en su problema ahora.<br><br>Su risa rasposa volvió a envenenar el aire. A su lado, Vinnie Grayson no emitió sonido alguno, pero acompañó la morbosa burla. Una sonrisa rígida estiró sus labios fuertemente sellados.</span>',
-          },
-          "preguntar por qué matarían a las wraithwood": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar sobre las wraithwood",
-            "cont": '<span>Yusuf alzó su único hombro en un gesto de tétrica y calculada indiferencia, haciendo rechinar la tela raída de su uniforme de presidiario contra las sombras de la celda.<br><br>—Nos suministraban botánica de la más alta pureza, mercancía oscura y muy difícil de rastrear —murmuró, recordando aquellos días con una nostalgia torcida y amarga—. Eran sumamente útiles, sí. Pero la curiosidad siempre termina siendo un veneno mucho más rápido que cualquier toxina.<br><br>Inclinó la cabeza, permitiendo que la penumbra le ocultara a medias el rostro demacrado.<br><br>—Comenzaron a escarbar donde no debían, a formular demasiadas preguntas que nadie les había pedido que hicieran —continuó, fijando en sus interlocutores un brillo letal e implacable en la mirada—. Y ya deberían saber cómo funcionan las reglas. Quien acumula demasiados secretos ajenos, siempre se ve mucho mejor adornando el fondo de un ataúd.</span>',
-          },
-          "preguntar por el tatuaje en forma de w": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "el pago por hablar",
-            "cont": '<span>Yusuf hizo una señal imperceptible a Vinnie. Con una sincronía perturbadora, ambos arremangaron la tela harapienta de sus uniformes para revelar el antebrazo derecho. Allí, incrustada en la piel mortecina, resaltaba la prueba irrefutable: una espantosa quemadura queloide de relieves gruesos. Era una "W" alargada, con puntas tan afiladas que semejaban garras marcadas a fuego, el inconfundible y cruel sello de lealtad a una facción clandestina que opera al margen de toda ley.<br><br>Yusuf paseó su mirada inquisitiva por los rostros de sus interrogadores, saboreando el tenso y denso silencio que asfixiaba la celda de la prisión.<br><br>—¿Qué pasa? —susurró, con un deje de burla envenenada rascándole la garganta seca—. ¿Acaso nadie aquí escuchó hablar del Wrexham Wolf? ¿No hay ni un solo irlandés entre ustedes que reconozca la marca de los lobos que acechan en la sombra?</span>',
-          },
-          "la leyenda de wrexham wolf": {
-            "visible": { "attr": { "val": "min" }, "know": { "magia oscura": "10" }, "job": "invalid", "name": "invalid", }, "place": "preguntar por el tatuaje en forma de w",
-            "cont": '<span>Yusuf soltó una risilla seca, un sonido similar al crujir de pergamino viejo.<br><br>—El Wrexham Wolf es descrito a menudo como un espíritu guardián corrupto —susurró con voz febril. —Llevamos la marca para demostrar que somos los dueños de la mandíbula que muerde el velo —declaró, y sus ojos brillaron con una lucidez aterradora—. El tatuaje no es un adorno; es un ancla de sangre y dolor. Sin ella, nuestra propia alma sería succionada por el vacío absoluto mientras manipulamos las fuerzas del Más Allá. Es el precio por no ser arrastrados al abismo que nosotros mismos abrimos.</span>',
-          },
-          "confirmar la leyenda de wrexham wolf": {
-            "visible": { "attr": { "val": "min" }, "know": { "magia oscura": "10" }, "job": "invalid", "name": "invalid", }, "place": "preguntar por el tatuaje en forma de w",
-            "cont": '<span>Para aquellos eruditos que han osado sumergir sus manos en las corrientes más turbias de la magia oscura, las palabras de Yusuf no son meros delirios de grandeza. Los registros herméticos confirman una verdad más antigua que la propia prisión: la "W" representa la geometría exacta de una mandíbula hambrienta, diseñada para desgarrar el tejido mismo de la realidad. No es un símbolo de pertenencia, sino un portal liminal; un umbral donde las leyes de la existencia se doblan y los vivos pueden estrechar la mano de los caídos.<br><br>En los círculos de la nigromancia más extrema, portar esta marca es el máximo testimonio de poder. No se lleva con orgullo, sino con una soberbia macabra, como la prueba irrefutable de que el mago ha logrado proyectar su voluntad más allá de la muerte. Es el sello de quienes han caminado por el borde del abismo y, en lugar de caer, han aprendido a alimentarse de él.</span>',
-          },
-          "preguntar sobre el día de la redada": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "el pago por hablar",
-            "cont": '<span>Yusuf estiró su único brazo con una languidez que hacía crujir sus articulaciones, soltando un bufido cargado de una nostalgia podrida. Una chispa de malicia purulenta se encendió en su mirada cuando señaló a su compañero con un gesto burlón.<br><br>—Nosotros solo seguíamos el negocio... vendíamos secretos, traficábamos con lo que nadie quería ver. Teníamos a una Veela con nosotros; era nuestro activo más valioso —comentó, dejando que una sonrisa perversa le deformara el rostro—. A Vinnie le gustaba especialmente. Podía pasar horas simplemente... observándola.<br><br>Sin embargo, el tono de Yusuf se volvió gélido al recordar el final del camino. Relató cómo las sombras los alcanzaron, obligándolos a una huida desesperada por los rincones más oscuros del continente.<br><br>—Creímos que seríamos más rápidos que las consecuencias. Creímos que el velo nos ocultaría para siempre, pero volvieron a encontrarnos. Nadie escapa de los lobos dos veces. Y ahora, lo único que nos queda es el frío de estas paredes.</span>',
-          },
-          "preguntar cómo los encontró edwin": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar por el día de la redada",
-            "cont": '<span>—La bella Inara... —masculló Yusuf, lanzando una mirada cargada de un recelo venenoso hacia el rincón donde Vinnie permanecía sumido en su mutismo.</span>',
-          },
-          "preguntar para quién trabajaban": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar por el día de la redada",
-            "cont": '<span>—La bella Inara... —masculló Yusuf, lanzando una mirada cargada de un recelo venenoso hacia el rincón donde Vinnie permanecía sumido en su mutismo.<br><br>Una risa áspera le raspó la garganta al recordar la vulnerabilidad de su socio. Explicó que, por más que intentaran cubrir sus huellas, alguien había estado filtrando su posición cada vez que el cerco se estrechaba. Alguien les había vendido en su refugio a las afueras de Leeds.<br><br>—No puedo juzgarlo... el calor humano es una debilidad difícil de purgar —añadió, inspirando hondo con una deleite macabro mientras le guiñaba un ojo a uno de los presentes [al siguiente personaje en pasarse] con una familiaridad inquietante—. Se extraña, ¿verdad?<br><br>Suspiró, dejando que el aire viciado de la celda llenara sus pulmones marchitos. Relató cómo mantenían a la Veela bajo un sopor constante, una marioneta de carne y magia, pero el control fue insuficiente. En cuanto ella vislumbró el brillo de las túnicas de los Aurores, el vínculo se rompió. Inara le susurró a Merrythought su destino antes de que pudieran si quiera girar sobre sus talones.<br><br>—No tuvimos tiempo ni de sentir el tirón de la aparición. Los teníamos encima, como perros de caza. Nos superaban en número, pero no crean que nos rendimos sin antes saborear un poco de su sangre. Lo intentamos, vaya si lo intentamos. Ahí perdí el brazo.</span>',
-          },
-          "preguntar quién le cortó la lengua a vinnie grayson": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "el pago por hablar",
-            "cont": '<span>Yusuf torció el gesto, una mueca donde la crueldad y el orgullo se entrelazaban como raíces podridas. No había rastro de remordimiento en sus ojos hundidos, solo la fría satisfacción de quien ha cumplido con un deber ineludible. Con una naturalidad que helaba la sangre, admitió ser el autor de la mutilación de su compañero.<br><br>—Yo lo hice —confesó, y su voz bajó a un susurro que parecía arrastrarse por el suelo de piedra—. No fue un arrebato de ira, ni una tortura gratuita. Fue una necesidad. Necesitábamos la lengua para el ritual; un sacrificio de carne propia para sellar el vínculo con el otro lado.<br><br>Explicó que, en su mundo, el silencio no se pide, se arranca. Al convertir la lengua de Vinnie en el núcleo de su altar clandestino, no solo le arrebataron la voz, sino que transformaron su capacidad de hablar en una ofrenda perpetua. Para Yusuf, el dolor de su amigo era un precio irrisorio comparado con la protección metafísica que ese fragmento de carne desecada les otorgaba frente a los horrores que ahora, en la soledad de su celda, eran los únicos que les hacían compañía.</span>',
-          },
-          "ofrecerles el fuego": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "el pago por hablar",
-            "cont": '<span>Cuando el resplandor del fuego finalmente lamió los barrotes, una calma antinatural descendió sobre la celda. Yusuf y Vinnie no reaccionaron con la avidez del desesperado, sino con la reverencia de quien recibe un sacramento largamente esperado. El reflejo de las llamas danzó en sus ojos hundidos, devolviéndoles por un instante una chispa de la vitalidad que Azkaban les había succionado. Susurros de agradecimiento, apenas audibles entre el crepitar de la mecha, llenaron el aire viciado.</span>',
-          },
-          "preguntar por el hombre de un solo ojo": {
-            "visible": { "attr": { "val": "min" }, "know": { "legeremancia": "10" }, "job": "invalid", "name": "invalid", }, "place": "legeremens",
-            "cont": '<span>Un espasmo imperceptible recorrió la mandíbula de Vinnie, una rigidez que tensó el aire de la celda como una cuerda a punto de romperse. Yusuf, detectando la vulnerabilidad en el silencio de su compañero, soltó una carcajada estridente y carente de humor, un escudo de ruido para ocultar su propia inquietud.<br><br>—No importa su nombre ni su rostro —escupió Yusuf, mientras el brillo de sus ojos se tornaba esquivo—. Para nosotros, se suponía que era un aliado, alguien que compartía el mismo hambre de sombras. Quería saberlo todo sobre el Wrexham, quería los secretos que guardamos bajo la piel, y se los entregamos envueltos en plata.<br><br>Se inclinó hacia adelante, dejando que las sombras de los barrotes dividieran su rostro demacrado.<br><br>—Pero hay una regla no escrita en nuestra estirpe: quien se acerca demasiado al lobo, termina perdiendo aquello que más desea. Ese es el veneno de nuestra información. Él obtuvo lo que buscaba, sí, pero el precio de esa curiosidad es una deuda que la realidad siempre termina cobrando en carne. Se hundirá, igual que nosotros, bajo el peso de lo que ahora sabe.</span>',
-          },
-          "pedir que digan la verdad": {
-            "visible": { "attr": { "val": "min" }, "know": { "legeremancia": "10" }, "job": "invalid", "name": "invalid", }, "place": "veritas relego",
-            "cont": '<span>Yusuf soltó una carcajada que resonó en las paredes húmedas como el eco de piedras cayendo en un pozo profundo. Se echó hacia atrás, acomodando su cuerpo esquelético contra la piedra fría, mientras una sonrisa de satisfacción maligna iluminaba sus rasgos demacrados. No había rastro de engaño en su postura, solo la transparencia aterradora de quien ya no tiene nada que perder.<br><br>—Amigo mío... —susurró con un deje de ironía que cortaba el aire como una cuchilla—, no tienes por qué mirarnos con esa sospecha clavada en la frente. No hemos hecho absolutamente nada más que entregarte nuestra verdad, pura y sin adornos.<br><br>Hizo un gesto vago con su único brazo, abarcando la miseria de su celda y la mutilación de su compañero como si fueran pruebas irrefutables de su honestidad.<br><br>—La verdad es una mercancía pesada, y te la hemos dado de balde. Que sea demasiado amarga para que tu conciencia la digiera no es culpa nuestra. Nosotros ya hemos pagado nuestro precio; ahora te toca a ti decidir qué hacer con el veneno que acabas de escuchar.</span>',
-          },
+        "activar traslador": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
+          "cont": '<span>Al activar el traslador, el mismo tiembla por un momento hasta que los traslada al Hall de Azkaban. El Hall, al igual que toda la prisión es un espacio húmedo y frío. Sus paredes y pisos de hierro hacen que cada paso o voz resuene con un eco capaz de causar escalofríos.<adding search="hall" class="check-cards"></adding></span>',
+        },
+        "primera instrucción": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "activar traslador",
+          "cont": '<span>Se deberá ignorar la primera escalera y caminar hasta el final del corredor que tienen frente a ellos.</span>',
+        },
+        "subir las primeras escaleras": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "hall",
+          "cont": '<span>Las primeras escaleras se encuentran a la derecha del Hall. Al subir las mismas, llegan a una hilera de celdas que parecen estar vacías. Excepto una.<adding search="primer piso lado a" class="check-cards"></adding></span>',
+        },
+        "revisar celdas": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "primer piso lado a",
+          "cont": '<span>Las celdas que parecen estar vacías, en realidad, tienen personas dentro, pero sus personalidades ya han desparecido. Miran sin ver, no responden a ninguna estimulación de sonido. Algunos aún se mueven, uno en particular, lastima su cabeza contra la pared.</span>',
+        },
+        "seguir subiendo por lado a": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "primer piso lado a",
+          "cont": '<span>Al subir un piso más, se encuentran con un grupo de 25 dementores que atacan inmediatamente.</span>',
+        },
+        "bajar al hall desde el lado a": {
+          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "primer piso lado a",
+          "cont": '<span>Al regresar al hall pueden tomar una nueva decisión.<adding search="hall" class="check-cards"></adding></span>',
+        },
+        "caminar por el corredor de la izquierda": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "hall",
+          "cont": '<span>COMPLETAR</span>',
+        },
+        "subir escaleras": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "caminar por el corredor de la izquierda",
+          "cont": '<span>Al subir las escaleras se encuentran con la terraza de la prisión y 18 dementores comienzan a atacarlos.</span>',
+        },
+        "caminar hasta el final del pasillo": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "hall",
+          "cont": '<span>Al caminar hasta el final del pasillo, se encuentran con otra escalera.</span>',
+        },
+        "subir las escaleras del lado b": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "caminar hasta el final del pasillo",
+          "cont": '<span>Al subir las escaleras se encuentran con una fila de celdas vacías. Sin embargo, al mirar por la pequeña rendija, pueden darse cuenta que han subido más pisos, porque el agua de nota muy debajo de donde se encuentran.<adding class="check-cards" search="primer piso lado b"></adding></span>',
+        },
+        "regresar al corredor": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "primer piso lado b",
+          "cont": '<span>Permite regresar al Hall donde podrán irse si lo desean<adding search="hall" class="check-cards"></adding></span>',
+        },
+        "segunda instrucción": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "subir las escaleras del lado b",
+          "cont": '<span>Las instrucciones indican que deben subir dos pisos más.</span>',
+        },
+        "subir al segundo piso": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "subir las escaleras del lado b",
+          "cont": '<span>El segundo corredor los recibe con el aroma a mar y humedad. Se encuentra vacío, como una planta que no se utiliza. Los dementores se mueven alejados por los patronus. Sin embargo, descuentan 2 turnos del contador si el numero del dado lanzado en la tarjeta es par; descuenta 4 turnos si es impar.<adding class="check-cards" search="segundo piso"></adding></span>',
+        },
+        "regresar al primer piso": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "segundo piso",
+          "cont": '<span>Permite regresar al primer piso. Los dementores se mueven alejados por los patronus. Sin embargo, descuentan 1 turno del contador si el numero del dado lanzado en la tarjeta es par; descuenta 3 turnos si es impar.<adding class="check-cards" search="primer piso lado b"></adding></span>',
+        },
+        "subir al tercer piso": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "segundo piso",
+          "cont": '<span>El tercer piso, igual de frío que los anteriores, está iluminado por una luz tenue que se filtra a través de las ventanas. Los presos en las celdas observan a las personas confundidos en un principio, sin entender si terminan de ser una ilusión. Los dementores se mueven alejados por los patronus. Sin embargo, descuentan 5 turnos del contador si el numero del dado lanzado en la tarjeta es par; descuenta 3 turnos si es impar.<adding class="check-cards" search="tercer piso"></adding></span>',
+        },
+        "instrucción tercer piso": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "tercer piso",
+          "cont": '<span>Deben tomar el corredor entre las celdas y subir un piso adicional.</span>',
+        },
+        "regresar al segundo piso": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "tercer piso",
+          "cont": '<span>Permite regresar al segundo piso. Los dementores se mueven alejados por los patronus. Sin embargo, descuentan 1 turno del contador si el numero del dado lanzado en la tarjeta es par; descuenta 3 turnos si es impar.<adding class="check-cards" search="primer piso lado b"></adding></span>',
+        },
+        "subir al cuarto piso": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "tercer piso",
+          "cont": '<span>Los dementores no esperaban que tomen ese lugar. Dismiuye 10 turnos el contador y elimina todos los patronus que deberán volver a ser conjurados.<adding class="check-cards" search="cuarto piso"></adding></span>',
+        },
+        "regresar al tercer piso": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "cuarto piso",
+          "cont": '<span>Permite regresar al tercer piso. Los dementores se mueven alejados por los patronus. Sin embargo, descuentan 1 turno del contador si el numero del dado lanzado en la tarjeta es par; descuenta 3 turnos si es impar.<adding class="check-cards" search="cuarto piso"></adding></span>',
+        },
+        "revisar celdas": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "tercer piso",
+          "cont": '<span>Los presos se dividen entre quienes los miran y quienes les imploran ayuda. «Por favor, ya aprendí» susurran algunos pidiendo ayuda. Los dementores se mueven alejados por los patronus. Sin embargo, descuentan 1 turno del contador si el numero del dado lanzado en la tarjeta es par; descuenta 3 turnos si es impar.</span>',
+        },
+        "tomar el corredor entre las celdas": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "tercer piso",
+          "cont": '<span>El corredor, si bien esta vacío, ofrece una visión lateral de todos los presos del lugar. Las celdas vacías, frías y húmedas que no parecen ofrecer descanso alguno.</span>',
+        },
+        "llegar a la escalera del fondo": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "tomar el corredor entre las celdas",
+          "cont": '<span>El corredor los regresa a un pequeño espacio, donde se puede ver una escalera mucho más pequeña que las anteriores. Los dementores se mueven alejados por los patronus. Sin embargo, descuentan 7 turnos del contador si el numero del dado lanzado en la tarjeta es par; descuenta 5 turnos si es impar.</span>',
+        },
+        "subir la escalera del fondo": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "llegar a la escalera del fondo",
+          "cont": '<span>Al subir por las escaleras, deberán tener cuidado de no resbalarse por ellas, logran llegar a un espacio de pocas celdas, donde puede verse un cartel escrito en runas.Los dementores se mueven alejados por los patronus. Sin embargo, descuentan 2 turnos del contador si el numero del dado lanzado en la tarjeta es par; descuenta 4 turnos si es impar.</span>',
+        },
+        "cuatro instrucción": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "subir la escalera del fondo",
+          "cont": '<span>Al llegar al espacio donde se encuentran los nigromantes, deberán buscar la tercera y cuarta celda.</span>',
+        },
+        "llegar a la tercera y cuarta celda": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "cuatro instrucción",
+          "cont": '<span>Inicia el interrogatorio. Deberán pedir la intervención administrativa para el mismo.</span>',
+        },
+        "descripción de yusuf lochlan": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "intervención",
+          "cont": '<span>De Yusuf Lochlan apenas quedaba un eco material. La imponente figura que alguna vez intimidó con su sola presencia había sido devorada por el implacable frío de Azkaban, dejándolo reducido a un espectro de carne marchita tras un oscuro año de encierro. La brutal ausencia de uno de sus brazos se presentaba como el testimonio silencioso de los horrores inconfesables que aguardan en esa fortaleza. Sin embargo, lo más perturbador en aquel despojo humano no era su fragilidad física. Cuando sus labios agrietados se curvaban en una sonrisa ladeada y afilada, revelaban una verdad inquietante: la prisión le había arrebatado la fuerza, la libertad y hasta una extremidad, pero su sentido del humor seguía intacto. Aquella ironía, retorcida e inquebrantable, resistía en él como un arma secreta que los carceleros jamás lograron quebrar.</span>',
+        },
+        "detalles de yusuf lochlan": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "descripción de yusuf lochlan",
+          "cont": '<span>Una mirada atenta a la túnica raída de Yusuf revela un detalle discordante en la anatomía de su tragedia. La cicatriz que sella el muñón de su hombro no es una herida reciente, ni la obra de los horrores que acechan en el penal. Es una marca pálida, curtida por el tiempo y completamente fusionada con el tejido, un testimonio silencioso que narra una historia distinta.<br><br>La textura de esa piel endurecida revela una verdad irrefutable: la mutilación ocurrió hace bastante más de un año. Azkaban no fue el filo que le arrebató el brazo; Yusuf cruzó los umbrales de la fortaleza estando ya incompleto. Esa vieja amputación sugiere que los fantasmas de su pasado, aquellos que lo acechaban en la penumbra antes de perder su libertad, cobraron su peaje en sangre mucho antes de que la justicia lo alcanzara.</span>',
+        },
+        "descripción de vinnie grayson": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "intervención",
+          "cont": '<span>Vinnie Grayson se alzaba como una sombra estirada en la penumbra, un hombre alto y de una delgadez cadavérica que parecía ocultar secretos inconfesables bajo su gélida postura. Su rostro era un mapa de violencia pasada, marcado por una larga cicatriz que le atravesaba la nariz, innegablemente fracturada tiempo atrás por un impacto brutal y nunca sanada del todo.<br><br>A diferencia del inquietante buen humor del otro nigromante, Grayson era un pozo de mutismo insondable. Mantenía los labios rígidamente sellados, carentes de cualquier atisbo de sonrisa. En su mirada calculadora latía una certeza perturbadora: daba la escalofriante sensación de ser alguien que no necesitaba hablar, simplemente porque ya guardaba en su mente las respuestas oscuras que los demás ni siquiera se atrevían a formular.</span>',
+        },
+        "detalles de vinnie grayson": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "descripción de vinnie grayson",
+          "cont": '<span>Al reconocer a uno de los aurores, un destello de desprecio cruzó los ojos de Vinnie. En un acto de insolencia muda, abrió los labios rígidamente sellados y expuso su lengua. Lo que pretendía ser una burla reveló una verdad macabra: la carne estaba brutalmente cercenada, faltándole un fragmento considerable.<br><br>Sin embargo, no se trataba de una simple amputación física. Un rastro miasmático de magia negra, antiguo y denso, aún palpitaba alrededor del tejido mutilado. Para un ojo entrenado, la firma de esa maldición era inconfundible y escalofriante. Aquel daño no buscaba únicamente infligir dolor, sino imponer una mordaza irrevocable. A Vinnie Grayson no le habían cortado la lengua en una simple riña en los bajos fondos; alguien, mediante un ritual oscuro, le había arrancado deliberadamente la capacidad de hablar para sepultar sus secretos en el silencio absoluto.</span>',
+        },
+        "el pago por hablar": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "intervención",
+          "cont": '<span>Rompiendo el tenso silencio de la galería, Yusuf fue el primero en reaccionar. Sus labios agrietados se estiraron en una sonrisa macabra, revelando una hilera de dientes ennegrecidos por la podredumbre y el abandono. Con una lentitud casi predatoria, se inclinó hacia adelante hasta que su rostro demacrado rozó los fríos barrotes de hierro oxidado. Las sombras de la celda parecían aferrarse a él mientras bajaba la voz a un susurro rasposo, cargado de una anticipación perturbadora.<br><br>—Y, algún día, iban a venir a hacer preguntas —murmuró, con un brillo febril y calculador en sus ojos hundidos—. Un galeón de oro... y les cuento todo.<br><br>Su oferta flotó en el aire viciado del corredor. No era la súplica de un prisionero desesperado, sino el chantaje sutil de un hombre que, incluso desde el abismo, sabe que posee la moneda de cambio más peligrosa: la verdad.</span>',
+        },
+        "el ritual entre las manos": {
+          "visible": { "attr": { "val": "min" }, "know": { "magia oscura": "10" }, "job": "invalid", "name": "invalid", }, "place": "intervención",
+          "cont": '<span>Oculto tras la humedad perenne de la pared, en un hueco que a nadie parece importarle, revela una pequeña oquedad oscura. En su interior reposan varias piezas sueltas, dispuestas con una escalofriante simetría. Allí yace el fragmento carnoso y desecado de la lengua de Vinnie, antinaturalmente conservado. A su lado, acompañando el macabro hallazgo, descansan objetos igualmente perturbadores: un diente astillado envuelto en hilo negro, una moneda de plata oxidada por la sangre y un puñado de ceniza de hueso pálido. Evidentemente, no se trata de un simple escondite para contrabando carcelario, sino de un altar clandestino. El ritual, no obstante, no parece destilar maldad.</span>',
+        },
+        "la naturaleza del ritual": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "nigromante", "name": "invalid", }, "place": "el ritual entre las manos",
+          "cont": '<span>Para aquellos eruditos versados en las artes más herméticas, el significado de este grotesco relicario es inconfundible. Se trata de un antiguo ritual practicado por nigromantes acorralados para garantizarse un adiós seguro de este mundo. Este rito, estrictamente reservado para los verdaderos creyentes, es una súplica silenciosa. Al ofrendar pedazos de sí mismos y símbolos de su magia, piden disculpas a las fuerzas del más allá. Buscan ser perdonados por las almas que alguna vez profanaron, asegurando que, cuando llegue su hora, su propio espíritu no sea devorado y logre viajar intacto hacia el otro lado del velo. Lo único que les falta es oro y fuego para finalizar el mismo.</span>',
+        },
+        "preguntar sobre las wraithwood": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "el pago por hablar",
+          "cont": '<span>Al pronunciar el apellido Wraithwood, la atmósfera en la celda pareció enfriarse de golpe. Los dos nigromantes intercambiaron una mirada lenta, cargada de una complicidad sombría y macabra. Yusuf rompió la tensión con una carcajada áspera que arañó los muros de piedra.<br><br>—¿A esas mocosas? —escupió con absoluto desdén—. Creí que ya habíamos matado a una. Pero ya saben lo que dicen... hierba mala nunca muere.<br><br>Un destello de malicia iluminó su rostro demacrado antes de encogerse de hombros, saboreando genuinamente el caos ajeno.<br><br>—Si les están causando problemas a ustedes... en su problema ahora.<br><br>Su risa rasposa volvió a envenenar el aire. A su lado, Vinnie Grayson no emitió sonido alguno, pero acompañó la morbosa burla. Una sonrisa rígida estiró sus labios fuertemente sellados.</span>',
+        },
+        "preguntar por qué matarían a las wraithwood": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar sobre las wraithwood",
+          "cont": '<span>Yusuf alzó su único hombro en un gesto de tétrica y calculada indiferencia, haciendo rechinar la tela raída de su uniforme de presidiario contra las sombras de la celda.<br><br>—Nos suministraban botánica de la más alta pureza, mercancía oscura y muy difícil de rastrear —murmuró, recordando aquellos días con una nostalgia torcida y amarga—. Eran sumamente útiles, sí. Pero la curiosidad siempre termina siendo un veneno mucho más rápido que cualquier toxina.<br><br>Inclinó la cabeza, permitiendo que la penumbra le ocultara a medias el rostro demacrado.<br><br>—Comenzaron a escarbar donde no debían, a formular demasiadas preguntas que nadie les había pedido que hicieran —continuó, fijando en sus interlocutores un brillo letal e implacable en la mirada—. Y ya deberían saber cómo funcionan las reglas. Quien acumula demasiados secretos ajenos, siempre se ve mucho mejor adornando el fondo de un ataúd.</span>',
+        },
+        "preguntar por el tatuaje en forma de w": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "el pago por hablar",
+          "cont": '<span>Yusuf hizo una señal imperceptible a Vinnie. Con una sincronía perturbadora, ambos arremangaron la tela harapienta de sus uniformes para revelar el antebrazo derecho. Allí, incrustada en la piel mortecina, resaltaba la prueba irrefutable: una espantosa quemadura queloide de relieves gruesos. Era una "W" alargada, con puntas tan afiladas que semejaban garras marcadas a fuego, el inconfundible y cruel sello de lealtad a una facción clandestina que opera al margen de toda ley.<br><br>Yusuf paseó su mirada inquisitiva por los rostros de sus interrogadores, saboreando el tenso y denso silencio que asfixiaba la celda de la prisión.<br><br>—¿Qué pasa? —susurró, con un deje de burla envenenada rascándole la garganta seca—. ¿Acaso nadie aquí escuchó hablar del Wrexham Wolf? ¿No hay ni un solo irlandés entre ustedes que reconozca la marca de los lobos que acechan en la sombra?</span>',
+        },
+        "la leyenda de wrexham wolf": {
+          "visible": { "attr": { "val": "min" }, "know": { "magia oscura": "10" }, "job": "invalid", "name": "invalid", }, "place": "preguntar por el tatuaje en forma de w",
+          "cont": '<span>Yusuf soltó una risilla seca, un sonido similar al crujir de pergamino viejo.<br><br>—El Wrexham Wolf es descrito a menudo como un espíritu guardián corrupto —susurró con voz febril. —Llevamos la marca para demostrar que somos los dueños de la mandíbula que muerde el velo —declaró, y sus ojos brillaron con una lucidez aterradora—. El tatuaje no es un adorno; es un ancla de sangre y dolor. Sin ella, nuestra propia alma sería succionada por el vacío absoluto mientras manipulamos las fuerzas del Más Allá. Es el precio por no ser arrastrados al abismo que nosotros mismos abrimos.</span>',
+        },
+        "confirmar la leyenda de wrexham wolf": {
+          "visible": { "attr": { "val": "min" }, "know": { "magia oscura": "10" }, "job": "invalid", "name": "invalid", }, "place": "preguntar por el tatuaje en forma de w",
+          "cont": '<span>Para aquellos eruditos que han osado sumergir sus manos en las corrientes más turbias de la magia oscura, las palabras de Yusuf no son meros delirios de grandeza. Los registros herméticos confirman una verdad más antigua que la propia prisión: la "W" representa la geometría exacta de una mandíbula hambrienta, diseñada para desgarrar el tejido mismo de la realidad. No es un símbolo de pertenencia, sino un portal liminal; un umbral donde las leyes de la existencia se doblan y los vivos pueden estrechar la mano de los caídos.<br><br>En los círculos de la nigromancia más extrema, portar esta marca es el máximo testimonio de poder. No se lleva con orgullo, sino con una soberbia macabra, como la prueba irrefutable de que el mago ha logrado proyectar su voluntad más allá de la muerte. Es el sello de quienes han caminado por el borde del abismo y, en lugar de caer, han aprendido a alimentarse de él.</span>',
+        },
+        "preguntar sobre el día de la redada": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "el pago por hablar",
+          "cont": '<span>Yusuf estiró su único brazo con una languidez que hacía crujir sus articulaciones, soltando un bufido cargado de una nostalgia podrida. Una chispa de malicia purulenta se encendió en su mirada cuando señaló a su compañero con un gesto burlón.<br><br>—Nosotros solo seguíamos el negocio... vendíamos secretos, traficábamos con lo que nadie quería ver. Teníamos a una Veela con nosotros; era nuestro activo más valioso —comentó, dejando que una sonrisa perversa le deformara el rostro—. A Vinnie le gustaba especialmente. Podía pasar horas simplemente... observándola.<br><br>Sin embargo, el tono de Yusuf se volvió gélido al recordar el final del camino. Relató cómo las sombras los alcanzaron, obligándolos a una huida desesperada por los rincones más oscuros del continente.<br><br>—Creímos que seríamos más rápidos que las consecuencias. Creímos que el velo nos ocultaría para siempre, pero volvieron a encontrarnos. Nadie escapa de los lobos dos veces. Y ahora, lo único que nos queda es el frío de estas paredes.</span>',
+        },
+        "preguntar cómo los encontró edwin": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar por el día de la redada",
+          "cont": '<span>—La bella Inara... —masculló Yusuf, lanzando una mirada cargada de un recelo venenoso hacia el rincón donde Vinnie permanecía sumido en su mutismo.</span>',
+        },
+        "preguntar para quién trabajaban": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar por el día de la redada",
+          "cont": '<span>—La bella Inara... —masculló Yusuf, lanzando una mirada cargada de un recelo venenoso hacia el rincón donde Vinnie permanecía sumido en su mutismo.<br><br>Una risa áspera le raspó la garganta al recordar la vulnerabilidad de su socio. Explicó que, por más que intentaran cubrir sus huellas, alguien había estado filtrando su posición cada vez que el cerco se estrechaba. Alguien les había vendido en su refugio a las afueras de Leeds.<br><br>—No puedo juzgarlo... el calor humano es una debilidad difícil de purgar —añadió, inspirando hondo con una deleite macabro mientras le guiñaba un ojo a uno de los presentes [al siguiente personaje en pasarse] con una familiaridad inquietante—. Se extraña, ¿verdad?<br><br>Suspiró, dejando que el aire viciado de la celda llenara sus pulmones marchitos. Relató cómo mantenían a la Veela bajo un sopor constante, una marioneta de carne y magia, pero el control fue insuficiente. En cuanto ella vislumbró el brillo de las túnicas de los Aurores, el vínculo se rompió. Inara le susurró a Merrythought su destino antes de que pudieran si quiera girar sobre sus talones.<br><br>—No tuvimos tiempo ni de sentir el tirón de la aparición. Los teníamos encima, como perros de caza. Nos superaban en número, pero no crean que nos rendimos sin antes saborear un poco de su sangre. Lo intentamos, vaya si lo intentamos. Ahí perdí el brazo.</span>',
+        },
+        "preguntar quién le cortó la lengua a vinnie grayson": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "el pago por hablar",
+          "cont": '<span>Yusuf torció el gesto, una mueca donde la crueldad y el orgullo se entrelazaban como raíces podridas. No había rastro de remordimiento en sus ojos hundidos, solo la fría satisfacción de quien ha cumplido con un deber ineludible. Con una naturalidad que helaba la sangre, admitió ser el autor de la mutilación de su compañero.<br><br>—Yo lo hice —confesó, y su voz bajó a un susurro que parecía arrastrarse por el suelo de piedra—. No fue un arrebato de ira, ni una tortura gratuita. Fue una necesidad. Necesitábamos la lengua para el ritual; un sacrificio de carne propia para sellar el vínculo con el otro lado.<br><br>Explicó que, en su mundo, el silencio no se pide, se arranca. Al convertir la lengua de Vinnie en el núcleo de su altar clandestino, no solo le arrebataron la voz, sino que transformaron su capacidad de hablar en una ofrenda perpetua. Para Yusuf, el dolor de su amigo era un precio irrisorio comparado con la protección metafísica que ese fragmento de carne desecada les otorgaba frente a los horrores que ahora, en la soledad de su celda, eran los únicos que les hacían compañía.</span>',
+        },
+        "ofrecerles el fuego": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "el pago por hablar",
+          "cont": '<span>Cuando el resplandor del fuego finalmente lamió los barrotes, una calma antinatural descendió sobre la celda. Yusuf y Vinnie no reaccionaron con la avidez del desesperado, sino con la reverencia de quien recibe un sacramento largamente esperado. El reflejo de las llamas danzó en sus ojos hundidos, devolviéndoles por un instante una chispa de la vitalidad que Azkaban les había succionado. Susurros de agradecimiento, apenas audibles entre el crepitar de la mecha, llenaron el aire viciado.</span>',
+        },
+        "preguntar por el hombre de un solo ojo": {
+          "visible": { "attr": { "val": "min" }, "know": { "legeremancia": "10" }, "job": "invalid", "name": "invalid", }, "place": "legeremens",
+          "cont": '<span>Un espasmo imperceptible recorrió la mandíbula de Vinnie, una rigidez que tensó el aire de la celda como una cuerda a punto de romperse. Yusuf, detectando la vulnerabilidad en el silencio de su compañero, soltó una carcajada estridente y carente de humor, un escudo de ruido para ocultar su propia inquietud.<br><br>—No importa su nombre ni su rostro —escupió Yusuf, mientras el brillo de sus ojos se tornaba esquivo—. Para nosotros, se suponía que era un aliado, alguien que compartía el mismo hambre de sombras. Quería saberlo todo sobre el Wrexham, quería los secretos que guardamos bajo la piel, y se los entregamos envueltos en plata.<br><br>Se inclinó hacia adelante, dejando que las sombras de los barrotes dividieran su rostro demacrado.<br><br>—Pero hay una regla no escrita en nuestra estirpe: quien se acerca demasiado al lobo, termina perdiendo aquello que más desea. Ese es el veneno de nuestra información. Él obtuvo lo que buscaba, sí, pero el precio de esa curiosidad es una deuda que la realidad siempre termina cobrando en carne. Se hundirá, igual que nosotros, bajo el peso de lo que ahora sabe.</span>',
+        },
+        "pedir que digan la verdad": {
+          "visible": { "attr": { "val": "min" }, "know": { "legeremancia": "10" }, "job": "invalid", "name": "invalid", }, "place": "veritas relego",
+          "cont": '<span>Yusuf soltó una carcajada que resonó en las paredes húmedas como el eco de piedras cayendo en un pozo profundo. Se echó hacia atrás, acomodando su cuerpo esquelético contra la piedra fría, mientras una sonrisa de satisfacción maligna iluminaba sus rasgos demacrados. No había rastro de engaño en su postura, solo la transparencia aterradora de quien ya no tiene nada que perder.<br><br>—Amigo mío... —susurró con un deje de ironía que cortaba el aire como una cuchilla—, no tienes por qué mirarnos con esa sospecha clavada en la frente. No hemos hecho absolutamente nada más que entregarte nuestra verdad, pura y sin adornos.<br><br>Hizo un gesto vago con su único brazo, abarcando la miseria de su celda y la mutilación de su compañero como si fueran pruebas irrefutables de su honestidad.<br><br>—La verdad es una mercancía pesada, y te la hemos dado de balde. Que sea demasiado amarga para que tu conciencia la digiera no es culpa nuestra. Nosotros ya hemos pagado nuestro precio; ahora te toca a ti decidir qué hacer con el veneno que acabas de escuchar.</span>',
+        },
       },
 
       "actions": {
-          "legeremens": {
-            "leve": '<span>El hechizo no es suficiente para agregar turnos adicionales.</span>',
-            "moderado": '<span>Permite extraer la imagen de la mente de Vinnie de un hombre con un solo ojo.</span>',
-            "exitoso": '<span>Cuando preguntan sobre quién le quitó la lengua a Vinnie, podrá saber que, en realidad, se trataba del hombre de un solo ojo.</span>',
-            "critico": '<span>Cuando preguntan sobre quién le quitó la lengua a Vinnie, podrá saber que, en realidad, se trataba del hombre de un solo ojo.</span>',
-          },
-          "veritas relego": {
-            "leve": '<span>El hechizo no es suficiente para agregar turnos adicionales.</span>',
-            "moderado": '<span>Puede saber que Yusuf mintió en al menos dos respuestas.<adding search="veritas relego" class="check-cards"></adding></span>',
-            "exitoso": '<span>Puede saber que Yusuf mintió en al menos tres respuestas.<adding search="veritas relego" class="check-cards"></adding></span>',
-            "critico": '<span>Puede saber que Yusuf mintió en al menos cuatro respuestas.<adding search="veritas relego" class="check-cards"></adding></span>',
-          },
-          "expecto patronum": {
-            "leve": '<span>El hechizo no es suficiente para agregar turnos adicionales.</span>',
-            "moderado": '<span>El hechizo adiciona 1 turno adicional antes del ataque de los dementores.</span>',
-            "exitoso": '<span>El hechizo adiciona 2 turnos adicionales antes del ataque de los dementores.</span>',
-            "critico": '<span>El hechizo adiciona 3 turnos adicionales antes del ataque de los dementores.</span>',
-          },
-          "patronus nuntius": {
-            "leve": '<span>El hechizo no es suficiente para agregar turnos adicionales.</span>',
-            "moderado": '<span>El hechizo adiciona 2 turnos adicionales antes del ataque de los dementores.</span>',
-            "exitoso": '<span>El hechizo adiciona 3 turnos adicionales antes del ataque de los dementores.</span>',
-            "critico": '<span>El hechizo adiciona 4 turnos adicionales antes del ataque de los dementores.</span>',
-          },
-          "patronus ductor": {
-            "leve": '<span>El hechizo no es suficiente para agregar turnos adicionales.</span>',
-            "moderado": '<span>El hechizo adiciona 3 turno adicional antes del ataque de los dementores.</span>',
-            "exitoso": '<span>El hechizo adiciona 4 turnos adicionales antes del ataque de los dementores.</span>',
-            "critico": '<span>El hechizo adiciona 5 turnos adicionales antes del ataque de los dementores.</span>',
-          },
-          "patronus custos": {
-            "leve": '<span>El hechizo no es suficiente para agregar turnos adicionales.</span>',
-            "moderado": '<span>El hechizo adiciona 4 turno adicional antes del ataque de los dementores.</span>',
-            "exitoso": '<span>El hechizo adiciona 5 turnos adicionales antes del ataque de los dementores.</span>',
-            "critico": '<span>El hechizo adiciona 6 turnos adicionales antes del ataque de los dementores.</span>',
-          },
+        "legeremens": {
+          "leve": '<span>El hechizo no es suficiente para agregar turnos adicionales.</span>',
+          "moderado": '<span>Permite extraer la imagen de la mente de Vinnie de un hombre con un solo ojo.</span>',
+          "exitoso": '<span>Cuando preguntan sobre quién le quitó la lengua a Vinnie, podrá saber que, en realidad, se trataba del hombre de un solo ojo.</span>',
+          "critico": '<span>Cuando preguntan sobre quién le quitó la lengua a Vinnie, podrá saber que, en realidad, se trataba del hombre de un solo ojo.</span>',
+        },
+        "veritas relego": {
+          "leve": '<span>El hechizo no es suficiente para agregar turnos adicionales.</span>',
+          "moderado": '<span>Puede saber que Yusuf mintió en al menos dos respuestas.<adding search="veritas relego" class="check-cards"></adding></span>',
+          "exitoso": '<span>Puede saber que Yusuf mintió en al menos tres respuestas.<adding search="veritas relego" class="check-cards"></adding></span>',
+          "critico": '<span>Puede saber que Yusuf mintió en al menos cuatro respuestas.<adding search="veritas relego" class="check-cards"></adding></span>',
+        },
+        "expecto patronum": {
+          "leve": '<span>El hechizo no es suficiente para agregar turnos adicionales.</span>',
+          "moderado": '<span>El hechizo adiciona 1 turno adicional antes del ataque de los dementores.</span>',
+          "exitoso": '<span>El hechizo adiciona 2 turnos adicionales antes del ataque de los dementores.</span>',
+          "critico": '<span>El hechizo adiciona 3 turnos adicionales antes del ataque de los dementores.</span>',
+        },
+        "patronus nuntius": {
+          "leve": '<span>El hechizo no es suficiente para agregar turnos adicionales.</span>',
+          "moderado": '<span>El hechizo adiciona 2 turnos adicionales antes del ataque de los dementores.</span>',
+          "exitoso": '<span>El hechizo adiciona 3 turnos adicionales antes del ataque de los dementores.</span>',
+          "critico": '<span>El hechizo adiciona 4 turnos adicionales antes del ataque de los dementores.</span>',
+        },
+        "patronus ductor": {
+          "leve": '<span>El hechizo no es suficiente para agregar turnos adicionales.</span>',
+          "moderado": '<span>El hechizo adiciona 3 turno adicional antes del ataque de los dementores.</span>',
+          "exitoso": '<span>El hechizo adiciona 4 turnos adicionales antes del ataque de los dementores.</span>',
+          "critico": '<span>El hechizo adiciona 5 turnos adicionales antes del ataque de los dementores.</span>',
+        },
+        "patronus custos": {
+          "leve": '<span>El hechizo no es suficiente para agregar turnos adicionales.</span>',
+          "moderado": '<span>El hechizo adiciona 4 turno adicional antes del ataque de los dementores.</span>',
+          "exitoso": '<span>El hechizo adiciona 5 turnos adicionales antes del ataque de los dementores.</span>',
+          "critico": '<span>El hechizo adiciona 6 turnos adicionales antes del ataque de los dementores.</span>',
+        },
       },
     },
     // the mercy of death
 
     "stolen shroud": {
       "description": "Una investigación sobre la identidad y el sacrificio para descrubrir el rastro de Soly, quien decidió usurpar la vida de otro, no por ambición ni poder, sino como el único método efectivo para orquestar su propio final. El rastro de una existencia construida solo para ser destruida.",
-      "image": "https://i.imgur.com/2kfwlbB.png", "requisitos": ["Un personaje deberá ser miembro del Departamento de Seguridad","Un personaje o PNJ llevado por usuario deberá tener entre 45 y 55 años"],
-      "users": ["c/u8","/u146","/u153","c/u55","/u78"],
+      "image": "https://i.imgur.com/2kfwlbB.png", "requisitos": ["Un personaje deberá ser miembro del Departamento de Seguridad", "Un personaje o PNJ llevado por usuario deberá tener entre 45 y 55 años"],
+      "users": ["c/u8", "/u146", "/u153", "c/u55", "/u78"],
       "dependency": ["paper mask", "midnight ashes"],
-      "type": "investigación", "closed": false, "link": "", "tagged": ["original","capitulo 3"],
+      "type": "investigación", "closed": false, "link": "", "tagged": ["original", "capitulo 3"],
 
       "cards": [],
       "searchs": {},
@@ -4507,10 +4507,10 @@ const MissionsModule = (function () {
 
     "licking salted wounds": {
       "description": "El interrogatorio a Hadiya es la llave para desentrañar el destino de Morian y la verdad oculta de las gemelas. Se deberá llevar a cabo un interrogatorio donde requerirán ganar la confianza de Hadiya para que esta revele toda la verdad que conoce.",
-      "image": "https://i.imgur.com/4EJznhF.png", "requisitos": ["Un personaje deberá ser miembro del Departamento de Seguridad","Un personaje deberá saber hablar Frances (debe estar especificado en la ficha)"],
-      "users": ["c/u8","/u7","/u91","/u110"],
+      "image": "https://i.imgur.com/4EJznhF.png", "requisitos": ["Un personaje deberá ser miembro del Departamento de Seguridad", "Un personaje deberá saber hablar Frances (debe estar especificado en la ficha)"],
+      "users": ["c/u8", "/u7", "/u91", "/u110"],
       "dependency": ["paper mask", "midnight ashes"],
-      "type": "interrogatorio", "closed": false, "link": "/t1108-interrogatorio-licking-salted-wounds", "tagged": ["original","capitulo 3"],
+      "type": "interrogatorio", "closed": false, "link": "/t1108-interrogatorio-licking-salted-wounds", "tagged": ["original", "capitulo 3"],
 
       "cards": [
         {
@@ -6094,7 +6094,7 @@ const MissionsModule = (function () {
 
       "creatures": {
         "diricawl": {
-		  "debilidad": ["mobilicorpus","levare"],
+          "debilidad": ["mobilicorpus", "levare"],
           "ataques": {
             "leve": 'No ataca, sin embargo, se queda mirando a sus atacantes.',
             "moderado": 'No ataca, sin embargo se escapa a la siguiente zona. En caso de que no haya zonas hacia arriba, irá a la zona de abajo.',
@@ -6223,7 +6223,7 @@ const MissionsModule = (function () {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
           "cont": '<span>Has dejado comida en esa zona, el Diricawl se ha acercado.</span>',
         },
-		"diricawl por hechizo": {
+        "diricawl por hechizo": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "diricawl encontrado",
           "cont": '<span>Has encontrado al Diricawl, agrega al mismo como personaje no jugable y comprueba si puedes atraparlo (Hasta que el equipo actual no lo resuelva, la criatura no se moverá por acciones del resto).</span>',
         },
@@ -6583,7 +6583,7 @@ const MissionsModule = (function () {
     "quidditch": {
       "description": "",
       "image": "", "requisitos": [],
-      "users": ["/u118", "/u24", "/u34", "/u63", "/u119", "/u38", "/u12","/u152"],
+      "users": ["/u118", "/u24", "/u34", "/u63", "/u119", "/u38", "/u12", "/u152"],
       "dependency": [],
       "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
 
@@ -6778,21 +6778,21 @@ const MissionsModule = (function () {
           "exitoso": '<span>El personaje podrá saber el nombre y su significado sin necesidad de leer el libro.</span>',
           "critico": '<span>El personaje podrá saber el nombre y su significado sin necesidad de leer el libro.</span>',
         },
-                        
+
         "incísio fúndito": {
           "leve": '<span>El personaje deberá volver a intentar el grabado.</span>',
           "moderado": '<span>El grabado es moderado, el personaje puede volver a intentarlo o dejarlo de esa manera.</span>',
           "exitoso": '<span>El grabado es preciso, el personaje no debe volver a intentar. Se escuchá la felicitación del profesor Diggory que brinda 10 puntos a la correspondiente casa.</span>',
           "critico": '<span>El grabado es preciso, el personaje no debe volver a intentar. Se escuchá la felicitación del profesor Diggory que brinda 10 puntos a la correspondiente casa.</span>',
         },
-                        
+
         "abolitio signi": {
           "leve": '<span>El personaje deberá volver a intentar anular los efectos.</span>',
           "moderado": '<span>El personaje lo ha logrado, puede intentar el grabado nuevamente.</span>',
           "exitoso": '<span>El personaje lo ha logrado, puede intentar el grabado nuevamente.</span>',
           "critico": '<span>El personaje lo ha logrado, puede intentar el grabado nuevamente.</span>',
         },
-                        
+
         "deletio runicum": {
           "leve": '<span>El personaje deberá volver a intentar eliminar la runa.</span>',
           "moderado": '<span>El personaje lo ha logrado, puede intentar el grabado nuevamente. Gana 5 puntos para su casa por lograr la eliminación completa.</span>',
@@ -7356,7 +7356,7 @@ const MissionsModule = (function () {
     "futuros lideres: arcturus": {
       "description": "",
       "image": "", "requisitos": [],
-      "users": ["/u50","/u149","/u161","/u141","/u9"],
+      "users": ["/u50", "/u149", "/u161", "/u141", "/u9"],
       "dependency": [],
       "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
 
@@ -7443,10 +7443,10 @@ const MissionsModule = (function () {
     },
     // fin: evento futuros lideres: arcturus
 
-  "futuros lideres: barbara": {
+    "futuros lideres: barbara": {
       "description": "",
       "image": "", "requisitos": [],
-      "users": ["/u78","/u108","/u131","/u157","/u171"],
+      "users": ["/u78", "/u108", "/u131", "/u157", "/u171"],
       "dependency": [],
       "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
 
@@ -7476,10 +7476,10 @@ const MissionsModule = (function () {
     },
     // fin: evento futuros lideres: barbara
 
-  "futuros lideres: hamish": {
+    "futuros lideres: hamish": {
       "description": "",
       "image": "", "requisitos": [],
-      "users": ["/u110","/u8","/u119","/u130","/u138"],
+      "users": ["/u110", "/u8", "/u119", "/u130", "/u138"],
       "dependency": [],
       "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
 
@@ -7539,10 +7539,10 @@ const MissionsModule = (function () {
     },
     // fin: evento futuros lideres: hamish
 
-  "futuros lideres: hisashi": {
+    "futuros lideres: hisashi": {
       "description": "",
       "image": "", "requisitos": [],
-      "users": ["/u124","/u127","/u91","/u55"],
+      "users": ["/u124", "/u127", "/u91", "/u55"],
       "dependency": [],
       "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
 
@@ -7566,115 +7566,115 @@ const MissionsModule = (function () {
     },
     // fin: evento futuros lideres: hisashi
 
-  "futuros lideres: letselina": {
+    "futuros lideres: letselina": {
       "description": "",
       "image": "", "requisitos": [],
-      "users": ["/u63","/u145","/u12","/u38","/u24"],
+      "users": ["/u63", "/u145", "/u12", "/u38", "/u24"],
       "dependency": [],
       "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
 
       "cards": [],
       "searchs": {
-        "ministro ulick gamp": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros",
-          "cont": '<span>El cuadro muestra un hombre de rostro severo y peluca empolvada, retratado mientras sostiene el pergamino fundacional del Ministerio. El fondo es un claroscuro denso que resalta su mano derecha apoyada sobre una mesa de caoba. Ministro durante 1707 - 1718.</span>',
-        },
-        "ministro damocles rowle": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros",
-          "cont": '<span>El cuadro muestra a un caballero retratado con una armadura ornamental bajo su túnica negra. Su mirada es despótica y de fondo se vislumbra una silueta lejana de Azkaban entre brumas, simbolizando su insistencia en usar la fortaleza. Ministro durante 1718 - 1726.</span>',
-        },
-        "ministro perseus parkinson": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros",
-          "cont": '<span>El cuadro muestra un caballero de facciones afiladas y dedos largos adornados con anillos de plata. Aparece intentando promulgar una ley que prohíba el matrimonio con muggles, sosteniendo una pluma de águila con desdén. Ministro durante 1726 - 1733.</span>',
-        },
-        "ministro eldritch diggory": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros",
-          "cont": '<span>El cuadro muestra a un hombre de semblante amable pero cansado. Se le ve sentado en un sillón orejero, con una ventana abierta de donde parece entrar una luz celestial. Una pequeña calavera sobre su escritorio alude a su muerte por viruela de dragón. Ministro durante 1733 - 1747.</span>',
-        },
-        "ministro albert boot": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros",
-          "cont": '<span>El cuadro muestra un hombre robusto con una expresión de pánico contenido. El cuadro muestra de fondo una escena borrosa de una rebelión de duendes, mientras él sostiene un mapa de Gran Bretaña que parece quemarse en los bordes. Ministro durante 1747 - 1752.</span>',
-        },
-        "ministro basil flack": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros",
-          "cont": '<span>El cuadro muestra poco. Se le ve apenas de perfil, con una túnica que le queda grande, mirando hacia la puerta como si estuviera a punto de huir, capturando sus escasos dos meses de mandato. Ministro durante 1752 - 1752.</span>',
-        },
-        "ministro hesphaestus gore": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros",
-          "cont": '<span>El cuadro muestra un guerrero en túnica de gala. Aparece limpiando su varita con un pañuelo de seda, con una fila de celdas de hierro al fondo, representando su refuerzo de la seguridad en las prisiones mágicas. Ministro durante 1752 - 1770.</span>',
-        },
-        "ministro maximilian crowdy": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros",
-          "cont": '<span>El cuadro muestra un hombre de ojos vivaces y sonrisa astuta. Está rodeado de documentos y mapas de espionaje; se le ve señalando un escondite secreto, recordado por desmantelar grupos extremistas puristas. Ministro durante 1770 - 1781.</span>',
-        },
-        "ministro porteus knatchbull": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros",
-          "cont": '<span>El cuadro muestra un hombre retratado en un jardín sombrío. Su figura es alta y delgada; en el lienzo hay un detalle discordante: una pequeña efigie de un muggle al que parece estar observando con una mezcla de curiosidad y rechazo. Ministro durante 1781 - 1789.</span>',
-        },
-        "ministro unctuous osbert": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros",
-          "cont": '<span>El cuadro muestra a un hombre de apariencia servil y rostro redondeado. Se le muestra susurrando al oído de un mago de gran influencia, simbolizando su reputación de ser una marioneta de las familias de sangre pura más ricas. Ministro durante 1789 - 1798.</span>',
+        "ministro faris spavin": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros grupo2",
+          "cont": '<span>El cuadro muestra a un hombre de aspecto grande. Se le ve envejeciendo gradualmente en el lienzo debido a su largo mandato. Lleva una túnica de gala excesivamente ornamentada y una expresión de terquedad absoluta. Ministro durante 1865 - 1903.</span>',
         },
         "ministro artemisia lufkin": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros",
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros grupo1",
           "cont": '<span>El cuadro muestra a la primera bruja en el cargo. Aparece con una túnica de encaje complejo, sosteniendo un reloj de arena. Su expresión es de una inteligencia vibrante, rodeada de los planos del Departamento de Cooperación Mágica Internacional. Ministra durante 1798 - 1811.</span>',
         },
-        "ministro grogan stump": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros",
-          "cont": '<span>El cuadro muestra un hombre de barba poblada y manos callosas. Se le ve redactando la famosa ley sobre la división de "Seres" y "Bestias", con un fénix y un troll representados alegóricamente a sus costados. Ministro durante 1811 - 1819.</span>',
+        "ministro lorcan mclaird": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros grupo3",
+          "cont": '<span>El cuadro muestra al "ministro mudo". Se le ve sentado en un rincón del lienzo, comunicándose solo a través de nubes de humo que salen de su varita, con una expresión de timidez que raya en lo patológico. Ministro durante 1923 - 1925.</span>',
+        },
+        "ministro perseus parkinson": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros grupo2",
+          "cont": '<span>El cuadro muestra un caballero de facciones afiladas y dedos largos adornados con anillos de plata. Aparece intentando promulgar una ley que prohíba el matrimonio con muggles, sosteniendo una pluma de águila con desdén. Ministro durante 1726 - 1733.</span>',
+        },
+        "ministro leonard spencer-moon": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros grupo1",
+          "cont": '<span>El cuadro muestra un estratega de mirada penetrante. Aparece en una oficina llena de mapas de guerra y comunicaciones por chimenea, reflejando su estrecha y necesaria colaboración con Winston Churchill. Ministro durante 1939 - 1948.</span>',
+        },
+        "ministro ulick gamp": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros grupo3",
+          "cont": '<span>El cuadro muestra un hombre de rostro severo y peluca empolvada, retratado mientras sostiene el pergamino fundacional del Ministerio. El fondo es un claroscuro denso que resalta su mano derecha apoyada sobre una mesa de caoba. Ministro durante 1707 - 1718.</span>',
         },
         "ministro josephina flint": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros",
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros grupo2",
           "cont": '<span>El cuadro muestra una mujer de porte aristocrático y mirada gélida. El cuadro resalta su fobia a la tecnología muggle: se la ve pisoteando un pequeño mecanismo de relojería con un gesto de absoluto asco. Ministro durante 1819 - 1827.</span>',
         },
+        "ministro grogan stump": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros grupo1",
+          "cont": '<span>El cuadro muestra un hombre de barba poblada y manos callosas. Se le ve redactando la famosa ley sobre la división de "Seres" y "Bestias", con un fénix y un troll representados alegóricamente a sus costados. Ministro durante 1811 - 1819.</span>',
+        },
+        "ministro hesphaestus gore": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros grupo3",
+          "cont": '<span>El cuadro muestra un guerrero en túnica de gala. Aparece limpiando su varita con un pañuelo de seda, con una fila de celdas de hierro al fondo, representando su refuerzo de la seguridad en las prisiones mágicas. Ministro durante 1752 - 1770.</span>',
+        },
+        "ministro albert boot": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros grupo2",
+          "cont": '<span>El cuadro muestra un hombre robusto con una expresión de pánico contenido. El cuadro muestra de fondo una escena borrosa de una rebelión de duendes, mientras él sostiene un mapa de Gran Bretaña que parece quemarse en los bordes. Ministro durante 1747 - 1752.</span>',
+        },
+        "ministro evangeline orpington": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros grupo1",
+          "cont": '<span>El cuadro muestra una figura imponente y maternal. Aparece con un sombrero de ala ancha y se rumorea que el cuadro oculta una puerta secreta, aludiendo a su supuesta intervención mágica en la guerra de Crimea. Ministro durante 1849 - 1855.</span>',
+        },
+        "ministro archer evermonde": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros grupo3",
+          "cont": '<span>El cuadro muestra un hombre de aspecto marcial y bigote pulcro. Su cuadro está envuelto en un aura de secretismo; se le ve mirando a través de una ventana hacia un horizonte donde se intuye la Primera Guerra Mundial muggle. Ministro durante 1912 - 1923.</span>',
+        },
+        "ministro porteus knatchbull": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros grupo2",
+          "cont": '<span>El cuadro muestra un hombre retratado en un jardín sombrío. Su figura es alta y delgada; en el lienzo hay un detalle discordante: una pequeña efigie de un muggle al que parece estar observando con una mezcla de curiosidad y rechazo. Ministro durante 1781 - 1789.</span>',
+        },
         "ministro ottaline gambol": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros",
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros grupo1",
           "cont": '<span>El cuadro muestra a una mujer de rostro enigmático y elegante. Aparece frente a una locomotora roja envuelta en vapor (el Expreso de Hogwarts), sosteniendo una llave dorada. Ministro durante 1827 - 1835.</span>',
         },
         "ministro radolphus lestrange": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros",
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros grupo3",
           "cont": '<span>El cuadro muestra un hombre de mandíbula cuadrada y ojos oscuros, casi negros. Se le retrata intentando cerrar el Departamento de Misterios, con una sombra informe que parece emerger del lienzo para tocar su hombro. Ministro durante 1835 - 1841.</span>',
         },
-        "ministro hortensia milliphutt": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros",
-          "cont": '<span>El cuadro muestra una mujer de aspecto administrativo y ordenado. Su cuadro está lleno de pergaminos y leyes sobre el orden público; se la ve con una expresión de frustración ante el caos que no pudo controlar. Ministro durante 1841 - 1849.</span>',
-        },
-        "ministro evangeline orpington": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros",
-          "cont": '<span>El cuadro muestra una figura imponente y maternal. Aparece con un sombrero de ala ancha y se rumorea que el cuadro oculta una puerta secreta, aludiendo a su supuesta intervención mágica en la guerra de Crimea. Ministro durante 1849 - 1855.</span>',
-        },
-        "ministro priscilla dupont": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros",
-          "cont": '<span>El cuadro muestra una mujer retratada con una túnica de seda amarilla que contrasta con su rostro amargado. Se la ve gesticulando con desprecio hacia el Primer Ministro Muggle, cuya figura es apenas un boceto borroso en el lienzo. Ministro durante 1855 - 1858.</span>',
+        "ministro unctuous osbert": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros grupo2",
+          "cont": '<span>El cuadro muestra a un hombre de apariencia servil y rostro redondeado. Se le muestra susurrando al oído de un mago de gran influencia, simbolizando su reputación de ser una marioneta de las familias de sangre pura más ricas. Ministro durante 1789 - 1798.</span>',
         },
         "ministro dugald mcphail": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros",
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros grupo1",
           "cont": '<span>El cuadro muestra un escocés de mirada noble y vestimenta tradicional. Aparece frente a las puertas de San Mungo, con un estetoscopio mágico al cuello, representando su apoyo incondicional a los sanadores. Ministro durante 1858 - 1865.</span>',
         },
-        "ministro faris spavin": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros",
-          "cont": '<span>El cuadro muestra a un hombre de aspecto grande. Se le ve envejeciendo gradualmente en el lienzo debido a su largo mandato. Lleva una túnica de gala excesivamente ornamentada y una expresión de terquedad absoluta. Ministro durante 1865 - 1903.</span>',
+        "ministro basil flack": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros grupo3",
+          "cont": '<span>El cuadro muestra poco. Se le ve apenas de perfil, con una túnica que le queda grande, mirando hacia la puerta como si estuviera a punto de huir, capturando sus escasos dos meses de mandato. Ministro durante 1752 - 1752.</span>',
         },
-        "ministro venusia crickerly": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros",
-          "cont": '<span>El cuadro muestra una mujer de aspecto severo y manos manchadas de tierra. Aparece rodeada de mandrágoras y plantas peligrosas; su muerte por un "accidente" de jardinería se sugiere por una sombra vegetal tras ella. Ministro durante 1903 - 1912.</span>',
+        "ministro hortensia milliphutt": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros grupo2",
+          "cont": '<span>El cuadro muestra una mujer de aspecto administrativo y ordenado. Su cuadro está lleno de pergaminos y leyes sobre el orden público; se la ve con una expresión de frustración ante el caos que no pudo controlar. Ministro durante 1841 - 1849.</span>',
         },
-        "ministro archer evermonde": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros",
-          "cont": '<span>El cuadro muestra un hombre de aspecto marcial y bigote pulcro. Su cuadro está envuelto en un aura de secretismo; se le ve mirando a través de una ventana hacia un horizonte donde se intuye la Primera Guerra Mundial muggle. Ministro durante 1912 - 1923.</span>',
+        "ministro damocles rowle": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros grupo1",
+          "cont": '<span>El cuadro muestra a un caballero retratado con una armadura ornamental bajo su túnica negra. Su mirada es despótica y de fondo se vislumbra una silueta lejana de Azkaban entre brumas, simbolizando su insistencia en usar la fortaleza. Ministro durante 1718 - 1726.</span>',
         },
-        "ministro lorcan mclaird": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros",
-          "cont": '<span>El cuadro muestra al "ministro mudo". Se le ve sentado en un rincón del lienzo, comunicándose solo a través de nubes de humo que salen de su varita, con una expresión de timidez que raya en lo patológico. Ministro durante 1923 - 1925.</span>',
+        "ministro maximilian crowdy": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros grupo3",
+          "cont": '<span>El cuadro muestra un hombre de ojos vivaces y sonrisa astuta. Está rodeado de documentos y mapas de espionaje; se le ve señalando un escondite secreto, recordado por desmantelar grupos extremistas puristas. Ministro durante 1770 - 1781.</span>',
+        },
+        "ministro priscilla dupont": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros grupo2",
+          "cont": '<span>El cuadro muestra una mujer retratada con una túnica de seda amarilla que contrasta con su rostro amargado. Se la ve gesticulando con desprecio hacia el Primer Ministro Muggle, cuya figura es apenas un boceto borroso en el lienzo. Ministro durante 1855 - 1858.</span>',
         },
         "ministro héctor fawley": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros",
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros grupo1",
           "cont": '<span>El cuadro muestra un hombre de aspecto vivaz y algo extravagante. Aparece rodeado de maletas mágicas y pasaportes, simbolizando su excesiva preocupación por el comercio internacional mientras ignoraba las amenazas internas. Ministro durante 1925 - 1939.</span>',
         },
-        "ministro leonard spencer-moon": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros",
-          "cont": '<span>El cuadro muestra un estratega de mirada penetrante. Aparece en una oficina llena de mapas de guerra y comunicaciones por chimenea, reflejando su estrecha y necesaria colaboración con Winston Churchill. Ministro durante 1939 - 1948.</span>',
+        "ministro eldritch diggory": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros grupo3",
+          "cont": '<span>El cuadro muestra a un hombre de semblante amable pero cansado. Se le ve sentado en un sillón orejero, con una ventana abierta de donde parece entrar una luz celestial. Una pequeña calavera sobre su escritorio alude a su muerte por viruela de dragón. Ministro durante 1733 - 1747.</span>',
         },
+        "ministro venusia crickerly": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "ministros grupo2",
+          "cont": '<span>El cuadro muestra una mujer de aspecto severo y manos manchadas de tierra. Aparece rodeada de mandrágoras y plantas peligrosas; su muerte por un "accidente" de jardinería se sugiere por una sombra vegetal tras ella. Ministro durante 1903 - 1912.</span>',
+        }
       },
 
       "actions": {
@@ -7686,24 +7686,24 @@ const MissionsModule = (function () {
         },
         "historia magicae": {
           "leve": '<span>No es suficiente para revelar información</span>',
-          "moderado": '<span>Permite obtener la información de uno de los siguientes Ministros.<adding class="check-cards" search="ministros"></adding></span>',
-          "exitoso": '<span>Permite obtener la información de dos de los siguientes Ministros.<adding class="check-cards" search="ministros"></adding></span>',
-          "critico": '<span>Permite obtener la información de tres de los siguientes Ministros.<adding class="check-cards" search="ministros"></adding></span>',
+          "moderado": '<span>Permite obtener la información de uno de los siguientes Ministros.<adding class="check-cards" search="ministros grupo1"></adding></span>',
+          "exitoso": '<span>Permite obtener la información de dos de los siguientes Ministros.<adding class="check-cards" search="ministros grupo2"></adding></span>',
+          "critico": '<span>Permite obtener la información de tres de los siguientes Ministros.<adding class="check-cards" search="ministros grupo3"></adding></span>',
         },
         "tempus revela": {
           "leve": '<span>No es suficiente para revelar información</span>',
-          "moderado": '<span>Permite obtener la información de uno de los siguientes Ministros.<adding class="check-cards" search="ministros"></adding></span>',
-          "exitoso": '<span>Permite obtener la información de dos de los siguientes Ministros.<adding class="check-cards" search="ministros"></adding></span>',
-          "critico": '<span>Permite obtener la información de tres de los siguientes Ministros.<adding class="check-cards" search="ministros"></adding></span>',
+          "moderado": '<span>Permite obtener la información de uno de los siguientes Ministros.<adding class="check-cards" search="ministros grupo1"></adding></span>',
+          "exitoso": '<span>Permite obtener la información de dos de los siguientes Ministros.<adding class="check-cards" search="ministros grupo2"></adding></span>',
+          "critico": '<span>Permite obtener la información de tres de los siguientes Ministros.<adding class="check-cards" search="ministros grupo3"></adding></span>',
         },
       },
     },
     // fin: evento futuros lideres: letselina
 
-  "futuros lideres: nuala": {
+    "futuros lideres: nuala": {
       "description": "",
       "image": "", "requisitos": [],
-      "users": ["/u134","/u150","/u135","/u118"],
+      "users": ["/u134", "/u150", "/u135", "/u118"],
       "dependency": [],
       "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
 
@@ -7745,10 +7745,10 @@ const MissionsModule = (function () {
     },
     // fin: evento futuros lideres: nuala
 
-  "futuros lideres: thyra": {
+    "futuros lideres: thyra": {
       "description": "",
       "image": "", "requisitos": [],
-      "users": ["/u156","/u154","/u159","/u13"],
+      "users": ["/u156", "/u154", "/u159", "/u13"],
       "dependency": [],
       "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
 
