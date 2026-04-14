@@ -7554,7 +7554,7 @@ const MissionsModule = (function () {
           "leve": '<span>No es suficiente para revelar información</span>',
           "moderado": '<span>Reduce la temperatura corporal de 1 niño.</span>',
           "exitoso": '<span>Reduce la temperatura corporal de 1 niño.</span>',
-          "critico": '<span>Reduce la temperatura corporal de 2 niño.</span>',
+          "critico": '<span>Reduce la temperatura corporal de 2 niños.</span>',
         },
         "morbus revela": {
           "leve": '<span>No es suficiente para revelar información</span>',
