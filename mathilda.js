@@ -2632,8 +2632,8 @@ const MissionsModule = (function () {
     // fin muted magic
 
     "the murmuring woods": {
-      "description": "Con las diferentes informaciones obtenidas, deberán ir al invernadero que Edwin había prestado a Morgana para encontrar cuál era el ingrediente secreto que posee el elixir y así poder replicar su fórmula y averiguar si aquello es o no una cura para los squibs.",
-      "image": "https://2img.net/i.imgur.com/VMpvsfT.png", "requisitos": ["Un miembro debe tener Herbología en Avanzado", "Un miembro debe tener Encantamientos en Consagrado", "Se recomienda que un miembro posea Música en Principiante o una hija de Banshees"],
+      "description": "Tras la investigación sobre el lugar al que Edwin los llevó, descubren la existencia de una herencia de los Merrythought. Un lugar que había sido abandonado, pero cuyo objetivo se centra en ser un pulmón verde en las tierras escocesas. En esta misión se busca descubrir qué relación tiene este lugar con los asesinatos y por qué Edwin los llevó allí.",
+      "image": "https://2img.net/i.imgur.com/VMpvsfT.png", "requisitos": ["Un miembro debe ser de la familia Merrythought", "Un miembro debe tener Herbología en Avanzado", "Un miembro debe tener Encantamientos en Consagrado", "Se recomienda que un miembro posea Música en Principiante o una hija de Banshees"],
       "users": [],
       "dependency": ["bottle of sorrows", "muted magic", "stargazer's night"], "tagged": ["morgana", "edwin", "capitulo 0"],
       "type": "misión", "closed": false, "link": "",
@@ -3464,19 +3464,6 @@ const MissionsModule = (function () {
         },
       },
 
-      "actions": {},
-    },
-    // fin stargazer's night
-
-    "dayflower gardens": {
-      "description": "Tras la investigación sobre el lugar al que Edwin los llevó, descubren la existencia de una herencia de los Merrythought. Un lugar que había sido abandonado, pero cuyo objetivo se centra en ser un pulmón verde en las tierras escocesas. En esta misión se busca descubrir qué relación tiene este lugar con los asesinatos y por qué Edwin los llevó allí.",
-      "image": "https://2img.net/i.imgur.com/3N0DmMz.png", "requisitos": ["Un miembro debe pertenecer a la familia Merrythought o ser un conocido cercano a la misma", "Un miembro debe poseer Herbología en Avanzado", "Un miembro debe poseer Música en Avanzado"],
-      "users": [],
-      "dependency": ["stargazer's night"],
-      "type": "misión", "closed": false, "link": "", "tagged": ["edwin", "capitulo 0"],
-
-      "cards": [],
-      "searchs": {},
       "actions": {},
     },
     // fin stargazer's night
