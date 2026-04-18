@@ -2220,7 +2220,7 @@ const MissionsModule = (function () {
     "the lupine killer": {
       "description": "Aidan Flamel se encuentra bajo la lupa del Ministerio de Magia, que busca descubrir si el Acónito que Sirius alejó del castillo está relacionada con su correspondiente muerte. Y lo más importante, esa planta fue utilizada para algo más.",
       "image": "https://2img.net/i.imgur.com/xPVXOxC.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica"],
-      "users": ["i/u108", "/u146", "/u156", "/u8"],
+      "users": ["i/u108", "/u156", "/u8"],
       "dependency": ["the withered pot"],
       "type": "interrogatorio", "closed": false, "link": "/t1110-interrogatorio-the-lupine-killer", "tagged": ["sirius", "capitulo 0"],
 
@@ -3740,7 +3740,7 @@ const MissionsModule = (function () {
     "silent sentinel": {
       "description": "Tras los sucesos de Frozen Sunflower, se busca interrogar al guardia que fue incapacitado por Nina Wraithwood, para comprender si posee una información que pueda dar más luz al objeto robado.",
       "image": "https://2img.net/i.imgur.com/fDwQ2CI.png", "requisitos": ["Un personaje deberá ser miembro del Departamento de Seguridad"],
-      "users": ["c/u8", "c/u55", "/u146", "/u130"],
+      "users": ["c/u8", "c/u55", "/u130"],
       "dependency": ["frozen sunflowers"],
       "type": "investigación", "closed": false, "link": "/t984-interrogatorio-silent-sentinel", "tagged": ["original", "capitulo 2"],
 
