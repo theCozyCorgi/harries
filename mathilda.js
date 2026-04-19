@@ -3472,7 +3472,7 @@ const MissionsModule = (function () {
       "description": "Los frascos encontrados son enviados a los laboratorios de San Mungo para que estos puedan investigar qué poseían en el mismo y por qué Edwin los trató de descartar.",
       "image": "https://2img.net/i.imgur.com/Bt35Exz.png", "requisitos": ["Un miembro debe poseer Alquimia o Pociones en Avanzado"],
       "users": [],
-      "dependency": ["dayflower gardens"],
+      "dependency": ["the murmuring woods"],
       "type": "investigación", "closed": false, "link": "", "tagged": ["edwin", "capitulo 0"],
 
       "cards": [],
