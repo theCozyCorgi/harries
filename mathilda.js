@@ -1152,7 +1152,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/LKuQkxz.png", "requisitos": [],
       "users": ["/u130", "/u8", "/u145", "/u97"],
       "dependency": ["botanical market", "promise in crimson"],
-      "type": "misión", "closed": false, "link": "https://blackwave.foroactivo.com/t931-mision-moth-to-a-flame", "tagged": ["morgana", "capitulo 0"],
+      "type": "misión", "closed": true, "link": "https://blackwave.foroactivo.com/t931-mision-moth-to-a-flame", "tagged": ["morgana", "capitulo 0"],
 
       "cards": [],
       "searchs": {
@@ -3045,7 +3045,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/cX0CEv6.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica", "Un miembro deberá haber obtenido la pista del interrogatorio 'green to blue' o de la investigación 'full of emptiness'", "Un miembro deberá haber obtenido la pista del interrogatorio 'distorted memories' o 'journey of a bird"],
       "users": ["/u55", "/u78", "/u8"],
       "dependency": ["frozen sunflowers"],
-      "type": "interrogatorio", "closed": false, "link": "", "tagged": ["morgana", "capitulo 0"],
+      "type": "interrogatorio", "closed": false, "link": "https://blackwave.foroactivo.com/t1170-interrogatorio-the-apple-house", "tagged": ["morgana", "capitulo 0"],
 
       "cards": [],
       "searchs": {},
@@ -3787,7 +3787,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/tKGTsc9.png", "requisitos": ["Un miembro debe tener Contrabando en Avanzado", "Un miembro debe tener Magia Oscura en Consagrado"],
       "users": ["c/u131", "/u8", "/u55", "/u9", "/u145"],
       "dependency": ["frozen sunflowers"],
-      "type": "misión", "closed": false, "link": "/t983-mision-clandestine-melodies", "tagged": ["original", "capitulo 3"],
+      "type": "misión", "closed": true, "link": "/t983-mision-clandestine-melodies", "tagged": ["original", "capitulo 3"],
 
       "cards": [
         {
@@ -4484,7 +4484,7 @@ const MissionsModule = (function () {
       "image": "https://i.imgur.com/2kfwlbB.png", "requisitos": ["Un personaje deberá ser miembro del Departamento de Seguridad", "Un personaje o PNJ llevado por usuario deberá tener entre 45 y 55 años"],
       "users": ["c/u8", "/u153", "u55", "/u78"],
       "dependency": ["paper mask", "midnight ashes"],
-      "type": "investigación", "closed": false, "link": "", "tagged": ["original", "capitulo 3"],
+      "type": "investigación", "closed": false, "link": "https://blackwave.foroactivo.com/t1171-investigacion-stolen-shroud", "tagged": ["original", "capitulo 3"],
 
       "cards": [],
       "searchs": {},
