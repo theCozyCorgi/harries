@@ -7459,6 +7459,12 @@ const MissionsModule = (function () {
           "exitoso": '<span>Permite calmar a la salamandra, si el dado obtenido es par la misma quiere calor y si es impar quiere frío.</span>',
           "critico": '<span>Permite calmar a la salamandra, si el dado obtenido es par la misma quiere calor y si es impar quiere frío.</span>',
         },
+        "indago": {
+          "leve": '<span>No es suficiente para revelar información.</span>',
+          "moderado": '<span>Permite saber que a las salamandras les gusta el frío o el calor según su estado de ánimo. Cuando algunas salamandras se encuentran tristes o heridas, sus hermanas comienzan a generar fuego para reconfortarlas. Por lo tanto, es importante mantener un equilibrio en el entorno para evitar que las salamandras se sientan incómodas. Dar calor a las que los necesitan y frío a las que lo requieren.</span>',
+          "exitoso": '<span>Permite saber que a las salamandras les gusta el frío o el calor según su estado de ánimo. Cuando algunas salamandras se encuentran tristes o heridas, sus hermanas comienzan a generar fuego para reconfortarlas. Por lo tanto, es importante mantener un equilibrio en el entorno para evitar que las salamandras se sientan incómodas. Dar calor a las que los necesitan y frío a las que lo requieren.</span>',
+          "critico": '<span>Permite saber que a las salamandras les gusta el frío o el calor según su estado de ánimo. Cuando algunas salamandras se encuentran tristes o heridas, sus hermanas comienzan a generar fuego para reconfortarlas. Por lo tanto, es importante mantener un equilibrio en el entorno para evitar que las salamandras se sientan incómodas. Dar calor a las que los necesitan y frío a las que lo requieren.</span>',
+        },
       },
     },
     // fin: evento futuros lideres: barbara
