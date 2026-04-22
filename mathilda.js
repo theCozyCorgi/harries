@@ -7749,6 +7749,9 @@ const MissionsModule = (function () {
         "topo rojo": {
           "atributos": ["+2 fue", "+2 con"],
           "pv": "50",
+          "rareza": "corriente",
+          "peligrosidad": "controlable",
+          "clasificación": "bestia",
           "clasificación": "ser / personaje no jugable",
           "descripción": "personaje no jugable",
           "ataques": {
@@ -7768,6 +7771,9 @@ const MissionsModule = (function () {
         "topo azul": {
           "atributos": ["+3 fue", "+3 con"],
           "pv": "70",
+          "rareza": "corriente",
+          "peligrosidad": "controlable",
+          "clasificación": "bestia",
           "clasificación": "ser / personaje no jugable",
           "descripción": "personaje no jugable",
           "ataques": {
@@ -7787,6 +7793,9 @@ const MissionsModule = (function () {
         "topo verde": {
           "atributos": ["+4 fue", "+4 con"],
           "pv": "90",
+          "rareza": "corriente",
+          "peligrosidad": "controlable",
+          "clasificación": "bestia",
           "clasificación": "ser / personaje no jugable",
           "descripción": "personaje no jugable",
           "ataques": {
@@ -7806,6 +7815,9 @@ const MissionsModule = (function () {
         "topo amarillo": {
           "atributos": ["+5 fue", "+5 con"],
           "pv": "110",
+          "rareza": "corriente",
+          "peligrosidad": "controlable",
+          "clasificación": "bestia",
           "clasificación": "ser / personaje no jugable",
           "descripción": "personaje no jugable",
           "ataques": {
