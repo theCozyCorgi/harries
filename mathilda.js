@@ -4475,6 +4475,30 @@ const MissionsModule = (function () {
           "exitoso": '<span>El hechizo adiciona 3 turnos adicionales antes del ataque de los dementores y reduce las penalidades en 2 turnos hasta que al personaje le vuelva a tocar participar.</span>',
           "critico": '<span>El hechizo adiciona 4 turnos adicionales antes del ataque de los dementores y reduce las penalidades en 3 turnos hasta que al personaje le vuelva a tocar participar.</span>',
         },
+        "fortitudo cordis": {
+          "leve": '<span>El hechizo no es suficiente para agregar turnos adicionales.</span>',
+          "moderado": '<span>Adiciona +1 turno a todos los hechizos de patronus hasta que el personaje vuelva a participar.</span>',
+          "exitoso": '<span>Adiciona +2 turnos a todos los hechizos de patronus hasta que el personaje vuelva a participar.</span>',
+          "critico": '<span>Adiciona +3 turnos a todos los hechizos de patronus hasta que el personaje vuelva a participar.</span>',
+        },
+        "vox imperium": {
+          "leve": '<span>El hechizo no es suficiente para agregar turnos adicionales.</span>',
+          "moderado": '<span>Adiciona +1 turno a todos los hechizos de patronus hasta que el personaje vuelva a participar.</span>',
+          "exitoso": '<span>Adiciona +2 turnos a todos los hechizos de patronus durante 2 rondas.</span>',
+          "critico": '<span>Adiciona +3 turnos a todos los hechizos de patronus durante 3 rondas.</span>',
+        },
+        "anima vincula": {
+          "leve": '<span>El hechizo no es suficiente para agregar turnos adicionales.</span>',
+          "moderado": '<span>Adiciona +2 turnos a todos los hechizos de patronus hasta que el personaje vuelva a participar.</span>',
+          "exitoso": '<span>Adiciona +3 turnos a todos los hechizos de patronus durante 2 rondas.</span>',
+          "critico": '<span>Adiciona +5 turnos a todos los hechizos de patronus durante 3 rondas.</span>',
+        },
+        "fractura fidei": {
+          "leve": '<span>El hechizo no es suficiente para agregar turnos adicionales.</span>',
+          "moderado": '<span>Reduce 1 turno las penalidades de los dementores hasta que el personaje vuelva a participar.</span>',
+          "exitoso": '<span>Reduce 2 turnos las penalidades de los dementores durante 2 rondas.</span>',
+          "critico": '<span>Reduce 3 turnos las penalidades de los dementores durante 3 rondas.</span>',
+        },
       },
     },
     // the mercy of death
