@@ -3742,7 +3742,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/fDwQ2CI.png", "requisitos": ["Un personaje deberá ser miembro del Departamento de Seguridad"],
       "users": ["c/u8", "c/u55", "/u130"],
       "dependency": ["frozen sunflowers"],
-      "type": "investigación", "closed": false, "link": "/t984-interrogatorio-silent-sentinel", "tagged": ["original", "capitulo 2"],
+      "type": "investigación", "closed": true, "link": "/t984-interrogatorio-silent-sentinel", "tagged": ["original", "capitulo 2"],
 
       "cards": [
         {
