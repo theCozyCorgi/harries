@@ -399,7 +399,8 @@ const DBModule = (function () {
                                 pitcher: pitcher,
                                 spread: spread,
                                 url: `${topicKey}#${postId}`,
-                                simpleTitle: database.topics[topicKey].simpleTitle
+                                simpleTitle: database.topics[topicKey].simpleTitle,
+                                space: database.topics[topicKey].space
                             });
                         }
                     }
@@ -484,6 +485,7 @@ const DBModule = (function () {
         },
 
         exportData: function () {
+            // 1. Exportar Temas
             const elPensaderoTopics = Object.keys(database.topics)
                 .filter(url => database.topics[url].space.toLowerCase() === "el pensadero")
                 .reduce((obj, key) => {
@@ -491,10 +493,10 @@ const DBModule = (function () {
                     return obj;
                 }, {});
 
-            const elPensaderoDices = database.dices.filter(dice => {
-                const topicKey = dice.url.split('#');
-                return database.topics[topicKey] && database.topics[topicKey].space.toLowerCase() === "el pensadero";
-            });
+            // 2. Exportar Dados (¡Ahora es mucho más directo gracias a tu lógica!)
+            const elPensaderoDices = database.dices.filter(dice =>
+                dice.space && dice.space.toLowerCase() === "el pensadero"
+            );
 
             console.log("%c === COPIA ESTO EN hardcodedTopics ===", "color: lime");
             console.log(JSON.stringify(elPensaderoTopics, null, 2));
