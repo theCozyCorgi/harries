@@ -7879,6 +7879,128 @@ const MissionsModule = (function () {
       },
     },
     // fin: evento futuros lideres: thyra
+
+    
+
+    "quest line 1a": {
+      "description": "",
+      "image": "", "requisitos": [],
+      "users": ["all"],
+      "dependency": [],
+      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+
+      "cards": [],
+
+      "searchs": {
+        "desafío #01": {
+            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
+            "cont": '<span>Realizar 15 roles posteriores a la publicación del desafío.</span>',
+        },
+        "desafío #02": {
+            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #01",
+            "cont": '<span>Encontrar las 2 burbujas con fuegos escondidas en los roles.</span>',
+        },
+        "desafío #03": {
+            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #02",
+            "cont": '<span>Haber completado 5 prácticas.</span>',
+        },
+        "desafío #04": {
+            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #03",
+            "cont": '<span>Haber recolectado 50 cromos.</span>',
+        },
+        "desafío #05": {
+            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #04",
+            "cont": '<span>Haber lanzado 5 hechizos diferentes del conocimiento con mayor puntaje.</span>',
+        },
+        "desafío #06": {
+            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #05",
+            "cont": '<span>Realizar 25 roles posteriores a la publicación del desafío.</span>',
+        },
+        "desafío #07": {
+            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #06",
+            "cont": '<span>Encontrar las 5 burbujas con farolillos escondidas en los roles.</span>',
+        },
+        "desafío #08": {
+            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #07",
+            "cont": '<span>Haber realizado 15 pociones.</span>',
+        },
+        "desafío #09": {
+            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #08",
+            "cont": '<span>Haber participado en 10 misiones.</span>',
+        },
+        "desafío #10": {
+            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #09",
+            "cont": '<span>Haber realizado 25 hechizos diferentes que sean "Principiantes".</span>',
+        },
+        "desafío #11": {
+            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #10",
+            "cont": '<span>Realizar 40 roles posteriores a la publicación del desafío.</span>',
+        },
+        "desafío #12": {
+            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #11",
+            "cont": '<span>Haber sumado 250 puntos para la correspondientes casa.</span>',
+        },
+        "desafío #13": {
+            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #12",
+            "cont": '<span>Haber cerrado 5 temas durante el mes de Mayo.</span>',
+        },
+        "desafío #14": {
+            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #13",
+            "cont": '<span>Haber completado 15 prácticas.</span>',
+        },
+        "desafío #15": {
+            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #14",
+            "cont": '<span>Haber realizado 15 hechizos diferentes que sean "Avanzados".</span>',
+        },
+        "desafío #16": {
+            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #15",
+            "cont": '<span>Realizar 60 roles posteriores a la publicación del desafío.</span>',
+        },
+        "desafío #17": {
+            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #16",
+            "cont": '<span>Haber recolectado 100 cromos. No pueden ser los mismos que los anteriores.</span>',
+        },
+        "desafío #18": {
+            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #17",
+            "cont": '<span>Haber leído 15 libros.</span>',
+        },
+        "desafío #19": {
+            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #18",
+            "cont": '<span>Haber roleado en 30 lugares de interés diferentes. Pueden presentarse temas abiertos.</span>',
+        },
+        "desafío #20": {
+            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #19",
+            "cont": '<span>Haber realizado 10 hechizos diferentes que sean "Consagrado".</span>',
+        },
+        "desafío #21": {
+            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #20",
+            "cont": '<span>Realizar 100 roles posteriores a la publicación del desafío.</span>',
+        },
+        "desafío #22": {
+            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #21",
+            "cont": '<span>Haber realizado 5 hechizos diferentes que sean "Maestro".</span>',
+        },
+        "desafío #23": {
+            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #22",
+            "cont": '<span>Haber gastado 10k en la tienda. Puede presentarse de evidencia el baúl.</span>',
+        },
+        "desafío #24": {
+            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #23",
+            "cont": '<span>Haber realizado 2 hechizos diferentes que sean "Eminencia".</span>',
+        },
+        "desafío #25": {
+            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #24",
+            "cont": '<span>Haber cerrado 2 temas con personajes de cada uno de los 7 grupos.</span>',
+        },
+        "desafío #26": {
+            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #25",
+            "cont": '<span>Encontrar las 26 burbujas con plantas escondidas en los roles.</span>',
+        }
+      },
+
+      "actions": {},
+    },
+    // fin: quest line 1a
   };
 
   function getMission(mission) {
