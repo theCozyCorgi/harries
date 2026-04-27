@@ -24,7 +24,7 @@ const DBModule = (function () {
 
     const CACHE_KEY = 'blackwave_db_cache_v4';
     const INDEX_KEY = 'blackwave_db_current_index';
-    const CACHE_DURATION = 15 * 60 * 1000;
+    const CACHE_DURATION = 12 * 60 * 60 * 1000;
 
     const hardcodedTopics = {
         "/t453": {
@@ -41,7 +41,7 @@ const DBModule = (function () {
                 }
             ],
             "creationDate": "20/06/2025",
-            "date": "00/00/169200/00/170700/00/192700/00/193900/00/193915/06/194303/05/194501/08/194801/11/195129/08/1952",
+            "date": "29/08/1952",
             "location": "Desconocida"
         },
         "/t782": {
@@ -75405,6 +75405,16 @@ const DBModule = (function () {
             mes = match[2].padStart(2, '0');
             anio = match[3];
             return `${dia}/${mes}/${anio}`;
+        }
+
+        // Formato Septiembre 03
+        match = t.match(/^([a-záéíóúñ]+)\s+(\d{1,2})$/i);
+        if (match) {
+            mes = meses[match[1].toLowerCase()];
+            dia = match[2].padStart(2, '0');
+            if (dia && mes) {
+                return `${dia}/${mes}/1953`;
+            }
         }
 
         return t;
