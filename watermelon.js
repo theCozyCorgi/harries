@@ -52997,7 +52997,7 @@ const DBModule = (function () {
             "spread": [
                 3
             ],
-            "url": "/t782#10015",
+            "url": "r10015",
             "simpleTitle": "algarrobas para el cerdo",
             "space": "el pensadero"
         },
@@ -53006,7 +53006,7 @@ const DBModule = (function () {
             "spread": [
                 19
             ],
-            "url": "/t782#11798",
+            "url": "r11798",
             "simpleTitle": "algarrobas para el cerdo",
             "space": "el pensadero"
         },
@@ -53015,7 +53015,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t782#12097",
+            "url": "r12097",
             "simpleTitle": "algarrobas para el cerdo",
             "space": "el pensadero"
         },
@@ -53025,7 +53025,7 @@ const DBModule = (function () {
                 14,
                 5
             ],
-            "url": "/t945#12574",
+            "url": "r12574",
             "simpleTitle": "partido: ravenclaw vs slytherin",
             "space": "el pensadero"
         },
@@ -53036,7 +53036,7 @@ const DBModule = (function () {
                 11,
                 2
             ],
-            "url": "/t945#12646",
+            "url": "r12646",
             "simpleTitle": "partido: ravenclaw vs slytherin",
             "space": "el pensadero"
         },
@@ -53047,7 +53047,7 @@ const DBModule = (function () {
                 10,
                 6
             ],
-            "url": "/t945#12652",
+            "url": "r12652",
             "simpleTitle": "partido: ravenclaw vs slytherin",
             "space": "el pensadero"
         },
@@ -53058,7 +53058,7 @@ const DBModule = (function () {
                 12,
                 5
             ],
-            "url": "/t945#12659",
+            "url": "r12659",
             "simpleTitle": "partido: ravenclaw vs slytherin",
             "space": "el pensadero"
         },
@@ -53067,7 +53067,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t945#12990",
+            "url": "r12990",
             "simpleTitle": "partido: ravenclaw vs slytherin",
             "space": "el pensadero"
         },
@@ -53077,7 +53077,7 @@ const DBModule = (function () {
                 10,
                 17
             ],
-            "url": "/t945#12992",
+            "url": "r12992",
             "simpleTitle": "partido: ravenclaw vs slytherin",
             "space": "el pensadero"
         },
@@ -53087,7 +53087,7 @@ const DBModule = (function () {
                 8,
                 7
             ],
-            "url": "/t1012#13833",
+            "url": "r13833",
             "simpleTitle": "evento: ruleta de prácticas #04-b",
             "space": "el pensadero"
         },
@@ -53097,7 +53097,7 @@ const DBModule = (function () {
                 11,
                 3
             ],
-            "url": "/t1012#13901",
+            "url": "r13901",
             "simpleTitle": "evento: ruleta de prácticas #04-b",
             "space": "el pensadero"
         },
@@ -53106,7 +53106,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t1012#13920",
+            "url": "r13920",
             "simpleTitle": "evento: ruleta de prácticas #04-b",
             "space": "el pensadero"
         },
@@ -53115,7 +53115,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t1012#14040",
+            "url": "r14040",
             "simpleTitle": "evento: ruleta de prácticas #04-b",
             "space": "el pensadero"
         },
@@ -53124,7 +53124,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t1012#14066",
+            "url": "r14066",
             "simpleTitle": "evento: ruleta de prácticas #04-b",
             "space": "el pensadero"
         },
@@ -53133,7 +53133,7 @@ const DBModule = (function () {
             "spread": [
                 18
             ],
-            "url": "/t1012#14112",
+            "url": "r14112",
             "simpleTitle": "evento: ruleta de prácticas #04-b",
             "space": "el pensadero"
         },
@@ -53142,7 +53142,7 @@ const DBModule = (function () {
             "spread": [
                 19
             ],
-            "url": "/t1012#14183",
+            "url": "r14183",
             "simpleTitle": "evento: ruleta de prácticas #04-b",
             "space": "el pensadero"
         },
@@ -53151,7 +53151,7 @@ const DBModule = (function () {
             "spread": [
                 19
             ],
-            "url": "/t1012#14580",
+            "url": "r14580",
             "simpleTitle": "evento: ruleta de prácticas #04-b",
             "space": "el pensadero"
         },
@@ -53160,7 +53160,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t1012#14646",
+            "url": "r14646",
             "simpleTitle": "evento: ruleta de prácticas #04-b",
             "space": "el pensadero"
         },
@@ -53169,7 +53169,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t1012#15033",
+            "url": "r15033",
             "simpleTitle": "evento: ruleta de prácticas #04-b",
             "space": "el pensadero"
         },
@@ -53178,7 +53178,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t1012#15174",
+            "url": "r15174",
             "simpleTitle": "evento: ruleta de prácticas #04-b",
             "space": "el pensadero"
         },
@@ -53187,7 +53187,7 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "url": "/t1012#15682",
+            "url": "r15682",
             "simpleTitle": "evento: ruleta de prácticas #04-b",
             "space": "el pensadero"
         },
@@ -53196,7 +53196,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t1012#15774",
+            "url": "r15774",
             "simpleTitle": "evento: ruleta de prácticas #04-b",
             "space": "el pensadero"
         },
@@ -53205,7 +53205,7 @@ const DBModule = (function () {
             "spread": [
                 9
             ],
-            "url": "/t997#13609",
+            "url": "r13609",
             "simpleTitle": "evento: ruleta de prácticas #09",
             "space": "el pensadero"
         },
@@ -53214,7 +53214,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t997#13682",
+            "url": "r13682",
             "simpleTitle": "evento: ruleta de prácticas #09",
             "space": "el pensadero"
         },
@@ -53223,7 +53223,7 @@ const DBModule = (function () {
             "spread": [
                 18
             ],
-            "url": "/t997#13766",
+            "url": "r13766",
             "simpleTitle": "evento: ruleta de prácticas #09",
             "space": "el pensadero"
         },
@@ -53232,7 +53232,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t997#14448",
+            "url": "r14448",
             "simpleTitle": "evento: ruleta de prácticas #09",
             "space": "el pensadero"
         },
@@ -53241,7 +53241,7 @@ const DBModule = (function () {
             "spread": [
                 11
             ],
-            "url": "/t997#14830",
+            "url": "r14830",
             "simpleTitle": "evento: ruleta de prácticas #09",
             "space": "el pensadero"
         },
@@ -53250,7 +53250,7 @@ const DBModule = (function () {
             "spread": [
                 6
             ],
-            "url": "/t997#15568",
+            "url": "r15568",
             "simpleTitle": "evento: ruleta de prácticas #09",
             "space": "el pensadero"
         },
@@ -53259,7 +53259,7 @@ const DBModule = (function () {
             "spread": [
                 19
             ],
-            "url": "/t997#16447",
+            "url": "r16447",
             "simpleTitle": "evento: ruleta de prácticas #09",
             "space": "el pensadero"
         },
@@ -53268,7 +53268,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t997#16514",
+            "url": "r16514",
             "simpleTitle": "evento: ruleta de prácticas #09",
             "space": "el pensadero"
         },
@@ -53277,7 +53277,7 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "url": "/t1084#14755",
+            "url": "r14755",
             "simpleTitle": "evento: ruleta de prácticas #02-b",
             "space": "el pensadero"
         },
@@ -53286,7 +53286,7 @@ const DBModule = (function () {
             "spread": [
                 11
             ],
-            "url": "/t1084#14826",
+            "url": "r14826",
             "simpleTitle": "evento: ruleta de prácticas #02-b",
             "space": "el pensadero"
         },
@@ -53295,7 +53295,7 @@ const DBModule = (function () {
             "spread": [
                 18
             ],
-            "url": "/t1084#14852",
+            "url": "r14852",
             "simpleTitle": "evento: ruleta de prácticas #02-b",
             "space": "el pensadero"
         },
@@ -53304,7 +53304,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t1084#14862",
+            "url": "r14862",
             "simpleTitle": "evento: ruleta de prácticas #02-b",
             "space": "el pensadero"
         },
@@ -53313,7 +53313,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t1084#14899",
+            "url": "r14899",
             "simpleTitle": "evento: ruleta de prácticas #02-b",
             "space": "el pensadero"
         },
@@ -53322,7 +53322,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t1084#15098",
+            "url": "r15098",
             "simpleTitle": "evento: ruleta de prácticas #02-b",
             "space": "el pensadero"
         },
@@ -53331,7 +53331,7 @@ const DBModule = (function () {
             "spread": [
                 3
             ],
-            "url": "/t1084#15257",
+            "url": "r15257",
             "simpleTitle": "evento: ruleta de prácticas #02-b",
             "space": "el pensadero"
         },
@@ -53340,7 +53340,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t1084#15712",
+            "url": "r15712",
             "simpleTitle": "evento: ruleta de prácticas #02-b",
             "space": "el pensadero"
         },
@@ -53349,7 +53349,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t1009#15638",
+            "url": "r15638",
             "simpleTitle": "investigación: stargazer's night",
             "space": "el pensadero"
         },
@@ -53358,7 +53358,7 @@ const DBModule = (function () {
             "spread": [
                 13
             ],
-            "url": "/t1009#15742",
+            "url": "r15742",
             "simpleTitle": "investigación: stargazer's night",
             "space": "el pensadero"
         },
@@ -53370,7 +53370,7 @@ const DBModule = (function () {
                 8,
                 18
             ],
-            "url": "/t1081#14759",
+            "url": "r14759",
             "simpleTitle": "clase de herbología: el lazo enamorado (invernadero 3)",
             "space": "el pensadero"
         },
@@ -53382,7 +53382,7 @@ const DBModule = (function () {
                 16,
                 3
             ],
-            "url": "/t1081#14786",
+            "url": "r14786",
             "simpleTitle": "clase de herbología: el lazo enamorado (invernadero 3)",
             "space": "el pensadero"
         },
@@ -53393,7 +53393,7 @@ const DBModule = (function () {
                 11,
                 1
             ],
-            "url": "/t1081#14904",
+            "url": "r14904",
             "simpleTitle": "clase de herbología: el lazo enamorado (invernadero 3)",
             "space": "el pensadero"
         },
@@ -53405,7 +53405,7 @@ const DBModule = (function () {
                 2,
                 8
             ],
-            "url": "/t1081#14927",
+            "url": "r14927",
             "simpleTitle": "clase de herbología: el lazo enamorado (invernadero 3)",
             "space": "el pensadero"
         },
@@ -53417,7 +53417,7 @@ const DBModule = (function () {
                 17,
                 12
             ],
-            "url": "/t1081#15050",
+            "url": "r15050",
             "simpleTitle": "clase de herbología: el lazo enamorado (invernadero 3)",
             "space": "el pensadero"
         },
@@ -53429,7 +53429,7 @@ const DBModule = (function () {
                 19,
                 12
             ],
-            "url": "/t1081#15080",
+            "url": "r15080",
             "simpleTitle": "clase de herbología: el lazo enamorado (invernadero 3)",
             "space": "el pensadero"
         },
@@ -53441,7 +53441,7 @@ const DBModule = (function () {
                 18,
                 20
             ],
-            "url": "/t1081#15092",
+            "url": "r15092",
             "simpleTitle": "clase de herbología: el lazo enamorado (invernadero 3)",
             "space": "el pensadero"
         },
@@ -53453,7 +53453,7 @@ const DBModule = (function () {
                 8,
                 5
             ],
-            "url": "/t1080#14753",
+            "url": "r14753",
             "simpleTitle": "clase de herbología: el lazo enamorado (invernadero 2)",
             "space": "el pensadero"
         },
@@ -53465,7 +53465,7 @@ const DBModule = (function () {
                 10,
                 15
             ],
-            "url": "/t1080#14782",
+            "url": "r14782",
             "simpleTitle": "clase de herbología: el lazo enamorado (invernadero 2)",
             "space": "el pensadero"
         },
@@ -53477,7 +53477,7 @@ const DBModule = (function () {
                 11,
                 13
             ],
-            "url": "/t1080#14790",
+            "url": "r14790",
             "simpleTitle": "clase de herbología: el lazo enamorado (invernadero 2)",
             "space": "el pensadero"
         },
@@ -53489,7 +53489,7 @@ const DBModule = (function () {
                 4,
                 15
             ],
-            "url": "/t1080#14839",
+            "url": "r14839",
             "simpleTitle": "clase de herbología: el lazo enamorado (invernadero 2)",
             "space": "el pensadero"
         },
@@ -53501,7 +53501,7 @@ const DBModule = (function () {
                 12,
                 19
             ],
-            "url": "/t1080#14908",
+            "url": "r14908",
             "simpleTitle": "clase de herbología: el lazo enamorado (invernadero 2)",
             "space": "el pensadero"
         },
@@ -53513,7 +53513,7 @@ const DBModule = (function () {
                 9,
                 1
             ],
-            "url": "/t1080#14917",
+            "url": "r14917",
             "simpleTitle": "clase de herbología: el lazo enamorado (invernadero 2)",
             "space": "el pensadero"
         },
@@ -53525,7 +53525,7 @@ const DBModule = (function () {
                 4,
                 11
             ],
-            "url": "/t1080#15105",
+            "url": "r15105",
             "simpleTitle": "clase de herbología: el lazo enamorado (invernadero 2)",
             "space": "el pensadero"
         },
@@ -53537,7 +53537,7 @@ const DBModule = (function () {
                 19,
                 2
             ],
-            "url": "/t1080#15109",
+            "url": "r15109",
             "simpleTitle": "clase de herbología: el lazo enamorado (invernadero 2)",
             "space": "el pensadero"
         },
@@ -53549,7 +53549,7 @@ const DBModule = (function () {
                 16,
                 11
             ],
-            "url": "/t1080#15208",
+            "url": "r15208",
             "simpleTitle": "clase de herbología: el lazo enamorado (invernadero 2)",
             "space": "el pensadero"
         },
@@ -53561,7 +53561,7 @@ const DBModule = (function () {
                 15,
                 16
             ],
-            "url": "/t1079#14751",
+            "url": "r14751",
             "simpleTitle": "clase de herbología: el lazo enamorado (invernadero 1)",
             "space": "el pensadero"
         },
@@ -53573,7 +53573,7 @@ const DBModule = (function () {
                 20,
                 11
             ],
-            "url": "/t1079#14765",
+            "url": "r14765",
             "simpleTitle": "clase de herbología: el lazo enamorado (invernadero 1)",
             "space": "el pensadero"
         },
@@ -53585,7 +53585,7 @@ const DBModule = (function () {
                 13,
                 4
             ],
-            "url": "/t1079#14780",
+            "url": "r14780",
             "simpleTitle": "clase de herbología: el lazo enamorado (invernadero 1)",
             "space": "el pensadero"
         },
@@ -53595,7 +53595,7 @@ const DBModule = (function () {
                 20,
                 6
             ],
-            "url": "/t1079#14794",
+            "url": "r14794",
             "simpleTitle": "clase de herbología: el lazo enamorado (invernadero 1)",
             "space": "el pensadero"
         },
@@ -53607,7 +53607,7 @@ const DBModule = (function () {
                 16,
                 16
             ],
-            "url": "/t1079#14814",
+            "url": "r14814",
             "simpleTitle": "clase de herbología: el lazo enamorado (invernadero 1)",
             "space": "el pensadero"
         },
@@ -53619,7 +53619,7 @@ const DBModule = (function () {
                 9,
                 2
             ],
-            "url": "/t1079#14816",
+            "url": "r14816",
             "simpleTitle": "clase de herbología: el lazo enamorado (invernadero 1)",
             "space": "el pensadero"
         },
@@ -53631,7 +53631,7 @@ const DBModule = (function () {
                 11,
                 5
             ],
-            "url": "/t1079#14841",
+            "url": "r14841",
             "simpleTitle": "clase de herbología: el lazo enamorado (invernadero 1)",
             "space": "el pensadero"
         },
@@ -53641,7 +53641,7 @@ const DBModule = (function () {
                 5,
                 18
             ],
-            "url": "/t1079#14860",
+            "url": "r14860",
             "simpleTitle": "clase de herbología: el lazo enamorado (invernadero 1)",
             "space": "el pensadero"
         },
@@ -53651,7 +53651,7 @@ const DBModule = (function () {
                 8,
                 20
             ],
-            "url": "/t1079#14884",
+            "url": "r14884",
             "simpleTitle": "clase de herbología: el lazo enamorado (invernadero 1)",
             "space": "el pensadero"
         },
@@ -53661,7 +53661,7 @@ const DBModule = (function () {
                 12,
                 19
             ],
-            "url": "/t1079#14890",
+            "url": "r14890",
             "simpleTitle": "clase de herbología: el lazo enamorado (invernadero 1)",
             "space": "el pensadero"
         },
@@ -53673,7 +53673,7 @@ const DBModule = (function () {
                 3,
                 6
             ],
-            "url": "/t995#13489",
+            "url": "r13489",
             "simpleTitle": "evento: ruleta de prácticas #07",
             "space": "el pensadero"
         },
@@ -53685,7 +53685,7 @@ const DBModule = (function () {
                 9,
                 8
             ],
-            "url": "/t995#13618",
+            "url": "r13618",
             "simpleTitle": "evento: ruleta de prácticas #07",
             "space": "el pensadero"
         },
@@ -53697,7 +53697,7 @@ const DBModule = (function () {
                 20,
                 3
             ],
-            "url": "/t995#13629",
+            "url": "r13629",
             "simpleTitle": "evento: ruleta de prácticas #07",
             "space": "el pensadero"
         },
@@ -53709,7 +53709,7 @@ const DBModule = (function () {
                 17,
                 11
             ],
-            "url": "/t995#14488",
+            "url": "r14488",
             "simpleTitle": "evento: ruleta de prácticas #07",
             "space": "el pensadero"
         },
@@ -53721,7 +53721,7 @@ const DBModule = (function () {
                 5,
                 8
             ],
-            "url": "/t995#14515",
+            "url": "r14515",
             "simpleTitle": "evento: ruleta de prácticas #07",
             "space": "el pensadero"
         },
@@ -53733,7 +53733,7 @@ const DBModule = (function () {
                 15,
                 11
             ],
-            "url": "/t995#14868",
+            "url": "r14868",
             "simpleTitle": "evento: ruleta de prácticas #07",
             "space": "el pensadero"
         },
@@ -53745,7 +53745,7 @@ const DBModule = (function () {
                 3,
                 14
             ],
-            "url": "/t995#14965",
+            "url": "r14965",
             "simpleTitle": "evento: ruleta de prácticas #07",
             "space": "el pensadero"
         },
@@ -53757,7 +53757,7 @@ const DBModule = (function () {
                 7,
                 16
             ],
-            "url": "/t995#15088",
+            "url": "r15088",
             "simpleTitle": "evento: ruleta de prácticas #07",
             "space": "el pensadero"
         },
@@ -53769,7 +53769,7 @@ const DBModule = (function () {
                 11,
                 2
             ],
-            "url": "/t995#15212",
+            "url": "r15212",
             "simpleTitle": "evento: ruleta de prácticas #07",
             "space": "el pensadero"
         },
@@ -53781,7 +53781,7 @@ const DBModule = (function () {
                 12,
                 5
             ],
-            "url": "/t995#16030",
+            "url": "r16030",
             "simpleTitle": "evento: ruleta de prácticas #07",
             "space": "el pensadero"
         },
@@ -53793,7 +53793,7 @@ const DBModule = (function () {
                 18,
                 15
             ],
-            "url": "/t995#16042",
+            "url": "r16042",
             "simpleTitle": "evento: ruleta de prácticas #07",
             "space": "el pensadero"
         },
@@ -53802,7 +53802,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t1069#14656",
+            "url": "r14656",
             "simpleTitle": "práctica: como cometa al viento",
             "space": "el pensadero"
         },
@@ -53811,7 +53811,7 @@ const DBModule = (function () {
             "spread": [
                 5
             ],
-            "url": "/t1069#14801",
+            "url": "r14801",
             "simpleTitle": "práctica: como cometa al viento",
             "space": "el pensadero"
         },
@@ -53820,7 +53820,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t1069#14855",
+            "url": "r14855",
             "simpleTitle": "práctica: como cometa al viento",
             "space": "el pensadero"
         },
@@ -53829,7 +53829,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t1069#15072",
+            "url": "r15072",
             "simpleTitle": "práctica: como cometa al viento",
             "space": "el pensadero"
         },
@@ -53838,7 +53838,7 @@ const DBModule = (function () {
             "spread": [
                 5
             ],
-            "url": "/t1069#15124",
+            "url": "r15124",
             "simpleTitle": "práctica: como cometa al viento",
             "space": "el pensadero"
         },
@@ -53847,7 +53847,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t1069#15201",
+            "url": "r15201",
             "simpleTitle": "práctica: como cometa al viento",
             "space": "el pensadero"
         },
@@ -53856,7 +53856,7 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "url": "/t1069#15592",
+            "url": "r15592",
             "simpleTitle": "práctica: como cometa al viento",
             "space": "el pensadero"
         },
@@ -53865,7 +53865,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t1069#15630",
+            "url": "r15630",
             "simpleTitle": "práctica: como cometa al viento",
             "space": "el pensadero"
         },
@@ -53877,7 +53877,7 @@ const DBModule = (function () {
                 10,
                 7
             ],
-            "url": "/t996#13632",
+            "url": "r13632",
             "simpleTitle": "evento: ruleta de prácticas #08",
             "space": "el pensadero"
         },
@@ -53889,7 +53889,7 @@ const DBModule = (function () {
                 3,
                 4
             ],
-            "url": "/t996#13642",
+            "url": "r13642",
             "simpleTitle": "evento: ruleta de prácticas #08",
             "space": "el pensadero"
         },
@@ -53901,7 +53901,7 @@ const DBModule = (function () {
                 19,
                 1
             ],
-            "url": "/t996#13821",
+            "url": "r13821",
             "simpleTitle": "evento: ruleta de prácticas #08",
             "space": "el pensadero"
         },
@@ -53913,7 +53913,7 @@ const DBModule = (function () {
                 20,
                 9
             ],
-            "url": "/t996#14512",
+            "url": "r14512",
             "simpleTitle": "evento: ruleta de prácticas #08",
             "space": "el pensadero"
         },
@@ -53925,7 +53925,7 @@ const DBModule = (function () {
                 13,
                 10
             ],
-            "url": "/t996#14956",
+            "url": "r14956",
             "simpleTitle": "evento: ruleta de prácticas #08",
             "space": "el pensadero"
         },
@@ -53937,7 +53937,7 @@ const DBModule = (function () {
                 12,
                 14
             ],
-            "url": "/t996#15383",
+            "url": "r15383",
             "simpleTitle": "evento: ruleta de prácticas #08",
             "space": "el pensadero"
         },
@@ -53947,7 +53947,7 @@ const DBModule = (function () {
                 12,
                 11
             ],
-            "url": "/t996#16053",
+            "url": "r16053",
             "simpleTitle": "evento: ruleta de prácticas #08",
             "space": "el pensadero"
         },
@@ -53957,7 +53957,7 @@ const DBModule = (function () {
                 1,
                 3
             ],
-            "url": "/t996#16459",
+            "url": "r16459",
             "simpleTitle": "evento: ruleta de prácticas #08",
             "space": "el pensadero"
         },
@@ -53967,7 +53967,7 @@ const DBModule = (function () {
                 9,
                 9
             ],
-            "url": "/t996#16680",
+            "url": "r16680",
             "simpleTitle": "evento: ruleta de prácticas #08",
             "space": "el pensadero"
         },
@@ -53977,7 +53977,7 @@ const DBModule = (function () {
                 18,
                 17
             ],
-            "url": "/t996#16758",
+            "url": "r16758",
             "simpleTitle": "evento: ruleta de prácticas #08",
             "space": "el pensadero"
         },
@@ -53988,7 +53988,7 @@ const DBModule = (function () {
                 2,
                 8
             ],
-            "url": "/t944#12552",
+            "url": "r12552",
             "simpleTitle": "partido: gryffindor vs hufflepuff",
             "space": "el pensadero"
         },
@@ -53998,7 +53998,7 @@ const DBModule = (function () {
                 10,
                 5
             ],
-            "url": "/t944#12576",
+            "url": "r12576",
             "simpleTitle": "partido: gryffindor vs hufflepuff",
             "space": "el pensadero"
         },
@@ -54009,7 +54009,7 @@ const DBModule = (function () {
                 2,
                 5
             ],
-            "url": "/t944#12637",
+            "url": "r12637",
             "simpleTitle": "partido: gryffindor vs hufflepuff",
             "space": "el pensadero"
         },
@@ -54020,7 +54020,7 @@ const DBModule = (function () {
                 19,
                 10
             ],
-            "url": "/t944#12985",
+            "url": "r12985",
             "simpleTitle": "partido: gryffindor vs hufflepuff",
             "space": "el pensadero"
         },
@@ -54033,7 +54033,7 @@ const DBModule = (function () {
                 2,
                 4
             ],
-            "url": "/t944#12987",
+            "url": "r12987",
             "simpleTitle": "partido: gryffindor vs hufflepuff",
             "space": "el pensadero"
         },
@@ -54042,7 +54042,7 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "url": "/t983#13291",
+            "url": "r13291",
             "simpleTitle": "misión: clandestine melodies",
             "space": "el pensadero"
         },
@@ -54051,7 +54051,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t983#13309",
+            "url": "r13309",
             "simpleTitle": "misión: clandestine melodies",
             "space": "el pensadero"
         },
@@ -54060,7 +54060,7 @@ const DBModule = (function () {
             "spread": [
                 5
             ],
-            "url": "/t983#13340",
+            "url": "r13340",
             "simpleTitle": "misión: clandestine melodies",
             "space": "el pensadero"
         },
@@ -54069,7 +54069,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t983#13389",
+            "url": "r13389",
             "simpleTitle": "misión: clandestine melodies",
             "space": "el pensadero"
         },
@@ -54078,7 +54078,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t983#13624",
+            "url": "r13624",
             "simpleTitle": "misión: clandestine melodies",
             "space": "el pensadero"
         },
@@ -54087,7 +54087,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t983#13674",
+            "url": "r13674",
             "simpleTitle": "misión: clandestine melodies",
             "space": "el pensadero"
         },
@@ -54096,7 +54096,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t983#13728",
+            "url": "r13728",
             "simpleTitle": "misión: clandestine melodies",
             "space": "el pensadero"
         },
@@ -54105,7 +54105,7 @@ const DBModule = (function () {
             "spread": [
                 11
             ],
-            "url": "/t983#13961",
+            "url": "r13961",
             "simpleTitle": "misión: clandestine melodies",
             "space": "el pensadero"
         },
@@ -54114,7 +54114,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t983#13963",
+            "url": "r13963",
             "simpleTitle": "misión: clandestine melodies",
             "space": "el pensadero"
         },
@@ -54123,7 +54123,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t983#14229",
+            "url": "r14229",
             "simpleTitle": "misión: clandestine melodies",
             "space": "el pensadero"
         },
@@ -54132,7 +54132,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t983#14272",
+            "url": "r14272",
             "simpleTitle": "misión: clandestine melodies",
             "space": "el pensadero"
         },
@@ -54141,7 +54141,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t983#14371",
+            "url": "r14371",
             "simpleTitle": "misión: clandestine melodies",
             "space": "el pensadero"
         },
@@ -54150,7 +54150,7 @@ const DBModule = (function () {
             "spread": [
                 3
             ],
-            "url": "/t983#14686",
+            "url": "r14686",
             "simpleTitle": "misión: clandestine melodies",
             "space": "el pensadero"
         },
@@ -54159,7 +54159,7 @@ const DBModule = (function () {
             "spread": [
                 18
             ],
-            "url": "/t983#14936",
+            "url": "r14936",
             "simpleTitle": "misión: clandestine melodies",
             "space": "el pensadero"
         },
@@ -54168,7 +54168,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t983#15332",
+            "url": "r15332",
             "simpleTitle": "misión: clandestine melodies",
             "space": "el pensadero"
         },
@@ -54177,7 +54177,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t983#15366",
+            "url": "r15366",
             "simpleTitle": "misión: clandestine melodies",
             "space": "el pensadero"
         },
@@ -54186,7 +54186,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t983#15442",
+            "url": "r15442",
             "simpleTitle": "misión: clandestine melodies",
             "space": "el pensadero"
         },
@@ -54195,7 +54195,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t983#15553",
+            "url": "r15553",
             "simpleTitle": "misión: clandestine melodies",
             "space": "el pensadero"
         },
@@ -54204,7 +54204,7 @@ const DBModule = (function () {
             "spread": [
                 9
             ],
-            "url": "/t983#15884",
+            "url": "r15884",
             "simpleTitle": "misión: clandestine melodies",
             "space": "el pensadero"
         },
@@ -54213,7 +54213,7 @@ const DBModule = (function () {
             "spread": [
                 9
             ],
-            "url": "/t983#16252",
+            "url": "r16252",
             "simpleTitle": "misión: clandestine melodies",
             "space": "el pensadero"
         },
@@ -54222,7 +54222,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t983#16271",
+            "url": "r16271",
             "simpleTitle": "misión: clandestine melodies",
             "space": "el pensadero"
         },
@@ -54232,7 +54232,7 @@ const DBModule = (function () {
                 1,
                 17
             ],
-            "url": "/t983#16285",
+            "url": "r16285",
             "simpleTitle": "misión: clandestine melodies",
             "space": "el pensadero"
         },
@@ -54241,7 +54241,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t983#16378",
+            "url": "r16378",
             "simpleTitle": "misión: clandestine melodies",
             "space": "el pensadero"
         },
@@ -54250,7 +54250,7 @@ const DBModule = (function () {
             "spread": [
                 9
             ],
-            "url": "/t983#16624",
+            "url": "r16624",
             "simpleTitle": "misión: clandestine melodies",
             "space": "el pensadero"
         },
@@ -54259,7 +54259,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t983#16700",
+            "url": "r16700",
             "simpleTitle": "misión: clandestine melodies",
             "space": "el pensadero"
         },
@@ -54268,7 +54268,7 @@ const DBModule = (function () {
             "spread": [
                 13
             ],
-            "url": "/t993#13457",
+            "url": "r13457",
             "simpleTitle": "evento: ruleta de prácticas #04",
             "space": "el pensadero"
         },
@@ -54277,7 +54277,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t993#13484",
+            "url": "r13484",
             "simpleTitle": "evento: ruleta de prácticas #04",
             "space": "el pensadero"
         },
@@ -54286,7 +54286,7 @@ const DBModule = (function () {
             "spread": [
                 15
             ],
-            "url": "/t993#13546",
+            "url": "r13546",
             "simpleTitle": "evento: ruleta de prácticas #04",
             "space": "el pensadero"
         },
@@ -54295,7 +54295,7 @@ const DBModule = (function () {
             "spread": [
                 9
             ],
-            "url": "/t993#13576",
+            "url": "r13576",
             "simpleTitle": "evento: ruleta de prácticas #04",
             "space": "el pensadero"
         },
@@ -54304,7 +54304,7 @@ const DBModule = (function () {
             "spread": [
                 18
             ],
-            "url": "/t993#13588",
+            "url": "r13588",
             "simpleTitle": "evento: ruleta de prácticas #04",
             "space": "el pensadero"
         },
@@ -54313,7 +54313,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t993#13597",
+            "url": "r13597",
             "simpleTitle": "evento: ruleta de prácticas #04",
             "space": "el pensadero"
         },
@@ -54322,7 +54322,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t993#13677",
+            "url": "r13677",
             "simpleTitle": "evento: ruleta de prácticas #04",
             "space": "el pensadero"
         },
@@ -54331,7 +54331,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t1033#14539",
+            "url": "r14539",
             "simpleTitle": "ni victor lustig se atrevió a tanto",
             "space": "el pensadero"
         },
@@ -54340,7 +54340,7 @@ const DBModule = (function () {
             "spread": [
                 13
             ],
-            "url": "/t1033#14726",
+            "url": "r14726",
             "simpleTitle": "ni victor lustig se atrevió a tanto",
             "space": "el pensadero"
         },
@@ -54350,7 +54350,7 @@ const DBModule = (function () {
                 9,
                 1
             ],
-            "url": "/t1033#14767",
+            "url": "r14767",
             "simpleTitle": "ni victor lustig se atrevió a tanto",
             "space": "el pensadero"
         },
@@ -54359,7 +54359,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t1033#15065",
+            "url": "r15065",
             "simpleTitle": "ni victor lustig se atrevió a tanto",
             "space": "el pensadero"
         },
@@ -54368,7 +54368,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t1033#15165",
+            "url": "r15165",
             "simpleTitle": "ni victor lustig se atrevió a tanto",
             "space": "el pensadero"
         },
@@ -54377,7 +54377,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t991#13517",
+            "url": "r13517",
             "simpleTitle": "evento: ruleta de prácticas #02",
             "space": "el pensadero"
         },
@@ -54386,7 +54386,7 @@ const DBModule = (function () {
             "spread": [
                 19
             ],
-            "url": "/t991#13523",
+            "url": "r13523",
             "simpleTitle": "evento: ruleta de prácticas #02",
             "space": "el pensadero"
         },
@@ -54395,7 +54395,7 @@ const DBModule = (function () {
             "spread": [
                 11
             ],
-            "url": "/t991#13690",
+            "url": "r13690",
             "simpleTitle": "evento: ruleta de prácticas #02",
             "space": "el pensadero"
         },
@@ -54404,7 +54404,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t991#13697",
+            "url": "r13697",
             "simpleTitle": "evento: ruleta de prácticas #02",
             "space": "el pensadero"
         },
@@ -54413,7 +54413,7 @@ const DBModule = (function () {
             "spread": [
                 11
             ],
-            "url": "/t991#13700",
+            "url": "r13700",
             "simpleTitle": "evento: ruleta de prácticas #02",
             "space": "el pensadero"
         },
@@ -54423,7 +54423,7 @@ const DBModule = (function () {
                 1,
                 4
             ],
-            "url": "/t991#13732",
+            "url": "r13732",
             "simpleTitle": "evento: ruleta de prácticas #02",
             "space": "el pensadero"
         },
@@ -54433,7 +54433,7 @@ const DBModule = (function () {
                 12,
                 9
             ],
-            "url": "/t991#13799",
+            "url": "r13799",
             "simpleTitle": "evento: ruleta de prácticas #02",
             "space": "el pensadero"
         },
@@ -54442,7 +54442,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t991#13842",
+            "url": "r13842",
             "simpleTitle": "evento: ruleta de prácticas #02",
             "space": "el pensadero"
         },
@@ -54451,7 +54451,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t991#13860",
+            "url": "r13860",
             "simpleTitle": "evento: ruleta de prácticas #02",
             "space": "el pensadero"
         },
@@ -54460,7 +54460,7 @@ const DBModule = (function () {
             "spread": [
                 6
             ],
-            "url": "/t991#13879",
+            "url": "r13879",
             "simpleTitle": "evento: ruleta de prácticas #02",
             "space": "el pensadero"
         },
@@ -54469,7 +54469,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t991#13923",
+            "url": "r13923",
             "simpleTitle": "evento: ruleta de prácticas #02",
             "space": "el pensadero"
         },
@@ -54478,7 +54478,7 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "url": "/t991#13986",
+            "url": "r13986",
             "simpleTitle": "evento: ruleta de prácticas #02",
             "space": "el pensadero"
         },
@@ -54487,7 +54487,7 @@ const DBModule = (function () {
             "spread": [
                 11
             ],
-            "url": "/t991#14020",
+            "url": "r14020",
             "simpleTitle": "evento: ruleta de prácticas #02",
             "space": "el pensadero"
         },
@@ -54496,7 +54496,7 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "url": "/t991#14061",
+            "url": "r14061",
             "simpleTitle": "evento: ruleta de prácticas #02",
             "space": "el pensadero"
         },
@@ -54505,7 +54505,7 @@ const DBModule = (function () {
             "spread": [
                 13
             ],
-            "url": "/t991#14083",
+            "url": "r14083",
             "simpleTitle": "evento: ruleta de prácticas #02",
             "space": "el pensadero"
         },
@@ -54514,7 +54514,7 @@ const DBModule = (function () {
             "spread": [
                 15
             ],
-            "url": "/t991#14149",
+            "url": "r14149",
             "simpleTitle": "evento: ruleta de prácticas #02",
             "space": "el pensadero"
         },
@@ -54523,7 +54523,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t991#14218",
+            "url": "r14218",
             "simpleTitle": "evento: ruleta de prácticas #02",
             "space": "el pensadero"
         },
@@ -54533,7 +54533,7 @@ const DBModule = (function () {
                 8,
                 6
             ],
-            "url": "/t991#14231",
+            "url": "r14231",
             "simpleTitle": "evento: ruleta de prácticas #02",
             "space": "el pensadero"
         },
@@ -54542,7 +54542,7 @@ const DBModule = (function () {
             "spread": [
                 13
             ],
-            "url": "/t991#14280",
+            "url": "r14280",
             "simpleTitle": "evento: ruleta de prácticas #02",
             "space": "el pensadero"
         },
@@ -54551,7 +54551,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t992#13521",
+            "url": "r13521",
             "simpleTitle": "evento: ruleta de prácticas #03",
             "space": "el pensadero"
         },
@@ -54561,7 +54561,7 @@ const DBModule = (function () {
                 1,
                 3
             ],
-            "url": "/t992#13570",
+            "url": "r13570",
             "simpleTitle": "evento: ruleta de prácticas #03",
             "space": "el pensadero"
         },
@@ -54571,7 +54571,7 @@ const DBModule = (function () {
                 16,
                 2
             ],
-            "url": "/t992#13695",
+            "url": "r13695",
             "simpleTitle": "evento: ruleta de prácticas #03",
             "space": "el pensadero"
         },
@@ -54581,7 +54581,7 @@ const DBModule = (function () {
                 19,
                 15
             ],
-            "url": "/t992#13739",
+            "url": "r13739",
             "simpleTitle": "evento: ruleta de prácticas #03",
             "space": "el pensadero"
         },
@@ -54591,7 +54591,7 @@ const DBModule = (function () {
                 5,
                 16
             ],
-            "url": "/t992#13801",
+            "url": "r13801",
             "simpleTitle": "evento: ruleta de prácticas #03",
             "space": "el pensadero"
         },
@@ -54601,7 +54601,7 @@ const DBModule = (function () {
                 11,
                 2
             ],
-            "url": "/t992#13885",
+            "url": "r13885",
             "simpleTitle": "evento: ruleta de prácticas #03",
             "space": "el pensadero"
         },
@@ -54611,7 +54611,7 @@ const DBModule = (function () {
                 10,
                 9
             ],
-            "url": "/t992#13931",
+            "url": "r13931",
             "simpleTitle": "evento: ruleta de prácticas #03",
             "space": "el pensadero"
         },
@@ -54621,7 +54621,7 @@ const DBModule = (function () {
                 7,
                 6
             ],
-            "url": "/t992#13993",
+            "url": "r13993",
             "simpleTitle": "evento: ruleta de prácticas #03",
             "space": "el pensadero"
         },
@@ -54631,7 +54631,7 @@ const DBModule = (function () {
                 7,
                 9
             ],
-            "url": "/t992#14022",
+            "url": "r14022",
             "simpleTitle": "evento: ruleta de prácticas #03",
             "space": "el pensadero"
         },
@@ -54640,7 +54640,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t992#14024",
+            "url": "r14024",
             "simpleTitle": "evento: ruleta de prácticas #03",
             "space": "el pensadero"
         },
@@ -54649,7 +54649,7 @@ const DBModule = (function () {
             "spread": [
                 3
             ],
-            "url": "/t1082#14757",
+            "url": "r14757",
             "simpleTitle": "evento: ruleta de prácticas #01-b",
             "space": "el pensadero"
         },
@@ -54658,7 +54658,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t1082#14763",
+            "url": "r14763",
             "simpleTitle": "evento: ruleta de prácticas #01-b",
             "space": "el pensadero"
         },
@@ -54667,7 +54667,7 @@ const DBModule = (function () {
             "spread": [
                 15
             ],
-            "url": "/t1082#15060",
+            "url": "r15060",
             "simpleTitle": "evento: ruleta de prácticas #01-b",
             "space": "el pensadero"
         },
@@ -54676,7 +54676,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t1082#15121",
+            "url": "r15121",
             "simpleTitle": "evento: ruleta de prácticas #01-b",
             "space": "el pensadero"
         },
@@ -54685,7 +54685,7 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "url": "/t1082#15493",
+            "url": "r15493",
             "simpleTitle": "evento: ruleta de prácticas #01-b",
             "space": "el pensadero"
         },
@@ -54694,7 +54694,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t1070#15452",
+            "url": "r15452",
             "simpleTitle": "evento: this i promise you",
             "space": "el pensadero"
         },
@@ -54703,7 +54703,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t962#14052",
+            "url": "r14052",
             "simpleTitle": "evento: hang with me",
             "space": "el pensadero"
         },
@@ -54712,7 +54712,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t962#14215",
+            "url": "r14215",
             "simpleTitle": "evento: hang with me",
             "space": "el pensadero"
         },
@@ -54721,7 +54721,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t962#14337",
+            "url": "r14337",
             "simpleTitle": "evento: hang with me",
             "space": "el pensadero"
         },
@@ -54730,7 +54730,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t962#14689",
+            "url": "r14689",
             "simpleTitle": "evento: hang with me",
             "space": "el pensadero"
         },
@@ -54739,7 +54739,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t962#15424",
+            "url": "r15424",
             "simpleTitle": "evento: hang with me",
             "space": "el pensadero"
         },
@@ -54748,7 +54748,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t957#15069",
+            "url": "r15069",
             "simpleTitle": "evento: concierto de spellbound",
             "space": "el pensadero"
         },
@@ -54757,7 +54757,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t957#15408",
+            "url": "r15408",
             "simpleTitle": "evento: concierto de spellbound",
             "space": "el pensadero"
         },
@@ -54769,7 +54769,7 @@ const DBModule = (function () {
                 5,
                 13
             ],
-            "url": "/t957#15410",
+            "url": "r15410",
             "simpleTitle": "evento: concierto de spellbound",
             "space": "el pensadero"
         },
@@ -54781,7 +54781,7 @@ const DBModule = (function () {
                 12,
                 7
             ],
-            "url": "/t957#15412",
+            "url": "r15412",
             "simpleTitle": "evento: concierto de spellbound",
             "space": "el pensadero"
         },
@@ -54793,7 +54793,7 @@ const DBModule = (function () {
                 7,
                 1
             ],
-            "url": "/t957#15444",
+            "url": "r15444",
             "simpleTitle": "evento: concierto de spellbound",
             "space": "el pensadero"
         },
@@ -54805,7 +54805,7 @@ const DBModule = (function () {
                 10,
                 11
             ],
-            "url": "/t957#15460",
+            "url": "r15460",
             "simpleTitle": "evento: concierto de spellbound",
             "space": "el pensadero"
         },
@@ -54817,7 +54817,7 @@ const DBModule = (function () {
                 6,
                 12
             ],
-            "url": "/t957#15462",
+            "url": "r15462",
             "simpleTitle": "evento: concierto de spellbound",
             "space": "el pensadero"
         },
@@ -54829,7 +54829,7 @@ const DBModule = (function () {
                 9,
                 20
             ],
-            "url": "/t957#15465",
+            "url": "r15465",
             "simpleTitle": "evento: concierto de spellbound",
             "space": "el pensadero"
         },
@@ -54841,7 +54841,7 @@ const DBModule = (function () {
                 12,
                 4
             ],
-            "url": "/t957#15467",
+            "url": "r15467",
             "simpleTitle": "evento: concierto de spellbound",
             "space": "el pensadero"
         },
@@ -54853,7 +54853,7 @@ const DBModule = (function () {
                 12,
                 7
             ],
-            "url": "/t957#15486",
+            "url": "r15486",
             "simpleTitle": "evento: concierto de spellbound",
             "space": "el pensadero"
         },
@@ -54863,7 +54863,7 @@ const DBModule = (function () {
                 4,
                 14
             ],
-            "url": "/t957#15488",
+            "url": "r15488",
             "simpleTitle": "evento: concierto de spellbound",
             "space": "el pensadero"
         },
@@ -54875,7 +54875,7 @@ const DBModule = (function () {
                 10,
                 1
             ],
-            "url": "/t957#15501",
+            "url": "r15501",
             "simpleTitle": "evento: concierto de spellbound",
             "space": "el pensadero"
         },
@@ -54886,7 +54886,7 @@ const DBModule = (function () {
                 14,
                 15
             ],
-            "url": "/t957#15510",
+            "url": "r15510",
             "simpleTitle": "evento: concierto de spellbound",
             "space": "el pensadero"
         },
@@ -54898,7 +54898,7 @@ const DBModule = (function () {
                 17,
                 2
             ],
-            "url": "/t957#15575",
+            "url": "r15575",
             "simpleTitle": "evento: concierto de spellbound",
             "space": "el pensadero"
         },
@@ -54910,7 +54910,7 @@ const DBModule = (function () {
                 6,
                 5
             ],
-            "url": "/t957#15579",
+            "url": "r15579",
             "simpleTitle": "evento: concierto de spellbound",
             "space": "el pensadero"
         },
@@ -54922,7 +54922,7 @@ const DBModule = (function () {
                 13,
                 16
             ],
-            "url": "/t957#15584",
+            "url": "r15584",
             "simpleTitle": "evento: concierto de spellbound",
             "space": "el pensadero"
         },
@@ -54934,7 +54934,7 @@ const DBModule = (function () {
                 13,
                 2
             ],
-            "url": "/t957#15600",
+            "url": "r15600",
             "simpleTitle": "evento: concierto de spellbound",
             "space": "el pensadero"
         },
@@ -54946,7 +54946,7 @@ const DBModule = (function () {
                 11,
                 19
             ],
-            "url": "/t957#15636",
+            "url": "r15636",
             "simpleTitle": "evento: concierto de spellbound",
             "space": "el pensadero"
         },
@@ -54956,7 +54956,7 @@ const DBModule = (function () {
                 6,
                 18
             ],
-            "url": "/t957#15667",
+            "url": "r15667",
             "simpleTitle": "evento: concierto de spellbound",
             "space": "el pensadero"
         },
@@ -54968,7 +54968,7 @@ const DBModule = (function () {
                 3,
                 18
             ],
-            "url": "/t957#15673",
+            "url": "r15673",
             "simpleTitle": "evento: concierto de spellbound",
             "space": "el pensadero"
         },
@@ -54979,7 +54979,7 @@ const DBModule = (function () {
                 4,
                 1
             ],
-            "url": "/t957#15864",
+            "url": "r15864",
             "simpleTitle": "evento: concierto de spellbound",
             "space": "el pensadero"
         },
@@ -54991,7 +54991,7 @@ const DBModule = (function () {
                 17,
                 19
             ],
-            "url": "/t957#15867",
+            "url": "r15867",
             "simpleTitle": "evento: concierto de spellbound",
             "space": "el pensadero"
         },
@@ -55003,7 +55003,7 @@ const DBModule = (function () {
                 3,
                 13
             ],
-            "url": "/t957#15882",
+            "url": "r15882",
             "simpleTitle": "evento: concierto de spellbound",
             "space": "el pensadero"
         },
@@ -55012,7 +55012,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t958#15564",
+            "url": "r15564",
             "simpleTitle": "evento - escoge tu veneno",
             "space": "el pensadero"
         },
@@ -55023,7 +55023,7 @@ const DBModule = (function () {
                 18,
                 3
             ],
-            "url": "/t984#15783",
+            "url": "r15783",
             "simpleTitle": "interrogatorio: silent sentinel",
             "space": "el pensadero"
         },
@@ -55032,7 +55032,7 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "url": "/t994#13532",
+            "url": "r13532",
             "simpleTitle": "evento: ruleta de prácticas #06",
             "space": "el pensadero"
         },
@@ -55042,7 +55042,7 @@ const DBModule = (function () {
                 3,
                 3
             ],
-            "url": "/t994#13539",
+            "url": "r13539",
             "simpleTitle": "evento: ruleta de prácticas #06",
             "space": "el pensadero"
         },
@@ -55052,7 +55052,7 @@ const DBModule = (function () {
                 17,
                 2
             ],
-            "url": "/t994#14452",
+            "url": "r14452",
             "simpleTitle": "evento: ruleta de prácticas #06",
             "space": "el pensadero"
         },
@@ -55062,7 +55062,7 @@ const DBModule = (function () {
                 7,
                 20
             ],
-            "url": "/t994#14699",
+            "url": "r14699",
             "simpleTitle": "evento: ruleta de prácticas #06",
             "space": "el pensadero"
         },
@@ -55071,7 +55071,7 @@ const DBModule = (function () {
             "spread": [
                 5
             ],
-            "url": "/t979#13222",
+            "url": "r13222",
             "simpleTitle": "práctica: from coal to diamonds",
             "space": "el pensadero"
         },
@@ -55080,7 +55080,7 @@ const DBModule = (function () {
             "spread": [
                 15
             ],
-            "url": "/t979#13226",
+            "url": "r13226",
             "simpleTitle": "práctica: from coal to diamonds",
             "space": "el pensadero"
         },
@@ -55089,7 +55089,7 @@ const DBModule = (function () {
             "spread": [
                 19
             ],
-            "url": "/t979#13230",
+            "url": "r13230",
             "simpleTitle": "práctica: from coal to diamonds",
             "space": "el pensadero"
         },
@@ -55098,7 +55098,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t979#13232",
+            "url": "r13232",
             "simpleTitle": "práctica: from coal to diamonds",
             "space": "el pensadero"
         },
@@ -55107,7 +55107,7 @@ const DBModule = (function () {
             "spread": [
                 13
             ],
-            "url": "/t979#13234",
+            "url": "r13234",
             "simpleTitle": "práctica: from coal to diamonds",
             "space": "el pensadero"
         },
@@ -55116,7 +55116,7 @@ const DBModule = (function () {
             "spread": [
                 5
             ],
-            "url": "/t979#13236",
+            "url": "r13236",
             "simpleTitle": "práctica: from coal to diamonds",
             "space": "el pensadero"
         },
@@ -55126,7 +55126,7 @@ const DBModule = (function () {
                 15,
                 13
             ],
-            "url": "/t979#13242",
+            "url": "r13242",
             "simpleTitle": "práctica: from coal to diamonds",
             "space": "el pensadero"
         },
@@ -55135,7 +55135,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t979#13246",
+            "url": "r13246",
             "simpleTitle": "práctica: from coal to diamonds",
             "space": "el pensadero"
         },
@@ -55144,7 +55144,7 @@ const DBModule = (function () {
             "spread": [
                 15
             ],
-            "url": "/t979#13250",
+            "url": "r13250",
             "simpleTitle": "práctica: from coal to diamonds",
             "space": "el pensadero"
         },
@@ -55153,7 +55153,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t979#13253",
+            "url": "r13253",
             "simpleTitle": "práctica: from coal to diamonds",
             "space": "el pensadero"
         },
@@ -55162,7 +55162,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t979#13260",
+            "url": "r13260",
             "simpleTitle": "práctica: from coal to diamonds",
             "space": "el pensadero"
         },
@@ -55171,7 +55171,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t979#13262",
+            "url": "r13262",
             "simpleTitle": "práctica: from coal to diamonds",
             "space": "el pensadero"
         },
@@ -55180,7 +55180,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t1045#14532",
+            "url": "r14532",
             "simpleTitle": "sorry not sorry",
             "space": "el pensadero"
         },
@@ -55189,7 +55189,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t1045#14542",
+            "url": "r14542",
             "simpleTitle": "sorry not sorry",
             "space": "el pensadero"
         },
@@ -55198,7 +55198,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t1045#14557",
+            "url": "r14557",
             "simpleTitle": "sorry not sorry",
             "space": "el pensadero"
         },
@@ -55208,7 +55208,7 @@ const DBModule = (function () {
                 17,
                 18
             ],
-            "url": "/t1045#14572",
+            "url": "r14572",
             "simpleTitle": "sorry not sorry",
             "space": "el pensadero"
         },
@@ -55217,7 +55217,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t1022#14063",
+            "url": "r14063",
             "simpleTitle": "escaping the routine",
             "space": "el pensadero"
         },
@@ -55226,7 +55226,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t1022#14649",
+            "url": "r14649",
             "simpleTitle": "escaping the routine",
             "space": "el pensadero"
         },
@@ -55235,7 +55235,7 @@ const DBModule = (function () {
             "spread": [
                 5
             ],
-            "url": "/t1022#14714",
+            "url": "r14714",
             "simpleTitle": "escaping the routine",
             "space": "el pensadero"
         },
@@ -55244,7 +55244,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t1022#14985",
+            "url": "r14985",
             "simpleTitle": "escaping the routine",
             "space": "el pensadero"
         },
@@ -55253,7 +55253,7 @@ const DBModule = (function () {
             "spread": [
                 11
             ],
-            "url": "/t954#13228",
+            "url": "r13228",
             "simpleTitle": "práctica: grey skies",
             "space": "el pensadero"
         },
@@ -55262,7 +55262,7 @@ const DBModule = (function () {
             "spread": [
                 19
             ],
-            "url": "/t954#13971",
+            "url": "r13971",
             "simpleTitle": "práctica: grey skies",
             "space": "el pensadero"
         },
@@ -55271,7 +55271,7 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "url": "/t954#14057",
+            "url": "r14057",
             "simpleTitle": "práctica: grey skies",
             "space": "el pensadero"
         },
@@ -55280,7 +55280,7 @@ const DBModule = (function () {
             "spread": [
                 18
             ],
-            "url": "/t954#14221",
+            "url": "r14221",
             "simpleTitle": "práctica: grey skies",
             "space": "el pensadero"
         },
@@ -55290,7 +55290,7 @@ const DBModule = (function () {
                 12,
                 12
             ],
-            "url": "/t954#14344",
+            "url": "r14344",
             "simpleTitle": "práctica: grey skies",
             "space": "el pensadero"
         },
@@ -55300,7 +55300,7 @@ const DBModule = (function () {
                 15,
                 2
             ],
-            "url": "/t954#14980",
+            "url": "r14980",
             "simpleTitle": "práctica: grey skies",
             "space": "el pensadero"
         },
@@ -55310,7 +55310,7 @@ const DBModule = (function () {
                 12,
                 16
             ],
-            "url": "/t954#15067",
+            "url": "r15067",
             "simpleTitle": "práctica: grey skies",
             "space": "el pensadero"
         },
@@ -55320,7 +55320,7 @@ const DBModule = (function () {
                 5,
                 2
             ],
-            "url": "/t954#15624",
+            "url": "r15624",
             "simpleTitle": "práctica: grey skies",
             "space": "el pensadero"
         },
@@ -55329,7 +55329,7 @@ const DBModule = (function () {
             "spread": [
                 19
             ],
-            "url": "/t954#15744",
+            "url": "r15744",
             "simpleTitle": "práctica: grey skies",
             "space": "el pensadero"
         },
@@ -55338,7 +55338,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t954#16140",
+            "url": "r16140",
             "simpleTitle": "práctica: grey skies",
             "space": "el pensadero"
         },
@@ -55347,7 +55347,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t954#16185",
+            "url": "r16185",
             "simpleTitle": "práctica: grey skies",
             "space": "el pensadero"
         },
@@ -55358,7 +55358,7 @@ const DBModule = (function () {
                 11,
                 2
             ],
-            "url": "/t809#10205",
+            "url": "r10205",
             "simpleTitle": "partido: hufflepuff vs ravenclaw",
             "space": "el pensadero"
         },
@@ -55369,7 +55369,7 @@ const DBModule = (function () {
                 6,
                 20
             ],
-            "url": "/t809#10208",
+            "url": "r10208",
             "simpleTitle": "partido: hufflepuff vs ravenclaw",
             "space": "el pensadero"
         },
@@ -55380,7 +55380,7 @@ const DBModule = (function () {
                 15,
                 2
             ],
-            "url": "/t809#10213",
+            "url": "r10213",
             "simpleTitle": "partido: hufflepuff vs ravenclaw",
             "space": "el pensadero"
         },
@@ -55393,7 +55393,7 @@ const DBModule = (function () {
                 11,
                 19
             ],
-            "url": "/t809#10332",
+            "url": "r10332",
             "simpleTitle": "partido: hufflepuff vs ravenclaw",
             "space": "el pensadero"
         },
@@ -55402,7 +55402,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t809#10334",
+            "url": "r10334",
             "simpleTitle": "partido: hufflepuff vs ravenclaw",
             "space": "el pensadero"
         },
@@ -55411,7 +55411,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t917#11904",
+            "url": "r11904",
             "simpleTitle": "práctica: diabolus in musica",
             "space": "el pensadero"
         },
@@ -55420,7 +55420,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t917#11966",
+            "url": "r11966",
             "simpleTitle": "práctica: diabolus in musica",
             "space": "el pensadero"
         },
@@ -55429,7 +55429,7 @@ const DBModule = (function () {
             "spread": [
                 9
             ],
-            "url": "/t917#11972",
+            "url": "r11972",
             "simpleTitle": "práctica: diabolus in musica",
             "space": "el pensadero"
         },
@@ -55438,7 +55438,7 @@ const DBModule = (function () {
             "spread": [
                 15
             ],
-            "url": "/t917#11981",
+            "url": "r11981",
             "simpleTitle": "práctica: diabolus in musica",
             "space": "el pensadero"
         },
@@ -55447,7 +55447,7 @@ const DBModule = (function () {
             "spread": [
                 18
             ],
-            "url": "/t917#12134",
+            "url": "r12134",
             "simpleTitle": "práctica: diabolus in musica",
             "space": "el pensadero"
         },
@@ -55456,7 +55456,7 @@ const DBModule = (function () {
             "spread": [
                 18
             ],
-            "url": "/t917#12153",
+            "url": "r12153",
             "simpleTitle": "práctica: diabolus in musica",
             "space": "el pensadero"
         },
@@ -55467,7 +55467,7 @@ const DBModule = (function () {
                 19,
                 4
             ],
-            "url": "/t810#10189",
+            "url": "r10189",
             "simpleTitle": "partido: gryffindor vs slytherin",
             "space": "el pensadero"
         },
@@ -55478,7 +55478,7 @@ const DBModule = (function () {
                 20,
                 6
             ],
-            "url": "/t810#10191",
+            "url": "r10191",
             "simpleTitle": "partido: gryffindor vs slytherin",
             "space": "el pensadero"
         },
@@ -55489,7 +55489,7 @@ const DBModule = (function () {
                 17,
                 7
             ],
-            "url": "/t810#10195",
+            "url": "r10195",
             "simpleTitle": "partido: gryffindor vs slytherin",
             "space": "el pensadero"
         },
@@ -55500,7 +55500,7 @@ const DBModule = (function () {
                 14,
                 7
             ],
-            "url": "/t810#10239",
+            "url": "r10239",
             "simpleTitle": "partido: gryffindor vs slytherin",
             "space": "el pensadero"
         },
@@ -55510,7 +55510,7 @@ const DBModule = (function () {
                 17,
                 20
             ],
-            "url": "/t810#10336",
+            "url": "r10336",
             "simpleTitle": "partido: gryffindor vs slytherin",
             "space": "el pensadero"
         },
@@ -55519,7 +55519,7 @@ const DBModule = (function () {
             "spread": [
                 3
             ],
-            "url": "/t810#10338",
+            "url": "r10338",
             "simpleTitle": "partido: gryffindor vs slytherin",
             "space": "el pensadero"
         },
@@ -55528,7 +55528,7 @@ const DBModule = (function () {
             "spread": [
                 9
             ],
-            "url": "/t934#12229",
+            "url": "r12229",
             "simpleTitle": "investigación: midnight ashes",
             "space": "el pensadero"
         },
@@ -55537,7 +55537,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t934#12236",
+            "url": "r12236",
             "simpleTitle": "investigación: midnight ashes",
             "space": "el pensadero"
         },
@@ -55546,7 +55546,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t934#12304",
+            "url": "r12304",
             "simpleTitle": "investigación: midnight ashes",
             "space": "el pensadero"
         },
@@ -55555,7 +55555,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t934#12373",
+            "url": "r12373",
             "simpleTitle": "investigación: midnight ashes",
             "space": "el pensadero"
         },
@@ -55565,7 +55565,7 @@ const DBModule = (function () {
                 14,
                 8
             ],
-            "url": "/t934#12383",
+            "url": "r12383",
             "simpleTitle": "investigación: midnight ashes",
             "space": "el pensadero"
         },
@@ -55574,7 +55574,7 @@ const DBModule = (function () {
             "spread": [
                 6
             ],
-            "url": "/t934#12385",
+            "url": "r12385",
             "simpleTitle": "investigación: midnight ashes",
             "space": "el pensadero"
         },
@@ -55583,7 +55583,7 @@ const DBModule = (function () {
             "spread": [
                 6
             ],
-            "url": "/t934#12396",
+            "url": "r12396",
             "simpleTitle": "investigación: midnight ashes",
             "space": "el pensadero"
         },
@@ -55592,7 +55592,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t934#12711",
+            "url": "r12711",
             "simpleTitle": "investigación: midnight ashes",
             "space": "el pensadero"
         },
@@ -55602,7 +55602,7 @@ const DBModule = (function () {
                 14,
                 19
             ],
-            "url": "/t934#12714",
+            "url": "r12714",
             "simpleTitle": "investigación: midnight ashes",
             "space": "el pensadero"
         },
@@ -55611,7 +55611,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t934#12725",
+            "url": "r12725",
             "simpleTitle": "investigación: midnight ashes",
             "space": "el pensadero"
         },
@@ -55620,7 +55620,7 @@ const DBModule = (function () {
             "spread": [
                 3
             ],
-            "url": "/t934#12786",
+            "url": "r12786",
             "simpleTitle": "investigación: midnight ashes",
             "space": "el pensadero"
         },
@@ -55630,7 +55630,7 @@ const DBModule = (function () {
                 1,
                 11
             ],
-            "url": "/t934#12961",
+            "url": "r12961",
             "simpleTitle": "investigación: midnight ashes",
             "space": "el pensadero"
         },
@@ -55639,7 +55639,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t934#12963",
+            "url": "r12963",
             "simpleTitle": "investigación: midnight ashes",
             "space": "el pensadero"
         },
@@ -55648,7 +55648,7 @@ const DBModule = (function () {
             "spread": [
                 6
             ],
-            "url": "/t837#10578",
+            "url": "r10578",
             "simpleTitle": "investigación: bottle of sorrows",
             "space": "el pensadero"
         },
@@ -55658,7 +55658,7 @@ const DBModule = (function () {
                 5,
                 3
             ],
-            "url": "/t837#10617",
+            "url": "r10617",
             "simpleTitle": "investigación: bottle of sorrows",
             "space": "el pensadero"
         },
@@ -55668,7 +55668,7 @@ const DBModule = (function () {
                 16,
                 19
             ],
-            "url": "/t837#10648",
+            "url": "r10648",
             "simpleTitle": "investigación: bottle of sorrows",
             "space": "el pensadero"
         },
@@ -55678,7 +55678,7 @@ const DBModule = (function () {
                 15,
                 12
             ],
-            "url": "/t837#10753",
+            "url": "r10753",
             "simpleTitle": "investigación: bottle of sorrows",
             "space": "el pensadero"
         },
@@ -55687,7 +55687,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t837#10760",
+            "url": "r10760",
             "simpleTitle": "investigación: bottle of sorrows",
             "space": "el pensadero"
         },
@@ -55696,7 +55696,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t837#10893",
+            "url": "r10893",
             "simpleTitle": "investigación: bottle of sorrows",
             "space": "el pensadero"
         },
@@ -55705,7 +55705,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t837#11001",
+            "url": "r11001",
             "simpleTitle": "investigación: bottle of sorrows",
             "space": "el pensadero"
         },
@@ -55715,7 +55715,7 @@ const DBModule = (function () {
                 7,
                 17
             ],
-            "url": "/t837#11017",
+            "url": "r11017",
             "simpleTitle": "investigación: bottle of sorrows",
             "space": "el pensadero"
         },
@@ -55725,7 +55725,7 @@ const DBModule = (function () {
                 9,
                 17
             ],
-            "url": "/t837#11275",
+            "url": "r11275",
             "simpleTitle": "investigación: bottle of sorrows",
             "space": "el pensadero"
         },
@@ -55734,7 +55734,7 @@ const DBModule = (function () {
             "spread": [
                 6
             ],
-            "url": "/t837#11414",
+            "url": "r11414",
             "simpleTitle": "investigación: bottle of sorrows",
             "space": "el pensadero"
         },
@@ -55743,7 +55743,7 @@ const DBModule = (function () {
             "spread": [
                 15
             ],
-            "url": "/t837#11432",
+            "url": "r11432",
             "simpleTitle": "investigación: bottle of sorrows",
             "space": "el pensadero"
         },
@@ -55752,7 +55752,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t837#11462",
+            "url": "r11462",
             "simpleTitle": "investigación: bottle of sorrows",
             "space": "el pensadero"
         },
@@ -55761,7 +55761,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t837#11475",
+            "url": "r11475",
             "simpleTitle": "investigación: bottle of sorrows",
             "space": "el pensadero"
         },
@@ -55771,7 +55771,7 @@ const DBModule = (function () {
                 5,
                 20
             ],
-            "url": "/t837#11601",
+            "url": "r11601",
             "simpleTitle": "investigación: bottle of sorrows",
             "space": "el pensadero"
         },
@@ -55781,7 +55781,7 @@ const DBModule = (function () {
                 16,
                 1
             ],
-            "url": "/t837#11629",
+            "url": "r11629",
             "simpleTitle": "investigación: bottle of sorrows",
             "space": "el pensadero"
         },
@@ -55790,7 +55790,7 @@ const DBModule = (function () {
             "spread": [
                 18
             ],
-            "url": "/t837#11837",
+            "url": "r11837",
             "simpleTitle": "investigación: bottle of sorrows",
             "space": "el pensadero"
         },
@@ -55799,7 +55799,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t837#11938",
+            "url": "r11938",
             "simpleTitle": "investigación: bottle of sorrows",
             "space": "el pensadero"
         },
@@ -55808,7 +55808,7 @@ const DBModule = (function () {
             "spread": [
                 9
             ],
-            "url": "/t837#12263",
+            "url": "r12263",
             "simpleTitle": "investigación: bottle of sorrows",
             "space": "el pensadero"
         },
@@ -55817,7 +55817,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t837#12650",
+            "url": "r12650",
             "simpleTitle": "investigación: bottle of sorrows",
             "space": "el pensadero"
         },
@@ -55826,7 +55826,7 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "url": "/t837#12705",
+            "url": "r12705",
             "simpleTitle": "investigación: bottle of sorrows",
             "space": "el pensadero"
         },
@@ -55835,7 +55835,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t837#12884",
+            "url": "r12884",
             "simpleTitle": "investigación: bottle of sorrows",
             "space": "el pensadero"
         },
@@ -55844,7 +55844,7 @@ const DBModule = (function () {
             "spread": [
                 19
             ],
-            "url": "/t837#12887",
+            "url": "r12887",
             "simpleTitle": "investigación: bottle of sorrows",
             "space": "el pensadero"
         },
@@ -55853,7 +55853,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t837#12891",
+            "url": "r12891",
             "simpleTitle": "investigación: bottle of sorrows",
             "space": "el pensadero"
         },
@@ -55862,7 +55862,7 @@ const DBModule = (function () {
             "spread": [
                 19
             ],
-            "url": "/t837#12911",
+            "url": "r12911",
             "simpleTitle": "investigación: bottle of sorrows",
             "space": "el pensadero"
         },
@@ -55871,7 +55871,7 @@ const DBModule = (function () {
             "spread": [
                 13
             ],
-            "url": "/t837#13213",
+            "url": "r13213",
             "simpleTitle": "investigación: bottle of sorrows",
             "space": "el pensadero"
         },
@@ -55880,7 +55880,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t837#13313",
+            "url": "r13313",
             "simpleTitle": "investigación: bottle of sorrows",
             "space": "el pensadero"
         },
@@ -55889,7 +55889,7 @@ const DBModule = (function () {
             "spread": [
                 5
             ],
-            "url": "/t837#13530",
+            "url": "r13530",
             "simpleTitle": "investigación: bottle of sorrows",
             "space": "el pensadero"
         },
@@ -55898,7 +55898,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t894#11594",
+            "url": "r11594",
             "simpleTitle": "duelo #14: findlay vs minerva",
             "space": "el pensadero"
         },
@@ -55907,7 +55907,7 @@ const DBModule = (function () {
             "spread": [
                 11
             ],
-            "url": "/t894#11613",
+            "url": "r11613",
             "simpleTitle": "duelo #14: findlay vs minerva",
             "space": "el pensadero"
         },
@@ -55917,7 +55917,7 @@ const DBModule = (function () {
                 14,
                 18
             ],
-            "url": "/t894#12145",
+            "url": "r12145",
             "simpleTitle": "duelo #14: findlay vs minerva",
             "space": "el pensadero"
         },
@@ -55927,7 +55927,7 @@ const DBModule = (function () {
                 12,
                 2
             ],
-            "url": "/t894#12149",
+            "url": "r12149",
             "simpleTitle": "duelo #14: findlay vs minerva",
             "space": "el pensadero"
         },
@@ -55937,7 +55937,7 @@ const DBModule = (function () {
                 12,
                 10
             ],
-            "url": "/t894#12462",
+            "url": "r12462",
             "simpleTitle": "duelo #14: findlay vs minerva",
             "space": "el pensadero"
         },
@@ -55947,7 +55947,7 @@ const DBModule = (function () {
                 10,
                 4
             ],
-            "url": "/t894#12753",
+            "url": "r12753",
             "simpleTitle": "duelo #14: findlay vs minerva",
             "space": "el pensadero"
         },
@@ -55957,7 +55957,7 @@ const DBModule = (function () {
                 2,
                 2
             ],
-            "url": "/t894#12836",
+            "url": "r12836",
             "simpleTitle": "duelo #14: findlay vs minerva",
             "space": "el pensadero"
         },
@@ -55967,7 +55967,7 @@ const DBModule = (function () {
                 2,
                 20
             ],
-            "url": "/t894#13002",
+            "url": "r13002",
             "simpleTitle": "duelo #14: findlay vs minerva",
             "space": "el pensadero"
         },
@@ -55977,7 +55977,7 @@ const DBModule = (function () {
                 10,
                 9
             ],
-            "url": "/t894#13005",
+            "url": "r13005",
             "simpleTitle": "duelo #14: findlay vs minerva",
             "space": "el pensadero"
         },
@@ -55986,7 +55986,7 @@ const DBModule = (function () {
             "spread": [
                 19
             ],
-            "url": "/t894#13010",
+            "url": "r13010",
             "simpleTitle": "duelo #14: findlay vs minerva",
             "space": "el pensadero"
         },
@@ -55995,7 +55995,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t850#11641",
+            "url": "r11641",
             "simpleTitle": "práctica: tried so hard",
             "space": "el pensadero"
         },
@@ -56004,7 +56004,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t850#11846",
+            "url": "r11846",
             "simpleTitle": "práctica: tried so hard",
             "space": "el pensadero"
         },
@@ -56013,7 +56013,7 @@ const DBModule = (function () {
             "spread": [
                 11
             ],
-            "url": "/t850#11935",
+            "url": "r11935",
             "simpleTitle": "práctica: tried so hard",
             "space": "el pensadero"
         },
@@ -56022,7 +56022,7 @@ const DBModule = (function () {
             "spread": [
                 6
             ],
-            "url": "/t850#12261",
+            "url": "r12261",
             "simpleTitle": "práctica: tried so hard",
             "space": "el pensadero"
         },
@@ -56031,7 +56031,7 @@ const DBModule = (function () {
             "spread": [
                 13
             ],
-            "url": "/t850#12294",
+            "url": "r12294",
             "simpleTitle": "práctica: tried so hard",
             "space": "el pensadero"
         },
@@ -56040,7 +56040,7 @@ const DBModule = (function () {
             "spread": [
                 18
             ],
-            "url": "/t850#12874",
+            "url": "r12874",
             "simpleTitle": "práctica: tried so hard",
             "space": "el pensadero"
         },
@@ -56049,7 +56049,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t850#13179",
+            "url": "r13179",
             "simpleTitle": "práctica: tried so hard",
             "space": "el pensadero"
         },
@@ -56058,7 +56058,7 @@ const DBModule = (function () {
             "spread": [
                 6
             ],
-            "url": "/t914#12648",
+            "url": "r12648",
             "simpleTitle": "not a quitter",
             "space": "el pensadero"
         },
@@ -56067,7 +56067,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t914#12847",
+            "url": "r12847",
             "simpleTitle": "not a quitter",
             "space": "el pensadero"
         },
@@ -56076,7 +56076,7 @@ const DBModule = (function () {
             "spread": [
                 6
             ],
-            "url": "/t914#13053",
+            "url": "r13053",
             "simpleTitle": "not a quitter",
             "space": "el pensadero"
         },
@@ -56085,7 +56085,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t914#13258",
+            "url": "r13258",
             "simpleTitle": "not a quitter",
             "space": "el pensadero"
         },
@@ -56094,7 +56094,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t914#13968",
+            "url": "r13968",
             "simpleTitle": "not a quitter",
             "space": "el pensadero"
         },
@@ -56103,7 +56103,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t821#10329",
+            "url": "r10329",
             "simpleTitle": "duelo #12: findlay vs montgomery",
             "space": "el pensadero"
         },
@@ -56112,7 +56112,7 @@ const DBModule = (function () {
             "spread": [
                 19
             ],
-            "url": "/t821#10423",
+            "url": "r10423",
             "simpleTitle": "duelo #12: findlay vs montgomery",
             "space": "el pensadero"
         },
@@ -56122,7 +56122,7 @@ const DBModule = (function () {
                 1,
                 7
             ],
-            "url": "/t821#10583",
+            "url": "r10583",
             "simpleTitle": "duelo #12: findlay vs montgomery",
             "space": "el pensadero"
         },
@@ -56131,7 +56131,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t821#10873",
+            "url": "r10873",
             "simpleTitle": "duelo #12: findlay vs montgomery",
             "space": "el pensadero"
         },
@@ -56141,7 +56141,7 @@ const DBModule = (function () {
                 12,
                 15
             ],
-            "url": "/t821#11049",
+            "url": "r11049",
             "simpleTitle": "duelo #12: findlay vs montgomery",
             "space": "el pensadero"
         },
@@ -56151,7 +56151,7 @@ const DBModule = (function () {
                 6,
                 7
             ],
-            "url": "/t821#11193",
+            "url": "r11193",
             "simpleTitle": "duelo #12: findlay vs montgomery",
             "space": "el pensadero"
         },
@@ -56161,7 +56161,7 @@ const DBModule = (function () {
                 3,
                 18
             ],
-            "url": "/t821#11199",
+            "url": "r11199",
             "simpleTitle": "duelo #12: findlay vs montgomery",
             "space": "el pensadero"
         },
@@ -56171,7 +56171,7 @@ const DBModule = (function () {
                 6,
                 2
             ],
-            "url": "/t821#11230",
+            "url": "r11230",
             "simpleTitle": "duelo #12: findlay vs montgomery",
             "space": "el pensadero"
         },
@@ -56181,7 +56181,7 @@ const DBModule = (function () {
                 19,
                 3
             ],
-            "url": "/t821#11392",
+            "url": "r11392",
             "simpleTitle": "duelo #12: findlay vs montgomery",
             "space": "el pensadero"
         },
@@ -56191,7 +56191,7 @@ const DBModule = (function () {
                 20,
                 14
             ],
-            "url": "/t821#12143",
+            "url": "r12143",
             "simpleTitle": "duelo #12: findlay vs montgomery",
             "space": "el pensadero"
         },
@@ -56201,7 +56201,7 @@ const DBModule = (function () {
                 20,
                 14
             ],
-            "url": "/t821#12348",
+            "url": "r12348",
             "simpleTitle": "duelo #12: findlay vs montgomery",
             "space": "el pensadero"
         },
@@ -56211,7 +56211,7 @@ const DBModule = (function () {
                 15,
                 19
             ],
-            "url": "/t821#12465",
+            "url": "r12465",
             "simpleTitle": "duelo #12: findlay vs montgomery",
             "space": "el pensadero"
         },
@@ -56221,7 +56221,7 @@ const DBModule = (function () {
                 15,
                 6
             ],
-            "url": "/t821#12675",
+            "url": "r12675",
             "simpleTitle": "duelo #12: findlay vs montgomery",
             "space": "el pensadero"
         },
@@ -56231,7 +56231,7 @@ const DBModule = (function () {
                 6,
                 8
             ],
-            "url": "/t821#12834",
+            "url": "r12834",
             "simpleTitle": "duelo #12: findlay vs montgomery",
             "space": "el pensadero"
         },
@@ -56241,7 +56241,7 @@ const DBModule = (function () {
                 6,
                 2
             ],
-            "url": "/t821#13082",
+            "url": "r13082",
             "simpleTitle": "duelo #12: findlay vs montgomery",
             "space": "el pensadero"
         },
@@ -56251,7 +56251,7 @@ const DBModule = (function () {
                 5,
                 3
             ],
-            "url": "/t821#13152",
+            "url": "r13152",
             "simpleTitle": "duelo #12: findlay vs montgomery",
             "space": "el pensadero"
         },
@@ -56261,7 +56261,7 @@ const DBModule = (function () {
                 14,
                 10
             ],
-            "url": "/t821#13264",
+            "url": "r13264",
             "simpleTitle": "duelo #12: findlay vs montgomery",
             "space": "el pensadero"
         },
@@ -56271,7 +56271,7 @@ const DBModule = (function () {
                 18,
                 11
             ],
-            "url": "/t821#13486",
+            "url": "r13486",
             "simpleTitle": "duelo #12: findlay vs montgomery",
             "space": "el pensadero"
         },
@@ -56281,7 +56281,7 @@ const DBModule = (function () {
                 20,
                 14
             ],
-            "url": "/t821#13586",
+            "url": "r13586",
             "simpleTitle": "duelo #12: findlay vs montgomery",
             "space": "el pensadero"
         },
@@ -56291,7 +56291,7 @@ const DBModule = (function () {
                 20,
                 9
             ],
-            "url": "/t821#13602",
+            "url": "r13602",
             "simpleTitle": "duelo #12: findlay vs montgomery",
             "space": "el pensadero"
         },
@@ -56301,7 +56301,7 @@ const DBModule = (function () {
                 7,
                 4
             ],
-            "url": "/t821#13606",
+            "url": "r13606",
             "simpleTitle": "duelo #12: findlay vs montgomery",
             "space": "el pensadero"
         },
@@ -56310,7 +56310,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t821#13661",
+            "url": "r13661",
             "simpleTitle": "duelo #12: findlay vs montgomery",
             "space": "el pensadero"
         },
@@ -56319,7 +56319,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t925#16263",
+            "url": "r16263",
             "simpleTitle": "bad habits",
             "space": "el pensadero"
         },
@@ -56329,7 +56329,7 @@ const DBModule = (function () {
                 10,
                 19
             ],
-            "url": "/t931#12227",
+            "url": "r12227",
             "simpleTitle": "misión: moth to a flame",
             "space": "el pensadero"
         },
@@ -56339,7 +56339,7 @@ const DBModule = (function () {
                 13,
                 5
             ],
-            "url": "/t931#12234",
+            "url": "r12234",
             "simpleTitle": "misión: moth to a flame",
             "space": "el pensadero"
         },
@@ -56348,7 +56348,7 @@ const DBModule = (function () {
             "spread": [
                 18
             ],
-            "url": "/t931#12251",
+            "url": "r12251",
             "simpleTitle": "misión: moth to a flame",
             "space": "el pensadero"
         },
@@ -56358,7 +56358,7 @@ const DBModule = (function () {
                 17,
                 4
             ],
-            "url": "/t931#12356",
+            "url": "r12356",
             "simpleTitle": "misión: moth to a flame",
             "space": "el pensadero"
         },
@@ -56368,7 +56368,7 @@ const DBModule = (function () {
                 15,
                 14
             ],
-            "url": "/t931#12377",
+            "url": "r12377",
             "simpleTitle": "misión: moth to a flame",
             "space": "el pensadero"
         },
@@ -56378,7 +56378,7 @@ const DBModule = (function () {
                 19,
                 7
             ],
-            "url": "/t931#12379",
+            "url": "r12379",
             "simpleTitle": "misión: moth to a flame",
             "space": "el pensadero"
         },
@@ -56387,7 +56387,7 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "url": "/t931#12433",
+            "url": "r12433",
             "simpleTitle": "misión: moth to a flame",
             "space": "el pensadero"
         },
@@ -56396,7 +56396,7 @@ const DBModule = (function () {
             "spread": [
                 3
             ],
-            "url": "/t931#12820",
+            "url": "r12820",
             "simpleTitle": "misión: moth to a flame",
             "space": "el pensadero"
         },
@@ -56406,7 +56406,7 @@ const DBModule = (function () {
                 6,
                 11
             ],
-            "url": "/t931#12845",
+            "url": "r12845",
             "simpleTitle": "misión: moth to a flame",
             "space": "el pensadero"
         },
@@ -56415,7 +56415,7 @@ const DBModule = (function () {
             "spread": [
                 19
             ],
-            "url": "/t931#12860",
+            "url": "r12860",
             "simpleTitle": "misión: moth to a flame",
             "space": "el pensadero"
         },
@@ -56424,7 +56424,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t931#13579",
+            "url": "r13579",
             "simpleTitle": "misión: moth to a flame",
             "space": "el pensadero"
         },
@@ -56433,7 +56433,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t931#13764",
+            "url": "r13764",
             "simpleTitle": "misión: moth to a flame",
             "space": "el pensadero"
         },
@@ -56442,7 +56442,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t931#13796",
+            "url": "r13796",
             "simpleTitle": "misión: moth to a flame",
             "space": "el pensadero"
         },
@@ -56451,7 +56451,7 @@ const DBModule = (function () {
             "spread": [
                 11
             ],
-            "url": "/t931#13803",
+            "url": "r13803",
             "simpleTitle": "misión: moth to a flame",
             "space": "el pensadero"
         },
@@ -56461,7 +56461,7 @@ const DBModule = (function () {
                 8,
                 2
             ],
-            "url": "/t931#13949",
+            "url": "r13949",
             "simpleTitle": "misión: moth to a flame",
             "space": "el pensadero"
         },
@@ -56470,7 +56470,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t931#14316",
+            "url": "r14316",
             "simpleTitle": "misión: moth to a flame",
             "space": "el pensadero"
         },
@@ -56480,7 +56480,7 @@ const DBModule = (function () {
                 10,
                 10
             ],
-            "url": "/t931#14369",
+            "url": "r14369",
             "simpleTitle": "misión: moth to a flame",
             "space": "el pensadero"
         },
@@ -56490,7 +56490,7 @@ const DBModule = (function () {
                 14,
                 11
             ],
-            "url": "/t931#14396",
+            "url": "r14396",
             "simpleTitle": "misión: moth to a flame",
             "space": "el pensadero"
         },
@@ -56499,7 +56499,7 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "url": "/t931#14695",
+            "url": "r14695",
             "simpleTitle": "misión: moth to a flame",
             "space": "el pensadero"
         },
@@ -56508,7 +56508,7 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "url": "/t931#14792",
+            "url": "r14792",
             "simpleTitle": "misión: moth to a flame",
             "space": "el pensadero"
         },
@@ -56518,7 +56518,7 @@ const DBModule = (function () {
                 2,
                 7
             ],
-            "url": "/t931#14810",
+            "url": "r14810",
             "simpleTitle": "misión: moth to a flame",
             "space": "el pensadero"
         },
@@ -56528,7 +56528,7 @@ const DBModule = (function () {
                 17,
                 17
             ],
-            "url": "/t931#14834",
+            "url": "r14834",
             "simpleTitle": "misión: moth to a flame",
             "space": "el pensadero"
         },
@@ -56538,7 +56538,7 @@ const DBModule = (function () {
                 19,
                 19
             ],
-            "url": "/t931#15082",
+            "url": "r15082",
             "simpleTitle": "misión: moth to a flame",
             "space": "el pensadero"
         },
@@ -56548,7 +56548,7 @@ const DBModule = (function () {
                 18,
                 17
             ],
-            "url": "/t931#15309",
+            "url": "r15309",
             "simpleTitle": "misión: moth to a flame",
             "space": "el pensadero"
         },
@@ -56558,7 +56558,7 @@ const DBModule = (function () {
                 18,
                 4
             ],
-            "url": "/t931#15364",
+            "url": "r15364",
             "simpleTitle": "misión: moth to a flame",
             "space": "el pensadero"
         },
@@ -56568,7 +56568,7 @@ const DBModule = (function () {
                 12,
                 15
             ],
-            "url": "/t931#15759",
+            "url": "r15759",
             "simpleTitle": "misión: moth to a flame",
             "space": "el pensadero"
         },
@@ -56578,7 +56578,7 @@ const DBModule = (function () {
                 15,
                 8
             ],
-            "url": "/t931#15766",
+            "url": "r15766",
             "simpleTitle": "misión: moth to a flame",
             "space": "el pensadero"
         },
@@ -56588,7 +56588,7 @@ const DBModule = (function () {
                 14,
                 7
             ],
-            "url": "/t931#15785",
+            "url": "r15785",
             "simpleTitle": "misión: moth to a flame",
             "space": "el pensadero"
         },
@@ -56598,7 +56598,7 @@ const DBModule = (function () {
                 13,
                 13
             ],
-            "url": "/t931#16061",
+            "url": "r16061",
             "simpleTitle": "misión: moth to a flame",
             "space": "el pensadero"
         },
@@ -56608,7 +56608,7 @@ const DBModule = (function () {
                 2,
                 18
             ],
-            "url": "/t931#16084",
+            "url": "r16084",
             "simpleTitle": "misión: moth to a flame",
             "space": "el pensadero"
         },
@@ -56618,7 +56618,7 @@ const DBModule = (function () {
                 19,
                 5
             ],
-            "url": "/t931#16091",
+            "url": "r16091",
             "simpleTitle": "misión: moth to a flame",
             "space": "el pensadero"
         },
@@ -56628,7 +56628,7 @@ const DBModule = (function () {
                 5,
                 11
             ],
-            "url": "/t931#16249",
+            "url": "r16249",
             "simpleTitle": "misión: moth to a flame",
             "space": "el pensadero"
         },
@@ -56637,7 +56637,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t931#16269",
+            "url": "r16269",
             "simpleTitle": "misión: moth to a flame",
             "space": "el pensadero"
         },
@@ -56646,7 +56646,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t931#16312",
+            "url": "r16312",
             "simpleTitle": "misión: moth to a flame",
             "space": "el pensadero"
         },
@@ -56655,7 +56655,7 @@ const DBModule = (function () {
             "spread": [
                 9
             ],
-            "url": "/t931#16318",
+            "url": "r16318",
             "simpleTitle": "misión: moth to a flame",
             "space": "el pensadero"
         },
@@ -56664,7 +56664,7 @@ const DBModule = (function () {
             "spread": [
                 15
             ],
-            "url": "/t931#16373",
+            "url": "r16373",
             "simpleTitle": "misión: moth to a flame",
             "space": "el pensadero"
         },
@@ -56673,7 +56673,7 @@ const DBModule = (function () {
             "spread": [
                 15
             ],
-            "url": "/t931#16522",
+            "url": "r16522",
             "simpleTitle": "misión: moth to a flame",
             "space": "el pensadero"
         },
@@ -56682,7 +56682,7 @@ const DBModule = (function () {
             "spread": [
                 11
             ],
-            "url": "/t931#16529",
+            "url": "r16529",
             "simpleTitle": "misión: moth to a flame",
             "space": "el pensadero"
         },
@@ -56691,7 +56691,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t931#16547",
+            "url": "r16547",
             "simpleTitle": "misión: moth to a flame",
             "space": "el pensadero"
         },
@@ -56700,7 +56700,7 @@ const DBModule = (function () {
             "spread": [
                 9
             ],
-            "url": "/t931#16552",
+            "url": "r16552",
             "simpleTitle": "misión: moth to a flame",
             "space": "el pensadero"
         },
@@ -56709,7 +56709,7 @@ const DBModule = (function () {
             "spread": [
                 5
             ],
-            "url": "/t931#16594",
+            "url": "r16594",
             "simpleTitle": "misión: moth to a flame",
             "space": "el pensadero"
         },
@@ -56718,7 +56718,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t880#12672",
+            "url": "r12672",
             "simpleTitle": "práctica: out of time",
             "space": "el pensadero"
         },
@@ -56728,7 +56728,7 @@ const DBModule = (function () {
                 16,
                 3
             ],
-            "url": "/t880#13275",
+            "url": "r13275",
             "simpleTitle": "práctica: out of time",
             "space": "el pensadero"
         },
@@ -56737,7 +56737,7 @@ const DBModule = (function () {
             "spread": [
                 6
             ],
-            "url": "/t880#14477",
+            "url": "r14477",
             "simpleTitle": "práctica: out of time",
             "space": "el pensadero"
         },
@@ -56747,7 +56747,7 @@ const DBModule = (function () {
                 8,
                 9
             ],
-            "url": "/t836#10619",
+            "url": "r10619",
             "simpleTitle": "investigación - muted magic",
             "space": "el pensadero"
         },
@@ -56756,7 +56756,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t836#10646",
+            "url": "r10646",
             "simpleTitle": "investigación - muted magic",
             "space": "el pensadero"
         },
@@ -56765,7 +56765,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t836#10736",
+            "url": "r10736",
             "simpleTitle": "investigación - muted magic",
             "space": "el pensadero"
         },
@@ -56775,7 +56775,7 @@ const DBModule = (function () {
                 10,
                 13
             ],
-            "url": "/t836#10748",
+            "url": "r10748",
             "simpleTitle": "investigación - muted magic",
             "space": "el pensadero"
         },
@@ -56784,7 +56784,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t836#10903",
+            "url": "r10903",
             "simpleTitle": "investigación - muted magic",
             "space": "el pensadero"
         },
@@ -56793,7 +56793,7 @@ const DBModule = (function () {
             "spread": [
                 13
             ],
-            "url": "/t836#10975",
+            "url": "r10975",
             "simpleTitle": "investigación - muted magic",
             "space": "el pensadero"
         },
@@ -56803,7 +56803,7 @@ const DBModule = (function () {
                 2,
                 2
             ],
-            "url": "/t836#11006",
+            "url": "r11006",
             "simpleTitle": "investigación - muted magic",
             "space": "el pensadero"
         },
@@ -56812,7 +56812,7 @@ const DBModule = (function () {
             "spread": [
                 19
             ],
-            "url": "/t836#11272",
+            "url": "r11272",
             "simpleTitle": "investigación - muted magic",
             "space": "el pensadero"
         },
@@ -56821,7 +56821,7 @@ const DBModule = (function () {
             "spread": [
                 9
             ],
-            "url": "/t836#11459",
+            "url": "r11459",
             "simpleTitle": "investigación - muted magic",
             "space": "el pensadero"
         },
@@ -56830,7 +56830,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t836#11599",
+            "url": "r11599",
             "simpleTitle": "investigación - muted magic",
             "space": "el pensadero"
         },
@@ -56839,7 +56839,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t836#11627",
+            "url": "r11627",
             "simpleTitle": "investigación - muted magic",
             "space": "el pensadero"
         },
@@ -56848,7 +56848,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t836#11659",
+            "url": "r11659",
             "simpleTitle": "investigación - muted magic",
             "space": "el pensadero"
         },
@@ -56857,7 +56857,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t836#11687",
+            "url": "r11687",
             "simpleTitle": "investigación - muted magic",
             "space": "el pensadero"
         },
@@ -56866,7 +56866,7 @@ const DBModule = (function () {
             "spread": [
                 3
             ],
-            "url": "/t836#12265",
+            "url": "r12265",
             "simpleTitle": "investigación - muted magic",
             "space": "el pensadero"
         },
@@ -56875,7 +56875,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t836#12371",
+            "url": "r12371",
             "simpleTitle": "investigación - muted magic",
             "space": "el pensadero"
         },
@@ -56884,7 +56884,7 @@ const DBModule = (function () {
             "spread": [
                 11
             ],
-            "url": "/t836#12381",
+            "url": "r12381",
             "simpleTitle": "investigación - muted magic",
             "space": "el pensadero"
         },
@@ -56893,7 +56893,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t836#12437",
+            "url": "r12437",
             "simpleTitle": "investigación - muted magic",
             "space": "el pensadero"
         },
@@ -56902,7 +56902,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t836#12501",
+            "url": "r12501",
             "simpleTitle": "investigación - muted magic",
             "space": "el pensadero"
         },
@@ -56911,7 +56911,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t801#9975",
+            "url": "r9975",
             "simpleTitle": "duelo #11: augusta vs neptune",
             "space": "el pensadero"
         },
@@ -56920,7 +56920,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t801#9980",
+            "url": "r9980",
             "simpleTitle": "duelo #11: augusta vs neptune",
             "space": "el pensadero"
         },
@@ -56930,7 +56930,7 @@ const DBModule = (function () {
                 12,
                 5
             ],
-            "url": "/t801#9994",
+            "url": "r9994",
             "simpleTitle": "duelo #11: augusta vs neptune",
             "space": "el pensadero"
         },
@@ -56940,7 +56940,7 @@ const DBModule = (function () {
                 19,
                 7
             ],
-            "url": "/t801#10093",
+            "url": "r10093",
             "simpleTitle": "duelo #11: augusta vs neptune",
             "space": "el pensadero"
         },
@@ -56950,7 +56950,7 @@ const DBModule = (function () {
                 9,
                 9
             ],
-            "url": "/t801#10152",
+            "url": "r10152",
             "simpleTitle": "duelo #11: augusta vs neptune",
             "space": "el pensadero"
         },
@@ -56960,7 +56960,7 @@ const DBModule = (function () {
                 20,
                 14
             ],
-            "url": "/t801#10197",
+            "url": "r10197",
             "simpleTitle": "duelo #11: augusta vs neptune",
             "space": "el pensadero"
         },
@@ -56970,7 +56970,7 @@ const DBModule = (function () {
                 19,
                 9
             ],
-            "url": "/t801#10241",
+            "url": "r10241",
             "simpleTitle": "duelo #11: augusta vs neptune",
             "space": "el pensadero"
         },
@@ -56980,7 +56980,7 @@ const DBModule = (function () {
                 17,
                 13
             ],
-            "url": "/t801#10280",
+            "url": "r10280",
             "simpleTitle": "duelo #11: augusta vs neptune",
             "space": "el pensadero"
         },
@@ -56990,7 +56990,7 @@ const DBModule = (function () {
                 13,
                 8
             ],
-            "url": "/t801#10291",
+            "url": "r10291",
             "simpleTitle": "duelo #11: augusta vs neptune",
             "space": "el pensadero"
         },
@@ -57000,7 +57000,7 @@ const DBModule = (function () {
                 2,
                 8
             ],
-            "url": "/t801#10293",
+            "url": "r10293",
             "simpleTitle": "duelo #11: augusta vs neptune",
             "space": "el pensadero"
         },
@@ -57010,7 +57010,7 @@ const DBModule = (function () {
                 14,
                 20
             ],
-            "url": "/t801#10827",
+            "url": "r10827",
             "simpleTitle": "duelo #11: augusta vs neptune",
             "space": "el pensadero"
         },
@@ -57020,7 +57020,7 @@ const DBModule = (function () {
                 11,
                 9
             ],
-            "url": "/t801#10853",
+            "url": "r10853",
             "simpleTitle": "duelo #11: augusta vs neptune",
             "space": "el pensadero"
         },
@@ -57030,7 +57030,7 @@ const DBModule = (function () {
                 16,
                 8
             ],
-            "url": "/t801#10858",
+            "url": "r10858",
             "simpleTitle": "duelo #11: augusta vs neptune",
             "space": "el pensadero"
         },
@@ -57040,7 +57040,7 @@ const DBModule = (function () {
                 12,
                 13
             ],
-            "url": "/t801#10862",
+            "url": "r10862",
             "simpleTitle": "duelo #11: augusta vs neptune",
             "space": "el pensadero"
         },
@@ -57050,7 +57050,7 @@ const DBModule = (function () {
                 5,
                 6
             ],
-            "url": "/t801#11047",
+            "url": "r11047",
             "simpleTitle": "duelo #11: augusta vs neptune",
             "space": "el pensadero"
         },
@@ -57060,7 +57060,7 @@ const DBModule = (function () {
                 18,
                 4
             ],
-            "url": "/t801#11057",
+            "url": "r11057",
             "simpleTitle": "duelo #11: augusta vs neptune",
             "space": "el pensadero"
         },
@@ -57070,7 +57070,7 @@ const DBModule = (function () {
                 15,
                 7
             ],
-            "url": "/t801#11071",
+            "url": "r11071",
             "simpleTitle": "duelo #11: augusta vs neptune",
             "space": "el pensadero"
         },
@@ -57079,7 +57079,7 @@ const DBModule = (function () {
             "spread": [
                 18
             ],
-            "url": "/t895#11693",
+            "url": "r11693",
             "simpleTitle": "the nanny",
             "space": "el pensadero"
         },
@@ -57088,7 +57088,7 @@ const DBModule = (function () {
             "spread": [
                 9
             ],
-            "url": "/t895#11736",
+            "url": "r11736",
             "simpleTitle": "the nanny",
             "space": "el pensadero"
         },
@@ -57097,7 +57097,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t895#11906",
+            "url": "r11906",
             "simpleTitle": "the nanny",
             "space": "el pensadero"
         },
@@ -57106,7 +57106,7 @@ const DBModule = (function () {
             "spread": [
                 18
             ],
-            "url": "/t895#11974",
+            "url": "r11974",
             "simpleTitle": "the nanny",
             "space": "el pensadero"
         },
@@ -57115,7 +57115,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t895#12392",
+            "url": "r12392",
             "simpleTitle": "the nanny",
             "space": "el pensadero"
         },
@@ -57124,7 +57124,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t895#12510",
+            "url": "r12510",
             "simpleTitle": "the nanny",
             "space": "el pensadero"
         },
@@ -57133,7 +57133,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t895#12721",
+            "url": "r12721",
             "simpleTitle": "the nanny",
             "space": "el pensadero"
         },
@@ -57142,7 +57142,7 @@ const DBModule = (function () {
             "spread": [
                 13
             ],
-            "url": "/t895#13137",
+            "url": "r13137",
             "simpleTitle": "the nanny",
             "space": "el pensadero"
         },
@@ -57151,7 +57151,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t895#13462",
+            "url": "r13462",
             "simpleTitle": "the nanny",
             "space": "el pensadero"
         },
@@ -57160,7 +57160,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t799#9969",
+            "url": "r9969",
             "simpleTitle": "duelo #9: minerva vs raven",
             "space": "el pensadero"
         },
@@ -57169,7 +57169,7 @@ const DBModule = (function () {
             "spread": [
                 5
             ],
-            "url": "/t799#10005",
+            "url": "r10005",
             "simpleTitle": "duelo #9: minerva vs raven",
             "space": "el pensadero"
         },
@@ -57179,7 +57179,7 @@ const DBModule = (function () {
                 1,
                 9
             ],
-            "url": "/t799#10187",
+            "url": "r10187",
             "simpleTitle": "duelo #9: minerva vs raven",
             "space": "el pensadero"
         },
@@ -57189,7 +57189,7 @@ const DBModule = (function () {
                 19,
                 4
             ],
-            "url": "/t799#10393",
+            "url": "r10393",
             "simpleTitle": "duelo #9: minerva vs raven",
             "space": "el pensadero"
         },
@@ -57199,7 +57199,7 @@ const DBModule = (function () {
                 10,
                 17
             ],
-            "url": "/t799#10496",
+            "url": "r10496",
             "simpleTitle": "duelo #9: minerva vs raven",
             "space": "el pensadero"
         },
@@ -57209,7 +57209,7 @@ const DBModule = (function () {
                 2,
                 3
             ],
-            "url": "/t799#10685",
+            "url": "r10685",
             "simpleTitle": "duelo #9: minerva vs raven",
             "space": "el pensadero"
         },
@@ -57219,7 +57219,7 @@ const DBModule = (function () {
                 20,
                 17
             ],
-            "url": "/t799#10834",
+            "url": "r10834",
             "simpleTitle": "duelo #9: minerva vs raven",
             "space": "el pensadero"
         },
@@ -57229,7 +57229,7 @@ const DBModule = (function () {
                 8,
                 20
             ],
-            "url": "/t799#10860",
+            "url": "r10860",
             "simpleTitle": "duelo #9: minerva vs raven",
             "space": "el pensadero"
         },
@@ -57241,7 +57241,7 @@ const DBModule = (function () {
                 14,
                 17
             ],
-            "url": "/t799#10864",
+            "url": "r10864",
             "simpleTitle": "duelo #9: minerva vs raven",
             "space": "el pensadero"
         },
@@ -57250,7 +57250,7 @@ const DBModule = (function () {
             "spread": [
                 9
             ],
-            "url": "/t799#10995",
+            "url": "r10995",
             "simpleTitle": "duelo #9: minerva vs raven",
             "space": "el pensadero"
         },
@@ -57260,7 +57260,7 @@ const DBModule = (function () {
                 16,
                 20
             ],
-            "url": "/t799#11061",
+            "url": "r11061",
             "simpleTitle": "duelo #9: minerva vs raven",
             "space": "el pensadero"
         },
@@ -57270,7 +57270,7 @@ const DBModule = (function () {
                 14,
                 18
             ],
-            "url": "/t799#11716",
+            "url": "r11716",
             "simpleTitle": "duelo #9: minerva vs raven",
             "space": "el pensadero"
         },
@@ -57280,7 +57280,7 @@ const DBModule = (function () {
                 13,
                 11
             ],
-            "url": "/t799#11758",
+            "url": "r11758",
             "simpleTitle": "duelo #9: minerva vs raven",
             "space": "el pensadero"
         },
@@ -57290,7 +57290,7 @@ const DBModule = (function () {
                 10,
                 16
             ],
-            "url": "/t799#12769",
+            "url": "r12769",
             "simpleTitle": "duelo #9: minerva vs raven",
             "space": "el pensadero"
         },
@@ -57299,7 +57299,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t800#9973",
+            "url": "r9973",
             "simpleTitle": "duelo #10: raven vs ruairidh",
             "space": "el pensadero"
         },
@@ -57308,7 +57308,7 @@ const DBModule = (function () {
             "spread": [
                 6
             ],
-            "url": "/t800#10045",
+            "url": "r10045",
             "simpleTitle": "duelo #10: raven vs ruairidh",
             "space": "el pensadero"
         },
@@ -57318,7 +57318,7 @@ const DBModule = (function () {
                 10,
                 3
             ],
-            "url": "/t800#10160",
+            "url": "r10160",
             "simpleTitle": "duelo #10: raven vs ruairidh",
             "space": "el pensadero"
         },
@@ -57328,7 +57328,7 @@ const DBModule = (function () {
                 20,
                 16
             ],
-            "url": "/t800#10385",
+            "url": "r10385",
             "simpleTitle": "duelo #10: raven vs ruairidh",
             "space": "el pensadero"
         },
@@ -57338,7 +57338,7 @@ const DBModule = (function () {
                 19,
                 11
             ],
-            "url": "/t800#10389",
+            "url": "r10389",
             "simpleTitle": "duelo #10: raven vs ruairidh",
             "space": "el pensadero"
         },
@@ -57348,7 +57348,7 @@ const DBModule = (function () {
                 6,
                 14
             ],
-            "url": "/t800#10396",
+            "url": "r10396",
             "simpleTitle": "duelo #10: raven vs ruairidh",
             "space": "el pensadero"
         },
@@ -57358,7 +57358,7 @@ const DBModule = (function () {
                 12,
                 8
             ],
-            "url": "/t800#10428",
+            "url": "r10428",
             "simpleTitle": "duelo #10: raven vs ruairidh",
             "space": "el pensadero"
         },
@@ -57368,7 +57368,7 @@ const DBModule = (function () {
                 12,
                 15
             ],
-            "url": "/t800#10682",
+            "url": "r10682",
             "simpleTitle": "duelo #10: raven vs ruairidh",
             "space": "el pensadero"
         },
@@ -57378,7 +57378,7 @@ const DBModule = (function () {
                 9,
                 4
             ],
-            "url": "/t800#10883",
+            "url": "r10883",
             "simpleTitle": "duelo #10: raven vs ruairidh",
             "space": "el pensadero"
         },
@@ -57388,7 +57388,7 @@ const DBModule = (function () {
                 18,
                 17
             ],
-            "url": "/t800#10998",
+            "url": "r10998",
             "simpleTitle": "duelo #10: raven vs ruairidh",
             "space": "el pensadero"
         },
@@ -57398,7 +57398,7 @@ const DBModule = (function () {
                 1,
                 4
             ],
-            "url": "/t800#11010",
+            "url": "r11010",
             "simpleTitle": "duelo #10: raven vs ruairidh",
             "space": "el pensadero"
         },
@@ -57408,7 +57408,7 @@ const DBModule = (function () {
                 6,
                 3
             ],
-            "url": "/t800#11055",
+            "url": "r11055",
             "simpleTitle": "duelo #10: raven vs ruairidh",
             "space": "el pensadero"
         },
@@ -57418,7 +57418,7 @@ const DBModule = (function () {
                 10,
                 9
             ],
-            "url": "/t800#11114",
+            "url": "r11114",
             "simpleTitle": "duelo #10: raven vs ruairidh",
             "space": "el pensadero"
         },
@@ -57428,7 +57428,7 @@ const DBModule = (function () {
                 10,
                 17
             ],
-            "url": "/t800#11120",
+            "url": "r11120",
             "simpleTitle": "duelo #10: raven vs ruairidh",
             "space": "el pensadero"
         },
@@ -57438,7 +57438,7 @@ const DBModule = (function () {
                 13,
                 4
             ],
-            "url": "/t800#11240",
+            "url": "r11240",
             "simpleTitle": "duelo #10: raven vs ruairidh",
             "space": "el pensadero"
         },
@@ -57448,7 +57448,7 @@ const DBModule = (function () {
                 4,
                 16
             ],
-            "url": "/t800#11718",
+            "url": "r11718",
             "simpleTitle": "duelo #10: raven vs ruairidh",
             "space": "el pensadero"
         },
@@ -57458,7 +57458,7 @@ const DBModule = (function () {
                 16,
                 5
             ],
-            "url": "/t800#11895",
+            "url": "r11895",
             "simpleTitle": "duelo #10: raven vs ruairidh",
             "space": "el pensadero"
         },
@@ -57468,7 +57468,7 @@ const DBModule = (function () {
                 16,
                 2
             ],
-            "url": "/t800#12767",
+            "url": "r12767",
             "simpleTitle": "duelo #10: raven vs ruairidh",
             "space": "el pensadero"
         },
@@ -57478,7 +57478,7 @@ const DBModule = (function () {
                 19,
                 17
             ],
-            "url": "/t800#12790",
+            "url": "r12790",
             "simpleTitle": "duelo #10: raven vs ruairidh",
             "space": "el pensadero"
         },
@@ -57488,7 +57488,7 @@ const DBModule = (function () {
                 9,
                 14
             ],
-            "url": "/t800#13102",
+            "url": "r13102",
             "simpleTitle": "duelo #10: raven vs ruairidh",
             "space": "el pensadero"
         },
@@ -57497,7 +57497,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t800#13244",
+            "url": "r13244",
             "simpleTitle": "duelo #10: raven vs ruairidh",
             "space": "el pensadero"
         },
@@ -57506,7 +57506,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t885#14001",
+            "url": "r14001",
             "simpleTitle": "patience of a saint",
             "space": "el pensadero"
         },
@@ -57515,7 +57515,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t885#14608",
+            "url": "r14608",
             "simpleTitle": "patience of a saint",
             "space": "el pensadero"
         },
@@ -57524,7 +57524,7 @@ const DBModule = (function () {
             "spread": [
                 13
             ],
-            "url": "/t847#12088",
+            "url": "r12088",
             "simpleTitle": "interrogatorio: the fortune of the three eyes",
             "space": "el pensadero"
         },
@@ -57533,7 +57533,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t847#12354",
+            "url": "r12354",
             "simpleTitle": "interrogatorio: the fortune of the three eyes",
             "space": "el pensadero"
         },
@@ -57542,7 +57542,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t847#12809",
+            "url": "r12809",
             "simpleTitle": "interrogatorio: the fortune of the three eyes",
             "space": "el pensadero"
         },
@@ -57553,7 +57553,7 @@ const DBModule = (function () {
                 9,
                 1
             ],
-            "url": "/t847#12854",
+            "url": "r12854",
             "simpleTitle": "interrogatorio: the fortune of the three eyes",
             "space": "el pensadero"
         },
@@ -57562,7 +57562,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t798#9967",
+            "url": "r9967",
             "simpleTitle": "duelo #8: findlay vs neptune",
             "space": "el pensadero"
         },
@@ -57571,7 +57571,7 @@ const DBModule = (function () {
             "spread": [
                 3
             ],
-            "url": "/t798#10162",
+            "url": "r10162",
             "simpleTitle": "duelo #8: findlay vs neptune",
             "space": "el pensadero"
         },
@@ -57581,7 +57581,7 @@ const DBModule = (function () {
                 2,
                 7
             ],
-            "url": "/t798#10193",
+            "url": "r10193",
             "simpleTitle": "duelo #8: findlay vs neptune",
             "space": "el pensadero"
         },
@@ -57591,7 +57591,7 @@ const DBModule = (function () {
                 17,
                 11
             ],
-            "url": "/t798#10211",
+            "url": "r10211",
             "simpleTitle": "duelo #8: findlay vs neptune",
             "space": "el pensadero"
         },
@@ -57601,7 +57601,7 @@ const DBModule = (function () {
                 3,
                 18
             ],
-            "url": "/t798#10282",
+            "url": "r10282",
             "simpleTitle": "duelo #8: findlay vs neptune",
             "space": "el pensadero"
         },
@@ -57611,7 +57611,7 @@ const DBModule = (function () {
                 13,
                 12
             ],
-            "url": "/t798#10425",
+            "url": "r10425",
             "simpleTitle": "duelo #8: findlay vs neptune",
             "space": "el pensadero"
         },
@@ -57621,7 +57621,7 @@ const DBModule = (function () {
                 20,
                 9
             ],
-            "url": "/t798#10444",
+            "url": "r10444",
             "simpleTitle": "duelo #8: findlay vs neptune",
             "space": "el pensadero"
         },
@@ -57631,7 +57631,7 @@ const DBModule = (function () {
                 16,
                 13
             ],
-            "url": "/t798#10580",
+            "url": "r10580",
             "simpleTitle": "duelo #8: findlay vs neptune",
             "space": "el pensadero"
         },
@@ -57641,7 +57641,7 @@ const DBModule = (function () {
                 20,
                 12
             ],
-            "url": "/t798#10606",
+            "url": "r10606",
             "simpleTitle": "duelo #8: findlay vs neptune",
             "space": "el pensadero"
         },
@@ -57651,7 +57651,7 @@ const DBModule = (function () {
                 5,
                 20
             ],
-            "url": "/t798#10875",
+            "url": "r10875",
             "simpleTitle": "duelo #8: findlay vs neptune",
             "space": "el pensadero"
         },
@@ -57661,7 +57661,7 @@ const DBModule = (function () {
                 11,
                 9
             ],
-            "url": "/t798#10952",
+            "url": "r10952",
             "simpleTitle": "duelo #8: findlay vs neptune",
             "space": "el pensadero"
         },
@@ -57671,7 +57671,7 @@ const DBModule = (function () {
                 11,
                 14
             ],
-            "url": "/t798#10990",
+            "url": "r10990",
             "simpleTitle": "duelo #8: findlay vs neptune",
             "space": "el pensadero"
         },
@@ -57681,7 +57681,7 @@ const DBModule = (function () {
                 9,
                 5
             ],
-            "url": "/t798#11112",
+            "url": "r11112",
             "simpleTitle": "duelo #8: findlay vs neptune",
             "space": "el pensadero"
         },
@@ -57690,7 +57690,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t798#11195",
+            "url": "r11195",
             "simpleTitle": "duelo #8: findlay vs neptune",
             "space": "el pensadero"
         },
@@ -57700,7 +57700,7 @@ const DBModule = (function () {
                 15,
                 18
             ],
-            "url": "/t838#10621",
+            "url": "r10621",
             "simpleTitle": "paper mask",
             "space": "el pensadero"
         },
@@ -57709,7 +57709,7 @@ const DBModule = (function () {
             "spread": [
                 5
             ],
-            "url": "/t838#10626",
+            "url": "r10626",
             "simpleTitle": "paper mask",
             "space": "el pensadero"
         },
@@ -57718,7 +57718,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t838#10644",
+            "url": "r10644",
             "simpleTitle": "paper mask",
             "space": "el pensadero"
         },
@@ -57727,7 +57727,7 @@ const DBModule = (function () {
             "spread": [
                 15
             ],
-            "url": "/t838#10730",
+            "url": "r10730",
             "simpleTitle": "paper mask",
             "space": "el pensadero"
         },
@@ -57737,7 +57737,7 @@ const DBModule = (function () {
                 10,
                 3
             ],
-            "url": "/t838#10750",
+            "url": "r10750",
             "simpleTitle": "paper mask",
             "space": "el pensadero"
         },
@@ -57746,7 +57746,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t838#10757",
+            "url": "r10757",
             "simpleTitle": "paper mask",
             "space": "el pensadero"
         },
@@ -57755,7 +57755,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t838#10906",
+            "url": "r10906",
             "simpleTitle": "paper mask",
             "space": "el pensadero"
         },
@@ -57765,7 +57765,7 @@ const DBModule = (function () {
                 4,
                 18
             ],
-            "url": "/t838#10978",
+            "url": "r10978",
             "simpleTitle": "paper mask",
             "space": "el pensadero"
         },
@@ -57775,7 +57775,7 @@ const DBModule = (function () {
                 1,
                 7
             ],
-            "url": "/t838#11014",
+            "url": "r11014",
             "simpleTitle": "paper mask",
             "space": "el pensadero"
         },
@@ -57784,7 +57784,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t838#11313",
+            "url": "r11313",
             "simpleTitle": "paper mask",
             "space": "el pensadero"
         },
@@ -57793,7 +57793,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t838#11523",
+            "url": "r11523",
             "simpleTitle": "paper mask",
             "space": "el pensadero"
         },
@@ -57802,7 +57802,7 @@ const DBModule = (function () {
             "spread": [
                 11
             ],
-            "url": "/t838#11603",
+            "url": "r11603",
             "simpleTitle": "paper mask",
             "space": "el pensadero"
         },
@@ -57811,7 +57811,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t838#11824",
+            "url": "r11824",
             "simpleTitle": "paper mask",
             "space": "el pensadero"
         },
@@ -57820,7 +57820,7 @@ const DBModule = (function () {
             "spread": [
                 15
             ],
-            "url": "/t838#12179",
+            "url": "r12179",
             "simpleTitle": "paper mask",
             "space": "el pensadero"
         },
@@ -57829,7 +57829,7 @@ const DBModule = (function () {
             "spread": [
                 15
             ],
-            "url": "/t838#12375",
+            "url": "r12375",
             "simpleTitle": "paper mask",
             "space": "el pensadero"
         },
@@ -57839,7 +57839,7 @@ const DBModule = (function () {
                 12,
                 2
             ],
-            "url": "/t838#12387",
+            "url": "r12387",
             "simpleTitle": "paper mask",
             "space": "el pensadero"
         },
@@ -57849,7 +57849,7 @@ const DBModule = (function () {
                 4,
                 11
             ],
-            "url": "/t838#12390",
+            "url": "r12390",
             "simpleTitle": "paper mask",
             "space": "el pensadero"
         },
@@ -57858,7 +57858,7 @@ const DBModule = (function () {
             "spread": [
                 13
             ],
-            "url": "/t838#12435",
+            "url": "r12435",
             "simpleTitle": "paper mask",
             "space": "el pensadero"
         },
@@ -57867,7 +57867,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t838#12490",
+            "url": "r12490",
             "simpleTitle": "paper mask",
             "space": "el pensadero"
         },
@@ -57877,7 +57877,7 @@ const DBModule = (function () {
                 7,
                 7
             ],
-            "url": "/t838#12526",
+            "url": "r12526",
             "simpleTitle": "paper mask",
             "space": "el pensadero"
         },
@@ -57887,7 +57887,7 @@ const DBModule = (function () {
                 17,
                 6
             ],
-            "url": "/t838#12621",
+            "url": "r12621",
             "simpleTitle": "paper mask",
             "space": "el pensadero"
         },
@@ -57896,7 +57896,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t838#12880",
+            "url": "r12880",
             "simpleTitle": "paper mask",
             "space": "el pensadero"
         },
@@ -57905,7 +57905,7 @@ const DBModule = (function () {
             "spread": [
                 3
             ],
-            "url": "/t838#12959",
+            "url": "r12959",
             "simpleTitle": "paper mask",
             "space": "el pensadero"
         },
@@ -57914,7 +57914,7 @@ const DBModule = (function () {
             "spread": [
                 18
             ],
-            "url": "/t990#13492",
+            "url": "r13492",
             "simpleTitle": "evento: ruleta de prácticas #01",
             "space": "el pensadero"
         },
@@ -57923,7 +57923,7 @@ const DBModule = (function () {
             "spread": [
                 3
             ],
-            "url": "/t990#13504",
+            "url": "r13504",
             "simpleTitle": "evento: ruleta de prácticas #01",
             "space": "el pensadero"
         },
@@ -57932,7 +57932,7 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "url": "/t990#13519",
+            "url": "r13519",
             "simpleTitle": "evento: ruleta de prácticas #01",
             "space": "el pensadero"
         },
@@ -57942,7 +57942,7 @@ const DBModule = (function () {
                 18,
                 16
             ],
-            "url": "/t990#13549",
+            "url": "r13549",
             "simpleTitle": "evento: ruleta de prácticas #01",
             "space": "el pensadero"
         },
@@ -57951,7 +57951,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t990#13600",
+            "url": "r13600",
             "simpleTitle": "evento: ruleta de prácticas #01",
             "space": "el pensadero"
         },
@@ -57961,7 +57961,7 @@ const DBModule = (function () {
                 7,
                 13
             ],
-            "url": "/t990#13604",
+            "url": "r13604",
             "simpleTitle": "evento: ruleta de prácticas #01",
             "space": "el pensadero"
         },
@@ -57971,7 +57971,7 @@ const DBModule = (function () {
                 20,
                 18
             ],
-            "url": "/t990#13611",
+            "url": "r13611",
             "simpleTitle": "evento: ruleta de prácticas #01",
             "space": "el pensadero"
         },
@@ -57981,7 +57981,7 @@ const DBModule = (function () {
                 2,
                 5
             ],
-            "url": "/t990#13613",
+            "url": "r13613",
             "simpleTitle": "evento: ruleta de prácticas #01",
             "space": "el pensadero"
         },
@@ -57991,7 +57991,7 @@ const DBModule = (function () {
                 19,
                 16
             ],
-            "url": "/t990#13789",
+            "url": "r13789",
             "simpleTitle": "evento: ruleta de prácticas #01",
             "space": "el pensadero"
         },
@@ -58001,7 +58001,7 @@ const DBModule = (function () {
                 7,
                 1
             ],
-            "url": "/t990#13793",
+            "url": "r13793",
             "simpleTitle": "evento: ruleta de prácticas #01",
             "space": "el pensadero"
         },
@@ -58011,7 +58011,7 @@ const DBModule = (function () {
                 8,
                 9
             ],
-            "url": "/t990#13845",
+            "url": "r13845",
             "simpleTitle": "evento: ruleta de prácticas #01",
             "space": "el pensadero"
         },
@@ -58021,7 +58021,7 @@ const DBModule = (function () {
                 13,
                 9
             ],
-            "url": "/t990#13864",
+            "url": "r13864",
             "simpleTitle": "evento: ruleta de prácticas #01",
             "space": "el pensadero"
         },
@@ -58030,7 +58030,7 @@ const DBModule = (function () {
             "spread": [
                 3
             ],
-            "url": "/t990#13910",
+            "url": "r13910",
             "simpleTitle": "evento: ruleta de prácticas #01",
             "space": "el pensadero"
         },
@@ -58039,7 +58039,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t990#13943",
+            "url": "r13943",
             "simpleTitle": "evento: ruleta de prácticas #01",
             "space": "el pensadero"
         },
@@ -58048,7 +58048,7 @@ const DBModule = (function () {
             "spread": [
                 15
             ],
-            "url": "/t843#11077",
+            "url": "r11077",
             "simpleTitle": "práctica: born to make",
             "space": "el pensadero"
         },
@@ -58057,7 +58057,7 @@ const DBModule = (function () {
             "spread": [
                 18
             ],
-            "url": "/t843#11218",
+            "url": "r11218",
             "simpleTitle": "práctica: born to make",
             "space": "el pensadero"
         },
@@ -58066,7 +58066,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t843#11655",
+            "url": "r11655",
             "simpleTitle": "práctica: born to make",
             "space": "el pensadero"
         },
@@ -58075,7 +58075,7 @@ const DBModule = (function () {
             "spread": [
                 18
             ],
-            "url": "/t843#11929",
+            "url": "r11929",
             "simpleTitle": "práctica: born to make",
             "space": "el pensadero"
         },
@@ -58084,7 +58084,7 @@ const DBModule = (function () {
             "spread": [
                 9
             ],
-            "url": "/t843#12249",
+            "url": "r12249",
             "simpleTitle": "práctica: born to make",
             "space": "el pensadero"
         },
@@ -58093,7 +58093,7 @@ const DBModule = (function () {
             "spread": [
                 13
             ],
-            "url": "/t843#12944",
+            "url": "r12944",
             "simpleTitle": "práctica: born to make",
             "space": "el pensadero"
         },
@@ -58102,7 +58102,7 @@ const DBModule = (function () {
             "spread": [
                 18
             ],
-            "url": "/t843#14906",
+            "url": "r14906",
             "simpleTitle": "práctica: born to make",
             "space": "el pensadero"
         },
@@ -58111,7 +58111,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t904#11854",
+            "url": "r11854",
             "simpleTitle": "práctica: materia volátil",
             "space": "el pensadero"
         },
@@ -58120,7 +58120,7 @@ const DBModule = (function () {
             "spread": [
                 15
             ],
-            "url": "/t904#12285",
+            "url": "r12285",
             "simpleTitle": "práctica: materia volátil",
             "space": "el pensadero"
         },
@@ -58129,7 +58129,7 @@ const DBModule = (function () {
             "spread": [
                 6
             ],
-            "url": "/t904#12662",
+            "url": "r12662",
             "simpleTitle": "práctica: materia volátil",
             "space": "el pensadero"
         },
@@ -58138,7 +58138,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t904#13045",
+            "url": "r13045",
             "simpleTitle": "práctica: materia volátil",
             "space": "el pensadero"
         },
@@ -58147,7 +58147,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t904#13090",
+            "url": "r13090",
             "simpleTitle": "práctica: materia volátil",
             "space": "el pensadero"
         },
@@ -58156,7 +58156,7 @@ const DBModule = (function () {
             "spread": [
                 13
             ],
-            "url": "/t904#13202",
+            "url": "r13202",
             "simpleTitle": "práctica: materia volátil",
             "space": "el pensadero"
         },
@@ -58165,7 +58165,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t904#13318",
+            "url": "r13318",
             "simpleTitle": "práctica: materia volátil",
             "space": "el pensadero"
         },
@@ -58174,7 +58174,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t904#13990",
+            "url": "r13990",
             "simpleTitle": "práctica: materia volátil",
             "space": "el pensadero"
         },
@@ -58183,7 +58183,7 @@ const DBModule = (function () {
             "spread": [
                 5
             ],
-            "url": "/t904#14012",
+            "url": "r14012",
             "simpleTitle": "práctica: materia volátil",
             "space": "el pensadero"
         },
@@ -58192,7 +58192,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t904#14108",
+            "url": "r14108",
             "simpleTitle": "práctica: materia volátil",
             "space": "el pensadero"
         },
@@ -58201,7 +58201,7 @@ const DBModule = (function () {
             "spread": [
                 11
             ],
-            "url": "/t904#14240",
+            "url": "r14240",
             "simpleTitle": "práctica: materia volátil",
             "space": "el pensadero"
         },
@@ -58211,7 +58211,7 @@ const DBModule = (function () {
                 3,
                 11
             ],
-            "url": "/t904#14583",
+            "url": "r14583",
             "simpleTitle": "práctica: materia volátil",
             "space": "el pensadero"
         },
@@ -58220,7 +58220,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t812#11029",
+            "url": "r11029",
             "simpleTitle": "práctica: guiding light",
             "space": "el pensadero"
         },
@@ -58229,7 +58229,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t812#11216",
+            "url": "r11216",
             "simpleTitle": "práctica: guiding light",
             "space": "el pensadero"
         },
@@ -58238,7 +58238,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t812#12160",
+            "url": "r12160",
             "simpleTitle": "práctica: guiding light",
             "space": "el pensadero"
         },
@@ -58247,7 +58247,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t812#12423",
+            "url": "r12423",
             "simpleTitle": "práctica: guiding light",
             "space": "el pensadero"
         },
@@ -58256,7 +58256,7 @@ const DBModule = (function () {
             "spread": [
                 5
             ],
-            "url": "/t812#13812",
+            "url": "r13812",
             "simpleTitle": "práctica: guiding light",
             "space": "el pensadero"
         },
@@ -58265,7 +58265,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t812#14096",
+            "url": "r14096",
             "simpleTitle": "práctica: guiding light",
             "space": "el pensadero"
         },
@@ -58274,7 +58274,7 @@ const DBModule = (function () {
             "spread": [
                 15
             ],
-            "url": "/t812#15182",
+            "url": "r15182",
             "simpleTitle": "práctica: guiding light",
             "space": "el pensadero"
         },
@@ -58284,7 +58284,7 @@ const DBModule = (function () {
                 14,
                 15
             ],
-            "url": "/t933#12225",
+            "url": "r12225",
             "simpleTitle": "misión: the rest of us",
             "space": "el pensadero"
         },
@@ -58293,7 +58293,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t933#12231",
+            "url": "r12231",
             "simpleTitle": "misión: the rest of us",
             "space": "el pensadero"
         },
@@ -58302,7 +58302,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t933#12253",
+            "url": "r12253",
             "simpleTitle": "misión: the rest of us",
             "space": "el pensadero"
         },
@@ -58312,7 +58312,7 @@ const DBModule = (function () {
                 6,
                 9
             ],
-            "url": "/t933#12277",
+            "url": "r12277",
             "simpleTitle": "misión: the rest of us",
             "space": "el pensadero"
         },
@@ -58322,7 +58322,7 @@ const DBModule = (function () {
                 11,
                 9
             ],
-            "url": "/t933#12344",
+            "url": "r12344",
             "simpleTitle": "misión: the rest of us",
             "space": "el pensadero"
         },
@@ -58332,7 +58332,7 @@ const DBModule = (function () {
                 16,
                 16
             ],
-            "url": "/t933#12350",
+            "url": "r12350",
             "simpleTitle": "misión: the rest of us",
             "space": "el pensadero"
         },
@@ -58341,7 +58341,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t933#12439",
+            "url": "r12439",
             "simpleTitle": "misión: the rest of us",
             "space": "el pensadero"
         },
@@ -58351,7 +58351,7 @@ const DBModule = (function () {
                 16,
                 17
             ],
-            "url": "/t933#12480",
+            "url": "r12480",
             "simpleTitle": "misión: the rest of us",
             "space": "el pensadero"
         },
@@ -58360,7 +58360,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t933#12524",
+            "url": "r12524",
             "simpleTitle": "misión: the rest of us",
             "space": "el pensadero"
         },
@@ -58370,7 +58370,7 @@ const DBModule = (function () {
                 4,
                 17
             ],
-            "url": "/t933#12546",
+            "url": "r12546",
             "simpleTitle": "misión: the rest of us",
             "space": "el pensadero"
         },
@@ -58379,7 +58379,7 @@ const DBModule = (function () {
             "spread": [
                 18
             ],
-            "url": "/t933#12877",
+            "url": "r12877",
             "simpleTitle": "misión: the rest of us",
             "space": "el pensadero"
         },
@@ -58389,7 +58389,7 @@ const DBModule = (function () {
                 5,
                 4
             ],
-            "url": "/t933#12928",
+            "url": "r12928",
             "simpleTitle": "misión: the rest of us",
             "space": "el pensadero"
         },
@@ -58398,7 +58398,7 @@ const DBModule = (function () {
             "spread": [
                 15
             ],
-            "url": "/t933#12968",
+            "url": "r12968",
             "simpleTitle": "misión: the rest of us",
             "space": "el pensadero"
         },
@@ -58407,7 +58407,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t933#13074",
+            "url": "r13074",
             "simpleTitle": "misión: the rest of us",
             "space": "el pensadero"
         },
@@ -58416,7 +58416,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t933#13510",
+            "url": "r13510",
             "simpleTitle": "misión: the rest of us",
             "space": "el pensadero"
         },
@@ -58425,7 +58425,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t933#13544",
+            "url": "r13544",
             "simpleTitle": "misión: the rest of us",
             "space": "el pensadero"
         },
@@ -58435,7 +58435,7 @@ const DBModule = (function () {
                 1,
                 17
             ],
-            "url": "/t933#13551",
+            "url": "r13551",
             "simpleTitle": "misión: the rest of us",
             "space": "el pensadero"
         },
@@ -58444,7 +58444,7 @@ const DBModule = (function () {
             "spread": [
                 15
             ],
-            "url": "/t933#13553",
+            "url": "r13553",
             "simpleTitle": "misión: the rest of us",
             "space": "el pensadero"
         },
@@ -58453,7 +58453,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t933#14147",
+            "url": "r14147",
             "simpleTitle": "misión: the rest of us",
             "space": "el pensadero"
         },
@@ -58462,7 +58462,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t933#14467",
+            "url": "r14467",
             "simpleTitle": "misión: the rest of us",
             "space": "el pensadero"
         },
@@ -58472,7 +58472,7 @@ const DBModule = (function () {
                 17,
                 10
             ],
-            "url": "/t933#14529",
+            "url": "r14529",
             "simpleTitle": "misión: the rest of us",
             "space": "el pensadero"
         },
@@ -58481,7 +58481,7 @@ const DBModule = (function () {
             "spread": [
                 11
             ],
-            "url": "/t933#14536",
+            "url": "r14536",
             "simpleTitle": "misión: the rest of us",
             "space": "el pensadero"
         },
@@ -58490,7 +58490,7 @@ const DBModule = (function () {
             "spread": [
                 19
             ],
-            "url": "/t933#14702",
+            "url": "r14702",
             "simpleTitle": "misión: the rest of us",
             "space": "el pensadero"
         },
@@ -58499,7 +58499,7 @@ const DBModule = (function () {
             "spread": [
                 13
             ],
-            "url": "/t933#14788",
+            "url": "r14788",
             "simpleTitle": "misión: the rest of us",
             "space": "el pensadero"
         },
@@ -58509,7 +58509,7 @@ const DBModule = (function () {
                 8,
                 7
             ],
-            "url": "/t933#14799",
+            "url": "r14799",
             "simpleTitle": "misión: the rest of us",
             "space": "el pensadero"
         },
@@ -58518,7 +58518,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t933#14832",
+            "url": "r14832",
             "simpleTitle": "misión: the rest of us",
             "space": "el pensadero"
         },
@@ -58527,7 +58527,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t933#15150",
+            "url": "r15150",
             "simpleTitle": "misión: the rest of us",
             "space": "el pensadero"
         },
@@ -58537,7 +58537,7 @@ const DBModule = (function () {
                 20,
                 20
             ],
-            "url": "/t933#15204",
+            "url": "r15204",
             "simpleTitle": "misión: the rest of us",
             "space": "el pensadero"
         },
@@ -58546,7 +58546,7 @@ const DBModule = (function () {
             "spread": [
                 19
             ],
-            "url": "/t933#15227",
+            "url": "r15227",
             "simpleTitle": "misión: the rest of us",
             "space": "el pensadero"
         },
@@ -58556,7 +58556,7 @@ const DBModule = (function () {
                 1,
                 9
             ],
-            "url": "/t933#15374",
+            "url": "r15374",
             "simpleTitle": "misión: the rest of us",
             "space": "el pensadero"
         },
@@ -58567,7 +58567,7 @@ const DBModule = (function () {
                 8,
                 4
             ],
-            "url": "/t933#15420",
+            "url": "r15420",
             "simpleTitle": "misión: the rest of us",
             "space": "el pensadero"
         },
@@ -58576,7 +58576,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t851#12718",
+            "url": "r12718",
             "simpleTitle": "práctica - recesses of the mind",
             "space": "el pensadero"
         },
@@ -58585,7 +58585,7 @@ const DBModule = (function () {
             "spread": [
                 13
             ],
-            "url": "/t851#12831",
+            "url": "r12831",
             "simpleTitle": "práctica - recesses of the mind",
             "space": "el pensadero"
         },
@@ -58594,7 +58594,7 @@ const DBModule = (function () {
             "spread": [
                 13
             ],
-            "url": "/t851#12898",
+            "url": "r12898",
             "simpleTitle": "práctica - recesses of the mind",
             "space": "el pensadero"
         },
@@ -58603,7 +58603,7 @@ const DBModule = (function () {
             "spread": [
                 5
             ],
-            "url": "/t851#13329",
+            "url": "r13329",
             "simpleTitle": "práctica - recesses of the mind",
             "space": "el pensadero"
         },
@@ -58612,7 +58612,7 @@ const DBModule = (function () {
             "spread": [
                 13
             ],
-            "url": "/t851#13984",
+            "url": "r13984",
             "simpleTitle": "práctica - recesses of the mind",
             "space": "el pensadero"
         },
@@ -58621,7 +58621,7 @@ const DBModule = (function () {
             "spread": [
                 19
             ],
-            "url": "/t851#14137",
+            "url": "r14137",
             "simpleTitle": "práctica - recesses of the mind",
             "space": "el pensadero"
         },
@@ -58630,7 +58630,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t851#14355",
+            "url": "r14355",
             "simpleTitle": "práctica - recesses of the mind",
             "space": "el pensadero"
         },
@@ -58639,7 +58639,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t851#14526",
+            "url": "r14526",
             "simpleTitle": "práctica - recesses of the mind",
             "space": "el pensadero"
         },
@@ -58648,7 +58648,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t789#9662",
+            "url": "r9662",
             "simpleTitle": "práctica - cough syrup",
             "space": "el pensadero"
         },
@@ -58658,7 +58658,7 @@ const DBModule = (function () {
                 15,
                 2
             ],
-            "url": "/t789#9982",
+            "url": "r9982",
             "simpleTitle": "práctica - cough syrup",
             "space": "el pensadero"
         },
@@ -58667,7 +58667,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t789#10289",
+            "url": "r10289",
             "simpleTitle": "práctica - cough syrup",
             "space": "el pensadero"
         },
@@ -58677,7 +58677,7 @@ const DBModule = (function () {
                 12,
                 15
             ],
-            "url": "/t789#10485",
+            "url": "r10485",
             "simpleTitle": "práctica - cough syrup",
             "space": "el pensadero"
         },
@@ -58686,7 +58686,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t789#10615",
+            "url": "r10615",
             "simpleTitle": "práctica - cough syrup",
             "space": "el pensadero"
         },
@@ -58695,7 +58695,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t789#10831",
+            "url": "r10831",
             "simpleTitle": "práctica - cough syrup",
             "space": "el pensadero"
         },
@@ -58704,7 +58704,7 @@ const DBModule = (function () {
             "spread": [
                 11
             ],
-            "url": "/t789#11137",
+            "url": "r11137",
             "simpleTitle": "práctica - cough syrup",
             "space": "el pensadero"
         },
@@ -58713,7 +58713,7 @@ const DBModule = (function () {
             "spread": [
                 18
             ],
-            "url": "/t789#11407",
+            "url": "r11407",
             "simpleTitle": "práctica - cough syrup",
             "space": "el pensadero"
         },
@@ -58722,7 +58722,7 @@ const DBModule = (function () {
             "spread": [
                 13
             ],
-            "url": "/t789#11427",
+            "url": "r11427",
             "simpleTitle": "práctica - cough syrup",
             "space": "el pensadero"
         },
@@ -58731,7 +58731,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t820#12444",
+            "url": "r12444",
             "simpleTitle": "raíces de ajenjo",
             "space": "el pensadero"
         },
@@ -58740,7 +58740,7 @@ const DBModule = (function () {
             "spread": [
                 19
             ],
-            "url": "/t820#14151",
+            "url": "r14151",
             "simpleTitle": "raíces de ajenjo",
             "space": "el pensadero"
         },
@@ -58749,7 +58749,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t820#14469",
+            "url": "r14469",
             "simpleTitle": "raíces de ajenjo",
             "space": "el pensadero"
         },
@@ -58758,7 +58758,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t820#15680",
+            "url": "r15680",
             "simpleTitle": "raíces de ajenjo",
             "space": "el pensadero"
         },
@@ -58767,7 +58767,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t780#9930",
+            "url": "r9930",
             "simpleTitle": "decoraciones",
             "space": "el pensadero"
         },
@@ -58776,7 +58776,7 @@ const DBModule = (function () {
             "spread": [
                 13
             ],
-            "url": "/t780#10851",
+            "url": "r10851",
             "simpleTitle": "decoraciones",
             "space": "el pensadero"
         },
@@ -58785,7 +58785,7 @@ const DBModule = (function () {
             "spread": [
                 18
             ],
-            "url": "/t780#11174",
+            "url": "r11174",
             "simpleTitle": "decoraciones",
             "space": "el pensadero"
         },
@@ -58794,7 +58794,7 @@ const DBModule = (function () {
             "spread": [
                 18
             ],
-            "url": "/t780#11979",
+            "url": "r11979",
             "simpleTitle": "decoraciones",
             "space": "el pensadero"
         },
@@ -58804,7 +58804,7 @@ const DBModule = (function () {
                 17,
                 19
             ],
-            "url": "/t780#12281",
+            "url": "r12281",
             "simpleTitle": "decoraciones",
             "space": "el pensadero"
         },
@@ -58814,7 +58814,7 @@ const DBModule = (function () {
                 13,
                 8
             ],
-            "url": "/t780#12508",
+            "url": "r12508",
             "simpleTitle": "decoraciones",
             "space": "el pensadero"
         },
@@ -58824,7 +58824,7 @@ const DBModule = (function () {
                 12,
                 20
             ],
-            "url": "/t780#14110",
+            "url": "r14110",
             "simpleTitle": "decoraciones",
             "space": "el pensadero"
         },
@@ -58834,7 +58834,7 @@ const DBModule = (function () {
                 16,
                 19
             ],
-            "url": "/t780#14244",
+            "url": "r14244",
             "simpleTitle": "decoraciones",
             "space": "el pensadero"
         },
@@ -58843,7 +58843,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t921#11961",
+            "url": "r11961",
             "simpleTitle": "nobody does it like me",
             "space": "el pensadero"
         },
@@ -58852,7 +58852,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t921#15040",
+            "url": "r15040",
             "simpleTitle": "nobody does it like me",
             "space": "el pensadero"
         },
@@ -58861,7 +58861,7 @@ const DBModule = (function () {
             "spread": [
                 18
             ],
-            "url": "/t770#8899",
+            "url": "r8899",
             "simpleTitle": "evento yule: la caza del diricawl",
             "space": "el pensadero"
         },
@@ -58870,7 +58870,7 @@ const DBModule = (function () {
             "spread": [
                 5
             ],
-            "url": "/t770#8941",
+            "url": "r8941",
             "simpleTitle": "evento yule: la caza del diricawl",
             "space": "el pensadero"
         },
@@ -58879,7 +58879,7 @@ const DBModule = (function () {
             "spread": [
                 18
             ],
-            "url": "/t770#8995",
+            "url": "r8995",
             "simpleTitle": "evento yule: la caza del diricawl",
             "space": "el pensadero"
         },
@@ -58888,7 +58888,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t770#9053",
+            "url": "r9053",
             "simpleTitle": "evento yule: la caza del diricawl",
             "space": "el pensadero"
         },
@@ -58897,7 +58897,7 @@ const DBModule = (function () {
             "spread": [
                 15
             ],
-            "url": "/t770#9075",
+            "url": "r9075",
             "simpleTitle": "evento yule: la caza del diricawl",
             "space": "el pensadero"
         },
@@ -58906,7 +58906,7 @@ const DBModule = (function () {
             "spread": [
                 9
             ],
-            "url": "/t770#9079",
+            "url": "r9079",
             "simpleTitle": "evento yule: la caza del diricawl",
             "space": "el pensadero"
         },
@@ -58915,7 +58915,7 @@ const DBModule = (function () {
             "spread": [
                 9
             ],
-            "url": "/t770#9088",
+            "url": "r9088",
             "simpleTitle": "evento yule: la caza del diricawl",
             "space": "el pensadero"
         },
@@ -58924,7 +58924,7 @@ const DBModule = (function () {
             "spread": [
                 9
             ],
-            "url": "/t770#9091",
+            "url": "r9091",
             "simpleTitle": "evento yule: la caza del diricawl",
             "space": "el pensadero"
         },
@@ -58933,7 +58933,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t770#9094",
+            "url": "r9094",
             "simpleTitle": "evento yule: la caza del diricawl",
             "space": "el pensadero"
         },
@@ -58945,7 +58945,7 @@ const DBModule = (function () {
                 4,
                 3
             ],
-            "url": "/t770#9128",
+            "url": "r9128",
             "simpleTitle": "evento yule: la caza del diricawl",
             "space": "el pensadero"
         },
@@ -58957,7 +58957,7 @@ const DBModule = (function () {
                 12,
                 10
             ],
-            "url": "/t770#9132",
+            "url": "r9132",
             "simpleTitle": "evento yule: la caza del diricawl",
             "space": "el pensadero"
         },
@@ -58969,7 +58969,7 @@ const DBModule = (function () {
                 18,
                 11
             ],
-            "url": "/t770#9377",
+            "url": "r9377",
             "simpleTitle": "evento yule: la caza del diricawl",
             "space": "el pensadero"
         },
@@ -58979,7 +58979,7 @@ const DBModule = (function () {
                 8,
                 6
             ],
-            "url": "/t770#9384",
+            "url": "r9384",
             "simpleTitle": "evento yule: la caza del diricawl",
             "space": "el pensadero"
         },
@@ -58988,7 +58988,7 @@ const DBModule = (function () {
             "spread": [
                 5
             ],
-            "url": "/t770#9418",
+            "url": "r9418",
             "simpleTitle": "evento yule: la caza del diricawl",
             "space": "el pensadero"
         },
@@ -58997,7 +58997,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t770#9420",
+            "url": "r9420",
             "simpleTitle": "evento yule: la caza del diricawl",
             "space": "el pensadero"
         },
@@ -59009,7 +59009,7 @@ const DBModule = (function () {
                 6,
                 6
             ],
-            "url": "/t770#9630",
+            "url": "r9630",
             "simpleTitle": "evento yule: la caza del diricawl",
             "space": "el pensadero"
         },
@@ -59021,7 +59021,7 @@ const DBModule = (function () {
                 6,
                 7
             ],
-            "url": "/t770#9637",
+            "url": "r9637",
             "simpleTitle": "evento yule: la caza del diricawl",
             "space": "el pensadero"
         },
@@ -59033,7 +59033,7 @@ const DBModule = (function () {
                 19,
                 1
             ],
-            "url": "/t770#9655",
+            "url": "r9655",
             "simpleTitle": "evento yule: la caza del diricawl",
             "space": "el pensadero"
         },
@@ -59045,7 +59045,7 @@ const DBModule = (function () {
                 4,
                 5
             ],
-            "url": "/t770#9694",
+            "url": "r9694",
             "simpleTitle": "evento yule: la caza del diricawl",
             "space": "el pensadero"
         },
@@ -59057,7 +59057,7 @@ const DBModule = (function () {
                 13,
                 2
             ],
-            "url": "/t770#9704",
+            "url": "r9704",
             "simpleTitle": "evento yule: la caza del diricawl",
             "space": "el pensadero"
         },
@@ -59069,7 +59069,7 @@ const DBModule = (function () {
                 14,
                 19
             ],
-            "url": "/t770#9709",
+            "url": "r9709",
             "simpleTitle": "evento yule: la caza del diricawl",
             "space": "el pensadero"
         },
@@ -59081,7 +59081,7 @@ const DBModule = (function () {
                 15,
                 7
             ],
-            "url": "/t770#9768",
+            "url": "r9768",
             "simpleTitle": "evento yule: la caza del diricawl",
             "space": "el pensadero"
         },
@@ -59091,7 +59091,7 @@ const DBModule = (function () {
                 6,
                 9
             ],
-            "url": "/t770#9831",
+            "url": "r9831",
             "simpleTitle": "evento yule: la caza del diricawl",
             "space": "el pensadero"
         },
@@ -59103,7 +59103,7 @@ const DBModule = (function () {
                 3,
                 5
             ],
-            "url": "/t770#9873",
+            "url": "r9873",
             "simpleTitle": "evento yule: la caza del diricawl",
             "space": "el pensadero"
         },
@@ -59115,7 +59115,7 @@ const DBModule = (function () {
                 6,
                 13
             ],
-            "url": "/t770#9877",
+            "url": "r9877",
             "simpleTitle": "evento yule: la caza del diricawl",
             "space": "el pensadero"
         },
@@ -59127,7 +59127,7 @@ const DBModule = (function () {
                 3,
                 17
             ],
-            "url": "/t770#9925",
+            "url": "r9925",
             "simpleTitle": "evento yule: la caza del diricawl",
             "space": "el pensadero"
         },
@@ -59139,7 +59139,7 @@ const DBModule = (function () {
                 5,
                 15
             ],
-            "url": "/t770#9927",
+            "url": "r9927",
             "simpleTitle": "evento yule: la caza del diricawl",
             "space": "el pensadero"
         },
@@ -59150,7 +59150,7 @@ const DBModule = (function () {
                 16,
                 4
             ],
-            "url": "/t770#10018",
+            "url": "r10018",
             "simpleTitle": "evento yule: la caza del diricawl",
             "space": "el pensadero"
         },
@@ -59164,7 +59164,7 @@ const DBModule = (function () {
                 13,
                 18
             ],
-            "url": "/t770#10586",
+            "url": "r10586",
             "simpleTitle": "evento yule: la caza del diricawl",
             "space": "el pensadero"
         },
@@ -59176,7 +59176,7 @@ const DBModule = (function () {
                 15,
                 14
             ],
-            "url": "/t770#10602",
+            "url": "r10602",
             "simpleTitle": "evento yule: la caza del diricawl",
             "space": "el pensadero"
         },
@@ -59186,7 +59186,7 @@ const DBModule = (function () {
                 19,
                 10
             ],
-            "url": "/t770#10628",
+            "url": "r10628",
             "simpleTitle": "evento yule: la caza del diricawl",
             "space": "el pensadero"
         },
@@ -59196,7 +59196,7 @@ const DBModule = (function () {
                 18,
                 15
             ],
-            "url": "/t770#10630",
+            "url": "r10630",
             "simpleTitle": "evento yule: la caza del diricawl",
             "space": "el pensadero"
         },
@@ -59208,7 +59208,7 @@ const DBModule = (function () {
                 20,
                 10
             ],
-            "url": "/t770#10632",
+            "url": "r10632",
             "simpleTitle": "evento yule: la caza del diricawl",
             "space": "el pensadero"
         },
@@ -59220,7 +59220,7 @@ const DBModule = (function () {
                 20,
                 17
             ],
-            "url": "/t770#10708",
+            "url": "r10708",
             "simpleTitle": "evento yule: la caza del diricawl",
             "space": "el pensadero"
         },
@@ -59229,7 +59229,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t770#10891",
+            "url": "r10891",
             "simpleTitle": "evento yule: la caza del diricawl",
             "space": "el pensadero"
         },
@@ -59240,7 +59240,7 @@ const DBModule = (function () {
                 17,
                 7
             ],
-            "url": "/t770#10916",
+            "url": "r10916",
             "simpleTitle": "evento yule: la caza del diricawl",
             "space": "el pensadero"
         },
@@ -59254,7 +59254,7 @@ const DBModule = (function () {
                 4,
                 1
             ],
-            "url": "/t770#10929",
+            "url": "r10929",
             "simpleTitle": "evento yule: la caza del diricawl",
             "space": "el pensadero"
         },
@@ -59266,7 +59266,7 @@ const DBModule = (function () {
                 17,
                 18
             ],
-            "url": "/t770#10969",
+            "url": "r10969",
             "simpleTitle": "evento yule: la caza del diricawl",
             "space": "el pensadero"
         },
@@ -59278,7 +59278,7 @@ const DBModule = (function () {
                 8,
                 4
             ],
-            "url": "/t770#10983",
+            "url": "r10983",
             "simpleTitle": "evento yule: la caza del diricawl",
             "space": "el pensadero"
         },
@@ -59290,7 +59290,7 @@ const DBModule = (function () {
                 15,
                 11
             ],
-            "url": "/t770#10985",
+            "url": "r10985",
             "simpleTitle": "evento yule: la caza del diricawl",
             "space": "el pensadero"
         },
@@ -59302,7 +59302,7 @@ const DBModule = (function () {
                 11,
                 2
             ],
-            "url": "/t770#11104",
+            "url": "r11104",
             "simpleTitle": "evento yule: la caza del diricawl",
             "space": "el pensadero"
         },
@@ -59314,7 +59314,7 @@ const DBModule = (function () {
                 4,
                 10
             ],
-            "url": "/t770#11169",
+            "url": "r11169",
             "simpleTitle": "evento yule: la caza del diricawl",
             "space": "el pensadero"
         },
@@ -59323,7 +59323,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t770#11278",
+            "url": "r11278",
             "simpleTitle": "evento yule: la caza del diricawl",
             "space": "el pensadero"
         },
@@ -59337,7 +59337,7 @@ const DBModule = (function () {
                 15,
                 19
             ],
-            "url": "/t770#11493",
+            "url": "r11493",
             "simpleTitle": "evento yule: la caza del diricawl",
             "space": "el pensadero"
         },
@@ -59349,7 +59349,7 @@ const DBModule = (function () {
                 12,
                 9
             ],
-            "url": "/t770#11544",
+            "url": "r11544",
             "simpleTitle": "evento yule: la caza del diricawl",
             "space": "el pensadero"
         },
@@ -59361,7 +59361,7 @@ const DBModule = (function () {
                 4,
                 17
             ],
-            "url": "/t770#11605",
+            "url": "r11605",
             "simpleTitle": "evento yule: la caza del diricawl",
             "space": "el pensadero"
         },
@@ -59371,7 +59371,7 @@ const DBModule = (function () {
                 18,
                 3
             ],
-            "url": "/t770#11615",
+            "url": "r11615",
             "simpleTitle": "evento yule: la caza del diricawl",
             "space": "el pensadero"
         },
@@ -59380,7 +59380,7 @@ const DBModule = (function () {
             "spread": [
                 5
             ],
-            "url": "/t770#11617",
+            "url": "r11617",
             "simpleTitle": "evento yule: la caza del diricawl",
             "space": "el pensadero"
         },
@@ -59390,7 +59390,7 @@ const DBModule = (function () {
                 15,
                 13
             ],
-            "url": "/t770#11738",
+            "url": "r11738",
             "simpleTitle": "evento yule: la caza del diricawl",
             "space": "el pensadero"
         },
@@ -59399,7 +59399,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t770#11926",
+            "url": "r11926",
             "simpleTitle": "evento yule: la caza del diricawl",
             "space": "el pensadero"
         },
@@ -59409,7 +59409,7 @@ const DBModule = (function () {
                 15,
                 9
             ],
-            "url": "/t770#12169",
+            "url": "r12169",
             "simpleTitle": "evento yule: la caza del diricawl",
             "space": "el pensadero"
         },
@@ -59418,7 +59418,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t770#12177",
+            "url": "r12177",
             "simpleTitle": "evento yule: la caza del diricawl",
             "space": "el pensadero"
         },
@@ -59427,7 +59427,7 @@ const DBModule = (function () {
             "spread": [
                 11
             ],
-            "url": "/t770#12477",
+            "url": "r12477",
             "simpleTitle": "evento yule: la caza del diricawl",
             "space": "el pensadero"
         },
@@ -59439,7 +59439,7 @@ const DBModule = (function () {
                 11,
                 7
             ],
-            "url": "/t770#12495",
+            "url": "r12495",
             "simpleTitle": "evento yule: la caza del diricawl",
             "space": "el pensadero"
         },
@@ -59451,7 +59451,7 @@ const DBModule = (function () {
                 12,
                 19
             ],
-            "url": "/t770#12515",
+            "url": "r12515",
             "simpleTitle": "evento yule: la caza del diricawl",
             "space": "el pensadero"
         },
@@ -59460,7 +59460,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t771#9351",
+            "url": "r9351",
             "simpleTitle": "evento - yule: el baile",
             "space": "el pensadero"
         },
@@ -59469,7 +59469,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t771#9614",
+            "url": "r9614",
             "simpleTitle": "evento - yule: el baile",
             "space": "el pensadero"
         },
@@ -59478,7 +59478,7 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "url": "/t771#9616",
+            "url": "r9616",
             "simpleTitle": "evento - yule: el baile",
             "space": "el pensadero"
         },
@@ -59487,7 +59487,7 @@ const DBModule = (function () {
             "spread": [
                 9
             ],
-            "url": "/t771#9642",
+            "url": "r9642",
             "simpleTitle": "evento - yule: el baile",
             "space": "el pensadero"
         },
@@ -59496,7 +59496,7 @@ const DBModule = (function () {
             "spread": [
                 6
             ],
-            "url": "/t771#9646",
+            "url": "r9646",
             "simpleTitle": "evento - yule: el baile",
             "space": "el pensadero"
         },
@@ -59505,7 +59505,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t771#9707",
+            "url": "r9707",
             "simpleTitle": "evento - yule: el baile",
             "space": "el pensadero"
         },
@@ -59514,7 +59514,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t771#9766",
+            "url": "r9766",
             "simpleTitle": "evento - yule: el baile",
             "space": "el pensadero"
         },
@@ -59523,7 +59523,7 @@ const DBModule = (function () {
             "spread": [
                 13
             ],
-            "url": "/t771#9771",
+            "url": "r9771",
             "simpleTitle": "evento - yule: el baile",
             "space": "el pensadero"
         },
@@ -59532,7 +59532,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t771#9773",
+            "url": "r9773",
             "simpleTitle": "evento - yule: el baile",
             "space": "el pensadero"
         },
@@ -59541,7 +59541,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t771#9775",
+            "url": "r9775",
             "simpleTitle": "evento - yule: el baile",
             "space": "el pensadero"
         },
@@ -59551,7 +59551,7 @@ const DBModule = (function () {
                 20,
                 5
             ],
-            "url": "/t771#9991",
+            "url": "r9991",
             "simpleTitle": "evento - yule: el baile",
             "space": "el pensadero"
         },
@@ -59560,7 +59560,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t771#9997",
+            "url": "r9997",
             "simpleTitle": "evento - yule: el baile",
             "space": "el pensadero"
         },
@@ -59569,7 +59569,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t771#10081",
+            "url": "r10081",
             "simpleTitle": "evento - yule: el baile",
             "space": "el pensadero"
         },
@@ -59578,7 +59578,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t771#10084",
+            "url": "r10084",
             "simpleTitle": "evento - yule: el baile",
             "space": "el pensadero"
         },
@@ -59587,7 +59587,7 @@ const DBModule = (function () {
             "spread": [
                 9
             ],
-            "url": "/t771#10113",
+            "url": "r10113",
             "simpleTitle": "evento - yule: el baile",
             "space": "el pensadero"
         },
@@ -59596,7 +59596,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t771#10315",
+            "url": "r10315",
             "simpleTitle": "evento - yule: el baile",
             "space": "el pensadero"
         },
@@ -59606,7 +59606,7 @@ const DBModule = (function () {
                 9,
                 16
             ],
-            "url": "/t771#10438",
+            "url": "r10438",
             "simpleTitle": "evento - yule: el baile",
             "space": "el pensadero"
         },
@@ -59615,7 +59615,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t771#10452",
+            "url": "r10452",
             "simpleTitle": "evento - yule: el baile",
             "space": "el pensadero"
         },
@@ -59624,7 +59624,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t771#10454",
+            "url": "r10454",
             "simpleTitle": "evento - yule: el baile",
             "space": "el pensadero"
         },
@@ -59634,7 +59634,7 @@ const DBModule = (function () {
                 4,
                 17
             ],
-            "url": "/t771#10456",
+            "url": "r10456",
             "simpleTitle": "evento - yule: el baile",
             "space": "el pensadero"
         },
@@ -59643,7 +59643,7 @@ const DBModule = (function () {
             "spread": [
                 19
             ],
-            "url": "/t771#10670",
+            "url": "r10670",
             "simpleTitle": "evento - yule: el baile",
             "space": "el pensadero"
         },
@@ -59652,7 +59652,7 @@ const DBModule = (function () {
             "spread": [
                 15
             ],
-            "url": "/t771#10910",
+            "url": "r10910",
             "simpleTitle": "evento - yule: el baile",
             "space": "el pensadero"
         },
@@ -59661,7 +59661,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t771#10914",
+            "url": "r10914",
             "simpleTitle": "evento - yule: el baile",
             "space": "el pensadero"
         },
@@ -59670,7 +59670,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t771#10927",
+            "url": "r10927",
             "simpleTitle": "evento - yule: el baile",
             "space": "el pensadero"
         },
@@ -59679,7 +59679,7 @@ const DBModule = (function () {
             "spread": [
                 3
             ],
-            "url": "/t771#11153",
+            "url": "r11153",
             "simpleTitle": "evento - yule: el baile",
             "space": "el pensadero"
         },
@@ -59688,7 +59688,7 @@ const DBModule = (function () {
             "spread": [
                 9
             ],
-            "url": "/t771#11181",
+            "url": "r11181",
             "simpleTitle": "evento - yule: el baile",
             "space": "el pensadero"
         },
@@ -59697,7 +59697,7 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "url": "/t771#11183",
+            "url": "r11183",
             "simpleTitle": "evento - yule: el baile",
             "space": "el pensadero"
         },
@@ -59706,7 +59706,7 @@ const DBModule = (function () {
             "spread": [
                 3
             ],
-            "url": "/t771#11185",
+            "url": "r11185",
             "simpleTitle": "evento - yule: el baile",
             "space": "el pensadero"
         },
@@ -59715,7 +59715,7 @@ const DBModule = (function () {
             "spread": [
                 3
             ],
-            "url": "/t771#11293",
+            "url": "r11293",
             "simpleTitle": "evento - yule: el baile",
             "space": "el pensadero"
         },
@@ -59724,7 +59724,7 @@ const DBModule = (function () {
             "spread": [
                 11
             ],
-            "url": "/t771#11297",
+            "url": "r11297",
             "simpleTitle": "evento - yule: el baile",
             "space": "el pensadero"
         },
@@ -59733,7 +59733,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t771#11464",
+            "url": "r11464",
             "simpleTitle": "evento - yule: el baile",
             "space": "el pensadero"
         },
@@ -59742,7 +59742,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t771#11466",
+            "url": "r11466",
             "simpleTitle": "evento - yule: el baile",
             "space": "el pensadero"
         },
@@ -59751,7 +59751,7 @@ const DBModule = (function () {
             "spread": [
                 9
             ],
-            "url": "/t771#11470",
+            "url": "r11470",
             "simpleTitle": "evento - yule: el baile",
             "space": "el pensadero"
         },
@@ -59760,7 +59760,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t771#11633",
+            "url": "r11633",
             "simpleTitle": "evento - yule: el baile",
             "space": "el pensadero"
         },
@@ -59769,7 +59769,7 @@ const DBModule = (function () {
             "spread": [
                 19
             ],
-            "url": "/t771#11706",
+            "url": "r11706",
             "simpleTitle": "evento - yule: el baile",
             "space": "el pensadero"
         },
@@ -59779,7 +59779,7 @@ const DBModule = (function () {
                 4,
                 16
             ],
-            "url": "/t771#11860",
+            "url": "r11860",
             "simpleTitle": "evento - yule: el baile",
             "space": "el pensadero"
         },
@@ -59789,7 +59789,7 @@ const DBModule = (function () {
                 18,
                 4
             ],
-            "url": "/t771#11873",
+            "url": "r11873",
             "simpleTitle": "evento - yule: el baile",
             "space": "el pensadero"
         },
@@ -59799,7 +59799,7 @@ const DBModule = (function () {
                 16,
                 15
             ],
-            "url": "/t771#11913",
+            "url": "r11913",
             "simpleTitle": "evento - yule: el baile",
             "space": "el pensadero"
         },
@@ -59809,7 +59809,7 @@ const DBModule = (function () {
                 11,
                 19
             ],
-            "url": "/t771#11915",
+            "url": "r11915",
             "simpleTitle": "evento - yule: el baile",
             "space": "el pensadero"
         },
@@ -59819,7 +59819,7 @@ const DBModule = (function () {
                 12,
                 15
             ],
-            "url": "/t771#12171",
+            "url": "r12171",
             "simpleTitle": "evento - yule: el baile",
             "space": "el pensadero"
         },
@@ -59829,7 +59829,7 @@ const DBModule = (function () {
                 13,
                 16
             ],
-            "url": "/t771#12173",
+            "url": "r12173",
             "simpleTitle": "evento - yule: el baile",
             "space": "el pensadero"
         },
@@ -59839,7 +59839,7 @@ const DBModule = (function () {
                 6,
                 16
             ],
-            "url": "/t771#12175",
+            "url": "r12175",
             "simpleTitle": "evento - yule: el baile",
             "space": "el pensadero"
         },
@@ -59849,7 +59849,7 @@ const DBModule = (function () {
                 7,
                 2
             ],
-            "url": "/t771#12192",
+            "url": "r12192",
             "simpleTitle": "evento - yule: el baile",
             "space": "el pensadero"
         },
@@ -59859,7 +59859,7 @@ const DBModule = (function () {
                 19,
                 17
             ],
-            "url": "/t771#12342",
+            "url": "r12342",
             "simpleTitle": "evento - yule: el baile",
             "space": "el pensadero"
         },
@@ -59869,7 +59869,7 @@ const DBModule = (function () {
                 15,
                 14
             ],
-            "url": "/t771#12360",
+            "url": "r12360",
             "simpleTitle": "evento - yule: el baile",
             "space": "el pensadero"
         },
@@ -59879,7 +59879,7 @@ const DBModule = (function () {
                 20,
                 3
             ],
-            "url": "/t771#12363",
+            "url": "r12363",
             "simpleTitle": "evento - yule: el baile",
             "space": "el pensadero"
         },
@@ -59889,7 +59889,7 @@ const DBModule = (function () {
                 18,
                 14
             ],
-            "url": "/t771#12366",
+            "url": "r12366",
             "simpleTitle": "evento - yule: el baile",
             "space": "el pensadero"
         },
@@ -59899,7 +59899,7 @@ const DBModule = (function () {
                 13,
                 19
             ],
-            "url": "/t771#12528",
+            "url": "r12528",
             "simpleTitle": "evento - yule: el baile",
             "space": "el pensadero"
         },
@@ -59909,7 +59909,7 @@ const DBModule = (function () {
                 6,
                 1
             ],
-            "url": "/t771#12543",
+            "url": "r12543",
             "simpleTitle": "evento - yule: el baile",
             "space": "el pensadero"
         },
@@ -59918,7 +59918,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t771#12908",
+            "url": "r12908",
             "simpleTitle": "evento - yule: el baile",
             "space": "el pensadero"
         },
@@ -59928,7 +59928,7 @@ const DBModule = (function () {
                 11,
                 5
             ],
-            "url": "/t771#13381",
+            "url": "r13381",
             "simpleTitle": "evento - yule: el baile",
             "space": "el pensadero"
         },
@@ -59938,7 +59938,7 @@ const DBModule = (function () {
                 4,
                 17
             ],
-            "url": "/t771#13393",
+            "url": "r13393",
             "simpleTitle": "evento - yule: el baile",
             "space": "el pensadero"
         },
@@ -59948,7 +59948,7 @@ const DBModule = (function () {
                 9,
                 4
             ],
-            "url": "/t771#13396",
+            "url": "r13396",
             "simpleTitle": "evento - yule: el baile",
             "space": "el pensadero"
         },
@@ -59958,7 +59958,7 @@ const DBModule = (function () {
                 4,
                 11
             ],
-            "url": "/t771#13398",
+            "url": "r13398",
             "simpleTitle": "evento - yule: el baile",
             "space": "el pensadero"
         },
@@ -59968,7 +59968,7 @@ const DBModule = (function () {
                 9,
                 6
             ],
-            "url": "/t771#13430",
+            "url": "r13430",
             "simpleTitle": "evento - yule: el baile",
             "space": "el pensadero"
         },
@@ -59977,7 +59977,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t771#13432",
+            "url": "r13432",
             "simpleTitle": "evento - yule: el baile",
             "space": "el pensadero"
         },
@@ -59987,7 +59987,7 @@ const DBModule = (function () {
                 18,
                 18
             ],
-            "url": "/t790#10320",
+            "url": "r10320",
             "simpleTitle": "práctica - devil on my shoulder",
             "space": "el pensadero"
         },
@@ -59996,7 +59996,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t790#11310",
+            "url": "r11310",
             "simpleTitle": "práctica - devil on my shoulder",
             "space": "el pensadero"
         },
@@ -60005,7 +60005,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t790#11411",
+            "url": "r11411",
             "simpleTitle": "práctica - devil on my shoulder",
             "space": "el pensadero"
         },
@@ -60014,7 +60014,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t790#11585",
+            "url": "r11585",
             "simpleTitle": "práctica - devil on my shoulder",
             "space": "el pensadero"
         },
@@ -60023,7 +60023,7 @@ const DBModule = (function () {
             "spread": [
                 11
             ],
-            "url": "/t790#11709",
+            "url": "r11709",
             "simpleTitle": "práctica - devil on my shoulder",
             "space": "el pensadero"
         },
@@ -60032,7 +60032,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t790#11734",
+            "url": "r11734",
             "simpleTitle": "práctica - devil on my shoulder",
             "space": "el pensadero"
         },
@@ -60041,7 +60041,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t790#12028",
+            "url": "r12028",
             "simpleTitle": "práctica - devil on my shoulder",
             "space": "el pensadero"
         },
@@ -60050,7 +60050,7 @@ const DBModule = (function () {
             "spread": [
                 13
             ],
-            "url": "/t790#12400",
+            "url": "r12400",
             "simpleTitle": "práctica - devil on my shoulder",
             "space": "el pensadero"
         },
@@ -60060,7 +60060,7 @@ const DBModule = (function () {
                 13,
                 18
             ],
-            "url": "/t790#12812",
+            "url": "r12812",
             "simpleTitle": "práctica - devil on my shoulder",
             "space": "el pensadero"
         },
@@ -60070,7 +60070,7 @@ const DBModule = (function () {
                 17,
                 4
             ],
-            "url": "/t790#12852",
+            "url": "r12852",
             "simpleTitle": "práctica - devil on my shoulder",
             "space": "el pensadero"
         },
@@ -60079,7 +60079,7 @@ const DBModule = (function () {
             "spread": [
                 19
             ],
-            "url": "/t790#13047",
+            "url": "r13047",
             "simpleTitle": "práctica - devil on my shoulder",
             "space": "el pensadero"
         },
@@ -60088,7 +60088,7 @@ const DBModule = (function () {
             "spread": [
                 13
             ],
-            "url": "/t790#13118",
+            "url": "r13118",
             "simpleTitle": "práctica - devil on my shoulder",
             "space": "el pensadero"
         },
@@ -60098,7 +60098,7 @@ const DBModule = (function () {
                 14,
                 19
             ],
-            "url": "/t790#13204",
+            "url": "r13204",
             "simpleTitle": "práctica - devil on my shoulder",
             "space": "el pensadero"
         },
@@ -60110,7 +60110,7 @@ const DBModule = (function () {
                 18,
                 19
             ],
-            "url": "/t790#13332",
+            "url": "r13332",
             "simpleTitle": "práctica - devil on my shoulder",
             "space": "el pensadero"
         },
@@ -60119,7 +60119,7 @@ const DBModule = (function () {
             "spread": [
                 6
             ],
-            "url": "/t790#13998",
+            "url": "r13998",
             "simpleTitle": "práctica - devil on my shoulder",
             "space": "el pensadero"
         },
@@ -60128,7 +60128,7 @@ const DBModule = (function () {
             "spread": [
                 6
             ],
-            "url": "/t790#14140",
+            "url": "r14140",
             "simpleTitle": "práctica - devil on my shoulder",
             "space": "el pensadero"
         },
@@ -60138,7 +60138,7 @@ const DBModule = (function () {
                 16,
                 18
             ],
-            "url": "/t790#14458",
+            "url": "r14458",
             "simpleTitle": "práctica - devil on my shoulder",
             "space": "el pensadero"
         },
@@ -60147,7 +60147,7 @@ const DBModule = (function () {
             "spread": [
                 18
             ],
-            "url": "/t790#14545",
+            "url": "r14545",
             "simpleTitle": "práctica - devil on my shoulder",
             "space": "el pensadero"
         },
@@ -60156,7 +60156,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t752#8739",
+            "url": "r8739",
             "simpleTitle": "misión: the lone bellow",
             "space": "el pensadero"
         },
@@ -60165,7 +60165,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t752#9386",
+            "url": "r9386",
             "simpleTitle": "misión: the lone bellow",
             "space": "el pensadero"
         },
@@ -60174,7 +60174,7 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "url": "/t752#9944",
+            "url": "r9944",
             "simpleTitle": "misión: the lone bellow",
             "space": "el pensadero"
         },
@@ -60183,7 +60183,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t752#10215",
+            "url": "r10215",
             "simpleTitle": "misión: the lone bellow",
             "space": "el pensadero"
         },
@@ -60192,7 +60192,7 @@ const DBModule = (function () {
             "spread": [
                 18
             ],
-            "url": "/t752#10565",
+            "url": "r10565",
             "simpleTitle": "misión: the lone bellow",
             "space": "el pensadero"
         },
@@ -60201,7 +60201,7 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "url": "/t752#11261",
+            "url": "r11261",
             "simpleTitle": "misión: the lone bellow",
             "space": "el pensadero"
         },
@@ -60210,7 +60210,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t752#11339",
+            "url": "r11339",
             "simpleTitle": "misión: the lone bellow",
             "space": "el pensadero"
         },
@@ -60219,7 +60219,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t752#11485",
+            "url": "r11485",
             "simpleTitle": "misión: the lone bellow",
             "space": "el pensadero"
         },
@@ -60228,7 +60228,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t752#11535",
+            "url": "r11535",
             "simpleTitle": "misión: the lone bellow",
             "space": "el pensadero"
         },
@@ -60237,7 +60237,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t752#11806",
+            "url": "r11806",
             "simpleTitle": "misión: the lone bellow",
             "space": "el pensadero"
         },
@@ -60246,7 +60246,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t752#12340",
+            "url": "r12340",
             "simpleTitle": "misión: the lone bellow",
             "space": "el pensadero"
         },
@@ -60255,7 +60255,7 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "url": "/t752#12513",
+            "url": "r12513",
             "simpleTitle": "misión: the lone bellow",
             "space": "el pensadero"
         },
@@ -60264,7 +60264,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t752#12872",
+            "url": "r12872",
             "simpleTitle": "misión: the lone bellow",
             "space": "el pensadero"
         },
@@ -60273,7 +60273,7 @@ const DBModule = (function () {
             "spread": [
                 11
             ],
-            "url": "/t752#12930",
+            "url": "r12930",
             "simpleTitle": "misión: the lone bellow",
             "space": "el pensadero"
         },
@@ -60282,7 +60282,7 @@ const DBModule = (function () {
             "spread": [
                 19
             ],
-            "url": "/t752#13030",
+            "url": "r13030",
             "simpleTitle": "misión: the lone bellow",
             "space": "el pensadero"
         },
@@ -60291,7 +60291,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t752#13405",
+            "url": "r13405",
             "simpleTitle": "misión: the lone bellow",
             "space": "el pensadero"
         },
@@ -60300,7 +60300,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t752#13574",
+            "url": "r13574",
             "simpleTitle": "misión: the lone bellow",
             "space": "el pensadero"
         },
@@ -60309,7 +60309,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t752#13692",
+            "url": "r13692",
             "simpleTitle": "misión: the lone bellow",
             "space": "el pensadero"
         },
@@ -60318,7 +60318,7 @@ const DBModule = (function () {
             "spread": [
                 15
             ],
-            "url": "/t752#13895",
+            "url": "r13895",
             "simpleTitle": "misión: the lone bellow",
             "space": "el pensadero"
         },
@@ -60327,7 +60327,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t752#14351",
+            "url": "r14351",
             "simpleTitle": "misión: the lone bellow",
             "space": "el pensadero"
         },
@@ -60336,7 +60336,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t752#14386",
+            "url": "r14386",
             "simpleTitle": "misión: the lone bellow",
             "space": "el pensadero"
         },
@@ -60345,7 +60345,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t752#14644",
+            "url": "r14644",
             "simpleTitle": "misión: the lone bellow",
             "space": "el pensadero"
         },
@@ -60354,7 +60354,7 @@ const DBModule = (function () {
             "spread": [
                 15
             ],
-            "url": "/t720#7698",
+            "url": "r7698",
             "simpleTitle": "until we meet again",
             "space": "el pensadero"
         },
@@ -60363,7 +60363,7 @@ const DBModule = (function () {
             "spread": [
                 13
             ],
-            "url": "/t720#11623",
+            "url": "r11623",
             "simpleTitle": "until we meet again",
             "space": "el pensadero"
         },
@@ -60372,7 +60372,7 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "url": "/t760#12458",
+            "url": "r12458",
             "simpleTitle": "práctica: warmth of the heart",
             "space": "el pensadero"
         },
@@ -60381,7 +60381,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t760#12838",
+            "url": "r12838",
             "simpleTitle": "práctica: warmth of the heart",
             "space": "el pensadero"
         },
@@ -60390,7 +60390,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t760#13157",
+            "url": "r13157",
             "simpleTitle": "práctica: warmth of the heart",
             "space": "el pensadero"
         },
@@ -60399,7 +60399,7 @@ const DBModule = (function () {
             "spread": [
                 11
             ],
-            "url": "/t738#8201",
+            "url": "r8201",
             "simpleTitle": "práctica - the attack of the killer slugs",
             "space": "el pensadero"
         },
@@ -60408,7 +60408,7 @@ const DBModule = (function () {
             "spread": [
                 11
             ],
-            "url": "/t738#8206",
+            "url": "r8206",
             "simpleTitle": "práctica - the attack of the killer slugs",
             "space": "el pensadero"
         },
@@ -60417,7 +60417,7 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "url": "/t738#8208",
+            "url": "r8208",
             "simpleTitle": "práctica - the attack of the killer slugs",
             "space": "el pensadero"
         },
@@ -60426,7 +60426,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t738#8212",
+            "url": "r8212",
             "simpleTitle": "práctica - the attack of the killer slugs",
             "space": "el pensadero"
         },
@@ -60435,7 +60435,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t738#8215",
+            "url": "r8215",
             "simpleTitle": "práctica - the attack of the killer slugs",
             "space": "el pensadero"
         },
@@ -60444,7 +60444,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t756#9263",
+            "url": "r9263",
             "simpleTitle": "adivina adivinanza.",
             "space": "el pensadero"
         },
@@ -60453,7 +60453,7 @@ const DBModule = (function () {
             "spread": [
                 9
             ],
-            "url": "/t756#9388",
+            "url": "r9388",
             "simpleTitle": "adivina adivinanza.",
             "space": "el pensadero"
         },
@@ -60462,7 +60462,7 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "url": "/t753#8725",
+            "url": "r8725",
             "simpleTitle": "investigación - enrolled origins",
             "space": "el pensadero"
         },
@@ -60471,7 +60471,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t753#8797",
+            "url": "r8797",
             "simpleTitle": "investigación - enrolled origins",
             "space": "el pensadero"
         },
@@ -60480,7 +60480,7 @@ const DBModule = (function () {
             "spread": [
                 15
             ],
-            "url": "/t753#8814",
+            "url": "r8814",
             "simpleTitle": "investigación - enrolled origins",
             "space": "el pensadero"
         },
@@ -60489,7 +60489,7 @@ const DBModule = (function () {
             "spread": [
                 19
             ],
-            "url": "/t753#9069",
+            "url": "r9069",
             "simpleTitle": "investigación - enrolled origins",
             "space": "el pensadero"
         },
@@ -60498,7 +60498,7 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "url": "/t753#9597",
+            "url": "r9597",
             "simpleTitle": "investigación - enrolled origins",
             "space": "el pensadero"
         },
@@ -60507,7 +60507,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t753#9799",
+            "url": "r9799",
             "simpleTitle": "investigación - enrolled origins",
             "space": "el pensadero"
         },
@@ -60516,7 +60516,7 @@ const DBModule = (function () {
             "spread": [
                 3
             ],
-            "url": "/t753#9808",
+            "url": "r9808",
             "simpleTitle": "investigación - enrolled origins",
             "space": "el pensadero"
         },
@@ -60525,7 +60525,7 @@ const DBModule = (function () {
             "spread": [
                 15
             ],
-            "url": "/t753#10057",
+            "url": "r10057",
             "simpleTitle": "investigación - enrolled origins",
             "space": "el pensadero"
         },
@@ -60534,7 +60534,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t753#10303",
+            "url": "r10303",
             "simpleTitle": "investigación - enrolled origins",
             "space": "el pensadero"
         },
@@ -60543,7 +60543,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t753#10306",
+            "url": "r10306",
             "simpleTitle": "investigación - enrolled origins",
             "space": "el pensadero"
         },
@@ -60552,7 +60552,7 @@ const DBModule = (function () {
             "spread": [
                 19
             ],
-            "url": "/t753#10372",
+            "url": "r10372",
             "simpleTitle": "investigación - enrolled origins",
             "space": "el pensadero"
         },
@@ -60561,7 +60561,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t753#10690",
+            "url": "r10690",
             "simpleTitle": "investigación - enrolled origins",
             "space": "el pensadero"
         },
@@ -60570,7 +60570,7 @@ const DBModule = (function () {
             "spread": [
                 13
             ],
-            "url": "/t753#10901",
+            "url": "r10901",
             "simpleTitle": "investigación - enrolled origins",
             "space": "el pensadero"
         },
@@ -60579,7 +60579,7 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "url": "/t753#10908",
+            "url": "r10908",
             "simpleTitle": "investigación - enrolled origins",
             "space": "el pensadero"
         },
@@ -60588,7 +60588,7 @@ const DBModule = (function () {
             "spread": [
                 3
             ],
-            "url": "/t732#8126",
+            "url": "r8126",
             "simpleTitle": "práctica - rescuing our time from the clutches of oblivion",
             "space": "el pensadero"
         },
@@ -60597,7 +60597,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t732#8306",
+            "url": "r8306",
             "simpleTitle": "práctica - rescuing our time from the clutches of oblivion",
             "space": "el pensadero"
         },
@@ -60606,7 +60606,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t732#8702",
+            "url": "r8702",
             "simpleTitle": "práctica - rescuing our time from the clutches of oblivion",
             "space": "el pensadero"
         },
@@ -60615,7 +60615,7 @@ const DBModule = (function () {
             "spread": [
                 6
             ],
-            "url": "/t732#9336",
+            "url": "r9336",
             "simpleTitle": "práctica - rescuing our time from the clutches of oblivion",
             "space": "el pensadero"
         },
@@ -60624,7 +60624,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t732#9835",
+            "url": "r9835",
             "simpleTitle": "práctica - rescuing our time from the clutches of oblivion",
             "space": "el pensadero"
         },
@@ -60633,7 +60633,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t732#14311",
+            "url": "r14311",
             "simpleTitle": "práctica - rescuing our time from the clutches of oblivion",
             "space": "el pensadero"
         },
@@ -60642,7 +60642,7 @@ const DBModule = (function () {
             "spread": [
                 11
             ],
-            "url": "/t796#11089",
+            "url": "r11089",
             "simpleTitle": "dos gotas de agua",
             "space": "el pensadero"
         },
@@ -60651,7 +60651,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t796#11201",
+            "url": "r11201",
             "simpleTitle": "dos gotas de agua",
             "space": "el pensadero"
         },
@@ -60660,7 +60660,7 @@ const DBModule = (function () {
             "spread": [
                 13
             ],
-            "url": "/t698#7858",
+            "url": "r7858",
             "simpleTitle": "evento: quidditch immersion",
             "space": "el pensadero"
         },
@@ -60669,7 +60669,7 @@ const DBModule = (function () {
             "spread": [
                 6
             ],
-            "url": "/t698#8267",
+            "url": "r8267",
             "simpleTitle": "evento: quidditch immersion",
             "space": "el pensadero"
         },
@@ -60678,7 +60678,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t698#8492",
+            "url": "r8492",
             "simpleTitle": "evento: quidditch immersion",
             "space": "el pensadero"
         },
@@ -60687,7 +60687,7 @@ const DBModule = (function () {
             "spread": [
                 5
             ],
-            "url": "/t698#8621",
+            "url": "r8621",
             "simpleTitle": "evento: quidditch immersion",
             "space": "el pensadero"
         },
@@ -60696,7 +60696,7 @@ const DBModule = (function () {
             "spread": [
                 19
             ],
-            "url": "/t698#9433",
+            "url": "r9433",
             "simpleTitle": "evento: quidditch immersion",
             "space": "el pensadero"
         },
@@ -60705,7 +60705,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t698#9592",
+            "url": "r9592",
             "simpleTitle": "evento: quidditch immersion",
             "space": "el pensadero"
         },
@@ -60714,7 +60714,7 @@ const DBModule = (function () {
             "spread": [
                 3
             ],
-            "url": "/t698#10399",
+            "url": "r10399",
             "simpleTitle": "evento: quidditch immersion",
             "space": "el pensadero"
         },
@@ -60723,7 +60723,7 @@ const DBModule = (function () {
             "spread": [
                 9
             ],
-            "url": "/t698#10878",
+            "url": "r10878",
             "simpleTitle": "evento: quidditch immersion",
             "space": "el pensadero"
         },
@@ -60732,7 +60732,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t767#10623",
+            "url": "r10623",
             "simpleTitle": "control",
             "space": "el pensadero"
         },
@@ -60741,7 +60741,7 @@ const DBModule = (function () {
             "spread": [
                 15
             ],
-            "url": "/t767#10740",
+            "url": "r10740",
             "simpleTitle": "control",
             "space": "el pensadero"
         },
@@ -60750,7 +60750,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t759#9005",
+            "url": "r9005",
             "simpleTitle": "hojas caídas",
             "space": "el pensadero"
         },
@@ -60759,7 +60759,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t759#9183",
+            "url": "r9183",
             "simpleTitle": "hojas caídas",
             "space": "el pensadero"
         },
@@ -60768,7 +60768,7 @@ const DBModule = (function () {
             "spread": [
                 5
             ],
-            "url": "/t759#9425",
+            "url": "r9425",
             "simpleTitle": "hojas caídas",
             "space": "el pensadero"
         },
@@ -60777,7 +60777,7 @@ const DBModule = (function () {
             "spread": [
                 19
             ],
-            "url": "/t759#9937",
+            "url": "r9937",
             "simpleTitle": "hojas caídas",
             "space": "el pensadero"
         },
@@ -60786,7 +60786,7 @@ const DBModule = (function () {
             "spread": [
                 6
             ],
-            "url": "/t759#10815",
+            "url": "r10815",
             "simpleTitle": "hojas caídas",
             "space": "el pensadero"
         },
@@ -60796,7 +60796,7 @@ const DBModule = (function () {
                 1,
                 5
             ],
-            "url": "/t830#10505",
+            "url": "r10505",
             "simpleTitle": "clase de runas antiguas: grabado de runas",
             "space": "el pensadero"
         },
@@ -60806,7 +60806,7 @@ const DBModule = (function () {
                 3,
                 14
             ],
-            "url": "/t830#10571",
+            "url": "r10571",
             "simpleTitle": "clase de runas antiguas: grabado de runas",
             "space": "el pensadero"
         },
@@ -60816,7 +60816,7 @@ const DBModule = (function () {
                 5,
                 7
             ],
-            "url": "/t830#10573",
+            "url": "r10573",
             "simpleTitle": "clase de runas antiguas: grabado de runas",
             "space": "el pensadero"
         },
@@ -60826,7 +60826,7 @@ const DBModule = (function () {
                 13,
                 20
             ],
-            "url": "/t830#10604",
+            "url": "r10604",
             "simpleTitle": "clase de runas antiguas: grabado de runas",
             "space": "el pensadero"
         },
@@ -60836,7 +60836,7 @@ const DBModule = (function () {
                 19,
                 11
             ],
-            "url": "/t830#10704",
+            "url": "r10704",
             "simpleTitle": "clase de runas antiguas: grabado de runas",
             "space": "el pensadero"
         },
@@ -60846,7 +60846,7 @@ const DBModule = (function () {
                 8,
                 12
             ],
-            "url": "/t830#10706",
+            "url": "r10706",
             "simpleTitle": "clase de runas antiguas: grabado de runas",
             "space": "el pensadero"
         },
@@ -60856,7 +60856,7 @@ const DBModule = (function () {
                 16,
                 10
             ],
-            "url": "/t830#10718",
+            "url": "r10718",
             "simpleTitle": "clase de runas antiguas: grabado de runas",
             "space": "el pensadero"
         },
@@ -60866,7 +60866,7 @@ const DBModule = (function () {
                 18,
                 9
             ],
-            "url": "/t830#10824",
+            "url": "r10824",
             "simpleTitle": "clase de runas antiguas: grabado de runas",
             "space": "el pensadero"
         },
@@ -60875,7 +60875,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t830#10841",
+            "url": "r10841",
             "simpleTitle": "clase de runas antiguas: grabado de runas",
             "space": "el pensadero"
         },
@@ -60884,7 +60884,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t830#10849",
+            "url": "r10849",
             "simpleTitle": "clase de runas antiguas: grabado de runas",
             "space": "el pensadero"
         },
@@ -60893,7 +60893,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t830#10881",
+            "url": "r10881",
             "simpleTitle": "clase de runas antiguas: grabado de runas",
             "space": "el pensadero"
         },
@@ -60902,7 +60902,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t830#10958",
+            "url": "r10958",
             "simpleTitle": "clase de runas antiguas: grabado de runas",
             "space": "el pensadero"
         },
@@ -60911,7 +60911,7 @@ const DBModule = (function () {
             "spread": [
                 13
             ],
-            "url": "/t830#10960",
+            "url": "r10960",
             "simpleTitle": "clase de runas antiguas: grabado de runas",
             "space": "el pensadero"
         },
@@ -60920,7 +60920,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t830#10988",
+            "url": "r10988",
             "simpleTitle": "clase de runas antiguas: grabado de runas",
             "space": "el pensadero"
         },
@@ -60929,7 +60929,7 @@ const DBModule = (function () {
             "spread": [
                 6
             ],
-            "url": "/t830#11045",
+            "url": "r11045",
             "simpleTitle": "clase de runas antiguas: grabado de runas",
             "space": "el pensadero"
         },
@@ -60938,7 +60938,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t830#11051",
+            "url": "r11051",
             "simpleTitle": "clase de runas antiguas: grabado de runas",
             "space": "el pensadero"
         },
@@ -60947,7 +60947,7 @@ const DBModule = (function () {
             "spread": [
                 18
             ],
-            "url": "/t830#11097",
+            "url": "r11097",
             "simpleTitle": "clase de runas antiguas: grabado de runas",
             "space": "el pensadero"
         },
@@ -60956,7 +60956,7 @@ const DBModule = (function () {
             "spread": [
                 15
             ],
-            "url": "/t830#11099",
+            "url": "r11099",
             "simpleTitle": "clase de runas antiguas: grabado de runas",
             "space": "el pensadero"
         },
@@ -60965,7 +60965,7 @@ const DBModule = (function () {
             "spread": [
                 11
             ],
-            "url": "/t830#11110",
+            "url": "r11110",
             "simpleTitle": "clase de runas antiguas: grabado de runas",
             "space": "el pensadero"
         },
@@ -60975,7 +60975,7 @@ const DBModule = (function () {
                 8,
                 10
             ],
-            "url": "/t830#11421",
+            "url": "r11421",
             "simpleTitle": "clase de runas antiguas: grabado de runas",
             "space": "el pensadero"
         },
@@ -60984,7 +60984,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t830#11588",
+            "url": "r11588",
             "simpleTitle": "clase de runas antiguas: grabado de runas",
             "space": "el pensadero"
         },
@@ -60993,7 +60993,7 @@ const DBModule = (function () {
             "spread": [
                 6
             ],
-            "url": "/t830#11780",
+            "url": "r11780",
             "simpleTitle": "clase de runas antiguas: grabado de runas",
             "space": "el pensadero"
         },
@@ -61002,7 +61002,7 @@ const DBModule = (function () {
             "spread": [
                 6
             ],
-            "url": "/t830#12000",
+            "url": "r12000",
             "simpleTitle": "clase de runas antiguas: grabado de runas",
             "space": "el pensadero"
         },
@@ -61011,7 +61011,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t735#8768",
+            "url": "r8768",
             "simpleTitle": "some birds are not meant to be caged",
             "space": "el pensadero"
         },
@@ -61020,7 +61020,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t735#9169",
+            "url": "r9169",
             "simpleTitle": "some birds are not meant to be caged",
             "space": "el pensadero"
         },
@@ -61029,7 +61029,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t735#11211",
+            "url": "r11211",
             "simpleTitle": "some birds are not meant to be caged",
             "space": "el pensadero"
         },
@@ -61038,7 +61038,7 @@ const DBModule = (function () {
             "spread": [
                 3
             ],
-            "url": "/t710#7839",
+            "url": "r7839",
             "simpleTitle": "servir pociones con distracciones",
             "space": "el pensadero"
         },
@@ -61047,7 +61047,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t702#7349",
+            "url": "r7349",
             "simpleTitle": "duelo #5: neptune vs thaddeus",
             "space": "el pensadero"
         },
@@ -61056,7 +61056,7 @@ const DBModule = (function () {
             "spread": [
                 3
             ],
-            "url": "/t702#7362",
+            "url": "r7362",
             "simpleTitle": "duelo #5: neptune vs thaddeus",
             "space": "el pensadero"
         },
@@ -61066,7 +61066,7 @@ const DBModule = (function () {
                 7,
                 12
             ],
-            "url": "/t702#7365",
+            "url": "r7365",
             "simpleTitle": "duelo #5: neptune vs thaddeus",
             "space": "el pensadero"
         },
@@ -61076,7 +61076,7 @@ const DBModule = (function () {
                 8,
                 11
             ],
-            "url": "/t702#7443",
+            "url": "r7443",
             "simpleTitle": "duelo #5: neptune vs thaddeus",
             "space": "el pensadero"
         },
@@ -61086,7 +61086,7 @@ const DBModule = (function () {
                 4,
                 1
             ],
-            "url": "/t702#7446",
+            "url": "r7446",
             "simpleTitle": "duelo #5: neptune vs thaddeus",
             "space": "el pensadero"
         },
@@ -61096,7 +61096,7 @@ const DBModule = (function () {
                 14,
                 19
             ],
-            "url": "/t702#7449",
+            "url": "r7449",
             "simpleTitle": "duelo #5: neptune vs thaddeus",
             "space": "el pensadero"
         },
@@ -61106,7 +61106,7 @@ const DBModule = (function () {
                 19,
                 15
             ],
-            "url": "/t702#7454",
+            "url": "r7454",
             "simpleTitle": "duelo #5: neptune vs thaddeus",
             "space": "el pensadero"
         },
@@ -61115,7 +61115,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t702#7457",
+            "url": "r7457",
             "simpleTitle": "duelo #5: neptune vs thaddeus",
             "space": "el pensadero"
         },
@@ -61125,7 +61125,7 @@ const DBModule = (function () {
                 17,
                 9
             ],
-            "url": "/t702#7464",
+            "url": "r7464",
             "simpleTitle": "duelo #5: neptune vs thaddeus",
             "space": "el pensadero"
         },
@@ -61135,7 +61135,7 @@ const DBModule = (function () {
                 2,
                 14
             ],
-            "url": "/t702#7861",
+            "url": "r7861",
             "simpleTitle": "duelo #5: neptune vs thaddeus",
             "space": "el pensadero"
         },
@@ -61145,7 +61145,7 @@ const DBModule = (function () {
                 14,
                 18
             ],
-            "url": "/t702#7873",
+            "url": "r7873",
             "simpleTitle": "duelo #5: neptune vs thaddeus",
             "space": "el pensadero"
         },
@@ -61155,7 +61155,7 @@ const DBModule = (function () {
                 5,
                 20
             ],
-            "url": "/t702#8111",
+            "url": "r8111",
             "simpleTitle": "duelo #5: neptune vs thaddeus",
             "space": "el pensadero"
         },
@@ -61165,7 +61165,7 @@ const DBModule = (function () {
                 3,
                 12
             ],
-            "url": "/t702#8115",
+            "url": "r8115",
             "simpleTitle": "duelo #5: neptune vs thaddeus",
             "space": "el pensadero"
         },
@@ -61175,7 +61175,7 @@ const DBModule = (function () {
                 1,
                 15
             ],
-            "url": "/t702#8639",
+            "url": "r8639",
             "simpleTitle": "duelo #5: neptune vs thaddeus",
             "space": "el pensadero"
         },
@@ -61184,7 +61184,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t715#7781",
+            "url": "r7781",
             "simpleTitle": "forever kids",
             "space": "el pensadero"
         },
@@ -61193,7 +61193,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t778#9056",
+            "url": "r9056",
             "simpleTitle": "duelo #6: asteria vs montgomery",
             "space": "el pensadero"
         },
@@ -61202,7 +61202,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t778#9211",
+            "url": "r9211",
             "simpleTitle": "duelo #6: asteria vs montgomery",
             "space": "el pensadero"
         },
@@ -61212,7 +61212,7 @@ const DBModule = (function () {
                 14,
                 10
             ],
-            "url": "/t778#9273",
+            "url": "r9273",
             "simpleTitle": "duelo #6: asteria vs montgomery",
             "space": "el pensadero"
         },
@@ -61222,7 +61222,7 @@ const DBModule = (function () {
                 17,
                 6
             ],
-            "url": "/t778#9492",
+            "url": "r9492",
             "simpleTitle": "duelo #6: asteria vs montgomery",
             "space": "el pensadero"
         },
@@ -61232,7 +61232,7 @@ const DBModule = (function () {
                 8,
                 3
             ],
-            "url": "/t778#9680",
+            "url": "r9680",
             "simpleTitle": "duelo #6: asteria vs montgomery",
             "space": "el pensadero"
         },
@@ -61242,7 +61242,7 @@ const DBModule = (function () {
                 8,
                 8
             ],
-            "url": "/t778#10199",
+            "url": "r10199",
             "simpleTitle": "duelo #6: asteria vs montgomery",
             "space": "el pensadero"
         },
@@ -61252,7 +61252,7 @@ const DBModule = (function () {
                 18,
                 9
             ],
-            "url": "/t778#10286",
+            "url": "r10286",
             "simpleTitle": "duelo #6: asteria vs montgomery",
             "space": "el pensadero"
         },
@@ -61262,7 +61262,7 @@ const DBModule = (function () {
                 13,
                 14
             ],
-            "url": "/t778#11266",
+            "url": "r11266",
             "simpleTitle": "duelo #6: asteria vs montgomery",
             "space": "el pensadero"
         },
@@ -61272,7 +61272,7 @@ const DBModule = (function () {
                 8,
                 12
             ],
-            "url": "/t778#11394",
+            "url": "r11394",
             "simpleTitle": "duelo #6: asteria vs montgomery",
             "space": "el pensadero"
         },
@@ -61281,7 +61281,7 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "url": "/t749#10275",
+            "url": "r10275",
             "simpleTitle": "práctica - souls are dancing",
             "space": "el pensadero"
         },
@@ -61290,7 +61290,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t749#11320",
+            "url": "r11320",
             "simpleTitle": "práctica - souls are dancing",
             "space": "el pensadero"
         },
@@ -61299,7 +61299,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t749#11556",
+            "url": "r11556",
             "simpleTitle": "práctica - souls are dancing",
             "space": "el pensadero"
         },
@@ -61311,7 +61311,7 @@ const DBModule = (function () {
                 19,
                 19
             ],
-            "url": "/t749#11992",
+            "url": "r11992",
             "simpleTitle": "práctica - souls are dancing",
             "space": "el pensadero"
         },
@@ -61323,7 +61323,7 @@ const DBModule = (function () {
                 17,
                 1
             ],
-            "url": "/t749#12283",
+            "url": "r12283",
             "simpleTitle": "práctica - souls are dancing",
             "space": "el pensadero"
         },
@@ -61335,7 +61335,7 @@ const DBModule = (function () {
                 8,
                 20
             ],
-            "url": "/t749#13805",
+            "url": "r13805",
             "simpleTitle": "práctica - souls are dancing",
             "space": "el pensadero"
         },
@@ -61347,7 +61347,7 @@ const DBModule = (function () {
                 18,
                 19
             ],
-            "url": "/t749#14105",
+            "url": "r14105",
             "simpleTitle": "práctica - souls are dancing",
             "space": "el pensadero"
         },
@@ -61359,7 +61359,7 @@ const DBModule = (function () {
                 4,
                 2
             ],
-            "url": "/t749#15185",
+            "url": "r15185",
             "simpleTitle": "práctica - souls are dancing",
             "space": "el pensadero"
         },
@@ -61371,7 +61371,7 @@ const DBModule = (function () {
                 7,
                 16
             ],
-            "url": "/t749#15684",
+            "url": "r15684",
             "simpleTitle": "práctica - souls are dancing",
             "space": "el pensadero"
         },
@@ -61383,7 +61383,7 @@ const DBModule = (function () {
                 6,
                 2
             ],
-            "url": "/t749#15696",
+            "url": "r15696",
             "simpleTitle": "práctica - souls are dancing",
             "space": "el pensadero"
         },
@@ -61392,7 +61392,7 @@ const DBModule = (function () {
             "spread": [
                 13
             ],
-            "url": "/t700#10434",
+            "url": "r10434",
             "simpleTitle": "gone",
             "space": "el pensadero"
         },
@@ -61401,7 +61401,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t690#7189",
+            "url": "r7189",
             "simpleTitle": "evento - uv: elaboración de poción curativa",
             "space": "el pensadero"
         },
@@ -61410,7 +61410,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t690#7224",
+            "url": "r7224",
             "simpleTitle": "evento - uv: elaboración de poción curativa",
             "space": "el pensadero"
         },
@@ -61419,7 +61419,7 @@ const DBModule = (function () {
             "spread": [
                 19
             ],
-            "url": "/t690#7483",
+            "url": "r7483",
             "simpleTitle": "evento - uv: elaboración de poción curativa",
             "space": "el pensadero"
         },
@@ -61428,7 +61428,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t690#7489",
+            "url": "r7489",
             "simpleTitle": "evento - uv: elaboración de poción curativa",
             "space": "el pensadero"
         },
@@ -61437,7 +61437,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t690#7491",
+            "url": "r7491",
             "simpleTitle": "evento - uv: elaboración de poción curativa",
             "space": "el pensadero"
         },
@@ -61446,7 +61446,7 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "url": "/t690#7506",
+            "url": "r7506",
             "simpleTitle": "evento - uv: elaboración de poción curativa",
             "space": "el pensadero"
         },
@@ -61455,7 +61455,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t690#7597",
+            "url": "r7597",
             "simpleTitle": "evento - uv: elaboración de poción curativa",
             "space": "el pensadero"
         },
@@ -61464,7 +61464,7 @@ const DBModule = (function () {
             "spread": [
                 15
             ],
-            "url": "/t690#7600",
+            "url": "r7600",
             "simpleTitle": "evento - uv: elaboración de poción curativa",
             "space": "el pensadero"
         },
@@ -61473,7 +61473,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t690#7615",
+            "url": "r7615",
             "simpleTitle": "evento - uv: elaboración de poción curativa",
             "space": "el pensadero"
         },
@@ -61482,7 +61482,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t690#7631",
+            "url": "r7631",
             "simpleTitle": "evento - uv: elaboración de poción curativa",
             "space": "el pensadero"
         },
@@ -61491,7 +61491,7 @@ const DBModule = (function () {
             "spread": [
                 9
             ],
-            "url": "/t690#7633",
+            "url": "r7633",
             "simpleTitle": "evento - uv: elaboración de poción curativa",
             "space": "el pensadero"
         },
@@ -61500,7 +61500,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t690#7645",
+            "url": "r7645",
             "simpleTitle": "evento - uv: elaboración de poción curativa",
             "space": "el pensadero"
         },
@@ -61509,7 +61509,7 @@ const DBModule = (function () {
             "spread": [
                 9
             ],
-            "url": "/t690#7649",
+            "url": "r7649",
             "simpleTitle": "evento - uv: elaboración de poción curativa",
             "space": "el pensadero"
         },
@@ -61518,7 +61518,7 @@ const DBModule = (function () {
             "spread": [
                 5
             ],
-            "url": "/t690#7679",
+            "url": "r7679",
             "simpleTitle": "evento - uv: elaboración de poción curativa",
             "space": "el pensadero"
         },
@@ -61527,7 +61527,7 @@ const DBModule = (function () {
             "spread": [
                 15
             ],
-            "url": "/t690#7809",
+            "url": "r7809",
             "simpleTitle": "evento - uv: elaboración de poción curativa",
             "space": "el pensadero"
         },
@@ -61536,7 +61536,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t690#7999",
+            "url": "r7999",
             "simpleTitle": "evento - uv: elaboración de poción curativa",
             "space": "el pensadero"
         },
@@ -61545,7 +61545,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t690#8001",
+            "url": "r8001",
             "simpleTitle": "evento - uv: elaboración de poción curativa",
             "space": "el pensadero"
         },
@@ -61554,7 +61554,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t690#8092",
+            "url": "r8092",
             "simpleTitle": "evento - uv: elaboración de poción curativa",
             "space": "el pensadero"
         },
@@ -61563,7 +61563,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t690#8131",
+            "url": "r8131",
             "simpleTitle": "evento - uv: elaboración de poción curativa",
             "space": "el pensadero"
         },
@@ -61572,7 +61572,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t690#8144",
+            "url": "r8144",
             "simpleTitle": "evento - uv: elaboración de poción curativa",
             "space": "el pensadero"
         },
@@ -61581,7 +61581,7 @@ const DBModule = (function () {
             "spread": [
                 19
             ],
-            "url": "/t690#8179",
+            "url": "r8179",
             "simpleTitle": "evento - uv: elaboración de poción curativa",
             "space": "el pensadero"
         },
@@ -61590,7 +61590,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t768#9917",
+            "url": "r9917",
             "simpleTitle": "botón explosivo",
             "space": "el pensadero"
         },
@@ -61599,7 +61599,7 @@ const DBModule = (function () {
             "spread": [
                 13
             ],
-            "url": "/t741#8292",
+            "url": "r8292",
             "simpleTitle": "ashes of victory",
             "space": "el pensadero"
         },
@@ -61608,7 +61608,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t741#8402",
+            "url": "r8402",
             "simpleTitle": "ashes of victory",
             "space": "el pensadero"
         },
@@ -61617,7 +61617,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t741#9946",
+            "url": "r9946",
             "simpleTitle": "ashes of victory",
             "space": "el pensadero"
         },
@@ -61629,7 +61629,7 @@ const DBModule = (function () {
                 2,
                 2
             ],
-            "url": "/t776#9699",
+            "url": "r9699",
             "simpleTitle": "extraños artilugios",
             "space": "el pensadero"
         },
@@ -61638,7 +61638,7 @@ const DBModule = (function () {
             "spread": [
                 3
             ],
-            "url": "/t776#9910",
+            "url": "r9910",
             "simpleTitle": "extraños artilugios",
             "space": "el pensadero"
         },
@@ -61648,7 +61648,7 @@ const DBModule = (function () {
                 5,
                 3
             ],
-            "url": "/t776#9951",
+            "url": "r9951",
             "simpleTitle": "extraños artilugios",
             "space": "el pensadero"
         },
@@ -61657,7 +61657,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t776#9960",
+            "url": "r9960",
             "simpleTitle": "extraños artilugios",
             "space": "el pensadero"
         },
@@ -61667,7 +61667,7 @@ const DBModule = (function () {
                 9,
                 10
             ],
-            "url": "/t776#9963",
+            "url": "r9963",
             "simpleTitle": "extraños artilugios",
             "space": "el pensadero"
         },
@@ -61676,7 +61676,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t776#9978",
+            "url": "r9978",
             "simpleTitle": "extraños artilugios",
             "space": "el pensadero"
         },
@@ -61686,7 +61686,7 @@ const DBModule = (function () {
                 18,
                 6
             ],
-            "url": "/t776#9989",
+            "url": "r9989",
             "simpleTitle": "extraños artilugios",
             "space": "el pensadero"
         },
@@ -61696,7 +61696,7 @@ const DBModule = (function () {
                 9,
                 12
             ],
-            "url": "/t776#10013",
+            "url": "r10013",
             "simpleTitle": "extraños artilugios",
             "space": "el pensadero"
         },
@@ -61706,7 +61706,7 @@ const DBModule = (function () {
                 1,
                 14
             ],
-            "url": "/t776#10022",
+            "url": "r10022",
             "simpleTitle": "extraños artilugios",
             "space": "el pensadero"
         },
@@ -61716,7 +61716,7 @@ const DBModule = (function () {
                 15,
                 2
             ],
-            "url": "/t776#10025",
+            "url": "r10025",
             "simpleTitle": "extraños artilugios",
             "space": "el pensadero"
         },
@@ -61726,7 +61726,7 @@ const DBModule = (function () {
                 6,
                 2
             ],
-            "url": "/t776#10145",
+            "url": "r10145",
             "simpleTitle": "extraños artilugios",
             "space": "el pensadero"
         },
@@ -61736,7 +61736,7 @@ const DBModule = (function () {
                 14,
                 6
             ],
-            "url": "/t776#10591",
+            "url": "r10591",
             "simpleTitle": "extraños artilugios",
             "space": "el pensadero"
         },
@@ -61746,7 +61746,7 @@ const DBModule = (function () {
                 11,
                 19
             ],
-            "url": "/t691#7177",
+            "url": "r7177",
             "simpleTitle": "evento - uv: disipación de la niebla",
             "space": "el pensadero"
         },
@@ -61756,7 +61756,7 @@ const DBModule = (function () {
                 13,
                 9
             ],
-            "url": "/t691#7184",
+            "url": "r7184",
             "simpleTitle": "evento - uv: disipación de la niebla",
             "space": "el pensadero"
         },
@@ -61766,7 +61766,7 @@ const DBModule = (function () {
                 12,
                 20
             ],
-            "url": "/t691#7214",
+            "url": "r7214",
             "simpleTitle": "evento - uv: disipación de la niebla",
             "space": "el pensadero"
         },
@@ -61776,7 +61776,7 @@ const DBModule = (function () {
                 5,
                 20
             ],
-            "url": "/t691#7232",
+            "url": "r7232",
             "simpleTitle": "evento - uv: disipación de la niebla",
             "space": "el pensadero"
         },
@@ -61786,7 +61786,7 @@ const DBModule = (function () {
                 4,
                 17
             ],
-            "url": "/t691#7341",
+            "url": "r7341",
             "simpleTitle": "evento - uv: disipación de la niebla",
             "space": "el pensadero"
         },
@@ -61795,7 +61795,7 @@ const DBModule = (function () {
             "spread": [
                 11
             ],
-            "url": "/t691#7520",
+            "url": "r7520",
             "simpleTitle": "evento - uv: disipación de la niebla",
             "space": "el pensadero"
         },
@@ -61804,7 +61804,7 @@ const DBModule = (function () {
             "spread": [
                 19
             ],
-            "url": "/t691#7621",
+            "url": "r7621",
             "simpleTitle": "evento - uv: disipación de la niebla",
             "space": "el pensadero"
         },
@@ -61813,7 +61813,7 @@ const DBModule = (function () {
             "spread": [
                 6
             ],
-            "url": "/t691#7700",
+            "url": "r7700",
             "simpleTitle": "evento - uv: disipación de la niebla",
             "space": "el pensadero"
         },
@@ -61822,7 +61822,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t691#7879",
+            "url": "r7879",
             "simpleTitle": "evento - uv: disipación de la niebla",
             "space": "el pensadero"
         },
@@ -61831,7 +61831,7 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "url": "/t691#8088",
+            "url": "r8088",
             "simpleTitle": "evento - uv: disipación de la niebla",
             "space": "el pensadero"
         },
@@ -61840,7 +61840,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t691#8097",
+            "url": "r8097",
             "simpleTitle": "evento - uv: disipación de la niebla",
             "space": "el pensadero"
         },
@@ -61849,7 +61849,7 @@ const DBModule = (function () {
             "spread": [
                 5
             ],
-            "url": "/t691#8140",
+            "url": "r8140",
             "simpleTitle": "evento - uv: disipación de la niebla",
             "space": "el pensadero"
         },
@@ -61858,7 +61858,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t691#8150",
+            "url": "r8150",
             "simpleTitle": "evento - uv: disipación de la niebla",
             "space": "el pensadero"
         },
@@ -61867,7 +61867,7 @@ const DBModule = (function () {
             "spread": [
                 6
             ],
-            "url": "/t691#8662",
+            "url": "r8662",
             "simpleTitle": "evento - uv: disipación de la niebla",
             "space": "el pensadero"
         },
@@ -61876,7 +61876,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t691#8670",
+            "url": "r8670",
             "simpleTitle": "evento - uv: disipación de la niebla",
             "space": "el pensadero"
         },
@@ -61885,7 +61885,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t691#8794",
+            "url": "r8794",
             "simpleTitle": "evento - uv: disipación de la niebla",
             "space": "el pensadero"
         },
@@ -61894,7 +61894,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t691#9014",
+            "url": "r9014",
             "simpleTitle": "evento - uv: disipación de la niebla",
             "space": "el pensadero"
         },
@@ -61903,7 +61903,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t691#9188",
+            "url": "r9188",
             "simpleTitle": "evento - uv: disipación de la niebla",
             "space": "el pensadero"
         },
@@ -61912,7 +61912,7 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "url": "/t691#9581",
+            "url": "r9581",
             "simpleTitle": "evento - uv: disipación de la niebla",
             "space": "el pensadero"
         },
@@ -61921,7 +61921,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t691#9594",
+            "url": "r9594",
             "simpleTitle": "evento - uv: disipación de la niebla",
             "space": "el pensadero"
         },
@@ -61930,7 +61930,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t691#9787",
+            "url": "r9787",
             "simpleTitle": "evento - uv: disipación de la niebla",
             "space": "el pensadero"
         },
@@ -61939,7 +61939,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t691#10313",
+            "url": "r10313",
             "simpleTitle": "evento - uv: disipación de la niebla",
             "space": "el pensadero"
         },
@@ -61948,7 +61948,7 @@ const DBModule = (function () {
             "spread": [
                 18
             ],
-            "url": "/t691#10725",
+            "url": "r10725",
             "simpleTitle": "evento - uv: disipación de la niebla",
             "space": "el pensadero"
         },
@@ -61957,7 +61957,7 @@ const DBModule = (function () {
             "spread": [
                 9
             ],
-            "url": "/t691#11008",
+            "url": "r11008",
             "simpleTitle": "evento - uv: disipación de la niebla",
             "space": "el pensadero"
         },
@@ -61966,7 +61966,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t691#11495",
+            "url": "r11495",
             "simpleTitle": "evento - uv: disipación de la niebla",
             "space": "el pensadero"
         },
@@ -61975,7 +61975,7 @@ const DBModule = (function () {
             "spread": [
                 15
             ],
-            "url": "/t691#11527",
+            "url": "r11527",
             "simpleTitle": "evento - uv: disipación de la niebla",
             "space": "el pensadero"
         },
@@ -61984,7 +61984,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t691#11532",
+            "url": "r11532",
             "simpleTitle": "evento - uv: disipación de la niebla",
             "space": "el pensadero"
         },
@@ -61993,7 +61993,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t706#7570",
+            "url": "r7570",
             "simpleTitle": "jugando al escondite",
             "space": "el pensadero"
         },
@@ -62002,7 +62002,7 @@ const DBModule = (function () {
             "spread": [
                 18
             ],
-            "url": "/t706#7913",
+            "url": "r7913",
             "simpleTitle": "jugando al escondite",
             "space": "el pensadero"
         },
@@ -62011,7 +62011,7 @@ const DBModule = (function () {
             "spread": [
                 9
             ],
-            "url": "/t706#8142",
+            "url": "r8142",
             "simpleTitle": "jugando al escondite",
             "space": "el pensadero"
         },
@@ -62020,7 +62020,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t706#12763",
+            "url": "r12763",
             "simpleTitle": "jugando al escondite",
             "space": "el pensadero"
         },
@@ -62029,7 +62029,7 @@ const DBModule = (function () {
             "spread": [
                 6
             ],
-            "url": "/t697#7973",
+            "url": "r7973",
             "simpleTitle": "práctica - poison thorny flowers",
             "space": "el pensadero"
         },
@@ -62038,7 +62038,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t697#8422",
+            "url": "r8422",
             "simpleTitle": "práctica - poison thorny flowers",
             "space": "el pensadero"
         },
@@ -62047,7 +62047,7 @@ const DBModule = (function () {
             "spread": [
                 5
             ],
-            "url": "/t697#8755",
+            "url": "r8755",
             "simpleTitle": "práctica - poison thorny flowers",
             "space": "el pensadero"
         },
@@ -62056,7 +62056,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t697#8879",
+            "url": "r8879",
             "simpleTitle": "práctica - poison thorny flowers",
             "space": "el pensadero"
         },
@@ -62065,7 +62065,7 @@ const DBModule = (function () {
             "spread": [
                 11
             ],
-            "url": "/t697#9086",
+            "url": "r9086",
             "simpleTitle": "práctica - poison thorny flowers",
             "space": "el pensadero"
         },
@@ -62074,7 +62074,7 @@ const DBModule = (function () {
             "spread": [
                 18
             ],
-            "url": "/t697#9762",
+            "url": "r9762",
             "simpleTitle": "práctica - poison thorny flowers",
             "space": "el pensadero"
         },
@@ -62083,7 +62083,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t697#10099",
+            "url": "r10099",
             "simpleTitle": "práctica - poison thorny flowers",
             "space": "el pensadero"
         },
@@ -62092,7 +62092,7 @@ const DBModule = (function () {
             "spread": [
                 9
             ],
-            "url": "/t697#10723",
+            "url": "r10723",
             "simpleTitle": "práctica - poison thorny flowers",
             "space": "el pensadero"
         },
@@ -62101,7 +62101,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t697#10867",
+            "url": "r10867",
             "simpleTitle": "práctica - poison thorny flowers",
             "space": "el pensadero"
         },
@@ -62110,7 +62110,7 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "url": "/t692#7167",
+            "url": "r7167",
             "simpleTitle": "evento - uv: evacuación del ministerio de magia",
             "space": "el pensadero"
         },
@@ -62120,7 +62120,7 @@ const DBModule = (function () {
                 2,
                 9
             ],
-            "url": "/t692#7171",
+            "url": "r7171",
             "simpleTitle": "evento - uv: evacuación del ministerio de magia",
             "space": "el pensadero"
         },
@@ -62130,7 +62130,7 @@ const DBModule = (function () {
                 19,
                 4
             ],
-            "url": "/t692#7182",
+            "url": "r7182",
             "simpleTitle": "evento - uv: evacuación del ministerio de magia",
             "space": "el pensadero"
         },
@@ -62141,7 +62141,7 @@ const DBModule = (function () {
                 16,
                 2
             ],
-            "url": "/t692#7216",
+            "url": "r7216",
             "simpleTitle": "evento - uv: evacuación del ministerio de magia",
             "space": "el pensadero"
         },
@@ -62151,7 +62151,7 @@ const DBModule = (function () {
                 2,
                 10
             ],
-            "url": "/t692#7220",
+            "url": "r7220",
             "simpleTitle": "evento - uv: evacuación del ministerio de magia",
             "space": "el pensadero"
         },
@@ -62162,7 +62162,7 @@ const DBModule = (function () {
                 20,
                 2
             ],
-            "url": "/t692#7222",
+            "url": "r7222",
             "simpleTitle": "evento - uv: evacuación del ministerio de magia",
             "space": "el pensadero"
         },
@@ -62173,7 +62173,7 @@ const DBModule = (function () {
                 2,
                 6
             ],
-            "url": "/t692#7296",
+            "url": "r7296",
             "simpleTitle": "evento - uv: evacuación del ministerio de magia",
             "space": "el pensadero"
         },
@@ -62183,7 +62183,7 @@ const DBModule = (function () {
                 3,
                 20
             ],
-            "url": "/t692#7412",
+            "url": "r7412",
             "simpleTitle": "evento - uv: evacuación del ministerio de magia",
             "space": "el pensadero"
         },
@@ -62193,7 +62193,7 @@ const DBModule = (function () {
                 13,
                 9
             ],
-            "url": "/t692#7428",
+            "url": "r7428",
             "simpleTitle": "evento - uv: evacuación del ministerio de magia",
             "space": "el pensadero"
         },
@@ -62202,7 +62202,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t692#7516",
+            "url": "r7516",
             "simpleTitle": "evento - uv: evacuación del ministerio de magia",
             "space": "el pensadero"
         },
@@ -62212,7 +62212,7 @@ const DBModule = (function () {
                 10,
                 19
             ],
-            "url": "/t692#7552",
+            "url": "r7552",
             "simpleTitle": "evento - uv: evacuación del ministerio de magia",
             "space": "el pensadero"
         },
@@ -62222,7 +62222,7 @@ const DBModule = (function () {
                 19,
                 5
             ],
-            "url": "/t692#7642",
+            "url": "r7642",
             "simpleTitle": "evento - uv: evacuación del ministerio de magia",
             "space": "el pensadero"
         },
@@ -62232,7 +62232,7 @@ const DBModule = (function () {
                 14,
                 18
             ],
-            "url": "/t692#7688",
+            "url": "r7688",
             "simpleTitle": "evento - uv: evacuación del ministerio de magia",
             "space": "el pensadero"
         },
@@ -62242,7 +62242,7 @@ const DBModule = (function () {
                 4,
                 6
             ],
-            "url": "/t692#7863",
+            "url": "r7863",
             "simpleTitle": "evento - uv: evacuación del ministerio de magia",
             "space": "el pensadero"
         },
@@ -62251,7 +62251,7 @@ const DBModule = (function () {
             "spread": [
                 9
             ],
-            "url": "/t692#7865",
+            "url": "r7865",
             "simpleTitle": "evento - uv: evacuación del ministerio de magia",
             "space": "el pensadero"
         },
@@ -62261,7 +62261,7 @@ const DBModule = (function () {
                 19,
                 1
             ],
-            "url": "/t692#8075",
+            "url": "r8075",
             "simpleTitle": "evento - uv: evacuación del ministerio de magia",
             "space": "el pensadero"
         },
@@ -62270,7 +62270,7 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "url": "/t692#8078",
+            "url": "r8078",
             "simpleTitle": "evento - uv: evacuación del ministerio de magia",
             "space": "el pensadero"
         },
@@ -62279,7 +62279,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t692#8086",
+            "url": "r8086",
             "simpleTitle": "evento - uv: evacuación del ministerio de magia",
             "space": "el pensadero"
         },
@@ -62289,7 +62289,7 @@ const DBModule = (function () {
                 13,
                 12
             ],
-            "url": "/t692#8124",
+            "url": "r8124",
             "simpleTitle": "evento - uv: evacuación del ministerio de magia",
             "space": "el pensadero"
         },
@@ -62298,7 +62298,7 @@ const DBModule = (function () {
             "spread": [
                 5
             ],
-            "url": "/t692#8148",
+            "url": "r8148",
             "simpleTitle": "evento - uv: evacuación del ministerio de magia",
             "space": "el pensadero"
         },
@@ -62308,7 +62308,7 @@ const DBModule = (function () {
                 4,
                 16
             ],
-            "url": "/t692#8447",
+            "url": "r8447",
             "simpleTitle": "evento - uv: evacuación del ministerio de magia",
             "space": "el pensadero"
         },
@@ -62318,7 +62318,7 @@ const DBModule = (function () {
                 10,
                 1
             ],
-            "url": "/t692#8478",
+            "url": "r8478",
             "simpleTitle": "evento - uv: evacuación del ministerio de magia",
             "space": "el pensadero"
         },
@@ -62327,7 +62327,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t692#8503",
+            "url": "r8503",
             "simpleTitle": "evento - uv: evacuación del ministerio de magia",
             "space": "el pensadero"
         },
@@ -62337,7 +62337,7 @@ const DBModule = (function () {
                 8,
                 2
             ],
-            "url": "/t692#8627",
+            "url": "r8627",
             "simpleTitle": "evento - uv: evacuación del ministerio de magia",
             "space": "el pensadero"
         },
@@ -62346,7 +62346,7 @@ const DBModule = (function () {
             "spread": [
                 13
             ],
-            "url": "/t692#8674",
+            "url": "r8674",
             "simpleTitle": "evento - uv: evacuación del ministerio de magia",
             "space": "el pensadero"
         },
@@ -62356,7 +62356,7 @@ const DBModule = (function () {
                 16,
                 5
             ],
-            "url": "/t692#8706",
+            "url": "r8706",
             "simpleTitle": "evento - uv: evacuación del ministerio de magia",
             "space": "el pensadero"
         },
@@ -62366,7 +62366,7 @@ const DBModule = (function () {
                 16,
                 15
             ],
-            "url": "/t692#8803",
+            "url": "r8803",
             "simpleTitle": "evento - uv: evacuación del ministerio de magia",
             "space": "el pensadero"
         },
@@ -62375,7 +62375,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t692#8830",
+            "url": "r8830",
             "simpleTitle": "evento - uv: evacuación del ministerio de magia",
             "space": "el pensadero"
         },
@@ -62384,7 +62384,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t692#9039",
+            "url": "r9039",
             "simpleTitle": "evento - uv: evacuación del ministerio de magia",
             "space": "el pensadero"
         },
@@ -62394,7 +62394,7 @@ const DBModule = (function () {
                 13,
                 6
             ],
-            "url": "/t692#9043",
+            "url": "r9043",
             "simpleTitle": "evento - uv: evacuación del ministerio de magia",
             "space": "el pensadero"
         },
@@ -62403,7 +62403,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t692#9238",
+            "url": "r9238",
             "simpleTitle": "evento - uv: evacuación del ministerio de magia",
             "space": "el pensadero"
         },
@@ -62413,7 +62413,7 @@ const DBModule = (function () {
                 20,
                 14
             ],
-            "url": "/t692#9288",
+            "url": "r9288",
             "simpleTitle": "evento - uv: evacuación del ministerio de magia",
             "space": "el pensadero"
         },
@@ -62422,7 +62422,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t692#9461",
+            "url": "r9461",
             "simpleTitle": "evento - uv: evacuación del ministerio de magia",
             "space": "el pensadero"
         },
@@ -62432,7 +62432,7 @@ const DBModule = (function () {
                 3,
                 20
             ],
-            "url": "/t692#9524",
+            "url": "r9524",
             "simpleTitle": "evento - uv: evacuación del ministerio de magia",
             "space": "el pensadero"
         },
@@ -62441,7 +62441,7 @@ const DBModule = (function () {
             "spread": [
                 15
             ],
-            "url": "/t692#9791",
+            "url": "r9791",
             "simpleTitle": "evento - uv: evacuación del ministerio de magia",
             "space": "el pensadero"
         },
@@ -62450,7 +62450,7 @@ const DBModule = (function () {
             "spread": [
                 6
             ],
-            "url": "/t692#9794",
+            "url": "r9794",
             "simpleTitle": "evento - uv: evacuación del ministerio de magia",
             "space": "el pensadero"
         },
@@ -62459,7 +62459,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t692#9848",
+            "url": "r9848",
             "simpleTitle": "evento - uv: evacuación del ministerio de magia",
             "space": "el pensadero"
         },
@@ -62468,7 +62468,7 @@ const DBModule = (function () {
             "spread": [
                 19
             ],
-            "url": "/t692#9875",
+            "url": "r9875",
             "simpleTitle": "evento - uv: evacuación del ministerio de magia",
             "space": "el pensadero"
         },
@@ -62478,7 +62478,7 @@ const DBModule = (function () {
                 10,
                 1
             ],
-            "url": "/t692#9886",
+            "url": "r9886",
             "simpleTitle": "evento - uv: evacuación del ministerio de magia",
             "space": "el pensadero"
         },
@@ -62487,7 +62487,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t692#9934",
+            "url": "r9934",
             "simpleTitle": "evento - uv: evacuación del ministerio de magia",
             "space": "el pensadero"
         },
@@ -62497,7 +62497,7 @@ const DBModule = (function () {
                 17,
                 4
             ],
-            "url": "/t692#10061",
+            "url": "r10061",
             "simpleTitle": "evento - uv: evacuación del ministerio de magia",
             "space": "el pensadero"
         },
@@ -62507,7 +62507,7 @@ const DBModule = (function () {
                 3,
                 6
             ],
-            "url": "/t692#10103",
+            "url": "r10103",
             "simpleTitle": "evento - uv: evacuación del ministerio de magia",
             "space": "el pensadero"
         },
@@ -62517,7 +62517,7 @@ const DBModule = (function () {
                 7,
                 15
             ],
-            "url": "/t692#10676",
+            "url": "r10676",
             "simpleTitle": "evento - uv: evacuación del ministerio de magia",
             "space": "el pensadero"
         },
@@ -62527,7 +62527,7 @@ const DBModule = (function () {
                 9,
                 5
             ],
-            "url": "/t692#10743",
+            "url": "r10743",
             "simpleTitle": "evento - uv: evacuación del ministerio de magia",
             "space": "el pensadero"
         },
@@ -62536,7 +62536,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t692#10839",
+            "url": "r10839",
             "simpleTitle": "evento - uv: evacuación del ministerio de magia",
             "space": "el pensadero"
         },
@@ -62546,7 +62546,7 @@ const DBModule = (function () {
                 1,
                 7
             ],
-            "url": "/t692#10871",
+            "url": "r10871",
             "simpleTitle": "evento - uv: evacuación del ministerio de magia",
             "space": "el pensadero"
         },
@@ -62555,7 +62555,7 @@ const DBModule = (function () {
             "spread": [
                 18
             ],
-            "url": "/t692#10918",
+            "url": "r10918",
             "simpleTitle": "evento - uv: evacuación del ministerio de magia",
             "space": "el pensadero"
         },
@@ -62564,7 +62564,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t692#10981",
+            "url": "r10981",
             "simpleTitle": "evento - uv: evacuación del ministerio de magia",
             "space": "el pensadero"
         },
@@ -62574,7 +62574,7 @@ const DBModule = (function () {
                 5,
                 4
             ],
-            "url": "/t692#11064",
+            "url": "r11064",
             "simpleTitle": "evento - uv: evacuación del ministerio de magia",
             "space": "el pensadero"
         },
@@ -62583,7 +62583,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t692#11066",
+            "url": "r11066",
             "simpleTitle": "evento - uv: evacuación del ministerio de magia",
             "space": "el pensadero"
         },
@@ -62593,7 +62593,7 @@ const DBModule = (function () {
                 15,
                 12
             ],
-            "url": "/t692#11073",
+            "url": "r11073",
             "simpleTitle": "evento - uv: evacuación del ministerio de magia",
             "space": "el pensadero"
         },
@@ -62602,7 +62602,7 @@ const DBModule = (function () {
             "spread": [
                 5
             ],
-            "url": "/t692#11125",
+            "url": "r11125",
             "simpleTitle": "evento - uv: evacuación del ministerio de magia",
             "space": "el pensadero"
         },
@@ -62612,7 +62612,7 @@ const DBModule = (function () {
                 15,
                 11
             ],
-            "url": "/t692#11133",
+            "url": "r11133",
             "simpleTitle": "evento - uv: evacuación del ministerio de magia",
             "space": "el pensadero"
         },
@@ -62621,7 +62621,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t692#11157",
+            "url": "r11157",
             "simpleTitle": "evento - uv: evacuación del ministerio de magia",
             "space": "el pensadero"
         },
@@ -62631,7 +62631,7 @@ const DBModule = (function () {
                 7,
                 9
             ],
-            "url": "/t692#11171",
+            "url": "r11171",
             "simpleTitle": "evento - uv: evacuación del ministerio de magia",
             "space": "el pensadero"
         },
@@ -62641,7 +62641,7 @@ const DBModule = (function () {
                 12,
                 19
             ],
-            "url": "/t692#11443",
+            "url": "r11443",
             "simpleTitle": "evento - uv: evacuación del ministerio de magia",
             "space": "el pensadero"
         },
@@ -62651,7 +62651,7 @@ const DBModule = (function () {
                 11,
                 2
             ],
-            "url": "/t692#11525",
+            "url": "r11525",
             "simpleTitle": "evento - uv: evacuación del ministerio de magia",
             "space": "el pensadero"
         },
@@ -62661,7 +62661,7 @@ const DBModule = (function () {
                 1,
                 6
             ],
-            "url": "/t692#11530",
+            "url": "r11530",
             "simpleTitle": "evento - uv: evacuación del ministerio de magia",
             "space": "el pensadero"
         },
@@ -62671,7 +62671,7 @@ const DBModule = (function () {
                 9,
                 6
             ],
-            "url": "/t692#11647",
+            "url": "r11647",
             "simpleTitle": "evento - uv: evacuación del ministerio de magia",
             "space": "el pensadero"
         },
@@ -62681,7 +62681,7 @@ const DBModule = (function () {
                 13,
                 8
             ],
-            "url": "/t689#7234",
+            "url": "r7234",
             "simpleTitle": "evento - recuperación en hogwarts: grupo transformaciones",
             "space": "el pensadero"
         },
@@ -62691,7 +62691,7 @@ const DBModule = (function () {
                 15,
                 11
             ],
-            "url": "/t689#7277",
+            "url": "r7277",
             "simpleTitle": "evento - recuperación en hogwarts: grupo transformaciones",
             "space": "el pensadero"
         },
@@ -62700,7 +62700,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t689#7309",
+            "url": "r7309",
             "simpleTitle": "evento - recuperación en hogwarts: grupo transformaciones",
             "space": "el pensadero"
         },
@@ -62710,7 +62710,7 @@ const DBModule = (function () {
                 18,
                 2
             ],
-            "url": "/t689#7542",
+            "url": "r7542",
             "simpleTitle": "evento - recuperación en hogwarts: grupo transformaciones",
             "space": "el pensadero"
         },
@@ -62720,7 +62720,7 @@ const DBModule = (function () {
                 15,
                 14
             ],
-            "url": "/t689#7544",
+            "url": "r7544",
             "simpleTitle": "evento - recuperación en hogwarts: grupo transformaciones",
             "space": "el pensadero"
         },
@@ -62730,7 +62730,7 @@ const DBModule = (function () {
                 8,
                 13
             ],
-            "url": "/t689#7548",
+            "url": "r7548",
             "simpleTitle": "evento - recuperación en hogwarts: grupo transformaciones",
             "space": "el pensadero"
         },
@@ -62740,7 +62740,7 @@ const DBModule = (function () {
                 2,
                 11
             ],
-            "url": "/t689#7653",
+            "url": "r7653",
             "simpleTitle": "evento - recuperación en hogwarts: grupo transformaciones",
             "space": "el pensadero"
         },
@@ -62750,7 +62750,7 @@ const DBModule = (function () {
                 5,
                 12
             ],
-            "url": "/t689#7692",
+            "url": "r7692",
             "simpleTitle": "evento - recuperación en hogwarts: grupo transformaciones",
             "space": "el pensadero"
         },
@@ -62760,7 +62760,7 @@ const DBModule = (function () {
                 7,
                 11
             ],
-            "url": "/t689#7722",
+            "url": "r7722",
             "simpleTitle": "evento - recuperación en hogwarts: grupo transformaciones",
             "space": "el pensadero"
         },
@@ -62770,7 +62770,7 @@ const DBModule = (function () {
                 14,
                 12
             ],
-            "url": "/t689#7726",
+            "url": "r7726",
             "simpleTitle": "evento - recuperación en hogwarts: grupo transformaciones",
             "space": "el pensadero"
         },
@@ -62780,7 +62780,7 @@ const DBModule = (function () {
                 13,
                 7
             ],
-            "url": "/t689#7919",
+            "url": "r7919",
             "simpleTitle": "evento - recuperación en hogwarts: grupo transformaciones",
             "space": "el pensadero"
         },
@@ -62790,7 +62790,7 @@ const DBModule = (function () {
                 4,
                 4
             ],
-            "url": "/t689#7924",
+            "url": "r7924",
             "simpleTitle": "evento - recuperación en hogwarts: grupo transformaciones",
             "space": "el pensadero"
         },
@@ -62800,7 +62800,7 @@ const DBModule = (function () {
                 20,
                 11
             ],
-            "url": "/t689#8137",
+            "url": "r8137",
             "simpleTitle": "evento - recuperación en hogwarts: grupo transformaciones",
             "space": "el pensadero"
         },
@@ -62810,7 +62810,7 @@ const DBModule = (function () {
                 6,
                 20
             ],
-            "url": "/t689#8146",
+            "url": "r8146",
             "simpleTitle": "evento - recuperación en hogwarts: grupo transformaciones",
             "space": "el pensadero"
         },
@@ -62820,7 +62820,7 @@ const DBModule = (function () {
                 18,
                 6
             ],
-            "url": "/t689#8712",
+            "url": "r8712",
             "simpleTitle": "evento - recuperación en hogwarts: grupo transformaciones",
             "space": "el pensadero"
         },
@@ -62830,7 +62830,7 @@ const DBModule = (function () {
                 8,
                 12
             ],
-            "url": "/t689#8737",
+            "url": "r8737",
             "simpleTitle": "evento - recuperación en hogwarts: grupo transformaciones",
             "space": "el pensadero"
         },
@@ -62840,7 +62840,7 @@ const DBModule = (function () {
                 16,
                 9
             ],
-            "url": "/t689#9012",
+            "url": "r9012",
             "simpleTitle": "evento - recuperación en hogwarts: grupo transformaciones",
             "space": "el pensadero"
         },
@@ -62850,7 +62850,7 @@ const DBModule = (function () {
                 15,
                 1
             ],
-            "url": "/t689#9103",
+            "url": "r9103",
             "simpleTitle": "evento - recuperación en hogwarts: grupo transformaciones",
             "space": "el pensadero"
         },
@@ -62860,7 +62860,7 @@ const DBModule = (function () {
                 9,
                 18
             ],
-            "url": "/t689#9108",
+            "url": "r9108",
             "simpleTitle": "evento - recuperación en hogwarts: grupo transformaciones",
             "space": "el pensadero"
         },
@@ -62870,7 +62870,7 @@ const DBModule = (function () {
                 16,
                 13
             ],
-            "url": "/t689#9302",
+            "url": "r9302",
             "simpleTitle": "evento - recuperación en hogwarts: grupo transformaciones",
             "space": "el pensadero"
         },
@@ -62880,7 +62880,7 @@ const DBModule = (function () {
                 15,
                 15
             ],
-            "url": "/t689#9600",
+            "url": "r9600",
             "simpleTitle": "evento - recuperación en hogwarts: grupo transformaciones",
             "space": "el pensadero"
         },
@@ -62890,7 +62890,7 @@ const DBModule = (function () {
                 1,
                 1
             ],
-            "url": "/t689#9745",
+            "url": "r9745",
             "simpleTitle": "evento - recuperación en hogwarts: grupo transformaciones",
             "space": "el pensadero"
         },
@@ -62900,7 +62900,7 @@ const DBModule = (function () {
                 10,
                 13
             ],
-            "url": "/t689#9866",
+            "url": "r9866",
             "simpleTitle": "evento - recuperación en hogwarts: grupo transformaciones",
             "space": "el pensadero"
         },
@@ -62910,7 +62910,7 @@ const DBModule = (function () {
                 4,
                 4
             ],
-            "url": "/t689#10164",
+            "url": "r10164",
             "simpleTitle": "evento - recuperación en hogwarts: grupo transformaciones",
             "space": "el pensadero"
         },
@@ -62920,7 +62920,7 @@ const DBModule = (function () {
                 11,
                 14
             ],
-            "url": "/t689#10356",
+            "url": "r10356",
             "simpleTitle": "evento - recuperación en hogwarts: grupo transformaciones",
             "space": "el pensadero"
         },
@@ -62930,7 +62930,7 @@ const DBModule = (function () {
                 1,
                 18
             ],
-            "url": "/t689#10374",
+            "url": "r10374",
             "simpleTitle": "evento - recuperación en hogwarts: grupo transformaciones",
             "space": "el pensadero"
         },
@@ -62940,7 +62940,7 @@ const DBModule = (function () {
                 9,
                 20
             ],
-            "url": "/t689#10387",
+            "url": "r10387",
             "simpleTitle": "evento - recuperación en hogwarts: grupo transformaciones",
             "space": "el pensadero"
         },
@@ -62950,7 +62950,7 @@ const DBModule = (function () {
                 19,
                 4
             ],
-            "url": "/t689#10636",
+            "url": "r10636",
             "simpleTitle": "evento - recuperación en hogwarts: grupo transformaciones",
             "space": "el pensadero"
         },
@@ -62959,7 +62959,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t689#10640",
+            "url": "r10640",
             "simpleTitle": "evento - recuperación en hogwarts: grupo transformaciones",
             "space": "el pensadero"
         },
@@ -62968,7 +62968,7 @@ const DBModule = (function () {
             "spread": [
                 6
             ],
-            "url": "/t688#7163",
+            "url": "r7163",
             "simpleTitle": "evento - recuperación en hogwarts: grupo pociones",
             "space": "el pensadero"
         },
@@ -62977,7 +62977,7 @@ const DBModule = (function () {
             "spread": [
                 13
             ],
-            "url": "/t688#7245",
+            "url": "r7245",
             "simpleTitle": "evento - recuperación en hogwarts: grupo pociones",
             "space": "el pensadero"
         },
@@ -62986,7 +62986,7 @@ const DBModule = (function () {
             "spread": [
                 19
             ],
-            "url": "/t688#7436",
+            "url": "r7436",
             "simpleTitle": "evento - recuperación en hogwarts: grupo pociones",
             "space": "el pensadero"
         },
@@ -62995,7 +62995,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t688#7493",
+            "url": "r7493",
             "simpleTitle": "evento - recuperación en hogwarts: grupo pociones",
             "space": "el pensadero"
         },
@@ -63004,7 +63004,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t688#7527",
+            "url": "r7527",
             "simpleTitle": "evento - recuperación en hogwarts: grupo pociones",
             "space": "el pensadero"
         },
@@ -63013,7 +63013,7 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "url": "/t688#7625",
+            "url": "r7625",
             "simpleTitle": "evento - recuperación en hogwarts: grupo pociones",
             "space": "el pensadero"
         },
@@ -63022,7 +63022,7 @@ const DBModule = (function () {
             "spread": [
                 15
             ],
-            "url": "/t688#7716",
+            "url": "r7716",
             "simpleTitle": "evento - recuperación en hogwarts: grupo pociones",
             "space": "el pensadero"
         },
@@ -63031,7 +63031,7 @@ const DBModule = (function () {
             "spread": [
                 15
             ],
-            "url": "/t688#7851",
+            "url": "r7851",
             "simpleTitle": "evento - recuperación en hogwarts: grupo pociones",
             "space": "el pensadero"
         },
@@ -63040,7 +63040,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t688#7895",
+            "url": "r7895",
             "simpleTitle": "evento - recuperación en hogwarts: grupo pociones",
             "space": "el pensadero"
         },
@@ -63049,7 +63049,7 @@ const DBModule = (function () {
             "spread": [
                 9
             ],
-            "url": "/t688#8308",
+            "url": "r8308",
             "simpleTitle": "evento - recuperación en hogwarts: grupo pociones",
             "space": "el pensadero"
         },
@@ -63058,7 +63058,7 @@ const DBModule = (function () {
             "spread": [
                 6
             ],
-            "url": "/t688#8511",
+            "url": "r8511",
             "simpleTitle": "evento - recuperación en hogwarts: grupo pociones",
             "space": "el pensadero"
         },
@@ -63067,7 +63067,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t688#8585",
+            "url": "r8585",
             "simpleTitle": "evento - recuperación en hogwarts: grupo pociones",
             "space": "el pensadero"
         },
@@ -63076,7 +63076,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t688#8877",
+            "url": "r8877",
             "simpleTitle": "evento - recuperación en hogwarts: grupo pociones",
             "space": "el pensadero"
         },
@@ -63085,7 +63085,7 @@ const DBModule = (function () {
             "spread": [
                 15
             ],
-            "url": "/t688#9209",
+            "url": "r9209",
             "simpleTitle": "evento - recuperación en hogwarts: grupo pociones",
             "space": "el pensadero"
         },
@@ -63094,7 +63094,7 @@ const DBModule = (function () {
             "spread": [
                 18
             ],
-            "url": "/t688#9531",
+            "url": "r9531",
             "simpleTitle": "evento - recuperación en hogwarts: grupo pociones",
             "space": "el pensadero"
         },
@@ -63103,7 +63103,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t688#9583",
+            "url": "r9583",
             "simpleTitle": "evento - recuperación en hogwarts: grupo pociones",
             "space": "el pensadero"
         },
@@ -63112,7 +63112,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t688#9781",
+            "url": "r9781",
             "simpleTitle": "evento - recuperación en hogwarts: grupo pociones",
             "space": "el pensadero"
         },
@@ -63121,7 +63121,7 @@ const DBModule = (function () {
             "spread": [
                 9
             ],
-            "url": "/t688#10150",
+            "url": "r10150",
             "simpleTitle": "evento - recuperación en hogwarts: grupo pociones",
             "space": "el pensadero"
         },
@@ -63130,7 +63130,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t688#10154",
+            "url": "r10154",
             "simpleTitle": "evento - recuperación en hogwarts: grupo pociones",
             "space": "el pensadero"
         },
@@ -63139,7 +63139,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t688#10246",
+            "url": "r10246",
             "simpleTitle": "evento - recuperación en hogwarts: grupo pociones",
             "space": "el pensadero"
         },
@@ -63148,7 +63148,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t688#10404",
+            "url": "r10404",
             "simpleTitle": "evento - recuperación en hogwarts: grupo pociones",
             "space": "el pensadero"
         },
@@ -63157,7 +63157,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t688#10755",
+            "url": "r10755",
             "simpleTitle": "evento - recuperación en hogwarts: grupo pociones",
             "space": "el pensadero"
         },
@@ -63166,7 +63166,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t688#10889",
+            "url": "r10889",
             "simpleTitle": "evento - recuperación en hogwarts: grupo pociones",
             "space": "el pensadero"
         },
@@ -63175,7 +63175,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t688#11004",
+            "url": "r11004",
             "simpleTitle": "evento - recuperación en hogwarts: grupo pociones",
             "space": "el pensadero"
         },
@@ -63184,7 +63184,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t688#11188",
+            "url": "r11188",
             "simpleTitle": "evento - recuperación en hogwarts: grupo pociones",
             "space": "el pensadero"
         },
@@ -63193,7 +63193,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t688#11537",
+            "url": "r11537",
             "simpleTitle": "evento - recuperación en hogwarts: grupo pociones",
             "space": "el pensadero"
         },
@@ -63202,7 +63202,7 @@ const DBModule = (function () {
             "spread": [
                 19
             ],
-            "url": "/t688#11635",
+            "url": "r11635",
             "simpleTitle": "evento - recuperación en hogwarts: grupo pociones",
             "space": "el pensadero"
         },
@@ -63211,7 +63211,7 @@ const DBModule = (function () {
             "spread": [
                 9
             ],
-            "url": "/t688#11835",
+            "url": "r11835",
             "simpleTitle": "evento - recuperación en hogwarts: grupo pociones",
             "space": "el pensadero"
         },
@@ -63220,7 +63220,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t688#11998",
+            "url": "r11998",
             "simpleTitle": "evento - recuperación en hogwarts: grupo pociones",
             "space": "el pensadero"
         },
@@ -63229,7 +63229,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t688#12057",
+            "url": "r12057",
             "simpleTitle": "evento - recuperación en hogwarts: grupo pociones",
             "space": "el pensadero"
         },
@@ -63238,7 +63238,7 @@ const DBModule = (function () {
             "spread": [
                 3
             ],
-            "url": "/t688#12062",
+            "url": "r12062",
             "simpleTitle": "evento - recuperación en hogwarts: grupo pociones",
             "space": "el pensadero"
         },
@@ -63247,7 +63247,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t688#12256",
+            "url": "r12256",
             "simpleTitle": "evento - recuperación en hogwarts: grupo pociones",
             "space": "el pensadero"
         },
@@ -63256,7 +63256,7 @@ const DBModule = (function () {
             "spread": [
                 3
             ],
-            "url": "/t688#12313",
+            "url": "r12313",
             "simpleTitle": "evento - recuperación en hogwarts: grupo pociones",
             "space": "el pensadero"
         },
@@ -63265,7 +63265,7 @@ const DBModule = (function () {
             "spread": [
                 11
             ],
-            "url": "/t688#12893",
+            "url": "r12893",
             "simpleTitle": "evento - recuperación en hogwarts: grupo pociones",
             "space": "el pensadero"
         },
@@ -63274,7 +63274,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t688#12917",
+            "url": "r12917",
             "simpleTitle": "evento - recuperación en hogwarts: grupo pociones",
             "space": "el pensadero"
         },
@@ -63283,7 +63283,7 @@ const DBModule = (function () {
             "spread": [
                 18
             ],
-            "url": "/t688#13071",
+            "url": "r13071",
             "simpleTitle": "evento - recuperación en hogwarts: grupo pociones",
             "space": "el pensadero"
         },
@@ -63292,7 +63292,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t688#13209",
+            "url": "r13209",
             "simpleTitle": "evento - recuperación en hogwarts: grupo pociones",
             "space": "el pensadero"
         },
@@ -63301,7 +63301,7 @@ const DBModule = (function () {
             "spread": [
                 18
             ],
-            "url": "/t687#7174",
+            "url": "r7174",
             "simpleTitle": "evento - recuperación en hogwarts: grupo herbología",
             "space": "el pensadero"
         },
@@ -63310,7 +63310,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t687#7180",
+            "url": "r7180",
             "simpleTitle": "evento - recuperación en hogwarts: grupo herbología",
             "space": "el pensadero"
         },
@@ -63319,7 +63319,7 @@ const DBModule = (function () {
             "spread": [
                 13
             ],
-            "url": "/t687#7204",
+            "url": "r7204",
             "simpleTitle": "evento - recuperación en hogwarts: grupo herbología",
             "space": "el pensadero"
         },
@@ -63328,7 +63328,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t687#7502",
+            "url": "r7502",
             "simpleTitle": "evento - recuperación en hogwarts: grupo herbología",
             "space": "el pensadero"
         },
@@ -63337,7 +63337,7 @@ const DBModule = (function () {
             "spread": [
                 3
             ],
-            "url": "/t687#7640",
+            "url": "r7640",
             "simpleTitle": "evento - recuperación en hogwarts: grupo herbología",
             "space": "el pensadero"
         },
@@ -63346,7 +63346,7 @@ const DBModule = (function () {
             "spread": [
                 11
             ],
-            "url": "/t687#7684",
+            "url": "r7684",
             "simpleTitle": "evento - recuperación en hogwarts: grupo herbología",
             "space": "el pensadero"
         },
@@ -63355,7 +63355,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t687#7855",
+            "url": "r7855",
             "simpleTitle": "evento - recuperación en hogwarts: grupo herbología",
             "space": "el pensadero"
         },
@@ -63364,7 +63364,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t687#8032",
+            "url": "r8032",
             "simpleTitle": "evento - recuperación en hogwarts: grupo herbología",
             "space": "el pensadero"
         },
@@ -63374,7 +63374,7 @@ const DBModule = (function () {
                 12,
                 10
             ],
-            "url": "/t687#8065",
+            "url": "r8065",
             "simpleTitle": "evento - recuperación en hogwarts: grupo herbología",
             "space": "el pensadero"
         },
@@ -63383,7 +63383,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t687#8104",
+            "url": "r8104",
             "simpleTitle": "evento - recuperación en hogwarts: grupo herbología",
             "space": "el pensadero"
         },
@@ -63392,7 +63392,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t687#8443",
+            "url": "r8443",
             "simpleTitle": "evento - recuperación en hogwarts: grupo herbología",
             "space": "el pensadero"
         },
@@ -63402,7 +63402,7 @@ const DBModule = (function () {
                 13,
                 12
             ],
-            "url": "/t687#8700",
+            "url": "r8700",
             "simpleTitle": "evento - recuperación en hogwarts: grupo herbología",
             "space": "el pensadero"
         },
@@ -63412,7 +63412,7 @@ const DBModule = (function () {
                 8,
                 17
             ],
-            "url": "/t687#9205",
+            "url": "r9205",
             "simpleTitle": "evento - recuperación en hogwarts: grupo herbología",
             "space": "el pensadero"
         },
@@ -63422,7 +63422,7 @@ const DBModule = (function () {
                 8,
                 3
             ],
-            "url": "/t687#9353",
+            "url": "r9353",
             "simpleTitle": "evento - recuperación en hogwarts: grupo herbología",
             "space": "el pensadero"
         },
@@ -63432,7 +63432,7 @@ const DBModule = (function () {
                 12,
                 10
             ],
-            "url": "/t687#9408",
+            "url": "r9408",
             "simpleTitle": "evento - recuperación en hogwarts: grupo herbología",
             "space": "el pensadero"
         },
@@ -63442,7 +63442,7 @@ const DBModule = (function () {
                 12,
                 16
             ],
-            "url": "/t687#9539",
+            "url": "r9539",
             "simpleTitle": "evento - recuperación en hogwarts: grupo herbología",
             "space": "el pensadero"
         },
@@ -63452,7 +63452,7 @@ const DBModule = (function () {
                 4,
                 13
             ],
-            "url": "/t687#9588",
+            "url": "r9588",
             "simpleTitle": "evento - recuperación en hogwarts: grupo herbología",
             "space": "el pensadero"
         },
@@ -63462,7 +63462,7 @@ const DBModule = (function () {
                 18,
                 3
             ],
-            "url": "/t687#9748",
+            "url": "r9748",
             "simpleTitle": "evento - recuperación en hogwarts: grupo herbología",
             "space": "el pensadero"
         },
@@ -63472,7 +63472,7 @@ const DBModule = (function () {
                 6,
                 11
             ],
-            "url": "/t687#9784",
+            "url": "r9784",
             "simpleTitle": "evento - recuperación en hogwarts: grupo herbología",
             "space": "el pensadero"
         },
@@ -63482,7 +63482,7 @@ const DBModule = (function () {
                 13,
                 8
             ],
-            "url": "/t686#7199",
+            "url": "r7199",
             "simpleTitle": "evento - recuperación en hogwarts: grupo encantamientos",
             "space": "el pensadero"
         },
@@ -63491,7 +63491,7 @@ const DBModule = (function () {
             "spread": [
                 15
             ],
-            "url": "/t686#7202",
+            "url": "r7202",
             "simpleTitle": "evento - recuperación en hogwarts: grupo encantamientos",
             "space": "el pensadero"
         },
@@ -63500,7 +63500,7 @@ const DBModule = (function () {
             "spread": [
                 11
             ],
-            "url": "/t686#7209",
+            "url": "r7209",
             "simpleTitle": "evento - recuperación en hogwarts: grupo encantamientos",
             "space": "el pensadero"
         },
@@ -63509,7 +63509,7 @@ const DBModule = (function () {
             "spread": [
                 15
             ],
-            "url": "/t686#7218",
+            "url": "r7218",
             "simpleTitle": "evento - recuperación en hogwarts: grupo encantamientos",
             "space": "el pensadero"
         },
@@ -63518,7 +63518,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t686#7229",
+            "url": "r7229",
             "simpleTitle": "evento - recuperación en hogwarts: grupo encantamientos",
             "space": "el pensadero"
         },
@@ -63527,7 +63527,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t686#7522",
+            "url": "r7522",
             "simpleTitle": "evento - recuperación en hogwarts: grupo encantamientos",
             "space": "el pensadero"
         },
@@ -63536,7 +63536,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t686#7608",
+            "url": "r7608",
             "simpleTitle": "evento - recuperación en hogwarts: grupo encantamientos",
             "space": "el pensadero"
         },
@@ -63545,7 +63545,7 @@ const DBModule = (function () {
             "spread": [
                 5
             ],
-            "url": "/t686#7922",
+            "url": "r7922",
             "simpleTitle": "evento - recuperación en hogwarts: grupo encantamientos",
             "space": "el pensadero"
         },
@@ -63554,7 +63554,7 @@ const DBModule = (function () {
             "spread": [
                 5
             ],
-            "url": "/t686#8109",
+            "url": "r8109",
             "simpleTitle": "evento - recuperación en hogwarts: grupo encantamientos",
             "space": "el pensadero"
         },
@@ -63563,7 +63563,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t686#8158",
+            "url": "r8158",
             "simpleTitle": "evento - recuperación en hogwarts: grupo encantamientos",
             "space": "el pensadero"
         },
@@ -63572,7 +63572,7 @@ const DBModule = (function () {
             "spread": [
                 6
             ],
-            "url": "/t686#8232",
+            "url": "r8232",
             "simpleTitle": "evento - recuperación en hogwarts: grupo encantamientos",
             "space": "el pensadero"
         },
@@ -63581,7 +63581,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t686#8284",
+            "url": "r8284",
             "simpleTitle": "evento - recuperación en hogwarts: grupo encantamientos",
             "space": "el pensadero"
         },
@@ -63590,7 +63590,7 @@ const DBModule = (function () {
             "spread": [
                 5
             ],
-            "url": "/t686#8526",
+            "url": "r8526",
             "simpleTitle": "evento - recuperación en hogwarts: grupo encantamientos",
             "space": "el pensadero"
         },
@@ -63599,7 +63599,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t686#9130",
+            "url": "r9130",
             "simpleTitle": "evento - recuperación en hogwarts: grupo encantamientos",
             "space": "el pensadero"
         },
@@ -63608,7 +63608,7 @@ const DBModule = (function () {
             "spread": [
                 3
             ],
-            "url": "/t686#9317",
+            "url": "r9317",
             "simpleTitle": "evento - recuperación en hogwarts: grupo encantamientos",
             "space": "el pensadero"
         },
@@ -63617,7 +63617,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t686#9345",
+            "url": "r9345",
             "simpleTitle": "evento - recuperación en hogwarts: grupo encantamientos",
             "space": "el pensadero"
         },
@@ -63626,7 +63626,7 @@ const DBModule = (function () {
             "spread": [
                 5
             ],
-            "url": "/t686#9361",
+            "url": "r9361",
             "simpleTitle": "evento - recuperación en hogwarts: grupo encantamientos",
             "space": "el pensadero"
         },
@@ -63635,7 +63635,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t686#9796",
+            "url": "r9796",
             "simpleTitle": "evento - recuperación en hogwarts: grupo encantamientos",
             "space": "el pensadero"
         },
@@ -63644,7 +63644,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t686#9811",
+            "url": "r9811",
             "simpleTitle": "evento - recuperación en hogwarts: grupo encantamientos",
             "space": "el pensadero"
         },
@@ -63654,7 +63654,7 @@ const DBModule = (function () {
                 13,
                 11
             ],
-            "url": "/t686#11447",
+            "url": "r11447",
             "simpleTitle": "evento - recuperación en hogwarts: grupo encantamientos",
             "space": "el pensadero"
         },
@@ -63666,7 +63666,7 @@ const DBModule = (function () {
                 10,
                 16
             ],
-            "url": "/t742#9232",
+            "url": "r9232",
             "simpleTitle": "ghostbusters",
             "space": "el pensadero"
         },
@@ -63678,7 +63678,7 @@ const DBModule = (function () {
                 5,
                 12
             ],
-            "url": "/t742#10715",
+            "url": "r10715",
             "simpleTitle": "ghostbusters",
             "space": "el pensadero"
         },
@@ -63690,7 +63690,7 @@ const DBModule = (function () {
                 20,
                 17
             ],
-            "url": "/t742#10734",
+            "url": "r10734",
             "simpleTitle": "ghostbusters",
             "space": "el pensadero"
         },
@@ -63702,7 +63702,7 @@ const DBModule = (function () {
                 12,
                 15
             ],
-            "url": "/t742#14251",
+            "url": "r14251",
             "simpleTitle": "ghostbusters",
             "space": "el pensadero"
         },
@@ -63714,7 +63714,7 @@ const DBModule = (function () {
                 5,
                 17
             ],
-            "url": "/t742#15820",
+            "url": "r15820",
             "simpleTitle": "ghostbusters",
             "space": "el pensadero"
         },
@@ -63726,7 +63726,7 @@ const DBModule = (function () {
                 15,
                 4
             ],
-            "url": "/t742#15889",
+            "url": "r15889",
             "simpleTitle": "ghostbusters",
             "space": "el pensadero"
         },
@@ -63738,7 +63738,7 @@ const DBModule = (function () {
                 5,
                 12
             ],
-            "url": "/t742#15905",
+            "url": "r15905",
             "simpleTitle": "ghostbusters",
             "space": "el pensadero"
         },
@@ -63747,7 +63747,7 @@ const DBModule = (function () {
             "spread": [
                 11
             ],
-            "url": "/t743#10030",
+            "url": "r10030",
             "simpleTitle": "ni hansel ni gretel",
             "space": "el pensadero"
         },
@@ -63756,7 +63756,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t743#10507",
+            "url": "r10507",
             "simpleTitle": "ni hansel ni gretel",
             "space": "el pensadero"
         },
@@ -63765,7 +63765,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t743#10702",
+            "url": "r10702",
             "simpleTitle": "ni hansel ni gretel",
             "space": "el pensadero"
         },
@@ -63774,7 +63774,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t743#11815",
+            "url": "r11815",
             "simpleTitle": "ni hansel ni gretel",
             "space": "el pensadero"
         },
@@ -63783,7 +63783,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t743#12468",
+            "url": "r12468",
             "simpleTitle": "ni hansel ni gretel",
             "space": "el pensadero"
         },
@@ -63793,7 +63793,7 @@ const DBModule = (function () {
                 4,
                 8
             ],
-            "url": "/t664#6555",
+            "url": "r6555",
             "simpleTitle": "misión - frozen sunflowers",
             "space": "el pensadero"
         },
@@ -63802,7 +63802,7 @@ const DBModule = (function () {
             "spread": [
                 6
             ],
-            "url": "/t664#6577",
+            "url": "r6577",
             "simpleTitle": "misión - frozen sunflowers",
             "space": "el pensadero"
         },
@@ -63811,7 +63811,7 @@ const DBModule = (function () {
             "spread": [
                 9
             ],
-            "url": "/t664#6585",
+            "url": "r6585",
             "simpleTitle": "misión - frozen sunflowers",
             "space": "el pensadero"
         },
@@ -63820,7 +63820,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t664#6614",
+            "url": "r6614",
             "simpleTitle": "misión - frozen sunflowers",
             "space": "el pensadero"
         },
@@ -63829,7 +63829,7 @@ const DBModule = (function () {
             "spread": [
                 11
             ],
-            "url": "/t664#6652",
+            "url": "r6652",
             "simpleTitle": "misión - frozen sunflowers",
             "space": "el pensadero"
         },
@@ -63838,7 +63838,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t664#6654",
+            "url": "r6654",
             "simpleTitle": "misión - frozen sunflowers",
             "space": "el pensadero"
         },
@@ -63850,7 +63850,7 @@ const DBModule = (function () {
                 8,
                 16
             ],
-            "url": "/t664#6673",
+            "url": "r6673",
             "simpleTitle": "misión - frozen sunflowers",
             "space": "el pensadero"
         },
@@ -63862,7 +63862,7 @@ const DBModule = (function () {
                 6,
                 10
             ],
-            "url": "/t664#6863",
+            "url": "r6863",
             "simpleTitle": "misión - frozen sunflowers",
             "space": "el pensadero"
         },
@@ -63874,7 +63874,7 @@ const DBModule = (function () {
                 3,
                 13
             ],
-            "url": "/t664#7068",
+            "url": "r7068",
             "simpleTitle": "misión - frozen sunflowers",
             "space": "el pensadero"
         },
@@ -63886,7 +63886,7 @@ const DBModule = (function () {
                 9,
                 9
             ],
-            "url": "/t664#7073",
+            "url": "r7073",
             "simpleTitle": "misión - frozen sunflowers",
             "space": "el pensadero"
         },
@@ -63898,7 +63898,7 @@ const DBModule = (function () {
                 1,
                 10
             ],
-            "url": "/t664#7097",
+            "url": "r7097",
             "simpleTitle": "misión - frozen sunflowers",
             "space": "el pensadero"
         },
@@ -63910,7 +63910,7 @@ const DBModule = (function () {
                 4,
                 10
             ],
-            "url": "/t664#7165",
+            "url": "r7165",
             "simpleTitle": "misión - frozen sunflowers",
             "space": "el pensadero"
         },
@@ -63922,7 +63922,7 @@ const DBModule = (function () {
                 6,
                 6
             ],
-            "url": "/t664#7282",
+            "url": "r7282",
             "simpleTitle": "misión - frozen sunflowers",
             "space": "el pensadero"
         },
@@ -63934,7 +63934,7 @@ const DBModule = (function () {
                 18,
                 8
             ],
-            "url": "/t664#7315",
+            "url": "r7315",
             "simpleTitle": "misión - frozen sunflowers",
             "space": "el pensadero"
         },
@@ -63944,7 +63944,7 @@ const DBModule = (function () {
                 2,
                 19
             ],
-            "url": "/t664#7373",
+            "url": "r7373",
             "simpleTitle": "misión - frozen sunflowers",
             "space": "el pensadero"
         },
@@ -63954,7 +63954,7 @@ const DBModule = (function () {
                 6,
                 18
             ],
-            "url": "/t664#7405",
+            "url": "r7405",
             "simpleTitle": "misión - frozen sunflowers",
             "space": "el pensadero"
         },
@@ -63966,7 +63966,7 @@ const DBModule = (function () {
                 13,
                 3
             ],
-            "url": "/t664#7470",
+            "url": "r7470",
             "simpleTitle": "misión - frozen sunflowers",
             "space": "el pensadero"
         },
@@ -63978,7 +63978,7 @@ const DBModule = (function () {
                 3,
                 16
             ],
-            "url": "/t664#7474",
+            "url": "r7474",
             "simpleTitle": "misión - frozen sunflowers",
             "space": "el pensadero"
         },
@@ -63990,7 +63990,7 @@ const DBModule = (function () {
                 4,
                 10
             ],
-            "url": "/t664#7480",
+            "url": "r7480",
             "simpleTitle": "misión - frozen sunflowers",
             "space": "el pensadero"
         },
@@ -64002,7 +64002,7 @@ const DBModule = (function () {
                 14,
                 12
             ],
-            "url": "/t664#7495",
+            "url": "r7495",
             "simpleTitle": "misión - frozen sunflowers",
             "space": "el pensadero"
         },
@@ -64014,7 +64014,7 @@ const DBModule = (function () {
                 16,
                 4
             ],
-            "url": "/t664#7731",
+            "url": "r7731",
             "simpleTitle": "misión - frozen sunflowers",
             "space": "el pensadero"
         },
@@ -64026,7 +64026,7 @@ const DBModule = (function () {
                 8,
                 12
             ],
-            "url": "/t664#7778",
+            "url": "r7778",
             "simpleTitle": "misión - frozen sunflowers",
             "space": "el pensadero"
         },
@@ -64038,7 +64038,7 @@ const DBModule = (function () {
                 11,
                 1
             ],
-            "url": "/t664#7795",
+            "url": "r7795",
             "simpleTitle": "misión - frozen sunflowers",
             "space": "el pensadero"
         },
@@ -64048,7 +64048,7 @@ const DBModule = (function () {
                 16,
                 12
             ],
-            "url": "/t664#7881",
+            "url": "r7881",
             "simpleTitle": "misión - frozen sunflowers",
             "space": "el pensadero"
         },
@@ -64057,7 +64057,7 @@ const DBModule = (function () {
             "spread": [
                 6
             ],
-            "url": "/t664#8008",
+            "url": "r8008",
             "simpleTitle": "misión - frozen sunflowers",
             "space": "el pensadero"
         },
@@ -64066,7 +64066,7 @@ const DBModule = (function () {
             "spread": [
                 5
             ],
-            "url": "/t664#8040",
+            "url": "r8040",
             "simpleTitle": "misión - frozen sunflowers",
             "space": "el pensadero"
         },
@@ -64078,7 +64078,7 @@ const DBModule = (function () {
                 1,
                 7
             ],
-            "url": "/t664#8070",
+            "url": "r8070",
             "simpleTitle": "misión - frozen sunflowers",
             "space": "el pensadero"
         },
@@ -64090,7 +64090,7 @@ const DBModule = (function () {
                 12,
                 1
             ],
-            "url": "/t664#8082",
+            "url": "r8082",
             "simpleTitle": "misión - frozen sunflowers",
             "space": "el pensadero"
         },
@@ -64099,7 +64099,7 @@ const DBModule = (function () {
             "spread": [
                 15
             ],
-            "url": "/t664#8230",
+            "url": "r8230",
             "simpleTitle": "misión - frozen sunflowers",
             "space": "el pensadero"
         },
@@ -64108,7 +64108,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t664#8715",
+            "url": "r8715",
             "simpleTitle": "misión - frozen sunflowers",
             "space": "el pensadero"
         },
@@ -64117,7 +64117,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t664#8760",
+            "url": "r8760",
             "simpleTitle": "misión - frozen sunflowers",
             "space": "el pensadero"
         },
@@ -64127,7 +64127,7 @@ const DBModule = (function () {
                 18,
                 6
             ],
-            "url": "/t664#8778",
+            "url": "r8778",
             "simpleTitle": "misión - frozen sunflowers",
             "space": "el pensadero"
         },
@@ -64136,7 +64136,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t664#8820",
+            "url": "r8820",
             "simpleTitle": "misión - frozen sunflowers",
             "space": "el pensadero"
         },
@@ -64145,7 +64145,7 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "url": "/t664#8828",
+            "url": "r8828",
             "simpleTitle": "misión - frozen sunflowers",
             "space": "el pensadero"
         },
@@ -64154,7 +64154,7 @@ const DBModule = (function () {
             "spread": [
                 11
             ],
-            "url": "/t664#8842",
+            "url": "r8842",
             "simpleTitle": "misión - frozen sunflowers",
             "space": "el pensadero"
         },
@@ -64163,7 +64163,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t664#8928",
+            "url": "r8928",
             "simpleTitle": "misión - frozen sunflowers",
             "space": "el pensadero"
         },
@@ -64172,7 +64172,7 @@ const DBModule = (function () {
             "spread": [
                 5
             ],
-            "url": "/t664#8933",
+            "url": "r8933",
             "simpleTitle": "misión - frozen sunflowers",
             "space": "el pensadero"
         },
@@ -64181,7 +64181,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t664#9299",
+            "url": "r9299",
             "simpleTitle": "misión - frozen sunflowers",
             "space": "el pensadero"
         },
@@ -64190,7 +64190,7 @@ const DBModule = (function () {
             "spread": [
                 18
             ],
-            "url": "/t664#9339",
+            "url": "r9339",
             "simpleTitle": "misión - frozen sunflowers",
             "space": "el pensadero"
         },
@@ -64199,7 +64199,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t665#6646",
+            "url": "r6646",
             "simpleTitle": "misión: unveiling the unseen",
             "space": "el pensadero"
         },
@@ -64208,7 +64208,7 @@ const DBModule = (function () {
             "spread": [
                 19
             ],
-            "url": "/t665#6789",
+            "url": "r6789",
             "simpleTitle": "misión: unveiling the unseen",
             "space": "el pensadero"
         },
@@ -64217,7 +64217,7 @@ const DBModule = (function () {
             "spread": [
                 13
             ],
-            "url": "/t665#6945",
+            "url": "r6945",
             "simpleTitle": "misión: unveiling the unseen",
             "space": "el pensadero"
         },
@@ -64226,7 +64226,7 @@ const DBModule = (function () {
             "spread": [
                 15
             ],
-            "url": "/t665#7419",
+            "url": "r7419",
             "simpleTitle": "misión: unveiling the unseen",
             "space": "el pensadero"
         },
@@ -64235,7 +64235,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t665#7513",
+            "url": "r7513",
             "simpleTitle": "misión: unveiling the unseen",
             "space": "el pensadero"
         },
@@ -64244,7 +64244,7 @@ const DBModule = (function () {
             "spread": [
                 13
             ],
-            "url": "/t665#7525",
+            "url": "r7525",
             "simpleTitle": "misión: unveiling the unseen",
             "space": "el pensadero"
         },
@@ -64253,7 +64253,7 @@ const DBModule = (function () {
             "spread": [
                 13
             ],
-            "url": "/t665#7579",
+            "url": "r7579",
             "simpleTitle": "misión: unveiling the unseen",
             "space": "el pensadero"
         },
@@ -64262,7 +64262,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t665#7612",
+            "url": "r7612",
             "simpleTitle": "misión: unveiling the unseen",
             "space": "el pensadero"
         },
@@ -64271,7 +64271,7 @@ const DBModule = (function () {
             "spread": [
                 19
             ],
-            "url": "/t665#7623",
+            "url": "r7623",
             "simpleTitle": "misión: unveiling the unseen",
             "space": "el pensadero"
         },
@@ -64280,7 +64280,7 @@ const DBModule = (function () {
             "spread": [
                 18
             ],
-            "url": "/t665#7657",
+            "url": "r7657",
             "simpleTitle": "misión: unveiling the unseen",
             "space": "el pensadero"
         },
@@ -64289,7 +64289,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t665#7694",
+            "url": "r7694",
             "simpleTitle": "misión: unveiling the unseen",
             "space": "el pensadero"
         },
@@ -64298,7 +64298,7 @@ const DBModule = (function () {
             "spread": [
                 19
             ],
-            "url": "/t665#7884",
+            "url": "r7884",
             "simpleTitle": "misión: unveiling the unseen",
             "space": "el pensadero"
         },
@@ -64307,7 +64307,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t665#7889",
+            "url": "r7889",
             "simpleTitle": "misión: unveiling the unseen",
             "space": "el pensadero"
         },
@@ -64316,7 +64316,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t665#8119",
+            "url": "r8119",
             "simpleTitle": "misión: unveiling the unseen",
             "space": "el pensadero"
         },
@@ -64325,7 +64325,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t665#8187",
+            "url": "r8187",
             "simpleTitle": "misión: unveiling the unseen",
             "space": "el pensadero"
         },
@@ -64334,7 +64334,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t665#8196",
+            "url": "r8196",
             "simpleTitle": "misión: unveiling the unseen",
             "space": "el pensadero"
         },
@@ -64343,7 +64343,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t665#8242",
+            "url": "r8242",
             "simpleTitle": "misión: unveiling the unseen",
             "space": "el pensadero"
         },
@@ -64352,7 +64352,7 @@ const DBModule = (function () {
             "spread": [
                 11
             ],
-            "url": "/t665#8501",
+            "url": "r8501",
             "simpleTitle": "misión: unveiling the unseen",
             "space": "el pensadero"
         },
@@ -64361,7 +64361,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t665#8546",
+            "url": "r8546",
             "simpleTitle": "misión: unveiling the unseen",
             "space": "el pensadero"
         },
@@ -64370,7 +64370,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t665#8920",
+            "url": "r8920",
             "simpleTitle": "misión: unveiling the unseen",
             "space": "el pensadero"
         },
@@ -64380,7 +64380,7 @@ const DBModule = (function () {
                 5,
                 6
             ],
-            "url": "/t665#8925",
+            "url": "r8925",
             "simpleTitle": "misión: unveiling the unseen",
             "space": "el pensadero"
         },
@@ -64389,7 +64389,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t665#9240",
+            "url": "r9240",
             "simpleTitle": "misión: unveiling the unseen",
             "space": "el pensadero"
         },
@@ -64399,7 +64399,7 @@ const DBModule = (function () {
                 14,
                 17
             ],
-            "url": "/t665#9248",
+            "url": "r9248",
             "simpleTitle": "misión: unveiling the unseen",
             "space": "el pensadero"
         },
@@ -64409,7 +64409,7 @@ const DBModule = (function () {
                 14,
                 2
             ],
-            "url": "/t665#9334",
+            "url": "r9334",
             "simpleTitle": "misión: unveiling the unseen",
             "space": "el pensadero"
         },
@@ -64419,7 +64419,7 @@ const DBModule = (function () {
                 2,
                 19
             ],
-            "url": "/t665#9343",
+            "url": "r9343",
             "simpleTitle": "misión: unveiling the unseen",
             "space": "el pensadero"
         },
@@ -64429,7 +64429,7 @@ const DBModule = (function () {
                 19,
                 4
             ],
-            "url": "/t665#9466",
+            "url": "r9466",
             "simpleTitle": "misión: unveiling the unseen",
             "space": "el pensadero"
         },
@@ -64439,7 +64439,7 @@ const DBModule = (function () {
                 6,
                 17
             ],
-            "url": "/t665#9711",
+            "url": "r9711",
             "simpleTitle": "misión: unveiling the unseen",
             "space": "el pensadero"
         },
@@ -64449,7 +64449,7 @@ const DBModule = (function () {
                 2,
                 20
             ],
-            "url": "/t665#9828",
+            "url": "r9828",
             "simpleTitle": "misión: unveiling the unseen",
             "space": "el pensadero"
         },
@@ -64459,7 +64459,7 @@ const DBModule = (function () {
                 16,
                 10
             ],
-            "url": "/t665#10008",
+            "url": "r10008",
             "simpleTitle": "misión: unveiling the unseen",
             "space": "el pensadero"
         },
@@ -64469,7 +64469,7 @@ const DBModule = (function () {
                 10,
                 10
             ],
-            "url": "/t665#10033",
+            "url": "r10033",
             "simpleTitle": "misión: unveiling the unseen",
             "space": "el pensadero"
         },
@@ -64478,7 +64478,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t665#10070",
+            "url": "r10070",
             "simpleTitle": "misión: unveiling the unseen",
             "space": "el pensadero"
         },
@@ -64488,7 +64488,7 @@ const DBModule = (function () {
                 2,
                 12
             ],
-            "url": "/t665#10501",
+            "url": "r10501",
             "simpleTitle": "misión: unveiling the unseen",
             "space": "el pensadero"
         },
@@ -64497,7 +64497,7 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "url": "/t665#10687",
+            "url": "r10687",
             "simpleTitle": "misión: unveiling the unseen",
             "space": "el pensadero"
         },
@@ -64507,7 +64507,7 @@ const DBModule = (function () {
                 14,
                 9
             ],
-            "url": "/t665#10738",
+            "url": "r10738",
             "simpleTitle": "misión: unveiling the unseen",
             "space": "el pensadero"
         },
@@ -64517,7 +64517,7 @@ const DBModule = (function () {
                 17,
                 1
             ],
-            "url": "/t665#11012",
+            "url": "r11012",
             "simpleTitle": "misión: unveiling the unseen",
             "space": "el pensadero"
         },
@@ -64526,7 +64526,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t665#11068",
+            "url": "r11068",
             "simpleTitle": "misión: unveiling the unseen",
             "space": "el pensadero"
         },
@@ -64536,7 +64536,7 @@ const DBModule = (function () {
                 13,
                 2
             ],
-            "url": "/t665#11082",
+            "url": "r11082",
             "simpleTitle": "misión: unveiling the unseen",
             "space": "el pensadero"
         },
@@ -64545,7 +64545,7 @@ const DBModule = (function () {
             "spread": [
                 15
             ],
-            "url": "/t665#11521",
+            "url": "r11521",
             "simpleTitle": "misión: unveiling the unseen",
             "space": "el pensadero"
         },
@@ -64554,7 +64554,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t665#11673",
+            "url": "r11673",
             "simpleTitle": "misión: unveiling the unseen",
             "space": "el pensadero"
         },
@@ -64563,7 +64563,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t665#11869",
+            "url": "r11869",
             "simpleTitle": "misión: unveiling the unseen",
             "space": "el pensadero"
         },
@@ -64573,7 +64573,7 @@ const DBModule = (function () {
                 2,
                 1
             ],
-            "url": "/t665#11908",
+            "url": "r11908",
             "simpleTitle": "misión: unveiling the unseen",
             "space": "el pensadero"
         },
@@ -64583,7 +64583,7 @@ const DBModule = (function () {
                 19,
                 7
             ],
-            "url": "/t665#12219",
+            "url": "r12219",
             "simpleTitle": "misión: unveiling the unseen",
             "space": "el pensadero"
         },
@@ -64593,7 +64593,7 @@ const DBModule = (function () {
                 5,
                 6
             ],
-            "url": "/t665#12319",
+            "url": "r12319",
             "simpleTitle": "misión: unveiling the unseen",
             "space": "el pensadero"
         },
@@ -64603,7 +64603,7 @@ const DBModule = (function () {
                 14,
                 5
             ],
-            "url": "/t665#12431",
+            "url": "r12431",
             "simpleTitle": "misión: unveiling the unseen",
             "space": "el pensadero"
         },
@@ -64613,7 +64613,7 @@ const DBModule = (function () {
                 3,
                 16
             ],
-            "url": "/t665#12448",
+            "url": "r12448",
             "simpleTitle": "misión: unveiling the unseen",
             "space": "el pensadero"
         },
@@ -64623,7 +64623,7 @@ const DBModule = (function () {
                 18,
                 17
             ],
-            "url": "/t665#12517",
+            "url": "r12517",
             "simpleTitle": "misión: unveiling the unseen",
             "space": "el pensadero"
         },
@@ -64632,7 +64632,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t665#12759",
+            "url": "r12759",
             "simpleTitle": "misión: unveiling the unseen",
             "space": "el pensadero"
         },
@@ -64642,7 +64642,7 @@ const DBModule = (function () {
                 6,
                 12
             ],
-            "url": "/t665#12920",
+            "url": "r12920",
             "simpleTitle": "misión: unveiling the unseen",
             "space": "el pensadero"
         },
@@ -64651,7 +64651,7 @@ const DBModule = (function () {
             "spread": [
                 9
             ],
-            "url": "/t658#6553",
+            "url": "r6553",
             "simpleTitle": "investigación - ryu's breath",
             "space": "el pensadero"
         },
@@ -64660,7 +64660,7 @@ const DBModule = (function () {
             "spread": [
                 5
             ],
-            "url": "/t658#6574",
+            "url": "r6574",
             "simpleTitle": "investigación - ryu's breath",
             "space": "el pensadero"
         },
@@ -64669,7 +64669,7 @@ const DBModule = (function () {
             "spread": [
                 9
             ],
-            "url": "/t658#6579",
+            "url": "r6579",
             "simpleTitle": "investigación - ryu's breath",
             "space": "el pensadero"
         },
@@ -64679,7 +64679,7 @@ const DBModule = (function () {
                 12,
                 4
             ],
-            "url": "/t658#6605",
+            "url": "r6605",
             "simpleTitle": "investigación - ryu's breath",
             "space": "el pensadero"
         },
@@ -64689,7 +64689,7 @@ const DBModule = (function () {
                 18,
                 6
             ],
-            "url": "/t658#6642",
+            "url": "r6642",
             "simpleTitle": "investigación - ryu's breath",
             "space": "el pensadero"
         },
@@ -64699,7 +64699,7 @@ const DBModule = (function () {
                 2,
                 7
             ],
-            "url": "/t658#6644",
+            "url": "r6644",
             "simpleTitle": "investigación - ryu's breath",
             "space": "el pensadero"
         },
@@ -64709,7 +64709,7 @@ const DBModule = (function () {
                 4,
                 14
             ],
-            "url": "/t658#6792",
+            "url": "r6792",
             "simpleTitle": "investigación - ryu's breath",
             "space": "el pensadero"
         },
@@ -64718,7 +64718,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t658#7063",
+            "url": "r7063",
             "simpleTitle": "investigación - ryu's breath",
             "space": "el pensadero"
         },
@@ -64728,7 +64728,7 @@ const DBModule = (function () {
                 9,
                 9
             ],
-            "url": "/t658#7070",
+            "url": "r7070",
             "simpleTitle": "investigación - ryu's breath",
             "space": "el pensadero"
         },
@@ -64737,7 +64737,7 @@ const DBModule = (function () {
             "spread": [
                 5
             ],
-            "url": "/t658#7087",
+            "url": "r7087",
             "simpleTitle": "investigación - ryu's breath",
             "space": "el pensadero"
         },
@@ -64746,7 +64746,7 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "url": "/t658#7287",
+            "url": "r7287",
             "simpleTitle": "investigación - ryu's breath",
             "space": "el pensadero"
         },
@@ -64756,7 +64756,7 @@ const DBModule = (function () {
                 8,
                 14
             ],
-            "url": "/t658#7317",
+            "url": "r7317",
             "simpleTitle": "investigación - ryu's breath",
             "space": "el pensadero"
         },
@@ -64766,7 +64766,7 @@ const DBModule = (function () {
                 19,
                 12
             ],
-            "url": "/t658#7380",
+            "url": "r7380",
             "simpleTitle": "investigación - ryu's breath",
             "space": "el pensadero"
         },
@@ -64775,7 +64775,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t658#7955",
+            "url": "r7955",
             "simpleTitle": "investigación - ryu's breath",
             "space": "el pensadero"
         },
@@ -64785,7 +64785,7 @@ const DBModule = (function () {
                 15,
                 6
             ],
-            "url": "/t658#7960",
+            "url": "r7960",
             "simpleTitle": "investigación - ryu's breath",
             "space": "el pensadero"
         },
@@ -64794,7 +64794,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t658#8311",
+            "url": "r8311",
             "simpleTitle": "investigación - ryu's breath",
             "space": "el pensadero"
         },
@@ -64803,7 +64803,7 @@ const DBModule = (function () {
             "spread": [
                 18
             ],
-            "url": "/t658#8717",
+            "url": "r8717",
             "simpleTitle": "investigación - ryu's breath",
             "space": "el pensadero"
         },
@@ -64812,7 +64812,7 @@ const DBModule = (function () {
             "spread": [
                 11
             ],
-            "url": "/t676#6732",
+            "url": "r6732",
             "simpleTitle": "práctica - timeless memories",
             "space": "el pensadero"
         },
@@ -64821,7 +64821,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t676#6734",
+            "url": "r6734",
             "simpleTitle": "práctica - timeless memories",
             "space": "el pensadero"
         },
@@ -64830,7 +64830,7 @@ const DBModule = (function () {
             "spread": [
                 5
             ],
-            "url": "/t676#6739",
+            "url": "r6739",
             "simpleTitle": "práctica - timeless memories",
             "space": "el pensadero"
         },
@@ -64839,7 +64839,7 @@ const DBModule = (function () {
             "spread": [
                 3
             ],
-            "url": "/t676#6744",
+            "url": "r6744",
             "simpleTitle": "práctica - timeless memories",
             "space": "el pensadero"
         },
@@ -64848,7 +64848,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t676#6749",
+            "url": "r6749",
             "simpleTitle": "práctica - timeless memories",
             "space": "el pensadero"
         },
@@ -64857,7 +64857,7 @@ const DBModule = (function () {
             "spread": [
                 11
             ],
-            "url": "/t661#6486",
+            "url": "r6486",
             "simpleTitle": "investigación - full of emptiness",
             "space": "el pensadero"
         },
@@ -64866,7 +64866,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t661#6510",
+            "url": "r6510",
             "simpleTitle": "investigación - full of emptiness",
             "space": "el pensadero"
         },
@@ -64875,7 +64875,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t661#6593",
+            "url": "r6593",
             "simpleTitle": "investigación - full of emptiness",
             "space": "el pensadero"
         },
@@ -64884,7 +64884,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t661#6648",
+            "url": "r6648",
             "simpleTitle": "investigación - full of emptiness",
             "space": "el pensadero"
         },
@@ -64893,7 +64893,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t661#6873",
+            "url": "r6873",
             "simpleTitle": "investigación - full of emptiness",
             "space": "el pensadero"
         },
@@ -64902,7 +64902,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t661#7033",
+            "url": "r7033",
             "simpleTitle": "investigación - full of emptiness",
             "space": "el pensadero"
         },
@@ -64911,7 +64911,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t661#7038",
+            "url": "r7038",
             "simpleTitle": "investigación - full of emptiness",
             "space": "el pensadero"
         },
@@ -64920,7 +64920,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t661#7040",
+            "url": "r7040",
             "simpleTitle": "investigación - full of emptiness",
             "space": "el pensadero"
         },
@@ -64929,7 +64929,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t661#7197",
+            "url": "r7197",
             "simpleTitle": "investigación - full of emptiness",
             "space": "el pensadero"
         },
@@ -64939,7 +64939,7 @@ const DBModule = (function () {
                 11,
                 15
             ],
-            "url": "/t661#7359",
+            "url": "r7359",
             "simpleTitle": "investigación - full of emptiness",
             "space": "el pensadero"
         },
@@ -64949,7 +64949,7 @@ const DBModule = (function () {
                 8,
                 18
             ],
-            "url": "/t661#7385",
+            "url": "r7385",
             "simpleTitle": "investigación - full of emptiness",
             "space": "el pensadero"
         },
@@ -64958,7 +64958,7 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "url": "/t661#7508",
+            "url": "r7508",
             "simpleTitle": "investigación - full of emptiness",
             "space": "el pensadero"
         },
@@ -64967,7 +64967,7 @@ const DBModule = (function () {
             "spread": [
                 15
             ],
-            "url": "/t661#7562",
+            "url": "r7562",
             "simpleTitle": "investigación - full of emptiness",
             "space": "el pensadero"
         },
@@ -64977,7 +64977,7 @@ const DBModule = (function () {
                 14,
                 20
             ],
-            "url": "/t661#7582",
+            "url": "r7582",
             "simpleTitle": "investigación - full of emptiness",
             "space": "el pensadero"
         },
@@ -64986,7 +64986,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t661#7610",
+            "url": "r7610",
             "simpleTitle": "investigación - full of emptiness",
             "space": "el pensadero"
         },
@@ -64995,7 +64995,7 @@ const DBModule = (function () {
             "spread": [
                 6
             ],
-            "url": "/t661#7655",
+            "url": "r7655",
             "simpleTitle": "investigación - full of emptiness",
             "space": "el pensadero"
         },
@@ -65004,7 +65004,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t661#7814",
+            "url": "r7814",
             "simpleTitle": "investigación - full of emptiness",
             "space": "el pensadero"
         },
@@ -65013,7 +65013,7 @@ const DBModule = (function () {
             "spread": [
                 15
             ],
-            "url": "/t661#7886",
+            "url": "r7886",
             "simpleTitle": "investigación - full of emptiness",
             "space": "el pensadero"
         },
@@ -65022,7 +65022,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t661#8080",
+            "url": "r8080",
             "simpleTitle": "investigación - full of emptiness",
             "space": "el pensadero"
         },
@@ -65031,7 +65031,7 @@ const DBModule = (function () {
             "spread": [
                 3
             ],
-            "url": "/t659#6494",
+            "url": "r6494",
             "simpleTitle": "investigación - ember pass",
             "space": "el pensadero"
         },
@@ -65040,7 +65040,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t659#6587",
+            "url": "r6587",
             "simpleTitle": "investigación - ember pass",
             "space": "el pensadero"
         },
@@ -65049,7 +65049,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t659#6590",
+            "url": "r6590",
             "simpleTitle": "investigación - ember pass",
             "space": "el pensadero"
         },
@@ -65058,7 +65058,7 @@ const DBModule = (function () {
             "spread": [
                 18
             ],
-            "url": "/t659#6610",
+            "url": "r6610",
             "simpleTitle": "investigación - ember pass",
             "space": "el pensadero"
         },
@@ -65067,7 +65067,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t659#6627",
+            "url": "r6627",
             "simpleTitle": "investigación - ember pass",
             "space": "el pensadero"
         },
@@ -65076,7 +65076,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t659#6772",
+            "url": "r6772",
             "simpleTitle": "investigación - ember pass",
             "space": "el pensadero"
         },
@@ -65085,7 +65085,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t659#6935",
+            "url": "r6935",
             "simpleTitle": "investigación - ember pass",
             "space": "el pensadero"
         },
@@ -65094,7 +65094,7 @@ const DBModule = (function () {
             "spread": [
                 5
             ],
-            "url": "/t659#6950",
+            "url": "r6950",
             "simpleTitle": "investigación - ember pass",
             "space": "el pensadero"
         },
@@ -65103,7 +65103,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t659#6955",
+            "url": "r6955",
             "simpleTitle": "investigación - ember pass",
             "space": "el pensadero"
         },
@@ -65112,7 +65112,7 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "url": "/t659#7053",
+            "url": "r7053",
             "simpleTitle": "investigación - ember pass",
             "space": "el pensadero"
         },
@@ -65121,7 +65121,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t659#7106",
+            "url": "r7106",
             "simpleTitle": "investigación - ember pass",
             "space": "el pensadero"
         },
@@ -65130,7 +65130,7 @@ const DBModule = (function () {
             "spread": [
                 3
             ],
-            "url": "/t659#7123",
+            "url": "r7123",
             "simpleTitle": "investigación - ember pass",
             "space": "el pensadero"
         },
@@ -65139,7 +65139,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t659#7169",
+            "url": "r7169",
             "simpleTitle": "investigación - ember pass",
             "space": "el pensadero"
         },
@@ -65148,7 +65148,7 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "url": "/t659#7272",
+            "url": "r7272",
             "simpleTitle": "investigación - ember pass",
             "space": "el pensadero"
         },
@@ -65157,7 +65157,7 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "url": "/t659#7320",
+            "url": "r7320",
             "simpleTitle": "investigación - ember pass",
             "space": "el pensadero"
         },
@@ -65166,7 +65166,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t659#7403",
+            "url": "r7403",
             "simpleTitle": "investigación - ember pass",
             "space": "el pensadero"
         },
@@ -65175,7 +65175,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t674#7268",
+            "url": "r7268",
             "simpleTitle": "broken arrows in the dark",
             "space": "el pensadero"
         },
@@ -65185,7 +65185,7 @@ const DBModule = (function () {
                 12,
                 20
             ],
-            "url": "/t674#7460",
+            "url": "r7460",
             "simpleTitle": "broken arrows in the dark",
             "space": "el pensadero"
         },
@@ -65194,7 +65194,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t674#7822",
+            "url": "r7822",
             "simpleTitle": "broken arrows in the dark",
             "space": "el pensadero"
         },
@@ -65203,7 +65203,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t674#9971",
+            "url": "r9971",
             "simpleTitle": "broken arrows in the dark",
             "space": "el pensadero"
         },
@@ -65212,7 +65212,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t674#11752",
+            "url": "r11752",
             "simpleTitle": "broken arrows in the dark",
             "space": "el pensadero"
         },
@@ -65221,7 +65221,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t663#7564",
+            "url": "r7564",
             "simpleTitle": "interrogatorio - distorted memories",
             "space": "el pensadero"
         },
@@ -65230,7 +65230,7 @@ const DBModule = (function () {
             "spread": [
                 5
             ],
-            "url": "/t663#7682",
+            "url": "r7682",
             "simpleTitle": "interrogatorio - distorted memories",
             "space": "el pensadero"
         },
@@ -65239,7 +65239,7 @@ const DBModule = (function () {
             "spread": [
                 15
             ],
-            "url": "/t663#8204",
+            "url": "r8204",
             "simpleTitle": "interrogatorio - distorted memories",
             "space": "el pensadero"
         },
@@ -65248,7 +65248,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t643#6090",
+            "url": "r6090",
             "simpleTitle": "investigación - the withered pot",
             "space": "el pensadero"
         },
@@ -65257,7 +65257,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t643#6231",
+            "url": "r6231",
             "simpleTitle": "investigación - the withered pot",
             "space": "el pensadero"
         },
@@ -65266,7 +65266,7 @@ const DBModule = (function () {
             "spread": [
                 18
             ],
-            "url": "/t643#6256",
+            "url": "r6256",
             "simpleTitle": "investigación - the withered pot",
             "space": "el pensadero"
         },
@@ -65275,7 +65275,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t643#6307",
+            "url": "r6307",
             "simpleTitle": "investigación - the withered pot",
             "space": "el pensadero"
         },
@@ -65284,7 +65284,7 @@ const DBModule = (function () {
             "spread": [
                 13
             ],
-            "url": "/t643#6310",
+            "url": "r6310",
             "simpleTitle": "investigación - the withered pot",
             "space": "el pensadero"
         },
@@ -65293,7 +65293,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t643#6320",
+            "url": "r6320",
             "simpleTitle": "investigación - the withered pot",
             "space": "el pensadero"
         },
@@ -65302,7 +65302,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t643#6326",
+            "url": "r6326",
             "simpleTitle": "investigación - the withered pot",
             "space": "el pensadero"
         },
@@ -65311,7 +65311,7 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "url": "/t643#6355",
+            "url": "r6355",
             "simpleTitle": "investigación - the withered pot",
             "space": "el pensadero"
         },
@@ -65320,7 +65320,7 @@ const DBModule = (function () {
             "spread": [
                 6
             ],
-            "url": "/t643#6669",
+            "url": "r6669",
             "simpleTitle": "investigación - the withered pot",
             "space": "el pensadero"
         },
@@ -65329,7 +65329,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t643#6683",
+            "url": "r6683",
             "simpleTitle": "investigación - the withered pot",
             "space": "el pensadero"
         },
@@ -65338,7 +65338,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t643#6709",
+            "url": "r6709",
             "simpleTitle": "investigación - the withered pot",
             "space": "el pensadero"
         },
@@ -65347,7 +65347,7 @@ const DBModule = (function () {
             "spread": [
                 15
             ],
-            "url": "/t643#6751",
+            "url": "r6751",
             "simpleTitle": "investigación - the withered pot",
             "space": "el pensadero"
         },
@@ -65356,7 +65356,7 @@ const DBModule = (function () {
             "spread": [
                 6
             ],
-            "url": "/t643#6756",
+            "url": "r6756",
             "simpleTitle": "investigación - the withered pot",
             "space": "el pensadero"
         },
@@ -65365,7 +65365,7 @@ const DBModule = (function () {
             "spread": [
                 15
             ],
-            "url": "/t643#6777",
+            "url": "r6777",
             "simpleTitle": "investigación - the withered pot",
             "space": "el pensadero"
         },
@@ -65374,7 +65374,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t643#6860",
+            "url": "r6860",
             "simpleTitle": "investigación - the withered pot",
             "space": "el pensadero"
         },
@@ -65383,7 +65383,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t643#6883",
+            "url": "r6883",
             "simpleTitle": "investigación - the withered pot",
             "space": "el pensadero"
         },
@@ -65392,7 +65392,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t643#6941",
+            "url": "r6941",
             "simpleTitle": "investigación - the withered pot",
             "space": "el pensadero"
         },
@@ -65401,7 +65401,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t643#7010",
+            "url": "r7010",
             "simpleTitle": "investigación - the withered pot",
             "space": "el pensadero"
         },
@@ -65410,7 +65410,7 @@ const DBModule = (function () {
             "spread": [
                 5
             ],
-            "url": "/t643#7035",
+            "url": "r7035",
             "simpleTitle": "investigación - the withered pot",
             "space": "el pensadero"
         },
@@ -65419,7 +65419,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t643#7055",
+            "url": "r7055",
             "simpleTitle": "investigación - the withered pot",
             "space": "el pensadero"
         },
@@ -65428,7 +65428,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t643#7500",
+            "url": "r7500",
             "simpleTitle": "investigación - the withered pot",
             "space": "el pensadero"
         },
@@ -65437,7 +65437,7 @@ const DBModule = (function () {
             "spread": [
                 6
             ],
-            "url": "/t643#7557",
+            "url": "r7557",
             "simpleTitle": "investigación - the withered pot",
             "space": "el pensadero"
         },
@@ -65446,7 +65446,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t643#7651",
+            "url": "r7651",
             "simpleTitle": "investigación - the withered pot",
             "space": "el pensadero"
         },
@@ -65455,7 +65455,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t643#7703",
+            "url": "r7703",
             "simpleTitle": "investigación - the withered pot",
             "space": "el pensadero"
         },
@@ -65464,7 +65464,7 @@ const DBModule = (function () {
             "spread": [
                 18
             ],
-            "url": "/t643#7710",
+            "url": "r7710",
             "simpleTitle": "investigación - the withered pot",
             "space": "el pensadero"
         },
@@ -65473,7 +65473,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t643#7932",
+            "url": "r7932",
             "simpleTitle": "investigación - the withered pot",
             "space": "el pensadero"
         },
@@ -65482,7 +65482,7 @@ const DBModule = (function () {
             "spread": [
                 11
             ],
-            "url": "/t643#7936",
+            "url": "r7936",
             "simpleTitle": "investigación - the withered pot",
             "space": "el pensadero"
         },
@@ -65491,7 +65491,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t643#8177",
+            "url": "r8177",
             "simpleTitle": "investigación - the withered pot",
             "space": "el pensadero"
         },
@@ -65500,7 +65500,7 @@ const DBModule = (function () {
             "spread": [
                 6
             ],
-            "url": "/t643#8594",
+            "url": "r8594",
             "simpleTitle": "investigación - the withered pot",
             "space": "el pensadero"
         },
@@ -65509,7 +65509,7 @@ const DBModule = (function () {
             "spread": [
                 15
             ],
-            "url": "/t681#6891",
+            "url": "r6891",
             "simpleTitle": "práctica - the long road home",
             "space": "el pensadero"
         },
@@ -65518,7 +65518,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t681#6901",
+            "url": "r6901",
             "simpleTitle": "práctica - the long road home",
             "space": "el pensadero"
         },
@@ -65529,7 +65529,7 @@ const DBModule = (function () {
                 6,
                 6
             ],
-            "url": "/t681#6924",
+            "url": "r6924",
             "simpleTitle": "práctica - the long road home",
             "space": "el pensadero"
         },
@@ -65538,7 +65538,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t681#7789",
+            "url": "r7789",
             "simpleTitle": "práctica - the long road home",
             "space": "el pensadero"
         },
@@ -65549,7 +65549,7 @@ const DBModule = (function () {
                 15,
                 7
             ],
-            "url": "/t681#7875",
+            "url": "r7875",
             "simpleTitle": "práctica - the long road home",
             "space": "el pensadero"
         },
@@ -65558,7 +65558,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t681#7900",
+            "url": "r7900",
             "simpleTitle": "práctica - the long road home",
             "space": "el pensadero"
         },
@@ -65569,7 +65569,7 @@ const DBModule = (function () {
                 17,
                 17
             ],
-            "url": "/t681#7979",
+            "url": "r7979",
             "simpleTitle": "práctica - the long road home",
             "space": "el pensadero"
         },
@@ -65578,7 +65578,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t614#5263",
+            "url": "r5263",
             "simpleTitle": "práctica - the crow, the fox and the cat",
             "space": "el pensadero"
         },
@@ -65587,7 +65587,7 @@ const DBModule = (function () {
             "spread": [
                 3
             ],
-            "url": "/t614#5268",
+            "url": "r5268",
             "simpleTitle": "práctica - the crow, the fox and the cat",
             "space": "el pensadero"
         },
@@ -65596,7 +65596,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t614#5279",
+            "url": "r5279",
             "simpleTitle": "práctica - the crow, the fox and the cat",
             "space": "el pensadero"
         },
@@ -65605,7 +65605,7 @@ const DBModule = (function () {
             "spread": [
                 13
             ],
-            "url": "/t614#5451",
+            "url": "r5451",
             "simpleTitle": "práctica - the crow, the fox and the cat",
             "space": "el pensadero"
         },
@@ -65614,7 +65614,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t614#5485",
+            "url": "r5485",
             "simpleTitle": "práctica - the crow, the fox and the cat",
             "space": "el pensadero"
         },
@@ -65623,7 +65623,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t614#6238",
+            "url": "r6238",
             "simpleTitle": "práctica - the crow, the fox and the cat",
             "space": "el pensadero"
         },
@@ -65633,7 +65633,7 @@ const DBModule = (function () {
                 12,
                 4
             ],
-            "url": "/t614#6293",
+            "url": "r6293",
             "simpleTitle": "práctica - the crow, the fox and the cat",
             "space": "el pensadero"
         },
@@ -65643,7 +65643,7 @@ const DBModule = (function () {
                 14,
                 10
             ],
-            "url": "/t614#7265",
+            "url": "r7265",
             "simpleTitle": "práctica - the crow, the fox and the cat",
             "space": "el pensadero"
         },
@@ -65653,7 +65653,7 @@ const DBModule = (function () {
                 14,
                 7
             ],
-            "url": "/t614#7334",
+            "url": "r7334",
             "simpleTitle": "práctica - the crow, the fox and the cat",
             "space": "el pensadero"
         },
@@ -65663,7 +65663,7 @@ const DBModule = (function () {
                 14,
                 15
             ],
-            "url": "/t614#8559",
+            "url": "r8559",
             "simpleTitle": "práctica - the crow, the fox and the cat",
             "space": "el pensadero"
         },
@@ -65673,7 +65673,7 @@ const DBModule = (function () {
                 5,
                 9
             ],
-            "url": "/t614#8733",
+            "url": "r8733",
             "simpleTitle": "práctica - the crow, the fox and the cat",
             "space": "el pensadero"
         },
@@ -65683,7 +65683,7 @@ const DBModule = (function () {
                 14,
                 18
             ],
-            "url": "/t614#9000",
+            "url": "r9000",
             "simpleTitle": "práctica - the crow, the fox and the cat",
             "space": "el pensadero"
         },
@@ -65692,7 +65692,7 @@ const DBModule = (function () {
             "spread": [
                 18
             ],
-            "url": "/t645#6119",
+            "url": "r6119",
             "simpleTitle": "investigación - operation birth ledger",
             "space": "el pensadero"
         },
@@ -65701,7 +65701,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t645#6224",
+            "url": "r6224",
             "simpleTitle": "investigación - operation birth ledger",
             "space": "el pensadero"
         },
@@ -65710,7 +65710,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t645#6263",
+            "url": "r6263",
             "simpleTitle": "investigación - operation birth ledger",
             "space": "el pensadero"
         },
@@ -65719,7 +65719,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t645#6368",
+            "url": "r6368",
             "simpleTitle": "investigación - operation birth ledger",
             "space": "el pensadero"
         },
@@ -65728,7 +65728,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t645#6636",
+            "url": "r6636",
             "simpleTitle": "investigación - operation birth ledger",
             "space": "el pensadero"
         },
@@ -65737,7 +65737,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t645#6677",
+            "url": "r6677",
             "simpleTitle": "investigación - operation birth ledger",
             "space": "el pensadero"
         },
@@ -65746,7 +65746,7 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "url": "/t645#6960",
+            "url": "r6960",
             "simpleTitle": "investigación - operation birth ledger",
             "space": "el pensadero"
         },
@@ -65755,7 +65755,7 @@ const DBModule = (function () {
             "spread": [
                 11
             ],
-            "url": "/t645#6999",
+            "url": "r6999",
             "simpleTitle": "investigación - operation birth ledger",
             "space": "el pensadero"
         },
@@ -65764,7 +65764,7 @@ const DBModule = (function () {
             "spread": [
                 9
             ],
-            "url": "/t645#7008",
+            "url": "r7008",
             "simpleTitle": "investigación - operation birth ledger",
             "space": "el pensadero"
         },
@@ -65773,7 +65773,7 @@ const DBModule = (function () {
             "spread": [
                 5
             ],
-            "url": "/t645#7299",
+            "url": "r7299",
             "simpleTitle": "investigación - operation birth ledger",
             "space": "el pensadero"
         },
@@ -65782,7 +65782,7 @@ const DBModule = (function () {
             "spread": [
                 15
             ],
-            "url": "/t645#7504",
+            "url": "r7504",
             "simpleTitle": "investigación - operation birth ledger",
             "space": "el pensadero"
         },
@@ -65791,7 +65791,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t678#7531",
+            "url": "r7531",
             "simpleTitle": "what a difference a day made",
             "space": "el pensadero"
         },
@@ -65800,7 +65800,7 @@ const DBModule = (function () {
             "spread": [
                 5
             ],
-            "url": "/t678#8192",
+            "url": "r8192",
             "simpleTitle": "what a difference a day made",
             "space": "el pensadero"
         },
@@ -65809,7 +65809,7 @@ const DBModule = (function () {
             "spread": [
                 3
             ],
-            "url": "/t678#8791",
+            "url": "r8791",
             "simpleTitle": "what a difference a day made",
             "space": "el pensadero"
         },
@@ -65818,7 +65818,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t678#8930",
+            "url": "r8930",
             "simpleTitle": "what a difference a day made",
             "space": "el pensadero"
         },
@@ -65827,7 +65827,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t678#9157",
+            "url": "r9157",
             "simpleTitle": "what a difference a day made",
             "space": "el pensadero"
         },
@@ -65837,7 +65837,7 @@ const DBModule = (function () {
                 16,
                 16
             ],
-            "url": "/t678#9402",
+            "url": "r9402",
             "simpleTitle": "what a difference a day made",
             "space": "el pensadero"
         },
@@ -65846,7 +65846,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t678#9439",
+            "url": "r9439",
             "simpleTitle": "what a difference a day made",
             "space": "el pensadero"
         },
@@ -65856,7 +65856,7 @@ const DBModule = (function () {
                 12,
                 17
             ],
-            "url": "/t678#9482",
+            "url": "r9482",
             "simpleTitle": "what a difference a day made",
             "space": "el pensadero"
         },
@@ -65865,7 +65865,7 @@ const DBModule = (function () {
             "spread": [
                 3
             ],
-            "url": "/t678#9579",
+            "url": "r9579",
             "simpleTitle": "what a difference a day made",
             "space": "el pensadero"
         },
@@ -65875,7 +65875,7 @@ const DBModule = (function () {
                 4,
                 14
             ],
-            "url": "/t678#9902",
+            "url": "r9902",
             "simpleTitle": "what a difference a day made",
             "space": "el pensadero"
         },
@@ -65884,7 +65884,7 @@ const DBModule = (function () {
             "spread": [
                 9
             ],
-            "url": "/t678#9949",
+            "url": "r9949",
             "simpleTitle": "what a difference a day made",
             "space": "el pensadero"
         },
@@ -65893,7 +65893,7 @@ const DBModule = (function () {
             "spread": [
                 6
             ],
-            "url": "/t593#7669",
+            "url": "r7669",
             "simpleTitle": "práctica - quite the trick to tell the friendly snakes from the other ones",
             "space": "el pensadero"
         },
@@ -65902,7 +65902,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t593#7988",
+            "url": "r7988",
             "simpleTitle": "práctica - quite the trick to tell the friendly snakes from the other ones",
             "space": "el pensadero"
         },
@@ -65911,7 +65911,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t593#8161",
+            "url": "r8161",
             "simpleTitle": "práctica - quite the trick to tell the friendly snakes from the other ones",
             "space": "el pensadero"
         },
@@ -65920,7 +65920,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t593#8474",
+            "url": "r8474",
             "simpleTitle": "práctica - quite the trick to tell the friendly snakes from the other ones",
             "space": "el pensadero"
         },
@@ -65929,7 +65929,7 @@ const DBModule = (function () {
             "spread": [
                 5
             ],
-            "url": "/t593#8531",
+            "url": "r8531",
             "simpleTitle": "práctica - quite the trick to tell the friendly snakes from the other ones",
             "space": "el pensadero"
         },
@@ -65938,7 +65938,7 @@ const DBModule = (function () {
             "spread": [
                 13
             ],
-            "url": "/t593#9355",
+            "url": "r9355",
             "simpleTitle": "práctica - quite the trick to tell the friendly snakes from the other ones",
             "space": "el pensadero"
         },
@@ -65947,7 +65947,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t593#9507",
+            "url": "r9507",
             "simpleTitle": "práctica - quite the trick to tell the friendly snakes from the other ones",
             "space": "el pensadero"
         },
@@ -65956,7 +65956,7 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "url": "/t625#5586",
+            "url": "r5586",
             "simpleTitle": "práctica - hail rain or sunshine",
             "space": "el pensadero"
         },
@@ -65965,7 +65965,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t625#6476",
+            "url": "r6476",
             "simpleTitle": "práctica - hail rain or sunshine",
             "space": "el pensadero"
         },
@@ -65974,7 +65974,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t625#6602",
+            "url": "r6602",
             "simpleTitle": "práctica - hail rain or sunshine",
             "space": "el pensadero"
         },
@@ -65983,7 +65983,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t625#6607",
+            "url": "r6607",
             "simpleTitle": "práctica - hail rain or sunshine",
             "space": "el pensadero"
         },
@@ -65992,7 +65992,7 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "url": "/t625#6623",
+            "url": "r6623",
             "simpleTitle": "práctica - hail rain or sunshine",
             "space": "el pensadero"
         },
@@ -66001,7 +66001,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t625#6706",
+            "url": "r6706",
             "simpleTitle": "práctica - hail rain or sunshine",
             "space": "el pensadero"
         },
@@ -66010,7 +66010,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t625#6833",
+            "url": "r6833",
             "simpleTitle": "práctica - hail rain or sunshine",
             "space": "el pensadero"
         },
@@ -66019,7 +66019,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t625#7791",
+            "url": "r7791",
             "simpleTitle": "práctica - hail rain or sunshine",
             "space": "el pensadero"
         },
@@ -66028,7 +66028,7 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "url": "/t625#7967",
+            "url": "r7967",
             "simpleTitle": "práctica - hail rain or sunshine",
             "space": "el pensadero"
         },
@@ -66037,7 +66037,7 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "url": "/t625#8592",
+            "url": "r8592",
             "simpleTitle": "práctica - hail rain or sunshine",
             "space": "el pensadero"
         },
@@ -66046,7 +66046,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t625#8997",
+            "url": "r8997",
             "simpleTitle": "práctica - hail rain or sunshine",
             "space": "el pensadero"
         },
@@ -66055,7 +66055,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t630#5789",
+            "url": "r5789",
             "simpleTitle": "práctica - creating favors",
             "space": "el pensadero"
         },
@@ -66064,7 +66064,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t630#5793",
+            "url": "r5793",
             "simpleTitle": "práctica - creating favors",
             "space": "el pensadero"
         },
@@ -66073,7 +66073,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t630#5796",
+            "url": "r5796",
             "simpleTitle": "práctica - creating favors",
             "space": "el pensadero"
         },
@@ -66082,7 +66082,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t630#5798",
+            "url": "r5798",
             "simpleTitle": "práctica - creating favors",
             "space": "el pensadero"
         },
@@ -66091,7 +66091,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t649#13823",
+            "url": "r13823",
             "simpleTitle": "whispers of the forest",
             "space": "el pensadero"
         },
@@ -66100,7 +66100,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t596#5684",
+            "url": "r5684",
             "simpleTitle": "práctica - transmission lost",
             "space": "el pensadero"
         },
@@ -66109,7 +66109,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t596#5747",
+            "url": "r5747",
             "simpleTitle": "práctica - transmission lost",
             "space": "el pensadero"
         },
@@ -66118,7 +66118,7 @@ const DBModule = (function () {
             "spread": [
                 11
             ],
-            "url": "/t596#6396",
+            "url": "r6396",
             "simpleTitle": "práctica - transmission lost",
             "space": "el pensadero"
         },
@@ -66127,7 +66127,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t596#6629",
+            "url": "r6629",
             "simpleTitle": "práctica - transmission lost",
             "space": "el pensadero"
         },
@@ -66136,7 +66136,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t596#6914",
+            "url": "r6914",
             "simpleTitle": "práctica - transmission lost",
             "space": "el pensadero"
         },
@@ -66145,7 +66145,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t596#6952",
+            "url": "r6952",
             "simpleTitle": "práctica - transmission lost",
             "space": "el pensadero"
         },
@@ -66154,7 +66154,7 @@ const DBModule = (function () {
             "spread": [
                 5
             ],
-            "url": "/t596#7573",
+            "url": "r7573",
             "simpleTitle": "práctica - transmission lost",
             "space": "el pensadero"
         },
@@ -66163,7 +66163,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t596#7675",
+            "url": "r7675",
             "simpleTitle": "práctica - transmission lost",
             "space": "el pensadero"
         },
@@ -66172,7 +66172,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t596#7844",
+            "url": "r7844",
             "simpleTitle": "práctica - transmission lost",
             "space": "el pensadero"
         },
@@ -66181,7 +66181,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t596#7871",
+            "url": "r7871",
             "simpleTitle": "práctica - transmission lost",
             "space": "el pensadero"
         },
@@ -66190,7 +66190,7 @@ const DBModule = (function () {
             "spread": [
                 19
             ],
-            "url": "/t596#7891",
+            "url": "r7891",
             "simpleTitle": "práctica - transmission lost",
             "space": "el pensadero"
         },
@@ -66199,7 +66199,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t596#7939",
+            "url": "r7939",
             "simpleTitle": "práctica - transmission lost",
             "space": "el pensadero"
         },
@@ -66208,7 +66208,7 @@ const DBModule = (function () {
             "spread": [
                 13
             ],
-            "url": "/t644#6254",
+            "url": "r6254",
             "simpleTitle": "investigación - faded lineage",
             "space": "el pensadero"
         },
@@ -66217,7 +66217,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t644#6305",
+            "url": "r6305",
             "simpleTitle": "investigación - faded lineage",
             "space": "el pensadero"
         },
@@ -66226,7 +66226,7 @@ const DBModule = (function () {
             "spread": [
                 5
             ],
-            "url": "/t644#6312",
+            "url": "r6312",
             "simpleTitle": "investigación - faded lineage",
             "space": "el pensadero"
         },
@@ -66235,7 +66235,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t644#6318",
+            "url": "r6318",
             "simpleTitle": "investigación - faded lineage",
             "space": "el pensadero"
         },
@@ -66244,7 +66244,7 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "url": "/t644#6680",
+            "url": "r6680",
             "simpleTitle": "investigación - faded lineage",
             "space": "el pensadero"
         },
@@ -66253,7 +66253,7 @@ const DBModule = (function () {
             "spread": [
                 11
             ],
-            "url": "/t644#6775",
+            "url": "r6775",
             "simpleTitle": "investigación - faded lineage",
             "space": "el pensadero"
         },
@@ -66262,7 +66262,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t644#6858",
+            "url": "r6858",
             "simpleTitle": "investigación - faded lineage",
             "space": "el pensadero"
         },
@@ -66271,7 +66271,7 @@ const DBModule = (function () {
             "spread": [
                 5
             ],
-            "url": "/t644#6887",
+            "url": "r6887",
             "simpleTitle": "investigación - faded lineage",
             "space": "el pensadero"
         },
@@ -66280,7 +66280,7 @@ const DBModule = (function () {
             "spread": [
                 15
             ],
-            "url": "/t644#6943",
+            "url": "r6943",
             "simpleTitle": "investigación - faded lineage",
             "space": "el pensadero"
         },
@@ -66289,7 +66289,7 @@ const DBModule = (function () {
             "spread": [
                 6
             ],
-            "url": "/t644#7001",
+            "url": "r7001",
             "simpleTitle": "investigación - faded lineage",
             "space": "el pensadero"
         },
@@ -66298,7 +66298,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t646#6984",
+            "url": "r6984",
             "simpleTitle": "interrogatorio - golden pathways",
             "space": "el pensadero"
         },
@@ -66307,7 +66307,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t639#5977",
+            "url": "r5977",
             "simpleTitle": "práctica - under starry skies.",
             "space": "el pensadero"
         },
@@ -66316,7 +66316,7 @@ const DBModule = (function () {
             "spread": [
                 15
             ],
-            "url": "/t639#6140",
+            "url": "r6140",
             "simpleTitle": "práctica - under starry skies.",
             "space": "el pensadero"
         },
@@ -66325,7 +66325,7 @@ const DBModule = (function () {
             "spread": [
                 6
             ],
-            "url": "/t639#6209",
+            "url": "r6209",
             "simpleTitle": "práctica - under starry skies.",
             "space": "el pensadero"
         },
@@ -66334,7 +66334,7 @@ const DBModule = (function () {
             "spread": [
                 13
             ],
-            "url": "/t639#6299",
+            "url": "r6299",
             "simpleTitle": "práctica - under starry skies.",
             "space": "el pensadero"
         },
@@ -66343,7 +66343,7 @@ const DBModule = (function () {
             "spread": [
                 19
             ],
-            "url": "/t639#6415",
+            "url": "r6415",
             "simpleTitle": "práctica - under starry skies.",
             "space": "el pensadero"
         },
@@ -66352,7 +66352,7 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "url": "/t639#7825",
+            "url": "r7825",
             "simpleTitle": "práctica - under starry skies.",
             "space": "el pensadero"
         },
@@ -66361,7 +66361,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t639#8014",
+            "url": "r8014",
             "simpleTitle": "práctica - under starry skies.",
             "space": "el pensadero"
         },
@@ -66370,7 +66370,7 @@ const DBModule = (function () {
             "spread": [
                 18
             ],
-            "url": "/t639#8063",
+            "url": "r8063",
             "simpleTitle": "práctica - under starry skies.",
             "space": "el pensadero"
         },
@@ -66379,7 +66379,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t639#8322",
+            "url": "r8322",
             "simpleTitle": "práctica - under starry skies.",
             "space": "el pensadero"
         },
@@ -66388,7 +66388,7 @@ const DBModule = (function () {
             "spread": [
                 13
             ],
-            "url": "/t639#8406",
+            "url": "r8406",
             "simpleTitle": "práctica - under starry skies.",
             "space": "el pensadero"
         },
@@ -66397,7 +66397,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t639#8505",
+            "url": "r8505",
             "simpleTitle": "práctica - under starry skies.",
             "space": "el pensadero"
         },
@@ -66406,7 +66406,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t563#4646",
+            "url": "r4646",
             "simpleTitle": "investigación - underground roots",
             "space": "el pensadero"
         },
@@ -66416,7 +66416,7 @@ const DBModule = (function () {
                 14,
                 18
             ],
-            "url": "/t563#4771",
+            "url": "r4771",
             "simpleTitle": "investigación - underground roots",
             "space": "el pensadero"
         },
@@ -66425,7 +66425,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t563#4777",
+            "url": "r4777",
             "simpleTitle": "investigación - underground roots",
             "space": "el pensadero"
         },
@@ -66434,7 +66434,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t563#5010",
+            "url": "r5010",
             "simpleTitle": "investigación - underground roots",
             "space": "el pensadero"
         },
@@ -66443,7 +66443,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t563#5054",
+            "url": "r5054",
             "simpleTitle": "investigación - underground roots",
             "space": "el pensadero"
         },
@@ -66452,7 +66452,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t563#5120",
+            "url": "r5120",
             "simpleTitle": "investigación - underground roots",
             "space": "el pensadero"
         },
@@ -66461,7 +66461,7 @@ const DBModule = (function () {
             "spread": [
                 11
             ],
-            "url": "/t563#5129",
+            "url": "r5129",
             "simpleTitle": "investigación - underground roots",
             "space": "el pensadero"
         },
@@ -66470,7 +66470,7 @@ const DBModule = (function () {
             "spread": [
                 3
             ],
-            "url": "/t563#5201",
+            "url": "r5201",
             "simpleTitle": "investigación - underground roots",
             "space": "el pensadero"
         },
@@ -66479,7 +66479,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t563#5446",
+            "url": "r5446",
             "simpleTitle": "investigación - underground roots",
             "space": "el pensadero"
         },
@@ -66488,7 +66488,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t574#4678",
+            "url": "r4678",
             "simpleTitle": "práctica - misery",
             "space": "el pensadero"
         },
@@ -66497,7 +66497,7 @@ const DBModule = (function () {
             "spread": [
                 5
             ],
-            "url": "/t574#4688",
+            "url": "r4688",
             "simpleTitle": "práctica - misery",
             "space": "el pensadero"
         },
@@ -66506,7 +66506,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t574#4844",
+            "url": "r4844",
             "simpleTitle": "práctica - misery",
             "space": "el pensadero"
         },
@@ -66515,7 +66515,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t574#5366",
+            "url": "r5366",
             "simpleTitle": "práctica - misery",
             "space": "el pensadero"
         },
@@ -66524,7 +66524,7 @@ const DBModule = (function () {
             "spread": [
                 15
             ],
-            "url": "/t574#6202",
+            "url": "r6202",
             "simpleTitle": "práctica - misery",
             "space": "el pensadero"
         },
@@ -66533,7 +66533,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t574#7262",
+            "url": "r7262",
             "simpleTitle": "práctica - misery",
             "space": "el pensadero"
         },
@@ -66542,7 +66542,7 @@ const DBModule = (function () {
             "spread": [
                 42
             ],
-            "url": "/t597#5049",
+            "url": "r5049",
             "simpleTitle": "práctica - everywhere & nowhere",
             "space": "el pensadero"
         },
@@ -66554,7 +66554,7 @@ const DBModule = (function () {
                 15,
                 8
             ],
-            "url": "/t597#5707",
+            "url": "r5707",
             "simpleTitle": "práctica - everywhere & nowhere",
             "space": "el pensadero"
         },
@@ -66566,7 +66566,7 @@ const DBModule = (function () {
                 19,
                 14
             ],
-            "url": "/t597#5720",
+            "url": "r5720",
             "simpleTitle": "práctica - everywhere & nowhere",
             "space": "el pensadero"
         },
@@ -66576,7 +66576,7 @@ const DBModule = (function () {
                 11,
                 16
             ],
-            "url": "/t597#7095",
+            "url": "r7095",
             "simpleTitle": "práctica - everywhere & nowhere",
             "space": "el pensadero"
         },
@@ -66588,7 +66588,7 @@ const DBModule = (function () {
                 19,
                 11
             ],
-            "url": "/t597#7099",
+            "url": "r7099",
             "simpleTitle": "práctica - everywhere & nowhere",
             "space": "el pensadero"
         },
@@ -66600,7 +66600,7 @@ const DBModule = (function () {
                 19,
                 12
             ],
-            "url": "/t597#7751",
+            "url": "r7751",
             "simpleTitle": "práctica - everywhere & nowhere",
             "space": "el pensadero"
         },
@@ -66612,7 +66612,7 @@ const DBModule = (function () {
                 9,
                 10
             ],
-            "url": "/t597#7799",
+            "url": "r7799",
             "simpleTitle": "práctica - everywhere & nowhere",
             "space": "el pensadero"
         },
@@ -66624,7 +66624,7 @@ const DBModule = (function () {
                 7,
                 9
             ],
-            "url": "/t597#8642",
+            "url": "r8642",
             "simpleTitle": "práctica - everywhere & nowhere",
             "space": "el pensadero"
         },
@@ -66636,7 +66636,7 @@ const DBModule = (function () {
                 13,
                 19
             ],
-            "url": "/t597#8913",
+            "url": "r8913",
             "simpleTitle": "práctica - everywhere & nowhere",
             "space": "el pensadero"
         },
@@ -66645,7 +66645,7 @@ const DBModule = (function () {
             "spread": [
                 15
             ],
-            "url": "/t597#9268",
+            "url": "r9268",
             "simpleTitle": "práctica - everywhere & nowhere",
             "space": "el pensadero"
         },
@@ -66654,7 +66654,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t597#9292",
+            "url": "r9292",
             "simpleTitle": "práctica - everywhere & nowhere",
             "space": "el pensadero"
         },
@@ -66663,7 +66663,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t597#9312",
+            "url": "r9312",
             "simpleTitle": "práctica - everywhere & nowhere",
             "space": "el pensadero"
         },
@@ -66672,7 +66672,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t618#5555",
+            "url": "r5555",
             "simpleTitle": "práctica - aquí tengo tu cariñito",
             "space": "el pensadero"
         },
@@ -66682,7 +66682,7 @@ const DBModule = (function () {
                 13,
                 8
             ],
-            "url": "/t618#5563",
+            "url": "r5563",
             "simpleTitle": "práctica - aquí tengo tu cariñito",
             "space": "el pensadero"
         },
@@ -66692,7 +66692,7 @@ const DBModule = (function () {
                 13,
                 7
             ],
-            "url": "/t618#5570",
+            "url": "r5570",
             "simpleTitle": "práctica - aquí tengo tu cariñito",
             "space": "el pensadero"
         },
@@ -66702,7 +66702,7 @@ const DBModule = (function () {
                 18,
                 8
             ],
-            "url": "/t618#5582",
+            "url": "r5582",
             "simpleTitle": "práctica - aquí tengo tu cariñito",
             "space": "el pensadero"
         },
@@ -66712,7 +66712,7 @@ const DBModule = (function () {
                 1,
                 12
             ],
-            "url": "/t618#5604",
+            "url": "r5604",
             "simpleTitle": "práctica - aquí tengo tu cariñito",
             "space": "el pensadero"
         },
@@ -66722,7 +66722,7 @@ const DBModule = (function () {
                 14,
                 11
             ],
-            "url": "/t618#5643",
+            "url": "r5643",
             "simpleTitle": "práctica - aquí tengo tu cariñito",
             "space": "el pensadero"
         },
@@ -66732,7 +66732,7 @@ const DBModule = (function () {
                 10,
                 20
             ],
-            "url": "/t618#5675",
+            "url": "r5675",
             "simpleTitle": "práctica - aquí tengo tu cariñito",
             "space": "el pensadero"
         },
@@ -66742,7 +66742,7 @@ const DBModule = (function () {
                 8,
                 3
             ],
-            "url": "/t618#5725",
+            "url": "r5725",
             "simpleTitle": "práctica - aquí tengo tu cariñito",
             "space": "el pensadero"
         },
@@ -66752,7 +66752,7 @@ const DBModule = (function () {
                 18,
                 6
             ],
-            "url": "/t618#5730",
+            "url": "r5730",
             "simpleTitle": "práctica - aquí tengo tu cariñito",
             "space": "el pensadero"
         },
@@ -66762,7 +66762,7 @@ const DBModule = (function () {
                 19,
                 12
             ],
-            "url": "/t618#5759",
+            "url": "r5759",
             "simpleTitle": "práctica - aquí tengo tu cariñito",
             "space": "el pensadero"
         },
@@ -66772,7 +66772,7 @@ const DBModule = (function () {
                 15,
                 19
             ],
-            "url": "/t618#5771",
+            "url": "r5771",
             "simpleTitle": "práctica - aquí tengo tu cariñito",
             "space": "el pensadero"
         },
@@ -66782,7 +66782,7 @@ const DBModule = (function () {
                 17,
                 10
             ],
-            "url": "/t618#5822",
+            "url": "r5822",
             "simpleTitle": "práctica - aquí tengo tu cariñito",
             "space": "el pensadero"
         },
@@ -66792,7 +66792,7 @@ const DBModule = (function () {
                 2,
                 18
             ],
-            "url": "/t618#5833",
+            "url": "r5833",
             "simpleTitle": "práctica - aquí tengo tu cariñito",
             "space": "el pensadero"
         },
@@ -66802,7 +66802,7 @@ const DBModule = (function () {
                 10,
                 8
             ],
-            "url": "/t618#5921",
+            "url": "r5921",
             "simpleTitle": "práctica - aquí tengo tu cariñito",
             "space": "el pensadero"
         },
@@ -66812,7 +66812,7 @@ const DBModule = (function () {
                 7,
                 1
             ],
-            "url": "/t618#5957",
+            "url": "r5957",
             "simpleTitle": "práctica - aquí tengo tu cariñito",
             "space": "el pensadero"
         },
@@ -66821,7 +66821,7 @@ const DBModule = (function () {
             "spread": [
                 5
             ],
-            "url": "/t618#6401",
+            "url": "r6401",
             "simpleTitle": "práctica - aquí tengo tu cariñito",
             "space": "el pensadero"
         },
@@ -66830,7 +66830,7 @@ const DBModule = (function () {
             "spread": [
                 11
             ],
-            "url": "/t618#6600",
+            "url": "r6600",
             "simpleTitle": "práctica - aquí tengo tu cariñito",
             "space": "el pensadero"
         },
@@ -66839,7 +66839,7 @@ const DBModule = (function () {
             "spread": [
                 13
             ],
-            "url": "/t613#5697",
+            "url": "r5697",
             "simpleTitle": "lost in thought",
             "space": "el pensadero"
         },
@@ -66848,7 +66848,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t613#6825",
+            "url": "r6825",
             "simpleTitle": "lost in thought",
             "space": "el pensadero"
         },
@@ -66857,7 +66857,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t613#6916",
+            "url": "r6916",
             "simpleTitle": "lost in thought",
             "space": "el pensadero"
         },
@@ -66866,7 +66866,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t619#5474",
+            "url": "r5474",
             "simpleTitle": "a new beginning",
             "space": "el pensadero"
         },
@@ -66875,7 +66875,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t606#5181",
+            "url": "r5181",
             "simpleTitle": "evento - grupo 7: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -66884,7 +66884,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t606#5316",
+            "url": "r5316",
             "simpleTitle": "evento - grupo 7: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -66893,7 +66893,7 @@ const DBModule = (function () {
             "spread": [
                 3
             ],
-            "url": "/t606#5400",
+            "url": "r5400",
             "simpleTitle": "evento - grupo 7: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -66902,7 +66902,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t606#5481",
+            "url": "r5481",
             "simpleTitle": "evento - grupo 7: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -66911,7 +66911,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t606#5690",
+            "url": "r5690",
             "simpleTitle": "evento - grupo 7: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -66920,7 +66920,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t606#5715",
+            "url": "r5715",
             "simpleTitle": "evento - grupo 7: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -66929,7 +66929,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t606#5965",
+            "url": "r5965",
             "simpleTitle": "evento - grupo 7: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -66938,7 +66938,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t606#6077",
+            "url": "r6077",
             "simpleTitle": "evento - grupo 7: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -66947,7 +66947,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t606#6098",
+            "url": "r6098",
             "simpleTitle": "evento - grupo 7: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -66956,7 +66956,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t606#6114",
+            "url": "r6114",
             "simpleTitle": "evento - grupo 7: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -66965,7 +66965,7 @@ const DBModule = (function () {
             "spread": [
                 9
             ],
-            "url": "/t606#6216",
+            "url": "r6216",
             "simpleTitle": "evento - grupo 7: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -66974,7 +66974,7 @@ const DBModule = (function () {
             "spread": [
                 13
             ],
-            "url": "/t606#6265",
+            "url": "r6265",
             "simpleTitle": "evento - grupo 7: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -66983,7 +66983,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t606#6276",
+            "url": "r6276",
             "simpleTitle": "evento - grupo 7: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -66992,7 +66992,7 @@ const DBModule = (function () {
             "spread": [
                 19
             ],
-            "url": "/t606#6340",
+            "url": "r6340",
             "simpleTitle": "evento - grupo 7: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67001,7 +67001,7 @@ const DBModule = (function () {
             "spread": [
                 13
             ],
-            "url": "/t606#6687",
+            "url": "r6687",
             "simpleTitle": "evento - grupo 7: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67010,7 +67010,7 @@ const DBModule = (function () {
             "spread": [
                 18
             ],
-            "url": "/t606#6990",
+            "url": "r6990",
             "simpleTitle": "evento - grupo 7: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67019,7 +67019,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t606#6993",
+            "url": "r6993",
             "simpleTitle": "evento - grupo 7: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67028,7 +67028,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t606#7004",
+            "url": "r7004",
             "simpleTitle": "evento - grupo 7: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67037,7 +67037,7 @@ const DBModule = (function () {
             "spread": [
                 6
             ],
-            "url": "/t605#5234",
+            "url": "r5234",
             "simpleTitle": "evento - grupo 6: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67046,7 +67046,7 @@ const DBModule = (function () {
             "spread": [
                 15
             ],
-            "url": "/t605#5313",
+            "url": "r5313",
             "simpleTitle": "evento - grupo 6: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67055,7 +67055,7 @@ const DBModule = (function () {
             "spread": [
                 6
             ],
-            "url": "/t605#5333",
+            "url": "r5333",
             "simpleTitle": "evento - grupo 6: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67064,7 +67064,7 @@ const DBModule = (function () {
             "spread": [
                 13
             ],
-            "url": "/t605#5396",
+            "url": "r5396",
             "simpleTitle": "evento - grupo 6: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67073,7 +67073,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t605#5688",
+            "url": "r5688",
             "simpleTitle": "evento - grupo 6: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67082,7 +67082,7 @@ const DBModule = (function () {
             "spread": [
                 13
             ],
-            "url": "/t605#5740",
+            "url": "r5740",
             "simpleTitle": "evento - grupo 6: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67091,7 +67091,7 @@ const DBModule = (function () {
             "spread": [
                 15
             ],
-            "url": "/t605#5743",
+            "url": "r5743",
             "simpleTitle": "evento - grupo 6: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67100,7 +67100,7 @@ const DBModule = (function () {
             "spread": [
                 11
             ],
-            "url": "/t605#6083",
+            "url": "r6083",
             "simpleTitle": "evento - grupo 6: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67109,7 +67109,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t605#6204",
+            "url": "r6204",
             "simpleTitle": "evento - grupo 6: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67118,7 +67118,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t605#6303",
+            "url": "r6303",
             "simpleTitle": "evento - grupo 6: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67127,7 +67127,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t605#6324",
+            "url": "r6324",
             "simpleTitle": "evento - grupo 6: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67136,7 +67136,7 @@ const DBModule = (function () {
             "spread": [
                 9
             ],
-            "url": "/t605#6699",
+            "url": "r6699",
             "simpleTitle": "evento - grupo 6: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67145,7 +67145,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t605#6730",
+            "url": "r6730",
             "simpleTitle": "evento - grupo 6: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67154,7 +67154,7 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "url": "/t605#6741",
+            "url": "r6741",
             "simpleTitle": "evento - grupo 6: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67163,7 +67163,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t605#6795",
+            "url": "r6795",
             "simpleTitle": "evento - grupo 6: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67172,7 +67172,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t605#6948",
+            "url": "r6948",
             "simpleTitle": "evento - grupo 6: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67181,7 +67181,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t605#6986",
+            "url": "r6986",
             "simpleTitle": "evento - grupo 6: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67190,7 +67190,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t605#7006",
+            "url": "r7006",
             "simpleTitle": "evento - grupo 6: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67199,7 +67199,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t604#5144",
+            "url": "r5144",
             "simpleTitle": "evento - grupo 5: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67208,7 +67208,7 @@ const DBModule = (function () {
             "spread": [
                 13
             ],
-            "url": "/t604#5154",
+            "url": "r5154",
             "simpleTitle": "evento - grupo 5: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67217,7 +67217,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t604#5224",
+            "url": "r5224",
             "simpleTitle": "evento - grupo 5: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67226,7 +67226,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t604#5309",
+            "url": "r5309",
             "simpleTitle": "evento - grupo 5: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67235,7 +67235,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t604#5439",
+            "url": "r5439",
             "simpleTitle": "evento - grupo 5: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67244,7 +67244,7 @@ const DBModule = (function () {
             "spread": [
                 13
             ],
-            "url": "/t604#5479",
+            "url": "r5479",
             "simpleTitle": "evento - grupo 5: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67253,7 +67253,7 @@ const DBModule = (function () {
             "spread": [
                 6
             ],
-            "url": "/t604#5682",
+            "url": "r5682",
             "simpleTitle": "evento - grupo 5: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67262,7 +67262,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t604#5861",
+            "url": "r5861",
             "simpleTitle": "evento - grupo 5: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67271,7 +67271,7 @@ const DBModule = (function () {
             "spread": [
                 5
             ],
-            "url": "/t604#5929",
+            "url": "r5929",
             "simpleTitle": "evento - grupo 5: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67280,7 +67280,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t604#6063",
+            "url": "r6063",
             "simpleTitle": "evento - grupo 5: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67289,7 +67289,7 @@ const DBModule = (function () {
             "spread": [
                 18
             ],
-            "url": "/t604#6159",
+            "url": "r6159",
             "simpleTitle": "evento - grupo 5: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67298,7 +67298,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t604#6278",
+            "url": "r6278",
             "simpleTitle": "evento - grupo 5: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67307,7 +67307,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t604#6322",
+            "url": "r6322",
             "simpleTitle": "evento - grupo 5: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67316,7 +67316,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t604#6398",
+            "url": "r6398",
             "simpleTitle": "evento - grupo 5: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67325,7 +67325,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t604#6406",
+            "url": "r6406",
             "simpleTitle": "evento - grupo 5: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67334,7 +67334,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t604#6675",
+            "url": "r6675",
             "simpleTitle": "evento - grupo 5: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67343,7 +67343,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t604#6906",
+            "url": "r6906",
             "simpleTitle": "evento - grupo 5: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67352,7 +67352,7 @@ const DBModule = (function () {
             "spread": [
                 5
             ],
-            "url": "/t603#5162",
+            "url": "r5162",
             "simpleTitle": "evento - grupo 4: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67361,7 +67361,7 @@ const DBModule = (function () {
             "spread": [
                 6
             ],
-            "url": "/t603#5220",
+            "url": "r5220",
             "simpleTitle": "evento - grupo 4: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67370,7 +67370,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t603#5304",
+            "url": "r5304",
             "simpleTitle": "evento - grupo 4: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67379,7 +67379,7 @@ const DBModule = (function () {
             "spread": [
                 11
             ],
-            "url": "/t603#5398",
+            "url": "r5398",
             "simpleTitle": "evento - grupo 4: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67388,7 +67388,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t603#5416",
+            "url": "r5416",
             "simpleTitle": "evento - grupo 4: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67397,7 +67397,7 @@ const DBModule = (function () {
             "spread": [
                 11
             ],
-            "url": "/t603#5680",
+            "url": "r5680",
             "simpleTitle": "evento - grupo 4: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67406,7 +67406,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t603#5722",
+            "url": "r5722",
             "simpleTitle": "evento - grupo 4: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67415,7 +67415,7 @@ const DBModule = (function () {
             "spread": [
                 18
             ],
-            "url": "/t603#5738",
+            "url": "r5738",
             "simpleTitle": "evento - grupo 4: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67424,7 +67424,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t603#6079",
+            "url": "r6079",
             "simpleTitle": "evento - grupo 4: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67433,7 +67433,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t603#6094",
+            "url": "r6094",
             "simpleTitle": "evento - grupo 4: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67442,7 +67442,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t603#6233",
+            "url": "r6233",
             "simpleTitle": "evento - grupo 4: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67451,7 +67451,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t603#6331",
+            "url": "r6331",
             "simpleTitle": "evento - grupo 4: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67460,7 +67460,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t603#6346",
+            "url": "r6346",
             "simpleTitle": "evento - grupo 4: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67469,7 +67469,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t603#6362",
+            "url": "r6362",
             "simpleTitle": "evento - grupo 4: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67478,7 +67478,7 @@ const DBModule = (function () {
             "spread": [
                 11
             ],
-            "url": "/t603#6667",
+            "url": "r6667",
             "simpleTitle": "evento - grupo 4: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67487,7 +67487,7 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "url": "/t602#5124",
+            "url": "r5124",
             "simpleTitle": "evento - grupo 3: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67496,7 +67496,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t602#5138",
+            "url": "r5138",
             "simpleTitle": "evento - grupo 3: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67505,7 +67505,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t602#5204",
+            "url": "r5204",
             "simpleTitle": "evento - grupo 3: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67514,7 +67514,7 @@ const DBModule = (function () {
             "spread": [
                 11
             ],
-            "url": "/t602#5260",
+            "url": "r5260",
             "simpleTitle": "evento - grupo 3: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67523,7 +67523,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t602#5302",
+            "url": "r5302",
             "simpleTitle": "evento - grupo 3: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67532,7 +67532,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t602#5344",
+            "url": "r5344",
             "simpleTitle": "evento - grupo 3: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67541,7 +67541,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t602#5477",
+            "url": "r5477",
             "simpleTitle": "evento - grupo 3: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67550,7 +67550,7 @@ const DBModule = (function () {
             "spread": [
                 11
             ],
-            "url": "/t602#5491",
+            "url": "r5491",
             "simpleTitle": "evento - grupo 3: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67559,7 +67559,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t602#5526",
+            "url": "r5526",
             "simpleTitle": "evento - grupo 3: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67568,7 +67568,7 @@ const DBModule = (function () {
             "spread": [
                 6
             ],
-            "url": "/t602#5578",
+            "url": "r5578",
             "simpleTitle": "evento - grupo 3: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67577,7 +67577,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t602#5597",
+            "url": "r5597",
             "simpleTitle": "evento - grupo 3: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67586,7 +67586,7 @@ const DBModule = (function () {
             "spread": [
                 6
             ],
-            "url": "/t602#5624",
+            "url": "r5624",
             "simpleTitle": "evento - grupo 3: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67595,7 +67595,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t602#5648",
+            "url": "r5648",
             "simpleTitle": "evento - grupo 3: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67605,7 +67605,7 @@ const DBModule = (function () {
                 18,
                 12
             ],
-            "url": "/t602#5651",
+            "url": "r5651",
             "simpleTitle": "evento - grupo 3: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67614,7 +67614,7 @@ const DBModule = (function () {
             "spread": [
                 15
             ],
-            "url": "/t602#5754",
+            "url": "r5754",
             "simpleTitle": "evento - grupo 3: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67623,7 +67623,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t602#5888",
+            "url": "r5888",
             "simpleTitle": "evento - grupo 3: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67632,7 +67632,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t602#5899",
+            "url": "r5899",
             "simpleTitle": "evento - grupo 3: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67641,7 +67641,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t602#5927",
+            "url": "r5927",
             "simpleTitle": "evento - grupo 3: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67650,7 +67650,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t602#6129",
+            "url": "r6129",
             "simpleTitle": "evento - grupo 3: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67659,7 +67659,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t602#6186",
+            "url": "r6186",
             "simpleTitle": "evento - grupo 3: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67668,7 +67668,7 @@ const DBModule = (function () {
             "spread": [
                 6
             ],
-            "url": "/t602#6198",
+            "url": "r6198",
             "simpleTitle": "evento - grupo 3: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67677,7 +67677,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t601#5184",
+            "url": "r5184",
             "simpleTitle": "evento - grupo 2: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67686,7 +67686,7 @@ const DBModule = (function () {
             "spread": [
                 19
             ],
-            "url": "/t601#5297",
+            "url": "r5297",
             "simpleTitle": "evento - grupo 2: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67695,7 +67695,7 @@ const DBModule = (function () {
             "spread": [
                 18
             ],
-            "url": "/t601#5402",
+            "url": "r5402",
             "simpleTitle": "evento - grupo 2: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67704,7 +67704,7 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "url": "/t601#5429",
+            "url": "r5429",
             "simpleTitle": "evento - grupo 2: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67713,7 +67713,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t601#5678",
+            "url": "r5678",
             "simpleTitle": "evento - grupo 2: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67722,7 +67722,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t601#5751",
+            "url": "r5751",
             "simpleTitle": "evento - grupo 2: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67731,7 +67731,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t601#5782",
+            "url": "r5782",
             "simpleTitle": "evento - grupo 2: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67740,7 +67740,7 @@ const DBModule = (function () {
             "spread": [
                 13
             ],
-            "url": "/t601#6059",
+            "url": "r6059",
             "simpleTitle": "evento - grupo 2: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67749,7 +67749,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t601#6100",
+            "url": "r6100",
             "simpleTitle": "evento - grupo 2: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67758,7 +67758,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t601#6136",
+            "url": "r6136",
             "simpleTitle": "evento - grupo 2: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67767,7 +67767,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t601#6218",
+            "url": "r6218",
             "simpleTitle": "evento - grupo 2: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67776,7 +67776,7 @@ const DBModule = (function () {
             "spread": [
                 3
             ],
-            "url": "/t601#6301",
+            "url": "r6301",
             "simpleTitle": "evento - grupo 2: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67785,7 +67785,7 @@ const DBModule = (function () {
             "spread": [
                 11
             ],
-            "url": "/t601#6364",
+            "url": "r6364",
             "simpleTitle": "evento - grupo 2: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67794,7 +67794,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t601#6638",
+            "url": "r6638",
             "simpleTitle": "evento - grupo 2: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67803,7 +67803,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t601#6689",
+            "url": "r6689",
             "simpleTitle": "evento - grupo 2: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67812,7 +67812,7 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "url": "/t601#6878",
+            "url": "r6878",
             "simpleTitle": "evento - grupo 2: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67821,7 +67821,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t601#6885",
+            "url": "r6885",
             "simpleTitle": "evento - grupo 2: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67830,7 +67830,7 @@ const DBModule = (function () {
             "spread": [
                 11
             ],
-            "url": "/t601#6893",
+            "url": "r6893",
             "simpleTitle": "evento - grupo 2: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67839,7 +67839,7 @@ const DBModule = (function () {
             "spread": [
                 18
             ],
-            "url": "/t601#6897",
+            "url": "r6897",
             "simpleTitle": "evento - grupo 2: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67848,7 +67848,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t600#5249",
+            "url": "r5249",
             "simpleTitle": "evento - grupo 1: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67857,7 +67857,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t600#5295",
+            "url": "r5295",
             "simpleTitle": "evento - grupo 1: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67866,7 +67866,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t600#5487",
+            "url": "r5487",
             "simpleTitle": "evento - grupo 1: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67875,7 +67875,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t600#5521",
+            "url": "r5521",
             "simpleTitle": "evento - grupo 1: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67884,7 +67884,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t600#5645",
+            "url": "r5645",
             "simpleTitle": "evento - grupo 1: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67893,7 +67893,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t600#5774",
+            "url": "r5774",
             "simpleTitle": "evento - grupo 1: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67902,7 +67902,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t600#5925",
+            "url": "r5925",
             "simpleTitle": "evento - grupo 1: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67911,7 +67911,7 @@ const DBModule = (function () {
             "spread": [
                 13
             ],
-            "url": "/t600#6081",
+            "url": "r6081",
             "simpleTitle": "evento - grupo 1: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67920,7 +67920,7 @@ const DBModule = (function () {
             "spread": [
                 9
             ],
-            "url": "/t600#6181",
+            "url": "r6181",
             "simpleTitle": "evento - grupo 1: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67929,7 +67929,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t600#6272",
+            "url": "r6272",
             "simpleTitle": "evento - grupo 1: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67938,7 +67938,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t600#6337",
+            "url": "r6337",
             "simpleTitle": "evento - grupo 1: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67947,7 +67947,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t600#6420",
+            "url": "r6420",
             "simpleTitle": "evento - grupo 1: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67956,7 +67956,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t600#6597",
+            "url": "r6597",
             "simpleTitle": "evento - grupo 1: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67965,7 +67965,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t600#6685",
+            "url": "r6685",
             "simpleTitle": "evento - grupo 1: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67974,7 +67974,7 @@ const DBModule = (function () {
             "spread": [
                 13
             ],
-            "url": "/t600#6702",
+            "url": "r6702",
             "simpleTitle": "evento - grupo 1: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67983,7 +67983,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t600#6753",
+            "url": "r6753",
             "simpleTitle": "evento - grupo 1: taller de primeros auxilios",
             "space": "el pensadero"
         },
@@ -67992,7 +67992,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t654#8288",
+            "url": "r8288",
             "simpleTitle": "práctica - heart of gold",
             "space": "el pensadero"
         },
@@ -68001,7 +68001,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t654#8366",
+            "url": "r8366",
             "simpleTitle": "práctica - heart of gold",
             "space": "el pensadero"
         },
@@ -68010,7 +68010,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t654#8576",
+            "url": "r8576",
             "simpleTitle": "práctica - heart of gold",
             "space": "el pensadero"
         },
@@ -68019,7 +68019,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t654#8910",
+            "url": "r8910",
             "simpleTitle": "práctica - heart of gold",
             "space": "el pensadero"
         },
@@ -68028,7 +68028,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t654#9228",
+            "url": "r9228",
             "simpleTitle": "práctica - heart of gold",
             "space": "el pensadero"
         },
@@ -68037,7 +68037,7 @@ const DBModule = (function () {
             "spread": [
                 6
             ],
-            "url": "/t654#9290",
+            "url": "r9290",
             "simpleTitle": "práctica - heart of gold",
             "space": "el pensadero"
         },
@@ -68047,7 +68047,7 @@ const DBModule = (function () {
                 9,
                 7
             ],
-            "url": "/t560#4629",
+            "url": "r4629",
             "simpleTitle": "misión - wounds from the past",
             "space": "el pensadero"
         },
@@ -68057,7 +68057,7 @@ const DBModule = (function () {
                 16,
                 2
             ],
-            "url": "/t560#4640",
+            "url": "r4640",
             "simpleTitle": "misión - wounds from the past",
             "space": "el pensadero"
         },
@@ -68066,7 +68066,7 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "url": "/t560#4653",
+            "url": "r4653",
             "simpleTitle": "misión - wounds from the past",
             "space": "el pensadero"
         },
@@ -68075,7 +68075,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t560#4682",
+            "url": "r4682",
             "simpleTitle": "misión - wounds from the past",
             "space": "el pensadero"
         },
@@ -68084,7 +68084,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t560#4690",
+            "url": "r4690",
             "simpleTitle": "misión - wounds from the past",
             "space": "el pensadero"
         },
@@ -68094,7 +68094,7 @@ const DBModule = (function () {
                 7,
                 7
             ],
-            "url": "/t560#4767",
+            "url": "r4767",
             "simpleTitle": "misión - wounds from the past",
             "space": "el pensadero"
         },
@@ -68103,7 +68103,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t560#4857",
+            "url": "r4857",
             "simpleTitle": "misión - wounds from the past",
             "space": "el pensadero"
         },
@@ -68112,7 +68112,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t560#4893",
+            "url": "r4893",
             "simpleTitle": "misión - wounds from the past",
             "space": "el pensadero"
         },
@@ -68121,7 +68121,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t560#4895",
+            "url": "r4895",
             "simpleTitle": "misión - wounds from the past",
             "space": "el pensadero"
         },
@@ -68130,7 +68130,7 @@ const DBModule = (function () {
             "spread": [
                 15
             ],
-            "url": "/t560#5014",
+            "url": "r5014",
             "simpleTitle": "misión - wounds from the past",
             "space": "el pensadero"
         },
@@ -68139,7 +68139,7 @@ const DBModule = (function () {
             "spread": [
                 13
             ],
-            "url": "/t560#5063",
+            "url": "r5063",
             "simpleTitle": "misión - wounds from the past",
             "space": "el pensadero"
         },
@@ -68149,7 +68149,7 @@ const DBModule = (function () {
                 2,
                 16
             ],
-            "url": "/t560#5066",
+            "url": "r5066",
             "simpleTitle": "misión - wounds from the past",
             "space": "el pensadero"
         },
@@ -68158,7 +68158,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t560#5074",
+            "url": "r5074",
             "simpleTitle": "misión - wounds from the past",
             "space": "el pensadero"
         },
@@ -68167,7 +68167,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t560#5083",
+            "url": "r5083",
             "simpleTitle": "misión - wounds from the past",
             "space": "el pensadero"
         },
@@ -68176,7 +68176,7 @@ const DBModule = (function () {
             "spread": [
                 19
             ],
-            "url": "/t560#5127",
+            "url": "r5127",
             "simpleTitle": "misión - wounds from the past",
             "space": "el pensadero"
         },
@@ -68185,7 +68185,7 @@ const DBModule = (function () {
             "spread": [
                 5
             ],
-            "url": "/t560#5147",
+            "url": "r5147",
             "simpleTitle": "misión - wounds from the past",
             "space": "el pensadero"
         },
@@ -68194,7 +68194,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t560#5228",
+            "url": "r5228",
             "simpleTitle": "misión - wounds from the past",
             "space": "el pensadero"
         },
@@ -68203,7 +68203,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t560#5273",
+            "url": "r5273",
             "simpleTitle": "misión - wounds from the past",
             "space": "el pensadero"
         },
@@ -68215,7 +68215,7 @@ const DBModule = (function () {
                 15,
                 14
             ],
-            "url": "/t560#5293",
+            "url": "r5293",
             "simpleTitle": "misión - wounds from the past",
             "space": "el pensadero"
         },
@@ -68226,7 +68226,7 @@ const DBModule = (function () {
                 8,
                 11
             ],
-            "url": "/t560#5335",
+            "url": "r5335",
             "simpleTitle": "misión - wounds from the past",
             "space": "el pensadero"
         },
@@ -68238,7 +68238,7 @@ const DBModule = (function () {
                 5,
                 16
             ],
-            "url": "/t560#5380",
+            "url": "r5380",
             "simpleTitle": "misión - wounds from the past",
             "space": "el pensadero"
         },
@@ -68250,7 +68250,7 @@ const DBModule = (function () {
                 17,
                 3
             ],
-            "url": "/t560#5390",
+            "url": "r5390",
             "simpleTitle": "misión - wounds from the past",
             "space": "el pensadero"
         },
@@ -68262,7 +68262,7 @@ const DBModule = (function () {
                 9,
                 17
             ],
-            "url": "/t560#5419",
+            "url": "r5419",
             "simpleTitle": "misión - wounds from the past",
             "space": "el pensadero"
         },
@@ -68274,7 +68274,7 @@ const DBModule = (function () {
                 8,
                 7
             ],
-            "url": "/t560#5431",
+            "url": "r5431",
             "simpleTitle": "misión - wounds from the past",
             "space": "el pensadero"
         },
@@ -68286,7 +68286,7 @@ const DBModule = (function () {
                 12,
                 7
             ],
-            "url": "/t560#5511",
+            "url": "r5511",
             "simpleTitle": "misión - wounds from the past",
             "space": "el pensadero"
         },
@@ -68295,7 +68295,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t560#5549",
+            "url": "r5549",
             "simpleTitle": "misión - wounds from the past",
             "space": "el pensadero"
         },
@@ -68304,7 +68304,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t560#5672",
+            "url": "r5672",
             "simpleTitle": "misión - wounds from the past",
             "space": "el pensadero"
         },
@@ -68313,7 +68313,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t560#5711",
+            "url": "r5711",
             "simpleTitle": "misión - wounds from the past",
             "space": "el pensadero"
         },
@@ -68323,7 +68323,7 @@ const DBModule = (function () {
                 16,
                 9
             ],
-            "url": "/t560#5732",
+            "url": "r5732",
             "simpleTitle": "misión - wounds from the past",
             "space": "el pensadero"
         },
@@ -68332,7 +68332,7 @@ const DBModule = (function () {
             "spread": [
                 11
             ],
-            "url": "/t560#5791",
+            "url": "r5791",
             "simpleTitle": "misión - wounds from the past",
             "space": "el pensadero"
         },
@@ -68344,7 +68344,7 @@ const DBModule = (function () {
                 9,
                 6
             ],
-            "url": "/t560#5877",
+            "url": "r5877",
             "simpleTitle": "misión - wounds from the past",
             "space": "el pensadero"
         },
@@ -68355,7 +68355,7 @@ const DBModule = (function () {
                 9,
                 12
             ],
-            "url": "/t560#5902",
+            "url": "r5902",
             "simpleTitle": "misión - wounds from the past",
             "space": "el pensadero"
         },
@@ -68367,7 +68367,7 @@ const DBModule = (function () {
                 4,
                 5
             ],
-            "url": "/t560#5940",
+            "url": "r5940",
             "simpleTitle": "misión - wounds from the past",
             "space": "el pensadero"
         },
@@ -68379,7 +68379,7 @@ const DBModule = (function () {
                 1,
                 10
             ],
-            "url": "/t560#5947",
+            "url": "r5947",
             "simpleTitle": "misión - wounds from the past",
             "space": "el pensadero"
         },
@@ -68388,7 +68388,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t560#6138",
+            "url": "r6138",
             "simpleTitle": "misión - wounds from the past",
             "space": "el pensadero"
         },
@@ -68400,7 +68400,7 @@ const DBModule = (function () {
                 7,
                 7
             ],
-            "url": "/t560#6206",
+            "url": "r6206",
             "simpleTitle": "misión - wounds from the past",
             "space": "el pensadero"
         },
@@ -68412,7 +68412,7 @@ const DBModule = (function () {
                 14,
                 11
             ],
-            "url": "/t560#6270",
+            "url": "r6270",
             "simpleTitle": "misión - wounds from the past",
             "space": "el pensadero"
         },
@@ -68424,7 +68424,7 @@ const DBModule = (function () {
                 16,
                 11
             ],
-            "url": "/t560#6274",
+            "url": "r6274",
             "simpleTitle": "misión - wounds from the past",
             "space": "el pensadero"
         },
@@ -68436,7 +68436,7 @@ const DBModule = (function () {
                 17,
                 17
             ],
-            "url": "/t560#6314",
+            "url": "r6314",
             "simpleTitle": "misión - wounds from the past",
             "space": "el pensadero"
         },
@@ -68448,7 +68448,7 @@ const DBModule = (function () {
                 8,
                 20
             ],
-            "url": "/t560#6316",
+            "url": "r6316",
             "simpleTitle": "misión - wounds from the past",
             "space": "el pensadero"
         },
@@ -68457,7 +68457,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t560#6366",
+            "url": "r6366",
             "simpleTitle": "misión - wounds from the past",
             "space": "el pensadero"
         },
@@ -68469,7 +68469,7 @@ const DBModule = (function () {
                 10,
                 18
             ],
-            "url": "/t560#6370",
+            "url": "r6370",
             "simpleTitle": "misión - wounds from the past",
             "space": "el pensadero"
         },
@@ -68481,7 +68481,7 @@ const DBModule = (function () {
                 5,
                 3
             ],
-            "url": "/t560#6373",
+            "url": "r6373",
             "simpleTitle": "misión - wounds from the past",
             "space": "el pensadero"
         },
@@ -68490,7 +68490,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t560#6384",
+            "url": "r6384",
             "simpleTitle": "misión - wounds from the past",
             "space": "el pensadero"
         },
@@ -68499,7 +68499,7 @@ const DBModule = (function () {
             "spread": [
                 5
             ],
-            "url": "/t560#6386",
+            "url": "r6386",
             "simpleTitle": "misión - wounds from the past",
             "space": "el pensadero"
         },
@@ -68508,7 +68508,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t560#6391",
+            "url": "r6391",
             "simpleTitle": "misión - wounds from the past",
             "space": "el pensadero"
         },
@@ -68517,7 +68517,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t560#6403",
+            "url": "r6403",
             "simpleTitle": "misión - wounds from the past",
             "space": "el pensadero"
         },
@@ -68526,7 +68526,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t560#6424",
+            "url": "r6424",
             "simpleTitle": "misión - wounds from the past",
             "space": "el pensadero"
         },
@@ -68535,7 +68535,7 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "url": "/t560#6634",
+            "url": "r6634",
             "simpleTitle": "misión - wounds from the past",
             "space": "el pensadero"
         },
@@ -68544,7 +68544,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t560#6671",
+            "url": "r6671",
             "simpleTitle": "misión - wounds from the past",
             "space": "el pensadero"
         },
@@ -68553,7 +68553,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t560#6845",
+            "url": "r6845",
             "simpleTitle": "misión - wounds from the past",
             "space": "el pensadero"
         },
@@ -68562,7 +68562,7 @@ const DBModule = (function () {
             "spread": [
                 19
             ],
-            "url": "/t560#6937",
+            "url": "r6937",
             "simpleTitle": "misión - wounds from the past",
             "space": "el pensadero"
         },
@@ -68571,7 +68571,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t560#6977",
+            "url": "r6977",
             "simpleTitle": "misión - wounds from the past",
             "space": "el pensadero"
         },
@@ -68580,7 +68580,7 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "url": "/t560#6979",
+            "url": "r6979",
             "simpleTitle": "misión - wounds from the past",
             "space": "el pensadero"
         },
@@ -68589,7 +68589,7 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "url": "/t560#6995",
+            "url": "r6995",
             "simpleTitle": "misión - wounds from the past",
             "space": "el pensadero"
         },
@@ -68598,7 +68598,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t560#7058",
+            "url": "r7058",
             "simpleTitle": "misión - wounds from the past",
             "space": "el pensadero"
         },
@@ -68608,7 +68608,7 @@ const DBModule = (function () {
                 5,
                 1
             ],
-            "url": "/t560#7084",
+            "url": "r7084",
             "simpleTitle": "misión - wounds from the past",
             "space": "el pensadero"
         },
@@ -68618,7 +68618,7 @@ const DBModule = (function () {
                 14,
                 6
             ],
-            "url": "/t560#7322",
+            "url": "r7322",
             "simpleTitle": "misión - wounds from the past",
             "space": "el pensadero"
         },
@@ -68627,7 +68627,7 @@ const DBModule = (function () {
             "spread": [
                 9
             ],
-            "url": "/t560#7383",
+            "url": "r7383",
             "simpleTitle": "misión - wounds from the past",
             "space": "el pensadero"
         },
@@ -68636,7 +68636,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t560#7740",
+            "url": "r7740",
             "simpleTitle": "misión - wounds from the past",
             "space": "el pensadero"
         },
@@ -68646,7 +68646,7 @@ const DBModule = (function () {
                 13,
                 15
             ],
-            "url": "/t560#7745",
+            "url": "r7745",
             "simpleTitle": "misión - wounds from the past",
             "space": "el pensadero"
         },
@@ -68655,7 +68655,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t560#7897",
+            "url": "r7897",
             "simpleTitle": "misión - wounds from the past",
             "space": "el pensadero"
         },
@@ -68665,7 +68665,7 @@ const DBModule = (function () {
                 5,
                 4
             ],
-            "url": "/t560#8318",
+            "url": "r8318",
             "simpleTitle": "misión - wounds from the past",
             "space": "el pensadero"
         },
@@ -68674,7 +68674,7 @@ const DBModule = (function () {
             "spread": [
                 6
             ],
-            "url": "/t560#8520",
+            "url": "r8520",
             "simpleTitle": "misión - wounds from the past",
             "space": "el pensadero"
         },
@@ -68683,7 +68683,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t560#8915",
+            "url": "r8915",
             "simpleTitle": "misión - wounds from the past",
             "space": "el pensadero"
         },
@@ -68692,7 +68692,7 @@ const DBModule = (function () {
             "spread": [
                 19
             ],
-            "url": "/t617#5351",
+            "url": "r5351",
             "simpleTitle": "práctica - delusion",
             "space": "el pensadero"
         },
@@ -68701,7 +68701,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t617#5466",
+            "url": "r5466",
             "simpleTitle": "práctica - delusion",
             "space": "el pensadero"
         },
@@ -68710,7 +68710,7 @@ const DBModule = (function () {
             "spread": [
                 3
             ],
-            "url": "/t617#6150",
+            "url": "r6150",
             "simpleTitle": "práctica - delusion",
             "space": "el pensadero"
         },
@@ -68719,7 +68719,7 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "url": "/t617#6211",
+            "url": "r6211",
             "simpleTitle": "práctica - delusion",
             "space": "el pensadero"
         },
@@ -68728,7 +68728,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t617#7430",
+            "url": "r7430",
             "simpleTitle": "práctica - delusion",
             "space": "el pensadero"
         },
@@ -68737,7 +68737,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t617#7462",
+            "url": "r7462",
             "simpleTitle": "práctica - delusion",
             "space": "el pensadero"
         },
@@ -68746,7 +68746,7 @@ const DBModule = (function () {
             "spread": [
                 18
             ],
-            "url": "/t617#8277",
+            "url": "r8277",
             "simpleTitle": "práctica - delusion",
             "space": "el pensadero"
         },
@@ -68756,7 +68756,7 @@ const DBModule = (function () {
                 18,
                 3
             ],
-            "url": "/t617#8400",
+            "url": "r8400",
             "simpleTitle": "práctica - delusion",
             "space": "el pensadero"
         },
@@ -68766,7 +68766,7 @@ const DBModule = (function () {
                 6,
                 2
             ],
-            "url": "/t617#9214",
+            "url": "r9214",
             "simpleTitle": "práctica - delusion",
             "space": "el pensadero"
         },
@@ -68776,7 +68776,7 @@ const DBModule = (function () {
                 13,
                 15
             ],
-            "url": "/t617#9410",
+            "url": "r9410",
             "simpleTitle": "práctica - delusion",
             "space": "el pensadero"
         },
@@ -68786,7 +68786,7 @@ const DBModule = (function () {
                 10,
                 5
             ],
-            "url": "/t617#10234",
+            "url": "r10234",
             "simpleTitle": "práctica - delusion",
             "space": "el pensadero"
         },
@@ -68795,7 +68795,7 @@ const DBModule = (function () {
             "spread": [
                 18
             ],
-            "url": "/t582#4971",
+            "url": "r4971",
             "simpleTitle": "práctica - dawn rain",
             "space": "el pensadero"
         },
@@ -68804,7 +68804,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t582#5460",
+            "url": "r5460",
             "simpleTitle": "práctica - dawn rain",
             "space": "el pensadero"
         },
@@ -68813,7 +68813,7 @@ const DBModule = (function () {
             "spread": [
                 9
             ],
-            "url": "/t582#6380",
+            "url": "r6380",
             "simpleTitle": "práctica - dawn rain",
             "space": "el pensadero"
         },
@@ -68822,7 +68822,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t582#6544",
+            "url": "r6544",
             "simpleTitle": "práctica - dawn rain",
             "space": "el pensadero"
         },
@@ -68831,7 +68831,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t582#6564",
+            "url": "r6564",
             "simpleTitle": "práctica - dawn rain",
             "space": "el pensadero"
         },
@@ -68840,7 +68840,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t621#7239",
+            "url": "r7239",
             "simpleTitle": "machine",
             "space": "el pensadero"
         },
@@ -68849,7 +68849,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t621#7486",
+            "url": "r7486",
             "simpleTitle": "machine",
             "space": "el pensadero"
         },
@@ -68858,7 +68858,7 @@ const DBModule = (function () {
             "spread": [
                 9
             ],
-            "url": "/t621#8275",
+            "url": "r8275",
             "simpleTitle": "machine",
             "space": "el pensadero"
         },
@@ -68867,7 +68867,7 @@ const DBModule = (function () {
             "spread": [
                 15
             ],
-            "url": "/t621#9665",
+            "url": "r9665",
             "simpleTitle": "machine",
             "space": "el pensadero"
         },
@@ -68876,7 +68876,7 @@ const DBModule = (function () {
             "spread": [
                 19
             ],
-            "url": "/t621#10253",
+            "url": "r10253",
             "simpleTitle": "machine",
             "space": "el pensadero"
         },
@@ -68885,7 +68885,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t621#10693",
+            "url": "r10693",
             "simpleTitle": "machine",
             "space": "el pensadero"
         },
@@ -68894,7 +68894,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t621#11898",
+            "url": "r11898",
             "simpleTitle": "machine",
             "space": "el pensadero"
         },
@@ -68903,7 +68903,7 @@ const DBModule = (function () {
             "spread": [
                 19
             ],
-            "url": "/t621#12617",
+            "url": "r12617",
             "simpleTitle": "machine",
             "space": "el pensadero"
         },
@@ -68912,7 +68912,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t561#4625",
+            "url": "r4625",
             "simpleTitle": "investigación - promise in crimson",
             "space": "el pensadero"
         },
@@ -68921,7 +68921,7 @@ const DBModule = (function () {
             "spread": [
                 9
             ],
-            "url": "/t561#4669",
+            "url": "r4669",
             "simpleTitle": "investigación - promise in crimson",
             "space": "el pensadero"
         },
@@ -68930,7 +68930,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t561#4764",
+            "url": "r4764",
             "simpleTitle": "investigación - promise in crimson",
             "space": "el pensadero"
         },
@@ -68939,7 +68939,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t561#4859",
+            "url": "r4859",
             "simpleTitle": "investigación - promise in crimson",
             "space": "el pensadero"
         },
@@ -68948,7 +68948,7 @@ const DBModule = (function () {
             "spread": [
                 18
             ],
-            "url": "/t561#4903",
+            "url": "r4903",
             "simpleTitle": "investigación - promise in crimson",
             "space": "el pensadero"
         },
@@ -68957,7 +68957,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t561#5001",
+            "url": "r5001",
             "simpleTitle": "investigación - promise in crimson",
             "space": "el pensadero"
         },
@@ -68966,7 +68966,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t561#5079",
+            "url": "r5079",
             "simpleTitle": "investigación - promise in crimson",
             "space": "el pensadero"
         },
@@ -68975,7 +68975,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t561#5091",
+            "url": "r5091",
             "simpleTitle": "investigación - promise in crimson",
             "space": "el pensadero"
         },
@@ -68985,7 +68985,7 @@ const DBModule = (function () {
                 1,
                 2
             ],
-            "url": "/t561#5102",
+            "url": "r5102",
             "simpleTitle": "investigación - promise in crimson",
             "space": "el pensadero"
         },
@@ -68994,7 +68994,7 @@ const DBModule = (function () {
             "spread": [
                 15
             ],
-            "url": "/t561#5236",
+            "url": "r5236",
             "simpleTitle": "investigación - promise in crimson",
             "space": "el pensadero"
         },
@@ -69003,7 +69003,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t561#5285",
+            "url": "r5285",
             "simpleTitle": "investigación - promise in crimson",
             "space": "el pensadero"
         },
@@ -69013,7 +69013,7 @@ const DBModule = (function () {
                 18,
                 5
             ],
-            "url": "/t561#5341",
+            "url": "r5341",
             "simpleTitle": "investigación - promise in crimson",
             "space": "el pensadero"
         },
@@ -69022,7 +69022,7 @@ const DBModule = (function () {
             "spread": [
                 11
             ],
-            "url": "/t561#5421",
+            "url": "r5421",
             "simpleTitle": "investigación - promise in crimson",
             "space": "el pensadero"
         },
@@ -69031,7 +69031,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t561#5427",
+            "url": "r5427",
             "simpleTitle": "investigación - promise in crimson",
             "space": "el pensadero"
         },
@@ -69041,7 +69041,7 @@ const DBModule = (function () {
                 4,
                 2
             ],
-            "url": "/t570#4638",
+            "url": "r4638",
             "simpleTitle": "partido - hufflepuff y slytherin",
             "space": "el pensadero"
         },
@@ -69052,7 +69052,7 @@ const DBModule = (function () {
                 9,
                 6
             ],
-            "url": "/t570#4642",
+            "url": "r4642",
             "simpleTitle": "partido - hufflepuff y slytherin",
             "space": "el pensadero"
         },
@@ -69062,7 +69062,7 @@ const DBModule = (function () {
                 10,
                 16
             ],
-            "url": "/t570#4649",
+            "url": "r4649",
             "simpleTitle": "partido - hufflepuff y slytherin",
             "space": "el pensadero"
         },
@@ -69073,7 +69073,7 @@ const DBModule = (function () {
                 3,
                 14
             ],
-            "url": "/t570#4881",
+            "url": "r4881",
             "simpleTitle": "partido - hufflepuff y slytherin",
             "space": "el pensadero"
         },
@@ -69086,7 +69086,7 @@ const DBModule = (function () {
                 5,
                 6
             ],
-            "url": "/t570#4883",
+            "url": "r4883",
             "simpleTitle": "partido - hufflepuff y slytherin",
             "space": "el pensadero"
         },
@@ -69095,7 +69095,7 @@ const DBModule = (function () {
             "spread": [
                 6
             ],
-            "url": "/t592#5348",
+            "url": "r5348",
             "simpleTitle": "práctica - the rumble of voices",
             "space": "el pensadero"
         },
@@ -69104,7 +69104,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t592#5455",
+            "url": "r5455",
             "simpleTitle": "práctica - the rumble of voices",
             "space": "el pensadero"
         },
@@ -69113,7 +69113,7 @@ const DBModule = (function () {
             "spread": [
                 9
             ],
-            "url": "/t592#5764",
+            "url": "r5764",
             "simpleTitle": "práctica - the rumble of voices",
             "space": "el pensadero"
         },
@@ -69122,7 +69122,7 @@ const DBModule = (function () {
             "spread": [
                 19
             ],
-            "url": "/t592#5820",
+            "url": "r5820",
             "simpleTitle": "práctica - the rumble of voices",
             "space": "el pensadero"
         },
@@ -69131,7 +69131,7 @@ const DBModule = (function () {
             "spread": [
                 19
             ],
-            "url": "/t592#6297",
+            "url": "r6297",
             "simpleTitle": "práctica - the rumble of voices",
             "space": "el pensadero"
         },
@@ -69140,7 +69140,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t629#7302",
+            "url": "r7302",
             "simpleTitle": "ballad under the cover",
             "space": "el pensadero"
         },
@@ -69149,7 +69149,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t629#7395",
+            "url": "r7395",
             "simpleTitle": "ballad under the cover",
             "space": "el pensadero"
         },
@@ -69158,7 +69158,7 @@ const DBModule = (function () {
             "spread": [
                 6
             ],
-            "url": "/t629#7529",
+            "url": "r7529",
             "simpleTitle": "ballad under the cover",
             "space": "el pensadero"
         },
@@ -69167,7 +69167,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t629#7554",
+            "url": "r7554",
             "simpleTitle": "ballad under the cover",
             "space": "el pensadero"
         },
@@ -69176,7 +69176,7 @@ const DBModule = (function () {
             "spread": [
                 19
             ],
-            "url": "/t629#7911",
+            "url": "r7911",
             "simpleTitle": "ballad under the cover",
             "space": "el pensadero"
         },
@@ -69185,7 +69185,7 @@ const DBModule = (function () {
             "spread": [
                 5
             ],
-            "url": "/t629#8106",
+            "url": "r8106",
             "simpleTitle": "ballad under the cover",
             "space": "el pensadero"
         },
@@ -69195,7 +69195,7 @@ const DBModule = (function () {
                 17,
                 4
             ],
-            "url": "/t629#8190",
+            "url": "r8190",
             "simpleTitle": "ballad under the cover",
             "space": "el pensadero"
         },
@@ -69206,7 +69206,7 @@ const DBModule = (function () {
                 18,
                 2
             ],
-            "url": "/t629#8198",
+            "url": "r8198",
             "simpleTitle": "ballad under the cover",
             "space": "el pensadero"
         },
@@ -69216,7 +69216,7 @@ const DBModule = (function () {
                 17,
                 4
             ],
-            "url": "/t629#8686",
+            "url": "r8686",
             "simpleTitle": "ballad under the cover",
             "space": "el pensadero"
         },
@@ -69225,7 +69225,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t629#8772",
+            "url": "r8772",
             "simpleTitle": "ballad under the cover",
             "space": "el pensadero"
         },
@@ -69234,7 +69234,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t629#8922",
+            "url": "r8922",
             "simpleTitle": "ballad under the cover",
             "space": "el pensadero"
         },
@@ -69246,7 +69246,7 @@ const DBModule = (function () {
                 2,
                 17
             ],
-            "url": "/t629#9046",
+            "url": "r9046",
             "simpleTitle": "ballad under the cover",
             "space": "el pensadero"
         },
@@ -69258,7 +69258,7 @@ const DBModule = (function () {
                 8,
                 1
             ],
-            "url": "/t629#9060",
+            "url": "r9060",
             "simpleTitle": "ballad under the cover",
             "space": "el pensadero"
         },
@@ -69268,7 +69268,7 @@ const DBModule = (function () {
                 13,
                 14
             ],
-            "url": "/t629#9124",
+            "url": "r9124",
             "simpleTitle": "ballad under the cover",
             "space": "el pensadero"
         },
@@ -69278,7 +69278,7 @@ const DBModule = (function () {
                 12,
                 13
             ],
-            "url": "/t629#9270",
+            "url": "r9270",
             "simpleTitle": "ballad under the cover",
             "space": "el pensadero"
         },
@@ -69288,7 +69288,7 @@ const DBModule = (function () {
                 18,
                 2
             ],
-            "url": "/t629#9392",
+            "url": "r9392",
             "simpleTitle": "ballad under the cover",
             "space": "el pensadero"
         },
@@ -69298,7 +69298,7 @@ const DBModule = (function () {
                 5,
                 9
             ],
-            "url": "/t629#9802",
+            "url": "r9802",
             "simpleTitle": "ballad under the cover",
             "space": "el pensadero"
         },
@@ -69308,7 +69308,7 @@ const DBModule = (function () {
                 17,
                 13
             ],
-            "url": "/t629#9932",
+            "url": "r9932",
             "simpleTitle": "ballad under the cover",
             "space": "el pensadero"
         },
@@ -69318,7 +69318,7 @@ const DBModule = (function () {
                 11,
                 1
             ],
-            "url": "/t629#10088",
+            "url": "r10088",
             "simpleTitle": "ballad under the cover",
             "space": "el pensadero"
         },
@@ -69327,7 +69327,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t629#10171",
+            "url": "r10171",
             "simpleTitle": "ballad under the cover",
             "space": "el pensadero"
         },
@@ -69336,7 +69336,7 @@ const DBModule = (function () {
             "spread": [
                 19
             ],
-            "url": "/t598#5081",
+            "url": "r5081",
             "simpleTitle": "práctica - the fault is in the stars",
             "space": "el pensadero"
         },
@@ -69345,7 +69345,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t598#5211",
+            "url": "r5211",
             "simpleTitle": "práctica - the fault is in the stars",
             "space": "el pensadero"
         },
@@ -69354,7 +69354,7 @@ const DBModule = (function () {
             "spread": [
                 9
             ],
-            "url": "/t598#5258",
+            "url": "r5258",
             "simpleTitle": "práctica - the fault is in the stars",
             "space": "el pensadero"
         },
@@ -69363,7 +69363,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t598#5288",
+            "url": "r5288",
             "simpleTitle": "práctica - the fault is in the stars",
             "space": "el pensadero"
         },
@@ -69372,7 +69372,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t598#6200",
+            "url": "r6200",
             "simpleTitle": "práctica - the fault is in the stars",
             "space": "el pensadero"
         },
@@ -69381,7 +69381,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t598#6267",
+            "url": "r6267",
             "simpleTitle": "práctica - the fault is in the stars",
             "space": "el pensadero"
         },
@@ -69390,7 +69390,7 @@ const DBModule = (function () {
             "spread": [
                 9
             ],
-            "url": "/t598#6616",
+            "url": "r6616",
             "simpleTitle": "práctica - the fault is in the stars",
             "space": "el pensadero"
         },
@@ -69399,7 +69399,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t598#7254",
+            "url": "r7254",
             "simpleTitle": "práctica - the fault is in the stars",
             "space": "el pensadero"
         },
@@ -69408,7 +69408,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t598#7392",
+            "url": "r7392",
             "simpleTitle": "práctica - the fault is in the stars",
             "space": "el pensadero"
         },
@@ -69417,7 +69417,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t598#7560",
+            "url": "r7560",
             "simpleTitle": "práctica - the fault is in the stars",
             "space": "el pensadero"
         },
@@ -69426,7 +69426,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t598#8487",
+            "url": "r8487",
             "simpleTitle": "práctica - the fault is in the stars",
             "space": "el pensadero"
         },
@@ -69435,7 +69435,7 @@ const DBModule = (function () {
             "spread": [
                 19
             ],
-            "url": "/t598#8811",
+            "url": "r8811",
             "simpleTitle": "práctica - the fault is in the stars",
             "space": "el pensadero"
         },
@@ -69444,7 +69444,7 @@ const DBModule = (function () {
             "spread": [
                 5
             ],
-            "url": "/t609#5538",
+            "url": "r5538",
             "simpleTitle": "clase dcao: más allá de la defensa",
             "space": "el pensadero"
         },
@@ -69453,7 +69453,7 @@ const DBModule = (function () {
             "spread": [
                 15
             ],
-            "url": "/t609#5686",
+            "url": "r5686",
             "simpleTitle": "clase dcao: más allá de la defensa",
             "space": "el pensadero"
         },
@@ -69463,7 +69463,7 @@ const DBModule = (function () {
                 14,
                 18
             ],
-            "url": "/t609#5692",
+            "url": "r5692",
             "simpleTitle": "clase dcao: más allá de la defensa",
             "space": "el pensadero"
         },
@@ -69472,7 +69472,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t609#5705",
+            "url": "r5705",
             "simpleTitle": "clase dcao: más allá de la defensa",
             "space": "el pensadero"
         },
@@ -69481,7 +69481,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t609#5845",
+            "url": "r5845",
             "simpleTitle": "clase dcao: más allá de la defensa",
             "space": "el pensadero"
         },
@@ -69490,7 +69490,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t609#5907",
+            "url": "r5907",
             "simpleTitle": "clase dcao: más allá de la defensa",
             "space": "el pensadero"
         },
@@ -69499,7 +69499,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t609#5909",
+            "url": "r5909",
             "simpleTitle": "clase dcao: más allá de la defensa",
             "space": "el pensadero"
         },
@@ -69509,7 +69509,7 @@ const DBModule = (function () {
                 2,
                 13
             ],
-            "url": "/t609#5931",
+            "url": "r5931",
             "simpleTitle": "clase dcao: más allá de la defensa",
             "space": "el pensadero"
         },
@@ -69519,7 +69519,7 @@ const DBModule = (function () {
                 15,
                 10
             ],
-            "url": "/t609#6075",
+            "url": "r6075",
             "simpleTitle": "clase dcao: más allá de la defensa",
             "space": "el pensadero"
         },
@@ -69528,7 +69528,7 @@ const DBModule = (function () {
             "spread": [
                 5
             ],
-            "url": "/t609#6352",
+            "url": "r6352",
             "simpleTitle": "clase dcao: más allá de la defensa",
             "space": "el pensadero"
         },
@@ -69537,7 +69537,7 @@ const DBModule = (function () {
             "spread": [
                 13
             ],
-            "url": "/t609#6376",
+            "url": "r6376",
             "simpleTitle": "clase dcao: más allá de la defensa",
             "space": "el pensadero"
         },
@@ -69546,7 +69546,7 @@ const DBModule = (function () {
             "spread": [
                 11
             ],
-            "url": "/t609#6691",
+            "url": "r6691",
             "simpleTitle": "clase dcao: más allá de la defensa",
             "space": "el pensadero"
         },
@@ -69555,7 +69555,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t609#6697",
+            "url": "r6697",
             "simpleTitle": "clase dcao: más allá de la defensa",
             "space": "el pensadero"
         },
@@ -69564,7 +69564,7 @@ const DBModule = (function () {
             "spread": [
                 5
             ],
-            "url": "/t609#6717",
+            "url": "r6717",
             "simpleTitle": "clase dcao: más allá de la defensa",
             "space": "el pensadero"
         },
@@ -69574,7 +69574,7 @@ const DBModule = (function () {
                 10,
                 13
             ],
-            "url": "/t609#6736",
+            "url": "r6736",
             "simpleTitle": "clase dcao: más allá de la defensa",
             "space": "el pensadero"
         },
@@ -69583,7 +69583,7 @@ const DBModule = (function () {
             "spread": [
                 11
             ],
-            "url": "/t609#6763",
+            "url": "r6763",
             "simpleTitle": "clase dcao: más allá de la defensa",
             "space": "el pensadero"
         },
@@ -69592,7 +69592,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t609#6780",
+            "url": "r6780",
             "simpleTitle": "clase dcao: más allá de la defensa",
             "space": "el pensadero"
         },
@@ -69601,7 +69601,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t609#6817",
+            "url": "r6817",
             "simpleTitle": "clase dcao: más allá de la defensa",
             "space": "el pensadero"
         },
@@ -69610,7 +69610,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t609#6823",
+            "url": "r6823",
             "simpleTitle": "clase dcao: más allá de la defensa",
             "space": "el pensadero"
         },
@@ -69620,7 +69620,7 @@ const DBModule = (function () {
                 14,
                 7
             ],
-            "url": "/t609#6835",
+            "url": "r6835",
             "simpleTitle": "clase dcao: más allá de la defensa",
             "space": "el pensadero"
         },
@@ -69630,7 +69630,7 @@ const DBModule = (function () {
                 19,
                 16
             ],
-            "url": "/t609#6850",
+            "url": "r6850",
             "simpleTitle": "clase dcao: más allá de la defensa",
             "space": "el pensadero"
         },
@@ -69639,7 +69639,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t609#6881",
+            "url": "r6881",
             "simpleTitle": "clase dcao: más allá de la defensa",
             "space": "el pensadero"
         },
@@ -69648,7 +69648,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t609#6895",
+            "url": "r6895",
             "simpleTitle": "clase dcao: más allá de la defensa",
             "space": "el pensadero"
         },
@@ -69657,7 +69657,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t609#7116",
+            "url": "r7116",
             "simpleTitle": "clase dcao: más allá de la defensa",
             "space": "el pensadero"
         },
@@ -69666,7 +69666,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t609#7192",
+            "url": "r7192",
             "simpleTitle": "clase dcao: más allá de la defensa",
             "space": "el pensadero"
         },
@@ -69675,7 +69675,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t609#7207",
+            "url": "r7207",
             "simpleTitle": "clase dcao: más allá de la defensa",
             "space": "el pensadero"
         },
@@ -69684,7 +69684,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t609#7212",
+            "url": "r7212",
             "simpleTitle": "clase dcao: más allá de la defensa",
             "space": "el pensadero"
         },
@@ -69693,7 +69693,7 @@ const DBModule = (function () {
             "spread": [
                 3
             ],
-            "url": "/t609#7293",
+            "url": "r7293",
             "simpleTitle": "clase dcao: más allá de la defensa",
             "space": "el pensadero"
         },
@@ -69702,7 +69702,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t609#7369",
+            "url": "r7369",
             "simpleTitle": "clase dcao: más allá de la defensa",
             "space": "el pensadero"
         },
@@ -69711,7 +69711,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t609#8279",
+            "url": "r8279",
             "simpleTitle": "clase dcao: más allá de la defensa",
             "space": "el pensadero"
         },
@@ -69720,7 +69720,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t609#8281",
+            "url": "r8281",
             "simpleTitle": "clase dcao: más allá de la defensa",
             "space": "el pensadero"
         },
@@ -69729,7 +69729,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t609#8587",
+            "url": "r8587",
             "simpleTitle": "clase dcao: más allá de la defensa",
             "space": "el pensadero"
         },
@@ -69738,7 +69738,7 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "url": "/t609#8698",
+            "url": "r8698",
             "simpleTitle": "clase dcao: más allá de la defensa",
             "space": "el pensadero"
         },
@@ -69747,7 +69747,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t609#8764",
+            "url": "r8764",
             "simpleTitle": "clase dcao: más allá de la defensa",
             "space": "el pensadero"
         },
@@ -69756,7 +69756,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t610#6287",
+            "url": "r6287",
             "simpleTitle": "clase dcao: explora tus miedos",
             "space": "el pensadero"
         },
@@ -69765,7 +69765,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t610#6357",
+            "url": "r6357",
             "simpleTitle": "clase dcao: explora tus miedos",
             "space": "el pensadero"
         },
@@ -69775,7 +69775,7 @@ const DBModule = (function () {
                 8,
                 6
             ],
-            "url": "/t610#6462",
+            "url": "r6462",
             "simpleTitle": "clase dcao: explora tus miedos",
             "space": "el pensadero"
         },
@@ -69785,7 +69785,7 @@ const DBModule = (function () {
                 18,
                 20
             ],
-            "url": "/t610#6838",
+            "url": "r6838",
             "simpleTitle": "clase dcao: explora tus miedos",
             "space": "el pensadero"
         },
@@ -69795,7 +69795,7 @@ const DBModule = (function () {
                 17,
                 19
             ],
-            "url": "/t610#6866",
+            "url": "r6866",
             "simpleTitle": "clase dcao: explora tus miedos",
             "space": "el pensadero"
         },
@@ -69805,7 +69805,7 @@ const DBModule = (function () {
                 3,
                 5
             ],
-            "url": "/t610#6868",
+            "url": "r6868",
             "simpleTitle": "clase dcao: explora tus miedos",
             "space": "el pensadero"
         },
@@ -69815,7 +69815,7 @@ const DBModule = (function () {
                 18,
                 19
             ],
-            "url": "/t610#6870",
+            "url": "r6870",
             "simpleTitle": "clase dcao: explora tus miedos",
             "space": "el pensadero"
         },
@@ -69825,7 +69825,7 @@ const DBModule = (function () {
                 12,
                 12
             ],
-            "url": "/t610#6889",
+            "url": "r6889",
             "simpleTitle": "clase dcao: explora tus miedos",
             "space": "el pensadero"
         },
@@ -69835,7 +69835,7 @@ const DBModule = (function () {
                 10,
                 5
             ],
-            "url": "/t610#7743",
+            "url": "r7743",
             "simpleTitle": "clase dcao: explora tus miedos",
             "space": "el pensadero"
         },
@@ -69845,7 +69845,7 @@ const DBModule = (function () {
                 17,
                 20
             ],
-            "url": "/t610#8723",
+            "url": "r8723",
             "simpleTitle": "clase dcao: explora tus miedos",
             "space": "el pensadero"
         },
@@ -69855,7 +69855,7 @@ const DBModule = (function () {
                 16,
                 2
             ],
-            "url": "/t610#8752",
+            "url": "r8752",
             "simpleTitle": "clase dcao: explora tus miedos",
             "space": "el pensadero"
         },
@@ -69864,7 +69864,7 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "url": "/t562#4760",
+            "url": "r4760",
             "simpleTitle": "investigación - the beryl ash trail",
             "space": "el pensadero"
         },
@@ -69873,7 +69873,7 @@ const DBModule = (function () {
             "spread": [
                 9
             ],
-            "url": "/t562#4811",
+            "url": "r4811",
             "simpleTitle": "investigación - the beryl ash trail",
             "space": "el pensadero"
         },
@@ -69882,7 +69882,7 @@ const DBModule = (function () {
             "spread": [
                 13
             ],
-            "url": "/t562#4826",
+            "url": "r4826",
             "simpleTitle": "investigación - the beryl ash trail",
             "space": "el pensadero"
         },
@@ -69892,7 +69892,7 @@ const DBModule = (function () {
                 17,
                 13
             ],
-            "url": "/t562#4981",
+            "url": "r4981",
             "simpleTitle": "investigación - the beryl ash trail",
             "space": "el pensadero"
         },
@@ -69901,7 +69901,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t562#5020",
+            "url": "r5020",
             "simpleTitle": "investigación - the beryl ash trail",
             "space": "el pensadero"
         },
@@ -69910,7 +69910,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t562#5068",
+            "url": "r5068",
             "simpleTitle": "investigación - the beryl ash trail",
             "space": "el pensadero"
         },
@@ -69919,7 +69919,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t562#5100",
+            "url": "r5100",
             "simpleTitle": "investigación - the beryl ash trail",
             "space": "el pensadero"
         },
@@ -69928,7 +69928,7 @@ const DBModule = (function () {
             "spread": [
                 6
             ],
-            "url": "/t562#5113",
+            "url": "r5113",
             "simpleTitle": "investigación - the beryl ash trail",
             "space": "el pensadero"
         },
@@ -69937,7 +69937,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t562#5116",
+            "url": "r5116",
             "simpleTitle": "investigación - the beryl ash trail",
             "space": "el pensadero"
         },
@@ -69946,7 +69946,7 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "url": "/t562#5199",
+            "url": "r5199",
             "simpleTitle": "investigación - the beryl ash trail",
             "space": "el pensadero"
         },
@@ -69955,7 +69955,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t562#5239",
+            "url": "r5239",
             "simpleTitle": "investigación - the beryl ash trail",
             "space": "el pensadero"
         },
@@ -69964,7 +69964,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t562#5291",
+            "url": "r5291",
             "simpleTitle": "investigación - the beryl ash trail",
             "space": "el pensadero"
         },
@@ -69974,7 +69974,7 @@ const DBModule = (function () {
                 3,
                 2
             ],
-            "url": "/t562#5337",
+            "url": "r5337",
             "simpleTitle": "investigación - the beryl ash trail",
             "space": "el pensadero"
         },
@@ -69983,7 +69983,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t562#5394",
+            "url": "r5394",
             "simpleTitle": "investigación - the beryl ash trail",
             "space": "el pensadero"
         },
@@ -69992,7 +69992,7 @@ const DBModule = (function () {
             "spread": [
                 9
             ],
-            "url": "/t562#5412",
+            "url": "r5412",
             "simpleTitle": "investigación - the beryl ash trail",
             "space": "el pensadero"
         },
@@ -70001,7 +70001,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t562#5425",
+            "url": "r5425",
             "simpleTitle": "investigación - the beryl ash trail",
             "space": "el pensadero"
         },
@@ -70010,7 +70010,7 @@ const DBModule = (function () {
             "spread": [
                 5
             ],
-            "url": "/t562#5516",
+            "url": "r5516",
             "simpleTitle": "investigación - the beryl ash trail",
             "space": "el pensadero"
         },
@@ -70019,7 +70019,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t583#12499",
+            "url": "r12499",
             "simpleTitle": "little raven",
             "space": "el pensadero"
         },
@@ -70028,7 +70028,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t632#10932",
+            "url": "r10932",
             "simpleTitle": "el laberinto del minotauro",
             "space": "el pensadero"
         },
@@ -70037,7 +70037,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t559#4631",
+            "url": "r4631",
             "simpleTitle": "misión - potions for all the afflections",
             "space": "el pensadero"
         },
@@ -70046,7 +70046,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t559#4661",
+            "url": "r4661",
             "simpleTitle": "misión - potions for all the afflections",
             "space": "el pensadero"
         },
@@ -70056,7 +70056,7 @@ const DBModule = (function () {
                 11,
                 20
             ],
-            "url": "/t559#4686",
+            "url": "r4686",
             "simpleTitle": "misión - potions for all the afflections",
             "space": "el pensadero"
         },
@@ -70065,7 +70065,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t559#4693",
+            "url": "r4693",
             "simpleTitle": "misión - potions for all the afflections",
             "space": "el pensadero"
         },
@@ -70074,7 +70074,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t559#4996",
+            "url": "r4996",
             "simpleTitle": "misión - potions for all the afflections",
             "space": "el pensadero"
         },
@@ -70084,7 +70084,7 @@ const DBModule = (function () {
                 5,
                 3
             ],
-            "url": "/t559#4999",
+            "url": "r4999",
             "simpleTitle": "misión - potions for all the afflections",
             "space": "el pensadero"
         },
@@ -70093,7 +70093,7 @@ const DBModule = (function () {
             "spread": [
                 11
             ],
-            "url": "/t559#5025",
+            "url": "r5025",
             "simpleTitle": "misión - potions for all the afflections",
             "space": "el pensadero"
         },
@@ -70102,7 +70102,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t559#5339",
+            "url": "r5339",
             "simpleTitle": "misión - potions for all the afflections",
             "space": "el pensadero"
         },
@@ -70111,7 +70111,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t559#5384",
+            "url": "r5384",
             "simpleTitle": "misión - potions for all the afflections",
             "space": "el pensadero"
         },
@@ -70120,7 +70120,7 @@ const DBModule = (function () {
             "spread": [
                 13
             ],
-            "url": "/t559#5386",
+            "url": "r5386",
             "simpleTitle": "misión - potions for all the afflections",
             "space": "el pensadero"
         },
@@ -70129,7 +70129,7 @@ const DBModule = (function () {
             "spread": [
                 19
             ],
-            "url": "/t559#5388",
+            "url": "r5388",
             "simpleTitle": "misión - potions for all the afflections",
             "space": "el pensadero"
         },
@@ -70138,7 +70138,7 @@ const DBModule = (function () {
             "spread": [
                 6
             ],
-            "url": "/t559#5392",
+            "url": "r5392",
             "simpleTitle": "misión - potions for all the afflections",
             "space": "el pensadero"
         },
@@ -70147,7 +70147,7 @@ const DBModule = (function () {
             "spread": [
                 3
             ],
-            "url": "/t559#5891",
+            "url": "r5891",
             "simpleTitle": "misión - potions for all the afflections",
             "space": "el pensadero"
         },
@@ -70156,7 +70156,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t559#5905",
+            "url": "r5905",
             "simpleTitle": "misión - potions for all the afflections",
             "space": "el pensadero"
         },
@@ -70165,7 +70165,7 @@ const DBModule = (function () {
             "spread": [
                 9
             ],
-            "url": "/t559#6127",
+            "url": "r6127",
             "simpleTitle": "misión - potions for all the afflections",
             "space": "el pensadero"
         },
@@ -70174,7 +70174,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t559#6195",
+            "url": "r6195",
             "simpleTitle": "misión - potions for all the afflections",
             "space": "el pensadero"
         },
@@ -70183,7 +70183,7 @@ const DBModule = (function () {
             "spread": [
                 18
             ],
-            "url": "/t559#6214",
+            "url": "r6214",
             "simpleTitle": "misión - potions for all the afflections",
             "space": "el pensadero"
         },
@@ -70192,7 +70192,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t559#6250",
+            "url": "r6250",
             "simpleTitle": "misión - potions for all the afflections",
             "space": "el pensadero"
         },
@@ -70201,7 +70201,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t559#6280",
+            "url": "r6280",
             "simpleTitle": "misión - potions for all the afflections",
             "space": "el pensadero"
         },
@@ -70210,7 +70210,7 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "url": "/t559#6282",
+            "url": "r6282",
             "simpleTitle": "misión - potions for all the afflections",
             "space": "el pensadero"
         },
@@ -70220,7 +70220,7 @@ const DBModule = (function () {
                 19,
                 17
             ],
-            "url": "/t559#6382",
+            "url": "r6382",
             "simpleTitle": "misión - potions for all the afflections",
             "space": "el pensadero"
         },
@@ -70229,7 +70229,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t559#6409",
+            "url": "r6409",
             "simpleTitle": "misión - potions for all the afflections",
             "space": "el pensadero"
         },
@@ -70238,7 +70238,7 @@ const DBModule = (function () {
             "spread": [
                 5
             ],
-            "url": "/t559#6422",
+            "url": "r6422",
             "simpleTitle": "misión - potions for all the afflections",
             "space": "el pensadero"
         },
@@ -70248,7 +70248,7 @@ const DBModule = (function () {
                 11,
                 7
             ],
-            "url": "/t559#6640",
+            "url": "r6640",
             "simpleTitle": "misión - potions for all the afflections",
             "space": "el pensadero"
         },
@@ -70257,7 +70257,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t559#6715",
+            "url": "r6715",
             "simpleTitle": "misión - potions for all the afflections",
             "space": "el pensadero"
         },
@@ -70266,7 +70266,7 @@ const DBModule = (function () {
             "spread": [
                 18
             ],
-            "url": "/t559#6765",
+            "url": "r6765",
             "simpleTitle": "misión - potions for all the afflections",
             "space": "el pensadero"
         },
@@ -70276,7 +70276,7 @@ const DBModule = (function () {
                 14,
                 4
             ],
-            "url": "/t559#6784",
+            "url": "r6784",
             "simpleTitle": "misión - potions for all the afflections",
             "space": "el pensadero"
         },
@@ -70285,7 +70285,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t559#6827",
+            "url": "r6827",
             "simpleTitle": "misión - potions for all the afflections",
             "space": "el pensadero"
         },
@@ -70294,7 +70294,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t559#6830",
+            "url": "r6830",
             "simpleTitle": "misión - potions for all the afflections",
             "space": "el pensadero"
         },
@@ -70303,7 +70303,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t559#6840",
+            "url": "r6840",
             "simpleTitle": "misión - potions for all the afflections",
             "space": "el pensadero"
         },
@@ -70312,7 +70312,7 @@ const DBModule = (function () {
             "spread": [
                 19
             ],
-            "url": "/t559#6939",
+            "url": "r6939",
             "simpleTitle": "misión - potions for all the afflections",
             "space": "el pensadero"
         },
@@ -70321,7 +70321,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t559#6988",
+            "url": "r6988",
             "simpleTitle": "misión - potions for all the afflections",
             "space": "el pensadero"
         },
@@ -70330,7 +70330,7 @@ const DBModule = (function () {
             "spread": [
                 13
             ],
-            "url": "/t559#6997",
+            "url": "r6997",
             "simpleTitle": "misión - potions for all the afflections",
             "space": "el pensadero"
         },
@@ -70339,7 +70339,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t559#7112",
+            "url": "r7112",
             "simpleTitle": "misión - potions for all the afflections",
             "space": "el pensadero"
         },
@@ -70348,7 +70348,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t559#7139",
+            "url": "r7139",
             "simpleTitle": "misión - potions for all the afflections",
             "space": "el pensadero"
         },
@@ -70357,7 +70357,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t489#3807",
+            "url": "r3807",
             "simpleTitle": "práctica - out of mana",
             "space": "el pensadero"
         },
@@ -70366,7 +70366,7 @@ const DBModule = (function () {
             "spread": [
                 18
             ],
-            "url": "/t489#3811",
+            "url": "r3811",
             "simpleTitle": "práctica - out of mana",
             "space": "el pensadero"
         },
@@ -70375,7 +70375,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t489#3816",
+            "url": "r3816",
             "simpleTitle": "práctica - out of mana",
             "space": "el pensadero"
         },
@@ -70384,7 +70384,7 @@ const DBModule = (function () {
             "spread": [
                 19
             ],
-            "url": "/t489#3821",
+            "url": "r3821",
             "simpleTitle": "práctica - out of mana",
             "space": "el pensadero"
         },
@@ -70393,7 +70393,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t523#4279",
+            "url": "r4279",
             "simpleTitle": "investigación - commander's orders",
             "space": "el pensadero"
         },
@@ -70402,7 +70402,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t523#4306",
+            "url": "r4306",
             "simpleTitle": "investigación - commander's orders",
             "space": "el pensadero"
         },
@@ -70411,7 +70411,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t523#4323",
+            "url": "r4323",
             "simpleTitle": "investigación - commander's orders",
             "space": "el pensadero"
         },
@@ -70420,7 +70420,7 @@ const DBModule = (function () {
             "spread": [
                 13
             ],
-            "url": "/t523#4372",
+            "url": "r4372",
             "simpleTitle": "investigación - commander's orders",
             "space": "el pensadero"
         },
@@ -70430,7 +70430,7 @@ const DBModule = (function () {
                 20,
                 5
             ],
-            "url": "/t523#4413",
+            "url": "r4413",
             "simpleTitle": "investigación - commander's orders",
             "space": "el pensadero"
         },
@@ -70439,7 +70439,7 @@ const DBModule = (function () {
             "spread": [
                 6
             ],
-            "url": "/t523#4622",
+            "url": "r4622",
             "simpleTitle": "investigación - commander's orders",
             "space": "el pensadero"
         },
@@ -70449,7 +70449,7 @@ const DBModule = (function () {
                 1,
                 4
             ],
-            "url": "/t523#4684",
+            "url": "r4684",
             "simpleTitle": "investigación - commander's orders",
             "space": "el pensadero"
         },
@@ -70458,7 +70458,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t523#4697",
+            "url": "r4697",
             "simpleTitle": "investigación - commander's orders",
             "space": "el pensadero"
         },
@@ -70467,7 +70467,7 @@ const DBModule = (function () {
             "spread": [
                 11
             ],
-            "url": "/t523#4733",
+            "url": "r4733",
             "simpleTitle": "investigación - commander's orders",
             "space": "el pensadero"
         },
@@ -70476,7 +70476,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t523#4741",
+            "url": "r4741",
             "simpleTitle": "investigación - commander's orders",
             "space": "el pensadero"
         },
@@ -70485,7 +70485,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t474#3571",
+            "url": "r3571",
             "simpleTitle": "evento - ruleta de duelos: asteria vs findlay",
             "space": "el pensadero"
         },
@@ -70494,7 +70494,7 @@ const DBModule = (function () {
             "spread": [
                 3
             ],
-            "url": "/t474#3661",
+            "url": "r3661",
             "simpleTitle": "evento - ruleta de duelos: asteria vs findlay",
             "space": "el pensadero"
         },
@@ -70504,7 +70504,7 @@ const DBModule = (function () {
                 14,
                 5
             ],
-            "url": "/t474#3883",
+            "url": "r3883",
             "simpleTitle": "evento - ruleta de duelos: asteria vs findlay",
             "space": "el pensadero"
         },
@@ -70514,7 +70514,7 @@ const DBModule = (function () {
                 16,
                 18
             ],
-            "url": "/t474#4254",
+            "url": "r4254",
             "simpleTitle": "evento - ruleta de duelos: asteria vs findlay",
             "space": "el pensadero"
         },
@@ -70524,7 +70524,7 @@ const DBModule = (function () {
                 2,
                 10
             ],
-            "url": "/t474#4394",
+            "url": "r4394",
             "simpleTitle": "evento - ruleta de duelos: asteria vs findlay",
             "space": "el pensadero"
         },
@@ -70534,7 +70534,7 @@ const DBModule = (function () {
                 12,
                 10
             ],
-            "url": "/t474#4753",
+            "url": "r4753",
             "simpleTitle": "evento - ruleta de duelos: asteria vs findlay",
             "space": "el pensadero"
         },
@@ -70544,7 +70544,7 @@ const DBModule = (function () {
                 17,
                 4
             ],
-            "url": "/t474#4802",
+            "url": "r4802",
             "simpleTitle": "evento - ruleta de duelos: asteria vs findlay",
             "space": "el pensadero"
         },
@@ -70553,7 +70553,7 @@ const DBModule = (function () {
             "spread": [
                 15
             ],
-            "url": "/t474#5442",
+            "url": "r5442",
             "simpleTitle": "evento - ruleta de duelos: asteria vs findlay",
             "space": "el pensadero"
         },
@@ -70563,7 +70563,7 @@ const DBModule = (function () {
                 6,
                 7
             ],
-            "url": "/t474#5762",
+            "url": "r5762",
             "simpleTitle": "evento - ruleta de duelos: asteria vs findlay",
             "space": "el pensadero"
         },
@@ -70572,7 +70572,7 @@ const DBModule = (function () {
             "spread": [
                 3
             ],
-            "url": "/t546#7243",
+            "url": "r7243",
             "simpleTitle": "inside the fire",
             "space": "el pensadero"
         },
@@ -70581,7 +70581,7 @@ const DBModule = (function () {
             "spread": [
                 19
             ],
-            "url": "/t546#7252",
+            "url": "r7252",
             "simpleTitle": "inside the fire",
             "space": "el pensadero"
         },
@@ -70590,7 +70590,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t546#7930",
+            "url": "r7930",
             "simpleTitle": "inside the fire",
             "space": "el pensadero"
         },
@@ -70599,7 +70599,7 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "url": "/t546#8228",
+            "url": "r8228",
             "simpleTitle": "inside the fire",
             "space": "el pensadero"
         },
@@ -70608,7 +70608,7 @@ const DBModule = (function () {
             "spread": [
                 6
             ],
-            "url": "/t546#9320",
+            "url": "r9320",
             "simpleTitle": "inside the fire",
             "space": "el pensadero"
         },
@@ -70617,7 +70617,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t546#9359",
+            "url": "r9359",
             "simpleTitle": "inside the fire",
             "space": "el pensadero"
         },
@@ -70626,7 +70626,7 @@ const DBModule = (function () {
             "spread": [
                 11
             ],
-            "url": "/t546#10117",
+            "url": "r10117",
             "simpleTitle": "inside the fire",
             "space": "el pensadero"
         },
@@ -70635,7 +70635,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t536#4376",
+            "url": "r4376",
             "simpleTitle": "práctica - want to grab a coffee some time?",
             "space": "el pensadero"
         },
@@ -70644,7 +70644,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t536#4381",
+            "url": "r4381",
             "simpleTitle": "práctica - want to grab a coffee some time?",
             "space": "el pensadero"
         },
@@ -70653,7 +70653,7 @@ const DBModule = (function () {
             "spread": [
                 11
             ],
-            "url": "/t536#4384",
+            "url": "r4384",
             "simpleTitle": "práctica - want to grab a coffee some time?",
             "space": "el pensadero"
         },
@@ -70662,7 +70662,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t536#4386",
+            "url": "r4386",
             "simpleTitle": "práctica - want to grab a coffee some time?",
             "space": "el pensadero"
         },
@@ -70671,7 +70671,7 @@ const DBModule = (function () {
             "spread": [
                 3
             ],
-            "url": "/t536#4392",
+            "url": "r4392",
             "simpleTitle": "práctica - want to grab a coffee some time?",
             "space": "el pensadero"
         },
@@ -70680,7 +70680,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t536#4401",
+            "url": "r4401",
             "simpleTitle": "práctica - want to grab a coffee some time?",
             "space": "el pensadero"
         },
@@ -70690,7 +70690,7 @@ const DBModule = (function () {
                 11,
                 14
             ],
-            "url": "/t536#4421",
+            "url": "r4421",
             "simpleTitle": "práctica - want to grab a coffee some time?",
             "space": "el pensadero"
         },
@@ -70699,7 +70699,7 @@ const DBModule = (function () {
             "spread": [
                 3
             ],
-            "url": "/t536#4425",
+            "url": "r4425",
             "simpleTitle": "práctica - want to grab a coffee some time?",
             "space": "el pensadero"
         },
@@ -70708,7 +70708,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t536#4427",
+            "url": "r4427",
             "simpleTitle": "práctica - want to grab a coffee some time?",
             "space": "el pensadero"
         },
@@ -70717,7 +70717,7 @@ const DBModule = (function () {
             "spread": [
                 15
             ],
-            "url": "/t536#4429",
+            "url": "r4429",
             "simpleTitle": "práctica - want to grab a coffee some time?",
             "space": "el pensadero"
         },
@@ -70726,7 +70726,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t540#4450",
+            "url": "r4450",
             "simpleTitle": "práctica - the little mess they made",
             "space": "el pensadero"
         },
@@ -70735,7 +70735,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t540#4476",
+            "url": "r4476",
             "simpleTitle": "práctica - the little mess they made",
             "space": "el pensadero"
         },
@@ -70744,7 +70744,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t540#5005",
+            "url": "r5005",
             "simpleTitle": "práctica - the little mess they made",
             "space": "el pensadero"
         },
@@ -70753,7 +70753,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t540#5047",
+            "url": "r5047",
             "simpleTitle": "práctica - the little mess they made",
             "space": "el pensadero"
         },
@@ -70762,7 +70762,7 @@ const DBModule = (function () {
             "spread": [
                 13
             ],
-            "url": "/t540#5551",
+            "url": "r5551",
             "simpleTitle": "práctica - the little mess they made",
             "space": "el pensadero"
         },
@@ -70771,7 +70771,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t540#5568",
+            "url": "r5568",
             "simpleTitle": "práctica - the little mess they made",
             "space": "el pensadero"
         },
@@ -70780,7 +70780,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t589#5362",
+            "url": "r5362",
             "simpleTitle": "nevermore",
             "space": "el pensadero"
         },
@@ -70789,7 +70789,7 @@ const DBModule = (function () {
             "spread": [
                 11
             ],
-            "url": "/t589#7077",
+            "url": "r7077",
             "simpleTitle": "nevermore",
             "space": "el pensadero"
         },
@@ -70798,7 +70798,7 @@ const DBModule = (function () {
             "spread": [
                 18
             ],
-            "url": "/t589#7926",
+            "url": "r7926",
             "simpleTitle": "nevermore",
             "space": "el pensadero"
         },
@@ -70807,7 +70807,7 @@ const DBModule = (function () {
             "spread": [
                 13
             ],
-            "url": "/t589#10575",
+            "url": "r10575",
             "simpleTitle": "nevermore",
             "space": "el pensadero"
         },
@@ -70816,7 +70816,7 @@ const DBModule = (function () {
             "spread": [
                 18
             ],
-            "url": "/t549#7260",
+            "url": "r7260",
             "simpleTitle": "hold on to the memories",
             "space": "el pensadero"
         },
@@ -70825,7 +70825,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t549#7754",
+            "url": "r7754",
             "simpleTitle": "hold on to the memories",
             "space": "el pensadero"
         },
@@ -70834,7 +70834,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t522#4205",
+            "url": "r4205",
             "simpleTitle": "investigación - botanical market",
             "space": "el pensadero"
         },
@@ -70843,7 +70843,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t522#4281",
+            "url": "r4281",
             "simpleTitle": "investigación - botanical market",
             "space": "el pensadero"
         },
@@ -70852,7 +70852,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t522#4340",
+            "url": "r4340",
             "simpleTitle": "investigación - botanical market",
             "space": "el pensadero"
         },
@@ -70861,7 +70861,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t522#4390",
+            "url": "r4390",
             "simpleTitle": "investigación - botanical market",
             "space": "el pensadero"
         },
@@ -70870,7 +70870,7 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "url": "/t522#4423",
+            "url": "r4423",
             "simpleTitle": "investigación - botanical market",
             "space": "el pensadero"
         },
@@ -70879,7 +70879,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t522#4680",
+            "url": "r4680",
             "simpleTitle": "investigación - botanical market",
             "space": "el pensadero"
         },
@@ -70888,7 +70888,7 @@ const DBModule = (function () {
             "spread": [
                 15
             ],
-            "url": "/t522#4723",
+            "url": "r4723",
             "simpleTitle": "investigación - botanical market",
             "space": "el pensadero"
         },
@@ -70897,7 +70897,7 @@ const DBModule = (function () {
             "spread": [
                 18
             ],
-            "url": "/t522#4815",
+            "url": "r4815",
             "simpleTitle": "investigación - botanical market",
             "space": "el pensadero"
         },
@@ -70906,7 +70906,7 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "url": "/t522#4986",
+            "url": "r4986",
             "simpleTitle": "investigación - botanical market",
             "space": "el pensadero"
         },
@@ -70915,7 +70915,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t522#5017",
+            "url": "r5017",
             "simpleTitle": "investigación - botanical market",
             "space": "el pensadero"
         },
@@ -70924,7 +70924,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t505#6512",
+            "url": "r6512",
             "simpleTitle": "hard to teach",
             "space": "el pensadero"
         },
@@ -70935,7 +70935,7 @@ const DBModule = (function () {
                 17,
                 4
             ],
-            "url": "/t456#3341",
+            "url": "r3341",
             "simpleTitle": "partido - gryffindor vs. ravenclaw",
             "space": "el pensadero"
         },
@@ -70946,7 +70946,7 @@ const DBModule = (function () {
                 13,
                 15
             ],
-            "url": "/t456#3361",
+            "url": "r3361",
             "simpleTitle": "partido - gryffindor vs. ravenclaw",
             "space": "el pensadero"
         },
@@ -70957,7 +70957,7 @@ const DBModule = (function () {
                 10,
                 4
             ],
-            "url": "/t456#3433",
+            "url": "r3433",
             "simpleTitle": "partido - gryffindor vs. ravenclaw",
             "space": "el pensadero"
         },
@@ -70968,7 +70968,7 @@ const DBModule = (function () {
                 14,
                 11
             ],
-            "url": "/t456#3502",
+            "url": "r3502",
             "simpleTitle": "partido - gryffindor vs. ravenclaw",
             "space": "el pensadero"
         },
@@ -70980,7 +70980,7 @@ const DBModule = (function () {
                 3,
                 3
             ],
-            "url": "/t456#3506",
+            "url": "r3506",
             "simpleTitle": "partido - gryffindor vs. ravenclaw",
             "space": "el pensadero"
         },
@@ -70989,7 +70989,7 @@ const DBModule = (function () {
             "spread": [
                 19
             ],
-            "url": "/t550#4962",
+            "url": "r4962",
             "simpleTitle": "bedknobs and broomsticks",
             "space": "el pensadero"
         },
@@ -70998,7 +70998,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t550#5136",
+            "url": "r5136",
             "simpleTitle": "bedknobs and broomsticks",
             "space": "el pensadero"
         },
@@ -71007,7 +71007,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t518#4404",
+            "url": "r4404",
             "simpleTitle": "práctica - running down a dream",
             "space": "el pensadero"
         },
@@ -71016,7 +71016,7 @@ const DBModule = (function () {
             "spread": [
                 5
             ],
-            "url": "/t518#4587",
+            "url": "r4587",
             "simpleTitle": "práctica - running down a dream",
             "space": "el pensadero"
         },
@@ -71025,7 +71025,7 @@ const DBModule = (function () {
             "spread": [
                 19
             ],
-            "url": "/t518#4851",
+            "url": "r4851",
             "simpleTitle": "práctica - running down a dream",
             "space": "el pensadero"
         },
@@ -71035,7 +71035,7 @@ const DBModule = (function () {
                 12,
                 12
             ],
-            "url": "/t518#5321",
+            "url": "r5321",
             "simpleTitle": "práctica - running down a dream",
             "space": "el pensadero"
         },
@@ -71044,7 +71044,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t535#4347",
+            "url": "r4347",
             "simpleTitle": "duelo #4: asteria vs iarlaith",
             "space": "el pensadero"
         },
@@ -71053,7 +71053,7 @@ const DBModule = (function () {
             "spread": [
                 5
             ],
-            "url": "/t535#4353",
+            "url": "r4353",
             "simpleTitle": "duelo #4: asteria vs iarlaith",
             "space": "el pensadero"
         },
@@ -71063,7 +71063,7 @@ const DBModule = (function () {
                 16,
                 8
             ],
-            "url": "/t535#4398",
+            "url": "r4398",
             "simpleTitle": "duelo #4: asteria vs iarlaith",
             "space": "el pensadero"
         },
@@ -71073,7 +71073,7 @@ const DBModule = (function () {
                 10,
                 14
             ],
-            "url": "/t535#4417",
+            "url": "r4417",
             "simpleTitle": "duelo #4: asteria vs iarlaith",
             "space": "el pensadero"
         },
@@ -71083,7 +71083,7 @@ const DBModule = (function () {
                 10,
                 2
             ],
-            "url": "/t535#4554",
+            "url": "r4554",
             "simpleTitle": "duelo #4: asteria vs iarlaith",
             "space": "el pensadero"
         },
@@ -71092,7 +71092,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t535#4604",
+            "url": "r4604",
             "simpleTitle": "duelo #4: asteria vs iarlaith",
             "space": "el pensadero"
         },
@@ -71102,7 +71102,7 @@ const DBModule = (function () {
                 7,
                 2
             ],
-            "url": "/t535#4715",
+            "url": "r4715",
             "simpleTitle": "duelo #4: asteria vs iarlaith",
             "space": "el pensadero"
         },
@@ -71112,7 +71112,7 @@ const DBModule = (function () {
                 20,
                 12
             ],
-            "url": "/t535#4720",
+            "url": "r4720",
             "simpleTitle": "duelo #4: asteria vs iarlaith",
             "space": "el pensadero"
         },
@@ -71121,7 +71121,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t535#4800",
+            "url": "r4800",
             "simpleTitle": "duelo #4: asteria vs iarlaith",
             "space": "el pensadero"
         },
@@ -71130,7 +71130,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t535#4831",
+            "url": "r4831",
             "simpleTitle": "duelo #4: asteria vs iarlaith",
             "space": "el pensadero"
         },
@@ -71140,7 +71140,7 @@ const DBModule = (function () {
                 3,
                 19
             ],
-            "url": "/t535#5444",
+            "url": "r5444",
             "simpleTitle": "duelo #4: asteria vs iarlaith",
             "space": "el pensadero"
         },
@@ -71149,7 +71149,7 @@ const DBModule = (function () {
             "spread": [
                 13
             ],
-            "url": "/t490#5694",
+            "url": "r5694",
             "simpleTitle": "dog delivery service",
             "space": "el pensadero"
         },
@@ -71159,7 +71159,7 @@ const DBModule = (function () {
                 3,
                 17
             ],
-            "url": "/t526#4260",
+            "url": "r4260",
             "simpleTitle": "práctica - brewing point",
             "space": "el pensadero"
         },
@@ -71169,7 +71169,7 @@ const DBModule = (function () {
                 18,
                 6
             ],
-            "url": "/t526#4310",
+            "url": "r4310",
             "simpleTitle": "práctica - brewing point",
             "space": "el pensadero"
         },
@@ -71179,7 +71179,7 @@ const DBModule = (function () {
                 1,
                 6
             ],
-            "url": "/t526#4320",
+            "url": "r4320",
             "simpleTitle": "práctica - brewing point",
             "space": "el pensadero"
         },
@@ -71189,7 +71189,7 @@ const DBModule = (function () {
                 10,
                 18
             ],
-            "url": "/t526#5089",
+            "url": "r5089",
             "simpleTitle": "práctica - brewing point",
             "space": "el pensadero"
         },
@@ -71199,7 +71199,7 @@ const DBModule = (function () {
                 5,
                 2
             ],
-            "url": "/t457#3378",
+            "url": "r3378",
             "simpleTitle": "practica - basic being basic",
             "space": "el pensadero"
         },
@@ -71209,7 +71209,7 @@ const DBModule = (function () {
                 4,
                 12
             ],
-            "url": "/t457#4139",
+            "url": "r4139",
             "simpleTitle": "practica - basic being basic",
             "space": "el pensadero"
         },
@@ -71218,7 +71218,7 @@ const DBModule = (function () {
             "spread": [
                 19
             ],
-            "url": "/t457#4225",
+            "url": "r4225",
             "simpleTitle": "practica - basic being basic",
             "space": "el pensadero"
         },
@@ -71228,7 +71228,7 @@ const DBModule = (function () {
                 12,
                 1
             ],
-            "url": "/t457#4872",
+            "url": "r4872",
             "simpleTitle": "practica - basic being basic",
             "space": "el pensadero"
         },
@@ -71238,7 +71238,7 @@ const DBModule = (function () {
                 18,
                 1
             ],
-            "url": "/t457#4968",
+            "url": "r4968",
             "simpleTitle": "practica - basic being basic",
             "space": "el pensadero"
         },
@@ -71247,7 +71247,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t457#5653",
+            "url": "r5653",
             "simpleTitle": "practica - basic being basic",
             "space": "el pensadero"
         },
@@ -71257,7 +71257,7 @@ const DBModule = (function () {
                 4,
                 7
             ],
-            "url": "/t457#6515",
+            "url": "r6515",
             "simpleTitle": "practica - basic being basic",
             "space": "el pensadero"
         },
@@ -71267,7 +71267,7 @@ const DBModule = (function () {
                 19,
                 15
             ],
-            "url": "/t457#6621",
+            "url": "r6621",
             "simpleTitle": "practica - basic being basic",
             "space": "el pensadero"
         },
@@ -71277,7 +71277,7 @@ const DBModule = (function () {
                 11,
                 2
             ],
-            "url": "/t457#7566",
+            "url": "r7566",
             "simpleTitle": "practica - basic being basic",
             "space": "el pensadero"
         },
@@ -71287,7 +71287,7 @@ const DBModule = (function () {
                 7,
                 3
             ],
-            "url": "/t457#7712",
+            "url": "r7712",
             "simpleTitle": "practica - basic being basic",
             "space": "el pensadero"
         },
@@ -71297,7 +71297,7 @@ const DBModule = (function () {
                 9,
                 7
             ],
-            "url": "/t457#8517",
+            "url": "r8517",
             "simpleTitle": "practica - basic being basic",
             "space": "el pensadero"
         },
@@ -71307,7 +71307,7 @@ const DBModule = (function () {
                 17,
                 19
             ],
-            "url": "/t457#8541",
+            "url": "r8541",
             "simpleTitle": "practica - basic being basic",
             "space": "el pensadero"
         },
@@ -71316,7 +71316,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t457#9715",
+            "url": "r9715",
             "simpleTitle": "practica - basic being basic",
             "space": "el pensadero"
         },
@@ -71325,7 +71325,7 @@ const DBModule = (function () {
             "spread": [
                 13
             ],
-            "url": "/t404#5371",
+            "url": "r5371",
             "simpleTitle": "the lost cat",
             "space": "el pensadero"
         },
@@ -71334,7 +71334,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t404#6412",
+            "url": "r6412",
             "simpleTitle": "the lost cat",
             "space": "el pensadero"
         },
@@ -71343,7 +71343,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t438#3688",
+            "url": "r3688",
             "simpleTitle": "sword from the stone",
             "space": "el pensadero"
         },
@@ -71353,7 +71353,7 @@ const DBModule = (function () {
                 12,
                 18
             ],
-            "url": "/t438#3752",
+            "url": "r3752",
             "simpleTitle": "sword from the stone",
             "space": "el pensadero"
         },
@@ -71362,7 +71362,7 @@ const DBModule = (function () {
             "spread": [
                 15
             ],
-            "url": "/t438#3771",
+            "url": "r3771",
             "simpleTitle": "sword from the stone",
             "space": "el pensadero"
         },
@@ -71372,7 +71372,7 @@ const DBModule = (function () {
                 15,
                 11
             ],
-            "url": "/t438#3824",
+            "url": "r3824",
             "simpleTitle": "sword from the stone",
             "space": "el pensadero"
         },
@@ -71381,7 +71381,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t438#3906",
+            "url": "r3906",
             "simpleTitle": "sword from the stone",
             "space": "el pensadero"
         },
@@ -71390,7 +71390,7 @@ const DBModule = (function () {
             "spread": [
                 18
             ],
-            "url": "/t438#3977",
+            "url": "r3977",
             "simpleTitle": "sword from the stone",
             "space": "el pensadero"
         },
@@ -71399,7 +71399,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t525#4207",
+            "url": "r4207",
             "simpleTitle": "práctica - life goes on",
             "space": "el pensadero"
         },
@@ -71408,7 +71408,7 @@ const DBModule = (function () {
             "spread": [
                 9
             ],
-            "url": "/t525#4440",
+            "url": "r4440",
             "simpleTitle": "práctica - life goes on",
             "space": "el pensadero"
         },
@@ -71417,7 +71417,7 @@ const DBModule = (function () {
             "spread": [
                 6
             ],
-            "url": "/t525#4713",
+            "url": "r4713",
             "simpleTitle": "práctica - life goes on",
             "space": "el pensadero"
         },
@@ -71427,7 +71427,7 @@ const DBModule = (function () {
                 17,
                 15
             ],
-            "url": "/t525#4817",
+            "url": "r4817",
             "simpleTitle": "práctica - life goes on",
             "space": "el pensadero"
         },
@@ -71436,7 +71436,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t525#5033",
+            "url": "r5033",
             "simpleTitle": "práctica - life goes on",
             "space": "el pensadero"
         },
@@ -71445,7 +71445,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t525#5253",
+            "url": "r5253",
             "simpleTitle": "práctica - life goes on",
             "space": "el pensadero"
         },
@@ -71454,7 +71454,7 @@ const DBModule = (function () {
             "spread": [
                 11
             ],
-            "url": "/t525#6044",
+            "url": "r6044",
             "simpleTitle": "práctica - life goes on",
             "space": "el pensadero"
         },
@@ -71463,7 +71463,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t473#3569",
+            "url": "r3569",
             "simpleTitle": "evento - ruleta de duelos: minerva vs raven",
             "space": "el pensadero"
         },
@@ -71472,7 +71472,7 @@ const DBModule = (function () {
             "spread": [
                 19
             ],
-            "url": "/t473#3627",
+            "url": "r3627",
             "simpleTitle": "evento - ruleta de duelos: minerva vs raven",
             "space": "el pensadero"
         },
@@ -71482,7 +71482,7 @@ const DBModule = (function () {
                 15,
                 6
             ],
-            "url": "/t473#3631",
+            "url": "r3631",
             "simpleTitle": "evento - ruleta de duelos: minerva vs raven",
             "space": "el pensadero"
         },
@@ -71492,7 +71492,7 @@ const DBModule = (function () {
                 11,
                 10
             ],
-            "url": "/t473#3679",
+            "url": "r3679",
             "simpleTitle": "evento - ruleta de duelos: minerva vs raven",
             "space": "el pensadero"
         },
@@ -71502,7 +71502,7 @@ const DBModule = (function () {
                 12,
                 18
             ],
-            "url": "/t473#3706",
+            "url": "r3706",
             "simpleTitle": "evento - ruleta de duelos: minerva vs raven",
             "space": "el pensadero"
         },
@@ -71512,7 +71512,7 @@ const DBModule = (function () {
                 2,
                 16
             ],
-            "url": "/t473#4071",
+            "url": "r4071",
             "simpleTitle": "evento - ruleta de duelos: minerva vs raven",
             "space": "el pensadero"
         },
@@ -71522,7 +71522,7 @@ const DBModule = (function () {
                 8,
                 14
             ],
-            "url": "/t473#4127",
+            "url": "r4127",
             "simpleTitle": "evento - ruleta de duelos: minerva vs raven",
             "space": "el pensadero"
         },
@@ -71531,7 +71531,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t473#4214",
+            "url": "r4214",
             "simpleTitle": "evento - ruleta de duelos: minerva vs raven",
             "space": "el pensadero"
         },
@@ -71541,7 +71541,7 @@ const DBModule = (function () {
                 11,
                 1
             ],
-            "url": "/t473#4243",
+            "url": "r4243",
             "simpleTitle": "evento - ruleta de duelos: minerva vs raven",
             "space": "el pensadero"
         },
@@ -71551,7 +71551,7 @@ const DBModule = (function () {
                 17,
                 19
             ],
-            "url": "/t473#4350",
+            "url": "r4350",
             "simpleTitle": "evento - ruleta de duelos: minerva vs raven",
             "space": "el pensadero"
         },
@@ -71561,7 +71561,7 @@ const DBModule = (function () {
                 17,
                 13
             ],
-            "url": "/t473#4396",
+            "url": "r4396",
             "simpleTitle": "evento - ruleta de duelos: minerva vs raven",
             "space": "el pensadero"
         },
@@ -71571,7 +71571,7 @@ const DBModule = (function () {
                 8,
                 4
             ],
-            "url": "/t473#4407",
+            "url": "r4407",
             "simpleTitle": "evento - ruleta de duelos: minerva vs raven",
             "space": "el pensadero"
         },
@@ -71581,7 +71581,7 @@ const DBModule = (function () {
                 7,
                 16
             ],
-            "url": "/t473#4411",
+            "url": "r4411",
             "simpleTitle": "evento - ruleta de duelos: minerva vs raven",
             "space": "el pensadero"
         },
@@ -71591,7 +71591,7 @@ const DBModule = (function () {
                 1,
                 15
             ],
-            "url": "/t473#4879",
+            "url": "r4879",
             "simpleTitle": "evento - ruleta de duelos: minerva vs raven",
             "space": "el pensadero"
         },
@@ -71600,7 +71600,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t464#3451",
+            "url": "r3451",
             "simpleTitle": "the sky is not the limit",
             "space": "el pensadero"
         },
@@ -71609,7 +71609,7 @@ const DBModule = (function () {
             "spread": [
                 5
             ],
-            "url": "/t464#4869",
+            "url": "r4869",
             "simpleTitle": "the sky is not the limit",
             "space": "el pensadero"
         },
@@ -71618,7 +71618,7 @@ const DBModule = (function () {
             "spread": [
                 6
             ],
-            "url": "/t464#4926",
+            "url": "r4926",
             "simpleTitle": "the sky is not the limit",
             "space": "el pensadero"
         },
@@ -71627,7 +71627,7 @@ const DBModule = (function () {
             "spread": [
                 11
             ],
-            "url": "/t464#5557",
+            "url": "r5557",
             "simpleTitle": "the sky is not the limit",
             "space": "el pensadero"
         },
@@ -71636,7 +71636,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t464#5959",
+            "url": "r5959",
             "simpleTitle": "the sky is not the limit",
             "space": "el pensadero"
         },
@@ -71645,7 +71645,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t464#6612",
+            "url": "r6612",
             "simpleTitle": "the sky is not the limit",
             "space": "el pensadero"
         },
@@ -71654,7 +71654,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t464#7141",
+            "url": "r7141",
             "simpleTitle": "the sky is not the limit",
             "space": "el pensadero"
         },
@@ -71663,7 +71663,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t430#3146",
+            "url": "r3146",
             "simpleTitle": "a leap of fate",
             "space": "el pensadero"
         },
@@ -71672,7 +71672,7 @@ const DBModule = (function () {
             "spread": [
                 6
             ],
-            "url": "/t430#3548",
+            "url": "r3548",
             "simpleTitle": "a leap of fate",
             "space": "el pensadero"
         },
@@ -71681,7 +71681,7 @@ const DBModule = (function () {
             "spread": [
                 3
             ],
-            "url": "/t430#3561",
+            "url": "r3561",
             "simpleTitle": "a leap of fate",
             "space": "el pensadero"
         },
@@ -71690,7 +71690,7 @@ const DBModule = (function () {
             "spread": [
                 18
             ],
-            "url": "/t430#4874",
+            "url": "r4874",
             "simpleTitle": "a leap of fate",
             "space": "el pensadero"
         },
@@ -71699,7 +71699,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t478#3579",
+            "url": "r3579",
             "simpleTitle": "evento - ruleta de duelos: danielle vs kaoru",
             "space": "el pensadero"
         },
@@ -71708,7 +71708,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t478#3607",
+            "url": "r3607",
             "simpleTitle": "evento - ruleta de duelos: danielle vs kaoru",
             "space": "el pensadero"
         },
@@ -71718,7 +71718,7 @@ const DBModule = (function () {
                 13,
                 2
             ],
-            "url": "/t478#3640",
+            "url": "r3640",
             "simpleTitle": "evento - ruleta de duelos: danielle vs kaoru",
             "space": "el pensadero"
         },
@@ -71728,7 +71728,7 @@ const DBModule = (function () {
                 12,
                 16
             ],
-            "url": "/t478#3699",
+            "url": "r3699",
             "simpleTitle": "evento - ruleta de duelos: danielle vs kaoru",
             "space": "el pensadero"
         },
@@ -71737,7 +71737,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t478#3704",
+            "url": "r3704",
             "simpleTitle": "evento - ruleta de duelos: danielle vs kaoru",
             "space": "el pensadero"
         },
@@ -71747,7 +71747,7 @@ const DBModule = (function () {
                 4,
                 2
             ],
-            "url": "/t478#3944",
+            "url": "r3944",
             "simpleTitle": "evento - ruleta de duelos: danielle vs kaoru",
             "space": "el pensadero"
         },
@@ -71757,7 +71757,7 @@ const DBModule = (function () {
                 5,
                 4
             ],
-            "url": "/t478#4078",
+            "url": "r4078",
             "simpleTitle": "evento - ruleta de duelos: danielle vs kaoru",
             "space": "el pensadero"
         },
@@ -71767,7 +71767,7 @@ const DBModule = (function () {
                 8,
                 8
             ],
-            "url": "/t478#4129",
+            "url": "r4129",
             "simpleTitle": "evento - ruleta de duelos: danielle vs kaoru",
             "space": "el pensadero"
         },
@@ -71777,7 +71777,7 @@ const DBModule = (function () {
                 19,
                 2
             ],
-            "url": "/t478#4258",
+            "url": "r4258",
             "simpleTitle": "evento - ruleta de duelos: danielle vs kaoru",
             "space": "el pensadero"
         },
@@ -71787,7 +71787,7 @@ const DBModule = (function () {
                 16,
                 15
             ],
-            "url": "/t478#4556",
+            "url": "r4556",
             "simpleTitle": "evento - ruleta de duelos: danielle vs kaoru",
             "space": "el pensadero"
         },
@@ -71797,7 +71797,7 @@ const DBModule = (function () {
                 17,
                 20
             ],
-            "url": "/t478#5023",
+            "url": "r5023",
             "simpleTitle": "evento - ruleta de duelos: danielle vs kaoru",
             "space": "el pensadero"
         },
@@ -71807,7 +71807,7 @@ const DBModule = (function () {
                 18,
                 20
             ],
-            "url": "/t478#5701",
+            "url": "r5701",
             "simpleTitle": "evento - ruleta de duelos: danielle vs kaoru",
             "space": "el pensadero"
         },
@@ -71817,7 +71817,7 @@ const DBModule = (function () {
                 20,
                 4
             ],
-            "url": "/t478#6116",
+            "url": "r6116",
             "simpleTitle": "evento - ruleta de duelos: danielle vs kaoru",
             "space": "el pensadero"
         },
@@ -71826,7 +71826,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t514#6133",
+            "url": "r6133",
             "simpleTitle": "don't cry over spilled potion",
             "space": "el pensadero"
         },
@@ -71835,7 +71835,7 @@ const DBModule = (function () {
             "spread": [
                 13
             ],
-            "url": "/t514#6335",
+            "url": "r6335",
             "simpleTitle": "don't cry over spilled potion",
             "space": "el pensadero"
         },
@@ -71844,7 +71844,7 @@ const DBModule = (function () {
             "spread": [
                 9
             ],
-            "url": "/t431#3566",
+            "url": "r3566",
             "simpleTitle": "the bards tales",
             "space": "el pensadero"
         },
@@ -71853,7 +71853,7 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "url": "/t431#3985",
+            "url": "r3985",
             "simpleTitle": "the bards tales",
             "space": "el pensadero"
         },
@@ -71862,7 +71862,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t431#7400",
+            "url": "r7400",
             "simpleTitle": "the bards tales",
             "space": "el pensadero"
         },
@@ -71871,7 +71871,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t479#3581",
+            "url": "r3581",
             "simpleTitle": "evento - ruleta de duelos: aria vs regulus",
             "space": "el pensadero"
         },
@@ -71880,7 +71880,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t479#3597",
+            "url": "r3597",
             "simpleTitle": "evento - ruleta de duelos: aria vs regulus",
             "space": "el pensadero"
         },
@@ -71890,7 +71890,7 @@ const DBModule = (function () {
                 15,
                 5
             ],
-            "url": "/t479#3609",
+            "url": "r3609",
             "simpleTitle": "evento - ruleta de duelos: aria vs regulus",
             "space": "el pensadero"
         },
@@ -71900,7 +71900,7 @@ const DBModule = (function () {
                 7,
                 1
             ],
-            "url": "/t479#3636",
+            "url": "r3636",
             "simpleTitle": "evento - ruleta de duelos: aria vs regulus",
             "space": "el pensadero"
         },
@@ -71910,7 +71910,7 @@ const DBModule = (function () {
                 1,
                 8
             ],
-            "url": "/t479#3655",
+            "url": "r3655",
             "simpleTitle": "evento - ruleta de duelos: aria vs regulus",
             "space": "el pensadero"
         },
@@ -71920,7 +71920,7 @@ const DBModule = (function () {
                 18,
                 15
             ],
-            "url": "/t479#3695",
+            "url": "r3695",
             "simpleTitle": "evento - ruleta de duelos: aria vs regulus",
             "space": "el pensadero"
         },
@@ -71930,7 +71930,7 @@ const DBModule = (function () {
                 18,
                 4
             ],
-            "url": "/t479#3710",
+            "url": "r3710",
             "simpleTitle": "evento - ruleta de duelos: aria vs regulus",
             "space": "el pensadero"
         },
@@ -71940,7 +71940,7 @@ const DBModule = (function () {
                 2,
                 1
             ],
-            "url": "/t479#3902",
+            "url": "r3902",
             "simpleTitle": "evento - ruleta de duelos: aria vs regulus",
             "space": "el pensadero"
         },
@@ -71950,7 +71950,7 @@ const DBModule = (function () {
                 7,
                 8
             ],
-            "url": "/t479#3932",
+            "url": "r3932",
             "simpleTitle": "evento - ruleta de duelos: aria vs regulus",
             "space": "el pensadero"
         },
@@ -71960,7 +71960,7 @@ const DBModule = (function () {
                 10,
                 2
             ],
-            "url": "/t479#3966",
+            "url": "r3966",
             "simpleTitle": "evento - ruleta de duelos: aria vs regulus",
             "space": "el pensadero"
         },
@@ -71970,7 +71970,7 @@ const DBModule = (function () {
                 7,
                 19
             ],
-            "url": "/t479#4044",
+            "url": "r4044",
             "simpleTitle": "evento - ruleta de duelos: aria vs regulus",
             "space": "el pensadero"
         },
@@ -71980,7 +71980,7 @@ const DBModule = (function () {
                 13,
                 8
             ],
-            "url": "/t479#4238",
+            "url": "r4238",
             "simpleTitle": "evento - ruleta de duelos: aria vs regulus",
             "space": "el pensadero"
         },
@@ -71990,7 +71990,7 @@ const DBModule = (function () {
                 5,
                 14
             ],
-            "url": "/t479#4246",
+            "url": "r4246",
             "simpleTitle": "evento - ruleta de duelos: aria vs regulus",
             "space": "el pensadero"
         },
@@ -72000,7 +72000,7 @@ const DBModule = (function () {
                 10,
                 17
             ],
-            "url": "/t479#4478",
+            "url": "r4478",
             "simpleTitle": "evento - ruleta de duelos: aria vs regulus",
             "space": "el pensadero"
         },
@@ -72010,7 +72010,7 @@ const DBModule = (function () {
                 18,
                 11
             ],
-            "url": "/t479#4615",
+            "url": "r4615",
             "simpleTitle": "evento - ruleta de duelos: aria vs regulus",
             "space": "el pensadero"
         },
@@ -72020,7 +72020,7 @@ const DBModule = (function () {
                 14,
                 5
             ],
-            "url": "/t500#4798",
+            "url": "r4798",
             "simpleTitle": "práctica - where we go",
             "space": "el pensadero"
         },
@@ -72029,7 +72029,7 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "url": "/t500#4853",
+            "url": "r4853",
             "simpleTitle": "práctica - where we go",
             "space": "el pensadero"
         },
@@ -72038,7 +72038,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t500#5561",
+            "url": "r5561",
             "simpleTitle": "práctica - where we go",
             "space": "el pensadero"
         },
@@ -72048,7 +72048,7 @@ const DBModule = (function () {
                 16,
                 10
             ],
-            "url": "/t500#7331",
+            "url": "r7331",
             "simpleTitle": "práctica - where we go",
             "space": "el pensadero"
         },
@@ -72058,7 +72058,7 @@ const DBModule = (function () {
                 5,
                 19
             ],
-            "url": "/t500#8163",
+            "url": "r8163",
             "simpleTitle": "práctica - where we go",
             "space": "el pensadero"
         },
@@ -72067,7 +72067,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t439#3584",
+            "url": "r3584",
             "simpleTitle": "emerald plains.",
             "space": "el pensadero"
         },
@@ -72076,7 +72076,7 @@ const DBModule = (function () {
             "spread": [
                 5
             ],
-            "url": "/t439#3987",
+            "url": "r3987",
             "simpleTitle": "emerald plains.",
             "space": "el pensadero"
         },
@@ -72085,7 +72085,7 @@ const DBModule = (function () {
             "spread": [
                 9
             ],
-            "url": "/t507#4312",
+            "url": "r4312",
             "simpleTitle": "[1952/10/12 fame and misfortune",
             "space": "el pensadero"
         },
@@ -72094,7 +72094,7 @@ const DBModule = (function () {
             "spread": [
                 18
             ],
-            "url": "/t507#4471",
+            "url": "r4471",
             "simpleTitle": "[1952/10/12 fame and misfortune",
             "space": "el pensadero"
         },
@@ -72103,7 +72103,7 @@ const DBModule = (function () {
             "spread": [
                 5
             ],
-            "url": "/t507#5277",
+            "url": "r5277",
             "simpleTitle": "[1952/10/12 fame and misfortune",
             "space": "el pensadero"
         },
@@ -72112,7 +72112,7 @@ const DBModule = (function () {
             "spread": [
                 11
             ],
-            "url": "/t406#3721",
+            "url": "r3721",
             "simpleTitle": "cemetery drive",
             "space": "el pensadero"
         },
@@ -72121,7 +72121,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t541#4452",
+            "url": "r4452",
             "simpleTitle": "práctica: the meaning of the runes",
             "space": "el pensadero"
         },
@@ -72130,7 +72130,7 @@ const DBModule = (function () {
             "spread": [
                 15
             ],
-            "url": "/t541#4504",
+            "url": "r4504",
             "simpleTitle": "práctica: the meaning of the runes",
             "space": "el pensadero"
         },
@@ -72139,7 +72139,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t541#5003",
+            "url": "r5003",
             "simpleTitle": "práctica: the meaning of the runes",
             "space": "el pensadero"
         },
@@ -72148,7 +72148,7 @@ const DBModule = (function () {
             "spread": [
                 19
             ],
-            "url": "/t541#5038",
+            "url": "r5038",
             "simpleTitle": "práctica: the meaning of the runes",
             "space": "el pensadero"
         },
@@ -72157,7 +72157,7 @@ const DBModule = (function () {
             "spread": [
                 6
             ],
-            "url": "/t541#5514",
+            "url": "r5514",
             "simpleTitle": "práctica: the meaning of the runes",
             "space": "el pensadero"
         },
@@ -72166,7 +72166,7 @@ const DBModule = (function () {
             "spread": [
                 3
             ],
-            "url": "/t541#5572",
+            "url": "r5572",
             "simpleTitle": "práctica: the meaning of the runes",
             "space": "el pensadero"
         },
@@ -72175,7 +72175,7 @@ const DBModule = (function () {
             "spread": [
                 9
             ],
-            "url": "/t541#5641",
+            "url": "r5641",
             "simpleTitle": "práctica: the meaning of the runes",
             "space": "el pensadero"
         },
@@ -72184,7 +72184,7 @@ const DBModule = (function () {
             "spread": [
                 19
             ],
-            "url": "/t541#5667",
+            "url": "r5667",
             "simpleTitle": "práctica: the meaning of the runes",
             "space": "el pensadero"
         },
@@ -72193,7 +72193,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t541#5745",
+            "url": "r5745",
             "simpleTitle": "práctica: the meaning of the runes",
             "space": "el pensadero"
         },
@@ -72202,7 +72202,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t541#5768",
+            "url": "r5768",
             "simpleTitle": "práctica: the meaning of the runes",
             "space": "el pensadero"
         },
@@ -72211,7 +72211,7 @@ const DBModule = (function () {
             "spread": [
                 19
             ],
-            "url": "/t429#3685",
+            "url": "r3685",
             "simpleTitle": "a la caza del ciervo",
             "space": "el pensadero"
         },
@@ -72221,7 +72221,7 @@ const DBModule = (function () {
                 9,
                 22
             ],
-            "url": "/t429#3734",
+            "url": "r3734",
             "simpleTitle": "a la caza del ciervo",
             "space": "el pensadero"
         },
@@ -72230,7 +72230,7 @@ const DBModule = (function () {
             "spread": [
                 19
             ],
-            "url": "/t429#3892",
+            "url": "r3892",
             "simpleTitle": "a la caza del ciervo",
             "space": "el pensadero"
         },
@@ -72239,7 +72239,7 @@ const DBModule = (function () {
             "spread": [
                 18
             ],
-            "url": "/t429#3974",
+            "url": "r3974",
             "simpleTitle": "a la caza del ciervo",
             "space": "el pensadero"
         },
@@ -72249,7 +72249,7 @@ const DBModule = (function () {
                 20,
                 13
             ],
-            "url": "/t429#4236",
+            "url": "r4236",
             "simpleTitle": "a la caza del ciervo",
             "space": "el pensadero"
         },
@@ -72260,7 +72260,7 @@ const DBModule = (function () {
                 2,
                 20
             ],
-            "url": "/t429#4758",
+            "url": "r4758",
             "simpleTitle": "a la caza del ciervo",
             "space": "el pensadero"
         },
@@ -72272,7 +72272,7 @@ const DBModule = (function () {
                 17,
                 5
             ],
-            "url": "/t429#5057",
+            "url": "r5057",
             "simpleTitle": "a la caza del ciervo",
             "space": "el pensadero"
         },
@@ -72283,7 +72283,7 @@ const DBModule = (function () {
                 5,
                 19
             ],
-            "url": "/t429#5085",
+            "url": "r5085",
             "simpleTitle": "a la caza del ciervo",
             "space": "el pensadero"
         },
@@ -72295,7 +72295,7 @@ const DBModule = (function () {
                 11,
                 5
             ],
-            "url": "/t429#5283",
+            "url": "r5283",
             "simpleTitle": "a la caza del ciervo",
             "space": "el pensadero"
         },
@@ -72307,7 +72307,7 @@ const DBModule = (function () {
                 20,
                 5
             ],
-            "url": "/t429#5776",
+            "url": "r5776",
             "simpleTitle": "a la caza del ciervo",
             "space": "el pensadero"
         },
@@ -72317,7 +72317,7 @@ const DBModule = (function () {
                 20,
                 19
             ],
-            "url": "/t429#5828",
+            "url": "r5828",
             "simpleTitle": "a la caza del ciervo",
             "space": "el pensadero"
         },
@@ -72326,7 +72326,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t477#3577",
+            "url": "r3577",
             "simpleTitle": "evento - ruleta de duelos: cora vs shun",
             "space": "el pensadero"
         },
@@ -72335,7 +72335,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t477#3614",
+            "url": "r3614",
             "simpleTitle": "evento - ruleta de duelos: cora vs shun",
             "space": "el pensadero"
         },
@@ -72345,7 +72345,7 @@ const DBModule = (function () {
                 1,
                 14
             ],
-            "url": "/t477#3633",
+            "url": "r3633",
             "simpleTitle": "evento - ruleta de duelos: cora vs shun",
             "space": "el pensadero"
         },
@@ -72355,7 +72355,7 @@ const DBModule = (function () {
                 15,
                 5
             ],
-            "url": "/t477#3646",
+            "url": "r3646",
             "simpleTitle": "evento - ruleta de duelos: cora vs shun",
             "space": "el pensadero"
         },
@@ -72365,7 +72365,7 @@ const DBModule = (function () {
                 2,
                 16
             ],
-            "url": "/t477#3650",
+            "url": "r3650",
             "simpleTitle": "evento - ruleta de duelos: cora vs shun",
             "space": "el pensadero"
         },
@@ -72375,7 +72375,7 @@ const DBModule = (function () {
                 9,
                 20
             ],
-            "url": "/t477#3663",
+            "url": "r3663",
             "simpleTitle": "evento - ruleta de duelos: cora vs shun",
             "space": "el pensadero"
         },
@@ -72385,7 +72385,7 @@ const DBModule = (function () {
                 4,
                 10
             ],
-            "url": "/t477#3708",
+            "url": "r3708",
             "simpleTitle": "evento - ruleta de duelos: cora vs shun",
             "space": "el pensadero"
         },
@@ -72395,7 +72395,7 @@ const DBModule = (function () {
                 7,
                 20
             ],
-            "url": "/t477#3736",
+            "url": "r3736",
             "simpleTitle": "evento - ruleta de duelos: cora vs shun",
             "space": "el pensadero"
         },
@@ -72405,7 +72405,7 @@ const DBModule = (function () {
                 10,
                 4
             ],
-            "url": "/t477#3746",
+            "url": "r3746",
             "simpleTitle": "evento - ruleta de duelos: cora vs shun",
             "space": "el pensadero"
         },
@@ -72416,7 +72416,7 @@ const DBModule = (function () {
                 18,
                 8
             ],
-            "url": "/t477#3797",
+            "url": "r3797",
             "simpleTitle": "evento - ruleta de duelos: cora vs shun",
             "space": "el pensadero"
         },
@@ -72427,7 +72427,7 @@ const DBModule = (function () {
                 3,
                 11
             ],
-            "url": "/t477#3800",
+            "url": "r3800",
             "simpleTitle": "evento - ruleta de duelos: cora vs shun",
             "space": "el pensadero"
         },
@@ -72436,7 +72436,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t477#3805",
+            "url": "r3805",
             "simpleTitle": "evento - ruleta de duelos: cora vs shun",
             "space": "el pensadero"
         },
@@ -72446,7 +72446,7 @@ const DBModule = (function () {
                 5,
                 16
             ],
-            "url": "/t477#3818",
+            "url": "r3818",
             "simpleTitle": "evento - ruleta de duelos: cora vs shun",
             "space": "el pensadero"
         },
@@ -72455,7 +72455,7 @@ const DBModule = (function () {
             "spread": [
                 9
             ],
-            "url": "/t477#3848",
+            "url": "r3848",
             "simpleTitle": "evento - ruleta de duelos: cora vs shun",
             "space": "el pensadero"
         },
@@ -72465,7 +72465,7 @@ const DBModule = (function () {
                 8,
                 17
             ],
-            "url": "/t477#3881",
+            "url": "r3881",
             "simpleTitle": "evento - ruleta de duelos: cora vs shun",
             "space": "el pensadero"
         },
@@ -72475,7 +72475,7 @@ const DBModule = (function () {
                 10,
                 14
             ],
-            "url": "/t477#3962",
+            "url": "r3962",
             "simpleTitle": "evento - ruleta de duelos: cora vs shun",
             "space": "el pensadero"
         },
@@ -72484,7 +72484,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t491#3833",
+            "url": "r3833",
             "simpleTitle": "práctica - above the clouds",
             "space": "el pensadero"
         },
@@ -72493,7 +72493,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t491#4061",
+            "url": "r4061",
             "simpleTitle": "práctica - above the clouds",
             "space": "el pensadero"
         },
@@ -72502,7 +72502,7 @@ const DBModule = (function () {
             "spread": [
                 15
             ],
-            "url": "/t491#4132",
+            "url": "r4132",
             "simpleTitle": "práctica - above the clouds",
             "space": "el pensadero"
         },
@@ -72511,7 +72511,7 @@ const DBModule = (function () {
             "spread": [
                 6
             ],
-            "url": "/t491#4674",
+            "url": "r4674",
             "simpleTitle": "práctica - above the clouds",
             "space": "el pensadero"
         },
@@ -72520,7 +72520,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t491#4849",
+            "url": "r4849",
             "simpleTitle": "práctica - above the clouds",
             "space": "el pensadero"
         },
@@ -72529,7 +72529,7 @@ const DBModule = (function () {
             "spread": [
                 19
             ],
-            "url": "/t491#5495",
+            "url": "r5495",
             "simpleTitle": "práctica - above the clouds",
             "space": "el pensadero"
         },
@@ -72538,7 +72538,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t491#5535",
+            "url": "r5535",
             "simpleTitle": "práctica - above the clouds",
             "space": "el pensadero"
         },
@@ -72547,7 +72547,7 @@ const DBModule = (function () {
             "spread": [
                 18
             ],
-            "url": "/t491#6147",
+            "url": "r6147",
             "simpleTitle": "práctica - above the clouds",
             "space": "el pensadero"
         },
@@ -72556,7 +72556,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t491#7367",
+            "url": "r7367",
             "simpleTitle": "práctica - above the clouds",
             "space": "el pensadero"
         },
@@ -72566,7 +72566,7 @@ const DBModule = (function () {
                 2,
                 2
             ],
-            "url": "/t594#5813",
+            "url": "r5813",
             "simpleTitle": "a room for requirement",
             "space": "el pensadero"
         },
@@ -72575,7 +72575,7 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "url": "/t594#10173",
+            "url": "r10173",
             "simpleTitle": "a room for requirement",
             "space": "el pensadero"
         },
@@ -72584,7 +72584,7 @@ const DBModule = (function () {
             "spread": [
                 15
             ],
-            "url": "/t432#3296",
+            "url": "r3296",
             "simpleTitle": "knight's quest",
             "space": "el pensadero"
         },
@@ -72593,7 +72593,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t432#3900",
+            "url": "r3900",
             "simpleTitle": "knight's quest",
             "space": "el pensadero"
         },
@@ -72604,7 +72604,7 @@ const DBModule = (function () {
                 19,
                 5
             ],
-            "url": "/t432#4035",
+            "url": "r4035",
             "simpleTitle": "knight's quest",
             "space": "el pensadero"
         },
@@ -72613,7 +72613,7 @@ const DBModule = (function () {
             "spread": [
                 11
             ],
-            "url": "/t432#4222",
+            "url": "r4222",
             "simpleTitle": "knight's quest",
             "space": "el pensadero"
         },
@@ -72625,7 +72625,7 @@ const DBModule = (function () {
                 15,
                 7
             ],
-            "url": "/t432#4388",
+            "url": "r4388",
             "simpleTitle": "knight's quest",
             "space": "el pensadero"
         },
@@ -72637,7 +72637,7 @@ const DBModule = (function () {
                 18,
                 19
             ],
-            "url": "/t432#4468",
+            "url": "r4468",
             "simpleTitle": "knight's quest",
             "space": "el pensadero"
         },
@@ -72646,7 +72646,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t432#4582",
+            "url": "r4582",
             "simpleTitle": "knight's quest",
             "space": "el pensadero"
         },
@@ -72656,7 +72656,7 @@ const DBModule = (function () {
                 11,
                 12
             ],
-            "url": "/t432#5008",
+            "url": "r5008",
             "simpleTitle": "knight's quest",
             "space": "el pensadero"
         },
@@ -72665,7 +72665,7 @@ const DBModule = (function () {
             "spread": [
                 78
             ],
-            "url": "/t432#5251",
+            "url": "r5251",
             "simpleTitle": "knight's quest",
             "space": "el pensadero"
         },
@@ -72677,7 +72677,7 @@ const DBModule = (function () {
                 15,
                 5
             ],
-            "url": "/t432#5330",
+            "url": "r5330",
             "simpleTitle": "knight's quest",
             "space": "el pensadero"
         },
@@ -72689,7 +72689,7 @@ const DBModule = (function () {
                 20,
                 19
             ],
-            "url": "/t432#5405",
+            "url": "r5405",
             "simpleTitle": "knight's quest",
             "space": "el pensadero"
         },
@@ -72701,7 +72701,7 @@ const DBModule = (function () {
                 10,
                 14
             ],
-            "url": "/t432#5410",
+            "url": "r5410",
             "simpleTitle": "knight's quest",
             "space": "el pensadero"
         },
@@ -72713,7 +72713,7 @@ const DBModule = (function () {
                 14,
                 5
             ],
-            "url": "/t432#5523",
+            "url": "r5523",
             "simpleTitle": "knight's quest",
             "space": "el pensadero"
         },
@@ -72724,7 +72724,7 @@ const DBModule = (function () {
                 6,
                 1
             ],
-            "url": "/t432#5553",
+            "url": "r5553",
             "simpleTitle": "knight's quest",
             "space": "el pensadero"
         },
@@ -72736,7 +72736,7 @@ const DBModule = (function () {
                 19,
                 18
             ],
-            "url": "/t432#5576",
+            "url": "r5576",
             "simpleTitle": "knight's quest",
             "space": "el pensadero"
         },
@@ -72748,7 +72748,7 @@ const DBModule = (function () {
                 16,
                 2
             ],
-            "url": "/t432#5602",
+            "url": "r5602",
             "simpleTitle": "knight's quest",
             "space": "el pensadero"
         },
@@ -72757,7 +72757,7 @@ const DBModule = (function () {
             "spread": [
                 13
             ],
-            "url": "/t432#5638",
+            "url": "r5638",
             "simpleTitle": "knight's quest",
             "space": "el pensadero"
         },
@@ -72766,7 +72766,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t401#3193",
+            "url": "r3193",
             "simpleTitle": "it's nice to have a friend",
             "space": "el pensadero"
         },
@@ -72775,7 +72775,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t405#2838",
+            "url": "r2838",
             "simpleTitle": "duelo #3: findlay vs raven",
             "space": "el pensadero"
         },
@@ -72784,7 +72784,7 @@ const DBModule = (function () {
             "spread": [
                 5
             ],
-            "url": "/t405#2845",
+            "url": "r2845",
             "simpleTitle": "duelo #3: findlay vs raven",
             "space": "el pensadero"
         },
@@ -72794,7 +72794,7 @@ const DBModule = (function () {
                 3,
                 7
             ],
-            "url": "/t405#2886",
+            "url": "r2886",
             "simpleTitle": "duelo #3: findlay vs raven",
             "space": "el pensadero"
         },
@@ -72803,7 +72803,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t405#3018",
+            "url": "r3018",
             "simpleTitle": "duelo #3: findlay vs raven",
             "space": "el pensadero"
         },
@@ -72813,7 +72813,7 @@ const DBModule = (function () {
                 19,
                 17
             ],
-            "url": "/t405#3157",
+            "url": "r3157",
             "simpleTitle": "duelo #3: findlay vs raven",
             "space": "el pensadero"
         },
@@ -72823,7 +72823,7 @@ const DBModule = (function () {
                 2,
                 15
             ],
-            "url": "/t405#3279",
+            "url": "r3279",
             "simpleTitle": "duelo #3: findlay vs raven",
             "space": "el pensadero"
         },
@@ -72832,7 +72832,7 @@ const DBModule = (function () {
             "spread": [
                 18
             ],
-            "url": "/t405#3301",
+            "url": "r3301",
             "simpleTitle": "duelo #3: findlay vs raven",
             "space": "el pensadero"
         },
@@ -72842,7 +72842,7 @@ const DBModule = (function () {
                 19,
                 4
             ],
-            "url": "/t405#3306",
+            "url": "r3306",
             "simpleTitle": "duelo #3: findlay vs raven",
             "space": "el pensadero"
         },
@@ -72852,7 +72852,7 @@ const DBModule = (function () {
                 7,
                 8
             ],
-            "url": "/t405#3424",
+            "url": "r3424",
             "simpleTitle": "duelo #3: findlay vs raven",
             "space": "el pensadero"
         },
@@ -72862,7 +72862,7 @@ const DBModule = (function () {
                 3,
                 1
             ],
-            "url": "/t405#3439",
+            "url": "r3439",
             "simpleTitle": "duelo #3: findlay vs raven",
             "space": "el pensadero"
         },
@@ -72872,7 +72872,7 @@ const DBModule = (function () {
                 20,
                 11
             ],
-            "url": "/t405#3477",
+            "url": "r3477",
             "simpleTitle": "duelo #3: findlay vs raven",
             "space": "el pensadero"
         },
@@ -72882,7 +72882,7 @@ const DBModule = (function () {
                 4,
                 4
             ],
-            "url": "/t405#3508",
+            "url": "r3508",
             "simpleTitle": "duelo #3: findlay vs raven",
             "space": "el pensadero"
         },
@@ -72892,7 +72892,7 @@ const DBModule = (function () {
                 9,
                 11
             ],
-            "url": "/t405#3659",
+            "url": "r3659",
             "simpleTitle": "duelo #3: findlay vs raven",
             "space": "el pensadero"
         },
@@ -72902,7 +72902,7 @@ const DBModule = (function () {
                 20,
                 11
             ],
-            "url": "/t405#3672",
+            "url": "r3672",
             "simpleTitle": "duelo #3: findlay vs raven",
             "space": "el pensadero"
         },
@@ -72912,7 +72912,7 @@ const DBModule = (function () {
                 3,
                 10
             ],
-            "url": "/t405#3764",
+            "url": "r3764",
             "simpleTitle": "duelo #3: findlay vs raven",
             "space": "el pensadero"
         },
@@ -72922,7 +72922,7 @@ const DBModule = (function () {
                 16,
                 16
             ],
-            "url": "/t405#4021",
+            "url": "r4021",
             "simpleTitle": "duelo #3: findlay vs raven",
             "space": "el pensadero"
         },
@@ -72932,7 +72932,7 @@ const DBModule = (function () {
                 10,
                 4
             ],
-            "url": "/t405#4252",
+            "url": "r4252",
             "simpleTitle": "duelo #3: findlay vs raven",
             "space": "el pensadero"
         },
@@ -72942,7 +72942,7 @@ const DBModule = (function () {
                 2,
                 3
             ],
-            "url": "/t405#4365",
+            "url": "r4365",
             "simpleTitle": "duelo #3: findlay vs raven",
             "space": "el pensadero"
         },
@@ -72952,7 +72952,7 @@ const DBModule = (function () {
                 1,
                 13
             ],
-            "url": "/t405#4751",
+            "url": "r4751",
             "simpleTitle": "duelo #3: findlay vs raven",
             "space": "el pensadero"
         },
@@ -72961,7 +72961,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t353#2215",
+            "url": "r2215",
             "simpleTitle": "misión - traces in black",
             "space": "el pensadero"
         },
@@ -72970,7 +72970,7 @@ const DBModule = (function () {
             "spread": [
                 15
             ],
-            "url": "/t353#2323",
+            "url": "r2323",
             "simpleTitle": "misión - traces in black",
             "space": "el pensadero"
         },
@@ -72979,7 +72979,7 @@ const DBModule = (function () {
             "spread": [
                 6
             ],
-            "url": "/t353#2499",
+            "url": "r2499",
             "simpleTitle": "misión - traces in black",
             "space": "el pensadero"
         },
@@ -72988,7 +72988,7 @@ const DBModule = (function () {
             "spread": [
                 3
             ],
-            "url": "/t353#2749",
+            "url": "r2749",
             "simpleTitle": "misión - traces in black",
             "space": "el pensadero"
         },
@@ -72997,7 +72997,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t353#2784",
+            "url": "r2784",
             "simpleTitle": "misión - traces in black",
             "space": "el pensadero"
         },
@@ -73007,7 +73007,7 @@ const DBModule = (function () {
                 7,
                 15
             ],
-            "url": "/t353#3166",
+            "url": "r3166",
             "simpleTitle": "misión - traces in black",
             "space": "el pensadero"
         },
@@ -73016,7 +73016,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t353#3242",
+            "url": "r3242",
             "simpleTitle": "misión - traces in black",
             "space": "el pensadero"
         },
@@ -73025,7 +73025,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t353#3468",
+            "url": "r3468",
             "simpleTitle": "misión - traces in black",
             "space": "el pensadero"
         },
@@ -73035,7 +73035,7 @@ const DBModule = (function () {
                 16,
                 6
             ],
-            "url": "/t353#3483",
+            "url": "r3483",
             "simpleTitle": "misión - traces in black",
             "space": "el pensadero"
         },
@@ -73044,7 +73044,7 @@ const DBModule = (function () {
             "spread": [
                 9
             ],
-            "url": "/t353#3511",
+            "url": "r3511",
             "simpleTitle": "misión - traces in black",
             "space": "el pensadero"
         },
@@ -73053,7 +73053,7 @@ const DBModule = (function () {
             "spread": [
                 11
             ],
-            "url": "/t353#3728",
+            "url": "r3728",
             "simpleTitle": "misión - traces in black",
             "space": "el pensadero"
         },
@@ -73062,7 +73062,7 @@ const DBModule = (function () {
             "spread": [
                 18
             ],
-            "url": "/t353#3748",
+            "url": "r3748",
             "simpleTitle": "misión - traces in black",
             "space": "el pensadero"
         },
@@ -73071,7 +73071,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t353#3756",
+            "url": "r3756",
             "simpleTitle": "misión - traces in black",
             "space": "el pensadero"
         },
@@ -73081,7 +73081,7 @@ const DBModule = (function () {
                 8,
                 6
             ],
-            "url": "/t353#3769",
+            "url": "r3769",
             "simpleTitle": "misión - traces in black",
             "space": "el pensadero"
         },
@@ -73090,7 +73090,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t353#3780",
+            "url": "r3780",
             "simpleTitle": "misión - traces in black",
             "space": "el pensadero"
         },
@@ -73099,7 +73099,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t353#3873",
+            "url": "r3873",
             "simpleTitle": "misión - traces in black",
             "space": "el pensadero"
         },
@@ -73108,7 +73108,7 @@ const DBModule = (function () {
             "spread": [
                 5
             ],
-            "url": "/t353#3898",
+            "url": "r3898",
             "simpleTitle": "misión - traces in black",
             "space": "el pensadero"
         },
@@ -73118,7 +73118,7 @@ const DBModule = (function () {
                 5,
                 4
             ],
-            "url": "/t353#3909",
+            "url": "r3909",
             "simpleTitle": "misión - traces in black",
             "space": "el pensadero"
         },
@@ -73128,7 +73128,7 @@ const DBModule = (function () {
                 8,
                 11
             ],
-            "url": "/t353#4123",
+            "url": "r4123",
             "simpleTitle": "misión - traces in black",
             "space": "el pensadero"
         },
@@ -73137,7 +73137,7 @@ const DBModule = (function () {
             "spread": [
                 3
             ],
-            "url": "/t353#4134",
+            "url": "r4134",
             "simpleTitle": "misión - traces in black",
             "space": "el pensadero"
         },
@@ -73146,7 +73146,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t351#2312",
+            "url": "r2312",
             "simpleTitle": "misión - secrets of the silent dead",
             "space": "el pensadero"
         },
@@ -73155,7 +73155,7 @@ const DBModule = (function () {
             "spread": [
                 19
             ],
-            "url": "/t351#2332",
+            "url": "r2332",
             "simpleTitle": "misión - secrets of the silent dead",
             "space": "el pensadero"
         },
@@ -73164,7 +73164,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t351#2371",
+            "url": "r2371",
             "simpleTitle": "misión - secrets of the silent dead",
             "space": "el pensadero"
         },
@@ -73173,7 +73173,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t351#2390",
+            "url": "r2390",
             "simpleTitle": "misión - secrets of the silent dead",
             "space": "el pensadero"
         },
@@ -73182,7 +73182,7 @@ const DBModule = (function () {
             "spread": [
                 9
             ],
-            "url": "/t351#2404",
+            "url": "r2404",
             "simpleTitle": "misión - secrets of the silent dead",
             "space": "el pensadero"
         },
@@ -73191,7 +73191,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t351#2734",
+            "url": "r2734",
             "simpleTitle": "misión - secrets of the silent dead",
             "space": "el pensadero"
         },
@@ -73200,7 +73200,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t351#2921",
+            "url": "r2921",
             "simpleTitle": "misión - secrets of the silent dead",
             "space": "el pensadero"
         },
@@ -73209,7 +73209,7 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "url": "/t351#2949",
+            "url": "r2949",
             "simpleTitle": "misión - secrets of the silent dead",
             "space": "el pensadero"
         },
@@ -73218,7 +73218,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t351#3002",
+            "url": "r3002",
             "simpleTitle": "misión - secrets of the silent dead",
             "space": "el pensadero"
         },
@@ -73227,7 +73227,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t351#3116",
+            "url": "r3116",
             "simpleTitle": "misión - secrets of the silent dead",
             "space": "el pensadero"
         },
@@ -73236,7 +73236,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t351#3322",
+            "url": "r3322",
             "simpleTitle": "misión - secrets of the silent dead",
             "space": "el pensadero"
         },
@@ -73245,7 +73245,7 @@ const DBModule = (function () {
             "spread": [
                 3
             ],
-            "url": "/t351#3436",
+            "url": "r3436",
             "simpleTitle": "misión - secrets of the silent dead",
             "space": "el pensadero"
         },
@@ -73254,7 +73254,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t351#3681",
+            "url": "r3681",
             "simpleTitle": "misión - secrets of the silent dead",
             "space": "el pensadero"
         },
@@ -73263,7 +73263,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t351#3857",
+            "url": "r3857",
             "simpleTitle": "misión - secrets of the silent dead",
             "space": "el pensadero"
         },
@@ -73272,7 +73272,7 @@ const DBModule = (function () {
             "spread": [
                 3
             ],
-            "url": "/t351#3867",
+            "url": "r3867",
             "simpleTitle": "misión - secrets of the silent dead",
             "space": "el pensadero"
         },
@@ -73282,7 +73282,7 @@ const DBModule = (function () {
                 16,
                 19
             ],
-            "url": "/t351#4203",
+            "url": "r4203",
             "simpleTitle": "misión - secrets of the silent dead",
             "space": "el pensadero"
         },
@@ -73292,7 +73292,7 @@ const DBModule = (function () {
                 14,
                 20
             ],
-            "url": "/t351#4217",
+            "url": "r4217",
             "simpleTitle": "misión - secrets of the silent dead",
             "space": "el pensadero"
         },
@@ -73301,7 +73301,7 @@ const DBModule = (function () {
             "spread": [
                 11
             ],
-            "url": "/t351#4227",
+            "url": "r4227",
             "simpleTitle": "misión - secrets of the silent dead",
             "space": "el pensadero"
         },
@@ -73310,7 +73310,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t331#2282",
+            "url": "r2282",
             "simpleTitle": "the meeting no one asked for",
             "space": "el pensadero"
         },
@@ -73319,7 +73319,7 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "url": "/t331#2530",
+            "url": "r2530",
             "simpleTitle": "the meeting no one asked for",
             "space": "el pensadero"
         },
@@ -73328,7 +73328,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t174#531",
+            "url": "r531",
             "simpleTitle": "duelo #1: asteria vs raven",
             "space": "el pensadero"
         },
@@ -73337,7 +73337,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t174#536",
+            "url": "r536",
             "simpleTitle": "duelo #1: asteria vs raven",
             "space": "el pensadero"
         },
@@ -73347,7 +73347,7 @@ const DBModule = (function () {
                 9,
                 5
             ],
-            "url": "/t174#608",
+            "url": "r608",
             "simpleTitle": "duelo #1: asteria vs raven",
             "space": "el pensadero"
         },
@@ -73357,7 +73357,7 @@ const DBModule = (function () {
                 9,
                 2
             ],
-            "url": "/t174#932",
+            "url": "r932",
             "simpleTitle": "duelo #1: asteria vs raven",
             "space": "el pensadero"
         },
@@ -73367,7 +73367,7 @@ const DBModule = (function () {
                 14,
                 2
             ],
-            "url": "/t174#1153",
+            "url": "r1153",
             "simpleTitle": "duelo #1: asteria vs raven",
             "space": "el pensadero"
         },
@@ -73377,7 +73377,7 @@ const DBModule = (function () {
                 8,
                 13
             ],
-            "url": "/t174#1482",
+            "url": "r1482",
             "simpleTitle": "duelo #1: asteria vs raven",
             "space": "el pensadero"
         },
@@ -73387,7 +73387,7 @@ const DBModule = (function () {
                 11,
                 10
             ],
-            "url": "/t174#1669",
+            "url": "r1669",
             "simpleTitle": "duelo #1: asteria vs raven",
             "space": "el pensadero"
         },
@@ -73396,7 +73396,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t174#1702",
+            "url": "r1702",
             "simpleTitle": "duelo #1: asteria vs raven",
             "space": "el pensadero"
         },
@@ -73405,7 +73405,7 @@ const DBModule = (function () {
             "spread": [
                 3
             ],
-            "url": "/t174#1740",
+            "url": "r1740",
             "simpleTitle": "duelo #1: asteria vs raven",
             "space": "el pensadero"
         },
@@ -73415,7 +73415,7 @@ const DBModule = (function () {
                 8,
                 15
             ],
-            "url": "/t174#1743",
+            "url": "r1743",
             "simpleTitle": "duelo #1: asteria vs raven",
             "space": "el pensadero"
         },
@@ -73425,7 +73425,7 @@ const DBModule = (function () {
                 19,
                 11
             ],
-            "url": "/t174#1746",
+            "url": "r1746",
             "simpleTitle": "duelo #1: asteria vs raven",
             "space": "el pensadero"
         },
@@ -73435,7 +73435,7 @@ const DBModule = (function () {
                 17,
                 3
             ],
-            "url": "/t174#1748",
+            "url": "r1748",
             "simpleTitle": "duelo #1: asteria vs raven",
             "space": "el pensadero"
         },
@@ -73445,7 +73445,7 @@ const DBModule = (function () {
                 17,
                 16
             ],
-            "url": "/t174#1751",
+            "url": "r1751",
             "simpleTitle": "duelo #1: asteria vs raven",
             "space": "el pensadero"
         },
@@ -73455,7 +73455,7 @@ const DBModule = (function () {
                 8,
                 7
             ],
-            "url": "/t174#1754",
+            "url": "r1754",
             "simpleTitle": "duelo #1: asteria vs raven",
             "space": "el pensadero"
         },
@@ -73464,7 +73464,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t368#2381",
+            "url": "r2381",
             "simpleTitle": "duelo #2: asteria vs minerva",
             "space": "el pensadero"
         },
@@ -73473,7 +73473,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t368#2386",
+            "url": "r2386",
             "simpleTitle": "duelo #2: asteria vs minerva",
             "space": "el pensadero"
         },
@@ -73483,7 +73483,7 @@ const DBModule = (function () {
                 9,
                 15
             ],
-            "url": "/t368#2400",
+            "url": "r2400",
             "simpleTitle": "duelo #2: asteria vs minerva",
             "space": "el pensadero"
         },
@@ -73492,7 +73492,7 @@ const DBModule = (function () {
             "spread": [
                 6
             ],
-            "url": "/t368#2413",
+            "url": "r2413",
             "simpleTitle": "duelo #2: asteria vs minerva",
             "space": "el pensadero"
         },
@@ -73502,7 +73502,7 @@ const DBModule = (function () {
                 7,
                 4
             ],
-            "url": "/t368#2417",
+            "url": "r2417",
             "simpleTitle": "duelo #2: asteria vs minerva",
             "space": "el pensadero"
         },
@@ -73512,7 +73512,7 @@ const DBModule = (function () {
                 8,
                 10
             ],
-            "url": "/t368#2430",
+            "url": "r2430",
             "simpleTitle": "duelo #2: asteria vs minerva",
             "space": "el pensadero"
         },
@@ -73522,7 +73522,7 @@ const DBModule = (function () {
                 3,
                 9
             ],
-            "url": "/t368#2448",
+            "url": "r2448",
             "simpleTitle": "duelo #2: asteria vs minerva",
             "space": "el pensadero"
         },
@@ -73531,7 +73531,7 @@ const DBModule = (function () {
             "spread": [
                 5
             ],
-            "url": "/t368#2450",
+            "url": "r2450",
             "simpleTitle": "duelo #2: asteria vs minerva",
             "space": "el pensadero"
         },
@@ -73541,7 +73541,7 @@ const DBModule = (function () {
                 19,
                 17
             ],
-            "url": "/t368#2452",
+            "url": "r2452",
             "simpleTitle": "duelo #2: asteria vs minerva",
             "space": "el pensadero"
         },
@@ -73551,7 +73551,7 @@ const DBModule = (function () {
                 14,
                 16
             ],
-            "url": "/t368#2502",
+            "url": "r2502",
             "simpleTitle": "duelo #2: asteria vs minerva",
             "space": "el pensadero"
         },
@@ -73561,7 +73561,7 @@ const DBModule = (function () {
                 17,
                 10
             ],
-            "url": "/t368#2596",
+            "url": "r2596",
             "simpleTitle": "duelo #2: asteria vs minerva",
             "space": "el pensadero"
         },
@@ -73571,7 +73571,7 @@ const DBModule = (function () {
                 16,
                 3
             ],
-            "url": "/t368#2636",
+            "url": "r2636",
             "simpleTitle": "duelo #2: asteria vs minerva",
             "space": "el pensadero"
         },
@@ -73581,7 +73581,7 @@ const DBModule = (function () {
                 10,
                 11
             ],
-            "url": "/t368#2662",
+            "url": "r2662",
             "simpleTitle": "duelo #2: asteria vs minerva",
             "space": "el pensadero"
         },
@@ -73591,7 +73591,7 @@ const DBModule = (function () {
                 18,
                 1
             ],
-            "url": "/t368#2681",
+            "url": "r2681",
             "simpleTitle": "duelo #2: asteria vs minerva",
             "space": "el pensadero"
         },
@@ -73601,7 +73601,7 @@ const DBModule = (function () {
                 8,
                 6
             ],
-            "url": "/t368#2793",
+            "url": "r2793",
             "simpleTitle": "duelo #2: asteria vs minerva",
             "space": "el pensadero"
         },
@@ -73611,7 +73611,7 @@ const DBModule = (function () {
                 9,
                 3
             ],
-            "url": "/t368#2795",
+            "url": "r2795",
             "simpleTitle": "duelo #2: asteria vs minerva",
             "space": "el pensadero"
         },
@@ -73621,7 +73621,7 @@ const DBModule = (function () {
                 17,
                 20
             ],
-            "url": "/t368#2799",
+            "url": "r2799",
             "simpleTitle": "duelo #2: asteria vs minerva",
             "space": "el pensadero"
         },
@@ -73631,7 +73631,7 @@ const DBModule = (function () {
                 16,
                 4
             ],
-            "url": "/t368#2804",
+            "url": "r2804",
             "simpleTitle": "duelo #2: asteria vs minerva",
             "space": "el pensadero"
         },
@@ -73641,7 +73641,7 @@ const DBModule = (function () {
                 7,
                 19
             ],
-            "url": "/t368#2807",
+            "url": "r2807",
             "simpleTitle": "duelo #2: asteria vs minerva",
             "space": "el pensadero"
         },
@@ -73651,7 +73651,7 @@ const DBModule = (function () {
                 11,
                 2
             ],
-            "url": "/t368#2829",
+            "url": "r2829",
             "simpleTitle": "duelo #2: asteria vs minerva",
             "space": "el pensadero"
         },
@@ -73661,7 +73661,7 @@ const DBModule = (function () {
                 8,
                 6
             ],
-            "url": "/t368#2855",
+            "url": "r2855",
             "simpleTitle": "duelo #2: asteria vs minerva",
             "space": "el pensadero"
         },
@@ -73671,7 +73671,7 @@ const DBModule = (function () {
                 15,
                 13
             ],
-            "url": "/t368#2930",
+            "url": "r2930",
             "simpleTitle": "duelo #2: asteria vs minerva",
             "space": "el pensadero"
         },
@@ -73681,7 +73681,7 @@ const DBModule = (function () {
                 9,
                 9
             ],
-            "url": "/t368#3032",
+            "url": "r3032",
             "simpleTitle": "duelo #2: asteria vs minerva",
             "space": "el pensadero"
         },
@@ -73690,7 +73690,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t368#3034",
+            "url": "r3034",
             "simpleTitle": "duelo #2: asteria vs minerva",
             "space": "el pensadero"
         },
@@ -73699,7 +73699,7 @@ const DBModule = (function () {
             "spread": [
                 13
             ],
-            "url": "/t368#3036",
+            "url": "r3036",
             "simpleTitle": "duelo #2: asteria vs minerva",
             "space": "el pensadero"
         },
@@ -73708,7 +73708,7 @@ const DBModule = (function () {
             "spread": [
                 9
             ],
-            "url": "/t368#3038",
+            "url": "r3038",
             "simpleTitle": "duelo #2: asteria vs minerva",
             "space": "el pensadero"
         },
@@ -73718,7 +73718,7 @@ const DBModule = (function () {
                 18,
                 13
             ],
-            "url": "/t368#3040",
+            "url": "r3040",
             "simpleTitle": "duelo #2: asteria vs minerva",
             "space": "el pensadero"
         },
@@ -73728,7 +73728,7 @@ const DBModule = (function () {
                 8,
                 14
             ],
-            "url": "/t368#3055",
+            "url": "r3055",
             "simpleTitle": "duelo #2: asteria vs minerva",
             "space": "el pensadero"
         },
@@ -73738,7 +73738,7 @@ const DBModule = (function () {
                 6,
                 8
             ],
-            "url": "/t368#3058",
+            "url": "r3058",
             "simpleTitle": "duelo #2: asteria vs minerva",
             "space": "el pensadero"
         },
@@ -73747,7 +73747,7 @@ const DBModule = (function () {
             "spread": [
                 11
             ],
-            "url": "/t368#3060",
+            "url": "r3060",
             "simpleTitle": "duelo #2: asteria vs minerva",
             "space": "el pensadero"
         },
@@ -73756,7 +73756,7 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "url": "/t368#3063",
+            "url": "r3063",
             "simpleTitle": "duelo #2: asteria vs minerva",
             "space": "el pensadero"
         },
@@ -73765,7 +73765,7 @@ const DBModule = (function () {
             "spread": [
                 9
             ],
-            "url": "/t354#2220",
+            "url": "r2220",
             "simpleTitle": "misión - haunted dwelling",
             "space": "el pensadero"
         },
@@ -73774,7 +73774,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t354#2225",
+            "url": "r2225",
             "simpleTitle": "misión - haunted dwelling",
             "space": "el pensadero"
         },
@@ -73783,7 +73783,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t354#2233",
+            "url": "r2233",
             "simpleTitle": "misión - haunted dwelling",
             "space": "el pensadero"
         },
@@ -73792,7 +73792,7 @@ const DBModule = (function () {
             "spread": [
                 11
             ],
-            "url": "/t354#2256",
+            "url": "r2256",
             "simpleTitle": "misión - haunted dwelling",
             "space": "el pensadero"
         },
@@ -73801,7 +73801,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t354#2260",
+            "url": "r2260",
             "simpleTitle": "misión - haunted dwelling",
             "space": "el pensadero"
         },
@@ -73811,7 +73811,7 @@ const DBModule = (function () {
                 20,
                 1
             ],
-            "url": "/t354#2292",
+            "url": "r2292",
             "simpleTitle": "misión - haunted dwelling",
             "space": "el pensadero"
         },
@@ -73820,7 +73820,7 @@ const DBModule = (function () {
             "spread": [
                 18
             ],
-            "url": "/t354#2481",
+            "url": "r2481",
             "simpleTitle": "misión - haunted dwelling",
             "space": "el pensadero"
         },
@@ -73829,7 +73829,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t354#2497",
+            "url": "r2497",
             "simpleTitle": "misión - haunted dwelling",
             "space": "el pensadero"
         },
@@ -73838,7 +73838,7 @@ const DBModule = (function () {
             "spread": [
                 18
             ],
-            "url": "/t354#2609",
+            "url": "r2609",
             "simpleTitle": "misión - haunted dwelling",
             "space": "el pensadero"
         },
@@ -73847,7 +73847,7 @@ const DBModule = (function () {
             "spread": [
                 11
             ],
-            "url": "/t354#2769",
+            "url": "r2769",
             "simpleTitle": "misión - haunted dwelling",
             "space": "el pensadero"
         },
@@ -73856,7 +73856,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t354#2801",
+            "url": "r2801",
             "simpleTitle": "misión - haunted dwelling",
             "space": "el pensadero"
         },
@@ -73865,7 +73865,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t354#3758",
+            "url": "r3758",
             "simpleTitle": "misión - haunted dwelling",
             "space": "el pensadero"
         },
@@ -73874,7 +73874,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t365#2350",
+            "url": "r2350",
             "simpleTitle": "misión - death in a teacup",
             "space": "el pensadero"
         },
@@ -73883,7 +73883,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t365#2446",
+            "url": "r2446",
             "simpleTitle": "misión - death in a teacup",
             "space": "el pensadero"
         },
@@ -73892,7 +73892,7 @@ const DBModule = (function () {
             "spread": [
                 5
             ],
-            "url": "/t365#2605",
+            "url": "r2605",
             "simpleTitle": "misión - death in a teacup",
             "space": "el pensadero"
         },
@@ -73901,7 +73901,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t365#2625",
+            "url": "r2625",
             "simpleTitle": "misión - death in a teacup",
             "space": "el pensadero"
         },
@@ -73910,7 +73910,7 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "url": "/t365#3091",
+            "url": "r3091",
             "simpleTitle": "misión - death in a teacup",
             "space": "el pensadero"
         },
@@ -73919,7 +73919,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t365#3213",
+            "url": "r3213",
             "simpleTitle": "misión - death in a teacup",
             "space": "el pensadero"
         },
@@ -73928,7 +73928,7 @@ const DBModule = (function () {
             "spread": [
                 3
             ],
-            "url": "/t365#3215",
+            "url": "r3215",
             "simpleTitle": "misión - death in a teacup",
             "space": "el pensadero"
         },
@@ -73937,7 +73937,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t365#3324",
+            "url": "r3324",
             "simpleTitle": "misión - death in a teacup",
             "space": "el pensadero"
         },
@@ -73946,7 +73946,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t365#3326",
+            "url": "r3326",
             "simpleTitle": "misión - death in a teacup",
             "space": "el pensadero"
         },
@@ -73955,7 +73955,7 @@ const DBModule = (function () {
             "spread": [
                 5
             ],
-            "url": "/t365#3356",
+            "url": "r3356",
             "simpleTitle": "misión - death in a teacup",
             "space": "el pensadero"
         },
@@ -73964,7 +73964,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t365#3407",
+            "url": "r3407",
             "simpleTitle": "misión - death in a teacup",
             "space": "el pensadero"
         },
@@ -73973,7 +73973,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t365#3460",
+            "url": "r3460",
             "simpleTitle": "misión - death in a teacup",
             "space": "el pensadero"
         },
@@ -73982,7 +73982,7 @@ const DBModule = (function () {
             "spread": [
                 9
             ],
-            "url": "/t365#3492",
+            "url": "r3492",
             "simpleTitle": "misión - death in a teacup",
             "space": "el pensadero"
         },
@@ -73992,7 +73992,7 @@ const DBModule = (function () {
                 9,
                 5
             ],
-            "url": "/t365#3519",
+            "url": "r3519",
             "simpleTitle": "misión - death in a teacup",
             "space": "el pensadero"
         },
@@ -74002,7 +74002,7 @@ const DBModule = (function () {
                 8,
                 15
             ],
-            "url": "/t365#3738",
+            "url": "r3738",
             "simpleTitle": "misión - death in a teacup",
             "space": "el pensadero"
         },
@@ -74012,7 +74012,7 @@ const DBModule = (function () {
                 15,
                 2
             ],
-            "url": "/t345#2736",
+            "url": "r2736",
             "simpleTitle": "clase de transformaciones: transfiguración animada",
             "space": "el pensadero"
         },
@@ -74022,7 +74022,7 @@ const DBModule = (function () {
                 1,
                 1
             ],
-            "url": "/t345#2776",
+            "url": "r2776",
             "simpleTitle": "clase de transformaciones: transfiguración animada",
             "space": "el pensadero"
         },
@@ -74032,7 +74032,7 @@ const DBModule = (function () {
                 10,
                 3
             ],
-            "url": "/t345#3099",
+            "url": "r3099",
             "simpleTitle": "clase de transformaciones: transfiguración animada",
             "space": "el pensadero"
         },
@@ -74042,7 +74042,7 @@ const DBModule = (function () {
                 3,
                 20
             ],
-            "url": "/t345#3109",
+            "url": "r3109",
             "simpleTitle": "clase de transformaciones: transfiguración animada",
             "space": "el pensadero"
         },
@@ -74052,7 +74052,7 @@ const DBModule = (function () {
                 10,
                 11
             ],
-            "url": "/t345#3171",
+            "url": "r3171",
             "simpleTitle": "clase de transformaciones: transfiguración animada",
             "space": "el pensadero"
         },
@@ -74061,7 +74061,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t346#3195",
+            "url": "r3195",
             "simpleTitle": "clase de transformaciones: metamorfosis humana",
             "space": "el pensadero"
         },
@@ -74071,7 +74071,7 @@ const DBModule = (function () {
                 6,
                 8
             ],
-            "url": "/t346#3211",
+            "url": "r3211",
             "simpleTitle": "clase de transformaciones: metamorfosis humana",
             "space": "el pensadero"
         },
@@ -74080,7 +74080,7 @@ const DBModule = (function () {
             "spread": [
                 19
             ],
-            "url": "/t346#3217",
+            "url": "r3217",
             "simpleTitle": "clase de transformaciones: metamorfosis humana",
             "space": "el pensadero"
         },
@@ -74089,7 +74089,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t357#3066",
+            "url": "r3066",
             "simpleTitle": "castles crumbling",
             "space": "el pensadero"
         },
@@ -74098,7 +74098,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t318#2361",
+            "url": "r2361",
             "simpleTitle": "práctica: unlocking the mind",
             "space": "el pensadero"
         },
@@ -74107,7 +74107,7 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "url": "/t318#2535",
+            "url": "r2535",
             "simpleTitle": "práctica: unlocking the mind",
             "space": "el pensadero"
         },
@@ -74116,7 +74116,7 @@ const DBModule = (function () {
             "spread": [
                 18
             ],
-            "url": "/t318#2561",
+            "url": "r2561",
             "simpleTitle": "práctica: unlocking the mind",
             "space": "el pensadero"
         },
@@ -74125,7 +74125,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t318#2671",
+            "url": "r2671",
             "simpleTitle": "práctica: unlocking the mind",
             "space": "el pensadero"
         },
@@ -74134,7 +74134,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t318#2683",
+            "url": "r2683",
             "simpleTitle": "práctica: unlocking the mind",
             "space": "el pensadero"
         },
@@ -74143,7 +74143,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t376#2915",
+            "url": "r2915",
             "simpleTitle": "it'll be our secret",
             "space": "el pensadero"
         },
@@ -74152,7 +74152,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t376#3129",
+            "url": "r3129",
             "simpleTitle": "it'll be our secret",
             "space": "el pensadero"
         },
@@ -74161,7 +74161,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t376#3504",
+            "url": "r3504",
             "simpleTitle": "it'll be our secret",
             "space": "el pensadero"
         },
@@ -74171,7 +74171,7 @@ const DBModule = (function () {
                 12,
                 15
             ],
-            "url": "/t376#3809",
+            "url": "r3809",
             "simpleTitle": "it'll be our secret",
             "space": "el pensadero"
         },
@@ -74180,7 +74180,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t320#2364",
+            "url": "r2364",
             "simpleTitle": "dancing in the moonlight",
             "space": "el pensadero"
         },
@@ -74189,7 +74189,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t386#2968",
+            "url": "r2968",
             "simpleTitle": "vivamus, moriendum est",
             "space": "el pensadero"
         },
@@ -74198,7 +74198,7 @@ const DBModule = (function () {
             "spread": [
                 19
             ],
-            "url": "/t302#1613",
+            "url": "r1613",
             "simpleTitle": "práctica - to die for",
             "space": "el pensadero"
         },
@@ -74207,7 +74207,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t302#1617",
+            "url": "r1617",
             "simpleTitle": "práctica - to die for",
             "space": "el pensadero"
         },
@@ -74216,7 +74216,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t302#2464",
+            "url": "r2464",
             "simpleTitle": "práctica - to die for",
             "space": "el pensadero"
         },
@@ -74225,7 +74225,7 @@ const DBModule = (function () {
             "spread": [
                 18
             ],
-            "url": "/t302#2599",
+            "url": "r2599",
             "simpleTitle": "práctica - to die for",
             "space": "el pensadero"
         },
@@ -74234,7 +74234,7 @@ const DBModule = (function () {
             "spread": [
                 15
             ],
-            "url": "/t302#2602",
+            "url": "r2602",
             "simpleTitle": "práctica - to die for",
             "space": "el pensadero"
         },
@@ -74243,7 +74243,7 @@ const DBModule = (function () {
             "spread": [
                 6
             ],
-            "url": "/t302#2754",
+            "url": "r2754",
             "simpleTitle": "práctica - to die for",
             "space": "el pensadero"
         },
@@ -74253,7 +74253,7 @@ const DBModule = (function () {
                 17,
                 15
             ],
-            "url": "/t302#2797",
+            "url": "r2797",
             "simpleTitle": "práctica - to die for",
             "space": "el pensadero"
         },
@@ -74262,7 +74262,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t303#2166",
+            "url": "r2166",
             "simpleTitle": "the unknown",
             "space": "el pensadero"
         },
@@ -74271,7 +74271,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t303#3268",
+            "url": "r3268",
             "simpleTitle": "the unknown",
             "space": "el pensadero"
         },
@@ -74280,7 +74280,7 @@ const DBModule = (function () {
             "spread": [
                 15
             ],
-            "url": "/t169#748",
+            "url": "r748",
             "simpleTitle": "old shadows",
             "space": "el pensadero"
         },
@@ -74289,7 +74289,7 @@ const DBModule = (function () {
             "spread": [
                 18
             ],
-            "url": "/t169#1977",
+            "url": "r1977",
             "simpleTitle": "old shadows",
             "space": "el pensadero"
         },
@@ -74298,7 +74298,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t270#1159",
+            "url": "r1159",
             "simpleTitle": "práctica - this is just a practice",
             "space": "el pensadero"
         },
@@ -74308,7 +74308,7 @@ const DBModule = (function () {
                 2,
                 1
             ],
-            "url": "/t270#1192",
+            "url": "r1192",
             "simpleTitle": "práctica - this is just a practice",
             "space": "el pensadero"
         },
@@ -74318,7 +74318,7 @@ const DBModule = (function () {
                 8,
                 9
             ],
-            "url": "/t270#1523",
+            "url": "r1523",
             "simpleTitle": "práctica - this is just a practice",
             "space": "el pensadero"
         },
@@ -74328,7 +74328,7 @@ const DBModule = (function () {
                 11,
                 14
             ],
-            "url": "/t270#1621",
+            "url": "r1621",
             "simpleTitle": "práctica - this is just a practice",
             "space": "el pensadero"
         },
@@ -74337,7 +74337,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t270#1926",
+            "url": "r1926",
             "simpleTitle": "práctica - this is just a practice",
             "space": "el pensadero"
         },
@@ -74346,7 +74346,7 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "url": "/t270#2355",
+            "url": "r2355",
             "simpleTitle": "práctica - this is just a practice",
             "space": "el pensadero"
         },
@@ -74355,7 +74355,7 @@ const DBModule = (function () {
             "spread": [
                 19
             ],
-            "url": "/t270#2641",
+            "url": "r2641",
             "simpleTitle": "práctica - this is just a practice",
             "space": "el pensadero"
         },
@@ -74364,7 +74364,7 @@ const DBModule = (function () {
             "spread": [
                 13
             ],
-            "url": "/t270#2649",
+            "url": "r2649",
             "simpleTitle": "práctica - this is just a practice",
             "space": "el pensadero"
         },
@@ -74373,7 +74373,7 @@ const DBModule = (function () {
             "spread": [
                 13
             ],
-            "url": "/t270#2705",
+            "url": "r2705",
             "simpleTitle": "práctica - this is just a practice",
             "space": "el pensadero"
         },
@@ -74382,7 +74382,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t270#2710",
+            "url": "r2710",
             "simpleTitle": "práctica - this is just a practice",
             "space": "el pensadero"
         },
@@ -74391,7 +74391,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t369#2870",
+            "url": "r2870",
             "simpleTitle": "morituri te salutant",
             "space": "el pensadero"
         },
@@ -74401,7 +74401,7 @@ const DBModule = (function () {
                 6,
                 18
             ],
-            "url": "/t369#3490",
+            "url": "r3490",
             "simpleTitle": "morituri te salutant",
             "space": "el pensadero"
         },
@@ -74410,7 +74410,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t369#3601",
+            "url": "r3601",
             "simpleTitle": "morituri te salutant",
             "space": "el pensadero"
         },
@@ -74419,7 +74419,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t377#4002",
+            "url": "r4002",
             "simpleTitle": "práctica - amygdala",
             "space": "el pensadero"
         },
@@ -74428,7 +74428,7 @@ const DBModule = (function () {
             "spread": [
                 11
             ],
-            "url": "/t377#4053",
+            "url": "r4053",
             "simpleTitle": "práctica - amygdala",
             "space": "el pensadero"
         },
@@ -74437,7 +74437,7 @@ const DBModule = (function () {
             "spread": [
                 11
             ],
-            "url": "/t377#4672",
+            "url": "r4672",
             "simpleTitle": "práctica - amygdala",
             "space": "el pensadero"
         },
@@ -74446,7 +74446,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t377#4983",
+            "url": "r4983",
             "simpleTitle": "práctica - amygdala",
             "space": "el pensadero"
         },
@@ -74455,7 +74455,7 @@ const DBModule = (function () {
             "spread": [
                 19
             ],
-            "url": "/t377#5699",
+            "url": "r5699",
             "simpleTitle": "práctica - amygdala",
             "space": "el pensadero"
         },
@@ -74464,7 +74464,7 @@ const DBModule = (function () {
             "spread": [
                 19
             ],
-            "url": "/t377#5807",
+            "url": "r5807",
             "simpleTitle": "práctica - amygdala",
             "space": "el pensadero"
         },
@@ -74473,7 +74473,7 @@ const DBModule = (function () {
             "spread": [
                 13
             ],
-            "url": "/t99#1489",
+            "url": "r1489",
             "simpleTitle": "práctica - amateur blood",
             "space": "el pensadero"
         },
@@ -74482,7 +74482,7 @@ const DBModule = (function () {
             "spread": [
                 9
             ],
-            "url": "/t99#1608",
+            "url": "r1608",
             "simpleTitle": "práctica - amateur blood",
             "space": "el pensadero"
         },
@@ -74491,7 +74491,7 @@ const DBModule = (function () {
             "spread": [
                 5
             ],
-            "url": "/t99#1790",
+            "url": "r1790",
             "simpleTitle": "práctica - amateur blood",
             "space": "el pensadero"
         },
@@ -74500,7 +74500,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t99#2186",
+            "url": "r2186",
             "simpleTitle": "práctica - amateur blood",
             "space": "el pensadero"
         },
@@ -74509,7 +74509,7 @@ const DBModule = (function () {
             "spread": [
                 19
             ],
-            "url": "/t99#2228",
+            "url": "r2228",
             "simpleTitle": "práctica - amateur blood",
             "space": "el pensadero"
         },
@@ -74518,7 +74518,7 @@ const DBModule = (function () {
             "spread": [
                 18
             ],
-            "url": "/t251#1026",
+            "url": "r1026",
             "simpleTitle": "práctica - access denied",
             "space": "el pensadero"
         },
@@ -74527,7 +74527,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t251#1083",
+            "url": "r1083",
             "simpleTitle": "práctica - access denied",
             "space": "el pensadero"
         },
@@ -74536,7 +74536,7 @@ const DBModule = (function () {
             "spread": [
                 9
             ],
-            "url": "/t251#1092",
+            "url": "r1092",
             "simpleTitle": "práctica - access denied",
             "space": "el pensadero"
         },
@@ -74545,7 +74545,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t251#1175",
+            "url": "r1175",
             "simpleTitle": "práctica - access denied",
             "space": "el pensadero"
         },
@@ -74554,7 +74554,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t251#1232",
+            "url": "r1232",
             "simpleTitle": "práctica - access denied",
             "space": "el pensadero"
         },
@@ -74563,7 +74563,7 @@ const DBModule = (function () {
             "spread": [
                 12
             ],
-            "url": "/t251#1421",
+            "url": "r1421",
             "simpleTitle": "práctica - access denied",
             "space": "el pensadero"
         },
@@ -74572,7 +74572,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t251#1449",
+            "url": "r1449",
             "simpleTitle": "práctica - access denied",
             "space": "el pensadero"
         },
@@ -74581,7 +74581,7 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "url": "/t251#1630",
+            "url": "r1630",
             "simpleTitle": "práctica - access denied",
             "space": "el pensadero"
         },
@@ -74590,7 +74590,7 @@ const DBModule = (function () {
             "spread": [
                 3
             ],
-            "url": "/t251#1644",
+            "url": "r1644",
             "simpleTitle": "práctica - access denied",
             "space": "el pensadero"
         },
@@ -74599,7 +74599,7 @@ const DBModule = (function () {
             "spread": [
                 11
             ],
-            "url": "/t251#1716",
+            "url": "r1716",
             "simpleTitle": "práctica - access denied",
             "space": "el pensadero"
         },
@@ -74608,7 +74608,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t388#2693",
+            "url": "r2693",
             "simpleTitle": "when the dog almost kill the owl",
             "space": "el pensadero"
         },
@@ -74617,7 +74617,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t388#2860",
+            "url": "r2860",
             "simpleTitle": "when the dog almost kill the owl",
             "space": "el pensadero"
         },
@@ -74627,7 +74627,7 @@ const DBModule = (function () {
                 1,
                 6
             ],
-            "url": "/t388#2951",
+            "url": "r2951",
             "simpleTitle": "when the dog almost kill the owl",
             "space": "el pensadero"
         },
@@ -74637,7 +74637,7 @@ const DBModule = (function () {
                 16,
                 14
             ],
-            "url": "/t388#3082",
+            "url": "r3082",
             "simpleTitle": "when the dog almost kill the owl",
             "space": "el pensadero"
         },
@@ -74647,7 +74647,7 @@ const DBModule = (function () {
                 18,
                 13
             ],
-            "url": "/t388#3350",
+            "url": "r3350",
             "simpleTitle": "when the dog almost kill the owl",
             "space": "el pensadero"
         },
@@ -74656,7 +74656,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t388#3791",
+            "url": "r3791",
             "simpleTitle": "when the dog almost kill the owl",
             "space": "el pensadero"
         },
@@ -74665,7 +74665,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t167#726",
+            "url": "r726",
             "simpleTitle": "your silence is my favourite sound",
             "space": "el pensadero"
         },
@@ -74674,7 +74674,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t167#1034",
+            "url": "r1034",
             "simpleTitle": "your silence is my favourite sound",
             "space": "el pensadero"
         },
@@ -74683,7 +74683,7 @@ const DBModule = (function () {
             "spread": [
                 11
             ],
-            "url": "/t198#2659",
+            "url": "r2659",
             "simpleTitle": "the sky might fall",
             "space": "el pensadero"
         },
@@ -74692,7 +74692,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t96#3073",
+            "url": "r3073",
             "simpleTitle": "state line",
             "space": "el pensadero"
         },
@@ -74701,7 +74701,7 @@ const DBModule = (function () {
             "spread": [
                 14
             ],
-            "url": "/t107#1452",
+            "url": "r1452",
             "simpleTitle": "verdant alchemy",
             "space": "el pensadero"
         },
@@ -74710,7 +74710,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t107#2358",
+            "url": "r2358",
             "simpleTitle": "verdant alchemy",
             "space": "el pensadero"
         },
@@ -74719,7 +74719,7 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "url": "/t107#2617",
+            "url": "r2617",
             "simpleTitle": "verdant alchemy",
             "space": "el pensadero"
         },
@@ -74728,7 +74728,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t102#380",
+            "url": "r380",
             "simpleTitle": "following a hunch",
             "space": "el pensadero"
         },
@@ -74737,7 +74737,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t102#392",
+            "url": "r392",
             "simpleTitle": "following a hunch",
             "space": "el pensadero"
         },
@@ -74747,7 +74747,7 @@ const DBModule = (function () {
                 2,
                 15
             ],
-            "url": "/t102#402",
+            "url": "r402",
             "simpleTitle": "following a hunch",
             "space": "el pensadero"
         },
@@ -74757,7 +74757,7 @@ const DBModule = (function () {
                 19,
                 6
             ],
-            "url": "/t102#506",
+            "url": "r506",
             "simpleTitle": "following a hunch",
             "space": "el pensadero"
         },
@@ -74766,7 +74766,7 @@ const DBModule = (function () {
             "spread": [
                 5
             ],
-            "url": "/t102#516",
+            "url": "r516",
             "simpleTitle": "following a hunch",
             "space": "el pensadero"
         },
@@ -74776,7 +74776,7 @@ const DBModule = (function () {
                 2,
                 8
             ],
-            "url": "/t102#623",
+            "url": "r623",
             "simpleTitle": "following a hunch",
             "space": "el pensadero"
         },
@@ -74786,7 +74786,7 @@ const DBModule = (function () {
                 20,
                 2
             ],
-            "url": "/t102#635",
+            "url": "r635",
             "simpleTitle": "following a hunch",
             "space": "el pensadero"
         },
@@ -74796,7 +74796,7 @@ const DBModule = (function () {
                 3,
                 19
             ],
-            "url": "/t102#675",
+            "url": "r675",
             "simpleTitle": "following a hunch",
             "space": "el pensadero"
         },
@@ -74806,7 +74806,7 @@ const DBModule = (function () {
                 6,
                 11
             ],
-            "url": "/t102#1188",
+            "url": "r1188",
             "simpleTitle": "following a hunch",
             "space": "el pensadero"
         },
@@ -74815,7 +74815,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t913#12777",
+            "url": "r12777",
             "simpleTitle": "thinking way too loud",
             "space": "el pensadero"
         },
@@ -74824,7 +74824,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t913#13051",
+            "url": "r13051",
             "simpleTitle": "thinking way too loud",
             "space": "el pensadero"
         },
@@ -74833,7 +74833,7 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "url": "/t913#13092",
+            "url": "r13092",
             "simpleTitle": "thinking way too loud",
             "space": "el pensadero"
         },
@@ -74842,7 +74842,7 @@ const DBModule = (function () {
             "spread": [
                 13
             ],
-            "url": "/t913#13640",
+            "url": "r13640",
             "simpleTitle": "thinking way too loud",
             "space": "el pensadero"
         },
@@ -74851,7 +74851,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t476#3575",
+            "url": "r3575",
             "simpleTitle": "evento - ruleta de duelos: jasper vs vasilisa",
             "space": "el pensadero"
         },
@@ -74860,7 +74860,7 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "url": "/t476#3605",
+            "url": "r3605",
             "simpleTitle": "evento - ruleta de duelos: jasper vs vasilisa",
             "space": "el pensadero"
         },
@@ -74870,7 +74870,7 @@ const DBModule = (function () {
                 15,
                 2
             ],
-            "url": "/t476#3657",
+            "url": "r3657",
             "simpleTitle": "evento - ruleta de duelos: jasper vs vasilisa",
             "space": "el pensadero"
         },
@@ -74880,7 +74880,7 @@ const DBModule = (function () {
                 12,
                 10
             ],
-            "url": "/t476#3955",
+            "url": "r3955",
             "simpleTitle": "evento - ruleta de duelos: jasper vs vasilisa",
             "space": "el pensadero"
         },
@@ -74890,7 +74890,7 @@ const DBModule = (function () {
                 8,
                 8
             ],
-            "url": "/t476#3971",
+            "url": "r3971",
             "simpleTitle": "evento - ruleta de duelos: jasper vs vasilisa",
             "space": "el pensadero"
         },
@@ -74899,7 +74899,7 @@ const DBModule = (function () {
             "spread": [
                 18
             ],
-            "url": "/t476#4125",
+            "url": "r4125",
             "simpleTitle": "evento - ruleta de duelos: jasper vs vasilisa",
             "space": "el pensadero"
         },
@@ -74908,7 +74908,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t476#4229",
+            "url": "r4229",
             "simpleTitle": "evento - ruleta de duelos: jasper vs vasilisa",
             "space": "el pensadero"
         },
@@ -74917,7 +74917,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t476#4558",
+            "url": "r4558",
             "simpleTitle": "evento - ruleta de duelos: jasper vs vasilisa",
             "space": "el pensadero"
         },
@@ -74926,7 +74926,7 @@ const DBModule = (function () {
             "spread": [
                 3
             ],
-            "url": "/t121#2241",
+            "url": "r2241",
             "simpleTitle": "make a men out of me",
             "space": "el pensadero"
         },
@@ -74935,7 +74935,7 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "url": "/t121#2366",
+            "url": "r2366",
             "simpleTitle": "make a men out of me",
             "space": "el pensadero"
         },
@@ -74944,7 +74944,7 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "url": "/t121#2409",
+            "url": "r2409",
             "simpleTitle": "make a men out of me",
             "space": "el pensadero"
         },
@@ -74954,7 +74954,7 @@ const DBModule = (function () {
                 9,
                 8
             ],
-            "url": "/t121#2537",
+            "url": "r2537",
             "simpleTitle": "make a men out of me",
             "space": "el pensadero"
         },
@@ -74963,7 +74963,7 @@ const DBModule = (function () {
             "spread": [
                 15
             ],
-            "url": "/t121#2790",
+            "url": "r2790",
             "simpleTitle": "make a men out of me",
             "space": "el pensadero"
         },
@@ -74972,7 +74972,7 @@ const DBModule = (function () {
             "spread": [
                 3
             ],
-            "url": "/t121#2905",
+            "url": "r2905",
             "simpleTitle": "make a men out of me",
             "space": "el pensadero"
         },
@@ -74982,7 +74982,7 @@ const DBModule = (function () {
                 11,
                 1
             ],
-            "url": "/t384#2874",
+            "url": "r2874",
             "simpleTitle": "como basiliscos y acromántulas",
             "space": "el pensadero"
         },
@@ -74991,7 +74991,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t384#2958",
+            "url": "r2958",
             "simpleTitle": "como basiliscos y acromántulas",
             "space": "el pensadero"
         },
@@ -75000,7 +75000,7 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "url": "/t475#3573",
+            "url": "r3573",
             "simpleTitle": "evento - ruleta de duelos: alastor vs orion",
             "space": "el pensadero"
         },
@@ -75009,7 +75009,7 @@ const DBModule = (function () {
             "spread": [
                 3
             ],
-            "url": "/t475#3674",
+            "url": "r3674",
             "simpleTitle": "evento - ruleta de duelos: alastor vs orion",
             "space": "el pensadero"
         },
@@ -75019,7 +75019,7 @@ const DBModule = (function () {
                 15,
                 2
             ],
-            "url": "/t475#3697",
+            "url": "r3697",
             "simpleTitle": "evento - ruleta de duelos: alastor vs orion",
             "space": "el pensadero"
         },
@@ -75029,7 +75029,7 @@ const DBModule = (function () {
                 2,
                 11
             ],
-            "url": "/t475#3730",
+            "url": "r3730",
             "simpleTitle": "evento - ruleta de duelos: alastor vs orion",
             "space": "el pensadero"
         },
@@ -75039,7 +75039,7 @@ const DBModule = (function () {
                 18,
                 1
             ],
-            "url": "/t475#3958",
+            "url": "r3958",
             "simpleTitle": "evento - ruleta de duelos: alastor vs orion",
             "space": "el pensadero"
         },
@@ -75049,7 +75049,7 @@ const DBModule = (function () {
                 7,
                 20
             ],
-            "url": "/t475#3969",
+            "url": "r3969",
             "simpleTitle": "evento - ruleta de duelos: alastor vs orion",
             "space": "el pensadero"
         },
@@ -75059,7 +75059,7 @@ const DBModule = (function () {
                 7,
                 3
             ],
-            "url": "/t475#4121",
+            "url": "r4121",
             "simpleTitle": "evento - ruleta de duelos: alastor vs orion",
             "space": "el pensadero"
         },
@@ -75069,7 +75069,7 @@ const DBModule = (function () {
                 19,
                 9
             ],
-            "url": "/t475#4219",
+            "url": "r4219",
             "simpleTitle": "evento - ruleta de duelos: alastor vs orion",
             "space": "el pensadero"
         },
@@ -75079,7 +75079,7 @@ const DBModule = (function () {
                 11,
                 10
             ],
-            "url": "/t475#4552",
+            "url": "r4552",
             "simpleTitle": "evento - ruleta de duelos: alastor vs orion",
             "space": "el pensadero"
         },
@@ -75089,7 +75089,7 @@ const DBModule = (function () {
                 13,
                 16
             ],
-            "url": "/t475#4829",
+            "url": "r4829",
             "simpleTitle": "evento - ruleta de duelos: alastor vs orion",
             "space": "el pensadero"
         },
@@ -75099,7 +75099,7 @@ const DBModule = (function () {
                 3,
                 19
             ],
-            "url": "/t475#5176",
+            "url": "r5176",
             "simpleTitle": "evento - ruleta de duelos: alastor vs orion",
             "space": "el pensadero"
         },
@@ -75109,7 +75109,7 @@ const DBModule = (function () {
                 3,
                 14
             ],
-            "url": "/t475#5214",
+            "url": "r5214",
             "simpleTitle": "evento - ruleta de duelos: alastor vs orion",
             "space": "el pensadero"
         },
@@ -75119,7 +75119,7 @@ const DBModule = (function () {
                 10,
                 20
             ],
-            "url": "/t475#5786",
+            "url": "r5786",
             "simpleTitle": "evento - ruleta de duelos: alastor vs orion",
             "space": "el pensadero"
         },
@@ -75129,7 +75129,7 @@ const DBModule = (function () {
                 16,
                 16
             ],
-            "url": "/t475#5830",
+            "url": "r5830",
             "simpleTitle": "evento - ruleta de duelos: alastor vs orion",
             "space": "el pensadero"
         },
@@ -75139,7 +75139,7 @@ const DBModule = (function () {
                 7,
                 19
             ],
-            "url": "/t475#5918",
+            "url": "r5918",
             "simpleTitle": "evento - ruleta de duelos: alastor vs orion",
             "space": "el pensadero"
         },
@@ -75148,7 +75148,7 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "url": "/t909#13248",
+            "url": "r13248",
             "simpleTitle": "it wasn't me!",
             "space": "el pensadero"
         }
@@ -75641,3 +75641,6 @@ const DBModule = (function () {
         }
     };
 })();
+
+
+
