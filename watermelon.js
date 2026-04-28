@@ -75385,8 +75385,15 @@ const DBModule = (function () {
         return text ? text.split(' ').length : 0;
     }
 
+    function extractTopicKey(url) {
+        if (!url) return null;
+        // Extrae el ID numérico del final de la URL, ej: /t123-titulo → "123"
+        const match = url.match(/\/t(\d+)/);
+        return match ? match[1] : url.split('-')[0].replace(/\D/g, '') || null;
+    }
+
     async function scanForum(url, forumName) {
-        if (!url) return; // BLINDADO: Si no hay url no hacemos nada
+        if (!url) return;
         await delay(1500);
         const response = await $.get(url);
         const $data = $(response);
@@ -75397,10 +75404,11 @@ const DBModule = (function () {
             const fullUrl = $link.attr('href');
             if (!fullUrl) continue;
 
-            let topicKey = fullUrl.split('-');
-            if (topicKey.includes('p')) { topicKey = topicKey.split('p'); }
+            // FIX Bug 1: usar extractTopicKey consistentemente
+            const topicKey = extractTopicKey(fullUrl);
+            if (!topicKey) continue;
 
-            if (topicKey && !hardcodedTopics[topicKey] && !dynamicData.topics[topicKey]) {
+            if (!hardcodedTopics[topicKey] && !dynamicData.topics[topicKey]) {
                 console.log(`Analizando tema dinámico: ${$link.text()}`);
                 dynamicData.topics[topicKey] = {
                     space: forumName,
@@ -75415,20 +75423,18 @@ const DBModule = (function () {
 
         const $nextPageLink = $data.find('.pagination .sprite-arrow_prosilver_right').parent('a');
         const nextUrl = $nextPageLink.attr('href');
-        // BLINDADO: Solo seguimos si nextUrl existe de verdad
-        if (nextUrl) {
-            await scanForum(nextUrl, forumName);
-        }
+        if (nextUrl) await scanForum(nextUrl, forumName);
     }
 
     async function scanTopicPosts(url, originalTitle) {
-        if (!url) return; // BLINDADO
+        if (!url) return;
         await delay(2000);
         const response = await $.get(url);
         const $data = $(response);
 
-        let topicKey = url.split('-');
-        if (topicKey.includes('p')) { topicKey = topicKey.split('p'); }
+        // FIX Bug 1: usar extractTopicKey consistentemente
+        const topicKey = extractTopicKey(url);
+        if (!topicKey) return;
 
         $data.find('.viewtopic-replies').each(function () {
             const $post = $(this);
@@ -75474,10 +75480,7 @@ const DBModule = (function () {
 
         const $nextPageLink = $data.find('.pagination .sprite-arrow_prosilver_right').parent('a');
         const nextUrl = $nextPageLink.attr('href');
-        // BLINDADO: Solo sigue si el enlace está presente
-        if (nextUrl) {
-            await scanTopicPosts(nextUrl, originalTitle);
-        }
+        if (nextUrl) await scanTopicPosts(nextUrl, originalTitle);
     }
 
     return {
