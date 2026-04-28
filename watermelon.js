@@ -75378,6 +75378,7 @@ const DBModule = (function () {
     }
 
     function countWords($content) {
+        if (!$content || !$content.length) return 0;
         const $clone = $content.clone();
         $clone.find('div').remove();
         const text = $clone.text().replace(/\s+/g, ' ').trim();
