@@ -75560,14 +75560,32 @@ const DBModule = (function () {
 
     return {
         init: async function () {
-            // 1. Cargar caché previa
             const saved = localStorage.getItem(CACHE_KEY);
+            let shouldReset = false; // Declaramos la variable
+
+            // 1. Cargar caché previa SOLO si existe (para no romper en usuarios nuevos)
             if (saved) {
                 const parsed = JSON.parse(saved);
                 database.topics = { ...hardcodedTopics, ...parsed.data.topics };
+                database.dices = [...hardcodedDices, ...(parsed.data.dices || [])];
+
+                // Verificamos si expiró la caché
+                if (Date.now() - parsed.timestamp > CACHE_DURATION) {
+                    console.log("DBModule: Caché expirada. Reiniciando ciclo...");
+                    shouldReset = true;
+                }
+            } else {
+                // Si no hay caché, al menos cargamos lo de la base de datos hardcodeada
+                database.topics = { ...hardcodedTopics };
+                database.dices = [...hardcodedDices];
             }
 
-            // 2. LLAMAR al proceso de bloque (esto es lo que faltaba)
+            // 2. APLICAR EL RESET si corresponde
+            if (shouldReset) {
+                this.resetIndex();
+            }
+
+            // 3. LLAMAR al proceso de bloque
             await this.processNextBlock();
         },
 
