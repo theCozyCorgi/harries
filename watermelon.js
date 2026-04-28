@@ -75356,7 +75356,7 @@ const DBModule = (function () {
             const today = new Date();
             dia = String(today.getDate()).padStart(2, '0');
             mes = String(today.getMonth() + 1).padStart(2, '0');
-            anio = currentAmbientDate.getFullYear();
+            anio = today.getFullYear();
             return `${dia}/${mes}/${anio}`;
         }
 
@@ -75366,7 +75366,7 @@ const DBModule = (function () {
             yesterday.setDate(yesterday.getDate() - 1);
             dia = String(yesterday.getDate()).padStart(2, '0');
             mes = String(yesterday.getMonth() + 1).padStart(2, '0');
-            anio = currentAmbientDate.getFullYear();
+            anio = yesterday.getFullYear();
             return `${dia}/${mes}/${anio}`;
         }
 
