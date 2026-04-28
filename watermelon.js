@@ -23,7 +23,7 @@ const DBModule = (function () {
 
     const CACHE_KEY = 'blackwave_db_cache_v4';
     const INDEX_KEY = 'blackwave_db_current_index';
-    const CACHE_DURATION = 60 * 60 * 1000;
+    const CACHE_DURATION = 6 * 60 * 60 * 1000;
 
     const hardcodedTopics = {
         "/t453": {
