@@ -75568,7 +75568,6 @@ const DBModule = (function () {
                 }
             }
 
-            // CORRECCIÓN 3: Eliminamos duplicados si coexisten en RAM y Hardcode
             const safeCurrentDices = Array.isArray(currentDices) ? currentDices : [];
             const safeHardDices = Array.isArray(hardcodedDices) ? hardcodedDices : [];
             
@@ -75578,8 +75577,23 @@ const DBModule = (function () {
                 if (d && d.url) uniqueDicesMap.set(d.url, d);
             });
 
+            // Combinamos los temas fijos y dinámicos
+            const mergedTopics = { ...hardcodedTopics, ...currentTopics };
+            
+            // REPARACIÓN AUTOMÁTICA: Convertir "Objetos" a "Arrays" si la consola los exportó mal
+            for (let key in mergedTopics) {
+                if (mergedTopics[key]) {
+                    if (mergedTopics[key].posts && !Array.isArray(mergedTopics[key].posts)) {
+                        // Si es un objeto {"0": {...}, "1": {...}}, extrae solo los valores a una lista
+                        mergedTopics[key].posts = Object.values(mergedTopics[key].posts);
+                    } else if (!mergedTopics[key].posts) {
+                        mergedTopics[key].posts = [];
+                    }
+                }
+            }
+
             return {
-                topics: { ...hardcodedTopics, ...currentTopics },
+                topics: mergedTopics,
                 dices: Array.from(uniqueDicesMap.values())
             };
         },
