@@ -75485,6 +75485,12 @@ const DBModule = (function () {
 
     return {
         init: async function () {
+            Object.keys(localStorage).forEach(key => {
+                if (key.startsWith('blackwave_') && key !== CACHE_KEY) {
+                    localStorage.removeItem(key);
+                }
+            });
+
             const saved = localStorage.getItem(CACHE_KEY);
             let shouldReset = false;
 
