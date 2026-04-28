@@ -75222,7 +75222,7 @@ const DBModule = (function () {
         if (match) {
             mes = meses[match[1].toLowerCase()];
             dia = match[2].padStart(2, '0');
-            anio = new Date().getFullYear();
+            anio = currentAmbientDate.getFullYear();
             if (mes) return `${dia}/${mes}/${anio}`;
         }
 
@@ -75231,7 +75231,7 @@ const DBModule = (function () {
         if (match) {
             mes = meses[match[1].toLowerCase()];
             dia = match[2].padStart(2, '0');
-            anio = new Date().getFullYear();
+            anio = currentAmbientDate.getFullYear();
             if (mes) return `${dia}/${mes}/${anio}`;
         }
 
@@ -75303,7 +75303,7 @@ const DBModule = (function () {
         if (match) {
             dia = match[1].padStart(2, '0');
             mes = match[2].padStart(2, '0');
-            anio = new Date().getFullYear();
+            anio = currentAmbientDate.getFullYear();
             return `${dia}/${mes}/${anio}`;
         }
 
@@ -75356,7 +75356,7 @@ const DBModule = (function () {
             const today = new Date();
             dia = String(today.getDate()).padStart(2, '0');
             mes = String(today.getMonth() + 1).padStart(2, '0');
-            anio = today.getFullYear();
+            anio = currentAmbientDate.getFullYear();
             return `${dia}/${mes}/${anio}`;
         }
 
@@ -75366,7 +75366,7 @@ const DBModule = (function () {
             yesterday.setDate(yesterday.getDate() - 1);
             dia = String(yesterday.getDate()).padStart(2, '0');
             mes = String(yesterday.getMonth() + 1).padStart(2, '0');
-            anio = yesterday.getFullYear();
+            anio = currentAmbientDate.getFullYear();
             return `${dia}/${mes}/${anio}`;
         }
 
