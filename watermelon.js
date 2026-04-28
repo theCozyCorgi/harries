@@ -21,8 +21,8 @@ const DBModule = (function () {
         { name: "prácticas del sistema", path: "/f35-practicas-del-sistema" }
     ];
 
-    const CACHE_KEY = 'blackwave_db_cache_v5';
-    const INDEX_KEY = 'current_index_blackwave_v5';
+    const CACHE_KEY = 'blackwave_db_cache_v6';
+    const INDEX_KEY = 'current_index_blackwave_v6';
     const CACHE_DURATION = 1 * 60 * 60 * 1000;
 
     const hardcodedTopics = {
@@ -75547,6 +75547,30 @@ const DBModule = (function () {
 
         resetIndex: function () {
             localStorage.setItem(INDEX_KEY, 0);
+        },
+
+        fullSweep: async function () {
+            console.log("%c[DBModule] Iniciando BARRIDO COMPLETO. Esto tomará varios minutos. NO cierres la pestaña...", "color: yellow; font-size: 14px;");
+            
+            this.resetIndex();
+            let currentIndex = 0;
+
+            while (currentIndex < forums.length) {
+                const currentForum = forums[currentIndex];
+                
+                // Saltamos el pensadero si ya lo tienes hardcodeado, o quita este if si quieres escanearlo también
+                if (currentForum.name !== 'el pensadero') {
+                    console.log(`%c[Barrido ${currentIndex + 1}/${forums.length}] Procesando foro: ${currentForum.name}...`, "color: cyan;");
+                    await scanForum(currentForum.path, currentForum.name);
+                }
+                
+                currentIndex++;
+                localStorage.setItem(INDEX_KEY, currentIndex);
+                this.save();
+            }
+
+            console.log("%c[DBModule] ¡BARRIDO COMPLETO FINALIZADO! Ya tienes toda la base de datos actualizada.", "color: lime; font-size: 16px;");
+            console.log("Escribe DBModule.exportData() para sacar la copia.");
         },
 
         getUnifiedData: function () {
