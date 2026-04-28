@@ -21,7 +21,7 @@ const DBModule = (function () {
         { name: "prácticas del sistema", path: "/f35-practicas-del-sistema" }
     ];
 
-    const CACHE_KEY = 'blackwave_db_cache_v4';
+    const CACHE_KEY = 'blackwave_db_cache_v5';
     const INDEX_KEY = 'bw_db_current_index';
     const CACHE_DURATION = 1 * 60 * 60 * 1000;
 
