@@ -75154,162 +75154,146 @@ const DBModule = (function () {
     ];
 
 	// === DATOS DINÁMICOS (Lo único que va al Storage) ===
-	let dynamicData = {
-		topics: {},
-		dices: []
-	};
-	
-	const delay = ms => new Promise(res => setTimeout(res, ms));
+    let dynamicData = {
+        topics: {},
+        dices: []
+    };
+    
+    const delay = ms => new Promise(res => setTimeout(res, ms));
 
-	function normalizeDate(text) {
-		if (!text) return "";
-		let t = text.trim();
-		const meses = {
-			"ene": "01", "feb": "02", "mar": "03", "abr": "04", "may": "05", "jun": "06",
-			"jul": "07", "ago": "08", "sep": "09", "oct": "10", "nov": "11", "dic": "12",
-			"enero": "01", "febrero": "02", "marzo": "03", "abril": "04", "mayo": "05", "junio": "06",
-			"julio": "07", "agosto": "08", "septiembre": "09", "octubre": "10", "noviembre": "11", "diciembre": "12"
-		};
+    function normalizeDate(text) {
+        // ... (Tu función normalizeDate está perfecta, déjala exactamente como la tienes) ...
+        if (!text) return "";
+        let t = text.trim();
+        const meses = {
+            "ene": "01", "feb": "02", "mar": "03", "abr": "04", "may": "05", "jun": "06",
+            "jul": "07", "ago": "08", "sep": "09", "oct": "10", "nov": "11", "dic": "12",
+            "enero": "01", "febrero": "02", "marzo": "03", "abril": "04", "mayo": "05", "junio": "06",
+            "julio": "07", "agosto": "08", "septiembre": "09", "octubre": "10", "noviembre": "11", "diciembre": "12"
+        };
 
-		let d, m, a;
+        let d, m, a;
 
-		// Formato [AAAA/MM/DD]
         let match = t.match(/\[(\d{4})\/(\d{2})\/(\d{2})\]/);
-        if (match) return `${match[3]}/${match[2]}/${match[1]}`;
+        if (match) return `${match}/${match}/${match}`;
 
-        // Formato: Miér 04 Jun 2025...
         match = t.match(/^[a-záéí]{3,}\s+(\d{2})\s+([a-záéí]{3,})\s+(\d{4})/i);
         if (match) {
-            d = match[1].padStart(2, '0');
-            m = meses[match[2].toLowerCase().substring(0, 3)];
-            a = match[3];
+            d = match.padStart(2, '0');
+            m = meses[match.toLowerCase().substring(0, 3)];
+            a = match;
             return (d && m && a) ? `${d}/${m}/${a}` : t;
         }
 
-        // Formato: Sábado 26 Julio 1952
         match = t.match(/(\d{1,2})\s+([a-záéíóúñ]+)\s+(\d{4})/i);
         if (match) {
-            d = match[1].padStart(2, '0');
-            m = meses[match[2].toLowerCase()];
-            a = match[3];
+            d = match.padStart(2, '0');
+            m = meses[match.toLowerCase()];
+            a = match;
             return (d && m && a) ? `${d}/${m}/${a}` : t;
         }
 
-        // Formato: 3 de Octubre
         match = t.match(/^(\d{1,2})\s+de\s+([a-z]+)$/i);
         if (match) {
-            dia = match[1].padStart(2, '0');
-            mes = meses[match[2]];
+            dia = match.padStart(2, '0');
+            mes = meses[match];
             if (mes) return `${dia}/${mes}/${anio}`;
         }
 
-        // Formato: 1952/09/07 → aaaa/mm/dd
         match = t.match(/^(\d{4})[\/\-](\d{1,2})[\/\-](\d{1,2})$/);
         if (match) {
-            anio = match[1];
-            mes = match[2].padStart(2, '0');
-            dia = match[3].padStart(2, '0');
+            anio = match;
+            mes = match.padStart(2, '0');
+            dia = match.padStart(2, '0');
             return `${dia}/${mes}/${anio}`;
         }
 
-        // Formato: Octubre 3
         match = t.match(/^([a-z]+)\s+(\d{1,2})$/i);
         if (match) {
-            mes = meses[match[1]];
-            dia = match[2].padStart(2, '0');
+            mes = meses[match];
+            dia = match.padStart(2, '0');
             if (mes) return `${dia}/${mes}/${anio}`;
         }
 
-        // Formato: Oct 3
         match = t.match(/^([a-z]{3})\s+(\d{1,2})$/i);
         if (match) {
-            mes = meses[match[1]];
-            dia = match[2].padStart(2, '0');
+            mes = meses[match];
+            dia = match.padStart(2, '0');
             if (mes) return `${dia}/${mes}/${anio}`;
         }
 
-        // Formato: 3.octubre.1952
         match = t.match(/^(\d{1,2})\.([a-z]+)\.(\d{4})$/i);
         if (match) {
-            dia = match[1].padStart(2, '0');
-            mes = meses[match[2]];
-            anio = match[3];
+            dia = match.padStart(2, '0');
+            mes = meses[match];
+            anio = match;
             if (mes) return `${dia}/${mes}/${anio}`;
         }
 
-        // Formato: 3/10/1952 o 03/10/52
         match = t.match(/^(\d{1,2})[\/\-](\d{1,2})[\/\-](\d{2,4})$/);
         if (match) {
-            dia = match[1].padStart(2, '0');
-            mes = match[2].padStart(2, '0');
-            anio = match[3].length === 2 ? `19${match[3]}` : match[3];
+            dia = match.padStart(2, '0');
+            mes = match.padStart(2, '0');
+            anio = match.length === 2 ? `19${match}` : match;
             return `${dia}/${mes}/${anio}`;
         }
 
-        // Formato: 20 de Septiembre 1952
         match = t.match(/^(\d{1,2})\s+de\s+([a-z]+)\s+(\d{4})$/i);
         if (match) {
-            dia = match[1].padStart(2, '0');
-            mes = meses[match[2]];
-            anio = match[3];
+            dia = match.padStart(2, '0');
+            mes = meses[match];
+            anio = match;
             if (mes) return `${dia}/${mes}/${anio}`;
         }
 
-        // Formato: Octubre, 1952 → 01/10/1952
         match = t.match(/^([a-z]+),?\s+(\d{4})$/i);
         if (match) {
             dia = '01';
-            mes = meses[match[1]];
-            anio = match[2];
+            mes = meses[match];
+            anio = match;
             if (mes) return `${dia}/${mes}/${anio}`;
         }
 
-        // Formato: 5 Septiembre 1952
         match = t.match(/^(\d{1,2})\s+([a-z]+)\s+(\d{4})$/i);
         if (match) {
-            dia = match[1].padStart(2, '0');
-            mes = meses[match[2]];
-            anio = match[3];
+            dia = match.padStart(2, '0');
+            mes = meses[match];
+            anio = match;
             if (mes) return `${dia}/${mes}/${anio}`;
         }
 
-        // Formato: 20 de septiembre de 1952
         match = t.match(/^(\d{1,2})\s+de\s+([a-z]+)\s+de\s+(\d{4})$/i);
         if (match) {
-            dia = match[1].padStart(2, '0');
-            mes = meses[match[2]];
-            anio = match[3];
+            dia = match.padStart(2, '0');
+            mes = meses[match];
+            anio = match;
             if (mes) return `${dia}/${mes}/${anio}`;
         }
 
-        // Formato: 03.09.52
         match = t.match(/^(\d{1,2})\.(\d{1,2})\.(\d{2})$/);
         if (match) {
-            dia = match[1].padStart(2, '0');
-            mes = match[2].padStart(2, '0');
-            anio = `19${match[3]}`;
+            dia = match.padStart(2, '0');
+            mes = match.padStart(2, '0');
+            anio = `19${match}`;
             return `${dia}/${mes}/${anio}`;
         }
 
-        // Formato: 20/09 (sin año, se asume 1952)
         match = t.match(/^(\d{1,2})[\/\-](\d{1,2})$/);
         if (match) {
-            dia = match[1].padStart(2, '0');
-            mes = match[2].padStart(2, '0');
+            dia = match.padStart(2, '0');
+            mes = match.padStart(2, '0');
             anio = '1952';
             return `${dia}/${mes}/${anio}`;
         }
 
-        // Formato: Jue 19 Jun 2025
         match = t.match(/^\w{3}\s+(\d{1,2})\s+([a-z]{3})\s+(\d{4})$/i);
         if (match) {
-            dia = match[1].padStart(2, '0');
-            mes = meses[match[2]];
-            anio = match[3];
+            dia = match.padStart(2, '0');
+            mes = meses[match];
+            anio = match;
             if (mes) return `${dia}/${mes}/${anio}`;
         }
 
-        // Formato: Hoy a las hh:mm
         if (t.startsWith('hoy')) {
             const today = new Date();
             dia = String(today.getDate()).padStart(2, '0');
@@ -75318,7 +75302,6 @@ const DBModule = (function () {
             return `${dia}/${mes}/${anio}`;
         }
 
-        // Formato: Ayer a las hh:mm
         if (t.startsWith('ayer')) {
             const yesterday = new Date();
             yesterday.setDate(yesterday.getDate() - 1);
@@ -75328,86 +75311,78 @@ const DBModule = (function () {
             return `${dia}/${mes}/${anio}`;
         }
 
-        // Formato: Lun 16 Jun 2025, 14:10
         match = t.match(/^\w{3}\s+(\d{1,2})\s+([a-z]{3})\s+(\d{4})(?:,?\s*\d{1,2}:\d{2})?$/i);
         if (match) {
-            dia = match[1].padStart(2, '0');
-            mes = meses[match[2].toLowerCase()];
-            anio = match[3];
+            dia = match.padStart(2, '0');
+            mes = meses[match.toLowerCase()];
+            anio = match;
             if (dia && mes && anio) {
                 return `${dia}/${mes}/${anio}`;
             }
         }
 
-        // Formato: mar 01 jul 2025 04:28
         match = t.match(/^\w{3}\s+(\d{1,2})\s+([a-z]{3})\s+(\d{4})\s+\d{1,2}:\d{2}$/i);
         if (match) {
-            dia = match[1].padStart(2, '0');
-            mes = meses[match[2].toLowerCase()];
-            anio = match[3];
+            dia = match.padStart(2, '0');
+            mes = meses[match.toLowerCase()];
+            anio = match;
             if (dia && mes && anio) {
                 return `${dia}/${mes}/${anio}`;
             }
         }
 
-        // Formato: Dom 25 Mayo 2025, 13:06
         match = t.match(/^\w{3}\s+(\d{1,2})\s+([a-záéíóúñ]+)\s+(\d{4})(?:,?\s*\d{1,2}:\d{2})?$/i);
         if (match) {
-            dia = match[1].padStart(2, '0');
-            mes = meses[match[2].toLowerCase()];
-            anio = match[3];
+            dia = match.padStart(2, '0');
+            mes = meses[match.toLowerCase()];
+            anio = match;
             if (dia && mes && anio) {
                 return `${dia}/${mes}/${anio}`;
             }
         }
 
-        // Formato: Miér 04 Jun 2025, 22:14
         match = t.match(/^[a-záéí]{3,}\s+(\d{2})\s+([a-záéí]{3})\s+(\d{4}),?\s*(\d{2}):(\d{2})$/i);
         if (match) {
-            dia = match[1].padStart(2, '0');
-            mes = meses[match[2].toLowerCase()];
-            anio = match[3];
+            dia = match.padStart(2, '0');
+            mes = meses[match.toLowerCase()];
+            anio = match;
             if (dia && mes && anio) {
                 return `${dia}/${mes}/${anio}`;
             }
         }
 
-        // Formato: Sábado 26 Julio 1952
         match = t.match(/^[a-záéíóúñ]+[\s,]+(\d{1,2})[\s,]+([a-záéíóúñ]+)[\s,]+(\d{4})$/i);
         if (match) {
-            dia = match[1].padStart(2, '0');
-            mes = meses[match[2].toLowerCase()];
-            anio = match[3];
+            dia = match.padStart(2, '0');
+            mes = meses[match.toLowerCase()];
+            anio = match;
             if (dia && mes && anio) {
                 return `${dia}/${mes}/${anio}`;
             }
         }
 
-        // Formato: septiembre 3, 1952
         match = t.match(/^([a-záéíóúñ]+)\s+(\d{1,2}),?\s+(\d{4})$/i);
         if (match) {
-            mes = meses[match[1].toLowerCase()];
-            dia = match[2].padStart(2, '0');
-            anio = match[3];
+            mes = meses[match.toLowerCase()];
+            dia = match.padStart(2, '0');
+            anio = match;
             if (dia && mes && anio) {
                 return `${dia}/${mes}/${anio}`;
             }
         }
 
-        // Formato: 9/7/2025, 22:15
         match = t.match(/^(\d{1,2})\/(\d{1,2})\/(\d{4}),?\s*(\d{2}):(\d{2})$/);
         if (match) {
-            dia = match[1].padStart(2, '0');
-            mes = match[2].padStart(2, '0');
-            anio = match[3];
+            dia = match.padStart(2, '0');
+            mes = match.padStart(2, '0');
+            anio = match;
             return `${dia}/${mes}/${anio}`;
         }
 
-        // Formato Septiembre 03
         match = t.match(/^([a-záéíóúñ]+)\s+(\d{1,2})$/i);
         if (match) {
-            mes = meses[match[1].toLowerCase()];
-            dia = match[2].padStart(2, '0');
+            mes = meses[match.toLowerCase()];
+            dia = match.padStart(2, '0');
             if (dia && mes) {
                 return `${dia}/${mes}/1953`;
             }
@@ -75416,114 +75391,117 @@ const DBModule = (function () {
         return t;
     }
     
-	function sanitizeTitle(title) {
-		return title.replace(/\[.*?\]/g, '').toLowerCase().trim();
-	}
+    function sanitizeTitle(title) {
+        return title.replace(/\[.*?\]/g, '').toLowerCase().trim();
+    }
 
-	function countWords($content) {
-		const $clone = $content.clone();
-		$clone.find('div').remove();
-		const text = $clone.text().replace(/\s+/g, ' ').trim();
-		return text ? text.split(' ').length : 0;
-	}
+    function countWords($content) {
+        const $clone = $content.clone();
+        $clone.find('div').remove();
+        const text = $clone.text().replace(/\s+/g, ' ').trim();
+        return text ? text.split(' ').length : 0;
+    }
 
-	async function scanForum(url, forumName) {
-		await delay(1500);
-		const response = await $.get(url);
-		const $data = $(response);
-		const topicElements = $data.find('.topic').toArray();
+    async function scanForum(url, forumName) {
+        await delay(1500);
+        const response = await $.get(url);
+        const $data = $(response);
+        const topicElements = $data.find('.topic').toArray();
 
-		for (let element of topicElements) {
-			const $link = $(element).find('.topictitle');
-			const fullUrl = $link.attr('href');
-			if (!fullUrl) continue;
+        for (let element of topicElements) {
+            const $link = $(element).find('.topictitle');
+            const fullUrl = $link.attr('href');
+            if (!fullUrl) continue;
 
-			let topicKey = fullUrl.split('-');
-			if (topicKey.includes('p')) { topicKey = topicKey.split('p'); }
+            // CORRECCIÓN 1: Se restauró el para que no sea un Array
+            let topicKey = fullUrl.split('-');
+            if (topicKey.includes('p')) { topicKey = topicKey.split('p'); }
 
-			// EVITAMOS ESCANEAR SI YA ESTÁ FIJO O YA LO ESCANEAMOS ANTES
-			if (topicKey && !hardcodedTopics[topicKey] && !dynamicData.topics[topicKey]) {
-				console.log(`Analizando tema dinámico: ${$link.text()}`);
-				dynamicData.topics[topicKey] = {
-					space: forumName,
-					url: fullUrl,
-					simpleTitle: sanitizeTitle($link.text()),
-					creator: $(element).find('.topic-started a').text(),
-					posts: []
-				};
-				await scanTopicPosts(fullUrl, $link.text());
-			}
-		}
+            if (topicKey && !hardcodedTopics[topicKey] && !dynamicData.topics[topicKey]) {
+                console.log(`Analizando tema dinámico: ${$link.text()}`);
+                dynamicData.topics[topicKey] = {
+                    space: forumName,
+                    url: fullUrl,
+                    simpleTitle: sanitizeTitle($link.text()),
+                    creator: $(element).find('.topic-started a').text(),
+                    posts: []
+                };
+                await scanTopicPosts(fullUrl, $link.text());
+            }
+        }
 
-		const nextPage = $data.find('.pagination .sprite-arrow_prosilver_right').parent('a').attr('href');
-		if (nextPage) await scanForum(nextPage, forumName);
-	}
+        const nextPage = $data.find('.pagination .sprite-arrow_prosilver_right').parent('a').attr('href');
+        if (nextPage) await scanForum(nextPage, forumName);
+    }
 
-	async function scanTopicPosts(url, originalTitle) {
-		await delay(2000);
-		const response = await $.get(url);
-		const $data = $(response);
-		let topicKey = url.split('-');
-		if (topicKey.includes('p')) { topicKey = topicKey.split('p'); }
+    async function scanTopicPosts(url, originalTitle) {
+        await delay(2000);
+        const response = await $.get(url);
+        const $data = $(response);
+        
+        // CORRECCIÓN 1b: Restaurado el
+        let topicKey = url.split('-');
+        if (topicKey.includes('p')) { topicKey = topicKey.split('p'); }
 
-		$data.find('.viewtopic-replies').each(function () {
-			const $post = $(this);
-			const postId = $post.find('.go-to').attr('id');
-			const postDateText = $post.find('.post-action span[title]').attr('title');
+        $data.find('.viewtopic-replies').each(function () {
+            const $post = $(this);
+            const postId = $post.find('.go-to').attr('id');
+            const postDateText = $post.find('.post-action span[title]').attr('title');
 
-			if (!dynamicData.topics[topicKey]?.date) {
-				let ambientDate = normalizeDate(originalTitle);
-				if (ambientDate === originalTitle) { 
-					ambientDate = normalizeDate($post.find('fecha').text());
-				}
-				dynamicData.topics[topicKey].date = ambientDate;
-				dynamicData.topics[topicKey].location = $post.find('lugar').text() || "Desconocida";
-			}
+            if (!dynamicData.topics[topicKey]?.date) {
+                let ambientDate = normalizeDate(originalTitle);
+                if (ambientDate === originalTitle) { 
+                    ambientDate = normalizeDate($post.find('fecha').text());
+                }
+                dynamicData.topics[topicKey].date = ambientDate;
+                dynamicData.topics[topicKey].location = $post.find('lugar').text() || "Desconocida";
+            }
 
-			dynamicData.topics[topicKey].posts.push({
-				url: `r${postId}`,
-				author: $post.find('.poster-name').text().trim(),
-				date: normalizeDate(postDateText),
-				words: countWords($post.find('.rol-content'))
-			});
+            dynamicData.topics[topicKey].posts.push({
+                url: `r${postId}`,
+                author: $post.find('.poster-name').text().trim(),
+                date: normalizeDate(postDateText),
+                words: countWords($post.find('.rol-content'))
+            });
 
-			const $roles = $post.find('.post-content div');
-			$roles.each(function() {
-				const text = $(this).text();
-				if (text.includes('ha efectuado la acción siguiente')) {
-					const res = $(this).find('strong').map(function () { return $(this).text().trim(); }).get();
-					if (res.length > 0) {
-						const pitcher = res.shift();
-						res.shift();
-						const spread = res.map(str => parseInt(str, 10)).filter(num => !isNaN(num));
-						if (pitcher && spread.length > 0) {
-							dynamicData.dices.push({ 
-								pitcher, spread, url: `${topicKey}#${postId}`, 
-								simpleTitle: dynamicData.topics[topicKey].simpleTitle,
-								space: dynamicData.topics[topicKey].space 
-							});
-						}
-					}
-				}
-			});
-		});
+            const $roles = $post.find('.post-content div');
+            $roles.each(function() {
+                const text = $(this).text();
+                if (text.includes('ha efectuado la acción siguiente')) {
+                    const res = $(this).find('strong').map(function () { return $(this).text().trim(); }).get();
+                    if (res.length > 0) {
+                        const pitcher = res.shift();
+                        res.shift();
+                        const spread = res.map(str => parseInt(str, 10)).filter(num => !isNaN(num));
+                        if (pitcher && spread.length > 0) {
+                            dynamicData.dices.push({ 
+                                pitcher, spread, url: `${topicKey}#${postId}`, 
+                                simpleTitle: dynamicData.topics[topicKey].simpleTitle,
+                                space: dynamicData.topics[topicKey].space 
+                            });
+                        }
+                    }
+                }
+            });
+        });
 
-		const $nextPageLink = $data.find('.pagination .sprite-arrow_prosilver_right').parent('a');
-		if ($nextPageLink.length > 0) {
-			await scanTopicPosts($nextPageLink.attr('href'), originalTitle); 
-		}
-	}
+        const $nextPageLink = $data.find('.pagination .sprite-arrow_prosilver_right').parent('a');
+        if ($nextPageLink.length > 0) {
+            await scanTopicPosts($nextPageLink.attr('href'), originalTitle); 
+        }
+    }
 
-	return {
-		init: async function () {
-			const saved = localStorage.getItem(CACHE_KEY);
-			let shouldReset = false;
+    return {
+        init: async function () {
+            const saved = localStorage.getItem(CACHE_KEY);
+            let shouldReset = false;
 
-			if (saved) {
+            if (saved) {
                 try {
                     const parsed = JSON.parse(saved);
                     dynamicData.topics = parsed.data.topics || {};
-                    dynamicData.dices = parsed.data.dices || [];
+                    // CORRECCIÓN 2: Aseguramos que dices sea un Array
+                    dynamicData.dices = Array.isArray(parsed.data.dices) ? parsed.data.dices : [];
 
                     if (Date.now() - parsed.timestamp > CACHE_DURATION) {
                         console.log("DBModule: Caché expirada. Reiniciando escaneo dinámico...");
@@ -75533,86 +75511,92 @@ const DBModule = (function () {
                     console.error("Caché corrupta. Reseteando.", e);
                     shouldReset = true;
                 }
-			}
-
-			if (shouldReset) { this.resetIndex(); }
-			await this.processNextBlock();
-		},
-
-		processNextBlock: async function () {
-			let currentIndex = parseInt(localStorage.getItem(INDEX_KEY)) || 0;
-			if (currentIndex >= forums.length) {
-				console.log("DBModule: Escaneo al día.");
-				return;
-			}
-
-			const currentForum = forums[currentIndex];
-            
-            // Ya no escaneamos el Pensadero dinámicamente para ahorrar internet y tiempo, ¡porque ya está hardcodeado!
-            if (currentForum.name !== 'el pensadero') {
-                console.log(`[Bloque ${currentIndex + 1}/${forums.length}] Procesando: ${currentForum.name}`);
-			    await scanForum(currentForum.path, currentForum.name);
             }
 
-			this.save();
-			localStorage.setItem(INDEX_KEY, currentIndex + 1);
-			$(document).trigger("dbBlockFinished"); 
-		},
+            if (shouldReset) { this.resetIndex(); }
+            await this.processNextBlock();
+        },
 
-		save: function () {
+        processNextBlock: async function () {
+            let currentIndex = parseInt(localStorage.getItem(INDEX_KEY)) || 0;
+            if (currentIndex >= forums.length) {
+                console.log("DBModule: Escaneo al día.");
+                return;
+            }
+
+            const currentForum = forums[currentIndex];
+            
+            if (currentForum.name !== 'el pensadero') {
+                console.log(`[Bloque ${currentIndex + 1}/${forums.length}] Procesando: ${currentForum.name}`);
+                await scanForum(currentForum.path, currentForum.name);
+            }
+
+            this.save();
+            localStorage.setItem(INDEX_KEY, currentIndex + 1);
+            $(document).trigger("dbBlockFinished"); 
+        },
+
+        save: function () {
             try {
                 localStorage.setItem(CACHE_KEY, JSON.stringify({
                     timestamp: Date.now(),
-                    data: dynamicData // <--- SOLO GUARDAMOS LO DINÁMICO
+                    data: dynamicData 
                 }));
                 console.log(`DBModule: Guardado exitoso. (${Object.keys(dynamicData.topics).length} temas dinámicos).`);
             } catch(e) {
                 console.error("DBModule: Error guardando (Probablemente Storage Lleno)", e);
             }
-		},
+        },
 
-		resetIndex: function() {
-			localStorage.setItem(INDEX_KEY, 0);
-		},
+        resetIndex: function() {
+            localStorage.setItem(INDEX_KEY, 0);
+        },
 
-        // === NUEVA FUNCIÓN MÁGICA PARA LOS DEMÁS MÓDULOS ===
+        // === NUEVA FUNCIÓN UNIFICADORA ===
         getUnifiedData: function () {
-            // Unifica en vivo la info estática con la dinámica que tenga en RAM/Storage
-            let currentTopics = dynamicData.topics;
-            let currentDices = dynamicData.dices;
+            let currentTopics = dynamicData.topics || {};
+            let currentDices = dynamicData.dices || [];
             
-            // Por si el otro módulo carga antes que DBModule termine de arrancar
             if (Object.keys(currentTopics).length === 0) {
                 const saved = localStorage.getItem(CACHE_KEY);
                 if (saved) {
                     try {
                         const p = JSON.parse(saved);
-                        currentTopics = p.data.topics || {};
-                        currentDices = p.data.dices || [];
+                        currentTopics = p.data?.topics || {};
+                        currentDices = p.data?.dices || [];
                     } catch(e) {}
                 }
             }
 
+            // CORRECCIÓN 3: Eliminamos duplicados si coexisten en RAM y Hardcode
+            const safeCurrentDices = Array.isArray(currentDices) ? currentDices : [];
+            const safeHardDices = Array.isArray(hardcodedDices) ? hardcodedDices : [];
+            
+            const allDices = [...safeHardDices, ...safeCurrentDices];
+            const uniqueDicesMap = new Map();
+            allDices.forEach(d => {
+                if (d && d.url) uniqueDicesMap.set(d.url, d);
+            });
+
             return {
                 topics: { ...hardcodedTopics, ...currentTopics },
-                dices: [...hardcodedDices, ...currentDices]
+                dices: Array.from(uniqueDicesMap.values())
             };
         },
 
-		exportData: function () {
-            // Exporta tomando la data unificada
+        exportData: function () {
             const allData = this.getUnifiedData();
-			const filterBySpace = (space) => {
-				const topics = Object.keys(allData.topics)
-					.filter(url => allData.topics[url].space.toLowerCase() === space)
-					.reduce((obj, key) => { obj[key] = allData.topics[key]; return obj; }, {});
-				const dices = allData.dices.filter(d => d.space && d.space.toLowerCase() === space);
-				return { topics, dices };
-			};
+            const filterBySpace = (space) => {
+                const topics = Object.keys(allData.topics)
+                    .filter(url => allData.topics[url].space.toLowerCase() === space)
+                    .reduce((obj, key) => { obj[key] = allData.topics[key]; return obj; }, {});
+                const dices = allData.dices.filter(d => d.space && d.space.toLowerCase() === space);
+                return { topics, dices };
+            };
 
-			const pensadero = filterBySpace("el pensadero");
-			console.log("%c === COPIA EN hardcodedTopics ===", "color: lime", JSON.stringify(pensadero.topics, null, 2));
-			console.log("%c === COPIA EN hardcodedDices ===", "color: cyan", JSON.stringify(pensadero.dices, null, 2));
-		}
-	};
+            const pensadero = filterBySpace("el pensadero");
+            console.log("%c === COPIA EN hardcodedTopics ===", "color: lime", JSON.stringify(pensadero.topics, null, 2));
+            console.log("%c === COPIA EN hardcodedDices ===", "color: cyan", JSON.stringify(pensadero.dices, null, 2));
+        }
+    };
 })();
