@@ -23,7 +23,7 @@ const DBModule = (function () {
 
     const CACHE_KEY = 'blackwave_db_cache_v4';
     const INDEX_KEY = 'bw_db_current_index';
-    const CACHE_DURATION = 6 * 60 * 60 * 1000;
+    const CACHE_DURATION = 1 * 60 * 60 * 1000;
 
     const hardcodedTopics = {
         "/t453": {
@@ -75573,20 +75573,31 @@ const DBModule = (function () {
                 if (d && d.url) uniqueDicesMap.set(d.url, d);
             });
 
-            const mergedTopics = { ...hardcodedTopics, ...currentTopics };
+            // --- FILTRO ANTI-DUPLICADOS DE TEMAS ---
+            const mergedTopicsRaw = { ...hardcodedTopics, ...currentTopics };
+            const cleanTopics = {};
 
-            for (let key in mergedTopics) {
-                if (mergedTopics[key]) {
-                    if (mergedTopics[key].posts && !Array.isArray(mergedTopics[key].posts)) {
-                        mergedTopics[key].posts = Object.values(mergedTopics[key].posts);
-                    } else if (!mergedTopics[key].posts) {
-                        mergedTopics[key].posts = [];
-                    }
+            for (let key in mergedTopicsRaw) {
+                const tData = mergedTopicsRaw[key];
+                if (!tData || !tData.url) continue;
+
+                // Forzamos a que TODOS usen el mismo ID numérico perfecto como llave
+                const match = tData.url.match(/\/t(\d+)/);
+                const trueKey = match ? match : key;
+
+                // Si ya existía, lo sobreescribe en lugar de crear uno nuevo duplicado
+                cleanTopics[trueKey] = tData;
+
+                // Reparación de Objetos a Arrays (por si se exportaron mal de la consola)
+                if (cleanTopics[trueKey].posts && !Array.isArray(cleanTopics[trueKey].posts)) {
+                    cleanTopics[trueKey].posts = Object.values(cleanTopics[trueKey].posts);
+                } else if (!cleanTopics[trueKey].posts) {
+                    cleanTopics[trueKey].posts = [];
                 }
             }
 
             return {
-                topics: mergedTopics,
+                topics: cleanTopics,
                 dices: Array.from(uniqueDicesMap.values())
             };
         },
