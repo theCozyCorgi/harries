@@ -75204,7 +75204,7 @@ const DBModule = (function () {
         if (match) {
             dia = match[1].padStart(2, '0');
             mes = meses[match[2].toLowerCase()];
-            anio = new Date().getFullYear(); // FIX: no depender de variable global
+            anio = currentAmbientDate.getFullYear(); 
             if (mes) return `${dia}/${mes}/${anio}`;
         }
 
