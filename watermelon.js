@@ -75173,28 +75173,249 @@ const DBModule = (function () {
 
 		let d, m, a;
 
-		let match = t.match(/^[a-z]{3}\s+([a-z]{3})\s+(\d{1,2}),\s+(\d{4})/i);
-		if (match) {
-			d = match.padStart(2, '0');
-			m = meses[match.toLowerCase().substring(0, 3)];
-			a = match;
-			if (d && m && a) return `${d}/${m}/${a}`;
-		}
+		// Formato [AAAA/MM/DD]
+        let match = t.match(/\[(\d{4})\/(\d{2})\/(\d{2})\]/);
+        if (match) return `${match[3]}/${match[2]}/${match[1]}`;
 
-		match = t.match(/\[(\d{4})\/(\d{2})\/(\d{2})\]/);
-		if (match) return `${match}/${match}/${match}`;
+        // Formato: Miér 04 Jun 2025...
+        match = t.match(/^[a-záéí]{3,}\s+(\d{2})\s+([a-záéí]{3,})\s+(\d{4})/i);
+        if (match) {
+            d = match[1].padStart(2, '0');
+            m = meses[match[2].toLowerCase().substring(0, 3)];
+            a = match[3];
+            return (d && m && a) ? `${d}/${m}/${a}` : t;
+        }
 
-		match = t.match(/^[a-záéí]{3,}\s+(\d{2})\s+([a-záéí]{3,})\s+(\d{4})/i);
-		if (match) {
-			d = match.padStart(2, '0');
-			m = meses[match.toLowerCase().substring(0, 3)];
-			a = match;
-			return (d && m && a) ? `${d}/${m}/${a}` : t;
-		}
+        // Formato: Sábado 26 Julio 1952
+        match = t.match(/(\d{1,2})\s+([a-záéíóúñ]+)\s+(\d{4})/i);
+        if (match) {
+            d = match[1].padStart(2, '0');
+            m = meses[match[2].toLowerCase()];
+            a = match[3];
+            return (d && m && a) ? `${d}/${m}/${a}` : t;
+        }
 
-		return t;
-	}
+        // Formato: 3 de Octubre
+        match = t.match(/^(\d{1,2})\s+de\s+([a-z]+)$/i);
+        if (match) {
+            dia = match[1].padStart(2, '0');
+            mes = meses[match[2]];
+            if (mes) return `${dia}/${mes}/${anio}`;
+        }
 
+        // Formato: 1952/09/07 → aaaa/mm/dd
+        match = t.match(/^(\d{4})[\/\-](\d{1,2})[\/\-](\d{1,2})$/);
+        if (match) {
+            anio = match[1];
+            mes = match[2].padStart(2, '0');
+            dia = match[3].padStart(2, '0');
+            return `${dia}/${mes}/${anio}`;
+        }
+
+        // Formato: Octubre 3
+        match = t.match(/^([a-z]+)\s+(\d{1,2})$/i);
+        if (match) {
+            mes = meses[match[1]];
+            dia = match[2].padStart(2, '0');
+            if (mes) return `${dia}/${mes}/${anio}`;
+        }
+
+        // Formato: Oct 3
+        match = t.match(/^([a-z]{3})\s+(\d{1,2})$/i);
+        if (match) {
+            mes = meses[match[1]];
+            dia = match[2].padStart(2, '0');
+            if (mes) return `${dia}/${mes}/${anio}`;
+        }
+
+        // Formato: 3.octubre.1952
+        match = t.match(/^(\d{1,2})\.([a-z]+)\.(\d{4})$/i);
+        if (match) {
+            dia = match[1].padStart(2, '0');
+            mes = meses[match[2]];
+            anio = match[3];
+            if (mes) return `${dia}/${mes}/${anio}`;
+        }
+
+        // Formato: 3/10/1952 o 03/10/52
+        match = t.match(/^(\d{1,2})[\/\-](\d{1,2})[\/\-](\d{2,4})$/);
+        if (match) {
+            dia = match[1].padStart(2, '0');
+            mes = match[2].padStart(2, '0');
+            anio = match[3].length === 2 ? `19${match[3]}` : match[3];
+            return `${dia}/${mes}/${anio}`;
+        }
+
+        // Formato: 20 de Septiembre 1952
+        match = t.match(/^(\d{1,2})\s+de\s+([a-z]+)\s+(\d{4})$/i);
+        if (match) {
+            dia = match[1].padStart(2, '0');
+            mes = meses[match[2]];
+            anio = match[3];
+            if (mes) return `${dia}/${mes}/${anio}`;
+        }
+
+        // Formato: Octubre, 1952 → 01/10/1952
+        match = t.match(/^([a-z]+),?\s+(\d{4})$/i);
+        if (match) {
+            dia = '01';
+            mes = meses[match[1]];
+            anio = match[2];
+            if (mes) return `${dia}/${mes}/${anio}`;
+        }
+
+        // Formato: 5 Septiembre 1952
+        match = t.match(/^(\d{1,2})\s+([a-z]+)\s+(\d{4})$/i);
+        if (match) {
+            dia = match[1].padStart(2, '0');
+            mes = meses[match[2]];
+            anio = match[3];
+            if (mes) return `${dia}/${mes}/${anio}`;
+        }
+
+        // Formato: 20 de septiembre de 1952
+        match = t.match(/^(\d{1,2})\s+de\s+([a-z]+)\s+de\s+(\d{4})$/i);
+        if (match) {
+            dia = match[1].padStart(2, '0');
+            mes = meses[match[2]];
+            anio = match[3];
+            if (mes) return `${dia}/${mes}/${anio}`;
+        }
+
+        // Formato: 03.09.52
+        match = t.match(/^(\d{1,2})\.(\d{1,2})\.(\d{2})$/);
+        if (match) {
+            dia = match[1].padStart(2, '0');
+            mes = match[2].padStart(2, '0');
+            anio = `19${match[3]}`;
+            return `${dia}/${mes}/${anio}`;
+        }
+
+        // Formato: 20/09 (sin año, se asume 1952)
+        match = t.match(/^(\d{1,2})[\/\-](\d{1,2})$/);
+        if (match) {
+            dia = match[1].padStart(2, '0');
+            mes = match[2].padStart(2, '0');
+            anio = '1952';
+            return `${dia}/${mes}/${anio}`;
+        }
+
+        // Formato: Jue 19 Jun 2025
+        match = t.match(/^\w{3}\s+(\d{1,2})\s+([a-z]{3})\s+(\d{4})$/i);
+        if (match) {
+            dia = match[1].padStart(2, '0');
+            mes = meses[match[2]];
+            anio = match[3];
+            if (mes) return `${dia}/${mes}/${anio}`;
+        }
+
+        // Formato: Hoy a las hh:mm
+        if (t.startsWith('hoy')) {
+            const today = new Date();
+            dia = String(today.getDate()).padStart(2, '0');
+            mes = String(today.getMonth() + 1).padStart(2, '0');
+            anio = today.getFullYear();
+            return `${dia}/${mes}/${anio}`;
+        }
+
+        // Formato: Ayer a las hh:mm
+        if (t.startsWith('ayer')) {
+            const yesterday = new Date();
+            yesterday.setDate(yesterday.getDate() - 1);
+            dia = String(yesterday.getDate()).padStart(2, '0');
+            mes = String(yesterday.getMonth() + 1).padStart(2, '0');
+            anio = yesterday.getFullYear();
+            return `${dia}/${mes}/${anio}`;
+        }
+
+        // Formato: Lun 16 Jun 2025, 14:10
+        match = t.match(/^\w{3}\s+(\d{1,2})\s+([a-z]{3})\s+(\d{4})(?:,?\s*\d{1,2}:\d{2})?$/i);
+        if (match) {
+            dia = match[1].padStart(2, '0');
+            mes = meses[match[2].toLowerCase()];
+            anio = match[3];
+            if (dia && mes && anio) {
+                return `${dia}/${mes}/${anio}`;
+            }
+        }
+
+        // Formato: mar 01 jul 2025 04:28
+        match = t.match(/^\w{3}\s+(\d{1,2})\s+([a-z]{3})\s+(\d{4})\s+\d{1,2}:\d{2}$/i);
+        if (match) {
+            dia = match[1].padStart(2, '0');
+            mes = meses[match[2].toLowerCase()];
+            anio = match[3];
+            if (dia && mes && anio) {
+                return `${dia}/${mes}/${anio}`;
+            }
+        }
+
+        // Formato: Dom 25 Mayo 2025, 13:06
+        match = t.match(/^\w{3}\s+(\d{1,2})\s+([a-záéíóúñ]+)\s+(\d{4})(?:,?\s*\d{1,2}:\d{2})?$/i);
+        if (match) {
+            dia = match[1].padStart(2, '0');
+            mes = meses[match[2].toLowerCase()];
+            anio = match[3];
+            if (dia && mes && anio) {
+                return `${dia}/${mes}/${anio}`;
+            }
+        }
+
+        // Formato: Miér 04 Jun 2025, 22:14
+        match = t.match(/^[a-záéí]{3,}\s+(\d{2})\s+([a-záéí]{3})\s+(\d{4}),?\s*(\d{2}):(\d{2})$/i);
+        if (match) {
+            dia = match[1].padStart(2, '0');
+            mes = meses[match[2].toLowerCase()];
+            anio = match[3];
+            if (dia && mes && anio) {
+                return `${dia}/${mes}/${anio}`;
+            }
+        }
+
+        // Formato: Sábado 26 Julio 1952
+        match = t.match(/^[a-záéíóúñ]+[\s,]+(\d{1,2})[\s,]+([a-záéíóúñ]+)[\s,]+(\d{4})$/i);
+        if (match) {
+            dia = match[1].padStart(2, '0');
+            mes = meses[match[2].toLowerCase()];
+            anio = match[3];
+            if (dia && mes && anio) {
+                return `${dia}/${mes}/${anio}`;
+            }
+        }
+
+        // Formato: septiembre 3, 1952
+        match = t.match(/^([a-záéíóúñ]+)\s+(\d{1,2}),?\s+(\d{4})$/i);
+        if (match) {
+            mes = meses[match[1].toLowerCase()];
+            dia = match[2].padStart(2, '0');
+            anio = match[3];
+            if (dia && mes && anio) {
+                return `${dia}/${mes}/${anio}`;
+            }
+        }
+
+        // Formato: 9/7/2025, 22:15
+        match = t.match(/^(\d{1,2})\/(\d{1,2})\/(\d{4}),?\s*(\d{2}):(\d{2})$/);
+        if (match) {
+            dia = match[1].padStart(2, '0');
+            mes = match[2].padStart(2, '0');
+            anio = match[3];
+            return `${dia}/${mes}/${anio}`;
+        }
+
+        // Formato Septiembre 03
+        match = t.match(/^([a-záéíóúñ]+)\s+(\d{1,2})$/i);
+        if (match) {
+            mes = meses[match[1].toLowerCase()];
+            dia = match[2].padStart(2, '0');
+            if (dia && mes) {
+                return `${dia}/${mes}/1953`;
+            }
+        }
+
+        return t;
+    }
+    
 	function sanitizeTitle(title) {
 		return title.replace(/\[.*?\]/g, '').toLowerCase().trim();
 	}
