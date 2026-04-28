@@ -4201,7 +4201,7 @@ const MissionsModule = (function () {
     "price of the dark favor": {
       "description": "Nina y Wrenn se metieron donde no debían, y para escapar de esa situación tuvieron que pagar un alto precio. Un precio que ahora tocará descubrir, así como a quién le debió el favor.",
       "image": "https://2img.net/i.imgur.com/nVh3XB1.png", "requisitos": ["Un personaje deberá ser miembro del Departamento de Seguridad"],
-      "users": ["c/u8", "c/u55"],
+      "users": ["c/u8", "c/u55", "/u145", "/u91"],
       "dependency": ["paper mask", "midnight ashes", "clandestine melodies", "silent sentinel"],
       "type": "misión", "closed": false, "link": "", "tagged": ["original", "capitulo 3"],
 
@@ -7894,7 +7894,7 @@ const MissionsModule = (function () {
       "searchs": {
         "desafío #01": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-            "cont": '<span>Realizar 15 roles posteriores a la publicación del desafío.</span>',
+            "cont": '<span>Realizar 50 roles posteriores a la publicación del desafío.</span>',
         },
         "desafío #02": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #01",
@@ -7902,19 +7902,19 @@ const MissionsModule = (function () {
         },
         "desafío #03": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #02",
-            "cont": '<span>Haber completado 5 prácticas.</span>',
+            "cont": '<span>Haber completado 15 prácticas.</span>',
         },
         "desafío #04": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #03",
-            "cont": '<span>Haber recolectado 50 cromos.</span>',
+            "cont": '<span>Haber recolectado 150 cromos.</span>',
         },
         "desafío #05": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #04",
-            "cont": '<span>Haber lanzado 5 hechizos diferentes del conocimiento con mayor puntaje.</span>',
+            "cont": '<span>Haber lanzado 15 hechizos diferentes del conocimiento con mayor puntaje.</span>',
         },
         "desafío #06": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #05",
-            "cont": '<span>Realizar 25 roles posteriores a la publicación del desafío.</span>',
+            "cont": '<span>Realizar 75 roles posteriores a la publicación del desafío.</span>',
         },
         "desafío #07": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #06",
@@ -7934,11 +7934,11 @@ const MissionsModule = (function () {
         },
         "desafío #11": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #10",
-            "cont": '<span>Realizar 40 roles posteriores a la publicación del desafío.</span>',
+            "cont": '<span>Realizar 100 roles posteriores a la publicación del desafío.</span>',
         },
         "desafío #12": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #11",
-            "cont": '<span>Haber sumado 250 puntos para la correspondientes casa.</span>',
+            "cont": '<span>Haber sumado 500 puntos para la correspondientes casa.</span>',
         },
         "desafío #13": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #12",
@@ -7946,7 +7946,7 @@ const MissionsModule = (function () {
         },
         "desafío #14": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #13",
-            "cont": '<span>Haber completado 15 prácticas.</span>',
+            "cont": '<span>Haber completado 15 eventos.</span>',
         },
         "desafío #15": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #14",
@@ -7954,11 +7954,11 @@ const MissionsModule = (function () {
         },
         "desafío #16": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #15",
-            "cont": '<span>Realizar 60 roles posteriores a la publicación del desafío.</span>',
+            "cont": '<span>Realizar 125 roles posteriores a la publicación del desafío.</span>',
         },
         "desafío #17": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #16",
-            "cont": '<span>Haber recolectado 100 cromos. No pueden ser los mismos que los anteriores.</span>',
+            "cont": '<span>Haber recolectado 150 cromos. No pueden ser los mismos que los anteriores.</span>',
         },
         "desafío #18": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #17",
@@ -7974,7 +7974,7 @@ const MissionsModule = (function () {
         },
         "desafío #21": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #20",
-            "cont": '<span>Realizar 100 roles posteriores a la publicación del desafío.</span>',
+            "cont": '<span>Realizar 150 roles posteriores a la publicación del desafío.</span>',
         },
         "desafío #22": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #21",
