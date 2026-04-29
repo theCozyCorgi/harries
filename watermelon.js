@@ -97644,6 +97644,7 @@ const DBModule = (function () {
     }
 
     return {
+        normalizeDate,
         init: async function () {
             Object.keys(localStorage).forEach(key => {
                 if (key.startsWith('blackwave_') && key !== CACHE_KEY) {
