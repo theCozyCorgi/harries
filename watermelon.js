@@ -75626,6 +75626,22 @@ const DBModule = (function () {
             };
         },
 
+        quickSweep: async function (progressCallback) {
+            this.resetIndex();
+            let currentIndex = 0;
+            
+            while (currentIndex < forums.length) {
+                const currentForum = forums[currentIndex];
+                if (progressCallback) progressCallback(`Analizando: ${currentForum.name}...`);
+                await scanForum(currentForum.path, currentForum.name);
+                currentIndex++;
+                localStorage.setItem(INDEX_KEY, currentIndex);
+                this.save();
+            }
+            
+            if (progressCallback) progressCallback(`¡Fin del análisis!`);
+        },
+
         exportData: function () {
             const allData = this.getUnifiedData();
             const filterBySpace = (space) => {
