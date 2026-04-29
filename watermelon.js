@@ -21683,12 +21683,6 @@ const DBModule = (function () {
                     "author": "The Familiars",
                     "date": "06/11/2025",
                     "words": 0
-                },
-                {
-                    "url": "r8949",
-                    "author": "Black Wave",
-                    "date": "10/11/2025",
-                    "words": 0
                 }
             ],
             "creationDate": "17/08/2025",
@@ -21922,12 +21916,6 @@ const DBModule = (function () {
                     "author": "Hermes Rosier",
                     "date": "07/11/2025",
                     "words": 184
-                },
-                {
-                    "url": "r8948",
-                    "author": "Black Wave",
-                    "date": "10/11/2025",
-                    "words": 0
                 }
             ],
             "creationDate": "17/08/2025",
