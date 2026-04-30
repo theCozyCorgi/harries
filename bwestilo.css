@@ -33,19 +33,22 @@
 .header-title a {
   font: var(--style-title);
   color: var(--color-bold-100);
-  text-shadow: 3px 1px var(--color-opacity-50);
   text-transform: uppercase;
   letter-spacing: 1px;
+  text-shadow: 3px 1px var(--color-neutral-100);
+  font-size: 12vw;
+  line-height: 12vw;
 }
 
 .header-title span {
-  text-transform: uppercase;
-  color: var(--color-bold-100);
   margin-top: -45px;
   font-weight: bold;
   font-family: var(--font-complemntary);
-  font-size: 20px;
   line-height: 65%;
+  text-transform: lowercase;
+  color: var(--color-text-100);
+  letter-spacing: 2px;
+  font-size: 24px;
 }
 
 /* 03. barra de navegación */
@@ -146,7 +149,7 @@
   gap: 15px;
 }
 
-.nav-location { display: flex; gap: 2px; align-items: center; flex-flow: row-reverse; }
+.nav-location { display: flex; gap: 2px; align-items: center; flex-flow: row-reverse; line-height: 10px; }
 .nav-location i { color: var(--mode-back-60); position: relative; margin-top: 4px; font-size: 8px; }
 
 button#theme-toggler {
@@ -181,7 +184,7 @@ button#theme-toggler:after {
 .light-mode button#theme-toggler:before { content: "\f755"; }
 
 .nav-path a, button#theme-toggler:before { 
-  color: var(--color-neutral-100);
+  color: var(--color-text-100);
   font: var(--style-link);
   margin-top: 5px;
   position: relative;
@@ -325,7 +328,7 @@ button#theme-toggler:after {
 .board-plot .board-content {flex-flow: column; }
 .board-actual {height: 100%; }
 .board-staff .board-content {flex-wrap: wrap; }
-.staff-item.moderador {width: calc(50% - 3px); height: 45px; font-size: .9vw; }
+.staff-item.moderador {width: calc(50% - 3px); height: 45px; font-size: 1.2vw; }
 .staff-item.fundador {font-size: 2vw; }
 
 .staff-item, .board-image {
@@ -455,7 +458,7 @@ button#theme-toggler:after {
 .tab-content > * {
   font: var(--style-link);
   text-transform: uppercase;
-  font-weight: lighter;
+  font-weight: 400;
   background: var(--mode-opacity-50);
   display: flex;
   align-items: center;
@@ -996,11 +999,12 @@ a.forumtitle, a.forumtitle:hover {
 
 .stats h4 {
   font-family: var(--font-complemntary);
-  font-size: 16px;
   color: var(--mode-back-60);
   text-align: center;
   line-height: normal;
   text-shadow: 1px 1px var(--mode-back-100);
+  font-weight: lighter; 
+  font-size: 24px;
 }
 
 .stats-newest strong, .stats-newest a { 
@@ -1065,7 +1069,7 @@ a.forumtitle, a.forumtitle:hover {
   flex-flow: column;
   gap: 10px;
   font: var(--style-link);
-  font-weight: lighter;
+  font-weight: 400;
   text-align: justify;
   font-size: 11px;
   line-height: normal;
@@ -1344,7 +1348,7 @@ a.topictitle, a.topictitle:hover {
   font-family: var(--font-complemntary);
   font-size: 24px;
   line-height: 110%;
-  color: var(--topic-color);
+  color: var(--mode-text-100);
   letter-spacing: 1px;
   text-decoration: none;
 }
@@ -2176,9 +2180,20 @@ input[type="text"], .inputbox {
 .delete-fields, .profile-delete, .profile-rank-image, .profile-contact userdata {display: none; }
 .profile .wave-content path {fill: var(--mode-opacity-50);}
 .profile-header {flex-grow: 1; }
-.profile-name {flex-shrink: 0; margin-bottom: 20px; }
 .profile-avatar img {width: 100%; }
 .profile-header userdata[target="apodo"]:after {content: ' - '; }
+
+.profile-name {
+  flex-shrink: 0; 
+  margin-bottom: 20px; 
+  font-family: var(--font-bold);
+  color: var(--color-text-100) !important;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 52px;
+  line-height: 55px;
+  text-shadow: 1px 1px var(--color-complementary-100);
+}
 
 .profile {
   background: var(--user-color);
@@ -4358,6 +4373,8 @@ requisito:before, consequence:before {
   border-top: 5px solid var(--post-user);
   border-bottom: 5px solid var(--post-user);
   font-size: min(1.2vw, 14px);
+  font-family: var(--font-primary); 
+  font-size: 15px;
 }
 
 .rol-data {
@@ -4528,8 +4545,6 @@ requisito:before, consequence:before {
   display: flex;
   gap: 10px;
   align-items: center;
-  font-family: var(--font-complemntary);
-  font-size: 20px;
   line-height: 90%;
   color: var(--color-bold-100);
   letter-spacing: 0px;
@@ -4537,6 +4552,8 @@ requisito:before, consequence:before {
   font-weight: lighter;
   text-align: left;
   margin-bottom: 15px;
+  font-family: var(--font-bold); 
+  font-size: 24px;
 }
 
 .roll-result {
@@ -4568,16 +4585,17 @@ requisito:before, consequence:before {
 .roll-result i { font-size: 24px; color: var(--post-user) !important; width: 40px; text-align: left; flex-shrink: 0;}
 userdata[target="rango"] { hyphens: manual; }
 userdata[target="rango"] ur:not(:first-child):before { content: ' / '; }
-.poster-character userdata[target="rango"] { color: var(--color-text-100); margin-left: 45px; text-align: right; }
+.poster-character userdata[target="rango"] { color: var(--color-text-100); margin-left: 45px; text-align: right; font-weight: 400; letter-spacing: .5px; }
 
 .rol-subtitle {
   font-family: var(--font-bold);
-  font-size: 20px;
   font-weight: lighter;
   color: var(--color-bold-100);
   letter-spacing: .5px;
   flex-basis: 100%;
   flex-grow: 1;
+  font-size: 24px;
+  text-transform: uppercase;
 }
 
 .rol-subtitle:before { content: "——— "; color: var(--post-user); margin-right: 5px; counter-reset: record; letter-spacing: -1px; margin: 5px 0; } 
@@ -5587,7 +5605,7 @@ critico:before { content: 'Crítico: '; color: var(--strong); }
   border-radius: 5px;
 }
 
-#fa_toolbar #fa_right #notif_list li .contentText a {color: var(--color-bold-100) !important; text-decoration: none !important;}
+#fa_toolbar #fa_right #notif_list li .contentText a { color: var(--mode-back-60) !important; text-decoration: none !important; }
 #fa_toolbar #fa_right #notif_list li a.delete {background: none !important; color: transparent !important; }
 #fa_toolbar #fa_right #notif_list li hr {display: none !important; }
 #fa_toolbar #fa_right #notif_list li a.delete:hover, #fa_toolbar #fa_right #notif_list li.see_all a:hover {text-decoration: none !important;}
@@ -5631,7 +5649,7 @@ critico:before { content: 'Crítico: '; color: var(--strong); }
   font-weight: lighter;
 }
 
-.action-result > strong { color: var(--strong) !important; text-transform: uppercase; text-shadow: 1px 1px 1px var(--mode-back-100); }
+.action-result > strong { color: var(--post-user) !important; text-transform: uppercase; text-shadow: 1px 1px 1px var(--mode-back-100); }
 .action-result > strong:after { content: ':'; }
 .action-result ataque:before { content: 'resultado ataque: '; color: var(--strong); text-transform: uppercase; }
 .action-result defensa:before { content: 'resultado defensa: '; color: var(--strong); text-transform: uppercase; }
