@@ -2389,9 +2389,9 @@ userdata[target="medallero"] {
 }
 
 .profile-features .user-knowledge-list { color: var(--mode-text-100); text-shadow: none; }
-.profile-comments i, .profile-accounts i {font-size: 24px; color: var(--user-color); }
+.profile-comments i, .profile-accounts i, .profile-store i {font-size: 24px; color: var(--user-color); }
 
-.profile-comments > userdata, .profile-accounts > userdata {
+.profile-comments > userdata, .profile-accounts > userdata, .profile-store > userdata {
   background: var(--mode-back-80);
   flex-grow: 1;
   padding: 10px;
@@ -2400,7 +2400,7 @@ userdata[target="medallero"] {
   color: var(--mode-text-100);
 }
 
-.profile-comments, .profile-accounts {
+.profile-comments, .profile-accounts, .profile-store {
   background: var(--mode-opacity-50);
   border-radius: 3px;
   font: var(--style-link);
