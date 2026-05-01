@@ -4944,7 +4944,7 @@ userdata[target="multicuentas"] a {
 .action-tags know:after { content: ': '; }
 .action-type:before { content: 'Tipo: '; color: var(--strong); }
 .action-req:before { content: 'Requisitos: '; color: var(--strong); margin-right: 5px; }
-.action-info { width: 100%; text-align: justify; margin: 5px 0; height: 100%; }
+.action-info { width: 100%; text-align: justify; margin: 5px 0; height: 100%; text-transform: math-auto; font-weight: normal; font-size: 12px; line-height: normal; }
 .action-req, .action-results { display: flex; flex-wrap: wrap; }
 .action-results { margin-top: 5px; gap: 2px; text-align: justify; }
 .action-req req { flex-basis: fit-content; }
