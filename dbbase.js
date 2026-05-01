@@ -97616,7 +97616,7 @@ const DBModule = (function () {
                         const spread = res.map(str => parseInt(str, 10)).filter(num => !isNaN(num));
                         if (pitcher && spread.length > 0) {
                             dynamicData.dices.push({
-                                pitcher, spread, url: `${topicKey}#${postId}`,
+                                pitcher, spread, url: `r${postId}`,
                                 simpleTitle: dynamicData.topics[topicKey].simpleTitle,
                                 space: dynamicData.topics[topicKey].space
                             });
@@ -97745,10 +97745,31 @@ const DBModule = (function () {
             const safeCurrentDices = Array.isArray(currentDices) ? currentDices : [];
             const safeHardDices = Array.isArray(hardcodedDices) ? hardcodedDices : [];
 
+            // --- FIX DADOS DUPLICADOS ---
             const allDices = [...safeHardDices, ...safeCurrentDices];
             const uniqueDicesMap = new Map();
+            
             allDices.forEach(d => {
-                if (d && d.url) uniqueDicesMap.set(d.url, d);
+                if (d && d.url) {
+                    let postId = '';
+                    
+                    // Si viene del formato viejo o de la propiedad posts ("r10015")
+                    if (d.url.startsWith('r')) {
+                        postId = d.url.replace('r', '');
+                    } 
+                    // Si viene del dinámico nuevo ("15#10015" o "/t15-tema#10015")
+                    else if (d.url.includes('#')) {
+                        postId = d.url.split('#')[1].replace('p', ''); 
+                    } else {
+                        postId = d.url;
+                    }
+
+                    // Forzamos a que todos los dados usen tu formato exacto
+                    d.url = 'r' + postId;
+                    
+                    // Usamos SOLO el número puro del post para que sea matemáticamente imposible duplicarlos
+                    uniqueDicesMap.set(postId, d);
+                }
             });
 
             // --- FILTRO ANTI-DUPLICADOS DE TEMAS ---
@@ -97759,14 +97780,14 @@ const DBModule = (function () {
                 const tData = mergedTopicsRaw[key];
                 if (!tData || !tData.url) continue;
 
-                // Forzamos a que TODOS usen el mismo ID numérico perfecto como llave
+                // FIX ERROR CRÍTICO: Faltaba el [1] para extraer la ID limpia
                 const match = tData.url.match(/\/t(\d+)/);
-                const trueKey = match ? match : key;
+                const trueKey = match ? match[1] : key;
 
                 // Si ya existía, lo sobreescribe en lugar de crear uno nuevo duplicado
                 cleanTopics[trueKey] = tData;
 
-                // Reparación de Objetos a Arrays (por si se exportaron mal de la consola)
+                // Reparación de Objetos a Arrays
                 if (cleanTopics[trueKey].posts && !Array.isArray(cleanTopics[trueKey].posts)) {
                     cleanTopics[trueKey].posts = Object.values(cleanTopics[trueKey].posts);
                 } else if (!cleanTopics[trueKey].posts) {
