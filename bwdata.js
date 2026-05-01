@@ -1506,6 +1506,8 @@ const MissionsModule = (function () {
         "sombra aidan": {
           "atributos": ["+6 fue", "+6 con"],
           "pv": "50",
+          "rareza": "corriente",
+          "peligrosidad": "controlable",
           "clasificación": "ser / personaje no jugable",
           "descripción": "personaje no jugable",
           "ataques": {
@@ -1525,6 +1527,8 @@ const MissionsModule = (function () {
         "sombra cuthbert": {
           "atributos": ["+6 fue", "+5 con"],
           "pv": "50",
+          "rareza": "corriente",
+          "peligrosidad": "controlable",
           "clasificación": "ser / personaje no jugable",
           "descripción": "personaje no jugable",
           "ataques": {
@@ -1544,6 +1548,8 @@ const MissionsModule = (function () {
         "sombra hermes": {
           "atributos": ["+7 fue", "+5 con"],
           "pv": "50",
+          "rareza": "corriente",
+          "peligrosidad": "controlable",
           "clasificación": "ser / personaje no jugable",
           "descripción": "personaje no jugable",
           "ataques": {
@@ -1563,6 +1569,8 @@ const MissionsModule = (function () {
         "sombra minerva": {
           "atributos": ["+5 fue", "+7 con"],
           "pv": "50",
+          "rareza": "corriente",
+          "peligrosidad": "controlable",
           "clasificación": "ser / personaje no jugable",
           "descripción": "personaje no jugable",
           "ataques": {
@@ -1582,6 +1590,8 @@ const MissionsModule = (function () {
         "sombra montgomery": {
           "atributos": ["+3 fue", "+3 con"],
           "pv": "50",
+          "rareza": "corriente",
+          "peligrosidad": "controlable",
           "clasificación": "ser / personaje no jugable",
           "descripción": "personaje no jugable",
           "ataques": {
@@ -7775,7 +7785,6 @@ const MissionsModule = (function () {
           "pv": "50",
           "rareza": "corriente",
           "peligrosidad": "controlable",
-          "clasificación": "bestia",
           "clasificación": "ser / personaje no jugable",
           "descripción": "personaje no jugable",
           "ataques": {
