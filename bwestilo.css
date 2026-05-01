@@ -994,7 +994,7 @@ a.forumtitle, a.forumtitle:hover {
   text-align: justify;
 }
 
-.stats-online a, .stats-today a {color: var(--mode-text-100); line-height: normal; font-size: 10px; }
+.stats-online a, .stats-today a {color: var(--mode-text-100); line-height: normal; font-size: 13px; text-transform: math-auto; }
 .stats-online a:not(:first-child):before, .stats-today a:not(:first-child):before {content: ', '; }
 
 .stats h4 {
