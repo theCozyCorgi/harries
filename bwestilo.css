@@ -974,7 +974,7 @@ a.forumtitle, a.forumtitle:hover {
 }
 
 .stats-info strong, .stats-info a {
-  color: var(--color-bold-100);
+  color: var(--mode-back-60);
   text-shadow: 1px 1px var(--mode-back-100);
   font-size: 26px;
   font-family: var(--font-complemntary);
@@ -2054,7 +2054,7 @@ div.sceditor-group {
   aspect-ratio: 1 / 1;
 }
 
-.sceditor-container .sceditor-button.disabled { color: var(--color-bold-100); }
+.sceditor-container .sceditor-button.disabled { color: var(--mode-back-60); }
 .sceditor-button:hover { box-shadow: none !important; background: var(--color-complementary-100) !important; color: var(--color-text-100); }
 .sceditor-button.disabled:hover { box-shadow: none !important; }
 #quick_reply #textarea_content { box-shadow: none !important; }
@@ -2436,7 +2436,7 @@ userdata[target="medallero"] {
   align-items: center;
   justify-content: start;
   gap: 5px;
-  --medal-color: var(--color-bold-100);
+  --medal-color: var(--mode-back-60);
 }
 
 .medal-item > i {
@@ -3809,7 +3809,7 @@ fieldset.submit-buttons { display: flex; align-items: center; justify-content: c
 .character-attributes span:not(.character-sub) {background: transparent; padding: 0;}
 
 .character-attributes span:not(.character-sub):before, .character-knowledge span:not(.character-sub):before {
-  color: var(--color-bold-100); 
+  color: var(--mode-back-60); 
   font-weight: 500;
   margin-right: 5px;
 }
@@ -3839,7 +3839,7 @@ fieldset.submit-buttons { display: flex; align-items: center; justify-content: c
 .file-prevalidation span:before {
   font: var(--fa-font-solid) !important;
   content: "\f057";
-  color: var(--color-bold-100);
+  color: var(--mode-back-60);
   font-size: 13px;
   margin-right: 2px;
 }
@@ -4126,7 +4126,7 @@ fieldset.submit-buttons { display: flex; align-items: center; justify-content: c
 .guidebook-index > span > label:before { content: counter(section, decimal-leading-zero) ". "; }
 .guidebook-index a a {margin-left: 20px; flex-flow: row; }
 .guidebook-index a a a {display: none; }
-.guidebook-index a a label:before { font: var(--fa-font-solid) !important; content: "\2d"; color: var(--color-bold-100); margin-right: 5px; }
+.guidebook-index a a label:before { font: var(--fa-font-solid) !important; content: "\2d"; color: var(--mode-back-60); margin-right: 5px; }
 
 .guidebook-articles {
   flex-basis: 500px;
@@ -4274,7 +4274,7 @@ fieldset.submit-buttons { display: flex; align-items: center; justify-content: c
 [target="avance-de-la-trama"] { gap: 5px !important; }
 
 .guidebook-content .guidebook-content .guidebook-content > span { width: fit-content; border: none; color: var(--mode-back-60); font-size: 20px; }
-.guidebook-content .guidebook-content .guidebook-content > span:before, place label:before { font: var(--fa-font-solid) !important; content: "\f86c"; color: var(--color-bold-100); margin-right: 5px; } 
+.guidebook-content .guidebook-content .guidebook-content > span:before, place label:before { font: var(--fa-font-solid) !important; content: "\f86c"; color: var(--mode-back-60); margin-right: 5px; } 
 
 requisito, consequence {
   font: var(--style-link);
@@ -4504,7 +4504,7 @@ requisito:before, consequence:before {
   letter-spacing: 1px;
   font-size: 24px;
   text-shadow: 1px 1px var(--mode-back-100);
-  color: var(--color-bold-100);
+  color: var(--mode-back-60);
 }
 
 /* lanzada de dados */
@@ -4546,7 +4546,7 @@ requisito:before, consequence:before {
   gap: 10px;
   align-items: center;
   line-height: 90%;
-  color: var(--color-bold-100);
+  color: var(--mode-back-60);
   letter-spacing: 0px;
   text-transform: math-auto;
   font-weight: lighter;
@@ -4590,7 +4590,7 @@ userdata[target="rango"] ur:not(:first-child):before { content: ' / '; }
 .rol-subtitle {
   font-family: var(--font-bold);
   font-weight: lighter;
-  color: var(--color-bold-100);
+  color: var(--mode-back-60);
   letter-spacing: .5px;
   flex-basis: 100%;
   flex-grow: 1;
@@ -4774,7 +4774,7 @@ job, .rol-record .record-item { flex-grow: 1 !important; }
 job { flex-basis: 100% !important; }
 .record-content[target="historial"] .record-item { flex-basis: 250px; flex-grow: 1; }
 .record-content[target="historial"] { padding-right: 5px; max-height: 300px; overflow: auto; }
-job strong { color: var(--color-bold-100); }
+job strong { color: var(--mode-back-60); }
 .record-content[dato="jugaadores"] .record-subcontent:after {content: ' de quidditch'; }
 .record-content[dato="neutral"] .record-subcontent, .rol-record br {display: none !important; }
 .record-content[dato="neutral"] .record-item { flex-grow: 0 !important; }
@@ -4814,7 +4814,7 @@ job strong { color: var(--color-bold-100); }
 .show-data { display: block; }
 
 .table-record .rol-data { background: transparent; padding: 0; }
-.table-record .rol-title { font-size: 2.5vw; text-align: center; color: var(--color-bold-100); hyphens: none; }
+.table-record .rol-title { font-size: 2.5vw; text-align: center; color: var(--mode-back-60); hyphens: none; }
 
 /* tabla lugares de interés */
 .show-places { display: flex; flex-flow: column; gap: 15px; }
@@ -4844,7 +4844,7 @@ job strong { color: var(--color-bold-100); }
   letter-spacing: 1px;
   font-size: 24px;
   line-height: 26px;
-  color: var(--color-bold-100);
+  color: var(--mode-back-60);
   margin: 0;
 }
 
@@ -5090,7 +5090,7 @@ critico:before { content: 'Crítico: '; color: var(--strong); }
   font-size: 26px;
   line-height: 100%;
   font-weight: normal;
-  color: var(--color-bold-100);
+  color: var(--mode-back-60);
   text-shadow: 1px 1px 1px var(--mode-back-100);
 }
 
@@ -5293,7 +5293,7 @@ critico:before { content: 'Crítico: '; color: var(--strong); }
 .rewards-list { display: flex; flex-flow: column; gap: 10px; counter-reset: list; }
 .reward { display: flex; gap: 5px; align-items: start; font: var(--style-link); text-transform: uppercase; font-size: 11px; flex-wrap: wrap; }
 .reward:not(.reward-header) { counter-increment: list; }
-.reward:not(.reward-header) label:before { content: counter(list, decimal-leading-zero) ". "; color: var(--color-bold-100); }
+.reward:not(.reward-header) label:before { content: counter(list, decimal-leading-zero) ". "; color: var(--mode-back-60); }
 .reward-auto label:before { content: counter(list, decimal-leading-zero) ". [Automático] " !important; }
 .reward-negative label:before { content: counter(list, decimal-leading-zero) ". [Penalidad] " !important; }
 .reward label { flex-grow: 1; cursor: text; text-align: left; }
@@ -5416,7 +5416,7 @@ critico:before { content: 'Crítico: '; color: var(--strong); }
   letter-spacing: 1px;
   font-size: 2.4vw;
   line-height: 80%;
-  color: var(--color-bold-100);
+  color: var(--mode-back-60);
   text-shadow: 1px 1px var(--mode-back-100);
   flex-basis: 100%;
   flex-grow: 1;
@@ -6436,8 +6436,8 @@ userdata[target="multicuentas"] a { padding: 0px !important; flex-grow: 0 !impor
   color: var(--post-user);
 }
 
-.alert-notification:before { content: "\f8e7"; color: var(--color-bold-100); }
-.pending-notification:before { content: "\e41b"; color: var(--color-neutral-100); }
+.alert-notification:before { content: "\f8e7"; color: var(--mode-back-60); }
+.pending-notification:before { content: "\e41b"; color: var(--mode-back-60); }
 .guidebook-hide { --strong: var(--color-bold-100); }
 
 .getAttributesbyType {
