@@ -6251,7 +6251,7 @@ mission {
 
 .profile-accounts { display: none !important; }
 .profile-accounts.show-accounts { display: flex !important; }
-.profile-accounts img { width: 44px !important; height: auto !important; border-radius: 5px; }
+.profile-accounts img { width: 42px !important; height: auto !important; border-radius: 5px; }
 userdata[target="multicuentas"] a { padding: 0px !important; flex-grow: 0 !important; }
 
 .combat-pv {
