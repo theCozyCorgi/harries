@@ -45552,6 +45552,296 @@ const DBModule = (function () {
             "date": "29/08/1952",
             "location": "Casa de los Merrythought"
         },
+        "906": {
+            "space": "el pensadero",
+            "url": "/t906-1953-01-29-after-hours",
+            "simpleTitle": "after hours",
+            "creator": "Regulus O. Black",
+            "posts": [
+                {
+                    "url": "r11802",
+                    "author": "Regulus O. Black",
+                    "date": "13/01/2026",
+                    "words": 251
+                },
+                {
+                    "url": "r11953",
+                    "author": "Alastor Moody",
+                    "date": "17/01/2026",
+                    "words": 256
+                },
+                {
+                    "url": "r12302",
+                    "author": "Regulus O. Black",
+                    "date": "25/01/2026",
+                    "words": 343
+                },
+                {
+                    "url": "r12691",
+                    "author": "Alastor Moody",
+                    "date": "04/02/2026",
+                    "words": 228
+                },
+                {
+                    "url": "r12947",
+                    "author": "Regulus O. Black",
+                    "date": "09/02/2026",
+                    "words": 429
+                },
+                {
+                    "url": "r13013",
+                    "author": "Alastor Moody",
+                    "date": "11/02/2026",
+                    "words": 372
+                },
+                {
+                    "url": "r13014",
+                    "author": "The Familiars",
+                    "date": "11/02/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r13193",
+                    "author": "Regulus O. Black",
+                    "date": "14/02/2026",
+                    "words": 257
+                },
+                {
+                    "url": "r13330",
+                    "author": "Alastor Moody",
+                    "date": "17/02/2026",
+                    "words": 305
+                },
+                {
+                    "url": "r13827",
+                    "author": "Regulus O. Black",
+                    "date": "24/02/2026",
+                    "words": 368
+                },
+                {
+                    "url": "r13840",
+                    "author": "Alastor Moody",
+                    "date": "24/02/2026",
+                    "words": 410
+                },
+                {
+                    "url": "r14098",
+                    "author": "Regulus O. Black",
+                    "date": "28/02/2026",
+                    "words": 406
+                },
+                {
+                    "url": "r14190",
+                    "author": "Alastor Moody",
+                    "date": "01/03/2026",
+                    "words": 192
+                },
+                {
+                    "url": "r14880",
+                    "author": "Regulus O. Black",
+                    "date": "14/03/2026",
+                    "words": 352
+                },
+                {
+                    "url": "r14972",
+                    "author": "Alastor Moody",
+                    "date": "15/03/2026",
+                    "words": 279
+                },
+                {
+                    "url": "r15438",
+                    "author": "Regulus O. Black",
+                    "date": "25/03/2026",
+                    "words": 372
+                },
+                {
+                    "url": "r15791",
+                    "author": "Alastor Moody",
+                    "date": "30/03/2026",
+                    "words": 312
+                },
+                {
+                    "url": "r16383",
+                    "author": "Regulus O. Black",
+                    "date": "12/04/2026",
+                    "words": 547
+                },
+                {
+                    "url": "r16543",
+                    "author": "Alastor Moody",
+                    "date": "15/04/2026",
+                    "words": 337
+                },
+                {
+                    "url": "r16932",
+                    "author": "Regulus O. Black",
+                    "date": "25/04/2026",
+                    "words": 279
+                },
+                {
+                    "url": "r11802",
+                    "author": "Regulus O. Black",
+                    "date": "13/01/2026",
+                    "words": 251
+                },
+                {
+                    "url": "r17048",
+                    "author": "Alastor Moody",
+                    "date": "27/04/2026",
+                    "words": 173
+                }
+            ],
+            "date": "29/01/1953",
+            "location": "Número 12 de Grimmauld Place"
+        },
+        "908": {
+            "space": "el pensadero",
+            "url": "/t908-1953-01-11-fault-line",
+            "simpleTitle": "fault line",
+            "creator": "Hankford B. Diggory",
+            "posts": [
+                {
+                    "url": "r11817",
+                    "author": "Hankford B. Diggory",
+                    "date": "14/01/2026",
+                    "words": 305
+                },
+                {
+                    "url": "r11954",
+                    "author": "Hermes Rosier",
+                    "date": "17/01/2026",
+                    "words": 368
+                },
+                {
+                    "url": "r12109",
+                    "author": "Hankford B. Diggory",
+                    "date": "19/01/2026",
+                    "words": 251
+                },
+                {
+                    "url": "r12290",
+                    "author": "Hermes Rosier",
+                    "date": "25/01/2026",
+                    "words": 444
+                },
+                {
+                    "url": "r12738",
+                    "author": "Hankford B. Diggory",
+                    "date": "06/02/2026",
+                    "words": 350
+                },
+                {
+                    "url": "r12829",
+                    "author": "Hermes Rosier",
+                    "date": "07/02/2026",
+                    "words": 477
+                },
+                {
+                    "url": "r13143",
+                    "author": "Hankford B. Diggory",
+                    "date": "13/02/2026",
+                    "words": 282
+                },
+                {
+                    "url": "r13186",
+                    "author": "Hermes Rosier",
+                    "date": "14/02/2026",
+                    "words": 329
+                },
+                {
+                    "url": "r13785",
+                    "author": "Hankford B. Diggory",
+                    "date": "23/02/2026",
+                    "words": 379
+                },
+                {
+                    "url": "r13838",
+                    "author": "Hermes Rosier",
+                    "date": "24/02/2026",
+                    "words": 314
+                },
+                {
+                    "url": "r14050",
+                    "author": "Hankford B. Diggory",
+                    "date": "27/02/2026",
+                    "words": 394
+                },
+                {
+                    "url": "r14123",
+                    "author": "Hermes Rosier",
+                    "date": "28/02/2026",
+                    "words": 397
+                },
+                {
+                    "url": "r14409",
+                    "author": "Hankford B. Diggory",
+                    "date": "04/03/2026",
+                    "words": 400
+                },
+                {
+                    "url": "r14524",
+                    "author": "Hermes Rosier",
+                    "date": "06/03/2026",
+                    "words": 504
+                },
+                {
+                    "url": "r15393",
+                    "author": "Hankford B. Diggory",
+                    "date": "24/03/2026",
+                    "words": 471
+                },
+                {
+                    "url": "r15481",
+                    "author": "Hermes Rosier",
+                    "date": "26/03/2026",
+                    "words": 377
+                },
+                {
+                    "url": "r15831",
+                    "author": "Hankford B. Diggory",
+                    "date": "31/03/2026",
+                    "words": 342
+                },
+                {
+                    "url": "r16183",
+                    "author": "Hermes Rosier",
+                    "date": "07/04/2026",
+                    "words": 484
+                },
+                {
+                    "url": "r16237",
+                    "author": "Hankford B. Diggory",
+                    "date": "08/04/2026",
+                    "words": 426
+                },
+                {
+                    "url": "r16559",
+                    "author": "Hermes Rosier",
+                    "date": "15/04/2026",
+                    "words": 392
+                },
+                {
+                    "url": "r11817",
+                    "author": "Hankford B. Diggory",
+                    "date": "14/01/2026",
+                    "words": 305
+                },
+                {
+                    "url": "r16941",
+                    "author": "Hankford B. Diggory",
+                    "date": "25/04/2026",
+                    "words": 349
+                },
+                {
+                    "url": "r17043",
+                    "author": "Hermes Rosier",
+                    "date": "27/04/2026",
+                    "words": 326
+                }
+            ],
+            "date": "11/01/1953",
+            "location": "Dormitorio de Hermes"
+        },
         "909": {
             "space": "el pensadero",
             "url": "/t909-1935-03-15-it-wasn-t-me",
@@ -74809,6 +75099,15 @@ const DBModule = (function () {
             "url": "r13248",
             "simpleTitle": "it wasn't me!",
             "space": "el pensadero"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                2
+            ],
+            "url": "r13014",
+            "simpleTitle": "after hours",
+            "space": "el pensadero"
         }
     ];
 
@@ -75228,9 +75527,9 @@ const DBModule = (function () {
                 } else {
                     console.log(`%c[Barrido ${currentIndex + 1}/${forums.length}] Procesando foro: ${currentForum.name}...`, "color: cyan;");
                 }
-                
+
                 await scanForum(currentForum.path, currentForum.name);
-                
+
                 currentIndex++;
                 localStorage.setItem(INDEX_KEY, currentIndex);
                 this.save();
