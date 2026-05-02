@@ -75214,6 +75214,10 @@ const DBModule = (function () {
                 console.log("%c[DBModule] Iniciando BARRIDO COMPLETO (Modo Consola)...", "color: yellow; font-size: 14px;");
             }
 
+            // === LA MAGIA: VACIAMOS LA MEMORIA RAM ANTES DE EMPEZAR ===
+            dynamicData = { topics: {}, dices: [] };
+            // ==========================================================
+
             this.resetIndex();
             let currentIndex = 0;
 
@@ -75224,13 +75228,12 @@ const DBModule = (function () {
                 } else {
                     console.log(`%c[Barrido ${currentIndex + 1}/${forums.length}] Procesando foro: ${currentForum.name}...`, "color: cyan;");
                 }
+                
                 await scanForum(currentForum.path, currentForum.name);
-
-                // === CORRECCIÓN: ESTO VA ADENTRO DEL WHILE ===
+                
                 currentIndex++;
                 localStorage.setItem(INDEX_KEY, currentIndex);
                 this.save();
-                // ============================================
             }
 
             if (progressCallback) {
