@@ -1689,7 +1689,7 @@ const MissionsModule = (function () {
           "exitoso": 'Permite identificar que Dippet esta vivo, sin embargo, puede identificarse que su cuerpo esta siendo afectado por una poción que le impide moverse con normalidad. Y que el daño ha sido más severo de lo que se esperaba. Pues su cuerpo esta entumecido de la cintura hacia abajo. Un profesional de la salud mágica debería atenderlo a la brevedad antes de que los daños sean permanentes.',
           "critico": 'Permite identificar que Dippet esta vivo, sin embargo, puede identificarse que su cuerpo esta siendo afectado por una poción que le impide moverse con normalidad. Y que el daño ha sido más severo de lo que se esperaba. Pues su cuerpo esta entumecido de la cintura hacia abajo. Un profesional de la salud mágica debería atenderlo a la brevedad antes de que los daños sean permanentes.',
         },
-        "riddikulus": {
+        "ridikkulus": {
           "leve": 'No es suficiente para revelar información adicional.',
           "moderado": 'El espejo distorciona la imagen antes de romperse. Las sombras desaparecen en ese mismo momento.<adding search="la magia del espejo" class="check-cards"></adding>',
           "exitoso": 'El espejo distorciona la imagen antes de romperse. Las sombras desaparecen en ese mismo momento.<adding search="la magia del espejo" class="check-cards"></adding>',
