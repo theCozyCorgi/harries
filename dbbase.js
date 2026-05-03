@@ -25298,6 +25298,100 @@ const DBModule = (function () {
             "date": "18/11/1952",
             "location": "Oficina de Wilhelmina Tuft"
         },
+        "648": {
+            "space": "el pensadero",
+            "url": "/t648-1952-11-28-death-wish-love",
+            "simpleTitle": "death wish love",
+            "creator": "Regulus O. Black",
+            "posts": [
+                {
+                    "url": "r6092",
+                    "author": "Regulus O. Black",
+                    "date": "03/09/2025",
+                    "words": 325
+                },
+                {
+                    "url": "r6240",
+                    "author": "Antares Z. Bennett",
+                    "date": "07/09/2025",
+                    "words": 245
+                },
+                {
+                    "url": "r6333",
+                    "author": "Regulus O. Black",
+                    "date": "10/09/2025",
+                    "words": 272
+                },
+                {
+                    "url": "r7776",
+                    "author": "Antares Z. Bennett",
+                    "date": "15/10/2025",
+                    "words": 212
+                },
+                {
+                    "url": "r7868",
+                    "author": "Regulus O. Black",
+                    "date": "20/10/2025",
+                    "words": 281
+                },
+                {
+                    "url": "r8709",
+                    "author": "Antares Z. Bennett",
+                    "date": "05/11/2025",
+                    "words": 220
+                },
+                {
+                    "url": "r9141",
+                    "author": "Regulus O. Black",
+                    "date": "13/11/2025",
+                    "words": 229
+                },
+                {
+                    "url": "r12207",
+                    "author": "Antares Z. Bennett",
+                    "date": "23/01/2026",
+                    "words": 346
+                },
+                {
+                    "url": "r12743",
+                    "author": "Regulus O. Black",
+                    "date": "06/02/2026",
+                    "words": 357
+                },
+                {
+                    "url": "r13401",
+                    "author": "Antares Z. Bennett",
+                    "date": "17/02/2026",
+                    "words": 321
+                },
+                {
+                    "url": "r14047",
+                    "author": "Regulus O. Black",
+                    "date": "27/02/2026",
+                    "words": 307
+                },
+                {
+                    "url": "r15878",
+                    "author": "Antares Z. Bennett",
+                    "date": "31/03/2026",
+                    "words": 270
+                },
+                {
+                    "url": "r16405",
+                    "author": "Regulus O. Black",
+                    "date": "13/04/2026",
+                    "words": 408
+                },
+                {
+                    "url": "r17176",
+                    "author": "Antares Z. Bennett",
+                    "date": "30/04/2026",
+                    "words": 249
+                }
+            ],
+            "date": "28/11/1952",
+            "location": "Cabeza de Puerco"
+        },
         "649": {
             "space": "el pensadero",
             "url": "/t649-1952-11-19-whispers-of-the-forest",
@@ -34030,6 +34124,124 @@ const DBModule = (function () {
             "date": "16/12/1952",
             "location": "Café"
         },
+        "733": {
+            "space": "el pensadero",
+            "url": "/t733-1952-12-09-stepped-papers",
+            "simpleTitle": "stepped papers",
+            "creator": "Theolonius D. Covey",
+            "posts": [
+                {
+                    "url": "r8127",
+                    "author": "Theolonius D. Covey",
+                    "date": "26/10/2025",
+                    "words": 214
+                },
+                {
+                    "url": "r9281",
+                    "author": "Orion A. Black",
+                    "date": "17/11/2025",
+                    "words": 278
+                },
+                {
+                    "url": "r9403",
+                    "author": "Theolonius D. Covey",
+                    "date": "20/11/2025",
+                    "words": 263
+                },
+                {
+                    "url": "r10177",
+                    "author": "Orion A. Black",
+                    "date": "01/12/2025",
+                    "words": 268
+                },
+                {
+                    "url": "r10264",
+                    "author": "Theolonius D. Covey",
+                    "date": "03/12/2025",
+                    "words": 304
+                },
+                {
+                    "url": "r10265",
+                    "author": "The Familiars",
+                    "date": "03/12/2025",
+                    "words": 0
+                },
+                {
+                    "url": "r11031",
+                    "author": "Orion A. Black",
+                    "date": "22/12/2025",
+                    "words": 251
+                },
+                {
+                    "url": "r11270",
+                    "author": "Theolonius D. Covey",
+                    "date": "28/12/2025",
+                    "words": 239
+                },
+                {
+                    "url": "r11800",
+                    "author": "Orion A. Black",
+                    "date": "13/01/2026",
+                    "words": 211
+                },
+                {
+                    "url": "r12095",
+                    "author": "Theolonius D. Covey",
+                    "date": "19/01/2026",
+                    "words": 305
+                },
+                {
+                    "url": "r12161",
+                    "author": "Orion A. Black",
+                    "date": "21/01/2026",
+                    "words": 327
+                },
+                {
+                    "url": "r12419",
+                    "author": "Theolonius D. Covey",
+                    "date": "29/01/2026",
+                    "words": 380
+                },
+                {
+                    "url": "r13810",
+                    "author": "Orion A. Black",
+                    "date": "24/02/2026",
+                    "words": 281
+                },
+                {
+                    "url": "r14297",
+                    "author": "Theolonius D. Covey",
+                    "date": "03/03/2026",
+                    "words": 378
+                },
+                {
+                    "url": "r15839",
+                    "author": "Orion A. Black",
+                    "date": "31/03/2026",
+                    "words": 285
+                },
+                {
+                    "url": "r16338",
+                    "author": "Theolonius D. Covey",
+                    "date": "11/04/2026",
+                    "words": 435
+                },
+                {
+                    "url": "r16681",
+                    "author": "Orion A. Black",
+                    "date": "19/04/2026",
+                    "words": 270
+                },
+                {
+                    "url": "r17159",
+                    "author": "Theolonius D. Covey",
+                    "date": "30/04/2026",
+                    "words": 234
+                }
+            ],
+            "date": "09/12/1952",
+            "location": "San Mungo"
+        },
         "734": {
             "space": "el pensadero",
             "url": "/t734-1952-11-23-fb-i-m-never-gonna-leave-you-out",
@@ -39930,6 +40142,184 @@ const DBModule = (function () {
             "date": "16/12/1952",
             "location": "Las Tres Escobas"
         },
+        "797": {
+            "space": "el pensadero",
+            "url": "/t797-1953-01-12-duelo-7-ruairidh-vs-thaddeus",
+            "simpleTitle": "duelo #7: ruairidh vs thaddeus",
+            "creator": "Black Wave",
+            "posts": [
+                {
+                    "url": "r9964",
+                    "author": "Black Wave",
+                    "date": "29/11/2025",
+                    "words": 167
+                },
+                {
+                    "url": "r9965",
+                    "author": "The Familiars",
+                    "date": "29/11/2025",
+                    "words": 0
+                },
+                {
+                    "url": "r10119",
+                    "author": "Thaddeus L. Nott",
+                    "date": "30/11/2025",
+                    "words": 159
+                },
+                {
+                    "url": "r10120",
+                    "author": "The Familiars",
+                    "date": "30/11/2025",
+                    "words": 0
+                },
+                {
+                    "url": "r10165",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "01/12/2025",
+                    "words": 122
+                },
+                {
+                    "url": "r10166",
+                    "author": "The Familiars",
+                    "date": "01/12/2025",
+                    "words": 0
+                },
+                {
+                    "url": "r10409",
+                    "author": "Thaddeus L. Nott",
+                    "date": "06/12/2025",
+                    "words": 123
+                },
+                {
+                    "url": "r10410",
+                    "author": "The Familiars",
+                    "date": "06/12/2025",
+                    "words": 0
+                },
+                {
+                    "url": "r10429",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "06/12/2025",
+                    "words": 150
+                },
+                {
+                    "url": "r10430",
+                    "author": "The Familiars",
+                    "date": "06/12/2025",
+                    "words": 0
+                },
+                {
+                    "url": "r11101",
+                    "author": "Thaddeus L. Nott",
+                    "date": "23/12/2025",
+                    "words": 156
+                },
+                {
+                    "url": "r11102",
+                    "author": "The Familiars",
+                    "date": "23/12/2025",
+                    "words": 0
+                },
+                {
+                    "url": "r11237",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "27/12/2025",
+                    "words": 201
+                },
+                {
+                    "url": "r11238",
+                    "author": "The Familiars",
+                    "date": "27/12/2025",
+                    "words": 0
+                },
+                {
+                    "url": "r12163",
+                    "author": "Thaddeus L. Nott",
+                    "date": "22/01/2026",
+                    "words": 136
+                },
+                {
+                    "url": "r12164",
+                    "author": "The Familiars",
+                    "date": "22/01/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r12296",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "25/01/2026",
+                    "words": 172
+                },
+                {
+                    "url": "r12297",
+                    "author": "The Familiars",
+                    "date": "25/01/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r13807",
+                    "author": "Thaddeus L. Nott",
+                    "date": "23/02/2026",
+                    "words": 145
+                },
+                {
+                    "url": "r13808",
+                    "author": "The Familiars",
+                    "date": "23/02/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r9964",
+                    "author": "Black Wave",
+                    "date": "29/11/2025",
+                    "words": 167
+                },
+                {
+                    "url": "r13846",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "24/02/2026",
+                    "words": 202
+                },
+                {
+                    "url": "r13847",
+                    "author": "The Familiars",
+                    "date": "24/02/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r14387",
+                    "author": "Thaddeus L. Nott",
+                    "date": "03/03/2026",
+                    "words": 161
+                },
+                {
+                    "url": "r14388",
+                    "author": "The Familiars",
+                    "date": "03/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r14632",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "08/03/2026",
+                    "words": 195
+                },
+                {
+                    "url": "r14633",
+                    "author": "The Familiars",
+                    "date": "08/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r17437",
+                    "author": "Ditanny",
+                    "date": "Hoy a las 2:18",
+                    "words": 122
+                }
+            ],
+            "date": "12/01/1953",
+            "location": "Club de Duelos"
+        },
         "798": {
             "space": "el pensadero",
             "url": "/t798-1953-01-13-duelo-8-findlay-vs-neptune",
@@ -44378,6 +44768,154 @@ const DBModule = (function () {
             "date": "01/01/1953",
             "location": "Cabeza de Puerco"
         },
+        "852": {
+            "space": "el pensadero",
+            "url": "/t852-1953-01-13-red-haired-fox",
+            "simpleTitle": "red haired fox",
+            "creator": "Ruairidh Ó Mhaille",
+            "posts": [
+                {
+                    "url": "r10938",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "19/12/2025",
+                    "words": 423
+                },
+                {
+                    "url": "r11059",
+                    "author": "Neptune E. Merrythought",
+                    "date": "22/12/2025",
+                    "words": 261
+                },
+                {
+                    "url": "r11118",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "23/12/2025",
+                    "words": 269
+                },
+                {
+                    "url": "r11323",
+                    "author": "Neptune E. Merrythought",
+                    "date": "28/12/2025",
+                    "words": 281
+                },
+                {
+                    "url": "r11507",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "04/01/2026",
+                    "words": 179
+                },
+                {
+                    "url": "r11804",
+                    "author": "Neptune E. Merrythought",
+                    "date": "13/01/2026",
+                    "words": 305
+                },
+                {
+                    "url": "r11909",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "16/01/2026",
+                    "words": 287
+                },
+                {
+                    "url": "r12257",
+                    "author": "Neptune E. Merrythought",
+                    "date": "24/01/2026",
+                    "words": 368
+                },
+                {
+                    "url": "r12492",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "31/01/2026",
+                    "words": 348
+                },
+                {
+                    "url": "r12878",
+                    "author": "Neptune E. Merrythought",
+                    "date": "08/02/2026",
+                    "words": 305
+                },
+                {
+                    "url": "r13057",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "12/02/2026",
+                    "words": 455
+                },
+                {
+                    "url": "r13459",
+                    "author": "Neptune E. Merrythought",
+                    "date": "18/02/2026",
+                    "words": 372
+                },
+                {
+                    "url": "r13918",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "25/02/2026",
+                    "words": 372
+                },
+                {
+                    "url": "r14159",
+                    "author": "Neptune E. Merrythought",
+                    "date": "01/03/2026",
+                    "words": 425
+                },
+                {
+                    "url": "r14640",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "08/03/2026",
+                    "words": 327
+                },
+                {
+                    "url": "r15152",
+                    "author": "Neptune E. Merrythought",
+                    "date": "18/03/2026",
+                    "words": 284
+                },
+                {
+                    "url": "r15723",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "29/03/2026",
+                    "words": 518
+                },
+                {
+                    "url": "r16025",
+                    "author": "Neptune E. Merrythought",
+                    "date": "02/04/2026",
+                    "words": 440
+                },
+                {
+                    "url": "r16215",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "07/04/2026",
+                    "words": 449
+                },
+                {
+                    "url": "r16537",
+                    "author": "Neptune E. Merrythought",
+                    "date": "15/04/2026",
+                    "words": 417
+                },
+                {
+                    "url": "r10938",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "19/12/2025",
+                    "words": 423
+                },
+                {
+                    "url": "r16774",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "20/04/2026",
+                    "words": 378
+                },
+                {
+                    "url": "r17422",
+                    "author": "Neptune E. Merrythought",
+                    "date": "Ayer a las 23:08",
+                    "words": 231
+                }
+            ],
+            "date": "13/01/1953",
+            "location": "jardines de Hogwarts"
+        },
         "856": {
             "space": "el pensadero",
             "url": "/t856-1953-11-01-cloudy-with-a-chance-of-exasperation",
@@ -44453,6 +44991,82 @@ const DBModule = (function () {
             ],
             "date": "01/11/1953",
             "location": "Ministerio de Magia"
+        },
+        "858": {
+            "space": "el pensadero",
+            "url": "/t858-1952-12-20-little-star-plant",
+            "simpleTitle": "little star plant",
+            "creator": "Viridian L. Greengrass",
+            "posts": [
+                {
+                    "url": "r10996",
+                    "author": "Viridian L. Greengrass",
+                    "date": "21/12/2025",
+                    "words": 301
+                },
+                {
+                    "url": "r11267",
+                    "author": "Theolonius D. Covey",
+                    "date": "28/12/2025",
+                    "words": 306
+                },
+                {
+                    "url": "r11861",
+                    "author": "Viridian L. Greengrass",
+                    "date": "15/01/2026",
+                    "words": 297
+                },
+                {
+                    "url": "r12098",
+                    "author": "Theolonius D. Covey",
+                    "date": "19/01/2026",
+                    "words": 356
+                },
+                {
+                    "url": "r12333",
+                    "author": "Viridian L. Greengrass",
+                    "date": "26/01/2026",
+                    "words": 364
+                },
+                {
+                    "url": "r12815",
+                    "author": "Theolonius D. Covey",
+                    "date": "07/02/2026",
+                    "words": 359
+                },
+                {
+                    "url": "r14591",
+                    "author": "Viridian L. Greengrass",
+                    "date": "07/03/2026",
+                    "words": 292
+                },
+                {
+                    "url": "r15323",
+                    "author": "Theolonius D. Covey",
+                    "date": "23/03/2026",
+                    "words": 334
+                },
+                {
+                    "url": "r15959",
+                    "author": "Viridian L. Greengrass",
+                    "date": "01/04/2026",
+                    "words": 252
+                },
+                {
+                    "url": "r16340",
+                    "author": "Theolonius D. Covey",
+                    "date": "11/04/2026",
+                    "words": 313
+                },
+                {
+                    "url": "r17485",
+                    "author": "Viridian L. Greengrass",
+                    "date": "Hoy a las 17:40",
+                    "words": 311
+                }
+            ],
+            "date": "20/12/1952",
+            "location": "Callejon Diagon"
         },
         "860": {
             "space": "el pensadero",
@@ -46307,6 +46921,106 @@ const DBModule = (function () {
             ],
             "date": "28/01/1953",
             "location": "Pasillo perdido de Hogwarts"
+        },
+        "918": {
+            "space": "el pensadero",
+            "url": "/t918-1953-03-02-heavy-metal",
+            "simpleTitle": "heavy metal",
+            "creator": "Viridian L. Greengrass",
+            "posts": [
+                {
+                    "url": "r11927",
+                    "author": "Viridian L. Greengrass",
+                    "date": "16/01/2026",
+                    "words": 259
+                },
+                {
+                    "url": "r12072",
+                    "author": "Montgomery Thatch",
+                    "date": "18/01/2026",
+                    "words": 349
+                },
+                {
+                    "url": "r12332",
+                    "author": "Viridian L. Greengrass",
+                    "date": "26/01/2026",
+                    "words": 250
+                },
+                {
+                    "url": "r12664",
+                    "author": "Montgomery Thatch",
+                    "date": "03/02/2026",
+                    "words": 430
+                },
+                {
+                    "url": "r13384",
+                    "author": "Viridian L. Greengrass",
+                    "date": "17/02/2026",
+                    "words": 303
+                },
+                {
+                    "url": "r13614",
+                    "author": "Montgomery Thatch",
+                    "date": "20/02/2026",
+                    "words": 354
+                },
+                {
+                    "url": "r13615",
+                    "author": "The Familiars",
+                    "date": "20/02/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r14593",
+                    "author": "Viridian L. Greengrass",
+                    "date": "07/03/2026",
+                    "words": 287
+                },
+                {
+                    "url": "r14611",
+                    "author": "Montgomery Thatch",
+                    "date": "07/03/2026",
+                    "words": 426
+                },
+                {
+                    "url": "r15891",
+                    "author": "Viridian L. Greengrass",
+                    "date": "31/03/2026",
+                    "words": 362
+                },
+                {
+                    "url": "r16107",
+                    "author": "Montgomery Thatch",
+                    "date": "04/04/2026",
+                    "words": 403
+                },
+                {
+                    "url": "r16316",
+                    "author": "Viridian L. Greengrass",
+                    "date": "10/04/2026",
+                    "words": 343
+                },
+                {
+                    "url": "r16349",
+                    "author": "Montgomery Thatch",
+                    "date": "11/04/2026",
+                    "words": 542
+                },
+                {
+                    "url": "r17489",
+                    "author": "Viridian L. Greengrass",
+                    "date": "Hoy a las 18:22",
+                    "words": 221
+                },
+                {
+                    "url": "r17495",
+                    "author": "Montgomery Thatch",
+                    "date": "Hoy a las 19:39",
+                    "words": 256
+                }
+            ],
+            "date": "02/03/1953",
+            "location": "Aula de Pociones"
         },
         "921": {
             "space": "el pensadero",
@@ -52813,6 +53527,208 @@ const DBModule = (function () {
             ],
             "date": "26/02/1953",
             "location": "Hogwarts"
+        },
+        "1086": {
+            "space": "el pensadero",
+            "url": "/t1086-1953-02-19-duelo-15-montgomery-vs-neptune",
+            "simpleTitle": "duelo #15: montgomery vs neptune",
+            "creator": "Black Wave",
+            "posts": [
+                {
+                    "url": "r14769",
+                    "author": "Black Wave",
+                    "date": "11/03/2026",
+                    "words": 200
+                },
+                {
+                    "url": "r14770",
+                    "author": "The Familiars",
+                    "date": "11/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r14783",
+                    "author": "Neptune E. Merrythought",
+                    "date": "12/03/2026",
+                    "words": 188
+                },
+                {
+                    "url": "r14784",
+                    "author": "The Familiars",
+                    "date": "12/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r14817",
+                    "author": "Montgomery Thatch",
+                    "date": "12/03/2026",
+                    "words": 313
+                },
+                {
+                    "url": "r14818",
+                    "author": "The Familiars",
+                    "date": "12/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r14877",
+                    "author": "Neptune E. Merrythought",
+                    "date": "14/03/2026",
+                    "words": 236
+                },
+                {
+                    "url": "r14878",
+                    "author": "The Familiars",
+                    "date": "14/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r14912",
+                    "author": "Montgomery Thatch",
+                    "date": "14/03/2026",
+                    "words": 510
+                },
+                {
+                    "url": "r14913",
+                    "author": "The Familiars",
+                    "date": "14/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r15639",
+                    "author": "Neptune E. Merrythought",
+                    "date": "28/03/2026",
+                    "words": 212
+                },
+                {
+                    "url": "r15640",
+                    "author": "The Familiars",
+                    "date": "28/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r15724",
+                    "author": "Montgomery Thatch",
+                    "date": "29/03/2026",
+                    "words": 280
+                },
+                {
+                    "url": "r15725",
+                    "author": "The Familiars",
+                    "date": "29/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16026",
+                    "author": "Neptune E. Merrythought",
+                    "date": "02/04/2026",
+                    "words": 208
+                },
+                {
+                    "url": "r16027",
+                    "author": "The Familiars",
+                    "date": "02/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16103",
+                    "author": "Montgomery Thatch",
+                    "date": "04/04/2026",
+                    "words": 169
+                },
+                {
+                    "url": "r16104",
+                    "author": "The Familiars",
+                    "date": "04/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16534",
+                    "author": "Neptune E. Merrythought",
+                    "date": "15/04/2026",
+                    "words": 173
+                },
+                {
+                    "url": "r16535",
+                    "author": "The Familiars",
+                    "date": "15/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r14769",
+                    "author": "Black Wave",
+                    "date": "11/03/2026",
+                    "words": 200
+                },
+                {
+                    "url": "r16696",
+                    "author": "Montgomery Thatch",
+                    "date": "19/04/2026",
+                    "words": 433
+                },
+                {
+                    "url": "r16697",
+                    "author": "The Familiars",
+                    "date": "19/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16997",
+                    "author": "Neptune E. Merrythought",
+                    "date": "26/04/2026",
+                    "words": 147
+                },
+                {
+                    "url": "r16998",
+                    "author": "The Familiars",
+                    "date": "26/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r17143",
+                    "author": "Montgomery Thatch",
+                    "date": "29/04/2026",
+                    "words": 285
+                },
+                {
+                    "url": "r17144",
+                    "author": "The Familiars",
+                    "date": "29/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r17419",
+                    "author": "Neptune E. Merrythought",
+                    "date": "Ayer a las 21:40",
+                    "words": 203
+                },
+                {
+                    "url": "r17420",
+                    "author": "The Familiars",
+                    "date": "Ayer a las 21:40",
+                    "words": 0
+                },
+                {
+                    "url": "r17430",
+                    "author": "Montgomery Thatch",
+                    "date": "Hoy a las 0:12",
+                    "words": 187
+                },
+                {
+                    "url": "r17431",
+                    "author": "The Familiars",
+                    "date": "Hoy a las 0:12",
+                    "words": 0
+                },
+                {
+                    "url": "r17438",
+                    "author": "Ditanny",
+                    "date": "Hoy a las 2:38",
+                    "words": 119
+                }
+            ],
+            "date": "19/02/1953",
+            "location": "Club de Duelos"
         },
         "1124": {
             "space": "el pensadero",
@@ -75107,6 +76023,300 @@ const DBModule = (function () {
             ],
             "url": "r13014",
             "simpleTitle": "after hours",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                3,
+                18
+            ],
+            "url": "r13615",
+            "simpleTitle": "heavy metal",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Black Wave",
+            "spread": [
+                1
+            ],
+            "url": "r14770",
+            "simpleTitle": "duelo #15: montgomery vs neptune",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Neptune E. Merrythought",
+            "spread": [
+                2
+            ],
+            "url": "r14784",
+            "simpleTitle": "duelo #15: montgomery vs neptune",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                16,
+                11
+            ],
+            "url": "r14818",
+            "simpleTitle": "duelo #15: montgomery vs neptune",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Neptune E. Merrythought",
+            "spread": [
+                19,
+                15
+            ],
+            "url": "r14878",
+            "simpleTitle": "duelo #15: montgomery vs neptune",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                20,
+                9
+            ],
+            "url": "r14913",
+            "simpleTitle": "duelo #15: montgomery vs neptune",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Neptune E. Merrythought",
+            "spread": [
+                2
+            ],
+            "url": "r15640",
+            "simpleTitle": "duelo #15: montgomery vs neptune",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                14,
+                12
+            ],
+            "url": "r15725",
+            "simpleTitle": "duelo #15: montgomery vs neptune",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Neptune E. Merrythought",
+            "spread": [
+                13,
+                5
+            ],
+            "url": "r16027",
+            "simpleTitle": "duelo #15: montgomery vs neptune",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                11,
+                5
+            ],
+            "url": "r16104",
+            "simpleTitle": "duelo #15: montgomery vs neptune",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Neptune E. Merrythought",
+            "spread": [
+                7,
+                2
+            ],
+            "url": "r16535",
+            "simpleTitle": "duelo #15: montgomery vs neptune",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                5,
+                1
+            ],
+            "url": "r16697",
+            "simpleTitle": "duelo #15: montgomery vs neptune",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Neptune E. Merrythought",
+            "spread": [
+                6,
+                13
+            ],
+            "url": "r16998",
+            "simpleTitle": "duelo #15: montgomery vs neptune",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                17,
+                14
+            ],
+            "url": "r17144",
+            "simpleTitle": "duelo #15: montgomery vs neptune",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Neptune E. Merrythought",
+            "spread": [
+                18,
+                19
+            ],
+            "url": "r17420",
+            "simpleTitle": "duelo #15: montgomery vs neptune",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                8,
+                16
+            ],
+            "url": "r17431",
+            "simpleTitle": "duelo #15: montgomery vs neptune",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Black Wave",
+            "spread": [
+                1
+            ],
+            "url": "r9965",
+            "simpleTitle": "duelo #7: ruairidh vs thaddeus",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Thaddeus L. Nott",
+            "spread": [
+                5
+            ],
+            "url": "r10120",
+            "simpleTitle": "duelo #7: ruairidh vs thaddeus",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Ruairidh Ó Mhaille",
+            "spread": [
+                15,
+                9
+            ],
+            "url": "r10166",
+            "simpleTitle": "duelo #7: ruairidh vs thaddeus",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Thaddeus L. Nott",
+            "spread": [
+                6,
+                16
+            ],
+            "url": "r10410",
+            "simpleTitle": "duelo #7: ruairidh vs thaddeus",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Ruairidh Ó Mhaille",
+            "spread": [
+                20,
+                18
+            ],
+            "url": "r10430",
+            "simpleTitle": "duelo #7: ruairidh vs thaddeus",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Thaddeus L. Nott",
+            "spread": [
+                11,
+                6
+            ],
+            "url": "r11102",
+            "simpleTitle": "duelo #7: ruairidh vs thaddeus",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Ruairidh Ó Mhaille",
+            "spread": [
+                2,
+                12
+            ],
+            "url": "r11238",
+            "simpleTitle": "duelo #7: ruairidh vs thaddeus",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Thaddeus L. Nott",
+            "spread": [
+                19,
+                10
+            ],
+            "url": "r12164",
+            "simpleTitle": "duelo #7: ruairidh vs thaddeus",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Ruairidh Ó Mhaille",
+            "spread": [
+                5,
+                11
+            ],
+            "url": "r12297",
+            "simpleTitle": "duelo #7: ruairidh vs thaddeus",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Thaddeus L. Nott",
+            "spread": [
+                4,
+                12
+            ],
+            "url": "r13808",
+            "simpleTitle": "duelo #7: ruairidh vs thaddeus",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Ruairidh Ó Mhaille",
+            "spread": [
+                15,
+                20
+            ],
+            "url": "r13847",
+            "simpleTitle": "duelo #7: ruairidh vs thaddeus",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Thaddeus L. Nott",
+            "spread": [
+                8,
+                8
+            ],
+            "url": "r14388",
+            "simpleTitle": "duelo #7: ruairidh vs thaddeus",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Ruairidh Ó Mhaille",
+            "spread": [
+                13,
+                7
+            ],
+            "url": "r14633",
+            "simpleTitle": "duelo #7: ruairidh vs thaddeus",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Theolonius D. Covey",
+            "spread": [
+                3
+            ],
+            "url": "r10265",
+            "simpleTitle": "stepped papers",
             "space": "el pensadero"
         }
     ];
