@@ -2333,7 +2333,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/NhDTPNU.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica", "Un inefable"],
       "users": ["/u50", "/u150", "/u17",],
       "dependency": ["the foretold story"],
-      "type": "investigación", "closed": false, "link": "https://blackwave.foroactivo.com/t1008-investigacion-whispers-of-the-future", "tagged": ["sirius", "capitulo 0"],
+      "type": "investigación", "closed": true, "link": "https://blackwave.foroactivo.com/t1008-investigacion-whispers-of-the-future", "tagged": ["sirius", "capitulo 0"],
 
       "cards": [],
 
@@ -2440,9 +2440,9 @@ const MissionsModule = (function () {
     "in search of the deathly hallows": {
       "description": "Las reliquias de la muerte muchas veces fueron buscadas y muchas fuentes confirman que solo se tratan de una fábula para enseñar algo importante a los niños y nada más. Sin embargo, hay quienes creen en ellas. Y no solo eso, suelen tener bastantes registros históricos tratando de rastrear dónde se encontraron. The Deadly Club, es un espacio que se encuentra en Hogsmeade donde muchos magos se reúnen a investigar y compartir sus investigaciones. Mientras no cambien nada, cualquiera puede entrar a echar un vistazo.",
       "image": "https://2img.net/i.imgur.com/DWMLO6R.png", "requisitos": [],
-      "users": [],
-      "dependency": ["whispers of the future"],
-      "type": "misión", "closed": false, "link": "", "tagged": ["wave", "capitulo 0"],
+      "users": ["Todos los personajes deberán ser parte de The Deadly Club o conocer a un personaje que los incluya en la investigación."],
+      "dependency": [],
+      "type": "investigación", "closed": false, "link": "", "tagged": ["wave", "capitulo 0"],
 
       "cards": [],
       "searchs": {},
