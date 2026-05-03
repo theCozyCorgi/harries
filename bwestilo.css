@@ -5583,7 +5583,7 @@ critico:before { content: 'Crítico: '; color: var(--strong); }
   background: var(--mode-back-100);
   font: var(--style-link);
   text-transform: uppercase;
-  width: 290px;
+  width: 350px;
   padding: 5px 10px;
   border-radius: 5px;
   color: var(--mode-text-100) !important;
@@ -5614,7 +5614,7 @@ critico:before { content: 'Crítico: '; color: var(--strong); }
 #fa_toolbar #fa_right #notif_list li.see_all a { color: var(--color-text-100); }
 #fa_toolbar #fa_right.notification #notif_list {position: fixed;}
 #fa_notifications, #fa_notifications i { pointer-events: auto; }
-#fa_toolbar #fa_right #notif_list li .contentText { width: 22em; }
+#fa_toolbar #fa_right #notif_list li .contentText { width: calc(100% - 20px); }
 
 #fa_toolbar #fa_right #notif_list li a.delete:before {
   font: var(--fa-font-solid);
