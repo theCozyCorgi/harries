@@ -2437,10 +2437,10 @@ const MissionsModule = (function () {
     },
     // fin whispers of the future
 
-    "in search of the deathly hallows": {
-      "description": "Las reliquias de la muerte muchas veces fueron buscadas y muchas fuentes confirman que solo se tratan de una fábula para enseñar algo importante a los niños y nada más. Sin embargo, hay quienes creen en ellas. Y no solo eso, suelen tener bastantes registros históricos tratando de rastrear dónde se encontraron. The Deadly Club, es un espacio que se encuentra en Hogsmeade donde muchos magos se reúnen a investigar y compartir sus investigaciones. Mientras no cambien nada, cualquiera puede entrar a echar un vistazo.",
+    "in search of the deadly hallows": {
+      "description": "[Completado] Las reliquias de la muerte muchas veces fueron buscadas y muchas fuentes confirman que solo se tratan de una fábula para enseñar algo importante a los niños y nada más. Sin embargo, hay quienes creen en ellas. Y no solo eso, suelen tener bastantes registros históricos tratando de rastrear dónde se encontraron. The Deadly Club, es un espacio que se encuentra en Hogsmeade donde muchos magos se reúnen a investigar y compartir sus investigaciones. Mientras no cambien nada, cualquiera puede entrar a echar un vistazo.",
       "image": "https://2img.net/i.imgur.com/DWMLO6R.png", "requisitos": [],
-      "users": ["Todos los personajes deberán ser parte de The Deadly Club o conocer a un personaje que los incluya en la investigación."],
+      "users": ["/u50", "/u9", "/u159"],
       "dependency": [],
       "type": "investigación", "closed": false, "link": "", "tagged": ["wave", "capitulo 0"],
 
@@ -2448,7 +2448,7 @@ const MissionsModule = (function () {
       "searchs": {},
       "actions": {},
     },
-    // fin in search of the deathly hallows
+    // fin in search of the deadly hallows
 
     "bottle of sorrows": {
       "description": "Los laboratorios de San Mungo, se llenan con una nueva incógnita, ¿Qué está investigando Morgana? Con un frasco y una pequeña muestra de un líquido malva brillante, deberán descubrir qué buscaba realizar aquel elixir.",
@@ -4263,7 +4263,7 @@ const MissionsModule = (function () {
     "through the night": {
       "description": "Lo que empezó como una nota para El Profeta sobre plantas prohibidas ha mutado en algo oscuro. Entre calderos marcados y un sospechoso que calla para siempre, Amanirenas y Moody acechan una verdad que implica un interrogatorio a la familia Borges.",
       "image": "https://i.imgur.com/nmW3tFz.png", "requisitos": ["Un personaje deberán ser miembro del Departamento de Seguridad"],
-      "users": ["c/u8", "c/u145", "/u171"],
+      "users": ["c/u8", "c/u145", "/u171","/u174"],
       "dependency": [],
       "type": "misión", "closed": false, "link": "", "tagged": ["original"],
 
