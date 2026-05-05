@@ -5408,8 +5408,8 @@ critico:before { content: 'Crítico: '; color: var(--strong); }
 .trunk-list a[target="piscpam"]:before { content: "\e1b6"; }
 .trunk-list a[target="mascotas"]:before { content: "\f1b0"; }
 
-.trunk-time, .trunk-relationships, .trunk-pets { flex-flow: column !important; flex-wrap: wrap !important; }
-.trunk-relationships { flex-flow: unset !important; flex-wrap: wrap !important; }
+.trunk-time, .trunk-pets { flex-flow: column !important; flex-wrap: wrap !important; }
+.trunk-relationships { flex-wrap: wrap !important; }
 .trunk-time-list { display:none; }
 
 .trunk-time:before, .trunk-relationships:before, .trunk-pets:before, .table-knowledge:before, .character-stats:before { 
