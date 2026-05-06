@@ -8016,7 +8016,7 @@ const MissionsModule = (function () {
         },
         "desafío #06": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #05",
-            "cont": '<span>Realizar 75 roles posteriores a la publicación del desafío.</span>',
+            "cont": '<span>Realizar 75 roles posteriores a la publicación del desafío #2.</span>',
         },
         "desafío #07": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #06",
@@ -8024,11 +8024,11 @@ const MissionsModule = (function () {
         },
         "desafío #08": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #07",
-            "cont": '<span>Haber realizado 15 pociones.</span>',
+            "cont": '<span>Haber realizado 15 pociones. Por este desafío el cooldown se reduce a 2 usuarios y 24hs.</span>',
         },
         "desafío #09": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #08",
-            "cont": '<span>Haber participado en 10 misiones.</span>',
+            "cont": '<span>Haber participado en 10 misiones. Por este desafío el cooldown se reduce a 2 usuarios y 24hs.</span>',
         },
         "desafío #10": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #09",
@@ -8036,15 +8036,15 @@ const MissionsModule = (function () {
         },
         "desafío #11": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #10",
-            "cont": '<span>Realizar 100 roles posteriores a la publicación del desafío.</span>',
+            "cont": '<span>Realizar 100 roles posteriores a la publicación del desafío #7.</span>',
         },
         "desafío #12": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #11",
-            "cont": '<span>Haber sumado 500 puntos para la correspondientes casa.</span>',
+            "cont": '<span>Haber sumado 500 puntos para la correspondientes casa. Por este desafío el cooldown se reduce a 2 usuarios y 24hs.</span>',
         },
         "desafío #13": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #12",
-            "cont": '<span>Haber cerrado 5 temas durante el mes de Mayo.</span>',
+            "cont": '<span>Haber cerrado 5 temas durante el mes de Mayo. Por este desafío el cooldown se reduce a 2 usuarios y 24hs.</span>',
         },
         "desafío #14": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #13",
@@ -8056,15 +8056,15 @@ const MissionsModule = (function () {
         },
         "desafío #16": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #15",
-            "cont": '<span>Realizar 125 roles posteriores a la publicación del desafío.</span>',
+            "cont": '<span>Realizar 125 roles posteriores a la publicación del desafío #12.</span>',
         },
         "desafío #17": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #16",
-            "cont": '<span>Haber recolectado 150 cromos. No pueden ser los mismos que los anteriores.</span>',
+            "cont": '<span>Haber recolectado 150 cromos. No pueden ser los mismos que los anteriores. Por este desafío el cooldown se reduce a 3 usuarios.</span>',
         },
         "desafío #18": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #17",
-            "cont": '<span>Haber leído 15 libros.</span>',
+            "cont": '<span>Haber leído 15 libros. Por este desafío el cooldown se reduce a 2 usuarios y 24hs.</span>',
         },
         "desafío #19": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #18",
@@ -8076,7 +8076,7 @@ const MissionsModule = (function () {
         },
         "desafío #21": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #20",
-            "cont": '<span>Realizar 150 roles posteriores a la publicación del desafío.</span>',
+            "cont": '<span>Realizar 150 roles posteriores a la publicación del desafío #17.</span>',
         },
         "desafío #22": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #21",
