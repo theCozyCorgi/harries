@@ -45280,6 +45280,124 @@ const DBModule = (function () {
             "date": "16/01/1953",
             "location": "Biblioteca"
         },
+        "884": {
+            "space": "el pensadero",
+            "url": "/t884-1953-01-17-eagleheart",
+            "simpleTitle": "eagleheart",
+            "creator": "Findlay McCrory",
+            "posts": [
+                {
+                    "url": "r11501",
+                    "author": "Findlay McCrory",
+                    "date": "04/01/2026",
+                    "words": 341
+                },
+                {
+                    "url": "r11803",
+                    "author": "Regulus O. Black",
+                    "date": "13/01/2026",
+                    "words": 237
+                },
+                {
+                    "url": "r11890",
+                    "author": "Findlay McCrory",
+                    "date": "16/01/2026",
+                    "words": 293
+                },
+                {
+                    "url": "r12301",
+                    "author": "Regulus O. Black",
+                    "date": "25/01/2026",
+                    "words": 443
+                },
+                {
+                    "url": "r12455",
+                    "author": "Findlay McCrory",
+                    "date": "31/01/2026",
+                    "words": 349
+                },
+                {
+                    "url": "r12953",
+                    "author": "Regulus O. Black",
+                    "date": "09/02/2026",
+                    "words": 424
+                },
+                {
+                    "url": "r13153",
+                    "author": "Findlay McCrory",
+                    "date": "13/02/2026",
+                    "words": 433
+                },
+                {
+                    "url": "r13195",
+                    "author": "Regulus O. Black",
+                    "date": "15/02/2026",
+                    "words": 409
+                },
+                {
+                    "url": "r13577",
+                    "author": "Findlay McCrory",
+                    "date": "19/02/2026",
+                    "words": 320
+                },
+                {
+                    "url": "r14048",
+                    "author": "Regulus O. Black",
+                    "date": "27/02/2026",
+                    "words": 334
+                },
+                {
+                    "url": "r14188",
+                    "author": "Findlay McCrory",
+                    "date": "01/03/2026",
+                    "words": 303
+                },
+                {
+                    "url": "r14879",
+                    "author": "Regulus O. Black",
+                    "date": "14/03/2026",
+                    "words": 430
+                },
+                {
+                    "url": "r15199",
+                    "author": "Findlay McCrory",
+                    "date": "19/03/2026",
+                    "words": 430
+                },
+                {
+                    "url": "r15676",
+                    "author": "Regulus O. Black",
+                    "date": "28/03/2026",
+                    "words": 385
+                },
+                {
+                    "url": "r16296",
+                    "author": "Findlay McCrory",
+                    "date": "09/04/2026",
+                    "words": 329
+                },
+                {
+                    "url": "r16765",
+                    "author": "Regulus O. Black",
+                    "date": "20/04/2026",
+                    "words": 338
+                },
+                {
+                    "url": "r17051",
+                    "author": "Findlay McCrory",
+                    "date": "27/04/2026",
+                    "words": 288
+                },
+                {
+                    "url": "r17636",
+                    "author": "Regulus O. Black",
+                    "date": "Ayer a las 3:13",
+                    "words": 216
+                }
+            ],
+            "date": "17/01/1953",
+            "location": "Campo de Quidditch"
+        },
         "885": {
             "space": "el pensadero",
             "url": "/t885-1953-01-13-patience-of-a-saint",
@@ -45817,6 +45935,100 @@ const DBModule = (function () {
             ],
             "date": "14/01/1953",
             "location": "Valle Godric"
+        },
+        "896": {
+            "space": "el pensadero",
+            "url": "/t896-1952-12-19-not-a-michellin-star",
+            "simpleTitle": "not a michellin star",
+            "creator": "Victor Cavendish",
+            "posts": [
+                {
+                    "url": "r11611",
+                    "author": "Victor Cavendish",
+                    "date": "07/01/2026",
+                    "words": 299
+                },
+                {
+                    "url": "r11643",
+                    "author": "Montgomery Thatch",
+                    "date": "07/01/2026",
+                    "words": 330
+                },
+                {
+                    "url": "r11694",
+                    "author": "Victor Cavendish",
+                    "date": "08/01/2026",
+                    "words": 254
+                },
+                {
+                    "url": "r11833",
+                    "author": "Montgomery Thatch",
+                    "date": "14/01/2026",
+                    "words": 315
+                },
+                {
+                    "url": "r11875",
+                    "author": "Victor Cavendish",
+                    "date": "16/01/2026",
+                    "words": 246
+                },
+                {
+                    "url": "r12099",
+                    "author": "Montgomery Thatch",
+                    "date": "19/01/2026",
+                    "words": 469
+                },
+                {
+                    "url": "r12199",
+                    "author": "Victor Cavendish",
+                    "date": "23/01/2026",
+                    "words": 246
+                },
+                {
+                    "url": "r12485",
+                    "author": "Montgomery Thatch",
+                    "date": "31/01/2026",
+                    "words": 398
+                },
+                {
+                    "url": "r13130",
+                    "author": "Victor Cavendish",
+                    "date": "13/02/2026",
+                    "words": 333
+                },
+                {
+                    "url": "r13271",
+                    "author": "Montgomery Thatch",
+                    "date": "15/02/2026",
+                    "words": 609
+                },
+                {
+                    "url": "r13272",
+                    "author": "The Familiars",
+                    "date": "15/02/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r15017",
+                    "author": "Victor Cavendish",
+                    "date": "16/03/2026",
+                    "words": 250
+                },
+                {
+                    "url": "r15254",
+                    "author": "Montgomery Thatch",
+                    "date": "21/03/2026",
+                    "words": 291
+                },
+                {
+                    "url": "r15255",
+                    "author": "The Familiars",
+                    "date": "21/03/2026",
+                    "words": 0
+                }
+            ],
+            "date": "19/12/1952",
+            "location": "Tres escobas"
         },
         "902": {
             "space": "el pensadero",
@@ -51718,6 +51930,364 @@ const DBModule = (function () {
             "date": "26/02/1953",
             "location": "El brote verde"
         },
+        "1008": {
+            "space": "el pensadero",
+            "url": "/t1008-1953-02-20-investigacion-whispers-of-the-future",
+            "simpleTitle": "investigación: whispers of the future",
+            "creator": "Black Wave",
+            "posts": [
+                {
+                    "url": "r13761",
+                    "author": "Black Wave",
+                    "date": "23/02/2026",
+                    "words": 138
+                },
+                {
+                    "url": "r13776",
+                    "author": "Jupiter Merrythought",
+                    "date": "23/02/2026",
+                    "words": 210
+                },
+                {
+                    "url": "r13824",
+                    "author": "Regulus O. Black",
+                    "date": "24/02/2026",
+                    "words": 218
+                },
+                {
+                    "url": "r13825",
+                    "author": "The Familiars",
+                    "date": "24/02/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r13851",
+                    "author": "Cuthbert S. Selwyn",
+                    "date": "24/02/2026",
+                    "words": 393
+                },
+                {
+                    "url": "r13852",
+                    "author": "The Familiars",
+                    "date": "24/02/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r13978",
+                    "author": "Jupiter Merrythought",
+                    "date": "26/02/2026",
+                    "words": 441
+                },
+                {
+                    "url": "r13979",
+                    "author": "The Familiars",
+                    "date": "26/02/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r14100",
+                    "author": "Regulus O. Black",
+                    "date": "28/02/2026",
+                    "words": 299
+                },
+                {
+                    "url": "r14101",
+                    "author": "The Familiars",
+                    "date": "28/02/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r14563",
+                    "author": "Cuthbert S. Selwyn",
+                    "date": "06/03/2026",
+                    "words": 350
+                },
+                {
+                    "url": "r14564",
+                    "author": "The Familiars",
+                    "date": "06/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r14615",
+                    "author": "Jupiter Merrythought",
+                    "date": "07/03/2026",
+                    "words": 425
+                },
+                {
+                    "url": "r14616",
+                    "author": "The Familiars",
+                    "date": "07/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r14704",
+                    "author": "Regulus O. Black",
+                    "date": "10/03/2026",
+                    "words": 284
+                },
+                {
+                    "url": "r14705",
+                    "author": "The Familiars",
+                    "date": "10/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r14930",
+                    "author": "Cuthbert S. Selwyn",
+                    "date": "14/03/2026",
+                    "words": 306
+                },
+                {
+                    "url": "r14931",
+                    "author": "The Familiars",
+                    "date": "14/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r14960",
+                    "author": "Jupiter Merrythought",
+                    "date": "15/03/2026",
+                    "words": 353
+                },
+                {
+                    "url": "r15194",
+                    "author": "Regulus O. Black",
+                    "date": "19/03/2026",
+                    "words": 317
+                },
+                {
+                    "url": "r13761",
+                    "author": "Black Wave",
+                    "date": "23/02/2026",
+                    "words": 138
+                },
+                {
+                    "url": "r15234",
+                    "author": "Cuthbert S. Selwyn",
+                    "date": "20/03/2026",
+                    "words": 310
+                },
+                {
+                    "url": "r15235",
+                    "author": "The Familiars",
+                    "date": "20/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r15246",
+                    "author": "Jupiter Merrythought",
+                    "date": "21/03/2026",
+                    "words": 293
+                },
+                {
+                    "url": "r15311",
+                    "author": "Regulus O. Black",
+                    "date": "23/03/2026",
+                    "words": 387
+                },
+                {
+                    "url": "r15349",
+                    "author": "Cuthbert S. Selwyn",
+                    "date": "23/03/2026",
+                    "words": 303
+                },
+                {
+                    "url": "r15350",
+                    "author": "The Familiars",
+                    "date": "23/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r15455",
+                    "author": "Jupiter Merrythought",
+                    "date": "25/03/2026",
+                    "words": 387
+                },
+                {
+                    "url": "r15754",
+                    "author": "Regulus O. Black",
+                    "date": "30/03/2026",
+                    "words": 276
+                },
+                {
+                    "url": "r15786",
+                    "author": "Cuthbert S. Selwyn",
+                    "date": "30/03/2026",
+                    "words": 238
+                },
+                {
+                    "url": "r15787",
+                    "author": "The Familiars",
+                    "date": "30/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r15855",
+                    "author": "Jupiter Merrythought",
+                    "date": "31/03/2026",
+                    "words": 605
+                },
+                {
+                    "url": "r15856",
+                    "author": "The Familiars",
+                    "date": "31/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16059",
+                    "author": "Regulus O. Black",
+                    "date": "02/04/2026",
+                    "words": 275
+                },
+                {
+                    "url": "r16124",
+                    "author": "Cuthbert S. Selwyn",
+                    "date": "05/04/2026",
+                    "words": 266
+                },
+                {
+                    "url": "r16275",
+                    "author": "Valerian",
+                    "date": "09/04/2026",
+                    "words": 269
+                },
+                {
+                    "url": "r16297",
+                    "author": "Jupiter Merrythought",
+                    "date": "09/04/2026",
+                    "words": 365
+                },
+                {
+                    "url": "r16381",
+                    "author": "Regulus O. Black",
+                    "date": "12/04/2026",
+                    "words": 268
+                },
+                {
+                    "url": "r16382",
+                    "author": "The Familiars",
+                    "date": "12/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16588",
+                    "author": "Cuthbert S. Selwyn",
+                    "date": "16/04/2026",
+                    "words": 241
+                },
+                {
+                    "url": "r16589",
+                    "author": "The Familiars",
+                    "date": "16/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r13761",
+                    "author": "Black Wave",
+                    "date": "23/02/2026",
+                    "words": 138
+                },
+                {
+                    "url": "r16610",
+                    "author": "Jupiter Merrythought",
+                    "date": "17/04/2026",
+                    "words": 332
+                },
+                {
+                    "url": "r16611",
+                    "author": "The Familiars",
+                    "date": "17/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16753",
+                    "author": "Regulus O. Black",
+                    "date": "20/04/2026",
+                    "words": 350
+                },
+                {
+                    "url": "r16754",
+                    "author": "The Familiars",
+                    "date": "20/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16788",
+                    "author": "Cuthbert S. Selwyn",
+                    "date": "20/04/2026",
+                    "words": 236
+                },
+                {
+                    "url": "r16789",
+                    "author": "The Familiars",
+                    "date": "20/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16816",
+                    "author": "Jupiter Merrythought",
+                    "date": "21/04/2026",
+                    "words": 249
+                },
+                {
+                    "url": "r16817",
+                    "author": "The Familiars",
+                    "date": "21/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16842",
+                    "author": "Regulus O. Black",
+                    "date": "22/04/2026",
+                    "words": 403
+                },
+                {
+                    "url": "r16843",
+                    "author": "The Familiars",
+                    "date": "22/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r17026",
+                    "author": "Jupiter Merrythought",
+                    "date": "27/04/2026",
+                    "words": 375
+                },
+                {
+                    "url": "r17137",
+                    "author": "Regulus O. Black",
+                    "date": "29/04/2026",
+                    "words": 346
+                },
+                {
+                    "url": "r17138",
+                    "author": "The Familiars",
+                    "date": "29/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r17334",
+                    "author": "Cuthbert S. Selwyn",
+                    "date": "01/05/2026",
+                    "words": 252
+                },
+                {
+                    "url": "r17403",
+                    "author": "Jupiter Merrythought",
+                    "date": "02/05/2026",
+                    "words": 189
+                },
+                {
+                    "url": "r17530",
+                    "author": "Black Wave",
+                    "date": "04/05/2026",
+                    "words": 128
+                }
+            ],
+            "date": "20/02/1953",
+            "location": "Cámara de las Profecías"
+        },
         "1009": {
             "space": "el pensadero",
             "url": "/t1009-1953-02-25-investigacion-stargazer-s-night",
@@ -53853,6 +54423,160 @@ const DBModule = (function () {
             ],
             "date": "22/02/1953",
             "location": "Inglaterra, Callejón Diagon"
+        },
+        "1156": {
+            "space": "el pensadero",
+            "url": "/t1156-1953-04-04-evento-futuros-lideres-hamish",
+            "simpleTitle": "evento: futuros líderes - hamish",
+            "creator": "Black Wave",
+            "posts": [
+                {
+                    "url": "r16392",
+                    "author": "Black Wave",
+                    "date": "13/04/2026",
+                    "words": 362
+                },
+                {
+                    "url": "r16428",
+                    "author": "Alastor Moody",
+                    "date": "13/04/2026",
+                    "words": 276
+                },
+                {
+                    "url": "r16429",
+                    "author": "The Familiars",
+                    "date": "13/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16456",
+                    "author": "Neptune E. Merrythought",
+                    "date": "14/04/2026",
+                    "words": 246
+                },
+                {
+                    "url": "r16457",
+                    "author": "The Familiars",
+                    "date": "14/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16460",
+                    "author": "Venus M. Merrythought",
+                    "date": "14/04/2026",
+                    "words": 274
+                },
+                {
+                    "url": "r16461",
+                    "author": "The Familiars",
+                    "date": "14/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16496",
+                    "author": "Hermes Rosier",
+                    "date": "14/04/2026",
+                    "words": 245
+                },
+                {
+                    "url": "r16497",
+                    "author": "The Familiars",
+                    "date": "14/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16586",
+                    "author": "Mercury Merrythought",
+                    "date": "16/04/2026",
+                    "words": 211
+                },
+                {
+                    "url": "r16587",
+                    "author": "The Familiars",
+                    "date": "16/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16651",
+                    "author": "Neptune E. Merrythought",
+                    "date": "19/04/2026",
+                    "words": 221
+                },
+                {
+                    "url": "r16686",
+                    "author": "Alastor Moody",
+                    "date": "19/04/2026",
+                    "words": 170
+                },
+                {
+                    "url": "r16687",
+                    "author": "The Familiars",
+                    "date": "19/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16751",
+                    "author": "Neptune E. Merrythought",
+                    "date": "20/04/2026",
+                    "words": 208
+                },
+                {
+                    "url": "r16752",
+                    "author": "The Familiars",
+                    "date": "20/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16900",
+                    "author": "Venus M. Merrythought",
+                    "date": "24/04/2026",
+                    "words": 183
+                },
+                {
+                    "url": "r16901",
+                    "author": "The Familiars",
+                    "date": "24/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16913",
+                    "author": "Hermes Rosier",
+                    "date": "24/04/2026",
+                    "words": 214
+                },
+                {
+                    "url": "r16914",
+                    "author": "The Familiars",
+                    "date": "24/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16392",
+                    "author": "Black Wave",
+                    "date": "13/04/2026",
+                    "words": 362
+                },
+                {
+                    "url": "r17135",
+                    "author": "Alastor Moody",
+                    "date": "29/04/2026",
+                    "words": 230
+                },
+                {
+                    "url": "r17136",
+                    "author": "The Familiars",
+                    "date": "29/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r17531",
+                    "author": "Black Wave",
+                    "date": "04/05/2026",
+                    "words": 51
+                }
+            ],
+            "date": "04/04/1953",
+            "location": "Exteriores de San Mungo"
         }
     };
     const hardcodedDices = [
@@ -76317,6 +77041,302 @@ const DBModule = (function () {
             ],
             "url": "r10265",
             "simpleTitle": "stepped papers",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                16,
+                6
+            ],
+            "url": "r16429",
+            "simpleTitle": "evento: futuros líderes - hamish",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Neptune E. Merrythought",
+            "spread": [
+                10,
+                5
+            ],
+            "url": "r16457",
+            "simpleTitle": "evento: futuros líderes - hamish",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Venus M. Merrythought",
+            "spread": [
+                8,
+                15
+            ],
+            "url": "r16461",
+            "simpleTitle": "evento: futuros líderes - hamish",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Hermes Rosier",
+            "spread": [
+                2,
+                10
+            ],
+            "url": "r16497",
+            "simpleTitle": "evento: futuros líderes - hamish",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Mercury Merrythought",
+            "spread": [
+                16,
+                7
+            ],
+            "url": "r16587",
+            "simpleTitle": "evento: futuros líderes - hamish",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                15,
+                4
+            ],
+            "url": "r16687",
+            "simpleTitle": "evento: futuros líderes - hamish",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Neptune E. Merrythought",
+            "spread": [
+                7
+            ],
+            "url": "r16752",
+            "simpleTitle": "evento: futuros líderes - hamish",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Venus M. Merrythought",
+            "spread": [
+                13
+            ],
+            "url": "r16901",
+            "simpleTitle": "evento: futuros líderes - hamish",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Hermes Rosier",
+            "spread": [
+                6
+            ],
+            "url": "r16914",
+            "simpleTitle": "evento: futuros líderes - hamish",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                17,
+                16
+            ],
+            "url": "r17136",
+            "simpleTitle": "evento: futuros líderes - hamish",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Regulus O. Black",
+            "spread": [
+                6
+            ],
+            "url": "r13825",
+            "simpleTitle": "investigación: whispers of the future",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Cuthbert S. Selwyn",
+            "spread": [
+                1,
+                10
+            ],
+            "url": "r13852",
+            "simpleTitle": "investigación: whispers of the future",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                9
+            ],
+            "url": "r13979",
+            "simpleTitle": "investigación: whispers of the future",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Regulus O. Black",
+            "spread": [
+                3
+            ],
+            "url": "r14101",
+            "simpleTitle": "investigación: whispers of the future",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Cuthbert S. Selwyn",
+            "spread": [
+                20
+            ],
+            "url": "r14564",
+            "simpleTitle": "investigación: whispers of the future",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                8
+            ],
+            "url": "r14616",
+            "simpleTitle": "investigación: whispers of the future",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Regulus O. Black",
+            "spread": [
+                11
+            ],
+            "url": "r14705",
+            "simpleTitle": "investigación: whispers of the future",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Cuthbert S. Selwyn",
+            "spread": [
+                6
+            ],
+            "url": "r14931",
+            "simpleTitle": "investigación: whispers of the future",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Cuthbert S. Selwyn",
+            "spread": [
+                16
+            ],
+            "url": "r15235",
+            "simpleTitle": "investigación: whispers of the future",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Cuthbert S. Selwyn",
+            "spread": [
+                13
+            ],
+            "url": "r15350",
+            "simpleTitle": "investigación: whispers of the future",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Cuthbert S. Selwyn",
+            "spread": [
+                7
+            ],
+            "url": "r15787",
+            "simpleTitle": "investigación: whispers of the future",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                5
+            ],
+            "url": "r15856",
+            "simpleTitle": "investigación: whispers of the future",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Regulus O. Black",
+            "spread": [
+                11
+            ],
+            "url": "r16382",
+            "simpleTitle": "investigación: whispers of the future",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Cuthbert S. Selwyn",
+            "spread": [
+                3
+            ],
+            "url": "r16589",
+            "simpleTitle": "investigación: whispers of the future",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                2
+            ],
+            "url": "r16611",
+            "simpleTitle": "investigación: whispers of the future",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Regulus O. Black",
+            "spread": [
+                15
+            ],
+            "url": "r16754",
+            "simpleTitle": "investigación: whispers of the future",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Cuthbert S. Selwyn",
+            "spread": [
+                6
+            ],
+            "url": "r16789",
+            "simpleTitle": "investigación: whispers of the future",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                14
+            ],
+            "url": "r16817",
+            "simpleTitle": "investigación: whispers of the future",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Regulus O. Black",
+            "spread": [
+                19
+            ],
+            "url": "r16843",
+            "simpleTitle": "investigación: whispers of the future",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Regulus O. Black",
+            "spread": [
+                6
+            ],
+            "url": "r17138",
+            "simpleTitle": "investigación: whispers of the future",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                2
+            ],
+            "url": "r13272",
+            "simpleTitle": "not a michellin star",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                1
+            ],
+            "url": "r15255",
+            "simpleTitle": "not a michellin star",
             "space": "el pensadero"
         }
     ];
