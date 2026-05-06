@@ -4278,7 +4278,7 @@ const MissionsModule = (function () {
       "image": "https://i.imgur.com/0VEBWJ2.png", "requisitos": ["Un personaje deberá ser miembro del Departamento de Seguridad", "Un personaje deberá tener Magia Oscura en Avanzado", "Tres personajes deberán tener Patronus en Avanzado"],
       "users": ["c/u8", "/u55", "/u153", "/u78", "/u159", "/u50"],
       "dependency": ["midnight ashes"],
-      "type": "misión", "closed": false, "link": "/t1109-mision-the-mercy-of-death", "tagged": ["original", "capitulo 3"],
+      "type": "misión", "closed": true, "link": "/t1109-mision-the-mercy-of-death", "tagged": ["original", "capitulo 3"],
 
       "cards": [],
 
