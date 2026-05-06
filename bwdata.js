@@ -2649,8 +2649,47 @@ const MissionsModule = (function () {
       "type": "misión", "closed": false, "link": "",
 
       "cards": [],
-      "searchs": {},
-      "actions": {},
+      "searchs": {
+        "observar por los ventanales": {
+          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
+          "cont": '<span>Al asomarse a los ventanales laterales, la magnitud de la pesadilla se revela. No se trata de un simple huerto de mandrágoras abandonado. Ante sus ojos, cientos de estas aberraciones se retuercen bajo la tierra, extendiéndose como una plaga silenciosa por un abismo verde y sin fin.</span>',
+        },
+        "ingresar a la cocina": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
+          "cont": '<span>Traspasando un arco de mampostería al fondo de la sala, se abren las cocinas. El lugar es un mausoleo de lo cotidiano: conserva vestigios de una vida interrumpida bruscamente meses atrás, ahora asfixiada bajo una gruesa mortaja de polvo y óxido. Sin embargo, la atención es irremediablemente capturada por una pesada puerta de madera en el extremo opuesto; el único camino posible hacia el enjambre botánico que los aguarda en el jardín.<br><br>El silencio dentro de la casa es absoluto, pero no representa paz, sino una emboscada en suspenso. La alerta satura el ambiente, espesando el aire y erizando la piel con una advertencia muda pero irrefutable: girar ese cerrojo y abandonar el precario refugio del interior es un atrevimiento cuyo precio deja poco a la imaginación.</span>',
+        },
+        "inspeccionar la cocina": {
+          "visible": { "attr": { "sab": "3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ingresar a la cocina",
+          "cont": '<span>Los cristales de las ventanas y la pesada puerta de las cocinas revelan un detalle perturbador: han sido sellados con encantamientos de insonorización casi impenetrables. Gracias a esta densa barrera invisible, el llanto letal de las aberraciones que se retuercen afuera queda ahogado, reducido a un gemido agónico y sepulcral. Este silencio artificial, sin embargo, no ofrece consuelo alguno; es la prueba irrefutable de que alguien intentó, desesperadamente, aislarse de la locura mortal que devoraba su propio hogar.</span>',
+        },
+        "abrir la puerta hacia los jardines": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ingresar a la cocina",
+          "cont": '<span>Al ceder la pesada puerta de madera y quebrar el sello de insonorización, lo primero que los asalta es el hedor a tierra húmeda. El jardín yace sumido en una calma sepulcral, casi depredadora. El viento se arrastra entre las colosales hojas de las mandrágoras, produciendo un susurro viscoso que se asemeja al roce de miles de respiraciones acompasadas. La horda duerme bajo la superficie, pero la alerta sigue latiendo en el aire, tan densa como la humedad del lugar. Es una paz frágil, a punto de romperse con el más mínimo error.<br><br>A partir de este momento, cada paso debe ser un pacto con el silencio. Todos los personajes deberán realizar una tirada de la acción "Tacite" para determinar si logran moverse con el sigilo absoluto que exige el entorno. Un solo crujido bajo la bota o un roce descuidado será suficiente para despertar un coro letal de resultados caóticos.</span>',
+        },
+        "dayflower garden": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir la puerta hacia los jardines",
+          "cont": '<span>A estas alturas, la definición de «jardín» resultaba un eufemismo ridículo; aquel lugar había mutado en un bosque tan hermoso como opresivo. Las inmensas hojas de las mandrágoras se retorcían y entrelazaban en lo alto, tejiendo un laberinto verde, carnoso y asfixiante que devoraba cualquier rastro de luz. A nivel del suelo, un estrecho camino serpenteaba como una víbora pálida, perdiéndose irremediablemente en un abismo de vegetación donde la vista ya no lograba penetrar.<br><br>Lo más inquietante aguardaba bajo sus suelas: un sendero de baldosas blancas, lisas y frías como huesos pulidos, que poseían la macabra cualidad de devorar el sonido. Cada pisada era atenuada hasta convertirse en un eco fantasmagórico. Lejos de brindar alivio, aquel silencio resultaba depredador; la propia tierra parecía tragar sus pasos para mantener la ilusión de calma, obligándolos a avanzar a ciegas sobre un abismo dormido.<br><br>Existen un total de 32 baldosas que deben pasarse hasta llegar al cobertizo. Una vez que lleguen al mismo, deberán advertir a la administración para que realice el correspondiente masteo.</span>',
+        },
+        "liberar a los dugbogs": {
+          "visible": { "attr": { "val": "min" }, "know": { "ccm": "5" }, "job": "invalid", "name": "invalid", }, "place": "dayflower garden",
+          "cont": '<span>Al ser liberados, los dugbogs se hundieron en el fango con voracidad, desatando una brutal carnicería botánica. El crujido de sus mandíbulas triturando las colosales mandrágoras ahogó los agónicos gemidos subterráneos de las raíces. El festín de las bestias forjaba, peldaño a peldaño, un sendero seguro de piedra blanca que les abría paso hacia el corazón del jardín.<br><br>Adiciona +1 en el avance de las baldosas.</span>',
+        },
+        "inspeccionar el suelo": {
+          "visible": { "attr": { "int": "3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "dayflower garden",
+          "cont": '<span>A un lado del sendero, varios contenedores oxidados resguardaban montículos de leña astillada. La madera, antinaturalmente seca en medio de la humedad del lugar, no era un simple vestigio. Se erguía como una clara advertencia: un indicio que advertía de un aliado para forjar un avance seguro a través de la pesadilla verde.</span>',
+        },
+        "escuchar el sonido del aire": {
+          "visible": { "attr": { "val": "min" }, "know": { "musica": "10" }, "job": "invalid", "name": "invalid", }, "place": "inspeccionar el suelo",
+          "cont": '<span>Si se afina el oído, la quietud opresiva oculta una vibración latente: un eco musical suspendido en la bruma. Aquellos leños astillados aguardan ser transmutados en instrumentos. Arrancarles la melodía correcta tejerá un manto acústico capaz de ahogar los pasos, sumiendo a las monstruosas mandrágoras en un letargo que garantice un avance silencioso y seguro.</span>',
+        },
+        "sentir las vibraciones de la tierra": {
+          "visible": { "attr": { "val": "min" }, "know": { "banshee": "5" }, "job": "invalid", "name": "invalid", }, "place": "dayflower garden",
+          "cont": '<span>Si una banshee apoya sus palmas sobre las gélidas baldosas, su conexión con el más allá le revelará dos verdades absolutas. Primero, el eco putrefacto de una tragedia: ese mismo sendero ya devoró una vida hace décadas. Segundo, una condena latente: la muerte reclamará una nueva alma si quiebran el silencio sepulcral que exige el jardín.</span>',
+        },
+      },
+      "actions": {
+
+      },
     },
     // fin the murmuring woods
 
