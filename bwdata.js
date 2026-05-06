@@ -2688,7 +2688,48 @@ const MissionsModule = (function () {
         },
       },
       "actions": {
-
+        "tacite": {
+          "leve": '<span>Un sonido revela la presencia. Las mandrágoras mueven sus hojas, pero aún parece una advertencia. Suma +1 al contador de advertencias. Al llegar a 3 deberán pedir intervención administrativa al despertar a las mismas.</span>',
+          "moderado": '<span>El avance torpe requiere quedarse donde están. Las mandrágoras no son advertidas, pero tampoco permite avanzar por el sendero.</span>',
+          "exitoso": '<span>Permite que el grupo avance 1 baldosa por el sendero.</span>',
+          "critico": '<span>Permite que el grupo avance 2 baldosas por el sendero.</span>',
+        },
+        "auris incantata": {
+          "leve": '<span>La música no es suficiente para calmar a las mandrágoras que se remueven en el sitio. Suma +1 al contador de advertencias. Al llegar a 3 deberán pedir intervención administrativa al despertar a las mismas.</span>',
+          "moderado": '<span>La música calma a las mandrágoras, permitiendo que el grupo avance +2 baldosas.</span>',
+          "exitoso": '<span>La música calma a las mandrágoras, permitiendo que el grupo avance +3 baldosas.</span>',
+          "critico": '<span>La música calma a las mandrágoras, permitiendo que el grupo avance +4 baldosas.</span>',
+        },
+        "melodia solaminis": {
+          "leve": '<span>La música no es suficiente para calmar a las mandrágoras que se remueven en el sitio. Suma +1 al contador de advertencias. Al llegar a 3 deberán pedir intervención administrativa al despertar a las mismas.</span>',
+          "moderado": '<span>La música calma a las mandrágoras, permitiendo que el grupo avance +2 baldosas.</span>',
+          "exitoso": '<span>La música calma a las mandrágoras, permitiendo que el grupo avance +3 baldosas.</span>',
+          "critico": '<span>La música calma a las mandrágoras, permitiendo que el grupo avance +4 baldosas.</span>',
+        },
+        "instrumentarius arcanus": {
+          "leve": '<span>La música no es suficiente para calmar a las mandrágoras que se remueven en el sitio. Suma +1 al contador de advertencias. Al llegar a 3 deberán pedir intervención administrativa al despertar a las mismas.</span>',
+          "moderado": '<span>La música calma a las mandrágoras, permitiendo que el grupo avance +3 baldosas.</span>',
+          "exitoso": '<span>La música calma a las mandrágoras, permitiendo que el grupo avance +4 baldosas.</span>',
+          "critico": '<span>La música calma a las mandrágoras, permitiendo que el grupo avance +5 baldosas.</span>',
+        },
+        "concentus incantatus": {
+          "leve": '<span>La música no es suficiente para calmar a las mandrágoras que se remueven en el sitio. Suma +1 al contador de advertencias. Al llegar a 3 deberán pedir intervención administrativa al despertar a las mismas.</span>',
+          "moderado": '<span>La música calma a las mandrágoras, permitiendo que el grupo avance +3 baldosas.</span>',
+          "exitoso": '<span>La música calma a las mandrágoras, permitiendo que el grupo avance +4 baldosas.</span>',
+          "critico": '<span>La música calma a las mandrágoras, permitiendo que el grupo avance +5 baldosas.</span>',
+        },
+        "harmonia universalis": {
+          "leve": '<span>La música no es suficiente para calmar a las mandrágoras que se remueven en el sitio. Suma +1 al contador de advertencias. Al llegar a 3 deberán pedir intervención administrativa al despertar a las mismas.</span>',
+          "moderado": '<span>La música calma a las mandrágoras, permitiendo que el grupo avance +4 baldosas.</span>',
+          "exitoso": '<span>La música calma a las mandrágoras, permitiendo que el grupo avance +5 baldosas.</span>',
+          "critico": '<span>La música calma a las mandrágoras, permitiendo que el grupo avance +6 baldosas.</span>',
+        },
+        "vox tenebris": {
+          "leve": '<span>La música no es suficiente para calmar a las mandrágoras que se remueven en el sitio. Suma +1 al contador de advertencias. Al llegar a 3 deberán pedir intervención administrativa al despertar a las mismas.</span>',
+          "moderado": '<span>La música calma a las mandrágoras, permitiendo que el grupo avance +3 baldosas.</span>',
+          "exitoso": '<span>La música calma a las mandrágoras, permitiendo que el grupo avance +4 baldosas.</span>',
+          "critico": '<span>La música calma a las mandrágoras, permitiendo que el grupo avance +5 baldosas.</span>',
+        },
       },
     },
     // fin the murmuring woods
