@@ -1471,7 +1471,7 @@ const MissionsModule = (function () {
     "gilded herb": {
       "description": "Siguiendo el rastro de Manufacturas Dempsey, deberán ingresar en el lugar donde se generan las bebidas para The Maroon Steed para identificar qué poseían las bebidas del lugar. Irrumpir en el lugar solo buscará respuestas que pueden convertirse en nuevas preguntas.",
       "image": "https://2img.net/i.imgur.com/CzU2l87.png", "requisitos": ["Un integrante tiene que tener Herbología en Avanzado"],
-      "users": [],
+      "users": ["/u78"],
       "dependency": ["moth to a flame", "potions for all the afflictions"], "tagged": ["morgana", "capitulo 0"],
       "type": "misión", "closed": false, "link": "",
 
