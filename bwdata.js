@@ -2232,7 +2232,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/xPVXOxC.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica"],
       "users": ["i/u108", "/u156", "/u8"],
       "dependency": ["the withered pot"],
-      "type": "interrogatorio", "closed": false, "link": "/t1110-interrogatorio-the-lupine-killer", "tagged": ["sirius", "capitulo 0"],
+      "type": "interrogatorio", "closed": true, "link": "/t1110-interrogatorio-the-lupine-killer", "tagged": ["sirius", "capitulo 0"],
 
       "cards": [],
       "searchs": {},
@@ -2646,7 +2646,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/VMpvsfT.png", "requisitos": ["Un miembro debe ser de la familia Merrythought", "Un miembro debe tener Herbología en Avanzado", "Un miembro debe tener Encantamientos en Consagrado", "Se recomienda que un miembro posea Música en Principiante o una hija de Banshees"],
       "users": ["/u55","/u159","/u149","/u150","/u13","/u138"],
       "dependency": ["bottle of sorrows", "muted magic", "stargazer's night"], "tagged": ["morgana", "edwin", "capitulo 0"],
-      "type": "misión", "closed": false, "link": "",
+      "type": "misión", "closed": false, "link": "https://blackwave.foroactivo.com/t1205-mision-the-murmuring-woods",
 
       "cards": [],
       "searchs": {
@@ -4630,7 +4630,7 @@ const MissionsModule = (function () {
       "image": "https://i.imgur.com/4EJznhF.png", "requisitos": ["Un personaje deberá ser miembro del Departamento de Seguridad", "Un personaje deberá saber hablar Frances (debe estar especificado en la ficha)"],
       "users": ["c/u8", "/u7", "/u91", "/u110"],
       "dependency": ["paper mask", "midnight ashes"],
-      "type": "interrogatorio", "closed": false, "link": "/t1108-interrogatorio-licking-salted-wounds", "tagged": ["original", "capitulo 3"],
+      "type": "interrogatorio", "closed": true, "link": "/t1108-interrogatorio-licking-salted-wounds", "tagged": ["original", "capitulo 3"],
 
       "cards": [
         {
