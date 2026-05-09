@@ -8038,11 +8038,11 @@ const MissionsModule = (function () {
         },
         "desafío #10": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #09",
-            "cont": '<span>Haber realizado 25 hechizos diferentes que sean "Principiantes".</span>',
+            "cont": '<span>Haber realizado 25 hechizos diferentes que sean "Principiantes" y el resultado sea entre Leve y Crítico.</span>',
         },
         "desafío #11": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #10",
-            "cont": '<span>Realizar 100 roles posteriores a la publicación del desafío #7.</span>',
+            "cont": '<span>Haber descubierto 10 PNJ, Libros, Pociones o Lugares de Interés.</span>',
         },
         "desafío #12": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #11",
@@ -8054,15 +8054,15 @@ const MissionsModule = (function () {
         },
         "desafío #14": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #13",
-            "cont": '<span>Haber completado 15 eventos.</span>',
+            "cont": '<span>Haber completado 15 eventos. Los temas deben ser diferentes.</span>',
         },
         "desafío #15": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #14",
-            "cont": '<span>Haber realizado 15 hechizos diferentes que sean "Avanzados".</span>',
+            "cont": '<span>Haber realizado 15 hechizos diferentes que sean "Avanzados" y el resultado sea entre Leve y Crítico.</span>',
         },
         "desafío #16": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #15",
-            "cont": '<span>Realizar 125 roles posteriores a la publicación del desafío #12.</span>',
+            "cont": '<span>Realizar 90 roles posteriores a la publicación del desafío #7.</span>',
         },
         "desafío #17": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #16",
@@ -8078,23 +8078,23 @@ const MissionsModule = (function () {
         },
         "desafío #20": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #19",
-            "cont": '<span>Haber realizado 10 hechizos diferentes que sean "Consagrado".</span>',
+            "cont": '<span>Haber realizado 10 hechizos diferentes que sean "Consagrado" y el resultado sea entre Leve y Crítico.</span>',
         },
         "desafío #21": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #20",
-            "cont": '<span>Realizar 150 roles posteriores a la publicación del desafío #17.</span>',
+            "cont": '<span>Haber gastado 10k en la tienda. Puede presentarse de evidencia el baúl.</span>',
         },
         "desafío #22": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #21",
-            "cont": '<span>Haber realizado 5 hechizos diferentes que sean "Maestro".</span>',
+            "cont": '<span>Haber realizado 5 hechizos diferentes que sean "Maestro" y el resultado sea entre Leve y Crítico.</span>',
         },
         "desafío #23": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #22",
-            "cont": '<span>Haber gastado 10k en la tienda. Puede presentarse de evidencia el baúl.</span>',
+            "cont": '<span>Realizar 100 roles posteriores a la publicación del desafío #17.</span>',
         },
         "desafío #24": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #23",
-            "cont": '<span>Haber realizado 2 hechizos diferentes que sean "Eminencia".</span>',
+            "cont": '<span>Haber realizado 2 hechizos diferentes que sean "Eminencia" y el resultado sea entre Leve y Crítico.</span>',
         },
         "desafío #25": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #24",
