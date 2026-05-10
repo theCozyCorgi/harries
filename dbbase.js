@@ -77690,6 +77690,10 @@ const DBModule = (function () {
             }
         },
 
+        getUpdateMessage: function() {
+            return '<div class="updateDB"><span class="update-message"></span><div class="update-button"><i class="fa-jelly-duo fa-regular fa-arrow-rotate-right"></i></div></div>';
+        },
+
         init: async function () {
             Object.keys(localStorage).forEach(key => {
                 if (key.startsWith('blackwave_') && key !== CACHE_KEY) {
