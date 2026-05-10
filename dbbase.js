@@ -49972,6 +49972,344 @@ const DBModule = (function () {
             "date": "14/02/1953",
             "location": "La escama plateada"
         },
+        "971": {
+            "space": "el pensadero",
+            "url": "/t971-1953-02-01-no-des-puntadas-sin-hilo",
+            "simpleTitle": "no des puntadas sin hilo",
+            "creator": "Montgomery Thatch",
+            "posts": [
+                {
+                    "url": "r13086",
+                    "author": "Montgomery Thatch",
+                    "date": "12/02/2026",
+                    "words": 222
+                },
+                {
+                    "url": "r14053",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "27/02/2026",
+                    "words": 425
+                },
+                {
+                    "url": "r14054",
+                    "author": "The Familiars",
+                    "date": "27/02/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r14236",
+                    "author": "Montgomery Thatch",
+                    "date": "02/03/2026",
+                    "words": 238
+                },
+                {
+                    "url": "r14639",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "08/03/2026",
+                    "words": 319
+                },
+                {
+                    "url": "r14654",
+                    "author": "Montgomery Thatch",
+                    "date": "09/03/2026",
+                    "words": 477
+                },
+                {
+                    "url": "r15668",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "28/03/2026",
+                    "words": 354
+                },
+                {
+                    "url": "r15669",
+                    "author": "The Familiars",
+                    "date": "28/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r15735",
+                    "author": "Montgomery Thatch",
+                    "date": "29/03/2026",
+                    "words": 365
+                },
+                {
+                    "url": "r15736",
+                    "author": "The Familiars",
+                    "date": "29/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16212",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "07/04/2026",
+                    "words": 406
+                },
+                {
+                    "url": "r16219",
+                    "author": "Montgomery Thatch",
+                    "date": "07/04/2026",
+                    "words": 519
+                },
+                {
+                    "url": "r16220",
+                    "author": "The Familiars",
+                    "date": "07/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16292",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "09/04/2026",
+                    "words": 440
+                },
+                {
+                    "url": "r16347",
+                    "author": "Montgomery Thatch",
+                    "date": "11/04/2026",
+                    "words": 279
+                },
+                {
+                    "url": "r16348",
+                    "author": "The Familiars",
+                    "date": "11/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16773",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "20/04/2026",
+                    "words": 578
+                },
+                {
+                    "url": "r16852",
+                    "author": "Montgomery Thatch",
+                    "date": "22/04/2026",
+                    "words": 546
+                },
+                {
+                    "url": "r16853",
+                    "author": "The Familiars",
+                    "date": "22/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r17125",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "29/04/2026",
+                    "words": 434
+                },
+                {
+                    "url": "r13086",
+                    "author": "Montgomery Thatch",
+                    "date": "12/02/2026",
+                    "words": 222
+                },
+                {
+                    "url": "r17126",
+                    "author": "The Familiars",
+                    "date": "29/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r17152",
+                    "author": "Montgomery Thatch",
+                    "date": "30/04/2026",
+                    "words": 480
+                },
+                {
+                    "url": "r17153",
+                    "author": "The Familiars",
+                    "date": "30/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r17604",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "04/05/2026",
+                    "words": 388
+                },
+                {
+                    "url": "r17618",
+                    "author": "Montgomery Thatch",
+                    "date": "04/05/2026",
+                    "words": 245
+                }
+            ],
+            "date": "01/02/1953",
+            "location": "Sala Común de Hufflepuff"
+        },
+        "973": {
+            "space": "el pensadero",
+            "url": "/t973-1953-02-11-practica-sailor-song",
+            "simpleTitle": "práctica - sailor song",
+            "creator": "H. Shun Parkinson",
+            "posts": [
+                {
+                    "url": "r13148",
+                    "author": "H. Shun Parkinson",
+                    "date": "13/02/2026",
+                    "words": 206
+                },
+                {
+                    "url": "r13210",
+                    "author": "Alastor Moody",
+                    "date": "15/02/2026",
+                    "words": 309
+                },
+                {
+                    "url": "r13969",
+                    "author": "H. Shun Parkinson",
+                    "date": "26/02/2026",
+                    "words": 277
+                },
+                {
+                    "url": "r14132",
+                    "author": "Alastor Moody",
+                    "date": "28/02/2026",
+                    "words": 255
+                },
+                {
+                    "url": "r14133",
+                    "author": "The Familiars",
+                    "date": "28/02/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r14226",
+                    "author": "H. Shun Parkinson",
+                    "date": "02/03/2026",
+                    "words": 292
+                },
+                {
+                    "url": "r14227",
+                    "author": "The Familiars",
+                    "date": "02/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r14381",
+                    "author": "Alastor Moody",
+                    "date": "03/03/2026",
+                    "words": 206
+                },
+                {
+                    "url": "r14382",
+                    "author": "The Familiars",
+                    "date": "03/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r14982",
+                    "author": "H. Shun Parkinson",
+                    "date": "15/03/2026",
+                    "words": 399
+                },
+                {
+                    "url": "r14983",
+                    "author": "The Familiars",
+                    "date": "15/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r15341",
+                    "author": "Alastor Moody",
+                    "date": "23/03/2026",
+                    "words": 482
+                },
+                {
+                    "url": "r15342",
+                    "author": "The Familiars",
+                    "date": "23/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r15627",
+                    "author": "H. Shun Parkinson",
+                    "date": "27/03/2026",
+                    "words": 336
+                },
+                {
+                    "url": "r15628",
+                    "author": "The Familiars",
+                    "date": "27/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r15805",
+                    "author": "Alastor Moody",
+                    "date": "30/03/2026",
+                    "words": 250
+                },
+                {
+                    "url": "r15806",
+                    "author": "The Familiars",
+                    "date": "30/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16146",
+                    "author": "H. Shun Parkinson",
+                    "date": "06/04/2026",
+                    "words": 350
+                },
+                {
+                    "url": "r16147",
+                    "author": "The Familiars",
+                    "date": "06/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16165",
+                    "author": "Alastor Moody",
+                    "date": "06/04/2026",
+                    "words": 297
+                },
+                {
+                    "url": "r13148",
+                    "author": "H. Shun Parkinson",
+                    "date": "13/02/2026",
+                    "words": 206
+                },
+                {
+                    "url": "r16664",
+                    "author": "H. Shun Parkinson",
+                    "date": "19/04/2026",
+                    "words": 319
+                },
+                {
+                    "url": "r16691",
+                    "author": "Alastor Moody",
+                    "date": "19/04/2026",
+                    "words": 236
+                },
+                {
+                    "url": "r17107",
+                    "author": "H. Shun Parkinson",
+                    "date": "29/04/2026",
+                    "words": 245
+                },
+                {
+                    "url": "r17284",
+                    "author": "Alastor Moody",
+                    "date": "01/05/2026",
+                    "words": 456
+                },
+                {
+                    "url": "r17873",
+                    "author": "H. Shun Parkinson",
+                    "date": "08/05/2026",
+                    "words": 357
+                },
+                {
+                    "url": "r18061",
+                    "author": "Alastor Moody",
+                    "date": "Ayer a las 12:38",
+                    "words": 265
+                }
+            ],
+            "date": "11/02/1953",
+            "location": "Casa de Alas y Shun"
+        },
         "979": {
             "space": "el pensadero",
             "url": "/t979-1953-02-11-practica-from-coal-to-diamonds",
@@ -53308,6 +53646,130 @@ const DBModule = (function () {
             "date": "17/02/1953",
             "location": "Segunda planta: enfermedades mágicas"
         },
+        "1064": {
+            "space": "el pensadero",
+            "url": "/t1064-1953-02-05-caricias-al-alma",
+            "simpleTitle": "caricias al alma",
+            "creator": "Alastor Moody",
+            "posts": [
+                {
+                    "url": "r14560",
+                    "author": "Alastor Moody",
+                    "date": "06/03/2026",
+                    "words": 188
+                },
+                {
+                    "url": "r14585",
+                    "author": "Margareth T. Moody",
+                    "date": "07/03/2026",
+                    "words": 265
+                },
+                {
+                    "url": "r14647",
+                    "author": "Alastor Moody",
+                    "date": "09/03/2026",
+                    "words": 592
+                },
+                {
+                    "url": "r15144",
+                    "author": "Margareth T. Moody",
+                    "date": "18/03/2026",
+                    "words": 442
+                },
+                {
+                    "url": "r15215",
+                    "author": "Alastor Moody",
+                    "date": "19/03/2026",
+                    "words": 574
+                },
+                {
+                    "url": "r15435",
+                    "author": "Margareth T. Moody",
+                    "date": "25/03/2026",
+                    "words": 396
+                },
+                {
+                    "url": "r15789",
+                    "author": "Alastor Moody",
+                    "date": "30/03/2026",
+                    "words": 485
+                },
+                {
+                    "url": "r16100",
+                    "author": "Margareth T. Moody",
+                    "date": "04/04/2026",
+                    "words": 407
+                },
+                {
+                    "url": "r16154",
+                    "author": "Alastor Moody",
+                    "date": "06/04/2026",
+                    "words": 471
+                },
+                {
+                    "url": "r16573",
+                    "author": "Margareth T. Moody",
+                    "date": "16/04/2026",
+                    "words": 355
+                },
+                {
+                    "url": "r16574",
+                    "author": "The Familiars",
+                    "date": "16/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16582",
+                    "author": "Alastor Moody",
+                    "date": "16/04/2026",
+                    "words": 247
+                },
+                {
+                    "url": "r17018",
+                    "author": "Margareth T. Moody",
+                    "date": "27/04/2026",
+                    "words": 317
+                },
+                {
+                    "url": "r17072",
+                    "author": "Alastor Moody",
+                    "date": "28/04/2026",
+                    "words": 238
+                },
+                {
+                    "url": "r17073",
+                    "author": "The Familiars",
+                    "date": "28/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r17658",
+                    "author": "Margareth T. Moody",
+                    "date": "05/05/2026",
+                    "words": 314
+                },
+                {
+                    "url": "r17659",
+                    "author": "The Familiars",
+                    "date": "05/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r18008",
+                    "author": "Alastor Moody",
+                    "date": "Ayer a las 1:01",
+                    "words": 170
+                },
+                {
+                    "url": "r18009",
+                    "author": "The Familiars",
+                    "date": "Ayer a las 1:01",
+                    "words": 0
+                }
+            ],
+            "date": "05/02/1953",
+            "location": "San Mungo"
+        },
         "1069": {
             "space": "el pensadero",
             "url": "/t1069-1953-02-23-practica-como-cometa-al-viento",
@@ -54300,6 +54762,970 @@ const DBModule = (function () {
             "date": "19/02/1953",
             "location": "Club de Duelos"
         },
+        "1104": {
+            "space": "el pensadero",
+            "url": "/t1104-1953-02-23-quitate-la-mascara",
+            "simpleTitle": "quítate la máscara",
+            "creator": "Alastor Moody",
+            "posts": [
+                {
+                    "url": "r15160",
+                    "author": "Alastor Moody",
+                    "date": "18/03/2026",
+                    "words": 283
+                },
+                {
+                    "url": "r15340",
+                    "author": "Alastor Moody",
+                    "date": "23/03/2026",
+                    "words": 329
+                },
+                {
+                    "url": "r15372",
+                    "author": "Harmony M. Flynn",
+                    "date": "23/03/2026",
+                    "words": 388
+                },
+                {
+                    "url": "r15433",
+                    "author": "Margareth T. Moody",
+                    "date": "25/03/2026",
+                    "words": 298
+                },
+                {
+                    "url": "r15479",
+                    "author": "Invitado",
+                    "date": "26/03/2026",
+                    "words": 272
+                },
+                {
+                    "url": "r15794",
+                    "author": "Alastor Moody",
+                    "date": "30/03/2026",
+                    "words": 351
+                },
+                {
+                    "url": "r15796",
+                    "author": "Alastor Moody",
+                    "date": "30/03/2026",
+                    "words": 381
+                },
+                {
+                    "url": "r15995",
+                    "author": "Harmony M. Flynn",
+                    "date": "02/04/2026",
+                    "words": 226
+                },
+                {
+                    "url": "r16111",
+                    "author": "Margareth T. Moody",
+                    "date": "05/04/2026",
+                    "words": 210
+                },
+                {
+                    "url": "r16796",
+                    "author": "Alastor Moody",
+                    "date": "20/04/2026",
+                    "words": 218
+                },
+                {
+                    "url": "r16797",
+                    "author": "Alastor Moody",
+                    "date": "20/04/2026",
+                    "words": 274
+                },
+                {
+                    "url": "r17080",
+                    "author": "Harmony M. Flynn",
+                    "date": "28/04/2026",
+                    "words": 280
+                },
+                {
+                    "url": "r17100",
+                    "author": "Margareth T. Moody",
+                    "date": "29/04/2026",
+                    "words": 300
+                },
+                {
+                    "url": "r17175",
+                    "author": "Alastor Moody",
+                    "date": "30/04/2026",
+                    "words": 424
+                },
+                {
+                    "url": "r17274",
+                    "author": "Alastor Moody",
+                    "date": "01/05/2026",
+                    "words": 377
+                },
+                {
+                    "url": "r17470",
+                    "author": "Harmony M. Flynn",
+                    "date": "03/05/2026",
+                    "words": 308
+                },
+                {
+                    "url": "r18010",
+                    "author": "Margareth T. Moody",
+                    "date": "Ayer a las 1:21",
+                    "words": 283
+                },
+                {
+                    "url": "r18011",
+                    "author": "The Familiars",
+                    "date": "Ayer a las 1:21",
+                    "words": 0
+                },
+                {
+                    "url": "r18072",
+                    "author": "Alastor Moody",
+                    "date": "Ayer a las 16:44",
+                    "words": 384
+                }
+            ],
+            "date": "23/02/1953",
+            "location": "hogar de Cassius y Harmony"
+        },
+        "1108": {
+            "space": "el pensadero",
+            "url": "/t1108-1953-02-25-interrogatorio-licking-salted-wounds",
+            "simpleTitle": "interrogatorio: licking salted wounds",
+            "creator": "Black Wave",
+            "posts": [
+                {
+                    "url": "r15292",
+                    "author": "Black Wave",
+                    "date": "22/03/2026",
+                    "words": 214
+                },
+                {
+                    "url": "r15333",
+                    "author": "Kaoru Satoo",
+                    "date": "23/03/2026",
+                    "words": 216
+                },
+                {
+                    "url": "r15337",
+                    "author": "Alastor Moody",
+                    "date": "23/03/2026",
+                    "words": 403
+                },
+                {
+                    "url": "r15361",
+                    "author": "Hermes Rosier",
+                    "date": "23/03/2026",
+                    "words": 290
+                },
+                {
+                    "url": "r15362",
+                    "author": "The Familiars",
+                    "date": "23/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r15748",
+                    "author": "Valerian",
+                    "date": "29/03/2026",
+                    "words": 227
+                },
+                {
+                    "url": "r15812",
+                    "author": "Kaoru Satoo",
+                    "date": "31/03/2026",
+                    "words": 193
+                },
+                {
+                    "url": "r16038",
+                    "author": "Alastor Moody",
+                    "date": "02/04/2026",
+                    "words": 183
+                },
+                {
+                    "url": "r16081",
+                    "author": "Hermes Rosier",
+                    "date": "03/04/2026",
+                    "words": 263
+                },
+                {
+                    "url": "r16177",
+                    "author": "Valerian",
+                    "date": "07/04/2026",
+                    "words": 368
+                },
+                {
+                    "url": "r16272",
+                    "author": "Kaoru Satoo",
+                    "date": "09/04/2026",
+                    "words": 200
+                },
+                {
+                    "url": "r16291",
+                    "author": "Alastor Moody",
+                    "date": "09/04/2026",
+                    "words": 241
+                },
+                {
+                    "url": "r16293",
+                    "author": "Hermes Rosier",
+                    "date": "09/04/2026",
+                    "words": 291
+                },
+                {
+                    "url": "r16400",
+                    "author": "Valerian",
+                    "date": "13/04/2026",
+                    "words": 325
+                },
+                {
+                    "url": "r16592",
+                    "author": "Kaoru Satoo",
+                    "date": "17/04/2026",
+                    "words": 221
+                },
+                {
+                    "url": "r16616",
+                    "author": "Alastor Moody",
+                    "date": "17/04/2026",
+                    "words": 190
+                },
+                {
+                    "url": "r16706",
+                    "author": "Hermes Rosier",
+                    "date": "19/04/2026",
+                    "words": 232
+                },
+                {
+                    "url": "r16731",
+                    "author": "Valerian",
+                    "date": "20/04/2026",
+                    "words": 609
+                },
+                {
+                    "url": "r16859",
+                    "author": "Kaoru Satoo",
+                    "date": "22/04/2026",
+                    "words": 218
+                },
+                {
+                    "url": "r16883",
+                    "author": "Alastor Moody",
+                    "date": "23/04/2026",
+                    "words": 282
+                },
+                {
+                    "url": "r15292",
+                    "author": "Black Wave",
+                    "date": "22/03/2026",
+                    "words": 214
+                },
+                {
+                    "url": "r16912",
+                    "author": "Hermes Rosier",
+                    "date": "24/04/2026",
+                    "words": 290
+                },
+                {
+                    "url": "r16970",
+                    "author": "Valerian",
+                    "date": "26/04/2026",
+                    "words": 674
+                },
+                {
+                    "url": "r17021",
+                    "author": "Kaoru Satoo",
+                    "date": "27/04/2026",
+                    "words": 248
+                },
+                {
+                    "url": "r17041",
+                    "author": "Alastor Moody",
+                    "date": "27/04/2026",
+                    "words": 437
+                },
+                {
+                    "url": "r17062",
+                    "author": "Hermes Rosier",
+                    "date": "28/04/2026",
+                    "words": 311
+                },
+                {
+                    "url": "r17063",
+                    "author": "The Familiars",
+                    "date": "28/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r17533",
+                    "author": "Valerian",
+                    "date": "04/05/2026",
+                    "words": 564
+                },
+                {
+                    "url": "r17649",
+                    "author": "Kaoru Satoo",
+                    "date": "05/05/2026",
+                    "words": 261
+                },
+                {
+                    "url": "r17663",
+                    "author": "Alastor Moody",
+                    "date": "05/05/2026",
+                    "words": 540
+                },
+                {
+                    "url": "r17817",
+                    "author": "Hermes Rosier",
+                    "date": "07/05/2026",
+                    "words": 319
+                },
+                {
+                    "url": "r17841",
+                    "author": "Black Wave",
+                    "date": "08/05/2026",
+                    "words": 77
+                }
+            ],
+            "date": "25/02/1953",
+            "location": "Departamento de Hadiya"
+        },
+        "1109": {
+            "space": "el pensadero",
+            "url": "/t1109-1953-02-28-mision-the-mercy-of-death",
+            "simpleTitle": "misión: the mercy of death",
+            "creator": "Black Wave",
+            "posts": [
+                {
+                    "url": "r15293",
+                    "author": "Black Wave",
+                    "date": "22/03/2026",
+                    "words": 170
+                },
+                {
+                    "url": "r15313",
+                    "author": "H. Shun Parkinson",
+                    "date": "23/03/2026",
+                    "words": 220
+                },
+                {
+                    "url": "r15314",
+                    "author": "The Familiars",
+                    "date": "23/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r15334",
+                    "author": "Gavril A. Ollivander",
+                    "date": "23/03/2026",
+                    "words": 221
+                },
+                {
+                    "url": "r15335",
+                    "author": "The Familiars",
+                    "date": "23/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r15338",
+                    "author": "Alastor Moody",
+                    "date": "23/03/2026",
+                    "words": 233
+                },
+                {
+                    "url": "r15339",
+                    "author": "The Familiars",
+                    "date": "23/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r15355",
+                    "author": "Cuthbert S. Selwyn",
+                    "date": "23/03/2026",
+                    "words": 221
+                },
+                {
+                    "url": "r15356",
+                    "author": "The Familiars",
+                    "date": "23/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r15369",
+                    "author": "Elysia G. Lestrange",
+                    "date": "23/03/2026",
+                    "words": 372
+                },
+                {
+                    "url": "r15370",
+                    "author": "The Familiars",
+                    "date": "23/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r15405",
+                    "author": "Jasper R. Gryffith",
+                    "date": "24/03/2026",
+                    "words": 288
+                },
+                {
+                    "url": "r15406",
+                    "author": "The Familiars",
+                    "date": "24/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r15548",
+                    "author": "H. Shun Parkinson",
+                    "date": "27/03/2026",
+                    "words": 241
+                },
+                {
+                    "url": "r15549",
+                    "author": "The Familiars",
+                    "date": "27/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r15565",
+                    "author": "Gavril A. Ollivander",
+                    "date": "27/03/2026",
+                    "words": 203
+                },
+                {
+                    "url": "r15566",
+                    "author": "The Familiars",
+                    "date": "27/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r15620",
+                    "author": "Alastor Moody",
+                    "date": "27/03/2026",
+                    "words": 243
+                },
+                {
+                    "url": "r15621",
+                    "author": "The Familiars",
+                    "date": "27/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r15775",
+                    "author": "Cuthbert S. Selwyn",
+                    "date": "30/03/2026",
+                    "words": 187
+                },
+                {
+                    "url": "r15293",
+                    "author": "Black Wave",
+                    "date": "22/03/2026",
+                    "words": 170
+                },
+                {
+                    "url": "r15776",
+                    "author": "The Familiars",
+                    "date": "30/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r15792",
+                    "author": "Elysia G. Lestrange",
+                    "date": "30/03/2026",
+                    "words": 248
+                },
+                {
+                    "url": "r15793",
+                    "author": "The Familiars",
+                    "date": "30/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r15885",
+                    "author": "Jasper R. Gryffith",
+                    "date": "31/03/2026",
+                    "words": 229
+                },
+                {
+                    "url": "r15886",
+                    "author": "The Familiars",
+                    "date": "31/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16055",
+                    "author": "H. Shun Parkinson",
+                    "date": "02/04/2026",
+                    "words": 227
+                },
+                {
+                    "url": "r16056",
+                    "author": "The Familiars",
+                    "date": "02/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16065",
+                    "author": "Gavril A. Ollivander",
+                    "date": "02/04/2026",
+                    "words": 221
+                },
+                {
+                    "url": "r16066",
+                    "author": "The Familiars",
+                    "date": "02/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16088",
+                    "author": "Alastor Moody",
+                    "date": "03/04/2026",
+                    "words": 230
+                },
+                {
+                    "url": "r16089",
+                    "author": "The Familiars",
+                    "date": "03/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16125",
+                    "author": "Cuthbert S. Selwyn",
+                    "date": "05/04/2026",
+                    "words": 155
+                },
+                {
+                    "url": "r16126",
+                    "author": "The Familiars",
+                    "date": "05/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16129",
+                    "author": "Elysia G. Lestrange",
+                    "date": "05/04/2026",
+                    "words": 356
+                },
+                {
+                    "url": "r16130",
+                    "author": "The Familiars",
+                    "date": "05/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16173",
+                    "author": "Valerian",
+                    "date": "07/04/2026",
+                    "words": 182
+                },
+                {
+                    "url": "r16189",
+                    "author": "Jasper R. Gryffith",
+                    "date": "07/04/2026",
+                    "words": 324
+                },
+                {
+                    "url": "r16190",
+                    "author": "The Familiars",
+                    "date": "07/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16201",
+                    "author": "H. Shun Parkinson",
+                    "date": "07/04/2026",
+                    "words": 274
+                },
+                {
+                    "url": "r16202",
+                    "author": "The Familiars",
+                    "date": "07/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r15293",
+                    "author": "Black Wave",
+                    "date": "22/03/2026",
+                    "words": 170
+                },
+                {
+                    "url": "r16273",
+                    "author": "Gavril A. Ollivander",
+                    "date": "09/04/2026",
+                    "words": 220
+                },
+                {
+                    "url": "r16274",
+                    "author": "The Familiars",
+                    "date": "09/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16294",
+                    "author": "Alastor Moody",
+                    "date": "09/04/2026",
+                    "words": 246
+                },
+                {
+                    "url": "r16295",
+                    "author": "The Familiars",
+                    "date": "09/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16325",
+                    "author": "Cuthbert S. Selwyn",
+                    "date": "10/04/2026",
+                    "words": 176
+                },
+                {
+                    "url": "r16326",
+                    "author": "The Familiars",
+                    "date": "10/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16331",
+                    "author": "Elysia G. Lestrange",
+                    "date": "10/04/2026",
+                    "words": 346
+                },
+                {
+                    "url": "r16332",
+                    "author": "The Familiars",
+                    "date": "10/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16369",
+                    "author": "Jasper R. Gryffith",
+                    "date": "12/04/2026",
+                    "words": 438
+                },
+                {
+                    "url": "r16370",
+                    "author": "The Familiars",
+                    "date": "12/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16379",
+                    "author": "H. Shun Parkinson",
+                    "date": "12/04/2026",
+                    "words": 366
+                },
+                {
+                    "url": "r16380",
+                    "author": "The Familiars",
+                    "date": "12/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16568",
+                    "author": "Gavril A. Ollivander",
+                    "date": "16/04/2026",
+                    "words": 232
+                },
+                {
+                    "url": "r16569",
+                    "author": "The Familiars",
+                    "date": "16/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16590",
+                    "author": "Alastor Moody",
+                    "date": "16/04/2026",
+                    "words": 397
+                },
+                {
+                    "url": "r16591",
+                    "author": "The Familiars",
+                    "date": "16/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16702",
+                    "author": "Cuthbert S. Selwyn",
+                    "date": "19/04/2026",
+                    "words": 236
+                },
+                {
+                    "url": "r16703",
+                    "author": "The Familiars",
+                    "date": "19/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16826",
+                    "author": "Elysia G. Lestrange",
+                    "date": "21/04/2026",
+                    "words": 268
+                },
+                {
+                    "url": "r16827",
+                    "author": "The Familiars",
+                    "date": "21/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r15293",
+                    "author": "Black Wave",
+                    "date": "22/03/2026",
+                    "words": 170
+                },
+                {
+                    "url": "r16881",
+                    "author": "Jasper R. Gryffith",
+                    "date": "23/04/2026",
+                    "words": 330
+                },
+                {
+                    "url": "r16882",
+                    "author": "The Familiars",
+                    "date": "23/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16892",
+                    "author": "H. Shun Parkinson",
+                    "date": "24/04/2026",
+                    "words": 244
+                },
+                {
+                    "url": "r16893",
+                    "author": "The Familiars",
+                    "date": "24/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16904",
+                    "author": "Gavril A. Ollivander",
+                    "date": "24/04/2026",
+                    "words": 198
+                },
+                {
+                    "url": "r16905",
+                    "author": "The Familiars",
+                    "date": "24/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16922",
+                    "author": "Alastor Moody",
+                    "date": "24/04/2026",
+                    "words": 527
+                },
+                {
+                    "url": "r16923",
+                    "author": "The Familiars",
+                    "date": "24/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r17164",
+                    "author": "Cuthbert S. Selwyn",
+                    "date": "30/04/2026",
+                    "words": 274
+                },
+                {
+                    "url": "r17165",
+                    "author": "The Familiars",
+                    "date": "30/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r17304",
+                    "author": "Elysia G. Lestrange",
+                    "date": "01/05/2026",
+                    "words": 379
+                },
+                {
+                    "url": "r17305",
+                    "author": "The Familiars",
+                    "date": "01/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r17395",
+                    "author": "Jasper R. Gryffith",
+                    "date": "02/05/2026",
+                    "words": 381
+                },
+                {
+                    "url": "r17396",
+                    "author": "The Familiars",
+                    "date": "02/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r17545",
+                    "author": "H. Shun Parkinson",
+                    "date": "04/05/2026",
+                    "words": 272
+                },
+                {
+                    "url": "r17546",
+                    "author": "The Familiars",
+                    "date": "04/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r17651",
+                    "author": "Gavril A. Ollivander",
+                    "date": "05/05/2026",
+                    "words": 204
+                },
+                {
+                    "url": "r17652",
+                    "author": "The Familiars",
+                    "date": "05/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r17669",
+                    "author": "Alastor Moody",
+                    "date": "05/05/2026",
+                    "words": 285
+                },
+                {
+                    "url": "r17710",
+                    "author": "Black Wave",
+                    "date": "06/05/2026",
+                    "words": 214
+                }
+            ],
+            "date": "28/02/1953",
+            "location": "Azkaban"
+        },
+        "1110": {
+            "space": "el pensadero",
+            "url": "/t1110-1953-02-26-interrogatorio-the-lupine-killer",
+            "simpleTitle": "interrogatorio: the lupine killer",
+            "creator": "Black Wave",
+            "posts": [
+                {
+                    "url": "r15294",
+                    "author": "Black Wave",
+                    "date": "22/03/2026",
+                    "words": 164
+                },
+                {
+                    "url": "r15324",
+                    "author": "Aidan N. Flamel",
+                    "date": "23/03/2026",
+                    "words": 238
+                },
+                {
+                    "url": "r15336",
+                    "author": "Alastor Moody",
+                    "date": "23/03/2026",
+                    "words": 245
+                },
+                {
+                    "url": "r15360",
+                    "author": "Uranus H. Merrythought",
+                    "date": "23/03/2026",
+                    "words": 255
+                },
+                {
+                    "url": "r15762",
+                    "author": "Aidan N. Flamel",
+                    "date": "30/03/2026",
+                    "words": 318
+                },
+                {
+                    "url": "r15771",
+                    "author": "Alastor Moody",
+                    "date": "30/03/2026",
+                    "words": 273
+                },
+                {
+                    "url": "r16102",
+                    "author": "Uranus H. Merrythought",
+                    "date": "04/04/2026",
+                    "words": 167
+                },
+                {
+                    "url": "r16406",
+                    "author": "Aidan N. Flamel",
+                    "date": "13/04/2026",
+                    "words": 363
+                },
+                {
+                    "url": "r16433",
+                    "author": "Alastor Moody",
+                    "date": "13/04/2026",
+                    "words": 346
+                },
+                {
+                    "url": "r16603",
+                    "author": "Uranus H. Merrythought",
+                    "date": "17/04/2026",
+                    "words": 323
+                },
+                {
+                    "url": "r16832",
+                    "author": "Aidan N. Flamel",
+                    "date": "22/04/2026",
+                    "words": 220
+                },
+                {
+                    "url": "r16837",
+                    "author": "Alastor Moody",
+                    "date": "22/04/2026",
+                    "words": 389
+                },
+                {
+                    "url": "r17053",
+                    "author": "Uranus H. Merrythought",
+                    "date": "27/04/2026",
+                    "words": 205
+                },
+                {
+                    "url": "r17093",
+                    "author": "Aidan N. Flamel",
+                    "date": "29/04/2026",
+                    "words": 319
+                },
+                {
+                    "url": "r17139",
+                    "author": "Alastor Moody",
+                    "date": "29/04/2026",
+                    "words": 153
+                },
+                {
+                    "url": "r17572",
+                    "author": "Uranus H. Merrythought",
+                    "date": "04/05/2026",
+                    "words": 228
+                },
+                {
+                    "url": "r17709",
+                    "author": "Aidan N. Flamel",
+                    "date": "06/05/2026",
+                    "words": 233
+                },
+                {
+                    "url": "r17812",
+                    "author": "Alastor Moody",
+                    "date": "07/05/2026",
+                    "words": 179
+                },
+                {
+                    "url": "r17828",
+                    "author": "Uranus H. Merrythought",
+                    "date": "07/05/2026",
+                    "words": 155
+                },
+                {
+                    "url": "r17840",
+                    "author": "Black Wave",
+                    "date": "08/05/2026",
+                    "words": 49
+                }
+            ],
+            "date": "26/02/1953",
+            "location": "Sala de Interrogatorios"
+        },
         "1124": {
             "space": "el pensadero",
             "url": "/t1124-1953-02-22-all-i-wanted",
@@ -54577,6 +56003,184 @@ const DBModule = (function () {
             ],
             "date": "04/04/1953",
             "location": "Exteriores de San Mungo"
+        },
+        "1160": {
+            "space": "el pensadero",
+            "url": "/t1160-1953-04-08-evento-futuros-lideres-thyra",
+            "simpleTitle": "evento: futuros líderes: thyra.",
+            "creator": "Black Wave",
+            "posts": [
+                {
+                    "url": "r16396",
+                    "author": "Black Wave",
+                    "date": "13/04/2026",
+                    "words": 305
+                },
+                {
+                    "url": "r16481",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "14/04/2026",
+                    "words": 223
+                },
+                {
+                    "url": "r16482",
+                    "author": "The Familiars",
+                    "date": "14/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16488",
+                    "author": "Uranus H. Merrythought",
+                    "date": "14/04/2026",
+                    "words": 350
+                },
+                {
+                    "url": "r16489",
+                    "author": "The Familiars",
+                    "date": "14/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16509",
+                    "author": "Elysia G. Lestrange",
+                    "date": "14/04/2026",
+                    "words": 323
+                },
+                {
+                    "url": "r16510",
+                    "author": "The Familiars",
+                    "date": "14/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16896",
+                    "author": "Thaddeus L. Nott",
+                    "date": "24/04/2026",
+                    "words": 176
+                },
+                {
+                    "url": "r16897",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "24/04/2026",
+                    "words": 162
+                },
+                {
+                    "url": "r16898",
+                    "author": "The Familiars",
+                    "date": "24/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r17064",
+                    "author": "Uranus H. Merrythought",
+                    "date": "28/04/2026",
+                    "words": 225
+                },
+                {
+                    "url": "r17065",
+                    "author": "The Familiars",
+                    "date": "28/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r17081",
+                    "author": "Elysia G. Lestrange",
+                    "date": "28/04/2026",
+                    "words": 198
+                },
+                {
+                    "url": "r17082",
+                    "author": "The Familiars",
+                    "date": "28/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r17096",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "29/04/2026",
+                    "words": 136
+                },
+                {
+                    "url": "r17097",
+                    "author": "The Familiars",
+                    "date": "29/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r17113",
+                    "author": "Uranus H. Merrythought",
+                    "date": "29/04/2026",
+                    "words": 186
+                },
+                {
+                    "url": "r17114",
+                    "author": "The Familiars",
+                    "date": "29/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r17471",
+                    "author": "Elysia G. Lestrange",
+                    "date": "03/05/2026",
+                    "words": 143
+                },
+                {
+                    "url": "r17472",
+                    "author": "The Familiars",
+                    "date": "03/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16396",
+                    "author": "Black Wave",
+                    "date": "13/04/2026",
+                    "words": 305
+                },
+                {
+                    "url": "r17697",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "06/05/2026",
+                    "words": 159
+                },
+                {
+                    "url": "r17698",
+                    "author": "The Familiars",
+                    "date": "06/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r17735",
+                    "author": "Uranus H. Merrythought",
+                    "date": "06/05/2026",
+                    "words": 176
+                },
+                {
+                    "url": "r17736",
+                    "author": "The Familiars",
+                    "date": "06/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r17743",
+                    "author": "Elysia G. Lestrange",
+                    "date": "06/05/2026",
+                    "words": 183
+                },
+                {
+                    "url": "r17744",
+                    "author": "The Familiars",
+                    "date": "06/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r17839",
+                    "author": "Black Wave",
+                    "date": "08/05/2026",
+                    "words": 55
+                }
+            ],
+            "date": "08/04/1953",
+            "location": "Hogsmeade"
         }
     };
     const hardcodedDices = [
@@ -77338,6 +78942,735 @@ const DBModule = (function () {
             "url": "r15255",
             "simpleTitle": "not a michellin star",
             "space": "el pensadero"
+        },
+        {
+            "pitcher": "Vasilisa M. Kuznetzova",
+            "spread": [
+                12,
+                8,
+                18,
+                3
+            ],
+            "url": "r16482",
+            "simpleTitle": "evento: futuros líderes: thyra.",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Uranus H. Merrythought",
+            "spread": [
+                19,
+                6,
+                10,
+                3
+            ],
+            "url": "r16489",
+            "simpleTitle": "evento: futuros líderes: thyra.",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Elysia G. Lestrange",
+            "spread": [
+                6,
+                12,
+                11,
+                20
+            ],
+            "url": "r16510",
+            "simpleTitle": "evento: futuros líderes: thyra.",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Vasilisa M. Kuznetzova",
+            "spread": [
+                15,
+                1,
+                11,
+                8
+            ],
+            "url": "r16898",
+            "simpleTitle": "evento: futuros líderes: thyra.",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Uranus H. Merrythought",
+            "spread": [
+                17,
+                16,
+                18,
+                7
+            ],
+            "url": "r17065",
+            "simpleTitle": "evento: futuros líderes: thyra.",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Elysia G. Lestrange",
+            "spread": [
+                9,
+                7,
+                2,
+                12
+            ],
+            "url": "r17082",
+            "simpleTitle": "evento: futuros líderes: thyra.",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Vasilisa M. Kuznetzova",
+            "spread": [
+                7,
+                12,
+                15,
+                19
+            ],
+            "url": "r17097",
+            "simpleTitle": "evento: futuros líderes: thyra.",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Uranus H. Merrythought",
+            "spread": [
+                6,
+                11,
+                14,
+                8
+            ],
+            "url": "r17114",
+            "simpleTitle": "evento: futuros líderes: thyra.",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Elysia G. Lestrange",
+            "spread": [
+                11,
+                7,
+                1,
+                3
+            ],
+            "url": "r17472",
+            "simpleTitle": "evento: futuros líderes: thyra.",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Vasilisa M. Kuznetzova",
+            "spread": [
+                5,
+                14,
+                14
+            ],
+            "url": "r17698",
+            "simpleTitle": "evento: futuros líderes: thyra.",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Uranus H. Merrythought",
+            "spread": [
+                2,
+                15,
+                16
+            ],
+            "url": "r17736",
+            "simpleTitle": "evento: futuros líderes: thyra.",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Elysia G. Lestrange",
+            "spread": [
+                9,
+                7,
+                4,
+                2
+            ],
+            "url": "r17744",
+            "simpleTitle": "evento: futuros líderes: thyra.",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                8,
+                14
+            ],
+            "url": "r15314",
+            "simpleTitle": "misión: the mercy of death",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Gavril A. Ollivander",
+            "spread": [
+                14
+            ],
+            "url": "r15335",
+            "simpleTitle": "misión: the mercy of death",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                14,
+                20
+            ],
+            "url": "r15339",
+            "simpleTitle": "misión: the mercy of death",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Cuthbert S. Selwyn",
+            "spread": [
+                7,
+                10
+            ],
+            "url": "r15356",
+            "simpleTitle": "misión: the mercy of death",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Elysia G. Lestrange",
+            "spread": [
+                15,
+                13
+            ],
+            "url": "r15370",
+            "simpleTitle": "misión: the mercy of death",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jasper R. Gryffith",
+            "spread": [
+                4,
+                12
+            ],
+            "url": "r15406",
+            "simpleTitle": "misión: the mercy of death",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                2,
+                16
+            ],
+            "url": "r15549",
+            "simpleTitle": "misión: the mercy of death",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Gavril A. Ollivander",
+            "spread": [
+                18,
+                15
+            ],
+            "url": "r15566",
+            "simpleTitle": "misión: the mercy of death",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                3,
+                16
+            ],
+            "url": "r15621",
+            "simpleTitle": "misión: the mercy of death",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Cuthbert S. Selwyn",
+            "spread": [
+                1,
+                12
+            ],
+            "url": "r15776",
+            "simpleTitle": "misión: the mercy of death",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Elysia G. Lestrange",
+            "spread": [
+                4,
+                7
+            ],
+            "url": "r15793",
+            "simpleTitle": "misión: the mercy of death",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jasper R. Gryffith",
+            "spread": [
+                9,
+                14
+            ],
+            "url": "r15886",
+            "simpleTitle": "misión: the mercy of death",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                13,
+                14
+            ],
+            "url": "r16056",
+            "simpleTitle": "misión: the mercy of death",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Gavril A. Ollivander",
+            "spread": [
+                5,
+                19
+            ],
+            "url": "r16066",
+            "simpleTitle": "misión: the mercy of death",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                13,
+                14
+            ],
+            "url": "r16089",
+            "simpleTitle": "misión: the mercy of death",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Cuthbert S. Selwyn",
+            "spread": [
+                19,
+                2
+            ],
+            "url": "r16126",
+            "simpleTitle": "misión: the mercy of death",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Elysia G. Lestrange",
+            "spread": [
+                4,
+                18
+            ],
+            "url": "r16130",
+            "simpleTitle": "misión: the mercy of death",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jasper R. Gryffith",
+            "spread": [
+                15,
+                5
+            ],
+            "url": "r16190",
+            "simpleTitle": "misión: the mercy of death",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                10,
+                19
+            ],
+            "url": "r16202",
+            "simpleTitle": "misión: the mercy of death",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Gavril A. Ollivander",
+            "spread": [
+                16,
+                6
+            ],
+            "url": "r16274",
+            "simpleTitle": "misión: the mercy of death",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                5,
+                5
+            ],
+            "url": "r16295",
+            "simpleTitle": "misión: the mercy of death",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Cuthbert S. Selwyn",
+            "spread": [
+                8,
+                7
+            ],
+            "url": "r16326",
+            "simpleTitle": "misión: the mercy of death",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Elysia G. Lestrange",
+            "spread": [
+                8,
+                12
+            ],
+            "url": "r16332",
+            "simpleTitle": "misión: the mercy of death",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jasper R. Gryffith",
+            "spread": [
+                7,
+                15
+            ],
+            "url": "r16370",
+            "simpleTitle": "misión: the mercy of death",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                11,
+                17
+            ],
+            "url": "r16380",
+            "simpleTitle": "misión: the mercy of death",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Gavril A. Ollivander",
+            "spread": [
+                18,
+                7
+            ],
+            "url": "r16569",
+            "simpleTitle": "misión: the mercy of death",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                19,
+                1
+            ],
+            "url": "r16591",
+            "simpleTitle": "misión: the mercy of death",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Cuthbert S. Selwyn",
+            "spread": [
+                4,
+                8
+            ],
+            "url": "r16703",
+            "simpleTitle": "misión: the mercy of death",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Elysia G. Lestrange",
+            "spread": [
+                4,
+                4
+            ],
+            "url": "r16827",
+            "simpleTitle": "misión: the mercy of death",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jasper R. Gryffith",
+            "spread": [
+                2,
+                8
+            ],
+            "url": "r16882",
+            "simpleTitle": "misión: the mercy of death",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                12,
+                15
+            ],
+            "url": "r16893",
+            "simpleTitle": "misión: the mercy of death",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Gavril A. Ollivander",
+            "spread": [
+                17,
+                12
+            ],
+            "url": "r16905",
+            "simpleTitle": "misión: the mercy of death",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                8,
+                5
+            ],
+            "url": "r16923",
+            "simpleTitle": "misión: the mercy of death",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Cuthbert S. Selwyn",
+            "spread": [
+                11,
+                7
+            ],
+            "url": "r17165",
+            "simpleTitle": "misión: the mercy of death",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Elysia G. Lestrange",
+            "spread": [
+                8,
+                17
+            ],
+            "url": "r17305",
+            "simpleTitle": "misión: the mercy of death",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jasper R. Gryffith",
+            "spread": [
+                4,
+                18
+            ],
+            "url": "r17396",
+            "simpleTitle": "misión: the mercy of death",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                19,
+                11
+            ],
+            "url": "r17546",
+            "simpleTitle": "misión: the mercy of death",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Gavril A. Ollivander",
+            "spread": [
+                12,
+                11
+            ],
+            "url": "r17652",
+            "simpleTitle": "misión: the mercy of death",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Hermes Rosier",
+            "spread": [
+                18
+            ],
+            "url": "r15362",
+            "simpleTitle": "interrogatorio: licking salted wounds",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Hermes Rosier",
+            "spread": [
+                18
+            ],
+            "url": "r17063",
+            "simpleTitle": "interrogatorio: licking salted wounds",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Margareth T. Moody",
+            "spread": [
+                13
+            ],
+            "url": "r18011",
+            "simpleTitle": "quítate la máscara",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                12
+            ],
+            "url": "r14133",
+            "simpleTitle": "práctica - sailor song",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                12
+            ],
+            "url": "r14227",
+            "simpleTitle": "práctica - sailor song",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                1
+            ],
+            "url": "r14382",
+            "simpleTitle": "práctica - sailor song",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                17,
+                2
+            ],
+            "url": "r14983",
+            "simpleTitle": "práctica - sailor song",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                12
+            ],
+            "url": "r15342",
+            "simpleTitle": "práctica - sailor song",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                14
+            ],
+            "url": "r15628",
+            "simpleTitle": "práctica - sailor song",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                5
+            ],
+            "url": "r15806",
+            "simpleTitle": "práctica - sailor song",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                15
+            ],
+            "url": "r16147",
+            "simpleTitle": "práctica - sailor song",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Margareth T. Moody",
+            "spread": [
+                2
+            ],
+            "url": "r16574",
+            "simpleTitle": "caricias al alma",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                1
+            ],
+            "url": "r17073",
+            "simpleTitle": "caricias al alma",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Margareth T. Moody",
+            "spread": [
+                1
+            ],
+            "url": "r17659",
+            "simpleTitle": "caricias al alma",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                2
+            ],
+            "url": "r18009",
+            "simpleTitle": "caricias al alma",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Ruairidh Ó Mhaille",
+            "spread": [
+                18
+            ],
+            "url": "r14054",
+            "simpleTitle": "no des puntadas sin hilo",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Ruairidh Ó Mhaille",
+            "spread": [
+                6
+            ],
+            "url": "r15669",
+            "simpleTitle": "no des puntadas sin hilo",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                15
+            ],
+            "url": "r15736",
+            "simpleTitle": "no des puntadas sin hilo",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                2
+            ],
+            "url": "r16220",
+            "simpleTitle": "no des puntadas sin hilo",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                5
+            ],
+            "url": "r16348",
+            "simpleTitle": "no des puntadas sin hilo",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                3
+            ],
+            "url": "r16853",
+            "simpleTitle": "no des puntadas sin hilo",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Ruairidh Ó Mhaille",
+            "spread": [
+                5
+            ],
+            "url": "r17126",
+            "simpleTitle": "no des puntadas sin hilo",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                3
+            ],
+            "url": "r17153",
+            "simpleTitle": "no des puntadas sin hilo",
+            "space": "el pensadero"
         }
     ];
 
@@ -77683,14 +80016,14 @@ const DBModule = (function () {
                     last.timestamp = parsed.timestamp || null;
                     last.zones = `${currentIndex + 1}/${forums.length} zonas procesadas`;
                     return last;
-                }  
+                }
                 catch (e) {
-                    return last;     
+                    return last;
                 }
             }
         },
 
-        getUpdateMessage: function() {
+        getUpdateMessage: function () {
             return '<div class="updateDB"><span class="update-message"></span><div class="update-button"><i class="fa-jelly-duo fa-regular fa-arrow-rotate-right"></i></div></div>';
         },
 
