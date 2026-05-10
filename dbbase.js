@@ -77673,6 +77673,23 @@ const DBModule = (function () {
 
     return {
         normalizeDate,
+
+        getLastCacheTime: function () {
+            const last = { timestamp: null, zones: null };
+            const saved = localStorage.getItem(CACHE_KEY);
+            if (saved) {
+                try {
+                    const parsed = JSON.parse(saved);
+                    last.timestamp = parsed.timestamp || null;
+                    last.zones = parsed.data?.topics ? Object.keys(parsed.data.topics).length : null;
+                    return last;
+                }  
+                catch (e) {
+                    return last;     
+                }
+            }
+        },
+
         init: async function () {
             Object.keys(localStorage).forEach(key => {
                 if (key.startsWith('blackwave_') && key !== CACHE_KEY) {
