@@ -80032,47 +80032,53 @@ const DBModule = (function () {
             }
         },
 
-        getUpdateWidget: function() {
+        getUpdateWidget: function () {
             // 1. Creamos el contenedor como un objeto jQuery, no como texto plano
             const $widget = $('<div class="updateDB db-update-widget"><span class="update-message"></span><div class="update-button"><i class="fa-jelly-duo fa-regular fa-arrow-rotate-right"></i></div></div>');
-            
+
             // 2. Buscamos las partes internas
             const $updateBox = $widget.find('.update-message');
             const $buttonBox = $widget.find('.update-button');
-            
+
             // 3. Obtenemos y formateamos la fecha
-            const last = this.getLastCacheTime ? this.getLastCacheTime() : { timestamp: Date.now(), zones: (parseInt(localStorage.getItem(INDEX_KEY)) || 0) };
-            const fecha = new Date(Number(last.timestamp));
+            const cacheData = this.getLastCacheTime ? this.getLastCacheTime() : null;
+
+            const last = {
+                timestamp: cacheData?.timestamp || Date.now(),
+                zones: cacheData?.zones || (parseInt(localStorage.getItem(INDEX_KEY)) || 0)
+            };
             
+            const fecha = new Date(Number(last.timestamp));
+
             const dia = fecha.getDate().toString().padStart(2, '0');
             const mes = (fecha.getMonth() + 1).toString().padStart(2, '0');
             const anio = fecha.getFullYear();
-            
+
             const horas = fecha.getHours().toString().padStart(2, '0');
             const minutos = fecha.getMinutes().toString().padStart(2, '0');
             const segundos = fecha.getSeconds().toString().padStart(2, '0');
-            
+
             $updateBox.append(`<date>${dia}/${mes}/${anio} ${horas}:${minutos}:${segundos}</date>`);
-            $updateBox.append('<zones>Zonas Actualizadas: '+(last.zones)+' / 18</zones>');
+            $updateBox.append('<zones>Zonas Actualizadas: ' + (last.zones) + ' / 18</zones>');
             $buttonBox.attr('title', 'Actualizar Base de Datos');
-            
+
             // 4. Guardamos la referencia al DBModule para usarla dentro del click
-            const self = this; 
-            
+            const self = this;
+
             // 5. Adherimos el evento click al botón ANTES de insertarlo en la página
-            $buttonBox.click(async function() {
+            $buttonBox.click(async function () {
                 const $btn = $(this);
 
                 if ($btn.prop('disabled') || $btn.hasClass('disabled')) return;
                 $btn.prop('disabled', true).addClass('disabled').css({ opacity: 0.5, cursor: 'not-allowed' });
 
-                $updateBox.find('note').remove(); 
+                $updateBox.find('note').remove();
                 const $note = $('<note>Iniciando actualización...</note>');
                 $updateBox.append($note);
-                
-                await self.fullSweep(function(mensajeProgreso) {
+
+                await self.fullSweep(function (mensajeProgreso) {
                     console.log("%c[DBModule Progress] " + mensajeProgreso, "color: cyan;");
-                    
+
                     let textoLimpio = mensajeProgreso
                         .replace('[Foro ', 'Procesando zona ')
                         .replace('] Analizando:', ':');
