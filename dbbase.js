@@ -79891,6 +79891,15 @@ const DBModule = (function () {
             return `${dia}/${mes}/${anio}`;
         }
 
+        // Formato: 11 de Marzo, 1953 (con o sin coma)
+        match = t.match(/^(\d{1,2})\s+de\s+([a-záéíóúñ]+),?\s+(\d{4})$/i);
+        if (match) {
+            dia = match.padStart(2, '0');
+            mes = meses[match.toLowerCase()];
+            anio = match[3];
+            if (mes) return `${dia}/${mes}/${anio}`;
+        }
+
         return t;
     }
 
