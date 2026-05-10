@@ -80032,7 +80032,7 @@ const DBModule = (function () {
             const $buttonBox = $widget.find('.update-button');
             
             // 3. Obtenemos y formateamos la fecha
-            const last = this.getLastCacheTime ? this.getLastCacheTime() : { timestamp: Date.now(), zones: '0 / 18' };
+            const last = this.getLastCacheTime ? this.getLastCacheTime() : { timestamp: Date.now(), zones: (parseInt(localStorage.getItem(INDEX_KEY)) || 0) };
             const fecha = new Date(Number(last.timestamp));
             
             const dia = fecha.getDate().toString().padStart(2, '0');
@@ -80044,7 +80044,7 @@ const DBModule = (function () {
             const segundos = fecha.getSeconds().toString().padStart(2, '0');
             
             $updateBox.append(`<date>${dia}/${mes}/${anio} ${horas}:${minutos}:${segundos}</date>`);
-            $updateBox.append('<zones>Zonas Actualizadas: '+(last.zones || '0 / 18')+'</zones>');
+            $updateBox.append('<zones>Zonas Actualizadas: '+(last.zones)+' / 18</zones>');
             $buttonBox.attr('title', 'Actualizar Base de Datos');
             
             // 4. Guardamos la referencia al DBModule para usarla dentro del click
