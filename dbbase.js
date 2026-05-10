@@ -80078,7 +80078,7 @@ const DBModule = (function () {
 
             // 6. Devolvemos el widget completamente funcional
             return $widget;
-        }
+        },
 
         init: async function () {
             Object.keys(localStorage).forEach(key => {
