@@ -80045,7 +80045,7 @@ const DBModule = (function () {
             
             $updateBox.append(`<date>${dia}/${mes}/${anio} ${horas}:${minutos}:${segundos}</date>`);
             $updateBox.append('<zones>Zonas Actualizadas: '+(last.zones || '0 / 18')+'</zones>');
-            $updateBox.attr('title', 'Actualizar Base de Datos');
+            $buttonBox.attr('title', 'Actualizar Base de Datos');
             
             // 4. Guardamos la referencia al DBModule para usarla dentro del click
             const self = this; 
