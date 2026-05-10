@@ -77681,7 +77681,7 @@ const DBModule = (function () {
                 try {
                     const parsed = JSON.parse(saved);
                     last.timestamp = parsed.timestamp || null;
-                    last.zones = currentIndex;
+                    last.zones = `${currentIndex + 1}/${forums.length} zonas procesadas`;
                     return last;
                 }  
                 catch (e) {
