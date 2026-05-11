@@ -4340,9 +4340,139 @@ const MissionsModule = (function () {
       "dependency": [],
       "type": "misión", "closed": false, "link": "", "tagged": ["original"],
 
+      "creatures": {
+        "guardia": {
+          "atributos": ["+3 fue", "+3 con"],
+          "pv": "35",
+          "rareza": "corriente",
+          "peligrosidad": "controlable",
+          "clasificación": "ser / personaje no jugable",
+          "descripción": "personaje no jugable",
+          "ataques": {
+            "leve": 'Ataca con hechizo: "Expelliarmus". El objeto es expulsado con fuerza y queda fuera del alcance inmediato del objetivo. El objetivo pierde una acción utilizada para recuperar su varita.',
+            "moderado": 'Ataca con hechizo: "Mimble Wimble". La víctima apenas puede pronunciar palabras coherentes, dificultando cualquier comunicación. Pierde 5 puntos en todos los hechizos verbales.',
+            "exitoso": 'Ataca con hechizo: "Flipendo". El oponente es derribado y lanzado al suelo. Adiciona +10 en el daño.',
+            "critico": 'Ataca con hechizo: "Petrificus Totalus". El objetivo queda completamente inmóvil hasta que el efecto se disipe. El personaje no podrá realizar acciones hasta que otro personaje lo libere o realice dos roles. Si al conjurador le anulan acciones, se eliminan los efectos inmediatamente.',
+          },
+
+          "defensas": {
+            "leve": 'Defiende con hechizo: "Protego". Adiciona +4 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.',
+            "moderado": 'Defiende con hechizo: "Protego". Adiciona +6 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.',
+            "exitoso": 'Defiende con hechizo: "Protego". Adiciona +8 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.',
+            "critico": 'Defiende con hechizo: "Protego". Adiciona +10 de defensa. Si la defensa gana, llama a otro Guardia, sumando un nuevo PNJ con las mismas cualidades a las que deberán enfrentarse',
+          },
+        },
+      },
+
       "cards": [],
-      "searchs": {},
-      "actions": {},
+
+      "searchs": {
+          "inspeccionar el lugar": {
+            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
+            "cont": '<span>La casa a simple vista, no parece gran cosa. Una casa de dos plantas, custodiada por un guardia que circula la misma y dos que están plantados en la entrada.</span>',
+          },
+          "posible entrada por la puerta principal": {
+            "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "inspeccionar el lugar",
+            "cont": '<span>Una posible entrada, es ingresar por la puerta principal. Noquear a los dos guardias e ingresar al lugar por la puerta grande, aunque, implicaría levantar las alertas si no se hace con la velocidad necesaria.</span>',
+          },
+          "puerta principal": {
+            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "posible entrada por la puerta principal",
+            "cont": '<span>Al llegar a la puerta principal, deberán enfrentarse a dos "Guardias", deberán incluir a los mismos como PNJ. Poseen 35PV y 3 de Fuerza y Constitución. Al finalizar el duelo deberán solicitar intervención al staff.</span>',
+          },
+          "posible entrada por la ventana": {
+            "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "inspeccionar el lugar",
+            "cont": '<span>Una posible entrada, es ingresar por la ventana del segundo piso. En el cobertizo detrás de la casa hay un par de escobas voladoras. Podrían robar unas y usarlas para acceder a la ventana.</span>',
+          },
+          "entrada por la ventana": {
+            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "posible entrada por la ventana",
+            "cont": '<span>Para poder ingresar por la ventana del segundo piso deberán usar contrabando para robar las escobas y luego vuelo para poder ingresar por la ventana. Todos los turnos tendrán que lanzar el dado "Tacite" para ver si son vistos por el guardia que patrulla los alrededores.</span>',
+          },
+          "posible entrada por las alcantarillas": {
+            "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "inspeccionar el lugar",
+            "cont": '<span>No muy lejos de donde están, puede notarse la boca de una alcantarilla, si se ignora el mal olor que emana de ella, es una posible entrada para ingresar con cautela.</span>',
+          },
+          "entrada por las alcantarillas": {
+            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "posible entrada por las alcantarillas",
+            "cont": '<span>Al ingresar por la alcantarilla, deberán utilizar lumos para iluminar el camino y poder llegar a destino.</span>',
+          },
+          "ingresar al hall": {
+            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "intervención hall",
+            "cont": '<span></span>',
+          },
+          "ingresar al segundo piso": {
+            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "intervención segundo piso",
+            "cont": '<span></span>',
+          },
+          "ingresar al sótano": {
+            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "intervención sótano",
+            "cont": '<span></span>',
+          },
+          "ir del hall a la cocina": {
+            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "hall",
+            "cont": '<span></span>',
+          },
+          "ir de la cocina al hall": {
+            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "cocina",
+            "cont": '<span></span>',
+          },
+          "ir de la cocina al sótano": {
+            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "cocina",
+            "cont": '<span></span>',
+          },
+          "ir del sótano a la cocina": {
+            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "sótano",
+            "cont": '<span></span>',
+          },
+          "ir del hall al laboratorio": {
+            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "hall",
+            "cont": '<span></span>',
+          },
+          "ir del laboratorio al hall": {
+            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "laboratorio",
+            "cont": '<span></span>',
+          },
+          "ir del laboratorio al segundo piso": {
+            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "laboratorio",
+            "cont": '<span></span>',
+          },
+          "ir del segundo piso al laboratorio": {
+            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "segundo piso",
+            "cont": '<span></span>',
+          },
+      },
+
+      "actions": {
+        "tacite": {
+          "leve": '<span>Los personajes son vistos por el guardia, deberán enfrentarse a un "Guardia" deberán incluirlo como PNJ. Posee 35PV y 3 de Fuerza y Constitución.</span>',
+          "moderado": '<span>Los personajes son vistos por el guardia, deberán enfrentarse a un "Guardia" deberán incluirlo como PNJ. Posee 35PV y 3 de Fuerza y Constitución.</span>',
+          "exitoso": '<span>Logran evitar ser vistos por el guardia.</span>',
+          "critico": '<span>Logran evitar ser vistos por el guardia.</span>',
+        },
+        "lumos": {
+          "leve": '<span>Alerta a un guardia de su presencia, deberán enfrentarse a un "Guardia" deberán incluirlo como PNJ. Posee 35PV y 3 de Fuerza y Constitución.</span>',
+          "moderado": '<span>Adiciona +10 en el puntaje de avance. Para poder llegar a la entrada, deberán llegar a 200 puntos. Al finalizar el objetivo, deberán pedir intervención del staff.</span>',
+          "exitoso": '<span>Adiciona +15 en el puntaje de avance. Para poder llegar a la entrada, deberán llegar a 200 puntos. Al finalizar el objetivo, deberán pedir intervención del staff.</span>',
+          "critico": '<span>Adiciona +20 en el puntaje de avance. Para poder llegar a la entrada, deberán llegar a 200 puntos. Al finalizar el objetivo, deberán pedir intervención del staff.</span>',
+        },
+        "manus umbrarum": {
+          "leve": '<span>Alerta a un guardia de su presencia, deberán enfrentarse a un "Guardia" deberán incluirlo como PNJ. Posee 35PV y 3 de Fuerza y Constitución.</span>',
+          "moderado": '<span>Permite robar una escoba.</span>',
+          "exitoso": '<span>Permite robar dos escobas.</span>',
+          "critico": '<span>Permite robar tres escobas.</span>',
+        },
+        "vuelo": {
+          "leve": '<span>Alerta a un guardia de su presencia, deberán enfrentarse a un "Guardia" deberán incluirlo como PNJ. Posee 35PV y 3 de Fuerza y Constitución.</span>',
+          "moderado": '<span>Permite ascender hasta el segundo piso. Sin embargo el aterrizaje advierte a uno de los guardias. Deberán enfrentarse a un "Guardia" deberán incluirlo como PNJ. Posee 35PV y 3 de Fuerza y Constitución. Al finalizar el objetivo, deberán pedir intervención del staff.</span>',
+          "exitoso": '<span>Permite ascender hasta el segundo piso. Deberán solicitar intervención al staff.</span>',
+          "critico": '<span>Permite ascender hasta el segundo piso. Deberán solicitar intervención al staff.</span>',
+        },
+        "vuelo en velocidad": {
+          "leve": '<span>Alerta a un guardia de su presencia, deberán enfrentarse a un "Guardia" deberán incluirlo como PNJ. Posee 35PV y 3 de Fuerza y Constitución.</span>',
+          "moderado": '<span>Permite ascender hasta el segundo piso. Deberán solicitar intervención al staff.</span>',
+          "exitoso": '<span>Permite ascender hasta el segundo piso. Deberán solicitar intervención al staff.</span>',
+          "critico": '<span>Permite ascender hasta el segundo piso. Deberán solicitar intervención al staff.</span>',
+        },
+      },
     },
     // a gentle hand
 
