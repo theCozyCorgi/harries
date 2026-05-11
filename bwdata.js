@@ -2683,7 +2683,7 @@ const MissionsModule = (function () {
           "cont": '<span>Si se afina el oído, la quietud opresiva oculta una vibración latente: un eco musical suspendido en la bruma. Aquellos leños astillados aguardan ser transmutados en instrumentos. Arrancarles la melodía correcta tejerá un manto acústico capaz de ahogar los pasos, sumiendo a las monstruosas mandrágoras en un letargo que garantice un avance silencioso y seguro.</span>',
         },
         "sentir las vibraciones de la tierra": {
-          "visible": { "attr": { "val": "min" }, "know": { "banshee": "5" }, "job": "invalid", "name": "invalid", }, "place": "dayflower garden",
+          "visible": { "attr": { "val": "min" }, "know": { "banshees": "5" }, "job": "invalid", "name": "invalid", }, "place": "dayflower garden",
           "cont": '<span>Si una banshee apoya sus palmas sobre las gélidas baldosas, su conexión con el más allá le revelará dos verdades absolutas. Primero, el eco putrefacto de una tragedia: ese mismo sendero ya devoró una vida hace décadas. Segundo, una condena latente: la muerte reclamará una nueva alma si quiebran el silencio sepulcral que exige el jardín.</span>',
         },
       },
