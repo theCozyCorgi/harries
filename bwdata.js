@@ -2442,7 +2442,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/DWMLO6R.png", "requisitos": [],
       "users": ["/u50", "/u9", "/u159"],
       "dependency": [],
-      "type": "investigación", "closed": false, "link": "", "tagged": ["wave", "capitulo 0"],
+      "type": "investigación", "closed": false, "link": "https://blackwave.foroactivo.com/t1235-investigacion-in-search-of-the-deadly-hallows", "tagged": ["wave", "capitulo 0"],
 
       "cards": [],
 
@@ -2452,7 +2452,7 @@ const MissionsModule = (function () {
           "cont": '<span>La puerta del lugar es de madera con detalles en hierro negro. Las instrucciones que les dieron, incluyen que deben tocar la misma tres veces, luego dos y luego tres veces de nuevo para que la misma se pueda abrir.</span>',
         },
         "historia del faro": {
-          "visible": { "attr": { "val": "min" }, "know": { "historia de la magia": "10" }, "job": "invalid", "name": "invalid", }, "place": "",
+          "visible": { "attr": { "val": "min" }, "know": { "historia de la magia": "5" }, "job": "invalid", "name": "invalid", }, "place": "",
           "cont": '<span>Se dice que el faro existía mucho antes de que existiera Hogwarts y el Ministerio. Una bruja lo había tomado y protegido contra muggles con la intención de poder guardar a los magos y brujas que huían de la cacería. Por lo tanto, sus habitantes solían ser mujeres y niños que solo buscaban un espacio para poder estar a salvo. Con el tiempo, la voz se fue corriendo, y toda clase de magos y brujas llegaron al lugar y comenzaron a grabar su historia en las piedras del mismo. Con el tiempo, el sitio quedó olvidado, pero su historia sigue escrita en las paredes.</span>',
         },
         "golpear las puertas 3-2-3 veces": {
@@ -4357,7 +4357,7 @@ const MissionsModule = (function () {
       "image": "https://i.imgur.com/nNgVsfv.png", "requisitos": ["Dos personajes deberán ser miembro del Departamento de Seguridad", "Un personaje deberá tener CCM en Avanzado"],
       "users": ["c/u157", "/u150", "/u13", "/u55", "/u171"],
       "dependency": [],
-      "type": "misión", "closed": false, "link": "", "tagged": ["original"],
+      "type": "misión", "closed": false, "link": "https://blackwave.foroactivo.com/t1236-mision-a-gentle-hand", "tagged": ["original"],
 
       "creatures": {
         "guardia": {
