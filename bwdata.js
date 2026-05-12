@@ -1499,7 +1499,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/YQ3QDyq.png", "requisitos": ["un miembro del departamento del Seguridad Mágica", "un miembro del personal o profesorado de hogwarts", "Solo se aceptarán 2 estudiantes como máximo"],
       "users": ["/u50", "/u24", "/u110", "/u108", "/u141"],
       "dependency": [],
-      "type": "misión", "closed": false, "link": "https://blackwave.foroactivo.com/t932-mision-the-murmur-of-the-old-guard", "tagged": ["wave", "capitulo 1"],
+      "type": "misión", "closed": true, "link": "https://blackwave.foroactivo.com/t932-mision-the-murmur-of-the-old-guard", "tagged": ["wave", "capitulo 1"],
 
 
       "creatures": {
