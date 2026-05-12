@@ -4392,7 +4392,7 @@ const MissionsModule = (function () {
           },
           "posible entrada por la puerta principal": {
             "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "inspeccionar el lugar",
-            "cont": '<span>Una posible entrada, es ingresar por la puerta principal. Noquear a los dos guardias e ingresar al lugar por la puerta grande, aunque, implicaría levantar las alertas si no se hace con la velocidad necesaria.</span>',
+            "cont": '<span>Una posible entrada, es ingresar por la puerta principal. Noquear a los dos guardias e ingresar al lugar por la puerta grande, aunque, implicaría levantar las alertas si no se hace con la velocidad necesaria. Una vez que el personaje inicie un camino, no podrá optar por otra opción.</span>',
           },
           "puerta principal": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "posible entrada por la puerta principal",
@@ -4400,7 +4400,7 @@ const MissionsModule = (function () {
           },
           "posible entrada por la ventana": {
             "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "inspeccionar el lugar",
-            "cont": '<span>Una posible entrada, es ingresar por la ventana del segundo piso. En el cobertizo detrás de la casa hay un par de escobas voladoras. Podrían robar unas y usarlas para acceder a la ventana.</span>',
+            "cont": '<span>Una posible entrada, es ingresar por la ventana del segundo piso. En el cobertizo detrás de la casa hay un par de escobas voladoras. Podrían robar unas y usarlas para acceder a la ventana. Una vez que el personaje inicie un camino, no podrá optar por otra opción.</span>',
           },
           "entrada por la ventana": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "posible entrada por la ventana",
@@ -4408,7 +4408,7 @@ const MissionsModule = (function () {
           },
           "posible entrada por las alcantarillas": {
             "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "inspeccionar el lugar",
-            "cont": '<span>No muy lejos de donde están, puede notarse la boca de una alcantarilla, si se ignora el mal olor que emana de ella, es una posible entrada para ingresar con cautela.</span>',
+            "cont": '<span>No muy lejos de donde están, puede notarse la boca de una alcantarilla, si se ignora el mal olor que emana de ella, es una posible entrada para ingresar con cautela. Una vez que el personaje inicie un camino, no podrá optar por otra opción.</span>',
           },
           "entrada por las alcantarillas": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "posible entrada por las alcantarillas",
@@ -8191,7 +8191,7 @@ const MissionsModule = (function () {
         },
         "desafío #11": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #10",
-            "cont": '<span>Haber descubierto 10 PNJ, Libros, Pociones o Lugares de Interés.</span>',
+            "cont": '<span>Haber descubierto 10 PNJ, Libros, Pociones o Lugares de Interés. Por este desafío el cooldown se reduce a 2 usuarios y 24hs.</span>',
         },
         "desafío #12": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #11",
