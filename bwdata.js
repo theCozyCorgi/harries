@@ -2666,10 +2666,6 @@ const MissionsModule = (function () {
       "users": ["/u55","/u159","/u149","/u150","/u13","/u138"],
       "dependency": ["bottle of sorrows", "muted magic", "stargazer's night"], "tagged": ["morgana", "edwin", "capitulo 0"],
       "type": "misión", "closed": false, "link": "https://blackwave.foroactivo.com/t1205-mision-the-murmuring-woods",
-      "items": {
-        "extra tiempo": "El contador de advertencias se reduce en 2 o adiciona +2 al límite de las mismas.",
-        "pista en misión": "Al igual que a los animales, la música a las mandrágoras les resulta sumamente agradable."
-      },
 
       "cards": [],
       "searchs": {
@@ -4362,10 +4358,6 @@ const MissionsModule = (function () {
       "users": ["c/u157", "/u150", "/u13", "/u55", "/u171"],
       "dependency": [],
       "type": "misión", "closed": false, "link": "https://blackwave.foroactivo.com/t1236-mision-a-gentle-hand", "tagged": ["original"],
-      "items": {
-        "extra tiempo": "La Fuerza y Constitución de los Guardias se reduce en 1. Notificar a la administración.",
-        "pista en misión": "La alcantarillas siempre son una buena idea."
-      },
 
       "creatures": {
         "guardia": {
