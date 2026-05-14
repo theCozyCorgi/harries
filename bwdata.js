@@ -2713,6 +2713,37 @@ const MissionsModule = (function () {
           "exitoso": '<span>Permite que el grupo avance 1 baldosa por el sendero.</span>',
           "critico": '<span>Permite que el grupo avance 2 baldosas por el sendero.</span>',
         },
+        "vox imperium": {
+          "leve": '<span>No es suficiente para revelar información.</span>',
+          "moderado": '<span>Adiciona +1 a la transformación de troncos o +1 al adicional de la música durante una ronda.</span>',
+          "exitoso": '<span>Adiciona +2 a la transformación de troncos o +1 al adicional de la música durante una ronda.</span>',
+          "critico": '<span>Adiciona +3 a la transformación de troncos o +1 al adicional de la música durante una ronda.</span>',
+        },
+        "fortitudo cordis": {
+          "leve": '<span>No es suficiente para revelar información.</span>',
+          "moderado": '<span>Si se usa en transformaciones adiciona +2 a la creación de troncos. Si se usa en la música, adiciona +2 al adicional de la música. Duración: una ronda.</span>',
+          "exitoso": '<span>Si se usa en transformaciones adiciona +2 a la creación de troncos. Si se usa en la música, adiciona +2 al adicional de la música. Duración: una ronda.</span>',
+          "critico": '<span>Si se usa en transformaciones adiciona +2 a la creación de troncos. Si se usa en la música, adiciona +2 al adicional de la música. Duración: una ronda.</span>',
+        },
+        "anticipatio hostis": {
+          "leve": '<span>No es suficiente para revelar información.</span>',
+          "moderado": '<span>Adiciona +1 al límite de contador de advertencias.</span>',
+          "exitoso": '<span>Adiciona +2 al límite de contador de advertencias.</span>',
+          "critico": '<span>Adiciona +3 al límite de contador de advertencias.</span>',
+        },
+        "renovatio animi": {
+          "leve": '<span>No es suficiente para revelar información.</span>',
+          "moderado": '<span>Adiciona +2 a la transformación de troncos o +1 al adicional de la música durante una ronda.</span>',
+          "exitoso": '<span>Adiciona +3 a la transformación de troncos o +1 al adicional de la música durante una ronda.</span>',
+          "critico": '<span>Adiciona +4 a la transformación de troncos o +1 al adicional de la música durante una ronda.</span>',
+        },
+        "anima vincula": {
+          "leve": '<span>No es suficiente para revelar información.</span>',
+          "moderado": '<span>Adiciona +2 a la transformación de troncos o +1 al adicional de la música durante una ronda.</span>',
+          "exitoso": '<span>Adiciona +3 a la transformación de troncos o +1 al adicional de la música durante una ronda.</span>',
+          "critico": '<span>Adiciona +4 a la transformación de troncos o +1 al adicional de la música durante una ronda.</span>',
+        },
+
         "mutareforma": {
           "leve": '<span>No es suficiente para revelar información.</span>',
           "moderado": '<span>Permite transformar 1 tronce en un tambor.</span>',
