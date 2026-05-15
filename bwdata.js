@@ -8250,7 +8250,7 @@ const MissionsModule = (function () {
         },
         "desafío #18": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #17",
-            "cont": '<span>Haber leído 15 libros. Por este desafío el cooldown se reduce a 2 usuarios y 24hs.</span>',
+            "cont": '<span>Haber recolectado 20 grageas de diferentes sabores.</span>',
         },
         "desafío #19": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #18",
