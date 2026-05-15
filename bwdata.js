@@ -8254,7 +8254,7 @@ const MissionsModule = (function () {
         },
         "desafío #19": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #18",
-            "cont": '<span>Haber roleado en 30 lugares de interés diferentes. Pueden presentarse temas abiertos.</span>',
+            "cont": '<span>Haber roleado en 20 lugares de interés diferentes. Pueden presentarse temas abiertos. Los lugares de interés deben ser los listados por la administración en cada foro.</span>',
         },
         "desafío #20": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #19",
@@ -8274,11 +8274,11 @@ const MissionsModule = (function () {
         },
         "desafío #24": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #23",
-            "cont": '<span>Haber realizado 2 hechizos diferentes que sean "Eminencia" y el resultado sea entre Leve y Crítico.</span>',
+            "cont": '<span>Haber realizado 1 hechizo que sea "Eminencia" y el resultado sea entre Leve y Crítico.</span>',
         },
         "desafío #25": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #24",
-            "cont": '<span>Haber cerrado 2 temas con personajes de cada uno de los 7 grupos.</span>',
+            "cont": '<span>Haber cerrado 2 temas con personajes de cada uno de los 7 grupos. Es decir: 2 temas cerrados con gryffindor, 2 con slytherin, 2 con ravenclaw, 2 con hufflepuff, 2 con funcionarios, 2 con emprendedores y 2 con errantes.</span>',
         },
         "desafío #26": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #25",
