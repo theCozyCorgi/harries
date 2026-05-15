@@ -8002,6 +8002,18 @@ const MissionsModule = (function () {
           "exitoso": '<span>Permite obtener la información de dos de los siguientes Ministros.<adding class="check-cards" search="ministros grupo2"></adding></span>',
           "critico": '<span>Permite obtener la información de tres de los siguientes Ministros.<adding class="check-cards" search="ministros grupo3"></adding></span>',
         },
+        "relicta notitia": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Permite obtener la información de uno de los siguientes Ministros.<adding class="check-cards" search="ministros grupo1"></adding></span>',
+          "exitoso": '<span>Permite obtener la información de dos de los siguientes Ministros.<adding class="check-cards" search="ministros grupo2"></adding></span>',
+          "critico": '<span>Permite obtener la información de tres de los siguientes Ministros.<adding class="check-cards" search="ministros grupo3"></adding></span>',
+        },
+        "ethnospecto": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Permite obtener la información de uno de los siguientes Ministros.<adding class="check-cards" search="ministros grupo1"></adding></span>',
+          "exitoso": '<span>Permite obtener la información de dos de los siguientes Ministros.<adding class="check-cards" search="ministros grupo2"></adding></span>',
+          "critico": '<span>Permite obtener la información de tres de los siguientes Ministros.<adding class="check-cards" search="ministros grupo3"></adding></span>',
+        },
       },
     },
     // fin: evento futuros lideres: letselina
