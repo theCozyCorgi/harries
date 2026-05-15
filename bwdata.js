@@ -8230,7 +8230,7 @@ const MissionsModule = (function () {
         },
         "desafío #13": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #12",
-            "cont": '<span>Haber cerrado 5 temas durante el mes de Mayo. Por este desafío el cooldown se reduce a 2 usuarios y 24hs.</span>',
+            "cont": '<span>Haber recolectado 20 grageas de diferentes sabores.</span>',
         },
         "desafío #14": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #13",
@@ -8250,7 +8250,7 @@ const MissionsModule = (function () {
         },
         "desafío #18": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #17",
-            "cont": '<span>Haber recolectado 20 grageas de diferentes sabores.</span>',
+            "cont": '<span>Haber recolectado 10 grageas del mismo sabor. ¡Cuidado! El primero en postear elije la gragea que deben completar.</span>',
         },
         "desafío #19": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #18",
