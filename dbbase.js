@@ -44448,6 +44448,94 @@ const DBModule = (function () {
             "date": "13/01/1953",
             "location": "Sala de Interrogatorios"
         },
+        "849": {
+            "space": "el pensadero",
+            "url": "/t849-1953-01-03-animal-i-have-become",
+            "simpleTitle": "animal i have become",
+            "creator": "Vasilisa M. Kuznetzova",
+            "posts": [
+                {
+                    "url": "r10802",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "15/12/2025",
+                    "words": 255
+                },
+                {
+                    "url": "r10803",
+                    "author": "The Familiars",
+                    "date": "15/12/2025",
+                    "words": 0
+                },
+                {
+                    "url": "r10945",
+                    "author": "Theolonius D. Covey",
+                    "date": "20/12/2025",
+                    "words": 226
+                },
+                {
+                    "url": "r11042",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "22/12/2025",
+                    "words": 259
+                },
+                {
+                    "url": "r11273",
+                    "author": "Theolonius D. Covey",
+                    "date": "28/12/2025",
+                    "words": 277
+                },
+                {
+                    "url": "r12205",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "23/01/2026",
+                    "words": 265
+                },
+                {
+                    "url": "r12818",
+                    "author": "Theolonius D. Covey",
+                    "date": "07/02/2026",
+                    "words": 227
+                },
+                {
+                    "url": "r14166",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "01/03/2026",
+                    "words": 353
+                },
+                {
+                    "url": "r14321",
+                    "author": "Theolonius D. Covey",
+                    "date": "03/03/2026",
+                    "words": 380
+                },
+                {
+                    "url": "r15848",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "31/03/2026",
+                    "words": 216
+                },
+                {
+                    "url": "r16339",
+                    "author": "Theolonius D. Covey",
+                    "date": "11/04/2026",
+                    "words": 302
+                },
+                {
+                    "url": "r17451",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "03/05/2026",
+                    "words": 238
+                },
+                {
+                    "url": "r18272",
+                    "author": "Theolonius D. Covey",
+                    "date": "13/05/2026",
+                    "words": 200
+                }
+            ],
+            "date": "03/01/1953",
+            "location": "Área de Restauración — Museo Mirabilia"
+        },
         "850": {
             "space": "el pensadero",
             "url": "/t850-1953-01-20-practica-tried-so-hard",
@@ -44915,6 +45003,184 @@ const DBModule = (function () {
             ],
             "date": "13/01/1953",
             "location": "jardines de Hogwarts"
+        },
+        "855": {
+            "space": "el pensadero",
+            "url": "/t855-1953-01-15-oh-no-you-didn-t",
+            "simpleTitle": "oh no, you didn't!",
+            "creator": "Jasper R. Gryffith",
+            "posts": [
+                {
+                    "url": "r10991",
+                    "author": "Jasper R. Gryffith",
+                    "date": "21/12/2025",
+                    "words": 278
+                },
+                {
+                    "url": "r11221",
+                    "author": "Ruaan S. Patil",
+                    "date": "27/12/2025",
+                    "words": 358
+                },
+                {
+                    "url": "r11222",
+                    "author": "The Familiars",
+                    "date": "27/12/2025",
+                    "words": 0
+                },
+                {
+                    "url": "r11821",
+                    "author": "Jasper R. Gryffith",
+                    "date": "14/01/2026",
+                    "words": 294
+                },
+                {
+                    "url": "r12112",
+                    "author": "Ruaan S. Patil",
+                    "date": "19/01/2026",
+                    "words": 182
+                },
+                {
+                    "url": "r12113",
+                    "author": "The Familiars",
+                    "date": "19/01/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r12114",
+                    "author": "Jasper R. Gryffith",
+                    "date": "19/01/2026",
+                    "words": 207
+                },
+                {
+                    "url": "r12115",
+                    "author": "The Familiars",
+                    "date": "19/01/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r12308",
+                    "author": "Ruaan S. Patil",
+                    "date": "25/01/2026",
+                    "words": 239
+                },
+                {
+                    "url": "r12309",
+                    "author": "The Familiars",
+                    "date": "25/01/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r12473",
+                    "author": "Jasper R. Gryffith",
+                    "date": "31/01/2026",
+                    "words": 240
+                },
+                {
+                    "url": "r12474",
+                    "author": "The Familiars",
+                    "date": "31/01/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r12806",
+                    "author": "Ruaan S. Patil",
+                    "date": "07/02/2026",
+                    "words": 195
+                },
+                {
+                    "url": "r12807",
+                    "author": "The Familiars",
+                    "date": "07/02/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r12849",
+                    "author": "Jasper R. Gryffith",
+                    "date": "07/02/2026",
+                    "words": 239
+                },
+                {
+                    "url": "r12850",
+                    "author": "The Familiars",
+                    "date": "07/02/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r13145",
+                    "author": "Ruaan S. Patil",
+                    "date": "13/02/2026",
+                    "words": 191
+                },
+                {
+                    "url": "r13146",
+                    "author": "The Familiars",
+                    "date": "13/02/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r14822",
+                    "author": "Jasper R. Gryffith",
+                    "date": "12/03/2026",
+                    "words": 238
+                },
+                {
+                    "url": "r14823",
+                    "author": "The Familiars",
+                    "date": "12/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r10991",
+                    "author": "Jasper R. Gryffith",
+                    "date": "21/12/2025",
+                    "words": 278
+                },
+                {
+                    "url": "r15474",
+                    "author": "Ruaan S. Patil",
+                    "date": "26/03/2026",
+                    "words": 321
+                },
+                {
+                    "url": "r15475",
+                    "author": "The Familiars",
+                    "date": "26/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16194",
+                    "author": "Jasper R. Gryffith",
+                    "date": "07/04/2026",
+                    "words": 263
+                },
+                {
+                    "url": "r16714",
+                    "author": "Ruaan S. Patil",
+                    "date": "19/04/2026",
+                    "words": 449
+                },
+                {
+                    "url": "r16987",
+                    "author": "Jasper R. Gryffith",
+                    "date": "26/04/2026",
+                    "words": 364
+                },
+                {
+                    "url": "r17550",
+                    "author": "Ruaan S. Patil",
+                    "date": "04/05/2026",
+                    "words": 307
+                },
+                {
+                    "url": "r18324",
+                    "author": "Jasper R. Gryffith",
+                    "date": "14/05/2026",
+                    "words": 207
+                }
+            ],
+            "date": "15/01/1953",
+            "location": "Morgue de San Mungo"
         },
         "856": {
             "space": "el pensadero",
@@ -47971,6 +48237,808 @@ const DBModule = (function () {
             ],
             "date": "17/01/1953",
             "location": "Destilería Dempsey Manufacturing"
+        },
+        "932": {
+            "space": "el pensadero",
+            "url": "/t932-1953-02-03-mision-the-murmur-of-the-old-guard",
+            "simpleTitle": "misión: the murmur of the old guard",
+            "creator": "Black Wave",
+            "posts": [
+                {
+                    "url": "r12214",
+                    "author": "Black Wave",
+                    "date": "23/01/2026",
+                    "words": 135
+                },
+                {
+                    "url": "r12258",
+                    "author": "Aidan N. Flamel",
+                    "date": "24/01/2026",
+                    "words": 241
+                },
+                {
+                    "url": "r12274",
+                    "author": "Minerva E. McGonagall",
+                    "date": "25/01/2026",
+                    "words": 443
+                },
+                {
+                    "url": "r12275",
+                    "author": "The Familiars",
+                    "date": "25/01/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r12288",
+                    "author": "Hermes Rosier",
+                    "date": "25/01/2026",
+                    "words": 456
+                },
+                {
+                    "url": "r12289",
+                    "author": "The Familiars",
+                    "date": "25/01/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r12345",
+                    "author": "Montgomery Thatch",
+                    "date": "26/01/2026",
+                    "words": 389
+                },
+                {
+                    "url": "r12346",
+                    "author": "The Familiars",
+                    "date": "26/01/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r12427",
+                    "author": "Cuthbert S. Selwyn",
+                    "date": "29/01/2026",
+                    "words": 394
+                },
+                {
+                    "url": "r12428",
+                    "author": "The Familiars",
+                    "date": "29/01/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r12440",
+                    "author": "Aidan N. Flamel",
+                    "date": "30/01/2026",
+                    "words": 299
+                },
+                {
+                    "url": "r12441",
+                    "author": "The Familiars",
+                    "date": "30/01/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r12482",
+                    "author": "Minerva E. McGonagall",
+                    "date": "31/01/2026",
+                    "words": 379
+                },
+                {
+                    "url": "r12483",
+                    "author": "The Familiars",
+                    "date": "31/01/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r12684",
+                    "author": "Hermes Rosier",
+                    "date": "04/02/2026",
+                    "words": 377
+                },
+                {
+                    "url": "r12685",
+                    "author": "The Familiars",
+                    "date": "04/02/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r12773",
+                    "author": "Montgomery Thatch",
+                    "date": "06/02/2026",
+                    "words": 352
+                },
+                {
+                    "url": "r12774",
+                    "author": "The Familiars",
+                    "date": "06/02/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r13363",
+                    "author": "Cuthbert S. Selwyn",
+                    "date": "17/02/2026",
+                    "words": 427
+                },
+                {
+                    "url": "r13364",
+                    "author": "The Familiars",
+                    "date": "17/02/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r12214",
+                    "author": "Black Wave",
+                    "date": "23/01/2026",
+                    "words": 135
+                },
+                {
+                    "url": "r13619",
+                    "author": "Aidan N. Flamel",
+                    "date": "20/02/2026",
+                    "words": 414
+                },
+                {
+                    "url": "r13620",
+                    "author": "The Familiars",
+                    "date": "20/02/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r13679",
+                    "author": "Minerva E. McGonagall",
+                    "date": "21/02/2026",
+                    "words": 333
+                },
+                {
+                    "url": "r13680",
+                    "author": "The Familiars",
+                    "date": "21/02/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r13836",
+                    "author": "Hermes Rosier",
+                    "date": "24/02/2026",
+                    "words": 403
+                },
+                {
+                    "url": "r13837",
+                    "author": "The Familiars",
+                    "date": "24/02/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r13854",
+                    "author": "Montgomery Thatch",
+                    "date": "24/02/2026",
+                    "words": 219
+                },
+                {
+                    "url": "r13944",
+                    "author": "Cuthbert S. Selwyn",
+                    "date": "25/02/2026",
+                    "words": 298
+                },
+                {
+                    "url": "r13945",
+                    "author": "The Familiars",
+                    "date": "25/02/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r14156",
+                    "author": "Aidan N. Flamel",
+                    "date": "01/03/2026",
+                    "words": 393
+                },
+                {
+                    "url": "r14157",
+                    "author": "The Familiars",
+                    "date": "01/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r14470",
+                    "author": "Minerva E. McGonagall",
+                    "date": "05/03/2026",
+                    "words": 368
+                },
+                {
+                    "url": "r14471",
+                    "author": "The Familiars",
+                    "date": "05/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r14520",
+                    "author": "Hermes Rosier",
+                    "date": "06/03/2026",
+                    "words": 285
+                },
+                {
+                    "url": "r14521",
+                    "author": "The Familiars",
+                    "date": "06/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r14530",
+                    "author": "Montgomery Thatch",
+                    "date": "06/03/2026",
+                    "words": 349
+                },
+                {
+                    "url": "r14566",
+                    "author": "Cuthbert S. Selwyn",
+                    "date": "07/03/2026",
+                    "words": 409
+                },
+                {
+                    "url": "r14567",
+                    "author": "The Familiars",
+                    "date": "07/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r14696",
+                    "author": "Aidan N. Flamel",
+                    "date": "10/03/2026",
+                    "words": 308
+                },
+                {
+                    "url": "r14697",
+                    "author": "The Familiars",
+                    "date": "10/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r12214",
+                    "author": "Black Wave",
+                    "date": "23/01/2026",
+                    "words": 135
+                },
+                {
+                    "url": "r14708",
+                    "author": "Minerva E. McGonagall",
+                    "date": "10/03/2026",
+                    "words": 248
+                },
+                {
+                    "url": "r14709",
+                    "author": "The Familiars",
+                    "date": "10/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r14910",
+                    "author": "Hermes Rosier",
+                    "date": "14/03/2026",
+                    "words": 291
+                },
+                {
+                    "url": "r14911",
+                    "author": "The Familiars",
+                    "date": "14/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r14937",
+                    "author": "Montgomery Thatch",
+                    "date": "15/03/2026",
+                    "words": 359
+                },
+                {
+                    "url": "r14938",
+                    "author": "The Familiars",
+                    "date": "15/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r14939",
+                    "author": "Cuthbert S. Selwyn",
+                    "date": "15/03/2026",
+                    "words": 214
+                },
+                {
+                    "url": "r14940",
+                    "author": "The Familiars",
+                    "date": "15/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r15089",
+                    "author": "Aidan N. Flamel",
+                    "date": "16/03/2026",
+                    "words": 218
+                },
+                {
+                    "url": "r15090",
+                    "author": "The Familiars",
+                    "date": "16/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r15147",
+                    "author": "Minerva E. McGonagall",
+                    "date": "18/03/2026",
+                    "words": 264
+                },
+                {
+                    "url": "r15148",
+                    "author": "The Familiars",
+                    "date": "18/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r15154",
+                    "author": "Hermes Rosier",
+                    "date": "18/03/2026",
+                    "words": 210
+                },
+                {
+                    "url": "r15155",
+                    "author": "The Familiars",
+                    "date": "18/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r15205",
+                    "author": "Montgomery Thatch",
+                    "date": "19/03/2026",
+                    "words": 457
+                },
+                {
+                    "url": "r15206",
+                    "author": "The Familiars",
+                    "date": "19/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r15238",
+                    "author": "Cuthbert S. Selwyn",
+                    "date": "20/03/2026",
+                    "words": 136
+                },
+                {
+                    "url": "r15239",
+                    "author": "The Familiars",
+                    "date": "20/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r15318",
+                    "author": "Aidan N. Flamel",
+                    "date": "23/03/2026",
+                    "words": 214
+                },
+                {
+                    "url": "r15319",
+                    "author": "The Familiars",
+                    "date": "23/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r12214",
+                    "author": "Black Wave",
+                    "date": "23/01/2026",
+                    "words": 135
+                },
+                {
+                    "url": "r15329",
+                    "author": "Minerva E. McGonagall",
+                    "date": "23/03/2026",
+                    "words": 312
+                },
+                {
+                    "url": "r15330",
+                    "author": "The Familiars",
+                    "date": "23/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r15367",
+                    "author": "Hermes Rosier",
+                    "date": "23/03/2026",
+                    "words": 247
+                },
+                {
+                    "url": "r15368",
+                    "author": "The Familiars",
+                    "date": "23/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r15581",
+                    "author": "Montgomery Thatch",
+                    "date": "27/03/2026",
+                    "words": 173
+                },
+                {
+                    "url": "r15660",
+                    "author": "Cuthbert S. Selwyn",
+                    "date": "28/03/2026",
+                    "words": 160
+                },
+                {
+                    "url": "r15661",
+                    "author": "The Familiars",
+                    "date": "28/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r15813",
+                    "author": "Aidan N. Flamel",
+                    "date": "31/03/2026",
+                    "words": 184
+                },
+                {
+                    "url": "r15814",
+                    "author": "The Familiars",
+                    "date": "31/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r15824",
+                    "author": "Minerva E. McGonagall",
+                    "date": "31/03/2026",
+                    "words": 220
+                },
+                {
+                    "url": "r15825",
+                    "author": "The Familiars",
+                    "date": "31/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r15879",
+                    "author": "Hermes Rosier",
+                    "date": "31/03/2026",
+                    "words": 301
+                },
+                {
+                    "url": "r15880",
+                    "author": "The Familiars",
+                    "date": "31/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r15896",
+                    "author": "Montgomery Thatch",
+                    "date": "31/03/2026",
+                    "words": 182
+                },
+                {
+                    "url": "r15897",
+                    "author": "The Familiars",
+                    "date": "31/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r15899",
+                    "author": "Cuthbert S. Selwyn",
+                    "date": "31/03/2026",
+                    "words": 129
+                },
+                {
+                    "url": "r15900",
+                    "author": "The Familiars",
+                    "date": "31/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16062",
+                    "author": "Aidan N. Flamel",
+                    "date": "02/04/2026",
+                    "words": 180
+                },
+                {
+                    "url": "r16063",
+                    "author": "The Familiars",
+                    "date": "02/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16086",
+                    "author": "Minerva E. McGonagall",
+                    "date": "03/04/2026",
+                    "words": 238
+                },
+                {
+                    "url": "r12214",
+                    "author": "Black Wave",
+                    "date": "23/01/2026",
+                    "words": 135
+                },
+                {
+                    "url": "r16087",
+                    "author": "The Familiars",
+                    "date": "03/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16158",
+                    "author": "Hermes Rosier",
+                    "date": "06/04/2026",
+                    "words": 238
+                },
+                {
+                    "url": "r16159",
+                    "author": "The Familiars",
+                    "date": "06/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16170",
+                    "author": "Valerian",
+                    "date": "07/04/2026",
+                    "words": 115
+                },
+                {
+                    "url": "r16192",
+                    "author": "Montgomery Thatch",
+                    "date": "07/04/2026",
+                    "words": 199
+                },
+                {
+                    "url": "r16193",
+                    "author": "The Familiars",
+                    "date": "07/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16321",
+                    "author": "Cuthbert S. Selwyn",
+                    "date": "10/04/2026",
+                    "words": 144
+                },
+                {
+                    "url": "r16322",
+                    "author": "The Familiars",
+                    "date": "10/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16523",
+                    "author": "Aidan N. Flamel",
+                    "date": "15/04/2026",
+                    "words": 197
+                },
+                {
+                    "url": "r16524",
+                    "author": "The Familiars",
+                    "date": "15/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16530",
+                    "author": "Minerva E. McGonagall",
+                    "date": "15/04/2026",
+                    "words": 197
+                },
+                {
+                    "url": "r16531",
+                    "author": "The Familiars",
+                    "date": "15/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16641",
+                    "author": "Hermes Rosier",
+                    "date": "18/04/2026",
+                    "words": 167
+                },
+                {
+                    "url": "r16642",
+                    "author": "The Familiars",
+                    "date": "18/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16692",
+                    "author": "Montgomery Thatch",
+                    "date": "19/04/2026",
+                    "words": 172
+                },
+                {
+                    "url": "r16693",
+                    "author": "The Familiars",
+                    "date": "19/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16786",
+                    "author": "Cuthbert S. Selwyn",
+                    "date": "20/04/2026",
+                    "words": 158
+                },
+                {
+                    "url": "r16787",
+                    "author": "The Familiars",
+                    "date": "20/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16807",
+                    "author": "Aidan N. Flamel",
+                    "date": "21/04/2026",
+                    "words": 154
+                },
+                {
+                    "url": "r16808",
+                    "author": "The Familiars",
+                    "date": "21/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r12214",
+                    "author": "Black Wave",
+                    "date": "23/01/2026",
+                    "words": 135
+                },
+                {
+                    "url": "r16840",
+                    "author": "Minerva E. McGonagall",
+                    "date": "22/04/2026",
+                    "words": 199
+                },
+                {
+                    "url": "r16841",
+                    "author": "The Familiars",
+                    "date": "22/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16915",
+                    "author": "Hermes Rosier",
+                    "date": "24/04/2026",
+                    "words": 236
+                },
+                {
+                    "url": "r16916",
+                    "author": "The Familiars",
+                    "date": "24/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16924",
+                    "author": "Montgomery Thatch",
+                    "date": "24/04/2026",
+                    "words": 198
+                },
+                {
+                    "url": "r16925",
+                    "author": "The Familiars",
+                    "date": "24/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r17169",
+                    "author": "Cuthbert S. Selwyn",
+                    "date": "30/04/2026",
+                    "words": 145
+                },
+                {
+                    "url": "r17170",
+                    "author": "The Familiars",
+                    "date": "30/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r17224",
+                    "author": "Aidan N. Flamel",
+                    "date": "01/05/2026",
+                    "words": 144
+                },
+                {
+                    "url": "r17225",
+                    "author": "The Familiars",
+                    "date": "01/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r17386",
+                    "author": "Minerva E. McGonagall",
+                    "date": "02/05/2026",
+                    "words": 226
+                },
+                {
+                    "url": "r17387",
+                    "author": "The Familiars",
+                    "date": "02/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r17505",
+                    "author": "Hermes Rosier",
+                    "date": "03/05/2026",
+                    "words": 391
+                },
+                {
+                    "url": "r17506",
+                    "author": "The Familiars",
+                    "date": "03/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r17511",
+                    "author": "Montgomery Thatch",
+                    "date": "03/05/2026",
+                    "words": 406
+                },
+                {
+                    "url": "r17512",
+                    "author": "The Familiars",
+                    "date": "03/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r17578",
+                    "author": "Cuthbert S. Selwyn",
+                    "date": "04/05/2026",
+                    "words": 217
+                },
+                {
+                    "url": "r17579",
+                    "author": "The Familiars",
+                    "date": "04/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r17699",
+                    "author": "Aidan N. Flamel",
+                    "date": "06/05/2026",
+                    "words": 267
+                },
+                {
+                    "url": "r17700",
+                    "author": "The Familiars",
+                    "date": "06/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r12214",
+                    "author": "Black Wave",
+                    "date": "23/01/2026",
+                    "words": 135
+                },
+                {
+                    "url": "r17857",
+                    "author": "Minerva E. McGonagall",
+                    "date": "08/05/2026",
+                    "words": 231
+                },
+                {
+                    "url": "r17896",
+                    "author": "Hermes Rosier",
+                    "date": "08/05/2026",
+                    "words": 312
+                },
+                {
+                    "url": "r17899",
+                    "author": "Montgomery Thatch",
+                    "date": "08/05/2026",
+                    "words": 228
+                },
+                {
+                    "url": "r17925",
+                    "author": "Cuthbert S. Selwyn",
+                    "date": "08/05/2026",
+                    "words": 221
+                },
+                {
+                    "url": "r17926",
+                    "author": "The Familiars",
+                    "date": "08/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r18116",
+                    "author": "Black Wave",
+                    "date": "11/05/2026",
+                    "words": 113
+                }
+            ],
+            "date": "03/02/1953",
+            "location": "Despacho del Director Dippet"
         },
         "933": {
             "space": "el pensadero",
@@ -52267,6 +53335,130 @@ const DBModule = (function () {
             ],
             "date": "26/02/1953",
             "location": "El brote verde"
+        },
+        "1000": {
+            "space": "el pensadero",
+            "url": "/t1000-1953-02-17-code-green",
+            "simpleTitle": "code green",
+            "creator": "Uranus H. Merrythought",
+            "posts": [
+                {
+                    "url": "r13654",
+                    "author": "Uranus H. Merrythought",
+                    "date": "21/02/2026",
+                    "words": 228
+                },
+                {
+                    "url": "r13678",
+                    "author": "Jupiter Merrythought",
+                    "date": "21/02/2026",
+                    "words": 412
+                },
+                {
+                    "url": "r14076",
+                    "author": "Uranus H. Merrythought",
+                    "date": "27/02/2026",
+                    "words": 313
+                },
+                {
+                    "url": "r14256",
+                    "author": "Jupiter Merrythought",
+                    "date": "02/03/2026",
+                    "words": 438
+                },
+                {
+                    "url": "r14806",
+                    "author": "Uranus H. Merrythought",
+                    "date": "12/03/2026",
+                    "words": 379
+                },
+                {
+                    "url": "r14856",
+                    "author": "Jupiter Merrythought",
+                    "date": "13/03/2026",
+                    "words": 365
+                },
+                {
+                    "url": "r15678",
+                    "author": "Uranus H. Merrythought",
+                    "date": "28/03/2026",
+                    "words": 272
+                },
+                {
+                    "url": "r15767",
+                    "author": "Jupiter Merrythought",
+                    "date": "30/03/2026",
+                    "words": 256
+                },
+                {
+                    "url": "r16327",
+                    "author": "Uranus H. Merrythought",
+                    "date": "10/04/2026",
+                    "words": 289
+                },
+                {
+                    "url": "r16346",
+                    "author": "Jupiter Merrythought",
+                    "date": "11/04/2026",
+                    "words": 319
+                },
+                {
+                    "url": "r16605",
+                    "author": "Uranus H. Merrythought",
+                    "date": "17/04/2026",
+                    "words": 353
+                },
+                {
+                    "url": "r16818",
+                    "author": "Jupiter Merrythought",
+                    "date": "21/04/2026",
+                    "words": 473
+                },
+                {
+                    "url": "r16819",
+                    "author": "The Familiars",
+                    "date": "21/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r17275",
+                    "author": "Uranus H. Merrythought",
+                    "date": "01/05/2026",
+                    "words": 298
+                },
+                {
+                    "url": "r17327",
+                    "author": "Jupiter Merrythought",
+                    "date": "01/05/2026",
+                    "words": 405
+                },
+                {
+                    "url": "r17575",
+                    "author": "Uranus H. Merrythought",
+                    "date": "04/05/2026",
+                    "words": 329
+                },
+                {
+                    "url": "r17680",
+                    "author": "Jupiter Merrythought",
+                    "date": "05/05/2026",
+                    "words": 433
+                },
+                {
+                    "url": "r18395",
+                    "author": "Uranus H. Merrythought",
+                    "date": "Ayer a las 11:43",
+                    "words": 295
+                },
+                {
+                    "url": "r18423",
+                    "author": "Jupiter Merrythought",
+                    "date": "Ayer a las 19:36",
+                    "words": 375
+                }
+            ],
+            "date": "17/02/1953",
+            "location": "San Mungo"
         },
         "1008": {
             "space": "el pensadero",
@@ -79671,6 +80863,727 @@ const DBModule = (function () {
             "url": "r17153",
             "simpleTitle": "no des puntadas sin hilo",
             "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                18
+            ],
+            "url": "r16819",
+            "simpleTitle": "code green",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Minerva E. McGonagall",
+            "spread": [
+                12
+            ],
+            "url": "r12275",
+            "simpleTitle": "misión: the murmur of the old guard",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Hermes Rosier",
+            "spread": [
+                2
+            ],
+            "url": "r12289",
+            "simpleTitle": "misión: the murmur of the old guard",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                18
+            ],
+            "url": "r12346",
+            "simpleTitle": "misión: the murmur of the old guard",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Cuthbert S. Selwyn",
+            "spread": [
+                11
+            ],
+            "url": "r12428",
+            "simpleTitle": "misión: the murmur of the old guard",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Aidan N. Flamel",
+            "spread": [
+                12,
+                10
+            ],
+            "url": "r12441",
+            "simpleTitle": "misión: the murmur of the old guard",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Minerva E. McGonagall",
+            "spread": [
+                19
+            ],
+            "url": "r12483",
+            "simpleTitle": "misión: the murmur of the old guard",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Hermes Rosier",
+            "spread": [
+                8
+            ],
+            "url": "r12685",
+            "simpleTitle": "misión: the murmur of the old guard",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                14
+            ],
+            "url": "r12774",
+            "simpleTitle": "misión: the murmur of the old guard",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Cuthbert S. Selwyn",
+            "spread": [
+                15
+            ],
+            "url": "r13364",
+            "simpleTitle": "misión: the murmur of the old guard",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Aidan N. Flamel",
+            "spread": [
+                5
+            ],
+            "url": "r13620",
+            "simpleTitle": "misión: the murmur of the old guard",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Minerva E. McGonagall",
+            "spread": [
+                12
+            ],
+            "url": "r13680",
+            "simpleTitle": "misión: the murmur of the old guard",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Hermes Rosier",
+            "spread": [
+                14
+            ],
+            "url": "r13837",
+            "simpleTitle": "misión: the murmur of the old guard",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Cuthbert S. Selwyn",
+            "spread": [
+                3
+            ],
+            "url": "r13945",
+            "simpleTitle": "misión: the murmur of the old guard",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Aidan N. Flamel",
+            "spread": [
+                18
+            ],
+            "url": "r14157",
+            "simpleTitle": "misión: the murmur of the old guard",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Minerva E. McGonagall",
+            "spread": [
+                18
+            ],
+            "url": "r14471",
+            "simpleTitle": "misión: the murmur of the old guard",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Hermes Rosier",
+            "spread": [
+                11
+            ],
+            "url": "r14521",
+            "simpleTitle": "misión: the murmur of the old guard",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Cuthbert S. Selwyn",
+            "spread": [
+                9
+            ],
+            "url": "r14567",
+            "simpleTitle": "misión: the murmur of the old guard",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Aidan N. Flamel",
+            "spread": [
+                9,
+                6,
+                12,
+                6
+            ],
+            "url": "r14697",
+            "simpleTitle": "misión: the murmur of the old guard",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Minerva E. McGonagall",
+            "spread": [
+                4,
+                7,
+                15,
+                6
+            ],
+            "url": "r14709",
+            "simpleTitle": "misión: the murmur of the old guard",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Hermes Rosier",
+            "spread": [
+                6,
+                7,
+                1,
+                17
+            ],
+            "url": "r14911",
+            "simpleTitle": "misión: the murmur of the old guard",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                8
+            ],
+            "url": "r14938",
+            "simpleTitle": "misión: the murmur of the old guard",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Cuthbert S. Selwyn",
+            "spread": [
+                3,
+                1,
+                10,
+                16
+            ],
+            "url": "r14940",
+            "simpleTitle": "misión: the murmur of the old guard",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Aidan N. Flamel",
+            "spread": [
+                14,
+                17,
+                20,
+                10
+            ],
+            "url": "r15090",
+            "simpleTitle": "misión: the murmur of the old guard",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Minerva E. McGonagall",
+            "spread": [
+                20,
+                12,
+                15,
+                3
+            ],
+            "url": "r15148",
+            "simpleTitle": "misión: the murmur of the old guard",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Hermes Rosier",
+            "spread": [
+                11,
+                5,
+                1,
+                10
+            ],
+            "url": "r15155",
+            "simpleTitle": "misión: the murmur of the old guard",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                3,
+                13,
+                14,
+                6
+            ],
+            "url": "r15206",
+            "simpleTitle": "misión: the murmur of the old guard",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Cuthbert S. Selwyn",
+            "spread": [
+                7,
+                1,
+                4,
+                16
+            ],
+            "url": "r15239",
+            "simpleTitle": "misión: the murmur of the old guard",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Aidan N. Flamel",
+            "spread": [
+                16,
+                12,
+                20,
+                2
+            ],
+            "url": "r15319",
+            "simpleTitle": "misión: the murmur of the old guard",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Minerva E. McGonagall",
+            "spread": [
+                17,
+                17,
+                15,
+                2
+            ],
+            "url": "r15330",
+            "simpleTitle": "misión: the murmur of the old guard",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Hermes Rosier",
+            "spread": [
+                6,
+                18,
+                20,
+                16
+            ],
+            "url": "r15368",
+            "simpleTitle": "misión: the murmur of the old guard",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Cuthbert S. Selwyn",
+            "spread": [
+                13,
+                15,
+                20,
+                16
+            ],
+            "url": "r15661",
+            "simpleTitle": "misión: the murmur of the old guard",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Aidan N. Flamel",
+            "spread": [
+                15
+            ],
+            "url": "r15814",
+            "simpleTitle": "misión: the murmur of the old guard",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Minerva E. McGonagall",
+            "spread": [
+                13,
+                15,
+                10
+            ],
+            "url": "r15825",
+            "simpleTitle": "misión: the murmur of the old guard",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Hermes Rosier",
+            "spread": [
+                8,
+                15,
+                10,
+                6
+            ],
+            "url": "r15880",
+            "simpleTitle": "misión: the murmur of the old guard",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                11,
+                17,
+                12,
+                20
+            ],
+            "url": "r15897",
+            "simpleTitle": "misión: the murmur of the old guard",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Cuthbert S. Selwyn",
+            "spread": [
+                13,
+                16,
+                8,
+                16
+            ],
+            "url": "r15900",
+            "simpleTitle": "misión: the murmur of the old guard",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Aidan N. Flamel",
+            "spread": [
+                5,
+                11,
+                2
+            ],
+            "url": "r16063",
+            "simpleTitle": "misión: the murmur of the old guard",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Minerva E. McGonagall",
+            "spread": [
+                11,
+                12,
+                12
+            ],
+            "url": "r16087",
+            "simpleTitle": "misión: the murmur of the old guard",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Hermes Rosier",
+            "spread": [
+                9,
+                3
+            ],
+            "url": "r16159",
+            "simpleTitle": "misión: the murmur of the old guard",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                6,
+                6,
+                4,
+                8,
+                2,
+                1
+            ],
+            "url": "r16193",
+            "simpleTitle": "misión: the murmur of the old guard",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Cuthbert S. Selwyn",
+            "spread": [
+                16,
+                20,
+                7,
+                5
+            ],
+            "url": "r16322",
+            "simpleTitle": "misión: the murmur of the old guard",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Aidan N. Flamel",
+            "spread": [
+                20,
+                11,
+                4,
+                19
+            ],
+            "url": "r16524",
+            "simpleTitle": "misión: the murmur of the old guard",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Minerva E. McGonagall",
+            "spread": [
+                3,
+                19,
+                10,
+                2
+            ],
+            "url": "r16531",
+            "simpleTitle": "misión: the murmur of the old guard",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Hermes Rosier",
+            "spread": [
+                17,
+                9
+            ],
+            "url": "r16642",
+            "simpleTitle": "misión: the murmur of the old guard",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                8,
+                5
+            ],
+            "url": "r16693",
+            "simpleTitle": "misión: the murmur of the old guard",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Cuthbert S. Selwyn",
+            "spread": [
+                5,
+                6
+            ],
+            "url": "r16787",
+            "simpleTitle": "misión: the murmur of the old guard",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Aidan N. Flamel",
+            "spread": [
+                13,
+                16,
+                8,
+                14
+            ],
+            "url": "r16808",
+            "simpleTitle": "misión: the murmur of the old guard",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Minerva E. McGonagall",
+            "spread": [
+                10,
+                1,
+                2,
+                14
+            ],
+            "url": "r16841",
+            "simpleTitle": "misión: the murmur of the old guard",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Hermes Rosier",
+            "spread": [
+                7,
+                4
+            ],
+            "url": "r16916",
+            "simpleTitle": "misión: the murmur of the old guard",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                6,
+                18,
+                20,
+                18
+            ],
+            "url": "r16925",
+            "simpleTitle": "misión: the murmur of the old guard",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Cuthbert S. Selwyn",
+            "spread": [
+                8
+            ],
+            "url": "r17170",
+            "simpleTitle": "misión: the murmur of the old guard",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Aidan N. Flamel",
+            "spread": [
+                17
+            ],
+            "url": "r17225",
+            "simpleTitle": "misión: the murmur of the old guard",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Minerva E. McGonagall",
+            "spread": [
+                1,
+                1
+            ],
+            "url": "r17387",
+            "simpleTitle": "misión: the murmur of the old guard",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Hermes Rosier",
+            "spread": [
+                8
+            ],
+            "url": "r17506",
+            "simpleTitle": "misión: the murmur of the old guard",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                3
+            ],
+            "url": "r17512",
+            "simpleTitle": "misión: the murmur of the old guard",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Cuthbert S. Selwyn",
+            "spread": [
+                1
+            ],
+            "url": "r17579",
+            "simpleTitle": "misión: the murmur of the old guard",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Aidan N. Flamel",
+            "spread": [
+                11
+            ],
+            "url": "r17700",
+            "simpleTitle": "misión: the murmur of the old guard",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Cuthbert S. Selwyn",
+            "spread": [
+                16
+            ],
+            "url": "r17926",
+            "simpleTitle": "misión: the murmur of the old guard",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Ruaan S. Patil",
+            "spread": [
+                11
+            ],
+            "url": "r11222",
+            "simpleTitle": "oh no, you didn't!",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Ruaan S. Patil",
+            "spread": [
+                19,
+                14
+            ],
+            "url": "r12113",
+            "simpleTitle": "oh no, you didn't!",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jasper R. Gryffith",
+            "spread": [
+                17,
+                8
+            ],
+            "url": "r12115",
+            "simpleTitle": "oh no, you didn't!",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Ruaan S. Patil",
+            "spread": [
+                1
+            ],
+            "url": "r12309",
+            "simpleTitle": "oh no, you didn't!",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jasper R. Gryffith",
+            "spread": [
+                7,
+                20
+            ],
+            "url": "r12474",
+            "simpleTitle": "oh no, you didn't!",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Ruaan S. Patil",
+            "spread": [
+                19,
+                7
+            ],
+            "url": "r12807",
+            "simpleTitle": "oh no, you didn't!",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jasper R. Gryffith",
+            "spread": [
+                11,
+                18
+            ],
+            "url": "r12850",
+            "simpleTitle": "oh no, you didn't!",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Ruaan S. Patil",
+            "spread": [
+                4,
+                10
+            ],
+            "url": "r13146",
+            "simpleTitle": "oh no, you didn't!",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jasper R. Gryffith",
+            "spread": [
+                18
+            ],
+            "url": "r14823",
+            "simpleTitle": "oh no, you didn't!",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Ruaan S. Patil",
+            "spread": [
+                20,
+                15
+            ],
+            "url": "r15475",
+            "simpleTitle": "oh no, you didn't!",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Vasilisa M. Kuznetzova",
+            "spread": [
+                16
+            ],
+            "url": "r10803",
+            "simpleTitle": "animal i have become",
+            "space": "el pensadero"
         }
     ];
 
@@ -80047,7 +81960,7 @@ const DBModule = (function () {
                 timestamp: cacheData?.timestamp || Date.now(),
                 zones: cacheData?.zones || (parseInt(localStorage.getItem(INDEX_KEY)) || 0)
             };
-            
+
             const fecha = new Date(Number(last.timestamp));
 
             const dia = fecha.getDate().toString().padStart(2, '0');
