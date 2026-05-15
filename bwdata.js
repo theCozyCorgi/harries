@@ -4408,8 +4408,8 @@ const MissionsModule = (function () {
           "defensas": {
             "leve": 'Defiende con hechizo: "Protego". Adiciona +4 de defensa.',
             "moderado": 'Defiende con hechizo: "Protego". Adiciona +6 de defensa.',
-            "exitoso": 'Defiende con hechizo: "Protego". Adiciona +8 de defensa. Si la defensa gana, llama a otro Guardia, sumando un nuevo PNJ con las mismas cualidades a las que deberán enfrentarse.',
-            "critico": 'Defiende con hechizo: "Protego". Adiciona +10 de defensa. Si la defensa gana, llama a otro Guardia, sumando un nuevo PNJ con las mismas cualidades a las que deberán enfrentarse.',
+            "exitoso": 'Defiende con hechizo: "Protego". Adiciona +8 de defensa. Si la defensa gana, llama a otro Guardia, sumando un nuevo PNJ con las mismas cualidades a las que deberán enfrentarse. Solo existen 13 guardias en el edificio.',
+            "critico": 'Defiende con hechizo: "Protego". Adiciona +10 de defensa. Si la defensa gana, llama a otro Guardia, sumando un nuevo PNJ con las mismas cualidades a las que deberán enfrentarse. Solo existen 13 guardias en el edificio.',
           },
         },
       },
@@ -4493,31 +4493,31 @@ const MissionsModule = (function () {
 
       "actions": {
         "tacite": {
-          "leve": '<span>Los personajes son vistos por el guardia, deberán enfrentarse a un "Guardia" deberán incluirlo como PNJ. Posee 35PV y 3 de Fuerza y Constitución.</span>',
-          "moderado": '<span>Los personajes son vistos por el guardia, deberán enfrentarse a un "Guardia" deberán incluirlo como PNJ. Posee 35PV y 3 de Fuerza y Constitución.</span>',
+          "leve": '<span>Los personajes son vistos por el guardia, deberán enfrentarse a un "Guardia" deberán incluirlo como PNJ. Posee 35PV y 3 de Fuerza y Constitución. Solo existen 13 guardias en el edificio.</span>',
+          "moderado": '<span>Los personajes son vistos por el guardia, deberán enfrentarse a un "Guardia" deberán incluirlo como PNJ. Posee 35PV y 3 de Fuerza y Constitución. Solo existen 13 guardias en el edificio.</span>',
           "exitoso": '<span>Logran evitar ser vistos por el guardia.</span>',
           "critico": '<span>Logran evitar ser vistos por el guardia.</span>',
         },
         "lumos": {
-          "leve": '<span>Alerta a un guardia de su presencia, deberán enfrentarse a un "Guardia" deberán incluirlo como PNJ. Posee 35PV y 3 de Fuerza y Constitución.</span>',
+          "leve": '<span>Alerta a un guardia de su presencia, deberán enfrentarse a un "Guardia" deberán incluirlo como PNJ. Posee 35PV y 3 de Fuerza y Constitución. Solo existen 13 guardias en el edificio.</span>',
           "moderado": '<span>Adiciona +10 en el puntaje de avance. Para poder llegar a la entrada, deberán llegar a 200 puntos. Al finalizar el objetivo, deberán pedir intervención del staff.</span>',
           "exitoso": '<span>Adiciona +15 en el puntaje de avance. Para poder llegar a la entrada, deberán llegar a 200 puntos. Al finalizar el objetivo, deberán pedir intervención del staff.</span>',
           "critico": '<span>Adiciona +20 en el puntaje de avance. Para poder llegar a la entrada, deberán llegar a 200 puntos. Al finalizar el objetivo, deberán pedir intervención del staff.</span>',
         },
         "manus umbrarum": {
-          "leve": '<span>Alerta a un guardia de su presencia, deberán enfrentarse a un "Guardia" deberán incluirlo como PNJ. Posee 35PV y 3 de Fuerza y Constitución.</span>',
+          "leve": '<span>Alerta a un guardia de su presencia, deberán enfrentarse a un "Guardia" deberán incluirlo como PNJ. Posee 35PV y 3 de Fuerza y Constitución. Solo existen 13 guardias en el edificio.</span>',
           "moderado": '<span>Permite robar una escoba.</span>',
           "exitoso": '<span>Permite robar dos escobas.</span>',
           "critico": '<span>Permite robar tres escobas.</span>',
         },
         "vuelo": {
-          "leve": '<span>Alerta a un guardia de su presencia, deberán enfrentarse a un "Guardia" deberán incluirlo como PNJ. Posee 35PV y 3 de Fuerza y Constitución.</span>',
-          "moderado": '<span>Permite ascender hasta el segundo piso. Sin embargo el aterrizaje advierte a uno de los guardias. Deberán enfrentarse a un "Guardia" deberán incluirlo como PNJ. Posee 35PV y 3 de Fuerza y Constitución. Al finalizar el objetivo, deberán pedir intervención del staff.</span>',
+          "leve": '<span>Alerta a un guardia de su presencia, deberán enfrentarse a un "Guardia" deberán incluirlo como PNJ. Posee 35PV y 3 de Fuerza y Constitución. Solo existen 13 guardias en el edificio.</span>',
+          "moderado": '<span>Permite ascender hasta el segundo piso. Sin embargo el aterrizaje advierte a uno de los guardias. Deberán enfrentarse a un "Guardia" deberán incluirlo como PNJ. Posee 35PV y 3 de Fuerza y Constitución. Solo existen 13 guardias en el edificio.</span>',
           "exitoso": '<span>Permite ascender hasta el segundo piso. Deberán solicitar intervención al staff.</span>',
           "critico": '<span>Permite ascender hasta el segundo piso. Deberán solicitar intervención al staff.</span>',
         },
         "vuelo en velocidad": {
-          "leve": '<span>Alerta a un guardia de su presencia, deberán enfrentarse a un "Guardia" deberán incluirlo como PNJ. Posee 35PV y 3 de Fuerza y Constitución.</span>',
+          "leve": '<span>Alerta a un guardia de su presencia, deberán enfrentarse a un "Guardia" deberán incluirlo como PNJ. Posee 35PV y 3 de Fuerza y Constitución. Solo existen 13 guardias en el edificio.</span>',
           "moderado": '<span>Permite ascender hasta el segundo piso. Deberán solicitar intervención al staff.</span>',
           "exitoso": '<span>Permite ascender hasta el segundo piso. Deberán solicitar intervención al staff.</span>',
           "critico": '<span>Permite ascender hasta el segundo piso. Deberán solicitar intervención al staff.</span>',
