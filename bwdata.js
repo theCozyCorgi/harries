@@ -8230,7 +8230,7 @@ const MissionsModule = (function () {
         },
         "desafío #13": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #12",
-            "cont": '<span>Haber recolectado 20 grageas de diferentes sabores.</span>',
+            "cont": '<span>Haber recolectado 30 grageas de sabores. Pueden presentar el enlace al baúl.</span>',
         },
         "desafío #14": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #13",
@@ -8250,7 +8250,7 @@ const MissionsModule = (function () {
         },
         "desafío #18": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #17",
-            "cont": '<span>Haber recolectado 10 grageas del mismo sabor. ¡Cuidado! El primero en postear elije la gragea que deben completar.</span>',
+            "cont": '<span>Haber recolectado 20 grageas de diferentes sabores.</span>',
         },
         "desafío #19": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #18",
@@ -8274,7 +8274,7 @@ const MissionsModule = (function () {
         },
         "desafío #24": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #23",
-            "cont": '<span>Haber realizado 1 hechizo que sea "Eminencia" y el resultado sea entre Leve y Crítico.</span>',
+            "cont": '<span>Haber lanzado 10 grageas del mismo sabor. ¡Cuidado! El primero en postear elije la gragea que deben completar.</span>',
         },
         "desafío #25": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #24",
