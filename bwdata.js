@@ -4360,7 +4360,7 @@ const MissionsModule = (function () {
     "price of the dark favor": {
       "description": "Nina y Wrenn se metieron donde no debían, y para escapar de esa situación tuvieron que pagar un alto precio. Un precio que ahora tocará descubrir, así como a quién le debió el favor.",
       "image": "https://2img.net/i.imgur.com/nVh3XB1.png", "requisitos": ["Un personaje deberá ser miembro del Departamento de Seguridad"],
-      "users": ["c/u8", "c/u55", "/u145", "/u91"],
+      "users": ["c/u8", "c/u55", "/u91", "/u156"],
       "dependency": ["paper mask", "midnight ashes", "clandestine melodies", "silent sentinel"],
       "type": "misión", "closed": false, "link": "", "tagged": ["original", "capitulo 3"],
 
