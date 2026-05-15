@@ -4370,17 +4370,17 @@ const MissionsModule = (function () {
     },
     // price of the dark favor
 
-    /*"dragonfly's secrets": {
-      "description": "Los Moody poseían un depósito de obras de arte del museo, donde guardaban aquellas de más valor en un espacio seguro, sin embargo, Wrenn Wraithwood ha robado la llave del mismo y, ahora, deberán descubrir qué robó.",
+    "dragonfly's secrets": {
+      "description": "Los Moody poseían un depósito de obras de arte donde guardaban aquellas de más valor en un espacio seguro. Sin embargo, Wrenn Wraithwood ha robado la llave del mismo y, ahora, deberán descubrir qué fue lo que robó.",
       "image": "https://2img.net/i.imgur.com/9fKGJPH.png", "requisitos": ["Un personaje deberá ser miembro del Departamento de Seguridad"],
-      "users": [],
+      "users": ["c/u8"],
       "dependency": ["yule", "frozen sunflowers"],
-      "type": "investigación", "closed": false, "link": "", "tagged": ["original"],
+      "type": "misión", "closed": false, "link": "", "tagged": ["original"],
 
       "cards": [],
       "searchs": {},
       "actions": {},
-    },*/
+    },
     // dragonfly's secrets
 
     "a gentle hand": {
