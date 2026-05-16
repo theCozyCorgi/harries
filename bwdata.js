@@ -8246,7 +8246,7 @@ const MissionsModule = (function () {
         },
         "desafío #14": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #13",
-            "cont": '<span>Haber completado 15 eventos. Los temas deben ser diferentes.</span>',
+            "cont": '<span>Haber completado 5 eventos. Los temas deben ser diferentes.</span>',
         },
         "desafío #15": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #14",
