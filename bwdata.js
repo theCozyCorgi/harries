@@ -2463,6 +2463,22 @@ const MissionsModule = (function () {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "golpear las puertas 3-2-3 veces",
           "cont": '<span>La prima planta es una sala redonda. Hay sillones que el tiempo ha corroído, un hogar que no ha visto el fuego en años. Hay pinturas en las paredes y una pequeña cocina con varios calderos que el tiempo ha terminado por destruir. Aquella parecía ser la entrada principal.</span>',
         },
+        "subir las escaleras": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "inspeccionar primera planta",
+          "cont": '<span>Los escalones de concreto paren ser fiables mientras se avanza en una escalera que rodea la sala circular. Sin embargo, cuando comienzan a divisar la siguiente planta, pueden notar que parece más habitada que la planta que acaban de ver. La alfombra de un color rojo es nueva y toda la sala se encuentra limpia. Hay un escritorio cerca de una de las ventanas. Muebles de madera pulida y una chimenea que parece no dar a ningún lado.</span>',
+        },
+        "inspeccionar la chimenea": {
+          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "subir las escaleras",
+          "cont": '<span>Puede notarse que la chimenea, ha estado encendida con anterioridad. Un par de meses atrás, tal vez un año. Ya no hay rastro de calor, pero los troncos desaparecieron después de tanto tiempo. También pueden comprobar la bandeja de plata en forma de mano que guarda polvos flu.</span>',
+        },
+        "inspeccionar la pared": {
+          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "subir las escaleras",
+          "cont": '<span>Las pinturas de la pared, desgastadas con el paso del tiempo, parecen solo hojas y ramas, hasta que se presta atención a los mismos. Se trata de un árbol familiar, que crece frontodoso a medida que baja. Los apellidos son conocidos de todos los presentes: Black.</span>',
+        },
+        "inspeccionar el escritorio": {
+          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "subir las escaleras",
+          "cont": '<span>Al llegar al escritorio, pueden encontrar un florero que solía contener rosas, pergaminos en blanco y correspondencias cuyo destinatario no era nada más y nada menos que Sirius Black.</span>',
+        },
       },
 
       "actions": {},
@@ -2705,6 +2721,18 @@ const MissionsModule = (function () {
           "visible": { "attr": { "val": "min" }, "know": { "banshees": "5" }, "job": "invalid", "name": "invalid", }, "place": "dayflower garden",
           "cont": '<span>Si una banshee apoya sus palmas sobre las gélidas baldosas, su conexión con el más allá le revelará dos verdades absolutas. Primero, el eco putrefacto de una tragedia: ese mismo sendero ya devoró una vida hace décadas. Segundo, una condena latente: la muerte reclamará una nueva alma si quiebran el silencio sepulcral que exige el jardín.</span>',
         },
+        "regresar a la casa": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "intervencion1",
+          "cont": '<span>Permite al personaje regresar a la casa. Esta acción deberá tomarla cada personaje para poder regresar.<adding class="check-cards" search="casa"></adding></span>',
+        },
+        "regresar a la casa con otro personaje": {
+          "visible": { "attr": { "fue": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "intervencion1",
+          "cont": '<span>Permite al personaje regresar a la casa, llevando un personaje por cada 2 puntos de Fuerza que posee. Narrativamente, lleva un personaje, vuelve y luego lleva otro.<adding class="check-cards" search="casa"></adding></span>',
+        },
+        "contadores": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "casa",
+          "cont": '<span>El contador de baldosas regresa a cero al igual que el contador de advertencias.</span>',
+        },
       },
       "actions": {
         "tacite": {
@@ -2782,9 +2810,9 @@ const MissionsModule = (function () {
         },
         "vox tenebris": {
           "leve": '<span>La música no es suficiente para calmar a las mandrágoras que se remueven en el sitio. Suma +1 al contador de advertencias. Al llegar a 3 deberán pedir intervención administrativa al despertar a las mismas.</span>',
-          "moderado": '<span>La música calma a las mandrágoras, permitiendo que el grupo avance +3 baldosas.</span>',
-          "exitoso": '<span>La música calma a las mandrágoras, permitiendo que el grupo avance +4 baldosas.</span>',
-          "critico": '<span>La música calma a las mandrágoras, permitiendo que el grupo avance +5 baldosas.</span>',
+          "moderado": '<span>La música calma a las mandrágoras, permitiendo que el grupo avance 1 ronda sin necesidad de tirar tacite.</span>',
+          "exitoso": '<span>La música calma a las mandrágoras, permitiendo que el grupo avance 2 rondas sin necesidad de tirar tacite.</span>',
+          "critico": '<span>La música calma a las mandrágoras, permitiendo que el grupo avance 3 rondas sin necesidad de tirar tacite.</span>',
         },
       },
     },
