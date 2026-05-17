@@ -2814,6 +2814,12 @@ const MissionsModule = (function () {
           "exitoso": '<span>La música calma a las mandrágoras, permitiendo que el grupo avance 2 rondas sin necesidad de tirar tacite.</span>',
           "critico": '<span>La música calma a las mandrágoras, permitiendo que el grupo avance 3 rondas sin necesidad de tirar tacite.</span>',
         },
+        "mobilicorpus": {
+          "leve": '<span>No es suficiente para revelar información.</span>',
+          "moderado": '<span>Permite mover 1 personaje para regresar a la casa. Debe realizarse desde el interior de la casa.</span>',
+          "exitoso": '<span>Permite mover 1 personaje para regresar a la casa. Debe realizarse desde el interior de la casa.</span>',
+          "critico": '<span>Permite mover 2 personajes para regresar a la casa. Debe realizarse desde el interior de la casa.</span>',
+        },
       },
     },
     // fin the murmuring woods
