@@ -4373,7 +4373,7 @@ const MissionsModule = (function () {
     "dragonfly's secrets": {
       "description": "Los Moody poseían un depósito de obras de arte donde guardaban aquellas de más valor en un espacio seguro. Sin embargo, Wrenn Wraithwood ha robado la llave del mismo y, ahora, deberán descubrir qué fue lo que robó.",
       "image": "https://2img.net/i.imgur.com/9fKGJPH.png", "requisitos": ["Un personaje deberá ser miembro del Departamento de Seguridad"],
-      "users": ["c/u8"],
+      "users": ["c/u8","/u161","/u177"],
       "dependency": ["yule", "frozen sunflowers"],
       "type": "misión", "closed": false, "link": "", "tagged": ["original"],
 
