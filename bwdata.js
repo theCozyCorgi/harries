@@ -2726,7 +2726,7 @@ const MissionsModule = (function () {
           "cont": '<span>Permite al personaje regresar a la casa. Esta acción deberá tomarla cada personaje para poder regresar.<adding class="check-cards" search="casa"></adding></span>',
         },
         "regresar a la casa con otro personaje": {
-          "visible": { "attr": { "fue": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "intervencion1",
+          "visible": { "attr": { "fue": "3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "intervencion1",
           "cont": '<span>Permite al personaje regresar a la casa, llevando un personaje por cada 2 puntos de Fuerza que posee. Narrativamente, lleva un personaje, vuelve y luego lleva otro.<adding class="check-cards" search="casa"></adding></span>',
         },
         "contadores": {
