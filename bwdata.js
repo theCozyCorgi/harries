@@ -8291,7 +8291,7 @@ const MissionsModule = (function () {
         },
         "desafío #20": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #19",
-            "cont": '<span>Haber realizado 10 hechizos diferentes que sean "Consagrado" y el resultado sea entre Leve y Crítico.</span>',
+            "cont": '<span>Haber realizado 10 hechizos diferentes que sean "Consagrado" y el resultado sea entre Leve y Crítico. Por este desafío el cooldown se reduce a 3 usuarios.</span>',
         },
         "desafío #21": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #20",
@@ -8299,7 +8299,7 @@ const MissionsModule = (function () {
         },
         "desafío #22": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #21",
-            "cont": '<span>Haber realizado 5 hechizos diferentes que sean "Maestro" y el resultado sea entre Leve y Crítico.</span>',
+            "cont": '<span>Haber realizado 5 hechizos diferentes que sean "Maestro" y el resultado sea entre Leve y Crítico. Por este desafío el cooldown se reduce a 3 usuarios.</span>',
         },
         "desafío #23": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #22",
@@ -8315,7 +8315,7 @@ const MissionsModule = (function () {
         },
         "desafío #26": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #25",
-            "cont": '<span>Encontrar las 26 burbujas con plantas escondidas en los roles.</span>',
+            "cont": '<span>Encontrar las 26 burbujas con plantas escondidas en los roles. No podrán presentar más de 7 burbujas en las evidencias.</span>',
         }
       },
 
