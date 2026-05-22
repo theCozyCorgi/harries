@@ -8303,7 +8303,7 @@ const MissionsModule = (function () {
         },
         "desafío #23": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #22",
-            "cont": '<span>Realizar 100 roles posteriores a la publicación del desafío #17.</span>',
+            "cont": '<span>Realizar 100 roles posteriores a la publicación del desafío #17. Por este desafío no hay cooldown de usuarios.</span>',
         },
         "desafío #24": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #23",
