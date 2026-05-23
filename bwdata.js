@@ -8311,7 +8311,7 @@ const MissionsModule = (function () {
         },
         "desafío #25": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #24",
-            "cont": '<span>Haber cerrado 2 temas con personajes diferentes de cada uno de los 7 grupos. Es decir: 2 temas cerrados con gryffindor diferentes, 2 con slytherin diferentes, 2 con ravenclaw diferentes, 2 con hufflepuff diferentes, 2 con funcionarios diferentes, 2 con emprendedores diferentes y 2 con errantes diferentes. No se pueden repetir temas y tampoco contaran aquellos abiertos por la administración. El cooldown se reduce a 3 usuarios.</span>',
+            "cont": '<span>Haber realizado 2 hechizos por cada asignatura dictada en Hogwarts: Adivinación, Alquimia, Aritmancia, Astronomía, CCM, DCAO, Encantamientos, Estudios Muggles, Herbología, Historia de la Magia, Pociones, Runas Antiguas, Transformaciones, Vuelo.</span>',
         },
         "desafío #26": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #25",
