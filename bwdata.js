@@ -8311,7 +8311,7 @@ const MissionsModule = (function () {
         },
         "desafío #25": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #24",
-            "cont": '<span>Haber realizado 2 hechizos por cada asignatura dictada en Hogwarts: Adivinación, Alquimia, Aritmancia, Astronomía, CCM, DCAO, Encantamientos, Estudios Muggles, Herbología, Historia de la Magia, Pociones, Runas Antiguas, Transformaciones, Vuelo.</span>',
+            "cont": '<span>Haber realizado 2 hechizos diferentes por cada asignatura dictada en Hogwarts: Adivinación, Alquimia, Aritmancia, Astronomía, CCM, DCAO, Encantamientos, Estudios Muggles, Herbología, Historia de la Magia, Pociones, Runas Antiguas, Transformaciones, Vuelo. El resultado debe ser entre Leve y Crítico.</span>',
         },
         "desafío #26": {
             "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #25",
