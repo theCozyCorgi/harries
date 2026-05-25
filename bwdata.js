@@ -1476,7 +1476,46 @@ const MissionsModule = (function () {
       "type": "misión", "closed": false, "link": "",
 
       "cards": [],
-      "searchs": {},
+
+      "searchs": {
+          "resultado del perimetro realizado": {
+            "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "",
+            "cont": '<span>Tras unos días de investigación sobre el lugar en el que los aurores buscaron recabar información sin levantar las alarmas, notaron que nadie usa la entrada principal. Sino que el ingreso lo hacen al mediodía con un camión que llega a las instalaciones para marcharse a las doce de la noche.</span>',
+          },
+          "puerta de atrás": {
+            "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "resultado del perimetro realizado",
+            "cont": '<span>La puerta de atrás parece más simple que la de la entrada. Mucho más pequeña, con un espacio de carga y descarga de mercancía. Sin embargo, la misma se encuentra custodiada por tres guardias que patrullan constantemente. Dos en el interior y uno en el exterior. Ingresar por allí sin involucrar un enfrentamiento sería tarea imposible.</span>',
+          },
+          "seguridad interna": {
+            "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "resultado del perimetro realizado",
+            "cont": '<span>Además, el perímetro realizado indicó que el establecimiento tiene veinte ventanas, de las cuales pudo sacarse la siguiente información: existen 22 guardias que patrullan el interior del edificio. Cambian cada doce horas de manera secuencial, de manera que ningún piso se encuentra sin guardia. Esperar un cambio de la misma tampoco sería factible.</span>',
+          },
+          "hechizos de seguridad": {
+            "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "resultado del perimetro realizado",
+            "cont": '<span>Sumado a eso, todos los cristales cuentan con protecciones para que no se puedan romper desde el exterior y el edificio cuenta con un radio en el que no pueden aparecerse a menos de medio metro de las entradas.</span>',
+          },
+          "prueba ingreso por la puerta principal": {
+            "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "resultado del perimetro realizado",
+            "cont": '<span>El Departamento de Seguridad les prestó un squib que sirve como espía en el mundo muggle para que pudieran hacer la prueba de qué sucedía si alguien se acercaba a la misma. El resultado fue que abrieron la puerta y negaron cualquier relación con la persona hasta que no le quedó otra alternativa más que marcharse. En el interior se veían, además de los guardias de las ventanas, doce guardias en la planta de abajo.</span>',
+          },
+          "aura de la puerta principal": {
+            "visible": { "attr": { "val": "min" }, "know": { "magia oscura": "10" }, "job": "invalid", "name": "invalid", }, "place": "",
+            "cont": '<span>Si se observa con cuidado, se puede detectar que la puerta del establecimiento ha sido corrompida con una maldición de magia negra. Aquellos que han estudiado las artes pueden notar la forma en la que la maldición se encuentra aferrada a la madera y se enrieda en el picaporte.</span>',
+          },
+          "requisitos para desarmar la maldición": {
+            "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "rompemaldiciones", "name": "invalid", }, "place": "aura de la puerta principal",
+            "cont": '<span>Para poder desarmar la maldición, se necesitan un par de hechizos, pero no es un trabajo para hacerse a la distancia. Necesitaría acercamiento para poder identificar la misma y un tiempo adicional para poder hacer que la puerta vuelva a ser inofensiva. Los mejores rompemaldiciones dirían que es una tarea de, al menos, quince minutos.</span>',
+          },
+          "tiempo disponible en la entrada": {
+            "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "requisitos para desarmar la maldición",
+            "cont": '<span>Por el perímetro realizado, saben de buena mano que, cuando una persona pasa más de cinco minutos en la entrada, un guardia disfrazado de muggle se acerca para pedir que continúe circulando.</span>',
+          },
+          "requisitos para infiltrarse en el camión": {
+            "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "resultado del perimetro realizado",
+            "cont": '<span>Para poder infiltrarse con el camión, deben ir a un punto de encuentro que se encuentra a unas quince cuadras de allí. Un espacio donde podrían tener tiempo para poder detener el camión e ingresar en el mismo. El Ministerio les ha provisto para la misión poción multijugos.</span>',
+          },
+      },
+
       "actions": {},
     },
     // fin gilded herb
