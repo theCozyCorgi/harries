@@ -4446,7 +4446,7 @@ const MissionsModule = (function () {
     "dragonfly's secrets": {
       "description": "Los Moody poseían un depósito de obras de arte donde guardaban aquellas de más valor en un espacio seguro. Sin embargo, Wrenn Wraithwood ha robado la llave del mismo y, ahora, deberán descubrir qué fue lo que robó.",
       "image": "https://2img.net/i.imgur.com/9fKGJPH.png", "requisitos": ["Un personaje deberá ser miembro del Departamento de Seguridad"],
-      "users": ["c/u8","/u161","/u177"],
+      "users": ["c/u8","/u161","/u177","/u178"],
       "dependency": ["yule", "frozen sunflowers"],
       "type": "misión", "closed": false, "link": "", "tagged": ["original"],
 
@@ -4459,7 +4459,7 @@ const MissionsModule = (function () {
     "a gentle hand": {
       "description": "Tras una pequeña investigación realizada por los hermanos Moody, las pistas conducen a dos magos y a la dirección de la casa de los mismos, donde ya desde afuera se pueden escuchar los ladridos y los lamentos de unos cachorros de crup que reclaman ayuda.",
       "image": "https://i.imgur.com/nNgVsfv.png", "requisitos": ["Dos personajes deberán ser miembro del Departamento de Seguridad", "Un personaje deberá tener CCM en Avanzado"],
-      "users": ["c/u157", "/u150", "/u13", "/u55", "/u171","/u178"],
+      "users": ["c/u157", "/u150", "/u13", "/u55", "/u171"],
       "dependency": [],
       "type": "misión", "closed": false, "link": "https://blackwave.foroactivo.com/t1236-mision-a-gentle-hand", "tagged": ["original"],
 
