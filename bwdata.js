@@ -1473,7 +1473,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/CzU2l87.png", "requisitos": ["Un integrante tiene que tener Herbología en Avanzado"],
       "users": ["/u78","/u8","/u178","/u130","/u55","/u174"],
       "dependency": ["moth to a flame", "potions for all the afflictions"], "tagged": ["morgana", "capitulo 0"],
-      "type": "misión", "closed": false, "link": "",
+      "type": "misión", "closed": false, "link": "/t1262-mision-gilded-herb",
 
       "cards": [],
 
@@ -4857,7 +4857,7 @@ const MissionsModule = (function () {
       "image": "https://i.imgur.com/2kfwlbB.png", "requisitos": ["Un personaje deberá ser miembro del Departamento de Seguridad", "Un personaje o PNJ llevado por usuario deberá tener entre 45 y 55 años"],
       "users": ["c/u8", "/u153", "/u55", "/u78"],
       "dependency": ["paper mask", "midnight ashes"],
-      "type": "investigación", "closed": false, "link": "https://blackwave.foroactivo.com/t1171-investigacion-stolen-shroud", "tagged": ["original", "capitulo 3"],
+      "type": "investigación", "closed": true, "link": "https://blackwave.foroactivo.com/t1171-investigacion-stolen-shroud", "tagged": ["original", "capitulo 3"],
 
       "cards": [],
       "searchs": {},
