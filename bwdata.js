@@ -8045,10 +8045,10 @@ const MissionsModule = (function () {
 
       "actions": {
         "sectio aurea": {
-          "leve": '<span>Permite identificar el centro en el cual se debe colgar el cuadro y colgarlo.</span>',
-          "moderado": '<span>Permite identificar el centro en el cual se debe colgar el cuadro y colgarlo.</span>',
-          "exitoso": '<span>Permite identificar el centro en el cual se debe colgar el cuadro y colgarlo.</span>',
-          "critico": '<span>Permite identificar el centro en el cual se debe colgar el cuadro y colgarlo.</span>',
+          "leve": '<span>Permite identificar el centro en el cual se debe colgar el cuadro y colgar 2 cuadros.</span>',
+          "moderado": '<span>Permite identificar el centro en el cual se debe colgar el cuadro y colgar 4 cuadros.</span>',
+          "exitoso": '<span>Permite identificar el centro en el cual se debe colgar el cuadro y colgar 6 cuadros.</span>',
+          "critico": '<span>Permite identificar el centro en el cual se debe colgar el cuadro y colgar 8 cuadros.</span>',
         },
         "historia magicae": {
           "leve": '<span>No es suficiente para revelar información</span>',
