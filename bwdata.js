@@ -2761,7 +2761,7 @@ const MissionsModule = (function () {
           "cont": '<span>Si una banshee apoya sus palmas sobre las gélidas baldosas, su conexión con el más allá le revelará dos verdades absolutas. Primero, el eco putrefacto de una tragedia: ese mismo sendero ya devoró una vida hace décadas. Segundo, una condena latente: la muerte reclamará una nueva alma si quiebran el silencio sepulcral que exige el jardín.</span>',
         },
         "regresar a la casa": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "intervencion1",
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "intervencion1",
           "cont": '<span>Permite al personaje regresar a la casa. Esta acción deberá tomarla cada personaje para poder regresar.<adding class="check-cards" search="casa"></adding></span>',
         },
         "regresar a la casa con otro personaje": {
@@ -2769,8 +2769,8 @@ const MissionsModule = (function () {
           "cont": '<span>Permite al personaje regresar a la casa, llevando un personaje por cada 2 puntos de Fuerza que posee. Narrativamente, lleva un personaje, vuelve y luego lleva otro.<adding class="check-cards" search="casa"></adding></span>',
         },
         "contadores": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "casa",
-          "cont": '<span>El contador de baldosas regresa a cero al igual que el contador de advertencias.</span>',
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "casa",
+          "cont": '<span>El contador de baldosas regresa a cero al igual que el contador de advertencias. Deberán esperar 1 hora hasta que las mandragoras se calmen y así poder volver a iniciar.</span>',
         },
       },
       "actions": {
