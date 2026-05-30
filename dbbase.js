@@ -84272,25 +84272,46 @@ const DBModule = (function () {
                 words: countWords($post.find('.rol-content'))
             });
 
-            const $roles = $post.find('.post-content div');
-            $roles.each(function () {
-                const text = $(this).text();
+            // === EXTRACCIÓN DE DADOS MEJORADA ===
+            // === EXTRACCIÓN DE DADOS MEJORADA (DBModule) ===
+            const rolesDivs = $post.find('.post-content div').toArray();
+            
+            for (const roleDiv of rolesDivs) {
+                const text = $(roleDiv).text();
                 if (text.includes('ha efectuado la acción siguiente')) {
-                    const res = $(this).find('strong').map(function () { return $(this).text().trim(); }).get();
-                    if (res.length > 0) {
-                        const pitcher = res.shift();
-                        res.shift();
+                    const res = $(roleDiv).find('strong').map(function () { return $(this).text().trim(); }).get();
+                    
+                    if (res.length > 2) {
+                        const pitcher = res.shift(); 
+                        const rawTitle = res.shift(); 
+                        const diceTitle = rawTitle.replace(/'/g, '').toLowerCase().trim(); 
                         const spread = res.map(str => parseInt(str, 10)).filter(num => !isNaN(num));
+                        
                         if (pitcher && spread.length > 0) {
+                            let htmlResult = "";
+                            let metaData = {}; // Guardará key, know, type, target
+                            
+                            if (typeof DiceModule !== 'undefined' && DiceModule.buildDiceHTML) {
+                                const package = await DiceModule.buildDiceHTML(diceTitle, spread, pitcher, postId);
+                                htmlResult = package.html;
+                                metaData = package.meta;
+                            }
+
                             dynamicData.dices.push({
-                                pitcher, spread, url: `r${postId}`,
+                                pitcher, 
+                                spread,
+                                title: metaData.target || diceTitle, 
+                                key: metaData.key || "",             
+                                knowledge: metaData.know || "",      
+                                html: htmlResult,
+                                url: 'r' + postId.replace('p', ''),
                                 simpleTitle: dynamicData.topics[topicKey].simpleTitle,
                                 space: dynamicData.topics[topicKey].space
                             });
                         }
                     }
                 }
-            });
+            }
         });
 
         const $nextPageLink = $data.find('.pagination .sprite-arrow_prosilver_right').parent('a');
