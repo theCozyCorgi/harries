@@ -84247,12 +84247,14 @@ const DBModule = (function () {
         const response = await $.get(url);
         const $data = $(response);
 
-        // FIX Bug 1: usar extractTopicKey consistentemente
         const topicKey = extractTopicKey(url);
         if (!topicKey) return;
 
-        $data.find('.viewtopic-replies').each(function () {
-            const $post = $(this);
+        // FIX: Cambiamos el .each() por un bucle for...of para poder usar await
+        const replies = $data.find('.viewtopic-replies').toArray();
+
+        for (let reply of replies) {
+            const $post = $(reply);
             const postId = $post.find('.go-to').attr('id');
             const postDateText = $post.find('.post-action span[title]').attr('title');
 
@@ -84272,7 +84274,6 @@ const DBModule = (function () {
                 words: countWords($post.find('.rol-content'))
             });
 
-            // === EXTRACCIÓN DE DADOS MEJORADA ===
             // === EXTRACCIÓN DE DADOS MEJORADA (DBModule) ===
             const rolesDivs = $post.find('.post-content div').toArray();
 
@@ -84292,6 +84293,7 @@ const DBModule = (function () {
                             let metaData = {}; // Guardará key, know, type, target
 
                             if (typeof DiceModule !== 'undefined' && DiceModule.buildDiceHTML) {
+                                // Aquí el await ahora funcionará perfectamente
                                 const package = await DiceModule.buildDiceHTML(diceTitle, spread, pitcher, postId);
                                 htmlResult = package.html;
                                 metaData = package.meta;
@@ -84312,7 +84314,7 @@ const DBModule = (function () {
                     }
                 }
             }
-        });
+        }
 
         const $nextPageLink = $data.find('.pagination .sprite-arrow_prosilver_right').parent('a');
         const nextUrl = $nextPageLink.attr('href');
