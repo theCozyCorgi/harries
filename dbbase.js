@@ -84275,22 +84275,22 @@ const DBModule = (function () {
             // === EXTRACCIÓN DE DADOS MEJORADA ===
             // === EXTRACCIÓN DE DADOS MEJORADA (DBModule) ===
             const rolesDivs = $post.find('.post-content div').toArray();
-            
+
             for (const roleDiv of rolesDivs) {
                 const text = $(roleDiv).text();
                 if (text.includes('ha efectuado la acción siguiente')) {
                     const res = $(roleDiv).find('strong').map(function () { return $(this).text().trim(); }).get();
-                    
+
                     if (res.length > 2) {
-                        const pitcher = res.shift(); 
-                        const rawTitle = res.shift(); 
-                        const diceTitle = rawTitle.replace(/'/g, '').toLowerCase().trim(); 
+                        const pitcher = res.shift();
+                        const rawTitle = res.shift();
+                        const diceTitle = rawTitle.replace(/'/g, '').toLowerCase().trim();
                         const spread = res.map(str => parseInt(str, 10)).filter(num => !isNaN(num));
-                        
+
                         if (pitcher && spread.length > 0) {
                             let htmlResult = "";
                             let metaData = {}; // Guardará key, know, type, target
-                            
+
                             if (typeof DiceModule !== 'undefined' && DiceModule.buildDiceHTML) {
                                 const package = await DiceModule.buildDiceHTML(diceTitle, spread, pitcher, postId);
                                 htmlResult = package.html;
@@ -84298,11 +84298,11 @@ const DBModule = (function () {
                             }
 
                             dynamicData.dices.push({
-                                pitcher, 
+                                pitcher,
                                 spread,
-                                title: metaData.target || diceTitle, 
-                                key: metaData.key || "",             
-                                knowledge: metaData.know || "",      
+                                title: metaData.target || diceTitle,
+                                key: metaData.key || "",
+                                knowledge: metaData.know || "",
                                 html: htmlResult,
                                 url: 'r' + postId.replace('p', ''),
                                 simpleTitle: dynamicData.topics[topicKey].simpleTitle,
@@ -84319,7 +84319,12 @@ const DBModule = (function () {
         if (nextUrl) await scanTopicPosts(nextUrl, originalTitle);
     }
 
+    $(document).ready(function() {
+        init();
+    });
+
     return {
+        init: init,
         normalizeDate,
 
         getLastCacheTime: function () {
