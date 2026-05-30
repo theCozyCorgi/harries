@@ -84319,12 +84319,7 @@ const DBModule = (function () {
         if (nextUrl) await scanTopicPosts(nextUrl, originalTitle);
     }
 
-    $(document).ready(function() {
-        init();
-    });
-
     return {
-        init: init,
         normalizeDate,
 
         getLastCacheTime: function () {
