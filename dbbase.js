@@ -33754,6 +33754,100 @@ const DBModule = (function () {
             "date": "11/12/1952",
             "location": "Sala de Profesores"
         },
+        "716": {
+            "space": "el pensadero",
+            "url": "/t716-1953-12-17-kingdom-in-blue",
+            "simpleTitle": "kingdom in blue",
+            "creator": "Regulus O. Black",
+            "posts": [
+                {
+                    "url": "r7677",
+                    "author": "Regulus O. Black",
+                    "date": "13/10/2025",
+                    "words": 201
+                },
+                {
+                    "url": "r8225",
+                    "author": "Iarlaith C. Sayre",
+                    "date": "29/10/2025",
+                    "words": 215
+                },
+                {
+                    "url": "r8369",
+                    "author": "Regulus O. Black",
+                    "date": "02/11/2025",
+                    "words": 176
+                },
+                {
+                    "url": "r8475",
+                    "author": "Iarlaith C. Sayre",
+                    "date": "02/11/2025",
+                    "words": 226
+                },
+                {
+                    "url": "r8610",
+                    "author": "Regulus O. Black",
+                    "date": "04/11/2025",
+                    "words": 241
+                },
+                {
+                    "url": "r9356",
+                    "author": "Iarlaith C. Sayre",
+                    "date": "18/11/2025",
+                    "words": 221
+                },
+                {
+                    "url": "r9633",
+                    "author": "Regulus O. Black",
+                    "date": "23/11/2025",
+                    "words": 313
+                },
+                {
+                    "url": "r13607",
+                    "author": "Iarlaith C. Sayre",
+                    "date": "20/02/2026",
+                    "words": 242
+                },
+                {
+                    "url": "r14094",
+                    "author": "Regulus O. Black",
+                    "date": "28/02/2026",
+                    "words": 411
+                },
+                {
+                    "url": "r15242",
+                    "author": "Iarlaith C. Sayre",
+                    "date": "21/03/2026",
+                    "words": 296
+                },
+                {
+                    "url": "r15752",
+                    "author": "Regulus O. Black",
+                    "date": "30/03/2026",
+                    "words": 483
+                },
+                {
+                    "url": "r18073",
+                    "author": "Iarlaith C. Sayre",
+                    "date": "10/05/2026",
+                    "words": 403
+                },
+                {
+                    "url": "r18489",
+                    "author": "Regulus O. Black",
+                    "date": "16/05/2026",
+                    "words": 370
+                },
+                {
+                    "url": "r18782",
+                    "author": "Iarlaith C. Sayre",
+                    "date": "21/05/2026",
+                    "words": 271
+                }
+            ],
+            "date": "17/12/1953",
+            "location": "Departamento de Misterios"
+        },
         "717": {
             "space": "el pensadero",
             "url": "/t717-1952-12-13-since-you-left",
@@ -36555,6 +36649,70 @@ const DBModule = (function () {
             ],
             "date": "18/12/1952",
             "location": "Observatorio Galatea"
+        },
+        "763": {
+            "space": "el pensadero",
+            "url": "/t763-1952-12-20-i-make-it-up-to-you",
+            "simpleTitle": "i make it up to you",
+            "creator": "Venus M. Merrythought",
+            "posts": [
+                {
+                    "url": "r8815",
+                    "author": "Venus M. Merrythought",
+                    "date": "07/11/2025",
+                    "words": 286
+                },
+                {
+                    "url": "r8892",
+                    "author": "Mercury Merrythought",
+                    "date": "09/11/2025",
+                    "words": 221
+                },
+                {
+                    "url": "r9252",
+                    "author": "Venus M. Merrythought",
+                    "date": "16/11/2025",
+                    "words": 311
+                },
+                {
+                    "url": "r14248",
+                    "author": "Mercury Merrythought",
+                    "date": "02/03/2026",
+                    "words": 354
+                },
+                {
+                    "url": "r15828",
+                    "author": "Venus M. Merrythought",
+                    "date": "31/03/2026",
+                    "words": 294
+                },
+                {
+                    "url": "r15892",
+                    "author": "Mercury Merrythought",
+                    "date": "31/03/2026",
+                    "words": 271
+                },
+                {
+                    "url": "r16450",
+                    "author": "Venus M. Merrythought",
+                    "date": "14/04/2026",
+                    "words": 312
+                },
+                {
+                    "url": "r17325",
+                    "author": "Mercury Merrythought",
+                    "date": "01/05/2026",
+                    "words": 249
+                },
+                {
+                    "url": "r18795",
+                    "author": "Venus M. Merrythought",
+                    "date": "22/05/2026",
+                    "words": 216
+                }
+            ],
+            "date": "20/12/1952",
+            "location": "Mercadillo — Edimburgo"
         },
         "764": {
             "space": "el pensadero",
@@ -39550,6 +39708,118 @@ const DBModule = (function () {
             "date": "23/12/1952",
             "location": "Las tres Escobas"
         },
+        "786": {
+            "space": "el pensadero",
+            "url": "/t786-1952-12-11-a-couple-of-minutes",
+            "simpleTitle": "a couple of minutes",
+            "creator": "Neptune E. Merrythought",
+            "posts": [
+                {
+                    "url": "r9494",
+                    "author": "Neptune E. Merrythought",
+                    "date": "21/11/2025",
+                    "words": 256
+                },
+                {
+                    "url": "r9542",
+                    "author": "Aidan N. Flamel",
+                    "date": "22/11/2025",
+                    "words": 272
+                },
+                {
+                    "url": "r9816",
+                    "author": "Neptune E. Merrythought",
+                    "date": "25/11/2025",
+                    "words": 340
+                },
+                {
+                    "url": "r10781",
+                    "author": "Aidan N. Flamel",
+                    "date": "15/12/2025",
+                    "words": 364
+                },
+                {
+                    "url": "r10868",
+                    "author": "Neptune E. Merrythought",
+                    "date": "17/12/2025",
+                    "words": 303
+                },
+                {
+                    "url": "r11084",
+                    "author": "Aidan N. Flamel",
+                    "date": "22/12/2025",
+                    "words": 408
+                },
+                {
+                    "url": "r11318",
+                    "author": "Neptune E. Merrythought",
+                    "date": "28/12/2025",
+                    "words": 299
+                },
+                {
+                    "url": "r11985",
+                    "author": "Aidan N. Flamel",
+                    "date": "17/01/2026",
+                    "words": 284
+                },
+                {
+                    "url": "r12267",
+                    "author": "Neptune E. Merrythought",
+                    "date": "25/01/2026",
+                    "words": 267
+                },
+                {
+                    "url": "r12407",
+                    "author": "Aidan N. Flamel",
+                    "date": "28/01/2026",
+                    "words": 264
+                },
+                {
+                    "url": "r12875",
+                    "author": "Neptune E. Merrythought",
+                    "date": "08/02/2026",
+                    "words": 262
+                },
+                {
+                    "url": "r14312",
+                    "author": "Aidan N. Flamel",
+                    "date": "03/03/2026",
+                    "words": 289
+                },
+                {
+                    "url": "r14873",
+                    "author": "Neptune E. Merrythought",
+                    "date": "14/03/2026",
+                    "words": 365
+                },
+                {
+                    "url": "r16069",
+                    "author": "Aidan N. Flamel",
+                    "date": "03/04/2026",
+                    "words": 245
+                },
+                {
+                    "url": "r16476",
+                    "author": "Neptune E. Merrythought",
+                    "date": "14/04/2026",
+                    "words": 275
+                },
+                {
+                    "url": "r16661",
+                    "author": "Aidan N. Flamel",
+                    "date": "19/04/2026",
+                    "words": 265
+                },
+                {
+                    "url": "r17003",
+                    "author": "Neptune E. Merrythought",
+                    "date": "26/04/2026",
+                    "words": 219
+                }
+            ],
+            "date": "11/12/1952",
+            "location": "Invernaderos"
+        },
         "789": {
             "space": "el pensadero",
             "url": "/t789-1952-12-28-practica-cough-syrup",
@@ -41223,6 +41493,158 @@ const DBModule = (function () {
             ],
             "date": "16/01/1953",
             "location": "Club de Duelos"
+        },
+        "805": {
+            "space": "el pensadero",
+            "url": "/t805-1952-12-04-christmas-birthday",
+            "simpleTitle": "christmas birthday",
+            "creator": "Asteria C. Lestrange",
+            "posts": [
+                {
+                    "url": "r10090",
+                    "author": "Asteria C. Lestrange",
+                    "date": "30/11/2025",
+                    "words": 223
+                },
+                {
+                    "url": "r12232",
+                    "author": "Iarlaith C. Sayre",
+                    "date": "23/01/2026",
+                    "words": 187
+                },
+                {
+                    "url": "r12404",
+                    "author": "Asteria C. Lestrange",
+                    "date": "28/01/2026",
+                    "words": 288
+                },
+                {
+                    "url": "r13386",
+                    "author": "Iarlaith C. Sayre",
+                    "date": "17/02/2026",
+                    "words": 198
+                },
+                {
+                    "url": "r14454",
+                    "author": "Asteria C. Lestrange",
+                    "date": "05/03/2026",
+                    "words": 230
+                },
+                {
+                    "url": "r16067",
+                    "author": "Iarlaith C. Sayre",
+                    "date": "02/04/2026",
+                    "words": 198
+                },
+                {
+                    "url": "r16622",
+                    "author": "Asteria C. Lestrange",
+                    "date": "18/04/2026",
+                    "words": 282
+                },
+                {
+                    "url": "r18343",
+                    "author": "Iarlaith C. Sayre",
+                    "date": "14/05/2026",
+                    "words": 221
+                },
+                {
+                    "url": "r19065",
+                    "author": "Asteria C. Lestrange",
+                    "date": "27/05/2026",
+                    "words": 234
+                }
+            ],
+            "date": "04/12/1952",
+            "location": "Sala común de Slytherin"
+        },
+        "806": {
+            "space": "el pensadero",
+            "url": "/t806-1952-12-20-a-place-only-we-know",
+            "simpleTitle": "a place only we know",
+            "creator": "H. Shun Parkinson",
+            "posts": [
+                {
+                    "url": "r10091",
+                    "author": "H. Shun Parkinson",
+                    "date": "30/11/2025",
+                    "words": 329
+                },
+                {
+                    "url": "r10921",
+                    "author": "Venus M. Merrythought",
+                    "date": "18/12/2025",
+                    "words": 262
+                },
+                {
+                    "url": "r11141",
+                    "author": "H. Shun Parkinson",
+                    "date": "24/12/2025",
+                    "words": 330
+                },
+                {
+                    "url": "r11653",
+                    "author": "Venus M. Merrythought",
+                    "date": "08/01/2026",
+                    "words": 329
+                },
+                {
+                    "url": "r11880",
+                    "author": "H. Shun Parkinson",
+                    "date": "16/01/2026",
+                    "words": 480
+                },
+                {
+                    "url": "r12245",
+                    "author": "Venus M. Merrythought",
+                    "date": "24/01/2026",
+                    "words": 204
+                },
+                {
+                    "url": "r12942",
+                    "author": "H. Shun Parkinson",
+                    "date": "09/02/2026",
+                    "words": 267
+                },
+                {
+                    "url": "r14383",
+                    "author": "Venus M. Merrythought",
+                    "date": "03/03/2026",
+                    "words": 222
+                },
+                {
+                    "url": "r14987",
+                    "author": "H. Shun Parkinson",
+                    "date": "15/03/2026",
+                    "words": 269
+                },
+                {
+                    "url": "r16441",
+                    "author": "Venus M. Merrythought",
+                    "date": "13/04/2026",
+                    "words": 291
+                },
+                {
+                    "url": "r16871",
+                    "author": "H. Shun Parkinson",
+                    "date": "23/04/2026",
+                    "words": 270
+                },
+                {
+                    "url": "r18373",
+                    "author": "Venus M. Merrythought",
+                    "date": "15/05/2026",
+                    "words": 219
+                },
+                {
+                    "url": "r19259",
+                    "author": "H. Shun Parkinson",
+                    "date": "Ayer a las 14:55",
+                    "words": 272
+                }
+            ],
+            "date": "20/12/1952",
+            "location": "Rothesay"
         },
         "809": {
             "space": "el pensadero",
@@ -44193,6 +44615,94 @@ const DBModule = (function () {
             ],
             "date": "07/01/1953",
             "location": "Biblioteca Hollowshade Castle"
+        },
+        "845": {
+            "space": "el pensadero",
+            "url": "/t845-1952-12-24-at-a-loss",
+            "simpleTitle": "at a loss",
+            "creator": "Jasper R. Gryffith",
+            "posts": [
+                {
+                    "url": "r10688",
+                    "author": "Jasper R. Gryffith",
+                    "date": "11/12/2025",
+                    "words": 292
+                },
+                {
+                    "url": "r11648",
+                    "author": "Kaoru Satoo",
+                    "date": "08/01/2026",
+                    "words": 430
+                },
+                {
+                    "url": "r11825",
+                    "author": "Jasper R. Gryffith",
+                    "date": "14/01/2026",
+                    "words": 364
+                },
+                {
+                    "url": "r12190",
+                    "author": "Kaoru Satoo",
+                    "date": "22/01/2026",
+                    "words": 308
+                },
+                {
+                    "url": "r12472",
+                    "author": "Jasper R. Gryffith",
+                    "date": "31/01/2026",
+                    "words": 408
+                },
+                {
+                    "url": "r14034",
+                    "author": "Kaoru Satoo",
+                    "date": "27/02/2026",
+                    "words": 337
+                },
+                {
+                    "url": "r14255",
+                    "author": "Jasper R. Gryffith",
+                    "date": "02/03/2026",
+                    "words": 457
+                },
+                {
+                    "url": "r15818",
+                    "author": "Kaoru Satoo",
+                    "date": "31/03/2026",
+                    "words": 339
+                },
+                {
+                    "url": "r16196",
+                    "author": "Jasper R. Gryffith",
+                    "date": "07/04/2026",
+                    "words": 471
+                },
+                {
+                    "url": "r16931",
+                    "author": "Kaoru Satoo",
+                    "date": "25/04/2026",
+                    "words": 300
+                },
+                {
+                    "url": "r16988",
+                    "author": "Jasper R. Gryffith",
+                    "date": "26/04/2026",
+                    "words": 420
+                },
+                {
+                    "url": "r18579",
+                    "author": "Kaoru Satoo",
+                    "date": "18/05/2026",
+                    "words": 278
+                },
+                {
+                    "url": "r18993",
+                    "author": "Jasper R. Gryffith",
+                    "date": "26/05/2026",
+                    "words": 220
+                }
+            ],
+            "date": "24/12/1952",
+            "location": "Casa de Jasper"
         },
         "846": {
             "space": "el pensadero",
@@ -54444,6 +54954,190 @@ const DBModule = (function () {
             "date": "04/02/1953",
             "location": "casa de descanso"
         },
+        "1031": {
+            "space": "el pensadero",
+            "url": "/t1031-1953-02-12-practica-empty-space",
+            "simpleTitle": "práctica: empty space",
+            "creator": "Minerva E. McGonagall",
+            "posts": [
+                {
+                    "url": "r14116",
+                    "author": "Minerva E. McGonagall",
+                    "date": "28/02/2026",
+                    "words": 265
+                },
+                {
+                    "url": "r14128",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "28/02/2026",
+                    "words": 242
+                },
+                {
+                    "url": "r14455",
+                    "author": "Minerva E. McGonagall",
+                    "date": "05/03/2026",
+                    "words": 282
+                },
+                {
+                    "url": "r14634",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "08/03/2026",
+                    "words": 295
+                },
+                {
+                    "url": "r14635",
+                    "author": "The Familiars",
+                    "date": "08/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r15034",
+                    "author": "Minerva E. McGonagall",
+                    "date": "16/03/2026",
+                    "words": 352
+                },
+                {
+                    "url": "r15494",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "26/03/2026",
+                    "words": 296
+                },
+                {
+                    "url": "r15495",
+                    "author": "The Familiars",
+                    "date": "26/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r15685",
+                    "author": "Minerva E. McGonagall",
+                    "date": "28/03/2026",
+                    "words": 261
+                },
+                {
+                    "url": "r15686",
+                    "author": "The Familiars",
+                    "date": "28/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16205",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "07/04/2026",
+                    "words": 251
+                },
+                {
+                    "url": "r16206",
+                    "author": "The Familiars",
+                    "date": "07/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16677",
+                    "author": "Minerva E. McGonagall",
+                    "date": "19/04/2026",
+                    "words": 249
+                },
+                {
+                    "url": "r16678",
+                    "author": "The Familiars",
+                    "date": "19/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16793",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "20/04/2026",
+                    "words": 272
+                },
+                {
+                    "url": "r16794",
+                    "author": "The Familiars",
+                    "date": "20/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r17032",
+                    "author": "Minerva E. McGonagall",
+                    "date": "27/04/2026",
+                    "words": 218
+                },
+                {
+                    "url": "r17033",
+                    "author": "The Familiars",
+                    "date": "27/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r17129",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "29/04/2026",
+                    "words": 277
+                },
+                {
+                    "url": "r17130",
+                    "author": "The Familiars",
+                    "date": "29/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r14116",
+                    "author": "Minerva E. McGonagall",
+                    "date": "28/02/2026",
+                    "words": 265
+                },
+                {
+                    "url": "r17621",
+                    "author": "Minerva E. McGonagall",
+                    "date": "04/05/2026",
+                    "words": 277
+                },
+                {
+                    "url": "r17622",
+                    "author": "The Familiars",
+                    "date": "04/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r18006",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "09/05/2026",
+                    "words": 314
+                },
+                {
+                    "url": "r18007",
+                    "author": "The Familiars",
+                    "date": "09/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r18211",
+                    "author": "Minerva E. McGonagall",
+                    "date": "12/05/2026",
+                    "words": 295
+                },
+                {
+                    "url": "r18406",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "15/05/2026",
+                    "words": 278
+                },
+                {
+                    "url": "r18919",
+                    "author": "Minerva E. McGonagall",
+                    "date": "25/05/2026",
+                    "words": 200
+                },
+                {
+                    "url": "r19244",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "Ayer a las 11:49",
+                    "words": 193
+                }
+            ],
+            "date": "12/02/1953",
+            "location": "cobertizo"
+        },
         "1033": {
             "space": "el pensadero",
             "url": "/t1033-1953-02-19-ni-victor-lustig-se-atrevio-a-tanto",
@@ -54962,6 +55656,52 @@ const DBModule = (function () {
             "date": "05/02/1953",
             "location": "San Mungo"
         },
+        "1068": {
+            "space": "el pensadero",
+            "url": "/t1068-1953-02-25-a-concept-of-an-idea",
+            "simpleTitle": "a concept of an idea",
+            "creator": "Ruairidh Ó Mhaille",
+            "posts": [
+                {
+                    "url": "r14637",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "08/03/2026",
+                    "words": 217
+                },
+                {
+                    "url": "r14638",
+                    "author": "The Familiars",
+                    "date": "08/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r15007",
+                    "author": "Invitado",
+                    "date": "16/03/2026",
+                    "words": 234
+                },
+                {
+                    "url": "r15008",
+                    "author": "The Familiars",
+                    "date": "16/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r15498",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "26/03/2026",
+                    "words": 218
+                },
+                {
+                    "url": "r15499",
+                    "author": "The Familiars",
+                    "date": "26/03/2026",
+                    "words": 0
+                }
+            ],
+            "date": "25/02/1953",
+            "location": "Biblioteca de Hogwarts"
+        },
         "1069": {
             "space": "el pensadero",
             "url": "/t1069-1953-02-23-practica-como-cometa-al-viento",
@@ -55155,6 +55895,76 @@ const DBModule = (function () {
             ],
             "date": "14/02/1953",
             "location": "El Brote Verde"
+        },
+        "1076": {
+            "space": "el pensadero",
+            "url": "/t1076-1953-02-14-evento-sv-stop-to-rain",
+            "simpleTitle": "evento sv: stop to rain",
+            "creator": "Orion A. Black",
+            "posts": [
+                {
+                    "url": "r14690",
+                    "author": "Orion A. Black",
+                    "date": "10/03/2026",
+                    "words": 339
+                },
+                {
+                    "url": "r14776",
+                    "author": "Elysia G. Lestrange",
+                    "date": "12/03/2026",
+                    "words": 432
+                },
+                {
+                    "url": "r15439",
+                    "author": "Orion A. Black",
+                    "date": "25/03/2026",
+                    "words": 304
+                },
+                {
+                    "url": "r15450",
+                    "author": "Elysia G. Lestrange",
+                    "date": "25/03/2026",
+                    "words": 613
+                },
+                {
+                    "url": "r16148",
+                    "author": "Orion A. Black",
+                    "date": "06/04/2026",
+                    "words": 289
+                },
+                {
+                    "url": "r16208",
+                    "author": "Elysia G. Lestrange",
+                    "date": "07/04/2026",
+                    "words": 440
+                },
+                {
+                    "url": "r16682",
+                    "author": "Orion A. Black",
+                    "date": "19/04/2026",
+                    "words": 431
+                },
+                {
+                    "url": "r17339",
+                    "author": "Elysia G. Lestrange",
+                    "date": "01/05/2026",
+                    "words": 409
+                },
+                {
+                    "url": "r18097",
+                    "author": "Orion A. Black",
+                    "date": "11/05/2026",
+                    "words": 294
+                },
+                {
+                    "url": "r18539",
+                    "author": "Elysia G. Lestrange",
+                    "date": "17/05/2026",
+                    "words": 206
+                }
+            ],
+            "date": "14/02/1953",
+            "location": "El festín de McCool"
         },
         "1079": {
             "space": "el pensadero",
@@ -57042,6 +57852,464 @@ const DBModule = (function () {
             "date": "22/02/1953",
             "location": "Inglaterra, Callejón Diagon"
         },
+        "1126": {
+            "space": "el pensadero",
+            "url": "/t1126-1953-02-28-eche-raices-y-me-encontro-la-luna",
+            "simpleTitle": "eché raíces y me encontró la luna",
+            "creator": "Jupiter Merrythought",
+            "posts": [
+                {
+                    "url": "r15861",
+                    "author": "Jupiter Merrythought",
+                    "date": "31/03/2026",
+                    "words": 250
+                },
+                {
+                    "url": "r16131",
+                    "author": "Elysia G. Lestrange",
+                    "date": "05/04/2026",
+                    "words": 304
+                },
+                {
+                    "url": "r16168",
+                    "author": "Jupiter Merrythought",
+                    "date": "07/04/2026",
+                    "words": 279
+                },
+                {
+                    "url": "r16207",
+                    "author": "Elysia G. Lestrange",
+                    "date": "07/04/2026",
+                    "words": 291
+                },
+                {
+                    "url": "r16211",
+                    "author": "Jupiter Merrythought",
+                    "date": "07/04/2026",
+                    "words": 275
+                },
+                {
+                    "url": "r16218",
+                    "author": "Elysia G. Lestrange",
+                    "date": "07/04/2026",
+                    "words": 368
+                },
+                {
+                    "url": "r16222",
+                    "author": "Jupiter Merrythought",
+                    "date": "07/04/2026",
+                    "words": 316
+                },
+                {
+                    "url": "r16290",
+                    "author": "Elysia G. Lestrange",
+                    "date": "09/04/2026",
+                    "words": 361
+                },
+                {
+                    "url": "r16329",
+                    "author": "Jupiter Merrythought",
+                    "date": "10/04/2026",
+                    "words": 335
+                },
+                {
+                    "url": "r16330",
+                    "author": "The Familiars",
+                    "date": "10/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16352",
+                    "author": "Elysia G. Lestrange",
+                    "date": "11/04/2026",
+                    "words": 352
+                },
+                {
+                    "url": "r16353",
+                    "author": "The Familiars",
+                    "date": "11/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16504",
+                    "author": "Jupiter Merrythought",
+                    "date": "14/04/2026",
+                    "words": 375
+                },
+                {
+                    "url": "r16505",
+                    "author": "The Familiars",
+                    "date": "14/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16947",
+                    "author": "Elysia G. Lestrange",
+                    "date": "25/04/2026",
+                    "words": 457
+                },
+                {
+                    "url": "r17025",
+                    "author": "Jupiter Merrythought",
+                    "date": "27/04/2026",
+                    "words": 690
+                },
+                {
+                    "url": "r17397",
+                    "author": "Elysia G. Lestrange",
+                    "date": "02/05/2026",
+                    "words": 622
+                },
+                {
+                    "url": "r17401",
+                    "author": "Jupiter Merrythought",
+                    "date": "02/05/2026",
+                    "words": 640
+                },
+                {
+                    "url": "r17402",
+                    "author": "The Familiars",
+                    "date": "02/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r17749",
+                    "author": "Elysia G. Lestrange",
+                    "date": "06/05/2026",
+                    "words": 323
+                },
+                {
+                    "url": "r15861",
+                    "author": "Jupiter Merrythought",
+                    "date": "31/03/2026",
+                    "words": 250
+                },
+                {
+                    "url": "r17750",
+                    "author": "The Familiars",
+                    "date": "06/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r17918",
+                    "author": "Jupiter Merrythought",
+                    "date": "08/05/2026",
+                    "words": 225
+                },
+                {
+                    "url": "r17919",
+                    "author": "The Familiars",
+                    "date": "08/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r18076",
+                    "author": "Elysia G. Lestrange",
+                    "date": "10/05/2026",
+                    "words": 239
+                },
+                {
+                    "url": "r18178",
+                    "author": "Jupiter Merrythought",
+                    "date": "11/05/2026",
+                    "words": 296
+                },
+                {
+                    "url": "r18540",
+                    "author": "Elysia G. Lestrange",
+                    "date": "17/05/2026",
+                    "words": 310
+                },
+                {
+                    "url": "r18568",
+                    "author": "Jupiter Merrythought",
+                    "date": "17/05/2026",
+                    "words": 342
+                }
+            ],
+            "date": "28/02/1953",
+            "location": "Glastonbury"
+        },
+        "1154": {
+            "space": "el pensadero",
+            "url": "/t1154-1953-04-02-evento-futuros-lideres-arcturus",
+            "simpleTitle": "evento: futuros líderes: arcturus.",
+            "creator": "Black Wave",
+            "posts": [
+                {
+                    "url": "r16390",
+                    "author": "Black Wave",
+                    "date": "13/04/2026",
+                    "words": 440
+                },
+                {
+                    "url": "r16448",
+                    "author": "Margareth T. Moody",
+                    "date": "14/04/2026",
+                    "words": 213
+                },
+                {
+                    "url": "r16449",
+                    "author": "The Familiars",
+                    "date": "14/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16465",
+                    "author": "Orion A. Black",
+                    "date": "14/04/2026",
+                    "words": 215
+                },
+                {
+                    "url": "r16466",
+                    "author": "The Familiars",
+                    "date": "14/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16490",
+                    "author": "Montgomery Thatch",
+                    "date": "14/04/2026",
+                    "words": 662
+                },
+                {
+                    "url": "r16491",
+                    "author": "The Familiars",
+                    "date": "14/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16500",
+                    "author": "Cuthbert S. Selwyn",
+                    "date": "14/04/2026",
+                    "words": 296
+                },
+                {
+                    "url": "r16501",
+                    "author": "The Familiars",
+                    "date": "14/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16539",
+                    "author": "Ksenia D. Demidova",
+                    "date": "15/04/2026",
+                    "words": 431
+                },
+                {
+                    "url": "r16540",
+                    "author": "The Familiars",
+                    "date": "15/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16629",
+                    "author": "Orion A. Black",
+                    "date": "18/04/2026",
+                    "words": 211
+                },
+                {
+                    "url": "r16654",
+                    "author": "Margareth T. Moody",
+                    "date": "19/04/2026",
+                    "words": 252
+                },
+                {
+                    "url": "r16655",
+                    "author": "The Familiars",
+                    "date": "19/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16674",
+                    "author": "Orion A. Black",
+                    "date": "19/04/2026",
+                    "words": 188
+                },
+                {
+                    "url": "r16675",
+                    "author": "The Familiars",
+                    "date": "19/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16694",
+                    "author": "Montgomery Thatch",
+                    "date": "19/04/2026",
+                    "words": 285
+                },
+                {
+                    "url": "r16695",
+                    "author": "The Familiars",
+                    "date": "19/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16885",
+                    "author": "Cuthbert S. Selwyn",
+                    "date": "23/04/2026",
+                    "words": 233
+                },
+                {
+                    "url": "r16886",
+                    "author": "The Familiars",
+                    "date": "23/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16390",
+                    "author": "Black Wave",
+                    "date": "13/04/2026",
+                    "words": 440
+                },
+                {
+                    "url": "r17098",
+                    "author": "Margareth T. Moody",
+                    "date": "29/04/2026",
+                    "words": 163
+                },
+                {
+                    "url": "r17099",
+                    "author": "The Familiars",
+                    "date": "29/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r17340",
+                    "author": "Ksenia D. Demidova",
+                    "date": "01/05/2026",
+                    "words": 272
+                },
+                {
+                    "url": "r17341",
+                    "author": "The Familiars",
+                    "date": "01/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r17467",
+                    "author": "Montgomery Thatch",
+                    "date": "03/05/2026",
+                    "words": 492
+                },
+                {
+                    "url": "r17468",
+                    "author": "The Familiars",
+                    "date": "03/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r17513",
+                    "author": "Orion A. Black",
+                    "date": "03/05/2026",
+                    "words": 251
+                },
+                {
+                    "url": "r17514",
+                    "author": "The Familiars",
+                    "date": "03/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r17587",
+                    "author": "Cuthbert S. Selwyn",
+                    "date": "04/05/2026",
+                    "words": 188
+                },
+                {
+                    "url": "r17588",
+                    "author": "The Familiars",
+                    "date": "04/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r17656",
+                    "author": "Margareth T. Moody",
+                    "date": "05/05/2026",
+                    "words": 254
+                },
+                {
+                    "url": "r17657",
+                    "author": "The Familiars",
+                    "date": "05/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r17792",
+                    "author": "Ksenia D. Demidova",
+                    "date": "07/05/2026",
+                    "words": 347
+                },
+                {
+                    "url": "r17793",
+                    "author": "The Familiars",
+                    "date": "07/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r17894",
+                    "author": "Montgomery Thatch",
+                    "date": "08/05/2026",
+                    "words": 392
+                },
+                {
+                    "url": "r17895",
+                    "author": "The Familiars",
+                    "date": "08/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r18092",
+                    "author": "Orion A. Black",
+                    "date": "10/05/2026",
+                    "words": 233
+                },
+                {
+                    "url": "r18093",
+                    "author": "The Familiars",
+                    "date": "10/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r18146",
+                    "author": "Cuthbert S. Selwyn",
+                    "date": "11/05/2026",
+                    "words": 233
+                },
+                {
+                    "url": "r18147",
+                    "author": "The Familiars",
+                    "date": "11/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16390",
+                    "author": "Black Wave",
+                    "date": "13/04/2026",
+                    "words": 440
+                },
+                {
+                    "url": "r18190",
+                    "author": "Margareth T. Moody",
+                    "date": "12/05/2026",
+                    "words": 268
+                },
+                {
+                    "url": "r18191",
+                    "author": "The Familiars",
+                    "date": "12/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r18550",
+                    "author": "Black Wave",
+                    "date": "17/05/2026",
+                    "words": 66
+                }
+            ],
+            "date": "02/04/1953",
+            "location": "Salas Cambiantes"
+        },
         "1156": {
             "space": "el pensadero",
             "url": "/t1156-1953-04-04-evento-futuros-lideres-hamish",
@@ -57195,6 +58463,274 @@ const DBModule = (function () {
             ],
             "date": "04/04/1953",
             "location": "Exteriores de San Mungo"
+        },
+        "1159": {
+            "space": "el pensadero",
+            "url": "/t1159-1953-04-07-evento-futuros-lideres-nuala",
+            "simpleTitle": "evento: futuros líderes: nuala.",
+            "creator": "Black Wave",
+            "posts": [
+                {
+                    "url": "r16395",
+                    "author": "Black Wave",
+                    "date": "13/04/2026",
+                    "words": 508
+                },
+                {
+                    "url": "r16426",
+                    "author": "Jupiter Merrythought",
+                    "date": "13/04/2026",
+                    "words": 333
+                },
+                {
+                    "url": "r16427",
+                    "author": "The Familiars",
+                    "date": "13/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16452",
+                    "author": "Ruaan S. Patil",
+                    "date": "14/04/2026",
+                    "words": 243
+                },
+                {
+                    "url": "r16453",
+                    "author": "The Familiars",
+                    "date": "14/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16479",
+                    "author": "Thaddeus L. Nott",
+                    "date": "14/04/2026",
+                    "words": 239
+                },
+                {
+                    "url": "r16480",
+                    "author": "The Familiars",
+                    "date": "14/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16486",
+                    "author": "Viridian L. Greengrass",
+                    "date": "14/04/2026",
+                    "words": 507
+                },
+                {
+                    "url": "r16487",
+                    "author": "The Familiars",
+                    "date": "14/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16498",
+                    "author": "Jupiter Merrythought",
+                    "date": "14/04/2026",
+                    "words": 282
+                },
+                {
+                    "url": "r16499",
+                    "author": "The Familiars",
+                    "date": "14/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16652",
+                    "author": "Ruaan S. Patil",
+                    "date": "19/04/2026",
+                    "words": 274
+                },
+                {
+                    "url": "r16653",
+                    "author": "The Familiars",
+                    "date": "19/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16662",
+                    "author": "Thaddeus L. Nott",
+                    "date": "19/04/2026",
+                    "words": 228
+                },
+                {
+                    "url": "r16663",
+                    "author": "The Familiars",
+                    "date": "19/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16917",
+                    "author": "Jupiter Merrythought",
+                    "date": "24/04/2026",
+                    "words": 477
+                },
+                {
+                    "url": "r16918",
+                    "author": "The Familiars",
+                    "date": "24/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16936",
+                    "author": "Ruaan S. Patil",
+                    "date": "25/04/2026",
+                    "words": 290
+                },
+                {
+                    "url": "r16937",
+                    "author": "The Familiars",
+                    "date": "25/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r17094",
+                    "author": "Thaddeus L. Nott",
+                    "date": "29/04/2026",
+                    "words": 258
+                },
+                {
+                    "url": "r16395",
+                    "author": "Black Wave",
+                    "date": "13/04/2026",
+                    "words": 508
+                },
+                {
+                    "url": "r17095",
+                    "author": "The Familiars",
+                    "date": "29/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r17118",
+                    "author": "Viridian L. Greengrass",
+                    "date": "29/04/2026",
+                    "words": 314
+                },
+                {
+                    "url": "r17119",
+                    "author": "The Familiars",
+                    "date": "29/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r17120",
+                    "author": "Viridian L. Greengrass",
+                    "date": "29/04/2026",
+                    "words": 192
+                },
+                {
+                    "url": "r17121",
+                    "author": "Jupiter Merrythought",
+                    "date": "29/04/2026",
+                    "words": 333
+                },
+                {
+                    "url": "r17122",
+                    "author": "The Familiars",
+                    "date": "29/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r17390",
+                    "author": "Ruaan S. Patil",
+                    "date": "02/05/2026",
+                    "words": 203
+                },
+                {
+                    "url": "r17391",
+                    "author": "The Familiars",
+                    "date": "02/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r17670",
+                    "author": "Thaddeus L. Nott",
+                    "date": "05/05/2026",
+                    "words": 196
+                },
+                {
+                    "url": "r17671",
+                    "author": "The Familiars",
+                    "date": "05/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r17820",
+                    "author": "Viridian L. Greengrass",
+                    "date": "07/05/2026",
+                    "words": 235
+                },
+                {
+                    "url": "r17821",
+                    "author": "The Familiars",
+                    "date": "07/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r17914",
+                    "author": "Jupiter Merrythought",
+                    "date": "08/05/2026",
+                    "words": 376
+                },
+                {
+                    "url": "r17915",
+                    "author": "The Familiars",
+                    "date": "08/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r18030",
+                    "author": "Ruaan S. Patil",
+                    "date": "10/05/2026",
+                    "words": 209
+                },
+                {
+                    "url": "r18031",
+                    "author": "The Familiars",
+                    "date": "10/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r18110",
+                    "author": "Thaddeus L. Nott",
+                    "date": "11/05/2026",
+                    "words": 234
+                },
+                {
+                    "url": "r18111",
+                    "author": "The Familiars",
+                    "date": "11/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r18226",
+                    "author": "Viridian L. Greengrass",
+                    "date": "12/05/2026",
+                    "words": 245
+                },
+                {
+                    "url": "r18227",
+                    "author": "Viridian L. Greengrass",
+                    "date": "12/05/2026",
+                    "words": 151
+                },
+                {
+                    "url": "r16395",
+                    "author": "Black Wave",
+                    "date": "13/04/2026",
+                    "words": 508
+                },
+                {
+                    "url": "r18551",
+                    "author": "Black Wave",
+                    "date": "17/05/2026",
+                    "words": 55
+                }
+            ],
+            "date": "07/04/1953",
+            "location": "Residencia Hawksmoor"
         },
         "1160": {
             "space": "el pensadero",
@@ -57373,6 +58909,300 @@ const DBModule = (function () {
             ],
             "date": "08/04/1953",
             "location": "Hogsmeade"
+        },
+        "1165": {
+            "space": "el pensadero",
+            "url": "/t1165-1953-03-24-inside-voices",
+            "simpleTitle": "inside voices.",
+            "creator": "Ruairidh Ó Mhaille",
+            "posts": [
+                {
+                    "url": "r16548",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "15/04/2026",
+                    "words": 425
+                },
+                {
+                    "url": "r16769",
+                    "author": "Invitado",
+                    "date": "20/04/2026",
+                    "words": 332
+                },
+                {
+                    "url": "r16772",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "20/04/2026",
+                    "words": 433
+                },
+                {
+                    "url": "r17109",
+                    "author": "Invitado",
+                    "date": "29/04/2026",
+                    "words": 486
+                },
+                {
+                    "url": "r17338",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "01/05/2026",
+                    "words": 425
+                }
+            ],
+            "date": "24/03/1953",
+            "location": "Aula de Transformaciones"
+        },
+        "1171": {
+            "space": "el pensadero",
+            "url": "/t1171-1953-03-20-investigacion-stolen-shroud",
+            "simpleTitle": "investigación: stolen shroud",
+            "creator": "Black Wave",
+            "posts": [
+                {
+                    "url": "r16736",
+                    "author": "Black Wave",
+                    "date": "20/04/2026",
+                    "words": 219
+                },
+                {
+                    "url": "r16802",
+                    "author": "Alastor Moody",
+                    "date": "20/04/2026",
+                    "words": 272
+                },
+                {
+                    "url": "r16806",
+                    "author": "H. Shun Parkinson",
+                    "date": "21/04/2026",
+                    "words": 266
+                },
+                {
+                    "url": "r16860",
+                    "author": "Gavril A. Ollivander",
+                    "date": "22/04/2026",
+                    "words": 273
+                },
+                {
+                    "url": "r16880",
+                    "author": "Jasper R. Gryffith",
+                    "date": "23/04/2026",
+                    "words": 286
+                },
+                {
+                    "url": "r16884",
+                    "author": "Alastor Moody",
+                    "date": "23/04/2026",
+                    "words": 199
+                },
+                {
+                    "url": "r16894",
+                    "author": "H. Shun Parkinson",
+                    "date": "24/04/2026",
+                    "words": 152
+                },
+                {
+                    "url": "r16906",
+                    "author": "Gavril A. Ollivander",
+                    "date": "24/04/2026",
+                    "words": 279
+                },
+                {
+                    "url": "r16909",
+                    "author": "Jasper R. Gryffith",
+                    "date": "24/04/2026",
+                    "words": 161
+                },
+                {
+                    "url": "r16920",
+                    "author": "Alastor Moody",
+                    "date": "24/04/2026",
+                    "words": 278
+                },
+                {
+                    "url": "r16994",
+                    "author": "H. Shun Parkinson",
+                    "date": "26/04/2026",
+                    "words": 249
+                },
+                {
+                    "url": "r17022",
+                    "author": "Gavril A. Ollivander",
+                    "date": "27/04/2026",
+                    "words": 365
+                },
+                {
+                    "url": "r17123",
+                    "author": "Jasper R. Gryffith",
+                    "date": "29/04/2026",
+                    "words": 276
+                },
+                {
+                    "url": "r17140",
+                    "author": "Alastor Moody",
+                    "date": "29/04/2026",
+                    "words": 270
+                },
+                {
+                    "url": "r17392",
+                    "author": "H. Shun Parkinson",
+                    "date": "02/05/2026",
+                    "words": 244
+                },
+                {
+                    "url": "r17525",
+                    "author": "Gavril A. Ollivander",
+                    "date": "03/05/2026",
+                    "words": 415
+                },
+                {
+                    "url": "r17804",
+                    "author": "Jasper R. Gryffith",
+                    "date": "07/05/2026",
+                    "words": 226
+                },
+                {
+                    "url": "r17887",
+                    "author": "Alastor Moody",
+                    "date": "08/05/2026",
+                    "words": 332
+                },
+                {
+                    "url": "r17979",
+                    "author": "H. Shun Parkinson",
+                    "date": "09/05/2026",
+                    "words": 388
+                },
+                {
+                    "url": "r18033",
+                    "author": "Gavril A. Ollivander",
+                    "date": "10/05/2026",
+                    "words": 342
+                },
+                {
+                    "url": "r16736",
+                    "author": "Black Wave",
+                    "date": "20/04/2026",
+                    "words": 219
+                },
+                {
+                    "url": "r18233",
+                    "author": "Jasper R. Gryffith",
+                    "date": "12/05/2026",
+                    "words": 220
+                },
+                {
+                    "url": "r18249",
+                    "author": "Alastor Moody",
+                    "date": "12/05/2026",
+                    "words": 290
+                },
+                {
+                    "url": "r18268",
+                    "author": "H. Shun Parkinson",
+                    "date": "13/05/2026",
+                    "words": 263
+                },
+                {
+                    "url": "r18447",
+                    "author": "Gavril A. Ollivander",
+                    "date": "16/05/2026",
+                    "words": 224
+                },
+                {
+                    "url": "r18702",
+                    "author": "Jasper R. Gryffith",
+                    "date": "20/05/2026",
+                    "words": 169
+                },
+                {
+                    "url": "r18712",
+                    "author": "Alastor Moody",
+                    "date": "20/05/2026",
+                    "words": 214
+                },
+                {
+                    "url": "r18889",
+                    "author": "Black Wave",
+                    "date": "25/05/2026",
+                    "words": 58
+                }
+            ],
+            "date": "20/03/1953",
+            "location": "Ollivanders"
+        },
+        "1219": {
+            "space": "el pensadero",
+            "url": "/t1219-1953-03-26-life-s-goin-nowhere",
+            "simpleTitle": "life's goin' nowhere",
+            "creator": "Lucretia Black-Prewett",
+            "posts": [
+                {
+                    "url": "r17948",
+                    "author": "Lucretia Black-Prewett",
+                    "date": "08/05/2026",
+                    "words": 500
+                },
+                {
+                    "url": "r17955",
+                    "author": "A. Ignatius Prewett",
+                    "date": "08/05/2026",
+                    "words": 282
+                },
+                {
+                    "url": "r17959",
+                    "author": "Lucretia Black-Prewett",
+                    "date": "08/05/2026",
+                    "words": 343
+                },
+                {
+                    "url": "r17967",
+                    "author": "A. Ignatius Prewett",
+                    "date": "08/05/2026",
+                    "words": 403
+                },
+                {
+                    "url": "r17983",
+                    "author": "Lucretia Black-Prewett",
+                    "date": "09/05/2026",
+                    "words": 377
+                },
+                {
+                    "url": "r18023",
+                    "author": "A. Ignatius Prewett",
+                    "date": "10/05/2026",
+                    "words": 310
+                },
+                {
+                    "url": "r18043",
+                    "author": "Lucretia Black-Prewett",
+                    "date": "10/05/2026",
+                    "words": 330
+                },
+                {
+                    "url": "r18120",
+                    "author": "A. Ignatius Prewett",
+                    "date": "11/05/2026",
+                    "words": 255
+                },
+                {
+                    "url": "r18240",
+                    "author": "Lucretia Black-Prewett",
+                    "date": "12/05/2026",
+                    "words": 349
+                },
+                {
+                    "url": "r18590",
+                    "author": "A. Ignatius Prewett",
+                    "date": "18/05/2026",
+                    "words": 286
+                },
+                {
+                    "url": "r18708",
+                    "author": "Lucretia Black-Prewett",
+                    "date": "20/05/2026",
+                    "words": 232
+                }
+            ],
+            "date": "26/03/1953",
+            "location": "Hogar Prewett-Black"
         }
     };
     const hardcodedDices = [
@@ -81583,6 +83413,548 @@ const DBModule = (function () {
             ],
             "url": "r10803",
             "simpleTitle": "animal i have become",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                3,
+                9
+            ],
+            "url": "r16427",
+            "simpleTitle": "evento: futuros líderes: nuala.",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Ruaan S. Patil",
+            "spread": [
+                10,
+                4
+            ],
+            "url": "r16453",
+            "simpleTitle": "evento: futuros líderes: nuala.",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Thaddeus L. Nott",
+            "spread": [
+                19,
+                9
+            ],
+            "url": "r16480",
+            "simpleTitle": "evento: futuros líderes: nuala.",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Viridian L. Greengrass",
+            "spread": [
+                11,
+                13
+            ],
+            "url": "r16487",
+            "simpleTitle": "evento: futuros líderes: nuala.",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                17,
+                6
+            ],
+            "url": "r16499",
+            "simpleTitle": "evento: futuros líderes: nuala.",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Ruaan S. Patil",
+            "spread": [
+                8,
+                7
+            ],
+            "url": "r16653",
+            "simpleTitle": "evento: futuros líderes: nuala.",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Thaddeus L. Nott",
+            "spread": [
+                10,
+                4
+            ],
+            "url": "r16663",
+            "simpleTitle": "evento: futuros líderes: nuala.",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                17,
+                5
+            ],
+            "url": "r16918",
+            "simpleTitle": "evento: futuros líderes: nuala.",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Ruaan S. Patil",
+            "spread": [
+                17,
+                2
+            ],
+            "url": "r16937",
+            "simpleTitle": "evento: futuros líderes: nuala.",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Thaddeus L. Nott",
+            "spread": [
+                11,
+                6
+            ],
+            "url": "r17095",
+            "simpleTitle": "evento: futuros líderes: nuala.",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Viridian L. Greengrass",
+            "spread": [
+                14,
+                11
+            ],
+            "url": "r17119",
+            "simpleTitle": "evento: futuros líderes: nuala.",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                2,
+                3
+            ],
+            "url": "r17122",
+            "simpleTitle": "evento: futuros líderes: nuala.",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Ruaan S. Patil",
+            "spread": [
+                2,
+                14
+            ],
+            "url": "r17391",
+            "simpleTitle": "evento: futuros líderes: nuala.",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Thaddeus L. Nott",
+            "spread": [
+                20,
+                3
+            ],
+            "url": "r17671",
+            "simpleTitle": "evento: futuros líderes: nuala.",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Viridian L. Greengrass",
+            "spread": [
+                13,
+                14
+            ],
+            "url": "r17821",
+            "simpleTitle": "evento: futuros líderes: nuala.",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                14,
+                4
+            ],
+            "url": "r17915",
+            "simpleTitle": "evento: futuros líderes: nuala.",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Ruaan S. Patil",
+            "spread": [
+                15,
+                13
+            ],
+            "url": "r18031",
+            "simpleTitle": "evento: futuros líderes: nuala.",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Thaddeus L. Nott",
+            "spread": [
+                1,
+                6
+            ],
+            "url": "r18111",
+            "simpleTitle": "evento: futuros líderes: nuala.",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Margareth T. Moody",
+            "spread": [
+                18
+            ],
+            "url": "r16449",
+            "simpleTitle": "evento: futuros líderes: arcturus.",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Orion A. Black",
+            "spread": [
+                11
+            ],
+            "url": "r16466",
+            "simpleTitle": "evento: futuros líderes: arcturus.",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                8
+            ],
+            "url": "r16491",
+            "simpleTitle": "evento: futuros líderes: arcturus.",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Cuthbert S. Selwyn",
+            "spread": [
+                3
+            ],
+            "url": "r16501",
+            "simpleTitle": "evento: futuros líderes: arcturus.",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Ksenia D. Demidova",
+            "spread": [
+                17
+            ],
+            "url": "r16540",
+            "simpleTitle": "evento: futuros líderes: arcturus.",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Margareth T. Moody",
+            "spread": [
+                8
+            ],
+            "url": "r16655",
+            "simpleTitle": "evento: futuros líderes: arcturus.",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Orion A. Black",
+            "spread": [
+                5
+            ],
+            "url": "r16675",
+            "simpleTitle": "evento: futuros líderes: arcturus.",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                5,
+                5
+            ],
+            "url": "r16695",
+            "simpleTitle": "evento: futuros líderes: arcturus.",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Cuthbert S. Selwyn",
+            "spread": [
+                20,
+                4
+            ],
+            "url": "r16886",
+            "simpleTitle": "evento: futuros líderes: arcturus.",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Margareth T. Moody",
+            "spread": [
+                1
+            ],
+            "url": "r17099",
+            "simpleTitle": "evento: futuros líderes: arcturus.",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Ksenia D. Demidova",
+            "spread": [
+                18,
+                9
+            ],
+            "url": "r17341",
+            "simpleTitle": "evento: futuros líderes: arcturus.",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                13,
+                5
+            ],
+            "url": "r17468",
+            "simpleTitle": "evento: futuros líderes: arcturus.",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Orion A. Black",
+            "spread": [
+                13,
+                19
+            ],
+            "url": "r17514",
+            "simpleTitle": "evento: futuros líderes: arcturus.",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Cuthbert S. Selwyn",
+            "spread": [
+                17,
+                7
+            ],
+            "url": "r17588",
+            "simpleTitle": "evento: futuros líderes: arcturus.",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Margareth T. Moody",
+            "spread": [
+                7,
+                9
+            ],
+            "url": "r17657",
+            "simpleTitle": "evento: futuros líderes: arcturus.",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Ksenia D. Demidova",
+            "spread": [
+                2,
+                9
+            ],
+            "url": "r17793",
+            "simpleTitle": "evento: futuros líderes: arcturus.",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                5,
+                20
+            ],
+            "url": "r17895",
+            "simpleTitle": "evento: futuros líderes: arcturus.",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Orion A. Black",
+            "spread": [
+                7
+            ],
+            "url": "r18093",
+            "simpleTitle": "evento: futuros líderes: arcturus.",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Cuthbert S. Selwyn",
+            "spread": [
+                13
+            ],
+            "url": "r18147",
+            "simpleTitle": "evento: futuros líderes: arcturus.",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Margareth T. Moody",
+            "spread": [
+                3
+            ],
+            "url": "r18191",
+            "simpleTitle": "evento: futuros líderes: arcturus.",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                5
+            ],
+            "url": "r16330",
+            "simpleTitle": "eché raíces y me encontró la luna",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Elysia G. Lestrange",
+            "spread": [
+                5
+            ],
+            "url": "r16353",
+            "simpleTitle": "eché raíces y me encontró la luna",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                18
+            ],
+            "url": "r16505",
+            "simpleTitle": "eché raíces y me encontró la luna",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                1
+            ],
+            "url": "r17402",
+            "simpleTitle": "eché raíces y me encontró la luna",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Elysia G. Lestrange",
+            "spread": [
+                9
+            ],
+            "url": "r17750",
+            "simpleTitle": "eché raíces y me encontró la luna",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                17
+            ],
+            "url": "r17919",
+            "simpleTitle": "eché raíces y me encontró la luna",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Ruairidh Ó Mhaille",
+            "spread": [
+                9
+            ],
+            "url": "r14638",
+            "simpleTitle": "a concept of an idea",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Peggy Batts",
+            "spread": [
+                19
+            ],
+            "url": "r15008",
+            "simpleTitle": "a concept of an idea",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Ruairidh Ó Mhaille",
+            "spread": [
+                8
+            ],
+            "url": "r15499",
+            "simpleTitle": "a concept of an idea",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Ruairidh Ó Mhaille",
+            "spread": [
+                8
+            ],
+            "url": "r14635",
+            "simpleTitle": "práctica: empty space",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Ruairidh Ó Mhaille",
+            "spread": [
+                15
+            ],
+            "url": "r15495",
+            "simpleTitle": "práctica: empty space",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Minerva E. McGonagall",
+            "spread": [
+                10
+            ],
+            "url": "r15686",
+            "simpleTitle": "práctica: empty space",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Ruairidh Ó Mhaille",
+            "spread": [
+                18
+            ],
+            "url": "r16206",
+            "simpleTitle": "práctica: empty space",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Minerva E. McGonagall",
+            "spread": [
+                15,
+                9
+            ],
+            "url": "r16678",
+            "simpleTitle": "práctica: empty space",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Ruairidh Ó Mhaille",
+            "spread": [
+                4
+            ],
+            "url": "r16794",
+            "simpleTitle": "práctica: empty space",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Minerva E. McGonagall",
+            "spread": [
+                16
+            ],
+            "url": "r17033",
+            "simpleTitle": "práctica: empty space",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Ruairidh Ó Mhaille",
+            "spread": [
+                6
+            ],
+            "url": "r17130",
+            "simpleTitle": "práctica: empty space",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Minerva E. McGonagall",
+            "spread": [
+                7,
+                11
+            ],
+            "url": "r17622",
+            "simpleTitle": "práctica: empty space",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Ruairidh Ó Mhaille",
+            "spread": [
+                1
+            ],
+            "url": "r18007",
+            "simpleTitle": "práctica: empty space",
             "space": "el pensadero"
         }
     ];
