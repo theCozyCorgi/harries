@@ -25,7 +25,7 @@ function calculateAmbientDate() {
     // Según tu código original: yearsInMonth (años * 6) + meses/2
     const yearsDiff = currentDate.getFullYear() - forumOpeningDate.getFullYear();
     const monthsSince = Math.trunc((currentDate.getMonth() - forumOpeningDate.getMonth()) / 2);
-    const monthsToAdvance = (yearsDiff * 6) + monthsSince;
+    const monthsToAdvance = (yearsDiff * 6) + monthsSince + 1;
 
     // 3. Seteamos la fecha ambiente
     currentAmbientDate = new Date(initialAmbientDate);
