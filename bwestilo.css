@@ -4755,7 +4755,7 @@ userdata[target="rango"] ur:not(:first-child):before { content: ' / '; }
   hyphens: manual;
 }
 
-.legend-last.record-restringido { background: var(--mode-back-80); color: var(--mode-text-100); }
+.legend-last.record-restringido { background: var(--mode-back-80); color: var(--mode-text-100); display: inline-flex; }
 .legend-last.record-anacrónico { background: var(--color-neutral-100); color: var(--color-text-100); }
 .legend-last.record-registrado { background: var(--color-bold-100); color: var(--color-text-100); }
 .rol-record { display: flex; flex-wrap: wrap; column-gap: 5px; align-items: flex-start; }
