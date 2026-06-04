@@ -2796,6 +2796,30 @@ const MissionsModule = (function () {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "casa",
           "cont": '<span>El contador de baldosas regresa a cero al igual que el contador de advertencias. Deberán esperar 1 hora hasta que las mandragoras se calmen y así poder volver a iniciar.</span>',
         },
+        "investigar los cajones junto a la cocina": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "casa",
+          "cont": '<span>Si se presta atención, podrán notar que, aunque la casa esta en desuso, aún conserva algunos objetos útiles. Cajones que se abrían y cerraban con frecuencia. Al abrir el primero podrán notar que hay unas orejeras azules por montones. Suficiente para que cada uno pueda colocarse un par. Esto bloquea 15PV del daño que puedan causar las mandragoras a futuro.</span>',
+        },
+        "investigar la alacena": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "casa",
+          "cont": '<span>Si se abre la alacena, podrán encontrar varios objetos útiles. Termos de agua, algunos caramelos de café que se han puesto viejos con el paso del tiempo, y también un frasco con un unguento negro que no parece demasiado agraciado.</span>',
+        },
+        "investigar unguentos": {
+          "visible": { "attr": { "val": "min" }, "know": { "curación": "10" }, "job": "invalid", "name": "invalid", }, "place": "investigar la alacena",
+          "cont": '<span>La pasta que esta en el frasco parece ser un unguento para los oídos generado, principalmente, por raíz de mandragora machacada. La mezcla en si parece barro, pero si se presta atención la letra de Edwin puede leeerse en el tapa indicando: "para los oídos".</span>',
+        },
+        "aplicar unguento": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "investigar unguentos",
+          "cont": '<span>Al aplicar el unguento, el personaje recibe un efecto de curación que reduce el daño recibido por las mandragoras. Restaura 35PV.</span>',
+        },
+        "abrir la puerta del armario": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "casa",
+          "cont": '<span>Si se abre las puertas del armario, podrán encontrar una pequeña colección de escobas. Son tres en particular. En la puerta del mismo puede encontrarse una fotografía de un niño cercano a los doce junto a sus dos padres.</span>',
+        },
+        "parecido de la familia": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "merrythought", }, "place": "casa",
+          "cont": '<span>La familia de tres que se observa en la fotografía, muestra a Edwin junto a sus padres: Mabel y Hamish. Si alguno desea indicar algún parecido a los hermanos o cualquier otro miembro de la familia, puede hacerlo.</span>',
+        },
       },
       "actions": {
         "tacite": {
