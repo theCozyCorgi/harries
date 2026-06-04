@@ -2907,6 +2907,12 @@ const MissionsModule = (function () {
           "exitoso": '<span>Permite mover 1 personaje para regresar a la casa. Debe realizarse desde el interior de la casa.</span>',
           "critico": '<span>Permite mover 2 personajes para regresar a la casa. Debe realizarse desde el interior de la casa.</span>',
         },
+        "volar en pareja": {
+          "leve": '<span>Permite avanzar <replace target="attr" data="des" calculate="1">la destreza del personaje en</replace> baldosas.</span>',
+          "moderado": '<span>Permite avanzar <replace target="attr" data="des" calculate="1.5">el 150% de la destreza del personaje en</replace> baldosas.</span>',
+          "exitoso": '<span>Permite avanzar <replace target="attr" data="des" calculate="2">el 200% de la destreza del personaje en</replace> baldosas.</span>',
+          "critico": '<span>Permite avanzar <replace target="attr" data="des" calculate="2.5">el 250% de la destreza del personaje en</replace> baldosas.</span>',
+        },
       },
     },
     // fin the murmuring woods
