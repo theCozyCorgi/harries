@@ -1471,49 +1471,49 @@ const MissionsModule = (function () {
     "gilded herb": {
       "description": "[Completada] Siguiendo el rastro de Manufacturas Dempsey, deberán ingresar en el lugar donde se generan las bebidas para The Maroon Steed para identificar qué poseían las bebidas del lugar. Irrumpir en el lugar solo buscará respuestas que pueden convertirse en nuevas preguntas.",
       "image": "https://2img.net/i.imgur.com/CzU2l87.png", "requisitos": ["Un integrante tiene que tener Herbología en Avanzado"],
-      "users": ["/u78","/u8","/u178","/u130","/u55","/u174"],
+      "users": ["/u78", "/u8", "/u178", "/u130", "/u55", "/u174"],
       "dependency": ["moth to a flame", "potions for all the afflictions"], "tagged": ["morgana", "capitulo 0"],
       "type": "misión", "closed": false, "link": "/t1262-mision-gilded-herb",
 
       "cards": [],
 
       "searchs": {
-          "resultado del perimetro realizado": {
-            "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "",
-            "cont": '<span>Tras unos días de investigación sobre el lugar en el que los aurores buscaron recabar información sin levantar las alarmas, notaron que nadie usa la entrada principal. Sino que el ingreso lo hacen al mediodía con un camión que llega a las instalaciones para marcharse a las doce de la noche.</span>',
-          },
-          "puerta de atrás": {
-            "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "resultado del perimetro realizado",
-            "cont": '<span>La puerta de atrás parece más simple que la de la entrada. Mucho más pequeña, con un espacio de carga y descarga de mercancía. Sin embargo, la misma se encuentra custodiada por tres guardias que patrullan constantemente. Dos en el interior y uno en el exterior. Ingresar por allí sin involucrar un enfrentamiento sería tarea imposible.</span>',
-          },
-          "seguridad interna": {
-            "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "resultado del perimetro realizado",
-            "cont": '<span>Además, el perímetro realizado indicó que el establecimiento tiene veinte ventanas, de las cuales pudo sacarse la siguiente información: existen 22 guardias que patrullan el interior del edificio. Cambian cada doce horas de manera secuencial, de manera que ningún piso se encuentra sin guardia. Esperar un cambio de la misma tampoco sería factible.</span>',
-          },
-          "hechizos de seguridad": {
-            "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "resultado del perimetro realizado",
-            "cont": '<span>Sumado a eso, todos los cristales cuentan con protecciones para que no se puedan romper desde el exterior y el edificio cuenta con un radio en el que no pueden aparecerse a menos de medio metro de las entradas.</span>',
-          },
-          "prueba ingreso por la puerta principal": {
-            "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "resultado del perimetro realizado",
-            "cont": '<span>El Departamento de Seguridad les prestó un squib que sirve como espía en el mundo muggle para que pudieran hacer la prueba de qué sucedía si alguien se acercaba a la misma. El resultado fue que abrieron la puerta y negaron cualquier relación con la persona hasta que no le quedó otra alternativa más que marcharse. En el interior se veían, además de los guardias de las ventanas, doce guardias en la planta de abajo.</span>',
-          },
-          "aura de la puerta principal": {
-            "visible": { "attr": { "val": "min" }, "know": { "magia oscura": "10" }, "job": "invalid", "name": "invalid", }, "place": "",
-            "cont": '<span>Si se observa con cuidado, se puede detectar que la puerta del establecimiento ha sido corrompida con una maldición de magia negra. Aquellos que han estudiado las artes pueden notar la forma en la que la maldición se encuentra aferrada a la madera y se enrieda en el picaporte.</span>',
-          },
-          "requisitos para desarmar la maldición": {
-            "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "rompemaldiciones", "name": "invalid", }, "place": "aura de la puerta principal",
-            "cont": '<span>Para poder desarmar la maldición, se necesitan un par de hechizos, pero no es un trabajo para hacerse a la distancia. Necesitaría acercamiento para poder identificar la misma y un tiempo adicional para poder hacer que la puerta vuelva a ser inofensiva. Los mejores rompemaldiciones dirían que es una tarea de, al menos, quince minutos.</span>',
-          },
-          "tiempo disponible en la entrada": {
-            "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "requisitos para desarmar la maldición",
-            "cont": '<span>Por el perímetro realizado, saben de buena mano que, cuando una persona pasa más de cinco minutos en la entrada, un guardia disfrazado de muggle se acerca para pedir que continúe circulando.</span>',
-          },
-          "requisitos para infiltrarse en el camión": {
-            "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "resultado del perimetro realizado",
-            "cont": '<span>Para poder infiltrarse con el camión, deben ir a un punto de encuentro que se encuentra a unas quince cuadras de allí. Un espacio donde podrían tener tiempo para poder detener el camión e ingresar en el mismo. El Ministerio les ha provisto para la misión poción multijugos.</span>',
-          },
+        "resultado del perimetro realizado": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "",
+          "cont": '<span>Tras unos días de investigación sobre el lugar en el que los aurores buscaron recabar información sin levantar las alarmas, notaron que nadie usa la entrada principal. Sino que el ingreso lo hacen al mediodía con un camión que llega a las instalaciones para marcharse a las doce de la noche.</span>',
+        },
+        "puerta de atrás": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "resultado del perimetro realizado",
+          "cont": '<span>La puerta de atrás parece más simple que la de la entrada. Mucho más pequeña, con un espacio de carga y descarga de mercancía. Sin embargo, la misma se encuentra custodiada por tres guardias que patrullan constantemente. Dos en el interior y uno en el exterior. Ingresar por allí sin involucrar un enfrentamiento sería tarea imposible.</span>',
+        },
+        "seguridad interna": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "resultado del perimetro realizado",
+          "cont": '<span>Además, el perímetro realizado indicó que el establecimiento tiene veinte ventanas, de las cuales pudo sacarse la siguiente información: existen 22 guardias que patrullan el interior del edificio. Cambian cada doce horas de manera secuencial, de manera que ningún piso se encuentra sin guardia. Esperar un cambio de la misma tampoco sería factible.</span>',
+        },
+        "hechizos de seguridad": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "resultado del perimetro realizado",
+          "cont": '<span>Sumado a eso, todos los cristales cuentan con protecciones para que no se puedan romper desde el exterior y el edificio cuenta con un radio en el que no pueden aparecerse a menos de medio metro de las entradas.</span>',
+        },
+        "prueba ingreso por la puerta principal": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "resultado del perimetro realizado",
+          "cont": '<span>El Departamento de Seguridad les prestó un squib que sirve como espía en el mundo muggle para que pudieran hacer la prueba de qué sucedía si alguien se acercaba a la misma. El resultado fue que abrieron la puerta y negaron cualquier relación con la persona hasta que no le quedó otra alternativa más que marcharse. En el interior se veían, además de los guardias de las ventanas, doce guardias en la planta de abajo.</span>',
+        },
+        "aura de la puerta principal": {
+          "visible": { "attr": { "val": "min" }, "know": { "magia oscura": "10" }, "job": "invalid", "name": "invalid", }, "place": "",
+          "cont": '<span>Si se observa con cuidado, se puede detectar que la puerta del establecimiento ha sido corrompida con una maldición de magia negra. Aquellos que han estudiado las artes pueden notar la forma en la que la maldición se encuentra aferrada a la madera y se enrieda en el picaporte.</span>',
+        },
+        "requisitos para desarmar la maldición": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "rompemaldiciones", "name": "invalid", }, "place": "aura de la puerta principal",
+          "cont": '<span>Para poder desarmar la maldición, se necesitan un par de hechizos, pero no es un trabajo para hacerse a la distancia. Necesitaría acercamiento para poder identificar la misma y un tiempo adicional para poder hacer que la puerta vuelva a ser inofensiva. Los mejores rompemaldiciones dirían que es una tarea de, al menos, quince minutos.</span>',
+        },
+        "tiempo disponible en la entrada": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "requisitos para desarmar la maldición",
+          "cont": '<span>Por el perímetro realizado, saben de buena mano que, cuando una persona pasa más de cinco minutos en la entrada, un guardia disfrazado de muggle se acerca para pedir que continúe circulando.</span>',
+        },
+        "requisitos para infiltrarse en el camión": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "resultado del perimetro realizado",
+          "cont": '<span>Para poder infiltrarse con el camión, deben ir a un punto de encuentro que se encuentra a unas quince cuadras de allí. Un espacio donde podrían tener tiempo para poder detener el camión e ingresar en el mismo. El Ministerio les ha provisto para la misión poción multijugos.</span>',
+        },
       },
 
       "actions": {},
@@ -2332,7 +2332,7 @@ const MissionsModule = (function () {
       "description": "Siguiendo los mapas encontrados en el estudio de Sirius y las indicaciones del alquimista. Es necesario adentrarse a uno de los lugares más peligrosos del mundo mágico: o Coração do Curupira (El corazón del Curupira). Una de las partes más espesas de la selva brasilera que dicen que está protegida por el mismo Curupira.",
       "image": "https://2img.net/i.imgur.com/c4omOwT.png", "requisitos": ["Un miembro debe tener CCM en Avanzado", "Un miembro del Dpto de Seguridad Mágica"],
       "users": [],
-      "dependency": ["the lupine killer","in search of the deadly hallows"],
+      "dependency": ["the lupine killer", "in search of the deadly hallows"],
       "type": "misión", "closed": false, "link": "", "tagged": ["sirius", "capitulo 0"],
 
       "cards": [],
@@ -2742,7 +2742,7 @@ const MissionsModule = (function () {
     "the murmuring woods": {
       "description": "[COMPLETADA] Tras la investigación sobre el lugar al que Edwin los llevó, descubren la existencia de una herencia de los Merrythought. Un lugar que había sido abandonado, pero cuyo objetivo se centra en ser un pulmón verde en las tierras escocesas. En esta misión se busca descubrir qué relación tiene este lugar con los asesinatos y por qué Edwin los llevó allí.",
       "image": "https://2img.net/i.imgur.com/VMpvsfT.png", "requisitos": ["Un miembro debe ser de la familia Merrythought", "Un miembro debe tener Herbología en Avanzado", "Un miembro debe tener Encantamientos en Consagrado", "Se recomienda que un miembro posea Música en Principiante o una hija de Banshees"],
-      "users": ["/u55","/u159","/u149","/u150","/u13","/u138"],
+      "users": ["/u55", "/u159", "/u149", "/u150", "/u13", "/u138"],
       "dependency": ["bottle of sorrows", "muted magic", "stargazer's night"], "tagged": ["morgana", "edwin", "capitulo 0"],
       "type": "misión", "closed": false, "link": "https://blackwave.foroactivo.com/t1205-mision-the-murmuring-woods",
 
@@ -4500,7 +4500,7 @@ const MissionsModule = (function () {
     "dragonfly's secrets": {
       "description": "Los Moody poseían un depósito de obras de arte donde guardaban aquellas de más valor en un espacio seguro. Sin embargo, Wrenn Wraithwood ha robado la llave del mismo y, ahora, deberán descubrir qué fue lo que robó.",
       "image": "https://2img.net/i.imgur.com/9fKGJPH.png", "requisitos": ["Un personaje deberá ser miembro del Departamento de Seguridad"],
-      "users": ["c/u8","/u161","/u177","/u178"],
+      "users": ["c/u8", "/u161", "/u177", "/u178"],
       "dependency": ["yule", "frozen sunflowers"],
       "type": "misión", "closed": false, "link": "", "tagged": ["original"],
 
@@ -4541,89 +4541,130 @@ const MissionsModule = (function () {
         },
       },
 
-      "cards": [],
+      "cards": [
+        {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "sótano",
+          "cont": '<span>Los sótanos del lugar son un lugar sin ventanas y húmero, solo alumbrado con candelabros que emiten una luz tenue y crepuscular. Esta lleno de jaulas cargadas de animales. Algunas de ellas se encuentran vacías, pero se puede observar que antes había habido un animal dentro. Otros animales están heridos, apenas pueden moverse y observan con lastima a las personas que posan sus miradas en ellos. Otros animales parecen más amigables, buscando ayuda a través de pequeños gimoteos. Existen un total de 10 jaulas con 16 animales dentro de los cuales 12 se encuentran heridos.</span>',
+        },
+        {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "hall",
+          "cont": '<span>El hall es un lugar amplio y oscuro, con paredes de piedra y techo alto. Hay una gran escalera que conduce al segundo piso. Las luces cuelan de la parte superior, iluminando débilmente el espacio. Al ingresar a la misma se encuentran con 2 guardias a los que deberán enfrentarse. A los "Guardias" deberán incluirlos como PNJ. Poseen 35PV y 3 de Fuerza y Constitución. Solo existen 13 guardias en el edificio.</span>',
+        },
+        {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "cocina",
+          "cont": '<span>La cocina es un lugar pequeño y acogedor, con una gran estufa en el centro. Hay varios recipientes y utensilios de cocina por todo el lugar. El olor a comida cocinada llena el aire. Al ingresar a la misma se encuentran con 7 guardias a los que deberán enfrentarse. A los "Guardias" deberán incluirlos como PNJ. Poseen 35PV y 3 de Fuerza y Constitución. Solo existen 13 guardias en el edificio.</span>',
+        },
+        {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "laboratorio",
+          "cont": '<span>El laboratorio es un lugar oscuro y lleno de instrumentos de investigación. Las paredes están cubiertas con fórmulas y diagramas complejos. El aire huele a químicos y experimentos. Al ingresar a la misma se encuentran con 1 guardia a los que deberán enfrentarse. A los "Guardias" deberán incluirlos como PNJ. Poseen 35PV y 3 de Fuerza y Constitución. Solo existen 13 guardias en el edificio.</span>',
+        },
+        {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "segundo piso",
+          "cont": '<span>El segundo piso es un lugar tranquilo y bien iluminado, con pasillos largos y habitaciones individuales. Las paredes están decoradas con cuadros y mobiliario elegante.</span>',
+        }
+      ],
 
       "searchs": {
-          "inspeccionar el lugar": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-            "cont": '<span>La casa a simple vista, no parece gran cosa. Una casa de dos plantas, custodiada por un guardia que circula la misma y dos que están plantados en la entrada.</span>',
-          },
-          "posible entrada por la puerta principal": {
-            "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "inspeccionar el lugar",
-            "cont": '<span>Una posible entrada, es ingresar por la puerta principal. Noquear a los dos guardias e ingresar al lugar por la puerta grande, aunque, implicaría levantar las alertas si no se hace con la velocidad necesaria. Una vez que el personaje inicie un camino, no podrá optar por otra opción.</span>',
-          },
-          "puerta principal": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "posible entrada por la puerta principal",
-            "cont": '<span>Al llegar a la puerta principal, deberán enfrentarse a dos "Guardias", deberán incluir a los mismos como PNJ. Poseen 35PV y 3 de Fuerza y Constitución. Al finalizar el duelo deberán solicitar intervención al staff.</span>',
-          },
-          "posible entrada por la ventana": {
-            "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "inspeccionar el lugar",
-            "cont": '<span>Una posible entrada, es ingresar por la ventana del segundo piso. En el cobertizo detrás de la casa hay un par de escobas voladoras. Podrían robar unas y usarlas para acceder a la ventana. Una vez que el personaje inicie un camino, no podrá optar por otra opción.</span>',
-          },
-          "entrada por la ventana": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "posible entrada por la ventana",
-            "cont": '<span>Para poder ingresar por la ventana del segundo piso deberán usar contrabando para robar las escobas y luego vuelo para poder ingresar por la ventana. Todos los turnos tendrán que lanzar el dado "Tacite" para ver si son vistos por el guardia que patrulla los alrededores.</span>',
-          },
-          "posible entrada por las alcantarillas": {
-            "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "inspeccionar el lugar",
-            "cont": '<span>No muy lejos de donde están, puede notarse la boca de una alcantarilla, si se ignora el mal olor que emana de ella, es una posible entrada para ingresar con cautela. Una vez que el personaje inicie un camino, no podrá optar por otra opción.</span>',
-          },
-          "entrada por las alcantarillas": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "posible entrada por las alcantarillas",
-            "cont": '<span>Al ingresar por la alcantarilla, deberán utilizar lumos para iluminar el camino y poder llegar a destino.</span>',
-          },
-          "ingresar al hall": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "intervención hall",
-            "cont": '<span></span>',
-          },
-          "ingresar al segundo piso": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "intervención segundo piso",
-            "cont": '<span></span>',
-          },
-          "ingresar al sótano": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "intervención sótano",
-            "cont": '<span></span>',
-          },
-          "ir del hall a la cocina": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "hall",
-            "cont": '<span></span>',
-          },
-          "ir de la cocina al hall": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "cocina",
-            "cont": '<span></span>',
-          },
-          "ir de la cocina al sótano": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "cocina",
-            "cont": '<span></span>',
-          },
-          "ir del sótano a la cocina": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "sótano",
-            "cont": '<span></span>',
-          },
-          "ir del hall al laboratorio": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "hall",
-            "cont": '<span></span>',
-          },
-          "ir del laboratorio al hall": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "laboratorio",
-            "cont": '<span></span>',
-          },
-          "ir del laboratorio al segundo piso": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "laboratorio",
-            "cont": '<span></span>',
-          },
-          "ir del segundo piso al laboratorio": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "segundo piso",
-            "cont": '<span></span>',
-          },
+        "inspeccionar el lugar": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
+          "cont": '<span>La casa a simple vista, no parece gran cosa. Una casa de dos plantas, custodiada por un guardia que circula la misma y dos que están plantados en la entrada.</span>',
+        },
+        "posible entrada por la puerta principal": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "inspeccionar el lugar",
+          "cont": '<span>Una posible entrada, es ingresar por la puerta principal. Noquear a los dos guardias e ingresar al lugar por la puerta grande, aunque, implicaría levantar las alertas si no se hace con la velocidad necesaria. Una vez que el personaje inicie un camino, no podrá optar por otra opción.</span>',
+        },
+        "puerta principal": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "posible entrada por la puerta principal",
+          "cont": '<span>Al llegar a la puerta principal, deberán enfrentarse a dos "Guardias", deberán incluir a los mismos como PNJ. Poseen 35PV y 3 de Fuerza y Constitución. Al finalizar el duelo deberán solicitar intervención al staff.</span>',
+        },
+        "posible entrada por la ventana": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "inspeccionar el lugar",
+          "cont": '<span>Una posible entrada, es ingresar por la ventana del segundo piso. En el cobertizo detrás de la casa hay un par de escobas voladoras. Podrían robar unas y usarlas para acceder a la ventana. Una vez que el personaje inicie un camino, no podrá optar por otra opción.</span>',
+        },
+        "entrada por la ventana": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "posible entrada por la ventana",
+          "cont": '<span>Para poder ingresar por la ventana del segundo piso deberán usar contrabando para robar las escobas y luego vuelo para poder ingresar por la ventana. Todos los turnos tendrán que lanzar el dado "Tacite" para ver si son vistos por el guardia que patrulla los alrededores.</span>',
+        },
+        "posible entrada por las alcantarillas": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "inspeccionar el lugar",
+          "cont": '<span>No muy lejos de donde están, puede notarse la boca de una alcantarilla, si se ignora el mal olor que emana de ella, es una posible entrada para ingresar con cautela. Una vez que el personaje inicie un camino, no podrá optar por otra opción.</span>',
+        },
+        "entrada por las alcantarillas": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "posible entrada por las alcantarillas",
+          "cont": '<span>Al ingresar por la alcantarilla, deberán utilizar lumos para iluminar el camino y poder llegar a destino.</span>',
+        },
+        "ingresar al hall": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "intervención hall",
+          "cont": '<span></span>',
+        },
+        "ingresar al segundo piso": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "intervención segundo piso",
+          "cont": '<span></span>',
+        },
+        "entreabrir la puerta al sótano": {
+          "visible": { "attr": { "sab": "3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "intervención sótano",
+          "cont": '<span>Tras abrir la puerta trampa del sótano, pueden observar unos pisos de madera y jaulas de animales llenas de perros de diferentes razas. Algunos heridos, otros asustados. Algunas de las jaulas se encuentran vacías. Existen dos guardias patrullando el área.</span>',
+        },
+        "escuchar los guardias": {
+          "visible": { "attr": { "sab": "3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "entreabrir la puerta al sótano",
+          "cont": '<span>Si se escucha con atención, pueden oír conversaciones entre los guardias sobre el estado de la comida. Parecen quejarse de que ese día no ha llegado a tiempo y que tienen hambre. E indican que les falta diez minutos para cortar en su hora de almuerzo.</span>',
+        },
+        "esperar diez minutos (primer turno)": {
+          "visible": { "attr": { "sab": "3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "escuchar los guardias",
+          "cont": '<span>Los personajes deberán esperar dos turnos a que los guardias suban a comer.</span>',
+        },
+        "esperar diez minutos (segundo turno)": {
+          "visible": { "attr": { "sab": "3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "esperar diez minutos (primer turno)",
+          "cont": '<span>Si los personajes abren la puerta al sótano, podrán ingresar estando solos.</span>',
+        },
+        "abrir la puerta trampa tras la espera": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "esperar diez minutos (segundo turno)",
+          "cont": '<span>Al abrir la puerta trampa pueden validar que están solos. A partir de este momento, todos los personajes deberán lanzar "Tacite" para moverse en todos los turnos.<adding class="check-cards" search="sótano"></adding></span>',
+        },
+        "abrir la puerta al sótano": {
+          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "intervención sótano",
+          "cont": '<span>Tras abrir la puerta trampa del sótano, pueden observar unos pisos de madera y jaulas de animales llenas de perros de diferentes razas. Algunos heridos, otros asustados. Algunas de las jaulas se encuentran vacías. Al ingresar a la misma se encuentran con 2 guardias a los que deberán enfrentarse. A los "Guardias" deberán incluirlo como PNJ. Poseen 35PV y 3 de Fuerza y Constitución. Solo existen 13 guardias en el edificio.</span>',
+        },
+        "ir del hall a la cocina": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "hall",
+          "cont": '<span>Permite ir del hall a la cocina.<adding class="check-cards" search="cocina"></adding></span>',
+        },
+        "ir de la cocina al hall": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "cocina",
+          "cont": '<span>Permite ir de la cocina al hall.<adding class="check-cards" search="hall"></adding></span>',
+        },
+        "ir de la cocina al sótano": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "cocina",
+          "cont": '<span>Permite ir de la cocina al sótano.<adding class="check-cards" search="sótano"></adding></span>',
+        },
+        "ir del sótano a la cocina": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "sótano",
+          "cont": '<span>Permite ir del sótano a la cocina.<adding class="check-cards" search="cocina"></adding></span>',
+        },
+        "ir del hall al laboratorio": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "hall",
+          "cont": '<span>Permite ir del hall al laboratorio.<adding class="check-cards" search="laboratorio"></adding></span>',
+        },
+        "ir del laboratorio al hall": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "laboratorio",
+          "cont": '<span>Permite ir del laboratorio al hall.<adding class="check-cards" search="hall"></adding></span>',
+        },
+        "ir del laboratorio al segundo piso": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "laboratorio",
+          "cont": '<span>Permite ir del laboratorio al segundo piso.<adding class="check-cards" search="segundo piso"></adding></span>',
+        },
+        "ir del segundo piso al laboratorio": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "segundo piso",
+          "cont": '<span>Permite ir del segundo piso al laboratorio.<adding class="check-cards" search="laboratorio"></adding></span>',
+        },
       },
 
       "actions": {
         "tacite": {
-          "leve": '<span>Los personajes son vistos por el guardia, deberán enfrentarse a un "Guardia" deberán incluirlo como PNJ. Posee 35PV y 3 de Fuerza y Constitución. Solo existen 13 guardias en el edificio.</span>',
-          "moderado": '<span>Los personajes son vistos por el guardia, deberán enfrentarse a un "Guardia" deberán incluirlo como PNJ. Posee 35PV y 3 de Fuerza y Constitución. Solo existen 13 guardias en el edificio.</span>',
-          "exitoso": '<span>Logran evitar ser vistos por el guardia.</span>',
-          "critico": '<span>Logran evitar ser vistos por el guardia.</span>',
+          "leve": '<span>Los personajes son vistos por un guardia, deberán enfrentarse a un "Guardia" deberán incluirlo como PNJ. Posee 35PV y 3 de Fuerza y Constitución. Solo existen 13 guardias en el edificio.</span>',
+          "moderado": '<span>Los personajes son vistos por un guardia, deberán enfrentarse a un "Guardia" deberán incluirlo como PNJ. Posee 35PV y 3 de Fuerza y Constitución. Solo existen 13 guardias en el edificio.</span>',
+          "exitoso": '<span>Logran evitar ser vistos por un guardia.</span>',
+          "critico": '<span>Logran evitar ser vistos por un guardia.</span>',
         },
         "lumos": {
           "leve": '<span>Alerta a un guardia de su presencia, deberán enfrentarse a un "Guardia" deberán incluirlo como PNJ. Posee 35PV y 3 de Fuerza y Constitución. Solo existen 13 guardias en el edificio.</span>',
@@ -4648,6 +4689,42 @@ const MissionsModule = (function () {
           "moderado": '<span>Permite ascender hasta el segundo piso. Deberán solicitar intervención al staff.</span>',
           "exitoso": '<span>Permite ascender hasta el segundo piso. Deberán solicitar intervención al staff.</span>',
           "critico": '<span>Permite ascender hasta el segundo piso. Deberán solicitar intervención al staff.</span>',
+        },
+        "alohomora": {
+          "leve": '<span>Permite abrir 1 jaula.</span>',
+          "moderado": '<span>Permite abrir 2 jaulas.</span>',
+          "exitoso": '<span>Permite abrir 3 jaulas.</span>',
+          "critico": '<span>Permite abrir 4 jaulas.</span>',
+        },
+        "portaberto": {
+          "leve": '<span>Alerta a un guardia de su presencia, deberán enfrentarse a un "Guardia" deberán incluirlo como PNJ. Posee 35PV y 3 de Fuerza y Constitución. Solo existen 13 guardias en el edificio.</span>',
+          "moderado": '<span>Alerta a un guardia de su presencia, deberán enfrentarse a un "Guardia" deberán incluirlo como PNJ. Posee 35PV y 3 de Fuerza y Constitución. Solo existen 13 guardias en el edificio.</span>',
+          "exitoso": '<span>Alerta a 2 guardias de su presencia, deberán enfrentarse a 2 "Guardias" deberán incluirlos como PNJ. Poseen 35PV y 3 de Fuerza y Constitución. Solo existen 13 guardias en el edificio.</span>',
+          "critico": '<span>Alerta a 2 guardias de su presencia, deberán enfrentarse a 2 "Guardias" deberán incluirlos como PNJ. Poseen 35PV y 3 de Fuerza y Constitución. Solo existen 13 guardias en el edificio.</span>',
+        },
+        "brackium emende": {
+          "leve": '<span>Permite curar 1 animal para que pueda moverse fuera del lugar.</span>',
+          "moderado": '<span>Permite curar 2 animales para que puedan moverse fuera del lugar.</span>',
+          "exitoso": '<span>Permite curar 3 animales para que puedan moverse fuera del lugar.</span>',
+          "critico": '<span>Permite curar 4 animales para que puedan moverse fuera del lugar.</span>',
+        },
+        "pellis sana": {
+          "leve": '<span>Permite curar 1 animal para que pueda moverse fuera del lugar.</span>',
+          "moderado": '<span>Permite curar 1 animal para que puedan moverse fuera del lugar.</span>',
+          "exitoso": '<span>Permite curar 2 animales para que puedan moverse fuera del lugar.</span>',
+          "critico": '<span>Permite curar 2 animales para que puedan moverse fuera del lugar.</span>',
+        },
+        "sensus mitigo": {
+          "leve": '<span>No es suficiente para revelar información.</span>',
+          "moderado": '<span>Permite calmar a los perros para que confíen en ellos y sigan sus instrucciones.</span>',
+          "exitoso": '<span>Permite calmar a los perros para que confíen en ellos y sigan sus instrucciones.</span>',
+          "critico": '<span>Permite calmar a los perros para que confíen en ellos y sigan sus instrucciones.</span>',
+        },
+        "fermaportus": {
+          "leve": '<span>No es suficiente para revelar información.</span>',
+          "moderado": '<span>Solo podrá lanzarse una vez. Al realizar este hechizo, los personajes podrán evitar lanzar "Tacite" por 1 ronda.</span>',
+          "exitoso": '<span>Solo podrá lanzarse una vez. Al realizar este hechizo, los personajes podrán evitar lanzar "Tacite" por 2 rondas.</span>',
+          "critico": '<span>Solo podrá lanzarse una vez. Al realizar este hechizo, los personajes podrán evitar lanzar "Tacite" por 3 rondas.</span>',
         },
       },
     },
@@ -8294,12 +8371,12 @@ const MissionsModule = (function () {
     },
     // fin: evento futuros lideres: thyra
 
-    
+
 
     "quest line 1a": {
       "description": "",
       "image": "", "requisitos": [],
-      "users": ['/u17', '/u7', '/u9', '/u24', '/u8', '/u12', '/u34', '/u13', '/u38', '/u91', '/u55', '/u44', '/u50', '/u63', '/u78', '/u94', '/u97', '/u108', '/u112', '/u110', '/u118', '/u119', '/u120', '/u124', '/u127', '/u130', '/u131', '/u134', '/u135', '/u137', '/u138', '/u141', '/u143', '/u145', '/u146', '/u149', '/u148', '/u150', '/u151', '/u153', '/u154', '/u156', '/u159', '/u157', '/u160', '/u162', '/u163', '/u161', '/u165', '/u167', '/u168', '/u171', '/u172', '/u174','/u180','/u179','/u178','/u177','/u176'],
+      "users": ['/u17', '/u7', '/u9', '/u24', '/u8', '/u12', '/u34', '/u13', '/u38', '/u91', '/u55', '/u44', '/u50', '/u63', '/u78', '/u94', '/u97', '/u108', '/u112', '/u110', '/u118', '/u119', '/u120', '/u124', '/u127', '/u130', '/u131', '/u134', '/u135', '/u137', '/u138', '/u141', '/u143', '/u145', '/u146', '/u149', '/u148', '/u150', '/u151', '/u153', '/u154', '/u156', '/u159', '/u157', '/u160', '/u162', '/u163', '/u161', '/u165', '/u167', '/u168', '/u171', '/u172', '/u174', '/u180', '/u179', '/u178', '/u177', '/u176'],
       "dependency": [],
       "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
 
@@ -8307,108 +8384,108 @@ const MissionsModule = (function () {
 
       "searchs": {
         "desafío #01": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-            "cont": '<span>Realizar 50 roles posteriores a la publicación del desafío.</span>',
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
+          "cont": '<span>Realizar 50 roles posteriores a la publicación del desafío.</span>',
         },
         "desafío #02": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #01",
-            "cont": '<span>Encontrar las 2 burbujas con fuegos escondidas en los roles.</span>',
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #01",
+          "cont": '<span>Encontrar las 2 burbujas con fuegos escondidas en los roles.</span>',
         },
         "desafío #03": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #02",
-            "cont": '<span>Haber completado 15 prácticas.</span>',
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #02",
+          "cont": '<span>Haber completado 15 prácticas.</span>',
         },
         "desafío #04": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #03",
-            "cont": '<span>Haber recolectado 150 cromos.</span>',
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #03",
+          "cont": '<span>Haber recolectado 150 cromos.</span>',
         },
         "desafío #05": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #04",
-            "cont": '<span>Haber lanzado 15 hechizos diferentes del conocimiento con mayor puntaje.</span>',
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #04",
+          "cont": '<span>Haber lanzado 15 hechizos diferentes del conocimiento con mayor puntaje.</span>',
         },
         "desafío #06": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #05",
-            "cont": '<span>Realizar 75 roles posteriores a la publicación del desafío #2.</span>',
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #05",
+          "cont": '<span>Realizar 75 roles posteriores a la publicación del desafío #2.</span>',
         },
         "desafío #07": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #06",
-            "cont": '<span>Encontrar las 5 burbujas con farolillos escondidas en los roles.</span>',
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #06",
+          "cont": '<span>Encontrar las 5 burbujas con farolillos escondidas en los roles.</span>',
         },
         "desafío #08": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #07",
-            "cont": '<span>Haber realizado 15 pociones. Por este desafío el cooldown se reduce a 2 usuarios y 24hs.</span>',
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #07",
+          "cont": '<span>Haber realizado 15 pociones. Por este desafío el cooldown se reduce a 2 usuarios y 24hs.</span>',
         },
         "desafío #09": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #08",
-            "cont": '<span>Haber participado en 10 misiones. Por este desafío el cooldown se reduce a 2 usuarios y 24hs.</span>',
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #08",
+          "cont": '<span>Haber participado en 10 misiones. Por este desafío el cooldown se reduce a 2 usuarios y 24hs.</span>',
         },
         "desafío #10": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #09",
-            "cont": '<span>Haber realizado 25 hechizos diferentes que sean "Principiantes" y el resultado sea entre Leve y Crítico.</span>',
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #09",
+          "cont": '<span>Haber realizado 25 hechizos diferentes que sean "Principiantes" y el resultado sea entre Leve y Crítico.</span>',
         },
         "desafío #11": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #10",
-            "cont": '<span>Haber descubierto 10 PNJ, Libros, Pociones o Lugares de Interés. Por este desafío el cooldown se reduce a 2 usuarios y 24hs.</span>',
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #10",
+          "cont": '<span>Haber descubierto 10 PNJ, Libros, Pociones o Lugares de Interés. Por este desafío el cooldown se reduce a 2 usuarios y 24hs.</span>',
         },
         "desafío #12": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #11",
-            "cont": '<span>Haber sumado 500 puntos para la correspondientes casa. Por este desafío el cooldown se reduce a 2 usuarios y 24hs.</span>',
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #11",
+          "cont": '<span>Haber sumado 500 puntos para la correspondientes casa. Por este desafío el cooldown se reduce a 2 usuarios y 24hs.</span>',
         },
         "desafío #13": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #12",
-            "cont": '<span>Haber recolectado 30 grageas de sabores. Pueden presentar el enlace al baúl.</span>',
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #12",
+          "cont": '<span>Haber recolectado 30 grageas de sabores. Pueden presentar el enlace al baúl.</span>',
         },
         "desafío #14": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #13",
-            "cont": '<span>Haber completado 5 eventos. Los temas deben ser diferentes.</span>',
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #13",
+          "cont": '<span>Haber completado 5 eventos. Los temas deben ser diferentes.</span>',
         },
         "desafío #15": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #14",
-            "cont": '<span>Haber realizado 15 hechizos diferentes que sean "Avanzados" y el resultado sea entre Leve y Crítico.</span>',
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #14",
+          "cont": '<span>Haber realizado 15 hechizos diferentes que sean "Avanzados" y el resultado sea entre Leve y Crítico.</span>',
         },
         "desafío #16": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #15",
-            "cont": '<span>Realizar 90 roles posteriores a la publicación del desafío #7.</span>',
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #15",
+          "cont": '<span>Realizar 90 roles posteriores a la publicación del desafío #7.</span>',
         },
         "desafío #17": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #16",
-            "cont": '<span>Haber recolectado 150 cromos. No pueden ser los mismos que los anteriores. Por este desafío el cooldown se reduce a 3 usuarios.</span>',
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #16",
+          "cont": '<span>Haber recolectado 150 cromos. No pueden ser los mismos que los anteriores. Por este desafío el cooldown se reduce a 3 usuarios.</span>',
         },
         "desafío #18": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #17",
-            "cont": '<span>Haber recolectado 20 grageas de diferentes sabores.</span>',
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #17",
+          "cont": '<span>Haber recolectado 20 grageas de diferentes sabores.</span>',
         },
         "desafío #19": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #18",
-            "cont": '<span>Haber roleado en 20 lugares de interés diferentes. Pueden presentarse temas abiertos. Los lugares de interés deben ser los listados por la administración en cada foro.</span>',
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #18",
+          "cont": '<span>Haber roleado en 20 lugares de interés diferentes. Pueden presentarse temas abiertos. Los lugares de interés deben ser los listados por la administración en cada foro.</span>',
         },
         "desafío #20": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #19",
-            "cont": '<span>Haber realizado 10 hechizos diferentes que sean "Consagrado" y el resultado sea entre Leve y Crítico. Por este desafío el cooldown se reduce a 3 usuarios.</span>',
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #19",
+          "cont": '<span>Haber realizado 10 hechizos diferentes que sean "Consagrado" y el resultado sea entre Leve y Crítico. Por este desafío el cooldown se reduce a 3 usuarios.</span>',
         },
         "desafío #21": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #20",
-            "cont": '<span>Haber gastado 10k en la tienda. Puede presentarse de evidencia el baúl.</span>',
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #20",
+          "cont": '<span>Haber gastado 10k en la tienda. Puede presentarse de evidencia el baúl.</span>',
         },
         "desafío #22": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #21",
-            "cont": '<span>Haber realizado 5 hechizos diferentes que sean "Maestro" y el resultado sea entre Leve y Crítico. Por este desafío el cooldown se reduce a 3 usuarios.</span>',
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #21",
+          "cont": '<span>Haber realizado 5 hechizos diferentes que sean "Maestro" y el resultado sea entre Leve y Crítico. Por este desafío el cooldown se reduce a 3 usuarios.</span>',
         },
         "desafío #23": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #22",
-            "cont": '<span>Realizar 100 roles posteriores a la publicación del desafío #17. Por este desafío no hay cooldown de usuarios.</span>',
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #22",
+          "cont": '<span>Realizar 100 roles posteriores a la publicación del desafío #17. Por este desafío no hay cooldown de usuarios.</span>',
         },
         "desafío #24": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #23",
-            "cont": '<span>Haber lanzado 10 grageas del mismo sabor. ¡Cuidado! El primero en postear elije la gragea que deben completar.</span>',
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #23",
+          "cont": '<span>Haber lanzado 10 grageas del mismo sabor. ¡Cuidado! El primero en postear elije la gragea que deben completar.</span>',
         },
         "desafío #25": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #24",
-            "cont": '<span>Haber lanzado 20 pifias o críticos en acciones por hechizos o habilidades.</span>',
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #24",
+          "cont": '<span>Haber lanzado 20 pifias o críticos en acciones por hechizos o habilidades.</span>',
         },
         "desafío #26": {
-            "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #25",
-            "cont": '<span>Encontrar las 26 burbujas con plantas escondidas en los roles. No podrán presentar más de 7 burbujas en las evidencias.</span>',
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "desafío #25",
+          "cont": '<span>Encontrar las 26 burbujas con plantas escondidas en los roles. No podrán presentar más de 7 burbujas en las evidencias.</span>',
         }
       },
 
