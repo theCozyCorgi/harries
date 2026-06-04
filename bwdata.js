@@ -2817,7 +2817,7 @@ const MissionsModule = (function () {
           "cont": '<span>Si se abre las puertas del armario, podrán encontrar una pequeña colección de escobas. Son tres en particular. En la puerta del mismo puede encontrarse una fotografía de un niño cercano a los doce junto a sus dos padres.</span>',
         },
         "parecido de la familia": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "merrythought", }, "place": "casa",
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "merrythought", }, "place": "abrir la puerta del armario",
           "cont": '<span>La familia de tres que se observa en la fotografía, muestra a Edwin junto a sus padres: Mabel y Hamish. Si alguno desea indicar algún parecido a los hermanos o cualquier otro miembro de la familia, puede hacerlo.</span>',
         },
       },
