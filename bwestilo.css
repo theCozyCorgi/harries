@@ -4817,6 +4817,16 @@ job strong { color: var(--mode-back-60); }
 .record-content[dato="jefe supremo"] .record-item:last-child 
 .record-content[dato="dueño"] .record-item:last-child { margin-bottom: 0 !important; }
 
+
+.record-content[record="creatividad"] .record-content,
+.record-content[record="intelecto"] .record-content,
+.record-content[record="deportes"] .record-content,
+.record-content[record="naturaleza"] .record-content,
+.record-content[record="cotidianidad"] .record-content,
+.record-content[record="coleccionismo"] .record-content,
+.record-content[record="recreación"] .record-content
+ { flex-basis: 205px; flex-grow: 1; }
+
 /* se terminó el código feo de registros, perdón por todo el caos */
 
 /* muestra info segun lo que se indica */
