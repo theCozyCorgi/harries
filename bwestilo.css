@@ -4827,6 +4827,15 @@ job strong { color: var(--mode-back-60); }
 .record-content[record="recreación"] .record-content
  { flex-basis: 205px; flex-grow: 1; }
 
+.record-content[record="creatividad"] .record-item,
+.record-content[record="intelecto"] .record-item,
+.record-content[record="deportes"] .record-item,
+.record-content[record="naturaleza"] .record-item,
+.record-content[record="cotidianidad"] .record-item,
+.record-content[record="coleccionismo"] .record-item,
+.record-content[record="recreación"] .record-item
+ { flex-basis: 205px; flex-grow: 1; }
+
 /* se terminó el código feo de registros, perdón por todo el caos */
 
 /* muestra info segun lo que se indica */
