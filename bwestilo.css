@@ -13,6 +13,14 @@
 @import url('https://cdn-uicons.flaticon.com/4.0.0/uicons-duotone-rounded/css/uicons-duotone-rounded.css');
 @import url('https://cdn-uicons.flaticon.com/4.0.0/uicons-duotone-chubby/css/uicons-duotone-chubby.css');
 
+@font-face {
+  font-family: 'Homemade Apple';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Homemade Apple Regular'), local('HomemadeApple-Regular'), url(https://fonts.gstatic.com/s/homemadeapple/v10/Qw3EZQFXECDrI2q789EKQZJob0x6XHg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
 /* 02. Header */
 .header {
   height: 950px;
@@ -6468,3 +6476,54 @@ a.forumtitle, a.forumtitle:hover { color: var(--color-text-100) !important; }
   font-size: 12px !important;
   line-height: normal !important;
 }
+
+
+/* firmas en links de dropbox */
+/*  fuel 」 TEMPLATE CRIADO POR ROSS, NÃO TIRE OS CRÉDITOS */
+#rfuel .rimg {
+  width: 63px;
+  height: 63px;
+  margin: 15px 0;
+  border: 6px solid #ffc5af;
+  position: relative;
+}
+
+#rfuel .rimg img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  position: absolute;
+  bottom: -20px;
+  left: -20px;
+}
+
+#rfuel span {
+  position: absolute;
+  left: 22px;
+  bottom: -23px;
+  display: inline-block;
+  color: #ffc5af;
+  font: 700 37px/100% 'Arial';
+  letter-spacing: -3px;
+  text-transform: lowercase;
+  text-shadow: -2px -2px 0px #fff;
+}
+
+#rfuel:after {
+  display: block;
+  content: "「R」";
+  font: bold 8px/12px 'Consolas';
+  color: #8e8e8e;
+  text-transform: uppercase;
+  opacity: .5;
+}
+
+#rfuel:hover::after {
+  content: "「BY ROSS」";
+}
+
+/* CÓDIGO DE ASSINATURA FEITO POR MARIA PAULA a.k.a MINGI */ 
+/* Disponível em https://mingicodes.tumblr.com & https://mingiarchives.tumblr.com */
+/* Não modifique ou use como base */
+.fallin{font:13px homemade apple;width:142px;text-align:center;font-weight:500;line-height:140%;margin-bottom:3px}
+.inand{font:9px arial;width:142px;text-align:center;font-weight:500;line-height:100%;padding-top:2px;margin-top:3px}
