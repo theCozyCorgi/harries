@@ -84598,6 +84598,33 @@ const DBModule = (function () {
             };
         },
 
+        scanExtraTopic: async function(url, spaceName = "Zona Especial") {
+            const topicKey = extractTopicKey(url);
+            if (!topicKey) {
+                console.error("URL inválida. Asegúrate de pasar la URL del tema (ej: /t15-tema)");
+                return;
+            }
+
+            console.log(`%c[DBModule] Iniciando escaneo de: ${url}...`, "color: yellow;");
+
+            if (!dynamicData.topics[topicKey]) {
+                dynamicData.topics[topicKey] = {
+                    space: spaceName,
+                    url: url,
+                    simpleTitle: "Tema Extra (" + topicKey + ")",
+                    creator: "Sistema",
+                    posts: []
+                };
+            } else {
+                dynamicData.topics[topicKey].posts = [];
+            }
+
+            await scanTopicPosts(url, "Tema Extra");
+            this.save();
+            
+            console.log(`%c[DBModule] ¡Tema extra escaneado y guardado! Los dados ya están en tu caché.`, "color: lime;");
+        },
+
         exportData: function () {
             const allData = this.getUnifiedData();
             const filterBySpace = (space) => {
