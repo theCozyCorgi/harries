@@ -8177,9 +8177,15 @@ const MissionsModule = (function () {
       "actions": {
         "sectio aurea": {
           "leve": '<span>Permite identificar el centro en el cual se debe colgar el cuadro y colgar 2 cuadros.</span>',
-          "moderado": '<span>Permite identificar el centro en el cual se debe colgar el cuadro y colgar 4 cuadros.</span>',
-          "exitoso": '<span>Permite identificar el centro en el cual se debe colgar el cuadro y colgar 6 cuadros.</span>',
-          "critico": '<span>Permite identificar el centro en el cual se debe colgar el cuadro y colgar 8 cuadros.</span>',
+          "moderado": '<span>Permite identificar el centro en el cual se debe colgar el cuadro y colgar 3 cuadros.</span>',
+          "exitoso": '<span>Permite identificar el centro en el cual se debe colgar el cuadro y colgar 4 cuadros.</span>',
+          "critico": '<span>Permite identificar el centro en el cual se debe colgar el cuadro y colgar 5 cuadros.</span>',
+        },
+        "iteratio perfectum": {
+          "leve": '<span>Permite adicionar 1 cuadro más al colgar el cuadro.</span>',
+          "moderado": '<span>Permite adicionar 2 cuadros más al colgar el cuadro.</span>',
+          "exitoso": '<span>Permite adicionar 3 cuadros más al colgar el cuadro.</span>',
+          "critico": '<span>Permite adicionar 4 cuadros más al colgar el cuadro.</span>',
         },
         "historia magicae": {
           "leve": '<span>No es suficiente para revelar información</span>',
