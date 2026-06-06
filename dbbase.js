@@ -84275,43 +84275,64 @@ const DBModule = (function () {
             });
 
             // === EXTRACCIÓN DE DADOS MEJORADA (DBModule) ===
-            const rolesDivs = $post.find('.post-content div').toArray();
+            const rolesDivs = $post.find('.content:contains("Lanzada de dados"), .content:contains("ha efectuado la acción siguiente")').toArray();
 
             for (const roleDiv of rolesDivs) {
-                const text = $(roleDiv).text();
-                if (text.includes('ha efectuado la acción siguiente')) {
-                    const res = $(roleDiv).find('strong').map(function () { return $(this).text().trim(); }).get();
+                let htmlStr = $(roleDiv).html();
+                if (!htmlStr.includes('<hr>')) continue;
 
-                    if (res.length > 2) {
-                        const pitcher = res.shift();
-                        const rawTitle = res.shift();
-                        const diceTitle = rawTitle.replace(/'/g, '').toLowerCase().trim();
-                        const spread = res.map(str => parseInt(str, 10)).filter(num => !isNaN(num));
+                let h = htmlStr.split('<hr>')[0];
+                let c = htmlStr.split('<hr>')[1];
+                
+                let pitcher = $(h).find('strong').first().text().trim();
+                if (!pitcher) pitcher = $(roleDiv).find('strong').first().text().trim();
 
-                        if (pitcher && spread.length > 0) {
-                            let htmlResult = "";
-                            let metaData = {}; // Guardará key, know, type, target
+                let l = c.split('#');
+                let chunks = l.length > 1 ? l.slice(1) : [l[0]];
 
-                            if (typeof DiceModule !== 'undefined' && DiceModule.buildDiceHTML) {
-                                // Aquí el await ahora funcionará perfectamente
-                                const package = await DiceModule.buildDiceHTML(diceTitle, spread, pitcher, postId);
-                                htmlResult = package.html;
-                                metaData = package.meta;
-                            }
+                let spread = [];
+                let diceTitle = "";
 
-                            dynamicData.dices.push({
-                                pitcher,
-                                spread,
-                                title: metaData.target || diceTitle,
-                                key: metaData.key || "",
-                                knowledge: metaData.know || "",
-                                html: htmlResult,
-                                url: 'r' + postId.replace('p', ''),
-                                simpleTitle: dynamicData.topics[topicKey].simpleTitle,
-                                space: dynamicData.topics[topicKey].space
-                            });
-                        }
+                for (let chunk of chunks) {
+                    let lc = '<div>' + chunk.replace('</div>', '') + '</div>';
+                    
+                    let rawSplit = $(lc).text().split("'");
+                    if (rawSplit.length > 1) {
+                        diceTitle = rawSplit[1].toLowerCase().trim();
                     }
+
+                    // Extraemos el número del resultado
+                    let matchResult = $(lc).text().match(/:\s*(\d+)/);
+                    if (matchResult) {
+                        spread.push(parseInt(matchResult[1], 10));
+                    } else {
+                        let nums = $(lc).text().match(/\d+/g);
+                        if (nums && nums.length > 0) spread.push(parseInt(nums[nums.length - 1], 10));
+                    }
+                }
+
+                if (pitcher && spread.length > 0 && diceTitle) {
+                    let htmlResult = "";
+                    let metaData = {}; 
+
+                    if (typeof DiceModule !== 'undefined' && DiceModule.buildDiceHTML) {
+                        const package = await DiceModule.buildDiceHTML(diceTitle, spread, pitcher, postId, $data);
+                        htmlResult = package.html;
+                        metaData = package.meta;
+                    }
+
+                    dynamicData.dices.push({
+                        pitcher,
+                        spread,
+                        title: metaData.target || diceTitle,
+                        key: metaData.key || "",
+                        knowledge: metaData.know || "",
+                        type: metaData.type || "",
+                        html: htmlResult,
+                        url: 'r' + postId.replace('p', ''),
+                        simpleTitle: dynamicData.topics[topicKey].simpleTitle,
+                        space: dynamicData.topics[topicKey].space
+                    });
                 }
             }
         }
