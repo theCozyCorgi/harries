@@ -4738,71 +4738,71 @@ const MissionsModule = (function () {
         },
         "contar estantería central 2": {
           "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir inventario",
-          "cont": '<span></span>',
+          "cont": '<span>Se encuentran 8 esculturas, 3 pinturas y 10 artefactos en esta estantería.</span>',
         },
         "contar estantería central 3": {
           "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir inventario",
-          "cont": '<span></span>',
+          "cont": '<span>Se encuentran 8 esculturas, 3 pinturas y 10 artefactos en esta estantería.</span>',
         },
         "contar estantería central 4": {
           "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir inventario",
-          "cont": '<span></span>',
+          "cont": '<span>Se encuentran 8 esculturas, 3 pinturas y 10 artefactos en esta estantería.</span>',
         },
         "contar estantería central 5": {
           "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir inventario",
-          "cont": '<span></span>',
+          "cont": '<span>Se encuentran 8 esculturas, 3 pinturas y 10 artefactos en esta estantería.</span>',
         },
         "contar estantería central 6": {
           "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir inventario",
-          "cont": '<span></span>',
+          "cont": '<span>Se encuentran 8 esculturas, 3 pinturas y 10 artefactos en esta estantería.</span>',
         },
         "contar estantería lateral este 1": {
           "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir inventario",
-          "cont": '<span></span>',
+          "cont": '<span>Se encuentran 8 esculturas, 3 pinturas y 10 artefactos en esta estantería.</span>',
         },
         "contar estantería lateral este 2": {
           "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir inventario",
-          "cont": '<span></span>',
+          "cont": '<span>Se encuentran 8 esculturas, 3 pinturas y 10 artefactos en esta estantería.</span>',
         },
         "contar estantería lateral este 3": {
           "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir inventario",
-          "cont": '<span></span>',
+          "cont": '<span>Se encuentran 8 esculturas, 3 pinturas y 10 artefactos en esta estantería.</span>',
         },
         "contar estantería posterior 1": {
           "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir inventario",
-          "cont": '<span></span>',
+          "cont": '<span>Se encuentran 8 esculturas, 3 pinturas y 10 artefactos en esta estantería.</span>',
         },
         "contar estantería posterior 2": {
           "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir inventario",
-          "cont": '<span></span>',
+          "cont": '<span>Se encuentran 8 esculturas, 3 pinturas y 10 artefactos en esta estantería.</span>',
         },
         "contar estantería posterior 3": {
           "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir inventario",
-          "cont": '<span></span>',
+          "cont": '<span>Se encuentran 8 esculturas, 3 pinturas y 10 artefactos en esta estantería.</span>',
         },
         "contar estantería lateral oeste 1": {
           "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir inventario",
-          "cont": '<span></span>',
+          "cont": '<span>Se encuentran 8 esculturas, 3 pinturas y 10 artefactos en esta estantería.</span>',
         },
         "contar estantería lateral oeste 2": {
           "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir inventario",
-          "cont": '<span></span>',
+          "cont": '<span>Se encuentran 8 esculturas, 3 pinturas y 10 artefactos en esta estantería.</span>',
         },
         "contar estantería lateral oeste 3": {
           "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir inventario",
-          "cont": '<span></span>',
+          "cont": '<span>Se encuentran 8 esculturas, 3 pinturas y 10 artefactos en esta estantería.</span>',
         },
         "contar pared este": {
           "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir inventario",
-          "cont": '<span></span>',
+          "cont": '<span>Se encuentran 2 esculturas, 15 pinturas y 4 artefactos en esta pared.</span>',
         },
         "contar pared sur": {
           "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir inventario",
-          "cont": '<span></span>',
+          "cont": '<span>Se encuentran 2 esculturas, 14 pinturas y 5 artefactos en esta pared.</span>',
         },
         "contar pared oeste": {
           "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir inventario",
-          "cont": '<span></span>',
+          "cont": '<span>Se encuentra 1 escultura, 14 pinturas y 5 artefactos en esta pared.</span>',
         },
       },
 
