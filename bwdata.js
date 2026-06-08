@@ -1475,6 +1475,30 @@ const MissionsModule = (function () {
       "dependency": ["moth to a flame", "potions for all the afflictions"], "tagged": ["morgana", "capitulo 0"],
       "type": "misión", "closed": false, "link": "/t1262-mision-gilded-herb",
 
+      "creatures": {
+        "guardia": {
+          "atributos": ["+3 fue", "+3 con"],
+          "pv": "35",
+          "rareza": "corriente",
+          "peligrosidad": "controlable",
+          "clasificación": "ser / personaje no jugable",
+          "descripción": "personaje no jugable",
+          "ataques": {
+            "leve": 'Ataca con hechizo: "Expelliarmus". El objeto es expulsado con fuerza y queda fuera del alcance inmediato del objetivo. El objetivo pierde una acción utilizada para recuperar su varita.',
+            "moderado": 'Ataca con hechizo: "Mimble Wimble". La víctima apenas puede pronunciar palabras coherentes, dificultando cualquier comunicación. Pierde 5 puntos en todos los hechizos verbales.',
+            "exitoso": 'Ataca con hechizo: "Flipendo". El oponente es derribado y lanzado al suelo. Adiciona +10 en el daño.',
+            "critico": 'Ataca con hechizo: "Petrificus Totalus". El objetivo queda completamente inmóvil hasta que el efecto se disipe. El personaje no podrá realizar acciones hasta que otro personaje lo libere o realice dos roles. Si al conjurador le anulan acciones, se eliminan los efectos inmediatamente.',
+          },
+
+          "defensas": {
+            "leve": 'Defiende con hechizo: "Protego". Adiciona +4 de defensa.',
+            "moderado": 'Defiende con hechizo: "Protego". Adiciona +6 de defensa.',
+            "exitoso": 'Defiende con hechizo: "Protego". Adiciona +8 de defensa. Si la defensa gana, llama a otro Guardia, sumando un nuevo PNJ con las mismas cualidades a las que deberán enfrentarse. Solo existen 13 guardias en el edificio.',
+            "critico": 'Defiende con hechizo: "Protego". Adiciona +10 de defensa. Si la defensa gana, llama a otro Guardia, sumando un nuevo PNJ con las mismas cualidades a las que deberán enfrentarse. Solo existen 13 guardias en el edificio.',
+          },
+        },
+      },
+
       "cards": [],
 
       "searchs": {
@@ -1514,9 +1538,162 @@ const MissionsModule = (function () {
           "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "resultado del perimetro realizado",
           "cont": '<span>Para poder infiltrarse con el camión, deben ir a un punto de encuentro que se encuentra a unas quince cuadras de allí. Un espacio donde podrían tener tiempo para poder detener el camión e ingresar en el mismo. El Ministerio les ha provisto para la misión poción multijugos.</span>',
         },
+        "acercarse a la entrada": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "rompemaldiciones", "name": "invalid", }, "place": "tiempo disponible en la entrada",
+          "cont": '<span>Al acercarse a la entrada, el personaje puede notar que la maldición que contiene la puerta es de sangre. Solo alguien con la línea genética adecuada podría abrir el lugar desde afuera. Caso contrario, las sombras de una extra maldición se cernirían sobre el umbral. El tiempo para resolver la maldición sube a una hora aproximadamente.</span>',
+        },
+        "caminar hasta el punto de encuentro con el camión": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "requisitos para infiltrarse en el camión",
+          "cont": '<span>Permite a los personajes avanzar hasta el punto de encuentro donde el camión siempre se detiene en una señal de tráfico. Una vez seleccionado este camino, no pueden volver para atrás. Pasados unos minutos podrán observar al camión acercarse a la hora indicada.</span>',
+        },
+        "poseer el frasco de poción multijugos": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "requisitos para infiltrarse en el camión",
+          "cont": '<span>El personaje en cuestión podrá revelar una petaca con poción multijugos y pequeños vasos que permitirá tomar el papel de los conductores del camión.</span>',
+        },
+        "detener a los conductores": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "detener camión",
+          "cont": '<span>En el camión hay un conductor y dos miembros de seguridad que deberán ser detenidos antes de poder avanzar con el plan de infiltración. Deberán agregar a los tres PNJ como "guardia" y deberán enfrentarse a ellos. Una vez superado el obstáculo deberán pedir una intervención a la administración.</span>',
+        },
+        "ofrecerse como conductor": {
+          "visible": { "attr": { "val": "min" }, "know": { "estudios muggles": "5" }, "job": "invalid", "name": "jasper", }, "place": "detener camión",
+          "cont": '<span>Como el personaje conoce algunas normas de Estudio Muggle podría ofrecerse como conductor del camión tras detener a los conductores y tomar la poción multijugos.</span>',
+        },
       },
 
-      "actions": {},
+      "actions": {
+        "accio": {
+          "leve": 'No es suficiente para revelar información adicional.',
+          "moderado": 'Permite detener el camión para infiltrarse con el mismo.<adding search="detener camión" class="check-cards"></adding>',
+          "exitoso": 'Permite detener el camión para infiltrarse con el mismo.<adding search="detener camión" class="check-cards"></adding>',
+          "critico": 'Permite detener el camión para infiltrarse con el mismo.<adding search="detener camión" class="check-cards"></adding>',
+        },
+        "arresto momentum": {
+          "leve": 'No es suficiente para revelar información adicional.',
+          "moderado": 'Permite detener el camión para infiltrarse con el mismo.<adding search="detener camión" class="check-cards"></adding>',
+          "exitoso": 'Permite detener el camión para infiltrarse con el mismo.<adding search="detener camión" class="check-cards"></adding>',
+          "critico": 'Permite detener el camión para infiltrarse con el mismo.<adding search="detener camión" class="check-cards"></adding>',
+        },
+        "avisfors": {
+          "leve": 'No es suficiente para revelar información adicional.',
+          "moderado": 'Permite detener el camión para infiltrarse con el mismo.<adding search="detener camión" class="check-cards"></adding>',
+          "exitoso": 'Permite detener el camión para infiltrarse con el mismo.<adding search="detener camión" class="check-cards"></adding>',
+          "critico": 'Permite detener el camión para infiltrarse con el mismo.<adding search="detener camión" class="check-cards"></adding>',
+        },
+        "bombarda": {
+          "leve": 'No es suficiente para revelar información adicional.',
+          "moderado": 'Permite detener el camión para infiltrarse con el mismo.<adding search="detener camión" class="check-cards"></adding>',
+          "exitoso": 'Permite detener el camión para infiltrarse con el mismo.<adding search="detener camión" class="check-cards"></adding>',
+          "critico": 'Permite detener el camión para infiltrarse con el mismo.<adding search="detener camión" class="check-cards"></adding>',
+        },
+        "confringo": {
+          "leve": 'No es suficiente para revelar información adicional.',
+          "moderado": 'Permite detener el camión para infiltrarse con el mismo.<adding search="detener camión" class="check-cards"></adding>',
+          "exitoso": 'Permite detener el camión para infiltrarse con el mismo.<adding search="detener camión" class="check-cards"></adding>',
+          "critico": 'Permite detener el camión para infiltrarse con el mismo.<adding search="detener camión" class="check-cards"></adding>',
+        },
+        "confundus": {
+          "leve": 'No es suficiente para revelar información adicional.',
+          "moderado": 'Permite detener el camión para infiltrarse con el mismo.<adding search="detener camión" class="check-cards"></adding>',
+          "exitoso": 'Permite detener el camión para infiltrarse con el mismo.<adding search="detener camión" class="check-cards"></adding>',
+          "critico": 'Permite detener el camión para infiltrarse con el mismo.<adding search="detener camión" class="check-cards"></adding>',
+        },
+        "deletrius": {
+          "leve": 'No es suficiente para revelar información adicional.',
+          "moderado": 'Permite detener el camión para infiltrarse con el mismo.<adding search="detener camión" class="check-cards"></adding>',
+          "exitoso": 'Permite detener el camión para infiltrarse con el mismo.<adding search="detener camión" class="check-cards"></adding>',
+          "critico": 'Permite detener el camión para infiltrarse con el mismo.<adding search="detener camión" class="check-cards"></adding>',
+        },
+        "diffindo": {
+          "leve": 'No es suficiente para revelar información adicional.',
+          "moderado": 'Permite detener el camión para infiltrarse con el mismo.<adding search="detener camión" class="check-cards"></adding>',
+          "exitoso": 'Permite detener el camión para infiltrarse con el mismo.<adding search="detener camión" class="check-cards"></adding>',
+          "critico": 'Permite detener el camión para infiltrarse con el mismo.<adding search="detener camión" class="check-cards"></adding>',
+        },
+        "duro": {
+          "leve": 'No es suficiente para revelar información adicional.',
+          "moderado": 'Permite detener el camión para infiltrarse con el mismo.<adding search="detener camión" class="check-cards"></adding>',
+          "exitoso": 'Permite detener el camión para infiltrarse con el mismo.<adding search="detener camión" class="check-cards"></adding>',
+          "critico": 'Permite detener el camión para infiltrarse con el mismo.<adding search="detener camión" class="check-cards"></adding>',
+        },
+        "epoximise": {
+          "leve": 'No es suficiente para revelar información adicional.',
+          "moderado": 'Permite detener el camión para infiltrarse con el mismo.<adding search="detener camión" class="check-cards"></adding>',
+          "exitoso": 'Permite detener el camión para infiltrarse con el mismo.<adding search="detener camión" class="check-cards"></adding>',
+          "critico": 'Permite detener el camión para infiltrarse con el mismo.<adding search="detener camión" class="check-cards"></adding>',
+        },
+        "evanesco": {
+          "leve": 'No es suficiente para revelar información adicional.',
+          "moderado": 'Permite detener el camión para infiltrarse con el mismo.<adding search="detener camión" class="check-cards"></adding>',
+          "exitoso": 'Permite detener el camión para infiltrarse con el mismo.<adding search="detener camión" class="check-cards"></adding>',
+          "critico": 'Permite detener el camión para infiltrarse con el mismo.<adding search="detener camión" class="check-cards"></adding>',
+        },
+        "expulso": {
+          "leve": 'No es suficiente para revelar información adicional.',
+          "moderado": 'Permite detener el camión para infiltrarse con el mismo.<adding search="detener camión" class="check-cards"></adding>',
+          "exitoso": 'Permite detener el camión para infiltrarse con el mismo.<adding search="detener camión" class="check-cards"></adding>',
+          "critico": 'Permite detener el camión para infiltrarse con el mismo.<adding search="detener camión" class="check-cards"></adding>',
+        },
+        "glacius": {
+          "leve": 'No es suficiente para revelar información adicional.',
+          "moderado": 'Permite detener el camión para infiltrarse con el mismo.<adding search="detener camión" class="check-cards"></adding>',
+          "exitoso": 'Permite detener el camión para infiltrarse con el mismo.<adding search="detener camión" class="check-cards"></adding>',
+          "critico": 'Permite detener el camión para infiltrarse con el mismo.<adding search="detener camión" class="check-cards"></adding>',
+        },
+        "impedimenta": {
+          "leve": 'No es suficiente para revelar información adicional.',
+          "moderado": 'Permite detener el camión para infiltrarse con el mismo.<adding search="detener camión" class="check-cards"></adding>',
+          "exitoso": 'Permite detener el camión para infiltrarse con el mismo.<adding search="detener camión" class="check-cards"></adding>',
+          "critico": 'Permite detener el camión para infiltrarse con el mismo.<adding search="detener camión" class="check-cards"></adding>',
+        },
+        "locomotor": {
+          "leve": 'No es suficiente para revelar información adicional.',
+          "moderado": 'Permite detener el camión para infiltrarse con el mismo.<adding search="detener camión" class="check-cards"></adding>',
+          "exitoso": 'Permite detener el camión para infiltrarse con el mismo.<adding search="detener camión" class="check-cards"></adding>',
+          "critico": 'Permite detener el camión para infiltrarse con el mismo.<adding search="detener camión" class="check-cards"></adding>',
+        },
+        "levare": {
+          "leve": 'No es suficiente para revelar información adicional.',
+          "moderado": 'Permite detener el camión para infiltrarse con el mismo.<adding search="detener camión" class="check-cards"></adding>',
+          "exitoso": 'Permite detener el camión para infiltrarse con el mismo.<adding search="detener camión" class="check-cards"></adding>',
+          "critico": 'Permite detener el camión para infiltrarse con el mismo.<adding search="detener camión" class="check-cards"></adding>',
+        },
+        "mutareforma": {
+          "leve": 'No es suficiente para revelar información adicional.',
+          "moderado": 'Permite detener el camión para infiltrarse con el mismo.<adding search="detener camión" class="check-cards"></adding>',
+          "exitoso": 'Permite detener el camión para infiltrarse con el mismo.<adding search="detener camión" class="check-cards"></adding>',
+          "critico": 'Permite detener el camión para infiltrarse con el mismo.<adding search="detener camión" class="check-cards"></adding>',
+        },
+        "mutareforma": {
+          "leve": 'No es suficiente para revelar información adicional.',
+          "moderado": 'Permite detener el camión para infiltrarse con el mismo.<adding search="detener camión" class="check-cards"></adding>',
+          "exitoso": 'Permite detener el camión para infiltrarse con el mismo.<adding search="detener camión" class="check-cards"></adding>',
+          "critico": 'Permite detener el camión para infiltrarse con el mismo.<adding search="detener camión" class="check-cards"></adding>',
+        },
+        "relashio": {
+          "leve": 'No es suficiente para revelar información adicional.',
+          "moderado": 'Permite detener el camión para infiltrarse con el mismo.<adding search="detener camión" class="check-cards"></adding>',
+          "exitoso": 'Permite detener el camión para infiltrarse con el mismo.<adding search="detener camión" class="check-cards"></adding>',
+          "critico": 'Permite detener el camión para infiltrarse con el mismo.<adding search="detener camión" class="check-cards"></adding>',
+        },
+        "saggitarus": {
+          "leve": 'No es suficiente para revelar información adicional.',
+          "moderado": 'Permite detener el camión para infiltrarse con el mismo.<adding search="detener camión" class="check-cards"></adding>',
+          "exitoso": 'Permite detener el camión para infiltrarse con el mismo.<adding search="detener camión" class="check-cards"></adding>',
+          "critico": 'Permite detener el camión para infiltrarse con el mismo.<adding search="detener camión" class="check-cards"></adding>',
+        },
+        "extractum machina": {
+          "leve": 'No es suficiente para revelar información adicional.',
+          "moderado": 'Permite revelar que la mejor maneja de detener el camión es con un hechizo que genere una pequeña explosión. Algo pequeño que permita detener el camión sin causar daños a los ocupantes, pero que sí lo detenga lo suficiente para que puedan infiltrarse.',
+          "exitoso": 'Permite revelar que la mejor maneja de detener el camión es con un hechizo que genere una pequeña explosión. Algo pequeño que permita detener el camión sin causar daños a los ocupantes, pero que sí lo detenga lo suficiente para que puedan infiltrarse.',
+          "critico": 'Permite revelar que la mejor maneja de detener el camión es con un hechizo que genere una pequeña explosión. Algo pequeño que permita detener el camión sin causar daños a los ocupantes, pero que sí lo detenga lo suficiente para que puedan infiltrarse.',
+        },
+        "chamaeleonis": {
+          "leve": 'No es suficiente para revelar información adicional.',
+          "moderado": 'Permite que los personajes avancen sin necesidad de usar "Tacite".',
+          "exitoso": 'Permite que los personajes avancen sin necesidad de usar "Tacite".',
+          "critico": 'Permite que los personajes avancen sin necesidad de usar "Tacite".',
+        },
+      },
     },
     // fin gilded herb
 
@@ -4509,6 +4686,19 @@ const MissionsModule = (function () {
       "actions": {},
     },
     // dragonfly's secrets
+
+    "tying loose ends": {
+      "description": "El 25 de Marzo de 1929 se dio a conocer la muerte de Dominic Edevane a sus 32 años. Sin embargo, un nuevo detalle en el certificado de defunción ha llamado la atención de uno de los aurores encargados de la investigación y lo que en su momento se creía perdido, ahora puede ser el momento de cerrar el caso de una vez por todas.",
+      "image": "https://i.imgur.com/9tQNGVG.png", "requisitos": ["Un personaje deberá ser miembro del Departamento de Seguridad"],
+      "users": ["c/u150"],
+      "dependency": [],
+      "type": "investigación", "closed": false, "link": "", "tagged": ["original"],
+
+      "cards": [],
+      "searchs": {},
+      "actions": {},
+    },
+    // tying loose ends
 
     "a gentle hand": {
       "description": "Tras una pequeña investigación realizada por los hermanos Moody, las pistas conducen a dos magos y a la dirección de la casa de los mismos, donde ya desde afuera se pueden escuchar los ladridos y los lamentos de unos cachorros de crup que reclaman ayuda.",
