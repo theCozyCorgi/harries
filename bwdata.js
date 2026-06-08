@@ -4682,8 +4682,163 @@ const MissionsModule = (function () {
       "type": "misión", "closed": false, "link": "", "tagged": ["original"],
 
       "cards": [],
-      "searchs": {},
-      "actions": {},
+
+      "searchs": {
+        "inspeccionar fuente": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
+          "cont": '<span>La fuente frente a ellos no tiene nada de extraordinario. Es un parque, como cualquier otro. De acceso público y con un jardín que envuelve la fuente. La misma es una fuente de piedra, con decoraciones llenas de flores e insectos que recuerdan a la primavera. Salvo por una pequeña libélula que se encuentra faltante en uno de los bordes que da al norte del parque.</span>',
+        },
+        "liberar la líbelula": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "moody", }, "place": "",
+          "cont": '<span>Como ya se les había indicado, el personaje puede poseer la libélula en un frasco para liberarla en sus aguas.</span>',
+        },
+        "descender por las escaleras": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "escaleras",
+          "cont": '<span>La fuente abre paso a unas escaleras de piedra. La humedad corre por sus paredes mientras la fuente pierde parte de su agua y los escalones se pierden a medida que la vista desciende y la luz de la noche se pierde.</span>',
+        },
+        "abrir puerta del depósito": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "puerta",
+          "cont": '<span>Al llegar a la puerta, la misma se encuentra sin llave. Basta girar su cerrojo para adentrarse a un galpón subterraneo alumbrado por el fuego de una antorchas que nunca parece apagarse. El ambiente se siente cálido. Pisos de madera y paredes pintadas de un color durazno pálido. Se puede observar que en un principio el lugar iba usando sus paredes, pero a medida que la cantidad de obras iba creciendo, pueden notar que se fueron agregando estanterías en el medio, formando un laberinto que parece no tener fin.</span>',
+        },
+        "obras relevantes": {
+          "visible": { "attr": { "val": "min" }, "know": { "arte": "10" }, "job": "invalid", "name": "invalid", }, "place": "abrir puerta del depósito",
+          "cont": '<span>Dentro de las pinturas que se puede ver a simple vista se encuentra "La Dama del Velo de Ceniza" una pintura que pertenece a Egil Ansfred, un pintor que nunca reveló la misma, pero que en todas sus obras podía reflejarse la pintura que nunca había logrado mostrar públicamente. Muchos se refieren a la obra como el retrato perdido. La pintura data del siglo XI.</span>',
+        },
+        "la magia del retrato": {
+          "visible": { "attr": { "val": "min" }, "know": { "transformaciones": "15" }, "job": "rompemaldiciones", "name": "invalid", }, "place": "obras relevantes",
+          "cont": '<span>Si se observa la pintura con atención, podrá notarse que ese no es un retrato, sino que es una mujer que ha quedado cautiva dentro del retrato sin posibilidad de escape. No hay magia que la puedra traer de regreso.</span>',
+        },
+        "artefactos relevantes": {
+          "visible": { "attr": { "val": "min" }, "know": { "historia de la magia": "10" }, "job": "invalid", "name": "invalid", }, "place": "abrir puerta del depósito",
+          "cont": '<span>Dentro de los artefactos que se puede ver a simple vista se encuentra la Copa de la Plaga. Un cáliz de bronce abollado que perteneció a un boticario de la Edad Media. El metal siempre está cubierto por una fina y permanente capa de rocío tóxico. Se suponía pérdido hace mucho tiempo. Se recomienda no tocar.</span>',
+        },
+        "inspeccionar una obra": {
+          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir puerta del depósito",
+          "cont": '<span>Al mirar cualquiera de las obras que se encuentran frente a ellos, puede notarse que Briseida fue encargandose de agregar una etiqueta a cada una de ellas. Indicaba el año de adquisición, de creación y a quién pertenecía, así como si estaba catalogado como pintura, escultura o artefacto.</span>',
+        },
+        "abrir inventario": {
+          "visible": { "attr": { "sab": "4" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir puerta del depósito",
+          "cont": '<span>Detrás de la puerta de entrada, puede notarse una recopilación de pergaminos que hacen de inventario del lugar. En su portada indica cuántas esculturas, pinturas y artefactos se encuentran en la sala y debajo de ellos un pergamino por cada obra agregando más información a la misma.</span>',
+        },
+        "inventario de esculturas": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir inventario",
+          "cont": '<span>Según el inventario, se posee un total de 127 esculturas.</span>',
+        },
+        "inventario de pinturas": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir inventario",
+          "cont": '<span>Según el inventario, se posee un total de 89 pinturas.</span>',
+        },
+        "inventario de artefactos": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir inventario",
+          "cont": '<span>Según el inventario, se posee un total de 156 artefactos.</span>',
+        },
+        "contar estantería central 1": {
+          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir inventario",
+          "cont": '<span>Se encuentran 10 esculturas, 3 pinturas y 2 artefactos en esta estantería.</span>',
+        },
+        "contar estantería central 2": {
+          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir inventario",
+          "cont": '<span></span>',
+        },
+        "contar estantería central 3": {
+          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir inventario",
+          "cont": '<span></span>',
+        },
+        "contar estantería central 4": {
+          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir inventario",
+          "cont": '<span></span>',
+        },
+        "contar estantería central 5": {
+          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir inventario",
+          "cont": '<span></span>',
+        },
+        "contar estantería central 6": {
+          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir inventario",
+          "cont": '<span></span>',
+        },
+        "contar estantería lateral este 1": {
+          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir inventario",
+          "cont": '<span></span>',
+        },
+        "contar estantería lateral este 2": {
+          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir inventario",
+          "cont": '<span></span>',
+        },
+        "contar estantería lateral este 3": {
+          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir inventario",
+          "cont": '<span></span>',
+        },
+        "contar estantería posterior 1": {
+          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir inventario",
+          "cont": '<span></span>',
+        },
+        "contar estantería posterior 2": {
+          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir inventario",
+          "cont": '<span></span>',
+        },
+        "contar estantería posterior 3": {
+          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir inventario",
+          "cont": '<span></span>',
+        },
+        "contar estantería lateral oeste 1": {
+          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir inventario",
+          "cont": '<span></span>',
+        },
+        "contar estantería lateral oeste 2": {
+          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir inventario",
+          "cont": '<span></span>',
+        },
+        "contar estantería lateral oeste 3": {
+          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir inventario",
+          "cont": '<span></span>',
+        },
+        "contar pared este": {
+          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir inventario",
+          "cont": '<span></span>',
+        },
+        "contar pared sur": {
+          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir inventario",
+          "cont": '<span></span>',
+        },
+        "contar pared oeste": {
+          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir inventario",
+          "cont": '<span></span>',
+        },
+      },
+
+      "actions": {
+        "duro": {
+          "leve": '<span>No es suficiente para revelar información.</span>',
+          "moderado": '<span>Al transfigurarse al libélula, la fuente se abre revelando unas escaleras hacía un piso inferior.<adding class="check-cards" search="escaleras"></adding></span>',
+          "exitoso": '<span>Al transfigurarse al libélula, la fuente se abre revelando unas escaleras hacía un piso inferior.<adding class="check-cards" search="escaleras"></adding></span>',
+          "critico": '<span>Al transfigurarse al libélula, la fuente se abre revelando unas escaleras hacía un piso inferior.<adding class="check-cards" search="escaleras"></adding></span>',
+        },
+        "silentiaforma": {
+          "leve": '<span>No es suficiente para revelar información.</span>',
+          "moderado": '<span>Al transfigurarse al libélula, la fuente se abre revelando unas escaleras hacía un piso inferior.<adding class="check-cards" search="escaleras"></adding></span>',
+          "exitoso": '<span>Al transfigurarse al libélula, la fuente se abre revelando unas escaleras hacía un piso inferior.<adding class="check-cards" search="escaleras"></adding></span>',
+          "critico": '<span>Al transfigurarse al libélula, la fuente se abre revelando unas escaleras hacía un piso inferior.<adding class="check-cards" search="escaleras"></adding></span>',
+        },
+        "lumos": {
+          "leve": '<span>No es suficiente para revelar información.</span>',
+          "moderado": '<span>Permite iluminar el pasillo, revelando una pequeña luz, pero no es suficiente para revelar toda la información.</span>',
+          "exitoso": '<span>Permite iluminar el pasillo y la puerta que se encuentra al final del mismo.<adding class="check-cards" search="puerta"></adding></span>',
+          "critico": '<span>Permite iluminar el pasillo y la puerta que se encuentra al final del mismo.<adding class="check-cards" search="puerta"></adding></span>',
+        },
+        "lumos maxima": {
+          "leve": '<span>No es suficiente para revelar información.</span>',
+          "moderado": '<span>Permite iluminar el pasillo, revelando una pequeña luz, pero no es suficiente para revelar toda la información.</span>',
+          "exitoso": '<span>Permite iluminar el pasillo y la puerta que se encuentra al final del mismo.<adding class="check-cards" search="puerta"></adding></span>',
+          "critico": '<span>Permite iluminar el pasillo y la puerta que se encuentra al final del mismo.<adding class="check-cards" search="puerta"></adding></span>',
+        },
+        "lumos solem": {
+          "leve": '<span>No es suficiente para revelar información.</span>',
+          "moderado": '<span>Permite iluminar el pasillo, revelando una pequeña luz, pero no es suficiente para revelar toda la información.</span>',
+          "exitoso": '<span>Permite iluminar el pasillo y la puerta que se encuentra al final del mismo.<adding class="check-cards" search="puerta"></adding></span>',
+          "critico": '<span>Permite iluminar el pasillo y la puerta que se encuentra al final del mismo.<adding class="check-cards" search="puerta"></adding></span>',
+        },
+
+      },
     },
     // dragonfly's secrets
 
