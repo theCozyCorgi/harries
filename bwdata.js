@@ -4679,7 +4679,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/9fKGJPH.png", "requisitos": ["Un personaje deberá ser miembro del Departamento de Seguridad"],
       "users": ["c/u8", "/u161", "/u177", "/u178", "/u13"],
       "dependency": ["yule", "frozen sunflowers"],
-      "type": "misión", "closed": false, "link": "", "tagged": ["original"],
+      "type": "misión", "closed": false, "link": "/t1291-mision-dragonfly-s-secrets", "tagged": ["original"],
 
       "cards": [],
 
