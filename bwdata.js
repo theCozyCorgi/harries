@@ -4843,9 +4843,9 @@ const MissionsModule = (function () {
     // dragonfly's secrets
 
     "tying loose ends": {
-      "description": "El 25 de Marzo de 1929 se dio a conocer la muerte de Dominic Edevane a sus 32 años. Sin embargo, un nuevo detalle en el certificado de defunción ha llamado la atención de uno de los aurores encargados de la investigación y lo que en su momento se creía perdido, ahora puede ser el momento de cerrar el caso de una vez por todas.",
+      "description": "[Completada] El 25 de Marzo de 1929 se dio a conocer la muerte de Dominic Edevane a sus 32 años. Sin embargo, un nuevo detalle en el certificado de defunción ha llamado la atención de uno de los aurores encargados de la investigación y lo que en su momento se creía perdido, ahora puede ser el momento de cerrar el caso de una vez por todas.",
       "image": "https://i.imgur.com/9tQNGVG.png", "requisitos": ["Un personaje deberá ser miembro del Departamento de Seguridad"],
-      "users": ["c/u150"],
+      "users": ["c/u150","/u97", "/u9", "/u156"],
       "dependency": [],
       "type": "investigación", "closed": false, "link": "", "tagged": ["original"],
 
