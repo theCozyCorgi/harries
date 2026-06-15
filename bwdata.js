@@ -4845,7 +4845,7 @@ const MissionsModule = (function () {
     "tying loose ends": {
       "description": "[Completada] El 25 de Marzo de 1929 se dio a conocer la muerte de Dominic Edevane a sus 32 años. Sin embargo, un nuevo detalle en el certificado de defunción ha llamado la atención de uno de los aurores encargados de la investigación y lo que en su momento se creía perdido, ahora puede ser el momento de cerrar el caso de una vez por todas.",
       "image": "https://i.imgur.com/9tQNGVG.png", "requisitos": ["Un personaje deberá ser miembro del Departamento de Seguridad"],
-      "users": ["c/u150","/u97", "/u9", "/u156"],
+      "users": ["c/u150", "/u97", "/u9", "/u156"],
       "dependency": [],
       "type": "investigación", "closed": false, "link": "", "tagged": ["original"],
 
@@ -8722,7 +8722,1200 @@ const MissionsModule = (function () {
     },
     // fin: evento futuros lideres: thyra
 
+    "atrapa la bandera g1": {
+      "description": "",
+      "image": "", "requisitos": [],
+      "users": ["/u150", "/u124", "/u130", "/u38"],
+      "dependency": [],
+      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
 
+      "creatures": {},
+      "cards": [],
+
+      "searchs": {
+        "largada": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
+          "cont": '<span>El traslador que les brindan, los hace aparecerse en una de las zonas alejadas del bosque prohíbido. Sus árboles son espesos en esa zona, sin embargo pueden notarse varios lazos violetas en los árboles que se encuentran cercanos.<adding class="check-cards" search="paso1"></adding></span>',
+        },
+
+        // paso 1
+        "regresar a largada": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "reg. largada",
+          "cont": '<span>Los personajes regresan a la largada.<adding class="check-cards" search="paso1"></adding></span>',
+        },
+        "paso #1: ir al norte": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso1",
+          "cont": '<span>Al avanzar a la dirección Norte hasta cierto punto, el suelo vibra marcando que se han encontrado con un desafío. Una burbuja aparece alrededor de los personajes junto con una puerta de madera y el siguiente acertijo se escribe en la misma "Soy la llave que no tiene forma, no corto ni giro, mas la cerradura doma. Antes de mí, la puerta se resiste; después de mí, ningún cerrojo existe".<adding class="check-cards" search="reg. largada"></adding></span>',
+        },
+        "validar paso #1 dirección norte": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso1n",
+          "cont": '<span>Tras salir por la puerta recién abierta, los personajes pueden observar a la distancia un árbol con otro lazo violeta indicando que están caminando en la dirección correcta.<adding class="check-cards" search="paso2"></adding></span>',
+        },
+        "paso #1: ir al este": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso1",
+          "cont": '<span>Al avanzar a dirección Este los personajes se encuentran con un arroyo que parece impedir el paso.<adding class="check-cards" search="reg. largada"></adding></span>',
+        },
+        "validar paso #1 dirección este": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #1: ir al este",
+          "cont": '<span>Aquí no hay ninguna marca, deberán regresar hacia atrás.</span>',
+        },
+        "paso #1: ir al sur": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso1",
+          "cont": '<span>Al avanzar a dirección Sur los personajes se encuentran con 6 Billywigs que deberán ser agregados como personajes no jugables. Si el dado de esta acción es par los personajes no jugables atacan de manera inmediata. Es decir, son las primeras en atacar. Una vez recién eliminadas las mismas podrán validar si están yendo en dirección correcta.<adding class="check-cards" search="reg. largada"></adding></span>',
+        },
+        "validar paso #1 dirección sur": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #1: ir al sur",
+          "cont": '<span>Aquí no hay ninguna marca, deberán regresar hacia atrás.</span>',
+        },
+        "paso #1: ir al oeste": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso1",
+          "cont": '<span>Al avanzar a dirección Oeste los personajes se encuentran con bosques demasiados espesos, juntos unos con otros. La zona se vuelve más oscura y densa.<adding class="check-cards" search="reg. largada"></adding></span>',
+        },
+        "validar paso #1 dirección oeste": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #1: ir al oeste",
+          "cont": '<span>Aquí no hay ninguna marca, deberán regresar hacia atrás.</span>',
+        },
+
+        // paso 2 
+        "regresar a paso #1 correcto": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "reg. paso1",
+          "cont": '<span>Los personajes regresan al paso anterior para optar por otra dirección.<adding class="check-cards" search="paso2"></adding></span>',
+        },
+        "paso #2: ir al norte": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso2",
+          "cont": '<span>Al avanzar a dirección Norte los personajes se encuentran con 5 Nogtails. No podrán validar la dirección correcta hasta que no se enfrenten a los mismos. En caso de que el dado de esta tarjeta sea positivo, los Nogtails atacan primero y de manera inmediata.<adding class="check-cards" search="reg. paso1"></adding></span>',
+        },
+        "validar paso #2 dirección norte": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #2: ir al norte",
+          "cont": '<span>Aquí no hay ninguna marca, deberán regresar hacia atrás</span>',
+        },
+        "paso #2: ir al este": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso2",
+          "cont": '<span>Al avanzar a la dirección Este hasta cierto punto, el suelo vibra marcando que se han encontrado con un desafío. Una burbuja aparece alrededor de los personajes junto con una puerta de madera y el siguiente acertijo se escribe en la misma "Grande lo hago, grande lo dejo; nada cabe en mí que no agrande o aleje. Ojo al que abusa, que si pasa el límite, el resultado que trae ya no se inhibe". Debajo de las instrucciones hay colgada una llave tan pequeña como la uña de un dedo meñique.<adding class="check-cards" search="reg. paso1"></adding></span>',
+        },
+        "validar paso #2 dirección este": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso2e",
+          "cont": '<span>Colgada de uno de los árboles pueden ver el lazo que marca que están yendo por el camino correcto.<adding class="check-cards" search="paso3"></adding></span>',
+        },
+        "paso #2: ir al sur": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso2",
+          "cont": '<span>Al avanzar a dirección Sur los personajes se encuentran con una cueva en cuyo oscuro interior se puede percibir un aroma putrefacto.<adding class="check-cards" search="reg. paso1"></adding></span>',
+        },
+        "validar paso #2 dirección sur": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #2: ir al sur",
+          "cont": '<span>Aquí no hay ninguna marca, deberán regresar hacia atrás</span>',
+        },
+        "paso #2: ir al oeste": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso2",
+          "cont": '<span>Al avanzar a la dirección Oeste hasta cierto punto, el suelo vibra marcando que se han encontrado con un desafío. Una burbuja aparece alrededor de los personajes. El siguiente acertijo se escribe en la misma "La bandada surge donde antes nada había; un vuelo de plumas soy, una sinfonía. Junto a otro hechizo, la calma se termina; soy el origen de la tormenta de la escena".<adding class="check-cards" search="reg. paso1"></adding></span>',
+        },
+        "validar paso #2 dirección oeste": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso2o",
+          "cont": '<span>Aquí no hay ninguna marca, deberán regresar hacia atrás</span>',
+        },
+
+        // paso 3
+        "regresar a paso #3 correcto": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "reg. paso2",
+          "cont": '<span>Los personajes regresan al paso anterior para optar por otra dirección.<adding class="check-cards" search="paso3"></adding></span>',
+        },
+        "paso #3: ir al norte": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso3",
+          "cont": '<span>Al avanzar a dirección Norte los personajes se encuentran con 12 jarveys. No podrán validar el lugar hasta no terminar de enfrentarse a los mismos. Si el dado de esta tarjeta es par los jarveys atacan primero y de manera inmediata.<adding class="check-cards" search="reg. paso2"></adding></span>',
+        },
+        "validar paso #3 dirección norte": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #3: ir al norte",
+          "cont": '<span>Aquí no hay ninguna marca, deberán regresar hacia atrás.</span>',
+        },
+        "paso #3: ir al este": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso3",
+          "cont": '<span>Al avanzar a la dirección Este hasta cierto punto, el suelo vibra marcando que se han encontrado con un desafío. Una burbuja aparece alrededor de los personajes. El siguiente acertijo se escribe en la misma "Dibujo en el aire caminos de luz; constelaciones trazo sin papel ni cruz. En una pared o en el cielo oscuro, los mapas de las estrellas yo procuro".<adding class="check-cards" search="reg. paso2"></adding></span>',
+        },
+        "validar paso #3 dirección este": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso3e",
+          "cont": '<span>Aquí no hay ninguna marca, deberán regresar hacia atrás.</span>',
+        },
+        "paso #3: ir al sur": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso3",
+          "cont": '<span>Al avanzar a dirección Sur los personajes se encuentran con 4 grifos los cuales atacan inmediatamente a los personajes.<adding class="check-cards" search="reg. paso2"></adding></span>',
+        },
+        "validar paso #3 dirección sur": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #3: ir al sur",
+          "cont": '<span>¡Felicitaciones! ¡Ya pueden visulizar la bandera! Deberán esperar a que todos los grupos terminen para que la administración avise en qué posición han llegado.</span>',
+        },
+        "paso #3: ir al oeste": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso3",
+          "cont": '<span>Al avanzar a la dirección Oeste hasta cierto punto, el suelo vibra marcando que se han encontrado con un desafío. Una burbuja aparece alrededor de los personajes. El siguiente acertijo se escribe en la misma "Sin libro ni maestro te doy el saber; un hecho del pasado mágico puedes ver. Pienso en un momento y aparece la historia: soy el conjuro que convoca la memoria".<adding class="check-cards" search="reg. paso2"></adding></span>',
+        },
+        "validar paso #3 dirección oeste": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso3o",
+          "cont": '<span>Aquí no hay ninguna marca, deberán regresar hacia atrás.</span>',
+        },
+      },
+
+      "actions": {
+        // generales a todos los grupos
+        "astrae navigare": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>La varita del mago vibra indicando la dirección correcta. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+          "exitoso": '<span>La varita del mago vibra indicando la dirección correcta. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+          "critico": '<span>La varita del mago vibra indicando la dirección correcta. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+        },
+        "anticipatio hostis": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>El líder permite leer el terreno y deducir dónde podrían haber colocado la siguiente señalización. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+          "exitoso": '<span>El líder permite leer el terreno y deducir dónde podrían haber colocado la siguiente señalización. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+          "critico": '<span>El líder permite leer el terreno y deducir dónde podrían haber colocado la siguiente señalización. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+        },
+        "bestiae tactus": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Permite que los instintos animales señalen el siguiente camino. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+          "exitoso": '<span>Permite que los instintos animales señalen el siguiente camino. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+          "critico": '<span>Permite que los instintos animales señalen el siguiente camino. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+        },
+        "instinctus excitatus": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Permite que los instintos animales señalen el siguiente camino. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+          "exitoso": '<span>Permite que los instintos animales señalen el siguiente camino. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+          "critico": '<span>Permite que los instintos animales señalen el siguiente camino. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+        },
+
+        // especificos del grupo
+        "alohomora": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Debloquea el acertijo "paso #1: ir al norte".<adding class="check-cards" search="paso1n"></adding></span>',
+          "exitoso": '<span>Debloquea el acertijo "paso #1: ir al norte".<adding class="check-cards" search="paso1n"></adding></span>',
+          "critico": '<span>Debloquea el acertijo "paso #1: ir al norte".<adding class="check-cards" search="paso1n"></adding></span>',
+        },
+        "indago": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Permite calmar a las criaturas presente siempre que sean controlables.</span>',
+          "exitoso": '<span>Permite calmar a las criaturas presente siempre que sean controlables.</span>',
+          "critico": '<span>Permite calmar a las criaturas presente siempre que sean controlables.</span>',
+        },
+        "sensus mitigo": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Permite calmar a las criaturas presente siempre que sean controlables.</span>',
+          "exitoso": '<span>Permite calmar a las criaturas presente siempre que sean controlables.</span>',
+          "critico": '<span>Permite calmar a las criaturas presente siempre que sean controlables.</span>',
+        },
+        "engorgio": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Resuelve el acertijo "paso #2: ir al este".<adding class="check-cards" search="paso2e"></adding></span>',
+          "exitoso": '<span>Resuelve el acertijo "paso #2: ir al este".<adding class="check-cards" search="paso2e"></adding></span>',
+          "critico": '<span>Resuelve el acertijo "paso #2: ir al este".<adding class="check-cards" search="paso2e"></adding></span>',
+        },
+        "avis": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Resuelve el acertijo "paso #2: ir al oeste".<adding class="check-cards" search="paso2o"></adding></span>',
+          "exitoso": '<span>Resuelve el acertijo "paso #2: ir al oeste".<adding class="check-cards" search="paso2o"></adding></span>',
+          "critico": '<span>Resuelve el acertijo "paso #2: ir al oeste".<adding class="check-cards" search="paso2o"></adding></span>',
+        },
+        "stellaris illustra": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Resuelve el acertijo "paso #3: ir al este".<adding class="check-cards" search="paso3e"></adding></span>',
+          "exitoso": '<span>Resuelve el acertijo "paso #3: ir al este".<adding class="check-cards" search="paso3e"></adding></span>',
+          "critico": '<span>Resuelve el acertijo "paso #3: ir al este".<adding class="check-cards" search="paso3e"></adding></span>',
+        },
+        "historia magicae": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Resuelve el acertijo "paso #3: ir al este".<adding class="check-cards" search="paso3e"></adding></span>',
+          "exitoso": '<span>Resuelve el acertijo "paso #3: ir al este".<adding class="check-cards" search="paso3e"></adding></span>',
+          "critico": '<span>Resuelve el acertijo "paso #3: ir al este".<adding class="check-cards" search="paso3e"></adding></span>',
+        },
+      },
+    },
+    // fin: evento atrapa la bandera g1
+
+    "atrapa la bandera g2": {
+      "description": "",
+      "image": "", "requisitos": [],
+      "users": ["/u50", "/u63", "/u91", "/u119", "/u180"],
+      "dependency": [],
+      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+
+      "creatures": {},
+      "cards": [],
+
+      "searchs": {
+        "largada": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
+          "cont": '<span>El traslador los hace aparecerse en una zona del bosque prohibido. Los árboles son espesos y a lo lejos pueden distinguirse varios lazos naranja colgados de las ramas más cercanas.<adding class="check-cards" search="paso1"></adding></span>',
+        },
+
+        // paso 1
+        "regresar a largada": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "reg. largada",
+          "cont": '<span>Los personajes regresan a la largada.<adding class="check-cards" search="paso1"></adding></span>',
+        },
+        "paso #1: ir al norte": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso1",
+          "cont": '<span>Al avanzar a dirección Norte, los personajes encuentran una hondonada cubierta de niebla espesa que dificulta la visibilidad.<adding class="check-cards" search="reg. largada"></adding></span>',
+        },
+        "validar paso #1 dirección norte": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #1: ir al norte",
+          "cont": '<span>Aquí no hay ninguna marca, deberán regresar hacia atrás.</span>',
+        },
+        "paso #1: ir al este": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso1",
+          "cont": '<span>Al avanzar a dirección Este, los personajes topan con un terreno pantanoso. El suelo cede bajo sus pies y el avance se vuelve imposible.<adding class="check-cards" search="reg. largada"></adding></span>',
+        },
+        "validar paso #1 dirección este": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #1: ir al este",
+          "cont": '<span>Aquí no hay ninguna marca, deberán regresar hacia atrás.</span>',
+        },
+        "paso #1: ir al sur": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso1",
+          "cont": '<span>Al avanzar a dirección Sur, los personajes se encuentran con 5 doxys. No podrán validar la dirección correcta hasta que no se enfrenten a los mismos. En caso de que el dado de esta tarjeta sea par, los doxys atacan primero y de manera inmediata.<adding class="check-cards" search="reg. largada"></adding></span>',
+        },
+        "validar paso #1 dirección sur": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #1: ir al sur",
+          "cont": '<span>Aquí no hay ninguna marca, deberán regresar hacia atrás.</span>',
+        },
+        "paso #1: ir al oeste": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso1",
+          "cont": '<span>Al avanzar a dirección Oeste, el suelo vibra marcando que se han encontrado con un desafío. Una burbuja aparece alrededor de los personajes junto con una puerta de madera y el siguiente acertijo se escribe en la misma: "Sin sol ni luna yo alumbro el sendero, en la punta de un palo, soy fiel compañero. No gasto aceite, ni cera, ni llama tengo; en la oscuridad más densa, yo me mantengo."<adding class="check-cards" search="reg. largada"></adding></span>',
+        },
+        "validar paso #1 dirección oeste": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso1o",
+          "cont": '<span>Tras cruzar la puerta, los personajes distinguen a lo lejos un lazo naranja colgado de una rama, señalando que van en la dirección correcta.<adding class="check-cards" search="paso2"></adding></span>',
+        },
+
+        // paso 2 
+        "regresar a paso #1 correcto": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "reg. paso1",
+          "cont": '<span>Los personajes regresan al paso anterior para optar por otra dirección.<adding class="check-cards" search="paso2"></adding></span>',
+        },
+        "paso #2: ir al norte": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso2",
+          "cont": '<span>Al avanzar a dirección Norte, los personajes se encuentran con 6 jarveys. No podrán validar la dirección correcta hasta que no se enfrenten a los mismos. En caso de que el dado de esta tarjeta sea positivo, los jarveys atacan primero y de manera inmediata.<adding class="check-cards" search="reg. paso1"></adding></span>',
+        },
+        "validar paso #2 dirección norte": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #2: ir al norte",
+          "cont": '<span>Aquí no hay ninguna marca, deberán regresar hacia atrás.</span>',
+        },
+        "paso #2: ir al este": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso2",
+          "cont": '<span>Al avanzar a dirección Este, los personajes encuentran un río de corriente violenta.<adding class="check-cards" search="reg. paso1"></adding></span>',
+        },
+        "validar paso #2 dirección este": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #2: ir al este",
+          "cont": '<span>Aquí no hay ninguna marca, deberán regresar hacia atrás.</span>',
+        },
+        "paso #2: ir al sur": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso2",
+          "cont": '<span>Al avanzar a dirección Sur, los personajes se topan con una formación de rocas enormes que corta el camino por completo.<adding class="check-cards" search="reg. paso1"></adding></span>',
+        },
+        "validar paso #2 dirección sur": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #2: ir al sur",
+          "cont": '<span>Aquí no hay ninguna marca, deberán regresar hacia atrás.</span>',
+        },
+        "paso #2: ir al oeste": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso2",
+          "cont": '<span>Al avanzar a dirección Oeste, el suelo vibra marcando que se han encontrado con un desafío. Una burbuja aparece alrededor de los personajes junto con una puerta de madera y el siguiente acertijo se escribe en la misma: "Sin manos lo levanto, sin cuerdas lo sostengo; en el aire reposa el objeto que mantengo. El primero que aprendes en los salones: soy el vuelo mágico de los objetos y rincones."<adding class="check-cards" search="reg. paso1"></adding></span>',
+        },
+        "validar paso #2 dirección oeste": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso2o",
+          "cont": '<span>Tras cruzar la puerta, colgado de uno de los árboles distinguen el lazo naranja que confirma que van por el camino correcto.<adding class="check-cards" search="paso3"></adding></span>',
+        },
+
+        // paso 3
+        "regresar a paso #3 correcto": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "reg. paso2",
+          "cont": '<span>Los personajes regresan al paso anterior para optar por otra dirección.<adding class="check-cards" search="paso3"></adding></span>',
+        },
+        "paso #3: ir al norte": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso3",
+          "cont": '<span>Al avanzar a dirección Norte, los personajes se encuentran con 3 caballos alados que bloquean el camino y atacan de inmediato.<adding class="check-cards" search="reg. paso2"></adding></span>',
+        },
+        "validar paso #3 dirección norte": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #3: ir al norte",
+          "cont": '<span>¡Felicitaciones! ¡Ya pueden visualizar la bandera! Deberán esperar a que todos los grupos terminen para que la administración avise en qué posición han llegado.</span>',
+        },
+        "paso #3: ir al este": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso3",
+          "cont": '<span>Al avanzar a dirección Este, el suelo vibra marcando que se han encontrado con un desafío. Una burbuja aparece alrededor de los personajes y el siguiente acertijo se escribe en la misma: "Se infla, se infla, se hace globo, y a los aires sube lento y solo. No explota ni echa a volar sin rumbo: soy el encantamiento del que flota en el mundo."<adding class="check-cards" search="reg. paso2"></adding></span>',
+        },
+        "validar paso #3 dirección este": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso3e",
+          "cont": '<span>Aquí no hay ninguna marca, deberán regresar hacia atrás.</span>',
+        },
+        "paso #3: ir al sur": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso3",
+          "cont": '<span>Al avanzar a dirección Sur, los personajes encuentran una ciénaga de aguas negras que impide cualquier avance.<adding class="check-cards" search="reg. paso2"></adding></span>',
+        },
+        "validar paso #3 dirección sur": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #3: ir al sur",
+          "cont": '<span>Aquí no hay ninguna marca, deberán regresar hacia atrás.</span>',
+        },
+        "paso #3: ir al oeste": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso3",
+          "cont": '<span>Al avanzar a dirección Oeste, el suelo vibra marcando que se han encontrado con un desafío. Una burbuja aparece alrededor de los personajes y el siguiente acertijo se escribe en la misma: "Soy invisible y potente, el guardián de lo cerrado; nada me abre por la fuerza ni el empuje acelerado. El que quiera cruzar tendrá que saber el nombre de quien me puede vencer sin que yo me asombre."<adding class="check-cards" search="reg. paso2"></adding></span>',
+        },
+        "validar paso #3 dirección oeste": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso3o",
+          "cont": '<span>Aquí no hay ninguna marca, deberán regresar hacia atrás.</span>',
+        },
+      },
+
+      "actions": {
+        // generales a todos los grupos
+        "astrae navigare": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>La varita del mago vibra indicando la dirección correcta. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+          "exitoso": '<span>La varita del mago vibra indicando la dirección correcta. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+          "critico": '<span>La varita del mago vibra indicando la dirección correcta. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+        },
+        "anticipatio hostis": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>El líder permite leer el terreno y deducir dónde podrían haber colocado la siguiente señalización. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+          "exitoso": '<span>El líder permite leer el terreno y deducir dónde podrían haber colocado la siguiente señalización. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+          "critico": '<span>El líder permite leer el terreno y deducir dónde podrían haber colocado la siguiente señalización. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+        },
+        "bestiae tactus": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Permite que los instintos animales señalen el siguiente camino. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+          "exitoso": '<span>Permite que los instintos animales señalen el siguiente camino. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+          "critico": '<span>Permite que los instintos animales señalen el siguiente camino. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+        },
+        "instinctus excitatus": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Permite que los instintos animales señalen el siguiente camino. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+          "exitoso": '<span>Permite que los instintos animales señalen el siguiente camino. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+          "critico": '<span>Permite que los instintos animales señalen el siguiente camino. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+        },
+        // especificos del grupo
+        "lumos": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Resuelve el acertijo "paso #1: ir al oeste".<adding class="check-cards" search="paso1o"></adding></span>',
+          "exitoso": '<span>Resuelve el acertijo "paso #1: ir al oeste".<adding class="check-cards" search="paso1o"></adding></span>',
+          "critico": '<span>Resuelve el acertijo "paso #1: ir al oeste".<adding class="check-cards" search="paso1o"></adding></span>',
+        },
+        "wingardium leviosa": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Resuelve el acertijo "paso #2: ir al oeste".<adding class="check-cards" search="paso2o"></adding></span>',
+          "exitoso": '<span>Resuelve el acertijo "paso #2: ir al oeste".<adding class="check-cards" search="paso2o"></adding></span>',
+          "critico": '<span>Resuelve el acertijo "paso #2: ir al oeste".<adding class="check-cards" search="paso2o"></adding></span>',
+        },
+        "indago": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Permite calmar a las criaturas presentes siempre que sean controlables.</span>',
+          "exitoso": '<span>Permite calmar a las criaturas presentes siempre que sean controlables.</span>',
+          "critico": '<span>Permite calmar a las criaturas presentes siempre que sean controlables.</span>',
+        },
+        "sensus mitigo": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Permite calmar a las criaturas presentes siempre que sean controlables.</span>',
+          "exitoso": '<span>Permite calmar a las criaturas presentes siempre que sean controlables.</span>',
+          "critico": '<span>Permite calmar a las criaturas presentes siempre que sean controlables.</span>',
+        },
+        "inflatus": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Resuelve el acertijo "paso #3: ir al este".<adding class="check-cards" search="paso3e"></adding></span>',
+          "exitoso": '<span>Resuelve el acertijo "paso #3: ir al este".<adding class="check-cards" search="paso3e"></adding></span>',
+          "critico": '<span>Resuelve el acertijo "paso #3: ir al este".<adding class="check-cards" search="paso3e"></adding></span>',
+        },
+        "fermaportus": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Resuelve el acertijo "paso #3: ir al oeste".<adding class="check-cards" search="paso3o"></adding></span>',
+          "exitoso": '<span>Resuelve el acertijo "paso #3: ir al oeste".<adding class="check-cards" search="paso3o"></adding></span>',
+          "critico": '<span>Resuelve el acertijo "paso #3: ir al oeste".<adding class="check-cards" search="paso3o"></adding></span>',
+        },
+      },
+    },
+    // fin: evento atrapa la bandera g2
+
+    "atrapa la bandera g3": {
+      "description": "",
+      "image": "", "requisitos": [],
+      "users": ["/u8", "/u159", "/u182", "/u118"],
+      "dependency": [],
+      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+
+      "creatures": {},
+      "cards": [],
+
+      "searchs": {
+        "largada": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
+          "cont": '<span>El traslador los hace aparecerse en una zona del bosque prohibido. La vegetación es densa y retorcida, pero entre los árboles más cercanos pueden ver lazos turquesa brillando levemente.<adding class="check-cards" search="paso1"></adding></span>',
+        },
+
+        // paso 1
+        "regresar a largada": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "reg. largada",
+          "cont": '<span>Los personajes regresan a la largada.<adding class="check-cards" search="paso1"></adding></span>',
+        },
+        "paso #1: ir al norte": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso1",
+          "cont": '<span>Al avanzar a dirección Norte, el suelo vibra marcando que se han encontrado con un desafío. Una burbuja aparece alrededor de los personajes junto con una puerta de madera y el siguiente acertijo se escribe en la misma: "Lo roto encuentro y lo hago entero, devuelvo la forma a lo que era primero. Soy el tiempo al revés en un solo instante: mas en personas mi poder es distante."<adding class="check-cards" search="reg. largada"></adding></span>',
+        },
+        "validar paso #1 dirección norte": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso1n",
+          "cont": '<span>Tras cruzar la puerta, los personajes ven a lo lejos un lazo turquesa atado a una rama, confirmando que avanzan en la dirección correcta.<adding class="check-cards" search="paso2"></adding></span>',
+        },
+        "paso #1: ir al este": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso1",
+          "cont": '<span>Al avanzar a dirección Este, los personajes se encuentran con un acantilado.<adding class="check-cards" search="reg. largada"></adding></span>',
+        },
+        "validar paso #1 dirección este": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #1: ir al este",
+          "cont": '<span>Aquí no hay ninguna marca, deberán regresar hacia atrás.</span>',
+        },
+        "paso #1: ir al sur": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso1",
+          "cont": '<span>Al avanzar a dirección Sur, los personajes se encuentran con 6 crups. No podrán validar la dirección correcta hasta que no se enfrenten a los mismos. En caso de que el dado de esta tarjeta sea par, los crups atacan primero y de manera inmediata.<adding class="check-cards" search="reg. largada"></adding></span>',
+        },
+        "validar paso #1 dirección sur": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #1: ir al sur",
+          "cont": '<span>Aquí no hay ninguna marca, deberán regresar hacia atrás.</span>',
+        },
+        "paso #1: ir al oeste": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso1",
+          "cont": '<span>Al avanzar a dirección Oeste, los personajes se adentran en una zona donde los árboles forman una muralla impenetrable de ramas entrelazadas.<adding class="check-cards" search="reg. largada"></adding></span>',
+        },
+        "validar paso #1 dirección oeste": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #1: ir al oeste",
+          "cont": '<span>Aquí no hay ninguna marca, deberán regresar hacia atrás.</span>',
+        },
+
+        // paso 2 
+        "regresar a paso #1 correcto": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "reg. paso1",
+          "cont": '<span>Los personajes regresan al paso anterior para optar por otra dirección.<adding class="check-cards" search="paso2"></adding></span>',
+        },
+        "paso #2: ir al norte": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso2",
+          "cont": '<span>Al avanzar a dirección Norte, los personajes se encuentran con 7 ashwinders. No podrán validar la dirección correcta hasta que no se enfrenten a los mismos. En caso de que el dado de esta tarjeta sea positivo, los ashwinders atacan primero y de manera inmediata.<adding class="check-cards" search="reg. paso1"></adding></span>',
+        },
+        "validar paso #2 dirección norte": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #2: ir al norte",
+          "cont": '<span>Aquí no hay ninguna marca, deberán regresar hacia atrás.</span>',
+        },
+        "paso #2: ir al este": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso2",
+          "cont": '<span>Al avanzar a dirección Este, el suelo vibra marcando que se han encontrado con un desafío. Una burbuja aparece alrededor de los personajes junto con una puerta de madera y el siguiente acertijo se escribe en la misma: "Soy una cuerda de luz que lanza la varita; atraigo y jalo lo que a mis manos invita. Como un lazo mágico en el aire extendido: soy el brazo que llega a lo que está perdido."<adding class="check-cards" search="reg. paso1"></adding></span>',
+        },
+        "validar paso #2 dirección este": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso2e",
+          "cont": '<span>Colgado de uno de los árboles distinguen el lazo turquesa que confirma que van por el camino correcto.<adding class="check-cards" search="paso3"></adding></span>',
+        },
+        "paso #2: ir al sur": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso2",
+          "cont": '<span>Al avanzar a dirección Sur, los personajes se encuentran con un terreno cubierto de hongos luminiscentes que desprenden esporas desconocidas.<adding class="check-cards" search="reg. paso1"></adding></span>',
+        },
+        "validar paso #2 dirección sur": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #2: ir al sur",
+          "cont": '<span>Aquí no hay ninguna marca, deberán regresar hacia atrás.</span>',
+        },
+        "paso #2: ir al oeste": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso2",
+          "cont": '<span>Al avanzar a dirección Oeste, el suelo vibra marcando que se han encontrado con un desafío. Una burbuja aparece alrededor de los personajes y el siguiente acertijo se escribe en la misma: "Las semillas duermen, yo las despierto; las flores aguardan y yo les abro el huerto. El tiempo que tardan, yo lo acorto en un visto: soy el verano llegando muy listo."<adding class="check-cards" search="reg. paso1"></adding></span>',
+        },
+        "validar paso #2 dirección oeste": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso2o",
+          "cont": '<span>Aquí no hay ninguna marca, deberán regresar hacia atrás.</span>',
+        },
+
+        // paso 3
+        "regresar a paso #3 correcto": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "reg. paso2",
+          "cont": '<span>Los personajes regresan al paso anterior para optar por otra dirección.<adding class="check-cards" search="paso3"></adding></span>',
+        },
+        "paso #3: ir al norte": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso3",
+          "cont": '<span>Al avanzar a dirección Norte, los personajes se encuentran con 2 occamys que bloquean el camino y atacan de inmediato.<adding class="check-cards" search="reg. paso2"></adding></span>',
+        },
+        "validar paso #3 dirección norte": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #3: ir al norte",
+          "cont": '<span>¡Felicitaciones! ¡Ya pueden visualizar la bandera! Deberán esperar a que todos los grupos terminen para que la administración avise en qué posición han llegado.</span>',
+        },
+        "paso #3: ir al este": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso3",
+          "cont": '<span>Al avanzar a dirección Este, el suelo vibra marcando que se han encontrado con un desafío. Una burbuja aparece alrededor de los personajes y el siguiente acertijo se escribe en la misma: "El agua te temo, la niebla te alejo; lo que cubro queda seco, eso te aconsejo. Sobre tu escoba o tus gafas en la lluvia: soy la magia que tu ropa nunca aruya."<adding class="check-cards" search="reg. paso2"></adding></span>',
+        },
+        "validar paso #3 dirección este": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso3e",
+          "cont": '<span>Aquí no hay ninguna marca, deberán regresar hacia atrás.</span>',
+        },
+        "paso #3: ir al sur": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso3",
+          "cont": '<span>Al avanzar a dirección Sur, los personajes encuentran un lago.<adding class="check-cards" search="reg. paso2"></adding></span>',
+        },
+        "validar paso #3 dirección sur": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #3: ir al sur",
+          "cont": '<span>Aquí no hay ninguna marca, deberán regresar hacia atrás.</span>',
+        },
+        "paso #3: ir al oeste": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso3",
+          "cont": '<span>Al avanzar a dirección Oeste, el suelo vibra marcando que se han encontrado con un desafío. Una burbuja aparece alrededor de los personajes y el siguiente acertijo se escribe en la misma: "La varita limpia lo que no quieres ver, el polvo, la sangre, la grasa también. Aspiro sin cubo, sin trapo, sin mano: soy el conjuro del aseo cotidiano."<adding class="check-cards" search="reg. paso2"></adding></span>',
+        },
+        "validar paso #3 dirección oeste": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso3o",
+          "cont": '<span>Aquí no hay ninguna marca, deberán regresar hacia atrás.</span>',
+        },
+      },
+
+      "actions": {
+        // generales a todos los grupos
+        "astrae navigare": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>La varita del mago vibra indicando la dirección correcta. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+          "exitoso": '<span>La varita del mago vibra indicando la dirección correcta. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+          "critico": '<span>La varita del mago vibra indicando la dirección correcta. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+        },
+        "anticipatio hostis": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>El líder permite leer el terreno y deducir dónde podrían haber colocado la siguiente señalización. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+          "exitoso": '<span>El líder permite leer el terreno y deducir dónde podrían haber colocado la siguiente señalización. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+          "critico": '<span>El líder permite leer el terreno y deducir dónde podrían haber colocado la siguiente señalización. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+        },
+        "bestiae tactus": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Permite que los instintos animales señalen el siguiente camino. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+          "exitoso": '<span>Permite que los instintos animales señalen el siguiente camino. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+          "critico": '<span>Permite que los instintos animales señalen el siguiente camino. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+        },
+        "instinctus excitatus": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Permite que los instintos animales señalen el siguiente camino. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+          "exitoso": '<span>Permite que los instintos animales señalen el siguiente camino. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+          "critico": '<span>Permite que los instintos animales señalen el siguiente camino. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+        },
+        // especificos del grupo
+        "reparo": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Resuelve el acertijo "paso #1: ir al norte".<adding class="check-cards" search="paso1n"></adding></span>',
+          "exitoso": '<span>Resuelve el acertijo "paso #1: ir al norte".<adding class="check-cards" search="paso1n"></adding></span>',
+          "critico": '<span>Resuelve el acertijo "paso #1: ir al norte".<adding class="check-cards" search="paso1n"></adding></span>',
+        },
+        "carpe retractum": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Resuelve el acertijo "paso #2: ir al este".<adding class="check-cards" search="paso2e"></adding></span>',
+          "exitoso": '<span>Resuelve el acertijo "paso #2: ir al este".<adding class="check-cards" search="paso2e"></adding></span>',
+          "critico": '<span>Resuelve el acertijo "paso #2: ir al este".<adding class="check-cards" search="paso2e"></adding></span>',
+        },
+        "indago": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Permite calmar a las criaturas presentes siempre que sean controlables.</span>',
+          "exitoso": '<span>Permite calmar a las criaturas presentes siempre que sean controlables.</span>',
+          "critico": '<span>Permite calmar a las criaturas presentes siempre que sean controlables.</span>',
+        },
+        "sensus mitigo": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Permite calmar a las criaturas presentes siempre que sean controlables.</span>',
+          "exitoso": '<span>Permite calmar a las criaturas presentes siempre que sean controlables.</span>',
+          "critico": '<span>Permite calmar a las criaturas presentes siempre que sean controlables.</span>',
+        },
+        "impervius": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Resuelve el acertijo "paso #3: ir al este".<adding class="check-cards" search="paso3e"></adding></span>',
+          "exitoso": '<span>Resuelve el acertijo "paso #3: ir al este".<adding class="check-cards" search="paso3e"></adding></span>',
+          "critico": '<span>Resuelve el acertijo "paso #3: ir al este".<adding class="check-cards" search="paso3e"></adding></span>',
+        },
+        "tergeo": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Resuelve el acertijo "paso #3: ir al oeste".<adding class="check-cards" search="paso3o"></adding></span>',
+          "exitoso": '<span>Resuelve el acertijo "paso #3: ir al oeste".<adding class="check-cards" search="paso3o"></adding></span>',
+          "critico": '<span>Resuelve el acertijo "paso #3: ir al oeste".<adding class="check-cards" search="paso3o"></adding></span>',
+        },
+      },
+    },
+    // fin: evento atrapa la bandera g3
+
+    "atrapa la bandera g4": {
+      "description": "",
+      "image": "", "requisitos": [],
+      "users": ["/u24", "/u141", "/u9", "/u156"],
+      "dependency": [],
+      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+
+      "creatures": {},
+      "cards": [],
+
+      "searchs": {
+        "largada": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
+          "cont": '<span>El traslador los hace aparecerse en una zona del bosque prohibido de vegetación altísima. La oscuridad es casi total entre los troncos, pero distinguen lazos coral reflejando la poca luz que se filtra.<adding class="check-cards" search="paso1"></adding></span>',
+        },
+
+        // paso 1
+        "regresar a largada": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "reg. largada",
+          "cont": '<span>Los personajes regresan a la largada.<adding class="check-cards" search="paso1"></adding></span>',
+        },
+        "paso #1: ir al norte": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso1",
+          "cont": '<span>Al avanzar a dirección Norte, el suelo vibra marcando que se han encontrado con un desafío. Una burbuja aparece alrededor de los personajes junto con una puerta de madera y el siguiente acertijo se escribe en la misma: "Soy el silencio que sigue a la luz, el punto final de un resplandor. Apago lo que otro encendió, soy la noche que acaba el ardor."<adding class="check-cards" search="reg. largada"></adding></span>',
+        },
+        "validar paso #1 dirección norte": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso1n",
+          "cont": '<span>Tras cruzar la puerta, los personajes distinguen a lo lejos un lazo coral atado a una rama, confirmando que avanzan en la dirección correcta.<adding class="check-cards" search="paso2"></adding></span>',
+        },
+        "paso #1: ir al este": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso1",
+          "cont": '<span>Al avanzar a dirección Este, los personajes se encuentran con una zona de árboles caídos.<adding class="check-cards" search="reg. largada"></adding></span>',
+        },
+        "validar paso #1 dirección este": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #1: ir al este",
+          "cont": '<span>Aquí no hay ninguna marca, deberán regresar hacia atrás.</span>',
+        },
+        "paso #1: ir al sur": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso1",
+          "cont": '<span>Al avanzar a dirección Sur, los personajes se encuentran con 8 fwoopers. No podrán validar la dirección correcta hasta que no se enfrenten a los mismos. En caso de que el dado de esta tarjeta sea par, los fwoopers atacan primero y de manera inmediata.<adding class="check-cards" search="reg. largada"></adding></span>',
+        },
+        "validar paso #1 dirección sur": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #1: ir al sur",
+          "cont": '<span>Aquí no hay ninguna marca, deberán regresar hacia atrás.</span>',
+        },
+        "paso #1: ir al oeste": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso1",
+          "cont": '<span>Al avanzar a dirección Oeste, los personajes se encuentran con una grieta en el terreno que exhala vapores calientes. No es posible avanzar.<adding class="check-cards" search="reg. largada"></adding></span>',
+        },
+        "validar paso #1 dirección oeste": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #1: ir al oeste",
+          "cont": '<span>Aquí no hay ninguna marca, deberán regresar hacia atrás.</span>',
+        },
+
+        // paso 2 
+        "regresar a paso #1 correcto": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "reg. paso1",
+          "cont": '<span>Los personajes regresan al paso anterior para optar por otra dirección.<adding class="check-cards" search="paso2"></adding></span>',
+        },
+        "paso #2: ir al norte": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso2",
+          "cont": '<span>Al avanzar a dirección Norte, los personajes se encuentran con 5 escarbatos. No podrán validar la dirección correcta hasta que no se enfrenten a los mismos. En caso de que el dado de esta tarjeta sea positivo, los escarbatos atacan primero y de manera inmediata.<adding class="check-cards" search="reg. paso1"></adding></span>',
+        },
+        "validar paso #2 dirección norte": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #2: ir al norte",
+          "cont": '<span>Aquí no hay ninguna marca, deberán regresar hacia atrás.</span>',
+        },
+        "paso #2: ir al este": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso2",
+          "cont": '<span>Al avanzar a dirección Este, el suelo vibra marcando que se han encontrado con un desafío. Una burbuja aparece alrededor de los personajes junto con una puerta de madera y el siguiente acertijo se escribe en la misma: "Soy una burbuja que en tu cabeza vive; el aire dentro respiras y prospera tu vida. Bajo el agua caminas sin ahogarte: soy el casco que te salva en cualquier parte."<adding class="check-cards" search="reg. paso1"></adding></span>',
+        },
+        "validar paso #2 dirección este": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso2e",
+          "cont": '<span>Colgado de uno de los árboles distinguen el lazo coral que confirma que van por el camino correcto.<adding class="check-cards" search="paso3"></adding></span>',
+        },
+        "paso #2: ir al sur": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso2",
+          "cont": '<span>Al avanzar a dirección Sur, los personajes encuentran con un claro.<adding class="check-cards" search="reg. paso1"></adding></span>',
+        },
+        "validar paso #2 dirección sur": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #2: ir al sur",
+          "cont": '<span>Aquí no hay ninguna marca, deberán regresar hacia atrás.</span>',
+        },
+        "paso #2: ir al oeste": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso2",
+          "cont": '<span>Al avanzar a dirección Oeste, el suelo vibra marcando que se han encontrado con un desafío. Una burbuja aparece alrededor de los personajes y el siguiente acertijo se escribe en la misma: "Suave como el musgo, blando como el pan, el suelo y el objeto ceden sin afán. Caes sin daño, rebotas feliz: soy la magia que amortigua el desliz."<adding class="check-cards" search="reg. paso1"></adding></span>',
+        },
+        "validar paso #2 dirección oeste": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso2o",
+          "cont": '<span>Aquí no hay ninguna marca, deberán regresar hacia atrás.</span>',
+        },
+
+        // paso 3
+        "regresar a paso #3 correcto": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "reg. paso2",
+          "cont": '<span>Los personajes regresan al paso anterior para optar por otra dirección.<adding class="check-cards" search="paso3"></adding></span>',
+        },
+        "paso #3: ir al norte": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso3",
+          "cont": '<span>Al avanzar a dirección Norte, el suelo vibra marcando que se han encontrado con un desafío. Una burbuja aparece alrededor de los personajes y el siguiente acertijo se escribe en la misma: "Sin pies ni ruedas, los muebles obedezco; el sillón, la escoba, el baúl, que vuelen merezco. Digo su nombre y se mueven al punto: no hay cajón ni sillón que no mueva al asunto."<adding class="check-cards" search="reg. paso2"></adding></span>',
+        },
+        "validar paso #3 dirección norte": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso3n",
+          "cont": '<span>Aquí no hay ninguna marca, deberán regresar hacia atrás.</span>',
+        },
+        "paso #3: ir al este": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso3",
+          "cont": '<span>Al avanzar a dirección Este, los personajes se encuentran con 2 thunderbirds que bloquean el camino y atacan de inmediato.<adding class="check-cards" search="reg. paso2"></adding></span>',
+        },
+        "validar paso #3 dirección este": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #3: ir al este",
+          "cont": '<span>¡Felicitaciones! ¡Ya pueden visualizar la bandera! Deberán esperar a que todos los grupos terminen para que la administración avise en qué posición han llegado.</span>',
+        },
+        "paso #3: ir al sur": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso3",
+          "cont": '<span>Al avanzar a dirección Sur, los personajes encuentran una densa niebla mágica que desorienta completamente a quien la atraviesa.<adding class="check-cards" search="reg. paso2"></adding></span>',
+        },
+        "validar paso #3 dirección sur": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #3: ir al sur",
+          "cont": '<span>Aquí no hay ninguna marca, deberán regresar hacia atrás.</span>',
+        },
+        "paso #3: ir al oeste": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso3",
+          "cont": '<span>Al avanzar a dirección Oeste, el suelo vibra marcando que se han encontrado con un desafío. Una burbuja aparece alrededor de los personajes y el siguiente acertijo se escribe en la misma: "Lo que estaba oculto ante mis ojos aparece; los rastros mágicos, los mensajes, lo que crece. Revelo pasajes y secretos de la sombra: soy el ojo que la magia nunca escombra."<adding class="check-cards" search="reg. paso2"></adding></span>',
+        },
+        "validar paso #3 dirección oeste": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso3o",
+          "cont": '<span>Aquí no hay ninguna marca, deberán regresar hacia atrás.</span>',
+        },
+      },
+
+      "actions": {
+        // generales a todos los grupos
+        "astrae navigare": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>La varita del mago vibra indicando la dirección correcta. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+          "exitoso": '<span>La varita del mago vibra indicando la dirección correcta. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+          "critico": '<span>La varita del mago vibra indicando la dirección correcta. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+        },
+        "anticipatio hostis": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>El líder permite leer el terreno y deducir dónde podrían haber colocado la siguiente señalización. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+          "exitoso": '<span>El líder permite leer el terreno y deducir dónde podrían haber colocado la siguiente señalización. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+          "critico": '<span>El líder permite leer el terreno y deducir dónde podrían haber colocado la siguiente señalización. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+        },
+        "bestiae tactus": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Permite que los instintos animales señalen el siguiente camino. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+          "exitoso": '<span>Permite que los instintos animales señalen el siguiente camino. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+          "critico": '<span>Permite que los instintos animales señalen el siguiente camino. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+        },
+        "instinctus excitatus": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Permite que los instintos animales señalen el siguiente camino. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+          "exitoso": '<span>Permite que los instintos animales señalen el siguiente camino. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+          "critico": '<span>Permite que los instintos animales señalen el siguiente camino. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+        },
+        // especificos del grupo
+        "nox": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Resuelve el acertijo "paso #1: ir al norte".<adding class="check-cards" search="paso1n"></adding></span>',
+          "exitoso": '<span>Resuelve el acertijo "paso #1: ir al norte".<adding class="check-cards" search="paso1n"></adding></span>',
+          "critico": '<span>Resuelve el acertijo "paso #1: ir al norte".<adding class="check-cards" search="paso1n"></adding></span>',
+        },
+        "bulla galea": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Resuelve el acertijo "paso #2: ir al este".<adding class="check-cards" search="paso2e"></adding></span>',
+          "exitoso": '<span>Resuelve el acertijo "paso #2: ir al este".<adding class="check-cards" search="paso2e"></adding></span>',
+          "critico": '<span>Resuelve el acertijo "paso #2: ir al este".<adding class="check-cards" search="paso2e"></adding></span>',
+        },
+        "indago": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Permite calmar a las criaturas presentes siempre que sean controlables.</span>',
+          "exitoso": '<span>Permite calmar a las criaturas presentes siempre que sean controlables.</span>',
+          "critico": '<span>Permite calmar a las criaturas presentes siempre que sean controlables.</span>',
+        },
+        "sensus mitigo": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Permite calmar a las criaturas presentes siempre que sean controlables.</span>',
+          "exitoso": '<span>Permite calmar a las criaturas presentes siempre que sean controlables.</span>',
+          "critico": '<span>Permite calmar a las criaturas presentes siempre que sean controlables.</span>',
+        },
+        "locomotor": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Resuelve el acertijo "paso #3: ir al norte".<adding class="check-cards" search="paso3n"></adding></span>',
+          "exitoso": '<span>Resuelve el acertijo "paso #3: ir al norte".<adding class="check-cards" search="paso3n"></adding></span>',
+          "critico": '<span>Resuelve el acertijo "paso #3: ir al norte".<adding class="check-cards" search="paso3n"></adding></span>',
+        },
+        "revelio": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Resuelve el acertijo "paso #3: ir al oeste".<adding class="check-cards" search="paso3o"></adding></span>',
+          "exitoso": '<span>Resuelve el acertijo "paso #3: ir al oeste".<adding class="check-cards" search="paso3o"></adding></span>',
+          "critico": '<span>Resuelve el acertijo "paso #3: ir al oeste".<adding class="check-cards" search="paso3o"></adding></span>',
+        },
+      },
+    },
+    // fin: evento atrapa la bandera g4
+
+    "atrapa la bandera g5": {
+      "description": "",
+      "image": "", "requisitos": [],
+      "users": ["/u161", "/u112", "/u78", "/u138", "/u13"],
+      "dependency": [],
+      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+
+      "creatures": {},
+      "cards": [],
+
+      "searchs": {
+        "largada": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
+          "cont": '<span>El traslador los hace aparecerse en una zona del bosque prohibido de suelo cubierto de musgo oscuro. Los árboles tienen corteza negra como el carbón, pero entre sus ramas cuelgan lazos celestes que apenas se distinguen de la sombra.<adding class="check-cards" search="paso1"></adding></span>',
+        },
+
+        // paso 1
+        "regresar a largada": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "reg. largada",
+          "cont": '<span>Los personajes regresan a la largada.<adding class="check-cards" search="paso1"></adding></span>',
+        },
+        "paso #1: ir al norte": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso1",
+          "cont": '<span>Al avanzar a dirección Norte, los personajes encuentran una pendiente pronunciada que asciende entre rocas inestables.<adding class="check-cards" search="reg. largada"></adding></span>',
+        },
+        "validar paso #1 dirección norte": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #1: ir al norte",
+          "cont": '<span>Aquí no hay ninguna marca, deberán regresar hacia atrás.</span>',
+        },
+        "paso #1: ir al este": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso1",
+          "cont": '<span>Al avanzar a dirección Este, los personajes encuentran un espeso matorral de plantas con espinas.<adding class="check-cards" search="reg. largada"></adding></span>',
+        },
+        "validar paso #1 dirección este": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #1: ir al este",
+          "cont": '<span>Aquí no hay ninguna marca, deberán regresar hacia atrás.</span>',
+        },
+        "paso #1: ir al sur": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso1",
+          "cont": '<span>Al avanzar a dirección Sur, el suelo vibra marcando que se han encontrado con un desafío. Una burbuja aparece alrededor de los personajes junto con una puerta de madera y el siguiente acertijo se escribe en la misma: "Pequeño lo hago sin romperlo ni dañarlo, y si ya fue crecido, puedo devolvérselo. Soy el contrario del que hincha y agranda: el mundo en tu bolsillo, si mi arte te manda."<adding class="check-cards" search="reg. largada"></adding></span>',
+        },
+        "validar paso #1 dirección sur": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso1s",
+          "cont": '<span>Tras cruzar la puerta, los personajes distinguen a lo lejos un lazo celeste colgado de una rama retorcida, confirmando que avanzan en la dirección correcta.<adding class="check-cards" search="paso2"></adding></span>',
+        },
+        "paso #1: ir al oeste": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso1",
+          "cont": '<span>Al avanzar a dirección Oeste, los personajes se encuentran con 10 duendecillos de Cornualles. No podrán validar la dirección correcta hasta que no se enfrenten a los mismos. En caso de que el dado de esta tarjeta sea par, los duendecillos atacan primero y de manera inmediata.<adding class="check-cards" search="reg. largada"></adding></span>',
+        },
+        "validar paso #1 dirección oeste": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #1: ir al oeste",
+          "cont": '<span>Aquí no hay ninguna marca, deberán regresar hacia atrás.</span>',
+        },
+
+        // paso 2 
+        "regresar a paso #1 correcto": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "reg. paso1",
+          "cont": '<span>Los personajes regresan al paso anterior para optar por otra dirección.<adding class="check-cards" search="paso2"></adding></span>',
+        },
+        "paso #2: ir al norte": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso2",
+          "cont": '<span>Al avanzar a dirección Norte, los personajes se encuentran con un barranco oscuro sin fondo visible. No hay manera de cruzar.<adding class="check-cards" search="reg. paso1"></adding></span>',
+        },
+        "validar paso #2 dirección norte": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #2: ir al norte",
+          "cont": '<span>Aquí no hay ninguna marca, deberán regresar hacia atrás.</span>',
+        },
+        "paso #2: ir al este": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso2",
+          "cont": '<span>Al avanzar a dirección Este, el suelo vibra marcando que se han encontrado con un desafío. Una burbuja aparece alrededor de los personajes junto con una puerta de madera y el siguiente acertijo se escribe en la misma: "El animal que bebe agua de un arroyo; a copa lo convierto yo con solo un apoyo. De pelaje a cristal, de hocico a borde: soy la transfiguración que todo acorde."<adding class="check-cards" search="reg. paso1"></adding></span>',
+        },
+        "validar paso #2 dirección este": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso2e",
+          "cont": '<span>Colgado de uno de los árboles distinguen el lazo celeste que confirma que van por el camino correcto.<adding class="check-cards" search="paso3"></adding></span>',
+        },
+        "paso #2: ir al sur": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso2",
+          "cont": '<span>Al avanzar a dirección Sur, los personajes se encuentran con 3 tebos. No podrán validar la dirección correcta hasta que no se enfrenten a los mismos. En caso de que el dado de esta tarjeta sea positivo, los tebos atacan primero y de manera inmediata.<adding class="check-cards" search="reg. paso1"></adding></span>',
+        },
+        "validar paso #2 dirección sur": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #2: ir al sur",
+          "cont": '<span>Aquí no hay ninguna marca, deberán regresar hacia atrás.</span>',
+        },
+        "paso #2: ir al oeste": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso2",
+          "cont": '<span>Al avanzar a dirección Oeste, el suelo vibra marcando que se han encontrado con un desafío. Una burbuja aparece alrededor de los personajes y el siguiente acertijo se escribe en la misma: "Del gato al conejo en un parpadeo, del ratón al conejo con solo un deseo. Solo objetos pequeños son mi juego: el conejo salta y yo me despego."<adding class="check-cards" search="reg. paso1"></adding></span>',
+        },
+        "validar paso #2 dirección oeste": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso2o",
+          "cont": '<span>Aquí no hay ninguna marca, deberán regresar hacia atrás.</span>',
+        },
+
+        // paso 3
+        "regresar a paso #3 correcto": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "reg. paso2",
+          "cont": '<span>Los personajes regresan al paso anterior para optar por otra dirección.<adding class="check-cards" search="paso3"></adding></span>',
+        },
+        "paso #3: ir al norte": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso3",
+          "cont": '<span>Al avanzar a dirección Norte, los personajes encuentran una muralla de piedras antiguas cubiertas de runas que parece imposible de escalar.<adding class="check-cards" search="reg. paso2"></adding></span>',
+        },
+        "validar paso #3 dirección norte": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #3: ir al norte",
+          "cont": '<span>Aquí no hay ninguna marca, deberán regresar hacia atrás.</span>',
+        },
+        "paso #3: ir al este": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso3",
+          "cont": '<span>Al avanzar a dirección Este, el suelo vibra marcando que se han encontrado con un desafío. Una burbuja aparece alrededor de los personajes y el siguiente acertijo se escribe en la misma: "El líquido en el metal hierve sin fuego; sin llama, sin leña, lo caldeo luego. El recipiente resiste mi calor: soy el hechizo del destilador."<adding class="check-cards" search="reg. paso2"></adding></span>',
+        },
+        "validar paso #3 dirección este": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso3e",
+          "cont": '<span>Aquí no hay ninguna marca, deberán regresar hacia atrás.</span>',
+        },
+        "paso #3: ir al sur": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso3",
+          "cont": '<span>Al avanzar a dirección Sur, los personajes se encuentran con 2 erumpents que bloquean el camino y atacan de inmediato.<adding class="check-cards" search="reg. paso2"></adding></span>',
+        },
+        "validar paso #3 dirección sur": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #3: ir al sur",
+          "cont": '<span>¡Felicitaciones! ¡Ya pueden visualizar la bandera! Deberán esperar a que todos los grupos terminen para que la administración avise en qué posición han llegado.</span>',
+        },
+        "paso #3: ir al oeste": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso3",
+          "cont": '<span>Al avanzar a dirección Oeste, el suelo vibra marcando que se han encontrado con un desafío. Una burbuja aparece alrededor de los personajes y el siguiente acertijo se escribe en la misma: "De bestia en ave, de piel en pluma; el objeto pequeño a pájaro se suma. No hace falta jaula para que vuele: soy quien transforma lo que el ojo no ve."<adding class="check-cards" search="reg. paso2"></adding></span>',
+        },
+        "validar paso #3 dirección oeste": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso3o",
+          "cont": '<span>Aquí no hay ninguna marca, deberán regresar hacia atrás.</span>',
+        },
+      },
+
+      "actions": {
+        // generales a todos los grupos
+        "astrae navigare": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>La varita del mago vibra indicando la dirección correcta. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+          "exitoso": '<span>La varita del mago vibra indicando la dirección correcta. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+          "critico": '<span>La varita del mago vibra indicando la dirección correcta. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+        },
+        "anticipatio hostis": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>El líder permite leer el terreno y deducir dónde podrían haber colocado la siguiente señalización. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+          "exitoso": '<span>El líder permite leer el terreno y deducir dónde podrían haber colocado la siguiente señalización. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+          "critico": '<span>El líder permite leer el terreno y deducir dónde podrían haber colocado la siguiente señalización. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+        },
+        "bestiae tactus": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Permite que los instintos animales señalen el siguiente camino. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+          "exitoso": '<span>Permite que los instintos animales señalen el siguiente camino. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+          "critico": '<span>Permite que los instintos animales señalen el siguiente camino. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+        },
+        "instinctus excitatus": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Permite que los instintos animales señalen el siguiente camino. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+          "exitoso": '<span>Permite que los instintos animales señalen el siguiente camino. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+          "critico": '<span>Permite que los instintos animales señalen el siguiente camino. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+        },
+        // especificos del grupo
+        "reducio": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Resuelve el acertijo "paso #1: ir al sur".<adding class="check-cards" search="paso1s"></adding></span>',
+          "exitoso": '<span>Resuelve el acertijo "paso #1: ir al sur".<adding class="check-cards" search="paso1s"></adding></span>',
+          "critico": '<span>Resuelve el acertijo "paso #1: ir al sur".<adding class="check-cards" search="paso1s"></adding></span>',
+        },
+        "vera verto": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Resuelve el acertijo "paso #2: ir al este".<adding class="check-cards" search="paso2e"></adding></span>',
+          "exitoso": '<span>Resuelve el acertijo "paso #2: ir al este".<adding class="check-cards" search="paso2e"></adding></span>',
+          "critico": '<span>Resuelve el acertijo "paso #2: ir al este".<adding class="check-cards" search="paso2e"></adding></span>',
+        },
+        "indago": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Permite calmar a las criaturas presentes siempre que sean controlables.</span>',
+          "exitoso": '<span>Permite calmar a las criaturas presentes siempre que sean controlables.</span>',
+          "critico": '<span>Permite calmar a las criaturas presentes siempre que sean controlables.</span>',
+        },
+        "sensus mitigo": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Permite calmar a las criaturas presentes siempre que sean controlables.</span>',
+          "exitoso": '<span>Permite calmar a las criaturas presentes siempre que sean controlables.</span>',
+          "critico": '<span>Permite calmar a las criaturas presentes siempre que sean controlables.</span>',
+        },
+        "succendam bullae": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Resuelve el acertijo "paso #3: ir al este".<adding class="check-cards" search="paso3e"></adding></span>',
+          "exitoso": '<span>Resuelve el acertijo "paso #3: ir al este".<adding class="check-cards" search="paso3e"></adding></span>',
+          "critico": '<span>Resuelve el acertijo "paso #3: ir al este".<adding class="check-cards" search="paso3e"></adding></span>',
+        },
+        "avisfors": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Resuelve el acertijo "paso #3: ir al oeste".<adding class="check-cards" search="paso3o"></adding></span>',
+          "exitoso": '<span>Resuelve el acertijo "paso #3: ir al oeste".<adding class="check-cards" search="paso3o"></adding></span>',
+          "critico": '<span>Resuelve el acertijo "paso #3: ir al oeste".<adding class="check-cards" search="paso3o"></adding></span>',
+        },
+      },
+    },
+    // fin: evento atrapa la bandera g5
+
+    "atrapa la bandera g6": {
+      "description": "",
+      "image": "", "requisitos": [],
+      "users": ["/u12", "/u55", "/u149", "/u179"],
+      "dependency": [],
+      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+
+      "creatures": {},
+      "cards": [],
+
+      "searchs": {
+        "largada": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
+          "cont": '<span>El traslador los hace aparecerse en una zona del bosque prohibido de suelo cubierto de flores silvestres que contrastan con la penumbra del bosque. Entre las ramas más bajas cuelgan lazos rosas que marcan el camino.<adding class="check-cards" search="paso1"></adding></span>',
+        },
+
+        // paso 1
+        "regresar a largada": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "reg. largada",
+          "cont": '<span>Los personajes regresan a la largada.<adding class="check-cards" search="paso1"></adding></span>',
+        },
+        "paso #1: ir al norte": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso1",
+          "cont": '<span>Al avanzar a dirección Norte, los personajes se encuentran con un muro de enredaderas.<adding class="check-cards" search="reg. largada"></adding></span>',
+        },
+        "validar paso #1 dirección norte": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #1: ir al norte",
+          "cont": '<span>Aquí no hay ninguna marca, deberán regresar hacia atrás.</span>',
+        },
+        "paso #1: ir al este": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso1",
+          "cont": '<span>Al avanzar a dirección Este, los personajes topan con un campo cubierto de helechos.<adding class="check-cards" search="reg. largada"></adding></span>',
+        },
+        "validar paso #1 dirección este": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #1: ir al este",
+          "cont": '<span>Aquí no hay ninguna marca, deberán regresar hacia atrás.</span>',
+        },
+        "paso #1: ir al sur": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso1",
+          "cont": '<span>Al avanzar a dirección Sur, el suelo vibra marcando que se han encontrado con un desafío. Una burbuja aparece alrededor de los personajes junto con una puerta de madera y el siguiente acertijo se escribe en la misma: "La cerradura no cede, la puerta se resiste; yo la hago estallar, nada en su paso existe. No soy silencioso ni delicado en mi obra: soy el último recurso que al mago cobra."<adding class="check-cards" search="reg. largada"></adding></span>',
+        },
+        "validar paso #1 dirección sur": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso1s",
+          "cont": '<span>Tras cruzar la puerta, los personajes distinguen a lo lejos un lazo rosa colgado de una rama florida, confirmando que avanzan en la dirección correcta.<adding class="check-cards" search="paso2"></adding></span>',
+        },
+        "paso #1: ir al oeste": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso1",
+          "cont": '<span>Al avanzar a dirección Oeste, los personajes se encuentran con 6 murtlaps. No podrán validar la dirección correcta hasta que no se enfrenten a los mismos. En caso de que el dado de esta tarjeta sea par, los murtlaps atacan primero y de manera inmediata.<adding class="check-cards" search="reg. largada"></adding></span>',
+        },
+        "validar paso #1 dirección oeste": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #1: ir al oeste",
+          "cont": '<span>Aquí no hay ninguna marca, deberán regresar hacia atrás.</span>',
+        },
+
+        // paso 2 
+        "regresar a paso #1 correcto": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "reg. paso1",
+          "cont": '<span>Los personajes regresan al paso anterior para optar por otra dirección.<adding class="check-cards" search="paso2"></adding></span>',
+        },
+        "paso #2: ir al norte": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso2",
+          "cont": '<span>Al avanzar a dirección Norte, los personajes encuentran una zona de árboles petrificados que exhalan un frío sobrenatural. No hay ninguna señal.<adding class="check-cards" search="reg. paso1"></adding></span>',
+        },
+        "validar paso #2 dirección norte": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #2: ir al norte",
+          "cont": '<span>Aquí no hay ninguna marca, deberán regresar hacia atrás.</span>',
+        },
+        "paso #2: ir al este": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso2",
+          "cont": '<span>Al avanzar a dirección Este, el suelo vibra marcando que se han encontrado con un desafío. Una burbuja aparece alrededor de los personajes junto con una puerta de madera y el siguiente acertijo se escribe en la misma: "No soy pegamento, mas pego sin dudar; dos objetos uno en un sólido enlazar. En humanos no funciona mi poder: soy la unión que ninguna mano puede romper."<adding class="check-cards" search="reg. paso1"></adding></span>',
+        },
+        "validar paso #2 dirección este": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso2e",
+          "cont": '<span>Colgado de uno de los árboles distinguen el lazo rosa que confirma que van por el camino correcto.<adding class="check-cards" search="paso3"></adding></span>',
+        },
+        "paso #2: ir al sur": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso2",
+          "cont": '<span>Al avanzar a dirección Sur, los personajes se encuentran con 4 gorros rojos. No podrán validar la dirección correcta hasta que no se enfrenten a los mismos. En caso de que el dado de esta tarjeta sea positivo, los gorros rojos atacan primero y de manera inmediata.<adding class="check-cards" search="reg. paso1"></adding></span>',
+        },
+        "validar paso #2 dirección sur": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #2: ir al sur",
+          "cont": '<span>Aquí no hay ninguna marca, deberán regresar hacia atrás.</span>',
+        },
+        "paso #2: ir al oeste": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso2",
+          "cont": '<span>Al avanzar a dirección Oeste, el suelo vibra marcando que se han encontrado con un desafío. Una burbuja aparece alrededor de los personajes y el siguiente acertijo se escribe en la misma: "Con su dueño guardado bajo siete llaves la maleta se prepara entre sus naves. Sola dobla, sola mete, sola cierra: soy el sortilegio del que viaja por la tierra."<adding class="check-cards" search="reg. paso1"></adding></span>',
+        },
+        "validar paso #2 dirección oeste": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso2o",
+          "cont": '<span>Aquí no hay ninguna marca, deberán regresar hacia atrás.</span>',
+        },
+
+        // paso 3
+        "regresar a paso #3 correcto": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "reg. paso2",
+          "cont": '<span>Los personajes regresan al paso anterior para optar por otra dirección.<adding class="check-cards" search="paso3"></adding></span>',
+        },
+        "paso #3: ir al norte": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso3",
+          "cont": '<span>Al avanzar a dirección Norte, los personajes encuentran un bosque de árboles con raíces que emergen del suelo y enredan los pasos.<adding class="check-cards" search="reg. paso2"></adding></span>',
+        },
+        "validar paso #3 dirección norte": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #3: ir al norte",
+          "cont": '<span>Aquí no hay ninguna marca, deberán regresar hacia atrás.</span>',
+        },
+        "paso #3: ir al este": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso3",
+          "cont": '<span>Al avanzar a dirección Este, los personajes se encuentran con 2 snallygasters que bloquean el camino y atacan de inmediato.<adding class="check-cards" search="reg. paso2"></adding></span>',
+        },
+        "validar paso #3 dirección este": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #3: ir al este",
+          "cont": '<span>¡Felicitaciones! ¡Ya pueden visualizar la bandera! Deberán esperar a que todos los grupos terminen para que la administración avise en qué posición han llegado.</span>',
+        },
+        "paso #3: ir al sur": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso3",
+          "cont": '<span>Al avanzar a dirección Sur, el suelo vibra marcando que se han encontrado con un desafío. Una burbuja aparece alrededor de los personajes y el siguiente acertijo se escribe en la misma: "El metal que era rígido cede a mi calor, no lo fundo, solo ablanda su interior. Como arcilla caliente queda en la mano: soy el fuego suave del artesano."<adding class="check-cards" search="reg. paso2"></adding></span>',
+        },
+        "validar paso #3 dirección sur": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso3s",
+          "cont": '<span>Aquí no hay ninguna marca, deberán regresar hacia atrás.</span>',
+        },
+        "paso #3: ir al oeste": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso3",
+          "cont": '<span>Al avanzar a dirección Oeste, el suelo vibra marcando que se han encontrado con un desafío. Una burbuja aparece alrededor de los personajes y el siguiente acertijo se escribe en la misma: "El objeto muggle guarda su secreto bien; yo lo extraigo sin dañarlo, sin que nadie lo vea. Sus protecciones no se activan con mi toque: soy el conjuro que el conocimiento provoque."<adding class="check-cards" search="reg. paso2"></adding></span>',
+        },
+        "validar paso #3 dirección oeste": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso3o",
+          "cont": '<span>Aquí no hay ninguna marca, deberán regresar hacia atrás.</span>',
+        },
+      },
+
+      "actions": {
+        // generales a todos los grupos
+        "astrae navigare": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>La varita del mago vibra indicando la dirección correcta. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+          "exitoso": '<span>La varita del mago vibra indicando la dirección correcta. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+          "critico": '<span>La varita del mago vibra indicando la dirección correcta. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+        },
+        "anticipatio hostis": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>El líder permite leer el terreno y deducir dónde podrían haber colocado la siguiente señalización. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+          "exitoso": '<span>El líder permite leer el terreno y deducir dónde podrían haber colocado la siguiente señalización. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+          "critico": '<span>El líder permite leer el terreno y deducir dónde podrían haber colocado la siguiente señalización. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+        },
+        "bestiae tactus": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Permite que los instintos animales señalen el siguiente camino. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+          "exitoso": '<span>Permite que los instintos animales señalen el siguiente camino. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+          "critico": '<span>Permite que los instintos animales señalen el siguiente camino. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+        },
+        "instinctus excitatus": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Permite que los instintos animales señalen el siguiente camino. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+          "exitoso": '<span>Permite que los instintos animales señalen el siguiente camino. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+          "critico": '<span>Permite que los instintos animales señalen el siguiente camino. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+        },
+        // especificos del grupo
+        "portaberto": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Resuelve el acertijo "paso #1: ir al sur".<adding class="check-cards" search="paso1s"></adding></span>',
+          "exitoso": '<span>Resuelve el acertijo "paso #1: ir al sur".<adding class="check-cards" search="paso1s"></adding></span>',
+          "critico": '<span>Resuelve el acertijo "paso #1: ir al sur".<adding class="check-cards" search="paso1s"></adding></span>',
+        },
+        "epoximise": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Resuelve el acertijo "paso #2: ir al este".<adding class="check-cards" search="paso2e"></adding></span>',
+          "exitoso": '<span>Resuelve el acertijo "paso #2: ir al este".<adding class="check-cards" search="paso2e"></adding></span>',
+          "critico": '<span>Resuelve el acertijo "paso #2: ir al este".<adding class="check-cards" search="paso2e"></adding></span>',
+        },
+        "indago": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Permite calmar a las criaturas presentes siempre que sean controlables.</span>',
+          "exitoso": '<span>Permite calmar a las criaturas presentes siempre que sean controlables.</span>',
+          "critico": '<span>Permite calmar a las criaturas presentes siempre que sean controlables.</span>',
+        },
+        "sensus mitigo": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Permite calmar a las criaturas presentes siempre que sean controlables.</span>',
+          "exitoso": '<span>Permite calmar a las criaturas presentes siempre que sean controlables.</span>',
+          "critico": '<span>Permite calmar a las criaturas presentes siempre que sean controlables.</span>',
+        },
+        "tectumque": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Resuelve el acertijo "paso #3: ir al sur".<adding class="check-cards" search="paso3s"></adding></span>',
+          "exitoso": '<span>Resuelve el acertijo "paso #3: ir al sur".<adding class="check-cards" search="paso3s"></adding></span>',
+          "critico": '<span>Resuelve el acertijo "paso #3: ir al sur".<adding class="check-cards" search="paso3s"></adding></span>',
+        },
+        "extractum machina": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Resuelve el acertijo "paso #3: ir al oeste".<adding class="check-cards" search="paso3o"></adding></span>',
+          "exitoso": '<span>Resuelve el acertijo "paso #3: ir al oeste".<adding class="check-cards" search="paso3o"></adding></span>',
+          "critico": '<span>Resuelve el acertijo "paso #3: ir al oeste".<adding class="check-cards" search="paso3o"></adding></span>',
+        },
+      },
+    },
+    // fin: evento atrapa la bandera g6
 
     "quest line 1a": {
       "description": "",
