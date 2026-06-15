@@ -9524,7 +9524,7 @@ const MissionsModule = (function () {
     "atrapa la bandera g5": {
       "description": "",
       "image": "", "requisitos": [],
-      "users": ["/u161", "/u112", "/u78", "/u138", "/u13"],
+      "users": ["/u183", "/u112", "/u78", "/u138", "/u13"],
       "dependency": [],
       "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
 
