@@ -8856,8 +8856,8 @@ const MissionsModule = (function () {
       "actions": {
         // generales a todos los grupos
         "astrae navigare": {
-          "leve": '<span>No es suficiente para revelar información</span>',
-          "moderado": '<span>La varita del mago vibra indicando la dirección correcta. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+          "leve": '<span>No es suficiente para revelar información.</span>',
+          "moderado": '<span>No es suficiente para revelar información.</span>',
           "exitoso": '<span>La varita del mago vibra indicando la dirección correcta. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
           "critico": '<span>La varita del mago vibra indicando la dirección correcta. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
         },
@@ -9061,8 +9061,8 @@ const MissionsModule = (function () {
       "actions": {
         // generales a todos los grupos
         "astrae navigare": {
-          "leve": '<span>No es suficiente para revelar información</span>',
-          "moderado": '<span>La varita del mago vibra indicando la dirección correcta. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+          "leve": '<span>No es suficiente para revelar información.</span>',
+          "moderado": '<span>No es suficiente para revelar información.</span>',
           "exitoso": '<span>La varita del mago vibra indicando la dirección correcta. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
           "critico": '<span>La varita del mago vibra indicando la dirección correcta. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
         },
@@ -9259,8 +9259,8 @@ const MissionsModule = (function () {
       "actions": {
         // generales a todos los grupos
         "astrae navigare": {
-          "leve": '<span>No es suficiente para revelar información</span>',
-          "moderado": '<span>La varita del mago vibra indicando la dirección correcta. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+          "leve": '<span>No es suficiente para revelar información.</span>',
+          "moderado": '<span>No es suficiente para revelar información.</span>',
           "exitoso": '<span>La varita del mago vibra indicando la dirección correcta. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
           "critico": '<span>La varita del mago vibra indicando la dirección correcta. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
         },
@@ -9457,8 +9457,8 @@ const MissionsModule = (function () {
       "actions": {
         // generales a todos los grupos
         "astrae navigare": {
-          "leve": '<span>No es suficiente para revelar información</span>',
-          "moderado": '<span>La varita del mago vibra indicando la dirección correcta. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+          "leve": '<span>No es suficiente para revelar información.</span>',
+          "moderado": '<span>No es suficiente para revelar información.</span>',
           "exitoso": '<span>La varita del mago vibra indicando la dirección correcta. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
           "critico": '<span>La varita del mago vibra indicando la dirección correcta. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
         },
@@ -9655,8 +9655,8 @@ const MissionsModule = (function () {
       "actions": {
         // generales a todos los grupos
         "astrae navigare": {
-          "leve": '<span>No es suficiente para revelar información</span>',
-          "moderado": '<span>La varita del mago vibra indicando la dirección correcta. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+          "leve": '<span>No es suficiente para revelar información.</span>',
+          "moderado": '<span>No es suficiente para revelar información.</span>',
           "exitoso": '<span>La varita del mago vibra indicando la dirección correcta. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
           "critico": '<span>La varita del mago vibra indicando la dirección correcta. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
         },
@@ -9853,8 +9853,8 @@ const MissionsModule = (function () {
       "actions": {
         // generales a todos los grupos
         "astrae navigare": {
-          "leve": '<span>No es suficiente para revelar información</span>',
-          "moderado": '<span>La varita del mago vibra indicando la dirección correcta. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
+          "leve": '<span>No es suficiente para revelar información.</span>',
+          "moderado": '<span>No es suficiente para revelar información.</span>',
           "exitoso": '<span>La varita del mago vibra indicando la dirección correcta. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
           "critico": '<span>La varita del mago vibra indicando la dirección correcta. Deberán pedir a la administración la dirección que corresponde en el paso que están, por cualquiera de los medios disponibles.</span>',
         },
