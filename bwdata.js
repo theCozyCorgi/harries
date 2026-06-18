@@ -1552,7 +1552,7 @@ const MissionsModule = (function () {
         },
         "detener a los conductores": {
           "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "detener camión",
-          "cont": '<span>En el camión hay un conductor y dos miembros de seguridad que deberán ser detenidos antes de poder avanzar con el plan de infiltración. Deberán agregar a los tres PNJ como "guardia" y deberán enfrentarse a ellos. Una vez superado el obstáculo deberán pedir una intervención a la administración.</span>',
+          "cont": '<span>En el camión hay un conductor y dos miembros de seguridad que deberán ser detenidos antes de poder avanzar con el plan de infiltración. Deberán agregar a los tres PNJ como "guardia" y deberán enfrentarse a ellos. Una vez superado el obstáculo deberán pedir una intervención a la administración. Cada guardia posee 3 de fuerza y consitución y 35pv.</span>',
         },
         "ofrecerse como conductor": {
           "visible": { "attr": { "val": "min" }, "know": { "estudios muggles": "5" }, "job": "invalid", "name": "jasper", }, "place": "detener camión",
