@@ -9937,7 +9937,7 @@ const MissionsModule = (function () {
         },
         "paso #2: ir al sur": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso2",
-          "cont": '<span>Al avanzar hacia el Sur, los personajes se encuentran con 3 tebos que erizan sus púas ante la presencia de los intrusos. No podrán validar la dirección correcta hasta que no se enfrenten a los mismos. En caso de que el dado de esta tarjeta sea positivo, los tebos atacan primero y de manera inmediata.</span>',
+          "cont": '<span>Al avanzar a dirección Sur, los personajes se encuentran con 3 tebos. No podrán validar la dirección correcta hasta que no se enfrenten a los mismos. En caso de que el dado de esta tarjeta sea positivo, los tebos atacan primero y de manera inmediata.</span>',
         },
         "validar paso #2 dirección este": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso2e",
