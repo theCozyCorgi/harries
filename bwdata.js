@@ -8798,7 +8798,7 @@ const MissionsModule = (function () {
           "cont": '<span>Al avanzar hacia el Este, los personajes se topan con 2 hodags que custodian el paso con desconfianza. No podrán validar la dirección correcta hasta que no se enfrenten a los mismos. En caso de que el dado de esta tarjeta sea par, los hodags atacan primero y de manera inmediata.</span>',
         },
         "validar paso #2 dirección este": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso2e",
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #2: ir al este",
           "cont": '<span>Tras vencerlos, los personajes distinguen a la distancia un nuevo lazo violeta colgado de una rama, confirmando que avanzan en la dirección correcta.<adding class="check-cards" search="paso3"></adding></span>',
         },
         "paso #2: ir al oeste": {
@@ -8832,7 +8832,7 @@ const MissionsModule = (function () {
           "cont": '<span>Al avanzar hacia el Este, los personajes se encuentran con 3 kneazles que observan con desconfianza a los intrusos. No podrán validar la dirección correcta hasta que no se enfrenten a los mismos. En caso de que el dado de esta tarjeta sea positivo, los kneazles atacan primero y de manera inmediata.</span>',
         },
         "validar paso #3 dirección este": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso3e",
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #3: ir al este",
           "cont": '<span>Aquí no hay ninguna marca, deberán intentar otra dirección.<adding class="check-cards" search="reg. paso3"></adding></span>',
         },
         "paso #3: ir al sur": {
@@ -8858,7 +8858,7 @@ const MissionsModule = (function () {
           "cont": '<span>Al avanzar hacia el Norte, los personajes se topan con 4 mokes posados sobre una rama incandescente, vigilando el paso. No podrán validar la dirección correcta hasta que no se enfrenten a los mismos. En caso de que el dado de esta tarjeta sea positivo, los mokes atacan primero y de manera inmediata.</span>',
         },
         "validar paso #4 dirección norte": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso4n",
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #4: ir al norte",
           "cont": '<span>Aquí no hay ninguna marca, deberán intentar otra dirección.<adding class="check-cards" search="reg. paso4"></adding></span>',
         },
         "paso #4: ir al este": {
@@ -8892,7 +8892,7 @@ const MissionsModule = (function () {
           "cont": '<span>Al avanzar hacia el Norte, los personajes se encuentran con 2 serpientes cornudas que vuelan en círculos amenazantes sobre sus cabezas. No podrán validar el lugar hasta no terminar de enfrentarse a los mismos. Si el dado de esta tarjeta es par las serpientes cornudas atacan primero y de manera inmediata.</span>',
         },
         "validar paso #5 dirección norte": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso5n",
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #5: ir al norte",
           "cont": '<span>¡Felicitaciones! ¡Ya pueden visualizar la bandera! Deberán esperar a que todos los grupos terminen para que la administración avise en qué posición han llegado.</span>',
         },
         "paso #5: ir al sur": {
@@ -9079,7 +9079,7 @@ const MissionsModule = (function () {
           "cont": '<span>Al avanzar hacia el Norte, los personajes se encuentran con 3 cangrejos de fuego que despiden chispazos al moverse entre las piedras. No podrán validar la dirección correcta hasta que no se enfrenten a los mismos. En caso de que el dado de esta tarjeta sea par, los cangrejos de fuego atacan primero y de manera inmediata.</span>',
         },
         "validar paso #2 dirección norte": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso2n",
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #2: ir al norte",
           "cont": '<span>Tras vencerlos, los personajes distinguen a la distancia un nuevo lazo naranja colgado de una rama, confirmando que avanzan en la dirección correcta.<adding class="check-cards" search="paso3"></adding></span>',
         },
         "paso #2: ir al sur": {
@@ -9113,8 +9113,8 @@ const MissionsModule = (function () {
           "cont": '<span>Al avanzar hacia el Norte, los personajes se encuentran con 2 streelers que dejan un rastro plateado y resbaladizo a su paso. No podrán validar la dirección correcta hasta que no se enfrenten a los mismos. En caso de que el dado de esta tarjeta sea positivo, los streelers atacan primero y de manera inmediata.',
         },
         "validar paso #3 dirección norte": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso3n",
-          "cont": '<span>Aquí no hay ninguna marca, deberán intentar otra dirección.<adding class="check-cards" search="reg. paso3"></adding></span></span>',
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #3: ir al norte",
+          "cont": '<span>Aquí no hay ninguna marca, deberán intentar otra dirección.<adding class="check-cards" search="reg. paso3"></adding></span>',
         },
         "paso #3: ir al este": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso3",
@@ -9147,7 +9147,7 @@ const MissionsModule = (function () {
           "cont": '<span>Al avanzar hacia el Norte, los personajes se encuentran con 4 cangrejos de fuego, más numerosos que antes, dejando un rastro de chispas en la tierra. No podrán validar la dirección correcta hasta que no se enfrenten a los mismos. En caso de que el dado de esta tarjeta sea par, los cangrejos de fuego atacan primero y de manera inmediata.</span>',
         },
         "validar paso #4 dirección norte": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso4n",
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #4: ir al norte",
           "cont": '<span>Aquí no hay ninguna marca, deberán intentar otra dirección.<adding class="check-cards" search="reg. paso4"></adding></span>',
         },
         "paso #4: ir al este": {
@@ -9181,7 +9181,7 @@ const MissionsModule = (function () {
           "cont": '<span>Al avanzar hacia el Este, los personajes se encuentran con 2 nundus, más numerosos que antes, dejando un rastro brillante sobre las hojas caídas. No podrán validar el lugar hasta no terminar de enfrentarse a los mismos. Si el dado de esta tarjeta es par los nundus atacan primero y de manera inmediata.</span>',
         },
         "validar paso #5 dirección este": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso5e",
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #5: ir al este",
           "cont": '<span>Aquí no hay ninguna marca, deberán intentar otra dirección.<adding class="check-cards" search="reg. paso5"></adding></span>',
         },
         "paso #5: ir al sur": {
@@ -9378,7 +9378,7 @@ const MissionsModule = (function () {
           "cont": '<span>Al avanzar hacia el Oeste, los personajes se encuentran con 4 bundimuns que cubren las raíces de los árboles con su limo corrosivo. No podrán validar la dirección correcta hasta que no se enfrenten a los mismos. En caso de que el dado de esta tarjeta sea positivo, los bundimuns atacan primero y de manera inmediata.',
         },
         "validar paso #2 dirección oeste": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso2o",
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #2: ir al oeste",
           "cont": '<span>Tras vencerlos, los personajes distinguen a la distancia un nuevo lazo turquesa colgado de una rama, confirmando que avanzan en la dirección correcta.<adding class="check-cards" search="paso3"></adding></span>',
         },
 
@@ -9404,7 +9404,7 @@ const MissionsModule = (function () {
           "cont": '<span>Al avanzar hacia el Sur, los personajes se encuentran con 3 mackled malaclaws que arrastran sus pinzas asimétricas sobre las raíces. No podrán validar la dirección correcta hasta que no se enfrenten a los mismos. En caso de que el dado de esta tarjeta sea par, los mackled malaclaws atacan primero y de manera inmediata.</span>',
         },
         "validar paso #3 dirección sur": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso3s",
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #3: ir al sur",
           "cont": '<span>Aquí no hay ninguna marca, deberán intentar otra dirección.<adding class="check-cards" search="reg. paso3"></adding></span>',
         },
         "paso #3: ir al oeste": {
@@ -9430,7 +9430,7 @@ const MissionsModule = (function () {
           "cont": '<span>Al avanzar hacia el Norte, los personajes se encuentran con 3 snidgets que esquivan con rapidez entre las ramas más altas. No podrán validar la dirección correcta hasta que no se enfrenten a los mismos. En caso de que el dado de esta tarjeta sea positivo, los snidgets atacan primero y de manera inmediata.</span>',
         },
         "validar paso #4 dirección norte": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso4n",
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #4: ir al norte",
           "cont": '<span>Aquí no hay ninguna marca, deberán intentar otra dirección.<adding class="check-cards" search="reg. paso4"></adding></span>',
         },
         "paso #4: ir al este": {
@@ -9659,7 +9659,7 @@ const MissionsModule = (function () {
           "cont": '<span>Al avanzar hacia el Este, los personajes se encuentran con 4 glumbumbles que flotan despacio, dejando caer gotas de melancolía a su paso. No podrán validar la dirección correcta hasta que no se enfrenten a los mismos. En caso de que el dado de esta tarjeta sea positivo, los glumbumbles atacan primero y de manera inmediata.</span>',
         },
         "validar paso #2 dirección este": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso2e",
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #2: ir al este",
           "cont": '<span>Tras vencerlos, los personajes distinguen a la distancia un nuevo lazo coral colgado de una rama, confirmando que avanzan en la dirección correcta.<adding class="check-cards" search="paso3"></adding></span>',
         },
         "paso #2: ir al oeste": {
@@ -9693,7 +9693,7 @@ const MissionsModule = (function () {
           "cont": '<span>Al avanzar hacia el Este, los personajes se encuentran con 2 salamandras de fuego que dejan pequeñas llamas a su paso entre la hojarasca seca. No podrán validar la dirección correcta hasta que no se enfrenten a los mismos. En caso de que el dado de esta tarjeta sea par, las salamandras de fuego atacan primero y de manera inmediata.</span>',
         },
         "validar paso #3 dirección este": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso3e",
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #3: ir al este",
           "cont": '<span>Aquí no hay ninguna marca, deberán intentar otra dirección.<adding class="check-cards" search="reg. paso3"></adding></span>',
         },
         "paso #3: ir al sur": {
@@ -9719,7 +9719,7 @@ const MissionsModule = (function () {
           "cont": '<span>Al avanzar hacia el Norte, los personajes se encuentran con 2 hipocampos que nadan agitados en un estanque que bloquea el paso. No podrán validar la dirección correcta hasta que no se enfrenten a los mismos. En caso de que el dado de esta tarjeta sea positivo, los hipocampos atacan primero y de manera inmediata.</span>',
         },
         "validar paso #4 dirección norte": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso4n",
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #4: ir al norte",
           "cont": '<span>Aquí no hay ninguna marca, deberán intentar otra dirección.<adding class="check-cards" search="reg. paso4"></adding></span>',
         },
         "paso #4: ir al este": {
@@ -9948,7 +9948,7 @@ const MissionsModule = (function () {
           "cont": '<span>Al avanzar hacia el Este, el suelo vibra marcando que se han encontrado con un desafío. Una burbuja aparece alrededor de los personajes junto con una puerta de madera y el siguiente acertijo se escribe en la misma: "Soy el centro oculto de todo espacio mágico; el nodo de poder es mi encuentro trágico. Donde la magia se dobla y se distorsiona, ahí me llaman a revelar la zona."</span>',
         },
         "validar paso #2 dirección sur": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso2e",
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #2: ir al sur",
           "cont": '<span>Aquí no hay ninguna marca. La puerta permanece cerrada y deberán intentar otra dirección.<adding class="check-cards" search="reg. paso2"></adding></span>',
         },
         "paso #2: ir al oeste": {
@@ -9982,7 +9982,7 @@ const MissionsModule = (function () {
           "cont": '<span>Al avanzar hacia el Este, los personajes se encuentran con 2 plimpys que se desplazan sobre sus patas palmeadas entre los charcos del camino. No podrán validar la dirección correcta hasta que no se enfrenten a los mismos. En caso de que el dado de esta tarjeta sea par, los plimpys atacan primero y de manera inmediata.</span>',
         },
         "validar paso #3 dirección este": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso3e",
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #3: ir al este",
           "cont": '<span>Aquí no hay ninguna marca, deberán intentar otra dirección.<adding class="check-cards" search="paso3"></adding></span>',
         },
         "paso #3: ir al sur": {
@@ -10008,7 +10008,7 @@ const MissionsModule = (function () {
           "cont": '<span>Al avanzar hacia el Norte, los personajes se encuentran con 4 knarls, más numerosos que antes, erizando sus púas entre las raíces. No podrán validar la dirección correcta hasta que no se enfrenten a los mismos. En caso de que el dado de esta tarjeta sea par, los knarls atacan primero y de manera inmediata.',
         },
         "validar paso #4 dirección norte": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso4n",
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #4: ir al norte",
           "cont": '<span>Aquí no hay ninguna marca, deberán intentar otra dirección.<adding class="check-cards" search="reg. paso4"></adding></span></span>',
         },
         "paso #4: ir al este": {
@@ -10050,7 +10050,7 @@ const MissionsModule = (function () {
           "cont": '<span>Al avanzar hacia el Sur, los personajes se encuentran con 2 mantícoras que dejan un rastro de cenizas ardientes sobre el último tramo del camino y atacan de inmediato.</span>',
         },
         "validar paso #5 dirección sur": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso5s",
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #5: ir al sur",
           "cont": '<span>¡Felicitaciones! ¡Ya pueden visualizar la bandera! Deberán esperar a que todos los grupos terminen para que la administración avise en qué posición han llegado.</span>',
         },
         "paso #5: ir al oeste": {
@@ -10237,7 +10237,7 @@ const MissionsModule = (function () {
           "cont": '<span>Al avanzar hacia el Sur, los personajes encuentran un espíritu travieso que enreda y desordena todo lo que encuentra en el camino, atando ramas y haciendo nudos imposibles en cada arbusto.</span>',
         },
         "validar paso #2 dirección sur": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso2s",
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #2: ir al sur",
           "cont": '<span>Aquí no hay ninguna marca. El espíritu sigue suelto y deberán intentar otra dirección.<adding class="check-cards" search="reg. paso2"></adding></span>',
         },
         "paso #2: ir al oeste": {
@@ -10245,7 +10245,7 @@ const MissionsModule = (function () {
           "cont": '<span>Al avanzar hacia el Oeste, los personajes se encuentran con 4 lolabugs que iluminan tenuemente el camino con su brillo natural. No podrán validar la dirección correcta hasta que no se enfrenten a los mismos. En caso de que el dado de esta tarjeta sea positivo, los lolabugs atacan primero y de manera inmediata.</span>',
         },
         "validar paso #2 dirección oeste": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso2o",
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #2: ir al oeste",
           "cont": '<span>Tras vencerlos, los personajes distinguen a la distancia un nuevo lazo rosa colgado de una rama, confirmando que avanzan en la dirección correcta.<adding class="check-cards" search="paso3"></adding></span>',
         },
 
@@ -10271,7 +10271,7 @@ const MissionsModule = (function () {
           "cont": '<span>Al avanzar hacia el Sur, los personajes se encuentran con 5 jarveys que husmean entre las flores silvestres del camino. No podrán validar la dirección correcta hasta que no se enfrenten a los mismos. En caso de que el dado de esta tarjeta sea par, los jarveys atacan primero y de manera inmediata.</span>',
         },
         "validar paso #3 dirección sur": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso3s",
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #3: ir al sur",
           "cont": '<span>Aquí no hay ninguna marca, deberán intentar otra dirección.<adding class="check-cards" search="reg. paso3"></adding></span>',
         },
         "paso #3: ir al oeste": {
@@ -10297,7 +10297,7 @@ const MissionsModule = (function () {
           "cont": '<span>Al avanzar hacia el Norte, los personajes se encuentran con 3 occamys que despliegan sus alas plateadas entre las ramas más altas. No podrán validar la dirección correcta hasta que no se enfrenten a los mismos. En caso de que el dado de esta tarjeta sea positivo, los occamys atacan primero y de manera inmediata.</span>',
         },
         "validar paso #4 dirección norte": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso4n",
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #4: ir al norte",
           "cont": '<span>Aquí no hay ninguna marca, deberán intentar otra dirección.<adding class="check-cards" search="reg. paso4"></adding></span></span>',
         },
         "paso #4: ir al este": {
@@ -10347,7 +10347,7 @@ const MissionsModule = (function () {
           "cont": '<span>Al avanzar hacia el Sur, los personajes se encuentran con 2 quintaped, más numerosos que antes, iluminando el último tramo del camino y atacan de inmediato.</span>',
         },
         "validar paso #5 dirección sur": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso5s",
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #5: ir al sur",
           "cont": '<span>¡Felicitaciones! ¡Ya pueden visualizar la bandera! Deberán esperar a que todos los grupos terminen para que la administración avise en qué posición han llegado.</span>',
         },
       },
