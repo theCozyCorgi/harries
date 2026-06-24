@@ -1820,6 +1820,8 @@ userdata[target="atributos"] strong {
 }
 
 .user-pv {
+  --pv: 200;
+  --max: 200;
   width: 100%;
   display: flex;
   align-items: center;
@@ -1832,7 +1834,8 @@ userdata[target="atributos"] strong {
 .user-pv:before {
   --wpv: calc(var(--per) * 100);
   counter-reset: per var(--wpv);
-  content: 'pv: ' counter(per) '%';
+  counter-reset: total var(--pv);
+  content: 'pv: ' counter(per) '% (' counter(total) '/' var(--max) ')';
   width: calc(var(--wpv) * 1%);
   background: var(--post-user);
   height: 100%;
