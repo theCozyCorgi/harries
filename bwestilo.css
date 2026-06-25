@@ -1833,9 +1833,7 @@ userdata[target="atributos"] strong {
 
 .user-pv:before {
   --wpv: calc(var(--per) * 100);
-  counter-reset: per var(--wpv);
-  counter-reset: total var(--pv);
-  counter-reset: max var(--max);
+  counter-reset: per var(--wpv) total var(--pv) max var(--max);
   content: 'pv: ' counter(per) '% (' counter(total) '/' counter(max) ')';
   width: calc(var(--wpv) * 1%);
   background: var(--post-user);
