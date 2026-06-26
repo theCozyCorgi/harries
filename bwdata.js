@@ -2658,7 +2658,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/DWMLO6R.png", "requisitos": [],
       "users": ["/u50", "/u9", "/u159"],
       "dependency": [],
-      "type": "investigación", "closed": false, "link": "https://blackwave.foroactivo.com/t1235-investigacion-in-search-of-the-deadly-hallows", "tagged": ["wave", "capitulo 0"],
+      "type": "investigación", "closed": true, "link": "https://blackwave.foroactivo.com/t1235-investigacion-in-search-of-the-deadly-hallows", "tagged": ["wave", "capitulo 0"],
 
       "cards": [],
 
@@ -9014,7 +9014,7 @@ const MissionsModule = (function () {
     "atrapa la bandera g2": {
       "description": "",
       "image": "", "requisitos": [],
-      "users": ["/u50", "/u63", "/u91", "/u119", "/u180"],
+      "users": ["/u50", "/u63", "/u91", "/u180"],
       "dependency": [],
       "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
 
@@ -9297,7 +9297,7 @@ const MissionsModule = (function () {
     "atrapa la bandera g3": {
       "description": "",
       "image": "", "requisitos": [],
-      "users": ["/u8", "/u159", "/u182", "/u118"],
+      "users": ["/u8", "/u159", "/u182", "/u118", "/u119"],
       "dependency": [],
       "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
 
