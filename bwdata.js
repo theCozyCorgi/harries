@@ -4850,7 +4850,74 @@ const MissionsModule = (function () {
       "type": "investigación", "closed": false, "link": "", "tagged": ["original"],
 
       "cards": [],
-      "searchs": {},
+
+      "searchs": {
+        "certificado de defunción de dominic edevane clasificado": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "jupiter", }, "place": "",
+          "cont": '<span>El personaje puede confirmar que, tras una investigación en el Requisario, encontró un certificado clasificado de Dominic Edevane:<br><br><span class="book-clipping"><br><div align="center"><strong>PERGAMINO DE DEFUNCIÓN</strong><br><i>Hospital San Mungo para Enfermedades y Heridas Mágicas – Archivo de los Caídos</i></div><br><strong>Nombre Completo del Paciente</strong>: Dominic Edevane.<br><strong>No. Expediente</strong>: SM-FD/1342-G<br><strong>Fecha de Ingreso</strong>: 25 de Marzo de 1939 - 07:05hs.<br><br><strong>Fecha de fallecimiento</strong>: 24 de Marzo de 1929 - 22:32hs.<br><br><strong>Edad</strong>: 32 años.<br><strong>Sangre</strong>: ☒ Pura 	 ☐ Mestiza 	 ☐ Muggle 	 ☐ Criatura<br><br><strong>Motivo del ingreso</strong>: El cuerpo de Dominic Edevane fue hallado fallecido y llevado al hospital.<br><strong>Causa de fallecimiento</strong>: Se determina que la causa de la muerte ha sido un parásito en sangre. El mismo no corresponde con alguno anotado con anterioridad. Una muestra ha sido tomada y enviada al Departamento de Misterios para su investigación. Dicho parásito ha causado una cristalización letárgica de las venas principales. El organismo intruso consumió el oxígeno y el calor vital del paciente de manera tan sutil que los órganos se marchitaron en completo silencio.<br><br><strong>Área médica asignada</strong>: Archivo de los caídos.<br><strong>Atendido por</strong>: Thalia Wyrm, nigromante.<br><strong>Acompañante familiar</strong>: Padre, Halden Edevane.<br><br><strong>Anexos</strong>:<br>☒ Firma de Thalia Wyrm.<br>☒ Firma de Padre, Halden Edevane.<br>☒ Sello de defunción emitido.</span></span>',
+        },
+        "certificado de defunción de dominic edevane": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "",
+          "cont": '<span><span class="book-clipping"><br><div align="center"><strong>PERGAMINO DE DEFUNCIÓN</strong><br><i>Hospital San Mungo para Enfermedades y Heridas Mágicas – Archivo de los Caídos</i></div><br><strong>Nombre Completo del Paciente</strong>: Dominic.<br><strong>No. Expediente</strong>: SM-FD/1342-G<br><strong>Fecha de Ingreso</strong>: 25 de Marzo de 1939 - 07:05hs.<br><strong>Fecha de fallecimiento</strong>: 24 de Marzo de 1929 - 22:32hs.<br><br><strong>Edad</strong>: 32 años.<br><strong>Sangre</strong>: ☒ Pura &nbsp; ☐ Mestiza &nbsp; ☐ Muggle &nbsp; ☐ Criatura<br><br><strong>Motivo del ingreso</strong>: El cuerpo de Dominic fue hallado fallecido y llevado al hospital.<br><strong>Causa de fallecimiento</strong>: No hay causas suficientes, se supone causas naturales, aunque se notaron rastros de magia negra en su sangre.<br><br><strong>Área médica asignada</strong>: Archivo de los caídos.<br><strong>Atendido por</strong>: Thalia Wyrm, nigromante.<br><strong>Acompañante familiar</strong>: Esposa, Aria Fawley.<br><br><strong>Anexos</strong>:<br>☒ Firma de Thalia Wyrm.<br>☒ Firma de Aria Fawley.<br>☒ Sello de defunción emitido.</span></span>',
+        },
+        "certificado de defunción de thalia wyrm": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "jupiter", }, "place": "",
+          "cont": '<span>El personaje puede confirmar que, tras investigar a Thalia Wyrm, encontró su certificado de defunción:<br><br><span class="book-clipping"><br><div align="center"><strong>PERGAMINO DE DEFUNCIÓN</strong><br><i>Hospital San Mungo para Enfermedades y Heridas Mágicas – Archivo de los Caídos</i></div><br><strong>Nombre Completo del Paciente</strong>: Thalia Wyrm.<br><strong>No. Expediente</strong>: SM-FD/1432-S<br><strong>Fecha de Ingreso</strong>: 16 de Noviembre de 1943 - 18:22hs.<br><br><strong>Fecha de fallecimiento</strong>: 16 de Noviembre de 1943 - 23:56hs.<br><br><strong>Edad</strong>: 81 años.<br><strong>Sangre</strong>: ☐ Pura ☒ Mestiza ☐ Muggle ☐ Criatura<br><br><strong>Motivo del ingreso</strong>: Un compañero de la señora Wyrm encontró a la mujer recostada sobre el escritorio, tras el chequeo de los signos vitales, su corazón latía demasiado despacio según lo habitual.<br><strong>Causa de fallecimiento</strong>: Fallo sistémico agudo y colapso respiratorio, condicionados por la avanzada edad de la paciente (81 años). El examen forense reveló una atípica cristalización y endurecimiento de las venas principales, atribuida preliminarmente a una drástica e inexplicable caída del calor vital en sus últimas horas. Esta condición interrumpió el flujo natural de oxígeno, provocando que los órganos internos se marchitaran a un ritmo acelerado y en completo silencio. Al no presentar marcas de violencia ni signos de agonía consciente, se dictamina como muerte natural.<br><br><strong>Área médica asignada</strong>: Archivo de los caídos.<br><strong>Atendido por</strong>: Tabor Mariner, nigromante.<br><strong>Acompañante familiar</strong>: Hija, Attilia Harper.<br><br><strong>Anexos</strong>:<br>☒ Firma de Tabor Mariner.<br>☒ Firma de Hija, Attilia Harper.<br>☒ Sello de defunción emitido.</span></span>',
+        },
+        "ingresar al departamento de misterios": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "certificado de defunción de dominic edevane clasificado",
+          "cont": '<span>Con la compañía de un inefable y sabiendo que la nigromante Wyrm dejó una muestra de sangre en la Cámara de la Sangre y con una autorización del Jefe del Departamento de Seguridad Mágica, pueden ingresar al mismo para buscar la investigación de la mujer.</span>',
+        },
+        "información sobre thalia wyrm": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "orion", }, "place": "certificado de defunción de thalia wyrm",
+          "cont": '<span>El personaje puede haber escuchado el nombre de la mujer de los labios de su abuela, Hesper Black, quien también trabajó en la cámara de la sangre. Thalia era una mujer tozuda, quería respuestas y las buscaba. Cuando le negaron investigar la sangre y pasados meses de que fuera poco prioritario, pidió traslado hacia la cámara para poder trabajar como inefable. Llevó a cabo su investigación durante unos años y luego falleció. La mujer estaba simplemente grande. Nadie completó la investigación porque no tenía prioridad. Aunque nada se pierde en el Departamento de Misterios, si se sabe dónde buscar, se pueden encontrar todas las investigaciones en cámaras que las resguardan del tiempo.</span>',
+        },
+        "ingresar a la cámara del tiempo": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "inefable", "name": "invalid", }, "place": "ingresar al departamento de misterios",
+          "cont": '<span>Todos los inefables conocen que todas las investigaciones se guardan en un archivo en la cámara del tiempo. Muchos años atrás, capaz al inicio del Departamento, los inefables necesitaban un lugar seguro para almacenar sus hallazgos donde el tiempo no fuera un problema. Fue el inicio de la cámara del tiempo, incluso. Por lo tanto, el personaje puede guiarlos a la cámara donde sabe que estará la investigación de Thalia Wyrm.</span>',
+        },
+        "ingresar al archivo de la cámara del tiempo": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "inefable", "name": "invalid", }, "place": "ingresar a la cámara del tiempo",
+          "cont": '<span>El Archivo de la Cámara del Tiempo, es la primera puerta a la derecha del espacio destinado a los inefables que examinan el tiempo. Desde allí, se puede observar el centro de la cámara donde un péndulo se mueve de un lado hacía otro. Al ingresar al archivo, sin embargo, no parece ser más que otra cosa que una fila interminable de lockers.</span>',
+        },
+        "investigar los lockers": {
+          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ingresar al archivo de la cámara del tiempo",
+          "cont": '<span>Todas las puertas metálicas de los lockes son de un color azul oscuro. Las mismas se encuentran etiquetadas con los nombres de los investigadores, una descripción corta de la investigación y el año en el que se realizó. Si algún personaje quiere hacer la mención sobre un personaje cercano o pariente que tenga un tema allí, puede hacerlo. El inefable que los guía también puede mencionar alguna de sus propias investigaciones.</span>',
+        },
+        "locker de thalia wyrm": {
+          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "investigar los lockers",
+          "cont": '<span>Tras avanzar hasta el año 1929, llegan a un casillero que tiene la información de Thalia Wyrm. Las etiquetas al frente rezan: "Thalia Wyrm - Investigación sobre parásitos en la sangre - 1929".</span>',
+        },
+        "abrir locker": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "locker de thalia wyrm",
+          "cont": '<span>El locker cuenta con dos niveles. En el nivel superior hay una caja de cristal en cuyo interior flota un frasco con una muestra de sangre de un color denso y oscuro, mientras que en el nivel inferior se encuentran tres pergaminos archivos.</span>',
+        },
+        "muestra de sangre de dominic edevane": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir locker",
+          "cont": '<span>La muestra de sangre de Dominic Edevane se encuentra dentro de una caja de cristal la cual ha sido hechizada para que no pueda abrirse ni romperse. Ninguno de los hechizos utilizados puede causar tal efecto. Sin embargo, y por las dudas, Thalia agregó una nota: "Esta muestra es extremadamente peligrosa. No se debe manipular sin la debida protección."</span>',
+        },
+        "pergaminos de notas": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir locker",
+          "cont": '<span>Al tomar los pergaminos, pueden notarse que hay tres pergaminos con notas fechadas en orden cronológico.</span>',
+        },
+        "notas de febrero 1929": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "pergaminos de notas",
+          "cont": '<span><span class="book-clipping">Fecha: 12 de Abril de 1929. Cámara de la Sangre, Departamento de Misterios.<br><br>La muestra extraída del señor Edevane se niega a coagularse. Lleva tres semanas en un frasco sellado sobre mi escritorio y, si apago las luces, puedo ver cómo la espesa negrura palpita contra el cristal, imitando el ritmo de un corazón que ya no existe. Hoy decidí someterla a hechizos que he aprendido como nigromante. Lo que encontré no es una bacteria ni una bestia microscópica, sino un conjuro. Un hechizo que ha sido forzado a tomar una forma biológica.<br><br>El parásito no ataca los órganos de forma violenta. Se adhiere a la magia natural del torrente sanguíneo y la usa como combustible para bajar la temperatura interna del huésped. Se alimenta del calor vital y del oxígeno, dejando a su paso un rastro de escarcha negra. Por eso las venas de Edevane se cristalizaron. No murió de dolor; murió porque su cuerpo, sencillamente, creyó que era invierno y decidió apagarse para invernar. Es una magia elegante. Demasiado silenciosa.</span></span>',
+        },
+        "notas de noviembre 1932": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "pergaminos de notas",
+          "cont": '<span><span class="book-clipping">Fecha: 3 de Noviembre de 1932. Cámara de la Sangre.<br><br>He logrado aislar el encantamiento base separando la sangre maldita tras varios hechizos rúnicos. Esto no fue un veneno bebido ni una maldición lanzada a gritos en un callejón. Es un Parasitus Arcanum, una variante de magia de sangre muy antigua y deliberada.<br><br>Para generar algo así, el lanzador tuvo que usar la transmutación. Tomó una emoción densa (odio o un sentido de protección sumamente retorcido), la ató a un filamento de magia oscura y la incubó dentro de un objeto físico cercano a la víctima. Al entrar en contacto prolongado con Edevane, el objeto comenzó a transpirar esta magia hacia sus poros, introduciendo el "parásito" en su sistema. Una vez dentro, el hechizo cobra consciencia biológica: se multiplica, teje raíces de hielo en las arterias y asfixia lentamente. Quien haya creado esto no quería venganza rápida; quería la certeza de una muerte que pasara por fatiga.</span></span>',
+        },
+        "notas de noviembre 1932": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "pergaminos de notas",
+          "cont": '<span><span class="book-clipping">Fecha: 16 de Noviembre de 1934. Cámara de la Sangre.<br><br>He cometido un error de cálculo que me cuesta admitir. Pensé que el parásito moriría de inanición al no tener un huésped vivo del cual alimentarse. Pero los hechizos de este calibre no mueren; quedan en un estado de hibernación, esperando una nueva fuente de calor.<br><br>Ayer, al cambiar el sello del frasco, el cristal se agrietó apenas una fracción de segundo. Fue suficiente. Sentí un pinchazo frío en la yema del dedo índice, como la picadura de una aguja de hielo. Hoy, al mirarme al espejo, he notado que las venas de mi cuello tienen un inusual tono ceniciento. Mis manos ya no entran en calor, ni siquiera acercándolas a la chimenea. El parásito ha encontrado una nueva casa. Es fascinante, en cierto modo macabro, observar el progreso en primera persona. Siento cómo mis órganos comienzan a ralentizarse, marchitándose en completo silencio, tal como le pasó a Edevane. Sellaré estas notas junto con la muestra original. Si alguien del archivo entra aquí cuando yo ya sea polvo y escarcha, espero que tenga el buen juicio de usar guantes gruesos. El letargo es pacífico, pero no planeo compartirlo. Antes de ir al hospital, buscaré sellar el frasco.</span></span>',
+        },
+        "información del hechizo": {
+          "visible": { "attr": { "val": "min" }, "know": { "magia oscura": "10" }, "job": "invalid", "name": "invalid", }, "place": "notas de noviembre 1932",
+          "cont": '<span>El personaje puede brindar la información del hechizo que se encuentra bajo el filtro de magia oscura en la lista de hechizos y habilidades.</span>',
+        },
+      },
+
       "actions": {},
     },
     // tying loose ends
@@ -8795,7 +8862,7 @@ const MissionsModule = (function () {
         },
         "paso #2: ir al este": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso2",
-          "cont": '<span>Al avanzar hacia el Este, los personajes se topan con 2 hodags que custodian el paso con desconfianza. No podrán validar la dirección correcta hasta que no se enfrenten a los mismos. En caso de que el dado de esta tarjeta sea par, los hodags atacan primero y de manera inmediata.</span>',
+          "cont": '<span>Al avanzar hacia el Este, los personajes se topan con 2 hodags que custodian el paso con desconfianza. No podrán validar la dirección correcta hasta que no solucionen el conflicto con los mismos. En caso de que el dado de esta tarjeta sea par, los hodags atacan primero y de manera inmediata.</span>',
         },
         "validar paso #2 dirección este": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #2: ir al este",
@@ -8829,7 +8896,7 @@ const MissionsModule = (function () {
         },
         "paso #3: ir al este": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso3",
-          "cont": '<span>Al avanzar hacia el Este, los personajes se encuentran con 3 kneazles que observan con desconfianza a los intrusos. No podrán validar la dirección correcta hasta que no se enfrenten a los mismos. En caso de que el dado de esta tarjeta sea positivo, los kneazles atacan primero y de manera inmediata.</span>',
+          "cont": '<span>Al avanzar hacia el Este, los personajes se encuentran con 3 kneazles que observan con desconfianza a los intrusos. No podrán validar la dirección correcta hasta que no solucionen el conflicto con los mismos. En caso de que el dado de esta tarjeta sea positivo, los kneazles atacan primero y de manera inmediata.</span>',
         },
         "validar paso #3 dirección este": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #3: ir al este",
@@ -8855,7 +8922,7 @@ const MissionsModule = (function () {
         },
         "paso #4: ir al norte": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso4",
-          "cont": '<span>Al avanzar hacia el Norte, los personajes se topan con 4 mokes posados sobre una rama incandescente, vigilando el paso. No podrán validar la dirección correcta hasta que no se enfrenten a los mismos. En caso de que el dado de esta tarjeta sea positivo, los mokes atacan primero y de manera inmediata.</span>',
+          "cont": '<span>Al avanzar hacia el Norte, los personajes se topan con 4 mokes posados sobre una rama incandescente, vigilando el paso. No podrán validar la dirección correcta hasta que no solucionen el conflicto con los mismos. En caso de que el dado de esta tarjeta sea positivo, los mokes atacan primero y de manera inmediata.</span>',
         },
         "validar paso #4 dirección norte": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #4: ir al norte",
@@ -9050,7 +9117,7 @@ const MissionsModule = (function () {
         },
         "paso #1: ir al sur": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso1",
-          "cont": '<span>Al avanzar a dirección Sur, los personajes se encuentran con 5 doxys. No podrán validar la dirección correcta hasta que no se enfrenten a los mismos. En caso de que el dado de esta tarjeta sea par, los doxys atacan primero y de manera inmediata.<adding class="check-cards" search="reg. largada"></adding></span>',
+          "cont": '<span>Al avanzar a dirección Sur, los personajes se encuentran con 5 doxys. No podrán validar la dirección correcta hasta que no solucionen el conflicto con los mismos. En caso de que el dado de esta tarjeta sea par, los doxys atacan primero y de manera inmediata.<adding class="check-cards" search="reg. largada"></adding></span>',
         },
         "validar paso #1 dirección sur": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #1: ir al sur",
@@ -9076,7 +9143,7 @@ const MissionsModule = (function () {
         },
         "paso #2: ir al norte": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso2",
-          "cont": '<span>Al avanzar hacia el Norte, los personajes se encuentran con 3 cangrejos de fuego que despiden chispazos al moverse entre las piedras. No podrán validar la dirección correcta hasta que no se enfrenten a los mismos. En caso de que el dado de esta tarjeta sea par, los cangrejos de fuego atacan primero y de manera inmediata.</span>',
+          "cont": '<span>Al avanzar hacia el Norte, los personajes se encuentran con 3 cangrejos de fuego que despiden chispazos al moverse entre las piedras. No podrán validar la dirección correcta hasta que no solucionen el conflicto con los mismos. En caso de que el dado de esta tarjeta sea par, los cangrejos de fuego atacan primero y de manera inmediata.</span>',
         },
         "validar paso #2 dirección norte": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #2: ir al norte",
@@ -9110,7 +9177,7 @@ const MissionsModule = (function () {
         },
         "paso #3: ir al norte": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso3",
-          "cont": '<span>Al avanzar hacia el Norte, los personajes se encuentran con 2 streelers que dejan un rastro plateado y resbaladizo a su paso. No podrán validar la dirección correcta hasta que no se enfrenten a los mismos. En caso de que el dado de esta tarjeta sea positivo, los streelers atacan primero y de manera inmediata.',
+          "cont": '<span>Al avanzar hacia el Norte, los personajes se encuentran con 2 streelers que dejan un rastro plateado y resbaladizo a su paso. No podrán validar la dirección correcta hasta que no solucionen el conflicto con los mismos. En caso de que el dado de esta tarjeta sea positivo, los streelers atacan primero y de manera inmediata.',
         },
         "validar paso #3 dirección norte": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #3: ir al norte",
@@ -9144,7 +9211,7 @@ const MissionsModule = (function () {
         },
         "paso #4: ir al norte": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso4",
-          "cont": '<span>Al avanzar hacia el Norte, los personajes se encuentran con 4 cangrejos de fuego, más numerosos que antes, dejando un rastro de chispas en la tierra. No podrán validar la dirección correcta hasta que no se enfrenten a los mismos. En caso de que el dado de esta tarjeta sea par, los cangrejos de fuego atacan primero y de manera inmediata.</span>',
+          "cont": '<span>Al avanzar hacia el Norte, los personajes se encuentran con 4 cangrejos de fuego, más numerosos que antes, dejando un rastro de chispas en la tierra. No podrán validar la dirección correcta hasta que no solucionen el conflicto con los mismos. En caso de que el dado de esta tarjeta sea par, los cangrejos de fuego atacan primero y de manera inmediata.</span>',
         },
         "validar paso #4 dirección norte": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #4: ir al norte",
@@ -9333,7 +9400,7 @@ const MissionsModule = (function () {
         },
         "paso #1: ir al sur": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso1",
-          "cont": '<span>Al avanzar a dirección Sur, los personajes se encuentran con 6 crups. No podrán validar la dirección correcta hasta que no se enfrenten a los mismos. En caso de que el dado de esta tarjeta sea par, los crups atacan primero y de manera inmediata.<adding class="check-cards" search="reg. largada"></adding></span>',
+          "cont": '<span>Al avanzar a dirección Sur, los personajes se encuentran con 6 crups. No podrán validar la dirección correcta hasta que no solucionen el conflicto con los mismos. En caso de que el dado de esta tarjeta sea par, los crups atacan primero y de manera inmediata.<adding class="check-cards" search="reg. largada"></adding></span>',
         },
         "validar paso #1 dirección sur": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #1: ir al sur",
@@ -9375,7 +9442,7 @@ const MissionsModule = (function () {
         },
         "paso #2: ir al oeste": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso2",
-          "cont": '<span>Al avanzar hacia el Oeste, los personajes se encuentran con 4 bundimuns que cubren las raíces de los árboles con su limo corrosivo. No podrán validar la dirección correcta hasta que no se enfrenten a los mismos. En caso de que el dado de esta tarjeta sea positivo, los bundimuns atacan primero y de manera inmediata.',
+          "cont": '<span>Al avanzar hacia el Oeste, los personajes se encuentran con 4 bundimuns que cubren las raíces de los árboles con su limo corrosivo. No podrán validar la dirección correcta hasta que no solucionen el conflicto con los mismos. En caso de que el dado de esta tarjeta sea positivo, los bundimuns atacan primero y de manera inmediata.',
         },
         "validar paso #2 dirección oeste": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #2: ir al oeste",
@@ -9401,7 +9468,7 @@ const MissionsModule = (function () {
         },
         "paso #3: ir al sur": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso3",
-          "cont": '<span>Al avanzar hacia el Sur, los personajes se encuentran con 3 mackled malaclaws que arrastran sus pinzas asimétricas sobre las raíces. No podrán validar la dirección correcta hasta que no se enfrenten a los mismos. En caso de que el dado de esta tarjeta sea par, los mackled malaclaws atacan primero y de manera inmediata.</span>',
+          "cont": '<span>Al avanzar hacia el Sur, los personajes se encuentran con 3 mackled malaclaws que arrastran sus pinzas asimétricas sobre las raíces. No podrán validar la dirección correcta hasta que no solucionen el conflicto con los mismos. En caso de que el dado de esta tarjeta sea par, los mackled malaclaws atacan primero y de manera inmediata.</span>',
         },
         "validar paso #3 dirección sur": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #3: ir al sur",
@@ -9427,7 +9494,7 @@ const MissionsModule = (function () {
         },
         "paso #4: ir al norte": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso4",
-          "cont": '<span>Al avanzar hacia el Norte, los personajes se encuentran con 3 snidgets que esquivan con rapidez entre las ramas más altas. No podrán validar la dirección correcta hasta que no se enfrenten a los mismos. En caso de que el dado de esta tarjeta sea positivo, los snidgets atacan primero y de manera inmediata.</span>',
+          "cont": '<span>Al avanzar hacia el Norte, los personajes se encuentran con 3 snidgets que esquivan con rapidez entre las ramas más altas. No podrán validar la dirección correcta hasta que no solucionen el conflicto con los mismos. En caso de que el dado de esta tarjeta sea positivo, los snidgets atacan primero y de manera inmediata.</span>',
         },
         "validar paso #4 dirección norte": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #4: ir al norte",
@@ -9622,7 +9689,7 @@ const MissionsModule = (function () {
         },
         "paso #1: ir al sur": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso1",
-          "cont": '<span>Al avanzar a dirección Sur, los personajes se encuentran con 8 fwoopers. No podrán validar la dirección correcta hasta que no se enfrenten a los mismos. En caso de que el dado de esta tarjeta sea par, los fwoopers atacan primero y de manera inmediata.<adding class="check-cards" search="reg. largada"></adding></span>',
+          "cont": '<span>Al avanzar a dirección Sur, los personajes se encuentran con 8 fwoopers. No podrán validar la dirección correcta hasta que no solucionen el conflicto con los mismos. En caso de que el dado de esta tarjeta sea par, los fwoopers atacan primero y de manera inmediata.<adding class="check-cards" search="reg. largada"></adding></span>',
         },
         "validar paso #1 dirección sur": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #1: ir al sur",
@@ -9656,7 +9723,7 @@ const MissionsModule = (function () {
         },
         "paso #2: ir al este": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso2",
-          "cont": '<span>Al avanzar hacia el Este, los personajes se encuentran con 4 glumbumbles que flotan despacio, dejando caer gotas de melancolía a su paso. No podrán validar la dirección correcta hasta que no se enfrenten a los mismos. En caso de que el dado de esta tarjeta sea positivo, los glumbumbles atacan primero y de manera inmediata.</span>',
+          "cont": '<span>Al avanzar hacia el Este, los personajes se encuentran con 4 glumbumbles que flotan despacio, dejando caer gotas de melancolía a su paso. No podrán validar la dirección correcta hasta que no solucionen el conflicto con los mismos. En caso de que el dado de esta tarjeta sea positivo, los glumbumbles atacan primero y de manera inmediata.</span>',
         },
         "validar paso #2 dirección este": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #2: ir al este",
@@ -9690,7 +9757,7 @@ const MissionsModule = (function () {
         },
         "paso #3: ir al este": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso3",
-          "cont": '<span>Al avanzar hacia el Este, los personajes se encuentran con 2 salamandras de fuego que dejan pequeñas llamas a su paso entre la hojarasca seca. No podrán validar la dirección correcta hasta que no se enfrenten a los mismos. En caso de que el dado de esta tarjeta sea par, las salamandras de fuego atacan primero y de manera inmediata.</span>',
+          "cont": '<span>Al avanzar hacia el Este, los personajes se encuentran con 2 salamandras de fuego que dejan pequeñas llamas a su paso entre la hojarasca seca. No podrán validar la dirección correcta hasta que no solucionen el conflicto con los mismos. En caso de que el dado de esta tarjeta sea par, las salamandras de fuego atacan primero y de manera inmediata.</span>',
         },
         "validar paso #3 dirección este": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #3: ir al este",
@@ -9716,7 +9783,7 @@ const MissionsModule = (function () {
         },
         "paso #4: ir al norte": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso4",
-          "cont": '<span>Al avanzar hacia el Norte, los personajes se encuentran con 2 hipocampos que nadan agitados en un estanque que bloquea el paso. No podrán validar la dirección correcta hasta que no se enfrenten a los mismos. En caso de que el dado de esta tarjeta sea positivo, los hipocampos atacan primero y de manera inmediata.</span>',
+          "cont": '<span>Al avanzar hacia el Norte, los personajes se encuentran con 2 hipocampos que nadan agitados en un estanque que bloquea el paso. No podrán validar la dirección correcta hasta que no solucionen el conflicto con los mismos. En caso de que el dado de esta tarjeta sea positivo, los hipocampos atacan primero y de manera inmediata.</span>',
         },
         "validar paso #4 dirección norte": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #4: ir al norte",
@@ -9919,7 +9986,7 @@ const MissionsModule = (function () {
         },
         "paso #1: ir al oeste": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso1",
-          "cont": '<span>Al avanzar a dirección Oeste, los personajes se encuentran con 10 duendecillos de Cornualles. No podrán validar la dirección correcta hasta que no se enfrenten a los mismos. En caso de que el dado de esta tarjeta sea par, los duendecillos atacan primero y de manera inmediata.<adding class="check-cards" search="reg. largada"></adding></span>',
+          "cont": '<span>Al avanzar a dirección Oeste, los personajes se encuentran con 10 duendecillos de Cornualles. No podrán validar la dirección correcta hasta que no solucionen el conflicto con los mismos. En caso de que el dado de esta tarjeta sea par, los duendecillos atacan primero y de manera inmediata.<adding class="check-cards" search="reg. largada"></adding></span>',
         },
         "validar paso #1 dirección oeste": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #1: ir al oeste",
@@ -9937,7 +10004,7 @@ const MissionsModule = (function () {
         },
         "paso #2: ir al sur": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso2",
-          "cont": '<span>Al avanzar a dirección Sur, los personajes se encuentran con 3 tebos. No podrán validar la dirección correcta hasta que no se enfrenten a los mismos. En caso de que el dado de esta tarjeta sea positivo, los tebos atacan primero y de manera inmediata.</span>',
+          "cont": '<span>Al avanzar a dirección Sur, los personajes se encuentran con 3 tebos. No podrán validar la dirección correcta hasta que no solucionen el conflicto con los mismos. En caso de que el dado de esta tarjeta sea positivo, los tebos atacan primero y de manera inmediata.</span>',
         },
         "validar paso #2 dirección este": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso2e",
@@ -9979,7 +10046,7 @@ const MissionsModule = (function () {
         },
         "paso #3: ir al este": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso3",
-          "cont": '<span>Al avanzar hacia el Este, los personajes se encuentran con 2 plimpys que se desplazan sobre sus patas palmeadas entre los charcos del camino. No podrán validar la dirección correcta hasta que no se enfrenten a los mismos. En caso de que el dado de esta tarjeta sea par, los plimpys atacan primero y de manera inmediata.</span>',
+          "cont": '<span>Al avanzar hacia el Este, los personajes se encuentran con 2 plimpys que se desplazan sobre sus patas palmeadas entre los charcos del camino. No podrán validar la dirección correcta hasta que no solucionen el conflicto con los mismos. En caso de que el dado de esta tarjeta sea par, los plimpys atacan primero y de manera inmediata.</span>',
         },
         "validar paso #3 dirección este": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #3: ir al este",
@@ -10005,7 +10072,7 @@ const MissionsModule = (function () {
         },
         "paso #4: ir al norte": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso4",
-          "cont": '<span>Al avanzar hacia el Norte, los personajes se encuentran con 4 knarls, más numerosos que antes, erizando sus púas entre las raíces. No podrán validar la dirección correcta hasta que no se enfrenten a los mismos. En caso de que el dado de esta tarjeta sea par, los knarls atacan primero y de manera inmediata.',
+          "cont": '<span>Al avanzar hacia el Norte, los personajes se encuentran con 4 knarls, más numerosos que antes, erizando sus púas entre las raíces. No podrán validar la dirección correcta hasta que no solucionen el conflicto con los mismos. En caso de que el dado de esta tarjeta sea par, los knarls atacan primero y de manera inmediata.',
         },
         "validar paso #4 dirección norte": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #4: ir al norte",
@@ -10208,7 +10275,7 @@ const MissionsModule = (function () {
         },
         "paso #1: ir al oeste": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso1",
-          "cont": '<span>Al avanzar a dirección Oeste, los personajes se encuentran con 6 murtlaps. No podrán validar la dirección correcta hasta que no se enfrenten a los mismos. En caso de que el dado de esta tarjeta sea par, los murtlaps atacan primero y de manera inmediata.<adding class="check-cards" search="reg. largada"></adding></span>',
+          "cont": '<span>Al avanzar a dirección Oeste, los personajes se encuentran con 6 murtlaps. No podrán validar la dirección correcta hasta que no solucionen el conflicto con los mismos. En caso de que el dado de esta tarjeta sea par, los murtlaps atacan primero y de manera inmediata.<adding class="check-cards" search="reg. largada"></adding></span>',
         },
         "validar paso #1 dirección oeste": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #1: ir al oeste",
@@ -10242,7 +10309,7 @@ const MissionsModule = (function () {
         },
         "paso #2: ir al oeste": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso2",
-          "cont": '<span>Al avanzar hacia el Oeste, los personajes se encuentran con 4 lolabugs que iluminan tenuemente el camino con su brillo natural. No podrán validar la dirección correcta hasta que no se enfrenten a los mismos. En caso de que el dado de esta tarjeta sea positivo, los lolabugs atacan primero y de manera inmediata.</span>',
+          "cont": '<span>Al avanzar hacia el Oeste, los personajes se encuentran con 4 lolabugs que iluminan tenuemente el camino con su brillo natural. No podrán validar la dirección correcta hasta que no solucionen el conflicto con los mismos. En caso de que el dado de esta tarjeta sea positivo, los lolabugs atacan primero y de manera inmediata.</span>',
         },
         "validar paso #2 dirección oeste": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #2: ir al oeste",
@@ -10268,7 +10335,7 @@ const MissionsModule = (function () {
         },
         "paso #3: ir al sur": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso3",
-          "cont": '<span>Al avanzar hacia el Sur, los personajes se encuentran con 5 jarveys que husmean entre las flores silvestres del camino. No podrán validar la dirección correcta hasta que no se enfrenten a los mismos. En caso de que el dado de esta tarjeta sea par, los jarveys atacan primero y de manera inmediata.</span>',
+          "cont": '<span>Al avanzar hacia el Sur, los personajes se encuentran con 5 jarveys que husmean entre las flores silvestres del camino. No podrán validar la dirección correcta hasta que no solucionen el conflicto con los mismos. En caso de que el dado de esta tarjeta sea par, los jarveys atacan primero y de manera inmediata.</span>',
         },
         "validar paso #3 dirección sur": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #3: ir al sur",
@@ -10294,7 +10361,7 @@ const MissionsModule = (function () {
         },
         "paso #4: ir al norte": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso4",
-          "cont": '<span>Al avanzar hacia el Norte, los personajes se encuentran con 3 occamys que despliegan sus alas plateadas entre las ramas más altas. No podrán validar la dirección correcta hasta que no se enfrenten a los mismos. En caso de que el dado de esta tarjeta sea positivo, los occamys atacan primero y de manera inmediata.</span>',
+          "cont": '<span>Al avanzar hacia el Norte, los personajes se encuentran con 3 occamys que despliegan sus alas plateadas entre las ramas más altas. No podrán validar la dirección correcta hasta que no solucionen el conflicto con los mismos. En caso de que el dado de esta tarjeta sea positivo, los occamys atacan primero y de manera inmediata.</span>',
         },
         "validar paso #4 dirección norte": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #4: ir al norte",
