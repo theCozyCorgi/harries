@@ -4847,7 +4847,7 @@ const MissionsModule = (function () {
       "image": "https://i.imgur.com/9tQNGVG.png", "requisitos": ["Un personaje deberá ser miembro del Departamento de Seguridad"],
       "users": ["c/u150", "/u97", "/u9", "/u156"],
       "dependency": [],
-      "type": "investigación", "closed": false, "link": "", "tagged": ["original"],
+      "type": "investigación", "closed": false, "link": "https://blackwave.foroactivo.com/t1320-investigacion-tying-loose-ends", "tagged": ["original"],
 
       "cards": [],
 
