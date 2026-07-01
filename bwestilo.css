@@ -6300,8 +6300,6 @@ userdata[target="multicuentas"] a { padding: 0px !important; flex-grow: 0 !impor
 .cleaning-day a {
   counter-increment: item;
   font: var(--style-link) !important;
-  font-size: 13px !important;
-  line-height: normal !important;
 }
 
 .cleaning-day a:before { content: counter(item) '. '; }
