@@ -2019,7 +2019,7 @@ const MissionsModule = (function () {
     "the price of silence": {
       "description": "El animal al que pertenece la toxina, es propio del suroeste asiático, pero aquello no es lo más exótico, sino que su compra y venta de veneno es ilegal. La investigación se mueve hacia algún contrabandista que quiera dar la información sobre dónde puede conseguirse dicho ingrediente para generar el veneno que, aparentemente, ha acabado con la vida de Sirius Black.",
       "image": "https://2img.net/i.imgur.com/GfHnpgi.png", "requisitos": ["un miembro del departamento del Seguridad Mágica", "Un personaje con Contrabando en Avanzado"],
-      "users": ["/u146"],
+      "users": ["/u134"],
       "dependency": ["ryu's breath"],
       "type": "misión", "closed": false, "link": "", "tagged": ["sirius", "capitulo 0"],
 
@@ -2508,7 +2508,7 @@ const MissionsModule = (function () {
     "through the green abyss": {
       "description": "Siguiendo los mapas encontrados en el estudio de Sirius y las indicaciones del alquimista. Es necesario adentrarse a uno de los lugares más peligrosos del mundo mágico: o Coração do Curupira (El corazón del Curupira). Una de las partes más espesas de la selva brasilera que dicen que está protegida por el mismo Curupira.",
       "image": "https://2img.net/i.imgur.com/c4omOwT.png", "requisitos": ["Un miembro debe tener CCM en Avanzado", "Un miembro del Dpto de Seguridad Mágica"],
-      "users": [],
+      "users": ["/u159"],
       "dependency": ["the lupine killer", "in search of the deadly hallows"],
       "type": "misión", "closed": false, "link": "", "tagged": ["sirius", "capitulo 0"],
 
