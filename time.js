@@ -12,22 +12,20 @@ let ambientMonth;
 
 /**
  * Calcula la fecha On-Rol basada en el tiempo transcurrido Off-Rol.
- * Proporción: 1 mes Off-Rol = 6 meses On-Rol.
  */
 function calculateAmbientDate() {
     const currentDate = new Date();
     
-    // 1. Calculamos la diferencia de meses reales
-    // (Años de diferencia * 12) + diferencia de meses
-    const realMonthsPassed = (currentDate.getFullYear() - forumOpeningDate.getFullYear()) * 12 + (currentDate.getMonth() - forumOpeningDate.getMonth());
+    // 1. Calculamos la diferencia TOTAL de meses reales desde que la niebla cubrió el foro
+    const realMonthsPassed = (currentDate.getFullYear() - forumOpeningDate.getFullYear()) * 12 
+                           + (currentDate.getMonth() - forumOpeningDate.getMonth());
     
-    // 2. Aplicamos tu lógica de avance: cada 2 meses reales pasan 6 meses on-rol (o 1 real = 3 on-rol)
-    // Según tu código original: yearsInMonth (años * 6) + meses/2
-    const yearsDiff = currentDate.getFullYear() - forumOpeningDate.getFullYear();
-    const monthsSince = Math.trunc((currentDate.getMonth() - forumOpeningDate.getMonth()) / 2);
-    const monthsToAdvance = (yearsDiff * 6) + monthsSince;
+    // 2. Aplicamos la lógica de avance inquebrantable
+    // Al sumar 1 antes de dividir y redondear hacia abajo, forzamos a que 
+    // pares de meses (ej. Agosto/Septiembre) caigan en la misma ranura del mes On-Rol.
+    const monthsToAdvance = Math.floor((realMonthsPassed + 1) / 2);
 
-    // 3. Seteamos la fecha ambiente
+    // 3. Seteamos la fecha ambiente y dejamos que el objeto Date maneje el cambio de año
     currentAmbientDate = new Date(initialAmbientDate);
     currentAmbientDate.setMonth(initialAmbientDate.getMonth() + monthsToAdvance);
     
