@@ -4837,6 +4837,18 @@ const MissionsModule = (function () {
           "exitoso": '<span>Permite iluminar el pasillo y la puerta que se encuentra al final del mismo.<adding class="check-cards" search="puerta"></adding></span>',
           "critico": '<span>Permite iluminar el pasillo y la puerta que se encuentra al final del mismo.<adding class="check-cards" search="puerta"></adding></span>',
         },
+        "computus": {
+          "leve": '<span>No es suficiente para revelar información.</span>',
+          "moderado": '<span>Permite obtener la cantidad de Esculturas, Pinturas o Artefactos. Solicitar a la administración uno de los valores.</span>',
+          "exitoso": '<span>Permite obtener la cantidad de Esculturas, Pinturas o Artefactos. Solicitar a la administración uno de los valores.</span>',
+          "critico": '<span>Permite obtener la cantidad de Esculturas, Pinturas o Artefactos. Solicitar a la administración uno de los valores.</span>',
+        },
+        "iteratio perfectum": {
+          "leve": '<span>No es suficiente para revelar información.</span>',
+          "moderado": '<span>Permite lanzar dos tarjetas en un mismo post durante 1 ronda.</span>',
+          "exitoso": '<span>Permite lanzar dos tarjetas en un mismo post durante 2 ronda.</span>',
+          "critico": '<span>Permite lanzar dos tarjetas en un mismo post durante 3 ronda.</span>',
+        },
 
       },
     },
