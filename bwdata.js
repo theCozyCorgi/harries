@@ -4839,9 +4839,9 @@ const MissionsModule = (function () {
         },
         "computus": {
           "leve": '<span>No es suficiente para revelar información.</span>',
-          "moderado": '<span>Permite obtener la cantidad de Esculturas, Pinturas o Artefactos. Solicitar a la administración uno de los valores.</span>',
-          "exitoso": '<span>Permite obtener la cantidad de Esculturas, Pinturas o Artefactos. Solicitar a la administración uno de los valores.</span>',
-          "critico": '<span>Permite obtener la cantidad de Esculturas, Pinturas o Artefactos. Solicitar a la administración uno de los valores.</span>',
+          "moderado": '<span>Permite obtener la cantidad de Esculturas, Pinturas o Artefactos. Solicitar a la administración uno de los valores. Una vez que se tengan los tres valores, solicitar intervención de la administración.</span>',
+          "exitoso": '<span>Permite obtener la cantidad de Esculturas, Pinturas o Artefactos. Solicitar a la administración uno de los valores. Una vez que se tengan los tres valores, solicitar intervención de la administración.</span>',
+          "critico": '<span>Permite obtener la cantidad de Esculturas, Pinturas o Artefactos. Solicitar a la administración uno de los valores. Una vez que se tengan los tres valores, solicitar intervención de la administración.</span>',
         },
         "iteratio perfectum": {
           "leve": '<span>No es suficiente para revelar información.</span>',
