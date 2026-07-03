@@ -4846,8 +4846,8 @@ const MissionsModule = (function () {
         "iteratio perfectum": {
           "leve": '<span>No es suficiente para revelar información.</span>',
           "moderado": '<span>Permite lanzar dos tarjetas en un mismo post durante 1 ronda.</span>',
-          "exitoso": '<span>Permite lanzar dos tarjetas en un mismo post durante 2 ronda.</span>',
-          "critico": '<span>Permite lanzar dos tarjetas en un mismo post durante 3 ronda.</span>',
+          "exitoso": '<span>Permite lanzar dos tarjetas en un mismo post durante 2 rondas.</span>',
+          "critico": '<span>Permite lanzar dos tarjetas en un mismo post durante 3 rondas.</span>',
         },
 
       },
