@@ -9743,7 +9743,7 @@ const MissionsModule = (function () {
         },
         "paso #2: ir al oeste": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso2",
-          "cont": '<span>Al avanzar hacia el Oeste, el suelo vibra marcando que se han encontrado con un desafío. Una burbuja aparece alrededor de los personajes junto con una puerta de madera y el siguiente acertijo se escribe en la misma: "La fibra vegetal en hilo se convierte; tejido y cuerda nacen de mi suerte. La planta da más de lo que aparenta: soy quien la convierte en hebra que no se ahuyenta."</span>',
+          "cont": '<span>Al avanzar hacia el Oeste, el suelo vibra marcando que se han encontrado con un desafío. Una burbuja aparece alrededor de los personajes junto con una puerta de madera y el siguiente acertijo se escribe en la misma: "La madera astillada se vuelve blanda al toque; ninguna púa hiere, ningún filo te azoque. Cruzas sin arañarte, avanzas sin temor: soy quien suaviza todo lo que da dolor."</span>',
         },
         "validar paso #2 dirección oeste": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso2o",
@@ -9803,7 +9803,7 @@ const MissionsModule = (function () {
         },
         "paso #4: ir al este": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso4",
-          "cont": '<span>Al avanzar hacia el Este, el suelo vibra marcando que se han encontrado con un desafío. Una burbuja aparece alrededor de los personajes y el siguiente acertijo se escribe en la misma: "El espíritu ronda y nadie lo ve ni lo escucha; yo lo detecto en su silenciosa lucha. No lo atrapo ni lo daño, solo lo revelo: soy el ojo que lee el espectral velo."</span>',
+          "cont": '<span>Al avanzar hacia el Este, el suelo vibra marcando que se han encontrado con un desafío. Una burbuja aparece alrededor de los personajes y el siguiente acertijo se escribe en la misma: "El tronco partido vuelve a ser entero; las grietas del camino las cierro primero. No solo los objetos, también las rutas rotas: soy quien restaura lo que el tiempo agota."</span>',
         },
         "validar paso #4 dirección este": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso4e",
@@ -9829,7 +9829,7 @@ const MissionsModule = (function () {
         },
         "paso #5: ir al norte": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso5",
-          "cont": '<span>Al avanzar hacia el Norte, el suelo vibra marcando que se han encontrado con un desafío. Una burbuja aparece alrededor de los personajes y el siguiente acertijo se escribe en la misma: "La visión del vidente es fugaz como el viento; yo la capturo y la encierro con sustento. En cristal la guardo atada a sus dueños: soy el sello de los más profundos sueños."</span>',
+          "cont": '<span>Al avanzar hacia el Norte, el suelo vibra marcando que se han encontrado con un desafío. Una burbuja aparece alrededor de los personajes y el siguiente acertijo se escribe en la misma: "El instante perdido lo traigo de regreso; lo que ocurrió antes lo revelo sin exceso. No adivino el futuro, solo miro hacia atrás: soy quien devuelve lo que el tiempo da más."</span>',
         },
         "validar paso #5 dirección norte": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso5n",
@@ -9905,7 +9905,7 @@ const MissionsModule = (function () {
           "exitoso": '<span>El conjuro extrae el polen tóxico de la planta venenosa del Norte sin destruirla, neutralizando su aroma. Resuelve el desafío de terreno "paso #2: ir al norte".<adding class="check-cards" search="paso2n"></adding></span>',
           "critico": '<span>El conjuro extrae el polen tóxico de la planta venenosa del Norte sin destruirla, neutralizando su aroma. Resuelve el desafío de terreno "paso #2: ir al norte".<adding class="check-cards" search="paso2n"></adding></span>',
         },
-        "herbis filum": {
+        "spongify": {
           "leve": '<span>No es suficiente para revelar información</span>',
           "moderado": '<span>Resuelve el acertijo "paso #2: ir al oeste".<adding class="check-cards" search="paso2o"></adding></span>',
           "exitoso": '<span>Resuelve el acertijo "paso #2: ir al oeste".<adding class="check-cards" search="paso2o"></adding></span>',
@@ -9923,7 +9923,7 @@ const MissionsModule = (function () {
           "exitoso": '<span>El conjuro une temporalmente las dos rocas separadas del Sur, formando un puente improvisado lo bastante firme para cruzar. Resuelve el desafío de terreno "paso #3: ir al sur".<adding class="check-cards" search="paso3s"></adding></span>',
           "critico": '<span>El conjuro une temporalmente las dos rocas separadas del Sur, formando un puente improvisado lo bastante firme para cruzar. Resuelve el desafío de terreno "paso #3: ir al sur".<adding class="check-cards" search="paso3s"></adding></span>',
         },
-        "animas revelo": {
+        "reparo": {
           "leve": '<span>No es suficiente para revelar información</span>',
           "moderado": '<span>Resuelve el acertijo "paso #4: ir al este".<adding class="check-cards" search="paso4e"></adding></span>',
           "exitoso": '<span>Resuelve el acertijo "paso #4: ir al este".<adding class="check-cards" search="paso4e"></adding></span>',
@@ -9935,7 +9935,7 @@ const MissionsModule = (function () {
           "exitoso": '<span>El conjuro eleva a los personajes por los aires, permitiéndoles cruzar el foso profundo del Oeste sin caer en él. Resuelve el desafío de terreno "paso #4: ir al oeste".<adding class="check-cards" search="paso4o"></adding></span>',
           "critico": '<span>El conjuro eleva a los personajes por los aires, permitiéndoles cruzar el foso profundo del Oeste sin caer en él. Resuelve el desafío de terreno "paso #4: ir al oeste".<adding class="check-cards" search="paso4o"></adding></span>',
         },
-        "factum signa": {
+        "tempus revela": {
           "leve": '<span>No es suficiente para revelar información</span>',
           "moderado": '<span>Resuelve el acertijo "paso #5: ir al norte".<adding class="check-cards" search="paso5n"></adding></span>',
           "exitoso": '<span>Resuelve el acertijo "paso #5: ir al norte".<adding class="check-cards" search="paso5n"></adding></span>',
@@ -10024,7 +10024,7 @@ const MissionsModule = (function () {
         },
         "paso #2: ir al este": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso2",
-          "cont": '<span>Al avanzar hacia el Este, el suelo vibra marcando que se han encontrado con un desafío. Una burbuja aparece alrededor de los personajes junto con una puerta de madera y el siguiente acertijo se escribe en la misma: "Soy el centro oculto de todo espacio mágico; el nodo de poder es mi encuentro trágico. Donde la magia se dobla y se distorsiona, ahí me llaman a revelar la zona."</span>',
+          "cont": '<span>Al avanzar hacia el Este, el suelo vibra marcando que se han encontrado con un desafío. Una burbuja aparece alrededor de los personajes junto con una puerta de madera y el siguiente acertijo se escribe en la misma: "Las luces del hombre borran las luces del cielo; yo las apago sin apagar ningún vuelo. Las estrellas vuelven a hablar en la penumbra: soy quien devuelve al firmamento su costumbre."</span>',
         },
         "validar paso #2 dirección sur": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #2: ir al sur",
@@ -10188,7 +10188,7 @@ const MissionsModule = (function () {
           "exitoso": '<span>Permite calmar a las criaturas presentes siempre que sean controlables.</span>',
           "critico": '<span>Permite calmar a las criaturas presentes siempre que sean controlables.</span>',
         },
-        "orbis umbilicis": {
+        "noctis luminis": {
           "leve": '<span>No es suficiente para revelar información</span>',
           "moderado": '<span>Resuelve el acertijo "paso #2: ir al sur".<adding class="check-cards" search="paso2s"></adding></span>',
           "exitoso": '<span>Resuelve el acertijo "paso #2: ir al sur".<adding class="check-cards" search="paso2s"></adding></span>',
@@ -10313,7 +10313,7 @@ const MissionsModule = (function () {
         },
         "paso #2: ir al sur": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso2",
-          "cont": '<span>Al avanzar hacia el Sur, los personajes encuentran un espíritu travieso que enreda y desordena todo lo que encuentra en el camino, atando ramas y haciendo nudos imposibles en cada arbusto.</span>',
+          "cont": '<span>Al avanzar hacia el Sur, los personajes se encuentran con un sendero cubierto de troncos caídos que impiden el paso.</span>',
         },
         "validar paso #2 dirección sur": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #2: ir al sur",
@@ -10339,7 +10339,7 @@ const MissionsModule = (function () {
         },
         "paso #3: ir al norte": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso3",
-          "cont": '<span>Al avanzar hacia el Norte, el suelo vibra marcando que se han encontrado con un desafío. Una burbuja aparece alrededor de los personajes junto con una puerta de madera y el siguiente acertijo se escribe en la misma: "El color marchito devuelvo a la fruta; sin pintura ni tinte, mi magia disfruta. La fresa pálida vuelve a su rojo: soy quien repinta sin dejar enojo."</span>',
+          "cont": '<span>Al avanzar hacia el Norte, el suelo vibra marcando que se han encontrado con un desafío. Una burbuja aparece alrededor de los personajes junto con una puerta de madera y el siguiente acertijo se escribe en la misma: "Blando lo dejo aunque duro parecía; el golpe no duele con mi alquimia. Caes sin herida, rebotas ligero: soy el conjuro que todo lo hace certero."</span>',
         },
         "validar paso #3 dirección norte": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso3n",
@@ -10355,7 +10355,7 @@ const MissionsModule = (function () {
         },
         "paso #3: ir al oeste": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso3",
-          "cont": '<span>Al avanzar hacia el Oeste, los personajes encuentran un tronco caído cubierto de astillas ásperas y filosas que impiden el paso seguro. La madera en bruto corta al menor contacto.</span>',
+          "cont": '<span>Al avanzar hacia el Oeste, los personajes con un camino bloqueado por una gran bola de lana cuyo tamaño ha sido alterado magicamente para ser mucho más grande de lo que es su tamaño original.</span>',
         },
         "validar paso #3 dirección oeste": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso3o",
@@ -10483,23 +10483,23 @@ const MissionsModule = (function () {
           "exitoso": '<span>Resuelve el acertijo "paso #2: ir al este".<adding class="check-cards" search="paso2e"></adding></span>',
           "critico": '<span>Resuelve el acertijo "paso #2: ir al este".<adding class="check-cards" search="paso2e"></adding></span>',
         },
-        "spiritus vincio": {
+        "locomotor": {
           "leve": '<span>No es suficiente para revelar información</span>',
-          "moderado": '<span>El conjuro contiene al espíritu travieso del Sur sin destruirlo, deshaciendo los nudos que dejó en el camino. Resuelve el desafío de terreno "paso #2: ir al sur".<adding class="check-cards" search="paso2s"></adding></span>',
-          "exitoso": '<span>El conjuro contiene al espíritu travieso del Sur sin destruirlo, deshaciendo los nudos que dejó en el camino. Resuelve el desafío de terreno "paso #2: ir al sur".<adding class="check-cards" search="paso2s"></adding></span>',
-          "critico": '<span>El conjuro contiene al espíritu travieso del Sur sin destruirlo, deshaciendo los nudos que dejó en el camino. Resuelve el desafío de terreno "paso #2: ir al sur".<adding class="check-cards" search="paso2s"></adding></span>',
+          "moderado": '<span>Los troncos caídos se levantan liberando el sendero. Resuelve el desafío de terreno "paso #2: ir al sur".<adding class="check-cards" search="paso2s"></adding></span>',
+          "exitoso": '<span>Los troncos caídos se levantan liberando el sendero. Resuelve el desafío de terreno "paso #2: ir al sur".<adding class="check-cards" search="paso2s"></adding></span>',
+          "critico": '<span>Los troncos caídos se levantan liberando el sendero. Resuelve el desafío de terreno "paso #2: ir al sur".<adding class="check-cards" search="paso2s"></adding></span>',
         },
-        "fruticolor": {
+        "spongify": {
           "leve": '<span>No es suficiente para revelar información</span>',
           "moderado": '<span>Resuelve el acertijo "paso #3: ir al norte".<adding class="check-cards" search="paso3n"></adding></span>',
           "exitoso": '<span>Resuelve el acertijo "paso #3: ir al norte".<adding class="check-cards" search="paso3n"></adding></span>',
           "critico": '<span>Resuelve el acertijo "paso #3: ir al norte".<adding class="check-cards" search="paso3n"></adding></span>',
         },
-        "leniter lignum": {
+        "diminuendo": {
           "leve": '<span>No es suficiente para revelar información</span>',
-          "moderado": '<span>El conjuro pule la madera áspera del tronco caído al Oeste, dejándola lisa y segura para cruzar. Resuelve el desafío de terreno "paso #3: ir al oeste".<adding class="check-cards" search="paso3o"></adding></span>',
-          "exitoso": '<span>El conjuro pule la madera áspera del tronco caído al Oeste, dejándola lisa y segura para cruzar. Resuelve el desafío de terreno "paso #3: ir al oeste".<adding class="check-cards" search="paso3o"></adding></span>',
-          "critico": '<span>El conjuro pule la madera áspera del tronco caído al Oeste, dejándola lisa y segura para cruzar. Resuelve el desafío de terreno "paso #3: ir al oeste".<adding class="check-cards" search="paso3o"></adding></span>',
+          "moderado": '<span>La bola de lana se hace pequeña permitiendo el avance. Resuelve el desafío de terreno "paso #3: ir al oeste".<adding class="check-cards" search="paso3o"></adding></span>',
+          "exitoso": '<span>La bola de lana se hace pequeña permitiendo el avance. Resuelve el desafío de terreno "paso #3: ir al oeste".<adding class="check-cards" search="paso3o"></adding></span>',
+          "critico": '<span>La bola de lana se hace pequeña permitiendo el avance. Resuelve el desafío de terreno "paso #3: ir al oeste".<adding class="check-cards" search="paso3o"></adding></span>',
         },
         "memoria terram": {
           "leve": '<span>No es suficiente para revelar información</span>',
