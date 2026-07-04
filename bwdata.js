@@ -9610,7 +9610,7 @@ const MissionsModule = (function () {
           "exitoso": '<span>Permite calmar a las criaturas presentes siempre que sean controlables.</span>',
           "critico": '<span>Permite calmar a las criaturas presentes siempre que sean controlables.</span>',
         },
-        "extraer esencia": {
+        "extractum machina": {
           "leve": '<span>No es suficiente para revelar información</span>',
           "moderado": '<span>Resuelve el acertijo "paso #2: ir al norte".<adding class="check-cards" search="paso2n"></adding></span>',
           "exitoso": '<span>Resuelve el acertijo "paso #2: ir al norte".<adding class="check-cards" search="paso2n"></adding></span>',
