@@ -3501,16 +3501,22 @@ const MissionsModule = (function () {
       "searchs": {},
       "actions": {
         "veritas relego": {
-          "leve": 'No es suficiente para dibujar la constelación.',
+          "leve": 'No es suficiente para revelar información.',
           "moderado": 'Permite saber con certeza que Merlina no mintió en ningún momento durante el interrogatorio, y que lo que dijo es completamente cierto desde su punto de vista.',
           "exitoso": 'Permite saber con certeza que Merlina no mintió en ningún momento durante el interrogatorio, y que lo que dijo es completamente cierto desde su punto de vista.',
           "critico": 'Permite saber con certeza que Merlina no mintió en ningún momento durante el interrogatorio, y que lo que dijo es completamente cierto desde su punto de vista.',
         },
         "legeremens": {
-          "leve": 'No es suficiente para dibujar la constelación.',
+          "leve": 'No es suficiente para revelar información.',
           "moderado": 'Permite leer la mente de Merlina, descubriendo que todo el terreno es una jaula perfectamente diseñada. Merlina los dejo pasar, sabiendo que que podrían salir sin que ella les revelara cómo hacerlo.',
           "exitoso": 'Permite leer la mente de Merlina, descubriendo que todo el terreno es una jaula perfectamente diseñada. Merlina los dejo pasar, sabiendo que que podrían salir sin que ella les revelara cómo hacerlo.',
           "critico": 'Permite leer la mente de Merlina, descubriendo que todo el terreno es una jaula perfectamente diseñada. Merlina los dejo pasar, sabiendo que que podrían salir sin que ella les revelara cómo hacerlo.',
+        },
+        "reparo": {
+          "leve": 'No es suficiente para revelar información.',
+          "moderado": '<span>Permite abrir la puerta de la casa, habilitando la salida.</span>',
+          "exitoso": '<span>Permite abrir la puerta de la casa, habilitando la salida.</span>',
+          "critico": '<span>Permite abrir la puerta de la casa, habilitando la salida.</span>',
         },
       },
     },
