@@ -4778,7 +4778,7 @@ const MissionsModule = (function () {
         },
         "contar estantería posterior 3": {
           "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir inventario",
-          "cont": '<span>Se encuentran 8 esculturas, 3 pinturas y 10 artefactos en esta estantería.</span>',
+          "cont": '<span>Se encuentran 8 esculturas, 3 pinturas y 9 artefactos en esta estantería.</span>',
         },
         "contar estantería lateral oeste 1": {
           "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir inventario",
@@ -4794,7 +4794,7 @@ const MissionsModule = (function () {
         },
         "contar pared este": {
           "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir inventario",
-          "cont": '<span>Se encuentran 2 esculturas, 15 pinturas y 4 artefactos en esta pared.</span>',
+          "cont": '<span>Se encuentran 2 esculturas, 15 pinturas y 3 artefactos en esta pared.</span>',
         },
         "contar pared sur": {
           "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir inventario",
