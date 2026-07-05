@@ -4776,15 +4776,15 @@ const MissionsModule = (function () {
         },
         "contar estantería posterior 1": {
           "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir inventario",
-          "cont": '<span>Se encuentran 8 esculturas, 3 pinturas y 10 artefactos en esta estantería.</span>',
+          "cont": '<span>Se encuentran 12 esculturas, 3 pinturas y 12 artefactos en esta estantería.</span>',
         },
         "contar estantería posterior 2": {
           "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir inventario",
-          "cont": '<span>Se encuentran 8 esculturas, 3 pinturas y 10 artefactos en esta estantería.</span>',
+          "cont": '<span>Se encuentran 9 esculturas, 3 pinturas y 12 artefactos en esta estantería.</span>',
         },
         "contar estantería posterior 3": {
           "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir inventario",
-          "cont": '<span>Se encuentran 8 esculturas, 3 pinturas y 9 artefactos en esta estantería.</span>',
+          "cont": '<span>Se encuentran 4 esculturas, 3 pinturas y 5 artefactos en esta estantería.</span>',
         },
         "contar estantería lateral oeste 1": {
           "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir inventario",
@@ -4809,6 +4809,285 @@ const MissionsModule = (function () {
         "contar pared oeste": {
           "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir inventario",
           "cont": '<span>Se encuentra 1 escultura, 14 pinturas y 5 artefactos en esta pared.</span>',
+        },
+        "revisar inventario": {
+          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "intervencion1",
+          "cont": '<span>Todas las piezas del inventario cuentan con la siguiente información: "Tipo: Nombre de la pieza - Autor (año)" y se encuentran ordenadas según la estantería que corresponde.</span>',
+        },
+        "contar objetos por estanterías": {
+          "visible": { "attr": { "sab": "3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "revisar inventario",
+          "cont": '<span>Al contar los objetos por estantería con todo el tiempo que eso lleva, pueden concluir que faltan objetos en las esanterías pared este, estantería lateral oeste 3 y estantería posterior 3.</span>',
+        },
+        "ir a estantería pared este": {
+          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "contar objetos por estanterías",
+          "cont": '<span>Al ir hacia la pared Este, pueden encontrar que en sus estanterías hay 2 esculturas, 15 pinturas y 3 artefactos en esta pared.</span>',
+        },
+        "revisar inventario estantería pared este": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "contar objetos por estanterías",
+          "cont": '<span>Según el inventario, en la estantería de la pared Este se pueden encontrar los siguientes objetos:<br>— Escultura: El Centinela de Piedra Caliza - Aldric Fenwyck (1503)<br>— Escultura: Fénix en Reposo - Marisol Quintanilla (1567)<br>— Pintura: Retrato del Duque Sin Rostro - Ottavia Pellegrini (1487)<br>— Pintura: Cosecha Bajo la Luna Roja - Fenwick Ashdown (1602)<br>— Pintura: Los Siete Pilares de Avalon - Constance Whitlock (1714)<br>— Pintura: Naturaleza Muerta con Serpientes - Bartholomew Grey (1745)<br>— Pintura: El Jardín que Nunca Duerme - Ines Marchetti (1780)<br>— Pintura: Autorretrato con Máscara de Zorro - Egil Ansfred (Siglo XI, atribuido)<br>— Pintura: La Boda de los Cuervos - Aurelia Thistlewood (1801)<br>— Pintura: Paisaje de Escocia en Invierno - Duncan MacFarlane (1823)<br>— Pintura: Tres Hermanas y una Vela - Perpetua Fane (1836)<br>— Pintura: El Mercader de Sombras - Casimir Wrentham (1849)<br>— Pintura: La Última Cena de los Alquimistas - Bartholomew Grey (1861)<br>— Pintura: Campos de Amapolas Ardientes - Ines Marchetti (1874)<br>— Pintura: El Espejo que Miente - Casimir Wrentham (1889)<br>— Pintura: Estudio de Manos - Perpetua Fane (1893)<br>— Pintura: Nocturno sobre el Lago Negro - Duncan MacFarlane (1901)<br>— Artefacto: Reloj de Arena Detenido - Cornelius Abernathy (1490)<br>— Artefacto: Espejo de las Voces Perdidas - Odalys Ferngrove (1523)<br>— Artefacto: Brújula que Señala al Miedo - Cornelius Abernathy (1567)<br>— Artefacto: Vaso de Cuerno de Unicornio - Odalys Ferngrove (1634)</span>',
+        },
+        "ir a estantería lateral oeste 3": {
+          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "contar objetos por estanterías",
+          "cont": '<span>Al ir hacia la tercera estantería lateral oeste, pueden encontrar que en ella hay 7 esculturas, 3 pinturas y 10 artefactos en esta estantería.</span>',
+        },
+        "revisar inventario lateral oeste 3": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería lateral oeste 3",
+          "cont": '<span>Según el inventario, en la estantería lateral oeste 3 se pueden encontrar los siguientes objetos:<br>— Escultura: La Doncella de Cristal - Marisol Quintanilla (1894)<br>— Escultura: Cabeza de Medusa en Basalto - Cassius Loredan (1885)<br>— Escultura: El Centauro Meditabundo - Wilhelmina Draycott (1871)<br>— Escultura: La Libélula de Jade - Wilhelmina Draycott (1856)<br>— Escultura: El Niño y la Serpiente - Wilhelmina Draycott (1834)<br>— Escultura: El Lobo y la Luna - Cassius Loredan (1803)<br>— Escultura: La Bruja del Pozo - Aldric Fenwyck (1756)<br>— Pintura: La Coronación Olvidada - Aurelia Thistlewood (1912)<br>— Pintura: La Viuda de Hollín - Aurelia Thistlewood (1795)<br>— Pintura: El Pacto Bajo el Roble - Casimir Wrentham (1841)<br>— Pintura: Retrato Doble de los Hermanos Fane - Perpetua Fane (1858)<br>— Artefacto: Espejo de Mano con Marco de Hueso - Odalys Ferngrove (1556)<br>— Artefacto: Bastón con Cabeza de Serpiente - Ignatius Thorne (1687)<br>— Artefacto: Máscara de Plata para Rituales - Fabricante desconocido (1733)<br>— Artefacto: Pesas de Bronce para Ingredientes - Cornelius Abernathy (1769)<br>— Artefacto: Sello de Cera Encantado - Ignatius Thorne (1876)<br>— Artefacto: Estuche de Pociones Portátil - Boticario anónimo (Edad Media, restaurado 1710)<br>— Artefacto: Reloj que Marcha al Revés - Cornelius Abernathy (1601)<br>— Artefacto: Frasco de Lágrimas de Unicornio - Odalys Ferngrove (1802)<br>— Artefacto: Amuleto contra el Mal de Ojo - Fabricante desconocido (1834)<br>— Artefacto: Sello de Cera de Sangre - Ignatius Thorne (1876)<br>— Artefacto: Tintero de Plata Ennegrecida - Ignatius Thorne (1939)</span>',
+        },
+        "ir a estantería posterior 3": {
+          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "contar objetos por estanterías",
+          "cont": '<span>Al ir hacia la tercera estantería posterior, pueden encontrar que en ella hay 4 esculturas, 3 pinturas y 5 artefactos en esta estantería.</span>',
+        },
+        "revisar inventario estantería posterior 3": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería posterior 3",
+          "cont": '<span>Según el inventario, en la estantería posterior 3 se pueden encontrar los siguientes objetos:<br>— Escultura: El Guardián de las Cuatro Casas - Aldric Fenwyck (1902)<br>— Escultura: Torso Femenino Inacabado - Wilhelmina Draycott (1919)<br>— Escultura: El Unicornio Yacente - Kwill Healy (1927)<br>— Escultura: La Quimera de Hierro Fundido - Marisol Quintanilla (1944)<br>— Pintura: Bodegón con Copa de Bronce - Constance Whitlock (1924)<br>— Pintura: El Baile de las Máscaras Blancas - Ottavia Pellegrini (1929)<br>— Pintura: Los Jardines de Mirabilia - Perpetua Fane (1941)<br>— Artefacto: Frasco de Cristal para Criaturas - Odalys Ferngrove (1915)<br>— Artefacto: Balanza de la Verdad - Ignatius Thorne (1790)<br>— Artefacto: Collar con Piedra Lunar - Odalys Ferngrove (1768)<br>— Artefacto: Lámpara de Aceite Eterno - Ignatius Thorne (1723)<br>— Artefacto: Cetro de Marfil Tallado - Cornelius Abernathy (1678)<br>— Artefacto: Anillo de Sello de los Ansfred - Taller de Egil Ansfred (Siglo XI, restaurado 1650)</span>',
+        },
+
+        // ===== LATERAL OESTE 3 =====
+        // -- Esculturas --
+        "identificar escultura la doncella de cristal": {
+          "visible": { "attr": { "val": "min" }, "know": { "historia de la magia": "5" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería lateral oeste 3",
+          "cont": '<span>Quintanilla trabajaba el cristal encantado; se dice que talló esta doncella a partir del reflejo de una modelo real, atrapando parte de su esencia en la escultura. Sin embargo, se dice que fue tal el vínculo que cualquier daño a la escultura afectaría a la modelo real. La modelo falleció por un ataque al corazón y se puede observar que la esculura tiene una grieta a la altura del corazón.</span>',
+        },
+        "identificar escultura cabeza de medusa en basalto": {
+          "visible": { "attr": { "val": "min" }, "know": { "dcao": "5" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería lateral oeste 3",
+          "cont": '<span>Los ojos de basalto conservan una versión debilitada de la maldición de petrificación, motivo por el cual la pieza figura en un registro especial de objetos con criaturas.</span>',
+        },
+        "identificar escultura el centauro meditabundo": {
+          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería lateral oeste 3",
+          "cont": '<span>La postura reflexiva y los símbolos astrológicos grabados en la base delatan el estilo de Draycott, conocida por sus figuras mitológicas contemplativas.</span>',
+        },
+        "identificar escultura la libélula de jade": {
+          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería lateral oeste 3",
+          "cont": '<span>Basta fijarse en las alas de jade veteado, un material poco común en escultura, y en la firma de Draycott grabada en la base.</span>',
+        },
+        "identificar escultura el niño y la serpiente": {
+          "visible": { "attr": { "val": "min" }, "know": { "historia de la magia": "10" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería lateral oeste 3",
+          "cont": '<span>Se rumorea que esta pieza representa al primer hijo de Draycott, quien murió tras la mordida de una serpiente venenosa; la escultora nunca volvió a trabajar con reptiles después de crearla. En la escultura se puede observar a un niño jugando envuelto en una boa que juega con él.</span>',
+        },
+        "identificar escultura el lobo y la luna": {
+          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería lateral oeste 3",
+          "cont": '<span>El pelaje erizado y la luna creciente tallada en relieve son marcas distintivas del estilo temprano de Loredan. Sin embargo, hay algo extraño en la escultura. Los ojos del lobo parecen seguir a quienes lo observan y sus dientes parecen demasiado reales. Tal como si alguien hubiera congelado a un lobo en plena luna llena. Cualquiera sea el caso, lo mejor es mantener distancia del mismo.</span>',
+        },
+        "identificar escultura la bruja del pozo": {
+          "visible": { "attr": { "val": "min" }, "know": { "historia de la magia": "10" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería lateral oeste 3",
+          "cont": '<span>Representa a una bruja acusada de brujería y arrojada a un pozo en el siglo XVIII; Fenwyck la esculpió como homenaje después de que se demostrara su inocencia. Al acercarse, el pozo a sus pies se prende fuego y la bruja sonríe.</span>',
+        },
+
+        // -- Pinturas --
+        "identificar pintura la coronación olvidada": {
+          "visible": { "attr": { "val": "min" }, "know": { "historia de la magia": "5" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería lateral oeste 3",
+          "cont": '<span>Retrata una coronación mágica que jamás llegó a celebrarse porque el candidato desapareció misteriosamente la noche anterior. Las flores silvestres que rodean su cabeza parecen ser venenosas.</span>',
+        },
+        "identificar pintura la viuda de hollín": {
+          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería lateral oeste 3",
+          "cont": '<span>La mujer de la pintura viste completamente de negro y sostiene un carbón encendido; el título hace referencia directa a la escena.</span>',
+        },
+        "identificar pintura el pacto bajo el roble": {
+          "visible": { "attr": { "val": "min" }, "know": { "historia de la magia": "10" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería lateral oeste 3",
+          "cont": '<span>La historia cuenta que dos familias sangre puras, habían hecho un pacto para ser igual de fuertes que la Ancestral familia Black. Sin embargo, luego de firmar el pacto de sangre, ambas familias desaparecieron. Ninguno de los cuadros presentes representa esa situación.</span>',
+        },
+        "identificar pintura retrato doble de los hermanos fane": {
+          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería lateral oeste 3",
+          "cont": '<span>El gran parecido entre los dos rostros retratados y el apellido "Fane" firmado en la esquina delatan que se trata de un autorretrato familiar de la propia pintora.</span>',
+        },
+
+        // -- Artefactos --
+        "identificar artefacto espejo de mano con marco de hueso": {
+          "visible": { "attr": { "val": "min" }, "know": { "banshee": "10" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería lateral oeste 3",
+          "cont": '<span>El marco está hecho de hueso de banshee; quien se mira en él durante demasiado tiempo empieza a escuchar lamentos.</span>',
+        },
+        "identificar artefacto bastón con cabeza de serpiente": {
+          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería lateral oeste 3",
+          "cont": '<span>La cabeza está tallada con la boca abierta, lista para escupir veneno; un diseño típico de bastones defensivos de la época.</span>',
+        },
+        "identificar artefacto máscara de plata para rituales": {
+          "visible": { "attr": { "val": "min" }, "know": { "historia de la magia": "10" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería lateral oeste 3",
+          "cont": '<span>Este tipo de máscaras se usaban para ocultar la identidad durante ceremonias prohibidas por el Ministerio en el siglo XVIII.</span>',
+        },
+        "identificar artefacto pesas de bronce para ingredientes": {
+          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería lateral oeste 3",
+          "cont": '<span>Las pesas tienen grabados los símbolos alquímicos estándar para medir ingredientes de poción, fáciles de reconocer para cualquiera con algo de conocimiento de pociones.</span>',
+        },
+        "identificar artefacto sello de cera encantado": {
+          "visible": { "attr": { "val": "min" }, "know": { "dcao": "5" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería lateral oeste 3",
+          "cont": '<span>Al calentarse, este sello libera un aroma que revela si el documento sellado ha sido falsificado.</span>',
+        },
+        "identificar artefacto estuche de pociones portátil": {
+          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería lateral oeste 3",
+          "cont": '<span>Los compartimentos numerados y el tamaño reducido son típicos de los estuches que llevaban los boticarios itinerantes medievales.</span>',
+        },
+        "identificar artefacto reloj que marcha al revés": {
+          "visible": { "attr": { "val": "min" }, "know": { "historia de la magia": "10" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería lateral oeste 3",
+          "cont": '<span>Fue creado como advertencia contra el uso de giratiempos sin autorización; marcha al revés como recordatorio simbólico de las consecuencias de manipular el tiempo.</span>',
+        },
+        "identificar artefacto frasco de lágrimas de unicornio": {
+          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería lateral oeste 3",
+          "cont": '<span>El líquido dentro brilla con un tono plateado inconfundible, propio de las lágrimas de unicornio genuinas.</span>',
+        },
+        "identificar artefacto amuleto contra el mal de ojo": {
+          "visible": { "attr": { "val": "min" }, "know": { "dcao": "5" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería lateral oeste 3",
+          "cont": '<span>El diseño del ojo abierto en el centro es característico de los amuletos protectores de tradición mediterránea contra maleficios menores.</span>',
+        },
+        "identificar artefacto sello de cera de sangre": {
+          "visible": { "attr": { "val": "min" }, "know": { "dcao": "10" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería lateral oeste 3",
+          "cont": '<span>A diferencia del sello común, este exige una gota de sangre del firmante y queda ligado mágicamente a su propietario; se usaba en contratos de sangre.</span>',
+        },
+        "identificar artefacto tintero de plata ennegrecida": {
+          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería lateral oeste 3",
+          "cont": '<span>La plata está ennegrecida de forma pareja, algo típico de un tintero que ha estado en contacto constante con tinta encantada de calidad.</span>',
+        },
+
+        // ===== POSTERIOR 3 =====
+
+        // -- Esculturas --
+        "identificar escultura el guardián de las cuatro casas": {
+          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería posterior 3",
+          "cont": '<span>Los cuatro emblemas de Hogwarts tallados alrededor de la base hacen evidente a qué institución rinde homenaje la pieza. Sin embargo, hay algo que no cuadra y es que al mirar con detenimiento el inventario, indica que el cuadro fue hecho con los huesos de un niño squib que se quitó la vida tras saber que nunca podría asistir a Hogwarts.</span>',
+        },
+        "identificar escultura torso femenino inacabado": {
+          "visible": { "attr": { "val": "min" }, "know": { "historia de la magia": "5" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería posterior 3",
+          "cont": '<span>Se sabe que Draycott dejó esta obra sin terminar tras la muerte de su modelo, y se negó a que nadie más la completara.</span>',
+        },
+        "identificar escultura el unicornio yacente": {
+          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería posterior 3",
+          "cont": '<span>La postura relajada y las crines grabadas con hebras de plata auténtica son características del estilo tardío de Healy.</span>',
+        },
+        "identificar escultura la quimera de hierro fundido": {
+          "visible": { "attr": { "val": "min" }, "know": { "dcao": "10" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería posterior 3",
+          "cont": '<span>Las tres cabezas responden a distintos hechizos de activación; se cree que fue diseñada originalmente como sistema de alarma. Al acercarse, los tres comienzan a ladrar y querer atacar al o los personajes que más fuerza posean.</span>',
+        },
+
+        // -- Pinturas --
+        "identificar pintura bodegón con copa de bronce": {
+          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería posterior 3",
+          "cont": '<span>La copa de bronce central coincide en forma con las piezas de vajilla que Whitlock solía retratar en sus bodegones.</span>',
+        },
+        "identificar pintura el baile de las máscaras blancas": {
+          "visible": { "attr": { "val": "min" }, "know": { "historia de la magia": "10" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería posterior 3",
+          "cont": '<span>Retrata un baile real que terminó en escándalo cuando se descubrió que varios invitados usaban máscaras para ocultar su identidad y evadir al Ministerio.</span>',
+        },
+        "identificar pintura los jardines de mirabilia": {
+          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería posterior 3",
+          "cont": '<span>El título coincide con el nombre del propio Museo Mirabilia, y los jardines retratados son fácilmente reconocibles para quien lo haya visitado. Sin embargo, toda la vida natural esta muerta en el cuadro, haciendo que la visión sea bastante escalofriante.</span>',
+        },
+
+        // -- Artefactos --
+        "identificar artefacto frasco de cristal para criaturas": {
+          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería posterior 3",
+          "cont": '<span>El tamaño y las perforaciones de ventilación en la tapa son típicas de los frascos usados para transportar criaturas pequeñas con vida.</span>',
+        },
+        "identificar artefacto balanza de la verdad": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "ir a estantería posterior 3",
+          "cont": '<span>Hay una imagen de la misma en el Departamento de Seguridad, una pintura que saluda a todos en la entrada. Se dice que la balanza se inclinaba dependiendo de lo escuchado. Sin embargo, un mago había logrado burlarla y fue retirada. Para cualquier persona se seguridad sería facilmente identificable, pese a eso, la balanza no se encuentra en la estantería.</span>',
+        },
+        "identificar artefacto collar con piedra lunar": {
+          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería posterior 3",
+          "cont": '<span>La piedra cambia de color según la fase lunar, un efecto fácil de notar para cualquiera que la observe unos minutos.</span>',
+        },
+        "identificar artefacto lámpara de aceite eterno": {
+          "visible": { "attr": { "val": "min" }, "know": { "historia de la magia": "5" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería posterior 3",
+          "cont": '<span>Este tipo de lámparas nunca se apaga porque su aceite fue encantado con fuego de salamandra, una técnica prohibida desde el siglo XIX por su inestabilidad.</span>',
+        },
+        "identificar artefacto cetro de marfil tallado": {
+          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería posterior 3",
+          "cont": '<span>Las figuras talladas en el marfil representan una línea sucesoria; parece pertenecer a una familia de cierto rango.</span>',
+        },
+        "identificar artefacto anillo de sello de los ansfred": {
+          "visible": { "attr": { "val": "min" }, "know": { "historia de la magia": "10" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería posterior 3",
+          "cont": '<span>El sello coincide con el escudo que aparece firmado en las pinturas de Ansfred, confirmando el vínculo entre esta pieza y el pintor.</span>',
+        },
+
+        // ===== PARED ESTE =====
+
+        // -- Esculturas --
+        "identificar escultura el centinela de piedra caliza": {
+          "visible": { "attr": { "val": "min" }, "know": { "historia de la magia": "10" }, "job": "invalid", "name": "invalid", }, "place": "Ir a estantería pared este",
+          "cont": '<span>Este tipo de centinelas de piedra caliza se usaban como defensa pasiva en propiedades de sangre pura antes de la llegada de los encantamientos protectores modernos.</span>',
+        },
+        "identificar escultura fénix en reposo": {
+          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "Ir a estantería pared este",
+          "cont": '<span>Las plumas talladas en posición de descanso y el pico curvado son inconfundiblemente los de un fénix.</span>',
+        },
+
+        // -- Pinturas --
+        "identificar pintura retrato del duque sin rostro": {
+          "visible": { "attr": { "val": "min" }, "know": { "historia de la magia": "10" }, "job": "invalid", "name": "invalid", }, "place": "Ir a estantería pared este",
+          "cont": '<span>El retratado nunca mostró su rostro en vida por miedo a una maldición familiar; Pellegrini respetó su deseo incluso después de su muerte.</span>',
+        },
+        "identificar pintura cosecha bajo la luna roja": {
+          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "Ir a estantería pared este",
+          "cont": '<span>El cielo pintado con una luna de tono rojizo sobre un campo de cultivo hace evidente la escena descrita en el título.</span>',
+        },
+        "identificar pintura los siete pilares de avalon": {
+          "visible": { "attr": { "val": "min" }, "know": { "historia de la magia": "5" }, "job": "invalid", "name": "invalid", }, "place": "Ir a estantería pared este",
+          "cont": '<span>Los siete pilares representan a las siete familias fundadoras de una comunidad mágica hoy desaparecida.</span>',
+        },
+        "identificar pintura naturaleza muerta con serpientes": {
+          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "Ir a estantería pared este",
+          "cont": '<span>Las serpientes enroscadas entre la fruta son el elemento central y más llamativo de la composición.</span>',
+        },
+        "identificar pintura el jardín que nunca duerme": {
+          "visible": { "attr": { "val": "min" }, "know": { "dcao": "5" }, "job": "invalid", "name": "invalid", }, "place": "Ir a estantería pared este",
+          "cont": '<span>Las flores pintadas corresponden a especies que florecen únicamente de noche, motivo del nombre de la obra.</span>',
+        },
+        "identificar pintura autorretrato con máscara de zorro": {
+          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "Ir a estantería pared este",
+          "cont": '<span>El estilo del rostro coincide con el de "La Dama del Velo de Ceniza", lo que sugiere que se trata del mismo pintor, aunque la obra no está firmada.</span>',
+        },
+        "identificar pintura la boda de los cuervos": {
+          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "Ir a estantería pared este",
+          "cont": '<span>Los invitados a la boda pintada llevan plumas negras en lugar de ropa formal, una escena poco sutil sobre lo que representa el título.</span>',
+        },
+        "identificar pintura paisaje de escocia en invierno": {
+          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "Ir a estantería pared este",
+          "cont": '<span>El paisaje nevado y las montañas escocesas son fácilmente reconocibles para cualquiera con algo de conocimiento geográfico.</span>',
+        },
+        "identificar pintura tres hermanas y una vela": {
+          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "Ir a estantería pared este",
+          "cont": '<span>La pintura muestra literalmente a tres hermanas alrededor de una única vela encendida.</span>',
+        },
+        "identificar pintura el mercader de sombras": {
+          "visible": { "attr": { "val": "min" }, "know": { "dcao": "10" }, "job": "invalid", "name": "invalid", }, "place": "Ir a estantería pared este",
+          "cont": '<span>Retrata a un mercader que comerciaba con sombras robadas, una práctica de magia oscura prohibida desde el siglo XIX.</span>',
+        },
+        "identificar pintura la última cena de los alquimistas": {
+          "visible": { "attr": { "val": "min" }, "know": { "historia de la magia": "5" }, "job": "invalid", "name": "invalid", }, "place": "Ir a estantería pared este",
+          "cont": '<span>Representa una cena real entre alquimistas que discutían la creación de la Piedra Filosofal, poco antes de que la práctica fuera regulada.</span>',
+        },
+        "identificar pintura campos de amapolas ardientes": {
+          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "Ir a estantería pared este",
+          "cont": '<span>Las amapolas están pintadas con tonos de fuego real en lugar del rojo habitual, haciendo evidente el "ardiente" del título.</span>',
+        },
+        "identificar pintura el espejo que miente": {
+          "visible": { "attr": { "val": "min" }, "know": { "dcao": "10" }, "job": "invalid", "name": "invalid", }, "place": "Ir a estantería pared este",
+          "cont": '<span>El espejo pintado es una representación de un objeto real que mostraba versiones falsas de la realidad a quien se miraba en él.</span>',
+        },
+        "identificar pintura estudio de manos": {
+          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "Ir a estantería pared este",
+          "cont": '<span>La obra se compone únicamente de bocetos de manos en distintas posiciones, sin ningún otro elemento en el lienzo.</span>',
+        },
+        "identificar pintura nocturno sobre el lago negro": {
+          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "Ir a estantería pared este",
+          "cont": '<span>El lago oscuro bajo un cielo estrellado remite directamente al nombre de la obra, sin mayor misterio.</span>',
+        },
+
+        // -- Artefactos --
+        "identificar artefacto reloj de arena detenido": {
+          "visible": { "attr": { "val": "min" }, "know": { "dcao": "10" }, "job": "invalid", "name": "invalid", }, "place": "Ir a estantería pared este",
+          "cont": '<span>La arena de este reloj se detuvo mágicamente en el instante exacto de una muerte; algunos coleccionistas lo consideran de mal augurio.</span>',
+        },
+        "identificar artefacto espejo de las voces perdidas": {
+          "visible": { "attr": { "val": "min" }, "know": { "historia de la magia": "10" }, "job": "invalid", "name": "invalid", }, "place": "Ir a estantería pared este",
+          "cont": '<span>Se dice que conserva ecos de conversaciones antiguas; los historiadores lo usaban para investigar eventos del pasado antes de que la práctica fuera prohibida.</span>',
+        },
+        "identificar artefacto brújula que señala al miedo": {
+          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "Ir a estantería pared este",
+          "cont": '<span>Se supone que, al tratarse de un artefacto sería fácil de identificar. Pese a eso, no hay ninguna brújula en la estantería.</span>',
+        },
+        "identificar artefacto vaso de cuerno de unicornio": {
+          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "Ir a estantería pared este",
+          "cont": '<span>La forma curva y el color nacarado del material dejan en claro que está hecho de cuerno de unicornio auténtico.</span>',
         },
       },
 
