@@ -1558,6 +1558,66 @@ const MissionsModule = (function () {
           "visible": { "attr": { "val": "min" }, "know": { "estudios muggles": "5" }, "job": "invalid", "name": "jasper", }, "place": "detener camión",
           "cont": '<span>Como el personaje conoce algunas normas de Estudio Muggle podría ofrecerse como conductor del camión tras detener a los conductores y tomar la poción multijugos.</span>',
         },
+        "ingresar al camión": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "intervencion1",
+          "cont": '<span>Al ingresar al camión pueden validar que hay tres etiquetas diferentes en las cajas. Por un lado, unas están marcadas con una etiqueta marrón que indica "materiales", otra color verde indica "matería prima" y en el interior de las cajas pueden observarse semillas de una planta. Finalmente, al final de todo hay una caja con una etiqueta que indica "correspondencias".</span>',
+        },
+        "tomar poción multijugos": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "intervencion1",
+          "cont": '<span>Al tomar la poción multijugos, el personaje podrá cambiar de apariencia y adoptar la identidad de uno de los conductores del camión. La poción solo durará 10 rondas. Una vez terminado ese tiempo, los personajes regresarán a sus apariencias originales.<br><strong>Nota</strong>: El personaje que lance esta tarjeta arranca la ronda y el contador sube uno cada vez que este personaje vuelve a intervenir.</span>',
+        },
+        "conducir el camión hasta la puerta de atrás": {
+          "visible": { "attr": { "val": "min" }, "know": { "estudios muggles": "5" }, "job": "invalid", "name": "jasper", }, "place": "tomar poción multijugos",
+          "cont": '<span>Una vez que ingresan al camión, pueden manejar hasta ingresar a la puerta de atrás. Una vez que llegan, unos miembros de seguridad, les abren las puertas. A partir de este momento, todos los personajes deberán lanzar "tacite" para pasar inadvertido o "artimaña" para poder moverse sin que los guardias detecten que son intrusos.</span>',
+        },
+        "ingresar al establecimiento": {
+          "visible": { "attr": { "car": "3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "conducir el camión hasta la puerta de atrás",
+          "cont": '<span>Una vez que bajaron del camión, los guardias se encargan de abrir las puertas de atrás y les ofrecen un pergamino el cual deben firmar para ingresar. Un personaje deberá lanzar la acción "coartada" o "scriptum mendax" para completar los documentos.<br><strong>Nota</strong>: Durante ese turno no es necesario lanzar "tacite" o "artimaña".</span>',
+        },
+        "comenzar a trasladar la mercancía": {
+          "visible": { "attr": { "fue": "3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "coartada",
+          "cont": '<span>Una vez entregados todos los papeles, los personajes podrán ingresar al lugar llevando cada uno un carrito con cajas. El lugar en su interior no es algo que llame demasiado la atención.</span>',
+        },
+        "ingresar a planta baja": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "comenzar a trasladar la mercancía",
+          "cont": '<span>Al ingresar a la planta baja, los personajes se encontrarán con un pasillo largo y estrecho. Las paredes están recubiertas de un material que parece ser piedra, pero que tiene una textura suave al tacto. Al final del pasillo, hay una puerta que conduce a una sala de almacenamiento, una cocina y un jardín cargado de verde. En el almacenamiento se pueden ver muchas botellas con diferentes productos generados.</span>',
+        },
+        "entregas planta baja": {
+          "visible": { "attr": { "int": "3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ingresar a planta baja",
+          "cont": '<span>En planta baja no hay que hacer ninguna entrega, sino tomar las cajas con diferentes etiquetas al finalizar toda la entrega.</span>',
+        },
+        "subir a primer piso": {
+          "visible": { "attr": { "sab": "3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ingresar a planta baja",
+          "cont": '<span>Al subir al primer piso, los guardias los detienen y piden la palabra clave. La misma debe ser indicada en el mismo post. En caso de que no la proporcionen, el guardia atacará.<br><strong>Nota</strong>: La palabra clave será validada narrativamente. En caso de no tenerla, el guardia atacará primero si la lanzada de esta tarjeta es par. Deberán agregar un "Guardia" como PNJ, el mismo tiene 35PV y 3 de fuerza y consitución.</span>',
+        },
+        "entregar abono": {
+          "visible": { "attr": { "val": "min" }, "know": { "herbología": "10" }, "job": "invalid", "name": "invalid", }, "place": "subir a primer piso",
+          "cont": '<span>Al revisar el lugar pueden notar que todos los trabajadores de la zona, llevan guantes gruesos y túnicas ignifugas. Por la tierra entre sus pies y ropas, puede deducirse que son los encargados de trabajar la tierra. Este es el lugar donde debe entregarse los materiales. Tras la entrega, uno de los guardias indican que la palabra clave para el siguiente piso es "Inguz".</span>',
+        },
+        "subir a segundo piso": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "subir a primer piso",
+          "cont": '<span>Al subir al segundo piso, los guardias los detienen y piden la palabra clave. La misma debe ser indicada en el mismo post. En caso de que no la proporcionen, el guardia atacará.<br><strong>Nota</strong>: La palabra clave será validada narrativamente. En caso de no tenerla, el guardia atacará primero si la lanzada de esta tarjeta es par. Deberán agregar un "Guardia" como PNJ, el mismo tiene 35PV y 3 de fuerza y consitución.</span>',
+        },
+        "entregar materia prima": {
+          "visible": { "attr": { "val": "min" }, "know": { "herbología": "10" }, "job": "invalid", "name": "invalid", }, "place": "subir a segundo piso",
+          "cont": '<span>Al revisar el lugar, pueden observar que los laboratorios cargados con Salvia Ignor en crecimiento. En este lugar es donde deben entregar la materia prima. Tras hacer la entrega, los guardias indican que la palabra clave para el siguiente piso es "Newgrange".</span>',
+        },
+        "subir a tercer piso": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "subir a segundo piso",
+          "cont": '<span>Al subir al tercer piso, los guardias los detienen y piden la palabra clave. La misma debe ser indicada en el mismo post. En caso de que no la proporcionen, el guardia atacará.<br><strong>Nota</strong>: La palabra clave será validada narrativamente. En caso de no tenerla, el guardia atacará primero si la lanzada de esta tarjeta es par. Deberán agregar un "Guardia" como PNJ, el mismo tiene 35PV y 3 de fuerza y consitución.</span>',
+        },
+        "entregar correspondencias": {
+          "visible": { "attr": { "sab": "4" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "subir a tercer piso",
+          "cont": '<span>Al revisar el lugar, pueden observar que todo el piso esta lleno de diferentes oficinas, algunas llenas y otras vacías. Allí deben entregar la caja de correspondencias.</span>',
+        },
+        "revisar sala de conferencia": {
+          "visible": { "attr": { "int": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "subir a tercer piso",
+          "cont": '<span>Al pasar por las salas pueden observar que en la sala de conferencias, tienen un mapa de la zona. En particular de Irlanda y no solo eso, sino que tienen marcado el laboratorio donde se encuentran y, también un lugar llamado "the hallucination mill" marcado como "Casa Central".</span>',
+        },
+        "retirarse sin ser vistos": {
+          "visible": { "attr": { "int": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "subir a tercer piso",
+          "cont": '<span>Permite a los personajes retirarse sin llamar la atención de los guardias. La misión pueden considerarse éxitosa.</span>',
+        },
       },
 
       "actions": {
@@ -1693,12 +1753,42 @@ const MissionsModule = (function () {
           "exitoso": 'Permite que los personajes avancen sin necesidad de usar "Tacite".',
           "critico": 'Permite que los personajes avancen sin necesidad de usar "Tacite".',
         },
+        "tacite": {
+          "leve": 'No es suficiente para pasar inadvertido. Un guardia los detecta. Atacará primero si la lanzada de esta acción es par. Deberán agregar un "Guardia" como PNJ, el mismo tiene 35PV y 3 de fuerza y consitución.',
+          "moderado": 'El personaje puede pasar sin llamar la atención.',
+          "exitoso": 'El personaje puede pasar sin llamar la atención.',
+          "critico": 'El personaje puede pasar sin llamar la atención.',
+        },
+        "artimaña": {
+          "leve": 'No es suficiente para pasar convencer a los guardias. Un guardia los detecta. Atacará primero si la lanzada de esta acción es par. Deberán agregar un "Guardia" como PNJ, el mismo tiene 35PV y 3 de fuerza y consitución.',
+          "moderado": 'Los guardias dejan pasar al personaje sin que les llame la atención.',
+          "exitoso": 'Los guardias dejan pasar al personaje sin que les llame la atención.',
+          "critico": 'Los guardias dejan pasar al personaje sin que les llame la atención.',
+        },
+        "coartada": {
+          "leve": 'No es suficiente para pasar convencer a los guardias. Un guardia los detecta. Atacará primero si la lanzada de esta acción es par. Deberán agregar un "Guardia" como PNJ, el mismo tiene 35PV y 3 de fuerza y consitución.',
+          "moderado": 'Los papeles son suficientes para los guardias, lo dejan pasar indicando que la palabra clave del día es "Dearg".',
+          "exitoso": 'Los papeles son suficientes para los guardias, lo dejan pasar indicando que la palabra clave del día es "Dearg".',
+          "critico": 'Los papeles son suficientes para los guardias, lo dejan pasar indicando que la palabra clave del día es "Dearg".',
+        },
+        "scriptum mendax": {
+          "leve": 'No es suficiente para pasar convencer a los guardias. Un guardia los detecta. Atacará primero si la lanzada de esta acción es par. Deberán agregar un "Guardia" como PNJ, el mismo tiene 35PV y 3 de fuerza y consitución.',
+          "moderado": 'Los papeles son suficientes para los guardias, lo dejan pasar indicando que la palabra clave del día es "Dearg".',
+          "exitoso": 'Los papeles son suficientes para los guardias, lo dejan pasar indicando que la palabra clave del día es "Dearg".',
+          "critico": 'Los papeles son suficientes para los guardias, lo dejan pasar indicando que la palabra clave del día es "Dearg".',
+        },
+        "specialis revelio": {
+          "leve": 'No es suficiente para revelar información adicional.',
+          "moderado": 'Se puede notar que todo el lugar esta protegido con hechizos que evitan el fuego que puede generar la planta Salvia Ignor.',
+          "exitoso": 'Se puede notar que todo el lugar esta protegido con hechizos que evitan el fuego que puede generar la planta Salvia Ignor.',
+          "critico": 'Se puede notar que todo el lugar esta protegido con hechizos que evitan el fuego que puede generar la planta Salvia Ignor.',
+        },
       },
     },
     // fin gilded herb
 
     "the hallucination mill": {
-      "description": "Con el fin de poder responder todas las dudas sobre las bebidas. Se deberá hacer un interrogatorio al actual administrador de 'Bodegas Dempsey'. Este tema contará con la participación de la administración como el administrador, si es que al momento de llegar la misión no existe ningún familiar Dempsey.",
+      "description": "Con el fin de poder responder todas las dudas sobre las bebidas. Se deberá hacer un interrogatorio al actual administrador de 'Bodegas Dempsey'. Este tema contará con la participación de la administración como el administrador.",
       "image": "https://2img.net/i.imgur.com/9mnS7Op.png", "requisitos": ["un miembro del departamento del Seguridad Mágica"],
       "users": [],
       "dependency": ["gilded herb"],
