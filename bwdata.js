@@ -2998,7 +2998,7 @@ const MissionsModule = (function () {
           "cont": '<span>La familia de tres que se observa en la fotografía, muestra a Edwin junto a sus padres: Mabel y Hamish. Si alguno desea indicar algún parecido a los hermanos o cualquier otro miembro de la familia, puede hacerlo.</span>',
         },
         "ingresar al cobertizo": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "intervencion1",
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "intervencion2",
           "cont": '<span>Pese a la antigüedad de la casa, el cobertizo parece ser una obra bastante moderna y muy similar a El Planetarium y El observatorio Galatea (Corresponden al Hogar de los Merrythought y el Observatorio que pertenece a su tía Galatea, para aquellos que hayan conocido on-rol dichos lugares), lo que ayudaría a los presentes a determinar que fueron diseñados o construidos por la misma persona y muchos después de que la casa haya quedado en deshuso.<br>El cobertizo cuenta con varias paredes de vidrio para poder observar la plenitud del jardín, y estar completamente protegidos para evitar sufrir lesiones por las mismas plantas. Todo el sitio esta construido en una madera color clara y, salvando la capa de polvo que cubre todas las superficies, se encuentra extremadamente ordenado.</span>',
         },
         "investigar pared este": {
