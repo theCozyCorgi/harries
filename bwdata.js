@@ -3234,7 +3234,7 @@ const MissionsModule = (function () {
           "exitoso": '<span>Permite mover 1 personaje para regresar a la casa. Debe realizarse desde el interior de la casa.</span>',
           "critico": '<span>Permite mover 2 personajes para regresar a la casa. Debe realizarse desde el interior de la casa.</span>',
         },
-        "volar en pareja": {
+        "vuelo en pareja": {
           "leve": '<span>No es suficiente para volar en pareja.</span>',
           "moderado": '<span>Permite avanzar <replace target="attr" calculate="1.5" data="des">el 150% de la destreza del personaje</replace> menos la constitución del acompañante en baldosas.</span>',
           "exitoso": '<span>Permite avanzar <replace target="attr" calculate="2" data="des">el 200% de la destreza del personaje</replace> menos la constitución del acompañante en baldosas.</span>',
