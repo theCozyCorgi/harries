@@ -3236,9 +3236,9 @@ const MissionsModule = (function () {
         },
         "vuelo en pareja": {
           "leve": '<span>No es suficiente para volar en pareja.</span>',
-          "moderado": '<span>Permite avanzar <replace target="attr" calculate="1.5" data="des">el 150% de la destreza del personaje</replace> menos la constitución del acompañante en baldosas.</span>',
-          "exitoso": '<span>Permite avanzar <replace target="attr" calculate="2" data="des">el 200% de la destreza del personaje</replace> menos la constitución del acompañante en baldosas.</span>',
-          "critico": '<span>Permite avanzar <replace target="attr" calculate="2.5" data="des">el 250% de la destreza del personaje</replace> menos la constitución del acompañante en baldosas.</span>',
+          "moderado": '<span>Permite que el avance sea igual a = <replace target="attr" calculate="1.5" data="des">el 150% de la destreza del personaje</replace> menos la constitución del acompañante en baldosas.</span>',
+          "exitoso": '<span>Permite que el avance sea igual a = <replace target="attr" calculate="2" data="des">el 200% de la destreza del personaje</replace> menos la constitución del acompañante en baldosas.</span>',
+          "critico": '<span>Permite que el avance sea igual a = <replace target="attr" calculate="2.5" data="des">el 250% de la destreza del personaje</replace> menos la constitución del acompañante en baldosas.</span>',
         },
       },
     },
