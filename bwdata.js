@@ -9271,7 +9271,7 @@ const MissionsModule = (function () {
         },
         "validar paso #1 dirección este": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #1: ir al este",
-          "cont": '<span>Aquí no hay ninguna marca, deberán regresar hacia atrás.<adding class="check-cards" search="reg. largada"></adding></span>',
+          "cont": '<span>Aquí no hay ninguna marca, deberán intentar otra dirección.<adding class="check-cards" search="reg. largada"></adding></span>',
         },
         "paso #1: ir al sur": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso1",
@@ -9279,7 +9279,7 @@ const MissionsModule = (function () {
         },
         "validar paso #1 dirección sur": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #1: ir al sur",
-          "cont": '<span>Aquí no hay ninguna marca, deberán regresar hacia atrás.<adding class="check-cards" search="reg. largada"></adding></span>',
+          "cont": '<span>Aquí no hay ninguna marca, deberán intentar otra dirección.<adding class="check-cards" search="reg. largada"></adding></span>',
         },
         "paso #1: ir al oeste": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso1",
@@ -9287,7 +9287,7 @@ const MissionsModule = (function () {
         },
         "validar paso #1 dirección oeste": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #1: ir al oeste",
-          "cont": '<span>Aquí no hay ninguna marca, deberán regresar hacia atrás.<adding class="check-cards" search="reg. largada"></adding></span>',
+          "cont": '<span>Aquí no hay ninguna marca, deberán intentar otra dirección.<adding class="check-cards" search="reg. largada"></adding></span>',
         },
 
         // paso 2 (sin opción de regreso: ya no se ofrece la dirección Sur, sería volver a la largada)
@@ -9305,7 +9305,7 @@ const MissionsModule = (function () {
         },
         "validar paso #2 dirección norte": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso2n",
-          "cont": '<span>Aquí no hay ninguna marca. La puerta permanece cerrada y deberán intentar otra dirección.<adding class="check-cards" search="reg. paso2"></adding></span>',
+          "cont": '<span>Aquí no hay ninguna marca, deberán intentar otra dirección.<adding class="check-cards" search="reg. paso2"></adding></span>',
         },
         "paso #2: ir al este": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso2",
@@ -9321,7 +9321,7 @@ const MissionsModule = (function () {
         },
         "validar paso #2 dirección oeste": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso2o",
-          "cont": '<span>Aquí no hay ninguna marca. El terreno sigue tan seco como antes y deberán intentar otra dirección.<adding class="check-cards" search="reg. paso2"></adding></span>',
+          "cont": '<span>Aquí no hay ninguna marca, deberán intentar otra dirección.<adding class="check-cards" search="reg. paso2"></adding></span>',
         },
 
         // paso 3 (sin opción de regreso: ya no se ofrece el Oeste, sería volver al paso 2)
@@ -9355,7 +9355,7 @@ const MissionsModule = (function () {
         },
         "validar paso #3 dirección sur": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso3s",
-          "cont": '<span>Aquí no hay ninguna marca. El pantano sigue tan anegado como antes y deberán intentar otra dirección.<adding class="check-cards" search="reg. paso3"></adding></span>',
+          "cont": '<span>Aquí no hay ninguna marca, deberán intentar otra dirección.<adding class="check-cards" search="reg. paso3"></adding></span>',
         },
 
         // paso 4 (sin opción de regreso: ya no se ofrece el Sur, sería volver al paso 3)
@@ -9552,7 +9552,7 @@ const MissionsModule = (function () {
         },
         "validar paso #1 dirección norte": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #1: ir al norte",
-          "cont": '<span>Aquí no hay ninguna marca, deberán regresar hacia atrás.</span>',
+          "cont": '<span>Aquí no hay ninguna marca, deberán intentar otra dirección.</span>',
         },
         "paso #1: ir al este": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso1",
@@ -9560,7 +9560,7 @@ const MissionsModule = (function () {
         },
         "validar paso #1 dirección este": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #1: ir al este",
-          "cont": '<span>Aquí no hay ninguna marca, deberán regresar hacia atrás.</span>',
+          "cont": '<span>Aquí no hay ninguna marca, deberán intentar otra dirección.</span>',
         },
         "paso #1: ir al sur": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso1",
@@ -9568,7 +9568,7 @@ const MissionsModule = (function () {
         },
         "validar paso #1 dirección sur": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #1: ir al sur",
-          "cont": '<span>Aquí no hay ninguna marca, deberán regresar hacia atrás.</span>',
+          "cont": '<span>Aquí no hay ninguna marca, deberán intentar otra dirección.</span>',
         },
         "paso #1: ir al oeste": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso1",
@@ -9602,7 +9602,7 @@ const MissionsModule = (function () {
         },
         "validar paso #2 dirección sur": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso2s",
-          "cont": '<span>Aquí no hay ninguna marca. La puerta permanece cerrada y deberán intentar otra dirección.<adding class="check-cards" search="reg. paso2"></adding></span>',
+          "cont": '<span>Aquí no hay ninguna marca, deberán intentar otra dirección.<adding class="check-cards" search="reg. paso2"></adding></span>',
         },
         "paso #2: ir al oeste": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso2",
@@ -9610,7 +9610,7 @@ const MissionsModule = (function () {
         },
         "validar paso #2 dirección oeste": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso2o",
-          "cont": '<span>Aquí no hay ninguna marca. El fuego sigue ardiendo y deberán intentar otra dirección.<adding class="check-cards" search="reg. paso2"></adding></span>',
+          "cont": '<span>Aquí no hay ninguna marca, deberán intentar otra dirección.<adding class="check-cards" search="reg. paso2"></adding></span>',
         },
 
         // paso 3 (sin opción de regreso: ya no se ofrece el Sur, sería volver al paso 2)
@@ -9644,7 +9644,7 @@ const MissionsModule = (function () {
         },
         "validar paso #3 dirección oeste": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso3o",
-          "cont": '<span>Aquí no hay ninguna marca. El líquido sigue tan resbaladizo como antes y deberán intentar otra dirección.<adding class="check-cards" search="reg. paso3"></adding></span>',
+          "cont": '<span>Aquí no hay ninguna marca, deberán intentar otra dirección.<adding class="check-cards" search="reg. paso3"></adding></span>',
         },
 
         // paso 4 (sin opción de regreso: ya no se ofrece el Oeste, sería volver al paso 3)
@@ -9843,7 +9843,7 @@ const MissionsModule = (function () {
         },
         "validar paso #1 dirección este": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #1: ir al este",
-          "cont": '<span>Aquí no hay ninguna marca, deberán regresar hacia atrás.</span>',
+          "cont": '<span>Aquí no hay ninguna marca, deberán intentar otra dirección.</span>',
         },
         "paso #1: ir al sur": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso1",
@@ -9851,7 +9851,7 @@ const MissionsModule = (function () {
         },
         "validar paso #1 dirección sur": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #1: ir al sur",
-          "cont": '<span>Aquí no hay ninguna marca, deberán regresar hacia atrás.</span>',
+          "cont": '<span>Aquí no hay ninguna marca, deberán intentar otra dirección.</span>',
         },
         "paso #1: ir al oeste": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso1",
@@ -9859,7 +9859,7 @@ const MissionsModule = (function () {
         },
         "validar paso #1 dirección oeste": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #1: ir al oeste",
-          "cont": '<span>Aquí no hay ninguna marca, deberán regresar hacia atrás.</span>',
+          "cont": '<span>Aquí no hay ninguna marca, deberán intentar otra dirección.</span>',
         },
 
         // paso 2 (sin opción de regreso: ya no se ofrece el Sur, sería volver a la largada)
@@ -9877,7 +9877,7 @@ const MissionsModule = (function () {
         },
         "validar paso #2 dirección norte": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso2n",
-          "cont": '<span>Aquí no hay ninguna marca. La puerta permanece cerrada y deberán intentar otra dirección.<adding class="check-cards" search="reg. paso2"></adding></span>',
+          "cont": '<span>Aquí no hay ninguna marca, deberán intentar otra dirección.<adding class="check-cards" search="reg. paso2"></adding></span>',
         },
         "paso #2: ir al este": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso2",
@@ -9885,7 +9885,7 @@ const MissionsModule = (function () {
         },
         "validar paso #2 dirección este": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso2e",
-          "cont": '<span>Aquí no hay ninguna marca. La trampa sigue intacta y deberán intentar otra dirección.<adding class="check-cards" search="reg. paso2"></adding></span>',
+          "cont": '<span>Aquí no hay ninguna marca, deberán intentar otra dirección.<adding class="check-cards" search="reg. paso2"></adding></span>',
         },
         "paso #2: ir al oeste": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso2",
@@ -9927,7 +9927,7 @@ const MissionsModule = (function () {
         },
         "validar paso #3 dirección oeste": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso3o",
-          "cont": '<span>Aquí no hay ninguna marca. El mecanismo sigue sin ceder y deberán intentar otra dirección.<adding class="check-cards" search="reg. paso3"></adding></span>',
+          "cont": '<span>Aquí no hay ninguna marca, deberán intentar otra dirección.<adding class="check-cards" search="reg. paso3"></adding></span>',
         },
 
         // paso 4 (sin opción de regreso: ya no se ofrece el Sur, sería volver al paso 3)
@@ -10132,7 +10132,7 @@ const MissionsModule = (function () {
         },
         "validar paso #1 dirección este": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #1: ir al este",
-          "cont": '<span>Aquí no hay ninguna marca, deberán regresar hacia atrás.</span>',
+          "cont": '<span>Aquí no hay ninguna marca, deberán intentar otra dirección.</span>',
         },
         "paso #1: ir al sur": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso1",
@@ -10140,7 +10140,7 @@ const MissionsModule = (function () {
         },
         "validar paso #1 dirección sur": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #1: ir al sur",
-          "cont": '<span>Aquí no hay ninguna marca, deberán regresar hacia atrás.</span>',
+          "cont": '<span>Aquí no hay ninguna marca, deberán intentar otra dirección.</span>',
         },
         "paso #1: ir al oeste": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso1",
@@ -10148,7 +10148,7 @@ const MissionsModule = (function () {
         },
         "validar paso #1 dirección oeste": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #1: ir al oeste",
-          "cont": '<span>Aquí no hay ninguna marca, deberán regresar hacia atrás.</span>',
+          "cont": '<span>Aquí no hay ninguna marca, deberán intentar otra dirección.</span>',
         },
 
         // paso 2 (sin opción de regreso: ya no se ofrece el Sur, sería volver a la largada)
@@ -10166,7 +10166,7 @@ const MissionsModule = (function () {
         },
         "validar paso #2 dirección norte": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso2n",
-          "cont": '<span>Aquí no hay ninguna marca. El aroma sigue siendo tóxico y deberán intentar otra dirección.<adding class="check-cards" search="reg. paso2"></adding></span>',
+          "cont": '<span>Aquí no hay ninguna marca, deberán intentar otra dirección.<adding class="check-cards" search="reg. paso2"></adding></span>',
         },
         "paso #2: ir al este": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso2",
@@ -10182,7 +10182,7 @@ const MissionsModule = (function () {
         },
         "validar paso #2 dirección oeste": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso2o",
-          "cont": '<span>Aquí no hay ninguna marca. La puerta permanece cerrada y deberán intentar otra dirección.<adding class="check-cards" search="reg. paso2"></adding></span>',
+          "cont": '<span>Aquí no hay ninguna marca, deberán intentar otra dirección.<adding class="check-cards" search="reg. paso2"></adding></span>',
         },
 
         // paso 3 (sin opción de regreso: ya no se ofrece el Oeste, sería volver al paso 2)
@@ -10216,7 +10216,7 @@ const MissionsModule = (function () {
         },
         "validar paso #3 dirección sur": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso3s",
-          "cont": '<span>Aquí no hay ninguna marca. Las rocas siguen separadas y deberán intentar otra dirección.<adding class="check-cards" search="reg. paso3"></adding></span>',
+          "cont": '<span>Aquí no hay ninguna marca, deberán intentar otra dirección.<adding class="check-cards" search="reg. paso3"></adding></span>',
         },
 
         // paso 4 (sin opción de regreso: ya no se ofrece el Sur, sería volver al paso 3)
@@ -10413,7 +10413,7 @@ const MissionsModule = (function () {
         },
         "validar paso #1 dirección norte": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #1: ir al norte",
-          "cont": '<span>Aquí no hay ninguna marca, deberán regresar hacia atrás.</span>',
+          "cont": '<span>Aquí no hay ninguna marca, deberán intentar otra dirección.</span>',
         },
         "paso #1: ir al este": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso1",
@@ -10421,7 +10421,7 @@ const MissionsModule = (function () {
         },
         "validar paso #1 dirección este": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #1: ir al este",
-          "cont": '<span>Aquí no hay ninguna marca, deberán regresar hacia atrás.</span>',
+          "cont": '<span>Aquí no hay ninguna marca, deberán intentar otra dirección.</span>',
         },
         "paso #1: ir al sur": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso1",
@@ -10437,7 +10437,7 @@ const MissionsModule = (function () {
         },
         "validar paso #1 dirección oeste": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #1: ir al oeste",
-          "cont": '<span>Aquí no hay ninguna marca, deberán regresar hacia atrás.</span>',
+          "cont": '<span>Aquí no hay ninguna marca, deberán intentar otra dirección.</span>',
         },
 
         // paso 2 (sin opción de regreso: ya no se ofrece el Norte, sería volver a la largada)
@@ -10463,7 +10463,7 @@ const MissionsModule = (function () {
         },
         "validar paso #2 dirección sur": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #2: ir al sur",
-          "cont": '<span>Aquí no hay ninguna marca. La puerta permanece cerrada y deberán intentar otra dirección.<adding class="check-cards" search="reg. paso2"></adding></span>',
+          "cont": '<span>Aquí no hay ninguna marca, deberán intentar otra dirección.<adding class="check-cards" search="reg. paso2"></adding></span>',
         },
         "paso #2: ir al oeste": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso2",
@@ -10471,7 +10471,7 @@ const MissionsModule = (function () {
         },
         "validar paso #2 dirección oeste": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso2o",
-          "cont": '<span>Aquí no hay ninguna marca. El barro sigue tan espeso como antes y deberán intentar otra dirección.<adding class="check-cards" search="reg. paso2"></adding></span>',
+          "cont": '<span>Aquí no hay ninguna marca, deberán intentar otra dirección.<adding class="check-cards" search="reg. paso2"></adding></span>',
         },
 
         // paso 3 (sin opción de regreso: ya no se ofrece el Oeste, sería volver al paso 2)
@@ -10505,7 +10505,7 @@ const MissionsModule = (function () {
         },
         "validar paso #3 dirección sur": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso3s",
-          "cont": '<span>Aquí no hay ninguna marca. El reloj sigue detenido y deberán intentar otra dirección.<adding class="check-cards" search="paso3"></adding></span>',
+          "cont": '<span>Aquí no hay ninguna marca, deberán intentar otra dirección.<adding class="check-cards" search="paso3"></adding></span>',
         },
 
         // paso 4 (sin opción de regreso: ya no se ofrece el Sur, sería volver al paso 3)
@@ -10702,7 +10702,7 @@ const MissionsModule = (function () {
         },
         "validar paso #1 dirección norte": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #1: ir al norte",
-          "cont": '<span>Aquí no hay ninguna marca, deberán regresar hacia atrás.</span>',
+          "cont": '<span>Aquí no hay ninguna marca, deberán intentar otra dirección.</span>',
         },
         "paso #1: ir al este": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso1",
@@ -10710,7 +10710,7 @@ const MissionsModule = (function () {
         },
         "validar paso #1 dirección este": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #1: ir al este",
-          "cont": '<span>Aquí no hay ninguna marca, deberán regresar hacia atrás.</span>',
+          "cont": '<span>Aquí no hay ninguna marca, deberán intentar otra dirección.</span>',
         },
         "paso #1: ir al sur": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso1",
@@ -10726,7 +10726,7 @@ const MissionsModule = (function () {
         },
         "validar paso #1 dirección oeste": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #1: ir al oeste",
-          "cont": '<span>Aquí no hay ninguna marca, deberán regresar hacia atrás.</span>',
+          "cont": '<span>Aquí no hay ninguna marca, deberán intentar otra dirección.</span>',
         },
 
         // paso 2 (sin opción de regreso: ya no se ofrece el Norte, sería volver a la largada)
@@ -10744,7 +10744,7 @@ const MissionsModule = (function () {
         },
         "validar paso #2 dirección este": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso2e",
-          "cont": '<span>Aquí no hay ninguna marca. La puerta permanece cerrada y deberán intentar otra dirección.<adding class="check-cards" search="reg. paso2"></adding></span>',
+          "cont": '<span>Aquí no hay ninguna marca, deberán intentar otra dirección.<adding class="check-cards" search="reg. paso2"></adding></span>',
         },
         "paso #2: ir al sur": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso2",
@@ -10752,7 +10752,7 @@ const MissionsModule = (function () {
         },
         "validar paso #2 dirección sur": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #2: ir al sur",
-          "cont": '<span>Aquí no hay ninguna marca. El espíritu sigue suelto y deberán intentar otra dirección.<adding class="check-cards" search="reg. paso2"></adding></span>',
+          "cont": '<span>Aquí no hay ninguna marca, deberán intentar otra dirección.<adding class="check-cards" search="reg. paso2"></adding></span>',
         },
         "paso #2: ir al oeste": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso2",
@@ -10794,7 +10794,7 @@ const MissionsModule = (function () {
         },
         "validar paso #3 dirección oeste": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso3o",
-          "cont": '<span>Aquí no hay ninguna marca. La madera sigue tan áspera como antes y deberán intentar otra dirección.<adding class="check-cards" search="reg. paso3"></adding></span>',
+          "cont": '<span>Aquí no hay ninguna marca, deberán intentar otra dirección.<adding class="check-cards" search="reg. paso3"></adding></span>',
         },
 
         // paso 4 (sin opción de regreso: ya no se ofrece el Sur, sería volver al paso 3)
