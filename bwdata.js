@@ -9624,7 +9624,7 @@ const MissionsModule = (function () {
         },
         "paso #3: ir al norte": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso3",
-          "cont": '<span>Al avanzar hacia el Norte, los personajes se encuentran con 2 streelers que dejan un rastro plateado y resbaladizo a su paso. No podrán validar la dirección correcta hasta que no solucionen el conflicto con los mismos. En caso de que el dado de esta tarjeta sea positivo, los streelers atacan primero y de manera inmediata.',
+          "cont": '<span>Al avanzar hacia el Norte, los personajes se encuentran con 2 streelers que dejan un rastro plateado y resbaladizo a su paso. No podrán validar la dirección correcta hasta que no solucionen el conflicto con los mismos. En caso de que el dado de esta tarjeta sea positivo, los streelers atacan primero y de manera inmediata.</span>',
         },
         "validar paso #3 dirección norte": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso #3: ir al norte",
@@ -9674,7 +9674,7 @@ const MissionsModule = (function () {
         },
         "paso #4: ir al sur": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso4",
-          "cont": '<span>Al avanzar hacia el Sur, los personajes encuentran una zona de zarzas que raspan y queman la piel de quien intenta atravesarlas. Las espinas parecen tener un filo anormalmente afilado.',
+          "cont": '<span>Al avanzar hacia el Sur, los personajes encuentran una zona de zarzas que raspan y queman la piel de quien intenta atravesarlas. Las espinas parecen tener un filo anormalmente afilado.</span>',
         },
         "validar paso #4 dirección sur": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso4s",
