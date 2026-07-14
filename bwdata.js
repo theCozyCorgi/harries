@@ -1767,15 +1767,15 @@ const MissionsModule = (function () {
         },
         "coartada": {
           "leve": 'No es suficiente para pasar convencer a los guardias. Un guardia los detecta. Atacará primero si la lanzada de esta acción es par. Deberán agregar un "Guardia" como PNJ, el mismo tiene 35PV y 3 de fuerza y consitución.',
-          "moderado": 'Los papeles son suficientes para los guardias, lo dejan pasar indicando que la palabra clave del día es "Dearg".',
-          "exitoso": 'Los papeles son suficientes para los guardias, lo dejan pasar indicando que la palabra clave del día es "Dearg".',
-          "critico": 'Los papeles son suficientes para los guardias, lo dejan pasar indicando que la palabra clave del día es "Dearg".',
+          "moderado": 'Los papeles son suficientes para los guardias, lo dejan pasar indicando que la palabra clave del día es "Dearg".<adding search="coartada" class="check-cards"></adding>',
+          "exitoso": 'Los papeles son suficientes para los guardias, lo dejan pasar indicando que la palabra clave del día es "Dearg".<adding search="coartada" class="check-cards"></adding>',
+          "critico": 'Los papeles son suficientes para los guardias, lo dejan pasar indicando que la palabra clave del día es "Dearg".<adding search="coartada" class="check-cards"></adding>',
         },
         "scriptum mendax": {
           "leve": 'No es suficiente para pasar convencer a los guardias. Un guardia los detecta. Atacará primero si la lanzada de esta acción es par. Deberán agregar un "Guardia" como PNJ, el mismo tiene 35PV y 3 de fuerza y consitución.',
-          "moderado": 'Los papeles son suficientes para los guardias, lo dejan pasar indicando que la palabra clave del día es "Dearg".',
-          "exitoso": 'Los papeles son suficientes para los guardias, lo dejan pasar indicando que la palabra clave del día es "Dearg".',
-          "critico": 'Los papeles son suficientes para los guardias, lo dejan pasar indicando que la palabra clave del día es "Dearg".',
+          "moderado": 'Los papeles son suficientes para los guardias, lo dejan pasar indicando que la palabra clave del día es "Dearg".<adding search="coartada" class="check-cards"></adding>',
+          "exitoso": 'Los papeles son suficientes para los guardias, lo dejan pasar indicando que la palabra clave del día es "Dearg".<adding search="coartada" class="check-cards"></adding>',
+          "critico": 'Los papeles son suficientes para los guardias, lo dejan pasar indicando que la palabra clave del día es "Dearg".<adding search="coartada" class="check-cards"></adding>',
         },
         "specialis revelio": {
           "leve": 'No es suficiente para revelar información adicional.',
