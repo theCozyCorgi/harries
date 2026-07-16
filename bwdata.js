@@ -4966,14 +4966,14 @@ const MissionsModule = (function () {
         },
         "contar objetos por estanterías": {
           "visible": { "attr": { "sab": "3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "revisar inventario",
-          "cont": '<span>Al contar los objetos por estantería con todo el tiempo que eso lleva, pueden concluir que faltan objetos en las esanterías pared este, estantería lateral oeste 3 y estantería posterior 3.</span>',
+          "cont": '<span>Al contar los objetos por estantería con todo el tiempo que eso lleva, pueden concluir que faltan objetos en las estanterías pared este, estantería lateral oeste 3 y estantería posterior 3.</span>',
         },
         "ir a estantería pared este": {
           "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "contar objetos por estanterías",
           "cont": '<span>Al ir hacia la pared Este, pueden encontrar que en sus estanterías hay 2 esculturas, 15 pinturas y 3 artefactos en esta pared.</span>',
         },
         "revisar inventario estantería pared este": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "contar objetos por estanterías",
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería pared este",
           "cont": '<span>Según el inventario, en la estantería de la pared Este se pueden encontrar los siguientes objetos:<br>— Escultura: El Centinela de Piedra Caliza - Aldric Fenwyck (1503)<br>— Escultura: Fénix en Reposo - Marisol Quintanilla (1567)<br>— Pintura: Retrato del Duque Sin Rostro - Ottavia Pellegrini (1487)<br>— Pintura: Cosecha Bajo la Luna Roja - Fenwick Ashdown (1602)<br>— Pintura: Los Siete Pilares de Avalon - Constance Whitlock (1714)<br>— Pintura: Naturaleza Muerta con Serpientes - Bartholomew Grey (1745)<br>— Pintura: El Jardín que Nunca Duerme - Ines Marchetti (1780)<br>— Pintura: Autorretrato con Máscara de Zorro - Egil Ansfred (Siglo XI, atribuido)<br>— Pintura: La Boda de los Cuervos - Aurelia Thistlewood (1801)<br>— Pintura: Paisaje de Escocia en Invierno - Duncan MacFarlane (1823)<br>— Pintura: Tres Hermanas y una Vela - Perpetua Fane (1836)<br>— Pintura: El Mercader de Sombras - Lázaro Cavalcanti (1849)<br>— Pintura: La Última Cena de los Alquimistas - Bartholomew Grey (1861)<br>— Pintura: Campos de Amapolas Ardientes - Ines Marchetti (1874)<br>— Pintura: El Espejo que Miente - Lázaro Cavalcanti (1889)<br>— Pintura: Estudio de Manos - Perpetua Fane (1893)<br>— Pintura: Nocturno sobre el Lago Negro - Duncan MacFarlane (1901)<br>— Artefacto: Reloj de Arena Detenido - Cornelius Abernathy (1490)<br>— Artefacto: Espejo de las Voces Perdidas - Odalys Ferngrove (1523)<br>— Artefacto: Brújula que Señala al Miedo - Cornelius Abernathy (1567)<br>— Artefacto: Vaso de Cuerno de Unicornio - Odalys Ferngrove (1634)</span>',
         },
         "ir a estantería lateral oeste 3": {
