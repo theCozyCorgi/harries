@@ -5152,91 +5152,91 @@ const MissionsModule = (function () {
 
         // -- Esculturas --
         "identificar escultura el centinela de piedra caliza": {
-          "visible": { "attr": { "val": "min" }, "know": { "historia de la magia": "10" }, "job": "invalid", "name": "invalid", }, "place": "Ir a estantería pared este",
+          "visible": { "attr": { "val": "min" }, "know": { "historia de la magia": "10" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería pared este",
           "cont": '<span>Este tipo de centinelas de piedra caliza se usaban como defensa pasiva en propiedades de sangre pura antes de la llegada de los encantamientos protectores modernos.</span>',
         },
         "identificar escultura fénix en reposo": {
-          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "Ir a estantería pared este",
+          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería pared este",
           "cont": '<span>Las plumas talladas en posición de descanso y el pico curvado son inconfundiblemente los de un fénix.</span>',
         },
 
         // -- Pinturas --
         "identificar pintura retrato del duque sin rostro": {
-          "visible": { "attr": { "val": "min" }, "know": { "historia de la magia": "10" }, "job": "invalid", "name": "invalid", }, "place": "Ir a estantería pared este",
+          "visible": { "attr": { "val": "min" }, "know": { "historia de la magia": "10" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería pared este",
           "cont": '<span>El retratado nunca mostró su rostro en vida por miedo a una maldición familiar; Pellegrini respetó su deseo incluso después de su muerte.</span>',
         },
         "identificar pintura cosecha bajo la luna roja": {
-          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "Ir a estantería pared este",
+          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería pared este",
           "cont": '<span>El cielo pintado con una luna de tono rojizo sobre un campo de cultivo hace evidente la escena descrita en el título.</span>',
         },
         "identificar pintura los siete pilares de avalon": {
-          "visible": { "attr": { "val": "min" }, "know": { "historia de la magia": "5" }, "job": "invalid", "name": "invalid", }, "place": "Ir a estantería pared este",
+          "visible": { "attr": { "val": "min" }, "know": { "historia de la magia": "5" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería pared este",
           "cont": '<span>Los siete pilares representan a las siete familias fundadoras de una comunidad mágica hoy desaparecida.</span>',
         },
         "identificar pintura naturaleza muerta con serpientes": {
-          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "Ir a estantería pared este",
+          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería pared este",
           "cont": '<span>Las serpientes enroscadas entre la fruta son el elemento central y más llamativo de la composición.</span>',
         },
         "identificar pintura el jardín que nunca duerme": {
-          "visible": { "attr": { "val": "min" }, "know": { "dcao": "5" }, "job": "invalid", "name": "invalid", }, "place": "Ir a estantería pared este",
+          "visible": { "attr": { "val": "min" }, "know": { "dcao": "5" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería pared este",
           "cont": '<span>Las flores pintadas corresponden a especies que florecen únicamente de noche, motivo del nombre de la obra.</span>',
         },
         "identificar pintura autorretrato con máscara de zorro": {
-          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "Ir a estantería pared este",
+          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería pared este",
           "cont": '<span>El estilo del rostro coincide con el de "La Dama del Velo de Ceniza", lo que sugiere que se trata del mismo pintor, aunque la obra no está firmada.</span>',
         },
         "identificar pintura la boda de los cuervos": {
-          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "Ir a estantería pared este",
+          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería pared este",
           "cont": '<span>Los invitados a la boda pintada llevan plumas negras en lugar de ropa formal, una escena poco sutil sobre lo que representa el título.</span>',
         },
         "identificar pintura paisaje de escocia en invierno": {
-          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "Ir a estantería pared este",
+          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería pared este",
           "cont": '<span>El paisaje nevado y las montañas escocesas son fácilmente reconocibles para cualquiera con algo de conocimiento geográfico.</span>',
         },
         "identificar pintura tres hermanas y una vela": {
-          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "Ir a estantería pared este",
+          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería pared este",
           "cont": '<span>La pintura muestra literalmente a tres hermanas alrededor de una única vela encendida.</span>',
         },
         "identificar pintura el mercader de sombras": {
-          "visible": { "attr": { "val": "min" }, "know": { "dcao": "10" }, "job": "invalid", "name": "invalid", }, "place": "Ir a estantería pared este",
+          "visible": { "attr": { "val": "min" }, "know": { "dcao": "10" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería pared este",
           "cont": '<span>Retrata a un mercader que comerciaba con sombras robadas, una práctica de magia oscura prohibida desde el siglo XIX.</span>',
         },
         "identificar pintura la última cena de los alquimistas": {
-          "visible": { "attr": { "val": "min" }, "know": { "historia de la magia": "5" }, "job": "invalid", "name": "invalid", }, "place": "Ir a estantería pared este",
+          "visible": { "attr": { "val": "min" }, "know": { "historia de la magia": "5" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería pared este",
           "cont": '<span>Representa una cena real entre alquimistas que discutían la creación de la Piedra Filosofal, poco antes de que la práctica fuera regulada.</span>',
         },
         "identificar pintura campos de amapolas ardientes": {
-          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "Ir a estantería pared este",
+          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería pared este",
           "cont": '<span>Las amapolas están pintadas con tonos de fuego real en lugar del rojo habitual, haciendo evidente el "ardiente" del título.</span>',
         },
         "identificar pintura el espejo que miente": {
-          "visible": { "attr": { "val": "min" }, "know": { "dcao": "10" }, "job": "invalid", "name": "invalid", }, "place": "Ir a estantería pared este",
+          "visible": { "attr": { "val": "min" }, "know": { "dcao": "10" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería pared este",
           "cont": '<span>El espejo pintado es una representación de un objeto real que mostraba versiones falsas de la realidad a quien se miraba en él.</span>',
         },
         "identificar pintura estudio de manos": {
-          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "Ir a estantería pared este",
+          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería pared este",
           "cont": '<span>La obra se compone únicamente de bocetos de manos en distintas posiciones, sin ningún otro elemento en el lienzo.</span>',
         },
         "identificar pintura nocturno sobre el lago negro": {
-          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "Ir a estantería pared este",
+          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería pared este",
           "cont": '<span>El lago oscuro bajo un cielo estrellado remite directamente al nombre de la obra, sin mayor misterio.</span>',
         },
 
         // -- Artefactos --
         "identificar artefacto reloj de arena detenido": {
-          "visible": { "attr": { "val": "min" }, "know": { "dcao": "10" }, "job": "invalid", "name": "invalid", }, "place": "Ir a estantería pared este",
+          "visible": { "attr": { "val": "min" }, "know": { "dcao": "10" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería pared este",
           "cont": '<span>La arena de este reloj se detuvo mágicamente en el instante exacto de una muerte; algunos coleccionistas lo consideran de mal augurio.</span>',
         },
         "identificar artefacto espejo de las voces perdidas": {
-          "visible": { "attr": { "val": "min" }, "know": { "historia de la magia": "10" }, "job": "invalid", "name": "invalid", }, "place": "Ir a estantería pared este",
+          "visible": { "attr": { "val": "min" }, "know": { "historia de la magia": "10" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería pared este",
           "cont": '<span>Se dice que conserva ecos de conversaciones antiguas; los historiadores lo usaban para investigar eventos del pasado antes de que la práctica fuera prohibida.</span>',
         },
         "identificar artefacto brújula que señala al miedo": {
-          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "Ir a estantería pared este",
+          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería pared este",
           "cont": '<span>Se supone que, al tratarse de un artefacto sería fácil de identificar. Pese a eso, no hay ninguna brújula en la estantería.</span>',
         },
         "identificar artefacto vaso de cuerno de unicornio": {
-          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "Ir a estantería pared este",
+          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería pared este",
           "cont": '<span>La forma curva y el color nacarado del material dejan en claro que está hecho de cuerno de unicornio auténtico.</span>',
         },
       },
