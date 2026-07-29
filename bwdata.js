@@ -10346,7 +10346,7 @@ const MissionsModule = (function () {
           "exitoso": '<span>Resuelve el acertijo "paso #2: ir al oeste".<adding class="check-cards" search="paso2o"></adding></span>',
           "critico": '<span>Resuelve el acertijo "paso #2: ir al oeste".<adding class="check-cards" search="paso2o"></adding></span>',
         },
-        "reduce el fuego del caldero": {
+        "calidus flammus": {
           "leve": '<span>No es suficiente para revelar información</span>',
           "moderado": '<span>Resuelve el acertijo "paso #3: ir al norte".<adding class="check-cards" search="paso3n"></adding></span>',
           "exitoso": '<span>Resuelve el acertijo "paso #3: ir al norte".<adding class="check-cards" search="paso3n"></adding></span>',
