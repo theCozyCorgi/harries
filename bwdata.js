@@ -7990,8 +7990,8 @@ const MissionsModule = (function () {
         },
 
         "resultado guardianes": {
-          "leve": '<span><strong>1.er cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> Detiene <quid exp="keeper"></quid> balones rivales.<br><br><strong>2.do cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> Detiene <quid exp="keeper"></quid> balones rivales.<br><br><strong>3.er Tercer cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> Detiene <quid exp="keeper"></quid> balones rival.<br><br><strong>4.to cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> Detiene <quid exp="keeper"></quid> balones rival.<br></span>',
-          "moderado": '<span><strong>1.er cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> Detiene <quid exp="keeper"></quid> balones rivales.<br><br><strong>2.do cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> Detiene <quid exp="keeper"></quid> balones rivales.<br><br><strong>3.er Tercer cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> Detiene <quid exp="keeper"></quid> balones rivales.<br><br><strong>4.to cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> Detiene <quid exp="keeper"></quid> balones rival.<br></span>',
+          "leve": '<span><strong>1.er cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> Detiene <quid exp="keeper"></quid> balones rivales.<br><br><strong>2.do cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> Detiene <quid exp="keeper"></quid> balones rivales.<br><br><strong>3.er Tercer cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> Detiene <quid exp="keeper"></quid> balones rivales.<br><br><strong>4.to cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> Detiene <quid exp="keeper"></quid> balones rivales.<br></span>',
+          "moderado": '<span><strong>1.er cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> Detiene <quid exp="keeper"></quid> balones rivales.<br><br><strong>2.do cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> Detiene <quid exp="keeper"></quid> balones rivales.<br><br><strong>3.er Tercer cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> Detiene <quid exp="keeper"></quid> balones rivales.<br><br><strong>4.to cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> Detiene <quid exp="keeper"></quid> balones rivales.<br></span>',
           "exitoso": '<span><strong>1.er cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> Detiene <quid exp="keeper"></quid> balones rivales.<br><br><strong>2.do cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> Detiene <quid exp="keeper"></quid> balones rivales.<br><br><strong>3.er Tercer cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> Detiene <quid exp="keeper"></quid> balones rivales.<br><br><strong>4.to cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> Detiene <quid exp="keeper"></quid> balones rivales.<br></span>',
           "critico": '<span><strong>1.er cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> Detiene <quid exp="keeper"></quid> balones rivales.<br><br><strong>2.do cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> Detiene <quid exp="keeper"></quid> balones rivales.<br><br><strong>3.er Tercer cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> Detiene <quid exp="keeper"></quid> balones rivales.<br><br><strong>4.to cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> Detiene <quid exp="keeper"></quid> balones rivales.<br></span>',
         },
@@ -8005,6 +8005,98 @@ const MissionsModule = (function () {
       },
     },
     // fin quidditch narrativo
+
+
+
+    "interescolares": {
+      "description": "",
+      "image": "", "requisitos": [],
+      "users": ["/u179", "/u118", "/u12", "/u24", "/u119", "/u63", "/u38"],
+      "dependency": [],
+      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+
+      "cards": [],
+
+      "searchs": {
+        "resultado buscadores": {
+          "visible": { "attr": { "val": "min" }, "know": { "vuelo": "25" }, "job": "invalid", "name": "invalid", }, "place": "",
+          "cont": '<span>Has lanzado dado para ver tu resultado de Buscador:</span>',
+        },
+
+        "resultado cazadores": {
+          "visible": { "attr": { "val": "min" }, "know": { "vuelo": "25" }, "job": "invalid", "name": "invalid", }, "place": "",
+          "cont": '<span>Has lanzado dado para ver tu resultado de Cazador:</span>',
+        },
+
+        "resultado golpeadores": {
+          "visible": { "attr": { "val": "min" }, "know": { "vuelo": "25" }, "job": "invalid", "name": "invalid", }, "place": "",
+          "cont": '<span>Has lanzado dado para ver tu resultado de Golpeador:</span>',
+        },
+
+        "resultado guardianes": {
+          "visible": { "attr": { "val": "min" }, "know": { "vuelo": "25" }, "job": "invalid", "name": "invalid", }, "place": "",
+          "cont": '<span>Has lanzado dado para ver tu resultado de Guardián:</span>',
+        },
+
+        "resultado capitanes": {
+          "visible": { "attr": { "val": "min" }, "know": { "liderazgo": "25" }, "job": "invalid", "name": "invalid", }, "place": "",
+          "cont": '<span>Has lanzado dado para ver tu resultado adicional de Capitán:</span>',
+        },
+      },
+
+      "actions": {
+        "resultado buscadores": {
+          "leve": '<span>Atrapa la snitch al finalizar el <strong>6to cuarto</strong>. Valor de desempate <quid exp="seeker"></quid>.<br><br><strong>Bono:</strong> +5 puntos extra al marcador.</span>',
+
+          "moderado": '<span>Atrapa la snitch al finalizar el <strong>5to cuarto</strong>. Valor de desempate <quid exp="seeker"></quid>.<br><br><strong>Bono:</strong> +10 puntos extra al marcador.</span>',
+
+          "exitoso": '<span>Atrapa la snitch al finalizar el <strong>4to cuarto</strong>. Valor de desempate <quid exp="seeker"></quid>.<br><br><strong>Bono:</strong> +15 puntos extra al marcador.</span>',
+
+          "critico": '<span>Atrapa la snitch al finalizar el <strong>3er cuarto</strong>. Valor de desempate <quid exp="seeker"></quid>.<br><br><strong>Bono:</strong> +20 puntos extra al marcador.</span>',
+        },
+
+        "resultado cazadores": {
+          "leve": '<span><strong>1er cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> El cazador lanza <quid exp="chaser"></quid> veces a los aros rivales.<br><br><strong>2do cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> El cazador lanza <quid exp="chaser"></quid> veces a los aros rivales.<br><br><strong>3er Tercer cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> El cazador lanza <quid exp="chaser"></quid> veces a los aros rivales.<br><br><strong>4to cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> El cazador lanza <quid exp="chaser"></quid> veces a los aros rivales.<br><br><strong>5to cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> El cazador lanza <quid exp="chaser"></quid> veces a los aros rivales.<br><br><strong>6to cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> El cazador lanza <quid exp="chaser"></quid> veces a los aros rivales.<br><br><strong>Bonus:</strong><br><i class="fa-solid fa-star" aria-hidden="true"></i> +5 puntos en 1 cuarto a elección.<br></span>',
+
+          "moderado": '<span><strong>1er cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> El cazador lanza <quid exp="chaser"></quid> veces a los aros rivales.<br><br><strong>2do cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> El cazador lanza <quid exp="chaser"></quid> veces a los aros rivales.<br><br><strong>3er Tercer cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> El cazador lanza <quid exp="chaser"></quid> veces a los aros rivales.<br><br><strong>4to cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> El cazador lanza <quid exp="chaser"></quid> veces a los aros rivales.<br><br><strong>5to cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> El cazador lanza <quid exp="chaser"></quid> veces a los aros rivales.<br><br><strong>6to cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> El cazador lanza <quid exp="chaser"></quid> veces a los aros rivales.<br><br><strong>Bonus:</strong><br><i class="fa-solid fa-star" aria-hidden="true"></i> +5 puntos en 2 cuartos a elección.<br></span>',
+
+          "exitoso": '<span><strong>1er cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> El cazador lanza <quid exp="chaser"></quid> veces a los aros rivales.<br><br><strong>2do cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> El cazador lanza <quid exp="chaser"></quid> veces a los aros rivales.<br><br><strong>3er Tercer cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> El cazador lanza <quid exp="chaser"></quid> veces a los aros rivales.<br><br><strong>4to cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> El cazador lanza <quid exp="chaser"></quid> veces a los aros rivales.<br><br><strong>5to cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> El cazador lanza <quid exp="chaser"></quid> veces a los aros rivales.<br><br><strong>6to cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> El cazador lanza <quid exp="chaser"></quid> veces a los aros rivales.<br><br><strong>Bonus:</strong><br><i class="fa-solid fa-star" aria-hidden="true"></i> +10 puntos en 2 cuartos a elección.<br></span>',
+
+          "critico": '<span><strong>1er cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> El cazador lanza <quid exp="chaser"></quid> veces a los aros rivales.<br><br><strong>2do cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> El cazador lanza <quid exp="chaser"></quid> veces a los aros rivales.<br><br><strong>3er Tercer cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> El cazador lanza <quid exp="chaser"></quid> veces a los aros rivales.<br><br><strong>4to cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> El cazador lanza <quid exp="chaser"></quid> veces a los aros rivales.<br><br><strong>5to cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> El cazador lanza <quid exp="chaser"></quid> veces a los aros rivales.<br><br><strong>6to cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> El cazador lanza <quid exp="chaser"></quid> veces a los aros rivales.<br><br><strong>Bonus:</strong><br><i class="fa-solid fa-star" aria-hidden="true"></i> +10 puntos en 3 cuartos a elección.<br></span>',
+        },
+
+        "resultado golpeadores": {
+          "leve": '<span><strong>1er cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> Frena el ataque de un cazador, guardián o golpeador rival, reduciéndolo en <quid exp="beater"></quid> puntos, o retrasa 1 cuarto al buscador.<br><br><strong>2do cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> No logra frenar ataques rivales.<br><br><strong>3er cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> Frena el ataque de un cazador, guardián o golpeador rival, reduciéndolo en <quid exp="beater"></quid> puntos, o retrasa 1 cuarto al buscador.<br><br><strong>4to cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> No logra frenar ataques rivales.<br><br><strong>5to cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> Frena el ataque de un cazador, guardián o golpeador rival, reduciéndolo en <quid exp="beater"></quid> puntos, o retrasa 1 cuarto al buscador.<br><br><strong>6to cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> No logra frenar ataques rivales.<br><br><strong>Bonus:</strong><br><i class="fa-solid fa-star" aria-hidden="true"></i> +5 puntos en 1 cuarto a elección.<br></span>',
+
+          "moderado": '<span><strong>1er cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> Frena el ataque de un cazador, guardián o golpeador rival, reduciéndolo en <quid exp="beater"></quid> puntos, o retrasa 1 cuarto al buscador.<br><br><strong>2do cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> Frena el ataque de un cazador, guardián o golpeador rival, reduciéndolo en <quid exp="beater"></quid> puntos, o retrasa 1 cuarto al buscador.<br><br><strong>3er cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> Frena el ataque de un cazador, guardián o golpeador rival, reduciéndolo en <quid exp="beater"></quid> puntos, o retrasa 1 cuarto al buscador.<br><br><strong>4to cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> Frena el ataque de un cazador, guardián o golpeador rival, reduciéndolo en <quid exp="beater"></quid> puntos, o retrasa 1 cuarto al buscador.<br><br><strong>5to cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> Frena el ataque de un cazador, guardián o golpeador rival, reduciéndolo en <quid exp="beater"></quid> puntos, o retrasa 1 cuarto al buscador.<br><br><strong>6to cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> No logra frenar ataques rivales.<br><br><strong>Bonus:</strong><br><i class="fa-solid fa-star" aria-hidden="true"></i> +5 puntos en 2 cuartos a elección.<br></span>',
+
+          "exitoso": '<span><strong>1er cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> Frena el ataque de un cazador, guardián o golpeador rival, reduciéndolo en <quid exp="beater"></quid> puntos, o retrasa 1 cuarto al buscador.<br><br><strong>2do cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> Frena el ataque de un cazador, guardián o golpeador rival, reduciéndolo en <quid exp="beater"></quid> puntos, o retrasa 1 cuarto al buscador.<br><br><strong>3er cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> Frena el ataque de un cazador, guardián o golpeador rival, reduciéndolo en <quid exp="beater"></quid> puntos, o retrasa 1 cuarto al buscador.<br><br><strong>4to cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> Derriba un jugador.<br><br><strong>5to cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> Frena el ataque de un cazador, guardián o golpeador rival, reduciéndolo en <quid exp="beater"></quid> puntos, o retrasa 1 cuarto al buscador.<br><br><strong>6to cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> Frena el ataque de un cazador, guardián o golpeador rival, reduciéndolo en <quid exp="beater"></quid> puntos, o retrasa 1 cuarto al buscador.<br><br><strong>Bonus:</strong><br><i class="fa-solid fa-star" aria-hidden="true"></i> +10 puntos en 2 cuartos a elección.<br></span>',
+
+          "critico": '<span><strong>1er cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> Frena el ataque de un cazador, guardián o golpeador rival, reduciéndolo en <quid exp="beater"></quid> puntos, o retrasa 1 cuarto al buscador.<br><br><strong>2do cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> Frena el ataque de un cazador, guardián o golpeador rival, reduciéndolo en <quid exp="beater"></quid> puntos, o retrasa 1 cuarto al buscador.<br><br><strong>3er cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> Derriba un jugador y frena el ataque de un cazador, guardián o golpeador rival, reduciéndolo en <quid exp="beater"></quid> puntos.<br><br><strong>4to cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> Frena el ataque de un cazador, guardián o golpeador rival, reduciéndolo en <quid exp="beater"></quid> puntos, o retrasa 1 cuarto al buscador.<br><br><strong>5to cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> Frena el ataque de un cazador, guardián o golpeador rival, reduciéndolo en <quid exp="beater"></quid> puntos, o retrasa 1 cuarto al buscador.<br><br><strong>6to cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> Frena el ataque de un cazador, guardián o golpeador rival, reduciéndolo en <quid exp="beater"></quid> puntos, o retrasa 2 cuartos al buscador.<br><br><strong>Bonus:</strong><br><i class="fa-solid fa-star" aria-hidden="true"></i> +10 puntos en 3 cuartos a elección.<br></span>',
+        },
+
+        "resultado guardianes": {
+          "leve": '<span><strong>1er cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> Detiene <quid exp="keeper"></quid> balones rivales.<br><br><strong>2do cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> Detiene <quid exp="keeper"></quid> balones rivales.<br><br><strong>3er Tercer cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> Detiene <quid exp="keeper"></quid> balones rivales.<br><br><strong>4to cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> Detiene <quid exp="keeper"></quid> balones rivales.<br><br><strong>5to cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> Detiene <quid exp="keeper"></quid> balones rivales.<br><br><strong>6to cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> Detiene <quid exp="keeper"></quid> balones rivales.<br><br><strong>Bonus:</strong><br><i class="fa-solid fa-star" aria-hidden="true"></i> +5 puntos en 1 cuarto a elección.<br></span>',
+
+          "moderado": '<span><strong>1.er cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> Detiene <quid exp="keeper"></quid> balones rivales.<br><br><strong>2.do cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> Detiene <quid exp="keeper"></quid> balones rivales.<br><br><strong>3.er Tercer cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> Detiene <quid exp="keeper"></quid> balones rivales.<br><br><strong>4.to cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> Detiene <quid exp="keeper"></quid> balones rivales.<br><br><strong>5.to cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> Detiene <quid exp="keeper"></quid> balones rivales.<br><br><strong>6.to cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> Detiene <quid exp="keeper"></quid> balones rivales.<br><br><strong>Bonus:</strong><br><i class="fa-solid fa-star" aria-hidden="true"></i> +5 puntos en 2 cuartos a elección.<br></span>',
+
+          "exitoso": '<span><strong>1.er cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> Detiene <quid exp="keeper"></quid> balones rivales.<br><br><strong>2.do cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> Detiene <quid exp="keeper"></quid> balones rivales.<br><br><strong>3.er Tercer cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> Detiene <quid exp="keeper"></quid> balones rivales.<br><br><strong>4.to cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> Detiene <quid exp="keeper"></quid> balones rivales.<br><br><strong>5.to cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> Detiene <quid exp="keeper"></quid> balones rivales.<br><br><strong>6.to cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> Detiene <quid exp="keeper"></quid> balones rivales.<br><br><strong>Bonus:</strong><br><i class="fa-solid fa-star" aria-hidden="true"></i> +10 puntos en 2 cuartos a elección.<br></span>',
+
+          "critico": '<span><strong>1.er cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> Detiene <quid exp="keeper"></quid> balones rivales.<br><br><strong>2.do cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> Detiene <quid exp="keeper"></quid> balones rivales.<br><br><strong>3.er Tercer cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> Detiene <quid exp="keeper"></quid> balones rivales.<br><br><strong>4.to cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> Detiene <quid exp="keeper"></quid> balones rivales.<br><br><strong>5.to cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> Detiene <quid exp="keeper"></quid> balones rivales.<br><br><strong>6.to cuarto:</strong><br><i class="fa-solid fa-dash" aria-hidden="true"></i> Detiene <quid exp="keeper"></quid> balones rivales.<br><br><strong>Bonus:</strong><br><i class="fa-solid fa-star" aria-hidden="true"></i> +10 puntos en 3 cuartos a elección.<br></span>',
+        },
+
+        "resultado capitanes": {
+          "leve": '<span><strong>Comodín:</strong> Refuerza la jugada de un compañero (cazador, guardián o golpeador), sumando <quid exp="cap"></quid> puntos extra a su resultado, en un cuarto a elección.</span>',
+
+          "moderado": '<span><strong>Comodín:</strong> Refuerza la jugada de un compañero (cazador, guardián o golpeador), sumando <quid exp="cap"></quid> puntos extra a su resultado, en un cuarto a elección.</span>',
+
+          "exitoso": '<span><strong>Comodín:</strong> Salva a un jugador de la Bludger y refuerza la jugada de un compañero (cazador, guardián o golpeador), sumando <quid exp="cap"></quid> puntos extra a su resultado, en un cuarto a elección.</span>',
+
+          "critico": '<span><strong>Comodín:</strong> Salva a un jugador de la Bludger y refuerza la jugada de dos compañeros (cazador, guardián o golpeador), sumando <quid exp="cap"></quid> puntos extra a cada resultado, en un cuarto a elección para cada uno.</span>',
+        },
+      },
+    },
+    // fin quidditch interescolares
 
     "enfrenta tus miedos": {
       "description": "Sin descripcion.",
@@ -10347,6 +10439,12 @@ const MissionsModule = (function () {
           "critico": '<span>Resuelve el acertijo "paso #2: ir al oeste".<adding class="check-cards" search="paso2o"></adding></span>',
         },
         "calidus flammus": {
+          "leve": '<span>No es suficiente para revelar información</span>',
+          "moderado": '<span>Resuelve el acertijo "paso #3: ir al norte".<adding class="check-cards" search="paso3n"></adding></span>',
+          "exitoso": '<span>Resuelve el acertijo "paso #3: ir al norte".<adding class="check-cards" search="paso3n"></adding></span>',
+          "critico": '<span>Resuelve el acertijo "paso #3: ir al norte".<adding class="check-cards" search="paso3n"></adding></span>',
+        },
+        "reduce el fuego del caldero": {
           "leve": '<span>No es suficiente para revelar información</span>',
           "moderado": '<span>Resuelve el acertijo "paso #3: ir al norte".<adding class="check-cards" search="paso3n"></adding></span>',
           "exitoso": '<span>Resuelve el acertijo "paso #3: ir al norte".<adding class="check-cards" search="paso3n"></adding></span>',
