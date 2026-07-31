@@ -9431,7 +9431,7 @@ const MissionsModule = (function () {
         },
         "validar paso #3 dirección norte": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso3n",
-          "cont": '<span>Tras cruzar la puerta, los personajes ven un lazo violeta atado entre dos ramas, confirmando que avanzan en la dirección correcta.<adding class="check-cards" search="paso4"></adding></span>',
+          "cont": '<span>¡Felicitaciones! ¡Ya pueden visualizar la bandera! Deberán esperar a que todos los grupos terminen para que la administración avise en qué posición han llegado.</span>',
         },
         "paso #3: ir al este": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso3",
@@ -9728,7 +9728,7 @@ const MissionsModule = (function () {
         },
         "validar paso #3 dirección este": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso3e",
-          "cont": '<span>Tras cruzar la puerta, los personajes ven un lazo naranja atado entre dos ramas, confirmando que avanzan en la dirección correcta.<adding class="check-cards" search="paso4"></adding></span>',
+          "cont": '<span>¡Felicitaciones! ¡Ya pueden visualizar la bandera! Deberán esperar a que todos los grupos terminen para que la administración avise en qué posición han llegado.</span>',
         },
         "paso #3: ir al oeste": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso3",
@@ -10003,7 +10003,7 @@ const MissionsModule = (function () {
         },
         "validar paso #3 dirección norte": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso3n",
-          "cont": '<span>Tras cruzar la puerta, los personajes ven un lazo turquesa atado entre dos ramas, confirmando que avanzan en la dirección correcta.<adding class="check-cards" search="paso4"></adding></span>',
+          "cont": '<span>¡Felicitaciones! ¡Ya pueden visualizar la bandera! Deberán esperar a que todos los grupos terminen para que la administración avise en qué posición han llegado.</span>',
         },
         "paso #3: ir al sur": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso3",
@@ -10292,7 +10292,7 @@ const MissionsModule = (function () {
         },
         "validar paso #3 dirección norte": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso3n",
-          "cont": '<span>Tras cruzar la puerta, los personajes ven un lazo coral atado entre dos ramas, confirmando que avanzan en la dirección correcta.<adding class="check-cards" search="paso4"></adding></span>',
+          "cont": '<span>¡Felicitaciones! ¡Ya pueden visualizar la bandera! Deberán esperar a que todos los grupos terminen para que la administración avise en qué posición han llegado.</span>',
         },
         "paso #3: ir al este": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso3",
@@ -10587,7 +10587,7 @@ const MissionsModule = (function () {
         },
         "validar paso #3 dirección norte": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso3n",
-          "cont": '<span>Tras cruzar la puerta, los personajes ven un lazo celeste atado entre dos ramas, confirmando que avanzan en la dirección correcta.<adding class="check-cards" search="paso4"></adding></span>',
+          "cont": '<span>¡Felicitaciones! ¡Ya pueden visualizar la bandera! Deberán esperar a que todos los grupos terminen para que la administración avise en qué posición han llegado.</span>',
         },
         "paso #3: ir al este": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso3",
@@ -10876,7 +10876,7 @@ const MissionsModule = (function () {
         },
         "validar paso #3 dirección norte": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso3n",
-          "cont": '<span>Tras cruzar la puerta, los personajes ven un lazo rosa atado entre dos ramas, confirmando que avanzan en la dirección correcta.<adding class="check-cards" search="paso4"></adding></span>',
+          "cont": '<span>¡Felicitaciones! ¡Ya pueden visualizar la bandera! Deberán esperar a que todos los grupos terminen para que la administración avise en qué posición han llegado.</span>',
         },
         "paso #3: ir al sur": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "paso3",
