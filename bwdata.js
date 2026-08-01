@@ -10723,9 +10723,9 @@ const MissionsModule = (function () {
         },
         "noctis luminis": {
           "leve": '<span>No es suficiente para revelar información</span>',
-          "moderado": '<span>Resuelve el acertijo "paso #2: ir al sur".<adding class="check-cards" search="paso2s"></adding></span>',
-          "exitoso": '<span>Resuelve el acertijo "paso #2: ir al sur".<adding class="check-cards" search="paso2s"></adding></span>',
-          "critico": '<span>Resuelve el acertijo "paso #2: ir al sur".<adding class="check-cards" search="paso2s"></adding></span>',
+          "moderado": '<span>Resuelve el acertijo "paso #2: ir al este".<adding class="check-cards" search="paso2e"></adding></span>',
+          "exitoso": '<span>Resuelve el acertijo "paso #2: ir al este".<adding class="check-cards" search="paso2e"></adding></span>',
+          "critico": '<span>Resuelve el acertijo "paso #2: ir al este".<adding class="check-cards" search="paso2e"></adding></span>',
         },
         "purifactum": {
           "leve": '<span>No es suficiente para revelar información</span>',
