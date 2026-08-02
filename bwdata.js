@@ -4169,7 +4169,7 @@ const MissionsModule = (function () {
       "description": "Esta misión posee una serie de temas en flashback que la administración irá desbloqueando para que los usuarios puedan ganar conocimiento sobre ciertas situaciones que ocurrieron en el pasado y como los hechos llegaron a hasta la situacion actual.",
       "image": "https://2img.net/i.imgur.com/lVnrOfx.png", "requisitos": ["La administración abrirá un tema con las condiciones para desbloquear esta trama"],
       "users": [],
-      "dependency": ["lethal trail"],
+      "dependency": ["arcane families"],
       "type": "misión", "closed": false, "link": "", "tagged": ["edwin", "morgana", "sirius", "wave", "capitulo 0"],
 
       "cards": [],
