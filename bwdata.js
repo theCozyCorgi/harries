@@ -2610,7 +2610,7 @@ const MissionsModule = (function () {
 
     "the fenris project": {
       "description": "Si bien muchos consideran que la investigación sobre las pistas del asesinato terminaron. Con los últimos descubrimientos, varias mentes brillantes se juntan para comprobar si la teoría de Sirius es cierta y es posible crear una poción que permita eliminar las secuelas que producen la licantropía.",
-      "image": "https://2img.net/i.imgur.com/LhHwm7Y.png", "requisitos": ["Un miembro debe tener Alquimia en Avanzado", "Un miembro debe tener CCM en Avanzado", "Un licántropo voluntario"],
+      "image": "https://2img.net/i.imgur.com/LhHwm7Y.png", "requisitos": ["Un miembro debe tener Alquimia en Avanzado", "Un miembro debe tener CCM en Avanzado", "Un licántropo voluntario en caso de existir, caso contrario un miembro podrá asumir el rol como PNJ"],
       "users": [],
       "dependency": ["through the green abyss"],
       "type": "misión", "closed": false, "link": "", "tagged": ["sirius", "capitulo 0"],
@@ -3117,7 +3117,7 @@ const MissionsModule = (function () {
         },
         "caja de pociones": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "investigar escritorio",
-          "cont": '<span>En el escritorio, puede observarse que hay una pequeña caja capaz de contener tres pequeños frascos de pociones. No obstante, solo hay dos. El líquido es de un color azul brillante como la noche. Y sobre el mismo hay una nota que cita "Enviar a Sirius Black".</span>',
+          "cont": '<span>En el escritorio, puede observarse que hay una pequeña caja capaz de contener tres pequeños frascos de pociones. No obstante, solo hay dos. El líquido es de un color azul brillante como la noche. Y sobre el mismo hay una nota que cita "Enviar a Sirius Black". Debajo de la caja, puede encontrarse unas pequeña bolsa con unos frascos pequeños color rojo y una nota que indica: "Una mala idea".</span>',
         },
         "investigar la caja de cartas en el escritorio": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "investigar escritorio",
@@ -3645,7 +3645,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/cX0CEv6.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica", "Un miembro deberá haber obtenido la pista del interrogatorio 'green to blue' o de la investigación 'full of emptiness'", "Un miembro deberá haber obtenido la pista del interrogatorio 'distorted memories' o 'journey of a bird"],
       "users": ["/u55", "/u78", "/u8"],
       "dependency": ["frozen sunflowers"],
-      "type": "interrogatorio", "closed": false, "link": "https://blackwave.foroactivo.com/t1170-interrogatorio-the-apple-house", "tagged": ["morgana", "capitulo 0"],
+      "type": "interrogatorio", "closed": true, "link": "https://blackwave.foroactivo.com/t1170-interrogatorio-the-apple-house", "tagged": ["morgana", "capitulo 0"],
 
       "cards": [],
       "searchs": {},
@@ -4100,24 +4100,11 @@ const MissionsModule = (function () {
     },
     // fin velvet death
 
-    "lethal trail": {
-      "description": "La marca del Ministerio de Magia localizada en los frascos, solo lleva a un lugar. Los frascos habían sido proporcionados por la ministra Tuft, pero por qué, con qué fin. En esta misión la administración participará como Wilhelmina para que pueda hacerse el interrogatorio.",
-      "image": "https://2img.net/i.imgur.com/MbBcQcL.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica"],
-      "users": [],
-      "dependency": ["velvet death", "stargazer's night"],
-      "type": "interrogatorio", "closed": false, "link": "", "tagged": ["edwin", "wave", "capitulo 0"],
-
-      "cards": [],
-      "searchs": {},
-      "actions": {},
-    },
-    // fin lethal trail
-
     "the wounded dragon": {
       "description": "Reportes han llegado a la reserva Natural de Flint, un dragón que ha sido volando por las tierras irlandesas. No solo son los rastros de sangre los que generan confianza de una gran herida, sino también el llanto que podía ser escuchado por toda la zona. La reserva se mueve y envía a alguien a encontrar al dragón herido para poder curarlo.",
-      "image": "https://2img.net/i.imgur.com/JyNcMmD.png", "requisitos": ["Un miembro debe tener CCM en Avanzado", "Un miembro debe poseer Curación en Avanzado"],
+      "image": "https://2img.net/i.imgur.com/JyNcMmD.png", "requisitos": ["Un miembro debe tener CCM en Consagrado", "Un miembro debe poseer Curación en Avanzado"],
       "users": [],
-      "dependency": ["the apple house", "stargazer's night", "in search of the deadly hallows"],
+      "dependency": [],
       "type": "misión", "closed": false, "link": "", "tagged": ["wave", "capitulo 1"],
 
       "cards": [],
