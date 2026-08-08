@@ -1618,6 +1618,14 @@ const MissionsModule = (function () {
           "visible": { "attr": { "int": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "subir a tercer piso",
           "cont": '<span>Permite a los personajes retirarse sin llamar la atención de los guardias. La misión pueden considerarse éxitosa.</span>',
         },
+        "responder que el viaje ha ido bien desde dingle": {
+          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "intervencion2",
+          "cont": '<span>Al responder que el viaje ha ido bien, el guardia nota el error y ataca inmediatamente. El personaje que haya seleccionado esta tarjeta pierde 15pv y no puede atacar en su primer turno.</span>',
+        },
+        "responder que el viaje no se originó desde dingle": {
+          "visible": { "attr": { "sab": "3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "intervencion2",
+          "cont": '<span>Responde que el viaje no ha sido desde Dingle, sino desde Kinsale, basandose en un mapa que había en la camioneta y marcaba aquella ciudad como el origen.</span>',
+        },
       },
 
       "actions": {
