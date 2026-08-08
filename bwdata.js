@@ -1493,8 +1493,8 @@ const MissionsModule = (function () {
           "defensas": {
             "leve": 'Defiende con hechizo: "Protego". Adiciona +6 de defensa.',
             "moderado": 'Defiende con hechizo: "Protego". Adiciona +9 de defensa.',
-            "exitoso": 'Defiende con hechizo: "Protego". Adiciona +12 de defensa. Si la defensa gana, llama a otro Guardia, sumando un nuevo PNJ con las mismas cualidades a las que deberán enfrentarse. Solo existen 13 guardias en el edificio.',
-            "critico": 'Defiende con hechizo: "Protego". Adiciona +15 de defensa. Si la defensa gana, llama a otro Guardia, sumando un nuevo PNJ con las mismas cualidades a las que deberán enfrentarse. Solo existen 13 guardias en el edificio.',
+            "exitoso": 'Defiende con hechizo: "Protego". Adiciona +12 de defensa. Si la defensa gana, llama a otro Guardia, sumando un nuevo PNJ con las mismas cualidades a las que deberán enfrentarse. Solo existen 32 guardias en el edificio.',
+            "critico": 'Defiende con hechizo: "Protego". Adiciona +15 de defensa. Si la defensa gana, llama a otro Guardia, sumando un nuevo PNJ con las mismas cualidades a las que deberán enfrentarse. Solo existen 32 guardias en el edificio.',
           },
         },
       },
