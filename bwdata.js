@@ -1620,11 +1620,11 @@ const MissionsModule = (function () {
         },
         "responder que el viaje ha ido bien desde dingle": {
           "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "intervencion2",
-          "cont": '<span>Al responder que el viaje ha ido bien, el guardia nota el error y ataca inmediatamente. El personaje que haya seleccionado esta tarjeta pierde 15pv y no puede atacar en su primer turno.</span>',
+          "cont": '<span>Al responder que el viaje ha ido bien desde Dingle, el guardia frunce el ceño apenas un segundo, lo justo para que la varita ya esté en su mano antes que la sonrisa termine de borrarse del rostro. <strong>«Dingle»</strong>, repite, casi para sí, como si paladeara el error. El personaje que haya seleccionado esta tarjeta pierde 15pv y no puede atacar en su primer turno.</span>',
         },
         "responder que el viaje no se originó desde dingle": {
           "visible": { "attr": { "sab": "3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "intervencion2",
-          "cont": '<span>Responde que el viaje no ha sido desde Dingle, sino desde Kinsale, basandose en un mapa que había en la camioneta y marcaba aquella ciudad como el origen.</span>',
+          "cont": '<span>Responde que el viaje no ha sido desde Dingle, sino desde Kinsale, basándose en un mapa que había en la camioneta y que marcaba aquella ciudad como el origen. El guardia asiente, satisfecho con la corrección, como si aquello confirmara lo que ya sospechaba de la ruta real. La sospecha no desaparece del todo, pero por ahora, alcanza para seguir avanzando.</span>',
         },
       },
 
