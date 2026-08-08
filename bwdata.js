@@ -1754,14 +1754,14 @@ const MissionsModule = (function () {
           "critico": 'Permite que los personajes avancen sin necesidad de usar "Tacite".',
         },
         "tacite": {
-          "leve": 'No es suficiente para pasar inadvertido. Un guardia los detecta. Atacará primero si la lanzada de esta acción es par. Deberán agregar un "Guardia" como PNJ, el mismo tiene 35PV y 3 de fuerza y consitución.',
-          "moderado": 'El personaje puede pasar sin llamar la atención.',
+          "leve": 'No es suficiente para pasar inadvertido. Un guardia los detecta. Atacará primero si la lanzada de esta acción es par. Deberán agregar tres (3) guardias como PNJ "Guardia", los mismos tiene 35PV y 3 de fuerza y consitución.',
+          "moderado": 'No es suficiente para pasar inadvertido. Un guardia los detecta. Atacará primero si la lanzada de esta acción es par. Deberán agregar dos (2) guardias como PNJ "Guardia", los mismos tiene 35PV y 3 de fuerza y consitución.',
           "exitoso": 'El personaje puede pasar sin llamar la atención.',
           "critico": 'El personaje puede pasar sin llamar la atención.',
         },
         "artimaña": {
-          "leve": 'No es suficiente para pasar convencer a los guardias. Un guardia los detecta. Atacará primero si la lanzada de esta acción es par. Deberán agregar un "Guardia" como PNJ, el mismo tiene 35PV y 3 de fuerza y consitución.',
-          "moderado": 'Los guardias dejan pasar al personaje sin que les llame la atención.',
+          "leve": 'No es suficiente para pasar inadvertido. Un guardia los detecta. Atacará primero si la lanzada de esta acción es par. Deberán agregar tres (3) guardias como PNJ "Guardia", los mismos tiene 35PV y 3 de fuerza y consitución.',
+          "moderado": 'No es suficiente para pasar inadvertido. Un guardia los detecta. Atacará primero si la lanzada de esta acción es par. Deberán agregar dos (2) guardias como PNJ "Guardia", los mismos tiene 35PV y 3 de fuerza y consitución.',
           "exitoso": 'Los guardias dejan pasar al personaje sin que les llame la atención.',
           "critico": 'Los guardias dejan pasar al personaje sin que les llame la atención.',
         },
