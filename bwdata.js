@@ -1484,17 +1484,17 @@ const MissionsModule = (function () {
           "clasificación": "ser / personaje no jugable",
           "descripción": "personaje no jugable",
           "ataques": {
-            "leve": 'Ataca con hechizo: "Expelliarmus". El objeto es expulsado con fuerza y queda fuera del alcance inmediato del objetivo. El objetivo pierde una acción utilizada para recuperar su varita.',
-            "moderado": 'Ataca con hechizo: "Mimble Wimble". La víctima apenas puede pronunciar palabras coherentes, dificultando cualquier comunicación. Pierde 5 puntos en todos los hechizos verbales.',
-            "exitoso": 'Ataca con hechizo: "Flipendo". El oponente es derribado y lanzado al suelo. Adiciona +10 en el daño.',
-            "critico": 'Ataca con hechizo: "Petrificus Totalus". El objetivo queda completamente inmóvil hasta que el efecto se disipe. El personaje no podrá realizar acciones hasta que otro personaje lo libere o realice dos roles. Si al conjurador le anulan acciones, se eliminan los efectos inmediatamente.',
+            "leve": 'Ataca con hechizo: "Confringo". Una pequeña explosión estalla junto al objetivo, derribándolo con fuerza. Adiciona +7 en el daño.',
+            "moderado": 'Ataca con hechizo: "Diffindo". Un corte preciso alcanza al objetivo, dejando una herida evidente. Adiciona +10 en el daño.',
+            "exitoso": 'Ataca con hechizo: "Depulso". El objetivo es lanzado varios metros hacia atrás, perdiendo el equilibrio. Adiciona +12 en el daño y la víctima pierde su siguiente acción inmediata.',
+            "critico": '.Ataca con hechizo: "Desmaius". El objetivo siente un ligero aturdimiento que le dificulta reaccionar con claridad. Adiciona +15 en el daño y la víctima pierde sus siguientes dos acciones inmediatas.',
           },
 
           "defensas": {
-            "leve": 'Defiende con hechizo: "Protego". Adiciona +4 de defensa.',
-            "moderado": 'Defiende con hechizo: "Protego". Adiciona +6 de defensa.',
-            "exitoso": 'Defiende con hechizo: "Protego". Adiciona +8 de defensa. Si la defensa gana, llama a otro Guardia, sumando un nuevo PNJ con las mismas cualidades a las que deberán enfrentarse. Solo existen 13 guardias en el edificio.',
-            "critico": 'Defiende con hechizo: "Protego". Adiciona +10 de defensa. Si la defensa gana, llama a otro Guardia, sumando un nuevo PNJ con las mismas cualidades a las que deberán enfrentarse. Solo existen 13 guardias en el edificio.',
+            "leve": 'Defiende con hechizo: "Protego". Adiciona +6 de defensa.',
+            "moderado": 'Defiende con hechizo: "Protego". Adiciona +9 de defensa.',
+            "exitoso": 'Defiende con hechizo: "Protego". Adiciona +12 de defensa. Si la defensa gana, llama a otro Guardia, sumando un nuevo PNJ con las mismas cualidades a las que deberán enfrentarse. Solo existen 13 guardias en el edificio.',
+            "critico": 'Defiende con hechizo: "Protego". Adiciona +15 de defensa. Si la defensa gana, llama a otro Guardia, sumando un nuevo PNJ con las mismas cualidades a las que deberán enfrentarse. Solo existen 13 guardias en el edificio.',
           },
         },
       },
@@ -2109,7 +2109,7 @@ const MissionsModule = (function () {
     "the price of silence": {
       "description": "El animal al que pertenece la toxina, es propio del suroeste asiático, pero aquello no es lo más exótico, sino que su compra y venta de veneno es ilegal. La investigación se mueve hacia algún contrabandista que quiera dar la información sobre dónde puede conseguirse dicho ingrediente para generar el veneno que, aparentemente, ha acabado con la vida de Sirius Black.",
       "image": "https://2img.net/i.imgur.com/GfHnpgi.png", "requisitos": ["un miembro del departamento del Seguridad Mágica", "Un personaje con Contrabando en Avanzado"],
-      "users": ["/u134"],
+      "users": ["/u134","/u55", "/u8"],
       "dependency": ["ryu's breath"],
       "type": "misión", "closed": false, "link": "", "tagged": ["sirius", "capitulo 0"],
 
@@ -2598,7 +2598,7 @@ const MissionsModule = (function () {
     "through the green abyss": {
       "description": "Siguiendo los mapas encontrados en el estudio de Sirius y las indicaciones del alquimista. Es necesario adentrarse a uno de los lugares más peligrosos del mundo mágico: o Coração do Curupira (El corazón del Curupira). Una de las partes más espesas de la selva brasilera que dicen que está protegida por el mismo Curupira.",
       "image": "https://2img.net/i.imgur.com/c4omOwT.png", "requisitos": ["Un miembro debe tener CCM en Avanzado", "Un miembro del Dpto de Seguridad Mágica"],
-      "users": ["/u159"],
+      "users": ["/u159","/u153"],
       "dependency": ["the lupine killer", "in search of the deadly hallows"],
       "type": "misión", "closed": false, "link": "", "tagged": ["sirius", "capitulo 0"],
 
