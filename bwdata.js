@@ -1635,6 +1635,12 @@ const MissionsModule = (function () {
           "exitoso": 'Permite detener el camión para infiltrarse con el mismo.<adding search="detener camión" class="check-cards"></adding>',
           "critico": 'Permite detener el camión para infiltrarse con el mismo.<adding search="detener camión" class="check-cards"></adding>',
         },
+        "imperius": {
+          "leve": 'No es suficiente para revelar información adicional.',
+          "moderado": 'No es suficiente para revelar información adicional.',
+          "exitoso": 'Permite controlar al guardia, no es necesario lanzar "tacite" o "artimaña" para pasar inadvertido por los siguientes tres turnos.',
+          "critico": 'Permite controlar al guardia, no es necesario lanzar "tacite" o "artimaña" para pasar inadvertido por los siguientes tres turnos.',
+        },
         "arresto momentum": {
           "leve": 'No es suficiente para revelar información adicional.',
           "moderado": 'Permite detener el camión para infiltrarse con el mismo.<adding search="detener camión" class="check-cards"></adding>',
