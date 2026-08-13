@@ -5237,7 +5237,7 @@ const MissionsModule = (function () {
           "cont": '<span>La muestra de sangre de Dominic Edevane se encuentra dentro de una caja de cristal la cual ha sido hechizada para que no pueda abrirse ni romperse. Ninguno de los hechizos utilizados puede causar tal efecto. Sin embargo, y por las dudas, Thalia agregó una nota: "Esta muestra es extremadamente peligrosa. No se debe manipular sin la debida protección."</span>',
         },
         "pergaminos de notas": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir locker",
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir locker",
           "cont": '<span>Al tomar los pergaminos, pueden notarse que hay tres pergaminos con notas fechadas en orden cronológico.</span>',
         },
         "notas de febrero 1929": {
