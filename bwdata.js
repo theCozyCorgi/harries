@@ -3053,6 +3053,10 @@ const MissionsModule = (function () {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "investigar la caja de cartas en el escritorio",
           "cont": '<span class="book-clipping"><span class="notebook">Bien, también tienes razón en esto. Hagámoslo lo antes posible. Los veo mañana a la noche. Avísale a Black. Está en el Ministerio; acércate con alguna excusa o algo. No quiero que queden más rastros.<br><br>No seas un viejo sentimental, quema esta carta, también la anterior.<br><br>Morgana.<br>27/08/1952.<br></span><br></span>',
         },
+        "estrellas y constelaciones": {
+          "visible": { "attr": { "val": "min" }, "know": { "astronomía": "10" }, "job": "invalid", "name": "invalid", }, "place": "segunda parte de la pared",
+          "cont": '<span>En esta parte de la pared, pueden distinguirse trazos de constelaciones como Draco, Cassiopea y Orion, que aparecen marcadas con símbolos que sugieren un mal augurio. Junto a ellas, se destacan referencias a Sirius y a la Luna en fase menguante, ambas señaladas repetidamente como posibles anuncios de peligro inminente.</span>',
+        },
       },
       "actions": {
         "tacite": {
