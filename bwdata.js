@@ -11078,6 +11078,60 @@ const MissionsModule = (function () {
       "actions": {},
     },
     // fin: quest line 1a
+
+    "duetos estelares": {
+      "description": "",
+      "image": "", "requisitos": [],
+      "users": ["/u?"],
+      "dependency": [],
+      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+
+      "cards": [],
+
+      "searchs": {
+        "investigación": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
+          "cont": '<span>COMPLETAR</span>',
+        }
+      },
+
+      "actions": {
+        "hechizo": {
+          "leve": '<span>COMPLETAR</span>',
+          "moderado": '<span>COMPLETAR</span>',
+          "exitoso": '<span>COMPLETAR</span>',
+          "critico": '<span>COMPLETAR</span>',
+        },
+      },
+    }, 
+    // fin: NUEVO
+
+    /* "NUEVO": {
+      "description": "",
+      "image": "", "requisitos": [],
+      "users": ["/u?"],
+      "dependency": [],
+      "type": "COMPLETAR", "closed": false, "link": "", "tagged": ["COMPLETAR"],
+
+      "cards": [],
+
+      "searchs": {
+        "investigación": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
+          "cont": '<span>COMPLETAR</span>',
+        }
+      },
+
+      "actions": {
+        "hechizo": {
+          "leve": '<span>COMPLETAR</span>',
+          "moderado": '<span>COMPLETAR</span>',
+          "exitoso": '<span>COMPLETAR</span>',
+          "critico": '<span>COMPLETAR</span>',
+        },
+      },
+    }, 
+    // fin: NUEVO */
   };
 
   function getMission(mission) {
