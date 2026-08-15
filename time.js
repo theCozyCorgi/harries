@@ -41,3 +41,50 @@ function calculateAmbientDate() {
 
 // Ejecutar inmediatamente para que las variables estén listas
 calculateAmbientDate();
+
+// === VARIABLES GLOBALES COMPARTIDAS ===
+// Todo lo que empieza con "global" vive acá para que sea fácil rastrear
+// de dónde sale cuando se lee el código de backup/codes o backup/pages.
+// Este archivo es de git, así que un cambio acá puede tardar unos minutos
+// en impactar en FA: esperar antes de actualizar los temas que lo consumen.
+
+const globalNoAdd = ["Black Wave", "Wolfsbane", "Dittany", "Belladonna", "Valerian", "The Familiars"];
+
+const globalCasas = ["gryffindor", "hufflepuff", "ravenclaw", "slytherin"];
+
+const globalAttrAbbr = {
+  'carisma': 'car', 'constitución': 'con', 'destreza': 'des',
+  'fuerza': 'fue', 'inteligencia': 'int', 'sabiduría': 'sab'
+};
+
+const globalKnowledgeDefaults = {
+  "adivinación": 0, "alquimia": 0, "animagia": 0, "aritmancia": 0,
+  "arte": 0, "astronomía": 0, "ccm": 0, "combate físico": 0,
+  "contrabando": 0, "curación": 0, "dcao": 0, "encantamientos": 0,
+  "estudios muggles": 0, "herbología": 0, "historia de la magia": 0,
+  "legeremancia": 0, "liderazgo": 0, "magia oscura": 0,
+  "magia sin varita": 0, "metamorfomagia": 0, "música": 0,
+  "oclumancia": 0, "pociones": 0, "runas antiguas": 0,
+  "transformaciones": 0, "videncia": 0, "vuelo": 0
+};
+
+function globalCalcularEdad(nac, amb, useDay = false) {
+  let birthYear = nac.getFullYear();
+  let birthMonth = nac.getMonth();
+  let birthDay = nac.getDate();
+
+  let currentYear = amb.getFullYear();
+  let currentMonth = amb.getMonth();
+  let currentDay = amb.getDate();
+
+  let age = currentYear - birthYear;
+
+  if (
+    currentMonth < birthMonth ||
+    (useDay && currentMonth === birthMonth && currentDay <= birthDay)
+  ) {
+    age--;
+  }
+
+  return age;
+}
