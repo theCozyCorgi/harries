@@ -12063,7 +12063,7 @@ const MissionsModule = (function () {
     },
     // fin: duetos estelares - Elysia Lestrange y Venus Merrythought
 
-    "duetos estelares - thyme nott y jasper gryffith": {
+    "duetos estelares - thyme y jasper": {
       "description": "Thyme Nott y Jasper Gryffith se enfrentan al desafío de los duetos estelares: cinco globos flotan sobre el Lago Negro esperando ser reventados, partiendo desde Hogsmeade. Mientras Thyme abre fuego con maldiciones explosivas, Jasper surca el cielo para recolectar las esquirlas que caen y avanzar hacia el siguiente globo. Nivel: Fácil.",
       "image": "", "requisitos": [],
       "users": ["/u180", "/u78"],
