@@ -11202,6 +11202,990 @@ const MissionsModule = (function () {
     },
     // fin: duetos estelares
 
+    "duetos estelares - hermes y minerva": {
+      "description": "Hermes Rosier y Minerva McGonagall se enfrentan al desafío de los duetos estelares: cinco globos flotan sobre el Lago Negro esperando ser reventados, partiendo desde Hogsmeade. Mientras Hermes abre fuego con maldiciones explosivas, Minerva surca el cielo para recolectar las esquirlas que caen y avanzar hacia el siguiente globo. Nivel: Difícil.",
+      "image": "", "requisitos": [],
+      "users": ["/u110", "/u24"],
+      "dependency": [],
+      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+
+      "cards": [],
+
+      "searchs": {
+        "investigación": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
+          "cont": '<span>Cinco globos flotan sobre el Lago Negro, partiendo desde Hogsmeade. Cada globo esconde esquirlas en su interior. La dinámica se realiza en dueto: el <u>duelista</u> hace estallar el globo con cualquier hechizo ofensivo de DCAO, liberando las esquirlas (se recomienda "Confringo"); el <u>cazador</u> las recolecta con cualquier acción de vuelo y, mediante "vuelo en pareja", guía al dueto hacia el siguiente globo. Cada personaje cuenta con un máximo de dos acciones durante todo el evento: el duelista lanza dos hechizos ofensivos de DCAO; el cazador usa una acción de vuelo para recolectar y "vuelo en pareja" para avanzar.</span>',
+        },
+      },
+
+      "actions": {
+        "vuelo en pareja": {
+          "leve": '<span>Entre el reflejo tenue de las estrellas sobre el Lago Negro, el dueto avanza en vuelo compartido hacia el siguiente globo, dejando el camino listo para que el duelista pueda hacerlo estallar.</span>',
+          "moderado": '<span>Entre el reflejo tenue de las estrellas sobre el Lago Negro, el dueto avanza en vuelo compartido hacia el siguiente globo, dejando el camino listo para que el duelista pueda hacerlo estallar.</span>',
+          "exitoso": '<span>Entre el reflejo tenue de las estrellas sobre el Lago Negro, el dueto avanza en vuelo compartido hacia el siguiente globo, dejando el camino listo para que el duelista pueda hacerlo estallar.</span>',
+          "critico": '<span>Entre el reflejo tenue de las estrellas sobre el Lago Negro, el dueto avanza en vuelo compartido hacia el siguiente globo, dejando el camino listo para que el duelista pueda hacerlo estallar.</span>',
+        },
+        "confringo": {
+          "leve": '<span>El hechizo choca sin fuerza contra el globo y apenas lo abolla. No logra liberar esquirlas.</span>',
+          "moderado": '<span>El globo se resquebraja con la explosión, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas al aire.</span>',
+          "exitoso": '<span>El globo estalla con fuerza, esparciendo <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas sobre el Lago Negro.</span>',
+          "critico": '<span>El globo explota por completo, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas que caen brillando sobre el agua.</span>',
+        },
+        "expulso": {
+          "leve": '<span>El hechizo choca sin fuerza contra el globo y apenas lo abolla. No logra liberar esquirlas.</span>',
+          "moderado": '<span>El globo se resquebraja con la explosión, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas al aire.</span>',
+          "exitoso": '<span>El globo estalla con fuerza, esparciendo <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas sobre el Lago Negro.</span>',
+          "critico": '<span>El globo explota por completo, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas que caen brillando sobre el agua.</span>',
+        },
+        "oppugno": {
+          "leve": '<span>El hechizo choca sin fuerza contra el globo y apenas lo abolla. No logra liberar esquirlas.</span>',
+          "moderado": '<span>El globo se resquebraja con la explosión, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas al aire.</span>',
+          "exitoso": '<span>El globo estalla con fuerza, esparciendo <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas sobre el Lago Negro.</span>',
+          "critico": '<span>El globo explota por completo, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas que caen brillando sobre el agua.</span>',
+        },
+        "regio impetum": {
+          "leve": '<span>El hechizo choca sin fuerza contra el globo y apenas lo abolla. No logra liberar esquirlas.</span>',
+          "moderado": '<span>El globo se resquebraja con la explosión, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas al aire.</span>',
+          "exitoso": '<span>El globo estalla con fuerza, esparciendo <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas sobre el Lago Negro.</span>',
+          "critico": '<span>El globo explota por completo, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas que caen brillando sobre el agua.</span>',
+        },
+        "flipendo": {
+          "leve": '<span>El hechizo choca sin fuerza contra el globo y apenas lo abolla. No logra liberar esquirlas.</span>',
+          "moderado": '<span>El globo se resquebraja con la explosión, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas al aire.</span>',
+          "exitoso": '<span>El globo estalla con fuerza, esparciendo <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas sobre el Lago Negro.</span>',
+          "critico": '<span>El globo explota por completo, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas que caen brillando sobre el agua.</span>',
+        },
+        "waddiwasi": {
+          "leve": '<span>El hechizo choca sin fuerza contra el globo y apenas lo abolla. No logra liberar esquirlas.</span>',
+          "moderado": '<span>El globo se resquebraja con la explosión, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas al aire.</span>',
+          "exitoso": '<span>El globo estalla con fuerza, esparciendo <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas sobre el Lago Negro.</span>',
+          "critico": '<span>El globo explota por completo, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas que caen brillando sobre el agua.</span>',
+        },
+        "ignis funis": {
+          "leve": '<span>El hechizo choca sin fuerza contra el globo y apenas lo abolla. No logra liberar esquirlas.</span>',
+          "moderado": '<span>El globo se resquebraja con la explosión, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas al aire.</span>',
+          "exitoso": '<span>El globo estalla con fuerza, esparciendo <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas sobre el Lago Negro.</span>',
+          "critico": '<span>El globo explota por completo, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas que caen brillando sobre el agua.</span>',
+        },
+        "vuelo": {
+          "leve": '<span>El cazador no logra estabilizarse a tiempo, las esquirlas se hunden en el Lago Negro antes de poder alcanzarlas. No recolecta esquirlas.</span>',
+          "moderado": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "exitoso": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "critico": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo), con un movimiento impecable.</span>',
+        },
+        "vuelo en velocidad": {
+          "leve": '<span>El cazador no logra estabilizarse a tiempo, las esquirlas se hunden en el Lago Negro antes de poder alcanzarlas. No recolecta esquirlas.</span>',
+          "moderado": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "exitoso": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "critico": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo), con un movimiento impecable.</span>',
+        },
+        "pivotao aereo": {
+          "leve": '<span>El cazador no logra estabilizarse a tiempo, las esquirlas se hunden en el Lago Negro antes de poder alcanzarlas. No recolecta esquirlas.</span>',
+          "moderado": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "exitoso": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "critico": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo), con un movimiento impecable.</span>',
+        },
+        "giro del colacuerno": {
+          "leve": '<span>El cazador no logra estabilizarse a tiempo, las esquirlas se hunden en el Lago Negro antes de poder alcanzarlas. No recolecta esquirlas.</span>',
+          "moderado": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "exitoso": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "critico": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo), con un movimiento impecable.</span>',
+        },
+        "amago de wronski": {
+          "leve": '<span>El cazador no logra estabilizarse a tiempo, las esquirlas se hunden en el Lago Negro antes de poder alcanzarlas. No recolecta esquirlas.</span>',
+          "moderado": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "exitoso": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "critico": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo), con un movimiento impecable.</span>',
+        },
+        "agarre del perezoso": {
+          "leve": '<span>El cazador no logra estabilizarse a tiempo, las esquirlas se hunden en el Lago Negro antes de poder alcanzarlas. No recolecta esquirlas.</span>',
+          "moderado": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "exitoso": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "critico": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo), con un movimiento impecable.</span>',
+        },
+        "derrape en escoba": {
+          "leve": '<span>El cazador no logra estabilizarse a tiempo, las esquirlas se hunden en el Lago Negro antes de poder alcanzarlas. No recolecta esquirlas.</span>',
+          "moderado": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "exitoso": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "critico": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo), con un movimiento impecable.</span>',
+        },
+        "surfeo en escoba": {
+          "leve": '<span>El cazador no logra estabilizarse a tiempo, las esquirlas se hunden en el Lago Negro antes de poder alcanzarlas. No recolecta esquirlas.</span>',
+          "moderado": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "exitoso": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "critico": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo), con un movimiento impecable.</span>',
+        },
+        "salto en escoba": {
+          "leve": '<span>El cazador no logra estabilizarse a tiempo, las esquirlas se hunden en el Lago Negro antes de poder alcanzarlas. No recolecta esquirlas.</span>',
+          "moderado": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "exitoso": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "critico": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo), con un movimiento impecable.</span>',
+        },
+      },
+    },
+    // fin: duetos estelares - Hermes Rosier y Minerva McGonagall
+
+    "duetos estelares - shun y findlay": {
+      "description": "Shun Parkinson y Findlay McCrory se enfrentan al desafío de los duetos estelares: cinco globos flotan sobre el Lago Negro esperando ser reventados, partiendo desde Hogsmeade. Mientras Shun abre fuego con maldiciones explosivas, Findlay surca el cielo para recolectar las esquirlas que caen y avanzar hacia el siguiente globo. Nivel: Difícil.",
+      "image": "", "requisitos": [],
+      "users": ["/u55", "/u63"],
+      "dependency": [],
+      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+
+      "cards": [],
+
+      "searchs": {
+        "investigación": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
+          "cont": '<span>Cinco globos flotan sobre el Lago Negro, partiendo desde Hogsmeade. Cada globo esconde esquirlas en su interior. La dinámica se realiza en dueto: el <u>duelista</u> hace estallar el globo con cualquier hechizo ofensivo de DCAO, liberando las esquirlas (se recomienda "Confringo"); el <u>cazador</u> las recolecta con cualquier acción de vuelo y, mediante "vuelo en pareja", guía al dueto hacia el siguiente globo. Cada personaje cuenta con un máximo de dos acciones durante todo el evento: el duelista lanza dos hechizos ofensivos de DCAO; el cazador usa una acción de vuelo para recolectar y "vuelo en pareja" para avanzar.</span>',
+        },
+      },
+
+      "actions": {
+        "vuelo en pareja": {
+          "leve": '<span>Entre el reflejo tenue de las estrellas sobre el Lago Negro, el dueto avanza en vuelo compartido hacia el siguiente globo, dejando el camino listo para que el duelista pueda hacerlo estallar.</span>',
+          "moderado": '<span>Entre el reflejo tenue de las estrellas sobre el Lago Negro, el dueto avanza en vuelo compartido hacia el siguiente globo, dejando el camino listo para que el duelista pueda hacerlo estallar.</span>',
+          "exitoso": '<span>Entre el reflejo tenue de las estrellas sobre el Lago Negro, el dueto avanza en vuelo compartido hacia el siguiente globo, dejando el camino listo para que el duelista pueda hacerlo estallar.</span>',
+          "critico": '<span>Entre el reflejo tenue de las estrellas sobre el Lago Negro, el dueto avanza en vuelo compartido hacia el siguiente globo, dejando el camino listo para que el duelista pueda hacerlo estallar.</span>',
+        },
+        "confringo": {
+          "leve": '<span>El hechizo choca sin fuerza contra el globo y apenas lo abolla. No logra liberar esquirlas.</span>',
+          "moderado": '<span>El globo se resquebraja con la explosión, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas al aire.</span>',
+          "exitoso": '<span>El globo estalla con fuerza, esparciendo <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas sobre el Lago Negro.</span>',
+          "critico": '<span>El globo explota por completo, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas que caen brillando sobre el agua.</span>',
+        },
+        "expulso": {
+          "leve": '<span>El hechizo choca sin fuerza contra el globo y apenas lo abolla. No logra liberar esquirlas.</span>',
+          "moderado": '<span>El globo se resquebraja con la explosión, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas al aire.</span>',
+          "exitoso": '<span>El globo estalla con fuerza, esparciendo <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas sobre el Lago Negro.</span>',
+          "critico": '<span>El globo explota por completo, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas que caen brillando sobre el agua.</span>',
+        },
+        "oppugno": {
+          "leve": '<span>El hechizo choca sin fuerza contra el globo y apenas lo abolla. No logra liberar esquirlas.</span>',
+          "moderado": '<span>El globo se resquebraja con la explosión, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas al aire.</span>',
+          "exitoso": '<span>El globo estalla con fuerza, esparciendo <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas sobre el Lago Negro.</span>',
+          "critico": '<span>El globo explota por completo, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas que caen brillando sobre el agua.</span>',
+        },
+        "regio impetum": {
+          "leve": '<span>El hechizo choca sin fuerza contra el globo y apenas lo abolla. No logra liberar esquirlas.</span>',
+          "moderado": '<span>El globo se resquebraja con la explosión, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas al aire.</span>',
+          "exitoso": '<span>El globo estalla con fuerza, esparciendo <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas sobre el Lago Negro.</span>',
+          "critico": '<span>El globo explota por completo, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas que caen brillando sobre el agua.</span>',
+        },
+        "flipendo": {
+          "leve": '<span>El hechizo choca sin fuerza contra el globo y apenas lo abolla. No logra liberar esquirlas.</span>',
+          "moderado": '<span>El globo se resquebraja con la explosión, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas al aire.</span>',
+          "exitoso": '<span>El globo estalla con fuerza, esparciendo <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas sobre el Lago Negro.</span>',
+          "critico": '<span>El globo explota por completo, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas que caen brillando sobre el agua.</span>',
+        },
+        "waddiwasi": {
+          "leve": '<span>El hechizo choca sin fuerza contra el globo y apenas lo abolla. No logra liberar esquirlas.</span>',
+          "moderado": '<span>El globo se resquebraja con la explosión, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas al aire.</span>',
+          "exitoso": '<span>El globo estalla con fuerza, esparciendo <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas sobre el Lago Negro.</span>',
+          "critico": '<span>El globo explota por completo, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas que caen brillando sobre el agua.</span>',
+        },
+        "ignis funis": {
+          "leve": '<span>El hechizo choca sin fuerza contra el globo y apenas lo abolla. No logra liberar esquirlas.</span>',
+          "moderado": '<span>El globo se resquebraja con la explosión, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas al aire.</span>',
+          "exitoso": '<span>El globo estalla con fuerza, esparciendo <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas sobre el Lago Negro.</span>',
+          "critico": '<span>El globo explota por completo, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas que caen brillando sobre el agua.</span>',
+        },
+        "vuelo": {
+          "leve": '<span>El cazador no logra estabilizarse a tiempo, las esquirlas se hunden en el Lago Negro antes de poder alcanzarlas. No recolecta esquirlas.</span>',
+          "moderado": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "exitoso": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "critico": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo), con un movimiento impecable.</span>',
+        },
+        "vuelo en velocidad": {
+          "leve": '<span>El cazador no logra estabilizarse a tiempo, las esquirlas se hunden en el Lago Negro antes de poder alcanzarlas. No recolecta esquirlas.</span>',
+          "moderado": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "exitoso": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "critico": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo), con un movimiento impecable.</span>',
+        },
+        "pivotao aereo": {
+          "leve": '<span>El cazador no logra estabilizarse a tiempo, las esquirlas se hunden en el Lago Negro antes de poder alcanzarlas. No recolecta esquirlas.</span>',
+          "moderado": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "exitoso": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "critico": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo), con un movimiento impecable.</span>',
+        },
+        "giro del colacuerno": {
+          "leve": '<span>El cazador no logra estabilizarse a tiempo, las esquirlas se hunden en el Lago Negro antes de poder alcanzarlas. No recolecta esquirlas.</span>',
+          "moderado": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "exitoso": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "critico": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo), con un movimiento impecable.</span>',
+        },
+        "amago de wronski": {
+          "leve": '<span>El cazador no logra estabilizarse a tiempo, las esquirlas se hunden en el Lago Negro antes de poder alcanzarlas. No recolecta esquirlas.</span>',
+          "moderado": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "exitoso": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "critico": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo), con un movimiento impecable.</span>',
+        },
+        "agarre del perezoso": {
+          "leve": '<span>El cazador no logra estabilizarse a tiempo, las esquirlas se hunden en el Lago Negro antes de poder alcanzarlas. No recolecta esquirlas.</span>',
+          "moderado": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "exitoso": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "critico": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo), con un movimiento impecable.</span>',
+        },
+        "derrape en escoba": {
+          "leve": '<span>El cazador no logra estabilizarse a tiempo, las esquirlas se hunden en el Lago Negro antes de poder alcanzarlas. No recolecta esquirlas.</span>',
+          "moderado": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "exitoso": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "critico": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo), con un movimiento impecable.</span>',
+        },
+        "surfeo en escoba": {
+          "leve": '<span>El cazador no logra estabilizarse a tiempo, las esquirlas se hunden en el Lago Negro antes de poder alcanzarlas. No recolecta esquirlas.</span>',
+          "moderado": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "exitoso": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "critico": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo), con un movimiento impecable.</span>',
+        },
+        "salto en escoba": {
+          "leve": '<span>El cazador no logra estabilizarse a tiempo, las esquirlas se hunden en el Lago Negro antes de poder alcanzarlas. No recolecta esquirlas.</span>',
+          "moderado": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "exitoso": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "critico": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo), con un movimiento impecable.</span>',
+        },
+      },
+    },
+    // fin: duetos estelares - Shun Parkinson y Findlay McCrory
+
+    "duetos estelares - neptune y jupiter": {
+      "description": "Neptune Merrythought y Jupiter Merrythought se enfrentan al desafío de los duetos estelares: cinco globos flotan sobre el Lago Negro esperando ser reventados, partiendo desde Hogsmeade. Mientras Neptune abre fuego con maldiciones explosivas, Jupiter surca el cielo para recolectar las esquirlas que caen y avanzar hacia el siguiente globo. Nivel: Medio.",
+      "image": "", "requisitos": [],
+      "users": ["/u119", "/u150"],
+      "dependency": [],
+      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+
+      "cards": [],
+
+      "searchs": {
+        "investigación": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
+          "cont": '<span>Cinco globos flotan sobre el Lago Negro, partiendo desde Hogsmeade. Cada globo esconde esquirlas en su interior. La dinámica se realiza en dueto: el <u>duelista</u> hace estallar el globo con cualquier hechizo ofensivo de DCAO, liberando las esquirlas (se recomienda "Confringo"); el <u>cazador</u> las recolecta con cualquier acción de vuelo y, mediante "vuelo en pareja", guía al dueto hacia el siguiente globo. Cada personaje cuenta con un máximo de dos acciones durante todo el evento: el duelista lanza dos hechizos ofensivos de DCAO; el cazador usa una acción de vuelo para recolectar y "vuelo en pareja" para avanzar.</span>',
+        },
+      },
+
+      "actions": {
+        "vuelo en pareja": {
+          "leve": '<span>Entre el reflejo tenue de las estrellas sobre el Lago Negro, el dueto avanza en vuelo compartido hacia el siguiente globo, dejando el camino listo para que el duelista pueda hacerlo estallar.</span>',
+          "moderado": '<span>Entre el reflejo tenue de las estrellas sobre el Lago Negro, el dueto avanza en vuelo compartido hacia el siguiente globo, dejando el camino listo para que el duelista pueda hacerlo estallar.</span>',
+          "exitoso": '<span>Entre el reflejo tenue de las estrellas sobre el Lago Negro, el dueto avanza en vuelo compartido hacia el siguiente globo, dejando el camino listo para que el duelista pueda hacerlo estallar.</span>',
+          "critico": '<span>Entre el reflejo tenue de las estrellas sobre el Lago Negro, el dueto avanza en vuelo compartido hacia el siguiente globo, dejando el camino listo para que el duelista pueda hacerlo estallar.</span>',
+        },
+        "confringo": {
+          "leve": '<span>El hechizo choca sin fuerza contra el globo y apenas lo abolla. No logra liberar esquirlas.</span>',
+          "moderado": '<span>El globo se resquebraja con la explosión, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas al aire.</span>',
+          "exitoso": '<span>El globo estalla con fuerza, esparciendo <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas sobre el Lago Negro.</span>',
+          "critico": '<span>El globo explota por completo, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas que caen brillando sobre el agua.</span>',
+        },
+        "expulso": {
+          "leve": '<span>El hechizo choca sin fuerza contra el globo y apenas lo abolla. No logra liberar esquirlas.</span>',
+          "moderado": '<span>El globo se resquebraja con la explosión, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas al aire.</span>',
+          "exitoso": '<span>El globo estalla con fuerza, esparciendo <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas sobre el Lago Negro.</span>',
+          "critico": '<span>El globo explota por completo, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas que caen brillando sobre el agua.</span>',
+        },
+        "oppugno": {
+          "leve": '<span>El hechizo choca sin fuerza contra el globo y apenas lo abolla. No logra liberar esquirlas.</span>',
+          "moderado": '<span>El globo se resquebraja con la explosión, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas al aire.</span>',
+          "exitoso": '<span>El globo estalla con fuerza, esparciendo <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas sobre el Lago Negro.</span>',
+          "critico": '<span>El globo explota por completo, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas que caen brillando sobre el agua.</span>',
+        },
+        "regio impetum": {
+          "leve": '<span>El hechizo choca sin fuerza contra el globo y apenas lo abolla. No logra liberar esquirlas.</span>',
+          "moderado": '<span>El globo se resquebraja con la explosión, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas al aire.</span>',
+          "exitoso": '<span>El globo estalla con fuerza, esparciendo <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas sobre el Lago Negro.</span>',
+          "critico": '<span>El globo explota por completo, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas que caen brillando sobre el agua.</span>',
+        },
+        "flipendo": {
+          "leve": '<span>El hechizo choca sin fuerza contra el globo y apenas lo abolla. No logra liberar esquirlas.</span>',
+          "moderado": '<span>El globo se resquebraja con la explosión, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas al aire.</span>',
+          "exitoso": '<span>El globo estalla con fuerza, esparciendo <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas sobre el Lago Negro.</span>',
+          "critico": '<span>El globo explota por completo, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas que caen brillando sobre el agua.</span>',
+        },
+        "waddiwasi": {
+          "leve": '<span>El hechizo choca sin fuerza contra el globo y apenas lo abolla. No logra liberar esquirlas.</span>',
+          "moderado": '<span>El globo se resquebraja con la explosión, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas al aire.</span>',
+          "exitoso": '<span>El globo estalla con fuerza, esparciendo <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas sobre el Lago Negro.</span>',
+          "critico": '<span>El globo explota por completo, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas que caen brillando sobre el agua.</span>',
+        },
+        "ignis funis": {
+          "leve": '<span>El hechizo choca sin fuerza contra el globo y apenas lo abolla. No logra liberar esquirlas.</span>',
+          "moderado": '<span>El globo se resquebraja con la explosión, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas al aire.</span>',
+          "exitoso": '<span>El globo estalla con fuerza, esparciendo <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas sobre el Lago Negro.</span>',
+          "critico": '<span>El globo explota por completo, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas que caen brillando sobre el agua.</span>',
+        },
+        "vuelo": {
+          "leve": '<span>El cazador no logra estabilizarse a tiempo, las esquirlas se hunden en el Lago Negro antes de poder alcanzarlas. No recolecta esquirlas.</span>',
+          "moderado": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "exitoso": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "critico": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo), con un movimiento impecable.</span>',
+        },
+        "vuelo en velocidad": {
+          "leve": '<span>El cazador no logra estabilizarse a tiempo, las esquirlas se hunden en el Lago Negro antes de poder alcanzarlas. No recolecta esquirlas.</span>',
+          "moderado": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "exitoso": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "critico": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo), con un movimiento impecable.</span>',
+        },
+        "pivotao aereo": {
+          "leve": '<span>El cazador no logra estabilizarse a tiempo, las esquirlas se hunden en el Lago Negro antes de poder alcanzarlas. No recolecta esquirlas.</span>',
+          "moderado": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "exitoso": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "critico": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo), con un movimiento impecable.</span>',
+        },
+        "giro del colacuerno": {
+          "leve": '<span>El cazador no logra estabilizarse a tiempo, las esquirlas se hunden en el Lago Negro antes de poder alcanzarlas. No recolecta esquirlas.</span>',
+          "moderado": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "exitoso": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "critico": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo), con un movimiento impecable.</span>',
+        },
+        "amago de wronski": {
+          "leve": '<span>El cazador no logra estabilizarse a tiempo, las esquirlas se hunden en el Lago Negro antes de poder alcanzarlas. No recolecta esquirlas.</span>',
+          "moderado": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "exitoso": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "critico": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo), con un movimiento impecable.</span>',
+        },
+        "agarre del perezoso": {
+          "leve": '<span>El cazador no logra estabilizarse a tiempo, las esquirlas se hunden en el Lago Negro antes de poder alcanzarlas. No recolecta esquirlas.</span>',
+          "moderado": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "exitoso": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "critico": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo), con un movimiento impecable.</span>',
+        },
+        "derrape en escoba": {
+          "leve": '<span>El cazador no logra estabilizarse a tiempo, las esquirlas se hunden en el Lago Negro antes de poder alcanzarlas. No recolecta esquirlas.</span>',
+          "moderado": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "exitoso": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "critico": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo), con un movimiento impecable.</span>',
+        },
+        "surfeo en escoba": {
+          "leve": '<span>El cazador no logra estabilizarse a tiempo, las esquirlas se hunden en el Lago Negro antes de poder alcanzarlas. No recolecta esquirlas.</span>',
+          "moderado": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "exitoso": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "critico": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo), con un movimiento impecable.</span>',
+        },
+        "salto en escoba": {
+          "leve": '<span>El cazador no logra estabilizarse a tiempo, las esquirlas se hunden en el Lago Negro antes de poder alcanzarlas. No recolecta esquirlas.</span>',
+          "moderado": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "exitoso": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "critico": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo), con un movimiento impecable.</span>',
+        },
+      },
+    },
+    // fin: duetos estelares - Neptune Merrythought y Jupiter Merrythought
+
+    "duetos estelares - jessie y asteria": {
+      "description": "Jessie Ravenscroft y Asteria Lestrange se enfrentan al desafío de los duetos estelares: cinco globos flotan sobre el Lago Negro esperando ser reventados, partiendo desde Hogsmeade. Mientras Jessie abre fuego con maldiciones explosivas, Asteria surca el cielo para recolectar las esquirlas que caen y avanzar hacia el siguiente globo. Nivel: Medio.",
+      "image": "", "requisitos": [],
+      "users": ["/u194", "/u12"],
+      "dependency": [],
+      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+
+      "cards": [],
+
+      "searchs": {
+        "investigación": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
+          "cont": '<span>Cinco globos flotan sobre el Lago Negro, partiendo desde Hogsmeade. Cada globo esconde esquirlas en su interior. La dinámica se realiza en dueto: el <u>duelista</u> hace estallar el globo con cualquier hechizo ofensivo de DCAO, liberando las esquirlas (se recomienda "Confringo"); el <u>cazador</u> las recolecta con cualquier acción de vuelo y, mediante "vuelo en pareja", guía al dueto hacia el siguiente globo. Cada personaje cuenta con un máximo de dos acciones durante todo el evento: el duelista lanza dos hechizos ofensivos de DCAO; el cazador usa una acción de vuelo para recolectar y "vuelo en pareja" para avanzar.</span>',
+        },
+      },
+
+      "actions": {
+        "vuelo en pareja": {
+          "leve": '<span>Entre el reflejo tenue de las estrellas sobre el Lago Negro, el dueto avanza en vuelo compartido hacia el siguiente globo, dejando el camino listo para que el duelista pueda hacerlo estallar.</span>',
+          "moderado": '<span>Entre el reflejo tenue de las estrellas sobre el Lago Negro, el dueto avanza en vuelo compartido hacia el siguiente globo, dejando el camino listo para que el duelista pueda hacerlo estallar.</span>',
+          "exitoso": '<span>Entre el reflejo tenue de las estrellas sobre el Lago Negro, el dueto avanza en vuelo compartido hacia el siguiente globo, dejando el camino listo para que el duelista pueda hacerlo estallar.</span>',
+          "critico": '<span>Entre el reflejo tenue de las estrellas sobre el Lago Negro, el dueto avanza en vuelo compartido hacia el siguiente globo, dejando el camino listo para que el duelista pueda hacerlo estallar.</span>',
+        },
+        "confringo": {
+          "leve": '<span>El hechizo choca sin fuerza contra el globo y apenas lo abolla. No logra liberar esquirlas.</span>',
+          "moderado": '<span>El globo se resquebraja con la explosión, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas al aire.</span>',
+          "exitoso": '<span>El globo estalla con fuerza, esparciendo <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas sobre el Lago Negro.</span>',
+          "critico": '<span>El globo explota por completo, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas que caen brillando sobre el agua.</span>',
+        },
+        "expulso": {
+          "leve": '<span>El hechizo choca sin fuerza contra el globo y apenas lo abolla. No logra liberar esquirlas.</span>',
+          "moderado": '<span>El globo se resquebraja con la explosión, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas al aire.</span>',
+          "exitoso": '<span>El globo estalla con fuerza, esparciendo <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas sobre el Lago Negro.</span>',
+          "critico": '<span>El globo explota por completo, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas que caen brillando sobre el agua.</span>',
+        },
+        "oppugno": {
+          "leve": '<span>El hechizo choca sin fuerza contra el globo y apenas lo abolla. No logra liberar esquirlas.</span>',
+          "moderado": '<span>El globo se resquebraja con la explosión, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas al aire.</span>',
+          "exitoso": '<span>El globo estalla con fuerza, esparciendo <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas sobre el Lago Negro.</span>',
+          "critico": '<span>El globo explota por completo, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas que caen brillando sobre el agua.</span>',
+        },
+        "regio impetum": {
+          "leve": '<span>El hechizo choca sin fuerza contra el globo y apenas lo abolla. No logra liberar esquirlas.</span>',
+          "moderado": '<span>El globo se resquebraja con la explosión, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas al aire.</span>',
+          "exitoso": '<span>El globo estalla con fuerza, esparciendo <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas sobre el Lago Negro.</span>',
+          "critico": '<span>El globo explota por completo, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas que caen brillando sobre el agua.</span>',
+        },
+        "flipendo": {
+          "leve": '<span>El hechizo choca sin fuerza contra el globo y apenas lo abolla. No logra liberar esquirlas.</span>',
+          "moderado": '<span>El globo se resquebraja con la explosión, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas al aire.</span>',
+          "exitoso": '<span>El globo estalla con fuerza, esparciendo <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas sobre el Lago Negro.</span>',
+          "critico": '<span>El globo explota por completo, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas que caen brillando sobre el agua.</span>',
+        },
+        "waddiwasi": {
+          "leve": '<span>El hechizo choca sin fuerza contra el globo y apenas lo abolla. No logra liberar esquirlas.</span>',
+          "moderado": '<span>El globo se resquebraja con la explosión, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas al aire.</span>',
+          "exitoso": '<span>El globo estalla con fuerza, esparciendo <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas sobre el Lago Negro.</span>',
+          "critico": '<span>El globo explota por completo, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas que caen brillando sobre el agua.</span>',
+        },
+        "ignis funis": {
+          "leve": '<span>El hechizo choca sin fuerza contra el globo y apenas lo abolla. No logra liberar esquirlas.</span>',
+          "moderado": '<span>El globo se resquebraja con la explosión, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas al aire.</span>',
+          "exitoso": '<span>El globo estalla con fuerza, esparciendo <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas sobre el Lago Negro.</span>',
+          "critico": '<span>El globo explota por completo, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas que caen brillando sobre el agua.</span>',
+        },
+        "vuelo": {
+          "leve": '<span>El cazador no logra estabilizarse a tiempo, las esquirlas se hunden en el Lago Negro antes de poder alcanzarlas. No recolecta esquirlas.</span>',
+          "moderado": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "exitoso": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "critico": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo), con un movimiento impecable.</span>',
+        },
+        "vuelo en velocidad": {
+          "leve": '<span>El cazador no logra estabilizarse a tiempo, las esquirlas se hunden en el Lago Negro antes de poder alcanzarlas. No recolecta esquirlas.</span>',
+          "moderado": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "exitoso": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "critico": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo), con un movimiento impecable.</span>',
+        },
+        "pivotao aereo": {
+          "leve": '<span>El cazador no logra estabilizarse a tiempo, las esquirlas se hunden en el Lago Negro antes de poder alcanzarlas. No recolecta esquirlas.</span>',
+          "moderado": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "exitoso": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "critico": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo), con un movimiento impecable.</span>',
+        },
+        "giro del colacuerno": {
+          "leve": '<span>El cazador no logra estabilizarse a tiempo, las esquirlas se hunden en el Lago Negro antes de poder alcanzarlas. No recolecta esquirlas.</span>',
+          "moderado": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "exitoso": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "critico": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo), con un movimiento impecable.</span>',
+        },
+        "amago de wronski": {
+          "leve": '<span>El cazador no logra estabilizarse a tiempo, las esquirlas se hunden en el Lago Negro antes de poder alcanzarlas. No recolecta esquirlas.</span>',
+          "moderado": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "exitoso": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "critico": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo), con un movimiento impecable.</span>',
+        },
+        "agarre del perezoso": {
+          "leve": '<span>El cazador no logra estabilizarse a tiempo, las esquirlas se hunden en el Lago Negro antes de poder alcanzarlas. No recolecta esquirlas.</span>',
+          "moderado": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "exitoso": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "critico": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo), con un movimiento impecable.</span>',
+        },
+        "derrape en escoba": {
+          "leve": '<span>El cazador no logra estabilizarse a tiempo, las esquirlas se hunden en el Lago Negro antes de poder alcanzarlas. No recolecta esquirlas.</span>',
+          "moderado": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "exitoso": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "critico": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo), con un movimiento impecable.</span>',
+        },
+        "surfeo en escoba": {
+          "leve": '<span>El cazador no logra estabilizarse a tiempo, las esquirlas se hunden en el Lago Negro antes de poder alcanzarlas. No recolecta esquirlas.</span>',
+          "moderado": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "exitoso": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "critico": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo), con un movimiento impecable.</span>',
+        },
+        "salto en escoba": {
+          "leve": '<span>El cazador no logra estabilizarse a tiempo, las esquirlas se hunden en el Lago Negro antes de poder alcanzarlas. No recolecta esquirlas.</span>',
+          "moderado": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "exitoso": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "critico": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo), con un movimiento impecable.</span>',
+        },
+      },
+    },
+    // fin: duetos estelares - Jessie Ravenscroft y Asteria Lestrange
+
+    "duetos estelares - uranus y thaddeus": {
+      "description": "Uranus Merrythought y Thaddeus Nott se enfrentan al desafío de los duetos estelares: cinco globos flotan sobre el Lago Negro esperando ser reventados, partiendo desde Hogsmeade. Mientras Uranus abre fuego con maldiciones explosivas, Thaddeus surca el cielo para recolectar las esquirlas que caen y avanzar hacia el siguiente globo. Nivel: Medio.",
+      "image": "", "requisitos": [],
+      "users": ["/u156", "/u118"],
+      "dependency": [],
+      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+
+      "cards": [],
+
+      "searchs": {
+        "investigación": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
+          "cont": '<span>Cinco globos flotan sobre el Lago Negro, partiendo desde Hogsmeade. Cada globo esconde esquirlas en su interior. La dinámica se realiza en dueto: el <u>duelista</u> hace estallar el globo con cualquier hechizo ofensivo de DCAO, liberando las esquirlas (se recomienda "Confringo"); el <u>cazador</u> las recolecta con cualquier acción de vuelo y, mediante "vuelo en pareja", guía al dueto hacia el siguiente globo. Cada personaje cuenta con un máximo de dos acciones durante todo el evento: el duelista lanza dos hechizos ofensivos de DCAO; el cazador usa una acción de vuelo para recolectar y "vuelo en pareja" para avanzar.</span>',
+        },
+      },
+
+      "actions": {
+        "vuelo en pareja": {
+          "leve": '<span>Entre el reflejo tenue de las estrellas sobre el Lago Negro, el dueto avanza en vuelo compartido hacia el siguiente globo, dejando el camino listo para que el duelista pueda hacerlo estallar.</span>',
+          "moderado": '<span>Entre el reflejo tenue de las estrellas sobre el Lago Negro, el dueto avanza en vuelo compartido hacia el siguiente globo, dejando el camino listo para que el duelista pueda hacerlo estallar.</span>',
+          "exitoso": '<span>Entre el reflejo tenue de las estrellas sobre el Lago Negro, el dueto avanza en vuelo compartido hacia el siguiente globo, dejando el camino listo para que el duelista pueda hacerlo estallar.</span>',
+          "critico": '<span>Entre el reflejo tenue de las estrellas sobre el Lago Negro, el dueto avanza en vuelo compartido hacia el siguiente globo, dejando el camino listo para que el duelista pueda hacerlo estallar.</span>',
+        },
+        "confringo": {
+          "leve": '<span>El hechizo choca sin fuerza contra el globo y apenas lo abolla. No logra liberar esquirlas.</span>',
+          "moderado": '<span>El globo se resquebraja con la explosión, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas al aire.</span>',
+          "exitoso": '<span>El globo estalla con fuerza, esparciendo <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas sobre el Lago Negro.</span>',
+          "critico": '<span>El globo explota por completo, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas que caen brillando sobre el agua.</span>',
+        },
+        "expulso": {
+          "leve": '<span>El hechizo choca sin fuerza contra el globo y apenas lo abolla. No logra liberar esquirlas.</span>',
+          "moderado": '<span>El globo se resquebraja con la explosión, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas al aire.</span>',
+          "exitoso": '<span>El globo estalla con fuerza, esparciendo <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas sobre el Lago Negro.</span>',
+          "critico": '<span>El globo explota por completo, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas que caen brillando sobre el agua.</span>',
+        },
+        "oppugno": {
+          "leve": '<span>El hechizo choca sin fuerza contra el globo y apenas lo abolla. No logra liberar esquirlas.</span>',
+          "moderado": '<span>El globo se resquebraja con la explosión, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas al aire.</span>',
+          "exitoso": '<span>El globo estalla con fuerza, esparciendo <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas sobre el Lago Negro.</span>',
+          "critico": '<span>El globo explota por completo, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas que caen brillando sobre el agua.</span>',
+        },
+        "regio impetum": {
+          "leve": '<span>El hechizo choca sin fuerza contra el globo y apenas lo abolla. No logra liberar esquirlas.</span>',
+          "moderado": '<span>El globo se resquebraja con la explosión, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas al aire.</span>',
+          "exitoso": '<span>El globo estalla con fuerza, esparciendo <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas sobre el Lago Negro.</span>',
+          "critico": '<span>El globo explota por completo, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas que caen brillando sobre el agua.</span>',
+        },
+        "flipendo": {
+          "leve": '<span>El hechizo choca sin fuerza contra el globo y apenas lo abolla. No logra liberar esquirlas.</span>',
+          "moderado": '<span>El globo se resquebraja con la explosión, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas al aire.</span>',
+          "exitoso": '<span>El globo estalla con fuerza, esparciendo <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas sobre el Lago Negro.</span>',
+          "critico": '<span>El globo explota por completo, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas que caen brillando sobre el agua.</span>',
+        },
+        "waddiwasi": {
+          "leve": '<span>El hechizo choca sin fuerza contra el globo y apenas lo abolla. No logra liberar esquirlas.</span>',
+          "moderado": '<span>El globo se resquebraja con la explosión, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas al aire.</span>',
+          "exitoso": '<span>El globo estalla con fuerza, esparciendo <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas sobre el Lago Negro.</span>',
+          "critico": '<span>El globo explota por completo, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas que caen brillando sobre el agua.</span>',
+        },
+        "ignis funis": {
+          "leve": '<span>El hechizo choca sin fuerza contra el globo y apenas lo abolla. No logra liberar esquirlas.</span>',
+          "moderado": '<span>El globo se resquebraja con la explosión, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas al aire.</span>',
+          "exitoso": '<span>El globo estalla con fuerza, esparciendo <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas sobre el Lago Negro.</span>',
+          "critico": '<span>El globo explota por completo, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas que caen brillando sobre el agua.</span>',
+        },
+        "vuelo": {
+          "leve": '<span>El cazador no logra estabilizarse a tiempo, las esquirlas se hunden en el Lago Negro antes de poder alcanzarlas. No recolecta esquirlas.</span>',
+          "moderado": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "exitoso": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "critico": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo), con un movimiento impecable.</span>',
+        },
+        "vuelo en velocidad": {
+          "leve": '<span>El cazador no logra estabilizarse a tiempo, las esquirlas se hunden en el Lago Negro antes de poder alcanzarlas. No recolecta esquirlas.</span>',
+          "moderado": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "exitoso": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "critico": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo), con un movimiento impecable.</span>',
+        },
+        "pivotao aereo": {
+          "leve": '<span>El cazador no logra estabilizarse a tiempo, las esquirlas se hunden en el Lago Negro antes de poder alcanzarlas. No recolecta esquirlas.</span>',
+          "moderado": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "exitoso": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "critico": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo), con un movimiento impecable.</span>',
+        },
+        "giro del colacuerno": {
+          "leve": '<span>El cazador no logra estabilizarse a tiempo, las esquirlas se hunden en el Lago Negro antes de poder alcanzarlas. No recolecta esquirlas.</span>',
+          "moderado": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "exitoso": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "critico": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo), con un movimiento impecable.</span>',
+        },
+        "amago de wronski": {
+          "leve": '<span>El cazador no logra estabilizarse a tiempo, las esquirlas se hunden en el Lago Negro antes de poder alcanzarlas. No recolecta esquirlas.</span>',
+          "moderado": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "exitoso": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "critico": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo), con un movimiento impecable.</span>',
+        },
+        "agarre del perezoso": {
+          "leve": '<span>El cazador no logra estabilizarse a tiempo, las esquirlas se hunden en el Lago Negro antes de poder alcanzarlas. No recolecta esquirlas.</span>',
+          "moderado": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "exitoso": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "critico": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo), con un movimiento impecable.</span>',
+        },
+        "derrape en escoba": {
+          "leve": '<span>El cazador no logra estabilizarse a tiempo, las esquirlas se hunden en el Lago Negro antes de poder alcanzarlas. No recolecta esquirlas.</span>',
+          "moderado": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "exitoso": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "critico": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo), con un movimiento impecable.</span>',
+        },
+        "surfeo en escoba": {
+          "leve": '<span>El cazador no logra estabilizarse a tiempo, las esquirlas se hunden en el Lago Negro antes de poder alcanzarlas. No recolecta esquirlas.</span>',
+          "moderado": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "exitoso": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "critico": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo), con un movimiento impecable.</span>',
+        },
+        "salto en escoba": {
+          "leve": '<span>El cazador no logra estabilizarse a tiempo, las esquirlas se hunden en el Lago Negro antes de poder alcanzarlas. No recolecta esquirlas.</span>',
+          "moderado": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "exitoso": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "critico": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo), con un movimiento impecable.</span>',
+        },
+      },
+    },
+    // fin: duetos estelares - Uranus Merrythought y Thaddeus Nott
+
+    "duetos estelares - kaoru y berenike": {
+      "description": "Kaoru Satoo y Berenike Borgin se enfrentan al desafío de los duetos estelares: cinco globos flotan sobre el Lago Negro esperando ser reventados, partiendo desde Hogsmeade. Mientras Kaoru abre fuego con maldiciones explosivas, Berenike surca el cielo para recolectar las esquirlas que caen y avanzar hacia el siguiente globo. Nivel: Fácil.",
+      "image": "", "requisitos": [],
+      "users": ["/u91", "/u195"],
+      "dependency": [],
+      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+
+      "cards": [],
+
+      "searchs": {
+        "investigación": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
+          "cont": '<span>Cinco globos flotan sobre el Lago Negro, partiendo desde Hogsmeade. Cada globo esconde esquirlas en su interior. La dinámica se realiza en dueto: el <u>duelista</u> hace estallar el globo con cualquier hechizo ofensivo de DCAO, liberando las esquirlas (se recomienda "Confringo"); el <u>cazador</u> las recolecta con cualquier acción de vuelo y, mediante "vuelo en pareja", guía al dueto hacia el siguiente globo. Cada personaje cuenta con un máximo de dos acciones durante todo el evento: el duelista lanza dos hechizos ofensivos de DCAO; el cazador usa una acción de vuelo para recolectar y "vuelo en pareja" para avanzar.</span>',
+        },
+      },
+
+      "actions": {
+        "vuelo en pareja": {
+          "leve": '<span>Entre el reflejo tenue de las estrellas sobre el Lago Negro, el dueto avanza en vuelo compartido hacia el siguiente globo, dejando el camino listo para que el duelista pueda hacerlo estallar.</span>',
+          "moderado": '<span>Entre el reflejo tenue de las estrellas sobre el Lago Negro, el dueto avanza en vuelo compartido hacia el siguiente globo, dejando el camino listo para que el duelista pueda hacerlo estallar.</span>',
+          "exitoso": '<span>Entre el reflejo tenue de las estrellas sobre el Lago Negro, el dueto avanza en vuelo compartido hacia el siguiente globo, dejando el camino listo para que el duelista pueda hacerlo estallar.</span>',
+          "critico": '<span>Entre el reflejo tenue de las estrellas sobre el Lago Negro, el dueto avanza en vuelo compartido hacia el siguiente globo, dejando el camino listo para que el duelista pueda hacerlo estallar.</span>',
+        },
+        "confringo": {
+          "leve": '<span>El hechizo choca sin fuerza contra el globo y apenas lo abolla. No logra liberar esquirlas.</span>',
+          "moderado": '<span>El globo se resquebraja con la explosión, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas al aire.</span>',
+          "exitoso": '<span>El globo estalla con fuerza, esparciendo <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas sobre el Lago Negro.</span>',
+          "critico": '<span>El globo explota por completo, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas que caen brillando sobre el agua.</span>',
+        },
+        "expulso": {
+          "leve": '<span>El hechizo choca sin fuerza contra el globo y apenas lo abolla. No logra liberar esquirlas.</span>',
+          "moderado": '<span>El globo se resquebraja con la explosión, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas al aire.</span>',
+          "exitoso": '<span>El globo estalla con fuerza, esparciendo <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas sobre el Lago Negro.</span>',
+          "critico": '<span>El globo explota por completo, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas que caen brillando sobre el agua.</span>',
+        },
+        "oppugno": {
+          "leve": '<span>El hechizo choca sin fuerza contra el globo y apenas lo abolla. No logra liberar esquirlas.</span>',
+          "moderado": '<span>El globo se resquebraja con la explosión, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas al aire.</span>',
+          "exitoso": '<span>El globo estalla con fuerza, esparciendo <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas sobre el Lago Negro.</span>',
+          "critico": '<span>El globo explota por completo, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas que caen brillando sobre el agua.</span>',
+        },
+        "regio impetum": {
+          "leve": '<span>El hechizo choca sin fuerza contra el globo y apenas lo abolla. No logra liberar esquirlas.</span>',
+          "moderado": '<span>El globo se resquebraja con la explosión, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas al aire.</span>',
+          "exitoso": '<span>El globo estalla con fuerza, esparciendo <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas sobre el Lago Negro.</span>',
+          "critico": '<span>El globo explota por completo, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas que caen brillando sobre el agua.</span>',
+        },
+        "flipendo": {
+          "leve": '<span>El hechizo choca sin fuerza contra el globo y apenas lo abolla. No logra liberar esquirlas.</span>',
+          "moderado": '<span>El globo se resquebraja con la explosión, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas al aire.</span>',
+          "exitoso": '<span>El globo estalla con fuerza, esparciendo <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas sobre el Lago Negro.</span>',
+          "critico": '<span>El globo explota por completo, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas que caen brillando sobre el agua.</span>',
+        },
+        "waddiwasi": {
+          "leve": '<span>El hechizo choca sin fuerza contra el globo y apenas lo abolla. No logra liberar esquirlas.</span>',
+          "moderado": '<span>El globo se resquebraja con la explosión, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas al aire.</span>',
+          "exitoso": '<span>El globo estalla con fuerza, esparciendo <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas sobre el Lago Negro.</span>',
+          "critico": '<span>El globo explota por completo, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas que caen brillando sobre el agua.</span>',
+        },
+        "ignis funis": {
+          "leve": '<span>El hechizo choca sin fuerza contra el globo y apenas lo abolla. No logra liberar esquirlas.</span>',
+          "moderado": '<span>El globo se resquebraja con la explosión, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas al aire.</span>',
+          "exitoso": '<span>El globo estalla con fuerza, esparciendo <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas sobre el Lago Negro.</span>',
+          "critico": '<span>El globo explota por completo, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas que caen brillando sobre el agua.</span>',
+        },
+        "vuelo": {
+          "leve": '<span>El cazador no logra estabilizarse a tiempo, las esquirlas se hunden en el Lago Negro antes de poder alcanzarlas. No recolecta esquirlas.</span>',
+          "moderado": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "exitoso": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "critico": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo), con un movimiento impecable.</span>',
+        },
+        "vuelo en velocidad": {
+          "leve": '<span>El cazador no logra estabilizarse a tiempo, las esquirlas se hunden en el Lago Negro antes de poder alcanzarlas. No recolecta esquirlas.</span>',
+          "moderado": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "exitoso": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "critico": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo), con un movimiento impecable.</span>',
+        },
+        "pivotao aereo": {
+          "leve": '<span>El cazador no logra estabilizarse a tiempo, las esquirlas se hunden en el Lago Negro antes de poder alcanzarlas. No recolecta esquirlas.</span>',
+          "moderado": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "exitoso": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "critico": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo), con un movimiento impecable.</span>',
+        },
+        "giro del colacuerno": {
+          "leve": '<span>El cazador no logra estabilizarse a tiempo, las esquirlas se hunden en el Lago Negro antes de poder alcanzarlas. No recolecta esquirlas.</span>',
+          "moderado": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "exitoso": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "critico": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo), con un movimiento impecable.</span>',
+        },
+        "amago de wronski": {
+          "leve": '<span>El cazador no logra estabilizarse a tiempo, las esquirlas se hunden en el Lago Negro antes de poder alcanzarlas. No recolecta esquirlas.</span>',
+          "moderado": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "exitoso": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "critico": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo), con un movimiento impecable.</span>',
+        },
+        "agarre del perezoso": {
+          "leve": '<span>El cazador no logra estabilizarse a tiempo, las esquirlas se hunden en el Lago Negro antes de poder alcanzarlas. No recolecta esquirlas.</span>',
+          "moderado": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "exitoso": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "critico": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo), con un movimiento impecable.</span>',
+        },
+        "derrape en escoba": {
+          "leve": '<span>El cazador no logra estabilizarse a tiempo, las esquirlas se hunden en el Lago Negro antes de poder alcanzarlas. No recolecta esquirlas.</span>',
+          "moderado": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "exitoso": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "critico": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo), con un movimiento impecable.</span>',
+        },
+        "surfeo en escoba": {
+          "leve": '<span>El cazador no logra estabilizarse a tiempo, las esquirlas se hunden en el Lago Negro antes de poder alcanzarlas. No recolecta esquirlas.</span>',
+          "moderado": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "exitoso": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "critico": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo), con un movimiento impecable.</span>',
+        },
+        "salto en escoba": {
+          "leve": '<span>El cazador no logra estabilizarse a tiempo, las esquirlas se hunden en el Lago Negro antes de poder alcanzarlas. No recolecta esquirlas.</span>',
+          "moderado": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "exitoso": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "critico": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo), con un movimiento impecable.</span>',
+        },
+      },
+    },
+    // fin: duetos estelares - Kaoru Satoo y Berenike Borgin
+
+    "duetos estelares - elysia y venus": {
+      "description": "Elysia Lestrange y Venus Merrythought se enfrentan al desafío de los duetos estelares: cinco globos flotan sobre el Lago Negro esperando ser reventados, partiendo desde Hogsmeade. Mientras Elysia abre fuego con maldiciones explosivas, Venus surca el cielo para recolectar las esquirlas que caen y avanzar hacia el siguiente globo. Nivel: Fácil.",
+      "image": "", "requisitos": [],
+      "users": ["/u159", "/u130"],
+      "dependency": [],
+      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+
+      "cards": [],
+
+      "searchs": {
+        "investigación": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
+          "cont": '<span>Cinco globos flotan sobre el Lago Negro, partiendo desde Hogsmeade. Cada globo esconde esquirlas en su interior. La dinámica se realiza en dueto: el <u>duelista</u> hace estallar el globo con cualquier hechizo ofensivo de DCAO, liberando las esquirlas (se recomienda "Confringo"); el <u>cazador</u> las recolecta con cualquier acción de vuelo y, mediante "vuelo en pareja", guía al dueto hacia el siguiente globo. Cada personaje cuenta con un máximo de dos acciones durante todo el evento: el duelista lanza dos hechizos ofensivos de DCAO; el cazador usa una acción de vuelo para recolectar y "vuelo en pareja" para avanzar.</span>',
+        },
+      },
+
+      "actions": {
+        "vuelo en pareja": {
+          "leve": '<span>Entre el reflejo tenue de las estrellas sobre el Lago Negro, el dueto avanza en vuelo compartido hacia el siguiente globo, dejando el camino listo para que el duelista pueda hacerlo estallar.</span>',
+          "moderado": '<span>Entre el reflejo tenue de las estrellas sobre el Lago Negro, el dueto avanza en vuelo compartido hacia el siguiente globo, dejando el camino listo para que el duelista pueda hacerlo estallar.</span>',
+          "exitoso": '<span>Entre el reflejo tenue de las estrellas sobre el Lago Negro, el dueto avanza en vuelo compartido hacia el siguiente globo, dejando el camino listo para que el duelista pueda hacerlo estallar.</span>',
+          "critico": '<span>Entre el reflejo tenue de las estrellas sobre el Lago Negro, el dueto avanza en vuelo compartido hacia el siguiente globo, dejando el camino listo para que el duelista pueda hacerlo estallar.</span>',
+        },
+        "confringo": {
+          "leve": '<span>El hechizo choca sin fuerza contra el globo y apenas lo abolla. No logra liberar esquirlas.</span>',
+          "moderado": '<span>El globo se resquebraja con la explosión, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas al aire.</span>',
+          "exitoso": '<span>El globo estalla con fuerza, esparciendo <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas sobre el Lago Negro.</span>',
+          "critico": '<span>El globo explota por completo, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas que caen brillando sobre el agua.</span>',
+        },
+        "expulso": {
+          "leve": '<span>El hechizo choca sin fuerza contra el globo y apenas lo abolla. No logra liberar esquirlas.</span>',
+          "moderado": '<span>El globo se resquebraja con la explosión, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas al aire.</span>',
+          "exitoso": '<span>El globo estalla con fuerza, esparciendo <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas sobre el Lago Negro.</span>',
+          "critico": '<span>El globo explota por completo, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas que caen brillando sobre el agua.</span>',
+        },
+        "oppugno": {
+          "leve": '<span>El hechizo choca sin fuerza contra el globo y apenas lo abolla. No logra liberar esquirlas.</span>',
+          "moderado": '<span>El globo se resquebraja con la explosión, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas al aire.</span>',
+          "exitoso": '<span>El globo estalla con fuerza, esparciendo <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas sobre el Lago Negro.</span>',
+          "critico": '<span>El globo explota por completo, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas que caen brillando sobre el agua.</span>',
+        },
+        "regio impetum": {
+          "leve": '<span>El hechizo choca sin fuerza contra el globo y apenas lo abolla. No logra liberar esquirlas.</span>',
+          "moderado": '<span>El globo se resquebraja con la explosión, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas al aire.</span>',
+          "exitoso": '<span>El globo estalla con fuerza, esparciendo <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas sobre el Lago Negro.</span>',
+          "critico": '<span>El globo explota por completo, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas que caen brillando sobre el agua.</span>',
+        },
+        "flipendo": {
+          "leve": '<span>El hechizo choca sin fuerza contra el globo y apenas lo abolla. No logra liberar esquirlas.</span>',
+          "moderado": '<span>El globo se resquebraja con la explosión, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas al aire.</span>',
+          "exitoso": '<span>El globo estalla con fuerza, esparciendo <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas sobre el Lago Negro.</span>',
+          "critico": '<span>El globo explota por completo, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas que caen brillando sobre el agua.</span>',
+        },
+        "waddiwasi": {
+          "leve": '<span>El hechizo choca sin fuerza contra el globo y apenas lo abolla. No logra liberar esquirlas.</span>',
+          "moderado": '<span>El globo se resquebraja con la explosión, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas al aire.</span>',
+          "exitoso": '<span>El globo estalla con fuerza, esparciendo <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas sobre el Lago Negro.</span>',
+          "critico": '<span>El globo explota por completo, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas que caen brillando sobre el agua.</span>',
+        },
+        "ignis funis": {
+          "leve": '<span>El hechizo choca sin fuerza contra el globo y apenas lo abolla. No logra liberar esquirlas.</span>',
+          "moderado": '<span>El globo se resquebraja con la explosión, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas al aire.</span>',
+          "exitoso": '<span>El globo estalla con fuerza, esparciendo <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas sobre el Lago Negro.</span>',
+          "critico": '<span>El globo explota por completo, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas que caen brillando sobre el agua.</span>',
+        },
+        "vuelo": {
+          "leve": '<span>El cazador no logra estabilizarse a tiempo, las esquirlas se hunden en el Lago Negro antes de poder alcanzarlas. No recolecta esquirlas.</span>',
+          "moderado": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "exitoso": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "critico": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo), con un movimiento impecable.</span>',
+        },
+        "vuelo en velocidad": {
+          "leve": '<span>El cazador no logra estabilizarse a tiempo, las esquirlas se hunden en el Lago Negro antes de poder alcanzarlas. No recolecta esquirlas.</span>',
+          "moderado": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "exitoso": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "critico": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo), con un movimiento impecable.</span>',
+        },
+        "pivotao aereo": {
+          "leve": '<span>El cazador no logra estabilizarse a tiempo, las esquirlas se hunden en el Lago Negro antes de poder alcanzarlas. No recolecta esquirlas.</span>',
+          "moderado": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "exitoso": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "critico": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo), con un movimiento impecable.</span>',
+        },
+        "giro del colacuerno": {
+          "leve": '<span>El cazador no logra estabilizarse a tiempo, las esquirlas se hunden en el Lago Negro antes de poder alcanzarlas. No recolecta esquirlas.</span>',
+          "moderado": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "exitoso": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "critico": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo), con un movimiento impecable.</span>',
+        },
+        "amago de wronski": {
+          "leve": '<span>El cazador no logra estabilizarse a tiempo, las esquirlas se hunden en el Lago Negro antes de poder alcanzarlas. No recolecta esquirlas.</span>',
+          "moderado": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "exitoso": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "critico": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo), con un movimiento impecable.</span>',
+        },
+        "agarre del perezoso": {
+          "leve": '<span>El cazador no logra estabilizarse a tiempo, las esquirlas se hunden en el Lago Negro antes de poder alcanzarlas. No recolecta esquirlas.</span>',
+          "moderado": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "exitoso": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "critico": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo), con un movimiento impecable.</span>',
+        },
+        "derrape en escoba": {
+          "leve": '<span>El cazador no logra estabilizarse a tiempo, las esquirlas se hunden en el Lago Negro antes de poder alcanzarlas. No recolecta esquirlas.</span>',
+          "moderado": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "exitoso": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "critico": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo), con un movimiento impecable.</span>',
+        },
+        "surfeo en escoba": {
+          "leve": '<span>El cazador no logra estabilizarse a tiempo, las esquirlas se hunden en el Lago Negro antes de poder alcanzarlas. No recolecta esquirlas.</span>',
+          "moderado": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "exitoso": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "critico": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo), con un movimiento impecable.</span>',
+        },
+        "salto en escoba": {
+          "leve": '<span>El cazador no logra estabilizarse a tiempo, las esquirlas se hunden en el Lago Negro antes de poder alcanzarlas. No recolecta esquirlas.</span>',
+          "moderado": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "exitoso": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "critico": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo), con un movimiento impecable.</span>',
+        },
+      },
+    },
+    // fin: duetos estelares - Elysia Lestrange y Venus Merrythought
+
+    "duetos estelares - thyme nott y jasper gryffith": {
+      "description": "Thyme Nott y Jasper Gryffith se enfrentan al desafío de los duetos estelares: cinco globos flotan sobre el Lago Negro esperando ser reventados, partiendo desde Hogsmeade. Mientras Thyme abre fuego con maldiciones explosivas, Jasper surca el cielo para recolectar las esquirlas que caen y avanzar hacia el siguiente globo. Nivel: Fácil.",
+      "image": "", "requisitos": [],
+      "users": ["/u180", "/u78"],
+      "dependency": [],
+      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+
+      "cards": [],
+
+      "searchs": {
+        "investigación": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
+          "cont": '<span>Cinco globos flotan sobre el Lago Negro, partiendo desde Hogsmeade. Cada globo esconde esquirlas en su interior. La dinámica se realiza en dueto: el <u>duelista</u> hace estallar el globo con cualquier hechizo ofensivo de DCAO, liberando las esquirlas (se recomienda "Confringo"); el <u>cazador</u> las recolecta con cualquier acción de vuelo y, mediante "vuelo en pareja", guía al dueto hacia el siguiente globo. Cada personaje cuenta con un máximo de dos acciones durante todo el evento: el duelista lanza dos hechizos ofensivos de DCAO; el cazador usa una acción de vuelo para recolectar y "vuelo en pareja" para avanzar.</span>',
+        },
+      },
+
+      "actions": {
+        "vuelo en pareja": {
+          "leve": '<span>Entre el reflejo tenue de las estrellas sobre el Lago Negro, el dueto avanza en vuelo compartido hacia el siguiente globo, dejando el camino listo para que el duelista pueda hacerlo estallar.</span>',
+          "moderado": '<span>Entre el reflejo tenue de las estrellas sobre el Lago Negro, el dueto avanza en vuelo compartido hacia el siguiente globo, dejando el camino listo para que el duelista pueda hacerlo estallar.</span>',
+          "exitoso": '<span>Entre el reflejo tenue de las estrellas sobre el Lago Negro, el dueto avanza en vuelo compartido hacia el siguiente globo, dejando el camino listo para que el duelista pueda hacerlo estallar.</span>',
+          "critico": '<span>Entre el reflejo tenue de las estrellas sobre el Lago Negro, el dueto avanza en vuelo compartido hacia el siguiente globo, dejando el camino listo para que el duelista pueda hacerlo estallar.</span>',
+        },
+        "confringo": {
+          "leve": '<span>El hechizo choca sin fuerza contra el globo y apenas lo abolla. No logra liberar esquirlas.</span>',
+          "moderado": '<span>El globo se resquebraja con la explosión, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas al aire.</span>',
+          "exitoso": '<span>El globo estalla con fuerza, esparciendo <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas sobre el Lago Negro.</span>',
+          "critico": '<span>El globo explota por completo, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas que caen brillando sobre el agua.</span>',
+        },
+        "expulso": {
+          "leve": '<span>El hechizo choca sin fuerza contra el globo y apenas lo abolla. No logra liberar esquirlas.</span>',
+          "moderado": '<span>El globo se resquebraja con la explosión, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas al aire.</span>',
+          "exitoso": '<span>El globo estalla con fuerza, esparciendo <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas sobre el Lago Negro.</span>',
+          "critico": '<span>El globo explota por completo, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas que caen brillando sobre el agua.</span>',
+        },
+        "oppugno": {
+          "leve": '<span>El hechizo choca sin fuerza contra el globo y apenas lo abolla. No logra liberar esquirlas.</span>',
+          "moderado": '<span>El globo se resquebraja con la explosión, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas al aire.</span>',
+          "exitoso": '<span>El globo estalla con fuerza, esparciendo <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas sobre el Lago Negro.</span>',
+          "critico": '<span>El globo explota por completo, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas que caen brillando sobre el agua.</span>',
+        },
+        "regio impetum": {
+          "leve": '<span>El hechizo choca sin fuerza contra el globo y apenas lo abolla. No logra liberar esquirlas.</span>',
+          "moderado": '<span>El globo se resquebraja con la explosión, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas al aire.</span>',
+          "exitoso": '<span>El globo estalla con fuerza, esparciendo <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas sobre el Lago Negro.</span>',
+          "critico": '<span>El globo explota por completo, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas que caen brillando sobre el agua.</span>',
+        },
+        "flipendo": {
+          "leve": '<span>El hechizo choca sin fuerza contra el globo y apenas lo abolla. No logra liberar esquirlas.</span>',
+          "moderado": '<span>El globo se resquebraja con la explosión, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas al aire.</span>',
+          "exitoso": '<span>El globo estalla con fuerza, esparciendo <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas sobre el Lago Negro.</span>',
+          "critico": '<span>El globo explota por completo, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas que caen brillando sobre el agua.</span>',
+        },
+        "waddiwasi": {
+          "leve": '<span>El hechizo choca sin fuerza contra el globo y apenas lo abolla. No logra liberar esquirlas.</span>',
+          "moderado": '<span>El globo se resquebraja con la explosión, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas al aire.</span>',
+          "exitoso": '<span>El globo estalla con fuerza, esparciendo <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas sobre el Lago Negro.</span>',
+          "critico": '<span>El globo explota por completo, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas que caen brillando sobre el agua.</span>',
+        },
+        "ignis funis": {
+          "leve": '<span>El hechizo choca sin fuerza contra el globo y apenas lo abolla. No logra liberar esquirlas.</span>',
+          "moderado": '<span>El globo se resquebraja con la explosión, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas al aire.</span>',
+          "exitoso": '<span>El globo estalla con fuerza, esparciendo <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas sobre el Lago Negro.</span>',
+          "critico": '<span>El globo explota por completo, liberando <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas que caen brillando sobre el agua.</span>',
+        },
+        "vuelo": {
+          "leve": '<span>El cazador no logra estabilizarse a tiempo, las esquirlas se hunden en el Lago Negro antes de poder alcanzarlas. No recolecta esquirlas.</span>',
+          "moderado": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "exitoso": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "critico": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo), con un movimiento impecable.</span>',
+        },
+        "vuelo en velocidad": {
+          "leve": '<span>El cazador no logra estabilizarse a tiempo, las esquirlas se hunden en el Lago Negro antes de poder alcanzarlas. No recolecta esquirlas.</span>',
+          "moderado": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "exitoso": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "critico": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo), con un movimiento impecable.</span>',
+        },
+        "pivotao aereo": {
+          "leve": '<span>El cazador no logra estabilizarse a tiempo, las esquirlas se hunden en el Lago Negro antes de poder alcanzarlas. No recolecta esquirlas.</span>',
+          "moderado": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "exitoso": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "critico": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo), con un movimiento impecable.</span>',
+        },
+        "giro del colacuerno": {
+          "leve": '<span>El cazador no logra estabilizarse a tiempo, las esquirlas se hunden en el Lago Negro antes de poder alcanzarlas. No recolecta esquirlas.</span>',
+          "moderado": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "exitoso": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "critico": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo), con un movimiento impecable.</span>',
+        },
+        "amago de wronski": {
+          "leve": '<span>El cazador no logra estabilizarse a tiempo, las esquirlas se hunden en el Lago Negro antes de poder alcanzarlas. No recolecta esquirlas.</span>',
+          "moderado": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "exitoso": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "critico": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo), con un movimiento impecable.</span>',
+        },
+        "agarre del perezoso": {
+          "leve": '<span>El cazador no logra estabilizarse a tiempo, las esquirlas se hunden en el Lago Negro antes de poder alcanzarlas. No recolecta esquirlas.</span>',
+          "moderado": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "exitoso": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "critico": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo), con un movimiento impecable.</span>',
+        },
+        "derrape en escoba": {
+          "leve": '<span>El cazador no logra estabilizarse a tiempo, las esquirlas se hunden en el Lago Negro antes de poder alcanzarlas. No recolecta esquirlas.</span>',
+          "moderado": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "exitoso": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "critico": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo), con un movimiento impecable.</span>',
+        },
+        "surfeo en escoba": {
+          "leve": '<span>El cazador no logra estabilizarse a tiempo, las esquirlas se hunden en el Lago Negro antes de poder alcanzarlas. No recolecta esquirlas.</span>',
+          "moderado": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "exitoso": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "critico": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo), con un movimiento impecable.</span>',
+        },
+        "salto en escoba": {
+          "leve": '<span>El cazador no logra estabilizarse a tiempo, las esquirlas se hunden en el Lago Negro antes de poder alcanzarlas. No recolecta esquirlas.</span>',
+          "moderado": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "exitoso": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo).</span>',
+          "critico": '<span>El cazador recolecta <replace target="dado" calculate="0.5">la mitad del resultado del dado</replace> esquirlas (máximo las liberadas por el hechizo), con un movimiento impecable.</span>',
+        },
+      },
+    },
+    // fin: duetos estelares - Thyme Nott y Jasper Gryffith
+
     /* "NUEVO": {
       "description": "",
       "image": "", "requisitos": [],
