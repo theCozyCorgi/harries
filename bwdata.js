@@ -11210,13 +11210,7 @@ const MissionsModule = (function () {
       "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
 
       "cards": [],
-
-      "searchs": {
-        "investigación": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>Cinco globos flotan sobre el Lago Negro, partiendo desde Hogsmeade. Cada globo esconde esquirlas en su interior. La dinámica se realiza en dueto: el <u>duelista</u> hace estallar el globo con cualquier hechizo ofensivo de DCAO, liberando las esquirlas (se recomienda "Confringo"); el <u>cazador</u> las recolecta con cualquier acción de vuelo y, mediante "vuelo en pareja", guía al dueto hacia el siguiente globo. Cada personaje cuenta con un máximo de dos acciones durante todo el evento: el duelista lanza dos hechizos ofensivos de DCAO; el cazador usa una acción de vuelo para recolectar y "vuelo en pareja" para avanzar.</span>',
-        },
-      },
+      "searchs": {},
 
       "actions": {
         "vuelo en pareja": {
@@ -11333,13 +11327,7 @@ const MissionsModule = (function () {
       "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
 
       "cards": [],
-
-      "searchs": {
-        "investigación": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>Cinco globos flotan sobre el Lago Negro, partiendo desde Hogsmeade. Cada globo esconde esquirlas en su interior. La dinámica se realiza en dueto: el <u>duelista</u> hace estallar el globo con cualquier hechizo ofensivo de DCAO, liberando las esquirlas (se recomienda "Confringo"); el <u>cazador</u> las recolecta con cualquier acción de vuelo y, mediante "vuelo en pareja", guía al dueto hacia el siguiente globo. Cada personaje cuenta con un máximo de dos acciones durante todo el evento: el duelista lanza dos hechizos ofensivos de DCAO; el cazador usa una acción de vuelo para recolectar y "vuelo en pareja" para avanzar.</span>',
-        },
-      },
+      "searchs": {},
 
       "actions": {
         "vuelo en pareja": {
@@ -11456,13 +11444,7 @@ const MissionsModule = (function () {
       "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
 
       "cards": [],
-
-      "searchs": {
-        "investigación": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>Cinco globos flotan sobre el Lago Negro, partiendo desde Hogsmeade. Cada globo esconde esquirlas en su interior. La dinámica se realiza en dueto: el <u>duelista</u> hace estallar el globo con cualquier hechizo ofensivo de DCAO, liberando las esquirlas (se recomienda "Confringo"); el <u>cazador</u> las recolecta con cualquier acción de vuelo y, mediante "vuelo en pareja", guía al dueto hacia el siguiente globo. Cada personaje cuenta con un máximo de dos acciones durante todo el evento: el duelista lanza dos hechizos ofensivos de DCAO; el cazador usa una acción de vuelo para recolectar y "vuelo en pareja" para avanzar.</span>',
-        },
-      },
+      "searchs": {},
 
       "actions": {
         "vuelo en pareja": {
@@ -11579,13 +11561,7 @@ const MissionsModule = (function () {
       "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
 
       "cards": [],
-
-      "searchs": {
-        "investigación": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>Cinco globos flotan sobre el Lago Negro, partiendo desde Hogsmeade. Cada globo esconde esquirlas en su interior. La dinámica se realiza en dueto: el <u>duelista</u> hace estallar el globo con cualquier hechizo ofensivo de DCAO, liberando las esquirlas (se recomienda "Confringo"); el <u>cazador</u> las recolecta con cualquier acción de vuelo y, mediante "vuelo en pareja", guía al dueto hacia el siguiente globo. Cada personaje cuenta con un máximo de dos acciones durante todo el evento: el duelista lanza dos hechizos ofensivos de DCAO; el cazador usa una acción de vuelo para recolectar y "vuelo en pareja" para avanzar.</span>',
-        },
-      },
+      "searchs": {},
 
       "actions": {
         "vuelo en pareja": {
@@ -11702,13 +11678,7 @@ const MissionsModule = (function () {
       "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
 
       "cards": [],
-
-      "searchs": {
-        "investigación": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>Cinco globos flotan sobre el Lago Negro, partiendo desde Hogsmeade. Cada globo esconde esquirlas en su interior. La dinámica se realiza en dueto: el <u>duelista</u> hace estallar el globo con cualquier hechizo ofensivo de DCAO, liberando las esquirlas (se recomienda "Confringo"); el <u>cazador</u> las recolecta con cualquier acción de vuelo y, mediante "vuelo en pareja", guía al dueto hacia el siguiente globo. Cada personaje cuenta con un máximo de dos acciones durante todo el evento: el duelista lanza dos hechizos ofensivos de DCAO; el cazador usa una acción de vuelo para recolectar y "vuelo en pareja" para avanzar.</span>',
-        },
-      },
+      "searchs": {},
 
       "actions": {
         "vuelo en pareja": {
@@ -11825,13 +11795,7 @@ const MissionsModule = (function () {
       "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
 
       "cards": [],
-
-      "searchs": {
-        "investigación": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>Cinco globos flotan sobre el Lago Negro, partiendo desde Hogsmeade. Cada globo esconde esquirlas en su interior. La dinámica se realiza en dueto: el <u>duelista</u> hace estallar el globo con cualquier hechizo ofensivo de DCAO, liberando las esquirlas (se recomienda "Confringo"); el <u>cazador</u> las recolecta con cualquier acción de vuelo y, mediante "vuelo en pareja", guía al dueto hacia el siguiente globo. Cada personaje cuenta con un máximo de dos acciones durante todo el evento: el duelista lanza dos hechizos ofensivos de DCAO; el cazador usa una acción de vuelo para recolectar y "vuelo en pareja" para avanzar.</span>',
-        },
-      },
+      "searchs": {},
 
       "actions": {
         "vuelo en pareja": {
@@ -11948,13 +11912,7 @@ const MissionsModule = (function () {
       "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
 
       "cards": [],
-
-      "searchs": {
-        "investigación": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>Cinco globos flotan sobre el Lago Negro, partiendo desde Hogsmeade. Cada globo esconde esquirlas en su interior. La dinámica se realiza en dueto: el <u>duelista</u> hace estallar el globo con cualquier hechizo ofensivo de DCAO, liberando las esquirlas (se recomienda "Confringo"); el <u>cazador</u> las recolecta con cualquier acción de vuelo y, mediante "vuelo en pareja", guía al dueto hacia el siguiente globo. Cada personaje cuenta con un máximo de dos acciones durante todo el evento: el duelista lanza dos hechizos ofensivos de DCAO; el cazador usa una acción de vuelo para recolectar y "vuelo en pareja" para avanzar.</span>',
-        },
-      },
+      "searchs": {},
 
       "actions": {
         "vuelo en pareja": {
@@ -12071,13 +12029,7 @@ const MissionsModule = (function () {
       "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
 
       "cards": [],
-
-      "searchs": {
-        "investigación": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>Cinco globos flotan sobre el Lago Negro, partiendo desde Hogsmeade. Cada globo esconde esquirlas en su interior. La dinámica se realiza en dueto: el <u>duelista</u> hace estallar el globo con cualquier hechizo ofensivo de DCAO, liberando las esquirlas (se recomienda "Confringo"); el <u>cazador</u> las recolecta con cualquier acción de vuelo y, mediante "vuelo en pareja", guía al dueto hacia el siguiente globo. Cada personaje cuenta con un máximo de dos acciones durante todo el evento: el duelista lanza dos hechizos ofensivos de DCAO; el cazador usa una acción de vuelo para recolectar y "vuelo en pareja" para avanzar.</span>',
-        },
-      },
+      "searchs": {},
 
       "actions": {
         "vuelo en pareja": {
