@@ -5258,7 +5258,7 @@ const MissionsModule = (function () {
         },
         "información del hechizo": {
           "visible": { "attr": { "val": "min" }, "know": { "magia oscura": "10" }, "job": "invalid", "name": "invalid", }, "place": "notas de noviembre 1932",
-          "cont": '<span>El personaje puede brindar la información del hechizo que se encuentra bajo el filtro de magia oscura en la lista de hechizos y habilidades.</span>',
+          "cont": '<span>El personaje puede brindar la información del hechizo (parasitus arcanum) que se encuentra bajo el filtro de magia oscura en la lista de hechizos y habilidades.</span>',
         },
       },
 
