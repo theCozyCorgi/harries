@@ -1473,7 +1473,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/CzU2l87.png", "requisitos": ["Un integrante tiene que tener Herbología en Avanzado"],
       "users": ["/u78", "/u8", "/u178", "/u130", "/u55", "/u174"],
       "dependency": ["moth to a flame", "potions for all the afflictions"], "tagged": ["morgana", "capitulo 0"],
-      "type": "misión", "closed": false, "link": "/t1262-mision-gilded-herb",
+      "type": "misión", "closed": true, "link": "/t1262-mision-gilded-herb",
 
       "creatures": {
         "guardia": {
@@ -2504,7 +2504,7 @@ const MissionsModule = (function () {
     "through the green abyss": {
       "description": "Siguiendo los mapas encontrados en el estudio de Sirius y las indicaciones del alquimista. Es necesario adentrarse a uno de los lugares más peligrosos del mundo mágico: o Coração do Curupira (El corazón del Curupira). Una de las partes más espesas de la selva brasilera que dicen que está protegida por el mismo Curupira.",
       "image": "https://2img.net/i.imgur.com/c4omOwT.png", "requisitos": ["Un miembro debe tener CCM en Avanzado", "Un miembro del Dpto de Seguridad Mágica"],
-      "users": ["/u159","/u153"],
+      "users": ["/u159","/u153","/u156","/u150"],
       "dependency": ["the lupine killer", "in search of the deadly hallows"],
       "type": "misión", "closed": false, "link": "", "tagged": ["sirius", "capitulo 0"],
 
