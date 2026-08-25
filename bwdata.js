@@ -5472,9 +5472,9 @@ const MissionsModule = (function () {
         },
         "sensus mitigo": {
           "leve": '<span>No es suficiente para revelar información.</span>',
-          "moderado": '<span>Permite calmar a los perros para que confíen en ellos y sigan sus instrucciones.</span>',
-          "exitoso": '<span>Permite calmar a los perros para que confíen en ellos y sigan sus instrucciones.</span>',
-          "critico": '<span>Permite calmar a los perros para que confíen en ellos y sigan sus instrucciones.</span>',
+          "moderado": '<span>Permite calmar a los perros para que confíen en ellos y sigan sus instrucciones, liberando 1 animal de las jaulas.</span>',
+          "exitoso": '<span>Permite calmar a los perros para que confíen en ellos y sigan sus instrucciones, liberando 2 animales de las jaulas.</span>',
+          "critico": '<span>Permite calmar a los perros para que confíen en ellos y sigan sus instrucciones, liberando 3 animales de las jaulas.</span>',
         },
         "fermaportus": {
           "leve": '<span>No es suficiente para revelar información.</span>',
