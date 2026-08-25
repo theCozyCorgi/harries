@@ -5482,6 +5482,12 @@ const MissionsModule = (function () {
           "exitoso": '<span>Solo podrá lanzarse una vez. Al realizar este hechizo, los personajes podrán evitar lanzar "Tacite" por 2 rondas.</span>',
           "critico": '<span>Solo podrá lanzarse una vez. Al realizar este hechizo, los personajes podrán evitar lanzar "Tacite" por 3 rondas.</span>',
         },
+        "iteratio perfectum": {
+          "leve": '<span>No es suficiente para revelar información.</span>',
+          "moderado": '<span>Permite curar o liberar 1 animal adicional por cada hechizo de ccm lanzado.</span>',
+          "exitoso": '<span>Permite curar o liberar 2 animales adicionales por cada hechizo de ccm lanzado.</span>',
+          "critico": '<span>Permite curar o liberar 3 animales adicionales por cada hechizo de ccm lanzado.</span>',
+        },
       },
     },
     // a gentle hand
