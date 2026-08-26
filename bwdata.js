@@ -1696,7 +1696,7 @@ const MissionsModule = (function () {
     "the hallucination mill": {
       "description": "Con el fin de poder responder todas las dudas sobre las bebidas. Se deberá hacer un interrogatorio al actual administrador de 'Bodegas Dempsey'. Este tema contará con la participación de la administración como el administrador.",
       "image": "https://2img.net/i.imgur.com/9mnS7Op.png", "requisitos": ["un miembro del departamento del Seguridad Mágica"],
-      "users": [],
+      "users": ["/u8"],
       "dependency": ["gilded herb"],
       "type": "interrogatorio", "closed": false, "link": "", "tagged": ["morgana", "capitulo 0"],
 
@@ -4013,7 +4013,7 @@ const MissionsModule = (function () {
     "the wounded dragon": {
       "description": "Reportes han llegado a la reserva Natural de Flint, un dragón que ha sido volando por las tierras irlandesas. No solo son los rastros de sangre los que generan confianza de una gran herida, sino también el llanto que podía ser escuchado por toda la zona. La reserva se mueve y envía a alguien a encontrar al dragón herido para poder curarlo.",
       "image": "https://2img.net/i.imgur.com/JyNcMmD.png", "requisitos": ["Un miembro debe tener CCM en Consagrado", "Un miembro debe poseer Curación en Avanzado"],
-      "users": ["/u91"],
+      "users": ["/u91","/u196"],
       "dependency": [],
       "type": "misión", "closed": false, "link": "", "tagged": ["wave", "capitulo 1"],
 
