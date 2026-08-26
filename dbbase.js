@@ -48805,6 +48805,100 @@ const DBModule = (function () {
             "date": "15/03/1935",
             "location": "Hogwarts"
         },
+        "912": {
+            "space": "el pensadero",
+            "url": "/t912-1953-01-16-this-is-all-you-ever-was",
+            "simpleTitle": "this is all you ever was",
+            "creator": "Barnaby R. Rookwood",
+            "posts": [
+                {
+                    "url": "r11848",
+                    "author": "Barnaby R. Rookwood",
+                    "date": "15/01/2026",
+                    "words": 256
+                },
+                {
+                    "url": "r12799",
+                    "author": "Aidan N. Flamel",
+                    "date": "06/02/2026",
+                    "words": 310
+                },
+                {
+                    "url": "r13059",
+                    "author": "Barnaby R. Rookwood",
+                    "date": "12/02/2026",
+                    "words": 242
+                },
+                {
+                    "url": "r14397",
+                    "author": "Aidan N. Flamel",
+                    "date": "03/03/2026",
+                    "words": 252
+                },
+                {
+                    "url": "r15001",
+                    "author": "Barnaby R. Rookwood",
+                    "date": "16/03/2026",
+                    "words": 304
+                },
+                {
+                    "url": "r16410",
+                    "author": "Aidan N. Flamel",
+                    "date": "13/04/2026",
+                    "words": 230
+                },
+                {
+                    "url": "r16891",
+                    "author": "Barnaby R. Rookwood",
+                    "date": "24/04/2026",
+                    "words": 301
+                },
+                {
+                    "url": "r18382",
+                    "author": "Aidan N. Flamel",
+                    "date": "15/05/2026",
+                    "words": 272
+                },
+                {
+                    "url": "r18864",
+                    "author": "Barnaby R. Rookwood",
+                    "date": "24/05/2026",
+                    "words": 250
+                },
+                {
+                    "url": "r19352",
+                    "author": "Aidan N. Flamel",
+                    "date": "31/05/2026",
+                    "words": 366
+                },
+                {
+                    "url": "r19791",
+                    "author": "Barnaby R. Rookwood",
+                    "date": "11/06/2026",
+                    "words": 286
+                },
+                {
+                    "url": "r20339",
+                    "author": "Aidan N. Flamel",
+                    "date": "29/06/2026",
+                    "words": 286
+                },
+                {
+                    "url": "r21300",
+                    "author": "Barnaby R. Rookwood",
+                    "date": "02/08/2026",
+                    "words": 297
+                },
+                {
+                    "url": "r22032",
+                    "author": "Aidan N. Flamel",
+                    "date": "21/08/2026",
+                    "words": 208
+                }
+            ],
+            "date": "16/01/1953",
+            "location": "Invernaderos"
+        },
         "913": {
             "space": "el pensadero",
             "url": "/t913-1952-01-24-thinking-way-too-loud",
@@ -53820,6 +53914,208 @@ const DBModule = (function () {
             ],
             "date": "11/02/1953",
             "location": "Casa de Alas y Shun"
+        },
+        "977": {
+            "space": "el pensadero",
+            "url": "/t977-1053-02-18-devil-doesn-t-bargain",
+            "simpleTitle": "devil doesn't bargain",
+            "creator": "Regulus O. Black",
+            "posts": [
+                {
+                    "url": "r13194",
+                    "author": "Regulus O. Black",
+                    "date": "15/02/2026",
+                    "words": 252
+                },
+                {
+                    "url": "r13251",
+                    "author": "Jupiter Merrythought",
+                    "date": "15/02/2026",
+                    "words": 299
+                },
+                {
+                    "url": "r13826",
+                    "author": "Regulus O. Black",
+                    "date": "24/02/2026",
+                    "words": 291
+                },
+                {
+                    "url": "r14013",
+                    "author": "Jupiter Merrythought",
+                    "date": "26/02/2026",
+                    "words": 335
+                },
+                {
+                    "url": "r14102",
+                    "author": "Regulus O. Black",
+                    "date": "28/02/2026",
+                    "words": 324
+                },
+                {
+                    "url": "r14260",
+                    "author": "Jupiter Merrythought",
+                    "date": "02/03/2026",
+                    "words": 307
+                },
+                {
+                    "url": "r14881",
+                    "author": "Regulus O. Black",
+                    "date": "14/03/2026",
+                    "words": 296
+                },
+                {
+                    "url": "r14958",
+                    "author": "Jupiter Merrythought",
+                    "date": "15/03/2026",
+                    "words": 472
+                },
+                {
+                    "url": "r14959",
+                    "author": "The Familiars",
+                    "date": "15/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r15193",
+                    "author": "Regulus O. Black",
+                    "date": "19/03/2026",
+                    "words": 266
+                },
+                {
+                    "url": "r15590",
+                    "author": "Jupiter Merrythought",
+                    "date": "27/03/2026",
+                    "words": 338
+                },
+                {
+                    "url": "r15757",
+                    "author": "Regulus O. Black",
+                    "date": "30/03/2026",
+                    "words": 296
+                },
+                {
+                    "url": "r15857",
+                    "author": "Jupiter Merrythought",
+                    "date": "31/03/2026",
+                    "words": 413
+                },
+                {
+                    "url": "r16403",
+                    "author": "Regulus O. Black",
+                    "date": "13/04/2026",
+                    "words": 263
+                },
+                {
+                    "url": "r16404",
+                    "author": "The Familiars",
+                    "date": "13/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16508",
+                    "author": "Jupiter Merrythought",
+                    "date": "14/04/2026",
+                    "words": 470
+                },
+                {
+                    "url": "r16930",
+                    "author": "Regulus O. Black",
+                    "date": "25/04/2026",
+                    "words": 268
+                },
+                {
+                    "url": "r17012",
+                    "author": "Jupiter Merrythought",
+                    "date": "26/04/2026",
+                    "words": 420
+                },
+                {
+                    "url": "r17632",
+                    "author": "Regulus O. Black",
+                    "date": "05/05/2026",
+                    "words": 294
+                },
+                {
+                    "url": "r17633",
+                    "author": "The Familiars",
+                    "date": "05/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r13194",
+                    "author": "Regulus O. Black",
+                    "date": "15/02/2026",
+                    "words": 252
+                },
+                {
+                    "url": "r17694",
+                    "author": "Jupiter Merrythought",
+                    "date": "05/05/2026",
+                    "words": 412
+                },
+                {
+                    "url": "r18453",
+                    "author": "Regulus O. Black",
+                    "date": "16/05/2026",
+                    "words": 262
+                },
+                {
+                    "url": "r18454",
+                    "author": "The Familiars",
+                    "date": "16/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r18567",
+                    "author": "Jupiter Merrythought",
+                    "date": "17/05/2026",
+                    "words": 305
+                },
+                {
+                    "url": "r19631",
+                    "author": "Regulus O. Black",
+                    "date": "05/06/2026",
+                    "words": 328
+                },
+                {
+                    "url": "r19632",
+                    "author": "The Familiars",
+                    "date": "05/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r19806",
+                    "author": "Jupiter Merrythought",
+                    "date": "11/06/2026",
+                    "words": 301
+                },
+                {
+                    "url": "r20235",
+                    "author": "Regulus O. Black",
+                    "date": "26/06/2026",
+                    "words": 346
+                },
+                {
+                    "url": "r20734",
+                    "author": "Jupiter Merrythought",
+                    "date": "14/07/2026",
+                    "words": 273
+                },
+                {
+                    "url": "r21822",
+                    "author": "Regulus O. Black",
+                    "date": "15/08/2026",
+                    "words": 218
+                },
+                {
+                    "url": "r22105",
+                    "author": "Jupiter Merrythought",
+                    "date": "22/08/2026",
+                    "words": 301
+                }
+            ],
+            "date": "18/02/1053",
+            "location": "Ministerio de Magia"
         },
         "979": {
             "space": "el pensadero",
@@ -65811,6 +66107,580 @@ const DBModule = (function () {
             "date": "10/03/1953",
             "location": "Ministerio de Magia"
         },
+        "1262": {
+            "space": "el pensadero",
+            "url": "/t1262-1953-03-31-mision-gilded-herb",
+            "simpleTitle": "misión: gilded herb",
+            "creator": "Black Wave",
+            "posts": [
+                {
+                    "url": "r18890",
+                    "author": "Black Wave",
+                    "date": "25/05/2026",
+                    "words": 138
+                },
+                {
+                    "url": "r18897",
+                    "author": "Alastor Moody",
+                    "date": "25/05/2026",
+                    "words": 258
+                },
+                {
+                    "url": "r18898",
+                    "author": "The Familiars",
+                    "date": "25/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r18955",
+                    "author": "H. Shun Parkinson",
+                    "date": "26/05/2026",
+                    "words": 207
+                },
+                {
+                    "url": "r18956",
+                    "author": "The Familiars",
+                    "date": "26/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r18969",
+                    "author": "Invitado",
+                    "date": "26/05/2026",
+                    "words": 138
+                },
+                {
+                    "url": "r18970",
+                    "author": "The Familiars",
+                    "date": "26/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r18972",
+                    "author": "Venus M. Merrythought",
+                    "date": "26/05/2026",
+                    "words": 164
+                },
+                {
+                    "url": "r18973",
+                    "author": "The Familiars",
+                    "date": "26/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r18985",
+                    "author": "Jasper R. Gryffith",
+                    "date": "26/05/2026",
+                    "words": 226
+                },
+                {
+                    "url": "r19013",
+                    "author": "Invitado",
+                    "date": "26/05/2026",
+                    "words": 344
+                },
+                {
+                    "url": "r19014",
+                    "author": "The Familiars",
+                    "date": "26/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r19027",
+                    "author": "Alastor Moody",
+                    "date": "26/05/2026",
+                    "words": 381
+                },
+                {
+                    "url": "r19028",
+                    "author": "The Familiars",
+                    "date": "26/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r19216",
+                    "author": "H. Shun Parkinson",
+                    "date": "29/05/2026",
+                    "words": 251
+                },
+                {
+                    "url": "r19217",
+                    "author": "The Familiars",
+                    "date": "29/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r19274",
+                    "author": "Invitado",
+                    "date": "29/05/2026",
+                    "words": 209
+                },
+                {
+                    "url": "r19275",
+                    "author": "The Familiars",
+                    "date": "29/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r19506",
+                    "author": "Venus M. Merrythought",
+                    "date": "02/06/2026",
+                    "words": 171
+                },
+                {
+                    "url": "r19507",
+                    "author": "The Familiars",
+                    "date": "02/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r18890",
+                    "author": "Black Wave",
+                    "date": "25/05/2026",
+                    "words": 138
+                },
+                {
+                    "url": "r19520",
+                    "author": "Jasper R. Gryffith",
+                    "date": "02/06/2026",
+                    "words": 202
+                },
+                {
+                    "url": "r19689",
+                    "author": "Alastor Moody",
+                    "date": "07/06/2026",
+                    "words": 291
+                },
+                {
+                    "url": "r19690",
+                    "author": "The Familiars",
+                    "date": "07/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r19718",
+                    "author": "H. Shun Parkinson",
+                    "date": "08/06/2026",
+                    "words": 253
+                },
+                {
+                    "url": "r19719",
+                    "author": "The Familiars",
+                    "date": "08/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r19798",
+                    "author": "Invitado",
+                    "date": "11/06/2026",
+                    "words": 171
+                },
+                {
+                    "url": "r19799",
+                    "author": "The Familiars",
+                    "date": "11/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r19916",
+                    "author": "Venus M. Merrythought",
+                    "date": "14/06/2026",
+                    "words": 223
+                },
+                {
+                    "url": "r19917",
+                    "author": "The Familiars",
+                    "date": "14/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20049",
+                    "author": "Jasper R. Gryffith",
+                    "date": "18/06/2026",
+                    "words": 263
+                },
+                {
+                    "url": "r20050",
+                    "author": "The Familiars",
+                    "date": "18/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20051",
+                    "author": "Alastor Moody",
+                    "date": "18/06/2026",
+                    "words": 161
+                },
+                {
+                    "url": "r20052",
+                    "author": "The Familiars",
+                    "date": "18/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20061",
+                    "author": "H. Shun Parkinson",
+                    "date": "18/06/2026",
+                    "words": 228
+                },
+                {
+                    "url": "r20062",
+                    "author": "The Familiars",
+                    "date": "18/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20077",
+                    "author": "Invitado",
+                    "date": "20/06/2026",
+                    "words": 166
+                },
+                {
+                    "url": "r20078",
+                    "author": "The Familiars",
+                    "date": "20/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20239",
+                    "author": "Venus M. Merrythought",
+                    "date": "26/06/2026",
+                    "words": 145
+                },
+                {
+                    "url": "r20240",
+                    "author": "The Familiars",
+                    "date": "26/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20418",
+                    "author": "Jasper R. Gryffith",
+                    "date": "01/07/2026",
+                    "words": 216
+                },
+                {
+                    "url": "r18890",
+                    "author": "Black Wave",
+                    "date": "25/05/2026",
+                    "words": 138
+                },
+                {
+                    "url": "r20419",
+                    "author": "The Familiars",
+                    "date": "01/07/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20500",
+                    "author": "Alastor Moody",
+                    "date": "04/07/2026",
+                    "words": 160
+                },
+                {
+                    "url": "r20501",
+                    "author": "The Familiars",
+                    "date": "04/07/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20567",
+                    "author": "Valerian",
+                    "date": "06/07/2026",
+                    "words": 76
+                },
+                {
+                    "url": "r20590",
+                    "author": "H. Shun Parkinson",
+                    "date": "08/07/2026",
+                    "words": 205
+                },
+                {
+                    "url": "r20591",
+                    "author": "The Familiars",
+                    "date": "08/07/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20683",
+                    "author": "Venus M. Merrythought",
+                    "date": "13/07/2026",
+                    "words": 209
+                },
+                {
+                    "url": "r20684",
+                    "author": "The Familiars",
+                    "date": "13/07/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20703",
+                    "author": "Jasper R. Gryffith",
+                    "date": "13/07/2026",
+                    "words": 224
+                },
+                {
+                    "url": "r20704",
+                    "author": "The Familiars",
+                    "date": "13/07/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20705",
+                    "author": "Alastor Moody",
+                    "date": "13/07/2026",
+                    "words": 221
+                },
+                {
+                    "url": "r20706",
+                    "author": "The Familiars",
+                    "date": "13/07/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20726",
+                    "author": "H. Shun Parkinson",
+                    "date": "14/07/2026",
+                    "words": 241
+                },
+                {
+                    "url": "r20727",
+                    "author": "The Familiars",
+                    "date": "14/07/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20872",
+                    "author": "Venus M. Merrythought",
+                    "date": "19/07/2026",
+                    "words": 185
+                },
+                {
+                    "url": "r20873",
+                    "author": "The Familiars",
+                    "date": "19/07/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20897",
+                    "author": "Jasper R. Gryffith",
+                    "date": "19/07/2026",
+                    "words": 181
+                },
+                {
+                    "url": "r20898",
+                    "author": "The Familiars",
+                    "date": "19/07/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20905",
+                    "author": "Alastor Moody",
+                    "date": "19/07/2026",
+                    "words": 156
+                },
+                {
+                    "url": "r20906",
+                    "author": "The Familiars",
+                    "date": "19/07/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r18890",
+                    "author": "Black Wave",
+                    "date": "25/05/2026",
+                    "words": 138
+                },
+                {
+                    "url": "r21105",
+                    "author": "H. Shun Parkinson",
+                    "date": "29/07/2026",
+                    "words": 266
+                },
+                {
+                    "url": "r21106",
+                    "author": "The Familiars",
+                    "date": "29/07/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21121",
+                    "author": "Venus M. Merrythought",
+                    "date": "30/07/2026",
+                    "words": 167
+                },
+                {
+                    "url": "r21122",
+                    "author": "The Familiars",
+                    "date": "30/07/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21380",
+                    "author": "Jasper R. Gryffith",
+                    "date": "03/08/2026",
+                    "words": 215
+                },
+                {
+                    "url": "r21381",
+                    "author": "The Familiars",
+                    "date": "03/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21385",
+                    "author": "Alastor Moody",
+                    "date": "03/08/2026",
+                    "words": 245
+                },
+                {
+                    "url": "r21386",
+                    "author": "The Familiars",
+                    "date": "03/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21576",
+                    "author": "Valerian",
+                    "date": "08/08/2026",
+                    "words": 239
+                },
+                {
+                    "url": "r21596",
+                    "author": "H. Shun Parkinson",
+                    "date": "08/08/2026",
+                    "words": 183
+                },
+                {
+                    "url": "r21597",
+                    "author": "The Familiars",
+                    "date": "08/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21641",
+                    "author": "Venus M. Merrythought",
+                    "date": "09/08/2026",
+                    "words": 213
+                },
+                {
+                    "url": "r21642",
+                    "author": "The Familiars",
+                    "date": "09/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21666",
+                    "author": "Jasper R. Gryffith",
+                    "date": "10/08/2026",
+                    "words": 228
+                },
+                {
+                    "url": "r21667",
+                    "author": "The Familiars",
+                    "date": "10/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21683",
+                    "author": "Alastor Moody",
+                    "date": "10/08/2026",
+                    "words": 226
+                },
+                {
+                    "url": "r21684",
+                    "author": "The Familiars",
+                    "date": "10/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21702",
+                    "author": "H. Shun Parkinson",
+                    "date": "11/08/2026",
+                    "words": 207
+                },
+                {
+                    "url": "r21703",
+                    "author": "The Familiars",
+                    "date": "11/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21900",
+                    "author": "Venus M. Merrythought",
+                    "date": "16/08/2026",
+                    "words": 158
+                },
+                {
+                    "url": "r18890",
+                    "author": "Black Wave",
+                    "date": "25/05/2026",
+                    "words": 138
+                },
+                {
+                    "url": "r21901",
+                    "author": "The Familiars",
+                    "date": "16/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21961",
+                    "author": "Jasper R. Gryffith",
+                    "date": "18/08/2026",
+                    "words": 206
+                },
+                {
+                    "url": "r21962",
+                    "author": "The Familiars",
+                    "date": "18/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21994",
+                    "author": "Alastor Moody",
+                    "date": "19/08/2026",
+                    "words": 90
+                },
+                {
+                    "url": "r21995",
+                    "author": "The Familiars",
+                    "date": "19/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22004",
+                    "author": "H. Shun Parkinson",
+                    "date": "20/08/2026",
+                    "words": 229
+                },
+                {
+                    "url": "r22005",
+                    "author": "The Familiars",
+                    "date": "20/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22128",
+                    "author": "Venus M. Merrythought",
+                    "date": "23/08/2026",
+                    "words": 150
+                },
+                {
+                    "url": "r22129",
+                    "author": "The Familiars",
+                    "date": "23/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22184",
+                    "author": "Black Wave",
+                    "date": "Ayer a las 3:42",
+                    "words": 39
+                }
+            ],
+            "date": "31/03/1953",
+            "location": "Omeath, Irlanda"
+        },
         "1272": {
             "space": "el pensadero",
             "url": "/t1272-1953-03-15-got-a-secret-can-you-keep-it",
@@ -68039,6 +68909,124 @@ const DBModule = (function () {
                 }
             ],
             "date": "23/05/1953",
+            "location": "Arena Dush"
+        },
+        "1396": {
+            "space": "el pensadero",
+            "url": "/t1396-1953-05-31-interecolares-hogwarts-vs-ilvermorny",
+            "simpleTitle": "interecolares: hogwarts vs ilvermorny",
+            "creator": "Black Wave",
+            "posts": [
+                {
+                    "url": "r21810",
+                    "author": "Black Wave",
+                    "date": "15/08/2026",
+                    "words": 271
+                },
+                {
+                    "url": "r21816",
+                    "author": "Valerian",
+                    "date": "15/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21817",
+                    "author": "The Familiars",
+                    "date": "15/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21818",
+                    "author": "Neptune E. Merrythought",
+                    "date": "15/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21819",
+                    "author": "The Familiars",
+                    "date": "15/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21820",
+                    "author": "Minerva E. McGonagall",
+                    "date": "15/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21821",
+                    "author": "The Familiars",
+                    "date": "15/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21846",
+                    "author": "Iarlaith C. Sayre",
+                    "date": "16/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21847",
+                    "author": "The Familiars",
+                    "date": "16/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21848",
+                    "author": "Asteria C. Lestrange",
+                    "date": "16/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21849",
+                    "author": "The Familiars",
+                    "date": "16/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21850",
+                    "author": "Thaddeus L. Nott",
+                    "date": "16/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21851",
+                    "author": "The Familiars",
+                    "date": "16/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21916",
+                    "author": "Owen Fitzgerald",
+                    "date": "16/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21917",
+                    "author": "The Familiars",
+                    "date": "16/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21966",
+                    "author": "Findlay McCrory",
+                    "date": "18/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21967",
+                    "author": "The Familiars",
+                    "date": "18/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22183",
+                    "author": "Black Wave",
+                    "date": "Ayer a las 3:42",
+                    "words": 5
+                }
+            ],
+            "date": "31/05/1953",
             "location": "Arena Dush"
         }
     };
@@ -109294,6 +110282,776 @@ const DBModule = (function () {
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"vuelo\" (19)</strong>Vuelo perfecto. Se requieren 2 turnos para llegar al objetivo deseado.</span></div></div></div>",
             "url": "r20823",
             "simpleTitle": "nubes de algodón",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Valerian",
+            "spread": [
+                11
+            ],
+            "title": "actions",
+            "key": "resultado buscadores",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Valerian ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">11</span></div></div></div>",
+            "url": "r21817",
+            "simpleTitle": "interecolares: hogwarts vs ilvermorny",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Neptune E. Merrythought",
+            "spread": [
+                8
+            ],
+            "title": "actions",
+            "key": "resultado guardianes",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Neptune E. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">8</span></div></div></div>",
+            "url": "r21819",
+            "simpleTitle": "interecolares: hogwarts vs ilvermorny",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Minerva E. McGonagall",
+            "spread": [
+                12
+            ],
+            "title": "actions",
+            "key": "resultado cazadores",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">12</span></div></div></div>",
+            "url": "r21821",
+            "simpleTitle": "interecolares: hogwarts vs ilvermorny",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Iarlaith C. Sayre",
+            "spread": [
+                10
+            ],
+            "title": "actions",
+            "key": "resultado golpeadores",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Iarlaith C. Sayre ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">10</span></div></div></div>",
+            "url": "r21847",
+            "simpleTitle": "interecolares: hogwarts vs ilvermorny",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Asteria C. Lestrange",
+            "spread": [
+                15
+            ],
+            "title": "actions",
+            "key": "resultado cazadores",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Asteria C. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">15</span></div></div></div>",
+            "url": "r21849",
+            "simpleTitle": "interecolares: hogwarts vs ilvermorny",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Thaddeus L. Nott",
+            "spread": [
+                7
+            ],
+            "title": "actions",
+            "key": "resultado golpeadores",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Thaddeus L. Nott ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">7</span></div></div></div>",
+            "url": "r21851",
+            "simpleTitle": "interecolares: hogwarts vs ilvermorny",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Owen Fitzgerald",
+            "spread": [
+                18
+            ],
+            "title": "actions",
+            "key": "resultado cazadores",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Owen Fitzgerald ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">18</span></div></div></div>",
+            "url": "r21917",
+            "simpleTitle": "interecolares: hogwarts vs ilvermorny",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Findlay McCrory",
+            "spread": [
+                13
+            ],
+            "title": "actions",
+            "key": "resultado buscadores",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Findlay McCrory ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">13</span></div></div></div>",
+            "url": "r21967",
+            "simpleTitle": "interecolares: hogwarts vs ilvermorny",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                7
+            ],
+            "title": "actions",
+            "key": "homenum revelio",
+            "knowledge": "dcao",
+            "type": "encantamiento",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"homenum revelio\" (7)</strong>Se detectan todas las presencias humanas en el área con claridad.</span></div></div></div>",
+            "url": "r18898",
+            "simpleTitle": "misión: gilded herb",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                4
+            ],
+            "title": "actions",
+            "key": "puerta de atrás",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">4</span></div></div></div>",
+            "url": "r18956",
+            "simpleTitle": "misión: gilded herb",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "A. Ignatius Prewett",
+            "spread": [
+                13
+            ],
+            "title": "actions",
+            "key": "puerta de atrás",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>A. Ignatius Prewett ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">13</span></div></div></div>",
+            "url": "r18970",
+            "simpleTitle": "misión: gilded herb",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Venus M. Merrythought",
+            "spread": [
+                11
+            ],
+            "title": "actions",
+            "key": "seguridad interna",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Venus M. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">11</span></div></div></div>",
+            "url": "r18973",
+            "simpleTitle": "misión: gilded herb",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Astraea M. Burke",
+            "spread": [
+                15
+            ],
+            "title": "actions",
+            "key": "aura de la puerta principal",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Astraea M. Burke ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">15</span></div></div></div>",
+            "url": "r19014",
+            "simpleTitle": "misión: gilded herb",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                5
+            ],
+            "title": "actions",
+            "key": "hechizos de seguridad",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">5</span></div></div></div>",
+            "url": "r19028",
+            "simpleTitle": "misión: gilded herb",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                13
+            ],
+            "title": "actions",
+            "key": "prueba ingreso por la puerta principal",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">13</span></div></div></div>",
+            "url": "r19217",
+            "simpleTitle": "misión: gilded herb",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "A. Ignatius Prewett",
+            "spread": [
+                9
+            ],
+            "title": "actions",
+            "key": "requisitos para desarmar la maldición",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>A. Ignatius Prewett ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">9</span></div></div></div>",
+            "url": "r19275",
+            "simpleTitle": "misión: gilded herb",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Venus M. Merrythought",
+            "spread": [
+                1
+            ],
+            "title": "actions",
+            "key": "tiempo disponible en la entrada",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Venus M. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">1</span></div></div></div>",
+            "url": "r19507",
+            "simpleTitle": "misión: gilded herb",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                9
+            ],
+            "title": "actions",
+            "key": "requisitos para infiltrarse en el camión",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">9</span></div></div></div>",
+            "url": "r19690",
+            "simpleTitle": "misión: gilded herb",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                2
+            ],
+            "title": "actions",
+            "key": "caminar hasta el punto de encuentro con el camión",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">2</span></div></div></div>",
+            "url": "r19719",
+            "simpleTitle": "misión: gilded herb",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "A. Ignatius Prewett",
+            "spread": [
+                12
+            ],
+            "title": "actions",
+            "key": "acercarse a la entrada",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>A. Ignatius Prewett ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">12</span></div></div></div>",
+            "url": "r19799",
+            "simpleTitle": "misión: gilded herb",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Venus M. Merrythought",
+            "spread": [
+                9
+            ],
+            "title": "actions",
+            "key": "poseer el frasco de poción multijugos",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Venus M. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">9</span></div></div></div>",
+            "url": "r19917",
+            "simpleTitle": "misión: gilded herb",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jasper R. Gryffith",
+            "spread": [
+                5
+            ],
+            "title": "actions",
+            "key": "ofrecerse como conductor",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jasper R. Gryffith ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">5</span></div></div></div>",
+            "url": "r20050",
+            "simpleTitle": "misión: gilded herb",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                3
+            ],
+            "title": "actions",
+            "key": "detener a los conductores",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">3</span></div></div></div>",
+            "url": "r20052",
+            "simpleTitle": "misión: gilded herb",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                16
+            ],
+            "title": "creatures",
+            "key": "guardia",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">16</span></div></div></div>",
+            "url": "r20062",
+            "simpleTitle": "misión: gilded herb",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "A. Ignatius Prewett",
+            "spread": [
+                20
+            ],
+            "title": "actions",
+            "key": "revelio",
+            "knowledge": "encantamientos",
+            "type": "encantamiento",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>A. Ignatius Prewett ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"revelio\" (20)</strong>No sucede nada, capaz este hechizo no es para ti.</span></div></div></div>",
+            "url": "r20078",
+            "simpleTitle": "misión: gilded herb",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Venus M. Merrythought",
+            "spread": [
+                17
+            ],
+            "title": "actions",
+            "key": "desmaius",
+            "knowledge": "dcao",
+            "type": "encantamiento, ofensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Venus M. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"desmaius\" (17)</strong>El objetivo cae inconsciente durante un período prolongado. La víctima pierde 10 PV y pierde sus siguientes 5 acciones consecutivas al ataque.</span></div></div></div>",
+            "url": "r20240",
+            "simpleTitle": "misión: gilded herb",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jasper R. Gryffith",
+            "spread": [
+                19
+            ],
+            "title": "actions",
+            "key": "desmaius",
+            "knowledge": "dcao",
+            "type": "encantamiento, ofensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jasper R. Gryffith ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"desmaius\" (19)</strong>El objetivo cae inconsciente durante un período prolongado. La víctima pierde 10 PV y pierde sus siguientes 5 acciones consecutivas al ataque.</span></div></div></div>",
+            "url": "r20419",
+            "simpleTitle": "misión: gilded herb",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                17
+            ],
+            "title": "actions",
+            "key": "desmaius",
+            "knowledge": "dcao",
+            "type": "encantamiento, ofensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"desmaius\" (17)</strong>El objetivo cae inconsciente durante un período prolongado. La víctima pierde 10 PV y pierde sus siguientes 5 acciones consecutivas al ataque.</span></div></div></div>",
+            "url": "r20501",
+            "simpleTitle": "misión: gilded herb",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                12
+            ],
+            "title": "actions",
+            "key": "tomar poción multijugos",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">12</span></div></div></div>",
+            "url": "r20591",
+            "simpleTitle": "misión: gilded herb",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Venus M. Merrythought",
+            "spread": [
+                4
+            ],
+            "title": "actions",
+            "key": "ingresar al camión",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Venus M. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">4</span></div></div></div>",
+            "url": "r20684",
+            "simpleTitle": "misión: gilded herb",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jasper R. Gryffith",
+            "spread": [
+                18
+            ],
+            "title": "actions",
+            "key": "conducir el camión hasta la puerta de atrás",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jasper R. Gryffith ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">18</span></div></div></div>",
+            "url": "r20704",
+            "simpleTitle": "misión: gilded herb",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                19
+            ],
+            "title": "actions",
+            "key": "scriptum mendax",
+            "knowledge": "contrabando",
+            "type": "encantamiento",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"contrabando\"><strong>Resultado  #1 \"scriptum mendax\" (19)</strong>Reproduce con precisión el texto, aunque el papel y los encantamientos podrían fallar.</span></div></div></div>",
+            "url": "r20706",
+            "simpleTitle": "misión: gilded herb",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                14
+            ],
+            "title": "actions",
+            "key": "artimaña",
+            "knowledge": "liderazgo",
+            "type": "sin magia, infracción",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"liderazgo\"><strong>Resultado  #1 \"artimaña\" (14)</strong>La artimaña surge sus efectos. Queda librado.</span></div></div></div>",
+            "url": "r20727",
+            "simpleTitle": "misión: gilded herb",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Venus M. Merrythought",
+            "spread": [
+                17
+            ],
+            "title": "actions",
+            "key": "artimaña",
+            "knowledge": "liderazgo",
+            "type": "sin magia, infracción",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Venus M. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"liderazgo\"><strong>Resultado  #1 \"artimaña\" (17)</strong>La artimaña surge sus efectos. Queda librado.</span></div></div></div>",
+            "url": "r20873",
+            "simpleTitle": "misión: gilded herb",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jasper R. Gryffith",
+            "spread": [
+                15
+            ],
+            "title": "actions",
+            "key": "tacite",
+            "knowledge": "contrabando",
+            "type": "encantamiento",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jasper R. Gryffith ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"contrabando\"><strong>Resultado  #1 \"tacite\" (15)</strong>El personaje avanza, pero la torpeza puede generar catastróficos resultados. Por ahora, esta a salvo.</span></div></div></div>",
+            "url": "r20898",
+            "simpleTitle": "misión: gilded herb",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                4
+            ],
+            "title": "actions",
+            "key": "tacite",
+            "knowledge": "contrabando",
+            "type": "encantamiento",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"contrabando\"><strong>Resultado  #1 \"tacite\" (4)</strong>El personaje logra avanzar sin que nadie note su presencia.</span></div></div></div>",
+            "url": "r20906",
+            "simpleTitle": "misión: gilded herb",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                11
+            ],
+            "title": "actions",
+            "key": "artimaña",
+            "knowledge": "liderazgo",
+            "type": "sin magia, infracción",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"liderazgo\"><strong>Resultado  #1 \"artimaña\" (11)</strong>La artimaña surge sus efectos. Queda librado.</span></div></div></div>",
+            "url": "r21106",
+            "simpleTitle": "misión: gilded herb",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Venus M. Merrythought",
+            "spread": [
+                7
+            ],
+            "title": "actions",
+            "key": "artimaña",
+            "knowledge": "liderazgo",
+            "type": "sin magia, infracción",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Venus M. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"liderazgo\"><strong>Resultado  #1 \"artimaña\" (7)</strong>La autoridad duda de la artimaña, no demasiado convencido. El usuario que lleva a la autoridad puede decidir qué camino seguir.</span></div></div></div>",
+            "url": "r21122",
+            "simpleTitle": "misión: gilded herb",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jasper R. Gryffith",
+            "spread": [
+                14
+            ],
+            "title": "actions",
+            "key": "tacite",
+            "knowledge": "contrabando",
+            "type": "encantamiento",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jasper R. Gryffith ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"contrabando\"><strong>Resultado  #1 \"tacite\" (14)</strong>El personaje avanza, pero la torpeza puede generar catastróficos resultados. Por ahora, esta a salvo.</span></div></div></div>",
+            "url": "r21381",
+            "simpleTitle": "misión: gilded herb",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                5
+            ],
+            "title": "actions",
+            "key": "tacite",
+            "knowledge": "contrabando",
+            "type": "encantamiento",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"contrabando\"><strong>Resultado  #1 \"tacite\" (5)</strong>El personaje logra avanzar sin que nadie note su presencia.</span></div></div></div>",
+            "url": "r21386",
+            "simpleTitle": "misión: gilded herb",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                8
+            ],
+            "title": "actions",
+            "key": "artimaña",
+            "knowledge": "liderazgo",
+            "type": "sin magia, infracción",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"liderazgo\"><strong>Resultado  #1 \"artimaña\" (8)</strong>La artimaña surge sus efectos. Queda librado.</span></div></div></div>",
+            "url": "r21597",
+            "simpleTitle": "misión: gilded herb",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Venus M. Merrythought",
+            "spread": [
+                15
+            ],
+            "title": "actions",
+            "key": "subir a tercer piso",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Venus M. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">15</span></div></div></div>",
+            "url": "r21642",
+            "simpleTitle": "misión: gilded herb",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jasper R. Gryffith",
+            "spread": [
+                14
+            ],
+            "title": "actions",
+            "key": "tacite",
+            "knowledge": "contrabando",
+            "type": "encantamiento",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jasper R. Gryffith ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"contrabando\"><strong>Resultado  #1 \"tacite\" (14)</strong>El personaje avanza, pero la torpeza puede generar catastróficos resultados. Por ahora, esta a salvo.</span></div></div></div>",
+            "url": "r21667",
+            "simpleTitle": "misión: gilded herb",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                17
+            ],
+            "title": "creatures",
+            "key": "guardia",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">17</span></div></div></div>",
+            "url": "r21684",
+            "simpleTitle": "misión: gilded herb",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                7
+            ],
+            "title": "creatures",
+            "key": "guardia",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">7</span></div></div></div>",
+            "url": "r21703",
+            "simpleTitle": "misión: gilded herb",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Venus M. Merrythought",
+            "spread": [
+                3
+            ],
+            "title": "creatures",
+            "key": "guardia",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Venus M. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">3</span></div></div></div>",
+            "url": "r21901",
+            "simpleTitle": "misión: gilded herb",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jasper R. Gryffith",
+            "spread": [
+                6
+            ],
+            "title": "actions",
+            "key": "immobulus",
+            "knowledge": "dcao",
+            "type": "encantamiento, defensivo, ofensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jasper R. Gryffith ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"immobulus\" (6)</strong>El objetivo queda paralizado durante un largo periodo y tarda más en recuperar el control de su cuerpo. El objetivo queda paralizado dos turnos, donde no podrá realizar acciones, o hasta que un personaje lo libere si se usa como ataque, o impide el ataque, reduciendo el mismo a cero, si se usa como defensa adicionando +6 puntos en la siguiente acción del defensor.</span></div></div></div>",
+            "url": "r21962",
+            "simpleTitle": "misión: gilded herb",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                12
+            ],
+            "title": "actions",
+            "key": "lapifors",
+            "knowledge": "transformaciones",
+            "type": "transfiguración",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"transformaciones\"><strong>Resultado  #1 \"lapifors\" (12)</strong>La transformación es perfecta y estable, durando más tiempo del previsto.</span></div></div></div>",
+            "url": "r21995",
+            "simpleTitle": "misión: gilded herb",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                5
+            ],
+            "title": "actions",
+            "key": "artimaña",
+            "knowledge": "liderazgo",
+            "type": "sin magia, infracción",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"liderazgo\"><strong>Resultado  #1 \"artimaña\" (5)</strong>La artimaña surge sus efectos. Queda librado.</span></div></div></div>",
+            "url": "r22005",
+            "simpleTitle": "misión: gilded herb",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Venus M. Merrythought",
+            "spread": [
+                18
+            ],
+            "title": "actions",
+            "key": "artimaña",
+            "knowledge": "liderazgo",
+            "type": "sin magia, infracción",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Venus M. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"liderazgo\"><strong>Resultado  #1 \"artimaña\" (18)</strong>La artimaña surge sus efectos. Queda librado.</span></div></div></div>",
+            "url": "r22129",
+            "simpleTitle": "misión: gilded herb",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                2
+            ],
+            "title": "felix felicis",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-felix-felicis\"><span>Jupiter Merrythought ha lanzado los dados \"felix felicis\"</span><div class=\"dice-results\"><span class=\"roll-result nro2\"><i class=\"fa-solid fa-sparkles\"></i>Se nota que sabes lo que estás haciendo, o Félix lo sabe.</span></div></div></div>",
+            "url": "r14959",
+            "simpleTitle": "devil doesn't bargain",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Regulus O. Black",
+            "spread": [
+                7
+            ],
+            "title": "actions",
+            "key": "somniorum clavis",
+            "knowledge": "encantamientos",
+            "type": "encantamiento, mental",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Regulus O. Black ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"somniorum clavis\" (7)</strong>El inefable puede observar el sueño, pero sin interactuar en él.<br>[PENALIDAD] El dado actua como \"5\" por Enfermedad de los Temblores.</span></div></div></div>",
+            "url": "r16404",
+            "simpleTitle": "devil doesn't bargain",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Regulus O. Black",
+            "spread": [
+                2
+            ],
+            "title": "actions",
+            "key": "somniorum clavis",
+            "knowledge": "encantamientos",
+            "type": "encantamiento, mental",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Regulus O. Black ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"somniorum clavis\" (2)</strong>Solo permite percibir fragmenos inconexos del sueño.<br>[PENALIDAD] El dado actua como \"1\" por Enfermedad de los Temblores.</span></div></div></div>",
+            "url": "r17633",
+            "simpleTitle": "devil doesn't bargain",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Regulus O. Black",
+            "spread": [
+                13
+            ],
+            "title": "actions",
+            "key": "somniorum clavis",
+            "knowledge": "encantamientos",
+            "type": "encantamiento, mental",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Regulus O. Black ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"somniorum clavis\" (13)</strong>Puede navegar activamente por el sueño, influenciandolo sutilmente.<br>[PENALIDAD] El dado actua como \"10\" por Enfermedad de los Temblores.</span></div></div></div>",
+            "url": "r18454",
+            "simpleTitle": "devil doesn't bargain",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Regulus O. Black",
+            "spread": [
+                10
+            ],
+            "title": "actions",
+            "key": "somniorum clavis",
+            "knowledge": "encantamientos",
+            "type": "encantamiento, mental",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Regulus O. Black ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"somniorum clavis\" (10)</strong>El inefable puede observar el sueño, pero sin interactuar en él.<br>[PENALIDAD] El dado actua como \"7\" por Enfermedad de los Temblores.</span></div></div></div>",
+            "url": "r19632",
+            "simpleTitle": "devil doesn't bargain",
             "space": "el pensadero"
         }
     ];
