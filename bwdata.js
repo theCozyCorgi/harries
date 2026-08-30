@@ -2946,7 +2946,7 @@ const MissionsModule = (function () {
       "users": ["/u55", "/u159", "/u149", "/u150", "/u13", "/u138"],
       "informed": [],
       "dependency": ["bottle of sorrows", "muted magic", "stargazer's night"], "tagged": ["morgana", "edwin", "capitulo 0"],
-      "type": "misión", "closed": false, "fecha": "", "link": "https://blackwave.foroactivo.com/t1205-mision-the-murmuring-woods",
+      "type": "misión", "closed": true, "fecha": "1953-03-28", "link": "https://blackwave.foroactivo.com/t1205-mision-the-murmuring-woods",
 
       "cards": [],
       "searchs": {
@@ -3185,11 +3185,11 @@ const MissionsModule = (function () {
 
     "unlocking the veiled": {
       "description": "Con la investigación realizada del elixir de Edwin, un pocionista o alquimista tratarán de replicar la fórmula para saber verdaderamente sus efectos y poder determinar si son o no una cura para los squibs.",
-      "image": "https://2img.net/i.imgur.com/gr7QrwZ.png", "requisitos": ["Un miembro debe tener Alquimia en Avanzado", "Un miembro debe tener Pociones en Avanzado"],
+      "image": "https://2img.net/i.imgur.com/gr7QrwZ.png", "requisitos": ["Un miembro debe tener Alquimia en Consagrado", "Un miembro debe tener Pociones en Avanzado"],
       "users": [],
       "informed": [],
       "dependency": ["the murmuring woods"],
-      "type": "investigación", "closed": false, "fecha": "", "link": "", "tagged": ["morgana", "capitulo 0"],
+      "type": "investigación", "closed": false, "fecha": "", "link": "", "tagged": ["edwin", "capitulo 0"],
 
       "cards": [],
       "searchs": {},
@@ -4036,20 +4036,6 @@ const MissionsModule = (function () {
       "actions": {},
     },
     // fin stargazer's night
-
-    "velvet death": {
-      "description": "Los frascos encontrados son enviados a los laboratorios de San Mungo para que estos puedan investigar qué poseían en el mismo y por qué Edwin los trató de descartar.",
-      "image": "https://2img.net/i.imgur.com/Bt35Exz.png", "requisitos": ["Un miembro debe poseer Alquimia o Pociones en Avanzado"],
-      "users": [],
-      "informed": [],
-      "dependency": ["the murmuring woods"],
-      "type": "investigación", "closed": false, "fecha": "", "link": "", "tagged": ["edwin", "capitulo 0"],
-
-      "cards": [],
-      "searchs": {},
-      "actions": {},
-    },
-    // fin velvet death
 
     "the wounded dragon": {
       "description": "Reportes han llegado a la reserva Natural de Flint, un dragón que ha sido volando por las tierras irlandesas. No solo son los rastros de sangre los que generan confianza de una gran herida, sino también el llanto que podía ser escuchado por toda la zona. La reserva se mueve y envía a alguien a encontrar al dragón herido para poder curarlo.",
