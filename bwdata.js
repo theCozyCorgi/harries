@@ -4,6 +4,7 @@ const MissionsModule = (function () {
       "description": "Los cuerpos de Edwin, Morgana y Sirius, habían sido trasladados el 28 de Agosto a las instalaciones de San Mungo, donde los nigromantes habilitados, buscarían encontrar información sobre la muerte de los tres difuntos. Con la presencia de un auror y algunos testigos que validen la información que se está transmitiendo sobre los cuerpos.",
       "image": "https://2img.net/i.imgur.com/atsv3ay.png", "requisitos": ["Un Nigromante de San Mungo", "Un trabajador del Dpto de Seguridad Mágica", "Solo podrán participar familiares de la víctima, trabajadores del Ministerio o trabajadores de San Mungo."],
       "users": ["/u8", "/u41", "/u32", "/u78", "/u53", "/u36"],
+      "informed": [],
       "dependency": [],
       "type": "misión", "closed": true, "fecha": "1952-09-29", "link": "/t351-mision-secrets-of-the-silent-dead", "tagged": ["edwin", "morgana", "sirius", "capitulo 0"],
 
@@ -107,6 +108,7 @@ const MissionsModule = (function () {
       "description": "Bienvenidos a 'Maroon Steed', aquellos que lo conocen, saben a dónde están ingresando, quienes no, pronto lo descubrirán.<br />La taberna que solo aparece para aquellos que necesitan una poción para la tristeza, la rabia y el enojo. Ideal para quienes lloran por dentro, pero aún queda vida en sus corazones. La taberna es un espacio ideal para olvidarse de todas las dolencias y todas las cicatrices que la vida dejo. Allí dentro encontrarán algo mágico, algo prohibido, algo que olvidar...",
       "image": "https://2img.net/i.imgur.com/gGo598Z.png", "requisitos": [],
       "users": ["/u38", "/u116", "/u115", "/u119", "/u118", "/u63"],
+      "informed": [],
       "dependency": [],
       "type": "misión", "closed": true, "fecha": "1952-10-31", "link": "https://blackwave.foroactivo.com/t559-mision-potions-for-all-the-afflections", "tagged": ["morgana", "capitulo 0"],
 
@@ -333,6 +335,7 @@ const MissionsModule = (function () {
       "description": "Dentro de las tareas de investigación del departamento de Seguridad, se encontrará revisar el Castillo Black, espacio donde fue encontrado muerto el difunto Sirius Black. Con el fin de encontrar pistas y obtener información que pueda brindar más claridad a la causa.<br />Como es de esperarse, solo podrán participar aquellos personajes que guarden una relación directa con la casa o pueden ingresar a investigar. Pero tengan cuidado... esa casa tiene secretos.",
       "image": "https://2img.net/i.imgur.com/AqXgADy.png", "requisitos": ["Un trabajador del Dpto de Seguridad Mágica", "Un miembro familiar Black", "Solo podrán participar los personajes del Dpto de Seguridad Mágica, San Mungo o miembros familiares"],
       "users": ["/u25", "/u51", "/u50", "/u17", "/u9", "/u8"],
+      "informed": [],
       "dependency": [],
       "type": "misión", "closed": true, "fecha": "1952-09-30", "link": "https://blackwave.foroactivo.com/t353-mision-traces-in-black", "tagged": ["sirius", "capitulo 0"],
 
@@ -449,6 +452,7 @@ const MissionsModule = (function () {
       "description": "El hogar de Edwin, pertenece a su familia por muchos de años. No era sorpresa de nadie que Edwin hubiera tomado la herencia para hacer de esa casa propia. Por más del aspecto antiguo de su exterior, la modesta casa siempre fue muy limpia y ordenada para todos aquellos que la conocían. Pese a eso, lo más importante, no es la casa, es la libreta que Edwin siempre tenía consigo.<br />El ex-jefe del departamento de seguridad, era una persona muy ordenada. Poseía una libreta encantada en la que escribía todo y decía que solo él era capaz de leerla. Bromeaba con sus colegas, 'si algo me pasa, busquen aquí', y le daba dos golpes lomo de la misma, 'algo habré escrito que les regalará la mitad del trabajo'. Se suponía que nada le pasaría, pero pasó y ahora su libreta, esta pérdida.",
       "image": "https://2img.net/i.imgur.com/Hql0xVA.png", "requisitos": ["Un trabajador del Dpto de Seguridad Mágica", "Un personaje cercano a Edwin", "Solo podrán participar personajes del Dpto se Seguridad Mágica, San Mungo o cercanos a la víctima"],
       "users": ["/u60", "/u7", "/u55", "/u50", "/u79", "/u84"],
+      "informed": [],
       "dependency": [],
       "type": "misión", "closed": true, "fecha": "1952-09-25", "link": "https://blackwave.foroactivo.com/t354-mision-haunted-dwelling", "tagged": ["edwin", "capitulo 0"],
 
@@ -555,6 +559,7 @@ const MissionsModule = (function () {
       "description": "Así como los cuerpos fueron trasladados a morgue. Las tazas de té y vasos de té junto con los whiskeys encontrados en las casas de las víctimas, fueron llevados a los laboratorios de San Mungo para identificar su contenido.<br />En este tema, deberán aplicar diferentes métodos alquímicos, un poco de lógica y por supuesto, tener un poco de suerte, hasta encontrar qué había en los vasos de las diferentes víctimas.",
       "image": "https://2img.net/i.imgur.com/fyKLKgt.png", "requisitos": ["Un miembro debe tener Alquimia en Avanzado", "Un trabajador del Dpto de Seguridad Mágica", "Personajes que puedan colaborar oficialmente con la investigación de venenos"],
       "users": ["/u10", "/u77", "/u89", "/u18", "/u42"],
+      "informed": [],
       "dependency": [],
       "type": "misión", "closed": true, "fecha": "1952-09-25", "link": "https://blackwave.foroactivo.com/t365-mision-death-in-a-teacup", "tagged": ["edwin", "morgana", "sirius", "capitulo 0"],
 
@@ -670,6 +675,7 @@ const MissionsModule = (function () {
       "description": "La casa de Morgana Dempsey es un lugar desconocido para muchos. Morgana siempre fue muy discreta con sus temas personales. Jamás invitaba a la casa a alguien en quien no depositara su confianza. Sin embargo, su muerte lleva a que aquel lugar, sea un espacio cargado de sospechas y un buen lugar para buscar pistas.<br />Vayan preparados, Morgana era una experta en sorprender con cosas inesperadas.",
       "image": "https://2img.net/i.imgur.com/DfRLWoB.png", "requisitos": ["Un trabajador del Dpto de Seguridad Mágica", "Un personaje cercano a Morgana", "Solo podrán participar personajes del Dpto se Seguridad Mágica, San Mungo o cercanos a la víctima"],
       "users": ["/u91", "/u78", "/u7", "/u55", "/u50", "/u8"],
+      "informed": [],
       "dependency": [],
       "type": "misión", "closed": true, "fecha": "1952-11-12", "link": "https://blackwave.foroactivo.com/t560-mision-wounds-from-the-past", "tagged": ["morgana", "capitulo 0"],
 
@@ -1096,6 +1102,7 @@ const MissionsModule = (function () {
       "description": "Tras desentrañar el contenido de las tazas de té de las víctimas. Una nueva incógnita se escribe, ¿con qué planta contaminaron el té?, y ¿cuáles eran sus efectos? El objetivo de esta investigación es avanzar un paso más, cuál era esa planta y tal vez, revelar una nueva pista que los lleve a resolver el misterio.",
       "image": "https://2img.net/i.imgur.com/CzU2l87.png", "requisitos": ["Un integrante tiene que tener Herbología en Avanzado"],
       "users": ["/u18", "/u108", "/u97"],
+      "informed": [],
       "dependency": ["death in a teacup"],
       "type": "investigación", "closed": true, "fecha": "1952-10-27", "link": "/t522-investigacion-botanical-market", "tagged": ["morgana", "capitulo 0"],
 
@@ -1151,6 +1158,7 @@ const MissionsModule = (function () {
       "description": "Una destileria es lo que todos parecen necesitar, y allí esta la vieja destileria Dempsey, al menos, lo que ha quedado de ella, luego de que el incendio acabara con ella. Existen rumores entre los vecinos que fue la misma Morgana quien inicio el fuego, asegurando que no hubiera ninguna víctima ¿Estarán allí las respuestas del whiskey?",
       "image": "https://2img.net/i.imgur.com/LKuQkxz.png", "requisitos": [],
       "users": ["/u130", "/u8", "/u145", "/u97"],
+      "informed": [],
       "dependency": ["botanical market", "promise in crimson"],
       "type": "misión", "closed": true, "fecha": "1953-01-17", "link": "https://blackwave.foroactivo.com/t931-mision-moth-to-a-flame", "tagged": ["morgana", "capitulo 0"],
 
@@ -1379,6 +1387,7 @@ const MissionsModule = (function () {
       "description": "Tras regresar a su hogar, Damien Ashford-Dempsey no solo encuentra que hace falta una limpieza en la misma, sino que descubre que una familia de nifflers han robado toda pieza metálica de la casa y ahora deberán realizar una cacería hasta llegar a la madriguera.",
       "image": "https://2img.net/i.imgur.com/u5EtFU0.png", "requisitos": ["Ser invitado por Damien o alguien más de la trama a la misión."],
       "users": ["c/u127", "/u119", "/u12", "/u63"],
+      "informed": [],
       "dependency": [],
       "type": "misión", "closed": true, "fecha": "1952-12-19", "link": "https://blackwave.foroactivo.com/t752-mision-the-lone-bellow", "tagged": ["capitulo 1"],
 
@@ -1472,6 +1481,7 @@ const MissionsModule = (function () {
       "description": "[Completada] Siguiendo el rastro de Manufacturas Dempsey, deberán ingresar en el lugar donde se generan las bebidas para The Maroon Steed para identificar qué poseían las bebidas del lugar. Irrumpir en el lugar solo buscará respuestas que pueden convertirse en nuevas preguntas.",
       "image": "https://2img.net/i.imgur.com/CzU2l87.png", "requisitos": ["Un integrante tiene que tener Herbología en Avanzado"],
       "users": ["/u78", "/u8", "/u178", "/u130", "/u55", "/u174"],
+      "informed": [],
       "dependency": ["moth to a flame", "potions for all the afflictions"], "tagged": ["morgana", "capitulo 0"],
       "type": "misión", "closed": true, "fecha": "1953-03-31", "link": "/t1262-mision-gilded-herb",
 
@@ -1697,6 +1707,7 @@ const MissionsModule = (function () {
       "description": "Con el fin de poder responder todas las dudas sobre las bebidas. Se deberá hacer un interrogatorio al actual administrador de 'Bodegas Dempsey'. Este tema contará con la participación de la administración como el administrador.",
       "image": "https://2img.net/i.imgur.com/9mnS7Op.png", "requisitos": ["un miembro del departamento del Seguridad Mágica"],
       "users": ["/u8"],
+      "informed": [],
       "dependency": ["gilded herb"],
       "type": "interrogatorio", "closed": false, "fecha": "", "link": "", "tagged": ["morgana", "capitulo 0"],
 
@@ -1710,6 +1721,7 @@ const MissionsModule = (function () {
       "description": "Cuando la situación del mundo actual no podría ser más incierta, un nuevo ataque se produce en uno de los lugares más seguros del mundo mágico. Hogwarts parece tener filtraciones y eso podría poner en riesgo la continuidad de su actual director.",
       "image": "https://2img.net/i.imgur.com/YQ3QDyq.png", "requisitos": ["un miembro del departamento del Seguridad Mágica", "un miembro del personal o profesorado de hogwarts", "Solo se aceptarán 2 estudiantes como máximo"],
       "users": ["/u50", "/u24", "/u110", "/u108", "/u141"],
+      "informed": [],
       "dependency": [],
       "type": "misión", "closed": true, "fecha": "1953-02-03", "link": "https://blackwave.foroactivo.com/t932-mision-the-murmur-of-the-old-guard", "tagged": ["wave", "capitulo 1"],
 
@@ -1915,6 +1927,7 @@ const MissionsModule = (function () {
       "description": "Al analizar el cuerpo de Sirius Black, se pudo encontrar una toxina que se pudo categorizar como animal. Deberán analizar la misma en el laboratorio de San Mungo para poder localizar a qué animal pertenecía y cómo eso pudo afectar la muerte de Sirius. Y, si es posible, encontrar una pista que lleve a su asesino.",
       "image": "https://2img.net/i.imgur.com/V6MkXm7.png", "requisitos": ["Un personaje con Alquimia en Consagrado", "Un personaje con CCM en Avanzado"],
       "users": ["/u8", "/u131", "/u78"],
+      "informed": [],
       "dependency": ["secrets of the silent dead"],
       "type": "investigación", "closed": true, "fecha": "1952-11-29", "link": "/t658-investigacion-ryu-s-breath", "tagged": ["sirius", "capitulo 0"],
 
@@ -2016,6 +2029,7 @@ const MissionsModule = (function () {
       "description": "El animal al que pertenece la toxina, es propio del suroeste asiático, pero aquello no es lo más exótico, sino que su compra y venta de veneno es ilegal. La investigación se mueve hacia algún contrabandista que quiera dar la información sobre dónde puede conseguirse dicho ingrediente para generar el veneno que, aparentemente, ha acabado con la vida de Sirius Black.",
       "image": "https://2img.net/i.imgur.com/GfHnpgi.png", "requisitos": ["un miembro del departamento del Seguridad Mágica", "Un personaje con Contrabando en Avanzado"],
       "users": ["/u134","/u55", "/u8"],
+      "informed": [],
       "dependency": ["ryu's breath"],
       "type": "misión", "closed": false, "fecha": "", "link": "", "tagged": ["sirius", "capitulo 0"],
 
@@ -2029,6 +2043,7 @@ const MissionsModule = (function () {
       "description": "La chimenea escondida en el castillo Black, podría ser una pista hacia el culpable de la muerte del patriarca Black. Para ello, deberán adentrarse en los registros del Departamento de Transporte, para encontrar quiénes fueron las últimas personas en atravesar aquella chimenea.",
       "image": "https://2img.net/i.imgur.com/LzSqfVa.png", "requisitos": ["un miembro del departamento del Seguridad Mágica o del Departamento de Transporte"],
       "users": ["/u8", "/u101", "/u17"],
+      "informed": [],
       "dependency": ["traces in black"],
       "type": "investigación", "closed": true, "fecha": "1952-11-05", "link": "https://blackwave.foroactivo.com/t562-investigacion-the-beryl-ash-trail", "tagged": ["sirius", "capitulo 0"],
 
@@ -2109,6 +2124,7 @@ const MissionsModule = (function () {
       "description": "Los rastros de la chimenea, llevan a varias preguntas, entre ellas, ¿Por qué Wilhelmina Tuft convocó a los tres mandatarios al inicio del mes de Agosto? Aparentemente, solo una persona reunida puede responder esa petición y es la Ministra de Magia, quien al escuchar la necesidad de comunicarse con ella, ha despejado un espacio en su ocupada agenda.",
       "image": "https://2img.net/i.imgur.com/UnoEX43.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica"],
       "users": ["/u55", "/u8", "/u94"],
+      "informed": [],
       "dependency": ["the beryl ash trail"],
       "type": "interrogatorio", "closed": true, "fecha": "1952-11-18", "link": "https://blackwave.foroactivo.com/t646-interrogatorio-golden-pathways", "tagged": ["sirius", "capitulo 0"],
 
@@ -2130,6 +2146,7 @@ const MissionsModule = (function () {
       "description": "La investigación sobre los viajes realizados a través de la red flu, a dejado varias dudas por resolver. Protocolos, viajes realizados y mensajes clasificados. ¿Podrán resolver esas preguntas?",
       "image": "https://2img.net/i.imgur.com/e1LeX7A.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica"],
       "users": ["/u8", "/u17", "/u101"],
+      "informed": [],
       "dependency": ["the beryl ash trail"],
       "type": "investigación", "closed": true, "fecha": "1952-11-26", "link": "/t659-investigacion-ember-pass", "tagged": ["sirius", "capitulo 0"],
 
@@ -2225,6 +2242,7 @@ const MissionsModule = (function () {
       "description": "Con una maceta vacía donde antes solía haber una planta, la investigación se mueve buscando resolver nuevas preguntas, ¿qué planta era? Y, ¿Por qué Sirius pidió que se la envuelvan para llevar? Para eso, deberán buscar a un especialista en Herbología que pueda identificar la planta y así poder comenzar a resolver preguntas.",
       "image": "https://2img.net/i.imgur.com/WgAQvWA.png", "requisitos": ["Un personaje con Herbología en Avanzado"],
       "users": ["/u9", "/u44", "/u8"],
+      "informed": [],
       "dependency": ["traces in black"],
       "type": "investigación", "closed": true, "fecha": "1952-11-17", "link": "https://blackwave.foroactivo.com/t563-investigacion-underground-roots", "tagged": ["sirius", "capitulo 0"],
 
@@ -2295,6 +2313,7 @@ const MissionsModule = (function () {
       "description": "Ya habiendo identificado la planta, la pregunta ahora, es ¿qué ha sido de ella? Por lo tanto, todas las investigaciones vuelven al Castillo Black buscando encontrar alguna señal que indiqué qué ha hecho Sirius con la misma.",
       "image": "https://2img.net/i.imgur.com/CmIJAA5.png", "requisitos": ["Uno de los integrantes debe ser un miembro de la familia Black"],
       "users": ["/u9", "/u17", "/u101"],
+      "informed": [],
       "dependency": ["underground roots", "the beryl ash trail"],
       "type": "investigación", "closed": true, "fecha": "1952-11-23", "link": "https://blackwave.foroactivo.com/t643-investigacion-the-withered-pot", "tagged": ["sirius", "capitulo 0"],
 
@@ -2443,6 +2462,7 @@ const MissionsModule = (function () {
       "description": "Aidan Flamel se encuentra bajo la lupa del Ministerio de Magia, que busca descubrir si el Acónito que Sirius alejó del castillo está relacionada con su correspondiente muerte. Y lo más importante, esa planta fue utilizada para algo más.",
       "image": "https://2img.net/i.imgur.com/xPVXOxC.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica"],
       "users": ["i/u108", "/u156", "/u8"],
+      "informed": [],
       "dependency": ["the withered pot"],
       "type": "interrogatorio", "closed": true, "fecha": "1953-02-26", "link": "/t1110-interrogatorio-the-lupine-killer", "tagged": ["sirius", "capitulo 0"],
 
@@ -2456,6 +2476,7 @@ const MissionsModule = (function () {
       "description": "Theolonius Covey se encuentra bajo la lupa del Ministerio de Magia, que busca descubrir si poseía el Acónito de Sirius Black, si guarda alguna relación con la profecía del mismo y por qué el contrato con el ex-candidato ha sido cancelado.",
       "image": "https://2img.net/i.imgur.com/MAA4xsy.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica"],
       "users": ["i/u97", "/u8"],
+      "informed": [],
       "dependency": ["the withered pot", "ember pass"],
       "type": "interrogatorio", "closed": true, "fecha": "1953-01-13", "link": "/t847-interrogatorio-the-fortune-of-the-three-eyes", "tagged": ["sirius", "capitulo 0"],
 
@@ -2505,6 +2526,7 @@ const MissionsModule = (function () {
       "description": "Siguiendo los mapas encontrados en el estudio de Sirius y las indicaciones del alquimista. Es necesario adentrarse a uno de los lugares más peligrosos del mundo mágico: o Coração do Curupira (El corazón del Curupira). Una de las partes más espesas de la selva brasilera que dicen que está protegida por el mismo Curupira.",
       "image": "https://2img.net/i.imgur.com/c4omOwT.png", "requisitos": ["Un miembro debe tener CCM en Avanzado", "Un miembro del Dpto de Seguridad Mágica"],
       "users": ["/u159","/u153","/u156","/u150"],
+      "informed": [],
       "dependency": ["the lupine killer", "in search of the deadly hallows"],
       "type": "misión", "closed": false, "fecha": "", "link": "", "tagged": ["sirius", "capitulo 0"],
 
@@ -2518,6 +2540,7 @@ const MissionsModule = (function () {
       "description": "Si bien muchos consideran que la investigación sobre las pistas del asesinato terminaron. Con los últimos descubrimientos, varias mentes brillantes se juntan para comprobar si la teoría de Sirius es cierta y es posible crear una poción que permita eliminar las secuelas que producen la licantropía.",
       "image": "https://2img.net/i.imgur.com/LhHwm7Y.png", "requisitos": ["Un miembro debe tener Alquimia en Avanzado", "Un miembro debe tener CCM en Avanzado", "Un licántropo voluntario en caso de existir, caso contrario un miembro podrá asumir el rol como PNJ"],
       "users": [],
+      "informed": [],
       "dependency": ["through the green abyss"],
       "type": "misión", "closed": false, "fecha": "", "link": "", "tagged": ["sirius", "capitulo 0"],
 
@@ -2531,6 +2554,7 @@ const MissionsModule = (function () {
       "description": "Tras descubrir que Úrsula Flint está viva y estuvo en el castillo durante todo momento. Los miembros del departamento de Seguridad Mágica, consideraron que sería apropiado realizar algunas preguntas de manera oficial. Tratando de descubrir si sabe más de lo que ha olvidado con el paso de los años.",
       "image": "https://2img.net/i.imgur.com/uhzqWY8.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica"],
       "users": ["/u50", "/u13"],
+      "informed": [],
       "dependency": ["traces in black"],
       "type": "interrogatorio", "closed": true, "fecha": "1952-11-26", "link": "/t660-interrogatorio-the-foretold-story", "tagged": ["sirius", "capitulo 0"],
 
@@ -2544,6 +2568,7 @@ const MissionsModule = (function () {
       "description": "Con la historia que lograron recabar del interrogatorio de la señora Flint, lo único que queda es validar que sea verdad. Por lo tanto, un miembro del departamento de seguridad y un inefable, se internarán dentro de los pasillos de la cámara de las profecías para ver si Úrsula tenía razón o si solo eran los dichos de una señora que ya entró en la edad de inventar aquello que no recuerda.",
       "image": "https://2img.net/i.imgur.com/NhDTPNU.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica", "Un inefable"],
       "users": ["/u50", "/u150", "/u17",],
+      "informed": [],
       "dependency": ["the foretold story"],
       "type": "investigación", "closed": true, "fecha": "1953-02-20", "link": "https://blackwave.foroactivo.com/t1008-investigacion-whispers-of-the-future", "tagged": ["sirius", "capitulo 0"],
 
@@ -2653,6 +2678,7 @@ const MissionsModule = (function () {
       "description": "[Completado] Las reliquias de la muerte muchas veces fueron buscadas y muchas fuentes confirman que solo se tratan de una fábula para enseñar algo importante a los niños y nada más. Sin embargo, hay quienes creen en ellas. Y no solo eso, suelen tener bastantes registros históricos tratando de rastrear dónde se encontraron. The Deadly Club, es un espacio que se encuentra en Hogsmeade donde muchos magos se reúnen a investigar y compartir sus investigaciones. Mientras no cambien nada, cualquiera puede entrar a echar un vistazo.",
       "image": "https://2img.net/i.imgur.com/DWMLO6R.png", "requisitos": [],
       "users": ["/u50", "/u9", "/u159"],
+      "informed": [],
       "dependency": [],
       "type": "investigación", "closed": true, "fecha": "1953-03-30", "link": "https://blackwave.foroactivo.com/t1235-investigacion-in-search-of-the-deadly-hallows", "tagged": ["wave", "capitulo 0"],
 
@@ -2725,6 +2751,7 @@ const MissionsModule = (function () {
       "description": "Los laboratorios de San Mungo, se llenan con una nueva incógnita, ¿Qué está investigando Morgana? Con un frasco y una pequeña muestra de un líquido malva brillante, deberán descubrir qué buscaba realizar aquel elixir.",
       "image": "https://2img.net/i.imgur.com/l0Qfh5X.png", "requisitos": ["Un miembro debe tener Alquimia o Pociones en Avanzado"],
       "users": ["/u91", "/u8", "/u134"],
+      "informed": [],
       "dependency": ["wounds from the past"],
       "type": "investigación", "closed": true, "fecha": "1953-01-23", "link": "https://blackwave.foroactivo.com/t837-investigacion-bottle-of-sorrows", "tagged": ["morgana", "capitulo 0"],
 
@@ -2815,6 +2842,7 @@ const MissionsModule = (function () {
       "description": "Con el diario de investigaciones de Morgana y las notas que encontraron en su casa, la investigación es dejada en manos de quienes más saben, para poder llegar a comprender qué estaba investigando la ex Directora de San Mungo y hasta dónde llegaban sus investigaciones.",
       "image": "https://2img.net/i.imgur.com/3KEU7L5.png", "requisitos": ["Un miembro debe poseer Historia de la Magia en Avanzado", "Un miembro debe tener Curacion en Avanzado"],
       "users": ["/u55", "/u8", "/u91"],
+      "informed": [],
       "dependency": ["wounds from the past"],
       "type": "investigación", "closed": true, "fecha": "1953-01-16", "link": "https://blackwave.foroactivo.com/t836-investigacion-muted-magic", "tagged": ["morgana", "capitulo 0"],
 
@@ -2916,6 +2944,7 @@ const MissionsModule = (function () {
       "description": "[COMPLETADA] Tras la investigación sobre el lugar al que Edwin los llevó, descubren la existencia de una herencia de los Merrythought. Un lugar que había sido abandonado, pero cuyo objetivo se centra en ser un pulmón verde en las tierras escocesas. En esta misión se busca descubrir qué relación tiene este lugar con los asesinatos y por qué Edwin los llevó allí.",
       "image": "https://2img.net/i.imgur.com/VMpvsfT.png", "requisitos": ["Un miembro debe ser de la familia Merrythought", "Un miembro debe tener Herbología en Avanzado", "Un miembro debe tener Encantamientos en Consagrado", "Se recomienda que un miembro posea Música en Principiante o una hija de Banshees"],
       "users": ["/u55", "/u159", "/u149", "/u150", "/u13", "/u138"],
+      "informed": [],
       "dependency": ["bottle of sorrows", "muted magic", "stargazer's night"], "tagged": ["morgana", "edwin", "capitulo 0"],
       "type": "misión", "closed": false, "fecha": "", "link": "https://blackwave.foroactivo.com/t1205-mision-the-murmuring-woods",
 
@@ -3158,6 +3187,7 @@ const MissionsModule = (function () {
       "description": "Con la investigación realizada del elixir de Edwin, un pocionista o alquimista tratarán de replicar la fórmula para saber verdaderamente sus efectos y poder determinar si son o no una cura para los squibs.",
       "image": "https://2img.net/i.imgur.com/gr7QrwZ.png", "requisitos": ["Un miembro debe tener Alquimia en Avanzado", "Un miembro debe tener Pociones en Avanzado"],
       "users": [],
+      "informed": [],
       "dependency": ["the murmuring woods"],
       "type": "investigación", "closed": false, "fecha": "", "link": "", "tagged": ["morgana", "capitulo 0"],
 
@@ -3171,6 +3201,7 @@ const MissionsModule = (function () {
       "description": "Con la pulsera de Merlina Dempsey, se deberá realizar una investigación para comprender qué pasó con ella. ¿Habrá sido su muerte tan sospechosa como la de su hermana? Investigar los archivos de los caídos, siempre es un buen inicio para esos casos.",
       "image": "https://2img.net/i.imgur.com/9HSXJzG.png", "requisitos": ["Un Nigromante o Alto cargo de San Mungo"],
       "users": ["/u8", "/u78", "/u7"],
+      "informed": [],
       "dependency": ["secrets of the silent dead"],
       "type": "investigación", "closed": true, "fecha": "1952-11-10", "link": "https://blackwave.foroactivo.com/t561-investigacion-promise-in-crimson", "tagged": ["morgana", "capitulo 0"],
 
@@ -3254,6 +3285,7 @@ const MissionsModule = (function () {
       "description": "Con los reportes adulterados, la mejor alternativa es ir con la fuente de todos los datos, aquella persona cuya firma se encuentra en los pergaminos y que debe tener las respuestas de qué sucedió verdaderamente con Merlina Dempsey. Deberán interrogar a los siguientes personajes: Cora M. Vance (tío - nigromante).",
       "image": "https://2img.net/i.imgur.com/Bm8BRJM.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica"],
       "users": ["/u130", "/u8", "/u55", "/u7"],
+      "informed": [],
       "dependency": ["promise in crimson"],
       "type": "investigación", "closed": true, "fecha": "1952-11-27", "link": "/t661-investigacion-full-of-emptiness", "tagged": ["morgana", "capitulo 0"],
 
@@ -3359,6 +3391,7 @@ const MissionsModule = (function () {
       "description": "Con los reportes adulterados, la mejor alternativa es ir con la fuente de todos los datos, aquella persona cuya firma se encuentra en los pergaminos y que debe tener las respuestas de qué sucedió verdaderamente con Merlina Dempsey. Deberán interrogar a los siguientes personajes: Iarlaith C. Sayre (abuela - sanadora).",
       "image": "https://2img.net/i.imgur.com/dYv886y.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica"],
       "users": ["i/u38", "/u130", "/u8"],
+      "informed": [],
       "dependency": ["promise in crimson"],
       "type": "interrogatorio", "closed": true, "fecha": "1952-11-24", "link": "/t662-interrogatorio-green-to-blue", "tagged": ["morgana", "capitulo 0"],
 
@@ -3372,6 +3405,7 @@ const MissionsModule = (function () {
       "description": "Con los reportes adulterados, la mejor alternativa es ir con la fuente de todos los datos, aquella persona cuya firma se encuentra en los pergaminos y que debe tener las respuestas de qué sucedió verdaderamente con Merlina Dempsey. Deberán interrogar a los siguientes personajes: Aidan N. Flamel y Neptune E. Merrythought (tía y madre - sanadora).",
       "image": "https://2img.net/i.imgur.com/sjiXJ68.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica"],
       "users": ["i/u108", "i/u119", "/u7", "/u8"],
+      "informed": [],
       "dependency": ["promise in crimson"],
       "type": "interrogatorio", "closed": true, "fecha": "1952-11-24", "link": "/t663-interrogatorio-distorted-memories", "tagged": ["morgana", "capitulo 0"],
 
@@ -3385,6 +3419,7 @@ const MissionsModule = (function () {
       "description": "Con los reportes adulterados, la mejor alternativa es ir con la fuente de todos los datos, aquella persona que podría saber los secretos de Morgana y Merlina, dado que es hijo de una de ellas: Damien A. Ashford-Dempsey.",
       "image": "https://2img.net/i.imgur.com/bjwrBd2.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica"],
       "users": ["i/u127", "/u78", "/u55"],
+      "informed": [],
       "dependency": ["promise in crimson"],
       "type": "interrogatorio", "closed": true, "fecha": "1953-01-05", "link": "https://blackwave.foroactivo.com/t834-interrogatorio-journey-of-a-bird", "tagged": ["morgana", "capitulo 0"],
 
@@ -3398,6 +3433,7 @@ const MissionsModule = (function () {
       "description": "Con los reportes adulterados, la investigación lleva a los personajes a asegurarse qué hay en el cementerio de magia irlandés. ¿Se encontrará allí que ha sucedido con Merlina Dempsey?",
       "image": "https://2img.net/i.imgur.com/RMYPxuz.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica"],
       "users": ["/u8", "/u78", "/u55", "/u131"],
+      "informed": [],
       "dependency": ["promise in crimson"],
       "type": "misión", "closed": true, "fecha": "1952-11-30", "link": "/t664-mision-frozen-sunflowers", "tagged": ["morgana", "capitulo 2"],
 
@@ -3554,6 +3590,7 @@ const MissionsModule = (function () {
       "description": "Visitar las granjas galesas suele ser un sueño para muchos y una pesadilla para otros, pero deberán llegar a la casa que les mencionaron, para investigar lo sucedido con Merlina Dempsey de primera mano. En aquella granja algunas respuestas podrán encontrarse y otras implicarán nuevas investigaciones.",
       "image": "https://2img.net/i.imgur.com/cX0CEv6.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica", "Un miembro deberá haber obtenido la pista del interrogatorio 'green to blue' o de la investigación 'full of emptiness'", "Un miembro deberá haber obtenido la pista del interrogatorio 'distorted memories' o 'journey of a bird"],
       "users": ["/u55", "/u78", "/u8"],
+      "informed": [],
       "dependency": ["frozen sunflowers"],
       "type": "interrogatorio", "closed": true, "fecha": "1953-03-15", "link": "https://blackwave.foroactivo.com/t1170-interrogatorio-the-apple-house", "tagged": ["morgana", "capitulo 0"],
 
@@ -3586,6 +3623,7 @@ const MissionsModule = (function () {
       "description": "La primera pista que Edwin les dejó fue Galatea, el nombre de su tía. Por esta razón, deberán adentrarse en los archivos del Ministerio de Magia, para encontrar cualquier información valiosa sobre la ex-profesora de Defensa contra las Artes Oscuras y esperar que, entre todos esos archivos, se encuentre una pista que pueda revelar el paradero del cuaderno de Edwin.",
       "image": "https://2img.net/i.imgur.com/m4Mton6.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica"],
       "users": ["/u55", "/u7", "/u50"],
+      "informed": [],
       "dependency": ["haunted dwelling"],
       "type": "investigación", "closed": true, "fecha": "1952-10-30", "link": "/t523-investigacion-commander-s-orders", "tagged": ["edwin", "capitulo 0"],
 
@@ -3650,6 +3688,7 @@ const MissionsModule = (function () {
       "description": "Si bien la información sobre Galatea fue considerada bastante instructiva, un dato sobresalió de todos ellos. La casa que le heredó a Edwin la cual se llama 'El Escudo'. Deberán adentrarse a los bosques de Escocia para encontrar la famosa casa y descubrir si Edwin estaba haciendo uso o no de la misma. Para ello necesitarán un guardián del secreto que les proporcioné toda la información que necesitan.",
       "image": "https://2img.net/i.imgur.com/faVXbWl.png", "requisitos": ["Un miembro de la familia Merrythrought o un amigo cercano a la familia", "Un miembro del Dpto de Seguridad Mágica", "Un miembro debe poseer Astronomía en Avanzado"],
       "users": ["/u7", "/u50", "/u8", "/u55", "/u130"],
+      "informed": [],
       "dependency": ["commander's orders"],
       "type": "misión", "closed": true, "fecha": "1952-11-29", "link": "/t665-mision-unveiling-the-unseen", "tagged": ["edwin", "capitulo 0"],
 
@@ -3976,6 +4015,7 @@ const MissionsModule = (function () {
       "description": "La investigación los lleva a un nuevo espacio guíado por el mismo Edwin Merrythought, aunque no saben a dónde conduce. Lo que implica una nueva investigación para descubrir qué es ese lugar, por qué Edwin lo guió allí y qué relación tiene con los asesinatos.",
       "image": "https://2img.net/i.imgur.com/3N0DmMz.png", "requisitos": ["Un miembro debe pertenecer a la familia Merrythought o ser un conocido cercano a la misma"],
       "users": ["/u150", "/u7", "/u156", "/u119"],
+      "informed": [],
       "dependency": ["unveiling the unseen"],
       "type": "investigación", "closed": true, "fecha": "1953-02-25", "link": "https://blackwave.foroactivo.com/t1009-investigacion-stargazer-s-night", "tagged": ["edwin", "capitulo 0"],
 
@@ -4001,6 +4041,7 @@ const MissionsModule = (function () {
       "description": "Los frascos encontrados son enviados a los laboratorios de San Mungo para que estos puedan investigar qué poseían en el mismo y por qué Edwin los trató de descartar.",
       "image": "https://2img.net/i.imgur.com/Bt35Exz.png", "requisitos": ["Un miembro debe poseer Alquimia o Pociones en Avanzado"],
       "users": [],
+      "informed": [],
       "dependency": ["the murmuring woods"],
       "type": "investigación", "closed": false, "fecha": "", "link": "", "tagged": ["edwin", "capitulo 0"],
 
@@ -4014,6 +4055,7 @@ const MissionsModule = (function () {
       "description": "Reportes han llegado a la reserva Natural de Flint, un dragón que ha sido volando por las tierras irlandesas. No solo son los rastros de sangre los que generan confianza de una gran herida, sino también el llanto que podía ser escuchado por toda la zona. La reserva se mueve y envía a alguien a encontrar al dragón herido para poder curarlo.",
       "image": "https://2img.net/i.imgur.com/JyNcMmD.png", "requisitos": ["Un miembro debe tener CCM en Consagrado", "Un miembro debe poseer Curación en Avanzado"],
       "users": ["/u91","/u196"],
+      "informed": [],
       "dependency": [],
       "type": "misión", "closed": false, "fecha": "", "link": "", "tagged": ["wave", "capitulo 1"],
 
@@ -4027,6 +4069,7 @@ const MissionsModule = (function () {
       "description": "Si bien el dragón fue transportado a la reserva, se ha reportado que, el lugar donde el dragón cayó se trataba de un espacio que antes solía utilizar la Orden de los Ancestros. Y, como era de esperarse, mandaron al departamento de Seguridad a investigar.",
       "image": "https://2img.net/i.imgur.com/chnJil9.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica", "Se recomienda una persona que crea en la Orden de los Ancestros"],
       "users": [],
+      "informed": [],
       "dependency": ["the wounded dragon"],
       "type": "misión", "closed": false, "fecha": "", "link": "", "tagged": ["wave", "capitulo 1"],
 
@@ -4040,6 +4083,7 @@ const MissionsModule = (function () {
       "description": "Capaz es ilógico pensar en algo como el destino, o que algo como las muertes pudieron ser anunciadas tantos años atrás. Capaz es solo una oportunidad para demostrar que aquellos que creen en religiones no poseen la razón o quizá, solo quizá, hay una respuesta que pide a gritos ser escuchada. La laguna de los lamentos es donde inicia, donde podrá verse el futuro, el pasado y el presente.",
       "image": "https://2img.net/i.imgur.com/K4LFLIJ.png", "requisitos": ["Un miembro debe poseer Adivinación en Consagrado o ser vidente"],
       "users": [],
+      "informed": [],
       "dependency": ["heaven of the forgotten", "nothing but the truth"],
       "type": "investigación", "closed": false, "fecha": "", "link": "", "tagged": ["wave", "capitulo 0"],
 
@@ -4053,6 +4097,7 @@ const MissionsModule = (function () {
       "description": "En la reserva tratan de descubrir qué pasó con el dragón y qué le generó las heridas que posee. Mientras intentan hacer lo imposible para poder curarlo, algunas señales pueden confirmar el inicio de la herida. ¿Habrá algo más grande que pueda herir a un dragón?",
       "image": "https://2img.net/i.imgur.com/f4NsoJy.png", "requisitos": [],
       "users": [],
+      "informed": [],
       "dependency": ["the wounded dragon"],
       "type": "investigación", "closed": false, "fecha": "", "link": "", "tagged": ["wave", "capitulo 1"],
 
@@ -4066,6 +4111,7 @@ const MissionsModule = (function () {
       "description": "Mientras en la reserva trataban de encontrar con una cura para el dragón, un grupo de magos deberá ir a una isla que permanecía cerrada para muggles, magos y brujas, para investigar qué ha sucedido con el dragón y quién lo ha herido.",
       "image": "https://2img.net/i.imgur.com/0E6XyJW.png", "requisitos": ["Un miembro debe poseer CCM en Avanzado", "Un miembro del Dpto de Seguridad Mágica"],
       "users": [],
+      "informed": [],
       "dependency": ["the wounded dragon"],
       "type": "misión", "closed": false, "fecha": "", "link": "", "tagged": ["wave", "capitulo 1"],
 
@@ -4079,6 +4125,7 @@ const MissionsModule = (function () {
       "description": "Esta misión posee una serie de temas en flashback que la administración irá desbloqueando para que los usuarios puedan ganar conocimiento sobre ciertas situaciones que ocurrieron en el pasado y como los hechos llegaron a hasta la situacion actual.",
       "image": "https://2img.net/i.imgur.com/lVnrOfx.png", "requisitos": ["La administración abrirá un tema con las condiciones para desbloquear esta trama"],
       "users": [],
+      "informed": [],
       "dependency": ["arcane families"],
       "type": "misión", "closed": false, "fecha": "", "link": "", "tagged": ["edwin", "morgana", "sirius", "wave", "capitulo 0"],
 
@@ -4092,6 +4139,7 @@ const MissionsModule = (function () {
       "description": "Esta misión posee una serie de temas en flashback que la administración irá desbloqueando para que los usuarios puedan ganar conocimiento sobre ciertas situaciones que ocurrieron en el pasado y como los hechos llegaron a hasta la situacion actual.",
       "image": "https://2img.net/i.imgur.com/BgdlkCZ.png", "requisitos": ["La administración abrirá un tema con las condiciones para desbloquear esta trama"],
       "users": [],
+      "informed": [],
       "dependency": ["nothing but the truth"],
       "type": "misión", "closed": false, "fecha": "", "link": "", "tagged": ["wave", "capitulo 1"],
 
@@ -4105,6 +4153,7 @@ const MissionsModule = (function () {
       "description": "La administración abrirá un evento para esta misión particular debido a que aplicará a todos los personajes.",
       "image": "https://2img.net/i.imgur.com/AFEm2I9.png", "requisitos": ["La administración abrirá un tema con las condiciones para desbloquear esta trama"],
       "users": [],
+      "informed": [],
       "dependency": ["the obsidian tide"],
       "type": "misión", "closed": false, "fecha": "", "link": "", "tagged": ["wave", "capitulo 1"],
 
@@ -4118,6 +4167,7 @@ const MissionsModule = (function () {
       "description": "Un ataque se ha llevado a cabo en la Residencia Hawksmoor, donde han secuestrado a 6 niños y 3 adultos de diferentes especies mágicas. A ellos se suman 2 coordinadores y 2 Loriens.",
       "image": "https://2img.net/i.imgur.com/zZ5WNNh.png", "requisitos": ["Un personaje tendrá que tener curación en avanzado", "Un personaje tendrá que tener Transformaciones en Avanzado", "Un personaje deberá ser miembro del Departamento de Seguridad"],
       "users": ["c/u1", "/u8", "/u24", "/u12", "/u145"],
+      "informed": [],
       "dependency": [],
       "type": "misión", "closed": true, "fecha": "1953-01-03", "link": "https://blackwave.foroactivo.com/t933-mision-the-rest-of-us", "tagged": ["original", "capitulo 3"],
 
@@ -4257,6 +4307,7 @@ const MissionsModule = (function () {
       "description": "Tras los sucesos de Frozen Sunflower, se busca interrogar al guardia que fue incapacitado por Nina Wraithwood, para comprender si posee una información que pueda dar más luz al objeto robado.",
       "image": "https://2img.net/i.imgur.com/fDwQ2CI.png", "requisitos": ["Un personaje deberá ser miembro del Departamento de Seguridad"],
       "users": ["c/u8", "c/u55", "/u130"],
+      "informed": [],
       "dependency": ["frozen sunflowers"],
       "type": "investigación", "closed": true, "fecha": "1953-02-13", "link": "/t984-interrogatorio-silent-sentinel", "tagged": ["original", "capitulo 2"],
 
@@ -4302,6 +4353,7 @@ const MissionsModule = (function () {
       "description": "Aquellos que se mueven en los círculos saben perfectamente que existe una banda de trovadores cuyos cánticos ocultan un precio y las guitarras, un secreto. Para poder obtener más información de la familia Denman deberán infiltrarse a los ensaños de la banda Fhómhair quiénes suelen tener toda la información sobre los trabajos más clandestinos de la sociedad.",
       "image": "https://2img.net/i.imgur.com/tKGTsc9.png", "requisitos": ["Un miembro debe tener Contrabando en Avanzado", "Un miembro debe tener Magia Oscura en Consagrado"],
       "users": ["c/u131", "/u8", "/u55", "/u9", "/u145"],
+      "informed": [],
       "dependency": ["frozen sunflowers"],
       "type": "misión", "closed": true, "fecha": "1953-02-21", "link": "/t983-mision-clandestine-melodies", "tagged": ["original", "capitulo 3"],
 
@@ -4506,6 +4558,7 @@ const MissionsModule = (function () {
       "description": "La redada en la que Wrenn Wraithwood falleció, oculta una verdad que se ha vuelto necesaria descubrir. Por lo tanto, deberán conseguir toda la información que puedan de la misma para comprender la relación de Wrenn y Nina.",
       "image": "https://2img.net/i.imgur.com/5xLMKUg.png", "requisitos": ["Un personaje deberá ser miembro del Departamento de Seguridad"],
       "users": ["c/u8", "c/u55", "/u78", "/u146"],
+      "informed": [],
       "dependency": ["frozen sunflowers"],
       "type": "investigación", "closed": true, "fecha": "1953-01-23", "link": "https://blackwave.foroactivo.com/t934-investigacion-midnight-ashes", "tagged": ["original", "capitulo 2"],
 
@@ -4562,6 +4615,7 @@ const MissionsModule = (function () {
       "description": "Para poder completar toda la información, deberán revisar toda la información que se tiene sobre la familia Wraithwood, incluyendo anomalías en el documento final de Wrenn Wraithwood.",
       "image": "https://2img.net/i.imgur.com/SvlR6WP.png", "requisitos": ["Un personaje debe ser Nigromante"],
       "users": ["c/u78", "/u8", "/u55", "/u91"],
+      "informed": [],
       "dependency": ["frozen sunflowers"],
       "type": "investigación", "closed": true, "fecha": "1953-01-09", "link": "https://blackwave.foroactivo.com/t838-investigacion-18-paper-mask", "tagged": ["original", "capitulo 2"],
 
@@ -4718,6 +4772,7 @@ const MissionsModule = (function () {
       "description": "Nina y Wrenn se metieron donde no debían, y para escapar de esa situación tuvieron que pagar un alto precio. Un precio que ahora tocará descubrir, así como a quién le debió el favor.",
       "image": "https://2img.net/i.imgur.com/nVh3XB1.png", "requisitos": ["Un personaje deberá ser miembro del Departamento de Seguridad"],
       "users": ["c/u8", "c/u55", "/u91", "/u156"],
+      "informed": [],
       "dependency": ["paper mask", "midnight ashes", "clandestine melodies", "silent sentinel"],
       "type": "misión", "closed": false, "fecha": "", "link": "", "tagged": ["original", "capitulo 3"],
 
@@ -4731,6 +4786,7 @@ const MissionsModule = (function () {
       "description": "Los Moody poseían un depósito de obras de arte donde guardaban aquellas de más valor en un espacio seguro. Sin embargo, Wrenn Wraithwood ha robado la llave del mismo y, ahora, deberán descubrir qué fue lo que robó.",
       "image": "https://2img.net/i.imgur.com/9fKGJPH.png", "requisitos": ["Un personaje deberá ser miembro del Departamento de Seguridad"],
       "users": ["c/u8", "/u161", "/u177", "/u178", "/u13"],
+      "informed": [],
       "dependency": ["yule", "frozen sunflowers"],
       "type": "misión", "closed": false, "fecha": "", "link": "/t1291-mision-dragonfly-s-secrets", "tagged": ["original"],
 
@@ -5190,6 +5246,7 @@ const MissionsModule = (function () {
       "description": "[Completada] El 25 de Marzo de 1929 se dio a conocer la muerte de Dominic Edevane a sus 32 años. Sin embargo, un nuevo detalle en el certificado de defunción ha llamado la atención de uno de los aurores encargados de la investigación y lo que en su momento se creía perdido, ahora puede ser el momento de cerrar el caso de una vez por todas.",
       "image": "https://i.imgur.com/9tQNGVG.png", "requisitos": ["Un personaje deberá ser miembro del Departamento de Seguridad"],
       "users": ["c/u150", "/u97", "/u9", "/u156"],
+      "informed": [],
       "dependency": [],
       "type": "investigación", "closed": false, "fecha": "", "link": "https://blackwave.foroactivo.com/t1320-investigacion-tying-loose-ends", "tagged": ["original"],
 
@@ -5270,6 +5327,7 @@ const MissionsModule = (function () {
       "description": "Tras una pequeña investigación realizada por los hermanos Moody, las pistas conducen a dos magos y a la dirección de la casa de los mismos, donde ya desde afuera se pueden escuchar los ladridos y los lamentos de unos cachorros de crup que reclaman ayuda.",
       "image": "https://i.imgur.com/nNgVsfv.png", "requisitos": ["Dos personajes deberán ser miembro del Departamento de Seguridad", "Un personaje deberá tener CCM en Avanzado"],
       "users": ["c/u157", "/u150", "/u13", "/u55", "/u171"],
+      "informed": [],
       "dependency": [],
       "type": "misión", "closed": false, "fecha": "", "link": "https://blackwave.foroactivo.com/t1236-mision-a-gentle-hand", "tagged": ["original"],
 
@@ -5496,6 +5554,7 @@ const MissionsModule = (function () {
       "description": "Entre los muros de Azkaban, Yusuf y Vinnie guardan el secreto del canto de la banshee y el enigma de la W. Un interrogatorio cargado de cinismo revelará una verdad amarga: ¿qué es lo que realmente ocurrió aquella noche en la que Wrenn Wraithwood perdió la vida? ¿Qué secretos se esconden detrás de su trágico destino? La respuesta a estas preguntas podría cambiarlo todo, pero también podría ser más dolorosa de lo que imaginan.",
       "image": "https://i.imgur.com/0VEBWJ2.png", "requisitos": ["Un personaje deberá ser miembro del Departamento de Seguridad", "Un personaje deberá tener Magia Oscura en Avanzado", "Tres personajes deberán tener Patronus en Avanzado"],
       "users": ["c/u8", "/u55", "/u153", "/u78", "/u159", "/u50"],
+      "informed": [],
       "dependency": ["midnight ashes"],
       "type": "misión", "closed": true, "fecha": "1953-02-28", "link": "/t1109-mision-the-mercy-of-death", "tagged": ["original", "capitulo 3"],
 
@@ -5749,6 +5808,7 @@ const MissionsModule = (function () {
       "description": "Una investigación sobre la identidad y el sacrificio para descrubrir el rastro de Soly, quien decidió usurpar la vida de otro, no por ambición ni poder, sino como el único método efectivo para orquestar su propio final. El rastro de una existencia construida solo para ser destruida.",
       "image": "https://i.imgur.com/2kfwlbB.png", "requisitos": ["Un personaje deberá ser miembro del Departamento de Seguridad", "Un personaje o PNJ llevado por usuario deberá tener entre 45 y 55 años"],
       "users": ["c/u8", "/u153", "/u55", "/u78"],
+      "informed": [],
       "dependency": ["paper mask", "midnight ashes"],
       "type": "investigación", "closed": true, "fecha": "1953-03-20", "link": "https://blackwave.foroactivo.com/t1171-investigacion-stolen-shroud", "tagged": ["original", "capitulo 3"],
 
@@ -5762,6 +5822,7 @@ const MissionsModule = (function () {
       "description": "El interrogatorio a Hadiya es la llave para desentrañar el destino de Morian y la verdad oculta de las gemelas. Se deberá llevar a cabo un interrogatorio donde requerirán ganar la confianza de Hadiya para que esta revele toda la verdad que conoce.",
       "image": "https://i.imgur.com/4EJznhF.png", "requisitos": ["Un personaje deberá ser miembro del Departamento de Seguridad", "Un personaje deberá saber hablar Frances (debe estar especificado en la ficha)"],
       "users": ["c/u8", "/u7", "/u91", "/u110"],
+      "informed": [],
       "dependency": ["paper mask", "midnight ashes"],
       "type": "interrogatorio", "closed": true, "fecha": "1953-02-25", "link": "/t1108-interrogatorio-licking-salted-wounds", "tagged": ["original", "capitulo 3"],
 
@@ -5805,6 +5866,7 @@ const MissionsModule = (function () {
       "description": "En la cámara de la sangre, las investigaciones siempre resultan más que curiosas. En esta oportunidad, podrán investigar aquellas habilidades que, en el pasado existían y ahora han quedado olvidadas productos de una genética que se perdió.",
       "image": "https://2img.net/i.imgur.com/UpUxWLM.png", "requisitos": [],
       "users": ["c/u101", "/u9", "/u17"],
+      "informed": [],
       "dependency": [],
       "type": "investigación", "closed": true, "fecha": "1952-11-18", "link": "https://blackwave.foroactivo.com/t644-investigacion-faded-lineage", "tagged": ["original"],
 
@@ -5870,6 +5932,7 @@ const MissionsModule = (function () {
       "description": "En la cámara de la sangre, los inefables buscan descubrir qué partes de la genética contienen las habilidades heredadas por sangre y cómo se pueden activar.",
       "image": "https://2img.net/i.imgur.com/UpUxWLM.png", "requisitos": ["Un personaje con habilidad heredada"],
       "users": ["c/u101", "/u9", "/u97"],
+      "informed": [],
       "dependency": ["faded lineage"],
       "type": "investigación", "closed": true, "fecha": "1953-01-12", "link": "https://blackwave.foroactivo.com/t833-investigacion-ancestral-code", "tagged": ["original"],
 
@@ -5936,6 +5999,7 @@ const MissionsModule = (function () {
       "description": "En la cámara de la sangre, los inefables buscan descubrir si es posible traspasar habilidades heredadas a otros magos y brujas. ¿Podrán conseguirlo?",
       "image": "https://2img.net/i.imgur.com/UpUxWLM.png", "requisitos": ["Un personaje con habilidad heredada"],
       "users": ["c/u101"],
+      "informed": [],
       "dependency": ["ancestral code"],
       "type": "misión", "closed": false, "fecha": "", "link": "", "tagged": ["original"],
 
@@ -5949,6 +6013,7 @@ const MissionsModule = (function () {
       "description": "Los archivos de San Mungo e historial de pacientes, rara vez son entregados, salvo cuando un auror aparece para preguntar sobre registros particulares que buscan encontrar a un primo que la familia ha olvidado.",
       "image": "https://2img.net/i.imgur.com/t8KMfpL.png", "requisitos": ["Personal de San Mungo"],
       "users": ["c/u55", "/u7", "/u91"],
+      "informed": [],
       "dependency": [],
       "type": "investigación", "closed": true, "fecha": "1952-11-21", "link": "https://blackwave.foroactivo.com/t645-investigacion-operation-birth-ledger", "tagged": ["original"],
 
@@ -6016,6 +6081,7 @@ const MissionsModule = (function () {
       "description": "Hogwarts contiene los registros de todos los magos que asistieron, así como todo los registros de las familias con las que tuvieron que hablar para informar que un integrante de ellos era un mago que cuenta con una plaza en el Castillo. Un excelente lugar para tratar de buscar a un mago que no sabe que pertenece a una familia de magos y brujas.",
       "image": "https://2img.net/i.imgur.com/t8KMfpL.png", "requisitos": ["Personal de Hogwarts"],
       "users": ["c/u55", "/u91", "/u7", "/u110"],
+      "informed": [],
       "dependency": ["operation birth ledger"],
       "type": "investigación", "closed": true, "fecha": "1952-12-17", "link": "https://blackwave.foroactivo.com/t753-investigacion-enrolled-origins", "tagged": ["original"],
 
@@ -6141,6 +6207,7 @@ const MissionsModule = (function () {
       "description": "",
       "image": "", "requisitos": [],
       "users": ["/u7", "/u94", "/u17", "/u55", "/u9", "/u130", "/u8"],
+      "informed": [],
       "dependency": [],
       "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
@@ -6748,6 +6815,7 @@ const MissionsModule = (function () {
       "description": "",
       "image": "", "requisitos": [],
       "users": ["/u118", "/u112", "/u38"],
+      "informed": [],
       "dependency": [],
       "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
@@ -6814,6 +6882,7 @@ const MissionsModule = (function () {
       "description": "",
       "image": "", "requisitos": [],
       "users": ["/u108", "/u119", "/u63"],
+      "informed": [],
       "dependency": [],
       "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
@@ -6874,6 +6943,7 @@ const MissionsModule = (function () {
       "description": "",
       "image": "", "requisitos": [],
       "users": ["/u120", "/u12", "/u134"],
+      "informed": [],
       "dependency": [],
       "type": "quidditch", "closed": true, "fecha": "", "link": "", "tagged": ["quidditch"],
 
@@ -6904,6 +6974,7 @@ const MissionsModule = (function () {
       "description": "",
       "image": "", "requisitos": [],
       "users": ["/u24", "/u8", "/u132", "/u127", "/u110"],
+      "informed": [],
       "dependency": [],
       "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
@@ -6976,6 +7047,7 @@ const MissionsModule = (function () {
       "description": "",
       "image": "", "requisitos": [],
       "users": ["/u101", "/u55", "/u13", "/u132", "/u110", "/u7"],
+      "informed": [],
       "dependency": [],
       "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
@@ -7052,6 +7124,7 @@ const MissionsModule = (function () {
       "description": "",
       "image": "", "requisitos": [],
       "users": ["/u44", "/u91", "/u78", "/u97", "/u134", "/u136"],
+      "informed": [],
       "dependency": [],
       "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
@@ -7156,6 +7229,7 @@ const MissionsModule = (function () {
       "description": "",
       "image": "", "requisitos": [],
       "users": ["/u8", "/u24", "/u9", "/u7", "/u55", "/u12", "/u44", "/u120", "/u91", "/u118", "/u110", "/u17", "/u50", "/u38"],
+      "informed": [],
       "dependency": [],
       "type": "quidditch", "closed": true, "fecha": "", "link": "", "tagged": ["quidditch"],
 
@@ -7342,6 +7416,7 @@ const MissionsModule = (function () {
       "description": "",
       "image": "", "requisitos": [],
       "users": ["/u9", "/u12", "/u136", "/u24", "/u120", "/u8", "/u110", "/u118", "/u55", "/u135", "/u127", "/u91"],
+      "informed": [],
       "dependency": [],
       "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
@@ -7837,6 +7912,7 @@ const MissionsModule = (function () {
       "description": "",
       "image": "", "requisitos": [],
       "users": ["/u118", "/u24", "/u34", "/u63", "/u119", "/u38", "/u12", "/u152"],
+      "informed": [],
       "dependency": [],
       "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
@@ -7915,6 +7991,7 @@ const MissionsModule = (function () {
       "description": "",
       "image": "", "requisitos": [],
       "users": ["/u179", "/u118", "/u12", "/u24", "/u119", "/u63", "/u38"],
+      "informed": [],
       "dependency": [],
       "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
@@ -8005,6 +8082,7 @@ const MissionsModule = (function () {
       "description": "Sin descripcion.",
       "image": "https://2img.net/i.imgur.com/Bm8BRJM.png", "requisitos": [],
       "users": ["/u110", "/u34", "/u38", "/u63", "/u24", "/u127"],
+      "informed": [],
       "dependency": [],
       "type": "clase", "closed": true, "fecha": "", "link": "", "tagged": ["clase"],
 
@@ -8050,6 +8128,7 @@ const MissionsModule = (function () {
       "description": "Sin descripcion.",
       "image": "https://2img.net/i.imgur.com/Bm8BRJM.png", "requisitos": [],
       "users": ["/u110", "/u119", "/u12", "/u118", "/u120", "/u124"],
+      "informed": [],
       "dependency": [],
       "type": "clase", "closed": true, "fecha": "", "link": "", "tagged": ["clase"],
 
@@ -8077,6 +8156,7 @@ const MissionsModule = (function () {
       "description": "Sin descripcion.",
       "image": "https://2img.net/i.imgur.com/Bm8BRJM.png", "requisitos": [],
       "users": [],
+      "informed": [],
       "dependency": [],
       "type": "clase", "closed": true, "fecha": "", "link": "", "tagged": ["clase"],
 
@@ -8110,6 +8190,7 @@ const MissionsModule = (function () {
       "description": "Sin descripcion.",
       "image": "https://2img.net/i.imgur.com/Bm8BRJM.png", "requisitos": [],
       "users": ["/u110", "/u119", "/u12", "/u118", "/u120", "/u124"],
+      "informed": [],
       "dependency": [],
       "type": "clase", "closed": true, "fecha": "", "link": "", "tagged": ["clase"],
 
@@ -8152,6 +8233,7 @@ const MissionsModule = (function () {
       "description": "Sin descripcion.",
       "image": "https://2img.net/i.imgur.com/Bm8BRJM.png", "requisitos": [],
       "users": ["/u151", "/u12", "/u118", "/u148", "/u24", "/u119", "/u141", "/u63", "/u124", "/u154", "/u162", "/u163"],
+      "informed": [],
       "dependency": [],
       "type": "clase", "closed": true, "fecha": "", "link": "", "tagged": ["clase"],
 
@@ -8183,6 +8265,7 @@ const MissionsModule = (function () {
       "description": "",
       "image": "", "requisitos": [],
       "users": ["/u150", "/u124"],
+      "informed": [],
       "dependency": [],
       "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
@@ -8258,6 +8341,7 @@ const MissionsModule = (function () {
       "description": "",
       "image": "", "requisitos": [],
       "users": ["/u12", "/u141"],
+      "informed": [],
       "dependency": [],
       "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
@@ -8315,6 +8399,7 @@ const MissionsModule = (function () {
       "description": "",
       "image": "", "requisitos": [],
       "users": ["/u118", "/u146"],
+      "informed": [],
       "dependency": [],
       "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
@@ -8354,6 +8439,7 @@ const MissionsModule = (function () {
       "description": "",
       "image": "", "requisitos": [],
       "users": ["/u24", "/u63"],
+      "informed": [],
       "dependency": [],
       "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
@@ -8417,6 +8503,7 @@ const MissionsModule = (function () {
       "description": "",
       "image": "", "requisitos": [],
       "users": ["/u13", "/u94"],
+      "informed": [],
       "dependency": [],
       "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
@@ -8450,6 +8537,7 @@ const MissionsModule = (function () {
       "description": "",
       "image": "", "requisitos": [],
       "users": ["/u55", "/u91"],
+      "informed": [],
       "dependency": [],
       "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
@@ -8477,6 +8565,7 @@ const MissionsModule = (function () {
       "description": "",
       "image": "", "requisitos": [],
       "users": ["/u130", "/u8"],
+      "informed": [],
       "dependency": [],
       "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
@@ -8552,6 +8641,7 @@ const MissionsModule = (function () {
       "description": "",
       "image": "", "requisitos": [],
       "users": ["/u9", "/u143", "/u112"],
+      "informed": [],
       "dependency": [],
       "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
@@ -8597,6 +8687,7 @@ const MissionsModule = (function () {
       "description": "",
       "image": "", "requisitos": [],
       "users": ["/u145", "/u153"],
+      "informed": [],
       "dependency": [],
       "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
@@ -8642,6 +8733,7 @@ const MissionsModule = (function () {
       "description": "",
       "image": "", "requisitos": [],
       "users": ["/u44", "/u137"],
+      "informed": [],
       "dependency": [],
       "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
@@ -8669,6 +8761,7 @@ const MissionsModule = (function () {
       "description": "",
       "image": "", "requisitos": [],
       "users": ["/u7", "/u108"],
+      "informed": [],
       "dependency": [],
       "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
@@ -8702,6 +8795,7 @@ const MissionsModule = (function () {
       "description": "",
       "image": "", "requisitos": [],
       "users": ["/u50", "/u149", "/u161", "/u141", "/u9"],
+      "informed": [],
       "dependency": [],
       "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
@@ -8792,6 +8886,7 @@ const MissionsModule = (function () {
       "description": "",
       "image": "", "requisitos": [],
       "users": ["/u78", "/u108", "/u131", "/u157", "/u171"],
+      "informed": [],
       "dependency": [],
       "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
@@ -8831,6 +8926,7 @@ const MissionsModule = (function () {
       "description": "",
       "image": "", "requisitos": [],
       "users": ["/u110", "/u8", "/u119", "/u130", "/u138"],
+      "informed": [],
       "dependency": [],
       "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
@@ -8894,6 +8990,7 @@ const MissionsModule = (function () {
       "description": "",
       "image": "", "requisitos": [],
       "users": ["/u124", "/u127", "/u91", "/u55"],
+      "informed": [],
       "dependency": [],
       "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
@@ -8921,6 +9018,7 @@ const MissionsModule = (function () {
       "description": "",
       "image": "", "requisitos": [],
       "users": ["/u63", "/u145", "/u12", "/u38", "/u24"],
+      "informed": [],
       "dependency": [],
       "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
@@ -9073,6 +9171,7 @@ const MissionsModule = (function () {
       "description": "",
       "image": "", "requisitos": [],
       "users": ["/u134", "/u150", "/u135", "/u118"],
+      "informed": [],
       "dependency": [],
       "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
@@ -9118,6 +9217,7 @@ const MissionsModule = (function () {
       "description": "",
       "image": "", "requisitos": [],
       "users": ["/u156", "/u154", "/u159", "/u13"],
+      "informed": [],
       "dependency": [],
       "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
@@ -9235,6 +9335,7 @@ const MissionsModule = (function () {
       "description": "",
       "image": "", "requisitos": [],
       "users": ["/u150", "/u124", "/u130", "/u38"],
+      "informed": [],
       "dependency": [],
       "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
@@ -9524,6 +9625,7 @@ const MissionsModule = (function () {
       "description": "",
       "image": "", "requisitos": [],
       "users": ["/u50", "/u63", "/u91", "/u180"],
+      "informed": [],
       "dependency": [],
       "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
@@ -9807,6 +9909,7 @@ const MissionsModule = (function () {
       "description": "",
       "image": "", "requisitos": [],
       "users": ["/u8", "/u159", "/u182", "/u118", "/u119"],
+      "informed": [],
       "dependency": [],
       "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
@@ -10096,6 +10199,7 @@ const MissionsModule = (function () {
       "description": "",
       "image": "", "requisitos": [],
       "users": ["/u24", "/u141", "/u9", "/u156"],
+      "informed": [],
       "dependency": [],
       "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
@@ -10391,6 +10495,7 @@ const MissionsModule = (function () {
       "description": "",
       "image": "", "requisitos": [],
       "users": ["/u161", "/u112", "/u78", "/u138", "/u13"],
+      "informed": [],
       "dependency": [],
       "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
@@ -10680,6 +10785,7 @@ const MissionsModule = (function () {
       "description": "",
       "image": "", "requisitos": [],
       "users": ["/u12", "/u55", "/u149", "/u179"],
+      "informed": [],
       "dependency": [],
       "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
@@ -10969,6 +11075,7 @@ const MissionsModule = (function () {
       "description": "",
       "image": "", "requisitos": [],
       "users": ['/u17', '/u7', '/u9', '/u24', '/u8', '/u12', '/u34', '/u13', '/u38', '/u91', '/u55', '/u44', '/u50', '/u63', '/u78', '/u94', '/u97', '/u108', '/u112', '/u110', '/u118', '/u119', '/u120', '/u124', '/u127', '/u130', '/u131', '/u134', '/u135', '/u137', '/u138', '/u141', '/u143', '/u145', '/u146', '/u149', '/u148', '/u150', '/u151', '/u153', '/u154', '/u156', '/u159', '/u157', '/u160', '/u162', '/u163', '/u161', '/u165', '/u167', '/u168', '/u171', '/u172', '/u174', '/u180', '/u179', '/u178', '/u177', '/u176'],
+      "informed": [],
       "dependency": [],
       "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
@@ -11089,6 +11196,7 @@ const MissionsModule = (function () {
       "description": "Hermes Rosier y Minerva McGonagall se enfrentan al desafío de los duetos estelares: cinco globos flotan sobre el Lago Negro esperando ser reventados, partiendo desde Hogsmeade. Mientras Hermes abre fuego con maldiciones explosivas, Minerva surca el cielo para recolectar las esquirlas que caen y avanzar hacia el siguiente globo. Nivel: Difícil.",
       "image": "", "requisitos": [],
       "users": ["/u110", "/u24"],
+      "informed": [],
       "dependency": [],
       "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
@@ -11206,6 +11314,7 @@ const MissionsModule = (function () {
       "description": "Shun Parkinson y Findlay McCrory se enfrentan al desafío de los duetos estelares: cinco globos flotan sobre el Lago Negro esperando ser reventados, partiendo desde Hogsmeade. Mientras Shun abre fuego con maldiciones explosivas, Findlay surca el cielo para recolectar las esquirlas que caen y avanzar hacia el siguiente globo. Nivel: Difícil.",
       "image": "", "requisitos": [],
       "users": ["/u55", "/u63"],
+      "informed": [],
       "dependency": [],
       "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
@@ -11323,6 +11432,7 @@ const MissionsModule = (function () {
       "description": "Neptune Merrythought y Jupiter Merrythought se enfrentan al desafío de los duetos estelares: cinco globos flotan sobre el Lago Negro esperando ser reventados, partiendo desde Hogsmeade. Mientras Neptune abre fuego con maldiciones explosivas, Jupiter surca el cielo para recolectar las esquirlas que caen y avanzar hacia el siguiente globo. Nivel: Medio.",
       "image": "", "requisitos": [],
       "users": ["/u119", "/u150"],
+      "informed": [],
       "dependency": [],
       "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
@@ -11440,6 +11550,7 @@ const MissionsModule = (function () {
       "description": "Jessie Ravenscroft y Asteria Lestrange se enfrentan al desafío de los duetos estelares: cinco globos flotan sobre el Lago Negro esperando ser reventados, partiendo desde Hogsmeade. Mientras Jessie abre fuego con maldiciones explosivas, Asteria surca el cielo para recolectar las esquirlas que caen y avanzar hacia el siguiente globo. Nivel: Medio.",
       "image": "", "requisitos": [],
       "users": ["/u194", "/u12"],
+      "informed": [],
       "dependency": [],
       "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
@@ -11557,6 +11668,7 @@ const MissionsModule = (function () {
       "description": "Uranus Merrythought y Thaddeus Nott se enfrentan al desafío de los duetos estelares: cinco globos flotan sobre el Lago Negro esperando ser reventados, partiendo desde Hogsmeade. Mientras Uranus abre fuego con maldiciones explosivas, Thaddeus surca el cielo para recolectar las esquirlas que caen y avanzar hacia el siguiente globo. Nivel: Medio.",
       "image": "", "requisitos": [],
       "users": ["/u156", "/u118"],
+      "informed": [],
       "dependency": [],
       "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
@@ -11674,6 +11786,7 @@ const MissionsModule = (function () {
       "description": "Kaoru Satoo y Berenike Borgin se enfrentan al desafío de los duetos estelares: cinco globos flotan sobre el Lago Negro esperando ser reventados, partiendo desde Hogsmeade. Mientras Kaoru abre fuego con maldiciones explosivas, Berenike surca el cielo para recolectar las esquirlas que caen y avanzar hacia el siguiente globo. Nivel: Fácil.",
       "image": "", "requisitos": [],
       "users": ["/u91", "/u195"],
+      "informed": [],
       "dependency": [],
       "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
@@ -11791,6 +11904,7 @@ const MissionsModule = (function () {
       "description": "Elysia Lestrange y Venus Merrythought se enfrentan al desafío de los duetos estelares: cinco globos flotan sobre el Lago Negro esperando ser reventados, partiendo desde Hogsmeade. Mientras Elysia abre fuego con maldiciones explosivas, Venus surca el cielo para recolectar las esquirlas que caen y avanzar hacia el siguiente globo. Nivel: Fácil.",
       "image": "", "requisitos": [],
       "users": ["/u159", "/u130"],
+      "informed": [],
       "dependency": [],
       "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
@@ -11908,6 +12022,7 @@ const MissionsModule = (function () {
       "description": "Thyme Nott y Jasper Gryffith se enfrentan al desafío de los duetos estelares: cinco globos flotan sobre el Lago Negro esperando ser reventados, partiendo desde Hogsmeade. Mientras Thyme abre fuego con maldiciones explosivas, Jasper surca el cielo para recolectar las esquirlas que caen y avanzar hacia el siguiente globo. Nivel: Fácil.",
       "image": "", "requisitos": [],
       "users": ["/u180", "/u78"],
+      "informed": [],
       "dependency": [],
       "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
@@ -12025,6 +12140,7 @@ const MissionsModule = (function () {
       "description": "",
       "image": "", "requisitos": [],
       "users": ["/u?"],
+      "informed": [],
       "dependency": [],
       "type": "COMPLETAR", "closed": false, "fecha": "", "link": "", "tagged": ["COMPLETAR"],
 
@@ -12084,6 +12200,7 @@ const MissionsModule = (function () {
       "description": "",
       "image": "", "requisitos": [],
       "users": ["invalid", "invalid", "invalid", "invalid", "invalid", "invalid"],
+      "informed": [],
       "dependency": [],
       "type": "type", "closed": false, "fecha": "", "link": "", "tagged": ["tag"],
 
