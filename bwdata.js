@@ -1698,7 +1698,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/9mnS7Op.png", "requisitos": ["un miembro del departamento del Seguridad Mágica"],
       "users": ["/u8"],
       "dependency": ["gilded herb"],
-      "type": "interrogatorio", "closed": false, "link": "", "tagged": ["morgana", "capitulo 0"],
+      "type": "interrogatorio", "closed": false, "fecha": "", "link": "", "tagged": ["morgana", "capitulo 0"],
 
       "cards": [],
       "searchs": {},
@@ -2017,7 +2017,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/GfHnpgi.png", "requisitos": ["un miembro del departamento del Seguridad Mágica", "Un personaje con Contrabando en Avanzado"],
       "users": ["/u134","/u55", "/u8"],
       "dependency": ["ryu's breath"],
-      "type": "misión", "closed": false, "link": "", "tagged": ["sirius", "capitulo 0"],
+      "type": "misión", "closed": false, "fecha": "", "link": "", "tagged": ["sirius", "capitulo 0"],
 
       "cards": [],
       "searchs": {},
@@ -2506,7 +2506,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/c4omOwT.png", "requisitos": ["Un miembro debe tener CCM en Avanzado", "Un miembro del Dpto de Seguridad Mágica"],
       "users": ["/u159","/u153","/u156","/u150"],
       "dependency": ["the lupine killer", "in search of the deadly hallows"],
-      "type": "misión", "closed": false, "link": "", "tagged": ["sirius", "capitulo 0"],
+      "type": "misión", "closed": false, "fecha": "", "link": "", "tagged": ["sirius", "capitulo 0"],
 
       "cards": [],
       "searchs": {},
@@ -2519,7 +2519,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/LhHwm7Y.png", "requisitos": ["Un miembro debe tener Alquimia en Avanzado", "Un miembro debe tener CCM en Avanzado", "Un licántropo voluntario en caso de existir, caso contrario un miembro podrá asumir el rol como PNJ"],
       "users": [],
       "dependency": ["through the green abyss"],
-      "type": "misión", "closed": false, "link": "", "tagged": ["sirius", "capitulo 0"],
+      "type": "misión", "closed": false, "fecha": "", "link": "", "tagged": ["sirius", "capitulo 0"],
 
       "cards": [],
       "searchs": {},
@@ -2917,7 +2917,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/VMpvsfT.png", "requisitos": ["Un miembro debe ser de la familia Merrythought", "Un miembro debe tener Herbología en Avanzado", "Un miembro debe tener Encantamientos en Consagrado", "Se recomienda que un miembro posea Música en Principiante o una hija de Banshees"],
       "users": ["/u55", "/u159", "/u149", "/u150", "/u13", "/u138"],
       "dependency": ["bottle of sorrows", "muted magic", "stargazer's night"], "tagged": ["morgana", "edwin", "capitulo 0"],
-      "type": "misión", "closed": false, "link": "https://blackwave.foroactivo.com/t1205-mision-the-murmuring-woods",
+      "type": "misión", "closed": false, "fecha": "", "link": "https://blackwave.foroactivo.com/t1205-mision-the-murmuring-woods",
 
       "cards": [],
       "searchs": {
@@ -3159,7 +3159,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/gr7QrwZ.png", "requisitos": ["Un miembro debe tener Alquimia en Avanzado", "Un miembro debe tener Pociones en Avanzado"],
       "users": [],
       "dependency": ["the murmuring woods"],
-      "type": "investigación", "closed": false, "link": "", "tagged": ["morgana", "capitulo 0"],
+      "type": "investigación", "closed": false, "fecha": "", "link": "", "tagged": ["morgana", "capitulo 0"],
 
       "cards": [],
       "searchs": {},
@@ -4002,7 +4002,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/Bt35Exz.png", "requisitos": ["Un miembro debe poseer Alquimia o Pociones en Avanzado"],
       "users": [],
       "dependency": ["the murmuring woods"],
-      "type": "investigación", "closed": false, "link": "", "tagged": ["edwin", "capitulo 0"],
+      "type": "investigación", "closed": false, "fecha": "", "link": "", "tagged": ["edwin", "capitulo 0"],
 
       "cards": [],
       "searchs": {},
@@ -4015,7 +4015,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/JyNcMmD.png", "requisitos": ["Un miembro debe tener CCM en Consagrado", "Un miembro debe poseer Curación en Avanzado"],
       "users": ["/u91","/u196"],
       "dependency": [],
-      "type": "misión", "closed": false, "link": "", "tagged": ["wave", "capitulo 1"],
+      "type": "misión", "closed": false, "fecha": "", "link": "", "tagged": ["wave", "capitulo 1"],
 
       "cards": [],
       "searchs": {},
@@ -4028,7 +4028,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/chnJil9.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica", "Se recomienda una persona que crea en la Orden de los Ancestros"],
       "users": [],
       "dependency": ["the wounded dragon"],
-      "type": "misión", "closed": false, "link": "", "tagged": ["wave", "capitulo 1"],
+      "type": "misión", "closed": false, "fecha": "", "link": "", "tagged": ["wave", "capitulo 1"],
 
       "cards": [],
       "searchs": {},
@@ -4041,7 +4041,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/K4LFLIJ.png", "requisitos": ["Un miembro debe poseer Adivinación en Consagrado o ser vidente"],
       "users": [],
       "dependency": ["heaven of the forgotten", "nothing but the truth"],
-      "type": "investigación", "closed": false, "link": "", "tagged": ["wave", "capitulo 0"],
+      "type": "investigación", "closed": false, "fecha": "", "link": "", "tagged": ["wave", "capitulo 0"],
 
       "cards": [],
       "searchs": {},
@@ -4054,7 +4054,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/f4NsoJy.png", "requisitos": [],
       "users": [],
       "dependency": ["the wounded dragon"],
-      "type": "investigación", "closed": false, "link": "", "tagged": ["wave", "capitulo 1"],
+      "type": "investigación", "closed": false, "fecha": "", "link": "", "tagged": ["wave", "capitulo 1"],
 
       "cards": [],
       "searchs": {},
@@ -4067,7 +4067,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/0E6XyJW.png", "requisitos": ["Un miembro debe poseer CCM en Avanzado", "Un miembro del Dpto de Seguridad Mágica"],
       "users": [],
       "dependency": ["the wounded dragon"],
-      "type": "misión", "closed": false, "link": "", "tagged": ["wave", "capitulo 1"],
+      "type": "misión", "closed": false, "fecha": "", "link": "", "tagged": ["wave", "capitulo 1"],
 
       "cards": [],
       "searchs": {},
@@ -4080,7 +4080,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/lVnrOfx.png", "requisitos": ["La administración abrirá un tema con las condiciones para desbloquear esta trama"],
       "users": [],
       "dependency": ["arcane families"],
-      "type": "misión", "closed": false, "link": "", "tagged": ["edwin", "morgana", "sirius", "wave", "capitulo 0"],
+      "type": "misión", "closed": false, "fecha": "", "link": "", "tagged": ["edwin", "morgana", "sirius", "wave", "capitulo 0"],
 
       "cards": [],
       "searchs": {},
@@ -4093,7 +4093,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/BgdlkCZ.png", "requisitos": ["La administración abrirá un tema con las condiciones para desbloquear esta trama"],
       "users": [],
       "dependency": ["nothing but the truth"],
-      "type": "misión", "closed": false, "link": "", "tagged": ["wave", "capitulo 1"],
+      "type": "misión", "closed": false, "fecha": "", "link": "", "tagged": ["wave", "capitulo 1"],
 
       "cards": [],
       "searchs": {},
@@ -4106,7 +4106,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/AFEm2I9.png", "requisitos": ["La administración abrirá un tema con las condiciones para desbloquear esta trama"],
       "users": [],
       "dependency": ["the obsidian tide"],
-      "type": "misión", "closed": false, "link": "", "tagged": ["wave", "capitulo 1"],
+      "type": "misión", "closed": false, "fecha": "", "link": "", "tagged": ["wave", "capitulo 1"],
 
       "cards": [],
       "searchs": {},
@@ -4719,7 +4719,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/nVh3XB1.png", "requisitos": ["Un personaje deberá ser miembro del Departamento de Seguridad"],
       "users": ["c/u8", "c/u55", "/u91", "/u156"],
       "dependency": ["paper mask", "midnight ashes", "clandestine melodies", "silent sentinel"],
-      "type": "misión", "closed": false, "link": "", "tagged": ["original", "capitulo 3"],
+      "type": "misión", "closed": false, "fecha": "", "link": "", "tagged": ["original", "capitulo 3"],
 
       "cards": [],
       "searchs": {},
@@ -4732,7 +4732,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/9fKGJPH.png", "requisitos": ["Un personaje deberá ser miembro del Departamento de Seguridad"],
       "users": ["c/u8", "/u161", "/u177", "/u178", "/u13"],
       "dependency": ["yule", "frozen sunflowers"],
-      "type": "misión", "closed": false, "link": "/t1291-mision-dragonfly-s-secrets", "tagged": ["original"],
+      "type": "misión", "closed": false, "fecha": "", "link": "/t1291-mision-dragonfly-s-secrets", "tagged": ["original"],
 
       "cards": [],
 
@@ -5191,7 +5191,7 @@ const MissionsModule = (function () {
       "image": "https://i.imgur.com/9tQNGVG.png", "requisitos": ["Un personaje deberá ser miembro del Departamento de Seguridad"],
       "users": ["c/u150", "/u97", "/u9", "/u156"],
       "dependency": [],
-      "type": "investigación", "closed": false, "link": "https://blackwave.foroactivo.com/t1320-investigacion-tying-loose-ends", "tagged": ["original"],
+      "type": "investigación", "closed": false, "fecha": "", "link": "https://blackwave.foroactivo.com/t1320-investigacion-tying-loose-ends", "tagged": ["original"],
 
       "cards": [],
 
@@ -5271,7 +5271,7 @@ const MissionsModule = (function () {
       "image": "https://i.imgur.com/nNgVsfv.png", "requisitos": ["Dos personajes deberán ser miembro del Departamento de Seguridad", "Un personaje deberá tener CCM en Avanzado"],
       "users": ["c/u157", "/u150", "/u13", "/u55", "/u171"],
       "dependency": [],
-      "type": "misión", "closed": false, "link": "https://blackwave.foroactivo.com/t1236-mision-a-gentle-hand", "tagged": ["original"],
+      "type": "misión", "closed": false, "fecha": "", "link": "https://blackwave.foroactivo.com/t1236-mision-a-gentle-hand", "tagged": ["original"],
 
       "creatures": {
         "guardia": {
@@ -5937,7 +5937,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/UpUxWLM.png", "requisitos": ["Un personaje con habilidad heredada"],
       "users": ["c/u101"],
       "dependency": ["ancestral code"],
-      "type": "misión", "closed": false, "link": "", "tagged": ["original"],
+      "type": "misión", "closed": false, "fecha": "", "link": "", "tagged": ["original"],
 
       "cards": [],
       "searchs": {},
@@ -6142,7 +6142,7 @@ const MissionsModule = (function () {
       "image": "", "requisitos": [],
       "users": ["/u7", "/u94", "/u17", "/u55", "/u9", "/u130", "/u8"],
       "dependency": [],
-      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+      "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
       "cards": [
         {
@@ -6749,7 +6749,7 @@ const MissionsModule = (function () {
       "image": "", "requisitos": [],
       "users": ["/u118", "/u112", "/u38"],
       "dependency": [],
-      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+      "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
       "cards": [
         {
@@ -6815,7 +6815,7 @@ const MissionsModule = (function () {
       "image": "", "requisitos": [],
       "users": ["/u108", "/u119", "/u63"],
       "dependency": [],
-      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+      "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
       "cards": [
         {
@@ -6875,7 +6875,7 @@ const MissionsModule = (function () {
       "image": "", "requisitos": [],
       "users": ["/u120", "/u12", "/u134"],
       "dependency": [],
-      "type": "quidditch", "closed": true, "link": "", "tagged": ["quidditch"],
+      "type": "quidditch", "closed": true, "fecha": "", "link": "", "tagged": ["quidditch"],
 
       "cards": [
         {
@@ -6905,7 +6905,7 @@ const MissionsModule = (function () {
       "image": "", "requisitos": [],
       "users": ["/u24", "/u8", "/u132", "/u127", "/u110"],
       "dependency": [],
-      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+      "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
       "cards": [
         {
@@ -6977,7 +6977,7 @@ const MissionsModule = (function () {
       "image": "", "requisitos": [],
       "users": ["/u101", "/u55", "/u13", "/u132", "/u110", "/u7"],
       "dependency": [],
-      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+      "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
       "cards": [
         {
@@ -7053,7 +7053,7 @@ const MissionsModule = (function () {
       "image": "", "requisitos": [],
       "users": ["/u44", "/u91", "/u78", "/u97", "/u134", "/u136"],
       "dependency": [],
-      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+      "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
       "cards": [],
 
@@ -7157,7 +7157,7 @@ const MissionsModule = (function () {
       "image": "", "requisitos": [],
       "users": ["/u8", "/u24", "/u9", "/u7", "/u55", "/u12", "/u44", "/u120", "/u91", "/u118", "/u110", "/u17", "/u50", "/u38"],
       "dependency": [],
-      "type": "quidditch", "closed": true, "link": "", "tagged": ["quidditch"],
+      "type": "quidditch", "closed": true, "fecha": "", "link": "", "tagged": ["quidditch"],
 
       "cards": [
         {
@@ -7343,7 +7343,7 @@ const MissionsModule = (function () {
       "image": "", "requisitos": [],
       "users": ["/u9", "/u12", "/u136", "/u24", "/u120", "/u8", "/u110", "/u118", "/u55", "/u135", "/u127", "/u91"],
       "dependency": [],
-      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+      "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
       "creatures": {
         "diricawl": {
@@ -7838,7 +7838,7 @@ const MissionsModule = (function () {
       "image": "", "requisitos": [],
       "users": ["/u118", "/u24", "/u34", "/u63", "/u119", "/u38", "/u12", "/u152"],
       "dependency": [],
-      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+      "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
       "cards": [
       ],
@@ -7916,7 +7916,7 @@ const MissionsModule = (function () {
       "image": "", "requisitos": [],
       "users": ["/u179", "/u118", "/u12", "/u24", "/u119", "/u63", "/u38"],
       "dependency": [],
-      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+      "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
       "cards": [],
 
@@ -8006,7 +8006,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/Bm8BRJM.png", "requisitos": [],
       "users": ["/u110", "/u34", "/u38", "/u63", "/u24", "/u127"],
       "dependency": [],
-      "type": "clase", "closed": true, "link": "", "tagged": ["clase"],
+      "type": "clase", "closed": true, "fecha": "", "link": "", "tagged": ["clase"],
 
       "cards": [],
 
@@ -8051,7 +8051,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/Bm8BRJM.png", "requisitos": [],
       "users": ["/u110", "/u119", "/u12", "/u118", "/u120", "/u124"],
       "dependency": [],
-      "type": "clase", "closed": true, "link": "", "tagged": ["clase"],
+      "type": "clase", "closed": true, "fecha": "", "link": "", "tagged": ["clase"],
 
       "cards": [],
       "searchs": {},
@@ -8078,7 +8078,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/Bm8BRJM.png", "requisitos": [],
       "users": [],
       "dependency": [],
-      "type": "clase", "closed": true, "link": "", "tagged": ["clase"],
+      "type": "clase", "closed": true, "fecha": "", "link": "", "tagged": ["clase"],
 
       "cards": [],
       "searchs": {},
@@ -8111,7 +8111,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/Bm8BRJM.png", "requisitos": [],
       "users": ["/u110", "/u119", "/u12", "/u118", "/u120", "/u124"],
       "dependency": [],
-      "type": "clase", "closed": true, "link": "", "tagged": ["clase"],
+      "type": "clase", "closed": true, "fecha": "", "link": "", "tagged": ["clase"],
 
       "cards": [],
       "searchs": {},
@@ -8153,7 +8153,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/Bm8BRJM.png", "requisitos": [],
       "users": ["/u151", "/u12", "/u118", "/u148", "/u24", "/u119", "/u141", "/u63", "/u124", "/u154", "/u162", "/u163"],
       "dependency": [],
-      "type": "clase", "closed": true, "link": "", "tagged": ["clase"],
+      "type": "clase", "closed": true, "fecha": "", "link": "", "tagged": ["clase"],
 
       "creatures": {
         "lazo del diablo": {
@@ -8184,7 +8184,7 @@ const MissionsModule = (function () {
       "image": "", "requisitos": [],
       "users": ["/u150", "/u124"],
       "dependency": [],
-      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+      "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
       "cards": [],
       "searchs": {},
@@ -8259,7 +8259,7 @@ const MissionsModule = (function () {
       "image": "", "requisitos": [],
       "users": ["/u12", "/u141"],
       "dependency": [],
-      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+      "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
       "cards": [],
       "searchs": {},
@@ -8316,7 +8316,7 @@ const MissionsModule = (function () {
       "image": "", "requisitos": [],
       "users": ["/u118", "/u146"],
       "dependency": [],
-      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+      "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
       "cards": [],
       "searchs": {},
@@ -8355,7 +8355,7 @@ const MissionsModule = (function () {
       "image": "", "requisitos": [],
       "users": ["/u24", "/u63"],
       "dependency": [],
-      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+      "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
       "cards": [],
       "searchs": {},
@@ -8418,7 +8418,7 @@ const MissionsModule = (function () {
       "image": "", "requisitos": [],
       "users": ["/u13", "/u94"],
       "dependency": [],
-      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+      "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
       "cards": [],
       "searchs": {},
@@ -8451,7 +8451,7 @@ const MissionsModule = (function () {
       "image": "", "requisitos": [],
       "users": ["/u55", "/u91"],
       "dependency": [],
-      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+      "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
       "cards": [],
       "searchs": {},
@@ -8478,7 +8478,7 @@ const MissionsModule = (function () {
       "image": "", "requisitos": [],
       "users": ["/u130", "/u8"],
       "dependency": [],
-      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+      "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
       "cards": [],
       "searchs": {},
@@ -8553,7 +8553,7 @@ const MissionsModule = (function () {
       "image": "", "requisitos": [],
       "users": ["/u9", "/u143", "/u112"],
       "dependency": [],
-      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+      "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
       "cards": [],
       "searchs": {},
@@ -8598,7 +8598,7 @@ const MissionsModule = (function () {
       "image": "", "requisitos": [],
       "users": ["/u145", "/u153"],
       "dependency": [],
-      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+      "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
       "cards": [],
       "searchs": {},
@@ -8643,7 +8643,7 @@ const MissionsModule = (function () {
       "image": "", "requisitos": [],
       "users": ["/u44", "/u137"],
       "dependency": [],
-      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+      "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
       "cards": [],
       "searchs": {},
@@ -8670,7 +8670,7 @@ const MissionsModule = (function () {
       "image": "", "requisitos": [],
       "users": ["/u7", "/u108"],
       "dependency": [],
-      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+      "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
       "cards": [],
       "searchs": {},
@@ -8703,7 +8703,7 @@ const MissionsModule = (function () {
       "image": "", "requisitos": [],
       "users": ["/u50", "/u149", "/u161", "/u141", "/u9"],
       "dependency": [],
-      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+      "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
       "cards": [],
       "searchs": {
@@ -8793,7 +8793,7 @@ const MissionsModule = (function () {
       "image": "", "requisitos": [],
       "users": ["/u78", "/u108", "/u131", "/u157", "/u171"],
       "dependency": [],
-      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+      "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
       "cards": [],
       "searchs": {},
@@ -8832,7 +8832,7 @@ const MissionsModule = (function () {
       "image": "", "requisitos": [],
       "users": ["/u110", "/u8", "/u119", "/u130", "/u138"],
       "dependency": [],
-      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+      "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
       "cards": [],
       "searchs": {},
@@ -8895,7 +8895,7 @@ const MissionsModule = (function () {
       "image": "", "requisitos": [],
       "users": ["/u124", "/u127", "/u91", "/u55"],
       "dependency": [],
-      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+      "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
       "cards": [],
       "searchs": {},
@@ -8922,7 +8922,7 @@ const MissionsModule = (function () {
       "image": "", "requisitos": [],
       "users": ["/u63", "/u145", "/u12", "/u38", "/u24"],
       "dependency": [],
-      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+      "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
       "cards": [],
       "searchs": {
@@ -9074,7 +9074,7 @@ const MissionsModule = (function () {
       "image": "", "requisitos": [],
       "users": ["/u134", "/u150", "/u135", "/u118"],
       "dependency": [],
-      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+      "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
       "cards": [],
       "searchs": {},
@@ -9119,7 +9119,7 @@ const MissionsModule = (function () {
       "image": "", "requisitos": [],
       "users": ["/u156", "/u154", "/u159", "/u13"],
       "dependency": [],
-      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+      "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
       "creatures": {
         "topo rojo": {
@@ -9236,7 +9236,7 @@ const MissionsModule = (function () {
       "image": "", "requisitos": [],
       "users": ["/u150", "/u124", "/u130", "/u38"],
       "dependency": [],
-      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+      "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
       "creatures": {},
       "cards": [],
@@ -9525,7 +9525,7 @@ const MissionsModule = (function () {
       "image": "", "requisitos": [],
       "users": ["/u50", "/u63", "/u91", "/u180"],
       "dependency": [],
-      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+      "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
       "creatures": {},
       "cards": [],
@@ -9808,7 +9808,7 @@ const MissionsModule = (function () {
       "image": "", "requisitos": [],
       "users": ["/u8", "/u159", "/u182", "/u118", "/u119"],
       "dependency": [],
-      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+      "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
       "creatures": {},
       "cards": [],
@@ -10097,7 +10097,7 @@ const MissionsModule = (function () {
       "image": "", "requisitos": [],
       "users": ["/u24", "/u141", "/u9", "/u156"],
       "dependency": [],
-      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+      "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
       "creatures": {},
       "cards": [],
@@ -10392,7 +10392,7 @@ const MissionsModule = (function () {
       "image": "", "requisitos": [],
       "users": ["/u161", "/u112", "/u78", "/u138", "/u13"],
       "dependency": [],
-      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+      "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
       "creatures": {},
       "cards": [],
@@ -10681,7 +10681,7 @@ const MissionsModule = (function () {
       "image": "", "requisitos": [],
       "users": ["/u12", "/u55", "/u149", "/u179"],
       "dependency": [],
-      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+      "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
       "creatures": {},
       "cards": [],
@@ -10970,7 +10970,7 @@ const MissionsModule = (function () {
       "image": "", "requisitos": [],
       "users": ['/u17', '/u7', '/u9', '/u24', '/u8', '/u12', '/u34', '/u13', '/u38', '/u91', '/u55', '/u44', '/u50', '/u63', '/u78', '/u94', '/u97', '/u108', '/u112', '/u110', '/u118', '/u119', '/u120', '/u124', '/u127', '/u130', '/u131', '/u134', '/u135', '/u137', '/u138', '/u141', '/u143', '/u145', '/u146', '/u149', '/u148', '/u150', '/u151', '/u153', '/u154', '/u156', '/u159', '/u157', '/u160', '/u162', '/u163', '/u161', '/u165', '/u167', '/u168', '/u171', '/u172', '/u174', '/u180', '/u179', '/u178', '/u177', '/u176'],
       "dependency": [],
-      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+      "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
       "cards": [],
 
@@ -11090,7 +11090,7 @@ const MissionsModule = (function () {
       "image": "", "requisitos": [],
       "users": ["/u110", "/u24"],
       "dependency": [],
-      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+      "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
       "cards": [],
       "searchs": {},
@@ -11207,7 +11207,7 @@ const MissionsModule = (function () {
       "image": "", "requisitos": [],
       "users": ["/u55", "/u63"],
       "dependency": [],
-      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+      "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
       "cards": [],
       "searchs": {},
@@ -11324,7 +11324,7 @@ const MissionsModule = (function () {
       "image": "", "requisitos": [],
       "users": ["/u119", "/u150"],
       "dependency": [],
-      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+      "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
       "cards": [],
       "searchs": {},
@@ -11441,7 +11441,7 @@ const MissionsModule = (function () {
       "image": "", "requisitos": [],
       "users": ["/u194", "/u12"],
       "dependency": [],
-      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+      "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
       "cards": [],
       "searchs": {},
@@ -11558,7 +11558,7 @@ const MissionsModule = (function () {
       "image": "", "requisitos": [],
       "users": ["/u156", "/u118"],
       "dependency": [],
-      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+      "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
       "cards": [],
       "searchs": {},
@@ -11675,7 +11675,7 @@ const MissionsModule = (function () {
       "image": "", "requisitos": [],
       "users": ["/u91", "/u195"],
       "dependency": [],
-      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+      "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
       "cards": [],
       "searchs": {},
@@ -11792,7 +11792,7 @@ const MissionsModule = (function () {
       "image": "", "requisitos": [],
       "users": ["/u159", "/u130"],
       "dependency": [],
-      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+      "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
       "cards": [],
       "searchs": {},
@@ -11909,7 +11909,7 @@ const MissionsModule = (function () {
       "image": "", "requisitos": [],
       "users": ["/u180", "/u78"],
       "dependency": [],
-      "type": "quidditch", "closed": false, "link": "", "tagged": ["quidditch"],
+      "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
 
       "cards": [],
       "searchs": {},
@@ -12026,7 +12026,7 @@ const MissionsModule = (function () {
       "image": "", "requisitos": [],
       "users": ["/u?"],
       "dependency": [],
-      "type": "COMPLETAR", "closed": false, "link": "", "tagged": ["COMPLETAR"],
+      "type": "COMPLETAR", "closed": false, "fecha": "", "link": "", "tagged": ["COMPLETAR"],
 
       "cards": [],
 
@@ -12085,7 +12085,7 @@ const MissionsModule = (function () {
       "image": "", "requisitos": [],
       "users": ["invalid", "invalid", "invalid", "invalid", "invalid", "invalid"],
       "dependency": [],
-      "type": "type", "closed": false, "link": "", "tagged": ["tag"],
+      "type": "type", "closed": false, "fecha": "", "link": "", "tagged": ["tag"],
 
       "cards": [
         {
