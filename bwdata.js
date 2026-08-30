@@ -5,7 +5,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/atsv3ay.png", "requisitos": ["Un Nigromante de San Mungo", "Un trabajador del Dpto de Seguridad Mágica", "Solo podrán participar familiares de la víctima, trabajadores del Ministerio o trabajadores de San Mungo."],
       "users": ["/u8", "/u41", "/u32", "/u78", "/u53", "/u36"],
       "dependency": [],
-      "type": "misión", "closed": true, "link": "/t351-mision-secrets-of-the-silent-dead", "tagged": ["edwin", "morgana", "sirius", "capitulo 0"],
+      "type": "misión", "closed": true, "fecha": "1952-09-29", "link": "/t351-mision-secrets-of-the-silent-dead", "tagged": ["edwin", "morgana", "sirius", "capitulo 0"],
 
       "cards": [
         {
@@ -108,7 +108,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/gGo598Z.png", "requisitos": [],
       "users": ["/u38", "/u116", "/u115", "/u119", "/u118", "/u63"],
       "dependency": [],
-      "type": "misión", "closed": true, "link": "https://blackwave.foroactivo.com/t559-mision-potions-for-all-the-afflections", "tagged": ["morgana", "capitulo 0"],
+      "type": "misión", "closed": true, "fecha": "1952-10-31", "link": "https://blackwave.foroactivo.com/t559-mision-potions-for-all-the-afflections", "tagged": ["morgana", "capitulo 0"],
 
       "cards": [
         {
@@ -334,7 +334,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/AqXgADy.png", "requisitos": ["Un trabajador del Dpto de Seguridad Mágica", "Un miembro familiar Black", "Solo podrán participar los personajes del Dpto de Seguridad Mágica, San Mungo o miembros familiares"],
       "users": ["/u25", "/u51", "/u50", "/u17", "/u9", "/u8"],
       "dependency": [],
-      "type": "misión", "closed": true, "link": "https://blackwave.foroactivo.com/t353-mision-traces-in-black", "tagged": ["sirius", "capitulo 0"],
+      "type": "misión", "closed": true, "fecha": "1952-09-30", "link": "https://blackwave.foroactivo.com/t353-mision-traces-in-black", "tagged": ["sirius", "capitulo 0"],
 
       "cards": [
         {
@@ -450,7 +450,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/Hql0xVA.png", "requisitos": ["Un trabajador del Dpto de Seguridad Mágica", "Un personaje cercano a Edwin", "Solo podrán participar personajes del Dpto se Seguridad Mágica, San Mungo o cercanos a la víctima"],
       "users": ["/u60", "/u7", "/u55", "/u50", "/u79", "/u84"],
       "dependency": [],
-      "type": "misión", "closed": true, "link": "https://blackwave.foroactivo.com/t354-mision-haunted-dwelling", "tagged": ["edwin", "capitulo 0"],
+      "type": "misión", "closed": true, "fecha": "1952-09-25", "link": "https://blackwave.foroactivo.com/t354-mision-haunted-dwelling", "tagged": ["edwin", "capitulo 0"],
 
       "cards": [
         {
@@ -556,7 +556,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/fyKLKgt.png", "requisitos": ["Un miembro debe tener Alquimia en Avanzado", "Un trabajador del Dpto de Seguridad Mágica", "Personajes que puedan colaborar oficialmente con la investigación de venenos"],
       "users": ["/u10", "/u77", "/u89", "/u18", "/u42"],
       "dependency": [],
-      "type": "misión", "closed": true, "link": "https://blackwave.foroactivo.com/t365-mision-death-in-a-teacup", "tagged": ["edwin", "morgana", "sirius", "capitulo 0"],
+      "type": "misión", "closed": true, "fecha": "1952-09-25", "link": "https://blackwave.foroactivo.com/t365-mision-death-in-a-teacup", "tagged": ["edwin", "morgana", "sirius", "capitulo 0"],
 
       "cards": [
         {
@@ -671,7 +671,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/DfRLWoB.png", "requisitos": ["Un trabajador del Dpto de Seguridad Mágica", "Un personaje cercano a Morgana", "Solo podrán participar personajes del Dpto se Seguridad Mágica, San Mungo o cercanos a la víctima"],
       "users": ["/u91", "/u78", "/u7", "/u55", "/u50", "/u8"],
       "dependency": [],
-      "type": "misión", "closed": true, "link": "https://blackwave.foroactivo.com/t560-mision-wounds-from-the-past", "tagged": ["morgana", "capitulo 0"],
+      "type": "misión", "closed": true, "fecha": "1952-11-12", "link": "https://blackwave.foroactivo.com/t560-mision-wounds-from-the-past", "tagged": ["morgana", "capitulo 0"],
 
       "cards": [
         {
@@ -1097,7 +1097,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/CzU2l87.png", "requisitos": ["Un integrante tiene que tener Herbología en Avanzado"],
       "users": ["/u18", "/u108", "/u97"],
       "dependency": ["death in a teacup"],
-      "type": "investigación", "closed": true, "link": "/t522-investigacion-botanical-market", "tagged": ["morgana", "capitulo 0"],
+      "type": "investigación", "closed": true, "fecha": "1952-10-27", "link": "/t522-investigacion-botanical-market", "tagged": ["morgana", "capitulo 0"],
 
       "cards": [],
       "actions": {},
@@ -1152,7 +1152,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/LKuQkxz.png", "requisitos": [],
       "users": ["/u130", "/u8", "/u145", "/u97"],
       "dependency": ["botanical market", "promise in crimson"],
-      "type": "misión", "closed": true, "link": "https://blackwave.foroactivo.com/t931-mision-moth-to-a-flame", "tagged": ["morgana", "capitulo 0"],
+      "type": "misión", "closed": true, "fecha": "1953-01-17", "link": "https://blackwave.foroactivo.com/t931-mision-moth-to-a-flame", "tagged": ["morgana", "capitulo 0"],
 
       "cards": [],
       "searchs": {
@@ -1380,7 +1380,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/u5EtFU0.png", "requisitos": ["Ser invitado por Damien o alguien más de la trama a la misión."],
       "users": ["c/u127", "/u119", "/u12", "/u63"],
       "dependency": [],
-      "type": "misión", "closed": true, "link": "https://blackwave.foroactivo.com/t752-mision-the-lone-bellow", "tagged": ["capitulo 1"],
+      "type": "misión", "closed": true, "fecha": "1952-12-19", "link": "https://blackwave.foroactivo.com/t752-mision-the-lone-bellow", "tagged": ["capitulo 1"],
 
       "cards": [],
 
@@ -1473,7 +1473,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/CzU2l87.png", "requisitos": ["Un integrante tiene que tener Herbología en Avanzado"],
       "users": ["/u78", "/u8", "/u178", "/u130", "/u55", "/u174"],
       "dependency": ["moth to a flame", "potions for all the afflictions"], "tagged": ["morgana", "capitulo 0"],
-      "type": "misión", "closed": true, "link": "/t1262-mision-gilded-herb",
+      "type": "misión", "closed": true, "fecha": "1953-03-31", "link": "/t1262-mision-gilded-herb",
 
       "creatures": {
         "guardia": {
@@ -1711,7 +1711,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/YQ3QDyq.png", "requisitos": ["un miembro del departamento del Seguridad Mágica", "un miembro del personal o profesorado de hogwarts", "Solo se aceptarán 2 estudiantes como máximo"],
       "users": ["/u50", "/u24", "/u110", "/u108", "/u141"],
       "dependency": [],
-      "type": "misión", "closed": true, "link": "https://blackwave.foroactivo.com/t932-mision-the-murmur-of-the-old-guard", "tagged": ["wave", "capitulo 1"],
+      "type": "misión", "closed": true, "fecha": "1953-02-03", "link": "https://blackwave.foroactivo.com/t932-mision-the-murmur-of-the-old-guard", "tagged": ["wave", "capitulo 1"],
 
 
       "creatures": {
@@ -1916,7 +1916,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/V6MkXm7.png", "requisitos": ["Un personaje con Alquimia en Consagrado", "Un personaje con CCM en Avanzado"],
       "users": ["/u8", "/u131", "/u78"],
       "dependency": ["secrets of the silent dead"],
-      "type": "investigación", "closed": true, "link": "/t658-investigacion-ryu-s-breath", "tagged": ["sirius", "capitulo 0"],
+      "type": "investigación", "closed": true, "fecha": "1952-11-29", "link": "/t658-investigacion-ryu-s-breath", "tagged": ["sirius", "capitulo 0"],
 
       "cards": [
         {
@@ -2030,7 +2030,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/LzSqfVa.png", "requisitos": ["un miembro del departamento del Seguridad Mágica o del Departamento de Transporte"],
       "users": ["/u8", "/u101", "/u17"],
       "dependency": ["traces in black"],
-      "type": "investigación", "closed": true, "link": "https://blackwave.foroactivo.com/t562-investigacion-the-beryl-ash-trail", "tagged": ["sirius", "capitulo 0"],
+      "type": "investigación", "closed": true, "fecha": "1952-11-05", "link": "https://blackwave.foroactivo.com/t562-investigacion-the-beryl-ash-trail", "tagged": ["sirius", "capitulo 0"],
 
       "cards": [
         {
@@ -2110,7 +2110,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/UnoEX43.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica"],
       "users": ["/u55", "/u8", "/u94"],
       "dependency": ["the beryl ash trail"],
-      "type": "interrogatorio", "closed": true, "link": "https://blackwave.foroactivo.com/t646-interrogatorio-golden-pathways", "tagged": ["sirius", "capitulo 0"],
+      "type": "interrogatorio", "closed": true, "fecha": "1952-11-18", "link": "https://blackwave.foroactivo.com/t646-interrogatorio-golden-pathways", "tagged": ["sirius", "capitulo 0"],
 
       "cards": [],
       "searchs": {},
@@ -2131,7 +2131,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/e1LeX7A.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica"],
       "users": ["/u8", "/u17", "/u101"],
       "dependency": ["the beryl ash trail"],
-      "type": "investigación", "closed": true, "link": "/t659-investigacion-ember-pass", "tagged": ["sirius", "capitulo 0"],
+      "type": "investigación", "closed": true, "fecha": "1952-11-26", "link": "/t659-investigacion-ember-pass", "tagged": ["sirius", "capitulo 0"],
 
       "cards": [],
 
@@ -2226,7 +2226,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/WgAQvWA.png", "requisitos": ["Un personaje con Herbología en Avanzado"],
       "users": ["/u9", "/u44", "/u8"],
       "dependency": ["traces in black"],
-      "type": "investigación", "closed": true, "link": "https://blackwave.foroactivo.com/t563-investigacion-underground-roots", "tagged": ["sirius", "capitulo 0"],
+      "type": "investigación", "closed": true, "fecha": "1952-11-17", "link": "https://blackwave.foroactivo.com/t563-investigacion-underground-roots", "tagged": ["sirius", "capitulo 0"],
 
       "cards": [
         {
@@ -2296,7 +2296,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/CmIJAA5.png", "requisitos": ["Uno de los integrantes debe ser un miembro de la familia Black"],
       "users": ["/u9", "/u17", "/u101"],
       "dependency": ["underground roots", "the beryl ash trail"],
-      "type": "investigación", "closed": true, "link": "https://blackwave.foroactivo.com/t643-investigacion-the-withered-pot", "tagged": ["sirius", "capitulo 0"],
+      "type": "investigación", "closed": true, "fecha": "1952-11-23", "link": "https://blackwave.foroactivo.com/t643-investigacion-the-withered-pot", "tagged": ["sirius", "capitulo 0"],
 
       "cards": [],
       "searchs": {
@@ -2444,7 +2444,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/xPVXOxC.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica"],
       "users": ["i/u108", "/u156", "/u8"],
       "dependency": ["the withered pot"],
-      "type": "interrogatorio", "closed": true, "link": "/t1110-interrogatorio-the-lupine-killer", "tagged": ["sirius", "capitulo 0"],
+      "type": "interrogatorio", "closed": true, "fecha": "1953-02-26", "link": "/t1110-interrogatorio-the-lupine-killer", "tagged": ["sirius", "capitulo 0"],
 
       "cards": [],
       "searchs": {},
@@ -2457,7 +2457,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/MAA4xsy.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica"],
       "users": ["i/u97", "/u8"],
       "dependency": ["the withered pot", "ember pass"],
-      "type": "interrogatorio", "closed": true, "link": "/t847-interrogatorio-the-fortune-of-the-three-eyes", "tagged": ["sirius", "capitulo 0"],
+      "type": "interrogatorio", "closed": true, "fecha": "1953-01-13", "link": "/t847-interrogatorio-the-fortune-of-the-three-eyes", "tagged": ["sirius", "capitulo 0"],
 
       "cards": [],
       "searchs": {},
@@ -2532,7 +2532,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/uhzqWY8.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica"],
       "users": ["/u50", "/u13"],
       "dependency": ["traces in black"],
-      "type": "interrogatorio", "closed": true, "link": "/t660-interrogatorio-the-foretold-story", "tagged": ["sirius", "capitulo 0"],
+      "type": "interrogatorio", "closed": true, "fecha": "1952-11-26", "link": "/t660-interrogatorio-the-foretold-story", "tagged": ["sirius", "capitulo 0"],
 
       "cards": [],
       "searchs": {},
@@ -2545,7 +2545,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/NhDTPNU.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica", "Un inefable"],
       "users": ["/u50", "/u150", "/u17",],
       "dependency": ["the foretold story"],
-      "type": "investigación", "closed": true, "link": "https://blackwave.foroactivo.com/t1008-investigacion-whispers-of-the-future", "tagged": ["sirius", "capitulo 0"],
+      "type": "investigación", "closed": true, "fecha": "1953-02-20", "link": "https://blackwave.foroactivo.com/t1008-investigacion-whispers-of-the-future", "tagged": ["sirius", "capitulo 0"],
 
       "cards": [],
 
@@ -2654,7 +2654,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/DWMLO6R.png", "requisitos": [],
       "users": ["/u50", "/u9", "/u159"],
       "dependency": [],
-      "type": "investigación", "closed": true, "link": "https://blackwave.foroactivo.com/t1235-investigacion-in-search-of-the-deadly-hallows", "tagged": ["wave", "capitulo 0"],
+      "type": "investigación", "closed": true, "fecha": "1953-03-30", "link": "https://blackwave.foroactivo.com/t1235-investigacion-in-search-of-the-deadly-hallows", "tagged": ["wave", "capitulo 0"],
 
       "cards": [],
 
@@ -2726,7 +2726,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/l0Qfh5X.png", "requisitos": ["Un miembro debe tener Alquimia o Pociones en Avanzado"],
       "users": ["/u91", "/u8", "/u134"],
       "dependency": ["wounds from the past"],
-      "type": "investigación", "closed": true, "link": "https://blackwave.foroactivo.com/t837-investigacion-bottle-of-sorrows", "tagged": ["morgana", "capitulo 0"],
+      "type": "investigación", "closed": true, "fecha": "1953-01-23", "link": "https://blackwave.foroactivo.com/t837-investigacion-bottle-of-sorrows", "tagged": ["morgana", "capitulo 0"],
 
       "cards": [
         {
@@ -2816,7 +2816,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/3KEU7L5.png", "requisitos": ["Un miembro debe poseer Historia de la Magia en Avanzado", "Un miembro debe tener Curacion en Avanzado"],
       "users": ["/u55", "/u8", "/u91"],
       "dependency": ["wounds from the past"],
-      "type": "investigación", "closed": true, "link": "https://blackwave.foroactivo.com/t836-investigacion-muted-magic", "tagged": ["morgana", "capitulo 0"],
+      "type": "investigación", "closed": true, "fecha": "1953-01-16", "link": "https://blackwave.foroactivo.com/t836-investigacion-muted-magic", "tagged": ["morgana", "capitulo 0"],
 
       "cards": [],
 
@@ -3172,7 +3172,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/9HSXJzG.png", "requisitos": ["Un Nigromante o Alto cargo de San Mungo"],
       "users": ["/u8", "/u78", "/u7"],
       "dependency": ["secrets of the silent dead"],
-      "type": "investigación", "closed": true, "link": "https://blackwave.foroactivo.com/t561-investigacion-promise-in-crimson", "tagged": ["morgana", "capitulo 0"],
+      "type": "investigación", "closed": true, "fecha": "1952-11-10", "link": "https://blackwave.foroactivo.com/t561-investigacion-promise-in-crimson", "tagged": ["morgana", "capitulo 0"],
 
       "cards": [
         {
@@ -3255,7 +3255,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/Bm8BRJM.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica"],
       "users": ["/u130", "/u8", "/u55", "/u7"],
       "dependency": ["promise in crimson"],
-      "type": "investigación", "closed": true, "link": "/t661-investigacion-full-of-emptiness", "tagged": ["morgana", "capitulo 0"],
+      "type": "investigación", "closed": true, "fecha": "1952-11-27", "link": "/t661-investigacion-full-of-emptiness", "tagged": ["morgana", "capitulo 0"],
 
       "cards": [{
         "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "caja de madera rúnica",
@@ -3360,7 +3360,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/dYv886y.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica"],
       "users": ["i/u38", "/u130", "/u8"],
       "dependency": ["promise in crimson"],
-      "type": "interrogatorio", "closed": true, "link": "/t662-interrogatorio-green-to-blue", "tagged": ["morgana", "capitulo 0"],
+      "type": "interrogatorio", "closed": true, "fecha": "1952-11-24", "link": "/t662-interrogatorio-green-to-blue", "tagged": ["morgana", "capitulo 0"],
 
       "cards": [],
       "searchs": {},
@@ -3373,7 +3373,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/sjiXJ68.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica"],
       "users": ["i/u108", "i/u119", "/u7", "/u8"],
       "dependency": ["promise in crimson"],
-      "type": "interrogatorio", "closed": true, "link": "/t663-interrogatorio-distorted-memories", "tagged": ["morgana", "capitulo 0"],
+      "type": "interrogatorio", "closed": true, "fecha": "1952-11-24", "link": "/t663-interrogatorio-distorted-memories", "tagged": ["morgana", "capitulo 0"],
 
       "cards": [],
       "searchs": {},
@@ -3386,7 +3386,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/bjwrBd2.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica"],
       "users": ["i/u127", "/u78", "/u55"],
       "dependency": ["promise in crimson"],
-      "type": "interrogatorio", "closed": true, "link": "https://blackwave.foroactivo.com/t834-interrogatorio-journey-of-a-bird", "tagged": ["morgana", "capitulo 0"],
+      "type": "interrogatorio", "closed": true, "fecha": "1953-01-05", "link": "https://blackwave.foroactivo.com/t834-interrogatorio-journey-of-a-bird", "tagged": ["morgana", "capitulo 0"],
 
       "cards": [],
       "searchs": {},
@@ -3399,7 +3399,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/RMYPxuz.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica"],
       "users": ["/u8", "/u78", "/u55", "/u131"],
       "dependency": ["promise in crimson"],
-      "type": "misión", "closed": true, "link": "/t664-mision-frozen-sunflowers", "tagged": ["morgana", "capitulo 2"],
+      "type": "misión", "closed": true, "fecha": "1952-11-30", "link": "/t664-mision-frozen-sunflowers", "tagged": ["morgana", "capitulo 2"],
 
       "cards": [
         {
@@ -3555,7 +3555,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/cX0CEv6.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica", "Un miembro deberá haber obtenido la pista del interrogatorio 'green to blue' o de la investigación 'full of emptiness'", "Un miembro deberá haber obtenido la pista del interrogatorio 'distorted memories' o 'journey of a bird"],
       "users": ["/u55", "/u78", "/u8"],
       "dependency": ["frozen sunflowers"],
-      "type": "interrogatorio", "closed": true, "link": "https://blackwave.foroactivo.com/t1170-interrogatorio-the-apple-house", "tagged": ["morgana", "capitulo 0"],
+      "type": "interrogatorio", "closed": true, "fecha": "1953-03-15", "link": "https://blackwave.foroactivo.com/t1170-interrogatorio-the-apple-house", "tagged": ["morgana", "capitulo 0"],
 
       "cards": [],
       "searchs": {},
@@ -3587,7 +3587,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/m4Mton6.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica"],
       "users": ["/u55", "/u7", "/u50"],
       "dependency": ["haunted dwelling"],
-      "type": "investigación", "closed": true, "link": "/t523-investigacion-commander-s-orders", "tagged": ["edwin", "capitulo 0"],
+      "type": "investigación", "closed": true, "fecha": "1952-10-30", "link": "/t523-investigacion-commander-s-orders", "tagged": ["edwin", "capitulo 0"],
 
       "cards": [],
       "actions": {},
@@ -3651,7 +3651,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/faVXbWl.png", "requisitos": ["Un miembro de la familia Merrythrought o un amigo cercano a la familia", "Un miembro del Dpto de Seguridad Mágica", "Un miembro debe poseer Astronomía en Avanzado"],
       "users": ["/u7", "/u50", "/u8", "/u55", "/u130"],
       "dependency": ["commander's orders"],
-      "type": "misión", "closed": true, "link": "/t665-mision-unveiling-the-unseen", "tagged": ["edwin", "capitulo 0"],
+      "type": "misión", "closed": true, "fecha": "1952-11-29", "link": "/t665-mision-unveiling-the-unseen", "tagged": ["edwin", "capitulo 0"],
 
       "cards": [
         {
@@ -3977,7 +3977,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/3N0DmMz.png", "requisitos": ["Un miembro debe pertenecer a la familia Merrythought o ser un conocido cercano a la misma"],
       "users": ["/u150", "/u7", "/u156", "/u119"],
       "dependency": ["unveiling the unseen"],
-      "type": "investigación", "closed": true, "link": "https://blackwave.foroactivo.com/t1009-investigacion-stargazer-s-night", "tagged": ["edwin", "capitulo 0"],
+      "type": "investigación", "closed": true, "fecha": "1953-02-25", "link": "https://blackwave.foroactivo.com/t1009-investigacion-stargazer-s-night", "tagged": ["edwin", "capitulo 0"],
 
       "cards": [],
 
@@ -4119,7 +4119,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/zZ5WNNh.png", "requisitos": ["Un personaje tendrá que tener curación en avanzado", "Un personaje tendrá que tener Transformaciones en Avanzado", "Un personaje deberá ser miembro del Departamento de Seguridad"],
       "users": ["c/u1", "/u8", "/u24", "/u12", "/u145"],
       "dependency": [],
-      "type": "misión", "closed": true, "link": "https://blackwave.foroactivo.com/t933-mision-the-rest-of-us", "tagged": ["original", "capitulo 3"],
+      "type": "misión", "closed": true, "fecha": "1953-01-03", "link": "https://blackwave.foroactivo.com/t933-mision-the-rest-of-us", "tagged": ["original", "capitulo 3"],
 
       "cards": [],
       "searchs": {
@@ -4258,7 +4258,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/fDwQ2CI.png", "requisitos": ["Un personaje deberá ser miembro del Departamento de Seguridad"],
       "users": ["c/u8", "c/u55", "/u130"],
       "dependency": ["frozen sunflowers"],
-      "type": "investigación", "closed": true, "link": "/t984-interrogatorio-silent-sentinel", "tagged": ["original", "capitulo 2"],
+      "type": "investigación", "closed": true, "fecha": "1953-02-13", "link": "/t984-interrogatorio-silent-sentinel", "tagged": ["original", "capitulo 2"],
 
       "cards": [
         {
@@ -4303,7 +4303,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/tKGTsc9.png", "requisitos": ["Un miembro debe tener Contrabando en Avanzado", "Un miembro debe tener Magia Oscura en Consagrado"],
       "users": ["c/u131", "/u8", "/u55", "/u9", "/u145"],
       "dependency": ["frozen sunflowers"],
-      "type": "misión", "closed": true, "link": "/t983-mision-clandestine-melodies", "tagged": ["original", "capitulo 3"],
+      "type": "misión", "closed": true, "fecha": "1953-02-21", "link": "/t983-mision-clandestine-melodies", "tagged": ["original", "capitulo 3"],
 
       "cards": [
         {
@@ -4507,7 +4507,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/5xLMKUg.png", "requisitos": ["Un personaje deberá ser miembro del Departamento de Seguridad"],
       "users": ["c/u8", "c/u55", "/u78", "/u146"],
       "dependency": ["frozen sunflowers"],
-      "type": "investigación", "closed": true, "link": "https://blackwave.foroactivo.com/t934-investigacion-midnight-ashes", "tagged": ["original", "capitulo 2"],
+      "type": "investigación", "closed": true, "fecha": "1953-01-23", "link": "https://blackwave.foroactivo.com/t934-investigacion-midnight-ashes", "tagged": ["original", "capitulo 2"],
 
       "cards": [],
 
@@ -4563,7 +4563,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/SvlR6WP.png", "requisitos": ["Un personaje debe ser Nigromante"],
       "users": ["c/u78", "/u8", "/u55", "/u91"],
       "dependency": ["frozen sunflowers"],
-      "type": "investigación", "closed": true, "link": "https://blackwave.foroactivo.com/t838-investigacion-18-paper-mask", "tagged": ["original", "capitulo 2"],
+      "type": "investigación", "closed": true, "fecha": "1953-01-09", "link": "https://blackwave.foroactivo.com/t838-investigacion-18-paper-mask", "tagged": ["original", "capitulo 2"],
 
       "cards": [
         {
@@ -5497,7 +5497,7 @@ const MissionsModule = (function () {
       "image": "https://i.imgur.com/0VEBWJ2.png", "requisitos": ["Un personaje deberá ser miembro del Departamento de Seguridad", "Un personaje deberá tener Magia Oscura en Avanzado", "Tres personajes deberán tener Patronus en Avanzado"],
       "users": ["c/u8", "/u55", "/u153", "/u78", "/u159", "/u50"],
       "dependency": ["midnight ashes"],
-      "type": "misión", "closed": true, "link": "/t1109-mision-the-mercy-of-death", "tagged": ["original", "capitulo 3"],
+      "type": "misión", "closed": true, "fecha": "1953-02-28", "link": "/t1109-mision-the-mercy-of-death", "tagged": ["original", "capitulo 3"],
 
       "cards": [],
 
@@ -5750,7 +5750,7 @@ const MissionsModule = (function () {
       "image": "https://i.imgur.com/2kfwlbB.png", "requisitos": ["Un personaje deberá ser miembro del Departamento de Seguridad", "Un personaje o PNJ llevado por usuario deberá tener entre 45 y 55 años"],
       "users": ["c/u8", "/u153", "/u55", "/u78"],
       "dependency": ["paper mask", "midnight ashes"],
-      "type": "investigación", "closed": true, "link": "https://blackwave.foroactivo.com/t1171-investigacion-stolen-shroud", "tagged": ["original", "capitulo 3"],
+      "type": "investigación", "closed": true, "fecha": "1953-03-20", "link": "https://blackwave.foroactivo.com/t1171-investigacion-stolen-shroud", "tagged": ["original", "capitulo 3"],
 
       "cards": [],
       "searchs": {},
@@ -5763,7 +5763,7 @@ const MissionsModule = (function () {
       "image": "https://i.imgur.com/4EJznhF.png", "requisitos": ["Un personaje deberá ser miembro del Departamento de Seguridad", "Un personaje deberá saber hablar Frances (debe estar especificado en la ficha)"],
       "users": ["c/u8", "/u7", "/u91", "/u110"],
       "dependency": ["paper mask", "midnight ashes"],
-      "type": "interrogatorio", "closed": true, "link": "/t1108-interrogatorio-licking-salted-wounds", "tagged": ["original", "capitulo 3"],
+      "type": "interrogatorio", "closed": true, "fecha": "1953-02-25", "link": "/t1108-interrogatorio-licking-salted-wounds", "tagged": ["original", "capitulo 3"],
 
       "cards": [
         {
@@ -5806,7 +5806,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/UpUxWLM.png", "requisitos": [],
       "users": ["c/u101", "/u9", "/u17"],
       "dependency": [],
-      "type": "investigación", "closed": true, "link": "https://blackwave.foroactivo.com/t644-investigacion-faded-lineage", "tagged": ["original"],
+      "type": "investigación", "closed": true, "fecha": "1952-11-18", "link": "https://blackwave.foroactivo.com/t644-investigacion-faded-lineage", "tagged": ["original"],
 
       "cards": [],
 
@@ -5871,7 +5871,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/UpUxWLM.png", "requisitos": ["Un personaje con habilidad heredada"],
       "users": ["c/u101", "/u9", "/u97"],
       "dependency": ["faded lineage"],
-      "type": "investigación", "closed": true, "link": "https://blackwave.foroactivo.com/t833-investigacion-ancestral-code", "tagged": ["original"],
+      "type": "investigación", "closed": true, "fecha": "1953-01-12", "link": "https://blackwave.foroactivo.com/t833-investigacion-ancestral-code", "tagged": ["original"],
 
       "cards": [],
       "searchs": {
@@ -5950,7 +5950,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/t8KMfpL.png", "requisitos": ["Personal de San Mungo"],
       "users": ["c/u55", "/u7", "/u91"],
       "dependency": [],
-      "type": "investigación", "closed": true, "link": "https://blackwave.foroactivo.com/t645-investigacion-operation-birth-ledger", "tagged": ["original"],
+      "type": "investigación", "closed": true, "fecha": "1952-11-21", "link": "https://blackwave.foroactivo.com/t645-investigacion-operation-birth-ledger", "tagged": ["original"],
 
       "cards": [],
 
@@ -6017,7 +6017,7 @@ const MissionsModule = (function () {
       "image": "https://2img.net/i.imgur.com/t8KMfpL.png", "requisitos": ["Personal de Hogwarts"],
       "users": ["c/u55", "/u91", "/u7", "/u110"],
       "dependency": ["operation birth ledger"],
-      "type": "investigación", "closed": true, "link": "https://blackwave.foroactivo.com/t753-investigacion-enrolled-origins", "tagged": ["original"],
+      "type": "investigación", "closed": true, "fecha": "1952-12-17", "link": "https://blackwave.foroactivo.com/t753-investigacion-enrolled-origins", "tagged": ["original"],
 
       "cards": [
         {
