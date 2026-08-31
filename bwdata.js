@@ -2166,6 +2166,13 @@ const MissionsModule = (function () {
           "critico": '6 escarbatos quedan atrapados sin heridas y son devueltos a su recinto.',
         },
 
+        "sensus mitigo": {
+          "leve": '0 de 6 escarbatos se calman.',
+          "moderado": '2 de 6 escarbatos se calman y dejan de intentar escapar.',
+          "exitoso": '4 de 6 escarbatos se calman y dejan de intentar escapar.',
+          "critico": '6 de 6 escarbatos se calman por completo y se dejan guiar de vuelta a su recinto sin resistencia.',
+        },
+
         "revelio": {
           "leve": 'No se detecta ningún rastro de magia adicional en la zona.',
           "moderado": 'Se detecta un rastro de magia residual cerca de la salida trasera de la reserva, sin poder determinar su antigüedad.',
@@ -2681,9 +2688,164 @@ const MissionsModule = (function () {
       "dependency": ["the lupine killer", "in search of the deadly hallows"],
       "type": "misión", "closed": false, "fecha": "", "link": "", "tagged": ["sirius", "capitulo 0"],
 
-      "cards": [],
-      "searchs": {},
-      "actions": {},
+      "cards": [
+        {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "adentrarse en la selva amazónica",
+          "cont": '<span>La leyenda local habla de un espíritu protector de la selva, el Curupira: un niño de cabellos de fuego y pies vueltos hacia atrás, capaz de confundir a cualquier cazador que tome de la selva más de lo que necesita. Algunos lugareños aseguran que o Coração do Curupira es su morada, y que nada de lo que allí habita es casualidad.</span>',
+        },
+
+        {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad mágica", "name": "invalid", }, "place": "llegar a o coração do curupira",
+          "cont": '<span>Quien pertenezca al Departamento de Seguridad Mágica recuerda un memorándum interno: la zona figura catalogada como restringida desde hace décadas, tras la desaparición de al menos tres expediciones que se internaron sin autorización. El informe recomienda no adentrarse sin motivo justificado ni permanecer más tiempo del estrictamente necesario.</span>',
+        },
+
+        {
+          "visible": { "attr": { "val": "min" }, "know": { "ccm": "15" }, "job": "invalid", "name": "invalid", }, "place": "buscar rastros del felino",
+          "cont": '<span>Quien tenga Cuidado de Criaturas Mágicas reconoce que las huellas corresponden, sin dudas, a un félido cuadrúpedo; sin embargo, el ancho de las almohadillas y la profundidad de las marcas de garra no coinciden con ninguna especie catalogada en los registros del Ministerio. Todo indica que se trata de una criatura sin clasificar.</span>',
+        },
+
+        {
+          "visible": { "attr": { "val": "min" }, "know": { "ccm": "10" }, "job": "invalid", "name": "invalid", }, "place": "observar al felino desde la distancia",
+          "cont": '<span>Con Cuidado de Criaturas Mágicas, resulta evidente que las espinas de la cola no son simples púas: su estructura hueca, similar a una aguja hipodérmica, sugiere que funcionan como un mecanismo de inyección de veneno. Cualquier intento de tomar una directamente con las manos implicaría un riesgo real de envenenamiento; sería más seguro extraerla a distancia mediante algún hechizo de invocación.</span>',
+        },
+
+        {
+          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "acercarse con calma y en silencio",
+          "cont": '<span>Quien observe con atención nota que las manchas del pelaje laten con un brillo tenue, casi imperceptible, que parece seguir el ritmo de su respiración y calor corporal. Cuanto más calmado permanece el grupo, más se intensifica ese brillo, como si el propio animal estuviera correspondiendo a la calma con la que se lo trata.</span>',
+        },
+
+        {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "calmar al felino",
+          "cont": '<span>Con la espina asegurada en un contenedor sellado, el grupo se aleja de o Coração do Curupira dejando atrás a los ejemplares, que retoman su descanso como si nada hubiera pasado. El alquimista los espera con ansias: esa pequeña muestra podría ser la clave para avanzar en la investigación sobre la Poción Matalobos.</span>',
+        },
+      ],
+
+      "searchs": {
+        "seguir el mapa hacia el amazonas": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "",
+          "cont": '<span>El mapa hallado en el Departamento de Seguridad está trazado a mano, con una caligrafía nerviosa que marca un único punto en medio de la selva amazónica, sin nombre ni coordenadas exactas más que una promesa: allí encontrarán lo que buscan. Junto al mapa, una nota del alquimista aclara el camino a seguir—: <em>"No sigan los senderos marcados por otros. La selva cambia para quien no respeta su ritmo. Busquen o Coração do Curupira guiándose por el musgo que crece contra el sol, y no enciendan más luz de la necesaria."</em></span>',
+        },
+
+        "adentrarse en la selva amazónica": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "seguir el mapa hacia el amazonas",
+          "cont": '<span>Cruzar la frontera de la selva amazónica es como entrar a otro mundo: el calor húmedo se pega a la piel, la luz del sol apenas logra filtrarse entre la espesa copa de los árboles y un coro constante de insectos y aves desconocidas reemplaza cualquier sonido de civilización. Avanzar exige machete, paciencia y, sobre todo, seguir con exactitud las indicaciones del mapa: un paso en falso puede significar horas perdidas dando vueltas en círculo.</span>',
+        },
+
+        "cruzar el puente colgante": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "adentrarse en la selva amazónica",
+          "cont": '<span>El único paso hacia el interior de la espesura es un puente colgante tendido sobre una quebrada profunda, tejido con lianas viejas y tablones de madera podrida por la humedad. Varios de los tablones ya faltan por completo, y los que quedan ceden con un crujido apenas se apoya el peso de un pie. Cruzarlo tal como está es apostar a la suerte; conviene reforzarlo antes de intentarlo.</span>',
+        },
+
+        "resolver la confusión del curupira": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "cruzar el puente colgante",
+          "cont": '<span>Del otro lado del puente, el camino empieza a repetirse: el mismo árbol partido por un rayo, la misma roca cubierta de musgo, aparecen una y otra vez, como si la selva diera vueltas sobre sí misma. No hay viento, pero las hojas se mueven igual. Es la confusión de la que hablan las leyendas locales, la que el Curupira tiende a quien se interna sin respetar su ritmo, y no va a ceder con más caminata.</span>',
+        },
+
+        "llegar a o coração do curupira": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "resolver la confusión del curupira",
+          "cont": '<span>Tras horas de caminata, la vegetación se vuelve todavía más densa, casi impenetrable, hasta desembocar en una zona que parece contener a la selva misma: o Coração do Curupira. El aire se siente distinto, más pesado, cargado de una calma antigua que nada tiene de tranquilizadora. Los árboles crecen tan juntos que forman un techo casi total, y el silencio, roto apenas por sonidos lejanos, deja en claro que están pisando un lugar que pocos han recorrido antes.</span>',
+        },
+
+        "buscar rastros del felino": {
+          "visible": { "attr": { "sab": "3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "llegar a o coração do curupira",
+          "cont": '<span>No tarda en aparecer el primer indicio: huellas hundidas en el barro, demasiado anchas para tratarse de un gato común, acompañadas de mechones de pelo negro enredados en la corteza de un árbol cercano. Bajo la escasa luz que se filtra entre las ramas, esos mechones parecen destellar con un brillo casi imperceptible, de un verde y un azul que no deberían pertenecer a ningún animal conocido.</span>',
+        },
+
+        "seguir el rastro hasta el claro": {
+          "visible": { "attr": { "int": "3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "buscar rastros del felino",
+          "cont": '<span>Siguiendo las huellas con cuidado de no perder el rastro, la vegetación empieza a abrirse hasta desembocar en un pequeño claro, casi perfecto en su forma, como si algo lo hubiera despejado con intención. La luz del sol logra colarse por primera vez en horas, iluminando un espacio que se siente, de algún modo, como el centro exacto de la selva.</span>',
+        },
+
+        "observar al felino desde la distancia": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "seguir el rastro hasta el claro",
+          "cont": '<span>Ocultos entre la vegetación del borde del claro, los distinguen: dos ejemplares de un felino que, a simple vista, no termina de ser un gato. Las patas son mucho más anchas de lo que correspondería, el pelaje —mucho más tupido que el de cualquier gato— es de un negro profundo recorrido por manchas vívidas, entre verdes y azules, y la complexión recuerda más a la de un cachorro de tigre que a la de un felino doméstico. Sus colas, largas y flexibles, terminan en un manojo de espinas que se mecen con cada movimiento. Uno de los ejemplares, más pequeño, se frota contra el otro mientras este último permanece atento, con las orejas erguidas hacia el grupo.</span>',
+        },
+
+        "acercarse con calma y en silencio": {
+          "visible": { "attr": { "val": "min" }, "know": { "ccm": "10" }, "job": "invalid", "name": "invalid", }, "place": "observar al felino desde la distancia",
+          "cont": '<span>Avanzar despacio, sin gestos bruscos y en completo silencio —o, mejor aún, tarareando o silbando por lo bajo— parece surtir efecto: el ejemplar más grande deja de tensar las orejas y permite el acercamiento, observando con una curiosidad que no tiene nada de amenazante. El más pequeño incluso se aproxima un par de pasos, olfateando el aire en dirección al grupo.</span>',
+        },
+
+        "iluminar la zona con la varita": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "observar al felino desde la distancia",
+          "cont": '<span>Encender la varita para ver mejor resulta ser un error inmediato: ambos ejemplares reaccionan al instante, las pupilas se contraen hasta convertirse en una línea fina y el pelaje se eriza. El más grande se interpone frente al más pequeño, arquea el lomo y agita la cola, dejando las espinas completamente expuestas y erguidas en clara advertencia. La luz no se apaga sola: el ejemplar más grande carga contra el grupo, buscando golpear con la cola antes de que nadie logre reaccionar.</span>',
+        },
+
+        "repeler el ataque": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "iluminar la zona con la varita",
+          "cont": '<span>No hay tiempo para retroceder: el ejemplar embiste, y la única opción real es interponer un escudo antes de que la cola cargada de espinas alcance a alguien. Si el escudo aguanta, el animal se detiene en seco, desorientado por el rebote, y da la oportunidad de calmarlo igual que si nunca hubiera atacado.</span>',
+        },
+
+        "calmar al felino": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "acercarse con calma y en silencio",
+          "cont": '<span>Con paciencia, y sin dejar de mantener la calma, es posible acercarse lo suficiente como para apreciar de cerca los detalles: el pelaje es suave pero denso, casi impermeable, y las manchas de colores laten con un brillo tenue que parece intensificarse con el calor del cuerpo. La cola, con las espinas visiblemente huecas como agujas, se mantiene relajada, apenas moviéndose de un lado a otro. Es el momento indicado para intentar extraer una muestra sin sobresaltar al animal.</span>',
+        },
+      },
+
+      "actions": {
+        "harmonia nectere passus": {
+          "leve": 'Apenas un par de tablones vuelven a fijarse en su lugar; el resto del puente sigue tan inestable como antes.',
+          "moderado": 'La mitad del puente recupera tablones firmes; es posible cruzar pisando con cuidado por esa zona.<adding search="resolver la confusión del curupira" class="check-cards"></adding>',
+          "exitoso": 'El puente entero recupera sus tablones y las lianas se tensan; el grupo cruza sin sobresaltos.<adding search="resolver la confusión del curupira" class="check-cards"></adding>',
+          "critico": 'El puente queda reforzado más allá de su estado original; ni el peso combinado de todo el grupo logra hacerlo crujir.<adding search="resolver la confusión del curupira" class="check-cards"></adding>',
+        },
+
+        "reparo": {
+          "leve": 'Apenas un tablón vuelve a su lugar; el resto sigue roto.',
+          "moderado": 'La mitad de los tablones quedan reparados; es posible cruzar con cuidado.<adding search="resolver la confusión del curupira" class="check-cards"></adding>',
+          "exitoso": 'El puente entero recupera sus tablones originales; el grupo cruza sin sobresaltos.<adding search="resolver la confusión del curupira" class="check-cards"></adding>',
+          "critico": 'El puente queda como nuevo, sin ningún tablón faltante ni suelto.<adding search="resolver la confusión del curupira" class="check-cards"></adding>',
+        },
+
+        "aequalis motus": {
+          "leve": 'Las fuerzas apenas se ajustan; el puente sigue tan inestable como antes.',
+          "moderado": 'El puente se estabiliza parcialmente, lo suficiente para cruzar de a uno y con cuidado.<adding search="resolver la confusión del curupira" class="check-cards"></adding>',
+          "exitoso": 'El puente se estabiliza por completo; el grupo cruza sin problemas.<adding search="resolver la confusión del curupira" class="check-cards"></adding>',
+          "critico": 'El puente queda perfectamente equilibrado, capaz de soportar mucho más peso del necesario.<adding search="resolver la confusión del curupira" class="check-cards"></adding>',
+        },
+
+        "finite": {
+          "leve": 'La sensación de repetición no cede; el mismo árbol partido por un rayo vuelve a aparecer una vez más.',
+          "moderado": 'El efecto se debilita lo suficiente como para notar una pequeña diferencia en el paisaje que se repite, aunque no alcanza para orientarse del todo.',
+          "exitoso": 'El efecto se disuelve por completo; el camino real hacia o Coração do Curupira queda claro.<adding search="llegar a o coração do curupira" class="check-cards"></adding>',
+          "critico": 'El efecto se disuelve por completo y, además, queda expuesto durante un instante el sendero que los animales de la zona usan para desplazarse, un atajo directo hacia el corazón de la selva.<adding search="llegar a o coração do curupira" class="check-cards"></adding>',
+        },
+
+        "protego": {
+          "leve": 'El escudo apenas se forma a tiempo; detiene el golpe, pero la fuerza del impacto tira al lanzador al suelo.<adding search="repeler el ataque" class="check-cards"></adding>',
+          "moderado": 'El escudo bloquea el golpe sin mayores consecuencias, aunque el ejemplar retrocede solo un paso, todavía alterado.<adding search="repeler el ataque" class="check-cards"></adding>',
+          "exitoso": 'El escudo bloquea el golpe por completo; el ejemplar se detiene en seco, desorientado por el rebote.<adding search="repeler el ataque" class="check-cards"></adding>',
+          "critico": 'El escudo bloquea el golpe y el rebote alcanza también al segundo ejemplar; ambos retroceden y bajan la guardia de inmediato.<adding search="repeler el ataque" class="check-cards"></adding>',
+        },
+
+        "murus sacratus": {
+          "leve": 'El muro se forma tarde y solo alcanza a repeler parte del golpe.<adding search="repeler el ataque" class="check-cards"></adding>',
+          "moderado": 'El muro repele el golpe sin problema, aunque el brillo alcanza a alterar aún más al ejemplar.<adding search="repeler el ataque" class="check-cards"></adding>',
+          "exitoso": 'El muro repele el golpe por completo; el contacto con la energía luminosa hace retroceder al ejemplar de inmediato.<adding search="repeler el ataque" class="check-cards"></adding>',
+          "critico": 'El muro repele el golpe y su luz, lejos de alterar a los ejemplares, los calma; ambos bajan la guardia de inmediato.<adding search="repeler el ataque" class="check-cards"></adding>',
+        },
+
+        "aparecium": {
+          "leve": 'Apenas se distinguen un par de huellas más, cubiertas de barro.',
+          "moderado": 'Se revela un tramo del rastro camuflado, marcado por mechones de un pelaje oscuro casi invisible entre las sombras.',
+          "exitoso": 'Se revela la totalidad del rastro camuflado hasta el linde del claro, además de un mechón de pelo con manchas de un verde intenso.',
+          "critico": 'Se revela el rastro completo y, además, una espina hueca caída en el barro; sin embargo, está reseca y quebradiza, inservible para un estudio confiable: necesitarán una muestra fresca directamente del animal.',
+        },
+
+        "revelio": {
+          "leve": 'No se detecta ningún rastro de magia adicional en el claro.',
+          "moderado": 'Se detecta un leve rastro de magia residual entre los helechos, en dirección hacia el interior de la espesura.',
+          "exitoso": 'Se detecta con claridad un rastro de magia residual que serpentea entre la vegetación y desemboca en el pequeño claro.',
+          "critico": 'Se detecta el rastro completo de magia residual, que revela además que no se trata de un solo ejemplar: al menos dos fuentes distintas de energía mágica se entrecruzan en el camino hacia el claro.',
+        },
+
+        "accio": {
+          "leve": 'La espina apenas se mueve, pero el tirón sobresalta al ejemplar, que retrocede y se interna en la espesura sin dejar acercarse a nadie por el resto de la jornada. La criatura ataca de manera inmediata. No podrán realizar más acciones hasta que no resuelvan el problema de las criaturas.',
+          "moderado": 'La espina se desprende, pero cae entre la maleza antes de llegar a destino; deberán acercarse de nuevo con cuidado para recuperarla del suelo.',
+          "exitoso": 'La espina se desprende limpiamente de la cola y vuela directo hasta la mano del lanzador, sin que el ejemplar llegue siquiera a inmutarse.',
+          "critico": 'La espina se desprende sin esfuerzo y llega intacta a destino; el hechizo arrastra además una segunda espina caída recientemente cerca del claro, brindando dos muestras frescas para el estudio.',
+        },
+      },
     },
     // fin through the green abyss
 
@@ -4913,9 +5075,241 @@ const MissionsModule = (function () {
       "dependency": ["paper mask", "midnight ashes", "clandestine melodies", "silent sentinel"],
       "type": "misión", "closed": false, "fecha": "", "link": "", "tagged": ["original", "capitulo 3"],
 
-      "cards": [],
-      "searchs": {},
-      "actions": {},
+      "cards": [
+        {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ingresar a la casa wraithwood",
+          "cont": '<span>Hay algo en el silencio de la casa que no se siente como el silencio normal de un lugar vacío. Es más parecido a estar siendo observado desde una distancia que no se puede calcular. Ninguno de los presentes lo dice en voz alta, pero todos aminoran el paso al mismo tiempo.</span>',
+        },
+
+        {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "recorrer el vestíbulo",
+          "cont": '<span>En las paredes del vestíbulo cuelgan varios retratos familiares, inmóviles desde hace años; sea porque la magia que los animaba se agotó, sea porque nadie quedó para mantenerla. En casi todos, el rostro ha sido arrancado o quemado con cuidado, como si alguien hubiera querido borrar específicamente las caras y no los cuerpos. Solo uno conserva el rostro intacto: el de una niña pequeña, sonriendo, con otra niña idéntica tomada de la mano.</span>',
+        },
+
+        {
+          "visible": { "attr": { "val": "min" }, "know": { "magia oscura": "10" }, "job": "invalid", "name": "invalid", }, "place": "trazar la sal por el borde",
+          "cont": '<span>Con Magia Oscura en nivel Avanzado, la forma que traza la sal deja de parecer un dibujo inocente. No es un círculo cualquiera: los trazos repetidos en el borde, las cuatro velas en los puntos exactos y la marca tallada debajo de todo corresponden a un sello de anclaje espiritual. Uno de esos que se usan para atar algo, o a alguien, a un punto fijo.</span>',
+        },
+
+        {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "sentir una presencia",
+          "cont": '<span>Una figura se recorta contra la pared del fondo: una mujer joven, de contorno gris plateado y bordes que tiemblan como el humo. Viste ropa sencilla y gastada, muy distinta a la de los retratos de familia que cuelgan abajo. Su expresión no es la de un espectro sereno, sino la de alguien que lleva mucho tiempo esperando que alguien golpee esa puerta y, ahora que sucedió, no termina de decidir si quiere que se queden o que se vayan.</span>',
+        },
+
+        {
+          "visible": { "attr": { "sab": "3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar por el hombre de un solo ojo",
+          "cont": '<span>Aunque Nina mantiene la voz firme casi todo el tiempo, quien la observa con atención nota que su forma se atenúa cada vez que menciona al hombre, como una vela a punto de apagarse por una corriente de aire. No es un gesto teatral. Es miedo, del que no se actúa.</span>',
+        },
+
+        {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "nigromante", "name": "invalid", }, "place": "preguntar por soly nisrine",
+          "cont": '<span>Para quien recuerde el cuerpo hallado en el peritaje de Wrenn Wraithwood, identificado como Soly Nisrine mediante un <i>extractum genericae</i>, las palabras de Nina encajan de una manera incómoda. Si Soly investigaba cómo trasladar un alma de un cuerpo a otro, y su propia muerte quedó registrada como un suicidio que sus padres jamás dejaron autopsiar, la pregunta ya no es si el traslado se hizo, sino a costa de quién.</span>',
+        },
+      ],
+
+      "searchs": {
+        "llegar a la casa wraithwood": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
+          "cont": '<span>La casa Wraithwood ocupa el final de una calle que ya no lleva demasiado tráfico, escondida detrás de un jardín que hace mucho dejó de ser jardín para convertirse en maleza. El portón de hierro, oxidado hasta perder buena parte de su forma original, todavía conserva el apellido tallado en el arco superior: las letras están picadas, pero se leen. Las ventanas de la fachada están tapiadas con tablones grises, salvo una, en el segundo piso, que alguien dejó sin cubrir hace tiempo.</span>',
+        },
+
+        "ingresar a la casa wraithwood": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "llegar a la casa wraithwood",
+          "cont": '<span>La puerta principal no está cerrada con llave, solo trabada por el óxido y los años; cede con un empujón y un crujido largo. Adentro, el aire es denso, quieto, cargado de un polvo que no se asienta del todo. No hay ruido de la calle, ni de nada. La oscuridad del pasillo de entrada se extiende hacia el resto de la casa sin que la luz del día logre avanzar más de un par de metros.</span>',
+        },
+
+        "recorrer el vestíbulo": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ingresar a la casa wraithwood",
+          "cont": '<span>El vestíbulo conserva parte de su mobiliario original, cubierto por sábanas grises que hace mucho dejaron de ser blancas. Una escalera amplia sube hacia el piso superior, con la baranda cubierta de telarañas espesas. A un costado, una puerta más angosta y baja lleva, presumiblemente, hacia el sótano de la casa. El frío, ya notable desde la entrada, se siente más marcado cerca de esa puerta.</span>',
+        },
+
+        "bajar al sótano": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "recorrer el vestíbulo",
+          "cont": '<span>Los escalones del sótano están gastados y varios parecen hundidos hacia adentro, como si algo los hubiera erosionado desde abajo. Al apoyar el primer pie, un crujido seco recorre toda la escalera: una vieja protección residual de la casa sigue activa, y convierte los escalones en una rampa de piedra lisa e inclinada. Bajar así, sin control, no parece buena idea.</span>',
+        },
+
+        "reparar la escalera": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "bajar al sótano",
+          "cont": '<span>La superficie lisa no cede a la fuerza, solo a la magia adecuada. Alguna Transformación bien aplicada debería bastar para devolverle a la piedra su forma original.</span>',
+        },
+
+        "encontrar el arcón": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "reparar la escalera",
+          "cont": '<span>Abajo, el aire huele a tierra húmeda y a algo más viejo, casi mineral. El espacio parece haber sido, alguna vez, un taller: mesas de trabajo cubiertas de frascos rotos, marcas de tiza casi borradas en el piso de piedra, restos de velas consumidas hasta la base. En un rincón, medio oculto por la penumbra, hay un arcón de madera oscura. El cierre está trabado por el óxido, pero cede sin mayor resistencia.</span>',
+        },
+
+        "abrir el arcón": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "encontrar el arcón",
+          "cont": '<span>Adentro no hay más que fragmentos de una vida que alguien intentó borrar apurado: una varita partida en dos, algunos frascos vacíos con etiquetas ilegibles, un puñado de joyas deslustradas sin valor aparente. En el fondo, tallado a mano y sin firma, hay un pequeño símbolo: un ojo, solo, sin nada alrededor que explique qué significa.</span>',
+        },
+
+        "subir al piso superior": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir el arcón",
+          "cont": '<span>El camino de vuelta hacia el vestíbulo y, desde ahí, hacia la escalera principal, se siente más largo de lo que fue bajar. Los escalones que suben al piso de arriba están cubiertos por una alfombra que alguna vez debió ser roja y ahora es de un marrón indefinido. Cada paso levanta polvo que no termina de asentarse, y el frío, lejos de disminuir a medida que se alejan del sótano, se mantiene igual de presente.</span>',
+        },
+
+        "puerta sellada del cuarto de las gemelas": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "subir al piso superior",
+          "cont": '<span>En el pasillo del piso superior hay tres puertas. Dos ceden sin problema y solo dan a cuartos vacíos, cubiertos de polvo. La tercera, la que debería llevar al cuarto de las gemelas, tiene algo raro: el picaporte no gira, y por la rendija inferior sale un frío distinto, más seco que el del resto de la casa. Alguien selló esta puerta hace mucho, y no con una cerradura común.</span>',
+        },
+
+        "entrar al cuarto de las gemelas": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "puerta sellada del cuarto de las gemelas",
+          "cont": '<span>Detrás de la puerta entreabierta hay un cuarto pequeño, con dos camas gemelas todavía tendidas, aunque las mantas están comidas por la humedad y las polillas. En el marco de madera de una de las camas, alguien talló dos nombres, uno al lado del otro: <strong>Nina</strong> y <strong>Wrenn</strong>. Hay juguetes desperdigados por el piso, un espejo de mano roto sobre una cómoda, y varias fotografías familiares, todas boca abajo.</span>',
+        },
+
+        "sentir una presencia": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "entrar al cuarto de las gemelas",
+          "cont": '<span>El frío que ya se sentía en toda la casa se vuelve distinto: más denso, más personal. Las llamas de las pocas velas que aún quedan en pie sobre los candelabros oxidados pasan de un naranja apagado a un azul pálido. En algún punto del cuarto, el aire se mueve sin que haya ventana abierta.</span>',
+        },
+
+        "hablar con nina": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "sentir una presencia",
+          "cont": '<span>La figura retrocede un paso al notar que la vieron, aunque no se desvanece—: <strong>¿Vienen del Ministerio?</strong> —pregunta, con la voz baja y quebrada, sin el tono ceremonioso que suelen tener los fantasmas de las familias antiguas—. <strong>No, esperen, no se vayan.</strong> —agrega, atropellando las palabras—. <strong>Hace mucho que nadie entra acá.</strong></span>',
+        },
+
+        "preguntar quién es": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "hablar con nina",
+          "cont": '<span>La aparición se queda quieta un momento, como si evaluara si vale la pena contestar—: <strong>Nina.</strong> —dice, seca—. <strong>Nina Wraithwood, si eso les dice algo.</strong> —Intenta cruzarse de brazos, aunque sus manos no llegan a tocarse del todo—. <strong>No soy bruja de verdad, ¿saben? Nunca lo fui. Squib.</strong> —lo dice como quien repite algo que le dijeron mil veces—. <strong>Así que no me pregunten cosas raras de magia, que no las entiendo. Ni las entendía cuando estaba viva.</strong></span>',
+        },
+
+        "nina pide un favor": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar quién es",
+          "cont": '<span>Nina los mira de a uno, calculando algo antes de hablar—: <strong>Puedo contarles cosas. De mi hermana, de todo.</strong> —dice, y por un segundo suena casi aliviada de poder decirlo en voz alta—. <strong>Pero antes necesito que me ayuden con algo. No es nada raro, se los juro.</strong> —Señala hacia el centro del cuarto, donde unas velas viejas y gastadas están dispuestas en círculo sobre una marca tallada en la madera del piso, ya cubierta de polvo—. <strong>Hace mucho frío acá. Siempre. Y esas velas ayudan, un poco.</strong> —agrega, encogiéndose de hombros—. <strong>Ustedes tienen varitas para eso, ¿no? A mí nunca me dejaron tener una.</strong></span>',
+        },
+
+        "encender las velas del círculo": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "nina pide un favor",
+          "cont": '<span>Las cuatro velas están gastadas hasta la mitad, con cera derretida y vuelta a endurecer muchas veces, como si alguien las hubiera encendido y apagado una y otra vez a lo largo de los años. Nina señala cada una con un dedo tembloroso, indicando el orden—: <strong>Primero esa, después esa, esa y esa.</strong> —dice, señalando norte, este, sur y oeste, sin explicar por qué el orden importa—. <strong>Da igual cómo. Con lo que sepan. Solo que prendan.</strong></span>',
+        },
+
+        "trazar la sal por el borde": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "encender las velas del círculo",
+          "cont": '<span>Con las velas encendidas, Nina señala un cuenco de sal gruesa apoyado junto a la pared, casi escondido bajo una tela—: <strong>Ahora la sal, por el borde de la marca.</strong> —pide, con la misma naturalidad con la que pediría que cerraran una ventana—. <strong>Es para que no entren bichos.</strong> —agrega, aunque no queda claro qué clase de bichos podría haber en un cuarto donde no vive nadie hace años.</span>',
+        },
+
+        "ofrecer una gota de sangre": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "trazar la sal por el borde",
+          "cont": '<span>Nina hace una mueca, casi apenada—: <strong>Esta parte es fea, perdón.</strong> —dice—. <strong>Necesito que alguno se pinche un dedo. Solo una gota, en el medio.</strong> —Antes de que puedan protestar, agrega, más rápido—: <strong>Es como cuando dos personas se dan la mano para cerrar un trato. Nada más.</strong> —No aclara qué trato es, ni con quién se está cerrando en realidad.</span>',
+        },
+
+        "repetir las palabras que pide nina": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ofrecer una gota de sangre",
+          "cont": '<span>Nina cierra los ojos, o hace el intento, y recita unas palabras cortas, sin ninguna elegancia en la pronunciación—: <em>"Quedo. Vos quedás. Nadie se va sin pagar."</em> —Pide que las repitan, todos juntos, mirando el centro del círculo—. <strong>No hace falta que las entiendan.</strong> —dice, casi con vergüenza—. <strong>Yo tampoco las entiendo del todo. Me las enseñaron así, y así las digo.</strong> —En cuanto terminan de repetirlas, la marca del piso brilla por un instante con una luz gris y fría que no viene de ninguna de las velas.</span>',
+        },
+
+        "darse cuenta de lo que hicieron": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "repetir las palabras que pide nina",
+          "cont": '<span>El brillo se apaga tan rápido como apareció, pero algo queda distinto en el aire: un peso pequeño y frío, instalado en el pecho de cada uno de los presentes. Nina, por primera vez desde que apareció, deja de temblar—: <strong>Listo.</strong> —dice, y suena aliviada de una manera que no es agradable de ver—. <strong>Ya está hecho.</strong><br><br>Ante la confusión evidente, explica sin rodeos, como quien repite una regla del juego que ya debería ser obvia—: <strong>Acaban de hacerme un favor. Uno de los buenos, de los que cuentan.</strong> —dice—. <strong>Y ahora me deben uno a mí. Así funciona esto.</strong> —Se encoge de hombros, casi disculpándose—. <strong>No es nada personal. Es lo único que sé hacer bien.</strong></span>',
+        },
+
+        "preguntar por qué hizo esto": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "darse cuenta de lo que hicieron",
+          "cont": '<span>Nina no se inmuta ante la pregunta, como si la esperara—: <strong>Porque ustedes son de Seguridad, y a la gente de Seguridad no se le habla gratis.</strong> —dice, con una franqueza que no busca ser cruel, solo práctica—. <strong>La última vez que hablé con alguien del Ministerio sin nada a cambio, me fue mal.</strong> —No da más detalles sobre eso—. <strong>Ahora tengo algo. Ustedes me deben. Así que, si un día necesito que miren para otro lado, o que hagan algo chiquito por mí, lo van a hacer.</strong> —Hace una pausa—. <strong>O eso espero.</strong></span>',
+        },
+
+        "preguntar por el hombre de un solo ojo": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "darse cuenta de lo que hicieron",
+          "cont": '<span>Ante la pregunta, la forma de Nina se contrae un poco, como si el frío del cuarto se le metiera más adentro—: <strong>No sé cómo se llama.</strong> —dice, y por primera vez pierde la seguridad práctica de hace un momento—. <strong>Nadie sabe. Cada vez que aparece dice un nombre distinto, y ninguno es el verdadero.</strong> —Se abraza a sí misma, o lo intenta—. <strong>Le falta un ojo. Eso sí es verdad, siempre. Lo demás, no sé.</strong> —agrega, más bajo—. <strong>Y no pregunten más de eso ahora, por favor. No me gusta ni decirlo.</strong></span>',
+        },
+
+        "preguntar por qué se metieron con él": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar por el hombre de un solo ojo",
+          "cont": '<span>Nina hace el gesto de un suspiro, aunque ya no necesita respirar—: <strong>Wrenn quería vengarse de Tuft. Por lo de nuestro padre, por todo.</strong> —dice—. <strong>Fuimos a buscar a alguien que nos ayudara a hacerle daño de verdad. Alguien con poder.</strong> —Se ríe, sin humor—. <strong>Y lo encontramos. O nos encontró él a nosotras, ya no sé bien cómo fue.</strong> —agrega—. <strong>Al principio parecía un trato fácil. Siempre parece un trato fácil.</strong></span>',
+        },
+
+        "preguntar sobre la esclavitud": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar por qué se metieron con él",
+          "cont": '<span>Nina tarda en responder—: <strong>No es como esclavo de cuento, con cadenas y todo eso.</strong> —dice—. <strong>Es peor, porque uno ni se da cuenta cuándo dejó de decidir las cosas.</strong> —Se mira las manos, como si todavía pudiera reconocerlas—. <strong>Un día hacés lo que él pide porque conviene. Y después lo hacés porque no podés no hacerlo.</strong> —agrega, en voz baja—. <strong>Ni morirme me lo sacó de encima. Sigo acá, atada a esta casa, y sigo haciendo tratos como el que les acabo de hacer a ustedes.</strong> —Una pausa larga—. <strong>Ese es el precio. Uno no termina de pagarlo nunca.</strong></span>',
+        },
+
+        "preguntar por wrenn": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "darse cuenta de lo que hicieron",
+          "cont": '<span>Al nombrar a su hermana, Nina se pone visiblemente más nerviosa—: <strong>No sé dónde está. En serio, no sé.</strong> —dice, rápido, casi a la defensiva—. <strong>Y aunque supiera, no se lo diría así como así.</strong> —agrega, más calma—. <strong>Se mueve. Siempre se movió, incluso antes de todo esto. Es lo único que sabe hacer tan bien como yo sé robar.</strong> —No parece dispuesta a decir más por el momento.</span>',
+        },
+
+        "preguntar por soly nisrine": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "darse cuenta de lo que hicieron",
+          "cont": '<span>El nombre incomoda a Nina de una manera distinta a la del hombre de un solo ojo; esta vez no es miedo, es algo más parecido a la culpa—: <strong>Ella nos ayudó con algo. Con lo de Wrenn, con lo del cuerpo.</strong> —dice, eligiendo mal las palabras y dándose cuenta tarde—. <strong>Había estudiado algo raro, sobre mover un alma de un lado a otro. No sé cómo funciona esa magia, nunca la entendí.</strong> —agrega, incómoda—. <strong>Solo sé que salió cara. Que costó más de lo que pensábamos, y no hablo de dinero.</strong> —No aclara si se refiere a la vida de Soly, a la de Wrenn, o a algo peor.</span>',
+        },
+
+        "el pedido de nina": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar sobre la esclavitud",
+          "cont": '<span>Antes de que puedan despedirse, Nina los detiene con algo que suena más a súplica que a advertencia—: <strong>Si la encuentran, si atrapan a mi hermana...</strong> —dice, y por primera vez su voz suena tan quebrada como su forma—. <strong>No la manden a Azkaban.</strong> —Hace una pausa larga—. <strong>Mátenla, si tienen que hacer algo. Se los pido en serio.</strong><br><br>Ante la lógica reacción de rechazo, insiste, casi desesperada—: <strong>Si él la agarra viva, o si se entera de que está presa en un lugar donde puede llegar a buscarla, la va a torturar por diversión antes de matarla.</strong> —dice—. <strong>A mí no me mató rápido. No quiero eso para ella.</strong> —Se aleja un paso, como si ya hubiera dicho demasiado—. <strong>Es lo único que les voy a pedir. Después de esto, estamos a mano.</strong></span>',
+        },
+      },
+
+      "actions": {
+        "reparo": {
+          "leve": '<span>El intento apenas devuelve textura a un par de escalones; el resto de la escalera sigue liso y peligroso.</span>',
+          "moderado": '<span>La mitad de la escalera recupera su forma original; es posible bajar con cuidado, aunque el resto sigue resbaladizo.</span><adding search="encontrar el arcón" class="check-cards"></adding>',
+          "exitoso": '<span>La escalera entera recupera sus escalones originales; todos pueden bajar sin dificultad.</span><adding search="encontrar el arcón" class="check-cards"></adding>',
+          "critico": '<span>La escalera queda reforzada además de reparada: los escalones se sienten más firmes que antes de que la protección se activara, y el grupo baja sin ningún riesgo.</span><adding search="encontrar el arcón" class="check-cards"></adding>',
+        },
+
+        "colloshoo": {
+          "leve": '<span>El hechizo pega los zapatos al escalón equivocado; alguien queda momentáneamente inmovilizado a mitad de camino.</span>',
+          "moderado": '<span>Los zapatos quedan pegados con la firmeza justa para dar un paso seguro por vez; el descenso es lento, pero funciona.</span><adding search="encontrar el arcón" class="check-cards"></adding>',
+          "exitoso": '<span>Todos logran pegar sus zapatos a cada paso con precisión, bajando con total seguridad pese a la superficie resbaladiza.</span><adding search="encontrar el arcón" class="check-cards"></adding>',
+          "critico": '<span>El hechizo se ajusta automáticamente a cada paso sin que haga falta repetirlo; el grupo baja con total normalidad, como si la escalera nunca hubiera cambiado.</span><adding search="encontrar el arcón" class="check-cards"></adding>',
+        },
+
+        "alohomora": {
+          "leve": '<span>El picaporte gira apenas, pero la puerta no cede.</span>',
+          "moderado": '<span>La puerta se entreabre lo suficiente para ver parte del cuarto del otro lado, aunque sigue trabada.</span><adding search="entrar al cuarto de las gemelas" class="check-cards"></adding>',
+          "exitoso": '<span>La puerta se abre por completo, sin ningún daño ni ruido de más.</span><adding search="entrar al cuarto de las gemelas" class="check-cards"></adding>',
+          "critico": '<span>La puerta se abre en silencio total, y el sello que la mantenía cerrada se disuelve sin dejar rastro, como si nunca hubiera estado ahí.</span><adding search="entrar al cuarto de las gemelas" class="check-cards"></adding>',
+        },
+
+        "bombarda": {
+          "leve": '<span>La explosión es débil y apenas hace vibrar la puerta, que sigue firme.</span>',
+          "moderado": '<span>La puerta se resquebraja y cede parcialmente, dejando un hueco lo bastante ancho para pasar de a uno.</span><adding search="entrar al cuarto de las gemelas" class="check-cards"></adding>',
+          "exitoso": '<span>La puerta vuela de sus bisagras de un solo golpe, abriendo el paso por completo.</span><adding search="entrar al cuarto de las gemelas" class="check-cards"></adding>',
+          "critico": '<span>La puerta vuela de sus bisagras sin dejar escombros ni ruido de más, como si el sello nunca hubiera estado ahí.</span><adding search="entrar al cuarto de las gemelas" class="check-cards"></adding>',
+        },
+
+        "incendio": {
+          "leve": '<span>Ninguna de las cuatro velas logra encenderse; Nina insiste, un poco nerviosa, en que lo intenten de nuevo.</span>',
+          "moderado": '<span>Dos de las cuatro velas se encienden; Nina asiente conforme, aunque pide que se complete el círculo.</span>',
+          "exitoso": '<span>Tres de las cuatro velas quedan encendidas; solo falta una para cerrar el círculo trazado en el piso.</span>',
+          "critico": '<span>Las cuatro velas se encienden al mismo tiempo, dibujando un círculo completo de luz alrededor de la marca tallada en la madera del piso.</span><adding search="trazar la sal por el borde" class="check-cards"></adding>',
+        },
+
+        "lacarnum inflamarae": {
+          "leve": '<span>Ninguna de las cuatro velas logra encenderse; las pequeñas llamas se apagan antes de llegar.</span>',
+          "moderado": '<span>Dos de las cuatro velas se encienden con las llamas.</span>',
+          "exitoso": '<span>Tres de las cuatro velas quedan encendidas.</span>',
+          "critico": '<span>Las cuatro velas se encienden al mismo tiempo, dibujando un círculo completo de luz alrededor de la marca tallada en la madera del piso.</span><adding search="trazar la sal por el borde" class="check-cards"></adding>',
+        },
+
+        "animas revelo": {
+          "leve": '<span>Se percibe una sensación de frío y presión en el aire, pero no logra ubicarse con precisión de dónde proviene.</span>',
+          "moderado": '<span>Se percibe una silueta nebulosa que se mueve entre las camas del cuarto, deteniéndose cada vez que alguien se acerca.</span>',
+          "exitoso": '<span>La silueta se vuelve visible de forma parcial: una joven de cabello oscuro y expresión asustada, que retrocede hacia la pared en cuanto nota que la vieron.</span>',
+          "critico": '<span>Se percibe con claridad no solo la silueta, sino también su emoción: terror puro, y una necesidad urgente de que nadie se vaya sin hablar con ella primero.</span>',
+        },
+
+        "legeremens": {
+          "leve": '<span>No es suficiente para acceder a ningún recuerdo de Nina; su mente, difusa como el resto de su forma, se resiste sin esfuerzo.</span>',
+          "moderado": '<span>Se percibe una imagen breve: una habitación fría, dos camas, una voz cantando bajito para calmar el miedo.</span>',
+          "exitoso": '<span>Se percibe con más claridad un recuerdo: una discusión a los gritos y un hombre sin rostro claro, salvo por la ausencia de un ojo, cerrando un trato con Wrenn.</span>',
+          "critico": '<span>Además del recuerdo anterior, se percibe la sensación exacta que Nina siente cada vez que piensa en él: un frío que no tiene nada que ver con estar muerta.</span>',
+        },
+
+        "veritas relego": {
+          "leve": '<span>No es suficiente para determinar si Nina miente en algo.</span>',
+          "moderado": '<span>Permite confirmar que Nina no mintió al hablar sobre Wrenn ni sobre el hombre de un solo ojo.</span>',
+          "exitoso": '<span>Permite confirmar que Nina no mintió en ninguna de sus respuestas, aunque calla más de lo que responde.</span>',
+          "critico": '<span>Permite confirmar que Nina no mintió en ninguna respuesta y, además, se percibe que hay una pregunta entera que nadie llegó a hacerle.</span>',
+        },
+
+        "sensum eximo": {
+          "leve": '<span>No es suficiente para extraer nada de Nina.</span>',
+          "moderado": '<span>Se percibe con claridad que el miedo de Nina no es actuado; es tan real como cualquier emoción de alguien con vida.</span>',
+          "exitoso": '<span>Se logra extraer parte del miedo de Nina, que por un instante se muestra más tranquila y menos evasiva.</span>',
+          "critico": '<span>Se extrae el miedo casi por completo; Nina, aliviada, responde con una sinceridad que no tenía antes, aunque el alivio no dura mucho.</span>',
+        },
+      },
     },
     // price of the dark favor
 
