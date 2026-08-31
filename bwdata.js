@@ -2033,9 +2033,160 @@ const MissionsModule = (function () {
       "dependency": ["ryu's breath"],
       "type": "misión", "closed": false, "fecha": "", "link": "", "tagged": ["sirius", "capitulo 0"],
 
-      "cards": [],
-      "searchs": {},
-      "actions": {},
+      "cards": [
+        {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
+          "cont": '<span>Si tienen preguntas específicas para Rouge, deben enviarlas por privado a la administración.</span>',
+        },
+
+        {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "Moody", }, "place": "",
+          "cont": '<span>Se notifica que pueden realizar intervenciones con Barbara, directora de la reserva, siempre que lo deseen.</span>',
+        },
+
+        {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "presentarse ante rouge",
+          "cont": '<span>Un par de guardias de la reserva observan la escena desde la distancia, sin acercarse, pero sin perderla de vista tampoco. Rouge no parece incomodarse por la vigilancia; está acostumbrado.</span>',
+        },
+        {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "colonia de mariposas",
+          "cont": '<span>Antes de despedirlos, Rouge los mira con seriedad por primera vez en toda la charla—: <strong>Miren</strong> —dice—, <strong>que uno sepa de criaturas, no quiere decir que trafique con ellas.</strong> —Y con esa frase deja en claro que la mariposa que buscan no salió de sus manos, aunque bien podría haber salido de las de cualquiera que conociera este lugar.</span>',
+        },
+
+        {
+          "visible": { "attr": { "val": "min" }, "know": { "ccm": "10" }, "job": "invalid", "name": "invalid", }, "place": "acertijos de rouge",
+          "cont": '<span>Con Cuidado de Criaturas Mágicas en nivel Avanzado, el acertijo no deja dudas: alas que envidiaría la envidia, origen en climas que nunca descansan del calor, un toque que no perdona. Solo puede tratarse de la <strong>Mariposa de Jade</strong>.</span>',
+        },
+
+        {
+          "visible": { "attr": { "val": "min" }, "know": { "ccm": "10" }, "job": "invalid", "name": "invalid", }, "place": "mariposa de jade",
+          "cont": '<span>El segundo acertijo también encaja con lo que ya saben sobre el comercio de criaturas prohibidas: algo que se practica sin papeles y que la ley persigue sin descanso solo puede ser el <strong>contrabando</strong>.</span>',
+        },
+
+        {
+          "visible": { "attr": { "val": "min" }, "know": { "ccm": "10" }, "job": "invalid", "name": "invalid", }, "place": "contrabando",
+          "cont": '<span>La descripción de Rouge —algo que se tiene sin comprar, se guarda sin vender, y aun así no rompe ninguna ley— apunta a un <strong>vacío legal</strong>.</span>',
+        },
+
+        {
+          "visible": { "attr": { "val": "min" }, "know": { "ccm": "10" }, "job": "invalid", "name": "invalid", }, "place": "vacío legal",
+          "cont": '<span>Un clima que no debería existir ahí, sostenido de forma artificial para algo que nadie sembró ni vendió: la respuesta solo puede estar en el <strong>bioma selvático de la reserva</strong>.</span>',
+        },
+      ],
+
+      "searchs": {
+        "introducción a la reserva": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
+          "cont": '<span>La Reserva Natural Flint los recibe como invitados, un cartel de hierro forjado señala la entrada principal, junto a una pequeña garita donde un guardia revisa credenciales antes de dejar pasar a cualquier visitante. Más allá de la cerca, distintos biomas artificiales se distribuyen por el terreno, cada uno recreando el hábitat natural de las criaturas que allí se resguardan.</span>',
+        },
+
+        "ingresar a la reserva": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "introducción a la reserva",
+          "cont": '<span>Ingresar requiere identificarse ante el guardia de la garita y explicar el motivo de la visita. Por lo general, se les permite el paso sin mayores inconvenientes, aunque no sin antes anotar sus nombres en un registro; aunque al tratarse de una investigación oficial, se les advierte que un miembro del personal deberá acompañarlos en todo momento dentro de la reserva.</span>',
+        },
+
+        "llegar hasta rouge": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ingresar a la reserva",
+          "cont": '<span>Rouge es un hombre de corta estatura y complexión robusta, con el cabello al ras y canoso. Su piel está curtida por el sol, y su expresión sugiere que tomará como una broma cualquier cosa que se le diga.</span>',
+        },
+
+        "verdadero nombre de rouge": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad mágica", "name": "invalid", }, "place": "llegar hasta rouge",
+          "cont": '<span>El verdadero nombre de Rouge es <strong>Liliwen Macsen</strong>. Al mencionarlo, Rouge comenta, con humor, que sus padres tenían un excelente sentido del humor.</span>',
+        },
+
+        "presentarse ante rouge": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "llegar hasta rouge",
+          "cont": '<span>Apenas se identifican, la sonrisa socarrona de Rouge se tensa un segundo—: <strong>Otra vez con esto</strong> —masculla, más para sí que para ellos. Ya lo interrogaron una vez y salió limpio; no tiene ganas de repetir la función palabra por palabra. Pero tampoco los despacha. Se apoya contra la cerca del corral más cercano y recupera la sonrisa—: <strong>Bien. Jueguen conmigo, y a lo mejor les cuento algo.</strong></span>',
+        },
+
+        "acertijos de rouge": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "presentarse ante rouge",
+          "cont": '<span>Rouge cruza los brazos y sonríe de lado—: <strong>Yo no respondo preguntas directas, eso es aburrido</strong> —dice—. <strong>Pero les propongo un trato: por cada acertijo que acierten, les cuento algo. Si fallan... bueno, me quedo tan callado como una tumba.</strong> —Se aclara la garganta antes de recitar—: <em>"Nazco lejos, donde el calor nunca descansa. Mis alas guardan un color que la envidia envidiaría, y mi toque, aunque breve, no perdona. ¿Quién soy?"</em></span>',
+        },
+
+        "mariposa de jade": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "acertijos de rouge",
+          "cont": '<span>Rouge asiente, casi sorprendido—: <strong>Vaya, sí que hicieron la tarea</strong> —dice, y empieza a hablar con más confianza: la Mariposa de Jade, Papilio Mortifera, viene de las selvas húmedas del sudeste asiático, entre Birmania y Tailandia. Alas verdes iridiscentes con motas moradas, fácil de confundir con una inofensiva si uno no sabe lo que busca. Su veneno se libera en forma de polvo al batir las alas cuando se siente amenazada.<br><br>Satisfecho con la respuesta, propone otro acertijo—: <em>"Se compra, se vende, se esconde, se calla. El que la practica nunca firma papeles, y la ley la persigue sin descanso. ¿Qué es?"</em></span>',
+        },
+
+        "contrabando": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "mariposa de jade",
+          "cont": '<span>Rouge suelta una carcajada al escuchar la respuesta—: <strong>Bingo. Y no, antes de que pregunten: yo, jamás</strong> —dice, sarcástico—. <strong>Todo lo que digan de mí es mentira</strong> —agrega, con una sonrisa que no confirma ni desmiente nada. Aun así, sigue con el juego—: <em>"Hay una línea que la ley traza, pero no siempre en el lugar que uno cree. Se puede tener sin comprar, guardar sin vender, y aun así dormir tranquilo. ¿Cómo se llama esa línea?"</em></span>',
+        },
+
+        "vacío legal": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "contrabando",
+          "cont": '<span>Rouge asiente, casi orgulloso de que hayan seguido el hilo—: <strong>Exacto. Un vacío legal</strong> —dice. La ley prohíbe mantener un criadero ilegal que conserve viva a la mariposa con fines de venta o distribución. Pero no dice nada sobre una colonia que haya crecido por su cuenta, en su hábitat natural.<br><br>Con una sonrisa cómplice, hace una última pregunta—: <em>"Nadie la sembró, nadie la vendió, y sin embargo está aquí, en un lugar que no debería tener este clima. ¿Dónde creen que la encontrarían?"</em></span>',
+        },
+
+        "tarea de rouge": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "vacío legal",
+          "cont": '<span>Antes de moverse, Rouge se detiene en seco y frunce el ceño hacia el corral vecino—: <strong>Genial. Justo ahora.</strong> —masculla. Una camada de catorce escarbatos se escapó de su recinto y anda desperdigando tierra y objetos brillantes por todos lados; se suponía que él debía asegurarlos antes de que terminara su turno—: <strong>Si me van a hacer perder el tiempo, al menos ayúdenme con esto mientras seguimos hablando.</strong> —dice, señalando hacia la conmoción.<br><br>Para continuar, deberán reunir a los catorce escarbatos y devolverlos a su recinto. Una vez que terminen, avisen a la administración para que un miembro del staff realice el masteo correspondiente.</span>',
+        },
+
+        "bioma selvático de la reserva": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "tarea de rouge",
+          "cont": '<span>Con los escarbatos de vuelta en su recinto, Rouge sacude la tierra de sus manos y por fin cumple lo prometido—: <strong>Vengan, se las muestro</strong> —dice, guiándolos hacia un sector apartado de la reserva. Un domo climático recrea artificialmente la humedad y el calor de una selva tropical: enredaderas gruesas cuelgan del techo de cristal, el aire es denso y cálido, y el sonido de insectos y aves exóticas se mezcla con el goteo constante de la vegetación. Nada en el exterior de la reserva sugiere que, detrás de esa puerta, se esconde un pedazo de selva del sudeste asiático.</span>',
+        },
+
+        "colonia de mariposas": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "bioma selvático de la reserva",
+          "cont": '<span>Rouge silba dos veces, breve y agudo. Dentro de un espacio protegido por una barrera casi invisible, decenas de mariposas de jade revolotean en libertad, sus alas verdes destellando entre la vegetación como esquirlas de cristal. Es, a la vez, hermoso y letal.</span>',
+        },
+
+        "preguntar hace cuánto están las mariposas allí": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "colonia de mariposas",
+          "cont": '<span>Rouge cuenta que, tiempo atrás, encontró una larva y la identificó como una mariposa de jade. La guardó en ese espacio y la protegió para que no lastimara a nadie ni fuera lastimada. Solo debe informar sobre las criaturas que trata oficialmente, no sobre lo que llega por su cuenta—: la mariposa creció allí de forma natural y, con el tiempo, se reprodujo.</span>',
+        },
+
+        "reproducción de las mariposas": {
+          "visible": { "attr": { "val": "min" }, "know": { "ccm": "10" }, "job": "invalid", "name": "invalid", }, "place": "colonia de mariposas",
+          "cont": '<span>Si se pregunta cómo se reprodujo estando sola, Rouge responde que seguramente llegó otra en algún momento. Lleva unos meses viviendo en libertad, y asegura que todas las criaturas del lugar están a salvo.</span>',
+        },
+
+        "preguntar si alguien compró o se llevó una mariposa o su veneno": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "reproducción de las mariposas",
+          "cont": '<span>Por primera vez, Rouge responde sin rodeos—: <strong>Siempre hay uno o dos.</strong> —dice, encogiéndose de hombros—. <strong>Gente que se cree más lista que el resto y prueba suerte.</strong> —La mayoría ni siquiera lo intenta en serio, y se van con las manos vacías.<br><br>Se queda pensando un momento, y su expresión cambia—: <strong>Aunque, ahora que lo dicen...</strong> —hace una pausa—. <strong>Hace un tiempo vi a una mujer escabullirse de acá, apurada, como si no quisiera que la vieran.</strong> —admite—. <strong>No le di importancia entonces, pero fue el mismo día que Morgana vino a visitar a la señora Moody.</strong></span>',
+        },
+      },
+
+      "actions": {
+        "vocatus arcanus": {
+          "leve": '0 escarbatos responden al llamado.',
+          "moderado": '2 escarbatos responden al llamado y se acercan.',
+          "exitoso": '4 escarbatos responden al llamado y se acercan.',
+          "critico": '6 escarbatos responden al llamado de inmediato y se acercan sin oponer resistencia.',
+        },
+
+        "laqueus vivens": {
+          "leve": '0 escarbatos quedan atrapados.',
+          "moderado": '1 escarbatos queda atrapado; el resto se dispersa.',
+          "exitoso": '4 escarbatos quedan atrapados sin heridas y son devueltos a su recinto.',
+          "critico": '6 escarbatos quedan atrapados sin heridas y son devueltos a su recinto.',
+        },
+
+        "revelio": {
+          "leve": 'No se detecta ningún rastro de magia adicional en la zona.',
+          "moderado": 'Se detecta un rastro de magia residual cerca de la salida trasera de la reserva, sin poder determinar su antigüedad.',
+          "exitoso": 'Se detecta un rastro de magia residual de aproximadamente una semana cerca de la salida trasera, consistente con un traslado apresurado.',
+          "critico": 'Se detecta el rastro completo: magia residual de una semana de antigüedad que conecta la colonia de mariposas con la salida trasera de la reserva, sin desvíos.',
+        },
+
+        "legeremens": {
+          "leve": 'No se logra acceder a ningún recuerdo relevante de Rouge sobre la mujer que menciona.',
+          "moderado": 'Se percibe una imagen borrosa: una figura moviéndose deprisa entre la vegetación, sin distinguir rasgos.',
+          "exitoso": 'Se percibe con más claridad: una mujer de capa oscura y cabello recogido, que mira hacia atrás antes de desaparecer tras la garita.',
+          "critico": 'Además de la imagen anterior, se percibe un detalle que Rouge nunca mencionó en voz alta: la mujer llevaba puesto un guante de piel de dragón, poco común fuera de un laboratorio de pociones o un puesto de trabajo especializado.',
+        },
+
+        "indago": {
+          "leve": 'No se logra sintonizar con la esencia de las mariposas de la colonia.',
+          "moderado": 'Se percibe una colonia estable, sin señales de estrés o manipulación reciente.',
+          "exitoso": 'Se confirma que la colonia lleva varios meses asentada en el lugar, consistente con el relato de Rouge.',
+          "critico": 'Además de confirmar la antigüedad de la colonia, se percibe que al menos un ejemplar fue manipulado o extraído recientemente: alguien tuvo contacto directo con una de las mariposas hace poco tiempo.',
+        },
+      },
     },
     // fin the price of silence
 

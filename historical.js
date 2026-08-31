@@ -6,7 +6,7 @@ const _historical = {
     "tag": ['edwin', 'morgana', 'sirius', 'capitulo 0'],
     "personajes": ['/u78', '/u8'],
     "interrogado": null,
-    "resumen": '', // TODO: pendiente
+    "resumen": 'La investigación giró en torno a la autopsia conjunta de tres figuras del mundo mágico, halladas muertas la misma madrugada en circunstancias que apuntaban a un asesinato múltiple cuidadosamente orquestado. El examen reveló que uno de los cuerpos presentaba daños físicos externos —costillas astilladas y pulmones colapsados— provocados por un hechizo de impacto; otro mostraba signos de estrangulamiento violento con fracturas en el cuello, descartándose que se tratara de una maldición de fuego al no hallarse quemaduras, lo que apuntó en cambio a una agresión física directa y personal; y el tercero, sin heridas visibles, había muerto envenenado por una toxina animal desconocida que le provocó necrosis generalizada y un colapso cardiovascular. Un análisis de sangre confirmó que una de las víctimas era de sangre pura y las otras dos mestizas. Entre las pertenencias de una de ellas se halló una pulsera infantil grabada con un nombre, que una visión mágica reveló perteneciente a otra niña que jugaba junto a la víctima —entonces también una niña—, sin que se lograra determinar su identidad. La comunicación con los espíritus de los fallecidos permitió recoger fragmentos de sus últimos instantes: palabras de cariño hacia unos hijos, una advertencia susurrada al nigromante sobre el velo entre la vida y la muerte, y un pedido de ser enterrada bajo la luna llena. Pese a confirmarse que los tres murieron exactamente a la misma hora, la identidad del responsable y el significado de varias de las pistas quedaron sin resolver al cierre de la jornada.',
   },
   "353": {
     "tema": 'Traces In Black',
@@ -15,7 +15,7 @@ const _historical = {
     "tag": [], // TODO: sin match vigente en bwdata.js (slug reciclado)
     "personajes": ['/u9', '/u8', '/u17', '/u50'],
     "interrogado": null,
-    "resumen": '', // TODO: pendiente
+    "resumen": 'La investigación tuvo lugar en el castillo ancestral de la familia del fallecido, en busca de pistas sobre su asesinato. En el estudio se confirmó que el cuerpo había sido hallado en un sillón, inconsciente, sin la varita que solía llevar siempre consigo, y se detectó que varios libros habían sido retirados recientemente de la pequeña biblioteca privada, junto con runas de protección recién talladas en el mobiliario. En las cocinas, las botellas de licor permanecían selladas y sin usar. En el invernadero se descubrió una sección privada, accesible solo para la familia, donde faltaba una planta de una de las macetas: un elfo doméstico reveló que el propio dueño de la casa había ordenado envolverla para regalarla poco antes de morir, y que luego le borraron la memoria para que no pudiera decir de qué especie se trataba. En la sala del árbol genealógico se constató que tres familiares habían sido borrados del linaje por distintos motivos. En la biblioteca se halló, oculto tras un antiguo reloj, un pasadizo con una chimenea de red flu no registrada. Además, se descubrió que una anciana pariente, dada por muerta hacía décadas, permanecía encerrada y oculta en una de las torres del castillo, sumida en un evidente estado de demencia senil. La investigación cerró sin identificar al responsable, aunque las pistas apuntaban a que el culpable conocía bien la propiedad y contaba con el permiso o la confianza del dueño para entrar en ella.',
   },
   "354": {
     "tema": 'Haunted Dwelling',
@@ -24,7 +24,7 @@ const _historical = {
     "tag": [], // TODO: sin match vigente en bwdata.js (slug reciclado)
     "personajes": ['/u50', '/u55'],
     "interrogado": null,
-    "resumen": '', // TODO: pendiente
+    "resumen": 'La investigación tuvo lugar en la vivienda de un antiguo jefe del Departamento de Seguridad Mágica, asesinado junto a otros dos candidatos, en busca de pistas sobre el responsable de los crímenes. En el estudio se encontró un sobre de contenido personal sin relevancia para el caso y un cuadro de una constelación al que le faltaban dos estrellas, borradas recientemente con magia. En el dormitorio apareció un antiguo escudo, regalo de una familiar, que al ser examinado con un hechizo reveló un cuaderno escondido en su interior. Dentro solo había crucigramas de un periódico, con seis páginas marcadas cuyas respuestas resultaron ser constelaciones; al unir sus iniciales se formó una palabra que confirmó que ese cuaderno era una copia falsa, dejada como señuelo. Entre esas mismas pistas surgió el nombre de la familiar que había regalado el escudo, una antigua profesora de Hogwarts, señalada como quien podría conservar el cuaderno auténtico. Pese a revisar la casa por completo, la varita del fallecido nunca fue hallada, y la investigación concluyó sin dar con el cuaderno original, dejando a esa familiar como el siguiente rastro a seguir.',
   },
   "365": {
     "tema": 'Death In A Teacup',
@@ -33,7 +33,7 @@ const _historical = {
     "tag": [], // TODO: sin match vigente en bwdata.js (slug reciclado)
     "personajes": [],
     "interrogado": null,
-    "resumen": '', // TODO: pendiente
+    "resumen": 'La misión se desarrolló en los laboratorios de San Mungo, donde se analizaron las bebidas halladas junto a tres fallecidos, sin que hubiera indicios previos de que hubiesen sido envenenados. Al probarlas, quienes lo hicieron sintieron un leve hormigueo y entumecimiento en los dedos, señal de que algo no estaba del todo bien. Mediante un proceso alquímico de separación de componentes se descubrió que las tres muestras, además de té y whiskey, contenían restos de una planta desconocida. Una poción de regeneración vegetal permitió hacer crecer una hoja completa a partir de esos restos: una hoja dura, de color ámbar y forma de corazón, que exuda una resina viscosa y anaranjada, con el interior de un rojo intenso. Quedó así confirmado que las tres bebidas estaban contaminadas con una planta poco común, cuya identidad y propiedades exactas quedaron pendientes de una investigación posterior.',
   },
   "522": {
     "tema": 'Botanical Market',
@@ -42,7 +42,7 @@ const _historical = {
     "tag": ['morgana', 'capitulo 0'],
     "personajes": ['/u108', '/u97'],
     "interrogado": null,
-    "resumen": '', // TODO: pendiente
+    "resumen": 'La investigación buscaba identificar una planta hallada entre los restos de té consumido por las víctimas de una serie de muertes. Tras revisar diversos libros de herbología, se descartaron otras plantas de propiedades similares y se confirmó que se trataba de una planta ígnea de cultivo altamente regulado, cuya savia se destila para el whiskey de fuego y para pociones vigorizantes, pero cuyo uso excesivo, o incluso la sola exposición a su aroma, puede provocar fiebre, alucinaciones y quemaduras internas. Diversos recortes de noticias revelaron antecedentes de brotes alucinógenos vinculados a la planta, incluidas muertes en una destilería y un incidente que casi expone al mundo mágico ante los muggles, lo que había llevado a vetar su cultivo en Europa y Asia años atrás. Con esta identificación, la pista apuntó hacia las destilerías de whiskey de fuego, las únicas autorizadas a manipular dicha planta, y la investigación fue entregada a los aurores para que solicitaran una orden e indagaran en esos lugares, quedando abierta la duda de si las víctimas fueron asesinadas con la planta o si ellas mismas provocaron su propia muerte bajo sus efectos.',
   },
   "523": {
     "tema": 'Commander\'s Orders',
@@ -51,7 +51,7 @@ const _historical = {
     "tag": ['edwin', 'capitulo 0'],
     "personajes": ['/u55', '/u50'],
     "interrogado": null,
-    "resumen": '', // TODO: pendiente
+    "resumen": 'La investigación consistió en revisar un archivo de viejos recortes de prensa para reconstruir la vida de la tía de la víctima, una destacada aurora que llegó a ser jefa del Departamento de Seguridad Mágica y más tarde profesora en Hogwarts. A través de las noticias, los investigadores repasaron su nacimiento, su ascenso dentro de la Oficina de Aurores, su retiro forzado tras enfrentarse a un grupo de inferi, su etapa como docente y, finalmente, su muerte, tras la cual heredó todos sus bienes —incluido el observatorio de su familia materna en Glasgow— a su sobrino, la víctima del caso que investigaban. El repaso reveló además que ninguna de las dos varitas, ni la de la aurora fallecida ni la de su sobrino, fue hallada entre sus pertenencias, y que la primera podría haber quedado oculta dentro de su propio bastón. Con esa pista, la investigación concluyó señalando el observatorio de Glasgow como el siguiente lugar a inspeccionar en busca de las varitas perdidas y de nuevas respuestas.',
   },
   "559": {
     "tema": 'Potions For All The Afflections',
@@ -60,7 +60,7 @@ const _historical = {
     "tag": [], // TODO: sin match vigente en bwdata.js (slug reciclado)
     "personajes": ['/u63', '/u38', '/u118', '/u119'],
     "interrogado": null,
-    "resumen": '', // TODO: pendiente
+    "resumen": 'La misión narra la infiltración de un grupo de estudiantes en una fiesta clandestina de Halloween montada en un edificio abandonado, a la que solo se podía entrar con una contraseña o bebiendo un trago desconocido servido en la puerta. Una vez dentro, empezaron a notar que las bebidas del lugar escondían algo más que alcohol, pues provocaban alucinaciones cada vez más intensas cuanto más se bebía. Por la decoración y ambientación reconocieron que habían sido trasladados a un pub en Irlanda, y advirtieron que la cantante de la banda era hija de una banshee, capaz de sumir a los presentes en un estado de euforia artificial con su voz. La situación se descontroló cuando la banshee lanzó un grito que hizo que todos los presentes tuvieran visiones de seres queridos instándolos a huir antes de ahogarse. En medio del pánico, el grupo se refugió en una despensa trasera y, guiándose por una runa marcada sobre una de las cinco puertas de entrada, logró encontrar la salida correcta y escapar de regreso a Hogsmeade y luego al castillo sin ser descubiertos, aunque todos amanecieron con fuertes resacas y acordaron en silencio no contar lo sucedido.',
   },
   "560": {
     "tema": 'Wounds From The Past',
@@ -69,7 +69,7 @@ const _historical = {
     "tag": [], // TODO: sin match vigente en bwdata.js (slug reciclado)
     "personajes": ['/u50', '/u91', '/u55', '/u78', '/u8'],
     "interrogado": null,
-    "resumen": '', // TODO: pendiente
+    "resumen": 'El grupo debió atravesar un sistema de puertas encantadas que protegía la vivienda de una sanadora fallecida, superando distintas pruebas elementales antes de lograr acceder al interior. Ya dentro, se determinó que el sillón donde había sido hallada muerta carecía de su varita, su arma principal, que nunca apareció en el lugar. Tras un pasadizo oculto se descubrió un sótano con cadenas de refuerzo mágico fijadas a una pared y marcas en el suelo que revelaban que alguien había permanecido allí durante las noches, custodiando o vigilando algo peligroso, retrocediendo repetidamente con su silla como si algo hubiera intentado alcanzarlo. En un escritorio cercano se halló un cuaderno con años de experimentos y notas de pociones propias, junto con frascos de pociones sin identificar que quedaron pendientes de análisis. La incursión concluyó sin resolver del todo el misterio, dejando abierta la incógnita sobre el propósito de esas pociones, pero aportando nuevas pistas para la investigación en curso.',
   },
   "561": {
     "tema": 'Promise In Crimson',
@@ -78,7 +78,7 @@ const _historical = {
     "tag": [], // TODO: sin match vigente en bwdata.js (slug reciclado)
     "personajes": ['/u78', '/u8'],
     "interrogado": null,
-    "resumen": '', // TODO: pendiente
+    "resumen": 'La investigación se desarrolló en el archivo de fallecidos de un hospital mágico, revisando expedientes de defunción relacionados con la familia de una de las candidatas asesinadas. Entre legajos aparentemente ajenos, los investigadores hallaron el certificado de la hermana menor de la víctima, muerta décadas atrás en un supuesto ataque de licántropo, pero la hora de fallecimiento registrada en el certificado no coincidía con la del informe de ingreso, indicio de que algo había sido ocultado. Los demás expedientes de la misma carpeta pertenecían a personas sin relación con el caso, unidas solo por compartir las iniciales de la fallecida, y todo apuntaba a que había sido la propia candidata, empleada de ese archivo, quien los fue reuniendo con los años como parte de una investigación personal sobre la muerte de su hermana. Recortes de prensa firmados siempre por la misma periodista revelaron que el padre de ambas había sido detenido por impedir el auxilio médico a la niña y que, además, abastecía de whiskey de fuego a los tres candidatos ya fallecidos; tiempo después, los padres aparecieron muertos en su vivienda tras un incendio que los investigadores consideraron provocado para encubrir algo más. Al cierre de la pesquisa quedó confirmado que la muerte de la hermana fue sospechosa, quedando pendiente determinar qué ocultaba realmente la familia y si su historia se conecta con los asesinatos de los candidatos.',
   },
   "562": {
     "tema": 'The Beryl Ash Trail',
@@ -87,7 +87,7 @@ const _historical = {
     "tag": [], // TODO: sin match vigente en bwdata.js (slug reciclado)
     "personajes": ['/u8', '/u17'],
     "interrogado": null,
-    "resumen": '', // TODO: pendiente
+    "resumen": 'La investigación consistió en rastrear, a través de los registros del Departamento de Transporte Mágico, los viajes realizados por una chimenea oculta vinculada a la residencia de un mago recientemente asesinado. Los registros revelaron que, en los días previos a su muerte, el sospechoso se había reunido en secreto y a horas inusuales con la máxima autoridad del Ministerio y, por separado, con dos rivales suyos en una contienda de poder, llegando los tres a coincidir bajo su mismo techo en una ocasión. También constaba que, pocos días antes, había salido de su vivienda para entregar en un destino desconocido una maceta con una planta no identificada, viaje que, como otro de los registros consultados, permanecía bajo clasificación oficial y resistió todo intento de revelarlo mediante hechizos. Con esta información quedó establecido que la autoridad ministerial y los otros implicados mantenían tratos ocultos con la víctima cuyo motivo aún se desconoce, restando interrogarla para esclarecerlo.',
   },
   "563": {
     "tema": 'Underground Roots',
@@ -96,7 +96,7 @@ const _historical = {
     "tag": [], // TODO: sin match vigente en bwdata.js (slug reciclado)
     "personajes": ['/u9', '/u8'],
     "interrogado": null,
-    "resumen": '', // TODO: pendiente
+    "resumen": 'La investigación se llevó a cabo en un invernadero controlado de una reserva natural, donde los presentes trabajaron sobre una planta arrancada de raíz y hallada en relación con el asesinato de uno de los candidatos. La maceta indicaba que se trataba de un ejemplar de tamaño mediano que requería cuidados frecuentes, y los huecos en la tierra, junto con el uso de guantes gruesos para su extracción, sugerían que era una planta tóxica. Mediante una serie de hechizos de herbología orientados a restaurar el sol, la humedad, el riego y los nutrientes del suelo, lograron regenerar la planta hasta devolverla a su estado completo, revelando que se trataba de acónito. Con ello quedó resuelto uno de los misterios en torno al caso, aunque permaneció sin aclarar si esa planta había sido el medio empleado para asesinar a los candidatos.',
   },
   "643": {
     "tema": 'The Withered Pot',
@@ -105,7 +105,7 @@ const _historical = {
     "tag": [], // TODO: sin match vigente en bwdata.js (slug reciclado)
     "personajes": ['/u9', '/u17'],
     "interrogado": null,
-    "resumen": '', // TODO: pendiente
+    "resumen": 'La investigación llevó a los descendientes de un patriarca recientemente fallecido hasta un estudio secreto oculto en su castillo ancestral, protegido por runas y un intrincado acertijo de aritmancia. Tras superar las defensas, hallaron una rama seca de acónito que señalaba un compartimento con tres expedientes: los de un profesor de herbología, una sanadora y un supuesto vidente. Los documentos revelaban que el patriarca había reunido información comprometedora sobre cada uno —un hijo ilegítimo, un estatus de sangre oculto y una ascendencia pura escondida bajo un cambio de apellido— para forzarlos a firmar contratos a cambio de dinero, la donación de un invernadero familiar y una recomendación para un ascenso en un hospital. Los contratos figuraban cerrados sin que constara la entrega de las recompensas prometidas, dejando abierta la duda de si el patriarca pretendía cumplir su palabra o si el chantaje nunca tuvo intención de saldarse. Los papeles hallados quedaron en poder de los investigadores, con libertad para decidir qué información compartir con las autoridades.',
   },
   "644": {
     "tema": 'Faded Lineage',
@@ -114,7 +114,7 @@ const _historical = {
     "tag": [], // TODO: sin match vigente en bwdata.js (slug reciclado)
     "personajes": ['/u9', '/u17'],
     "interrogado": null,
-    "resumen": '', // TODO: pendiente
+    "resumen": 'La investigación surgió del interés del Ministerio en explorar la viabilidad de la adopción de sangre, buscando determinar si era posible transmitir habilidades mágicas innatas -como la transformación en distintos animales o la comunicación con bestias- a través de un vínculo familiar adoptivo en lugar de la herencia biológica. Un pequeño equipo revisó archivos y libros antiguos sobre razas y habilidades hereditarias, rastreando el origen de dones hoy considerados perdidos o poco comunes. El análisis permitió confirmar que dichas habilidades, antes transmitidas por sangre y mediante rituales, fueron decayendo a medida que el uso de varitas se generalizó, siendo sustituidas progresivamente por hechizos capaces de replicar sus efectos. Con esta primera fase de investigación documental concluida, quedó abierto el camino para una siguiente etapa centrada en hallar sujetos de prueba y determinar si la sangre seguía siendo un factor relevante en la transmisión de estas capacidades.',
   },
   "645": {
     "tema": 'Operation Birth Ledger',
@@ -123,7 +123,7 @@ const _historical = {
     "tag": [], // TODO: sin match vigente en bwdata.js (slug reciclado)
     "personajes": ['/u55', '/u91'],
     "interrogado": null,
-    "resumen": '', // TODO: pendiente
+    "resumen": 'La investigación giró en torno a la búsqueda de un familiar perdido, presuntamente nacido y ocultado por la propia familia del investigador. Tras conseguir acceso autorizado a los archivos de nacimiento de San Mungo, revisaron expedientes médicos y notas personales que permitieron acotar un rango de fechas probable para el nacimiento, basándose en registros de atención médica prenatal y diarios familiares. Sin embargo, ninguno de los certificados de nacimiento hallados coincidía con el perfil buscado, por lo que concluyeron que el registro no se había realizado en ese hospital. La pesquisa no bastó para revelar la identidad del joven, pero permitió trazar un nuevo plan: continuar la búsqueda entre los registros de ingreso a Hogwarts correspondientes al año en que, según lo deducido, debería haber comenzado sus estudios.',
   },
   "646": {
     "tema": 'Golden Pathways',
@@ -132,7 +132,7 @@ const _historical = {
     "tag": [], // TODO: sin match vigente en bwdata.js (slug reciclado)
     "personajes": ['/u55', '/u8', '/u1_wilhelmina'],
     "interrogado": 'Wilhelmina Tuft',
-    "resumen": '', // TODO: pendiente
+    "resumen": 'El interrogatorio giró en torno a las reuniones que la máxima autoridad del Ministerio mantuvo, desde comienzos de año, con tres altos funcionarios que después aparecieron asesinados. La ministra explicó que, al tener acceso a profecías reservadas, había decidido prepararlos como posibles sucesores ante la existencia de tres profecías próximas a cumplirse —dos relacionadas con magos tenebrosos y una que pondría a prueba la magia— y que por ello les asignó un plan de contingencia dividido en seguridad, sanación y diplomacia. También reveló que las profecías se vacían y oscurecen en cuanto se cumplen, y que dos días antes había recibido en su despacho una profecía enviada por uno de los fallecidos junto con una nota que advertía que el desenlace estaba más cerca de lo que creían; para cuando llegó a sus manos, quien la envió ya había muerto, por lo que su contenido ya se había cumplido. Con ayuda de un hechizo de memoria, la traductora presente logró extraer solo un fragmento incompleto de la profecía, referido a una estrella que se inclina hacia la sombra y a una ola que dejaría su huella como estigma y condena, sin que se pudiera recuperar el resto. La ministra negó conocer el contenido completo y remitió a los investigadores a otras vías para completarlo, dejando la investigación abierta sobre quién estaba al tanto de la profecía y pudo haber actuado en consecuencia.',
   },
   "658": {
     "tema": 'Ryu\'s Breath',
@@ -141,7 +141,7 @@ const _historical = {
     "tag": ['sirius', 'capitulo 0'],
     "personajes": ['/u8', '/u78'],
     "interrogado": null,
-    "resumen": '', // TODO: pendiente
+    "resumen": 'El análisis se centró en la toxina animal hallada en el cuerpo de la víctima durante la autopsia, con el fin de identificar su origen y su papel en la muerte. Al fraccionar la sustancia se distinguieron dos componentes: uno vegetal, correspondiente a la belladona, y otro animal, extremadamente volátil, que debió contenerse de inmediato para evitar que se dispersara por la sala. Este segundo componente fue identificado como el veneno de una criatura originaria de las selvas húmedas del sudeste asiático que en su etapa larvaria se alimenta de savia de plantas venenosas como la belladona o el acónito, acumulando esas toxinas en su organismo y liberándolas en forma de polvo cuando se siente amenazada. Se confirmó que, al ser inhalado o entrar en contacto con fluidos corporales, ese veneno provoca una descomposición acelerada de los órganos y un colapso multiorgánico irreversible en apenas quince a veinte minutos, con mareos, pérdida de visión, espasmos musculares y hemorragias internas como síntomas. Además, quedó establecido que la captura, cría o comercio de este animal está penado con Azkaban desde hace siglos, lo que sugiere que quien preparó el veneno debió recurrir a medios ilegales para conseguirlo.',
   },
   "659": {
     "tema": 'Ember Pass',
@@ -150,7 +150,7 @@ const _historical = {
     "tag": ['sirius', 'capitulo 0'],
     "personajes": ['/u8', '/u17'],
     "interrogado": null,
-    "resumen": '', // TODO: pendiente
+    "resumen": 'La investigación se centró en el Requisario del Ministerio de Magia, donde se solicitó acceso a archivos clasificados relacionados con la red flu de un patriarca fallecido. Allí se obtuvieron volúmenes que explicaban el funcionamiento de las chimeneas privadas: quiénes pueden ser autorizados a usarlas, cómo se conceden o revocan permisos temporales y permanentes, qué ocurre con la titularidad cuando muere el propietario, y cómo se registran los viajes no autorizados o los magos extraviados en la red. También se consultó el sistema de clasificación de información reservada del Ministerio y, mediante una orden específica, se logró desclasificar el registro de un viaje oculto del patriarca semanas antes de morir: se había trasladado por chimenea hasta una vivienda privada, llevando consigo una planta no declarada y sin emisión mágica. El registro de alta de esa chimenea permitió identificar a la propietaria del lugar, abriendo una nueva pista para continuar la investigación.',
   },
   "660": {
     "tema": 'The Foretold Story',
@@ -159,7 +159,7 @@ const _historical = {
     "tag": ['sirius', 'capitulo 0'],
     "personajes": ['/u50', '/u13'],
     "interrogado": 'Úrsula Flint',
-    "resumen": '', // TODO: pendiente
+    "resumen": 'El interrogatorio, de carácter narrativo, se desarrolló en el castillo ancestral de una antigua familia de sangre pura, donde se buscó obtener información de una anciana viuda —con la mente deteriorada por la edad— sobre la muerte de un descendiente de la casa, en el marco de la investigación por el fallecimiento de varios candidatos a un alto cargo del Ministerio. Entre recuerdos confusos y momentos de lucidez, la mujer relató que una vidente allegada a la familia, movida por los celos, calló durante años una advertencia que solo reveló demasiado tarde, y que la madre de esa vidente había pronunciado una maldición sobre el nombre de la familia, condenando a quien lo llevara a morir a manos de su propia sangre. Contó además que el patriarca de la casa, tras dar con la verdad de aquella profecía años atrás, descubrió que un familiar cercano —muerto de niño tras confirmarse que carecía de magia— había sido asesinado a sangre fría por su propio padre, un acto que en su momento se consideró correcto pero que lo destruyó para siempre. Antes de poder profundizar más, la anciana volvió a sumirse en la confusión, aunque los interrogadores lograron extraer información considerada valiosa para el caso.',
   },
   "661": {
     "tema": 'Full Of Emptiness',
@@ -177,7 +177,7 @@ const _historical = {
     "tag": ['morgana', 'capitulo 0'],
     "personajes": ['/u8', '/u38', '/u130'],
     "interrogado": 'Iarlaith C. Sayre',
-    "resumen": '', // TODO: pendiente
+    "resumen": 'El interrogatorio, llevado a cabo como rol narrativo sin tarjetas, buscaba esclarecer si los registros de San Mungo vinculados a la muerte de la hermana de la investigada habían sido manipulados. El joven interrogado, nieto de una antigua sanadora, relató bajo presión que su abuela había cedido ante el soborno y las amenazas de un padre poderoso, dejando morir oficialmente a la paciente pese a que su estado era salvable, y que después ayudó a ocultarla con vida entregándola en secreto a su hermana. Sostuvo también que su abuela nunca mostró remordimiento y que desconocía qué había sido de la paciente después de aquello. Al cierre quedó constancia de que se había obtenido la información buscada, aunque su veracidad quedó pendiente de contrastar con el resto de los interrogatorios de la investigación.',
   },
   "663": {
     "tema": 'Distorted Memories',
@@ -186,7 +186,7 @@ const _historical = {
     "tag": ['morgana', 'capitulo 0'],
     "personajes": ['/u8', '/u119', '/u108'],
     "interrogado": 'Amaya Flamel',
-    "resumen": '', // TODO: pendiente
+    "resumen": 'El interrogatorio partió de la sospecha de que ciertos informes médicos de una investigación en curso habían sido manipulados, y de que la firma de la mujer interrogada figuraba entre las de quienes los habían suscrito años atrás. Al no poder localizarla, dos aurores citaron en Hogwarts a su hijo y a su sobrino para intentar reconstruir su paradero y su posible implicación. Durante un intercambio tenso, los jóvenes relataron que, en la época de los hechos, la mujer había cambiado de área de trabajo y realizado donaciones importantes a una residencia y a una biblioteca que decía provenir de un familiar adinerado, versión que su entorno siempre puso en duda. La conversación derivó también hacia otro asunto familiar no resuelto, la muerte de un pariente cercano, revelando pistas sobre un cuaderno y una varita extraviados que apuntaban a un observatorio como siguiente lugar a investigar. Al cierre, los aurores dieron por obtenida la información que buscaban, aunque quedó pendiente confirmar si lo declarado era honesto o si aún ocultaba parte de la verdad.',
   },
   "664": {
     "tema": 'Frozen Sunflowers',
@@ -195,7 +195,7 @@ const _historical = {
     "tag": ['morgana', 'capitulo 2'],
     "personajes": ['/u55', '/u8', '/u78'],
     "interrogado": null,
-    "resumen": '', // TODO: pendiente
+    "resumen": 'La investigación se centró en un cementerio mágico, donde descansaban los miembros de una familia bajo sospecha de haber encubierto una muerte falsa. Al abrir las tumbas correspondientes, los investigadores hallaron que todas estaban vacías: la de la hija menor no contenía resto alguno, lo que confirmó que seguía con vida, mientras que las de sus padres, también vacías, correspondían efectivamente a los cuerpos reanimados que debieron enfrentar y derrotar antes de poder revisarlas. Durante la exploración, el espíritu de una exfuncionaria del Departamento de Seguridad Mágica se dejó ver y advirtió, de forma críptica, que ya era demasiado tarde, justo antes de que se escuchara una explosión proveniente de la tumba de otra familia, destruida deliberadamente. Al acudir al lugar, alcanzaron a ver de forma fugaz a una mujer con capa oscura que, tras llevarse algo consigo, se desapareció, dejando además inconsciente al guardia del cementerio. La misión concluyó confirmando que la joven de la familia investigada seguía con vida, y dejó nuevas pistas sobre un posible crimen y documentación adulterada vinculada a personas al margen de la ley.',
   },
   "665": {
     "tema": 'Unveiling The Unseen',
@@ -204,7 +204,7 @@ const _historical = {
     "tag": ['edwin', 'capitulo 0'],
     "personajes": ['/u50', '/u55', '/u130', '/u8'],
     "interrogado": null,
-    "resumen": '', // TODO: pendiente
+    "resumen": 'La investigación llevó al grupo hasta el observatorio privado de un auror recientemente asesinado, un santuario familiar resguardado tras un acertijo astronómico que solo alguien cercano a la familia podía resolver. Dentro, el retrato de una antepasada los guio hacia un sistema de mensajes cifrados que el fallecido había grabado en las paredes a lo largo de los años, ocultos tras una maqueta del sistema solar cuya posición planetaria revelaba un año distinto cada vez. Tras descifrar numerosas anotaciones —en su mayoría informes rutinarios de su carrera como auror—, llegaron a las correspondientes al año de su muerte: un mensaje personal dirigido a sus hijos en el que confesaba saber de antemano que sería asesinado esa misma noche, se atribuía la responsabilidad de su propio final y pedía que su muerte fuera registrada como un accidente, junto con una advertencia oculta para mantener a su familia al margen del caso, advertencia que el grupo decidió no respetar. Un sacrificio de sangre reveló un último mensaje que señalaba un nuevo punto de partida para continuar la investigación.',
   },
   "752": {
     "tema": 'The Lone Bellow',
@@ -213,7 +213,7 @@ const _historical = {
     "tag": [], // TODO: sin match vigente en bwdata.js (slug reciclado)
     "personajes": ['/u127', '/u12', '/u119', '/u63'],
     "interrogado": null,
-    "resumen": '', // TODO: pendiente
+    "resumen": 'La misión llevó a un grupo de jóvenes a rastrear a una familia de nifflers que había saqueado los objetos metálicos de una vivienda abandonada, siguiendo las huellas dejadas en la nieve hasta un bosque cercano. Tras curar y calmar a una de las criaturas heridas, esta los condujo hasta la madriguera principal, donde encontraron al resto de los nifflers muertos junto al resto de lo robado. Los objetos sustraídos fueron recuperados y los animales fallecidos recibieron sepultura, mientras que el único superviviente quedó bajo el cuidado de los participantes para no permanecer solo en el bosque.',
   },
   "753": {
     "tema": 'Enrolled Origins',
@@ -222,7 +222,7 @@ const _historical = {
     "tag": [], // TODO: sin match vigente en bwdata.js (slug reciclado)
     "personajes": ['/u55', '/u110', '/u91'],
     "interrogado": null,
-    "resumen": '', // TODO: pendiente
+    "resumen": 'La investigación se llevó a cabo en el archivo de estudiantes de un colegio de magia, durante las vacaciones de invierno, con el objetivo de dar con el paradero de un familiar perdido de una de las integrantes del grupo, entregado en su momento a una familia muggle. Revisando los registros de ingreso correspondientes al año de nacimiento estimado, los investigadores hallaron un error en el listado: un alumno registrado como mestizo era, según un profesor que lo conocía, en realidad hijo de muggles. Al examinar su expediente encontraron documentación inusual, entre ella una prueba de paternidad de origen muggle con alta probabilidad de coincidencia respecto al padre pero sin muestra materna, y una autorización legal firmada por el abuelo del menor en calidad de tutor, lo que sugería la ausencia del padre. Con estos elementos, el grupo concluyó que ese alumno era, con gran probabilidad, el familiar perdido que buscaban, aunque quedó pendiente confirmarlo mediante una conversación directa con él o una prueba de sangre.',
   },
   "833": {
     "tema": 'Ancestral Code',
@@ -231,7 +231,7 @@ const _historical = {
     "tag": [], // TODO: sin match vigente en bwdata.js (slug reciclado)
     "personajes": ['/u97', '/u9'],
     "interrogado": null,
-    "resumen": '', // TODO: pendiente
+    "resumen": 'Se convocó una investigación en el Departamento de Misterios para estudiar la adopción de sangre, comparando muestras genéticas de un sujeto sin habilidades hereditarias mágicas con las de uno que sí las poseía, buscando replicar dichos rasgos. El tema apenas llegó a desarrollarse: los participantes se encontraron en la entrada del departamento y se dirigieron juntos hacia la cámara donde se realizarían las pruebas, pero la investigación no llegó a concretarse ni arrojó resultados.',
   },
   "834": {
     "tema": 'Journey Of A Bird',
@@ -240,7 +240,7 @@ const _historical = {
     "tag": [], // TODO: sin match vigente en bwdata.js (slug reciclado)
     "personajes": ['/u55', '/u127', '/u78'],
     "interrogado": 'Damien A. Ashford-Dempsey',
-    "resumen": '', // TODO: pendiente
+    "resumen": 'El interrogatorio se centró en el joven allegado de una investigada fallecida, buscando esclarecer si su tía —dada por muerta hace décadas tras el supuesto ataque de un licántropo— seguía con vida. Un nigromante presente confirmó haber presenciado la apertura de la tumba familiar y no haber hallado rastro alguno de un cadáver, reforzando la sospecha de que la muerte había sido fingida. Tras una defensa inicial hostil y evasiva, el joven terminó por reconocer que su tía en efecto vivía, oculta y dedicada a la cría de cabras en una propiedad rural, y reveló la ubicación aproximada del lugar. Quedó así confirmado que la muerte de la mujer había sido un encubrimiento sostenido durante años por su familia para protegerla de los prejuicios contra los licántropos, abriendo el camino para que las autoridades intentaran localizarla.',
   },
   "836": {
     "tema": 'Muted Magic',
@@ -249,7 +249,7 @@ const _historical = {
     "tag": [], // TODO: sin match vigente en bwdata.js (slug reciclado)
     "personajes": ['/u55', '/u8', '/u91'],
     "interrogado": null,
-    "resumen": '', // TODO: pendiente
+    "resumen": 'La investigación giró en torno a un cuaderno de notas hallado en la vivienda de una sanadora ya fallecida, en el que se documentaba un extenso estudio sobre la licantropía realizado a partir de los datos recabados de una familiar cautiva a la que había hecho pasar por muerta. Entre sus páginas aparecieron cartas de un colega, experto en herbología y astronomía, que era consciente del engaño y había colaborado en secreto durante años: en ellas planteaba que la expresión del gen licántropo respondía a las mareas lunares, debilitándose en luna nueva y alcanzando su punto máximo en luna llena, y recomendaba el uso de lágrimas de mandrágora para preservar la conciencia humana durante la transformación, plata coloidal para reforzar la resistencia al cambio y esencia de díctamo para proteger el cerebro, pese al riesgo mortal de recolectar el primero de esos ingredientes. También quedó confirmado que los licántropos necesitan dosis elevadas de hierro tras transformarse para no canibalizar su propio cuerpo, y que los baños de sal ayudan a aliviar los espasmos y la rigidez muscular posteriores. Con esto se cerró esta cadena de investigaciones, dejando como siguiente paso rastrear en el mercado negro el origen de las lágrimas de mandrágora utilizadas.',
   },
   "837": {
     "tema": 'Bottle Of Sorrows',
@@ -258,7 +258,7 @@ const _historical = {
     "tag": [], // TODO: sin match vigente en bwdata.js (slug reciclado)
     "personajes": ['/u134', '/u8', '/u91'],
     "interrogado": null,
-    "resumen": '', // TODO: pendiente
+    "resumen": 'La investigación giró en torno a un elixir de color malva extraído de la vivienda de una pocionista fallecida, analizado en la botica de San Mungo para determinar su composición y su propósito. Los hechizos aplicados revelaron una mezcla de ingredientes tóxicos y curativos —entre ellos veneno de acromántula y hojas de belladona— junto con un componente desconocido, y confirmaron que el brebaje provocaba parálisis y un fuerte bloqueo emocional, efectos corroborados al probarlo sobre un roedor, que terminó muriendo por la dosis excesiva antes de que los investigadores lograran preparar un antídoto eficaz contra un veneno de estructura similar. El vial se vinculó a un experimento clandestino relacionado con la licantropía: se buscaba mantener sedado y anulado emocionalmente a un licántropo durante la transformación, sin curar la enfermedad en sí. Finalmente se determinó que el ingrediente faltante eran las lágrimas de mandrágora, una sustancia extremadamente escasa y peligrosa de extraer, cuyo origen se remontaba a un episodio del pasado que la creadora de la poción había intentado mantener oculto.',
   },
   "838": {
     "tema": 'Paper Mask',
@@ -267,7 +267,7 @@ const _historical = {
     "tag": [], // TODO: sin match vigente en bwdata.js (slug reciclado)
     "personajes": ['/u55', '/u8', '/u78', '/u91'],
     "interrogado": null,
-    "resumen": '', // TODO: pendiente
+    "resumen": 'La investigación se centró en el cuerpo entregado como el de una de dos gemelas fallecidas, además de los registros clínicos y familiares que pudieron reunirse sobre ambas hermanas. El examen forense arrojó contradicciones entre el estado del cadáver y las circunstancias de la muerte que constaba en los registros, lo que llevó a aplicar diversos hechizos de rastreo e identificación. Estos revelaron que el cuerpo no correspondía a quien se creía, sino que había sido desenterrado y alterado para sustituir al examinado anteriormente, ocultando así un cambio deliberado. Con ello quedó confirmado que la gemela que se daba por fallecida sigue con vida, aunque los motivos detrás del intercambio de cuerpos, las muertes fingidas y su paradero actual permanecen sin esclarecer.',
   },
   "847": {
     "tema": 'The Fortune Of The Three Eyes',
@@ -276,7 +276,7 @@ const _historical = {
     "tag": ['sirius', 'capitulo 0'],
     "personajes": ['/u8', '/u97'],
     "interrogado": 'Theolonius D. Covey',
-    "resumen": '', // TODO: pendiente
+    "resumen": 'El interrogatorio buscó esclarecer la relación entre un alquimista y un candidato fallecido con quien había mantenido un contrato cancelado, así como determinar si guardaba alguna conexión con la profecía asociada a este. El interrogado negó conocerlo o haber tenido trato con él, y explicó su vínculo con la familia de videntes que lo había acogido. Al someterlo a un hechizo de revisión de memoria, el auror a cargo descubrió un vacío de poco más de una hora en sus recuerdos correspondientes al día de la muerte del candidato, que coincidía exactamente con la visita de este a la vivienda familiar, sin poder determinar su causa ni su contenido. Durante el proceso, el interrogado pronunció además, de forma involuntaria, una nueva profecía, que quedó registrada por los inefables presentes. El interrogatorio se cerró sin establecer una relación directa entre ambos, quedando como principal hallazgo ese vacío de memoria sin explicación.',
   },
   "931": {
     "tema": 'Moth To A Flame',
@@ -285,7 +285,7 @@ const _historical = {
     "tag": [], // TODO: sin match vigente en bwdata.js (slug reciclado)
     "personajes": ['/u8', '/u130', '/u97'],
     "interrogado": null,
-    "resumen": '', // TODO: pendiente
+    "resumen": 'La investigación tuvo lugar en las ruinas de una antigua destilería abandonada tras un incendio ocurrido décadas atrás, buscando pistas sobre un posible encubrimiento. Restos de fósforos hallados en el lugar, junto con la ausencia de cualquier rastro de magia, confirmaron que el fuego había sido provocado de forma deliberada y sin uso de hechizos. Siguiendo un mensaje oculto tallado en unos azulejos con figuras que señalaban hacia la oscuridad, los investigadores dieron con un mecanismo escondido que abrió el acceso a un sótano secreto, protegido por una trampa que inundó la estancia con agua y que lograron neutralizar combinando hechizos de drenaje con magia de herbología. Allí descubrieron un antiguo laboratorio dedicado al cultivo de una planta ígnea altamente inflamable, equipado con un sistema de riego adaptado a sus necesidades, aunque todo el material vegetal había sido retirado del sitio. Entre lo poco que quedó, hallaron una tarjeta vinculada a un local nocturno que, al humedecerla con alcohol, reveló un mapa rúnico cambiante con ubicaciones repartidas por las islas británicas y una marca que señalaba un punto hacia donde había sido trasladado el material. Quedó así confirmado que el incendio fue un encubrimiento deliberado para ocultar el cultivo clandestino de la planta, y que sus responsables habían reubicado la operación a un nuevo emplazamiento.',
   },
   "932": {
     "tema": 'The Murmur Of The Old Guard',
@@ -294,7 +294,7 @@ const _historical = {
     "tag": [], // TODO: sin match vigente en bwdata.js (slug reciclado)
     "personajes": ['/u108', '/u24', '/u110', '/u141', '/u50'],
     "interrogado": null,
-    "resumen": '', // TODO: pendiente
+    "resumen": 'La investigación comenzó al hallar al director de un colegio inconsciente y desplomado sobre su escritorio, con el rostro pálido y sin movimiento aparente. Un examen reveló que seguía con vida, aunque paralizado por una poción para la tos adulterada con raíz de asfódelo molido que había ingerido en su propio té. El despacho, pese a ser habitualmente desordenado, se encontraba extrañamente ordenado, como si alguien lo hubiera revisado y luego intentado disimular su paso. Los retratos de antiguos directores, cegados durante un lapso, solo pudieron confirmar que el director llevaba días paseando nervioso, temiendo represalias por haberse postulado como candidato a un cargo, sin haber visto entrar ni salir a nadie antes de perder la visión. Al examinar el lugar, un espejo maldito oculto en el techo despertó y proyectó sobre cada uno de los presentes una sombra que encarnaba su lado más oscuro, obligándolos a enfrentarse a copias de sí mismos que devolvían el daño recibido; se trataba de un objeto creado antaño por un alquimista obsesionado con alcanzar la perfección eliminando toda debilidad humana. Tras una dura confrontación lograron romper el hechizo y destruir el espejo. Con el director finalmente trasladado para recibir atención médica, quedó confirmado que sobreviviría al envenenamiento, pero con secuelas lo bastante graves como para impedirle continuar al frente del colegio, sin que pudiera determinarse con certeza si se había envenenado a sí mismo o si alguien más era responsable.',
   },
   "933": {
     "tema": 'The Rest Of Us',
@@ -303,7 +303,7 @@ const _historical = {
     "tag": [], // TODO: sin match vigente en bwdata.js (slug reciclado)
     "personajes": ['/u8', '/u12', '/u24'],
     "interrogado": null,
-    "resumen": '', // TODO: pendiente
+    "resumen": 'La investigación tuvo lugar en una residencia para niños y criaturas mágicas situada en la costa, hallada vacía tras la desaparición de seis niños, dos coordinadores y un cuidador. En el lugar se encontraron vidrios rotos por un estallido de magia accidental producido cerca de los juguetes de una menor, además de un cuadro infantil golpeado con violencia y huellas de barro de un hombre adulto que entraba y salía del edificio intentando borrar su rastro. Siguiendo esas huellas hasta una casa en un árbol del jardín, el grupo quedó bajo el efecto de una nana que inducía somnolencia, cuyo origen resultó ser la propia menor desaparecida; al disiparse el encantamiento, se halló en el interior a todos los desaparecidos sanos y salvos. La niña explicó que había tenido una visión de un hombre que pretendía arrancarles el corazón a todos y que por eso los reunió y escondió en aquel refugio. A partir de su descripción —un hombre de unos cuarenta años, cabello rubio oscuro engominado, un ojo cerrado cruzado por una cicatriz profunda y el otro de un verde claro— se elaboró un retrato que fue remitido al Departamento de Aurores, aunque pese a las pesquisas posteriores no se logró dar con la identidad ni el paradero del sospechoso.',
   },
   "934": {
     "tema": 'Midnight Ashes',
@@ -312,7 +312,7 @@ const _historical = {
     "tag": [], // TODO: sin match vigente en bwdata.js (slug reciclado)
     "personajes": ['/u8', '/u78', '/u55'],
     "interrogado": null,
-    "resumen": '', // TODO: pendiente
+    "resumen": 'La investigación reabrió el expediente de una redada ocurrida meses atrás, luego de que la mujer registrada como fallecida en aquel operativo —o su hermana— fuera sorprendida profanando una tumba en un cementerio. Al revisar los archivos, se confirmó que la redada original había buscado detener a un supuesto filtrador de secretos que entregaba información del Ministerio a gobiernos extranjeros y a autoridades muggles. Sin embargo, el testimonio directo de uno de los aurores presentes reveló que tal filtrador nunca existió: en realidad, dos nigromantes ilegales mantenían cautiva a una veela a la que explotaban para obtener información, dato que había sido deliberadamente omitido de los informes oficiales para proteger su identidad tras sacarla del país. Además, quien había realizado el peritaje forense confirmó que su informe original era correcto —alguien había muerto por un hechizo explosivo autoinfligido—, pero que la hermana de la fallecida había mentido al identificar el cuerpo, dejando abierta la sospecha de que la muerte pudo haber sido simulada con ayuda de esos mismos nigromantes. La sesión terminó sin resolver por completo el caso, pero con nuevas pistas que reabren la pregunta de qué ocurrió realmente aquella noche.',
   },
   "983": {
     "tema": 'Clandestine Melodies',
@@ -321,7 +321,7 @@ const _historical = {
     "tag": ['original', 'capitulo 3'],
     "personajes": ['/u8', '/u55', '/u9'],
     "interrogado": null,
-    "resumen": '', // TODO: pendiente
+    "resumen": 'La misión requirió infiltrarse en los ensayos de una banda itinerante de trovadores en una taberna para obtener, a cambio de una contraseña y de sobornos, información sobre una familia caída en la magia oscura. Los cánticos revelaron que un padre vendió a su hija para saldar una deuda, y que esta, tiempo después, delató a sus propios hermanos: uno de ellos, que había intentado burlar a la muerte practicando nigromancia, terminó sufriendo el beso del dementor tras ser rastreado gracias a un rastro de sangre dejado en sus rituales prohibidos. La hija que los entregó borró todo rastro de su apellido original y quedó asociada a la persecución de la magia oscura. Se supo también que las hijas gemelas del nigromante ajusticiado, que decían vivir en el extranjero, en realidad permanecían escondidas practicando robos y magia oscura movidas por la venganza: una murió a manos de sus propios acreedores tras contratar a alguien para un robo del que luego se quedó con el objeto prohibido, mientras que la otra, nacida sin magia, se convirtió en un espíritu errante de naturaleza aún incierta. También se obtuvo el origen de un anillo forjado con hueso que permite comunicarse con los muertos. Como precio final por lo revelado, el grupo debió elegir y beber de un cáliz entre siete, distinguiendo mediante conocimientos propios cuál resultaba inofensivo mientras los demás ocultaban efectos que iban del dolor físico a la pérdida de memoria, de voluntad o de control mágico.',
   },
   "984": {
     "tema": 'Silent Sentinel',
@@ -330,7 +330,7 @@ const _historical = {
     "tag": ['original', 'capitulo 2'],
     "personajes": ['/u55', '/u8', '/u130'],
     "interrogado": 'Daelan Blevins',
-    "resumen": '', // TODO: pendiente
+    "resumen": 'La investigación se centró en interrogar al guardián de un cementerio mágico, incapacitado durante el robo de un objeto extraído de una tumba, con el fin de determinar si contaba con información adicional sobre lo sustraído. Durante el proceso se confirmó que se trataba de un squib de poco más de veinte años, registrado como tal ante el Ministerio de Magia. La revisión de sus recuerdos estableció que había sido golpeado por la espalda al ingresar a su cabaña, sin llegar a ver a su agresor, y la verificación de sus palabras confirmó que, pese a los nervios de verse rodeado por tantas personas, colaboró con sinceridad en todo momento. Aun así, el interrogatorio no arrojó ninguna pista adicional sobre la identidad de los responsables ni sobre el destino del objeto robado.',
   },
   "1008": {
     "tema": 'Whispers Of The Future',
@@ -339,7 +339,7 @@ const _historical = {
     "tag": [], // TODO: sin match vigente en bwdata.js (slug reciclado)
     "personajes": ['/u50', '/u17', '/u150'],
     "interrogado": null,
-    "resumen": '', // TODO: pendiente
+    "resumen": 'La investigación llevó a un grupo de aurores, guiados por una inefable, hasta la Cámara de las Profecías del Departamento de Misterios, en busca de vínculos entre una serie de muertes recientes y el linaje de una familia de sangre pura. Varias esferas se activaron una tras otra: la primera confirmó que, generación tras generación, alguien de la propia sangre familiar terminaría matando a quien portara el nombre de la familia, con el amor convertido en motivo de traición; otras hablaban de una ola o marea que se aproximaba, capaz de sacar lo peor de los magos y de poner a prueba a quienes debían proteger al mundo mágico, incluidos los guardianes del propio Ministerio. Una última advertencia, pronunciada con una voz distinta a las demás, señaló que ignorar las señales del porvenir traería consecuencias irreversibles. Tras escuchar la sucesión de presagios, la cámara quedó en silencio sin ofrecer nada más, dejando claro que la respuesta definitiva debía buscarse por otros caminos.',
   },
   "1009": {
     "tema": 'Stargazer\'s Night',
@@ -348,7 +348,7 @@ const _historical = {
     "tag": [], // TODO: sin match vigente en bwdata.js (slug reciclado)
     "personajes": ['/u156', '/u150', '/u119_hamish'],
     "interrogado": null,
-    "resumen": '', // TODO: pendiente
+    "resumen": 'La investigación giraba en torno a una pista críptica dejada por un auror fallecido, que hacía referencia a unos jardines imposibles de localizar en cualquier mapa o archivo conocido. Agotados los recursos convencionales, los investigadores optaron por consultar al padre del fallecido, antiguo jefe de seguridad mágica. Este reveló que el lugar mencionado era un jardín al sur de un bosque escocés, cercano a un pequeño pueblo, que había pertenecido a su esposa, una bruja hija de muggles y herbóloga, fallecida años atrás a causa de una plantación de mandrágoras que creció fuera de control. Tras la tragedia, había sellado el lugar y hecho borrar de su propia memoria la ubicación exacta. Reconoció, sin embargo, que su hijo había vuelto a usar la propiedad tiempo después con fines que desconocía, ocultando allí algo que nunca le reveló. Como heredero legítimo del lugar, entregó a los investigadores el acceso por red flu a la vivienda, advirtiéndoles del peligro que podían suponer las mandrágoras si, contra lo esperado, aún seguían con vida y sin control.',
   },
   "1108": {
     "tema": 'Licking Salted Wounds',
@@ -357,7 +357,7 @@ const _historical = {
     "tag": ['original', 'capitulo 3'],
     "personajes": ['/u91', '/u8', '/u110'],
     "interrogado": 'Hadiya Wraithwood',
-    "resumen": '', // TODO: pendiente
+    "resumen": 'El interrogatorio buscaba esclarecer el destino de un hombre desaparecido y el paradero de dos hijas suyas, para lo cual el grupo investigador visitó la vivienda de una anciana ciega y con problemas de audición, que solo se comunicaba en francés y exigía que se presentaran ante ella antes de responder. Con ayuda de un traductor lograron ganarse su confianza, y la mujer terminó por compartir fragmentos de su historia personal y de las circunstancias que la dejaron ciega y alejada de su familia. Al concluir su relato, sin embargo, se desplomó y murió de forma súbita, en lo que parecía ser la consecuencia de haber quebrantado un juramento mágico que la mantenía en silencio. Ante el fallecimiento se avisó a las autoridades locales, quienes tomaron declaración a los presentes y confirmaron la muerte antes de permitirles regresar.',
   },
   "1109": {
     "tema": 'The Mercy Of Death',
@@ -366,7 +366,7 @@ const _historical = {
     "tag": ['original', 'capitulo 3'],
     "personajes": ['/u55', '/u153', '/u8', '/u50', '/u159', '/u78'],
     "interrogado": null,
-    "resumen": '', // TODO: pendiente
+    "resumen": 'La misión llevó a un grupo hasta las profundidades de Azkaban para interrogar a dos antiguos nigromantes expulsados de San Mungo, presos desde hacía más de un año. Entre sus pertenencias se descubrió un altar oculto con una lengua amputada y otros restos rituales: una ofrenda con la que buscaban asegurarse un tránsito seguro tras la muerte, completada finalmente a cambio del oro y el fuego que habían solicitado como precio de la visita. Durante el interrogatorio confesaron haber acabado con la vida de una joven vinculada a su antiguo negocio de mercancía oscura, al considerar que sus preguntas ponían en riesgo sus secretos, y revelaron pertenecer a una organización marcada con un símbolo, asociada a un espíritu corrupto que ancla las almas de quienes lo veneran. Sin embargo, un epílogo posterior mostró que aquellas respuestas habían sido en realidad una farsa cuidadosamente ensayada por orden de un hombre de un solo ojo, quien, conforme con que el engaño no hubiera sido descubierto, terminó silenciándolos para siempre con un veneno mortal.',
   },
   "1110": {
     "tema": 'The Lupine Killer',
@@ -375,7 +375,7 @@ const _historical = {
     "tag": ['sirius', 'capitulo 0'],
     "personajes": ['/u108', '/u8', '/u156'],
     "interrogado": 'Aidan N. Flamel',
-    "resumen": '', // TODO: pendiente
+    "resumen": 'El interrogatorio se centró en los contratos hallados en el estudio de un candidato fallecido, que llevaron a citar al profesor de herbología vinculado a ellos. Este confirmó haber sido contratado meses antes de la muerte del candidato para desarrollar una poción experimental que revirtiera o controlara la licantropía, tras superar una prueba con veritaserum; para ello recibió acónito y el veneno de una criatura oriunda de Brasil. El contrato, iniciado en abril, fue cancelado unilateralmente en agosto, poco antes del asesinato. El profesor reveló además haber colaborado bajo presión, tras descubrir el candidato la existencia de un hijo ilegítimo de su padre, y accedió a entregar a los aurores toda la correspondencia relacionada para reconstruir la cronología de los hechos.',
   },
   "1170": {
     "tema": 'The Apple House',
@@ -384,7 +384,7 @@ const _historical = {
     "tag": [], // TODO: sin match vigente en bwdata.js (slug reciclado)
     "personajes": ['/u78', '/u8', '/u55'],
     "interrogado": 'Merlina Dempsey',
-    "resumen": '', // TODO: pendiente
+    "resumen": 'El interrogatorio tuvo lugar en una granja aislada y fuertemente protegida mágicamente, donde un grupo de aurores localizó a la hermana menor de una sanadora recién asesinada: una mujer a la que se creía muerta desde la infancia, tras haber sido atacada por un licántropo y ocultada por su propia familia bajo una identidad falsa. Al enterarse de la muerte de su hermana y de un amigo cercano a ambas, se negó a colaborar y terminó atrapada dentro de las mismas defensas que protegían la propiedad, aceptando responder solo a cambio de que no volvieran a visitarla. Contó su historia personal y la amistad que unía a su hermana con ese amigo, quienes, según relató, investigaban en secreto, junto a un tercero, algo que consideraban peligroso. Quedó confirmado que las protecciones del lugar no eran obra de su hermana sino de otra allegada con conocimientos de sanación, y que los tres implicados habían viajado juntos hasta un faro la madrugada previa a su muerte.',
   },
   "1171": {
     "tema": 'Stolen Shroud',
@@ -393,7 +393,7 @@ const _historical = {
     "tag": [], // TODO: sin match vigente en bwdata.js (slug reciclado)
     "personajes": ['/u8', '/u55', '/u153', '/u78'],
     "interrogado": null,
-    "resumen": '', // TODO: pendiente
+    "resumen": 'La investigación llevó a los responsables hasta un antiguo conocido de una inefable fallecida, hallado en una tienda de varitas. Al interrogarlo, confirmó que la inefable había convivido con él durante aproximadamente un año, dos años atrás, mientras realizaba experimentos sobre el funcionamiento de los núcleos mágicos y su vínculo con las varitas y con los propios magos. Se estableció que dichas pruebas buscaban determinar si era posible trasladar un alma de un cuerpo a otro, aunque los intentos solo alcanzaron éxitos parciales y nunca llegaron a completarse. La inefable abandonó el lugar a inicios de 1951 para continuar esa línea de investigación en el Departamento de Misterios, en la cámara de las almas, sin que quedara claro si finalmente logró resolver lo que le faltaba.',
   },
   "1205": {
     "tema": 'The Murmuring Woods',
@@ -402,7 +402,7 @@ const _historical = {
     "tag": [], // TODO: sin match vigente en bwdata.js (slug reciclado)
     "personajes": ['/u150', '/u159', '/u13', '/u149', '/u55', '/u138'],
     "interrogado": null,
-    "resumen": '', // TODO: pendiente
+    "resumen": 'La misión llevó al grupo a la vivienda abandonada de una herbóloga fallecida años atrás, cuyo jardín trasero había sido devorado por un cultivo de mandrágoras mutadas en ejemplares gigantescos y letales. Tras atravesar ese jardín esquivando sus chillidos mortales y cruzar hasta un cobertizo oculto entre las plantas, descubrieron que en realidad se trataba de un despacho secreto perteneciente a un fallecido jefe de seguridad. Allí encontraron un muro de investigación astrológica dedicado a anticipar peligros para los aurores, frascos de pociones sin identificar y una caja de cartas intercambiadas con otras dos personas, ambas encontradas muertas poco después de su último encuentro con el remitente. La correspondencia revelaba un intento arriesgado y finalmente descartado de desarrollar protección para los aurores mediante transfiguración de piel, además de referencias a una profecía inquietante sobre una fuerza oscura que amenazaba con arrasarlo todo. La investigación quedó abierta, con los viales pendientes de análisis y la cronología de los últimos contactos entre los fallecidos solo parcialmente reconstruida.',
   },
   "1235": {
     "tema": 'In Search Of The Deadly Hallows',
@@ -411,7 +411,7 @@ const _historical = {
     "tag": [], // TODO: sin match vigente en bwdata.js (slug reciclado)
     "personajes": ['/u9', '/u50', '/u159'],
     "interrogado": null,
-    "resumen": '', // TODO: pendiente
+    "resumen": 'La expedición partió en busca de pistas sobre las Reliquias de la Muerte, tras el hallazgo de un apellido ligado a los tres hermanos originarios de esa leyenda. El rastro condujo hasta un faro abandonado en una isla vinculada a la antigua magia druídica, cuya entrada ocultaba una vivienda con un despacho de uso reciente. Allí no se encontró ninguna pista sobre las reliquias buscadas, sino el árbol genealógico de una de las familias mágicas más antiguas, extendido por generaciones. Antes de partir, un cuadro reveló el nombre y origen del lugar: una piedra erigida en tiempos remotos con la que dos guardianes habían concedido santuario en la torre a quienes fueran de sangre mágica pura. La investigación concluyó sin hallar rastro de las Reliquias, pero con el descubrimiento de ese enclave oculto y su propósito original.',
   },
   "1262": {
     "tema": 'Gilded Herb',
@@ -420,6 +420,6 @@ const _historical = {
     "tag": ['morgana', 'capitulo 0'],
     "personajes": ['/u8', '/u55', '/u130', '/u78'],
     "interrogado": null,
-    "resumen": '', // TODO: pendiente
+    "resumen": 'La misión consistió en infiltrarse en la fábrica y destilería que abastecía de bebidas a un establecimiento vinculado a la investigación, tras rastrear el origen del cargamento hasta ese lugar. El perímetro reveló un edificio fuertemente vigilado, con una entrada principal protegida por una maldición de sangre y un acceso trasero resguardado por guardias en rotación constante, por lo que se optó por infiltrarse haciéndose pasar por conductores de un camión de reparto mediante poción multijugos. Dentro de las instalaciones, entregando materiales, materia prima y correspondencia piso por piso bajo distintas contraseñas, se confirmó que allí se cultivaba y procesaba la planta empleada para adulterar las bebidas del lugar. Un guardia sospechó de la coartada y se produjo un breve enfrentamiento que logró resolverse sin delatar la infiltración. En la sala de conferencias se halló además un mapa que señalaba una nueva ubicación, presentada como la casa central de la operación, quedando el grupo con esa pista para continuar la investigación tras retirarse sin ser detectados.',
   },
 };
