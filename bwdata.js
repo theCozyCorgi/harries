@@ -2031,7 +2031,7 @@ const MissionsModule = (function () {
       "users": ["/u134","/u55", "/u8"],
       "informed": [],
       "dependency": ["ryu's breath"],
-      "type": "misión", "closed": false, "fecha": "", "link": "", "tagged": ["sirius", "capitulo 0"],
+      "type": "misión", "closed": false, "fecha": "1953-06-27", "link": "/t1423-mision-the-price-of-silence", "tagged": ["sirius", "capitulo 0"],
 
       "cards": [
         {
@@ -2686,7 +2686,7 @@ const MissionsModule = (function () {
       "users": ["/u159","/u153","/u156","/u150"],
       "informed": [],
       "dependency": ["the lupine killer", "in search of the deadly hallows"],
-      "type": "misión", "closed": false, "fecha": "", "link": "", "tagged": ["sirius", "capitulo 0"],
+      "type": "misión", "closed": false, "fecha": "1953-06-19", "link": "/t1424-mision-through-the-green-abyss", "tagged": ["sirius", "capitulo 0"],
 
       "cards": [
         {
@@ -5073,7 +5073,7 @@ const MissionsModule = (function () {
       "users": ["c/u8", "c/u55", "/u91", "/u156"],
       "informed": [],
       "dependency": ["paper mask", "midnight ashes", "clandestine melodies", "silent sentinel"],
-      "type": "misión", "closed": false, "fecha": "", "link": "", "tagged": ["original", "capitulo 3"],
+      "type": "misión", "closed": false, "fecha": "1953-06-30", "link": "/t1425-mision-price-of-the-dark-favor", "tagged": ["original", "capitulo 3"],
 
       "cards": [
         {
