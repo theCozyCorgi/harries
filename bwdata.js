@@ -2040,7 +2040,7 @@ const MissionsModule = (function () {
         },
 
         {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "Moody", }, "place": "",
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "moody", }, "place": "",
           "cont": '<span>Se notifica que pueden realizar intervenciones con Barbara, directora de la reserva, siempre que lo deseen.</span>',
         },
 
