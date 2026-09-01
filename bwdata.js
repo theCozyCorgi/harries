@@ -2076,17 +2076,17 @@ const MissionsModule = (function () {
 
       "searchs": {
         "introducción a la reserva": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
           "cont": '<span>La Reserva Natural Flint los recibe como invitados, un cartel de hierro forjado señala la entrada principal, junto a una pequeña garita donde un guardia revisa credenciales antes de dejar pasar a cualquier visitante. Más allá de la cerca, distintos biomas artificiales se distribuyen por el terreno, cada uno recreando el hábitat natural de las criaturas que allí se resguardan.</span>',
         },
 
         "ingresar a la reserva": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "introducción a la reserva",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "introducción a la reserva",
           "cont": '<span>Ingresar requiere identificarse ante el guardia de la garita y explicar el motivo de la visita. Por lo general, se les permite el paso sin mayores inconvenientes, aunque no sin antes anotar sus nombres en un registro; aunque al tratarse de una investigación oficial, se les advierte que un miembro del personal deberá acompañarlos en todo momento dentro de la reserva.</span>',
         },
 
         "llegar hasta rouge": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ingresar a la reserva",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ingresar a la reserva",
           "cont": '<span>Rouge es un hombre de corta estatura y complexión robusta, con el cabello al ras y canoso. Su piel está curtida por el sol, y su expresión sugiere que tomará como una broma cualquier cosa que se le diga.</span>',
         },
 
@@ -2096,47 +2096,47 @@ const MissionsModule = (function () {
         },
 
         "presentarse ante rouge": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "llegar hasta rouge",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "llegar hasta rouge",
           "cont": '<span>Apenas se identifican, la sonrisa socarrona de Rouge se tensa un segundo—: <strong>Otra vez con esto</strong> —masculla, más para sí que para ellos. Ya lo interrogaron una vez y salió limpio; no tiene ganas de repetir la función palabra por palabra. Pero tampoco los despacha. Se apoya contra la cerca del corral más cercano y recupera la sonrisa—: <strong>Bien. Jueguen conmigo, y a lo mejor les cuento algo.</strong></span>',
         },
 
         "acertijos de rouge": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "presentarse ante rouge",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "presentarse ante rouge",
           "cont": '<span>Rouge cruza los brazos y sonríe de lado—: <strong>Yo no respondo preguntas directas, eso es aburrido</strong> —dice—. <strong>Pero les propongo un trato: por cada acertijo que acierten, les cuento algo. Si fallan... bueno, me quedo tan callado como una tumba.</strong> —Se aclara la garganta antes de recitar—: <em>"Nazco lejos, donde el calor nunca descansa. Mis alas guardan un color que la envidia envidiaría, y mi toque, aunque breve, no perdona. ¿Quién soy?"</em></span>',
         },
 
         "mariposa de jade": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "acertijos de rouge",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "acertijos de rouge",
           "cont": '<span>Rouge asiente, casi sorprendido—: <strong>Vaya, sí que hicieron la tarea</strong> —dice, y empieza a hablar con más confianza: la Mariposa de Jade, Papilio Mortifera, viene de las selvas húmedas del sudeste asiático, entre Birmania y Tailandia. Alas verdes iridiscentes con motas moradas, fácil de confundir con una inofensiva si uno no sabe lo que busca. Su veneno se libera en forma de polvo al batir las alas cuando se siente amenazada.<br><br>Satisfecho con la respuesta, propone otro acertijo—: <em>"Se compra, se vende, se esconde, se calla. El que la practica nunca firma papeles, y la ley la persigue sin descanso. ¿Qué es?"</em></span>',
         },
 
         "contrabando": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "mariposa de jade",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "mariposa de jade",
           "cont": '<span>Rouge suelta una carcajada al escuchar la respuesta—: <strong>Bingo. Y no, antes de que pregunten: yo, jamás</strong> —dice, sarcástico—. <strong>Todo lo que digan de mí es mentira</strong> —agrega, con una sonrisa que no confirma ni desmiente nada. Aun así, sigue con el juego—: <em>"Hay una línea que la ley traza, pero no siempre en el lugar que uno cree. Se puede tener sin comprar, guardar sin vender, y aun así dormir tranquilo. ¿Cómo se llama esa línea?"</em></span>',
         },
 
         "vacío legal": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "contrabando",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "contrabando",
           "cont": '<span>Rouge asiente, casi orgulloso de que hayan seguido el hilo—: <strong>Exacto. Un vacío legal</strong> —dice. La ley prohíbe mantener un criadero ilegal que conserve viva a la mariposa con fines de venta o distribución. Pero no dice nada sobre una colonia que haya crecido por su cuenta, en su hábitat natural.<br><br>Con una sonrisa cómplice, hace una última pregunta—: <em>"Nadie la sembró, nadie la vendió, y sin embargo está aquí, en un lugar que no debería tener este clima. ¿Dónde creen que la encontrarían?"</em></span>',
         },
 
         "tarea de rouge": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "vacío legal",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "vacío legal",
           "cont": '<span>Antes de moverse, Rouge se detiene en seco y frunce el ceño hacia el corral vecino—: <strong>Genial. Justo ahora.</strong> —masculla. Una camada de catorce escarbatos se escapó de su recinto y anda desperdigando tierra y objetos brillantes por todos lados; se suponía que él debía asegurarlos antes de que terminara su turno—: <strong>Si me van a hacer perder el tiempo, al menos ayúdenme con esto mientras seguimos hablando.</strong> —dice, señalando hacia la conmoción.<br><br>Para continuar, deberán reunir a los catorce escarbatos y devolverlos a su recinto. Una vez que terminen, avisen a la administración para que un miembro del staff realice el masteo correspondiente.</span>',
         },
 
         "bioma selvático de la reserva": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "tarea de rouge",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "tarea de rouge",
           "cont": '<span>Con los escarbatos de vuelta en su recinto, Rouge sacude la tierra de sus manos y por fin cumple lo prometido—: <strong>Vengan, se las muestro</strong> —dice, guiándolos hacia un sector apartado de la reserva. Un domo climático recrea artificialmente la humedad y el calor de una selva tropical: enredaderas gruesas cuelgan del techo de cristal, el aire es denso y cálido, y el sonido de insectos y aves exóticas se mezcla con el goteo constante de la vegetación. Nada en el exterior de la reserva sugiere que, detrás de esa puerta, se esconde un pedazo de selva del sudeste asiático.</span>',
         },
 
         "colonia de mariposas": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "bioma selvático de la reserva",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "bioma selvático de la reserva",
           "cont": '<span>Rouge silba dos veces, breve y agudo. Dentro de un espacio protegido por una barrera casi invisible, decenas de mariposas de jade revolotean en libertad, sus alas verdes destellando entre la vegetación como esquirlas de cristal. Es, a la vez, hermoso y letal.</span>',
         },
 
         "preguntar hace cuánto están las mariposas allí": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "colonia de mariposas",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "colonia de mariposas",
           "cont": '<span>Rouge cuenta que, tiempo atrás, encontró una larva y la identificó como una mariposa de jade. La guardó en ese espacio y la protegió para que no lastimara a nadie ni fuera lastimada. Solo debe informar sobre las criaturas que trata oficialmente, no sobre lo que llega por su cuenta—: la mariposa creció allí de forma natural y, con el tiempo, se reprodujo.</span>',
         },
 
@@ -2146,7 +2146,7 @@ const MissionsModule = (function () {
         },
 
         "preguntar si alguien compró o se llevó una mariposa o su veneno": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "reproducción de las mariposas",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "reproducción de las mariposas",
           "cont": '<span>Por primera vez, Rouge responde sin rodeos—: <strong>Siempre hay uno o dos.</strong> —dice, encogiéndose de hombros—. <strong>Gente que se cree más lista que el resto y prueba suerte.</strong> —La mayoría ni siquiera lo intenta en serio, y se van con las manos vacías.<br><br>Se queda pensando un momento, y su expresión cambia—: <strong>Aunque, ahora que lo dicen...</strong> —hace una pausa—. <strong>Hace un tiempo vi a una mujer escabullirse de acá, apurada, como si no quisiera que la vieran.</strong> —admite—. <strong>No le di importancia entonces, pero fue el mismo día que Morgana vino a visitar a la señora Moody.</strong></span>',
         },
       },
@@ -2219,7 +2219,7 @@ const MissionsModule = (function () {
         },
 
         "examinar registro flu-19520803-2139-lon-0098": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
           "cont": '<span><span class="book-clipping"><br><div align="center"><strong>Viaje FLU-19520803-2139-LON-0098</strong></div><br><strong>Chimenea</strong>: LON-0098<br><strong>Fecha y Hora</strong>: 03/08/1952 - 06:53 hs.<br><strong>Chimenea Destino</strong>: MIN-0076/G<br><strong>Usuario identificado</strong>: Black, Sirius<br><strong>Estado</strong>: Viaje concluido.</span></span>',
         },
 
@@ -2259,7 +2259,7 @@ const MissionsModule = (function () {
         },
 
         "examinar registro flu-19520819-7603-lon-0098": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
           "cont": '<span><span class="book-clipping"><br><div align="center"><strong>Viaje FLU-19520819-7603-LON-0098</strong></div><br><strong>Chimenea</strong>: LON-0098<br><strong>Fecha y Hora</strong>: 19/08/1952 - 07:10 hs.<br><strong>Chimenea Destino</strong>: MIN-0076/G<br><strong>Usuario identificado</strong>: Black, Sirius<br><strong>Estado</strong>: Viaje concluido.</span></span>',
         },
 
@@ -2732,12 +2732,12 @@ const MissionsModule = (function () {
         },
 
         "cruzar el puente colgante": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "adentrarse en la selva amazónica",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "adentrarse en la selva amazónica",
           "cont": '<span>El único paso hacia el interior de la espesura es un puente colgante tendido sobre una quebrada profunda, tejido con lianas viejas y tablones de madera podrida por la humedad. Varios de los tablones ya faltan por completo, y los que quedan ceden con un crujido apenas se apoya el peso de un pie. Cruzarlo tal como está es apostar a la suerte; conviene reforzarlo antes de intentarlo.</span>',
         },
 
         "resolver la confusión del curupira": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "cruzar el puente colgante",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "cruzar el puente colgante",
           "cont": '<span>Del otro lado del puente, el camino empieza a repetirse: el mismo árbol partido por un rayo, la misma roca cubierta de musgo, aparecen una y otra vez, como si la selva diera vueltas sobre sí misma. No hay viento, pero las hojas se mueven igual. Es la confusión de la que hablan las leyendas locales, la que el Curupira tiende a quien se interna sin respetar su ritmo, y no va a ceder con más caminata.</span>',
         },
 
@@ -2772,12 +2772,12 @@ const MissionsModule = (function () {
         },
 
         "repeler el ataque": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "iluminar la zona con la varita",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "iluminar la zona con la varita",
           "cont": '<span>No hay tiempo para retroceder: el ejemplar embiste, y la única opción real es interponer un escudo antes de que la cola cargada de espinas alcance a alguien. Si el escudo aguanta, el animal se detiene en seco, desorientado por el rebote, y da la oportunidad de calmarlo igual que si nunca hubiera atacado.</span>',
         },
 
         "calmar al felino": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "acercarse con calma y en silencio",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "acercarse con calma y en silencio",
           "cont": '<span>Con paciencia, y sin dejar de mantener la calma, es posible acercarse lo suficiente como para apreciar de cerca los detalles: el pelaje es suave pero denso, casi impermeable, y las manchas de colores laten con un brillo tenue que parece intensificarse con el calor del cuerpo. La cola, con las espinas visiblemente huecas como agujas, se mantiene relajada, apenas moviéndose de un lado a otro. Es el momento indicado para intentar extraer una muestra sin sobresaltar al animal.</span>',
         },
       },
@@ -5109,132 +5109,132 @@ const MissionsModule = (function () {
 
       "searchs": {
         "llegar a la casa wraithwood": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
           "cont": '<span>La casa Wraithwood ocupa el final de una calle que ya no lleva demasiado tráfico, escondida detrás de un jardín que hace mucho dejó de ser jardín para convertirse en maleza. El portón de hierro, oxidado hasta perder buena parte de su forma original, todavía conserva el apellido tallado en el arco superior: las letras están picadas, pero se leen. Las ventanas de la fachada están tapiadas con tablones grises, salvo una, en el segundo piso, que alguien dejó sin cubrir hace tiempo.</span>',
         },
 
         "ingresar a la casa wraithwood": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "llegar a la casa wraithwood",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "llegar a la casa wraithwood",
           "cont": '<span>La puerta principal no está cerrada con llave, solo trabada por el óxido y los años; cede con un empujón y un crujido largo. Adentro, el aire es denso, quieto, cargado de un polvo que no se asienta del todo. No hay ruido de la calle, ni de nada. La oscuridad del pasillo de entrada se extiende hacia el resto de la casa sin que la luz del día logre avanzar más de un par de metros.</span>',
         },
 
         "recorrer el vestíbulo": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ingresar a la casa wraithwood",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ingresar a la casa wraithwood",
           "cont": '<span>El vestíbulo conserva parte de su mobiliario original, cubierto por sábanas grises que hace mucho dejaron de ser blancas. Una escalera amplia sube hacia el piso superior, con la baranda cubierta de telarañas espesas. A un costado, una puerta más angosta y baja lleva, presumiblemente, hacia el sótano de la casa. El frío, ya notable desde la entrada, se siente más marcado cerca de esa puerta.</span>',
         },
 
         "bajar al sótano": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "recorrer el vestíbulo",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "recorrer el vestíbulo",
           "cont": '<span>Los escalones del sótano están gastados y varios parecen hundidos hacia adentro, como si algo los hubiera erosionado desde abajo. Al apoyar el primer pie, un crujido seco recorre toda la escalera: una vieja protección residual de la casa sigue activa, y convierte los escalones en una rampa de piedra lisa e inclinada. Bajar así, sin control, no parece buena idea.</span>',
         },
 
         "reparar la escalera": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "bajar al sótano",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "bajar al sótano",
           "cont": '<span>La superficie lisa no cede a la fuerza, solo a la magia adecuada. Alguna Transformación bien aplicada debería bastar para devolverle a la piedra su forma original.</span>',
         },
 
         "encontrar el arcón": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "reparar la escalera",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "reparar la escalera",
           "cont": '<span>Abajo, el aire huele a tierra húmeda y a algo más viejo, casi mineral. El espacio parece haber sido, alguna vez, un taller: mesas de trabajo cubiertas de frascos rotos, marcas de tiza casi borradas en el piso de piedra, restos de velas consumidas hasta la base. En un rincón, medio oculto por la penumbra, hay un arcón de madera oscura. El cierre está trabado por el óxido, pero cede sin mayor resistencia.</span>',
         },
 
         "abrir el arcón": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "encontrar el arcón",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "encontrar el arcón",
           "cont": '<span>Adentro no hay más que fragmentos de una vida que alguien intentó borrar apurado: una varita partida en dos, algunos frascos vacíos con etiquetas ilegibles, un puñado de joyas deslustradas sin valor aparente. En el fondo, tallado a mano y sin firma, hay un pequeño símbolo: un ojo, solo, sin nada alrededor que explique qué significa.</span>',
         },
 
         "subir al piso superior": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir el arcón",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir el arcón",
           "cont": '<span>El camino de vuelta hacia el vestíbulo y, desde ahí, hacia la escalera principal, se siente más largo de lo que fue bajar. Los escalones que suben al piso de arriba están cubiertos por una alfombra que alguna vez debió ser roja y ahora es de un marrón indefinido. Cada paso levanta polvo que no termina de asentarse, y el frío, lejos de disminuir a medida que se alejan del sótano, se mantiene igual de presente.</span>',
         },
 
         "puerta sellada del cuarto de las gemelas": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "subir al piso superior",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "subir al piso superior",
           "cont": '<span>En el pasillo del piso superior hay tres puertas. Dos ceden sin problema y solo dan a cuartos vacíos, cubiertos de polvo. La tercera, la que debería llevar al cuarto de las gemelas, tiene algo raro: el picaporte no gira, y por la rendija inferior sale un frío distinto, más seco que el del resto de la casa. Alguien selló esta puerta hace mucho, y no con una cerradura común.</span>',
         },
 
         "entrar al cuarto de las gemelas": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "puerta sellada del cuarto de las gemelas",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "puerta sellada del cuarto de las gemelas",
           "cont": '<span>Detrás de la puerta entreabierta hay un cuarto pequeño, con dos camas gemelas todavía tendidas, aunque las mantas están comidas por la humedad y las polillas. En el marco de madera de una de las camas, alguien talló dos nombres, uno al lado del otro: <strong>Nina</strong> y <strong>Wrenn</strong>. Hay juguetes desperdigados por el piso, un espejo de mano roto sobre una cómoda, y varias fotografías familiares, todas boca abajo.</span>',
         },
 
         "sentir una presencia": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "entrar al cuarto de las gemelas",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "entrar al cuarto de las gemelas",
           "cont": '<span>El frío que ya se sentía en toda la casa se vuelve distinto: más denso, más personal. Las llamas de las pocas velas que aún quedan en pie sobre los candelabros oxidados pasan de un naranja apagado a un azul pálido. En algún punto del cuarto, el aire se mueve sin que haya ventana abierta.</span>',
         },
 
         "hablar con nina": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "sentir una presencia",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "sentir una presencia",
           "cont": '<span>La figura retrocede un paso al notar que la vieron, aunque no se desvanece—: <strong>¿Vienen del Ministerio?</strong> —pregunta, con la voz baja y quebrada, sin el tono ceremonioso que suelen tener los fantasmas de las familias antiguas—. <strong>No, esperen, no se vayan.</strong> —agrega, atropellando las palabras—. <strong>Hace mucho que nadie entra acá.</strong></span>',
         },
 
         "preguntar quién es": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "hablar con nina",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "hablar con nina",
           "cont": '<span>La aparición se queda quieta un momento, como si evaluara si vale la pena contestar—: <strong>Nina.</strong> —dice, seca—. <strong>Nina Wraithwood, si eso les dice algo.</strong> —Intenta cruzarse de brazos, aunque sus manos no llegan a tocarse del todo—. <strong>No soy bruja de verdad, ¿saben? Nunca lo fui. Squib.</strong> —lo dice como quien repite algo que le dijeron mil veces—. <strong>Así que no me pregunten cosas raras de magia, que no las entiendo. Ni las entendía cuando estaba viva.</strong></span>',
         },
 
         "nina pide un favor": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar quién es",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar quién es",
           "cont": '<span>Nina los mira de a uno, calculando algo antes de hablar—: <strong>Puedo contarles cosas. De mi hermana, de todo.</strong> —dice, y por un segundo suena casi aliviada de poder decirlo en voz alta—. <strong>Pero antes necesito que me ayuden con algo. No es nada raro, se los juro.</strong> —Señala hacia el centro del cuarto, donde unas velas viejas y gastadas están dispuestas en círculo sobre una marca tallada en la madera del piso, ya cubierta de polvo—. <strong>Hace mucho frío acá. Siempre. Y esas velas ayudan, un poco.</strong> —agrega, encogiéndose de hombros—. <strong>Ustedes tienen varitas para eso, ¿no? A mí nunca me dejaron tener una.</strong></span>',
         },
 
         "encender las velas del círculo": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "nina pide un favor",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "nina pide un favor",
           "cont": '<span>Las cuatro velas están gastadas hasta la mitad, con cera derretida y vuelta a endurecer muchas veces, como si alguien las hubiera encendido y apagado una y otra vez a lo largo de los años. Nina señala cada una con un dedo tembloroso, indicando el orden—: <strong>Primero esa, después esa, esa y esa.</strong> —dice, señalando norte, este, sur y oeste, sin explicar por qué el orden importa—. <strong>Da igual cómo. Con lo que sepan. Solo que prendan.</strong></span>',
         },
 
         "trazar la sal por el borde": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "encender las velas del círculo",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "encender las velas del círculo",
           "cont": '<span>Con las velas encendidas, Nina señala un cuenco de sal gruesa apoyado junto a la pared, casi escondido bajo una tela—: <strong>Ahora la sal, por el borde de la marca.</strong> —pide, con la misma naturalidad con la que pediría que cerraran una ventana—. <strong>Es para que no entren bichos.</strong> —agrega, aunque no queda claro qué clase de bichos podría haber en un cuarto donde no vive nadie hace años.</span>',
         },
 
         "ofrecer una gota de sangre": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "trazar la sal por el borde",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "trazar la sal por el borde",
           "cont": '<span>Nina hace una mueca, casi apenada—: <strong>Esta parte es fea, perdón.</strong> —dice—. <strong>Necesito que alguno se pinche un dedo. Solo una gota, en el medio.</strong> —Antes de que puedan protestar, agrega, más rápido—: <strong>Es como cuando dos personas se dan la mano para cerrar un trato. Nada más.</strong> —No aclara qué trato es, ni con quién se está cerrando en realidad.</span>',
         },
 
         "repetir las palabras que pide nina": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ofrecer una gota de sangre",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ofrecer una gota de sangre",
           "cont": '<span>Nina cierra los ojos, o hace el intento, y recita unas palabras cortas, sin ninguna elegancia en la pronunciación—: <em>"Quedo. Vos quedás. Nadie se va sin pagar."</em> —Pide que las repitan, todos juntos, mirando el centro del círculo—. <strong>No hace falta que las entiendan.</strong> —dice, casi con vergüenza—. <strong>Yo tampoco las entiendo del todo. Me las enseñaron así, y así las digo.</strong> —En cuanto terminan de repetirlas, la marca del piso brilla por un instante con una luz gris y fría que no viene de ninguna de las velas.</span>',
         },
 
         "darse cuenta de lo que hicieron": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "repetir las palabras que pide nina",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "repetir las palabras que pide nina",
           "cont": '<span>El brillo se apaga tan rápido como apareció, pero algo queda distinto en el aire: un peso pequeño y frío, instalado en el pecho de cada uno de los presentes. Nina, por primera vez desde que apareció, deja de temblar—: <strong>Listo.</strong> —dice, y suena aliviada de una manera que no es agradable de ver—. <strong>Ya está hecho.</strong><br><br>Ante la confusión evidente, explica sin rodeos, como quien repite una regla del juego que ya debería ser obvia—: <strong>Acaban de hacerme un favor. Uno de los buenos, de los que cuentan.</strong> —dice—. <strong>Y ahora me deben uno a mí. Así funciona esto.</strong> —Se encoge de hombros, casi disculpándose—. <strong>No es nada personal. Es lo único que sé hacer bien.</strong></span>',
         },
 
         "preguntar por qué hizo esto": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "darse cuenta de lo que hicieron",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "darse cuenta de lo que hicieron",
           "cont": '<span>Nina no se inmuta ante la pregunta, como si la esperara—: <strong>Porque ustedes son de Seguridad, y a la gente de Seguridad no se le habla gratis.</strong> —dice, con una franqueza que no busca ser cruel, solo práctica—. <strong>La última vez que hablé con alguien del Ministerio sin nada a cambio, me fue mal.</strong> —No da más detalles sobre eso—. <strong>Ahora tengo algo. Ustedes me deben. Así que, si un día necesito que miren para otro lado, o que hagan algo chiquito por mí, lo van a hacer.</strong> —Hace una pausa—. <strong>O eso espero.</strong></span>',
         },
 
         "preguntar por el hombre de un solo ojo": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "darse cuenta de lo que hicieron",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "darse cuenta de lo que hicieron",
           "cont": '<span>Ante la pregunta, la forma de Nina se contrae un poco, como si el frío del cuarto se le metiera más adentro—: <strong>No sé cómo se llama.</strong> —dice, y por primera vez pierde la seguridad práctica de hace un momento—. <strong>Nadie sabe. Cada vez que aparece dice un nombre distinto, y ninguno es el verdadero.</strong> —Se abraza a sí misma, o lo intenta—. <strong>Le falta un ojo. Eso sí es verdad, siempre. Lo demás, no sé.</strong> —agrega, más bajo—. <strong>Y no pregunten más de eso ahora, por favor. No me gusta ni decirlo.</strong></span>',
         },
 
         "preguntar por qué se metieron con él": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar por el hombre de un solo ojo",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar por el hombre de un solo ojo",
           "cont": '<span>Nina hace el gesto de un suspiro, aunque ya no necesita respirar—: <strong>Wrenn quería vengarse de Tuft. Por lo de nuestro padre, por todo.</strong> —dice—. <strong>Fuimos a buscar a alguien que nos ayudara a hacerle daño de verdad. Alguien con poder.</strong> —Se ríe, sin humor—. <strong>Y lo encontramos. O nos encontró él a nosotras, ya no sé bien cómo fue.</strong> —agrega—. <strong>Al principio parecía un trato fácil. Siempre parece un trato fácil.</strong></span>',
         },
 
         "preguntar sobre la esclavitud": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar por qué se metieron con él",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar por qué se metieron con él",
           "cont": '<span>Nina tarda en responder—: <strong>No es como esclavo de cuento, con cadenas y todo eso.</strong> —dice—. <strong>Es peor, porque uno ni se da cuenta cuándo dejó de decidir las cosas.</strong> —Se mira las manos, como si todavía pudiera reconocerlas—. <strong>Un día hacés lo que él pide porque conviene. Y después lo hacés porque no podés no hacerlo.</strong> —agrega, en voz baja—. <strong>Ni morirme me lo sacó de encima. Sigo acá, atada a esta casa, y sigo haciendo tratos como el que les acabo de hacer a ustedes.</strong> —Una pausa larga—. <strong>Ese es el precio. Uno no termina de pagarlo nunca.</strong></span>',
         },
 
         "preguntar por wrenn": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "darse cuenta de lo que hicieron",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "darse cuenta de lo que hicieron",
           "cont": '<span>Al nombrar a su hermana, Nina se pone visiblemente más nerviosa—: <strong>No sé dónde está. En serio, no sé.</strong> —dice, rápido, casi a la defensiva—. <strong>Y aunque supiera, no se lo diría así como así.</strong> —agrega, más calma—. <strong>Se mueve. Siempre se movió, incluso antes de todo esto. Es lo único que sabe hacer tan bien como yo sé robar.</strong> —No parece dispuesta a decir más por el momento.</span>',
         },
 
         "preguntar por soly nisrine": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "darse cuenta de lo que hicieron",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "darse cuenta de lo que hicieron",
           "cont": '<span>El nombre incomoda a Nina de una manera distinta a la del hombre de un solo ojo; esta vez no es miedo, es algo más parecido a la culpa—: <strong>Ella nos ayudó con algo. Con lo de Wrenn, con lo del cuerpo.</strong> —dice, eligiendo mal las palabras y dándose cuenta tarde—. <strong>Había estudiado algo raro, sobre mover un alma de un lado a otro. No sé cómo funciona esa magia, nunca la entendí.</strong> —agrega, incómoda—. <strong>Solo sé que salió cara. Que costó más de lo que pensábamos, y no hablo de dinero.</strong> —No aclara si se refiere a la vida de Soly, a la de Wrenn, o a algo peor.</span>',
         },
 
         "el pedido de nina": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar sobre la esclavitud",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar sobre la esclavitud",
           "cont": '<span>Antes de que puedan despedirse, Nina los detiene con algo que suena más a súplica que a advertencia—: <strong>Si la encuentran, si atrapan a mi hermana...</strong> —dice, y por primera vez su voz suena tan quebrada como su forma—. <strong>No la manden a Azkaban.</strong> —Hace una pausa larga—. <strong>Mátenla, si tienen que hacer algo. Se los pido en serio.</strong><br><br>Ante la lógica reacción de rechazo, insiste, casi desesperada—: <strong>Si él la agarra viva, o si se entera de que está presa en un lugar donde puede llegar a buscarla, la va a torturar por diversión antes de matarla.</strong> —dice—. <strong>A mí no me mató rápido. No quiero eso para ella.</strong> —Se aleja un paso, como si ya hubiera dicho demasiado—. <strong>Es lo único que les voy a pedir. Después de esto, estamos a mano.</strong></span>',
         },
       },
@@ -12737,13 +12737,13 @@ const MissionsModule = (function () {
 
       "cards": [
         {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
           "cont": '<span>COMPLETAR</span>',
         }
       ],
       "searchs": {
         "busqueda": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
           "cont": '<span>COMPLETAR</span>',
         }
       },
