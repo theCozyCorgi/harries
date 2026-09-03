@@ -2743,17 +2743,12 @@ const MissionsModule = (function () {
 
         "llegar a o coração do curupira": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "resolver la confusión del curupira",
-          "cont": '<span>Tras horas de caminata, llegan a una zona marcada con una forma de corazón y un río que atraviesa el mismo. Solo que al llegar al lugar, pueden ver el corazón, muchos metros más abajo. Frente a ellos hay un acantilado con una caída que parece mortal para cualquier persona que se atreva a intentarla.</span>',
+          "cont": '<span>Tras horas de caminata, llegan a una zona marcada con una forma de corazón y un río que atraviesa el mismo. Solo que al llegar al lugar, pueden ver el corazón, muchos metros más abajo. Frente a ellos hay un acantilado con una caída que parece mortal para cualquier persona que se atreva a intentarla. Los personajes deberán buscar otra solución.</span>',
         },
 
-        "": {
+        "revisar el mapa": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "llegar a o coração do curupira",
-          "cont": '<span>Posti</span>',
-        },
-
-        "": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "llegar a o coração do curupira",
-          "cont": '<span>Posti</span>',
+          "cont": '<span>El mapa hay una flecha en el lugar donde están y las letras parecen demasiado borrosas para poder comprenderse.</span>',
         },
 
         "coração do curupira": {
@@ -2795,6 +2790,11 @@ const MissionsModule = (function () {
           "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "acercarse con calma y en silencio",
           "cont": '<span>Con paciencia, y sin dejar de mantener la calma, es posible acercarse lo suficiente como para apreciar de cerca los detalles: el pelaje es suave pero denso, casi impermeable, y las manchas de colores laten con un brillo tenue que parece intensificarse con el calor del cuerpo. La cola, con las espinas visiblemente huecas como agujas, se mantiene relajada, apenas moviéndose de un lado a otro. Es el momento indicado para intentar extraer una muestra sin sobresaltar al animal.</span>',
         },
+
+        "calmar al felino": {
+          "visible": { "attr": { "val": "min" }, "know": { "herbología": "15" }, "job": "invalid", "name": "invalid", }, "place": "saumaúma",
+          "cont": '<span>El saumaúma es un árbol gigante emblemático de la Amazonía. En la mitología amazónica brasilera, la Sumaúma es considerada el "árbol madre" de la selva, morada de espíritus guardianes del bosque. Dicen que es donde vive el Curupira.</span>',
+        },
       },
 
       "actions": {
@@ -2803,6 +2803,34 @@ const MissionsModule = (function () {
           "moderado": 'La mitad del puente recupera tablones firmes; es posible cruzar pisando con cuidado por esa zona.<adding search="resolver la confusión del curupira" class="check-cards"></adding>',
           "exitoso": 'El puente entero recupera sus tablones y las lianas se tensan; el grupo cruza sin sobresaltos.<adding search="resolver la confusión del curupira" class="check-cards"></adding>',
           "critico": 'El puente queda reforzado más allá de su estado original; ni el peso combinado de todo el grupo logra hacerlo crujir.<adding search="resolver la confusión del curupira" class="check-cards"></adding>',
+        },
+
+        "aparecium": {
+          "leve": 'No es suficiente para revelar información.',
+          "moderado": 'El mapa revela: "Al final del abismo hay un elevador que deberán subir con magia. Deberán separarse en dos equipos para que el primer grupo baje a los primeros lentamente y luego repetir el proceso desde el grupo que esta abajo. Tengan cuidado a las Ka\'a Pochy". Si miran para abajo, pueden ver un elevador que más parece una jaula de Sumaúma.<adding search="sumaúma" class="check-cards"></adding>',
+          "exitoso": 'El mapa revela: "Al final del abismo hay un elevador que deberán subir con magia. Deberán separarse en dos equipos para que el primer grupo baje a los primeros lentamente y luego repetir el proceso desde el grupo que esta abajo. Tengan cuidado a las Ka\'a Pochy". Si miran para abajo, pueden ver un elevador que más parece una jaula de Sumaúma.<adding search="sumaúma" class="check-cards"></adding>',
+          "critico": 'El mapa revela: "Al final del abismo hay un elevador que deberán subir con magia. Deberán separarse en dos equipos para que el primer grupo baje a los primeros lentamente y luego repetir el proceso desde el grupo que esta abajo. Tengan cuidado a las Ka\'a Pochy". Si miran para abajo, pueden ver un elevador que más parece una jaula de Sumaúma.<adding search="sumaúma" class="check-cards"></adding>',
+        },
+
+        "accio": {
+          "leve": 'No es suficiente para subir el elevador.',
+          "moderado": 'Permite hacer que el elevador de Sumaúma suba hasta el lugar donde están ellos. Sin embargo, en el mismo encontrarán <replace target="dado" calculate="0.50">[50% del resultado del dado]</replace> acromántulas. Si el resultado del accio es positivo, las mismas atacarán primero.',
+          "exitoso": 'Permite hacer que el elevador de Sumaúma suba hasta el lugar donde están ellos. Sin embargo, en el mismo encontrarán <replace target="dado" calculate="0.50">[50% del resultado del dado]</replace> acromántulas. Si el resultado del accio es positivo, las mismas atacarán primero.',
+          "critico": 'Permite hacer que el elevador de Sumaúma suba hasta el lugar donde están ellos. Sin embargo, en el mismo encontrarán <replace target="dado" calculate="0.50">[50% del resultado del dado]</replace> acromántulas. Si el resultado del accio es positivo, las mismas atacarán primero.',
+        },
+
+        "wingardium leviosa": {
+          "leve": 'No es suficiente para subir el elevador.',
+          "moderado": 'Permite bajar el elevador de Saumaúma <replace target="dado" calculate="0.25">[25% del resultado del dado]</replace> metros. El acantilado es de 55 metros de alto (aproximadamente 15 pisos de un edificio). Una vez que los dos grupos lleguen abajo deberán avisar a la administración para que realice la intervención.',
+          "exitoso": 'Permite bajar el elevador de Saumaúma <replace target="dado" calculate="0.50">[50% del resultado del dado]</replace> metros. El acantilado es de 55 metros de alto (aproximadamente 15 pisos de un edificio). Una vez que los dos grupos lleguen abajo deberán avisar a la administración para que realice la intervención.',
+          "critico": 'Permite bajar el elevador de Saumaúma <replace target="dado" calculate="0.75">[75% del resultado del dado]</replace> metros. El acantilado es de 55 metros de alto (aproximadamente 15 pisos de un edificio). Una vez que los dos grupos lleguen abajo deberán avisar a la administración para que realice la intervención.',
+        },
+
+        "locomotor": {
+          "leve": 'No es suficiente para subir el elevador.',
+          "moderado": 'Permite bajar el elevador de Saumaúma <replace target="dado" calculate="0.25">[25% del resultado del dado]</replace> metros. El acantilado es de 55 metros de alto (aproximadamente 15 pisos de un edificio). Una vez que los dos grupos lleguen abajo deberán avisar a la administración para que realice la intervención.',
+          "exitoso": 'Permite bajar el elevador de Saumaúma <replace target="dado" calculate="0.50">[50% del resultado del dado]</replace> metros. El acantilado es de 55 metros de alto (aproximadamente 15 pisos de un edificio). Una vez que los dos grupos lleguen abajo deberán avisar a la administración para que realice la intervención.',
+          "critico": 'Permite bajar el elevador de Saumaúma <replace target="dado" calculate="0.75">[75% del resultado del dado]</replace> metros. El acantilado es de 55 metros de alto (aproximadamente 15 pisos de un edificio). Una vez que los dos grupos lleguen abajo deberán avisar a la administración para que realice la intervención.',
         },
 
         "reparo": {
