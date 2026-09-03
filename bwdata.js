@@ -2149,6 +2149,51 @@ const MissionsModule = (function () {
           "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "reproducción de las mariposas",
           "cont": '<span>Por primera vez, Rouge responde sin rodeos—: <strong>Siempre hay uno o dos.</strong> —dice, encogiéndose de hombros—. <strong>Gente que se cree más lista que el resto y prueba suerte.</strong> —La mayoría ni siquiera lo intenta en serio, y se van con las manos vacías.<br><br>Se queda pensando un momento, y su expresión cambia—: <strong>Aunque, ahora que lo dicen...</strong> —hace una pausa—. <strong>Hace un tiempo vi a una mujer escabullirse de acá, apurada, como si no quisiera que la vieran.</strong> —admite—. <strong>No le di importancia entonces, pero fue el mismo día que Morgana vino a visitar a la señora Moody.</strong></span>',
         },
+
+        "mariposa de jade para sirius": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar si alguien compró o se llevó una mariposa o su veneno",
+          "cont": '<span>La pregunta golpea distinto cuando se menciona el nombre de Sirius Black. Rouge deja de sonreír por un momento—: <strong>No. A él, no</strong> —dice, tajante—. Insiste en que nunca trató directamente con Sirius, y que si alguien consiguió una mariposa de jade para dársela, no fue él quien se la puso en las manos—. <strong>Pero ya les dije lo de la mujer que vi escabullirse</strong> —agrega, más serio de lo habitual—. <strong>Si quieren atar cabos, empiecen por ahí. Yo ya até los míos y no me gustó adónde llegaban.</strong></span>',
+        },
+
+        "preguntar qué querían los candidatos": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "presentarse ante rouge",
+          "cont": '<span>Rouge frunce el ceño, como si la pregunta le trajera un mal sabor de boca—: <strong>No es la primera vez que me preguntan eso este año</strong> —admite, cruzando los brazos—. <strong>Tres visitas, tres nombres que ahora no dejan de aparecer en los diarios.</strong> —Cuenta, sin mucho entusiasmo, que Sirius Black, Morgana Dempsey y Edwin Merrythought pasaron por la reserva por separado, cada uno con su propia pregunta sobre criaturas y lo que estas pueden hacerle a un cuerpo—. <strong>Yo no vendo nada</strong> —aclara, levantando un dedo—, <strong>solo hablo. Lo que hagan con la información ya no es cosa mía.</strong></span>',
+        },
+
+        "motivo de sirius": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar qué querían los candidatos",
+          "cont": '<span>Con Sirius, Rouge recuerda haber tenido que aguantar más preguntas técnicas de las que esperaba—: <strong>Quería algo que apagara el dolor del cuerpo, o que lo cambiara por dentro</strong> —resume, rascándose la nuca—. <strong>Le hablé de la esencia de murtlap, que dicen que endurece a uno contra maldiciones y mal de ojo, aunque el exceso deja pelos morados en las orejas y eso no es apagar el dolor, es esconderlo. Y cuando Sirius insistió en algo más fuerte, algo que <em>cambiara</em> de verdad, nombré al runespoor: una serpiente de tres cabezas, cada una distinta a la otra, como si la misma criatura no pudiera decidir qué ser. Sus huevos se usan en pociones que agilizan la mente, pero el veneno de la cabeza derecha es otra historia. Le dije que no jugara con eso</strong> —dice Rouge, con una seriedad poco habitual en él—. <strong>Uno no elige en qué se convierte el cuerpo después. Y no siempre es para bien.</strong></span>',
+        },
+
+        "motivo de morgana": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "motivo de sirius",
+          "cont": '<span>Morgana, dice Rouge, fue la más directa de los tres—: <strong>Quería saber si existía algo capaz de cerrar una herida grave, o incluso revertirla</strong> —cuenta—. <strong>Le hablé de la sangre de salamandra, famosa por sus propiedades curativas y restauradoras casi milagrosas, aunque conseguirla viva y sacarle sangre sin matarla es otro asunto. También mencioné, casi de pasada, las lágrimas de fénix. Esas sí que curan cualquier cosa</strong> —admite—, <strong>pero dudo que conozcan a alguien con un fénix domesticado. Yo no conozco a nadie, al menos.</strong> —Se encoge de hombros—. <strong>Le dije que buscara más cerca de un sanador que de un criadero.</strong></span>',
+        },
+
+        "motivo de edwin": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "motivo de morgana",
+          "cont": '<span>Edwin, en cambio, quería algo para potenciar la magia—: <strong>Ese sí que me hizo repetir la pregunta dos veces, para estar seguro de que había escuchado bien</strong> —dice Rouge, con una risa seca. Le contó lo que cualquiera que trabaje con criaturas sabe: que el cuerno, la sangre y el pelo de unicornio tienen propiedades mágicas de las más poderosas que existen. Pero también le contó lo otro, lo que no se cuenta tan seguido—: <strong>Beber sangre de unicornio te mantiene con vida incluso al borde de la muerte</strong> —explica—, <strong>pero a un precio. Dicen que uno queda maldito, a medio vivir, por matar algo tan puro solo para salvarse.</strong> —Sacude la cabeza—. <strong>Se lo dije tal cual. Si a él no le importó, ese es su problema, no el mío.</strong></span>',
+        },
+
+        "mito de la piedra de agua": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "motivo de edwin",
+          "cont": '<span>Rouge hace una pausa, como decidiendo si vale la pena contar esta parte—: <strong>A los tres les terminé hablando de lo mismo</strong> —confiesa—. <strong>No sé si fue porque no encontraban lo que buscaban, o porque yo ya no sabía qué más decirles.</strong> —Se refiere a un viejo mito que circula entre quienes trafican con criaturas y pociones raras: la <strong>Piedra de Agua</strong>, una piedra que, según cuentan, nace en un río subterráneo que corre muy por debajo del fondo del mar, alimentado por corrientes que ningún mapa registra. Se dice que quien la sostiene puede curar cualquier herida y romper cualquier maldición, sin importar cuán antigua o cuán oscura sea—. <strong>Los tres se quedaron con la misma cara de idiota cuando se lo conté</strong> —se ríe Rouge—. <strong>La misma que están poniendo ustedes ahora.</strong></span>',
+        },
+
+        "ubicación de la piedra de agua": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "mito de la piedra de agua",
+          "cont": '<span>Ante la pregunta obvia, Rouge levanta ambas manos, como rindiéndose de antemano—: <strong>Ni idea</strong> —dice, sin dejar lugar a dudas—. <strong>Es un mito, no un mapa. Lo escuché de un contrabandista borracho hace años, en un puerto que ni recuerdo el nombre, y se lo repetí a los tres porque no tenía nada mejor que ofrecerles.</strong> —Aclara que jamás vio la piedra, ni conoce a nadie que la haya visto, y que dudaría de cualquiera que asegure tenerla—. <strong>Si existe, está en el fondo del mar, bajo un río que nadie encontró todavía. Yo trafico con criaturas, no con leyendas.</strong></span>',
+        },
+
+        "espejo que usó dippet": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "presentarse ante rouge",
+          "cont": '<span>Al mencionar el nombre de Dippet, algo cambia en la expresión de Rouge; la sonrisa socarrona tarda un segundo de más en volver a su lugar—: <strong>¿Qué espejo? No sé de qué me hablan</strong> —dice, aunque el tono no termina de sonar tan convencido como sus palabras. Asegura que él trafica con criaturas, no con objetos de un director de Hogwarts, y que si alguien anda diciendo que ese espejo salió de sus manos, miente o se equivocó de contrabandista—. <strong>Hay más gente metida en este negocio de la que se imaginan</strong> —agrega, cortante, dando por terminado el tema.</span>',
+        },
+
+        "últimos trabajos de rouge": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "presentarse ante rouge",
+          "cont": '<span>Al preguntarle por sus tareas recientes, Rouge enumera con cierto fastidio, como si le aburriera la propia rutina—: contención de una camada de escarbatos que no paran de escapar de su recinto, revisión semanal del domo selvático y su fauna, alimentación de las criaturas del ala de reptiles, y acompañamiento a un par de sanadores que vinieron a extraer veneno de doxy con fines medicinales bajo supervisión del Ministerio—. <strong>Nada emocionante</strong> —resume, encogiéndose de hombros—. <strong>Ese es el punto de estar retirado: que no pase nada digno de mención.</strong></span>',
+        },
       },
 
       "actions": {
@@ -2705,19 +2750,14 @@ const MissionsModule = (function () {
         },
 
         {
-          "visible": { "attr": { "val": "min" }, "know": { "ccm": "10" }, "job": "invalid", "name": "invalid", }, "place": "observar al felino desde la distancia",
+          "visible": { "attr": { "val": "min" }, "know": { "ccm": "10" }, "job": "invalid", "name": "invalid", }, "place": "observar al felino",
           "cont": '<span>Con Cuidado de Criaturas Mágicas, resulta evidente que las espinas de la cola no son simples púas: su estructura hueca, similar a una aguja hipodérmica, sugiere que funcionan como un mecanismo de inyección de veneno. Cualquier intento de tomar una directamente con las manos implicaría un riesgo real de envenenamiento; sería más seguro extraerla a distancia mediante algún hechizo de invocación.</span>',
         },
 
         {
           "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "acercarse con calma y en silencio",
           "cont": '<span>Quien observe con atención nota que las manchas del pelaje laten con un brillo tenue, casi imperceptible, que parece seguir el ritmo de su respiración y calor corporal. Cuanto más calmado permanece el grupo, más se intensifica ese brillo, como si el propio animal estuviera correspondiendo a la calma con la que se lo trata.</span>',
-        },
-
-        {
-          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "calmar al felino",
-          "cont": '<span>Con la espina asegurada en un contenedor sellado, el grupo se aleja de o Coração do Curupira dejando atrás a los ejemplares, que retoman su descanso como si nada hubiera pasado. El alquimista los espera con ansias: esa pequeña muestra podría ser la clave para avanzar en la investigación sobre la Poción Matalobos.</span>',
-        },
+        }
       ],
 
       "searchs": {
@@ -2773,7 +2813,7 @@ const MissionsModule = (function () {
 
         "acercarse con calma y en silencio": {
           "visible": { "attr": { "val": "min" }, "know": { "ccm": "10" }, "job": "invalid", "name": "invalid", }, "place": "observar al felino",
-          "cont": '<span>Avanzar despacio, sin gestos bruscos y en completo silencio —o, mejor aún, tarareando o silbando por lo bajo— parece surtir efecto: el ejemplar más grande deja de tensar las orejas y permite el acercamiento, observando con una curiosidad que no tiene nada de amenazante. El más pequeño incluso se aproxima un par de pasos, olfateando el aire en dirección al grupo. Solicitar intevención de la administración.</span>',
+          "cont": '<span>Avanzar despacio, sin gestos bruscos y en completo silencio —o, mejor aún, tarareando o silbando por lo bajo— parece surtir efecto: el ejemplar más grande deja de tensar las orejas y permite el acercamiento, observando con una curiosidad que no tiene nada de amenazante. El más pequeño incluso se aproxima un par de pasos, olfateando el aire en dirección al grupo. Solicitar intervención de la administración.</span>',
         },
 
         "sobre el saumaúma": {
@@ -2792,9 +2832,9 @@ const MissionsModule = (function () {
 
         "aparecium": {
           "leve": 'No es suficiente para revelar información.',
-          "moderado": 'El mapa revela: "Al final del abismo hay un elevador que deberán subir con magia. Deberán separarse en dos equipos para que el primer grupo baje a los primeros lentamente y luego repetir el proceso desde el grupo que esta abajo. Tengan cuidado a las Ka\'a Pochy". Si miran para abajo, pueden ver un elevador que más parece una jaula de Sumaúma.<adding search="sumaúma" class="check-cards"></adding>',
-          "exitoso": 'El mapa revela: "Al final del abismo hay un elevador que deberán subir con magia. Deberán separarse en dos equipos para que el primer grupo baje a los primeros lentamente y luego repetir el proceso desde el grupo que esta abajo. Tengan cuidado a las Ka\'a Pochy". Si miran para abajo, pueden ver un elevador que más parece una jaula de Sumaúma.<adding search="sumaúma" class="check-cards"></adding>',
-          "critico": 'El mapa revela: "Al final del abismo hay un elevador que deberán subir con magia. Deberán separarse en dos equipos para que el primer grupo baje a los primeros lentamente y luego repetir el proceso desde el grupo que esta abajo. Tengan cuidado a las Ka\'a Pochy". Si miran para abajo, pueden ver un elevador que más parece una jaula de Sumaúma.<adding search="sumaúma" class="check-cards"></adding>',
+          "moderado": 'El mapa revela: "Al final del abismo hay un elevador que deberán subir con magia. Deberán separarse en dos equipos para que el primer grupo baje a los primeros lentamente y luego repetir el proceso desde el grupo que está abajo. Tengan cuidado a las Ka\'a Pochy". Si miran para abajo, pueden ver un elevador que más parece una jaula de Sumaúma.<adding search="saumaúma" class="check-cards"></adding>',
+          "exitoso": 'El mapa revela: "Al final del abismo hay un elevador que deberán subir con magia. Deberán separarse en dos equipos para que el primer grupo baje a los primeros lentamente y luego repetir el proceso desde el grupo que está abajo. Tengan cuidado a las Ka\'a Pochy". Si miran para abajo, pueden ver un elevador que más parece una jaula de Sumaúma.<adding search="saumaúma" class="check-cards"></adding>',
+          "critico": 'El mapa revela: "Al final del abismo hay un elevador que deberán subir con magia. Deberán separarse en dos equipos para que el primer grupo baje a los primeros lentamente y luego repetir el proceso desde el grupo que está abajo. Tengan cuidado a las Ka\'a Pochy". Si miran para abajo, pueden ver un elevador que más parece una jaula de Sumaúma.<adding search="saumaúma" class="check-cards"></adding>',
         },
 
         "accio": {
@@ -2839,20 +2879,6 @@ const MissionsModule = (function () {
           "critico": 'El efecto se disuelve por completo y, además, queda expuesto durante un instante el sendero que los animales de la zona usan para desplazarse, un atajo directo hacia el corazón de la selva.<adding search="llegar a o coração do curupira" class="check-cards"></adding>',
         },
 
-        "protego": {
-          "leve": 'El escudo apenas se forma a tiempo; detiene el golpe, pero la fuerza del impacto tira al lanzador al suelo.<adding search="repeler el ataque" class="check-cards"></adding>',
-          "moderado": 'El escudo bloquea el golpe sin mayores consecuencias, aunque el ejemplar retrocede solo un paso, todavía alterado.<adding search="repeler el ataque" class="check-cards"></adding>',
-          "exitoso": 'El escudo bloquea el golpe por completo; el ejemplar se detiene en seco, desorientado por el rebote.<adding search="repeler el ataque" class="check-cards"></adding>',
-          "critico": 'El escudo bloquea el golpe y el rebote alcanza también al segundo ejemplar; ambos retroceden y bajan la guardia de inmediato.<adding search="repeler el ataque" class="check-cards"></adding>',
-        },
-
-        "murus sacratus": {
-          "leve": 'El muro se forma tarde y solo alcanza a repeler parte del golpe.<adding search="repeler el ataque" class="check-cards"></adding>',
-          "moderado": 'El muro repele el golpe sin problema, aunque el brillo alcanza a alterar aún más al ejemplar.<adding search="repeler el ataque" class="check-cards"></adding>',
-          "exitoso": 'El muro repele el golpe por completo; el contacto con la energía luminosa hace retroceder al ejemplar de inmediato.<adding search="repeler el ataque" class="check-cards"></adding>',
-          "critico": 'El muro repele el golpe y su luz, lejos de alterar a los ejemplares, los calma; ambos bajan la guardia de inmediato.<adding search="repeler el ataque" class="check-cards"></adding>',
-        },
-
         "revelio": {
           "leve": 'No se detecta ningún rastro de magia adicional en el claro.',
           "moderado": 'Se detecta un leve rastro de magia residual entre los helechos, en dirección hacia el interior de la espesura.',
@@ -2861,10 +2887,10 @@ const MissionsModule = (function () {
         },
 
         "lumos": {
-          "leve": 'Encender la varita para ver mejor resulta ser un error inmediato: en la penumbra se pueden ver dos ejemplares felinos cuyas pupilas se contraen hasta convertirse en una línea fina y el pelaje se eriza. El más grande se interpone frente al más pequeño, arquea el lomo y agita la cola, dejando las espinas completamente expuestas y erguidas en clara advertencia. La luz no se apaga sola: el ejemplar más grande carga contra el grupo, buscando golpear con la cola antes de que nadie logre reaccionar. Deberán agregar como PNJ a la criatura "onça de luar". Tras resolver la situación, solicitar intevención de la administración.',
-          "moderado": 'Encender la varita para ver mejor resulta ser un error inmediato: en la penumbra se pueden ver dos ejemplares felinos cuyas pupilas se contraen hasta convertirse en una línea fina y el pelaje se eriza. El más grande se interpone frente al más pequeño, arquea el lomo y agita la cola, dejando las espinas completamente expuestas y erguidas en clara advertencia. La luz no se apaga sola: el ejemplar más grande carga contra el grupo, buscando golpear con la cola antes de que nadie logre reaccionar. Deberán agregar como PNJ a la criatura "onça de luar". Tras resolver la situación, solicitar intevención de la administración.',
-          "exitoso": 'Encender la varita para ver mejor resulta ser un error inmediato: en la penumbra se pueden ver dos ejemplares felinos cuyas pupilas se contraen hasta convertirse en una línea fina y el pelaje se eriza. El más grande se interpone frente al más pequeño, arquea el lomo y agita la cola, dejando las espinas completamente expuestas y erguidas en clara advertencia. La luz no se apaga sola: el ejemplar más grande carga contra el grupo, buscando golpear con la cola antes de que nadie logre reaccionar. Deberán agregar como PNJ a la criatura "onça de luar". Tras resolver la situación, solicitar intevención de la administración.',
-          "critico": 'Encender la varita para ver mejor resulta ser un error inmediato: en la penumbra se pueden ver dos ejemplares felinos cuyas pupilas se contraen hasta convertirse en una línea fina y el pelaje se eriza. El más grande se interpone frente al más pequeño, arquea el lomo y agita la cola, dejando las espinas completamente expuestas y erguidas en clara advertencia. La luz no se apaga sola: el ejemplar más grande carga contra el grupo, buscando golpear con la cola antes de que nadie logre reaccionar. Deberán agregar como PNJ a la criatura "onça de luar". Tras resolver la situación, solicitar intevención de la administración.',
+          "leve": 'Encender la varita para ver mejor resulta ser un error inmediato: en la penumbra se pueden ver dos ejemplares felinos cuyas pupilas se contraen hasta convertirse en una línea fina y el pelaje se eriza. El más grande se interpone frente al más pequeño, arquea el lomo y agita la cola, dejando las espinas completamente expuestas y erguidas en clara advertencia. La luz no se apaga sola: el ejemplar más grande carga contra el grupo, buscando golpear con la cola antes de que nadie logre reaccionar. Deberán agregar como PNJ a la criatura "onça de luar". Tras resolver la situación, solicitar intervención de la administración.',
+          "moderado": 'Encender la varita para ver mejor resulta ser un error inmediato: en la penumbra se pueden ver dos ejemplares felinos cuyas pupilas se contraen hasta convertirse en una línea fina y el pelaje se eriza. El más grande se interpone frente al más pequeño, arquea el lomo y agita la cola, dejando las espinas completamente expuestas y erguidas en clara advertencia. La luz no se apaga sola: el ejemplar más grande carga contra el grupo, buscando golpear con la cola antes de que nadie logre reaccionar. Deberán agregar como PNJ a la criatura "onça de luar". Tras resolver la situación, solicitar intervención de la administración.',
+          "exitoso": 'Encender la varita para ver mejor resulta ser un error inmediato: en la penumbra se pueden ver dos ejemplares felinos cuyas pupilas se contraen hasta convertirse en una línea fina y el pelaje se eriza. El más grande se interpone frente al más pequeño, arquea el lomo y agita la cola, dejando las espinas completamente expuestas y erguidas en clara advertencia. La luz no se apaga sola: el ejemplar más grande carga contra el grupo, buscando golpear con la cola antes de que nadie logre reaccionar. Deberán agregar como PNJ a la criatura "onça de luar". Tras resolver la situación, solicitar intervención de la administración.',
+          "critico": 'Encender la varita para ver mejor resulta ser un error inmediato: en la penumbra se pueden ver dos ejemplares felinos cuyas pupilas se contraen hasta convertirse en una línea fina y el pelaje se eriza. El más grande se interpone frente al más pequeño, arquea el lomo y agita la cola, dejando las espinas completamente expuestas y erguidas en clara advertencia. La luz no se apaga sola: el ejemplar más grande carga contra el grupo, buscando golpear con la cola antes de que nadie logre reaccionar. Deberán agregar como PNJ a la criatura "onça de luar". Tras resolver la situación, solicitar intervención de la administración.',
         },
 
         "sensus mitigo": {
