@@ -1706,7 +1706,7 @@ const MissionsModule = (function () {
     "the hallucination mill": {
       "description": "Con el fin de poder responder todas las dudas sobre las bebidas. Se deberá hacer un interrogatorio al actual administrador de 'Bodegas Dempsey'. Este tema contará con la participación de la administración como el administrador.",
       "image": "https://2img.net/i.imgur.com/9mnS7Op.png", "requisitos": ["un miembro del departamento del Seguridad Mágica"],
-      "users": ["/u8"],
+      "users": ["/u8","/u55"],
       "informed": [],
       "dependency": ["gilded herb"],
       "type": "interrogatorio", "closed": false, "fecha": "", "link": "", "tagged": ["morgana", "capitulo 0"],
@@ -3499,7 +3499,7 @@ const MissionsModule = (function () {
     "unlocking the veiled": {
       "description": "Con la investigación realizada del elixir de Edwin, un pocionista o alquimista tratarán de replicar la fórmula para saber verdaderamente sus efectos y poder determinar si son o no una cura para los squibs.",
       "image": "https://2img.net/i.imgur.com/gr7QrwZ.png", "requisitos": ["Un miembro debe tener Alquimia en Consagrado", "Un miembro debe tener Pociones en Avanzado"],
-      "users": [],
+      "users": ["/u159"],
       "informed": [],
       "dependency": ["the murmuring woods"],
       "type": "investigación", "closed": false, "fecha": "", "link": "", "tagged": ["edwin", "capitulo 0"],
@@ -4353,7 +4353,7 @@ const MissionsModule = (function () {
     "the wounded dragon": {
       "description": "Reportes han llegado a la reserva Natural de Flint, un dragón que ha sido volando por las tierras irlandesas. No solo son los rastros de sangre los que generan confianza de una gran herida, sino también el llanto que podía ser escuchado por toda la zona. La reserva se mueve y envía a alguien a encontrar al dragón herido para poder curarlo.",
       "image": "https://2img.net/i.imgur.com/JyNcMmD.png", "requisitos": ["Un miembro debe tener CCM en Consagrado", "Un miembro debe poseer Curación en Avanzado"],
-      "users": ["/u91","/u196"],
+      "users": ["/u91","/u55","/u150"],
       "informed": [],
       "dependency": [],
       "type": "misión", "closed": false, "fecha": "", "link": "", "tagged": ["wave", "capitulo 1"],
