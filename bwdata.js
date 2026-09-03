@@ -2761,37 +2761,22 @@ const MissionsModule = (function () {
           "cont": '<span>No tarda en aparecer el primer indicio: huellas hundidas en el barro, demasiado anchas para tratarse de un gato común, acompañadas de mechones de pelo negro enredados en la corteza de un árbol cercano. Bajo la escasa luz que se filtra entre las ramas, esos mechones parecen destellar con un brillo casi imperceptible, de un verde y un azul que no deberían pertenecer a ningún animal conocido.</span>',
         },
 
-        "seguir el rastro hasta el claro": {
+        "seguir el rastro hasta una fronda": {
           "visible": { "attr": { "int": "3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "buscar rastros del felino",
-          "cont": '<span>Siguiendo las huellas con cuidado de no perder el rastro, la vegetación empieza a abrirse hasta desembocar en un pequeño claro, casi perfecto en su forma, como si algo lo hubiera despejado con intención. La luz del sol logra colarse por primera vez en horas, iluminando un espacio que se siente, de algún modo, como el centro exacto de la selva.</span>',
+          "cont": '<span>Siguiendo las huellas con cuidado de no perder el rastro, la vegetación empieza a abrirse hasta desembocar en una pequeña fronda. Las hojas y los árboles hace que casi sea imposible ver algo más allá de sus propios pies y, a pesar del sol radiante, parece que en esa zona reinara una noche eterna.</span>',
         },
 
-        "observar al felino desde la distancia": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "seguir el rastro hasta el claro",
-          "cont": '<span>Ocultos entre la vegetación del borde del claro, los distinguen: dos ejemplares de un felino que, a simple vista, no termina de ser un gato. Las patas son mucho más anchas de lo que correspondería, el pelaje —mucho más tupido que el de cualquier gato— es de un negro profundo recorrido por manchas vívidas, entre verdes y azules, y la complexión recuerda más a la de un cachorro de tigre que a la de un felino doméstico. Sus colas, largas y flexibles, terminan en un manojo de espinas que se mecen con cada movimiento. Uno de los ejemplares, más pequeño, se frota contra el otro mientras este último permanece atento, con las orejas erguidas hacia el grupo.</span>',
+        "observar al felino": {
+          "visible": { "attr": { "sab": "4" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "seguir el rastro hasta una fronda",
+          "cont": '<span>Ocultos entre la vegetación del borde de la fronda, los distinguen: dos ejemplares de un felino que, a simple vista, no termina de ser un gato. Las patas son mucho más anchas de lo que correspondería, el pelaje —mucho más tupido que el de cualquier gato— es de un negro profundo recorrido por manchas vívidas, entre verdes y azules, y la complexión recuerda más a la de un cachorro de tigre que a la de un felino doméstico. Sus colas, largas y flexibles, terminan en un manojo de espinas que se mecen con cada movimiento. Uno de los ejemplares, más pequeño, se frota contra el otro mientras este último permanece atento, con las orejas erguidas hacia el grupo.</span>',
         },
 
         "acercarse con calma y en silencio": {
-          "visible": { "attr": { "val": "min" }, "know": { "ccm": "10" }, "job": "invalid", "name": "invalid", }, "place": "observar al felino desde la distancia",
-          "cont": '<span>Avanzar despacio, sin gestos bruscos y en completo silencio —o, mejor aún, tarareando o silbando por lo bajo— parece surtir efecto: el ejemplar más grande deja de tensar las orejas y permite el acercamiento, observando con una curiosidad que no tiene nada de amenazante. El más pequeño incluso se aproxima un par de pasos, olfateando el aire en dirección al grupo.</span>',
+          "visible": { "attr": { "val": "min" }, "know": { "ccm": "10" }, "job": "invalid", "name": "invalid", }, "place": "observar al felino",
+          "cont": '<span>Avanzar despacio, sin gestos bruscos y en completo silencio —o, mejor aún, tarareando o silbando por lo bajo— parece surtir efecto: el ejemplar más grande deja de tensar las orejas y permite el acercamiento, observando con una curiosidad que no tiene nada de amenazante. El más pequeño incluso se aproxima un par de pasos, olfateando el aire en dirección al grupo. Solicitar intevención de la administración.</span>',
         },
 
-        "iluminar la zona con la varita": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "observar al felino desde la distancia",
-          "cont": '<span>Encender la varita para ver mejor resulta ser un error inmediato: ambos ejemplares reaccionan al instante, las pupilas se contraen hasta convertirse en una línea fina y el pelaje se eriza. El más grande se interpone frente al más pequeño, arquea el lomo y agita la cola, dejando las espinas completamente expuestas y erguidas en clara advertencia. La luz no se apaga sola: el ejemplar más grande carga contra el grupo, buscando golpear con la cola antes de que nadie logre reaccionar.</span>',
-        },
-
-        "repeler el ataque": {
-          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "iluminar la zona con la varita",
-          "cont": '<span>No hay tiempo para retroceder: el ejemplar embiste, y la única opción real es interponer un escudo antes de que la cola cargada de espinas alcance a alguien. Si el escudo aguanta, el animal se detiene en seco, desorientado por el rebote, y da la oportunidad de calmarlo igual que si nunca hubiera atacado.</span>',
-        },
-
-        "calmar al felino": {
-          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "acercarse con calma y en silencio",
-          "cont": '<span>Con paciencia, y sin dejar de mantener la calma, es posible acercarse lo suficiente como para apreciar de cerca los detalles: el pelaje es suave pero denso, casi impermeable, y las manchas de colores laten con un brillo tenue que parece intensificarse con el calor del cuerpo. La cola, con las espinas visiblemente huecas como agujas, se mantiene relajada, apenas moviéndose de un lado a otro. Es el momento indicado para intentar extraer una muestra sin sobresaltar al animal.</span>',
-        },
-
-        "calmar al felino": {
+        "sobre el saumaúma": {
           "visible": { "attr": { "val": "min" }, "know": { "herbología": "15" }, "job": "invalid", "name": "invalid", }, "place": "saumaúma",
           "cont": '<span>El saumaúma es un árbol gigante emblemático de la Amazonía. En la mitología amazónica brasilera, la Sumaúma es considerada el "árbol madre" de la selva, morada de espíritus guardianes del bosque. Dicen que es donde vive el Curupira.</span>',
         },
@@ -2868,13 +2853,6 @@ const MissionsModule = (function () {
           "critico": 'El muro repele el golpe y su luz, lejos de alterar a los ejemplares, los calma; ambos bajan la guardia de inmediato.<adding search="repeler el ataque" class="check-cards"></adding>',
         },
 
-        "aparecium": {
-          "leve": 'Apenas se distinguen un par de huellas más, cubiertas de barro.',
-          "moderado": 'Se revela un tramo del rastro camuflado, marcado por mechones de un pelaje oscuro casi invisible entre las sombras.',
-          "exitoso": 'Se revela la totalidad del rastro camuflado hasta el linde del claro, además de un mechón de pelo con manchas de un verde intenso.',
-          "critico": 'Se revela el rastro completo y, además, una espina hueca caída en el barro; sin embargo, está reseca y quebradiza, inservible para un estudio confiable: necesitarán una muestra fresca directamente del animal.',
-        },
-
         "revelio": {
           "leve": 'No se detecta ningún rastro de magia adicional en el claro.',
           "moderado": 'Se detecta un leve rastro de magia residual entre los helechos, en dirección hacia el interior de la espesura.',
@@ -2882,12 +2860,19 @@ const MissionsModule = (function () {
           "critico": 'Se detecta el rastro completo de magia residual, que revela además que no se trata de un solo ejemplar: al menos dos fuentes distintas de energía mágica se entrecruzan en el camino hacia el claro.',
         },
 
-        "accio": {
-          "leve": 'La espina apenas se mueve, pero el tirón sobresalta al ejemplar, que retrocede y se interna en la espesura sin dejar acercarse a nadie por el resto de la jornada. La criatura ataca de manera inmediata. No podrán realizar más acciones hasta que no resuelvan el problema de las criaturas.',
-          "moderado": 'La espina se desprende, pero cae entre la maleza antes de llegar a destino; deberán acercarse de nuevo con cuidado para recuperarla del suelo.',
-          "exitoso": 'La espina se desprende limpiamente de la cola y vuela directo hasta la mano del lanzador, sin que el ejemplar llegue siquiera a inmutarse.',
-          "critico": 'La espina se desprende sin esfuerzo y llega intacta a destino; el hechizo arrastra además una segunda espina caída recientemente cerca del claro, brindando dos muestras frescas para el estudio.',
+        "lumos": {
+          "leve": 'Encender la varita para ver mejor resulta ser un error inmediato: en la penumbra se pueden ver dos ejemplares felinos cuyas pupilas se contraen hasta convertirse en una línea fina y el pelaje se eriza. El más grande se interpone frente al más pequeño, arquea el lomo y agita la cola, dejando las espinas completamente expuestas y erguidas en clara advertencia. La luz no se apaga sola: el ejemplar más grande carga contra el grupo, buscando golpear con la cola antes de que nadie logre reaccionar. Deberán agregar como PNJ a la criatura "onça de luar". Tras resolver la situación, solicitar intevención de la administración.',
+          "moderado": 'Encender la varita para ver mejor resulta ser un error inmediato: en la penumbra se pueden ver dos ejemplares felinos cuyas pupilas se contraen hasta convertirse en una línea fina y el pelaje se eriza. El más grande se interpone frente al más pequeño, arquea el lomo y agita la cola, dejando las espinas completamente expuestas y erguidas en clara advertencia. La luz no se apaga sola: el ejemplar más grande carga contra el grupo, buscando golpear con la cola antes de que nadie logre reaccionar. Deberán agregar como PNJ a la criatura "onça de luar". Tras resolver la situación, solicitar intevención de la administración.',
+          "exitoso": 'Encender la varita para ver mejor resulta ser un error inmediato: en la penumbra se pueden ver dos ejemplares felinos cuyas pupilas se contraen hasta convertirse en una línea fina y el pelaje se eriza. El más grande se interpone frente al más pequeño, arquea el lomo y agita la cola, dejando las espinas completamente expuestas y erguidas en clara advertencia. La luz no se apaga sola: el ejemplar más grande carga contra el grupo, buscando golpear con la cola antes de que nadie logre reaccionar. Deberán agregar como PNJ a la criatura "onça de luar". Tras resolver la situación, solicitar intevención de la administración.',
+          "critico": 'Encender la varita para ver mejor resulta ser un error inmediato: en la penumbra se pueden ver dos ejemplares felinos cuyas pupilas se contraen hasta convertirse en una línea fina y el pelaje se eriza. El más grande se interpone frente al más pequeño, arquea el lomo y agita la cola, dejando las espinas completamente expuestas y erguidas en clara advertencia. La luz no se apaga sola: el ejemplar más grande carga contra el grupo, buscando golpear con la cola antes de que nadie logre reaccionar. Deberán agregar como PNJ a la criatura "onça de luar". Tras resolver la situación, solicitar intevención de la administración.',
         },
+
+        "sensus mitigo": {
+          "leve": 'No es suficiente para calmar al "onça de luar".',
+          "moderado": 'No es suficiente para calmar al "onça de luar".',
+          "exitoso": 'No es suficiente para calmar al "onça de luar".',
+          "critico": 'No es suficiente para calmar al "onça de luar".',
+        }
       },
     },
     // fin through the green abyss
