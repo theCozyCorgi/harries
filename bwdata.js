@@ -2743,11 +2743,26 @@ const MissionsModule = (function () {
 
         "llegar a o coração do curupira": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "resolver la confusión del curupira",
-          "cont": '<span>Tras horas de caminata, la vegetación se vuelve todavía más densa, casi impenetrable, hasta desembocar en una zona que parece contener a la selva misma: o Coração do Curupira. El aire se siente distinto, más pesado, cargado de una calma antigua que nada tiene de tranquilizadora. Los árboles crecen tan juntos que forman un techo casi total, y el silencio, roto apenas por sonidos lejanos, deja en claro que están pisando un lugar que pocos han recorrido antes.</span>',
+          "cont": '<span>Tras horas de caminata, llegan a una zona marcada con una forma de corazón y un río que atraviesa el mismo. Solo que al llegar al lugar, pueden ver el corazón, muchos metros más abajo. Frente a ellos hay un acantilado con una caída que parece mortal para cualquier persona que se atreva a intentarla.</span>',
+        },
+
+        "": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "llegar a o coração do curupira",
+          "cont": '<span>Posti</span>',
+        },
+
+        "": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "llegar a o coração do curupira",
+          "cont": '<span>Posti</span>',
+        },
+
+        "coração do curupira": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "intervención1",
+          "cont": '<span>Al llegar al lugar, la vegetación se vuelve todavía más densa, casi impenetrable, hasta desembocar en una zona que parece contener a la selva misma: o Coração do Curupira. El aire se siente distinto, más pesado, cargado de una calma antigua que nada tiene de tranquilizadora. Los árboles crecen tan juntos que forman un techo casi total, y el silencio, roto apenas por sonidos lejanos, deja en claro que están pisando un lugar que pocos han recorrido antes.</span>',
         },
 
         "buscar rastros del felino": {
-          "visible": { "attr": { "sab": "3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "llegar a o coração do curupira",
+          "visible": { "attr": { "sab": "3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "coração do curupira",
           "cont": '<span>No tarda en aparecer el primer indicio: huellas hundidas en el barro, demasiado anchas para tratarse de un gato común, acompañadas de mechones de pelo negro enredados en la corteza de un árbol cercano. Bajo la escasa luz que se filtra entre las ramas, esos mechones parecen destellar con un brillo casi imperceptible, de un verde y un azul que no deberían pertenecer a ningún animal conocido.</span>',
         },
 
