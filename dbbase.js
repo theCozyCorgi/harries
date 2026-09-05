@@ -48055,6 +48055,136 @@ const DBModule = (function () {
             "date": "19/12/1952",
             "location": "Tres escobas"
         },
+        "898": {
+            "space": "el pensadero",
+            "url": "/t898-1953-01-15-awake",
+            "simpleTitle": "awake",
+            "creator": "Asteria C. Lestrange",
+            "posts": [
+                {
+                    "url": "r11726",
+                    "author": "Asteria C. Lestrange",
+                    "date": "10/01/2026",
+                    "words": 358
+                },
+                {
+                    "url": "r11851",
+                    "author": "Barnaby R. Rookwood",
+                    "date": "15/01/2026",
+                    "words": 267
+                },
+                {
+                    "url": "r12003",
+                    "author": "Asteria C. Lestrange",
+                    "date": "18/01/2026",
+                    "words": 270
+                },
+                {
+                    "url": "r12411",
+                    "author": "Barnaby R. Rookwood",
+                    "date": "28/01/2026",
+                    "words": 259
+                },
+                {
+                    "url": "r13806",
+                    "author": "Asteria C. Lestrange",
+                    "date": "23/02/2026",
+                    "words": 304
+                },
+                {
+                    "url": "r14322",
+                    "author": "Barnaby R. Rookwood",
+                    "date": "03/03/2026",
+                    "words": 280
+                },
+                {
+                    "url": "r14323",
+                    "author": "The Familiars",
+                    "date": "03/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r15843",
+                    "author": "Asteria C. Lestrange",
+                    "date": "31/03/2026",
+                    "words": 290
+                },
+                {
+                    "url": "r16127",
+                    "author": "Barnaby R. Rookwood",
+                    "date": "05/04/2026",
+                    "words": 388
+                },
+                {
+                    "url": "r16628",
+                    "author": "Asteria C. Lestrange",
+                    "date": "18/04/2026",
+                    "words": 326
+                },
+                {
+                    "url": "r17067",
+                    "author": "Barnaby R. Rookwood",
+                    "date": "28/04/2026",
+                    "words": 292
+                },
+                {
+                    "url": "r18737",
+                    "author": "Asteria C. Lestrange",
+                    "date": "21/05/2026",
+                    "words": 282
+                },
+                {
+                    "url": "r19333",
+                    "author": "Barnaby R. Rookwood",
+                    "date": "31/05/2026",
+                    "words": 239
+                },
+                {
+                    "url": "r19334",
+                    "author": "The Familiars",
+                    "date": "31/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20187",
+                    "author": "Asteria C. Lestrange",
+                    "date": "24/06/2026",
+                    "words": 307
+                },
+                {
+                    "url": "r20618",
+                    "author": "Barnaby R. Rookwood",
+                    "date": "10/07/2026",
+                    "words": 344
+                },
+                {
+                    "url": "r21196",
+                    "author": "Asteria C. Lestrange",
+                    "date": "01/08/2026",
+                    "words": 265
+                },
+                {
+                    "url": "r21305",
+                    "author": "Barnaby R. Rookwood",
+                    "date": "02/08/2026",
+                    "words": 258
+                },
+                {
+                    "url": "r22137",
+                    "author": "Asteria C. Lestrange",
+                    "date": "24/08/2026",
+                    "words": 292
+                },
+                {
+                    "url": "r22288",
+                    "author": "Barnaby R. Rookwood",
+                    "date": "28/08/2026",
+                    "words": 192
+                }
+            ],
+            "date": "15/01/1953",
+            "location": "Pasillos, Tercer Piso — Hogwarts"
+        },
         "902": {
             "space": "el pensadero",
             "url": "/t902-1939-05-17-lifeboat",
@@ -49622,6 +49752,106 @@ const DBModule = (function () {
             ],
             "date": "18/01/1953",
             "location": "Las Tres Escobas"
+        },
+        "927": {
+            "space": "el pensadero",
+            "url": "/t927-1953-01-29-how-we-re-gonna-be-just-friends",
+            "simpleTitle": "how we're gonna be just friends?",
+            "creator": "Hankford B. Diggory",
+            "posts": [
+                {
+                    "url": "r12110",
+                    "author": "Hankford B. Diggory",
+                    "date": "19/01/2026",
+                    "words": 272
+                },
+                {
+                    "url": "r12364",
+                    "author": "Aidan N. Flamel",
+                    "date": "27/01/2026",
+                    "words": 403
+                },
+                {
+                    "url": "r12739",
+                    "author": "Hankford B. Diggory",
+                    "date": "06/02/2026",
+                    "words": 451
+                },
+                {
+                    "url": "r14162",
+                    "author": "Aidan N. Flamel",
+                    "date": "01/03/2026",
+                    "words": 344
+                },
+                {
+                    "url": "r14845",
+                    "author": "Hankford B. Diggory",
+                    "date": "13/03/2026",
+                    "words": 401
+                },
+                {
+                    "url": "r16068",
+                    "author": "Aidan N. Flamel",
+                    "date": "03/04/2026",
+                    "words": 292
+                },
+                {
+                    "url": "r16234",
+                    "author": "Hankford B. Diggory",
+                    "date": "08/04/2026",
+                    "words": 474
+                },
+                {
+                    "url": "r16408",
+                    "author": "Aidan N. Flamel",
+                    "date": "13/04/2026",
+                    "words": 306
+                },
+                {
+                    "url": "r16895",
+                    "author": "Hankford B. Diggory",
+                    "date": "24/04/2026",
+                    "words": 309
+                },
+                {
+                    "url": "r18385",
+                    "author": "Aidan N. Flamel",
+                    "date": "15/05/2026",
+                    "words": 313
+                },
+                {
+                    "url": "r19324",
+                    "author": "Hankford B. Diggory",
+                    "date": "31/05/2026",
+                    "words": 438
+                },
+                {
+                    "url": "r20181",
+                    "author": "Aidan N. Flamel",
+                    "date": "24/06/2026",
+                    "words": 356
+                },
+                {
+                    "url": "r20694",
+                    "author": "Hankford B. Diggory",
+                    "date": "13/07/2026",
+                    "words": 360
+                },
+                {
+                    "url": "r21294",
+                    "author": "Aidan N. Flamel",
+                    "date": "02/08/2026",
+                    "words": 195
+                },
+                {
+                    "url": "r21695",
+                    "author": "Hankford B. Diggory",
+                    "date": "11/08/2026",
+                    "words": 248
+                }
+            ],
+            "date": "29/01/1953",
+            "location": "Sección Prohibida - Biblioteca"
         },
         "931": {
             "space": "el pensadero",
@@ -62065,6 +62295,124 @@ const DBModule = (function () {
             "date": "03/03/1953",
             "location": "Las Tres Escobas"
         },
+        "1137": {
+            "space": "el pensadero",
+            "url": "/t1137-1953-03-19-northern-attitude",
+            "simpleTitle": "northern attitude",
+            "creator": "Minerva E. McGonagall",
+            "posts": [
+                {
+                    "url": "r16098",
+                    "author": "Minerva E. McGonagall",
+                    "date": "04/04/2026",
+                    "words": 334
+                },
+                {
+                    "url": "r16134",
+                    "author": "Hermes Rosier",
+                    "date": "05/04/2026",
+                    "words": 226
+                },
+                {
+                    "url": "r16577",
+                    "author": "Minerva E. McGonagall",
+                    "date": "16/04/2026",
+                    "words": 322
+                },
+                {
+                    "url": "r16790",
+                    "author": "Hermes Rosier",
+                    "date": "20/04/2026",
+                    "words": 312
+                },
+                {
+                    "url": "r17031",
+                    "author": "Minerva E. McGonagall",
+                    "date": "27/04/2026",
+                    "words": 248
+                },
+                {
+                    "url": "r17045",
+                    "author": "Hermes Rosier",
+                    "date": "27/04/2026",
+                    "words": 251
+                },
+                {
+                    "url": "r17597",
+                    "author": "Minerva E. McGonagall",
+                    "date": "04/05/2026",
+                    "words": 266
+                },
+                {
+                    "url": "r17902",
+                    "author": "Hermes Rosier",
+                    "date": "08/05/2026",
+                    "words": 288
+                },
+                {
+                    "url": "r18208",
+                    "author": "Minerva E. McGonagall",
+                    "date": "12/05/2026",
+                    "words": 264
+                },
+                {
+                    "url": "r19073",
+                    "author": "Hermes Rosier",
+                    "date": "27/05/2026",
+                    "words": 273
+                },
+                {
+                    "url": "r19393",
+                    "author": "Minerva E. McGonagall",
+                    "date": "31/05/2026",
+                    "words": 261
+                },
+                {
+                    "url": "r19572",
+                    "author": "Hermes Rosier",
+                    "date": "03/06/2026",
+                    "words": 299
+                },
+                {
+                    "url": "r19781",
+                    "author": "Minerva E. McGonagall",
+                    "date": "10/06/2026",
+                    "words": 242
+                },
+                {
+                    "url": "r20072",
+                    "author": "Hermes Rosier",
+                    "date": "19/06/2026",
+                    "words": 316
+                },
+                {
+                    "url": "r20492",
+                    "author": "Minerva E. McGonagall",
+                    "date": "04/07/2026",
+                    "words": 348
+                },
+                {
+                    "url": "r20630",
+                    "author": "Hermes Rosier",
+                    "date": "10/07/2026",
+                    "words": 343
+                },
+                {
+                    "url": "r21482",
+                    "author": "Minerva E. McGonagall",
+                    "date": "05/08/2026",
+                    "words": 276
+                },
+                {
+                    "url": "r22026",
+                    "author": "Hermes Rosier",
+                    "date": "20/08/2026",
+                    "words": 246
+                }
+            ],
+            "date": "19/03/1953",
+            "location": "Torre del Reloj"
+        },
         "1142": {
             "space": "el pensadero",
             "url": "/t1142-1953-03-08-practica-doing-fine",
@@ -65341,6 +65689,844 @@ const DBModule = (function () {
             "date": "06/03/1953",
             "location": "Casa de Alastor y Shun"
         },
+        "1205": {
+            "space": "el pensadero",
+            "url": "/t1205-1953-03-28-mision-the-murmuring-woods",
+            "simpleTitle": "misión: the murmuring woods",
+            "creator": "Black Wave",
+            "posts": [
+                {
+                    "url": "r17715",
+                    "author": "Black Wave",
+                    "date": "06/05/2026",
+                    "words": 218
+                },
+                {
+                    "url": "r17719",
+                    "author": "Jupiter Merrythought",
+                    "date": "06/05/2026",
+                    "words": 290
+                },
+                {
+                    "url": "r17720",
+                    "author": "The Familiars",
+                    "date": "06/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r17740",
+                    "author": "Elysia G. Lestrange",
+                    "date": "06/05/2026",
+                    "words": 295
+                },
+                {
+                    "url": "r17741",
+                    "author": "The Familiars",
+                    "date": "06/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r17783",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "07/05/2026",
+                    "words": 299
+                },
+                {
+                    "url": "r17784",
+                    "author": "The Familiars",
+                    "date": "07/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r17790",
+                    "author": "Ksenia D. Demidova",
+                    "date": "07/05/2026",
+                    "words": 394
+                },
+                {
+                    "url": "r17791",
+                    "author": "The Familiars",
+                    "date": "07/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r17858",
+                    "author": "H. Shun Parkinson",
+                    "date": "08/05/2026",
+                    "words": 265
+                },
+                {
+                    "url": "r17859",
+                    "author": "The Familiars",
+                    "date": "08/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r17927",
+                    "author": "Mercury Merrythought",
+                    "date": "08/05/2026",
+                    "words": 245
+                },
+                {
+                    "url": "r17928",
+                    "author": "The Familiars",
+                    "date": "08/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r17936",
+                    "author": "Jupiter Merrythought",
+                    "date": "08/05/2026",
+                    "words": 459
+                },
+                {
+                    "url": "r17937",
+                    "author": "The Familiars",
+                    "date": "08/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r18068",
+                    "author": "Elysia G. Lestrange",
+                    "date": "10/05/2026",
+                    "words": 283
+                },
+                {
+                    "url": "r18069",
+                    "author": "The Familiars",
+                    "date": "10/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r18106",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "11/05/2026",
+                    "words": 291
+                },
+                {
+                    "url": "r18107",
+                    "author": "The Familiars",
+                    "date": "11/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r18282",
+                    "author": "Ksenia D. Demidova",
+                    "date": "13/05/2026",
+                    "words": 241
+                },
+                {
+                    "url": "r17715",
+                    "author": "Black Wave",
+                    "date": "06/05/2026",
+                    "words": 218
+                },
+                {
+                    "url": "r18283",
+                    "author": "The Familiars",
+                    "date": "13/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r18313",
+                    "author": "H. Shun Parkinson",
+                    "date": "14/05/2026",
+                    "words": 219
+                },
+                {
+                    "url": "r18314",
+                    "author": "The Familiars",
+                    "date": "14/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r18355",
+                    "author": "Mercury Merrythought",
+                    "date": "14/05/2026",
+                    "words": 214
+                },
+                {
+                    "url": "r18356",
+                    "author": "The Familiars",
+                    "date": "14/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r18408",
+                    "author": "Jupiter Merrythought",
+                    "date": "15/05/2026",
+                    "words": 233
+                },
+                {
+                    "url": "r18409",
+                    "author": "The Familiars",
+                    "date": "15/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r18459",
+                    "author": "Elysia G. Lestrange",
+                    "date": "16/05/2026",
+                    "words": 240
+                },
+                {
+                    "url": "r18460",
+                    "author": "The Familiars",
+                    "date": "16/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r18572",
+                    "author": "Valerian",
+                    "date": "18/05/2026",
+                    "words": 96
+                },
+                {
+                    "url": "r18580",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "18/05/2026",
+                    "words": 223
+                },
+                {
+                    "url": "r18581",
+                    "author": "The Familiars",
+                    "date": "18/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r18697",
+                    "author": "Ksenia D. Demidova",
+                    "date": "20/05/2026",
+                    "words": 232
+                },
+                {
+                    "url": "r18698",
+                    "author": "The Familiars",
+                    "date": "20/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r18718",
+                    "author": "H. Shun Parkinson",
+                    "date": "20/05/2026",
+                    "words": 224
+                },
+                {
+                    "url": "r18719",
+                    "author": "The Familiars",
+                    "date": "20/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r18763",
+                    "author": "Mercury Merrythought",
+                    "date": "21/05/2026",
+                    "words": 216
+                },
+                {
+                    "url": "r18764",
+                    "author": "The Familiars",
+                    "date": "21/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r18767",
+                    "author": "Jupiter Merrythought",
+                    "date": "21/05/2026",
+                    "words": 246
+                },
+                {
+                    "url": "r18768",
+                    "author": "The Familiars",
+                    "date": "21/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r17715",
+                    "author": "Black Wave",
+                    "date": "06/05/2026",
+                    "words": 218
+                },
+                {
+                    "url": "r18817",
+                    "author": "Elysia G. Lestrange",
+                    "date": "22/05/2026",
+                    "words": 262
+                },
+                {
+                    "url": "r18818",
+                    "author": "The Familiars",
+                    "date": "22/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r18963",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "26/05/2026",
+                    "words": 186
+                },
+                {
+                    "url": "r18964",
+                    "author": "The Familiars",
+                    "date": "26/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r19155",
+                    "author": "Ksenia D. Demidova",
+                    "date": "28/05/2026",
+                    "words": 253
+                },
+                {
+                    "url": "r19156",
+                    "author": "The Familiars",
+                    "date": "28/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r19172",
+                    "author": "H. Shun Parkinson",
+                    "date": "28/05/2026",
+                    "words": 259
+                },
+                {
+                    "url": "r19173",
+                    "author": "The Familiars",
+                    "date": "28/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r19458",
+                    "author": "Mercury Merrythought",
+                    "date": "01/06/2026",
+                    "words": 204
+                },
+                {
+                    "url": "r19459",
+                    "author": "Jupiter Merrythought",
+                    "date": "01/06/2026",
+                    "words": 204
+                },
+                {
+                    "url": "r19460",
+                    "author": "The Familiars",
+                    "date": "01/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r19482",
+                    "author": "Elysia G. Lestrange",
+                    "date": "01/06/2026",
+                    "words": 184
+                },
+                {
+                    "url": "r19483",
+                    "author": "The Familiars",
+                    "date": "01/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r19586",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "04/06/2026",
+                    "words": 293
+                },
+                {
+                    "url": "r19587",
+                    "author": "The Familiars",
+                    "date": "04/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r19686",
+                    "author": "Ksenia D. Demidova",
+                    "date": "07/06/2026",
+                    "words": 296
+                },
+                {
+                    "url": "r19687",
+                    "author": "The Familiars",
+                    "date": "07/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r19716",
+                    "author": "H. Shun Parkinson",
+                    "date": "08/06/2026",
+                    "words": 258
+                },
+                {
+                    "url": "r19717",
+                    "author": "The Familiars",
+                    "date": "08/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r19893",
+                    "author": "Jupiter Merrythought",
+                    "date": "14/06/2026",
+                    "words": 265
+                },
+                {
+                    "url": "r17715",
+                    "author": "Black Wave",
+                    "date": "06/05/2026",
+                    "words": 218
+                },
+                {
+                    "url": "r19894",
+                    "author": "The Familiars",
+                    "date": "14/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r19993",
+                    "author": "Elysia G. Lestrange",
+                    "date": "17/06/2026",
+                    "words": 268
+                },
+                {
+                    "url": "r19994",
+                    "author": "The Familiars",
+                    "date": "17/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20024",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "18/06/2026",
+                    "words": 262
+                },
+                {
+                    "url": "r20025",
+                    "author": "The Familiars",
+                    "date": "18/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20157",
+                    "author": "Ksenia D. Demidova",
+                    "date": "23/06/2026",
+                    "words": 253
+                },
+                {
+                    "url": "r20158",
+                    "author": "The Familiars",
+                    "date": "23/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20178",
+                    "author": "H. Shun Parkinson",
+                    "date": "24/06/2026",
+                    "words": 255
+                },
+                {
+                    "url": "r20179",
+                    "author": "The Familiars",
+                    "date": "24/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20270",
+                    "author": "Mercury Merrythought",
+                    "date": "27/06/2026",
+                    "words": 278
+                },
+                {
+                    "url": "r20271",
+                    "author": "The Familiars",
+                    "date": "27/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20275",
+                    "author": "Jupiter Merrythought",
+                    "date": "27/06/2026",
+                    "words": 341
+                },
+                {
+                    "url": "r20276",
+                    "author": "The Familiars",
+                    "date": "27/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20381",
+                    "author": "Elysia G. Lestrange",
+                    "date": "29/06/2026",
+                    "words": 367
+                },
+                {
+                    "url": "r20382",
+                    "author": "The Familiars",
+                    "date": "29/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20464",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "03/07/2026",
+                    "words": 209
+                },
+                {
+                    "url": "r20546",
+                    "author": "Ksenia D. Demidova",
+                    "date": "05/07/2026",
+                    "words": 253
+                },
+                {
+                    "url": "r20575",
+                    "author": "H. Shun Parkinson",
+                    "date": "07/07/2026",
+                    "words": 215
+                },
+                {
+                    "url": "r20576",
+                    "author": "The Familiars",
+                    "date": "07/07/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20607",
+                    "author": "Mercury Merrythought",
+                    "date": "09/07/2026",
+                    "words": 245
+                },
+                {
+                    "url": "r17715",
+                    "author": "Black Wave",
+                    "date": "06/05/2026",
+                    "words": 218
+                },
+                {
+                    "url": "r20608",
+                    "author": "The Familiars",
+                    "date": "09/07/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20624",
+                    "author": "Jupiter Merrythought",
+                    "date": "10/07/2026",
+                    "words": 247
+                },
+                {
+                    "url": "r20625",
+                    "author": "The Familiars",
+                    "date": "10/07/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20654",
+                    "author": "Elysia G. Lestrange",
+                    "date": "11/07/2026",
+                    "words": 276
+                },
+                {
+                    "url": "r20679",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "13/07/2026",
+                    "words": 183
+                },
+                {
+                    "url": "r20680",
+                    "author": "The Familiars",
+                    "date": "13/07/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20885",
+                    "author": "Jupiter Merrythought",
+                    "date": "19/07/2026",
+                    "words": 188
+                },
+                {
+                    "url": "r20886",
+                    "author": "The Familiars",
+                    "date": "19/07/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21000",
+                    "author": "Mercury Merrythought",
+                    "date": "25/07/2026",
+                    "words": 150
+                },
+                {
+                    "url": "r21001",
+                    "author": "The Familiars",
+                    "date": "25/07/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21006",
+                    "author": "Jupiter Merrythought",
+                    "date": "25/07/2026",
+                    "words": 224
+                },
+                {
+                    "url": "r21007",
+                    "author": "The Familiars",
+                    "date": "25/07/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21012",
+                    "author": "Ksenia D. Demidova",
+                    "date": "25/07/2026",
+                    "words": 192
+                },
+                {
+                    "url": "r21015",
+                    "author": "Elysia G. Lestrange",
+                    "date": "25/07/2026",
+                    "words": 168
+                },
+                {
+                    "url": "r21056",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "27/07/2026",
+                    "words": 216
+                },
+                {
+                    "url": "r21057",
+                    "author": "The Familiars",
+                    "date": "27/07/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21107",
+                    "author": "H. Shun Parkinson",
+                    "date": "30/07/2026",
+                    "words": 228
+                },
+                {
+                    "url": "r21108",
+                    "author": "The Familiars",
+                    "date": "30/07/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21329",
+                    "author": "Valerian",
+                    "date": "02/08/2026",
+                    "words": 136
+                },
+                {
+                    "url": "r21387",
+                    "author": "Jupiter Merrythought",
+                    "date": "03/08/2026",
+                    "words": 292
+                },
+                {
+                    "url": "r17715",
+                    "author": "Black Wave",
+                    "date": "06/05/2026",
+                    "words": 218
+                },
+                {
+                    "url": "r21388",
+                    "author": "The Familiars",
+                    "date": "03/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21403",
+                    "author": "Elysia G. Lestrange",
+                    "date": "03/08/2026",
+                    "words": 244
+                },
+                {
+                    "url": "r21404",
+                    "author": "The Familiars",
+                    "date": "03/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21545",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "08/08/2026",
+                    "words": 212
+                },
+                {
+                    "url": "r21546",
+                    "author": "The Familiars",
+                    "date": "08/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21708",
+                    "author": "Ksenia D. Demidova",
+                    "date": "11/08/2026",
+                    "words": 304
+                },
+                {
+                    "url": "r21709",
+                    "author": "The Familiars",
+                    "date": "11/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21755",
+                    "author": "H. Shun Parkinson",
+                    "date": "13/08/2026",
+                    "words": 447
+                },
+                {
+                    "url": "r21756",
+                    "author": "The Familiars",
+                    "date": "13/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21761",
+                    "author": "Jupiter Merrythought",
+                    "date": "13/08/2026",
+                    "words": 262
+                },
+                {
+                    "url": "r21762",
+                    "author": "The Familiars",
+                    "date": "13/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21799",
+                    "author": "Elysia G. Lestrange",
+                    "date": "14/08/2026",
+                    "words": 251
+                },
+                {
+                    "url": "r21800",
+                    "author": "The Familiars",
+                    "date": "14/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21908",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "16/08/2026",
+                    "words": 229
+                },
+                {
+                    "url": "r21909",
+                    "author": "The Familiars",
+                    "date": "16/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21947",
+                    "author": "Ksenia D. Demidova",
+                    "date": "18/08/2026",
+                    "words": 256
+                },
+                {
+                    "url": "r21948",
+                    "author": "The Familiars",
+                    "date": "18/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22002",
+                    "author": "H. Shun Parkinson",
+                    "date": "20/08/2026",
+                    "words": 245
+                },
+                {
+                    "url": "r22003",
+                    "author": "The Familiars",
+                    "date": "20/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22006",
+                    "author": "Jupiter Merrythought",
+                    "date": "20/08/2026",
+                    "words": 318
+                },
+                {
+                    "url": "r17715",
+                    "author": "Black Wave",
+                    "date": "06/05/2026",
+                    "words": 218
+                },
+                {
+                    "url": "r22007",
+                    "author": "The Familiars",
+                    "date": "20/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22013",
+                    "author": "Elysia G. Lestrange",
+                    "date": "20/08/2026",
+                    "words": 256
+                },
+                {
+                    "url": "r22014",
+                    "author": "The Familiars",
+                    "date": "20/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22113",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "23/08/2026",
+                    "words": 206
+                },
+                {
+                    "url": "r22114",
+                    "author": "The Familiars",
+                    "date": "23/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22154",
+                    "author": "Ksenia D. Demidova",
+                    "date": "24/08/2026",
+                    "words": 291
+                },
+                {
+                    "url": "r22155",
+                    "author": "The Familiars",
+                    "date": "24/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22194",
+                    "author": "H. Shun Parkinson",
+                    "date": "25/08/2026",
+                    "words": 305
+                },
+                {
+                    "url": "r22195",
+                    "author": "The Familiars",
+                    "date": "25/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22204",
+                    "author": "Jupiter Merrythought",
+                    "date": "25/08/2026",
+                    "words": 482
+                },
+                {
+                    "url": "r22205",
+                    "author": "The Familiars",
+                    "date": "25/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22344",
+                    "author": "Black Wave",
+                    "date": "01/09/2026",
+                    "words": 109
+                }
+            ],
+            "date": "28/03/1953",
+            "location": "Dayflower Garden"
+        },
         "1207": {
             "space": "el pensadero",
             "url": "/t1207-1953-03-12-estudio-en-escarlata",
@@ -65398,6 +66584,172 @@ const DBModule = (function () {
             ],
             "date": "12/03/1953",
             "location": "Librería, Londres Muggle"
+        },
+        "1209": {
+            "space": "el pensadero",
+            "url": "/t1209-1953-04-19-practica-bones-shake",
+            "simpleTitle": "práctica - bones shake",
+            "creator": "Neptune E. Merrythought",
+            "posts": [
+                {
+                    "url": "r17779",
+                    "author": "Neptune E. Merrythought",
+                    "date": "07/05/2026",
+                    "words": 207
+                },
+                {
+                    "url": "r17780",
+                    "author": "The Familiars",
+                    "date": "07/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r17901",
+                    "author": "Montgomery Thatch",
+                    "date": "08/05/2026",
+                    "words": 234
+                },
+                {
+                    "url": "r18514",
+                    "author": "Neptune E. Merrythought",
+                    "date": "17/05/2026",
+                    "words": 198
+                },
+                {
+                    "url": "r18515",
+                    "author": "The Familiars",
+                    "date": "17/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r18519",
+                    "author": "Montgomery Thatch",
+                    "date": "17/05/2026",
+                    "words": 275
+                },
+                {
+                    "url": "r18520",
+                    "author": "The Familiars",
+                    "date": "17/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r18682",
+                    "author": "Neptune E. Merrythought",
+                    "date": "20/05/2026",
+                    "words": 301
+                },
+                {
+                    "url": "r18683",
+                    "author": "The Familiars",
+                    "date": "20/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r18727",
+                    "author": "Montgomery Thatch",
+                    "date": "20/05/2026",
+                    "words": 346
+                },
+                {
+                    "url": "r18728",
+                    "author": "The Familiars",
+                    "date": "20/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r19555",
+                    "author": "Neptune E. Merrythought",
+                    "date": "03/06/2026",
+                    "words": 281
+                },
+                {
+                    "url": "r19556",
+                    "author": "The Familiars",
+                    "date": "03/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r19654",
+                    "author": "Montgomery Thatch",
+                    "date": "06/06/2026",
+                    "words": 282
+                },
+                {
+                    "url": "r19655",
+                    "author": "The Familiars",
+                    "date": "06/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r19972",
+                    "author": "Neptune E. Merrythought",
+                    "date": "17/06/2026",
+                    "words": 210
+                },
+                {
+                    "url": "r19973",
+                    "author": "The Familiars",
+                    "date": "17/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20529",
+                    "author": "Montgomery Thatch",
+                    "date": "04/07/2026",
+                    "words": 359
+                },
+                {
+                    "url": "r20530",
+                    "author": "The Familiars",
+                    "date": "04/07/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21603",
+                    "author": "Neptune E. Merrythought",
+                    "date": "09/08/2026",
+                    "words": 381
+                },
+                {
+                    "url": "r17779",
+                    "author": "Neptune E. Merrythought",
+                    "date": "07/05/2026",
+                    "words": 207
+                },
+                {
+                    "url": "r21604",
+                    "author": "The Familiars",
+                    "date": "09/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21726",
+                    "author": "Montgomery Thatch",
+                    "date": "12/08/2026",
+                    "words": 373
+                },
+                {
+                    "url": "r21727",
+                    "author": "The Familiars",
+                    "date": "12/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22044",
+                    "author": "Neptune E. Merrythought",
+                    "date": "21/08/2026",
+                    "words": 308
+                },
+                {
+                    "url": "r22253",
+                    "author": "Montgomery Thatch",
+                    "date": "26/08/2026",
+                    "words": 222
+                }
+            ],
+            "date": "19/04/1953",
+            "location": "Mazmorras"
         },
         "1219": {
             "space": "el pensadero",
@@ -111052,6 +112404,1045 @@ const DBModule = (function () {
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Regulus O. Black ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"somniorum clavis\" (10)</strong>El inefable puede observar el sueño, pero sin interactuar en él.<br>[PENALIDAD] El dado actua como \"7\" por Enfermedad de los Temblores.</span></div></div></div>",
             "url": "r19632",
             "simpleTitle": "devil doesn't bargain",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Neptune E. Merrythought",
+            "spread": [
+                13
+            ],
+            "title": "potions",
+            "key": "bálsamo removedor de golpes",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Neptune E. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">13</span></div></div></div>",
+            "url": "r17780",
+            "simpleTitle": "práctica - bones shake",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Neptune E. Merrythought",
+            "spread": [
+                19
+            ],
+            "title": "actions",
+            "key": "majar un ingrediente",
+            "knowledge": "pociones",
+            "type": "pociones, sin magia, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Neptune E. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"pociones\"><strong>Resultado  #1 \"majar un ingrediente\" (19)</strong><span>Añade al contador de la poción los puntos que el personaje tenga en Destreza + +23.</span></span></div></div></div>",
+            "url": "r18515",
+            "simpleTitle": "práctica - bones shake",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                4
+            ],
+            "title": "actions",
+            "key": "majar un ingrediente",
+            "knowledge": "pociones",
+            "type": "pociones, sin magia, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Montgomery Thatch ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"pociones\"><strong>Resultado  #1 \"majar un ingrediente\" (4)</strong><span>Añade al contador de la poción los puntos que el personaje tenga en Destreza + +4.</span></span></div></div></div>",
+            "url": "r18520",
+            "simpleTitle": "práctica - bones shake",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Neptune E. Merrythought",
+            "spread": [
+                6
+            ],
+            "title": "actions",
+            "key": "picar un ingrediente",
+            "knowledge": "pociones",
+            "type": "pociones, sin magia, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Neptune E. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"pociones\"><strong>Resultado  #1 \"picar un ingrediente\" (6)</strong><span>Añade al contador de la poción los puntos que el personaje tenga en Destreza + +7.</span></span></div></div></div>",
+            "url": "r18683",
+            "simpleTitle": "práctica - bones shake",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                7
+            ],
+            "title": "actions",
+            "key": "computus",
+            "knowledge": "aritmancia",
+            "type": "encantamiento, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Montgomery Thatch ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"aritmancia\"><strong>Resultado  #1 \"computus\" (7)</strong><span>El mago realiza un análisis impecable, detectando patrones ocultos o irregularidades en los registros.</span></span></div></div></div>",
+            "url": "r18728",
+            "simpleTitle": "práctica - bones shake",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Neptune E. Merrythought",
+            "spread": [
+                13
+            ],
+            "title": "actions",
+            "key": "remover con suavidad",
+            "knowledge": "pociones",
+            "type": "pociones, sin magia, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Neptune E. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"pociones\"><strong>Resultado  #1 \"remover con suavidad\" (13)</strong><span>Añade al contador de la poción los puntos que el personaje tenga en Destreza + +17.</span></span></div></div></div>",
+            "url": "r19556",
+            "simpleTitle": "práctica - bones shake",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                13
+            ],
+            "title": "actions",
+            "key": "añadir ingrediente al caldero",
+            "knowledge": "pociones",
+            "type": "pociones, sin magia, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Montgomery Thatch ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"pociones\"><strong>Resultado  #1 \"añadir ingrediente al caldero\" (13)</strong><span>Añade al contador de la poción los puntos que el personaje tenga en Destreza + +12.</span></span></div></div></div>",
+            "url": "r19655",
+            "simpleTitle": "práctica - bones shake",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Neptune E. Merrythought",
+            "spread": [
+                19
+            ],
+            "title": "actions",
+            "key": "remover poción en sentido horario",
+            "knowledge": "pociones",
+            "type": "pociones, sin magia, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Neptune E. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"pociones\"><strong>Resultado  #1 \"remover poción en sentido horario\" (19)</strong><span>Añade al contador de la poción los puntos que el personaje tenga en Destreza + +23.</span></span></div></div></div>",
+            "url": "r19973",
+            "simpleTitle": "práctica - bones shake",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                9
+            ],
+            "title": "actions",
+            "key": "añadir ingrediente al caldero",
+            "knowledge": "pociones",
+            "type": "pociones, sin magia, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Montgomery Thatch ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"pociones\"><strong>Resultado  #1 \"añadir ingrediente al caldero\" (9)</strong><span>Añade al contador de la poción los puntos que el personaje tenga en Destreza + +6.</span></span></div></div></div>",
+            "url": "r20530",
+            "simpleTitle": "práctica - bones shake",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Neptune E. Merrythought",
+            "spread": [
+                4
+            ],
+            "title": "actions",
+            "key": "calentar la poción",
+            "knowledge": "pociones",
+            "type": "pociones, sin magia, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Neptune E. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"pociones\"><strong>Resultado  #1 \"calentar la poción\" (4)</strong><span>Añade al contador de la poción los puntos que el personaje tenga en Destreza + +6.</span></span></div></div></div>",
+            "url": "r21604",
+            "simpleTitle": "práctica - bones shake",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                1
+            ],
+            "title": "actions",
+            "key": "almacenar poción",
+            "knowledge": "pociones",
+            "type": "pociones, sin magia, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Montgomery Thatch ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"pociones\"><strong>Resultado  #1 \"almacenar poción\" (1)</strong><span>Añade al contador de la poción los puntos que el personaje tenga en Destreza + +1.</span></span></div></div></div>",
+            "url": "r21727",
+            "simpleTitle": "práctica - bones shake",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                5
+            ],
+            "title": "actions",
+            "key": "observar por los ventanales",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">5</span></div></div></div>",
+            "url": "r17720",
+            "simpleTitle": "misión: the murmuring woods",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Elysia G. Lestrange",
+            "spread": [
+                15
+            ],
+            "title": "actions",
+            "key": "ingresar a la cocina",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Elysia G. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">15</span></div></div></div>",
+            "url": "r17741",
+            "simpleTitle": "misión: the murmuring woods",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Vasilisa M. Kuznetzova",
+            "spread": [
+                6
+            ],
+            "title": "actions",
+            "key": "inspeccionar la cocina",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">6</span></div></div></div>",
+            "url": "r17784",
+            "simpleTitle": "misión: the murmuring woods",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Ksenia D. Demidova",
+            "spread": [
+                14
+            ],
+            "title": "actions",
+            "key": "abrir la puerta hacia los jardines",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Ksenia D. Demidova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">14</span></div></div></div>",
+            "url": "r17791",
+            "simpleTitle": "misión: the murmuring woods",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                12
+            ],
+            "title": "actions",
+            "key": "tacite",
+            "knowledge": "contrabando",
+            "type": "encantamiento, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"contrabando\"><strong>Resultado  #1 \"tacite\" (12)</strong><span>El personaje logra avanzar sin que nadie note su presencia.</span></span></div></div></div>",
+            "url": "r17859",
+            "simpleTitle": "misión: the murmuring woods",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Mercury Merrythought",
+            "spread": [
+                1
+            ],
+            "title": "actions",
+            "key": "tacite",
+            "knowledge": "contrabando",
+            "type": "encantamiento, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Mercury Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"contrabando\"><strong>Resultado  #1 \"tacite\" (1)</strong><span>El personaje avanza, pero algunos ruidos alertan su presencia.</span></span></div></div></div>",
+            "url": "r17928",
+            "simpleTitle": "misión: the murmuring woods",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                12
+            ],
+            "title": "actions",
+            "key": "inspeccionar el suelo",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">12</span></div></div></div>",
+            "url": "r17937",
+            "simpleTitle": "misión: the murmuring woods",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Elysia G. Lestrange",
+            "spread": [
+                11
+            ],
+            "title": "actions",
+            "key": "tacite",
+            "knowledge": "contrabando",
+            "type": "encantamiento, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Elysia G. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"contrabando\"><strong>Resultado  #1 \"tacite\" (11)</strong><span>El personaje avanza, pero la torpeza puede generar catastróficos resultados. Por ahora, esta a salvo.</span></span></div></div></div>",
+            "url": "r18069",
+            "simpleTitle": "misión: the murmuring woods",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Vasilisa M. Kuznetzova",
+            "spread": [
+                4
+            ],
+            "title": "actions",
+            "key": "mutareforma",
+            "knowledge": "transformaciones",
+            "type": "transfiguración, ofensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"transformaciones\"><strong>Resultado  #1 \"mutareforma\" (4)</strong><span>El objeto se transforma completamente en el nuevo objeto deseado, con materiales coherentes.</span></span></div></div></div>",
+            "url": "r18107",
+            "simpleTitle": "misión: the murmuring woods",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Ksenia D. Demidova",
+            "spread": [
+                2
+            ],
+            "title": "actions",
+            "key": "ritmus conexus",
+            "knowledge": "música",
+            "type": "encantamiento, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Ksenia D. Demidova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"música\"><strong>Resultado  #1 \"ritmus conexus\" (2)</strong><span>El grupo se descoordina, causando torpeza.</span></span></div></div></div>",
+            "url": "r18283",
+            "simpleTitle": "misión: the murmuring woods",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                14
+            ],
+            "title": "actions",
+            "key": "melodia solaminis",
+            "knowledge": "música",
+            "type": "habilidad, sin magia, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"música\"><strong>Resultado  #1 \"melodia solaminis\" (14)</strong><span>Un aliado cercano se relaja momentáneamente.</span></span></div></div></div>",
+            "url": "r18314",
+            "simpleTitle": "misión: the murmuring woods",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Mercury Merrythought",
+            "spread": [
+                4
+            ],
+            "title": "actions",
+            "key": "mutareforma",
+            "knowledge": "transformaciones",
+            "type": "transfiguración, ofensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Mercury Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"transformaciones\"><strong>Resultado  #1 \"mutareforma\" (4)</strong><span>El objeto se transforma completamente en el nuevo objeto deseado, con materiales coherentes.</span></span></div></div></div>",
+            "url": "r18356",
+            "simpleTitle": "misión: the murmuring woods",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                2
+            ],
+            "title": "actions",
+            "key": "tacite",
+            "knowledge": "contrabando",
+            "type": "encantamiento, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"contrabando\"><strong>Resultado  #1 \"tacite\" (2)</strong><span>El personaje avanza, pero algunos ruidos alertan su presencia.</span></span></div></div></div>",
+            "url": "r18409",
+            "simpleTitle": "misión: the murmuring woods",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Elysia G. Lestrange",
+            "spread": [
+                4
+            ],
+            "title": "actions",
+            "key": "tacite",
+            "knowledge": "contrabando",
+            "type": "encantamiento, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Elysia G. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"contrabando\"><strong>Resultado  #1 \"tacite\" (4)</strong><span>El personaje avanza, pero algunos ruidos alertan su presencia.</span></span></div></div></div>",
+            "url": "r18460",
+            "simpleTitle": "misión: the murmuring woods",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Vasilisa M. Kuznetzova",
+            "spread": [
+                5
+            ],
+            "title": "salud",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-salud\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"salud\"</span><div class=\"dice-results\"><span class=\"roll-result nro5\"><strong>Saludable</strong>En buenas condiciones con solo algunas molestias menores. Pierde <replace target=\"pv\" calculate=\"0.1\">el 10% de sus puntos de vida</replace>.</span></div></div></div>",
+            "url": "r18581",
+            "simpleTitle": "misión: the murmuring woods",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Ksenia D. Demidova",
+            "spread": [
+                6
+            ],
+            "title": "salud",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-salud\"><span>Ksenia D. Demidova ha lanzado los dados \"salud\"</span><div class=\"dice-results\"><span class=\"roll-result nro6\"><strong>Plenitud</strong>El personaje está en excelente estado físico, sin heridas ni molestias. Pierde <replace target=\"pv\" calculate=\"0.05\">5% de sus puntos de vida</replace>.</span></div></div></div>",
+            "url": "r18698",
+            "simpleTitle": "misión: the murmuring woods",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                4
+            ],
+            "title": "salud",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-salud\"><span>H. Shun Parkinson ha lanzado los dados \"salud\"</span><div class=\"dice-results\"><span class=\"roll-result nro4\"><strong>Lastimado</strong>Heridas leves, pero el personaje está en una condición estable. Pierde <replace target=\"pv\" calculate=\"0.3\">el 30% de sus puntos de vida</replace>.</span></div></div></div>",
+            "url": "r18719",
+            "simpleTitle": "misión: the murmuring woods",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Mercury Merrythought",
+            "spread": [
+                3
+            ],
+            "title": "salud",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-salud\"><span>Mercury Merrythought ha lanzado los dados \"salud\"</span><div class=\"dice-results\"><span class=\"roll-result nro3\"><strong>Débil</strong>El personaje tiene heridas moderadas que limitan su capacidad, pero aún puede luchar. Pierde <replace target=\"pv\" calculate=\"0.5\">el 50% de sus puntos de vida</replace>.</span></div></div></div>",
+            "url": "r18764",
+            "simpleTitle": "misión: the murmuring woods",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                6
+            ],
+            "title": "salud",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-salud\"><span>Jupiter Merrythought ha lanzado los dados \"salud\"</span><div class=\"dice-results\"><span class=\"roll-result nro6\"><strong>Plenitud</strong>El personaje está en excelente estado físico, sin heridas ni molestias. Pierde <replace target=\"pv\" calculate=\"0.05\">5% de sus puntos de vida</replace>.</span></div></div></div>",
+            "url": "r18768",
+            "simpleTitle": "misión: the murmuring woods",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Elysia G. Lestrange",
+            "spread": [
+                5
+            ],
+            "title": "salud",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-salud\"><span>Elysia G. Lestrange ha lanzado los dados \"salud\"</span><div class=\"dice-results\"><span class=\"roll-result nro5\"><strong>Saludable</strong>En buenas condiciones con solo algunas molestias menores. Pierde <replace target=\"pv\" calculate=\"0.1\">el 10% de sus puntos de vida</replace>.</span></div></div></div>",
+            "url": "r18818",
+            "simpleTitle": "misión: the murmuring woods",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Vasilisa M. Kuznetzova",
+            "spread": [
+                6,
+                4
+            ],
+            "title": "actions",
+            "key": "regresar a la casa con otro personaje",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">6</span><span class=\"roll-result\">4</span></div></div></div>",
+            "url": "r18964",
+            "simpleTitle": "misión: the murmuring woods",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Ksenia D. Demidova",
+            "spread": [
+                5,
+                6
+            ],
+            "title": "actions",
+            "key": "regresar a la casa con otro personaje",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Ksenia D. Demidova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">5</span><span class=\"roll-result\">6</span></div></div></div>",
+            "url": "r19156",
+            "simpleTitle": "misión: the murmuring woods",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                20,
+                4
+            ],
+            "title": "salud",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-salud\"><span>H. Shun Parkinson ha lanzado los dados \"salud\"</span><div class=\"dice-results\"><span class=\"roll-result nro20\">undefined</span><span class=\"roll-result nro4\"><strong>Lastimado</strong>Heridas leves, pero el personaje está en una condición estable. Pierde <replace target=\"pv\" calculate=\"0.3\">el 30% de sus puntos de vida</replace>.</span></div></div></div>",
+            "url": "r19173",
+            "simpleTitle": "misión: the murmuring woods",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                7
+            ],
+            "title": "actions",
+            "key": "renovatio animi",
+            "knowledge": "liderazgo",
+            "type": "habilidad, sin magia, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"liderazgo\"><strong>Resultado  #1 \"renovatio animi\" (7)</strong><span>Los aliados podrán recuperar 15PV o adicionar +7 en defensa.</span></span></div></div></div>",
+            "url": "r19460",
+            "simpleTitle": "misión: the murmuring woods",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Elysia G. Lestrange",
+            "spread": [
+                1
+            ],
+            "title": "actions",
+            "key": "contadores",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Elysia G. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">1</span></div></div></div>",
+            "url": "r19483",
+            "simpleTitle": "misión: the murmuring woods",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Vasilisa M. Kuznetzova",
+            "spread": [
+                3
+            ],
+            "title": "actions",
+            "key": "sentir las vibraciones de la tierra",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">3</span></div></div></div>",
+            "url": "r19587",
+            "simpleTitle": "misión: the murmuring woods",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Ksenia D. Demidova",
+            "spread": [
+                16
+            ],
+            "title": "actions",
+            "key": "investigar los cajones junto a la cocina",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Ksenia D. Demidova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">16</span></div></div></div>",
+            "url": "r19687",
+            "simpleTitle": "misión: the murmuring woods",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                14
+            ],
+            "title": "actions",
+            "key": "sanatio orbis",
+            "knowledge": "curación",
+            "type": "encantamiento, curación",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #1 \"sanatio orbis\" (14)</strong><span>El hechizo se manifiesta con fuerza. Todos los presentes recuperan vitalidad, fracturas menores se acomodan, dolor y agotamiento reducidos, heridos graves quedan estables y conscientes. Restaura +16PV.</span></span></div></div></div>",
+            "url": "r19717",
+            "simpleTitle": "misión: the murmuring woods",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                2
+            ],
+            "title": "actions",
+            "key": "investigar la alacena",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">2</span></div></div></div>",
+            "url": "r19894",
+            "simpleTitle": "misión: the murmuring woods",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Elysia G. Lestrange",
+            "spread": [
+                15
+            ],
+            "title": "actions",
+            "key": "abrir la puerta del armario",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Elysia G. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">15</span></div></div></div>",
+            "url": "r19994",
+            "simpleTitle": "misión: the murmuring woods",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Vasilisa M. Kuznetzova",
+            "spread": [
+                15
+            ],
+            "title": "actions",
+            "key": "investigar unguentos",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">15</span></div></div></div>",
+            "url": "r20025",
+            "simpleTitle": "misión: the murmuring woods",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Ksenia D. Demidova",
+            "spread": [
+                3
+            ],
+            "title": "actions",
+            "key": "aplicar unguento",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Ksenia D. Demidova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">3</span></div></div></div>",
+            "url": "r20158",
+            "simpleTitle": "misión: the murmuring woods",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                10
+            ],
+            "title": "actions",
+            "key": "episkey",
+            "knowledge": "curación",
+            "type": "encantamiento, curación",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #1 \"episkey\" (10)</strong><span>El hechizo restaura completamente la zona afectada y acelera la regeneración, eliminando cicatrices o secuelas. Adiciona +12PV.</span></span></div></div></div>",
+            "url": "r20179",
+            "simpleTitle": "misión: the murmuring woods",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Mercury Merrythought",
+            "spread": [
+                10
+            ],
+            "title": "actions",
+            "key": "aplicar unguento",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Mercury Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">10</span></div></div></div>",
+            "url": "r20271",
+            "simpleTitle": "misión: the murmuring woods",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                4
+            ],
+            "title": "actions",
+            "key": "parecido de la familia",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">4</span></div></div></div>",
+            "url": "r20276",
+            "simpleTitle": "misión: the murmuring woods",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Elysia G. Lestrange",
+            "spread": [
+                9
+            ],
+            "title": "actions",
+            "key": "aplicar unguento",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Elysia G. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">9</span></div></div></div>",
+            "url": "r20382",
+            "simpleTitle": "misión: the murmuring woods",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                12
+            ],
+            "title": "actions",
+            "key": "tacite",
+            "knowledge": "contrabando",
+            "type": "encantamiento, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"contrabando\"><strong>Resultado  #1 \"tacite\" (12)</strong><span>El personaje logra avanzar sin que nadie note su presencia.</span></span></div></div></div>",
+            "url": "r20576",
+            "simpleTitle": "misión: the murmuring woods",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Mercury Merrythought",
+            "spread": [
+                15
+            ],
+            "title": "actions",
+            "key": "tacite",
+            "knowledge": "contrabando",
+            "type": "encantamiento, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Mercury Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"contrabando\"><strong>Resultado  #1 \"tacite\" (15)</strong><span>El personaje avanza, pero la torpeza puede generar catastróficos resultados. Por ahora, esta a salvo.</span></span></div></div></div>",
+            "url": "r20608",
+            "simpleTitle": "misión: the murmuring woods",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                16
+            ],
+            "title": "actions",
+            "key": "tacite",
+            "knowledge": "contrabando",
+            "type": "encantamiento, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"contrabando\"><strong>Resultado  #1 \"tacite\" (16)</strong><span>El personaje avanza, pero la torpeza puede generar catastróficos resultados. Por ahora, esta a salvo.</span></span></div></div></div>",
+            "url": "r20625",
+            "simpleTitle": "misión: the murmuring woods",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Vasilisa M. Kuznetzova",
+            "spread": [
+                3
+            ],
+            "title": "actions",
+            "key": "vox tenebris",
+            "knowledge": "banshees",
+            "type": "mental, sin magia, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"banshees\"><strong>Resultado  #1 \"vox tenebris\" (3)</strong><span>Los oyentes no solo podrán sentir la emoción, sino que podrán recordar un momento en el que se hayan sentido igual. La misma debe ser indicada on-rol.</span></span></div></div></div>",
+            "url": "r20680",
+            "simpleTitle": "misión: the murmuring woods",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                8
+            ],
+            "title": "actions",
+            "key": "fortitudo cordis",
+            "knowledge": "liderazgo",
+            "type": "habilidad, sin magia, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"liderazgo\"><strong>Resultado  #1 \"fortitudo cordis\" (8)</strong><span>Adiciona <em>9</em> (El 100% de CAR) en acciones del conocimiento mencionado durante todo el tema.</span></span></div></div></div>",
+            "url": "r20886",
+            "simpleTitle": "misión: the murmuring woods",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Mercury Merrythought",
+            "spread": [
+                10
+            ],
+            "title": "actions",
+            "key": "vuelo en pareja",
+            "knowledge": "vuelo",
+            "type": "quidditch, sin magia, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Mercury Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"vuelo en pareja\" (10)</strong><span>El vuelo es a una buena velocidad. Se demora 4 turnos en llegar al objetivo deseado.</span></span></div></div></div>",
+            "url": "r21001",
+            "simpleTitle": "misión: the murmuring woods",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                13
+            ],
+            "title": "actions",
+            "key": "fortitudo cordis",
+            "knowledge": "liderazgo",
+            "type": "habilidad, sin magia, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"liderazgo\"><strong>Resultado  #1 \"fortitudo cordis\" (13)</strong><span>Adiciona <em>9</em> (El 100% de CAR) en acciones del conocimiento mencionado durante todo el tema.</span></span></div></div></div>",
+            "url": "r21007",
+            "simpleTitle": "misión: the murmuring woods",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Vasilisa M. Kuznetzova",
+            "spread": [
+                17
+            ],
+            "title": "actions",
+            "key": "vox tenebris",
+            "knowledge": "banshees",
+            "type": "mental, sin magia, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"banshees\"><strong>Resultado  #1 \"vox tenebris\" (17)</strong><span>Los oyentes no solo podrán sentir la emoción, sino que podrán recordar un momento en el que se hayan sentido igual. La misma debe ser indicada on-rol.</span></span></div></div></div>",
+            "url": "r21057",
+            "simpleTitle": "misión: the murmuring woods",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                17
+            ],
+            "title": "actions",
+            "key": "vuelo en pareja",
+            "knowledge": "vuelo",
+            "type": "quidditch, sin magia, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"vuelo en pareja\" (17)</strong><span>Vuelo perfecto. Se requieren 3 turnos para llegar al objetivo deseado.</span></span></div></div></div>",
+            "url": "r21108",
+            "simpleTitle": "misión: the murmuring woods",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                6
+            ],
+            "title": "actions",
+            "key": "ingresar al cobertizo",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">6</span></div></div></div>",
+            "url": "r21388",
+            "simpleTitle": "misión: the murmuring woods",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Elysia G. Lestrange",
+            "spread": [
+                9
+            ],
+            "title": "actions",
+            "key": "investigar pared este",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Elysia G. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">9</span></div></div></div>",
+            "url": "r21404",
+            "simpleTitle": "misión: the murmuring woods",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Vasilisa M. Kuznetzova",
+            "spread": [
+                13
+            ],
+            "title": "actions",
+            "key": "investigar pared norte",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">13</span></div></div></div>",
+            "url": "r21546",
+            "simpleTitle": "misión: the murmuring woods",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Ksenia D. Demidova",
+            "spread": [
+                20
+            ],
+            "title": "actions",
+            "key": "primera parte de la pared",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Ksenia D. Demidova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">20</span></div></div></div>",
+            "url": "r21709",
+            "simpleTitle": "misión: the murmuring woods",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                16
+            ],
+            "title": "actions",
+            "key": "segunda parte de la pared",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">16</span></div></div></div>",
+            "url": "r21756",
+            "simpleTitle": "misión: the murmuring woods",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                8
+            ],
+            "title": "actions",
+            "key": "estrellas y constelaciones",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">8</span></div></div></div>",
+            "url": "r21762",
+            "simpleTitle": "misión: the murmuring woods",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Elysia G. Lestrange",
+            "spread": [
+                18
+            ],
+            "title": "actions",
+            "key": "tercera parte de la pared",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Elysia G. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">18</span></div></div></div>",
+            "url": "r21800",
+            "simpleTitle": "misión: the murmuring woods",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Vasilisa M. Kuznetzova",
+            "spread": [
+                19
+            ],
+            "title": "actions",
+            "key": "investigar escritorio",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">19</span></div></div></div>",
+            "url": "r21909",
+            "simpleTitle": "misión: the murmuring woods",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Ksenia D. Demidova",
+            "spread": [
+                11
+            ],
+            "title": "actions",
+            "key": "caja de pociones",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Ksenia D. Demidova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">11</span></div></div></div>",
+            "url": "r21948",
+            "simpleTitle": "misión: the murmuring woods",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                20
+            ],
+            "title": "actions",
+            "key": "revelio potionis",
+            "knowledge": "pociones",
+            "type": "encantamiento, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"pociones\"><strong>Resultado  #1 \"revelio potionis\" (20)</strong><span>No solo revela la composición exacta de la poción (<em>+15</em> (100% del conocimiento en POCIONES) puntos identificados), sino también si ha sido alterada o mal preparada.</span></span></div></div></div>",
+            "url": "r22003",
+            "simpleTitle": "misión: the murmuring woods",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                19
+            ],
+            "title": "actions",
+            "key": "caelum manuscriptum",
+            "knowledge": "astronomía",
+            "type": "encantamiento, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"astronomía\"><strong>Resultado  #1 \"caelum manuscriptum\" (19)</strong><span>Recrea un mapa detallado y exacto.</span></span></div></div></div>",
+            "url": "r22007",
+            "simpleTitle": "misión: the murmuring woods",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Elysia G. Lestrange",
+            "spread": [
+                10
+            ],
+            "title": "actions",
+            "key": "carta de morgana - 11 de enero",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Elysia G. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">10</span></div></div></div>",
+            "url": "r22014",
+            "simpleTitle": "misión: the murmuring woods",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Vasilisa M. Kuznetzova",
+            "spread": [
+                2
+            ],
+            "title": "actions",
+            "key": "carta de morgana - 16 de febrero",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">2</span></div></div></div>",
+            "url": "r22114",
+            "simpleTitle": "misión: the murmuring woods",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Ksenia D. Demidova",
+            "spread": [
+                17
+            ],
+            "title": "actions",
+            "key": "carta de black - 12 de marzo",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Ksenia D. Demidova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">17</span></div></div></div>",
+            "url": "r22155",
+            "simpleTitle": "misión: the murmuring woods",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                18
+            ],
+            "title": "actions",
+            "key": "carta de morgana - 26 de agosto",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">18</span></div></div></div>",
+            "url": "r22195",
+            "simpleTitle": "misión: the murmuring woods",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                13
+            ],
+            "title": "actions",
+            "key": "orbis celestialis",
+            "knowledge": "astronomía",
+            "type": "encantamiento, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"astronomía\"><strong>Resultado  #1 \"orbis celestialis\" (13)</strong><span>Permite obtener una localización aproximada.</span></span></div></div></div>",
+            "url": "r22205",
+            "simpleTitle": "misión: the murmuring woods",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Barnaby R. Rookwood",
+            "spread": [
+                1
+            ],
+            "title": "felix felicis",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-felix-felicis\"><span>Barnaby R. Rookwood ha lanzado los dados \"felix felicis\"</span><div class=\"dice-results\"><span class=\"roll-result nro1\"><i class=\"fa-solid fa-flask-round-poison\"></i>No hubo suerte esta vez, mejor intenta la próxima.</span></div></div></div>",
+            "url": "r14323",
+            "simpleTitle": "awake",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Barnaby R. Rookwood",
+            "spread": [
+                3
+            ],
+            "title": "actions",
+            "key": "vitafigura",
+            "knowledge": "transformaciones",
+            "type": "transfiguración, ofensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Barnaby R. Rookwood ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"transformaciones\"><strong>Resultado  #1 \"vitafigura\" (3)</strong><span>El objeto tiembla o sufre una leve distorsión, adquiriendo partes animales, pero sin animarse. En caso de usarlo en ataque, adiciona <em>+1</em> (25% del conocimiento en TRANSFORMACIONES) en el daño.</span></span></div></div></div>",
+            "url": "r19334",
+            "simpleTitle": "awake",
             "space": "el pensadero"
         }
     ];
