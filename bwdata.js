@@ -12134,7 +12134,7 @@ const MissionsModule = (function () {
     "duetos estelares - jessie y asteria": {
       "description": "Jessie Ravenscroft y Asteria Lestrange se enfrentan al desafío de los duetos estelares: cinco globos flotan sobre el Lago Negro esperando ser reventados, partiendo desde Hogsmeade. Mientras Jessie abre fuego con maldiciones explosivas, Asteria surca el cielo para recolectar las esquirlas que caen y avanzar hacia el siguiente globo. Nivel: Medio.",
       "image": "", "requisitos": [],
-      "users": ["/u194", "/u12"],
+      "users": ["/u149", "/u12"],
       "informed": [],
       "dependency": [],
       "type": "quidditch", "closed": false, "fecha": "", "link": "", "tagged": ["quidditch"],
