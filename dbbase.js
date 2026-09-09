@@ -45169,6 +45169,208 @@ const DBModule = (function () {
             "date": "12/01/1953",
             "location": "Un pasillo perdido"
         },
+        "842": {
+            "space": "el pensadero",
+            "url": "/t842-1953-01-05-what-u-see",
+            "simpleTitle": "what u see",
+            "creator": "Venus M. Merrythought",
+            "posts": [
+                {
+                    "url": "r10678",
+                    "author": "Venus M. Merrythought",
+                    "date": "11/12/2025",
+                    "words": 307
+                },
+                {
+                    "url": "r10716",
+                    "author": "Alastor Moody",
+                    "date": "12/12/2025",
+                    "words": 409
+                },
+                {
+                    "url": "r10920",
+                    "author": "Venus M. Merrythought",
+                    "date": "18/12/2025",
+                    "words": 355
+                },
+                {
+                    "url": "r11235",
+                    "author": "Alastor Moody",
+                    "date": "27/12/2025",
+                    "words": 512
+                },
+                {
+                    "url": "r11236",
+                    "author": "The Familiars",
+                    "date": "27/12/2025",
+                    "words": 0
+                },
+                {
+                    "url": "r12220",
+                    "author": "Venus M. Merrythought",
+                    "date": "23/01/2026",
+                    "words": 325
+                },
+                {
+                    "url": "r12221",
+                    "author": "The Familiars",
+                    "date": "23/01/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r12445",
+                    "author": "Alastor Moody",
+                    "date": "30/01/2026",
+                    "words": 308
+                },
+                {
+                    "url": "r12446",
+                    "author": "The Familiars",
+                    "date": "30/01/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r13951",
+                    "author": "Venus M. Merrythought",
+                    "date": "25/02/2026",
+                    "words": 252
+                },
+                {
+                    "url": "r13952",
+                    "author": "The Familiars",
+                    "date": "25/02/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r14070",
+                    "author": "Alastor Moody",
+                    "date": "27/02/2026",
+                    "words": 243
+                },
+                {
+                    "url": "r14071",
+                    "author": "The Familiars",
+                    "date": "27/02/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r15102",
+                    "author": "Venus M. Merrythought",
+                    "date": "17/03/2026",
+                    "words": 295
+                },
+                {
+                    "url": "r15103",
+                    "author": "The Familiars",
+                    "date": "17/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r15213",
+                    "author": "Alastor Moody",
+                    "date": "19/03/2026",
+                    "words": 246
+                },
+                {
+                    "url": "r15214",
+                    "author": "The Familiars",
+                    "date": "19/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16442",
+                    "author": "Venus M. Merrythought",
+                    "date": "13/04/2026",
+                    "words": 268
+                },
+                {
+                    "url": "r16554",
+                    "author": "Alastor Moody",
+                    "date": "15/04/2026",
+                    "words": 185
+                },
+                {
+                    "url": "r17878",
+                    "author": "Venus M. Merrythought",
+                    "date": "08/05/2026",
+                    "words": 208
+                },
+                {
+                    "url": "r10678",
+                    "author": "Venus M. Merrythought",
+                    "date": "11/12/2025",
+                    "words": 307
+                },
+                {
+                    "url": "r18062",
+                    "author": "Alastor Moody",
+                    "date": "10/05/2026",
+                    "words": 166
+                },
+                {
+                    "url": "r19223",
+                    "author": "Venus M. Merrythought",
+                    "date": "29/05/2026",
+                    "words": 203
+                },
+                {
+                    "url": "r19249",
+                    "author": "Alastor Moody",
+                    "date": "29/05/2026",
+                    "words": 324
+                },
+                {
+                    "url": "r20114",
+                    "author": "Venus M. Merrythought",
+                    "date": "21/06/2026",
+                    "words": 261
+                },
+                {
+                    "url": "r20171",
+                    "author": "Alastor Moody",
+                    "date": "23/06/2026",
+                    "words": 245
+                },
+                {
+                    "url": "r20342",
+                    "author": "Venus M. Merrythought",
+                    "date": "29/06/2026",
+                    "words": 296
+                },
+                {
+                    "url": "r20812",
+                    "author": "Alastor Moody",
+                    "date": "16/07/2026",
+                    "words": 247
+                },
+                {
+                    "url": "r21365",
+                    "author": "Venus M. Merrythought",
+                    "date": "03/08/2026",
+                    "words": 265
+                },
+                {
+                    "url": "r21384",
+                    "author": "Alastor Moody",
+                    "date": "03/08/2026",
+                    "words": 420
+                },
+                {
+                    "url": "r21643",
+                    "author": "Venus M. Merrythought",
+                    "date": "09/08/2026",
+                    "words": 368
+                },
+                {
+                    "url": "r21740",
+                    "author": "Alastor Moody",
+                    "date": "12/08/2026",
+                    "words": 249
+                }
+            ],
+            "date": "05/01/1953",
+            "location": "puerta del desierto — reserva natural flint"
+        },
         "843": {
             "space": "el pensadero",
             "url": "/t843-1953-01-07-practica-born-to-make",
@@ -49852,6 +50054,160 @@ const DBModule = (function () {
             ],
             "date": "29/01/1953",
             "location": "Sección Prohibida - Biblioteca"
+        },
+        "929": {
+            "space": "el pensadero",
+            "url": "/t929-1953-01-20-shape-of-you",
+            "simpleTitle": "shape of you",
+            "creator": "Vasilisa M. Kuznetzova",
+            "posts": [
+                {
+                    "url": "r12201",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "23/01/2026",
+                    "words": 331
+                },
+                {
+                    "url": "r12352",
+                    "author": "Alastor Moody",
+                    "date": "27/01/2026",
+                    "words": 177
+                },
+                {
+                    "url": "r13809",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "24/02/2026",
+                    "words": 253
+                },
+                {
+                    "url": "r13835",
+                    "author": "Alastor Moody",
+                    "date": "24/02/2026",
+                    "words": 566
+                },
+                {
+                    "url": "r15183",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "18/03/2026",
+                    "words": 255
+                },
+                {
+                    "url": "r15354",
+                    "author": "Alastor Moody",
+                    "date": "23/03/2026",
+                    "words": 222
+                },
+                {
+                    "url": "r16171",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "07/04/2026",
+                    "words": 339
+                },
+                {
+                    "url": "r16204",
+                    "author": "Alastor Moody",
+                    "date": "07/04/2026",
+                    "words": 338
+                },
+                {
+                    "url": "r17103",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "29/04/2026",
+                    "words": 242
+                },
+                {
+                    "url": "r17104",
+                    "author": "The Familiars",
+                    "date": "29/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r17277",
+                    "author": "Alastor Moody",
+                    "date": "01/05/2026",
+                    "words": 355
+                },
+                {
+                    "url": "r17278",
+                    "author": "The Familiars",
+                    "date": "01/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r17462",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "03/05/2026",
+                    "words": 282
+                },
+                {
+                    "url": "r17480",
+                    "author": "Alastor Moody",
+                    "date": "03/05/2026",
+                    "words": 230
+                },
+                {
+                    "url": "r18806",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "22/05/2026",
+                    "words": 247
+                },
+                {
+                    "url": "r18920",
+                    "author": "Alastor Moody",
+                    "date": "25/05/2026",
+                    "words": 173
+                },
+                {
+                    "url": "r19857",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "12/06/2026",
+                    "words": 250
+                },
+                {
+                    "url": "r20165",
+                    "author": "Alastor Moody",
+                    "date": "23/06/2026",
+                    "words": 298
+                },
+                {
+                    "url": "r20549",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "05/07/2026",
+                    "words": 318
+                },
+                {
+                    "url": "r20842",
+                    "author": "Alastor Moody",
+                    "date": "17/07/2026",
+                    "words": 335
+                },
+                {
+                    "url": "r12201",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "23/01/2026",
+                    "words": 331
+                },
+                {
+                    "url": "r21639",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "09/08/2026",
+                    "words": 391
+                },
+                {
+                    "url": "r21739",
+                    "author": "Alastor Moody",
+                    "date": "12/08/2026",
+                    "words": 294
+                },
+                {
+                    "url": "r22486",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "04/09/2026",
+                    "words": 298
+                }
+            ],
+            "date": "20/01/1953",
+            "location": "Maroon Steed"
         },
         "931": {
             "space": "el pensadero",
@@ -57693,6 +58049,100 @@ const DBModule = (function () {
             "date": "07/02/1953",
             "location": "Atrio del Ministerio"
         },
+        "1021": {
+            "space": "el pensadero",
+            "url": "/t1021-1953-02-15-non-verbal-comunication",
+            "simpleTitle": "non verbal comunication",
+            "creator": "Uranus H. Merrythought",
+            "posts": [
+                {
+                    "url": "r13994",
+                    "author": "Uranus H. Merrythought",
+                    "date": "26/02/2026",
+                    "words": 168
+                },
+                {
+                    "url": "r15101",
+                    "author": "Venus M. Merrythought",
+                    "date": "17/03/2026",
+                    "words": 234
+                },
+                {
+                    "url": "r15733",
+                    "author": "Uranus H. Merrythought",
+                    "date": "29/03/2026",
+                    "words": 258
+                },
+                {
+                    "url": "r16454",
+                    "author": "Venus M. Merrythought",
+                    "date": "14/04/2026",
+                    "words": 285
+                },
+                {
+                    "url": "r16606",
+                    "author": "Uranus H. Merrythought",
+                    "date": "17/04/2026",
+                    "words": 335
+                },
+                {
+                    "url": "r18371",
+                    "author": "Venus M. Merrythought",
+                    "date": "15/05/2026",
+                    "words": 265
+                },
+                {
+                    "url": "r18398",
+                    "author": "Uranus H. Merrythought",
+                    "date": "15/05/2026",
+                    "words": 342
+                },
+                {
+                    "url": "r19845",
+                    "author": "Venus M. Merrythought",
+                    "date": "12/06/2026",
+                    "words": 283
+                },
+                {
+                    "url": "r20045",
+                    "author": "Uranus H. Merrythought",
+                    "date": "18/06/2026",
+                    "words": 299
+                },
+                {
+                    "url": "r20343",
+                    "author": "Venus M. Merrythought",
+                    "date": "29/06/2026",
+                    "words": 269
+                },
+                {
+                    "url": "r20785",
+                    "author": "Uranus H. Merrythought",
+                    "date": "15/07/2026",
+                    "words": 301
+                },
+                {
+                    "url": "r21364",
+                    "author": "Venus M. Merrythought",
+                    "date": "03/08/2026",
+                    "words": 361
+                },
+                {
+                    "url": "r21682",
+                    "author": "Uranus H. Merrythought",
+                    "date": "10/08/2026",
+                    "words": 355
+                },
+                {
+                    "url": "r22500",
+                    "author": "Venus M. Merrythought",
+                    "date": "04/09/2026",
+                    "words": 296
+                }
+            ],
+            "date": "15/02/1953",
+            "location": "Apartamento de Venus"
+        },
         "1022": {
             "space": "el pensadero",
             "url": "/t1022-1953-02-07-escaping-the-routine",
@@ -57810,6 +58260,184 @@ const DBModule = (function () {
             ],
             "date": "07/02/1953",
             "location": "Reserva Natural de Flint"
+        },
+        "1024": {
+            "space": "el pensadero",
+            "url": "/t1024-1953-02-08-in-lingua-latina",
+            "simpleTitle": "in lingua latina",
+            "creator": "Ruairidh Ó Mhaille",
+            "posts": [
+                {
+                    "url": "r14058",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "27/02/2026",
+                    "words": 276
+                },
+                {
+                    "url": "r17672",
+                    "author": "Montgomery Thatch",
+                    "date": "05/05/2026",
+                    "words": 311
+                },
+                {
+                    "url": "r17673",
+                    "author": "The Familiars",
+                    "date": "05/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r18404",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "15/05/2026",
+                    "words": 303
+                },
+                {
+                    "url": "r18405",
+                    "author": "The Familiars",
+                    "date": "15/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r18477",
+                    "author": "Montgomery Thatch",
+                    "date": "16/05/2026",
+                    "words": 260
+                },
+                {
+                    "url": "r18478",
+                    "author": "The Familiars",
+                    "date": "16/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r19169",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "28/05/2026",
+                    "words": 217
+                },
+                {
+                    "url": "r19194",
+                    "author": "Montgomery Thatch",
+                    "date": "28/05/2026",
+                    "words": 217
+                },
+                {
+                    "url": "r19471",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "01/06/2026",
+                    "words": 233
+                },
+                {
+                    "url": "r19528",
+                    "author": "Montgomery Thatch",
+                    "date": "02/06/2026",
+                    "words": 147
+                },
+                {
+                    "url": "r19529",
+                    "author": "The Familiars",
+                    "date": "02/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r19840",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "11/06/2026",
+                    "words": 149
+                },
+                {
+                    "url": "r20520",
+                    "author": "Montgomery Thatch",
+                    "date": "04/07/2026",
+                    "words": 212
+                },
+                {
+                    "url": "r20521",
+                    "author": "The Familiars",
+                    "date": "04/07/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20776",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "15/07/2026",
+                    "words": 216
+                },
+                {
+                    "url": "r20777",
+                    "author": "The Familiars",
+                    "date": "15/07/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20901",
+                    "author": "Montgomery Thatch",
+                    "date": "19/07/2026",
+                    "words": 227
+                },
+                {
+                    "url": "r21488",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "05/08/2026",
+                    "words": 226
+                },
+                {
+                    "url": "r21489",
+                    "author": "The Familiars",
+                    "date": "05/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r14058",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "27/02/2026",
+                    "words": 276
+                },
+                {
+                    "url": "r21557",
+                    "author": "Montgomery Thatch",
+                    "date": "08/08/2026",
+                    "words": 174
+                },
+                {
+                    "url": "r21558",
+                    "author": "The Familiars",
+                    "date": "08/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22279",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "27/08/2026",
+                    "words": 237
+                },
+                {
+                    "url": "r22280",
+                    "author": "The Familiars",
+                    "date": "27/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22438",
+                    "author": "Montgomery Thatch",
+                    "date": "02/09/2026",
+                    "words": 253
+                },
+                {
+                    "url": "r22439",
+                    "author": "The Familiars",
+                    "date": "02/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22523",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "05/09/2026",
+                    "words": 163
+                }
+            ],
+            "date": "08/02/1953",
+            "location": "Corredores de Hogwarts"
         },
         "1026": {
             "space": "el pensadero",
@@ -60679,6 +61307,70 @@ const DBModule = (function () {
             "date": "23/02/1953",
             "location": "hogar de Cassius y Harmony"
         },
+        "1105": {
+            "space": "el pensadero",
+            "url": "/t1105-1953-03-07-ma-meilleure-ennemie",
+            "simpleTitle": "ma meilleure ennemie",
+            "creator": "Iarlaith C. Sayre",
+            "posts": [
+                {
+                    "url": "r15240",
+                    "author": "Iarlaith C. Sayre",
+                    "date": "21/03/2026",
+                    "words": 304
+                },
+                {
+                    "url": "r16235",
+                    "author": "Thaddeus L. Nott",
+                    "date": "08/04/2026",
+                    "words": 305
+                },
+                {
+                    "url": "r16236",
+                    "author": "The Familiars",
+                    "date": "08/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r18342",
+                    "author": "Iarlaith C. Sayre",
+                    "date": "14/05/2026",
+                    "words": 312
+                },
+                {
+                    "url": "r19768",
+                    "author": "Thaddeus L. Nott",
+                    "date": "10/06/2026",
+                    "words": 245
+                },
+                {
+                    "url": "r19936",
+                    "author": "Iarlaith C. Sayre",
+                    "date": "15/06/2026",
+                    "words": 321
+                },
+                {
+                    "url": "r20551",
+                    "author": "Thaddeus L. Nott",
+                    "date": "05/07/2026",
+                    "words": 266
+                },
+                {
+                    "url": "r20715",
+                    "author": "Iarlaith C. Sayre",
+                    "date": "13/07/2026",
+                    "words": 246
+                },
+                {
+                    "url": "r21292",
+                    "author": "Thaddeus L. Nott",
+                    "date": "02/08/2026",
+                    "words": 333
+                }
+            ],
+            "date": "07/03/1953",
+            "location": "cobertizo"
+        },
         "1108": {
             "space": "el pensadero",
             "url": "/t1108-1953-02-25-interrogatorio-licking-salted-wounds",
@@ -62566,6 +63258,130 @@ const DBModule = (function () {
             ],
             "date": "08/03/1953",
             "location": "flourish & blotts"
+        },
+        "1145": {
+            "space": "el pensadero",
+            "url": "/t1145-1953-03-14-candy-land",
+            "simpleTitle": "candy land",
+            "creator": "Hankford B. Diggory",
+            "posts": [
+                {
+                    "url": "r16231",
+                    "author": "Hankford B. Diggory",
+                    "date": "08/04/2026",
+                    "words": 286
+                },
+                {
+                    "url": "r16265",
+                    "author": "Montgomery Thatch",
+                    "date": "08/04/2026",
+                    "words": 425
+                },
+                {
+                    "url": "r16761",
+                    "author": "Hankford B. Diggory",
+                    "date": "20/04/2026",
+                    "words": 296
+                },
+                {
+                    "url": "r16850",
+                    "author": "Montgomery Thatch",
+                    "date": "22/04/2026",
+                    "words": 698
+                },
+                {
+                    "url": "r17547",
+                    "author": "Hankford B. Diggory",
+                    "date": "04/05/2026",
+                    "words": 485
+                },
+                {
+                    "url": "r17558",
+                    "author": "Montgomery Thatch",
+                    "date": "04/05/2026",
+                    "words": 496
+                },
+                {
+                    "url": "r17653",
+                    "author": "Hankford B. Diggory",
+                    "date": "05/05/2026",
+                    "words": 275
+                },
+                {
+                    "url": "r17677",
+                    "author": "Montgomery Thatch",
+                    "date": "05/05/2026",
+                    "words": 320
+                },
+                {
+                    "url": "r18448",
+                    "author": "Hankford B. Diggory",
+                    "date": "16/05/2026",
+                    "words": 423
+                },
+                {
+                    "url": "r18518",
+                    "author": "Montgomery Thatch",
+                    "date": "17/05/2026",
+                    "words": 553
+                },
+                {
+                    "url": "r19326",
+                    "author": "Hankford B. Diggory",
+                    "date": "31/05/2026",
+                    "words": 335
+                },
+                {
+                    "url": "r19370",
+                    "author": "Montgomery Thatch",
+                    "date": "31/05/2026",
+                    "words": 235
+                },
+                {
+                    "url": "r19899",
+                    "author": "Hankford B. Diggory",
+                    "date": "14/06/2026",
+                    "words": 397
+                },
+                {
+                    "url": "r20526",
+                    "author": "Montgomery Thatch",
+                    "date": "04/07/2026",
+                    "words": 385
+                },
+                {
+                    "url": "r21617",
+                    "author": "Hankford B. Diggory",
+                    "date": "09/08/2026",
+                    "words": 703
+                },
+                {
+                    "url": "r21729",
+                    "author": "Montgomery Thatch",
+                    "date": "12/08/2026",
+                    "words": 822
+                },
+                {
+                    "url": "r22109",
+                    "author": "Hankford B. Diggory",
+                    "date": "23/08/2026",
+                    "words": 394
+                },
+                {
+                    "url": "r22256",
+                    "author": "Montgomery Thatch",
+                    "date": "26/08/2026",
+                    "words": 298
+                },
+                {
+                    "url": "r22627",
+                    "author": "Hankford B. Diggory",
+                    "date": "07/09/2026",
+                    "words": 213
+                }
+            ],
+            "date": "14/03/1953",
+            "location": "Hall de Entrada"
         },
         "1150": {
             "space": "el pensadero",
@@ -65689,6 +66505,302 @@ const DBModule = (function () {
             "date": "06/03/1953",
             "location": "Casa de Alastor y Shun"
         },
+        "1201": {
+            "space": "el pensadero",
+            "url": "/t1201-1953-03-23-practica-it-s-all-that-i-ve-heard",
+            "simpleTitle": "práctica - it's all that i've heard",
+            "creator": "Minerva E. McGonagall",
+            "posts": [
+                {
+                    "url": "r17628",
+                    "author": "Minerva E. McGonagall",
+                    "date": "05/05/2026",
+                    "words": 212
+                },
+                {
+                    "url": "r17629",
+                    "author": "The Familiars",
+                    "date": "05/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r19063",
+                    "author": "Asteria C. Lestrange",
+                    "date": "27/05/2026",
+                    "words": 289
+                },
+                {
+                    "url": "r19064",
+                    "author": "The Familiars",
+                    "date": "27/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r19391",
+                    "author": "Minerva E. McGonagall",
+                    "date": "31/05/2026",
+                    "words": 226
+                },
+                {
+                    "url": "r19392",
+                    "author": "The Familiars",
+                    "date": "31/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20183",
+                    "author": "Asteria C. Lestrange",
+                    "date": "24/06/2026",
+                    "words": 321
+                },
+                {
+                    "url": "r20184",
+                    "author": "The Familiars",
+                    "date": "24/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20497",
+                    "author": "Minerva E. McGonagall",
+                    "date": "04/07/2026",
+                    "words": 283
+                },
+                {
+                    "url": "r20498",
+                    "author": "The Familiars",
+                    "date": "04/07/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20949",
+                    "author": "Asteria C. Lestrange",
+                    "date": "21/07/2026",
+                    "words": 305
+                },
+                {
+                    "url": "r20950",
+                    "author": "The Familiars",
+                    "date": "21/07/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21518",
+                    "author": "Minerva E. McGonagall",
+                    "date": "07/08/2026",
+                    "words": 324
+                },
+                {
+                    "url": "r22140",
+                    "author": "Asteria C. Lestrange",
+                    "date": "24/08/2026",
+                    "words": 318
+                },
+                {
+                    "url": "r22141",
+                    "author": "The Familiars",
+                    "date": "24/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22482",
+                    "author": "Minerva E. McGonagall",
+                    "date": "04/09/2026",
+                    "words": 265
+                }
+            ],
+            "date": "23/03/1953",
+            "location": "Sexta Planta del Castillo"
+        },
+        "1204": {
+            "space": "el pensadero",
+            "url": "/t1204-1953-03-11-duelo-18-minerva-vs-thaddeus",
+            "simpleTitle": "duelo #18: minerva vs thaddeus",
+            "creator": "Black Wave",
+            "posts": [
+                {
+                    "url": "r17712",
+                    "author": "Black Wave",
+                    "date": "06/05/2026",
+                    "words": 156
+                },
+                {
+                    "url": "r17713",
+                    "author": "The Familiars",
+                    "date": "06/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r17851",
+                    "author": "Minerva E. McGonagall",
+                    "date": "08/05/2026",
+                    "words": 156
+                },
+                {
+                    "url": "r17852",
+                    "author": "The Familiars",
+                    "date": "08/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r17972",
+                    "author": "Thaddeus L. Nott",
+                    "date": "09/05/2026",
+                    "words": 170
+                },
+                {
+                    "url": "r17973",
+                    "author": "The Familiars",
+                    "date": "09/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r18205",
+                    "author": "Minerva E. McGonagall",
+                    "date": "12/05/2026",
+                    "words": 166
+                },
+                {
+                    "url": "r18206",
+                    "author": "The Familiars",
+                    "date": "12/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r18800",
+                    "author": "Thaddeus L. Nott",
+                    "date": "22/05/2026",
+                    "words": 143
+                },
+                {
+                    "url": "r18801",
+                    "author": "The Familiars",
+                    "date": "22/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r18813",
+                    "author": "Minerva E. McGonagall",
+                    "date": "22/05/2026",
+                    "words": 162
+                },
+                {
+                    "url": "r18814",
+                    "author": "The Familiars",
+                    "date": "22/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r19358",
+                    "author": "Thaddeus L. Nott",
+                    "date": "31/05/2026",
+                    "words": 136
+                },
+                {
+                    "url": "r19359",
+                    "author": "The Familiars",
+                    "date": "31/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r19763",
+                    "author": "Minerva E. McGonagall",
+                    "date": "10/06/2026",
+                    "words": 147
+                },
+                {
+                    "url": "r19764",
+                    "author": "The Familiars",
+                    "date": "10/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20350",
+                    "author": "Thaddeus L. Nott",
+                    "date": "29/06/2026",
+                    "words": 127
+                },
+                {
+                    "url": "r20351",
+                    "author": "The Familiars",
+                    "date": "29/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20434",
+                    "author": "Minerva E. McGonagall",
+                    "date": "02/07/2026",
+                    "words": 184
+                },
+                {
+                    "url": "r20435",
+                    "author": "The Familiars",
+                    "date": "02/07/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r17712",
+                    "author": "Black Wave",
+                    "date": "06/05/2026",
+                    "words": 156
+                },
+                {
+                    "url": "r20945",
+                    "author": "Thaddeus L. Nott",
+                    "date": "21/07/2026",
+                    "words": 176
+                },
+                {
+                    "url": "r20946",
+                    "author": "The Familiars",
+                    "date": "21/07/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21360",
+                    "author": "Minerva E. McGonagall",
+                    "date": "03/08/2026",
+                    "words": 136
+                },
+                {
+                    "url": "r21361",
+                    "author": "The Familiars",
+                    "date": "03/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22147",
+                    "author": "Thaddeus L. Nott",
+                    "date": "24/08/2026",
+                    "words": 125
+                },
+                {
+                    "url": "r22148",
+                    "author": "The Familiars",
+                    "date": "24/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22321",
+                    "author": "Minerva E. McGonagall",
+                    "date": "30/08/2026",
+                    "words": 164
+                },
+                {
+                    "url": "r22322",
+                    "author": "The Familiars",
+                    "date": "30/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22506",
+                    "author": "Black Wave",
+                    "date": "05/09/2026",
+                    "words": 117
+                }
+            ],
+            "date": "11/03/1953",
+            "location": "Club de Duelos"
+        },
         "1205": {
             "space": "el pensadero",
             "url": "/t1205-1953-03-28-mision-the-murmuring-woods",
@@ -66751,6 +67863,202 @@ const DBModule = (function () {
             "date": "19/04/1953",
             "location": "Mazmorras"
         },
+        "1215": {
+            "space": "el pensadero",
+            "url": "/t1215-1953-03-12-fox-trot",
+            "simpleTitle": "fox trot",
+            "creator": "Ruairidh Ó Mhaille",
+            "posts": [
+                {
+                    "url": "r17829",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "07/05/2026",
+                    "words": 188
+                },
+                {
+                    "url": "r17905",
+                    "author": "Montgomery Thatch",
+                    "date": "08/05/2026",
+                    "words": 268
+                },
+                {
+                    "url": "r18172",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "11/05/2026",
+                    "words": 223
+                },
+                {
+                    "url": "r18299",
+                    "author": "Montgomery Thatch",
+                    "date": "13/05/2026",
+                    "words": 273
+                },
+                {
+                    "url": "r18407",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "15/05/2026",
+                    "words": 305
+                },
+                {
+                    "url": "r18480",
+                    "author": "Montgomery Thatch",
+                    "date": "16/05/2026",
+                    "words": 355
+                },
+                {
+                    "url": "r18481",
+                    "author": "The Familiars",
+                    "date": "16/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r19171",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "28/05/2026",
+                    "words": 192
+                },
+                {
+                    "url": "r19196",
+                    "author": "Montgomery Thatch",
+                    "date": "28/05/2026",
+                    "words": 420
+                },
+                {
+                    "url": "r19197",
+                    "author": "The Familiars",
+                    "date": "28/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r19250",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "29/05/2026",
+                    "words": 249
+                },
+                {
+                    "url": "r19266",
+                    "author": "Montgomery Thatch",
+                    "date": "29/05/2026",
+                    "words": 282
+                },
+                {
+                    "url": "r19606",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "04/06/2026",
+                    "words": 278
+                },
+                {
+                    "url": "r19607",
+                    "author": "The Familiars",
+                    "date": "04/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r19663",
+                    "author": "Montgomery Thatch",
+                    "date": "06/06/2026",
+                    "words": 435
+                },
+                {
+                    "url": "r19664",
+                    "author": "The Familiars",
+                    "date": "06/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r19914",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "14/06/2026",
+                    "words": 274
+                },
+                {
+                    "url": "r20527",
+                    "author": "Montgomery Thatch",
+                    "date": "04/07/2026",
+                    "words": 318
+                },
+                {
+                    "url": "r20528",
+                    "author": "The Familiars",
+                    "date": "04/07/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20778",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "15/07/2026",
+                    "words": 281
+                },
+                {
+                    "url": "r17829",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "07/05/2026",
+                    "words": 188
+                },
+                {
+                    "url": "r20902",
+                    "author": "Montgomery Thatch",
+                    "date": "19/07/2026",
+                    "words": 281
+                },
+                {
+                    "url": "r21178",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "31/07/2026",
+                    "words": 304
+                },
+                {
+                    "url": "r21214",
+                    "author": "Montgomery Thatch",
+                    "date": "01/08/2026",
+                    "words": 488
+                },
+                {
+                    "url": "r21492",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "05/08/2026",
+                    "words": 373
+                },
+                {
+                    "url": "r21493",
+                    "author": "The Familiars",
+                    "date": "05/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21559",
+                    "author": "Montgomery Thatch",
+                    "date": "08/08/2026",
+                    "words": 619
+                },
+                {
+                    "url": "r22281",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "27/08/2026",
+                    "words": 266
+                },
+                {
+                    "url": "r22282",
+                    "author": "The Familiars",
+                    "date": "27/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22440",
+                    "author": "Montgomery Thatch",
+                    "date": "02/09/2026",
+                    "words": 228
+                },
+                {
+                    "url": "r22525",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "05/09/2026",
+                    "words": 220
+                }
+            ],
+            "date": "12/03/1953",
+            "location": "Jardines de Hogwarts"
+        },
         "1219": {
             "space": "el pensadero",
             "url": "/t1219-1953-03-26-life-s-goin-nowhere",
@@ -67105,6 +68413,130 @@ const DBModule = (function () {
             "date": "30/03/1953",
             "location": "Anglesey"
         },
+        "1242": {
+            "space": "el pensadero",
+            "url": "/t1242-1953-03-24-fish-and-chips",
+            "simpleTitle": "fish and chips",
+            "creator": "Jasper R. Gryffith",
+            "posts": [
+                {
+                    "url": "r18234",
+                    "author": "Jasper R. Gryffith",
+                    "date": "12/05/2026",
+                    "words": 268
+                },
+                {
+                    "url": "r18334",
+                    "author": "Thyme T. Nott",
+                    "date": "14/05/2026",
+                    "words": 311
+                },
+                {
+                    "url": "r18335",
+                    "author": "The Familiars",
+                    "date": "14/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r18987",
+                    "author": "Jasper R. Gryffith",
+                    "date": "26/05/2026",
+                    "words": 275
+                },
+                {
+                    "url": "r18988",
+                    "author": "The Familiars",
+                    "date": "26/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r19167",
+                    "author": "Thyme T. Nott",
+                    "date": "28/05/2026",
+                    "words": 205
+                },
+                {
+                    "url": "r19168",
+                    "author": "The Familiars",
+                    "date": "28/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r19523",
+                    "author": "Jasper R. Gryffith",
+                    "date": "02/06/2026",
+                    "words": 202
+                },
+                {
+                    "url": "r19524",
+                    "author": "The Familiars",
+                    "date": "02/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r19841",
+                    "author": "Thyme T. Nott",
+                    "date": "11/06/2026",
+                    "words": 199
+                },
+                {
+                    "url": "r19842",
+                    "author": "The Familiars",
+                    "date": "11/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21076",
+                    "author": "Jasper R. Gryffith",
+                    "date": "29/07/2026",
+                    "words": 316
+                },
+                {
+                    "url": "r21077",
+                    "author": "The Familiars",
+                    "date": "29/07/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21168",
+                    "author": "Thyme T. Nott",
+                    "date": "31/07/2026",
+                    "words": 166
+                },
+                {
+                    "url": "r21169",
+                    "author": "The Familiars",
+                    "date": "31/07/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22011",
+                    "author": "Jasper R. Gryffith",
+                    "date": "20/08/2026",
+                    "words": 347
+                },
+                {
+                    "url": "r22012",
+                    "author": "The Familiars",
+                    "date": "20/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22514",
+                    "author": "Thyme T. Nott",
+                    "date": "05/09/2026",
+                    "words": 192
+                },
+                {
+                    "url": "r22515",
+                    "author": "The Familiars",
+                    "date": "05/09/2026",
+                    "words": 0
+                }
+            ],
+            "date": "24/03/1953",
+            "location": "Caldero Chorreante"
+        },
         "1248": {
             "space": "el pensadero",
             "url": "/t1248-1953-03-10-practica-salta-en-los-charcos",
@@ -67340,6 +68772,166 @@ const DBModule = (function () {
             ],
             "date": "13/03/1953",
             "location": "Archivo"
+        },
+        "1256": {
+            "space": "el pensadero",
+            "url": "/t1256-1953-03-25-echoes-of-a-shattered-mind",
+            "simpleTitle": "echoes of a shattered mind",
+            "creator": "Black Wave",
+            "posts": [
+                {
+                    "url": "r18570",
+                    "author": "Black Wave",
+                    "date": "18/05/2026",
+                    "words": 240
+                },
+                {
+                    "url": "r18610",
+                    "author": "Alastor Moody",
+                    "date": "18/05/2026",
+                    "words": 350
+                },
+                {
+                    "url": "r18886",
+                    "author": "Valerian",
+                    "date": "25/05/2026",
+                    "words": 174
+                },
+                {
+                    "url": "r18928",
+                    "author": "Alastor Moody",
+                    "date": "25/05/2026",
+                    "words": 344
+                },
+                {
+                    "url": "r18929",
+                    "author": "The Familiars",
+                    "date": "25/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r19429",
+                    "author": "Valerian",
+                    "date": "01/06/2026",
+                    "words": 241
+                },
+                {
+                    "url": "r19633",
+                    "author": "Alastor Moody",
+                    "date": "05/06/2026",
+                    "words": 245
+                },
+                {
+                    "url": "r19703",
+                    "author": "Valerian",
+                    "date": "08/06/2026",
+                    "words": 196
+                },
+                {
+                    "url": "r19926",
+                    "author": "Alastor Moody",
+                    "date": "15/06/2026",
+                    "words": 197
+                },
+                {
+                    "url": "r19927",
+                    "author": "The Familiars",
+                    "date": "15/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20121",
+                    "author": "Valerian",
+                    "date": "22/06/2026",
+                    "words": 335
+                },
+                {
+                    "url": "r20229",
+                    "author": "Alastor Moody",
+                    "date": "25/06/2026",
+                    "words": 281
+                },
+                {
+                    "url": "r20230",
+                    "author": "The Familiars",
+                    "date": "25/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20360",
+                    "author": "Valerian",
+                    "date": "29/06/2026",
+                    "words": 262
+                },
+                {
+                    "url": "r20813",
+                    "author": "Alastor Moody",
+                    "date": "16/07/2026",
+                    "words": 215
+                },
+                {
+                    "url": "r20814",
+                    "author": "The Familiars",
+                    "date": "16/07/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21327",
+                    "author": "Valerian",
+                    "date": "02/08/2026",
+                    "words": 331
+                },
+                {
+                    "url": "r21382",
+                    "author": "Alastor Moody",
+                    "date": "03/08/2026",
+                    "words": 273
+                },
+                {
+                    "url": "r21383",
+                    "author": "The Familiars",
+                    "date": "03/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21807",
+                    "author": "Valerian",
+                    "date": "15/08/2026",
+                    "words": 297
+                },
+                {
+                    "url": "r18570",
+                    "author": "Black Wave",
+                    "date": "18/05/2026",
+                    "words": 240
+                },
+                {
+                    "url": "r22058",
+                    "author": "Alastor Moody",
+                    "date": "21/08/2026",
+                    "words": 283
+                },
+                {
+                    "url": "r22059",
+                    "author": "The Familiars",
+                    "date": "21/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22185",
+                    "author": "Valerian",
+                    "date": "25/08/2026",
+                    "words": 235
+                },
+                {
+                    "url": "r22608",
+                    "author": "Alastor Moody",
+                    "date": "06/09/2026",
+                    "words": 164
+                }
+            ],
+            "date": "25/03/1953",
+            "location": "Cuarta Planta: Daños provocados por Hechizos"
         },
         "1258": {
             "space": "el pensadero",
@@ -113443,6 +115035,889 @@ const DBModule = (function () {
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Barnaby R. Rookwood ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"transformaciones\"><strong>Resultado  #1 \"vitafigura\" (3)</strong><span>El objeto tiembla o sufre una leve distorsión, adquiriendo partes animales, pero sin animarse. En caso de usarlo en ataque, adiciona <em>+1</em> (25% del conocimiento en TRANSFORMACIONES) en el daño.</span></span></div></div></div>",
             "url": "r19334",
             "simpleTitle": "awake",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                18
+            ],
+            "title": "actions",
+            "key": "veritas relego",
+            "knowledge": "legeremancia",
+            "type": "mental, sin magia, ofensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"legeremancia\"><strong>Resultado  #1 \"veritas relego\" (18)</strong><span>No solo detecta la mentira, sino que percibe la emoción que la motivó y la verdad oculta tras ella. Adiciona <em>2</em> (El 100% de SAB) al intento de penetrar la mente contraria.</span></span></div></div></div>",
+            "url": "r18929",
+            "simpleTitle": "echoes of a shattered mind",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                17
+            ],
+            "title": "actions",
+            "key": "legeremens",
+            "knowledge": "legeremancia",
+            "type": "mental, encantamiento, ofensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"legeremancia\"><strong>Resultado  #1 \"legeremens\" (17)</strong><span>Accedes profundamente a la mente del objetivo, obteniendo información detallada. Adiciona <em>2</em> (El 100% de SAB) al intento de penetrar la mente contraria.</span></span></div></div></div>",
+            "url": "r19927",
+            "simpleTitle": "echoes of a shattered mind",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                20
+            ],
+            "title": "actions",
+            "key": "legeremens",
+            "knowledge": "legeremancia",
+            "type": "mental, encantamiento, ofensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"legeremancia\"><strong>Resultado  #1 \"legeremens\" (20)</strong><span>Accedes profundamente a la mente del objetivo, obteniendo información detallada. Adiciona <em>2</em> (El 100% de SAB) al intento de penetrar la mente contraria.</span></span></div></div></div>",
+            "url": "r20230",
+            "simpleTitle": "echoes of a shattered mind",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                2
+            ],
+            "title": "actions",
+            "key": "legeremens",
+            "knowledge": "legeremancia",
+            "type": "mental, encantamiento, ofensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"legeremancia\"><strong>Resultado  #1 \"legeremens\" (2)</strong><span>Accedes profundamente a la mente del objetivo, obteniendo información detallada. Adiciona <em>2</em> (El 100% de SAB) al intento de penetrar la mente contraria.</span></span></div></div></div>",
+            "url": "r20814",
+            "simpleTitle": "echoes of a shattered mind",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                5
+            ],
+            "title": "actions",
+            "key": "legeremens",
+            "knowledge": "legeremancia",
+            "type": "mental, encantamiento, ofensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"legeremancia\"><strong>Resultado  #1 \"legeremens\" (5)</strong><span>Accedes profundamente a la mente del objetivo, obteniendo información detallada. Adiciona <em>2</em> (El 100% de SAB) al intento de penetrar la mente contraria.</span></span></div></div></div>",
+            "url": "r21383",
+            "simpleTitle": "echoes of a shattered mind",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                16
+            ],
+            "title": "actions",
+            "key": "legeremens",
+            "knowledge": "legeremancia",
+            "type": "mental, encantamiento, ofensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"legeremancia\"><strong>Resultado  #1 \"legeremens\" (16)</strong><span>Accedes profundamente a la mente del objetivo, obteniendo información detallada. Adiciona <em>2</em> (El 100% de SAB) al intento de penetrar la mente contraria.</span></span></div></div></div>",
+            "url": "r22059",
+            "simpleTitle": "echoes of a shattered mind",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Thyme T. Nott",
+            "spread": [
+                7
+            ],
+            "title": "actions",
+            "key": "tacite",
+            "knowledge": "contrabando",
+            "type": "encantamiento, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Thyme T. Nott ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"contrabando\"><strong>Resultado  #1 \"tacite\" (7)</strong><span>El personaje logra avanzar con agilidad, no solo nadie nota su presencia, sino que tiene tiempo para realizar otra acción.</span></span></div></div></div>",
+            "url": "r18335",
+            "simpleTitle": "fish and chips",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jasper R. Gryffith",
+            "spread": [
+                13
+            ],
+            "title": "actions",
+            "key": "tergeo",
+            "knowledge": "encantamientos",
+            "type": "encantamiento, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jasper R. Gryffith ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"tergeo\" (13)</strong><span>Elimina la suciedad de manera inmediata y sin esfuerzo.</span></span></div></div></div>",
+            "url": "r18988",
+            "simpleTitle": "fish and chips",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Thyme T. Nott",
+            "spread": [
+                18
+            ],
+            "title": "actions",
+            "key": "tacite",
+            "knowledge": "contrabando",
+            "type": "encantamiento, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Thyme T. Nott ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"contrabando\"><strong>Resultado  #1 \"tacite\" (18)</strong><span>El personaje logra avanzar con agilidad, no solo nadie nota su presencia, sino que tiene tiempo para realizar otra acción.</span></span></div></div></div>",
+            "url": "r19168",
+            "simpleTitle": "fish and chips",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jasper R. Gryffith",
+            "spread": [
+                6
+            ],
+            "title": "actions",
+            "key": "cave inimicum",
+            "knowledge": "encantamientos",
+            "type": "encantamiento, defensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jasper R. Gryffith ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"cave inimicum\" (6)</strong><span>La barrera oculta visualmente, pero sonidos pueden filtrarse. Adiciona <em>+9</em> (50% del conocimiento en ENCANTAMIENTOS) de defensa al lugar de escondite.</span></span></div></div></div>",
+            "url": "r19524",
+            "simpleTitle": "fish and chips",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Thyme T. Nott",
+            "spread": [
+                19
+            ],
+            "title": "actions",
+            "key": "tacite",
+            "knowledge": "contrabando",
+            "type": "encantamiento, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Thyme T. Nott ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"contrabando\"><strong>Resultado  #1 \"tacite\" (19)</strong><span>El personaje logra avanzar con agilidad, no solo nadie nota su presencia, sino que tiene tiempo para realizar otra acción.</span></span></div></div></div>",
+            "url": "r19842",
+            "simpleTitle": "fish and chips",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jasper R. Gryffith",
+            "spread": [
+                4
+            ],
+            "title": "actions",
+            "key": "protego",
+            "knowledge": "dcao",
+            "type": "encantamiento, defensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jasper R. Gryffith ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"protego\" (4)</strong><span>El escudo es extremadamente resistente. Reduce el ataque en <em>+7</em> (40% del conocimiento en DCAO) puntos adicionales.</span></span></div></div></div>",
+            "url": "r21077",
+            "simpleTitle": "fish and chips",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Thyme T. Nott",
+            "spread": [
+                5
+            ],
+            "title": "actions",
+            "key": "tacite",
+            "knowledge": "contrabando",
+            "type": "encantamiento, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Thyme T. Nott ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"contrabando\"><strong>Resultado  #1 \"tacite\" (5)</strong><span>El personaje logra avanzar con agilidad, no solo nadie nota su presencia, sino que tiene tiempo para realizar otra acción.</span></span></div></div></div>",
+            "url": "r21169",
+            "simpleTitle": "fish and chips",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jasper R. Gryffith",
+            "spread": [
+                15
+            ],
+            "title": "actions",
+            "key": "protego",
+            "knowledge": "dcao",
+            "type": "encantamiento, defensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jasper R. Gryffith ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"protego\" (15)</strong><span>El escudo es extremadamente resistente. Reduce el ataque en <em>+7</em> (40% del conocimiento en DCAO) puntos adicionales.</span></span></div></div></div>",
+            "url": "r22012",
+            "simpleTitle": "fish and chips",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Thyme T. Nott",
+            "spread": [
+                8
+            ],
+            "title": "actions",
+            "key": "práctica prohibida",
+            "knowledge": "contrabando",
+            "type": "sin magia, infracción, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Thyme T. Nott ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"contrabando\"><strong>Resultado  #1 \"práctica prohibida\" (8)</strong><span>El personaje logra hacer las prácticas sin ser descubierto.</span></span></div></div></div>",
+            "url": "r22515",
+            "simpleTitle": "fish and chips",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Minerva E. McGonagall",
+            "spread": [
+                5
+            ],
+            "title": "books",
+            "key": "análisis de los sistemas políticos y económicos muggles desde una perspectiva mágica",
+            "knowledge": "estudios muggles",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"book\"><strong>Contenido libro \"análisis de los sistemas políticos y económicos muggles desde una perspectiva mágica\" (5)</strong>El análisis de los sistemas políticos y económicos muggles en Gran Bretaña, desde una perspectiva enriquecida por el conocimiento y la experiencia mágica, subraya la complejidad y la resiliencia de estas sociedades. Aunque operan sin el beneficio explícito de la magia, los muggles han construido mundos intrincados de gobierno, comercio y finanzas que merecen un estudio cuidadoso. Comprender estas estructuras no solo es esencial para la coexistencia pacífica entre los mundos mágico y no mágico, sino que también ofrece una visión fascinante de la naturaleza humana y su capacidad para crear orden y prosperidad a través de la organización y el ingenio. Este análisis sirve como un recordatorio de que, incluso en ausencia de magia, las fuerzas del poder, la influencia y el cambio están siempre en juego.</span></div></div></div>",
+            "url": "r17629",
+            "simpleTitle": "práctica - it's all that i've heard",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Asteria C. Lestrange",
+            "spread": [
+                10
+            ],
+            "title": "books",
+            "key": "tratado de los cuatro fuegos",
+            "knowledge": "alquimia",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Asteria C. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"book\"><strong>Contenido libro \"tratado de los cuatro fuegos\" (10)</strong>Nacido de la ausencia, el fuego sombrío no necesita calor. Es frío como el juicio y silencioso como la noche profunda. Aparece en las cavernas de los inefables y en ciertos errores alquímicos deliberados. No consume materia, sino significado: lo que arde en su fulgor deja de tener nombre. Hay constancia de una pluma encantada que, al tocarlo, continuó escribiendo sin tinta, pero sin decir nada. El fuego sombrío no es para encender, sino para olvidar.</span></div></div></div>",
+            "url": "r19064",
+            "simpleTitle": "práctica - it's all that i've heard",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Minerva E. McGonagall",
+            "spread": [
+                3
+            ],
+            "title": "books",
+            "key": "análisis de los sistemas políticos y económicos muggles desde una perspectiva mágica",
+            "knowledge": "estudios muggles",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"book\"><strong>Contenido libro \"análisis de los sistemas políticos y económicos muggles desde una perspectiva mágica\" (3)</strong>El análisis de los sistemas políticos y económicos muggles en Gran Bretaña, desde una perspectiva enriquecida por el conocimiento y la experiencia mágica, subraya la complejidad y la resiliencia de estas sociedades. Aunque operan sin el beneficio explícito de la magia, los muggles han construido mundos intrincados de gobierno, comercio y finanzas que merecen un estudio cuidadoso. Comprender estas estructuras no solo es esencial para la coexistencia pacífica entre los mundos mágico y no mágico, sino que también ofrece una visión fascinante de la naturaleza humana y su capacidad para crear orden y prosperidad a través de la organización y el ingenio. Este análisis sirve como un recordatorio de que, incluso en ausencia de magia, las fuerzas del poder, la influencia y el cambio están siempre en juego.</span></div></div></div>",
+            "url": "r19392",
+            "simpleTitle": "práctica - it's all that i've heard",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Asteria C. Lestrange",
+            "spread": [
+                12
+            ],
+            "title": "books",
+            "key": "tratado de los cuatro fuegos",
+            "knowledge": "alquimia",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Asteria C. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"book\"><strong>Contenido libro \"tratado de los cuatro fuegos\" (12)</strong>“Escribo esto tras la tercera visión. El fuego aéreo descendió sin chispas ni humo, danzando sobre el círculo sin tocarnos. No quemaba: nos hacía leves. Perdimos el habla durante tres días, y cuando volvió, nuestras lenguas hablaban en otras memorias.” (Fragmento recuperado de las Ruinas de Celestine, anotación al pie del folio 112.)</span></div></div></div>",
+            "url": "r20184",
+            "simpleTitle": "práctica - it's all that i've heard",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Minerva E. McGonagall",
+            "spread": [
+                18
+            ],
+            "title": "books",
+            "key": "análisis de los sistemas políticos y económicos muggles desde una perspectiva mágica",
+            "knowledge": "estudios muggles",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"book\"><strong>Contenido libro \"análisis de los sistemas políticos y económicos muggles desde una perspectiva mágica\" (18)</strong>Desde una perspectiva imbuida de conocimiento y experiencia en artes más sutiles, el análisis de los sistemas políticos y económicos de las sociedades no mágicas, particularmente en una región como Gran Bretaña, revela un entramado fascinante de estructuras, motivaciones y consecuencias. Aunque carecen de la manipulación directa de la energía mágica, los muggles han desarrollado complejos mecanismos para organizar su convivencia y gestionar sus recursos. El sistema político británico, con su monarquía constitucional y parlamento bicameral, opera bajo reglas y tradiciones que, aunque ajenas a la inmediatez de un encantamiento, dirigen el flujo del poder y la toma de decisiones a través de debates, legislaciones y consensos (o la falta de ellos). Comprender estas dinámicas es crucial para cualquier entidad mágica que interactúe con este mundo, ya que las leyes y políticas muggles pueden tener un impacto inesperado en la comunidad mágica.</span></div></div></div>",
+            "url": "r20498",
+            "simpleTitle": "práctica - it's all that i've heard",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Asteria C. Lestrange",
+            "spread": [
+                6
+            ],
+            "title": "books",
+            "key": "tratado de los cuatro fuegos",
+            "knowledge": "alquimia",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Asteria C. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"book\"><strong>Contenido libro \"tratado de los cuatro fuegos\" (6)</strong>Nacido de la ausencia, el fuego sombrío no necesita calor. Es frío como el juicio y silencioso como la noche profunda. Aparece en las cavernas de los inefables y en ciertos errores alquímicos deliberados. No consume materia, sino significado: lo que arde en su fulgor deja de tener nombre. Hay constancia de una pluma encantada que, al tocarlo, continuó escribiendo sin tinta, pero sin decir nada. El fuego sombrío no es para encender, sino para olvidar.</span></div></div></div>",
+            "url": "r20950",
+            "simpleTitle": "práctica - it's all that i've heard",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Asteria C. Lestrange",
+            "spread": [
+                16
+            ],
+            "title": "books",
+            "key": "tratado de los cuatro fuegos",
+            "knowledge": "alquimia",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Asteria C. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"book\"><strong>Contenido libro \"tratado de los cuatro fuegos\" (16)</strong>El fuego antiguo no se aprende: se hereda. Está en ciertas líneas de sangre y en ciertos suelos sagrados. Su llama es densa, casi líquida, y sus efectos son duraderos incluso después de extinguirse. Se ha usado para forjar pactos, sellar tumbas y dar vida a objetos inanimados. Algunos sostienen que el fuego antiguo es anterior a la varita misma, y que por eso ningún encantamiento lo domina por completo. Quienes lo han contenido en cálices de ónice afirman que canta. No todos escuchan lo mismo.</span></div></div></div>",
+            "url": "r22141",
+            "simpleTitle": "práctica - it's all that i've heard",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                7
+            ],
+            "title": "actions",
+            "key": "respuestas de sí o no",
+            "knowledge": "runas antiguas",
+            "type": "clarividencia, sin magia, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Montgomery Thatch ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"runas antiguas\"><strong>Resultado  #1 \"respuestas de sí o no\" (7)</strong><span><span class=\"spread-result \" title=\"Uruz\" type=\"runa\">u </span><span class=\"spread-result spread-invert\" title=\"Algiz\" type=\"runa\">z </span><span class=\"spread-result spread-invert\" title=\"Wunjo\" type=\"runa\">v </span></span></span></div></div></div>",
+            "url": "r18481",
+            "simpleTitle": "fox trot",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                8
+            ],
+            "title": "actions",
+            "key": "runa tempranera",
+            "knowledge": "runas antiguas",
+            "type": "clarividencia, sin magia, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Montgomery Thatch ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"runas antiguas\"><strong>Resultado  #1 \"runa tempranera\" (8)</strong><span><span class=\"spread-result spread-invert\" title=\"Jeran\" type=\"runa\">j </span></span></span></div></div></div>",
+            "url": "r19197",
+            "simpleTitle": "fox trot",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Ruairidh Ó Mhaille",
+            "spread": [
+                4
+            ],
+            "title": "actions",
+            "key": "parsialis",
+            "knowledge": "animagia",
+            "type": "habilidad, sin magia, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Ruairidh Ó Mhaille ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"animagia\"><strong>Resultado  #1 \"parsialis\" (4)</strong><span>Puede alterar partes más extensas de su cuerpo, como manos o pies.</span></span></div></div></div>",
+            "url": "r19607",
+            "simpleTitle": "fox trot",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                2
+            ],
+            "title": "felix felicis",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-felix-felicis\"><span>Montgomery Thatch ha lanzado los dados \"felix felicis\"</span><div class=\"dice-results\"><span class=\"roll-result nro2\"><i class=\"fa-solid fa-sparkles\"></i>Se nota que sabes lo que estás haciendo, o Félix lo sabe.</span></div></div></div>",
+            "url": "r19664",
+            "simpleTitle": "fox trot",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                18
+            ],
+            "title": "actions",
+            "key": "runa tempranera",
+            "knowledge": "runas antiguas",
+            "type": "clarividencia, sin magia, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Montgomery Thatch ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"runas antiguas\"><strong>Resultado  #1 \"runa tempranera\" (18)</strong><span><span class=\"spread-result spread-invert\" title=\"Ehwaz\" type=\"runa\">e </span></span></span></div></div></div>",
+            "url": "r20528",
+            "simpleTitle": "fox trot",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Ruairidh Ó Mhaille",
+            "spread": [
+                8
+            ],
+            "title": "actions",
+            "key": "parsialis",
+            "knowledge": "animagia",
+            "type": "habilidad, sin magia, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Ruairidh Ó Mhaille ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"animagia\"><strong>Resultado  #1 \"parsialis\" (8)</strong><span>Puede alterar partes más extensas de su cuerpo, como manos o pies.</span></span></div></div></div>",
+            "url": "r21493",
+            "simpleTitle": "fox trot",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Ruairidh Ó Mhaille",
+            "spread": [
+                12
+            ],
+            "title": "actions",
+            "key": "metamorphosis",
+            "knowledge": "animagia",
+            "type": "habilidad, sin magia, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Ruairidh Ó Mhaille ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"animagia\"><strong>Resultado  #1 \"metamorphosis\" (12)</strong><span>Puede cambiar su forma con fluidez incluso en situaciones de estrés. Adiciona <em>+10</em> (100% del conocimiento en ANIMAGIA) de daño o defensa si se usa contra una persona.</span></span></div></div></div>",
+            "url": "r22282",
+            "simpleTitle": "fox trot",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Black Wave",
+            "spread": [
+                2
+            ],
+            "title": "felix felicis",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-felix-felicis\"><span>Black Wave ha lanzado los dados \"felix felicis\"</span><div class=\"dice-results\"><span class=\"roll-result nro2\"><i class=\"fa-solid fa-sparkles\"></i>Se nota que sabes lo que estás haciendo, o Félix lo sabe.</span></div></div></div>",
+            "url": "r17713",
+            "simpleTitle": "duelo #18: minerva vs thaddeus",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Minerva E. McGonagall",
+            "spread": [
+                14
+            ],
+            "title": "actions",
+            "key": "anticipatio hostis",
+            "knowledge": "liderazgo",
+            "type": "habilidad, sin magia, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"liderazgo\"><strong>Resultado  #1 \"anticipatio hostis\" (14)</strong><span>Los aliados podrán atacar primero indiferente a los resultados de los dados y adiciona <em>+15</em> (100% del conocimiento en LIDERAZGO) al primer ataque.</span></span></div></div></div>",
+            "url": "r17852",
+            "simpleTitle": "duelo #18: minerva vs thaddeus",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Thaddeus L. Nott",
+            "spread": [
+                12
+            ],
+            "title": "actions",
+            "key": "protego",
+            "knowledge": "dcao",
+            "type": "encantamiento, defensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Thaddeus L. Nott ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"protego\" (12)</strong><span>El escudo es extremadamente resistente. Reduce el ataque en <em>+7</em> (40% del conocimiento en DCAO) puntos adicionales.</span></span></div></div></div>",
+            "url": "r17973",
+            "simpleTitle": "duelo #18: minerva vs thaddeus",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Minerva E. McGonagall",
+            "spread": [
+                8
+            ],
+            "title": "actions",
+            "key": "glacius",
+            "knowledge": "encantamientos",
+            "type": "encantamiento, defensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"glacius\" (8)</strong><span>El aire se enfría completamente y la zona alrededor queda cubierta de una gruesa capa de hielo, afectando a todos los que se encuentren cerca del objetivo. Reduce <em>+9</em> (75% del conocimiento en ENCANTAMIENTOS) puntos al ataque de cada rival alcanzado.</span></span></div></div></div>",
+            "url": "r18206",
+            "simpleTitle": "duelo #18: minerva vs thaddeus",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Thaddeus L. Nott",
+            "spread": [
+                8
+            ],
+            "title": "actions",
+            "key": "fumos",
+            "knowledge": "dcao",
+            "type": "encantamiento, defensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Thaddeus L. Nott ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"fumos\" (8)</strong><span>El humo es espeso y persistente, dificultando la visión y la respiración de todos los adversarios presentes en la escena. El lanzador y quienes estén junto a él Adicionan +4 en defensa durante <em>2</em> (El 50% de DES) turnos, mientras dure la cobertura.</span></span></div></div></div>",
+            "url": "r18801",
+            "simpleTitle": "duelo #18: minerva vs thaddeus",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Minerva E. McGonagall",
+            "spread": [
+                5
+            ],
+            "title": "actions",
+            "key": "protego",
+            "knowledge": "dcao",
+            "type": "encantamiento, defensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"protego\" (5)</strong><span>El escudo es extremadamente resistente. Reduce el ataque en <em>+6</em> (40% del conocimiento en DCAO) puntos adicionales.</span></span></div></div></div>",
+            "url": "r18814",
+            "simpleTitle": "duelo #18: minerva vs thaddeus",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Thaddeus L. Nott",
+            "spread": [
+                13
+            ],
+            "title": "actions",
+            "key": "rictusempra",
+            "knowledge": "encantamientos",
+            "type": "encantamiento, ofensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Thaddeus L. Nott ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"rictusempra\" (13)</strong><span>El objetivo cae al suelo riendo incontrolablemente, sin poder reaccionar por un largo periodo. El personaje pierde las siguientes dos acciones.</span></span></div></div></div>",
+            "url": "r19359",
+            "simpleTitle": "duelo #18: minerva vs thaddeus",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Minerva E. McGonagall",
+            "spread": [
+                6
+            ],
+            "title": "actions",
+            "key": "fumos",
+            "knowledge": "dcao",
+            "type": "encantamiento, defensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"fumos\" (6)</strong><span>El humo es espeso y persistente, dificultando la visión y la respiración de todos los adversarios presentes en la escena. El lanzador y quienes estén junto a él Adicionan +5 en defensa durante <em>3</em> (El 50% de DES) turnos, mientras dure la cobertura.</span></span></div></div></div>",
+            "url": "r19764",
+            "simpleTitle": "duelo #18: minerva vs thaddeus",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Thaddeus L. Nott",
+            "spread": [
+                1
+            ],
+            "title": "actions",
+            "key": "aqua eructo",
+            "knowledge": "encantamientos",
+            "type": "encantamiento, ofensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Thaddeus L. Nott ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"aqua eructo\" (1)</strong><span>El chorro es suficiente para apagar pequeñas llamas o refrescar un área. Empuja levemente al oponente, adiciona +3 al daño.</span></span></div></div></div>",
+            "url": "r20351",
+            "simpleTitle": "duelo #18: minerva vs thaddeus",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Minerva E. McGonagall",
+            "spread": [
+                8
+            ],
+            "title": "actions",
+            "key": "immobulus",
+            "knowledge": "dcao",
+            "type": "encantamiento, defensivo, ofensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"immobulus\" (8)</strong><span>El hechizo puede paralizar a un único objetivo o, si el lanzador lo decide, a todo un grupo de objetivos cercanos entre sí, tal como se usa para inmovilizar de una vez a un enjambre completo de criaturas pequeñas. Cada objetivo alcanzado queda paralizado durante <em>+17</em> (100% del conocimiento en DCAO) turnos y tarda más en recuperar el control de su cuerpo, donde no podrá realizar acciones, o hasta que un personaje lo libere si se usa como ataque, o impide el ataque, reduciendo el mismo a cero, si se usa como defensa adicionando +4 puntos en la siguiente acción del defensor.</span></span></div></div></div>",
+            "url": "r20435",
+            "simpleTitle": "duelo #18: minerva vs thaddeus",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Thaddeus L. Nott",
+            "spread": [
+                8
+            ],
+            "title": "actions",
+            "key": "protego",
+            "knowledge": "dcao",
+            "type": "encantamiento, defensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Thaddeus L. Nott ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"protego\" (8)</strong><span>El escudo es extremadamente resistente. Reduce el ataque en <em>+7</em> (40% del conocimiento en DCAO) puntos adicionales.</span></span></div></div></div>",
+            "url": "r20946",
+            "simpleTitle": "duelo #18: minerva vs thaddeus",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Minerva E. McGonagall",
+            "spread": [
+                6
+            ],
+            "title": "actions",
+            "key": "fianto duri",
+            "knowledge": "encantamientos",
+            "type": "encantamiento, defensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"fianto duri\" (6)</strong><span>El encantamiento defensivo se refuerza ligeramente. Adiciona <em>+3</em> (25% del conocimiento en ENCANTAMIENTOS) en la siguiente lanzada de dados donde se utilice un hechizo protector.</span></span></div></div></div>",
+            "url": "r21361",
+            "simpleTitle": "duelo #18: minerva vs thaddeus",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Thaddeus L. Nott",
+            "spread": [
+                5
+            ],
+            "title": "actions",
+            "key": "fortitudo cordis",
+            "knowledge": "liderazgo",
+            "type": "habilidad, sin magia, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Thaddeus L. Nott ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"liderazgo\"><strong>Resultado  #1 \"fortitudo cordis\" (5)</strong><span>Adiciona <em>2</em> (El 50% de CAR) en acciones del conocimiento mencionado durante dos turnos.</span></span></div></div></div>",
+            "url": "r22148",
+            "simpleTitle": "duelo #18: minerva vs thaddeus",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Minerva E. McGonagall",
+            "spread": [
+                5
+            ],
+            "title": "actions",
+            "key": "impedimenta",
+            "knowledge": "dcao",
+            "type": "embrujo, defensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"impedimenta\" (5)</strong><span>El objetivo es ralentizado considerablemente. En caso de realizarse sobre un hechizo, disminuye +4 puntos del ataque.</span></span></div></div></div>",
+            "url": "r22322",
+            "simpleTitle": "duelo #18: minerva vs thaddeus",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Thaddeus L. Nott",
+            "spread": [
+                3
+            ],
+            "title": "actions",
+            "key": "mischief managed",
+            "knowledge": "contrabando",
+            "type": "sin magia, infracción, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Thaddeus L. Nott ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"contrabando\"><strong>Resultado  #1 \"mischief managed\" (3)</strong><span>El personaje puede quebrar las normas, sin embargo, quedan marcas detrás que pueden ser rastreables.</span></span></div></div></div>",
+            "url": "r16236",
+            "simpleTitle": "ma meilleure ennemie",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                9
+            ],
+            "title": "actions",
+            "key": "numerus occultus",
+            "knowledge": "aritmancia",
+            "type": "habilidad, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Montgomery Thatch ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"aritmancia\"><strong>Resultado  #1 \"numerus occultus\" (9)</strong><span>Se revela parte de la información oculta.</span></span></div></div></div>",
+            "url": "r17673",
+            "simpleTitle": "in lingua latina",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Ruairidh Ó Mhaille",
+            "spread": [
+                16
+            ],
+            "title": "acción",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Ruairidh Ó Mhaille ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">16</span></div></div></div>",
+            "url": "r18405",
+            "simpleTitle": "in lingua latina",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                2,
+                8
+            ],
+            "title": "actions",
+            "key": "numerus occultus",
+            "knowledge": "aritmancia",
+            "type": "habilidad, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Montgomery Thatch ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"aritmancia\"><strong>Resultado  #1 \"numerus occultus\" (2)</strong><span>Se revela parte de la información oculta.</span></span><span class=\"roll-result\">8</span></div></div></div>",
+            "url": "r18478",
+            "simpleTitle": "in lingua latina",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                3
+            ],
+            "title": "actions",
+            "key": "fumos",
+            "knowledge": "dcao",
+            "type": "encantamiento, defensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Montgomery Thatch ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"fumos\" (3)</strong><span>El humo se esparce y dificulta un poco la visión del oponente. Adiciona +2 en defensa.</span></span></div></div></div>",
+            "url": "r19529",
+            "simpleTitle": "in lingua latina",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                1
+            ],
+            "title": "felix felicis",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-felix-felicis\"><span>Montgomery Thatch ha lanzado los dados \"felix felicis\"</span><div class=\"dice-results\"><span class=\"roll-result nro1\"><i class=\"fa-solid fa-flask-round-poison\"></i>No hubo suerte esta vez, mejor intenta la próxima.</span></div></div></div>",
+            "url": "r20521",
+            "simpleTitle": "in lingua latina",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Ruairidh Ó Mhaille",
+            "spread": [
+                15
+            ],
+            "title": "actions",
+            "key": "fumos",
+            "knowledge": "dcao",
+            "type": "encantamiento, defensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Ruairidh Ó Mhaille ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"fumos\" (15)</strong><span>El humo es espeso y persistente, dificultando la visión y la respiración de todos los adversarios presentes en la escena. El lanzador y quienes estén junto a él Adicionan +4 en defensa durante <em>1</em> (El 50% de DES) turnos, mientras dure la cobertura.</span></span></div></div></div>",
+            "url": "r20777",
+            "simpleTitle": "in lingua latina",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Ruairidh Ó Mhaille",
+            "spread": [
+                17
+            ],
+            "title": "actions",
+            "key": "fumos",
+            "knowledge": "dcao",
+            "type": "encantamiento, defensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Ruairidh Ó Mhaille ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"fumos\" (17)</strong><span>El humo es espeso y persistente, dificultando la visión y la respiración de todos los adversarios presentes en la escena. El lanzador y quienes estén junto a él Adicionan +4 en defensa durante <em>1</em> (El 50% de DES) turnos, mientras dure la cobertura.</span></span></div></div></div>",
+            "url": "r21489",
+            "simpleTitle": "in lingua latina",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                8
+            ],
+            "title": "actions",
+            "key": "oculus auri",
+            "knowledge": "duendes",
+            "type": "habilidad, sin magia, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Montgomery Thatch ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"duendes\"><strong>Resultado  #1 \"oculus auri\" (8)</strong><span>Puede ver a través de ilusiones y detectar incluso artefactos protegidos con magia avanzada.</span></span></div></div></div>",
+            "url": "r21558",
+            "simpleTitle": "in lingua latina",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Ruairidh Ó Mhaille",
+            "spread": [
+                17
+            ],
+            "title": "actions",
+            "key": "ventus",
+            "knowledge": "encantamientos",
+            "type": "encantamiento, ofensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Ruairidh Ó Mhaille ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"ventus\" (17)</strong><span>Un viento fuerte desequilibra al objetivo. Adiciona <em>+7</em> (75% del conocimiento en ENCANTAMIENTOS) en daño en caso de duelos.</span></span></div></div></div>",
+            "url": "r22280",
+            "simpleTitle": "in lingua latina",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                9
+            ],
+            "title": "actions",
+            "key": "computus",
+            "knowledge": "aritmancia",
+            "type": "encantamiento, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Montgomery Thatch ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"aritmancia\"><strong>Resultado  #1 \"computus\" (9)</strong><span>El mago realiza un análisis impecable, detectando patrones ocultos o irregularidades en los registros.</span></span></div></div></div>",
+            "url": "r22439",
+            "simpleTitle": "in lingua latina",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Vasilisa M. Kuznetzova",
+            "spread": [
+                8
+            ],
+            "title": "actions",
+            "key": "vox tenebris",
+            "knowledge": "banshees",
+            "type": "mental, sin magia, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"banshees\"><strong>Resultado  #1 \"vox tenebris\" (8)</strong><span>Los oyentes no solo podrán sentir la emoción, sino que podrán recordar un momento en el que se hayan sentido igual. La misma debe ser indicada on-rol.</span></span></div></div></div>",
+            "url": "r17104",
+            "simpleTitle": "shape of you",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                1
+            ],
+            "title": "felix felicis",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-felix-felicis\"><span>Alastor Moody ha lanzado los dados \"felix felicis\"</span><div class=\"dice-results\"><span class=\"roll-result nro1\"><i class=\"fa-solid fa-flask-round-poison\"></i>No hubo suerte esta vez, mejor intenta la próxima.</span></div></div></div>",
+            "url": "r17278",
+            "simpleTitle": "shape of you",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                62
+            ],
+            "title": "criaturas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-criaturas\"><span>Alastor Moody ha lanzado los dados \"criaturas\"</span><div class=\"dice-results\"><span class=\"roll-result nro62\">Deberás enfrentarte a un <span class=\"do-action\" target=\"creatures\" data=\"mantícora\"></span></span></div></div></div>",
+            "url": "r11236",
+            "simpleTitle": "what u see",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Venus M. Merrythought",
+            "spread": [
+                10
+            ],
+            "title": "creatures",
+            "key": "mantícora",
+            "knowledge": "criaturas",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Venus M. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"mantícora\" (10)</strong><ataque>Carga al objetivo y lo derriba con potencia bruta. Adiciona +12 en Ataque.</ataque><defensa>Esquiva con una agilidad felina impropia de su tamaño, posicionándose mejor. Adiciona +10 en Defensa.</defensa></span></div></div></div>",
+            "url": "r12221",
+            "simpleTitle": "what u see",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                15
+            ],
+            "title": "actions",
+            "key": "rictusempra",
+            "knowledge": "encantamientos",
+            "type": "encantamiento, ofensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"rictusempra\" (15)</strong><span>El objetivo cae al suelo riendo incontrolablemente, sin poder reaccionar por un largo periodo. El personaje pierde las siguientes dos acciones.</span></span></div></div></div>",
+            "url": "r12446",
+            "simpleTitle": "what u see",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Venus M. Merrythought",
+            "spread": [
+                9
+            ],
+            "title": "creatures",
+            "key": "mantícora",
+            "knowledge": "criaturas",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Venus M. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"mantícora\" (9)</strong><ataque>Lanza su aguijón con fuerza, causando dolor y posible veneno. Adiciona +5 en Ataque. Si la víctima recibe daño, adicionalmente, pierde 3 puntos de sus siguientes cinco acciones.</ataque><defensa>Su naturaleza mágica repele la energía hostil. Adiciona +7 en Defensa.</defensa></span></div></div></div>",
+            "url": "r13952",
+            "simpleTitle": "what u see",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                17
+            ],
+            "title": "actions",
+            "key": "depulso",
+            "knowledge": "encantamientos",
+            "type": "encantamiento, ofensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"depulso\" (17)</strong><span>El objetivo es arrojado violentamente lejos, perdiendo el equilibrio. Adiciona <em>+25</em> (100% del conocimiento en ENCANTAMIENTOS) en el daño, la víctima pierde 2 acciones consecutivas al recibir el ataque.</span></span></div></div></div>",
+            "url": "r14071",
+            "simpleTitle": "what u see",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Venus M. Merrythought",
+            "spread": [
+                6
+            ],
+            "title": "actions",
+            "key": "desmaius",
+            "knowledge": "dcao",
+            "type": "encantamiento, ofensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Venus M. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"desmaius\" (6)</strong><span>El objetivo cae inconsciente al instante. La víctima pierde sus siguientes 2 acciones.</span></span></div></div></div>",
+            "url": "r15103",
+            "simpleTitle": "what u see",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                18
+            ],
+            "title": "actions",
+            "key": "purga tox",
+            "knowledge": "curación",
+            "type": "curación",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #1 \"purga tox\" (18)</strong><span>Elimina toxinas superficiales y estabiliza al paciente. Restaura +12PV, pero se debe tomar el antídoto antes de que termine el tema.</span></span></div></div></div>",
+            "url": "r15214",
+            "simpleTitle": "what u see",
             "space": "el pensadero"
         }
     ];
