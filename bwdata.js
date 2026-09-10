@@ -5159,6 +5159,11 @@ const MissionsModule = (function () {
           "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ingresar al ático",
           "cont": '<span>El ático es definitivamente el espacio más pequeño de toda la casa. No tiene luces, pero las velas prendidas iluminan débilmente el espacio de madera.</span><adding search="ático" class="check-cards"></adding>',
         },
+
+        {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "gemelas",
+          "cont": '<span>Al ingresar al cuarto de las gemelas, la puerta se cierra con un sonoro golpe y la temperatura empieza a descender rápidamente. Los personajes tendrán 3 turnos para resolver la situación y pierden instantáneamente 75pv y 30pv por cada acción realizada.</span>',
+        },
       ],
 
       "searchs": {
@@ -5218,20 +5223,118 @@ const MissionsModule = (function () {
           "cont": '<span>Permite a los personajes subir las escaleras del pasadizo hasta llegar a una puerta, que, al abrirla, salen por otro espejo ubicado en las cocinas.</span><adding search="vestíbulo" class="check-cards"></adding>',
         },
 
-        "seach": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "lugar",
-          "cont": '<span>Narra</span>',
+        "bajar al sótano": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "vestíbulo",
+          "cont": '<span>Permite a los personajes bajar al sótano.</span><adding search="reparar escaleras" class="check-cards"></adding>',
         },
 
-        "seach": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "lugar",
-          "cont": '<span>Narra</span>',
+        "ingresar a las cocinas": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "vestíbulo",
+          "cont": '<span>Permite a los personajes ingresar a las cocinas.</span><adding search="cocinas" class="check-cards"></adding>',
         },
 
-        
+        "subir al primer piso": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "vestíbulo",
+          "cont": '<span>Permite a los personajes subir al primer piso.</span>',
+        },
+
+        "ingresar al cuarto matrimonial": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "subir al primer piso",
+          "cont": '<span>La primera puerta a la derecha del primer piso los lleva a la habitación matimonial.</span>',
+        },
+
+        "ingresar al cuarto de las gemelas": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "subir al primer piso",
+          "cont": '<span>La primera puerta a la izquieda, luego de recorrer por un pequeño pasillo, conduce a la habitación de las gemelas.</span>',
+        },
+
+        "subir al ático": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "subir al primer piso",
+          "cont": '<span>Permite a los personajes subir al ático. No son más que unos cuantos escalones que deben recorrer hasta dar con la puerta del ático.</span>',
+        },
+
+        "bajar al vestíbulo": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "subir al primer piso",
+          "cont": '<span>Permite a los personajes regresar al vestíbulo.</span><adding search="vestíbulo" class="check-cards"></adding>',
+        },
+
+        "ingresar al ático": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "subir al ático",
+          "cont": '<span>Al abrir las puertas, el ático les da la bienvenida.</span>',
+        },
+
+        "bajar al primer piso": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ingresar al ático",
+          "cont": '<span>Permite a los personajes regresar al primer piso de la casa.</span><adding search="subir al primer piso" class="check-cards"></adding>',
+        },
+
+        "revisar fotografías": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "matrimonial",
+          "cont": '<span>Al observar las fotografías se puede observar diversas imagenes de unas niñas que juegan y de Hadiya que sonríe a quién toma las fotos. Morian nunca está con ellas, pero si se puede apreciar la figura de Soly que se une a la familia.</span>',
+        },
+
+        "acariciar al gato": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "matrimonial",
+          "cont": '<span>Cuando se acercan al gato, este les gruñe en respuesta y sale corriendo hasta esconderse debajo del tocador.</span>',
+        },
+
+        "revisar el espejo": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "matrimonial",
+          "cont": '<span>El espejo parece tener grabado algo. Aprovechando al suiciedad el mismo, alguien lo ha escrito. Hay un triángulo hacia arriba con una línea que lo cruza a la mitad y unas letras que no se terminan de comprender.</span>',
+        },
+
+        "triángulo hacia arriba cruzado por una línea": {
+          "visible": { "attr": { "val": "min" }, "know": { "alquimia": "10" }, "job": "invalid", "name": "invalid", }, "place": "revisar el espejo",
+          "cont": '<span>El triángulo hacia arriba cruzado por una línea es la representación alquímica del aire.</span>',
+        },
+
+        "revisar armario": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "gemelas1",
+          "cont": '<span>Al revisar el armario se puede notar que alguien ha tomado la mayoría de las pertenencias. Posiblemente Wren cuando se escapó del lugar.</span>',
+        },
+
+        "tiempo sin habitar": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "gemelas1",
+          "cont": '<span>Por las capas de tierra acumuladas, se puede deducir que el lugar lleva casi un año sin habitarse.</span>',
+        },
+
+        "revisar chimenea": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "gemelas1",
+          "cont": '<span>Sobre la chimenea se puede observar un triángulo hacia arriba sin ninguna línea.</span>',
+        },
+
+        "triángulo hacia arriba sin línea": {
+          "visible": { "attr": { "val": "min" }, "know": { "alquimia": "10" }, "job": "invalid", "name": "invalid", }, "place": "revisar chimenea",
+          "cont": '<span>El triángulo hacia arriba sin línea pertenece al símbolo alquímico del fuego.</span>',
+        },
+
+        "inscripción en la chimenea": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "revisar chimenea",
+          "cont": '<span>Sobre el triángulo se puede leer la siguiente inscripción: "Por la primera luz que compartimos, que ningún mal cruce este umbral sin ser visto."</span>',
+        },
+
+        "investigar mesa": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "cocinas",
+          "cont": '<span>Sobre la mesa hay un trozo de pan que ha sido congelado para que no se ponga en mal estado.</span>',
+        },
+
+        "investigar plato": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "investigar mesa",
+          "cont": '<span>Al investigar el plato debajo del pan cortado a la mitad, pueden observarse unas letras y un triángulo hacia abajo con una línea.</span>',
+        },
+
+        "leer el plato": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "investigar mesa",
+          "cont": '<span>El plato tiene una frase muy clara: "Por el pan partido en dos, que el hambre del mal no encuentre mesa aquí."</span>',
+        },
+
+        "triángulo hacia abajo cruzado por una línea": {
+          "visible": { "attr": { "val": "min" }, "know": { "alquimia": "10" }, "job": "invalid", "name": "invalid", }, "place": "investigar mesa",
+          "cont": '<span>El triángulo hacia abajo cruzado por una línea representa el símbolo alquímico de la tierra.</span>',
+        },
 
         "sentir una presencia": {
-          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "entrar al cuarto de las gemelas",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ático",
           "cont": '<span>El frío que ya se sentía en toda la casa se vuelve distinto: más denso, más personal. Las llamas de las pocas velas que aún quedan en pie sobre los candelabros oxidados pasan de un naranja apagado a un azul pálido. En algún punto del cuarto, el aire se mueve sin que haya ventana abierta.</span>',
         },
 
@@ -5299,6 +5402,41 @@ const MissionsModule = (function () {
           "moderado": '<span>El espejo se abre revelando unas escaleras ascendentes.</span><adding search="pasadizo" class="check-cards"></adding>',
           "exitoso": '<span>El espejo se abre revelando unas escaleras ascendentes.</span><adding search="pasadizo" class="check-cards"></adding>',
           "critico": '<span>El espejo se abre revelando unas escaleras ascendentes.</span><adding search="pasadizo" class="check-cards"></adding>',
+        },
+
+        "aparecium": {
+          "leve": '<span>No es suficiente para revelar información.</span>',
+          "moderado": '<span>Al aplicar sobre el espejo del cuarto matrimonial, una vela sobre el tocador se enciende y unas palabras se revelan: "Por el rostro que ya no tengo y el que no está presente, que ninguna sombra tome el lugar de las que faltan."</span>',
+          "exitoso": '<span>Al aplicar sobre el espejo del cuarto matrimonial, una vela sobre el tocador se enciende y unas palabras se revelan: "Por el rostro que ya no tengo y el que no está presente, que ninguna sombra tome el lugar de las que faltan."</span>',
+          "critico": '<span>Al aplicar sobre el espejo del cuarto matrimonial, una vela sobre el tocador se enciende y unas palabras se revelan: "Por el rostro que ya no tengo y el que no está presente, que ninguna sombra tome el lugar de las que faltan."</span>',
+        },
+
+        "incendio": {
+          "leve": '<span>No es suficiente para revelar información.</span>',
+          "moderado": '<span>Al aplicar el hechizo sobre los troncos de la chimenea estos comienzan a arder y la temperatura comienza a subir regresando a una temperatura adecuada. Los personajes ya no pierden más puntos de vida.</span><adding search="gemelas1" class="check-cards"></adding>',
+          "exitoso": '<span>Al aplicar el hechizo sobre los troncos de la chimenea estos comienzan a arder y la temperatura comienza a subir regresando a una temperatura adecuada. Los personajes ya no pierden más puntos de vida.</span><adding search="gemelas1" class="check-cards"></adding>',
+          "critico": '<span>Al aplicar el hechizo sobre los troncos de la chimenea estos comienzan a arder y la temperatura comienza a subir regresando a una temperatura adecuada. Los personajes ya no pierden más puntos de vida.</span><adding search="gemelas1" class="check-cards"></adding>',
+        },
+
+        "lacarnum inflamarae": {
+          "leve": '<span>No es suficiente para revelar información.</span>',
+          "moderado": '<span>Al aplicar el hechizo sobre los troncos de la chimenea estos comienzan a arder y la temperatura comienza a subir regresando a una temperatura adecuada. Los personajes ya no pierden más puntos de vida.</span><adding search="gemelas1" class="check-cards"></adding>',
+          "exitoso": '<span>Al aplicar el hechizo sobre los troncos de la chimenea estos comienzan a arder y la temperatura comienza a subir regresando a una temperatura adecuada. Los personajes ya no pierden más puntos de vida.</span><adding search="gemelas1" class="check-cards"></adding>',
+          "critico": '<span>Al aplicar el hechizo sobre los troncos de la chimenea estos comienzan a arder y la temperatura comienza a subir regresando a una temperatura adecuada. Los personajes ya no pierden más puntos de vida.</span><adding search="gemelas1" class="check-cards"></adding>',
+        },
+
+        "vocare kanu": {
+          "leve": '<span>No es suficiente para revelar información.</span>',
+          "moderado": '<span>Al aplicar el hechizo sobre los troncos de la chimenea estos comienzan a arder y la temperatura comienza a subir regresando a una temperatura adecuada. Los personajes ya no pierden más puntos de vida.</span><adding search="gemelas1" class="check-cards"></adding>',
+          "exitoso": '<span>Al aplicar el hechizo sobre los troncos de la chimenea estos comienzan a arder y la temperatura comienza a subir regresando a una temperatura adecuada. Los personajes ya no pierden más puntos de vida.</span><adding search="gemelas1" class="check-cards"></adding>',
+          "critico": '<span>Al aplicar el hechizo sobre los troncos de la chimenea estos comienzan a arder y la temperatura comienza a subir regresando a una temperatura adecuada. Los personajes ya no pierden más puntos de vida.</span><adding search="gemelas1" class="check-cards"></adding>',
+        },
+
+        "ignis mortis": {
+          "leve": '<span>No es suficiente para revelar información.</span>',
+          "moderado": '<span>Al aplicar el hechizo sobre los troncos de la chimenea estos comienzan a arder y la temperatura comienza a subir regresando a una temperatura adecuada. Los personajes ya no pierden más puntos de vida.</span><adding search="gemelas1" class="check-cards"></adding>',
+          "exitoso": '<span>Al aplicar el hechizo sobre los troncos de la chimenea estos comienzan a arder y la temperatura comienza a subir regresando a una temperatura adecuada. Los personajes ya no pierden más puntos de vida.</span><adding search="gemelas1" class="check-cards"></adding>',
+          "critico": '<span>Al aplicar el hechizo sobre los troncos de la chimenea estos comienzan a arder y la temperatura comienza a subir regresando a una temperatura adecuada. Los personajes ya no pierden más puntos de vida.</span><adding search="gemelas1" class="check-cards"></adding>',
         },
       },
     },
