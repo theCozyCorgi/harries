@@ -2844,15 +2844,29 @@ const MissionsModule = (function () {
           "critico": 'Permite hacer que el elevador de Sumaúma suba hasta el lugar donde están ellos. Sin embargo, en el mismo encontrarán <replace target="dado" calculate="0.50">[50% del resultado del dado]</replace> acromántulas. Si el resultado del accio es positivo, las mismas atacarán primero.',
         },
 
+        "expulso": {
+          "leve": 'No es suficiente para bajar el elevador.',
+          "moderado": 'Permite hacer que el elevador de Sumaúma baje hasta el suelo debajo del abismo en un solo turno. Sin embargo, en el mismo encontrarán <replace target="dado" calculate="0.75">[75% del resultado del dado]</replace> acromántulas. Si el resultado del hechizo es positivo, las mismas atacarán primero.',
+          "exitoso": 'Permite hacer que el elevador de Sumaúma baje hasta el suelo debajo del abismo en un solo turno. Sin embargo, en el mismo encontrarán <replace target="dado" calculate="0.75">[75% del resultado del dado]</replace> acromántulas. Si el resultado del hechizo es positivo, las mismas atacarán primero.',
+          "critico": 'Permite hacer que el elevador de Sumaúma baje hasta el suelo debajo del abismo en un solo turno. Sin embargo, en el mismo encontrarán <replace target="dado" calculate="0.75">[75% del resultado del dado]</replace> acromántulas. Si el resultado del hechizo es positivo, las mismas atacarán primero.',
+        },
+
+        "arresto momentum": {
+          "leve": 'No es suficiente para bajar el elevador.',
+          "moderado": 'Permite hacer que el elevador de Sumaúma baje hasta el suelo debajo del abismo en un solo turno. Sin embargo, en el mismo encontrarán <replace target="dado" calculate="0.75">[75% del resultado del dado]</replace> acromántulas. Si el resultado del hechizo es positivo, las mismas atacarán primero.',
+          "exitoso": 'Permite hacer que el elevador de Sumaúma baje hasta el suelo debajo del abismo en un solo turno. Sin embargo, en el mismo encontrarán <replace target="dado" calculate="0.75">[75% del resultado del dado]</replace> acromántulas. Si el resultado del hechizo es positivo, las mismas atacarán primero.',
+          "critico": 'Permite hacer que el elevador de Sumaúma baje hasta el suelo debajo del abismo en un solo turno. Sin embargo, en el mismo encontrarán <replace target="dado" calculate="0.75">[75% del resultado del dado]</replace> acromántulas. Si el resultado del hechizo es positivo, las mismas atacarán primero.',
+        },
+
         "wingardium leviosa": {
-          "leve": 'No es suficiente para subir el elevador.',
+          "leve": 'No es suficiente para bajar el elevador.',
           "moderado": 'Permite bajar el elevador de Saumaúma <replace target="dado" calculate="0.25">[25% del resultado del dado]</replace> metros. El acantilado es de 55 metros de alto (aproximadamente 15 pisos de un edificio). Una vez que los dos grupos lleguen abajo deberán avisar a la administración para que realice la intervención.',
           "exitoso": 'Permite bajar el elevador de Saumaúma <replace target="dado" calculate="0.50">[50% del resultado del dado]</replace> metros. El acantilado es de 55 metros de alto (aproximadamente 15 pisos de un edificio). Una vez que los dos grupos lleguen abajo deberán avisar a la administración para que realice la intervención.',
           "critico": 'Permite bajar el elevador de Saumaúma <replace target="dado" calculate="0.75">[75% del resultado del dado]</replace> metros. El acantilado es de 55 metros de alto (aproximadamente 15 pisos de un edificio). Una vez que los dos grupos lleguen abajo deberán avisar a la administración para que realice la intervención.',
         },
 
         "locomotor": {
-          "leve": 'No es suficiente para subir el elevador.',
+          "leve": 'No es suficiente para bajar el elevador.',
           "moderado": 'Permite bajar el elevador de Saumaúma <replace target="dado" calculate="0.25">[25% del resultado del dado]</replace> metros. El acantilado es de 55 metros de alto (aproximadamente 15 pisos de un edificio). Una vez que los dos grupos lleguen abajo deberán avisar a la administración para que realice la intervención.',
           "exitoso": 'Permite bajar el elevador de Saumaúma <replace target="dado" calculate="0.50">[50% del resultado del dado]</replace> metros. El acantilado es de 55 metros de alto (aproximadamente 15 pisos de un edificio). Una vez que los dos grupos lleguen abajo deberán avisar a la administración para que realice la intervención.',
           "critico": 'Permite bajar el elevador de Saumaúma <replace target="dado" calculate="0.75">[75% del resultado del dado]</replace> metros. El acantilado es de 55 metros de alto (aproximadamente 15 pisos de un edificio). Una vez que los dos grupos lleguen abajo deberán avisar a la administración para que realice la intervención.',
