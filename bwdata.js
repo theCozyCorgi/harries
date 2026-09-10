@@ -5137,27 +5137,27 @@ const MissionsModule = (function () {
 
         {
           "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "recorrer el vestíbulo",
-          "cont": '<span>En las paredes del vestíbulo cuelgan varios retratos familiares, inmóviles desde hace años; sea porque la magia que los animaba se agotó, sea porque nadie quedó para mantenerla. En casi todos, el rostro ha sido arrancado o quemado con cuidado, como si alguien hubiera querido borrar específicamente las caras y no los cuerpos. Solo uno conserva el rostro intacto: el de una niña pequeña, sonriendo, con otra niña idéntica tomada de la mano.</span>',
+          "cont": '<span>En las paredes del vestíbulo cuelgan varios retratos familiares, inmóviles desde hace años; sea porque la magia que los animaba se agotó, sea porque nadie quedó para mantenerla. En casi todos, el rostro ha sido arrancado o quemado con cuidado, como si alguien hubiera querido borrar específicamente las caras y no los cuerpos. Solo uno conserva el rostro intacto: el de una niña pequeña, sonriendo, con otra niña idéntica tomada de la mano.</span><adding search="vestíbulo" class="check-cards"></adding>',
         },
 
         {
-          "visible": { "attr": { "val": "min" }, "know": { "magia oscura": "10" }, "job": "invalid", "name": "invalid", }, "place": "trazar la sal por el borde",
-          "cont": '<span>Con Magia Oscura en nivel Avanzado, la forma que traza la sal deja de parecer un dibujo inocente. No es un círculo cualquiera: los trazos repetidos en el borde, las cuatro velas en los puntos exactos y la marca tallada debajo de todo corresponden a un sello de anclaje espiritual. Uno de esos que se usan para atar algo, o a alguien, a un punto fijo.</span>',
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ingresar a las cocinas",
+          "cont": '<span>Las cocinas son un recuerdo de lo que alguna vez hubo allí. Ceramicos amarillo pálido desgastado de tanto uso. Una mesa con cuatro sillas de las cuales dos están rotas. Todos los vidrios de las ventanas se encuentran opacos por el polvo, el sol y todas las lluvias que pasaron sin que nadie los limpiara.</span><adding search="cocinas" class="check-cards"></adding>',
         },
 
         {
-          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "sentir una presencia",
-          "cont": '<span>Una figura se recorta contra la pared del fondo: una mujer joven, de contorno gris plateado y bordes que tiemblan como el humo. Viste ropa sencilla y gastada, muy distinta a la de los retratos de familia que cuelgan abajo. Su expresión no es la de un espectro sereno, sino la de alguien que lleva mucho tiempo esperando que alguien golpee esa puerta y, ahora que sucedió, no termina de decidir si quiere que se queden o que se vayan.</span>',
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ingresar al cuarto matrimonial",
+          "cont": '<span>La habitación matrimonial es una sala amplia y con techos altos, con muebles de madera oscura y cortinas de terciopelo verde. En el centro de la habitación hay una cama grande con un colchón grueso y almohadas de plumas, todas desgastadas por el paso del tiempo y un gato durmiendo sobre una de ellas que observa a quiénes ingresa, pero no se mueve de su lugar. Hay cuadros y fotografías colgadas en las paredes, pero todas están descoloridas por el sol que aún se mueven.</span><adding search="matrimonial" class="check-cards"></adding>',
         },
 
         {
-          "visible": { "attr": { "sab": "3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar por el hombre de un solo ojo",
-          "cont": '<span>Aunque Nina mantiene la voz firme casi todo el tiempo, quien la observa con atención nota que su forma se atenúa cada vez que menciona al hombre, como una vela a punto de apagarse por una corriente de aire. No es un gesto teatral. Es miedo, del que no se actúa.</span>',
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ingresar al cuarto de las gemelas",
+          "cont": '<span>La habitación de las gemelas es un espacio pequeño y acogedor. Contrario a todos los lugares a los que entraron, es el único que muestra verdadero uso reciente. Las ventanas están limpias, las camas están hechas y se puede apreciar que alguien, hasta hacía poco más de un año había estado limpiando y ordenando el lugar.</span><adding search="gemelas" class="check-cards"></adding>',
         },
 
         {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "nigromante", "name": "invalid", }, "place": "preguntar por soly nisrine",
-          "cont": '<span>Para quien recuerde el cuerpo hallado en el peritaje de Wrenn Wraithwood, identificado como Soly Nisrine mediante un <i>extractum genericae</i>, las palabras de Nina encajan de una manera incómoda. Si Soly investigaba cómo trasladar un alma de un cuerpo a otro, y su propia muerte quedó registrada como un suicidio que sus padres jamás dejaron autopsiar, la pregunta ya no es si el traslado se hizo, sino a costa de quién.</span>',
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ingresar al ático",
+          "cont": '<span>El ático es definitivamente el espacio más pequeño de toda la casa. No tiene luces, pero las velas prendidas iluminan débilmente el espacio de madera.</span><adding search="ático" class="check-cards"></adding>',
         },
       ],
 
@@ -5178,7 +5178,7 @@ const MissionsModule = (function () {
         },
 
         "bajar al sótano": {
-          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "recorrer el vestíbulo",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "vestíbulo",
           "cont": '<span>Los escalones del sótano están gastados y varios parecen hundidos hacia adentro, como si algo los hubiera erosionado desde abajo. Al apoyar el primer pie, un crujido seco recorre toda la escalera: una vieja protección residual de la casa sigue activa, y convierte los escalones en una rampa de piedra lisa e inclinada. Bajar así, sin control, no parece buena idea.</span>',
         },
 
@@ -5187,75 +5187,56 @@ const MissionsModule = (function () {
           "cont": '<span>La superficie lisa no cede a la fuerza, solo a la magia adecuada. Alguna Transformación bien aplicada debería bastar para devolverle a la piedra su forma original.</span>',
         },
 
+        // estamos acá
         "encontrar el arcón": {
           "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "reparar la escalera",
           "cont": '<span>Abajo, el aire huele a tierra húmeda y a algo más viejo, casi mineral. El espacio parece haber sido, alguna vez, un taller: mesas de trabajo cubiertas de frascos rotos, marcas de tiza casi borradas en el piso de piedra, restos de velas consumidas hasta la base. En un rincón, medio oculto por la penumbra, hay un arcón de madera oscura. El cierre está trabado por el óxido, pero cede sin mayor resistencia.</span>',
         },
 
-        "abrir el arcón": {
-          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "encontrar el arcón",
-          "cont": '<span>Adentro no hay más que fragmentos de una vida que alguien intentó borrar apurado: una varita partida en dos, algunos frascos vacíos con etiquetas ilegibles, un puñado de joyas deslustradas sin valor aparente. En el fondo, tallado a mano y sin firma, hay un pequeño símbolo: un ojo, solo, sin nada alrededor que explique qué significa.</span>',
+        "tomar la manta": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "arcón",
+          "cont": '<span>Al levantar la manta una vela cercana se prende y se puede leer con claridad: "Por lo que guardamos cuando aún dormíamos bajo el mismo techo, que nadie robe lo que aún nos pertenece."</span>',
         },
 
-        "subir al piso superior": {
-          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir el arcón",
-          "cont": '<span>El camino de vuelta hacia el vestíbulo y, desde ahí, hacia la escalera principal, se siente más largo de lo que fue bajar. Los escalones que suben al piso de arriba están cubiertos por una alfombra que alguna vez debió ser roja y ahora es de un marrón indefinido. Cada paso levanta polvo que no termina de asentarse, y el frío, lejos de disminuir a medida que se alejan del sótano, se mantiene igual de presente.</span>',
+        "triángulo hacia abajo sin línea": {
+          "visible": { "attr": { "val": "min" }, "know": { "alquimia": "10" }, "job": "invalid", "name": "invalid", }, "place": "arcón",
+          "cont": '<span>El triángulo hacia abajo que no posee ninguna línea pertenece al símbolo alquímico del agua.</span>',
         },
 
-        "puerta sellada del cuarto de las gemelas": {
-          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "subir al piso superior",
-          "cont": '<span>En el pasillo del piso superior hay tres puertas. Dos ceden sin problema y solo dan a cuartos vacíos, cubiertos de polvo. La tercera, la que debería llevar al cuarto de las gemelas, tiene algo raro: el picaporte no gira, y por la rendija inferior sale un frío distinto, más seco que el del resto de la casa. Alguien selló esta puerta hace mucho, y no con una cerradura común.</span>',
+        "revisar el espejo": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "reparar la escalera",
+          "cont": '<span>Al revisar el espejo se puede notar que parece que hay algo detrás del mismo.</span>',
         },
 
-        "entrar al cuarto de las gemelas": {
-          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "puerta sellada del cuarto de las gemelas",
-          "cont": '<span>Detrás de la puerta entreabierta hay un cuarto pequeño, con dos camas gemelas todavía tendidas, aunque las mantas están comidas por la humedad y las polillas. En el marco de madera de una de las camas, alguien talló dos nombres, uno al lado del otro: <strong>Nina</strong> y <strong>Wrenn</strong>. Hay juguetes desperdigados por el piso, un espejo de mano roto sobre una cómoda, y varias fotografías familiares, todas boca abajo.</span>',
+        "seach": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "lugar",
+          "cont": '<span>Narra</span>',
         },
+
+        "seach": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "lugar",
+          "cont": '<span>Narra</span>',
+        },
+
+        "seach": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "lugar",
+          "cont": '<span>Narra</span>',
+        },
+
+        
 
         "sentir una presencia": {
           "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "entrar al cuarto de las gemelas",
           "cont": '<span>El frío que ya se sentía en toda la casa se vuelve distinto: más denso, más personal. Las llamas de las pocas velas que aún quedan en pie sobre los candelabros oxidados pasan de un naranja apagado a un azul pálido. En algún punto del cuarto, el aire se mueve sin que haya ventana abierta.</span>',
         },
 
+        // cambiar respuesta
         "hablar con nina": {
           "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "sentir una presencia",
           "cont": '<span>La figura retrocede un paso al notar que la vieron, aunque no se desvanece—: <strong>¿Vienen del Ministerio?</strong> —pregunta, con la voz baja y quebrada, sin el tono ceremonioso que suelen tener los fantasmas de las familias antiguas—. <strong>No, esperen, no se vayan.</strong> —agrega, atropellando las palabras—. <strong>Hace mucho que nadie entra acá.</strong></span>',
         },
 
-        "preguntar quién es": {
-          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "hablar con nina",
-          "cont": '<span>La aparición se queda quieta un momento, como si evaluara si vale la pena contestar—: <strong>Nina.</strong> —dice, seca—. <strong>Nina Wraithwood, si eso les dice algo.</strong> —Intenta cruzarse de brazos, aunque sus manos no llegan a tocarse del todo—. <strong>No soy bruja de verdad, ¿saben? Nunca lo fui. Squib.</strong> —lo dice como quien repite algo que le dijeron mil veces—. <strong>Así que no me pregunten cosas raras de magia, que no las entiendo. Ni las entendía cuando estaba viva.</strong></span>',
-        },
-
-        "nina pide un favor": {
-          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar quién es",
-          "cont": '<span>Nina los mira de a uno, calculando algo antes de hablar—: <strong>Puedo contarles cosas. De mi hermana, de todo.</strong> —dice, y por un segundo suena casi aliviada de poder decirlo en voz alta—. <strong>Pero antes necesito que me ayuden con algo. No es nada raro, se los juro.</strong> —Señala hacia el centro del cuarto, donde unas velas viejas y gastadas están dispuestas en círculo sobre una marca tallada en la madera del piso, ya cubierta de polvo—. <strong>Hace mucho frío acá. Siempre. Y esas velas ayudan, un poco.</strong> —agrega, encogiéndose de hombros—. <strong>Ustedes tienen varitas para eso, ¿no? A mí nunca me dejaron tener una.</strong></span>',
-        },
-
-        "encender las velas del círculo": {
-          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "nina pide un favor",
-          "cont": '<span>Las cuatro velas están gastadas hasta la mitad, con cera derretida y vuelta a endurecer muchas veces, como si alguien las hubiera encendido y apagado una y otra vez a lo largo de los años. Nina señala cada una con un dedo tembloroso, indicando el orden—: <strong>Primero esa, después esa, esa y esa.</strong> —dice, señalando norte, este, sur y oeste, sin explicar por qué el orden importa—. <strong>Da igual cómo. Con lo que sepan. Solo que prendan.</strong></span>',
-        },
-
-        "trazar la sal por el borde": {
-          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "encender las velas del círculo",
-          "cont": '<span>Con las velas encendidas, Nina señala un cuenco de sal gruesa apoyado junto a la pared, casi escondido bajo una tela—: <strong>Ahora la sal, por el borde de la marca.</strong> —pide, con la misma naturalidad con la que pediría que cerraran una ventana—. <strong>Es para que no entren bichos.</strong> —agrega, aunque no queda claro qué clase de bichos podría haber en un cuarto donde no vive nadie hace años.</span>',
-        },
-
-        "ofrecer una gota de sangre": {
-          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "trazar la sal por el borde",
-          "cont": '<span>Nina hace una mueca, casi apenada—: <strong>Esta parte es fea, perdón.</strong> —dice—. <strong>Necesito que alguno se pinche un dedo. Solo una gota, en el medio.</strong> —Antes de que puedan protestar, agrega, más rápido—: <strong>Es como cuando dos personas se dan la mano para cerrar un trato. Nada más.</strong> —No aclara qué trato es, ni con quién se está cerrando en realidad.</span>',
-        },
-
-        "repetir las palabras que pide nina": {
-          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ofrecer una gota de sangre",
-          "cont": '<span>Nina cierra los ojos, o hace el intento, y recita unas palabras cortas, sin ninguna elegancia en la pronunciación—: <em>"Quedo. Vos quedás. Nadie se va sin pagar."</em> —Pide que las repitan, todos juntos, mirando el centro del círculo—. <strong>No hace falta que las entiendan.</strong> —dice, casi con vergüenza—. <strong>Yo tampoco las entiendo del todo. Me las enseñaron así, y así las digo.</strong> —En cuanto terminan de repetirlas, la marca del piso brilla por un instante con una luz gris y fría que no viene de ninguna de las velas.</span>',
-        },
-
-        "darse cuenta de lo que hicieron": {
-          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "repetir las palabras que pide nina",
-          "cont": '<span>El brillo se apaga tan rápido como apareció, pero algo queda distinto en el aire: un peso pequeño y frío, instalado en el pecho de cada uno de los presentes. Nina, por primera vez desde que apareció, deja de temblar—: <strong>Listo.</strong> —dice, y suena aliviada de una manera que no es agradable de ver—. <strong>Ya está hecho.</strong><br><br>Ante la confusión evidente, explica sin rodeos, como quien repite una regla del juego que ya debería ser obvia—: <strong>Acaban de hacerme un favor. Uno de los buenos, de los que cuentan.</strong> —dice—. <strong>Y ahora me deben uno a mí. Así funciona esto.</strong> —Se encoge de hombros, casi disculpándose—. <strong>No es nada personal. Es lo único que sé hacer bien.</strong></span>',
-        },
+        // interrogatorio
 
         "preguntar por qué hizo esto": {
           "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "darse cuenta de lo que hicieron",
@@ -5301,67 +5282,18 @@ const MissionsModule = (function () {
           "critico": '<span>La escalera queda reforzada además de reparada: los escalones se sienten más firmes que antes de que la protección se activara, y el grupo baja sin ningún riesgo.</span><adding search="encontrar el arcón" class="check-cards"></adding>',
         },
 
-        "colloshoo": {
-          "leve": '<span>El hechizo pega los zapatos al escalón equivocado; alguien queda momentáneamente inmovilizado a mitad de camino.</span>',
-          "moderado": '<span>Los zapatos quedan pegados con la firmeza justa para dar un paso seguro por vez; el descenso es lento, pero funciona.</span><adding search="encontrar el arcón" class="check-cards"></adding>',
-          "exitoso": '<span>Todos logran pegar sus zapatos a cada paso con precisión, bajando con total seguridad pese a la superficie resbaladiza.</span><adding search="encontrar el arcón" class="check-cards"></adding>',
-          "critico": '<span>El hechizo se ajusta automáticamente a cada paso sin que haga falta repetirlo; el grupo baja con total normalidad, como si la escalera nunca hubiera cambiado.</span><adding search="encontrar el arcón" class="check-cards"></adding>',
-        },
-
         "alohomora": {
-          "leve": '<span>El picaporte gira apenas, pero la puerta no cede.</span>',
-          "moderado": '<span>La puerta se entreabre lo suficiente para ver parte del cuarto del otro lado, aunque sigue trabada.</span><adding search="entrar al cuarto de las gemelas" class="check-cards"></adding>',
-          "exitoso": '<span>La puerta se abre por completo, sin ningún daño ni ruido de más.</span><adding search="entrar al cuarto de las gemelas" class="check-cards"></adding>',
-          "critico": '<span>La puerta se abre en silencio total, y el sello que la mantenía cerrada se disuelve sin dejar rastro, como si nunca hubiera estado ahí.</span><adding search="entrar al cuarto de las gemelas" class="check-cards"></adding>',
+          "leve": '<span>No es suficiente para revelar información.</span>',
+          "moderado": '<span>Dentro del arcón encuentran con una manta de bebé doblada sobre un triángulo hacia abajo que no posee ninguna linea. Unas letrás parecen estar cubiertas por la misma.</span><adding search="arcón" class="check-cards"></adding>',
+          "exitoso": '<span>Dentro del arcón encuentran con una manta de bebé doblada sobre un triángulo hacia abajo que no posee ninguna linea. Unas letrás parecen estar cubiertas por la misma.</span><adding search="arcón" class="check-cards"></adding>',
+          "critico": '<span>Dentro del arcón encuentran con una manta de bebé doblada sobre un triángulo hacia abajo que no posee ninguna linea. Unas letrás parecen estar cubiertas por la misma.</span><adding search="arcón" class="check-cards"></adding>',
         },
 
-        "bombarda": {
-          "leve": '<span>La explosión es débil y apenas hace vibrar la puerta, que sigue firme.</span>',
-          "moderado": '<span>La puerta se resquebraja y cede parcialmente, dejando un hueco lo bastante ancho para pasar de a uno.</span><adding search="entrar al cuarto de las gemelas" class="check-cards"></adding>',
-          "exitoso": '<span>La puerta vuela de sus bisagras de un solo golpe, abriendo el paso por completo.</span><adding search="entrar al cuarto de las gemelas" class="check-cards"></adding>',
-          "critico": '<span>La puerta vuela de sus bisagras sin dejar escombros ni ruido de más, como si el sello nunca hubiera estado ahí.</span><adding search="entrar al cuarto de las gemelas" class="check-cards"></adding>',
-        },
-
-        "incendio": {
-          "leve": '<span>Ninguna de las cuatro velas logra encenderse; Nina insiste, un poco nerviosa, en que lo intenten de nuevo.</span>',
-          "moderado": '<span>Dos de las cuatro velas se encienden; Nina asiente conforme, aunque pide que se complete el círculo.</span>',
-          "exitoso": '<span>Tres de las cuatro velas quedan encendidas; solo falta una para cerrar el círculo trazado en el piso.</span>',
-          "critico": '<span>Las cuatro velas se encienden al mismo tiempo, dibujando un círculo completo de luz alrededor de la marca tallada en la madera del piso.</span><adding search="trazar la sal por el borde" class="check-cards"></adding>',
-        },
-
-        "lacarnum inflamarae": {
-          "leve": '<span>Ninguna de las cuatro velas logra encenderse; las pequeñas llamas se apagan antes de llegar.</span>',
-          "moderado": '<span>Dos de las cuatro velas se encienden con las llamas.</span>',
-          "exitoso": '<span>Tres de las cuatro velas quedan encendidas.</span>',
-          "critico": '<span>Las cuatro velas se encienden al mismo tiempo, dibujando un círculo completo de luz alrededor de la marca tallada en la madera del piso.</span><adding search="trazar la sal por el borde" class="check-cards"></adding>',
-        },
-
-        "animas revelo": {
-          "leve": '<span>Se percibe una sensación de frío y presión en el aire, pero no logra ubicarse con precisión de dónde proviene.</span>',
-          "moderado": '<span>Se percibe una silueta nebulosa que se mueve entre las camas del cuarto, deteniéndose cada vez que alguien se acerca.</span>',
-          "exitoso": '<span>La silueta se vuelve visible de forma parcial: una joven de cabello oscuro y expresión asustada, que retrocede hacia la pared en cuanto nota que la vieron.</span>',
-          "critico": '<span>Se percibe con claridad no solo la silueta, sino también su emoción: terror puro, y una necesidad urgente de que nadie se vaya sin hablar con ella primero.</span>',
-        },
-
-        "legeremens": {
-          "leve": '<span>No es suficiente para acceder a ningún recuerdo de Nina; su mente, difusa como el resto de su forma, se resiste sin esfuerzo.</span>',
-          "moderado": '<span>Se percibe una imagen breve: una habitación fría, dos camas, una voz cantando bajito para calmar el miedo.</span>',
-          "exitoso": '<span>Se percibe con más claridad un recuerdo: una discusión a los gritos y un hombre sin rostro claro, salvo por la ausencia de un ojo, cerrando un trato con Wrenn.</span>',
-          "critico": '<span>Además del recuerdo anterior, se percibe la sensación exacta que Nina siente cada vez que piensa en él: un frío que no tiene nada que ver con estar muerta.</span>',
-        },
-
-        "veritas relego": {
-          "leve": '<span>No es suficiente para determinar si Nina miente en algo.</span>',
-          "moderado": '<span>Permite confirmar que Nina no mintió al hablar sobre Wrenn ni sobre el hombre de un solo ojo.</span>',
-          "exitoso": '<span>Permite confirmar que Nina no mintió en ninguna de sus respuestas, aunque calla más de lo que responde.</span>',
-          "critico": '<span>Permite confirmar que Nina no mintió en ninguna respuesta y, además, se percibe que hay una pregunta entera que nadie llegó a hacerle.</span>',
-        },
-
-        "sensum eximo": {
-          "leve": '<span>No es suficiente para extraer nada de Nina.</span>',
-          "moderado": '<span>Se percibe con claridad que el miedo de Nina no es actuado; es tan real como cualquier emoción de alguien con vida.</span>',
-          "exitoso": '<span>Se logra extraer parte del miedo de Nina, que por un instante se muestra más tranquila y menos evasiva.</span>',
-          "critico": '<span>Se extrae el miedo casi por completo; Nina, aliviada, responde con una sinceridad que no tenía antes, aunque el alivio no dura mucho.</span>',
+        "dissendium": {
+          "leve": '<span>No es suficiente para revelar información.</span>',
+          "moderado": '<span>El espejo se abre revelando unas escaleras ascendentes.</span><adding search="pasadizo" class="check-cards"></adding>',
+          "exitoso": '<span>El espejo se abre revelando unas escaleras ascendentes.</span><adding search="pasadizo" class="check-cards"></adding>',
+          "critico": '<span>El espejo se abre revelando unas escaleras ascendentes.</span><adding search="pasadizo" class="check-cards"></adding>',
         },
       },
     },
