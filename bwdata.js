@@ -5156,7 +5156,7 @@ const MissionsModule = (function () {
 
         {
           "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ingresar a las cocinas",
-          "cont": '<span>Las cocinas son un recuerdo de lo que alguna vez hubo allí. Ceramicos amarillo pálido desgastado de tanto uso. Una mesa con cuatro sillas de las cuales dos están rotas. Todos los vidrios de las ventanas se encuentran opacos por el polvo, el sol y todas las lluvias que pasaron sin que nadie los limpiara.</span><adding search="cocinas" class="check-cards"></adding>',
+          "cont": '<span>Las cocinas son un recuerdo de lo que alguna vez hubo allí. Cerámicos amarillo pálido desgastado de tanto uso. Una mesa con cuatro sillas de las cuales dos están rotas. Todos los vidrios de las ventanas se encuentran opacos por el polvo, el sol y todas las lluvias que pasaron sin que nadie los limpiara.</span><adding search="cocinas" class="check-cards"></adding>',
         },
 
         {
@@ -5237,7 +5237,7 @@ const MissionsModule = (function () {
           "cont": '<span>Permite a los personajes subir las escaleras del pasadizo hasta llegar a una puerta, que, al abrirla, salen por otro espejo ubicado en las cocinas.</span><adding search="vestíbulo" class="check-cards"></adding>',
         },
 
-        "bajar al sótano": {
+        "volver a bajar al sótano": {
           "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "vestíbulo",
           "cont": '<span>Permite a los personajes bajar al sótano.</span><adding search="reparar escaleras" class="check-cards"></adding>',
         },
@@ -5254,12 +5254,12 @@ const MissionsModule = (function () {
 
         "ingresar al cuarto matrimonial": {
           "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "subir al primer piso",
-          "cont": '<span>La primera puerta a la derecha del primer piso los lleva a la habitación matimonial.</span>',
+          "cont": '<span>La primera puerta a la derecha del primer piso los lleva a la habitación matrimonial.</span>',
         },
 
         "ingresar al cuarto de las gemelas": {
           "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "subir al primer piso",
-          "cont": '<span>La primera puerta a la izquieda, luego de recorrer por un pequeño pasillo, conduce a la habitación de las gemelas.</span>',
+          "cont": '<span>La primera puerta a la izquierda, luego de recorrer por un pequeño pasillo, conduce a la habitación de las gemelas.</span>',
         },
 
         "subir al ático": {
@@ -5284,7 +5284,7 @@ const MissionsModule = (function () {
 
         "revisar fotografías": {
           "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "matrimonial",
-          "cont": '<span>Al observar las fotografías se puede observar diversas imagenes de unas niñas que juegan y de Hadiya que sonríe a quién toma las fotos. Morian nunca está con ellas, pero si se puede apreciar la figura de Soly que se une a la familia.</span>',
+          "cont": '<span>Al observar las fotografías se puede observar diversas imágenes de unas niñas que juegan y de Hadiya que sonríe a quién toma las fotos. Morian nunca está con ellas, pero sí se puede apreciar la figura de Soly que se une a la familia.</span>',
         },
 
         "acariciar al gato": {
@@ -5304,7 +5304,7 @@ const MissionsModule = (function () {
 
         "revisar armario": {
           "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "gemelas1",
-          "cont": '<span>Al revisar el armario se puede notar que alguien ha tomado la mayoría de las pertenencias. Posiblemente Wren cuando se escapó del lugar.</span>',
+          "cont": '<span>Al revisar el armario se puede notar que alguien ha tomado la mayoría de las pertenencias. Posiblemente Wrenn cuando se escapó del lugar.</span>',
         },
 
         "tiempo sin habitar": {
@@ -5406,9 +5406,9 @@ const MissionsModule = (function () {
 
         "alohomora": {
           "leve": '<span>No es suficiente para revelar información.</span>',
-          "moderado": '<span>Dentro del arcón encuentran con una manta de bebé doblada sobre un triángulo hacia abajo que no posee ninguna linea. Unas letrás parecen estar cubiertas por la misma.</span><adding search="arcón" class="check-cards"></adding>',
-          "exitoso": '<span>Dentro del arcón encuentran con una manta de bebé doblada sobre un triángulo hacia abajo que no posee ninguna linea. Unas letrás parecen estar cubiertas por la misma.</span><adding search="arcón" class="check-cards"></adding>',
-          "critico": '<span>Dentro del arcón encuentran con una manta de bebé doblada sobre un triángulo hacia abajo que no posee ninguna linea. Unas letrás parecen estar cubiertas por la misma.</span><adding search="arcón" class="check-cards"></adding>',
+          "moderado": '<span>Dentro del arcón encuentran con una manta de bebé doblada sobre un triángulo hacia abajo que no posee ninguna línea. Unas letras parecen estar cubiertas por la misma.</span><adding search="arcón" class="check-cards"></adding>',
+          "exitoso": '<span>Dentro del arcón encuentran con una manta de bebé doblada sobre un triángulo hacia abajo que no posee ninguna línea. Unas letras parecen estar cubiertas por la misma.</span><adding search="arcón" class="check-cards"></adding>',
+          "critico": '<span>Dentro del arcón encuentran con una manta de bebé doblada sobre un triángulo hacia abajo que no posee ninguna línea. Unas letras parecen estar cubiertas por la misma.</span><adding search="arcón" class="check-cards"></adding>',
         },
 
         "dissendium": {
