@@ -5208,6 +5208,11 @@ const MissionsModule = (function () {
           "cont": '<span>Al revisar el espejo se puede notar que parece que hay algo detrás del mismo.</span>',
         },
 
+        "subir al vestíbulo": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "reparar la escalera",
+          "cont": '<span>Permite a los personajes regresar al vestíbulo.</span><adding search="vestíbulo" class="check-cards"></adding>',
+        },
+
         "seach": {
           "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "lugar",
           "cont": '<span>Narra</span>',
