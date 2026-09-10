@@ -5292,13 +5292,13 @@ const MissionsModule = (function () {
           "cont": '<span>Cuando se acercan al gato, este les gruñe en respuesta y sale corriendo hasta esconderse debajo del tocador.</span>',
         },
 
-        "revisar el espejo": {
+        "revisar el espejo del cuarto": {
           "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "matrimonial",
           "cont": '<span>El espejo parece tener grabado algo. Aprovechando al suiciedad el mismo, alguien lo ha escrito. Hay un triángulo hacia arriba con una línea que lo cruza a la mitad y unas letras que no se terminan de comprender.</span>',
         },
 
         "triángulo hacia arriba cruzado por una línea": {
-          "visible": { "attr": { "val": "min" }, "know": { "alquimia": "10" }, "job": "invalid", "name": "invalid", }, "place": "revisar el espejo",
+          "visible": { "attr": { "val": "min" }, "know": { "alquimia": "10" }, "job": "invalid", "name": "invalid", }, "place": "revisar el espejo del cuarto",
           "cont": '<span>El triángulo hacia arriba cruzado por una línea es la representación alquímica del aire.</span>',
         },
 
