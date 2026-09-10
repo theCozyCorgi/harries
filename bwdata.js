@@ -5233,67 +5233,67 @@ const MissionsModule = (function () {
         },
 
         "subir escaleras del pasadizo": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "pasadizo",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "pasadizo",
           "cont": '<span>Permite a los personajes subir las escaleras del pasadizo hasta llegar a una puerta, que, al abrirla, salen por otro espejo ubicado en las cocinas.</span><adding search="vestíbulo" class="check-cards"></adding>',
         },
 
         "volver a bajar al sótano": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "vestíbulo",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "vestíbulo",
           "cont": '<span>Permite a los personajes bajar al sótano.</span><adding search="reparar escaleras" class="check-cards"></adding>',
         },
 
         "ingresar a las cocinas": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "vestíbulo",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "vestíbulo",
           "cont": '<span>Permite a los personajes ingresar a las cocinas.</span><adding search="cocinas" class="check-cards"></adding>',
         },
 
         "subir al primer piso": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "vestíbulo",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "vestíbulo",
           "cont": '<span>Permite a los personajes subir al primer piso.</span>',
         },
 
         "ingresar al cuarto matrimonial": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "subir al primer piso",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "subir al primer piso",
           "cont": '<span>La primera puerta a la derecha del primer piso los lleva a la habitación matrimonial.</span>',
         },
 
         "ingresar al cuarto de las gemelas": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "subir al primer piso",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "subir al primer piso",
           "cont": '<span>La primera puerta a la izquierda, luego de recorrer por un pequeño pasillo, conduce a la habitación de las gemelas.</span>',
         },
 
         "subir al ático": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "subir al primer piso",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "subir al primer piso",
           "cont": '<span>Permite a los personajes subir al ático. No son más que unos cuantos escalones que deben recorrer hasta dar con la puerta del ático.</span>',
         },
 
         "bajar al vestíbulo": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "subir al primer piso",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "subir al primer piso",
           "cont": '<span>Permite a los personajes regresar al vestíbulo.</span><adding search="vestíbulo" class="check-cards"></adding>',
         },
 
         "ingresar al ático": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "subir al ático",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "subir al ático",
           "cont": '<span>Al abrir las puertas, el ático les da la bienvenida.</span>',
         },
 
         "bajar al primer piso": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ingresar al ático",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ingresar al ático",
           "cont": '<span>Permite a los personajes regresar al primer piso de la casa.</span><adding search="subir al primer piso" class="check-cards"></adding>',
         },
 
         "revisar fotografías": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "matrimonial",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "matrimonial",
           "cont": '<span>Al observar las fotografías se puede observar diversas imágenes de unas niñas que juegan y de Hadiya que sonríe a quién toma las fotos. Morian nunca está con ellas, pero sí se puede apreciar la figura de Soly que se une a la familia.</span>',
         },
 
         "acariciar al gato": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "matrimonial",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "matrimonial",
           "cont": '<span>Cuando se acercan al gato, este les gruñe en respuesta y sale corriendo hasta esconderse debajo del tocador.</span>',
         },
 
         "revisar el espejo del cuarto": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "matrimonial",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "matrimonial",
           "cont": '<span>El espejo parece tener grabado algo. Aprovechando al suiciedad el mismo, alguien lo ha escrito. Hay un triángulo hacia arriba con una línea que lo cruza a la mitad y unas letras que no se terminan de comprender.</span>',
         },
 
@@ -5303,7 +5303,7 @@ const MissionsModule = (function () {
         },
 
         "revisar armario": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "gemelas1",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "gemelas1",
           "cont": '<span>Al revisar el armario se puede notar que alguien ha tomado la mayoría de las pertenencias. Posiblemente Wrenn cuando se escapó del lugar.</span>',
         },
 
@@ -5313,7 +5313,7 @@ const MissionsModule = (function () {
         },
 
         "revisar chimenea": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "gemelas1",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "gemelas1",
           "cont": '<span>Sobre la chimenea se puede observar un triángulo hacia arriba sin ninguna línea.</span>',
         },
 
@@ -5323,22 +5323,22 @@ const MissionsModule = (function () {
         },
 
         "inscripción en la chimenea": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "revisar chimenea",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "revisar chimenea",
           "cont": '<span>Sobre el triángulo se puede leer la siguiente inscripción: "Por la primera luz que compartimos, que ningún mal cruce este umbral sin ser visto."</span>',
         },
 
         "investigar mesa": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "cocinas",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "cocinas",
           "cont": '<span>Sobre la mesa hay un trozo de pan que ha sido congelado para que no se ponga en mal estado.</span>',
         },
 
         "investigar plato": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "investigar mesa",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "investigar mesa",
           "cont": '<span>Al investigar el plato debajo del pan cortado a la mitad, pueden observarse unas letras y un triángulo hacia abajo con una línea.</span>',
         },
 
         "leer el plato": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "investigar mesa",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "investigar mesa",
           "cont": '<span>El plato tiene una frase muy clara: "Por el pan partido en dos, que el hambre del mal no encuentre mesa aquí."</span>',
         },
 
