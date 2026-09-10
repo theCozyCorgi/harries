@@ -5178,7 +5178,7 @@ const MissionsModule = (function () {
         },
 
         "bajar al sótano": {
-          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "vestíbulo",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "recorrer el vestíbulo",
           "cont": '<span>Los escalones del sótano están gastados y varios parecen hundidos hacia adentro, como si algo los hubiera erosionado desde abajo. Al apoyar el primer pie, un crujido seco recorre toda la escalera: una vieja protección residual de la casa sigue activa, y convierte los escalones en una rampa de piedra lisa e inclinada. Bajar así, sin control, no parece buena idea.</span>',
         },
 
@@ -5213,9 +5213,9 @@ const MissionsModule = (function () {
           "cont": '<span>Permite a los personajes regresar al vestíbulo.</span><adding search="vestíbulo" class="check-cards"></adding>',
         },
 
-        "seach": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "lugar",
-          "cont": '<span>Narra</span>',
+        "subir escaleras del pasadizo": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "pasadizo",
+          "cont": '<span>Permite a los personajes subir las escaleras del pasadizo hasta llegar a una puerta, que, al abrirla, salen por otro espejo ubicado en las cocinas.</span><adding search="vestíbulo" class="check-cards"></adding>',
         },
 
         "seach": {
