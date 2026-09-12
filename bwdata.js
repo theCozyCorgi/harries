@@ -4421,7 +4421,7 @@ const MissionsModule = (function () {
     "the wounded dragon": {
       "description": "Reportes han llegado a la reserva Natural de Flint, un dragón que ha sido volando por las tierras irlandesas. No solo son los rastros de sangre los que generan confianza de una gran herida, sino también el llanto que podía ser escuchado por toda la zona. La reserva se mueve y envía a alguien a encontrar al dragón herido para poder curarlo.",
       "image": "https://2img.net/i.imgur.com/JyNcMmD.png", "requisitos": ["Un miembro debe tener CCM en Consagrado", "Un miembro debe poseer Curación en Avanzado"],
-      "users": ["/u91","/u55","/u150"],
+      "users": ["/u91","/u55","/u150","/u198"],
       "informed": [],
       "dependency": [],
       "type": "misión", "closed": false, "fecha": "", "link": "", "tagged": ["wave", "capitulo 1"],
