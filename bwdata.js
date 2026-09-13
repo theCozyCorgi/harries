@@ -5922,7 +5922,7 @@ const MissionsModule = (function () {
       "users": ["c/u150", "/u97", "/u9", "/u156"],
       "informed": [],
       "dependency": [],
-      "type": "investigación", "closed": false, "fecha": "1953-04-22", "link": "https://blackwave.foroactivo.com/t1320-investigacion-tying-loose-ends", "tagged": ["original"],
+      "type": "investigación", "closed": true, "fecha": "1953-04-22", "link": "https://blackwave.foroactivo.com/t1320-investigacion-tying-loose-ends", "tagged": ["original"],
 
       "cards": [],
 
@@ -6017,7 +6017,7 @@ const MissionsModule = (function () {
       "users": ["c/u157", "/u150", "/u13", "/u55", "/u171"],
       "informed": [],
       "dependency": [],
-      "type": "misión", "closed": false, "fecha": "1953-03-26", "link": "https://blackwave.foroactivo.com/t1236-mision-a-gentle-hand", "tagged": ["original"],
+      "type": "misión", "closed": true, "fecha": "1953-03-26", "link": "https://blackwave.foroactivo.com/t1236-mision-a-gentle-hand", "tagged": ["original"],
 
       "creatures": {
         "guardia": {
