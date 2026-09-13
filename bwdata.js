@@ -5997,6 +5997,20 @@ const MissionsModule = (function () {
     },
     // tying loose ends
 
+    "blood runs cold": {
+      "description": "Con las notas que obtuvieron de Thalia Wyrm, deberán investigar más sobre la nigromante e inefable para ver qué más información había logrado recolectar la mujer sobre la causa de muerte de Dominic. Lo que los guía a Gibran Wyrm, sobrino y heredero de Thalia.",
+      "image": "https://i.imgur.com/w5qPOkc.png", "requisitos": ["un personaje deberá ser miembro del Departamento de Seguridad"],
+      "users": ["c/u150"],
+      "informed": [],
+      "dependency": ["tying loose ends"],
+      "type": "investigación", "closed": false, "fecha": "", "link": "", "tagged": ["original"],
+
+      "cards": [],
+      "searchs": {},
+      "actions": {},
+    },
+    // fin: blood runs cold
+
     "a gentle hand": {
       "description": "Tras una pequeña investigación realizada por los hermanos Moody, las pistas conducen a dos magos y a la dirección de la casa de los mismos, donde ya desde afuera se pueden escuchar los ladridos y los lamentos de unos cachorros de crup que reclaman ayuda.",
       "image": "https://i.imgur.com/nNgVsfv.png", "requisitos": ["Dos personajes deberán ser miembro del Departamento de Seguridad", "Un personaje deberá tener CCM en Avanzado"],

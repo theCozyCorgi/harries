@@ -426,6 +426,15 @@ const _historical = {
     "interrogado": null,
     "resumen": 'La expedición partió en busca de pistas sobre las Reliquias de la Muerte, tras el hallazgo del apellido Peverell, ligado a los tres hermanos originarios de esa leyenda. El rastro condujo hasta un faro abandonado en una isla vinculada a la antigua magia druídica, cuya entrada ocultaba una vivienda con un despacho de uso reciente, propiedad de Sirius Black. Allí no se encontró ninguna pista sobre las reliquias buscadas, sino el árbol genealógico de la familia Black, extendido por generaciones. Antes de partir, un cuadro reveló el nombre y origen del lugar: una piedra erigida en tiempos remotos con la que dos guardianes habían concedido santuario en la torre a quienes fueran de sangre mágica pura. La investigación concluyó sin hallar rastro de las Reliquias, pero con el descubrimiento de ese enclave oculto y su propósito original.',
   },
+  "1236": {
+    "tema": 'A Gentle Hand',
+    "fecha": '1953-03-26',
+    "tipo": 'mision',
+    "tag": ['original'],
+    "personajes": ['/u150', '/u171', '/u55', '/u13'],
+    "interrogado": null,
+    "resumen": 'La misión llevó a un grupo hasta una vivienda apartada en un bosque a las afueras de Sheffield que servía de tapadera a un laboratorio clandestino de experimentación con criaturas, donde ya se sabía que había crías de crup arrebatadas de sus camadas. Tras vigilar el perímetro y descartar la puerta principal por estar fuertemente resguardada, el grupo optó por infiltrarse a través de las alcantarillas hasta llegar al sótano de la casa, donde hallaron diez jaulas con dieciséis animales, doce de ellos heridos y algunas ya vacías por ocupantes anteriores. Al continuar hacia la cocina se toparon con un grupo de guardias que, al dar la alarma, atrajo refuerzos hasta sumar un total de trece hombres armados repartidos por el edificio, a los que debieron enfrentar y reducir antes de poder moverse con libertad por el resto de la propiedad. Ya asegurada la planta baja, en el laboratorio encontraron las paredes cubiertas de fórmulas y diagramas que confirmaron que el lugar se utilizaba para experimentar con las criaturas, mientras que la inspección del segundo piso no arrojó hallazgos adicionales. Con los guardias reducidos, el grupo curó y liberó a los animales para sacarlos de la propiedad, dando por concluida la redada.',
+  },
   "1262": {
     "tema": 'Gilded Herb',
     "fecha": '1953-03-31',
@@ -434,5 +443,14 @@ const _historical = {
     "personajes": ['/u8', '/u55', '/u130', '/u78'],
     "interrogado": null,
     "resumen": 'La misión consistió en infiltrarse en Mane Boilers, la fábrica y destilería que abastecía de bebidas a The Maroon Steed, tras rastrear el origen del cargamento hasta ese lugar. El perímetro reveló un edificio fuertemente vigilado, con una entrada principal protegida por una maldición de sangre y un acceso trasero resguardado por guardias en rotación constante, por lo que se optó por infiltrarse haciéndose pasar por conductores de un camión de reparto mediante poción multijugos. Dentro de las instalaciones, entregando materiales, materia prima y correspondencia piso por piso bajo distintas contraseñas, se confirmó que allí se cultivaba y procesaba la Salvia Ignicor (Corazón de Fuego), la planta empleada para adulterar las bebidas del lugar. Un guardia sospechó de la coartada y se produjo un breve enfrentamiento que logró resolverse sin delatar la infiltración. En la sala de conferencias se halló además un mapa que señalaba una nueva ubicación, presentada como la casa central de la operación, quedando el grupo con esa pista para continuar la investigación tras retirarse sin ser detectados.',
+  },
+  "1320": {
+    "tema": 'Tying Loose Ends',
+    "fecha": '1953-04-22',
+    "tipo": 'investigacion',
+    "tag": ['original'],
+    "personajes": ['/u150', '/u97', '/u9', '/u156'],
+    "interrogado": null,
+    "resumen": 'La investigación retomó un caso que el Departamento de Seguridad nunca cerró: la muerte de Dominic Edevane, cuyo certificado público la catalogaba como natural pese a los rastros de magia oscura hallados en su sangre, mientras que una versión clasificada revelaba que el cuerpo contenía un parásito mágico desconocido, cuya muestra había sido derivada al Departamento de Misterios. Con autorización del Departamento de Seguridad y la guía de un inefable, un grupo de investigadores ingresó a la Cámara del Tiempo, donde el Departamento resguarda sus archivos fuera del alcance del paso del tiempo, para rastrear la investigación abandonada de la nigromante Thalia Wyrm, quien había tomado la muestra original y más tarde se trasladó como inefable a la Cámara de la Sangre para poder seguir estudiándola por su cuenta. En su casillero hallaron la muestra, aún activa y peligrosa, junto con tres notas fechadas entre 1929 y 1943 que documentaban su investigación. Estas revelaron que la muerte de Edevane fue obra de un antiguo maleficio de sangre, el Parasitus Arcanum: un hechizo transmutado e incubado en un objeto físico cercano a la víctima que, al entrar en contacto prolongado con ella, introdujo un parásito capaz de consumir su calor vital y simular un fallecimiento natural. Las últimas notas de Wyrm, cuyo propio certificado de defunción mostraba idéntica cristalización de las venas, confirmaron que ella misma se había infectado por accidente en 1943 al manipular el frasco sellado, muriendo por la misma causa poco después. Con el origen del maleficio ya establecido, quedó pendiente identificar quién fabricó y colocó el objeto maldito, lo que llevó a los investigadores a plantear ampliar la búsqueda hacia el entorno cercano de la víctima.',
   },
 };
