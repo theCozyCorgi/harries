@@ -116427,8 +116427,22 @@ const DBModule = (function () {
             const topicKey = extractTopicKey(fullUrl);
             if (!topicKey) continue;
 
-            // Si forceRescan es true, la magia ignora el hardcoded y lee el tema sí o sí
-            const isSaved = !forceRescan && (typeof hardcodedTopics !== 'undefined' && hardcodedTopics[topicKey] || dynamicData.topics[topicKey]);
+            const existingTopic = (typeof hardcodedTopics !== 'undefined' && hardcodedTopics[topicKey]) || dynamicData.topics[topicKey];
+
+            // Cantidad de respuestas que el listado del foro muestra AHORA para este tema
+            const replyText = $(element).find('.topic-replies').text();
+            const replyMatch = replyText.match(/(\d+)/);
+            const liveReplyCount = replyMatch ? parseInt(replyMatch[1], 10) : null;
+
+            // Temas guardados antes de este cambio no tienen replyCount todavía: los tratamos
+            // como 0 para que la comparación de abajo dé "distinto" y se re-escaneen una vez,
+            // dejando el dato real guardado para la próxima corrida.
+            const savedReplyCount = existingTopic?.replyCount ?? 0;
+
+            // Si forceRescan es true, la magia ignora todo y lee el tema sí o sí.
+            // Si ya lo teníamos guardado, solo lo saltamos cuando la cantidad de respuestas
+            // no cambió desde el último escaneo (o cuando no pudimos leerla, para no romper nada).
+            const isSaved = !forceRescan && existingTopic && (liveReplyCount === null || savedReplyCount === liveReplyCount);
 
             if (!isSaved) {
                 console.log(`Analizando tema: ${$link.text()}`);
@@ -116437,9 +116451,13 @@ const DBModule = (function () {
                     url: fullUrl,
                     simpleTitle: sanitizeTitle($link.text()),
                     creator: $(element).find('.topic-started a').text(),
+                    replyCount: liveReplyCount,
                     posts: []
                 };
                 await scanTopicPosts(fullUrl, $link.text());
+            } else if (existingTopic.replyCount === undefined && liveReplyCount !== null) {
+                // Tema guardado antes de este cambio, con 0 respuestas reales: completamos el dato sin re-escanear
+                existingTopic.replyCount = liveReplyCount;
             }
         }
 
