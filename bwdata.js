@@ -108,7 +108,7 @@ const MissionsModule = (function () {
       "description": "Bienvenidos a 'Maroon Steed', aquellos que lo conocen, saben a dónde están ingresando, quienes no, pronto lo descubrirán.<br />La taberna que solo aparece para aquellos que necesitan una poción para la tristeza, la rabia y el enojo. Ideal para quienes lloran por dentro, pero aún queda vida en sus corazones. La taberna es un espacio ideal para olvidarse de todas las dolencias y todas las cicatrices que la vida dejo. Allí dentro encontrarán algo mágico, algo prohibido, algo que olvidar...",
       "image": "https://2img.net/i.imgur.com/gGo598Z.png", "requisitos": [],
       "users": ["/u38", "/u116", "/u115", "/u119", "/u118", "/u63"],
-      "informed": [],
+      "informed": ["/u55","/u130"],
       "dependency": [],
       "type": "misión", "closed": true, "fecha": "1952-10-31", "link": "https://blackwave.foroactivo.com/t559-mision-potions-for-all-the-afflections", "tagged": ["morgana", "capitulo 0"],
 
@@ -335,7 +335,7 @@ const MissionsModule = (function () {
       "description": "Dentro de las tareas de investigación del departamento de Seguridad, se encontrará revisar el Castillo Black, espacio donde fue encontrado muerto el difunto Sirius Black. Con el fin de encontrar pistas y obtener información que pueda brindar más claridad a la causa.<br />Como es de esperarse, solo podrán participar aquellos personajes que guarden una relación directa con la casa o pueden ingresar a investigar. Pero tengan cuidado... esa casa tiene secretos.",
       "image": "https://2img.net/i.imgur.com/AqXgADy.png", "requisitos": ["Un trabajador del Dpto de Seguridad Mágica", "Un miembro familiar Black", "Solo podrán participar los personajes del Dpto de Seguridad Mágica, San Mungo o miembros familiares"],
       "users": ["/u25", "/u51", "/u50", "/u17", "/u9", "/u8"],
-      "informed": [],
+      "informed": ["/u55"],
       "dependency": [],
       "type": "misión", "closed": true, "fecha": "1952-09-30", "link": "https://blackwave.foroactivo.com/t353-mision-traces-in-black", "tagged": ["sirius", "capitulo 0"],
 
@@ -1102,7 +1102,7 @@ const MissionsModule = (function () {
       "description": "Tras desentrañar el contenido de las tazas de té de las víctimas. Una nueva incógnita se escribe, ¿con qué planta contaminaron el té?, y ¿cuáles eran sus efectos? El objetivo de esta investigación es avanzar un paso más, cuál era esa planta y tal vez, revelar una nueva pista que los lleve a resolver el misterio.",
       "image": "https://2img.net/i.imgur.com/CzU2l87.png", "requisitos": ["Un integrante tiene que tener Herbología en Avanzado"],
       "users": ["/u18", "/u108", "/u97"],
-      "informed": [],
+      "informed": ["/u55","/u130"],
       "dependency": ["death in a teacup"],
       "type": "investigación", "closed": true, "fecha": "1952-10-27", "link": "/t522-investigacion-botanical-market", "tagged": ["morgana", "capitulo 0"],
 
@@ -3059,7 +3059,7 @@ const MissionsModule = (function () {
       "description": "[Completado] Las reliquias de la muerte muchas veces fueron buscadas y muchas fuentes confirman que solo se tratan de una fábula para enseñar algo importante a los niños y nada más. Sin embargo, hay quienes creen en ellas. Y no solo eso, suelen tener bastantes registros históricos tratando de rastrear dónde se encontraron. The Deadly Club, es un espacio que se encuentra en Hogsmeade donde muchos magos se reúnen a investigar y compartir sus investigaciones. Mientras no cambien nada, cualquiera puede entrar a echar un vistazo.",
       "image": "https://2img.net/i.imgur.com/DWMLO6R.png", "requisitos": [],
       "users": ["/u50", "/u9", "/u159"],
-      "informed": [],
+      "informed": ["/u150"],
       "dependency": [],
       "type": "investigación", "closed": true, "fecha": "1953-03-30", "link": "https://blackwave.foroactivo.com/t1235-investigacion-in-search-of-the-deadly-hallows", "tagged": ["wave", "capitulo 0"],
 
@@ -3132,7 +3132,7 @@ const MissionsModule = (function () {
       "description": "Los laboratorios de San Mungo, se llenan con una nueva incógnita, ¿Qué está investigando Morgana? Con un frasco y una pequeña muestra de un líquido malva brillante, deberán descubrir qué buscaba realizar aquel elixir.",
       "image": "https://2img.net/i.imgur.com/l0Qfh5X.png", "requisitos": ["Un miembro debe tener Alquimia o Pociones en Avanzado"],
       "users": ["/u91", "/u8", "/u134"],
-      "informed": [],
+      "informed": ["/u55"],
       "dependency": ["wounds from the past"],
       "type": "investigación", "closed": true, "fecha": "1953-01-23", "link": "https://blackwave.foroactivo.com/t837-investigacion-bottle-of-sorrows", "tagged": ["morgana", "capitulo 0"],
 
@@ -3582,7 +3582,7 @@ const MissionsModule = (function () {
       "description": "Con la pulsera de Merlina Dempsey, se deberá realizar una investigación para comprender qué pasó con ella. ¿Habrá sido su muerte tan sospechosa como la de su hermana? Investigar los archivos de los caídos, siempre es un buen inicio para esos casos.",
       "image": "https://2img.net/i.imgur.com/9HSXJzG.png", "requisitos": ["Un Nigromante o Alto cargo de San Mungo"],
       "users": ["/u8", "/u78", "/u7"],
-      "informed": [],
+      "informed": ["/u55"],
       "dependency": ["secrets of the silent dead"],
       "type": "investigación", "closed": true, "fecha": "1952-11-10", "link": "https://blackwave.foroactivo.com/t561-investigacion-promise-in-crimson", "tagged": ["morgana", "capitulo 0"],
 
@@ -4421,7 +4421,7 @@ const MissionsModule = (function () {
     "the wounded dragon": {
       "description": "Reportes han llegado a la reserva Natural de Flint, un dragón que ha sido volando por las tierras irlandesas. No solo son los rastros de sangre los que generan confianza de una gran herida, sino también el llanto que podía ser escuchado por toda la zona. La reserva se mueve y envía a alguien a encontrar al dragón herido para poder curarlo.",
       "image": "https://2img.net/i.imgur.com/JyNcMmD.png", "requisitos": ["Un miembro debe tener CCM en Consagrado", "Un miembro debe poseer Curación en Avanzado"],
-      "users": ["/u91","/u55","/u150","/u198"],
+      "users": ["/u91","/u55","/u150","/u199"],
       "informed": [],
       "dependency": [],
       "type": "misión", "closed": false, "fecha": "", "link": "", "tagged": ["wave", "capitulo 1"],
@@ -6000,7 +6000,7 @@ const MissionsModule = (function () {
     "blood runs cold": {
       "description": "Con las notas que obtuvieron de Thalia Wyrm, deberán investigar más sobre la nigromante e inefable para ver qué más información había logrado recolectar la mujer sobre la causa de muerte de Dominic. Lo que los guía a Gibran Wyrm, sobrino y heredero de Thalia.",
       "image": "https://i.imgur.com/w5qPOkc.png", "requisitos": ["un personaje deberá ser miembro del Departamento de Seguridad"],
-      "users": ["c/u150"],
+      "users": ["c/u150","/u156","/u97","/u9"],
       "informed": [],
       "dependency": ["tying loose ends"],
       "type": "investigación", "closed": false, "fecha": "", "link": "", "tagged": ["original"],
