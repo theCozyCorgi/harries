@@ -62353,6 +62353,257 @@ const DBModule = (function () {
             "date": "28/02/1953",
             "location": "Gringotts"
         },
+        "1120": {
+            "space": "el pensadero",
+            "url": "/t1120-1953-02-19-walking-on-ice",
+            "simpleTitle": "walking on ice",
+            "creator": "Minerva E. McGonagall",
+            "replyCount": 38,
+            "posts": [
+                {
+                    "url": "r15690",
+                    "author": "Minerva E. McGonagall",
+                    "date": "Sáb Mar 28, 2026 6:18 pm",
+                    "words": 310
+                },
+                {
+                    "url": "r15740",
+                    "author": "Montgomery Thatch",
+                    "date": "Dom Mar 29, 2026 3:40 pm",
+                    "words": 239
+                },
+                {
+                    "url": "r16093",
+                    "author": "Minerva E. McGonagall",
+                    "date": "Vie Abr 03, 2026 10:34 pm",
+                    "words": 427
+                },
+                {
+                    "url": "r16108",
+                    "author": "Montgomery Thatch",
+                    "date": "Sáb Abr 04, 2026 2:09 pm",
+                    "words": 309
+                },
+                {
+                    "url": "r16575",
+                    "author": "Minerva E. McGonagall",
+                    "date": "Miér Abr 15, 2026 11:38 pm",
+                    "words": 288
+                },
+                {
+                    "url": "r16576",
+                    "author": "The Familiars",
+                    "date": "Miér Abr 15, 2026 11:38 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r16704",
+                    "author": "Montgomery Thatch",
+                    "date": "Dom Abr 19, 2026 12:17 pm",
+                    "words": 311
+                },
+                {
+                    "url": "r16705",
+                    "author": "The Familiars",
+                    "date": "Dom Abr 19, 2026 12:17 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r17028",
+                    "author": "Minerva E. McGonagall",
+                    "date": "Lun Abr 27, 2026 9:42 am",
+                    "words": 275
+                },
+                {
+                    "url": "r17145",
+                    "author": "Montgomery Thatch",
+                    "date": "Miér Abr 29, 2026 1:52 pm",
+                    "words": 307
+                },
+                {
+                    "url": "r17146",
+                    "author": "The Familiars",
+                    "date": "Miér Abr 29, 2026 1:52 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r17624",
+                    "author": "Minerva E. McGonagall",
+                    "date": "Lun Mayo 04, 2026 7:11 pm",
+                    "words": 231
+                },
+                {
+                    "url": "r17676",
+                    "author": "Montgomery Thatch",
+                    "date": "Mar Mayo 05, 2026 12:29 pm",
+                    "words": 292
+                },
+                {
+                    "url": "r18203",
+                    "author": "Minerva E. McGonagall",
+                    "date": "Lun Mayo 11, 2026 11:22 pm",
+                    "words": 268
+                },
+                {
+                    "url": "r18204",
+                    "author": "The Familiars",
+                    "date": "Lun Mayo 11, 2026 11:22 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r18301",
+                    "author": "Montgomery Thatch",
+                    "date": "Miér Mayo 13, 2026 3:08 pm",
+                    "words": 347
+                },
+                {
+                    "url": "r18914",
+                    "author": "Minerva E. McGonagall",
+                    "date": "Lun Mayo 25, 2026 10:44 am",
+                    "words": 321
+                },
+                {
+                    "url": "r18981",
+                    "author": "Montgomery Thatch",
+                    "date": "Mar Mayo 26, 2026 3:24 am",
+                    "words": 342
+                },
+                {
+                    "url": "r18982",
+                    "author": "The Familiars",
+                    "date": "Mar Mayo 26, 2026 3:24 am",
+                    "words": 0
+                },
+                {
+                    "url": "r19380",
+                    "author": "Minerva E. McGonagall",
+                    "date": "Dom Mayo 31, 2026 1:30 pm",
+                    "words": 354
+                },
+                {
+                    "url": "r15690",
+                    "author": "Minerva E. McGonagall",
+                    "date": "Sáb Mar 28, 2026 6:18 pm",
+                    "words": 310
+                },
+                {
+                    "url": "r19381",
+                    "author": "The Familiars",
+                    "date": "Dom Mayo 31, 2026 1:30 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r19389",
+                    "author": "Montgomery Thatch",
+                    "date": "Dom Mayo 31, 2026 4:26 pm",
+                    "words": 340
+                },
+                {
+                    "url": "r19390",
+                    "author": "The Familiars",
+                    "date": "Dom Mayo 31, 2026 4:26 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r19766",
+                    "author": "Minerva E. McGonagall",
+                    "date": "Mar Jun 09, 2026 11:08 pm",
+                    "words": 227
+                },
+                {
+                    "url": "r19767",
+                    "author": "The Familiars",
+                    "date": "Mar Jun 09, 2026 11:08 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r19825",
+                    "author": "Montgomery Thatch",
+                    "date": "Jue Jun 11, 2026 2:21 pm",
+                    "words": 177
+                },
+                {
+                    "url": "r20148",
+                    "author": "Minerva E. McGonagall",
+                    "date": "Lun Jun 22, 2026 11:22 pm",
+                    "words": 227
+                },
+                {
+                    "url": "r20149",
+                    "author": "The Familiars",
+                    "date": "Lun Jun 22, 2026 11:22 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r20641",
+                    "author": "Montgomery Thatch",
+                    "date": "Sáb Jul 11, 2026 8:55 am",
+                    "words": 199
+                },
+                {
+                    "url": "r20642",
+                    "author": "The Familiars",
+                    "date": "Sáb Jul 11, 2026 8:55 am",
+                    "words": 0
+                },
+                {
+                    "url": "r21483",
+                    "author": "Minerva E. McGonagall",
+                    "date": "Mar Ago 04, 2026 11:41 pm",
+                    "words": 261
+                },
+                {
+                    "url": "r21484",
+                    "author": "The Familiars",
+                    "date": "Mar Ago 04, 2026 11:41 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r21555",
+                    "author": "Montgomery Thatch",
+                    "date": "Sáb Ago 08, 2026 6:58 am",
+                    "words": 176
+                },
+                {
+                    "url": "r21556",
+                    "author": "The Familiars",
+                    "date": "Sáb Ago 08, 2026 6:58 am",
+                    "words": 0
+                },
+                {
+                    "url": "r21979",
+                    "author": "Minerva E. McGonagall",
+                    "date": "Mar Ago 18, 2026 11:39 pm",
+                    "words": 290
+                },
+                {
+                    "url": "r21980",
+                    "author": "The Familiars",
+                    "date": "Mar Ago 18, 2026 11:39 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r22247",
+                    "author": "Montgomery Thatch",
+                    "date": "Miér Ago 26, 2026 6:05 am",
+                    "words": 238
+                },
+                {
+                    "url": "r22248",
+                    "author": "The Familiars",
+                    "date": "Miér Ago 26, 2026 6:05 am",
+                    "words": 0
+                },
+                {
+                    "url": "r22672",
+                    "author": "Minerva E. McGonagall",
+                    "date": "Mar Sep 08, 2026 12:06 am",
+                    "words": 226
+                }
+            ],
+            "date": "19/02/1953",
+            "location": "Corredores"
+        },
         "1122": {
             "space": "el pensadero",
             "url": "/t1122-1953-02-14-escoge-tu-escape",
@@ -66275,6 +66526,274 @@ const DBModule = (function () {
             "date": "05/12/1945",
             "location": "Aula de Runas Antiguas"
         },
+        "1176": {
+            "space": "el pensadero",
+            "url": "/t1176-1934-09-20-you-hold-your-ground",
+            "simpleTitle": "you hold your ground",
+            "creator": "Ruaan S. Patil",
+            "replyCount": 18,
+            "posts": [
+                {
+                    "url": "r16938",
+                    "author": "Ruaan S. Patil",
+                    "date": "Vie Abr 24, 2026 11:50 pm",
+                    "words": 231
+                },
+                {
+                    "url": "r17010",
+                    "author": "Jupiter Merrythought",
+                    "date": "Dom Abr 26, 2026 6:25 pm",
+                    "words": 318
+                },
+                {
+                    "url": "r17553",
+                    "author": "Ruaan S. Patil",
+                    "date": "Lun Mayo 04, 2026 1:22 am",
+                    "words": 258
+                },
+                {
+                    "url": "r17565",
+                    "author": "Jupiter Merrythought",
+                    "date": "Lun Mayo 04, 2026 6:24 am",
+                    "words": 299
+                },
+                {
+                    "url": "r18317",
+                    "author": "Ruaan S. Patil",
+                    "date": "Miér Mayo 13, 2026 11:43 pm",
+                    "words": 260
+                },
+                {
+                    "url": "r18410",
+                    "author": "Jupiter Merrythought",
+                    "date": "Vie Mayo 15, 2026 11:38 am",
+                    "words": 382
+                },
+                {
+                    "url": "r19043",
+                    "author": "Ruaan S. Patil",
+                    "date": "Mar Mayo 26, 2026 10:53 pm",
+                    "words": 264
+                },
+                {
+                    "url": "r19044",
+                    "author": "The Familiars",
+                    "date": "Mar Mayo 26, 2026 10:53 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r19111",
+                    "author": "Jupiter Merrythought",
+                    "date": "Miér Mayo 27, 2026 2:31 pm",
+                    "words": 272
+                },
+                {
+                    "url": "r19671",
+                    "author": "Ruaan S. Patil",
+                    "date": "Sáb Jun 06, 2026 8:48 pm",
+                    "words": 299
+                },
+                {
+                    "url": "r19807",
+                    "author": "Jupiter Merrythought",
+                    "date": "Jue Jun 11, 2026 7:34 am",
+                    "words": 274
+                },
+                {
+                    "url": "r20028",
+                    "author": "Ruaan S. Patil",
+                    "date": "Jue Jun 18, 2026 12:44 am",
+                    "words": 244
+                },
+                {
+                    "url": "r20315",
+                    "author": "Jupiter Merrythought",
+                    "date": "Dom Jun 28, 2026 3:37 pm",
+                    "words": 291
+                },
+                {
+                    "url": "r21117",
+                    "author": "Ruaan S. Patil",
+                    "date": "Miér Jul 29, 2026 10:23 pm",
+                    "words": 262
+                },
+                {
+                    "url": "r21161",
+                    "author": "Jupiter Merrythought",
+                    "date": "Vie Jul 31, 2026 6:19 am",
+                    "words": 380
+                },
+                {
+                    "url": "r21785",
+                    "author": "Ruaan S. Patil",
+                    "date": "Jue Ago 13, 2026 10:33 pm",
+                    "words": 492
+                },
+                {
+                    "url": "r22103",
+                    "author": "Jupiter Merrythought",
+                    "date": "Sáb Ago 22, 2026 2:50 pm",
+                    "words": 658
+                },
+                {
+                    "url": "r22461",
+                    "author": "Ruaan S. Patil",
+                    "date": "Jue Sep 03, 2026 1:37 am",
+                    "words": 309
+                },
+                {
+                    "url": "r22832",
+                    "author": "Jupiter Merrythought",
+                    "date": "Dom Sep 13, 2026 3:12 pm",
+                    "words": 311
+                }
+            ],
+            "date": "20/09/1934",
+            "location": "Clase de Pociones"
+        },
+        "1179": {
+            "space": "el pensadero",
+            "url": "/t1179-1953-03-27-practica-we-write-out-the-ends-on-our-palms",
+            "simpleTitle": "práctica - we write out the ends on our palms",
+            "creator": "Minerva E. McGonagall",
+            "replyCount": 20,
+            "posts": [
+                {
+                    "url": "r17034",
+                    "author": "Minerva E. McGonagall",
+                    "date": "Lun Abr 27, 2026 10:19 am",
+                    "words": 300
+                },
+                {
+                    "url": "r17035",
+                    "author": "The Familiars",
+                    "date": "Lun Abr 27, 2026 10:19 am",
+                    "words": 0
+                },
+                {
+                    "url": "r17046",
+                    "author": "Findlay McCrory",
+                    "date": "Lun Abr 27, 2026 2:30 pm",
+                    "words": 360
+                },
+                {
+                    "url": "r17047",
+                    "author": "The Familiars",
+                    "date": "Lun Abr 27, 2026 2:30 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r17613",
+                    "author": "Minerva E. McGonagall",
+                    "date": "Lun Mayo 04, 2026 4:17 pm",
+                    "words": 405
+                },
+                {
+                    "url": "r17614",
+                    "author": "The Familiars",
+                    "date": "Lun Mayo 04, 2026 4:17 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r18055",
+                    "author": "Findlay McCrory",
+                    "date": "Dom Mayo 10, 2026 6:56 am",
+                    "words": 349
+                },
+                {
+                    "url": "r18056",
+                    "author": "The Familiars",
+                    "date": "Dom Mayo 10, 2026 6:56 am",
+                    "words": 0
+                },
+                {
+                    "url": "r18212",
+                    "author": "Minerva E. McGonagall",
+                    "date": "Mar Mayo 12, 2026 12:17 am",
+                    "words": 323
+                },
+                {
+                    "url": "r18213",
+                    "author": "The Familiars",
+                    "date": "Mar Mayo 12, 2026 12:17 am",
+                    "words": 0
+                },
+                {
+                    "url": "r18390",
+                    "author": "Findlay McCrory",
+                    "date": "Vie Mayo 15, 2026 4:54 am",
+                    "words": 347
+                },
+                {
+                    "url": "r18391",
+                    "author": "The Familiars",
+                    "date": "Vie Mayo 15, 2026 4:54 am",
+                    "words": 0
+                },
+                {
+                    "url": "r18915",
+                    "author": "Minerva E. McGonagall",
+                    "date": "Lun Mayo 25, 2026 10:58 am",
+                    "words": 242
+                },
+                {
+                    "url": "r18916",
+                    "author": "The Familiars",
+                    "date": "Lun Mayo 25, 2026 10:58 am",
+                    "words": 0
+                },
+                {
+                    "url": "r19158",
+                    "author": "Findlay McCrory",
+                    "date": "Jue Mayo 28, 2026 5:58 am",
+                    "words": 271
+                },
+                {
+                    "url": "r19159",
+                    "author": "The Familiars",
+                    "date": "Jue Mayo 28, 2026 5:58 am",
+                    "words": 0
+                },
+                {
+                    "url": "r19762",
+                    "author": "Minerva E. McGonagall",
+                    "date": "Mar Jun 09, 2026 4:53 pm",
+                    "words": 280
+                },
+                {
+                    "url": "r20422",
+                    "author": "Findlay McCrory",
+                    "date": "Miér Jul 01, 2026 2:31 pm",
+                    "words": 291
+                },
+                {
+                    "url": "r21356",
+                    "author": "Minerva E. McGonagall",
+                    "date": "Dom Ago 02, 2026 11:45 pm",
+                    "words": 221
+                },
+                {
+                    "url": "r21664",
+                    "author": "Findlay McCrory",
+                    "date": "Lun Ago 10, 2026 11:35 am",
+                    "words": 320
+                },
+                {
+                    "url": "r17034",
+                    "author": "Minerva E. McGonagall",
+                    "date": "Lun Abr 27, 2026 10:19 am",
+                    "words": 300
+                },
+                {
+                    "url": "r21981",
+                    "author": "Minerva E. McGonagall",
+                    "date": "Mar Ago 18, 2026 11:47 pm",
+                    "words": 217
+                }
+            ],
+            "date": "27/03/1953",
+            "location": "Biblioteca"
+        },
         "1183": {
             "space": "el pensadero",
             "url": "/t1183-1953-03-12-maybe-next-time",
@@ -66338,6 +66857,107 @@ const DBModule = (function () {
             ],
             "date": "12/03/1953",
             "location": "Biblioteca"
+        },
+        "1196": {
+            "space": "el pensadero",
+            "url": "/t1196-1953-01-23-que-hacen-las-estrellas",
+            "simpleTitle": "¿qué hacen las estrellas?",
+            "creator": "Jupiter Merrythought",
+            "replyCount": 14,
+            "posts": [
+                {
+                    "url": "r17499",
+                    "author": "Jupiter Merrythought",
+                    "date": "Dom Mayo 03, 2026 3:05 pm",
+                    "words": 311
+                },
+                {
+                    "url": "r18096",
+                    "author": "Orion A. Black",
+                    "date": "Dom Mayo 10, 2026 7:27 pm",
+                    "words": 295
+                },
+                {
+                    "url": "r18181",
+                    "author": "Jupiter Merrythought",
+                    "date": "Lun Mayo 11, 2026 7:20 pm",
+                    "words": 314
+                },
+                {
+                    "url": "r18182",
+                    "author": "The Familiars",
+                    "date": "Lun Mayo 11, 2026 7:20 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r19404",
+                    "author": "Orion A. Black",
+                    "date": "Dom Mayo 31, 2026 6:14 pm",
+                    "words": 255
+                },
+                {
+                    "url": "r19447",
+                    "author": "Jupiter Merrythought",
+                    "date": "Lun Jun 01, 2026 7:00 am",
+                    "words": 212
+                },
+                {
+                    "url": "r19744",
+                    "author": "Orion A. Black",
+                    "date": "Mar Jun 09, 2026 12:36 am",
+                    "words": 236
+                },
+                {
+                    "url": "r19812",
+                    "author": "Jupiter Merrythought",
+                    "date": "Jue Jun 11, 2026 11:16 am",
+                    "words": 228
+                },
+                {
+                    "url": "r20241",
+                    "author": "Orion A. Black",
+                    "date": "Vie Jun 26, 2026 1:09 am",
+                    "words": 345
+                },
+                {
+                    "url": "r20735",
+                    "author": "Jupiter Merrythought",
+                    "date": "Mar Jul 14, 2026 7:27 am",
+                    "words": 267
+                },
+                {
+                    "url": "r21362",
+                    "author": "Orion A. Black",
+                    "date": "Lun Ago 03, 2026 12:20 am",
+                    "words": 300
+                },
+                {
+                    "url": "r21432",
+                    "author": "Jupiter Merrythought",
+                    "date": "Mar Ago 04, 2026 3:51 am",
+                    "words": 460
+                },
+                {
+                    "url": "r21658",
+                    "author": "Orion A. Black",
+                    "date": "Dom Ago 09, 2026 7:09 pm",
+                    "words": 351
+                },
+                {
+                    "url": "r22077",
+                    "author": "Jupiter Merrythought",
+                    "date": "Vie Ago 21, 2026 6:53 pm",
+                    "words": 438
+                },
+                {
+                    "url": "r22900",
+                    "author": "Orion A. Black",
+                    "date": "Dom Sep 13, 2026 11:52 pm",
+                    "words": 257
+                }
+            ],
+            "date": "23/01/1953",
+            "location": "Observatorio de Ntwadumela, Sudáfrica"
         },
         "1200": {
             "space": "el pensadero",
@@ -68412,6 +69032,851 @@ const DBModule = (function () {
             ],
             "date": "30/03/1953",
             "location": "Anglesey"
+        },
+        "1236": {
+            "space": "el pensadero",
+            "url": "/t1236-1953-03-26-mision-a-gentle-hand",
+            "simpleTitle": "misión: a gentle hand",
+            "creator": "Black Wave",
+            "replyCount": 132,
+            "posts": [
+                {
+                    "url": "r18115",
+                    "author": "Black Wave",
+                    "date": "Dom Mayo 10, 2026 10:36 pm",
+                    "words": 187
+                },
+                {
+                    "url": "r18143",
+                    "author": "Jupiter Merrythought",
+                    "date": "Lun Mayo 11, 2026 12:11 pm",
+                    "words": 276
+                },
+                {
+                    "url": "r18144",
+                    "author": "The Familiars",
+                    "date": "Lun Mayo 11, 2026 12:11 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r18152",
+                    "author": "Sloane N. Greengrass",
+                    "date": "Lun Mayo 11, 2026 1:06 pm",
+                    "words": 209
+                },
+                {
+                    "url": "r18198",
+                    "author": "H. Shun Parkinson",
+                    "date": "Lun Mayo 11, 2026 10:22 pm",
+                    "words": 285
+                },
+                {
+                    "url": "r18199",
+                    "author": "The Familiars",
+                    "date": "Lun Mayo 11, 2026 10:22 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r18207",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "Lun Mayo 11, 2026 11:36 pm",
+                    "words": 184
+                },
+                {
+                    "url": "r18244",
+                    "author": "Jupiter Merrythought",
+                    "date": "Mar Mayo 12, 2026 9:39 am",
+                    "words": 317
+                },
+                {
+                    "url": "r18245",
+                    "author": "The Familiars",
+                    "date": "Mar Mayo 12, 2026 9:39 am",
+                    "words": 0
+                },
+                {
+                    "url": "r18344",
+                    "author": "Sloane N. Greengrass",
+                    "date": "Jue Mayo 14, 2026 1:16 pm",
+                    "words": 307
+                },
+                {
+                    "url": "r18368",
+                    "author": "H. Shun Parkinson",
+                    "date": "Jue Mayo 14, 2026 9:48 pm",
+                    "words": 242
+                },
+                {
+                    "url": "r18369",
+                    "author": "The Familiars",
+                    "date": "Jue Mayo 14, 2026 9:48 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r18509",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "Sáb Mayo 16, 2026 11:12 pm",
+                    "words": 170
+                },
+                {
+                    "url": "r18510",
+                    "author": "The Familiars",
+                    "date": "Sáb Mayo 16, 2026 11:12 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r18552",
+                    "author": "Jupiter Merrythought",
+                    "date": "Dom Mayo 17, 2026 3:25 pm",
+                    "words": 232
+                },
+                {
+                    "url": "r18553",
+                    "author": "The Familiars",
+                    "date": "Dom Mayo 17, 2026 3:25 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r18617",
+                    "author": "Sloane N. Greengrass",
+                    "date": "Lun Mayo 18, 2026 3:29 pm",
+                    "words": 155
+                },
+                {
+                    "url": "r18804",
+                    "author": "H. Shun Parkinson",
+                    "date": "Jue Mayo 21, 2026 11:58 pm",
+                    "words": 184
+                },
+                {
+                    "url": "r18805",
+                    "author": "The Familiars",
+                    "date": "Jue Mayo 21, 2026 11:58 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r18961",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "Mar Mayo 26, 2026 12:17 am",
+                    "words": 197
+                },
+                {
+                    "url": "r18115",
+                    "author": "Black Wave",
+                    "date": "Dom Mayo 10, 2026 10:36 pm",
+                    "words": 187
+                },
+                {
+                    "url": "r18962",
+                    "author": "The Familiars",
+                    "date": "Mar Mayo 26, 2026 12:17 am",
+                    "words": 0
+                },
+                {
+                    "url": "r19008",
+                    "author": "Jupiter Merrythought",
+                    "date": "Mar Mayo 26, 2026 11:00 am",
+                    "words": 222
+                },
+                {
+                    "url": "r19009",
+                    "author": "The Familiars",
+                    "date": "Mar Mayo 26, 2026 11:00 am",
+                    "words": 0
+                },
+                {
+                    "url": "r19366",
+                    "author": "Sloane N. Greengrass",
+                    "date": "Dom Mayo 31, 2026 5:27 am",
+                    "words": 105
+                },
+                {
+                    "url": "r19367",
+                    "author": "The Familiars",
+                    "date": "Dom Mayo 31, 2026 5:27 am",
+                    "words": 0
+                },
+                {
+                    "url": "r19504",
+                    "author": "H. Shun Parkinson",
+                    "date": "Lun Jun 01, 2026 10:35 pm",
+                    "words": 206
+                },
+                {
+                    "url": "r19505",
+                    "author": "The Familiars",
+                    "date": "Lun Jun 01, 2026 10:35 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r19588",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "Miér Jun 03, 2026 10:47 pm",
+                    "words": 162
+                },
+                {
+                    "url": "r19589",
+                    "author": "The Familiars",
+                    "date": "Miér Jun 03, 2026 10:47 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r19609",
+                    "author": "Black Wave",
+                    "date": "Jue Jun 04, 2026 5:30 pm",
+                    "words": 102
+                },
+                {
+                    "url": "r19610",
+                    "author": "Jupiter Merrythought",
+                    "date": "Jue Jun 04, 2026 5:54 pm",
+                    "words": 342
+                },
+                {
+                    "url": "r19611",
+                    "author": "The Familiars",
+                    "date": "Jue Jun 04, 2026 5:54 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r19710",
+                    "author": "Sloane N. Greengrass",
+                    "date": "Lun Jun 08, 2026 12:22 pm",
+                    "words": 237
+                },
+                {
+                    "url": "r19711",
+                    "author": "The Familiars",
+                    "date": "Lun Jun 08, 2026 12:22 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r19722",
+                    "author": "H. Shun Parkinson",
+                    "date": "Lun Jun 08, 2026 4:36 pm",
+                    "words": 217
+                },
+                {
+                    "url": "r19723",
+                    "author": "The Familiars",
+                    "date": "Lun Jun 08, 2026 4:36 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r19728",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "Lun Jun 08, 2026 8:19 pm",
+                    "words": 218
+                },
+                {
+                    "url": "r19729",
+                    "author": "The Familiars",
+                    "date": "Lun Jun 08, 2026 8:19 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r19800",
+                    "author": "Jupiter Merrythought",
+                    "date": "Jue Jun 11, 2026 4:39 am",
+                    "words": 146
+                },
+                {
+                    "url": "r19801",
+                    "author": "The Familiars",
+                    "date": "Jue Jun 11, 2026 4:39 am",
+                    "words": 0
+                },
+                {
+                    "url": "r18115",
+                    "author": "Black Wave",
+                    "date": "Dom Mayo 10, 2026 10:36 pm",
+                    "words": 187
+                },
+                {
+                    "url": "r19891",
+                    "author": "Sloane N. Greengrass",
+                    "date": "Sáb Jun 13, 2026 7:22 pm",
+                    "words": 305
+                },
+                {
+                    "url": "r19892",
+                    "author": "The Familiars",
+                    "date": "Sáb Jun 13, 2026 7:22 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r19896",
+                    "author": "H. Shun Parkinson",
+                    "date": "Sáb Jun 13, 2026 11:12 pm",
+                    "words": 272
+                },
+                {
+                    "url": "r19897",
+                    "author": "The Familiars",
+                    "date": "Sáb Jun 13, 2026 11:12 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r20001",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "Miér Jun 17, 2026 5:44 pm",
+                    "words": 159
+                },
+                {
+                    "url": "r20002",
+                    "author": "The Familiars",
+                    "date": "Miér Jun 17, 2026 5:44 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r20053",
+                    "author": "Jupiter Merrythought",
+                    "date": "Jue Jun 18, 2026 10:50 am",
+                    "words": 141
+                },
+                {
+                    "url": "r20054",
+                    "author": "The Familiars",
+                    "date": "Jue Jun 18, 2026 10:50 am",
+                    "words": 0
+                },
+                {
+                    "url": "r20172",
+                    "author": "Sloane N. Greengrass",
+                    "date": "Mar Jun 23, 2026 4:38 pm",
+                    "words": 132
+                },
+                {
+                    "url": "r20173",
+                    "author": "The Familiars",
+                    "date": "Mar Jun 23, 2026 4:38 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r20185",
+                    "author": "H. Shun Parkinson",
+                    "date": "Mar Jun 23, 2026 11:58 pm",
+                    "words": 160
+                },
+                {
+                    "url": "r20186",
+                    "author": "The Familiars",
+                    "date": "Mar Jun 23, 2026 11:58 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r20209",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "Jue Jun 25, 2026 12:52 am",
+                    "words": 153
+                },
+                {
+                    "url": "r20210",
+                    "author": "The Familiars",
+                    "date": "Jue Jun 25, 2026 12:52 am",
+                    "words": 0
+                },
+                {
+                    "url": "r20222",
+                    "author": "Jupiter Merrythought",
+                    "date": "Jue Jun 25, 2026 5:21 am",
+                    "words": 186
+                },
+                {
+                    "url": "r20223",
+                    "author": "The Familiars",
+                    "date": "Jue Jun 25, 2026 5:21 am",
+                    "words": 0
+                },
+                {
+                    "url": "r20365",
+                    "author": "H. Shun Parkinson",
+                    "date": "Dom Jun 28, 2026 11:34 pm",
+                    "words": 204
+                },
+                {
+                    "url": "r20366",
+                    "author": "The Familiars",
+                    "date": "Dom Jun 28, 2026 11:34 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r20465",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "Jue Jul 02, 2026 10:25 pm",
+                    "words": 167
+                },
+                {
+                    "url": "r20466",
+                    "author": "The Familiars",
+                    "date": "Jue Jul 02, 2026 10:25 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r18115",
+                    "author": "Black Wave",
+                    "date": "Dom Mayo 10, 2026 10:36 pm",
+                    "words": 187
+                },
+                {
+                    "url": "r20569",
+                    "author": "Jupiter Merrythought",
+                    "date": "Lun Jul 06, 2026 8:51 am",
+                    "words": 177
+                },
+                {
+                    "url": "r20570",
+                    "author": "The Familiars",
+                    "date": "Lun Jul 06, 2026 8:51 am",
+                    "words": 0
+                },
+                {
+                    "url": "r20648",
+                    "author": "Sloane N. Greengrass",
+                    "date": "Sáb Jul 11, 2026 1:57 pm",
+                    "words": 176
+                },
+                {
+                    "url": "r20649",
+                    "author": "The Familiars",
+                    "date": "Sáb Jul 11, 2026 1:57 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r20723",
+                    "author": "H. Shun Parkinson",
+                    "date": "Lun Jul 13, 2026 11:35 pm",
+                    "words": 190
+                },
+                {
+                    "url": "r20724",
+                    "author": "The Familiars",
+                    "date": "Lun Jul 13, 2026 11:35 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r20797",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "Jue Jul 16, 2026 12:10 am",
+                    "words": 193
+                },
+                {
+                    "url": "r20798",
+                    "author": "The Familiars",
+                    "date": "Jue Jul 16, 2026 12:10 am",
+                    "words": 0
+                },
+                {
+                    "url": "r20807",
+                    "author": "Jupiter Merrythought",
+                    "date": "Jue Jul 16, 2026 4:44 am",
+                    "words": 201
+                },
+                {
+                    "url": "r20808",
+                    "author": "The Familiars",
+                    "date": "Jue Jul 16, 2026 4:44 am",
+                    "words": 0
+                },
+                {
+                    "url": "r20942",
+                    "author": "Sloane N. Greengrass",
+                    "date": "Lun Jul 20, 2026 3:33 pm",
+                    "words": 219
+                },
+                {
+                    "url": "r20943",
+                    "author": "The Familiars",
+                    "date": "Lun Jul 20, 2026 3:33 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r21028",
+                    "author": "H. Shun Parkinson",
+                    "date": "Dom Jul 26, 2026 1:30 am",
+                    "words": 215
+                },
+                {
+                    "url": "r21029",
+                    "author": "The Familiars",
+                    "date": "Dom Jul 26, 2026 1:30 am",
+                    "words": 0
+                },
+                {
+                    "url": "r21058",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "Dom Jul 26, 2026 9:14 pm",
+                    "words": 179
+                },
+                {
+                    "url": "r21059",
+                    "author": "The Familiars",
+                    "date": "Dom Jul 26, 2026 9:14 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r21085",
+                    "author": "Jupiter Merrythought",
+                    "date": "Miér Jul 29, 2026 4:11 pm",
+                    "words": 168
+                },
+                {
+                    "url": "r21086",
+                    "author": "The Familiars",
+                    "date": "Miér Jul 29, 2026 4:11 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r21140",
+                    "author": "Sloane N. Greengrass",
+                    "date": "Jue Jul 30, 2026 8:37 am",
+                    "words": 138
+                },
+                {
+                    "url": "r21141",
+                    "author": "The Familiars",
+                    "date": "Jue Jul 30, 2026 8:37 am",
+                    "words": 0
+                },
+                {
+                    "url": "r18115",
+                    "author": "Black Wave",
+                    "date": "Dom Mayo 10, 2026 10:36 pm",
+                    "words": 187
+                },
+                {
+                    "url": "r21145",
+                    "author": "H. Shun Parkinson",
+                    "date": "Jue Jul 30, 2026 9:52 am",
+                    "words": 202
+                },
+                {
+                    "url": "r21146",
+                    "author": "The Familiars",
+                    "date": "Jue Jul 30, 2026 9:52 am",
+                    "words": 0
+                },
+                {
+                    "url": "r21346",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "Dom Ago 02, 2026 9:52 pm",
+                    "words": 170
+                },
+                {
+                    "url": "r21347",
+                    "author": "The Familiars",
+                    "date": "Dom Ago 02, 2026 9:52 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r21391",
+                    "author": "Jupiter Merrythought",
+                    "date": "Lun Ago 03, 2026 9:40 am",
+                    "words": 144
+                },
+                {
+                    "url": "r21392",
+                    "author": "The Familiars",
+                    "date": "Lun Ago 03, 2026 9:40 am",
+                    "words": 0
+                },
+                {
+                    "url": "r21417",
+                    "author": "Sloane N. Greengrass",
+                    "date": "Lun Ago 03, 2026 7:41 pm",
+                    "words": 188
+                },
+                {
+                    "url": "r21418",
+                    "author": "The Familiars",
+                    "date": "Lun Ago 03, 2026 7:41 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r21474",
+                    "author": "H. Shun Parkinson",
+                    "date": "Mar Ago 04, 2026 7:45 pm",
+                    "words": 208
+                },
+                {
+                    "url": "r21475",
+                    "author": "The Familiars",
+                    "date": "Mar Ago 04, 2026 7:45 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r21547",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "Vie Ago 07, 2026 9:14 pm",
+                    "words": 185
+                },
+                {
+                    "url": "r21548",
+                    "author": "The Familiars",
+                    "date": "Vie Ago 07, 2026 9:14 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r21564",
+                    "author": "Jupiter Merrythought",
+                    "date": "Sáb Ago 08, 2026 12:50 pm",
+                    "words": 227
+                },
+                {
+                    "url": "r21565",
+                    "author": "The Familiars",
+                    "date": "Sáb Ago 08, 2026 12:50 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r21675",
+                    "author": "Sloane N. Greengrass",
+                    "date": "Lun Ago 10, 2026 12:44 pm",
+                    "words": 113
+                },
+                {
+                    "url": "r21676",
+                    "author": "The Familiars",
+                    "date": "Lun Ago 10, 2026 12:44 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r21698",
+                    "author": "H. Shun Parkinson",
+                    "date": "Lun Ago 10, 2026 11:23 pm",
+                    "words": 266
+                },
+                {
+                    "url": "r21699",
+                    "author": "The Familiars",
+                    "date": "Lun Ago 10, 2026 11:23 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r21749",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "Miér Ago 12, 2026 9:25 pm",
+                    "words": 192
+                },
+                {
+                    "url": "r21750",
+                    "author": "The Familiars",
+                    "date": "Miér Ago 12, 2026 9:25 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r18115",
+                    "author": "Black Wave",
+                    "date": "Dom Mayo 10, 2026 10:36 pm",
+                    "words": 187
+                },
+                {
+                    "url": "r21763",
+                    "author": "Jupiter Merrythought",
+                    "date": "Jue Ago 13, 2026 3:42 am",
+                    "words": 178
+                },
+                {
+                    "url": "r21764",
+                    "author": "The Familiars",
+                    "date": "Jue Ago 13, 2026 3:42 am",
+                    "words": 0
+                },
+                {
+                    "url": "r21920",
+                    "author": "Sloane N. Greengrass",
+                    "date": "Dom Ago 16, 2026 5:36 pm",
+                    "words": 237
+                },
+                {
+                    "url": "r21921",
+                    "author": "The Familiars",
+                    "date": "Dom Ago 16, 2026 5:36 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r21923",
+                    "author": "H. Shun Parkinson",
+                    "date": "Dom Ago 16, 2026 6:57 pm",
+                    "words": 222
+                },
+                {
+                    "url": "r21924",
+                    "author": "The Familiars",
+                    "date": "Dom Ago 16, 2026 6:57 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r22101",
+                    "author": "Jupiter Merrythought",
+                    "date": "Sáb Ago 22, 2026 2:27 pm",
+                    "words": 219
+                },
+                {
+                    "url": "r22102",
+                    "author": "The Familiars",
+                    "date": "Sáb Ago 22, 2026 2:27 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r22107",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "Sáb Ago 22, 2026 11:34 pm",
+                    "words": 145
+                },
+                {
+                    "url": "r22108",
+                    "author": "The Familiars",
+                    "date": "Sáb Ago 22, 2026 11:34 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r22170",
+                    "author": "Sloane N. Greengrass",
+                    "date": "Lun Ago 24, 2026 10:50 am",
+                    "words": 201
+                },
+                {
+                    "url": "r22171",
+                    "author": "The Familiars",
+                    "date": "Lun Ago 24, 2026 10:50 am",
+                    "words": 0
+                },
+                {
+                    "url": "r22196",
+                    "author": "H. Shun Parkinson",
+                    "date": "Mar Ago 25, 2026 12:25 am",
+                    "words": 226
+                },
+                {
+                    "url": "r22197",
+                    "author": "The Familiars",
+                    "date": "Mar Ago 25, 2026 12:25 am",
+                    "words": 0
+                },
+                {
+                    "url": "r22206",
+                    "author": "Jupiter Merrythought",
+                    "date": "Mar Ago 25, 2026 4:43 am",
+                    "words": 157
+                },
+                {
+                    "url": "r22207",
+                    "author": "The Familiars",
+                    "date": "Mar Ago 25, 2026 4:43 am",
+                    "words": 0
+                },
+                {
+                    "url": "r22330",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "Dom Ago 30, 2026 9:34 pm",
+                    "words": 148
+                },
+                {
+                    "url": "r22331",
+                    "author": "The Familiars",
+                    "date": "Dom Ago 30, 2026 9:34 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r22392",
+                    "author": "Sloane N. Greengrass",
+                    "date": "Mar Sep 01, 2026 3:39 pm",
+                    "words": 159
+                },
+                {
+                    "url": "r22393",
+                    "author": "The Familiars",
+                    "date": "Mar Sep 01, 2026 3:39 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r18115",
+                    "author": "Black Wave",
+                    "date": "Dom Mayo 10, 2026 10:36 pm",
+                    "words": 187
+                },
+                {
+                    "url": "r22409",
+                    "author": "H. Shun Parkinson",
+                    "date": "Miér Sep 02, 2026 12:05 am",
+                    "words": 166
+                },
+                {
+                    "url": "r22410",
+                    "author": "The Familiars",
+                    "date": "Miér Sep 02, 2026 12:05 am",
+                    "words": 0
+                },
+                {
+                    "url": "r22431",
+                    "author": "Jupiter Merrythought",
+                    "date": "Miér Sep 02, 2026 11:28 am",
+                    "words": 170
+                },
+                {
+                    "url": "r22432",
+                    "author": "The Familiars",
+                    "date": "Miér Sep 02, 2026 11:28 am",
+                    "words": 0
+                },
+                {
+                    "url": "r22542",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "Dom Sep 06, 2026 12:45 am",
+                    "words": 170
+                },
+                {
+                    "url": "r22543",
+                    "author": "The Familiars",
+                    "date": "Dom Sep 06, 2026 12:45 am",
+                    "words": 0
+                },
+                {
+                    "url": "r22604",
+                    "author": "Sloane N. Greengrass",
+                    "date": "Dom Sep 06, 2026 4:42 pm",
+                    "words": 225
+                },
+                {
+                    "url": "r22605",
+                    "author": "The Familiars",
+                    "date": "Dom Sep 06, 2026 4:42 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r22733",
+                    "author": "H. Shun Parkinson",
+                    "date": "Jue Sep 10, 2026 11:36 pm",
+                    "words": 332
+                },
+                {
+                    "url": "r22734",
+                    "author": "The Familiars",
+                    "date": "Jue Sep 10, 2026 11:36 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r22763",
+                    "author": "Jupiter Merrythought",
+                    "date": "Vie Sep 11, 2026 3:55 pm",
+                    "words": 338
+                },
+                {
+                    "url": "r22764",
+                    "author": "The Familiars",
+                    "date": "Vie Sep 11, 2026 3:55 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r22844",
+                    "author": "Black Wave",
+                    "date": "Dom Sep 13, 2026 4:15 pm",
+                    "words": 126
+                }
+            ],
+            "date": "26/03/1953",
+            "location": "Sheffield"
         },
         "1242": {
             "space": "el pensadero",
@@ -71428,6 +72893,293 @@ const DBModule = (function () {
             ],
             "date": "02/05/1953",
             "location": "Bosque Prohibido"
+        },
+        "1320": {
+            "space": "el pensadero",
+            "url": "/t1320-1953-04-22-investigacion-tying-loose-ends",
+            "simpleTitle": "investigación: tying loose ends",
+            "creator": "Black Wave",
+            "replyCount": 43,
+            "posts": [
+                {
+                    "url": "r20362",
+                    "author": "Black Wave",
+                    "date": "Dom Jun 28, 2026 10:48 pm",
+                    "words": 138
+                },
+                {
+                    "url": "r20371",
+                    "author": "Jupiter Merrythought",
+                    "date": "Lun Jun 29, 2026 5:37 am",
+                    "words": 308
+                },
+                {
+                    "url": "r20372",
+                    "author": "The Familiars",
+                    "date": "Lun Jun 29, 2026 5:37 am",
+                    "words": 0
+                },
+                {
+                    "url": "r20391",
+                    "author": "Theolonius D. Covey",
+                    "date": "Lun Jun 29, 2026 11:31 pm",
+                    "words": 291
+                },
+                {
+                    "url": "r20398",
+                    "author": "Uranus H. Merrythought",
+                    "date": "Mar Jun 30, 2026 7:29 am",
+                    "words": 280
+                },
+                {
+                    "url": "r20475",
+                    "author": "Orion A. Black",
+                    "date": "Jue Jul 02, 2026 11:42 pm",
+                    "words": 220
+                },
+                {
+                    "url": "r20476",
+                    "author": "The Familiars",
+                    "date": "Jue Jul 02, 2026 11:42 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r20511",
+                    "author": "Jupiter Merrythought",
+                    "date": "Sáb Jul 04, 2026 12:52 pm",
+                    "words": 400
+                },
+                {
+                    "url": "r20512",
+                    "author": "The Familiars",
+                    "date": "Sáb Jul 04, 2026 12:52 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r20619",
+                    "author": "Theolonius D. Covey",
+                    "date": "Jue Jul 09, 2026 11:45 pm",
+                    "words": 253
+                },
+                {
+                    "url": "r20853",
+                    "author": "Orion A. Black",
+                    "date": "Sáb Jul 18, 2026 12:04 am",
+                    "words": 250
+                },
+                {
+                    "url": "r20854",
+                    "author": "The Familiars",
+                    "date": "Sáb Jul 18, 2026 12:04 am",
+                    "words": 0
+                },
+                {
+                    "url": "r20855",
+                    "author": "Jupiter Merrythought",
+                    "date": "Sáb Jul 18, 2026 6:26 am",
+                    "words": 229
+                },
+                {
+                    "url": "r20909",
+                    "author": "Uranus H. Merrythought",
+                    "date": "Dom Jul 19, 2026 9:48 am",
+                    "words": 227
+                },
+                {
+                    "url": "r21113",
+                    "author": "Theolonius D. Covey",
+                    "date": "Miér Jul 29, 2026 8:51 pm",
+                    "words": 239
+                },
+                {
+                    "url": "r21114",
+                    "author": "The Familiars",
+                    "date": "Miér Jul 29, 2026 8:51 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r21342",
+                    "author": "Orion A. Black",
+                    "date": "Dom Ago 02, 2026 9:33 pm",
+                    "words": 227
+                },
+                {
+                    "url": "r21343",
+                    "author": "The Familiars",
+                    "date": "Dom Ago 02, 2026 9:33 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r21389",
+                    "author": "Jupiter Merrythought",
+                    "date": "Lun Ago 03, 2026 8:21 am",
+                    "words": 264
+                },
+                {
+                    "url": "r21390",
+                    "author": "The Familiars",
+                    "date": "Lun Ago 03, 2026 8:21 am",
+                    "words": 0
+                },
+                {
+                    "url": "r20362",
+                    "author": "Black Wave",
+                    "date": "Dom Jun 28, 2026 10:48 pm",
+                    "words": 138
+                },
+                {
+                    "url": "r21480",
+                    "author": "Theolonius D. Covey",
+                    "date": "Mar Ago 04, 2026 9:38 pm",
+                    "words": 458
+                },
+                {
+                    "url": "r21481",
+                    "author": "The Familiars",
+                    "date": "Mar Ago 04, 2026 9:38 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r21673",
+                    "author": "Uranus H. Merrythought",
+                    "date": "Lun Ago 10, 2026 12:44 pm",
+                    "words": 247
+                },
+                {
+                    "url": "r21674",
+                    "author": "The Familiars",
+                    "date": "Lun Ago 10, 2026 12:44 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r21751",
+                    "author": "Orion A. Black",
+                    "date": "Miér Ago 12, 2026 10:03 pm",
+                    "words": 246
+                },
+                {
+                    "url": "r21752",
+                    "author": "The Familiars",
+                    "date": "Miér Ago 12, 2026 10:03 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r21765",
+                    "author": "Jupiter Merrythought",
+                    "date": "Jue Ago 13, 2026 4:16 am",
+                    "words": 291
+                },
+                {
+                    "url": "r21766",
+                    "author": "The Familiars",
+                    "date": "Jue Ago 13, 2026 4:16 am",
+                    "words": 0
+                },
+                {
+                    "url": "r21889",
+                    "author": "Theolonius D. Covey",
+                    "date": "Sáb Ago 15, 2026 11:33 pm",
+                    "words": 336
+                },
+                {
+                    "url": "r21890",
+                    "author": "The Familiars",
+                    "date": "Sáb Ago 15, 2026 11:33 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r21958",
+                    "author": "Uranus H. Merrythought",
+                    "date": "Mar Ago 18, 2026 7:20 am",
+                    "words": 281
+                },
+                {
+                    "url": "r21959",
+                    "author": "The Familiars",
+                    "date": "Mar Ago 18, 2026 7:20 am",
+                    "words": 0
+                },
+                {
+                    "url": "r22118",
+                    "author": "Orion A. Black",
+                    "date": "Dom Ago 23, 2026 12:23 am",
+                    "words": 278
+                },
+                {
+                    "url": "r22119",
+                    "author": "The Familiars",
+                    "date": "Dom Ago 23, 2026 12:23 am",
+                    "words": 0
+                },
+                {
+                    "url": "r22126",
+                    "author": "Jupiter Merrythought",
+                    "date": "Dom Ago 23, 2026 10:12 am",
+                    "words": 412
+                },
+                {
+                    "url": "r22127",
+                    "author": "The Familiars",
+                    "date": "Dom Ago 23, 2026 10:12 am",
+                    "words": 0
+                },
+                {
+                    "url": "r22188",
+                    "author": "Theolonius D. Covey",
+                    "date": "Lun Ago 24, 2026 11:40 pm",
+                    "words": 350
+                },
+                {
+                    "url": "r22189",
+                    "author": "The Familiars",
+                    "date": "Lun Ago 24, 2026 11:40 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r22335",
+                    "author": "Uranus H. Merrythought",
+                    "date": "Lun Ago 31, 2026 1:38 pm",
+                    "words": 318
+                },
+                {
+                    "url": "r22407",
+                    "author": "Orion A. Black",
+                    "date": "Mar Sep 01, 2026 11:49 pm",
+                    "words": 265
+                },
+                {
+                    "url": "r20362",
+                    "author": "Black Wave",
+                    "date": "Dom Jun 28, 2026 10:48 pm",
+                    "words": 138
+                },
+                {
+                    "url": "r22408",
+                    "author": "The Familiars",
+                    "date": "Mar Sep 01, 2026 11:49 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r22433",
+                    "author": "Jupiter Merrythought",
+                    "date": "Miér Sep 02, 2026 11:53 am",
+                    "words": 342
+                },
+                {
+                    "url": "r22571",
+                    "author": "Theolonius D. Covey",
+                    "date": "Dom Sep 06, 2026 1:23 pm",
+                    "words": 226
+                },
+                {
+                    "url": "r22843",
+                    "author": "Black Wave",
+                    "date": "Dom Sep 13, 2026 4:15 pm",
+                    "words": 139
+                }
+            ],
+            "date": "22/04/1953",
+            "location": "Departamento de Misterios"
         },
         "1330": {
             "space": "el pensadero",
@@ -115918,6 +117670,1462 @@ const DBModule = (function () {
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #1 \"purga tox\" (18)</strong><span>Elimina toxinas superficiales y estabiliza al paciente. Restaura +12PV, pero se debe tomar el antídoto antes de que termine el tema.</span></span></div></div></div>",
             "url": "r15214",
             "simpleTitle": "what u see",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                17
+            ],
+            "title": "actions",
+            "key": "certificado de defunción de dominic edevane clasificado",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">17</span></div></div></div>",
+            "url": "r20372",
+            "simpleTitle": "investigación: tying loose ends",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Orion A. Black",
+            "spread": [
+                19
+            ],
+            "title": "actions",
+            "key": "ingresar al departamento de misterios",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Orion A. Black ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">19</span></div></div></div>",
+            "url": "r20476",
+            "simpleTitle": "investigación: tying loose ends",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                6
+            ],
+            "title": "actions",
+            "key": "certificado de defunción de dominic edevane",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">6</span></div></div></div>",
+            "url": "r20512",
+            "simpleTitle": "investigación: tying loose ends",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Orion A. Black",
+            "spread": [
+                7
+            ],
+            "title": "actions",
+            "key": "ingresar a la cámara del tiempo",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Orion A. Black ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">7</span></div></div></div>",
+            "url": "r20854",
+            "simpleTitle": "investigación: tying loose ends",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Theolonius D. Covey",
+            "spread": [
+                15
+            ],
+            "title": "actions",
+            "key": "murmura futuri",
+            "knowledge": "videncia",
+            "type": "clarividencia, sin magia, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Theolonius D. Covey ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"videncia\"><strong>Resultado  #1 \"murmura futuri\" (15)</strong><span>Podrá escuchar algo que sucederá en un futuro.<br><br>El sonido del mar es claro y placentero. Hay una sensación de tranquilidad que rápidamente es cortada por una voz que comienza como un susurro y termina como grito: \"Una ola negra se acerca\".</span></span></div></div></div>",
+            "url": "r21114",
+            "simpleTitle": "investigación: tying loose ends",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Orion A. Black",
+            "spread": [
+                13
+            ],
+            "title": "actions",
+            "key": "ingresar al archivo de la cámara del tiempo",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Orion A. Black ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">13</span></div></div></div>",
+            "url": "r21343",
+            "simpleTitle": "investigación: tying loose ends",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                14
+            ],
+            "title": "actions",
+            "key": "investigar los lockers",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">14</span></div></div></div>",
+            "url": "r21390",
+            "simpleTitle": "investigación: tying loose ends",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Theolonius D. Covey",
+            "spread": [
+                5
+            ],
+            "title": "actions",
+            "key": "locker de thalia wyrm",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Theolonius D. Covey ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">5</span></div></div></div>",
+            "url": "r21481",
+            "simpleTitle": "investigación: tying loose ends",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Uranus H. Merrythought",
+            "spread": [
+                14
+            ],
+            "title": "actions",
+            "key": "abrir locker",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Uranus H. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">14</span></div></div></div>",
+            "url": "r21674",
+            "simpleTitle": "investigación: tying loose ends",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Orion A. Black",
+            "spread": [
+                1
+            ],
+            "title": "actions",
+            "key": "muestra de sangre de dominic edevane",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Orion A. Black ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">1</span></div></div></div>",
+            "url": "r21752",
+            "simpleTitle": "investigación: tying loose ends",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                17
+            ],
+            "title": "actions",
+            "key": "pergaminos de notas",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">17</span></div></div></div>",
+            "url": "r21766",
+            "simpleTitle": "investigación: tying loose ends",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Theolonius D. Covey",
+            "spread": [
+                9
+            ],
+            "title": "actions",
+            "key": "notas de abril 1929",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Theolonius D. Covey ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">9</span></div></div></div>",
+            "url": "r21890",
+            "simpleTitle": "investigación: tying loose ends",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Uranus H. Merrythought",
+            "spread": [
+                20
+            ],
+            "title": "actions",
+            "key": "notas de noviembre 1932",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Uranus H. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">20</span></div></div></div>",
+            "url": "r21959",
+            "simpleTitle": "investigación: tying loose ends",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Orion A. Black",
+            "spread": [
+                20
+            ],
+            "title": "actions",
+            "key": "información del hechizo",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Orion A. Black ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">20</span></div></div></div>",
+            "url": "r22119",
+            "simpleTitle": "investigación: tying loose ends",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                12
+            ],
+            "title": "actions",
+            "key": "specialis revelio",
+            "knowledge": "encantamientos",
+            "type": "encantamiento, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"specialis revelio\" (12)</strong><span>Se detecta una presencia mágica, pero sin detalles específicos.</span></span></div></div></div>",
+            "url": "r22127",
+            "simpleTitle": "investigación: tying loose ends",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Theolonius D. Covey",
+            "spread": [
+                6
+            ],
+            "title": "actions",
+            "key": "notas de noviembre 1943",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Theolonius D. Covey ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">6</span></div></div></div>",
+            "url": "r22189",
+            "simpleTitle": "investigación: tying loose ends",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Orion A. Black",
+            "spread": [
+                9
+            ],
+            "title": "actions",
+            "key": "información sobre thalia wyrm",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Orion A. Black ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">9</span></div></div></div>",
+            "url": "r22408",
+            "simpleTitle": "investigación: tying loose ends",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Minerva E. McGonagall",
+            "spread": [
+                12
+            ],
+            "title": "books",
+            "key": "tratado elemental sobre la ley de los seises",
+            "knowledge": "aritmancia",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"book\"><strong>Contenido libro \"tratado elemental sobre la ley de los seises\" (12)</strong>En Aritmancia, el seis es un número doble que representa tanto la armonía doméstica como el desequilibrio interno. Se asocia con magos y brujas que tienen una afinidad por los encantamientos reparadores, pero también con aquellos que tienden a perderse en bucles mágicos si su concentración no es firme. Hay registros en Hogwarts de seis alumnos que, en distintos siglos, crearon versiones del Encantamiento Geminus que duplicaban objetos más de lo deseado, produciendo efectos incontrolables.</span></div></div></div>",
+            "url": "r17035",
+            "simpleTitle": "práctica - we write out the ends on our palms",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Findlay McCrory",
+            "spread": [
+                4
+            ],
+            "title": "books",
+            "key": "una historia de la magia",
+            "knowledge": "historia de la magia",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Findlay McCrory ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"book\"><strong>Contenido libro \"una historia de la magia\" (4)</strong>La fundación de Hogwarts, uno de los hitos más significativos en la historia de la magia británica, se remonta al siglo X. Cuatro de los más grandes magos y brujas de la época, Godric Gryffindor, Helga Hufflepuff, Rowena Ravenclaw y Salazar Slytherin, unieron sus talentos y visiones para crear una institución donde los jóvenes magos y brujas pudieran ser educados de manera segura y efectiva. Sus diferencias, especialmente la desconfianza de Slytherin hacia los muggles, eventualmente llevaron a conflictos, pero el legado de su colaboración perdura hasta la actualidad, siendo Hogwarts el pilar de la educación mágica.</span></div></div></div>",
+            "url": "r17047",
+            "simpleTitle": "práctica - we write out the ends on our palms",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Minerva E. McGonagall",
+            "spread": [
+                15
+            ],
+            "title": "books",
+            "key": "tratado elemental sobre la ley de los seises",
+            "knowledge": "aritmancia",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"book\"><strong>Contenido libro \"tratado elemental sobre la ley de los seises\" (15)</strong>En Aritmancia, el seis es un número doble que representa tanto la armonía doméstica como el desequilibrio interno. Se asocia con magos y brujas que tienen una afinidad por los encantamientos reparadores, pero también con aquellos que tienden a perderse en bucles mágicos si su concentración no es firme. Hay registros en Hogwarts de seis alumnos que, en distintos siglos, crearon versiones del Encantamiento Geminus que duplicaban objetos más de lo deseado, produciendo efectos incontrolables.</span></div></div></div>",
+            "url": "r17614",
+            "simpleTitle": "práctica - we write out the ends on our palms",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Findlay McCrory",
+            "spread": [
+                19
+            ],
+            "title": "books",
+            "key": "una historia de la magia",
+            "knowledge": "historia de la magia",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Findlay McCrory ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"book\"><strong>Contenido libro \"una historia de la magia\" (19)</strong>El auge de la magia oscura nunca ha estado completamente ausente de la historia mágica. Figuras como Herpo el Sucio, que vivió hace miles de años, fueron pioneros en las artes más nefastas, creando los primeros Horcruxes y sembrando el terror. A lo largo de los siglos, otros magos y brujas han sucumbido a la tentación del poder oscuro, dejando un rastro de destrucción y miedo.</span></div></div></div>",
+            "url": "r18056",
+            "simpleTitle": "práctica - we write out the ends on our palms",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Minerva E. McGonagall",
+            "spread": [
+                16
+            ],
+            "title": "books",
+            "key": "tratado elemental sobre la ley de los seises",
+            "knowledge": "aritmancia",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"book\"><strong>Contenido libro \"tratado elemental sobre la ley de los seises\" (16)</strong>Algunos alquimistas creen que el seis guarda relación con la materia que quiere transformarse: ni completamente plomo ni completamente oro. Esta etapa, llamada por algunos via sexta, es cuando la sustancia mágica “sabe” que está cambiando, pero aún no ha alcanzado su destino. Nicolas Flamel mencionó vagamente esta noción en su correspondencia perdida con la bruja egipcia Daphné Senkhara, donde hablaba de “seis fases del alma del mercurio”. A la fecha, el manuscrito completo no ha sido hallado.</span></div></div></div>",
+            "url": "r18213",
+            "simpleTitle": "práctica - we write out the ends on our palms",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Findlay McCrory",
+            "spread": [
+                15
+            ],
+            "title": "books",
+            "key": "una historia de la magia",
+            "knowledge": "historia de la magia",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Findlay McCrory ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"book\"><strong>Contenido libro \"una historia de la magia\" (15)</strong>Las rebeliones de duendes a lo largo de la historia mágica son un recordo constante de las tensiones existentes entre diferentes especies mágicas. Desde la gran rebelión de 1612, que causó estragos en todo el país, hasta levantamientos menores pero igualmente violentos, los duendes han luchado por el reconocimiento de sus derechos y por el control de artefactos mágicos que consideran suyos por derecho.</span></div></div></div>",
+            "url": "r18391",
+            "simpleTitle": "práctica - we write out the ends on our palms",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Minerva E. McGonagall",
+            "spread": [
+                9
+            ],
+            "title": "books",
+            "key": "tratado elemental sobre la ley de los seises",
+            "knowledge": "aritmancia",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"book\"><strong>Contenido libro \"tratado elemental sobre la ley de los seises\" (9)</strong>Durante el siglo XVII, la Orden de los Nudos Arcanos codificó el nudo de seis vueltas como base para la creación de amuletos temporales. Este patrón aparece en varios objetos mágicos hallados en excavaciones de ruinas brujas al norte de Galicia. Se cree que el seis era usado para fijar hechizos durante seis noches lunares, lo que ofrecía un equilibrio entre duración efectiva y riesgo de corrupción mágica. Algunas tiendas del Callejón Knockturn aún venden hilos de plata trenzados en forma de hexagrama, siguiendo esta tradición.</span></div></div></div>",
+            "url": "r18916",
+            "simpleTitle": "práctica - we write out the ends on our palms",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Findlay McCrory",
+            "spread": [
+                1
+            ],
+            "title": "books",
+            "key": "una historia de la magia",
+            "knowledge": "historia de la magia",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Findlay McCrory ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"book\"><strong>Contenido libro \"una historia de la magia\" (1)</strong>La fundación de Hogwarts, uno de los hitos más significativos en la historia de la magia británica, se remonta al siglo X. Cuatro de los más grandes magos y brujas de la época, Godric Gryffindor, Helga Hufflepuff, Rowena Ravenclaw y Salazar Slytherin, unieron sus talentos y visiones para crear una institución donde los jóvenes magos y brujas pudieran ser educados de manera segura y efectiva. Sus diferencias, especialmente la desconfianza de Slytherin hacia los muggles, eventualmente llevaron a conflictos, pero el legado de su colaboración perdura hasta la actualidad, siendo Hogwarts el pilar de la educación mágica.</span></div></div></div>",
+            "url": "r19159",
+            "simpleTitle": "práctica - we write out the ends on our palms",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                16
+            ],
+            "title": "actions",
+            "key": "inspeccionar el lugar",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">16</span></div></div></div>",
+            "url": "r18144",
+            "simpleTitle": "misión: a gentle hand",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                18
+            ],
+            "title": "actions",
+            "key": "posible entrada por las alcantarillas",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">18</span></div></div></div>",
+            "url": "r18199",
+            "simpleTitle": "misión: a gentle hand",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                10
+            ],
+            "title": "actions",
+            "key": "posible entrada por la ventana",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">10</span></div></div></div>",
+            "url": "r18245",
+            "simpleTitle": "misión: a gentle hand",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                2
+            ],
+            "title": "actions",
+            "key": "posible entrada por la puerta principal",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">2</span></div></div></div>",
+            "url": "r18369",
+            "simpleTitle": "misión: a gentle hand",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Vasilisa M. Kuznetzova",
+            "spread": [
+                9
+            ],
+            "title": "actions",
+            "key": "entrada por las alcantarillas",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">9</span></div></div></div>",
+            "url": "r18510",
+            "simpleTitle": "misión: a gentle hand",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                12
+            ],
+            "title": "actions",
+            "key": "lumos",
+            "knowledge": "encantamientos",
+            "type": "encantamiento, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"lumos\" (12)</strong><span>La luz es intensamente brillante y dura más tiempo.</span></span></div></div></div>",
+            "url": "r18553",
+            "simpleTitle": "misión: a gentle hand",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                10
+            ],
+            "title": "actions",
+            "key": "lumos",
+            "knowledge": "encantamientos",
+            "type": "encantamiento, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"lumos\" (10)</strong><span>La luz es intensamente brillante y dura más tiempo.</span></span></div></div></div>",
+            "url": "r18805",
+            "simpleTitle": "misión: a gentle hand",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Vasilisa M. Kuznetzova",
+            "spread": [
+                13
+            ],
+            "title": "actions",
+            "key": "lumos",
+            "knowledge": "encantamientos",
+            "type": "encantamiento, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"lumos\" (13)</strong><span>La luz es intensamente brillante y dura más tiempo.</span></span></div></div></div>",
+            "url": "r18962",
+            "simpleTitle": "misión: a gentle hand",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                15
+            ],
+            "title": "actions",
+            "key": "lumos",
+            "knowledge": "encantamientos",
+            "type": "encantamiento, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"lumos\" (15)</strong><span>La luz es intensamente brillante y dura más tiempo.</span></span></div></div></div>",
+            "url": "r19009",
+            "simpleTitle": "misión: a gentle hand",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Sloane N. Greengrass",
+            "spread": [
+                20
+            ],
+            "title": "actions",
+            "key": "lumos",
+            "knowledge": "encantamientos",
+            "type": "encantamiento, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Sloane N. Greengrass ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"lumos\" (20)</strong><span>La luz es intensamente brillante y dura más tiempo.<br>[PENALIDAD] El dado actua como \"16\" por Maldición Greengrass. Adicionalmente, el personaje pierde 8 PV de sus puntos de vida máximos.</span></span></div></div></div>",
+            "url": "r19367",
+            "simpleTitle": "misión: a gentle hand",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                16
+            ],
+            "title": "actions",
+            "key": "lumos",
+            "knowledge": "encantamientos",
+            "type": "encantamiento, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"lumos\" (16)</strong><span>La luz es intensamente brillante y dura más tiempo.</span></span></div></div></div>",
+            "url": "r19505",
+            "simpleTitle": "misión: a gentle hand",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Vasilisa M. Kuznetzova",
+            "spread": [
+                15
+            ],
+            "title": "actions",
+            "key": "lumos",
+            "knowledge": "encantamientos",
+            "type": "encantamiento, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"lumos\" (15)</strong><span>La luz es intensamente brillante y dura más tiempo.</span></span></div></div></div>",
+            "url": "r19589",
+            "simpleTitle": "misión: a gentle hand",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                11
+            ],
+            "title": "actions",
+            "key": "fortitudo cordis",
+            "knowledge": "liderazgo",
+            "type": "habilidad, sin magia, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"liderazgo\"><strong>Resultado  #1 \"fortitudo cordis\" (11)</strong><span>Adiciona <em>9</em> (El 100% de CAR) en acciones del conocimiento mencionado durante todo el tema.</span></span></div></div></div>",
+            "url": "r19611",
+            "simpleTitle": "misión: a gentle hand",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Sloane N. Greengrass",
+            "spread": [
+                3
+            ],
+            "title": "actions",
+            "key": "escuchar los guardias",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Sloane N. Greengrass ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">3</span></div></div></div>",
+            "url": "r19711",
+            "simpleTitle": "misión: a gentle hand",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                5
+            ],
+            "title": "actions",
+            "key": "esperar diez minutos (primer turno)",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">5</span></div></div></div>",
+            "url": "r19723",
+            "simpleTitle": "misión: a gentle hand",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Vasilisa M. Kuznetzova",
+            "spread": [
+                8
+            ],
+            "title": "actions",
+            "key": "esperar diez minutos (segundo turno)",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">8</span></div></div></div>",
+            "url": "r19729",
+            "simpleTitle": "misión: a gentle hand",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                8
+            ],
+            "title": "actions",
+            "key": "anticipatio hostis",
+            "knowledge": "liderazgo",
+            "type": "habilidad, sin magia, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"liderazgo\"><strong>Resultado  #1 \"anticipatio hostis\" (8)</strong><span>Los aliados podrán atacar primero indiferente a los resultados de los dados y adiciona <em>+25</em> (100% del conocimiento en LIDERAZGO) al primer ataque.</span></span></div></div></div>",
+            "url": "r19801",
+            "simpleTitle": "misión: a gentle hand",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Sloane N. Greengrass",
+            "spread": [
+                5
+            ],
+            "title": "actions",
+            "key": "ir del sótano a la cocina",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Sloane N. Greengrass ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">5</span></div></div></div>",
+            "url": "r19892",
+            "simpleTitle": "misión: a gentle hand",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                11
+            ],
+            "title": "actions",
+            "key": "regio impetum",
+            "knowledge": "dcao",
+            "type": "encantamiento, ofensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"regio impetum\" (11)</strong><span>Los oponentes caen al suelo y quedan aturdidos por unos segundos. Reduce +10 PV de 3 PNJ y los incapacita por 2 turnos.</span></span></div></div></div>",
+            "url": "r19897",
+            "simpleTitle": "misión: a gentle hand",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Vasilisa M. Kuznetzova",
+            "spread": [
+                11
+            ],
+            "title": "actions",
+            "key": "flipendo",
+            "knowledge": "dcao",
+            "type": "maleficio, ofensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"flipendo\" (11)</strong><span>El oponente es lanzado por los aires con gran fuerza, impactando contra una superficie. Adiciona <em>+6</em> (40% del conocimiento en DCAO) puntos adicionales de daño al objetivo.</span></span></div></div></div>",
+            "url": "r20002",
+            "simpleTitle": "misión: a gentle hand",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                3
+            ],
+            "title": "actions",
+            "key": "regio impetum",
+            "knowledge": "dcao",
+            "type": "encantamiento, ofensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"regio impetum\" (3)</strong><span>Los oponentes son empujados hacia atrás levemente y quedan algo desorientados. Reduce +6 PV de 2 PNJ.</span></span></div></div></div>",
+            "url": "r20054",
+            "simpleTitle": "misión: a gentle hand",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Sloane N. Greengrass",
+            "spread": [
+                14
+            ],
+            "title": "actions",
+            "key": "desmaius",
+            "knowledge": "dcao",
+            "type": "encantamiento, ofensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Sloane N. Greengrass ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"desmaius\" (14)</strong><span>El objetivo queda mareado por unos segundos. La víctima pierde +8 puntos en su siguiente acción.<br>[PENALIDAD] El dado actua como \"11\" por Maldición Greengrass. Adicionalmente, el personaje pierde 6 PV de sus puntos de vida máximos.</span></span></div></div></div>",
+            "url": "r20173",
+            "simpleTitle": "misión: a gentle hand",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                7
+            ],
+            "title": "actions",
+            "key": "protego totalum",
+            "knowledge": "dcao",
+            "type": "encantamiento, defensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"protego totalum\" (7)</strong><span>La barrera es fuerte y resistente a la mayoría de los hechizos. Adiciona <em>+27</em> (75% del conocimiento en DCAO) en defensa a todos los personajes dentro del edificio durante 2 turno.</span></span></div></div></div>",
+            "url": "r20186",
+            "simpleTitle": "misión: a gentle hand",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Vasilisa M. Kuznetzova",
+            "spread": [
+                8
+            ],
+            "title": "actions",
+            "key": "depulso",
+            "knowledge": "encantamientos",
+            "type": "encantamiento, ofensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"depulso\" (8)</strong><span>El objetivo es arrojado violentamente lejos, perdiendo el equilibrio. Adiciona <em>+16</em> (100% del conocimiento en ENCANTAMIENTOS) en el daño, la víctima pierde 2 acciones consecutivas al recibir el ataque.</span></span></div></div></div>",
+            "url": "r20210",
+            "simpleTitle": "misión: a gentle hand",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                10
+            ],
+            "title": "actions",
+            "key": "regio impetum",
+            "knowledge": "dcao",
+            "type": "encantamiento, ofensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"regio impetum\" (10)</strong><span>Los oponentes caen al suelo y quedan aturdidos por unos segundos. Reduce +9 PV de 3 PNJ y los incapacita por 2 turnos.</span></span></div></div></div>",
+            "url": "r20223",
+            "simpleTitle": "misión: a gentle hand",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                10
+            ],
+            "title": "actions",
+            "key": "flipendo",
+            "knowledge": "dcao",
+            "type": "maleficio, ofensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"flipendo\" (10)</strong><span>El oponente es lanzado por los aires con gran fuerza, impactando contra una superficie. Adiciona <em>+14</em> (40% del conocimiento en DCAO) puntos adicionales de daño al objetivo.</span></span></div></div></div>",
+            "url": "r20366",
+            "simpleTitle": "misión: a gentle hand",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Vasilisa M. Kuznetzova",
+            "spread": [
+                10
+            ],
+            "title": "actions",
+            "key": "waddiwasi",
+            "knowledge": "dcao",
+            "type": "embrujo, ofensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"waddiwasi\" (10)</strong><span>El objeto se mueve a gran velocidad y golpea con impacto certero y potente. Adiciona +17 puntos al daño.</span></span></div></div></div>",
+            "url": "r20466",
+            "simpleTitle": "misión: a gentle hand",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                17
+            ],
+            "title": "actions",
+            "key": "desmaius",
+            "knowledge": "dcao",
+            "type": "encantamiento, ofensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"desmaius\" (17)</strong><span>El objetivo cae inconsciente durante un período prolongado. La víctima pierde 10 PV y pierde sus siguientes 5 acciones consecutivas al ataque.</span></span></div></div></div>",
+            "url": "r20570",
+            "simpleTitle": "misión: a gentle hand",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Sloane N. Greengrass",
+            "spread": [
+                20
+            ],
+            "title": "actions",
+            "key": "desmaius",
+            "knowledge": "dcao",
+            "type": "encantamiento, ofensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Sloane N. Greengrass ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"desmaius\" (20)</strong><span>El objetivo queda mareado por unos segundos. La víctima pierde +11 puntos en su siguiente acción.<br>[PENALIDAD] El dado actua como \"16\" por Maldición Greengrass. Adicionalmente, el personaje pierde 8 PV de sus puntos de vida máximos.</span></span></div></div></div>",
+            "url": "r20649",
+            "simpleTitle": "misión: a gentle hand",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                1
+            ],
+            "title": "actions",
+            "key": "flipendo",
+            "knowledge": "dcao",
+            "type": "maleficio, ofensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"flipendo\" (1)</strong><span>El oponente es lanzado por los aires con gran fuerza, impactando contra una superficie. Adiciona <em>+14</em> (40% del conocimiento en DCAO) puntos adicionales de daño al objetivo.</span></span></div></div></div>",
+            "url": "r20724",
+            "simpleTitle": "misión: a gentle hand",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Vasilisa M. Kuznetzova",
+            "spread": [
+                13
+            ],
+            "title": "actions",
+            "key": "sonus phasma",
+            "knowledge": "banshees",
+            "type": "habilidad, ofensivo, defensivo, sin magia",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"banshees\"><strong>Resultado  #1 \"sonus phasma\" (13)</strong><span>Puede emitir un grito que aturde y desorienta a los enemigos cercanos. Adiciona +10 de daño o defensa si se usa contra una persona.</span></span></div></div></div>",
+            "url": "r20798",
+            "simpleTitle": "misión: a gentle hand",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                19
+            ],
+            "title": "actions",
+            "key": "atabraquium",
+            "knowledge": "dcao",
+            "type": "embrujo, ofensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"atabraquium\" (19)</strong><span>Las cuerdas envuelven completamente al objetivo, inmovilizándolo por completo. Las cuerdas poseerán 20 PV, los cuales la víctima tendrá que eliminar para poder liberarse de ellas.</span></span></div></div></div>",
+            "url": "r20808",
+            "simpleTitle": "misión: a gentle hand",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Sloane N. Greengrass",
+            "spread": [
+                3
+            ],
+            "title": "actions",
+            "key": "golpe de impulso",
+            "knowledge": "combate físico",
+            "type": "habilidad, ofensivo, sin magia",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Sloane N. Greengrass ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"combate físico\"><strong>Resultado  #1 \"golpe de impulso\" (3)</strong><span>Derriba al rival o lo desestabiliza. Adiciona +3 en Daño.</span></span></div></div></div>",
+            "url": "r20943",
+            "simpleTitle": "misión: a gentle hand",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                6
+            ],
+            "title": "actions",
+            "key": "depulso",
+            "knowledge": "encantamientos",
+            "type": "encantamiento, ofensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"depulso\" (6)</strong><span>El objetivo es arrojado violentamente lejos, perdiendo el equilibrio. Adiciona <em>+16</em> (100% del conocimiento en ENCANTAMIENTOS) en el daño, la víctima pierde 2 acciones consecutivas al recibir el ataque.</span></span></div></div></div>",
+            "url": "r21029",
+            "simpleTitle": "misión: a gentle hand",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Vasilisa M. Kuznetzova",
+            "spread": [
+                20
+            ],
+            "title": "actions",
+            "key": "flipendo",
+            "knowledge": "dcao",
+            "type": "maleficio, ofensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"flipendo\" (20)</strong><span>El oponente es lanzado por los aires con gran fuerza, impactando contra una superficie. Adiciona <em>+6</em> (40% del conocimiento en DCAO) puntos adicionales de daño al objetivo.</span></span></div></div></div>",
+            "url": "r21059",
+            "simpleTitle": "misión: a gentle hand",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                11
+            ],
+            "title": "actions",
+            "key": "atabraquium",
+            "knowledge": "dcao",
+            "type": "embrujo, ofensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"atabraquium\" (11)</strong><span>Las cuerdas envuelven completamente al objetivo, inmovilizándolo por completo. Las cuerdas poseerán 20 PV, los cuales la víctima tendrá que eliminar para poder liberarse de ellas.</span></span></div></div></div>",
+            "url": "r21086",
+            "simpleTitle": "misión: a gentle hand",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Sloane N. Greengrass",
+            "spread": [
+                14
+            ],
+            "title": "actions",
+            "key": "golpe encantado",
+            "knowledge": "combate físico",
+            "type": "habilidad, ofensivo, sin magia",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Sloane N. Greengrass ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"combate físico\"><strong>Resultado  #1 \"golpe encantado\" (14)</strong><span>El golpe encantado aturde claramente al enemigo, haciéndolo retroceder. Resta +13 al Ataque del enemigo.</span></span></div></div></div>",
+            "url": "r21141",
+            "simpleTitle": "misión: a gentle hand",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                6
+            ],
+            "title": "actions",
+            "key": "flipendo",
+            "knowledge": "dcao",
+            "type": "maleficio, ofensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"flipendo\" (6)</strong><span>El oponente es lanzado por los aires con gran fuerza, impactando contra una superficie. Adiciona <em>+14</em> (40% del conocimiento en DCAO) puntos adicionales de daño al objetivo.</span></span></div></div></div>",
+            "url": "r21146",
+            "simpleTitle": "misión: a gentle hand",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Vasilisa M. Kuznetzova",
+            "spread": [
+                19
+            ],
+            "title": "actions",
+            "key": "desmaius",
+            "knowledge": "dcao",
+            "type": "encantamiento, ofensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"desmaius\" (19)</strong><span>El objetivo cae inconsciente durante un período prolongado. La víctima pierde 10 PV y pierde sus siguientes 5 acciones consecutivas al ataque.</span></span></div></div></div>",
+            "url": "r21347",
+            "simpleTitle": "misión: a gentle hand",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                4
+            ],
+            "title": "actions",
+            "key": "atabraquium",
+            "knowledge": "dcao",
+            "type": "embrujo, ofensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"atabraquium\" (4)</strong><span>El objetivo queda firmemente atado de pies y manos. Deberá consumir una acción en liberarse de las ataduras a través de hechizos.</span></span></div></div></div>",
+            "url": "r21392",
+            "simpleTitle": "misión: a gentle hand",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Sloane N. Greengrass",
+            "spread": [
+                14
+            ],
+            "title": "actions",
+            "key": "duro",
+            "knowledge": "transformaciones",
+            "type": "transfiguración, ofensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Sloane N. Greengrass ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"transformaciones\"><strong>Resultado  #1 \"duro\" (14)</strong><span>El objetivo queda casi convertido en piedra en su totalidad. En caso de usarse en duelos, la víctima pierde sus acciones hasta que alguien lo libere o rolee 1 respuesta.<br>[PENALIDAD] El dado actua como \"11\" por Maldición Greengrass. Adicionalmente, el personaje pierde 6 PV de sus puntos de vida máximos.</span></span></div></div></div>",
+            "url": "r21418",
+            "simpleTitle": "misión: a gentle hand",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                11
+            ],
+            "title": "actions",
+            "key": "flipendo",
+            "knowledge": "dcao",
+            "type": "maleficio, ofensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"flipendo\" (11)</strong><span>El oponente es lanzado por los aires con gran fuerza, impactando contra una superficie. Adiciona <em>+14</em> (40% del conocimiento en DCAO) puntos adicionales de daño al objetivo.</span></span></div></div></div>",
+            "url": "r21475",
+            "simpleTitle": "misión: a gentle hand",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Vasilisa M. Kuznetzova",
+            "spread": [
+                19
+            ],
+            "title": "actions",
+            "key": "cadere",
+            "knowledge": "dcao",
+            "type": "embrujo, ofensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"cadere\" (19)</strong><span>El objetivo cae con fuerza y sufre una lesión menor, perdiendo dos turnos y 10 PV.</span></span></div></div></div>",
+            "url": "r21548",
+            "simpleTitle": "misión: a gentle hand",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                5
+            ],
+            "title": "actions",
+            "key": "regio impetum",
+            "knowledge": "dcao",
+            "type": "encantamiento, ofensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"regio impetum\" (5)</strong><span>Los oponentes son empujados hacia atrás levemente y quedan algo desorientados. Reduce +6 PV de 2 PNJ.</span></span></div></div></div>",
+            "url": "r21565",
+            "simpleTitle": "misión: a gentle hand",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Sloane N. Greengrass",
+            "spread": [
+                2
+            ],
+            "title": "actions",
+            "key": "golpe de impulso",
+            "knowledge": "combate físico",
+            "type": "habilidad, ofensivo, sin magia",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Sloane N. Greengrass ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"combate físico\"><strong>Resultado  #1 \"golpe de impulso\" (2)</strong><span>Derriba al rival o lo desestabiliza. Adiciona +3 en Daño.</span></span></div></div></div>",
+            "url": "r21676",
+            "simpleTitle": "misión: a gentle hand",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                6
+            ],
+            "title": "actions",
+            "key": "depulso",
+            "knowledge": "encantamientos",
+            "type": "encantamiento, ofensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"depulso\" (6)</strong><span>El objetivo es arrojado violentamente lejos, perdiendo el equilibrio. Adiciona <em>+16</em> (100% del conocimiento en ENCANTAMIENTOS) en el daño, la víctima pierde 2 acciones consecutivas al recibir el ataque.</span></span></div></div></div>",
+            "url": "r21699",
+            "simpleTitle": "misión: a gentle hand",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Vasilisa M. Kuznetzova",
+            "spread": [
+                16
+            ],
+            "title": "actions",
+            "key": "flipendo",
+            "knowledge": "dcao",
+            "type": "maleficio, ofensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"flipendo\" (16)</strong><span>El oponente es lanzado por los aires con gran fuerza, impactando contra una superficie. Adiciona <em>+6</em> (40% del conocimiento en DCAO) puntos adicionales de daño al objetivo.</span></span></div></div></div>",
+            "url": "r21750",
+            "simpleTitle": "misión: a gentle hand",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                8
+            ],
+            "title": "actions",
+            "key": "incarcerous",
+            "knowledge": "dcao",
+            "type": "transfiguración, ofensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"incarcerous\" (8)</strong><span>Las cuerdas se vuelven increíblemente resistentes y se ajustan solas, inmovilizando por completo al objetivo. El personaje no podrá realizar ninguna acción hasta que un compañero lo libere o publique dos respuestas.</span></span></div></div></div>",
+            "url": "r21764",
+            "simpleTitle": "misión: a gentle hand",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Sloane N. Greengrass",
+            "spread": [
+                8
+            ],
+            "title": "actions",
+            "key": "golpe encantado",
+            "knowledge": "combate físico",
+            "type": "habilidad, ofensivo, sin magia",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Sloane N. Greengrass ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"combate físico\"><strong>Resultado  #1 \"golpe encantado\" (8)</strong><span>Logras golpear, causando una molestia física o desequilibrio momentáneo. Adiciona +6 en Ataque.</span></span></div></div></div>",
+            "url": "r21921",
+            "simpleTitle": "misión: a gentle hand",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                10
+            ],
+            "title": "actions",
+            "key": "immobulus glacius",
+            "knowledge": "dcao",
+            "type": "encantamiento, ofensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"immobulus glacius\" (10)</strong><span>El objetivo es completamente inmovilizado, con riesgo de entumecimiento severo. Adiciona +19 en el daño y la víctima no podrá moverse hasta no responder un rol completo sin acción u otro personaje lo libere.</span></span></div></div></div>",
+            "url": "r21924",
+            "simpleTitle": "misión: a gentle hand",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                8
+            ],
+            "title": "actions",
+            "key": "ir de la cocina al sótano",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">8</span></div></div></div>",
+            "url": "r22102",
+            "simpleTitle": "misión: a gentle hand",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Vasilisa M. Kuznetzova",
+            "spread": [
+                6
+            ],
+            "title": "actions",
+            "key": "alohomora",
+            "knowledge": "encantamientos",
+            "type": "encantamiento, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"alohomora\" (6)</strong><span>La cerradura se abre sin dejar rastro de haber sido forzada, incluso en casos de cierres mágicos simples.</span></span></div></div></div>",
+            "url": "r22108",
+            "simpleTitle": "misión: a gentle hand",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Sloane N. Greengrass",
+            "spread": [
+                12
+            ],
+            "title": "actions",
+            "key": "pellis sana",
+            "knowledge": "ccm",
+            "type": "curación",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Sloane N. Greengrass ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"ccm\"><strong>Resultado  #1 \"pellis sana\" (12)</strong><span>La herida se cierra parcialmente, permitiendo al animal moverse sin dolor.<br>[PENALIDAD] El dado actua como \"9\" por Maldición Greengrass. Adicionalmente, el personaje pierde 6 PV de sus puntos de vida máximos.</span></span></div></div></div>",
+            "url": "r22171",
+            "simpleTitle": "misión: a gentle hand",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                3
+            ],
+            "title": "actions",
+            "key": "brackium emende",
+            "knowledge": "ccm",
+            "type": "curación",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"ccm\"><strong>Resultado  #1 \"brackium emende\" (3)</strong><span>El hueso no se repara y el dolor persiste.</span></span></div></div></div>",
+            "url": "r22197",
+            "simpleTitle": "misión: a gentle hand",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                19
+            ],
+            "title": "actions",
+            "key": "fortitudo cordis",
+            "knowledge": "liderazgo",
+            "type": "habilidad, sin magia, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"liderazgo\"><strong>Resultado  #1 \"fortitudo cordis\" (19)</strong><span>Adiciona <em>9</em> (El 100% de CAR) en acciones del conocimiento mencionado durante todo el tema.</span></span></div></div></div>",
+            "url": "r22207",
+            "simpleTitle": "misión: a gentle hand",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Vasilisa M. Kuznetzova",
+            "spread": [
+                12
+            ],
+            "title": "actions",
+            "key": "pellis sana",
+            "knowledge": "ccm",
+            "type": "curación",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"ccm\"><strong>Resultado  #1 \"pellis sana\" (12)</strong><span>Alivia el dolor, pero la herida permanece superficialmente abierta.</span></span></div></div></div>",
+            "url": "r22331",
+            "simpleTitle": "misión: a gentle hand",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Sloane N. Greengrass",
+            "spread": [
+                4
+            ],
+            "title": "actions",
+            "key": "pellis sana",
+            "knowledge": "ccm",
+            "type": "curación",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Sloane N. Greengrass ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"ccm\"><strong>Resultado  #1 \"pellis sana\" (4)</strong><span>La herida se cierra parcialmente, permitiendo al animal moverse sin dolor.<br>[PENALIDAD] El dado actua como \"2\" por Maldición Greengrass. Adicionalmente, el personaje pierde 4 PV de sus puntos de vida máximos.</span></span></div></div></div>",
+            "url": "r22393",
+            "simpleTitle": "misión: a gentle hand",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                11
+            ],
+            "title": "actions",
+            "key": "pellis sana",
+            "knowledge": "ccm",
+            "type": "curación",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"ccm\"><strong>Resultado  #1 \"pellis sana\" (11)</strong><span>La herida se cierra parcialmente, permitiendo al animal moverse sin dolor.</span></span></div></div></div>",
+            "url": "r22410",
+            "simpleTitle": "misión: a gentle hand",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                7
+            ],
+            "title": "actions",
+            "key": "vocatus arcanus",
+            "knowledge": "ccm",
+            "type": "encantamiento, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"ccm\"><strong>Resultado  #1 \"vocatus arcanus\" (7)</strong><span>La llamada apenas resuena en la mente de la criatura; esta la percibe pero no reacciona.</span></span></div></div></div>",
+            "url": "r22432",
+            "simpleTitle": "misión: a gentle hand",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Vasilisa M. Kuznetzova",
+            "spread": [
+                4
+            ],
+            "title": "actions",
+            "key": "ir de la cocina al hall",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">4</span></div></div></div>",
+            "url": "r22543",
+            "simpleTitle": "misión: a gentle hand",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Sloane N. Greengrass",
+            "spread": [
+                7
+            ],
+            "title": "actions",
+            "key": "ir del hall al laboratorio",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Sloane N. Greengrass ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">7</span></div></div></div>",
+            "url": "r22605",
+            "simpleTitle": "misión: a gentle hand",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                1
+            ],
+            "title": "actions",
+            "key": "ir del laboratorio al segundo piso",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">1</span></div></div></div>",
+            "url": "r22734",
+            "simpleTitle": "misión: a gentle hand",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                16
+            ],
+            "title": "actions",
+            "key": "nidus tutela",
+            "knowledge": "ccm",
+            "type": "encantamiento, defensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"ccm\"><strong>Resultado  #1 \"nidus tutela\" (16)</strong><span>La barrera repele intrusos menores, aunque un ataque decidido podría atravesarla. Adiciona <em>+9</em> (50% del conocimiento en CCM) en defensa.</span></span></div></div></div>",
+            "url": "r22764",
+            "simpleTitle": "misión: a gentle hand",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Minerva E. McGonagall",
+            "spread": [
+                12
+            ],
+            "title": "actions",
+            "key": "parsialis",
+            "knowledge": "animagia",
+            "type": "habilidad, sin magia, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"animagia\"><strong>Resultado  #1 \"parsialis\" (12)</strong><span>Puede combinar múltiples cambios al mismo tiempo sin perder el control de la transformación.</span></span></div></div></div>",
+            "url": "r16576",
+            "simpleTitle": "walking on ice",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                6
+            ],
+            "title": "actions",
+            "key": "oculus auri",
+            "knowledge": "duendes",
+            "type": "habilidad, sin magia, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Montgomery Thatch ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"duendes\"><strong>Resultado  #1 \"oculus auri\" (6)</strong><span>Puede ver a través de ilusiones y detectar incluso artefactos protegidos con magia avanzada.</span></span></div></div></div>",
+            "url": "r16705",
+            "simpleTitle": "walking on ice",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                19
+            ],
+            "title": "actions",
+            "key": "dissendium",
+            "knowledge": "encantamientos",
+            "type": "encantamiento, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Montgomery Thatch ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"dissendium\" (19)</strong><span>El pasadizo se revela por completo.</span></span></div></div></div>",
+            "url": "r17146",
+            "simpleTitle": "walking on ice",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Minerva E. McGonagall",
+            "spread": [
+                8
+            ],
+            "title": "actions",
+            "key": "lumos",
+            "knowledge": "encantamientos",
+            "type": "encantamiento, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"lumos\" (8)</strong><span>La luz ilumina con claridad y buen alcance.</span></span></div></div></div>",
+            "url": "r18204",
+            "simpleTitle": "walking on ice",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                13
+            ],
+            "title": "actions",
+            "key": "incísio fúndito",
+            "knowledge": "runas antiguas",
+            "type": "encantamiento, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Montgomery Thatch ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"runas antiguas\"><strong>Resultado  #1 \"incísio fúndito\" (13)</strong><span>La runa se graba correctamente, logrando los efectos deseados.</span></span></div></div></div>",
+            "url": "r18982",
+            "simpleTitle": "walking on ice",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Minerva E. McGonagall",
+            "spread": [
+                9
+            ],
+            "title": "actions",
+            "key": "tergeo",
+            "knowledge": "encantamientos",
+            "type": "encantamiento, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"tergeo\" (9)</strong><span>Elimina por completo cualquier sustancia indeseada.</span></span></div></div></div>",
+            "url": "r19381",
+            "simpleTitle": "walking on ice",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                17
+            ],
+            "title": "actions",
+            "key": "deletio runicum",
+            "knowledge": "runas antiguas",
+            "type": "contrahechizo, encantamiento, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Montgomery Thatch ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"runas antiguas\"><strong>Resultado  #1 \"deletio runicum\" (17)</strong><span>Elimina la runa en su totalidad junto con sus efectos, dejando la superficie sin rastros de la misma.</span></span></div></div></div>",
+            "url": "r19390",
+            "simpleTitle": "walking on ice",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Minerva E. McGonagall",
+            "spread": [
+                6
+            ],
+            "title": "actions",
+            "key": "incísio fúndito",
+            "knowledge": "runas antiguas",
+            "type": "encantamiento, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"runas antiguas\"><strong>Resultado  #1 \"incísio fúndito\" (6)</strong><span>La runa se graba, sin embargo, sus efectos son leves.</span></span></div></div></div>",
+            "url": "r19767",
+            "simpleTitle": "walking on ice",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Minerva E. McGonagall",
+            "spread": [
+                4
+            ],
+            "title": "actions",
+            "key": "incísio fúndito",
+            "knowledge": "runas antiguas",
+            "type": "encantamiento, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"runas antiguas\"><strong>Resultado  #1 \"incísio fúndito\" (4)</strong><span>La runa se graba, sin embargo, sus efectos son leves.</span></span></div></div></div>",
+            "url": "r20149",
+            "simpleTitle": "walking on ice",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                11
+            ],
+            "title": "actions",
+            "key": "incísio fúndito",
+            "knowledge": "runas antiguas",
+            "type": "encantamiento, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Montgomery Thatch ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"runas antiguas\"><strong>Resultado  #1 \"incísio fúndito\" (11)</strong><span>La runa se graba correctamente, logrando los efectos deseados.</span></span></div></div></div>",
+            "url": "r20642",
+            "simpleTitle": "walking on ice",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Minerva E. McGonagall",
+            "spread": [
+                6
+            ],
+            "title": "actions",
+            "key": "engorgio",
+            "knowledge": "encantamientos",
+            "type": "encantamiento, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"engorgio\" (6)</strong><span>El objetivo se expande significativamente y mantiene su nuevo tamaño hasta que se revierta el efecto.</span></span></div></div></div>",
+            "url": "r21484",
+            "simpleTitle": "walking on ice",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                18
+            ],
+            "title": "actions",
+            "key": "calidus flammus",
+            "knowledge": "transformaciones",
+            "type": "transfiguración, defensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Montgomery Thatch ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"transformaciones\"><strong>Resultado  #1 \"calidus flammus\" (18)</strong><span>El fuego se transforma completamente en una fuente de calor reconfortante. Adiciona en defensa <em>+7</em> (75% del conocimiento en TRANSFORMACIONES) puntos de Transformaciones.</span></span></div></div></div>",
+            "url": "r21556",
+            "simpleTitle": "walking on ice",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Minerva E. McGonagall",
+            "spread": [
+                3
+            ],
+            "title": "actions",
+            "key": "incísio fúndito",
+            "knowledge": "runas antiguas",
+            "type": "encantamiento, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"runas antiguas\"><strong>Resultado  #1 \"incísio fúndito\" (3)</strong><span>La runa se graba, sin embargo, sus efectos son leves.</span></span></div></div></div>",
+            "url": "r21980",
+            "simpleTitle": "walking on ice",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                9
+            ],
+            "title": "actions",
+            "key": "calidus flammus",
+            "knowledge": "transformaciones",
+            "type": "transfiguración, defensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Montgomery Thatch ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"transformaciones\"><strong>Resultado  #1 \"calidus flammus\" (9)</strong><span>El fuego se vuelve tibio y deja de causar daño. Reduce en <em>+5</em> (50% del conocimiento en TRANSFORMACIONES) el daño enemigo.</span></span></div></div></div>",
+            "url": "r22248",
+            "simpleTitle": "walking on ice",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                2
+            ],
+            "title": "felix felicis",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-felix-felicis\"><span>Jupiter Merrythought ha lanzado los dados \"felix felicis\"</span><div class=\"dice-results\"><span class=\"roll-result nro2\"><i class=\"fa-solid fa-sparkles\"></i>Se nota que sabes lo que estás haciendo, o Félix lo sabe.</span></div></div></div>",
+            "url": "r18182",
+            "simpleTitle": "¿qué hacen las estrellas?",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Ruaan S. Patil",
+            "spread": [
+                7
+            ],
+            "title": "actions",
+            "key": "manus umbrarum",
+            "knowledge": "contrabando",
+            "type": "encantamiento, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Ruaan S. Patil ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"contrabando\"><strong>Resultado  #1 \"manus umbrarum\" (7)</strong><span>La mano roba con gran precisión y se desvanece sin rastro.</span></span></div></div></div>",
+            "url": "r19044",
+            "simpleTitle": "you hold your ground",
             "space": "el pensadero"
         }
     ];
