@@ -20,8 +20,8 @@ const DBModule = (function () {
         { name: "prácticas del sistema", path: "/f35-practicas-del-sistema" }
     ];
 
-    const CACHE_KEY = 'blackwave_db_cache_v7';
-    const INDEX_KEY = 'current_index_blackwave_v7';
+    const CACHE_KEY = 'blackwave_db_cache_v8';
+    const INDEX_KEY = 'current_index_blackwave_v8';
     const CACHE_DURATION = 2 * 60 * 60 * 1000;
 
     const hardcodedTopics = {
@@ -116427,22 +116427,31 @@ const DBModule = (function () {
             const topicKey = extractTopicKey(fullUrl);
             if (!topicKey) continue;
 
-            const existingTopic = (typeof hardcodedTopics !== 'undefined' && hardcodedTopics[topicKey]) || dynamicData.topics[topicKey];
+            // Los temas hardcodeados están cerrados/archivados para siempre: no se vuelven a tocar.
+            // El chequeo de "¿cambió la cantidad de respuestas?" solo aplica a los temas
+            // que siguen vivos en dynamicData.
+            const hardcodedTopic = typeof hardcodedTopics !== 'undefined' && hardcodedTopics[topicKey];
+            const dynamicTopic = dynamicData.topics[topicKey];
 
             // Cantidad de respuestas que el listado del foro muestra AHORA para este tema
             const replyText = $(element).find('.topic-replies').text();
             const replyMatch = replyText.match(/(\d+)/);
             const liveReplyCount = replyMatch ? parseInt(replyMatch[1], 10) : null;
 
-            // Temas guardados antes de este cambio no tienen replyCount todavía: los tratamos
-            // como 0 para que la comparación de abajo dé "distinto" y se re-escaneen una vez,
-            // dejando el dato real guardado para la próxima corrida.
-            const savedReplyCount = existingTopic?.replyCount ?? 0;
-
-            // Si forceRescan es true, la magia ignora todo y lee el tema sí o sí.
-            // Si ya lo teníamos guardado, solo lo saltamos cuando la cantidad de respuestas
-            // no cambió desde el último escaneo (o cuando no pudimos leerla, para no romper nada).
-            const isSaved = !forceRescan && existingTopic && (liveReplyCount === null || savedReplyCount === liveReplyCount);
+            let isSaved;
+            if (forceRescan) {
+                isSaved = false;
+            } else if (hardcodedTopic) {
+                isSaved = true;
+            } else if (dynamicTopic) {
+                // Temas guardados antes de este cambio no tienen replyCount todavía: los tratamos
+                // como 0 para que la comparación dé "distinto" y se re-escaneen una vez,
+                // dejando el dato real guardado para la próxima corrida.
+                const savedReplyCount = dynamicTopic.replyCount ?? 0;
+                isSaved = liveReplyCount === null || savedReplyCount === liveReplyCount;
+            } else {
+                isSaved = false;
+            }
 
             if (!isSaved) {
                 console.log(`Analizando tema: ${$link.text()}`);
@@ -116455,9 +116464,9 @@ const DBModule = (function () {
                     posts: []
                 };
                 await scanTopicPosts(fullUrl, $link.text());
-            } else if (existingTopic.replyCount === undefined && liveReplyCount !== null) {
+            } else if (dynamicTopic && dynamicTopic.replyCount === undefined && liveReplyCount !== null) {
                 // Tema guardado antes de este cambio, con 0 respuestas reales: completamos el dato sin re-escanear
-                existingTopic.replyCount = liveReplyCount;
+                dynamicTopic.replyCount = liveReplyCount;
             }
         }
 
