@@ -5209,7 +5209,7 @@ const MissionsModule = (function () {
         // estamos acá
         "encontrar el arcón": {
           "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "reparar la escalera",
-          "cont": '<span>Abajo, el aire huele a tierra húmeda y a algo más viejo, casi mineral. El espacio parece haber sido, alguna vez, un taller: mesas de trabajo cubiertas de frascos rotos, marcas de tiza casi borradas en el piso de piedra, restos de velas consumidas hasta la base. En un rincón, medio oculto por la penumbra, hay un arcón de madera oscura. El cierre está trabado por el óxido, pero cede sin mayor resistencia.</span>',
+          "cont": '<span>Abajo, el aire huele a tierra húmeda y a algo más viejo, casi mineral. El espacio parece haber sido, alguna vez, un taller: mesas de trabajo cubiertas de frascos rotos, marcas de tiza casi borradas en el piso de piedra, restos de velas consumidas hasta la base. En un rincón, medio oculto por la penumbra, hay un arcón de madera oscura. El cierre está trabado por el óxido, pero cede sin mayor resistencia, dentro hay un segundo arcón cerrado, que no sede al intentar abrir.</span>',
         },
 
         "tomar la manta": {
