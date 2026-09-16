@@ -116438,6 +116438,11 @@ const DBModule = (function () {
             const replyMatch = replyText.match(/(\d+)/);
             const liveReplyCount = replyMatch ? parseInt(replyMatch[1], 10) : null;
 
+            // Un tema dinámico puede moverse de foro (ej. al cerrarse, hacia "el pensadero")
+            // sin que se le agregue ningún post nuevo: el replyCount no lo detecta solo,
+            // así que el espacio actual también cuenta como señal de cambio.
+            const movedForum = dynamicTopic && dynamicTopic.space !== forumName;
+
             let isSaved;
             if (forceRescan) {
                 isSaved = false;
@@ -116448,22 +116453,30 @@ const DBModule = (function () {
                 // como 0 para que la comparación dé "distinto" y se re-escaneen una vez,
                 // dejando el dato real guardado para la próxima corrida.
                 const savedReplyCount = dynamicTopic.replyCount ?? 0;
-                isSaved = liveReplyCount === null || savedReplyCount === liveReplyCount;
+                isSaved = !movedForum && (liveReplyCount === null || savedReplyCount === liveReplyCount);
             } else {
                 isSaved = false;
             }
 
             if (!isSaved) {
-                console.log(`Analizando tema: ${$link.text()}`);
-                dynamicData.topics[topicKey] = {
-                    space: forumName,
-                    url: fullUrl,
-                    simpleTitle: sanitizeTitle($link.text()),
-                    creator: $(element).find('.topic-started a').text(),
-                    replyCount: liveReplyCount,
-                    posts: []
-                };
-                await scanTopicPosts(fullUrl, $link.text());
+                // forceRescan (ej. scanCleanForum) pide lectura profunda a propósito: el atajo no aplica ahí.
+                const onlyMoved = !forceRescan && movedForum && liveReplyCount !== null && (dynamicTopic.replyCount ?? 0) === liveReplyCount;
+
+                if (onlyMoved) {
+                    // Solo cambió de foro, los posts siguen igual: alcanza con actualizar el espacio.
+                    dynamicTopic.space = forumName;
+                } else {
+                    console.log(`Analizando tema: ${$link.text()}`);
+                    dynamicData.topics[topicKey] = {
+                        space: forumName,
+                        url: fullUrl,
+                        simpleTitle: sanitizeTitle($link.text()),
+                        creator: $(element).find('.topic-started a').text(),
+                        replyCount: liveReplyCount,
+                        posts: []
+                    };
+                    await scanTopicPosts(fullUrl, $link.text());
+                }
             } else if (dynamicTopic && dynamicTopic.replyCount === undefined && liveReplyCount !== null) {
                 // Tema guardado antes de este cambio, con 0 respuestas reales: completamos el dato sin re-escanear
                 dynamicTopic.replyCount = liveReplyCount;
@@ -116699,10 +116712,11 @@ const DBModule = (function () {
 
             const currentForum = forums[currentIndex];
 
-            if (currentForum.name !== 'el pensadero') {
-                console.log(`[Bloque ${currentIndex + 1}/${forums.length}] Procesando: ${currentForum.name}`);
-                await scanForum(currentForum.path, currentForum.name);
-            }
+            // "el pensadero" ya no se salta: scanForum solo re-lee temas hardcodeados (nunca)
+            // o dinámicos con cambios/movimiento real, así que incluirlo acá no sale caro
+            // y evita que un tema quede "abierto" para siempre por no actualizar el hardcode a mano.
+            console.log(`[Bloque ${currentIndex + 1}/${forums.length}] Procesando: ${currentForum.name}`);
+            await scanForum(currentForum.path, currentForum.name);
 
             this.save();
             localStorage.setItem(INDEX_KEY, currentIndex + 1);
