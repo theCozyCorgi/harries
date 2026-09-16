@@ -5399,9 +5399,9 @@ const MissionsModule = (function () {
       "actions": {
         "reparo": {
           "leve": '<span>El intento apenas devuelve textura a un par de escalones; el resto de la escalera sigue liso y peligroso.</span>',
-          "moderado": '<span>La mitad de la escalera recupera su forma original; es posible bajar con cuidado, aunque el resto sigue resbaladizo.</span><adding search="encontrar el arcón" class="check-cards"></adding>',
-          "exitoso": '<span>La escalera entera recupera sus escalones originales; todos pueden bajar sin dificultad.</span><adding search="encontrar el arcón" class="check-cards"></adding>',
-          "critico": '<span>La escalera queda reforzada además de reparada: los escalones se sienten más firmes que antes de que la protección se activara, y el grupo baja sin ningún riesgo.</span><adding search="encontrar el arcón" class="check-cards"></adding>',
+          "moderado": '<span>La mitad de la escalera recupera su forma original; es posible bajar con cuidado, aunque el resto sigue resbaladizo.</span><adding search="arcón" class="check-cards"></adding>',
+          "exitoso": '<span>La escalera entera recupera sus escalones originales; todos pueden bajar sin dificultad.</span><adding search="arcón" class="check-cards"></adding>',
+          "critico": '<span>La escalera queda reforzada además de reparada: los escalones se sienten más firmes que antes de que la protección se activara, y el grupo baja sin ningún riesgo.</span><adding search="arcón" class="check-cards"></adding>',
         },
 
         "alohomora": {
