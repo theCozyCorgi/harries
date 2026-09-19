@@ -126339,10 +126339,12 @@ const DBModule = (function () {
 
             for (const roleDiv of rolesDivs) {
                 let htmlStr = $(roleDiv).html();
-                if (!htmlStr.includes('<hr>')) continue;
+                // Los posts viejos separan el encabezado con <br><br> en vez de <hr>
+                const sep = htmlStr.includes('<hr>') ? '<hr>' : '<br><br>';
+                if (!htmlStr.includes(sep)) continue;
 
-                let h = htmlStr.split('<hr>')[0];
-                let c = htmlStr.split('<hr>')[1];
+                let h = htmlStr.split(sep)[0];
+                let c = htmlStr.split(sep)[1];
 
                 let pitcher = $(h).find('strong').first().text().trim();
                 if (!pitcher) pitcher = $(roleDiv).find('strong').first().text().trim();
@@ -126361,9 +126363,12 @@ const DBModule = (function () {
                         diceTitle = rawSplit[1].toLowerCase().trim();
                     }
 
-                    // Extraemos el número del resultado
+                    // Extraemos los números del resultado: una tirada puede traer varios ('Acción' : 10, 4)
+                    const strongs = $(lc).find('strong').map(function () { return parseInt($(this).text(), 10); }).get().filter(function (n) { return !isNaN(n); });
                     let matchResult = $(lc).text().match(/:\s*(\d+)/);
-                    if (matchResult) {
+                    if (strongs.length > 0) {
+                        spread.push(...strongs);
+                    } else if (matchResult) {
                         spread.push(parseInt(matchResult[1], 10));
                     } else {
                         let nums = $(lc).text().match(/\d+/g);
