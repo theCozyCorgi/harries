@@ -47843,6 +47843,323 @@ const DBModule = (function () {
             "date": "15/04/1948",
             "location": "Cherburgo, Francia"
         },
+        "893": {
+            "space": "el pensadero",
+            "url": "/t893-1953-01-20-duelo-13-asteria-vs-neptune",
+            "simpleTitle": "duelo #13: asteria vs neptune",
+            "creator": "Black Wave",
+            "replyCount": 48,
+            "posts": [
+                {
+                    "url": "r11591",
+                    "author": "Black Wave",
+                    "date": "06/01/2026",
+                    "words": 170
+                },
+                {
+                    "url": "r11592",
+                    "author": "The Familiars",
+                    "date": "06/01/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r11993",
+                    "author": "Asteria C. Lestrange",
+                    "date": "18/01/2026",
+                    "words": 177
+                },
+                {
+                    "url": "r11994",
+                    "author": "The Familiars",
+                    "date": "18/01/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r12150",
+                    "author": "Neptune E. Merrythought",
+                    "date": "21/01/2026",
+                    "words": 155
+                },
+                {
+                    "url": "r12151",
+                    "author": "The Familiars",
+                    "date": "21/01/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r12368",
+                    "author": "Asteria C. Lestrange",
+                    "date": "27/01/2026",
+                    "words": 127
+                },
+                {
+                    "url": "r12369",
+                    "author": "The Familiars",
+                    "date": "27/01/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r12756",
+                    "author": "Neptune E. Merrythought",
+                    "date": "06/02/2026",
+                    "words": 180
+                },
+                {
+                    "url": "r12757",
+                    "author": "The Familiars",
+                    "date": "06/02/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r14090",
+                    "author": "Asteria C. Lestrange",
+                    "date": "27/02/2026",
+                    "words": 160
+                },
+                {
+                    "url": "r14091",
+                    "author": "The Familiars",
+                    "date": "27/02/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r14160",
+                    "author": "Neptune E. Merrythought",
+                    "date": "01/03/2026",
+                    "words": 175
+                },
+                {
+                    "url": "r14161",
+                    "author": "The Familiars",
+                    "date": "01/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r15188",
+                    "author": "Asteria C. Lestrange",
+                    "date": "19/03/2026",
+                    "words": 135
+                },
+                {
+                    "url": "r15189",
+                    "author": "The Familiars",
+                    "date": "19/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r15641",
+                    "author": "Neptune E. Merrythought",
+                    "date": "28/03/2026",
+                    "words": 217
+                },
+                {
+                    "url": "r15642",
+                    "author": "The Familiars",
+                    "date": "28/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16526",
+                    "author": "Asteria C. Lestrange",
+                    "date": "15/04/2026",
+                    "words": 153
+                },
+                {
+                    "url": "r16527",
+                    "author": "The Familiars",
+                    "date": "15/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r11591",
+                    "author": "Black Wave",
+                    "date": "06/01/2026",
+                    "words": 170
+                },
+                {
+                    "url": "r16995",
+                    "author": "Neptune E. Merrythought",
+                    "date": "26/04/2026",
+                    "words": 142
+                },
+                {
+                    "url": "r16996",
+                    "author": "The Familiars",
+                    "date": "26/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r18648",
+                    "author": "Asteria C. Lestrange",
+                    "date": "19/05/2026",
+                    "words": 157
+                },
+                {
+                    "url": "r18649",
+                    "author": "The Familiars",
+                    "date": "19/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r18667",
+                    "author": "Neptune E. Merrythought",
+                    "date": "19/05/2026",
+                    "words": 134
+                },
+                {
+                    "url": "r18668",
+                    "author": "The Familiars",
+                    "date": "19/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r19340",
+                    "author": "Asteria C. Lestrange",
+                    "date": "31/05/2026",
+                    "words": 112
+                },
+                {
+                    "url": "r19341",
+                    "author": "The Familiars",
+                    "date": "31/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r19561",
+                    "author": "Neptune E. Merrythought",
+                    "date": "03/06/2026",
+                    "words": 212
+                },
+                {
+                    "url": "r19562",
+                    "author": "The Familiars",
+                    "date": "03/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20207",
+                    "author": "Asteria C. Lestrange",
+                    "date": "25/06/2026",
+                    "words": 124
+                },
+                {
+                    "url": "r20208",
+                    "author": "The Familiars",
+                    "date": "25/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20471",
+                    "author": "Neptune E. Merrythought",
+                    "date": "03/07/2026",
+                    "words": 161
+                },
+                {
+                    "url": "r20472",
+                    "author": "The Familiars",
+                    "date": "03/07/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20622",
+                    "author": "Asteria C. Lestrange",
+                    "date": "10/07/2026",
+                    "words": 189
+                },
+                {
+                    "url": "r20623",
+                    "author": "The Familiars",
+                    "date": "10/07/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21600",
+                    "author": "Neptune E. Merrythought",
+                    "date": "09/08/2026",
+                    "words": 172
+                },
+                {
+                    "url": "r21601",
+                    "author": "The Familiars",
+                    "date": "09/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22131",
+                    "author": "Asteria C. Lestrange",
+                    "date": "23/08/2026",
+                    "words": 222
+                },
+                {
+                    "url": "r22132",
+                    "author": "The Familiars",
+                    "date": "23/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r11591",
+                    "author": "Black Wave",
+                    "date": "06/01/2026",
+                    "words": 170
+                },
+                {
+                    "url": "r22316",
+                    "author": "Neptune E. Merrythought",
+                    "date": "30/08/2026",
+                    "words": 162
+                },
+                {
+                    "url": "r22317",
+                    "author": "The Familiars",
+                    "date": "30/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22546",
+                    "author": "Asteria C. Lestrange",
+                    "date": "06/09/2026",
+                    "words": 181
+                },
+                {
+                    "url": "r22547",
+                    "author": "The Familiars",
+                    "date": "06/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22591",
+                    "author": "Neptune E. Merrythought",
+                    "date": "06/09/2026",
+                    "words": 165
+                },
+                {
+                    "url": "r22592",
+                    "author": "The Familiars",
+                    "date": "06/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r23050",
+                    "author": "Asteria C. Lestrange",
+                    "date": "Ayer a las 5:29",
+                    "words": 143
+                },
+                {
+                    "url": "r23051",
+                    "author": "The Familiars",
+                    "date": "Ayer a las 5:29",
+                    "words": 0
+                },
+                {
+                    "url": "r23106",
+                    "author": "Black Wave",
+                    "date": "Hoy a las 2:21",
+                    "words": 117
+                }
+            ],
+            "date": "20/01/1953",
+            "location": "Club de Duelos"
+        },
         "894": {
             "space": "el pensadero",
             "url": "/t894-1953-01-21-duelo-14-findlay-vs-minerva",
@@ -63722,6 +64039,197 @@ const DBModule = (function () {
             "date": "15/03/1953",
             "location": "Hogsmeade, Las Tres Escobas"
         },
+        "1151": {
+            "space": "el pensadero",
+            "url": "/t1151-1953-03-11-practica-winds-of-change",
+            "simpleTitle": "práctica: winds of change",
+            "creator": "Findlay McCrory",
+            "replyCount": 28,
+            "posts": [
+                {
+                    "url": "r16384",
+                    "author": "Findlay McCrory",
+                    "date": "12/04/2026",
+                    "words": 200
+                },
+                {
+                    "url": "r16873",
+                    "author": "Neptune E. Merrythought",
+                    "date": "23/04/2026",
+                    "words": 303
+                },
+                {
+                    "url": "r17050",
+                    "author": "Findlay McCrory",
+                    "date": "27/04/2026",
+                    "words": 336
+                },
+                {
+                    "url": "r17427",
+                    "author": "Neptune E. Merrythought",
+                    "date": "02/05/2026",
+                    "words": 262
+                },
+                {
+                    "url": "r18045",
+                    "author": "Findlay McCrory",
+                    "date": "10/05/2026",
+                    "words": 326
+                },
+                {
+                    "url": "r18046",
+                    "author": "The Familiars",
+                    "date": "10/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r18651",
+                    "author": "Neptune E. Merrythought",
+                    "date": "19/05/2026",
+                    "words": 226
+                },
+                {
+                    "url": "r18652",
+                    "author": "The Familiars",
+                    "date": "19/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r19150",
+                    "author": "Findlay McCrory",
+                    "date": "28/05/2026",
+                    "words": 291
+                },
+                {
+                    "url": "r19151",
+                    "author": "The Familiars",
+                    "date": "28/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r19564",
+                    "author": "Neptune E. Merrythought",
+                    "date": "03/06/2026",
+                    "words": 306
+                },
+                {
+                    "url": "r19565",
+                    "author": "The Familiars",
+                    "date": "03/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r19754",
+                    "author": "Findlay McCrory",
+                    "date": "09/06/2026",
+                    "words": 285
+                },
+                {
+                    "url": "r19755",
+                    "author": "The Familiars",
+                    "date": "09/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20011",
+                    "author": "Neptune E. Merrythought",
+                    "date": "18/06/2026",
+                    "words": 272
+                },
+                {
+                    "url": "r20012",
+                    "author": "The Familiars",
+                    "date": "18/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20122",
+                    "author": "Findlay McCrory",
+                    "date": "22/06/2026",
+                    "words": 328
+                },
+                {
+                    "url": "r20123",
+                    "author": "The Familiars",
+                    "date": "22/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20489",
+                    "author": "Neptune E. Merrythought",
+                    "date": "04/07/2026",
+                    "words": 231
+                },
+                {
+                    "url": "r20490",
+                    "author": "The Familiars",
+                    "date": "04/07/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16384",
+                    "author": "Findlay McCrory",
+                    "date": "12/04/2026",
+                    "words": 200
+                },
+                {
+                    "url": "r20609",
+                    "author": "Findlay McCrory",
+                    "date": "09/07/2026",
+                    "words": 339
+                },
+                {
+                    "url": "r20610",
+                    "author": "The Familiars",
+                    "date": "09/07/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21605",
+                    "author": "Neptune E. Merrythought",
+                    "date": "09/08/2026",
+                    "words": 332
+                },
+                {
+                    "url": "r21606",
+                    "author": "The Familiars",
+                    "date": "09/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22424",
+                    "author": "Findlay McCrory",
+                    "date": "02/09/2026",
+                    "words": 252
+                },
+                {
+                    "url": "r22425",
+                    "author": "The Familiars",
+                    "date": "02/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22898",
+                    "author": "Neptune E. Merrythought",
+                    "date": "14/09/2026",
+                    "words": 230
+                },
+                {
+                    "url": "r22899",
+                    "author": "The Familiars",
+                    "date": "14/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22986",
+                    "author": "Findlay McCrory",
+                    "date": "16/09/2026",
+                    "words": 209
+                }
+            ],
+            "date": "11/03/1953",
+            "location": "Campo de Quidditch"
+        },
         "1154": {
             "space": "el pensadero",
             "url": "/t1154-1953-04-02-evento-futuros-lideres-arcturus",
@@ -72542,6 +73050,431 @@ const DBModule = (function () {
                     "url": "r21811",
                     "author": "Black Wave",
                     "date": "Ayer a las 2:51",
+                    "words": 32
+                }
+            ],
+            "date": "02/05/1953",
+            "location": "Bosque Prohibido"
+        },
+        "1305": {
+            "space": "el pensadero",
+            "url": "/t1305-1953-05-02-evento-atrapa-la-bandera-grupo-celeste",
+            "simpleTitle": "evento: atrapa la bandera - grupo celeste",
+            "creator": "Black Wave",
+            "replyCount": 65,
+            "posts": [
+                {
+                    "url": "r19946",
+                    "author": "Black Wave",
+                    "date": "16/06/2026",
+                    "words": 347
+                },
+                {
+                    "url": "r20005",
+                    "author": "Hankford B. Diggory",
+                    "date": "17/06/2026",
+                    "words": 180
+                },
+                {
+                    "url": "r20006",
+                    "author": "The Familiars",
+                    "date": "17/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20008",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "17/06/2026",
+                    "words": 168
+                },
+                {
+                    "url": "r20009",
+                    "author": "The Familiars",
+                    "date": "17/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20016",
+                    "author": "Invitado",
+                    "date": "18/06/2026",
+                    "words": 252
+                },
+                {
+                    "url": "r20017",
+                    "author": "The Familiars",
+                    "date": "18/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20047",
+                    "author": "Jasper R. Gryffith",
+                    "date": "18/06/2026",
+                    "words": 225
+                },
+                {
+                    "url": "r20048",
+                    "author": "The Familiars",
+                    "date": "18/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20064",
+                    "author": "Invitado",
+                    "date": "19/06/2026",
+                    "words": 193
+                },
+                {
+                    "url": "r20065",
+                    "author": "The Familiars",
+                    "date": "19/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20136",
+                    "author": "Hankford B. Diggory",
+                    "date": "23/06/2026",
+                    "words": 207
+                },
+                {
+                    "url": "r20137",
+                    "author": "The Familiars",
+                    "date": "23/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20213",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "25/06/2026",
+                    "words": 157
+                },
+                {
+                    "url": "r20214",
+                    "author": "The Familiars",
+                    "date": "25/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20272",
+                    "author": "Invitado",
+                    "date": "27/06/2026",
+                    "words": 164
+                },
+                {
+                    "url": "r20273",
+                    "author": "The Familiars",
+                    "date": "27/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20416",
+                    "author": "Jasper R. Gryffith",
+                    "date": "01/07/2026",
+                    "words": 175
+                },
+                {
+                    "url": "r20417",
+                    "author": "The Familiars",
+                    "date": "01/07/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20430",
+                    "author": "Hankford B. Diggory",
+                    "date": "02/07/2026",
+                    "words": 367
+                },
+                {
+                    "url": "r19946",
+                    "author": "Black Wave",
+                    "date": "16/06/2026",
+                    "words": 347
+                },
+                {
+                    "url": "r20431",
+                    "author": "The Familiars",
+                    "date": "02/07/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20473",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "03/07/2026",
+                    "words": 132
+                },
+                {
+                    "url": "r20474",
+                    "author": "The Familiars",
+                    "date": "03/07/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20571",
+                    "author": "Invitado",
+                    "date": "06/07/2026",
+                    "words": 197
+                },
+                {
+                    "url": "r20572",
+                    "author": "The Familiars",
+                    "date": "06/07/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20597",
+                    "author": "Jasper R. Gryffith",
+                    "date": "08/07/2026",
+                    "words": 216
+                },
+                {
+                    "url": "r20598",
+                    "author": "The Familiars",
+                    "date": "08/07/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20721",
+                    "author": "Hankford B. Diggory",
+                    "date": "14/07/2026",
+                    "words": 230
+                },
+                {
+                    "url": "r20722",
+                    "author": "The Familiars",
+                    "date": "14/07/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20801",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "16/07/2026",
+                    "words": 182
+                },
+                {
+                    "url": "r20802",
+                    "author": "The Familiars",
+                    "date": "16/07/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20840",
+                    "author": "Invitado",
+                    "date": "17/07/2026",
+                    "words": 222
+                },
+                {
+                    "url": "r20841",
+                    "author": "The Familiars",
+                    "date": "17/07/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20895",
+                    "author": "Jasper R. Gryffith",
+                    "date": "19/07/2026",
+                    "words": 202
+                },
+                {
+                    "url": "r20896",
+                    "author": "The Familiars",
+                    "date": "19/07/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21060",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "27/07/2026",
+                    "words": 167
+                },
+                {
+                    "url": "r21061",
+                    "author": "The Familiars",
+                    "date": "27/07/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21370",
+                    "author": "Jasper R. Gryffith",
+                    "date": "03/08/2026",
+                    "words": 199
+                },
+                {
+                    "url": "r21371",
+                    "author": "The Familiars",
+                    "date": "03/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21460",
+                    "author": "Hankford B. Diggory",
+                    "date": "04/08/2026",
+                    "words": 194
+                },
+                {
+                    "url": "r19946",
+                    "author": "Black Wave",
+                    "date": "16/06/2026",
+                    "words": 347
+                },
+                {
+                    "url": "r21461",
+                    "author": "The Familiars",
+                    "date": "04/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21541",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "08/08/2026",
+                    "words": 196
+                },
+                {
+                    "url": "r21542",
+                    "author": "The Familiars",
+                    "date": "08/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21668",
+                    "author": "Jasper R. Gryffith",
+                    "date": "10/08/2026",
+                    "words": 204
+                },
+                {
+                    "url": "r21669",
+                    "author": "The Familiars",
+                    "date": "10/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21757",
+                    "author": "Hankford B. Diggory",
+                    "date": "13/08/2026",
+                    "words": 198
+                },
+                {
+                    "url": "r21758",
+                    "author": "The Familiars",
+                    "date": "13/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21759",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "13/08/2026",
+                    "words": 119
+                },
+                {
+                    "url": "r21760",
+                    "author": "The Familiars",
+                    "date": "13/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21992",
+                    "author": "Jasper R. Gryffith",
+                    "date": "19/08/2026",
+                    "words": 153
+                },
+                {
+                    "url": "r21993",
+                    "author": "The Familiars",
+                    "date": "19/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22000",
+                    "author": "Hankford B. Diggory",
+                    "date": "20/08/2026",
+                    "words": 165
+                },
+                {
+                    "url": "r22001",
+                    "author": "The Familiars",
+                    "date": "20/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22116",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "23/08/2026",
+                    "words": 109
+                },
+                {
+                    "url": "r22117",
+                    "author": "The Familiars",
+                    "date": "23/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22336",
+                    "author": "Jasper R. Gryffith",
+                    "date": "31/08/2026",
+                    "words": 171
+                },
+                {
+                    "url": "r22337",
+                    "author": "The Familiars",
+                    "date": "31/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22596",
+                    "author": "Hankford B. Diggory",
+                    "date": "06/09/2026",
+                    "words": 233
+                },
+                {
+                    "url": "r22597",
+                    "author": "The Familiars",
+                    "date": "06/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22621",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "07/09/2026",
+                    "words": 148
+                },
+                {
+                    "url": "r19946",
+                    "author": "Black Wave",
+                    "date": "16/06/2026",
+                    "words": 347
+                },
+                {
+                    "url": "r22622",
+                    "author": "The Familiars",
+                    "date": "07/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22812",
+                    "author": "Jasper R. Gryffith",
+                    "date": "13/09/2026",
+                    "words": 206
+                },
+                {
+                    "url": "r22813",
+                    "author": "The Familiars",
+                    "date": "13/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22947",
+                    "author": "Hankford B. Diggory",
+                    "date": "15/09/2026",
+                    "words": 195
+                },
+                {
+                    "url": "r22948",
+                    "author": "The Familiars",
+                    "date": "15/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r23110",
+                    "author": "Black Wave",
+                    "date": "Hoy a las 2:41",
                     "words": 32
                 }
             ],
@@ -119126,6 +120059,958 @@ const DBModule = (function () {
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Ruaan S. Patil ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"contrabando\"><strong>Resultado  #1 \"manus umbrarum\" (7)</strong><span>La mano roba con gran precisión y se desvanece sin rastro.</span></span></div></div></div>",
             "url": "r19044",
             "simpleTitle": "you hold your ground",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Hankford B. Diggory",
+            "spread": [
+                15
+            ],
+            "title": "actions",
+            "key": "largada",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Hankford B. Diggory ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">15</span></div></div></div>",
+            "url": "r20006",
+            "simpleTitle": "evento: atrapa la bandera - grupo celeste",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Vasilisa M. Kuznetzova",
+            "spread": [
+                6
+            ],
+            "title": "actions",
+            "key": "paso #1: ir al sur",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">6</span></div></div></div>",
+            "url": "r20009",
+            "simpleTitle": "evento: atrapa la bandera - grupo celeste",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Mercury Merrythought",
+            "spread": [
+                20
+            ],
+            "title": "actions",
+            "key": "reducio",
+            "knowledge": "encantamientos",
+            "type": "encantamiento, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Mercury Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"reducio\" (20)</strong><span>No sucede nada, capaz este hechizo no es para ti.</span></span></div></div></div>",
+            "url": "r20017",
+            "simpleTitle": "evento: atrapa la bandera - grupo celeste",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jasper R. Gryffith",
+            "spread": [
+                16
+            ],
+            "title": "actions",
+            "key": "validar paso #1 dirección sur",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jasper R. Gryffith ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">16</span></div></div></div>",
+            "url": "r20048",
+            "simpleTitle": "evento: atrapa la bandera - grupo celeste",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Gareth D. Yaxley",
+            "spread": [
+                4
+            ],
+            "title": "actions",
+            "key": "paso #2: ir al sur",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Gareth D. Yaxley ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">4</span></div></div></div>",
+            "url": "r20065",
+            "simpleTitle": "evento: atrapa la bandera - grupo celeste",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Hankford B. Diggory",
+            "spread": [
+                10
+            ],
+            "title": "creatures",
+            "key": "tebo",
+            "knowledge": "criaturas",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Hankford B. Diggory ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"tebo\" (10)</strong><ataque>Aparece de la nada y golpea con violencia. Adiciona +9 en Ataque.</ataque><defensa>Se hace invisible justo antes del golpe. Adiciona +7 en la Defensa.</defensa></span></div></div></div>",
+            "url": "r20137",
+            "simpleTitle": "evento: atrapa la bandera - grupo celeste",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Vasilisa M. Kuznetzova",
+            "spread": [
+                20
+            ],
+            "title": "creatures",
+            "key": "tebo",
+            "knowledge": "criaturas",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"tebo\" (20)</strong><ataque>Golpea con invisibilidad total y fuerza imparable. Adiciona +11 en Ataque.</ataque><defensa>Desaparece del plano físico y evade todo daño. No recibe daño.</defensa></span></div></div></div>",
+            "url": "r20214",
+            "simpleTitle": "evento: atrapa la bandera - grupo celeste",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Mercury Merrythought",
+            "spread": [
+                16
+            ],
+            "title": "creatures",
+            "key": "tebo",
+            "knowledge": "criaturas",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Mercury Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"tebo\" (16)</strong><ataque>Aparece de la nada y golpea con violencia. Adiciona +9 en Ataque.</ataque><defensa>Se hace invisible justo antes del golpe. Adiciona +7 en la Defensa.</defensa></span></div></div></div>",
+            "url": "r20273",
+            "simpleTitle": "evento: atrapa la bandera - grupo celeste",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jasper R. Gryffith",
+            "spread": [
+                9
+            ],
+            "title": "creatures",
+            "key": "tebo",
+            "knowledge": "criaturas",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jasper R. Gryffith ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"tebo\" (9)</strong><ataque>Carga usando su fuerza bruta. Adiciona +7 en Ataque.</ataque><defensa>Se difumina, reduciendo el daño recibido. Adiciona +5 en la Defensa.</defensa></span></div></div></div>",
+            "url": "r20417",
+            "simpleTitle": "evento: atrapa la bandera - grupo celeste",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Hankford B. Diggory",
+            "spread": [
+                13
+            ],
+            "title": "actions",
+            "key": "fulgari",
+            "knowledge": "dcao",
+            "type": "maleficio, ofensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Hankford B. Diggory ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"fulgari\" (13)</strong><span>Las cuerdas atan firmemente al objetivo, restringiendo su movimiento. Incapacita todas las acciones de la víctima hasta que no se la libere.</span></span></div></div></div>",
+            "url": "r20431",
+            "simpleTitle": "evento: atrapa la bandera - grupo celeste",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Vasilisa M. Kuznetzova",
+            "spread": [
+                8
+            ],
+            "title": "creatures",
+            "key": "tebo",
+            "knowledge": "criaturas",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"tebo\" (8)</strong><ataque>Carga usando su fuerza bruta. Adiciona +7 en Ataque.</ataque><defensa>Se difumina, reduciendo el daño recibido. Adiciona +5 en la Defensa.</defensa></span></div></div></div>",
+            "url": "r20474",
+            "simpleTitle": "evento: atrapa la bandera - grupo celeste",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Mercury Merrythought",
+            "spread": [
+                4
+            ],
+            "title": "creatures",
+            "key": "tebo",
+            "knowledge": "criaturas",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Mercury Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"tebo\" (4)</strong><ataque>Carga usando su fuerza bruta. Adiciona +7 en Ataque.</ataque><defensa>Se difumina, reduciendo el daño recibido. Adiciona +5 en la Defensa.</defensa></span></div></div></div>",
+            "url": "r20572",
+            "simpleTitle": "evento: atrapa la bandera - grupo celeste",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jasper R. Gryffith",
+            "spread": [
+                15
+            ],
+            "title": "actions",
+            "key": "validar paso #2 dirección sur",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jasper R. Gryffith ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">15</span></div></div></div>",
+            "url": "r20598",
+            "simpleTitle": "evento: atrapa la bandera - grupo celeste",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Hankford B. Diggory",
+            "spread": [
+                8
+            ],
+            "title": "actions",
+            "key": "regresar a paso #2",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Hankford B. Diggory ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">8</span></div></div></div>",
+            "url": "r20722",
+            "simpleTitle": "evento: atrapa la bandera - grupo celeste",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Vasilisa M. Kuznetzova",
+            "spread": [
+                19
+            ],
+            "title": "actions",
+            "key": "paso #2: ir al este",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">19</span></div></div></div>",
+            "url": "r20802",
+            "simpleTitle": "evento: atrapa la bandera - grupo celeste",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Mercury Merrythought",
+            "spread": [
+                9
+            ],
+            "title": "actions",
+            "key": "noctis luminis",
+            "knowledge": "astronomía",
+            "type": "encantamiento, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Mercury Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"astronomía\"><strong>Resultado  #1 \"noctis luminis\" (9)</strong><span>No sucede nada, capaz este hechizo no es para ti.</span></span></div></div></div>",
+            "url": "r20841",
+            "simpleTitle": "evento: atrapa la bandera - grupo celeste",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jasper R. Gryffith",
+            "spread": [
+                19
+            ],
+            "title": "actions",
+            "key": "noctis luminis",
+            "knowledge": "astronomía",
+            "type": "encantamiento, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jasper R. Gryffith ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"astronomía\"><strong>Resultado  #1 \"noctis luminis\" (19)</strong><span>Apenas atenúa la luz ambiental, lo suficiente para poder apreciar mejoras a simple vista.</span></span></div></div></div>",
+            "url": "r20896",
+            "simpleTitle": "evento: atrapa la bandera - grupo celeste",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Vasilisa M. Kuznetzova",
+            "spread": [
+                11
+            ],
+            "title": "actions",
+            "key": "noctis luminis",
+            "knowledge": "astronomía",
+            "type": "encantamiento, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"astronomía\"><strong>Resultado  #1 \"noctis luminis\" (11)</strong><span>Oscurece significativamente el entorno, permitiendo una mejora en la visualización de astros.</span></span></div></div></div>",
+            "url": "r21061",
+            "simpleTitle": "evento: atrapa la bandera - grupo celeste",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jasper R. Gryffith",
+            "spread": [
+                7
+            ],
+            "title": "actions",
+            "key": "validar paso #2 dirección este",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jasper R. Gryffith ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">7</span></div></div></div>",
+            "url": "r21371",
+            "simpleTitle": "evento: atrapa la bandera - grupo celeste",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Hankford B. Diggory",
+            "spread": [
+                15
+            ],
+            "title": "actions",
+            "key": "paso #3: ir al este",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Hankford B. Diggory ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">15</span></div></div></div>",
+            "url": "r21461",
+            "simpleTitle": "evento: atrapa la bandera - grupo celeste",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Vasilisa M. Kuznetzova",
+            "spread": [
+                18
+            ],
+            "title": "actions",
+            "key": "flipendo",
+            "knowledge": "dcao",
+            "type": "maleficio, ofensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"flipendo\" (18)</strong><span>El oponente es lanzado por los aires con gran fuerza, impactando contra una superficie. Adiciona <em>+6</em> (40% del conocimiento en DCAO) puntos adicionales de daño al objetivo.</span></span></div></div></div>",
+            "url": "r21542",
+            "simpleTitle": "evento: atrapa la bandera - grupo celeste",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jasper R. Gryffith",
+            "spread": [
+                4
+            ],
+            "title": "actions",
+            "key": "sensus mitigo",
+            "knowledge": "ccm",
+            "type": "curación",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jasper R. Gryffith ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"ccm\"><strong>Resultado  #1 \"sensus mitigo\" (4)</strong><span>La criatura se detiene por un instante, pero puede volverse agresiva de nuevo. Contra PNJ, el mismo reduce en 1 su FUE y CON, si es controlable o menor.</span></span></div></div></div>",
+            "url": "r21669",
+            "simpleTitle": "evento: atrapa la bandera - grupo celeste",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Hankford B. Diggory",
+            "spread": [
+                3
+            ],
+            "title": "actions",
+            "key": "sensus mitigo",
+            "knowledge": "ccm",
+            "type": "curación",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Hankford B. Diggory ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"ccm\"><strong>Resultado  #1 \"sensus mitigo\" (3)</strong><span>No sucede nada. Capaz deberías practicar más el hechizo.</span></span></div></div></div>",
+            "url": "r21758",
+            "simpleTitle": "evento: atrapa la bandera - grupo celeste",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Vasilisa M. Kuznetzova",
+            "spread": [
+                20
+            ],
+            "title": "actions",
+            "key": "depulso",
+            "knowledge": "encantamientos",
+            "type": "encantamiento, ofensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"depulso\" (20)</strong><span>El objetivo es arrojado violentamente lejos, perdiendo el equilibrio. Adiciona <em>+16</em> (100% del conocimiento en ENCANTAMIENTOS) en el daño, la víctima pierde 2 acciones consecutivas al recibir el ataque.</span></span></div></div></div>",
+            "url": "r21760",
+            "simpleTitle": "evento: atrapa la bandera - grupo celeste",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jasper R. Gryffith",
+            "spread": [
+                7
+            ],
+            "title": "creatures",
+            "key": "plimpy",
+            "knowledge": "criaturas",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jasper R. Gryffith ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"plimpy\" (7)</strong><ataque>Ataca con su aleta en el agua. Adiciona +1 en Ataque.</ataque><defensa>Absorbe parte del impacto con su gelatinosa textura. Adiciona +1 en Defensa.</defensa></span></div></div></div>",
+            "url": "r21993",
+            "simpleTitle": "evento: atrapa la bandera - grupo celeste",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Hankford B. Diggory",
+            "spread": [
+                8
+            ],
+            "title": "actions",
+            "key": "petrificus totalus",
+            "knowledge": "dcao",
+            "type": "maldición, ofensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Hankford B. Diggory ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"petrificus totalus\" (8)</strong><span>El objetivo queda completamente inmóvil hasta que el efecto se disipe. El personaje no podrá realizar acciones hasta que otro personaje lo libere o realice dos roles. Si al conjurador le anulan acciones, se eliminan los efectos inmediatamente.<br><br>El PNJ \"plimpy\" es débil a los hechizos de tipo \"restricción\". Duplica el valor del dado y el bonus del hechizo.</span></span></div></div></div>",
+            "url": "r22001",
+            "simpleTitle": "evento: atrapa la bandera - grupo celeste",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Vasilisa M. Kuznetzova",
+            "spread": [
+                7
+            ],
+            "title": "actions",
+            "key": "validar paso #3 dirección este",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">7</span></div></div></div>",
+            "url": "r22117",
+            "simpleTitle": "evento: atrapa la bandera - grupo celeste",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jasper R. Gryffith",
+            "spread": [
+                5
+            ],
+            "title": "actions",
+            "key": "paso #3: ir al sur",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jasper R. Gryffith ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">5</span></div></div></div>",
+            "url": "r22337",
+            "simpleTitle": "evento: atrapa la bandera - grupo celeste",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Hankford B. Diggory",
+            "spread": [
+                14
+            ],
+            "title": "actions",
+            "key": "tempus revela",
+            "knowledge": "historia de la magia",
+            "type": "encantamiento, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Hankford B. Diggory ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"historia de la magia\"><strong>Resultado  #1 \"tempus revela\" (14)</strong><span>Se revela el año exacto, con una breve visión del momento de creación y del primer uso significativo.</span></span></div></div></div>",
+            "url": "r22597",
+            "simpleTitle": "evento: atrapa la bandera - grupo celeste",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Vasilisa M. Kuznetzova",
+            "spread": [
+                17
+            ],
+            "title": "actions",
+            "key": "paso #3: ir al norte",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">17</span></div></div></div>",
+            "url": "r22622",
+            "simpleTitle": "evento: atrapa la bandera - grupo celeste",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jasper R. Gryffith",
+            "spread": [
+                4
+            ],
+            "title": "actions",
+            "key": "accio",
+            "knowledge": "encantamientos",
+            "type": "encantamiento, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jasper R. Gryffith ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"accio\" (4)</strong><span>El objeto llega rápidamente y con gran precisión a la mano del lanzador, sin posibilidad de que otro lo intercepte.</span></span></div></div></div>",
+            "url": "r22813",
+            "simpleTitle": "evento: atrapa la bandera - grupo celeste",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Hankford B. Diggory",
+            "spread": [
+                16
+            ],
+            "title": "actions",
+            "key": "validar paso #3 dirección norte",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Hankford B. Diggory ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">16</span></div></div></div>",
+            "url": "r22948",
+            "simpleTitle": "evento: atrapa la bandera - grupo celeste",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Findlay McCrory",
+            "spread": [
+                16
+            ],
+            "title": "actions",
+            "key": "lanzar la quaffle",
+            "knowledge": "vuelo",
+            "type": "quidditch, ofensivo, sin magia",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Findlay McCrory ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"lanzar la quaffle\" (16)</strong><span>El lanzamiento es perfecto. Adiciona +20 en el ataque.</span></span></div></div></div>",
+            "url": "r18046",
+            "simpleTitle": "práctica: winds of change",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Neptune E. Merrythought",
+            "spread": [
+                1
+            ],
+            "title": "actions",
+            "key": "atrapar la quaffle",
+            "knowledge": "vuelo",
+            "type": "quidditch, defensivo, sin magia",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Neptune E. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"atrapar la quaffle\" (1)</strong><span>Logra desviar la quaffle, pero no controlarla. El siguiente aliado en postear, puede sumar +2 puntos en su acción.</span></span></div></div></div>",
+            "url": "r18652",
+            "simpleTitle": "práctica: winds of change",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Findlay McCrory",
+            "spread": [
+                7
+            ],
+            "title": "actions",
+            "key": "lanzar la quaffle",
+            "knowledge": "vuelo",
+            "type": "quidditch, ofensivo, sin magia",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Findlay McCrory ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"lanzar la quaffle\" (7)</strong><span>El lanzamiento es perfecto. Adiciona +11 en el ataque.</span></span></div></div></div>",
+            "url": "r19151",
+            "simpleTitle": "práctica: winds of change",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Neptune E. Merrythought",
+            "spread": [
+                20
+            ],
+            "title": "actions",
+            "key": "atrapar la quaffle",
+            "knowledge": "vuelo",
+            "type": "quidditch, defensivo, sin magia",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Neptune E. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"atrapar la quaffle\" (20)</strong><span>Atrapa la quaffle perfectamente, controlando todo el vuelo para su siguiente acción. Adiciona +4 en su siguiente acción.</span></span></div></div></div>",
+            "url": "r19565",
+            "simpleTitle": "práctica: winds of change",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Findlay McCrory",
+            "spread": [
+                2
+            ],
+            "title": "actions",
+            "key": "lanzar la quaffle",
+            "knowledge": "vuelo",
+            "type": "quidditch, ofensivo, sin magia",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Findlay McCrory ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"lanzar la quaffle\" (2)</strong><span>El lanzamiento es perfecto. Adiciona +6 en el ataque.</span></span></div></div></div>",
+            "url": "r19755",
+            "simpleTitle": "práctica: winds of change",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Neptune E. Merrythought",
+            "spread": [
+                5
+            ],
+            "title": "actions",
+            "key": "atrapar la quaffle",
+            "knowledge": "vuelo",
+            "type": "quidditch, defensivo, sin magia",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Neptune E. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"atrapar la quaffle\" (5)</strong><span>Logra atrapar la quaffle, teniendo la misma en su posesión. Adiciona +3 en defensa.</span></span></div></div></div>",
+            "url": "r20012",
+            "simpleTitle": "práctica: winds of change",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Findlay McCrory",
+            "spread": [
+                6
+            ],
+            "title": "actions",
+            "key": "lanzar la quaffle",
+            "knowledge": "vuelo",
+            "type": "quidditch, ofensivo, sin magia",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Findlay McCrory ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"lanzar la quaffle\" (6)</strong><span>El lanzamiento es perfecto. Adiciona +10 en el ataque.</span></span></div></div></div>",
+            "url": "r20123",
+            "simpleTitle": "práctica: winds of change",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Neptune E. Merrythought",
+            "spread": [
+                18
+            ],
+            "title": "actions",
+            "key": "atrapar la quaffle",
+            "knowledge": "vuelo",
+            "type": "quidditch, defensivo, sin magia",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Neptune E. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"atrapar la quaffle\" (18)</strong><span>Atrapa la quaffle perfectamente, controlando todo el vuelo para su siguiente acción. Adiciona +4 en su siguiente acción.</span></span></div></div></div>",
+            "url": "r20490",
+            "simpleTitle": "práctica: winds of change",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Findlay McCrory",
+            "spread": [
+                1
+            ],
+            "title": "actions",
+            "key": "lanzar la quaffle",
+            "knowledge": "vuelo",
+            "type": "quidditch, ofensivo, sin magia",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Findlay McCrory ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"lanzar la quaffle\" (1)</strong><span>El lanzamiento es fuerte y preciso. Adiciona +3 en ataque.</span></span></div></div></div>",
+            "url": "r20610",
+            "simpleTitle": "práctica: winds of change",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Neptune E. Merrythought",
+            "spread": [
+                18
+            ],
+            "title": "actions",
+            "key": "atrapar la quaffle",
+            "knowledge": "vuelo",
+            "type": "quidditch, defensivo, sin magia",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Neptune E. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"atrapar la quaffle\" (18)</strong><span>Atrapa la quaffle perfectamente, controlando todo el vuelo para su siguiente acción. Adiciona +4 en su siguiente acción.</span></span></div></div></div>",
+            "url": "r21606",
+            "simpleTitle": "práctica: winds of change",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Findlay McCrory",
+            "spread": [
+                2
+            ],
+            "title": "actions",
+            "key": "lanzar la quaffle",
+            "knowledge": "vuelo",
+            "type": "quidditch, ofensivo, sin magia",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Findlay McCrory ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"lanzar la quaffle\" (2)</strong><span>El lanzamiento es perfecto. Adiciona +6 en el ataque.</span></span></div></div></div>",
+            "url": "r22425",
+            "simpleTitle": "práctica: winds of change",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Neptune E. Merrythought",
+            "spread": [
+                20
+            ],
+            "title": "actions",
+            "key": "atrapar la quaffle",
+            "knowledge": "vuelo",
+            "type": "quidditch, defensivo, sin magia",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Neptune E. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"atrapar la quaffle\" (20)</strong><span>Atrapa la quaffle perfectamente, controlando todo el vuelo para su siguiente acción. Adiciona +4 en su siguiente acción.</span></span></div></div></div>",
+            "url": "r22899",
+            "simpleTitle": "práctica: winds of change",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Black Wave",
+            "spread": [
+                2
+            ],
+            "title": "felix felicis",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-felix-felicis\"><span>Black Wave ha lanzado los dados \"felix felicis\"</span><div class=\"dice-results\"><span class=\"roll-result nro2\"><i class=\"fa-solid fa-sparkles\"></i>Se nota que sabes lo que estás haciendo, o Félix lo sabe.</span></div></div></div>",
+            "url": "r11592",
+            "simpleTitle": "duelo #13: asteria vs neptune",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Asteria C. Lestrange",
+            "spread": [
+                10
+            ],
+            "title": "actions",
+            "key": "dracospira",
+            "knowledge": "transformaciones",
+            "type": "ofensivo, transfiguración, maleficio",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Asteria C. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"transformaciones\"><strong>Resultado  #1 \"dracospira\" (10)</strong><span>La víctima sufre una transformación más intensa, tosiendo incontrolablemente y emitiendo un espeso humo negro que la deja desorientada. La víctima pierde +4 puntos en sus lanzadas de dados hasta que elimine los efectos del maleficio.</span></span></div></div></div>",
+            "url": "r11994",
+            "simpleTitle": "duelo #13: asteria vs neptune",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Neptune E. Merrythought",
+            "spread": [
+                19
+            ],
+            "title": "actions",
+            "key": "protego",
+            "knowledge": "dcao",
+            "type": "encantamiento, defensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Neptune E. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"protego\" (19)</strong><span>El escudo es extremadamente resistente. Reduce el ataque en <em>+6</em> (40% del conocimiento en DCAO) puntos adicionales.</span></span></div></div></div>",
+            "url": "r12151",
+            "simpleTitle": "duelo #13: asteria vs neptune",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Asteria C. Lestrange",
+            "spread": [
+                5
+            ],
+            "title": "actions",
+            "key": "protego",
+            "knowledge": "dcao",
+            "type": "encantamiento, defensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Asteria C. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"protego\" (5)</strong><span>El escudo es extremadamente resistente. Reduce el ataque en <em>+6</em> (40% del conocimiento en DCAO) puntos adicionales.</span></span></div></div></div>",
+            "url": "r12369",
+            "simpleTitle": "duelo #13: asteria vs neptune",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Neptune E. Merrythought",
+            "spread": [
+                6
+            ],
+            "title": "actions",
+            "key": "protego",
+            "knowledge": "dcao",
+            "type": "encantamiento, defensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Neptune E. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"protego\" (6)</strong><span>El escudo es extremadamente resistente. Reduce el ataque en <em>+6</em> (40% del conocimiento en DCAO) puntos adicionales.</span></span></div></div></div>",
+            "url": "r12757",
+            "simpleTitle": "duelo #13: asteria vs neptune",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Asteria C. Lestrange",
+            "spread": [
+                10
+            ],
+            "title": "actions",
+            "key": "protego",
+            "knowledge": "dcao",
+            "type": "encantamiento, defensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Asteria C. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"protego\" (10)</strong><span>El escudo es extremadamente resistente. Reduce el ataque en <em>+6</em> (40% del conocimiento en DCAO) puntos adicionales.</span></span></div></div></div>",
+            "url": "r14091",
+            "simpleTitle": "duelo #13: asteria vs neptune",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Neptune E. Merrythought",
+            "spread": [
+                17
+            ],
+            "title": "actions",
+            "key": "fumos",
+            "knowledge": "dcao",
+            "type": "encantamiento, defensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Neptune E. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"fumos\" (17)</strong><span>El humo es espeso y persistente, dificultando la visión y la respiración de todos los adversarios presentes en la escena. El lanzador y quienes estén junto a él Adicionan +4 en defensa durante <em>1</em> (El 50% de DES) turnos, mientras dure la cobertura.</span></span></div></div></div>",
+            "url": "r14161",
+            "simpleTitle": "duelo #13: asteria vs neptune",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Asteria C. Lestrange",
+            "spread": [
+                20
+            ],
+            "title": "actions",
+            "key": "protego",
+            "knowledge": "dcao",
+            "type": "encantamiento, defensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Asteria C. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"protego\" (20)</strong><span>El escudo es extremadamente resistente. Reduce el ataque en <em>+6</em> (40% del conocimiento en DCAO) puntos adicionales.</span></span></div></div></div>",
+            "url": "r15189",
+            "simpleTitle": "duelo #13: asteria vs neptune",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Neptune E. Merrythought",
+            "spread": [
+                3
+            ],
+            "title": "actions",
+            "key": "fumos",
+            "knowledge": "dcao",
+            "type": "encantamiento, defensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Neptune E. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"fumos\" (3)</strong><span>El humo es espeso y persistente, dificultando la visión y la respiración de todos los adversarios presentes en la escena. El lanzador y quienes estén junto a él Adicionan +4 en defensa durante <em>1</em> (El 50% de DES) turnos, mientras dure la cobertura.</span></span></div></div></div>",
+            "url": "r15642",
+            "simpleTitle": "duelo #13: asteria vs neptune",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Asteria C. Lestrange",
+            "spread": [
+                13
+            ],
+            "title": "actions",
+            "key": "glacius",
+            "knowledge": "encantamientos",
+            "type": "encantamiento, defensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Asteria C. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"glacius\" (13)</strong><span>La zona alrededor queda completamente congelada, inmovilizando temporalmente a todos los que se encuentren en ella y no solo al objetivo. El ataque de cada rival alcanzado pierde <em>+5</em> (40% del conocimiento en ENCANTAMIENTOS) puntos adicionales y adiciona <em>+13</em> (100% del conocimiento en ENCANTAMIENTOS) puntos a siguiente acción.</span></span></div></div></div>",
+            "url": "r16527",
+            "simpleTitle": "duelo #13: asteria vs neptune",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Neptune E. Merrythought",
+            "spread": [
+                8
+            ],
+            "title": "actions",
+            "key": "expulso",
+            "knowledge": "dcao",
+            "type": "maldición, defensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Neptune E. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"expulso\" (8)</strong><span>El objetivo es lanzado varios metros hacia atrás con fuerza. Adiciona el plus del ataque en la Defensa o la Fuerza del personaje.</span></span></div></div></div>",
+            "url": "r16996",
+            "simpleTitle": "duelo #13: asteria vs neptune",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Asteria C. Lestrange",
+            "spread": [
+                12
+            ],
+            "title": "actions",
+            "key": "fumos",
+            "knowledge": "dcao",
+            "type": "encantamiento, defensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Asteria C. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"fumos\" (12)</strong><span>El humo es espeso y persistente, dificultando la visión y la respiración de todos los adversarios presentes en la escena. El lanzador y quienes estén junto a él Adicionan +4 en defensa durante <em>2</em> (El 50% de DES) turnos, mientras dure la cobertura.</span></span></div></div></div>",
+            "url": "r18649",
+            "simpleTitle": "duelo #13: asteria vs neptune",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Neptune E. Merrythought",
+            "spread": [
+                8
+            ],
+            "title": "actions",
+            "key": "glacius",
+            "knowledge": "encantamientos",
+            "type": "encantamiento, defensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Neptune E. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"glacius\" (8)</strong><span>El aire se enfría completamente y la zona alrededor queda cubierta de una gruesa capa de hielo, afectando a todos los que se encuentren cerca del objetivo. Reduce <em>+10</em> (75% del conocimiento en ENCANTAMIENTOS) puntos al ataque de cada rival alcanzado.</span></span></div></div></div>",
+            "url": "r18668",
+            "simpleTitle": "duelo #13: asteria vs neptune",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Asteria C. Lestrange",
+            "spread": [
+                20
+            ],
+            "title": "actions",
+            "key": "immobulus",
+            "knowledge": "dcao",
+            "type": "encantamiento, defensivo, ofensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Asteria C. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"immobulus\" (20)</strong><span>El hechizo puede paralizar a un único objetivo o, si el lanzador lo decide, a todo un grupo de objetivos cercanos entre sí, tal como se usa para inmovilizar de una vez a un enjambre completo de criaturas pequeñas. Cada objetivo alcanzado queda paralizado durante <em>+17</em> (100% del conocimiento en DCAO) turnos y tarda más en recuperar el control de su cuerpo, donde no podrá realizar acciones, o hasta que un personaje lo libere si se usa como ataque, o impide el ataque, reduciendo el mismo a cero, si se usa como defensa adicionando +4 puntos en la siguiente acción del defensor.</span></span></div></div></div>",
+            "url": "r19341",
+            "simpleTitle": "duelo #13: asteria vs neptune",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Neptune E. Merrythought",
+            "spread": [
+                15
+            ],
+            "title": "actions",
+            "key": "protego",
+            "knowledge": "dcao",
+            "type": "encantamiento, defensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Neptune E. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"protego\" (15)</strong><span>El escudo es extremadamente resistente. Reduce el ataque en <em>+6</em> (40% del conocimiento en DCAO) puntos adicionales.</span></span></div></div></div>",
+            "url": "r19562",
+            "simpleTitle": "duelo #13: asteria vs neptune",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Asteria C. Lestrange",
+            "spread": [
+                12
+            ],
+            "title": "actions",
+            "key": "glacius",
+            "knowledge": "encantamientos",
+            "type": "encantamiento, defensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Asteria C. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"glacius\" (12)</strong><span>La zona alrededor queda completamente congelada, inmovilizando temporalmente a todos los que se encuentren en ella y no solo al objetivo. El ataque de cada rival alcanzado pierde <em>+5</em> (40% del conocimiento en ENCANTAMIENTOS) puntos adicionales y adiciona <em>+13</em> (100% del conocimiento en ENCANTAMIENTOS) puntos a siguiente acción.</span></span></div></div></div>",
+            "url": "r20208",
+            "simpleTitle": "duelo #13: asteria vs neptune",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Neptune E. Merrythought",
+            "spread": [
+                12
+            ],
+            "title": "actions",
+            "key": "immobulus",
+            "knowledge": "dcao",
+            "type": "encantamiento, defensivo, ofensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Neptune E. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"immobulus\" (12)</strong><span>El hechizo puede paralizar a un único objetivo o, si el lanzador lo decide, a todo un grupo de objetivos cercanos entre sí, tal como se usa para inmovilizar de una vez a un enjambre completo de criaturas pequeñas. Cada objetivo alcanzado queda paralizado durante <em>+15</em> (100% del conocimiento en DCAO) turnos y tarda más en recuperar el control de su cuerpo, donde no podrá realizar acciones, o hasta que un personaje lo libere si se usa como ataque, o impide el ataque, reduciendo el mismo a cero, si se usa como defensa adicionando +4 puntos en la siguiente acción del defensor.</span></span></div></div></div>",
+            "url": "r20472",
+            "simpleTitle": "duelo #13: asteria vs neptune",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Asteria C. Lestrange",
+            "spread": [
+                9
+            ],
+            "title": "actions",
+            "key": "protego",
+            "knowledge": "dcao",
+            "type": "encantamiento, defensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Asteria C. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"protego\" (9)</strong><span>El escudo es extremadamente resistente. Reduce el ataque en <em>+6</em> (40% del conocimiento en DCAO) puntos adicionales.</span></span></div></div></div>",
+            "url": "r20623",
+            "simpleTitle": "duelo #13: asteria vs neptune",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Neptune E. Merrythought",
+            "spread": [
+                13
+            ],
+            "title": "actions",
+            "key": "glacius",
+            "knowledge": "encantamientos",
+            "type": "encantamiento, defensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Neptune E. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"glacius\" (13)</strong><span>La zona alrededor queda completamente congelada, inmovilizando temporalmente a todos los que se encuentren en ella y no solo al objetivo. El ataque de cada rival alcanzado pierde <em>+5</em> (40% del conocimiento en ENCANTAMIENTOS) puntos adicionales y adiciona <em>+14</em> (100% del conocimiento en ENCANTAMIENTOS) puntos a siguiente acción.</span></span></div></div></div>",
+            "url": "r21601",
+            "simpleTitle": "duelo #13: asteria vs neptune",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Asteria C. Lestrange",
+            "spread": [
+                11
+            ],
+            "title": "actions",
+            "key": "fumos",
+            "knowledge": "dcao",
+            "type": "encantamiento, defensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Asteria C. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"fumos\" (11)</strong><span>El humo es espeso y persistente, dificultando la visión y la respiración de todos los adversarios presentes en la escena. El lanzador y quienes estén junto a él Adicionan +4 en defensa durante <em>2</em> (El 50% de DES) turnos, mientras dure la cobertura.</span></span></div></div></div>",
+            "url": "r22132",
+            "simpleTitle": "duelo #13: asteria vs neptune",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Neptune E. Merrythought",
+            "spread": [
+                7
+            ],
+            "title": "actions",
+            "key": "avis",
+            "knowledge": "transformaciones",
+            "type": "transfiguración, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Neptune E. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"transformaciones\"><strong>Resultado  #1 \"avis\" (7)</strong><span>Solo aparece un grupo de <em>+1</em> (25% del conocimiento en TRANSFORMACIONES) aves débiles.</span></span></div></div></div>",
+            "url": "r22317",
+            "simpleTitle": "duelo #13: asteria vs neptune",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Asteria C. Lestrange",
+            "spread": [
+                14
+            ],
+            "title": "actions",
+            "key": "impedimenta",
+            "knowledge": "dcao",
+            "type": "embrujo, defensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Asteria C. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"impedimenta\" (14)</strong><span>El objetivo es detenido en seco y queda inmóvil por un corto periodo. En caso de realizarse sobre un hechizo, disminuye los adicionales del hechizo.</span></span></div></div></div>",
+            "url": "r22547",
+            "simpleTitle": "duelo #13: asteria vs neptune",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Neptune E. Merrythought",
+            "spread": [
+                15
+            ],
+            "title": "actions",
+            "key": "impedimenta",
+            "knowledge": "dcao",
+            "type": "embrujo, defensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Neptune E. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"impedimenta\" (15)</strong><span>El objetivo es detenido en seco y queda inmóvil por un corto periodo. En caso de realizarse sobre un hechizo, disminuye los adicionales del hechizo.</span></span></div></div></div>",
+            "url": "r22592",
+            "simpleTitle": "duelo #13: asteria vs neptune",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Asteria C. Lestrange",
+            "spread": [
+                1
+            ],
+            "title": "actions",
+            "key": "glacius",
+            "knowledge": "encantamientos",
+            "type": "encantamiento, defensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Asteria C. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"glacius\" (1)</strong><span>El aire se enfría parcialmente, relentizando a la contrincante temporalmente. Reduce <em>+6</em> (50% del conocimiento en ENCANTAMIENTOS) puntos el ataque contrario.</span></span></div></div></div>",
+            "url": "r23051",
+            "simpleTitle": "duelo #13: asteria vs neptune",
             "space": "el pensadero"
         }
     ];
