@@ -119367,6 +119367,4724 @@ const DBModule = (function () {
             "url": "r2508",
             "simpleTitle": "Tema Extra (276)",
             "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Cora M. Vance",
+            "spread": [
+                13
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Cora M. Vance ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro13\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Sandía</strong>Sumas un punto de conocimiento en Estudios Muggles.</span></div></div></div>",
+            "url": "r2766",
+            "simpleTitle": "Tema Extra (399)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                18
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Alastor Moody ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro18\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Mora</strong>Sumas un punto de conocimiento en Vuelo.</span></div></div></div>",
+            "url": "r3487",
+            "simpleTitle": "Tema Extra (399)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Regulus O. Black",
+            "spread": [
+                10
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Regulus O. Black ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro10\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Vainilla</strong>Sumas un punto de conocimiento en CCM.</span></div></div></div>",
+            "url": "r3593",
+            "simpleTitle": "Tema Extra (399)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                4
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>H. Shun Parkinson ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro4\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Menta</strong>Sumas un punto de conocimiento en Herbología.</span></div></div></div>",
+            "url": "r3788",
+            "simpleTitle": "Tema Extra (399)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Aria J. Fawley",
+            "spread": [
+                8
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Aria J. Fawley ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro8\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Chocolate</strong>Sumas un punto de conocimiento en Arte.</span></div></div></div>",
+            "url": "r4943",
+            "simpleTitle": "Tema Extra (399)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Cora M. Vance",
+            "spread": [
+                6
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Cora M. Vance ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro6\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Malvavisco</strong>Sumas un punto de conocimiento en Alquimia.</span></div></div></div>",
+            "url": "r5993",
+            "simpleTitle": "Tema Extra (399)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Asteria C. Lestrange",
+            "spread": [
+                12
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Asteria C. Lestrange ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro12\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Manzana verde</strong>Sumas un punto de conocimiento en Encantamientos.</span></div></div></div>",
+            "url": "r5995",
+            "simpleTitle": "Tema Extra (399)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Orion A. Black",
+            "spread": [
+                10
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Orion A. Black ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro10\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Vainilla</strong>Sumas un punto de conocimiento en CCM.</span></div></div></div>",
+            "url": "r6001",
+            "simpleTitle": "Tema Extra (399)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Vasilisa M. Kuznetzova",
+            "spread": [
+                5
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro5\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Galleta</strong>Ganas 50 Galeones.</span></div></div></div>",
+            "url": "r6008",
+            "simpleTitle": "Tema Extra (399)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Kaoru Satoo",
+            "spread": [
+                17
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Kaoru Satoo ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro17\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Canela</strong>Sumas un punto de conocimiento en Curación.</span></div></div></div>",
+            "url": "r6013",
+            "simpleTitle": "Tema Extra (399)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Minerva E. McGonagall",
+            "spread": [
+                10
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Minerva E. McGonagall ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro10\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Vainilla</strong>Sumas un punto de conocimiento en CCM.</span></div></div></div>",
+            "url": "r6039",
+            "simpleTitle": "Tema Extra (399)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Raven Walters",
+            "spread": [
+                10
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Raven Walters ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro10\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Vainilla</strong>Sumas un punto de conocimiento en CCM.</span></div></div></div>",
+            "url": "r7846",
+            "simpleTitle": "Tema Extra (399)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Regulus O. Black",
+            "spread": [
+                17
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Regulus O. Black ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro17\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Canela</strong>Sumas un punto de conocimiento en Curación.</span></div></div></div>",
+            "url": "r7953",
+            "simpleTitle": "Tema Extra (399)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                1
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Alastor Moody ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro1\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Cera de Oídos</strong>A Dumbledore tampoco le gustan, lo sentimos, aquí no hay nada.</span></div></div></div>",
+            "url": "r7958",
+            "simpleTitle": "Tema Extra (399)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                12
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>H. Shun Parkinson ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro12\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Manzana verde</strong>Sumas un punto de conocimiento en Encantamientos.</span></div></div></div>",
+            "url": "r7962",
+            "simpleTitle": "Tema Extra (399)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Theolonius D. Covey",
+            "spread": [
+                5
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Theolonius D. Covey ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro5\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Galleta</strong>Ganas 50 Galeones.</span></div></div></div>",
+            "url": "r7964",
+            "simpleTitle": "Tema Extra (399)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Danielle Dashwood",
+            "spread": [
+                8
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Danielle Dashwood ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro8\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Chocolate</strong>Sumas un punto de conocimiento en Arte.</span></div></div></div>",
+            "url": "r8258",
+            "simpleTitle": "Tema Extra (399)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Minerva E. McGonagall",
+            "spread": [
+                14
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Minerva E. McGonagall ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro14\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Arándano</strong>Sumas un punto de conocimiento en DCAO.</span></div></div></div>",
+            "url": "r8295",
+            "simpleTitle": "Tema Extra (399)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Raven Walters",
+            "spread": [
+                10
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Raven Walters ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro10\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Vainilla</strong>Sumas un punto de conocimiento en CCM.</span></div></div></div>",
+            "url": "r9731",
+            "simpleTitle": "Tema Extra (399)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Hankford B. Diggory",
+            "spread": [
+                20
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Hankford B. Diggory ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro20\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Tutti frutti</strong>Ganas 200 Galeones y puedes indicar en qué conocimiento ganas un punto de conocimiento.</span></div></div></div>",
+            "url": "r10950",
+            "simpleTitle": "Tema Extra (399)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Neptune E. Merrythought",
+            "spread": [
+                3
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Neptune E. Merrythought ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro3\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Pasto</strong>Sumas un punto de conocimiento en CCM.</span></div></div></div>",
+            "url": "r10954",
+            "simpleTitle": "Tema Extra (399)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Minerva E. McGonagall",
+            "spread": [
+                20
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Minerva E. McGonagall ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro20\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Tutti frutti</strong>Ganas 200 Galeones y puedes indicar en qué conocimiento ganas un punto de conocimiento.</span></div></div></div>",
+            "url": "r10956",
+            "simpleTitle": "Tema Extra (399)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                6
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>H. Shun Parkinson ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro6\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Malvavisco</strong>Sumas un punto de conocimiento en Alquimia.</span></div></div></div>",
+            "url": "r11135",
+            "simpleTitle": "Tema Extra (399)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                9
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Alastor Moody ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro9\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Fresa</strong>Sumas un punto de conocimiento en Astronomía.</span></div></div></div>",
+            "url": "r11356",
+            "simpleTitle": "Tema Extra (399)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                14
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Alastor Moody ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro14\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Arándano</strong>Sumas un punto de conocimiento en DCAO.</span></div></div></div>",
+            "url": "r11720",
+            "simpleTitle": "Tema Extra (399)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Neptune E. Merrythought",
+            "spread": [
+                4
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Neptune E. Merrythought ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro4\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Menta</strong>Sumas un punto de conocimiento en Herbología.</span></div></div></div>",
+            "url": "r11795",
+            "simpleTitle": "Tema Extra (399)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Aria J. Fawley",
+            "spread": [
+                17
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Aria J. Fawley ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro17\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Canela</strong>Sumas un punto de conocimiento en Curación.</span></div></div></div>",
+            "url": "r13043",
+            "simpleTitle": "Tema Extra (399)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Augusta O. Rookwood",
+            "spread": [
+                17
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Augusta O. Rookwood ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro17\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Canela</strong>Sumas un punto de conocimiento en Curación.</span></div></div></div>",
+            "url": "r13066",
+            "simpleTitle": "Tema Extra (399)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Minerva E. McGonagall",
+            "spread": [
+                10
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Minerva E. McGonagall ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro10\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Vainilla</strong>Sumas un punto de conocimiento en CCM.</span></div></div></div>",
+            "url": "r15277",
+            "simpleTitle": "Tema Extra (399)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                9
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Alastor Moody ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro9\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Fresa</strong>Sumas un punto de conocimiento en Astronomía.</span></div></div></div>",
+            "url": "r15289",
+            "simpleTitle": "Tema Extra (399)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Aidan N. Flamel",
+            "spread": [
+                8
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Aidan N. Flamel ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro8\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Chocolate</strong>Sumas un punto de conocimiento en Arte.</span></div></div></div>",
+            "url": "r15322",
+            "simpleTitle": "Tema Extra (399)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Theolonius D. Covey",
+            "spread": [
+                8
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Theolonius D. Covey ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro8\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Chocolate</strong>Sumas un punto de conocimiento en Arte.</span></div></div></div>",
+            "url": "r15327",
+            "simpleTitle": "Tema Extra (399)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Hankford B. Diggory",
+            "spread": [
+                3
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Hankford B. Diggory ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro3\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Pasto</strong>Sumas un punto de conocimiento en CCM.</span></div></div></div>",
+            "url": "r15378",
+            "simpleTitle": "Tema Extra (399)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Ruaan S. Patil",
+            "spread": [
+                9
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Ruaan S. Patil ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro9\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Fresa</strong>Sumas un punto de conocimiento en Astronomía.</span></div></div></div>",
+            "url": "r15515",
+            "simpleTitle": "Tema Extra (399)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Orion A. Black",
+            "spread": [
+                15
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Orion A. Black ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro15\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Caramelo</strong>Sumas un punto de conocimiento en Adivinación.</span></div></div></div>",
+            "url": "r15534",
+            "simpleTitle": "Tema Extra (399)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Vasilisa M. Kuznetzova",
+            "spread": [
+                4
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro4\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Menta</strong>Sumas un punto de conocimiento en Herbología.</span></div></div></div>",
+            "url": "r15536",
+            "simpleTitle": "Tema Extra (399)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Venus M. Merrythought",
+            "spread": [
+                15
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Venus M. Merrythought ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro15\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Caramelo</strong>Sumas un punto de conocimiento en Adivinación.</span></div></div></div>",
+            "url": "r15538",
+            "simpleTitle": "Tema Extra (399)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Asteria C. Lestrange",
+            "spread": [
+                5
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Asteria C. Lestrange ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro5\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Galleta</strong>Ganas 50 Galeones.</span></div></div></div>",
+            "url": "r15708",
+            "simpleTitle": "Tema Extra (399)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                16
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Jupiter Merrythought ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro16\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Miel</strong>Sumas un punto de conocimiento en Aritmancia.</span></div></div></div>",
+            "url": "r15852",
+            "simpleTitle": "Tema Extra (399)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Thaddeus L. Nott",
+            "spread": [
+                19
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Thaddeus L. Nott ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro19\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Regaliz</strong>Ganas 150 Galeones.</span></div></div></div>",
+            "url": "r16241",
+            "simpleTitle": "Tema Extra (399)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                12
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Montgomery Thatch ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro12\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Manzana verde</strong>Sumas un punto de conocimiento en Encantamientos.</span></div></div></div>",
+            "url": "r16257",
+            "simpleTitle": "Tema Extra (399)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                5
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Alastor Moody ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro5\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Galleta</strong>Ganas 50 Galeones.</span></div></div></div>",
+            "url": "r16640",
+            "simpleTitle": "Tema Extra (399)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                20
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Montgomery Thatch ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro20\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Tutti frutti</strong>Ganas 200 Galeones y puedes indicar en qué conocimiento ganas un punto de conocimiento.</span></div></div></div>",
+            "url": "r18126",
+            "simpleTitle": "Tema Extra (399)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Hankford B. Diggory",
+            "spread": [
+                20
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Hankford B. Diggory ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro20\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Tutti frutti</strong>Ganas 200 Galeones y puedes indicar en qué conocimiento ganas un punto de conocimiento.</span></div></div></div>",
+            "url": "r18472",
+            "simpleTitle": "Tema Extra (399)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                16
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Jupiter Merrythought ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro16\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Miel</strong>Sumas un punto de conocimiento en Aritmancia.</span></div></div></div>",
+            "url": "r18566",
+            "simpleTitle": "Tema Extra (399)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                5
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Jupiter Merrythought ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro5\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Galleta</strong>Ganas 50 Galeones.</span></div></div></div>",
+            "url": "r20732",
+            "simpleTitle": "Tema Extra (399)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                9
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Montgomery Thatch ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro9\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Fresa</strong>Sumas un punto de conocimiento en Astronomía.</span></div></div></div>",
+            "url": "r20969",
+            "simpleTitle": "Tema Extra (399)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                18
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Alastor Moody ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro18\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Mora</strong>Sumas un punto de conocimiento en Vuelo.</span></div></div></div>",
+            "url": "r21376",
+            "simpleTitle": "Tema Extra (399)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Minerva E. McGonagall",
+            "spread": [
+                16
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Minerva E. McGonagall ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro16\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Miel</strong>Sumas un punto de conocimiento en Aritmancia.</span></div></div></div>",
+            "url": "r21394",
+            "simpleTitle": "Tema Extra (399)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                5
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Jupiter Merrythought ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro5\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Galleta</strong>Ganas 50 Galeones.</span></div></div></div>",
+            "url": "r22647",
+            "simpleTitle": "Tema Extra (399)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Elysia G. Lestrange",
+            "spread": [
+                19
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Elysia G. Lestrange ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro19\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Regaliz</strong>Ganas 150 Galeones.</span></div></div></div>",
+            "url": "r22711",
+            "simpleTitle": "Tema Extra (399)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Cuthbert S. Selwyn",
+            "spread": [
+                7
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Cuthbert S. Selwyn ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro7\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Ensalada de Fruta</strong>El personaje gana 200G y un punto de conocimiento a indicar a elección del personaje (no pueden ser habilidades/criaturas).</span></div></div></div>",
+            "url": "r17202",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Iarlaith C. Sayre",
+            "spread": [
+                1
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Iarlaith C. Sayre ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro1\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Tierra</strong>Un poco desagradable, pero el personaje gana 50G.</span></div></div></div>",
+            "url": "r17206",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Antares Z. Bennett",
+            "spread": [
+                5
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Antares Z. Bennett ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro5\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Gelatina de Durazno</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: DCAO, Encantamientos, Herbología, Historia de la Magia, Pociones o Transformaciones.</span></div></div></div>",
+            "url": "r17209",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Damien A. Ashford-Dempsey",
+            "spread": [
+                7
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Damien A. Ashford-Dempsey ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro7\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Ensalada de Fruta</strong>El personaje gana 200G y un punto de conocimiento a indicar a elección del personaje (no pueden ser habilidades/criaturas).</span></div></div></div>",
+            "url": "r17213",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Mercury Merrythought",
+            "spread": [
+                7
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Mercury Merrythought ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro7\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Ensalada de Fruta</strong>El personaje gana 200G y un punto de conocimiento a indicar a elección del personaje (no pueden ser habilidades/criaturas).</span></div></div></div>",
+            "url": "r17219",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                6
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Alastor Moody ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro6\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Pastel de limón</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: Liderazgo, Contrabando o Habilidades/Criaturas.</span></div></div></div>",
+            "url": "r17227",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Findlay McCrory",
+            "spread": [
+                1
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Findlay McCrory ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro1\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Tierra</strong>Un poco desagradable, pero el personaje gana 50G.</span></div></div></div>",
+            "url": "r17230",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Hermes Rosier",
+            "spread": [
+                7
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Hermes Rosier ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro7\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Ensalada de Fruta</strong>El personaje gana 200G y un punto de conocimiento a indicar a elección del personaje (no pueden ser habilidades/criaturas).</span></div></div></div>",
+            "url": "r17236",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                3
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Montgomery Thatch ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro3\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Zumo de calabaza</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: Arte, Combate Físico, Curación, Música o Vuelo.</span></div></div></div>",
+            "url": "r17238",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Jasper R. Gryffith",
+            "spread": [
+                3
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Jasper R. Gryffith ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro3\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Zumo de calabaza</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: Arte, Combate Físico, Curación, Música o Vuelo.</span></div></div></div>",
+            "url": "r17242",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Ruairidh Ó Mhaille",
+            "spread": [
+                5
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Ruairidh Ó Mhaille ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro5\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Gelatina de Durazno</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: DCAO, Encantamientos, Herbología, Historia de la Magia, Pociones o Transformaciones.</span></div></div></div>",
+            "url": "r17246",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Viridian L. Greengrass",
+            "spread": [
+                1
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Viridian L. Greengrass ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro1\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Tierra</strong>Un poco desagradable, pero el personaje gana 50G.</span></div></div></div>",
+            "url": "r17250",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Ksenia D. Demidova",
+            "spread": [
+                5
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Ksenia D. Demidova ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro5\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Gelatina de Durazno</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: DCAO, Encantamientos, Herbología, Historia de la Magia, Pociones o Transformaciones.</span></div></div></div>",
+            "url": "r17254",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                2
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Jupiter Merrythought ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro2\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Jalea de Naranja</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: un conocimiento que aún no llegue a principiante o el conocimiento con más puntos que posea (no pueden ser habilidades/criaturas).</span></div></div></div>",
+            "url": "r17256",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Uranus H. Merrythought",
+            "spread": [
+                6
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Uranus H. Merrythought ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro6\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Pastel de limón</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: Liderazgo, Contrabando o Habilidades/Criaturas.</span></div></div></div>",
+            "url": "r17266",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Elysia G. Lestrange",
+            "spread": [
+                6
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Elysia G. Lestrange ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro6\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Pastel de limón</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: Liderazgo, Contrabando o Habilidades/Criaturas.</span></div></div></div>",
+            "url": "r17269",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Sloane N. Greengrass",
+            "spread": [
+                1
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Sloane N. Greengrass ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro1\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Tierra</strong>Un poco desagradable, pero el personaje gana 50G.</span></div></div></div>",
+            "url": "r17271",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Harmony M. Flynn",
+            "spread": [
+                6
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Harmony M. Flynn ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro6\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Pastel de limón</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: Liderazgo, Contrabando o Habilidades/Criaturas.</span></div></div></div>",
+            "url": "r17273",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                4
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Alastor Moody ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro4\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Tarta de Manzana</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: Adivinación, Alquimia, Aritmancia, Astronomía, CCM, Estudios Muggles o Runas Antiguas.</span></div></div></div>",
+            "url": "r17286",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Uranus H. Merrythought",
+            "spread": [
+                5
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Uranus H. Merrythought ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro5\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Gelatina de Durazno</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: DCAO, Encantamientos, Herbología, Historia de la Magia, Pociones o Transformaciones.</span></div></div></div>",
+            "url": "r17290",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Orion A. Black",
+            "spread": [
+                7
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Orion A. Black ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro7\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Ensalada de Fruta</strong>El personaje gana 200G y un punto de conocimiento a indicar a elección del personaje (no pueden ser habilidades/criaturas).</span></div></div></div>",
+            "url": "r17301",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Asteria C. Lestrange",
+            "spread": [
+                1
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Asteria C. Lestrange ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro1\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Tierra</strong>Un poco desagradable, pero el personaje gana 50G.</span></div></div></div>",
+            "url": "r17307",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Vasilisa M. Kuznetzova",
+            "spread": [
+                6
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro6\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Pastel de limón</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: Liderazgo, Contrabando o Habilidades/Criaturas.</span></div></div></div>",
+            "url": "r17309",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Kaoru Satoo",
+            "spread": [
+                5
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Kaoru Satoo ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro5\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Gelatina de Durazno</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: DCAO, Encantamientos, Herbología, Historia de la Magia, Pociones o Transformaciones.</span></div></div></div>",
+            "url": "r17311",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Thaddeus L. Nott",
+            "spread": [
+                5
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Thaddeus L. Nott ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro5\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Gelatina de Durazno</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: DCAO, Encantamientos, Herbología, Historia de la Magia, Pociones o Transformaciones.</span></div></div></div>",
+            "url": "r17313",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Venus M. Merrythought",
+            "spread": [
+                6
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Venus M. Merrythought ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro6\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Pastel de limón</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: Liderazgo, Contrabando o Habilidades/Criaturas.</span></div></div></div>",
+            "url": "r17315",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Aidan N. Flamel",
+            "spread": [
+                7
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Aidan N. Flamel ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro7\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Ensalada de Fruta</strong>El personaje gana 200G y un punto de conocimiento a indicar a elección del personaje (no pueden ser habilidades/criaturas).</span></div></div></div>",
+            "url": "r17317",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Ishwar S. Patil",
+            "spread": [
+                6
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Ishwar S. Patil ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro6\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Pastel de limón</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: Liderazgo, Contrabando o Habilidades/Criaturas.</span></div></div></div>",
+            "url": "r17320",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Gavril A. Ollivander",
+            "spread": [
+                2
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Gavril A. Ollivander ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro2\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Jalea de Naranja</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: un conocimiento que aún no llegue a principiante o el conocimiento con más puntos que posea (no pueden ser habilidades/criaturas).</span></div></div></div>",
+            "url": "r17322",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Regulus O. Black",
+            "spread": [
+                7
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Regulus O. Black ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro7\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Ensalada de Fruta</strong>El personaje gana 200G y un punto de conocimiento a indicar a elección del personaje (no pueden ser habilidades/criaturas).</span></div></div></div>",
+            "url": "r17369",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Minerva E. McGonagall",
+            "spread": [
+                5
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Minerva E. McGonagall ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro5\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Gelatina de Durazno</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: DCAO, Encantamientos, Herbología, Historia de la Magia, Pociones o Transformaciones.</span></div></div></div>",
+            "url": "r17371",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                1
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>H. Shun Parkinson ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro1\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Tierra</strong>Un poco desagradable, pero el personaje gana 50G.</span></div></div></div>",
+            "url": "r17373",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Theolonius D. Covey",
+            "spread": [
+                4
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Theolonius D. Covey ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro4\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Tarta de Manzana</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: Adivinación, Alquimia, Aritmancia, Astronomía, CCM, Estudios Muggles o Runas Antiguas.</span></div></div></div>",
+            "url": "r17375",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Hankford B. Diggory",
+            "spread": [
+                7
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Hankford B. Diggory ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro7\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Ensalada de Fruta</strong>El personaje gana 200G y un punto de conocimiento a indicar a elección del personaje (no pueden ser habilidades/criaturas).</span></div></div></div>",
+            "url": "r17377",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Neptune E. Merrythought",
+            "spread": [
+                1
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Neptune E. Merrythought ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro1\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Tierra</strong>Un poco desagradable, pero el personaje gana 50G.</span></div></div></div>",
+            "url": "r17379",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Ruaan S. Patil",
+            "spread": [
+                5
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Ruaan S. Patil ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro5\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Gelatina de Durazno</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: DCAO, Encantamientos, Herbología, Historia de la Magia, Pociones o Transformaciones.</span></div></div></div>",
+            "url": "r17381",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Barnaby R. Rookwood",
+            "spread": [
+                6
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Barnaby R. Rookwood ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro6\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Pastel de limón</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: Liderazgo, Contrabando o Habilidades/Criaturas.</span></div></div></div>",
+            "url": "r17383",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Margareth T. Moody",
+            "spread": [
+                3
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Margareth T. Moody ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro3\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Zumo de calabaza</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: Arte, Combate Físico, Curación, Música o Vuelo.</span></div></div></div>",
+            "url": "r17385",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                5
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Jupiter Merrythought ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro5\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Gelatina de Durazno</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: DCAO, Encantamientos, Herbología, Historia de la Magia, Pociones o Transformaciones.</span></div></div></div>",
+            "url": "r17405",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Neptune E. Merrythought",
+            "spread": [
+                3
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Neptune E. Merrythought ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro3\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Zumo de calabaza</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: Arte, Combate Físico, Curación, Música o Vuelo.</span></div></div></div>",
+            "url": "r17434",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Astraea M. Burke",
+            "spread": [
+                3
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Astraea M. Burke ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro3\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Zumo de calabaza</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: Arte, Combate Físico, Curación, Música o Vuelo.</span></div></div></div>",
+            "url": "r17457",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Vasilisa M. Kuznetzova",
+            "spread": [
+                3
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro3\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Zumo de calabaza</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: Arte, Combate Físico, Curación, Música o Vuelo.</span></div></div></div>",
+            "url": "r17465",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                6
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Alastor Moody ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro6\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Pastel de limón</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: Liderazgo, Contrabando o Habilidades/Criaturas.</span></div></div></div>",
+            "url": "r17479",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Viridian L. Greengrass",
+            "spread": [
+                3
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Viridian L. Greengrass ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro3\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Zumo de calabaza</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: Arte, Combate Físico, Curación, Música o Vuelo.</span></div></div></div>",
+            "url": "r17497",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                7
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Montgomery Thatch ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro7\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Ensalada de Fruta</strong>El personaje gana 200G y un punto de conocimiento a indicar a elección del personaje (no pueden ser habilidades/criaturas).</span></div></div></div>",
+            "url": "r17516",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Sloane N. Greengrass",
+            "spread": [
+                7
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Sloane N. Greengrass ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro7\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Ensalada de Fruta</strong>El personaje gana 200G y un punto de conocimiento a indicar a elección del personaje (no pueden ser habilidades/criaturas).</span></div></div></div>",
+            "url": "r17518",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Ruaan S. Patil",
+            "spread": [
+                4
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Ruaan S. Patil ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro4\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Tarta de Manzana</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: Adivinación, Alquimia, Aritmancia, Astronomía, CCM, Estudios Muggles o Runas Antiguas.</span></div></div></div>",
+            "url": "r17556",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                1
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Jupiter Merrythought ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro1\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Tierra</strong>Un poco desagradable, pero el personaje gana 50G.</span></div></div></div>",
+            "url": "r17567",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Uranus H. Merrythought",
+            "spread": [
+                3
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Uranus H. Merrythought ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro3\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Zumo de calabaza</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: Arte, Combate Físico, Curación, Música o Vuelo.</span></div></div></div>",
+            "url": "r17577",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                6
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Alastor Moody ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro6\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Pastel de limón</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: Liderazgo, Contrabando o Habilidades/Criaturas.</span></div></div></div>",
+            "url": "r17609",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Minerva E. McGonagall",
+            "spread": [
+                6
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Minerva E. McGonagall ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro6\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Pastel de limón</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: Liderazgo, Contrabando o Habilidades/Criaturas.</span></div></div></div>",
+            "url": "r17620",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Regulus O. Black",
+            "spread": [
+                3
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Regulus O. Black ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro3\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Zumo de calabaza</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: Arte, Combate Físico, Curación, Música o Vuelo.</span></div></div></div>",
+            "url": "r17644",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Hankford B. Diggory",
+            "spread": [
+                4
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Hankford B. Diggory ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro4\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Tarta de Manzana</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: Adivinación, Alquimia, Aritmancia, Astronomía, CCM, Estudios Muggles o Runas Antiguas.</span></div></div></div>",
+            "url": "r17655",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                5
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Montgomery Thatch ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro5\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Gelatina de Durazno</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: DCAO, Encantamientos, Herbología, Historia de la Magia, Pociones o Transformaciones.</span></div></div></div>",
+            "url": "r17675",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Astraea M. Burke",
+            "spread": [
+                5
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Astraea M. Burke ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro5\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Gelatina de Durazno</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: DCAO, Encantamientos, Herbología, Historia de la Magia, Pociones o Transformaciones.</span></div></div></div>",
+            "url": "r17689",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Elysia G. Lestrange",
+            "spread": [
+                7
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Elysia G. Lestrange ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro7\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Ensalada de Fruta</strong>El personaje gana 200G y un punto de conocimiento a indicar a elección del personaje (no pueden ser habilidades/criaturas).</span></div></div></div>",
+            "url": "r17696",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                2
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Jupiter Merrythought ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro2\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Jalea de Naranja</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: un conocimiento que aún no llegue a principiante o el conocimiento con más puntos que posea (no pueden ser habilidades/criaturas).</span></div></div></div>",
+            "url": "r17723",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                7
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Alastor Moody ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro7\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Ensalada de Fruta</strong>El personaje gana 200G y un punto de conocimiento a indicar a elección del personaje (no pueden ser habilidades/criaturas).</span></div></div></div>",
+            "url": "r17738",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Elysia G. Lestrange",
+            "spread": [
+                2
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Elysia G. Lestrange ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro2\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Jalea de Naranja</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: un conocimiento que aún no llegue a principiante o el conocimiento con más puntos que posea (no pueden ser habilidades/criaturas).</span></div></div></div>",
+            "url": "r17752",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Neptune E. Merrythought",
+            "spread": [
+                4
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Neptune E. Merrythought ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro4\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Tarta de Manzana</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: Adivinación, Alquimia, Aritmancia, Astronomía, CCM, Estudios Muggles o Runas Antiguas.</span></div></div></div>",
+            "url": "r17782",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Ksenia D. Demidova",
+            "spread": [
+                6
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Ksenia D. Demidova ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro6\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Pastel de limón</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: Liderazgo, Contrabando o Habilidades/Criaturas.</span></div></div></div>",
+            "url": "r17798",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Minerva E. McGonagall",
+            "spread": [
+                1
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Minerva E. McGonagall ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro1\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Tierra</strong>Un poco desagradable, pero el personaje gana 50G.</span></div></div></div>",
+            "url": "r17855",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                7
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>H. Shun Parkinson ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro7\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Ensalada de Fruta</strong>El personaje gana 200G y un punto de conocimiento a indicar a elección del personaje (no pueden ser habilidades/criaturas).</span></div></div></div>",
+            "url": "r17875",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                3
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Montgomery Thatch ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro3\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Zumo de calabaza</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: Arte, Combate Físico, Curación, Música o Vuelo.</span></div></div></div>",
+            "url": "r17904",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Hermes Rosier",
+            "spread": [
+                7
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Hermes Rosier ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro7\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Ensalada de Fruta</strong>El personaje gana 200G y un punto de conocimiento a indicar a elección del personaje (no pueden ser habilidades/criaturas).</span></div></div></div>",
+            "url": "r17911",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                7
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Jupiter Merrythought ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro7\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Ensalada de Fruta</strong>El personaje gana 200G y un punto de conocimiento a indicar a elección del personaje (no pueden ser habilidades/criaturas).</span></div></div></div>",
+            "url": "r17924",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Mercury Merrythought",
+            "spread": [
+                2
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Mercury Merrythought ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro2\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Jalea de Naranja</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: un conocimiento que aún no llegue a principiante o el conocimiento con más puntos que posea (no pueden ser habilidades/criaturas).</span></div></div></div>",
+            "url": "r17940",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Lucretia Black-Prewett",
+            "spread": [
+                7
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Lucretia Black-Prewett ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro7\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Ensalada de Fruta</strong>El personaje gana 200G y un punto de conocimiento a indicar a elección del personaje (no pueden ser habilidades/criaturas).</span></div></div></div>",
+            "url": "r17945",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "A. Ignatius Prewett",
+            "spread": [
+                4
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>A. Ignatius Prewett ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro4\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Tarta de Manzana</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: Adivinación, Alquimia, Aritmancia, Astronomía, CCM, Estudios Muggles o Runas Antiguas.</span></div></div></div>",
+            "url": "r17950",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Sloane N. Greengrass",
+            "spread": [
+                3
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Sloane N. Greengrass ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro3\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Zumo de calabaza</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: Arte, Combate Físico, Curación, Música o Vuelo.</span></div></div></div>",
+            "url": "r17964",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                2
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>H. Shun Parkinson ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro2\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Jalea de Naranja</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: un conocimiento que aún no llegue a principiante o el conocimiento con más puntos que posea (no pueden ser habilidades/criaturas).</span></div></div></div>",
+            "url": "r17981",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                5
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Jupiter Merrythought ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro5\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Gelatina de Durazno</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: DCAO, Encantamientos, Herbología, Historia de la Magia, Pociones o Transformaciones.</span></div></div></div>",
+            "url": "r17990",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Thyme T. Nott",
+            "spread": [
+                2
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Thyme T. Nott ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro2\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Jalea de Naranja</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: un conocimiento que aún no llegue a principiante o el conocimiento con más puntos que posea (no pueden ser habilidades/criaturas).</span></div></div></div>",
+            "url": "r17998",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                1
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Alastor Moody ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro1\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Tierra</strong>Un poco desagradable, pero el personaje gana 50G.</span></div></div></div>",
+            "url": "r18014",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Margareth T. Moody",
+            "spread": [
+                4
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Margareth T. Moody ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro4\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Tarta de Manzana</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: Adivinación, Alquimia, Aritmancia, Astronomía, CCM, Estudios Muggles o Runas Antiguas.</span></div></div></div>",
+            "url": "r18018",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Gavril A. Ollivander",
+            "spread": [
+                1
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Gavril A. Ollivander ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro1\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Tierra</strong>Un poco desagradable, pero el personaje gana 50G.</span></div></div></div>",
+            "url": "r18037",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Findlay McCrory",
+            "spread": [
+                5
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Findlay McCrory ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro5\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Gelatina de Durazno</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: DCAO, Encantamientos, Herbología, Historia de la Magia, Pociones o Transformaciones.</span></div></div></div>",
+            "url": "r18048",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Lucretia Black-Prewett",
+            "spread": [
+                5
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Lucretia Black-Prewett ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro5\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Gelatina de Durazno</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: DCAO, Encantamientos, Herbología, Historia de la Magia, Pociones o Transformaciones.</span></div></div></div>",
+            "url": "r18051",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                7
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Alastor Moody ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro7\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Ensalada de Fruta</strong>El personaje gana 200G y un punto de conocimiento a indicar a elección del personaje (no pueden ser habilidades/criaturas).</span></div></div></div>",
+            "url": "r18083",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Orion A. Black",
+            "spread": [
+                7
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Orion A. Black ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro7\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Ensalada de Fruta</strong>El personaje gana 200G y un punto de conocimiento a indicar a elección del personaje (no pueden ser habilidades/criaturas).</span></div></div></div>",
+            "url": "r18099",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                5
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Montgomery Thatch ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro5\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Gelatina de Durazno</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: DCAO, Encantamientos, Herbología, Historia de la Magia, Pociones o Transformaciones.</span></div></div></div>",
+            "url": "r18135",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Cuthbert S. Selwyn",
+            "spread": [
+                7
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Cuthbert S. Selwyn ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro7\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Ensalada de Fruta</strong>El personaje gana 200G y un punto de conocimiento a indicar a elección del personaje (no pueden ser habilidades/criaturas).</span></div></div></div>",
+            "url": "r18150",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Sloane N. Greengrass",
+            "spread": [
+                2
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Sloane N. Greengrass ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro2\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Jalea de Naranja</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: un conocimiento que aún no llegue a principiante o el conocimiento con más puntos que posea (no pueden ser habilidades/criaturas).</span></div></div></div>",
+            "url": "r18158",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Owen Fitzgerald",
+            "spread": [
+                1
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Owen Fitzgerald ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro1\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Tierra</strong>Un poco desagradable, pero el personaje gana 50G.</span></div></div></div>",
+            "url": "r18166",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                2
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Jupiter Merrythought ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro2\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Jalea de Naranja</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: un conocimiento que aún no llegue a principiante o el conocimiento con más puntos que posea (no pueden ser habilidades/criaturas).</span></div></div></div>",
+            "url": "r18180",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Minerva E. McGonagall",
+            "spread": [
+                5
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Minerva E. McGonagall ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro5\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Gelatina de Durazno</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: DCAO, Encantamientos, Herbología, Historia de la Magia, Pociones o Transformaciones.</span></div></div></div>",
+            "url": "r18216",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "A. Ignatius Prewett",
+            "spread": [
+                2
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>A. Ignatius Prewett ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro2\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Jalea de Naranja</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: un conocimiento que aún no llegue a principiante o el conocimiento con más puntos que posea (no pueden ser habilidades/criaturas).</span></div></div></div>",
+            "url": "r18220",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Astraea M. Burke",
+            "spread": [
+                5
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Astraea M. Burke ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro5\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Gelatina de Durazno</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: DCAO, Encantamientos, Herbología, Historia de la Magia, Pociones o Transformaciones.</span></div></div></div>",
+            "url": "r18223",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Jasper R. Gryffith",
+            "spread": [
+                5
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Jasper R. Gryffith ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro5\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Gelatina de Durazno</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: DCAO, Encantamientos, Herbología, Historia de la Magia, Pociones o Transformaciones.</span></div></div></div>",
+            "url": "r18236",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Thyme T. Nott",
+            "spread": [
+                6
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Thyme T. Nott ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro6\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Pastel de limón</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: Liderazgo, Contrabando o Habilidades/Criaturas.</span></div></div></div>",
+            "url": "r18243",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                7
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>H. Shun Parkinson ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro7\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Ensalada de Fruta</strong>El personaje gana 200G y un punto de conocimiento a indicar a elección del personaje (no pueden ser habilidades/criaturas).</span></div></div></div>",
+            "url": "r18270",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Theolonius D. Covey",
+            "spread": [
+                3
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Theolonius D. Covey ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro3\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Zumo de calabaza</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: Arte, Combate Físico, Curación, Música o Vuelo.</span></div></div></div>",
+            "url": "r18277",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                3
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Alastor Moody ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro3\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Zumo de calabaza</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: Arte, Combate Físico, Curación, Música o Vuelo.</span></div></div></div>",
+            "url": "r18292",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Lucretia Black-Prewett",
+            "spread": [
+                5
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Lucretia Black-Prewett ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro5\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Gelatina de Durazno</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: DCAO, Encantamientos, Herbología, Historia de la Magia, Pociones o Transformaciones.</span></div></div></div>",
+            "url": "r18295",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                1
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Montgomery Thatch ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro1\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Tierra</strong>Un poco desagradable, pero el personaje gana 50G.</span></div></div></div>",
+            "url": "r18311",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Uranus H. Merrythought",
+            "spread": [
+                1
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Uranus H. Merrythought ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro1\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Tierra</strong>Un poco desagradable, pero el personaje gana 50G.</span></div></div></div>",
+            "url": "r18401",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                6
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Jupiter Merrythought ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro6\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Pastel de limón</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: Liderazgo, Contrabando o Habilidades/Criaturas.</span></div></div></div>",
+            "url": "r18412",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Ruairidh Ó Mhaille",
+            "spread": [
+                5
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Ruairidh Ó Mhaille ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro5\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Gelatina de Durazno</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: DCAO, Encantamientos, Herbología, Historia de la Magia, Pociones o Transformaciones.</span></div></div></div>",
+            "url": "r18416",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Owen Fitzgerald",
+            "spread": [
+                1
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Owen Fitzgerald ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro1\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Tierra</strong>Un poco desagradable, pero el personaje gana 50G.</span></div></div></div>",
+            "url": "r18430",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Venus M. Merrythought",
+            "spread": [
+                5
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Venus M. Merrythought ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro5\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Gelatina de Durazno</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: DCAO, Encantamientos, Herbología, Historia de la Magia, Pociones o Transformaciones.</span></div></div></div>",
+            "url": "r18433",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                2
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Montgomery Thatch ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro2\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Jalea de Naranja</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: un conocimiento que aún no llegue a principiante o el conocimiento con más puntos que posea (no pueden ser habilidades/criaturas).</span></div></div></div>",
+            "url": "r18466",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Regulus O. Black",
+            "spread": [
+                1
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Regulus O. Black ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro1\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Tierra</strong>Un poco desagradable, pero el personaje gana 50G.</span></div></div></div>",
+            "url": "r18470",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Hankford B. Diggory",
+            "spread": [
+                5
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Hankford B. Diggory ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro5\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Gelatina de Durazno</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: DCAO, Encantamientos, Herbología, Historia de la Magia, Pociones o Transformaciones.</span></div></div></div>",
+            "url": "r18475",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Asteria C. Lestrange",
+            "spread": [
+                3
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Asteria C. Lestrange ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro3\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Zumo de calabaza</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: Arte, Combate Físico, Curación, Música o Vuelo.</span></div></div></div>",
+            "url": "r18495",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Vasilisa M. Kuznetzova",
+            "spread": [
+                1
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro1\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Tierra</strong>Un poco desagradable, pero el personaje gana 50G.</span></div></div></div>",
+            "url": "r18497",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Aidan N. Flamel",
+            "spread": [
+                3
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Aidan N. Flamel ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro3\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Zumo de calabaza</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: Arte, Combate Físico, Curación, Música o Vuelo.</span></div></div></div>",
+            "url": "r18499",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Thaddeus L. Nott",
+            "spread": [
+                7
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Thaddeus L. Nott ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro7\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Ensalada de Fruta</strong>El personaje gana 200G y un punto de conocimiento a indicar a elección del personaje (no pueden ser habilidades/criaturas).</span></div></div></div>",
+            "url": "r18501",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Kaoru Satoo",
+            "spread": [
+                5
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Kaoru Satoo ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro5\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Gelatina de Durazno</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: DCAO, Encantamientos, Herbología, Historia de la Magia, Pociones o Transformaciones.</span></div></div></div>",
+            "url": "r18503",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                3
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Montgomery Thatch ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro3\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Zumo de calabaza</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: Arte, Combate Físico, Curación, Música o Vuelo.</span></div></div></div>",
+            "url": "r18522",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Thyme T. Nott",
+            "spread": [
+                7
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Thyme T. Nott ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro7\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Ensalada de Fruta</strong>El personaje gana 200G y un punto de conocimiento a indicar a elección del personaje (no pueden ser habilidades/criaturas).</span></div></div></div>",
+            "url": "r18525",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                3
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Jupiter Merrythought ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro3\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Zumo de calabaza</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: Arte, Combate Físico, Curación, Música o Vuelo.</span></div></div></div>",
+            "url": "r18557",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Astraea M. Burke",
+            "spread": [
+                2
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Astraea M. Burke ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro2\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Jalea de Naranja</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: un conocimiento que aún no llegue a principiante o el conocimiento con más puntos que posea (no pueden ser habilidades/criaturas).</span></div></div></div>",
+            "url": "r18594",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                3
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Alastor Moody ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro3\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Zumo de calabaza</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: Arte, Combate Físico, Curación, Música o Vuelo.</span></div></div></div>",
+            "url": "r18621",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Sloane N. Greengrass",
+            "spread": [
+                3
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Sloane N. Greengrass ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro3\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Zumo de calabaza</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: Arte, Combate Físico, Curación, Música o Vuelo.</span></div></div></div>",
+            "url": "r18628",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Ishwar S. Patil",
+            "spread": [
+                4
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Ishwar S. Patil ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro4\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Tarta de Manzana</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: Adivinación, Alquimia, Aritmancia, Astronomía, CCM, Estudios Muggles o Runas Antiguas.</span></div></div></div>",
+            "url": "r18644",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Neptune E. Merrythought",
+            "spread": [
+                3
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Neptune E. Merrythought ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro3\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Zumo de calabaza</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: Arte, Combate Físico, Curación, Música o Vuelo.</span></div></div></div>",
+            "url": "r18657",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                3
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Jupiter Merrythought ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro3\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Zumo de calabaza</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: Arte, Combate Físico, Curación, Música o Vuelo.</span></div></div></div>",
+            "url": "r18677",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Neptune E. Merrythought",
+            "spread": [
+                2
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Neptune E. Merrythought ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro2\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Jalea de Naranja</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: un conocimiento que aún no llegue a principiante o el conocimiento con más puntos que posea (no pueden ser habilidades/criaturas).</span></div></div></div>",
+            "url": "r18685",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                3
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>H. Shun Parkinson ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro3\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Zumo de calabaza</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: Arte, Combate Físico, Curación, Música o Vuelo.</span></div></div></div>",
+            "url": "r18694",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                3
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Alastor Moody ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro3\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Zumo de calabaza</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: Arte, Combate Físico, Curación, Música o Vuelo.</span></div></div></div>",
+            "url": "r18715",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Ksenia D. Demidova",
+            "spread": [
+                5
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Ksenia D. Demidova ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro5\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Gelatina de Durazno</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: DCAO, Encantamientos, Herbología, Historia de la Magia, Pociones o Transformaciones.</span></div></div></div>",
+            "url": "r18744",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Viridian L. Greengrass",
+            "spread": [
+                7
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Viridian L. Greengrass ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro7\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Ensalada de Fruta</strong>El personaje gana 200G y un punto de conocimiento a indicar a elección del personaje (no pueden ser habilidades/criaturas).</span></div></div></div>",
+            "url": "r18750",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Lucretia Black-Prewett",
+            "spread": [
+                3
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Lucretia Black-Prewett ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro3\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Zumo de calabaza</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: Arte, Combate Físico, Curación, Música o Vuelo.</span></div></div></div>",
+            "url": "r18753",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Mercury Merrythought",
+            "spread": [
+                4
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Mercury Merrythought ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro4\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Tarta de Manzana</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: Adivinación, Alquimia, Aritmancia, Astronomía, CCM, Estudios Muggles o Runas Antiguas.</span></div></div></div>",
+            "url": "r18766",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "A. Ignatius Prewett",
+            "spread": [
+                3
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>A. Ignatius Prewett ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro3\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Zumo de calabaza</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: Arte, Combate Físico, Curación, Música o Vuelo.</span></div></div></div>",
+            "url": "r18772",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Iarlaith C. Sayre",
+            "spread": [
+                6
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Iarlaith C. Sayre ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro6\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Pastel de limón</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: Liderazgo, Contrabando o Habilidades/Criaturas.</span></div></div></div>",
+            "url": "r18777",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Thyme T. Nott",
+            "spread": [
+                2
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Thyme T. Nott ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro2\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Jalea de Naranja</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: un conocimiento que aún no llegue a principiante o el conocimiento con más puntos que posea (no pueden ser habilidades/criaturas).</span></div></div></div>",
+            "url": "r18830",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Margareth T. Moody",
+            "spread": [
+                3
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Margareth T. Moody ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro3\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Zumo de calabaza</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: Arte, Combate Físico, Curación, Música o Vuelo.</span></div></div></div>",
+            "url": "r18849",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Barnaby R. Rookwood",
+            "spread": [
+                2
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Barnaby R. Rookwood ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro2\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Jalea de Naranja</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: un conocimiento que aún no llegue a principiante o el conocimiento con más puntos que posea (no pueden ser habilidades/criaturas).</span></div></div></div>",
+            "url": "r18866",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                4
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>H. Shun Parkinson ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro4\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Tarta de Manzana</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: Adivinación, Alquimia, Aritmancia, Astronomía, CCM, Estudios Muggles o Runas Antiguas.</span></div></div></div>",
+            "url": "r18869",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                5
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Alastor Moody ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro5\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Gelatina de Durazno</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: DCAO, Encantamientos, Herbología, Historia de la Magia, Pociones o Transformaciones.</span></div></div></div>",
+            "url": "r18902",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Minerva E. McGonagall",
+            "spread": [
+                7
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Minerva E. McGonagall ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro7\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Ensalada de Fruta</strong>El personaje gana 200G y un punto de conocimiento a indicar a elección del personaje (no pueden ser habilidades/criaturas).</span></div></div></div>",
+            "url": "r18922",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Theolonius D. Covey",
+            "spread": [
+                1
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Theolonius D. Covey ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro1\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Tierra</strong>Un poco desagradable, pero el personaje gana 50G.</span></div></div></div>",
+            "url": "r18976",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                5
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Montgomery Thatch ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro5\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Gelatina de Durazno</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: DCAO, Encantamientos, Herbología, Historia de la Magia, Pociones o Transformaciones.</span></div></div></div>",
+            "url": "r18984",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Jasper R. Gryffith",
+            "spread": [
+                4
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Jasper R. Gryffith ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro4\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Tarta de Manzana</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: Adivinación, Alquimia, Aritmancia, Astronomía, CCM, Estudios Muggles o Runas Antiguas.</span></div></div></div>",
+            "url": "r18999",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                2
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Jupiter Merrythought ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro2\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Jalea de Naranja</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: un conocimiento que aún no llegue a principiante o el conocimiento con más puntos que posea (no pueden ser habilidades/criaturas).</span></div></div></div>",
+            "url": "r19011",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                2
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Alastor Moody ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro2\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Jalea de Naranja</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: un conocimiento que aún no llegue a principiante o el conocimiento con más puntos que posea (no pueden ser habilidades/criaturas).</span></div></div></div>",
+            "url": "r19032",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "A. Ignatius Prewett",
+            "spread": [
+                6
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>A. Ignatius Prewett ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro6\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Pastel de limón</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: Liderazgo, Contrabando o Habilidades/Criaturas.</span></div></div></div>",
+            "url": "r19052",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Ruaan S. Patil",
+            "spread": [
+                3
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Ruaan S. Patil ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro3\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Zumo de calabaza</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: Arte, Combate Físico, Curación, Música o Vuelo.</span></div></div></div>",
+            "url": "r19056",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Hermes Rosier",
+            "spread": [
+                4
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Hermes Rosier ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro4\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Tarta de Manzana</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: Adivinación, Alquimia, Aritmancia, Astronomía, CCM, Estudios Muggles o Runas Antiguas.</span></div></div></div>",
+            "url": "r19079",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Thyme T. Nott",
+            "spread": [
+                3
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Thyme T. Nott ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro3\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Zumo de calabaza</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: Arte, Combate Físico, Curación, Música o Vuelo.</span></div></div></div>",
+            "url": "r19084",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "M. Riley Fitzgerald",
+            "spread": [
+                2
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>M. Riley Fitzgerald ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro2\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Jalea de Naranja</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: un conocimiento que aún no llegue a principiante o el conocimiento con más puntos que posea (no pueden ser habilidades/criaturas).</span></div></div></div>",
+            "url": "r19108",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Gareth D. Yaxley",
+            "spread": [
+                1
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Gareth D. Yaxley ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro1\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Tierra</strong>Un poco desagradable, pero el personaje gana 50G.</span></div></div></div>",
+            "url": "r19110",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                3
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Jupiter Merrythought ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro3\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Zumo de calabaza</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: Arte, Combate Físico, Curación, Música o Vuelo.</span></div></div></div>",
+            "url": "r19113",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Cuthbert S. Selwyn",
+            "spread": [
+                3
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Cuthbert S. Selwyn ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro3\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Zumo de calabaza</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: Arte, Combate Físico, Curación, Música o Vuelo.</span></div></div></div>",
+            "url": "r19125",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                4
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Montgomery Thatch ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro4\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Tarta de Manzana</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: Adivinación, Alquimia, Aritmancia, Astronomía, CCM, Estudios Muggles o Runas Antiguas.</span></div></div></div>",
+            "url": "r19137",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Findlay McCrory",
+            "spread": [
+                6
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Findlay McCrory ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro6\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Pastel de limón</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: Liderazgo, Contrabando o Habilidades/Criaturas.</span></div></div></div>",
+            "url": "r19178",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Thyme T. Nott",
+            "spread": [
+                5
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Thyme T. Nott ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro5\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Gelatina de Durazno</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: DCAO, Encantamientos, Herbología, Historia de la Magia, Pociones o Transformaciones.</span></div></div></div>",
+            "url": "r19185",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                3
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Montgomery Thatch ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro3\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Zumo de calabaza</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: Arte, Combate Físico, Curación, Música o Vuelo.</span></div></div></div>",
+            "url": "r19189",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Elysia G. Lestrange",
+            "spread": [
+                5
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Elysia G. Lestrange ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro5\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Gelatina de Durazno</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: DCAO, Encantamientos, Herbología, Historia de la Magia, Pociones o Transformaciones.</span></div></div></div>",
+            "url": "r19191",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Harmony M. Flynn",
+            "spread": [
+                5
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Harmony M. Flynn ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro5\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Gelatina de Durazno</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: DCAO, Encantamientos, Herbología, Historia de la Magia, Pociones o Transformaciones.</span></div></div></div>",
+            "url": "r19193",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                2
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Alastor Moody ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro2\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Jalea de Naranja</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: un conocimiento que aún no llegue a principiante o el conocimiento con más puntos que posea (no pueden ser habilidades/criaturas).</span></div></div></div>",
+            "url": "r19248",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                3
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Jupiter Merrythought ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro3\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Zumo de calabaza</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: Arte, Combate Físico, Curación, Música o Vuelo.</span></div></div></div>",
+            "url": "r19257",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                3
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>H. Shun Parkinson ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro3\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Zumo de calabaza</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: Arte, Combate Físico, Curación, Música o Vuelo.</span></div></div></div>",
+            "url": "r19283",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                4
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Alastor Moody ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro4\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Tarta de Manzana</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: Adivinación, Alquimia, Aritmancia, Astronomía, CCM, Estudios Muggles o Runas Antiguas.</span></div></div></div>",
+            "url": "r19294",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Margareth T. Moody",
+            "spread": [
+                4
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Margareth T. Moody ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro4\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Tarta de Manzana</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: Adivinación, Alquimia, Aritmancia, Astronomía, CCM, Estudios Muggles o Runas Antiguas.</span></div></div></div>",
+            "url": "r19323",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Hankford B. Diggory",
+            "spread": [
+                3
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Hankford B. Diggory ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro3\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Zumo de calabaza</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: Arte, Combate Físico, Curación, Música o Vuelo.</span></div></div></div>",
+            "url": "r19331",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Orion A. Black",
+            "spread": [
+                2
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Orion A. Black ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro2\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Jalea de Naranja</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: un conocimiento que aún no llegue a principiante o el conocimiento con más puntos que posea (no pueden ser habilidades/criaturas).</span></div></div></div>",
+            "url": "r19337",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Asteria C. Lestrange",
+            "spread": [
+                7
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Asteria C. Lestrange ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro7\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Ensalada de Fruta</strong>El personaje gana 200G y un punto de conocimiento a indicar a elección del personaje (no pueden ser habilidades/criaturas).</span></div></div></div>",
+            "url": "r19344",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Vasilisa M. Kuznetzova",
+            "spread": [
+                3
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro3\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Zumo de calabaza</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: Arte, Combate Físico, Curación, Música o Vuelo.</span></div></div></div>",
+            "url": "r19346",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Kaoru Satoo",
+            "spread": [
+                6
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Kaoru Satoo ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro6\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Pastel de limón</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: Liderazgo, Contrabando o Habilidades/Criaturas.</span></div></div></div>",
+            "url": "r19350",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Aidan N. Flamel",
+            "spread": [
+                5
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Aidan N. Flamel ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro5\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Gelatina de Durazno</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: DCAO, Encantamientos, Herbología, Historia de la Magia, Pociones o Transformaciones.</span></div></div></div>",
+            "url": "r19355",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Thaddeus L. Nott",
+            "spread": [
+                3
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Thaddeus L. Nott ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro3\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Zumo de calabaza</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: Arte, Combate Físico, Curación, Música o Vuelo.</span></div></div></div>",
+            "url": "r19357",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Venus M. Merrythought",
+            "spread": [
+                7
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Venus M. Merrythought ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro7\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Ensalada de Fruta</strong>El personaje gana 200G y un punto de conocimiento a indicar a elección del personaje (no pueden ser habilidades/criaturas).</span></div></div></div>",
+            "url": "r19361",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Gavril A. Ollivander",
+            "spread": [
+                3
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Gavril A. Ollivander ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro3\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Zumo de calabaza</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: Arte, Combate Físico, Curación, Música o Vuelo.</span></div></div></div>",
+            "url": "r19365",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                5
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Montgomery Thatch ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro5\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Gelatina de Durazno</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: DCAO, Encantamientos, Herbología, Historia de la Magia, Pociones o Transformaciones.</span></div></div></div>",
+            "url": "r19375",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Minerva E. McGonagall",
+            "spread": [
+                3
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Minerva E. McGonagall ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro3\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Zumo de calabaza</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: Arte, Combate Físico, Curación, Música o Vuelo.</span></div></div></div>",
+            "url": "r19400",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                3
+            ],
+            "title": "grageas limitadas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Jupiter Merrythought ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro3\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Zumo de calabaza</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: Arte, Combate Físico, Curación, Música o Vuelo.</span></div></div></div>",
+            "url": "r19403",
+            "simpleTitle": "Tema Extra (1186)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Iarlaith C. Sayre",
+            "spread": [
+                17
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Iarlaith C. Sayre ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro17\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Canela</strong>Sumas un punto de conocimiento en Curación.</span></div></div></div>",
+            "url": "r8331",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Cuthbert S. Selwyn",
+            "spread": [
+                11
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Cuthbert S. Selwyn ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro11\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Limón</strong>Sumas un punto de conocimiento en Transformaciones.</span></div></div></div>",
+            "url": "r8333",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Hesper Gamp",
+            "spread": [
+                13
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Hesper Gamp ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro13\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Sandía</strong>Sumas un punto de conocimiento en Estudios Muggles.</span></div></div></div>",
+            "url": "r8335",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Damien A. Ashford-Dempsey",
+            "spread": [
+                13
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Damien A. Ashford-Dempsey ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro13\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Sandía</strong>Sumas un punto de conocimiento en Estudios Muggles.</span></div></div></div>",
+            "url": "r8337",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Antares Z. Bennett",
+            "spread": [
+                1
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Antares Z. Bennett ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro1\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Cera de Oídos</strong>A Dumbledore tampoco le gustan, lo sentimos, aquí no hay nada.</span></div></div></div>",
+            "url": "r8339",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Mercury Merrythought",
+            "spread": [
+                16
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Mercury Merrythought ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro16\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Miel</strong>Sumas un punto de conocimiento en Aritmancia.</span></div></div></div>",
+            "url": "r8341",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Ruaan S. Patil",
+            "spread": [
+                18
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Ruaan S. Patil ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro18\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Mora</strong>Sumas un punto de conocimiento en Vuelo.</span></div></div></div>",
+            "url": "r8343",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Neptune E. Merrythought",
+            "spread": [
+                5
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Neptune E. Merrythought ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro5\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Galleta</strong>Ganas 50 Galeones.</span></div></div></div>",
+            "url": "r8345",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Hankford B. Diggory",
+            "spread": [
+                15
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Hankford B. Diggory ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro15\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Caramelo</strong>Sumas un punto de conocimiento en Adivinación.</span></div></div></div>",
+            "url": "r8348",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Theolonius D. Covey",
+            "spread": [
+                18
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Theolonius D. Covey ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro18\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Mora</strong>Sumas un punto de conocimiento en Vuelo.</span></div></div></div>",
+            "url": "r8351",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                20
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>H. Shun Parkinson ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro20\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Tutti frutti</strong>Ganas 200 Galeones y puedes indicar en qué conocimiento ganas un punto de conocimiento.</span></div></div></div>",
+            "url": "r8354",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Minerva E. McGonagall",
+            "spread": [
+                5
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Minerva E. McGonagall ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro5\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Galleta</strong>Ganas 50 Galeones.</span></div></div></div>",
+            "url": "r8357",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Regulus O. Black",
+            "spread": [
+                15
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Regulus O. Black ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro15\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Caramelo</strong>Sumas un punto de conocimiento en Adivinación.</span></div></div></div>",
+            "url": "r8361",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Orion A. Black",
+            "spread": [
+                2
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Orion A. Black ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro2\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Tinta</strong>Sumas un punto de conocimiento en Historia de la Magia.</span></div></div></div>",
+            "url": "r8374",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Asteria C. Lestrange",
+            "spread": [
+                8
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Asteria C. Lestrange ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro8\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Chocolate</strong>Sumas un punto de conocimiento en Arte.</span></div></div></div>",
+            "url": "r8378",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Vasilisa M. Kuznetzova",
+            "spread": [
+                13
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro13\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Sandía</strong>Sumas un punto de conocimiento en Estudios Muggles.</span></div></div></div>",
+            "url": "r8381",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Kaoru Satoo",
+            "spread": [
+                5
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Kaoru Satoo ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro5\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Galleta</strong>Ganas 50 Galeones.</span></div></div></div>",
+            "url": "r8384",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Aidan N. Flamel",
+            "spread": [
+                8
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Aidan N. Flamel ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro8\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Chocolate</strong>Sumas un punto de conocimiento en Arte.</span></div></div></div>",
+            "url": "r8387",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Thaddeus L. Nott",
+            "spread": [
+                15
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Thaddeus L. Nott ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro15\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Caramelo</strong>Sumas un punto de conocimiento en Adivinación.</span></div></div></div>",
+            "url": "r8390",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Venus M. Merrythought",
+            "spread": [
+                16
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Venus M. Merrythought ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro16\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Miel</strong>Sumas un punto de conocimiento en Aritmancia.</span></div></div></div>",
+            "url": "r8392",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Ishwar S. Patil",
+            "spread": [
+                9
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Ishwar S. Patil ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro9\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Fresa</strong>Sumas un punto de conocimiento en Astronomía.</span></div></div></div>",
+            "url": "r8395",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Neptune E. Merrythought",
+            "spread": [
+                12
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Neptune E. Merrythought ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro12\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Manzana verde</strong>Sumas un punto de conocimiento en Encantamientos.</span></div></div></div>",
+            "url": "r8408",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Nikola Petrov",
+            "spread": [
+                3
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Nikola Petrov ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro3\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Pasto</strong>Sumas un punto de conocimiento en CCM.</span></div></div></div>",
+            "url": "r8411",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                3
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Alastor Moody ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro3\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Pasto</strong>Sumas un punto de conocimiento en CCM.</span></div></div></div>",
+            "url": "r8415",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Viridian L. Greengrass",
+            "spread": [
+                15
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Viridian L. Greengrass ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro15\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Caramelo</strong>Sumas un punto de conocimiento en Adivinación.</span></div></div></div>",
+            "url": "r8420",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Cora M. Vance",
+            "spread": [
+                10
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Cora M. Vance ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro10\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Vainilla</strong>Sumas un punto de conocimiento en CCM.</span></div></div></div>",
+            "url": "r8427",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Findlay McCrory",
+            "spread": [
+                14
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Findlay McCrory ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro14\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Arándano</strong>Sumas un punto de conocimiento en DCAO.</span></div></div></div>",
+            "url": "r8429",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                16
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Alastor Moody ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro16\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Miel</strong>Sumas un punto de conocimiento en Aritmancia.</span></div></div></div>",
+            "url": "r8441",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Aria J. Fawley",
+            "spread": [
+                17
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Aria J. Fawley ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro17\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Canela</strong>Sumas un punto de conocimiento en Curación.</span></div></div></div>",
+            "url": "r8450",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Raven Walters",
+            "spread": [
+                7
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Raven Walters ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro7\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Coco</strong>Sumas un punto de conocimiento en Runas Antiguas.</span></div></div></div>",
+            "url": "r8458",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Danielle Dashwood",
+            "spread": [
+                11
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Danielle Dashwood ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro11\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Limón</strong>Sumas un punto de conocimiento en Transformaciones.</span></div></div></div>",
+            "url": "r8461",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Augusta O. Rookwood",
+            "spread": [
+                18
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Augusta O. Rookwood ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro18\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Mora</strong>Sumas un punto de conocimiento en Vuelo.</span></div></div></div>",
+            "url": "r8464",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Jasper R. Gryffith",
+            "spread": [
+                18
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Jasper R. Gryffith ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro18\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Mora</strong>Sumas un punto de conocimiento en Vuelo.</span></div></div></div>",
+            "url": "r8467",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Hermes Rosier",
+            "spread": [
+                13
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Hermes Rosier ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro13\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Sandía</strong>Sumas un punto de conocimiento en Estudios Muggles.</span></div></div></div>",
+            "url": "r8469",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Ruairidh Ó Mhaille",
+            "spread": [
+                4
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Ruairidh Ó Mhaille ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro4\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Menta</strong>Sumas un punto de conocimiento en Herbología.</span></div></div></div>",
+            "url": "r8471",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Hankford B. Diggory",
+            "spread": [
+                11
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Hankford B. Diggory ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro11\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Limón</strong>Sumas un punto de conocimiento en Transformaciones.</span></div></div></div>",
+            "url": "r8535",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                6
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Alastor Moody ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro6\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Malvavisco</strong>Sumas un punto de conocimiento en Alquimia.</span></div></div></div>",
+            "url": "r8551",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Findlay McCrory",
+            "spread": [
+                13
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Findlay McCrory ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro13\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Sandía</strong>Sumas un punto de conocimiento en Estudios Muggles.</span></div></div></div>",
+            "url": "r8557",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Regulus O. Black",
+            "spread": [
+                18
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Regulus O. Black ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro18\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Mora</strong>Sumas un punto de conocimiento en Vuelo.</span></div></div></div>",
+            "url": "r8633",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Augusta O. Rookwood",
+            "spread": [
+                18
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Augusta O. Rookwood ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro18\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Mora</strong>Sumas un punto de conocimiento en Vuelo.</span></div></div></div>",
+            "url": "r8656",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Cora M. Vance",
+            "spread": [
+                4
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Cora M. Vance ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro4\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Menta</strong>Sumas un punto de conocimiento en Herbología.</span></div></div></div>",
+            "url": "r8672",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                2
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Alastor Moody ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro2\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Tinta</strong>Sumas un punto de conocimiento en Historia de la Magia.</span></div></div></div>",
+            "url": "r8708",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Antares Z. Bennett",
+            "spread": [
+                17
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Antares Z. Bennett ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro17\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Canela</strong>Sumas un punto de conocimiento en Curación.</span></div></div></div>",
+            "url": "r8720",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                15
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Alastor Moody ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro15\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Caramelo</strong>Sumas un punto de conocimiento en Adivinación.</span></div></div></div>",
+            "url": "r8776",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                8
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Montgomery Thatch ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro8\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Chocolate</strong>Sumas un punto de conocimiento en Arte.</span></div></div></div>",
+            "url": "r8784",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Neptune E. Merrythought",
+            "spread": [
+                3
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Neptune E. Merrythought ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro3\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Pasto</strong>Sumas un punto de conocimiento en CCM.</span></div></div></div>",
+            "url": "r8800",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                1
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>H. Shun Parkinson ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro1\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Cera de Oídos</strong>A Dumbledore tampoco le gustan, lo sentimos, aquí no hay nada.</span></div></div></div>",
+            "url": "r8808",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Asteria C. Lestrange",
+            "spread": [
+                13
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Asteria C. Lestrange ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro13\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Sandía</strong>Sumas un punto de conocimiento en Estudios Muggles.</span></div></div></div>",
+            "url": "r8850",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Neptune E. Merrythought",
+            "spread": [
+                4
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Neptune E. Merrythought ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro4\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Menta</strong>Sumas un punto de conocimiento en Herbología.</span></div></div></div>",
+            "url": "r8854",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Minerva E. McGonagall",
+            "spread": [
+                6
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Minerva E. McGonagall ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro6\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Malvavisco</strong>Sumas un punto de conocimiento en Alquimia.</span></div></div></div>",
+            "url": "r8869",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Mercury Merrythought",
+            "spread": [
+                6
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Mercury Merrythought ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro6\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Malvavisco</strong>Sumas un punto de conocimiento en Alquimia.</span></div></div></div>",
+            "url": "r8897",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Ruaan S. Patil",
+            "spread": [
+                5
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Ruaan S. Patil ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro5\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Galleta</strong>Ganas 50 Galeones.</span></div></div></div>",
+            "url": "r8905",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                17
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>H. Shun Parkinson ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro17\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Canela</strong>Sumas un punto de conocimiento en Curación.</span></div></div></div>",
+            "url": "r8907",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                13
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Alastor Moody ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro13\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Sandía</strong>Sumas un punto de conocimiento en Estudios Muggles.</span></div></div></div>",
+            "url": "r8939",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                9
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Montgomery Thatch ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro9\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Fresa</strong>Sumas un punto de conocimiento en Astronomía.</span></div></div></div>",
+            "url": "r9067",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Cora M. Vance",
+            "spread": [
+                19
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Cora M. Vance ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro19\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Regaliz</strong>Ganas 150 Galeones.</span></div></div></div>",
+            "url": "r9073",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Neptune E. Merrythought",
+            "spread": [
+                6
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Neptune E. Merrythought ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro6\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Malvavisco</strong>Sumas un punto de conocimiento en Alquimia.</span></div></div></div>",
+            "url": "r9097",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                13
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Alastor Moody ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro13\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Sandía</strong>Sumas un punto de conocimiento en Estudios Muggles.</span></div></div></div>",
+            "url": "r9110",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Minerva E. McGonagall",
+            "spread": [
+                20
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Minerva E. McGonagall ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro20\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Tutti frutti</strong>Ganas 200 Galeones y puedes indicar en qué conocimiento ganas un punto de conocimiento.</span></div></div></div>",
+            "url": "r9112",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                7
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>H. Shun Parkinson ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro7\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Coco</strong>Sumas un punto de conocimiento en Runas Antiguas.</span></div></div></div>",
+            "url": "r9114",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Regulus O. Black",
+            "spread": [
+                3
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Regulus O. Black ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro3\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Pasto</strong>Sumas un punto de conocimiento en CCM.</span></div></div></div>",
+            "url": "r9143",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Hankford B. Diggory",
+            "spread": [
+                20
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Hankford B. Diggory ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro20\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Tutti frutti</strong>Ganas 200 Galeones y puedes indicar en qué conocimiento ganas un punto de conocimiento.</span></div></div></div>",
+            "url": "r9163",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Cuthbert S. Selwyn",
+            "spread": [
+                4
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Cuthbert S. Selwyn ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro4\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Menta</strong>Sumas un punto de conocimiento en Herbología.</span></div></div></div>",
+            "url": "r9167",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                2
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Alastor Moody ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro2\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Tinta</strong>Sumas un punto de conocimiento en Historia de la Magia.</span></div></div></div>",
+            "url": "r9172",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Asteria C. Lestrange",
+            "spread": [
+                14
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Asteria C. Lestrange ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro14\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Arándano</strong>Sumas un punto de conocimiento en DCAO.</span></div></div></div>",
+            "url": "r9220",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Kaoru Satoo",
+            "spread": [
+                12
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Kaoru Satoo ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro12\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Manzana verde</strong>Sumas un punto de conocimiento en Encantamientos.</span></div></div></div>",
+            "url": "r9224",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Aidan N. Flamel",
+            "spread": [
+                9
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Aidan N. Flamel ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro9\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Fresa</strong>Sumas un punto de conocimiento en Astronomía.</span></div></div></div>",
+            "url": "r9226",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Ishwar S. Patil",
+            "spread": [
+                17
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Ishwar S. Patil ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro17\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Canela</strong>Sumas un punto de conocimiento en Curación.</span></div></div></div>",
+            "url": "r9234",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Venus M. Merrythought",
+            "spread": [
+                19
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Venus M. Merrythought ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro19\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Regaliz</strong>Ganas 150 Galeones.</span></div></div></div>",
+            "url": "r9245",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Vasilisa M. Kuznetzova",
+            "spread": [
+                14
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro14\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Arándano</strong>Sumas un punto de conocimiento en DCAO.</span></div></div></div>",
+            "url": "r9266",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                16
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>H. Shun Parkinson ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro16\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Miel</strong>Sumas un punto de conocimiento en Aritmancia.</span></div></div></div>",
+            "url": "r9276",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Orion A. Black",
+            "spread": [
+                6
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Orion A. Black ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro6\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Malvavisco</strong>Sumas un punto de conocimiento en Alquimia.</span></div></div></div>",
+            "url": "r9305",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Thaddeus L. Nott",
+            "spread": [
+                11
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Thaddeus L. Nott ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro11\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Limón</strong>Sumas un punto de conocimiento en Transformaciones.</span></div></div></div>",
+            "url": "r9324",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Iarlaith C. Sayre",
+            "spread": [
+                14
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Iarlaith C. Sayre ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro14\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Arándano</strong>Sumas un punto de conocimiento en DCAO.</span></div></div></div>",
+            "url": "r9364",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                19
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Alastor Moody ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro19\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Regaliz</strong>Ganas 150 Galeones.</span></div></div></div>",
+            "url": "r9368",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Minerva E. McGonagall",
+            "spread": [
+                2
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Minerva E. McGonagall ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro2\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Tinta</strong>Sumas un punto de conocimiento en Historia de la Magia.</span></div></div></div>",
+            "url": "r9375",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Ruaan S. Patil",
+            "spread": [
+                2
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Ruaan S. Patil ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro2\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Tinta</strong>Sumas un punto de conocimiento en Historia de la Magia.</span></div></div></div>",
+            "url": "r9380",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                8
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Alastor Moody ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro8\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Chocolate</strong>Sumas un punto de conocimiento en Arte.</span></div></div></div>",
+            "url": "r9400",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Theolonius D. Covey",
+            "spread": [
+                19
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Theolonius D. Covey ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro19\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Regaliz</strong>Ganas 150 Galeones.</span></div></div></div>",
+            "url": "r9405",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Neptune E. Merrythought",
+            "spread": [
+                6
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Neptune E. Merrythought ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro6\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Malvavisco</strong>Sumas un punto de conocimiento en Alquimia.</span></div></div></div>",
+            "url": "r9415",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                19
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Montgomery Thatch ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro19\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Regaliz</strong>Ganas 150 Galeones.</span></div></div></div>",
+            "url": "r9427",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Aria J. Fawley",
+            "spread": [
+                20
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Aria J. Fawley ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro20\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Tutti frutti</strong>Ganas 200 Galeones y puedes indicar en qué conocimiento ganas un punto de conocimiento.</span></div></div></div>",
+            "url": "r9431",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Cora M. Vance",
+            "spread": [
+                17
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Cora M. Vance ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro17\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Canela</strong>Sumas un punto de conocimiento en Curación.</span></div></div></div>",
+            "url": "r9468",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Neptune E. Merrythought",
+            "spread": [
+                11
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Neptune E. Merrythought ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro11\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Limón</strong>Sumas un punto de conocimiento en Transformaciones.</span></div></div></div>",
+            "url": "r9504",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Augusta O. Rookwood",
+            "spread": [
+                15
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Augusta O. Rookwood ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro15\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Caramelo</strong>Sumas un punto de conocimiento en Adivinación.</span></div></div></div>",
+            "url": "r9550",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Minerva E. McGonagall",
+            "spread": [
+                4
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Minerva E. McGonagall ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro4\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Menta</strong>Sumas un punto de conocimiento en Herbología.</span></div></div></div>",
+            "url": "r9564",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                9
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Alastor Moody ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro9\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Fresa</strong>Sumas un punto de conocimiento en Astronomía.</span></div></div></div>",
+            "url": "r9602",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Raven Walters",
+            "spread": [
+                4
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Raven Walters ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro4\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Menta</strong>Sumas un punto de conocimiento en Herbología.</span></div></div></div>",
+            "url": "r9610",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Regulus O. Black",
+            "spread": [
+                18
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Regulus O. Black ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro18\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Mora</strong>Sumas un punto de conocimiento en Vuelo.</span></div></div></div>",
+            "url": "r9635",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                12
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Montgomery Thatch ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro12\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Manzana verde</strong>Sumas un punto de conocimiento en Encantamientos.</span></div></div></div>",
+            "url": "r9718",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Hecat Elwood",
+            "spread": [
+                2
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Hecat Elwood ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro2\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Tinta</strong>Sumas un punto de conocimiento en Historia de la Magia.</span></div></div></div>",
+            "url": "r9724",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Maars Merrythought",
+            "spread": [
+                9
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Maars Merrythought ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro9\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Fresa</strong>Sumas un punto de conocimiento en Astronomía.</span></div></div></div>",
+            "url": "r9727",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                11
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>H. Shun Parkinson ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro11\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Limón</strong>Sumas un punto de conocimiento en Transformaciones.</span></div></div></div>",
+            "url": "r9805",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Hankford B. Diggory",
+            "spread": [
+                5
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Hankford B. Diggory ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro5\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Galleta</strong>Ganas 50 Galeones.</span></div></div></div>",
+            "url": "r9815",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Neptune E. Merrythought",
+            "spread": [
+                1
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Neptune E. Merrythought ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro1\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Cera de Oídos</strong>A Dumbledore tampoco le gustan, lo sentimos, aquí no hay nada.</span></div></div></div>",
+            "url": "r9821",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                15
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Alastor Moody ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro15\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Caramelo</strong>Sumas un punto de conocimiento en Adivinación.</span></div></div></div>",
+            "url": "r9838",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Cora M. Vance",
+            "spread": [
+                5
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Cora M. Vance ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro5\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Galleta</strong>Ganas 50 Galeones.</span></div></div></div>",
+            "url": "r9845",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Damien A. Ashford-Dempsey",
+            "spread": [
+                5
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Damien A. Ashford-Dempsey ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro5\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Galleta</strong>Ganas 50 Galeones.</span></div></div></div>",
+            "url": "r9856",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                18
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Alastor Moody ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro18\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Mora</strong>Sumas un punto de conocimiento en Vuelo.</span></div></div></div>",
+            "url": "r9923",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Ruaan S. Patil",
+            "spread": [
+                17
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Ruaan S. Patil ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro17\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Canela</strong>Sumas un punto de conocimiento en Curación.</span></div></div></div>",
+            "url": "r9941",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Theolonius D. Covey",
+            "spread": [
+                10
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Theolonius D. Covey ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro10\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Vainilla</strong>Sumas un punto de conocimiento en CCM.</span></div></div></div>",
+            "url": "r9985",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                12
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Montgomery Thatch ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro12\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Manzana verde</strong>Sumas un punto de conocimiento en Encantamientos.</span></div></div></div>",
+            "url": "r9987",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Hankford B. Diggory",
+            "spread": [
+                8
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Hankford B. Diggory ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro8\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Chocolate</strong>Sumas un punto de conocimiento en Arte.</span></div></div></div>",
+            "url": "r10028",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Danielle Dashwood",
+            "spread": [
+                8
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Danielle Dashwood ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro8\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Chocolate</strong>Sumas un punto de conocimiento en Arte.</span></div></div></div>",
+            "url": "r10041",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Augusta O. Rookwood",
+            "spread": [
+                16
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Augusta O. Rookwood ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro16\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Miel</strong>Sumas un punto de conocimiento en Aritmancia.</span></div></div></div>",
+            "url": "r10043",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Raven Walters",
+            "spread": [
+                11
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Raven Walters ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro11\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Limón</strong>Sumas un punto de conocimiento en Transformaciones.</span></div></div></div>",
+            "url": "r10047",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Aria J. Fawley",
+            "spread": [
+                5
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Aria J. Fawley ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro5\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Galleta</strong>Ganas 50 Galeones.</span></div></div></div>",
+            "url": "r10055",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                6
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>H. Shun Parkinson ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro6\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Malvavisco</strong>Sumas un punto de conocimiento en Alquimia.</span></div></div></div>",
+            "url": "r10068",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Kaoru Satoo",
+            "spread": [
+                12
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Kaoru Satoo ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro12\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Manzana verde</strong>Sumas un punto de conocimiento en Encantamientos.</span></div></div></div>",
+            "url": "r10078",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Asteria C. Lestrange",
+            "spread": [
+                9
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Asteria C. Lestrange ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro9\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Fresa</strong>Sumas un punto de conocimiento en Astronomía.</span></div></div></div>",
+            "url": "r10086",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Cora M. Vance",
+            "spread": [
+                19
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Cora M. Vance ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro19\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Regaliz</strong>Ganas 150 Galeones.</span></div></div></div>",
+            "url": "r10096",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Orion A. Black",
+            "spread": [
+                11
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Orion A. Black ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro11\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Limón</strong>Sumas un punto de conocimiento en Transformaciones.</span></div></div></div>",
+            "url": "r10101",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Neptune E. Merrythought",
+            "spread": [
+                18
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Neptune E. Merrythought ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro18\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Mora</strong>Sumas un punto de conocimiento en Vuelo.</span></div></div></div>",
+            "url": "r10106",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Vasilisa M. Kuznetzova",
+            "spread": [
+                19
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro19\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Regaliz</strong>Ganas 150 Galeones.</span></div></div></div>",
+            "url": "r10109",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Aidan N. Flamel",
+            "spread": [
+                16
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Aidan N. Flamel ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro16\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Miel</strong>Sumas un punto de conocimiento en Aritmancia.</span></div></div></div>",
+            "url": "r10115",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Thaddeus L. Nott",
+            "spread": [
+                1
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Thaddeus L. Nott ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro1\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Cera de Oídos</strong>A Dumbledore tampoco le gustan, lo sentimos, aquí no hay nada.</span></div></div></div>",
+            "url": "r10123",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Venus M. Merrythought",
+            "spread": [
+                16
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Venus M. Merrythought ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro16\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Miel</strong>Sumas un punto de conocimiento en Aritmancia.</span></div></div></div>",
+            "url": "r10129",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                10
+            ],
+            "title": "grageas",
+            "key": "",
+            "knowledge": "",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas\"><span>Alastor Moody ha lanzado los dados \"grageas\"</span><div class=\"dice-results\"><span class=\"roll-result nro10\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Vainilla</strong>Sumas un punto de conocimiento en CCM.</span></div></div></div>",
+            "url": "r10131",
+            "simpleTitle": "Tema Extra (744)",
+            "space": "Zona de Grageas"
         }
     ];
 

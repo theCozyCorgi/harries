@@ -8990,6 +8990,27 @@ article {
   margin-bottom: -5px;
 }
 
+/* grageas limitadas: bloque de trato y truco */
+.roll-grageas .roll-result>div {
+  flex-basis: 100%;
+  width: 100%;
+  text-align: left;
+}
+
+.roll-grageas .roll-result>div strong {
+  display: block;
+  color: var(--post-user);
+  font-size: 10px;
+  letter-spacing: .1em;
+  margin-bottom: 1px;
+}
+
+.roll-grageas .roll-result>div>div+div {
+  margin-top: 6px;
+  padding-top: 6px;
+  border-top: 1px dashed rgba(0, 0, 0, .15);
+}
+
 .roll-grageas .nro1 {
   --post-user: #929287;
 }
