@@ -128180,13 +128180,17 @@ const DBModule = (function () {
                         metaData = dicePackage.meta;
                     }
 
+                    // title/key/knowledge/type son arrays (key/knowledge/type en paralelo); acepta string por si DiceModule es viejo
+                    const aLista = (v) => Array.isArray(v) ? v : (v ? [v] : []);
+                    const titulos = aLista(metaData.target);
+
                     dynamicData.dices.push({
                         pitcher,
                         spread,
-                        title: metaData.target || diceTitle,
-                        key: metaData.key || "",
-                        knowledge: metaData.know || "",
-                        type: metaData.type || "",
+                        title: titulos.length ? titulos : [diceTitle],
+                        key: aLista(metaData.key),
+                        knowledge: aLista(metaData.know),
+                        type: aLista(metaData.type),
                         html: htmlResult,
                         url: 'r' + postId.replace('p', ''),
                         simpleTitle: dynamicData.topics[topicKey].simpleTitle,
