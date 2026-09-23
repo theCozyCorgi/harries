@@ -159184,8 +159184,8 @@ const DBModule = (function () {
             // 1. Creamos el contenedor como un objeto jQuery, no como texto plano
             const $widget = $('<div class="updateDB db-update-widget"><span class="update-message"></span>'
                 + '<div class="update-buttons" style="display: flex; gap: 6px;">'
-                + '<div class="update-button update-soft"><i class="fa-jelly-duo fa-regular fa-arrow-rotate-right"></i></div>'
-                + '<div class="update-button update-hard"><i class="fa-jelly-duo fa-regular fa-trash-arrow-up"></i></div>'
+                + '<div class="update-button update-soft"><i class="fa-solid fa-magnifying-glass-arrows-rotate"></i></div>'
+                + '<div class="update-button update-hard"><i class="fa-solid fa-broom-wide"></i></div>'
                 + '</div></div>');
 
             // 2. Buscamos las partes internas
@@ -159212,8 +159212,8 @@ const DBModule = (function () {
 
             $updateBox.append(`<date>${dia}/${mes}/${anio} ${horas}:${minutos}:${segundos}</date>`);
             $updateBox.append('<zones>Zonas Actualizadas: ' + (last.zones) + ' / 18</zones>');
-            $widget.find('.update-soft').attr('title', 'Actualizar Base de Datos (solo cambios)');
-            $widget.find('.update-hard').attr('title', 'Borrar y reconstruir Base de Datos');
+            $widget.find('.update-soft').attr('title', 'Actualizar cambios');
+            $widget.find('.update-hard').attr('title', 'Resetear información');
 
             // 4. Guardamos la referencia al DBModule para usarla dentro del click
             const self = this;
