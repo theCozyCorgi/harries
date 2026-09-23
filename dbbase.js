@@ -158553,8 +158553,8 @@ const DBModule = (function () {
 
             $updateBox.append(`<date>${dia}/${mes}/${anio} ${horas}:${minutos}:${segundos}</date>`);
             $updateBox.append('<zones>Zonas Actualizadas: ' + (last.zones) + ' / 18</zones>');
-            $widget.find('.update-soft').attr('title', 'Actualizar cambios');
-            $widget.find('.update-hard').attr('title', 'Resetear información');
+            $widget.find('.update-soft').attr('title', 'Actualizar temas');
+            $widget.find('.update-hard').attr('title', 'Limpiar y actualizar temas');
 
             // 4. Guardamos la referencia al DBModule para usarla dentro del click
             const self = this;
