@@ -59030,8 +59030,8 @@ const DBModule = (function () {
         },
         "1032": {
             "space": "el pensadero",
-            "url": "/t1032-1953-02-24-practica-the-sun-goes-down",
-            "simpleTitle": "Práctica: the sun goes down",
+            "url": "/t1032-practica-the-sun-goes-down-viridian",
+            "simpleTitle": "práctica | the sun goes down | viridian",
             "creator": "Minerva E. McGonagall",
             "replyCount": 22,
             "posts": [
@@ -59932,6 +59932,173 @@ const DBModule = (function () {
             ],
             "date": "22/02/1953",
             "location": "Biblioteca"
+        },
+        "1060": {
+            "space": "el pensadero",
+            "url": "/t1060-yo-soy-mas-de-sinatra-jrg",
+            "simpleTitle": "yo soy más de sinatra ★ jrg",
+            "creator": "Jupiter Merrythought",
+            "replyCount": 24,
+            "posts": [
+                {
+                    "url": "r14510",
+                    "author": "Jupiter Merrythought",
+                    "date": "05/03/2026",
+                    "words": 312
+                },
+                {
+                    "url": "r15118",
+                    "author": "Jasper R. Gryffith",
+                    "date": "17/03/2026",
+                    "words": 216
+                },
+                {
+                    "url": "r15126",
+                    "author": "Jupiter Merrythought",
+                    "date": "17/03/2026",
+                    "words": 352
+                },
+                {
+                    "url": "r15172",
+                    "author": "Jasper R. Gryffith",
+                    "date": "18/03/2026",
+                    "words": 342
+                },
+                {
+                    "url": "r15518",
+                    "author": "Jupiter Merrythought",
+                    "date": "26/03/2026",
+                    "words": 312
+                },
+                {
+                    "url": "r16195",
+                    "author": "Jasper R. Gryffith",
+                    "date": "07/04/2026",
+                    "words": 360
+                },
+                {
+                    "url": "r16209",
+                    "author": "Jupiter Merrythought",
+                    "date": "07/04/2026",
+                    "words": 379
+                },
+                {
+                    "url": "r16313",
+                    "author": "Jasper R. Gryffith",
+                    "date": "10/04/2026",
+                    "words": 423
+                },
+                {
+                    "url": "r16333",
+                    "author": "Jupiter Merrythought",
+                    "date": "10/04/2026",
+                    "words": 425
+                },
+                {
+                    "url": "r16985",
+                    "author": "Jasper R. Gryffith",
+                    "date": "26/04/2026",
+                    "words": 366
+                },
+                {
+                    "url": "r17086",
+                    "author": "Jupiter Merrythought",
+                    "date": "28/04/2026",
+                    "words": 485
+                },
+                {
+                    "url": "r17415",
+                    "author": "Jasper R. Gryffith",
+                    "date": "02/05/2026",
+                    "words": 316
+                },
+                {
+                    "url": "r17482",
+                    "author": "Jupiter Merrythought",
+                    "date": "03/05/2026",
+                    "words": 404
+                },
+                {
+                    "url": "r18323",
+                    "author": "Jasper R. Gryffith",
+                    "date": "14/05/2026",
+                    "words": 564
+                },
+                {
+                    "url": "r18413",
+                    "author": "Jupiter Merrythought",
+                    "date": "15/05/2026",
+                    "words": 697
+                },
+                {
+                    "url": "r18991",
+                    "author": "Jasper R. Gryffith",
+                    "date": "26/05/2026",
+                    "words": 366
+                },
+                {
+                    "url": "r19019",
+                    "author": "Jupiter Merrythought",
+                    "date": "26/05/2026",
+                    "words": 375
+                },
+                {
+                    "url": "r19522",
+                    "author": "Jasper R. Gryffith",
+                    "date": "02/06/2026",
+                    "words": 361
+                },
+                {
+                    "url": "r19533",
+                    "author": "Jupiter Merrythought",
+                    "date": "02/06/2026",
+                    "words": 554
+                },
+                {
+                    "url": "r19803",
+                    "author": "Jasper R. Gryffith",
+                    "date": "11/06/2026",
+                    "words": 491
+                },
+                {
+                    "url": "r14510",
+                    "author": "Jupiter Merrythought",
+                    "date": "05/03/2026",
+                    "words": 312
+                },
+                {
+                    "url": "r19814",
+                    "author": "Jupiter Merrythought",
+                    "date": "11/06/2026",
+                    "words": 482
+                },
+                {
+                    "url": "r21081",
+                    "author": "Jasper R. Gryffith",
+                    "date": "29/07/2026",
+                    "words": 462
+                },
+                {
+                    "url": "r21092",
+                    "author": "Jupiter Merrythought",
+                    "date": "29/07/2026",
+                    "words": 393
+                },
+                {
+                    "url": "r21965",
+                    "author": "Jasper R. Gryffith",
+                    "date": "18/08/2026",
+                    "words": 432
+                },
+                {
+                    "url": "r22220",
+                    "author": "Jupiter Merrythought",
+                    "date": "25/08/2026",
+                    "words": 262
+                }
+            ],
+            "date": "10/02/1953",
+            "location": "Casa de Jasper"
         },
         "1064": {
             "space": "el pensadero",
@@ -63710,6 +63877,167 @@ const DBModule = (function () {
             "date": "03/03/1953",
             "location": "Las Tres Escobas"
         },
+        "1134": {
+            "space": "el pensadero",
+            "url": "/t1134-1953-03-29-i-ll-leave-the-porch-light-on",
+            "simpleTitle": "i'll leave the porch light on",
+            "creator": "Neptune E. Merrythought",
+            "replyCount": 23,
+            "posts": [
+                {
+                    "url": "r16033",
+                    "author": "Neptune E. Merrythought",
+                    "date": "02/04/2026",
+                    "words": 243
+                },
+                {
+                    "url": "r16077",
+                    "author": "Jupiter Merrythought",
+                    "date": "03/04/2026",
+                    "words": 355
+                },
+                {
+                    "url": "r16533",
+                    "author": "Neptune E. Merrythought",
+                    "date": "15/04/2026",
+                    "words": 424
+                },
+                {
+                    "url": "r16562",
+                    "author": "Jupiter Merrythought",
+                    "date": "15/04/2026",
+                    "words": 357
+                },
+                {
+                    "url": "r16999",
+                    "author": "Neptune E. Merrythought",
+                    "date": "26/04/2026",
+                    "words": 340
+                },
+                {
+                    "url": "r17087",
+                    "author": "Jupiter Merrythought",
+                    "date": "28/04/2026",
+                    "words": 324
+                },
+                {
+                    "url": "r17429",
+                    "author": "Neptune E. Merrythought",
+                    "date": "03/05/2026",
+                    "words": 350
+                },
+                {
+                    "url": "r17493",
+                    "author": "Jupiter Merrythought",
+                    "date": "03/05/2026",
+                    "words": 470
+                },
+                {
+                    "url": "r17771",
+                    "author": "Neptune E. Merrythought",
+                    "date": "07/05/2026",
+                    "words": 359
+                },
+                {
+                    "url": "r17922",
+                    "author": "Jupiter Merrythought",
+                    "date": "08/05/2026",
+                    "words": 440
+                },
+                {
+                    "url": "r18640",
+                    "author": "Neptune E. Merrythought",
+                    "date": "19/05/2026",
+                    "words": 278
+                },
+                {
+                    "url": "r18674",
+                    "author": "Jupiter Merrythought",
+                    "date": "19/05/2026",
+                    "words": 518
+                },
+                {
+                    "url": "r19553",
+                    "author": "Neptune E. Merrythought",
+                    "date": "03/06/2026",
+                    "words": 271
+                },
+                {
+                    "url": "r19693",
+                    "author": "Jupiter Merrythought",
+                    "date": "07/06/2026",
+                    "words": 285
+                },
+                {
+                    "url": "r19974",
+                    "author": "Neptune E. Merrythought",
+                    "date": "17/06/2026",
+                    "words": 284
+                },
+                {
+                    "url": "r20303",
+                    "author": "Jupiter Merrythought",
+                    "date": "28/06/2026",
+                    "words": 199
+                },
+                {
+                    "url": "r20767",
+                    "author": "Neptune E. Merrythought",
+                    "date": "15/07/2026",
+                    "words": 236
+                },
+                {
+                    "url": "r20770",
+                    "author": "Jupiter Merrythought",
+                    "date": "15/07/2026",
+                    "words": 460
+                },
+                {
+                    "url": "r21607",
+                    "author": "Neptune E. Merrythought",
+                    "date": "09/08/2026",
+                    "words": 416
+                },
+                {
+                    "url": "r21618",
+                    "author": "Jupiter Merrythought",
+                    "date": "09/08/2026",
+                    "words": 318
+                },
+                {
+                    "url": "r16033",
+                    "author": "Neptune E. Merrythought",
+                    "date": "02/04/2026",
+                    "words": 243
+                },
+                {
+                    "url": "r22041",
+                    "author": "Neptune E. Merrythought",
+                    "date": "21/08/2026",
+                    "words": 435
+                },
+                {
+                    "url": "r22221",
+                    "author": "Jupiter Merrythought",
+                    "date": "25/08/2026",
+                    "words": 348
+                },
+                {
+                    "url": "r22892",
+                    "author": "Neptune E. Merrythought",
+                    "date": "14/09/2026",
+                    "words": 333
+                },
+                {
+                    "url": "r23279",
+                    "author": "Jupiter Merrythought",
+                    "date": "Hoy a las 16:49",
+                    "words": 288
+                }
+            ],
+            "date": "29/03/1953",
+            "location": "The planetarium"
+        },
         "1137": {
             "space": "el pensadero",
             "url": "/t1137-1953-03-19-northern-attitude",
@@ -64197,7 +64525,7 @@ const DBModule = (function () {
         "1151": {
             "space": "el pensadero",
             "url": "/t1151-1953-03-11-practica-winds-of-change",
-            "simpleTitle": "Práctica: winds of change",
+            "simpleTitle": "práctica: winds of change",
             "creator": "Findlay McCrory",
             "replyCount": 28,
             "posts": [
@@ -64384,137 +64712,6 @@ const DBModule = (function () {
             ],
             "date": "11/03/1953",
             "location": "Campo de Quidditch"
-        },
-        "1152": {
-            "space": "el pensadero",
-            "url": "/t1152-1953-03-21-country-bumpkin",
-            "simpleTitle": "country bumpkin",
-            "creator": "Findlay McCrory",
-            "replyCount": 19,
-            "posts": [
-                {
-                    "url": "r16385",
-                    "author": "Findlay McCrory",
-                    "date": "12/04/2026",
-                    "words": 245
-                },
-                {
-                    "url": "r16430",
-                    "author": "Alastor Moody",
-                    "date": "13/04/2026",
-                    "words": 250
-                },
-                {
-                    "url": "r16870",
-                    "author": "H. Shun Parkinson",
-                    "date": "23/04/2026",
-                    "words": 258
-                },
-                {
-                    "url": "r17124",
-                    "author": "Findlay McCrory",
-                    "date": "29/04/2026",
-                    "words": 537
-                },
-                {
-                    "url": "r17291",
-                    "author": "Alastor Moody",
-                    "date": "01/05/2026",
-                    "words": 360
-                },
-                {
-                    "url": "r17877",
-                    "author": "H. Shun Parkinson",
-                    "date": "08/05/2026",
-                    "words": 282
-                },
-                {
-                    "url": "r18052",
-                    "author": "Findlay McCrory",
-                    "date": "10/05/2026",
-                    "words": 438
-                },
-                {
-                    "url": "r18080",
-                    "author": "Alastor Moody",
-                    "date": "10/05/2026",
-                    "words": 329
-                },
-                {
-                    "url": "r18867",
-                    "author": "H. Shun Parkinson",
-                    "date": "24/05/2026",
-                    "words": 361
-                },
-                {
-                    "url": "r19157",
-                    "author": "Findlay McCrory",
-                    "date": "28/05/2026",
-                    "words": 566
-                },
-                {
-                    "url": "r19246",
-                    "author": "Alastor Moody",
-                    "date": "29/05/2026",
-                    "words": 465
-                },
-                {
-                    "url": "r19675",
-                    "author": "H. Shun Parkinson",
-                    "date": "07/06/2026",
-                    "words": 297
-                },
-                {
-                    "url": "r20421",
-                    "author": "Findlay McCrory",
-                    "date": "01/07/2026",
-                    "words": 355
-                },
-                {
-                    "url": "r20816",
-                    "author": "Alastor Moody",
-                    "date": "16/07/2026",
-                    "words": 277
-                },
-                {
-                    "url": "r20817",
-                    "author": "The Familiars",
-                    "date": "16/07/2026",
-                    "words": 0
-                },
-                {
-                    "url": "r21717",
-                    "author": "H. Shun Parkinson",
-                    "date": "12/08/2026",
-                    "words": 326
-                },
-                {
-                    "url": "r22426",
-                    "author": "Findlay McCrory",
-                    "date": "02/09/2026",
-                    "words": 441
-                },
-                {
-                    "url": "r22659",
-                    "author": "Alastor Moody",
-                    "date": "07/09/2026",
-                    "words": 303
-                },
-                {
-                    "url": "r22781",
-                    "author": "H. Shun Parkinson",
-                    "date": "12/09/2026",
-                    "words": 251
-                },
-                {
-                    "url": "r22927",
-                    "author": "Findlay McCrory",
-                    "date": "14/09/2026",
-                    "words": 210
-                }
-            ],
-            "date": "21/03/1953",
-            "location": "Death Fearann"
         },
         "1154": {
             "space": "el pensadero",
@@ -67651,6 +67848,125 @@ const DBModule = (function () {
             ],
             "date": "12/03/1953",
             "location": "Biblioteca"
+        },
+        "1184": {
+            "space": "el pensadero",
+            "url": "/t1184-first-time-on-earth-jupiter",
+            "simpleTitle": "first time on earth | jupiter",
+            "creator": "Theolonius D. Covey",
+            "replyCount": 17,
+            "posts": [
+                {
+                    "url": "r17163",
+                    "author": "Theolonius D. Covey",
+                    "date": "Jue Abr 30, 2026 4:32 am",
+                    "words": 213
+                },
+                {
+                    "url": "r17303",
+                    "author": "Jupiter Merrythought",
+                    "date": "Vie Mayo 01, 2026 3:17 pm",
+                    "words": 168
+                },
+                {
+                    "url": "r18041",
+                    "author": "Theolonius D. Covey",
+                    "date": "Dom Mayo 10, 2026 4:53 am",
+                    "words": 226
+                },
+                {
+                    "url": "r18148",
+                    "author": "Jupiter Merrythought",
+                    "date": "Lun Mayo 11, 2026 3:43 pm",
+                    "words": 335
+                },
+                {
+                    "url": "r18965",
+                    "author": "Theolonius D. Covey",
+                    "date": "Mar Mayo 26, 2026 3:41 am",
+                    "words": 268
+                },
+                {
+                    "url": "r18966",
+                    "author": "The Familiars",
+                    "date": "Mar Mayo 26, 2026 3:41 am",
+                    "words": 0
+                },
+                {
+                    "url": "r19018",
+                    "author": "Jupiter Merrythought",
+                    "date": "Mar Mayo 26, 2026 5:48 pm",
+                    "words": 350
+                },
+                {
+                    "url": "r19746",
+                    "author": "Theolonius D. Covey",
+                    "date": "Mar Jun 09, 2026 3:41 am",
+                    "words": 246
+                },
+                {
+                    "url": "r19805",
+                    "author": "Jupiter Merrythought",
+                    "date": "Jue Jun 11, 2026 10:09 am",
+                    "words": 210
+                },
+                {
+                    "url": "r20263",
+                    "author": "Theolonius D. Covey",
+                    "date": "Sáb Jun 27, 2026 3:08 am",
+                    "words": 221
+                },
+                {
+                    "url": "r20736",
+                    "author": "Jupiter Merrythought",
+                    "date": "Mar Jul 14, 2026 10:38 am",
+                    "words": 268
+                },
+                {
+                    "url": "r21353",
+                    "author": "Theolonius D. Covey",
+                    "date": "Lun Ago 03, 2026 2:02 am",
+                    "words": 356
+                },
+                {
+                    "url": "r21405",
+                    "author": "Jupiter Merrythought",
+                    "date": "Lun Ago 03, 2026 7:50 pm",
+                    "words": 455
+                },
+                {
+                    "url": "r21897",
+                    "author": "Theolonius D. Covey",
+                    "date": "Dom Ago 16, 2026 3:37 am",
+                    "words": 266
+                },
+                {
+                    "url": "r22219",
+                    "author": "Jupiter Merrythought",
+                    "date": "Mar Ago 25, 2026 8:14 pm",
+                    "words": 260
+                },
+                {
+                    "url": "r22665",
+                    "author": "Theolonius D. Covey",
+                    "date": "Mar Sep 08, 2026 1:07 am",
+                    "words": 255
+                },
+                {
+                    "url": "r22932",
+                    "author": "Jupiter Merrythought",
+                    "date": "Lun Sep 14, 2026 4:05 pm",
+                    "words": 248
+                },
+                {
+                    "url": "r23211",
+                    "author": "Theolonius D. Covey",
+                    "date": "Ayer a las 3:33 am",
+                    "words": 256
+                }
+            ],
+            "date": "18/03/1953",
+            "location": "Callejón Diagon"
         },
         "1196": {
             "space": "el pensadero",
@@ -73345,7 +73661,7 @@ const DBModule = (function () {
         "1305": {
             "space": "el pensadero",
             "url": "/t1305-1953-05-02-evento-atrapa-la-bandera-grupo-celeste",
-            "simpleTitle": "Evento: atrapa la bandera - grupo celeste",
+            "simpleTitle": "evento: atrapa la bandera - grupo celeste",
             "creator": "Black Wave",
             "replyCount": 65,
             "posts": [
@@ -151841,21 +152157,13 @@ const DBModule = (function () {
             "spread": [
                 15
             ],
-            "title": [
-                "actions"
-            ],
-            "key": [
-                "largada"
-            ],
-            "knowledge": [
-                ""
-            ],
-            "type": [
-                ""
-            ],
+            "title": "actions",
+            "key": "largada",
+            "knowledge": "",
+            "type": "",
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Hankford B. Diggory ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">15</span></div></div></div>",
             "url": "r20006",
-            "simpleTitle": "Evento: atrapa la bandera - grupo celeste",
+            "simpleTitle": "evento: atrapa la bandera - grupo celeste",
             "space": "el pensadero"
         },
         {
@@ -151863,21 +152171,13 @@ const DBModule = (function () {
             "spread": [
                 6
             ],
-            "title": [
-                "actions"
-            ],
-            "key": [
-                "paso #1: ir al sur"
-            ],
-            "knowledge": [
-                ""
-            ],
-            "type": [
-                ""
-            ],
+            "title": "actions",
+            "key": "paso #1: ir al sur",
+            "knowledge": "",
+            "type": "",
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">6</span></div></div></div>",
             "url": "r20009",
-            "simpleTitle": "Evento: atrapa la bandera - grupo celeste",
+            "simpleTitle": "evento: atrapa la bandera - grupo celeste",
             "space": "el pensadero"
         },
         {
@@ -151885,21 +152185,13 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "title": [
-                "actions"
-            ],
-            "key": [
-                "reducio"
-            ],
-            "knowledge": [
-                "encantamientos"
-            ],
-            "type": [
-                "encantamiento, neutral"
-            ],
+            "title": "actions",
+            "key": "reducio",
+            "knowledge": "encantamientos",
+            "type": "encantamiento, neutral",
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Mercury Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"reducio\" (20)</strong><span>No sucede nada, capaz este hechizo no es para ti.</span></span></div></div></div>",
             "url": "r20017",
-            "simpleTitle": "Evento: atrapa la bandera - grupo celeste",
+            "simpleTitle": "evento: atrapa la bandera - grupo celeste",
             "space": "el pensadero"
         },
         {
@@ -151907,21 +152199,13 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "title": [
-                "actions"
-            ],
-            "key": [
-                "validar paso #1 dirección sur"
-            ],
-            "knowledge": [
-                ""
-            ],
-            "type": [
-                ""
-            ],
+            "title": "actions",
+            "key": "validar paso #1 dirección sur",
+            "knowledge": "",
+            "type": "",
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jasper R. Gryffith ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">16</span></div></div></div>",
             "url": "r20048",
-            "simpleTitle": "Evento: atrapa la bandera - grupo celeste",
+            "simpleTitle": "evento: atrapa la bandera - grupo celeste",
             "space": "el pensadero"
         },
         {
@@ -151929,256 +152213,111 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "title": [
-                "actions"
-            ],
-            "key": [
-                "paso #2: ir al sur"
-            ],
-            "knowledge": [
-                ""
-            ],
-            "type": [
-                ""
-            ],
+            "title": "actions",
+            "key": "paso #2: ir al sur",
+            "knowledge": "",
+            "type": "",
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Gareth D. Yaxley ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">4</span></div></div></div>",
             "url": "r20065",
-            "simpleTitle": "Evento: atrapa la bandera - grupo celeste",
+            "simpleTitle": "evento: atrapa la bandera - grupo celeste",
             "space": "el pensadero"
         },
         {
             "pitcher": "Hankford B. Diggory",
             "spread": [
-                10,
-                6,
-                13,
-                15
-            ],
-            "title": [
-                "creatures",
-                "actions"
-            ],
-            "key": [
-                "tebo",
-                "protego",
-                "resonare numeris",
-                "tebo"
-            ],
-            "knowledge": [
-                "criaturas",
-                "dcao",
-                "aritmancia",
-                "criaturas"
-            ],
-            "type": [
-                "",
-                "encantamiento, defensivo",
-                "encantamiento, ofensivo",
-                ""
-            ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Hankford B. Diggory ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"tebo\" (10)</strong><ataque>Aparece de la nada y golpea con violencia. Adiciona +9 en Ataque.</ataque><defensa>Se hace invisible justo antes del golpe. Adiciona +7 en la Defensa.</defensa></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"protego\" (6)</strong><span>El escudo bloquea la mayoría de los ataques mágicos. Reduce <em>+9</em> (75% del conocimiento en DCAO) puntos el ataque contrario y elimina los efectos secundarios de los hechizos.<br><br>El PNJ \"tebo\" repele los hechizos de tipo \"ilusión\". El ataque se reduce en su totalidad a cero.</span></span><span class=\"action-result\" data-conocimientos=\"aritmancia\"><strong>Resultado  #3 \"resonare numeris\" (13)</strong><span>La vibración tiene un efecto perceptible pero limitado. Adiciona <em>+8</em> (50% del conocimiento en ARITMANCIA) en daño.</span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #4 \"tebo\" (15)</strong><ataque>Aparece de la nada y golpea con violencia. Adiciona +9 en Ataque.</ataque><defensa>Se hace invisible justo antes del golpe. Adiciona +7 en la Defensa.</defensa></span></div></div></div>",
-            "url": "r20137",
-            "simpleTitle": "Evento: atrapa la bandera - grupo celeste",
-            "space": "el pensadero"
-        },
-        {
-            "pitcher": "Vasilisa M. Kuznetzova",
-            "spread": [
-                20,
-                8,
-                12,
-                18
-            ],
-            "title": [
-                "creatures",
-                "actions"
-            ],
-            "key": [
-                "tebo",
-                "protego",
-                "flipendo",
-                "tebo"
-            ],
-            "knowledge": [
-                "criaturas",
-                "dcao",
-                "dcao",
-                "criaturas"
-            ],
-            "type": [
-                "",
-                "encantamiento, defensivo",
-                "maleficio, ofensivo",
-                ""
-            ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"tebo\" (20)</strong><ataque>Golpea con invisibilidad total y fuerza imparable. Adiciona +11 en Ataque.</ataque><defensa>Desaparece del plano físico y evade todo daño. No recibe daño.</defensa></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"protego\" (8)</strong><span>El escudo es extremadamente resistente. Reduce el ataque en <em>+6</em> (40% del conocimiento en DCAO) puntos adicionales.<br><br>El PNJ \"tebo\" repele los hechizos de tipo \"ilusión\". El ataque se reduce en su totalidad a cero.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #3 \"flipendo\" (12)</strong><span>El oponente es lanzado por los aires con gran fuerza, impactando contra una superficie. Adiciona <em>+6</em> (40% del conocimiento en DCAO) puntos adicionales de daño al objetivo.</span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #4 \"tebo\" (18)</strong><ataque>Aparece de la nada y golpea con violencia. Adiciona +9 en Ataque.</ataque><defensa>Se hace invisible justo antes del golpe. Adiciona +7 en la Defensa.</defensa></span></div></div></div>",
-            "url": "r20214",
-            "simpleTitle": "Evento: atrapa la bandera - grupo celeste",
-            "space": "el pensadero"
-        },
-        {
-            "pitcher": "Mercury Merrythought",
-            "spread": [
-                16,
-                13,
-                3,
-                13
-            ],
-            "title": [
-                "creatures",
-                "actions"
-            ],
-            "key": [
-                "tebo",
-                "glacius",
-                "depulso",
-                "tebo"
-            ],
-            "knowledge": [
-                "criaturas",
-                "encantamientos",
-                "encantamientos",
-                "criaturas"
-            ],
-            "type": [
-                "",
-                "encantamiento, defensivo",
-                "encantamiento, ofensivo",
-                ""
-            ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Mercury Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"tebo\" (16)</strong><ataque>Aparece de la nada y golpea con violencia. Adiciona +9 en Ataque.</ataque><defensa>Se hace invisible justo antes del golpe. Adiciona +7 en la Defensa.</defensa></span><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #2 \"glacius\" (13)</strong><span>No sucede nada, capaz este hechizo no es para ti.</span></span><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #3 \"depulso\" (3)</strong><span>No sucede nada, capaz este hechizo no es para ti.</span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #4 \"tebo\" (13)</strong><ataque>Aparece de la nada y golpea con violencia. Adiciona +9 en Ataque.</ataque><defensa>Se hace invisible justo antes del golpe. Adiciona +7 en la Defensa.</defensa></span></div></div></div>",
-            "url": "r20273",
-            "simpleTitle": "Evento: atrapa la bandera - grupo celeste",
-            "space": "el pensadero"
-        },
-        {
-            "pitcher": "Jasper R. Gryffith",
-            "spread": [
-                9,
-                20,
-                18,
-                2
-            ],
-            "title": [
-                "creatures",
-                "actions"
-            ],
-            "key": [
-                "tebo",
-                "protego",
-                "immobulus",
-                "tebo"
-            ],
-            "knowledge": [
-                "criaturas",
-                "dcao",
-                "dcao",
-                "criaturas"
-            ],
-            "type": [
-                "",
-                "encantamiento, defensivo",
-                "encantamiento, defensivo, ofensivo",
-                ""
-            ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jasper R. Gryffith ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"tebo\" (9)</strong><ataque>Carga usando su fuerza bruta. Adiciona +7 en Ataque.</ataque><defensa>Se difumina, reduciendo el daño recibido. Adiciona +5 en la Defensa.</defensa></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"protego\" (20)</strong><span>El escudo es extremadamente resistente. Reduce el ataque en <em>+8</em> (40% del conocimiento en DCAO) puntos adicionales.<br><br>El PNJ \"tebo\" repele los hechizos de tipo \"ilusión\". El ataque se reduce en su totalidad a cero.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #3 \"immobulus\" (18)</strong><span>El hechizo puede paralizar a un único objetivo o, si el lanzador lo decide, a todo un grupo de objetivos cercanos entre sí, tal como se usa para inmovilizar de una vez a un enjambre completo de criaturas pequeñas. Cada objetivo alcanzado queda paralizado durante <em>+21</em> (100% del conocimiento en DCAO) turnos y tarda más en recuperar el control de su cuerpo, donde no podrá realizar acciones, o hasta que un personaje lo libere si se usa como ataque, o impide el ataque, reduciendo el mismo a cero, si se usa como defensa adicionando +5 puntos en la siguiente acción del defensor.</span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #4 \"tebo\" (2)</strong><ataque>Carga usando su fuerza bruta. Adiciona +7 en Ataque.</ataque><defensa>Se difumina, reduciendo el daño recibido. Adiciona +5 en la Defensa.</defensa></span></div></div></div>",
-            "url": "r20417",
-            "simpleTitle": "Evento: atrapa la bandera - grupo celeste",
-            "space": "el pensadero"
-        },
-        {
-            "pitcher": "Hankford B. Diggory",
-            "spread": [
-                13,
-                17,
-                13
-            ],
-            "title": [
-                "actions",
-                "creatures"
-            ],
-            "key": [
-                "fulgari",
-                "tebo",
-                "immobulus"
-            ],
-            "knowledge": [
-                "dcao",
-                "criaturas",
-                "dcao"
-            ],
-            "type": [
-                "maleficio, ofensivo",
-                "",
-                "encantamiento, defensivo, ofensivo"
-            ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Hankford B. Diggory ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"fulgari\" (13)</strong><span>Las cuerdas atan firmemente al objetivo, restringiendo su movimiento. Incapacita todas las acciones de la víctima hasta que no se la libere.</span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #2 \"tebo\" (17)</strong><ataque>Aparece de la nada y golpea con violencia. Adiciona +9 en Ataque.</ataque><defensa>Se hace invisible justo antes del golpe. Adiciona +7 en la Defensa.</defensa></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #3 \"immobulus\" (13)</strong><span>El hechizo puede paralizar a un único objetivo o, si el lanzador lo decide, a todo un grupo de objetivos cercanos entre sí, tal como se usa para inmovilizar de una vez a un enjambre completo de criaturas pequeñas. Cada objetivo alcanzado queda paralizado durante <em>+13</em> (100% del conocimiento en DCAO) turnos y tarda más en recuperar el control de su cuerpo, donde no podrá realizar acciones, o hasta que un personaje lo libere si se usa como ataque, o impide el ataque, reduciendo el mismo a cero, si se usa como defensa adicionando +5 puntos en la siguiente acción del defensor.</span></span></div></div></div>",
-            "url": "r20431",
-            "simpleTitle": "Evento: atrapa la bandera - grupo celeste",
-            "space": "el pensadero"
-        },
-        {
-            "pitcher": "Vasilisa M. Kuznetzova",
-            "spread": [
-                8,
-                11,
-                15,
-                6
-            ],
-            "title": [
-                "creatures",
-                "actions"
-            ],
-            "key": [
-                "tebo",
-                "fumos",
-                "desmaius",
-                "tebo"
-            ],
-            "knowledge": [
-                "criaturas",
-                "dcao",
-                "dcao",
-                "criaturas"
-            ],
-            "type": [
-                "",
-                "encantamiento, defensivo",
-                "encantamiento, ofensivo",
-                ""
-            ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"tebo\" (8)</strong><ataque>Carga usando su fuerza bruta. Adiciona +7 en Ataque.</ataque><defensa>Se difumina, reduciendo el daño recibido. Adiciona +5 en la Defensa.</defensa></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"fumos\" (11)</strong><span>El humo es espeso y persistente, dificultando la visión y la respiración de todos los adversarios presentes en la escena. El lanzador y quienes estén junto a él Adicionan +5 en defensa durante <em>3</em> (El 50% de DES) turnos, mientras dure la cobertura.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #3 \"desmaius\" (15)</strong><span>El objetivo cae inconsciente durante un período prolongado. La víctima pierde 10 PV y pierde sus siguientes 5 acciones consecutivas al ataque.</span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #4 \"tebo\" (6)</strong><ataque>Carga usando su fuerza bruta. Adiciona +7 en Ataque.</ataque><defensa>Se difumina, reduciendo el daño recibido. Adiciona +5 en la Defensa.</defensa></span></div></div></div>",
-            "url": "r20474",
-            "simpleTitle": "Evento: atrapa la bandera - grupo celeste",
-            "space": "el pensadero"
-        },
-        {
-            "pitcher": "Mercury Merrythought",
-            "spread": [
-                4,
-                18,
-                14,
                 10
             ],
-            "title": [
-                "creatures",
-                "actions"
+            "title": "creatures",
+            "key": "tebo",
+            "knowledge": "criaturas",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Hankford B. Diggory ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"tebo\" (10)</strong><ataque>Aparece de la nada y golpea con violencia. Adiciona +9 en Ataque.</ataque><defensa>Se hace invisible justo antes del golpe. Adiciona +7 en la Defensa.</defensa></span></div></div></div>",
+            "url": "r20137",
+            "simpleTitle": "evento: atrapa la bandera - grupo celeste",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Vasilisa M. Kuznetzova",
+            "spread": [
+                20
             ],
-            "key": [
-                "tebo",
-                "confundus"
+            "title": "creatures",
+            "key": "tebo",
+            "knowledge": "criaturas",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"tebo\" (20)</strong><ataque>Golpea con invisibilidad total y fuerza imparable. Adiciona +11 en Ataque.</ataque><defensa>Desaparece del plano físico y evade todo daño. No recibe daño.</defensa></span></div></div></div>",
+            "url": "r20214",
+            "simpleTitle": "evento: atrapa la bandera - grupo celeste",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Mercury Merrythought",
+            "spread": [
+                16
             ],
-            "knowledge": [
-                "criaturas",
-                "encantamientos"
+            "title": "creatures",
+            "key": "tebo",
+            "knowledge": "criaturas",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Mercury Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"tebo\" (16)</strong><ataque>Aparece de la nada y golpea con violencia. Adiciona +9 en Ataque.</ataque><defensa>Se hace invisible justo antes del golpe. Adiciona +7 en la Defensa.</defensa></span></div></div></div>",
+            "url": "r20273",
+            "simpleTitle": "evento: atrapa la bandera - grupo celeste",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jasper R. Gryffith",
+            "spread": [
+                9
             ],
-            "type": [
-                "",
-                "encantamiento, defensivo"
+            "title": "creatures",
+            "key": "tebo",
+            "knowledge": "criaturas",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jasper R. Gryffith ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"tebo\" (9)</strong><ataque>Carga usando su fuerza bruta. Adiciona +7 en Ataque.</ataque><defensa>Se difumina, reduciendo el daño recibido. Adiciona +5 en la Defensa.</defensa></span></div></div></div>",
+            "url": "r20417",
+            "simpleTitle": "evento: atrapa la bandera - grupo celeste",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Hankford B. Diggory",
+            "spread": [
+                13
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Mercury Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"tebo\" (4)</strong><ataque>Carga usando su fuerza bruta. Adiciona +7 en Ataque.</ataque><defensa>Se difumina, reduciendo el daño recibido. Adiciona +5 en la Defensa.</defensa></span><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #2 \"confundus\" (18)</strong><span>No sucede nada, capaz este hechizo no es para ti.</span></span><span class=\"roll-result\">14</span><span class=\"roll-result\">10</span></div></div></div>",
+            "title": "actions",
+            "key": "fulgari",
+            "knowledge": "dcao",
+            "type": "maleficio, ofensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Hankford B. Diggory ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"fulgari\" (13)</strong><span>Las cuerdas atan firmemente al objetivo, restringiendo su movimiento. Incapacita todas las acciones de la víctima hasta que no se la libere.</span></span></div></div></div>",
+            "url": "r20431",
+            "simpleTitle": "evento: atrapa la bandera - grupo celeste",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Vasilisa M. Kuznetzova",
+            "spread": [
+                8
+            ],
+            "title": "creatures",
+            "key": "tebo",
+            "knowledge": "criaturas",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"tebo\" (8)</strong><ataque>Carga usando su fuerza bruta. Adiciona +7 en Ataque.</ataque><defensa>Se difumina, reduciendo el daño recibido. Adiciona +5 en la Defensa.</defensa></span></div></div></div>",
+            "url": "r20474",
+            "simpleTitle": "evento: atrapa la bandera - grupo celeste",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Mercury Merrythought",
+            "spread": [
+                4
+            ],
+            "title": "creatures",
+            "key": "tebo",
+            "knowledge": "criaturas",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Mercury Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"tebo\" (4)</strong><ataque>Carga usando su fuerza bruta. Adiciona +7 en Ataque.</ataque><defensa>Se difumina, reduciendo el daño recibido. Adiciona +5 en la Defensa.</defensa></span></div></div></div>",
             "url": "r20572",
-            "simpleTitle": "Evento: atrapa la bandera - grupo celeste",
+            "simpleTitle": "evento: atrapa la bandera - grupo celeste",
             "space": "el pensadero"
         },
         {
@@ -152186,21 +152325,13 @@ const DBModule = (function () {
             "spread": [
                 15
             ],
-            "title": [
-                "actions"
-            ],
-            "key": [
-                "validar paso #2 dirección sur"
-            ],
-            "knowledge": [
-                ""
-            ],
-            "type": [
-                ""
-            ],
+            "title": "actions",
+            "key": "validar paso #2 dirección sur",
+            "knowledge": "",
+            "type": "",
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jasper R. Gryffith ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">15</span></div></div></div>",
             "url": "r20598",
-            "simpleTitle": "Evento: atrapa la bandera - grupo celeste",
+            "simpleTitle": "evento: atrapa la bandera - grupo celeste",
             "space": "el pensadero"
         },
         {
@@ -152208,21 +152339,13 @@ const DBModule = (function () {
             "spread": [
                 8
             ],
-            "title": [
-                "actions"
-            ],
-            "key": [
-                "regresar a paso #2"
-            ],
-            "knowledge": [
-                ""
-            ],
-            "type": [
-                ""
-            ],
+            "title": "actions",
+            "key": "regresar a paso #2",
+            "knowledge": "",
+            "type": "",
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Hankford B. Diggory ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">8</span></div></div></div>",
             "url": "r20722",
-            "simpleTitle": "Evento: atrapa la bandera - grupo celeste",
+            "simpleTitle": "evento: atrapa la bandera - grupo celeste",
             "space": "el pensadero"
         },
         {
@@ -152230,21 +152353,13 @@ const DBModule = (function () {
             "spread": [
                 19
             ],
-            "title": [
-                "actions"
-            ],
-            "key": [
-                "paso #2: ir al este"
-            ],
-            "knowledge": [
-                ""
-            ],
-            "type": [
-                ""
-            ],
+            "title": "actions",
+            "key": "paso #2: ir al este",
+            "knowledge": "",
+            "type": "",
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">19</span></div></div></div>",
             "url": "r20802",
-            "simpleTitle": "Evento: atrapa la bandera - grupo celeste",
+            "simpleTitle": "evento: atrapa la bandera - grupo celeste",
             "space": "el pensadero"
         },
         {
@@ -152252,21 +152367,13 @@ const DBModule = (function () {
             "spread": [
                 9
             ],
-            "title": [
-                "actions"
-            ],
-            "key": [
-                "noctis luminis"
-            ],
-            "knowledge": [
-                "astronomía"
-            ],
-            "type": [
-                "encantamiento, neutral"
-            ],
+            "title": "actions",
+            "key": "noctis luminis",
+            "knowledge": "astronomía",
+            "type": "encantamiento, neutral",
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Mercury Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"astronomía\"><strong>Resultado  #1 \"noctis luminis\" (9)</strong><span>No sucede nada, capaz este hechizo no es para ti.</span></span></div></div></div>",
             "url": "r20841",
-            "simpleTitle": "Evento: atrapa la bandera - grupo celeste",
+            "simpleTitle": "evento: atrapa la bandera - grupo celeste",
             "space": "el pensadero"
         },
         {
@@ -152274,21 +152381,13 @@ const DBModule = (function () {
             "spread": [
                 19
             ],
-            "title": [
-                "actions"
-            ],
-            "key": [
-                "noctis luminis"
-            ],
-            "knowledge": [
-                "astronomía"
-            ],
-            "type": [
-                "encantamiento, neutral"
-            ],
+            "title": "actions",
+            "key": "noctis luminis",
+            "knowledge": "astronomía",
+            "type": "encantamiento, neutral",
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jasper R. Gryffith ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"astronomía\"><strong>Resultado  #1 \"noctis luminis\" (19)</strong><span>Apenas atenúa la luz ambiental, lo suficiente para poder apreciar mejoras a simple vista.</span></span></div></div></div>",
             "url": "r20896",
-            "simpleTitle": "Evento: atrapa la bandera - grupo celeste",
+            "simpleTitle": "evento: atrapa la bandera - grupo celeste",
             "space": "el pensadero"
         },
         {
@@ -152296,21 +152395,13 @@ const DBModule = (function () {
             "spread": [
                 11
             ],
-            "title": [
-                "actions"
-            ],
-            "key": [
-                "noctis luminis"
-            ],
-            "knowledge": [
-                "astronomía"
-            ],
-            "type": [
-                "encantamiento, neutral"
-            ],
+            "title": "actions",
+            "key": "noctis luminis",
+            "knowledge": "astronomía",
+            "type": "encantamiento, neutral",
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"astronomía\"><strong>Resultado  #1 \"noctis luminis\" (11)</strong><span>Oscurece significativamente el entorno, permitiendo una mejora en la visualización de astros.</span></span></div></div></div>",
             "url": "r21061",
-            "simpleTitle": "Evento: atrapa la bandera - grupo celeste",
+            "simpleTitle": "evento: atrapa la bandera - grupo celeste",
             "space": "el pensadero"
         },
         {
@@ -152318,21 +152409,13 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "title": [
-                "actions"
-            ],
-            "key": [
-                "validar paso #2 dirección este"
-            ],
-            "knowledge": [
-                ""
-            ],
-            "type": [
-                ""
-            ],
+            "title": "actions",
+            "key": "validar paso #2 dirección este",
+            "knowledge": "",
+            "type": "",
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jasper R. Gryffith ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">7</span></div></div></div>",
             "url": "r21371",
-            "simpleTitle": "Evento: atrapa la bandera - grupo celeste",
+            "simpleTitle": "evento: atrapa la bandera - grupo celeste",
             "space": "el pensadero"
         },
         {
@@ -152340,219 +152423,97 @@ const DBModule = (function () {
             "spread": [
                 15
             ],
-            "title": [
-                "actions"
-            ],
-            "key": [
-                "paso #3: ir al este"
-            ],
-            "knowledge": [
-                ""
-            ],
-            "type": [
-                ""
-            ],
+            "title": "actions",
+            "key": "paso #3: ir al este",
+            "knowledge": "",
+            "type": "",
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Hankford B. Diggory ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">15</span></div></div></div>",
             "url": "r21461",
-            "simpleTitle": "Evento: atrapa la bandera - grupo celeste",
+            "simpleTitle": "evento: atrapa la bandera - grupo celeste",
             "space": "el pensadero"
         },
         {
             "pitcher": "Vasilisa M. Kuznetzova",
             "spread": [
-                18,
-                12,
-                1,
-                12
+                18
             ],
-            "title": [
-                "actions",
-                "creatures"
-            ],
-            "key": [
-                "flipendo",
-                "plimpy",
-                "plimpy",
-                "fumos"
-            ],
-            "knowledge": [
-                "dcao",
-                "criaturas",
-                "criaturas",
-                "dcao"
-            ],
-            "type": [
-                "maleficio, ofensivo",
-                "",
-                "",
-                "encantamiento, defensivo"
-            ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"flipendo\" (18)</strong><span>El oponente es lanzado por los aires con gran fuerza, impactando contra una superficie. Adiciona <em>+6</em> (40% del conocimiento en DCAO) puntos adicionales de daño al objetivo.</span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #2 \"plimpy\" (12)</strong><ataque>Usa todo su cuerpo para golpear. Adiciona +2 en Ataque.</ataque><defensa>Genera una corriente defensiva. Adiciona +2 en Defensa.</defensa></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #3 \"plimpy\" (1)</strong><ataque>Daño leve con la boca.</ataque><defensa>Se escapa del golpe.</defensa></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #4 \"fumos\" (12)</strong><span>El humo es espeso y persistente, dificultando la visión y la respiración de todos los adversarios presentes en la escena. El lanzador y quienes estén junto a él Adicionan +5 en defensa durante <em>3</em> (El 50% de DES) turnos, mientras dure la cobertura.</span></span></div></div></div>",
+            "title": "actions",
+            "key": "flipendo",
+            "knowledge": "dcao",
+            "type": "maleficio, ofensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"flipendo\" (18)</strong><span>El oponente es lanzado por los aires con gran fuerza, impactando contra una superficie. Adiciona <em>+6</em> (40% del conocimiento en DCAO) puntos adicionales de daño al objetivo.</span></span></div></div></div>",
             "url": "r21542",
-            "simpleTitle": "Evento: atrapa la bandera - grupo celeste",
+            "simpleTitle": "evento: atrapa la bandera - grupo celeste",
             "space": "el pensadero"
         },
         {
             "pitcher": "Jasper R. Gryffith",
             "spread": [
-                4,
-                6,
-                18,
-                6
-            ],
-            "title": [
-                "actions",
-                "creatures"
-            ],
-            "key": [
-                "sensus mitigo",
-                "plimpy",
-                "plimpy",
-                "protego"
-            ],
-            "knowledge": [
-                "ccm",
-                "criaturas",
-                "criaturas",
-                "dcao"
-            ],
-            "type": [
-                "curación",
-                "",
-                "",
-                "encantamiento, defensivo"
-            ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jasper R. Gryffith ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"ccm\"><strong>Resultado  #1 \"sensus mitigo\" (4)</strong><span>La criatura se detiene por un instante, pero puede volverse agresiva de nuevo. Contra PNJ, el mismo reduce en 1 su FUE y CON, si es controlable o menor.</span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #2 \"plimpy\" (6)</strong><ataque>Ataca con su aleta en el agua. Adiciona +1 en Ataque.</ataque><defensa>Absorbe parte del impacto con su gelatinosa textura. Adiciona +1 en Defensa.</defensa></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #3 \"plimpy\" (18)</strong><ataque>Usa todo su cuerpo para golpear. Adiciona +2 en Ataque.</ataque><defensa>Genera una corriente defensiva. Adiciona +2 en Defensa.</defensa></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #4 \"protego\" (6)</strong><span>El escudo es extremadamente resistente. Reduce el ataque en <em>+8</em> (40% del conocimiento en DCAO) puntos adicionales.</span></span></div></div></div>",
-            "url": "r21669",
-            "simpleTitle": "Evento: atrapa la bandera - grupo celeste",
-            "space": "el pensadero"
-        },
-        {
-            "pitcher": "Hankford B. Diggory",
-            "spread": [
-                3,
-                10,
-                19,
                 4
             ],
-            "title": [
-                "actions",
-                "creatures"
-            ],
-            "key": [
-                "sensus mitigo",
-                "plimpy",
-                "plimpy",
-                "protego"
-            ],
-            "knowledge": [
-                "ccm",
-                "criaturas",
-                "criaturas",
-                "dcao"
-            ],
-            "type": [
-                "curación",
-                "",
-                "",
-                "encantamiento, defensivo"
-            ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Hankford B. Diggory ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"ccm\"><strong>Resultado  #1 \"sensus mitigo\" (3)</strong><span>No sucede nada. Capaz deberías practicar más el hechizo.</span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #2 \"plimpy\" (10)</strong><ataque>Usa todo su cuerpo para golpear. Adiciona +2 en Ataque.</ataque><defensa>Genera una corriente defensiva. Adiciona +2 en Defensa.</defensa></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #3 \"plimpy\" (19)</strong><ataque>Usa todo su cuerpo para golpear. Adiciona +2 en Ataque.</ataque><defensa>Genera una corriente defensiva. Adiciona +2 en Defensa.</defensa></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #4 \"protego\" (4)</strong><span>El escudo bloquea la mayoría de los ataques mágicos. Reduce <em>+9</em> (75% del conocimiento en DCAO) puntos el ataque contrario y elimina los efectos secundarios de los hechizos.</span></span></div></div></div>",
-            "url": "r21758",
-            "simpleTitle": "Evento: atrapa la bandera - grupo celeste",
-            "space": "el pensadero"
-        },
-        {
-            "pitcher": "Vasilisa M. Kuznetzova",
-            "spread": [
-                20,
-                1,
-                15,
-                10
-            ],
-            "title": [
-                "actions",
-                "creatures"
-            ],
-            "key": [
-                "depulso",
-                "plimpy"
-            ],
-            "knowledge": [
-                "encantamientos",
-                "criaturas"
-            ],
-            "type": [
-                "encantamiento, ofensivo",
-                ""
-            ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"depulso\" (20)</strong><span>El objetivo es arrojado violentamente lejos, perdiendo el equilibrio. Adiciona <em>+16</em> (100% del conocimiento en ENCANTAMIENTOS) en el daño, la víctima pierde 2 acciones consecutivas al recibir el ataque.</span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #2 \"plimpy\" (1)</strong><ataque>Daño leve con la boca.</ataque><defensa>Se escapa del golpe.</defensa></span><span class=\"roll-result\">15</span><span class=\"roll-result\">10</span></div></div></div>",
-            "url": "r21760",
-            "simpleTitle": "Evento: atrapa la bandera - grupo celeste",
-            "space": "el pensadero"
-        },
-        {
-            "pitcher": "Jasper R. Gryffith",
-            "spread": [
-                7,
-                13,
-                12,
-                13
-            ],
-            "title": [
-                "creatures",
-                "actions"
-            ],
-            "key": [
-                "plimpy",
-                "fumos",
-                "flipendo",
-                "plimpy"
-            ],
-            "knowledge": [
-                "criaturas",
-                "dcao",
-                "dcao",
-                "criaturas"
-            ],
-            "type": [
-                "",
-                "encantamiento, defensivo",
-                "maleficio, ofensivo",
-                ""
-            ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jasper R. Gryffith ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"plimpy\" (7)</strong><ataque>Ataca con su aleta en el agua. Adiciona +1 en Ataque.</ataque><defensa>Absorbe parte del impacto con su gelatinosa textura. Adiciona +1 en Defensa.</defensa></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"fumos\" (13)</strong><span>El humo es espeso y persistente, dificultando la visión y la respiración de todos los adversarios presentes en la escena. El lanzador y quienes estén junto a él Adicionan +4 en defensa durante <em>3</em> (El 50% de DES) turnos, mientras dure la cobertura.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #3 \"flipendo\" (12)</strong><span>El oponente es lanzado por los aires con gran fuerza, impactando contra una superficie. Adiciona <em>+8</em> (40% del conocimiento en DCAO) puntos adicionales de daño al objetivo.</span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #4 \"plimpy\" (13)</strong><ataque>Usa todo su cuerpo para golpear. Adiciona +2 en Ataque.</ataque><defensa>Genera una corriente defensiva. Adiciona +2 en Defensa.</defensa></span></div></div></div>",
-            "url": "r21993",
-            "simpleTitle": "Evento: atrapa la bandera - grupo celeste",
+            "title": "actions",
+            "key": "sensus mitigo",
+            "knowledge": "ccm",
+            "type": "curación",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jasper R. Gryffith ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"ccm\"><strong>Resultado  #1 \"sensus mitigo\" (4)</strong><span>La criatura se detiene por un instante, pero puede volverse agresiva de nuevo. Contra PNJ, el mismo reduce en 1 su FUE y CON, si es controlable o menor.</span></span></div></div></div>",
+            "url": "r21669",
+            "simpleTitle": "evento: atrapa la bandera - grupo celeste",
             "space": "el pensadero"
         },
         {
             "pitcher": "Hankford B. Diggory",
             "spread": [
-                8,
-                5,
-                19,
-                9
+                3
             ],
-            "title": [
-                "actions",
-                "creatures"
+            "title": "actions",
+            "key": "sensus mitigo",
+            "knowledge": "ccm",
+            "type": "curación",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Hankford B. Diggory ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"ccm\"><strong>Resultado  #1 \"sensus mitigo\" (3)</strong><span>No sucede nada. Capaz deberías practicar más el hechizo.</span></span></div></div></div>",
+            "url": "r21758",
+            "simpleTitle": "evento: atrapa la bandera - grupo celeste",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Vasilisa M. Kuznetzova",
+            "spread": [
+                20
             ],
-            "key": [
-                "petrificus totalus",
-                "plimpy"
+            "title": "actions",
+            "key": "depulso",
+            "knowledge": "encantamientos",
+            "type": "encantamiento, ofensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"depulso\" (20)</strong><span>El objetivo es arrojado violentamente lejos, perdiendo el equilibrio. Adiciona <em>+16</em> (100% del conocimiento en ENCANTAMIENTOS) en el daño, la víctima pierde 2 acciones consecutivas al recibir el ataque.</span></span></div></div></div>",
+            "url": "r21760",
+            "simpleTitle": "evento: atrapa la bandera - grupo celeste",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jasper R. Gryffith",
+            "spread": [
+                7
             ],
-            "knowledge": [
-                "dcao",
-                "criaturas"
+            "title": "creatures",
+            "key": "plimpy",
+            "knowledge": "criaturas",
+            "type": "",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jasper R. Gryffith ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"plimpy\" (7)</strong><ataque>Ataca con su aleta en el agua. Adiciona +1 en Ataque.</ataque><defensa>Absorbe parte del impacto con su gelatinosa textura. Adiciona +1 en Defensa.</defensa></span></div></div></div>",
+            "url": "r21993",
+            "simpleTitle": "evento: atrapa la bandera - grupo celeste",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Hankford B. Diggory",
+            "spread": [
+                8
             ],
-            "type": [
-                "maldición, ofensivo",
-                ""
-            ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Hankford B. Diggory ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"petrificus totalus\" (8)</strong><span>El objetivo queda completamente inmóvil hasta que el efecto se disipe. El personaje no podrá realizar acciones hasta que otro personaje lo libere o realice dos roles. Si al conjurador le anulan acciones, se eliminan los efectos inmediatamente.<br><br>El PNJ \"plimpy\" es débil a los hechizos de tipo \"restricción\". Duplica el valor del dado y el bonus del hechizo.</span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #2 \"plimpy\" (5)</strong><ataque>Ataca con su aleta en el agua. Adiciona +1 en Ataque.</ataque><defensa>Absorbe parte del impacto con su gelatinosa textura. Adiciona +1 en Defensa.</defensa></span><span class=\"roll-result\">19</span><span class=\"roll-result\">9</span></div></div></div>",
+            "title": "actions",
+            "key": "petrificus totalus",
+            "knowledge": "dcao",
+            "type": "maldición, ofensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Hankford B. Diggory ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"petrificus totalus\" (8)</strong><span>El objetivo queda completamente inmóvil hasta que el efecto se disipe. El personaje no podrá realizar acciones hasta que otro personaje lo libere o realice dos roles. Si al conjurador le anulan acciones, se eliminan los efectos inmediatamente.<br><br>El PNJ \"plimpy\" es débil a los hechizos de tipo \"restricción\". Duplica el valor del dado y el bonus del hechizo.</span></span></div></div></div>",
             "url": "r22001",
-            "simpleTitle": "Evento: atrapa la bandera - grupo celeste",
+            "simpleTitle": "evento: atrapa la bandera - grupo celeste",
             "space": "el pensadero"
         },
         {
@@ -152560,21 +152521,13 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "title": [
-                "actions"
-            ],
-            "key": [
-                "validar paso #3 dirección este"
-            ],
-            "knowledge": [
-                ""
-            ],
-            "type": [
-                ""
-            ],
+            "title": "actions",
+            "key": "validar paso #3 dirección este",
+            "knowledge": "",
+            "type": "",
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">7</span></div></div></div>",
             "url": "r22117",
-            "simpleTitle": "Evento: atrapa la bandera - grupo celeste",
+            "simpleTitle": "evento: atrapa la bandera - grupo celeste",
             "space": "el pensadero"
         },
         {
@@ -152582,47 +152535,27 @@ const DBModule = (function () {
             "spread": [
                 5
             ],
-            "title": [
-                "actions"
-            ],
-            "key": [
-                "paso #3: ir al sur"
-            ],
-            "knowledge": [
-                ""
-            ],
-            "type": [
-                ""
-            ],
+            "title": "actions",
+            "key": "paso #3: ir al sur",
+            "knowledge": "",
+            "type": "",
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jasper R. Gryffith ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">5</span></div></div></div>",
             "url": "r22337",
-            "simpleTitle": "Evento: atrapa la bandera - grupo celeste",
+            "simpleTitle": "evento: atrapa la bandera - grupo celeste",
             "space": "el pensadero"
         },
         {
             "pitcher": "Hankford B. Diggory",
             "spread": [
-                14,
-                17
+                14
             ],
-            "title": [
-                "actions"
-            ],
-            "key": [
-                "tempus revela",
-                "validar paso #3 dirección sur"
-            ],
-            "knowledge": [
-                "historia de la magia",
-                ""
-            ],
-            "type": [
-                "encantamiento, neutral",
-                ""
-            ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Hankford B. Diggory ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"historia de la magia\"><strong>Resultado  #1 \"tempus revela\" (14)</strong><span>Se revela el año exacto, con una breve visión del momento de creación y del primer uso significativo.</span></span><span class=\"roll-result\">17</span></div></div></div>",
+            "title": "actions",
+            "key": "tempus revela",
+            "knowledge": "historia de la magia",
+            "type": "encantamiento, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Hankford B. Diggory ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"historia de la magia\"><strong>Resultado  #1 \"tempus revela\" (14)</strong><span>Se revela el año exacto, con una breve visión del momento de creación y del primer uso significativo.</span></span></div></div></div>",
             "url": "r22597",
-            "simpleTitle": "Evento: atrapa la bandera - grupo celeste",
+            "simpleTitle": "evento: atrapa la bandera - grupo celeste",
             "space": "el pensadero"
         },
         {
@@ -152630,21 +152563,13 @@ const DBModule = (function () {
             "spread": [
                 17
             ],
-            "title": [
-                "actions"
-            ],
-            "key": [
-                "paso #3: ir al norte"
-            ],
-            "knowledge": [
-                ""
-            ],
-            "type": [
-                ""
-            ],
+            "title": "actions",
+            "key": "paso #3: ir al norte",
+            "knowledge": "",
+            "type": "",
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">17</span></div></div></div>",
             "url": "r22622",
-            "simpleTitle": "Evento: atrapa la bandera - grupo celeste",
+            "simpleTitle": "evento: atrapa la bandera - grupo celeste",
             "space": "el pensadero"
         },
         {
@@ -152652,21 +152577,13 @@ const DBModule = (function () {
             "spread": [
                 4
             ],
-            "title": [
-                "actions"
-            ],
-            "key": [
-                "accio"
-            ],
-            "knowledge": [
-                "encantamientos"
-            ],
-            "type": [
-                "encantamiento, neutral"
-            ],
+            "title": "actions",
+            "key": "accio",
+            "knowledge": "encantamientos",
+            "type": "encantamiento, neutral",
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jasper R. Gryffith ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"accio\" (4)</strong><span>El objeto llega rápidamente y con gran precisión a la mano del lanzador, sin posibilidad de que otro lo intercepte.</span></span></div></div></div>",
             "url": "r22813",
-            "simpleTitle": "Evento: atrapa la bandera - grupo celeste",
+            "simpleTitle": "evento: atrapa la bandera - grupo celeste",
             "space": "el pensadero"
         },
         {
@@ -152674,21 +152591,13 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "title": [
-                "actions"
-            ],
-            "key": [
-                "validar paso #3 dirección norte"
-            ],
-            "knowledge": [
-                ""
-            ],
-            "type": [
-                ""
-            ],
+            "title": "actions",
+            "key": "validar paso #3 dirección norte",
+            "knowledge": "",
+            "type": "",
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Hankford B. Diggory ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">16</span></div></div></div>",
             "url": "r22948",
-            "simpleTitle": "Evento: atrapa la bandera - grupo celeste",
+            "simpleTitle": "evento: atrapa la bandera - grupo celeste",
             "space": "el pensadero"
         },
         {
@@ -152696,21 +152605,13 @@ const DBModule = (function () {
             "spread": [
                 16
             ],
-            "title": [
-                "actions"
-            ],
-            "key": [
-                "lanzar la quaffle"
-            ],
-            "knowledge": [
-                "vuelo"
-            ],
-            "type": [
-                "quidditch, ofensivo, sin magia"
-            ],
+            "title": "actions",
+            "key": "lanzar la quaffle",
+            "knowledge": "vuelo",
+            "type": "quidditch, ofensivo, sin magia",
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Findlay McCrory ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"lanzar la quaffle\" (16)</strong><span>El lanzamiento es perfecto. Adiciona +20 en el ataque.</span></span></div></div></div>",
             "url": "r18046",
-            "simpleTitle": "Práctica: winds of change",
+            "simpleTitle": "práctica: winds of change",
             "space": "el pensadero"
         },
         {
@@ -152718,21 +152619,13 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "title": [
-                "actions"
-            ],
-            "key": [
-                "atrapar la quaffle"
-            ],
-            "knowledge": [
-                "vuelo"
-            ],
-            "type": [
-                "quidditch, defensivo, sin magia"
-            ],
+            "title": "actions",
+            "key": "atrapar la quaffle",
+            "knowledge": "vuelo",
+            "type": "quidditch, defensivo, sin magia",
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Neptune E. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"atrapar la quaffle\" (1)</strong><span>Logra desviar la quaffle, pero no controlarla. El siguiente aliado en postear, puede sumar +2 puntos en su acción.</span></span></div></div></div>",
             "url": "r18652",
-            "simpleTitle": "Práctica: winds of change",
+            "simpleTitle": "práctica: winds of change",
             "space": "el pensadero"
         },
         {
@@ -152740,21 +152633,13 @@ const DBModule = (function () {
             "spread": [
                 7
             ],
-            "title": [
-                "actions"
-            ],
-            "key": [
-                "lanzar la quaffle"
-            ],
-            "knowledge": [
-                "vuelo"
-            ],
-            "type": [
-                "quidditch, ofensivo, sin magia"
-            ],
+            "title": "actions",
+            "key": "lanzar la quaffle",
+            "knowledge": "vuelo",
+            "type": "quidditch, ofensivo, sin magia",
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Findlay McCrory ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"lanzar la quaffle\" (7)</strong><span>El lanzamiento es perfecto. Adiciona +11 en el ataque.</span></span></div></div></div>",
             "url": "r19151",
-            "simpleTitle": "Práctica: winds of change",
+            "simpleTitle": "práctica: winds of change",
             "space": "el pensadero"
         },
         {
@@ -152762,21 +152647,13 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "title": [
-                "actions"
-            ],
-            "key": [
-                "atrapar la quaffle"
-            ],
-            "knowledge": [
-                "vuelo"
-            ],
-            "type": [
-                "quidditch, defensivo, sin magia"
-            ],
+            "title": "actions",
+            "key": "atrapar la quaffle",
+            "knowledge": "vuelo",
+            "type": "quidditch, defensivo, sin magia",
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Neptune E. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"atrapar la quaffle\" (20)</strong><span>Atrapa la quaffle perfectamente, controlando todo el vuelo para su siguiente acción. Adiciona +4 en su siguiente acción.</span></span></div></div></div>",
             "url": "r19565",
-            "simpleTitle": "Práctica: winds of change",
+            "simpleTitle": "práctica: winds of change",
             "space": "el pensadero"
         },
         {
@@ -152784,21 +152661,13 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "title": [
-                "actions"
-            ],
-            "key": [
-                "lanzar la quaffle"
-            ],
-            "knowledge": [
-                "vuelo"
-            ],
-            "type": [
-                "quidditch, ofensivo, sin magia"
-            ],
+            "title": "actions",
+            "key": "lanzar la quaffle",
+            "knowledge": "vuelo",
+            "type": "quidditch, ofensivo, sin magia",
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Findlay McCrory ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"lanzar la quaffle\" (2)</strong><span>El lanzamiento es perfecto. Adiciona +6 en el ataque.</span></span></div></div></div>",
             "url": "r19755",
-            "simpleTitle": "Práctica: winds of change",
+            "simpleTitle": "práctica: winds of change",
             "space": "el pensadero"
         },
         {
@@ -152806,21 +152675,13 @@ const DBModule = (function () {
             "spread": [
                 5
             ],
-            "title": [
-                "actions"
-            ],
-            "key": [
-                "atrapar la quaffle"
-            ],
-            "knowledge": [
-                "vuelo"
-            ],
-            "type": [
-                "quidditch, defensivo, sin magia"
-            ],
+            "title": "actions",
+            "key": "atrapar la quaffle",
+            "knowledge": "vuelo",
+            "type": "quidditch, defensivo, sin magia",
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Neptune E. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"atrapar la quaffle\" (5)</strong><span>Logra atrapar la quaffle, teniendo la misma en su posesión. Adiciona +3 en defensa.</span></span></div></div></div>",
             "url": "r20012",
-            "simpleTitle": "Práctica: winds of change",
+            "simpleTitle": "práctica: winds of change",
             "space": "el pensadero"
         },
         {
@@ -152828,21 +152689,13 @@ const DBModule = (function () {
             "spread": [
                 6
             ],
-            "title": [
-                "actions"
-            ],
-            "key": [
-                "lanzar la quaffle"
-            ],
-            "knowledge": [
-                "vuelo"
-            ],
-            "type": [
-                "quidditch, ofensivo, sin magia"
-            ],
+            "title": "actions",
+            "key": "lanzar la quaffle",
+            "knowledge": "vuelo",
+            "type": "quidditch, ofensivo, sin magia",
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Findlay McCrory ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"lanzar la quaffle\" (6)</strong><span>El lanzamiento es perfecto. Adiciona +10 en el ataque.</span></span></div></div></div>",
             "url": "r20123",
-            "simpleTitle": "Práctica: winds of change",
+            "simpleTitle": "práctica: winds of change",
             "space": "el pensadero"
         },
         {
@@ -152850,21 +152703,13 @@ const DBModule = (function () {
             "spread": [
                 18
             ],
-            "title": [
-                "actions"
-            ],
-            "key": [
-                "atrapar la quaffle"
-            ],
-            "knowledge": [
-                "vuelo"
-            ],
-            "type": [
-                "quidditch, defensivo, sin magia"
-            ],
+            "title": "actions",
+            "key": "atrapar la quaffle",
+            "knowledge": "vuelo",
+            "type": "quidditch, defensivo, sin magia",
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Neptune E. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"atrapar la quaffle\" (18)</strong><span>Atrapa la quaffle perfectamente, controlando todo el vuelo para su siguiente acción. Adiciona +4 en su siguiente acción.</span></span></div></div></div>",
             "url": "r20490",
-            "simpleTitle": "Práctica: winds of change",
+            "simpleTitle": "práctica: winds of change",
             "space": "el pensadero"
         },
         {
@@ -152872,21 +152717,13 @@ const DBModule = (function () {
             "spread": [
                 1
             ],
-            "title": [
-                "actions"
-            ],
-            "key": [
-                "lanzar la quaffle"
-            ],
-            "knowledge": [
-                "vuelo"
-            ],
-            "type": [
-                "quidditch, ofensivo, sin magia"
-            ],
+            "title": "actions",
+            "key": "lanzar la quaffle",
+            "knowledge": "vuelo",
+            "type": "quidditch, ofensivo, sin magia",
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Findlay McCrory ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"lanzar la quaffle\" (1)</strong><span>El lanzamiento es fuerte y preciso. Adiciona +3 en ataque.</span></span></div></div></div>",
             "url": "r20610",
-            "simpleTitle": "Práctica: winds of change",
+            "simpleTitle": "práctica: winds of change",
             "space": "el pensadero"
         },
         {
@@ -152894,21 +152731,13 @@ const DBModule = (function () {
             "spread": [
                 18
             ],
-            "title": [
-                "actions"
-            ],
-            "key": [
-                "atrapar la quaffle"
-            ],
-            "knowledge": [
-                "vuelo"
-            ],
-            "type": [
-                "quidditch, defensivo, sin magia"
-            ],
+            "title": "actions",
+            "key": "atrapar la quaffle",
+            "knowledge": "vuelo",
+            "type": "quidditch, defensivo, sin magia",
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Neptune E. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"atrapar la quaffle\" (18)</strong><span>Atrapa la quaffle perfectamente, controlando todo el vuelo para su siguiente acción. Adiciona +4 en su siguiente acción.</span></span></div></div></div>",
             "url": "r21606",
-            "simpleTitle": "Práctica: winds of change",
+            "simpleTitle": "práctica: winds of change",
             "space": "el pensadero"
         },
         {
@@ -152916,21 +152745,13 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "title": [
-                "actions"
-            ],
-            "key": [
-                "lanzar la quaffle"
-            ],
-            "knowledge": [
-                "vuelo"
-            ],
-            "type": [
-                "quidditch, ofensivo, sin magia"
-            ],
+            "title": "actions",
+            "key": "lanzar la quaffle",
+            "knowledge": "vuelo",
+            "type": "quidditch, ofensivo, sin magia",
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Findlay McCrory ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"lanzar la quaffle\" (2)</strong><span>El lanzamiento es perfecto. Adiciona +6 en el ataque.</span></span></div></div></div>",
             "url": "r22425",
-            "simpleTitle": "Práctica: winds of change",
+            "simpleTitle": "práctica: winds of change",
             "space": "el pensadero"
         },
         {
@@ -152938,21 +152759,13 @@ const DBModule = (function () {
             "spread": [
                 20
             ],
-            "title": [
-                "actions"
-            ],
-            "key": [
-                "atrapar la quaffle"
-            ],
-            "knowledge": [
-                "vuelo"
-            ],
-            "type": [
-                "quidditch, defensivo, sin magia"
-            ],
+            "title": "actions",
+            "key": "atrapar la quaffle",
+            "knowledge": "vuelo",
+            "type": "quidditch, defensivo, sin magia",
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Neptune E. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"atrapar la quaffle\" (20)</strong><span>Atrapa la quaffle perfectamente, controlando todo el vuelo para su siguiente acción. Adiciona +4 en su siguiente acción.</span></span></div></div></div>",
             "url": "r22899",
-            "simpleTitle": "Práctica: winds of change",
+            "simpleTitle": "práctica: winds of change",
             "space": "el pensadero"
         },
         {
@@ -152960,12 +152773,10 @@ const DBModule = (function () {
             "spread": [
                 2
             ],
-            "title": [
-                "felix felicis"
-            ],
-            "key": [],
-            "knowledge": [],
-            "type": [],
+            "title": "felix felicis",
+            "key": "",
+            "knowledge": "",
+            "type": "",
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-felix-felicis\"><span>Black Wave ha lanzado los dados \"felix felicis\"</span><div class=\"dice-results\"><span class=\"roll-result nro2\"><i class=\"fa-solid fa-sparkles\"></i>Se nota que sabes lo que estás haciendo, o Félix lo sabe.</span></div></div></div>",
             "url": "r11592",
             "simpleTitle": "duelo #13: asteria vs neptune",
@@ -152976,18 +152787,10 @@ const DBModule = (function () {
             "spread": [
                 10
             ],
-            "title": [
-                "actions"
-            ],
-            "key": [
-                "dracospira"
-            ],
-            "knowledge": [
-                "transformaciones"
-            ],
-            "type": [
-                "ofensivo, transfiguración, maleficio"
-            ],
+            "title": "actions",
+            "key": "dracospira",
+            "knowledge": "transformaciones",
+            "type": "ofensivo, transfiguración, maleficio",
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Asteria C. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"transformaciones\"><strong>Resultado  #1 \"dracospira\" (10)</strong><span>La víctima sufre una transformación más intensa, tosiendo incontrolablemente y emitiendo un espeso humo negro que la deja desorientada. La víctima pierde +4 puntos en sus lanzadas de dados hasta que elimine los efectos del maleficio.</span></span></div></div></div>",
             "url": "r11994",
             "simpleTitle": "duelo #13: asteria vs neptune",
@@ -152996,25 +152799,13 @@ const DBModule = (function () {
         {
             "pitcher": "Neptune E. Merrythought",
             "spread": [
-                19,
                 19
             ],
-            "title": [
-                "actions"
-            ],
-            "key": [
-                "protego",
-                "cadere"
-            ],
-            "knowledge": [
-                "dcao",
-                "dcao"
-            ],
-            "type": [
-                "encantamiento, defensivo",
-                "embrujo, ofensivo"
-            ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Neptune E. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"protego\" (19)</strong><span>El escudo es extremadamente resistente. Reduce el ataque en <em>+6</em> (40% del conocimiento en DCAO) puntos adicionales.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"cadere\" (19)</strong><span>El objetivo cae con fuerza y sufre una lesión menor, perdiendo dos turnos y 10 PV.</span></span></div></div></div>",
+            "title": "actions",
+            "key": "protego",
+            "knowledge": "dcao",
+            "type": "encantamiento, defensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Neptune E. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"protego\" (19)</strong><span>El escudo es extremadamente resistente. Reduce el ataque en <em>+6</em> (40% del conocimiento en DCAO) puntos adicionales.</span></span></div></div></div>",
             "url": "r12151",
             "simpleTitle": "duelo #13: asteria vs neptune",
             "space": "el pensadero"
@@ -153022,25 +152813,13 @@ const DBModule = (function () {
         {
             "pitcher": "Asteria C. Lestrange",
             "spread": [
-                5,
-                20
+                5
             ],
-            "title": [
-                "actions"
-            ],
-            "key": [
-                "protego",
-                "waddiwasi"
-            ],
-            "knowledge": [
-                "dcao",
-                "dcao"
-            ],
-            "type": [
-                "encantamiento, defensivo",
-                "embrujo, ofensivo"
-            ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Asteria C. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"protego\" (5)</strong><span>El escudo es extremadamente resistente. Reduce el ataque en <em>+6</em> (40% del conocimiento en DCAO) puntos adicionales.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"waddiwasi\" (20)</strong><span>El objeto se mueve a gran velocidad y golpea con impacto certero y potente. Adiciona +26 puntos al daño.</span></span></div></div></div>",
+            "title": "actions",
+            "key": "protego",
+            "knowledge": "dcao",
+            "type": "encantamiento, defensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Asteria C. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"protego\" (5)</strong><span>El escudo es extremadamente resistente. Reduce el ataque en <em>+6</em> (40% del conocimiento en DCAO) puntos adicionales.</span></span></div></div></div>",
             "url": "r12369",
             "simpleTitle": "duelo #13: asteria vs neptune",
             "space": "el pensadero"
@@ -153048,25 +152827,13 @@ const DBModule = (function () {
         {
             "pitcher": "Neptune E. Merrythought",
             "spread": [
-                6,
-                11
+                6
             ],
-            "title": [
-                "actions"
-            ],
-            "key": [
-                "protego",
-                "ventus"
-            ],
-            "knowledge": [
-                "dcao",
-                "encantamientos"
-            ],
-            "type": [
-                "encantamiento, defensivo",
-                "encantamiento, ofensivo"
-            ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Neptune E. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"protego\" (6)</strong><span>El escudo es extremadamente resistente. Reduce el ataque en <em>+6</em> (40% del conocimiento en DCAO) puntos adicionales.</span></span><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #2 \"ventus\" (11)</strong><span>Una ráfaga poderosa arroja al objetivo varios metros. Adiciona <em>+15</em> (100% del conocimiento en ENCANTAMIENTOS) en daño en caso de duelos.</span></span></div></div></div>",
+            "title": "actions",
+            "key": "protego",
+            "knowledge": "dcao",
+            "type": "encantamiento, defensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Neptune E. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"protego\" (6)</strong><span>El escudo es extremadamente resistente. Reduce el ataque en <em>+6</em> (40% del conocimiento en DCAO) puntos adicionales.</span></span></div></div></div>",
             "url": "r12757",
             "simpleTitle": "duelo #13: asteria vs neptune",
             "space": "el pensadero"
@@ -153074,25 +152841,13 @@ const DBModule = (function () {
         {
             "pitcher": "Asteria C. Lestrange",
             "spread": [
-                10,
-                2
+                10
             ],
-            "title": [
-                "actions"
-            ],
-            "key": [
-                "protego",
-                "aqua eructo"
-            ],
-            "knowledge": [
-                "dcao",
-                "encantamientos"
-            ],
-            "type": [
-                "encantamiento, defensivo",
-                "encantamiento, ofensivo"
-            ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Asteria C. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"protego\" (10)</strong><span>El escudo es extremadamente resistente. Reduce el ataque en <em>+6</em> (40% del conocimiento en DCAO) puntos adicionales.</span></span><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #2 \"aqua eructo\" (2)</strong><span>El chorro es suficiente para apagar pequeñas llamas o refrescar un área. Empuja levemente al oponente, adiciona +4 al daño.</span></span></div></div></div>",
+            "title": "actions",
+            "key": "protego",
+            "knowledge": "dcao",
+            "type": "encantamiento, defensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Asteria C. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"protego\" (10)</strong><span>El escudo es extremadamente resistente. Reduce el ataque en <em>+6</em> (40% del conocimiento en DCAO) puntos adicionales.</span></span></div></div></div>",
             "url": "r14091",
             "simpleTitle": "duelo #13: asteria vs neptune",
             "space": "el pensadero"
@@ -153100,25 +152855,13 @@ const DBModule = (function () {
         {
             "pitcher": "Neptune E. Merrythought",
             "spread": [
-                17,
-                16
+                17
             ],
-            "title": [
-                "actions"
-            ],
-            "key": [
-                "fumos",
-                "depulso"
-            ],
-            "knowledge": [
-                "dcao",
-                "encantamientos"
-            ],
-            "type": [
-                "encantamiento, defensivo",
-                "encantamiento, ofensivo"
-            ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Neptune E. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"fumos\" (17)</strong><span>El humo es espeso y persistente, dificultando la visión y la respiración de todos los adversarios presentes en la escena. El lanzador y quienes estén junto a él Adicionan +4 en defensa durante <em>1</em> (El 50% de DES) turnos, mientras dure la cobertura.</span></span><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #2 \"depulso\" (16)</strong><span>El objetivo es arrojado violentamente lejos, perdiendo el equilibrio. Adiciona <em>+15</em> (100% del conocimiento en ENCANTAMIENTOS) en el daño, la víctima pierde 2 acciones consecutivas al recibir el ataque.</span></span></div></div></div>",
+            "title": "actions",
+            "key": "fumos",
+            "knowledge": "dcao",
+            "type": "encantamiento, defensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Neptune E. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"fumos\" (17)</strong><span>El humo es espeso y persistente, dificultando la visión y la respiración de todos los adversarios presentes en la escena. El lanzador y quienes estén junto a él Adicionan +4 en defensa durante <em>1</em> (El 50% de DES) turnos, mientras dure la cobertura.</span></span></div></div></div>",
             "url": "r14161",
             "simpleTitle": "duelo #13: asteria vs neptune",
             "space": "el pensadero"
@@ -153126,25 +152869,13 @@ const DBModule = (function () {
         {
             "pitcher": "Asteria C. Lestrange",
             "spread": [
-                20,
-                2
+                20
             ],
-            "title": [
-                "actions"
-            ],
-            "key": [
-                "protego",
-                "colloshoo"
-            ],
-            "knowledge": [
-                "dcao",
-                "dcao"
-            ],
-            "type": [
-                "encantamiento, defensivo",
-                "embrujo, ofensivo"
-            ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Asteria C. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"protego\" (20)</strong><span>El escudo es extremadamente resistente. Reduce el ataque en <em>+6</em> (40% del conocimiento en DCAO) puntos adicionales.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"colloshoo\" (2)</strong><span>El objetivo queda pegado al suelo hasta que se le libere mágicamente, todas las acciones hasta que se libere pierden +5 puntos.</span></span></div></div></div>",
+            "title": "actions",
+            "key": "protego",
+            "knowledge": "dcao",
+            "type": "encantamiento, defensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Asteria C. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"protego\" (20)</strong><span>El escudo es extremadamente resistente. Reduce el ataque en <em>+6</em> (40% del conocimiento en DCAO) puntos adicionales.</span></span></div></div></div>",
             "url": "r15189",
             "simpleTitle": "duelo #13: asteria vs neptune",
             "space": "el pensadero"
@@ -153152,25 +152883,13 @@ const DBModule = (function () {
         {
             "pitcher": "Neptune E. Merrythought",
             "spread": [
-                3,
-                20
+                3
             ],
-            "title": [
-                "actions"
-            ],
-            "key": [
-                "fumos",
-                "immobulus"
-            ],
-            "knowledge": [
-                "dcao",
-                "dcao"
-            ],
-            "type": [
-                "encantamiento, defensivo",
-                "encantamiento, defensivo, ofensivo"
-            ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Neptune E. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"fumos\" (3)</strong><span>El humo es espeso y persistente, dificultando la visión y la respiración de todos los adversarios presentes en la escena. El lanzador y quienes estén junto a él Adicionan +4 en defensa durante <em>1</em> (El 50% de DES) turnos, mientras dure la cobertura.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"immobulus\" (20)</strong><span>El hechizo puede paralizar a un único objetivo o, si el lanzador lo decide, a todo un grupo de objetivos cercanos entre sí, tal como se usa para inmovilizar de una vez a un enjambre completo de criaturas pequeñas. Cada objetivo alcanzado queda paralizado durante <em>+15</em> (100% del conocimiento en DCAO) turnos y tarda más en recuperar el control de su cuerpo, donde no podrá realizar acciones, o hasta que un personaje lo libere si se usa como ataque, o impide el ataque, reduciendo el mismo a cero, si se usa como defensa adicionando +4 puntos en la siguiente acción del defensor.</span></span></div></div></div>",
+            "title": "actions",
+            "key": "fumos",
+            "knowledge": "dcao",
+            "type": "encantamiento, defensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Neptune E. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"fumos\" (3)</strong><span>El humo es espeso y persistente, dificultando la visión y la respiración de todos los adversarios presentes en la escena. El lanzador y quienes estén junto a él Adicionan +4 en defensa durante <em>1</em> (El 50% de DES) turnos, mientras dure la cobertura.</span></span></div></div></div>",
             "url": "r15642",
             "simpleTitle": "duelo #13: asteria vs neptune",
             "space": "el pensadero"
@@ -153178,25 +152897,13 @@ const DBModule = (function () {
         {
             "pitcher": "Asteria C. Lestrange",
             "spread": [
-                13,
-                7
+                13
             ],
-            "title": [
-                "actions"
-            ],
-            "key": [
-                "glacius",
-                "depulso"
-            ],
-            "knowledge": [
-                "encantamientos",
-                "encantamientos"
-            ],
-            "type": [
-                "encantamiento, defensivo",
-                "encantamiento, ofensivo"
-            ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Asteria C. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"glacius\" (13)</strong><span>La zona alrededor queda completamente congelada, inmovilizando temporalmente a todos los que se encuentren en ella y no solo al objetivo. El ataque de cada rival alcanzado pierde <em>+5</em> (40% del conocimiento en ENCANTAMIENTOS) puntos adicionales y adiciona <em>+13</em> (100% del conocimiento en ENCANTAMIENTOS) puntos a siguiente acción.</span></span><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #2 \"depulso\" (7)</strong><span>El objetivo es lanzado varios metros hacia atrás. Adiciona <em>+9</em> (75% del conocimiento en ENCANTAMIENTOS) en el daño y la víctima pierde su siguiente acción instantanea después del ataque.</span></span></div></div></div>",
+            "title": "actions",
+            "key": "glacius",
+            "knowledge": "encantamientos",
+            "type": "encantamiento, defensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Asteria C. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"glacius\" (13)</strong><span>La zona alrededor queda completamente congelada, inmovilizando temporalmente a todos los que se encuentren en ella y no solo al objetivo. El ataque de cada rival alcanzado pierde <em>+5</em> (40% del conocimiento en ENCANTAMIENTOS) puntos adicionales y adiciona <em>+13</em> (100% del conocimiento en ENCANTAMIENTOS) puntos a siguiente acción.</span></span></div></div></div>",
             "url": "r16527",
             "simpleTitle": "duelo #13: asteria vs neptune",
             "space": "el pensadero"
@@ -153204,25 +152911,13 @@ const DBModule = (function () {
         {
             "pitcher": "Neptune E. Merrythought",
             "spread": [
-                8,
-                9
+                8
             ],
-            "title": [
-                "actions"
-            ],
-            "key": [
-                "expulso",
-                "immobulus glacius"
-            ],
-            "knowledge": [
-                "dcao",
-                "dcao"
-            ],
-            "type": [
-                "maldición, defensivo",
-                "encantamiento, ofensivo"
-            ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Neptune E. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"expulso\" (8)</strong><span>El objetivo es lanzado varios metros hacia atrás con fuerza. Adiciona el plus del ataque en la Defensa o la Fuerza del personaje.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"immobulus glacius\" (9)</strong><span>El hielo se extiende y atrapa los pies del objetivo, reduciendo su movilidad. Adiciona +8 en el daño.</span></span></div></div></div>",
+            "title": "actions",
+            "key": "expulso",
+            "knowledge": "dcao",
+            "type": "maldición, defensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Neptune E. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"expulso\" (8)</strong><span>El objetivo es lanzado varios metros hacia atrás con fuerza. Adiciona el plus del ataque en la Defensa o la Fuerza del personaje.</span></span></div></div></div>",
             "url": "r16996",
             "simpleTitle": "duelo #13: asteria vs neptune",
             "space": "el pensadero"
@@ -153230,25 +152925,13 @@ const DBModule = (function () {
         {
             "pitcher": "Asteria C. Lestrange",
             "spread": [
-                12,
                 12
             ],
-            "title": [
-                "actions"
-            ],
-            "key": [
-                "fumos",
-                "dracospira"
-            ],
-            "knowledge": [
-                "dcao",
-                "transformaciones"
-            ],
-            "type": [
-                "encantamiento, defensivo",
-                "ofensivo, transfiguración, maleficio"
-            ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Asteria C. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"fumos\" (12)</strong><span>El humo es espeso y persistente, dificultando la visión y la respiración de todos los adversarios presentes en la escena. El lanzador y quienes estén junto a él Adicionan +4 en defensa durante <em>2</em> (El 50% de DES) turnos, mientras dure la cobertura.</span></span><span class=\"action-result\" data-conocimientos=\"transformaciones\"><strong>Resultado  #2 \"dracospira\" (12)</strong><span>La víctima sufre una transformación más intensa, tosiendo incontrolablemente y emitiendo un espeso humo negro que la deja desorientada. La víctima pierde +4 puntos en sus lanzadas de dados hasta que elimine los efectos del maleficio.</span></span></div></div></div>",
+            "title": "actions",
+            "key": "fumos",
+            "knowledge": "dcao",
+            "type": "encantamiento, defensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Asteria C. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"fumos\" (12)</strong><span>El humo es espeso y persistente, dificultando la visión y la respiración de todos los adversarios presentes en la escena. El lanzador y quienes estén junto a él Adicionan +4 en defensa durante <em>2</em> (El 50% de DES) turnos, mientras dure la cobertura.</span></span></div></div></div>",
             "url": "r18649",
             "simpleTitle": "duelo #13: asteria vs neptune",
             "space": "el pensadero"
@@ -153256,25 +152939,13 @@ const DBModule = (function () {
         {
             "pitcher": "Neptune E. Merrythought",
             "spread": [
-                8,
-                12
+                8
             ],
-            "title": [
-                "actions"
-            ],
-            "key": [
-                "glacius",
-                "flipendo"
-            ],
-            "knowledge": [
-                "encantamientos",
-                "dcao"
-            ],
-            "type": [
-                "encantamiento, defensivo",
-                "maleficio, ofensivo"
-            ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Neptune E. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"glacius\" (8)</strong><span>La zona alrededor queda completamente congelada, inmovilizando temporalmente a todos los que se encuentren en ella y no solo al objetivo. El ataque de cada rival alcanzado pierde <em>+6</em> (40% del conocimiento en ENCANTAMIENTOS) puntos adicionales y adiciona <em>+15</em> (100% del conocimiento en ENCANTAMIENTOS) puntos a siguiente acción.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"flipendo\" (12)</strong><span>El oponente es lanzado por los aires con gran fuerza, impactando contra una superficie. Adiciona <em>+6</em> (40% del conocimiento en DCAO) puntos adicionales de daño al objetivo.</span></span></div></div></div>",
+            "title": "actions",
+            "key": "glacius",
+            "knowledge": "encantamientos",
+            "type": "encantamiento, defensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Neptune E. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"glacius\" (8)</strong><span>El aire se enfría completamente y la zona alrededor queda cubierta de una gruesa capa de hielo, afectando a todos los que se encuentren cerca del objetivo. Reduce <em>+10</em> (75% del conocimiento en ENCANTAMIENTOS) puntos al ataque de cada rival alcanzado.</span></span></div></div></div>",
             "url": "r18668",
             "simpleTitle": "duelo #13: asteria vs neptune",
             "space": "el pensadero"
@@ -153282,25 +152953,13 @@ const DBModule = (function () {
         {
             "pitcher": "Asteria C. Lestrange",
             "spread": [
-                20,
-                19
+                20
             ],
-            "title": [
-                "actions"
-            ],
-            "key": [
-                "immobulus",
-                "duro"
-            ],
-            "knowledge": [
-                "dcao",
-                "transformaciones"
-            ],
-            "type": [
-                "encantamiento, defensivo, ofensivo",
-                "transfiguración, ofensivo"
-            ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Asteria C. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"immobulus\" (20)</strong><span>El hechizo puede paralizar a un único objetivo o, si el lanzador lo decide, a todo un grupo de objetivos cercanos entre sí, tal como se usa para inmovilizar de una vez a un enjambre completo de criaturas pequeñas. Cada objetivo alcanzado queda paralizado durante <em>+17</em> (100% del conocimiento en DCAO) turnos y tarda más en recuperar el control de su cuerpo, donde no podrá realizar acciones, o hasta que un personaje lo libere si se usa como ataque, o impide el ataque, reduciendo el mismo a cero, si se usa como defensa adicionando +4 puntos en la siguiente acción del defensor.</span></span><span class=\"action-result\" data-conocimientos=\"transformaciones\"><strong>Resultado  #2 \"duro\" (19)</strong><span>El objetivo queda casi convertido en piedra en su totalidad. En caso de usarse en duelos, la víctima pierde sus acciones hasta que alguien lo libere o rolee 1 respuesta.</span></span></div></div></div>",
+            "title": "actions",
+            "key": "immobulus",
+            "knowledge": "dcao",
+            "type": "encantamiento, defensivo, ofensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Asteria C. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"immobulus\" (20)</strong><span>El hechizo puede paralizar a un único objetivo o, si el lanzador lo decide, a todo un grupo de objetivos cercanos entre sí, tal como se usa para inmovilizar de una vez a un enjambre completo de criaturas pequeñas. Cada objetivo alcanzado queda paralizado durante <em>+17</em> (100% del conocimiento en DCAO) turnos y tarda más en recuperar el control de su cuerpo, donde no podrá realizar acciones, o hasta que un personaje lo libere si se usa como ataque, o impide el ataque, reduciendo el mismo a cero, si se usa como defensa adicionando +4 puntos en la siguiente acción del defensor.</span></span></div></div></div>",
             "url": "r19341",
             "simpleTitle": "duelo #13: asteria vs neptune",
             "space": "el pensadero"
@@ -153308,25 +152967,13 @@ const DBModule = (function () {
         {
             "pitcher": "Neptune E. Merrythought",
             "spread": [
-                15,
-                14
+                15
             ],
-            "title": [
-                "actions"
-            ],
-            "key": [
-                "protego",
-                "ventus"
-            ],
-            "knowledge": [
-                "dcao",
-                "encantamientos"
-            ],
-            "type": [
-                "encantamiento, defensivo",
-                "encantamiento, ofensivo"
-            ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Neptune E. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"protego\" (15)</strong><span>El escudo es extremadamente resistente. Reduce el ataque en <em>+6</em> (40% del conocimiento en DCAO) puntos adicionales.</span></span><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #2 \"ventus\" (14)</strong><span>Una ráfaga poderosa arroja al objetivo varios metros. Adiciona <em>+15</em> (100% del conocimiento en ENCANTAMIENTOS) en daño en caso de duelos.</span></span></div></div></div>",
+            "title": "actions",
+            "key": "protego",
+            "knowledge": "dcao",
+            "type": "encantamiento, defensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Neptune E. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"protego\" (15)</strong><span>El escudo es extremadamente resistente. Reduce el ataque en <em>+6</em> (40% del conocimiento en DCAO) puntos adicionales.</span></span></div></div></div>",
             "url": "r19562",
             "simpleTitle": "duelo #13: asteria vs neptune",
             "space": "el pensadero"
@@ -153334,25 +152981,13 @@ const DBModule = (function () {
         {
             "pitcher": "Asteria C. Lestrange",
             "spread": [
-                12,
-                15
+                12
             ],
-            "title": [
-                "actions"
-            ],
-            "key": [
-                "glacius",
-                "tarantallegra"
-            ],
-            "knowledge": [
-                "encantamientos",
-                "encantamientos"
-            ],
-            "type": [
-                "encantamiento, defensivo",
-                "embrujo, ofensivo"
-            ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Asteria C. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"glacius\" (12)</strong><span>La zona alrededor queda completamente congelada, inmovilizando temporalmente a todos los que se encuentren en ella y no solo al objetivo. El ataque de cada rival alcanzado pierde <em>+5</em> (40% del conocimiento en ENCANTAMIENTOS) puntos adicionales y adiciona <em>+13</em> (100% del conocimiento en ENCANTAMIENTOS) puntos a siguiente acción.</span></span><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #2 \"tarantallegra\" (15)</strong><span>El baile es tan frenético y forzado que el objetivo podría tropezar y caer, haciéndole daño.  La víctima pierde una acción inmediata.</span></span></div></div></div>",
+            "title": "actions",
+            "key": "glacius",
+            "knowledge": "encantamientos",
+            "type": "encantamiento, defensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Asteria C. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"glacius\" (12)</strong><span>La zona alrededor queda completamente congelada, inmovilizando temporalmente a todos los que se encuentren en ella y no solo al objetivo. El ataque de cada rival alcanzado pierde <em>+5</em> (40% del conocimiento en ENCANTAMIENTOS) puntos adicionales y adiciona <em>+13</em> (100% del conocimiento en ENCANTAMIENTOS) puntos a siguiente acción.</span></span></div></div></div>",
             "url": "r20208",
             "simpleTitle": "duelo #13: asteria vs neptune",
             "space": "el pensadero"
@@ -153360,25 +152995,13 @@ const DBModule = (function () {
         {
             "pitcher": "Neptune E. Merrythought",
             "spread": [
-                12,
-                20
+                12
             ],
-            "title": [
-                "actions"
-            ],
-            "key": [
-                "immobulus",
-                "waddiwasi"
-            ],
-            "knowledge": [
-                "dcao",
-                "dcao"
-            ],
-            "type": [
-                "encantamiento, defensivo, ofensivo",
-                "embrujo, ofensivo"
-            ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Neptune E. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"immobulus\" (12)</strong><span>El hechizo puede paralizar a un único objetivo o, si el lanzador lo decide, a todo un grupo de objetivos cercanos entre sí, tal como se usa para inmovilizar de una vez a un enjambre completo de criaturas pequeñas. Cada objetivo alcanzado queda paralizado durante <em>+15</em> (100% del conocimiento en DCAO) turnos y tarda más en recuperar el control de su cuerpo, donde no podrá realizar acciones, o hasta que un personaje lo libere si se usa como ataque, o impide el ataque, reduciendo el mismo a cero, si se usa como defensa adicionando +4 puntos en la siguiente acción del defensor.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"waddiwasi\" (20)</strong><span>El objeto se mueve a gran velocidad y golpea con impacto certero y potente. Adiciona +26 puntos al daño.</span></span></div></div></div>",
+            "title": "actions",
+            "key": "immobulus",
+            "knowledge": "dcao",
+            "type": "encantamiento, defensivo, ofensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Neptune E. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"immobulus\" (12)</strong><span>El hechizo puede paralizar a un único objetivo o, si el lanzador lo decide, a todo un grupo de objetivos cercanos entre sí, tal como se usa para inmovilizar de una vez a un enjambre completo de criaturas pequeñas. Cada objetivo alcanzado queda paralizado durante <em>+15</em> (100% del conocimiento en DCAO) turnos y tarda más en recuperar el control de su cuerpo, donde no podrá realizar acciones, o hasta que un personaje lo libere si se usa como ataque, o impide el ataque, reduciendo el mismo a cero, si se usa como defensa adicionando +4 puntos en la siguiente acción del defensor.</span></span></div></div></div>",
             "url": "r20472",
             "simpleTitle": "duelo #13: asteria vs neptune",
             "space": "el pensadero"
@@ -153386,25 +153009,13 @@ const DBModule = (function () {
         {
             "pitcher": "Asteria C. Lestrange",
             "spread": [
-                9,
-                5
+                9
             ],
-            "title": [
-                "actions"
-            ],
-            "key": [
-                "protego",
-                "flipendo"
-            ],
-            "knowledge": [
-                "dcao",
-                "dcao"
-            ],
-            "type": [
-                "encantamiento, defensivo",
-                "maleficio, ofensivo"
-            ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Asteria C. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"protego\" (9)</strong><span>El escudo es extremadamente resistente. Reduce el ataque en <em>+6</em> (40% del conocimiento en DCAO) puntos adicionales.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"flipendo\" (5)</strong><span>El oponente es lanzado por los aires con gran fuerza, impactando contra una superficie. Adiciona <em>+6</em> (40% del conocimiento en DCAO) puntos adicionales de daño al objetivo.</span></span></div></div></div>",
+            "title": "actions",
+            "key": "protego",
+            "knowledge": "dcao",
+            "type": "encantamiento, defensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Asteria C. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"protego\" (9)</strong><span>El escudo es extremadamente resistente. Reduce el ataque en <em>+6</em> (40% del conocimiento en DCAO) puntos adicionales.</span></span></div></div></div>",
             "url": "r20623",
             "simpleTitle": "duelo #13: asteria vs neptune",
             "space": "el pensadero"
@@ -153412,25 +153023,13 @@ const DBModule = (function () {
         {
             "pitcher": "Neptune E. Merrythought",
             "spread": [
-                13,
-                9
+                13
             ],
-            "title": [
-                "actions"
-            ],
-            "key": [
-                "glacius",
-                "depulso"
-            ],
-            "knowledge": [
-                "encantamientos",
-                "encantamientos"
-            ],
-            "type": [
-                "encantamiento, defensivo",
-                "encantamiento, ofensivo"
-            ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Neptune E. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"glacius\" (13)</strong><span>La zona alrededor queda completamente congelada, inmovilizando temporalmente a todos los que se encuentren en ella y no solo al objetivo. El ataque de cada rival alcanzado pierde <em>+6</em> (40% del conocimiento en ENCANTAMIENTOS) puntos adicionales y adiciona <em>+15</em> (100% del conocimiento en ENCANTAMIENTOS) puntos a siguiente acción.</span></span><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #2 \"depulso\" (9)</strong><span>El objetivo es arrojado violentamente lejos, perdiendo el equilibrio. Adiciona <em>+15</em> (100% del conocimiento en ENCANTAMIENTOS) en el daño, la víctima pierde 2 acciones consecutivas al recibir el ataque.</span></span></div></div></div>",
+            "title": "actions",
+            "key": "glacius",
+            "knowledge": "encantamientos",
+            "type": "encantamiento, defensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Neptune E. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"glacius\" (13)</strong><span>La zona alrededor queda completamente congelada, inmovilizando temporalmente a todos los que se encuentren en ella y no solo al objetivo. El ataque de cada rival alcanzado pierde <em>+5</em> (40% del conocimiento en ENCANTAMIENTOS) puntos adicionales y adiciona <em>+14</em> (100% del conocimiento en ENCANTAMIENTOS) puntos a siguiente acción.</span></span></div></div></div>",
             "url": "r21601",
             "simpleTitle": "duelo #13: asteria vs neptune",
             "space": "el pensadero"
@@ -153438,22 +153037,13 @@ const DBModule = (function () {
         {
             "pitcher": "Asteria C. Lestrange",
             "spread": [
-                11,
-                7
+                11
             ],
-            "title": [
-                "actions"
-            ],
-            "key": [
-                "fumos"
-            ],
-            "knowledge": [
-                "dcao"
-            ],
-            "type": [
-                "encantamiento, defensivo"
-            ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Asteria C. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"fumos\" (11)</strong><span>El humo es espeso y persistente, dificultando la visión y la respiración de todos los adversarios presentes en la escena. El lanzador y quienes estén junto a él Adicionan +4 en defensa durante <em>2</em> (El 50% de DES) turnos, mientras dure la cobertura.</span></span><span class=\"roll-result\">7</span></div></div></div>",
+            "title": "actions",
+            "key": "fumos",
+            "knowledge": "dcao",
+            "type": "encantamiento, defensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Asteria C. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"fumos\" (11)</strong><span>El humo es espeso y persistente, dificultando la visión y la respiración de todos los adversarios presentes en la escena. El lanzador y quienes estén junto a él Adicionan +4 en defensa durante <em>2</em> (El 50% de DES) turnos, mientras dure la cobertura.</span></span></div></div></div>",
             "url": "r22132",
             "simpleTitle": "duelo #13: asteria vs neptune",
             "space": "el pensadero"
@@ -153461,25 +153051,13 @@ const DBModule = (function () {
         {
             "pitcher": "Neptune E. Merrythought",
             "spread": [
-                7,
-                13
+                7
             ],
-            "title": [
-                "actions"
-            ],
-            "key": [
-                "avis",
-                "oppugno"
-            ],
-            "knowledge": [
-                "transformaciones",
-                "dcao"
-            ],
-            "type": [
-                "transfiguración, neutral",
-                "embrujo, ofensivo"
-            ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Neptune E. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"transformaciones\"><strong>Resultado  #1 \"avis\" (7)</strong><span>Solo aparece un grupo de <em>+1</em> (25% del conocimiento en TRANSFORMACIONES) aves débiles.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"oppugno\" (13)</strong><span>Los objetos impactan con precisión y fuerza considerable. La víctima pierde +6 PV por cada objeto previamente generado.</span></span></div></div></div>",
+            "title": "actions",
+            "key": "avis",
+            "knowledge": "transformaciones",
+            "type": "transfiguración, neutral",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Neptune E. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"transformaciones\"><strong>Resultado  #1 \"avis\" (7)</strong><span>Solo aparece un grupo de <em>+1</em> (25% del conocimiento en TRANSFORMACIONES) aves débiles.</span></span></div></div></div>",
             "url": "r22317",
             "simpleTitle": "duelo #13: asteria vs neptune",
             "space": "el pensadero"
@@ -153487,25 +153065,13 @@ const DBModule = (function () {
         {
             "pitcher": "Asteria C. Lestrange",
             "spread": [
-                14,
-                11
+                14
             ],
-            "title": [
-                "actions"
-            ],
-            "key": [
-                "impedimenta",
-                "aqua eructo"
-            ],
-            "knowledge": [
-                "dcao",
-                "encantamientos"
-            ],
-            "type": [
-                "embrujo, defensivo",
-                "encantamiento, ofensivo"
-            ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Asteria C. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"impedimenta\" (14)</strong><span>El objetivo es detenido en seco y queda inmóvil por un corto periodo. En caso de realizarse sobre un hechizo, disminuye los adicionales del hechizo.</span></span><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #2 \"aqua eructo\" (11)</strong><span>El chorro es fuerte y puede apagar un incendio considerable o repeler criaturas ígneas. Empuja lejos al oponente, adiciona +13 al daño</span></span></div></div></div>",
+            "title": "actions",
+            "key": "impedimenta",
+            "knowledge": "dcao",
+            "type": "embrujo, defensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Asteria C. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"impedimenta\" (14)</strong><span>El objetivo es detenido en seco y queda inmóvil por un corto periodo. En caso de realizarse sobre un hechizo, disminuye los adicionales del hechizo.</span></span></div></div></div>",
             "url": "r22547",
             "simpleTitle": "duelo #13: asteria vs neptune",
             "space": "el pensadero"
@@ -153513,25 +153079,13 @@ const DBModule = (function () {
         {
             "pitcher": "Neptune E. Merrythought",
             "spread": [
-                15,
-                9
+                15
             ],
-            "title": [
-                "actions"
-            ],
-            "key": [
-                "impedimenta",
-                "obscuro"
-            ],
-            "knowledge": [
-                "dcao",
-                "dcao"
-            ],
-            "type": [
-                "embrujo, defensivo",
-                "encantamiento, ofensivo"
-            ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Neptune E. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"impedimenta\" (15)</strong><span>El objetivo es detenido en seco y queda inmóvil por un corto periodo. En caso de realizarse sobre un hechizo, disminuye los adicionales del hechizo.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"obscuro\" (9)</strong><span>El objetivo queda completamente cegado hasta que se elimine el hechizo. Disminuye <em>+11</em> (75% del conocimiento en DCAO) puntos de sus siguientes dos acciones o hasta que se libere del encantamiento.</span></span></div></div></div>",
+            "title": "actions",
+            "key": "impedimenta",
+            "knowledge": "dcao",
+            "type": "embrujo, defensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Neptune E. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"impedimenta\" (15)</strong><span>El objetivo es detenido en seco y queda inmóvil por un corto periodo. En caso de realizarse sobre un hechizo, disminuye los adicionales del hechizo.</span></span></div></div></div>",
             "url": "r22592",
             "simpleTitle": "duelo #13: asteria vs neptune",
             "space": "el pensadero"
@@ -153539,228 +153093,15 @@ const DBModule = (function () {
         {
             "pitcher": "Asteria C. Lestrange",
             "spread": [
-                1,
-                4
+                1
             ],
-            "title": [
-                "actions"
-            ],
-            "key": [
-                "glacius"
-            ],
-            "knowledge": [
-                "encantamientos"
-            ],
-            "type": [
-                "encantamiento, defensivo"
-            ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Asteria C. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"glacius\" (1)</strong><span>El aire se enfría parcialmente, relentizando a la contrincante temporalmente. Reduce <em>+6</em> (50% del conocimiento en ENCANTAMIENTOS) puntos el ataque contrario.</span></span><span class=\"roll-result\">4</span></div></div></div>",
+            "title": "actions",
+            "key": "glacius",
+            "knowledge": "encantamientos",
+            "type": "encantamiento, defensivo",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Asteria C. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"glacius\" (1)</strong><span>El aire se enfría parcialmente, relentizando a la contrincante temporalmente. Reduce <em>+6</em> (50% del conocimiento en ENCANTAMIENTOS) puntos el ataque contrario.</span></span></div></div></div>",
             "url": "r23051",
             "simpleTitle": "duelo #13: asteria vs neptune",
-            "space": "el pensadero"
-        },
-        {
-            "pitcher": "Minerva E. McGonagall",
-            "spread": [
-                19
-            ],
-            "title": [
-                "actions"
-            ],
-            "key": [
-                "unus multis"
-            ],
-            "knowledge": [
-                "alquimia"
-            ],
-            "type": [
-                "encantamiento, neutral"
-            ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"alquimia\"><strong>Resultado  #1 \"unus multis\" (19)</strong><span>El objeto se fragmenta de forma irregular y pierde algunas propiedades.</span></span></div></div></div>",
-            "url": "r17626",
-            "simpleTitle": "Práctica: the sun goes down",
-            "space": "el pensadero"
-        },
-        {
-            "pitcher": "Minerva E. McGonagall",
-            "spread": [
-                2
-            ],
-            "title": [
-                "actions"
-            ],
-            "key": [
-                "succendam bullae"
-            ],
-            "knowledge": [
-                "alquimia"
-            ],
-            "type": [
-                "encantamiento, neutral"
-            ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"alquimia\"><strong>Resultado  #1 \"succendam bullae\" (2)</strong><span>El líquido muestra pequeñas burbujas, pero no llega a la temperatura de ebullición.</span></span></div></div></div>",
-            "url": "r18894",
-            "simpleTitle": "Práctica: the sun goes down",
-            "space": "el pensadero"
-        },
-        {
-            "pitcher": "Viridian L. Greengrass",
-            "spread": [
-                4
-            ],
-            "title": [
-                "actions"
-            ],
-            "key": [
-                "succendam bullae"
-            ],
-            "knowledge": [
-                "alquimia"
-            ],
-            "type": [
-                "encantamiento, neutral"
-            ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Viridian L. Greengrass ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"alquimia\"><strong>Resultado  #1 \"succendam bullae\" (4)</strong><span>El líquido llega a temperatura de ebullición y el mago es capaz de dar con la temperatura a la cual ocurrió el cambio.</span></span></div></div></div>",
-            "url": "r19602",
-            "simpleTitle": "Práctica: the sun goes down",
-            "space": "el pensadero"
-        },
-        {
-            "pitcher": "Minerva E. McGonagall",
-            "spread": [
-                10,
-                16
-            ],
-            "title": [
-                "actions"
-            ],
-            "key": [
-                "succendam bullae",
-                "ut solem creare aliquid novi"
-            ],
-            "knowledge": [
-                "alquimia",
-                "alquimia"
-            ],
-            "type": [
-                "encantamiento, neutral",
-                "encantamiento, neutral"
-            ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"alquimia\"><strong>Resultado  #1 \"succendam bullae\" (10)</strong><span>El líquido burbujea a la temperatura correcta, logrando el punto de ebullición.</span></span><span class=\"action-result\" data-conocimientos=\"alquimia\"><strong>Resultado  #2 \"ut solem creare aliquid novi\" (16)</strong><span>El proceso de fermentación se desarrolla, pero con impurezas o resultados inestables.</span></span></div></div></div>",
-            "url": "r19783",
-            "simpleTitle": "Práctica: the sun goes down",
-            "space": "el pensadero"
-        },
-        {
-            "pitcher": "Viridian L. Greengrass",
-            "spread": [
-                16
-            ],
-            "title": [
-                "actions"
-            ],
-            "key": [
-                "ut solem creare aliquid novi"
-            ],
-            "knowledge": [
-                "alquimia"
-            ],
-            "type": [
-                "encantamiento, neutral"
-            ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Viridian L. Greengrass ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"alquimia\"><strong>Resultado  #1 \"ut solem creare aliquid novi\" (16)</strong><span>La fermentación es impecable, generando un producto puro y altamente efectivo.</span></span></div></div></div>",
-            "url": "r20450",
-            "simpleTitle": "Práctica: the sun goes down",
-            "space": "el pensadero"
-        },
-        {
-            "pitcher": "Minerva E. McGonagall",
-            "spread": [
-                9,
-                17
-            ],
-            "title": [
-                "actions"
-            ],
-            "key": [
-                "fac illum clamorem",
-                "fac illum clamorem"
-            ],
-            "knowledge": [
-                "alquimia",
-                "alquimia"
-            ],
-            "type": [
-                "encantamiento, neutral",
-                "encantamiento, neutral"
-            ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"alquimia\"><strong>Resultado  #1 \"fac illum clamorem\" (9)</strong><span>Apenas se logra extraer una gota del vapor que se trata de condensar.</span></span><span class=\"action-result\" data-conocimientos=\"alquimia\"><strong>Resultado  #2 \"fac illum clamorem\" (17)</strong><span>Se forma una burbuja al rededor de una sección de vapor de la cual se pueden extraer un par de gotas.</span></span></div></div></div>",
-            "url": "r21358",
-            "simpleTitle": "Práctica: the sun goes down",
-            "space": "el pensadero"
-        },
-        {
-            "pitcher": "Viridian L. Greengrass",
-            "spread": [
-                14
-            ],
-            "title": [
-                "actions"
-            ],
-            "key": [
-                "adligat"
-            ],
-            "knowledge": [
-                "alquimia"
-            ],
-            "type": [
-                "encantamiento, neutral"
-            ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Viridian L. Greengrass ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"alquimia\"><strong>Resultado  #1 \"adligat\" (14)</strong><span>El objeto baja a la temperatura deseada y tiene los mismos efectos que el tiempo que el mago deseaba que permaneciera frío.</span></span></div></div></div>",
-            "url": "r21500",
-            "simpleTitle": "Práctica: the sun goes down",
-            "space": "el pensadero"
-        },
-        {
-            "pitcher": "Minerva E. McGonagall",
-            "spread": [
-                1,
-                12
-            ],
-            "title": [
-                "actions"
-            ],
-            "key": [
-                "almacenar poción",
-                "adligat"
-            ],
-            "knowledge": [
-                "pociones",
-                "alquimia"
-            ],
-            "type": [
-                "pociones, sin magia, neutral",
-                "encantamiento, neutral"
-            ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"pociones\"><strong>Resultado  #1 \"almacenar poción\" (1)</strong><span>Añade al contador de la poción los puntos que el personaje tenga en Destreza + +3.</span></span><span class=\"action-result\" data-conocimientos=\"alquimia\"><strong>Resultado  #2 \"adligat\" (12)</strong><span>Logra reducirse un par de grados la temperatura del objeto, pero sin lograr el efecto esperado.</span></span></div></div></div>",
-            "url": "r22477",
-            "simpleTitle": "Práctica: the sun goes down",
-            "space": "el pensadero"
-        },
-        {
-            "pitcher": "Alastor Moody",
-            "spread": [
-                2
-            ],
-            "title": [
-                "felix felicis"
-            ],
-            "key": [],
-            "knowledge": [],
-            "type": [],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-felix-felicis\"><span>Alastor Moody ha lanzado los dados \"felix felicis\"</span><div class=\"dice-results\"><span class=\"roll-result nro2\"><i class=\"fa-solid fa-sparkles\"></i>Se nota que sabes lo que estás haciendo, o Félix lo sabe.</span></div></div></div>",
-            "url": "r20817",
-            "simpleTitle": "country bumpkin",
             "space": "el pensadero"
         }
     ];
