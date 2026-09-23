@@ -159182,11 +159182,15 @@ const DBModule = (function () {
 
         getUpdateWidget: function () {
             // 1. Creamos el contenedor como un objeto jQuery, no como texto plano
-            const $widget = $('<div class="updateDB db-update-widget"><span class="update-message"></span><div class="update-button"><i class="fa-jelly-duo fa-regular fa-arrow-rotate-right"></i></div></div>');
+            const $widget = $('<div class="updateDB db-update-widget"><span class="update-message"></span>'
+                + '<div class="update-buttons" style="display: flex; gap: 6px;">'
+                + '<div class="update-button update-soft"><i class="fa-jelly-duo fa-regular fa-arrow-rotate-right"></i></div>'
+                + '<div class="update-button update-hard"><i class="fa-jelly-duo fa-regular fa-trash-arrow-up"></i></div>'
+                + '</div></div>');
 
             // 2. Buscamos las partes internas
             const $updateBox = $widget.find('.update-message');
-            const $buttonBox = $widget.find('.update-button');
+            const $buttons = $widget.find('.update-button');
 
             // 3. Obtenemos y formateamos la fecha
             const cacheData = this.getLastCacheTime ? this.getLastCacheTime() : null;
@@ -159208,17 +159212,20 @@ const DBModule = (function () {
 
             $updateBox.append(`<date>${dia}/${mes}/${anio} ${horas}:${minutos}:${segundos}</date>`);
             $updateBox.append('<zones>Zonas Actualizadas: ' + (last.zones) + ' / 18</zones>');
-            $buttonBox.attr('title', 'Actualizar Base de Datos');
+            $widget.find('.update-soft').attr('title', 'Actualizar Base de Datos (solo cambios)');
+            $widget.find('.update-hard').attr('title', 'Borrar y reconstruir Base de Datos');
 
             // 4. Guardamos la referencia al DBModule para usarla dentro del click
             const self = this;
 
-            // 5. Adherimos el evento click al botón ANTES de insertarlo en la página
-            $buttonBox.click(async function () {
+            // 5. Adherimos el evento click a los botones ANTES de insertarlos en la página
+            $buttons.click(async function () {
                 const $btn = $(this);
+                const wipe = $btn.hasClass('update-hard');
 
                 if ($btn.prop('disabled') || $btn.hasClass('disabled')) return;
-                $btn.prop('disabled', true).addClass('disabled').css({ opacity: 0.5, cursor: 'not-allowed' });
+                // Deshabilitamos ambos: no tiene sentido correr dos barridos a la vez
+                $buttons.prop('disabled', true).addClass('disabled').css({ opacity: 0.5, cursor: 'not-allowed' });
 
                 $updateBox.find('note').remove();
                 const $note = $('<note>Iniciando actualización...</note>');
@@ -159232,10 +159239,10 @@ const DBModule = (function () {
                         .replace('] Analizando:', ':');
 
                     $note.text(textoLimpio);
-                });
+                }, wipe);
 
                 $note.text('¡Actualización completada con éxito!');
-                $btn.prop('disabled', false).removeClass('disabled').css({ opacity: 1, cursor: 'pointer' });
+                $buttons.prop('disabled', false).removeClass('disabled').css({ opacity: 1, cursor: 'pointer' });
                 setTimeout(() => location.reload(), 1500);
             });
 
@@ -159309,14 +159316,19 @@ const DBModule = (function () {
             localStorage.setItem(INDEX_KEY, 0);
         },
 
-        fullSweep: async function (progressCallback) {
+        // wipe = true  → HARD: vacía dynamicData y re-lee todo desde cero.
+        // wipe = false → SOFT: recorre las 18 zonas sin borrar nada; scanForum solo
+        //                re-lee los temas nuevos, movidos o con respuestas nuevas.
+        fullSweep: async function (progressCallback, wipe = true) {
             if (!progressCallback) {
-                console.log("%c[DBModule] Iniciando BARRIDO COMPLETO (Modo Consola)...", "color: yellow; font-size: 14px;");
+                console.log(`%c[DBModule] Iniciando BARRIDO COMPLETO ${wipe ? 'HARD' : 'SOFT'} (Modo Consola)...`, "color: yellow; font-size: 14px;");
             }
 
-            // === LA MAGIA: VACIAMOS LA MEMORIA RAM ANTES DE EMPEZAR ===
-            dynamicData = { topics: {}, dices: [] };
-            // ==========================================================
+            if (wipe) {
+                // === LA MAGIA: VACIAMOS LA MEMORIA RAM ANTES DE EMPEZAR ===
+                dynamicData = { topics: {}, dices: [] };
+                // ==========================================================
+            }
 
             this.resetIndex();
             let currentIndex = 0;
