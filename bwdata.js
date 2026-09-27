@@ -5218,7 +5218,7 @@ const MissionsModule = (function () {
         },
 
         "triángulo hacia abajo sin línea": {
-          "visible": { "attr": { "val": "min" }, "know": { "alquimia": "10" }, "job": "invalid", "name": "invalid", }, "place": "arcón",
+          "visible": { "attr": { "val": "min" }, "know": { "alquimia": "5" }, "job": "invalid", "name": "invalid", }, "place": "arcón",
           "cont": '<span>El triángulo hacia abajo que no posee ninguna línea pertenece al símbolo alquímico del agua.</span>',
         },
 
