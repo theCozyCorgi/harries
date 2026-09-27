@@ -8811,6 +8811,20 @@ article {
   padding: 5px 10px;
 }
 
+/* imágenes de notas nuevas (news.js): mismo teñido que minister-image, sin editar el gif */
+.profeta-tint {
+  display: block;
+  overflow: hidden;
+  line-height: 0;
+  background: var(--color-bold-100);
+}
+
+.profeta-tint img {
+  filter: grayscale(1);
+  mix-blend-mode: exclusion;
+  width: 101%;
+}
+
 .left-image .article-title,
 .left-image-full .article-title {
   font-size: 36px;
