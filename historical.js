@@ -67,7 +67,7 @@ const _historical = {
     "resumen": 'La investigación consistió en revisar un archivo de viejos recortes de prensa para reconstruir la vida de Galatea Merrythought, tía de Edwin Merrythought, una destacada aurora que llegó a ser jefa del Departamento de Seguridad Mágica y más tarde profesora en Hogwarts. A través de las noticias, los investigadores repasaron su nacimiento, su ascenso dentro de la Oficina de Aurores, su retiro forzado tras enfrentarse a un grupo de inferi, su etapa como docente y, finalmente, su muerte, tras la cual heredó todos sus bienes —incluido el observatorio de su familia materna en Glasgow— a su sobrino Edwin. El repaso reveló además que ninguna de las dos varitas, ni la de la aurora fallecida ni la de su sobrino, fue hallada entre sus pertenencias, y que la primera podría haber quedado oculta dentro de su propio bastón. Con esa pista, la investigación concluyó señalando el observatorio de Glasgow como el siguiente lugar a inspeccionar en busca de las varitas perdidas y de nuevas respuestas.',
   },
   "559": {
-    "tema": 'Potions For All The Afflections',
+    "tema": 'Potions For All The Afflictions',
     "fecha": '1952-10-31',
     "tipo": 'mision',
     "tag": ['edwin', 'morgana', 'sirius', 'capitulo 0'],
