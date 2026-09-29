@@ -17,7 +17,8 @@ const DBModule = (function () {
         { name: "resto del mundo", path: "/f18-resto-del-mundo" },
         { name: "el pensadero", path: "/f7-el-pensadero" },
         { name: "club de duelos", path: "/f37-club-de-duelos" },
-        { name: "prácticas del sistema", path: "/f35-practicas-del-sistema" }
+        { name: "prácticas del sistema", path: "/f35-practicas-del-sistema" },
+        { name: "temas inactivos", path: "/f30-temas-inactivos" }
     ];
 
     const CACHE_KEY = 'blackwave_db_cache_v8';
@@ -75694,6 +75695,7633 @@ const DBModule = (function () {
             ],
             "date": "31/05/1953",
             "location": "Arena Dush"
+        }
+    };
+    // Temas de "temas inactivos" congelados (+90 días sin posts o sin compañero de rol).
+    // Solo se saltean mientras sigan en ese foro con el mismo replyCount: si los mueven o responden, se releen.
+    const hardcodedInactiveTopics = {
+        "94": {
+            "space": "temas inactivos",
+            "url": "/t94-1952-09-06-repeat-until-death",
+            "simpleTitle": "repeat until death",
+            "creator": "Regulus O. Black",
+            "replyCount": 7,
+            "posts": [
+                {
+                    "url": "r233",
+                    "author": "Regulus O. Black",
+                    "date": "03/05/2025",
+                    "words": 299
+                },
+                {
+                    "url": "r341",
+                    "author": "Invitado",
+                    "date": "03/05/2025",
+                    "words": 286
+                },
+                {
+                    "url": "r415",
+                    "author": "Regulus O. Black",
+                    "date": "04/05/2025",
+                    "words": 265
+                },
+                {
+                    "url": "r510",
+                    "author": "Invitado",
+                    "date": "05/05/2025",
+                    "words": 321
+                },
+                {
+                    "url": "r538",
+                    "author": "Regulus O. Black",
+                    "date": "06/05/2025",
+                    "words": 259
+                },
+                {
+                    "url": "r577",
+                    "author": "Invitado",
+                    "date": "06/05/2025",
+                    "words": 546
+                },
+                {
+                    "url": "r658",
+                    "author": "Regulus O. Black",
+                    "date": "08/05/2025",
+                    "words": 325
+                },
+                {
+                    "url": "r846",
+                    "author": "Invitado",
+                    "date": "11/05/2025",
+                    "words": 586
+                }
+            ],
+            "date": "06/09/1952",
+            "location": "Callejón Knockturn"
+        },
+        "98": {
+            "space": "temas inactivos",
+            "url": "/t98-1952-09-20-lucky-for-you",
+            "simpleTitle": "lucky for you",
+            "creator": "Minerva E. McGonagall",
+            "replyCount": 4,
+            "posts": [
+                {
+                    "url": "r241",
+                    "author": "Minerva E. McGonagall",
+                    "date": "03/05/2025",
+                    "words": 292
+                },
+                {
+                    "url": "r344",
+                    "author": "Invitado",
+                    "date": "04/05/2025",
+                    "words": 694
+                },
+                {
+                    "url": "r434",
+                    "author": "Minerva E. McGonagall",
+                    "date": "05/05/2025",
+                    "words": 419
+                },
+                {
+                    "url": "r1070",
+                    "author": "Invitado",
+                    "date": "13/05/2025",
+                    "words": 668
+                },
+                {
+                    "url": "r1605",
+                    "author": "Minerva E. McGonagall",
+                    "date": "18/05/2025",
+                    "words": 694
+                }
+            ],
+            "date": "20/09/1952",
+            "location": "Cabeza de Puerco"
+        },
+        "130": {
+            "space": "temas inactivos",
+            "url": "/t130-1952-09-01-shakespearean-tragedy",
+            "simpleTitle": "shakespearean tragedy",
+            "creator": "",
+            "replyCount": 5,
+            "posts": [
+                {
+                    "url": "r350",
+                    "author": "Invitado",
+                    "date": "04/05/2025",
+                    "words": 654
+                },
+                {
+                    "url": "r364",
+                    "author": "Orion A. Black",
+                    "date": "04/05/2025",
+                    "words": 471
+                },
+                {
+                    "url": "r473",
+                    "author": "Invitado",
+                    "date": "05/05/2025",
+                    "words": 835
+                },
+                {
+                    "url": "r927",
+                    "author": "Orion A. Black",
+                    "date": "11/05/2025",
+                    "words": 510
+                },
+                {
+                    "url": "r1657",
+                    "author": "Invitado",
+                    "date": "18/05/2025",
+                    "words": 857
+                },
+                {
+                    "url": "r2778",
+                    "author": "Orion A. Black",
+                    "date": "03/06/2025",
+                    "words": 514
+                }
+            ],
+            "date": "01/09/1952",
+            "location": "Cementerio Inglés "
+        },
+        "136": {
+            "space": "temas inactivos",
+            "url": "/t136-1952-09-06-not-so-innocent",
+            "simpleTitle": "not so innocent",
+            "creator": "",
+            "replyCount": 6,
+            "posts": [
+                {
+                    "url": "r385",
+                    "author": "Invitado",
+                    "date": "04/05/2025",
+                    "words": 325
+                },
+                {
+                    "url": "r575",
+                    "author": "Invitado",
+                    "date": "06/05/2025",
+                    "words": 566
+                },
+                {
+                    "url": "r655",
+                    "author": "Invitado",
+                    "date": "08/05/2025",
+                    "words": 398
+                },
+                {
+                    "url": "r1126",
+                    "author": "Invitado",
+                    "date": "13/05/2025",
+                    "words": 659
+                },
+                {
+                    "url": "r1217",
+                    "author": "Invitado",
+                    "date": "14/05/2025",
+                    "words": 509
+                },
+                {
+                    "url": "r2477",
+                    "author": "Invitado",
+                    "date": "28/05/2025",
+                    "words": 607
+                },
+                {
+                    "url": "r2531",
+                    "author": "Invitado",
+                    "date": "29/05/2025",
+                    "words": 638
+                }
+            ],
+            "date": "06/09/1952",
+            "location": "Bibury"
+        },
+        "145": {
+            "space": "temas inactivos",
+            "url": "/t145-1952-09-09-spit-in-my-face",
+            "simpleTitle": "spit in my face!",
+            "creator": "",
+            "replyCount": 5,
+            "posts": [
+                {
+                    "url": "r414",
+                    "author": "Invitado",
+                    "date": "04/05/2025",
+                    "words": 472
+                },
+                {
+                    "url": "r604",
+                    "author": "Alastor Moody",
+                    "date": "07/05/2025",
+                    "words": 382
+                },
+                {
+                    "url": "r1069",
+                    "author": "Invitado",
+                    "date": "13/05/2025",
+                    "words": 439
+                },
+                {
+                    "url": "r1443",
+                    "author": "Alastor Moody",
+                    "date": "16/05/2025",
+                    "words": 417
+                },
+                {
+                    "url": "r1820",
+                    "author": "Invitado",
+                    "date": "21/05/2025",
+                    "words": 744
+                },
+                {
+                    "url": "r2327",
+                    "author": "Alastor Moody",
+                    "date": "26/05/2025",
+                    "words": 872
+                }
+            ],
+            "date": "09/09/1952",
+            "location": "En algún local muggle"
+        },
+        "166": {
+            "space": "temas inactivos",
+            "url": "/t166-1952-09-10-saved-by-the-wand",
+            "simpleTitle": "saved by the wand",
+            "creator": "Vasilisa M. Kuznetzova",
+            "replyCount": 2,
+            "posts": [
+                {
+                    "url": "r502",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "05/05/2025",
+                    "words": 234
+                },
+                {
+                    "url": "r547",
+                    "author": "Invitado",
+                    "date": "06/05/2025",
+                    "words": 326
+                },
+                {
+                    "url": "r732",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "09/05/2025",
+                    "words": 228
+                }
+            ],
+            "date": "10/09/1952",
+            "location": "Algún lugar de Iverness"
+        },
+        "173": {
+            "space": "temas inactivos",
+            "url": "/t173-1952-09-09-crossroad",
+            "simpleTitle": "crossroad",
+            "creator": "",
+            "replyCount": 2,
+            "posts": [
+                {
+                    "url": "r527",
+                    "author": "Invitado",
+                    "date": "06/05/2025",
+                    "words": 245
+                },
+                {
+                    "url": "r550",
+                    "author": "Invitado",
+                    "date": "06/05/2025",
+                    "words": 438
+                },
+                {
+                    "url": "r619",
+                    "author": "Invitado",
+                    "date": "07/05/2025",
+                    "words": 390
+                }
+            ],
+            "date": "09/09/1952",
+            "location": "Campo de quidditch, Hogwarts"
+        },
+        "176": {
+            "space": "temas inactivos",
+            "url": "/t176-1952-09-01-i-ll-drop-and-spell-a-charm",
+            "simpleTitle": "i'll drop and spell a charm",
+            "creator": "Regulus O. Black",
+            "replyCount": 4,
+            "posts": [
+                {
+                    "url": "r540",
+                    "author": "Regulus O. Black",
+                    "date": "06/05/2025",
+                    "words": 243
+                },
+                {
+                    "url": "r580",
+                    "author": "Invitado",
+                    "date": "06/05/2025",
+                    "words": 370
+                },
+                {
+                    "url": "r657",
+                    "author": "Regulus O. Black",
+                    "date": "08/05/2025",
+                    "words": 287
+                },
+                {
+                    "url": "r828",
+                    "author": "Invitado",
+                    "date": "10/05/2025",
+                    "words": 389
+                },
+                {
+                    "url": "r1577",
+                    "author": "Regulus O. Black",
+                    "date": "17/05/2025",
+                    "words": 351
+                }
+            ],
+            "date": "01/09/1952",
+            "location": "Ministerio de Magia"
+        },
+        "200": {
+            "space": "temas inactivos",
+            "url": "/t200-1952-09-16-trap-in-the-sea",
+            "simpleTitle": "trap in the sea",
+            "creator": "H. Shun Parkinson",
+            "replyCount": 1,
+            "posts": [
+                {
+                    "url": "r668",
+                    "author": "H. Shun Parkinson",
+                    "date": "08/05/2025",
+                    "words": 206
+                },
+                {
+                    "url": "r727",
+                    "author": "Invitado",
+                    "date": "09/05/2025",
+                    "words": 269
+                }
+            ],
+            "date": "16/09/1952",
+            "location": "San Mungo"
+        },
+        "220": {
+            "space": "temas inactivos",
+            "url": "/t220-1952-09-03-memories-from-the-past",
+            "simpleTitle": "memories from the past",
+            "creator": "",
+            "replyCount": 2,
+            "posts": [
+                {
+                    "url": "r789",
+                    "author": "Invitado",
+                    "date": "10/05/2025",
+                    "words": 322
+                },
+                {
+                    "url": "r1203",
+                    "author": "Invitado",
+                    "date": "14/05/2025",
+                    "words": 322
+                },
+                {
+                    "url": "r1254",
+                    "author": "Invitado",
+                    "date": "15/05/2025",
+                    "words": 389
+                }
+            ],
+            "date": "03/09/1952",
+            "location": "Knightsbridge, Londres"
+        },
+        "224": {
+            "space": "temas inactivos",
+            "url": "/t224-1952-09-22-we-re-always-in-this-twilight",
+            "simpleTitle": "we're always in this twilight",
+            "creator": "Findlay McCrory",
+            "replyCount": 6,
+            "posts": [
+                {
+                    "url": "r810",
+                    "author": "Findlay McCrory",
+                    "date": "10/05/2025",
+                    "words": 208
+                },
+                {
+                    "url": "r813",
+                    "author": "Invitado",
+                    "date": "10/05/2025",
+                    "words": 234
+                },
+                {
+                    "url": "r815",
+                    "author": "Findlay McCrory",
+                    "date": "10/05/2025",
+                    "words": 224
+                },
+                {
+                    "url": "r847",
+                    "author": "Invitado",
+                    "date": "11/05/2025",
+                    "words": 224
+                },
+                {
+                    "url": "r867",
+                    "author": "Findlay McCrory",
+                    "date": "11/05/2025",
+                    "words": 221
+                },
+                {
+                    "url": "r1596",
+                    "author": "Invitado",
+                    "date": "18/05/2025",
+                    "words": 211
+                },
+                {
+                    "url": "r1840",
+                    "author": "Findlay McCrory",
+                    "date": "21/05/2025",
+                    "words": 233
+                }
+            ],
+            "date": "22/09/1952",
+            "location": "Torre de Astronomía"
+        },
+        "229": {
+            "space": "temas inactivos",
+            "url": "/t229-1952-09-05-a-cursed-case",
+            "simpleTitle": "a cursed case",
+            "creator": "",
+            "replyCount": 1,
+            "posts": [
+                {
+                    "url": "r844",
+                    "author": "Invitado",
+                    "date": "11/05/2025",
+                    "words": 247
+                },
+                {
+                    "url": "r1491",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "17/05/2025",
+                    "words": 207
+                }
+            ],
+            "date": "05/09/1952",
+            "location": "Gringotts"
+        },
+        "231": {
+            "space": "temas inactivos",
+            "url": "/t231-1952-09-15-after-the-storm",
+            "simpleTitle": "after the storm",
+            "creator": "Orion A. Black",
+            "replyCount": 2,
+            "posts": [
+                {
+                    "url": "r857",
+                    "author": "Orion A. Black",
+                    "date": "11/05/2025",
+                    "words": 292
+                },
+                {
+                    "url": "r1238",
+                    "author": "Invitado",
+                    "date": "14/05/2025",
+                    "words": 249
+                },
+                {
+                    "url": "r1498",
+                    "author": "Orion A. Black",
+                    "date": "17/05/2025",
+                    "words": 223
+                }
+            ],
+            "date": "15/09/1952",
+            "location": "Castillo Black"
+        },
+        "271": {
+            "space": "temas inactivos",
+            "url": "/t271-1952-09-18-still-here",
+            "simpleTitle": "still here",
+            "creator": "",
+            "replyCount": 2,
+            "posts": [
+                {
+                    "url": "r1198",
+                    "author": "Invitado",
+                    "date": "14/05/2025",
+                    "words": 154
+                },
+                {
+                    "url": "r2028",
+                    "author": "Orion A. Black",
+                    "date": "23/05/2025",
+                    "words": 208
+                },
+                {
+                    "url": "r2047",
+                    "author": "Invitado",
+                    "date": "23/05/2025",
+                    "words": 181
+                }
+            ],
+            "date": "18/09/1952",
+            "location": "Restaurante: El sombrero de la bruja"
+        },
+        "284": {
+            "space": "temas inactivos",
+            "url": "/t284-1951-03-19-aprecia-lo-inesperado",
+            "simpleTitle": "aprecia lo inesperado",
+            "creator": "Alastor Moody",
+            "replyCount": 4,
+            "posts": [
+                {
+                    "url": "r1386",
+                    "author": "Alastor Moody",
+                    "date": "16/05/2025",
+                    "words": 229
+                },
+                {
+                    "url": "r1703",
+                    "author": "Invitado",
+                    "date": "19/05/2025",
+                    "words": 265
+                },
+                {
+                    "url": "r1864",
+                    "author": "Alastor Moody",
+                    "date": "21/05/2025",
+                    "words": 259
+                },
+                {
+                    "url": "r2250",
+                    "author": "Invitado",
+                    "date": "26/05/2025",
+                    "words": 345
+                },
+                {
+                    "url": "r2376",
+                    "author": "Alastor Moody",
+                    "date": "27/05/2025",
+                    "words": 430
+                }
+            ],
+            "date": "19/03/1951",
+            "location": "Callejón Diagon"
+        },
+        "299": {
+            "space": "temas inactivos",
+            "url": "/t299-1952-09-11-ghost-of-him",
+            "simpleTitle": "ghost of him",
+            "creator": "Regulus O. Black",
+            "replyCount": 4,
+            "posts": [
+                {
+                    "url": "r1584",
+                    "author": "Regulus O. Black",
+                    "date": "17/05/2025",
+                    "words": 239
+                },
+                {
+                    "url": "r1640",
+                    "author": "Invitado",
+                    "date": "18/05/2025",
+                    "words": 235
+                },
+                {
+                    "url": "r1683",
+                    "author": "Regulus O. Black",
+                    "date": "19/05/2025",
+                    "words": 252
+                },
+                {
+                    "url": "r2117",
+                    "author": "Invitado",
+                    "date": "24/05/2025",
+                    "words": 311
+                },
+                {
+                    "url": "r2337",
+                    "author": "Regulus O. Black",
+                    "date": "27/05/2025",
+                    "words": 314
+                }
+            ],
+            "date": "11/09/1952",
+            "location": "Museo de Mirabilia"
+        },
+        "301": {
+            "space": "temas inactivos",
+            "url": "/t301-1952-09-25-but-living-to-please-others",
+            "simpleTitle": "but living to please others?",
+            "creator": "",
+            "replyCount": 5,
+            "posts": [
+                {
+                    "url": "r1609",
+                    "author": "Invitado",
+                    "date": "18/05/2025",
+                    "words": 245
+                },
+                {
+                    "url": "r2029",
+                    "author": "Orion A. Black",
+                    "date": "23/05/2025",
+                    "words": 231
+                },
+                {
+                    "url": "r2217",
+                    "author": "Invitado",
+                    "date": "26/05/2025",
+                    "words": 268
+                },
+                {
+                    "url": "r2223",
+                    "author": "Orion A. Black",
+                    "date": "26/05/2025",
+                    "words": 225
+                },
+                {
+                    "url": "r2239",
+                    "author": "Invitado",
+                    "date": "26/05/2025",
+                    "words": 245
+                },
+                {
+                    "url": "r4366",
+                    "author": "Orion A. Black",
+                    "date": "25/07/2025",
+                    "words": 267
+                }
+            ],
+            "date": "25/09/1952",
+            "location": "Tribunales del Wizengamot"
+        },
+        "305": {
+            "space": "temas inactivos",
+            "url": "/t305-1952-09-22-little-did-i-know",
+            "simpleTitle": "little did i know",
+            "creator": "H. Shun Parkinson",
+            "replyCount": 6,
+            "posts": [
+                {
+                    "url": "r1672",
+                    "author": "H. Shun Parkinson",
+                    "date": "19/05/2025",
+                    "words": 277
+                },
+                {
+                    "url": "r1780",
+                    "author": "Invitado",
+                    "date": "20/05/2025",
+                    "words": 312
+                },
+                {
+                    "url": "r2211",
+                    "author": "H. Shun Parkinson",
+                    "date": "26/05/2025",
+                    "words": 280
+                },
+                {
+                    "url": "r2406",
+                    "author": "Invitado",
+                    "date": "27/05/2025",
+                    "words": 389
+                },
+                {
+                    "url": "r2657",
+                    "author": "H. Shun Parkinson",
+                    "date": "31/05/2025",
+                    "words": 503
+                },
+                {
+                    "url": "r2973",
+                    "author": "Invitado",
+                    "date": "05/06/2025",
+                    "words": 485
+                },
+                {
+                    "url": "r3083",
+                    "author": "H. Shun Parkinson",
+                    "date": "09/06/2025",
+                    "words": 595
+                }
+            ],
+            "date": "22/09/1952",
+            "location": "Sala de Runas Mágicas"
+        },
+        "311": {
+            "space": "temas inactivos",
+            "url": "/t311-1948-11-30-sangre-sucia",
+            "simpleTitle": "sangre sucia",
+            "creator": "",
+            "replyCount": 1,
+            "posts": [
+                {
+                    "url": "r1772",
+                    "author": "Invitado",
+                    "date": "20/05/2025",
+                    "words": 371
+                },
+                {
+                    "url": "r1848",
+                    "author": "Jasper R. Gryffith",
+                    "date": "21/05/2025",
+                    "words": 287
+                }
+            ],
+            "date": "30/11/1948",
+            "location": "Hospital San Mungo"
+        },
+        "326": {
+            "space": "temas inactivos",
+            "url": "/t326-1952-09-18-paper-and-ink",
+            "simpleTitle": "paper and ink",
+            "creator": "Asteria C. Lestrange",
+            "replyCount": 2,
+            "posts": [
+                {
+                    "url": "r1962",
+                    "author": "Asteria C. Lestrange",
+                    "date": "22/05/2025",
+                    "words": 275
+                },
+                {
+                    "url": "r2489",
+                    "author": "Invitado",
+                    "date": "28/05/2025",
+                    "words": 229
+                },
+                {
+                    "url": "r2684",
+                    "author": "Asteria C. Lestrange",
+                    "date": "01/06/2025",
+                    "words": 218
+                }
+            ],
+            "date": "18/09/1952",
+            "location": "Biblioteca"
+        },
+        "327": {
+            "space": "temas inactivos",
+            "url": "/t327-1952-09-15-practica-carpe-retractum",
+            "simpleTitle": "práctica: carpe retractum",
+            "creator": "Findlay McCrory",
+            "replyCount": 3,
+            "posts": [
+                {
+                    "url": "r1963",
+                    "author": "Findlay McCrory",
+                    "date": "22/05/2025",
+                    "words": 210
+                },
+                {
+                    "url": "r2189",
+                    "author": "Invitado",
+                    "date": "25/05/2025",
+                    "words": 220
+                },
+                {
+                    "url": "r2465",
+                    "author": "Findlay McCrory",
+                    "date": "28/05/2025",
+                    "words": 233
+                },
+                {
+                    "url": "r2466",
+                    "author": "The Familiars",
+                    "date": "28/05/2025",
+                    "words": 0
+                }
+            ],
+            "date": "15/09/1952",
+            "location": "Biblioteca de Hogwarts"
+        },
+        "335": {
+            "space": "temas inactivos",
+            "url": "/t335-1952-09-11-dead-end-labyrinth",
+            "simpleTitle": "dead-end labyrinth",
+            "creator": "",
+            "replyCount": 1,
+            "posts": [
+                {
+                    "url": "r2038",
+                    "author": "Invitado",
+                    "date": "23/05/2025",
+                    "words": 163
+                },
+                {
+                    "url": "r2049",
+                    "author": "Invitado",
+                    "date": "23/05/2025",
+                    "words": 280
+                }
+            ],
+            "date": "11/09/1952",
+            "location": "Oficina de Aurores"
+        },
+        "348": {
+            "space": "temas inactivos",
+            "url": "/t348-1952-09-13-a-bad-brew",
+            "simpleTitle": "a bad brew",
+            "creator": "Findlay McCrory",
+            "replyCount": 2,
+            "posts": [
+                {
+                    "url": "r2155",
+                    "author": "Findlay McCrory",
+                    "date": "25/05/2025",
+                    "words": 221
+                },
+                {
+                    "url": "r2428",
+                    "author": "Invitado",
+                    "date": "27/05/2025",
+                    "words": 324
+                },
+                {
+                    "url": "r2469",
+                    "author": "Findlay McCrory",
+                    "date": "28/05/2025",
+                    "words": 268
+                }
+            ],
+            "date": "13/09/1952",
+            "location": "Aula de Pociones"
+        },
+        "350": {
+            "space": "temas inactivos",
+            "url": "/t350-1952-09-17-you-go-into-a-city-of-weeping",
+            "simpleTitle": "you go into a city of weeping",
+            "creator": "",
+            "replyCount": 3,
+            "posts": [
+                {
+                    "url": "r2192",
+                    "author": "Invitado",
+                    "date": "25/05/2025",
+                    "words": 245
+                },
+                {
+                    "url": "r2296",
+                    "author": "Invitado",
+                    "date": "26/05/2025",
+                    "words": 465
+                },
+                {
+                    "url": "r3243",
+                    "author": "Invitado",
+                    "date": "15/06/2025",
+                    "words": 306
+                },
+                {
+                    "url": "r3309",
+                    "author": "Invitado",
+                    "date": "17/06/2025",
+                    "words": 290
+                }
+            ],
+            "date": "17/09/1952",
+            "location": "Oficina de Magos Golpeadores"
+        },
+        "356": {
+            "space": "temas inactivos",
+            "url": "/t356-1952-09-20-practica-les-paradis-artificiels",
+            "simpleTitle": "práctica: les paradis artificiels",
+            "creator": "",
+            "replyCount": 1,
+            "posts": [
+                {
+                    "url": "r2248",
+                    "author": "Invitado",
+                    "date": "26/05/2025",
+                    "words": 403
+                },
+                {
+                    "url": "r2343",
+                    "author": "Regulus O. Black",
+                    "date": "27/05/2025",
+                    "words": 393
+                }
+            ],
+            "date": "20/09/1952",
+            "location": "Residencia de Regulus"
+        },
+        "358": {
+            "space": "temas inactivos",
+            "url": "/t358-1952-09-03-itsy-bitsy",
+            "simpleTitle": "itsy-bitsy",
+            "creator": "",
+            "replyCount": 1,
+            "posts": [
+                {
+                    "url": "r2252",
+                    "author": "Invitado",
+                    "date": "26/05/2025",
+                    "words": 262
+                },
+                {
+                    "url": "r2686",
+                    "author": "Asteria C. Lestrange",
+                    "date": "01/06/2025",
+                    "words": 250
+                }
+            ],
+            "date": "03/09/1952",
+            "location": "sala común de slytherin"
+        },
+        "366": {
+            "space": "temas inactivos",
+            "url": "/t366-1952-09-20-the-world-gone-mad",
+            "simpleTitle": "the world gone mad",
+            "creator": "Regulus O. Black",
+            "replyCount": 0,
+            "posts": [
+                {
+                    "url": "r2339",
+                    "author": "Regulus O. Black",
+                    "date": "27/05/2025",
+                    "words": 203
+                }
+            ],
+            "date": "20/09/1952",
+            "location": "Inglaterra"
+        },
+        "378": {
+            "space": "temas inactivos",
+            "url": "/t378-1952-09-12-break-time",
+            "simpleTitle": "break time",
+            "creator": "Kaoru Satoo",
+            "replyCount": 3,
+            "posts": [
+                {
+                    "url": "r2506",
+                    "author": "Kaoru Satoo",
+                    "date": "29/05/2025",
+                    "words": 220
+                },
+                {
+                    "url": "r3197",
+                    "author": "Invitado",
+                    "date": "13/06/2025",
+                    "words": 282
+                },
+                {
+                    "url": "r3717",
+                    "author": "Kaoru Satoo",
+                    "date": "06/07/2025",
+                    "words": 261
+                },
+                {
+                    "url": "r3718",
+                    "author": "The Familiars",
+                    "date": "06/07/2025",
+                    "words": 0
+                }
+            ],
+            "date": "12/09/1952",
+            "location": "Segunda Planta"
+        },
+        "390": {
+            "space": "temas inactivos",
+            "url": "/t390-1952-10-01-nightwish",
+            "simpleTitle": "nightwish",
+            "creator": "Kaoru Satoo",
+            "replyCount": 6,
+            "posts": [
+                {
+                    "url": "r2691",
+                    "author": "Kaoru Satoo",
+                    "date": "01/06/2025",
+                    "words": 234
+                },
+                {
+                    "url": "r2719",
+                    "author": "Invitado",
+                    "date": "02/06/2025",
+                    "words": 318
+                },
+                {
+                    "url": "r2906",
+                    "author": "Kaoru Satoo",
+                    "date": "04/06/2025",
+                    "words": 225
+                },
+                {
+                    "url": "r2907",
+                    "author": "The Familiars",
+                    "date": "04/06/2025",
+                    "words": 0
+                },
+                {
+                    "url": "r2976",
+                    "author": "Invitado",
+                    "date": "06/06/2025",
+                    "words": 215
+                },
+                {
+                    "url": "r3013",
+                    "author": "Kaoru Satoo",
+                    "date": "07/06/2025",
+                    "words": 257
+                },
+                {
+                    "url": "r3139",
+                    "author": "Invitado",
+                    "date": "10/06/2025",
+                    "words": 353
+                }
+            ],
+            "date": "01/10/1952",
+            "location": "Puerta de Sanación"
+        },
+        "414": {
+            "space": "temas inactivos",
+            "url": "/t414-1952-10-03-shot-in-the-night",
+            "simpleTitle": "shot in the night",
+            "creator": "",
+            "replyCount": 3,
+            "posts": [
+                {
+                    "url": "r2908",
+                    "author": "Invitado",
+                    "date": "04/06/2025",
+                    "words": 422
+                },
+                {
+                    "url": "r3011",
+                    "author": "Orion A. Black",
+                    "date": "07/06/2025",
+                    "words": 304
+                },
+                {
+                    "url": "r3028",
+                    "author": "Invitado",
+                    "date": "07/06/2025",
+                    "words": 230
+                },
+                {
+                    "url": "r3316",
+                    "author": "Orion A. Black",
+                    "date": "17/06/2025",
+                    "words": 219
+                }
+            ],
+            "date": "03/10/1952",
+            "location": "Inglaterra, Moonroot Bar"
+        },
+        "420": {
+            "space": "temas inactivos",
+            "url": "/t420-1952-10-12-the-in-between",
+            "simpleTitle": "the in between",
+            "creator": "Vasilisa M. Kuznetzova",
+            "replyCount": 2,
+            "posts": [
+                {
+                    "url": "r3005",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "07/06/2025",
+                    "words": 235
+                },
+                {
+                    "url": "r3025",
+                    "author": "Invitado",
+                    "date": "07/06/2025",
+                    "words": 214
+                },
+                {
+                    "url": "r3314",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "17/06/2025",
+                    "words": 227
+                }
+            ],
+            "date": "12/10/1952",
+            "location": "the lion's coffee "
+        },
+        "423": {
+            "space": "temas inactivos",
+            "url": "/t423-1952-10-14-what-doesn-t-kill-you-makes-you-wiser",
+            "simpleTitle": "what doesn't kill you makes you wiser",
+            "creator": "",
+            "replyCount": 3,
+            "posts": [
+                {
+                    "url": "r3043",
+                    "author": "Invitado",
+                    "date": "08/06/2025",
+                    "words": 361
+                },
+                {
+                    "url": "r3393",
+                    "author": "Kaoru Satoo",
+                    "date": "23/06/2025",
+                    "words": 214
+                },
+                {
+                    "url": "r3841",
+                    "author": "Invitado",
+                    "date": "10/07/2025",
+                    "words": 196
+                },
+                {
+                    "url": "r4118",
+                    "author": "Kaoru Satoo",
+                    "date": "20/07/2025",
+                    "words": 207
+                }
+            ],
+            "date": "14/10/1952",
+            "location": "Residencia Grant"
+        },
+        "424": {
+            "space": "temas inactivos",
+            "url": "/t424-1952-10-05-game-of-chess",
+            "simpleTitle": "game of chess",
+            "creator": "",
+            "replyCount": 7,
+            "posts": [
+                {
+                    "url": "r3045",
+                    "author": "Invitado",
+                    "date": "08/06/2025",
+                    "words": 246
+                },
+                {
+                    "url": "r3064",
+                    "author": "Regulus O. Black",
+                    "date": "09/06/2025",
+                    "words": 219
+                },
+                {
+                    "url": "r3087",
+                    "author": "Invitado",
+                    "date": "09/06/2025",
+                    "words": 248
+                },
+                {
+                    "url": "r3151",
+                    "author": "Regulus O. Black",
+                    "date": "11/06/2025",
+                    "words": 343
+                },
+                {
+                    "url": "r3207",
+                    "author": "Invitado",
+                    "date": "14/06/2025",
+                    "words": 262
+                },
+                {
+                    "url": "r3291",
+                    "author": "Regulus O. Black",
+                    "date": "17/06/2025",
+                    "words": 248
+                },
+                {
+                    "url": "r3845",
+                    "author": "Invitado",
+                    "date": "10/07/2025",
+                    "words": 343
+                },
+                {
+                    "url": "r3936",
+                    "author": "Regulus O. Black",
+                    "date": "14/07/2025",
+                    "words": 369
+                }
+            ],
+            "date": "05/10/1952",
+            "location": "Puddlemere United"
+        },
+        "435": {
+            "space": "temas inactivos",
+            "url": "/t435-1952-10-10-lo-que-se-esconde-en-la-oscuridad",
+            "simpleTitle": "lo que se esconde en la oscuridad",
+            "creator": "",
+            "replyCount": 1,
+            "posts": [
+                {
+                    "url": "r3173",
+                    "author": "Invitado",
+                    "date": "12/06/2025",
+                    "words": 289
+                },
+                {
+                    "url": "r3692",
+                    "author": "Orion A. Black",
+                    "date": "04/07/2025",
+                    "words": 246
+                }
+            ],
+            "date": "10/10/1952",
+            "location": "Departamento de Misterios"
+        },
+        "436": {
+            "space": "temas inactivos",
+            "url": "/t436-1952-10-14-dark-shadows",
+            "simpleTitle": "dark shadows",
+            "creator": "Regulus O. Black",
+            "replyCount": 2,
+            "posts": [
+                {
+                    "url": "r3184",
+                    "author": "Regulus O. Black",
+                    "date": "13/06/2025",
+                    "words": 305
+                },
+                {
+                    "url": "r3220",
+                    "author": "Invitado",
+                    "date": "14/06/2025",
+                    "words": 246
+                },
+                {
+                    "url": "r3292",
+                    "author": "Regulus O. Black",
+                    "date": "17/06/2025",
+                    "words": 257
+                }
+            ],
+            "date": "14/10/1952",
+            "location": "Museo de Mirabilia"
+        },
+        "437": {
+            "space": "temas inactivos",
+            "url": "/t437-1952-10-17-take-it-out-of-me",
+            "simpleTitle": "take it out of me",
+            "creator": "Regulus O. Black",
+            "replyCount": 4,
+            "posts": [
+                {
+                    "url": "r3185",
+                    "author": "Regulus O. Black",
+                    "date": "13/06/2025",
+                    "words": 261
+                },
+                {
+                    "url": "r3353",
+                    "author": "Invitado",
+                    "date": "22/06/2025",
+                    "words": 298
+                },
+                {
+                    "url": "r3417",
+                    "author": "Regulus O. Black",
+                    "date": "24/06/2025",
+                    "words": 241
+                },
+                {
+                    "url": "r4358",
+                    "author": "Invitado",
+                    "date": "25/07/2025",
+                    "words": 259
+                },
+                {
+                    "url": "r4457",
+                    "author": "Regulus O. Black",
+                    "date": "28/07/2025",
+                    "words": 244
+                }
+            ],
+            "date": "17/10/1952",
+            "location": "Salón de Té"
+        },
+        "440": {
+            "space": "temas inactivos",
+            "url": "/t440-1952-10-21-flowing-river",
+            "simpleTitle": "flowing river",
+            "creator": "Theolonius D. Covey",
+            "replyCount": 0,
+            "posts": [
+                {
+                    "url": "r3189",
+                    "author": "Theolonius D. Covey",
+                    "date": "13/06/2025",
+                    "words": 187
+                }
+            ],
+            "date": "21/10/1952",
+            "location": "Biblioteca"
+        },
+        "450": {
+            "space": "temas inactivos",
+            "url": "/t450-1952-10-19-mystic-merchant",
+            "simpleTitle": "mystic merchant",
+            "creator": "Theolonius D. Covey",
+            "replyCount": 0,
+            "posts": [
+                {
+                    "url": "r3297",
+                    "author": "Theolonius D. Covey",
+                    "date": "17/06/2025",
+                    "words": 207
+                }
+            ],
+            "date": "19/10/1952",
+            "location": "Área de Restauración"
+        },
+        "459": {
+            "space": "temas inactivos",
+            "url": "/t459-1952-10-03-where-is-my-mind",
+            "simpleTitle": "where is my mind?",
+            "creator": "",
+            "replyCount": 2,
+            "posts": [
+                {
+                    "url": "r3414",
+                    "author": "Invitado",
+                    "date": "23/06/2025",
+                    "words": 338
+                },
+                {
+                    "url": "r3774",
+                    "author": "Invitado",
+                    "date": "09/07/2025",
+                    "words": 424
+                },
+                {
+                    "url": "r3840",
+                    "author": "Invitado",
+                    "date": "10/07/2025",
+                    "words": 407
+                }
+            ],
+            "date": "03/10/1952",
+            "location": "La Casa de los Cuatro Vientos, Aberfeldy"
+        },
+        "467": {
+            "space": "temas inactivos",
+            "url": "/t467-1952-10-28-ambivalence",
+            "simpleTitle": "ambivalence",
+            "creator": "Findlay McCrory",
+            "replyCount": 2,
+            "posts": [
+                {
+                    "url": "r3498",
+                    "author": "Findlay McCrory",
+                    "date": "26/06/2025",
+                    "words": 197
+                },
+                {
+                    "url": "r3594",
+                    "author": "Invitado",
+                    "date": "01/07/2025",
+                    "words": 303
+                },
+                {
+                    "url": "r3620",
+                    "author": "Findlay McCrory",
+                    "date": "02/07/2025",
+                    "words": 229
+                }
+            ],
+            "date": "28/10/1952",
+            "location": "Aula de DCAO"
+        },
+        "480": {
+            "space": "temas inactivos",
+            "url": "/t480-1952-10-18-drifting-far-away",
+            "simpleTitle": "drifting far away",
+            "creator": "Regulus O. Black",
+            "replyCount": 2,
+            "posts": [
+                {
+                    "url": "r3611",
+                    "author": "Regulus O. Black",
+                    "date": "02/07/2025",
+                    "words": 366
+                },
+                {
+                    "url": "r3612",
+                    "author": "Invitado",
+                    "date": "02/07/2025",
+                    "words": 444
+                },
+                {
+                    "url": "r3712",
+                    "author": "Regulus O. Black",
+                    "date": "05/07/2025",
+                    "words": 393
+                }
+            ],
+            "date": "18/10/1952",
+            "location": "Departamento de Misterios"
+        },
+        "481": {
+            "space": "temas inactivos",
+            "url": "/t481-1952-10-26-littlewood",
+            "simpleTitle": "littlewood",
+            "creator": "Minerva E. McGonagall",
+            "replyCount": 1,
+            "posts": [
+                {
+                    "url": "r3641",
+                    "author": "Minerva E. McGonagall",
+                    "date": "03/07/2025",
+                    "words": 212
+                },
+                {
+                    "url": "r3642",
+                    "author": "The Familiars",
+                    "date": "03/07/2025",
+                    "words": 0
+                }
+            ],
+            "date": "26/10/1952",
+            "location": "Sala de DCAO"
+        },
+        "483": {
+            "space": "temas inactivos",
+            "url": "/t483-1952-10-20-flowing-river",
+            "simpleTitle": "flowing river",
+            "creator": "Theolonius D. Covey",
+            "replyCount": 2,
+            "posts": [
+                {
+                    "url": "r3652",
+                    "author": "Theolonius D. Covey",
+                    "date": "03/07/2025",
+                    "words": 226
+                },
+                {
+                    "url": "r3865",
+                    "author": "Invitado",
+                    "date": "12/07/2025",
+                    "words": 337
+                },
+                {
+                    "url": "r3999",
+                    "author": "Theolonius D. Covey",
+                    "date": "15/07/2025",
+                    "words": 401
+                }
+            ],
+            "date": "20/10/1952",
+            "location": "San Mungo"
+        },
+        "484": {
+            "space": "temas inactivos",
+            "url": "/t484-1952-10-24-lunar-drive",
+            "simpleTitle": "lunar drive",
+            "creator": "Regulus O. Black",
+            "replyCount": 2,
+            "posts": [
+                {
+                    "url": "r3653",
+                    "author": "Regulus O. Black",
+                    "date": "03/07/2025",
+                    "words": 270
+                },
+                {
+                    "url": "r3853",
+                    "author": "Invitado",
+                    "date": "11/07/2025",
+                    "words": 481
+                },
+                {
+                    "url": "r3937",
+                    "author": "Regulus O. Black",
+                    "date": "14/07/2025",
+                    "words": 440
+                }
+            ],
+            "date": "24/10/1952",
+            "location": "Departamento de Misterios"
+        },
+        "529": {
+            "space": "temas inactivos",
+            "url": "/t529-1952-10-17-we-were-youngs",
+            "simpleTitle": "we were youngs",
+            "creator": "Hankford B. Diggory",
+            "replyCount": 2,
+            "posts": [
+                {
+                    "url": "r4285",
+                    "author": "Hankford B. Diggory",
+                    "date": "24/07/2025",
+                    "words": 279
+                },
+                {
+                    "url": "r4523",
+                    "author": "Invitado",
+                    "date": "29/07/2025",
+                    "words": 271
+                },
+                {
+                    "url": "r4612",
+                    "author": "Hankford B. Diggory",
+                    "date": "03/08/2025",
+                    "words": 460
+                }
+            ],
+            "date": "17/10/1952",
+            "location": "Aula de Runas Antiguas"
+        },
+        "531": {
+            "space": "temas inactivos",
+            "url": "/t531-1952-10-29-heridas-de-guerra",
+            "simpleTitle": "heridas de guerra",
+            "creator": "Findlay McCrory",
+            "replyCount": 4,
+            "posts": [
+                {
+                    "url": "r4303",
+                    "author": "Findlay McCrory",
+                    "date": "24/07/2025",
+                    "words": 187
+                },
+                {
+                    "url": "r4338",
+                    "author": "Invitado",
+                    "date": "25/07/2025",
+                    "words": 310
+                },
+                {
+                    "url": "r4362",
+                    "author": "Findlay McCrory",
+                    "date": "25/07/2025",
+                    "words": 377
+                },
+                {
+                    "url": "r4691",
+                    "author": "Invitado",
+                    "date": "04/08/2025",
+                    "words": 337
+                },
+                {
+                    "url": "r4927",
+                    "author": "Findlay McCrory",
+                    "date": "10/08/2025",
+                    "words": 321
+                }
+            ],
+            "date": "29/10/1952",
+            "location": "Campo de Quidditch"
+        },
+        "534": {
+            "space": "temas inactivos",
+            "url": "/t534-1952-10-28-olor-a-humedad-y-otras-hipotesis-inquietantes",
+            "simpleTitle": "olor a humedad y otras hipótesis inquietantes",
+            "creator": "",
+            "replyCount": 1,
+            "posts": [
+                {
+                    "url": "r4343",
+                    "author": "Invitado",
+                    "date": "25/07/2025",
+                    "words": 328
+                },
+                {
+                    "url": "r4716",
+                    "author": "Asteria C. Lestrange",
+                    "date": "05/08/2025",
+                    "words": 336
+                }
+            ],
+            "date": "28/10/1952",
+            "location": "Mazmorras"
+        },
+        "538": {
+            "space": "temas inactivos",
+            "url": "/t538-1952-10-19-hope-you-lie-to-me",
+            "simpleTitle": "hope you lie to me",
+            "creator": "H. Shun Parkinson",
+            "replyCount": 0,
+            "posts": [
+                {
+                    "url": "r4430",
+                    "author": "H. Shun Parkinson",
+                    "date": "28/07/2025",
+                    "words": 316
+                }
+            ],
+            "date": "19/10/1952",
+            "location": "Hogsmeade"
+        },
+        "551": {
+            "space": "temas inactivos",
+            "url": "/t551-1952-10-20-practica-no-es-un-castigo",
+            "simpleTitle": "práctica: no es un castigo",
+            "creator": "",
+            "replyCount": 3,
+            "posts": [
+                {
+                    "url": "r4516",
+                    "author": "Invitado",
+                    "date": "29/07/2025",
+                    "words": 226
+                },
+                {
+                    "url": "r4518",
+                    "author": "Findlay McCrory",
+                    "date": "29/07/2025",
+                    "words": 306
+                },
+                {
+                    "url": "r4524",
+                    "author": "Invitado",
+                    "date": "29/07/2025",
+                    "words": 316
+                },
+                {
+                    "url": "r4550",
+                    "author": "Findlay McCrory",
+                    "date": "30/07/2025",
+                    "words": 261
+                }
+            ],
+            "date": "20/10/1952",
+            "location": "Clase de encantamientos"
+        },
+        "554": {
+            "space": "temas inactivos",
+            "url": "/t554-1952-10-16-walk-with-me",
+            "simpleTitle": "walk with me",
+            "creator": "Hankford B. Diggory",
+            "replyCount": 2,
+            "posts": [
+                {
+                    "url": "r4539",
+                    "author": "Hankford B. Diggory",
+                    "date": "30/07/2025",
+                    "words": 235
+                },
+                {
+                    "url": "r4542",
+                    "author": "Invitado",
+                    "date": "30/07/2025",
+                    "words": 314
+                },
+                {
+                    "url": "r4613",
+                    "author": "Hankford B. Diggory",
+                    "date": "03/08/2025",
+                    "words": 451
+                }
+            ],
+            "date": "16/10/1952",
+            "location": "Clase de Runas"
+        },
+        "555": {
+            "space": "temas inactivos",
+            "url": "/t555-1952-06-14-final-countdown",
+            "simpleTitle": "final countdown",
+            "creator": "",
+            "replyCount": 1,
+            "posts": [
+                {
+                    "url": "r4543",
+                    "author": "Invitado",
+                    "date": "30/07/2025",
+                    "words": 215
+                },
+                {
+                    "url": "r4585",
+                    "author": "Minerva E. McGonagall",
+                    "date": "02/08/2025",
+                    "words": 286
+                }
+            ],
+            "date": "14/06/1952",
+            "location": "Campo de Quidditch"
+        },
+        "567": {
+            "space": "temas inactivos",
+            "url": "/t567-1952-11-03-discomfort",
+            "simpleTitle": "discomfort",
+            "creator": "Thaddeus L. Nott",
+            "replyCount": 1,
+            "posts": [
+                {
+                    "url": "r4590",
+                    "author": "Thaddeus L. Nott",
+                    "date": "02/08/2025",
+                    "words": 232
+                },
+                {
+                    "url": "r4591",
+                    "author": "The Familiars",
+                    "date": "02/08/2025",
+                    "words": 0
+                }
+            ],
+            "date": "03/11/1952",
+            "location": "Biblioteca"
+        },
+        "586": {
+            "space": "temas inactivos",
+            "url": "/t586-1952-11-05-mirror-mirror-on-the-wall",
+            "simpleTitle": "mirror mirror on the wall",
+            "creator": "Hermes Rosier",
+            "replyCount": 4,
+            "posts": [
+                {
+                    "url": "r4915",
+                    "author": "Hermes Rosier",
+                    "date": "10/08/2025",
+                    "words": 241
+                },
+                {
+                    "url": "r4944",
+                    "author": "Invitado",
+                    "date": "11/08/2025",
+                    "words": 257
+                },
+                {
+                    "url": "r4949",
+                    "author": "Hermes Rosier",
+                    "date": "11/08/2025",
+                    "words": 179
+                },
+                {
+                    "url": "r4977",
+                    "author": "Invitado",
+                    "date": "12/08/2025",
+                    "words": 229
+                },
+                {
+                    "url": "r5217",
+                    "author": "Hermes Rosier",
+                    "date": "17/08/2025",
+                    "words": 304
+                }
+            ],
+            "date": "05/11/1952",
+            "location": "Estudio de Pintura"
+        },
+        "590": {
+            "space": "temas inactivos",
+            "url": "/t590-1952-11-08-all-the-echoes-in-my-mind",
+            "simpleTitle": "all the echoes in my mind",
+            "creator": "Neptune E. Merrythought",
+            "replyCount": 0,
+            "posts": [
+                {
+                    "url": "r4963",
+                    "author": "Neptune E. Merrythought",
+                    "date": "12/08/2025",
+                    "words": 261
+                }
+            ],
+            "date": "08/11/1952",
+            "location": "Gradas de Quidditch"
+        },
+        "595": {
+            "space": "temas inactivos",
+            "url": "/t595-1952-11-22-ghost-in-the-shell",
+            "simpleTitle": "ghost in the shell",
+            "creator": "Regulus O. Black",
+            "replyCount": 2,
+            "posts": [
+                {
+                    "url": "r5034",
+                    "author": "Regulus O. Black",
+                    "date": "13/08/2025",
+                    "words": 249
+                },
+                {
+                    "url": "r5061",
+                    "author": "Invitado",
+                    "date": "13/08/2025",
+                    "words": 267
+                },
+                {
+                    "url": "r5241",
+                    "author": "Regulus O. Black",
+                    "date": "18/08/2025",
+                    "words": 297
+                }
+            ],
+            "date": "22/11/1952",
+            "location": "Sala de las Runas"
+        },
+        "653": {
+            "space": "temas inactivos",
+            "url": "/t653-1952-11-18-it-s-a-wolf-thing",
+            "simpleTitle": "it's a wolf thing",
+            "creator": "Ruairidh Ó Mhaille",
+            "replyCount": 10,
+            "posts": [
+                {
+                    "url": "r6187",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "06/09/2025",
+                    "words": 299
+                },
+                {
+                    "url": "r6188",
+                    "author": "The Familiars",
+                    "date": "06/09/2025",
+                    "words": 0
+                },
+                {
+                    "url": "r6247",
+                    "author": "Invitado",
+                    "date": "07/09/2025",
+                    "words": 222
+                },
+                {
+                    "url": "r6294",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "08/09/2025",
+                    "words": 222
+                },
+                {
+                    "url": "r6295",
+                    "author": "The Familiars",
+                    "date": "08/09/2025",
+                    "words": 0
+                },
+                {
+                    "url": "r7733",
+                    "author": "Invitado",
+                    "date": "14/10/2025",
+                    "words": 207
+                },
+                {
+                    "url": "r7769",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "15/10/2025",
+                    "words": 250
+                },
+                {
+                    "url": "r8668",
+                    "author": "Invitado",
+                    "date": "04/11/2025",
+                    "words": 234
+                },
+                {
+                    "url": "r8882",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "08/11/2025",
+                    "words": 212
+                },
+                {
+                    "url": "r10049",
+                    "author": "Invitado",
+                    "date": "30/11/2025",
+                    "words": 195
+                },
+                {
+                    "url": "r10458",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "06/12/2025",
+                    "words": 296
+                }
+            ],
+            "date": "18/11/1952",
+            "location": "Aula de CCM"
+        },
+        "667": {
+            "space": "temas inactivos",
+            "url": "/t667-1952-11-13-world-class-insomniac",
+            "simpleTitle": "world class insomniac",
+            "creator": "Hermes Rosier",
+            "replyCount": 4,
+            "posts": [
+                {
+                    "url": "r6483",
+                    "author": "Hermes Rosier",
+                    "date": "15/09/2025",
+                    "words": 335
+                },
+                {
+                    "url": "r6484",
+                    "author": "The Familiars",
+                    "date": "15/09/2025",
+                    "words": 0
+                },
+                {
+                    "url": "r6495",
+                    "author": "Invitado",
+                    "date": "15/09/2025",
+                    "words": 441
+                },
+                {
+                    "url": "r6567",
+                    "author": "Hermes Rosier",
+                    "date": "16/09/2025",
+                    "words": 334
+                },
+                {
+                    "url": "r6568",
+                    "author": "The Familiars",
+                    "date": "16/09/2025",
+                    "words": 0
+                }
+            ],
+            "date": "13/11/1952",
+            "location": "Sala de Profesores"
+        },
+        "670": {
+            "space": "temas inactivos",
+            "url": "/t670-1952-11-02-ancient-stones",
+            "simpleTitle": "ancient stones",
+            "creator": "Hankford B. Diggory",
+            "replyCount": 2,
+            "posts": [
+                {
+                    "url": "r6526",
+                    "author": "Hankford B. Diggory",
+                    "date": "16/09/2025",
+                    "words": 233
+                },
+                {
+                    "url": "r6551",
+                    "author": "Invitado",
+                    "date": "16/09/2025",
+                    "words": 337
+                },
+                {
+                    "url": "r6727",
+                    "author": "Hankford B. Diggory",
+                    "date": "21/09/2025",
+                    "words": 229
+                }
+            ],
+            "date": "02/11/1952",
+            "location": "Biblioteca: Sección Prohibida"
+        },
+        "684": {
+            "space": "temas inactivos",
+            "url": "/t684-1952-11-19-beneath-the-old-oak",
+            "simpleTitle": "beneath the old oak",
+            "creator": "H. Shun Parkinson",
+            "replyCount": 4,
+            "posts": [
+                {
+                    "url": "r7107",
+                    "author": "H. Shun Parkinson",
+                    "date": "30/09/2025",
+                    "words": 245
+                },
+                {
+                    "url": "r7257",
+                    "author": "Invitado",
+                    "date": "04/10/2025",
+                    "words": 219
+                },
+                {
+                    "url": "r7393",
+                    "author": "H. Shun Parkinson",
+                    "date": "06/10/2025",
+                    "words": 284
+                },
+                {
+                    "url": "r8482",
+                    "author": "Invitado",
+                    "date": "02/11/2025",
+                    "words": 273
+                },
+                {
+                    "url": "r8809",
+                    "author": "H. Shun Parkinson",
+                    "date": "07/11/2025",
+                    "words": 407
+                }
+            ],
+            "date": "19/11/1952",
+            "location": "Ministerio de Magia"
+        },
+        "718": {
+            "space": "temas inactivos",
+            "url": "/t718-1952-12-05-i-can-t-relate",
+            "simpleTitle": "i can't relate",
+            "creator": "Ruaan S. Patil",
+            "replyCount": 6,
+            "posts": [
+                {
+                    "url": "r7695",
+                    "author": "Ruaan S. Patil",
+                    "date": "14/10/2025",
+                    "words": 219
+                },
+                {
+                    "url": "r7773",
+                    "author": "Invitado",
+                    "date": "15/10/2025",
+                    "words": 230
+                },
+                {
+                    "url": "r7940",
+                    "author": "Ruaan S. Patil",
+                    "date": "22/10/2025",
+                    "words": 260
+                },
+                {
+                    "url": "r8710",
+                    "author": "Invitado",
+                    "date": "05/11/2025",
+                    "words": 231
+                },
+                {
+                    "url": "r8902",
+                    "author": "Ruaan S. Patil",
+                    "date": "10/11/2025",
+                    "words": 271
+                },
+                {
+                    "url": "r10050",
+                    "author": "Invitado",
+                    "date": "30/11/2025",
+                    "words": 233
+                },
+                {
+                    "url": "r10347",
+                    "author": "Ruaan S. Patil",
+                    "date": "05/12/2025",
+                    "words": 425
+                }
+            ],
+            "date": "05/12/1952",
+            "location": "Las Tres Escobas"
+        },
+        "721": {
+            "space": "temas inactivos",
+            "url": "/t721-1952-12-20-farmacopea",
+            "simpleTitle": "farmacopea",
+            "creator": "Ruairidh Ó Mhaille",
+            "replyCount": 8,
+            "posts": [
+                {
+                    "url": "r7766",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "15/10/2025",
+                    "words": 227
+                },
+                {
+                    "url": "r7784",
+                    "author": "Invitado",
+                    "date": "16/10/2025",
+                    "words": 310
+                },
+                {
+                    "url": "r7785",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "16/10/2025",
+                    "words": 248
+                },
+                {
+                    "url": "r7831",
+                    "author": "Invitado",
+                    "date": "19/10/2025",
+                    "words": 286
+                },
+                {
+                    "url": "r7842",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "19/10/2025",
+                    "words": 171
+                },
+                {
+                    "url": "r8033",
+                    "author": "Invitado",
+                    "date": "24/10/2025",
+                    "words": 239
+                },
+                {
+                    "url": "r8238",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "29/10/2025",
+                    "words": 326
+                },
+                {
+                    "url": "r8433",
+                    "author": "Invitado",
+                    "date": "02/11/2025",
+                    "words": 334
+                },
+                {
+                    "url": "r8817",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "07/11/2025",
+                    "words": 172
+                }
+            ],
+            "date": "20/12/1952",
+            "location": "Callejón Diagon"
+        },
+        "729": {
+            "space": "temas inactivos",
+            "url": "/t729-1952-12-10-por-mas-que-el-dugbog-se-vista-de-seda",
+            "simpleTitle": "por más que el dugbog se vista de seda",
+            "creator": "Alastor Moody",
+            "replyCount": 5,
+            "posts": [
+                {
+                    "url": "r7986",
+                    "author": "Alastor Moody",
+                    "date": "23/10/2025",
+                    "words": 341
+                },
+                {
+                    "url": "r8041",
+                    "author": "Invitado",
+                    "date": "24/10/2025",
+                    "words": 297
+                },
+                {
+                    "url": "r8042",
+                    "author": "The Familiars",
+                    "date": "24/10/2025",
+                    "words": 0
+                },
+                {
+                    "url": "r8170",
+                    "author": "Alastor Moody",
+                    "date": "27/10/2025",
+                    "words": 317
+                },
+                {
+                    "url": "r8417",
+                    "author": "Invitado",
+                    "date": "02/11/2025",
+                    "words": 374
+                },
+                {
+                    "url": "r8565",
+                    "author": "Alastor Moody",
+                    "date": "03/11/2025",
+                    "words": 423
+                }
+            ],
+            "date": "10/12/1952",
+            "location": "Pociones J. Pippin"
+        },
+        "737": {
+            "space": "temas inactivos",
+            "url": "/t737-1952-12-01-sorpresas-ocultas",
+            "simpleTitle": "sorpresas ocultas",
+            "creator": "",
+            "replyCount": 3,
+            "posts": [
+                {
+                    "url": "r8182",
+                    "author": "Invitado",
+                    "date": "28/10/2025",
+                    "words": 266
+                },
+                {
+                    "url": "r8431",
+                    "author": "Invitado",
+                    "date": "02/11/2025",
+                    "words": 285
+                },
+                {
+                    "url": "r8521",
+                    "author": "Invitado",
+                    "date": "03/11/2025",
+                    "words": 231
+                },
+                {
+                    "url": "r8522",
+                    "author": "The Familiars",
+                    "date": "03/11/2025",
+                    "words": 0
+                }
+            ],
+            "date": "01/12/1952",
+            "location": "Parque Forestal de Tollymore"
+        },
+        "740": {
+            "space": "temas inactivos",
+            "url": "/t740-privado-those-were-the-days",
+            "simpleTitle": "those were the days",
+            "creator": "Neptune E. Merrythought",
+            "replyCount": 15,
+            "posts": [
+                {
+                    "url": "r8256",
+                    "author": "Neptune E. Merrythought",
+                    "date": "30/10/2025",
+                    "words": 359
+                },
+                {
+                    "url": "r8262",
+                    "author": "Invitado",
+                    "date": "30/10/2025",
+                    "words": 1006
+                },
+                {
+                    "url": "r8398",
+                    "author": "Neptune E. Merrythought",
+                    "date": "02/11/2025",
+                    "words": 463
+                },
+                {
+                    "url": "r8895",
+                    "author": "Invitado",
+                    "date": "09/11/2025",
+                    "words": 325
+                },
+                {
+                    "url": "r9100",
+                    "author": "Neptune E. Merrythought",
+                    "date": "12/11/2025",
+                    "words": 315
+                },
+                {
+                    "url": "r10713",
+                    "author": "Invitado",
+                    "date": "12/12/2025",
+                    "words": 226
+                },
+                {
+                    "url": "r10865",
+                    "author": "Neptune E. Merrythought",
+                    "date": "17/12/2025",
+                    "words": 289
+                },
+                {
+                    "url": "r14253",
+                    "author": "Invitado",
+                    "date": "02/03/2026",
+                    "words": 304
+                },
+                {
+                    "url": "r14843",
+                    "author": "Neptune E. Merrythought",
+                    "date": "13/03/2026",
+                    "words": 380
+                },
+                {
+                    "url": "r15586",
+                    "author": "Invitado",
+                    "date": "27/03/2026",
+                    "words": 389
+                },
+                {
+                    "url": "r16020",
+                    "author": "Neptune E. Merrythought",
+                    "date": "02/04/2026",
+                    "words": 437
+                },
+                {
+                    "url": "r17292",
+                    "author": "Invitado",
+                    "date": "01/05/2026",
+                    "words": 453
+                },
+                {
+                    "url": "r17768",
+                    "author": "Neptune E. Merrythought",
+                    "date": "07/05/2026",
+                    "words": 375
+                },
+                {
+                    "url": "r18351",
+                    "author": "Invitado",
+                    "date": "14/05/2026",
+                    "words": 300
+                },
+                {
+                    "url": "r18653",
+                    "author": "Neptune E. Merrythought",
+                    "date": "19/05/2026",
+                    "words": 234
+                },
+                {
+                    "url": "r18654",
+                    "author": "The Familiars",
+                    "date": "19/05/2026",
+                    "words": 0
+                }
+            ],
+            "date": "14/01/1953",
+            "location": "Casa de los Merrythought"
+        },
+        "761": {
+            "space": "temas inactivos",
+            "url": "/t761-1952-12-14-moon-phases",
+            "simpleTitle": "moon phases",
+            "creator": "Neptune E. Merrythought",
+            "replyCount": 10,
+            "posts": [
+                {
+                    "url": "r8801",
+                    "author": "Neptune E. Merrythought",
+                    "date": "07/11/2025",
+                    "words": 252
+                },
+                {
+                    "url": "r9521",
+                    "author": "Invitado",
+                    "date": "21/11/2025",
+                    "words": 246
+                },
+                {
+                    "url": "r9817",
+                    "author": "Neptune E. Merrythought",
+                    "date": "25/11/2025",
+                    "words": 266
+                },
+                {
+                    "url": "r10155",
+                    "author": "Invitado",
+                    "date": "01/12/2025",
+                    "words": 248
+                },
+                {
+                    "url": "r10432",
+                    "author": "Neptune E. Merrythought",
+                    "date": "06/12/2025",
+                    "words": 203
+                },
+                {
+                    "url": "r10844",
+                    "author": "Invitado",
+                    "date": "16/12/2025",
+                    "words": 259
+                },
+                {
+                    "url": "r11034",
+                    "author": "Neptune E. Merrythought",
+                    "date": "22/12/2025",
+                    "words": 301
+                },
+                {
+                    "url": "r12628",
+                    "author": "Invitado",
+                    "date": "02/02/2026",
+                    "words": 399
+                },
+                {
+                    "url": "r12994",
+                    "author": "Neptune E. Merrythought",
+                    "date": "11/02/2026",
+                    "words": 273
+                },
+                {
+                    "url": "r13423",
+                    "author": "Invitado",
+                    "date": "18/02/2026",
+                    "words": 272
+                },
+                {
+                    "url": "r13591",
+                    "author": "Neptune E. Merrythought",
+                    "date": "20/02/2026",
+                    "words": 385
+                }
+            ],
+            "date": "14/12/1952",
+            "location": "Tiendas"
+        },
+        "766": {
+            "space": "temas inactivos",
+            "url": "/t766-1952-12-19-imaginary",
+            "simpleTitle": "imaginary",
+            "creator": "Thaddeus L. Nott",
+            "replyCount": 2,
+            "posts": [
+                {
+                    "url": "r8821",
+                    "author": "Thaddeus L. Nott",
+                    "date": "07/11/2025",
+                    "words": 330
+                },
+                {
+                    "url": "r10316",
+                    "author": "Invitado",
+                    "date": "04/12/2025",
+                    "words": 236
+                },
+                {
+                    "url": "r10412",
+                    "author": "Thaddeus L. Nott",
+                    "date": "06/12/2025",
+                    "words": 256
+                }
+            ],
+            "date": "19/12/1952",
+            "location": "Mansión Nott"
+        },
+        "774": {
+            "space": "temas inactivos",
+            "url": "/t774-1952-12-12-holiday-cheer",
+            "simpleTitle": "holiday cheer",
+            "creator": "Hankford B. Diggory",
+            "replyCount": 4,
+            "posts": [
+                {
+                    "url": "r8989",
+                    "author": "Hankford B. Diggory",
+                    "date": "11/11/2025",
+                    "words": 267
+                },
+                {
+                    "url": "r9180",
+                    "author": "Invitado",
+                    "date": "15/11/2025",
+                    "words": 245
+                },
+                {
+                    "url": "r9347",
+                    "author": "Hankford B. Diggory",
+                    "date": "18/11/2025",
+                    "words": 314
+                },
+                {
+                    "url": "r9390",
+                    "author": "Invitado",
+                    "date": "19/11/2025",
+                    "words": 250
+                },
+                {
+                    "url": "r9508",
+                    "author": "Hankford B. Diggory",
+                    "date": "21/11/2025",
+                    "words": 470
+                }
+            ],
+            "date": "12/12/1952",
+            "location": "Sala de Profesores"
+        },
+        "775": {
+            "space": "temas inactivos",
+            "url": "/t775-1952-12-09-witching-hour",
+            "simpleTitle": "witching hour",
+            "creator": "Minerva E. McGonagall",
+            "replyCount": 2,
+            "posts": [
+                {
+                    "url": "r8998",
+                    "author": "Minerva E. McGonagall",
+                    "date": "11/11/2025",
+                    "words": 282
+                },
+                {
+                    "url": "r9389",
+                    "author": "Invitado",
+                    "date": "19/11/2025",
+                    "words": 245
+                },
+                {
+                    "url": "r9557",
+                    "author": "Minerva E. McGonagall",
+                    "date": "22/11/2025",
+                    "words": 252
+                }
+            ],
+            "date": "09/12/1952",
+            "location": "Aula de Encantamientos"
+        },
+        "777": {
+            "space": "temas inactivos",
+            "url": "/t777-1952-12-10-distracciones",
+            "simpleTitle": "distracciones",
+            "creator": "Montgomery Thatch",
+            "replyCount": 1,
+            "posts": [
+                {
+                    "url": "r9035",
+                    "author": "Montgomery Thatch",
+                    "date": "11/11/2025",
+                    "words": 435
+                },
+                {
+                    "url": "r9036",
+                    "author": "The Familiars",
+                    "date": "11/11/2025",
+                    "words": 0
+                }
+            ],
+            "date": "10/12/1952",
+            "location": "Biblioteca de Hogwarts"
+        },
+        "784": {
+            "space": "temas inactivos",
+            "url": "/t784-1952-12-27-aquarius",
+            "simpleTitle": "aquarius",
+            "creator": "",
+            "replyCount": 1,
+            "posts": [
+                {
+                    "url": "r9455",
+                    "author": "Invitado",
+                    "date": "20/11/2025",
+                    "words": 333
+                },
+                {
+                    "url": "r9502",
+                    "author": "Neptune E. Merrythought",
+                    "date": "21/11/2025",
+                    "words": 313
+                }
+            ],
+            "date": "27/12/1952",
+            "location": "Escocia"
+        },
+        "794": {
+            "space": "temas inactivos",
+            "url": "/t794-1952-12-19-brother-mine",
+            "simpleTitle": "brother mine",
+            "creator": "Viridian L. Greengrass",
+            "replyCount": 2,
+            "posts": [
+                {
+                    "url": "r9764",
+                    "author": "Viridian L. Greengrass",
+                    "date": "24/11/2025",
+                    "words": 259
+                },
+                {
+                    "url": "r10376",
+                    "author": "Invitado",
+                    "date": "05/12/2025",
+                    "words": 215
+                },
+                {
+                    "url": "r10463",
+                    "author": "Viridian L. Greengrass",
+                    "date": "06/12/2025",
+                    "words": 212
+                }
+            ],
+            "date": "19/12/1952",
+            "location": "Ministerio de Magia"
+        },
+        "814": {
+            "space": "temas inactivos",
+            "url": "/t814-1953-01-02-vodka-cranberry",
+            "simpleTitle": "vodka cranberry",
+            "creator": "Theolonius D. Covey",
+            "replyCount": 16,
+            "posts": [
+                {
+                    "url": "r10266",
+                    "author": "Theolonius D. Covey",
+                    "date": "03/12/2025",
+                    "words": 315
+                },
+                {
+                    "url": "r10499",
+                    "author": "Invitado",
+                    "date": "07/12/2025",
+                    "words": 261
+                },
+                {
+                    "url": "r10659",
+                    "author": "Theolonius D. Covey",
+                    "date": "10/12/2025",
+                    "words": 310
+                },
+                {
+                    "url": "r10721",
+                    "author": "Invitado",
+                    "date": "13/12/2025",
+                    "words": 234
+                },
+                {
+                    "url": "r10944",
+                    "author": "Theolonius D. Covey",
+                    "date": "20/12/2025",
+                    "words": 273
+                },
+                {
+                    "url": "r11019",
+                    "author": "Invitado",
+                    "date": "21/12/2025",
+                    "words": 231
+                },
+                {
+                    "url": "r11269",
+                    "author": "Theolonius D. Covey",
+                    "date": "28/12/2025",
+                    "words": 278
+                },
+                {
+                    "url": "r11305",
+                    "author": "Invitado",
+                    "date": "28/12/2025",
+                    "words": 241
+                },
+                {
+                    "url": "r11559",
+                    "author": "Theolonius D. Covey",
+                    "date": "05/01/2026",
+                    "words": 357
+                },
+                {
+                    "url": "r11725",
+                    "author": "Invitado",
+                    "date": "10/01/2026",
+                    "words": 363
+                },
+                {
+                    "url": "r12094",
+                    "author": "Theolonius D. Covey",
+                    "date": "18/01/2026",
+                    "words": 307
+                },
+                {
+                    "url": "r12167",
+                    "author": "Invitado",
+                    "date": "22/01/2026",
+                    "words": 333
+                },
+                {
+                    "url": "r12421",
+                    "author": "Theolonius D. Covey",
+                    "date": "29/01/2026",
+                    "words": 367
+                },
+                {
+                    "url": "r13133",
+                    "author": "Invitado",
+                    "date": "13/02/2026",
+                    "words": 535
+                },
+                {
+                    "url": "r13767",
+                    "author": "Theolonius D. Covey",
+                    "date": "23/02/2026",
+                    "words": 250
+                },
+                {
+                    "url": "r14423",
+                    "author": "Invitado",
+                    "date": "04/03/2026",
+                    "words": 242
+                },
+                {
+                    "url": "r15317",
+                    "author": "Theolonius D. Covey",
+                    "date": "23/03/2026",
+                    "words": 370
+                }
+            ],
+            "date": "02/01/1953",
+            "location": "Negocios Mágicos"
+        },
+        "815": {
+            "space": "temas inactivos",
+            "url": "/t815-1953-01-11-this-was-a-home-once",
+            "simpleTitle": "this was a home once",
+            "creator": "Theolonius D. Covey",
+            "replyCount": 10,
+            "posts": [
+                {
+                    "url": "r10267",
+                    "author": "Theolonius D. Covey",
+                    "date": "03/12/2025",
+                    "words": 262
+                },
+                {
+                    "url": "r10691",
+                    "author": "Invitado",
+                    "date": "11/12/2025",
+                    "words": 187
+                },
+                {
+                    "url": "r10943",
+                    "author": "Theolonius D. Covey",
+                    "date": "20/12/2025",
+                    "words": 329
+                },
+                {
+                    "url": "r11685",
+                    "author": "Invitado",
+                    "date": "08/01/2026",
+                    "words": 203
+                },
+                {
+                    "url": "r12030",
+                    "author": "Theolonius D. Covey",
+                    "date": "18/01/2026",
+                    "words": 546
+                },
+                {
+                    "url": "r12610",
+                    "author": "Invitado",
+                    "date": "02/02/2026",
+                    "words": 366
+                },
+                {
+                    "url": "r13125",
+                    "author": "Theolonius D. Covey",
+                    "date": "13/02/2026",
+                    "words": 363
+                },
+                {
+                    "url": "r13427",
+                    "author": "Invitado",
+                    "date": "18/02/2026",
+                    "words": 305
+                },
+                {
+                    "url": "r13779",
+                    "author": "Theolonius D. Covey",
+                    "date": "23/02/2026",
+                    "words": 421
+                },
+                {
+                    "url": "r15055",
+                    "author": "Invitado",
+                    "date": "16/03/2026",
+                    "words": 304
+                },
+                {
+                    "url": "r15325",
+                    "author": "Theolonius D. Covey",
+                    "date": "23/03/2026",
+                    "words": 451
+                }
+            ],
+            "date": "11/01/1953",
+            "location": "Casa de Theo"
+        },
+        "819": {
+            "space": "temas inactivos",
+            "url": "/t819-1953-01-08-not-another-time",
+            "simpleTitle": "not another time",
+            "creator": "",
+            "replyCount": 5,
+            "posts": [
+                {
+                    "url": "r10309",
+                    "author": "Invitado",
+                    "date": "04/12/2025",
+                    "words": 301
+                },
+                {
+                    "url": "r10566",
+                    "author": "Invitado",
+                    "date": "08/12/2025",
+                    "words": 260
+                },
+                {
+                    "url": "r10667",
+                    "author": "Invitado",
+                    "date": "10/12/2025",
+                    "words": 176
+                },
+                {
+                    "url": "r10720",
+                    "author": "Invitado",
+                    "date": "13/12/2025",
+                    "words": 343
+                },
+                {
+                    "url": "r11158",
+                    "author": "Invitado",
+                    "date": "24/12/2025",
+                    "words": 302
+                },
+                {
+                    "url": "r11206",
+                    "author": "Invitado",
+                    "date": "27/12/2025",
+                    "words": 296
+                }
+            ],
+            "date": "08/01/1953",
+            "location": "El Atrio, Ministerio de Magia"
+        },
+        "824": {
+            "space": "temas inactivos",
+            "url": "/t824-1953-01-15-you-re-not-mine-for-taking",
+            "simpleTitle": "you're not mine for taking",
+            "creator": "H. Shun Parkinson",
+            "replyCount": 12,
+            "posts": [
+                {
+                    "url": "r10354",
+                    "author": "H. Shun Parkinson",
+                    "date": "05/12/2025",
+                    "words": 298
+                },
+                {
+                    "url": "r10666",
+                    "author": "Invitado",
+                    "date": "10/12/2025",
+                    "words": 316
+                },
+                {
+                    "url": "r10746",
+                    "author": "H. Shun Parkinson",
+                    "date": "14/12/2025",
+                    "words": 273
+                },
+                {
+                    "url": "r11162",
+                    "author": "Invitado",
+                    "date": "24/12/2025",
+                    "words": 338
+                },
+                {
+                    "url": "r11452",
+                    "author": "H. Shun Parkinson",
+                    "date": "04/01/2026",
+                    "words": 456
+                },
+                {
+                    "url": "r11675",
+                    "author": "Invitado",
+                    "date": "08/01/2026",
+                    "words": 373
+                },
+                {
+                    "url": "r11881",
+                    "author": "H. Shun Parkinson",
+                    "date": "16/01/2026",
+                    "words": 468
+                },
+                {
+                    "url": "r12567",
+                    "author": "Invitado",
+                    "date": "01/02/2026",
+                    "words": 430
+                },
+                {
+                    "url": "r12748",
+                    "author": "H. Shun Parkinson",
+                    "date": "06/02/2026",
+                    "words": 363
+                },
+                {
+                    "url": "r12940",
+                    "author": "Invitado",
+                    "date": "09/02/2026",
+                    "words": 332
+                },
+                {
+                    "url": "r13343",
+                    "author": "H. Shun Parkinson",
+                    "date": "17/02/2026",
+                    "words": 259
+                },
+                {
+                    "url": "r13440",
+                    "author": "Invitado",
+                    "date": "18/02/2026",
+                    "words": 240
+                },
+                {
+                    "url": "r14068",
+                    "author": "H. Shun Parkinson",
+                    "date": "27/02/2026",
+                    "words": 308
+                }
+            ],
+            "date": "15/01/1953",
+            "location": "Stratford-upon-Avon"
+        },
+        "827": {
+            "space": "temas inactivos",
+            "url": "/t827-1953-01-13-chispas",
+            "simpleTitle": "¡chispas!",
+            "creator": "",
+            "replyCount": 7,
+            "posts": [
+                {
+                    "url": "r10382",
+                    "author": "Invitado",
+                    "date": "05/12/2025",
+                    "words": 245
+                },
+                {
+                    "url": "r10576",
+                    "author": "Montgomery Thatch",
+                    "date": "08/12/2025",
+                    "words": 420
+                },
+                {
+                    "url": "r11127",
+                    "author": "Invitado",
+                    "date": "23/12/2025",
+                    "words": 271
+                },
+                {
+                    "url": "r11226",
+                    "author": "Montgomery Thatch",
+                    "date": "27/12/2025",
+                    "words": 520
+                },
+                {
+                    "url": "r11227",
+                    "author": "The Familiars",
+                    "date": "27/12/2025",
+                    "words": 0
+                },
+                {
+                    "url": "r12765",
+                    "author": "Invitado",
+                    "date": "06/02/2026",
+                    "words": 421
+                },
+                {
+                    "url": "r12780",
+                    "author": "Montgomery Thatch",
+                    "date": "06/02/2026",
+                    "words": 380
+                },
+                {
+                    "url": "r12781",
+                    "author": "The Familiars",
+                    "date": "06/02/2026",
+                    "words": 0
+                }
+            ],
+            "date": "13/01/1953",
+            "location": "Tercera planta del castillo, Hogwarts"
+        },
+        "833": {
+            "space": "temas inactivos",
+            "url": "/t833-1953-01-12-investigacion-inactivo-ancestral-code",
+            "simpleTitle": "investigación-inactivo: ancestral code",
+            "creator": "Black Wave",
+            "replyCount": 2,
+            "posts": [
+                {
+                    "url": "r10531",
+                    "author": "Black Wave",
+                    "date": "08/12/2025",
+                    "words": 127
+                },
+                {
+                    "url": "r10610",
+                    "author": "Theolonius D. Covey",
+                    "date": "09/12/2025",
+                    "words": 221
+                },
+                {
+                    "url": "r10674",
+                    "author": "Orion A. Black",
+                    "date": "11/12/2025",
+                    "words": 282
+                }
+            ],
+            "date": "12/01/1953",
+            "location": "Departamento de Misterios"
+        },
+        "853": {
+            "space": "temas inactivos",
+            "url": "/t853-1952-12-24-virutas-de-felicidad",
+            "simpleTitle": "virutas de felicidad",
+            "creator": "Alastor Moody",
+            "replyCount": 5,
+            "posts": [
+                {
+                    "url": "r10970",
+                    "author": "Alastor Moody",
+                    "date": "20/12/2025",
+                    "words": 291
+                },
+                {
+                    "url": "r11948",
+                    "author": "Invitado",
+                    "date": "17/01/2026",
+                    "words": 398
+                },
+                {
+                    "url": "r12242",
+                    "author": "Alastor Moody",
+                    "date": "23/01/2026",
+                    "words": 181
+                },
+                {
+                    "url": "r13319",
+                    "author": "Invitado",
+                    "date": "16/02/2026",
+                    "words": 220
+                },
+                {
+                    "url": "r13376",
+                    "author": "Alastor Moody",
+                    "date": "17/02/2026",
+                    "words": 203
+                },
+                {
+                    "url": "r13377",
+                    "author": "The Familiars",
+                    "date": "17/02/2026",
+                    "words": 0
+                }
+            ],
+            "date": "24/12/1952",
+            "location": "Callejón Diagon/Hogwarts"
+        },
+        "854": {
+            "space": "temas inactivos",
+            "url": "/t854-1952-12-21-no-cortes-el-cable-rojo",
+            "simpleTitle": "no cortes el cable rojo",
+            "creator": "Alastor Moody",
+            "replyCount": 6,
+            "posts": [
+                {
+                    "url": "r10971",
+                    "author": "Alastor Moody",
+                    "date": "20/12/2025",
+                    "words": 418
+                },
+                {
+                    "url": "r12682",
+                    "author": "Invitado",
+                    "date": "04/02/2026",
+                    "words": 313
+                },
+                {
+                    "url": "r12722",
+                    "author": "Alastor Moody",
+                    "date": "05/02/2026",
+                    "words": 428
+                },
+                {
+                    "url": "r13080",
+                    "author": "Invitado",
+                    "date": "12/02/2026",
+                    "words": 328
+                },
+                {
+                    "url": "r13161",
+                    "author": "Alastor Moody",
+                    "date": "13/02/2026",
+                    "words": 454
+                },
+                {
+                    "url": "r13424",
+                    "author": "Invitado",
+                    "date": "18/02/2026",
+                    "words": 314
+                },
+                {
+                    "url": "r13501",
+                    "author": "Alastor Moody",
+                    "date": "18/02/2026",
+                    "words": 592
+                }
+            ],
+            "date": "21/12/1952",
+            "location": "Condado de Offaly, Irlanda"
+        },
+        "857": {
+            "space": "temas inactivos",
+            "url": "/t857-1953-02-01-potions-and-lotions",
+            "simpleTitle": "potions and lotions",
+            "creator": "Viridian L. Greengrass",
+            "replyCount": 14,
+            "posts": [
+                {
+                    "url": "r10993",
+                    "author": "Viridian L. Greengrass",
+                    "date": "21/12/2025",
+                    "words": 289
+                },
+                {
+                    "url": "r11021",
+                    "author": "Invitado",
+                    "date": "22/12/2025",
+                    "words": 403
+                },
+                {
+                    "url": "r11189",
+                    "author": "Viridian L. Greengrass",
+                    "date": "26/12/2025",
+                    "words": 354
+                },
+                {
+                    "url": "r11207",
+                    "author": "Invitado",
+                    "date": "27/12/2025",
+                    "words": 290
+                },
+                {
+                    "url": "r11920",
+                    "author": "Viridian L. Greengrass",
+                    "date": "16/01/2026",
+                    "words": 319
+                },
+                {
+                    "url": "r12208",
+                    "author": "Invitado",
+                    "date": "23/01/2026",
+                    "words": 344
+                },
+                {
+                    "url": "r12334",
+                    "author": "Viridian L. Greengrass",
+                    "date": "26/01/2026",
+                    "words": 287
+                },
+                {
+                    "url": "r12397",
+                    "author": "Invitado",
+                    "date": "27/01/2026",
+                    "words": 385
+                },
+                {
+                    "url": "r13383",
+                    "author": "Viridian L. Greengrass",
+                    "date": "17/02/2026",
+                    "words": 304
+                },
+                {
+                    "url": "r13567",
+                    "author": "Invitado",
+                    "date": "19/02/2026",
+                    "words": 343
+                },
+                {
+                    "url": "r14592",
+                    "author": "Viridian L. Greengrass",
+                    "date": "07/03/2026",
+                    "words": 390
+                },
+                {
+                    "url": "r14992",
+                    "author": "Invitado",
+                    "date": "15/03/2026",
+                    "words": 261
+                },
+                {
+                    "url": "r15958",
+                    "author": "Viridian L. Greengrass",
+                    "date": "01/04/2026",
+                    "words": 327
+                },
+                {
+                    "url": "r17037",
+                    "author": "Invitado",
+                    "date": "27/04/2026",
+                    "words": 286
+                },
+                {
+                    "url": "r18127",
+                    "author": "Viridian L. Greengrass",
+                    "date": "11/05/2026",
+                    "words": 314
+                }
+            ],
+            "date": "01/02/1953",
+            "location": "The Green Room, Diagon"
+        },
+        "859": {
+            "space": "temas inactivos",
+            "url": "/t859-1953-01-17-the-quiet-kind",
+            "simpleTitle": "the quiet kind",
+            "creator": "Hankford B. Diggory",
+            "replyCount": 4,
+            "posts": [
+                {
+                    "url": "r11026",
+                    "author": "Hankford B. Diggory",
+                    "date": "22/12/2025",
+                    "words": 319
+                },
+                {
+                    "url": "r11930",
+                    "author": "Invitado",
+                    "date": "16/01/2026",
+                    "words": 241
+                },
+                {
+                    "url": "r12108",
+                    "author": "Hankford B. Diggory",
+                    "date": "19/01/2026",
+                    "words": 321
+                },
+                {
+                    "url": "r13083",
+                    "author": "Invitado",
+                    "date": "12/02/2026",
+                    "words": 427
+                },
+                {
+                    "url": "r13782",
+                    "author": "Hankford B. Diggory",
+                    "date": "23/02/2026",
+                    "words": 304
+                }
+            ],
+            "date": "17/01/1953",
+            "location": "Sala de Menesteres"
+        },
+        "863": {
+            "space": "temas inactivos",
+            "url": "/t863-1953-01-16-where-dreams-go-to-die",
+            "simpleTitle": "where dreams go to die",
+            "creator": "",
+            "replyCount": 5,
+            "posts": [
+                {
+                    "url": "r11167",
+                    "author": "Invitado",
+                    "date": "24/12/2025",
+                    "words": 266
+                },
+                {
+                    "url": "r11324",
+                    "author": "Neptune E. Merrythought",
+                    "date": "28/12/2025",
+                    "words": 278
+                },
+                {
+                    "url": "r12570",
+                    "author": "Invitado",
+                    "date": "01/02/2026",
+                    "words": 273
+                },
+                {
+                    "url": "r12881",
+                    "author": "Neptune E. Merrythought",
+                    "date": "08/02/2026",
+                    "words": 308
+                },
+                {
+                    "url": "r13425",
+                    "author": "Invitado",
+                    "date": "18/02/2026",
+                    "words": 278
+                },
+                {
+                    "url": "r13592",
+                    "author": "Neptune E. Merrythought",
+                    "date": "20/02/2026",
+                    "words": 287
+                }
+            ],
+            "date": "16/01/1953",
+            "location": "Torres del castillo, Hogwarts"
+        },
+        "864": {
+            "space": "temas inactivos",
+            "url": "/t864-1953-01-26-fiebre-de-sabado-por-la-noche",
+            "simpleTitle": "fiebre de sábado por la noche",
+            "creator": "",
+            "replyCount": 11,
+            "posts": [
+                {
+                    "url": "r11208",
+                    "author": "Invitado",
+                    "date": "27/12/2025",
+                    "words": 229
+                },
+                {
+                    "url": "r12622",
+                    "author": "Jupiter Merrythought",
+                    "date": "02/02/2026",
+                    "words": 229
+                },
+                {
+                    "url": "r13131",
+                    "author": "Invitado",
+                    "date": "13/02/2026",
+                    "words": 238
+                },
+                {
+                    "url": "r13216",
+                    "author": "Jupiter Merrythought",
+                    "date": "15/02/2026",
+                    "words": 278
+                },
+                {
+                    "url": "r13277",
+                    "author": "Invitado",
+                    "date": "16/02/2026",
+                    "words": 235
+                },
+                {
+                    "url": "r13507",
+                    "author": "Jupiter Merrythought",
+                    "date": "18/02/2026",
+                    "words": 288
+                },
+                {
+                    "url": "r13568",
+                    "author": "Invitado",
+                    "date": "19/02/2026",
+                    "words": 308
+                },
+                {
+                    "url": "r13777",
+                    "author": "Jupiter Merrythought",
+                    "date": "23/02/2026",
+                    "words": 342
+                },
+                {
+                    "url": "r14518",
+                    "author": "Invitado",
+                    "date": "06/03/2026",
+                    "words": 241
+                },
+                {
+                    "url": "r14614",
+                    "author": "Jupiter Merrythought",
+                    "date": "07/03/2026",
+                    "words": 368
+                },
+                {
+                    "url": "r15024",
+                    "author": "Invitado",
+                    "date": "16/03/2026",
+                    "words": 381
+                },
+                {
+                    "url": "r15083",
+                    "author": "Jupiter Merrythought",
+                    "date": "16/03/2026",
+                    "words": 376
+                }
+            ],
+            "date": "26/01/1953",
+            "location": "EL caldero chorreante"
+        },
+        "875": {
+            "space": "temas inactivos",
+            "url": "/t875-1953-01-05-el-derecho-a-la-privacidad",
+            "simpleTitle": "el derecho a la privacidad",
+            "creator": "",
+            "replyCount": 1,
+            "posts": [
+                {
+                    "url": "r11444",
+                    "author": "Invitado",
+                    "date": "04/01/2026",
+                    "words": 455
+                },
+                {
+                    "url": "r11664",
+                    "author": "Ruaan S. Patil",
+                    "date": "08/01/2026",
+                    "words": 470
+                }
+            ],
+            "date": "05/01/1953",
+            "location": "Las Tres Escobas"
+        },
+        "876": {
+            "space": "temas inactivos",
+            "url": "/t876-1953-01-17-el-amigo-de-mi-amigo",
+            "simpleTitle": "el amigo de mi amigo",
+            "creator": "",
+            "replyCount": 1,
+            "posts": [
+                {
+                    "url": "r11448",
+                    "author": "Invitado",
+                    "date": "04/01/2026",
+                    "words": 335
+                },
+                {
+                    "url": "r11754",
+                    "author": "Neptune E. Merrythought",
+                    "date": "12/01/2026",
+                    "words": 320
+                }
+            ],
+            "date": "17/01/1953",
+            "location": "Hogsmeade"
+        },
+        "877": {
+            "space": "temas inactivos",
+            "url": "/t877-1948-10-04-habia-una-vez",
+            "simpleTitle": "había una vez",
+            "creator": "",
+            "replyCount": 4,
+            "posts": [
+                {
+                    "url": "r11450",
+                    "author": "Invitado",
+                    "date": "04/01/2026",
+                    "words": 320
+                },
+                {
+                    "url": "r11478",
+                    "author": "Montgomery Thatch",
+                    "date": "04/01/2026",
+                    "words": 736
+                },
+                {
+                    "url": "r11597",
+                    "author": "Invitado",
+                    "date": "06/01/2026",
+                    "words": 572
+                },
+                {
+                    "url": "r11630",
+                    "author": "Montgomery Thatch",
+                    "date": "07/01/2026",
+                    "words": 687
+                },
+                {
+                    "url": "r11631",
+                    "author": "The Familiars",
+                    "date": "07/01/2026",
+                    "words": 0
+                }
+            ],
+            "date": "04/10/1948",
+            "location": "Hogwarts"
+        },
+        "879": {
+            "space": "temas inactivos",
+            "url": "/t879-1953-01-23-fading-lights",
+            "simpleTitle": "fading lights",
+            "creator": "Hankford B. Diggory",
+            "replyCount": 2,
+            "posts": [
+                {
+                    "url": "r11471",
+                    "author": "Hankford B. Diggory",
+                    "date": "04/01/2026",
+                    "words": 372
+                },
+                {
+                    "url": "r11607",
+                    "author": "Invitado",
+                    "date": "06/01/2026",
+                    "words": 397
+                },
+                {
+                    "url": "r11816",
+                    "author": "Hankford B. Diggory",
+                    "date": "14/01/2026",
+                    "words": 425
+                }
+            ],
+            "date": "23/01/1953",
+            "location": "Aula de Runas Antiguas"
+        },
+        "882": {
+            "space": "temas inactivos",
+            "url": "/t882-1953-01-20-nonsense",
+            "simpleTitle": "nonsense",
+            "creator": "Findlay McCrory",
+            "replyCount": 2,
+            "posts": [
+                {
+                    "url": "r11497",
+                    "author": "Findlay McCrory",
+                    "date": "04/01/2026",
+                    "words": 415
+                },
+                {
+                    "url": "r12643",
+                    "author": "Invitado",
+                    "date": "03/02/2026",
+                    "words": 297
+                },
+                {
+                    "url": "r12832",
+                    "author": "Findlay McCrory",
+                    "date": "07/02/2026",
+                    "words": 356
+                }
+            ],
+            "date": "20/01/1953",
+            "location": "Biblioteca de Hogwarts"
+        },
+        "883": {
+            "space": "temas inactivos",
+            "url": "/t883-1953-01-19-chip-of-the-old-block",
+            "simpleTitle": "chip of the old block",
+            "creator": "Viridian L. Greengrass",
+            "replyCount": 4,
+            "posts": [
+                {
+                    "url": "r11498",
+                    "author": "Viridian L. Greengrass",
+                    "date": "04/01/2026",
+                    "words": 269
+                },
+                {
+                    "url": "r11499",
+                    "author": "The Familiars",
+                    "date": "04/01/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r11606",
+                    "author": "Invitado",
+                    "date": "06/01/2026",
+                    "words": 340
+                },
+                {
+                    "url": "r11857",
+                    "author": "Viridian L. Greengrass",
+                    "date": "15/01/2026",
+                    "words": 265
+                },
+                {
+                    "url": "r11858",
+                    "author": "The Familiars",
+                    "date": "15/01/2026",
+                    "words": 0
+                }
+            ],
+            "date": "19/01/1953",
+            "location": "Despacho de Pociones"
+        },
+        "886": {
+            "space": "temas inactivos",
+            "url": "/t886-1953-01-11-dreamy-eyes",
+            "simpleTitle": "dreamy eyes",
+            "creator": "",
+            "replyCount": 1,
+            "posts": [
+                {
+                    "url": "r11512",
+                    "author": "Invitado",
+                    "date": "04/01/2026",
+                    "words": 286
+                },
+                {
+                    "url": "r11577",
+                    "author": "Findlay McCrory",
+                    "date": "05/01/2026",
+                    "words": 289
+                }
+            ],
+            "date": "11/01/1953",
+            "location": "Gran Comedor"
+        },
+        "887": {
+            "space": "temas inactivos",
+            "url": "/t887-1953-01-16-engorro-de-rutina",
+            "simpleTitle": "engorro de rutina",
+            "creator": "",
+            "replyCount": 1,
+            "posts": [
+                {
+                    "url": "r11519",
+                    "author": "Invitado",
+                    "date": "04/01/2026",
+                    "words": 390
+                },
+                {
+                    "url": "r11990",
+                    "author": "Asteria C. Lestrange",
+                    "date": "17/01/2026",
+                    "words": 368
+                }
+            ],
+            "date": "16/01/1953",
+            "location": "Hogwarts"
+        },
+        "889": {
+            "space": "temas inactivos",
+            "url": "/t889-1953-01-13-fly-high",
+            "simpleTitle": "fly high",
+            "creator": "Minerva E. McGonagall",
+            "replyCount": 2,
+            "posts": [
+                {
+                    "url": "r11558",
+                    "author": "Minerva E. McGonagall",
+                    "date": "05/01/2026",
+                    "words": 242
+                },
+                {
+                    "url": "r11608",
+                    "author": "Invitado",
+                    "date": "06/01/2026",
+                    "words": 303
+                },
+                {
+                    "url": "r11712",
+                    "author": "Minerva E. McGonagall",
+                    "date": "09/01/2026",
+                    "words": 324
+                }
+            ],
+            "date": "13/01/1953",
+            "location": "Campo de Quidditch"
+        },
+        "892": {
+            "space": "temas inactivos",
+            "url": "/t892-0953-01-17-oooohhh-shinny",
+            "simpleTitle": "oooohhh shinny....",
+            "creator": "Ksenia D. Demidova",
+            "replyCount": 13,
+            "posts": [
+                {
+                    "url": "r11572",
+                    "author": "Ksenia D. Demidova",
+                    "date": "05/01/2026",
+                    "words": 319
+                },
+                {
+                    "url": "r11680",
+                    "author": "Invitado",
+                    "date": "08/01/2026",
+                    "words": 333
+                },
+                {
+                    "url": "r11759",
+                    "author": "Ksenia D. Demidova",
+                    "date": "12/01/2026",
+                    "words": 299
+                },
+                {
+                    "url": "r11760",
+                    "author": "The Familiars",
+                    "date": "12/01/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r11874",
+                    "author": "Invitado",
+                    "date": "16/01/2026",
+                    "words": 303
+                },
+                {
+                    "url": "r12044",
+                    "author": "Ksenia D. Demidova",
+                    "date": "18/01/2026",
+                    "words": 287
+                },
+                {
+                    "url": "r12187",
+                    "author": "Invitado",
+                    "date": "22/01/2026",
+                    "words": 228
+                },
+                {
+                    "url": "r12653",
+                    "author": "Ksenia D. Demidova",
+                    "date": "03/02/2026",
+                    "words": 279
+                },
+                {
+                    "url": "r13129",
+                    "author": "Invitado",
+                    "date": "13/02/2026",
+                    "words": 404
+                },
+                {
+                    "url": "r13207",
+                    "author": "Ksenia D. Demidova",
+                    "date": "15/02/2026",
+                    "words": 328
+                },
+                {
+                    "url": "r15016",
+                    "author": "Invitado",
+                    "date": "16/03/2026",
+                    "words": 386
+                },
+                {
+                    "url": "r15930",
+                    "author": "Ksenia D. Demidova",
+                    "date": "01/04/2026",
+                    "words": 369
+                },
+                {
+                    "url": "r16862",
+                    "author": "Invitado",
+                    "date": "23/04/2026",
+                    "words": 304
+                },
+                {
+                    "url": "r17331",
+                    "author": "Ksenia D. Demidova",
+                    "date": "01/05/2026",
+                    "words": 362
+                }
+            ],
+            "date": "17/01/0953",
+            "location": "Las Tres Escobas"
+        },
+        "907": {
+            "space": "temas inactivos",
+            "url": "/t907-1953-01-23-blanca-paloma",
+            "simpleTitle": "blanca paloma",
+            "creator": "Jupiter Merrythought",
+            "replyCount": 8,
+            "posts": [
+                {
+                    "url": "r11811",
+                    "author": "Jupiter Merrythought",
+                    "date": "13/01/2026",
+                    "words": 215
+                },
+                {
+                    "url": "r11899",
+                    "author": "Invitado",
+                    "date": "16/01/2026",
+                    "words": 241
+                },
+                {
+                    "url": "r11969",
+                    "author": "Jupiter Merrythought",
+                    "date": "17/01/2026",
+                    "words": 242
+                },
+                {
+                    "url": "r12609",
+                    "author": "Invitado",
+                    "date": "02/02/2026",
+                    "words": 274
+                },
+                {
+                    "url": "r12618",
+                    "author": "Jupiter Merrythought",
+                    "date": "02/02/2026",
+                    "words": 405
+                },
+                {
+                    "url": "r13320",
+                    "author": "Invitado",
+                    "date": "16/02/2026",
+                    "words": 325
+                },
+                {
+                    "url": "r13508",
+                    "author": "Jupiter Merrythought",
+                    "date": "18/02/2026",
+                    "words": 393
+                },
+                {
+                    "url": "r15048",
+                    "author": "Invitado",
+                    "date": "16/03/2026",
+                    "words": 182
+                },
+                {
+                    "url": "r15084",
+                    "author": "Jupiter Merrythought",
+                    "date": "16/03/2026",
+                    "words": 329
+                }
+            ],
+            "date": "23/01/1953",
+            "location": "Casa de Aria, Knightsbridge"
+        },
+        "910": {
+            "space": "temas inactivos",
+            "url": "/t910-1953-01-25-smoking-jazz",
+            "simpleTitle": "smoking jazz.",
+            "creator": "",
+            "replyCount": 0,
+            "posts": [
+                {
+                    "url": "r11838",
+                    "author": "Invitado",
+                    "date": "14/01/2026",
+                    "words": 393
+                }
+            ],
+            "date": "25/01/1953",
+            "location": "Callejón Diagon"
+        },
+        "911": {
+            "space": "temas inactivos",
+            "url": "/t911-1953-01-11-it-might-be-so-bitter",
+            "simpleTitle": "it might be so bitter",
+            "creator": "Barnaby R. Rookwood",
+            "replyCount": 6,
+            "posts": [
+                {
+                    "url": "r11847",
+                    "author": "Barnaby R. Rookwood",
+                    "date": "15/01/2026",
+                    "words": 221
+                },
+                {
+                    "url": "r11931",
+                    "author": "Invitado",
+                    "date": "16/01/2026",
+                    "words": 260
+                },
+                {
+                    "url": "r12410",
+                    "author": "Barnaby R. Rookwood",
+                    "date": "28/01/2026",
+                    "words": 287
+                },
+                {
+                    "url": "r12619",
+                    "author": "Invitado",
+                    "date": "02/02/2026",
+                    "words": 287
+                },
+                {
+                    "url": "r12733",
+                    "author": "Barnaby R. Rookwood",
+                    "date": "06/02/2026",
+                    "words": 331
+                },
+                {
+                    "url": "r13368",
+                    "author": "Invitado",
+                    "date": "17/02/2026",
+                    "words": 336
+                },
+                {
+                    "url": "r14045",
+                    "author": "Barnaby R. Rookwood",
+                    "date": "27/02/2026",
+                    "words": 263
+                }
+            ],
+            "date": "11/01/1953",
+            "location": "Biblioteca"
+        },
+        "926": {
+            "space": "temas inactivos",
+            "url": "/t926-1953-01-18-double-trouble",
+            "simpleTitle": "double trouble",
+            "creator": "",
+            "replyCount": 8,
+            "posts": [
+                {
+                    "url": "r12093",
+                    "author": "Invitado",
+                    "date": "18/01/2026",
+                    "words": 249
+                },
+                {
+                    "url": "r12138",
+                    "author": "Invitado",
+                    "date": "20/01/2026",
+                    "words": 464
+                },
+                {
+                    "url": "r12185",
+                    "author": "Invitado",
+                    "date": "22/01/2026",
+                    "words": 222
+                },
+                {
+                    "url": "r12271",
+                    "author": "Invitado",
+                    "date": "25/01/2026",
+                    "words": 417
+                },
+                {
+                    "url": "r12449",
+                    "author": "Invitado",
+                    "date": "31/01/2026",
+                    "words": 337
+                },
+                {
+                    "url": "r12864",
+                    "author": "Invitado",
+                    "date": "08/02/2026",
+                    "words": 440
+                },
+                {
+                    "url": "r13016",
+                    "author": "Invitado",
+                    "date": "11/02/2026",
+                    "words": 438
+                },
+                {
+                    "url": "r13022",
+                    "author": "Invitado",
+                    "date": "11/02/2026",
+                    "words": 562
+                },
+                {
+                    "url": "r13816",
+                    "author": "Invitado",
+                    "date": "24/02/2026",
+                    "words": 281
+                }
+            ],
+            "date": "18/01/1953",
+            "location": "Sala de trofeos"
+        },
+        "928": {
+            "space": "temas inactivos",
+            "url": "/t928-1953-01-28ignorantia-legis-neminem-excusat",
+            "simpleTitle": "ignorantia legis neminem excusat",
+            "creator": "Ruairidh Ó Mhaille",
+            "replyCount": 8,
+            "posts": [
+                {
+                    "url": "r12154",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "21/01/2026",
+                    "words": 360
+                },
+                {
+                    "url": "r12272",
+                    "author": "Invitado",
+                    "date": "25/01/2026",
+                    "words": 502
+                },
+                {
+                    "url": "r12295",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "25/01/2026",
+                    "words": 243
+                },
+                {
+                    "url": "r12326",
+                    "author": "Invitado",
+                    "date": "26/01/2026",
+                    "words": 360
+                },
+                {
+                    "url": "r12497",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "31/01/2026",
+                    "words": 328
+                },
+                {
+                    "url": "r12865",
+                    "author": "Invitado",
+                    "date": "08/02/2026",
+                    "words": 500
+                },
+                {
+                    "url": "r13054",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "12/02/2026",
+                    "words": 372
+                },
+                {
+                    "url": "r14462",
+                    "author": "Invitado",
+                    "date": "05/03/2026",
+                    "words": 532
+                },
+                {
+                    "url": "r14636",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "08/03/2026",
+                    "words": 298
+                }
+            ],
+            "date": "28/01/1953",
+            "location": "Claustro"
+        },
+        "935": {
+            "space": "temas inactivos",
+            "url": "/t935-1953-01-29-trampa-para-osos",
+            "simpleTitle": "trampa para osos",
+            "creator": "Montgomery Thatch",
+            "replyCount": 4,
+            "posts": [
+                {
+                    "url": "r12237",
+                    "author": "Montgomery Thatch",
+                    "date": "23/01/2026",
+                    "words": 415
+                },
+                {
+                    "url": "r12273",
+                    "author": "Invitado",
+                    "date": "25/01/2026",
+                    "words": 454
+                },
+                {
+                    "url": "r12487",
+                    "author": "Montgomery Thatch",
+                    "date": "31/01/2026",
+                    "words": 439
+                },
+                {
+                    "url": "r13019",
+                    "author": "Invitado",
+                    "date": "11/02/2026",
+                    "words": 503
+                },
+                {
+                    "url": "r13088",
+                    "author": "Montgomery Thatch",
+                    "date": "12/02/2026",
+                    "words": 550
+                }
+            ],
+            "date": "29/01/1953",
+            "location": "Gran Escalera"
+        },
+        "936": {
+            "space": "temas inactivos",
+            "url": "/t936-1953-01-25-the-bottom",
+            "simpleTitle": "the bottom",
+            "creator": "Neptune E. Merrythought",
+            "replyCount": 9,
+            "posts": [
+                {
+                    "url": "r12243",
+                    "author": "Neptune E. Merrythought",
+                    "date": "24/01/2026",
+                    "words": 210
+                },
+                {
+                    "url": "r12269",
+                    "author": "Invitado",
+                    "date": "25/01/2026",
+                    "words": 354
+                },
+                {
+                    "url": "r12270",
+                    "author": "The Familiars",
+                    "date": "25/01/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r12750",
+                    "author": "Neptune E. Merrythought",
+                    "date": "06/02/2026",
+                    "words": 248
+                },
+                {
+                    "url": "r12791",
+                    "author": "Invitado",
+                    "date": "06/02/2026",
+                    "words": 183
+                },
+                {
+                    "url": "r12995",
+                    "author": "Neptune E. Merrythought",
+                    "date": "11/02/2026",
+                    "words": 186
+                },
+                {
+                    "url": "r13817",
+                    "author": "Invitado",
+                    "date": "24/02/2026",
+                    "words": 215
+                },
+                {
+                    "url": "r14154",
+                    "author": "Neptune E. Merrythought",
+                    "date": "01/03/2026",
+                    "words": 378
+                },
+                {
+                    "url": "r14426",
+                    "author": "Invitado",
+                    "date": "04/03/2026",
+                    "words": 287
+                },
+                {
+                    "url": "r14844",
+                    "author": "Neptune E. Merrythought",
+                    "date": "13/03/2026",
+                    "words": 389
+                }
+            ],
+            "date": "25/01/1953",
+            "location": "Biblioteca"
+        },
+        "939": {
+            "space": "temas inactivos",
+            "url": "/t939-1953-01-26-lost-spirits",
+            "simpleTitle": "lost spirits",
+            "creator": "Minerva E. McGonagall",
+            "replyCount": 2,
+            "posts": [
+                {
+                    "url": "r12286",
+                    "author": "Minerva E. McGonagall",
+                    "date": "25/01/2026",
+                    "words": 210
+                },
+                {
+                    "url": "r12299",
+                    "author": "Invitado",
+                    "date": "25/01/2026",
+                    "words": 320
+                },
+                {
+                    "url": "r12740",
+                    "author": "Minerva E. McGonagall",
+                    "date": "06/02/2026",
+                    "words": 233
+                }
+            ],
+            "date": "26/01/1953",
+            "location": "Aula Vacía"
+        },
+        "940": {
+            "space": "temas inactivos",
+            "url": "/t940-1953-01-22-i-know-you-re-a-stranger",
+            "simpleTitle": "i know you're a stranger",
+            "creator": "Barnaby R. Rookwood",
+            "replyCount": 4,
+            "posts": [
+                {
+                    "url": "r12413",
+                    "author": "Barnaby R. Rookwood",
+                    "date": "28/01/2026",
+                    "words": 337
+                },
+                {
+                    "url": "r12863",
+                    "author": "Invitado",
+                    "date": "08/02/2026",
+                    "words": 462
+                },
+                {
+                    "url": "r13060",
+                    "author": "Barnaby R. Rookwood",
+                    "date": "12/02/2026",
+                    "words": 281
+                },
+                {
+                    "url": "r14465",
+                    "author": "Invitado",
+                    "date": "05/03/2026",
+                    "words": 386
+                },
+                {
+                    "url": "r15002",
+                    "author": "Barnaby R. Rookwood",
+                    "date": "16/03/2026",
+                    "words": 403
+                }
+            ],
+            "date": "22/01/1953",
+            "location": "Mazmorras"
+        },
+        "941": {
+            "space": "temas inactivos",
+            "url": "/t941-1953-01-21-safe-place",
+            "simpleTitle": "safe place",
+            "creator": "Hankford B. Diggory",
+            "replyCount": 0,
+            "posts": [
+                {
+                    "url": "r12416",
+                    "author": "Hankford B. Diggory",
+                    "date": "28/01/2026",
+                    "words": 258
+                }
+            ],
+            "date": "21/01/1953",
+            "location": "Despacho de Hank"
+        },
+        "942": {
+            "space": "temas inactivos",
+            "url": "/t942-1953-01-31-oh-captain-my-captain",
+            "simpleTitle": "oh captain, my captain!",
+            "creator": "Ruairidh Ó Mhaille",
+            "replyCount": 4,
+            "posts": [
+                {
+                    "url": "r12484",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "31/01/2026",
+                    "words": 455
+                },
+                {
+                    "url": "r12644",
+                    "author": "Invitado",
+                    "date": "03/02/2026",
+                    "words": 302
+                },
+                {
+                    "url": "r12656",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "03/02/2026",
+                    "words": 377
+                },
+                {
+                    "url": "r13325",
+                    "author": "Invitado",
+                    "date": "16/02/2026",
+                    "words": 303
+                },
+                {
+                    "url": "r13387",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "17/02/2026",
+                    "words": 470
+                }
+            ],
+            "date": "31/01/1953",
+            "location": "Sala de los Menesteres"
+        },
+        "950": {
+            "space": "temas inactivos",
+            "url": "/t950-1953-02-25-hoy-va-a-ser-un-buen-dia",
+            "simpleTitle": "hoy va a ser un buen día",
+            "creator": "Jupiter Merrythought",
+            "replyCount": 6,
+            "posts": [
+                {
+                    "url": "r12706",
+                    "author": "Jupiter Merrythought",
+                    "date": "05/02/2026",
+                    "words": 374
+                },
+                {
+                    "url": "r13322",
+                    "author": "Invitado",
+                    "date": "16/02/2026",
+                    "words": 419
+                },
+                {
+                    "url": "r13323",
+                    "author": "The Familiars",
+                    "date": "16/02/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r13511",
+                    "author": "Jupiter Merrythought",
+                    "date": "18/02/2026",
+                    "words": 375
+                },
+                {
+                    "url": "r15051",
+                    "author": "Invitado",
+                    "date": "16/03/2026",
+                    "words": 271
+                },
+                {
+                    "url": "r15052",
+                    "author": "The Familiars",
+                    "date": "16/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r15086",
+                    "author": "Jupiter Merrythought",
+                    "date": "16/03/2026",
+                    "words": 553
+                }
+            ],
+            "date": "25/02/1953",
+            "location": "San Mungo"
+        },
+        "961": {
+            "space": "temas inactivos",
+            "url": "/t961-1953-02-14-troubled-waters",
+            "simpleTitle": "troubled waters",
+            "creator": "H. Shun Parkinson",
+            "replyCount": 10,
+            "posts": [
+                {
+                    "url": "r12935",
+                    "author": "H. Shun Parkinson",
+                    "date": "09/02/2026",
+                    "words": 290
+                },
+                {
+                    "url": "r12981",
+                    "author": "Invitado",
+                    "date": "10/02/2026",
+                    "words": 423
+                },
+                {
+                    "url": "r13345",
+                    "author": "H. Shun Parkinson",
+                    "date": "17/02/2026",
+                    "words": 279
+                },
+                {
+                    "url": "r13346",
+                    "author": "The Familiars",
+                    "date": "17/02/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r13359",
+                    "author": "Invitado",
+                    "date": "17/02/2026",
+                    "words": 331
+                },
+                {
+                    "url": "r13916",
+                    "author": "H. Shun Parkinson",
+                    "date": "25/02/2026",
+                    "words": 354
+                },
+                {
+                    "url": "r14891",
+                    "author": "Invitado",
+                    "date": "14/03/2026",
+                    "words": 258
+                },
+                {
+                    "url": "r15426",
+                    "author": "H. Shun Parkinson",
+                    "date": "24/03/2026",
+                    "words": 320
+                },
+                {
+                    "url": "r15427",
+                    "author": "The Familiars",
+                    "date": "24/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r15453",
+                    "author": "Invitado",
+                    "date": "25/03/2026",
+                    "words": 250
+                },
+                {
+                    "url": "r15454",
+                    "author": "The Familiars",
+                    "date": "25/03/2026",
+                    "words": 0
+                }
+            ],
+            "date": "14/02/1953",
+            "location": "Calzada del Gigante"
+        },
+        "963": {
+            "space": "temas inactivos",
+            "url": "/t963-1953-02-07-how-did-it-end",
+            "simpleTitle": "how did it end?",
+            "creator": "Hankford B. Diggory",
+            "replyCount": 4,
+            "posts": [
+                {
+                    "url": "r12974",
+                    "author": "Hankford B. Diggory",
+                    "date": "10/02/2026",
+                    "words": 200
+                },
+                {
+                    "url": "r13159",
+                    "author": "Invitado",
+                    "date": "13/02/2026",
+                    "words": 230
+                },
+                {
+                    "url": "r13784",
+                    "author": "Hankford B. Diggory",
+                    "date": "23/02/2026",
+                    "words": 277
+                },
+                {
+                    "url": "r14882",
+                    "author": "Invitado",
+                    "date": "14/03/2026",
+                    "words": 303
+                },
+                {
+                    "url": "r15395",
+                    "author": "Hankford B. Diggory",
+                    "date": "24/03/2026",
+                    "words": 296
+                }
+            ],
+            "date": "07/02/1953",
+            "location": "Callejón Diagon"
+        },
+        "967": {
+            "space": "temas inactivos",
+            "url": "/t967-1953-02-03-won-t-you-let-an-innocent-woman-be",
+            "simpleTitle": "won't you let an innocent woman be?",
+            "creator": "",
+            "replyCount": 3,
+            "posts": [
+                {
+                    "url": "r13027",
+                    "author": "Invitado",
+                    "date": "11/02/2026",
+                    "words": 262
+                },
+                {
+                    "url": "r13169",
+                    "author": "Alastor Moody",
+                    "date": "13/02/2026",
+                    "words": 301
+                },
+                {
+                    "url": "r14952",
+                    "author": "Invitado",
+                    "date": "15/03/2026",
+                    "words": 221
+                },
+                {
+                    "url": "r15127",
+                    "author": "Alastor Moody",
+                    "date": "17/03/2026",
+                    "words": 306
+                }
+            ],
+            "date": "03/02/1953",
+            "location": "Ministerio de Magia"
+        },
+        "968": {
+            "space": "temas inactivos",
+            "url": "/t968-1953-02-12-blame-on-me",
+            "simpleTitle": "blame on me",
+            "creator": "",
+            "replyCount": 8,
+            "posts": [
+                {
+                    "url": "r13055",
+                    "author": "Invitado",
+                    "date": "12/02/2026",
+                    "words": 262
+                },
+                {
+                    "url": "r13061",
+                    "author": "Invitado",
+                    "date": "12/02/2026",
+                    "words": 285
+                },
+                {
+                    "url": "r13064",
+                    "author": "Invitado",
+                    "date": "12/02/2026",
+                    "words": 199
+                },
+                {
+                    "url": "r13069",
+                    "author": "Invitado",
+                    "date": "12/02/2026",
+                    "words": 254
+                },
+                {
+                    "url": "r13072",
+                    "author": "Invitado",
+                    "date": "12/02/2026",
+                    "words": 175
+                },
+                {
+                    "url": "r13084",
+                    "author": "Invitado",
+                    "date": "12/02/2026",
+                    "words": 265
+                },
+                {
+                    "url": "r13110",
+                    "author": "Invitado",
+                    "date": "12/02/2026",
+                    "words": 280
+                },
+                {
+                    "url": "r13426",
+                    "author": "Invitado",
+                    "date": "18/02/2026",
+                    "words": 282
+                },
+                {
+                    "url": "r13911",
+                    "author": "Invitado",
+                    "date": "25/02/2026",
+                    "words": 303
+                }
+            ],
+            "date": "12/02/1953",
+            "location": "Torre de Astronomia"
+        },
+        "969": {
+            "space": "temas inactivos",
+            "url": "/t969-1953-02-13-useful-unfortunately",
+            "simpleTitle": "useful, unfortunately",
+            "creator": "",
+            "replyCount": 7,
+            "posts": [
+                {
+                    "url": "r13075",
+                    "author": "Invitado",
+                    "date": "12/02/2026",
+                    "words": 222
+                },
+                {
+                    "url": "r13135",
+                    "author": "Neptune E. Merrythought",
+                    "date": "13/02/2026",
+                    "words": 221
+                },
+                {
+                    "url": "r13149",
+                    "author": "Invitado",
+                    "date": "13/02/2026",
+                    "words": 191
+                },
+                {
+                    "url": "r13464",
+                    "author": "Neptune E. Merrythought",
+                    "date": "18/02/2026",
+                    "words": 436
+                },
+                {
+                    "url": "r13912",
+                    "author": "Invitado",
+                    "date": "25/02/2026",
+                    "words": 320
+                },
+                {
+                    "url": "r14158",
+                    "author": "Neptune E. Merrythought",
+                    "date": "01/03/2026",
+                    "words": 321
+                },
+                {
+                    "url": "r14367",
+                    "author": "Invitado",
+                    "date": "03/03/2026",
+                    "words": 352
+                },
+                {
+                    "url": "r14874",
+                    "author": "Neptune E. Merrythought",
+                    "date": "14/03/2026",
+                    "words": 354
+                }
+            ],
+            "date": "13/02/1953",
+            "location": "Biblioteca"
+        },
+        "972": {
+            "space": "temas inactivos",
+            "url": "/t972-1953-02-03-smoke-and-firewhisky",
+            "simpleTitle": "smoke and firewhisky",
+            "creator": "",
+            "replyCount": 4,
+            "posts": [
+                {
+                    "url": "r13127",
+                    "author": "Invitado",
+                    "date": "13/02/2026",
+                    "words": 243
+                },
+                {
+                    "url": "r14446",
+                    "author": "Gavril A. Ollivander",
+                    "date": "05/03/2026",
+                    "words": 265
+                },
+                {
+                    "url": "r15018",
+                    "author": "Invitado",
+                    "date": "16/03/2026",
+                    "words": 318
+                },
+                {
+                    "url": "r15571",
+                    "author": "Gavril A. Ollivander",
+                    "date": "27/03/2026",
+                    "words": 266
+                },
+                {
+                    "url": "r16954",
+                    "author": "Invitado",
+                    "date": "25/04/2026",
+                    "words": 223
+                }
+            ],
+            "date": "03/02/1953",
+            "location": "Callejón Diagon"
+        },
+        "974": {
+            "space": "temas inactivos",
+            "url": "/t974-1953-02-08-hierarchies-of-teeth",
+            "simpleTitle": "hierarchies of teeth",
+            "creator": "",
+            "replyCount": 9,
+            "posts": [
+                {
+                    "url": "r13150",
+                    "author": "Invitado",
+                    "date": "13/02/2026",
+                    "words": 128
+                },
+                {
+                    "url": "r13173",
+                    "author": "Hermes Rosier",
+                    "date": "13/02/2026",
+                    "words": 265
+                },
+                {
+                    "url": "r13296",
+                    "author": "Invitado",
+                    "date": "16/02/2026",
+                    "words": 144
+                },
+                {
+                    "url": "r13502",
+                    "author": "Hermes Rosier",
+                    "date": "18/02/2026",
+                    "words": 297
+                },
+                {
+                    "url": "r13913",
+                    "author": "Invitado",
+                    "date": "25/02/2026",
+                    "words": 145
+                },
+                {
+                    "url": "r13987",
+                    "author": "Hermes Rosier",
+                    "date": "26/02/2026",
+                    "words": 311
+                },
+                {
+                    "url": "r14366",
+                    "author": "Invitado",
+                    "date": "03/03/2026",
+                    "words": 216
+                },
+                {
+                    "url": "r14523",
+                    "author": "Hermes Rosier",
+                    "date": "06/03/2026",
+                    "words": 343
+                },
+                {
+                    "url": "r15037",
+                    "author": "Invitado",
+                    "date": "16/03/2026",
+                    "words": 169
+                },
+                {
+                    "url": "r15112",
+                    "author": "Hermes Rosier",
+                    "date": "17/03/2026",
+                    "words": 326
+                }
+            ],
+            "date": "08/02/1953",
+            "location": "Aula de DCAO"
+        },
+        "975": {
+            "space": "temas inactivos",
+            "url": "/t975-1953-02-14-the-one-and-only",
+            "simpleTitle": "the one and only",
+            "creator": "",
+            "replyCount": 5,
+            "posts": [
+                {
+                    "url": "r13168",
+                    "author": "Invitado",
+                    "date": "13/02/2026",
+                    "words": 281
+                },
+                {
+                    "url": "r13196",
+                    "author": "Regulus O. Black",
+                    "date": "15/02/2026",
+                    "words": 279
+                },
+                {
+                    "url": "r13357",
+                    "author": "Invitado",
+                    "date": "17/02/2026",
+                    "words": 364
+                },
+                {
+                    "url": "r13898",
+                    "author": "Regulus O. Black",
+                    "date": "25/02/2026",
+                    "words": 291
+                },
+                {
+                    "url": "r15047",
+                    "author": "Invitado",
+                    "date": "16/03/2026",
+                    "words": 260
+                },
+                {
+                    "url": "r15428",
+                    "author": "Regulus O. Black",
+                    "date": "25/03/2026",
+                    "words": 369
+                }
+            ],
+            "date": "14/02/1953",
+            "location": "El Brote Verde"
+        },
+        "976": {
+            "space": "temas inactivos",
+            "url": "/t976-1953-02-18-soy-una-princesa",
+            "simpleTitle": "soy una princesa",
+            "creator": "Alastor Moody",
+            "replyCount": 4,
+            "posts": [
+                {
+                    "url": "r13180",
+                    "author": "Alastor Moody",
+                    "date": "14/02/2026",
+                    "words": 354
+                },
+                {
+                    "url": "r13443",
+                    "author": "Invitado",
+                    "date": "18/02/2026",
+                    "words": 260
+                },
+                {
+                    "url": "r13444",
+                    "author": "The Familiars",
+                    "date": "18/02/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r13556",
+                    "author": "Alastor Moody",
+                    "date": "19/02/2026",
+                    "words": 314
+                },
+                {
+                    "url": "r13557",
+                    "author": "The Familiars",
+                    "date": "19/02/2026",
+                    "words": 0
+                }
+            ],
+            "date": "18/02/1953",
+            "location": "Londres"
+        },
+        "978": {
+            "space": "temas inactivos",
+            "url": "/t978-1953-02-20-night-changes",
+            "simpleTitle": "night changes",
+            "creator": "Ruaan S. Patil",
+            "replyCount": 4,
+            "posts": [
+                {
+                    "url": "r13200",
+                    "author": "Ruaan S. Patil",
+                    "date": "15/02/2026",
+                    "words": 193
+                },
+                {
+                    "url": "r13333",
+                    "author": "Invitado",
+                    "date": "17/02/2026",
+                    "words": 259
+                },
+                {
+                    "url": "r14044",
+                    "author": "Ruaan S. Patil",
+                    "date": "27/02/2026",
+                    "words": 232
+                },
+                {
+                    "url": "r14519",
+                    "author": "Invitado",
+                    "date": "06/03/2026",
+                    "words": 235
+                },
+                {
+                    "url": "r15473",
+                    "author": "Ruaan S. Patil",
+                    "date": "26/03/2026",
+                    "words": 432
+                }
+            ],
+            "date": "20/02/1953",
+            "location": "Las Tres Escobas"
+        },
+        "985": {
+            "space": "temas inactivos",
+            "url": "/t985-1953-02-13-old-habits-older-chains",
+            "simpleTitle": "old habits, older chains",
+            "creator": "",
+            "replyCount": 5,
+            "posts": [
+                {
+                    "url": "r13297",
+                    "author": "Invitado",
+                    "date": "16/02/2026",
+                    "words": 222
+                },
+                {
+                    "url": "r13407",
+                    "author": "Barnaby R. Rookwood",
+                    "date": "17/02/2026",
+                    "words": 178
+                },
+                {
+                    "url": "r13908",
+                    "author": "Invitado",
+                    "date": "25/02/2026",
+                    "words": 153
+                },
+                {
+                    "url": "r14325",
+                    "author": "Barnaby R. Rookwood",
+                    "date": "03/03/2026",
+                    "words": 303
+                },
+                {
+                    "url": "r14483",
+                    "author": "Invitado",
+                    "date": "05/03/2026",
+                    "words": 197
+                },
+                {
+                    "url": "r15004",
+                    "author": "Barnaby R. Rookwood",
+                    "date": "16/03/2026",
+                    "words": 398
+                }
+            ],
+            "date": "13/02/1953",
+            "location": "Sala Común Slytherin"
+        },
+        "986": {
+            "space": "temas inactivos",
+            "url": "/t986-1950-02-10-the-first-taste-of-venom",
+            "simpleTitle": "the first taste of venom",
+            "creator": "",
+            "replyCount": 0,
+            "posts": [
+                {
+                    "url": "r13298",
+                    "author": "Invitado",
+                    "date": "16/02/2026",
+                    "words": 244
+                }
+            ],
+            "date": "10/02/1950",
+            "location": "Campor de Quidditch"
+        },
+        "987": {
+            "space": "temas inactivos",
+            "url": "/t987-1953-02-16-measured-cruelty",
+            "simpleTitle": "measured cruelty",
+            "creator": "",
+            "replyCount": 10,
+            "posts": [
+                {
+                    "url": "r13299",
+                    "author": "Invitado",
+                    "date": "16/02/2026",
+                    "words": 202
+                },
+                {
+                    "url": "r13327",
+                    "author": "Montgomery Thatch",
+                    "date": "16/02/2026",
+                    "words": 333
+                },
+                {
+                    "url": "r13487",
+                    "author": "Invitado",
+                    "date": "18/02/2026",
+                    "words": 176
+                },
+                {
+                    "url": "r13667",
+                    "author": "Montgomery Thatch",
+                    "date": "21/02/2026",
+                    "words": 274
+                },
+                {
+                    "url": "r13915",
+                    "author": "Invitado",
+                    "date": "25/02/2026",
+                    "words": 172
+                },
+                {
+                    "url": "r14010",
+                    "author": "Montgomery Thatch",
+                    "date": "26/02/2026",
+                    "words": 203
+                },
+                {
+                    "url": "r14358",
+                    "author": "Invitado",
+                    "date": "03/03/2026",
+                    "words": 207
+                },
+                {
+                    "url": "r14474",
+                    "author": "Montgomery Thatch",
+                    "date": "05/03/2026",
+                    "words": 379
+                },
+                {
+                    "url": "r14475",
+                    "author": "The Familiars",
+                    "date": "05/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r14892",
+                    "author": "Invitado",
+                    "date": "14/03/2026",
+                    "words": 255
+                },
+                {
+                    "url": "r14944",
+                    "author": "Montgomery Thatch",
+                    "date": "15/03/2026",
+                    "words": 514
+                }
+            ],
+            "date": "16/02/1953",
+            "location": "Pasillos del primer piso"
+        },
+        "998": {
+            "space": "temas inactivos",
+            "url": "/t998-1953-02-10-evento-ruleta-de-practicas-11",
+            "simpleTitle": "evento: ruleta de prácticas #11",
+            "creator": "Black Wave",
+            "replyCount": 18,
+            "posts": [
+                {
+                    "url": "r13455",
+                    "author": "Black Wave",
+                    "date": "18/02/2026",
+                    "words": 94
+                },
+                {
+                    "url": "r13580",
+                    "author": "Invitado",
+                    "date": "20/02/2026",
+                    "words": 229
+                },
+                {
+                    "url": "r13581",
+                    "author": "The Familiars",
+                    "date": "20/02/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r13621",
+                    "author": "Aidan N. Flamel",
+                    "date": "20/02/2026",
+                    "words": 287
+                },
+                {
+                    "url": "r13622",
+                    "author": "The Familiars",
+                    "date": "20/02/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r13649",
+                    "author": "Invitado",
+                    "date": "21/02/2026",
+                    "words": 295
+                },
+                {
+                    "url": "r13650",
+                    "author": "The Familiars",
+                    "date": "21/02/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r14497",
+                    "author": "Aidan N. Flamel",
+                    "date": "05/03/2026",
+                    "words": 204
+                },
+                {
+                    "url": "r14498",
+                    "author": "The Familiars",
+                    "date": "05/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r14893",
+                    "author": "Invitado",
+                    "date": "14/03/2026",
+                    "words": 236
+                },
+                {
+                    "url": "r14894",
+                    "author": "The Familiars",
+                    "date": "14/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r15093",
+                    "author": "Valerian",
+                    "date": "16/03/2026",
+                    "words": 115
+                },
+                {
+                    "url": "r15094",
+                    "author": "Aidan N. Flamel",
+                    "date": "16/03/2026",
+                    "words": 232
+                },
+                {
+                    "url": "r15095",
+                    "author": "The Familiars",
+                    "date": "16/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r15099",
+                    "author": "Valerian",
+                    "date": "17/03/2026",
+                    "words": 133
+                },
+                {
+                    "url": "r15448",
+                    "author": "Invitado",
+                    "date": "25/03/2026",
+                    "words": 184
+                },
+                {
+                    "url": "r15449",
+                    "author": "The Familiars",
+                    "date": "25/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r15524",
+                    "author": "Aidan N. Flamel",
+                    "date": "26/03/2026",
+                    "words": 298
+                },
+                {
+                    "url": "r15525",
+                    "author": "The Familiars",
+                    "date": "26/03/2026",
+                    "words": 0
+                }
+            ],
+            "date": "10/02/1953",
+            "location": "Inglaterra"
+        },
+        "999": {
+            "space": "temas inactivos",
+            "url": "/t999-1953-02-17-mystery-box",
+            "simpleTitle": "mystery box",
+            "creator": "",
+            "replyCount": 0,
+            "posts": [
+                {
+                    "url": "r13651",
+                    "author": "Invitado",
+                    "date": "21/02/2026",
+                    "words": 230
+                }
+            ],
+            "date": "17/02/1953",
+            "location": "El Caldero Chorreante"
+        },
+        "1001": {
+            "space": "temas inactivos",
+            "url": "/t1001-1953-02-14-stay-a-little-longer",
+            "simpleTitle": "stay a little longer",
+            "creator": "",
+            "replyCount": 5,
+            "posts": [
+                {
+                    "url": "r13663",
+                    "author": "Invitado",
+                    "date": "21/02/2026",
+                    "words": 226
+                },
+                {
+                    "url": "r13693",
+                    "author": "Jupiter Merrythought",
+                    "date": "21/02/2026",
+                    "words": 813
+                },
+                {
+                    "url": "r13855",
+                    "author": "Invitado",
+                    "date": "24/02/2026",
+                    "words": 282
+                },
+                {
+                    "url": "r13869",
+                    "author": "Jupiter Merrythought",
+                    "date": "24/02/2026",
+                    "words": 369
+                },
+                {
+                    "url": "r15042",
+                    "author": "Invitado",
+                    "date": "16/03/2026",
+                    "words": 284
+                },
+                {
+                    "url": "r15063",
+                    "author": "Jupiter Merrythought",
+                    "date": "16/03/2026",
+                    "words": 530
+                }
+            ],
+            "date": "14/02/1953",
+            "location": "La Escama Plateada"
+        },
+        "1005": {
+            "space": "temas inactivos",
+            "url": "/t1005-1953-02-18-evento-ruleta-de-practicas-05",
+            "simpleTitle": "evento: ruleta de prácticas #05",
+            "creator": "Black Wave",
+            "replyCount": 8,
+            "posts": [
+                {
+                    "url": "r13756",
+                    "author": "Black Wave",
+                    "date": "23/02/2026",
+                    "words": 119
+                },
+                {
+                    "url": "r13856",
+                    "author": "Invitado",
+                    "date": "24/02/2026",
+                    "words": 202
+                },
+                {
+                    "url": "r13857",
+                    "author": "The Familiars",
+                    "date": "24/02/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r14501",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "05/03/2026",
+                    "words": 182
+                },
+                {
+                    "url": "r14502",
+                    "author": "The Familiars",
+                    "date": "05/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r14947",
+                    "author": "Invitado",
+                    "date": "15/03/2026",
+                    "words": 162
+                },
+                {
+                    "url": "r14948",
+                    "author": "The Familiars",
+                    "date": "15/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r15522",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "26/03/2026",
+                    "words": 239
+                },
+                {
+                    "url": "r15523",
+                    "author": "The Familiars",
+                    "date": "26/03/2026",
+                    "words": 0
+                }
+            ],
+            "date": "18/02/1953",
+            "location": "Orfanato Ceitidh Farraway"
+        },
+        "1006": {
+            "space": "temas inactivos",
+            "url": "/t1006-1953-02-22-evento-ruleta-de-practicas-10",
+            "simpleTitle": "evento: ruleta de prácticas #10",
+            "creator": "Black Wave",
+            "replyCount": 2,
+            "posts": [
+                {
+                    "url": "r13757",
+                    "author": "Black Wave",
+                    "date": "23/02/2026",
+                    "words": 139
+                },
+                {
+                    "url": "r14506",
+                    "author": "Ishwar S. Patil",
+                    "date": "05/03/2026",
+                    "words": 189
+                },
+                {
+                    "url": "r14507",
+                    "author": "The Familiars",
+                    "date": "05/03/2026",
+                    "words": 0
+                }
+            ],
+            "date": "22/02/1953",
+            "location": "Reserva Natural de Flint"
+        },
+        "1019": {
+            "space": "temas inactivos",
+            "url": "/t1019-1953-02-05-into-the-unknown",
+            "simpleTitle": "into the unknown",
+            "creator": "Hankford B. Diggory",
+            "replyCount": 6,
+            "posts": [
+                {
+                    "url": "r13973",
+                    "author": "Hankford B. Diggory",
+                    "date": "26/02/2026",
+                    "words": 268
+                },
+                {
+                    "url": "r13974",
+                    "author": "Invitado",
+                    "date": "26/02/2026",
+                    "words": 367
+                },
+                {
+                    "url": "r14349",
+                    "author": "Hankford B. Diggory",
+                    "date": "03/03/2026",
+                    "words": 326
+                },
+                {
+                    "url": "r14400",
+                    "author": "Invitado",
+                    "date": "04/03/2026",
+                    "words": 595
+                },
+                {
+                    "url": "r14993",
+                    "author": "Hankford B. Diggory",
+                    "date": "16/03/2026",
+                    "words": 583
+                },
+                {
+                    "url": "r15030",
+                    "author": "Invitado",
+                    "date": "16/03/2026",
+                    "words": 524
+                },
+                {
+                    "url": "r15397",
+                    "author": "Hankford B. Diggory",
+                    "date": "24/03/2026",
+                    "words": 502
+                }
+            ],
+            "date": "05/02/1953",
+            "location": "Reserva Natural de Flint"
+        },
+        "1023": {
+            "space": "temas inactivos",
+            "url": "/t1023-1953-02-13-run-for-the-hills",
+            "simpleTitle": "run for the hills",
+            "creator": "Hankford B. Diggory",
+            "replyCount": 4,
+            "posts": [
+                {
+                    "url": "r14049",
+                    "author": "Hankford B. Diggory",
+                    "date": "27/02/2026",
+                    "words": 248
+                },
+                {
+                    "url": "r14493",
+                    "author": "Invitado",
+                    "date": "05/03/2026",
+                    "words": 150
+                },
+                {
+                    "url": "r14494",
+                    "author": "The Familiars",
+                    "date": "05/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r15390",
+                    "author": "Hankford B. Diggory",
+                    "date": "24/03/2026",
+                    "words": 303
+                },
+                {
+                    "url": "r15391",
+                    "author": "The Familiars",
+                    "date": "24/03/2026",
+                    "words": 0
+                }
+            ],
+            "date": "13/02/1953",
+            "location": "Aulas Vacías"
+        },
+        "1028": {
+            "space": "temas inactivos",
+            "url": "/t1028-1953-02-10-la-nueva-generacion",
+            "simpleTitle": "la nueva generación",
+            "creator": "",
+            "replyCount": 3,
+            "posts": [
+                {
+                    "url": "r14092",
+                    "author": "Invitado",
+                    "date": "27/02/2026",
+                    "words": 321
+                },
+                {
+                    "url": "r15190",
+                    "author": "Asteria C. Lestrange",
+                    "date": "19/03/2026",
+                    "words": 303
+                },
+                {
+                    "url": "r15463",
+                    "author": "Invitado",
+                    "date": "25/03/2026",
+                    "words": 225
+                },
+                {
+                    "url": "r16596",
+                    "author": "Asteria C. Lestrange",
+                    "date": "17/04/2026",
+                    "words": 235
+                }
+            ],
+            "date": "10/02/1953",
+            "location": "aula de ccm (corrales)"
+        },
+        "1035": {
+            "space": "temas inactivos",
+            "url": "/t1035-1953-02-17-deadly-business",
+            "simpleTitle": "deadly business",
+            "creator": "Elysia G. Lestrange",
+            "replyCount": 10,
+            "posts": [
+                {
+                    "url": "r14208",
+                    "author": "Elysia G. Lestrange",
+                    "date": "01/03/2026",
+                    "words": 363
+                },
+                {
+                    "url": "r14211",
+                    "author": "Invitado",
+                    "date": "01/03/2026",
+                    "words": 485
+                },
+                {
+                    "url": "r14246",
+                    "author": "Elysia G. Lestrange",
+                    "date": "02/03/2026",
+                    "words": 373
+                },
+                {
+                    "url": "r14286",
+                    "author": "Invitado",
+                    "date": "02/03/2026",
+                    "words": 397
+                },
+                {
+                    "url": "r14434",
+                    "author": "Elysia G. Lestrange",
+                    "date": "04/03/2026",
+                    "words": 389
+                },
+                {
+                    "url": "r14547",
+                    "author": "Invitado",
+                    "date": "06/03/2026",
+                    "words": 390
+                },
+                {
+                    "url": "r14672",
+                    "author": "Elysia G. Lestrange",
+                    "date": "09/03/2026",
+                    "words": 451
+                },
+                {
+                    "url": "r14741",
+                    "author": "Invitado",
+                    "date": "11/03/2026",
+                    "words": 453
+                },
+                {
+                    "url": "r14803",
+                    "author": "Elysia G. Lestrange",
+                    "date": "12/03/2026",
+                    "words": 360
+                },
+                {
+                    "url": "r14991",
+                    "author": "Invitado",
+                    "date": "15/03/2026",
+                    "words": 420
+                },
+                {
+                    "url": "r15202",
+                    "author": "Elysia G. Lestrange",
+                    "date": "19/03/2026",
+                    "words": 426
+                }
+            ],
+            "date": "17/02/1953",
+            "location": "Reserva Natural Flint, Entrada"
+        },
+        "1043": {
+            "space": "temas inactivos",
+            "url": "/t1043-1953-02-20-nice-to-meet-you",
+            "simpleTitle": "nice to meet you",
+            "creator": "",
+            "replyCount": 7,
+            "posts": [
+                {
+                    "url": "r14324",
+                    "author": "Invitado",
+                    "date": "03/03/2026",
+                    "words": 213
+                },
+                {
+                    "url": "r14330",
+                    "author": "Invitado",
+                    "date": "03/03/2026",
+                    "words": 305
+                },
+                {
+                    "url": "r14546",
+                    "author": "Invitado",
+                    "date": "06/03/2026",
+                    "words": 196
+                },
+                {
+                    "url": "r14599",
+                    "author": "Invitado",
+                    "date": "07/03/2026",
+                    "words": 294
+                },
+                {
+                    "url": "r15023",
+                    "author": "Invitado",
+                    "date": "16/03/2026",
+                    "words": 229
+                },
+                {
+                    "url": "r15041",
+                    "author": "Invitado",
+                    "date": "16/03/2026",
+                    "words": 304
+                },
+                {
+                    "url": "r15169",
+                    "author": "Invitado",
+                    "date": "18/03/2026",
+                    "words": 222
+                },
+                {
+                    "url": "r15458",
+                    "author": "Invitado",
+                    "date": "25/03/2026",
+                    "words": 354
+                }
+            ],
+            "date": "20/02/1953",
+            "location": "Casa de Descanso"
+        },
+        "1044": {
+            "space": "temas inactivos",
+            "url": "/t1044-1953-02-10-the-og-meeting",
+            "simpleTitle": "the og meeting",
+            "creator": "",
+            "replyCount": 5,
+            "posts": [
+                {
+                    "url": "r14329",
+                    "author": "Invitado",
+                    "date": "03/03/2026",
+                    "words": 279
+                },
+                {
+                    "url": "r14433",
+                    "author": "Elysia G. Lestrange",
+                    "date": "04/03/2026",
+                    "words": 223
+                },
+                {
+                    "url": "r15021",
+                    "author": "Invitado",
+                    "date": "16/03/2026",
+                    "words": 203
+                },
+                {
+                    "url": "r15371",
+                    "author": "Elysia G. Lestrange",
+                    "date": "23/03/2026",
+                    "words": 268
+                },
+                {
+                    "url": "r17038",
+                    "author": "Invitado",
+                    "date": "27/04/2026",
+                    "words": 355
+                },
+                {
+                    "url": "r17398",
+                    "author": "Elysia G. Lestrange",
+                    "date": "02/05/2026",
+                    "words": 328
+                }
+            ],
+            "date": "10/02/1953",
+            "location": "Casa Humeante"
+        },
+        "1054": {
+            "space": "temas inactivos",
+            "url": "/t1054-1953-02-07-like-father",
+            "simpleTitle": "like father",
+            "creator": "",
+            "replyCount": 3,
+            "posts": [
+                {
+                    "url": "r14427",
+                    "author": "Invitado",
+                    "date": "04/03/2026",
+                    "words": 215
+                },
+                {
+                    "url": "r14480",
+                    "author": "Invitado",
+                    "date": "05/03/2026",
+                    "words": 205
+                },
+                {
+                    "url": "r15015",
+                    "author": "Invitado",
+                    "date": "16/03/2026",
+                    "words": 293
+                },
+                {
+                    "url": "r15585",
+                    "author": "Invitado",
+                    "date": "27/03/2026",
+                    "words": 341
+                }
+            ],
+            "date": "07/02/1953",
+            "location": "Las tres escobas"
+        },
+        "1056": {
+            "space": "temas inactivos",
+            "url": "/t1056-1953-02-01-honor-dutty-and-candies",
+            "simpleTitle": "honor, dutty and candies",
+            "creator": "",
+            "replyCount": 7,
+            "posts": [
+                {
+                    "url": "r14479",
+                    "author": "Invitado",
+                    "date": "05/03/2026",
+                    "words": 211
+                },
+                {
+                    "url": "r14481",
+                    "author": "Invitado",
+                    "date": "05/03/2026",
+                    "words": 255
+                },
+                {
+                    "url": "r14517",
+                    "author": "Invitado",
+                    "date": "06/03/2026",
+                    "words": 222
+                },
+                {
+                    "url": "r14581",
+                    "author": "Invitado",
+                    "date": "07/03/2026",
+                    "words": 319
+                },
+                {
+                    "url": "r15009",
+                    "author": "Invitado",
+                    "date": "16/03/2026",
+                    "words": 251
+                },
+                {
+                    "url": "r15010",
+                    "author": "The Familiars",
+                    "date": "16/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r15415",
+                    "author": "Invitado",
+                    "date": "24/03/2026",
+                    "words": 254
+                },
+                {
+                    "url": "r15416",
+                    "author": "The Familiars",
+                    "date": "24/03/2026",
+                    "words": 0
+                }
+            ],
+            "date": "01/02/1953",
+            "location": "Exteriores del castillo"
+        },
+        "1057": {
+            "space": "temas inactivos",
+            "url": "/t1057-1951-03-04-desorden-en-hogsmeade",
+            "simpleTitle": "desorden en hogsmeade",
+            "creator": "",
+            "replyCount": 3,
+            "posts": [
+                {
+                    "url": "r14482",
+                    "author": "Invitado",
+                    "date": "05/03/2026",
+                    "words": 212
+                },
+                {
+                    "url": "r14876",
+                    "author": "Neptune E. Merrythought",
+                    "date": "14/03/2026",
+                    "words": 256
+                },
+                {
+                    "url": "r15116",
+                    "author": "Invitado",
+                    "date": "17/03/2026",
+                    "words": 424
+                },
+                {
+                    "url": "r15645",
+                    "author": "Neptune E. Merrythought",
+                    "date": "28/03/2026",
+                    "words": 385
+                }
+            ],
+            "date": "04/03/1951",
+            "location": "Las tres escobas"
+        },
+        "1058": {
+            "space": "temas inactivos",
+            "url": "/t1058-1948-10-11-principios-que-saben-a-polvo",
+            "simpleTitle": "principios que saben a polvo",
+            "creator": "Montgomery Thatch",
+            "replyCount": 10,
+            "posts": [
+                {
+                    "url": "r14484",
+                    "author": "Montgomery Thatch",
+                    "date": "05/03/2026",
+                    "words": 365
+                },
+                {
+                    "url": "r14492",
+                    "author": "Invitado",
+                    "date": "05/03/2026",
+                    "words": 281
+                },
+                {
+                    "url": "r14496",
+                    "author": "Montgomery Thatch",
+                    "date": "05/03/2026",
+                    "words": 384
+                },
+                {
+                    "url": "r14505",
+                    "author": "Invitado",
+                    "date": "05/03/2026",
+                    "words": 355
+                },
+                {
+                    "url": "r14604",
+                    "author": "Montgomery Thatch",
+                    "date": "07/03/2026",
+                    "words": 459
+                },
+                {
+                    "url": "r14768",
+                    "author": "Invitado",
+                    "date": "11/03/2026",
+                    "words": 479
+                },
+                {
+                    "url": "r14850",
+                    "author": "Montgomery Thatch",
+                    "date": "13/03/2026",
+                    "words": 656
+                },
+                {
+                    "url": "r15114",
+                    "author": "Invitado",
+                    "date": "17/03/2026",
+                    "words": 742
+                },
+                {
+                    "url": "r15115",
+                    "author": "The Familiars",
+                    "date": "17/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r15268",
+                    "author": "Montgomery Thatch",
+                    "date": "22/03/2026",
+                    "words": 544
+                },
+                {
+                    "url": "r15269",
+                    "author": "The Familiars",
+                    "date": "22/03/2026",
+                    "words": 0
+                }
+            ],
+            "date": "11/10/1948",
+            "location": "Campo de Quidditch"
+        },
+        "1059": {
+            "space": "temas inactivos",
+            "url": "/t1059-1953-02-07-enciendelo",
+            "simpleTitle": "enciéndelo",
+            "creator": "Montgomery Thatch",
+            "replyCount": 10,
+            "posts": [
+                {
+                    "url": "r14495",
+                    "author": "Montgomery Thatch",
+                    "date": "05/03/2026",
+                    "words": 286
+                },
+                {
+                    "url": "r14516",
+                    "author": "Invitado",
+                    "date": "05/03/2026",
+                    "words": 226
+                },
+                {
+                    "url": "r14605",
+                    "author": "Montgomery Thatch",
+                    "date": "07/03/2026",
+                    "words": 358
+                },
+                {
+                    "url": "r14606",
+                    "author": "The Familiars",
+                    "date": "07/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r15011",
+                    "author": "Invitado",
+                    "date": "16/03/2026",
+                    "words": 235
+                },
+                {
+                    "url": "r15012",
+                    "author": "The Familiars",
+                    "date": "16/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r15252",
+                    "author": "Montgomery Thatch",
+                    "date": "21/03/2026",
+                    "words": 193
+                },
+                {
+                    "url": "r15253",
+                    "author": "The Familiars",
+                    "date": "21/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16645",
+                    "author": "Invitado",
+                    "date": "19/04/2026",
+                    "words": 215
+                },
+                {
+                    "url": "r16712",
+                    "author": "Montgomery Thatch",
+                    "date": "19/04/2026",
+                    "words": 379
+                },
+                {
+                    "url": "r16713",
+                    "author": "The Familiars",
+                    "date": "19/04/2026",
+                    "words": 0
+                }
+            ],
+            "date": "07/02/1953",
+            "location": "Gran Salón"
+        },
+        "1062": {
+            "space": "temas inactivos",
+            "url": "/t1062-1953-02-13-the-order-of-things",
+            "simpleTitle": "the order of things",
+            "creator": "",
+            "replyCount": 2,
+            "posts": [
+                {
+                    "url": "r14537",
+                    "author": "Invitado",
+                    "date": "06/03/2026",
+                    "words": 154
+                },
+                {
+                    "url": "r14584",
+                    "author": "Invitado",
+                    "date": "07/03/2026",
+                    "words": 249
+                },
+                {
+                    "url": "r15245",
+                    "author": "Invitado",
+                    "date": "21/03/2026",
+                    "words": 251
+                }
+            ],
+            "date": "13/02/1953",
+            "location": "Torre de astronomía "
+        },
+        "1063": {
+            "space": "temas inactivos",
+            "url": "/t1063-1953-02-06-not-too-bad",
+            "simpleTitle": "not too bad",
+            "creator": "",
+            "replyCount": 3,
+            "posts": [
+                {
+                    "url": "r14553",
+                    "author": "Invitado",
+                    "date": "06/03/2026",
+                    "words": 244
+                },
+                {
+                    "url": "r15045",
+                    "author": "Invitado",
+                    "date": "16/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r15046",
+                    "author": "The Familiars",
+                    "date": "16/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r15110",
+                    "author": "Invitado",
+                    "date": "17/03/2026",
+                    "words": 265
+                }
+            ],
+            "date": "06/02/1953",
+            "location": "Exteriores Hogwarts"
+        },
+        "1065": {
+            "space": "temas inactivos",
+            "url": "/t1065-1953-02-12-when-all-is-said-and-done",
+            "simpleTitle": "when all is said and done",
+            "creator": "Margareth T. Moody",
+            "replyCount": 4,
+            "posts": [
+                {
+                    "url": "r14587",
+                    "author": "Margareth T. Moody",
+                    "date": "07/03/2026",
+                    "words": 222
+                },
+                {
+                    "url": "r14659",
+                    "author": "Invitado",
+                    "date": "09/03/2026",
+                    "words": 388
+                },
+                {
+                    "url": "r15145",
+                    "author": "Margareth T. Moody",
+                    "date": "18/03/2026",
+                    "words": 400
+                },
+                {
+                    "url": "r15445",
+                    "author": "Invitado",
+                    "date": "25/03/2026",
+                    "words": 599
+                },
+                {
+                    "url": "r15761",
+                    "author": "Margareth T. Moody",
+                    "date": "30/03/2026",
+                    "words": 467
+                }
+            ],
+            "date": "12/02/1953",
+            "location": "Reserva Natural de Flint"
+        },
+        "1074": {
+            "space": "temas inactivos",
+            "url": "/t1074-1953-02-21-running-wild",
+            "simpleTitle": "running wild",
+            "creator": "Aidan N. Flamel",
+            "replyCount": 2,
+            "posts": [
+                {
+                    "url": "r14680",
+                    "author": "Aidan N. Flamel",
+                    "date": "10/03/2026",
+                    "words": 292
+                },
+                {
+                    "url": "r14933",
+                    "author": "Invitado",
+                    "date": "14/03/2026",
+                    "words": 346
+                },
+                {
+                    "url": "r16354",
+                    "author": "Aidan N. Flamel",
+                    "date": "12/04/2026",
+                    "words": 276
+                }
+            ],
+            "date": "21/02/1953",
+            "location": "pub spellbound — Valle de Godric"
+        },
+        "1083": {
+            "space": "temas inactivos",
+            "url": "/t1083-1953-02-15-evento-ruleta-de-practicas-03-b",
+            "simpleTitle": "evento: ruleta de prácticas #03-b",
+            "creator": "Black Wave",
+            "replyCount": 2,
+            "posts": [
+                {
+                    "url": "r14748",
+                    "author": "Black Wave",
+                    "date": "11/03/2026",
+                    "words": 87
+                },
+                {
+                    "url": "r14827",
+                    "author": "Thaddeus L. Nott",
+                    "date": "12/03/2026",
+                    "words": 236
+                },
+                {
+                    "url": "r14828",
+                    "author": "The Familiars",
+                    "date": "12/03/2026",
+                    "words": 0
+                }
+            ],
+            "date": "15/02/1953",
+            "location": "Hogsmeade"
+        },
+        "1088": {
+            "space": "temas inactivos",
+            "url": "/t1088-1946-07-25-sin-reglas-ni-ley",
+            "simpleTitle": "sin reglas ni ley",
+            "creator": "",
+            "replyCount": 7,
+            "posts": [
+                {
+                    "url": "r14909",
+                    "author": "Invitado",
+                    "date": "14/03/2026",
+                    "words": 535
+                },
+                {
+                    "url": "r14934",
+                    "author": "Montgomery Thatch",
+                    "date": "14/03/2026",
+                    "words": 680
+                },
+                {
+                    "url": "r14941",
+                    "author": "Invitado",
+                    "date": "15/03/2026",
+                    "words": 408
+                },
+                {
+                    "url": "r14949",
+                    "author": "Montgomery Thatch",
+                    "date": "15/03/2026",
+                    "words": 724
+                },
+                {
+                    "url": "r14986",
+                    "author": "Invitado",
+                    "date": "15/03/2026",
+                    "words": 492
+                },
+                {
+                    "url": "r15236",
+                    "author": "Montgomery Thatch",
+                    "date": "20/03/2026",
+                    "words": 515
+                },
+                {
+                    "url": "r16887",
+                    "author": "Invitado",
+                    "date": "23/04/2026",
+                    "words": 550
+                },
+                {
+                    "url": "r16952",
+                    "author": "Montgomery Thatch",
+                    "date": "25/04/2026",
+                    "words": 633
+                }
+            ],
+            "date": "25/07/1946",
+            "location": "Orfanato, Farraday"
+        },
+        "1089": {
+            "space": "temas inactivos",
+            "url": "/t1089-1953-02-27-a-boy-needs-to-know",
+            "simpleTitle": "a boy needs to know",
+            "creator": "Findlay McCrory",
+            "replyCount": 4,
+            "posts": [
+                {
+                    "url": "r14921",
+                    "author": "Findlay McCrory",
+                    "date": "14/03/2026",
+                    "words": 226
+                },
+                {
+                    "url": "r14922",
+                    "author": "The Familiars",
+                    "date": "14/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r15122",
+                    "author": "Invitado",
+                    "date": "17/03/2026",
+                    "words": 315
+                },
+                {
+                    "url": "r15176",
+                    "author": "Findlay McCrory",
+                    "date": "18/03/2026",
+                    "words": 270
+                },
+                {
+                    "url": "r15177",
+                    "author": "The Familiars",
+                    "date": "18/03/2026",
+                    "words": 0
+                }
+            ],
+            "date": "27/02/1953",
+            "location": "Sala común de Ravenclaw"
+        },
+        "1090": {
+            "space": "temas inactivos",
+            "url": "/t1090-1953-02-20-cagaste-lupin",
+            "simpleTitle": "cagaste, lupin",
+            "creator": "",
+            "replyCount": 7,
+            "posts": [
+                {
+                    "url": "r14932",
+                    "author": "Invitado",
+                    "date": "14/03/2026",
+                    "words": 438
+                },
+                {
+                    "url": "r15259",
+                    "author": "Elysia G. Lestrange",
+                    "date": "22/03/2026",
+                    "words": 292
+                },
+                {
+                    "url": "r16566",
+                    "author": "Invitado",
+                    "date": "15/04/2026",
+                    "words": 341
+                },
+                {
+                    "url": "r16948",
+                    "author": "Elysia G. Lestrange",
+                    "date": "25/04/2026",
+                    "words": 339
+                },
+                {
+                    "url": "r16949",
+                    "author": "The Familiars",
+                    "date": "25/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r17343",
+                    "author": "Invitado",
+                    "date": "02/05/2026",
+                    "words": 316
+                },
+                {
+                    "url": "r17690",
+                    "author": "Elysia G. Lestrange",
+                    "date": "05/05/2026",
+                    "words": 388
+                },
+                {
+                    "url": "r17691",
+                    "author": "The Familiars",
+                    "date": "05/05/2026",
+                    "words": 0
+                }
+            ],
+            "date": "20/02/1953",
+            "location": "Reserva Natural de Flint"
+        },
+        "1091": {
+            "space": "temas inactivos",
+            "url": "/t1091-1953-02-25-duelo-16-agatha-vs-findlay",
+            "simpleTitle": "duelo #16: agatha vs findlay",
+            "creator": "Black Wave",
+            "replyCount": 11,
+            "posts": [
+                {
+                    "url": "r14967",
+                    "author": "Black Wave",
+                    "date": "15/03/2026",
+                    "words": 171
+                },
+                {
+                    "url": "r14968",
+                    "author": "The Familiars",
+                    "date": "15/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r15043",
+                    "author": "Findlay McCrory",
+                    "date": "16/03/2026",
+                    "words": 211
+                },
+                {
+                    "url": "r15044",
+                    "author": "The Familiars",
+                    "date": "16/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r15134",
+                    "author": "Invitado",
+                    "date": "17/03/2026",
+                    "words": 241
+                },
+                {
+                    "url": "r15135",
+                    "author": "The Familiars",
+                    "date": "17/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r15195",
+                    "author": "Findlay McCrory",
+                    "date": "19/03/2026",
+                    "words": 138
+                },
+                {
+                    "url": "r15196",
+                    "author": "The Familiars",
+                    "date": "19/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r15413",
+                    "author": "Invitado",
+                    "date": "24/03/2026",
+                    "words": 192
+                },
+                {
+                    "url": "r15414",
+                    "author": "The Familiars",
+                    "date": "24/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r15663",
+                    "author": "Findlay McCrory",
+                    "date": "28/03/2026",
+                    "words": 109
+                },
+                {
+                    "url": "r15664",
+                    "author": "The Familiars",
+                    "date": "28/03/2026",
+                    "words": 0
+                }
+            ],
+            "date": "25/02/1953",
+            "location": "Club de Duelos"
+        },
+        "1092": {
+            "space": "temas inactivos",
+            "url": "/t1092-1953-02-27-duelo-17-eamon-vs-ruairidh",
+            "simpleTitle": "duelo #17: eamon vs ruairidh",
+            "creator": "Black Wave",
+            "replyCount": 9,
+            "posts": [
+                {
+                    "url": "r14969",
+                    "author": "Black Wave",
+                    "date": "15/03/2026",
+                    "words": 165
+                },
+                {
+                    "url": "r14970",
+                    "author": "The Familiars",
+                    "date": "15/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r15489",
+                    "author": "Invitado",
+                    "date": "26/03/2026",
+                    "words": 151
+                },
+                {
+                    "url": "r15490",
+                    "author": "The Familiars",
+                    "date": "26/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r15496",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "26/03/2026",
+                    "words": 188
+                },
+                {
+                    "url": "r15497",
+                    "author": "The Familiars",
+                    "date": "26/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r15576",
+                    "author": "Invitado",
+                    "date": "27/03/2026",
+                    "words": 184
+                },
+                {
+                    "url": "r15577",
+                    "author": "The Familiars",
+                    "date": "27/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16288",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "09/04/2026",
+                    "words": 156
+                },
+                {
+                    "url": "r16289",
+                    "author": "The Familiars",
+                    "date": "09/04/2026",
+                    "words": 0
+                }
+            ],
+            "date": "27/02/1953",
+            "location": "Club de Duelos"
+        },
+        "1095": {
+            "space": "temas inactivos",
+            "url": "/t1095-1953-02-26-how-far-i-bend-before-i-break",
+            "simpleTitle": "how far i bend before i break",
+            "creator": "Barnaby R. Rookwood",
+            "replyCount": 2,
+            "posts": [
+                {
+                    "url": "r15005",
+                    "author": "Barnaby R. Rookwood",
+                    "date": "16/03/2026",
+                    "words": 267
+                },
+                {
+                    "url": "r15125",
+                    "author": "Invitado",
+                    "date": "17/03/2026",
+                    "words": 466
+                },
+                {
+                    "url": "r15432",
+                    "author": "Barnaby R. Rookwood",
+                    "date": "25/03/2026",
+                    "words": 299
+                }
+            ],
+            "date": "26/02/1953",
+            "location": "Corredores"
+        },
+        "1096": {
+            "space": "temas inactivos",
+            "url": "/t1096-1953-02-20-friends-to-sweets",
+            "simpleTitle": "friends to sweets",
+            "creator": "",
+            "replyCount": 0,
+            "posts": [
+                {
+                    "url": "r15006",
+                    "author": "Invitado",
+                    "date": "16/03/2026",
+                    "words": 218
+                }
+            ],
+            "date": "20/02/1953",
+            "location": "tercera planta del castillo"
+        },
+        "1098": {
+            "space": "temas inactivos",
+            "url": "/t1098-1953-02-20-no-not-again",
+            "simpleTitle": "no, not again",
+            "creator": "",
+            "replyCount": 7,
+            "posts": [
+                {
+                    "url": "r15019",
+                    "author": "Invitado",
+                    "date": "16/03/2026",
+                    "words": 283
+                },
+                {
+                    "url": "r15161",
+                    "author": "Alastor Moody",
+                    "date": "18/03/2026",
+                    "words": 430
+                },
+                {
+                    "url": "r15170",
+                    "author": "Invitado",
+                    "date": "18/03/2026",
+                    "words": 248
+                },
+                {
+                    "url": "r15352",
+                    "author": "Alastor Moody",
+                    "date": "23/03/2026",
+                    "words": 203
+                },
+                {
+                    "url": "r16375",
+                    "author": "Invitado",
+                    "date": "12/04/2026",
+                    "words": 242
+                },
+                {
+                    "url": "r16512",
+                    "author": "Alastor Moody",
+                    "date": "14/04/2026",
+                    "words": 177
+                },
+                {
+                    "url": "r16956",
+                    "author": "Invitado",
+                    "date": "25/04/2026",
+                    "words": 304
+                },
+                {
+                    "url": "r17054",
+                    "author": "Alastor Moody",
+                    "date": "27/04/2026",
+                    "words": 315
+                }
+            ],
+            "date": "20/02/1953",
+            "location": "Segundo piso"
+        },
+        "1099": {
+            "space": "temas inactivos",
+            "url": "/t1099-we-meet-again-priv",
+            "simpleTitle": "we meet again - priv.",
+            "creator": "",
+            "replyCount": 2,
+            "posts": [
+                {
+                    "url": "r15020",
+                    "author": "Invitado",
+                    "date": "16/03/2026",
+                    "words": 227
+                },
+                {
+                    "url": "r15132",
+                    "author": "Invitado",
+                    "date": "17/03/2026",
+                    "words": 545
+                },
+                {
+                    "url": "r15351",
+                    "author": "Invitado",
+                    "date": "23/03/2026",
+                    "words": 293
+                }
+            ],
+            "date": "09/02/1953",
+            "location": "Caldero chorreante"
+        },
+        "1100": {
+            "space": "temas inactivos",
+            "url": "/t1100-1950-06-22-ni-tu-ni-yo-tendremos-vida-suficiente-para-contar-todas-las-estrellas",
+            "simpleTitle": "ni tú ni yo tendremos vida suficiente para contar todas las estrellas",
+            "creator": "",
+            "replyCount": 5,
+            "posts": [
+                {
+                    "url": "r15022",
+                    "author": "Invitado",
+                    "date": "16/03/2026",
+                    "words": 384
+                },
+                {
+                    "url": "r15146",
+                    "author": "Margareth T. Moody",
+                    "date": "18/03/2026",
+                    "words": 458
+                },
+                {
+                    "url": "r16409",
+                    "author": "Invitado",
+                    "date": "13/04/2026",
+                    "words": 481
+                },
+                {
+                    "url": "r16876",
+                    "author": "Margareth T. Moody",
+                    "date": "23/04/2026",
+                    "words": 418
+                },
+                {
+                    "url": "r16926",
+                    "author": "Invitado",
+                    "date": "24/04/2026",
+                    "words": 499
+                },
+                {
+                    "url": "r17019",
+                    "author": "Margareth T. Moody",
+                    "date": "27/04/2026",
+                    "words": 456
+                }
+            ],
+            "date": "22/06/1950",
+            "location": "Torre de Astronomía"
+        },
+        "1101": {
+            "space": "temas inactivos",
+            "url": "/t1101-dragon-heart-string",
+            "simpleTitle": "dragon heart string",
+            "creator": "Ksenia D. Demidova",
+            "replyCount": 4,
+            "posts": [
+                {
+                    "url": "r15085",
+                    "author": "Ksenia D. Demidova",
+                    "date": "16/03/2026",
+                    "words": 234
+                },
+                {
+                    "url": "r15133",
+                    "author": "Invitado",
+                    "date": "17/03/2026",
+                    "words": 384
+                },
+                {
+                    "url": "r15404",
+                    "author": "Ksenia D. Demidova",
+                    "date": "24/03/2026",
+                    "words": 373
+                },
+                {
+                    "url": "r18784",
+                    "author": "Invitado",
+                    "date": "21/05/2026",
+                    "words": 356
+                },
+                {
+                    "url": "r19681",
+                    "author": "Ksenia D. Demidova",
+                    "date": "07/06/2026",
+                    "words": 296
+                }
+            ],
+            "date": "26/02/1953",
+            "location": "Reserva de Flynt"
+        },
+        "1116": {
+            "space": "temas inactivos",
+            "url": "/t1116-1953-02-21-dance-with-me",
+            "simpleTitle": "dance with me",
+            "creator": "",
+            "replyCount": 5,
+            "posts": [
+                {
+                    "url": "r15569",
+                    "author": "Invitado",
+                    "date": "27/03/2026",
+                    "words": 388
+                },
+                {
+                    "url": "r15795",
+                    "author": "Elysia G. Lestrange",
+                    "date": "30/03/2026",
+                    "words": 347
+                },
+                {
+                    "url": "r16631",
+                    "author": "Invitado",
+                    "date": "18/04/2026",
+                    "words": 451
+                },
+                {
+                    "url": "r16993",
+                    "author": "Elysia G. Lestrange",
+                    "date": "26/04/2026",
+                    "words": 438
+                },
+                {
+                    "url": "r18383",
+                    "author": "Invitado",
+                    "date": "15/05/2026",
+                    "words": 373
+                },
+                {
+                    "url": "r19904",
+                    "author": "Elysia G. Lestrange",
+                    "date": "14/06/2026",
+                    "words": 410
+                }
+            ],
+            "date": "21/02/1953",
+            "location": "Londres"
+        },
+        "1121": {
+            "space": "temas inactivos",
+            "url": "/t1121-1953-02-09-the-mountains-far-away",
+            "simpleTitle": "the mountains far away",
+            "creator": "Minerva E. McGonagall",
+            "replyCount": 0,
+            "posts": [
+                {
+                    "url": "r15691",
+                    "author": "Minerva E. McGonagall",
+                    "date": "28/03/2026",
+                    "words": 243
+                }
+            ],
+            "date": "09/02/1953",
+            "location": "Aula de Estudios Muggles"
+        },
+        "1132": {
+            "space": "temas inactivos",
+            "url": "/t1132-1953-03-14-first-steps",
+            "simpleTitle": "first steps",
+            "creator": "",
+            "replyCount": 0,
+            "posts": [
+                {
+                    "url": "r16015",
+                    "author": "Invitado",
+                    "date": "02/04/2026",
+                    "words": 389
+                }
+            ],
+            "date": "14/03/1953",
+            "location": "Hogar de Cass y Har"
+        },
+        "1143": {
+            "space": "temas inactivos",
+            "url": "/t1143-change-on-the-wind-edmund",
+            "simpleTitle": "change on the wind | edmund",
+            "creator": "Hankford B. Diggory",
+            "replyCount": 0,
+            "posts": [
+                {
+                    "url": "r16229",
+                    "author": "Hankford B. Diggory",
+                    "date": "08/04/2026",
+                    "words": 270
+                }
+            ],
+            "date": "03/03/1953",
+            "location": "Sala de Profesores"
+        },
+        "1144": {
+            "space": "temas inactivos",
+            "url": "/t1144-1953-03-07-where-the-mountain-meet-the-sea",
+            "simpleTitle": "where the mountain meet the sea",
+            "creator": "Hankford B. Diggory",
+            "replyCount": 2,
+            "posts": [
+                {
+                    "url": "r16230",
+                    "author": "Hankford B. Diggory",
+                    "date": "08/04/2026",
+                    "words": 245
+                },
+                {
+                    "url": "r16944",
+                    "author": "Invitado",
+                    "date": "25/04/2026",
+                    "words": 416
+                },
+                {
+                    "url": "r17548",
+                    "author": "Hankford B. Diggory",
+                    "date": "04/05/2026",
+                    "words": 383
+                }
+            ],
+            "date": "07/03/1953",
+            "location": "El Atrio"
+        },
+        "1147": {
+            "space": "temas inactivos",
+            "url": "/t1147-1932-10-23-ascuas",
+            "simpleTitle": "ascuas",
+            "creator": "Jupiter Merrythought",
+            "replyCount": 4,
+            "posts": [
+                {
+                    "url": "r16307",
+                    "author": "Jupiter Merrythought",
+                    "date": "09/04/2026",
+                    "words": 528
+                },
+                {
+                    "url": "r16972",
+                    "author": "Invitado",
+                    "date": "26/04/2026",
+                    "words": 376
+                },
+                {
+                    "url": "r17084",
+                    "author": "Jupiter Merrythought",
+                    "date": "28/04/2026",
+                    "words": 259
+                },
+                {
+                    "url": "r18387",
+                    "author": "Invitado",
+                    "date": "15/05/2026",
+                    "words": 285
+                },
+                {
+                    "url": "r18420",
+                    "author": "Jupiter Merrythought",
+                    "date": "15/05/2026",
+                    "words": 349
+                }
+            ],
+            "date": "23/10/1932",
+            "location": "Aula de Transformaciones"
+        },
+        "1167": {
+            "space": "temas inactivos",
+            "url": "/t1167-1953-03-15-llamando-al-exterminador",
+            "simpleTitle": "llamando al exterminador",
+            "creator": "Jupiter Merrythought",
+            "replyCount": 7,
+            "posts": [
+                {
+                    "url": "r16612",
+                    "author": "Jupiter Merrythought",
+                    "date": "17/04/2026",
+                    "words": 221
+                },
+                {
+                    "url": "r16851",
+                    "author": "Invitado",
+                    "date": "22/04/2026",
+                    "words": 491
+                },
+                {
+                    "url": "r16888",
+                    "author": "Jupiter Merrythought",
+                    "date": "23/04/2026",
+                    "words": 632
+                },
+                {
+                    "url": "r16889",
+                    "author": "The Familiars",
+                    "date": "23/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16921",
+                    "author": "Invitado",
+                    "date": "24/04/2026",
+                    "words": 408
+                },
+                {
+                    "url": "r17005",
+                    "author": "Jupiter Merrythought",
+                    "date": "26/04/2026",
+                    "words": 306
+                },
+                {
+                    "url": "r18786",
+                    "author": "Invitado",
+                    "date": "21/05/2026",
+                    "words": 341
+                },
+                {
+                    "url": "r18826",
+                    "author": "Jupiter Merrythought",
+                    "date": "22/05/2026",
+                    "words": 449
+                }
+            ],
+            "date": "15/03/1953",
+            "location": "puerta de la selva"
+        },
+        "1193": {
+            "space": "temas inactivos",
+            "url": "/t1193-1953-03-17-intrusion",
+            "simpleTitle": "intrusión",
+            "creator": "",
+            "replyCount": 3,
+            "posts": [
+                {
+                    "url": "r17481",
+                    "author": "Invitado",
+                    "date": "03/05/2026",
+                    "words": 499
+                },
+                {
+                    "url": "r17747",
+                    "author": "Elysia G. Lestrange",
+                    "date": "06/05/2026",
+                    "words": 370
+                },
+                {
+                    "url": "r17934",
+                    "author": "Invitado",
+                    "date": "08/05/2026",
+                    "words": 279
+                },
+                {
+                    "url": "r18538",
+                    "author": "Elysia G. Lestrange",
+                    "date": "17/05/2026",
+                    "words": 260
+                }
+            ],
+            "date": "17/03/1953",
+            "location": "Departamento de Misterios"
+        },
+        "1195": {
+            "space": "temas inactivos",
+            "url": "/t1195-1953-03-24-a-catnap",
+            "simpleTitle": "a catnap",
+            "creator": "Uranus H. Merrythought",
+            "replyCount": 10,
+            "posts": [
+                {
+                    "url": "r17488",
+                    "author": "Uranus H. Merrythought",
+                    "date": "03/05/2026",
+                    "words": 254
+                },
+                {
+                    "url": "r17491",
+                    "author": "Invitado",
+                    "date": "03/05/2026",
+                    "words": 404
+                },
+                {
+                    "url": "r17574",
+                    "author": "Uranus H. Merrythought",
+                    "date": "04/05/2026",
+                    "words": 290
+                },
+                {
+                    "url": "r17585",
+                    "author": "Invitado",
+                    "date": "04/05/2026",
+                    "words": 225
+                },
+                {
+                    "url": "r17739",
+                    "author": "Uranus H. Merrythought",
+                    "date": "06/05/2026",
+                    "words": 253
+                },
+                {
+                    "url": "r17822",
+                    "author": "Invitado",
+                    "date": "07/05/2026",
+                    "words": 206
+                },
+                {
+                    "url": "r17823",
+                    "author": "Uranus H. Merrythought",
+                    "date": "07/05/2026",
+                    "words": 241
+                },
+                {
+                    "url": "r17880",
+                    "author": "Invitado",
+                    "date": "08/05/2026",
+                    "words": 367
+                },
+                {
+                    "url": "r18306",
+                    "author": "Uranus H. Merrythought",
+                    "date": "13/05/2026",
+                    "words": 236
+                },
+                {
+                    "url": "r18546",
+                    "author": "Invitado",
+                    "date": "17/05/2026",
+                    "words": 325
+                },
+                {
+                    "url": "r19251",
+                    "author": "Uranus H. Merrythought",
+                    "date": "29/05/2026",
+                    "words": 373
+                }
+            ],
+            "date": "24/03/1953",
+            "location": "Callejón Diagon"
+        },
+        "1202": {
+            "space": "temas inactivos",
+            "url": "/t1202-1953-03-24-did-you-wish-that-i-could-know",
+            "simpleTitle": "did you wish that i could know?",
+            "creator": "Regulus O. Black",
+            "replyCount": 5,
+            "posts": [
+                {
+                    "url": "r17641",
+                    "author": "Regulus O. Black",
+                    "date": "05/05/2026",
+                    "words": 258
+                },
+                {
+                    "url": "r17682",
+                    "author": "Invitado",
+                    "date": "05/05/2026",
+                    "words": 231
+                },
+                {
+                    "url": "r18452",
+                    "author": "Regulus O. Black",
+                    "date": "16/05/2026",
+                    "words": 322
+                },
+                {
+                    "url": "r18678",
+                    "author": "Invitado",
+                    "date": "20/05/2026",
+                    "words": 386
+                },
+                {
+                    "url": "r18679",
+                    "author": "The Familiars",
+                    "date": "20/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r19734",
+                    "author": "Regulus O. Black",
+                    "date": "09/06/2026",
+                    "words": 338
+                }
+            ],
+            "date": "24/03/1953",
+            "location": "Departamento de Misterios"
+        },
+        "1218": {
+            "space": "temas inactivos",
+            "url": "/t1218-1953-03-25-whatever-it-takes",
+            "simpleTitle": "whatever it takes",
+            "creator": "",
+            "replyCount": 4,
+            "posts": [
+                {
+                    "url": "r17932",
+                    "author": "Invitado",
+                    "date": "08/05/2026",
+                    "words": 321
+                },
+                {
+                    "url": "r18079",
+                    "author": "Elysia G. Lestrange",
+                    "date": "10/05/2026",
+                    "words": 352
+                },
+                {
+                    "url": "r18239",
+                    "author": "Invitado",
+                    "date": "12/05/2026",
+                    "words": 395
+                },
+                {
+                    "url": "r19182",
+                    "author": "Elysia G. Lestrange",
+                    "date": "28/05/2026",
+                    "words": 242
+                },
+                {
+                    "url": "r19531",
+                    "author": "Invitado",
+                    "date": "02/06/2026",
+                    "words": 225
+                }
+            ],
+            "date": "25/03/1953",
+            "location": "Madame Pudipié"
+        },
+        "1220": {
+            "space": "temas inactivos",
+            "url": "/t1220-fb-astraea-b-paradox",
+            "simpleTitle": "paradox",
+            "creator": "Sloane N. Greengrass",
+            "replyCount": 2,
+            "posts": [
+                {
+                    "url": "r17954",
+                    "author": "Sloane N. Greengrass",
+                    "date": "08/05/2026",
+                    "words": 394
+                },
+                {
+                    "url": "r18217",
+                    "author": "Invitado",
+                    "date": "12/05/2026",
+                    "words": 332
+                },
+                {
+                    "url": "r19713",
+                    "author": "Sloane N. Greengrass",
+                    "date": "08/06/2026",
+                    "words": 192
+                }
+            ],
+            "date": "16/02/1945",
+            "location": "patio de la torre del reloj, Hogwarts"
+        },
+        "1230": {
+            "space": "temas inactivos",
+            "url": "/t1230-1953-03-27-you-re-the-only-friend-i-need",
+            "simpleTitle": "you're the only friend i need",
+            "creator": "",
+            "replyCount": 4,
+            "posts": [
+                {
+                    "url": "r18044",
+                    "author": "Invitado",
+                    "date": "10/05/2026",
+                    "words": 299
+                },
+                {
+                    "url": "r18100",
+                    "author": "Orion A. Black",
+                    "date": "11/05/2026",
+                    "words": 304
+                },
+                {
+                    "url": "r18238",
+                    "author": "Invitado",
+                    "date": "12/05/2026",
+                    "words": 264
+                },
+                {
+                    "url": "r19732",
+                    "author": "Orion A. Black",
+                    "date": "09/06/2026",
+                    "words": 233
+                },
+                {
+                    "url": "r19788",
+                    "author": "Invitado",
+                    "date": "10/06/2026",
+                    "words": 266
+                }
+            ],
+            "date": "27/03/1953",
+            "location": " Blackstone "
+        },
+        "1231": {
+            "space": "temas inactivos",
+            "url": "/t1231-1953-03-28-the-hour-of-dreams",
+            "simpleTitle": "the hour of dreams",
+            "creator": "",
+            "replyCount": 3,
+            "posts": [
+                {
+                    "url": "r18049",
+                    "author": "Invitado",
+                    "date": "10/05/2026",
+                    "words": 322
+                },
+                {
+                    "url": "r18488",
+                    "author": "Regulus O. Black",
+                    "date": "16/05/2026",
+                    "words": 246
+                },
+                {
+                    "url": "r18707",
+                    "author": "Invitado",
+                    "date": "20/05/2026",
+                    "words": 305
+                },
+                {
+                    "url": "r19735",
+                    "author": "Regulus O. Black",
+                    "date": "09/06/2026",
+                    "words": 335
+                }
+            ],
+            "date": "28/03/1953",
+            "location": "Museo - Sala vacía "
+        },
+        "1238": {
+            "space": "temas inactivos",
+            "url": "/t1238-1953-03-26-just-let-me-move",
+            "simpleTitle": "just let me move",
+            "creator": "Margareth T. Moody",
+            "replyCount": 7,
+            "posts": [
+                {
+                    "url": "r18194",
+                    "author": "Margareth T. Moody",
+                    "date": "12/05/2026",
+                    "words": 296
+                },
+                {
+                    "url": "r18195",
+                    "author": "The Familiars",
+                    "date": "12/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r18278",
+                    "author": "Invitado",
+                    "date": "13/05/2026",
+                    "words": 202
+                },
+                {
+                    "url": "r18847",
+                    "author": "Margareth T. Moody",
+                    "date": "23/05/2026",
+                    "words": 248
+                },
+                {
+                    "url": "r18958",
+                    "author": "Invitado",
+                    "date": "26/05/2026",
+                    "words": 257
+                },
+                {
+                    "url": "r19319",
+                    "author": "Margareth T. Moody",
+                    "date": "31/05/2026",
+                    "words": 266
+                },
+                {
+                    "url": "r19597",
+                    "author": "Invitado",
+                    "date": "04/06/2026",
+                    "words": 234
+                },
+                {
+                    "url": "r19877",
+                    "author": "Margareth T. Moody",
+                    "date": "13/06/2026",
+                    "words": 356
+                }
+            ],
+            "date": "26/03/1953",
+            "location": "Gringotts"
+        },
+        "1239": {
+            "space": "temas inactivos",
+            "url": "/t1239-1953-03-22-two-drinks-before-duty",
+            "simpleTitle": "two drinks before duty",
+            "creator": "",
+            "replyCount": 5,
+            "posts": [
+                {
+                    "url": "r18218",
+                    "author": "Invitado",
+                    "date": "12/05/2026",
+                    "words": 233
+                },
+                {
+                    "url": "r18870",
+                    "author": "H. Shun Parkinson",
+                    "date": "24/05/2026",
+                    "words": 275
+                },
+                {
+                    "url": "r19049",
+                    "author": "Invitado",
+                    "date": "27/05/2026",
+                    "words": 275
+                },
+                {
+                    "url": "r19281",
+                    "author": "H. Shun Parkinson",
+                    "date": "29/05/2026",
+                    "words": 391
+                },
+                {
+                    "url": "r19566",
+                    "author": "Invitado",
+                    "date": "03/06/2026",
+                    "words": 385
+                },
+                {
+                    "url": "r19858",
+                    "author": "H. Shun Parkinson",
+                    "date": "12/06/2026",
+                    "words": 321
+                }
+            ],
+            "date": "22/03/1953",
+            "location": "El caldero chorreante"
+        },
+        "1240": {
+            "space": "temas inactivos",
+            "url": "/t1240-1953-03-10-a-un-knut-de-distancia",
+            "simpleTitle": "a un knut de distancia",
+            "creator": "",
+            "replyCount": 1,
+            "posts": [
+                {
+                    "url": "r18221",
+                    "author": "Invitado",
+                    "date": "12/05/2026",
+                    "words": 298
+                },
+                {
+                    "url": "r18389",
+                    "author": "Invitado",
+                    "date": "15/05/2026",
+                    "words": 342
+                }
+            ],
+            "date": "10/03/1953",
+            "location": "Las Tres Escobas"
+        },
+        "1241": {
+            "space": "temas inactivos",
+            "url": "/t1241-1953-03-22-social-circle-social-circus",
+            "simpleTitle": "social circle, social circus.",
+            "creator": "Viridian L. Greengrass",
+            "replyCount": 2,
+            "posts": [
+                {
+                    "url": "r18229",
+                    "author": "Viridian L. Greengrass",
+                    "date": "12/05/2026",
+                    "words": 256
+                },
+                {
+                    "url": "r18250",
+                    "author": "Invitado",
+                    "date": "12/05/2026",
+                    "words": 251
+                },
+                {
+                    "url": "r18748",
+                    "author": "Viridian L. Greengrass",
+                    "date": "21/05/2026",
+                    "words": 238
+                }
+            ],
+            "date": "22/03/1953",
+            "location": "Mansión Selwyn"
+        },
+        "1243": {
+            "space": "temas inactivos",
+            "url": "/t1243-1953-03-02-dame-alas-que-quiero-volar",
+            "simpleTitle": "dame alas que quiero volar",
+            "creator": "Thyme T. Nott",
+            "replyCount": 10,
+            "posts": [
+                {
+                    "url": "r18241",
+                    "author": "Thyme T. Nott",
+                    "date": "12/05/2026",
+                    "words": 286
+                },
+                {
+                    "url": "r18288",
+                    "author": "Invitado",
+                    "date": "13/05/2026",
+                    "words": 296
+                },
+                {
+                    "url": "r18322",
+                    "author": "Thyme T. Nott",
+                    "date": "14/05/2026",
+                    "words": 333
+                },
+                {
+                    "url": "r18394",
+                    "author": "Invitado",
+                    "date": "15/05/2026",
+                    "words": 304
+                },
+                {
+                    "url": "r18523",
+                    "author": "Thyme T. Nott",
+                    "date": "17/05/2026",
+                    "words": 565
+                },
+                {
+                    "url": "r18751",
+                    "author": "Invitado",
+                    "date": "21/05/2026",
+                    "words": 436
+                },
+                {
+                    "url": "r18828",
+                    "author": "Thyme T. Nott",
+                    "date": "22/05/2026",
+                    "words": 520
+                },
+                {
+                    "url": "r19091",
+                    "author": "Invitado",
+                    "date": "27/05/2026",
+                    "words": 298
+                },
+                {
+                    "url": "r19170",
+                    "author": "Thyme T. Nott",
+                    "date": "28/05/2026",
+                    "words": 338
+                },
+                {
+                    "url": "r19530",
+                    "author": "Invitado",
+                    "date": "02/06/2026",
+                    "words": 373
+                },
+                {
+                    "url": "r19866",
+                    "author": "Thyme T. Nott",
+                    "date": "12/06/2026",
+                    "words": 469
+                }
+            ],
+            "date": "02/03/1953",
+            "location": "área administrativa y de documentación"
+        },
+        "1253": {
+            "space": "temas inactivos",
+            "url": "/t1253-1952-03-03-evil-eye",
+            "simpleTitle": "evil eye",
+            "creator": "Hermes Rosier",
+            "replyCount": 3,
+            "posts": [
+                {
+                    "url": "r18419",
+                    "author": "Hermes Rosier",
+                    "date": "15/05/2026",
+                    "words": 321
+                },
+                {
+                    "url": "r18736",
+                    "author": "Invitado",
+                    "date": "21/05/2026",
+                    "words": 243
+                },
+                {
+                    "url": "r19534",
+                    "author": "Hermes Rosier",
+                    "date": "02/06/2026",
+                    "words": 211
+                },
+                {
+                    "url": "r19535",
+                    "author": "The Familiars",
+                    "date": "02/06/2026",
+                    "words": 0
+                }
+            ],
+            "date": "03/03/1952",
+            "location": "Páramos de York"
+        },
+        "1273": {
+            "space": "temas inactivos",
+            "url": "/t1273-1953-03-21-sonrisas-problematicas",
+            "simpleTitle": "sonrisas problemáticas",
+            "creator": "",
+            "replyCount": 8,
+            "posts": [
+                {
+                    "url": "r19128",
+                    "author": "Invitado",
+                    "date": "27/05/2026",
+                    "words": 205
+                },
+                {
+                    "url": "r19133",
+                    "author": "Montgomery Thatch",
+                    "date": "27/05/2026",
+                    "words": 376
+                },
+                {
+                    "url": "r19134",
+                    "author": "The Familiars",
+                    "date": "27/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r19148",
+                    "author": "Invitado",
+                    "date": "28/05/2026",
+                    "words": 267
+                },
+                {
+                    "url": "r19152",
+                    "author": "Montgomery Thatch",
+                    "date": "28/05/2026",
+                    "words": 531
+                },
+                {
+                    "url": "r19153",
+                    "author": "The Familiars",
+                    "date": "28/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r19778",
+                    "author": "Invitado",
+                    "date": "10/06/2026",
+                    "words": 309
+                },
+                {
+                    "url": "r19834",
+                    "author": "Montgomery Thatch",
+                    "date": "11/06/2026",
+                    "words": 263
+                },
+                {
+                    "url": "r19835",
+                    "author": "The Familiars",
+                    "date": "11/06/2026",
+                    "words": 0
+                }
+            ],
+            "date": "21/03/1953",
+            "location": "Exterior del castillo"
+        },
+        "1288": {
+            "space": "temas inactivos",
+            "url": "/t1288-1953-04-01-the-specimen",
+            "simpleTitle": "the specimen",
+            "creator": "Uranus H. Merrythought",
+            "replyCount": 2,
+            "posts": [
+                {
+                    "url": "r19639",
+                    "author": "Uranus H. Merrythought",
+                    "date": "05/06/2026",
+                    "words": 177
+                },
+                {
+                    "url": "r19645",
+                    "author": "Invitado",
+                    "date": "05/06/2026",
+                    "words": 406
+                },
+                {
+                    "url": "r20044",
+                    "author": "Uranus H. Merrythought",
+                    "date": "18/06/2026",
+                    "words": 413
+                }
+            ],
+            "date": "01/04/1953",
+            "location": "Departamento de Misterios"
+        },
+        "1289": {
+            "space": "temas inactivos",
+            "url": "/t1289-1953-04-05-incidentes-diplomaticos",
+            "simpleTitle": "incidentes diplomaticos",
+            "creator": "Ksenia D. Demidova",
+            "replyCount": 4,
+            "posts": [
+                {
+                    "url": "r19640",
+                    "author": "Ksenia D. Demidova",
+                    "date": "05/06/2026",
+                    "words": 181
+                },
+                {
+                    "url": "r19642",
+                    "author": "Invitado",
+                    "date": "05/06/2026",
+                    "words": 285
+                },
+                {
+                    "url": "r19688",
+                    "author": "Ksenia D. Demidova",
+                    "date": "07/06/2026",
+                    "words": 243
+                },
+                {
+                    "url": "r19884",
+                    "author": "Invitado",
+                    "date": "13/06/2026",
+                    "words": 435
+                },
+                {
+                    "url": "r20217",
+                    "author": "Ksenia D. Demidova",
+                    "date": "25/06/2026",
+                    "words": 344
+                }
+            ],
+            "date": "05/04/1953",
+            "location": "Atrio del Ministerio"
+        },
+        "1297": {
+            "space": "temas inactivos",
+            "url": "/t1297-1953-04-03-shooting-star",
+            "simpleTitle": "shooting star",
+            "creator": "Owen Fitzgerald",
+            "replyCount": 1,
+            "posts": [
+                {
+                    "url": "r19886",
+                    "author": "Owen Fitzgerald",
+                    "date": "13/06/2026",
+                    "words": 178
+                },
+                {
+                    "url": "r19921",
+                    "author": "Invitado",
+                    "date": "15/06/2026",
+                    "words": 237
+                }
+            ],
+            "date": "03/04/1953",
+            "location": "Residencia Fitzgerald, Oughtibridge"
+        },
+        "1300": {
+            "space": "temas inactivos",
+            "url": "/t1300-practica-melancholy-gdy",
+            "simpleTitle": "melancholy  » gdy",
+            "creator": "",
+            "replyCount": 0,
+            "posts": [
+                {
+                    "url": "r19937",
+                    "author": "Invitado",
+                    "date": "15/06/2026",
+                    "words": 239
+                }
+            ],
+            "date": "13/04/1953",
+            "location": "Campo de Quidditch"
+        },
+        "1307": {
+            "space": "temas inactivos",
+            "url": "/t1307-libre-eleutheromania",
+            "simpleTitle": "eleutheromania",
+            "creator": "",
+            "replyCount": 0,
+            "posts": [
+                {
+                    "url": "r19948",
+                    "author": "Invitado",
+                    "date": "16/06/2026",
+                    "words": 223
+                }
+            ],
+            "date": "17/04/1953",
+            "location": "Exteriores del castillo"
+        },
+        "1315": {
+            "space": "temas inactivos",
+            "url": "/t1315-c-lytvyn-changeling",
+            "simpleTitle": "changeling",
+            "creator": "Ruairidh Ó Mhaille",
+            "replyCount": 4,
+            "posts": [
+                {
+                    "url": "r20243",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "26/06/2026",
+                    "words": 419
+                },
+                {
+                    "url": "r20247",
+                    "author": "Invitado",
+                    "date": "26/06/2026",
+                    "words": 231
+                },
+                {
+                    "url": "r20248",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "26/06/2026",
+                    "words": 280
+                },
+                {
+                    "url": "r20251",
+                    "author": "Invitado",
+                    "date": "27/06/2026",
+                    "words": 413
+                },
+                {
+                    "url": "r20274",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "27/06/2026",
+                    "words": 330
+                }
+            ],
+            "date": "14/04/1953",
+            "location": "Aula de Transformaciones"
+        },
+        "1335": {
+            "space": "temas inactivos",
+            "url": "/t1335-aj-beaufort-in-numero-veritas",
+            "simpleTitle": "in numero veritas",
+            "creator": "Findlay McCrory",
+            "replyCount": 1,
+            "posts": [
+                {
+                    "url": "r20844",
+                    "author": "Findlay McCrory",
+                    "date": "17/07/2026",
+                    "words": 215
+                },
+                {
+                    "url": "r20845",
+                    "author": "The Familiars",
+                    "date": "17/07/2026",
+                    "words": 0
+                }
+            ],
+            "date": "27/04/1953",
+            "location": "Biblioteca de Hogwarts"
+        },
+        "1351": {
+            "space": "temas inactivos",
+            "url": "/t1351-kind-regards-a-j-b",
+            "simpleTitle": "kind regards — a.j.b.",
+            "creator": "Asteria C. Lestrange",
+            "replyCount": 0,
+            "posts": [
+                {
+                    "url": "r20962",
+                    "author": "Asteria C. Lestrange",
+                    "date": "22/07/2026",
+                    "words": 327
+                }
+            ],
+            "date": "21/04/1953",
+            "location": "Despacho de Aritmancia"
+        },
+        "1355": {
+            "space": "temas inactivos",
+            "url": "/t1355-d-diggory-it-s-all-coming-back-to-me-now",
+            "simpleTitle": "it's all coming back to me now",
+            "creator": "",
+            "replyCount": 0,
+            "posts": [
+                {
+                    "url": "r21071",
+                    "author": "Invitado",
+                    "date": "29/07/2026",
+                    "words": 873
+                }
+            ],
+            "date": "06/04/1953",
+            "location": "Pasillos de Hogwarts"
+        },
+        "1356": {
+            "space": "temas inactivos",
+            "url": "/t1356-fb-i-ve-run-for-many-miles-dorothea",
+            "simpleTitle": "fb | i've run for many miles | dorothea",
+            "creator": "Hankford B. Diggory",
+            "replyCount": 0,
+            "posts": [
+                {
+                    "url": "r21115",
+                    "author": "Hankford B. Diggory",
+                    "date": "30/07/2026",
+                    "words": 304
+                }
+            ],
+            "date": "29/08/1952",
+            "location": "Estación de Hogsmeade"
+        },
+        "1386": {
+            "space": "temas inactivos",
+            "url": "/t1386-fb-priv-i-knew-you",
+            "simpleTitle": "fb-priv | i knew you",
+            "creator": "Hankford B. Diggory",
+            "replyCount": 0,
+            "posts": [
+                {
+                    "url": "r21696",
+                    "author": "Hankford B. Diggory",
+                    "date": "11/08/2026",
+                    "words": 254
+                }
+            ],
+            "date": "03/09/1933",
+            "location": "Hogwarts"
+        },
+        "1411": {
+            "space": "temas inactivos",
+            "url": "/t1411-1953-05-11-fine-place-to-die",
+            "simpleTitle": "fine place to die",
+            "creator": "Regulus O. Black",
+            "replyCount": 0,
+            "posts": [
+                {
+                    "url": "r22034",
+                    "author": "Regulus O. Black",
+                    "date": "21/08/2026",
+                    "words": 210
+                }
+            ],
+            "date": "11/05/1953",
+            "location": "Reserva Natural de Flint"
         }
     };
     const hardcodedDicesTopics = [
@@ -158768,12 +166396,22 @@ const DBModule = (function () {
             // El chequeo de "¿cambió la cantidad de respuestas?" solo aplica a los temas
             // que siguen vivos en dynamicData.
             const hardcodedTopic = typeof hardcodedTopics !== 'undefined' && hardcodedTopics[topicKey];
+            const hardcodedInactive = typeof hardcodedInactiveTopics !== 'undefined' && hardcodedInactiveTopics[topicKey];
             const dynamicTopic = dynamicData.topics[topicKey];
 
             // Cantidad de respuestas que el listado del foro muestra AHORA para este tema
             const replyText = $(element).find('.topic-replies').text();
             const replyMatch = replyText.match(/(\d+)/);
             const liveReplyCount = replyMatch ? parseInt(replyMatch[1], 10) : null;
+
+            // Los inactivos congelados solo se saltean mientras sigan quietos en su foro:
+            // si los mueven o alguien responde, se releen a dynamicData (que gana en getUnifiedData).
+            const inactiveFrozen = hardcodedInactive && forumName === 'temas inactivos'
+                && (liveReplyCount === null || liveReplyCount === hardcodedInactive.replyCount);
+
+            if (hardcodedInactive && !inactiveFrozen) {
+                console.warn(`[DBModule] "${hardcodedInactive.simpleTitle}" (t${topicKey}) se reactivó o se movió → ahora en ${forumName}. Sacarlo de hardcodedInactiveTopics.`);
+            }
 
             // Un tema dinámico puede moverse de foro (ej. al cerrarse, hacia "el pensadero")
             // sin que se le agregue ningún post nuevo: el replyCount no lo detecta solo,
@@ -158783,7 +166421,7 @@ const DBModule = (function () {
             let isSaved;
             if (forceRescan) {
                 isSaved = false;
-            } else if (hardcodedTopic) {
+            } else if (hardcodedTopic || inactiveFrozen) {
                 isSaved = true;
             } else if (dynamicTopic) {
                 // Temas guardados antes de este cambio no tienen replyCount todavía: los tratamos
@@ -158987,7 +166625,7 @@ const DBModule = (function () {
             const segundos = fecha.getSeconds().toString().padStart(2, '0');
 
             $updateBox.append(`<date>${dia}/${mes}/${anio} ${horas}:${minutos}:${segundos}</date>`);
-            $updateBox.append('<zones>Zonas Actualizadas: ' + (last.zones) + ' / 18</zones>');
+            $updateBox.append('<zones>Zonas Actualizadas: ' + (last.zones) + ' / ' + forums.length + '</zones>');
             $widget.find('.update-soft').attr('title', 'Actualizar temas');
             $widget.find('.update-hard').attr('title', 'Limpiar y actualizar temas');
 
@@ -159178,7 +166816,8 @@ const DBModule = (function () {
             });
 
             // --- FILTRO ANTI-DUPLICADOS DE TEMAS ---
-            const mergedTopicsRaw = { ...hardcodedTopics, ...currentTopics };
+            // Inactivos primero: si un tema congelado termina cerrado y hardcodeado en el pensadero, gana el pensadero
+            const mergedTopicsRaw = { ...hardcodedInactiveTopics, ...hardcodedTopics, ...currentTopics };
             const cleanTopics = {};
 
             for (let key in mergedTopicsRaw) {
@@ -159246,6 +166885,26 @@ const DBModule = (function () {
             const pensadero = filterBySpace("el pensadero");
             console.log("%c === COPIA EN hardcodedTopics ===", "color: lime", JSON.stringify(pensadero.topics, null, 2));
             console.log("%c === COPIA EN hardcodedDices ===", "color: cyan", JSON.stringify(pensadero.dices, null, 2));
+
+            // Inactivos congelables: +90 días desde el último post, o a lo sumo 1 autor fuera de globalNoAdd.
+            // Reemplaza hardcodedInactiveTopics entero: los que se movieron ya no salen acá, así que desaparecen solos.
+            // Sus dados no se hardcodean: nadie cuenta dados fuera del pensadero.
+            const noAdd = typeof globalNoAdd !== 'undefined' ? globalNoAdd : [];
+            const diasDesde = (fecha) => {
+                const [d, m, y] = (fecha || '').split('/').map(Number);
+                return (d && m && y) ? (Date.now() - new Date(y, m - 1, d)) / 864e5 : 0;
+            };
+            const inactivos = filterBySpace("temas inactivos").topics;
+            const congelables = {};
+            for (const [key, t] of Object.entries(inactivos)) {
+                if (t.replyCount == null) {
+                    console.warn(`[DBModule] "${t.simpleTitle}" (t${key}) no tiene replyCount: no se congela hasta re-escanearlo.`);
+                    continue;
+                }
+                const autores = new Set(t.posts.map(p => p.author).filter(a => !noAdd.includes(a)));
+                if (diasDesde(t.posts[t.posts.length - 1]?.date) > 90 || autores.size <= 1) congelables[key] = t;
+            }
+            console.log(`%c === COPIA EN hardcodedInactiveTopics (${Object.keys(congelables).length} de ${Object.keys(inactivos).length}) ===`, "color: orange", JSON.stringify(congelables, null, 4));
         },
 
         scanCleanForum: async function (forumPath, forumName) {
