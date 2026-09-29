@@ -64954,7 +64954,7 @@ const DBModule = (function () {
                     "words": 210
                 }
             ],
-            "date": "21/03/1954",
+            "date": "21/03/1953",
             "location": "Death Fearann"
         },
         "1154": {
