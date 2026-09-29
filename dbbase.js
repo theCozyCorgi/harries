@@ -64156,6 +64156,119 @@ const DBModule = (function () {
             "date": "19/03/1953",
             "location": "Torre del Reloj"
         },
+        "1141": {
+            "space": "el pensadero",
+            "url": "/t1141-organized-chaos-j-m-s-n-g",
+            "simpleTitle": "organized chaos — j.m. & s.n.g.",
+            "creator": "Gavril A. Ollivander",
+            "replyCount": 16,
+            "posts": [
+                {
+                    "url": "r16116",
+                    "author": "Gavril A. Ollivander",
+                    "date": "05/04/2026",
+                    "words": 279
+                },
+                {
+                    "url": "r16133",
+                    "author": "Jupiter Merrythought",
+                    "date": "05/04/2026",
+                    "words": 203
+                },
+                {
+                    "url": "r16306",
+                    "author": "Sloane N. Greengrass",
+                    "date": "09/04/2026",
+                    "words": 257
+                },
+                {
+                    "url": "r17158",
+                    "author": "Gavril A. Ollivander",
+                    "date": "30/04/2026",
+                    "words": 309
+                },
+                {
+                    "url": "r17318",
+                    "author": "Jupiter Merrythought",
+                    "date": "01/05/2026",
+                    "words": 257
+                },
+                {
+                    "url": "r17474",
+                    "author": "Sloane N. Greengrass",
+                    "date": "03/05/2026",
+                    "words": 248
+                },
+                {
+                    "url": "r19045",
+                    "author": "Gavril A. Ollivander",
+                    "date": "27/05/2026",
+                    "words": 339
+                },
+                {
+                    "url": "r19127",
+                    "author": "Jupiter Merrythought",
+                    "date": "27/05/2026",
+                    "words": 305
+                },
+                {
+                    "url": "r19912",
+                    "author": "Sloane N. Greengrass",
+                    "date": "14/06/2026",
+                    "words": 237
+                },
+                {
+                    "url": "r20537",
+                    "author": "Gavril A. Ollivander",
+                    "date": "05/07/2026",
+                    "words": 386
+                },
+                {
+                    "url": "r20746",
+                    "author": "Jupiter Merrythought",
+                    "date": "14/07/2026",
+                    "words": 312
+                },
+                {
+                    "url": "r20997",
+                    "author": "Sloane N. Greengrass",
+                    "date": "25/07/2026",
+                    "words": 360
+                },
+                {
+                    "url": "r21879",
+                    "author": "Gavril A. Ollivander",
+                    "date": "16/08/2026",
+                    "words": 377
+                },
+                {
+                    "url": "r22217",
+                    "author": "Jupiter Merrythought",
+                    "date": "25/08/2026",
+                    "words": 305
+                },
+                {
+                    "url": "r22309",
+                    "author": "Sloane N. Greengrass",
+                    "date": "29/08/2026",
+                    "words": 338
+                },
+                {
+                    "url": "r23064",
+                    "author": "Gavril A. Ollivander",
+                    "date": "18/09/2026",
+                    "words": 338
+                },
+                {
+                    "url": "r23436",
+                    "author": "Jupiter Merrythought",
+                    "date": "Hoy a las 11:43",
+                    "words": 307
+                }
+            ],
+            "date": "05/03/1953",
+            "location": "sala de lectura — Hollowshade castle"
+        },
         "1142": {
             "space": "el pensadero",
             "url": "/t1142-1953-03-08-practica-doing-fine",
@@ -64712,6 +64825,137 @@ const DBModule = (function () {
             ],
             "date": "11/03/1953",
             "location": "Campo de Quidditch"
+        },
+        "1152": {
+            "space": "el pensadero",
+            "url": "/t1152-grupal-country-bumpkin",
+            "simpleTitle": "country bumpkin",
+            "creator": "Findlay McCrory",
+            "replyCount": 19,
+            "posts": [
+                {
+                    "url": "r16385",
+                    "author": "Findlay McCrory",
+                    "date": "12/04/2026",
+                    "words": 245
+                },
+                {
+                    "url": "r16430",
+                    "author": "Alastor Moody",
+                    "date": "13/04/2026",
+                    "words": 250
+                },
+                {
+                    "url": "r16870",
+                    "author": "H. Shun Parkinson",
+                    "date": "23/04/2026",
+                    "words": 258
+                },
+                {
+                    "url": "r17124",
+                    "author": "Findlay McCrory",
+                    "date": "29/04/2026",
+                    "words": 537
+                },
+                {
+                    "url": "r17291",
+                    "author": "Alastor Moody",
+                    "date": "01/05/2026",
+                    "words": 360
+                },
+                {
+                    "url": "r17877",
+                    "author": "H. Shun Parkinson",
+                    "date": "08/05/2026",
+                    "words": 282
+                },
+                {
+                    "url": "r18052",
+                    "author": "Findlay McCrory",
+                    "date": "10/05/2026",
+                    "words": 438
+                },
+                {
+                    "url": "r18080",
+                    "author": "Alastor Moody",
+                    "date": "10/05/2026",
+                    "words": 329
+                },
+                {
+                    "url": "r18867",
+                    "author": "H. Shun Parkinson",
+                    "date": "24/05/2026",
+                    "words": 361
+                },
+                {
+                    "url": "r19157",
+                    "author": "Findlay McCrory",
+                    "date": "28/05/2026",
+                    "words": 566
+                },
+                {
+                    "url": "r19246",
+                    "author": "Alastor Moody",
+                    "date": "29/05/2026",
+                    "words": 465
+                },
+                {
+                    "url": "r19675",
+                    "author": "H. Shun Parkinson",
+                    "date": "07/06/2026",
+                    "words": 297
+                },
+                {
+                    "url": "r20421",
+                    "author": "Findlay McCrory",
+                    "date": "01/07/2026",
+                    "words": 355
+                },
+                {
+                    "url": "r20816",
+                    "author": "Alastor Moody",
+                    "date": "16/07/2026",
+                    "words": 277
+                },
+                {
+                    "url": "r20817",
+                    "author": "The Familiars",
+                    "date": "16/07/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21717",
+                    "author": "H. Shun Parkinson",
+                    "date": "12/08/2026",
+                    "words": 326
+                },
+                {
+                    "url": "r22426",
+                    "author": "Findlay McCrory",
+                    "date": "02/09/2026",
+                    "words": 441
+                },
+                {
+                    "url": "r22659",
+                    "author": "Alastor Moody",
+                    "date": "07/09/2026",
+                    "words": 303
+                },
+                {
+                    "url": "r22781",
+                    "author": "H. Shun Parkinson",
+                    "date": "12/09/2026",
+                    "words": 251
+                },
+                {
+                    "url": "r22927",
+                    "author": "Findlay McCrory",
+                    "date": "14/09/2026",
+                    "words": 210
+                }
+            ],
+            "date": "21/03/1954",
+            "location": "Death Fearann"
         },
         "1154": {
             "space": "el pensadero",
@@ -72393,6 +72637,197 @@ const DBModule = (function () {
             ],
             "date": "03/04/1953",
             "location": "Callejón Diagon"
+        },
+        "1293": {
+            "space": "el pensadero",
+            "url": "/t1293-practica-camino-a-los-interescolares-grupal",
+            "simpleTitle": "práctica | camino a los interescolares | grupal",
+            "creator": "Minerva E. McGonagall",
+            "replyCount": 28,
+            "posts": [
+                {
+                    "url": "r19785",
+                    "author": "Minerva E. McGonagall",
+                    "date": "Miér Jun 10, 2026 1:33 am",
+                    "words": 324
+                },
+                {
+                    "url": "r19826",
+                    "author": "Findlay McCrory",
+                    "date": "Jue Jun 11, 2026 2:36 pm",
+                    "words": 278
+                },
+                {
+                    "url": "r19827",
+                    "author": "The Familiars",
+                    "date": "Jue Jun 11, 2026 2:36 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r20140",
+                    "author": "Neptune E. Merrythought",
+                    "date": "Lun Jun 22, 2026 10:02 pm",
+                    "words": 273
+                },
+                {
+                    "url": "r20141",
+                    "author": "The Familiars",
+                    "date": "Lun Jun 22, 2026 10:02 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r20146",
+                    "author": "Minerva E. McGonagall",
+                    "date": "Lun Jun 22, 2026 11:13 pm",
+                    "words": 203
+                },
+                {
+                    "url": "r20147",
+                    "author": "The Familiars",
+                    "date": "Lun Jun 22, 2026 11:13 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r20188",
+                    "author": "Asteria C. Lestrange",
+                    "date": "Miér Jun 24, 2026 12:08 am",
+                    "words": 295
+                },
+                {
+                    "url": "r20189",
+                    "author": "The Familiars",
+                    "date": "Miér Jun 24, 2026 12:08 am",
+                    "words": 0
+                },
+                {
+                    "url": "r20190",
+                    "author": "Thaddeus L. Nott",
+                    "date": "Miér Jun 24, 2026 12:21 am",
+                    "words": 314
+                },
+                {
+                    "url": "r20191",
+                    "author": "The Familiars",
+                    "date": "Miér Jun 24, 2026 12:21 am",
+                    "words": 0
+                },
+                {
+                    "url": "r20194",
+                    "author": "Findlay McCrory",
+                    "date": "Miér Jun 24, 2026 5:22 pm",
+                    "words": 222
+                },
+                {
+                    "url": "r20195",
+                    "author": "The Familiars",
+                    "date": "Miér Jun 24, 2026 5:22 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r20199",
+                    "author": "Neptune E. Merrythought",
+                    "date": "Miér Jun 24, 2026 11:23 pm",
+                    "words": 202
+                },
+                {
+                    "url": "r20200",
+                    "author": "The Familiars",
+                    "date": "Miér Jun 24, 2026 11:23 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r20432",
+                    "author": "Minerva E. McGonagall",
+                    "date": "Miér Jul 01, 2026 10:09 pm",
+                    "words": 257
+                },
+                {
+                    "url": "r20433",
+                    "author": "The Familiars",
+                    "date": "Miér Jul 01, 2026 10:09 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r20620",
+                    "author": "Asteria C. Lestrange",
+                    "date": "Jue Jul 09, 2026 11:57 pm",
+                    "words": 223
+                },
+                {
+                    "url": "r20621",
+                    "author": "The Familiars",
+                    "date": "Jue Jul 09, 2026 11:57 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r21217",
+                    "author": "Findlay McCrory",
+                    "date": "Sáb Ago 01, 2026 5:46 am",
+                    "words": 238
+                },
+                {
+                    "url": "r19785",
+                    "author": "Minerva E. McGonagall",
+                    "date": "Miér Jun 10, 2026 1:33 am",
+                    "words": 324
+                },
+                {
+                    "url": "r21218",
+                    "author": "The Familiars",
+                    "date": "Sáb Ago 01, 2026 5:46 am",
+                    "words": 0
+                },
+                {
+                    "url": "r21296",
+                    "author": "Neptune E. Merrythought",
+                    "date": "Sáb Ago 01, 2026 11:30 pm",
+                    "words": 232
+                },
+                {
+                    "url": "r21297",
+                    "author": "The Familiars",
+                    "date": "Sáb Ago 01, 2026 11:30 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r21298",
+                    "author": "Minerva E. McGonagall",
+                    "date": "Sáb Ago 01, 2026 11:40 pm",
+                    "words": 271
+                },
+                {
+                    "url": "r21299",
+                    "author": "The Familiars",
+                    "date": "Sáb Ago 01, 2026 11:40 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r22130",
+                    "author": "Asteria C. Lestrange",
+                    "date": "Dom Ago 23, 2026 5:47 pm",
+                    "words": 191
+                },
+                {
+                    "url": "r22144",
+                    "author": "Thaddeus L. Nott",
+                    "date": "Dom Ago 23, 2026 10:16 pm",
+                    "words": 160
+                },
+                {
+                    "url": "r23088",
+                    "author": "Findlay McCrory",
+                    "date": "Vie Sep 18, 2026 4:13 pm",
+                    "words": 180
+                },
+                {
+                    "url": "r23417",
+                    "author": "Minerva E. McGonagall",
+                    "date": "Hoy a las 11:39 pm",
+                    "words": 145
+                }
+            ],
+            "date": "20/04/1953",
+            "location": "Campo de Quidditch"
         },
         "1301": {
             "space": "el pensadero",
