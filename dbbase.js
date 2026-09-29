@@ -33915,7 +33915,7 @@ const DBModule = (function () {
         },
         "716": {
             "space": "el pensadero",
-            "url": "/t716-1953-12-17-kingdom-in-blue",
+            "url": "/t716-1952-12-17-kingdom-in-blue",
             "simpleTitle": "kingdom in blue",
             "creator": "Regulus O. Black",
             "posts": [
@@ -34004,7 +34004,7 @@ const DBModule = (function () {
                     "words": 271
                 }
             ],
-            "date": "17/12/1953",
+            "date": "17/12/1952",
             "location": "Departamento de Misterios"
         },
         "717": {
@@ -36811,7 +36811,7 @@ const DBModule = (function () {
         },
         "762": {
             "space": "el pensadero",
-            "url": "/t762-1953-12-16-friends",
+            "url": "/t762-1952-12-16-friends",
             "simpleTitle": "fri(end)s",
             "creator": "Vasilisa M. Kuznetzova",
             "posts": [
@@ -36894,7 +36894,7 @@ const DBModule = (function () {
                     "words": 297
                 }
             ],
-            "date": "16/12/1953",
+            "date": "16/12/1952",
             "location": "Depto. de Mercury"
         },
         "763": {
@@ -39733,7 +39733,7 @@ const DBModule = (function () {
         },
         "782": {
             "space": "el pensadero",
-            "url": "/t782-1953-12-18-algarrobas-para-el-cerdo",
+            "url": "/t782-1952-12-18-algarrobas-para-el-cerdo",
             "simpleTitle": "algarrobas para el cerdo",
             "creator": "Montgomery Thatch",
             "posts": [
@@ -39882,7 +39882,7 @@ const DBModule = (function () {
                     "words": 295
                 }
             ],
-            "date": "18/12/1953",
+            "date": "18/12/1952",
             "location": "Las Tres Escobas"
         },
         "785": {
@@ -46561,7 +46561,7 @@ const DBModule = (function () {
         },
         "856": {
             "space": "el pensadero",
-            "url": "/t856-1953-11-01-cloudy-with-a-chance-of-exasperation",
+            "url": "/t856-1952-11-01-cloudy-with-a-chance-of-exasperation",
             "simpleTitle": "cloudy with a chance of exasperation",
             "creator": "Jasper R. Gryffith",
             "posts": [
@@ -46632,7 +46632,7 @@ const DBModule = (function () {
                     "words": 217
                 }
             ],
-            "date": "01/11/1953",
+            "date": "01/11/1952",
             "location": "Ministerio de Magia"
         },
         "858": {
