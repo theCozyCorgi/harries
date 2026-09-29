@@ -381,12 +381,6 @@ const DBModule = (function () {
                     "words": 0
                 },
                 {
-                    "url": "r246",
-                    "author": "Cora M. Vance",
-                    "date": "03/05/2025",
-                    "words": 374
-                },
-                {
                     "url": "r799",
                     "author": "Cora M. Vance",
                     "date": "10/05/2025",
@@ -581,12 +575,6 @@ const DBModule = (function () {
                     "author": "Invitado",
                     "date": "06/06/2025",
                     "words": 280
-                },
-                {
-                    "url": "r259",
-                    "author": "Invitado",
-                    "date": "03/05/2025",
-                    "words": 373
                 },
                 {
                     "url": "r2994",
@@ -935,12 +923,6 @@ const DBModule = (function () {
                     "author": "The Familiars",
                     "date": "04/06/2025",
                     "words": 0
-                },
-                {
-                    "url": "r317",
-                    "author": "Minerva E. McGonagall",
-                    "date": "03/05/2025",
-                    "words": 270
                 },
                 {
                     "url": "r3049",
@@ -2313,12 +2295,6 @@ const DBModule = (function () {
                     "words": 111
                 },
                 {
-                    "url": "r530",
-                    "author": "Ditanny",
-                    "date": "06/05/2025",
-                    "words": 147
-                },
-                {
                     "url": "r1743",
                     "author": "The Familiars",
                     "date": "20/05/2025",
@@ -3187,12 +3163,6 @@ const DBModule = (function () {
                     "words": 367
                 },
                 {
-                    "url": "r891",
-                    "author": "Invitado",
-                    "date": "11/05/2025",
-                    "words": 399
-                },
-                {
                     "url": "r1211",
                     "author": "Invitado",
                     "date": "14/05/2025",
@@ -3313,12 +3283,6 @@ const DBModule = (function () {
                     "words": 568
                 },
                 {
-                    "url": "r891",
-                    "author": "Invitado",
-                    "date": "11/05/2025",
-                    "words": 399
-                },
-                {
                     "url": "r1504",
                     "author": "Invitado",
                     "date": "17/05/2025",
@@ -3437,12 +3401,6 @@ const DBModule = (function () {
                     "author": "Invitado",
                     "date": "22/05/2025",
                     "words": 283
-                },
-                {
-                    "url": "r891",
-                    "author": "Invitado",
-                    "date": "11/05/2025",
-                    "words": 399
                 },
                 {
                     "url": "r1945",
@@ -3711,12 +3669,6 @@ const DBModule = (function () {
                     "words": 378
                 },
                 {
-                    "url": "r968",
-                    "author": "Invitado",
-                    "date": "12/05/2025",
-                    "words": 413
-                },
-                {
                     "url": "r1644",
                     "author": "The Familiars",
                     "date": "18/05/2025",
@@ -3893,12 +3845,6 @@ const DBModule = (function () {
                     "author": "Invitado",
                     "date": "01/06/2025",
                     "words": 423
-                },
-                {
-                    "url": "r1158",
-                    "author": "Sloane N. Greengrass",
-                    "date": "14/05/2025",
-                    "words": 253
                 },
                 {
                     "url": "r2710",
@@ -4717,12 +4663,6 @@ const DBModule = (function () {
                     "words": 327
                 },
                 {
-                    "url": "r2129",
-                    "author": "Black Wave",
-                    "date": "24/05/2025",
-                    "words": 289
-                },
-                {
                     "url": "r3358",
                     "author": "Wolfsbane",
                     "date": "22/06/2025",
@@ -4857,12 +4797,6 @@ const DBModule = (function () {
                     "author": "Black Wave",
                     "date": "14/06/2025",
                     "words": 248
-                },
-                {
-                    "url": "r2130",
-                    "author": "Black Wave",
-                    "date": "24/05/2025",
-                    "words": 264
                 },
                 {
                     "url": "r3281",
@@ -5011,12 +4945,6 @@ const DBModule = (function () {
                     "author": "The Familiars",
                     "date": "06/06/2025",
                     "words": 0
-                },
-                {
-                    "url": "r2193",
-                    "author": "Black Wave",
-                    "date": "25/05/2025",
-                    "words": 435
                 },
                 {
                     "url": "r3115",
@@ -5263,12 +5191,6 @@ const DBModule = (function () {
                     "words": 0
                 },
                 {
-                    "url": "r2195",
-                    "author": "Black Wave",
-                    "date": "25/05/2025",
-                    "words": 463
-                },
-                {
                     "url": "r3178",
                     "author": "Regulus O. Black",
                     "date": "13/06/2025",
@@ -5387,12 +5309,6 @@ const DBModule = (function () {
                     "author": "The Familiars",
                     "date": "08/07/2025",
                     "words": 0
-                },
-                {
-                    "url": "r2195",
-                    "author": "Black Wave",
-                    "date": "25/05/2025",
-                    "words": 463
                 },
                 {
                     "url": "r3779",
@@ -5639,12 +5555,6 @@ const DBModule = (function () {
                     "words": 0
                 },
                 {
-                    "url": "r2196",
-                    "author": "Black Wave",
-                    "date": "25/05/2025",
-                    "words": 435
-                },
-                {
                     "url": "r2615",
                     "author": "Invitado",
                     "date": "30/05/2025",
@@ -5763,12 +5673,6 @@ const DBModule = (function () {
                     "author": "Cuthbert S. Selwyn",
                     "date": "08/07/2025",
                     "words": 224
-                },
-                {
-                    "url": "r2196",
-                    "author": "Black Wave",
-                    "date": "25/05/2025",
-                    "words": 435
                 },
                 {
                     "url": "r3758",
@@ -6095,12 +5999,6 @@ const DBModule = (function () {
                     "words": 0
                 },
                 {
-                    "url": "r2335",
-                    "author": "Black Wave",
-                    "date": "27/05/2025",
-                    "words": 393
-                },
-                {
                     "url": "r3323",
                     "author": "Invitado",
                     "date": "18/06/2025",
@@ -6345,12 +6243,6 @@ const DBModule = (function () {
                     "words": 0
                 },
                 {
-                    "url": "r2380",
-                    "author": "Belladonna",
-                    "date": "27/05/2025",
-                    "words": 147
-                },
-                {
                     "url": "r2595",
                     "author": "Minerva E. McGonagall",
                     "date": "30/05/2025",
@@ -6471,12 +6363,6 @@ const DBModule = (function () {
                     "words": 0
                 },
                 {
-                    "url": "r2380",
-                    "author": "Belladonna",
-                    "date": "27/05/2025",
-                    "words": 147
-                },
-                {
                     "url": "r2854",
                     "author": "Minerva E. McGonagall",
                     "date": "04/06/2025",
@@ -6595,12 +6481,6 @@ const DBModule = (function () {
                     "author": "The Familiars",
                     "date": "09/06/2025",
                     "words": 0
-                },
-                {
-                    "url": "r2380",
-                    "author": "Belladonna",
-                    "date": "27/05/2025",
-                    "words": 147
                 },
                 {
                     "url": "r3062",
@@ -6949,12 +6829,6 @@ const DBModule = (function () {
                     "author": "The Familiars",
                     "date": "27/08/2025",
                     "words": 0
-                },
-                {
-                    "url": "r2504",
-                    "author": "Kaoru Satoo",
-                    "date": "29/05/2025",
-                    "words": 210
                 },
                 {
                     "url": "r5806",
@@ -7971,12 +7845,6 @@ const DBModule = (function () {
                     "words": 0
                 },
                 {
-                    "url": "r2837",
-                    "author": "Ditanny",
-                    "date": "03/06/2025",
-                    "words": 155
-                },
-                {
                     "url": "r3476",
                     "author": "Findlay McCrory",
                     "date": "26/06/2025",
@@ -8595,12 +8463,6 @@ const DBModule = (function () {
                     "words": 0
                 },
                 {
-                    "url": "r3135",
-                    "author": "Alastor Moody",
-                    "date": "10/06/2025",
-                    "words": 239
-                },
-                {
                     "url": "r5084",
                     "author": "Cora M. Vance",
                     "date": "14/08/2025",
@@ -9009,12 +8871,6 @@ const DBModule = (function () {
                     "words": 0
                 },
                 {
-                    "url": "r3148",
-                    "author": "Theolonius D. Covey",
-                    "date": "11/06/2025",
-                    "words": 161
-                },
-                {
                     "url": "r5250",
                     "author": "Theolonius D. Covey",
                     "date": "18/08/2025",
@@ -9351,12 +9207,6 @@ const DBModule = (function () {
                     "author": "Alastor Moody",
                     "date": "18/07/2025",
                     "words": 565
-                },
-                {
-                    "url": "r3186",
-                    "author": "Minerva E. McGonagall",
-                    "date": "13/06/2025",
-                    "words": 236
                 },
                 {
                     "url": "r4137",
@@ -9865,12 +9715,6 @@ const DBModule = (function () {
                     "words": 353
                 },
                 {
-                    "url": "r3377",
-                    "author": "Minerva E. McGonagall",
-                    "date": "23/06/2025",
-                    "words": 204
-                },
-                {
                     "url": "r6621",
                     "author": "The Familiars",
                     "date": "18/09/2025",
@@ -10201,12 +10045,6 @@ const DBModule = (function () {
                     "words": 318
                 },
                 {
-                    "url": "r3450",
-                    "author": "Raven Walters",
-                    "date": "25/06/2025",
-                    "words": 247
-                },
-                {
                     "url": "r8490",
                     "author": "Findlay McCrory",
                     "date": "02/11/2025",
@@ -10353,12 +10191,6 @@ const DBModule = (function () {
                     "author": "The Familiars",
                     "date": "25/07/2025",
                     "words": 0
-                },
-                {
-                    "url": "r3568",
-                    "author": "Black Wave",
-                    "date": "01/07/2025",
-                    "words": 113
                 },
                 {
                     "url": "r4395",
@@ -10675,12 +10507,6 @@ const DBModule = (function () {
                     "words": 0
                 },
                 {
-                    "url": "r3572",
-                    "author": "Black Wave",
-                    "date": "01/07/2025",
-                    "words": 113
-                },
-                {
                     "url": "r5175",
                     "author": "Orion A. Black",
                     "date": "17/08/2025",
@@ -10989,12 +10815,6 @@ const DBModule = (function () {
                     "words": 0
                 },
                 {
-                    "url": "r3576",
-                    "author": "Black Wave",
-                    "date": "01/07/2025",
-                    "words": 113
-                },
-                {
                     "url": "r3799",
                     "author": "H. Shun Parkinson",
                     "date": "09/07/2025",
@@ -11203,12 +11023,6 @@ const DBModule = (function () {
                     "words": 0
                 },
                 {
-                    "url": "r3578",
-                    "author": "Black Wave",
-                    "date": "01/07/2025",
-                    "words": 113
-                },
-                {
                     "url": "r5022",
                     "author": "Danielle Dashwood",
                     "date": "13/08/2025",
@@ -11379,12 +11193,6 @@ const DBModule = (function () {
                     "author": "The Familiars",
                     "date": "14/07/2025",
                     "words": 0
-                },
-                {
-                    "url": "r3580",
-                    "author": "Black Wave",
-                    "date": "01/07/2025",
-                    "words": 113
                 },
                 {
                     "url": "r4043",
@@ -12217,12 +12025,6 @@ const DBModule = (function () {
                     "author": "Danielle Dashwood",
                     "date": "22/12/2025",
                     "words": 241
-                },
-                {
-                    "url": "r3972",
-                    "author": "Jasper R. Gryffith",
-                    "date": "14/07/2025",
-                    "words": 264
                 },
                 {
                     "url": "r11820",
@@ -13353,12 +13155,6 @@ const DBModule = (function () {
                     "words": 240
                 },
                 {
-                    "url": "r4193",
-                    "author": "Black Wave",
-                    "date": "21/07/2025",
-                    "words": 162
-                },
-                {
                     "url": "r5017",
                     "author": "The Familiars",
                     "date": "13/08/2025",
@@ -13505,12 +13301,6 @@ const DBModule = (function () {
                     "author": "The Familiars",
                     "date": "07/08/2025",
                     "words": 0
-                },
-                {
-                    "url": "r4194",
-                    "author": "Black Wave",
-                    "date": "21/07/2025",
-                    "words": 134
                 },
                 {
                     "url": "r4740",
@@ -13943,12 +13733,6 @@ const DBModule = (function () {
                     "words": 0
                 },
                 {
-                    "url": "r4346",
-                    "author": "Ditanny",
-                    "date": "25/07/2025",
-                    "words": 155
-                },
-                {
                     "url": "r5443",
                     "author": "Asteria C. Lestrange",
                     "date": "22/08/2025",
@@ -14349,12 +14133,6 @@ const DBModule = (function () {
                     "author": "The Familiars",
                     "date": "26/08/2025",
                     "words": 0
-                },
-                {
-                    "url": "r4451",
-                    "author": "Regulus O. Black",
-                    "date": "28/07/2025",
-                    "words": 196
                 },
                 {
                     "url": "r5744",
@@ -15093,12 +14871,6 @@ const DBModule = (function () {
                     "words": 527
                 },
                 {
-                    "url": "r4534",
-                    "author": "Neptune E. Merrythought",
-                    "date": "30/07/2025",
-                    "words": 412
-                },
-                {
                     "url": "r6051",
                     "author": "Neptune E. Merrythought",
                     "date": "02/09/2025",
@@ -15277,12 +15049,6 @@ const DBModule = (function () {
                     "words": 338
                 },
                 {
-                    "url": "r4576",
-                    "author": "Black Wave",
-                    "date": "02/08/2025",
-                    "words": 486
-                },
-                {
                     "url": "r5384",
                     "author": "The Familiars",
                     "date": "20/08/2025",
@@ -15401,12 +15167,6 @@ const DBModule = (function () {
                     "author": "Thaddeus L. Nott",
                     "date": "07/09/2025",
                     "words": 257
-                },
-                {
-                    "url": "r4576",
-                    "author": "Black Wave",
-                    "date": "02/08/2025",
-                    "words": 486
                 },
                 {
                     "url": "r6214",
@@ -15529,12 +15289,6 @@ const DBModule = (function () {
                     "words": 224
                 },
                 {
-                    "url": "r4576",
-                    "author": "Black Wave",
-                    "date": "02/08/2025",
-                    "words": 486
-                },
-                {
                     "url": "r6765",
                     "author": "The Familiars",
                     "date": "21/09/2025",
@@ -15653,12 +15407,6 @@ const DBModule = (function () {
                     "author": "Thaddeus L. Nott",
                     "date": "02/10/2025",
                     "words": 246
-                },
-                {
-                    "url": "r4576",
-                    "author": "Black Wave",
-                    "date": "02/08/2025",
-                    "words": 486
                 },
                 {
                     "url": "r7200",
@@ -15809,12 +15557,6 @@ const DBModule = (function () {
                     "words": 226
                 },
                 {
-                    "url": "r4577",
-                    "author": "Black Wave",
-                    "date": "02/08/2025",
-                    "words": 140
-                },
-                {
                     "url": "r5014",
                     "author": "The Familiars",
                     "date": "13/08/2025",
@@ -15933,12 +15675,6 @@ const DBModule = (function () {
                     "author": "Cuthbert S. Selwyn",
                     "date": "19/08/2025",
                     "words": 232
-                },
-                {
-                    "url": "r4577",
-                    "author": "Black Wave",
-                    "date": "02/08/2025",
-                    "words": 140
                 },
                 {
                     "url": "r5335",
@@ -16061,12 +15797,6 @@ const DBModule = (function () {
                     "words": 0
                 },
                 {
-                    "url": "r4577",
-                    "author": "Black Wave",
-                    "date": "02/08/2025",
-                    "words": 140
-                },
-                {
                     "url": "r5779",
                     "author": "Cora M. Vance",
                     "date": "28/08/2025",
@@ -16185,12 +15915,6 @@ const DBModule = (function () {
                     "author": "The Familiars",
                     "date": "08/09/2025",
                     "words": 0
-                },
-                {
-                    "url": "r4577",
-                    "author": "Black Wave",
-                    "date": "02/08/2025",
-                    "words": 140
                 },
                 {
                     "url": "r6313",
@@ -16313,12 +16037,6 @@ const DBModule = (function () {
                     "words": 0
                 },
                 {
-                    "url": "r4577",
-                    "author": "Black Wave",
-                    "date": "02/08/2025",
-                    "words": 140
-                },
-                {
                     "url": "r6633",
                     "author": "Kaoru Satoo",
                     "date": "18/09/2025",
@@ -16439,12 +16157,6 @@ const DBModule = (function () {
                     "words": 359
                 },
                 {
-                    "url": "r4577",
-                    "author": "Black Wave",
-                    "date": "02/08/2025",
-                    "words": 140
-                },
-                {
                     "url": "r7321",
                     "author": "Cuthbert S. Selwyn",
                     "date": "04/10/2025",
@@ -16563,12 +16275,6 @@ const DBModule = (function () {
                     "author": "Cuthbert S. Selwyn",
                     "date": "10/11/2025",
                     "words": 187
-                },
-                {
-                    "url": "r4577",
-                    "author": "Black Wave",
-                    "date": "02/08/2025",
-                    "words": 140
                 },
                 {
                     "url": "r8915",
@@ -16711,12 +16417,6 @@ const DBModule = (function () {
                     "author": "Cora M. Vance",
                     "date": "17/08/2025",
                     "words": 418
-                },
-                {
-                    "url": "r4578",
-                    "author": "Black Wave",
-                    "date": "02/08/2025",
-                    "words": 145
                 },
                 {
                     "url": "r5236",
@@ -16913,12 +16613,6 @@ const DBModule = (function () {
                     "author": "Invitado",
                     "date": "15/08/2025",
                     "words": 287
-                },
-                {
-                    "url": "r4579",
-                    "author": "Black Wave",
-                    "date": "02/08/2025",
-                    "words": 165
                 },
                 {
                     "url": "r5116",
@@ -17641,12 +17335,6 @@ const DBModule = (function () {
                     "words": 434
                 },
                 {
-                    "url": "r4793",
-                    "author": "Aria J. Fawley",
-                    "date": "08/08/2025",
-                    "words": 266
-                },
-                {
                     "url": "r10694",
                     "author": "Aria J. Fawley",
                     "date": "11/12/2025",
@@ -17913,12 +17601,6 @@ const DBModule = (function () {
                     "words": 466
                 },
                 {
-                    "url": "r4821",
-                    "author": "Ruairidh Ó Mhaille",
-                    "date": "08/08/2025",
-                    "words": 417
-                },
-                {
                     "url": "r16227",
                     "author": "Asteria C. Lestrange",
                     "date": "08/04/2026",
@@ -18053,12 +17735,6 @@ const DBModule = (function () {
                     "author": "Hermes Rosier",
                     "date": "19/12/2025",
                     "words": 397
-                },
-                {
-                    "url": "r4929",
-                    "author": "Hankford B. Diggory",
-                    "date": "11/08/2025",
-                    "words": 229
                 },
                 {
                     "url": "r11032",
@@ -18213,12 +17889,6 @@ const DBModule = (function () {
                     "author": "Thaddeus L. Nott",
                     "date": "26/02/2026",
                     "words": 316
-                },
-                {
-                    "url": "r4937",
-                    "author": "Ruairidh Ó Mhaille",
-                    "date": "11/08/2025",
-                    "words": 231
                 },
                 {
                     "url": "r14619",
@@ -18473,12 +18143,6 @@ const DBModule = (function () {
                     "author": "Minerva E. McGonagall",
                     "date": "23/10/2025",
                     "words": 304
-                },
-                {
-                    "url": "r4965",
-                    "author": "Minerva E. McGonagall",
-                    "date": "12/08/2025",
-                    "words": 242
                 },
                 {
                     "url": "r8234",
@@ -18865,12 +18529,6 @@ const DBModule = (function () {
                     "words": 615
                 },
                 {
-                    "url": "r5036",
-                    "author": "Regulus O. Black",
-                    "date": "13/08/2025",
-                    "words": 257
-                },
-                {
                     "url": "r7844",
                     "author": "The Familiars",
                     "date": "19/10/2025",
@@ -19049,12 +18707,6 @@ const DBModule = (function () {
                     "words": 0
                 },
                 {
-                    "url": "r5048",
-                    "author": "H. Shun Parkinson",
-                    "date": "13/08/2025",
-                    "words": 204
-                },
-                {
                     "url": "r9291",
                     "author": "H. Shun Parkinson",
                     "date": "17/11/2025",
@@ -19207,12 +18859,6 @@ const DBModule = (function () {
                     "author": "Cora M. Vance",
                     "date": "11/10/2025",
                     "words": 413
-                },
-                {
-                    "url": "r5050",
-                    "author": "H. Shun Parkinson",
-                    "date": "13/08/2025",
-                    "words": 289
                 },
                 {
                     "url": "r7560",
@@ -19379,12 +19025,6 @@ const DBModule = (function () {
                     "author": "Iarlaith C. Sayre",
                     "date": "06/09/2025",
                     "words": 161
-                },
-                {
-                    "url": "r5105",
-                    "author": "Black Wave",
-                    "date": "15/08/2025",
-                    "words": 347
                 },
                 {
                     "url": "r6181",
@@ -19613,12 +19253,6 @@ const DBModule = (function () {
                     "words": 215
                 },
                 {
-                    "url": "r5106",
-                    "author": "Black Wave",
-                    "date": "15/08/2025",
-                    "words": 347
-                },
-                {
                     "url": "r6100",
                     "author": "The Familiars",
                     "date": "03/09/2025",
@@ -19737,12 +19371,6 @@ const DBModule = (function () {
                     "author": "Cora M. Vance",
                     "date": "24/09/2025",
                     "words": 273
-                },
-                {
-                    "url": "r5106",
-                    "author": "Black Wave",
-                    "date": "15/08/2025",
-                    "words": 347
                 },
                 {
                     "url": "r6897",
@@ -19881,12 +19509,6 @@ const DBModule = (function () {
                     "words": 324
                 },
                 {
-                    "url": "r5107",
-                    "author": "Black Wave",
-                    "date": "15/08/2025",
-                    "words": 347
-                },
-                {
                     "url": "r5526",
                     "author": "The Familiars",
                     "date": "24/08/2025",
@@ -20005,12 +19627,6 @@ const DBModule = (function () {
                     "author": "Augusta O. Rookwood",
                     "date": "05/09/2025",
                     "words": 244
-                },
-                {
-                    "url": "r5107",
-                    "author": "Black Wave",
-                    "date": "15/08/2025",
-                    "words": 347
                 },
                 {
                     "url": "r6129",
@@ -20189,12 +19805,6 @@ const DBModule = (function () {
                     "author": "Vasilisa M. Kuznetzova",
                     "date": "02/09/2025",
                     "words": 182
-                },
-                {
-                    "url": "r5108",
-                    "author": "Black Wave",
-                    "date": "15/08/2025",
-                    "words": 347
                 },
                 {
                     "url": "r6079",
@@ -20415,12 +20025,6 @@ const DBModule = (function () {
                     "author": "Ruairidh Ó Mhaille",
                     "date": "31/08/2025",
                     "words": 190
-                },
-                {
-                    "url": "r5109",
-                    "author": "Black Wave",
-                    "date": "15/08/2025",
-                    "words": 347
                 },
                 {
                     "url": "r5929",
@@ -20659,12 +20263,6 @@ const DBModule = (function () {
                     "author": "Cuthbert S. Selwyn",
                     "date": "07/09/2025",
                     "words": 141
-                },
-                {
-                    "url": "r5110",
-                    "author": "Black Wave",
-                    "date": "15/08/2025",
-                    "words": 347
                 },
                 {
                     "url": "r6204",
@@ -20917,12 +20515,6 @@ const DBModule = (function () {
                     "words": 239
                 },
                 {
-                    "url": "r5111",
-                    "author": "Black Wave",
-                    "date": "15/08/2025",
-                    "words": 347
-                },
-                {
                     "url": "r6098",
                     "author": "The Familiars",
                     "date": "03/09/2025",
@@ -21167,12 +20759,6 @@ const DBModule = (function () {
                     "words": 162
                 },
                 {
-                    "url": "r5206",
-                    "author": "Hermes Rosier",
-                    "date": "17/08/2025",
-                    "words": 359
-                },
-                {
                     "url": "r5909",
                     "author": "The Familiars",
                     "date": "31/08/2025",
@@ -21293,12 +20879,6 @@ const DBModule = (function () {
                     "words": 177
                 },
                 {
-                    "url": "r5206",
-                    "author": "Hermes Rosier",
-                    "date": "17/08/2025",
-                    "words": 359
-                },
-                {
                     "url": "r6780",
                     "author": "The Familiars",
                     "date": "21/09/2025",
@@ -21417,12 +20997,6 @@ const DBModule = (function () {
                     "author": "The Familiars",
                     "date": "03/10/2025",
                     "words": 0
-                },
-                {
-                    "url": "r5206",
-                    "author": "Hermes Rosier",
-                    "date": "17/08/2025",
-                    "words": 359
                 },
                 {
                     "url": "r7211",
@@ -21661,12 +21235,6 @@ const DBModule = (function () {
                     "author": "Findlay McCrory",
                     "date": "22/09/2025",
                     "words": 202
-                },
-                {
-                    "url": "r5207",
-                    "author": "Hermes Rosier",
-                    "date": "17/08/2025",
-                    "words": 305
                 },
                 {
                     "url": "r6838",
@@ -22107,12 +21675,6 @@ const DBModule = (function () {
                     "words": 170
                 },
                 {
-                    "url": "r5262",
-                    "author": "Minerva E. McGonagall",
-                    "date": "18/08/2025",
-                    "words": 215
-                },
-                {
                     "url": "r8559",
                     "author": "The Familiars",
                     "date": "03/11/2025",
@@ -22279,12 +21841,6 @@ const DBModule = (function () {
                     "words": 375
                 },
                 {
-                    "url": "r5331",
-                    "author": "Cora M. Vance",
-                    "date": "19/08/2025",
-                    "words": 390
-                },
-                {
                     "url": "r8133",
                     "author": "Cora M. Vance",
                     "date": "26/10/2025",
@@ -22419,12 +21975,6 @@ const DBModule = (function () {
                     "author": "The Familiars",
                     "date": "20/11/2025",
                     "words": 0
-                },
-                {
-                    "url": "r5350",
-                    "author": "Asteria C. Lestrange",
-                    "date": "19/08/2025",
-                    "words": 242
                 },
                 {
                     "url": "r10233",
@@ -22573,12 +22123,6 @@ const DBModule = (function () {
                     "author": "The Familiars",
                     "date": "27/08/2025",
                     "words": 0
-                },
-                {
-                    "url": "r5407",
-                    "author": "Alastor Moody",
-                    "date": "21/08/2025",
-                    "words": 375
                 },
                 {
                     "url": "r5729",
@@ -23025,12 +22569,6 @@ const DBModule = (function () {
                     "words": 0
                 },
                 {
-                    "url": "r5434",
-                    "author": "Vasilisa M. Kuznetzova",
-                    "date": "22/08/2025",
-                    "words": 207
-                },
-                {
                     "url": "r14079",
                     "author": "Vasilisa M. Kuznetzova",
                     "date": "27/02/2026",
@@ -23261,12 +22799,6 @@ const DBModule = (function () {
                     "words": 307
                 },
                 {
-                    "url": "r5437",
-                    "author": "Vasilisa M. Kuznetzova",
-                    "date": "22/08/2025",
-                    "words": 177
-                },
-                {
                     "url": "r20106",
                     "author": "Vasilisa M. Kuznetzova",
                     "date": "21/06/2026",
@@ -23419,12 +22951,6 @@ const DBModule = (function () {
                     "author": "The Familiars",
                     "date": "23/10/2025",
                     "words": 0
-                },
-                {
-                    "url": "r5449",
-                    "author": "Minerva E. McGonagall",
-                    "date": "22/08/2025",
-                    "words": 279
                 },
                 {
                     "url": "r8591",
@@ -23657,12 +23183,6 @@ const DBModule = (function () {
                     "words": 299
                 },
                 {
-                    "url": "r5716",
-                    "author": "H. Shun Parkinson",
-                    "date": "27/08/2025",
-                    "words": 249
-                },
-                {
                     "url": "r8106",
                     "author": "The Familiars",
                     "date": "26/10/2025",
@@ -23781,12 +23301,6 @@ const DBModule = (function () {
                     "author": "The Familiars",
                     "date": "16/11/2025",
                     "words": 0
-                },
-                {
-                    "url": "r5716",
-                    "author": "H. Shun Parkinson",
-                    "date": "27/08/2025",
-                    "words": 249
                 },
                 {
                     "url": "r9391",
@@ -24443,12 +23957,6 @@ const DBModule = (function () {
                     "words": 480
                 },
                 {
-                    "url": "r5976",
-                    "author": "Findlay McCrory",
-                    "date": "01/09/2025",
-                    "words": 251
-                },
-                {
                     "url": "r7824",
                     "author": "Neptune E. Merrythought",
                     "date": "18/10/2025",
@@ -24663,12 +24171,6 @@ const DBModule = (function () {
                     "words": 0
                 },
                 {
-                    "url": "r6028",
-                    "author": "Black Wave",
-                    "date": "02/09/2025",
-                    "words": 122
-                },
-                {
                     "url": "r6668",
                     "author": "Orion A. Black",
                     "date": "20/09/2025",
@@ -24789,12 +24291,6 @@ const DBModule = (function () {
                     "words": 0
                 },
                 {
-                    "url": "r6028",
-                    "author": "Black Wave",
-                    "date": "02/09/2025",
-                    "words": 122
-                },
-                {
                     "url": "r7034",
                     "author": "Regulus O. Black",
                     "date": "28/09/2025",
@@ -24913,12 +24409,6 @@ const DBModule = (function () {
                     "author": "Invitado",
                     "date": "28/10/2025",
                     "words": 252
-                },
-                {
-                    "url": "r6028",
-                    "author": "Black Wave",
-                    "date": "02/09/2025",
-                    "words": 122
                 },
                 {
                     "url": "r8177",
@@ -25079,12 +24569,6 @@ const DBModule = (function () {
                     "author": "The Familiars",
                     "date": "24/09/2025",
                     "words": 0
-                },
-                {
-                    "url": "r6030",
-                    "author": "Black Wave",
-                    "date": "02/09/2025",
-                    "words": 87
                 },
                 {
                     "url": "r6942",
@@ -25251,12 +24735,6 @@ const DBModule = (function () {
                     "author": "H. Shun Parkinson",
                     "date": "28/09/2025",
                     "words": 351
-                },
-                {
-                    "url": "r6031",
-                    "author": "Black Wave",
-                    "date": "02/09/2025",
-                    "words": 71
                 },
                 {
                     "url": "r7008",
@@ -25435,12 +24913,6 @@ const DBModule = (function () {
                     "author": "H. Shun Parkinson",
                     "date": "14/10/2025",
                     "words": 256
-                },
-                {
-                    "url": "r6033",
-                    "author": "Black Wave",
-                    "date": "02/09/2025",
-                    "words": 270
                 },
                 {
                     "url": "r7735",
@@ -25973,12 +25445,6 @@ const DBModule = (function () {
                     "words": 0
                 },
                 {
-                    "url": "r6435",
-                    "author": "Black Wave",
-                    "date": "15/09/2025",
-                    "words": 119
-                },
-                {
                     "url": "r7086",
                     "author": "Alastor Moody",
                     "date": "30/09/2025",
@@ -26097,12 +25563,6 @@ const DBModule = (function () {
                     "author": "The Familiars",
                     "date": "05/11/2025",
                     "words": 0
-                },
-                {
-                    "url": "r6435",
-                    "author": "Black Wave",
-                    "date": "15/09/2025",
-                    "words": 119
                 },
                 {
                     "url": "r8773",
@@ -26251,12 +25711,6 @@ const DBModule = (function () {
                     "author": "The Familiars",
                     "date": "27/09/2025",
                     "words": 0
-                },
-                {
-                    "url": "r6436",
-                    "author": "Black Wave",
-                    "date": "15/09/2025",
-                    "words": 189
                 },
                 {
                     "url": "r7052",
@@ -26609,12 +26063,6 @@ const DBModule = (function () {
                     "words": 330
                 },
                 {
-                    "url": "r6438",
-                    "author": "Black Wave",
-                    "date": "15/09/2025",
-                    "words": 86
-                },
-                {
                     "url": "r7359",
                     "author": "The Familiars",
                     "date": "05/10/2025",
@@ -26733,12 +26181,6 @@ const DBModule = (function () {
                     "author": "Venus M. Merrythought",
                     "date": "26/10/2025",
                     "words": 352
-                },
-                {
-                    "url": "r6438",
-                    "author": "Black Wave",
-                    "date": "15/09/2025",
-                    "words": 86
                 },
                 {
                     "url": "r8237",
@@ -27025,12 +26467,6 @@ const DBModule = (function () {
                     "words": 317
                 },
                 {
-                    "url": "r6441",
-                    "author": "Black Wave",
-                    "date": "15/09/2025",
-                    "words": 209
-                },
-                {
                     "url": "r8168",
                     "author": "Alastor Moody",
                     "date": "27/10/2025",
@@ -27227,12 +26663,6 @@ const DBModule = (function () {
                     "words": 0
                 },
                 {
-                    "url": "r6442",
-                    "author": "Black Wave",
-                    "date": "15/09/2025",
-                    "words": 224
-                },
-                {
                     "url": "r7067",
                     "author": "Jasper R. Gryffith",
                     "date": "29/09/2025",
@@ -27351,12 +26781,6 @@ const DBModule = (function () {
                     "author": "The Familiars",
                     "date": "07/10/2025",
                     "words": 0
-                },
-                {
-                    "url": "r6442",
-                    "author": "Black Wave",
-                    "date": "15/09/2025",
-                    "words": 224
                 },
                 {
                     "url": "r7479",
@@ -27479,12 +26903,6 @@ const DBModule = (function () {
                     "words": 0
                 },
                 {
-                    "url": "r6442",
-                    "author": "Black Wave",
-                    "date": "15/09/2025",
-                    "words": 224
-                },
-                {
                     "url": "r8229",
                     "author": "Jasper R. Gryffith",
                     "date": "29/10/2025",
@@ -27603,12 +27021,6 @@ const DBModule = (function () {
                     "author": "H. Shun Parkinson",
                     "date": "17/11/2025",
                     "words": 230
-                },
-                {
-                    "url": "r6442",
-                    "author": "Black Wave",
-                    "date": "15/09/2025",
-                    "words": 224
                 },
                 {
                     "url": "r9299",
@@ -27765,12 +27177,6 @@ const DBModule = (function () {
                     "words": 370
                 },
                 {
-                    "url": "r6443",
-                    "author": "Black Wave",
-                    "date": "15/09/2025",
-                    "words": 99
-                },
-                {
                     "url": "r7612",
                     "author": "The Familiars",
                     "date": "12/10/2025",
@@ -27889,12 +27295,6 @@ const DBModule = (function () {
                     "author": "Cora M. Vance",
                     "date": "30/10/2025",
                     "words": 229
-                },
-                {
-                    "url": "r6443",
-                    "author": "Black Wave",
-                    "date": "15/09/2025",
-                    "words": 99
                 },
                 {
                     "url": "r8242",
@@ -28017,12 +27417,6 @@ const DBModule = (function () {
                     "words": 0
                 },
                 {
-                    "url": "r6443",
-                    "author": "Black Wave",
-                    "date": "15/09/2025",
-                    "words": 99
-                },
-                {
                     "url": "r9710",
                     "author": "Venus M. Merrythought",
                     "date": "23/11/2025",
@@ -28143,12 +27537,6 @@ const DBModule = (function () {
                     "words": 365
                 },
                 {
-                    "url": "r6443",
-                    "author": "Black Wave",
-                    "date": "15/09/2025",
-                    "words": 99
-                },
-                {
                     "url": "r11068",
                     "author": "The Familiars",
                     "date": "22/12/2025",
@@ -28267,12 +27655,6 @@ const DBModule = (function () {
                     "author": "Cuthbert S. Selwyn",
                     "date": "01/02/2026",
                     "words": 239
-                },
-                {
-                    "url": "r6443",
-                    "author": "Black Wave",
-                    "date": "15/09/2025",
-                    "words": 99
                 },
                 {
                     "url": "r12517",
@@ -28579,12 +27961,6 @@ const DBModule = (function () {
                     "author": "Ruairidh Ó Mhaille",
                     "date": "03/01/2026",
                     "words": 537
-                },
-                {
-                    "url": "r6725",
-                    "author": "Neptune E. Merrythought",
-                    "date": "21/09/2025",
-                    "words": 317
                 },
                 {
                     "url": "r11751",
@@ -28917,12 +28293,6 @@ const DBModule = (function () {
                     "words": 317
                 },
                 {
-                    "url": "r6828",
-                    "author": "Theolonius D. Covey",
-                    "date": "22/09/2025",
-                    "words": 320
-                },
-                {
                     "url": "r9402",
                     "author": "The Familiars",
                     "date": "20/11/2025",
@@ -29231,12 +28601,6 @@ const DBModule = (function () {
                     "words": 253
                 },
                 {
-                    "url": "r7155",
-                    "author": "Black Wave",
-                    "date": "02/10/2025",
-                    "words": 363
-                },
-                {
                     "url": "r8158",
                     "author": "The Familiars",
                     "date": "27/10/2025",
@@ -29355,12 +28719,6 @@ const DBModule = (function () {
                     "author": "Thaddeus L. Nott",
                     "date": "04/01/2026",
                     "words": 221
-                },
-                {
-                    "url": "r7155",
-                    "author": "Black Wave",
-                    "date": "02/10/2025",
-                    "words": 363
                 },
                 {
                     "url": "r11447",
@@ -29505,12 +28863,6 @@ const DBModule = (function () {
                     "words": 296
                 },
                 {
-                    "url": "r7156",
-                    "author": "Black Wave",
-                    "date": "02/10/2025",
-                    "words": 375
-                },
-                {
                     "url": "r8104",
                     "author": "The Familiars",
                     "date": "26/10/2025",
@@ -29629,12 +28981,6 @@ const DBModule = (function () {
                     "author": "Findlay McCrory",
                     "date": "06/12/2025",
                     "words": 204
-                },
-                {
-                    "url": "r7156",
-                    "author": "Black Wave",
-                    "date": "02/10/2025",
-                    "words": 375
                 },
                 {
                     "url": "r10530",
@@ -29773,12 +29119,6 @@ const DBModule = (function () {
                     "words": 192
                 },
                 {
-                    "url": "r7157",
-                    "author": "Black Wave",
-                    "date": "02/10/2025",
-                    "words": 392
-                },
-                {
                     "url": "r8308",
                     "author": "The Familiars",
                     "date": "01/11/2025",
@@ -29899,12 +29239,6 @@ const DBModule = (function () {
                     "words": 230
                 },
                 {
-                    "url": "r7157",
-                    "author": "Black Wave",
-                    "date": "02/10/2025",
-                    "words": 392
-                },
-                {
                     "url": "r10246",
                     "author": "The Familiars",
                     "date": "02/12/2025",
@@ -30023,12 +29357,6 @@ const DBModule = (function () {
                     "author": "Augusta O. Rookwood",
                     "date": "18/01/2026",
                     "words": 131
-                },
-                {
-                    "url": "r7157",
-                    "author": "Black Wave",
-                    "date": "02/10/2025",
-                    "words": 392
                 },
                 {
                     "url": "r12057",
@@ -30257,12 +29585,6 @@ const DBModule = (function () {
                     "words": 230
                 },
                 {
-                    "url": "r7158",
-                    "author": "Black Wave",
-                    "date": "02/10/2025",
-                    "words": 408
-                },
-                {
                     "url": "r7726",
                     "author": "The Familiars",
                     "date": "14/10/2025",
@@ -30381,12 +29703,6 @@ const DBModule = (function () {
                     "author": "Damien A. Ashford-Dempsey",
                     "date": "17/11/2025",
                     "words": 170
-                },
-                {
-                    "url": "r7158",
-                    "author": "Black Wave",
-                    "date": "02/10/2025",
-                    "words": 408
                 },
                 {
                     "url": "r9302",
@@ -30639,12 +29955,6 @@ const DBModule = (function () {
                     "words": 179
                 },
                 {
-                    "url": "r7159",
-                    "author": "Black Wave",
-                    "date": "02/10/2025",
-                    "words": 248
-                },
-                {
                     "url": "r7631",
                     "author": "The Familiars",
                     "date": "12/10/2025",
@@ -30763,12 +30073,6 @@ const DBModule = (function () {
                     "author": "Theolonius D. Covey",
                     "date": "26/10/2025",
                     "words": 166
-                },
-                {
-                    "url": "r7159",
-                    "author": "Black Wave",
-                    "date": "02/10/2025",
-                    "words": 248
                 },
                 {
                     "url": "r8144",
@@ -30937,12 +30241,6 @@ const DBModule = (function () {
                     "words": 280
                 },
                 {
-                    "url": "r7160",
-                    "author": "Black Wave",
-                    "date": "02/10/2025",
-                    "words": 174
-                },
-                {
                     "url": "r8088",
                     "author": "The Familiars",
                     "date": "25/10/2025",
@@ -31061,12 +30359,6 @@ const DBModule = (function () {
                     "author": "Cora M. Vance",
                     "date": "22/11/2025",
                     "words": 127
-                },
-                {
-                    "url": "r7160",
-                    "author": "Black Wave",
-                    "date": "02/10/2025",
-                    "words": 174
                 },
                 {
                     "url": "r9594",
@@ -31295,12 +30587,6 @@ const DBModule = (function () {
                     "words": 197
                 },
                 {
-                    "url": "r7161",
-                    "author": "Black Wave",
-                    "date": "02/10/2025",
-                    "words": 537
-                },
-                {
                     "url": "r7516",
                     "author": "The Familiars",
                     "date": "09/10/2025",
@@ -31419,12 +30705,6 @@ const DBModule = (function () {
                     "author": "The Familiars",
                     "date": "25/10/2025",
                     "words": 0
-                },
-                {
-                    "url": "r7161",
-                    "author": "Black Wave",
-                    "date": "02/10/2025",
-                    "words": 537
                 },
                 {
                     "url": "r8123",
@@ -31547,12 +30827,6 @@ const DBModule = (function () {
                     "words": 295
                 },
                 {
-                    "url": "r7161",
-                    "author": "Black Wave",
-                    "date": "02/10/2025",
-                    "words": 537
-                },
-                {
                     "url": "r8803",
                     "author": "The Familiars",
                     "date": "07/11/2025",
@@ -31671,12 +30945,6 @@ const DBModule = (function () {
                     "author": "Venus M. Merrythought",
                     "date": "25/11/2025",
                     "words": 237
-                },
-                {
-                    "url": "r7161",
-                    "author": "Black Wave",
-                    "date": "02/10/2025",
-                    "words": 537
                 },
                 {
                     "url": "r9791",
@@ -31799,12 +31067,6 @@ const DBModule = (function () {
                     "words": 256
                 },
                 {
-                    "url": "r7161",
-                    "author": "Black Wave",
-                    "date": "02/10/2025",
-                    "words": 537
-                },
-                {
                     "url": "r10676",
                     "author": "The Familiars",
                     "date": "11/12/2025",
@@ -31925,12 +31187,6 @@ const DBModule = (function () {
                     "words": 203
                 },
                 {
-                    "url": "r7161",
-                    "author": "Black Wave",
-                    "date": "02/10/2025",
-                    "words": 537
-                },
-                {
                     "url": "r11073",
                     "author": "The Familiars",
                     "date": "22/12/2025",
@@ -32049,12 +31305,6 @@ const DBModule = (function () {
                     "author": "Danielle Dashwood",
                     "date": "07/01/2026",
                     "words": 201
-                },
-                {
-                    "url": "r7161",
-                    "author": "Black Wave",
-                    "date": "02/10/2025",
-                    "words": 537
                 },
                 {
                     "url": "r11645",
@@ -32209,12 +31459,6 @@ const DBModule = (function () {
                     "author": "Neptune E. Merrythought",
                     "date": "14/03/2026",
                     "words": 269
-                },
-                {
-                    "url": "r7205",
-                    "author": "Kaoru Satoo",
-                    "date": "03/10/2025",
-                    "words": 235
                 },
                 {
                     "url": "r16287",
@@ -32411,12 +31655,6 @@ const DBModule = (function () {
                     "words": 0
                 },
                 {
-                    "url": "r7270",
-                    "author": "Neptune E. Merrythought",
-                    "date": "04/10/2025",
-                    "words": 318
-                },
-                {
                     "url": "r10866",
                     "author": "Neptune E. Merrythought",
                     "date": "17/12/2025",
@@ -32569,12 +31807,6 @@ const DBModule = (function () {
                     "author": "Raven Walters",
                     "date": "05/12/2025",
                     "words": 169
-                },
-                {
-                    "url": "r7273",
-                    "author": "Regulus O. Black",
-                    "date": "04/10/2025",
-                    "words": 410
                 },
                 {
                     "url": "r10399",
@@ -32879,12 +32111,6 @@ const DBModule = (function () {
                     "words": 574
                 },
                 {
-                    "url": "r7323",
-                    "author": "Findlay McCrory",
-                    "date": "04/10/2025",
-                    "words": 339
-                },
-                {
                     "url": "r10434",
                     "author": "The Familiars",
                     "date": "06/12/2025",
@@ -33025,12 +32251,6 @@ const DBModule = (function () {
                     "author": "Alastor Moody",
                     "date": "13/11/2025",
                     "words": 437
-                },
-                {
-                    "url": "r7335",
-                    "author": "Minerva E. McGonagall",
-                    "date": "05/10/2025",
-                    "words": 310
                 },
                 {
                     "url": "r9284",
@@ -33185,12 +32405,6 @@ const DBModule = (function () {
                     "author": "The Familiars",
                     "date": "20/10/2025",
                     "words": 0
-                },
-                {
-                    "url": "r7348",
-                    "author": "Ditanny",
-                    "date": "05/10/2025",
-                    "words": 168
                 },
                 {
                     "url": "r7872",
@@ -34723,12 +33937,6 @@ const DBModule = (function () {
                     "words": 0
                 },
                 {
-                    "url": "r8154",
-                    "author": "Regulus O. Black",
-                    "date": "27/10/2025",
-                    "words": 229
-                },
-                {
                     "url": "r11390",
                     "author": "Alastor Moody",
                     "date": "02/01/2026",
@@ -35313,12 +34521,6 @@ const DBModule = (function () {
                     "words": 0
                 },
                 {
-                    "url": "r8290",
-                    "author": "Alastor Moody",
-                    "date": "31/10/2025",
-                    "words": 599
-                },
-                {
                     "url": "r12716",
                     "author": "Alastor Moody",
                     "date": "05/02/2026",
@@ -35529,12 +34731,6 @@ const DBModule = (function () {
                     "author": "The Familiars",
                     "date": "18/03/2026",
                     "words": 0
-                },
-                {
-                    "url": "r8536",
-                    "author": "Minerva E. McGonagall",
-                    "date": "03/11/2025",
-                    "words": 290
                 },
                 {
                     "url": "r15683",
@@ -35809,12 +35005,6 @@ const DBModule = (function () {
                     "words": 190
                 },
                 {
-                    "url": "r8601",
-                    "author": "Black Wave",
-                    "date": "04/11/2025",
-                    "words": 129
-                },
-                {
                     "url": "r11485",
                     "author": "The Familiars",
                     "date": "04/01/2026",
@@ -35933,12 +35123,6 @@ const DBModule = (function () {
                     "author": "Asteria C. Lestrange",
                     "date": "21/02/2026",
                     "words": 220
-                },
-                {
-                    "url": "r8601",
-                    "author": "Black Wave",
-                    "date": "04/11/2025",
-                    "words": 129
                 },
                 {
                     "url": "r13692",
@@ -36129,12 +35313,6 @@ const DBModule = (function () {
                     "author": "Hermes Rosier",
                     "date": "03/12/2025",
                     "words": 148
-                },
-                {
-                    "url": "r8603",
-                    "author": "Black Wave",
-                    "date": "04/11/2025",
-                    "words": 157
                 },
                 {
                     "url": "r10303",
@@ -36445,12 +35623,6 @@ const DBModule = (function () {
                     "words": 368
                 },
                 {
-                    "url": "r8766",
-                    "author": "Alastor Moody",
-                    "date": "06/11/2025",
-                    "words": 340
-                },
-                {
                     "url": "r11942",
                     "author": "Alastor Moody",
                     "date": "16/01/2026",
@@ -36591,12 +35763,6 @@ const DBModule = (function () {
                     "author": "Montgomery Thatch",
                     "date": "23/12/2025",
                     "words": 710
-                },
-                {
-                    "url": "r8786",
-                    "author": "Montgomery Thatch",
-                    "date": "06/11/2025",
-                    "words": 444
                 },
                 {
                     "url": "r11243",
@@ -36745,12 +35911,6 @@ const DBModule = (function () {
                     "author": "Findlay McCrory",
                     "date": "31/01/2026",
                     "words": 388
-                },
-                {
-                    "url": "r8798",
-                    "author": "Neptune E. Merrythought",
-                    "date": "07/11/2025",
-                    "words": 328
                 },
                 {
                     "url": "r12458",
@@ -37477,12 +36637,6 @@ const DBModule = (function () {
                     "words": 243
                 },
                 {
-                    "url": "r8885",
-                    "author": "Black Wave",
-                    "date": "08/11/2025",
-                    "words": 294
-                },
-                {
                     "url": "r9128",
                     "author": "The Familiars",
                     "date": "12/11/2025",
@@ -37601,12 +36755,6 @@ const DBModule = (function () {
                     "author": "Thaddeus L. Nott",
                     "date": "23/11/2025",
                     "words": 183
-                },
-                {
-                    "url": "r8885",
-                    "author": "Black Wave",
-                    "date": "08/11/2025",
-                    "words": 294
                 },
                 {
                     "url": "r9704",
@@ -37729,12 +36877,6 @@ const DBModule = (function () {
                     "words": 210
                 },
                 {
-                    "url": "r8885",
-                    "author": "Black Wave",
-                    "date": "08/11/2025",
-                    "words": 294
-                },
-                {
                     "url": "r10169",
                     "author": "Damien A. Ashford-Dempsey",
                     "date": "01/12/2025",
@@ -37853,12 +36995,6 @@ const DBModule = (function () {
                     "author": "Hermes Rosier",
                     "date": "19/12/2025",
                     "words": 148
-                },
-                {
-                    "url": "r8885",
-                    "author": "Black Wave",
-                    "date": "08/11/2025",
-                    "words": 294
                 },
                 {
                     "url": "r10929",
@@ -37981,12 +37117,6 @@ const DBModule = (function () {
                     "words": 207
                 },
                 {
-                    "url": "r8885",
-                    "author": "Black Wave",
-                    "date": "08/11/2025",
-                    "words": 294
-                },
-                {
                     "url": "r11544",
                     "author": "The Familiars",
                     "date": "05/01/2026",
@@ -38105,12 +37235,6 @@ const DBModule = (function () {
                     "author": "The Familiars",
                     "date": "31/01/2026",
                     "words": 0
-                },
-                {
-                    "url": "r8885",
-                    "author": "Black Wave",
-                    "date": "08/11/2025",
-                    "words": 294
                 },
                 {
                     "url": "r12514",
@@ -38261,12 +37385,6 @@ const DBModule = (function () {
                     "words": 215
                 },
                 {
-                    "url": "r8886",
-                    "author": "Black Wave",
-                    "date": "08/11/2025",
-                    "words": 459
-                },
-                {
                     "url": "r9193",
                     "author": "Iarlaith C. Sayre",
                     "date": "15/11/2025",
@@ -38385,12 +37503,6 @@ const DBModule = (function () {
                     "author": "Kaoru Satoo",
                     "date": "23/11/2025",
                     "words": 256
-                },
-                {
-                    "url": "r8886",
-                    "author": "Black Wave",
-                    "date": "08/11/2025",
-                    "words": 459
                 },
                 {
                     "url": "r9642",
@@ -38513,12 +37625,6 @@ const DBModule = (function () {
                     "words": 212
                 },
                 {
-                    "url": "r8886",
-                    "author": "Black Wave",
-                    "date": "08/11/2025",
-                    "words": 459
-                },
-                {
                     "url": "r9997",
                     "author": "The Familiars",
                     "date": "29/11/2025",
@@ -38637,12 +37743,6 @@ const DBModule = (function () {
                     "author": "The Familiars",
                     "date": "10/12/2025",
                     "words": 0
-                },
-                {
-                    "url": "r8886",
-                    "author": "Black Wave",
-                    "date": "08/11/2025",
-                    "words": 459
                 },
                 {
                     "url": "r10909",
@@ -38765,12 +37865,6 @@ const DBModule = (function () {
                     "words": 0
                 },
                 {
-                    "url": "r8886",
-                    "author": "Black Wave",
-                    "date": "08/11/2025",
-                    "words": 459
-                },
-                {
                     "url": "r11463",
                     "author": "Kaoru Satoo",
                     "date": "04/01/2026",
@@ -38891,12 +37985,6 @@ const DBModule = (function () {
                     "words": 0
                 },
                 {
-                    "url": "r8886",
-                    "author": "Black Wave",
-                    "date": "08/11/2025",
-                    "words": 459
-                },
-                {
                     "url": "r12170",
                     "author": "Kaoru Satoo",
                     "date": "22/01/2026",
@@ -39015,12 +38103,6 @@ const DBModule = (function () {
                     "author": "Aria J. Fawley",
                     "date": "01/02/2026",
                     "words": 127
-                },
-                {
-                    "url": "r8886",
-                    "author": "Black Wave",
-                    "date": "08/11/2025",
-                    "words": 459
                 },
                 {
                     "url": "r12543",
@@ -39367,12 +38449,6 @@ const DBModule = (function () {
                     "words": 0
                 },
                 {
-                    "url": "r9015",
-                    "author": "Montgomery Thatch",
-                    "date": "11/11/2025",
-                    "words": 309
-                },
-                {
                     "url": "r10012",
                     "author": "Hankford B. Diggory",
                     "date": "29/11/2025",
@@ -39717,12 +38793,6 @@ const DBModule = (function () {
                     "words": 347
                 },
                 {
-                    "url": "r9147",
-                    "author": "Montgomery Thatch",
-                    "date": "13/11/2025",
-                    "words": 347
-                },
-                {
                     "url": "r14244",
                     "author": "The Familiars",
                     "date": "02/03/2026",
@@ -39857,12 +38927,6 @@ const DBModule = (function () {
                     "author": "Montgomery Thatch",
                     "date": "19/01/2026",
                     "words": 551
-                },
-                {
-                    "url": "r9423",
-                    "author": "Montgomery Thatch",
-                    "date": "20/11/2025",
-                    "words": 278
                 },
                 {
                     "url": "r12420",
@@ -40301,12 +39365,6 @@ const DBModule = (function () {
                     "words": 834
                 },
                 {
-                    "url": "r9560",
-                    "author": "Minerva E. McGonagall",
-                    "date": "22/11/2025",
-                    "words": 217
-                },
-                {
                     "url": "r11427",
                     "author": "The Familiars",
                     "date": "03/01/2026",
@@ -40449,12 +39507,6 @@ const DBModule = (function () {
                     "words": 0
                 },
                 {
-                    "url": "r9561",
-                    "author": "Minerva E. McGonagall",
-                    "date": "22/11/2025",
-                    "words": 226
-                },
-                {
                     "url": "r12027",
                     "author": "Minerva E. McGonagall",
                     "date": "18/01/2026",
@@ -40573,12 +39625,6 @@ const DBModule = (function () {
                     "author": "The Familiars",
                     "date": "28/02/2026",
                     "words": 0
-                },
-                {
-                    "url": "r9561",
-                    "author": "Minerva E. McGonagall",
-                    "date": "22/11/2025",
-                    "words": 226
                 },
                 {
                     "url": "r14457",
@@ -40893,12 +39939,6 @@ const DBModule = (function () {
                     "words": 0
                 },
                 {
-                    "url": "r9964",
-                    "author": "Black Wave",
-                    "date": "29/11/2025",
-                    "words": 167
-                },
-                {
                     "url": "r13846",
                     "author": "Ruairidh Ó Mhaille",
                     "date": "24/02/2026",
@@ -41069,12 +40109,6 @@ const DBModule = (function () {
                     "author": "The Familiars",
                     "date": "17/12/2025",
                     "words": 0
-                },
-                {
-                    "url": "r9966",
-                    "author": "Black Wave",
-                    "date": "29/11/2025",
-                    "words": 166
                 },
                 {
                     "url": "r10951",
@@ -41273,12 +40307,6 @@ const DBModule = (function () {
                     "words": 0
                 },
                 {
-                    "url": "r9968",
-                    "author": "Black Wave",
-                    "date": "29/11/2025",
-                    "words": 170
-                },
-                {
                     "url": "r11060",
                     "author": "Minerva E. McGonagall",
                     "date": "22/12/2025",
@@ -41469,12 +40497,6 @@ const DBModule = (function () {
                     "words": 0
                 },
                 {
-                    "url": "r9972",
-                    "author": "Black Wave",
-                    "date": "29/11/2025",
-                    "words": 170
-                },
-                {
                     "url": "r11009",
                     "author": "Ruairidh Ó Mhaille",
                     "date": "21/12/2025",
@@ -41593,12 +40615,6 @@ const DBModule = (function () {
                     "author": "The Familiars",
                     "date": "12/02/2026",
                     "words": 0
-                },
-                {
-                    "url": "r9972",
-                    "author": "Black Wave",
-                    "date": "29/11/2025",
-                    "words": 170
                 },
                 {
                     "url": "r13243",
@@ -41747,12 +40763,6 @@ const DBModule = (function () {
                     "author": "The Familiars",
                     "date": "03/12/2025",
                     "words": 0
-                },
-                {
-                    "url": "r9974",
-                    "author": "Black Wave",
-                    "date": "29/11/2025",
-                    "words": 170
                 },
                 {
                     "url": "r10826",
@@ -42697,12 +41707,6 @@ const DBModule = (function () {
                     "words": 431
                 },
                 {
-                    "url": "r10321",
-                    "author": "Alastor Moody",
-                    "date": "04/12/2025",
-                    "words": 285
-                },
-                {
                     "url": "r14037",
                     "author": "Minerva E. McGonagall",
                     "date": "27/02/2026",
@@ -42899,12 +41903,6 @@ const DBModule = (function () {
                     "words": 0
                 },
                 {
-                    "url": "r10328",
-                    "author": "Black Wave",
-                    "date": "05/12/2025",
-                    "words": 170
-                },
-                {
                     "url": "r12347",
                     "author": "Montgomery Thatch",
                     "date": "26/01/2026",
@@ -43023,12 +42021,6 @@ const DBModule = (function () {
                     "author": "The Familiars",
                     "date": "20/02/2026",
                     "words": 0
-                },
-                {
-                    "url": "r10328",
-                    "author": "Black Wave",
-                    "date": "05/12/2025",
-                    "words": 170
                 },
                 {
                     "url": "r13605",
@@ -43767,12 +42759,6 @@ const DBModule = (function () {
                     "words": 0
                 },
                 {
-                    "url": "r10465",
-                    "author": "Hankford B. Diggory",
-                    "date": "06/12/2025",
-                    "words": 402
-                },
-                {
                     "url": "r10848",
                     "author": "Minerva E. McGonagall",
                     "date": "17/12/2025",
@@ -43891,12 +42877,6 @@ const DBModule = (function () {
                     "author": "Minerva E. McGonagall",
                     "date": "23/12/2025",
                     "words": 197
-                },
-                {
-                    "url": "r10465",
-                    "author": "Hankford B. Diggory",
-                    "date": "06/12/2025",
-                    "words": 402
                 },
                 {
                     "url": "r11110",
@@ -44201,12 +43181,6 @@ const DBModule = (function () {
                     "words": 0
                 },
                 {
-                    "url": "r10534",
-                    "author": "Black Wave",
-                    "date": "08/12/2025",
-                    "words": 117
-                },
-                {
                     "url": "r11598",
                     "author": "Alastor Moody",
                     "date": "06/01/2026",
@@ -44325,12 +43299,6 @@ const DBModule = (function () {
                     "author": "Kaoru Satoo",
                     "date": "08/02/2026",
                     "words": 208
-                },
-                {
-                    "url": "r10534",
-                    "author": "Black Wave",
-                    "date": "08/12/2025",
-                    "words": 117
                 },
                 {
                     "url": "r12902",
@@ -44469,12 +43437,6 @@ const DBModule = (function () {
                     "words": 245
                 },
                 {
-                    "url": "r10535",
-                    "author": "Black Wave",
-                    "date": "08/12/2025",
-                    "words": 103
-                },
-                {
                     "url": "r11414",
                     "author": "The Familiars",
                     "date": "03/01/2026",
@@ -44593,12 +43555,6 @@ const DBModule = (function () {
                     "author": "The Familiars",
                     "date": "03/02/2026",
                     "words": 0
-                },
-                {
-                    "url": "r10535",
-                    "author": "Black Wave",
-                    "date": "08/12/2025",
-                    "words": 103
                 },
                 {
                     "url": "r12704",
@@ -44839,12 +43795,6 @@ const DBModule = (function () {
                     "words": 0
                 },
                 {
-                    "url": "r10595",
-                    "author": "Black Wave",
-                    "date": "08/12/2025",
-                    "words": 151
-                },
-                {
                     "url": "r11312",
                     "author": "Jasper R. Gryffith",
                     "date": "28/12/2025",
@@ -44963,12 +43913,6 @@ const DBModule = (function () {
                     "author": "H. Shun Parkinson",
                     "date": "31/01/2026",
                     "words": 345
-                },
-                {
-                    "url": "r10595",
-                    "author": "Black Wave",
-                    "date": "08/12/2025",
-                    "words": 151
                 },
                 {
                     "url": "r12490",
@@ -45295,12 +44239,6 @@ const DBModule = (function () {
                     "author": "Venus M. Merrythought",
                     "date": "08/05/2026",
                     "words": 208
-                },
-                {
-                    "url": "r10678",
-                    "author": "Venus M. Merrythought",
-                    "date": "11/12/2025",
-                    "words": 307
                 },
                 {
                     "url": "r18062",
@@ -45781,12 +44719,6 @@ const DBModule = (function () {
                     "words": 312
                 },
                 {
-                    "url": "r10761",
-                    "author": "Black Wave",
-                    "date": "14/12/2025",
-                    "words": 86
-                },
-                {
                     "url": "r12808",
                     "author": "Theolonius D. Covey",
                     "date": "07/02/2026",
@@ -46041,12 +44973,6 @@ const DBModule = (function () {
                     "words": 287
                 },
                 {
-                    "url": "r10854",
-                    "author": "Neptune E. Merrythought",
-                    "date": "17/12/2025",
-                    "words": 268
-                },
-                {
                     "url": "r13706",
                     "author": "Hermes Rosier",
                     "date": "22/02/2026",
@@ -46181,12 +45107,6 @@ const DBModule = (function () {
                     "author": "The Familiars",
                     "date": "26/02/2026",
                     "words": 0
-                },
-                {
-                    "url": "r10935",
-                    "author": "Hermes Rosier",
-                    "date": "19/12/2025",
-                    "words": 380
                 },
                 {
                     "url": "r14136",
@@ -46361,12 +45281,6 @@ const DBModule = (function () {
                     "words": 417
                 },
                 {
-                    "url": "r10938",
-                    "author": "Ruairidh Ó Mhaille",
-                    "date": "19/12/2025",
-                    "words": 423
-                },
-                {
                     "url": "r16774",
                     "author": "Ruairidh Ó Mhaille",
                     "date": "20/04/2026",
@@ -46507,12 +45421,6 @@ const DBModule = (function () {
                     "author": "The Familiars",
                     "date": "12/03/2026",
                     "words": 0
-                },
-                {
-                    "url": "r10991",
-                    "author": "Jasper R. Gryffith",
-                    "date": "21/12/2025",
-                    "words": 278
                 },
                 {
                     "url": "r15474",
@@ -47315,12 +46223,6 @@ const DBModule = (function () {
                     "words": 379
                 },
                 {
-                    "url": "r11472",
-                    "author": "Hankford B. Diggory",
-                    "date": "04/01/2026",
-                    "words": 237
-                },
-                {
                     "url": "r16266",
                     "author": "Montgomery Thatch",
                     "date": "08/04/2026",
@@ -47699,12 +46601,6 @@ const DBModule = (function () {
                     "words": 451
                 },
                 {
-                    "url": "r11552",
-                    "author": "Hankford B. Diggory",
-                    "date": "05/01/2026",
-                    "words": 221
-                },
-                {
                     "url": "r17917",
                     "author": "Findlay McCrory",
                     "date": "08/05/2026",
@@ -47972,12 +46868,6 @@ const DBModule = (function () {
                     "words": 0
                 },
                 {
-                    "url": "r11591",
-                    "author": "Black Wave",
-                    "date": "06/01/2026",
-                    "words": 170
-                },
-                {
                     "url": "r16995",
                     "author": "Neptune E. Merrythought",
                     "date": "26/04/2026",
@@ -48096,12 +46986,6 @@ const DBModule = (function () {
                     "author": "The Familiars",
                     "date": "23/08/2026",
                     "words": 0
-                },
-                {
-                    "url": "r11591",
-                    "author": "Black Wave",
-                    "date": "06/01/2026",
-                    "words": 170
                 },
                 {
                     "url": "r22316",
@@ -48288,12 +47172,6 @@ const DBModule = (function () {
                     "words": 0
                 },
                 {
-                    "url": "r11593",
-                    "author": "Black Wave",
-                    "date": "06/01/2026",
-                    "words": 170
-                },
-                {
                     "url": "r13024",
                     "author": "Findlay McCrory",
                     "date": "11/02/2026",
@@ -48434,12 +47312,6 @@ const DBModule = (function () {
                     "author": "Alastor Moody",
                     "date": "15/02/2026",
                     "words": 304
-                },
-                {
-                    "url": "r11610",
-                    "author": "Amanirenas Shafiq",
-                    "date": "07/01/2026",
-                    "words": 378
                 },
                 {
                     "url": "r13285",
@@ -48902,12 +47774,6 @@ const DBModule = (function () {
                     "words": 0
                 },
                 {
-                    "url": "r11784",
-                    "author": "Montgomery Thatch",
-                    "date": "12/01/2026",
-                    "words": 499
-                },
-                {
                     "url": "r14107",
                     "author": "Minerva E. McGonagall",
                     "date": "28/02/2026",
@@ -49180,12 +48046,6 @@ const DBModule = (function () {
                     "words": 279
                 },
                 {
-                    "url": "r11802",
-                    "author": "Regulus O. Black",
-                    "date": "13/01/2026",
-                    "words": 251
-                },
-                {
                     "url": "r17048",
                     "author": "Alastor Moody",
                     "date": "27/04/2026",
@@ -49320,12 +48180,6 @@ const DBModule = (function () {
                     "author": "Hermes Rosier",
                     "date": "15/04/2026",
                     "words": 392
-                },
-                {
-                    "url": "r11817",
-                    "author": "Hankford B. Diggory",
-                    "date": "14/01/2026",
-                    "words": 305
                 },
                 {
                     "url": "r16941",
@@ -49886,12 +48740,6 @@ const DBModule = (function () {
                     "author": "Helena Salazar",
                     "date": "12/02/2026",
                     "words": 234
-                },
-                {
-                    "url": "r11903",
-                    "author": "Ruairidh Ó Mhaille",
-                    "date": "16/01/2026",
-                    "words": 422
                 },
                 {
                     "url": "r13237",
@@ -50500,12 +49348,6 @@ const DBModule = (function () {
                     "words": 335
                 },
                 {
-                    "url": "r12201",
-                    "author": "Vasilisa M. Kuznetzova",
-                    "date": "23/01/2026",
-                    "words": 331
-                },
-                {
                     "url": "r21639",
                     "author": "Vasilisa M. Kuznetzova",
                     "date": "09/08/2026",
@@ -50654,12 +49496,6 @@ const DBModule = (function () {
                     "words": 210
                 },
                 {
-                    "url": "r12213",
-                    "author": "Black Wave",
-                    "date": "23/01/2026",
-                    "words": 175
-                },
-                {
                     "url": "r12860",
                     "author": "The Familiars",
                     "date": "08/02/2026",
@@ -50778,12 +49614,6 @@ const DBModule = (function () {
                     "author": "Theolonius D. Covey",
                     "date": "12/03/2026",
                     "words": 326
-                },
-                {
-                    "url": "r12213",
-                    "author": "Black Wave",
-                    "date": "23/01/2026",
-                    "words": 175
                 },
                 {
                     "url": "r14792",
@@ -50906,12 +49736,6 @@ const DBModule = (function () {
                     "words": 233
                 },
                 {
-                    "url": "r12213",
-                    "author": "Black Wave",
-                    "date": "23/01/2026",
-                    "words": 175
-                },
-                {
                     "url": "r16084",
                     "author": "The Familiars",
                     "date": "03/04/2026",
@@ -51030,12 +49854,6 @@ const DBModule = (function () {
                     "author": "The Familiars",
                     "date": "15/04/2026",
                     "words": 0
-                },
-                {
-                    "url": "r12213",
-                    "author": "Black Wave",
-                    "date": "23/01/2026",
-                    "words": 175
                 },
                 {
                     "url": "r16551",
@@ -51210,12 +50028,6 @@ const DBModule = (function () {
                     "words": 0
                 },
                 {
-                    "url": "r12214",
-                    "author": "Black Wave",
-                    "date": "23/01/2026",
-                    "words": 135
-                },
-                {
                     "url": "r13619",
                     "author": "Aidan N. Flamel",
                     "date": "20/02/2026",
@@ -51334,12 +50146,6 @@ const DBModule = (function () {
                     "author": "The Familiars",
                     "date": "10/03/2026",
                     "words": 0
-                },
-                {
-                    "url": "r12214",
-                    "author": "Black Wave",
-                    "date": "23/01/2026",
-                    "words": 135
                 },
                 {
                     "url": "r14708",
@@ -51462,12 +50268,6 @@ const DBModule = (function () {
                     "words": 0
                 },
                 {
-                    "url": "r12214",
-                    "author": "Black Wave",
-                    "date": "23/01/2026",
-                    "words": 135
-                },
-                {
                     "url": "r15329",
                     "author": "Minerva E. McGonagall",
                     "date": "23/03/2026",
@@ -51586,12 +50386,6 @@ const DBModule = (function () {
                     "author": "Minerva E. McGonagall",
                     "date": "03/04/2026",
                     "words": 238
-                },
-                {
-                    "url": "r12214",
-                    "author": "Black Wave",
-                    "date": "23/01/2026",
-                    "words": 135
                 },
                 {
                     "url": "r16087",
@@ -51714,12 +50508,6 @@ const DBModule = (function () {
                     "words": 0
                 },
                 {
-                    "url": "r12214",
-                    "author": "Black Wave",
-                    "date": "23/01/2026",
-                    "words": 135
-                },
-                {
                     "url": "r16840",
                     "author": "Minerva E. McGonagall",
                     "date": "22/04/2026",
@@ -51838,12 +50626,6 @@ const DBModule = (function () {
                     "author": "The Familiars",
                     "date": "06/05/2026",
                     "words": 0
-                },
-                {
-                    "url": "r12214",
-                    "author": "Black Wave",
-                    "date": "23/01/2026",
-                    "words": 135
                 },
                 {
                     "url": "r17857",
@@ -52012,12 +50794,6 @@ const DBModule = (function () {
                     "words": 295
                 },
                 {
-                    "url": "r12215",
-                    "author": "Black Wave",
-                    "date": "23/01/2026",
-                    "words": 126
-                },
-                {
                     "url": "r12546",
                     "author": "The Familiars",
                     "date": "01/02/2026",
@@ -52138,12 +50914,6 @@ const DBModule = (function () {
                     "words": 201
                 },
                 {
-                    "url": "r12215",
-                    "author": "Black Wave",
-                    "date": "23/01/2026",
-                    "words": 126
-                },
-                {
                     "url": "r14467",
                     "author": "The Familiars",
                     "date": "05/03/2026",
@@ -52262,12 +51032,6 @@ const DBModule = (function () {
                     "author": "The Familiars",
                     "date": "20/03/2026",
                     "words": 0
-                },
-                {
-                    "url": "r12215",
-                    "author": "Black Wave",
-                    "date": "23/01/2026",
-                    "words": 126
                 },
                 {
                     "url": "r15328",
@@ -52434,12 +51198,6 @@ const DBModule = (function () {
                     "author": "Victor Cavendish",
                     "date": "05/02/2026",
                     "words": 318
-                },
-                {
-                    "url": "r12216",
-                    "author": "Black Wave",
-                    "date": "23/01/2026",
-                    "words": 168
                 },
                 {
                     "url": "r12725",
@@ -52624,12 +51382,6 @@ const DBModule = (function () {
                     "author": "Mercury Merrythought",
                     "date": "18/05/2026",
                     "words": 626
-                },
-                {
-                    "url": "r12502",
-                    "author": "Neptune E. Merrythought",
-                    "date": "31/01/2026",
-                    "words": 300
                 },
                 {
                     "url": "r19252",
@@ -53204,12 +51956,6 @@ const DBModule = (function () {
                     "words": 289
                 },
                 {
-                    "url": "r12747",
-                    "author": "H. Shun Parkinson",
-                    "date": "06/02/2026",
-                    "words": 225
-                },
-                {
                     "url": "r15744",
                     "author": "The Familiars",
                     "date": "29/03/2026",
@@ -53458,12 +52204,6 @@ const DBModule = (function () {
                     "words": 356
                 },
                 {
-                    "url": "r12855",
-                    "author": "Hermes Rosier",
-                    "date": "07/02/2026",
-                    "words": 631
-                },
-                {
                     "url": "r14463",
                     "author": "Thaddeus L. Nott",
                     "date": "05/03/2026",
@@ -53584,12 +52324,6 @@ const DBModule = (function () {
                     "words": 0
                 },
                 {
-                    "url": "r12855",
-                    "author": "Hermes Rosier",
-                    "date": "07/02/2026",
-                    "words": 631
-                },
-                {
                     "url": "r15461",
                     "author": "Ishwar S. Patil",
                     "date": "25/03/2026",
@@ -53708,12 +52442,6 @@ const DBModule = (function () {
                     "author": "The Familiars",
                     "date": "27/03/2026",
                     "words": 0
-                },
-                {
-                    "url": "r12855",
-                    "author": "Hermes Rosier",
-                    "date": "07/02/2026",
-                    "words": 631
                 },
                 {
                     "url": "r15599",
@@ -54360,12 +53088,6 @@ const DBModule = (function () {
                     "words": 415
                 },
                 {
-                    "url": "r12996",
-                    "author": "Neptune E. Merrythought",
-                    "date": "11/02/2026",
-                    "words": 237
-                },
-                {
                     "url": "r19753",
                     "author": "Findlay McCrory",
                     "date": "09/06/2026",
@@ -54608,12 +53330,6 @@ const DBModule = (function () {
                     "words": 434
                 },
                 {
-                    "url": "r13086",
-                    "author": "Montgomery Thatch",
-                    "date": "12/02/2026",
-                    "words": 222
-                },
-                {
                     "url": "r17126",
                     "author": "The Familiars",
                     "date": "29/04/2026",
@@ -54772,12 +53488,6 @@ const DBModule = (function () {
                     "author": "Alastor Moody",
                     "date": "06/04/2026",
                     "words": 297
-                },
-                {
-                    "url": "r13148",
-                    "author": "H. Shun Parkinson",
-                    "date": "13/02/2026",
-                    "words": 206
                 },
                 {
                     "url": "r16664",
@@ -54944,12 +53654,6 @@ const DBModule = (function () {
                     "author": "The Familiars",
                     "date": "05/05/2026",
                     "words": 0
-                },
-                {
-                    "url": "r13194",
-                    "author": "Regulus O. Black",
-                    "date": "15/02/2026",
-                    "words": 252
                 },
                 {
                     "url": "r17694",
@@ -55148,12 +53852,6 @@ const DBModule = (function () {
                     "words": 192
                 },
                 {
-                    "url": "r13205",
-                    "author": "Ksenia D. Demidova",
-                    "date": "15/02/2026",
-                    "words": 202
-                },
-                {
                     "url": "r13250",
                     "author": "The Familiars",
                     "date": "15/02/2026",
@@ -55332,12 +54030,6 @@ const DBModule = (function () {
                     "words": 324
                 },
                 {
-                    "url": "r13280",
-                    "author": "Black Wave",
-                    "date": "16/02/2026",
-                    "words": 242
-                },
-                {
                     "url": "r16142",
                     "author": "H. Shun Parkinson",
                     "date": "06/04/2026",
@@ -55456,12 +54148,6 @@ const DBModule = (function () {
                     "author": "Valerian",
                     "date": "01/06/2026",
                     "words": 306
-                },
-                {
-                    "url": "r13280",
-                    "author": "Black Wave",
-                    "date": "16/02/2026",
-                    "words": 242
                 },
                 {
                     "url": "r19508",
@@ -55636,12 +54322,6 @@ const DBModule = (function () {
                     "words": 259
                 },
                 {
-                    "url": "r13281",
-                    "author": "Black Wave",
-                    "date": "16/02/2026",
-                    "words": 294
-                },
-                {
                     "url": "r14229",
                     "author": "The Familiars",
                     "date": "02/03/2026",
@@ -55760,12 +54440,6 @@ const DBModule = (function () {
                     "author": "The Familiars",
                     "date": "31/03/2026",
                     "words": 0
-                },
-                {
-                    "url": "r13281",
-                    "author": "Black Wave",
-                    "date": "16/02/2026",
-                    "words": 294
                 },
                 {
                     "url": "r16172",
@@ -55980,12 +54654,6 @@ const DBModule = (function () {
                     "author": "Valerian",
                     "date": "20/04/2026",
                     "words": 456
-                },
-                {
-                    "url": "r13282",
-                    "author": "Black Wave",
-                    "date": "16/02/2026",
-                    "words": 193
                 },
                 {
                     "url": "r16804",
@@ -56254,12 +54922,6 @@ const DBModule = (function () {
                     "words": 194
                 },
                 {
-                    "url": "r13447",
-                    "author": "Black Wave",
-                    "date": "18/02/2026",
-                    "words": 163
-                },
-                {
                     "url": "r13793",
                     "author": "The Familiars",
                     "date": "23/02/2026",
@@ -56450,12 +55112,6 @@ const DBModule = (function () {
                     "words": 214
                 },
                 {
-                    "url": "r13448",
-                    "author": "Black Wave",
-                    "date": "18/02/2026",
-                    "words": 169
-                },
-                {
                     "url": "r13860",
                     "author": "The Familiars",
                     "date": "24/02/2026",
@@ -56574,12 +55230,6 @@ const DBModule = (function () {
                     "author": "The Familiars",
                     "date": "28/02/2026",
                     "words": 0
-                },
-                {
-                    "url": "r13448",
-                    "author": "Black Wave",
-                    "date": "18/02/2026",
-                    "words": 169
                 },
                 {
                     "url": "r14152",
@@ -56770,12 +55420,6 @@ const DBModule = (function () {
                     "author": "Victor Cavendish",
                     "date": "26/02/2026",
                     "words": 208
-                },
-                {
-                    "url": "r13449",
-                    "author": "Black Wave",
-                    "date": "18/02/2026",
-                    "words": 139
                 },
                 {
                     "url": "r14024",
@@ -57096,12 +55740,6 @@ const DBModule = (function () {
                     "words": 231
                 },
                 {
-                    "url": "r13452",
-                    "author": "Black Wave",
-                    "date": "18/02/2026",
-                    "words": 144
-                },
-                {
                     "url": "r16030",
                     "author": "The Familiars",
                     "date": "02/04/2026",
@@ -57254,12 +55892,6 @@ const DBModule = (function () {
                     "author": "Hankford B. Diggory",
                     "date": "20/04/2026",
                     "words": 266
-                },
-                {
-                    "url": "r13453",
-                    "author": "Black Wave",
-                    "date": "18/02/2026",
-                    "words": 122
                 },
                 {
                     "url": "r16758",
@@ -57646,12 +56278,6 @@ const DBModule = (function () {
                     "words": 317
                 },
                 {
-                    "url": "r13761",
-                    "author": "Black Wave",
-                    "date": "23/02/2026",
-                    "words": 138
-                },
-                {
                     "url": "r15234",
                     "author": "Cuthbert S. Selwyn",
                     "date": "20/03/2026",
@@ -57770,12 +56396,6 @@ const DBModule = (function () {
                     "author": "The Familiars",
                     "date": "16/04/2026",
                     "words": 0
-                },
-                {
-                    "url": "r13761",
-                    "author": "Black Wave",
-                    "date": "23/02/2026",
-                    "words": 138
                 },
                 {
                     "url": "r16610",
@@ -58004,12 +56624,6 @@ const DBModule = (function () {
                     "words": 372
                 },
                 {
-                    "url": "r13762",
-                    "author": "Black Wave",
-                    "date": "23/02/2026",
-                    "words": 157
-                },
-                {
                     "url": "r16315",
                     "author": "Jupiter Merrythought",
                     "date": "10/04/2026",
@@ -58156,12 +56770,6 @@ const DBModule = (function () {
                     "author": "Minerva E. McGonagall",
                     "date": "16/03/2026",
                     "words": 196
-                },
-                {
-                    "url": "r13815",
-                    "author": "Black Wave",
-                    "date": "24/02/2026",
-                    "words": 172
                 },
                 {
                     "url": "r15033",
@@ -58706,12 +57314,6 @@ const DBModule = (function () {
                     "words": 0
                 },
                 {
-                    "url": "r14058",
-                    "author": "Ruairidh Ó Mhaille",
-                    "date": "27/02/2026",
-                    "words": 276
-                },
-                {
                     "url": "r21557",
                     "author": "Montgomery Thatch",
                     "date": "08/08/2026",
@@ -58972,12 +57574,6 @@ const DBModule = (function () {
                     "words": 0
                 },
                 {
-                    "url": "r14116",
-                    "author": "Minerva E. McGonagall",
-                    "date": "28/02/2026",
-                    "words": 265
-                },
-                {
                     "url": "r17621",
                     "author": "Minerva E. McGonagall",
                     "date": "04/05/2026",
@@ -59155,12 +57751,6 @@ const DBModule = (function () {
                     "author": "Viridian L. Greengrass",
                     "date": "05/08/2026",
                     "words": 354
-                },
-                {
-                    "url": "r14120",
-                    "author": "Minerva E. McGonagall",
-                    "date": "28/02/2026",
-                    "words": 252
                 },
                 {
                     "url": "r21500",
@@ -59415,12 +58005,6 @@ const DBModule = (function () {
                     "author": "Hermes Rosier",
                     "date": "27/05/2026",
                     "words": 262
-                },
-                {
-                    "url": "r14163",
-                    "author": "Neptune E. Merrythought",
-                    "date": "01/03/2026",
-                    "words": 202
                 },
                 {
                     "url": "r19076",
@@ -59865,12 +58449,6 @@ const DBModule = (function () {
                     "words": 261
                 },
                 {
-                    "url": "r14410",
-                    "author": "Barnaby R. Rookwood",
-                    "date": "04/03/2026",
-                    "words": 229
-                },
-                {
                     "url": "r17977",
                     "author": "The Familiars",
                     "date": "09/05/2026",
@@ -60060,12 +58638,6 @@ const DBModule = (function () {
                     "author": "Jasper R. Gryffith",
                     "date": "11/06/2026",
                     "words": 491
-                },
-                {
-                    "url": "r14510",
-                    "author": "Jupiter Merrythought",
-                    "date": "05/03/2026",
-                    "words": 312
                 },
                 {
                     "url": "r19814",
@@ -60856,12 +59428,6 @@ const DBModule = (function () {
                     "words": 323
                 },
                 {
-                    "url": "r14728",
-                    "author": "Aidan N. Flamel",
-                    "date": "10/03/2026",
-                    "words": 510
-                },
-                {
                     "url": "r14890",
                     "author": "The Familiars",
                     "date": "14/03/2026",
@@ -61452,12 +60018,6 @@ const DBModule = (function () {
                     "words": 0
                 },
                 {
-                    "url": "r14769",
-                    "author": "Black Wave",
-                    "date": "11/03/2026",
-                    "words": 200
-                },
-                {
                     "url": "r16696",
                     "author": "Montgomery Thatch",
                     "date": "19/04/2026",
@@ -61652,12 +60212,6 @@ const DBModule = (function () {
                     "author": "Hermes Rosier",
                     "date": "27/05/2026",
                     "words": 448
-                },
-                {
-                    "url": "r15130",
-                    "author": "Hermes Rosier",
-                    "date": "17/03/2026",
-                    "words": 389
                 },
                 {
                     "url": "r19141",
@@ -62138,12 +60692,6 @@ const DBModule = (function () {
                     "words": 282
                 },
                 {
-                    "url": "r15292",
-                    "author": "Black Wave",
-                    "date": "22/03/2026",
-                    "words": 214
-                },
-                {
                     "url": "r16912",
                     "author": "Hermes Rosier",
                     "date": "24/04/2026",
@@ -62340,12 +60888,6 @@ const DBModule = (function () {
                     "words": 187
                 },
                 {
-                    "url": "r15293",
-                    "author": "Black Wave",
-                    "date": "22/03/2026",
-                    "words": 170
-                },
-                {
                     "url": "r15776",
                     "author": "The Familiars",
                     "date": "30/03/2026",
@@ -62466,12 +61008,6 @@ const DBModule = (function () {
                     "words": 0
                 },
                 {
-                    "url": "r15293",
-                    "author": "Black Wave",
-                    "date": "22/03/2026",
-                    "words": 170
-                },
-                {
                     "url": "r16273",
                     "author": "Gavril A. Ollivander",
                     "date": "09/04/2026",
@@ -62590,12 +61126,6 @@ const DBModule = (function () {
                     "author": "The Familiars",
                     "date": "21/04/2026",
                     "words": 0
-                },
-                {
-                    "url": "r15293",
-                    "author": "Black Wave",
-                    "date": "22/03/2026",
-                    "words": 170
                 },
                 {
                     "url": "r16881",
@@ -62978,12 +61508,6 @@ const DBModule = (function () {
                     "words": 200
                 },
                 {
-                    "url": "r15482",
-                    "author": "Hermes Rosier",
-                    "date": "26/03/2026",
-                    "words": 254
-                },
-                {
                     "url": "r20626",
                     "author": "Hermes Rosier",
                     "date": "10/07/2026",
@@ -63119,12 +61643,6 @@ const DBModule = (function () {
                     "author": "Minerva E. McGonagall",
                     "date": "Dom Mayo 31, 2026 1:30 pm",
                     "words": 354
-                },
-                {
-                    "url": "r15690",
-                    "author": "Minerva E. McGonagall",
-                    "date": "Sáb Mar 28, 2026 6:18 pm",
-                    "words": 310
                 },
                 {
                     "url": "r19381",
@@ -63369,12 +61887,6 @@ const DBModule = (function () {
                     "author": "The Familiars",
                     "date": "25/05/2026",
                     "words": 0
-                },
-                {
-                    "url": "r15692",
-                    "author": "Minerva E. McGonagall",
-                    "date": "28/03/2026",
-                    "words": 291
                 },
                 {
                     "url": "r18932",
@@ -63739,12 +62251,6 @@ const DBModule = (function () {
                     "words": 323
                 },
                 {
-                    "url": "r15861",
-                    "author": "Jupiter Merrythought",
-                    "date": "31/03/2026",
-                    "words": 250
-                },
-                {
                     "url": "r17750",
                     "author": "The Familiars",
                     "date": "06/05/2026",
@@ -64004,12 +62510,6 @@ const DBModule = (function () {
                     "author": "Jupiter Merrythought",
                     "date": "09/08/2026",
                     "words": 318
-                },
-                {
-                    "url": "r16033",
-                    "author": "Neptune E. Merrythought",
-                    "date": "02/04/2026",
-                    "words": 243
                 },
                 {
                     "url": "r22041",
@@ -64397,12 +62897,6 @@ const DBModule = (function () {
                     "words": 314
                 },
                 {
-                    "url": "r16160",
-                    "author": "Sloane N. Greengrass",
-                    "date": "06/04/2026",
-                    "words": 306
-                },
-                {
                     "url": "r19911",
                     "author": "The Familiars",
                     "date": "14/06/2026",
@@ -64764,12 +63258,6 @@ const DBModule = (function () {
                     "words": 0
                 },
                 {
-                    "url": "r16384",
-                    "author": "Findlay McCrory",
-                    "date": "12/04/2026",
-                    "words": 200
-                },
-                {
                     "url": "r20609",
                     "author": "Findlay McCrory",
                     "date": "09/07/2026",
@@ -65085,12 +63573,6 @@ const DBModule = (function () {
                     "words": 0
                 },
                 {
-                    "url": "r16390",
-                    "author": "Black Wave",
-                    "date": "13/04/2026",
-                    "words": 440
-                },
-                {
                     "url": "r17098",
                     "author": "Margareth T. Moody",
                     "date": "29/04/2026",
@@ -65209,12 +63691,6 @@ const DBModule = (function () {
                     "author": "The Familiars",
                     "date": "11/05/2026",
                     "words": 0
-                },
-                {
-                    "url": "r16390",
-                    "author": "Black Wave",
-                    "date": "13/04/2026",
-                    "words": 440
                 },
                 {
                     "url": "r18190",
@@ -65363,12 +63839,6 @@ const DBModule = (function () {
                     "author": "Alastor Moody",
                     "date": "02/05/2026",
                     "words": 275
-                },
-                {
-                    "url": "r16391",
-                    "author": "Black Wave",
-                    "date": "13/04/2026",
-                    "words": 563
                 },
                 {
                     "url": "r17413",
@@ -65621,12 +64091,6 @@ const DBModule = (function () {
                     "words": 0
                 },
                 {
-                    "url": "r16392",
-                    "author": "Black Wave",
-                    "date": "13/04/2026",
-                    "words": 362
-                },
-                {
                     "url": "r17135",
                     "author": "Alastor Moody",
                     "date": "29/04/2026",
@@ -65773,12 +64237,6 @@ const DBModule = (function () {
                     "author": "The Familiars",
                     "date": "02/05/2026",
                     "words": 0
-                },
-                {
-                    "url": "r16393",
-                    "author": "Black Wave",
-                    "date": "13/04/2026",
-                    "words": 359
                 },
                 {
                     "url": "r17521",
@@ -66031,12 +64489,6 @@ const DBModule = (function () {
                     "words": 0
                 },
                 {
-                    "url": "r16394",
-                    "author": "Black Wave",
-                    "date": "13/04/2026",
-                    "words": 340
-                },
-                {
                     "url": "r16957",
                     "author": "Invitado",
                     "date": "25/04/2026",
@@ -66157,12 +64609,6 @@ const DBModule = (function () {
                     "words": 0
                 },
                 {
-                    "url": "r16394",
-                    "author": "Black Wave",
-                    "date": "13/04/2026",
-                    "words": 340
-                },
-                {
                     "url": "r18811",
                     "author": "Minerva E. McGonagall",
                     "date": "22/05/2026",
@@ -66281,12 +64727,6 @@ const DBModule = (function () {
                     "author": "The Familiars",
                     "date": "28/06/2026",
                     "words": 0
-                },
-                {
-                    "url": "r16394",
-                    "author": "Black Wave",
-                    "date": "13/04/2026",
-                    "words": 340
                 },
                 {
                     "url": "r20359",
@@ -66425,12 +64865,6 @@ const DBModule = (function () {
                     "words": 258
                 },
                 {
-                    "url": "r16395",
-                    "author": "Black Wave",
-                    "date": "13/04/2026",
-                    "words": 508
-                },
-                {
                     "url": "r17095",
                     "author": "The Familiars",
                     "date": "29/04/2026",
@@ -66549,12 +64983,6 @@ const DBModule = (function () {
                     "author": "Viridian L. Greengrass",
                     "date": "12/05/2026",
                     "words": 151
-                },
-                {
-                    "url": "r16395",
-                    "author": "Black Wave",
-                    "date": "13/04/2026",
-                    "words": 508
                 },
                 {
                     "url": "r18551",
@@ -66691,12 +65119,6 @@ const DBModule = (function () {
                     "author": "The Familiars",
                     "date": "03/05/2026",
                     "words": 0
-                },
-                {
-                    "url": "r16396",
-                    "author": "Black Wave",
-                    "date": "13/04/2026",
-                    "words": 305
                 },
                 {
                     "url": "r17697",
@@ -66969,12 +65391,6 @@ const DBModule = (function () {
                     "words": 306
                 },
                 {
-                    "url": "r16567",
-                    "author": "Jupiter Merrythought",
-                    "date": "15/04/2026",
-                    "words": 188
-                },
-                {
                     "url": "r21722",
                     "author": "H. Shun Parkinson",
                     "date": "12/08/2026",
@@ -67109,12 +65525,6 @@ const DBModule = (function () {
                     "author": "Alastor Moody",
                     "date": "18/05/2026",
                     "words": 186
-                },
-                {
-                    "url": "r16635",
-                    "author": "Sloane N. Greengrass",
-                    "date": "18/04/2026",
-                    "words": 292
                 },
                 {
                     "url": "r18936",
@@ -67265,12 +65675,6 @@ const DBModule = (function () {
                     "words": 233
                 },
                 {
-                    "url": "r16735",
-                    "author": "Black Wave",
-                    "date": "20/04/2026",
-                    "words": 239
-                },
-                {
                     "url": "r18701",
                     "author": "Jasper R. Gryffith",
                     "date": "20/05/2026",
@@ -67389,12 +65793,6 @@ const DBModule = (function () {
                     "author": "Valerian",
                     "date": "22/06/2026",
                     "words": 689
-                },
-                {
-                    "url": "r16735",
-                    "author": "Black Wave",
-                    "date": "20/04/2026",
-                    "words": 239
                 },
                 {
                     "url": "r20192",
@@ -67615,12 +66013,6 @@ const DBModule = (function () {
                     "author": "Gavril A. Ollivander",
                     "date": "10/05/2026",
                     "words": 342
-                },
-                {
-                    "url": "r16736",
-                    "author": "Black Wave",
-                    "date": "20/04/2026",
-                    "words": 219
                 },
                 {
                     "url": "r18233",
@@ -68013,12 +66405,6 @@ const DBModule = (function () {
                     "author": "Findlay McCrory",
                     "date": "Lun Ago 10, 2026 11:35 am",
                     "words": 320
-                },
-                {
-                    "url": "r17034",
-                    "author": "Minerva E. McGonagall",
-                    "date": "Lun Abr 27, 2026 10:19 am",
-                    "words": 300
                 },
                 {
                     "url": "r21981",
@@ -68441,12 +66827,6 @@ const DBModule = (function () {
                     "words": 270
                 },
                 {
-                    "url": "r17612",
-                    "author": "Alastor Moody",
-                    "date": "04/05/2026",
-                    "words": 287
-                },
-                {
                     "url": "r19925",
                     "author": "The Familiars",
                     "date": "15/06/2026",
@@ -68713,12 +67093,6 @@ const DBModule = (function () {
                     "words": 0
                 },
                 {
-                    "url": "r17712",
-                    "author": "Black Wave",
-                    "date": "06/05/2026",
-                    "words": 156
-                },
-                {
                     "url": "r20945",
                     "author": "Thaddeus L. Nott",
                     "date": "21/07/2026",
@@ -68903,12 +67277,6 @@ const DBModule = (function () {
                     "words": 241
                 },
                 {
-                    "url": "r17715",
-                    "author": "Black Wave",
-                    "date": "06/05/2026",
-                    "words": 218
-                },
-                {
                     "url": "r18283",
                     "author": "The Familiars",
                     "date": "13/05/2026",
@@ -69027,12 +67395,6 @@ const DBModule = (function () {
                     "author": "The Familiars",
                     "date": "21/05/2026",
                     "words": 0
-                },
-                {
-                    "url": "r17715",
-                    "author": "Black Wave",
-                    "date": "06/05/2026",
-                    "words": 218
                 },
                 {
                     "url": "r18817",
@@ -69155,12 +67517,6 @@ const DBModule = (function () {
                     "words": 265
                 },
                 {
-                    "url": "r17715",
-                    "author": "Black Wave",
-                    "date": "06/05/2026",
-                    "words": 218
-                },
-                {
                     "url": "r19894",
                     "author": "The Familiars",
                     "date": "14/06/2026",
@@ -69279,12 +67635,6 @@ const DBModule = (function () {
                     "author": "Mercury Merrythought",
                     "date": "09/07/2026",
                     "words": 245
-                },
-                {
-                    "url": "r17715",
-                    "author": "Black Wave",
-                    "date": "06/05/2026",
-                    "words": 218
                 },
                 {
                     "url": "r20608",
@@ -69407,12 +67757,6 @@ const DBModule = (function () {
                     "words": 292
                 },
                 {
-                    "url": "r17715",
-                    "author": "Black Wave",
-                    "date": "06/05/2026",
-                    "words": 218
-                },
-                {
                     "url": "r21388",
                     "author": "The Familiars",
                     "date": "03/08/2026",
@@ -69531,12 +67875,6 @@ const DBModule = (function () {
                     "author": "Jupiter Merrythought",
                     "date": "20/08/2026",
                     "words": 318
-                },
-                {
-                    "url": "r17715",
-                    "author": "Black Wave",
-                    "date": "06/05/2026",
-                    "words": 218
                 },
                 {
                     "url": "r22007",
@@ -69799,12 +68137,6 @@ const DBModule = (function () {
                     "words": 381
                 },
                 {
-                    "url": "r17779",
-                    "author": "Neptune E. Merrythought",
-                    "date": "07/05/2026",
-                    "words": 207
-                },
-                {
                     "url": "r21604",
                     "author": "The Familiars",
                     "date": "09/08/2026",
@@ -69963,12 +68295,6 @@ const DBModule = (function () {
                     "author": "Ruairidh Ó Mhaille",
                     "date": "15/07/2026",
                     "words": 281
-                },
-                {
-                    "url": "r17829",
-                    "author": "Ruairidh Ó Mhaille",
-                    "date": "07/05/2026",
-                    "words": 188
                 },
                 {
                     "url": "r20902",
@@ -70307,12 +68633,6 @@ const DBModule = (function () {
                     "words": 170
                 },
                 {
-                    "url": "r18114",
-                    "author": "Black Wave",
-                    "date": "11/05/2026",
-                    "words": 225
-                },
-                {
                     "url": "r19596",
                     "author": "The Familiars",
                     "date": "04/06/2026",
@@ -70516,12 +68836,6 @@ const DBModule = (function () {
                     "words": 197
                 },
                 {
-                    "url": "r18115",
-                    "author": "Black Wave",
-                    "date": "Dom Mayo 10, 2026 10:36 pm",
-                    "words": 187
-                },
-                {
                     "url": "r18962",
                     "author": "The Familiars",
                     "date": "Mar Mayo 26, 2026 12:17 am",
@@ -70640,12 +68954,6 @@ const DBModule = (function () {
                     "author": "The Familiars",
                     "date": "Jue Jun 11, 2026 4:39 am",
                     "words": 0
-                },
-                {
-                    "url": "r18115",
-                    "author": "Black Wave",
-                    "date": "Dom Mayo 10, 2026 10:36 pm",
-                    "words": 187
                 },
                 {
                     "url": "r19891",
@@ -70768,12 +69076,6 @@ const DBModule = (function () {
                     "words": 0
                 },
                 {
-                    "url": "r18115",
-                    "author": "Black Wave",
-                    "date": "Dom Mayo 10, 2026 10:36 pm",
-                    "words": 187
-                },
-                {
                     "url": "r20569",
                     "author": "Jupiter Merrythought",
                     "date": "Lun Jul 06, 2026 8:51 am",
@@ -70892,12 +69194,6 @@ const DBModule = (function () {
                     "author": "The Familiars",
                     "date": "Jue Jul 30, 2026 8:37 am",
                     "words": 0
-                },
-                {
-                    "url": "r18115",
-                    "author": "Black Wave",
-                    "date": "Dom Mayo 10, 2026 10:36 pm",
-                    "words": 187
                 },
                 {
                     "url": "r21145",
@@ -71020,12 +69316,6 @@ const DBModule = (function () {
                     "words": 0
                 },
                 {
-                    "url": "r18115",
-                    "author": "Black Wave",
-                    "date": "Dom Mayo 10, 2026 10:36 pm",
-                    "words": 187
-                },
-                {
                     "url": "r21763",
                     "author": "Jupiter Merrythought",
                     "date": "Jue Ago 13, 2026 3:42 am",
@@ -71144,12 +69434,6 @@ const DBModule = (function () {
                     "author": "The Familiars",
                     "date": "Mar Sep 01, 2026 3:39 pm",
                     "words": 0
-                },
-                {
-                    "url": "r18115",
-                    "author": "Black Wave",
-                    "date": "Dom Mayo 10, 2026 10:36 pm",
-                    "words": 187
                 },
                 {
                     "url": "r22409",
@@ -71720,12 +70004,6 @@ const DBModule = (function () {
                     "words": 297
                 },
                 {
-                    "url": "r18570",
-                    "author": "Black Wave",
-                    "date": "18/05/2026",
-                    "words": 240
-                },
-                {
                     "url": "r22058",
                     "author": "Alastor Moody",
                     "date": "21/08/2026",
@@ -71998,12 +70276,6 @@ const DBModule = (function () {
                     "words": 0
                 },
                 {
-                    "url": "r18890",
-                    "author": "Black Wave",
-                    "date": "25/05/2026",
-                    "words": 138
-                },
-                {
                     "url": "r19520",
                     "author": "Jasper R. Gryffith",
                     "date": "02/06/2026",
@@ -72122,12 +70394,6 @@ const DBModule = (function () {
                     "author": "Jasper R. Gryffith",
                     "date": "01/07/2026",
                     "words": 216
-                },
-                {
-                    "url": "r18890",
-                    "author": "Black Wave",
-                    "date": "25/05/2026",
-                    "words": 138
                 },
                 {
                     "url": "r20419",
@@ -72250,12 +70516,6 @@ const DBModule = (function () {
                     "words": 0
                 },
                 {
-                    "url": "r18890",
-                    "author": "Black Wave",
-                    "date": "25/05/2026",
-                    "words": 138
-                },
-                {
                     "url": "r21105",
                     "author": "H. Shun Parkinson",
                     "date": "29/07/2026",
@@ -72374,12 +70634,6 @@ const DBModule = (function () {
                     "author": "Venus M. Merrythought",
                     "date": "16/08/2026",
                     "words": 158
-                },
-                {
-                    "url": "r18890",
-                    "author": "Black Wave",
-                    "date": "25/05/2026",
-                    "words": 138
                 },
                 {
                     "url": "r21901",
@@ -72767,12 +71021,6 @@ const DBModule = (function () {
                     "words": 238
                 },
                 {
-                    "url": "r19785",
-                    "author": "Minerva E. McGonagall",
-                    "date": "Miér Jun 10, 2026 1:33 am",
-                    "words": 324
-                },
-                {
                     "url": "r21218",
                     "author": "The Familiars",
                     "date": "Sáb Ago 01, 2026 5:46 am",
@@ -72957,12 +71205,6 @@ const DBModule = (function () {
                     "words": 198
                 },
                 {
-                    "url": "r19942",
-                    "author": "Black Wave",
-                    "date": "16/06/2026",
-                    "words": 344
-                },
-                {
                     "url": "r20509",
                     "author": "The Familiars",
                     "date": "04/07/2026",
@@ -73081,12 +71323,6 @@ const DBModule = (function () {
                     "author": "Ruairidh Ó Mhaille",
                     "date": "03/08/2026",
                     "words": 258
-                },
-                {
-                    "url": "r19942",
-                    "author": "Black Wave",
-                    "date": "16/06/2026",
-                    "words": 344
                 },
                 {
                     "url": "r21367",
@@ -73279,12 +71515,6 @@ const DBModule = (function () {
                     "words": 0
                 },
                 {
-                    "url": "r19943",
-                    "author": "Black Wave",
-                    "date": "16/06/2026",
-                    "words": 346
-                },
-                {
                     "url": "r20484",
                     "author": "Cuthbert S. Selwyn",
                     "date": "03/07/2026",
@@ -73403,12 +71633,6 @@ const DBModule = (function () {
                     "author": "The Familiars",
                     "date": "20/07/2026",
                     "words": 0
-                },
-                {
-                    "url": "r19943",
-                    "author": "Black Wave",
-                    "date": "16/06/2026",
-                    "words": 346
                 },
                 {
                     "url": "r20970",
@@ -73619,12 +71843,6 @@ const DBModule = (function () {
                     "words": 0
                 },
                 {
-                    "url": "r19944",
-                    "author": "Black Wave",
-                    "date": "16/06/2026",
-                    "words": 344
-                },
-                {
                     "url": "r20504",
                     "author": "Alastor Moody",
                     "date": "04/07/2026",
@@ -73743,12 +71961,6 @@ const DBModule = (function () {
                     "author": "The Familiars",
                     "date": "01/08/2026",
                     "words": 0
-                },
-                {
-                    "url": "r19944",
-                    "author": "Black Wave",
-                    "date": "16/06/2026",
-                    "words": 344
                 },
                 {
                     "url": "r21285",
@@ -73947,12 +72159,6 @@ const DBModule = (function () {
                     "words": 235
                 },
                 {
-                    "url": "r19945",
-                    "author": "Black Wave",
-                    "date": "16/06/2026",
-                    "words": 344
-                },
-                {
                     "url": "r20533",
                     "author": "The Familiars",
                     "date": "05/07/2026",
@@ -74071,12 +72277,6 @@ const DBModule = (function () {
                     "author": "Orion A. Black",
                     "date": "03/08/2026",
                     "words": 195
-                },
-                {
-                    "url": "r19945",
-                    "author": "Black Wave",
-                    "date": "16/06/2026",
-                    "words": 344
                 },
                 {
                     "url": "r21349",
@@ -74222,12 +72422,6 @@ const DBModule = (function () {
                     "words": 367
                 },
                 {
-                    "url": "r19946",
-                    "author": "Black Wave",
-                    "date": "16/06/2026",
-                    "words": 347
-                },
-                {
                     "url": "r20431",
                     "author": "The Familiars",
                     "date": "02/07/2026",
@@ -74348,12 +72542,6 @@ const DBModule = (function () {
                     "words": 194
                 },
                 {
-                    "url": "r19946",
-                    "author": "Black Wave",
-                    "date": "16/06/2026",
-                    "words": 347
-                },
-                {
                     "url": "r21461",
                     "author": "The Familiars",
                     "date": "04/08/2026",
@@ -74472,12 +72660,6 @@ const DBModule = (function () {
                     "author": "Vasilisa M. Kuznetzova",
                     "date": "07/09/2026",
                     "words": 148
-                },
-                {
-                    "url": "r19946",
-                    "author": "Black Wave",
-                    "date": "16/06/2026",
-                    "words": 347
                 },
                 {
                     "url": "r22622",
@@ -74646,12 +72828,6 @@ const DBModule = (function () {
                     "words": 164
                 },
                 {
-                    "url": "r19947",
-                    "author": "Black Wave",
-                    "date": "16/06/2026",
-                    "words": 344
-                },
-                {
                     "url": "r20415",
                     "author": "The Familiars",
                     "date": "01/07/2026",
@@ -74770,12 +72946,6 @@ const DBModule = (function () {
                     "author": "Owen Fitzgerald",
                     "date": "01/08/2026",
                     "words": 194
-                },
-                {
-                    "url": "r19947",
-                    "author": "Black Wave",
-                    "date": "16/06/2026",
-                    "words": 344
                 },
                 {
                     "url": "r21213",
@@ -74993,12 +73163,6 @@ const DBModule = (function () {
                     "words": 0
                 },
                 {
-                    "url": "r20362",
-                    "author": "Black Wave",
-                    "date": "Dom Jun 28, 2026 10:48 pm",
-                    "words": 138
-                },
-                {
                     "url": "r21480",
                     "author": "Theolonius D. Covey",
                     "date": "Mar Ago 04, 2026 9:38 pm",
@@ -75117,12 +73281,6 @@ const DBModule = (function () {
                     "author": "Orion A. Black",
                     "date": "Mar Sep 01, 2026 11:49 pm",
                     "words": 265
-                },
-                {
-                    "url": "r20362",
-                    "author": "Black Wave",
-                    "date": "Dom Jun 28, 2026 10:48 pm",
-                    "words": 138
                 },
                 {
                     "url": "r22408",
@@ -75277,12 +73435,6 @@ const DBModule = (function () {
                     "author": "Jupiter Merrythought",
                     "date": "26/07/2026",
                     "words": 371
-                },
-                {
-                    "url": "r20787",
-                    "author": "Elysia G. Lestrange",
-                    "date": "15/07/2026",
-                    "words": 321
                 },
                 {
                     "url": "r21047",
@@ -75697,8 +73849,6 @@ const DBModule = (function () {
             "location": "Arena Dush"
         }
     };
-    // Temas de "temas inactivos" congelados (+90 días sin posts o sin compañero de rol).
-    // Solo se saltean mientras sigan en ese foro con el mismo replyCount: si los mueven o responden, se releen.
     const hardcodedInactiveTopics = {
         "94": {
             "space": "temas inactivos",
@@ -166482,6 +164632,9 @@ const DBModule = (function () {
             const postId = $post.find('.go-to').attr('id');
             const postDateText = $post.find('.post-action span[title]').attr('title');
 
+            // FA repite el primer post arriba de cada página: si ya lo guardamos, ni el post ni sus dados se vuelven a sumar
+            if (postId && dynamicData.topics[topicKey]?.posts.some(p => p.url === `r${postId}`)) continue;
+
             if (!dynamicData.topics[topicKey]?.date) {
                 let ambientDate = normalizeDate(originalTitle);
                 if (ambientDate === originalTitle) {
@@ -166837,6 +164990,15 @@ const DBModule = (function () {
                 } else if (!cleanTopics[trueKey].posts) {
                     cleanTopics[trueKey].posts = [];
                 }
+
+                // Cachés viejas pueden traer el primer post repetido por página: nos quedamos con la primera aparición
+                const seenPosts = new Set();
+                cleanTopics[trueKey].posts = cleanTopics[trueKey].posts.filter(p => {
+                    if (!p || !p.url) return true;
+                    if (seenPosts.has(p.url)) return false;
+                    seenPosts.add(p.url);
+                    return true;
+                });
             }
 
             return {
