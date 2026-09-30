@@ -5462,7 +5462,7 @@ const MissionsModule = (function () {
       "users": ["c/u8", "/u161", "/u177", "/u178", "/u13"],
       "informed": [],
       "dependency": ["yule", "frozen sunflowers"],
-      "type": "misión", "closed": false, "fecha": "1953-04-29", "link": "/t1291-mision-dragonfly-s-secrets", "tagged": ["original"],
+      "type": "misión", "closed": true, "fecha": "1953-04-29", "link": "/t1291-mision-dragonfly-s-secrets", "tagged": ["original"],
 
       "cards": [],
 
