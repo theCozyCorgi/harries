@@ -70031,6 +70031,83 @@ const DBModule = (function () {
             "date": "25/03/1953",
             "location": "Cuarta Planta: Daños provocados por Hechizos"
         },
+        "1257": {
+            "space": "el pensadero",
+            "url": "/t1257-1953-03-23-shadows-of-kinship",
+            "simpleTitle": "shadows of kinship",
+            "creator": "Black Wave",
+            "replyCount": 10,
+            "posts": [
+                {
+                    "url": "r18571",
+                    "author": "Black Wave",
+                    "date": "18/05/2026",
+                    "words": 234
+                },
+                {
+                    "url": "r19070",
+                    "author": "Hermes Rosier",
+                    "date": "27/05/2026",
+                    "words": 307
+                },
+                {
+                    "url": "r19428",
+                    "author": "Valerian",
+                    "date": "01/06/2026",
+                    "words": 243
+                },
+                {
+                    "url": "r19573",
+                    "author": "Hermes Rosier",
+                    "date": "03/06/2026",
+                    "words": 317
+                },
+                {
+                    "url": "r19704",
+                    "author": "Valerian",
+                    "date": "08/06/2026",
+                    "words": 211
+                },
+                {
+                    "url": "r20071",
+                    "author": "Hermes Rosier",
+                    "date": "19/06/2026",
+                    "words": 275
+                },
+                {
+                    "url": "r20119",
+                    "author": "Valerian",
+                    "date": "22/06/2026",
+                    "words": 304
+                },
+                {
+                    "url": "r20863",
+                    "author": "Hermes Rosier",
+                    "date": "18/07/2026",
+                    "words": 279
+                },
+                {
+                    "url": "r21326",
+                    "author": "Valerian",
+                    "date": "02/08/2026",
+                    "words": 189
+                },
+                {
+                    "url": "r22702",
+                    "author": "Hermes Rosier",
+                    "date": "09/09/2026",
+                    "words": 280
+                },
+                {
+                    "url": "r23525",
+                    "author": "Valerian",
+                    "date": "Hoy a las 3:21",
+                    "words": 255
+                }
+            ],
+            "date": "23/03/1953",
+            "location": "Despacho del Director"
+        },
         "1258": {
             "space": "el pensadero",
             "url": "/t1258-1953-03-10-cai-en-el-vientre-de-la-bestia",
@@ -70975,6 +71052,695 @@ const DBModule = (function () {
             ],
             "date": "03/04/1953",
             "location": "Callejón Diagon"
+        },
+        "1291": {
+            "space": "el pensadero",
+            "url": "/t1291-1953-04-29-mision-dragonfly-s-secrets",
+            "simpleTitle": "misión: dragonfly's secrets",
+            "creator": "Black Wave",
+            "replyCount": 112,
+            "posts": [
+                {
+                    "url": "r19705",
+                    "author": "Black Wave",
+                    "date": "08/06/2026",
+                    "words": 184
+                },
+                {
+                    "url": "r19724",
+                    "author": "Alastor Moody",
+                    "date": "08/06/2026",
+                    "words": 167
+                },
+                {
+                    "url": "r19725",
+                    "author": "The Familiars",
+                    "date": "08/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r19726",
+                    "author": "Margareth T. Moody",
+                    "date": "08/06/2026",
+                    "words": 246
+                },
+                {
+                    "url": "r19727",
+                    "author": "The Familiars",
+                    "date": "08/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r19730",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "09/06/2026",
+                    "words": 228
+                },
+                {
+                    "url": "r19731",
+                    "author": "The Familiars",
+                    "date": "09/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r19786",
+                    "author": "Invitado",
+                    "date": "10/06/2026",
+                    "words": 210
+                },
+                {
+                    "url": "r19787",
+                    "author": "The Familiars",
+                    "date": "10/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r19928",
+                    "author": "Alastor Moody",
+                    "date": "15/06/2026",
+                    "words": 429
+                },
+                {
+                    "url": "r19929",
+                    "author": "The Familiars",
+                    "date": "15/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r19961",
+                    "author": "Margareth T. Moody",
+                    "date": "17/06/2026",
+                    "words": 241
+                },
+                {
+                    "url": "r19962",
+                    "author": "The Familiars",
+                    "date": "17/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r19963",
+                    "author": "Invitado",
+                    "date": "17/06/2026",
+                    "words": 237
+                },
+                {
+                    "url": "r19964",
+                    "author": "The Familiars",
+                    "date": "17/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20020",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "18/06/2026",
+                    "words": 207
+                },
+                {
+                    "url": "r20021",
+                    "author": "The Familiars",
+                    "date": "18/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20055",
+                    "author": "Invitado",
+                    "date": "18/06/2026",
+                    "words": 170
+                },
+                {
+                    "url": "r20056",
+                    "author": "The Familiars",
+                    "date": "18/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20057",
+                    "author": "Alastor Moody",
+                    "date": "18/06/2026",
+                    "words": 285
+                },
+                {
+                    "url": "r20058",
+                    "author": "The Familiars",
+                    "date": "18/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20066",
+                    "author": "Margareth T. Moody",
+                    "date": "19/06/2026",
+                    "words": 312
+                },
+                {
+                    "url": "r20067",
+                    "author": "The Familiars",
+                    "date": "19/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20083",
+                    "author": "Invitado",
+                    "date": "20/06/2026",
+                    "words": 174
+                },
+                {
+                    "url": "r20084",
+                    "author": "The Familiars",
+                    "date": "20/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20211",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "25/06/2026",
+                    "words": 204
+                },
+                {
+                    "url": "r20212",
+                    "author": "The Familiars",
+                    "date": "25/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20245",
+                    "author": "Alastor Moody",
+                    "date": "26/06/2026",
+                    "words": 217
+                },
+                {
+                    "url": "r20246",
+                    "author": "The Familiars",
+                    "date": "26/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20363",
+                    "author": "Margareth T. Moody",
+                    "date": "29/06/2026",
+                    "words": 245
+                },
+                {
+                    "url": "r20364",
+                    "author": "The Familiars",
+                    "date": "29/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20469",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "03/07/2026",
+                    "words": 148
+                },
+                {
+                    "url": "r20470",
+                    "author": "The Familiars",
+                    "date": "03/07/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20502",
+                    "author": "Alastor Moody",
+                    "date": "04/07/2026",
+                    "words": 175
+                },
+                {
+                    "url": "r20503",
+                    "author": "The Familiars",
+                    "date": "04/07/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20535",
+                    "author": "Margareth T. Moody",
+                    "date": "05/07/2026",
+                    "words": 215
+                },
+                {
+                    "url": "r20536",
+                    "author": "The Familiars",
+                    "date": "05/07/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20582",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "08/07/2026",
+                    "words": 143
+                },
+                {
+                    "url": "r20583",
+                    "author": "The Familiars",
+                    "date": "08/07/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20763",
+                    "author": "Valerian",
+                    "date": "15/07/2026",
+                    "words": 94
+                },
+                {
+                    "url": "r20771",
+                    "author": "Alastor Moody",
+                    "date": "15/07/2026",
+                    "words": 257
+                },
+                {
+                    "url": "r20772",
+                    "author": "The Familiars",
+                    "date": "15/07/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20793",
+                    "author": "Margareth T. Moody",
+                    "date": "16/07/2026",
+                    "words": 161
+                },
+                {
+                    "url": "r20794",
+                    "author": "The Familiars",
+                    "date": "16/07/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20877",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "19/07/2026",
+                    "words": 178
+                },
+                {
+                    "url": "r20878",
+                    "author": "The Familiars",
+                    "date": "19/07/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20887",
+                    "author": "Alastor Moody",
+                    "date": "19/07/2026",
+                    "words": 214
+                },
+                {
+                    "url": "r20888",
+                    "author": "The Familiars",
+                    "date": "19/07/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21103",
+                    "author": "Margareth T. Moody",
+                    "date": "29/07/2026",
+                    "words": 180
+                },
+                {
+                    "url": "r21104",
+                    "author": "The Familiars",
+                    "date": "29/07/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21340",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "03/08/2026",
+                    "words": 163
+                },
+                {
+                    "url": "r21341",
+                    "author": "The Familiars",
+                    "date": "03/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21368",
+                    "author": "Alastor Moody",
+                    "date": "03/08/2026",
+                    "words": 154
+                },
+                {
+                    "url": "r21369",
+                    "author": "The Familiars",
+                    "date": "03/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21478",
+                    "author": "Margareth T. Moody",
+                    "date": "05/08/2026",
+                    "words": 210
+                },
+                {
+                    "url": "r21479",
+                    "author": "The Familiars",
+                    "date": "05/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21549",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "08/08/2026",
+                    "words": 180
+                },
+                {
+                    "url": "r21550",
+                    "author": "The Familiars",
+                    "date": "08/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21562",
+                    "author": "Alastor Moody",
+                    "date": "08/08/2026",
+                    "words": 392
+                },
+                {
+                    "url": "r21563",
+                    "author": "The Familiars",
+                    "date": "08/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21598",
+                    "author": "Margareth T. Moody",
+                    "date": "08/08/2026",
+                    "words": 223
+                },
+                {
+                    "url": "r21599",
+                    "author": "The Familiars",
+                    "date": "08/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21637",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "09/08/2026",
+                    "words": 279
+                },
+                {
+                    "url": "r21638",
+                    "author": "The Familiars",
+                    "date": "09/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21647",
+                    "author": "Alastor Moody",
+                    "date": "09/08/2026",
+                    "words": 307
+                },
+                {
+                    "url": "r21648",
+                    "author": "The Familiars",
+                    "date": "09/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21704",
+                    "author": "Margareth T. Moody",
+                    "date": "11/08/2026",
+                    "words": 331
+                },
+                {
+                    "url": "r21705",
+                    "author": "The Familiars",
+                    "date": "11/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21747",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "13/08/2026",
+                    "words": 290
+                },
+                {
+                    "url": "r21748",
+                    "author": "The Familiars",
+                    "date": "13/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21768",
+                    "author": "Alastor Moody",
+                    "date": "13/08/2026",
+                    "words": 504
+                },
+                {
+                    "url": "r21769",
+                    "author": "The Familiars",
+                    "date": "13/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21797",
+                    "author": "Margareth T. Moody",
+                    "date": "14/08/2026",
+                    "words": 254
+                },
+                {
+                    "url": "r21906",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "16/08/2026",
+                    "words": 298
+                },
+                {
+                    "url": "r21907",
+                    "author": "The Familiars",
+                    "date": "16/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21913",
+                    "author": "Alastor Moody",
+                    "date": "16/08/2026",
+                    "words": 518
+                },
+                {
+                    "url": "r21914",
+                    "author": "The Familiars",
+                    "date": "16/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21925",
+                    "author": "Margareth T. Moody",
+                    "date": "17/08/2026",
+                    "words": 232
+                },
+                {
+                    "url": "r21926",
+                    "author": "The Familiars",
+                    "date": "17/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22110",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "23/08/2026",
+                    "words": 359
+                },
+                {
+                    "url": "r22111",
+                    "author": "The Familiars",
+                    "date": "23/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22209",
+                    "author": "Alastor Moody",
+                    "date": "25/08/2026",
+                    "words": 112
+                },
+                {
+                    "url": "r22210",
+                    "author": "The Familiars",
+                    "date": "25/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22236",
+                    "author": "Margareth T. Moody",
+                    "date": "26/08/2026",
+                    "words": 255
+                },
+                {
+                    "url": "r22332",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "31/08/2026",
+                    "words": 166
+                },
+                {
+                    "url": "r22333",
+                    "author": "The Familiars",
+                    "date": "31/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22341",
+                    "author": "Alastor Moody",
+                    "date": "31/08/2026",
+                    "words": 176
+                },
+                {
+                    "url": "r22342",
+                    "author": "The Familiars",
+                    "date": "31/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22405",
+                    "author": "Margareth T. Moody",
+                    "date": "02/09/2026",
+                    "words": 212
+                },
+                {
+                    "url": "r22406",
+                    "author": "The Familiars",
+                    "date": "02/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22544",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "06/09/2026",
+                    "words": 180
+                },
+                {
+                    "url": "r22545",
+                    "author": "The Familiars",
+                    "date": "06/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22578",
+                    "author": "Alastor Moody",
+                    "date": "06/09/2026",
+                    "words": 476
+                },
+                {
+                    "url": "r22579",
+                    "author": "The Familiars",
+                    "date": "06/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22772",
+                    "author": "Margareth T. Moody",
+                    "date": "12/09/2026",
+                    "words": 278
+                },
+                {
+                    "url": "r22773",
+                    "author": "The Familiars",
+                    "date": "12/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22942",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "15/09/2026",
+                    "words": 224
+                },
+                {
+                    "url": "r22943",
+                    "author": "The Familiars",
+                    "date": "15/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22996",
+                    "author": "Alastor Moody",
+                    "date": "16/09/2026",
+                    "words": 397
+                },
+                {
+                    "url": "r22997",
+                    "author": "The Familiars",
+                    "date": "16/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r23022",
+                    "author": "Margareth T. Moody",
+                    "date": "17/09/2026",
+                    "words": 420
+                },
+                {
+                    "url": "r23023",
+                    "author": "The Familiars",
+                    "date": "17/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r23120",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "19/09/2026",
+                    "words": 202
+                },
+                {
+                    "url": "r23121",
+                    "author": "The Familiars",
+                    "date": "19/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r23141",
+                    "author": "Alastor Moody",
+                    "date": "19/09/2026",
+                    "words": 275
+                },
+                {
+                    "url": "r23142",
+                    "author": "The Familiars",
+                    "date": "19/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r23297",
+                    "author": "Margareth T. Moody",
+                    "date": "24/09/2026",
+                    "words": 272
+                },
+                {
+                    "url": "r23298",
+                    "author": "The Familiars",
+                    "date": "24/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r23429",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "27/09/2026",
+                    "words": 181
+                },
+                {
+                    "url": "r23430",
+                    "author": "The Familiars",
+                    "date": "27/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r23477",
+                    "author": "Alastor Moody",
+                    "date": "28/09/2026",
+                    "words": 174
+                },
+                {
+                    "url": "r23478",
+                    "author": "The Familiars",
+                    "date": "28/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r23527",
+                    "author": "Black Wave",
+                    "date": "Hoy a las 3:25",
+                    "words": 122
+                }
+            ],
+            "date": "29/04/1953",
+            "location": "Magpie Park, Condado de Offaly, Irlanda"
         },
         "1293": {
             "space": "el pensadero",
@@ -73930,6 +74696,746 @@ const DBModule = (function () {
             ],
             "date": "31/05/1953",
             "location": "Arena Dush"
+        },
+        "1398": {
+            "space": "el pensadero",
+            "url": "/t1398-1953-05-16-evento-duetos-estelares-shun-y-findlay",
+            "simpleTitle": "evento: duetos estelares - shun y findlay",
+            "creator": "Black Wave",
+            "replyCount": 27,
+            "posts": [
+                {
+                    "url": "r21869",
+                    "author": "Black Wave",
+                    "date": "16/08/2026",
+                    "words": 162
+                },
+                {
+                    "url": "r21970",
+                    "author": "Findlay McCrory",
+                    "date": "18/08/2026",
+                    "words": 246
+                },
+                {
+                    "url": "r21971",
+                    "author": "The Familiars",
+                    "date": "18/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22039",
+                    "author": "H. Shun Parkinson",
+                    "date": "21/08/2026",
+                    "words": 279
+                },
+                {
+                    "url": "r22040",
+                    "author": "The Familiars",
+                    "date": "21/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22260",
+                    "author": "Findlay McCrory",
+                    "date": "26/08/2026",
+                    "words": 193
+                },
+                {
+                    "url": "r22261",
+                    "author": "The Familiars",
+                    "date": "26/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22311",
+                    "author": "H. Shun Parkinson",
+                    "date": "30/08/2026",
+                    "words": 207
+                },
+                {
+                    "url": "r22312",
+                    "author": "The Familiars",
+                    "date": "30/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22388",
+                    "author": "Findlay McCrory",
+                    "date": "01/09/2026",
+                    "words": 173
+                },
+                {
+                    "url": "r22389",
+                    "author": "The Familiars",
+                    "date": "01/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22472",
+                    "author": "H. Shun Parkinson",
+                    "date": "04/09/2026",
+                    "words": 207
+                },
+                {
+                    "url": "r22473",
+                    "author": "The Familiars",
+                    "date": "04/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22632",
+                    "author": "Findlay McCrory",
+                    "date": "07/09/2026",
+                    "words": 187
+                },
+                {
+                    "url": "r22633",
+                    "author": "The Familiars",
+                    "date": "07/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22736",
+                    "author": "H. Shun Parkinson",
+                    "date": "11/09/2026",
+                    "words": 182
+                },
+                {
+                    "url": "r22737",
+                    "author": "The Familiars",
+                    "date": "11/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22924",
+                    "author": "Findlay McCrory",
+                    "date": "14/09/2026",
+                    "words": 199
+                },
+                {
+                    "url": "r22925",
+                    "author": "The Familiars",
+                    "date": "14/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22977",
+                    "author": "H. Shun Parkinson",
+                    "date": "16/09/2026",
+                    "words": 175
+                },
+                {
+                    "url": "r22978",
+                    "author": "The Familiars",
+                    "date": "16/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22988",
+                    "author": "Findlay McCrory",
+                    "date": "16/09/2026",
+                    "words": 158
+                },
+                {
+                    "url": "r22989",
+                    "author": "The Familiars",
+                    "date": "16/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r23232",
+                    "author": "H. Shun Parkinson",
+                    "date": "22/09/2026",
+                    "words": 190
+                },
+                {
+                    "url": "r23233",
+                    "author": "The Familiars",
+                    "date": "22/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r23277",
+                    "author": "Findlay McCrory",
+                    "date": "23/09/2026",
+                    "words": 165
+                },
+                {
+                    "url": "r23278",
+                    "author": "The Familiars",
+                    "date": "23/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r23530",
+                    "author": "Black Wave",
+                    "date": "Hoy a las 3:49",
+                    "words": 68
+                }
+            ],
+            "date": "16/05/1953",
+            "location": "Lago Negro"
+        },
+        "1399": {
+            "space": "el pensadero",
+            "url": "/t1399-1953-05-16-evento-duetos-estelares-neptune-y-jupiter",
+            "simpleTitle": "evento: duetos estelares - neptune y jupiter",
+            "creator": "Black Wave",
+            "replyCount": 39,
+            "posts": [
+                {
+                    "url": "r21870",
+                    "author": "Black Wave",
+                    "date": "16/08/2026",
+                    "words": 162
+                },
+                {
+                    "url": "r21904",
+                    "author": "Jupiter Merrythought",
+                    "date": "16/08/2026",
+                    "words": 453
+                },
+                {
+                    "url": "r21905",
+                    "author": "The Familiars",
+                    "date": "16/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21927",
+                    "author": "Neptune E. Merrythought",
+                    "date": "17/08/2026",
+                    "words": 257
+                },
+                {
+                    "url": "r22009",
+                    "author": "Jupiter Merrythought",
+                    "date": "20/08/2026",
+                    "words": 391
+                },
+                {
+                    "url": "r22010",
+                    "author": "The Familiars",
+                    "date": "20/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22035",
+                    "author": "Neptune E. Merrythought",
+                    "date": "21/08/2026",
+                    "words": 351
+                },
+                {
+                    "url": "r22036",
+                    "author": "The Familiars",
+                    "date": "21/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22046",
+                    "author": "Jupiter Merrythought",
+                    "date": "21/08/2026",
+                    "words": 457
+                },
+                {
+                    "url": "r22047",
+                    "author": "The Familiars",
+                    "date": "21/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22080",
+                    "author": "Neptune E. Merrythought",
+                    "date": "22/08/2026",
+                    "words": 230
+                },
+                {
+                    "url": "r22093",
+                    "author": "Jupiter Merrythought",
+                    "date": "22/08/2026",
+                    "words": 259
+                },
+                {
+                    "url": "r22094",
+                    "author": "The Familiars",
+                    "date": "22/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22186",
+                    "author": "Neptune E. Merrythought",
+                    "date": "25/08/2026",
+                    "words": 231
+                },
+                {
+                    "url": "r22187",
+                    "author": "The Familiars",
+                    "date": "25/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22215",
+                    "author": "Jupiter Merrythought",
+                    "date": "25/08/2026",
+                    "words": 304
+                },
+                {
+                    "url": "r22216",
+                    "author": "The Familiars",
+                    "date": "25/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22314",
+                    "author": "Neptune E. Merrythought",
+                    "date": "30/08/2026",
+                    "words": 170
+                },
+                {
+                    "url": "r22394",
+                    "author": "Jupiter Merrythought",
+                    "date": "01/09/2026",
+                    "words": 171
+                },
+                {
+                    "url": "r22395",
+                    "author": "The Familiars",
+                    "date": "01/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22402",
+                    "author": "Neptune E. Merrythought",
+                    "date": "02/09/2026",
+                    "words": 216
+                },
+                {
+                    "url": "r22403",
+                    "author": "The Familiars",
+                    "date": "02/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22422",
+                    "author": "Jupiter Merrythought",
+                    "date": "02/09/2026",
+                    "words": 276
+                },
+                {
+                    "url": "r22423",
+                    "author": "The Familiars",
+                    "date": "02/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22580",
+                    "author": "Neptune E. Merrythought",
+                    "date": "06/09/2026",
+                    "words": 163
+                },
+                {
+                    "url": "r22714",
+                    "author": "Jupiter Merrythought",
+                    "date": "09/09/2026",
+                    "words": 270
+                },
+                {
+                    "url": "r22715",
+                    "author": "The Familiars",
+                    "date": "09/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22910",
+                    "author": "Neptune E. Merrythought",
+                    "date": "14/09/2026",
+                    "words": 186
+                },
+                {
+                    "url": "r22911",
+                    "author": "The Familiars",
+                    "date": "14/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22963",
+                    "author": "Jupiter Merrythought",
+                    "date": "15/09/2026",
+                    "words": 194
+                },
+                {
+                    "url": "r22964",
+                    "author": "The Familiars",
+                    "date": "15/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22969",
+                    "author": "Neptune E. Merrythought",
+                    "date": "16/09/2026",
+                    "words": 268
+                },
+                {
+                    "url": "r22970",
+                    "author": "The Familiars",
+                    "date": "16/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r23181",
+                    "author": "Jupiter Merrythought",
+                    "date": "20/09/2026",
+                    "words": 281
+                },
+                {
+                    "url": "r23182",
+                    "author": "The Familiars",
+                    "date": "20/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r23252",
+                    "author": "Neptune E. Merrythought",
+                    "date": "23/09/2026",
+                    "words": 232
+                },
+                {
+                    "url": "r23253",
+                    "author": "The Familiars",
+                    "date": "23/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r23284",
+                    "author": "Jupiter Merrythought",
+                    "date": "23/09/2026",
+                    "words": 227
+                },
+                {
+                    "url": "r23285",
+                    "author": "The Familiars",
+                    "date": "23/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r23529",
+                    "author": "Black Wave",
+                    "date": "Hoy a las 3:47",
+                    "words": 68
+                }
+            ],
+            "date": "16/05/1953",
+            "location": "Lago Negro"
+        },
+        "1402": {
+            "space": "el pensadero",
+            "url": "/t1402-1953-05-16-evento-duetos-estelares-kaoru-y-berenike",
+            "simpleTitle": "evento: duetos estelares - kaoru y berenike",
+            "creator": "Black Wave",
+            "replyCount": 23,
+            "posts": [
+                {
+                    "url": "r21873",
+                    "author": "Black Wave",
+                    "date": "16/08/2026",
+                    "words": 162
+                },
+                {
+                    "url": "r21918",
+                    "author": "Berenike M. Borgin",
+                    "date": "16/08/2026",
+                    "words": 215
+                },
+                {
+                    "url": "r21919",
+                    "author": "The Familiars",
+                    "date": "16/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21934",
+                    "author": "Kaoru Satoo",
+                    "date": "18/08/2026",
+                    "words": 221
+                },
+                {
+                    "url": "r21935",
+                    "author": "The Familiars",
+                    "date": "18/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22091",
+                    "author": "Berenike M. Borgin",
+                    "date": "22/08/2026",
+                    "words": 130
+                },
+                {
+                    "url": "r22092",
+                    "author": "The Familiars",
+                    "date": "22/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22231",
+                    "author": "Kaoru Satoo",
+                    "date": "26/08/2026",
+                    "words": 119
+                },
+                {
+                    "url": "r22232",
+                    "author": "The Familiars",
+                    "date": "26/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22302",
+                    "author": "Berenike M. Borgin",
+                    "date": "28/08/2026",
+                    "words": 116
+                },
+                {
+                    "url": "r22303",
+                    "author": "The Familiars",
+                    "date": "28/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22552",
+                    "author": "Kaoru Satoo",
+                    "date": "06/09/2026",
+                    "words": 151
+                },
+                {
+                    "url": "r22553",
+                    "author": "The Familiars",
+                    "date": "06/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22564",
+                    "author": "Berenike M. Borgin",
+                    "date": "06/09/2026",
+                    "words": 153
+                },
+                {
+                    "url": "r22565",
+                    "author": "The Familiars",
+                    "date": "06/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22808",
+                    "author": "Kaoru Satoo",
+                    "date": "13/09/2026",
+                    "words": 161
+                },
+                {
+                    "url": "r22809",
+                    "author": "The Familiars",
+                    "date": "13/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22984",
+                    "author": "Berenike M. Borgin",
+                    "date": "16/09/2026",
+                    "words": 120
+                },
+                {
+                    "url": "r22985",
+                    "author": "The Familiars",
+                    "date": "16/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r23046",
+                    "author": "Kaoru Satoo",
+                    "date": "18/09/2026",
+                    "words": 175
+                },
+                {
+                    "url": "r23047",
+                    "author": "The Familiars",
+                    "date": "18/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r23176",
+                    "author": "Berenike M. Borgin",
+                    "date": "20/09/2026",
+                    "words": 184
+                },
+                {
+                    "url": "r23177",
+                    "author": "The Familiars",
+                    "date": "20/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r23531",
+                    "author": "Black Wave",
+                    "date": "Hoy a las 3:53",
+                    "words": 68
+                }
+            ],
+            "date": "16/05/1953",
+            "location": "Lago Negro"
+        },
+        "1403": {
+            "space": "el pensadero",
+            "url": "/t1403-1953-05-16-evento-duetos-estelares-elysia-y-venus",
+            "simpleTitle": "evento: duetos estelares - elysia y venus",
+            "creator": "Black Wave",
+            "replyCount": 23,
+            "posts": [
+                {
+                    "url": "r21874",
+                    "author": "Black Wave",
+                    "date": "16/08/2026",
+                    "words": 162
+                },
+                {
+                    "url": "r21902",
+                    "author": "Venus M. Merrythought",
+                    "date": "16/08/2026",
+                    "words": 192
+                },
+                {
+                    "url": "r21903",
+                    "author": "The Familiars",
+                    "date": "16/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21910",
+                    "author": "Elysia G. Lestrange",
+                    "date": "16/08/2026",
+                    "words": 353
+                },
+                {
+                    "url": "r21911",
+                    "author": "The Familiars",
+                    "date": "16/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22201",
+                    "author": "Venus M. Merrythought",
+                    "date": "25/08/2026",
+                    "words": 151
+                },
+                {
+                    "url": "r22202",
+                    "author": "The Familiars",
+                    "date": "25/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22257",
+                    "author": "Elysia G. Lestrange",
+                    "date": "26/08/2026",
+                    "words": 203
+                },
+                {
+                    "url": "r22258",
+                    "author": "The Familiars",
+                    "date": "26/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22554",
+                    "author": "Venus M. Merrythought",
+                    "date": "06/09/2026",
+                    "words": 226
+                },
+                {
+                    "url": "r22555",
+                    "author": "The Familiars",
+                    "date": "06/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22567",
+                    "author": "Elysia G. Lestrange",
+                    "date": "06/09/2026",
+                    "words": 184
+                },
+                {
+                    "url": "r22568",
+                    "author": "The Familiars",
+                    "date": "06/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22616",
+                    "author": "Venus M. Merrythought",
+                    "date": "07/09/2026",
+                    "words": 209
+                },
+                {
+                    "url": "r22617",
+                    "author": "The Familiars",
+                    "date": "07/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22722",
+                    "author": "Elysia G. Lestrange",
+                    "date": "10/09/2026",
+                    "words": 222
+                },
+                {
+                    "url": "r22723",
+                    "author": "The Familiars",
+                    "date": "10/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r23038",
+                    "author": "Venus M. Merrythought",
+                    "date": "18/09/2026",
+                    "words": 231
+                },
+                {
+                    "url": "r23039",
+                    "author": "The Familiars",
+                    "date": "18/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r23086",
+                    "author": "Elysia G. Lestrange",
+                    "date": "18/09/2026",
+                    "words": 249
+                },
+                {
+                    "url": "r23087",
+                    "author": "The Familiars",
+                    "date": "18/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r23461",
+                    "author": "Venus M. Merrythought",
+                    "date": "27/09/2026",
+                    "words": 164
+                },
+                {
+                    "url": "r23462",
+                    "author": "The Familiars",
+                    "date": "27/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r23528",
+                    "author": "Black Wave",
+                    "date": "Hoy a las 3:31",
+                    "words": 68
+                }
+            ],
+            "date": "16/05/1953",
+            "location": "Lago Negro"
         }
     };
     const hardcodedDicesTopics = [
@@ -151773,6 +153279,2560 @@ const DBModule = (function () {
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Asteria C. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"glacius\" (1)</strong><span>El aire se enfría parcialmente, relentizando a la contrincante temporalmente. Reduce <em>+6</em> (50% del conocimiento en ENCANTAMIENTOS) puntos el ataque contrario.</span></span></div></div></div>",
             "url": "r23051",
             "simpleTitle": "duelo #13: asteria vs neptune",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Venus M. Merrythought",
+            "spread": [
+                11
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "vuelo en pareja"
+            ],
+            "knowledge": [
+                "vuelo"
+            ],
+            "type": [
+                "quidditch, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Venus M. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"vuelo en pareja\" (11)</strong><span>El vuelo es a una buena velocidad. Se demora 4 turnos en llegar al objetivo deseado.</span></span></div></div></div>",
+            "url": "r21903",
+            "simpleTitle": "evento: duetos estelares - elysia y venus",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Elysia G. Lestrange",
+            "spread": [
+                20,
+                8
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "expulso",
+                "flipendo"
+            ],
+            "knowledge": [
+                "dcao",
+                "dcao"
+            ],
+            "type": [
+                "maldición, defensivo",
+                "maleficio, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Elysia G. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"expulso\" (20)</strong><span>El objetivo es arrojado violentamente contra una superficie, pudiendo sufrir heridas graves. Adiciona <em>+0</em> (100% del conocimiento en COMBATE FÍSICO) puntos de Combate Físico en Defensa.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"flipendo\" (8)</strong><span>El oponente es derribado y lanzado al suelo. Adiciona <em>+9</em> (75% del conocimiento en DCAO) en el daño.</span></span></div></div></div>",
+            "url": "r21911",
+            "simpleTitle": "evento: duetos estelares - elysia y venus",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Venus M. Merrythought",
+            "spread": [
+                3,
+                10
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "vuelo en pareja",
+                "vuelo en velocidad"
+            ],
+            "knowledge": [
+                "vuelo",
+                "vuelo"
+            ],
+            "type": [
+                "quidditch, sin magia, neutral",
+                "quidditch, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Venus M. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"vuelo en pareja\" (3)</strong><span>El vuelo es a una velocidad moderada. Se demora 5 turnos en llegar al objetivo deseado.</span></span><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #2 \"vuelo en velocidad\" (10)</strong><span>La velocidad del vuelo incrementa rápidamente. Demora 1 turno en llegar al objetivo deseado.</span></span></div></div></div>",
+            "url": "r22202",
+            "simpleTitle": "evento: duetos estelares - elysia y venus",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Elysia G. Lestrange",
+            "spread": [
+                6,
+                7
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "waddiwasi",
+                "flipendo"
+            ],
+            "knowledge": [
+                "dcao",
+                "dcao"
+            ],
+            "type": [
+                "embrujo, ofensivo",
+                "maleficio, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Elysia G. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"waddiwasi\" (6)</strong><span>El objeto vuela hacia el objetivo, pero con poca fuerza. Adiciona +6 en daño.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"flipendo\" (7)</strong><span>El oponente es derribado y lanzado al suelo. Adiciona <em>+9</em> (75% del conocimiento en DCAO) en el daño.</span></span></div></div></div>",
+            "url": "r22258",
+            "simpleTitle": "evento: duetos estelares - elysia y venus",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Venus M. Merrythought",
+            "spread": [
+                5,
+                3
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "vuelo en pareja",
+                "vuelo en velocidad"
+            ],
+            "knowledge": [
+                "vuelo",
+                "vuelo"
+            ],
+            "type": [
+                "quidditch, sin magia, neutral",
+                "quidditch, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Venus M. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"vuelo en pareja\" (5)</strong><span>El vuelo es a una velocidad moderada. Se demora 5 turnos en llegar al objetivo deseado.</span></span><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #2 \"vuelo en velocidad\" (3)</strong><span>Vuelo a velocidad moderada, pero estable. Demora 2 turnos en llegar al objetivo deseado. </span></span></div></div></div>",
+            "url": "r22555",
+            "simpleTitle": "evento: duetos estelares - elysia y venus",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Elysia G. Lestrange",
+            "spread": [
+                20,
+                9
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "expulso",
+                "flipendo"
+            ],
+            "knowledge": [
+                "dcao",
+                "dcao"
+            ],
+            "type": [
+                "maldición, defensivo",
+                "maleficio, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Elysia G. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"expulso\" (20)</strong><span>El objetivo es arrojado violentamente contra una superficie, pudiendo sufrir heridas graves. Adiciona <em>+0</em> (100% del conocimiento en COMBATE FÍSICO) puntos de Combate Físico en Defensa.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"flipendo\" (9)</strong><span>El oponente es derribado y lanzado al suelo. Adiciona <em>+9</em> (75% del conocimiento en DCAO) en el daño.</span></span></div></div></div>",
+            "url": "r22568",
+            "simpleTitle": "evento: duetos estelares - elysia y venus",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Venus M. Merrythought",
+            "spread": [
+                7,
+                19
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "vuelo en pareja",
+                "vuelo en velocidad"
+            ],
+            "knowledge": [
+                "vuelo",
+                "vuelo"
+            ],
+            "type": [
+                "quidditch, sin magia, neutral",
+                "quidditch, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Venus M. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"vuelo en pareja\" (7)</strong><span>El vuelo es a una velocidad moderada. Se demora 5 turnos en llegar al objetivo deseado.</span></span><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #2 \"vuelo en velocidad\" (19)</strong><span>La velocidad del vuelo incrementa rápidamente. Demora 1 turno en llegar al objetivo deseado.</span></span></div></div></div>",
+            "url": "r22617",
+            "simpleTitle": "evento: duetos estelares - elysia y venus",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Elysia G. Lestrange",
+            "spread": [
+                20,
+                10
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "expulso",
+                "oppugno"
+            ],
+            "knowledge": [
+                "dcao",
+                "dcao"
+            ],
+            "type": [
+                "maldición, defensivo",
+                "embrujo, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Elysia G. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"expulso\" (20)</strong><span>El objetivo es arrojado violentamente contra una superficie, pudiendo sufrir heridas graves. Adiciona <em>+0</em> (100% del conocimiento en COMBATE FÍSICO) puntos de Combate Físico en Defensa.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"oppugno\" (10)</strong><span>Los objetos golpean al objetivo con fuerza moderada. La víctima pierde +4 PV por cada objeto previamente generado.</span></span></div></div></div>",
+            "url": "r22723",
+            "simpleTitle": "evento: duetos estelares - elysia y venus",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Venus M. Merrythought",
+            "spread": [
+                13,
+                3
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "vuelo en pareja",
+                "vuelo en velocidad"
+            ],
+            "knowledge": [
+                "vuelo",
+                "vuelo"
+            ],
+            "type": [
+                "quidditch, sin magia, neutral",
+                "quidditch, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Venus M. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"vuelo en pareja\" (13)</strong><span>El vuelo es a una buena velocidad. Se demora 4 turnos en llegar al objetivo deseado.</span></span><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #2 \"vuelo en velocidad\" (3)</strong><span>Vuelo a velocidad moderada, pero estable. Demora 2 turnos en llegar al objetivo deseado. </span></span></div></div></div>",
+            "url": "r23039",
+            "simpleTitle": "evento: duetos estelares - elysia y venus",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Elysia G. Lestrange",
+            "spread": [
+                5,
+                1
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "expulso",
+                "flipendo"
+            ],
+            "knowledge": [
+                "dcao",
+                "dcao"
+            ],
+            "type": [
+                "maldición, defensivo",
+                "maleficio, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Elysia G. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"expulso\" (5)</strong><span>El objetivo es empujado unos centímetros hacia atrás. Adiciona +3 de Defensa.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"flipendo\" (1)</strong><span>El oponente es empujado hacia atrás y puede tambalearse. Adiciona <em>+6</em> (50% del conocimiento en DCAO) en el daño.</span></span></div></div></div>",
+            "url": "r23087",
+            "simpleTitle": "evento: duetos estelares - elysia y venus",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Berenike M. Borgin",
+            "spread": [
+                12
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "vuelo en pareja"
+            ],
+            "knowledge": [
+                "vuelo"
+            ],
+            "type": [
+                "quidditch, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Berenike M. Borgin ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"vuelo en pareja\" (12)</strong><span>El vuelo es a una buena velocidad. Se demora 4 turnos en llegar al objetivo deseado.</span></span></div></div></div>",
+            "url": "r21919",
+            "simpleTitle": "evento: duetos estelares - kaoru y berenike",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Kaoru Satoo",
+            "spread": [
+                13,
+                19
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "flipendo",
+                "expulso"
+            ],
+            "knowledge": [
+                "dcao",
+                "dcao"
+            ],
+            "type": [
+                "maleficio, ofensivo",
+                "maldición, defensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Kaoru Satoo ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"flipendo\" (13)</strong><span>El oponente es lanzado por los aires con gran fuerza, impactando contra una superficie. Adiciona <em>+5</em> (40% del conocimiento en DCAO) puntos adicionales de daño al objetivo.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"expulso\" (19)</strong><span>El objetivo es lanzado varios metros hacia atrás con fuerza. Adiciona el plus del ataque en la Defensa o la Fuerza del personaje.</span></span></div></div></div>",
+            "url": "r21935",
+            "simpleTitle": "evento: duetos estelares - kaoru y berenike",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Berenike M. Borgin",
+            "spread": [
+                8,
+                12
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "vuelo en pareja",
+                "vuelo en velocidad"
+            ],
+            "knowledge": [
+                "vuelo",
+                "vuelo"
+            ],
+            "type": [
+                "quidditch, sin magia, neutral",
+                "quidditch, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Berenike M. Borgin ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"vuelo en pareja\" (8)</strong><span>El vuelo es a una velocidad moderada. Se demora 5 turnos en llegar al objetivo deseado.</span></span><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #2 \"vuelo en velocidad\" (12)</strong><span>La velocidad del vuelo incrementa rápidamente. Demora 1 turno en llegar al objetivo deseado.</span></span></div></div></div>",
+            "url": "r22092",
+            "simpleTitle": "evento: duetos estelares - kaoru y berenike",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Kaoru Satoo",
+            "spread": [
+                9,
+                14
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "waddiwasi",
+                "confringo"
+            ],
+            "knowledge": [
+                "dcao",
+                "dcao"
+            ],
+            "type": [
+                "embrujo, ofensivo",
+                "maldición, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Kaoru Satoo ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"waddiwasi\" (9)</strong><span>El objeto vuela hacia el objetivo, pero con poca fuerza. Adiciona +8 en daño.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"confringo\" (14)</strong><span>La explosión es moderada y puede derribar a un oponente cercano. Adiciona <em>+6</em> (50% del conocimiento en DCAO) en daño.</span></span></div></div></div>",
+            "url": "r22232",
+            "simpleTitle": "evento: duetos estelares - kaoru y berenike",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Berenike M. Borgin",
+            "spread": [
+                5,
+                13
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "vuelo en pareja",
+                "vuelo en velocidad"
+            ],
+            "knowledge": [
+                "vuelo",
+                "vuelo"
+            ],
+            "type": [
+                "quidditch, sin magia, neutral",
+                "quidditch, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Berenike M. Borgin ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"vuelo en pareja\" (5)</strong><span>El vuelo es a una velocidad moderada. Se demora 5 turnos en llegar al objetivo deseado.</span></span><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #2 \"vuelo en velocidad\" (13)</strong><span>La velocidad del vuelo incrementa rápidamente. Demora 1 turno en llegar al objetivo deseado.</span></span></div></div></div>",
+            "url": "r22303",
+            "simpleTitle": "evento: duetos estelares - kaoru y berenike",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Kaoru Satoo",
+            "spread": [
+                11,
+                8
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "confringo",
+                "expulso"
+            ],
+            "knowledge": [
+                "dcao",
+                "dcao"
+            ],
+            "type": [
+                "maldición, ofensivo",
+                "maldición, defensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Kaoru Satoo ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"confringo\" (11)</strong><span>La explosión es moderada y puede derribar a un oponente cercano. Adiciona <em>+6</em> (50% del conocimiento en DCAO) en daño.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"expulso\" (8)</strong><span>El objetivo es empujado unos centímetros hacia atrás. Adiciona +4 de Defensa.</span></span></div></div></div>",
+            "url": "r22553",
+            "simpleTitle": "evento: duetos estelares - kaoru y berenike",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Berenike M. Borgin",
+            "spread": [
+                7,
+                4
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "vuelo en pareja",
+                "vuelo en velocidad"
+            ],
+            "knowledge": [
+                "vuelo",
+                "vuelo"
+            ],
+            "type": [
+                "quidditch, sin magia, neutral",
+                "quidditch, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Berenike M. Borgin ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"vuelo en pareja\" (7)</strong><span>El vuelo es a una velocidad moderada. Se demora 5 turnos en llegar al objetivo deseado.</span></span><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #2 \"vuelo en velocidad\" (4)</strong><span>Vuelo a velocidad moderada, pero estable. Demora 2 turnos en llegar al objetivo deseado. </span></span></div></div></div>",
+            "url": "r22565",
+            "simpleTitle": "evento: duetos estelares - kaoru y berenike",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Kaoru Satoo",
+            "spread": [
+                3,
+                7
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "expulso",
+                "waddiwasi"
+            ],
+            "knowledge": [
+                "dcao",
+                "dcao"
+            ],
+            "type": [
+                "maldición, defensivo",
+                "embrujo, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Kaoru Satoo ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"expulso\" (3)</strong><span>El objetivo es empujado unos centímetros hacia atrás. Adiciona +4 de Defensa.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"waddiwasi\" (7)</strong><span>El objeto vuela hacia el objetivo, pero con poca fuerza. Adiciona +7 en daño.</span></span></div></div></div>",
+            "url": "r22809",
+            "simpleTitle": "evento: duetos estelares - kaoru y berenike",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Berenike M. Borgin",
+            "spread": [
+                9,
+                6
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "vuelo en pareja",
+                "vuelo en velocidad"
+            ],
+            "knowledge": [
+                "vuelo",
+                "vuelo"
+            ],
+            "type": [
+                "quidditch, sin magia, neutral",
+                "quidditch, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Berenike M. Borgin ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"vuelo en pareja\" (9)</strong><span>El vuelo es a una velocidad moderada. Se demora 5 turnos en llegar al objetivo deseado.</span></span><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #2 \"vuelo en velocidad\" (6)</strong><span>Vuelo a velocidad moderada, pero estable. Demora 2 turnos en llegar al objetivo deseado. </span></span></div></div></div>",
+            "url": "r22985",
+            "simpleTitle": "evento: duetos estelares - kaoru y berenike",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Kaoru Satoo",
+            "spread": [
+                15,
+                1
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "confringo",
+                "expulso"
+            ],
+            "knowledge": [
+                "dcao",
+                "dcao"
+            ],
+            "type": [
+                "maldición, ofensivo",
+                "maldición, defensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Kaoru Satoo ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"confringo\" (15)</strong><span>La explosión es moderada y puede derribar a un oponente cercano. Adiciona <em>+6</em> (50% del conocimiento en DCAO) en daño.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"expulso\" (1)</strong><span>El objetivo siente una leve ráfaga de aire sin mayor efecto. Adiciona +2 de Defensa.</span></span></div></div></div>",
+            "url": "r23047",
+            "simpleTitle": "evento: duetos estelares - kaoru y berenike",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Findlay McCrory",
+            "spread": [
+                15
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "vuelo en pareja"
+            ],
+            "knowledge": [
+                "vuelo"
+            ],
+            "type": [
+                "quidditch, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Findlay McCrory ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"vuelo en pareja\" (15)</strong><span>Vuelo perfecto. Se requieren 3 turnos para llegar al objetivo deseado.</span></span></div></div></div>",
+            "url": "r21971",
+            "simpleTitle": "evento: duetos estelares - shun y findlay",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                4,
+                16
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "confringo",
+                "confringo"
+            ],
+            "knowledge": [
+                "dcao",
+                "dcao"
+            ],
+            "type": [
+                "maldición, ofensivo",
+                "maldición, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"confringo\" (4)</strong><span>La explosión es fuerte y alcanza también a los personajes cercanos en la escena, pudiendo destrozar objetos y causar heridas serias. Cada uno debe calcular su propia defensa y Adiciona <em>+27</em> (75% del conocimiento en DCAO) en daño.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"confringo\" (16)</strong><span>La explosión es devastadora, alcanzando a todos los personajes presentes en la escena y causando gran destrucción y heridas graves. Cada uno debe calcular su propia defensa y Adiciona <em>+36</em> (100% del conocimiento en DCAO) en daño.</span></span></div></div></div>",
+            "url": "r22040",
+            "simpleTitle": "evento: duetos estelares - shun y findlay",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Findlay McCrory",
+            "spread": [
+                14,
+                7
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "pivotao aereo",
+                "vuelo en pareja"
+            ],
+            "knowledge": [
+                "vuelo",
+                "vuelo"
+            ],
+            "type": [
+                "quidditch, defensivo, sin magia",
+                "quidditch, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Findlay McCrory ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"pivotao aereo\" (14)</strong><span>Puede cambiar el rumbo completamente. Adiciona +20 en defensa.</span></span><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #2 \"vuelo en pareja\" (7)</strong><span>Vuelo perfecto. Se requieren 3 turnos para llegar al objetivo deseado.</span></span></div></div></div>",
+            "url": "r22261",
+            "simpleTitle": "evento: duetos estelares - shun y findlay",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                6,
+                8
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "confringo",
+                "confringo"
+            ],
+            "knowledge": [
+                "dcao",
+                "dcao"
+            ],
+            "type": [
+                "maldición, ofensivo",
+                "maldición, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"confringo\" (6)</strong><span>La explosión es fuerte y alcanza también a los personajes cercanos en la escena, pudiendo destrozar objetos y causar heridas serias. Cada uno debe calcular su propia defensa y Adiciona <em>+27</em> (75% del conocimiento en DCAO) en daño.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"confringo\" (8)</strong><span>La explosión es fuerte y alcanza también a los personajes cercanos en la escena, pudiendo destrozar objetos y causar heridas serias. Cada uno debe calcular su propia defensa y Adiciona <em>+27</em> (75% del conocimiento en DCAO) en daño.</span></span></div></div></div>",
+            "url": "r22312",
+            "simpleTitle": "evento: duetos estelares - shun y findlay",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Findlay McCrory",
+            "spread": [
+                2,
+                12
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "amago de wronski",
+                "vuelo en pareja"
+            ],
+            "knowledge": [
+                "vuelo",
+                "vuelo"
+            ],
+            "type": [
+                "quidditch, defensivo, sin magia",
+                "quidditch, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Findlay McCrory ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"amago de wronski\" (2)</strong><span>Logra una buena aceleración, pero pierde estabilidad al frenar. Adiciona <em>+9</em> (50% del conocimiento en VUELO) en defensa y +1 en turnos para llegar al objetivo.</span></span><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #2 \"vuelo en pareja\" (12)</strong><span>Vuelo perfecto. Se requieren 3 turnos para llegar al objetivo deseado.</span></span></div></div></div>",
+            "url": "r22389",
+            "simpleTitle": "evento: duetos estelares - shun y findlay",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                9,
+                10
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "fortitudo cordis",
+                "confringo"
+            ],
+            "knowledge": [
+                "liderazgo",
+                "dcao"
+            ],
+            "type": [
+                "habilidad, sin magia, neutral",
+                "maldición, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"liderazgo\"><strong>Resultado  #1 \"fortitudo cordis\" (9)</strong><span>Adiciona <em>5</em> (El 100% de CAR) en acciones del conocimiento mencionado durante todo el tema.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"confringo\" (10)</strong><span>La explosión es devastadora, alcanzando a todos los personajes presentes en la escena y causando gran destrucción y heridas graves. Cada uno debe calcular su propia defensa y Adiciona <em>+36</em> (100% del conocimiento en DCAO) en daño.</span></span></div></div></div>",
+            "url": "r22473",
+            "simpleTitle": "evento: duetos estelares - shun y findlay",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Findlay McCrory",
+            "spread": [
+                9,
+                1
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "vuelo en pareja",
+                "vuelo en velocidad"
+            ],
+            "knowledge": [
+                "vuelo",
+                "vuelo"
+            ],
+            "type": [
+                "quidditch, sin magia, neutral",
+                "quidditch, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Findlay McCrory ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"vuelo en pareja\" (9)</strong><span>Vuelo perfecto. Se requieren 3 turnos para llegar al objetivo deseado.</span></span><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #2 \"vuelo en velocidad\" (1)</strong><span>La velocidad del vuelo incrementa rápidamente. Demora 1 turno en llegar al objetivo deseado.</span></span></div></div></div>",
+            "url": "r22633",
+            "simpleTitle": "evento: duetos estelares - shun y findlay",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                1,
+                12
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "fortitudo cordis",
+                "oppugno"
+            ],
+            "knowledge": [
+                "liderazgo",
+                "dcao"
+            ],
+            "type": [
+                "habilidad, sin magia, neutral",
+                "embrujo, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"liderazgo\"><strong>Resultado  #1 \"fortitudo cordis\" (1)</strong><span>Adiciona <em>3</em> (El 75% de CAR) en acciones del conocimiento mencionado durante dos turnos.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"oppugno\" (12)</strong><span>Los objetos atacan ferozmente, causando daño significativo. La víctima pierde +9 PV por cada objeto previamente generado.</span></span></div></div></div>",
+            "url": "r22737",
+            "simpleTitle": "evento: duetos estelares - shun y findlay",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Findlay McCrory",
+            "spread": [
+                14,
+                12
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "vuelo en pareja",
+                "agarre del perezoso"
+            ],
+            "knowledge": [
+                "vuelo",
+                "vuelo"
+            ],
+            "type": [
+                "quidditch, sin magia, neutral",
+                "quidditch, defensivo, sin magia"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Findlay McCrory ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"vuelo en pareja\" (14)</strong><span>Vuelo perfecto. Se requieren 3 turnos para llegar al objetivo deseado.</span></span><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #2 \"agarre del perezoso\" (12)</strong><span>No sucede nada, capaz este hechizo no es para ti.</span></span></div></div></div>",
+            "url": "r22925",
+            "simpleTitle": "evento: duetos estelares - shun y findlay",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                15,
+                19
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "oppugno",
+                "oppugno"
+            ],
+            "knowledge": [
+                "dcao",
+                "dcao"
+            ],
+            "type": [
+                "embrujo, ofensivo",
+                "embrujo, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"oppugno\" (15)</strong><span>Los objetos atacan ferozmente, causando daño significativo. La víctima pierde +9 PV por cada objeto previamente generado.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"oppugno\" (19)</strong><span>Los objetos atacan ferozmente, causando daño significativo. La víctima pierde +9 PV por cada objeto previamente generado.</span></span></div></div></div>",
+            "url": "r22978",
+            "simpleTitle": "evento: duetos estelares - shun y findlay",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Findlay McCrory",
+            "spread": [
+                12,
+                18
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "vuelo en pareja",
+                "amago de wronski"
+            ],
+            "knowledge": [
+                "vuelo",
+                "vuelo"
+            ],
+            "type": [
+                "quidditch, sin magia, neutral",
+                "quidditch, defensivo, sin magia"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Findlay McCrory ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"vuelo en pareja\" (12)</strong><span>Vuelo perfecto. Se requieren 3 turnos para llegar al objetivo deseado.</span></span><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #2 \"amago de wronski\" (18)</strong><span>La caída es precisa, permitiendo maniobrar rápidamente al final. Adiciona <em>+14</em> (75% del conocimiento en VUELO) en defensa y +1 en turnos para llegar al objetivo.</span></span></div></div></div>",
+            "url": "r22989",
+            "simpleTitle": "evento: duetos estelares - shun y findlay",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                15
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "anticipatio hostis"
+            ],
+            "knowledge": [
+                "liderazgo"
+            ],
+            "type": [
+                "habilidad, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"liderazgo\"><strong>Resultado  #1 \"anticipatio hostis\" (15)</strong><span>Los aliados podrán atacar primero indiferente a los resultados de los dados y adiciona <em>+25</em> (100% del conocimiento en LIDERAZGO) al primer ataque.</span></span></div></div></div>",
+            "url": "r21905",
+            "simpleTitle": "evento: duetos estelares - neptune y jupiter",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                6,
+                2
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "fortitudo cordis",
+                "vuelo en pareja"
+            ],
+            "knowledge": [
+                "liderazgo",
+                "vuelo"
+            ],
+            "type": [
+                "habilidad, sin magia, neutral",
+                "quidditch, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"liderazgo\"><strong>Resultado  #1 \"fortitudo cordis\" (6)</strong><span>Adiciona <em>9</em> (El 100% de CAR) en acciones del conocimiento mencionado durante todo el tema.</span></span><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #2 \"vuelo en pareja\" (2)</strong><span>El vuelo es a una buena velocidad. Se demora 4 turnos en llegar al objetivo deseado.</span></span></div></div></div>",
+            "url": "r22010",
+            "simpleTitle": "evento: duetos estelares - neptune y jupiter",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Neptune E. Merrythought",
+            "spread": [
+                11,
+                11
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "confringo",
+                "confringo"
+            ],
+            "knowledge": [
+                "dcao",
+                "dcao"
+            ],
+            "type": [
+                "maldición, ofensivo",
+                "maldición, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Neptune E. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"confringo\" (11)</strong><span>La explosión es fuerte y alcanza también a los personajes cercanos en la escena, pudiendo destrozar objetos y causar heridas serias. Cada uno debe calcular su propia defensa y Adiciona <em>+11</em> (75% del conocimiento en DCAO) en daño.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"confringo\" (11)</strong><span>La explosión es fuerte y alcanza también a los personajes cercanos en la escena, pudiendo destrozar objetos y causar heridas serias. Cada uno debe calcular su propia defensa y Adiciona <em>+11</em> (75% del conocimiento en DCAO) en daño.</span></span></div></div></div>",
+            "url": "r22036",
+            "simpleTitle": "evento: duetos estelares - neptune y jupiter",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                9,
+                18
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "vuelo en velocidad",
+                "amago de wronski"
+            ],
+            "knowledge": [
+                "vuelo",
+                "vuelo"
+            ],
+            "type": [
+                "quidditch, sin magia, neutral",
+                "quidditch, defensivo, sin magia"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"vuelo en velocidad\" (9)</strong><span>La velocidad del vuelo incrementa rápidamente. Demora 1 turno en llegar al objetivo deseado.</span></span><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #2 \"amago de wronski\" (18)</strong><span>Logra una buena aceleración, pero pierde estabilidad al frenar. Adiciona <em>+6</em> (50% del conocimiento en VUELO) en defensa y +1 en turnos para llegar al objetivo.</span></span></div></div></div>",
+            "url": "r22047",
+            "simpleTitle": "evento: duetos estelares - neptune y jupiter",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                19,
+                2
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "vuelo en pareja",
+                "vox imperium"
+            ],
+            "knowledge": [
+                "vuelo",
+                "liderazgo"
+            ],
+            "type": [
+                "quidditch, sin magia, neutral",
+                "habilidad, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"vuelo en pareja\" (19)</strong><span>Vuelo perfecto. Se requieren 3 turnos para llegar al objetivo deseado.</span></span><span class=\"action-result\" data-conocimientos=\"liderazgo\"><strong>Resultado  #2 \"vox imperium\" (2)</strong><span>Los aliados obtienen por tres turnos <em>+25</em> (100% del conocimiento en LIDERAZGO) de Ataque, si la orden es ofensiva, o <em>+25</em> (100% del conocimiento en LIDERAZGO) de Defensa, si la orden es defensiva. Si ignoran la orden, deberán restar el plus de sus correspondientes ataques.</span></span></div></div></div>",
+            "url": "r22094",
+            "simpleTitle": "evento: duetos estelares - neptune y jupiter",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Neptune E. Merrythought",
+            "spread": [
+                14,
+                6
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "confringo",
+                "confringo"
+            ],
+            "knowledge": [
+                "dcao",
+                "dcao"
+            ],
+            "type": [
+                "maldición, ofensivo",
+                "maldición, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Neptune E. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"confringo\" (14)</strong><span>La explosión es fuerte y alcanza también a los personajes cercanos en la escena, pudiendo destrozar objetos y causar heridas serias. Cada uno debe calcular su propia defensa y Adiciona <em>+11</em> (75% del conocimiento en DCAO) en daño.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"confringo\" (6)</strong><span>La explosión es moderada y puede derribar a un oponente cercano. Adiciona <em>+7</em> (50% del conocimiento en DCAO) en daño.</span></span></div></div></div>",
+            "url": "r22187",
+            "simpleTitle": "evento: duetos estelares - neptune y jupiter",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                14,
+                3
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "giro del colacuerno",
+                "vuelo"
+            ],
+            "knowledge": [
+                "vuelo",
+                "vuelo"
+            ],
+            "type": [
+                "quidditch, defensivo, sin magia",
+                "quidditch, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"giro del colacuerno\" (14)</strong><span>Se realiza el giro, pero con una ligera pérdida de velocidad. Adiciona <em>+6</em> (50% del conocimiento en VUELO) en defensa</span></span><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #2 \"vuelo\" (3)</strong><span>El vuelo es a una buena velocidad. Se demora 3 turnos en llegar al objetivo deseado.</span></span></div></div></div>",
+            "url": "r22216",
+            "simpleTitle": "evento: duetos estelares - neptune y jupiter",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                13,
+                15
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "anima vincula",
+                "vuelo en pareja"
+            ],
+            "knowledge": [
+                "liderazgo",
+                "vuelo"
+            ],
+            "type": [
+                "encantamiento, neutral",
+                "quidditch, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"liderazgo\"><strong>Resultado  #1 \"anima vincula\" (13)</strong><span>Los aliados obtienen +9 en Ataques y +9 en Defensa.</span></span><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #2 \"vuelo en pareja\" (15)</strong><span>Vuelo perfecto. Se requieren 3 turnos para llegar al objetivo deseado.</span></span></div></div></div>",
+            "url": "r22395",
+            "simpleTitle": "evento: duetos estelares - neptune y jupiter",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Neptune E. Merrythought",
+            "spread": [
+                8,
+                14
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "confringo",
+                "confringo"
+            ],
+            "knowledge": [
+                "dcao",
+                "dcao"
+            ],
+            "type": [
+                "maldición, ofensivo",
+                "maldición, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Neptune E. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"confringo\" (8)</strong><span>La explosión es moderada y puede derribar a un oponente cercano. Adiciona <em>+7</em> (50% del conocimiento en DCAO) en daño.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"confringo\" (14)</strong><span>La explosión es fuerte y alcanza también a los personajes cercanos en la escena, pudiendo destrozar objetos y causar heridas serias. Cada uno debe calcular su propia defensa y Adiciona <em>+11</em> (75% del conocimiento en DCAO) en daño.</span></span></div></div></div>",
+            "url": "r22403",
+            "simpleTitle": "evento: duetos estelares - neptune y jupiter",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                12,
+                14
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "fortitudo cordis",
+                "pivotao aereo"
+            ],
+            "knowledge": [
+                "liderazgo",
+                "vuelo"
+            ],
+            "type": [
+                "habilidad, sin magia, neutral",
+                "quidditch, defensivo, sin magia"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"liderazgo\"><strong>Resultado  #1 \"fortitudo cordis\" (12)</strong><span>Adiciona <em>9</em> (El 100% de CAR) en acciones del conocimiento mencionado durante todo el tema.</span></span><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #2 \"pivotao aereo\" (14)</strong><span>Cambia el rumbo noventa grados, pudiendo esquivar grandes ataques. Adiciona +15 en defensa y +1 en turnos para llegar al objetivo.</span></span></div></div></div>",
+            "url": "r22423",
+            "simpleTitle": "evento: duetos estelares - neptune y jupiter",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                17,
+                13
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "vuelo en pareja",
+                "vox imperium"
+            ],
+            "knowledge": [
+                "vuelo",
+                "liderazgo"
+            ],
+            "type": [
+                "quidditch, sin magia, neutral",
+                "habilidad, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"vuelo en pareja\" (17)</strong><span>Vuelo perfecto. Se requieren 3 turnos para llegar al objetivo deseado.</span></span><span class=\"action-result\" data-conocimientos=\"liderazgo\"><strong>Resultado  #2 \"vox imperium\" (13)</strong><span>Los aliados obtienen por tres turnos <em>+25</em> (100% del conocimiento en LIDERAZGO) de Ataque, si la orden es ofensiva, o <em>+25</em> (100% del conocimiento en LIDERAZGO) de Defensa, si la orden es defensiva. Si ignoran la orden, deberán restar el plus de sus correspondientes ataques.</span></span></div></div></div>",
+            "url": "r22715",
+            "simpleTitle": "evento: duetos estelares - neptune y jupiter",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Neptune E. Merrythought",
+            "spread": [
+                15,
+                3
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "confringo",
+                "confringo"
+            ],
+            "knowledge": [
+                "dcao",
+                "dcao"
+            ],
+            "type": [
+                "maldición, ofensivo",
+                "maldición, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Neptune E. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"confringo\" (15)</strong><span>La explosión es fuerte y alcanza también a los personajes cercanos en la escena, pudiendo destrozar objetos y causar heridas serias. Cada uno debe calcular su propia defensa y Adiciona <em>+11</em> (75% del conocimiento en DCAO) en daño.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"confringo\" (3)</strong><span>La explosión es moderada y puede derribar a un oponente cercano. Adiciona <em>+7</em> (50% del conocimiento en DCAO) en daño.</span></span></div></div></div>",
+            "url": "r22911",
+            "simpleTitle": "evento: duetos estelares - neptune y jupiter",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                10,
+                14
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "vuelo en velocidad",
+                "vuelo en velocidad"
+            ],
+            "knowledge": [
+                "vuelo",
+                "vuelo"
+            ],
+            "type": [
+                "quidditch, sin magia, neutral",
+                "quidditch, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"vuelo en velocidad\" (10)</strong><span>Velocidad máxima. Podrá realizar la siguiente acción de manera inmediata.</span></span><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #2 \"vuelo en velocidad\" (14)</strong><span>Velocidad máxima. Podrá realizar la siguiente acción de manera inmediata.</span></span></div></div></div>",
+            "url": "r22964",
+            "simpleTitle": "evento: duetos estelares - neptune y jupiter",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Neptune E. Merrythought",
+            "spread": [
+                9
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "calor vitalis"
+            ],
+            "knowledge": [
+                "curación"
+            ],
+            "type": [
+                "curación, encantamiento"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Neptune E. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #1 \"calor vitalis\" (9)</strong><span>Restablece la temperatura a un nivel seguro y estable durante varias horas. Restaura +7PV.</span></span></div></div></div>",
+            "url": "r22970",
+            "simpleTitle": "evento: duetos estelares - neptune y jupiter",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                3,
+                3
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "inspeccionar fuente",
+                "revelio"
+            ],
+            "knowledge": [
+                "",
+                "encantamientos"
+            ],
+            "type": [
+                "",
+                "encantamiento, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">3</span><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #2 \"revelio\" (3)</strong><span>Además de revelar todo con precisión en un radio de <em>+25</em> (100% del conocimiento en ENCANTAMIENTOS) metros, se obtiene información adicional sobre la magia detectada.</span></span></div></div></div>",
+            "url": "r19725",
+            "simpleTitle": "misión: dragonfly's secrets",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Margareth T. Moody",
+            "spread": [
+                7,
+                6
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "liberar la líbelula",
+                "maledictus"
+            ],
+            "knowledge": [
+                "",
+                "atenuador"
+            ],
+            "type": [
+                "",
+                "sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Margareth T. Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">7</span><span class=\"action-result\" data-conocimientos=\"atenuador\"><strong>Resultado  #2 \"maledictus\" (6)</strong><span>No logra controlar la maldición, se convierte por un post entero. Suma 3 al contador de la maldición.</span></span></div></div></div>",
+            "url": "r19727",
+            "simpleTitle": "misión: dragonfly's secrets",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Vasilisa M. Kuznetzova",
+            "spread": [
+                20
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "silentiaforma"
+            ],
+            "knowledge": [
+                "transformaciones"
+            ],
+            "type": [
+                "transfiguración, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"transformaciones\"><strong>Resultado  #1 \"silentiaforma\" (20)</strong><span>La transformación es exacta, y el objeto es resistente, durable y puede presentar propiedades mágicas menores.</span></span></div></div></div>",
+            "url": "r19731",
+            "simpleTitle": "misión: dragonfly's secrets",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Lucretia Black-Prewett",
+            "spread": [
+                11
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "descender por las escaleras"
+            ],
+            "knowledge": [
+                ""
+            ],
+            "type": [
+                ""
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Lucretia Black-Prewett ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">11</span></div></div></div>",
+            "url": "r19787",
+            "simpleTitle": "misión: dragonfly's secrets",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                20,
+                17
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "homenum revelio",
+                "lumos"
+            ],
+            "knowledge": [
+                "dcao",
+                "encantamientos"
+            ],
+            "type": [
+                "encantamiento, neutral",
+                "encantamiento, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"homenum revelio\" (20)</strong><span>Además de detectar presencias humanas en un radio de <em>+32</em> (100% del conocimiento en DCAO) metros, se perciben detalles como intenciones o emociones.</span></span><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #2 \"lumos\" (17)</strong><span>La luz es intensamente brillante y dura más tiempo.</span></span></div></div></div>",
+            "url": "r19929",
+            "simpleTitle": "misión: dragonfly's secrets",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Margareth T. Moody",
+            "spread": [
+                8
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "abrir puerta del depósito"
+            ],
+            "knowledge": [
+                ""
+            ],
+            "type": [
+                ""
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Margareth T. Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">8</span></div></div></div>",
+            "url": "r19962",
+            "simpleTitle": "misión: dragonfly's secrets",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "A. Ignatius Prewett",
+            "spread": [
+                18
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "artefactos relevantes"
+            ],
+            "knowledge": [
+                ""
+            ],
+            "type": [
+                ""
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>A. Ignatius Prewett ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">18</span></div></div></div>",
+            "url": "r19964",
+            "simpleTitle": "misión: dragonfly's secrets",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Vasilisa M. Kuznetzova",
+            "spread": [
+                19
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "abrir inventario"
+            ],
+            "knowledge": [
+                ""
+            ],
+            "type": [
+                ""
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">19</span></div></div></div>",
+            "url": "r20021",
+            "simpleTitle": "misión: dragonfly's secrets",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Lucretia Black-Prewett",
+            "spread": [
+                20
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "inventario de pinturas"
+            ],
+            "knowledge": [
+                ""
+            ],
+            "type": [
+                ""
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Lucretia Black-Prewett ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">20</span></div></div></div>",
+            "url": "r20056",
+            "simpleTitle": "misión: dragonfly's secrets",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                13,
+                2
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "inspeccionar una obra",
+                "relicta notitia"
+            ],
+            "knowledge": [
+                "",
+                "historia de la magia"
+            ],
+            "type": [
+                "",
+                "encantamiento, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">13</span><span class=\"action-result\" data-conocimientos=\"historia de la magia\"><strong>Resultado  #2 \"relicta notitia\" (2)</strong><span>Se percibe un eco emocional o una vaga imagen de su uso.</span></span></div></div></div>",
+            "url": "r20058",
+            "simpleTitle": "misión: dragonfly's secrets",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Margareth T. Moody",
+            "spread": [
+                18
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "contar estantería central 1"
+            ],
+            "knowledge": [
+                ""
+            ],
+            "type": [
+                ""
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Margareth T. Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">18</span></div></div></div>",
+            "url": "r20067",
+            "simpleTitle": "misión: dragonfly's secrets",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "A. Ignatius Prewett",
+            "spread": [
+                6
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "inventario de artefactos"
+            ],
+            "knowledge": [
+                ""
+            ],
+            "type": [
+                ""
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>A. Ignatius Prewett ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">6</span></div></div></div>",
+            "url": "r20084",
+            "simpleTitle": "misión: dragonfly's secrets",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Vasilisa M. Kuznetzova",
+            "spread": [
+                7,
+                16
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "inventario de esculturas",
+                "aparecium"
+            ],
+            "knowledge": [
+                "",
+                "encantamientos"
+            ],
+            "type": [
+                "",
+                "encantamiento, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">7</span><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #2 \"aparecium\" (16)</strong><span>Todo lo oculto en el área es revelado con nitidez, incluyendo encantamientos avanzados de invisibilidad.</span></span></div></div></div>",
+            "url": "r20212",
+            "simpleTitle": "misión: dragonfly's secrets",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                17,
+                20
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "contar estantería central 2",
+                "revelio potionis"
+            ],
+            "knowledge": [
+                "",
+                "pociones"
+            ],
+            "type": [
+                "",
+                "encantamiento, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">17</span><span class=\"action-result\" data-conocimientos=\"pociones\"><strong>Resultado  #2 \"revelio potionis\" (20)</strong><span>No solo revela la composición exacta de la poción (<em>+15</em> (100% del conocimiento en POCIONES) puntos identificados), sino también si ha sido alterada o mal preparada.</span></span></div></div></div>",
+            "url": "r20246",
+            "simpleTitle": "misión: dragonfly's secrets",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Margareth T. Moody",
+            "spread": [
+                14
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "contar estantería central 3"
+            ],
+            "knowledge": [
+                ""
+            ],
+            "type": [
+                ""
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Margareth T. Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">14</span></div></div></div>",
+            "url": "r20364",
+            "simpleTitle": "misión: dragonfly's secrets",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Vasilisa M. Kuznetzova",
+            "spread": [
+                17
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "contar estantería central 4"
+            ],
+            "knowledge": [
+                ""
+            ],
+            "type": [
+                ""
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">17</span></div></div></div>",
+            "url": "r20470",
+            "simpleTitle": "misión: dragonfly's secrets",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                16,
+                8
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "computus",
+                "contar estantería central 5"
+            ],
+            "knowledge": [
+                "aritmancia",
+                ""
+            ],
+            "type": [
+                "encantamiento, neutral",
+                ""
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"aritmancia\"><strong>Resultado  #1 \"computus\" (16)</strong><span>El mago obtiene un balance general con algunos detalles inexactos.</span></span><span class=\"roll-result\">8</span></div></div></div>",
+            "url": "r20503",
+            "simpleTitle": "misión: dragonfly's secrets",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Margareth T. Moody",
+            "spread": [
+                11
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "computus"
+            ],
+            "knowledge": [
+                "aritmancia"
+            ],
+            "type": [
+                "encantamiento, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Margareth T. Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"aritmancia\"><strong>Resultado  #1 \"computus\" (11)</strong><span>El mago obtiene un balance general con algunos detalles inexactos.</span></span></div></div></div>",
+            "url": "r20536",
+            "simpleTitle": "misión: dragonfly's secrets",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Vasilisa M. Kuznetzova",
+            "spread": [
+                20
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "computus"
+            ],
+            "knowledge": [
+                "aritmancia"
+            ],
+            "type": [
+                "encantamiento, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"aritmancia\"><strong>Resultado  #1 \"computus\" (20)</strong><span>El cálculo es exacto y proporciona información financiera clara.</span></span></div></div></div>",
+            "url": "r20583",
+            "simpleTitle": "misión: dragonfly's secrets",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                7,
+                8
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "specialis revelio",
+                "revisar inventario"
+            ],
+            "knowledge": [
+                "encantamientos",
+                ""
+            ],
+            "type": [
+                "encantamiento, neutral",
+                ""
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"specialis revelio\" (7)</strong><span>Los efectos mágicos presentes son revelados claramente.</span></span><span class=\"roll-result\">8</span></div></div></div>",
+            "url": "r20772",
+            "simpleTitle": "misión: dragonfly's secrets",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Margareth T. Moody",
+            "spread": [
+                12
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "contar objetos por estanterías"
+            ],
+            "knowledge": [
+                ""
+            ],
+            "type": [
+                ""
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Margareth T. Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">12</span></div></div></div>",
+            "url": "r20794",
+            "simpleTitle": "misión: dragonfly's secrets",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Vasilisa M. Kuznetzova",
+            "spread": [
+                7
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "ir a estantería pared este"
+            ],
+            "knowledge": [
+                ""
+            ],
+            "type": [
+                ""
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">7</span></div></div></div>",
+            "url": "r20878",
+            "simpleTitle": "misión: dragonfly's secrets",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                9,
+                13
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "pretium ostende",
+                "revisar inventario estantería pared este"
+            ],
+            "knowledge": [
+                "contrabando",
+                ""
+            ],
+            "type": [
+                "encantamiento, neutral",
+                ""
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"contrabando\"><strong>Resultado  #1 \"pretium ostende\" (9)</strong><span>Muestra la ubicación aproximada de varios objetos valiosos en un radio de <em>+5</em> (50% del conocimiento en CONTRABANDO) metros.</span></span><span class=\"roll-result\">13</span></div></div></div>",
+            "url": "r20888",
+            "simpleTitle": "misión: dragonfly's secrets",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Margareth T. Moody",
+            "spread": [
+                9
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "identificar escultura el centinela de piedra caliza"
+            ],
+            "knowledge": [
+                ""
+            ],
+            "type": [
+                ""
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Margareth T. Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">9</span></div></div></div>",
+            "url": "r21104",
+            "simpleTitle": "misión: dragonfly's secrets",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Vasilisa M. Kuznetzova",
+            "spread": [
+                15
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "identificar escultura fénix en reposo"
+            ],
+            "knowledge": [
+                ""
+            ],
+            "type": [
+                ""
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">15</span></div></div></div>",
+            "url": "r21341",
+            "simpleTitle": "misión: dragonfly's secrets",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                3
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "identificar pintura el mercader de sombras"
+            ],
+            "knowledge": [
+                ""
+            ],
+            "type": [
+                ""
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">3</span></div></div></div>",
+            "url": "r21369",
+            "simpleTitle": "misión: dragonfly's secrets",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Margareth T. Moody",
+            "spread": [
+                18
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "identificar artefacto vaso de cuerno de unicornio"
+            ],
+            "knowledge": [
+                ""
+            ],
+            "type": [
+                ""
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Margareth T. Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">18</span></div></div></div>",
+            "url": "r21479",
+            "simpleTitle": "misión: dragonfly's secrets",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Vasilisa M. Kuznetzova",
+            "spread": [
+                11
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "identificar artefacto espejo de las voces perdidas"
+            ],
+            "knowledge": [
+                ""
+            ],
+            "type": [
+                ""
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">11</span></div></div></div>",
+            "url": "r21550",
+            "simpleTitle": "misión: dragonfly's secrets",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                17
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "identificar pintura el espejo que miente"
+            ],
+            "knowledge": [
+                ""
+            ],
+            "type": [
+                ""
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">17</span></div></div></div>",
+            "url": "r21563",
+            "simpleTitle": "misión: dragonfly's secrets",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Margareth T. Moody",
+            "spread": [
+                12
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "identificar artefacto reloj de arena detenido"
+            ],
+            "knowledge": [
+                ""
+            ],
+            "type": [
+                ""
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Margareth T. Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">12</span></div></div></div>",
+            "url": "r21599",
+            "simpleTitle": "misión: dragonfly's secrets",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Vasilisa M. Kuznetzova",
+            "spread": [
+                14
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "identificar artefacto brújula que señala al miedo"
+            ],
+            "knowledge": [
+                ""
+            ],
+            "type": [
+                ""
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">14</span></div></div></div>",
+            "url": "r21638",
+            "simpleTitle": "misión: dragonfly's secrets",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                9,
+                12
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "tempus revela",
+                "ir a estantería lateral oeste 3"
+            ],
+            "knowledge": [
+                "historia de la magia",
+                ""
+            ],
+            "type": [
+                "encantamiento, neutral",
+                ""
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"historia de la magia\"><strong>Resultado  #1 \"tempus revela\" (9)</strong><span>Se obtiene una fecha estimada con un margen de error de 10-15 años.</span></span><span class=\"roll-result\">12</span></div></div></div>",
+            "url": "r21648",
+            "simpleTitle": "misión: dragonfly's secrets",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Margareth T. Moody",
+            "spread": [
+                5
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "revisar inventario lateral oeste 3"
+            ],
+            "knowledge": [
+                ""
+            ],
+            "type": [
+                ""
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Margareth T. Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">5</span></div></div></div>",
+            "url": "r21705",
+            "simpleTitle": "misión: dragonfly's secrets",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Vasilisa M. Kuznetzova",
+            "spread": [
+                16
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "identificar artefacto reloj que marcha al revés"
+            ],
+            "knowledge": [
+                ""
+            ],
+            "type": [
+                ""
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">16</span></div></div></div>",
+            "url": "r21748",
+            "simpleTitle": "misión: dragonfly's secrets",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                11,
+                8
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "memoriflorus",
+                "identificar pintura la sombra de los infiernos"
+            ],
+            "knowledge": [
+                "legeremancia",
+                ""
+            ],
+            "type": [
+                "mental, sin magia, ofensivo",
+                ""
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"legeremancia\"><strong>Resultado  #1 \"memoriflorus\" (11)</strong><span>La emoción inunda al receptor con tal intensidad que puede alterar su estado de ánimo profundamente durante horas. Adiciona <em>3</em> (El 100% de CAR) al intento de penetrar la mente contraria.</span></span><span class=\"roll-result\">8</span></div></div></div>",
+            "url": "r21769",
+            "simpleTitle": "misión: dragonfly's secrets",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Vasilisa M. Kuznetzova",
+            "spread": [
+                9
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "ir a estantería posterior 3"
+            ],
+            "knowledge": [
+                ""
+            ],
+            "type": [
+                ""
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">9</span></div></div></div>",
+            "url": "r21907",
+            "simpleTitle": "misión: dragonfly's secrets",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                11
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "identificar artefacto bastón con cabeza de serpiente"
+            ],
+            "knowledge": [
+                ""
+            ],
+            "type": [
+                ""
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">11</span></div></div></div>",
+            "url": "r21914",
+            "simpleTitle": "misión: dragonfly's secrets",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Margareth T. Moody",
+            "spread": [
+                2
+            ],
+            "title": [
+                "felix felicis"
+            ],
+            "key": [],
+            "knowledge": [],
+            "type": [],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-felix-felicis\"><span>Margareth T. Moody ha lanzado los dados \"felix felicis\"</span><div class=\"dice-results\"><span class=\"roll-result nro2\"><i class=\"fa-solid fa-sparkles\"></i>Se nota que sabes lo que estás haciendo, o Félix lo sabe.</span></div></div></div>",
+            "url": "r21926",
+            "simpleTitle": "misión: dragonfly's secrets",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Vasilisa M. Kuznetzova",
+            "spread": [
+                6
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "identificar artefacto espejo de mano con marco de hueso"
+            ],
+            "knowledge": [
+                ""
+            ],
+            "type": [
+                ""
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">6</span></div></div></div>",
+            "url": "r22111",
+            "simpleTitle": "misión: dragonfly's secrets",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                4
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "identificar artefacto máscara de plata para rituales"
+            ],
+            "knowledge": [
+                ""
+            ],
+            "type": [
+                ""
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">4</span></div></div></div>",
+            "url": "r22210",
+            "simpleTitle": "misión: dragonfly's secrets",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Vasilisa M. Kuznetzova",
+            "spread": [
+                20
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "revisar inventario estantería posterior 3"
+            ],
+            "knowledge": [
+                ""
+            ],
+            "type": [
+                ""
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">20</span></div></div></div>",
+            "url": "r22333",
+            "simpleTitle": "misión: dragonfly's secrets",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                4
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "identificar artefacto sello de cera de sangre"
+            ],
+            "knowledge": [
+                ""
+            ],
+            "type": [
+                ""
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">4</span></div></div></div>",
+            "url": "r22342",
+            "simpleTitle": "misión: dragonfly's secrets",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Margareth T. Moody",
+            "spread": [
+                6
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "identificar artefacto frasco de lágrimas de unicornio"
+            ],
+            "knowledge": [
+                ""
+            ],
+            "type": [
+                ""
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Margareth T. Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">6</span></div></div></div>",
+            "url": "r22406",
+            "simpleTitle": "misión: dragonfly's secrets",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Vasilisa M. Kuznetzova",
+            "spread": [
+                19
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "identificar artefacto collar con piedra lunar"
+            ],
+            "knowledge": [
+                ""
+            ],
+            "type": [
+                ""
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">19</span></div></div></div>",
+            "url": "r22545",
+            "simpleTitle": "misión: dragonfly's secrets",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                20
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "identificar artefacto pesas de bronce para ingredientes"
+            ],
+            "knowledge": [
+                ""
+            ],
+            "type": [
+                ""
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">20</span></div></div></div>",
+            "url": "r22579",
+            "simpleTitle": "misión: dragonfly's secrets",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Margareth T. Moody",
+            "spread": [
+                13
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "identificar artefacto tintero de plata ennegrecida"
+            ],
+            "knowledge": [
+                ""
+            ],
+            "type": [
+                ""
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Margareth T. Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">13</span></div></div></div>",
+            "url": "r22773",
+            "simpleTitle": "misión: dragonfly's secrets",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Vasilisa M. Kuznetzova",
+            "spread": [
+                6
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "identificar artefacto lámpara de aceite eterno"
+            ],
+            "knowledge": [
+                ""
+            ],
+            "type": [
+                ""
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">6</span></div></div></div>",
+            "url": "r22943",
+            "simpleTitle": "misión: dragonfly's secrets",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                3
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "identificar artefacto sello de cera encantado"
+            ],
+            "knowledge": [
+                ""
+            ],
+            "type": [
+                ""
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">3</span></div></div></div>",
+            "url": "r22997",
+            "simpleTitle": "misión: dragonfly's secrets",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Margareth T. Moody",
+            "spread": [
+                1
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "identificar artefacto amuleto contra el mal de ojo"
+            ],
+            "knowledge": [
+                ""
+            ],
+            "type": [
+                ""
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Margareth T. Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">1</span></div></div></div>",
+            "url": "r23023",
+            "simpleTitle": "misión: dragonfly's secrets",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Vasilisa M. Kuznetzova",
+            "spread": [
+                4
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "identificar artefacto cetro de marfil tallado"
+            ],
+            "knowledge": [
+                ""
+            ],
+            "type": [
+                ""
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">4</span></div></div></div>",
+            "url": "r23121",
+            "simpleTitle": "misión: dragonfly's secrets",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                19
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "identificar artefacto estuche de pociones portátil"
+            ],
+            "knowledge": [
+                ""
+            ],
+            "type": [
+                ""
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">19</span></div></div></div>",
+            "url": "r23142",
+            "simpleTitle": "misión: dragonfly's secrets",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                6
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "vuelo en pareja"
+            ],
+            "knowledge": [
+                "vuelo"
+            ],
+            "type": [
+                "quidditch, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"vuelo en pareja\" (6)</strong><span>El vuelo es a una buena velocidad. Se demora 4 turnos en llegar al objetivo deseado.</span></span></div></div></div>",
+            "url": "r23182",
+            "simpleTitle": "evento: duetos estelares - neptune y jupiter",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Berenike M. Borgin",
+            "spread": [
+                13,
+                3
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "vuelo en pareja",
+                "vuelo en velocidad"
+            ],
+            "knowledge": [
+                "vuelo",
+                "vuelo"
+            ],
+            "type": [
+                "quidditch, sin magia, neutral",
+                "quidditch, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Berenike M. Borgin ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"vuelo en pareja\" (13)</strong><span>El vuelo es a una buena velocidad. Se demora 4 turnos en llegar al objetivo deseado.</span></span><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #2 \"vuelo en velocidad\" (3)</strong><span>Vuelo a velocidad moderada, pero estable. Demora 2 turnos en llegar al objetivo deseado. </span></span></div></div></div>",
+            "url": "r23177",
+            "simpleTitle": "evento: duetos estelares - kaoru y berenike",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                1,
+                2
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "oppugno",
+                "oppugno"
+            ],
+            "knowledge": [
+                "dcao",
+                "dcao"
+            ],
+            "type": [
+                "embrujo, ofensivo",
+                "embrujo, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"oppugno\" (1)</strong><span>Los objetos golpean al objetivo con fuerza moderada. La víctima pierde +5 PV por cada objeto previamente generado.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"oppugno\" (2)</strong><span>Los objetos impactan con precisión y fuerza considerable. La víctima pierde +7 PV por cada objeto previamente generado.</span></span></div></div></div>",
+            "url": "r23233",
+            "simpleTitle": "evento: duetos estelares - shun y findlay",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Neptune E. Merrythought",
+            "spread": [
+                19,
+                8
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "flipendo",
+                "flipendo"
+            ],
+            "knowledge": [
+                "dcao",
+                "dcao"
+            ],
+            "type": [
+                "maleficio, ofensivo",
+                "maleficio, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Neptune E. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"flipendo\" (19)</strong><span>El oponente es lanzado por los aires con gran fuerza, impactando contra una superficie. Adiciona <em>+6</em> (40% del conocimiento en DCAO) puntos adicionales de daño al objetivo.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"flipendo\" (8)</strong><span>El oponente es lanzado por los aires con gran fuerza, impactando contra una superficie. Adiciona <em>+6</em> (40% del conocimiento en DCAO) puntos adicionales de daño al objetivo.</span></span></div></div></div>",
+            "url": "r23253",
+            "simpleTitle": "evento: duetos estelares - neptune y jupiter",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                4,
+                12
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "vuelo",
+                "vuelo"
+            ],
+            "knowledge": [
+                "vuelo",
+                "vuelo"
+            ],
+            "type": [
+                "quidditch, sin magia, neutral",
+                "quidditch, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"vuelo\" (4)</strong><span>El vuelo es a una buena velocidad. Se demora 3 turnos en llegar al objetivo deseado.</span></span><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #2 \"vuelo\" (12)</strong><span>Vuelo perfecto. Se requieren 2 turnos para llegar al objetivo deseado.</span></span></div></div></div>",
+            "url": "r23285",
+            "simpleTitle": "evento: duetos estelares - neptune y jupiter",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Findlay McCrory",
+            "spread": [
+                13,
+                11
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "vuelo en pareja",
+                "vuelo en velocidad"
+            ],
+            "knowledge": [
+                "vuelo",
+                "vuelo"
+            ],
+            "type": [
+                "quidditch, sin magia, neutral",
+                "quidditch, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Findlay McCrory ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"vuelo en pareja\" (13)</strong><span>Vuelo perfecto. Se requieren 3 turnos para llegar al objetivo deseado.</span></span><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #2 \"vuelo en velocidad\" (11)</strong><span>Velocidad máxima. Podrá realizar la siguiente acción de manera inmediata.</span></span></div></div></div>",
+            "url": "r23278",
+            "simpleTitle": "evento: duetos estelares - shun y findlay",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Margareth T. Moody",
+            "spread": [
+                19
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "identificar artefacto anillo de sello de los ansfred"
+            ],
+            "knowledge": [
+                ""
+            ],
+            "type": [
+                ""
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Margareth T. Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">19</span></div></div></div>",
+            "url": "r23298",
+            "simpleTitle": "misión: dragonfly's secrets",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Vasilisa M. Kuznetzova",
+            "spread": [
+                3
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "identificar artefacto frasco de cristal para criaturas"
+            ],
+            "knowledge": [
+                ""
+            ],
+            "type": [
+                ""
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">3</span></div></div></div>",
+            "url": "r23430",
+            "simpleTitle": "misión: dragonfly's secrets",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Venus M. Merrythought",
+            "spread": [
+                1,
+                2
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "vuelo en pareja",
+                "vuelo en velocidad"
+            ],
+            "knowledge": [
+                "vuelo",
+                "vuelo"
+            ],
+            "type": [
+                "quidditch, sin magia, neutral",
+                "quidditch, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Venus M. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"vuelo en pareja\" (1)</strong><span>Vuelo lento, pero estable. Se requieren 6 turnos para llegar al objetivo deseado.</span></span><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #2 \"vuelo en velocidad\" (2)</strong><span>Vuelo a velocidad moderada, pero estable. Demora 2 turnos en llegar al objetivo deseado. </span></span></div></div></div>",
+            "url": "r23462",
+            "simpleTitle": "evento: duetos estelares - elysia y venus",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                20
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "identificar artefacto balanza de la verdad"
+            ],
+            "knowledge": [
+                ""
+            ],
+            "type": [
+                ""
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">20</span></div></div></div>",
+            "url": "r23478",
+            "simpleTitle": "misión: dragonfly's secrets",
             "space": "el pensadero"
         }
     ];
