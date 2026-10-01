@@ -1939,13 +1939,14 @@ a.topictitle:hover {
 
 .mentiontag,
 .mentiontag:hover {
-  background: var(--post-user) !important;
-  color: var(--color-text-100) !important;
-  padding: 5px 10px;
-  font-weight: lighter;
-  font-size: 9px;
-  display: inline-block;
-  margin: 2px 0;
+    background: var(--post-user) !important;
+    color: var(--color-text-100) !important;
+    padding: 5px;
+    font-size: 10px;
+    display: inline-block;
+    margin: 2px 0;
+    line-height: 10px;
+    padding-bottom: 7px;
 }
 
 .main-tooltip {
