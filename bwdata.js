@@ -1704,7 +1704,7 @@ const MissionsModule = (function () {
     // fin gilded herb
 
     "the hallucination mill": {
-      "description": "Con el fin de poder responder todas las dudas sobre las bebidas. Se deberá hacer un interrogatorio al actual administrador de 'Bodegas Dempsey'. Este tema contará con la participación de la administración como el administrador.",
+      "description": "Con el fin de poder responder todas las dudas sobre las bebidas, se deberá hacer un interrogatorio al actual administrador de 'Bodegas Dempsey'. Este tema contará con la participación de la administración como el administrador.",
       "image": "https://2img.net/i.imgur.com/9mnS7Op.png", "requisitos": ["un miembro del departamento del Seguridad Mágica"],
       "users": ["/u8","/u55"],
       "informed": [],
@@ -1712,7 +1712,30 @@ const MissionsModule = (function () {
       "type": "interrogatorio", "closed": false, "fecha": "", "link": "", "tagged": ["morgana", "capitulo 0"],
 
       "cards": [],
-      "searchs": {},
+
+      "searchs": {
+        "acceso al viejo molino": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "",
+          "cont": '<span>Al consultar sobre el lugar en los registros del Departamento de Seguridad Mágica, se encontraron con que el lugar corresponde a un viejo molino. Al tratarse de propiedad privada, antes de infiltrarse, el Ministerio envió unos sabuesos para realizar una investigación y se concluyó que, la mejor forma de proceder, era solicitar una reunión con el dueño del lugar. El señor Donn.</span>',
+        },
+        "seguir al hombrecito": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "acceso al viejo molino",
+          "cont": '<span>Al ingresar a la fábrica, puede olerse desde la distancia un aroma a whiskey. La mayoría de los trabajadores se siguen moviendo en lo suyo, pero algunos se detienen, dejando de fumar, para observar a los extraños. Dentro, la destilería es igual de gris que el exterior, los pasillos parecen no tener ventanas y el ambiente es húmedo y sombrío.</span>',
+        },
+        "sobre el lugar": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "seguir al hombrecito",
+          "cont": '<span>Cada cierta cantidad de metros, se pueden observar guardias. Ninguno de ellos parece alarmado por las visitas, no obstante, todos los siguen con la mirada.</span>',
+        },
+        "ingresar al despacho de donn": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "seguir al hombrecito",
+          "cont": '<span>Mientras siguen al hombrecito, suben unas escaleras que parecen dar a unas oficinas, hasta que llegan a una puerta. El hombrecito da dos golpes antes de abrir la puerta. «Los caballeros del Ministerio de Magia».</span>',
+        },
+        "donn dempsey": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ingresar al despacho de donn",
+          "cont": '<span>Donn Dempsey, el dueño del lugar se encuentra detrás de un escritorio fumando un habano. Está demasiado elevado de peso y apenas se puede mover. Por más de que se trate de lo que parece una de las pocas salas con ventanas, y de que estas se encuentren abiertas, el señor usa el periódico en su mano para poder darse un poco de aire. En la sala hace el mismo calor que abajo. Sus ojos marrones se dirigen hacia los aurores. «Escuché que mi prima falleció, me preguntaba cuánto tardarían en venir por aquí haciendo preguntas».</span>',
+        },
+      },
+
       "actions": {},
     },
     // fin the hallucination mill
