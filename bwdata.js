@@ -1709,7 +1709,7 @@ const MissionsModule = (function () {
       "users": ["/u8","/u55"],
       "informed": [],
       "dependency": ["gilded herb"],
-      "type": "interrogatorio", "closed": false, "fecha": "", "link": "", "tagged": ["morgana", "capitulo 0"],
+      "type": "interrogatorio", "closed": false, "fecha": "1953-06-24", "link": "/t1489-interrogatorio-the-hallucination-mill", "tagged": ["morgana", "capitulo 0"],
 
       "cards": [],
 
@@ -4447,7 +4447,7 @@ const MissionsModule = (function () {
       "users": ["/u91","/u55","/u150","/u199"],
       "informed": [],
       "dependency": [],
-      "type": "misión", "closed": false, "fecha": "", "link": "", "tagged": ["wave", "capitulo 1"],
+      "type": "misión", "closed": false, "fecha": "1953-06-29", "link": "/t1488-mision-the-wounded-dragon", "tagged": ["wave", "capitulo 1"],
 
       "cards": [],
 
@@ -6073,7 +6073,7 @@ const MissionsModule = (function () {
       "users": ["c/u150","/u156","/u97","/u9"],
       "informed": [],
       "dependency": ["tying loose ends"],
-      "type": "investigación", "closed": false, "fecha": "", "link": "", "tagged": ["original"],
+      "type": "investigación", "closed": false, "fecha": "1953-06-22", "link": "/t1487-investigacion-blood-runs-cold", "tagged": ["original"],
 
       "cards": [],
 
