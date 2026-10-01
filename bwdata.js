@@ -4427,7 +4427,54 @@ const MissionsModule = (function () {
       "type": "misión", "closed": false, "fecha": "", "link": "", "tagged": ["wave", "capitulo 1"],
 
       "cards": [],
-      "searchs": {},
+
+      "searchs": {
+        "sobre dragones heridos": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "dragonólogo", "name": "invalid", }, "place": "",
+          "cont": '<span>Dentro de las primeras instrucciones que se dan a los dragonólogos, se explica que: Cuando un dragón se encuentra herido, suele sobrevolar un área en busca de una fuente de agua. Se mantienen en el aire hasta que consideran que la zona de aterrizaje es segura y cuenta con alimentos para poder asentarse durante unos días y poder curarse.</span>',
+        },
+
+        "el dragón": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
+          "cont": '<span>Sobre ellos pasa, quizá demasiado cerca, aunque sin atacarlos, un dragón verde oscuro que contrasta contra el cielo, pero que fácilmente podría confundirse con la vegetación del terreno. Al pasar sobre ellos, cubre a todos los participantes con su sombra. Puede escucharse su quejido y algo cae sobre ellos con su pasada. Al tomarlo, son unas escamas color verde musgo cubiertas de sangre como si el dragón las estuviera perdiendo.</span>',
+        },
+
+        "identificar al dragón": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "dragonólogo", "name": "invalid", }, "place": "el dragón",
+          "cont": '<span>El dragón herido se trata de un Galés verde común, por lo que puede notarse, mide unos 5 metros de largo y la envergadura de las alas es de unos 9.5 metros. Por suerte, es uno de los dragones menos agresivos, si no se lo ataca con la guardia baja.</span>',
+        },
+
+        "cómo acercarse a un dragón": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "dragonólogo", "name": "invalid", }, "place": "sobre dragones heridos",
+          "cont": '<span>Información que se obtiene durante la formación de dragonólogos: Al momento de acercarse a los dragones, nunca tomarlos de manera desprevenida porque van a interpretar que se los está por atacar. Deben mostrarse visibles, pero siempre bajo alguna protección en caso de que el dragón ataque primero. Los sonidos fuertes los desconciertan, por lo que no se recomienda hacer ruido para poder acercarse. Se lo debe hacer de forma calmada, despacio y tratando de mantener la calma del animal.</span>',
+        },
+
+        "cómo atraer a un dragón": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "dragonólogo", "name": "invalid", }, "place": "cómo acercarse a un dragón",
+          "cont": '<span>La mejor opción que tienen, es asegurarse que las condiciones que necesita el dragón se encuentren disponibles. Buscar una fuente de agua cercana, dulce de ser posible y dejar alimento cerca. Las ovejas suelen ser sus favoritas.</span>',
+        },
+        
+        "hechizos importantes a considerar": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "san mungo", "name": "invalid", }, "place": "",
+          "cont": '<span>Es importante recordar que la forma más rápida de curar heridas de fuego es con hechizos como: Aqua Vitae y Combustio Sana. Adicionalmente, San Mungo, ofreció un bolso con 6 suministros de Remedio para quemaduras.</span>',
+        },
+        
+        "información del terreno": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "",
+          "cont": '<span>El terreno donde se encuentran es una colina verde llena de tréboles y dientes de león. No hay más civiles dentro del domo, es algo que ha confirmado el departamento para asegurar que nadie resultara herido.</span>',
+        },
+        
+        "fuente de agua": {
+          "visible": { "attr": { "sab": "+3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "sobre dragones heridos",
+          "cont": '<span>Incluso donde se encuentran, pueden escuchar el murmullo de un río que corre debajo de la colina. Un espacio que se encuentra dentro del domo.</span>',
+        },
+        
+        "anzuelos": {
+          "visible": { "attr": { "val": "min" }, "know": { "transformaciones": "10" }, "job": "invalid", "name": "invalid", }, "place": "cómo atraer a un dragón",
+          "cont": '<span>Dado que han retirado a todos los civiles, las rocas que se encuentran a un costado pueden ser utilizadas para transformarlas en ovejas y así atraer al dragón.</span>',
+        },
+      },
+
       "actions": {},
     },
     // fin the wounded dragon
@@ -6006,8 +6053,94 @@ const MissionsModule = (function () {
       "type": "investigación", "closed": false, "fecha": "", "link": "", "tagged": ["original"],
 
       "cards": [],
-      "searchs": {},
-      "actions": {},
+
+      "searchs": {
+        "ingresar a la casa de thalia": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
+          "cont": '<span>El interior de la casa inicia con un hall donde puede observarse un perchero con una túnica usada y varios paraguas. Solo se requiere un par de pasos para ingresar al living comedor. Un espacio húmedo, poco iluminado y con olor a viejo.</span>',
+        },
+        
+        "preguntar por la relación con thalia": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
+          "cont": '<span>Al preguntarle a Gibran sobre la relación que tenía con Thalia, el hombre hace una mueca. «Ella era especial... Mi padre decía que era demasiado intensa con el trabajo, yo... no sé. Había algo perturbador en su mirada y cuando algo se le metía en la cabeza... era imposible que lo abandonara» explicó. «Los últimos años, apenas si supimos de ella. Cuando entró a trabajar para el Ministerio, se encerraba allí todo el tiempo y no quería salir. Sus investigaciones siempre eran más importantes que todo lo demás. Incluso la familia.»</span>',
+        },
+        
+        "preguntar por la casa": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
+          "cont": '<span>«No es una casa muy grande. A Thalia siempre le gustó pasar más tiempo en el trabajo que en su casa. Este era solo un lugar donde paraba a dormir y luego seguía», se encogió de hombros al responder. «Tiene tres ambientes, el living comedor, un estudio y una habitación. Y el baño...» Incluso aunque trataba de disimularlo, Gibran se sentía incómodo en aquel lugar y mantenía una distancia cercana a la puerta.</span>',
+        },
+        
+        "preguntar quiénes ingresaron a la casa": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
+          "cont": '<span>Al preguntar si alguien más ingresó a la casa. Gibran niega. «Hasta donde conozco, nadie más. Mi padre falleció un par de meses antes que Thalia, ella ni siquiera fue a su funeral porque estaba a punto de descubrir algo...» elevó un poco el tono de voz imitando a la mujer antes de pedir disculpas con un gesto de la mano. «Lo siento, el drama familiar es lo que menos les debe interesar». Soltó el aire y continúo hablando. «Cuando me dieron la casa, lo primero que hice fue cerrar todas las puertas y ventanas, tirar la comida y poner un par de hechizos de protección y nada más. No quería que mi hija conociera este lugar. Pensé en venderlo, muchas veces, pero nunca conseguí un comprador y venderla en el mercado muggle requiere cierto trabajo en la instalación que preferí no hacer».</span>',
+        },
+        
+        "preguntar por qué temía a thalia": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
+          "cont": '<span>«Como dije, ella era particular. De chico me daban miedo sus ojos grandes tras los lentes redondos, de grande me di cuenta que era solo una obsesionada con el trabajo. No podía ver nada más que ello». Hizo una mueca y, aunque parecía que iba a seguir hablando, se calló.</span>',
+        },
+        
+        "preguntar si tuvo algún incidente con thalia": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar por qué temía a thalia",
+          "cont": '<span>«¿Demasiado evidente?» Gibran se rio de sí mismo y asintió. «Nada grave, supongo... Cuando era niño mi padre solía dejarme con ella, se suponía que nos quedaríamos en la casa, almorzaríamos y luego mi padre me retiraría al terminar de trabajar. Nunca pasó, todas las veces mi padre me dejaba y Thalia me llevaba a su trabajo, decía que era importante. Ella era nigromante en San Mungo. Se imaginarán que no era un espacio para un niño». Gibran negó con la cabeza, alejando pensamientos que solo él escuchaba. «Cuando ingresó a la Cámara de la Sangre se sintió peor. Yo era mayor, pero un día vi que quería extraer una muestra de sangre de mi hija y ahí fue donde tracé la línea. Esa gente se mete con magia oscura y cree que está bien y no es así. No. No. No es así».</span>',
+        },
+        
+        "ingresar al estudio": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ingresar a la casa de thalia",
+          "cont": '<span>El estudio es un espacio pequeño y sin ventanas. Por la luz que se cuela puede ver unas cuantas estanterías con libros, un escritorio y una alfombra cargada de polvo.</span>',
+        },
+      },
+
+      "actions": {
+        "revelio": {
+          "leve": '<span>No es suficiente para revelar información.</span>',
+          "moderado": '<span>A lo lejos puede escucharse el murmullo de unos libros.</span>',
+          "exitoso": '<span>A lo lejos puede escucharse el murmullo de unos libros.</span>',
+          "critico": '<span>A lo lejos puede escucharse el murmullo de unos libros.</span>',
+        },
+        
+        "homenum revelio": {
+          "leve": '<span>No es suficiente para revelar información.</span>',
+          "moderado": '<span>No se detectan personas cercanas más allá de los presentes.</span>',
+          "exitoso": '<span>No se detectan personas cercanas más allá de los presentes.</span>',
+          "critico": '<span>No se detectan personas cercanas más allá de los presentes.</span>',
+        },
+        
+        "invasio": {
+          "leve": '<span>No es suficiente para revelar información.</span>',
+          "moderado": '<span>No se detectan personas cercanas más allá de los presentes.</span>',
+          "exitoso": '<span>No se detectan personas cercanas más allá de los presentes.</span>',
+          "critico": '<span>No se detectan personas cercanas más allá de los presentes.</span>',
+        },
+        
+        "pretium ostende": {
+          "leve": '<span>No es suficiente para revelar información.</span>',
+          "moderado": '<span>No se detectan objetos de valor en la casa.</span>',
+          "exitoso": '<span>No se detectan objetos de valor en la casa.</span>',
+          "critico": '<span>No se detectan objetos de valor en la casa.</span>',
+        },
+        
+        "murmura futuri": {
+          "leve": '<span>No es suficiente para revelar información.</span>',
+          "moderado": '<span>Puede elegir el personaje al que escucha decir: "Oh no, esto está muy mal. Deberíamos llevarlo a San Mungo."</span>',
+          "exitoso": '<span>Puede elegir el personaje al que escucha decir: "¿Qué has hecho? ¿Cómo se te ocurre tocar el anillo?"</span>',
+          "critico": '<span>Puede elegir el personaje al que escucha decir: "¿Qué has hecho? ¿Cómo se te ocurre tocar el anillo?"</span>',
+        },
+        
+        "scintillat": {
+          "leve": '<span>No es suficiente para revelar información.</span>',
+          "moderado": '<span>Puede ver la imagen de un anillo de oro con un emblema familiar en el mismo.</span>',
+          "exitoso": '<span>Puede ver la imagen de un anillo de oro con un emblema familiar en el mismo y a lo lejos una pizarra de información.</span>',
+          "critico": '<span>Puede ver la imagen de un anillo de oro con un emblema familiar en el mismo y a lo lejos una pizarra de información.</span>',
+        },
+        
+        "veniens empathy": {
+          "leve": '<span>No es suficiente para revelar información.</span>',
+          "moderado": '<span>Una sensación de perturbación lo invade.</span>',
+          "exitoso": '<span>Una sensación de perturbación lo invade.</span>',
+          "critico": '<span>Una sensación de perturbación lo invade.</span>',
+        },
+      },
     },
     // fin: blood runs cold
 
