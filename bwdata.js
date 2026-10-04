@@ -7047,6 +7047,62 @@ const MissionsModule = (function () {
     },
     // fin enrolled origins
 
+    "a trail gone cold": {
+      "description": "Las primeras investigaciones sobre la desaparición de Cuthbert Selwyn llevan a un registro de traslador con destino a los géiseres rusos. Guiados por la información que se encontró en su casa, deberán seguir sus pasos para descubrir qué ha sucedido con el mago golpeador. ¿Qué buscaba Cuthbert en un lugar tan remoto?",
+      "image": "https://i.imgur.com/2ZwTTMk.png", "requisitos": ["Un miembro debe ser parte del Departamento de Seguridad Mágica", "Un personaje deberá pertenecer a la familia Selwyn", "Un personaje deberá tener Curación en Consagrado"],
+      "users": ["c/u1"],
+      "informed": [],
+      "dependency": [],
+      "type": "misión", "closed": false, "fecha": "", "link": "", "tagged": ["original", "wave", "capitulo 0"],
+
+      "cards": [],
+
+      "searchs": {
+        "investigación": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
+          "cont": '<span>COMPLETAR</span>',
+        }
+      },
+
+      "actions": {
+        "hechizo": {
+          "leve": '<span>COMPLETAR</span>',
+          "moderado": '<span>COMPLETAR</span>',
+          "exitoso": '<span>COMPLETAR</span>',
+          "critico": '<span>COMPLETAR</span>',
+        },
+      },
+    },
+    // fin a trail gone cold
+
+    "silence behind the door": {
+      "description": "Tras semanas de silencio por parte de Mercury Merrythought, su familia buscará saber qué ha sido de él. Sin embargo, lo que encuentren al cruzar la puerta de su casa será una sorpresa que nadie esperaba.",
+      "image": "https://i.imgur.com/U3xWUSJ.png", "requisitos": ["Un miembro debe ser parte del Departamento de Seguridad Mágica", "Un personaje deberá pertenecer a la familia Merrythought", "Un personaje deberá tener Curación en Avanzado"],
+      "users": ["c/u119"],
+      "informed": [],
+      "dependency": [],
+      "type": "misión", "closed": false, "fecha": "", "link": "", "tagged": ["original", "capitulo 3"],
+
+      "cards": [],
+
+      "searchs": {
+        "investigación": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
+          "cont": '<span>COMPLETAR</span>',
+        }
+      },
+
+      "actions": {
+        "hechizo": {
+          "leve": '<span>COMPLETAR</span>',
+          "moderado": '<span>COMPLETAR</span>',
+          "exitoso": '<span>COMPLETAR</span>',
+          "critico": '<span>COMPLETAR</span>',
+        },
+      },
+    },
+    // fin silence behind the door
+
     "under: evacuación": {
       "description": "",
       "image": "", "requisitos": [],
