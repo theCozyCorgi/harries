@@ -2205,7 +2205,7 @@ const MissionsModule = (function () {
 
         "ubicación de la piedra de agua": {
           "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "mito de la piedra de agua",
-          "cont": '<span>Ante la pregunta obvia, Rouge levanta ambas manos, como rindiéndose de antemano—: <strong>Ni idea</strong> —dice, sin dejar lugar a dudas—. <strong>Es un mito, no un mapa. Lo escuché de un contrabandista borracho hace años, en un puerto que ni recuerdo el nombre, y se lo repetí a los tres porque no tenía nada mejor que ofrecerles.</strong> —Aclara que jamás vio la piedra, ni conoce a nadie que la haya visto, y que dudaría de cualquiera que asegure tenerla—. <strong>Si existe, está en el fondo del mar, bajo un río que nadie encontró todavía. Yo trafico con criaturas, no con leyendas.</strong></span>',
+          "cont": '<span>Ante la pregunta obvia, Rouge levanta ambas manos, como rindiéndose de antemano—: <strong>Ni idea</strong> —dice, sin dejar lugar a dudas—. <strong>Es un mito, no un mapa. Lo escuché de un contrabandista borracho hace años, en un puerto que ni recuerdo el nombre, y se lo repetí a los tres porque no tenía nada mejor que ofrecerles.</strong> —Aclara que jamás vio la piedra, ni conoce a nadie que la haya visto, y que dudaría de cualquiera que asegure tenerla—. <strong>Si existe, está en el fondo del mar, bajo un río que nadie encontró todavía. Yo trabajo con criaturas, no con leyendas.</strong></span>',
         },
 
         "espejo que usó dippet": {
