@@ -53722,7 +53722,7 @@ const DBModule = (function () {
                     "words": 301
                 }
             ],
-            "date": "18/02/1053",
+            "date": "18/02/1953",
             "location": "Ministerio de Magia"
         },
         "979": {
@@ -63443,7 +63443,7 @@ const DBModule = (function () {
                     "words": 210
                 }
             ],
-            "date": "21/03/1954",
+            "date": "21/03/1953",
             "location": "Death Fearann"
         },
         "1154": {
@@ -159521,7 +159521,7 @@ const DBModule = (function () {
                     "words": 362
                 }
             ],
-            "date": "17/01/0953",
+            "date": "17/01/1953",
             "location": "Las Tres Escobas"
         },
         "907": {
