@@ -5309,12 +5309,12 @@ const MissionsModule = (function () {
 
         "volver a bajar al sótano": {
           "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "vestíbulo",
-          "cont": '<span>Permite a los personajes bajar al sótano.</span><adding search="reparar escaleras" class="check-cards"></adding>',
+          "cont": '<span>Permite a los personajes bajar al sótano.<adding search="reparar escaleras" class="check-cards"></adding></span>',
         },
 
         "ingresar a las cocinas": {
           "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "vestíbulo",
-          "cont": '<span>Permite a los personajes ingresar a las cocinas.</span><adding search="cocinas" class="check-cards"></adding>',
+          "cont": '<span>Permite a los personajes ingresar a las cocinas.<adding search="cocinas" class="check-cards"></adding></span>',
         },
 
         "subir al primer piso": {
@@ -5339,7 +5339,7 @@ const MissionsModule = (function () {
 
         "bajar al vestíbulo": {
           "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "subir al primer piso",
-          "cont": '<span>Permite a los personajes regresar al vestíbulo.</span><adding search="vestíbulo" class="check-cards"></adding>',
+          "cont": '<span>Permite a los personajes regresar al vestíbulo.<adding search="vestíbulo" class="check-cards"></adding></span>',
         },
 
         "ingresar al ático": {
@@ -5349,7 +5349,7 @@ const MissionsModule = (function () {
 
         "bajar al primer piso": {
           "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ingresar al ático",
-          "cont": '<span>Permite a los personajes regresar al primer piso de la casa.</span><adding search="subir al primer piso" class="check-cards"></adding>',
+          "cont": '<span>Permite a los personajes regresar al primer piso de la casa.<adding search="subir al primer piso" class="check-cards"></adding></span>',
         },
 
         "revisar fotografías": {
