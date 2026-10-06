@@ -5304,21 +5304,21 @@ const MissionsModule = (function () {
 
         "subir escaleras del pasadizo": {
           "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "pasadizo",
-          "cont": '<span>Permite a los personajes subir las escaleras del pasadizo hasta llegar a una puerta, que, al abrirla, salen por otro espejo ubicado en las cocinas.</span><adding search="cocinas" class="check-cards"></adding>',
+          "cont": '<span>Permite a los personajes subir las escaleras del pasadizo hasta llegar a una puerta, que, al abrirla, salen por otro espejo ubicado en las cocinas.</span><adding search="vestíbulo1" class="check-cards"></adding>',
         },
 
         "volver a bajar al sótano": {
-          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "vestíbulo",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "vestíbulo1",
           "cont": '<span>Permite a los personajes bajar al sótano.</span><adding search="reparar escaleras" class="check-cards"></adding>',
         },
 
         "ingresar a las cocinas": {
-          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "vestíbulo",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "vestíbulo1",
           "cont": '<span>Permite a los personajes ingresar a las cocinas.</span><adding search="cocinas" class="check-cards"></adding>',
         },
 
         "subir al primer piso": {
-          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "vestíbulo",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "vestíbulo1",
           "cont": '<span>Permite a los personajes subir al primer piso.</span>',
         },
 
