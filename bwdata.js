@@ -5221,27 +5221,27 @@ const MissionsModule = (function () {
 
         {
           "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "recorrer el vestíbulo",
-          "cont": '<span>En las paredes del vestíbulo cuelgan varios retratos familiares, inmóviles desde hace años; sea porque la magia que los animaba se agotó, sea porque nadie quedó para mantenerla. En casi todos, el rostro ha sido arrancado o quemado con cuidado, como si alguien hubiera querido borrar específicamente las caras y no los cuerpos. Solo uno conserva el rostro intacto: el de una niña pequeña, sonriendo, con otra niña idéntica tomada de la mano.</span><adding search="vestíbulo" class="check-cards"></adding>',
+          "cont": '<span>En las paredes del vestíbulo cuelgan varios retratos familiares, inmóviles desde hace años; sea porque la magia que los animaba se agotó, sea porque nadie quedó para mantenerla. En casi todos, el rostro ha sido arrancado o quemado con cuidado, como si alguien hubiera querido borrar específicamente las caras y no los cuerpos. Solo uno conserva el rostro intacto: el de una niña pequeña, sonriendo, con otra niña idéntica tomada de la mano.<adding search="vestíbulo" class="check-cards"></adding></span>',
         },
 
         {
           "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ingresar a las cocinas",
-          "cont": '<span>Las cocinas son un recuerdo de lo que alguna vez hubo allí. Cerámicos amarillo pálido desgastado de tanto uso. Una mesa con cuatro sillas de las cuales dos están rotas. Todos los vidrios de las ventanas se encuentran opacos por el polvo, el sol y todas las lluvias que pasaron sin que nadie los limpiara.</span><adding search="cocinas" class="check-cards"></adding>',
+          "cont": '<span>Las cocinas son un recuerdo de lo que alguna vez hubo allí. Cerámicos amarillo pálido desgastado de tanto uso. Una mesa con cuatro sillas de las cuales dos están rotas. Todos los vidrios de las ventanas se encuentran opacos por el polvo, el sol y todas las lluvias que pasaron sin que nadie los limpiara.<adding search="cocinas" class="check-cards"></adding></span>',
         },
 
         {
           "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ingresar al cuarto matrimonial",
-          "cont": '<span>La habitación matrimonial es una sala amplia y con techos altos, con muebles de madera oscura y cortinas de terciopelo verde. En el centro de la habitación hay una cama grande con un colchón grueso y almohadas de plumas, todas desgastadas por el paso del tiempo y un gato durmiendo sobre una de ellas que observa a quiénes ingresa, pero no se mueve de su lugar. Hay cuadros y fotografías colgadas en las paredes, pero todas están descoloridas por el sol que aún se mueven.</span><adding search="matrimonial" class="check-cards"></adding>',
+          "cont": '<span>La habitación matrimonial es una sala amplia y con techos altos, con muebles de madera oscura y cortinas de terciopelo verde. En el centro de la habitación hay una cama grande con un colchón grueso y almohadas de plumas, todas desgastadas por el paso del tiempo y un gato durmiendo sobre una de ellas que observa a quiénes ingresa, pero no se mueve de su lugar. Hay cuadros y fotografías colgadas en las paredes, pero todas están descoloridas por el sol que aún se mueven.<adding search="matrimonial" class="check-cards"></adding></span>',
         },
 
         {
           "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ingresar al cuarto de las gemelas",
-          "cont": '<span>La habitación de las gemelas es un espacio pequeño y acogedor. Contrario a todos los lugares a los que entraron, es el único que muestra verdadero uso reciente. Las ventanas están limpias, las camas están hechas y se puede apreciar que alguien, hasta hacía poco más de un año había estado limpiando y ordenando el lugar.</span><adding search="gemelas" class="check-cards"></adding>',
+          "cont": '<span>La habitación de las gemelas es un espacio pequeño y acogedor. Contrario a todos los lugares a los que entraron, es el único que muestra verdadero uso reciente. Las ventanas están limpias, las camas están hechas y se puede apreciar que alguien, hasta hacía poco más de un año había estado limpiando y ordenando el lugar.<adding search="gemelas" class="check-cards"></adding></span>',
         },
 
         {
           "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ingresar al ático",
-          "cont": '<span>El ático es definitivamente el espacio más pequeño de toda la casa. No tiene luces, pero las velas prendidas iluminan débilmente el espacio de madera.</span><adding search="ático" class="check-cards"></adding>',
+          "cont": '<span>El ático es definitivamente el espacio más pequeño de toda la casa. No tiene luces, pero las velas prendidas iluminan débilmente el espacio de madera.<adding search="ático" class="check-cards"></adding></span>',
         },
 
         {
@@ -5299,7 +5299,7 @@ const MissionsModule = (function () {
 
         "subir al vestíbulo": {
           "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "reparar la escalera",
-          "cont": '<span>Permite a los personajes regresar al vestíbulo.</span><adding search="vestíbulo" class="check-cards"></adding>',
+          "cont": '<span>Permite a los personajes regresar al vestíbulo.<adding search="vestíbulo" class="check-cards"></adding></span>',
         },
 
         "subir escaleras del pasadizo": {
