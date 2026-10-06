@@ -5304,7 +5304,7 @@ const MissionsModule = (function () {
 
         "subir escaleras del pasadizo": {
           "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "pasadizo",
-          "cont": '<span>Permite a los personajes subir las escaleras del pasadizo hasta llegar a una puerta, que, al abrirla, salen por otro espejo ubicado en las cocinas.</span><adding search="vestíbulo" class="check-cards"></adding>',
+          "cont": '<span>Permite a los personajes subir las escaleras del pasadizo hasta llegar a una puerta, que, al abrirla, salen por otro espejo ubicado en las cocinas.</span><adding search="cocinas" class="check-cards"></adding>',
         },
 
         "volver a bajar al sótano": {
