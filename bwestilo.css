@@ -10749,7 +10749,8 @@ button.bw-manifest-stat[aria-expanded="true"] {
   height: 90px;
 }
 
-.bw-manifest-hist span {
+.bw-manifest-hist span,
+.bw-manifest-hist button {
   display: flex;
   flex-flow: column;
   justify-content: flex-end;
@@ -10759,7 +10760,10 @@ button.bw-manifest-stat[aria-expanded="true"] {
 }
 
 .bw-manifest-hist i {
+  flex-shrink: 0;
   width: 100%;
+  /* --p = valor / máximo; la altura se reparte en lo que dejan libre las etiquetas */
+  height: max(2px, calc((100% - var(--labels, 15px)) * var(--p, 0)));
   border-radius: 2px 2px 0 0;
   background: var(--mode-back-70);
 }
@@ -10778,6 +10782,27 @@ button.bw-manifest-stat[aria-expanded="true"] {
 
 .bw-manifest-hist small {
   font-size: 9px;
+}
+
+/* posts por mes: 12 columnas, con el número arriba de cada barra */
+.bw-manifest-hist.meses {
+  --labels: 31px;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  height: 110px;
+}
+
+.bw-manifest-hist b {
+  font-size: 10px;
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
+}
+
+.bw-manifest-hist button:hover i {
+  filter: brightness(1.25);
+}
+
+.bw-manifest-hist button[aria-expanded="true"] i {
+  outline: 1px solid var(--mode-text-100);
 }
 
 /* álbum de sabores de grageas */
