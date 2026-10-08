@@ -169248,3 +169248,7 @@ const DBModule = (function () {
         }
     };
 })();
+
+// === ARCHIVO DE backup/data/auxiliary.js (recordsModule) ===
+const archivedMoney = [];
+const archivedBeans = [];

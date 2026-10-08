@@ -108,7 +108,7 @@ const MissionsModule = (function () {
       "description": "Bienvenidos a 'Maroon Steed', aquellos que lo conocen, saben a dónde están ingresando, quienes no, pronto lo descubrirán.<br />La taberna que solo aparece para aquellos que necesitan una poción para la tristeza, la rabia y el enojo. Ideal para quienes lloran por dentro, pero aún queda vida en sus corazones. La taberna es un espacio ideal para olvidarse de todas las dolencias y todas las cicatrices que la vida dejo. Allí dentro encontrarán algo mágico, algo prohibido, algo que olvidar...",
       "image": "https://2img.net/i.imgur.com/gGo598Z.png", "requisitos": [],
       "users": ["/u38", "/u116", "/u115", "/u119", "/u118", "/u63"],
-      "informed": ["/u55","/u130"],
+      "informed": ["/u55", "/u130"],
       "dependency": [],
       "type": "misión", "closed": true, "fecha": "1952-10-31", "link": "https://blackwave.foroactivo.com/t559-mision-potions-for-all-the-afflections", "tagged": ["morgana", "capitulo 0"],
 
@@ -1102,7 +1102,7 @@ const MissionsModule = (function () {
       "description": "Tras desentrañar el contenido de las tazas de té de las víctimas. Una nueva incógnita se escribe, ¿con qué planta contaminaron el té?, y ¿cuáles eran sus efectos? El objetivo de esta investigación es avanzar un paso más, cuál era esa planta y tal vez, revelar una nueva pista que los lleve a resolver el misterio.",
       "image": "https://2img.net/i.imgur.com/CzU2l87.png", "requisitos": ["Un integrante tiene que tener Herbología en Avanzado"],
       "users": ["/u18", "/u108", "/u97"],
-      "informed": ["/u55","/u130"],
+      "informed": ["/u55", "/u130"],
       "dependency": ["death in a teacup"],
       "type": "investigación", "closed": true, "fecha": "1952-10-27", "link": "/t522-investigacion-botanical-market", "tagged": ["morgana", "capitulo 0"],
 
@@ -1706,7 +1706,7 @@ const MissionsModule = (function () {
     "the hallucination mill": {
       "description": "Con el fin de poder responder todas las dudas sobre las bebidas, se deberá hacer un interrogatorio al actual administrador de 'Bodegas Dempsey'. Este tema contará con la participación de la administración como el administrador.",
       "image": "https://2img.net/i.imgur.com/9mnS7Op.png", "requisitos": ["un miembro del departamento del Seguridad Mágica"],
-      "users": ["/u8","/u55"],
+      "users": ["/u8", "/u55"],
       "informed": [],
       "dependency": ["gilded herb"],
       "type": "interrogatorio", "closed": false, "fecha": "1953-06-24", "link": "/t1489-interrogatorio-the-hallucination-mill", "tagged": ["morgana", "capitulo 0"],
@@ -2051,7 +2051,7 @@ const MissionsModule = (function () {
     "the price of silence": {
       "description": "El animal al que pertenece la toxina, es propio del suroeste asiático, pero aquello no es lo más exótico, sino que su compra y venta de veneno es ilegal. La investigación se mueve hacia algún contrabandista que quiera dar la información sobre dónde puede conseguirse dicho ingrediente para generar el veneno que, aparentemente, ha acabado con la vida de Sirius Black.",
       "image": "https://2img.net/i.imgur.com/GfHnpgi.png", "requisitos": ["un miembro del departamento del Seguridad Mágica", "Un personaje con Contrabando en Avanzado"],
-      "users": ["/u134","/u55", "/u8"],
+      "users": ["/u134", "/u55", "/u8"],
       "informed": [],
       "dependency": ["ryu's breath"],
       "type": "misión", "closed": false, "fecha": "1953-06-27", "link": "/t1423-mision-the-price-of-silence", "tagged": ["sirius", "capitulo 0"],
@@ -2260,6 +2260,104 @@ const MissionsModule = (function () {
           "moderado": 'Se percibe una colonia estable, sin señales de estrés o manipulación reciente.',
           "exitoso": 'Se confirma que la colonia lleva varios meses asentada en el lugar, consistente con el relato de Rouge.',
           "critico": 'Además de confirmar la antigüedad de la colonia, se percibe que al menos un ejemplar fue manipulado o extraído recientemente: alguien tuvo contacto directo con una de las mariposas hace poco tiempo.',
+        },
+
+        "fortitudo cordis": {
+          "leve": 'Las palabras no terminan de convencer a nadie. Sin efecto.',
+          "moderado": 'El grupo recupera el ánimo. La próxima acción de cebo o traslado suma +1 escarbato.',
+          "exitoso": 'El grupo encara la tarea con determinación. Las próximas dos acciones de cebo o traslado suman +1 escarbato cada una.',
+          "critico": 'Nadie piensa en rendirse. Todas las acciones de cebo o traslado del próximo turno suman +1 escarbato.',
+        },
+
+        "anima vincula": {
+          "leve": 'El vínculo no llega a formarse. Sin efecto.',
+          "moderado": 'El vínculo se forma con un aliado. Si sigue la orden dada este turno, su próximo traslado mueve +1 cebo.',
+          "exitoso": 'El vínculo se forma con todos los aliados a la vista. Quien siga la orden dada este turno mueve +1 cebo en su próximo traslado.',
+          "critico": 'El vínculo se forma con todos los aliados a la vista. Quien siga la orden dada este turno mueve +2 cebos en su próximo traslado.',
+        },
+
+        "anticipatio hostis": {
+          "leve": 'Los escarbatos se mueven demasiado rápido para leer el terreno.',
+          "moderado": 'Se nota hacia dónde tienden a huir: hacia el sector de las raíces, donde la tierra es más blanda.',
+          "exitoso": 'Se identifica la ruta de escape y el agujero bajo la cerca por el que se escabullen. Taparlo evita que se escape ningún escarbato ya encerrado.',
+          "critico": 'Se lee el terreno completo: la ruta de escape, el agujero bajo la cerca y el lugar donde esconden el botín. La próxima acción de cebo cerca de ese escondite suma +2 escarbatos.',
+        },
+
+        "sectio aurea": {
+          "leve": 'No se logra encontrar el punto de equilibrio.',
+          "moderado": 'Se encuentra el punto ideal para colocar el cebo, visible desde casi todo el recinto. La próxima acción de cebo suma +1 escarbato.',
+          "exitoso": 'Se calcula el punto exacto donde el cebo queda equilibrado al levitar. El próximo traslado mueve +1 cebo.',
+          "critico": 'Se calcula el punto exacto donde colocar el cebo y cómo equilibrarlo al levitar. La próxima acción de cebo suma +1 escarbato y el próximo traslado mueve +1 cebo.',
+        },
+
+        "iteratio perfectum": {
+          "leve": 'El encantamiento no logra estabilizarse.',
+          "moderado": 'El encantamiento de traslado se optimiza: +1 en creaciones se cebo o traslado.',
+          "exitoso": 'El encantamiento de traslado se optimiza: +2 en creaciones se cebo o traslado.',
+          "critico": 'El encantamiento de traslado se optimiza: +3 en creaciones se cebo o traslado.',
+        },
+
+        "wingardium leviosa": {
+          "leve": 'El cebo se eleva y cae enseguida. Los escarbatos se abalanzan sobre él y se dispersan con el botín. Hay que volver a cebar.',
+          "moderado": 'El cebo flota a los tirones. Se logran llevar <replace target="cantidad" calculate="0.25" data="5">[25% del dado + bonus por conocimiento, máximo 5]</replace> cebos hasta el recinto, con sus escarbatos detrás.',
+          "exitoso": 'Los cebos flotan estables a poca altura. Se logran llevar <replace target="cantidad" calculate="0.25" data="5">[25% del dado + bonus por conocimiento, máximo 5]</replace> cebos hasta el interior del recinto, con sus escarbatos detrás.',
+          "critico": 'Los cebos flotan a la altura justa para que ningún escarbato los alcance. Se logran llevar <replace target="cantidad" calculate="0.25" data="5">[25% del dado + bonus por conocimiento, máximo 5]</replace> cebos hasta el recinto, y quedan flotando adentro para que los escarbatos no vuelvan a salir.',
+        },
+
+        "locomotor": {
+          "leve": 'El cebo se arrastra por el suelo y los escarbatos lo alcanzan enseguida. Se dispersan con el botín.',
+          "moderado": 'Los cebos avanzan de forma irregular. Se logran llevar <replace target="cantidad" calculate="0.25" data="5">[25% del dado + bonus por conocimiento, máximo 5]</replace> cebos hasta el recinto, con sus escarbatos detrás.',
+          "exitoso": 'Los cebos avanzan firmes, siempre un paso por delante. Se logran llevar <replace target="cantidad" calculate="0.25" data="5">[25% del dado + bonus por conocimiento, máximo 5]</replace> cebos hasta el recinto, con sus escarbatos detrás.',
+          "critico": 'Los cebos se deslizan con precisión hasta el fondo del recinto. Se logran llevar <replace target="cantidad" calculate="0.25" data="5">[25% del dado + bonus por conocimiento, máximo 5]</replace> cebos, y ningún escarbato intenta volver a la salida.',
+        },
+
+        "vox imperium": {
+          "leve": 'La orden se pierde entre el ruido de la reserva y el grupo no logra coordinarse. Ningún escarbato es arreado.',
+          "moderado": 'La orden es clara y el grupo forma un semicírculo. Se arrean <replace target="cantidad" calculate="0.25" data="5">[25% del dado + bonus por conocimiento, máximo 5]</replace> escarbatos hasta el recinto.',
+          "exitoso": 'El grupo cierra el paso coordinado y sin dejar huecos. Se arrean <replace target="cantidad" calculate="0.25" data="5">[25% del dado + bonus por conocimiento, máximo 5]</replace> escarbatos hasta el recinto.',
+          "critico": 'El grupo se mueve como una sola persona y no deja ninguna salida. Se arrean <replace target="cantidad" calculate="0.25" data="5">[25% del dado + bonus por conocimiento, máximo 5]</replace> escarbatos hasta el recinto, que entran sin resistirse.',
+        },
+
+        "mutareforma": {
+          "leve": 'Las piedras apenas cambian de color y quedan opacas. Ningún escarbato se acerca.',
+          "moderado": 'Las piedras se convierten en monedas de brillo pálido. <replace target="cantidad" calculate="0.25" data="5">[25% del dado + bonus por conocimiento, máximo 5]</replace> escarbatos asoman el hocico y se acercan al cebo.',
+          "exitoso": 'Las piedras se convierten en monedas doradas y relucientes. <replace target="cantidad" calculate="0.25" data="5">[25% del dado + bonus por conocimiento, máximo 5]</replace> escarbatos salen de sus escondites y se acercan al cebo.',
+          "critico": 'Las piedras se convierten en galeones que brillan como recién acuñados. <replace target="cantidad" calculate="0.25" data="5">[25% del dado + bonus por conocimiento, máximo 5]</replace> escarbatos se amontonan alrededor del cebo, peleándose por llegar primero.',
+        },
+
+        "plures ad unum": {
+          "leve": 'La fusión falla y las piedras quedan pegadas en un bloque opaco. Ningún escarbato se acerca.',
+          "moderado": 'Las piedras se funden en una pepita irregular con algunas vetas brillantes. <replace target="cantidad" calculate="0.25" data="5">[25% del dado + bonus por conocimiento, máximo 5]</replace> escarbatos se acercan.',
+          "exitoso": 'Las piedras se funden en una pepita pulida y reluciente. <replace target="cantidad" calculate="0.25" data="5">[25% del dado + bonus por conocimiento, máximo 5]</replace> escarbatos se acercan al cebo.',
+          "critico": 'Las piedras se funden en una pieza maciza que parece oro puro. <replace target="cantidad" calculate="0.25" data="5">[25% del dado + bonus por conocimiento, máximo 5]</replace> escarbatos se acercan de inmediato.',
+        },
+
+        "tectumque": {
+          "leve": 'El metal apenas se entibia y no cambia. El cebo no atrae a ningún escarbato extra.',
+          "moderado": 'El metal se ablanda y se puede alisar un poco. El cebo atrae a <replace target="cantidad" calculate="0.25" data="5">[25% del dado + bonus por conocimiento, máximo 5]</replace> escarbatos más de los que ya atraía.',
+          "exitoso": 'El metal se alisa hasta quedar espejado. El cebo atrae a <replace target="cantidad" calculate="0.25" data="5">[25% del dado + bonus por conocimiento, máximo 5]</replace> escarbatos más de los que ya atraía.',
+          "critico": 'El metal queda tan pulido que refleja la luz como un faro. El cebo atrae a <replace target="cantidad" calculate="0.25" data="5">[25% del dado + bonus por conocimiento, máximo 5]</replace> escarbatos más de los que ya atraía.',
+        },
+
+        "engorgio": {
+          "leve": 'El cebo apenas crece y sigue pasando desapercibido. Ningún escarbato se acerca.',
+          "moderado": 'El cebo duplica su tamaño (debe existir al menos 1 cebo previamente creado). <replace target="cantidad" calculate="0.25" data="5">[25% del dado + bonus por conocimiento, máximo 5]</replace> escarbatos lo ven desde lejos y se acercan.',
+          "exitoso": 'El cebo crece hasta el tamaño de un plato y se ve desde cualquier punto del recinto (debe existir al menos 1 cebo previamente creado). <replace target="cantidad" calculate="0.25" data="5">[25% del dado + bonus por conocimiento, máximo 5]</replace> escarbatos se acercan.',
+          "critico": 'El cebo crece hasta parecer un tesoro imposible de ignorar (debe existir al menos 1 cebo previamente creado). <replace target="cantidad" calculate="0.25" data="5">[25% del dado + bonus por conocimiento, máximo 5]</replace> escarbatos se acercan de inmediato.',
+        },
+
+        "geminio": {
+          "leve": 'No aparece ninguna réplica. Ningún escarbato se acerca.',
+          "moderado": 'Cada vez que un escarbato toca el cebo aparece una réplica nueva. <replace target="cantidad" calculate="0.25" data="5">[25% del dado + bonus por conocimiento, máximo 5]</replace> escarbatos se acercan a revisarlas.',
+          "exitoso": 'Cada vez que un escarbato toca el cebo aparece una réplica nueva. <replace target="cantidad" calculate="0.25" data="5">[25% del dado + bonus por conocimiento, máximo 5]</replace> escarbatos se acercan y se entretienen con las copias.',
+          "critico": 'Cada vez que un escarbato toca el cebo aparece una réplica nueva. <replace target="cantidad" calculate="0.25" data="5">[25% del dado + bonus por conocimiento, máximo 5]</replace> escarbatos se acercan y quedan absortos, tratando de guardarlas todas.',
+        },
+
+        "epoximise": {
+          "leve": 'El cebo queda mal pegado y el primer escarbato que se acerca se lo lleva.',
+          "moderado": 'El cebo queda pegado al suelo, aunque se despega con un par de tirones. <replace target="cantidad" calculate="0.25" data="5">[25% del dado + bonus por conocimiento, máximo 5]</replace> de los escarbatos atraídos se quedan forcejeando con él.',
+          "exitoso": 'El cebo queda bien fijado. <replace target="cantidad" calculate="0.25" data="5">[25% del dado + bonus por conocimiento, máximo 5]</replace> de los escarbatos atraídos se quedan intentando arrancarlo.',
+          "critico": 'El cebo queda inamovible. <replace target="cantidad" calculate="0.25" data="5">[25% del dado + bonus por conocimiento, máximo 5]</replace> de los escarbatos atraídos no se apartan de él ni aunque los espanten.',
         },
       },
     },
@@ -2751,7 +2849,7 @@ const MissionsModule = (function () {
     "through the green abyss": {
       "description": "Siguiendo los mapas encontrados en el estudio de Sirius y las indicaciones del alquimista. Es necesario adentrarse a uno de los lugares más peligrosos del mundo mágico: o Coração do Curupira (El corazón del Curupira). Una de las partes más espesas de la selva brasilera que dicen que está protegida por el mismo Curupira.",
       "image": "https://2img.net/i.imgur.com/c4omOwT.png", "requisitos": ["Un miembro debe tener CCM en Avanzado", "Un miembro del Dpto de Seguridad Mágica"],
-      "users": ["/u159","/u153","/u156","/u150"],
+      "users": ["/u159", "/u153", "/u156", "/u150"],
       "informed": [],
       "dependency": ["the lupine killer", "in search of the deadly hallows"],
       "type": "misión", "closed": false, "fecha": "1953-06-19", "link": "/t1424-mision-through-the-green-abyss", "tagged": ["sirius", "capitulo 0"],
@@ -4444,7 +4542,7 @@ const MissionsModule = (function () {
     "the wounded dragon": {
       "description": "Reportes han llegado a la reserva Natural de Flint, un dragón que ha sido volando por las tierras irlandesas. No solo son los rastros de sangre los que generan confianza de una gran herida, sino también el llanto que podía ser escuchado por toda la zona. La reserva se mueve y envía a alguien a encontrar al dragón herido para poder curarlo.",
       "image": "https://2img.net/i.imgur.com/JyNcMmD.png", "requisitos": ["Un miembro debe tener CCM en Consagrado", "Un miembro debe poseer Curación en Avanzado"],
-      "users": ["/u91","/u55","/u150","/u199"],
+      "users": ["/u91", "/u55", "/u150", "/u199"],
       "informed": [],
       "dependency": [],
       "type": "misión", "closed": false, "fecha": "1953-06-29", "link": "/t1488-mision-the-wounded-dragon", "tagged": ["wave", "capitulo 1"],
@@ -4476,22 +4574,22 @@ const MissionsModule = (function () {
           "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "dragonólogo", "name": "invalid", }, "place": "cómo acercarse a un dragón",
           "cont": '<span>La mejor opción que tienen, es asegurarse que las condiciones que necesita el dragón se encuentren disponibles. Buscar una fuente de agua cercana, dulce de ser posible y dejar alimento cerca. Las ovejas suelen ser sus favoritas.</span>',
         },
-        
+
         "hechizos importantes a considerar": {
           "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "san mungo", "name": "invalid", }, "place": "",
           "cont": '<span>Es importante recordar que la forma más rápida de curar heridas de fuego es con hechizos como: Aqua Vitae y Combustio Sana. Adicionalmente, San Mungo, ofreció un bolso con 6 suministros de Remedio para quemaduras.</span>',
         },
-        
+
         "información del terreno": {
           "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "",
           "cont": '<span>El terreno donde se encuentran es una colina verde llena de tréboles y dientes de león. No hay más civiles dentro del domo, es algo que ha confirmado el departamento para asegurar que nadie resultara herido.</span>',
         },
-        
+
         "fuente de agua": {
           "visible": { "attr": { "sab": "+3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "sobre dragones heridos",
           "cont": '<span>Incluso donde se encuentran, pueden escuchar el murmullo de un río que corre debajo de la colina. Un espacio que se encuentra dentro del domo.</span>',
         },
-        
+
         "anzuelos": {
           "visible": { "attr": { "val": "min" }, "know": { "transformaciones": "10" }, "job": "invalid", "name": "invalid", }, "place": "cómo atraer a un dragón",
           "cont": '<span>Dado que han retirado a todos los civiles, las rocas que se encuentran a un costado pueden ser utilizadas para transformarlas en ovejas y así atraer al dragón.</span>',
@@ -6070,7 +6168,7 @@ const MissionsModule = (function () {
     "blood runs cold": {
       "description": "Con las notas que obtuvieron de Thalia Wyrm, deberán investigar más sobre la nigromante e inefable para ver qué más información había logrado recolectar la mujer sobre la causa de muerte de Dominic. Lo que los guía a Gibran Wyrm, sobrino y heredero de Thalia.",
       "image": "https://i.imgur.com/w5qPOkc.png", "requisitos": ["un personaje deberá ser miembro del Departamento de Seguridad"],
-      "users": ["c/u150","/u156","/u97","/u9"],
+      "users": ["c/u150", "/u156", "/u97", "/u9"],
       "informed": [],
       "dependency": ["tying loose ends"],
       "type": "investigación", "closed": false, "fecha": "1953-06-22", "link": "/t1487-investigacion-blood-runs-cold", "tagged": ["original"],
@@ -6082,32 +6180,32 @@ const MissionsModule = (function () {
           "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
           "cont": '<span>El interior de la casa inicia con un hall donde puede observarse un perchero con una túnica usada y varios paraguas. Solo se requiere un par de pasos para ingresar al living comedor. Un espacio húmedo, poco iluminado y con olor a viejo.</span>',
         },
-        
+
         "preguntar por la relación con thalia": {
           "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
           "cont": '<span>Al preguntarle a Gibran sobre la relación que tenía con Thalia, el hombre hace una mueca. «Ella era especial... Mi padre decía que era demasiado intensa con el trabajo, yo... no sé. Había algo perturbador en su mirada y cuando algo se le metía en la cabeza... era imposible que lo abandonara» explicó. «Los últimos años, apenas si supimos de ella. Cuando entró a trabajar para el Ministerio, se encerraba allí todo el tiempo y no quería salir. Sus investigaciones siempre eran más importantes que todo lo demás. Incluso la familia.»</span>',
         },
-        
+
         "preguntar por la casa": {
           "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
           "cont": '<span>«No es una casa muy grande. A Thalia siempre le gustó pasar más tiempo en el trabajo que en su casa. Este era solo un lugar donde paraba a dormir y luego seguía», se encogió de hombros al responder. «Tiene tres ambientes, el living comedor, un estudio y una habitación. Y el baño...» Incluso aunque trataba de disimularlo, Gibran se sentía incómodo en aquel lugar y mantenía una distancia cercana a la puerta.</span>',
         },
-        
+
         "preguntar quiénes ingresaron a la casa": {
           "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
           "cont": '<span>Al preguntar si alguien más ingresó a la casa. Gibran niega. «Hasta donde conozco, nadie más. Mi padre falleció un par de meses antes que Thalia, ella ni siquiera fue a su funeral porque estaba a punto de descubrir algo...» elevó un poco el tono de voz imitando a la mujer antes de pedir disculpas con un gesto de la mano. «Lo siento, el drama familiar es lo que menos les debe interesar». Soltó el aire y continúo hablando. «Cuando me dieron la casa, lo primero que hice fue cerrar todas las puertas y ventanas, tirar la comida y poner un par de hechizos de protección y nada más. No quería que mi hija conociera este lugar. Pensé en venderlo, muchas veces, pero nunca conseguí un comprador y venderla en el mercado muggle requiere cierto trabajo en la instalación que preferí no hacer».</span>',
         },
-        
+
         "preguntar por qué temía a thalia": {
           "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
           "cont": '<span>«Como dije, ella era particular. De chico me daban miedo sus ojos grandes tras los lentes redondos, de grande me di cuenta que era solo una obsesionada con el trabajo. No podía ver nada más que ello». Hizo una mueca y, aunque parecía que iba a seguir hablando, se calló.</span>',
         },
-        
+
         "preguntar si tuvo algún incidente con thalia": {
           "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar por qué temía a thalia",
           "cont": '<span>«¿Demasiado evidente?» Gibran se rio de sí mismo y asintió. «Nada grave, supongo... Cuando era niño mi padre solía dejarme con ella, se suponía que nos quedaríamos en la casa, almorzaríamos y luego mi padre me retiraría al terminar de trabajar. Nunca pasó, todas las veces mi padre me dejaba y Thalia me llevaba a su trabajo, decía que era importante. Ella era nigromante en San Mungo. Se imaginarán que no era un espacio para un niño». Gibran negó con la cabeza, alejando pensamientos que solo él escuchaba. «Cuando ingresó a la Cámara de la Sangre se sintió peor. Yo era mayor, pero un día vi que quería extraer una muestra de sangre de mi hija y ahí fue donde tracé la línea. Esa gente se mete con magia oscura y cree que está bien y no es así. No. No. No es así».</span>',
         },
-        
+
         "ingresar al estudio": {
           "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ingresar a la casa de thalia",
           "cont": '<span>El estudio es un espacio pequeño y sin ventanas. Por la luz que se cuela puede ver unas cuantas estanterías con libros, un escritorio y una alfombra cargada de polvo.</span>',
@@ -6121,42 +6219,42 @@ const MissionsModule = (function () {
           "exitoso": '<span>A lo lejos puede escucharse el murmullo de unos libros.</span>',
           "critico": '<span>A lo lejos puede escucharse el murmullo de unos libros.</span>',
         },
-        
+
         "homenum revelio": {
           "leve": '<span>No es suficiente para revelar información.</span>',
           "moderado": '<span>No se detectan personas cercanas más allá de los presentes.</span>',
           "exitoso": '<span>No se detectan personas cercanas más allá de los presentes.</span>',
           "critico": '<span>No se detectan personas cercanas más allá de los presentes.</span>',
         },
-        
+
         "invasio": {
           "leve": '<span>No es suficiente para revelar información.</span>',
           "moderado": '<span>No se detectan personas cercanas más allá de los presentes.</span>',
           "exitoso": '<span>No se detectan personas cercanas más allá de los presentes.</span>',
           "critico": '<span>No se detectan personas cercanas más allá de los presentes.</span>',
         },
-        
+
         "pretium ostende": {
           "leve": '<span>No es suficiente para revelar información.</span>',
           "moderado": '<span>No se detectan objetos de valor en la casa.</span>',
           "exitoso": '<span>No se detectan objetos de valor en la casa.</span>',
           "critico": '<span>No se detectan objetos de valor en la casa.</span>',
         },
-        
+
         "murmura futuri": {
           "leve": '<span>No es suficiente para revelar información.</span>',
           "moderado": '<span>Puede elegir el personaje al que escucha decir: "Oh no, esto está muy mal. Deberíamos llevarlo a San Mungo."</span>',
           "exitoso": '<span>Puede elegir el personaje al que escucha decir: "¿Qué has hecho? ¿Cómo se te ocurre tocar el anillo?"</span>',
           "critico": '<span>Puede elegir el personaje al que escucha decir: "¿Qué has hecho? ¿Cómo se te ocurre tocar el anillo?"</span>',
         },
-        
+
         "scintillat": {
           "leve": '<span>No es suficiente para revelar información.</span>',
           "moderado": '<span>Puede ver la imagen de un anillo de oro con un emblema familiar en el mismo.</span>',
           "exitoso": '<span>Puede ver la imagen de un anillo de oro con un emblema familiar en el mismo y a lo lejos una pizarra de información.</span>',
           "critico": '<span>Puede ver la imagen de un anillo de oro con un emblema familiar en el mismo y a lo lejos una pizarra de información.</span>',
         },
-        
+
         "veniens empathy": {
           "leve": '<span>No es suficiente para revelar información.</span>',
           "moderado": '<span>Una sensación de perturbación lo invade.</span>',
