@@ -49369,6 +49369,107 @@ const DBModule = (function () {
             "date": "20/01/1953",
             "location": "Maroon Steed"
         },
+        "930": {
+            "space": "el pensadero",
+            "url": "/t930-with-the-clouds-k-d-d",
+            "simpleTitle": "with the clouds — k.d.d.",
+            "creator": "Vasilisa M. Kuznetzova",
+            "replyCount": 14,
+            "posts": [
+                {
+                    "url": "r12203",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "23/01/2026",
+                    "words": 298
+                },
+                {
+                    "url": "r12654",
+                    "author": "Ksenia D. Demidova",
+                    "date": "03/02/2026",
+                    "words": 382
+                },
+                {
+                    "url": "r14087",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "27/02/2026",
+                    "words": 245
+                },
+                {
+                    "url": "r14627",
+                    "author": "Ksenia D. Demidova",
+                    "date": "08/03/2026",
+                    "words": 275
+                },
+                {
+                    "url": "r15849",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "31/03/2026",
+                    "words": 326
+                },
+                {
+                    "url": "r16541",
+                    "author": "Ksenia D. Demidova",
+                    "date": "15/04/2026",
+                    "words": 396
+                },
+                {
+                    "url": "r17454",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "03/05/2026",
+                    "words": 229
+                },
+                {
+                    "url": "r17794",
+                    "author": "Ksenia D. Demidova",
+                    "date": "07/05/2026",
+                    "words": 314
+                },
+                {
+                    "url": "r19058",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "27/05/2026",
+                    "words": 364
+                },
+                {
+                    "url": "r19683",
+                    "author": "Ksenia D. Demidova",
+                    "date": "07/06/2026",
+                    "words": 274
+                },
+                {
+                    "url": "r20176",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "24/06/2026",
+                    "words": 349
+                },
+                {
+                    "url": "r21710",
+                    "author": "Ksenia D. Demidova",
+                    "date": "11/08/2026",
+                    "words": 256
+                },
+                {
+                    "url": "r22485",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "04/09/2026",
+                    "words": 309
+                },
+                {
+                    "url": "r22744",
+                    "author": "Ksenia D. Demidova",
+                    "date": "11/09/2026",
+                    "words": 272
+                },
+                {
+                    "url": "r23542",
+                    "author": "Vasilisa M. Kuznetzova",
+                    "date": "Ayer a las 6:05",
+                    "words": 258
+                }
+            ],
+            "date": "25/01/1953",
+            "location": "Biblioteca — Museo Maribilia"
+        },
         "931": {
             "space": "el pensadero",
             "url": "/t931-1953-01-17-mision-moth-to-a-flame",
@@ -62657,6 +62758,95 @@ const DBModule = (function () {
             "date": "19/03/1953",
             "location": "Torre del Reloj"
         },
+        "1138": {
+            "space": "el pensadero",
+            "url": "/t1138-1953-02-28-don-t-listen-to-those-who-put-stars-in-your-eyes",
+            "simpleTitle": "don't listen to those who put stars in your eyes",
+            "creator": "Minerva E. McGonagall",
+            "replyCount": 12,
+            "posts": [
+                {
+                    "url": "r16099",
+                    "author": "Minerva E. McGonagall",
+                    "date": "Sáb Abr 04, 2026 1:07 am",
+                    "words": 260
+                },
+                {
+                    "url": "r16243",
+                    "author": "Thaddeus L. Nott",
+                    "date": "Miér Abr 08, 2026 12:52 am",
+                    "words": 344
+                },
+                {
+                    "url": "r16763",
+                    "author": "Minerva E. McGonagall",
+                    "date": "Lun Abr 20, 2026 12:31 am",
+                    "words": 297
+                },
+                {
+                    "url": "r17978",
+                    "author": "Thaddeus L. Nott",
+                    "date": "Sáb Mayo 09, 2026 1:00 am",
+                    "words": 289
+                },
+                {
+                    "url": "r18209",
+                    "author": "Minerva E. McGonagall",
+                    "date": "Lun Mayo 11, 2026 11:59 pm",
+                    "words": 287
+                },
+                {
+                    "url": "r19303",
+                    "author": "Thaddeus L. Nott",
+                    "date": "Sáb Mayo 30, 2026 1:14 am",
+                    "words": 232
+                },
+                {
+                    "url": "r19765",
+                    "author": "Minerva E. McGonagall",
+                    "date": "Mar Jun 09, 2026 10:57 pm",
+                    "words": 247
+                },
+                {
+                    "url": "r20348",
+                    "author": "Thaddeus L. Nott",
+                    "date": "Dom Jun 28, 2026 8:51 pm",
+                    "words": 336
+                },
+                {
+                    "url": "r21355",
+                    "author": "Minerva E. McGonagall",
+                    "date": "Dom Ago 02, 2026 11:34 pm",
+                    "words": 277
+                },
+                {
+                    "url": "r22146",
+                    "author": "Thaddeus L. Nott",
+                    "date": "Dom Ago 23, 2026 10:54 pm",
+                    "words": 341
+                },
+                {
+                    "url": "r22487",
+                    "author": "Minerva E. McGonagall",
+                    "date": "Vie Sep 04, 2026 1:04 am",
+                    "words": 320
+                },
+                {
+                    "url": "r23490",
+                    "author": "Thaddeus L. Nott",
+                    "date": "Mar Sep 29, 2026 12:16 am",
+                    "words": 288
+                },
+                {
+                    "url": "r23722",
+                    "author": "Minerva E. McGonagall",
+                    "date": "Hoy a las 12:54 am",
+                    "words": 228
+                }
+            ],
+            "date": "28/02/1953",
+            "location": "Torre de Gryffindor"
+        },
         "1141": {
             "space": "el pensadero",
             "url": "/t1141-organized-chaos-j-m-s-n-g",
@@ -63443,7 +63633,7 @@ const DBModule = (function () {
                     "words": 210
                 }
             ],
-            "date": "21/03/1953",
+            "date": "21/03/1954",
             "location": "Death Fearann"
         },
         "1154": {
@@ -68436,6 +68626,239 @@ const DBModule = (function () {
             "date": "26/03/1953",
             "location": "Hogar Prewett-Black"
         },
+        "1222": {
+            "space": "el pensadero",
+            "url": "/t1222-manzanas-egl",
+            "simpleTitle": "manzanas ♛ egl",
+            "creator": "Thyme T. Nott",
+            "replyCount": 36,
+            "posts": [
+                {
+                    "url": "r18000",
+                    "author": "Thyme T. Nott",
+                    "date": "Sáb Mayo 09, 2026 1:05 pm",
+                    "words": 567
+                },
+                {
+                    "url": "r18087",
+                    "author": "Elysia G. Lestrange",
+                    "date": "Dom Mayo 10, 2026 2:47 pm",
+                    "words": 352
+                },
+                {
+                    "url": "r18123",
+                    "author": "Thyme T. Nott",
+                    "date": "Lun Mayo 11, 2026 4:45 am",
+                    "words": 390
+                },
+                {
+                    "url": "r18876",
+                    "author": "Elysia G. Lestrange",
+                    "date": "Dom Mayo 24, 2026 4:22 pm",
+                    "words": 238
+                },
+                {
+                    "url": "r18879",
+                    "author": "Thyme T. Nott",
+                    "date": "Dom Mayo 24, 2026 4:54 pm",
+                    "words": 315
+                },
+                {
+                    "url": "r20295",
+                    "author": "Elysia G. Lestrange",
+                    "date": "Dom Jun 28, 2026 7:22 am",
+                    "words": 272
+                },
+                {
+                    "url": "r20640",
+                    "author": "Thyme T. Nott",
+                    "date": "Sáb Jul 11, 2026 8:31 am",
+                    "words": 363
+                },
+                {
+                    "url": "r20759",
+                    "author": "Elysia G. Lestrange",
+                    "date": "Mar Jul 14, 2026 6:34 pm",
+                    "words": 307
+                },
+                {
+                    "url": "r20941",
+                    "author": "Thyme T. Nott",
+                    "date": "Lun Jul 20, 2026 6:11 am",
+                    "words": 507
+                },
+                {
+                    "url": "r21024",
+                    "author": "Elysia G. Lestrange",
+                    "date": "Sáb Jul 25, 2026 7:38 pm",
+                    "words": 295
+                },
+                {
+                    "url": "r21042",
+                    "author": "Thyme T. Nott",
+                    "date": "Dom Jul 26, 2026 9:56 am",
+                    "words": 420
+                },
+                {
+                    "url": "r21043",
+                    "author": "The Familiars",
+                    "date": "Dom Jul 26, 2026 9:56 am",
+                    "words": 0
+                },
+                {
+                    "url": "r21048",
+                    "author": "Elysia G. Lestrange",
+                    "date": "Dom Jul 26, 2026 3:33 pm",
+                    "words": 531
+                },
+                {
+                    "url": "r21049",
+                    "author": "The Familiars",
+                    "date": "Dom Jul 26, 2026 3:33 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r21149",
+                    "author": "Thyme T. Nott",
+                    "date": "Jue Jul 30, 2026 12:44 pm",
+                    "words": 325
+                },
+                {
+                    "url": "r21150",
+                    "author": "The Familiars",
+                    "date": "Jue Jul 30, 2026 12:44 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r21152",
+                    "author": "Elysia G. Lestrange",
+                    "date": "Jue Jul 30, 2026 6:43 pm",
+                    "words": 346
+                },
+                {
+                    "url": "r21153",
+                    "author": "The Familiars",
+                    "date": "Jue Jul 30, 2026 6:43 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r21172",
+                    "author": "Thyme T. Nott",
+                    "date": "Vie Jul 31, 2026 3:09 pm",
+                    "words": 278
+                },
+                {
+                    "url": "r21173",
+                    "author": "The Familiars",
+                    "date": "Vie Jul 31, 2026 3:09 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r21410",
+                    "author": "Elysia G. Lestrange",
+                    "date": "Lun Ago 03, 2026 6:39 pm",
+                    "words": 204
+                },
+                {
+                    "url": "r21411",
+                    "author": "The Familiars",
+                    "date": "Lun Ago 03, 2026 6:39 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r21528",
+                    "author": "Thyme T. Nott",
+                    "date": "Vie Ago 07, 2026 2:31 pm",
+                    "words": 190
+                },
+                {
+                    "url": "r21529",
+                    "author": "The Familiars",
+                    "date": "Vie Ago 07, 2026 2:31 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r21662",
+                    "author": "Elysia G. Lestrange",
+                    "date": "Lun Ago 10, 2026 10:40 am",
+                    "words": 251
+                },
+                {
+                    "url": "r21663",
+                    "author": "The Familiars",
+                    "date": "Lun Ago 10, 2026 10:40 am",
+                    "words": 0
+                },
+                {
+                    "url": "r21975",
+                    "author": "Thyme T. Nott",
+                    "date": "Mar Ago 18, 2026 4:22 pm",
+                    "words": 173
+                },
+                {
+                    "url": "r21976",
+                    "author": "The Familiars",
+                    "date": "Mar Ago 18, 2026 4:22 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r22160",
+                    "author": "Elysia G. Lestrange",
+                    "date": "Lun Ago 24, 2026 5:24 am",
+                    "words": 246
+                },
+                {
+                    "url": "r22161",
+                    "author": "The Familiars",
+                    "date": "Lun Ago 24, 2026 5:24 am",
+                    "words": 0
+                },
+                {
+                    "url": "r22685",
+                    "author": "Thyme T. Nott",
+                    "date": "Mar Sep 08, 2026 4:02 pm",
+                    "words": 161
+                },
+                {
+                    "url": "r22686",
+                    "author": "The Familiars",
+                    "date": "Mar Sep 08, 2026 4:02 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r23004",
+                    "author": "Elysia G. Lestrange",
+                    "date": "Miér Sep 16, 2026 2:36 pm",
+                    "words": 248
+                },
+                {
+                    "url": "r23005",
+                    "author": "The Familiars",
+                    "date": "Miér Sep 16, 2026 2:36 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r23325",
+                    "author": "Thyme T. Nott",
+                    "date": "Jue Sep 24, 2026 1:20 pm",
+                    "words": 268
+                },
+                {
+                    "url": "r23326",
+                    "author": "The Familiars",
+                    "date": "Jue Sep 24, 2026 1:20 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r23662",
+                    "author": "Elysia G. Lestrange",
+                    "date": "Hoy a las 3:32 pm",
+                    "words": 327
+                }
+            ],
+            "date": "07/03/1953",
+            "location": "Drakenshiel, Escocia"
+        },
         "1232": {
             "space": "el pensadero",
             "url": "/t1232-1953-03-02-brechas",
@@ -69641,6 +70064,275 @@ const DBModule = (function () {
             "date": "24/03/1953",
             "location": "Caldero Chorreante"
         },
+        "1244": {
+            "space": "el pensadero",
+            "url": "/t1244-1953-03-18-duelo-19-montgomery-vs-owen",
+            "simpleTitle": "duelo #19: montgomery vs owen",
+            "creator": "Black Wave",
+            "replyCount": 42,
+            "posts": [
+                {
+                    "url": "r18263",
+                    "author": "Black Wave",
+                    "date": "Mar Mayo 12, 2026 10:40 pm",
+                    "words": 157
+                },
+                {
+                    "url": "r18264",
+                    "author": "The Familiars",
+                    "date": "Mar Mayo 12, 2026 10:40 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r18340",
+                    "author": "Owen Fitzgerald",
+                    "date": "Jue Mayo 14, 2026 12:47 pm",
+                    "words": 165
+                },
+                {
+                    "url": "r18341",
+                    "author": "The Familiars",
+                    "date": "Jue Mayo 14, 2026 12:47 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r19130",
+                    "author": "Montgomery Thatch",
+                    "date": "Miér Mayo 27, 2026 5:01 pm",
+                    "words": 415
+                },
+                {
+                    "url": "r19131",
+                    "author": "The Familiars",
+                    "date": "Miér Mayo 27, 2026 5:01 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r19760",
+                    "author": "Owen Fitzgerald",
+                    "date": "Mar Jun 09, 2026 4:06 pm",
+                    "words": 214
+                },
+                {
+                    "url": "r19761",
+                    "author": "The Familiars",
+                    "date": "Mar Jun 09, 2026 4:06 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r19822",
+                    "author": "Montgomery Thatch",
+                    "date": "Jue Jun 11, 2026 1:43 pm",
+                    "words": 306
+                },
+                {
+                    "url": "r19823",
+                    "author": "The Familiars",
+                    "date": "Jue Jun 11, 2026 1:43 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r20616",
+                    "author": "Owen Fitzgerald",
+                    "date": "Jue Jul 09, 2026 7:44 pm",
+                    "words": 219
+                },
+                {
+                    "url": "r20617",
+                    "author": "The Familiars",
+                    "date": "Jue Jul 09, 2026 7:44 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r20665",
+                    "author": "Montgomery Thatch",
+                    "date": "Dom Jul 12, 2026 7:48 am",
+                    "words": 165
+                },
+                {
+                    "url": "r20666",
+                    "author": "The Familiars",
+                    "date": "Dom Jul 12, 2026 7:48 am",
+                    "words": 0
+                },
+                {
+                    "url": "r21090",
+                    "author": "Owen Fitzgerald",
+                    "date": "Miér Jul 29, 2026 5:20 pm",
+                    "words": 128
+                },
+                {
+                    "url": "r21091",
+                    "author": "The Familiars",
+                    "date": "Miér Jul 29, 2026 5:20 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r21129",
+                    "author": "Montgomery Thatch",
+                    "date": "Jue Jul 30, 2026 4:59 am",
+                    "words": 169
+                },
+                {
+                    "url": "r21130",
+                    "author": "The Familiars",
+                    "date": "Jue Jul 30, 2026 4:59 am",
+                    "words": 0
+                },
+                {
+                    "url": "r21265",
+                    "author": "Owen Fitzgerald",
+                    "date": "Sáb Ago 01, 2026 9:04 pm",
+                    "words": 161
+                },
+                {
+                    "url": "r21266",
+                    "author": "The Familiars",
+                    "date": "Sáb Ago 01, 2026 9:04 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r21437",
+                    "author": "Montgomery Thatch",
+                    "date": "Mar Ago 04, 2026 9:37 am",
+                    "words": 181
+                },
+                {
+                    "url": "r21438",
+                    "author": "The Familiars",
+                    "date": "Mar Ago 04, 2026 9:37 am",
+                    "words": 0
+                },
+                {
+                    "url": "r21988",
+                    "author": "Owen Fitzgerald",
+                    "date": "Miér Ago 19, 2026 2:26 pm",
+                    "words": 135
+                },
+                {
+                    "url": "r21989",
+                    "author": "The Familiars",
+                    "date": "Miér Ago 19, 2026 2:26 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r22249",
+                    "author": "Montgomery Thatch",
+                    "date": "Miér Ago 26, 2026 6:57 am",
+                    "words": 209
+                },
+                {
+                    "url": "r22250",
+                    "author": "The Familiars",
+                    "date": "Miér Ago 26, 2026 6:57 am",
+                    "words": 0
+                },
+                {
+                    "url": "r22562",
+                    "author": "Owen Fitzgerald",
+                    "date": "Dom Sep 06, 2026 11:17 am",
+                    "words": 167
+                },
+                {
+                    "url": "r22563",
+                    "author": "The Familiars",
+                    "date": "Dom Sep 06, 2026 11:17 am",
+                    "words": 0
+                },
+                {
+                    "url": "r22644",
+                    "author": "Montgomery Thatch",
+                    "date": "Lun Sep 07, 2026 7:25 am",
+                    "words": 377
+                },
+                {
+                    "url": "r22645",
+                    "author": "The Familiars",
+                    "date": "Lun Sep 07, 2026 7:25 am",
+                    "words": 0
+                },
+                {
+                    "url": "r22998",
+                    "author": "Owen Fitzgerald",
+                    "date": "Miér Sep 16, 2026 1:38 pm",
+                    "words": 189
+                },
+                {
+                    "url": "r22999",
+                    "author": "The Familiars",
+                    "date": "Miér Sep 16, 2026 1:38 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r23029",
+                    "author": "Montgomery Thatch",
+                    "date": "Jue Sep 17, 2026 7:26 am",
+                    "words": 286
+                },
+                {
+                    "url": "r23030",
+                    "author": "The Familiars",
+                    "date": "Jue Sep 17, 2026 7:26 am",
+                    "words": 0
+                },
+                {
+                    "url": "r23450",
+                    "author": "Owen Fitzgerald",
+                    "date": "Dom Sep 27, 2026 4:05 pm",
+                    "words": 197
+                },
+                {
+                    "url": "r23451",
+                    "author": "The Familiars",
+                    "date": "Dom Sep 27, 2026 4:05 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r23485",
+                    "author": "Montgomery Thatch",
+                    "date": "Lun Sep 28, 2026 6:24 pm",
+                    "words": 139
+                },
+                {
+                    "url": "r23486",
+                    "author": "The Familiars",
+                    "date": "Lun Sep 28, 2026 6:24 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r23673",
+                    "author": "Owen Fitzgerald",
+                    "date": "Ayer a las 6:43 pm",
+                    "words": 109
+                },
+                {
+                    "url": "r23674",
+                    "author": "The Familiars",
+                    "date": "Ayer a las 6:43 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r23692",
+                    "author": "Montgomery Thatch",
+                    "date": "Hoy a las 7:26 am",
+                    "words": 370
+                },
+                {
+                    "url": "r23693",
+                    "author": "The Familiars",
+                    "date": "Hoy a las 7:26 am",
+                    "words": 0
+                },
+                {
+                    "url": "r23705",
+                    "author": "Black Wave",
+                    "date": "Hoy a las 4:14 pm",
+                    "words": 176
+                }
+            ],
+            "date": "18/03/1953",
+            "location": "Club de Duelos"
+        },
         "1248": {
             "space": "el pensadero",
             "url": "/t1248-1953-03-10-practica-salta-en-los-charcos",
@@ -69876,6 +70568,125 @@ const DBModule = (function () {
             ],
             "date": "13/03/1953",
             "location": "Archivo"
+        },
+        "1254": {
+            "space": "el pensadero",
+            "url": "/t1254-minerva-m-pretty-please",
+            "simpleTitle": "pretty please",
+            "creator": "Owen Fitzgerald",
+            "replyCount": 17,
+            "posts": [
+                {
+                    "url": "r18428",
+                    "author": "Owen Fitzgerald",
+                    "date": "Vie Mayo 15, 2026 3:46 pm",
+                    "words": 277
+                },
+                {
+                    "url": "r18917",
+                    "author": "Minerva E. McGonagall",
+                    "date": "Lun Mayo 25, 2026 11:11 am",
+                    "words": 233
+                },
+                {
+                    "url": "r18918",
+                    "author": "The Familiars",
+                    "date": "Lun Mayo 25, 2026 11:11 am",
+                    "words": 0
+                },
+                {
+                    "url": "r19885",
+                    "author": "Owen Fitzgerald",
+                    "date": "Sáb Jun 13, 2026 6:14 pm",
+                    "words": 176
+                },
+                {
+                    "url": "r20150",
+                    "author": "Minerva E. McGonagall",
+                    "date": "Mar Jun 23, 2026 12:14 am",
+                    "words": 192
+                },
+                {
+                    "url": "r20151",
+                    "author": "The Familiars",
+                    "date": "Mar Jun 23, 2026 12:14 am",
+                    "words": 0
+                },
+                {
+                    "url": "r20980",
+                    "author": "Owen Fitzgerald",
+                    "date": "Jue Jul 23, 2026 1:15 pm",
+                    "words": 200
+                },
+                {
+                    "url": "r20981",
+                    "author": "The Familiars",
+                    "date": "Jue Jul 23, 2026 1:15 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r21519",
+                    "author": "Minerva E. McGonagall",
+                    "date": "Vie Ago 07, 2026 12:42 am",
+                    "words": 182
+                },
+                {
+                    "url": "r21520",
+                    "author": "The Familiars",
+                    "date": "Vie Ago 07, 2026 12:42 am",
+                    "words": 0
+                },
+                {
+                    "url": "r22443",
+                    "author": "Owen Fitzgerald",
+                    "date": "Miér Sep 02, 2026 3:33 pm",
+                    "words": 266
+                },
+                {
+                    "url": "r22444",
+                    "author": "The Familiars",
+                    "date": "Miér Sep 02, 2026 3:33 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r22673",
+                    "author": "Minerva E. McGonagall",
+                    "date": "Mar Sep 08, 2026 12:08 am",
+                    "words": 201
+                },
+                {
+                    "url": "r22674",
+                    "author": "The Familiars",
+                    "date": "Mar Sep 08, 2026 12:08 am",
+                    "words": 0
+                },
+                {
+                    "url": "r23000",
+                    "author": "Owen Fitzgerald",
+                    "date": "Miér Sep 16, 2026 2:06 pm",
+                    "words": 256
+                },
+                {
+                    "url": "r23001",
+                    "author": "The Familiars",
+                    "date": "Miér Sep 16, 2026 2:06 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r23420",
+                    "author": "Minerva E. McGonagall",
+                    "date": "Sáb Sep 26, 2026 11:57 pm",
+                    "words": 193
+                },
+                {
+                    "url": "r23671",
+                    "author": "Owen Fitzgerald",
+                    "date": "Hoy a las 6:35 pm",
+                    "words": 233
+                }
+            ],
+            "date": "25/03/1953",
+            "location": "biblioteca de hogwarts"
         },
         "1256": {
             "space": "el pensadero",
@@ -75436,6 +76247,119 @@ const DBModule = (function () {
             ],
             "date": "16/05/1953",
             "location": "Lago Negro"
+        },
+        "1462": {
+            "space": "el pensadero",
+            "url": "/t1462-twist-and-shout-cjt",
+            "simpleTitle": "twist and shout ~ cjt",
+            "creator": "Michael McKinnon",
+            "replyCount": 16,
+            "posts": [
+                {
+                    "url": "r23062",
+                    "author": "Michael McKinnon",
+                    "date": "18/09/2026",
+                    "words": 453
+                },
+                {
+                    "url": "r23067",
+                    "author": "Cipriano J. Thompson",
+                    "date": "18/09/2026",
+                    "words": 691
+                },
+                {
+                    "url": "r23068",
+                    "author": "Michael McKinnon",
+                    "date": "18/09/2026",
+                    "words": 525
+                },
+                {
+                    "url": "r23069",
+                    "author": "Cipriano J. Thompson",
+                    "date": "18/09/2026",
+                    "words": 787
+                },
+                {
+                    "url": "r23130",
+                    "author": "Michael McKinnon",
+                    "date": "19/09/2026",
+                    "words": 708
+                },
+                {
+                    "url": "r23132",
+                    "author": "Cipriano J. Thompson",
+                    "date": "19/09/2026",
+                    "words": 836
+                },
+                {
+                    "url": "r23135",
+                    "author": "Michael McKinnon",
+                    "date": "19/09/2026",
+                    "words": 838
+                },
+                {
+                    "url": "r23162",
+                    "author": "Cipriano J. Thompson",
+                    "date": "20/09/2026",
+                    "words": 1064
+                },
+                {
+                    "url": "r23163",
+                    "author": "Michael McKinnon",
+                    "date": "20/09/2026",
+                    "words": 922
+                },
+                {
+                    "url": "r23236",
+                    "author": "Cipriano J. Thompson",
+                    "date": "22/09/2026",
+                    "words": 944
+                },
+                {
+                    "url": "r23260",
+                    "author": "Michael McKinnon",
+                    "date": "23/09/2026",
+                    "words": 857
+                },
+                {
+                    "url": "r23308",
+                    "author": "Cipriano J. Thompson",
+                    "date": "24/09/2026",
+                    "words": 978
+                },
+                {
+                    "url": "r23351",
+                    "author": "Michael McKinnon",
+                    "date": "25/09/2026",
+                    "words": 829
+                },
+                {
+                    "url": "r23352",
+                    "author": "Cipriano J. Thompson",
+                    "date": "25/09/2026",
+                    "words": 1005
+                },
+                {
+                    "url": "r23394",
+                    "author": "Michael McKinnon",
+                    "date": "26/09/2026",
+                    "words": 639
+                },
+                {
+                    "url": "r23432",
+                    "author": "Cipriano J. Thompson",
+                    "date": "27/09/2026",
+                    "words": 852
+                },
+                {
+                    "url": "r23689",
+                    "author": "Michael McKinnon",
+                    "date": "Hoy a las 8:27",
+                    "words": 405
+                }
+            ],
+            "date": "12/05/1953",
+            "location": "5ta planta | san mungo"
         }
     };
     const hardcodedDicesTopics = [
@@ -155834,6 +156758,520 @@ const DBModule = (function () {
             "url": "r23478",
             "simpleTitle": "misión: dragonfly's secrets",
             "space": "el pensadero"
+        },
+        {
+            "pitcher": "Black Wave",
+            "spread": [
+                1
+            ],
+            "title": [
+                "felix felicis"
+            ],
+            "key": [],
+            "knowledge": [],
+            "type": [],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-felix-felicis\"><span>Black Wave ha lanzado los dados \"felix felicis\"</span><div class=\"dice-results\"><span class=\"roll-result nro1\"><i class=\"fa-solid fa-flask-round-poison\"></i>No hubo suerte esta vez, mejor intenta la próxima.</span></div></div></div>",
+            "url": "r18264",
+            "simpleTitle": "duelo #19: montgomery vs owen",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Owen Fitzgerald",
+            "spread": [
+                20
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "depulso"
+            ],
+            "knowledge": [
+                "encantamientos"
+            ],
+            "type": [
+                "encantamiento, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Owen Fitzgerald ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"depulso\" (20)</strong><span>El objetivo es arrojado violentamente lejos, perdiendo el equilibrio. Adiciona <em>+6</em> (100% del conocimiento en ENCANTAMIENTOS) en el daño, la víctima pierde 2 acciones consecutivas al recibir el ataque.</span></span></div></div></div>",
+            "url": "r18341",
+            "simpleTitle": "duelo #19: montgomery vs owen",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                16,
+                2
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "sectio aurea",
+                "mutareforma"
+            ],
+            "knowledge": [
+                "aritmancia",
+                "transformaciones"
+            ],
+            "type": [
+                "encantamiento, defensivo",
+                "transfiguración, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Montgomery Thatch ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"aritmancia\"><strong>Resultado  #1 \"sectio aurea\" (16)</strong><span>El ajuste es perfecto, volviendo la estructura extremadamente resistente. Adiciona <em>+15</em> (100% del conocimiento en ARITMANCIA) en defensa.</span></span><span class=\"action-result\" data-conocimientos=\"transformaciones\"><strong>Resultado  #2 \"mutareforma\" (2)</strong><span>El objeto se transforma completamente en el nuevo objeto deseado, con materiales coherentes.</span></span></div></div></div>",
+            "url": "r19131",
+            "simpleTitle": "duelo #19: montgomery vs owen",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Owen Fitzgerald",
+            "spread": [
+                1,
+                4
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "protego",
+                "tarantallegra"
+            ],
+            "knowledge": [
+                "dcao",
+                "encantamientos"
+            ],
+            "type": [
+                "encantamiento, defensivo",
+                "embrujo, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Owen Fitzgerald ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"protego\" (1)</strong><span>El escudo es débil y solo bloquea los ataques más leves. Reduce <em>+1</em> (25% del conocimiento en DCAO) punto el ataque contrario.</span></span><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #2 \"tarantallegra\" (4)</strong><span>Las piernas del objetivo comienzan a moverse de forma errática y desordenada durante unos segundos, haciendo que parezca que está intentando un baile torpe. Resta <em>+3</em> (50% del conocimiento en ENCANTAMIENTOS) en su siguiente acción inmediata.</span></span></div></div></div>",
+            "url": "r19761",
+            "simpleTitle": "duelo #19: montgomery vs owen",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                19,
+                6
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "modus symmetria",
+                "lumos solem"
+            ],
+            "knowledge": [
+                "aritmancia",
+                "herbología"
+            ],
+            "type": [
+                "encantamiento, defensivo",
+                "encantamiento, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Montgomery Thatch ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"aritmancia\"><strong>Resultado  #1 \"modus symmetria\" (19)</strong><span>El hechizo obtiene cierta estabilidad adicional. El escudo tiene una duración de un turno adicional y se refuerza en <em>+7</em> (50% del conocimiento en ARITMANCIA) en defensa.</span></span><span class=\"action-result\" data-conocimientos=\"herbología\"><strong>Resultado  #2 \"lumos solem\" (6)</strong><span>El destello ilumina bien, pero se disipa rápidamente. Si se usa contra un objetivo, el mismo deberá descontar <em>+4</em> (50% del conocimiento en HERBOLOGÍA) puntos en su siguiente acción.</span></span></div></div></div>",
+            "url": "r19823",
+            "simpleTitle": "duelo #19: montgomery vs owen",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Owen Fitzgerald",
+            "spread": [
+                16,
+                16
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "fumos",
+                "rufus oculus"
+            ],
+            "knowledge": [
+                "dcao",
+                "transformaciones"
+            ],
+            "type": [
+                "encantamiento, defensivo",
+                "maldición, ofensivo, transfiguración"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Owen Fitzgerald ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"fumos\" (16)</strong><span>Una densa nube de humo cubre la zona, dificultando la visibilidad de todos los presentes y no solo del adversario original. El lanzador y quienes estén junto a él Adicionan +3 en defensa durante <em>0</em> (El 25% de DES) turnos, mientras dure la cobertura.</span></span><span class=\"action-result\" data-conocimientos=\"transformaciones\"><strong>Resultado  #2 \"rufus oculus\" (16)</strong><span>La víctima experimenta una inflamación considerable en los ojos, dificultando su visión de manera notable. Deberá disminuir sus acciones en +3 hasta liberarse de la maldición o realice dos roles.</span></span></div></div></div>",
+            "url": "r20617",
+            "simpleTitle": "duelo #19: montgomery vs owen",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                20,
+                17
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "glacius",
+                "duro"
+            ],
+            "knowledge": [
+                "encantamientos",
+                "transformaciones"
+            ],
+            "type": [
+                "encantamiento, defensivo",
+                "transfiguración, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Montgomery Thatch ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"glacius\" (20)</strong><span>La zona alrededor queda completamente congelada, inmovilizando temporalmente a todos los que se encuentren en ella y no solo al objetivo. El ataque de cada rival alcanzado pierde <em>+6</em> (40% del conocimiento en ENCANTAMIENTOS) puntos adicionales y adiciona <em>+15</em> (100% del conocimiento en ENCANTAMIENTOS) puntos a siguiente acción.</span></span><span class=\"action-result\" data-conocimientos=\"transformaciones\"><strong>Resultado  #2 \"duro\" (17)</strong><span>El objetivo queda casi convertido en piedra en su totalidad. En caso de usarse en duelos, la víctima pierde sus acciones hasta que alguien lo libere o rolee 1 respuesta.</span></span></div></div></div>",
+            "url": "r20666",
+            "simpleTitle": "duelo #19: montgomery vs owen",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Owen Fitzgerald",
+            "spread": [
+                20,
+                6
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "protego",
+                "expelliarmus"
+            ],
+            "knowledge": [
+                "dcao",
+                "dcao"
+            ],
+            "type": [
+                "encantamiento, defensivo",
+                "encantamiento, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Owen Fitzgerald ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"protego\" (20)</strong><span>El escudo es extremadamente resistente. Reduce el ataque en <em>+2</em> (40% del conocimiento en DCAO) puntos adicionales.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"expelliarmus\" (6)</strong><span>El objeto se suelta de sus manos, pero cae cerca de él. Resta <em>+2</em> (50% del conocimiento en DCAO) en su siguiente lanzada de dados.</span></span></div></div></div>",
+            "url": "r21091",
+            "simpleTitle": "duelo #19: montgomery vs owen",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                19,
+                8
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "confundus",
+                "patolifors"
+            ],
+            "knowledge": [
+                "encantamientos",
+                "transformaciones"
+            ],
+            "type": [
+                "encantamiento, defensivo",
+                "embrujo, transfiguración, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Montgomery Thatch ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"confundus\" (19)</strong><span>El objetivo queda completamente aturdido y es incapaz de razonar. Sus siguientes dos acciones instantáneas no puede estar relacionada lógicamente a la situación en la que se encuentra el personaje. En caso de tratarse de un duelo, quedan restringidas todas las acciones ofensivas y defensivas.</span></span><span class=\"action-result\" data-conocimientos=\"transformaciones\"><strong>Resultado  #2 \"patolifors\" (8)</strong><span>Solo algunas partes del cuerpo cambian a las de un pato. Disminuye <em>+2</em> (25% del conocimiento en TRANSFORMACIONES) puntos de la siguiente acción.</span></span></div></div></div>",
+            "url": "r21130",
+            "simpleTitle": "duelo #19: montgomery vs owen",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Owen Fitzgerald",
+            "spread": [
+                11,
+                20
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "purifactum",
+                "vermillious"
+            ],
+            "knowledge": [
+                "encantamientos",
+                "encantamientos"
+            ],
+            "type": [
+                "encantamiento, neutral",
+                "encantamiento, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Owen Fitzgerald ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"purifactum\" (11)</strong><span>La mancha se aclara un poco, pero sigue siendo visible.</span></span><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #2 \"vermillious\" (20)</strong><span>Las chispas son intensas y duraderas.</span></span></div></div></div>",
+            "url": "r21266",
+            "simpleTitle": "duelo #19: montgomery vs owen",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                9
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "finite"
+            ],
+            "knowledge": [
+                "dcao"
+            ],
+            "type": [
+                "encantamiento, contrahechizo, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Montgomery Thatch ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"finite\" (9)</strong><span>El efecto del hechizo disminuye, pero no desaparece del todo. Se reduce en 30%</span></span></div></div></div>",
+            "url": "r21438",
+            "simpleTitle": "duelo #19: montgomery vs owen",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Owen Fitzgerald",
+            "spread": [
+                17
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "rictusempra"
+            ],
+            "knowledge": [
+                "encantamientos"
+            ],
+            "type": [
+                "encantamiento, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Owen Fitzgerald ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"rictusempra\" (17)</strong><span>El objetivo es incapaz de controlar la risa y queda temporalmente incapacitado. La víctima no puede efectuar una acción.</span></span></div></div></div>",
+            "url": "r21989",
+            "simpleTitle": "duelo #19: montgomery vs owen",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                1,
+                20
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "modus symmetria"
+            ],
+            "knowledge": [
+                "aritmancia"
+            ],
+            "type": [
+                "encantamiento, defensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Montgomery Thatch ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"aritmancia\"><strong>Resultado  #1 \"modus symmetria\" (1)</strong><span>El patrón es irregular y la estabilidad es mínima. El escudo posee una duración de una acción adicional y se refuerza en <em>+3</em> (25% del conocimiento en ARITMANCIA) en defensa.</span></span><span class=\"roll-result\">20</span></div></div></div>",
+            "url": "r22250",
+            "simpleTitle": "duelo #19: montgomery vs owen",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Owen Fitzgerald",
+            "spread": [
+                1
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "expelliarmus"
+            ],
+            "knowledge": [
+                "dcao"
+            ],
+            "type": [
+                "encantamiento, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Owen Fitzgerald ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"expelliarmus\" (1)</strong><span>El objetivo siente un tirón leve, pero retiene su objeto. Resta <em>+1</em> (25% del conocimiento en DCAO) en su siguiente lanzada de dados.</span></span></div></div></div>",
+            "url": "r22563",
+            "simpleTitle": "duelo #19: montgomery vs owen",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                12,
+                1
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "sigillum numerorum",
+                "vocare naudiz"
+            ],
+            "knowledge": [
+                "aritmancia",
+                "runas antiguas"
+            ],
+            "type": [
+                "encantamiento, defensivo",
+                "encantamiento, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Montgomery Thatch ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"aritmancia\"><strong>Resultado  #1 \"sigillum numerorum\" (12)</strong><span>El sigilo queda trazado con precisión, ofreciendo una protección sólida. Adiciona <em>+11</em> (75% del conocimiento en ARITMANCIA) en defensa.</span></span><span class=\"action-result\" data-conocimientos=\"runas antiguas\"><strong>Resultado  #2 \"vocare naudiz\" (1)</strong><span>Resta +2 puntos a la siguiente acción del objetivo.</span></span></div></div></div>",
+            "url": "r22645",
+            "simpleTitle": "duelo #19: montgomery vs owen",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Owen Fitzgerald",
+            "spread": [
+                5,
+                6
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "giro evasivo",
+                "aqua eructo"
+            ],
+            "knowledge": [
+                "combate físico",
+                "encantamientos"
+            ],
+            "type": [
+                "habilidad, defensivo, sin magia",
+                "encantamiento, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Owen Fitzgerald ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"combate físico\"><strong>Resultado  #1 \"giro evasivo\" (5)</strong><span>Esquiva con elegancia y gana ventaja de posición. Adiciona +6 en Defensa.</span></span><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #2 \"aqua eructo\" (6)</strong><span>El chorro de agua es débil y apenas moja el área o al oponente. Adiciona +2 al daño.</span></span></div></div></div>",
+            "url": "r22999",
+            "simpleTitle": "duelo #19: montgomery vs owen",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                5,
+                11
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "vocare algiz",
+                "saggitarus"
+            ],
+            "knowledge": [
+                "runas antiguas",
+                "transformaciones"
+            ],
+            "type": [
+                "encantamiento, defensivo",
+                "transfiguración, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Montgomery Thatch ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"runas antiguas\"><strong>Resultado  #1 \"vocare algiz\" (5)</strong><span>El aura es tenue y apenas mitiga el daño recibido. Adiciona +1 en defensa.</span></span><span class=\"action-result\" data-conocimientos=\"transformaciones\"><strong>Resultado  #2 \"saggitarus\" (11)</strong><span>La flecha tiene una trayectoria estable, pero su impacto es moderado. Adiciona <em>+5</em> (50% del conocimiento en TRANSFORMACIONES) en el daño.</span></span></div></div></div>",
+            "url": "r23030",
+            "simpleTitle": "duelo #19: montgomery vs owen",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Owen Fitzgerald",
+            "spread": [
+                13,
+                1
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "protego",
+                "mobilicorpus"
+            ],
+            "knowledge": [
+                "dcao",
+                "encantamientos"
+            ],
+            "type": [
+                "encantamiento, defensivo",
+                "encantamiento, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Owen Fitzgerald ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"protego\" (13)</strong><span>El escudo bloquea la mayoría de los ataques mágicos. Reduce <em>+3</em> (75% del conocimiento en DCAO) puntos el ataque contrario y elimina los efectos secundarios de los hechizos.</span></span><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #2 \"mobilicorpus\" (1)</strong><span>El cuerpo de la víctima se mueve ligeramente pero sin perder contacto con el suelo. Disminuye en <em>+1</em> (25% del conocimiento en ENCANTAMIENTOS) puntos su acción siguiente a ser atacado.</span></span></div></div></div>",
+            "url": "r23451",
+            "simpleTitle": "duelo #19: montgomery vs owen",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                10,
+                17
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "sectio aurea",
+                "duro"
+            ],
+            "knowledge": [
+                "aritmancia",
+                "transformaciones"
+            ],
+            "type": [
+                "encantamiento, defensivo",
+                "transfiguración, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Montgomery Thatch ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"aritmancia\"><strong>Resultado  #1 \"sectio aurea\" (10)</strong><span>El ajuste es perfecto, volviendo la estructura extremadamente resistente. Adiciona <em>+15</em> (100% del conocimiento en ARITMANCIA) en defensa.</span></span><span class=\"action-result\" data-conocimientos=\"transformaciones\"><strong>Resultado  #2 \"duro\" (17)</strong><span>El objetivo queda casi convertido en piedra en su totalidad. En caso de usarse en duelos, la víctima pierde sus acciones hasta que alguien lo libere o rolee 1 respuesta.</span></span></div></div></div>",
+            "url": "r23486",
+            "simpleTitle": "duelo #19: montgomery vs owen",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Owen Fitzgerald",
+            "spread": [
+                14,
+                9
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "glacius",
+                "ventus"
+            ],
+            "knowledge": [
+                "encantamientos",
+                "encantamientos"
+            ],
+            "type": [
+                "encantamiento, defensivo",
+                "encantamiento, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Owen Fitzgerald ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"glacius\" (14)</strong><span>El aire se enfría completamente y la zona alrededor queda cubierta de una gruesa capa de hielo, afectando a todos los que se encuentren cerca del objetivo. Reduce <em>+4</em> (75% del conocimiento en ENCANTAMIENTOS) puntos al ataque de cada rival alcanzado.</span></span><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #2 \"ventus\" (9)</strong><span>Una brisa ligera apenas desplaza el objetivo. Adiciona <em>+1</em> (25% del conocimiento en ENCANTAMIENTOS) en daño en caso de duelos.</span></span></div></div></div>",
+            "url": "r23674",
+            "simpleTitle": "duelo #19: montgomery vs owen",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                3,
+                19
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "arresto momentum"
+            ],
+            "knowledge": [
+                "encantamientos"
+            ],
+            "type": [
+                "encantamiento, defensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Montgomery Thatch ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"arresto momentum\" (3)</strong><span>La desaceleración es inmediata y precisa, deteniendo por completo al objetivo sin daños.</span></span><span class=\"roll-result\">19</span></div></div></div>",
+            "url": "r23693",
+            "simpleTitle": "duelo #19: montgomery vs owen",
+            "space": "el pensadero"
         }
     ];
     const hardcodedInactiveTopics = {
@@ -163459,6 +164897,23 @@ const DBModule = (function () {
             ],
             "date": "11/05/1953",
             "location": "Reserva Natural de Flint"
+        },
+        "1486": {
+            "space": "temas inactivos",
+            "url": "/t1486-navegacion-de-temas",
+            "simpleTitle": "navegación de temas",
+            "creator": "Black Wave",
+            "replyCount": 0,
+            "posts": [
+                {
+                    "url": "r23554",
+                    "author": "Black Wave",
+                    "date": "Hoy a las 2:50",
+                    "words": 0
+                }
+            ],
+            "date": "",
+            "location": "Desconocida"
         }
     };
     const hardcodedBeans = [
