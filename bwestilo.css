@@ -11523,3 +11523,167 @@ button.bw-manifest-row[aria-expanded="true"] {
   align-self: flex-start;
   margin-top: auto;
 }
+/* promo mensual para tumblr: div class="bw-promo" chapter="capitulo 0"> (backup/codes/promo.js) */
+.bw-promo {
+  display: flex;
+  flex-flow: column;
+  gap: 10px;
+  width: 100%;
+  max-width: 540px;
+  margin: 0 auto;
+  padding: 10px;
+  box-sizing: border-box;
+  background: var(--mode-back-100);
+  border-radius: 5px;
+  font: var(--style-primary);
+  font-size: 13px;
+  color: var(--mode-text-100);
+  text-align: left;
+}
+
+.bw-promo-head {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 8px;
+  padding: 34px 15px 24px;
+  background: var(--color-bold-100);
+  border-radius: 3px;
+  color: var(--color-text-100);
+  text-align: center;
+}
+
+.bw-promo-kicker,
+.bw-promo-label {
+  font: var(--style-link);
+  text-transform: uppercase;
+  opacity: .7;
+}
+
+.bw-promo-title {
+  font-family: var(--font-bold) !important;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 52px !important;
+  line-height: 100% !important;
+  color: var(--color-text-100);
+  border: none !important;
+  margin: 0 0 -10px !important;
+  padding: 0 !important;
+}
+
+.bw-promo-quote {
+  margin: 0;
+  font-style: italic;
+  opacity: .85;
+}
+
+.bw-promo-date {
+  margin: 6px 0 0;
+  padding: 6px 12px;
+  background: var(--mode-opacity-50);
+  border-radius: 3px;
+  font-size: 12px;
+}
+
+.bw-promo .bw-promo-date strong {
+  color: inherit;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+}
+
+.bw-promo-stats {
+  display: flex;
+  gap: 6px;
+}
+
+.bw-promo-stat {
+  flex: 1 1 0;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 6px;
+  padding: 14px 6px 12px;
+  background: var(--mode-back-90);
+  border-radius: 3px;
+  text-align: center;
+}
+
+.bw-promo-stat strong {
+  font-family: var(--font-bold);
+  font-size: 32px;
+  line-height: 100%;
+  color: var(--mode-text-100);
+}
+
+.bw-promo-stat span {
+  font: var(--style-link);
+  font-size: 10px;
+  text-transform: uppercase;
+  color: var(--mode-back-70);
+}
+
+.bw-promo-bar {
+  width: 80%;
+  height: 4px;
+  border-radius: 2px;
+  background: linear-gradient(to right, var(--mode-text-100) var(--pct), var(--mode-back-80) var(--pct));
+}
+
+.bw-promo-wanted {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 10px;
+  background: var(--mode-back-90);
+  border-radius: 3px;
+  text-align: center;
+}
+
+.bw-promo-chips {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+}
+
+.bw-promo-chips span {
+  padding: 4px 8px;
+  background: var(--color-bold-100);
+  border-radius: 3px;
+  color: var(--color-text-100);
+  font-size: 11px;
+}
+
+.bw-promo-prize {
+  font: var(--style-link);
+  text-transform: uppercase;
+}
+
+.bw-promo-foot {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 10px 6px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.bw-promo .bw-promo-foot strong {
+  color: inherit;
+}
+
+.bw-promo-url {
+  font: var(--style-link);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  opacity: .6;
+}
+
+@media (max-width: 480px) {
+  .bw-promo-stats { flex-wrap: wrap; }
+  .bw-promo-stat { flex-basis: calc(50% - 3px); }
+  .bw-promo-title { font-size: 40px !important; }
+}
