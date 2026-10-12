@@ -1939,14 +1939,14 @@ a.topictitle:hover {
 
 .mentiontag,
 .mentiontag:hover {
-    background: var(--post-user) !important;
-    color: var(--color-text-100) !important;
-    padding: 5px;
-    font-size: 10px;
-    display: inline-block;
-    margin: 2px 0;
-    line-height: 10px;
-    padding-bottom: 7px;
+  background: var(--post-user) !important;
+  color: var(--color-text-100) !important;
+  padding: 5px;
+  font-size: 10px;
+  display: inline-block;
+  margin: 2px 0;
+  line-height: 10px;
+  padding-bottom: 7px;
 }
 
 .main-tooltip {
@@ -9895,9 +9895,17 @@ a.forumtitle:hover {
   display: none;
 }
 
-.bw-sailing-index { grid-area: index; }
-.bw-sailing-cal { grid-area: cal; }
-.bw-sailing-agenda { grid-area: agenda; }
+.bw-sailing-index {
+  grid-area: index;
+}
+
+.bw-sailing-cal {
+  grid-area: cal;
+}
+
+.bw-sailing-agenda {
+  grid-area: agenda;
+}
 
 .bw-sailing-index {
   display: flex;
@@ -10237,7 +10245,7 @@ a.forumtitle:hover {
   border-bottom: 3px solid var(--mode-back-80);
 }
 
-.bw-sailing-agenda-head > span {
+.bw-sailing-agenda-head>span {
   font-size: 11px;
   color: var(--mode-back-60);
 }
@@ -10338,9 +10346,17 @@ a.forumtitle:hover {
   text-transform: uppercase;
 }
 
-.bw-sailing-estado[data-estado-tag="abierto"] { color: var(--validation-passed); }
-.bw-sailing-estado[data-estado-tag="cerrado"] { color: var(--mode-back-70); }
-.bw-sailing-estado[data-estado-tag="inactivo"] { color: var(--validation-warning); }
+.bw-sailing-estado[data-estado-tag="abierto"] {
+  color: var(--validation-passed);
+}
+
+.bw-sailing-estado[data-estado-tag="cerrado"] {
+  color: var(--mode-back-70);
+}
+
+.bw-sailing-estado[data-estado-tag="inactivo"] {
+  color: var(--validation-warning);
+}
 
 .bw-sailing a.bw-sailing-event-title {
   display: block;
@@ -10687,7 +10703,7 @@ button.bw-manifest-stat[aria-expanded="true"] {
   text-transform: uppercase;
 }
 
-.bw-manifest-evidence-head > span:first-child {
+.bw-manifest-evidence-head>span:first-child {
   flex: 1;
   min-width: 0;
 }
@@ -10899,8 +10915,8 @@ button.bw-manifest-bean[aria-expanded="true"] {
   object-fit: contain;
 }
 
-.bw-manifest-cromo > span,
-.bw-manifest-serie > span {
+.bw-manifest-cromo>span,
+.bw-manifest-serie>span {
   display: flex;
   flex-flow: column;
   gap: 4px;
@@ -11495,7 +11511,9 @@ button.bw-manifest-row[aria-expanded="true"] {
   cursor: default;
 }
 
-.bw-guide consequence { display:none; }
+.bw-guide consequence {
+  display: none;
+}
 
 .bw-guide-cards>h4 {
   grid-column: 1 / -1;
@@ -11523,6 +11541,7 @@ button.bw-manifest-row[aria-expanded="true"] {
   align-self: flex-start;
   margin-top: auto;
 }
+
 /* promo mensual para tumblr: div class="bw-promo" chapter="capitulo 0"> (backup/codes/promo.js) */
 .bw-promo {
   display: flex;
@@ -11547,11 +11566,12 @@ button.bw-manifest-row[aria-expanded="true"] {
   align-items: center;
   gap: 8px;
   padding: 34px 15px 24px;
-  background: linear-gradient(rgb(12 12 15 / 55%), rgb(12 12 15 / 75%)), var(--image-background, none) center / cover no-repeat, var(--color-bold-100);
+  background: linear-gradient(rgb(12 12 15 / 55%), rgb(12 12 15 / 75%)), var(--image-background, none) center / cover no-repeat, var(--mode-back-90);
   border-radius: 3px;
   color: var(--color-text-100);
   text-align: center;
   text-shadow: 0 1px 6px rgb(0 0 0 / 60%);
+  background-blend-mode: luminosity;
 }
 
 .bw-promo-kicker,
@@ -11684,7 +11704,15 @@ button.bw-manifest-row[aria-expanded="true"] {
 }
 
 @media (max-width: 480px) {
-  .bw-promo-stats { flex-wrap: wrap; }
-  .bw-promo-stat { flex-basis: calc(50% - 3px); }
-  .bw-promo-title { font-size: 40px !important; }
+  .bw-promo-stats {
+    flex-wrap: wrap;
+  }
+
+  .bw-promo-stat {
+    flex-basis: calc(50% - 3px);
+  }
+
+  .bw-promo-title {
+    font-size: 40px !important;
+  }
 }
