@@ -1772,12 +1772,6 @@ const MissionsModule = (function () {
       },
 
       "actions": {
-        "accio": {
-          "leve": 'No es suficiente para revelar información adicional.',
-          "moderado": 'Permite revelar que el lugar es un molino de harina que ha sido reconvertido en una destilería de bebidas alcohólicas.',
-          "exitoso": 'Permite revelar que el lugar es un molino de harina que ha sido reconvertido en una destilería de bebidas alcohólicas.',
-          "critico": 'Permite revelar que el lugar es un molino de harina que ha sido reconvertido en una destilería de bebidas alcohólicas.',
-        },
       },
     },
     // fin the hallucination mill
