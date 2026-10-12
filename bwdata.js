@@ -1725,18 +1725,60 @@ const MissionsModule = (function () {
         "sobre el lugar": {
           "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "seguir al hombrecito",
           "cont": '<span>Cada cierta cantidad de metros, se pueden observar guardias. Ninguno de ellos parece alarmado por las visitas, no obstante, todos los siguen con la mirada.</span>',
-        },
-        "ingresar al despacho de donn": {
+        }, "ingresar al despacho de donn": {
           "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "seguir al hombrecito",
-          "cont": '<span>Mientras siguen al hombrecito, suben unas escaleras que parecen dar a unas oficinas, hasta que llegan a una puerta. El hombrecito da dos golpes antes de abrir la puerta. «Los caballeros del Ministerio de Magia».</span>',
+          "cont": '<span>Mientras siguen al hombrecito, suben unas escaleras que parecen dar a unas oficinas, hasta que llegan a una puerta. El hombrecito da dos golpes antes de abrirla.<br><br>—<strong>Los caballeros del Ministerio de Magia</strong> —anuncia.</span>',
         },
         "donn dempsey": {
           "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ingresar al despacho de donn",
-          "cont": '<span>Donn Dempsey, el dueño del lugar se encuentra detrás de un escritorio fumando un habano. Está demasiado elevado de peso y apenas se puede mover. Por más de que se trate de lo que parece una de las pocas salas con ventanas, y de que estas se encuentren abiertas, el señor usa el periódico en su mano para poder darse un poco de aire. En la sala hace el mismo calor que abajo. Sus ojos marrones se dirigen hacia los aurores. «Escuché que mi prima falleció, me preguntaba cuánto tardarían en venir por aquí haciendo preguntas».</span>',
+          "cont": '<span>Donn Dempsey, el dueño del lugar, se encuentra detrás de un escritorio fumando un habano. Está demasiado elevado de peso y apenas se puede mover. Por más de que se trate de lo que parece una de las pocas salas con ventanas, y de que estas se encuentren abiertas, el señor usa el periódico en su mano para poder darse un poco de aire. En la sala hace el mismo calor que abajo. Sus ojos marrones se dirigen hacia los aurores.<br><br>—<strong>Escuché que mi prima falleció. Me preguntaba cuánto tardarían en venir por aquí haciendo preguntas.</strong></span>',
+        },
+        "información sobre donn dempsey": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "donn dempsey",
+          "cont": '<span>De todos los registros que se habían revisado en el Departamento de Seguridad, en ninguno de esos lugares se mencionaba a Donn Dempsey. No tiene antecedentes, denuncias ni multas. Su nombre solo aparece en los registros de comercio: desde 1908 figura como titular de "Bodegas Dempsey", con todos los impuestos al día. Demasiado prolijo para alguien que vive del alcohol.</span>',
+        },
+        "preguntar sobre la relación con morgana": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "donn dempsey",
+          "cont": '<span>Donn suelta una risa que termina en tos y deja el habano sobre un cenicero desbordado.<br><br>—<strong>¿Relación? Hace cuarenta años que no cruzaba palabra con mi prima. Después de lo de Merlina, mi tío Brian y ella dejaron de hablarse. Él no quería que el negocio familiar se hundiera con ellos, así que me dejó todo a mí en su testamento. Morgana se quedó con los papeles hasta que tuviera que pasármelos, y bueno…</strong> —Abre los brazos y señala alrededor con el periódico—. <strong>Me pasó cenizas.</strong></span>',
+        },
+        "preguntar sobre el incendio de la destilería dempsey": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar sobre la relación con morgana",
+          "cont": '<span>Donn se reclina en la silla, que cruje bajo su peso.<br><br>—<strong>El Profeta dijo que la estaba vendiendo. Claro que la estaba vendiendo: a mí, por un galeon, porque el testamento de mi tío la obligaba. Una semana antes de firmar, todo ardió. Los barriles, los alambiques, los almacenes. Lo único que me quedó fue el nombre y una deuda con los proveedores.</strong> —Se pasa el periódico por la frente—. <strong>Seguridad dijo que fue un accidente. Yo nunca les creí.</strong></span>',
+        },
+        "insistir sobre el incendio": {
+          "visible": { "attr": { "int": "+2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar sobre el incendio de la destilería dempsey",
+          "cont": '<span>Ante la insistencia, Donn guarda silencio un buen rato. Por la ventana se oye el ruido de la fábrica.<br><br>—<strong>Ya está muerta, ¿no? Ya no puede hacerme nada.</strong><br><br>Abre un cajón y deja sobre el escritorio una nota amarillenta, con una caligrafía elegante: <i>"Tendrás tu destilería, primo. Lo que quede de ella."</i><br><br>—<strong>Llegó la mañana después del incendio. Fue ella. Se aseguró de que no hubiera nadie adentro, eso sí. Morgana nunca fue de lastimar gente… solo cosas.</strong></span>',
+        },
+        "preguntar sobre merlina": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar sobre la relación con morgana",
+          "cont": '<span>Al oír el nombre, Donn borra la sonrisa.<br><br>—<strong>Pobre criatura. Catorce años tenía.</strong> —Mira por la ventana un largo rato—. <strong>Mi tío nunca se perdonó lo de esa noche. Dicen que no dejó trabajar a los sanadores, que los echó del cuarto. Yo no estuve ahí, pero sé que después de eso Brian ya no era el mismo. Morgana lo culpó de todo y él la dejó hacerlo.</strong> —Se aclara la garganta—. <strong>Mi prima iba a llevarle rosas a su hermana todos los meses, ¿saben? Hasta el final.</strong></span>',
+        },
+        "preguntar sobre corazón de fuego": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "donn dempsey",
+          "cont": '<span>—<strong>¿La salvia?</strong> —Donn ni se inmuta—. <strong>Claro que la usamos. Sin ella no hay Whiskey de Fuego, caballeros. Pero aquí no se cultiva nada, aquí solo destilamos. La savia nos llega lista de un proveedor, estabilizada con runas de contención y con todos los papeles en regla. ¿Necesitan ver los papeles?</strong></span>',
+        },
+        "el whiskey de fuego": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar sobre corazón de fuego",
+          "cont": '<span>Donn se ilumina al oír el nombre. Saca una botella de debajo del escritorio, de vidrio ámbar, con la misma etiqueta en cursiva: "Dempsey Manufacturing".<br><br>—<strong>El Whiskey de Fuego Dempsey. La receta de mi abuelo, la que mi tío Brian hizo famosa. Tardé veinte años en volver a hacerla bien.</strong><br><br>Sirve sin preguntar. El líquido tiene un brillo rojizo que no le corresponde a ningún whiskey y deja en el aire un olor a turba quemada… idéntico al de la tarjeta de The Maroon Steed.</span>',
+        },
+        "preguntar sobre the maroon steed": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "el whiskey de fuego",
+          "cont": '<span>—<strong>Un cliente más</strong> —responde Donn, demasiado rápido—. <strong>Le vendemos a media Irlanda. Un pub que cambia de lugar cada noche, ¿qué quieren que les diga? Pagan en monedas de oro a tiempo. No pregunto a quién sirven.</strong><br><br>Su papada brilla de sudor, y no parece ser solo por el calor.</span>',
+        },
+        "beber o no beber": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "el whiskey de fuego",
+          "cont": '<span>Juego</span>',
         },
       },
 
-      "actions": {},
+      "actions": {
+        "accio": {
+          "leve": 'No es suficiente para revelar información adicional.',
+          "moderado": 'Permite revelar que el lugar es un molino de harina que ha sido reconvertido en una destilería de bebidas alcohólicas.',
+          "exitoso": 'Permite revelar que el lugar es un molino de harina que ha sido reconvertido en una destilería de bebidas alcohólicas.',
+          "critico": 'Permite revelar que el lugar es un molino de harina que ha sido reconvertido en una destilería de bebidas alcohólicas.',
+        },
+      },
     },
     // fin the hallucination mill
 
