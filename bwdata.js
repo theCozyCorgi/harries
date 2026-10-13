@@ -7609,7 +7609,7 @@ const MissionsModule = (function () {
       "users": ["c/u119", "/u130", "/u150", "/u156"],
       "informed": [],
       "dependency": [],
-      "type": "misión", "closed": false, "fecha": "", "link": "https://blackwave.foroactivo.com/t1508-mision-silence-behind-the-door", "tagged": ["original", "capitulo 3"],
+      "type": "investigación", "closed": false, "fecha": "", "link": "https://blackwave.foroactivo.com/t1508-mision-silence-behind-the-door", "tagged": ["original", "capitulo 3"],
 
       "cards": [
         {
