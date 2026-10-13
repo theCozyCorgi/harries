@@ -4583,7 +4583,42 @@ const MissionsModule = (function () {
       "dependency": [],
       "type": "misión", "closed": false, "fecha": "1953-06-29", "link": "/t1488-mision-the-wounded-dragon", "tagged": ["wave", "capitulo 1"],
 
-      "cards": [],
+      "cards": [
+        {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "dragonólogo", "name": "invalid", }, "place": "el descenso",
+          "cont": '<span>Los galeses verdes, como casi todos los dragones, calientan el suelo con una llamarada antes de echarse a descansar. Es lo primero que hacen al instalarse en un lugar. Que este ejemplar no pueda hacerlo no es normal: ni siquiera los dragones muy débiles o malheridos pierden el fuego. Hay algo más que la herida.</span>',
+        },
+
+        {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "san mungo", "name": "invalid", }, "place": "la herida",
+          "cont": '<span>Por la forma en que respira, sin expandir del todo el costado izquierdo, debajo del corte hay huesos rotos: al menos tres costillas fracturadas. Cerrar la piel no alcanza. También habrá que soldar las costillas, o cada respiración seguirá lastimándolo por dentro.</span>',
+        },
+
+        {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "la herida",
+          "cont": '<span>El corte es demasiado recto y parejo. Las garras y los dientes de otro dragón dejan heridas desgarradas, irregulares; esto se parece más a lo que deja una hoja o un hechizo cortante.</span>',
+        },
+
+        {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "dragonólogo", "name": "invalid", }, "place": "la herida",
+          "cont": '<span>Las escamas de un dragón no se caen así. Las sostiene la misma magia que las vuelve resistentes a los hechizos. Si están opacas y se desprenden alrededor de la herida, y además el dragón no consigue escupir fuego, la conclusión es una sola: está perdiendo su magia. Y sin fuego no puede calentarse. Los dragones son de sangre fría y dependen del calor; este se está enfriando.</span>',
+        },
+
+        {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "dragonólogo", "name": "invalid", }, "place": "junto al agua",
+          "cont": '<span>Un dragón herido que bebe tan poco está peor de lo que parece. Aun así, no hay que confiarse: débil o no, puede romperle las costillas a un mago de un coletazo. Lo mejor es no acercarse hasta que se calme, y nada calma más a un dragón que el calor. Si le dan lo que su propio fuego ya no le da, quizás los deje acercarse.</span>',
+        },
+
+        {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "dragonólogo", "name": "invalid", }, "place": "la herida cerrada",
+          "cont": '<span>Un dragón con la herida cerrada debería, al menos, intentar ponerse de pie. Este no lo hace. Lo único que lo mantiene con vida es el calor que le dan desde afuera, y en cuanto se disipa vuelve a temblar. Si no descubren por qué está perdiendo su magia, ningún hechizo de curación alcanzará.</span>',
+        },
+
+        {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "san mungo", "name": "invalid", }, "place": "la herida cerrada",
+          "cont": '<span>La herida está bien cerrada y los huesos, soldados. Sin embargo, la temperatura del dragón sigue bajando. El cuerpo ya no es el problema: lo que se apaga está más adentro.</span>',
+        },
+      ],
 
       "searchs": {
         "sobre dragones heridos": {
@@ -4630,9 +4665,126 @@ const MissionsModule = (function () {
           "visible": { "attr": { "val": "min" }, "know": { "transformaciones": "10" }, "job": "invalid", "name": "invalid", }, "place": "cómo atraer a un dragón",
           "cont": '<span>Dado que han retirado a todos los civiles, las rocas que se encuentran a un costado pueden ser utilizadas para transformarlas en ovejas y así atraer al dragón.</span>',
         },
+
+        "el rebaño": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "anzuelos",
+          "cont": '<span>Preparación del lugar.<br/><br/>Para atraer al dragón, deberán transformar las rocas del costado de la colina en ovejas con el hechizo "Vitafigura". Las rocas tienen el tamaño adecuado y la orilla del río ofrece pasto suficiente para que el rebaño no se disperse. Se considerará que el lugar está listo cuando el contador de rebaño llegue a 28 ovejas. Una vez logrado, podrán habilitar "un escondite". Recomendamos que todos los personajes realicen la acción, dado que las ovejas se acumulan en el mismo contador. Si avanzan sin completar el rebaño, el dragón no bajará y la administración intervendrá.</span>',
+        },
+
+        "un escondite": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "el rebaño",
+          "cont": '<span>Con el rebaño pastando a la orilla del río, necesitan un lugar desde donde observar sin ser vistos. Unos treinta metros colina arriba, un grupo de rocas que no llegaron a transformar forma un pequeño reparo, rodeado de matas de tojo. El viento sopla desde el río hacia la colina, así que el olor de los personajes no llegará hasta el dragón. Desde ahí se ve toda la orilla. Solo queda esperar en silencio.</span>',
+        },
+
+        "el descenso": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "un escondite",
+          "cont": '<span>Pasa un largo rato hasta que la sombra vuelve a cruzar la colina. El dragón da varias vueltas sobre el río, cada vez más bajo, sin quitarle la vista al rebaño. Las ovejas balan y se amontonan. Finalmente desciende con torpeza: una de sus alas no termina de plegarse y aterriza de costado, levantando barro de la orilla. Se queda inmóvil unos segundos, respirando con fuerza. Luego gira sobre sus patas buscando dónde echarse, abre las fauces hacia el pasto y tensa el cuello como si fuera a escupir fuego. De su garganta no sale nada: apenas un chasquido seco y un vaho tibio que se pierde en el aire. Lo intenta una segunda vez, con el mismo resultado, y suelta un quejido grave que hace temblar a las ovejas.</span>',
+        },
+
+        "la herida": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "el descenso",
+          "cont": '<span>Ahora que el dragón está quieto, desde el escondite se ve la herida con claridad. Un corte largo le recorre todo el lateral izquierdo, desde la base del cuello hasta el nacimiento de la cola. Todavía sangra: un hilo oscuro que mancha el pasto de la orilla. Alrededor del corte, las escamas se ven opacas y levantadas. Cada vez que el dragón se mueve, algunas se desprenden y caen al suelo como hojas secas.</span>',
+        },
+
+        "junto al agua": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "la herida",
+          "cont": '<span>El dragón no se aleja del río. Se arrastra hasta el borde, hunde el hocico en el agua y bebe apenas unos sorbos antes de apartarse, como si incluso eso le costara. Atrapa una de las ovejas que se le acercan, pero la deja a medio comer. Sin embargo, sigue siendo peligroso: cuando una oveja se mueve a sus espaldas, la cola barre la orilla con un golpe seco y las fauces se cierran en el aire a pocos centímetros del animal. Cualquiera que se acerque sin ganarse antes su confianza recibirá el mismo trato.</span>',
+        },
+
+        "se deja acercar": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "junto al agua",
+          "cont": '<span>El calor cambia al dragón. Deja de seguir cada movimiento con la mirada, afloja las garras sobre el barro y apoya la cabeza en el pasto. Cuando los personajes salen del escondite y se acercan despacio, a la vista, solo gira un ojo hacia ellos y resopla. No hay gruñidos ni dientes. Por fin pueden llegar hasta la herida.</span>',
+        },
+
+        "tratar al dragón": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "se deja acercar",
+          "cont": '<span>Proceso de curación.<br/><br/>Los hechizos de curación solo cuentan si el dragón ya permitió que se acerquen. Si no, se aparta con un coletazo y el hechizo se pierde. Hay dos contadores:<br/><br/><strong>Contador de herida</strong>: 0/80.<br/><strong>Contador de huesos</strong>: 0/3 costillas.<br/><br/>Cuando ambos contadores estén completos, podrán habilitar "la herida cerrada".Si avanzan sin completar los contadores, la administración intervendrá.</span>',
+        },
+
+        "la herida cerrada": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "tratar al dragón",
+          "cont": '<span>Con la última sutura, el corte queda cerrado de punta a punta: una línea larga y rosada entre escamas opacas. El dragón ya no sangra y respira con más calma, sin hundir el costado. Aun así, no se levanta. Sigue echado junto al río y tiembla cada vez que se disipa el calor de los hechizos. A cada movimiento caen unas pocas escamas más sobre el pasto, y sus ojos están apagados. La herida está curada, pero el dragón no mejora.</span>',
+        },
       },
 
-      "actions": {},
+      "actions": {
+        "vitafigura": {
+          "leve": '<span>La roca se cubre de lana y le brotan unas patas cortas, pero queda a medio camino: una oveja tiesa que apenas se tambalea. Suma +1 al contador de rebaño.</span>',
+          "moderado": '<span>Tres rocas se transforman en ovejas, aunque una conserva el lomo gris y áspero como la piedra. Suma +3 al contador de rebaño.</span>',
+          "exitoso": '<span>Cuatro rocas se convierten en ovejas sanas que bajan solas hacia la orilla a pastar. Suma +4 al contador de rebaño.</span>',
+          "critico": '<span>Seis rocas se convierten en ovejas robustas, de lana espesa, que balan y se agrupan junto al río como un rebaño de verdad. Suma +6 al contador de rebaño.</span>',
+        },
+
+        "chamaeleonis": {
+          "leve": '<span>El encantamiento apenas tiñe la ropa de un verde desparejo. Desde lejos todavía se distingue una silueta entre las rocas.</span>',
+          "moderado": '<span>La figura se confunde con las rocas y el tojo mientras se mantenga quieta.</span>',
+          "exitoso": '<span>El personaje se funde con el entorno. Ni siquiera un dragón que sobrevuele la colina notaría su presencia.</span>',
+          "critico": '<span>El personaje se funde con el entorno por completo y puede moverse sin delatarse.</span>',
+        },
+
+        "incendio": {
+          "leve": '<span>Las llamas prenden en el pasto húmedo y se apagan enseguida. Si hay un dragón cerca, gira la cabeza hacia el humo, desconfiado, y gruñe.</span>',
+          "moderado": '<span>Una fogata pequeña arde a unos metros. Si hay un dragón cerca, estira el cuello hacia el calor, pero no se mueve de la orilla y sigue a los personajes con la mirada.</span>',
+          "exitoso": '<span>Una fogata firme calienta las piedras de la orilla. El dragón se arrastra hasta ella y se echa a su lado con los ojos entrecerrados. Por primera vez, no reacciona cuando alguien se mueve cerca.<adding search="se deja acercar" class="check-cards"></adding></span>',
+          "critico": '<span>Las llamas envuelven las piedras de la orilla hasta dejarlas al rojo. El dragón se acomoda sobre ellas con un largo suspiro, tal como habría hecho con su propio fuego, y deja de vigilar a los personajes.<adding search="se deja acercar" class="check-cards"></adding></span>',
+        },
+
+        "calor vitalis": {
+          "leve": '<span>Sobre el dragón, el calor apenas alcanza las escamas del cuello antes de disiparse. Entreabre un ojo, pero vuelve a enroscarse, tenso. Sobre un compañero, restaura +5PV.</span>',
+          "moderado": '<span>Sobre el dragón, una ola tibia le recorre el costado sano. Deja de temblar por un momento y afloja las garras sobre el barro, aunque sigue mostrando los dientes si alguien da un paso. Sobre un compañero, restaura +6PV.</span>',
+          "exitoso": '<span>Sobre el dragón, el calor se extiende por todo el cuerpo. Suelta un resoplido largo, apoya la cabeza en el pasto y baja la cola. Permite que se acerquen sin gruñir. Sobre un compañero, restaura +7PV.<adding search="se deja acercar" class="check-cards"></adding></span>',
+          "critico": '<span>Sobre el dragón, un calor profundo lo envuelve de la cabeza a la cola. Cierra los ojos, estira el ala sana sobre la orilla y deja escapar un ronroneo grave. Ya no ve a los personajes como una amenaza. Sobre un compañero, restaura +8PV.<adding search="se deja acercar" class="check-cards"></adding></span>',
+        },
+
+        "suturo": {
+          "leve": '<span>Las suturas se forman torcidas sobre un tramo corto del corte y el dragón da un respingo de dolor. El coletazo alcanza al personaje que lanzó el hechizo, que pierde -3PV. Suma +10 al contador de herida.</span>',
+          "moderado": '<span>Se cierra un tramo del corte cerca del cuello. El dragón gime, largo y grave, pero no se aparta. Suma +15 al contador de herida.</span>',
+          "exitoso": '<span>Las suturas mágicas cierran un buen tramo de la herida y la sangre deja de correr por ese costado. El dragón gime y luego empuja la cabeza contra el personaje: un empujón torpe que casi lo hace caer. Suma +20 al contador de herida.</span>',
+          "critico": '<span>La sutura avanza limpia a lo largo del flanco y los bordes se unen sin dejar huecos. El dragón suelta un quejido que termina en resoplido y deja caer la cabeza sobre el hombro del personaje, pesada y tibia, como si le agradeciera. Suma +25 al contador de herida.</span>',
+        },
+
+        "episkey": {
+          "leve": '<span>Cierra algunos rasguños en los bordes del corte, nada más. El dragón ni siquiera lo nota. Suma +5 al contador de herida.</span>',
+          "moderado": '<span>Las heridas menores alrededor del corte se cierran y la inflamación baja. El dragón resopla. Suma +8 al contador de herida.</span>',
+          "exitoso": '<span>Los cortes pequeños que rodean la herida principal desaparecen. El dragón golpea el suelo con la cola, despacio, una y otra vez. Suma +10 al contador de herida.</span>',
+          "critico": '<span>Todas las heridas menores se cierran sin dejar marca. El dragón gira el cuello y olfatea al personaje de arriba abajo, con curiosidad. Suma +12 al contador de herida.</span>',
+        },
+
+        "curatio naturalis": {
+          "leve": '<span>La carne en los bordes del corte recupera un poco de color, aunque las escamas siguen cayendo. Suma +5 al contador de herida.</span>',
+          "moderado": '<span>El tejido alrededor de la herida comienza a regenerarse. Las escamas no vuelven a crecer. Suma +8 al contador de herida.</span>',
+          "exitoso": '<span>La herida se cierra desde adentro con rapidez. El dragón gime por el tirón, pero se queda quieto y deja que el personaje termine. Suma +10 al contador de herida.</span>',
+          "critico": '<span>Una regeneración acelerada recorre todo el flanco. Lo único que no responde son las escamas, que siguen opacas. Suma +12 al contador de herida.</span>',
+        },
+
+        "emundo": {
+          "leve": '<span>Se limpia parte del barro que quedó en la herida tras el aterrizaje, pero queda suciedad en lo profundo. Suma +3 al contador de herida.</span>',
+          "moderado": '<span>La mayor parte del barro y la tierra desaparece del corte. Suma +5 al contador de herida.</span>',
+          "exitoso": '<span>La herida queda completamente limpia y sin riesgo de infección. El dragón sacude la cabeza, molesto por el ardor, pero no ataca. Suma +8 al contador de herida.</span>',
+          "critico": '<span>La herida queda limpia y protegida de cualquier contaminación mientras cicatriza. Suma +10 al contador de herida.</span>',
+        },
+
+        "lapsus corpus": {
+          "leve": '<span>El mayor dolor se concentra en el flanco izquierdo, a lo largo del corte.</span>',
+          "moderado": '<span>El corte es profundo: atraviesa la piel y llega al músculo del costado. Aun así, no alcanza para explicar por qué el dragón está tan débil.</span>',
+          "exitoso": '<span>Debajo del corte hay tres costillas fracturadas. No hay órganos perforados, pero el dragón está cerca de su límite: el cuerpo se enfría más rápido de lo que debería, y la causa no está en ninguna herida.</span>',
+          "critico": '<span>El diagnóstico es completo. El corte no lo hizo otro dragón: fue magia. Desde los bordes de la herida, la fuerza del dragón se escapa poco a poco, y por eso caen las escamas y se apaga el fuego en su pecho. Mientras no se detenga, el dragón seguirá enfriándose.</span>',
+        },
+
+        "brackium emende": {
+          "leve": '<span>Una de las costillas cruje al intentar soldarse y vuelve a separarse. El dragón ruge de dolor y sacude el ala: el personaje recibe el golpe y pierde -4PV. No suma al contador de huesos.</span>',
+          "moderado": '<span>Una costilla se suelda con un chasquido sordo. El dragón gime y araña el barro, pero aguanta. Suma +1 al contador de huesos.</span>',
+          "exitoso": '<span>Una costilla vuelve a su lugar y se suelda por completo. El dragón respira hondo, por primera vez sin hundir el costado, y mueve la punta de la cola de un lado a otro. Suma +1 al contador de huesos.</span>',
+          "critico": '<span>Dos costillas se sueldan a la vez. El dragón gime y se estremece. Cuando pasa el dolor, apoya el hocico contra el personaje y lo empuja con suavidad, varias veces. Suma +2 al contador de huesos.</span>',
+        },
+
+        "pellis sana": {
+          "leve": '<span>Alivia el ardor de los bordes del corte, pero la piel sigue abierta. Suma +3 al contador de herida.</span>',
+          "moderado": '<span>La piel entre las escamas se cierra en un tramo corto. El dragón resopla, más tranquilo. Suma +5 al contador de herida.</span>',
+          "exitoso": '<span>Un tramo del corte se cierra sin dejar marca. El dragón gira el cuello y olfatea la zona curada, como si no terminara de creerlo. Suma +8 al contador de herida.</span>',
+          "critico": '<span>La piel se regenera con firmeza a lo largo de un buen tramo del flanco, aunque las escamas de alrededor siguen opacas. Suma +10 al contador de herida.</span>',
+        },
+      },
     },
     // fin the wounded dragon
 
@@ -7189,21 +7341,263 @@ const MissionsModule = (function () {
       "dependency": [],
       "type": "misión", "closed": false, "fecha": "", "link": "", "tagged": ["original", "wave", "capitulo 0"],
 
-      "cards": [],
+      "cards": [
+        {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad mágica", "name": "invalid", }, "place": "pase para el partido hogwarts-mahoutokoro",
+          "cont": '<span>Según el registro de la delegación, Cuthbert retiró su pase el 13 de mayo, cuatro días antes de que llegara el equipo. Entre el traslador a Kamchatka y la llegada de la delegación había un margen de apenas tres días. Contaba con volver a tiempo.</span>',
+        },
+        {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad mágica", "name": "invalid", }, "place": "solicitud de traslador moscú-kamchatka",
+          "cont": '<span>El número de autorización corresponde al cuerpo de magos golpeadores, no a una misión asignada. No hay orden firmada por ningún superior: Cuthbert usó sus propias credenciales para pedir el traslador.</span>',
+        },
+        {
+          "visible": { "attr": { "sab": "5" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "mapa de cuthbert",
+          "cont": '<span>A lo largo de la línea que sube por la costa hay pequeñas cruces a lápiz, casi borradas. Parecen marcar los lugares donde pensaba detenerse a acampar. La última está junto al río, poco antes del valle rojo.</span>',
+        },
+        {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "inefable", "name": "invalid", }, "place": "anotaciones de cuthbert",
+          "cont": '<span>«El velo» no es una metáfora común. En el Departamento de Misterios es el nombre con el que se conoce al arco de la Cámara de la Muerte. Cuthbert dejó ese verso sin resolver.</span>',
+        },
+        {
+          "visible": { "attr": { "val": "min" }, "know": { "adivinación": "5" }, "job": "invalid", "name": "invalid", }, "place": "diario de sueños de cuthbert",
+          "cont": '<span>Los sueños tienen la estructura de una premonición: se repiten, avanzan y dan indicaciones concretas. No son pesadillas comunes. Cuthbert tenía un don que nunca entrenó lo suficiente.</span>',
+        },
+        {
+          "visible": { "attr": { "val": "min" }, "know": { "curación": "10" }, "job": "invalid", "name": "invalid", }, "place": "diario de sueños de cuthbert",
+          "cont": '<span>La letra de las últimas entradas se deforma y tiembla. Hay manchas de tinta, como si se le hubiera resbalado la pluma. Son signos de agotamiento y de varias noches sin dormir.</span>',
+        },
+        {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "viridian", }, "place": "diario de sueños de cuthbert",
+          "cont": '<span>La última línea de la entrada del 12 de mayo fue tachada con fuerza, pero todavía se lee: «Si no vuelvo, V. sigue a cargo. Que no espere a padre. La ola viene de todas formas, conmigo o sin mí: que Theo y Thad escriban todo lo que vean.»</span>',
+        },
+        {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad mágica", "name": "invalid", }, "place": "registro del puesto de petropávlovsk",
+          "cont": '<span>Por protocolo, todo viajero que llega con traslador oficial debe declarar su destino y registrar su salida. Cuthbert conocía ese procedimiento mejor que nadie y dejó ambos campos en blanco a propósito.</span>',
+        },
+        {
+          "visible": { "attr": { "car": "7" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar en el puerto",
+          "cont": '<span>Ganada la confianza del pescador, añade algo más en voz baja: el extranjero no preguntó por el camino a los volcanes, sino por «un valle donde el agua sube al cielo». Él le dijo que de ese lugar no se habla y que la gente de la zona no va allí. El inglés le dio las gracias y le dejó demasiado dinero.</span>',
+        },
+        {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "viridian", }, "place": "hablar con semión",
+          "cont": '<span>Antes de que se vayan, Semión mira a Viridian un largo rato. Dice que tiene la misma forma de mirar que el inglés: como si ya supiera la respuesta y solo esperara que alguien se la confirmara.</span>',
+        },
+        {
+          "visible": { "attr": { "sab": "5" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "hablar con semión",
+          "cont": '<span>Semión no lo dice en voz alta, pero cuando habla del 17 de mayo baja la mirada. Se siente responsable: cree que debió haber ido a buscarlo río arriba en lugar de quedarse esperando.</span>',
+        },
+        {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad mágica", "name": "invalid", }, "place": "examinar los restos del campamento",
+          "cont": '<span>La flecha con iniciales y fecha es una marca de patrulla: los aurores la usan en el campo para indicar la dirección que toman y el día en que pasaron, por si alguien tiene que seguirlos. Los meses siempre se indican en numeros romanos. Cuthbert dejó un rastro a propósito, para quien viniera detrás.</span>',
+        },
+        {
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "10" }, "job": "invalid", "name": "invalid", }, "place": "examinar los restos del campamento",
+          "cont": '<span>Los restos rojizos del frasco son de Poción Pimentónica, que se usa para combatir el frío y los resfriados. Por el tamaño del frasco, alcanzaba para pocas dosis: Cuthbert no esperaba pasar muchos días a la intemperie.</span>',
+        },
+        {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad mágica", "name": "invalid", }, "place": "revisar la base de la roca",
+          "cont": '<span>El depósito sigue el procedimiento de campo de la Academia de Aurores: dejar la mitad de las provisiones en el punto de extracción para el regreso. Si las provisiones siguen ahí, Cuthbert nunca llegó a bajar del río.</span>',
+        },
+        {
+          "visible": { "attr": { "val": "min" }, "know": { "ccm": "5" }, "job": "invalid", "name": "invalid", }, "place": "revisar la base de la roca",
+          "cont": '<span>Alrededor del montículo hay marcas de garras grandes en la nieve y en la tierra, y un rastro de huellas anchas que se aleja hacia el bosque. Es un oso pardo de Kamchatka. En esta época del año acaban de despertar de la hibernación y están hambrientos. Intentó llegar a la comida, pero no pudo mover las piedras.</span>',
+        },
+        {
+          "visible": { "attr": { "sab": "5" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "remontar el shumnaya",
+          "cont": '<span>Al tocar el agua del río se nota algo extraño: no está tan helada como debería. Entre los bancos de nieve, en algunos remansos, sube un vapor tenue. Río arriba, algo calienta el agua.</span>',
+        },
+      ],
 
       "searchs": {
-        "investigación": {
+        "habitación de cuthbert en el hotel": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>COMPLETAR</span>',
-        }
+          "cont": '<span>La habitación 214 del hotel sigue reservada a nombre del Ministerio de Magia de Gran Bretaña desde el 13 de mayo. Por pedido de la delegación, el personal no tocó nada desde entonces. La cama está hecha, las cortinas cerradas y no hay nada fuera de lugar: solo las pertenencias de un hombre que salió temprano y pensaba regresar pronto.</span>',
+        },
+
+        "pertenencias de cuthbert": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "habitación de cuthbert en el hotel",
+          "cont": '<span>Dentro del armario hay un baúl cerrado con las iniciales C. S. Contiene ropa doblada con cuidado, una túnica de gala con el emblema del Departamento de Seguridad Mágica, artículos de aseo y un par de libros de quidditch con las esquinas marcadas. No falta nada que llame la atención y no sobra nada fuera de lo común. Sobre la mesa, a la vista, quedó el pase para el partido.</span>',
+        },
+
+        "pase para el partido hogwarts-mahoutokoro": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "habitación de cuthbert en el hotel",
+          "cont": '<span><span class="book-clipping"><br><div align="center"><strong>TORNEO COPA DE ROBLE</strong></div><div align="center"><span style="font-size: 12px; line-height: normal">Arena Dush — Moscú</span></div><br><strong>Partido</strong>: Hogwarts vs. Mahoutokoro<br><strong>Fecha</strong>: 19/05/1953<br><strong>Titular</strong>: Selwyn, Cuthbert<br><strong>Función</strong>: Escolta de la delegación de Hogwarts.<br><strong>Acceso</strong>: Palco de delegaciones, vestuarios y campo de juego.<br><br></span><br>Sujeta al pase con un clip hay una nota con la letra de Cuthbert: <i>«Recibir a la delegación — 17/05, 10 hs.»</i></span>',
+        },
+
+        "pedir al botones que envíe las pertenencias a la familia": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "pertenencias de cuthbert",
+          "cont": '<span>El botones, un joven de uniforme granate, asiente con seriedad y anota la dirección de la residencia Selwyn. Promete que el baúl saldrá esa misma tarde por el servicio de envíos internacionales y entrega un comprobante:<br><br><span class="book-clipping"><br><div align="center"><strong>COMPROBANTE DE ENVÍO</strong></div><br><strong>Remitente</strong>: [PERSONAJE QUE HAGA EL ENVÍO], Moscú.<br><strong>Destinatario</strong>: Familia Selwyn, Gran Bretaña.<br><strong>Contenido</strong>: Un baúl con efectos personales (C. S.).<br><strong>Estado</strong>: Despachado.</span></span>',
+        },
+
+        "solicitud de traslador moscú-kamchatka": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad mágica", "name": "invalid", }, "place": "",
+          "cont": '<span><span class="book-clipping"><br><div align="center"><strong>SOLICITUD DE TRASLADOR INTERNACIONAL</strong></div><div align="center"><span style="font-size: 12px; line-height: normal">Oficina de Trasladores — Ministerio de Magia de Moscú</span></div><br><strong>Número de solicitud</strong>: TRS-MOS/1953-0417<br><strong>Organismo solicitante</strong>: Ministerio de Magia de Gran Bretaña, Departamento de Seguridad Mágica.<br><strong>Titular</strong>: Selwyn, Cuthbert<br><strong>Motivo declarado</strong>: Asuntos oficiales.<br><br><strong>Origen</strong>: Moscú, Oficina de Trasladores.<br><strong>Destino</strong>: Petropávlovsk, bahía de Avacha, península de Kamchatka.<br><strong>Fecha y hora de partida</strong>: 14/05/1953 - 05:30 hs.<br><br><strong>Objeto traslador</strong>: Tetera de hojalata abollada.<br><strong>Estado</strong>: Viaje concluido.<br><br><strong>Traslador de regreso</strong>: Programado para el 18/05/1953.<br><strong>Estado</strong>: No utilizado. Objeto no devuelto.</span></span>',
+        },
+
+        "tomar el traslador a kamchatka": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "pedir al botones que envíe las pertenencias a la familia",
+          "cont": '<span>En la Oficina de Trasladores de Moscú les asignan un objeto para el mismo destino que había solicitado Cuthbert: Petropávlovsk, en la bahía de Avacha. Al tocarlo, el tirón en el estómago los arrastra a través de todo el continente.</span>',
+        },
+
+        "mapa de cuthbert": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "viridian", }, "place": "",
+          "cont": '<span>Sobre el escritorio de Cuthbert hay un mapa muggle de la península de Kamchatka, desgastado de tanto doblarlo y desdoblarlo. Moscú aparece anotado en el margen, con una flecha que cruza todo el continente hasta Petropávlovsk, rodeado dos veces con tinta. Desde allí, una línea sigue la costa hacia el norte y se mete tierra adentro hasta un valle encerrado en rojo, en medio de la reserva de Kronotski. Al costado, con letra apretada, está escrita la profecía:<br><br><span class="book-clipping"><br><i>Al este del este, donde la tierra respira, el hielo se quiebra y el agua delira. En el valle que hierve y escupe hacia el cielo duerme la voz que rasgará el velo. Mas quien la persiga con sed de corona no llegará al agua que el fuego perdona: la ola que borra los nombres del mundo tomará el suyo primero, callado y profundo.</i><br><br></span></span>',
+        },
+
+        "anotaciones de cuthbert": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "habitación de cuthbert en el hotel",
+          "cont": '<span>Entre los papeles del escritorio hay varias hojas sueltas donde Cuthbert fue desarmando la profecía, verso por verso:<br><br><span class="book-clipping"><br><strong>«Al este del este»</strong> — No es Oriente. Es el extremo. Rusia, el último pedazo de tierra antes del Pacífico. Kamchatka.<br><br><strong>«Donde la tierra respira»</strong> — Volcanes. La península tiene más de cien. Fumarolas por todas partes.<br><br><strong>«El hielo se quiebra y el agua delira»</strong> — ¿Deshielo? Primavera. Tiene que ser ahora, en mayo, no después.<br><br><strong>«El valle que hierve y escupe hacia el cielo»</strong> — ¡Géiseres! Un informe muggle de 1941: una geóloga, T. Ustinova, encontró un valle lleno de géiseres sobre un río de la reserva de Kronotski. Ningún mago lo menciona. Nadie lo buscó antes.<br><br><strong>«La voz que rasgará el velo»</strong> — ???<br><br><strong>«Sed de corona»</strong> — No es por mí. No busco nada para mí.<br><br><strong>«Comienza en el cuarto menguante»</strong> — ¿Cuál? Calcular.</span></span>',
+        },
+
+        "lista de cuthbert": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "habitación de cuthbert en el hotel",
+          "cont": '<span>Una hoja arrancada de una libreta, con una lista numerada. Algunos puntos están tachados, otros tienen signos de pregunta:<br><br><span class="book-clipping"><br>1. <s>Pedir traslador a Moscú. Salir antes que la comitiva.</s><br>2. Petropávlovsk: buscar a alguien que conozca el camino al norte. Preguntar en el puerto, no en el Ministerio.<br>3. Yelizovo: provisiones. Ropa de abrigo de verdad.<br>4. Seguir la costa hasta el río. Después el río, siempre contra la corriente.<br>5. Cabaña de los guardabosques de la reserva: ¿sigue en pie?<br>6. <u>No usar la varita cerca del valle.</u> Lo menos posible. Que no quede rastro.<br>7. Buscar «el agua que el fuego perdona». ¿Un manantial frío entre aguas que hierven?<br>8. Escribirle a padre. (Después.)</span></span>',
+        },
+
+        "diario de sueños de cuthbert": {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "viridian", }, "place": "",
+          "cont": '<span>Una libreta pequeña de tapas negras, guardada en el cajón de la mesita de noche. Cada entrada tiene fecha y fue escrita con apuro, como recién despierto:<br><br><span class="book-clipping"><br><strong>2 de mayo.</strong> Otra vez el río. El agua corre al revés, hacia la montaña. Lo sigo. Hace tanto frío que no siento los pies.<br><br><strong>5 de mayo.</strong> Vapor. No veo el sol. Una voz dice: «cuando el cielo se borre, a la izquierda». Me desperté girando la cabeza hacia la ventana.<br><br><strong>8 de mayo.</strong> Una cabaña con la puerta abierta. Adentro, nada. Afuera, huellas que no son mías.<br><br><strong>10 de mayo.</strong> Soñé con una lápida. Estaba limpia, sin nombre. Sabía que era la mía.<br><br><strong>11 de mayo.</strong> La ola. No hay mar, pero está la ola. Viene desde el valle y se lleva las voces de todos. Después, silencio.<br><br><strong>12 de mayo.</strong> Si sigo, no vuelvo. Lo sé. Iré de todos modos.</span></span>',
+        },
+
+        "llegada a petropávlovsk": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "tomar el traslador a kamchatka",
+          "cont": '<span>El traslador los deja en un galpón de madera junto al puerto, que funciona como puesto del Ministerio de Magia ruso. Afuera, la bahía de Avacha se extiende gris bajo un cielo bajo y pesado. Aunque el verano ya debería haber llegado, el viento que baja de las montañas corta la piel. Del otro lado de la bahía, dos volcanes cubiertos de nieve dejan escapar hilos de humo, como si la tierra respirara despacio.</span>',
+        },
+
+        "registro del puesto de petropávlovsk": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "llegada a petropávlovsk",
+          "cont": '<span>El encargado del puesto, un mago de bigote canoso que habla un inglés correcto aunque con fuerte acento, les muestra el libro de registros:<br><br><span class="book-clipping"><br><div align="center"><strong>REGISTRO DE ARRIBOS — PUESTO DE PETROPÁVLOVSK</strong></div><br><strong>Fecha</strong>: 14/05/1953<br><strong>Traslador</strong>: TRS-MOS/1953-0417<br><strong>Viajero</strong>: Selwyn, Cuthbert (Gran Bretaña)<br><strong>Destino declarado</strong>: —<br><strong>Salida registrada</strong>: —<br><br></span><br>El encargado se encoge de hombros: el inglés firmó, salió por la puerta y no volvió a pasar por ahí.</span>',
+        },
+
+        "preguntar en el puerto": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "llegada a petropávlovsk",
+          "cont": '<span>Entre los botes amarrados y las redes tendidas a secar, un pescador viejo, de manos curtidas y gorro de piel, escucha la descripción de Cuthbert y asiente despacio. Habla un inglés tosco, aprendido en su juventud a bordo de balleneros extranjeros, pero suficiente para hacerse entender. Recuerda a un extranjero alto, bien vestido para la ciudad y muy mal vestido para todo lo demás, que preguntaba por alguien que conociera el camino al norte. Él mismo lo mandó a Yelizovo: «Allí está Semión. Si alguien llega al Kronotski en esta época, es con sus perros».</span>',
+        },
+
+        "viajar a yelizovo": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar en el puerto",
+          "cont": '<span>Yelizovo está a pocas horas de camino, tierra adentro, sobre el río Avacha. Es un pueblo pequeño de casas de madera, con humo saliendo de cada chimenea. Hay una sola tienda de provisiones y, en las afueras, un corral donde una docena de perros de trineo levantan la cabeza al verlos llegar.</span>',
+        },
+
+        "tienda de provisiones de yelizovo": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "viajar a yelizovo",
+          "cont": '<span>La dueña de la tienda no habla inglés, pero llama a su hija Anya, maestra en la escuela del pueblo, para que traduzca. Las dos recuerdan bien al extranjero: también fue Anya quien le sirvió de intérprete aquel día. Pagó sin regatear y se llevó todo lo que le recomendaron, menos el arma. A pedido del grupo, la dueña busca la anotación en su libreta:<br><br><span class="book-clipping"><br><strong>15 de mayo</strong> — Extranjero (inglés).<br>1 abrigo de piel de reno.<br>1 par de botas de fieltro.<br>2 pares de guantes.<br>Pescado seco, galleta, té, azúcar (para 6 días).<br>1 lámpara de queroseno.<br>Fósforos.<br><s>1 rifle</s> — No lo quiso.</span></span>',
+        },
+
+        "hablar con semión": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "viajar a yelizovo",
+          "cont": '<span>Semión es un hombre itelmeno de edad indefinida, con la cara curtida por el viento. No habla inglés, así que Anya los acompaña hasta el corral y traduce. Semión cuenta que el 15 de mayo llevó al extranjero en trineo hacia el norte, siguiendo la costa, hasta la desembocadura del río Shumnaya. Allí el inglés se bajó, cargó su mochila y le pidió que volviera a buscarlo en el mismo lugar el 17 de mayo, al mediodía.<br><br>Semión volvió. Esperó hasta que oscureció, y volvió a esperar al día siguiente. El extranjero nunca apareció.<br><br>Si el grupo lo pide, Semión acepta llevarlos hasta el mismo punto.</span>',
+        },
+
+        "llegada a la desembocadura del shumnaya": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "hablar con semión",
+          "cont": '<span>Después de un día entero de trineo por la costa, Semión detiene a los perros donde el río Shumnaya se abre paso hasta el Pacífico. La playa es de arena negra, volcánica, salpicada de restos de hielo que el mar arrastra y devuelve. El río baja ancho y turbio entre bancos de nieve sucia. Hacia el interior, los montes se pierden en una niebla baja.<br><br>Semión descarga sus cosas y promete volver en tres días, al mediodía, al mismo lugar. Lo dice mirando el río, no a ellos.</span>',
+        },
+
+        "buscar rastros en la orilla": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "llegada a la desembocadura del shumnaya",
+          "cont": '<span>Un mes de deshielo borró cualquier huella en la arena y en la nieve. Sin embargo, al resguardo de una roca grande, lejos del alcance de la marea, hay un círculo de piedras ennegrecidas con restos de ceniza. Alguien pasó la noche aquí.</span>',
+        },
+
+        "examinar los restos del campamento": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "buscar rastros en la orilla",
+          "cont": '<span>Entre las cenizas hay una lata de té vacía, aplastada, y el envoltorio de un paquete de galletas, iguales a los que vende la tienda de Yelizovo. Junto al círculo de piedras quedó un frasco pequeño de vidrio, vacío, con restos rojizos secos en el fondo.<br><br>Sobre la cara plana de la roca, rayado con la punta de algo metálico, hay un dibujo: una flecha que apunta río arriba y, debajo, las letras <i>C. S. — 15/V</i>.</span>',
+        },
+
+        "revisar la base de la roca": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "examinar los restos del campamento",
+          "cont": '<span>Al pie de la roca, bajo un montículo de piedras apiladas con cuidado, hay un pequeño depósito envuelto en tela encerada. Contiene la mitad de las provisiones que figuraban en la libreta de la tienda: pescado seco, galletas, té y azúcar, además de una caja de fósforos. Todo está intacto. Encima hay una hoja doblada con la letra de Cuthbert:<br><br><span class="book-clipping"><br><i>Para el regreso. 17/V</i><br><br></span><br>Nadie volvió a buscarlo.</span>',
+        },
+
+        "remontar el shumnaya": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "revisar la base de la roca",
+          "cont": '<span>No queda otro camino que el de la flecha: río arriba, contra la corriente, tal como Cuthbert lo había escrito en su lista. La orilla se angosta pronto entre laderas cubiertas de abedules torcidos por el viento, y el sonido del mar queda atrás.</span>',
+        },
       },
 
       "actions": {
-        "hechizo": {
-          "leve": '<span>COMPLETAR</span>',
-          "moderado": '<span>COMPLETAR</span>',
-          "exitoso": '<span>COMPLETAR</span>',
-          "critico": '<span>COMPLETAR</span>',
+        "revelio": {
+          "leve": 'No es suficiente para revelar información.',
+          "moderado": 'No hay nada oculto en la zona. Ningún objeto ni marca disimulada con magia.',
+          "exitoso": 'No hay nada oculto en la zona. Quien pasó por aquí no escondió nada; simplemente no dejó nada.',
+          "critico": 'No hay nada oculto en la zona. La ausencia es tan completa que parece deliberada.',
+        },
+
+        "specialis revelio": {
+          "leve": 'No es suficiente para revelar información.',
+          "moderado": 'No hay encantamientos ni efectos mágicos presentes.',
+          "exitoso": 'No hay encantamientos ni efectos mágicos presentes. Nadie usó magia aquí en mucho tiempo.',
+          "critico": 'No hay encantamientos ni efectos mágicos presentes. Si se lanza en la península, se percibe además un leve zumbido que viene de la tierra misma, cálido e incesante. No es un hechizo: es el lugar.',
+        },
+
+        "aparecium": {
+          "leve": 'No es suficiente para revelar información.',
+          "moderado": 'No aparece nada. No hay tinta invisible ni mensajes ocultos.',
+          "exitoso": 'No aparece nada. Todo lo que Cuthbert quiso decir, lo escribió a la vista.',
+          "critico": 'No aparece nada. Todo lo que Cuthbert quiso decir, lo escribió a la vista.',
+        },
+
+        "homenum revelio": {
+          "leve": 'No es suficiente para revelar información.',
+          "moderado": 'No hay ninguna presencia humana oculta en el radio del hechizo.',
+          "exitoso": 'No hay ninguna presencia humana oculta en el radio del hechizo. Nadie los sigue.',
+          "critico": 'No hay ninguna presencia humana oculta en el radio del hechizo. En terreno abierto, por un instante, algo parece responder en el límite del alcance, pero se apaga antes de poder definirse.',
+        },
+
+        "astrae navigare": {
+          "leve": 'No es suficiente para revelar información.',
+          "moderado": 'La varita vibra hacia el punto cardinal indicado, aunque con poca firmeza.',
+          "exitoso": 'La varita vibra con firmeza hacia el punto cardinal indicado. Si se pide el norte, la dirección coincide con la línea trazada en el mapa de Cuthbert.',
+          "critico": 'La varita vibra con firmeza hacia el punto cardinal indicado. Si se pide el norte, la dirección coincide con la línea trazada en el mapa de Cuthbert, y a lo lejos se adivina una columna de vapor sobre el horizonte.',
+        },
+
+        "tempus revela": {
+          "leve": 'No es suficiente para revelar información.',
+          "moderado": 'El rastro tiene alrededor de un mes.',
+          "exitoso": 'El rastro es de mediados de mayo, con un margen de pocos días.',
+          "critico": 'El rastro es del 16 o 17 de mayo. Hay una breve visión: una figura sola, encorvada contra el viento, que no mira hacia atrás.',
+        },
+
+        "sanguis origo": {
+          "leve": 'No es suficiente para revelar información.',
+          "moderado": 'Si el lanzador comparte sangre con Cuthbert Selwyn, percibe un vínculo débil y difuso, sin dirección clara.',
+          "exitoso": 'Si el lanzador comparte sangre con Cuthbert Selwyn, percibe un vínculo hacia el norte. Es débil, pero está ahí.',
+          "critico": 'Si el lanzador comparte sangre con Cuthbert Selwyn, percibe un vínculo claro hacia el norte. Cuthbert sigue con vida, o lo estaba hace muy poco.',
+        },
+
+        "anima vincula": {
+          "leve": 'El frío corta las palabras antes de que lleguen a los demás. [ANULADO] No se aplica ningún bonificador.',
+          "moderado": 'El intento de unir al grupo se pierde entre el viento helado y el castañeteo de dientes. [ANULADO] No se aplica ningún bonificador.',
+          "exitoso": 'Por un instante el grupo se mira con determinación, pero el frío pesa más que cualquier vínculo. [ANULADO] No se aplica ningún bonificador.',
+          "critico": 'Las palabras logran encender algo en los demás, pero el frío lo apaga casi de inmediato. [ANULADO] No se aplica ningún bonificador.',
+        },
+
+        "anticipatio hostis": {
+          "leve": 'Con los dedos entumecidos, nadie logra reaccionar a tiempo. [ANULADO] No se aplica ningún bonificador.',
+          "moderado": 'La advertencia llega, pero los cuerpos rígidos por el frío responden tarde. [ANULADO] No se aplica ningún bonificador.',
+          "exitoso": 'La estrategia es clara, pero el frío vuelve lentos hasta los reflejos más entrenados. [ANULADO] No se aplica ningún bonificador.',
+          "critico": 'Todos entienden la orden al instante, pero el hielo en las articulaciones les impide adelantarse. [ANULADO] No se aplica ningún bonificador.',
+        },
+
+        "renovatio animi": {
+          "leve": 'El intento de levantar los ánimos se pierde en el viento. [ANULADO] No se recuperan PV ni se aplica ningún bonificador.',
+          "moderado": 'Por un momento el grupo respira hondo, pero el aire helado les quema los pulmones. [ANULADO] No se recuperan PV ni se aplica ningún bonificador.',
+          "exitoso": 'Las palabras alivian el espíritu, pero no el cuerpo entumecido. [ANULADO] No se recuperan PV ni se aplica ningún bonificador.',
+          "critico": 'El grupo encuentra fuerzas para sonreír, pero el frío se cobra cada gramo de energía recuperada. [ANULADO] No se recuperan PV ni se aplica ningún bonificador.',
+        },
+
+        "calor vitalis": {
+          "leve": 'Un calor tibio se extiende por el cuerpo, aunque el viento se lo lleva enseguida. Restaura +5PV.',
+          "moderado": 'El calor alcanza las manos y los pies entumecidos y el temblor cede durante un rato. Restaura +6PV.',
+          "exitoso": 'Un calor estable recorre el cuerpo y devuelve el color a la piel. Por unas horas, el frío deja de ser un problema. Restaura +7PV.',
+          "critico": 'Un calor profundo y reparador restablece la circulación hasta la punta de los dedos. El cuerpo recupera la energía que el frío le había ido quitando. Restaura +8PV.',
+        },
+
+        "incendio": {
+          "leve": 'La leña húmeda apenas chisporrotea y suelta un humo espeso que hace llorar los ojos. No llega a encender.',
+          "moderado": 'Una llama pequeña prende entre las ramas más secas. Hay que cuidarla para que el viento no la apague.',
+          "exitoso": 'El fuego prende con fuerza a pesar de la humedad. Alcanza para calentarse y secar la ropa.',
+          "critico": 'El fuego prende parejo y firme, y da un calor que dura toda la noche sin necesidad de avivarlo. Por primera vez desde que llegaron, nadie tiembla.',
         },
       },
     },
@@ -7217,21 +7611,176 @@ const MissionsModule = (function () {
       "dependency": [],
       "type": "misión", "closed": false, "fecha": "", "link": "", "tagged": ["original", "capitulo 3"],
 
-      "cards": [],
+      "cards": [
+        {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad mágica", "name": "invalid", }, "place": "revisar el recibidor",
+          "cont": '<span>La capa tiene una costura reciente, hecha a mano con hilo negro, en el forro interior del puño derecho. Dentro hay un bolsillo mínimo, vacío, del tipo que los aurores asignados a trabajos encubiertos utilizan para guardar mensajes sin que se noten. Mercury había dejado el Departamento, pero alguien le había enseñado a seguir llevando uno.</span>',
+        },
+        {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "merrythought", }, "place": "recorrer la sala",
+          "cont": '<span>La fotografía muestra a Saturn Merrythought, sonriendo, con la capa de auror al hombro. El vidrio está limpio, a diferencia de todo lo demás en la sala. El borde inferior del marco tiene la marca de un pulgar repetida muchas veces, como si Mercury lo sostuviera todas las noches. Pueden añadir qué recuerda de Saturn antes de su muerte y cómo era Mercury antes de que ella muriera.</span>',
+        },
+        {
+          "visible": { "attr": { "val": "min" }, "know": { "encantamientos": "10" }, "job": "invalid", "name": "invalid", }, "place": "el rincón de titan",
+          "cont": '<span>El encantamiento de provisión es de factura pulcra y consume una porción a la vez. Por lo que queda en el comedero, fue renovado hace unas tres semanas. La letra de la placa es firme y limpia: quien la escribió estaba sobrio. Un hombre que se preocupa tanto por lo que ocurrirá con su perro no se olvida de él fácilmente.</span>',
+        },
+        {
+          "visible": { "attr": { "val": "min" }, "know": { "curación": "10" }, "job": "invalid", "name": "invalid", }, "place": "examinar el cuerpo",
+          "cont": '<span>Los labios y las uñas azuladas indican que el corazón se detuvo por una depresión respiratoria grave, algo habitual en la mezcla de un sedante y alcohol. Sin embargo, falta lo que suele acompañar a una intoxicación de ese tipo: no hay restos de vómito, no hay arañazos de agonía en la madera ni en las manos, y la postura es demasiado ordenada. Mercury murió sentado, sin lucha, como si no hubiera llegado a darse cuenta.</span>',
+        },
+        {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad mágica", "name": "invalid", }, "place": "subir las mangas",
+          "cont": '<span>Quien haya leído los informes sobre los nigromantes encarcelados en Azkaban reconoce la marca al instante: es el mismo símbolo que llevaban Yusuf Lochlan y Vinnie Grayson en el antebrazo derecho, la «W» de garras del Wrexham Wolf, el sello de los lobos. Es una marca de pertenencia que no se obtiene por casualidad ni se imprime en alguien contra su voluntad sin que quede constancia.</span>',
+        },
+        {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "merrythought", }, "place": "la mesa de la cocina",
+          "cont": '<span>Mercury siempre fue zurdo. Su mano derecha rodea el vaso con una naturalidad extraña, y la varita está a su derecha. Quien lo conozca bien sabe que nunca habría bebido ni dejado su varita de ese lado.</span>',
+        },
+        {
+          "visible": { "attr": { "sab": "4" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "las botellas de la cocina",
+          "cont": '<span>A diferencia de las botellas de la sala, estas no tienen polvo en los hombros ni marcas de dedos pegajosos. Alguien las ha limpiado hace poco y las ha dispuesto con una simetría impropia de un hombre que lleva meses bebiendo solo.</span>',
+        },
+        {
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "10" }, "job": "invalid", "name": "invalid", }, "place": "la mesa de la cocina",
+          "cont": '<span>El frasco tiene casi la mitad vacía, cuando la receta indica una cucharadita por noche y la fecha de la etiqueta es reciente. En el cuello del vidrio queda un cerco verdoso, y bajo el olor del alcohol se percibe otro, rancio y terroso, que no pertenece a la poción para el sueño sin sueños. El corcho tiene una perforación diminuta, del grosor de una aguja: alguien añadió algo al frasco sin necesidad de abrirlo. El resto seco del vaso, en cambio, es solo whisky.</span>',
+        },
+      ],
 
       "searchs": {
-        "investigación": {
+        "llegar a la casa de mercury": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>COMPLETAR</span>',
-        }
+          "cont": '<span>La casa de Mercury Merrythought se alza en una de las calles laterales del Callejón Diagon: un edificio angosto de ladrillo oscuro, encajado entre una tienda de calderos y un depósito sin rótulo. Las persianas de las tres plantas están bajadas y el buzón de la puerta rebosa de correspondencia. No queda más opción que presentarse en su puerta.</span>',
+        },
+        "escuchar desde la puerta": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "llegar a la casa de mercury",
+          "cont": '<span>Antes de que nadie llame, desde el interior llegan los ladridos de Titan, el crup de Mercury. No es el ladrido de aviso de un perro guardián: es agudo, seguido y casi desesperado, acompañado de arañazos contra la madera a la altura de las rodillas. Por la rendija inferior se alcanza a ver la cola bifurcada del crup, que no deja de agitarse. Nadie responde a los golpes ni a las voces de los hermanos.</span>',
+        },
+        "revisar el buzón": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "llegar a la casa de mercury",
+          "cont": '<span>El buzón guarda facturas, circulares del Callejón y varias cartas de los propios hermanos, todas sin abrir. La más antigua tiene el sello postal de hace casi un mes. Mercury dejó de recoger el correo mucho antes de que dejara de responderlo.</span>',
+        },
+        "examinar la cerradura": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "llegar a la casa de mercury",
+          "cont": '<span>La puerta es de roble oscuro, con una placa de latón que dice «M. Merrythought». No tiene llave visible: la cerradura está sellada con un fermaportus y no cederá a las manos.</span>',
+        },
+        "cruzar la puerta": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "alohomora",
+          "cont": '<span>Titan sale disparado entre las piernas de los hermanos, corre hasta la entrada de la cocina y se queda allí, gimiendo, con la mirada fija hacia el interior.<br><br>Lo primero que se nota al entrar es el silencio. No es el de una casa vacía, sino uno denso, que parece apretarse contra los oídos: no hay reloj que marque las horas, ni crujido de tablas, ni agua corriendo. Todos los relojes de la planta baja están parados. El aire huele a alcohol viejo, dulzón y agrio a la vez, el de meses de bebida derramada sobre la madera. Hay botellas vacías en los escalones, sobre las repisas y bajo los muebles, tantas que ya nadie las cuenta.</span>',
+        },
+        "revisar el recibidor": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "cruzar la puerta",
+          "cont": '<span>En el perchero cuelga una capa de auror doblada con esmero, a diferencia del resto de la casa. Falta la insignia del Departamento. Junto al paraguas hay un bastón de madera negra con la empuñadura desgastada por un uso diario. Sobre la mesita de la entrada hay un platillo con unas pocas monedas y una pila de sobres sin abrir.</span>',
+        },
+        "recorrer la sala": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "cruzar la puerta",
+          "cont": '<span>La sala es un campo de botellas: sobre la alfombra, en la repisa de la chimenea, entre los libros. Casi todas tienen una capa de polvo en los hombros, señal de que llevan meses allí. El sofá conserva una manta arrugada y un hueco en los cojines, el lugar donde Mercury pasaba las noches. La chimenea está fría, con un montón de ceniza en el hogar. Sobre la repisa, entre dos botellas, hay una fotografía enmarcada.</span>',
+        },
+        "los restos de la chimenea": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "recorrer la sala",
+          "cont": '<span>Entre la ceniza fría sobreviven algunas hojas medio quemadas, con los bordes carbonizados y la tinta casi borrada. Al tocarlas se deshacen en copos negros, así que será imposible leerlas sin ayuda de algún encantamiento que repare el papel.</span>',
+        },
+        "el rincón de titan": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "cruzar la puerta",
+          "cont": '<span>Junto a la entrada de la cocina hay una cesta grande, forrada de mantas, y a su lado un comedero y un bebedero de latón grabados con runas finas. De cada uno cuelga una placa de cobre. La del comedero dice: «Titan. Provisión para seis semanas. No olvidar. M.». El comedero se rellena solo con cada porción que el crup toma, y el bebedero renueva el agua del mismo modo. Alguien que temía olvidarse de su propio perro lo dejó preparado. Todavía quedan algunas porciones.</span>',
+        },
+        "entrar a la cocina": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "cruzar la puerta",
+          "cont": '<span>La cocina está más fría que el resto de la casa: la despensa tiene un encantamiento de conservación que se desborda hacia la habitación. En medio, Mercury Merrythought está sentado a la mesa, desplomado hacia delante, con la cabeza sobre los brazos. Una de sus manos rodea un vaso. No se mueve. Titan avanza despacio, apoya el hocico en la pierna de su dueño y se tumba a sus pies.<br><br>Sobre la mesa hay una botella de whisky de fuego casi vacía, un frasco pequeño destapado y una varita. No hay señales de lucha. A simple vista, es la escena de un hombre que bebió demasiado y no despertó.</span>',
+        },
+        "examinar el cuerpo": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "entrar a la cocina",
+          "cont": '<span>Mercury lleva la ropa de varios días, sin heridas visibles, sin sangre y sin rastros de forcejeo. Los labios y las uñas tienen un tono azulado. La rigidez ya ha pasado, pero el frío de la cocina ha mantenido el cuerpo en mejor estado del que cabría esperar: lleva muerto, como mínimo, una semana. El cabello se ha encanecido más de lo que sus hermanos recuerdan y la piel de las manos está marcada por las secuelas de lesiones antiguas.</span>',
+        },
+        "subir las mangas": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "examinar el cuerpo",
+          "cont": '<span>Al subir la manga de la camisa, en el antebrazo derecho aparece una quemadura gruesa y elevada, aún rosada en los bordes: una «W» alargada cuyas puntas, afiladas como garras, parecen haber sido marcadas a fuego. Es una cicatriz de pocos meses.</span>',
+        },
+        "la mesa de la cocina": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "entrar a la cocina",
+          "cont": '<span>Junto al vaso, de cuyo fondo se ha secado un resto ambarino, hay un frasco con la etiqueta de San Mungo: «Poción para el sueño sin sueños. Mercury Merrythought. Una cucharadita al acostarse. No mezclar con alcohol». El corcho está en la mesa, a un lado. La fecha de la etiqueta es del 14/03/1953.</span>',
+        },
+        "las botellas de la cocina": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "entrar a la cocina",
+          "cont": '<span>Alrededor de la mesa hay una docena de botellas vacías, colocadas en dos hileras contra la pared, con las etiquetas hacia fuera. Contrastan con las de la sala, tiradas sin orden.</span>',
+        },
+        "la varita de mercury": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "entrar a la cocina",
+          "cont": '<span>La varita descansa sobre la mesa, a medio palmo de los dedos de Mercury, como si la hubiera dejado allí sin intención de volver a usarla. No hay hollín ni rastro visible de un hechizo reciente.</span>',
+        },
+        "subir al estudio": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "cruzar la puerta",
+          "cont": '<span>El estudio está en la primera planta y es la única habitación ordenada de la casa. Las estanterías guardan tratados de espiritismo, nigromancia y comunicación con los muertos, con marcadores de cuero en casi todos. El escritorio tiene un tintero seco, una lámpara apagada y varios pergaminos en blanco, apilados con cuidado. En el cajón superior hay una llave pequeña de bronce con una etiqueta: «Sótano».</span>',
+        },
+        "los pergaminos en blanco": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "subir al estudio",
+          "cont": '<span>Los pergaminos están en blanco, pero no del todo: a contraluz se aprecian surcos suaves, como los que deja una pluma al escribir con una tinta que ya no se ve. Algo se escribió en ellos con mucho cuidado para que no pudiera leerse a simple vista.</span>',
+        },
+        "bajar al sótano": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "subir al estudio",
+          "cont": '<span>La escalera del sótano es estrecha y fría. Abajo, sobre el suelo de piedra, hay un círculo trazado con sal y ceniza, con nueve velas consumidas hasta el cabo. Dentro del círculo hay un taburete bajo y, contra el muro del fondo, un espejo alto cubierto con una tela negra. Sobre una mesa lateral reposa un gramófono con un disco de jazz detenido a mitad de una pista, junto a un cuaderno de tapas oscuras.</span>',
+        },
+        "el cuaderno de sesiones": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "bajar al sótano",
+          "cont": '<span>El cuaderno está lleno de anotaciones fechadas, escritas con una letra cada vez más apretada. Algunos fragmentos pueden leerse:<br><br><span class="book-clipping"><br><div align="center"><strong>Cuaderno de sesiones</strong></div><br><strong>Sesión 1 (04/09/1952)</strong>: Nada. Solo frío. No debí esperar tanto para intentarlo.<br><br><strong>Sesión 9 (19/09/1952)</strong>: El cristal respondió. Una silueta sentada. Se oye jazz muy bajo, como si viniera del otro lado de una pared. No habla.<br><br><strong>Sesión 23 (02/12/1952)</strong>: Repite siempre la misma frase: «Creí que llegarías tarde». Le pregunté a quién se la dice. No responde. No es para mí.<br><br><strong>Sesión 41 (14/04/1953)</strong>: Los lobos me han dado una marca y una fecha. Se lo conté. Por primera vez la frase cambió. [...]<br><br><em>Las páginas siguientes han sido arrancadas. En el borde de la costura quedan unos trozos de papel.</em><br></span></span>',
+        },
+        "descubrir el espejo": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "bajar al sótano",
+          "cont": '<span>Al retirar la tela, el espejo muestra el sótano tal como es, salvo por un detalle: en el reflejo hay un sillón de respaldo alto que no existe en la habitación. En él se distingue una silueta pálida, sentada, con la cabeza inclinada como quien escucha música. No mira a los presentes. Cuando alguien se acerca al cristal, la figura se desdibuja y vuelve a aparecer en cuanto se retrocede. Desde el vidrio llega, muy bajo, el rastro de un jazz que nadie está tocando.</span>',
+        },
+        "el marco del espejo": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "descubrir el espejo",
+          "cont": '<span>El marco es de madera oscura, tallado con runas y cifras en espiral. En el centro del travesaño superior hay un hueco redondo, forrado de terciopelo, del tamaño justo de un reloj de bolsillo. Está vacío. Alrededor hay marcas de arañazos recientes, como si algo hubiera sido arrancado de allí con prisa. El marco está tibio al tacto.</span>',
+        },
       },
 
       "actions": {
-        "hechizo": {
-          "leve": '<span>COMPLETAR</span>',
-          "moderado": '<span>COMPLETAR</span>',
-          "exitoso": '<span>COMPLETAR</span>',
-          "critico": '<span>COMPLETAR</span>',
+        "alohomora": {
+          "leve": '<span>La cerradura emite un chasquido apagado, pero la puerta sigue sellada. Al otro lado, los ladridos de Titan se vuelven más agudos.</span>',
+          "moderado": '<span>El fermaportus cede con retraso y la puerta se entreabre lo justo para que Titan asome el hocico, antes de que los hermanos terminen de empujarla.<adding search="alohomora" class="check-cards"></adding></span>',
+          "exitoso": '<span>La cerradura se libera de inmediato y la puerta se abre sin resistencia.<adding search="alohomora" class="check-cards"></adding></span>',
+          "critico": '<span>La puerta se abre sin un ruido y sin dejar rastro de que el fermaportus haya sido forzado. Titan, al verla ceder, deja de ladrar y espera a que alguien entre primero.<adding search="alohomora" class="check-cards"></adding></span>',
+        },
+        "morbus revela": {
+          "leve": '<span>Detecta una zona general de afectación en el pecho. Nada más.</span>',
+          "moderado": '<span>Señala los pulmones y el corazón: ambos se detuvieron por una depresión respiratoria grave. El hígado muestra un daño antiguo y profundo, propio de un año de bebida intensa. Hasta aquí, todo es compatible con un sedante mezclado con alcohol.</span>',
+          "exitoso": '<span>Revela lo anterior y algo que no cuadra: en la sangre hay muy poco alcohol para la cantidad de botellas que rodean a Mercury. En cambio, el sedante está concentrado en una dosis única y muy alta, ingerida de una sola vez. Bebió mucho menos de lo que la escena sugiere, y el alcohol por sí solo no explica la muerte.</span>',
+          "critico": '<span>Revela lo anterior. Además, la sangre conserva un rastro tenue de magia sedante ajena a Mercury, un encantamiento de calma lanzado sobre él poco antes de morir. Su cuerpo no se resistió porque no pudo. Quien estuvo con él en la cocina lo vio morir.</span>',
+        },
+        "revelio potionis": {
+          "leve": '<span>Detecta una poción para dormir mezclada con alcohol. No se aprecia nada más.</span>',
+          "moderado": '<span>Si se lanza sobre el frasco o el vaso, identifica la poción para el sueño sin sueños y que su dosis es alta. También hay un segundo componente que no se logra identificar.</span>',
+          "exitoso": '<span>Si se lanza sobre el frasco o el vaso, el segundo componente es esencia de beleño negro, un depresor del sistema nervioso que no figura en la receta de San Mungo. Por sí sola, esa esencia no mataría a nadie. Combinada con el alcohol y el sedante, lo hace sin remedio. El vaso contiene alcohol puro; el beleño está únicamente en el frasco.</span>',
+          "critico": '<span>Si se lanza sobre el frasco, revela lo anterior y que la esencia fue añadida con pulso de pocionista, en una proporción exacta para que solo resultara letal junto con el alcohol. Quien la preparó conocía los hábitos de Mercury y quería que su muerte pareciera un accidente.</span>',
+        },
+        "specialis revelio": {
+          "leve": '<span>No revela nada de forma clara.</span>',
+          "moderado": '<span>Detecta presencia mágica reciente, sin detalles. Si se lanza sobre las botellas de la cocina, es mucho más intensa que en las de la sala. Si se lanza sobre el espejo del sótano, se aprecian dos capas de magia superpuestas.</span>',
+          "exitoso": '<span>Si se lanza sobre las botellas de la cocina, revela un hechizo de limpieza lanzado hace menos de dos semanas sobre todas ellas. Si se lanza sobre el espejo, revela que el encantamiento es una variante invertida de la que esconde objetos dentro de un espejo: no oculta algo, lo retiene. Lo retenido no es un objeto ni un cuerpo, sino un eco, apoyado en el hueco vacío del marco.</span>',
+          "critico": '<span>Si se lanza sobre las botellas de la cocina, revela lo anterior y que la misma firma mágica del hechizo de limpieza está en el fermaportus de la puerta de entrada: quien limpió las botellas selló la casa. Si se lanza sobre el espejo, revela lo anterior y que el hueco del marco hacía de ancla; sin ella, el eco se debilita día a día y, a juzgar por el estado de la magia, no resistirá más que unas pocas semanas.</span>',
+        },
+        "prior incantato": {
+          "leve": '<span>Se distingue apenas una silueta borrosa del último hechizo lanzado con la varita.</span>',
+          "moderado": '<span>Si se lanza sobre la varita de Mercury, revela un hechizo sencillo, de agua, sin nada de combate ni de cierre.</span>',
+          "exitoso": '<span>Si se lanza sobre la varita de Mercury, el último hechizo fue un <i>aguamenti</i>, lanzado pocos días antes de su muerte, probablemente para llenar el bebedero de Titan. Mercury no selló la puerta de su casa: el fermaportus lo lanzó otra persona.</span>',
+          "critico": '<span>Si se lanza sobre la varita de Mercury, revela, en orden inverso: un <i>aguamenti</i>, un <i>lumos</i> lanzado en el sótano y, mucho antes, el encantamiento de provisión del rincón de Titan. Ninguno es un hechizo de cierre. En los últimos días, Mercury no lanzó nada que pudiera defenderlo.</span>',
+        },
+        "reparo": {
+          "leve": '<span>Las hojas se recomponen apenas y se deshacen de nuevo. No se recupera nada legible.</span>',
+          "moderado": '<span>Las hojas recuperan su forma, pero casi todo el texto está chamuscado. Solo se lee:<br><span class="book-clipping"><br>«[...] un grupo en el norte que se marca el brazo con un lobo [...] Ninguno de tus hermanos debe saberlo [...]»<br></span></span>',
+          "exitoso": '<span>Las hojas se reparan y es posible leer buena parte de una carta:<br><br><span class="book-clipping"><br><div align="center"><strong>Carta sin sobre</strong></div><br>Mercury:<br><br>El informe médico dice que no puedes volver a las filas, y el informe lo firmé yo. Sé lo que piensas de eso y tienes derecho. Pero léelo bien: no dice que dejes de ser auror, dice que ya no pareces uno. [...]<br><br>Hay un grupo en el norte que se marca el brazo con un lobo. Nigromantes. [...] Nadie sospechará de un auror inválido que bebe para olvidar. Por eso tiene que ser alguien como tú. [...]<br><br>Edwin<br>02/03/1952<br></span></span>',
+          "critico": '<span>Las hojas se reparan casi por completo y es posible leer la carta entera:<br><br><span class="book-clipping"><br><div align="center"><strong>Carta sin sobre</strong></div><br>Mercury:<br><br>El informe médico dice que no puedes volver a las filas, y el informe lo firmé yo. Sé lo que piensas de eso y tienes derecho. Pero léelo bien: no dice que dejes de ser auror, dice que ya no pareces uno.<br><br>Hay un grupo en el norte que se marca el brazo con un lobo. Nigromantes. Nadie en el Departamento sospechará de un auror inválido que bebe para olvidar, y ellos tampoco. Por eso tiene que ser alguien como tú, y por eso tiene que ser ahora.<br><br>Ninguno de tus hermanos debe saberlo. Si uno solo se entera, los lobos dejarán de verte como a un hombre roto y empezarán a verlos a ellos como un blanco. Destruye esto cuando lo hayas leído.<br><br>Edwin<br>02/03/1952<br><br><em>P. D.: No tengo derecho a pedírtelo. Te lo pido de todos modos.</em><br></span></span>',
+        },
+        "aparecium": {
+          "leve": '<span>El mensaje aparece borroso e incompleto: manchas de tinta que no llegan a formar palabras.</span>',
+          "moderado": '<span>Si se lanza sobre los pergaminos del escritorio, aparece parte de un borrador escrito con rabia:<br><span class="book-clipping"><br>«Edwin: me sacaron del Departamento con una nota al pie y la firma es tuya. [...] No me pidas que lo entienda. No me pidas [...]»<br></span></span>',
+          "exitoso": '<span>Si se lanza sobre los pergaminos del escritorio, aparecen dos borradores de Mercury:<br><br><span class="book-clipping"><br><div align="center"><strong>Borrador sin enviar</strong></div><br>Edwin:<br><br>Me sacaron del Departamento con una nota al pie y la firma es tuya. Saturn está muerta por mí, y tú me quitas lo único que me quedaba. No me pidas que lo entienda. No me pidas que te lo agradezca. No sé si debo llamarte padre o jefe, y tampoco sé cuál de los dos me mintió.<br><br>M.<br>05/03/1952<br><br><div align="center"><strong>Borrador sin enviar</strong></div><br>Acepto. No lo hago por ti ni por el Departamento. Lo hago porque me quedan dos cosas, la casa y el apellido, y prefiero gastar el apellido en algo que valga la pena. Y no te perdono.<br><br>M.<br>20/03/1952<br></span></span>',
+          "critico": '<span>Si se lanza sobre los pergaminos del escritorio, aparecen los dos borradores de Mercury:<br><br><span class="book-clipping"><br><div align="center"><strong>Borrador sin enviar</strong></div><br>Edwin:<br><br>Me sacaron del Departamento con una nota al pie y la firma es tuya. Saturn está muerta por mí, y tú me quitas lo único que me quedaba. No me pidas que lo entienda. No me pidas que te lo agradezca. No sé si debo llamarte padre o jefe, y tampoco sé cuál de los dos me mintió.<br><br>M.<br>05/03/1952<br><br><div align="center"><strong>Borrador sin enviar</strong></div><br>Acepto. No lo hago por ti ni por el Departamento. Lo hago porque me quedan dos cosas, la casa y el apellido, y prefiero gastar el apellido en algo que valga la pena. Y no te perdono.<br><br>M.<br>20/03/1952<br></span><br>Al reverso de la última hoja, con la misma tinta y una letra mucho más temblorosa, hay una tercera anotación:<br><br><span class="book-clipping"><br>«Edwin no puede estar muerto así, sin más. Si él no puede descansar, que no lo haga solo. Voy a traerte de vuelta, aunque tenga que dejarte en un cristal.»<br>M.<br>03/09/1952<br></span></span>',
+        },
+        "cordis instinctus": {
+          "leve": '<span>Percibe una emoción vaga en Titan, sin contexto claro: inquietud.</span>',
+          "moderado": '<span>La emoción dominante en Titan es una tristeza profunda mezclada con miedo, dirigida hacia la mesa de la cocina.</span>',
+          "exitoso": '<span>Titan siente dolor por su dueño, pero también un miedo intermitente a la puerta de entrada, como si el sonido que la hubiera sellado todavía lo hiciera temblar. Hay, además, un olor que reconoce y no le es hostil: alguien que había estado en la casa más de una vez.</span>',
+          "critico": '<span>Titan comparte un recuerdo emocional reciente: una figura alta y silenciosa a la que no ladró, porque Mercury le dijo «quieto» y le acarició el lomo. El crup recuerda el olor a tinta y a ceniza de esa persona, y que, tras su marcha, Mercury ya no se movió.</span>',
         },
       },
     },
