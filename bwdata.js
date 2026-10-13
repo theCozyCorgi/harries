@@ -7339,7 +7339,7 @@ const MissionsModule = (function () {
       "users": ["c/u1", "/u130", "/u150", "/u159", "/u134", "/u198"],
       "informed": [],
       "dependency": [],
-      "type": "misión", "closed": false, "fecha": "", "link": "", "tagged": ["original", "wave", "capitulo 0"],
+      "type": "misión", "closed": false, "fecha": "", "link": "https://blackwave.foroactivo.com/t1507-mision-a-trail-gone-cold", "tagged": ["original", "wave", "capitulo 0"],
 
       "cards": [
         {
@@ -7609,7 +7609,7 @@ const MissionsModule = (function () {
       "users": ["c/u119", "/u130", "/u150", "/u156"],
       "informed": [],
       "dependency": [],
-      "type": "misión", "closed": false, "fecha": "", "link": "", "tagged": ["original", "capitulo 3"],
+      "type": "misión", "closed": false, "fecha": "", "link": "https://blackwave.foroactivo.com/t1508-mision-silence-behind-the-door", "tagged": ["original", "capitulo 3"],
 
       "cards": [
         {
