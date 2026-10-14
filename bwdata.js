@@ -4611,7 +4611,7 @@ const MissionsModule = (function () {
 
         {
           "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "dragonólogo", "name": "invalid", }, "place": "la herida cerrada",
-          "cont": '<span>Un dragón con la herida cerrada debería, al menos, intentar ponerse de pie. Este no lo hace. Lo único que lo mantiene con vida es el calor que le dan desde afuera, y en cuanto se disipa vuelve a temblar. Si no descubren por qué está perdiendo su magia, ningún hechizo de curación alcanzará.</span>',
+          "cont": '<span>Un dragón con la herida cerrada debería, al menos, intentar ponerse de pie. Este no lo hace. Lo único que lo mantiene con vida es el calor que le dan desde afuera, y en cuanto se disipa vuelve a temblar. Lo que le pasa no se cura con hechizos en el campo. Necesita los cuidados de la reserva: fuego constante, vigilancia día y noche y dragonólogos que puedan estudiar por qué está perdiendo su magia. Hay que llevarlo a Flint.</span>',
         },
 
         {
@@ -4698,12 +4698,22 @@ const MissionsModule = (function () {
 
         "tratar al dragón": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "se deja acercar",
-          "cont": '<span>Proceso de curación.<br/><br/>Los hechizos de curación solo cuentan si el dragón ya permitió que se acerquen. Si no, se aparta con un coletazo y el hechizo se pierde. Hay dos contadores:<br/><br/><strong>Contador de herida</strong>: 0/80.<br/><strong>Contador de huesos</strong>: 0/3 costillas.<br/><br/>Cuando ambos contadores estén completos, podrán habilitar "la herida cerrada".Si avanzan sin completar los contadores, la administración intervendrá.</span>',
+          "cont": '<span>Proceso de curación.<br/><br/>Los hechizos de curación solo cuentan si el dragón ya permitió que se acerquen. Si no, se aparta con un coletazo y el hechizo se pierde. Hay dos contadores:<br/><br/><strong>Contador de herida</strong>: 0/80.<br/><strong>Contador de huesos</strong>: 0/3 costillas.<br/><br/>Cuando ambos contadores estén completos, podrán habilitar "la herida cerrada". Si avanzan sin completar los contadores, la administración intervendrá.</span>',
         },
 
         "la herida cerrada": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "tratar al dragón",
           "cont": '<span>Con la última sutura, el corte queda cerrado de punta a punta: una línea larga y rosada entre escamas opacas. El dragón ya no sangra y respira con más calma, sin hundir el costado. Aun así, no se levanta. Sigue echado junto al río y tiembla cada vez que se disipa el calor de los hechizos. A cada movimiento caen unas pocas escamas más sobre el pasto, y sus ojos están apagados. La herida está curada, pero el dragón no mejora.</span>',
+        },
+
+        "la señal": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "la herida cerrada",
+          "cont": '<span>Las chispas rojas atraviesan el domo y estallan sobre la colina. Al rato, varias siluetas aparecen por la ladera: magos del Departamento que custodiaban el perímetro, cargando cuerdas y lonas. Se detienen a una distancia prudente. El dragón levanta la cabeza al verlos y suelta un gruñido débil; tolera a quienes lo curaron, pero no a desconocidos. Para poder moverlo sin que se lastime ni lastime a nadie, primero habrá que contenerlo.</span>',
+        },
+
+        "listo para el traslado": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "la señal",
+          "cont": '<span>El dragón queda contenido junto a la orilla, quieto y respirando despacio. Ya pueden acercarse los demás para preparar el traslado.</span>',
         },
       },
 
@@ -4783,6 +4793,27 @@ const MissionsModule = (function () {
           "moderado": '<span>La piel entre las escamas se cierra en un tramo corto. El dragón resopla, más tranquilo. Suma +5 al contador de herida.</span>',
           "exitoso": '<span>Un tramo del corte se cierra sin dejar marca. El dragón gira el cuello y olfatea la zona curada, como si no terminara de creerlo. Suma +8 al contador de herida.</span>',
           "critico": '<span>La piel se regenera con firmeza a lo largo de un buen tramo del flanco, aunque las escamas de alrededor siguen opacas. Suma +10 al contador de herida.</span>',
+        },
+
+        "vermillious": {
+          "leve": '<span>Las chispas apenas iluminan el aire y se apagan antes de llegar al borde del domo. Nadie las ve.</span>',
+          "moderado": '<span>Las chispas suben, pero son débiles y se pierden contra el cielo. Desde afuera del domo es difícil distinguirlas.</span>',
+          "exitoso": '<span>Un chorro de chispas rojas sube por encima de la colina y estalla contra el domo, bien visible desde el perímetro. Si se lanza antes de cerrar la herida del dragón, el estallido lo sobresalta y gruñe hacia el cielo.<adding search="la señal" class="check-cards"></adding></span>',
+          "critico": '<span>Las chispas rojas estallan una y otra vez sobre la colina, intensas y duraderas, imposibles de ignorar desde cualquier punto del perímetro. Si se lanza antes de cerrar la herida del dragón, el estallido lo sobresalta y gruñe hacia el cielo.<adding search="la señal" class="check-cards"></adding></span>',
+        },
+
+        "laqueus vivens": {
+          "leve": '<span>La red se enreda mal. El dragón se sacude con un coletazo que alcanza al personaje que lanzó el hechizo, que pierde -3PV, y se libera sin sufrir daño.</span>',
+          "moderado": '<span>La red sujeta las patas delanteras del dragón, pero forcejea y el ala sana queda libre. Todavía puede soltarse.</span>',
+          "exitoso": '<span>La red se cierra sobre el dragón y lo inmoviliza por completo, sin causarle ningún daño. Gruñe una vez y luego se queda quieto.<adding search="listo para el traslado" class="check-cards"></adding></span>',
+          "critico": '<span>La red se ajusta a la perfección sobre las alas y la cola. El dragón ni siquiera forcejea: suelta un resoplido largo y apoya la cabeza en el pasto, sin el menor rastro de sufrimiento.<adding search="listo para el traslado" class="check-cards"></adding></span>',
+        },
+
+        "incarcifors": {
+          "leve": '<span>Los barrotes aparecen a medias y se deshacen antes de cerrarse. El dragón retrocede hacia el río, alterado, y muestra los dientes.</span>',
+          "moderado": '<span>Se forma una jaula alrededor del dragón, pero queda abierta de un lado. Golpea los barrotes con la cola y se queda pegado a la abertura.</span>',
+          "exitoso": '<span>Una jaula sólida se cierra alrededor del dragón. Golpea los barrotes una vez, sin fuerza, y termina echándose en el centro.<adding search="listo para el traslado" class="check-cards"></adding></span>',
+          "critico": '<span>La jaula se levanta firme y lo bastante amplia para que el dragón pueda echarse con las alas plegadas. Olfatea los barrotes, gira sobre sí mismo y se acomoda sin protestar.<adding search="listo para el traslado" class="check-cards"></adding></span>',
         },
       },
     },
