@@ -1711,7 +1711,36 @@ const MissionsModule = (function () {
       "dependency": ["gilded herb"],
       "type": "interrogatorio", "closed": false, "fecha": "1953-06-24", "link": "/t1489-interrogatorio-the-hallucination-mill", "tagged": ["morgana", "capitulo 0"],
 
-      "cards": [],
+      "cards": [
+        {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "beber o no beber",
+          "cont": '<span>Cada vaso de Whiskey de Fuego Dempsey suma 10 puntos al contador de bebidas del personaje que lo bebe. Cada vez que el personaje bebe agua, el contador baja 5 puntos.<br><br><strong>10 puntos</strong>: Un calor agradable sube por el pecho. Los colores del despacho se ven más vivos.<br><strong>20 puntos</strong>: El humo del habano parece tomar formas: llamas, caballos, rostros. -1 a todas las tiradas.<br><strong>30 puntos</strong>: Se escuchan voces dentro de las paredes y la luz de la ventana late como una brasa. -2 a todas las tiradas.<br><strong>40 puntos</strong>: El personaje deja de sentir dolor y no puede distinguir qué es real. -3 a todas las tiradas; no puede lanzar hechizos ofensivos.<br><strong>50 puntos</strong>: El personaje queda inconsciente y el juego termina.</span>',
+        },
+        {
+          "visible": { "attr": { "sab": "+3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "beber o no beber",
+          "cont": '<span>Donn bebe tanto como ellos, pero sus vasos se vacían más despacio y cada tanto los rellena con agua de una jarra que tiene a sus pies. No es la primera vez que juega a esto, y quiere ganar.</span>',
+        },
+        {
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "15" }, "job": "invalid", "name": "invalid", }, "place": "beber o no beber",
+          "cont": '<span>Detrás del ardor del whiskey queda un dulzor extraño, parecido a la miel, que adormece la lengua por unos segundos. No es parte de ninguna receta de whiskey conocida.</span>',
+        },
+        {
+          "visible": { "attr": { "val": "min" }, "know": { "curación": "10" }, "job": "invalid", "name": "invalid", }, "place": "beber o no beber",
+          "cont": '<span>Algunos hechizos que pueden ser útiles para reducir los efectos de la bebida son: "finite", "rennervate", "quieta" y "nervus flemere".</span>',
+        },
+        {
+          "visible": { "attr": { "val": "min" }, "know": { "legeremancia": "20" }, "job": "invalid", "name": "invalid", }, "place": "beber o no beber",
+          "cont": '<span>Con cada vaso, la mente de Donn se vuelve más fácil de leer. Entre sus pensamientos aparece una imagen que se repite: la cocina de una granja, una mujer de cabello oscuro sentada frente a él con los ojos rojos, y una conversación en voz baja sobre qué decir si alguien del Ministerio llegaba a preguntar.</span>',
+        },
+        {
+          "visible": { "attr": { "sab": "+3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ronda ganada: la relación con morgana",
+          "cont": '<span>Donn arrastra algunas palabras y ya no rellena sus vasos con agua. El whiskey le está aflojando la lengua más de lo que él mismo querría.</span>',
+        },
+        {
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "10" }, "job": "invalid", "name": "invalid", }, "place": "la muestra del sedante",
+          "cont": '<span>Al destapar el frasco, el aroma a miel resulta familiar. Es el mismo dulzor empalagoso que se registró en el informe de los laboratorios de San Mungo sobre las bebidas de Edwin Merrythought, Morgana Dempsey y Sirius Black, junto con el entumecimiento en los dedos de quienes las probaron. Si las tres víctimas bebieron este sedante, estaban dormidas o al menos sin sentir nada cuando las atacaron. Eso explicaría que Sirius apareciera inconsciente en su sillón.</span>',
+        },
+      ],
 
       "searchs": {
         "acceso al viejo molino": {
@@ -1766,12 +1795,78 @@ const MissionsModule = (function () {
           "cont": '<span>—<strong>Un cliente más</strong> —responde Donn, demasiado rápido—. <strong>Le vendemos a media Irlanda. Un pub que cambia de lugar cada noche, ¿qué quieren que les diga? Pagan en monedas de oro a tiempo. No pregunto a quién sirven.</strong><br><br>Su papada brilla de sudor, y no parece ser solo por el calor.</span>',
         },
         "beber o no beber": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "el whiskey de fuego",
-          "cont": '<span>Juego</span>',
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "el whiskey de fuego",
+          "cont": '<span>Donn llena dos vasos más y los empuja sobre el escritorio. Del mismo cajón donde guarda los habanos saca un mazo de cartas gastado y una moneda vieja.<br><br>—<strong>Ustedes quieren respuestas y yo hace semanas que no tengo con quién jugar. Hagamos esto como se hacía en la destilería de mi abuelo: sacan una carta y la suerte decide si la siguiente tiene que ser más alta o más baja. Si aciertan, les contesto lo que quieran. Si no, alguien bebe.</strong> —Sonríe y levanta su vaso—. <strong>Y no me miren así, que yo también bebo.</strong><br><br><span class="book-clipping"><br><div align="center"><strong>MÁS ALTO, MÁS BAJO</strong></div><br><strong>1.</strong> En cada ronda, uno de los personajes libera una carta del mazo.<br><strong>2.</strong> Después tira el dado Felix Felicis.<br><strong>3.</strong> Libera una segunda carta. Si el dado dio <strong>acierto</strong>, la segunda carta tiene que ser mayor que la primera. Si dio <strong>fallo</strong>, tiene que ser menor.<br><strong>4.</strong> Si se cumple, la ronda está ganada y Donn responde una pregunta.<br><strong>5.</strong> Si no se cumple, uno de los dos personajes debe beber un vaso de Whiskey de Fuego Dempsey. Cada vaso suma 10 puntos al contador de bebidas.<br><strong>6.</strong> Si las dos cartas tienen el mismo número, bebe Donn.<br><strong>7.</strong> El juego termina cuando los personajes se levantan de la mesa o cuando alguno llega a 50 puntos.<br></span></span>',
+        },
+        "ronda ganada: la relación con morgana": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "beber o no beber",
+          "cont": '<span>Donn mira las dos cartas y suelta una carcajada que ya suena más floja que al principio. Tiene las mejillas encendidas.<br><br>—<strong>Bien, bien. Les mentí. Lo de los cuarenta años sin hablarle… Uno protege a la familia, o a lo que queda de ella.</strong> —Hace girar el vaso entre los dedos—. <strong>Muchos años después del incendio, Morgana volvió a golpear mi puerta como si nada. Necesitaba saber de plantaciones, de tiempos de cosecha, de destilación, de cómo se separa lo que sirve de una planta de lo que mata. Y eso es lo único que yo sé hacer bien. Al principio venía una vez al año; después, cada mes. Nunca me pidió perdón por la destilería y yo nunca se lo pedí.</strong> —Se encoge de hombros—. <strong>Quería curar la licantropía. Eso decía.</strong></span>',
+        },
+        "ronda ganada: el endulzante": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ronda ganada: la relación con morgana",
+          "cont": '<span>—<strong>No encontró ninguna cura. Encontró otra cosa.</strong> —Donn baja la voz, aunque no hay nadie más en el despacho—. <strong>Un endulzante. Parecía un jarabe de miel, nada más. Una cucharada y la persona se queda dormida, profundamente dormida, y no siente nada: ni un corte, ni un hueso roto, ni la piel que se estira.</strong> —Se pasa el periódico por la frente—. <strong>Se lo daba a su hermana las noches de luna llena. Así pasaba la transformación sin enterarse y sin lastimar a nadie.</strong></span>',
+        },
+        "la muestra del sedante": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ronda ganada: el endulzante",
+          "cont": '<span>Donn se estira con esfuerzo hasta un armario y vuelve con un frasco pequeño de vidrio azul, tapado con cera. Dentro hay un líquido espeso y dorado. En la etiqueta, con la letra elegante de Morgana, se lee: <i>"M. — Una cucharada antes de la luna. No más."</i><br><br>—<strong>Es lo último que me quedó. Llévenselo. Prefiero que lo tenga el Ministerio a que lo encuentre alguien que no sepa lo que es.</strong></span>',
+        },
+        "ronda ganada: merlina": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ronda ganada: el endulzante",
+          "cont": '<span>Donn deja el vaso y los mira con atención por primera vez en toda la tarde.<br><br>—<strong>No se hagan los tontos. Todos los meses llevo rosas a esa tumba en honor a mi prima; era su costumbre y alguien tiene que seguir haciéndolo. Una de esas veces la encontré abierta. Y en marzo me llegó una carta.</strong> —Saca del bolsillo del chaleco un sobre arrugado, leído muchas veces—. <strong>Morgana le había dejado a Merlina mi dirección, por si algún día ella no volvía. En todos estos años, Merlina nunca la usó. Hasta que ustedes fueron a la granja. Me preguntaba qué había pasado con su hermana.</strong><br><br>Se queda en silencio un momento, con el sobre entre los dedos.<br><br>—<strong>Fui a verla. Tuve que contarle que Morgana había muerto. Desde entonces voy cada tanto; no nos llevamos bien y a los diez minutos ya me está echando, pero es familia.</strong> —Levanta la mirada—. <strong>Acordamos que, si el Ministerio venía a preguntar, yo no sabía nada de ella. Y miren cómo terminé.</strong></span>',
+        },
+        "ronda ganada: la investigación de morgana": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ronda ganada: la relación con morgana",
+          "cont": '<span>—<strong>Con los años dejó de hablar de la licantropía.</strong> —Donn frunce el ceño, intentando recordar—. <strong>Empezó a preguntarme por plantas que cerraran heridas, que regeneraran tejido. Quería devolver un cuerpo herido a como estaba antes, como si nunca le hubiera pasado nada. Probamos con todo: pociones, bálsamos, ungüentos, savias. Nada servía.</strong> —Bebe un trago largo—. <strong>Hasta que un día dejó de venir. Sin carta, sin nada. Pasaron meses sin saber de ella, y lo siguiente que supe fue que había muerto.</strong></span>',
+        },
+        "ronda ganada: la banshee del maroon steed": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "beber o no beber",
+          "cont": '<span>—<strong>¿Aino? ¿Aino Lehtinen, la cantante? Murió.</strong> —Donn tira la ceniza del habano—. <strong>Tuvo un quiebre el Halloween pasado, en medio de una canción. Y no fue solo ella: su voz arrastró a todo el bar. Los que estaban ahí cuentan que cada uno vio a un familiar, alguien que había perdido, y después a todos los alcanzó lo mismo: una ola negra que entraba por las paredes y se los llevaba.</strong> —Bebe un trago—. <strong>Ella se desplomó esa noche y no volvió a despertar. Cosas de banshees. Yo no creo en esas tonterías, pero hay quien dice que fue una premonición.</strong></span>',
         },
       },
 
       "actions": {
+        "finite": {
+          "leve": 'Reduce 5 puntos del contador de bebidas del personaje.',
+          "moderado": 'Reduce 10 puntos del contador de bebidas del personaje.',
+          "exitoso": 'Reduce 15 puntos del contador de bebidas del personaje.',
+          "critico": 'Reduce 20 puntos del contador de bebidas del personaje.',
+        },
+        "rennervate": {
+          "leve": 'Reduce 5 puntos del contador de bebidas del personaje.',
+          "moderado": 'Reduce 10 puntos del contador de bebidas del personaje.',
+          "exitoso": 'Reduce 15 puntos del contador de bebidas del personaje.',
+          "critico": 'Reduce 20 puntos del contador de bebidas del personaje. Si el personaje estaba inconsciente, despierta.',
+        },
+        "quieta": {
+          "leve": 'Reduce 5 puntos del contador de bebidas de todos los personajes.',
+          "moderado": 'Reduce 10 puntos del contador de bebidas de todos los personajes.',
+          "exitoso": 'Reduce 15 puntos del contador de bebidas de todos los personajes.',
+          "critico": 'Reduce 20 puntos del contador de bebidas de todos los personajes.',
+        },
+        "nervus flemere": {
+          "leve": 'Reduce 5 puntos del contador de bebidas de todos los personajes.',
+          "moderado": 'Reduce 10 puntos del contador de bebidas de todos los personajes.',
+          "exitoso": 'Reduce 15 puntos del contador de bebidas de todos los personajes.',
+          "critico": 'Reduce 20 puntos del contador de bebidas de todos los personajes.',
+        },
+        "aguamenti": {
+          "leve": 'Si se usa para llenar un vaso con agua y beberlo, reduce 5 puntos del contador de bebidas.',
+          "moderado": 'Si se usa para llenar un vaso con agua y beberlo, reduce 5 puntos del contador de bebidas.',
+          "exitoso": 'Si se usa para llenar un vaso con agua y beberlo, reduce 5 puntos del contador de bebidas.',
+          "critico": 'Si se usa para llenar un vaso con agua y beberlo, reduce 10 puntos del contador de bebidas.',
+        },
+        "revelio potionis": {
+          "leve": 'No es suficiente para revelar información.',
+          "moderado": 'Sobre el whiskey: contiene savia de Salvia Ignicor estabilizada. Sobre el frasco azul: es un sedante potente, no peligroso en dosis pequeñas.',
+          "exitoso": 'Sobre el whiskey: contiene savia de Salvia Ignicor estabilizada y una pequeña dosis de un endulzante sedante. Sobre el frasco azul: es un sedante a base de miel que provoca un sueño profundo y anula por completo la sensación de dolor.',
+          "critico": 'Sobre el whiskey: contiene savia de Salvia Ignicor estabilizada y una pequeña dosis del mismo endulzante del frasco azul; por eso quien lo bebe no siente el ardor ni el dolor. Sobre el frasco azul: es un sedante a base de miel que provoca un sueño profundo y anula por completo la sensación de dolor. Uno de sus componentes no está registrado en ningún herbario conocido.',
+        },
+        "legeremens": {
+          "leve": 'Donn está demasiado alerta. No es suficiente para revelar información.',
+          "moderado": 'Se percibe miedo y cansancio. Donn no le teme al Ministerio, le teme a lo que le pasó a Morgana.',
+          "exitoso": 'Aparece un recuerdo: Morgana sentada en ese mismo despacho, con un cuaderno lleno de notas, preguntando por plantas que regeneran tejido.',
+          "critico": 'Aparece un recuerdo: Morgana sentada en ese mismo despacho, con un cuaderno lleno de notas, preguntando por plantas que regeneran tejido. Antes de irse por última vez, le dice: «Si no vuelvo, Merlina te va a escribir. Respóndele».',
+        },
       },
     },
     // fin the hallucination mill
@@ -3973,7 +4068,7 @@ const MissionsModule = (function () {
       "users": ["/u8", "/u78", "/u55", "/u131"],
       "informed": [],
       "dependency": ["promise in crimson"],
-      "type": "misión", "closed": true, "fecha": "1952-11-30", "link": "/t664-mision-frozen-sunflowers", "tagged": ["morgana", "capitulo 2"],
+      "type": "misión", "closed": true, "fecha": "1952-11-30", "link": "/t664-mision-frozen-sunflowers", "tagged": ["morgana", "capitulo 0"],
 
       "cards": [
         {
@@ -4839,7 +4934,7 @@ const MissionsModule = (function () {
       "users": [],
       "informed": [],
       "dependency": ["heaven of the forgotten", "nothing but the truth"],
-      "type": "investigación", "closed": false, "fecha": "", "link": "", "tagged": ["wave", "capitulo 0"],
+      "type": "misión", "closed": false, "fecha": "", "link": "", "tagged": ["wave", "capitulo 0"],
 
       "cards": [],
       "searchs": {},
@@ -7680,6 +7775,42 @@ const MissionsModule = (function () {
           "visible": { "attr": { "sab": "5" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "remontar el shumnaya",
           "cont": '<span>Al tocar el agua del río se nota algo extraño: no está tan helada como debería. Entre los bancos de nieve, en algunos remansos, sube un vapor tenue. Río arriba, algo calienta el agua.</span>',
         },
+        {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "viridian", }, "place": "llegar a la cabaña de los guardabosques",
+          "cont": '<span>Una cabaña con la puerta abierta. Afuera, huellas que no son suyas. Es el sueño del 8 de mayo, palabra por palabra. Las huellas frescas frente a la entrada son las del grupo: Cuthbert soñó con ellos llegando hasta aquí.</span>',
+        },
+        {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad mágica", "name": "invalid", }, "place": "borde del valle de los géiseres",
+          "cont": '<span>Los magos golpeadores entrenan vuelos de persecución a baja altura y con poca visibilidad. Para Cuthbert, cruzar este valle solo y en escoba era difícil, pero posible. Para un grupo, cada vuelo de ida y vuelta multiplica el riesgo.</span>',
+        },
+        {
+          "visible": { "attr": { "sab": "5" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "borde del valle de los géiseres",
+          "cont": '<span>Con un poco de paciencia se nota que cada géiser tiene su propio ritmo: algunos estallan cada pocos minutos y otros parecen dormidos. El suelo más peligroso no está junto a los géiseres más grandes, sino donde la tierra cambia de color, del rojo al blanco.</span>',
+        },
+        {
+          "visible": { "attr": { "val": "min" }, "know": { "historia de la magia": "5" }, "job": "invalid", "name": "invalid", }, "place": "lago de escarcha",
+          "cont": '<span>Existen antiguos relatos sobre los llamados <strong>lagos de visión</strong>: aguas quietas, protegidas por círculos de piedras rúnicas, donde el velo entre lo que es y lo que será se adelgaza. Se cree que un vidente que entre en ellos puede ver más allá de lo que alcanza cualquier bola de cristal, pero que pocos regresan intactos. Las crónicas mencionan varios de estos lagos en distintas partes del mundo, y algunos en Gran Bretaña, aunque sus ubicaciones nunca se registraron con precisión.</span>',
+        },
+        {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "inefable", "name": "invalid", }, "place": "examinar las runas de la orilla",
+          "cont": '<span>En el Departamento de Misterios hay registros de círculos de piedra con esta misma combinación de runas: Laguz (agua, intuición), Isa (hielo, quietud), Perthro (destino, lo oculto) y Hagalaz (ruptura). Ninguno de los registros conocidos está fuera de las islas británicas. Este círculo es el primero que se encuentra en otra parte del mundo.</span>',
+        },
+        {
+          "visible": { "attr": { "val": "min" }, "know": { "adivinación": "10" }, "job": "invalid", "name": "invalid", }, "place": "lago de escarcha",
+          "cont": '<span>Los tratados de hidromancia, la rama de la adivinación que lee el porvenir en el agua, describen lugares como este. Según esos textos, un agua quieta y protegida por runas funciona como un espejo del destino, pero solo responde a quien tiene el don. Los mismos tratados advierten que quien se asoma sin él no ve nada, y que el agua no lo deja ir gratis: hay registros de magos encontrados inmóviles en la orilla, como si el agua se hubiera quedado con una parte de ellos.</span>',
+        },
+        {
+          "visible": { "attr": { "val": "min" }, "know": { "curación": "15" }, "job": "invalid", "name": "invalid", }, "place": "acercarse a la figura tendida",
+          "cont": '<span>Cuthbert está vivo. El corazón late una vez cada varios segundos, tan débil que apenas se percibe. No es una hipotermia común: el frío no lo está matando, lo está conservando. Calentarlo de golpe sería peligroso, y ningún hechizo de campo va a sacarlo de este estado. Necesita llegar a San Mungo cuanto antes.</span>',
+        },
+        {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad mágica", "name": "invalid", }, "place": "acercarse a la figura tendida",
+          "cont": '<span>La varita de Cuthbert sigue guardada en su funda, sin rastros de uso reciente. Cumplió su propia regla hasta el final: llegó sin magia. Lo que lo dejó en este estado no fue un hechizo.</span>',
+        },
+        {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "viridian", }, "place": "acercarse a la figura tendida",
+          "cont": '<span>Cuthbert tiene los labios entreabiertos, como si se hubiera quedado a mitad de una palabra. Le dejó a Viridian la familia a cargo y se fue a buscar la respuesta solo. La encontró.</span>',
+        },
       ],
 
       "searchs": {
@@ -7787,6 +7918,51 @@ const MissionsModule = (function () {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "revisar la base de la roca",
           "cont": '<span>No queda otro camino que el de la flecha: río arriba, contra la corriente, tal como Cuthbert lo había escrito en su lista. La orilla se angosta pronto entre laderas cubiertas de abedules torcidos por el viento, y el sonido del mar queda atrás.</span>',
         },
+
+        "llegar a la cabaña de los guardabosques": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "remontar el shumnaya",
+          "cont": '<span>Tras horas de marcha río arriba, entre los abedules aparece una cabaña de troncos ennegrecidos por la humedad, con el techo cubierto de nieve vieja. La puerta está abierta y golpea contra el marco con cada ráfaga de viento. Delante de la entrada, la nieve está marcada por varias huellas de botas.</span>',
+        },
+
+        "revisar la cabaña": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "llegar a la cabaña de los guardabosques",
+          "cont": '<span>Adentro hay una estufa de hierro fría, un catre sin colchón y un estante con frascos vacíos. Sobre la mesa, un libro de guardia de los guardabosques de la reserva, cubierto de polvo, cuyas anotaciones se interrumpen de golpe hace años.<br><br>En un rincón, apoyada contra la pared, está la mochila de Cuthbert. Contiene la lámpara de queroseno, el resto del pescado seco, el abrigo de piel de reno doblado y un estuche de cuero para escoba, vacío. Debajo de la lámpara hay una hoja doblada.<br><br>Una trampilla en el techo da a un altillo estrecho. Entre mantas apolilladas y trampas oxidadas hay dos escobas viejas, de fabricación rusa, con las ramas atadas con alambre. No son de Cuthbert. Alguien con magia también usó esta cabaña.</span>',
+        },
+
+        "nota de cuthbert en la cabaña": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "revisar la cabaña",
+          "cont": '<span><span class="book-clipping"><br><strong>16/V.</strong><br><br>Desde aquí, en escoba. Dejo todo lo que no vuela.<br>Sin varita hasta el valle.<br>Cuando el vapor tape el cielo, a la izquierda.<br><br>Vuelvo a buscar la mochila antes del 17.<br><br><i>C. S.</i></span></span>',
+        },
+
+        "salir hacia el valle": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "revisar la cabaña",
+          "cont": '<span>Desde la cabaña, un afluente del Shumnaya se desvía hacia el oeste, encajonado entre laderas cada vez más empinadas. El agua corre tibia y humea. El olor a azufre se vuelve más intenso con cada paso, hasta que el cañón se abre de golpe y el vapor tapa el cielo.</span>',
+        },
+
+        "borde del valle de los géiseres": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "salir hacia el valle",
+          "cont": '<span>A sus pies se extiende un valle que parece de otro mundo. Decenas de géiseres escupen columnas de agua hirviente hacia el cielo, cada uno a su propio ritmo, entre terrazas de roca roja, ocre y verde. El suelo humea, cruje y burbujea. Allí donde la costra es delgada, el barro hierve a la vista. Hacia el fondo del valle, donde el vapor se espesa, el paisaje se vuelve blanco: el vapor se congela en el aire y cae como escarcha.<br><br><strong>REGLAS DEL CRUCE</strong><br><br>— El grupo cuenta con las <strong>dos escobas</strong> encontradas en la cabaña.<br>— Hay un total de <strong>30 tramos</strong> desde el borde hasta el final del valle. Cada personaje lleva su propio contador de tramos.<br>— Se puede cruzar volando o a pie. Un pasajero avanza lo mismo que su piloto. Para buscar a otro pasajero, el piloto debe volar de regreso y descontar los tramos de su contador.<br>— Cada personaje lleva también un <strong>contador de vapor</strong>. Cada resultado que sume +1 implica una quemadura: el personaje pierde 30PV.<br>— <strong>Zona de escarcha</strong>: a partir del tramo 20, el vapor se congela al tocar la piel. Cada +1 al contador de vapor implica perder 50PV.<br>— <strong>Estado del personaje</strong>:<br>· Con 150PV o menos, pierde 1 acción por turno.<br>· Con 100PV o menos, no puede avanzar sin la asistencia de un compañero.<br>· Con 50PV o menos, queda inconsciente en el tramo donde cayó.<br>— Si un personaje que necesita asistencia no la recibe en 2 turnos, deberá ser trasladado a San Mungo, donde pasará 1 semana hasta recuperarse por completo. El personaje queda fuera del resto de la misión.<br>— Al completar los 30 tramos, cada personaje deberá avisar a la administración.</span>',
+        },
+
+        "lago de escarcha": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "intervencion1",
+          "cont": '<span>Al final del valle, rodeado por géiseres que hierven a pocos metros, hay un lago pequeño y perfectamente quieto. Está cubierto por una capa de escarcha tan fina que parece cristal, y no desprende vapor. Es el único lugar del valle donde el fuego de la tierra no llega: el agua que el fuego perdona. A su alrededor, a intervalos regulares, hay piedras verticales con runas talladas. En la orilla norte, una figura yace tendida sobre la escarcha.</span>',
+        },
+
+        "examinar las runas de la orilla": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "lago de escarcha",
+          "cont": '<span>Son nueve piedras dispuestas en círculo alrededor del lago, cada una más alta que una persona. Las runas están gastadas por el tiempo, pero todavía se distinguen cuatro que se repiten en todas las piedras: ᛚ, ᛁ, ᛈ y ᚺ. Las piedras están cubiertas de escarcha en la cara que da al lago y completamente secas en la cara que da al valle.</span>',
+        },
+
+        "acercarse a la figura tendida": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "lago de escarcha",
+          "cont": '<span>Es Cuthbert Selwyn. Yace boca arriba a un metro del agua, con los ojos abiertos y velados por una película blanca. La escarcha le cubre el pelo, las pestañas y la ropa como si fuera parte de él. Su piel tiene el color del hielo y no se mueve, pero su cuerpo no muestra ninguna señal de descomposición, a pesar de que pasó casi un mes.<br><br>A su lado, sobre la escarcha, está su escoba. En la mano derecha, con los dedos rígidos cerrados a su alrededor, sostiene un papel.</span>',
+        },
+
+        "profecía en la mano de cuthbert": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "acercarse a la figura tendida",
+          "cont": '<span>Hace falta abrirle los dedos uno por uno para sacar el papel. Está escrito con letra temblorosa, en tinta corrida por la humedad:<br><br><span class="book-clipping"><br><i>Sobre la isla de niebla y de piedra, la ola negra crece y nada la arredra; no ahoga los cuerpos, devora los nombres, y deja vacías las casas de los hombres. Donde el agua llora y nadie la consuela, quien vea o quien llore tendrá que ser vela: quien entre al lamento sabrá lo que viene, mas pagará el precio con todo lo que tiene.</i><br><br></span></span>',
+        },
       },
 
       "actions": {
@@ -7861,10 +8037,10 @@ const MissionsModule = (function () {
         },
 
         "calor vitalis": {
-          "leve": 'Un calor tibio se extiende por el cuerpo, aunque el viento se lo lleva enseguida. Restaura +5PV.',
-          "moderado": 'El calor alcanza las manos y los pies entumecidos y el temblor cede durante un rato. Restaura +6PV.',
-          "exitoso": 'Un calor estable recorre el cuerpo y devuelve el color a la piel. Por unas horas, el frío deja de ser un problema. Restaura +7PV.',
-          "critico": 'Un calor profundo y reparador restablece la circulación hasta la punta de los dedos. El cuerpo recupera la energía que el frío le había ido quitando. Restaura +8PV.',
+          "leve": 'Un calor tibio se extiende por el cuerpo, aunque el viento se lo lleva enseguida. Restaura +5PV. Si se lanza sobre Cuthbert, la escarcha no cede.',
+          "moderado": 'El calor alcanza las manos y los pies entumecidos y el temblor cede durante un rato. Restaura +6PV. En el valle, cuenta como asistencia para un compañero que la necesite. Si se lanza sobre Cuthbert, la escarcha no cede.',
+          "exitoso": 'Un calor estable recorre el cuerpo y devuelve el color a la piel. Por unas horas, el frío deja de ser un problema. Restaura +7PV. En el valle, cuenta como asistencia para un compañero que la necesite, y en la zona de escarcha su próxima quemadura resta 30PV en lugar de 50PV. Si se lanza sobre Cuthbert, la escarcha retrocede apenas de sus manos y vuelve a cubrirlas enseguida.',
+          "critico": 'Un calor profundo y reparador restablece la circulación hasta la punta de los dedos. El cuerpo recupera la energía que el frío le había ido quitando. Restaura +8PV. En el valle, cuenta como asistencia para un compañero que la necesite, y en la zona de escarcha sus próximas dos quemaduras restan 30PV en lugar de 50PV. Si se lanza sobre Cuthbert, la escarcha retrocede apenas de sus manos y vuelve a cubrirlas enseguida.',
         },
 
         "incendio": {
@@ -7872,6 +8048,83 @@ const MissionsModule = (function () {
           "moderado": 'Una llama pequeña prende entre las ramas más secas. Hay que cuidarla para que el viento no la apague.',
           "exitoso": 'El fuego prende con fuerza a pesar de la humedad. Alcanza para calentarse y secar la ropa.',
           "critico": 'El fuego prende parejo y firme, y da un calor que dura toda la noche sin necesidad de avivarlo. Por primera vez desde que llegaron, nadie tiembla.',
+        },
+
+        "vuelo": {
+          "leve": 'El vapor obliga a volar bajo y a ciegas. No avanza ningún tramo y suma +1 al contador de vapor.',
+          "moderado": 'Permite avanzar <replace target="attr" calculate="1" data="des">el 100% de la destreza del personaje</replace> en tramos.',
+          "exitoso": 'Permite avanzar <replace target="attr" calculate="1.5" data="des">el 150% de la destreza del personaje</replace> en tramos.',
+          "critico": 'Permite avanzar <replace target="attr" calculate="2" data="des">el 200% de la destreza del personaje</replace> en tramos.',
+        },
+
+        "vuelo en pareja": {
+          "leve": 'El peso extra hace que la escoba pierda altura sobre una columna de vapor. No avanzan y ambos suman +1 al contador de vapor.',
+          "moderado": 'Permite que el avance sea igual a = <replace target="attr" calculate="1.5" data="des">el 150% de la destreza del personaje</replace> menos la constitución del acompañante en tramos.',
+          "exitoso": 'Permite que el avance sea igual a = <replace target="attr" calculate="2" data="des">el 200% de la destreza del personaje</replace> menos la constitución del acompañante en tramos.',
+          "critico": 'Permite que el avance sea igual a = <replace target="attr" calculate="2.5" data="des">el 250% de la destreza del personaje</replace> menos la constitución del acompañante en tramos.',
+        },
+
+        "vuelo en velocidad": {
+          "leve": 'Avanza <replace target="attr" calculate="1" data="des">el 100% de la destreza del personaje</replace> en tramos, pero atraviesa un chorro de agua hirviente y suma +1 al contador de vapor.',
+          "moderado": 'Permite avanzar <replace target="attr" calculate="1.5" data="des">el 150% de la destreza del personaje</replace> en tramos.',
+          "exitoso": 'Permite avanzar <replace target="attr" calculate="2" data="des">el 200% de la destreza del personaje</replace> en tramos.',
+          "critico": 'Permite avanzar <replace target="attr" calculate="3" data="des">el 300% de la destreza del personaje</replace> en tramos.',
+        },
+
+        "duro": {
+          "leve": 'La costra se endurece demasiado tarde y se quiebra bajo los pies. No avanza y suma +1 al contador de vapor.',
+          "moderado": 'La costra se endurece lo suficiente para pisarla. El lanzador avanza +1 tramo.',
+          "exitoso": 'La costra se convierte en un sendero de piedra firme. El lanzador y un acompañante a pie avanzan +2 tramos.',
+          "critico": 'Un sendero de piedra se extiende entre los géiseres. El lanzador y todos los personajes a pie avanzan +3 tramos.',
+        },
+
+        "ascendio": {
+          "leve": 'El salto se queda corto y el personaje aterriza sobre barro hirviente. No avanza y suma +1 al contador de vapor.',
+          "moderado": 'El salto supera una grieta humeante. El lanzador avanza +2 tramos.',
+          "exitoso": 'El salto supera varias grietas de una sola vez. El lanzador avanza +3 tramos.',
+          "critico": 'El salto lleva al lanzador por encima de una terraza entera de géiseres. Avanza +4 tramos.',
+        },
+
+        "glacius": {
+          "leve": 'El hielo cubre la boca del géiser, pero la presión lo hace estallar. Suma +1 al contador de vapor.',
+          "moderado": 'La boca del géiser más cercano queda sellada por un instante. Todos los personajes a pie avanzan +1 tramo.',
+          "exitoso": 'Varios géiseres quedan sellados bajo el hielo durante unos segundos. Todos los personajes a pie avanzan +2 tramos.',
+          "critico": 'Una franja entera del valle queda en silencio bajo el hielo. Todos los personajes a pie avanzan +3 tramos.',
+        },
+
+        "impervius": {
+          "leve": 'El encantamiento no resiste el vapor y se disuelve enseguida. No tiene efecto.',
+          "moderado": 'La próxima vez que el lanzador deba sumar +1 al contador de vapor, no lo suma.',
+          "exitoso": 'La próxima vez que el lanzador y un acompañante deban sumar +1 al contador de vapor, no lo suman.',
+          "critico": 'Durante este turno, ningún personaje del grupo suma al contador de vapor.',
+        },
+
+        "carpe retractum": {
+          "leve": 'La cuerda de luz no llega hasta el compañero y se desvanece entre el vapor. No tiene efecto.',
+          "moderado": 'Permite arrastrar a un personaje rezagado hasta 2 tramos hacia adelante, sin superar los tramos del lanzador.',
+          "exitoso": 'Permite arrastrar a un personaje rezagado hasta 4 tramos hacia adelante, sin superar los tramos del lanzador.',
+          "critico": 'Permite arrastrar a un personaje rezagado hasta los mismos tramos del lanzador.',
+        },
+
+        "mobilicorpus": {
+          "leve": 'El cuerpo se eleva apenas y vuelve a caer sobre la escarcha. No tiene efecto.',
+          "moderado": 'Permite trasladar a un personaje inconsciente, avanzando la mitad de los tramos que avance el lanzador.',
+          "exitoso": 'Permite trasladar a un personaje inconsciente, avanzando los mismos tramos que el lanzador.',
+          "critico": 'Permite trasladar a un personaje inconsciente, avanzando los mismos tramos que el lanzador. El traslado es tan estable que el lanzador no suma al contador de vapor durante este turno.',
+        },
+
+        "identificar runa": {
+          "leve": 'No es suficiente para revelar información.',
+          "moderado": 'Una de las runas es Laguz (ᛚ), la runa del agua.',
+          "exitoso": 'Las runas son Laguz (ᛚ), Isa (ᛁ) y Perthro (ᛈ): el agua, el hielo y el destino.',
+          "critico": 'Las runas son Laguz (ᛚ), Isa (ᛁ), Perthro (ᛈ) y Hagalaz (ᚺ): el agua, el hielo, el destino y la ruptura.',
+        },
+
+        "interpretar runas": {
+          "leve": 'No es suficiente para revelar información.',
+          "moderado": 'El círculo protege el agua y la mantiene quieta.',
+          "exitoso": 'El círculo protege el agua y la mantiene quieta para que el destino pueda verse en ella.',
+          "critico": 'El círculo protege el agua y la mantiene quieta para que el destino pueda verse en ella. Hagalaz es la advertencia: quien rompa la quietud sin el don, queda atrapado en ella.',
         },
       },
     },
@@ -7883,7 +8136,7 @@ const MissionsModule = (function () {
       "users": ["c/u119", "/u130", "/u150", "/u156"],
       "informed": [],
       "dependency": [],
-      "type": "investigación", "closed": false, "fecha": "1953-06-30", "link": "https://blackwave.foroactivo.com/t1508-mision-silence-behind-the-door", "tagged": ["original", "capitulo 3"],
+      "type": "investigación", "closed": false, "fecha": "1953-06-30", "link": "https://blackwave.foroactivo.com/t1508-mision-silence-behind-the-door", "tagged": ["original", "capitulo 2"],
 
       "cards": [
         {
