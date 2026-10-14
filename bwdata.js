@@ -6363,6 +6363,31 @@ const MissionsModule = (function () {
 
       "cards": [
         {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad mágica", "name": "invalid", }, "place": "la caja de plomo",
+          "cont": '<span>Los aurores reconocen la contención: plomo macizo, tres hileras de runas y sellos de cera sobre los cierres, hecha con el cuidado de un protocolo oficial, y mejor que el de algunos informes del Ministerio. Confirma lo que el protocolo ya indica para un artefacto con carga maldita: no se toca con la piel desnuda, no se convoca a la mano, se aísla con guantes de piel de dragón y se transporta en una caja forrada de plomo. Que la caja haya estado cerrada y sin tocar durante diez años habla de una maldición que nadie se atrevió a investigar, ni a destruir.</span>',
+        },
+
+        {
+          "visible": { "attr": { "val": "min" }, "know": { "magia oscura": "10" }, "job": "invalid", "name": "invalid", }, "place": "abrir la caja de plomo",
+          "cont": '<span>El personaje reconoce la firma: la escarcha negra con vetas cristalinas es la misma que describen las notas de Thalia sobre el Parasitus Arcanum. Una maldición así no se agota con la muerte de la víctima: queda en estado latente, esperando una nueva fuente de calor. El plomo y las runas la mantienen dormida; sin calor, el parásito hiberna. El anillo no está inerte y volverá a infectar a quien lo toque.</span>',
+        },
+
+        {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "inefable", "name": "invalid", }, "place": "ingresar a la habitación secreta",
+          "cont": '<span>El personaje nota que la habitación no cumple ninguno de los protocolos de custodia del Departamento de Misterios: ni sellos de la cámara, ni registro de ingreso, ni encantamientos del Ministerio. Los muros están protegidos por magia personal, hecha a mano, con una técnica que solo se enseña en la Cámara de la Sangre. Thalia sacó su investigación del Departamento y construyó su propia cámara, lejos de cualquiera que pudiera frenarla.</span>',
+        },
+
+        {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad mágica", "name": "invalid", }, "place": "plan de infiltración de thalia",
+          "cont": '<span>Lo que Thalia describe es allanamiento y robo, sin eufemismos, y los objetos de la caja están ahora contaminados como evidencia: no se pueden usar en un tribunal sin explicar cómo llegaron aquí. El personaje sabe que cualquier informe oficial tendrá que decidir si esto se registra como investigación o como delito.</span>',
+        },
+
+        {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "theolonius", }, "place": "pertenencias robadas de la casa de dominic",
+          "cont": '<span>Entre las cartas, doblada aparte, hay una nota en letra de mujer, sin sobre: <span class="book-clipping">«Dom: nació esta madrugada, a las cuatro. Pesa poco y grita mucho. Lo llamaré Theolonius. Ven cuando puedas. Si no puedes venir, al menos mírale la cara: es idéntica a la tuya. — M.»</span> Es la letra de su madre. La fecha es el 21 de marzo de 1929. Dominic nunca llegó a responderla, y el gorrito de lana azul, sin estrenar, estaba guardado junto a ella.</span>',
+        },
+        
+        {
           "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad mágica", "name": "invalid", }, "place": "árbol genealógico de los edevane",
           "cont": '<span>El personaje reconoce los nombres del árbol. Los cruzó en los archivos del Ministerio al revisar el caso, y ninguno sigue con vida. <strong>Halden Edevane</strong> murió en 1934, por causas naturales, mientras dormía. <strong>Cordelia Edevane</strong> murió en 1937, de viruela de dragón. <strong>Perpetua Edevane</strong> murió en 1941, de una neumonía que se complicó durante el invierno. <strong>Lucan Edevane</strong> murió en 1946, soltero y sin descendencia, por un fallo del corazón. Ninguna de esas muertes tuvo nada de extraño, y ninguna se investigó. Con Lucan se extinguió la rama principal: no queda ningún Edevane reconocido que pueda responder por lo que hizo esta familia.</span>',
         },
