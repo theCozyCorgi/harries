@@ -61618,6 +61618,233 @@ const DBModule = (function () {
             "date": "28/02/1953",
             "location": "Gringotts"
         },
+        "1118": {
+            "space": "el pensadero",
+            "url": "/t1118-practica-sabes-mas-que-un-nino-de-hogwarts",
+            "simpleTitle": "¿sabes más que un niño de hogwarts?",
+            "creator": "Elysia G. Lestrange",
+            "replyCount": 35,
+            "posts": [
+                {
+                    "url": "r15670",
+                    "author": "Elysia G. Lestrange",
+                    "date": "28/03/2026",
+                    "words": 212
+                },
+                {
+                    "url": "r15738",
+                    "author": "Uranus H. Merrythought",
+                    "date": "29/03/2026",
+                    "words": 227
+                },
+                {
+                    "url": "r15803",
+                    "author": "Elysia G. Lestrange",
+                    "date": "30/03/2026",
+                    "words": 207
+                },
+                {
+                    "url": "r16328",
+                    "author": "Uranus H. Merrythought",
+                    "date": "10/04/2026",
+                    "words": 319
+                },
+                {
+                    "url": "r16386",
+                    "author": "Elysia G. Lestrange",
+                    "date": "12/04/2026",
+                    "words": 383
+                },
+                {
+                    "url": "r16604",
+                    "author": "Uranus H. Merrythought",
+                    "date": "17/04/2026",
+                    "words": 432
+                },
+                {
+                    "url": "r16990",
+                    "author": "Elysia G. Lestrange",
+                    "date": "26/04/2026",
+                    "words": 323
+                },
+                {
+                    "url": "r16991",
+                    "author": "The Familiars",
+                    "date": "26/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r17280",
+                    "author": "Uranus H. Merrythought",
+                    "date": "01/05/2026",
+                    "words": 192
+                },
+                {
+                    "url": "r17281",
+                    "author": "The Familiars",
+                    "date": "01/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r17686",
+                    "author": "Elysia G. Lestrange",
+                    "date": "05/05/2026",
+                    "words": 253
+                },
+                {
+                    "url": "r17687",
+                    "author": "The Familiars",
+                    "date": "05/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r18304",
+                    "author": "Uranus H. Merrythought",
+                    "date": "13/05/2026",
+                    "words": 178
+                },
+                {
+                    "url": "r18305",
+                    "author": "The Familiars",
+                    "date": "13/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r19180",
+                    "author": "Elysia G. Lestrange",
+                    "date": "28/05/2026",
+                    "words": 184
+                },
+                {
+                    "url": "r19181",
+                    "author": "The Familiars",
+                    "date": "28/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r19442",
+                    "author": "Uranus H. Merrythought",
+                    "date": "01/06/2026",
+                    "words": 164
+                },
+                {
+                    "url": "r19443",
+                    "author": "The Familiars",
+                    "date": "01/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20304",
+                    "author": "Elysia G. Lestrange",
+                    "date": "28/06/2026",
+                    "words": 198
+                },
+                {
+                    "url": "r20305",
+                    "author": "The Familiars",
+                    "date": "28/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20783",
+                    "author": "Uranus H. Merrythought",
+                    "date": "15/07/2026",
+                    "words": 147
+                },
+                {
+                    "url": "r20784",
+                    "author": "The Familiars",
+                    "date": "15/07/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21002",
+                    "author": "Elysia G. Lestrange",
+                    "date": "25/07/2026",
+                    "words": 165
+                },
+                {
+                    "url": "r21003",
+                    "author": "The Familiars",
+                    "date": "25/07/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21677",
+                    "author": "Uranus H. Merrythought",
+                    "date": "10/08/2026",
+                    "words": 180
+                },
+                {
+                    "url": "r21678",
+                    "author": "The Familiars",
+                    "date": "10/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21986",
+                    "author": "Elysia G. Lestrange",
+                    "date": "19/08/2026",
+                    "words": 193
+                },
+                {
+                    "url": "r21987",
+                    "author": "The Familiars",
+                    "date": "19/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22382",
+                    "author": "Uranus H. Merrythought",
+                    "date": "01/09/2026",
+                    "words": 194
+                },
+                {
+                    "url": "r22383",
+                    "author": "The Familiars",
+                    "date": "01/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22576",
+                    "author": "Elysia G. Lestrange",
+                    "date": "06/09/2026",
+                    "words": 263
+                },
+                {
+                    "url": "r22577",
+                    "author": "The Familiars",
+                    "date": "06/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22821",
+                    "author": "Uranus H. Merrythought",
+                    "date": "13/09/2026",
+                    "words": 219
+                },
+                {
+                    "url": "r23092",
+                    "author": "Elysia G. Lestrange",
+                    "date": "18/09/2026",
+                    "words": 230
+                },
+                {
+                    "url": "r23943",
+                    "author": "Uranus H. Merrythought",
+                    "date": "09/10/2026",
+                    "words": 244
+                },
+                {
+                    "url": "r23987",
+                    "author": "Elysia G. Lestrange",
+                    "date": "Ayer a las 12:58",
+                    "words": 238
+                }
+            ],
+            "date": "12/02/1953",
+            "location": "Ministerio de Magia, Departamento de Seguridad Mágica"
+        },
         "1120": {
             "space": "el pensadero",
             "url": "/t1120-1953-02-19-walking-on-ice",
@@ -66789,6 +67016,149 @@ const DBModule = (function () {
             "date": "18/03/1953",
             "location": "Callejón Diagon"
         },
+        "1189": {
+            "space": "el pensadero",
+            "url": "/t1189-1953-03-30-centro-de-gravedad",
+            "simpleTitle": "centro de gravedad",
+            "creator": "Alastor Moody",
+            "replyCount": 21,
+            "posts": [
+                {
+                    "url": "r17293",
+                    "author": "Alastor Moody",
+                    "date": "Vie Mayo 01, 2026 11:39 am",
+                    "words": 219
+                },
+                {
+                    "url": "r17769",
+                    "author": "Neptune E. Merrythought",
+                    "date": "Jue Mayo 07, 2026 12:42 am",
+                    "words": 227
+                },
+                {
+                    "url": "r18012",
+                    "author": "Alastor Moody",
+                    "date": "Sáb Mayo 09, 2026 8:28 pm",
+                    "words": 317
+                },
+                {
+                    "url": "r18650",
+                    "author": "Neptune E. Merrythought",
+                    "date": "Lun Mayo 18, 2026 11:24 pm",
+                    "words": 310
+                },
+                {
+                    "url": "r18713",
+                    "author": "Alastor Moody",
+                    "date": "Miér Mayo 20, 2026 7:41 am",
+                    "words": 349
+                },
+                {
+                    "url": "r19554",
+                    "author": "Neptune E. Merrythought",
+                    "date": "Mar Jun 02, 2026 11:45 pm",
+                    "words": 245
+                },
+                {
+                    "url": "r19652",
+                    "author": "Alastor Moody",
+                    "date": "Sáb Jun 06, 2026 6:44 am",
+                    "words": 238
+                },
+                {
+                    "url": "r19971",
+                    "author": "Neptune E. Merrythought",
+                    "date": "Miér Jun 17, 2026 12:52 am",
+                    "words": 242
+                },
+                {
+                    "url": "r20170",
+                    "author": "Alastor Moody",
+                    "date": "Mar Jun 23, 2026 2:16 pm",
+                    "words": 170
+                },
+                {
+                    "url": "r20491",
+                    "author": "Neptune E. Merrythought",
+                    "date": "Vie Jul 03, 2026 11:31 pm",
+                    "words": 275
+                },
+                {
+                    "url": "r20836",
+                    "author": "Alastor Moody",
+                    "date": "Vie Jul 17, 2026 6:56 am",
+                    "words": 142
+                },
+                {
+                    "url": "r21609",
+                    "author": "Neptune E. Merrythought",
+                    "date": "Sáb Ago 08, 2026 10:50 pm",
+                    "words": 441
+                },
+                {
+                    "url": "r21734",
+                    "author": "Alastor Moody",
+                    "date": "Miér Ago 12, 2026 9:53 am",
+                    "words": 487
+                },
+                {
+                    "url": "r22045",
+                    "author": "Neptune E. Merrythought",
+                    "date": "Vie Ago 21, 2026 1:28 am",
+                    "words": 300
+                },
+                {
+                    "url": "r22076",
+                    "author": "Alastor Moody",
+                    "date": "Vie Ago 21, 2026 6:29 pm",
+                    "words": 364
+                },
+                {
+                    "url": "r22315",
+                    "author": "Neptune E. Merrythought",
+                    "date": "Sáb Ago 29, 2026 10:39 pm",
+                    "words": 281
+                },
+                {
+                    "url": "r22612",
+                    "author": "Alastor Moody",
+                    "date": "Dom Sep 06, 2026 6:49 pm",
+                    "words": 387
+                },
+                {
+                    "url": "r22906",
+                    "author": "Neptune E. Merrythought",
+                    "date": "Lun Sep 14, 2026 12:31 am",
+                    "words": 242
+                },
+                {
+                    "url": "r23152",
+                    "author": "Alastor Moody",
+                    "date": "Sáb Sep 19, 2026 2:13 pm",
+                    "words": 228
+                },
+                {
+                    "url": "r23474",
+                    "author": "Neptune E. Merrythought",
+                    "date": "Lun Sep 28, 2026 1:01 am",
+                    "words": 383
+                },
+                {
+                    "url": "r23824",
+                    "author": "Alastor Moody",
+                    "date": "Lun Oct 05, 2026 5:28 pm",
+                    "words": 297
+                },
+                {
+                    "url": "r23977",
+                    "author": "Neptune E. Merrythought",
+                    "date": "Ayer a las 12:55 am",
+                    "words": 189
+                }
+            ],
+            "date": "30/03/1953",
+            "location": "Death Fearann, Escocia"
+        },
         "1196": {
             "space": "el pensadero",
             "url": "/t1196-1953-01-23-que-hacen-las-estrellas",
@@ -71670,6 +72040,89 @@ const DBModule = (function () {
             "date": "31/03/1953",
             "location": "Omeath, Irlanda"
         },
+        "1265": {
+            "space": "el pensadero",
+            "url": "/t1265-fb-crystallized-thyme",
+            "simpleTitle": "fb | crystallized | thyme",
+            "creator": "Theolonius D. Covey",
+            "replyCount": 11,
+            "posts": [
+                {
+                    "url": "r19003",
+                    "author": "Theolonius D. Covey",
+                    "date": "Mar Mayo 26, 2026 9:57 am",
+                    "words": 265
+                },
+                {
+                    "url": "r19033",
+                    "author": "Thyme T. Nott",
+                    "date": "Mar Mayo 26, 2026 5:36 pm",
+                    "words": 207
+                },
+                {
+                    "url": "r19747",
+                    "author": "Theolonius D. Covey",
+                    "date": "Mar Jun 09, 2026 12:49 am",
+                    "words": 251
+                },
+                {
+                    "url": "r20335",
+                    "author": "Thyme T. Nott",
+                    "date": "Dom Jun 28, 2026 7:08 pm",
+                    "words": 169
+                },
+                {
+                    "url": "r20336",
+                    "author": "The Familiars",
+                    "date": "Dom Jun 28, 2026 7:08 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r21314",
+                    "author": "Theolonius D. Covey",
+                    "date": "Dom Ago 02, 2026 12:26 pm",
+                    "words": 324
+                },
+                {
+                    "url": "r21525",
+                    "author": "Thyme T. Nott",
+                    "date": "Vie Ago 07, 2026 12:52 pm",
+                    "words": 252
+                },
+                {
+                    "url": "r22083",
+                    "author": "Theolonius D. Covey",
+                    "date": "Vie Ago 21, 2026 11:51 pm",
+                    "words": 257
+                },
+                {
+                    "url": "r22524",
+                    "author": "Thyme T. Nott",
+                    "date": "Sáb Sep 05, 2026 2:28 pm",
+                    "words": 238
+                },
+                {
+                    "url": "r22668",
+                    "author": "Theolonius D. Covey",
+                    "date": "Lun Sep 07, 2026 10:59 pm",
+                    "words": 202
+                },
+                {
+                    "url": "r23323",
+                    "author": "Thyme T. Nott",
+                    "date": "Jue Sep 24, 2026 1:07 pm",
+                    "words": 212
+                },
+                {
+                    "url": "r23837",
+                    "author": "Theolonius D. Covey",
+                    "date": "Ayer a las 11:54 pm",
+                    "words": 272
+                }
+            ],
+            "date": "15/12/1946",
+            "location": "Invernaderos"
+        },
         "1272": {
             "space": "el pensadero",
             "url": "/t1272-1953-03-15-got-a-secret-can-you-keep-it",
@@ -74695,6 +75148,107 @@ const DBModule = (function () {
             "date": "02/05/1953",
             "location": "Bosque Prohibido"
         },
+        "1316": {
+            "space": "el pensadero",
+            "url": "/t1316-c-thompson-the-sphynx",
+            "simpleTitle": "the sphynx",
+            "creator": "Hermes Rosier",
+            "replyCount": 14,
+            "posts": [
+                {
+                    "url": "r20244",
+                    "author": "Hermes Rosier",
+                    "date": "Vie Jun 26, 2026 7:53 am",
+                    "words": 256
+                },
+                {
+                    "url": "r20388",
+                    "author": "Cipriano J. Thompson",
+                    "date": "Lun Jun 29, 2026 6:35 pm",
+                    "words": 373
+                },
+                {
+                    "url": "r20425",
+                    "author": "Hermes Rosier",
+                    "date": "Miér Jul 01, 2026 7:37 pm",
+                    "words": 377
+                },
+                {
+                    "url": "r20515",
+                    "author": "Cipriano J. Thompson",
+                    "date": "Sáb Jul 04, 2026 4:29 pm",
+                    "words": 572
+                },
+                {
+                    "url": "r20611",
+                    "author": "Hermes Rosier",
+                    "date": "Jue Jul 09, 2026 6:32 pm",
+                    "words": 453
+                },
+                {
+                    "url": "r20730",
+                    "author": "Cipriano J. Thompson",
+                    "date": "Mar Jul 14, 2026 6:34 am",
+                    "words": 423
+                },
+                {
+                    "url": "r20786",
+                    "author": "Hermes Rosier",
+                    "date": "Miér Jul 15, 2026 6:43 pm",
+                    "words": 364
+                },
+                {
+                    "url": "r20833",
+                    "author": "Cipriano J. Thompson",
+                    "date": "Vie Jul 17, 2026 7:49 am",
+                    "words": 667
+                },
+                {
+                    "url": "r20860",
+                    "author": "Hermes Rosier",
+                    "date": "Sáb Jul 18, 2026 5:01 pm",
+                    "words": 416
+                },
+                {
+                    "url": "r20976",
+                    "author": "Cipriano J. Thompson",
+                    "date": "Jue Jul 23, 2026 3:28 am",
+                    "words": 395
+                },
+                {
+                    "url": "r21052",
+                    "author": "Hermes Rosier",
+                    "date": "Dom Jul 26, 2026 8:17 pm",
+                    "words": 349
+                },
+                {
+                    "url": "r21746",
+                    "author": "Cipriano J. Thompson",
+                    "date": "Miér Ago 12, 2026 10:12 pm",
+                    "words": 344
+                },
+                {
+                    "url": "r22074",
+                    "author": "Hermes Rosier",
+                    "date": "Vie Ago 21, 2026 7:17 pm",
+                    "words": 303
+                },
+                {
+                    "url": "r23024",
+                    "author": "Cipriano J. Thompson",
+                    "date": "Jue Sep 17, 2026 5:12 am",
+                    "words": 635
+                },
+                {
+                    "url": "r23901",
+                    "author": "Hermes Rosier",
+                    "date": "Hoy a las 9:56 am",
+                    "words": 323
+                }
+            ],
+            "date": "13/04/1953",
+            "location": "Sala de Peofesores"
+        },
         "1320": {
             "space": "el pensadero",
             "url": "/t1320-1953-04-22-investigacion-tying-loose-ends",
@@ -75508,6 +76062,179 @@ const DBModule = (function () {
             "date": "31/05/1953",
             "location": "Arena Dush"
         },
+        "1397": {
+            "space": "el pensadero",
+            "url": "/t1397-1953-05-16-evento-duetos-estelares-hermes-y-minerva",
+            "simpleTitle": "evento: duetos estelares - hermes y minerva",
+            "creator": "Black Wave",
+            "replyCount": 26,
+            "posts": [
+                {
+                    "url": "r21868",
+                    "author": "Black Wave",
+                    "date": "Sáb Ago 15, 2026 10:19 pm",
+                    "words": 162
+                },
+                {
+                    "url": "r21928",
+                    "author": "Minerva E. McGonagall",
+                    "date": "Dom Ago 16, 2026 10:05 pm",
+                    "words": 195
+                },
+                {
+                    "url": "r21929",
+                    "author": "The Familiars",
+                    "date": "Dom Ago 16, 2026 10:05 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r22023",
+                    "author": "Hermes Rosier",
+                    "date": "Jue Ago 20, 2026 12:23 pm",
+                    "words": 228
+                },
+                {
+                    "url": "r22037",
+                    "author": "Minerva E. McGonagall",
+                    "date": "Jue Ago 20, 2026 11:48 pm",
+                    "words": 225
+                },
+                {
+                    "url": "r22038",
+                    "author": "The Familiars",
+                    "date": "Jue Ago 20, 2026 11:48 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r22049",
+                    "author": "Hermes Rosier",
+                    "date": "Vie Ago 21, 2026 5:33 am",
+                    "words": 149
+                },
+                {
+                    "url": "r22050",
+                    "author": "The Familiars",
+                    "date": "Vie Ago 21, 2026 5:33 am",
+                    "words": 0
+                },
+                {
+                    "url": "r22081",
+                    "author": "Minerva E. McGonagall",
+                    "date": "Vie Ago 21, 2026 10:59 pm",
+                    "words": 166
+                },
+                {
+                    "url": "r22082",
+                    "author": "The Familiars",
+                    "date": "Vie Ago 21, 2026 10:59 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r22386",
+                    "author": "Hermes Rosier",
+                    "date": "Mar Sep 01, 2026 2:29 pm",
+                    "words": 178
+                },
+                {
+                    "url": "r22387",
+                    "author": "The Familiars",
+                    "date": "Mar Sep 01, 2026 2:29 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r22474",
+                    "author": "Minerva E. McGonagall",
+                    "date": "Jue Sep 03, 2026 11:58 pm",
+                    "words": 192
+                },
+                {
+                    "url": "r22475",
+                    "author": "The Familiars",
+                    "date": "Jue Sep 03, 2026 11:58 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r22706",
+                    "author": "Hermes Rosier",
+                    "date": "Miér Sep 09, 2026 3:07 pm",
+                    "words": 178
+                },
+                {
+                    "url": "r22707",
+                    "author": "The Familiars",
+                    "date": "Miér Sep 09, 2026 3:07 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r23015",
+                    "author": "Minerva E. McGonagall",
+                    "date": "Miér Sep 16, 2026 11:04 pm",
+                    "words": 166
+                },
+                {
+                    "url": "r23016",
+                    "author": "The Familiars",
+                    "date": "Miér Sep 16, 2026 11:04 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r23503",
+                    "author": "Hermes Rosier",
+                    "date": "Mar Sep 29, 2026 4:57 am",
+                    "words": 145
+                },
+                {
+                    "url": "r23504",
+                    "author": "The Familiars",
+                    "date": "Mar Sep 29, 2026 4:57 am",
+                    "words": 0
+                },
+                {
+                    "url": "r23633",
+                    "author": "Minerva E. McGonagall",
+                    "date": "Jue Oct 01, 2026 11:18 pm",
+                    "words": 142
+                },
+                {
+                    "url": "r23634",
+                    "author": "The Familiars",
+                    "date": "Jue Oct 01, 2026 11:18 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r23898",
+                    "author": "Hermes Rosier",
+                    "date": "Jue Oct 08, 2026 6:12 am",
+                    "words": 155
+                },
+                {
+                    "url": "r23899",
+                    "author": "The Familiars",
+                    "date": "Jue Oct 08, 2026 6:12 am",
+                    "words": 0
+                },
+                {
+                    "url": "r23926",
+                    "author": "Minerva E. McGonagall",
+                    "date": "Vie Oct 09, 2026 12:35 am",
+                    "words": 150
+                },
+                {
+                    "url": "r23927",
+                    "author": "The Familiars",
+                    "date": "Vie Oct 09, 2026 12:35 am",
+                    "words": 0
+                },
+                {
+                    "url": "r24095",
+                    "author": "Black Wave",
+                    "date": "Ayer a las 9:48 pm",
+                    "words": 68
+                }
+            ],
+            "date": "16/05/1953",
+            "location": "Lago Negro"
+        },
         "1398": {
             "space": "el pensadero",
             "url": "/t1398-1953-05-16-evento-duetos-estelares-shun-y-findlay",
@@ -75932,6 +76659,161 @@ const DBModule = (function () {
                     "url": "r23529",
                     "author": "Black Wave",
                     "date": "Hoy a las 3:47",
+                    "words": 68
+                }
+            ],
+            "date": "16/05/1953",
+            "location": "Lago Negro"
+        },
+        "1401": {
+            "space": "el pensadero",
+            "url": "/t1401-1953-05-16-evento-duetos-estelares-uranus-y-thaddeus",
+            "simpleTitle": "evento: duetos estelares - uranus y thaddeus",
+            "creator": "Black Wave",
+            "replyCount": 23,
+            "posts": [
+                {
+                    "url": "r21872",
+                    "author": "Black Wave",
+                    "date": "Sáb Ago 15, 2026 10:22 pm",
+                    "words": 162
+                },
+                {
+                    "url": "r21930",
+                    "author": "Thaddeus L. Nott",
+                    "date": "Lun Ago 17, 2026 9:15 pm",
+                    "words": 177
+                },
+                {
+                    "url": "r21931",
+                    "author": "The Familiars",
+                    "date": "Lun Ago 17, 2026 9:15 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r21954",
+                    "author": "Uranus H. Merrythought",
+                    "date": "Mar Ago 18, 2026 7:04 am",
+                    "words": 279
+                },
+                {
+                    "url": "r21955",
+                    "author": "The Familiars",
+                    "date": "Mar Ago 18, 2026 7:04 am",
+                    "words": 0
+                },
+                {
+                    "url": "r22178",
+                    "author": "Thaddeus L. Nott",
+                    "date": "Lun Ago 24, 2026 10:21 pm",
+                    "words": 140
+                },
+                {
+                    "url": "r22179",
+                    "author": "The Familiars",
+                    "date": "Lun Ago 24, 2026 10:21 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r22262",
+                    "author": "Uranus H. Merrythought",
+                    "date": "Miér Ago 26, 2026 2:01 pm",
+                    "words": 133
+                },
+                {
+                    "url": "r22263",
+                    "author": "The Familiars",
+                    "date": "Miér Ago 26, 2026 2:01 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r22448",
+                    "author": "Thaddeus L. Nott",
+                    "date": "Miér Sep 02, 2026 10:59 pm",
+                    "words": 143
+                },
+                {
+                    "url": "r22449",
+                    "author": "The Familiars",
+                    "date": "Miér Sep 02, 2026 10:59 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r22680",
+                    "author": "Uranus H. Merrythought",
+                    "date": "Mar Sep 08, 2026 1:54 am",
+                    "words": 155
+                },
+                {
+                    "url": "r22681",
+                    "author": "The Familiars",
+                    "date": "Mar Sep 08, 2026 1:54 am",
+                    "words": 0
+                },
+                {
+                    "url": "r23040",
+                    "author": "Thaddeus L. Nott",
+                    "date": "Jue Sep 17, 2026 11:53 pm",
+                    "words": 160
+                },
+                {
+                    "url": "r23041",
+                    "author": "The Familiars",
+                    "date": "Jue Sep 17, 2026 11:53 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r23219",
+                    "author": "Uranus H. Merrythought",
+                    "date": "Lun Sep 21, 2026 6:02 am",
+                    "words": 172
+                },
+                {
+                    "url": "r23220",
+                    "author": "The Familiars",
+                    "date": "Lun Sep 21, 2026 6:02 am",
+                    "words": 0
+                },
+                {
+                    "url": "r23459",
+                    "author": "Thaddeus L. Nott",
+                    "date": "Dom Sep 27, 2026 5:39 pm",
+                    "words": 167
+                },
+                {
+                    "url": "r23460",
+                    "author": "The Familiars",
+                    "date": "Dom Sep 27, 2026 5:39 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r23501",
+                    "author": "Uranus H. Merrythought",
+                    "date": "Mar Sep 29, 2026 4:49 am",
+                    "words": 179
+                },
+                {
+                    "url": "r23502",
+                    "author": "The Familiars",
+                    "date": "Mar Sep 29, 2026 4:49 am",
+                    "words": 0
+                },
+                {
+                    "url": "r23781",
+                    "author": "Thaddeus L. Nott",
+                    "date": "Dom Oct 04, 2026 8:39 pm",
+                    "words": 143
+                },
+                {
+                    "url": "r23782",
+                    "author": "The Familiars",
+                    "date": "Dom Oct 04, 2026 8:39 pm",
+                    "words": 0
+                },
+                {
+                    "url": "r24094",
+                    "author": "Black Wave",
+                    "date": "Hoy a las 9:42 pm",
                     "words": 68
                 }
             ],
@@ -157272,6 +158154,592 @@ const DBModule = (function () {
             "url": "r23693",
             "simpleTitle": "duelo #19: montgomery vs owen",
             "space": "el pensadero"
+        },
+        {
+            "pitcher": "Thaddeus L. Nott",
+            "spread": [
+                17
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "vuelo en pareja"
+            ],
+            "knowledge": [
+                "vuelo"
+            ],
+            "type": [
+                "quidditch, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Thaddeus L. Nott ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"vuelo en pareja\" (17)</strong><span>Vuelo perfecto. Se requieren 3 turnos para llegar al objetivo deseado.</span></span></div></div></div>",
+            "url": "r21931",
+            "simpleTitle": "evento: duetos estelares - uranus y thaddeus",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Uranus H. Merrythought",
+            "spread": [
+                10,
+                2
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "flipendo",
+                "oppugno"
+            ],
+            "knowledge": [
+                "dcao",
+                "dcao"
+            ],
+            "type": [
+                "maleficio, ofensivo",
+                "embrujo, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Uranus H. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"flipendo\" (10)</strong><span>El oponente es lanzado por los aires con gran fuerza, impactando contra una superficie. Adiciona <em>+6</em> (40% del conocimiento en DCAO) puntos adicionales de daño al objetivo.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"oppugno\" (2)</strong><span>Los objetos golpean al objetivo con fuerza moderada. La víctima pierde +4 PV por cada objeto previamente generado.</span></span></div></div></div>",
+            "url": "r21955",
+            "simpleTitle": "evento: duetos estelares - uranus y thaddeus",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Thaddeus L. Nott",
+            "spread": [
+                1,
+                8
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "vuelo en pareja",
+                "pivotao aereo"
+            ],
+            "knowledge": [
+                "vuelo",
+                "vuelo"
+            ],
+            "type": [
+                "quidditch, sin magia, neutral",
+                "quidditch, defensivo, sin magia"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Thaddeus L. Nott ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"vuelo en pareja\" (1)</strong><span>El vuelo es a una velocidad moderada. Se demora 5 turnos en llegar al objetivo deseado.</span></span><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #2 \"pivotao aereo\" (8)</strong><span>Logra cambiar el rumbo, pero el mago pierde un poco el equilibro en el proceso. Adiciona +7 en defensa y +1 en turnos para llegar al objetivo.</span></span></div></div></div>",
+            "url": "r22179",
+            "simpleTitle": "evento: duetos estelares - uranus y thaddeus",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Uranus H. Merrythought",
+            "spread": [
+                10,
+                20
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "confringo",
+                "flipendo"
+            ],
+            "knowledge": [
+                "dcao",
+                "dcao"
+            ],
+            "type": [
+                "maldición, ofensivo",
+                "maleficio, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Uranus H. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"confringo\" (10)</strong><span>La explosión es fuerte y alcanza también a los personajes cercanos en la escena, pudiendo destrozar objetos y causar heridas serias. Cada uno debe calcular su propia defensa y Adiciona <em>+12</em> (75% del conocimiento en DCAO) en daño.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"flipendo\" (20)</strong><span>El oponente es lanzado por los aires con gran fuerza, impactando contra una superficie. Adiciona <em>+6</em> (40% del conocimiento en DCAO) puntos adicionales de daño al objetivo.</span></span></div></div></div>",
+            "url": "r22263",
+            "simpleTitle": "evento: duetos estelares - uranus y thaddeus",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Thaddeus L. Nott",
+            "spread": [
+                17,
+                19
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "vuelo en pareja",
+                "giro del colacuerno"
+            ],
+            "knowledge": [
+                "vuelo",
+                "vuelo"
+            ],
+            "type": [
+                "quidditch, sin magia, neutral",
+                "quidditch, defensivo, sin magia"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Thaddeus L. Nott ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"vuelo en pareja\" (17)</strong><span>Vuelo perfecto. Se requieren 3 turnos para llegar al objetivo deseado.</span></span><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #2 \"giro del colacuerno\" (19)</strong><span>Se realiza el giro, pero con una ligera pérdida de velocidad. Adiciona <em>+5</em> (50% del conocimiento en VUELO) en defensa</span></span></div></div></div>",
+            "url": "r22449",
+            "simpleTitle": "evento: duetos estelares - uranus y thaddeus",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Uranus H. Merrythought",
+            "spread": [
+                10,
+                12
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "expulso",
+                "oppugno"
+            ],
+            "knowledge": [
+                "dcao",
+                "dcao"
+            ],
+            "type": [
+                "maldición, defensivo",
+                "embrujo, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Uranus H. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"expulso\" (10)</strong><span>El objetivo es arrojado violentamente contra una superficie, pudiendo sufrir heridas graves. Adiciona <em>+15</em> (100% del conocimiento en COMBATE FÍSICO) puntos de Combate Físico en Defensa.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"oppugno\" (12)</strong><span>Los objetos impactan con precisión y fuerza considerable. La víctima pierde +6 PV por cada objeto previamente generado.</span></span></div></div></div>",
+            "url": "r22681",
+            "simpleTitle": "evento: duetos estelares - uranus y thaddeus",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Thaddeus L. Nott",
+            "spread": [
+                3,
+                5
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "vuelo en pareja",
+                "pivotao aereo"
+            ],
+            "knowledge": [
+                "vuelo",
+                "vuelo"
+            ],
+            "type": [
+                "quidditch, sin magia, neutral",
+                "quidditch, defensivo, sin magia"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Thaddeus L. Nott ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"vuelo en pareja\" (3)</strong><span>El vuelo es a una buena velocidad. Se demora 4 turnos en llegar al objetivo deseado.</span></span><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #2 \"pivotao aereo\" (5)</strong><span>Logra cambiar el rumbo, pero el mago pierde un poco el equilibro en el proceso. Adiciona +5 en defensa y +1 en turnos para llegar al objetivo.</span></span></div></div></div>",
+            "url": "r23041",
+            "simpleTitle": "evento: duetos estelares - uranus y thaddeus",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Minerva E. McGonagall",
+            "spread": [
+                20
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "fortitudo cordis"
+            ],
+            "knowledge": [
+                "liderazgo"
+            ],
+            "type": [
+                "habilidad, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"liderazgo\"><strong>Resultado  #1 \"fortitudo cordis\" (20)</strong><span>Adiciona <em>2</em> (El 100% de CAR) en acciones del conocimiento mencionado durante todo el tema.</span></span></div></div></div>",
+            "url": "r21929",
+            "simpleTitle": "evento: duetos estelares - hermes y minerva",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Minerva E. McGonagall",
+            "spread": [
+                3
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "vuelo en pareja"
+            ],
+            "knowledge": [
+                "vuelo"
+            ],
+            "type": [
+                "quidditch, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"vuelo en pareja\" (3)</strong><span>Vuelo perfecto. Se requieren 3 turnos para llegar al objetivo deseado.</span></span></div></div></div>",
+            "url": "r22038",
+            "simpleTitle": "evento: duetos estelares - hermes y minerva",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Hermes Rosier",
+            "spread": [
+                8,
+                8
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "confringo",
+                "confringo"
+            ],
+            "knowledge": [
+                "dcao",
+                "dcao"
+            ],
+            "type": [
+                "maldición, ofensivo",
+                "maldición, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Hermes Rosier ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"confringo\" (8)</strong><span>La explosión es fuerte y alcanza también a los personajes cercanos en la escena, pudiendo destrozar objetos y causar heridas serias. Cada uno debe calcular su propia defensa y Adiciona <em>+22</em> (75% del conocimiento en DCAO) en daño.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"confringo\" (8)</strong><span>La explosión es fuerte y alcanza también a los personajes cercanos en la escena, pudiendo destrozar objetos y causar heridas serias. Cada uno debe calcular su propia defensa y Adiciona <em>+22</em> (75% del conocimiento en DCAO) en daño.</span></span></div></div></div>",
+            "url": "r22050",
+            "simpleTitle": "evento: duetos estelares - hermes y minerva",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Minerva E. McGonagall",
+            "spread": [
+                8,
+                6
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "giro del colacuerno",
+                "vuelo en pareja"
+            ],
+            "knowledge": [
+                "vuelo",
+                "vuelo"
+            ],
+            "type": [
+                "quidditch, defensivo, sin magia",
+                "quidditch, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"giro del colacuerno\" (8)</strong><span>Se realiza el giro, pero con una ligera pérdida de velocidad. Adiciona <em>+9</em> (50% del conocimiento en VUELO) en defensa</span></span><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #2 \"vuelo en pareja\" (6)</strong><span>Vuelo perfecto. Se requieren 3 turnos para llegar al objetivo deseado.</span></span></div></div></div>",
+            "url": "r22082",
+            "simpleTitle": "evento: duetos estelares - hermes y minerva",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Hermes Rosier",
+            "spread": [
+                9,
+                14
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "regio impetum",
+                "flipendo"
+            ],
+            "knowledge": [
+                "dcao",
+                "dcao"
+            ],
+            "type": [
+                "encantamiento, ofensivo",
+                "maleficio, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Hermes Rosier ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"regio impetum\" (9)</strong><span>Los oponentes son empujados hacia atrás levemente y quedan algo desorientados. Reduce +7 PV de 2 PNJ.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"flipendo\" (14)</strong><span>El oponente es lanzado por los aires con gran fuerza, impactando contra una superficie. Adiciona <em>+12</em> (40% del conocimiento en DCAO) puntos adicionales de daño al objetivo.</span></span></div></div></div>",
+            "url": "r22387",
+            "simpleTitle": "evento: duetos estelares - hermes y minerva",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Minerva E. McGonagall",
+            "spread": [
+                4,
+                2
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "amago de wronski",
+                "vuelo en pareja"
+            ],
+            "knowledge": [
+                "vuelo",
+                "vuelo"
+            ],
+            "type": [
+                "quidditch, defensivo, sin magia",
+                "quidditch, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"amago de wronski\" (4)</strong><span>Logra una buena aceleración, pero pierde estabilidad al frenar. Adiciona <em>+9</em> (50% del conocimiento en VUELO) en defensa y +1 en turnos para llegar al objetivo.</span></span><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #2 \"vuelo en pareja\" (2)</strong><span>Vuelo perfecto. Se requieren 3 turnos para llegar al objetivo deseado.</span></span></div></div></div>",
+            "url": "r22475",
+            "simpleTitle": "evento: duetos estelares - hermes y minerva",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Hermes Rosier",
+            "spread": [
+                9,
+                18
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "expulso",
+                "confringo"
+            ],
+            "knowledge": [
+                "dcao",
+                "dcao"
+            ],
+            "type": [
+                "maldición, defensivo",
+                "maldición, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Hermes Rosier ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"expulso\" (9)</strong><span>El objetivo es arrojado violentamente contra una superficie, pudiendo sufrir heridas graves. Adiciona <em>+0</em> (100% del conocimiento en COMBATE FÍSICO) puntos de Combate Físico en Defensa.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"confringo\" (18)</strong><span>La explosión es devastadora, alcanzando a todos los personajes presentes en la escena y causando gran destrucción y heridas graves. Cada uno debe calcular su propia defensa y Adiciona <em>+30</em> (100% del conocimiento en DCAO) en daño.</span></span></div></div></div>",
+            "url": "r22707",
+            "simpleTitle": "evento: duetos estelares - hermes y minerva",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Minerva E. McGonagall",
+            "spread": [
+                10,
+                19
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "vuelo en pareja",
+                "derrape en escoba"
+            ],
+            "knowledge": [
+                "vuelo",
+                "vuelo"
+            ],
+            "type": [
+                "quidditch, sin magia, neutral",
+                "quidditch, defensivo, sin magia"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"vuelo en pareja\" (10)</strong><span>Vuelo perfecto. Se requieren 3 turnos para llegar al objetivo deseado.</span></span><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #2 \"derrape en escoba\" (19)</strong><span>El derrape se logra, pero con poca efectividad. Adiciona +7 en defensa y +1 en los turnos para llegar al objetivo.</span></span></div></div></div>",
+            "url": "r23016",
+            "simpleTitle": "evento: duetos estelares - hermes y minerva",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Uranus H. Merrythought",
+            "spread": [
+                17,
+                18
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "flipendo",
+                "confringo"
+            ],
+            "knowledge": [
+                "dcao",
+                "dcao"
+            ],
+            "type": [
+                "maleficio, ofensivo",
+                "maldición, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Uranus H. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"flipendo\" (17)</strong><span>El oponente es lanzado por los aires con gran fuerza, impactando contra una superficie. Adiciona <em>+6</em> (40% del conocimiento en DCAO) puntos adicionales de daño al objetivo.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"confringo\" (18)</strong><span>La explosión es fuerte y alcanza también a los personajes cercanos en la escena, pudiendo destrozar objetos y causar heridas serias. Cada uno debe calcular su propia defensa y Adiciona <em>+12</em> (75% del conocimiento en DCAO) en daño.</span></span></div></div></div>",
+            "url": "r23220",
+            "simpleTitle": "evento: duetos estelares - uranus y thaddeus",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Thaddeus L. Nott",
+            "spread": [
+                1,
+                5
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "vuelo en pareja",
+                "pivotao aereo"
+            ],
+            "knowledge": [
+                "vuelo",
+                "vuelo"
+            ],
+            "type": [
+                "quidditch, sin magia, neutral",
+                "quidditch, defensivo, sin magia"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Thaddeus L. Nott ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"vuelo en pareja\" (1)</strong><span>El vuelo es a una velocidad moderada. Se demora 5 turnos en llegar al objetivo deseado.</span></span><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #2 \"pivotao aereo\" (5)</strong><span>Logra cambiar el rumbo, pero el mago pierde un poco el equilibro en el proceso. Adiciona +5 en defensa y +1 en turnos para llegar al objetivo.</span></span></div></div></div>",
+            "url": "r23460",
+            "simpleTitle": "evento: duetos estelares - uranus y thaddeus",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Hermes Rosier",
+            "spread": [
+                9,
+                15
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "flipendo",
+                "regio impetum"
+            ],
+            "knowledge": [
+                "dcao",
+                "dcao"
+            ],
+            "type": [
+                "maleficio, ofensivo",
+                "encantamiento, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Hermes Rosier ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"flipendo\" (9)</strong><span>El oponente es lanzado por los aires con gran fuerza, impactando contra una superficie. Adiciona <em>+12</em> (40% del conocimiento en DCAO) puntos adicionales de daño al objetivo.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"regio impetum\" (15)</strong><span>Los oponentes caen al suelo y quedan aturdidos por unos segundos. Reduce +10 PV de 3 PNJ y los incapacita por 2 turnos.</span></span></div></div></div>",
+            "url": "r23504",
+            "simpleTitle": "evento: duetos estelares - hermes y minerva",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Uranus H. Merrythought",
+            "spread": [
+                8,
+                2
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "expulso",
+                "waddiwasi"
+            ],
+            "knowledge": [
+                "dcao",
+                "dcao"
+            ],
+            "type": [
+                "maldición, defensivo",
+                "embrujo, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Uranus H. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"expulso\" (8)</strong><span>El objetivo es lanzado varios metros hacia atrás con fuerza. Adiciona el plus del ataque en la Defensa o la Fuerza del personaje.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"waddiwasi\" (2)</strong><span>El objeto impacta al objetivo con precisión y fuerza considerable. Adiciona +6 puntos de daño.</span></span></div></div></div>",
+            "url": "r23502",
+            "simpleTitle": "evento: duetos estelares - uranus y thaddeus",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Minerva E. McGonagall",
+            "spread": [
+                14,
+                9
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "pivotao aereo",
+                "vuelo en pareja"
+            ],
+            "knowledge": [
+                "vuelo",
+                "vuelo"
+            ],
+            "type": [
+                "quidditch, defensivo, sin magia",
+                "quidditch, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"pivotao aereo\" (14)</strong><span>Puede cambiar el rumbo completamente. Adiciona +21 en defensa.</span></span><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #2 \"vuelo en pareja\" (9)</strong><span>Vuelo perfecto. Se requieren 3 turnos para llegar al objetivo deseado.</span></span></div></div></div>",
+            "url": "r23634",
+            "simpleTitle": "evento: duetos estelares - hermes y minerva",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Thaddeus L. Nott",
+            "spread": [
+                5,
+                10
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "vuelo en pareja",
+                "pivotao aereo"
+            ],
+            "knowledge": [
+                "vuelo",
+                "vuelo"
+            ],
+            "type": [
+                "quidditch, sin magia, neutral",
+                "quidditch, defensivo, sin magia"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Thaddeus L. Nott ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"vuelo en pareja\" (5)</strong><span>El vuelo es a una buena velocidad. Se demora 4 turnos en llegar al objetivo deseado.</span></span><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #2 \"pivotao aereo\" (10)</strong><span>Cambia el rumbo noventa grados, pudiendo esquivar grandes ataques. Adiciona +12 en defensa y +1 en turnos para llegar al objetivo.</span></span></div></div></div>",
+            "url": "r23782",
+            "simpleTitle": "evento: duetos estelares - uranus y thaddeus",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Hermes Rosier",
+            "spread": [
+                3,
+                20
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "confringo",
+                "oppugno"
+            ],
+            "knowledge": [
+                "dcao",
+                "dcao"
+            ],
+            "type": [
+                "maldición, ofensivo",
+                "embrujo, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Hermes Rosier ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"confringo\" (3)</strong><span>La explosión es fuerte y alcanza también a los personajes cercanos en la escena, pudiendo destrozar objetos y causar heridas serias. Cada uno debe calcular su propia defensa y Adiciona <em>+22</em> (75% del conocimiento en DCAO) en daño.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"oppugno\" (20)</strong><span>Los objetos atacan ferozmente, causando daño significativo. La víctima pierde +9 PV por cada objeto previamente generado.</span></span></div></div></div>",
+            "url": "r23899",
+            "simpleTitle": "evento: duetos estelares - hermes y minerva",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Minerva E. McGonagall",
+            "spread": [
+                8,
+                10
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "vuelo en velocidad",
+                "pivotao aereo"
+            ],
+            "knowledge": [
+                "vuelo",
+                "vuelo"
+            ],
+            "type": [
+                "quidditch, sin magia, neutral",
+                "quidditch, defensivo, sin magia"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"vuelo en velocidad\" (8)</strong><span>Velocidad máxima. Podrá realizar la siguiente acción de manera inmediata.</span></span><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #2 \"pivotao aereo\" (10)</strong><span>Puede cambiar el rumbo completamente. Adiciona +17 en defensa.</span></span></div></div></div>",
+            "url": "r23927",
+            "simpleTitle": "evento: duetos estelares - hermes y minerva",
+            "space": "el pensadero"
         }
     ];
     const hardcodedInactiveTopics = {
@@ -164897,23 +166365,6 @@ const DBModule = (function () {
             ],
             "date": "11/05/1953",
             "location": "Reserva Natural de Flint"
-        },
-        "1486": {
-            "space": "temas inactivos",
-            "url": "/t1486-navegacion-de-temas",
-            "simpleTitle": "navegación de temas",
-            "creator": "Black Wave",
-            "replyCount": 0,
-            "posts": [
-                {
-                    "url": "r23554",
-                    "author": "Black Wave",
-                    "date": "Hoy a las 2:50",
-                    "words": 0
-                }
-            ],
-            "date": "",
-            "location": "Desconocida"
         }
     };
     const hardcodedBeans = [
