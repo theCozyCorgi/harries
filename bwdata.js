@@ -6361,7 +6361,12 @@ const MissionsModule = (function () {
       "dependency": ["tying loose ends"],
       "type": "investigación", "closed": false, "fecha": "1953-06-22", "link": "/t1487-investigacion-blood-runs-cold", "tagged": ["original"],
 
-      "cards": [],
+      "cards": [
+        {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad mágica", "name": "invalid", }, "place": "árbol genealógico de los edevane",
+          "cont": '<span>El personaje reconoce los nombres del árbol. Los cruzó en los archivos del Ministerio al revisar el caso, y ninguno sigue con vida. <strong>Halden Edevane</strong> murió en 1934, por causas naturales, mientras dormía. <strong>Cordelia Edevane</strong> murió en 1937, de viruela de dragón. <strong>Perpetua Edevane</strong> murió en 1941, de una neumonía que se complicó durante el invierno. <strong>Lucan Edevane</strong> murió en 1946, soltero y sin descendencia, por un fallo del corazón. Ninguna de esas muertes tuvo nada de extraño, y ninguna se investigó. Con Lucan se extinguió la rama principal: no queda ningún Edevane reconocido que pueda responder por lo que hizo esta familia.</span>',
+        },
+      ],
 
       "searchs": {
         "ingresar a la casa de thalia": {
@@ -6586,18 +6591,18 @@ const MissionsModule = (function () {
           "critico": '<span>No se detectan objetos de valor en la casa. Si se lanza una vez que la habitación secreta está abierta, se detecta con claridad un anillo de oro macizo dentro de la caja de plomo, de valor familiar y no solo económico, y la sensación de que su verdadero peso es otro: no es un tesoro, es una carga.</span>',
         },
 
+        "aparecium": {
+          "leve": '<span>Nada aparece. El pergamino sigue en blanco donde no hay tinta.</span>',
+          "moderado": '<span>Si se lanza sobre la carta del 2 de enero de 1929, justo debajo de la firma de Perpetua se dibujan unos trazos tenues, con una letra distinta. Se borran antes de que puedan leerse.</span>',
+          "exitoso": '<span>Si se lanza sobre la carta del 2 de enero de 1929, debajo de la firma de Perpetua aparece una línea escrita con otra letra, más apretada y nerviosa: <span class="book-clipping">«Lo siento. No nos diste otra opción. L. E.»</span> Los bordes del papel conservan además un tenue rastro de escarcha, justo donde el anillo debió de rozarlo.</span>',
+          "critico": '<span>Si se lanza sobre la carta del 2 de enero de 1929, debajo de la firma de Perpetua aparece una línea escrita con otra letra, más apretada y nerviosa: <span class="book-clipping">«Lo siento. No nos diste otra opción. L. E.»</span> La tinta es de la misma época que la carta: quien la escribió preparó el envío del anillo. Si se lanza sobre la pizarra o los planos de la habitación secreta, aparecen pequeñas marcas a lápiz de Thalia que solo ella podía leer: fechas, iniciales y una sola palabra repetida, «Covey».</span>',
+        },
+
         "specialis revelio": {
           "leve": '<span>El hechizo no revela nada de forma clara.</span>',
           "moderado": '<span>En el estudio, la estantería del fondo está cubierta por un encantamiento de ocultamiento. En la habitación secreta, la caja de plomo está cubierta de runas de contención en tres capas; hay algo frío y concentrado dentro.</span>',
           "exitoso": '<span>El encantamiento de la estantería es un cierre de pasadizo, de factura personal. Sobre la caja de plomo, las tres capas de runas contienen el calor, el contacto y el nombre de lo que guarda. Con la caja abierta, el anillo revela una maldición activa, de tipo parasitario, que usa el calor de quien lo toca como combustible.</span>',
-          "critico": '<span>El hechizo expone cada capa, tanto de la caja como del anillo: las runas de contención, y dentro, un sello familiar, un filamento de magia oscura enroscado en su interior y una emoción densa atada a él, mezcla de rencor y de un sentido de protección retorcido. Es un Parasitus Arcanum en estado latente, firmado con sangre de la familia. Las cartas, en cambio, no tienen ningún hechizo encima.</span>',
-        },
-
-        "aparecium": {
-          "leve": '<span>Nada aparece en las cartas. El pergamino sigue en blanco donde no hay tinta.</span>',
-          "moderado": '<span>Las cartas no esconden más texto. Lo que dicen es todo lo que se atrevieron a escribir.</span>',
-          "exitoso": '<span>Las cartas no tienen tinta invisible. Lo único que aparece es un tenue rastro de escarcha en los bordes de la carta del 2 de enero, justo donde el anillo debió de rozar el papel.</span>',
-          "critico": '<span>Las cartas no tienen tinta invisible ni mensajes ocultos, y eso ya es una respuesta: quien las escribió sabía que nunca debía poner nada que pudiera probarse. En la pizarra y en los planos, en cambio, aparecen pequeñas marcas a lápiz de Thalia que solo ella podía leer: fechas, iniciales y una sola palabra repetida, «Covey».</span>',
+          "critico": '<span>El hechizo expone cada capa, tanto de la caja como del anillo: las runas de contención, y dentro, un sello familiar, un filamento de magia oscura enroscado en su interior y una emoción densa atada a él, mezcla de rencor y de un sentido de protección retorcido. Es un Parasitus Arcanum en estado latente, firmado con sangre de la familia. Entre las cartas, la del 2 de enero conserva un rastro de tinta encantada bajo la firma: hay algo escrito que no se ve a simple vista.</span>',
         },
 
         "wingardium leviosa": {
