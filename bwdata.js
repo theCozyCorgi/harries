@@ -2731,12 +2731,12 @@ const MissionsModule = (function () {
 
         "expediente de aria fawley": {
           "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "la rama de acónito seca",
-          "cont": '<span><span class="book-clipping"><div class="book-image" style="--image: url(https://64.media.tumblr.com/36a192b703125f1a469e8b2ca5a04f1d/638d96be1047a32f-ed/s400x600/0fe38dab46c44bcfb0af2f0be5ae0d3770e2f4d2.gif)"></div><br><strong>Contrato</strong> Iniciado: 21/04/1952 | Terminado: 01/08/1952.<br><br><strong>Nombre Completo</strong> Aria Joy Fawley<br><br><strong>Profesión</strong> Actual Sanadora de Daños Provocados por Hechizos.<br><strong>Edad</strong> 37 años.<br><strong>Linaje</strong> Semi-Veela.<br><br><strong>Adjuntos</strong><br>☒ Certificado de Nacimiento.<br>☒ Informe de Análisis de Sangre y Linaje<br>☒ Resultados TIMOs.<br>☒ Resultados EXTASIS<br>☒ Inclusión en ATM<br></span></span>',
+          "cont": '<span><span class="book-clipping"><div class="book-image" style="--image: url(https://64.media.tumblr.com/36a192b703125f1a469e8b2ca5a04f1d/638d96be1047a32f-ed/s400x600/0fe38dab46c44bcfb0af2f0be5ae0d3770e2f4d2.gif)"></div><br><strong>Contrato</strong> Iniciado: 21/04/1952 | Terminado: 01/08/1952.<br><br><strong>Nombre Completo</strong> Aria Joy Fawley<br><br><strong>Profesión</strong> Actual Sanadora de Daños Provocados por Hechizos.<br><strong>Edad</strong> 45 años.<br><strong>Linaje</strong> Semi-Veela.<br><br><strong>Adjuntos</strong><br>☒ Certificado de Nacimiento.<br>☒ Informe de Análisis de Sangre y Linaje<br>☒ Resultados TIMOs.<br>☒ Resultados EXTASIS<br>☒ Inclusión en ATM<br></span></span>',
         },
 
         "análisis de sangre de aria fawley": {
           "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "expediente de aria fawley",
-          "cont": '<span><span class="book-clipping"><br><div align="center"><span style="font-size: 14px; line-height: normal"><strong>Hospital San Mungo de Magia y Enfermedades</strong></span></div><div align="center"><span style="font-size: 12px; line-height: normal">Informe de Análisis de Sangre y Linaje</span></div><br><hr><br><br><strong>Nombre del paciente:</strong> <i>Aria J. Fawley</i> <br><strong>Edad:</strong> <i>3 meses</i> <br><strong>Fecha de la muestra:</strong> <i>9 de Mayo de 1915</i> <br><strong>Lugar de extracción:</strong> <i>Laboratorio de San Mungo</i> <br><br><hr><br><br><strong>Resultados del análisis:</strong> <br><i>La muestra ha sido sometida a encantamientos de revelación de linaje. <br>Se observa la siguiente clasificación:</i> <br><br>- <strong>Pureza sanguínea detectada:</strong> <i>Mestiza - Semi Veela</i><br><i>Se detecta linaje mágico estable y fuerte, con trazas de ascendencia no humana (veela). El individuo conserva capacidades mágicas completas, con características hereditarias propias de las veelas.</i> <br><br></span></span>',
+          "cont": '<span><span class="book-clipping"><br><div align="center"><span style="font-size: 14px; line-height: normal"><strong>Hospital San Mungo de Magia y Enfermedades</strong></span></div><div align="center"><span style="font-size: 12px; line-height: normal">Informe de Análisis de Sangre y Linaje</span></div><br><hr><br><br><strong>Nombre del paciente:</strong> <i>Aria J. Fawley</i> <br><strong>Edad:</strong> <i>3 meses</i> <br><strong>Fecha de la muestra:</strong> <i>9 de Mayo de 1907</i> <br><strong>Lugar de extracción:</strong> <i>Laboratorio de San Mungo</i> <br><br><hr><br><br><strong>Resultados del análisis:</strong> <br><i>La muestra ha sido sometida a encantamientos de revelación de linaje. <br>Se observa la siguiente clasificación:</i> <br><br>- <strong>Pureza sanguínea detectada:</strong> <i>Mestiza - Semi Veela</i><br><i>Se detecta linaje mágico estable y fuerte, con trazas de ascendencia no humana (veela). El individuo conserva capacidades mágicas completas, con características hereditarias propias de las veelas.</i> <br><br></span></span>',
         },
 
         "certificado de defunción": {
@@ -6398,6 +6398,121 @@ const MissionsModule = (function () {
           "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ingresar a la casa de thalia",
           "cont": '<span>El estudio es un espacio pequeño y sin ventanas. Por la luz que se cuela puede ver unas cuantas estanterías con libros, un escritorio y una alfombra cargada de polvo.</span>',
         },
+
+        "preguntar por el estudio de thalia": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
+          "cont": '<span>«Nunca dejaba entrar a nadie al estudio. De niño la oía caminar ahí dentro durante horas, arrastrando cosas, y si yo llamaba a la puerta se quedaba en silencio hasta que me iba». Gibran se frota los brazos, como si el aire de la casa fuera más frío que el de la calle. «Cuando heredé la casa, lo abrí una sola vez para buscar los papeles de la herencia. Es raro: alguien tan obsesionada con su trabajo, y ese estudio casi no tenía papeles. Solo libros. Entonces, ¿dónde guardaba todo lo demás? Nunca me lo pregunté, y tampoco quise saberlo».</span>',
+        },
+
+        "preguntar por dominic edevane": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
+          "cont": '<span>Al oír el nombre, Gibran tarda en responder. «Edevane. Lo repetía como si fuera una oración, o una deuda. Decía que le habían quitado la respuesta, que ella había sostenido su mano mientras se apagaba y nadie le había querido decir por qué». Baja la voz. «Mi padre me contó que, el último año, ya no hablaba de otra cosa. Que le oyó decir que no iba a permitir que una familia entera se saliera con la suya. Yo no sé de qué familia hablaba, y se lo digo con sinceridad: no quiero saberlo. Esa mujer terminó mal por querer saber demasiado».</span>',
+        },
+
+        "revisar los libros y el escritorio": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ingresar al estudio",
+          "cont": '<span>Los libros tratan de nigromancia, de hematomancia y de genealogías mágicas, ordenados con una pulcritud que contrasta con el polvo de todo lo demás. El escritorio solo guarda plumas secas, un tintero cuarteado y un calendario de 1943 detenido en noviembre. No hay una sola nota, carta o pergamino con el nombre de Dominic Edevane. Para alguien que pasó años buscando respuestas, el estudio parece demasiado limpio.</span>',
+        },
+
+        "examinar la alfombra y la pared del fondo": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ingresar al estudio",
+          "cont": '<span>Bajo la alfombra, la madera del suelo tiene surcos en forma de arco que llegan hasta la estantería del fondo. Algo pesado se ha movido ahí muchas veces. Es la única estantería a la que le falta polvo en el travesaño central, justo a la altura de una mano. No hay picaporte, palanca ni mecanismo visible, y la pared suena a hueco, pero no cede. Quien la cerró lo hizo con magia.</span>',
+        },
+
+        "ingresar a la habitación secreta": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "pasadizo del estudio",
+          "cont": '<span>Tras la estantería hay una escalera corta que baja a una habitación sin ventanas, más amplia que el propio estudio. El aire es seco y frío, y huele a tinta y a pergamino viejo. Las paredes están tapizadas de pergaminos, mapas y dibujos clavados con alfileres, y en el centro hay una mesa larga cargada de cajas y legajos. Al fondo hay una pizarra enorme. En un extremo de la mesa, apartada de los papeles como si no mereciera mezclarse con ellos, hay una caja baja de plomo, con cierres de hierro y runas grabadas en la tapa.</span>',
+        },
+
+        "la pizarra de thalia": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ingresar a la habitación secreta",
+          "cont": '<span>La pizarra está dividida en tres columnas con letra apretada y nerviosa: <strong>¿CÓMO?</strong>, <strong>¿QUIÉN?</strong> y <strong>¿POR QUÉ?</strong>. En la primera se lee «Parasitus Arcanum. Maleficio de sangre incubado en un objeto. Un objeto que él llevaba encima». En la segunda hay un solo apellido rodeado varias veces: «Edevane». La tercera está llena de tachaduras, hasta que una línea queda subrayada con tanta fuerza que rompió el pergamino: «El niño. Siempre fue el niño». En el borde inferior hay cientos de marcas de conteo, una por cada día que Thalia siguió buscando.</span>',
+        },
+
+        "árbol genealógico de los edevane": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ingresar a la habitación secreta",
+          "cont": '<span><span class="book-clipping"><br><div align="center"><strong>LOS EDEVANE – Rama principal</strong><br><i>Copiado a mano por T. Wyrm</i></div><br><strong>Halden Edevane</strong> (cabeza de familia) y <strong>Cordelia Edevane</strong><br>&nbsp;&nbsp;&nbsp;├─ <strong>Dominic Edevane</strong> (n. 1897 – † 24/03/1929), casado con <strong>Aria Fawley</strong><br>&nbsp;&nbsp;&nbsp;├─ <strong>Perpetua Edevane</strong>, casada fuera de la familia<br>&nbsp;&nbsp;&nbsp;└─ <strong>Lucan Edevane</strong>, soltero<br><br><i>Anotaciones al margen, con otra tinta:</i> «Dominic no figura como padre de nadie. En ningún registro de la familia. Alguien se encargó de que así fuera». «Se casó con Aria el 21 de marzo, el mismo día en que nació el niño. Primero el hijo, horas después la boda, sin anuncio ni invitados. Tres días más tarde, el entierro». Debajo, una línea a lápiz, sin conexión con el árbol: «Theolonius Covey, n. 21/03/1929. Madre: Myrna Covey. Padre: D. E. No figura».</span></span>',
+        },
+
+        "planos de la casa de dominic": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ingresar a la habitación secreta",
+          "cont": '<span>Una serie de planos dibujados con regla y compás muestran dos plantas de la casa donde Dominic vivía con Aria: recibidor, sala, comedor, cocina, un dormitorio principal y, en la planta alta, un estudio. Hay medidas, ventanas y puertas. El estudio de Dominic está marcado con una cruz roja, y una flecha señala el segundo cajón del escritorio. Otra nota, al pie: «Ventana de la despensa: sin hechizo de protección. Aria sale temprano para el turno de San Mungo».</span>',
+        },
+
+        "plan de infiltración de thalia": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "planos de la casa de dominic",
+          "cont": '<span><span class="book-clipping"><br><div align="center"><strong>Notas de T. W. – sin fecha</strong></div><br>1. Aria trabaja en San Mungo. Conozco sus turnos; no necesito su permiso para entrar, solo que no esté.<br>2. Por la despensa, de madrugada. Nada de varita encendida: el estudio de él está arriba y la escalera cruje en el quinto escalón.<br>3. Buscar un objeto. Siempre es un objeto. Si el parásito tuvo que incubarse, tuvo que estar cerca de él durante semanas. Lo que él tocaba todos los días. Cuando lo atendí, tenía la marca blanca de un anillo en el dedo, pero el anillo no venía con sus pertenencias. Alguien lo guardó. Probablemente arriba, en su estudio.<br>4. Aria: no he visto en ella ni una sombra del frío. Descartada. <i>Por ahora.</i><br>5. Si me descubren, sigo siendo la nigromante que firmó su certificado. Con eso puedo explicar un pésame, pero no un robo. Que no me descubran.</span></span>',
+        },
+
+        "pertenencias robadas de la casa de dominic": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ingresar a la habitación secreta",
+          "cont": '<span>Una caja de madera, rotulada con una etiqueta que dice «D. E.», guarda lo que Thalia se llevó de la casa de Dominic: un reloj de bolsillo con sus iniciales, detenido a las diez y media, una pluma de plata, un cuaderno de cuentas con las hojas arrancadas, un gorrito de lana azul sin estrenar y un fajo de cartas atado con una cinta gris. Todo está etiquetado con la misma letra pequeña, como si fuera material de un caso que nunca llegó a presentarse.</span>',
+        },
+
+        "cartas atadas con una cinta gris": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "pertenencias robadas de la casa de dominic",
+          "cont": '<span>Son tres cartas, ordenadas por fecha, con sobres que llevan el sello de lacre de los Edevane. Ninguna menciona por su nombre a nadie ni a nada de forma directa, y todas están escritas con una cortesía helada. Los personajes pueden leerlas por separado.</span>',
+        },
+
+        "carta del 14 de noviembre de 1928": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "cartas atadas con una cinta gris",
+          "cont": '<span><span class="book-clipping">Fecha: 14 de noviembre de 1928.<br><br>Dominic:<br><br>Han llegado a esta casa ciertos comentarios sobre tus visitas a Wicklow y sobre la compañía que frecuentas allí. No voy a repetirlos por escrito. Tu madre prefiere creer que son calumnias; yo prefiero no hacerme ilusiones.<br><br>Esta familia ha sobrevivido a los siglos porque cada generación supo cerrar a tiempo lo que había que cerrar. Una casa como la nuestra no cría accidentes, hijo. Los corrige. Preferiría que lo hicieras tú. La señorita Fawley sería una elección que todos aplaudiríamos, y un hombre casado con ella no tiene nada que explicar. Tienes hasta Navidad para demostrarme que sigues siendo un Edevane.<br><br>Tu padre.</span></span>',
+        },
+
+        "carta del 2 de enero de 1929": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "cartas atadas con una cinta gris",
+          "cont": '<span><span class="book-clipping">Fecha: 2 de enero de 1929.<br><br>Querido hermano:<br><br>Navidad pasó sin una palabra tuya, y padre lo anotó como se anotan las deudas. Me pidió que te escribiera yo, para que no pareciera una orden.<br><br>Te hace llegar, con esta carta, el anillo del abuelo. Dice que te corresponde y que debes llevarlo puesto siempre, como señal de que has entendido lo que se espera de ti. No se rechaza un anillo así, Dominic. Se acepta, o se explica por qué no se acepta, y a nadie le conviene tener que explicar.<br><br>Lo que no se corta a tiempo se pudre. Ya sabes cómo termina.<br><br>Perpetua.</span></span>',
+        },
+
+        "carta del 22 de marzo de 1929": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "cartas atadas con una cinta gris",
+          "cont": '<span><span class="book-clipping">Fecha: 22 de marzo de 1929.<br><br>Dominic:<br><br>Nos han llegado dos noticias en el mismo día: la de tu boda y la de lo que ocurrió en Wicklow. No creas que una borra la otra. Casarte era lo que correspondía, pero no era lo único que se te pidió, y el plazo que se te dio ya pasó.<br><br>No responderé a tus cartas, porque ya no hay nada que discutir. Que no quede en ningún lugar un nombre que no sea el tuyo. No nos obligues a decidir por ti. Lo que nosotros decidimos es siempre definitivo, y casi nunca es compasivo. Haz lo que tienes que hacer, o prepárate para que se haga lo que hay que hacer sin ti.<br><br>Halden.</span></span>',
+        },
+
+        "la caja de plomo": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ingresar a la habitación secreta",
+          "cont": '<span>La caja es de plomo macizo, del tamaño de un libro grueso. En la tapa hay tres hileras de runas grabadas a mano, una sobre otra, y los cierres de hierro están sellados con cera negra. Una etiqueta cuelga de la cerradura: «NO ABRIR SIN GUANTES. NO CONVOCAR. NO TOCAR CON LA PIEL». La tapa está fría como el metal de una tumba, y el frío no cede por mucho que se tenga la mano encima. Pesa mucho para su tamaño. Lo que hay dentro no debe haber salido de ahí en años.</span>',
+        },
+
+        "cuaderno de contención de thalia": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "la caja de plomo",
+          "cont": '<span>Bajo la caja hay un cuaderno de tapas negras, abierto en tres páginas marcadas con cintas. Las notas llevan la fecha en la esquina, con la letra de Thalia, cada vez más pequeña. Los personajes pueden leerlas por separado.</span>',
+        },
+
+        "nota del 11 de marzo de 1933": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "cuaderno de contención de thalia",
+          "cont": '<span><span class="book-clipping">Fecha: 11 de marzo de 1933.<br><br>Lo tengo. Estaba en el segundo cajón del estudio, envuelto en un paño gris, justo donde calculé. Aria no lo tocó nunca; lo guardó sin mirarlo, como se guarda algo que quema.<br><br>No lo toqué. Usé las tenazas de plata y el paño encantado de la Cámara, y lo metí en la caja de plomo antes de que el frío llegara a la pinza. Tres hileras de runas de contención, una para el calor, otra para el contacto y otra para el nombre. Me tomó un mes aprender a grabarlas sin que se me congelaran los dedos. Nadie en la casa me oyó salir.<br><br>Lo que me inquieta: el anillo no hace nada mientras está solo. Duerme. Pero cuando acerqué la mano al cierre, sentí que me reconocía, como un animal que huele calor. No volveré a acercarme sin guantes.</span></span>',
+        },
+
+        "nota del 5 de mayo de 1933": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "cuaderno de contención de thalia",
+          "cont": '<span><span class="book-clipping">Fecha: 5 de mayo de 1933.<br><br>Dos meses estudiándolo a través del plomo y con varillas de cristal. Lo que he averiguado:<br><br>1. Dentro del aro corre una hebra negra, enroscada como una vena. Es el filamento del que hablaba en mis notas de noviembre. El anillo es el portador. Dominic lo llevó puesto semanas.<br>2. En la cara interna está grabado «Nomen manet». El nombre permanece. Un sello de heredero, de los que no se pueden rechazar.<br>3. La maldición solo reacciona a la piel viva. Probé con un ratón de laboratorio: nueve horas. Con metal, madera o cristal, nada.<br>4. Está firmada con sangre de la familia. Eso es lo que más me importa y lo que menos puedo probar: reconozco la firma, pero sin una muestra de comparación no sé de quién es la mano. Solo sé que no fue un accidente ni un extraño.<br>5. No se disuelve con un contrahechizo corriente. Lo contiene, y nada más. Mientras el anillo esté dormido, el parásito espera.</span></span>',
+        },
+
+        "nota del 2 de noviembre de 1943": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "cuaderno de contención de thalia",
+          "cont": '<span><span class="book-clipping">Fecha: 2 de noviembre de 1943.<br><br>Renové las tres hileras de runas. Diez años y el plomo aguanta; es la única cosa de mi trabajo que no me ha defraudado.<br><br>Lo que me preocupa ya no es el anillo. El anillo duerme. Es la muestra que guardo en la Cámara, ese frasco, que no duerme nunca. Voy a cambiar el sello esta semana. Si algo me pasara, que quien encuentre esta habitación sepa dos cosas: que la respuesta está en la familia, y que la caja no se abre sin guantes.</span></span>',
+        },
+
+        "abrir la caja de plomo": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "la caja de plomo",
+          "cont": '<span>Al romper el primer sello de cera, un hilo de aire helado escapa de la caja como un suspiro. Dentro, sobre un acolchado de paño gris, hay un anillo de oro macizo, con un sello que muestra una rama de laurel rodeando una «E». Una fina escarcha negra cubre el paño a su alrededor, pero no sale de la caja. Mientras nadie lo toque, no hace nada.</span>',
+        },
+
+        "tomar el anillo con las manos desnudas": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir la caja de plomo",
+          "cont": '<span>Quien toque el anillo con la piel desnuda siente un pinchazo helado en la yema de los dedos, como una aguja de hielo. En cuestión de minutos las venas de la mano se oscurecen y el frío sube por el brazo. El personaje pierde 10 PV por tema mientras el parásito siga en su sangre, sus manos y labios se tornan cenicientos y no entra en calor ni con fuego. La maldición solo se detiene con un contrahechizo (como surgito o finite, con resultado exitoso o superior) o con tratamiento en San Mungo.</span>',
+        },
+
+        "usar los guantes y las tenazas de thalia": {
+          "visible": { "attr": { "sab": "3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir la caja de plomo",
+          "cont": '<span>Junto a la caja, colgados de un gancho en el borde de la mesa, están los instrumentos que Thalia usaba para el anillo: un par de guantes de piel de dragón, gastados en la yema de los dedos y rígidos por el frío, y unas tenazas de plata de punta fina, envueltas en un paño gris. Los guantes todavía conservan la forma de sus manos. Con ellos puestos, o con las tenazas, se puede sacar el anillo de la caja sin que la piel llegue a rozarlo.</span>',
+        },
+
+        "manipular el anillo sin tocarlo": {
+          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "usar los guantes y las tenazas de thalia",
+          "cont": '<span>Con los guantes de piel de dragón o con las tenazas, el anillo puede sacarse de la caja y examinarse con seguridad. El frío atraviesa el cuero, pero no pasa de ahí. Dentro del aro, una hebra negra finísima corre enroscada como una vena y late muy despacio, y en la cara interna hay una inscripción grabada: <i>Nomen manet</i>, «el nombre permanece». Es el sello de heredero de los Edevane, un objeto que nadie podría negarse a llevar puesto. El frío no viene del metal: viene de lo que tiene dentro.</span>',
+        },
       },
 
       "actions": {
@@ -6448,6 +6563,104 @@ const MissionsModule = (function () {
           "moderado": '<span>Una sensación de perturbación lo invade.</span>',
           "exitoso": '<span>Una sensación de perturbación lo invade.</span>',
           "critico": '<span>Una sensación de perturbación lo invade.</span>',
+        },
+
+        "dissendium": {
+          "leve": '<span>Una rendija de aire frío se filtra por detrás de la estantería del fondo, pero la pared sigue cerrada. No es suficiente para abrirla.</span>',
+          "moderado": '<span>La estantería del fondo se desplaza lentamente hacia un lado con un chirrido de piedra, dejando a la vista una escalera corta que baja a una habitación oscura.</span><adding search="pasadizo del estudio" class="check-cards"></adding>',
+          "exitoso": '<span>La estantería del fondo se desliza por completo, y tras ella se revela una escalera que baja a una habitación fría. Los libros no caen: estaban sujetos por la misma magia que cerraba el paso.</span><adding search="pasadizo del estudio" class="check-cards"></adding>',
+          "critico": '<span>La estantería se abre al instante. Antes de que el polvo se asiente, se ve toda la escalera y, al fondo, la habitación entera, con la pizarra y la mesa llenas de pergaminos.</span><adding search="pasadizo del estudio" class="check-cards"></adding>',
+        },
+
+        "revelio": {
+          "leve": '<span>No es suficiente para revelar información.</span>',
+          "moderado": '<span>A lo lejos puede escucharse el murmullo de unos libros.</span>',
+          "exitoso": '<span>A lo lejos puede escucharse el murmullo de unos libros. Detrás de la estantería del fondo, la magia es mucho más densa. Hay algo cerrado ahí, pero este hechizo solo lo señala: no basta para abrirlo.</span>',
+          "critico": '<span>A lo lejos puede escucharse el murmullo de unos libros. Detrás de la estantería del fondo se dibuja el contorno de un pasadizo cerrado con magia personal, hecha a mano y sin sellos oficiales. Este hechizo solo lo señala: hace falta otro para abrirlo.</span>',
+        },
+
+        "pretium ostende": {
+          "leve": '<span>No es suficiente para revelar información.</span>',
+          "moderado": '<span>No se detectan objetos de valor en la casa. Si se lanza una vez que la habitación secreta está abierta, se detecta algo valioso dentro de la caja de plomo, pero el plomo bloquea el hechizo y no permite distinguirlo.</span>',
+          "exitoso": '<span>No se detectan objetos de valor en la casa. Si se lanza una vez que la habitación secreta está abierta, se detecta un único objeto de oro macizo, un anillo, dentro de la caja de plomo. El hechizo apenas logra atravesar el metal, y lo que percibe está rodeado de una frialdad que no encaja con su valor.</span>',
+          "critico": '<span>No se detectan objetos de valor en la casa. Si se lanza una vez que la habitación secreta está abierta, se detecta con claridad un anillo de oro macizo dentro de la caja de plomo, de valor familiar y no solo económico, y la sensación de que su verdadero peso es otro: no es un tesoro, es una carga.</span>',
+        },
+
+        "specialis revelio": {
+          "leve": '<span>El hechizo no revela nada de forma clara.</span>',
+          "moderado": '<span>En el estudio, la estantería del fondo está cubierta por un encantamiento de ocultamiento. En la habitación secreta, la caja de plomo está cubierta de runas de contención en tres capas; hay algo frío y concentrado dentro.</span>',
+          "exitoso": '<span>El encantamiento de la estantería es un cierre de pasadizo, de factura personal. Sobre la caja de plomo, las tres capas de runas contienen el calor, el contacto y el nombre de lo que guarda. Con la caja abierta, el anillo revela una maldición activa, de tipo parasitario, que usa el calor de quien lo toca como combustible.</span>',
+          "critico": '<span>El hechizo expone cada capa, tanto de la caja como del anillo: las runas de contención, y dentro, un sello familiar, un filamento de magia oscura enroscado en su interior y una emoción densa atada a él, mezcla de rencor y de un sentido de protección retorcido. Es un Parasitus Arcanum en estado latente, firmado con sangre de la familia. Las cartas, en cambio, no tienen ningún hechizo encima.</span>',
+        },
+
+        "aparecium": {
+          "leve": '<span>Nada aparece en las cartas. El pergamino sigue en blanco donde no hay tinta.</span>',
+          "moderado": '<span>Las cartas no esconden más texto. Lo que dicen es todo lo que se atrevieron a escribir.</span>',
+          "exitoso": '<span>Las cartas no tienen tinta invisible. Lo único que aparece es un tenue rastro de escarcha en los bordes de la carta del 2 de enero, justo donde el anillo debió de rozar el papel.</span>',
+          "critico": '<span>Las cartas no tienen tinta invisible ni mensajes ocultos, y eso ya es una respuesta: quien las escribió sabía que nunca debía poner nada que pudiera probarse. En la pizarra y en los planos, en cambio, aparecen pequeñas marcas a lápiz de Thalia que solo ella podía leer: fechas, iniciales y una sola palabra repetida, «Covey».</span>',
+        },
+
+        "wingardium leviosa": {
+          "leve": '<span>El objeto se eleva un instante y cae. Si se trataba de la caja de plomo, se desplaza un poco y vuelve a su lugar con un golpe sordo; si es el anillo ya fuera de la caja, rueda sin que nadie lo toque, pero queda en peor posición.</span>',
+          "moderado": '<span>El objeto se eleva y se mueve con dificultad. La caja de plomo puede trasladarse sin riesgo, aunque pesa mucho. Si es el anillo, puede trasladarse sin contacto, pero con riesgo de que se caiga a medio camino.</span>',
+          "exitoso": '<span>El objeto se eleva con estabilidad. La caja de plomo se traslada sin esfuerzo. Si es el anillo, se traslada sin contacto, tanto dentro como fuera de la caja, y puede examinarse a salvo mientras se mantenga el hechizo.</span>',
+          "critico": '<span>El objeto se eleva con total control. Si es el anillo, se traslada con total seguridad y se puede girar para examinar el interior del aro sin ningún riesgo.</span>',
+        },
+
+        "accio": {
+          "leve": '<span>El objeto se mueve ligeramente pero no llega hasta el lanzador.</span>',
+          "moderado": '<span>El objeto se acerca, pero cae antes de llegar. La caja de plomo se desliza sobre la mesa sin abrirse; si el anillo estaba fuera de la caja, queda más cerca del lanzador.</span>',
+          "exitoso": '<span>El objeto vuela hasta el lanzador. Si es la caja de plomo cerrada, llega sin abrirse. Si es el anillo fuera de la caja, llega a su mano y cuenta como tocarlo con la piel desnuda: aplican las consecuencias de «tomar el anillo con las manos desnudas».</span>',
+          "critico": '<span>El objeto llega con gran precisión a la mano del lanzador. Si es la caja cerrada, llega intacta. Si es el anillo fuera de la caja, el contacto es inmediato y sin posibilidad de evitarlo: aplican las consecuencias de «tomar el anillo con las manos desnudas».</span>',
+        },
+
+        "finite": {
+          "leve": '<span>El efecto disminuye, pero no desaparece. Si se lanza sobre alguien que tocó el anillo, la pérdida de PV por tema baja de 10 a 7. Si se lanza sobre la caja de plomo, las runas parpadean y se debilitan un instante; es mejor volver a sellarla.</span>',
+          "moderado": '<span>El efecto se debilita de forma notable. Si se lanza sobre alguien que tocó el anillo, la pérdida de PV por tema baja de 10 a 5. Si se lanza sobre la caja, una de las tres hileras de runas se apaga y el frío empieza a filtrarse; si se lanza sobre el anillo fuera de la caja, la escarcha se retrae y el frío disminuye a la mitad.</span>',
+          "exitoso": '<span>La maldición se disipa en quien la sufre: deja de perder PV. Si se lanza sobre el anillo fuera de la caja, su carga queda contenida durante el resto del tema y puede manipularse sin riesgo. Si se lanza sobre la caja cerrada, las runas se disipan y el anillo queda sin contención: conviene no abrirla. No elimina la maldición de forma permanente.</span>',
+          "critico": '<span>La maldición se disipa en quien la sufre y no puede volver a afectarlo durante el tema. Si se lanza sobre el anillo fuera de la caja, su carga queda dormida durante el resto del tema y la escarcha desaparece. Si se lanza sobre la caja cerrada, las tres hileras de runas se apagan por completo. No elimina la maldición de forma permanente.</span>',
+        },
+
+        "surgito": {
+          "leve": '<span>El hechizo tiene poco efecto en el parásito del anillo: las venas siguen oscuras. Adiciona <replace target="cura" calculate="25" data="leve">[cantidad fija de PV según el nivel del hechizo]</replace> al objetivo y la pérdida de PV por tema sigue siendo de 10.</span>',
+          "moderado": '<span>El frío retrocede de las venas, pero no se va del todo. Adiciona <replace target="cura" calculate="25" data="moderado">[cantidad fija de PV según el nivel del hechizo]</replace> y la pérdida de PV por tema baja de 10 a 5.</span>',
+          "exitoso": '<span>El parásito se disuelve y las venas recuperan su color. Adiciona <replace target="cura" calculate="25" data="exitoso">[cantidad fija de PV según el nivel del hechizo]</replace> y el objetivo deja de perder PV por la maldición.</span>',
+          "critico": '<span>El parásito se deshace sin dejar rastro y el calor vuelve de golpe a las manos del objetivo. Adiciona <replace target="cura" calculate="25" data="critico">[cantidad fija de PV según el nivel del hechizo]</replace> y no queda ninguna secuela.</span>',
+        },
+
+        "morbus revela": {
+          "leve": '<span>Detecta una zona general de afectación en la mano y el antebrazo, sin más detalles.</span>',
+          "moderado": '<span>Señala las venas de la mano como foco, con una rigidez extraña, similar a la de un tejido que se congela.</span>',
+          "exitoso": '<span>Muestra las venas principales parcialmente cristalizadas por una escarcha negra. No es una enfermedad común: es un parásito mágico que consume el calor vital.</span>',
+          "critico": '<span>Revela todos los focos de la afectación y su causa: un Parasitus Arcanum, con el hilo de magia oscura todavía unido al objeto que lo transmitió. Confirma que el anillo es el origen.</span>',
+        },
+
+        "umbrae revelantur": {
+          "leve": '<span>Solo se detecta una sombra superficial y difusa alrededor del anillo, parecida al rencor.</span>',
+          "moderado": '<span>Se manifiestan fragmentos de la sombra del anillo: una mesa familiar en penumbra y una mano ajustando el aro en el dedo de otra persona, que no lo quiere.</span>',
+          "exitoso": '<span>Se visualiza una proyección completa: una voz de hombre mayor, sin rostro, repite «es por el bien del apellido» mientras el anillo se desliza en un dedo. Debajo del rencor, hay algo retorcido que parece cuidado.</span>',
+          "critico": '<span>La sombra cobra forma de una figura sentada en la penumbra que repite, una y otra vez, que «no hay lugar para uno más». Ninguna de las dos voces es la de Thalia.</span>',
+        },
+
+        "ethnospecto": {
+          "leve": '<span>La lectura es imprecisa: sugiere un origen británico, sin más.</span>',
+          "moderado": '<span>Se identifica el anillo como una pieza de joyería mágica británica de los siglos XVIII o XIX, de un linaje de sanadores.</span>',
+          "exitoso": '<span>El anillo es un sello de heredero de la familia Edevane, forjado para ser transmitido de padres a hijos. Su propósito original era identificar al heredero, no hacerle daño. La carga maldita se añadió después.</span>',
+          "critico": '<span>La proyección muestra cómo se forjó el sello y cómo, generaciones después, alguien lo cargó con una maldición ajena a su diseño. Por la factura de la magia, el trabajo se hizo dentro de la familia y con tiempo.</span>',
+        },
+
+        "wingardium leviosa": {
+          "leve": '<span>El objeto se eleva un instante y cae. Si se trataba de la caja de plomo, se desplaza un poco y vuelve a su lugar con un golpe sordo. Si es el anillo, rueda sobre el paño sin que nadie lo toque, pero no llega a verse nada de su interior.</span>',
+          "moderado": '<span>El objeto se eleva y se mueve con dificultad. La caja de plomo puede trasladarse sin riesgo, aunque pesa mucho. Si es el anillo, flota de forma inestable fuera de la caja: alcanza a verse una hebra negra dentro del aro, pero gira demasiado como para leer lo que tiene grabado.</span>',
+          "exitoso": '<span>El objeto se eleva con estabilidad. Si es el anillo, sale de la caja sin que nadie lo toque y puede examinarse con seguridad mientras se mantenga el hechizo. Dentro del aro, una hebra negra finísima corre enroscada como una vena y late muy despacio, y en la cara interna hay una inscripción grabada: <i>Nomen manet</i>, «el nombre permanece». Es el sello de heredero de los Edevane, un objeto que nadie podría negarse a llevar puesto. El frío no viene del metal: viene de lo que tiene dentro.</span>',
+          "critico": '<span>El objeto se eleva con total control. Si es el anillo, sale de la caja y puede girarse en el aire para examinarlo desde todos los ángulos sin ningún riesgo. Dentro del aro, una hebra negra finísima corre enroscada como una vena y late muy despacio, y en la cara interna hay una inscripción grabada: <i>Nomen manet</i>, «el nombre permanece». Es el sello de heredero de los Edevane, un objeto que nadie podría negarse a llevar puesto. El frío no viene del metal: viene de lo que tiene dentro.</span>',
+        },
+
+        "locomotor": {
+          "leve": '<span>El objeto apenas se mueve. Si es el anillo, tiembla sobre el paño gris, pero no sale de la caja.</span>',
+          "moderado": '<span>El objeto se desplaza lentamente. Si es el anillo, sale de la caja a duras penas: alcanza a verse una hebra negra dentro del aro, pero el movimiento es demasiado torpe como para leer lo que tiene grabado.</span>',
+          "exitoso": '<span>El objeto se mueve con fluidez y precisión. Si es el anillo, sale de la caja sin que nadie lo toque y puede examinarse con seguridad mientras se mantenga el hechizo. Dentro del aro, una hebra negra finísima corre enroscada como una vena y late muy despacio, y en la cara interna hay una inscripción grabada: <i>Nomen manet</i>, «el nombre permanece». Es el sello de heredero de los Edevane, un objeto que nadie podría negarse a llevar puesto. El frío no viene del metal: viene de lo que tiene dentro.</span>',
+          "critico": '<span>El objeto se mueve con gran rapidez y destreza. Si es el anillo, sale de la caja y puede girarse en el aire para examinarlo desde todos los ángulos sin ningún riesgo. Dentro del aro, una hebra negra finísima corre enroscada como una vena y late muy despacio, y en la cara interna hay una inscripción grabada: <i>Nomen manet</i>, «el nombre permanece». Es el sello de heredero de los Edevane, un objeto que nadie podría negarse a llevar puesto. El frío no viene del metal: viene de lo que tiene dentro.</span>',
         },
       },
     },
