@@ -10708,7 +10708,7 @@ button.bw-manifest-stat[aria-expanded="true"] {
 /* temas por tipo: una fila por tipo con su barra */
 .bw-manifest-tipo {
   display: grid;
-  grid-template-columns: minmax(90px, 130px) 1fr 70px;
+  grid-template-columns: minmax(90px, 130px) 1fr auto;
   align-items: center;
   gap: 10px;
   padding: 3px 6px;
@@ -10727,12 +10727,12 @@ button.bw-manifest-stat[aria-expanded="true"] {
 
 /* más tirados: la columna de la derecha lleva "91 · 53% éxito" */
 .bw-manifest-tipos.dados .bw-manifest-tipo {
-  grid-template-columns: minmax(90px, 150px) 1fr 105px;
+  grid-template-columns: minmax(90px, 150px) 1fr auto;
 }
 
 /* compañía: el nombre del personaje necesita más lugar que el tipo de tema */
 .bw-manifest-tipos.compas .bw-manifest-tipo {
-  grid-template-columns: minmax(120px, 210px) 1fr 70px;
+  grid-template-columns: minmax(120px, 210px) 1fr auto;
 }
 
 .bw-manifest-tipo > span:first-child {
@@ -10755,8 +10755,11 @@ button.bw-manifest-stat[aria-expanded="true"] {
   background: var(--tipo);
 }
 
+/* la columna de la derecha mide lo que ocupa su texto (auto) y nunca corta línea, con la fuente que tenga el foro */
 .bw-manifest-tipo span:last-child {
+  min-width: 48px;
   text-align: right;
+  white-space: nowrap;
   font-variant-numeric: tabular-nums;
 }
 
@@ -11201,6 +11204,28 @@ button.bw-manifest-row[aria-expanded="true"] {
   .bw-manifest-stats,
   .bw-manifest-beans {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  /* filas con barra: nombre y número arriba, la barra a todo el ancho abajo */
+  .bw-manifest-tipo,
+  .bw-manifest-tipos.dados .bw-manifest-tipo,
+  .bw-manifest-tipos.compas .bw-manifest-tipo {
+    grid-template-columns: minmax(0, 1fr) auto;
+    grid-template-areas: "nombre numero" "barra barra";
+    row-gap: 4px;
+    padding: 5px 6px;
+  }
+
+  .bw-manifest-tipo > span:first-child {
+    grid-area: nombre;
+  }
+
+  .bw-manifest-tipo-bar {
+    grid-area: barra;
+  }
+
+  .bw-manifest-tipo span:last-child {
+    grid-area: numero;
   }
 }
 
