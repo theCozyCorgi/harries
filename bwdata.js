@@ -424,6 +424,12 @@ const MissionsModule = (function () {
       },
 
       "actions": {
+        "veniens empathy": {
+          "leve": 'Una punzada desconocida recorre tu pecho. No sabes si es miedo, tristeza o algo más oscuro, pero permanece, como si no fuera tuya.',
+          "moderado": 'Te invade una emoción intensa y ajena. En tu mente, una imagen: tú, mirando al mar, sabiendo que algo se avecina. El miedo no es tuyo, pero te atrapa.',
+          "exitoso": 'El aire se torna denso, y una emoción clara surge en ti: desesperanza. No estás solo; puedes sentirla en todos los que estuvieron aquí antes. La tierra misma la recuerda.',
+          "critico": 'Una visión atraviesa tu cuerpo como una descarga: en este mismo lugar, pronto habrá llanto. Lágrimas verdaderas. Puedes sentirlas correr por tus mejillas sin saber por qué. Alguien grita, pero no de dolor: de pérdida.',
+        },
         "identificar runa": {
           "leve": '',
           "moderado": 'Una de las runas se trata de Algiz (ᛉ).',
@@ -2049,6 +2055,12 @@ const MissionsModule = (function () {
 
       },
       "actions": {
+        "prophetia": {
+          "leve": 'Tus ojos se nublan por un momento. Una voz infantil, lejana e imposible de identificar, canta una nana en un idioma olvidado. Solo una palabra resuena claramente al final: "Ayuda". No recuerdas la visión, pero un escalofrío recorre tu espalda.',
+          "moderado": 'Ante tus ojos se dibuja un campo de flores marchitas. La tierra debajo se agrieta lentamente y de ella brota una sustancia oscura como tinta. Alguien pronuncia tu nombre desde el horizonte, y te dice: "Vendrá con el cuarto menguante". Solo recuerdas esa frase, aunque no sabes quién la dijo.',
+          "exitoso": 'Te encuentras en una sala desconocida, donde figuras encapuchadas se reúnen alrededor de un mapa. Uno de ellos se gira hacia ti y señala un punto marcado con una X negra. Dice: "Todo comenzó aquí, todo terminará igual". Cuando despiertas, recuerdas la escena con claridad, la X se encontraba en Londres.',
+          "critico": 'La voz se pierde en un eco. Una profecía naciente: "Una ola negra borrará los nombres, caerá los sabios, caerá la magia. Si alza la vista y vence el temor, podrá advertir del gran error. Once cuervos sellaron el paso, tejieron la grieta, torcieron el lazo. Ya no es de uno, ni de un elegido: el poder se encuentra en lo compartido."',
+        },
         "vox imperium": {
           "leve": 'No es suficiente para revelar información adicional.',
           "moderado": 'Todos los estudiantes obedecen liberando el despacho del director y dejando que las personas presentes se encarguen de la investigación correspondiente.<adding search="estudiantes calmados" class="check-cards"></adding>',
@@ -3291,6 +3303,12 @@ const MissionsModule = (function () {
       },
 
       "actions": {
+        "veniens empathy": {
+          "leve": 'Una punzada desconocida recorre tu pecho. No sabes si es miedo, tristeza o algo más oscuro, pero permanece, como si no fuera tuya.',
+          "moderado": 'Te invade una emoción intensa y ajena. En tu mente, una imagen: tú, mirando al mar, sabiendo que algo se avecina. El miedo no es tuyo, pero te atrapa.',
+          "exitoso": 'El aire se torna denso, y una emoción clara surge en ti: desesperanza. No estás solo; puedes sentirla en todos los que estuvieron aquí antes. La tierra misma la recuerda.',
+          "critico": 'Una visión atraviesa tu cuerpo como una descarga: en este mismo lugar, pronto habrá llanto. Lágrimas verdaderas. Puedes sentirlas correr por tus mejillas sin saber por qué. Alguien grita, pero no de dolor: de pérdida.',
+        },
         "murmura futuri": {
           "leve": '<span>No es suficiente para revelar información.</span>',
           "moderado": '<span>Una voz susurrante se escucha durante toda la cámara, pero solo es el vidente quién la puede escuchar. «Tienen que escuchar el pasado, estoy ya ha pasado». La voz parece provenir de un lugar en participar de la sala.<adding search="seguir la voz" class="check-cards"></adding></span>',
@@ -4261,7 +4279,14 @@ const MissionsModule = (function () {
       "type": "investigación", "closed": true, "fecha": "1952-10-30", "link": "/t523-investigacion-commander-s-orders", "tagged": ["edwin", "capitulo 0"],
 
       "cards": [],
-      "actions": {},
+      "actions": {
+        "veniens empathy": {
+          "leve": 'Una punzada desconocida recorre tu pecho. No sabes si es miedo, tristeza o algo más oscuro, pero permanece, como si no fuera tuya.',
+          "moderado": 'Te invade una emoción intensa y ajena. En tu mente, una imagen: tú, mirando al mar, sabiendo que algo se avecina. El miedo no es tuyo, pero te atrapa.',
+          "exitoso": 'El aire se torna denso, y una emoción clara surge en ti: desesperanza. No estás solo; puedes sentirla en todos los que estuvieron aquí antes. La tierra misma la recuerda.',
+          "critico": 'Una visión atraviesa tu cuerpo como una descarga: en este mismo lugar, pronto habrá llanto. Lágrimas verdaderas. Puedes sentirlas correr por tus mejillas sin saber por qué. Alguien grita, pero no de dolor: de pérdida.',
+        },
+      },
 
       "searchs": {
         "leer noticia 'nace la hija de las estrellas y los duelos'": {
@@ -6475,7 +6500,14 @@ const MissionsModule = (function () {
         },
       },
 
-      "actions": {},
+      "actions": {
+        "murmura futuri": {
+          "leve": 'Un murmullo comienza a escucharse en la lejanía: "se acerca...", pero no está claro qué.',
+          "moderado": 'El mar se escucha de fondo, incluso cuando no sabes dónde te encuentras. Puedes percibir palabras, pero no demasiado claras: "¡Cuidado!", "Se acerca", "Hay que frenarlo".',
+          "exitoso": 'La voz que habla es conocida, alguien que tenga un vínculo fuerte con el personaje: "Tienes que ayudarme, prometiste que me ayudarías ¿Por qué no me ayudas?" El mar oculta la mayoría de las palabras.',
+          "critico": 'El sonido del mar es claro y placentero. Hay una sensación de tranquilidad que rápidamente es cortada por una voz que comienza como un susurro y termina como grito: "Una ola negra se acerca".',
+        },
+      },
     },
     // tying loose ends
 
@@ -9552,6 +9584,12 @@ const MissionsModule = (function () {
       },
 
       "actions": {
+        "prophetia": {
+          "leve": 'Tus ojos se nublan por un momento. Una voz infantil, lejana e imposible de identificar, canta una nana en un idioma olvidado. Solo una palabra resuena claramente al final: "Ayuda". No recuerdas la visión, pero un escalofrío recorre tu espalda.',
+          "moderado": 'Ante tus ojos se dibuja un campo de flores marchitas. La tierra debajo se agrieta lentamente y de ella brota una sustancia oscura como tinta. Alguien pronuncia tu nombre desde el horizonte, y te dice: "Vendrá con el cuarto menguante". Solo recuerdas esa frase, aunque no sabes quién la dijo.',
+          "exitoso": 'Te encuentras en una sala desconocida, donde figuras encapuchadas se reúnen alrededor de un mapa. Uno de ellos se gira hacia ti y señala un punto marcado con una X negra. Dice: "Todo comenzó aquí, todo terminará igual". Cuando despiertas, recuerdas la escena con claridad, la X se encontraba en Londres.',
+          "critico": 'La voz se pierde en un eco. Una profecía naciente: "Una ola negra borrará los nombres, caerá los sabios, caerá la magia. Si alza la vista y vence el temor, podrá advertir del gran error. Once cuervos sellaron el paso, tejieron la grieta, torcieron el lazo. Ya no es de uno, ni de un elegido: el poder se encuentra en lo compartido."',
+        },
         "cordivivus": {
           "leve": '<span>El personaje puede despertar, pero se encontrará somniolento, no podrá realizar acciones hasta que el hechizo no sea aplicado correctamente.</span>',
           "moderado": '<span>El personaje despierta del sueño profundo.</span>',
