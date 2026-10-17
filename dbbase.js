@@ -173859,14 +173859,4 @@ const archivedBeans = [
     { topic: "gran", character: 'Regulus O. Black', bean: 'regaliz', url: "/t399p100-gran-caja-de-grageas#23194" },
     { topic: "gran", character: 'H. Shun Parkinson', bean: 'pasto', url: "/t399p100-gran-caja-de-grageas#23196" },
     { topic: "gran", character: 'H. Shun Parkinson', bean: 'malvavisco', url: "/t399p100-gran-caja-de-grageas#23196" },
-
-    { topic: "gran", character: 'Hankford B. Diggory', bean: 'vainilla', url: "/t399p120-gran-caja-de-grageas#23198" },
-    { topic: "gran", character: 'Neptune E. Merrythought', bean: 'cera de oídos', url: "/t399p120-gran-caja-de-grageas#23200" },
-    { topic: "gran", character: 'Neptune E. Merrythought', bean: 'miel', url: "/t399p120-gran-caja-de-grageas#23200" },
-    { topic: "gran", character: 'Neptune E. Merrythought', bean: 'manzana verde', url: "/t399p120-gran-caja-de-grageas#23200" },
-    { topic: "gran", character: 'Neptune E. Merrythought', bean: 'vainilla', url: "/t399p120-gran-caja-de-grageas#23200" },
-    { topic: "gran", character: 'Ruaan S. Patil', bean: 'tinta', url: "/t399p120-gran-caja-de-grageas#23202" },
-    { topic: "gran", character: 'Barnaby R. Rookwood', bean: 'tinta', url: "/t399p120-gran-caja-de-grageas#23204" },
-    { topic: "gran", character: 'Alastor Moody', bean: 'malvavisco', url: "/t399p120-gran-caja-de-grageas#23552" },
-    { topic: "gran", character: 'Alastor Moody', bean: 'galleta', url: "/t399p120-gran-caja-de-grageas#23552" },
 ];
