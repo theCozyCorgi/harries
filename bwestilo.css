@@ -10452,6 +10452,11 @@ a.forumtitle:hover {
   display: flex;
   flex-flow: column;
   gap: 12px;
+  /* ocupa todo el ancho disponible, también si el contenedor del perfil es flex */
+  box-sizing: border-box;
+  width: 100%;
+  flex: 1 1 100%;
+  min-width: 0;
   font: var(--style-primary);
   font-size: 13px;
   color: var(--mode-text-100);
@@ -10718,6 +10723,11 @@ button.bw-manifest-stat[aria-expanded="true"] {
 .bw-manifest-tipo:not(:disabled):hover,
 .bw-manifest-tipo[aria-expanded="true"] {
   background: var(--mode-back-100);
+}
+
+/* más tirados: la columna de la derecha lleva "91 · 53% éxito" */
+.bw-manifest-tipos.dados .bw-manifest-tipo {
+  grid-template-columns: minmax(90px, 150px) 1fr 105px;
 }
 
 /* compañía: el nombre del personaje necesita más lugar que el tipo de tema */
