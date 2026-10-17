@@ -10498,8 +10498,10 @@ a.forumtitle:hover {
 
 .bw-manifest-kicker {
   font: var(--style-link);
-  text-transform: uppercase;
-  opacity: .7;
+  font-family: var(--font-complemntary);
+  font-size: 13px;
+  letter-spacing: .5px;
+  opacity: .8;
 }
 
 .bw-manifest-title {
@@ -10637,9 +10639,11 @@ a.forumtitle:hover {
   color: var(--mode-back-60);
 }
 
+/* el dato principal de cada caja: Roboto mono en el peso más fuerte */
 .bw-manifest-stat strong {
+  font-family: var(--font-code);
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.1;
   color: var(--mode-text-100);
   font-variant-numeric: tabular-nums;
@@ -10728,6 +10732,25 @@ button.bw-manifest-stat[aria-expanded="true"] {
 /* más tirados: la columna de la derecha lleva "91 | 53% éxito" y debajo críticos y pifias */
 .bw-manifest-tipos.dados .bw-manifest-tipo {
   grid-template-columns: minmax(90px, 150px) 1fr auto;
+}
+
+/* números en Roboto mono, con el peso según cuánto importan: cajas 700, filas y gráficos 500, detalle 300 */
+.bw-manifest-tipo span:last-child,
+.bw-manifest-hist b,
+.bw-manifest-hist small,
+.bw-manifest-item::before {
+  font-family: var(--font-code);
+}
+
+.bw-manifest-tipo span:last-child,
+.bw-manifest-hist b {
+  font-weight: 500;
+}
+
+.bw-manifest-tipo span:last-child small,
+.bw-manifest-hist small,
+.bw-manifest-item::before {
+  font-weight: 300;
 }
 
 /* más tirados: críticos y pifias en un renglón chico debajo del resultado */
