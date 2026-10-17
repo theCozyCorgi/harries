@@ -10578,15 +10578,33 @@ a.forumtitle:hover {
   border-radius: 5px;
 }
 
-.bw-manifest-section h4 {
+/* títulos de sección y subtítulos: barra en bloque con el texto claro (mismo estilo que los widgets de staff) */
+.bw-manifest-section h4,
+.bw-manifest-sub {
+  display: block;
+  box-sizing: border-box;
+  width: auto !important;
   margin: 0 !important;
-  padding: 0 !important;
+  padding: 7px 12px !important;
   border: none !important;
+  border-radius: 3px;
+  background: var(--mode-back-70);
   font: var(--style-link);
   font-size: 10px !important;
+  text-align: left;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: var(--mode-back-60) !important;
+  color: var(--color-text-100) !important;
+}
+
+.bw-manifest-sub {
+  background: var(--mode-back-80);
+}
+
+.bw-manifest-section h4 small,
+.bw-manifest-sub small {
+  font-size: inherit;
+  opacity: .75;
 }
 
 .bw-manifest-stats {
@@ -10682,6 +10700,60 @@ button.bw-manifest-stat[aria-expanded="true"] {
   background: var(--mode-back-80);
 }
 
+/* temas por tipo: una fila por tipo con su barra */
+.bw-manifest-tipo {
+  display: grid;
+  grid-template-columns: minmax(90px, 130px) 1fr 70px;
+  align-items: center;
+  gap: 10px;
+  padding: 3px 6px;
+  border-radius: 3px;
+  font-size: 12px;
+}
+
+.bw-manifest-tipo:disabled {
+  cursor: default;
+}
+
+.bw-manifest-tipo:not(:disabled):hover,
+.bw-manifest-tipo[aria-expanded="true"] {
+  background: var(--mode-back-100);
+}
+
+/* compañía: el nombre del personaje necesita más lugar que el tipo de tema */
+.bw-manifest-tipos.compas .bw-manifest-tipo {
+  grid-template-columns: minmax(120px, 210px) 1fr 70px;
+}
+
+.bw-manifest-tipo > span:first-child {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.bw-manifest-tipo-bar {
+  height: 8px;
+  border-radius: 4px;
+  background: var(--mode-back-100);
+  overflow: hidden;
+}
+
+.bw-manifest-tipo-bar i {
+  display: block;
+  height: 100%;
+  border-radius: 4px;
+  background: var(--tipo);
+}
+
+.bw-manifest-tipo span:last-child {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.bw-manifest-tipo strong {
+  font-weight: 500;
+}
+
 /* evidencia */
 .bw-manifest-evidence {
   padding: 10px 12px;
@@ -10747,13 +10819,32 @@ button.bw-manifest-stat[aria-expanded="true"] {
   opacity: 1;
 }
 
-.bw-manifest-evidence ol {
-  margin: 0;
-  padding: 0 0 0 22px;
+/* lista con divs y flex (nunca ol/ul/li en FA); el número sale de un contador de CSS */
+.bw-manifest-list {
+  display: flex;
+  flex-flow: column;
+  gap: 2px;
   max-height: 260px;
   overflow-y: auto;
   font-size: 12px;
-  line-height: 1.7;
+  line-height: 1.6;
+  counter-reset: bw-manifest-item;
+}
+
+.bw-manifest-item {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  counter-increment: bw-manifest-item;
+}
+
+.bw-manifest-item::before {
+  content: counter(bw-manifest-item) ".";
+  flex: 0 0 24px;
+  text-align: right;
+  font-size: 10px;
+  opacity: .5;
+  font-variant-numeric: tabular-nums;
 }
 
 /* histograma 1–20 de los dados */
@@ -10822,12 +10913,6 @@ button.bw-manifest-stat[aria-expanded="true"] {
 }
 
 /* álbum de sabores de grageas */
-.bw-manifest-section h4 small {
-  font-size: 9px;
-  letter-spacing: 0;
-  opacity: .7;
-}
-
 .bw-manifest-beans {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
