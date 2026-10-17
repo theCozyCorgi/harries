@@ -10987,9 +10987,10 @@ button.bw-manifest-stat[aria-expanded="true"] {
   font-size: 11px;
 }
 
+/* la gragea: el ícono fa-beans-flavors (Font Awesome kit) en el color del sabor */
 .bw-manifest-bean-icon {
   flex: 0 0 auto;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 1;
   color: var(--bean);
   /* contorno suave para que los sabores oscuros (regaliz, vela negra) se vean en el fondo oscuro */
