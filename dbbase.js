@@ -168149,13 +168149,14 @@ const DBModule = (function () {
         {
             "pitcher": "Neptune E. Merrythought",
             "spread": [
-                4
+                4,
+                2
             ],
             "title": "grageas limitadas",
             "key": "",
             "knowledge": "",
             "type": "",
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Neptune E. Merrythought ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro4\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Tarta de Manzana</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: Adivinación, Alquimia, Aritmancia, Astronomía, CCM, Estudios Muggles o Runas Antiguas.</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Neptune E. Merrythought ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro4\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Tarta de Manzana</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: Adivinación, Alquimia, Aritmancia, Astronomía, CCM, Estudios Muggles o Runas Antiguas.</span><span class=\"roll-result nro2\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Jalea de Naranja</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: un conocimiento que aún no llegue a principiante o el conocimiento con más puntos que posea (no pueden ser habilidades/criaturas).</span></div></div></div>",
             "url": "r17782",
             "simpleTitle": "Tema Extra (1186)",
             "space": "Zona de Grageas"
@@ -168163,13 +168164,14 @@ const DBModule = (function () {
         {
             "pitcher": "Ksenia D. Demidova",
             "spread": [
-                6
+                6,
+                7
             ],
             "title": "grageas limitadas",
             "key": "",
             "knowledge": "",
             "type": "",
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Ksenia D. Demidova ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro6\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Pastel de limón</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: Liderazgo, Contrabando o Habilidades/Criaturas.</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Ksenia D. Demidova ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro6\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Pastel de limón</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: Liderazgo, Contrabando o Habilidades/Criaturas.</span><span class=\"roll-result nro7\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Ensalada de Fruta</strong>El personaje gana 200G y un punto de conocimiento a indicar a elección del personaje (no pueden ser habilidades/criaturas).</span></div></div></div>",
             "url": "r17798",
             "simpleTitle": "Tema Extra (1186)",
             "space": "Zona de Grageas"
@@ -168191,13 +168193,14 @@ const DBModule = (function () {
         {
             "pitcher": "H. Shun Parkinson",
             "spread": [
-                7
+                7,
+                3
             ],
             "title": "grageas limitadas",
             "key": "",
             "knowledge": "",
             "type": "",
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>H. Shun Parkinson ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro7\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Ensalada de Fruta</strong>El personaje gana 200G y un punto de conocimiento a indicar a elección del personaje (no pueden ser habilidades/criaturas).</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>H. Shun Parkinson ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro7\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Ensalada de Fruta</strong>El personaje gana 200G y un punto de conocimiento a indicar a elección del personaje (no pueden ser habilidades/criaturas).</span><span class=\"roll-result nro3\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Zumo de calabaza</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: Arte, Combate Físico, Curación, Música o Vuelo.</span></div></div></div>",
             "url": "r17875",
             "simpleTitle": "Tema Extra (1186)",
             "space": "Zona de Grageas"
@@ -168219,13 +168222,14 @@ const DBModule = (function () {
         {
             "pitcher": "Hermes Rosier",
             "spread": [
-                7
+                7,
+                2
             ],
             "title": "grageas limitadas",
             "key": "",
             "knowledge": "",
             "type": "",
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Hermes Rosier ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro7\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Ensalada de Fruta</strong>El personaje gana 200G y un punto de conocimiento a indicar a elección del personaje (no pueden ser habilidades/criaturas).</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Hermes Rosier ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro7\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Ensalada de Fruta</strong>El personaje gana 200G y un punto de conocimiento a indicar a elección del personaje (no pueden ser habilidades/criaturas).</span><span class=\"roll-result nro2\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Jalea de Naranja</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: un conocimiento que aún no llegue a principiante o el conocimiento con más puntos que posea (no pueden ser habilidades/criaturas).</span></div></div></div>",
             "url": "r17911",
             "simpleTitle": "Tema Extra (1186)",
             "space": "Zona de Grageas"
@@ -168415,13 +168419,14 @@ const DBModule = (function () {
         {
             "pitcher": "Alastor Moody",
             "spread": [
-                7
+                7,
+                4
             ],
             "title": "grageas limitadas",
             "key": "",
             "knowledge": "",
             "type": "",
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Alastor Moody ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro7\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Ensalada de Fruta</strong>El personaje gana 200G y un punto de conocimiento a indicar a elección del personaje (no pueden ser habilidades/criaturas).</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Alastor Moody ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro7\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Ensalada de Fruta</strong>El personaje gana 200G y un punto de conocimiento a indicar a elección del personaje (no pueden ser habilidades/criaturas).</span><span class=\"roll-result nro4\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Tarta de Manzana</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: Adivinación, Alquimia, Aritmancia, Astronomía, CCM, Estudios Muggles o Runas Antiguas.</span></div></div></div>",
             "url": "r18083",
             "simpleTitle": "Tema Extra (1186)",
             "space": "Zona de Grageas"
@@ -168513,13 +168518,14 @@ const DBModule = (function () {
         {
             "pitcher": "Minerva E. McGonagall",
             "spread": [
-                5
+                5,
+                6
             ],
             "title": "grageas limitadas",
             "key": "",
             "knowledge": "",
             "type": "",
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Minerva E. McGonagall ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro5\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Gelatina de Durazno</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: DCAO, Encantamientos, Herbología, Historia de la Magia, Pociones o Transformaciones.</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Minerva E. McGonagall ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro5\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Gelatina de Durazno</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: DCAO, Encantamientos, Herbología, Historia de la Magia, Pociones o Transformaciones.</span><span class=\"roll-result nro6\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Pastel de limón</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: Liderazgo, Contrabando o Habilidades/Criaturas.</span></div></div></div>",
             "url": "r18216",
             "simpleTitle": "Tema Extra (1186)",
             "space": "Zona de Grageas"
@@ -168555,13 +168561,14 @@ const DBModule = (function () {
         {
             "pitcher": "Jasper R. Gryffith",
             "spread": [
-                5
+                5,
+                4
             ],
             "title": "grageas limitadas",
             "key": "",
             "knowledge": "",
             "type": "",
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Jasper R. Gryffith ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro5\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Gelatina de Durazno</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: DCAO, Encantamientos, Herbología, Historia de la Magia, Pociones o Transformaciones.</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Jasper R. Gryffith ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro5\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Gelatina de Durazno</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: DCAO, Encantamientos, Herbología, Historia de la Magia, Pociones o Transformaciones.</span><span class=\"roll-result nro4\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Tarta de Manzana</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: Adivinación, Alquimia, Aritmancia, Astronomía, CCM, Estudios Muggles o Runas Antiguas.</span></div></div></div>",
             "url": "r18236",
             "simpleTitle": "Tema Extra (1186)",
             "space": "Zona de Grageas"
@@ -168611,13 +168618,14 @@ const DBModule = (function () {
         {
             "pitcher": "Alastor Moody",
             "spread": [
-                3
+                3,
+                5
             ],
             "title": "grageas limitadas",
             "key": "",
             "knowledge": "",
             "type": "",
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Alastor Moody ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro3\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Zumo de calabaza</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: Arte, Combate Físico, Curación, Música o Vuelo.</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Alastor Moody ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro3\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Zumo de calabaza</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: Arte, Combate Físico, Curación, Música o Vuelo.</span><span class=\"roll-result nro5\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Gelatina de Durazno</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: DCAO, Encantamientos, Herbología, Historia de la Magia, Pociones o Transformaciones.</span></div></div></div>",
             "url": "r18292",
             "simpleTitle": "Tema Extra (1186)",
             "space": "Zona de Grageas"
@@ -168653,13 +168661,14 @@ const DBModule = (function () {
         {
             "pitcher": "Uranus H. Merrythought",
             "spread": [
-                1
+                1,
+                5
             ],
             "title": "grageas limitadas",
             "key": "",
             "knowledge": "",
             "type": "",
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Uranus H. Merrythought ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro1\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Tierra</strong>Un poco desagradable, pero el personaje gana 50G.</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Uranus H. Merrythought ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro1\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Tierra</strong>Un poco desagradable, pero el personaje gana 50G.</span><span class=\"roll-result nro5\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Gelatina de Durazno</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: DCAO, Encantamientos, Herbología, Historia de la Magia, Pociones o Transformaciones.</span></div></div></div>",
             "url": "r18401",
             "simpleTitle": "Tema Extra (1186)",
             "space": "Zona de Grageas"
@@ -168681,13 +168690,14 @@ const DBModule = (function () {
         {
             "pitcher": "Ruairidh Ó Mhaille",
             "spread": [
-                5
+                5,
+                7
             ],
             "title": "grageas limitadas",
             "key": "",
             "knowledge": "",
             "type": "",
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Ruairidh Ó Mhaille ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro5\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Gelatina de Durazno</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: DCAO, Encantamientos, Herbología, Historia de la Magia, Pociones o Transformaciones.</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Ruairidh Ó Mhaille ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro5\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Gelatina de Durazno</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: DCAO, Encantamientos, Herbología, Historia de la Magia, Pociones o Transformaciones.</span><span class=\"roll-result nro7\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Ensalada de Fruta</strong>El personaje gana 200G y un punto de conocimiento a indicar a elección del personaje (no pueden ser habilidades/criaturas).</span></div></div></div>",
             "url": "r18416",
             "simpleTitle": "Tema Extra (1186)",
             "space": "Zona de Grageas"
@@ -168933,13 +168943,14 @@ const DBModule = (function () {
         {
             "pitcher": "Neptune E. Merrythought",
             "spread": [
+                3,
                 3
             ],
             "title": "grageas limitadas",
             "key": "",
             "knowledge": "",
             "type": "",
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Neptune E. Merrythought ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro3\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Zumo de calabaza</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: Arte, Combate Físico, Curación, Música o Vuelo.</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Neptune E. Merrythought ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro3\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Zumo de calabaza</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: Arte, Combate Físico, Curación, Música o Vuelo.</span><span class=\"roll-result nro3\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Zumo de calabaza</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: Arte, Combate Físico, Curación, Música o Vuelo.</span></div></div></div>",
             "url": "r18657",
             "simpleTitle": "Tema Extra (1186)",
             "space": "Zona de Grageas"
@@ -169017,13 +169028,14 @@ const DBModule = (function () {
         {
             "pitcher": "Viridian L. Greengrass",
             "spread": [
-                7
+                7,
+                5
             ],
             "title": "grageas limitadas",
             "key": "",
             "knowledge": "",
             "type": "",
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Viridian L. Greengrass ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro7\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Ensalada de Fruta</strong>El personaje gana 200G y un punto de conocimiento a indicar a elección del personaje (no pueden ser habilidades/criaturas).</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Viridian L. Greengrass ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro7\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Ensalada de Fruta</strong>El personaje gana 200G y un punto de conocimiento a indicar a elección del personaje (no pueden ser habilidades/criaturas).</span><span class=\"roll-result nro5\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Gelatina de Durazno</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: DCAO, Encantamientos, Herbología, Historia de la Magia, Pociones o Transformaciones.</span></div></div></div>",
             "url": "r18750",
             "simpleTitle": "Tema Extra (1186)",
             "space": "Zona de Grageas"
@@ -169101,13 +169113,14 @@ const DBModule = (function () {
         {
             "pitcher": "Margareth T. Moody",
             "spread": [
-                3
+                3,
+                2
             ],
             "title": "grageas limitadas",
             "key": "",
             "knowledge": "",
             "type": "",
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Margareth T. Moody ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro3\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Zumo de calabaza</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: Arte, Combate Físico, Curación, Música o Vuelo.</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Margareth T. Moody ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro3\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Zumo de calabaza</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: Arte, Combate Físico, Curación, Música o Vuelo.</span><span class=\"roll-result nro2\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Jalea de Naranja</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: un conocimiento que aún no llegue a principiante o el conocimiento con más puntos que posea (no pueden ser habilidades/criaturas).</span></div></div></div>",
             "url": "r18849",
             "simpleTitle": "Tema Extra (1186)",
             "space": "Zona de Grageas"
@@ -169157,13 +169170,14 @@ const DBModule = (function () {
         {
             "pitcher": "Minerva E. McGonagall",
             "spread": [
-                7
+                7,
+                2
             ],
             "title": "grageas limitadas",
             "key": "",
             "knowledge": "",
             "type": "",
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Minerva E. McGonagall ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro7\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Ensalada de Fruta</strong>El personaje gana 200G y un punto de conocimiento a indicar a elección del personaje (no pueden ser habilidades/criaturas).</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Minerva E. McGonagall ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro7\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Ensalada de Fruta</strong>El personaje gana 200G y un punto de conocimiento a indicar a elección del personaje (no pueden ser habilidades/criaturas).</span><span class=\"roll-result nro2\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Jalea de Naranja</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: un conocimiento que aún no llegue a principiante o el conocimiento con más puntos que posea (no pueden ser habilidades/criaturas).</span></div></div></div>",
             "url": "r18922",
             "simpleTitle": "Tema Extra (1186)",
             "space": "Zona de Grageas"
@@ -169199,13 +169213,14 @@ const DBModule = (function () {
         {
             "pitcher": "Jasper R. Gryffith",
             "spread": [
-                4
+                4,
+                7
             ],
             "title": "grageas limitadas",
             "key": "",
             "knowledge": "",
             "type": "",
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Jasper R. Gryffith ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro4\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Tarta de Manzana</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: Adivinación, Alquimia, Aritmancia, Astronomía, CCM, Estudios Muggles o Runas Antiguas.</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Jasper R. Gryffith ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro4\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Tarta de Manzana</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: Adivinación, Alquimia, Aritmancia, Astronomía, CCM, Estudios Muggles o Runas Antiguas.</span><span class=\"roll-result nro7\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Ensalada de Fruta</strong>El personaje gana 200G y un punto de conocimiento a indicar a elección del personaje (no pueden ser habilidades/criaturas).</span></div></div></div>",
             "url": "r18999",
             "simpleTitle": "Tema Extra (1186)",
             "space": "Zona de Grageas"
@@ -169227,13 +169242,14 @@ const DBModule = (function () {
         {
             "pitcher": "Alastor Moody",
             "spread": [
-                2
+                2,
+                3
             ],
             "title": "grageas limitadas",
             "key": "",
             "knowledge": "",
             "type": "",
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Alastor Moody ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro2\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Jalea de Naranja</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: un conocimiento que aún no llegue a principiante o el conocimiento con más puntos que posea (no pueden ser habilidades/criaturas).</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Alastor Moody ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro2\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Jalea de Naranja</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: un conocimiento que aún no llegue a principiante o el conocimiento con más puntos que posea (no pueden ser habilidades/criaturas).</span><span class=\"roll-result nro3\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Zumo de calabaza</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: Arte, Combate Físico, Curación, Música o Vuelo.</span></div></div></div>",
             "url": "r19032",
             "simpleTitle": "Tema Extra (1186)",
             "space": "Zona de Grageas"
@@ -169255,13 +169271,14 @@ const DBModule = (function () {
         {
             "pitcher": "Ruaan S. Patil",
             "spread": [
-                3
+                3,
+                1
             ],
             "title": "grageas limitadas",
             "key": "",
             "knowledge": "",
             "type": "",
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Ruaan S. Patil ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro3\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Zumo de calabaza</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: Arte, Combate Físico, Curación, Música o Vuelo.</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Ruaan S. Patil ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro3\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Zumo de calabaza</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: Arte, Combate Físico, Curación, Música o Vuelo.</span><span class=\"roll-result nro1\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Tierra</strong>Un poco desagradable, pero el personaje gana 50G.</span></div></div></div>",
             "url": "r19056",
             "simpleTitle": "Tema Extra (1186)",
             "space": "Zona de Grageas"
@@ -169367,13 +169384,14 @@ const DBModule = (function () {
         {
             "pitcher": "Findlay McCrory",
             "spread": [
+                6,
                 6
             ],
             "title": "grageas limitadas",
             "key": "",
             "knowledge": "",
             "type": "",
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Findlay McCrory ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro6\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Pastel de limón</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: Liderazgo, Contrabando o Habilidades/Criaturas.</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Findlay McCrory ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro6\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Pastel de limón</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: Liderazgo, Contrabando o Habilidades/Criaturas.</span><span class=\"roll-result nro6\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Pastel de limón</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: Liderazgo, Contrabando o Habilidades/Criaturas.</span></div></div></div>",
             "url": "r19178",
             "simpleTitle": "Tema Extra (1186)",
             "space": "Zona de Grageas"
@@ -169465,13 +169483,15 @@ const DBModule = (function () {
         {
             "pitcher": "H. Shun Parkinson",
             "spread": [
-                3
+                3,
+                6,
+                1
             ],
             "title": "grageas limitadas",
             "key": "",
             "knowledge": "",
             "type": "",
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>H. Shun Parkinson ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro3\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Zumo de calabaza</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: Arte, Combate Físico, Curación, Música o Vuelo.</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>H. Shun Parkinson ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro3\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Zumo de calabaza</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: Arte, Combate Físico, Curación, Música o Vuelo.</span><span class=\"roll-result nro6\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Pastel de limón</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: Liderazgo, Contrabando o Habilidades/Criaturas.</span><span class=\"roll-result nro1\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Tierra</strong>Un poco desagradable, pero el personaje gana 50G.</span></div></div></div>",
             "url": "r19283",
             "simpleTitle": "Tema Extra (1186)",
             "space": "Zona de Grageas"
@@ -169535,13 +169555,14 @@ const DBModule = (function () {
         {
             "pitcher": "Asteria C. Lestrange",
             "spread": [
-                7
+                7,
+                6
             ],
             "title": "grageas limitadas",
             "key": "",
             "knowledge": "",
             "type": "",
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Asteria C. Lestrange ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro7\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Ensalada de Fruta</strong>El personaje gana 200G y un punto de conocimiento a indicar a elección del personaje (no pueden ser habilidades/criaturas).</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Asteria C. Lestrange ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro7\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Ensalada de Fruta</strong>El personaje gana 200G y un punto de conocimiento a indicar a elección del personaje (no pueden ser habilidades/criaturas).</span><span class=\"roll-result nro6\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Pastel de limón</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: Liderazgo, Contrabando o Habilidades/Criaturas.</span></div></div></div>",
             "url": "r19344",
             "simpleTitle": "Tema Extra (1186)",
             "space": "Zona de Grageas"
@@ -169549,13 +169570,14 @@ const DBModule = (function () {
         {
             "pitcher": "Vasilisa M. Kuznetzova",
             "spread": [
-                3
+                3,
+                6
             ],
             "title": "grageas limitadas",
             "key": "",
             "knowledge": "",
             "type": "",
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro3\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Zumo de calabaza</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: Arte, Combate Físico, Curación, Música o Vuelo.</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-grageas-limitadas\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"grageas limitadas\"</span><div class=\"dice-results\"><span class=\"roll-result nro3\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Zumo de calabaza</strong>El personaje gana 50G y un punto de conocimiento a indicar entre: Arte, Combate Físico, Curación, Música o Vuelo.</span><span class=\"roll-result nro6\"><i class=\"fa-kit fa-beans-flavors\"></i><strong>Gragea de Pastel de limón</strong>El personaje gana 100G y un punto de conocimiento a indicar entre: Liderazgo, Contrabando o Habilidades/Criaturas.</span></div></div></div>",
             "url": "r19346",
             "simpleTitle": "Tema Extra (1186)",
             "space": "Zona de Grageas"
@@ -173477,208 +173499,196 @@ const archivedMoney = [
 ];
 const archivedBeans = [
     // reserva especial: aniversario 1
-    { topic: "ani1a", character: 'Alastor Moody', bean: 'pastel de limón' },
-    { topic: "ani1a", character: 'Findlay McCrory', bean: 'tierra' },
-    { topic: "ani1a", character: 'Hermes Rosier', bean: 'ensalada de fruta' },
-    { topic: "ani1a", character: 'Montgomery Thatch', bean: 'zumo de calabaza' },
-    { topic: "ani1a", character: 'Jasper R. Gryffith', bean: 'zumo de calabaza' },
-
-    { topic: "ani1a", character: 'Ruairidh Ó Mhaille', bean: 'gelatina de durazno' },
-    { topic: "ani1a", character: 'Viridian L. Greengrass', bean: 'tierra' },
-    { topic: "ani1a", character: 'Ksenia D. Demidova', bean: 'gelatina de durazno' },
-    { topic: "ani1a", character: 'Jupiter Merrythought', bean: 'jalea de naranja' },
-    { topic: "ani1a", character: 'Uranus H. Merrythought', bean: 'pastel de limón' },
-    { topic: "ani1a", character: 'Elysia G. Lestrange', bean: 'pastel de limón' },
-    { topic: "ani1a", character: 'Sloane N. Greengrass', bean: 'tierra' },
-    { topic: "ani1a", character: 'Harmony M. Flynn', bean: 'pastel de limón' },
-    { topic: "ani1a", character: 'Alastor Moody', bean: 'tarta de manzana' },
-    { topic: "ani1a", character: 'Uranus H. Merrythought', bean: 'gelatina de durazno' },
-
-    { topic: "ani1a", character: 'Orion A. Black', bean: 'ensalada de fruta' },
-    { topic: "ani1a", character: 'Asteria C. Lestrange', bean: 'tierra' },
-    { topic: "ani1a", character: 'Vasilisa M. Kuznetzova', bean: 'pastel de limón' },
-    { topic: "ani1a", character: 'Kaoru Satoo', bean: 'gelatina de durazno' },
-    { topic: "ani1a", character: 'Thaddeus L. Nott', bean: 'gelatina de durazno' },
-    { topic: "ani1a", character: 'Venus M. Merrythought', bean: 'pastel de limón' },
-    { topic: "ani1a", character: 'Aidan N. Flamel', bean: 'ensalada de fruta' },
-    { topic: "ani1a", character: 'Ishwar S. Patil', bean: 'pastel de limón' },
-    { topic: "ani1a", character: 'Gavril A. Ollivander', bean: 'jalea de naranja' },
-    { topic: "ani1a", character: 'Regulus O. Black', bean: 'ensalada de fruta' },
-
-    { topic: "ani1a", character: 'Orion A. Black', bean: 'ensalada de fruta' },
-    { topic: "ani1a", character: 'Minerva E. McGonagall', bean: 'gelatina de durazno' },
-    { topic: "ani1a", character: 'H. Shun Parkinson', bean: 'tierra' },
-    { topic: "ani1a", character: 'Theolonius D. Covey', bean: 'tarta de manzana' },
-    { topic: "ani1a", character: 'Hankford B. Diggory', bean: 'ensalada de fruta' },
-    { topic: "ani1a", character: 'Neptune E. Merrythought', bean: 'tierra' },
-    { topic: "ani1a", character: 'Ruaan S. Patil', bean: 'gelatina de durazno' },
-    { topic: "ani1a", character: 'Barnaby R. Rookwood', bean: 'pastel de limón' },
-    { topic: "ani1a", character: 'Margareth T. Moody', bean: 'zumo de calabaza' },
-    { topic: "ani1a", character: 'Jupiter Merrythought', bean: 'gelatina de durazno' },
-    { topic: "ani1a", character: 'Neptune E. Merrythought', bean: 'zumo de calabaza' },
-
-    { topic: "ani1a", character: 'Vasilisa M. Kuznetzova', bean: 'zumo de calabaza' },
-    { topic: "ani1a", character: 'Alastor Moody', bean: 'pastel de limón' },
-    { topic: "ani1a", character: 'Viridian L. Greengrass', bean: 'zumo de calabaza' },
-    { topic: "ani1a", character: 'Montgomery Thatch', bean: 'ensalada de fruta' },
-    { topic: "ani1a", character: 'Sloane N. Greengrass', bean: 'ensalada de fruta' },
-    { topic: "ani1a", character: 'Ruaan S. Patil', bean: 'tarta de manzana' },
-    { topic: "ani1a", character: 'Jupiter Merrythought', bean: 'tierra' },
-    { topic: "ani1a", character: 'Uranus H. Merrythought', bean: 'zumo de calabaza' },
-
-    { topic: "ani1a", character: 'Alastor Moody', bean: 'pastel de limón' },
-    { topic: "ani1a", character: 'Minerva E. McGonagall', bean: 'pastel de limón' },
-    { topic: "ani1a", character: 'Regulus O. Black', bean: 'zumo de calabaza' },
-    { topic: "ani1a", character: 'Hankford B. Diggory', bean: 'tarta de manzana' },
-    { topic: "ani1a", character: 'Montgomery Thatch', bean: 'gelatina de durazno' },
-    { topic: "ani1a", character: 'Elysia G. Lestrange', bean: 'ensalada de fruta' },
-    { topic: "ani1a", character: 'Jupiter Merrythought', bean: 'jalea de naranja' },
-    { topic: "ani1a", character: 'Alastor Moody', bean: 'ensalada de fruta' },
-
-    { topic: "ani1a", character: 'Elysia G. Lestrange', bean: 'jalea de naranja' },
-    { topic: "ani1a", character: 'Neptune E. Merrythought', bean: 'tarta de manzana' },
-    { topic: "ani1a", character: 'Neptune E. Merrythought', bean: 'jalea de naranja' },
-    { topic: "ani1a", character: 'Ksenia D. Demidova', bean: 'pastel de limón' },
-    { topic: "ani1a", character: 'Ksenia D. Demidova', bean: 'ensalada de fruta' },
-    { topic: "ani1a", character: 'Minerva E. McGonagall', bean: 'tierra' },
-    { topic: "ani1a", character: 'H. Shun Parkinson', bean: 'ensalada de fruta' },
-    { topic: "ani1a", character: 'H. Shun Parkinson', bean: 'zumo de calabaza' },
-    { topic: "ani1a", character: 'Montgomery Thatch', bean: 'zumo de calabaza' },
-    { topic: "ani1a", character: 'Hermes Rosier', bean: 'ensalada de fruta' },
-    { topic: "ani1a", character: 'Hermes Rosier', bean: 'jalea de naranja' },
-    { topic: "ani1a", character: 'Jupiter Merrythought', bean: 'ensalada de fruta' },
-    { topic: "ani1a", character: 'Mercury Merrythought', bean: 'jalea de naranja' },
-    { topic: "ani1a", character: 'Lucretia Black-Prewett', bean: 'ensalada de fruta' },
-
-    //8
-    { topic: "ani1a", character: 'Sloane N. Greengrass', bean: 'zumo de calabaza' },
-    { topic: "ani1a", character: 'H. Shun Parkinson', bean: 'jalea de naranja' },
-    { topic: "ani1a", character: 'Jupiter Merrythought', bean: 'gelatina de durazno' },
-    { topic: "ani1a", character: 'Thyme T. Nott', bean: 'jalea de naranja' },
-    { topic: "ani1a", character: 'Alastor Moody', bean: 'tierra' },
-    { topic: "ani1a", character: 'Margareth T. Moody', bean: 'tarta de manzana' },
-    { topic: "ani1a", character: 'Gavril A. Ollivander', bean: 'tierra' },
-    { topic: "ani1a", character: 'Findlay McCrory', bean: 'gelatina de durazno' },
-    { topic: "ani1a", character: 'Lucretia Black-Prewett', bean: 'gelatina de durazno' },
-
-    //9   
-    { topic: "ani1a", character: 'Alastor Moody', bean: 'ensalada de fruta' },
-    { topic: "ani1a", character: 'Alastor Moody', bean: 'tarta de manzana' },
-    { topic: "ani1a", character: 'Orion A. Black', bean: 'ensalada de fruta' },
-    { topic: "ani1a", character: 'Montgomery Thatch', bean: 'gelatina de durazno' },
-    { topic: "ani1a", character: 'Cuthbert S. Selwyn', bean: 'ensalada de fruta' },
-    { topic: "ani1a", character: 'Sloane N. Greengrass', bean: 'jalea de naranja' },
-    { topic: "ani1a", character: 'Owen Fitzgerald', bean: 'tierra' },
-    { topic: "ani1a", character: 'Jupiter Merrythought', bean: 'jalea de naranja' },
-    { topic: "ani1a", character: 'Minerva E. McGonagall', bean: 'gelatina de durazno' },
-    { topic: "ani1a", character: 'Minerva E. McGonagall', bean: 'pastel de limón' },
-
-    //10  
-    { topic: "ani1a", character: 'Jasper R. Gryffith', bean: 'gelatina de durazno' },
-    { topic: "ani1a", character: 'Jasper R. Gryffith', bean: 'tarta de manzana' },
-    { topic: "ani1a", character: 'Thyme T. Nott', bean: 'pastel de limón' },
-    { topic: "ani1a", character: 'H. Shun Parkinson', bean: 'ensalada de fruta' },
-    { topic: "ani1a", character: 'Theolonius D. Covey', bean: 'zumo de calabaza' },
-    { topic: "ani1a", character: 'Alastor Moody', bean: 'zumo de calabaza' },
-    { topic: "ani1a", character: 'Alastor Moody', bean: 'gelatina de durazno' },
-    { topic: "ani1a", character: 'Montgomery Thatch', bean: 'tierra' },
-    { topic: "ani1a", character: 'Uranus H. Merrythought', bean: 'tierra' },
-    { topic: "ani1a", character: 'Uranus H. Merrythought', bean: 'gelatina de durazno' },
-
-    //11  
-    { topic: "ani1a", character: 'Jupiter Merrythought', bean: 'pastel de limón' },
-    { topic: "ani1a", character: 'Ruairidh Ó Mhaille', bean: 'gelatina de durazno' },
-    { topic: "ani1a", character: 'Ruairidh Ó Mhaille', bean: 'ensalada de fruta' },
-    { topic: "ani1a", character: 'Owen Fitzgerald', bean: 'tierra' },
-    { topic: "ani1a", character: 'Venus M. Merrythought', bean: 'gelatina de durazno' },
-    { topic: "ani1a", character: 'Montgomery Thatch', bean: 'jalea de naranja' },
-    { topic: "ani1a", character: 'Regulus O. Black', bean: 'tierra' },
-    { topic: "ani1a", character: 'Hankford B. Diggory', bean: 'gelatina de durazno' },
-    { topic: "ani1a", character: 'Asteria C. Lestrange', bean: 'zumo de calabaza' },
-    { topic: "ani1a", character: 'Vasilisa M. Kuznetzova', bean: 'tierra' },
-    { topic: "ani1a", character: 'Aidan N. Flamel', bean: 'zumo de calabaza' },
-
-    //12  
-    { topic: "ani1a", character: 'Thaddeus L. Nott', bean: 'ensalada de fruta' },
-    { topic: "ani1a", character: 'Kaoru Satoo', bean: 'gelatina de durazno' },
-    { topic: "ani1a", character: 'Montgomery Thatch', bean: 'zumo de calabaza' },
-    { topic: "ani1a", character: 'Thyme T. Nott', bean: 'ensalada de fruta' },
-    { topic: "ani1a", character: 'Montgomery Thatch', bean: 'zumo de calabaza' },
-    { topic: "ani1a", character: 'Jupiter Merrythought', bean: 'zumo de calabaza' },
-    { topic: "ani1a", character: 'Alastor Moody', bean: 'zumo de calabaza' },
-    { topic: "ani1a", character: 'Sloane N. Greengrass', bean: 'zumo de calabaza' },
-    { topic: "ani1a", character: 'Ishwar S. Patil', bean: 'tarta de manzana' },
-    { topic: "ani1a", character: 'Neptune E. Merrythought', bean: 'zumo de calabaza' },
-    { topic: "ani1a", character: 'Neptune E. Merrythought', bean: 'zumo de calabaza' },
-
-    //13 
-    { topic: "ani1a", character: 'Jupiter Merrythought', bean: 'zumo de calabaza' },
-    { topic: "ani1a", character: 'Neptune E. Merrythought', bean: 'jalea de naranja' },
-    { topic: "ani1a", character: 'H. Shun Parkinson', bean: 'zumo de calabaza' },
-    { topic: "ani1a", character: 'Alastor Moody', bean: 'zumo de calabaza' },
-    { topic: "ani1a", character: 'Ksenia D. Demidova', bean: 'gelatina de durazno' },
-    { topic: "ani1a", character: 'Viridian L. Greengrass', bean: 'ensalada de fruta' },
-    { topic: "ani1a", character: 'Viridian L. Greengrass', bean: 'gelatina de durazno' },
-    { topic: "ani1a", character: 'Lucretia Black-Prewett', bean: 'zumo de calabaza' },
-    { topic: "ani1a", character: 'Mercury Merrythought', bean: 'tarta de manzana' },
-    { topic: "ani1a", character: 'A. Ignatius Prewett', bean: 'zumo de calabaza' },
-
-    //14 
-    { topic: "ani1a", character: 'Iarlaith C. Sayre', bean: 'pastel de limón' },
-    { topic: "ani1a", character: 'Thyme T. Nott', bean: 'jalea de naranja' },
-    { topic: "ani1a", character: 'Margareth T. Moody', bean: 'zumo de calabaza' },
-    { topic: "ani1a", character: 'Margareth T. Moody', bean: 'jalea de naranja' },
-    { topic: "ani1a", character: 'Barnaby R. Rookwood', bean: 'jalea de naranja' },
-    { topic: "ani1a", character: 'H. Shun Parkinson', bean: 'tarta de manzana' },
-    { topic: "ani1a", character: 'Alastor Moody', bean: 'gelatina de durazno' },
-    { topic: "ani1a", character: 'Minerva E. McGonagall', bean: 'ensalada de fruta' },
-    { topic: "ani1a", character: 'Minerva E. McGonagall', bean: 'jalea de naranja' },
-    { topic: "ani1a", character: 'Theolonius D. Covey', bean: 'tierra' },
-    { topic: "ani1a", character: 'Montgomery Thatch', bean: 'gelatina de durazno' },
-    { topic: "ani1a", character: 'Jasper R. Gryffith', bean: 'ensalada de fruta' },
-    { topic: "ani1a", character: 'Jasper R. Gryffith', bean: 'tarta de manzana' },
-
-    //15 	  
-    { topic: "ani1a", character: 'Jupiter Merrythought', bean: 'jalea de naranja' },
-    { topic: "ani1a", character: 'Alastor Moody', bean: 'jalea de naranja' },
-    { topic: "ani1a", character: 'Alastor Moody', bean: 'zumo de calabaza' },
-    { topic: "ani1a", character: 'Ruaan S. Patil', bean: 'zumo de calabaza' },
-    { topic: "ani1a", character: 'Ruaan S. Patil', bean: 'tierra' },
-    { topic: "ani1a", character: 'Hermes Rosier', bean: 'tarta de manzana' },
-    { topic: "ani1a", character: 'Thyme T. Nott', bean: 'zumo de calabaza' },
-    { topic: "ani1a", character: 'Jupiter Merrythought', bean: 'zumo de calabaza' },
-
-    //16 	 
-    { topic: "ani1a", character: 'Montgomery Thatch', bean: 'tarta de manzana' },
-    { topic: "ani1a", character: 'Findlay McCrory', bean: 'pastel de limón' },
-    { topic: "ani1a", character: 'Findlay McCrory', bean: 'pastel de limón' },
-    { topic: "ani1a", character: 'Thyme T. Nott', bean: 'gelatina de durazno' },
-    { topic: "ani1a", character: 'Montgomery Thatch', bean: 'zumo de calabaza' },
-    { topic: "ani1a", character: 'Elysia G. Lestrange', bean: 'gelatina de durazno' },
-    { topic: "ani1a", character: 'Alastor Moody', bean: 'jalea de naranja' },
-    { topic: "ani1a", character: 'Jupiter Merrythought', bean: 'zumo de calabaza' },
-
-    //17 	 	 	  
-    { topic: "ani1a", character: 'H. Shun Parkinson', bean: 'zumo de calabaza' },
-    { topic: "ani1a", character: 'H. Shun Parkinson', bean: 'pastel de limón' },
-    { topic: "ani1a", character: 'H. Shun Parkinson', bean: 'tierra' },
-    { topic: "ani1a", character: 'Alastor Moody', bean: 'tarta de manzana' },
-    { topic: "ani1a", character: 'Margareth T. Moody', bean: 'tarta de manzana' },
-    { topic: "ani1a", character: 'Hankford B. Diggory', bean: 'zumo de calabaza' },
-    { topic: "ani1a", character: 'Orion A. Black', bean: 'jalea de naranja' },
-    { topic: "ani1a", character: 'Asteria C. Lestrange', bean: 'ensalada de fruta' },
-    { topic: "ani1a", character: 'Asteria C. Lestrange', bean: 'pastel de limón' },
-    { topic: "ani1a", character: 'Vasilisa M. Kuznetzova', bean: 'zumo de calabaza' },
-    { topic: "ani1a", character: 'Vasilisa M. Kuznetzova', bean: 'pastel de limón' },
-    { topic: "ani1a", character: 'Kaoru Satoo', bean: 'pastel de limón' },
-    { topic: "ani1a", character: 'Aidan N. Flamel', bean: 'gelatina de durazno' },
-
-    { topic: "ani1a", character: 'Thaddeus L. Nott', bean: 'zumo de calabaza' },
-    { topic: "ani1a", character: 'Venus M. Merrythought', bean: 'ensalada de fruta' },
-    { topic: "ani1a", character: 'Gavril A. Ollivander', bean: 'zumo de calabaza' },
-    { topic: "ani1a", character: 'Montgomery Thatch', bean: 'gelatina de durazno' },
-    { topic: "ani1a", character: 'Minerva E. McGonagall', bean: 'zumo de calabaza' },
-    { topic: "ani1a", character: 'Jupiter Merrythought', bean: 'zumo de calabaza' },
+    { topic: "ani1a", character: 'Cuthbert S. Selwyn', bean: 'ensalada de fruta', url: "/t1186-grageas-bertie-bott-i-reserva-especial#17202" },
+    { topic: "ani1a", character: 'Iarlaith C. Sayre', bean: 'tierra', url: "/t1186-grageas-bertie-bott-i-reserva-especial#17206" },
+    { topic: "ani1a", character: 'Antares Z. Bennett', bean: 'gelatina de durazno', url: "/t1186-grageas-bertie-bott-i-reserva-especial#17209" },
+    { topic: "ani1a", character: 'Damien A. Ashford-Dempsey', bean: 'ensalada de fruta', url: "/t1186-grageas-bertie-bott-i-reserva-especial#17213" },
+    { topic: "ani1a", character: 'Mercury Merrythought', bean: 'ensalada de fruta', url: "/t1186-grageas-bertie-bott-i-reserva-especial#17219" },
+    { topic: "ani1a", character: 'Alastor Moody', bean: 'pastel de limón', url: "/t1186-grageas-bertie-bott-i-reserva-especial#17227" },
+    { topic: "ani1a", character: 'Findlay McCrory', bean: 'tierra', url: "/t1186-grageas-bertie-bott-i-reserva-especial#17230" },
+    { topic: "ani1a", character: 'Hermes Rosier', bean: 'ensalada de fruta', url: "/t1186-grageas-bertie-bott-i-reserva-especial#17236" },
+    { topic: "ani1a", character: 'Montgomery Thatch', bean: 'zumo de calabaza', url: "/t1186-grageas-bertie-bott-i-reserva-especial#17238" },
+    { topic: "ani1a", character: 'Jasper R. Gryffith', bean: 'zumo de calabaza', url: "/t1186p20-grageas-bertie-bott-i-reserva-especial#17242" },
+    { topic: "ani1a", character: 'Ruairidh Ó Mhaille', bean: 'gelatina de durazno', url: "/t1186p20-grageas-bertie-bott-i-reserva-especial#17246" },
+    { topic: "ani1a", character: 'Viridian L. Greengrass', bean: 'tierra', url: "/t1186p20-grageas-bertie-bott-i-reserva-especial#17250" },
+    { topic: "ani1a", character: 'Ksenia D. Demidova', bean: 'gelatina de durazno', url: "/t1186p20-grageas-bertie-bott-i-reserva-especial#17254" },
+    { topic: "ani1a", character: 'Jupiter Merrythought', bean: 'jalea de naranja', url: "/t1186p20-grageas-bertie-bott-i-reserva-especial#17256" },
+    { topic: "ani1a", character: 'Uranus H. Merrythought', bean: 'pastel de limón', url: "/t1186p20-grageas-bertie-bott-i-reserva-especial#17266" },
+    { topic: "ani1a", character: 'Elysia G. Lestrange', bean: 'pastel de limón', url: "/t1186p20-grageas-bertie-bott-i-reserva-especial#17269" },
+    { topic: "ani1a", character: 'Sloane N. Greengrass', bean: 'tierra', url: "/t1186p20-grageas-bertie-bott-i-reserva-especial#17271" },
+    { topic: "ani1a", character: 'Harmony M. Flynn', bean: 'pastel de limón', url: "/t1186p20-grageas-bertie-bott-i-reserva-especial#17273" },
+    { topic: "ani1a", character: 'Alastor Moody', bean: 'tarta de manzana', url: "/t1186p20-grageas-bertie-bott-i-reserva-especial#17286" },
+    { topic: "ani1a", character: 'Uranus H. Merrythought', bean: 'gelatina de durazno', url: "/t1186p40-grageas-bertie-bott-i-reserva-especial#17290" },
+    { topic: "ani1a", character: 'Orion A. Black', bean: 'ensalada de fruta', url: "/t1186p40-grageas-bertie-bott-i-reserva-especial#17301" },
+    { topic: "ani1a", character: 'Asteria C. Lestrange', bean: 'tierra', url: "/t1186p40-grageas-bertie-bott-i-reserva-especial#17307" },
+    { topic: "ani1a", character: 'Vasilisa M. Kuznetzova', bean: 'pastel de limón', url: "/t1186p40-grageas-bertie-bott-i-reserva-especial#17309" },
+    { topic: "ani1a", character: 'Kaoru Satoo', bean: 'gelatina de durazno', url: "/t1186p40-grageas-bertie-bott-i-reserva-especial#17311" },
+    { topic: "ani1a", character: 'Thaddeus L. Nott', bean: 'gelatina de durazno', url: "/t1186p40-grageas-bertie-bott-i-reserva-especial#17313" },
+    { topic: "ani1a", character: 'Venus M. Merrythought', bean: 'pastel de limón', url: "/t1186p40-grageas-bertie-bott-i-reserva-especial#17315" },
+    { topic: "ani1a", character: 'Aidan N. Flamel', bean: 'ensalada de fruta', url: "/t1186p40-grageas-bertie-bott-i-reserva-especial#17317" },
+    { topic: "ani1a", character: 'Ishwar S. Patil', bean: 'pastel de limón', url: "/t1186p40-grageas-bertie-bott-i-reserva-especial#17320" },
+    { topic: "ani1a", character: 'Gavril A. Ollivander', bean: 'jalea de naranja', url: "/t1186p40-grageas-bertie-bott-i-reserva-especial#17322" },
+    { topic: "ani1a", character: 'Regulus O. Black', bean: 'ensalada de fruta', url: "/t1186p60-grageas-bertie-bott-i-reserva-especial#17369" },
+    { topic: "ani1a", character: 'Minerva E. McGonagall', bean: 'gelatina de durazno', url: "/t1186p60-grageas-bertie-bott-i-reserva-especial#17371" },
+    { topic: "ani1a", character: 'H. Shun Parkinson', bean: 'tierra', url: "/t1186p60-grageas-bertie-bott-i-reserva-especial#17373" },
+    { topic: "ani1a", character: 'Theolonius D. Covey', bean: 'tarta de manzana', url: "/t1186p60-grageas-bertie-bott-i-reserva-especial#17375" },
+    { topic: "ani1a", character: 'Hankford B. Diggory', bean: 'ensalada de fruta', url: "/t1186p60-grageas-bertie-bott-i-reserva-especial#17377" },
+    { topic: "ani1a", character: 'Neptune E. Merrythought', bean: 'tierra', url: "/t1186p60-grageas-bertie-bott-i-reserva-especial#17379" },
+    { topic: "ani1a", character: 'Ruaan S. Patil', bean: 'gelatina de durazno', url: "/t1186p60-grageas-bertie-bott-i-reserva-especial#17381" },
+    { topic: "ani1a", character: 'Barnaby R. Rookwood', bean: 'pastel de limón', url: "/t1186p60-grageas-bertie-bott-i-reserva-especial#17383" },
+    { topic: "ani1a", character: 'Margareth T. Moody', bean: 'zumo de calabaza', url: "/t1186p60-grageas-bertie-bott-i-reserva-especial#17385" },
+    { topic: "ani1a", character: 'Jupiter Merrythought', bean: 'gelatina de durazno', url: "/t1186p60-grageas-bertie-bott-i-reserva-especial#17405" },
+    { topic: "ani1a", character: 'Neptune E. Merrythought', bean: 'zumo de calabaza', url: "/t1186p80-grageas-bertie-bott-i-reserva-especial#17434" },
+    { topic: "ani1a", character: 'Astraea M. Burke', bean: 'zumo de calabaza', url: "/t1186p80-grageas-bertie-bott-i-reserva-especial#17457" },
+    { topic: "ani1a", character: 'Vasilisa M. Kuznetzova', bean: 'zumo de calabaza', url: "/t1186p80-grageas-bertie-bott-i-reserva-especial#17465" },
+    { topic: "ani1a", character: 'Alastor Moody', bean: 'pastel de limón', url: "/t1186p80-grageas-bertie-bott-i-reserva-especial#17479" },
+    { topic: "ani1a", character: 'Viridian L. Greengrass', bean: 'zumo de calabaza', url: "/t1186p80-grageas-bertie-bott-i-reserva-especial#17497" },
+    { topic: "ani1a", character: 'Montgomery Thatch', bean: 'ensalada de fruta', url: "/t1186p80-grageas-bertie-bott-i-reserva-especial#17516" },
+    { topic: "ani1a", character: 'Sloane N. Greengrass', bean: 'ensalada de fruta', url: "/t1186p80-grageas-bertie-bott-i-reserva-especial#17518" },
+    { topic: "ani1a", character: 'Ruaan S. Patil', bean: 'tarta de manzana', url: "/t1186p80-grageas-bertie-bott-i-reserva-especial#17556" },
+    { topic: "ani1a", character: 'Jupiter Merrythought', bean: 'tierra', url: "/t1186p80-grageas-bertie-bott-i-reserva-especial#17567" },
+    { topic: "ani1a", character: 'Uranus H. Merrythought', bean: 'zumo de calabaza', url: "/t1186p80-grageas-bertie-bott-i-reserva-especial#17577" },
+    { topic: "ani1a", character: 'Alastor Moody', bean: 'pastel de limón', url: "/t1186p100-grageas-bertie-bott-i-reserva-especial#17609" },
+    { topic: "ani1a", character: 'Minerva E. McGonagall', bean: 'pastel de limón', url: "/t1186p100-grageas-bertie-bott-i-reserva-especial#17620" },
+    { topic: "ani1a", character: 'Regulus O. Black', bean: 'zumo de calabaza', url: "/t1186p100-grageas-bertie-bott-i-reserva-especial#17644" },
+    { topic: "ani1a", character: 'Hankford B. Diggory', bean: 'tarta de manzana', url: "/t1186p100-grageas-bertie-bott-i-reserva-especial#17655" },
+    { topic: "ani1a", character: 'Montgomery Thatch', bean: 'gelatina de durazno', url: "/t1186p100-grageas-bertie-bott-i-reserva-especial#17675" },
+    { topic: "ani1a", character: 'Astraea M. Burke', bean: 'gelatina de durazno', url: "/t1186p100-grageas-bertie-bott-i-reserva-especial#17689" },
+    { topic: "ani1a", character: 'Elysia G. Lestrange', bean: 'ensalada de fruta', url: "/t1186p100-grageas-bertie-bott-i-reserva-especial#17696" },
+    { topic: "ani1a", character: 'Jupiter Merrythought', bean: 'jalea de naranja', url: "/t1186p100-grageas-bertie-bott-i-reserva-especial#17723" },
+    { topic: "ani1a", character: 'Alastor Moody', bean: 'ensalada de fruta', url: "/t1186p100-grageas-bertie-bott-i-reserva-especial#17738" },
+    { topic: "ani1a", character: 'Elysia G. Lestrange', bean: 'jalea de naranja', url: "/t1186p120-grageas-bertie-bott-i-reserva-especial#17752" },
+    { topic: "ani1a", character: 'Neptune E. Merrythought', bean: 'tarta de manzana', url: "/t1186p120-grageas-bertie-bott-i-reserva-especial#17782" },
+    { topic: "ani1a", character: 'Neptune E. Merrythought', bean: 'jalea de naranja', url: "/t1186p120-grageas-bertie-bott-i-reserva-especial#17782" },
+    { topic: "ani1a", character: 'Ksenia D. Demidova', bean: 'pastel de limón', url: "/t1186p120-grageas-bertie-bott-i-reserva-especial#17798" },
+    { topic: "ani1a", character: 'Ksenia D. Demidova', bean: 'ensalada de fruta', url: "/t1186p120-grageas-bertie-bott-i-reserva-especial#17798" },
+    { topic: "ani1a", character: 'Minerva E. McGonagall', bean: 'tierra', url: "/t1186p120-grageas-bertie-bott-i-reserva-especial#17855" },
+    { topic: "ani1a", character: 'H. Shun Parkinson', bean: 'ensalada de fruta', url: "/t1186p120-grageas-bertie-bott-i-reserva-especial#17875" },
+    { topic: "ani1a", character: 'H. Shun Parkinson', bean: 'zumo de calabaza', url: "/t1186p120-grageas-bertie-bott-i-reserva-especial#17875" },
+    { topic: "ani1a", character: 'Montgomery Thatch', bean: 'zumo de calabaza', url: "/t1186p120-grageas-bertie-bott-i-reserva-especial#17904" },
+    { topic: "ani1a", character: 'Hermes Rosier', bean: 'ensalada de fruta', url: "/t1186p120-grageas-bertie-bott-i-reserva-especial#17911" },
+    { topic: "ani1a", character: 'Hermes Rosier', bean: 'jalea de naranja', url: "/t1186p120-grageas-bertie-bott-i-reserva-especial#17911" },
+    { topic: "ani1a", character: 'Jupiter Merrythought', bean: 'ensalada de fruta', url: "/t1186p120-grageas-bertie-bott-i-reserva-especial#17924" },
+    { topic: "ani1a", character: 'Mercury Merrythought', bean: 'jalea de naranja', url: "/t1186p120-grageas-bertie-bott-i-reserva-especial#17940" },
+    { topic: "ani1a", character: 'Lucretia Black-Prewett', bean: 'ensalada de fruta', url: "/t1186p120-grageas-bertie-bott-i-reserva-especial#17945" },
+    { topic: "ani1a", character: 'A. Ignatius Prewett', bean: 'tarta de manzana', url: "/t1186p140-grageas-bertie-bott-i-reserva-especial#17950" },
+    { topic: "ani1a", character: 'Sloane N. Greengrass', bean: 'zumo de calabaza', url: "/t1186p140-grageas-bertie-bott-i-reserva-especial#17964" },
+    { topic: "ani1a", character: 'H. Shun Parkinson', bean: 'jalea de naranja', url: "/t1186p140-grageas-bertie-bott-i-reserva-especial#17981" },
+    { topic: "ani1a", character: 'Jupiter Merrythought', bean: 'gelatina de durazno', url: "/t1186p140-grageas-bertie-bott-i-reserva-especial#17990" },
+    { topic: "ani1a", character: 'Thyme T. Nott', bean: 'jalea de naranja', url: "/t1186p140-grageas-bertie-bott-i-reserva-especial#17998" },
+    { topic: "ani1a", character: 'Alastor Moody', bean: 'tierra', url: "/t1186p140-grageas-bertie-bott-i-reserva-especial#18014" },
+    { topic: "ani1a", character: 'Margareth T. Moody', bean: 'tarta de manzana', url: "/t1186p140-grageas-bertie-bott-i-reserva-especial#18018" },
+    { topic: "ani1a", character: 'Gavril A. Ollivander', bean: 'tierra', url: "/t1186p140-grageas-bertie-bott-i-reserva-especial#18037" },
+    { topic: "ani1a", character: 'Findlay McCrory', bean: 'gelatina de durazno', url: "/t1186p140-grageas-bertie-bott-i-reserva-especial#18048" },
+    { topic: "ani1a", character: 'Lucretia Black-Prewett', bean: 'gelatina de durazno', url: "/t1186p160-grageas-bertie-bott-i-reserva-especial#18051" },
+    { topic: "ani1a", character: 'Alastor Moody', bean: 'ensalada de fruta', url: "/t1186p160-grageas-bertie-bott-i-reserva-especial#18083" },
+    { topic: "ani1a", character: 'Alastor Moody', bean: 'tarta de manzana', url: "/t1186p160-grageas-bertie-bott-i-reserva-especial#18083" },
+    { topic: "ani1a", character: 'Orion A. Black', bean: 'ensalada de fruta', url: "/t1186p160-grageas-bertie-bott-i-reserva-especial#18099" },
+    { topic: "ani1a", character: 'Montgomery Thatch', bean: 'gelatina de durazno', url: "/t1186p160-grageas-bertie-bott-i-reserva-especial#18135" },
+    { topic: "ani1a", character: 'Cuthbert S. Selwyn', bean: 'ensalada de fruta', url: "/t1186p160-grageas-bertie-bott-i-reserva-especial#18150" },
+    { topic: "ani1a", character: 'Sloane N. Greengrass', bean: 'jalea de naranja', url: "/t1186p160-grageas-bertie-bott-i-reserva-especial#18158" },
+    { topic: "ani1a", character: 'Owen Fitzgerald', bean: 'tierra', url: "/t1186p160-grageas-bertie-bott-i-reserva-especial#18166" },
+    { topic: "ani1a", character: 'Jupiter Merrythought', bean: 'jalea de naranja', url: "/t1186p160-grageas-bertie-bott-i-reserva-especial#18180" },
+    { topic: "ani1a", character: 'Minerva E. McGonagall', bean: 'gelatina de durazno', url: "/t1186p160-grageas-bertie-bott-i-reserva-especial#18216" },
+    { topic: "ani1a", character: 'Minerva E. McGonagall', bean: 'pastel de limón', url: "/t1186p160-grageas-bertie-bott-i-reserva-especial#18216" },
+    { topic: "ani1a", character: 'A. Ignatius Prewett', bean: 'jalea de naranja', url: "/t1186p160-grageas-bertie-bott-i-reserva-especial#18220" },
+    { topic: "ani1a", character: 'Astraea M. Burke', bean: 'gelatina de durazno', url: "/t1186p180-grageas-bertie-bott-i-reserva-especial#18223" },
+    { topic: "ani1a", character: 'Jasper R. Gryffith', bean: 'gelatina de durazno', url: "/t1186p180-grageas-bertie-bott-i-reserva-especial#18236" },
+    { topic: "ani1a", character: 'Jasper R. Gryffith', bean: 'tarta de manzana', url: "/t1186p180-grageas-bertie-bott-i-reserva-especial#18236" },
+    { topic: "ani1a", character: 'Thyme T. Nott', bean: 'pastel de limón', url: "/t1186p180-grageas-bertie-bott-i-reserva-especial#18243" },
+    { topic: "ani1a", character: 'H. Shun Parkinson', bean: 'ensalada de fruta', url: "/t1186p180-grageas-bertie-bott-i-reserva-especial#18270" },
+    { topic: "ani1a", character: 'Theolonius D. Covey', bean: 'zumo de calabaza', url: "/t1186p180-grageas-bertie-bott-i-reserva-especial#18277" },
+    { topic: "ani1a", character: 'Alastor Moody', bean: 'zumo de calabaza', url: "/t1186p180-grageas-bertie-bott-i-reserva-especial#18292" },
+    { topic: "ani1a", character: 'Alastor Moody', bean: 'gelatina de durazno', url: "/t1186p180-grageas-bertie-bott-i-reserva-especial#18292" },
+    { topic: "ani1a", character: 'Lucretia Black-Prewett', bean: 'gelatina de durazno', url: "/t1186p180-grageas-bertie-bott-i-reserva-especial#18295" },
+    { topic: "ani1a", character: 'Montgomery Thatch', bean: 'tierra', url: "/t1186p180-grageas-bertie-bott-i-reserva-especial#18311" },
+    { topic: "ani1a", character: 'Uranus H. Merrythought', bean: 'tierra', url: "/t1186p180-grageas-bertie-bott-i-reserva-especial#18401" },
+    { topic: "ani1a", character: 'Uranus H. Merrythought', bean: 'gelatina de durazno', url: "/t1186p180-grageas-bertie-bott-i-reserva-especial#18401" },
+    { topic: "ani1a", character: 'Jupiter Merrythought', bean: 'pastel de limón', url: "/t1186p200-grageas-bertie-bott-i-reserva-especial#18412" },
+    { topic: "ani1a", character: 'Ruairidh Ó Mhaille', bean: 'gelatina de durazno', url: "/t1186p200-grageas-bertie-bott-i-reserva-especial#18416" },
+    { topic: "ani1a", character: 'Ruairidh Ó Mhaille', bean: 'ensalada de fruta', url: "/t1186p200-grageas-bertie-bott-i-reserva-especial#18416" },
+    { topic: "ani1a", character: 'Owen Fitzgerald', bean: 'tierra', url: "/t1186p200-grageas-bertie-bott-i-reserva-especial#18430" },
+    { topic: "ani1a", character: 'Venus M. Merrythought', bean: 'gelatina de durazno', url: "/t1186p200-grageas-bertie-bott-i-reserva-especial#18433" },
+    { topic: "ani1a", character: 'Montgomery Thatch', bean: 'jalea de naranja', url: "/t1186p200-grageas-bertie-bott-i-reserva-especial#18466" },
+    { topic: "ani1a", character: 'Regulus O. Black', bean: 'tierra', url: "/t1186p200-grageas-bertie-bott-i-reserva-especial#18470" },
+    { topic: "ani1a", character: 'Hankford B. Diggory', bean: 'gelatina de durazno', url: "/t1186p200-grageas-bertie-bott-i-reserva-especial#18475" },
+    { topic: "ani1a", character: 'Asteria C. Lestrange', bean: 'zumo de calabaza', url: "/t1186p200-grageas-bertie-bott-i-reserva-especial#18495" },
+    { topic: "ani1a", character: 'Vasilisa M. Kuznetzova', bean: 'tierra', url: "/t1186p200-grageas-bertie-bott-i-reserva-especial#18497" },
+    { topic: "ani1a", character: 'Aidan N. Flamel', bean: 'zumo de calabaza', url: "/t1186p200-grageas-bertie-bott-i-reserva-especial#18499" },
+    { topic: "ani1a", character: 'Thaddeus L. Nott', bean: 'ensalada de fruta', url: "/t1186p220-grageas-bertie-bott-i-reserva-especial#18501" },
+    { topic: "ani1a", character: 'Kaoru Satoo', bean: 'gelatina de durazno', url: "/t1186p220-grageas-bertie-bott-i-reserva-especial#18503" },
+    { topic: "ani1a", character: 'Montgomery Thatch', bean: 'zumo de calabaza', url: "/t1186p220-grageas-bertie-bott-i-reserva-especial#18522" },
+    { topic: "ani1a", character: 'Thyme T. Nott', bean: 'ensalada de fruta', url: "/t1186p220-grageas-bertie-bott-i-reserva-especial#18525" },
+    { topic: "ani1a", character: 'Jupiter Merrythought', bean: 'zumo de calabaza', url: "/t1186p220-grageas-bertie-bott-i-reserva-especial#18557" },
+    { topic: "ani1a", character: 'Astraea M. Burke', bean: 'jalea de naranja', url: "/t1186p220-grageas-bertie-bott-i-reserva-especial#18594" },
+    { topic: "ani1a", character: 'Alastor Moody', bean: 'zumo de calabaza', url: "/t1186p220-grageas-bertie-bott-i-reserva-especial#18621" },
+    { topic: "ani1a", character: 'Sloane N. Greengrass', bean: 'zumo de calabaza', url: "/t1186p220-grageas-bertie-bott-i-reserva-especial#18628" },
+    { topic: "ani1a", character: 'Ishwar S. Patil', bean: 'tarta de manzana', url: "/t1186p220-grageas-bertie-bott-i-reserva-especial#18644" },
+    { topic: "ani1a", character: 'Neptune E. Merrythought', bean: 'zumo de calabaza', url: "/t1186p240-grageas-bertie-bott-i-reserva-especial#18657" },
+    { topic: "ani1a", character: 'Neptune E. Merrythought', bean: 'zumo de calabaza', url: "/t1186p240-grageas-bertie-bott-i-reserva-especial#18657" },
+    { topic: "ani1a", character: 'Jupiter Merrythought', bean: 'zumo de calabaza', url: "/t1186p240-grageas-bertie-bott-i-reserva-especial#18677" },
+    { topic: "ani1a", character: 'Neptune E. Merrythought', bean: 'jalea de naranja', url: "/t1186p240-grageas-bertie-bott-i-reserva-especial#18685" },
+    { topic: "ani1a", character: 'H. Shun Parkinson', bean: 'zumo de calabaza', url: "/t1186p240-grageas-bertie-bott-i-reserva-especial#18694" },
+    { topic: "ani1a", character: 'Alastor Moody', bean: 'zumo de calabaza', url: "/t1186p240-grageas-bertie-bott-i-reserva-especial#18715" },
+    { topic: "ani1a", character: 'Ksenia D. Demidova', bean: 'gelatina de durazno', url: "/t1186p240-grageas-bertie-bott-i-reserva-especial#18744" },
+    { topic: "ani1a", character: 'Viridian L. Greengrass', bean: 'ensalada de fruta', url: "/t1186p240-grageas-bertie-bott-i-reserva-especial#18750" },
+    { topic: "ani1a", character: 'Viridian L. Greengrass', bean: 'gelatina de durazno', url: "/t1186p240-grageas-bertie-bott-i-reserva-especial#18750" },
+    { topic: "ani1a", character: 'Lucretia Black-Prewett', bean: 'zumo de calabaza', url: "/t1186p240-grageas-bertie-bott-i-reserva-especial#18753" },
+    { topic: "ani1a", character: 'Mercury Merrythought', bean: 'tarta de manzana', url: "/t1186p240-grageas-bertie-bott-i-reserva-especial#18766" },
+    { topic: "ani1a", character: 'A. Ignatius Prewett', bean: 'zumo de calabaza', url: "/t1186p240-grageas-bertie-bott-i-reserva-especial#18772" },
+    { topic: "ani1a", character: 'Iarlaith C. Sayre', bean: 'pastel de limón', url: "/t1186p260-grageas-bertie-bott-i-reserva-especial#18777" },
+    { topic: "ani1a", character: 'Thyme T. Nott', bean: 'jalea de naranja', url: "/t1186p260-grageas-bertie-bott-i-reserva-especial#18830" },
+    { topic: "ani1a", character: 'Margareth T. Moody', bean: 'zumo de calabaza', url: "/t1186p260-grageas-bertie-bott-i-reserva-especial#18849" },
+    { topic: "ani1a", character: 'Margareth T. Moody', bean: 'jalea de naranja', url: "/t1186p260-grageas-bertie-bott-i-reserva-especial#18849" },
+    { topic: "ani1a", character: 'Barnaby R. Rookwood', bean: 'jalea de naranja', url: "/t1186p260-grageas-bertie-bott-i-reserva-especial#18866" },
+    { topic: "ani1a", character: 'H. Shun Parkinson', bean: 'tarta de manzana', url: "/t1186p260-grageas-bertie-bott-i-reserva-especial#18869" },
+    { topic: "ani1a", character: 'Alastor Moody', bean: 'gelatina de durazno', url: "/t1186p260-grageas-bertie-bott-i-reserva-especial#18902" },
+    { topic: "ani1a", character: 'Minerva E. McGonagall', bean: 'ensalada de fruta', url: "/t1186p260-grageas-bertie-bott-i-reserva-especial#18922" },
+    { topic: "ani1a", character: 'Minerva E. McGonagall', bean: 'jalea de naranja', url: "/t1186p260-grageas-bertie-bott-i-reserva-especial#18922" },
+    { topic: "ani1a", character: 'Theolonius D. Covey', bean: 'tierra', url: "/t1186p260-grageas-bertie-bott-i-reserva-especial#18976" },
+    { topic: "ani1a", character: 'Montgomery Thatch', bean: 'gelatina de durazno', url: "/t1186p260-grageas-bertie-bott-i-reserva-especial#18984" },
+    { topic: "ani1a", character: 'Jasper R. Gryffith', bean: 'tarta de manzana', url: "/t1186p280-grageas-bertie-bott-i-reserva-especial#18999" },
+    { topic: "ani1a", character: 'Jasper R. Gryffith', bean: 'ensalada de fruta', url: "/t1186p280-grageas-bertie-bott-i-reserva-especial#18999" },
+    { topic: "ani1a", character: 'Jupiter Merrythought', bean: 'jalea de naranja', url: "/t1186p280-grageas-bertie-bott-i-reserva-especial#19011" },
+    { topic: "ani1a", character: 'Alastor Moody', bean: 'jalea de naranja', url: "/t1186p280-grageas-bertie-bott-i-reserva-especial#19032" },
+    { topic: "ani1a", character: 'Alastor Moody', bean: 'zumo de calabaza', url: "/t1186p280-grageas-bertie-bott-i-reserva-especial#19032" },
+    { topic: "ani1a", character: 'A. Ignatius Prewett', bean: 'pastel de limón', url: "/t1186p280-grageas-bertie-bott-i-reserva-especial#19052" },
+    { topic: "ani1a", character: 'Ruaan S. Patil', bean: 'zumo de calabaza', url: "/t1186p280-grageas-bertie-bott-i-reserva-especial#19056" },
+    { topic: "ani1a", character: 'Ruaan S. Patil', bean: 'tierra', url: "/t1186p280-grageas-bertie-bott-i-reserva-especial#19056" },
+    { topic: "ani1a", character: 'Hermes Rosier', bean: 'tarta de manzana', url: "/t1186p280-grageas-bertie-bott-i-reserva-especial#19079" },
+    { topic: "ani1a", character: 'Thyme T. Nott', bean: 'zumo de calabaza', url: "/t1186p280-grageas-bertie-bott-i-reserva-especial#19084" },
+    { topic: "ani1a", character: 'M. Riley Fitzgerald', bean: 'jalea de naranja', url: "/t1186p280-grageas-bertie-bott-i-reserva-especial#19108" },
+    { topic: "ani1a", character: 'Gareth D. Yaxley', bean: 'tierra', url: "/t1186p280-grageas-bertie-bott-i-reserva-especial#19110" },
+    { topic: "ani1a", character: 'Jupiter Merrythought', bean: 'zumo de calabaza', url: "/t1186p280-grageas-bertie-bott-i-reserva-especial#19113" },
+    { topic: "ani1a", character: 'Cuthbert S. Selwyn', bean: 'zumo de calabaza', url: "/t1186p300-grageas-bertie-bott-i-reserva-especial#19125" },
+    { topic: "ani1a", character: 'Montgomery Thatch', bean: 'tarta de manzana', url: "/t1186p300-grageas-bertie-bott-i-reserva-especial#19137" },
+    { topic: "ani1a", character: 'Findlay McCrory', bean: 'pastel de limón', url: "/t1186p300-grageas-bertie-bott-i-reserva-especial#19178" },
+    { topic: "ani1a", character: 'Findlay McCrory', bean: 'pastel de limón', url: "/t1186p300-grageas-bertie-bott-i-reserva-especial#19178" },
+    { topic: "ani1a", character: 'Thyme T. Nott', bean: 'gelatina de durazno', url: "/t1186p300-grageas-bertie-bott-i-reserva-especial#19185" },
+    { topic: "ani1a", character: 'Montgomery Thatch', bean: 'zumo de calabaza', url: "/t1186p300-grageas-bertie-bott-i-reserva-especial#19189" },
+    { topic: "ani1a", character: 'Elysia G. Lestrange', bean: 'gelatina de durazno', url: "/t1186p300-grageas-bertie-bott-i-reserva-especial#19191" },
+    { topic: "ani1a", character: 'Harmony M. Flynn', bean: 'gelatina de durazno', url: "/t1186p300-grageas-bertie-bott-i-reserva-especial#19193" },
+    { topic: "ani1a", character: 'Alastor Moody', bean: 'jalea de naranja', url: "/t1186p300-grageas-bertie-bott-i-reserva-especial#19248" },
+    { topic: "ani1a", character: 'Jupiter Merrythought', bean: 'zumo de calabaza', url: "/t1186p300-grageas-bertie-bott-i-reserva-especial#19257" },
+    { topic: "ani1a", character: 'H. Shun Parkinson', bean: 'zumo de calabaza', url: "/t1186p320-grageas-bertie-bott-i-reserva-especial#19283" },
+    { topic: "ani1a", character: 'H. Shun Parkinson', bean: 'pastel de limón', url: "/t1186p320-grageas-bertie-bott-i-reserva-especial#19283" },
+    { topic: "ani1a", character: 'H. Shun Parkinson', bean: 'tierra', url: "/t1186p320-grageas-bertie-bott-i-reserva-especial#19283" },
+    { topic: "ani1a", character: 'Alastor Moody', bean: 'tarta de manzana', url: "/t1186p320-grageas-bertie-bott-i-reserva-especial#19294" },
+    { topic: "ani1a", character: 'Margareth T. Moody', bean: 'tarta de manzana', url: "/t1186p320-grageas-bertie-bott-i-reserva-especial#19323" },
+    { topic: "ani1a", character: 'Hankford B. Diggory', bean: 'zumo de calabaza', url: "/t1186p320-grageas-bertie-bott-i-reserva-especial#19331" },
+    { topic: "ani1a", character: 'Orion A. Black', bean: 'jalea de naranja', url: "/t1186p320-grageas-bertie-bott-i-reserva-especial#19337" },
+    { topic: "ani1a", character: 'Asteria C. Lestrange', bean: 'ensalada de fruta', url: "/t1186p320-grageas-bertie-bott-i-reserva-especial#19344" },
+    { topic: "ani1a", character: 'Asteria C. Lestrange', bean: 'pastel de limón', url: "/t1186p320-grageas-bertie-bott-i-reserva-especial#19344" },
+    { topic: "ani1a", character: 'Vasilisa M. Kuznetzova', bean: 'zumo de calabaza', url: "/t1186p320-grageas-bertie-bott-i-reserva-especial#19346" },
+    { topic: "ani1a", character: 'Vasilisa M. Kuznetzova', bean: 'pastel de limón', url: "/t1186p320-grageas-bertie-bott-i-reserva-especial#19346" },
+    { topic: "ani1a", character: 'Kaoru Satoo', bean: 'pastel de limón', url: "/t1186p320-grageas-bertie-bott-i-reserva-especial#19350" },
+    { topic: "ani1a", character: 'Aidan N. Flamel', bean: 'gelatina de durazno', url: "/t1186p320-grageas-bertie-bott-i-reserva-especial#19355" },
+    { topic: "ani1a", character: 'Thaddeus L. Nott', bean: 'zumo de calabaza', url: "/t1186p340-grageas-bertie-bott-i-reserva-especial#19357" },
+    { topic: "ani1a", character: 'Venus M. Merrythought', bean: 'ensalada de fruta', url: "/t1186p340-grageas-bertie-bott-i-reserva-especial#19361" },
+    { topic: "ani1a", character: 'Gavril A. Ollivander', bean: 'zumo de calabaza', url: "/t1186p340-grageas-bertie-bott-i-reserva-especial#19365" },
+    { topic: "ani1a", character: 'Montgomery Thatch', bean: 'gelatina de durazno', url: "/t1186p340-grageas-bertie-bott-i-reserva-especial#19375" },
+    { topic: "ani1a", character: 'Minerva E. McGonagall', bean: 'zumo de calabaza', url: "/t1186p340-grageas-bertie-bott-i-reserva-especial#19400" },
+    { topic: "ani1a", character: 'Jupiter Merrythought', bean: 'zumo de calabaza', url: "/t1186p340-grageas-bertie-bott-i-reserva-especial#19403" },
     
     // apertura
     { topic: "apertura", character: 'Orion A. Black', bean: 'caramelo', url: "/t276-caja-de-grageas-bertie-botts-1#1295" },
