@@ -1731,15 +1731,11 @@ const MissionsModule = (function () {
           "cont": '<span>Detrás del ardor del whiskey queda un dulzor extraño, parecido a la miel, que adormece la lengua por unos segundos. No es parte de ninguna receta de whiskey conocida.</span>',
         },
         {
-          "visible": { "attr": { "val": "min" }, "know": { "curación": "10" }, "job": "invalid", "name": "invalid", }, "place": "beber o no beber",
-          "cont": '<span>Algunos hechizos que pueden ser útiles para reducir los efectos de la bebida son: "finite", "rennervate", "quieta" y "nervus flemere".</span>',
-        },
-        {
           "visible": { "attr": { "val": "min" }, "know": { "legeremancia": "20" }, "job": "invalid", "name": "invalid", }, "place": "beber o no beber",
           "cont": '<span>Con cada vaso, la mente de Donn se vuelve más fácil de leer. Entre sus pensamientos aparece una imagen que se repite: la cocina de una granja, una mujer de cabello oscuro sentada frente a él con los ojos rojos, y una conversación en voz baja sobre qué decir si alguien del Ministerio llegaba a preguntar.</span>',
         },
         {
-          "visible": { "attr": { "sab": "+3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ronda ganada: la relación con morgana",
+          "visible": { "attr": { "sab": "+3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "la relación con morgana",
           "cont": '<span>Donn arrastra algunas palabras y ya no rellena sus vasos con agua. El whiskey le está aflojando la lengua más de lo que él mismo querría.</span>',
         },
         {
@@ -1802,29 +1798,29 @@ const MissionsModule = (function () {
         },
         "beber o no beber": {
           "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "el whiskey de fuego",
-          "cont": '<span>Donn llena dos vasos más y los empuja sobre el escritorio. Del mismo cajón donde guarda los habanos saca un mazo de cartas gastado y una moneda vieja.<br><br>—<strong>Ustedes quieren respuestas y yo hace semanas que no tengo con quién jugar. Hagamos esto como se hacía en la destilería de mi abuelo: sacan una carta y la suerte decide si la siguiente tiene que ser más alta o más baja. Si aciertan, les contesto lo que quieran. Si no, alguien bebe.</strong> —Sonríe y levanta su vaso—. <strong>Y no me miren así, que yo también bebo.</strong><br><br><span class="book-clipping"><br><div align="center"><strong>MÁS ALTO, MÁS BAJO</strong></div><br><strong>1.</strong> En cada ronda, uno de los personajes libera una carta del mazo.<br><strong>2.</strong> Después tira el dado Felix Felicis.<br><strong>3.</strong> Libera una segunda carta. Si el dado dio <strong>acierto</strong>, la segunda carta tiene que ser mayor que la primera. Si dio <strong>fallo</strong>, tiene que ser menor.<br><strong>4.</strong> Si se cumple, la ronda está ganada y Donn responde una pregunta.<br><strong>5.</strong> Si no se cumple, uno de los dos personajes debe beber un vaso de Whiskey de Fuego Dempsey. Cada vaso suma 10 puntos al contador de bebidas.<br><strong>6.</strong> Si las dos cartas tienen el mismo número, bebe Donn.<br><strong>7.</strong> El juego termina cuando los personajes se levantan de la mesa o cuando alguno llega a 50 puntos.<br></span></span>',
+          "cont": '<span>Donn llena dos vasos más y los empuja sobre el escritorio. Del mismo cajón donde guarda los habanos saca un mazo de cartas gastado y una moneda vieja.<br><br>—<strong>Ustedes quieren respuestas y yo hace semanas que no tengo con quién jugar. Hagamos esto como se hacía en la destilería de mi abuelo: sacan una carta y la suerte decide si la siguiente tiene que ser más alta o más baja. Si aciertan, les contesto lo que quieran. Si no, alguien bebe.</strong> —Sonríe y levanta su vaso—. <strong>Y no me miren así, que yo también bebo.</strong><br><br><span class="book-clipping"><br><div align="center"><strong>MÁS ALTO, MÁS BAJO</strong></div><br><strong>1.</strong> En cada ronda, uno de los personajes libera una carta del mazo.<br><strong>2.</strong> Después tira el dado Felix Felicis.<br><strong>3.</strong> Libera una segunda carta. Si el dado dio <strong>acierto</strong>, la segunda carta tiene que ser mayor que la primera. Si dio <strong>fallo</strong>, tiene que ser menor.<br><strong>4.</strong> Si se cumple, la ronda está ganada. Para revelar cualquier tarjeta nueva, primero deben ganar una ronda.<br><strong>5.</strong> Si no se cumple, uno de los dos personajes debe beber un vaso de Whiskey de Fuego Dempsey. Cada vaso suma 10 puntos al contador de bebidas.<br><strong>6.</strong> Si las dos cartas tienen el mismo número, bebe Donn.<br><strong>7.</strong> El juego termina cuando los personajes se levantan de la mesa o cuando alguno llega a 50 puntos.<br></span></span>',
         },
-        "ronda ganada: la relación con morgana": {
+        "la relación con morgana": {
           "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "beber o no beber",
           "cont": '<span>Donn mira las dos cartas y suelta una carcajada que ya suena más floja que al principio. Tiene las mejillas encendidas.<br><br>—<strong>Bien, bien. Les mentí. Lo de los cuarenta años sin hablarle… Uno protege a la familia, o a lo que queda de ella.</strong> —Hace girar el vaso entre los dedos—. <strong>Muchos años después del incendio, Morgana volvió a golpear mi puerta como si nada. Necesitaba saber de plantaciones, de tiempos de cosecha, de destilación, de cómo se separa lo que sirve de una planta de lo que mata. Y eso es lo único que yo sé hacer bien. Al principio venía una vez al año; después, cada mes. Nunca me pidió perdón por la destilería y yo nunca se lo pedí.</strong> —Se encoge de hombros—. <strong>Quería curar la licantropía. Eso decía.</strong></span>',
         },
-        "ronda ganada: el endulzante": {
-          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ronda ganada: la relación con morgana",
+        "el endulzante": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "la relación con morgana",
           "cont": '<span>—<strong>No encontró ninguna cura. Encontró otra cosa.</strong> —Donn baja la voz, aunque no hay nadie más en el despacho—. <strong>Un endulzante. Parecía un jarabe de miel, nada más. Una cucharada y la persona se queda dormida, profundamente dormida, y no siente nada: ni un corte, ni un hueso roto, ni la piel que se estira.</strong> —Se pasa el periódico por la frente—. <strong>Se lo daba a su hermana las noches de luna llena. Así pasaba la transformación sin enterarse y sin lastimar a nadie.</strong></span>',
         },
         "la muestra del sedante": {
-          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ronda ganada: el endulzante",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "el endulzante",
           "cont": '<span>Donn se estira con esfuerzo hasta un armario y vuelve con un frasco pequeño de vidrio azul, tapado con cera. Dentro hay un líquido espeso y dorado. En la etiqueta, con la letra elegante de Morgana, se lee: <i>"M. — Una cucharada antes de la luna. No más."</i><br><br>—<strong>Es lo último que me quedó. Llévenselo. Prefiero que lo tenga el Ministerio a que lo encuentre alguien que no sepa lo que es.</strong></span>',
         },
-        "ronda ganada: merlina": {
-          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ronda ganada: el endulzante",
+        "merlina": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "el endulzante",
           "cont": '<span>Donn deja el vaso y los mira con atención por primera vez en toda la tarde.<br><br>—<strong>No se hagan los tontos. Todos los meses llevo rosas a esa tumba en honor a mi prima; era su costumbre y alguien tiene que seguir haciéndolo. Una de esas veces la encontré abierta. Y en marzo me llegó una carta.</strong> —Saca del bolsillo del chaleco un sobre arrugado, leído muchas veces—. <strong>Morgana le había dejado a Merlina mi dirección, por si algún día ella no volvía. En todos estos años, Merlina nunca la usó. Hasta que ustedes fueron a la granja. Me preguntaba qué había pasado con su hermana.</strong><br><br>Se queda en silencio un momento, con el sobre entre los dedos.<br><br>—<strong>Fui a verla. Tuve que contarle que Morgana había muerto. Desde entonces voy cada tanto; no nos llevamos bien y a los diez minutos ya me está echando, pero es familia.</strong> —Levanta la mirada—. <strong>Acordamos que, si el Ministerio venía a preguntar, yo no sabía nada de ella. Y miren cómo terminé.</strong></span>',
         },
-        "ronda ganada: la investigación de morgana": {
-          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ronda ganada: la relación con morgana",
+        "la investigación de morgana": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "la relación con morgana",
           "cont": '<span>—<strong>Con los años dejó de hablar de la licantropía.</strong> —Donn frunce el ceño, intentando recordar—. <strong>Empezó a preguntarme por plantas que cerraran heridas, que regeneraran tejido. Quería devolver un cuerpo herido a como estaba antes, como si nunca le hubiera pasado nada. Probamos con todo: pociones, bálsamos, ungüentos, savias. Nada servía.</strong> —Bebe un trago largo—. <strong>Hasta que un día dejó de venir. Sin carta, sin nada. Pasaron meses sin saber de ella, y lo siguiente que supe fue que había muerto.</strong></span>',
         },
-        "ronda ganada: la banshee del maroon steed": {
+        "la banshee del maroon steed": {
           "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "beber o no beber",
           "cont": '<span>—<strong>¿Aino? ¿Aino Lehtinen, la cantante? Murió.</strong> —Donn tira la ceniza del habano—. <strong>Tuvo un quiebre el Halloween pasado, en medio de una canción. Y no fue solo ella: su voz arrastró a todo el bar. Los que estaban ahí cuentan que cada uno vio a un familiar, alguien que había perdido, y después a todos los alcanzó lo mismo: una ola negra que entraba por las paredes y se los llevaba.</strong> —Bebe un trago—. <strong>Ella se desplomó esa noche y no volvió a despertar. Cosas de banshees. Yo no creo en esas tonterías, pero hay quien dice que fue una premonición.</strong></span>',
         },
