@@ -9611,10 +9611,13 @@ a.forumtitle:hover {
   align-items: center;
   gap: 8px;
   padding: 40px 15px 30px;
-  background: var(--color-bold-100);
-  border-radius: 5px;
+  /* mismo fondo que .bw-promo-head: la imagen del foro (--image-background) oscurecida y en escala de grises */
+  background: linear-gradient(rgb(12 12 15 / 55%), rgb(12 12 15 / 75%)), var(--image-background, none) center / cover no-repeat, var(--mode-back-90);
+  background-blend-mode: luminosity;
+  border-radius: 3px;
   color: var(--color-text-100);
   text-align: center;
+  text-shadow: 0 1px 6px rgb(0 0 0 / 60%);
 }
 
 .bw-sailing-kicker {
@@ -10452,6 +10455,17 @@ a.forumtitle:hover {
   display: flex;
   flex-flow: column;
   gap: 12px;
+  /* Paleta: rampa de 6 tonos del color del grupo del personaje (--post-user) al azul del foro.
+     Tonos de luminosidad media, para que se lean en fondo claro y oscuro. */
+  --mf-grupo: var(--post-user, var(--group-funcionarios, #79708a));
+  /* mismo tono que el grupo, pero con más color y más claro; el azul es el de la línea del foro, con más vida */
+  --mf-azul: oklch(0.68 0.1 262);
+  --mf-1: oklch(from var(--mf-grupo) 0.69 max(c, 0.1) h);
+  --mf-2: color-mix(in oklch, var(--mf-1) 80%, var(--mf-azul));
+  --mf-3: color-mix(in oklch, var(--mf-1) 60%, var(--mf-azul));
+  --mf-4: color-mix(in oklch, var(--mf-1) 40%, var(--mf-azul));
+  --mf-5: color-mix(in oklch, var(--mf-1) 20%, var(--mf-azul));
+  --mf-6: var(--mf-azul);
   /* ocupa todo el ancho disponible, también si el contenedor del perfil es flex */
   box-sizing: border-box;
   width: 100%;
@@ -10488,12 +10502,15 @@ a.forumtitle:hover {
   display: flex;
   flex-flow: column;
   align-items: center;
-  gap: 6px;
-  padding: 25px 15px 20px;
-  background: var(--color-bold-100);
-  border-radius: 5px;
+  gap: 8px;
+  padding: 34px 15px 24px;
+  /* mismo fondo que .bw-promo-head: la imagen del foro (--image-background) oscurecida y en escala de grises */
+  background: linear-gradient(rgb(12 12 15 / 55%), rgb(12 12 15 / 75%)), var(--image-background, none) center / cover no-repeat, var(--mode-back-90);
+  background-blend-mode: luminosity;
+  border-radius: 3px;
   color: var(--color-text-100);
   text-align: center;
+  text-shadow: 0 1px 6px rgb(0 0 0 / 60%);
 }
 
 .bw-manifest-kicker {
@@ -10920,11 +10937,11 @@ button.bw-manifest-stat[aria-expanded="true"] {
   /* --p = valor / máximo; la altura se reparte en lo que dejan libre las etiquetas */
   height: max(2px, calc((100% - var(--labels, 15px)) * var(--p, 0)));
   border-radius: 2px 2px 0 0;
-  background: var(--mode-back-70);
+  background: var(--mf-6);
 }
 
 .bw-manifest-hist .ok i {
-  background: var(--mode-back-60);
+  background: var(--mf-3);
 }
 
 .bw-manifest-hist .crit i {
@@ -10933,6 +10950,15 @@ button.bw-manifest-stat[aria-expanded="true"] {
 
 .bw-manifest-hist .pif i {
   background: var(--validation-failed);
+}
+
+/* posts por mes: el mejor mes en el color del grupo, el resto en un tono intermedio */
+.bw-manifest-hist.meses .crit i {
+  background: var(--mf-1);
+}
+
+.bw-manifest-hist.meses .ok i {
+  background: var(--mf-4);
 }
 
 .bw-manifest-hist small {
@@ -11015,7 +11041,7 @@ button.bw-manifest-bean[aria-expanded="true"] {
 
 /* cromos (MedallasModule.getCromos) */
 .bw-manifest-bar.album i {
-  background: var(--validation-passed);
+  background: var(--mf-1);
 }
 
 .bw-manifest-bar.album i.pedible {
@@ -11092,7 +11118,7 @@ button.bw-manifest-bean[aria-expanded="true"] {
 .bw-manifest-progress i {
   display: block;
   height: 100%;
-  background: var(--mode-back-60);
+  background: var(--mf-2);
 }
 
 .bw-manifest-noimg {
@@ -11109,21 +11135,18 @@ button.bw-manifest-bean[aria-expanded="true"] {
   gap: 3px;
 }
 
+/* cada nivel es un ícono (ICONO_NIVEL en manifest.js): apagado si falta, color del grupo si ya lo tiene, amarillo si se puede pedir */
 .bw-manifest-pips i {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  border: 1px solid var(--mode-back-70);
+  font-size: 11px;
+  color: var(--mode-back-80);
 }
 
 .bw-manifest-pips i.solicitada {
-  background: var(--validation-passed);
-  border-color: var(--validation-passed);
+  color: var(--mf-1);
 }
 
 .bw-manifest-pips i.pedible {
-  background: var(--validation-warning);
-  border-color: var(--validation-warning);
+  color: var(--validation-warning);
 }
 
 .bw-manifest-pips small {
@@ -11291,10 +11314,13 @@ button.bw-manifest-row[aria-expanded="true"] {
   align-items: center;
   gap: 8px;
   padding: 40px 15px 30px;
-  background: var(--color-bold-100);
-  border-radius: 5px;
+  /* mismo fondo que .bw-promo-head: la imagen del foro (--image-background) oscurecida y en escala de grises */
+  background: linear-gradient(rgb(12 12 15 / 55%), rgb(12 12 15 / 75%)), var(--image-background, none) center / cover no-repeat, var(--mode-back-90);
+  background-blend-mode: luminosity;
+  border-radius: 3px;
   color: var(--color-text-100);
   text-align: center;
+  text-shadow: 0 1px 6px rgb(0 0 0 / 60%);
 }
 
 .bw-guide-kicker {
