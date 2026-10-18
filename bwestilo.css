@@ -10488,8 +10488,19 @@ a.forumtitle:hover {
   outline-offset: 1px;
 }
 
-.bw-manifest a {
+/* links sin subrayado nunca: se distinguen por el peso y cambian al color del manifiesto al pasar el mouse */
+.bw-manifest a,
+.bw-manifest a:visited {
   color: var(--mode-text-100);
+  font-weight: 500;
+  text-decoration: none !important;
+  transition: color var(--fast);
+}
+
+.bw-manifest a:hover,
+.bw-manifest a:focus-visible {
+  color: var(--mf-1);
+  text-decoration: none !important;
 }
 
 .bw-manifest small {
@@ -10565,6 +10576,16 @@ a.forumtitle:hover {
 }
 
 .bw-manifest-tabs button:hover {
+  color: var(--mode-text-100);
+}
+
+/* los íconos no cambian de color con el hover: solo el texto */
+.bw-manifest-tabs button:not([aria-selected="true"]) i {
+  color: var(--mode-back-70);
+}
+
+.bw-manifest a i,
+.bw-manifest a:hover i {
   color: var(--mode-text-100);
 }
 
@@ -10968,7 +10989,8 @@ button.bw-manifest-stat[aria-expanded="true"] {
 /* posts por mes: 12 columnas, con el número arriba de cada barra */
 .bw-manifest-hist.meses {
   --labels: 31px;
-  grid-template-columns: repeat(12, minmax(0, 1fr));
+  /* --n = cantidad de meses (el año del personaje puede tocar 13): siempre en una sola línea */
+  grid-template-columns: repeat(var(--n, 12), minmax(0, 1fr));
   height: 110px;
 }
 
@@ -11381,6 +11403,372 @@ button.bw-manifest-row[aria-expanded="true"] {
   color: #fff;
 }
 
+/* vista bitácora: índice al costado y un libro de páginas de alto fijo */
+nota,
+entrada {
+  display: none !important;
+}
+
+.bw-manifest-diario {
+  --pagina: 480px;
+  display: grid;
+  grid-template-columns: minmax(180px, 240px) minmax(0, 1fr);
+  gap: 12px;
+}
+
+.bw-manifest-indice {
+  display: flex;
+  flex-flow: column;
+  gap: 6px;
+  min-width: 0;
+}
+
+.bw-manifest-buscar {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 0 8px;
+  border: 1px solid var(--mode-back-80);
+  border-radius: 3px;
+  background: var(--mode-back-100);
+}
+
+.bw-manifest-buscar i {
+  color: var(--post-user, var(--mf-grupo));
+}
+
+.bw-manifest-buscar input {
+  flex: 1;
+  min-width: 0;
+  padding: 6px 0;
+  border: none;
+  outline: none;
+  background: none;
+  color: var(--mode-text-100);
+  font: var(--style-primary);
+  font-size: 12px;
+}
+
+.bw-manifest-filtros {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px;
+}
+
+.bw-manifest-filtros button {
+  padding: 2px 7px;
+  border: 1px solid var(--mode-back-80);
+  border-radius: 3px;
+  font: var(--style-link);
+  font-size: 9px;
+  text-transform: uppercase;
+  color: var(--mode-back-70);
+}
+
+.bw-manifest-filtros button[aria-pressed="true"] {
+  border-color: var(--post-user, var(--mf-grupo));
+  color: var(--mode-text-100);
+}
+
+.bw-manifest-indice-lista {
+  display: flex;
+  flex-flow: column;
+  gap: 2px;
+  max-height: calc(var(--pagina) - 40px);
+  overflow-y: auto;
+}
+
+.bw-manifest-indice-item {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 0 8px;
+  padding: 5px 8px;
+  border-left: 2px solid transparent;
+  border-radius: 3px;
+  background: var(--mode-back-100);
+  text-align: left;
+  font-size: 11px;
+  color: var(--mode-text-100);
+}
+
+.bw-manifest-indice-item[hidden] {
+  display: none;
+}
+
+.bw-manifest-indice-item span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.bw-manifest-indice-item small {
+  grid-column: 1;
+  font-family: var(--font-code);
+  opacity: .7;
+}
+
+.bw-manifest-indice-item b {
+  grid-column: 2;
+  grid-row: 1 / 3;
+  align-self: center;
+  font: 500 10px var(--font-code);
+  opacity: .7;
+}
+
+.bw-manifest-indice-item[aria-current="true"] {
+  border-left-color: var(--post-user, var(--mf-grupo));
+  background: var(--mode-back-90);
+}
+
+.bw-manifest-libro {
+  display: flex;
+  flex-flow: column;
+  gap: 6px;
+  min-width: 0;
+}
+
+.bw-manifest-ver-indice {
+  display: none;
+}
+
+/* en bloque (no flex): así una página oculta mide lo mismo que la visible */
+.bw-manifest-pagina {
+  display: none;
+  box-sizing: border-box;
+  height: var(--pagina);
+  overflow-y: auto;
+  scrollbar-gutter: stable;
+  padding: 18px 20px;
+  border-left: 3px solid var(--post-user, var(--mf-grupo));
+  border-radius: 3px;
+  background: var(--mode-back-100);
+  font-size: 12.5px;
+  line-height: 1.55;
+}
+
+/* las páginas se miden visibles, pero solo se muestra la activa */
+.bw-manifest-pagina > * + * {
+  margin-top: 8px !important;
+}
+
+.bw-manifest-paginas .bw-manifest-pagina {
+  display: block;
+  position: absolute;
+  visibility: hidden;
+  width: 100%;
+}
+
+.bw-manifest-paginas {
+  position: relative;
+}
+
+.bw-manifest-paginas .bw-manifest-pagina.activa {
+  position: relative;
+  visibility: visible;
+}
+
+/* la página que se está midiendo va en el flujo, como la activa, para medir igual que cuando se muestre */
+.bw-manifest-paginas .bw-manifest-pagina.midiendo {
+  position: relative;
+}
+
+.bw-manifest-pag-head {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  gap: 4px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--mode-back-80);
+}
+
+.bw-manifest-pag-head h5 {
+  margin: 0;
+  color: var(--mode-text-100);
+  font: var(--style-link);
+  font-size: 15px;
+  line-height: 1.3;
+  text-transform: none;
+}
+
+.bw-manifest-pag-head small {
+  opacity: .75;
+}
+
+.bw-manifest-pag-resumen {
+  margin: 0;
+  font-style: italic;
+  opacity: .9;
+}
+
+.bw-manifest-pag-resumen b {
+  display: block;
+  font: var(--style-link);
+  font-size: 9px;
+  font-style: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--mode-back-70);
+}
+
+.bw-manifest-pag-cont,
+.bw-manifest-pag-vacia {
+  margin: 0;
+  font-size: 11px;
+  font-style: italic;
+  opacity: .6;
+}
+
+.bw-manifest-nota {
+  display: grid;
+  grid-template-columns: 16px minmax(0, 1fr);
+  gap: 8px;
+}
+
+.bw-manifest-nota > i {
+  padding-top: 3px;
+  text-align: center;
+  color: var(--post-user, var(--mf-grupo));
+}
+
+.bw-manifest-nota-num {
+  display: block;
+  font: var(--style-link);
+  font-size: 9px;
+  font-style: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--mode-back-70);
+}
+
+.bw-manifest-nota.teoria > div {
+  font-style: italic;
+}
+
+.bw-manifest-nota.pista > div {
+  font-family: var(--font-code);
+  font-size: 11.5px;
+}
+
+mark.bw-manifest-marca {
+  padding: 0 2px;
+  border-radius: 2px;
+  background: var(--validation-warning);
+  color: #fff;
+}
+
+.bw-manifest-pasar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.bw-manifest-pasar button {
+  width: 30px;
+  height: 26px;
+  border-radius: 3px;
+  background: var(--mode-back-100);
+  color: var(--mode-text-100);
+}
+
+.bw-manifest-pasar button:disabled {
+  opacity: .3;
+  cursor: default;
+}
+
+.bw-manifest-num {
+  font: 500 12px var(--font-code);
+}
+
+/* vista wrap-up: selector de año arriba de las pestañas y línea de hitos */
+.bw-manifest-periodo {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 10px;
+  border-radius: 5px;
+  background: var(--mode-opacity-50);
+}
+
+.bw-manifest-periodo small {
+  margin-left: auto;
+  opacity: .7;
+}
+
+.bw-manifest-modos {
+  display: inline-flex;
+  gap: 2px;
+  padding: 2px;
+  border-radius: 3px;
+  background: var(--mode-back-100);
+}
+
+.bw-manifest-modos button {
+  padding: 5px 10px;
+  border-radius: 3px;
+  font: var(--style-link);
+  font-size: 10px;
+  text-transform: uppercase;
+  color: var(--mode-back-70);
+}
+
+.bw-manifest-modos button[aria-pressed="true"] {
+  background: var(--post-user, var(--mf-grupo));
+  color: #fff;
+}
+
+.bw-manifest-anio {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.bw-manifest-anio i {
+  color: var(--post-user, var(--mf-grupo));
+}
+
+.bw-manifest-anio select {
+  padding: 4px 8px;
+  border: 1px solid var(--mode-back-80);
+  border-radius: 3px;
+  background: var(--mode-back-100);
+  color: var(--mode-text-100);
+  font: 500 12px var(--font-code);
+}
+
+.bw-manifest-hitos {
+  display: flex;
+  flex-flow: column;
+  gap: 2px;
+}
+
+.bw-manifest-hito {
+  display: grid;
+  grid-template-columns: 16px 7.5em minmax(0, 1fr);
+  align-items: center;
+  gap: 10px;
+  padding: 7px 12px;
+  border-radius: 3px;
+  background: var(--mode-back-100);
+  font-size: 12px;
+}
+
+.bw-manifest-hito > i {
+  text-align: center;
+  color: var(--post-user, var(--mf-grupo));
+}
+
+.bw-manifest-hito fecha {
+  font: 500 11px var(--font-code);
+  opacity: .8;
+}
+
+.bw-manifest-hito > span {
+  display: flex;
+  flex-flow: column;
+}
+
 /* vista cronología: grupos plegables y una fila por tema */
 .bw-manifest .trunk-topic {
   display: none;
@@ -11421,11 +11809,12 @@ button.bw-manifest-row[aria-expanded="true"] {
   opacity: .8;
 }
 
-.bw-manifest-grupo-head i {
+/* solo gira la flechita del final; los íconos de estado quedan derechos */
+.bw-manifest-grupo-head > i {
   transition: transform var(--fast);
 }
 
-.bw-manifest-grupo-head[aria-expanded="false"] i {
+.bw-manifest-grupo-head[aria-expanded="false"] > i {
   transform: rotate(-90deg);
 }
 
@@ -11439,15 +11828,67 @@ button.bw-manifest-row[aria-expanded="true"] {
   display: none;
 }
 
-.bw-manifest .estado-abierto { --estado: var(--validation-passed); }
-.bw-manifest .estado-cerrado { --estado: var(--mode-back-60); }
-.bw-manifest .estado-inactivo { --estado: var(--validation-warning); }
-.bw-manifest .estado-abandonado { --estado: var(--validation-failed); }
-.bw-manifest .estado-desconocido { --estado: var(--mode-back-80); }
+/* colores de los estados: los de la cronología vieja (abierto = color del personaje, cerrado / inactivo / abandonado =
+   colores del foro), con la luminosidad subida lo justo para que se lean sobre las filas */
+.bw-manifest .estado-abierto { --estado: var(--mf-1); }
+.bw-manifest .estado-cerrado { --estado: oklch(from var(--color-bold-100) 0.62 max(c, 0.03) h); }
+.bw-manifest .estado-inactivo { --estado: oklch(from var(--color-complementary-100) 0.62 max(c, 0.05) h); }
+.bw-manifest .estado-abandonado { --estado: oklch(from var(--color-neutral-100) 0.55 max(c, 0.03) h); }
+.bw-manifest .estado-desconocido { --estado: var(--mode-back-70); }
+.bw-manifest .aviso-amarillo { --estado: var(--validation-warning); }
+.bw-manifest .aviso-rojo { --estado: var(--validation-failed); }
+
+.bw-manifest-grupo-head > span i {
+  margin-right: 6px;
+  color: var(--estado, inherit);
+}
+
+/* cajitas de conteo arriba de las pestañas */
+.bw-manifest-cuentas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+  gap: 6px;
+}
+
+.bw-manifest-cuenta {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 2px;
+  padding: 10px 6px 8px;
+  border-top: 3px solid var(--estado, var(--mf-1));
+  border-radius: 3px;
+  background: var(--mode-opacity-50);
+  text-align: center;
+}
+
+/* ícono al lado del número */
+.bw-manifest-cuenta > b {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.bw-manifest-cuenta i {
+  font-size: 16px;
+  color: var(--estado, var(--mf-1));
+}
+
+.bw-manifest-cuenta strong {
+  font: 700 22px/1.1 var(--font-code);
+}
+
+.bw-manifest-cuenta span {
+  font: var(--style-link);
+  font-size: 9px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  opacity: .8;
+}
 
 .bw-manifest-tema {
   display: grid;
-  grid-template-columns: 6.5em minmax(0, 1fr) 8px;
+  grid-template-columns: 14px 6.5em minmax(0, 1fr);
   align-items: center;
   gap: 10px;
   padding: 6px 12px;
@@ -11488,37 +11929,42 @@ button.bw-manifest-row[aria-expanded="true"] {
   content: '| ';
 }
 
+/* tag del tipo de tema: sobrio, con el borde del color del personaje (--post-user) y el texto del modo */
 .bw-manifest-tema-tag {
-  padding: 1px 6px;
+  padding: 0 6px;
+  border: 1px solid var(--post-user, var(--mf-grupo));
   border-radius: 3px;
-  background: var(--tipo, var(--mode-back-80));
-  color: #fff;
+  color: var(--mode-text-100);
   font: var(--style-link);
   font-size: 9px;
+  line-height: 14px;
   text-transform: uppercase;
 }
 
+/* el brote: color del estado */
 .bw-manifest-tema-estado {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: var(--estado);
+  font-size: 13px;
+  text-align: center;
+  color: var(--estado);
 }
 
-.bw-manifest-crono-lista {
-  display: flex;
-  flex-flow: column;
-  gap: 2px;
+.bw-manifest-aviso {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 0 6px;
+  border-radius: 3px;
+  font-size: 10px;
+  line-height: 16px;
+  color: #fff;
 }
 
-.bw-manifest-crono-anio {
-  margin: 8px 0 2px;
-  font: 700 13px var(--font-code);
-  color: var(--mf-1);
+.bw-manifest-aviso.amarillo {
+  background: var(--validation-warning);
 }
 
-.bw-manifest-crono-anio:first-child {
-  margin-top: 0;
+.bw-manifest-aviso.rojo {
+  background: var(--validation-failed);
 }
 
 .bw-manifest-sin-lugar .bw-manifest-tema lugar,
@@ -11528,7 +11974,7 @@ button.bw-manifest-row[aria-expanded="true"] {
 }
 
 .bw-manifest-sin-fecha .bw-manifest-tema {
-  grid-template-columns: minmax(0, 1fr) 8px;
+  grid-template-columns: 14px minmax(0, 1fr);
 }
 
 /* TIMOs y ÉXTASIS: lista con el ícono del conocimiento en el color de la casa y el nombre en texto simple */
@@ -11678,6 +12124,34 @@ button.bw-manifest-row[aria-expanded="true"] {
 
   .bw-manifest-table.puntos .bw-manifest-muted {
     display: none;
+  }
+
+  /* bitácora: el índice se abre con un botón arriba del libro */
+  .bw-manifest-diario {
+    grid-template-columns: minmax(0, 1fr);
+    --pagina: 420px;
+  }
+
+  .bw-manifest-indice {
+    display: none;
+  }
+
+  .bw-manifest-diario.ver-indice .bw-manifest-indice {
+    display: flex;
+  }
+
+  .bw-manifest-ver-indice {
+    display: inline-flex;
+    align-self: flex-start;
+    align-items: center;
+    gap: 6px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    background: var(--mode-back-100);
+    font: var(--style-link);
+    font-size: 10px;
+    text-transform: uppercase;
+    color: var(--mode-text-100);
   }
 
   /* trayectoria: el año arriba y los cargos y copas debajo; la barra del cargo debajo del texto */
