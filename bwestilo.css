@@ -11495,6 +11495,26 @@ entrada {
   display: none;
 }
 
+.bw-manifest-indice-vacio {
+  margin: 4px 0 0;
+  font-size: 11px;
+  opacity: .8;
+}
+
+.bw-manifest-indice-vacio[hidden] {
+  display: none;
+}
+
+.bw-manifest-indice-vacio code {
+  display: block;
+  margin-top: 6px;
+  padding: 6px;
+  border-radius: 3px;
+  background: var(--mode-back-100);
+  font: 10px/1.4 var(--font-code);
+  word-break: break-word;
+}
+
 .bw-manifest-indice-item span {
   overflow: hidden;
   text-overflow: ellipsis;
