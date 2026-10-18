@@ -11115,10 +11115,12 @@ button.bw-manifest-bean[aria-expanded="true"] {
   overflow: hidden;
 }
 
+/* degradé del azul del foro al color del grupo, medido sobre toda la barra: lo lleno muestra solo su tramo
+   (una barra recién empezada se ve azul; completa, llega al color del grupo) */
 .bw-manifest-progress i {
   display: block;
   height: 100%;
-  background: var(--mf-2);
+  background: linear-gradient(90deg, var(--mf-6), var(--mf-1)) left / calc(100% * 100 / var(--p, 100)) 100% no-repeat;
 }
 
 .bw-manifest-noimg {
