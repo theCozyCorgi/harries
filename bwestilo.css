@@ -11135,18 +11135,20 @@ button.bw-manifest-bean[aria-expanded="true"] {
   gap: 3px;
 }
 
-/* cada nivel es un ícono (ICONO_NIVEL en manifest.js): apagado si falta, color del grupo si ya lo tiene, amarillo si se puede pedir */
+/* cada nivel es un pentágono dibujado con clip-path: apagado si falta, color del grupo si ya lo tiene, amarillo si se puede pedir */
 .bw-manifest-pips i {
-  font-size: 11px;
-  color: var(--mode-back-80);
+  width: 11px;
+  height: 11px;
+  clip-path: polygon(50% 0%, 100% 38%, 81% 100%, 19% 100%, 0% 38%);
+  background: var(--mode-back-80);
 }
 
 .bw-manifest-pips i.solicitada {
-  color: var(--mf-1);
+  background: var(--mf-1);
 }
 
 .bw-manifest-pips i.pedible {
-  color: var(--validation-warning);
+  background: var(--validation-warning);
 }
 
 .bw-manifest-pips small {
