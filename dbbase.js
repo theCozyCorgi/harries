@@ -171722,6 +171722,14 @@ const DBModule = (function () {
                 words: countWords($post.find('.rol-content'))
             });
 
+            // Pociones mencionadas en cualquier post del tema (<span class="do-action" target="potions" data="...">):
+            // medallas.js las usa para nombrar las pociones que se prepararon sin tirar el dado "potions"
+            $post.find('.do-action[target="potions"]').each(function () {
+                const nombre = String($(this).attr('data') || '').toLowerCase().trim();
+                const tema = dynamicData.topics[topicKey];
+                if (nombre && !(tema.pociones = tema.pociones || []).includes(nombre)) tema.pociones.push(nombre);
+            });
+
             // === EXTRACCIÓN DE DADOS MEJORADA (DBModule) ===
             const rolesDivs = $post.find('.content:contains("Lanzada de dados"), .content:contains("ha efectuado la acción siguiente")').toArray();
 
