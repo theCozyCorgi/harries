@@ -11250,6 +11250,394 @@ button.bw-manifest-row[aria-expanded="true"] {
   color: var(--validation-passed);
 }
 
+/* vista conocimientos: conocimiento | puntos | experiencia actual | experiencia inicial | objetivo */
+.bw-manifest objetivo {
+  display: none;
+}
+
+.bw-manifest-table.puntos .bw-manifest-row {
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, .45fr) minmax(0, 1fr) minmax(0, 1.2fr) minmax(0, 1.75fr);
+}
+
+.bw-manifest-table.puntos strong {
+  font: 700 13px var(--font-code);
+}
+
+.bw-manifest-table.puntos small {
+  margin-left: 4px;
+  font-family: var(--font-code);
+  opacity: .7;
+}
+
+.bw-manifest-muted {
+  opacity: .5;
+}
+
+.bw-manifest-meta {
+  display: flex;
+  flex-flow: column;
+  gap: 4px;
+}
+
+.bw-manifest-meta > span:first-child {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: baseline;
+  column-gap: 6px;
+}
+
+.bw-manifest-meta.listo i {
+  color: var(--validation-passed);
+}
+
+.bw-manifest-meta.listo .bw-manifest-progress i {
+  background: var(--validation-passed);
+}
+
+/* vista trayectoria: colegio año por año + cargos de adulto sobre un eje de años */
+.bw-manifest-escudo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 12px;
+  border-left: 4px solid var(--casa);
+  border-radius: 3px;
+  background: var(--mode-back-100);
+}
+
+.bw-manifest-escudo > i {
+  font-size: 26px;
+  line-height: 1;
+  color: var(--casa);
+}
+
+.bw-manifest-escudo > span:nth-child(2) {
+  display: flex;
+  flex-flow: column;
+  flex: 1;
+}
+
+.bw-manifest-escudo strong {
+  font-size: 14px;
+}
+
+.bw-manifest-copas-total {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 6px;
+}
+
+.bw-manifest-copas-total b {
+  font: 700 12px var(--font-code);
+}
+
+.bw-manifest-cursos,
+.bw-manifest-cargos {
+  display: flex;
+  flex-flow: column;
+  gap: 2px;
+  margin-top: 6px;
+}
+
+.bw-manifest-curso {
+  display: grid;
+  grid-template-columns: minmax(0, 7em) minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 12px;
+  background: var(--mode-back-100);
+  border-radius: 3px;
+  font-size: 12px;
+}
+
+.bw-manifest-curso.actual {
+  border-left: 3px solid var(--mf-1);
+}
+
+.bw-manifest-curso-anio {
+  display: flex;
+  flex-flow: column;
+  font: 500 12px var(--font-code);
+}
+
+.bw-manifest-curso-anio small {
+  font-family: var(--font-primary);
+}
+
+.bw-manifest-curso-cargos,
+.bw-manifest-curso-copas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+/* tags de cargos: fondo sólido del color de la casa, texto blanco */
+.bw-manifest-curso .bw-manifest-chip {
+  padding: 2px 8px;
+  border-left: none;
+  background: var(--mf-grupo);
+  color: #fff;
+}
+
+/* vista cronología: grupos plegables y una fila por tema */
+.bw-manifest .trunk-topic {
+  display: none;
+}
+
+.bw-manifest-grupo {
+  display: flex;
+  flex-flow: column;
+  gap: 2px;
+}
+
+.bw-manifest-grupo + .bw-manifest-grupo {
+  margin-top: 6px;
+}
+
+.bw-manifest-grupo-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 12px;
+  border: none;
+  border-left: 3px solid var(--estado, var(--mf-3));
+  border-radius: 3px;
+  background: var(--mode-back-80);
+  color: var(--color-text-100);
+  font: var(--style-link);
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.bw-manifest-grupo-head small {
+  margin-left: auto;
+  font: 500 10px var(--font-code);
+  letter-spacing: 0;
+  text-transform: none;
+  opacity: .8;
+}
+
+.bw-manifest-grupo-head i {
+  transition: transform var(--fast);
+}
+
+.bw-manifest-grupo-head[aria-expanded="false"] i {
+  transform: rotate(-90deg);
+}
+
+.bw-manifest-grupo-body {
+  display: flex;
+  flex-flow: column;
+  gap: 2px;
+}
+
+.bw-manifest-grupo-body[hidden] {
+  display: none;
+}
+
+.bw-manifest .estado-abierto { --estado: var(--validation-passed); }
+.bw-manifest .estado-cerrado { --estado: var(--mode-back-60); }
+.bw-manifest .estado-inactivo { --estado: var(--validation-warning); }
+.bw-manifest .estado-abandonado { --estado: var(--validation-failed); }
+.bw-manifest .estado-desconocido { --estado: var(--mode-back-80); }
+
+.bw-manifest-tema {
+  display: grid;
+  grid-template-columns: 6.5em minmax(0, 1fr) 8px;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 12px;
+  background: var(--mode-back-100);
+  border-radius: 3px;
+  font-size: 12px;
+}
+
+.bw-manifest-tema fecha {
+  font: 500 11px var(--font-code);
+  opacity: .8;
+}
+
+.bw-manifest-tema-txt {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2px 6px;
+}
+
+.bw-manifest-tema-txt small {
+  flex-basis: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 6px;
+  opacity: .75;
+}
+
+.bw-manifest-tema party::before {
+  content: 'con ';
+}
+
+.bw-manifest-tema party.sin-con::before {
+  content: none;
+}
+
+.bw-manifest-tema party + lugar::before {
+  content: '| ';
+}
+
+.bw-manifest-tema-tag {
+  padding: 1px 6px;
+  border-radius: 3px;
+  background: var(--tipo, var(--mode-back-80));
+  color: #fff;
+  font: var(--style-link);
+  font-size: 9px;
+  text-transform: uppercase;
+}
+
+.bw-manifest-tema-estado {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--estado);
+}
+
+.bw-manifest-crono-lista {
+  display: flex;
+  flex-flow: column;
+  gap: 2px;
+}
+
+.bw-manifest-crono-anio {
+  margin: 8px 0 2px;
+  font: 700 13px var(--font-code);
+  color: var(--mf-1);
+}
+
+.bw-manifest-crono-anio:first-child {
+  margin-top: 0;
+}
+
+.bw-manifest-sin-lugar .bw-manifest-tema lugar,
+.bw-manifest-sin-party .bw-manifest-tema party,
+.bw-manifest-sin-fecha .bw-manifest-tema fecha {
+  display: none;
+}
+
+.bw-manifest-sin-fecha .bw-manifest-tema {
+  grid-template-columns: minmax(0, 1fr) 8px;
+}
+
+/* TIMOs y ÉXTASIS: lista con el ícono del conocimiento en el color de la casa y el nombre en texto simple */
+.bw-manifest-materias {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 4px 12px;
+  padding: 2px 4px;
+}
+
+.bw-manifest-materia {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+}
+
+.bw-manifest-materia > i {
+  flex: none;
+  width: 16px;
+  font-size: 16px;
+  text-align: center;
+  color: var(--mf-1);
+}
+
+.bw-manifest-examenes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr));
+  gap: 12px;
+  align-items: start;
+}
+
+.bw-manifest-examenes > div {
+  display: flex;
+  flex-flow: column;
+  gap: 6px;
+}
+
+/* copas: siempre con texto o con una leyenda, el ícono solo no dice qué ganaron */
+.bw-manifest-copa {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 2px 7px;
+  border-radius: 3px;
+  background: var(--mode-back-90);
+  font-size: 11px;
+  white-space: nowrap;
+}
+
+.bw-manifest-copa.casas i {
+  color: var(--validation-warning);
+}
+
+.bw-manifest-copa.quidditch i {
+  color: var(--mf-1);
+}
+
+.bw-manifest-cargo {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+  align-items: center;
+  gap: 12px;
+  padding: 6px 12px;
+  background: var(--mode-back-100);
+  border-radius: 3px;
+  font-size: 12px;
+}
+
+.bw-manifest-cargo.head {
+  background: none;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.bw-manifest-cargo-txt {
+  display: flex;
+  flex-flow: column;
+}
+
+.bw-manifest-cargo-eje {
+  position: relative;
+  height: 8px;
+  border-radius: 4px;
+  background: var(--mode-back-80);
+}
+
+.bw-manifest-cargo.head .bw-manifest-cargo-eje {
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  background: none;
+  font: 500 10px var(--font-code);
+  color: var(--mode-back-60);
+}
+
+.bw-manifest-cargo-eje i {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  border-radius: 4px;
+  background: var(--tipo);
+}
+
+.bw-manifest-cargo.actual .bw-manifest-cargo-eje i {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
 @media (max-width: 600px) {
   .bw-manifest-title {
     font-size: 24px !important;
@@ -11262,6 +11650,62 @@ button.bw-manifest-row[aria-expanded="true"] {
   }
 
   .bw-manifest-row.head {
+    display: none;
+  }
+
+  /* sin encabezado, cada celda dice qué es; el conocimiento y el objetivo ocupan toda la fila */
+  .bw-manifest-table.puntos .bw-manifest-row {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .bw-manifest-table.puntos .bw-manifest-row > span:first-child,
+  .bw-manifest-table.puntos .bw-manifest-meta {
+    grid-column: 1 / -1;
+  }
+
+  .bw-manifest-table.puntos [data-label]::before {
+    content: attr(data-label);
+    display: block;
+    font: var(--style-link);
+    font-size: 8px;
+    text-transform: uppercase;
+    color: var(--mode-back-60);
+  }
+
+  .bw-manifest-table.puntos > .bw-manifest-row > span:first-child {
+    font-weight: 500;
+  }
+
+  .bw-manifest-table.puntos .bw-manifest-muted {
+    display: none;
+  }
+
+  /* trayectoria: el año arriba y los cargos y copas debajo; la barra del cargo debajo del texto */
+  .bw-manifest-escudo {
+    flex-wrap: wrap;
+  }
+
+  .bw-manifest-copas-total {
+    flex-basis: 100%;
+    justify-content: flex-start;
+  }
+
+  .bw-manifest-curso {
+    grid-template-columns: minmax(0, 1fr);
+    row-gap: 5px;
+  }
+
+  .bw-manifest-curso-cargos:empty,
+  .bw-manifest-curso-copas:empty {
+    display: none;
+  }
+
+  .bw-manifest-cargo {
+    grid-template-columns: minmax(0, 1fr);
+    row-gap: 5px;
+  }
+
+  .bw-manifest-cargo.head > span:first-child {
     display: none;
   }
 
