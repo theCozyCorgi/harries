@@ -2484,16 +2484,16 @@ const MissionsModule = (function () {
 
         "engorgio": {
           "leve": 'El cebo apenas crece y sigue pasando desapercibido. Ningún escarbato se acerca.',
-          "moderado": 'El cebo duplica su tamaño (debe existir al menos 1 cebo previamente creado). <replace target="cantidad" calculate="0.25" data="5">[25% del dado + bonus por conocimiento, máximo 5]</replace> escarbatos lo ven desde lejos y se acercan.',
-          "exitoso": 'El cebo crece hasta el tamaño de un plato y se ve desde cualquier punto del recinto (debe existir al menos 1 cebo previamente creado). <replace target="cantidad" calculate="0.25" data="5">[25% del dado + bonus por conocimiento, máximo 5]</replace> escarbatos se acercan.',
-          "critico": 'El cebo crece hasta parecer un tesoro imposible de ignorar (debe existir al menos 1 cebo previamente creado). <replace target="cantidad" calculate="0.25" data="5">[25% del dado + bonus por conocimiento, máximo 5]</replace> escarbatos se acercan de inmediato.',
+          "moderado": 'El cebo duplica su tamaño (debe existir al menos 1 cebo previamente creado). Si se menciona un objeto físico suma con 1 cebo. <replace target="cantidad" calculate="0.25" data="5">[25% del dado + bonus por conocimiento, máximo 5]</replace> escarbatos lo ven desde lejos y se acercan.',
+          "exitoso": 'El cebo crece hasta el tamaño de un plato y se ve desde cualquier punto del recinto (debe existir al menos 1 cebo previamente creado). Si se menciona un objeto físico suma con 1 cebo. <replace target="cantidad" calculate="0.25" data="5">[25% del dado + bonus por conocimiento, máximo 5]</replace> escarbatos se acercan.',
+          "critico": 'El cebo crece hasta parecer un tesoro imposible de ignorar (debe existir al menos 1 cebo previamente creado). Si se menciona un objeto físico suma con 1 cebo. <replace target="cantidad" calculate="0.25" data="5">[25% del dado + bonus por conocimiento, máximo 5]</replace> escarbatos se acercan de inmediato.',
         },
 
         "geminio": {
           "leve": 'No aparece ninguna réplica. Ningún escarbato se acerca.',
-          "moderado": 'Cada vez que un escarbato toca el cebo aparece una réplica nueva. <replace target="cantidad" calculate="0.25" data="5">[25% del dado + bonus por conocimiento, máximo 5]</replace> escarbatos se acercan a revisarlas.',
-          "exitoso": 'Cada vez que un escarbato toca el cebo aparece una réplica nueva. <replace target="cantidad" calculate="0.25" data="5">[25% del dado + bonus por conocimiento, máximo 5]</replace> escarbatos se acercan y se entretienen con las copias.',
-          "critico": 'Cada vez que un escarbato toca el cebo aparece una réplica nueva. <replace target="cantidad" calculate="0.25" data="5">[25% del dado + bonus por conocimiento, máximo 5]</replace> escarbatos se acercan y quedan absortos, tratando de guardarlas todas.',
+          "moderado": 'Cada vez que un escarbato toca el cebo aparece una réplica nueva. Si se menciona un objeto físico suma con 1 cebo. <replace target="cantidad" calculate="0.25" data="5">[25% del dado + bonus por conocimiento, máximo 5]</replace> escarbatos se acercan a revisarlas.',
+          "exitoso": 'Cada vez que un escarbato toca el cebo aparece una réplica nueva. Si se menciona un objeto físico suma con 1 cebo. <replace target="cantidad" calculate="0.25" data="5">[25% del dado + bonus por conocimiento, máximo 5]</replace> escarbatos se acercan y se entretienen con las copias.',
+          "critico": 'Cada vez que un escarbato toca el cebo aparece una réplica nueva. Si se menciona un objeto físico suma con 1 cebo. <replace target="cantidad" calculate="0.25" data="5">[25% del dado + bonus por conocimiento, máximo 5]</replace> escarbatos se acercan y quedan absortos, tratando de guardarlas todas.',
         },
 
         "epoximise": {
