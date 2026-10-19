@@ -11141,7 +11141,7 @@ button.bw-manifest-bean[aria-expanded="true"] {
   display: block;
   height: 4px;
   border-radius: 2px;
-  background: var(--mode-back-60);
+  background: var(--mode-back-80);
   overflow: hidden;
 }
 
