@@ -39977,7 +39977,7 @@ const DBModule = (function () {
                 {
                     "url": "r17437",
                     "author": "Ditanny",
-                    "date": "Hoy a las 2:18",
+                    "date": "03/05/2026",
                     "words": 122
                 }
             ],
@@ -41003,7 +41003,7 @@ const DBModule = (function () {
                 {
                     "url": "r19259",
                     "author": "H. Shun Parkinson",
-                    "date": "Ayer a las 14:55",
+                    "date": "29/05/2026",
                     "words": 272
                 }
             ],
@@ -45289,7 +45289,7 @@ const DBModule = (function () {
                 {
                     "url": "r17422",
                     "author": "Neptune E. Merrythought",
-                    "date": "Ayer a las 23:08",
+                    "date": "02/05/2026",
                     "words": 231
                 }
             ],
@@ -45613,7 +45613,7 @@ const DBModule = (function () {
                 {
                     "url": "r17485",
                     "author": "Viridian L. Greengrass",
-                    "date": "Hoy a las 17:40",
+                    "date": "03/05/2026",
                     "words": 311
                 }
             ],
@@ -46343,7 +46343,7 @@ const DBModule = (function () {
                 {
                     "url": "r17636",
                     "author": "Regulus O. Black",
-                    "date": "Ayer a las 3:13",
+                    "date": "05/05/2026",
                     "words": 216
                 }
             ],
@@ -47026,19 +47026,19 @@ const DBModule = (function () {
                 {
                     "url": "r23050",
                     "author": "Asteria C. Lestrange",
-                    "date": "Ayer a las 5:29",
+                    "date": "18/09/2026",
                     "words": 143
                 },
                 {
                     "url": "r23051",
                     "author": "The Familiars",
-                    "date": "Ayer a las 5:29",
+                    "date": "18/09/2026",
                     "words": 0
                 },
                 {
                     "url": "r23106",
                     "author": "Black Wave",
-                    "date": "Hoy a las 2:21",
+                    "date": "18/09/2026",
                     "words": 117
                 }
             ],
@@ -48838,13 +48838,13 @@ const DBModule = (function () {
                 {
                     "url": "r17489",
                     "author": "Viridian L. Greengrass",
-                    "date": "Hoy a las 18:22",
+                    "date": "03/05/2026",
                     "words": 221
                 },
                 {
                     "url": "r17495",
                     "author": "Montgomery Thatch",
-                    "date": "Hoy a las 19:39",
+                    "date": "03/05/2026",
                     "words": 256
                 }
             ],
@@ -49463,7 +49463,7 @@ const DBModule = (function () {
                 {
                     "url": "r23542",
                     "author": "Vasilisa M. Kuznetzova",
-                    "date": "Ayer a las 6:05",
+                    "date": "28/09/2026",
                     "words": 258
                 }
             ],
@@ -53623,7 +53623,7 @@ const DBModule = (function () {
                 {
                     "url": "r18061",
                     "author": "Alastor Moody",
-                    "date": "Ayer a las 12:38",
+                    "date": "10/05/2026",
                     "words": 265
                 }
             ],
@@ -56239,13 +56239,13 @@ const DBModule = (function () {
                 {
                     "url": "r18395",
                     "author": "Uranus H. Merrythought",
-                    "date": "Ayer a las 11:43",
+                    "date": "15/05/2026",
                     "words": 295
                 },
                 {
                     "url": "r18423",
                     "author": "Jupiter Merrythought",
-                    "date": "Ayer a las 19:36",
+                    "date": "15/05/2026",
                     "words": 375
                 }
             ],
@@ -57719,7 +57719,7 @@ const DBModule = (function () {
                 {
                     "url": "r19244",
                     "author": "Ruairidh Ó Mhaille",
-                    "date": "Ayer a las 11:49",
+                    "date": "29/05/2026",
                     "words": 193
                 }
             ],
@@ -58885,13 +58885,13 @@ const DBModule = (function () {
                 {
                     "url": "r18008",
                     "author": "Alastor Moody",
-                    "date": "Ayer a las 1:01",
+                    "date": "09/05/2026",
                     "words": 170
                 },
                 {
                     "url": "r18009",
                     "author": "The Familiars",
-                    "date": "Ayer a las 1:01",
+                    "date": "09/05/2026",
                     "words": 0
                 }
             ],
@@ -60157,31 +60157,31 @@ const DBModule = (function () {
                 {
                     "url": "r17419",
                     "author": "Neptune E. Merrythought",
-                    "date": "Ayer a las 21:40",
+                    "date": "02/05/2026",
                     "words": 203
                 },
                 {
                     "url": "r17420",
                     "author": "The Familiars",
-                    "date": "Ayer a las 21:40",
+                    "date": "02/05/2026",
                     "words": 0
                 },
                 {
                     "url": "r17430",
                     "author": "Montgomery Thatch",
-                    "date": "Hoy a las 0:12",
+                    "date": "03/05/2026",
                     "words": 187
                 },
                 {
                     "url": "r17431",
                     "author": "The Familiars",
-                    "date": "Hoy a las 0:12",
+                    "date": "03/05/2026",
                     "words": 0
                 },
                 {
                     "url": "r17438",
                     "author": "Ditanny",
-                    "date": "Hoy a las 2:38",
+                    "date": "03/05/2026",
                     "words": 119
                 }
             ],
@@ -60583,19 +60583,19 @@ const DBModule = (function () {
                 {
                     "url": "r18010",
                     "author": "Margareth T. Moody",
-                    "date": "Ayer a las 1:21",
+                    "date": "09/05/2026",
                     "words": 283
                 },
                 {
                     "url": "r18011",
                     "author": "The Familiars",
-                    "date": "Ayer a las 1:21",
+                    "date": "09/05/2026",
                     "words": 0
                 },
                 {
                     "url": "r18072",
                     "author": "Alastor Moody",
-                    "date": "Ayer a las 16:44",
+                    "date": "10/05/2026",
                     "words": 384
                 }
             ],
@@ -61838,7 +61838,7 @@ const DBModule = (function () {
                 {
                     "url": "r23987",
                     "author": "Elysia G. Lestrange",
-                    "date": "Ayer a las 12:58",
+                    "date": "09/10/2026",
                     "words": 238
                 }
             ],
@@ -62860,7 +62860,7 @@ const DBModule = (function () {
                 {
                     "url": "r23279",
                     "author": "Jupiter Merrythought",
-                    "date": "Hoy a las 16:49",
+                    "date": "23/09/2026",
                     "words": 288
                 }
             ],
@@ -63067,7 +63067,7 @@ const DBModule = (function () {
                 {
                     "url": "r23722",
                     "author": "Minerva E. McGonagall",
-                    "date": "Hoy a las 12:54 am",
+                    "date": "28/09/2026",
                     "words": 228
                 }
             ],
@@ -63180,7 +63180,7 @@ const DBModule = (function () {
                 {
                     "url": "r23436",
                     "author": "Jupiter Merrythought",
-                    "date": "Hoy a las 11:43",
+                    "date": "27/09/2026",
                     "words": 307
                 }
             ],
@@ -67009,7 +67009,7 @@ const DBModule = (function () {
                 {
                     "url": "r23211",
                     "author": "Theolonius D. Covey",
-                    "date": "Ayer a las 3:33 am",
+                    "date": "20/09/2026",
                     "words": 256
                 }
             ],
@@ -67152,7 +67152,7 @@ const DBModule = (function () {
                 {
                     "url": "r23977",
                     "author": "Neptune E. Merrythought",
-                    "date": "Ayer a las 12:55 am",
+                    "date": "09/10/2026",
                     "words": 189
                 }
             ],
@@ -69222,7 +69222,7 @@ const DBModule = (function () {
                 {
                     "url": "r23662",
                     "author": "Elysia G. Lestrange",
-                    "date": "Hoy a las 3:32 pm",
+                    "date": "28/09/2026",
                     "words": 327
                 }
             ],
@@ -70672,31 +70672,31 @@ const DBModule = (function () {
                 {
                     "url": "r23673",
                     "author": "Owen Fitzgerald",
-                    "date": "Ayer a las 6:43 pm",
+                    "date": "28/09/2026",
                     "words": 109
                 },
                 {
                     "url": "r23674",
                     "author": "The Familiars",
-                    "date": "Ayer a las 6:43 pm",
+                    "date": "28/09/2026",
                     "words": 0
                 },
                 {
                     "url": "r23692",
                     "author": "Montgomery Thatch",
-                    "date": "Hoy a las 7:26 am",
+                    "date": "28/09/2026",
                     "words": 370
                 },
                 {
                     "url": "r23693",
                     "author": "The Familiars",
-                    "date": "Hoy a las 7:26 am",
+                    "date": "28/09/2026",
                     "words": 0
                 },
                 {
                     "url": "r23705",
                     "author": "Black Wave",
-                    "date": "Hoy a las 4:14 pm",
+                    "date": "28/09/2026",
                     "words": 176
                 }
             ],
@@ -71051,7 +71051,7 @@ const DBModule = (function () {
                 {
                     "url": "r23671",
                     "author": "Owen Fitzgerald",
-                    "date": "Hoy a las 6:35 pm",
+                    "date": "28/09/2026",
                     "words": 233
                 }
             ],
@@ -71282,7 +71282,7 @@ const DBModule = (function () {
                 {
                     "url": "r23525",
                     "author": "Valerian",
-                    "date": "Hoy a las 3:21",
+                    "date": "28/09/2026",
                     "words": 255
                 }
             ],
@@ -72033,7 +72033,7 @@ const DBModule = (function () {
                 {
                     "url": "r22184",
                     "author": "Black Wave",
-                    "date": "Ayer a las 3:42",
+                    "date": "24/08/2026",
                     "words": 39
                 }
             ],
@@ -72116,7 +72116,7 @@ const DBModule = (function () {
                 {
                     "url": "r23837",
                     "author": "Theolonius D. Covey",
-                    "date": "Ayer a las 11:54 pm",
+                    "date": "28/09/2026",
                     "words": 272
                 }
             ],
@@ -72999,7 +72999,7 @@ const DBModule = (function () {
                 {
                     "url": "r23527",
                     "author": "Black Wave",
-                    "date": "Hoy a las 3:25",
+                    "date": "28/09/2026",
                     "words": 122
                 }
             ],
@@ -73184,7 +73184,7 @@ const DBModule = (function () {
                 {
                     "url": "r23417",
                     "author": "Minerva E. McGonagall",
-                    "date": "Hoy a las 11:39 pm",
+                    "date": "26/09/2026",
                     "words": 145
                 }
             ],
@@ -73494,7 +73494,7 @@ const DBModule = (function () {
                 {
                     "url": "r21812",
                     "author": "Black Wave",
-                    "date": "Ayer a las 2:59",
+                    "date": "15/08/2026",
                     "words": 38
                 }
             ],
@@ -73822,7 +73822,7 @@ const DBModule = (function () {
                 {
                     "url": "r21815",
                     "author": "Black Wave",
-                    "date": "Ayer a las 3:10",
+                    "date": "15/08/2026",
                     "words": 54
                 }
             ],
@@ -74138,7 +74138,7 @@ const DBModule = (function () {
                 {
                     "url": "r21813",
                     "author": "Black Wave",
-                    "date": "Ayer a las 3:02",
+                    "date": "15/08/2026",
                     "words": 38
                 }
             ],
@@ -74400,7 +74400,7 @@ const DBModule = (function () {
                 {
                     "url": "r21811",
                     "author": "Black Wave",
-                    "date": "Ayer a las 2:51",
+                    "date": "15/08/2026",
                     "words": 32
                 }
             ],
@@ -74807,7 +74807,7 @@ const DBModule = (function () {
                 {
                     "url": "r23110",
                     "author": "Black Wave",
-                    "date": "Hoy a las 2:41",
+                    "date": "18/09/2026",
                     "words": 32
                 }
             ],
@@ -75141,7 +75141,7 @@ const DBModule = (function () {
                 {
                     "url": "r21814",
                     "author": "Black Wave",
-                    "date": "Ayer a las 3:07",
+                    "date": "15/08/2026",
                     "words": 50
                 }
             ],
@@ -75242,7 +75242,7 @@ const DBModule = (function () {
                 {
                     "url": "r23901",
                     "author": "Hermes Rosier",
-                    "date": "Hoy a las 9:56 am",
+                    "date": "28/09/2026",
                     "words": 323
                 }
             ],
@@ -75937,7 +75937,7 @@ const DBModule = (function () {
                 {
                     "url": "r21808",
                     "author": "Black Wave",
-                    "date": "Ayer a las 2:40",
+                    "date": "15/08/2026",
                     "words": 9
                 }
             ],
@@ -76055,7 +76055,7 @@ const DBModule = (function () {
                 {
                     "url": "r22183",
                     "author": "Black Wave",
-                    "date": "Ayer a las 3:42",
+                    "date": "24/08/2026",
                     "words": 5
                 }
             ],
@@ -76228,7 +76228,7 @@ const DBModule = (function () {
                 {
                     "url": "r24095",
                     "author": "Black Wave",
-                    "date": "Ayer a las 9:48 pm",
+                    "date": "09/10/2026",
                     "words": 68
                 }
             ],
@@ -76407,7 +76407,7 @@ const DBModule = (function () {
                 {
                     "url": "r23530",
                     "author": "Black Wave",
-                    "date": "Hoy a las 3:49",
+                    "date": "28/09/2026",
                     "words": 68
                 }
             ],
@@ -76658,7 +76658,7 @@ const DBModule = (function () {
                 {
                     "url": "r23529",
                     "author": "Black Wave",
-                    "date": "Hoy a las 3:47",
+                    "date": "28/09/2026",
                     "words": 68
                 }
             ],
@@ -76813,7 +76813,7 @@ const DBModule = (function () {
                 {
                     "url": "r24094",
                     "author": "Black Wave",
-                    "date": "Hoy a las 9:42 pm",
+                    "date": "09/10/2026",
                     "words": 68
                 }
             ],
@@ -76968,7 +76968,7 @@ const DBModule = (function () {
                 {
                     "url": "r23531",
                     "author": "Black Wave",
-                    "date": "Hoy a las 3:53",
+                    "date": "28/09/2026",
                     "words": 68
                 }
             ],
@@ -77123,7 +77123,7 @@ const DBModule = (function () {
                 {
                     "url": "r23528",
                     "author": "Black Wave",
-                    "date": "Hoy a las 3:31",
+                    "date": "28/09/2026",
                     "words": 68
                 }
             ],
@@ -77236,7 +77236,7 @@ const DBModule = (function () {
                 {
                     "url": "r23689",
                     "author": "Michael McKinnon",
-                    "date": "Hoy a las 8:27",
+                    "date": "28/09/2026",
                     "words": 405
                 }
             ],
@@ -171373,6 +171373,15 @@ const DBModule = (function () {
         };
 
         let match;
+
+        // Formato: "Hoy a las 6:28" / "Ayer a las 14:55" (FA usa fechas relativas en los posts recientes):
+        // se guarda la fecha real de hoy o de ayer, porque el texto deja de ser cierto al día siguiente
+        match = t.match(/^(hoy|ayer)\b/i);
+        if (match) {
+            const d = new Date();
+            if (match[1].toLowerCase() === 'ayer') d.setDate(d.getDate() - 1);
+            return `${String(d.getDate()).padStart(2, '0')}/${String(d.getMonth() + 1).padStart(2, '0')}/${d.getFullYear()}`;
+        }
 
         // Formato [AAAA/MM/DD]
         match = t.match(/\[(\d{4})\/(\d{2})\/(\d{2})\]/);
