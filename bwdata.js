@@ -3325,7 +3325,7 @@ const MissionsModule = (function () {
       "description": "[Completado] Las reliquias de la muerte muchas veces fueron buscadas y muchas fuentes confirman que solo se tratan de una fábula para enseñar algo importante a los niños y nada más. Sin embargo, hay quienes creen en ellas. Y no solo eso, suelen tener bastantes registros históricos tratando de rastrear dónde se encontraron. The Deadly Club, es un espacio que se encuentra en Hogsmeade donde muchos magos se reúnen a investigar y compartir sus investigaciones. Mientras no cambien nada, cualquiera puede entrar a echar un vistazo.",
       "image": "https://2img.net/i.imgur.com/DWMLO6R.png", "requisitos": [],
       "users": ["/u50", "/u9", "/u159"],
-      "informed": ["/u150"],
+      "informed": ["/u150","/u8"],
       "dependency": [],
       "type": "investigación", "closed": true, "fecha": "1953-03-30", "link": "https://blackwave.foroactivo.com/t1235-investigacion-in-search-of-the-deadly-hallows", "tagged": ["wave", "capitulo 0"],
 
