@@ -172123,6 +172123,15 @@ const DBModule = (function () {
         },
 
         exportData: function () {
+            const e = this.getExport();
+            console.log("%c === COPIA EN hardcodedTopics ===", "color: lime", e.temas);
+            console.log("%c === COPIA EN hardcodedDices ===", "color: cyan", e.dados);
+            e.avisos.forEach(a => console.warn(a));
+            console.log(`%c === COPIA EN hardcodedInactiveTopics (${e.nInactivos} de ${e.nTotalInactivos}) ===`, "color: orange", e.inactivos);
+        },
+
+        // Lo mismo que exportData, pero devuelve los textos (la limpieza los ofrece con botones de copiar)
+        getExport: function () {
             const allData = this.getUnifiedData();
             const filterBySpace = (space) => {
                 const topics = Object.keys(allData.topics)
@@ -172133,8 +172142,7 @@ const DBModule = (function () {
             };
 
             const pensadero = filterBySpace("el pensadero");
-            console.log("%c === COPIA EN hardcodedTopics ===", "color: lime", JSON.stringify(pensadero.topics, null, 2));
-            console.log("%c === COPIA EN hardcodedDices ===", "color: cyan", JSON.stringify(pensadero.dices, null, 2));
+            const avisos = [];
 
             // Inactivos congelables: +90 días desde el último post, o a lo sumo 1 autor fuera de globalNoAdd.
             // Reemplaza hardcodedInactiveTopics entero: los que se movieron ya no salen acá, así que desaparecen solos.
@@ -172148,13 +172156,18 @@ const DBModule = (function () {
             const congelables = {};
             for (const [key, t] of Object.entries(inactivos)) {
                 if (t.replyCount == null) {
-                    console.warn(`[DBModule] "${t.simpleTitle}" (t${key}) no tiene replyCount: no se congela hasta re-escanearlo.`);
+                    avisos.push(`[DBModule] "${t.simpleTitle}" (t${key}) no tiene replyCount: no se congela hasta re-escanearlo.`);
                     continue;
                 }
                 const autores = new Set(t.posts.map(p => p.author).filter(a => !noAdd.includes(a)));
                 if (diasDesde(t.posts[t.posts.length - 1]?.date) > 90 || autores.size <= 1) congelables[key] = t;
             }
-            console.log(`%c === COPIA EN hardcodedInactiveTopics (${Object.keys(congelables).length} de ${Object.keys(inactivos).length}) ===`, "color: orange", JSON.stringify(congelables, null, 4));
+            return {
+                temas: JSON.stringify(pensadero.topics, null, 2), nTemas: Object.keys(pensadero.topics).length,
+                dados: JSON.stringify(pensadero.dices, null, 2), nDados: pensadero.dices.length,
+                inactivos: JSON.stringify(congelables, null, 4), nInactivos: Object.keys(congelables).length, nTotalInactivos: Object.keys(inactivos).length,
+                avisos
+            };
         },
 
         scanCleanForum: async function (forumPath, forumName) {
