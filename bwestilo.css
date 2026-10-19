@@ -10459,8 +10459,8 @@ a.forumtitle:hover {
      Tonos de luminosidad media, para que se lean en fondo claro y oscuro. */
   --mf-grupo: var(--post-user, var(--group-funcionarios, #79708a));
   /* mismo tono que el grupo, pero con más color y más claro; el azul es el de la línea del foro, con más vida */
-  --mf-azul: oklch(0.68 0.1 262);
-  --mf-1: oklch(from var(--mf-grupo) 0.69 max(c, 0.1) h);
+  --mf-azul: oklch(0.55 0.05 262);
+  --mf-1: oklch(from var(--mf-grupo) 0.55 min(c, 0.06) h);
   --mf-2: color-mix(in oklch, var(--mf-1) 80%, var(--mf-azul));
   --mf-3: color-mix(in oklch, var(--mf-1) 60%, var(--mf-azul));
   --mf-4: color-mix(in oklch, var(--mf-1) 40%, var(--mf-azul));
@@ -10489,24 +10489,24 @@ a.forumtitle:hover {
 }
 
 /* links sin subrayado nunca: se distinguen por el peso y cambian al color del manifiesto al pasar el mouse */
+/* links: siempre iguales, también con el mouse encima (se anula el hover que trae FA) */
 .bw-manifest a,
-.bw-manifest a:visited {
-  color: var(--mode-text-100);
+.bw-manifest a:visited,
+.bw-manifest a:hover,
+.bw-manifest a:focus,
+.bw-manifest a:active {
+  color: var(--mode-text-100) !important;
   font-weight: 500;
   text-decoration: none !important;
-  transition: color var(--fast);
-}
-
-.bw-manifest a:hover,
-.bw-manifest a:focus-visible {
-  color: var(--mf-1);
-  text-decoration: none !important;
+  background: none !important;
+  opacity: 1 !important;
 }
 
 .bw-manifest small {
-  font-size: 10px;
-  opacity: .6;
+  font-size: 9px;
   font-variant-numeric: tabular-nums;
+  text-transform: uppercase;
+  letter-spacing: .2px;
 }
 
 .bw-manifest-head {
@@ -11129,20 +11129,19 @@ button.bw-manifest-bean[aria-expanded="true"] {
   white-space: nowrap;
 }
 
+/* barras de progreso: solo dos colores, el del personaje (lo lleno) y --mode-back-60 (el fondo) */
 .bw-manifest-progress {
   display: block;
   height: 4px;
   border-radius: 2px;
-  background: var(--mode-back-80);
+  background: var(--mode-back-60);
   overflow: hidden;
 }
 
-/* degradé del azul del foro al color del grupo, medido sobre toda la barra: lo lleno muestra solo su tramo
-   (una barra recién empezada se ve azul; completa, llega al color del grupo) */
 .bw-manifest-progress i {
   display: block;
   height: 100%;
-  background: linear-gradient(90deg, var(--mf-6), var(--mf-1)) left / calc(100% * 100 / var(--p, 100)) 100% no-repeat;
+  background: var(--post-user, var(--mf-grupo));
 }
 
 .bw-manifest-noimg {
@@ -11240,13 +11239,20 @@ button.bw-manifest-medal[aria-expanded="true"] {
 }
 
 .bw-manifest-row.head {
-  background: none;
-  padding-top: 0;
-  padding-bottom: 2px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  background: var(--post-user, var(--mf-grupo));
   font: var(--style-link);
   font-size: 9px;
+  letter-spacing: .5px;
   text-transform: uppercase;
-  color: var(--mode-back-60);
+  white-space: nowrap;
+  color: var(--color-text-100);
+}
+
+.bw-manifest-row.head > span {
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .bw-manifest-row.muted {
@@ -11278,11 +11284,21 @@ button.bw-manifest-row[aria-expanded="true"] {
 }
 
 .bw-manifest-table.puntos .bw-manifest-row {
-  grid-template-columns: minmax(0, 1.2fr) minmax(0, .45fr) minmax(0, 1fr) minmax(0, 1.2fr) minmax(0, 1.75fr);
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, .6fr) minmax(0, 1fr) minmax(0, 1.15fr) minmax(0, 1.6fr);
 }
 
 .bw-manifest-table.puntos strong {
   font: 700 13px var(--font-code);
+}
+
+.bw-manifest-table.puntos .bw-manifest-row:not(.head) > span:first-child {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--post-user, var(--mf-grupo));
+}
+
+.bw-manifest-table.puntos .bw-manifest-row > span:nth-child(2) {
+  text-align: center;
 }
 
 .bw-manifest-table.puntos small {
@@ -11314,7 +11330,7 @@ button.bw-manifest-row[aria-expanded="true"] {
 }
 
 .bw-manifest-meta.listo .bw-manifest-progress i {
-  background: var(--validation-passed);
+  background: var(--post-user, var(--mf-grupo));
 }
 
 /* vista trayectoria: colegio año por año + cargos de adulto sobre un eje de años */
@@ -11685,9 +11701,8 @@ mark.bw-manifest-marca {
 
 .bw-manifest-pasar button {
   width: 30px;
-  height: 26px;
+  height: 16px;
   border-radius: 3px;
-  background: var(--mode-back-100);
   color: var(--mode-text-100);
 }
 
@@ -11810,9 +11825,8 @@ mark.bw-manifest-marca {
   gap: 8px;
   padding: 7px 12px;
   border: none;
-  border-left: 3px solid var(--estado, var(--mf-3));
   border-radius: 3px;
-  background: var(--mode-back-80);
+  background: var(--estado, var(--mf-3));
   color: var(--color-text-100);
   font: var(--style-link);
   font-size: 10px;
@@ -11860,7 +11874,7 @@ mark.bw-manifest-marca {
 
 .bw-manifest-grupo-head > span i {
   margin-right: 6px;
-  color: var(--estado, inherit);
+  color: var(--color-text-100);
 }
 
 /* cajitas de conteo arriba de las pestañas */
@@ -12079,7 +12093,7 @@ mark.bw-manifest-marca {
   position: relative;
   height: 8px;
   border-radius: 4px;
-  background: var(--mode-back-80);
+  background: var(--mode-back-60);
 }
 
 .bw-manifest-cargo.head .bw-manifest-cargo-eje {
@@ -12096,7 +12110,7 @@ mark.bw-manifest-marca {
   top: 0;
   bottom: 0;
   border-radius: 4px;
-  background: var(--tipo);
+  background: var(--post-user, var(--mf-grupo));
 }
 
 .bw-manifest-cargo.actual .bw-manifest-cargo-eje i {
@@ -12144,6 +12158,16 @@ mark.bw-manifest-marca {
 
   .bw-manifest-table.puntos .bw-manifest-muted {
     display: none;
+  }
+
+  /* cronología: la fecha arriba del nombre, para que el texto tenga todo el ancho */
+  .bw-manifest-tema {
+    grid-template-columns: 14px minmax(0, 1fr);
+    row-gap: 2px;
+  }
+
+  .bw-manifest-tema > i {
+    grid-row: 1 / 3;
   }
 
   /* bitácora: el índice se abre con un botón arriba del libro */
