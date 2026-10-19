@@ -10461,11 +10461,17 @@ a.forumtitle:hover {
   /* mismo tono que el grupo, pero con más color y más claro; el azul es el de la línea del foro, con más vida */
   --mf-azul: oklch(0.55 0.05 262);
   --mf-1: oklch(from var(--mf-grupo) 0.55 min(c, 0.06) h);
-  --mf-2: color-mix(in oklch, var(--mf-1) 80%, var(--mf-azul));
-  --mf-3: color-mix(in oklch, var(--mf-1) 60%, var(--mf-azul));
-  --mf-4: color-mix(in oklch, var(--mf-1) 40%, var(--mf-azul));
-  --mf-5: color-mix(in oklch, var(--mf-1) 20%, var(--mf-azul));
+  /* la mezcla va en oklab (en línea recta): en oklch, del dorado al azul se pasaba por el rojo y el magenta */
+  --mf-2: color-mix(in oklab, var(--mf-1) 80%, var(--mf-azul));
+  --mf-3: color-mix(in oklab, var(--mf-1) 60%, var(--mf-azul));
+  --mf-4: color-mix(in oklab, var(--mf-1) 40%, var(--mf-azul));
+  --mf-5: color-mix(in oklab, var(--mf-1) 20%, var(--mf-azul));
   --mf-6: var(--mf-azul);
+  /* la caja que une todo, como la .table-trunk del baúl: fondo del modo y bordes del color del personaje */
+  padding: 25px;
+  border-top: 5px solid var(--post-user, var(--mf-grupo));
+  border-bottom: 5px solid var(--post-user, var(--mf-grupo));
+  background: var(--mode-back-100);
   /* ocupa todo el ancho disponible, también si el contenedor del perfil es flex */
   box-sizing: border-box;
   width: 100%;
@@ -11693,18 +11699,25 @@ mark.bw-manifest-marca {
   color: #fff;
 }
 
+/* paginador: flechas centradas en su botón y "Página 2 de 5" como etiqueta */
 .bw-manifest-pasar {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 12px;
+  gap: 6px;
 }
 
 .bw-manifest-pasar button {
-  width: 30px;
-  height: 16px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 22px;
+  padding: 0;
   border-radius: 3px;
-  color: var(--mode-text-100);
+  font-size: 11px;
+  line-height: 1;
+  color: var(--post-user, var(--mf-grupo));
 }
 
 .bw-manifest-pasar button:disabled {
@@ -11713,7 +11726,14 @@ mark.bw-manifest-marca {
 }
 
 .bw-manifest-num {
-  font: 500 12px var(--font-code);
+  min-width: 8em;
+  font: var(--style-link);
+  font-size: 10px;
+  letter-spacing: 1px;
+  line-height: 22px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--mode-text-100);
 }
 
 /* vista wrap-up: selector de año arriba de las pestañas y línea de hitos */
@@ -11827,7 +11847,7 @@ mark.bw-manifest-marca {
   padding: 7px 12px;
   border: none;
   border-radius: 3px;
-  background: var(--estado, var(--mf-3));
+  background: var(--estado, var(--mf-1));
   color: var(--color-text-100);
   font: var(--style-link);
   font-size: 10px;
@@ -11907,6 +11927,12 @@ mark.bw-manifest-marca {
 .bw-manifest-cuenta i {
   font-size: 16px;
   color: var(--estado, var(--mf-1));
+}
+
+/* el número siempre en el color del texto (el foro le pone color a b/strong); solo el ícono lleva el del estado */
+.bw-manifest-cuenta > b,
+.bw-manifest-cuenta strong {
+  color: var(--mode-text-100) !important;
 }
 
 .bw-manifest-cuenta strong {
@@ -12159,6 +12185,11 @@ mark.bw-manifest-marca {
 
   .bw-manifest-table.puntos .bw-manifest-muted {
     display: none;
+  }
+
+  /* la caja contenedora con menos relleno */
+  .bw-manifest {
+    padding: 14px 12px;
   }
 
   /* cronología: la fecha arriba del nombre, para que el texto tenga todo el ancho */
