@@ -12146,15 +12146,17 @@ mark.bw-manifest-marca {
   height: auto;
   background: none;
   font: 500 10px var(--font-code);
-  color: var(--mode-back-60);
+  color: var(--post-user, var(--mf-grupo));
 }
 
+/* la barra va del color del grupo del cargo; las filas alternan tres tonos para que una barra no se pegue a la otra */
 .bw-manifest-cargo-eje i {
   position: absolute;
   top: 0;
   bottom: 0;
   border-radius: 4px;
-  background: var(--post-user, var(--mf-grupo));
+  background: var(--grupo, var(--post-user, var(--mf-grupo)));
+  background: oklch(from var(--grupo, var(--post-user, var(--mf-grupo))) calc(l + var(--tono, 0) * 0.09) c h);
 }
 
 .bw-manifest-cargo.actual .bw-manifest-cargo-eje i {
@@ -12290,6 +12292,15 @@ mark.bw-manifest-marca {
 
   .bw-manifest-stats {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  /* en dos columnas los valores grandes no entraban ("167.…", "Novie…") */
+  .bw-manifest-stat strong {
+    font-size: 16px;
+  }
+
+  .bw-manifest-stat strong.is-text {
+    font-size: 14px;
   }
 
   /* filas con barra: nombre y número arriba, la barra a todo el ancho abajo */
