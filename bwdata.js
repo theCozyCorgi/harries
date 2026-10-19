@@ -108,7 +108,7 @@ const MissionsModule = (function () {
       "description": "Bienvenidos a 'Maroon Steed', aquellos que lo conocen, saben a dónde están ingresando, quienes no, pronto lo descubrirán.<br />La taberna que solo aparece para aquellos que necesitan una poción para la tristeza, la rabia y el enojo. Ideal para quienes lloran por dentro, pero aún queda vida en sus corazones. La taberna es un espacio ideal para olvidarse de todas las dolencias y todas las cicatrices que la vida dejo. Allí dentro encontrarán algo mágico, algo prohibido, algo que olvidar...",
       "image": "https://2img.net/i.imgur.com/gGo598Z.png", "requisitos": [],
       "users": ["/u38", "/u116", "/u115", "/u119", "/u118", "/u63"],
-      "informed": ["/u55", "/u130"],
+      "informed": ["/u55", "/u130","/u8"],
       "dependency": [],
       "type": "misión", "closed": true, "fecha": "1952-10-31", "link": "https://blackwave.foroactivo.com/t559-mision-potions-for-all-the-afflections", "tagged": ["morgana", "capitulo 0"],
 
@@ -458,7 +458,7 @@ const MissionsModule = (function () {
       "description": "El hogar de Edwin, pertenece a su familia por muchos de años. No era sorpresa de nadie que Edwin hubiera tomado la herencia para hacer de esa casa propia. Por más del aspecto antiguo de su exterior, la modesta casa siempre fue muy limpia y ordenada para todos aquellos que la conocían. Pese a eso, lo más importante, no es la casa, es la libreta que Edwin siempre tenía consigo.<br />El ex-jefe del departamento de seguridad, era una persona muy ordenada. Poseía una libreta encantada en la que escribía todo y decía que solo él era capaz de leerla. Bromeaba con sus colegas, 'si algo me pasa, busquen aquí', y le daba dos golpes lomo de la misma, 'algo habré escrito que les regalará la mitad del trabajo'. Se suponía que nada le pasaría, pero pasó y ahora su libreta, esta pérdida.",
       "image": "https://2img.net/i.imgur.com/Hql0xVA.png", "requisitos": ["Un trabajador del Dpto de Seguridad Mágica", "Un personaje cercano a Edwin", "Solo podrán participar personajes del Dpto se Seguridad Mágica, San Mungo o cercanos a la víctima"],
       "users": ["/u60", "/u7", "/u55", "/u50", "/u79", "/u84"],
-      "informed": [],
+      "informed": ["/u8"],
       "dependency": [],
       "type": "misión", "closed": true, "fecha": "1952-09-25", "link": "https://blackwave.foroactivo.com/t354-mision-haunted-dwelling", "tagged": ["edwin", "capitulo 0"],
 
@@ -1108,7 +1108,7 @@ const MissionsModule = (function () {
       "description": "Tras desentrañar el contenido de las tazas de té de las víctimas. Una nueva incógnita se escribe, ¿con qué planta contaminaron el té?, y ¿cuáles eran sus efectos? El objetivo de esta investigación es avanzar un paso más, cuál era esa planta y tal vez, revelar una nueva pista que los lleve a resolver el misterio.",
       "image": "https://2img.net/i.imgur.com/CzU2l87.png", "requisitos": ["Un integrante tiene que tener Herbología en Avanzado"],
       "users": ["/u18", "/u108", "/u97"],
-      "informed": ["/u55", "/u130"],
+      "informed": ["/u55", "/u130","/u8"],
       "dependency": ["death in a teacup"],
       "type": "investigación", "closed": true, "fecha": "1952-10-27", "link": "/t522-investigacion-botanical-market", "tagged": ["morgana", "capitulo 0"],
 
@@ -1877,7 +1877,7 @@ const MissionsModule = (function () {
       "description": "Cuando la situación del mundo actual no podría ser más incierta, un nuevo ataque se produce en uno de los lugares más seguros del mundo mágico. Hogwarts parece tener filtraciones y eso podría poner en riesgo la continuidad de su actual director.",
       "image": "https://2img.net/i.imgur.com/YQ3QDyq.png", "requisitos": ["un miembro del departamento del Seguridad Mágica", "un miembro del personal o profesorado de hogwarts", "Solo se aceptarán 2 estudiantes como máximo"],
       "users": ["/u50", "/u24", "/u110", "/u108", "/u141"],
-      "informed": [],
+      "informed": ["/u8"],
       "dependency": [],
       "type": "misión", "closed": true, "fecha": "1953-02-03", "link": "https://blackwave.foroactivo.com/t932-mision-the-murmur-of-the-old-guard", "tagged": ["wave", "capitulo 1"],
 
@@ -2776,7 +2776,7 @@ const MissionsModule = (function () {
       "description": "Ya habiendo identificado la planta, la pregunta ahora, es ¿qué ha sido de ella? Por lo tanto, todas las investigaciones vuelven al Castillo Black buscando encontrar alguna señal que indiqué qué ha hecho Sirius con la misma.",
       "image": "https://2img.net/i.imgur.com/CmIJAA5.png", "requisitos": ["Uno de los integrantes debe ser un miembro de la familia Black"],
       "users": ["/u9", "/u17", "/u101"],
-      "informed": [],
+      "informed": ["/u8"],
       "dependency": ["underground roots", "the beryl ash trail"],
       "type": "investigación", "closed": true, "fecha": "1952-11-23", "link": "https://blackwave.foroactivo.com/t643-investigacion-the-withered-pot", "tagged": ["sirius", "capitulo 0"],
 
@@ -3591,7 +3591,7 @@ const MissionsModule = (function () {
       "description": "[COMPLETADA] Tras la investigación sobre el lugar al que Edwin los llevó, descubren la existencia de una herencia de los Merrythought. Un lugar que había sido abandonado, pero cuyo objetivo se centra en ser un pulmón verde en las tierras escocesas. En esta misión se busca descubrir qué relación tiene este lugar con los asesinatos y por qué Edwin los llevó allí.",
       "image": "https://2img.net/i.imgur.com/VMpvsfT.png", "requisitos": ["Un miembro debe ser de la familia Merrythought", "Un miembro debe tener Herbología en Avanzado", "Un miembro debe tener Encantamientos en Consagrado", "Se recomienda que un miembro posea Música en Principiante o una hija de Banshees"],
       "users": ["/u55", "/u159", "/u149", "/u150", "/u13", "/u138"],
-      "informed": [],
+      "informed": ["/u8"],
       "dependency": ["bottle of sorrows", "muted magic", "stargazer's night"], "tagged": ["morgana", "edwin", "capitulo 0"],
       "type": "misión", "closed": true, "fecha": "1953-03-28", "link": "https://blackwave.foroactivo.com/t1205-mision-the-murmuring-woods",
 
@@ -4066,7 +4066,7 @@ const MissionsModule = (function () {
       "description": "Con los reportes adulterados, la mejor alternativa es ir con la fuente de todos los datos, aquella persona que podría saber los secretos de Morgana y Merlina, dado que es hijo de una de ellas: Damien A. Ashford-Dempsey.",
       "image": "https://2img.net/i.imgur.com/bjwrBd2.png", "requisitos": ["Un miembro del Dpto de Seguridad Mágica"],
       "users": ["i/u127", "/u78", "/u55"],
-      "informed": [],
+      "informed": ["/u8"],
       "dependency": ["promise in crimson"],
       "type": "interrogatorio", "closed": true, "fecha": "1953-01-05", "link": "https://blackwave.foroactivo.com/t834-interrogatorio-journey-of-a-bird", "tagged": ["morgana", "capitulo 0"],
 
