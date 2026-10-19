@@ -11136,7 +11136,7 @@ button.bw-manifest-bean[aria-expanded="true"] {
   white-space: nowrap;
 }
 
-/* barras de progreso: solo dos colores, el del personaje (lo lleno) y --mode-back-60 (el fondo) */
+/* barras de progreso: solo dos colores, el del personaje (lo lleno) y --mode-back-80 (el fondo) */
 .bw-manifest-progress {
   display: block;
   height: 4px;
@@ -12137,7 +12137,7 @@ mark.bw-manifest-marca {
   position: relative;
   height: 8px;
   border-radius: 4px;
-  background: var(--mode-back-60);
+  background: var(--mode-back-80);
 }
 
 .bw-manifest-cargo.head .bw-manifest-cargo-eje {
@@ -12149,14 +12149,13 @@ mark.bw-manifest-marca {
   color: var(--post-user, var(--mf-grupo));
 }
 
-/* la barra va del color del grupo del cargo; las filas alternan tres tonos para que una barra no se pegue a la otra */
+/* la barra va del color del grupo del cargo, tal cual (o el del personaje si no se sabe el grupo) */
 .bw-manifest-cargo-eje i {
   position: absolute;
   top: 0;
   bottom: 0;
   border-radius: 4px;
   background: var(--grupo, var(--post-user, var(--mf-grupo)));
-  background: oklch(from var(--grupo, var(--post-user, var(--mf-grupo))) calc(l + var(--tono, 0) * 0.09) c h);
 }
 
 .bw-manifest-cargo.actual .bw-manifest-cargo-eje i {
