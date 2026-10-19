@@ -11743,6 +11743,133 @@ mark.bw-manifest-marca {
   color: var(--mode-text-100);
 }
 
+/* limpieza semanal (cleaning.js): misma caja del manifiesto; abajo, el sumador de A.R.C.E. */
+/* (la numeración de links de la limpieza vieja no va acá: cada grupo ya dice cuántos tiene) */
+.cleaning-day .bw-limpieza a {
+  counter-increment: none;
+}
+
+.cleaning-day .bw-limpieza a:before {
+  content: none;
+}
+
+.bw-limpieza .bw-manifest-section {
+  display: flex;
+  flex-flow: column;
+  gap: 6px;
+}
+
+/* usuarios: sin columna de fecha, el nombre al lado del ícono */
+.bw-manifest-tema.bw-limpieza-usuario {
+  grid-template-columns: 14px minmax(0, 1fr);
+}
+
+/* MPs: nombre, botón de copiar y el código */
+.bw-limpieza-mp {
+  display: flex;
+  flex-flow: column;
+  gap: 4px;
+  padding: 8px 12px;
+  border-radius: 3px;
+  background: var(--mode-back-100);
+}
+
+.bw-limpieza-mp-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+}
+
+.bw-limpieza-mp-head button {
+  margin-left: auto;
+  padding: 4px 10px;
+  border-radius: 3px;
+  background: var(--post-user, var(--mf-grupo));
+  color: var(--color-text-100);
+  font: var(--style-link);
+  font-size: 9px;
+  text-transform: uppercase;
+}
+
+.bw-limpieza-mp textarea {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 6px 8px;
+  border: 1px solid var(--mode-back-80);
+  border-radius: 3px;
+  background: var(--mode-back-90);
+  color: var(--mode-text-100);
+  font: 11px/1.4 var(--font-code);
+  resize: vertical;
+}
+
+.bw-limpieza-ayuda {
+  margin: 0;
+  font-size: 12px;
+  opacity: .85;
+}
+
+.bw-limpieza-cant {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+}
+
+.bw-limpieza-cant input,
+.bw-limpieza-arce textarea {
+  box-sizing: border-box;
+  padding: 6px 8px;
+  border: 1px solid var(--mode-back-80);
+  border-radius: 3px;
+  background: var(--mode-back-100);
+  color: var(--mode-text-100);
+  font: 12px var(--font-code);
+}
+
+.bw-limpieza-cant input {
+  width: 70px;
+}
+
+.bw-limpieza-arce textarea {
+  width: 100%;
+  resize: vertical;
+}
+
+.bw-limpieza-arce textarea[hidden],
+.bw-limpieza-resumen[hidden] {
+  display: none;
+}
+
+.bw-limpieza-botones {
+  display: flex;
+  gap: 6px;
+}
+
+.bw-limpieza-botones button {
+  padding: 6px 12px;
+  border-radius: 3px;
+  background: var(--post-user, var(--mf-grupo));
+  color: var(--color-text-100);
+  font: var(--style-link);
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+.bw-limpieza-botones button:disabled {
+  opacity: .4;
+  cursor: default;
+}
+
+.bw-limpieza-resumen {
+  display: flex;
+  flex-flow: column;
+  gap: 4px;
+  margin: 0;
+  font-size: 12px;
+}
+
 /* vista wrap-up: selector de año arriba de las pestañas y línea de hitos */
 .bw-manifest-periodo {
   display: flex;
