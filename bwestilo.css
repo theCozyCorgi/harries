@@ -11299,9 +11299,16 @@ button.bw-manifest-row[aria-expanded="true"] {
 }
 
 .bw-manifest-table.puntos .bw-manifest-row:not(.head) > span:first-child {
+  font-size: 11px;
   font-weight: bold;
+  line-height: 1.25;
   text-transform: uppercase;
   color: var(--post-user, var(--mf-grupo));
+  /* sin guiones: una palabra larga (TRANSFORMACIONES) va entera; dos palabras sí pueden ir en dos líneas */
+  hyphens: manual;
+  -webkit-hyphens: manual;
+  overflow-wrap: normal;
+  word-break: normal;
 }
 
 .bw-manifest-table.puntos .bw-manifest-row > span:nth-child(2) {
@@ -12096,7 +12103,7 @@ mark.bw-manifest-marca {
 
 .bw-manifest-cargo {
   display: grid;
-  grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+  grid-template-columns: 18px minmax(0, 1.1fr) minmax(0, 1fr);
   align-items: center;
   gap: 12px;
   padding: 6px 12px;
@@ -12114,6 +12121,16 @@ mark.bw-manifest-marca {
 .bw-manifest-cargo-txt {
   display: flex;
   flex-flow: column;
+  hyphens: manual;
+  -webkit-hyphens: manual;
+}
+
+/* ícono del grupo del cargo, en el color de ese grupo (o el del personaje si no se sabe) */
+.bw-manifest-cargo-icono {
+  font-size: 16px;
+  line-height: 1;
+  text-align: center;
+  color: var(--grupo, var(--post-user, var(--mf-grupo)));
 }
 
 .bw-manifest-cargo-eje {
@@ -12251,11 +12268,15 @@ mark.bw-manifest-marca {
   }
 
   .bw-manifest-cargo {
-    grid-template-columns: minmax(0, 1fr);
+    grid-template-columns: 18px minmax(0, 1fr);
     row-gap: 5px;
   }
 
-  .bw-manifest-cargo.head > span:first-child {
+  .bw-manifest-cargo-eje {
+    grid-column: 2;
+  }
+
+  .bw-manifest-cargo.head > span:nth-child(2) {
     display: none;
   }
 
