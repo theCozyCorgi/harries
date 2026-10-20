@@ -21,8 +21,8 @@ const DBModule = (function () {
         { name: "temas inactivos", path: "/f30-temas-inactivos" }
     ];
 
-    const CACHE_KEY = 'blackwave_db_cache_v8';
-    const INDEX_KEY = 'current_index_blackwave_v8';
+    const CACHE_KEY = 'blackwave_db_cache_v9';
+    const INDEX_KEY = 'current_index_blackwave_v9';
     const CACHE_DURATION = 2 * 60 * 60 * 1000;
 
     const hardcodedTopics = {
@@ -171906,8 +171906,9 @@ const DBModule = (function () {
         },
 
         init: async function () {
+            // Borra las cachés y los índices de versiones anteriores
             Object.keys(localStorage).forEach(key => {
-                if (key.startsWith('blackwave_') && key !== CACHE_KEY) {
+                if ((key.startsWith('blackwave_') && key !== CACHE_KEY) || (key.startsWith('current_index_blackwave_') && key !== INDEX_KEY)) {
                     localStorage.removeItem(key);
                 }
             });

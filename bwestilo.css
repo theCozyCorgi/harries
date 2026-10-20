@@ -11753,6 +11753,23 @@ mark.bw-manifest-marca {
   content: none;
 }
 
+/* aviso de base vacía o vieja en este navegador */
+.bw-limpieza-alerta {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px 12px;
+  border-radius: 3px;
+  background: var(--validation-warning);
+  color: #fff;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.bw-limpieza-alerta i {
+  padding-top: 2px;
+}
+
 .bw-limpieza .bw-manifest-section {
   display: flex;
   flex-flow: column;
