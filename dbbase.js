@@ -58613,6 +58613,395 @@ const DBModule = (function () {
             "date": "22/02/1953",
             "location": "Biblioteca"
         },
+        "1051": {
+            "space": "el pensadero",
+            "url": "/t1051-1953-02-17-practica-quick-and-light",
+            "simpleTitle": "práctica: quick and light",
+            "creator": "H. Shun Parkinson",
+            "replyCount": 62,
+            "posts": [
+                {
+                    "url": "r14412",
+                    "author": "H. Shun Parkinson",
+                    "date": "04/03/2026",
+                    "words": 272
+                },
+                {
+                    "url": "r14420",
+                    "author": "Alastor Moody",
+                    "date": "04/03/2026",
+                    "words": 180
+                },
+                {
+                    "url": "r14421",
+                    "author": "The Familiars",
+                    "date": "04/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r14988",
+                    "author": "H. Shun Parkinson",
+                    "date": "15/03/2026",
+                    "words": 171
+                },
+                {
+                    "url": "r14989",
+                    "author": "The Familiars",
+                    "date": "15/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r15157",
+                    "author": "Alastor Moody",
+                    "date": "18/03/2026",
+                    "words": 278
+                },
+                {
+                    "url": "r15158",
+                    "author": "The Familiars",
+                    "date": "18/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r15625",
+                    "author": "H. Shun Parkinson",
+                    "date": "27/03/2026",
+                    "words": 201
+                },
+                {
+                    "url": "r15626",
+                    "author": "The Familiars",
+                    "date": "27/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r15801",
+                    "author": "Alastor Moody",
+                    "date": "30/03/2026",
+                    "words": 220
+                },
+                {
+                    "url": "r15802",
+                    "author": "The Familiars",
+                    "date": "30/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16144",
+                    "author": "H. Shun Parkinson",
+                    "date": "06/04/2026",
+                    "words": 375
+                },
+                {
+                    "url": "r16145",
+                    "author": "The Familiars",
+                    "date": "06/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16163",
+                    "author": "Alastor Moody",
+                    "date": "06/04/2026",
+                    "words": 185
+                },
+                {
+                    "url": "r16164",
+                    "author": "The Familiars",
+                    "date": "06/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16658",
+                    "author": "H. Shun Parkinson",
+                    "date": "19/04/2026",
+                    "words": 230
+                },
+                {
+                    "url": "r16659",
+                    "author": "The Familiars",
+                    "date": "19/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16689",
+                    "author": "Alastor Moody",
+                    "date": "19/04/2026",
+                    "words": 158
+                },
+                {
+                    "url": "r16690",
+                    "author": "The Familiars",
+                    "date": "19/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r17105",
+                    "author": "H. Shun Parkinson",
+                    "date": "29/04/2026",
+                    "words": 202
+                },
+                {
+                    "url": "r17106",
+                    "author": "The Familiars",
+                    "date": "29/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r17282",
+                    "author": "Alastor Moody",
+                    "date": "01/05/2026",
+                    "words": 293
+                },
+                {
+                    "url": "r17283",
+                    "author": "The Familiars",
+                    "date": "01/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r17869",
+                    "author": "H. Shun Parkinson",
+                    "date": "08/05/2026",
+                    "words": 234
+                },
+                {
+                    "url": "r17870",
+                    "author": "The Familiars",
+                    "date": "08/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r18058",
+                    "author": "Alastor Moody",
+                    "date": "10/05/2026",
+                    "words": 134
+                },
+                {
+                    "url": "r18059",
+                    "author": "The Familiars",
+                    "date": "10/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r18689",
+                    "author": "H. Shun Parkinson",
+                    "date": "20/05/2026",
+                    "words": 176
+                },
+                {
+                    "url": "r18690",
+                    "author": "The Familiars",
+                    "date": "20/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r18716",
+                    "author": "Alastor Moody",
+                    "date": "20/05/2026",
+                    "words": 151
+                },
+                {
+                    "url": "r18717",
+                    "author": "The Familiars",
+                    "date": "20/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r19261",
+                    "author": "H. Shun Parkinson",
+                    "date": "29/05/2026",
+                    "words": 246
+                },
+                {
+                    "url": "r19262",
+                    "author": "The Familiars",
+                    "date": "29/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r19269",
+                    "author": "Alastor Moody",
+                    "date": "29/05/2026",
+                    "words": 312
+                },
+                {
+                    "url": "r19270",
+                    "author": "The Familiars",
+                    "date": "29/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r19288",
+                    "author": "H. Shun Parkinson",
+                    "date": "29/05/2026",
+                    "words": 275
+                },
+                {
+                    "url": "r19289",
+                    "author": "The Familiars",
+                    "date": "29/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r19309",
+                    "author": "Alastor Moody",
+                    "date": "30/05/2026",
+                    "words": 352
+                },
+                {
+                    "url": "r19310",
+                    "author": "The Familiars",
+                    "date": "30/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r19810",
+                    "author": "H. Shun Parkinson",
+                    "date": "11/06/2026",
+                    "words": 280
+                },
+                {
+                    "url": "r19811",
+                    "author": "The Familiars",
+                    "date": "11/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20160",
+                    "author": "Alastor Moody",
+                    "date": "23/06/2026",
+                    "words": 173
+                },
+                {
+                    "url": "r20161",
+                    "author": "The Familiars",
+                    "date": "23/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20428",
+                    "author": "H. Shun Parkinson",
+                    "date": "02/07/2026",
+                    "words": 237
+                },
+                {
+                    "url": "r20429",
+                    "author": "The Familiars",
+                    "date": "02/07/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20818",
+                    "author": "Alastor Moody",
+                    "date": "16/07/2026",
+                    "words": 242
+                },
+                {
+                    "url": "r20819",
+                    "author": "The Familiars",
+                    "date": "16/07/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21718",
+                    "author": "H. Shun Parkinson",
+                    "date": "12/08/2026",
+                    "words": 274
+                },
+                {
+                    "url": "r21719",
+                    "author": "The Familiars",
+                    "date": "12/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21741",
+                    "author": "Alastor Moody",
+                    "date": "12/08/2026",
+                    "words": 189
+                },
+                {
+                    "url": "r21742",
+                    "author": "The Familiars",
+                    "date": "12/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22088",
+                    "author": "H. Shun Parkinson",
+                    "date": "22/08/2026",
+                    "words": 248
+                },
+                {
+                    "url": "r22089",
+                    "author": "The Familiars",
+                    "date": "22/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22600",
+                    "author": "Alastor Moody",
+                    "date": "06/09/2026",
+                    "words": 252
+                },
+                {
+                    "url": "r22601",
+                    "author": "The Familiars",
+                    "date": "06/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22777",
+                    "author": "H. Shun Parkinson",
+                    "date": "12/09/2026",
+                    "words": 213
+                },
+                {
+                    "url": "r22778",
+                    "author": "The Familiars",
+                    "date": "12/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r23098",
+                    "author": "Alastor Moody",
+                    "date": "19/09/2026",
+                    "words": 185
+                },
+                {
+                    "url": "r23099",
+                    "author": "The Familiars",
+                    "date": "19/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r23387",
+                    "author": "H. Shun Parkinson",
+                    "date": "26/09/2026",
+                    "words": 229
+                },
+                {
+                    "url": "r23388",
+                    "author": "The Familiars",
+                    "date": "26/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r23820",
+                    "author": "Alastor Moody",
+                    "date": "05/10/2026",
+                    "words": 218
+                },
+                {
+                    "url": "r24113",
+                    "author": "H. Shun Parkinson",
+                    "date": "13/10/2026",
+                    "words": 205
+                }
+            ],
+            "date": "17/02/1953",
+            "location": "Casa de Alastor y Shun"
+        },
         "1060": {
             "space": "el pensadero",
             "url": "/t1060-yo-soy-mas-de-sinatra-jrg",
@@ -63459,6 +63848,89 @@ const DBModule = (function () {
             "date": "14/03/1953",
             "location": "Hall de Entrada"
         },
+        "1146": {
+            "space": "el pensadero",
+            "url": "/t1146-1953-03-05-family-ties",
+            "simpleTitle": "family ties",
+            "creator": "Viridian L. Greengrass",
+            "replyCount": 11,
+            "posts": [
+                {
+                    "url": "r16286",
+                    "author": "Viridian L. Greengrass",
+                    "date": "09/04/2026",
+                    "words": 268
+                },
+                {
+                    "url": "r16672",
+                    "author": "Thaddeus L. Nott",
+                    "date": "19/04/2026",
+                    "words": 312
+                },
+                {
+                    "url": "r17490",
+                    "author": "Viridian L. Greengrass",
+                    "date": "03/05/2026",
+                    "words": 259
+                },
+                {
+                    "url": "r18799",
+                    "author": "Thaddeus L. Nott",
+                    "date": "22/05/2026",
+                    "words": 335
+                },
+                {
+                    "url": "r19574",
+                    "author": "Viridian L. Greengrass",
+                    "date": "03/06/2026",
+                    "words": 321
+                },
+                {
+                    "url": "r20237",
+                    "author": "Thaddeus L. Nott",
+                    "date": "26/06/2026",
+                    "words": 302
+                },
+                {
+                    "url": "r20451",
+                    "author": "Viridian L. Greengrass",
+                    "date": "02/07/2026",
+                    "words": 256
+                },
+                {
+                    "url": "r20948",
+                    "author": "Thaddeus L. Nott",
+                    "date": "21/07/2026",
+                    "words": 295
+                },
+                {
+                    "url": "r21502",
+                    "author": "Viridian L. Greengrass",
+                    "date": "05/08/2026",
+                    "words": 248
+                },
+                {
+                    "url": "r22334",
+                    "author": "Thaddeus L. Nott",
+                    "date": "31/08/2026",
+                    "words": 256
+                },
+                {
+                    "url": "r23146",
+                    "author": "Viridian L. Greengrass",
+                    "date": "19/09/2026",
+                    "words": 284
+                },
+                {
+                    "url": "r24284",
+                    "author": "Thaddeus L. Nott",
+                    "date": "15/10/2026",
+                    "words": 262
+                }
+            ],
+            "date": "05/03/1953",
+            "location": "Pasillos de Hogwarts"
+        },
         "1150": {
             "space": "el pensadero",
             "url": "/t1150-1953-03-15-short-stop",
@@ -66477,6 +66949,161 @@ const DBModule = (function () {
             "date": "20/03/1953",
             "location": "Ollivanders"
         },
+        "1172": {
+            "space": "el pensadero",
+            "url": "/t1172-1953-03-07-mi-fiel-ratatouille",
+            "simpleTitle": "mi fiel ratatouille",
+            "creator": "Jupiter Merrythought",
+            "replyCount": 23,
+            "posts": [
+                {
+                    "url": "r16825",
+                    "author": "Jupiter Merrythought",
+                    "date": "21/04/2026",
+                    "words": 258
+                },
+                {
+                    "url": "r17108",
+                    "author": "H. Shun Parkinson",
+                    "date": "29/04/2026",
+                    "words": 245
+                },
+                {
+                    "url": "r17131",
+                    "author": "Jupiter Merrythought",
+                    "date": "29/04/2026",
+                    "words": 328
+                },
+                {
+                    "url": "r17863",
+                    "author": "H. Shun Parkinson",
+                    "date": "08/05/2026",
+                    "words": 296
+                },
+                {
+                    "url": "r17938",
+                    "author": "Jupiter Merrythought",
+                    "date": "08/05/2026",
+                    "words": 341
+                },
+                {
+                    "url": "r18687",
+                    "author": "H. Shun Parkinson",
+                    "date": "20/05/2026",
+                    "words": 272
+                },
+                {
+                    "url": "r18729",
+                    "author": "Jupiter Merrythought",
+                    "date": "20/05/2026",
+                    "words": 393
+                },
+                {
+                    "url": "r19278",
+                    "author": "H. Shun Parkinson",
+                    "date": "29/05/2026",
+                    "words": 294
+                },
+                {
+                    "url": "r19284",
+                    "author": "Jupiter Merrythought",
+                    "date": "29/05/2026",
+                    "words": 391
+                },
+                {
+                    "url": "r19676",
+                    "author": "H. Shun Parkinson",
+                    "date": "07/06/2026",
+                    "words": 335
+                },
+                {
+                    "url": "r19808",
+                    "author": "Jupiter Merrythought",
+                    "date": "11/06/2026",
+                    "words": 352
+                },
+                {
+                    "url": "r19861",
+                    "author": "H. Shun Parkinson",
+                    "date": "12/06/2026",
+                    "words": 343
+                },
+                {
+                    "url": "r20278",
+                    "author": "Jupiter Merrythought",
+                    "date": "27/06/2026",
+                    "words": 298
+                },
+                {
+                    "url": "r20821",
+                    "author": "H. Shun Parkinson",
+                    "date": "17/07/2026",
+                    "words": 406
+                },
+                {
+                    "url": "r20972",
+                    "author": "Jupiter Merrythought",
+                    "date": "23/07/2026",
+                    "words": 369
+                },
+                {
+                    "url": "r21721",
+                    "author": "H. Shun Parkinson",
+                    "date": "12/08/2026",
+                    "words": 324
+                },
+                {
+                    "url": "r22095",
+                    "author": "Jupiter Merrythought",
+                    "date": "22/08/2026",
+                    "words": 344
+                },
+                {
+                    "url": "r22740",
+                    "author": "H. Shun Parkinson",
+                    "date": "11/09/2026",
+                    "words": 294
+                },
+                {
+                    "url": "r22936",
+                    "author": "Jupiter Merrythought",
+                    "date": "14/09/2026",
+                    "words": 325
+                },
+                {
+                    "url": "r23384",
+                    "author": "H. Shun Parkinson",
+                    "date": "26/09/2026",
+                    "words": 250
+                },
+                {
+                    "url": "r23446",
+                    "author": "Jupiter Merrythought",
+                    "date": "27/09/2026",
+                    "words": 279
+                },
+                {
+                    "url": "r23766",
+                    "author": "H. Shun Parkinson",
+                    "date": "04/10/2026",
+                    "words": 274
+                },
+                {
+                    "url": "r23799",
+                    "author": "Jupiter Merrythought",
+                    "date": "05/10/2026",
+                    "words": 243
+                },
+                {
+                    "url": "r24108",
+                    "author": "H. Shun Parkinson",
+                    "date": "13/10/2026",
+                    "words": 166
+                }
+            ],
+            "date": "07/03/1953",
+            "location": "El festín de mccool"
+        },
         "1173": {
             "space": "el pensadero",
             "url": "/t1173-1945-12-05-orgullos-intactos",
@@ -69228,6 +69855,119 @@ const DBModule = (function () {
             ],
             "date": "07/03/1953",
             "location": "Drakenshiel, Escocia"
+        },
+        "1224": {
+            "space": "el pensadero",
+            "url": "/t1224-1949-12-15-the-sun-was-collapsing",
+            "simpleTitle": "the sun was collapsing",
+            "creator": "Margareth T. Moody",
+            "replyCount": 16,
+            "posts": [
+                {
+                    "url": "r18027",
+                    "author": "Margareth T. Moody",
+                    "date": "10/05/2026",
+                    "words": 300
+                },
+                {
+                    "url": "r18090",
+                    "author": "Thyme T. Nott",
+                    "date": "10/05/2026",
+                    "words": 259
+                },
+                {
+                    "url": "r18091",
+                    "author": "The Familiars",
+                    "date": "10/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r18845",
+                    "author": "Margareth T. Moody",
+                    "date": "23/05/2026",
+                    "words": 286
+                },
+                {
+                    "url": "r18846",
+                    "author": "The Familiars",
+                    "date": "23/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r18877",
+                    "author": "Thyme T. Nott",
+                    "date": "24/05/2026",
+                    "words": 351
+                },
+                {
+                    "url": "r18878",
+                    "author": "The Familiars",
+                    "date": "24/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r19316",
+                    "author": "Margareth T. Moody",
+                    "date": "31/05/2026",
+                    "words": 244
+                },
+                {
+                    "url": "r19317",
+                    "author": "The Familiars",
+                    "date": "31/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r19479",
+                    "author": "Thyme T. Nott",
+                    "date": "01/06/2026",
+                    "words": 306
+                },
+                {
+                    "url": "r19875",
+                    "author": "Margareth T. Moody",
+                    "date": "13/06/2026",
+                    "words": 334
+                },
+                {
+                    "url": "r20631",
+                    "author": "Thyme T. Nott",
+                    "date": "10/07/2026",
+                    "words": 437
+                },
+                {
+                    "url": "r21787",
+                    "author": "Margareth T. Moody",
+                    "date": "14/08/2026",
+                    "words": 273
+                },
+                {
+                    "url": "r21982",
+                    "author": "Thyme T. Nott",
+                    "date": "19/08/2026",
+                    "words": 366
+                },
+                {
+                    "url": "r22121",
+                    "author": "Margareth T. Moody",
+                    "date": "23/08/2026",
+                    "words": 259
+                },
+                {
+                    "url": "r22684",
+                    "author": "Thyme T. Nott",
+                    "date": "08/09/2026",
+                    "words": 361
+                },
+                {
+                    "url": "r23042",
+                    "author": "Margareth T. Moody",
+                    "date": "18/09/2026",
+                    "words": 202
+                }
+            ],
+            "date": "15/12/1949",
+            "location": "Sala de Música"
         },
         "1232": {
             "space": "el pensadero",
@@ -73190,6 +73930,131 @@ const DBModule = (function () {
             ],
             "date": "20/04/1953",
             "location": "Campo de Quidditch"
+        },
+        "1295": {
+            "space": "el pensadero",
+            "url": "/t1295-1953-04-15-old-recliners",
+            "simpleTitle": "old recliners",
+            "creator": "Barnaby R. Rookwood",
+            "replyCount": 18,
+            "posts": [
+                {
+                    "url": "r19795",
+                    "author": "Barnaby R. Rookwood",
+                    "date": "11/06/2026",
+                    "words": 253
+                },
+                {
+                    "url": "r19832",
+                    "author": "Montgomery Thatch",
+                    "date": "11/06/2026",
+                    "words": 228
+                },
+                {
+                    "url": "r19833",
+                    "author": "The Familiars",
+                    "date": "11/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20255",
+                    "author": "Barnaby R. Rookwood",
+                    "date": "27/06/2026",
+                    "words": 263
+                },
+                {
+                    "url": "r20256",
+                    "author": "The Familiars",
+                    "date": "27/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20644",
+                    "author": "Montgomery Thatch",
+                    "date": "11/07/2026",
+                    "words": 260
+                },
+                {
+                    "url": "r21303",
+                    "author": "Barnaby R. Rookwood",
+                    "date": "02/08/2026",
+                    "words": 253
+                },
+                {
+                    "url": "r21463",
+                    "author": "Montgomery Thatch",
+                    "date": "04/08/2026",
+                    "words": 225
+                },
+                {
+                    "url": "r21464",
+                    "author": "The Familiars",
+                    "date": "04/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21939",
+                    "author": "Barnaby R. Rookwood",
+                    "date": "18/08/2026",
+                    "words": 293
+                },
+                {
+                    "url": "r22243",
+                    "author": "Montgomery Thatch",
+                    "date": "26/08/2026",
+                    "words": 183
+                },
+                {
+                    "url": "r22244",
+                    "author": "The Familiars",
+                    "date": "26/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22289",
+                    "author": "Barnaby R. Rookwood",
+                    "date": "28/08/2026",
+                    "words": 255
+                },
+                {
+                    "url": "r22785",
+                    "author": "Montgomery Thatch",
+                    "date": "12/09/2026",
+                    "words": 259
+                },
+                {
+                    "url": "r22786",
+                    "author": "The Familiars",
+                    "date": "12/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r23057",
+                    "author": "Barnaby R. Rookwood",
+                    "date": "18/09/2026",
+                    "words": 278
+                },
+                {
+                    "url": "r23399",
+                    "author": "Montgomery Thatch",
+                    "date": "26/09/2026",
+                    "words": 474
+                },
+                {
+                    "url": "r23870",
+                    "author": "Barnaby R. Rookwood",
+                    "date": "07/10/2026",
+                    "words": 260
+                },
+                {
+                    "url": "r23871",
+                    "author": "The Familiars",
+                    "date": "07/10/2026",
+                    "words": 0
+                }
+            ],
+            "date": "15/04/1953",
+            "location": "Invernaderos"
         },
         "1301": {
             "space": "el pensadero",
@@ -158740,6 +159605,872 @@ const DBModule = (function () {
             "url": "r23927",
             "simpleTitle": "evento: duetos estelares - hermes y minerva",
             "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                2
+            ],
+            "title": [
+                "felix felicis"
+            ],
+            "key": [],
+            "knowledge": [],
+            "type": [],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-felix-felicis\"><span>Montgomery Thatch ha lanzado los dados \"felix felicis\"</span><div class=\"dice-results\"><span class=\"roll-result nro2\"><i class=\"fa-solid fa-sparkles\"></i>Se nota que sabes lo que estás haciendo, o Félix lo sabe.</span></div></div></div>",
+            "url": "r19833",
+            "simpleTitle": "old recliners",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Barnaby R. Rookwood",
+            "spread": [
+                1,
+                19
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "reparo"
+            ],
+            "knowledge": [
+                "transformaciones"
+            ],
+            "type": [
+                "encantamiento, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Barnaby R. Rookwood ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"transformaciones\"><strong>Resultado  #1 \"reparo\" (1)</strong><span>El objeto se repara parcialmente y sigue teniendo grietas o daños visibles.</span></span><span class=\"roll-result\">19</span></div></div></div>",
+            "url": "r20256",
+            "simpleTitle": "old recliners",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                1
+            ],
+            "title": [
+                "felix felicis"
+            ],
+            "key": [],
+            "knowledge": [],
+            "type": [],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-felix-felicis\"><span>Montgomery Thatch ha lanzado los dados \"felix felicis\"</span><div class=\"dice-results\"><span class=\"roll-result nro1\"><i class=\"fa-solid fa-flask-round-poison\"></i>No hubo suerte esta vez, mejor intenta la próxima.</span></div></div></div>",
+            "url": "r21464",
+            "simpleTitle": "old recliners",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                2
+            ],
+            "title": [
+                "felix felicis"
+            ],
+            "key": [],
+            "knowledge": [],
+            "type": [],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-felix-felicis\"><span>Montgomery Thatch ha lanzado los dados \"felix felicis\"</span><div class=\"dice-results\"><span class=\"roll-result nro2\"><i class=\"fa-solid fa-sparkles\"></i>Se nota que sabes lo que estás haciendo, o Félix lo sabe.</span></div></div></div>",
+            "url": "r22244",
+            "simpleTitle": "old recliners",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                1
+            ],
+            "title": [
+                "felix felicis"
+            ],
+            "key": [],
+            "knowledge": [],
+            "type": [],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-felix-felicis\"><span>Montgomery Thatch ha lanzado los dados \"felix felicis\"</span><div class=\"dice-results\"><span class=\"roll-result nro1\"><i class=\"fa-solid fa-flask-round-poison\"></i>No hubo suerte esta vez, mejor intenta la próxima.</span></div></div></div>",
+            "url": "r22786",
+            "simpleTitle": "old recliners",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Barnaby R. Rookwood",
+            "spread": [
+                15,
+                3
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "mutareforma",
+                "mutareforma"
+            ],
+            "knowledge": [
+                "transformaciones",
+                "transformaciones"
+            ],
+            "type": [
+                "transfiguración, ofensivo",
+                "transfiguración, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Barnaby R. Rookwood ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"transformaciones\"><strong>Resultado  #1 \"mutareforma\" (15)</strong><span>El objeto se transforma completamente en el nuevo objeto deseado, con materiales coherentes.</span></span><span class=\"action-result\" data-conocimientos=\"transformaciones\"><strong>Resultado  #2 \"mutareforma\" (3)</strong><span>El objeto toma la forma general del nuevo, pero mantiene rasgos del original.</span></span></div></div></div>",
+            "url": "r23871",
+            "simpleTitle": "old recliners",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                3
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "patronus nuntius"
+            ],
+            "knowledge": [
+                "patronus"
+            ],
+            "type": [
+                "encantamiento, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #1 \"patronus nuntius\" (3)</strong><span>El Patronus no solo entrega el mensaje, sino que también puede proyectar una imagen del remitente.</span></span></div></div></div>",
+            "url": "r14421",
+            "simpleTitle": "práctica: quick and light",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                11
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "patronus nuntius"
+            ],
+            "knowledge": [
+                "patronus"
+            ],
+            "type": [
+                "encantamiento, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #1 \"patronus nuntius\" (11)</strong><span>El Patronus no solo entrega el mensaje, sino que también puede proyectar una imagen del remitente.</span></span></div></div></div>",
+            "url": "r14989",
+            "simpleTitle": "práctica: quick and light",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                19
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "patronus nuntius"
+            ],
+            "knowledge": [
+                "patronus"
+            ],
+            "type": [
+                "encantamiento, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #1 \"patronus nuntius\" (19)</strong><span>El Patronus no solo entrega el mensaje, sino que también puede proyectar una imagen del remitente.</span></span></div></div></div>",
+            "url": "r15158",
+            "simpleTitle": "práctica: quick and light",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                10
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "patronus nuntius"
+            ],
+            "knowledge": [
+                "patronus"
+            ],
+            "type": [
+                "encantamiento, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #1 \"patronus nuntius\" (10)</strong><span>El Patronus no solo entrega el mensaje, sino que también puede proyectar una imagen del remitente.</span></span></div></div></div>",
+            "url": "r15626",
+            "simpleTitle": "práctica: quick and light",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                5
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "patronus nuntius"
+            ],
+            "knowledge": [
+                "patronus"
+            ],
+            "type": [
+                "encantamiento, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #1 \"patronus nuntius\" (5)</strong><span>El Patronus no solo entrega el mensaje, sino que también puede proyectar una imagen del remitente.</span></span></div></div></div>",
+            "url": "r15802",
+            "simpleTitle": "práctica: quick and light",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                15
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "patronus nuntius"
+            ],
+            "knowledge": [
+                "patronus"
+            ],
+            "type": [
+                "encantamiento, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #1 \"patronus nuntius\" (15)</strong><span>El Patronus no solo entrega el mensaje, sino que también puede proyectar una imagen del remitente.</span></span></div></div></div>",
+            "url": "r16145",
+            "simpleTitle": "práctica: quick and light",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                5
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "patronus nuntius"
+            ],
+            "knowledge": [
+                "patronus"
+            ],
+            "type": [
+                "encantamiento, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #1 \"patronus nuntius\" (5)</strong><span>El Patronus no solo entrega el mensaje, sino que también puede proyectar una imagen del remitente.</span></span></div></div></div>",
+            "url": "r16164",
+            "simpleTitle": "práctica: quick and light",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                11
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "patronus nuntius"
+            ],
+            "knowledge": [
+                "patronus"
+            ],
+            "type": [
+                "encantamiento, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #1 \"patronus nuntius\" (11)</strong><span>El Patronus no solo entrega el mensaje, sino que también puede proyectar una imagen del remitente.</span></span></div></div></div>",
+            "url": "r16659",
+            "simpleTitle": "práctica: quick and light",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                7
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "patronus nuntius"
+            ],
+            "knowledge": [
+                "patronus"
+            ],
+            "type": [
+                "encantamiento, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #1 \"patronus nuntius\" (7)</strong><span>El Patronus no solo entrega el mensaje, sino que también puede proyectar una imagen del remitente.</span></span></div></div></div>",
+            "url": "r16690",
+            "simpleTitle": "práctica: quick and light",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                1
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "patronus nuntius"
+            ],
+            "knowledge": [
+                "patronus"
+            ],
+            "type": [
+                "encantamiento, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #1 \"patronus nuntius\" (1)</strong><span>El Patronus transmite el mensaje, pero con interferencias y partes incompletas.</span></span></div></div></div>",
+            "url": "r17106",
+            "simpleTitle": "práctica: quick and light",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                8
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "patronus nuntius"
+            ],
+            "knowledge": [
+                "patronus"
+            ],
+            "type": [
+                "encantamiento, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #1 \"patronus nuntius\" (8)</strong><span>El Patronus no solo entrega el mensaje, sino que también puede proyectar una imagen del remitente.</span></span></div></div></div>",
+            "url": "r17283",
+            "simpleTitle": "práctica: quick and light",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                11
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "patronus nuntius"
+            ],
+            "knowledge": [
+                "patronus"
+            ],
+            "type": [
+                "encantamiento, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #1 \"patronus nuntius\" (11)</strong><span>El Patronus no solo entrega el mensaje, sino que también puede proyectar una imagen del remitente.</span></span></div></div></div>",
+            "url": "r17870",
+            "simpleTitle": "práctica: quick and light",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                1,
+                15
+            ],
+            "title": [
+                "books",
+                "actions"
+            ],
+            "key": [
+                "fundamentos esenciales de la legeremancia",
+                "patronus nuntius"
+            ],
+            "knowledge": [
+                "legeremancia",
+                "patronus"
+            ],
+            "type": [
+                "",
+                "encantamiento, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"book\"><strong>Contenido libro \"fundamentos esenciales de la legeremancia\" (1)</strong>Los fundamentos de la Legeremancia, combinados con técnicas para mejorar la empatía y la lectura de pensamientos, conducen a una comprensión profunda de la naturaleza humana. El Legeremante experto no solo lee mentes, sino que también comprende los miedos, las esperanzas, las motivaciones y las complejidades que impulsan a los individuos. Este conocimiento confiere una gran responsabilidad y exige una ética impecable. La Legeremancia, en su forma más elevada, no es una herramienta de manipulación, sino un camino hacia una conexión más profunda entre las mentes, un arte que revela la intrincada belleza y fragilidad del paisaje interior de cada ser.</span><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #2 \"patronus nuntius\" (15)</strong><span>El Patronus no solo entrega el mensaje, sino que también puede proyectar una imagen del remitente.</span></span></div></div></div>",
+            "url": "r18059",
+            "simpleTitle": "práctica: quick and light",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                17
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "patronus nuntius"
+            ],
+            "knowledge": [
+                "patronus"
+            ],
+            "type": [
+                "encantamiento, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #1 \"patronus nuntius\" (17)</strong><span>El Patronus no solo entrega el mensaje, sino que también puede proyectar una imagen del remitente.</span></span></div></div></div>",
+            "url": "r18690",
+            "simpleTitle": "práctica: quick and light",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                10
+            ],
+            "title": [
+                "books"
+            ],
+            "key": [
+                "fundamentos esenciales de la legeremancia"
+            ],
+            "knowledge": [
+                "legeremancia"
+            ],
+            "type": [
+                ""
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"book\"><strong>Contenido libro \"fundamentos esenciales de la legeremancia\" (10)</strong>Otro pilar de la Legeremancia, crucial para una lectura de pensamientos efectiva y empática, es el desarrollo de la memoria psíquica. Esto implica no solo recordar los pensamientos y emociones percibidos, sino también comprender su contexto y su evolución a lo largo del tiempo. El Legeremante aprende a rastrear las conexiones entre diferentes pensamientos, a identificar los patrones recurrentes y a comprender cómo las experiencias pasadas influyen en el estado mental presente del otro. Esta memoria psíquica se fortalece mediante la revisión regular de las \"\"lecturas\"\" realizadas, analizando los aciertos y errores para refinar la comprensión de la mente ajena.</span></div></div></div>",
+            "url": "r18717",
+            "simpleTitle": "práctica: quick and light",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                6
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "patronus nuntius"
+            ],
+            "knowledge": [
+                "patronus"
+            ],
+            "type": [
+                "encantamiento, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #1 \"patronus nuntius\" (6)</strong><span>El Patronus entrega el mensaje de forma clara y precisa.</span></span></div></div></div>",
+            "url": "r19262",
+            "simpleTitle": "práctica: quick and light",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                5,
+                15
+            ],
+            "title": [
+                "books",
+                "actions"
+            ],
+            "key": [
+                "fundamentos esenciales de la legeremancia",
+                "patronus nuntius"
+            ],
+            "knowledge": [
+                "legeremancia",
+                "patronus"
+            ],
+            "type": [
+                "",
+                "encantamiento, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"book\"><strong>Contenido libro \"fundamentos esenciales de la legeremancia\" (5)</strong>Los fundamentos de la Legeremancia, combinados con técnicas para mejorar la empatía y la lectura de pensamientos, conducen a una comprensión profunda de la naturaleza humana. El Legeremante experto no solo lee mentes, sino que también comprende los miedos, las esperanzas, las motivaciones y las complejidades que impulsan a los individuos. Este conocimiento confiere una gran responsabilidad y exige una ética impecable. La Legeremancia, en su forma más elevada, no es una herramienta de manipulación, sino un camino hacia una conexión más profunda entre las mentes, un arte que revela la intrincada belleza y fragilidad del paisaje interior de cada ser.</span><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #2 \"patronus nuntius\" (15)</strong><span>El Patronus no solo entrega el mensaje, sino que también puede proyectar una imagen del remitente.</span></span></div></div></div>",
+            "url": "r19270",
+            "simpleTitle": "práctica: quick and light",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                19
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "patronus nuntius"
+            ],
+            "knowledge": [
+                "patronus"
+            ],
+            "type": [
+                "encantamiento, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #1 \"patronus nuntius\" (19)</strong><span>El Patronus no solo entrega el mensaje, sino que también puede proyectar una imagen del remitente.</span></span></div></div></div>",
+            "url": "r19289",
+            "simpleTitle": "práctica: quick and light",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                14,
+                8
+            ],
+            "title": [
+                "books",
+                "actions"
+            ],
+            "key": [
+                "fundamentos esenciales de la legeremancia",
+                "patronus nuntius"
+            ],
+            "knowledge": [
+                "legeremancia",
+                "patronus"
+            ],
+            "type": [
+                "",
+                "encantamiento, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"book\"><strong>Contenido libro \"fundamentos esenciales de la legeremancia\" (14)</strong>Una técnica fundamental en la Legeremancia para mejorar la empatía y la lectura de pensamientos es la visualización activa. El practicante no solo \"\"escucha\"\" los pensamientos, sino que intenta \"\"verlos\"\" como imágenes, sensaciones o patrones energéticos dentro de la mente del otro. Esta visualización va acompañada de un esfuerzo consciente por sentir las emociones asociadas a esos pensamientos, poniéndose en el lugar del otro a un nivel profundo. El entrenamiento en esta técnica implica comenzar con individuos cuyas mentes son más \"\"abiertas\"\" y avanzar gradualmente hacia aquellos con defensas psíquicas más fuertes. La práctica constante refina la capacidad de interpretar estas señales psíquicas con precisión creciente.</span><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #2 \"patronus nuntius\" (8)</strong><span>El Patronus no solo entrega el mensaje, sino que también puede proyectar una imagen del remitente.</span></span></div></div></div>",
+            "url": "r19310",
+            "simpleTitle": "práctica: quick and light",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                17
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "patronus nuntius"
+            ],
+            "knowledge": [
+                "patronus"
+            ],
+            "type": [
+                "encantamiento, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #1 \"patronus nuntius\" (17)</strong><span>El Patronus no solo entrega el mensaje, sino que también puede proyectar una imagen del remitente.</span></span></div></div></div>",
+            "url": "r19811",
+            "simpleTitle": "práctica: quick and light",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                7,
+                1
+            ],
+            "title": [
+                "books",
+                "actions"
+            ],
+            "key": [
+                "fundamentos esenciales de la legeremancia",
+                "patronus nuntius"
+            ],
+            "knowledge": [
+                "legeremancia",
+                "patronus"
+            ],
+            "type": [
+                "",
+                "encantamiento, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"book\"><strong>Contenido libro \"fundamentos esenciales de la legeremancia\" (7)</strong>Otro pilar de la Legeremancia, crucial para una lectura de pensamientos efectiva y empática, es el desarrollo de la memoria psíquica. Esto implica no solo recordar los pensamientos y emociones percibidos, sino también comprender su contexto y su evolución a lo largo del tiempo. El Legeremante aprende a rastrear las conexiones entre diferentes pensamientos, a identificar los patrones recurrentes y a comprender cómo las experiencias pasadas influyen en el estado mental presente del otro. Esta memoria psíquica se fortalece mediante la revisión regular de las \"\"lecturas\"\" realizadas, analizando los aciertos y errores para refinar la comprensión de la mente ajena.</span><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #2 \"patronus nuntius\" (1)</strong><span>El Patronus entrega el mensaje de forma clara y precisa.</span></span></div></div></div>",
+            "url": "r20161",
+            "simpleTitle": "práctica: quick and light",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                8
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "patronus nuntius"
+            ],
+            "knowledge": [
+                "patronus"
+            ],
+            "type": [
+                "encantamiento, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #1 \"patronus nuntius\" (8)</strong><span>El Patronus entrega el mensaje de forma clara y precisa.</span></span></div></div></div>",
+            "url": "r20429",
+            "simpleTitle": "práctica: quick and light",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                20,
+                18
+            ],
+            "title": [
+                "books",
+                "actions"
+            ],
+            "key": [
+                "fundamentos esenciales de la legeremancia",
+                "patronus nuntius"
+            ],
+            "knowledge": [
+                "legeremancia",
+                "patronus"
+            ],
+            "type": [
+                "",
+                "encantamiento, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"book\"><strong>Contenido libro \"fundamentos esenciales de la legeremancia\" (20)</strong>Los fundamentos esenciales de la Legeremancia residen en la capacidad de sintonizar con las corrientes sutiles del pensamiento y la emoción ajena. No es una invasión bruta, sino una apertura controlada de la propia mente para recibir las emanaciones psíquicas de otro. Esta sintonización requiere un aquietamiento del ruido interno, una disciplina que permite discernir entre los propios pensamientos y los que provienen del exterior. Para una mejor empatía y lectura de pensamientos, el practicante cultiva la receptividad, eliminando juicios y preconcepciones que actúan como barreras. La clave está en convertirse en un espejo psíquico, reflejando el paisaje mental del otro sin distorsionarlo con la propia perspectiva.</span><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #2 \"patronus nuntius\" (18)</strong><span>El Patronus no solo entrega el mensaje, sino que también puede proyectar una imagen del remitente.</span></span></div></div></div>",
+            "url": "r20819",
+            "simpleTitle": "práctica: quick and light",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                15
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "patronus nuntius"
+            ],
+            "knowledge": [
+                "patronus"
+            ],
+            "type": [
+                "encantamiento, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #1 \"patronus nuntius\" (15)</strong><span>El Patronus no solo entrega el mensaje, sino que también puede proyectar una imagen del remitente.</span></span></div></div></div>",
+            "url": "r21719",
+            "simpleTitle": "práctica: quick and light",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                13
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "patronus nuntius"
+            ],
+            "knowledge": [
+                "patronus"
+            ],
+            "type": [
+                "encantamiento, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #1 \"patronus nuntius\" (13)</strong><span>El Patronus no solo entrega el mensaje, sino que también puede proyectar una imagen del remitente.</span></span></div></div></div>",
+            "url": "r21742",
+            "simpleTitle": "práctica: quick and light",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                2
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "patronus nuntius"
+            ],
+            "knowledge": [
+                "patronus"
+            ],
+            "type": [
+                "encantamiento, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #1 \"patronus nuntius\" (2)</strong><span>El Patronus entrega el mensaje de forma clara y precisa.</span></span></div></div></div>",
+            "url": "r22089",
+            "simpleTitle": "práctica: quick and light",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                17,
+                2
+            ],
+            "title": [
+                "felix felicis"
+            ],
+            "key": [],
+            "knowledge": [],
+            "type": [],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-felix-felicis\"><span>Alastor Moody ha lanzado los dados \"felix felicis\"</span><div class=\"dice-results\"><span class=\"roll-result nro17\">undefined</span><span class=\"roll-result nro2\"><i class=\"fa-solid fa-sparkles\"></i>Se nota que sabes lo que estás haciendo, o Félix lo sabe.</span></div></div></div>",
+            "url": "r22601",
+            "simpleTitle": "práctica: quick and light",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                10,
+                2
+            ],
+            "title": [
+                "felix felicis"
+            ],
+            "key": [],
+            "knowledge": [],
+            "type": [],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-felix-felicis\"><span>H. Shun Parkinson ha lanzado los dados \"felix felicis\"</span><div class=\"dice-results\"><span class=\"roll-result nro10\">undefined</span><span class=\"roll-result nro2\"><i class=\"fa-solid fa-sparkles\"></i>Se nota que sabes lo que estás haciendo, o Félix lo sabe.</span></div></div></div>",
+            "url": "r22778",
+            "simpleTitle": "práctica: quick and light",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                14
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "patronus nuntius"
+            ],
+            "knowledge": [
+                "patronus"
+            ],
+            "type": [
+                "encantamiento, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #1 \"patronus nuntius\" (14)</strong><span>El Patronus no solo entrega el mensaje, sino que también puede proyectar una imagen del remitente.</span></span></div></div></div>",
+            "url": "r23099",
+            "simpleTitle": "práctica: quick and light",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "H. Shun Parkinson",
+            "spread": [
+                19,
+                1
+            ],
+            "title": [
+                "felix felicis"
+            ],
+            "key": [],
+            "knowledge": [],
+            "type": [],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-felix-felicis\"><span>H. Shun Parkinson ha lanzado los dados \"felix felicis\"</span><div class=\"dice-results\"><span class=\"roll-result nro19\">undefined</span><span class=\"roll-result nro1\"><i class=\"fa-solid fa-flask-round-poison\"></i>No hubo suerte esta vez, mejor intenta la próxima.</span></div></div></div>",
+            "url": "r23388",
+            "simpleTitle": "práctica: quick and light",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Thyme T. Nott",
+            "spread": [
+                10
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "manus umbrarum"
+            ],
+            "knowledge": [
+                "contrabando"
+            ],
+            "type": [
+                "encantamiento, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Thyme T. Nott ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"contrabando\"><strong>Resultado  #1 \"manus umbrarum\" (10)</strong><span>Puede operar a distancia, tomar objetos protegidos por hechizos menores y ocultar su energía mágica completamente.</span></span></div></div></div>",
+            "url": "r18091",
+            "simpleTitle": "the sun was collapsing",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Margareth T. Moody",
+            "spread": [
+                19
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "carmen memoriae"
+            ],
+            "knowledge": [
+                "música"
+            ],
+            "type": [
+                "encantamiento, mental, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Margareth T. Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"música\"><strong>Resultado  #1 \"carmen memoriae\" (19)</strong><span>El recuerdo se manifiesta con detalles intensos, permitiendo incluso acceder a emociones o pensamientos olvidados.</span></span></div></div></div>",
+            "url": "r18846",
+            "simpleTitle": "the sun was collapsing",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Thyme T. Nott",
+            "spread": [
+                11
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "tacite"
+            ],
+            "knowledge": [
+                "contrabando"
+            ],
+            "type": [
+                "encantamiento, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Thyme T. Nott ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"contrabando\"><strong>Resultado  #1 \"tacite\" (11)</strong><span>El personaje logra avanzar con agilidad, no solo nadie nota su presencia, sino que tiene tiempo para realizar otra acción.</span></span></div></div></div>",
+            "url": "r18878",
+            "simpleTitle": "the sun was collapsing",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Margareth T. Moody",
+            "spread": [
+                13,
+                2
+            ],
+            "title": [
+                "felix felicis"
+            ],
+            "key": [],
+            "knowledge": [],
+            "type": [],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-felix-felicis\"><span>Margareth T. Moody ha lanzado los dados \"felix felicis\"</span><div class=\"dice-results\"><span class=\"roll-result nro13\">undefined</span><span class=\"roll-result nro2\"><i class=\"fa-solid fa-sparkles\"></i>Se nota que sabes lo que estás haciendo, o Félix lo sabe.</span></div></div></div>",
+            "url": "r19317",
+            "simpleTitle": "the sun was collapsing",
+            "space": "el pensadero"
         }
     ];
     const hardcodedInactiveTopics = {
@@ -165287,6 +167018,107 @@ const DBModule = (function () {
             "date": "09/02/1953",
             "location": "Aula de Estudios Muggles"
         },
+        "1127": {
+            "space": "temas inactivos",
+            "url": "/t1127-ailyak",
+            "simpleTitle": "ailyak",
+            "creator": "",
+            "replyCount": 14,
+            "posts": [
+                {
+                    "url": "r15868",
+                    "author": "Invitado",
+                    "date": "31/03/2026",
+                    "words": 224
+                },
+                {
+                    "url": "r15869",
+                    "author": "The Familiars",
+                    "date": "31/03/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r16614",
+                    "author": "Asteria C. Lestrange",
+                    "date": "17/04/2026",
+                    "words": 280
+                },
+                {
+                    "url": "r16615",
+                    "author": "The Familiars",
+                    "date": "17/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r17171",
+                    "author": "Invitado",
+                    "date": "30/04/2026",
+                    "words": 173
+                },
+                {
+                    "url": "r17172",
+                    "author": "The Familiars",
+                    "date": "30/04/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r18379",
+                    "author": "Asteria C. Lestrange",
+                    "date": "15/05/2026",
+                    "words": 271
+                },
+                {
+                    "url": "r18380",
+                    "author": "The Familiars",
+                    "date": "15/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r19005",
+                    "author": "Invitado",
+                    "date": "26/05/2026",
+                    "words": 220
+                },
+                {
+                    "url": "r19006",
+                    "author": "The Familiars",
+                    "date": "26/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r19854",
+                    "author": "Asteria C. Lestrange",
+                    "date": "12/06/2026",
+                    "words": 297
+                },
+                {
+                    "url": "r19855",
+                    "author": "The Familiars",
+                    "date": "12/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r19950",
+                    "author": "Invitado",
+                    "date": "16/06/2026",
+                    "words": 327
+                },
+                {
+                    "url": "r19951",
+                    "author": "The Familiars",
+                    "date": "16/06/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20552",
+                    "author": "Asteria C. Lestrange",
+                    "date": "05/07/2026",
+                    "words": 278
+                }
+            ],
+            "date": "11/02/1953",
+            "location": "Biblioteca"
+        },
         "1132": {
             "space": "temas inactivos",
             "url": "/t1132-1953-03-14-first-steps",
@@ -166365,6 +168197,23 @@ const DBModule = (function () {
             ],
             "date": "11/05/1953",
             "location": "Reserva Natural de Flint"
+        },
+        "1486": {
+            "space": "temas inactivos",
+            "url": "/t1486-navegacion-de-temas",
+            "simpleTitle": "navegación de temas",
+            "creator": "Black Wave",
+            "replyCount": 0,
+            "posts": [
+                {
+                    "url": "r23554",
+                    "author": "Black Wave",
+                    "date": "01/10/2026",
+                    "words": 0
+                }
+            ],
+            "date": "",
+            "location": "Desconocida"
         }
     };
     const hardcodedBeans = [
@@ -172744,7 +174593,7 @@ const archivedMoney = [
     { peticion: "/t26p560-tienda-de-suplementos#17027", user: "Alastor Moody", fecha: "27/04/2026", razon: "Subida de Conocimiento", cant: 1, detalle: "Estudios Muggles", texto: "sistema de misiones", evidencia: ["/t984-1953-02-13-interrogatorio-silent-sentinel"], galeones: 50 },
     { peticion: "/t26p560-tienda-de-suplementos#17115", user: "Ruairidh Ó Mhaille", fecha: "29/04/2026", razon: "Subida de Conocimiento", cant: 2, detalle: "Curación", texto: "otro", evidencia: ["/t694-winter-inmerssion-seijaku-n-e-m-r-o-m"], galeones: 100 },
     { peticion: "/t26p560-tienda-de-suplementos#17168", user: "Elysia G. Lestrange", fecha: "30/04/2026", razon: "Cumpleaños del personaje", cant: 1, detalle: "21/03/1929", texto: "otro", evidencia: [], galeones: 100 },
-    { peticion: "/t26p560-tienda-de-suplementos#17168", user: "Elysia G. Lestrange", fecha: "30/04/2026", razon: "Cumpleaños del personaje", cant: 2, detalle: "21/03/1929", texto: "otro", evidencia: [], galeones: 100 },		
+    { peticion: "/t26p560-tienda-de-suplementos#17168", user: "Elysia G. Lestrange", fecha: "30/04/2026", razon: "Cumpleaños del personaje", cant: 2, detalle: "21/03/1929", texto: "otro", evidencia: [], galeones: 100 },
     { peticion: "/t26p560-tienda-de-suplementos#17436", user: "Montgomery Thatch", fecha: "02/05/2026", razon: "Subida de Conocimiento", cant: 1, detalle: "Encantamientos", texto: "práctica", evidencia: ["/t1086p20-duelo-15-montgomery-vs-neptune#17431"], galeones: 50 },
     { peticion: "/t26p580-tienda-de-suplementos#17534", user: "Alastor Moody", fecha: "03/05/2026", razon: "Subida de Conocimiento", cant: 2, detalle: "Encantamientos", texto: "eventos", evidencia: ["/t1156p20-1953-04-04-evento-futuros-lideres-hamish#17531"], galeones: 100 },
     { peticion: "/t26p580-tienda-de-suplementos#17539", user: "Regulus O. Black", fecha: "03/05/2026", razon: "Subida de Conocimiento", cant: 1, detalle: "Adivinación", texto: "sistema de misiones", evidencia: ["/t1008-1953-02-20-investigacion-whispers-of-the-future"], galeones: 50 },
@@ -173337,10 +175186,10 @@ const archivedMoney = [
     { peticion: "/t26p820-tienda-de-suplementos#23663", user: "Alastor Moody", fecha: "02/10/2026", razon: "Subida de Atributos", cant: 1, detalle: "carisma", texto: "otro", evidencia: [], galeones: 100 },
     { peticion: "/t26p820-tienda-de-suplementos#23709", user: "Owen Fitzgerald", fecha: "02/10/2026", razon: "Subida de Conocimiento", cant: 1, detalle: "encantamientos", texto: "práctica", evidencia: ["/t1244p20-1953-03-18-duelo-19-montgomery-vs-owen#23674"], galeones: 50 },
     { peticion: "/t26p820-tienda-de-suplementos#23709", user: "Owen Fitzgerald", fecha: "02/10/2026", razon: "Subida de Conocimiento", cant: 1, detalle: "encantamientos", texto: "práctica", evidencia: ["/t1254-minerva-m-pretty-please"], galeones: 50 },
-    { peticion: "/t26p820-tienda-de-suplementos#23711", user: "Minerva E. McGonagall", fecha: "03/10/2026", razon: "Subida de Conocimiento", cant: 1, detalle: "Runas Antiguas", texto: "práctica", evidencia: ["/t1254-minerva-m-pretty-please"], galeones: 50 },	  
+    { peticion: "/t26p820-tienda-de-suplementos#23711", user: "Minerva E. McGonagall", fecha: "03/10/2026", razon: "Subida de Conocimiento", cant: 1, detalle: "Runas Antiguas", texto: "práctica", evidencia: ["/t1254-minerva-m-pretty-please"], galeones: 50 },
     { peticion: "/t26p820-tienda-de-suplementos#23746", user: "Montgomery Thatch", fecha: "04/10/2026", razon: "Subida de Conocimiento", cant: 1, detalle: "Aritmancia", texto: "práctica", evidencia: ["/t1244p40-1953-03-18-duelo-19-montgomery-vs-owen#23705"], galeones: 50 },
     { peticion: "/t26p820-tienda-de-suplementos#23988", user: "Jupiter Merrythought", fecha: "09/10/2026", razon: "Subida de Atributos", cant: 1, detalle: "sabiduría", texto: "otro", evidencia: [], galeones: 100 },
-    
+
     // juegos
     { peticion: "/t745-juego-quest-line-6-meses#8499", user: "Orion A. Black", fecha: "", razon: "Subida de Conocimiento", cant: 5, detalle: null, texto: "juegos", evidencia: ["/t745-juego-quest-line-6-meses"], galeones: 0 },
     { peticion: "/t745-juego-quest-line-6-meses#8524", user: "Asteria C. Lestrange", fecha: "", razon: "Subida de Conocimiento", cant: 5, detalle: null, texto: "juegos", evidencia: ["/t745-juego-quest-line-6-meses"], galeones: 0 },
@@ -173390,12 +175239,12 @@ const archivedMoney = [
     { peticion: "/t808-juego-calendario-de-adviento#10201", user: "Alastor Moody", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Astronomía", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
     { peticion: "/t808-juego-calendario-de-adviento#10201", user: "Alastor Moody", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Contrabando", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
     { peticion: "/t808-juego-calendario-de-adviento#10201", user: "Alastor Moody", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Curación", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
-    { peticion: "/t808-juego-calendario-de-adviento#10201", user: "Alastor Moody", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 3, detalle: "DCAO", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },				
+    { peticion: "/t808-juego-calendario-de-adviento#10201", user: "Alastor Moody", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 3, detalle: "DCAO", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
     { peticion: "/t808-juego-calendario-de-adviento#10201", user: "Alastor Moody", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Encantamientos", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
-    { peticion: "/t808-juego-calendario-de-adviento#10201", user: "Alastor Moody", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Herbología", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },		
+    { peticion: "/t808-juego-calendario-de-adviento#10201", user: "Alastor Moody", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Herbología", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
     { peticion: "/t808-juego-calendario-de-adviento#10201", user: "Alastor Moody", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Música", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
-    { peticion: "/t808-juego-calendario-de-adviento#10201", user: "Alastor Moody", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Patronus", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },	
-    { peticion: "/t808-juego-calendario-de-adviento#10201", user: "Alastor Moody", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Transformaciones", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },			
+    { peticion: "/t808-juego-calendario-de-adviento#10201", user: "Alastor Moody", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Patronus", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
+    { peticion: "/t808-juego-calendario-de-adviento#10201", user: "Alastor Moody", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Transformaciones", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
     { peticion: "/t808-juego-calendario-de-adviento#10216", user: "Neptune E. Merrythought", fecha: "25/12/2025", razon: "Subida de Atributos", cant: 1, detalle: "Constitución", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
     { peticion: "/t808-juego-calendario-de-adviento#10216", user: "Neptune E. Merrythought", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 2, detalle: "Contrabando", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
     { peticion: "/t808-juego-calendario-de-adviento#10216", user: "Neptune E. Merrythought", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Arte", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
@@ -173415,8 +175264,8 @@ const archivedMoney = [
     { peticion: "/t808-juego-calendario-de-adviento#10250", user: "Orion A. Black", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "DCAO", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
     { peticion: "/t808-juego-calendario-de-adviento#10250", user: "Orion A. Black", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "CCM", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
     { peticion: "/t808-juego-calendario-de-adviento#10250", user: "Orion A. Black", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Encantamientos", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
-    { peticion: "/t808-juego-calendario-de-adviento#10250", user: "Orion A. Black", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 2, detalle: "Magia Oscura", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },											{ peticion: "/t808-juego-calendario-de-adviento#10251", user: "Asteria C. Lestrange", fecha: "25/12/2025", razon: "Subida de Atributos", cant: 1, detalle: "Destreza", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
-    { peticion: "/t808-juego-calendario-de-adviento#10251", user: "Asteria C. Lestrange", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Alquimia", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },		
+    { peticion: "/t808-juego-calendario-de-adviento#10250", user: "Orion A. Black", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 2, detalle: "Magia Oscura", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 }, { peticion: "/t808-juego-calendario-de-adviento#10251", user: "Asteria C. Lestrange", fecha: "25/12/2025", razon: "Subida de Atributos", cant: 1, detalle: "Destreza", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
+    { peticion: "/t808-juego-calendario-de-adviento#10251", user: "Asteria C. Lestrange", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Alquimia", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
     { peticion: "/t808-juego-calendario-de-adviento#10251", user: "Asteria C. Lestrange", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Música", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
     { peticion: "/t808-juego-calendario-de-adviento#10251", user: "Asteria C. Lestrange", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Patronus", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
     { peticion: "/t808-juego-calendario-de-adviento#10251", user: "Asteria C. Lestrange", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Astronomía", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
@@ -173424,7 +175273,7 @@ const archivedMoney = [
     { peticion: "/t808-juego-calendario-de-adviento#10251", user: "Asteria C. Lestrange", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 2, detalle: "CCM", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
     { peticion: "/t808-juego-calendario-de-adviento#10251", user: "Asteria C. Lestrange", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 2, detalle: "Transformaciones", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
     { peticion: "/t808-juego-calendario-de-adviento#10251", user: "Asteria C. Lestrange", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Pociones", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
-    { peticion: "/t808-juego-calendario-de-adviento#10251", user: "Asteria C. Lestrange", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Runas Antiguas", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },										
+    { peticion: "/t808-juego-calendario-de-adviento#10251", user: "Asteria C. Lestrange", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Runas Antiguas", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
     { peticion: "/t808-juego-calendario-de-adviento#10255", user: "Vasilisa M. Kuznetzova", fecha: "25/12/2025", razon: "Subida de Atributos", cant: 1, detalle: "Fuerza", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
     { peticion: "/t808-juego-calendario-de-adviento#10255", user: "Vasilisa M. Kuznetzova", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Alquimia", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
     { peticion: "/t808-juego-calendario-de-adviento#10255", user: "Vasilisa M. Kuznetzova", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Música", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
@@ -173435,41 +175284,41 @@ const archivedMoney = [
     { peticion: "/t808-juego-calendario-de-adviento#10255", user: "Vasilisa M. Kuznetzova", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Transformaciones", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
     { peticion: "/t808-juego-calendario-de-adviento#10255", user: "Vasilisa M. Kuznetzova", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "DCAO", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
     { peticion: "/t808-juego-calendario-de-adviento#10255", user: "Vasilisa M. Kuznetzova", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "CCM", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
-    { peticion: "/t808-juego-calendario-de-adviento#10255", user: "Vasilisa M. Kuznetzova", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Encantamientos", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },									
+    { peticion: "/t808-juego-calendario-de-adviento#10255", user: "Vasilisa M. Kuznetzova", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Encantamientos", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
     { peticion: "/t808-juego-calendario-de-adviento#10278", user: "Minerva E. McGonagall", fecha: "25/12/2025", razon: "Subida de Atributos", cant: 1, detalle: "Fuerza", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
     { peticion: "/t808-juego-calendario-de-adviento#10278", user: "Minerva E. McGonagall", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Alquimia", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
     { peticion: "/t808-juego-calendario-de-adviento#10278", user: "Minerva E. McGonagall", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Arte", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
     { peticion: "/t808-juego-calendario-de-adviento#10278", user: "Minerva E. McGonagall", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Artimancia", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
     { peticion: "/t808-juego-calendario-de-adviento#10278", user: "Minerva E. McGonagall", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Astronomía", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
-    { peticion: "/t808-juego-calendario-de-adviento#10278", user: "Minerva E. McGonagall", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Liderazgo", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },	
-    { peticion: "/t808-juego-calendario-de-adviento#10278", user: "Minerva E. McGonagall", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Animagia", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },	
-    { peticion: "/t808-juego-calendario-de-adviento#10278", user: "Minerva E. McGonagall", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Transformaciones", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },	
-    { peticion: "/t808-juego-calendario-de-adviento#10278", user: "Minerva E. McGonagall", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Pociones", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },	
-    { peticion: "/t808-juego-calendario-de-adviento#10278", user: "Minerva E. McGonagall", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "CCM", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },	
-    { peticion: "/t808-juego-calendario-de-adviento#10278", user: "Minerva E. McGonagall", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Runas Antiguas", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },							
+    { peticion: "/t808-juego-calendario-de-adviento#10278", user: "Minerva E. McGonagall", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Liderazgo", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
+    { peticion: "/t808-juego-calendario-de-adviento#10278", user: "Minerva E. McGonagall", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Animagia", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
+    { peticion: "/t808-juego-calendario-de-adviento#10278", user: "Minerva E. McGonagall", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Transformaciones", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
+    { peticion: "/t808-juego-calendario-de-adviento#10278", user: "Minerva E. McGonagall", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Pociones", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
+    { peticion: "/t808-juego-calendario-de-adviento#10278", user: "Minerva E. McGonagall", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "CCM", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
+    { peticion: "/t808-juego-calendario-de-adviento#10278", user: "Minerva E. McGonagall", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Runas Antiguas", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
     { peticion: "/t808-juego-calendario-de-adviento#10278", user: "Minerva E. McGonagall", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Historia de la Magia", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
     { peticion: "/t808-juego-calendario-de-adviento#10284", user: "Montgomery Thatch", fecha: "25/12/2025", razon: "Subida de Atributos", cant: 1, detalle: "Sabiduría", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
     { peticion: "/t808-juego-calendario-de-adviento#10284", user: "Montgomery Thatch", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Adivinación", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
     { peticion: "/t808-juego-calendario-de-adviento#10284", user: "Montgomery Thatch", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Alquimia", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
     { peticion: "/t808-juego-calendario-de-adviento#10284", user: "Montgomery Thatch", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Aritmancia", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
     { peticion: "/t808-juego-calendario-de-adviento#10284", user: "Montgomery Thatch", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Arte", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
-    { peticion: "/t808-juego-calendario-de-adviento#10284", user: "Montgomery Thatch", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Curación", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },						
+    { peticion: "/t808-juego-calendario-de-adviento#10284", user: "Montgomery Thatch", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Curación", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
     { peticion: "/t808-juego-calendario-de-adviento#10284", user: "Montgomery Thatch", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 2, detalle: "Duendes", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
     { peticion: "/t808-juego-calendario-de-adviento#10284", user: "Montgomery Thatch", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Herbología", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
     { peticion: "/t808-juego-calendario-de-adviento#10284", user: "Montgomery Thatch", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Pociones", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
-    { peticion: "/t808-juego-calendario-de-adviento#10284", user: "Montgomery Thatch", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Runas Antiguas", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },	
-    { peticion: "/t808-juego-calendario-de-adviento#10284", user: "Montgomery Thatch", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Transformaciones", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },		
+    { peticion: "/t808-juego-calendario-de-adviento#10284", user: "Montgomery Thatch", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Runas Antiguas", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
+    { peticion: "/t808-juego-calendario-de-adviento#10284", user: "Montgomery Thatch", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Transformaciones", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
     { peticion: "/t808-juego-calendario-de-adviento#10301", user: "Kaoru Satoo", fecha: "25/12/2025", razon: "Subida de Atributos", cant: 1, detalle: "Constitución", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
     { peticion: "/t808-juego-calendario-de-adviento#10301", user: "Kaoru Satoo", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Alquimia", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
     { peticion: "/t808-juego-calendario-de-adviento#10301", user: "Kaoru Satoo", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Música", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
-    { peticion: "/t808-juego-calendario-de-adviento#10301", user: "Kaoru Satoo", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Patronus", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },				
+    { peticion: "/t808-juego-calendario-de-adviento#10301", user: "Kaoru Satoo", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Patronus", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
     { peticion: "/t808-juego-calendario-de-adviento#10301", user: "Kaoru Satoo", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Astronomía", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
     { peticion: "/t808-juego-calendario-de-adviento#10301", user: "Kaoru Satoo", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Curación", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
     { peticion: "/t808-juego-calendario-de-adviento#10301", user: "Kaoru Satoo", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 2, detalle: "Metamorfomagia", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
     { peticion: "/t808-juego-calendario-de-adviento#10301", user: "Kaoru Satoo", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Transformaciones", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
     { peticion: "/t808-juego-calendario-de-adviento#10301", user: "Kaoru Satoo", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Pociones", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
-    { peticion: "/t808-juego-calendario-de-adviento#10301", user: "Kaoru Satoo", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "CCM", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },	
-    { peticion: "/t808-juego-calendario-de-adviento#10301", user: "Kaoru Satoo", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Encantamientos", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },			
+    { peticion: "/t808-juego-calendario-de-adviento#10301", user: "Kaoru Satoo", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "CCM", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
+    { peticion: "/t808-juego-calendario-de-adviento#10301", user: "Kaoru Satoo", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Encantamientos", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
     { peticion: "/t808-juego-calendario-de-adviento#10345", user: "Regulus O. Black", fecha: "25/12/2025", razon: "Subida de Atributos", cant: 1, detalle: "Carisma", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
     { peticion: "/t808-juego-calendario-de-adviento#10345", user: "Regulus O. Black", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Alquimia", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
     { peticion: "/t808-juego-calendario-de-adviento#10345", user: "Regulus O. Black", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Arte", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
@@ -173479,17 +175328,17 @@ const archivedMoney = [
     { peticion: "/t808-juego-calendario-de-adviento#10345", user: "Regulus O. Black", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Transformaciones", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
     { peticion: "/t808-juego-calendario-de-adviento#10345", user: "Regulus O. Black", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "DCAO", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
     { peticion: "/t808-juego-calendario-de-adviento#10345", user: "Regulus O. Black", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Herbología", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
-    { peticion: "/t808-juego-calendario-de-adviento#10345", user: "Regulus O. Black", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Runas Antiguas", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },				
+    { peticion: "/t808-juego-calendario-de-adviento#10345", user: "Regulus O. Black", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Runas Antiguas", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
     { peticion: "/t808-juego-calendario-de-adviento#10413", user: "Thaddeus L. Nott", fecha: "25/12/2025", razon: "Subida de Atributos", cant: 1, detalle: "Destreza", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
     { peticion: "/t808-juego-calendario-de-adviento#10413", user: "Thaddeus L. Nott", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 2, detalle: "Contrabando", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
-    { peticion: "/t808-juego-calendario-de-adviento#10413", user: "Thaddeus L. Nott", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Música", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },		
+    { peticion: "/t808-juego-calendario-de-adviento#10413", user: "Thaddeus L. Nott", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Música", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
     { peticion: "/t808-juego-calendario-de-adviento#10413", user: "Thaddeus L. Nott", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Patronus", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
     { peticion: "/t808-juego-calendario-de-adviento#10413", user: "Thaddeus L. Nott", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Adivinación", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
     { peticion: "/t808-juego-calendario-de-adviento#10413", user: "Thaddeus L. Nott", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Curación", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
     { peticion: "/t808-juego-calendario-de-adviento#10413", user: "Thaddeus L. Nott", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 2, detalle: "Videncia", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
     { peticion: "/t808-juego-calendario-de-adviento#10413", user: "Thaddeus L. Nott", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "DCAO", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
     { peticion: "/t808-juego-calendario-de-adviento#10413", user: "Thaddeus L. Nott", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "CCM", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
-    { peticion: "/t808-juego-calendario-de-adviento#10413", user: "Thaddeus L. Nott", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Encantamientos", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },	
+    { peticion: "/t808-juego-calendario-de-adviento#10413", user: "Thaddeus L. Nott", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Encantamientos", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
     { peticion: "/t808-juego-calendario-de-adviento#10268", user: "Theolonius D. Covey", fecha: "25/12/2025", razon: "Subida de Atributos", cant: 1, detalle: "Destreza", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
     { peticion: "/t808-juego-calendario-de-adviento#10268", user: "Theolonius D. Covey", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Alquimia", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
     { peticion: "/t808-juego-calendario-de-adviento#10268", user: "Theolonius D. Covey", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Arte", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
@@ -173500,7 +175349,7 @@ const archivedMoney = [
     { peticion: "/t808-juego-calendario-de-adviento#10268", user: "Theolonius D. Covey", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Transformaciones", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
     { peticion: "/t808-juego-calendario-de-adviento#10268", user: "Theolonius D. Covey", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Pociones", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
     { peticion: "/t808-juego-calendario-de-adviento#10268", user: "Theolonius D. Covey", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Herbología", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
-    { peticion: "/t808-juego-calendario-de-adviento#10268", user: "Theolonius D. Covey", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Encantamientos", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },		
+    { peticion: "/t808-juego-calendario-de-adviento#10268", user: "Theolonius D. Covey", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Encantamientos", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
     { peticion: "/t808-juego-calendario-de-adviento#10481", user: "Venus M. Merrythought", fecha: "25/12/2025", razon: "Subida de Atributos", cant: 1, detalle: "Destreza", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
     { peticion: "/t808-juego-calendario-de-adviento#10481", user: "Venus M. Merrythought", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Contrabando", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
     { peticion: "/t808-juego-calendario-de-adviento#10481", user: "Venus M. Merrythought", fecha: "25/12/2025", razon: "Subida de Conocimiento", cant: 1, detalle: "Música", texto: "juegos", evidencia: ["/t808-juego-calendario-de-adviento"], galeones: 0 },
@@ -173720,7 +175569,7 @@ const archivedBeans = [
     { topic: "ani1a", character: 'Montgomery Thatch', bean: 'gelatina de durazno', url: "/t1186p340-grageas-bertie-bott-i-reserva-especial#19375" },
     { topic: "ani1a", character: 'Minerva E. McGonagall', bean: 'zumo de calabaza', url: "/t1186p340-grageas-bertie-bott-i-reserva-especial#19400" },
     { topic: "ani1a", character: 'Jupiter Merrythought', bean: 'zumo de calabaza', url: "/t1186p340-grageas-bertie-bott-i-reserva-especial#19403" },
-    
+
     // apertura
     { topic: "apertura", character: 'Orion A. Black', bean: 'caramelo', url: "/t276-caja-de-grageas-bertie-botts-1#1295" },
     { topic: "apertura", character: 'Asteria C. Lestrange', bean: 'limón', url: "/t276-caja-de-grageas-bertie-botts-1#1301" },
