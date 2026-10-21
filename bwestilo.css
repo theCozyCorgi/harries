@@ -13079,3 +13079,14 @@ mark.bw-manifest-marca {
     font-size: 40px !important;
   }
 }
+/* cooldown de hechizos en duelos, debajo de la tirada: div class="dice-cooldown" (backup/codes/roll-the-dice.js) */
+.dice-cooldown {
+  display: flex;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.dice-cooldown .action-result>span {
+  line-height: 1.6;
+  text-align: left;
+}
