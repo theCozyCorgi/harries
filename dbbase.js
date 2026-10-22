@@ -174907,8 +174907,8 @@ const DBModule = (function () {
             if (mes) return `${dia}/${mes}/${anio}`;
         }
 
-        // Formato: 3/10/1952 o 03/10/52
-        match = t.match(/^(\d{1,2})[\/\-](\d{1,2})[\/\-](\d{2,4})$/);
+        // Formato: 3/10/1952, 03/10/52 o 03.10.1952 (acepta punto final: 03/10/1952.)
+        match = t.match(/^(\d{1,2})[\/\-\.](\d{1,2})[\/\-\.](\d{2,4})\.?$/);
         if (match) {
             dia = match[1].padStart(2, '0');
             mes = match[2].padStart(2, '0');
