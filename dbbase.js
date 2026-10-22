@@ -77995,6 +77995,685 @@ const DBModule = (function () {
             "date": "16/05/1953",
             "location": "Lago Negro"
         },
+        "1404": {
+            "space": "el pensadero",
+            "url": "/t1404-1953-05-16-evento-duetos-estelares-thyme-y-jasper",
+            "simpleTitle": "evento: duetos estelares - thyme y jasper",
+            "creator": "Black Wave",
+            "replyCount": 24,
+            "posts": [
+                {
+                    "url": "r21875",
+                    "author": "Black Wave",
+                    "date": "16/08/2026",
+                    "words": 162
+                },
+                {
+                    "url": "r21960",
+                    "author": "Thyme T. Nott",
+                    "date": "18/08/2026",
+                    "words": 214
+                },
+                {
+                    "url": "r21963",
+                    "author": "Jasper R. Gryffith",
+                    "date": "18/08/2026",
+                    "words": 279
+                },
+                {
+                    "url": "r21964",
+                    "author": "The Familiars",
+                    "date": "18/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21990",
+                    "author": "Thyme T. Nott",
+                    "date": "19/08/2026",
+                    "words": 229
+                },
+                {
+                    "url": "r21991",
+                    "author": "The Familiars",
+                    "date": "19/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22378",
+                    "author": "Jasper R. Gryffith",
+                    "date": "01/09/2026",
+                    "words": 224
+                },
+                {
+                    "url": "r22379",
+                    "author": "The Familiars",
+                    "date": "01/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22512",
+                    "author": "Thyme T. Nott",
+                    "date": "05/09/2026",
+                    "words": 166
+                },
+                {
+                    "url": "r22513",
+                    "author": "The Familiars",
+                    "date": "05/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22990",
+                    "author": "Jasper R. Gryffith",
+                    "date": "16/09/2026",
+                    "words": 158
+                },
+                {
+                    "url": "r22991",
+                    "author": "The Familiars",
+                    "date": "16/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r23222",
+                    "author": "Thyme T. Nott",
+                    "date": "21/09/2026",
+                    "words": 213
+                },
+                {
+                    "url": "r23223",
+                    "author": "The Familiars",
+                    "date": "21/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r23311",
+                    "author": "Jasper R. Gryffith",
+                    "date": "24/09/2026",
+                    "words": 211
+                },
+                {
+                    "url": "r23312",
+                    "author": "The Familiars",
+                    "date": "24/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r23360",
+                    "author": "Thyme T. Nott",
+                    "date": "25/09/2026",
+                    "words": 167
+                },
+                {
+                    "url": "r23361",
+                    "author": "The Familiars",
+                    "date": "25/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r23608",
+                    "author": "Jasper R. Gryffith",
+                    "date": "01/10/2026",
+                    "words": 163
+                },
+                {
+                    "url": "r23609",
+                    "author": "The Familiars",
+                    "date": "01/10/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r23650",
+                    "author": "Thyme T. Nott",
+                    "date": "02/10/2026",
+                    "words": 205
+                },
+                {
+                    "url": "r23651",
+                    "author": "The Familiars",
+                    "date": "02/10/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r24126",
+                    "author": "Jasper R. Gryffith",
+                    "date": "13/10/2026",
+                    "words": 209
+                },
+                {
+                    "url": "r24127",
+                    "author": "The Familiars",
+                    "date": "13/10/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r24484",
+                    "author": "Black Wave",
+                    "date": "19/10/2026",
+                    "words": 68
+                }
+            ],
+            "date": "16/05/1953",
+            "location": "Lago Negro"
+        },
+        "1427": {
+            "space": "el pensadero",
+            "url": "/t1427-1953-05-14-clase-de-pociones-amortentia-g1",
+            "simpleTitle": "clase de pociones: amortentia - g1",
+            "creator": "Viridian L. Greengrass",
+            "replyCount": 25,
+            "posts": [
+                {
+                    "url": "r22372",
+                    "author": "Viridian L. Greengrass",
+                    "date": "01/09/2026",
+                    "words": 443
+                },
+                {
+                    "url": "r22418",
+                    "author": "Thaddeus L. Nott",
+                    "date": "02/09/2026",
+                    "words": 174
+                },
+                {
+                    "url": "r22420",
+                    "author": "Findlay McCrory",
+                    "date": "02/09/2026",
+                    "words": 352
+                },
+                {
+                    "url": "r22447",
+                    "author": "Hazel Edevane",
+                    "date": "03/09/2026",
+                    "words": 178
+                },
+                {
+                    "url": "r22491",
+                    "author": "Viridian L. Greengrass",
+                    "date": "04/09/2026",
+                    "words": 254
+                },
+                {
+                    "url": "r22550",
+                    "author": "Thaddeus L. Nott",
+                    "date": "06/09/2026",
+                    "words": 129
+                },
+                {
+                    "url": "r22551",
+                    "author": "The Familiars",
+                    "date": "06/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22634",
+                    "author": "Findlay McCrory",
+                    "date": "07/09/2026",
+                    "words": 172
+                },
+                {
+                    "url": "r22635",
+                    "author": "The Familiars",
+                    "date": "07/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22687",
+                    "author": "Hazel Edevane",
+                    "date": "08/09/2026",
+                    "words": 190
+                },
+                {
+                    "url": "r22688",
+                    "author": "The Familiars",
+                    "date": "08/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22907",
+                    "author": "Thaddeus L. Nott",
+                    "date": "14/09/2026",
+                    "words": 180
+                },
+                {
+                    "url": "r22908",
+                    "author": "The Familiars",
+                    "date": "14/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22917",
+                    "author": "Findlay McCrory",
+                    "date": "14/09/2026",
+                    "words": 282
+                },
+                {
+                    "url": "r22918",
+                    "author": "The Familiars",
+                    "date": "14/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r23248",
+                    "author": "Hazel Edevane",
+                    "date": "23/09/2026",
+                    "words": 156
+                },
+                {
+                    "url": "r23249",
+                    "author": "The Familiars",
+                    "date": "23/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r23773",
+                    "author": "Thaddeus L. Nott",
+                    "date": "04/10/2026",
+                    "words": 198
+                },
+                {
+                    "url": "r23774",
+                    "author": "The Familiars",
+                    "date": "04/10/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r23806",
+                    "author": "Findlay McCrory",
+                    "date": "05/10/2026",
+                    "words": 226
+                },
+                {
+                    "url": "r23807",
+                    "author": "The Familiars",
+                    "date": "05/10/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r24072",
+                    "author": "Hazel Edevane",
+                    "date": "12/10/2026",
+                    "words": 171
+                },
+                {
+                    "url": "r24073",
+                    "author": "The Familiars",
+                    "date": "12/10/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r24282",
+                    "author": "Thaddeus L. Nott",
+                    "date": "15/10/2026",
+                    "words": 176
+                },
+                {
+                    "url": "r24283",
+                    "author": "The Familiars",
+                    "date": "15/10/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r24507",
+                    "author": "Viridian L. Greengrass",
+                    "date": "20/10/2026",
+                    "words": 201
+                }
+            ],
+            "date": "14/05/1953",
+            "location": "Aula de pociones",
+            "pociones": [
+                "filtros de amor/amortentia"
+            ]
+        },
+        "1428": {
+            "space": "el pensadero",
+            "url": "/t1428-1953-05-14-clase-de-pociones-amortentia-g2",
+            "simpleTitle": "clase de pociones: amortentia - g2",
+            "creator": "Viridian L. Greengrass",
+            "replyCount": 25,
+            "posts": [
+                {
+                    "url": "r22373",
+                    "author": "Viridian L. Greengrass",
+                    "date": "01/09/2026",
+                    "words": 444
+                },
+                {
+                    "url": "r22401",
+                    "author": "Neptune E. Merrythought",
+                    "date": "02/09/2026",
+                    "words": 206
+                },
+                {
+                    "url": "r22417",
+                    "author": "Asteria C. Lestrange",
+                    "date": "02/09/2026",
+                    "words": 262
+                },
+                {
+                    "url": "r22434",
+                    "author": "Montgomery Thatch",
+                    "date": "02/09/2026",
+                    "words": 319
+                },
+                {
+                    "url": "r22490",
+                    "author": "Viridian L. Greengrass",
+                    "date": "04/09/2026",
+                    "words": 254
+                },
+                {
+                    "url": "r22582",
+                    "author": "Neptune E. Merrythought",
+                    "date": "06/09/2026",
+                    "words": 246
+                },
+                {
+                    "url": "r22583",
+                    "author": "The Familiars",
+                    "date": "06/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22790",
+                    "author": "Montgomery Thatch",
+                    "date": "12/09/2026",
+                    "words": 361
+                },
+                {
+                    "url": "r22791",
+                    "author": "The Familiars",
+                    "date": "12/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22904",
+                    "author": "Asteria C. Lestrange",
+                    "date": "14/09/2026",
+                    "words": 243
+                },
+                {
+                    "url": "r22905",
+                    "author": "The Familiars",
+                    "date": "14/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22967",
+                    "author": "Neptune E. Merrythought",
+                    "date": "16/09/2026",
+                    "words": 255
+                },
+                {
+                    "url": "r22968",
+                    "author": "The Familiars",
+                    "date": "16/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r23026",
+                    "author": "Montgomery Thatch",
+                    "date": "17/09/2026",
+                    "words": 870
+                },
+                {
+                    "url": "r23027",
+                    "author": "The Familiars",
+                    "date": "17/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r23124",
+                    "author": "Asteria C. Lestrange",
+                    "date": "19/09/2026",
+                    "words": 290
+                },
+                {
+                    "url": "r23125",
+                    "author": "The Familiars",
+                    "date": "19/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r23250",
+                    "author": "Neptune E. Merrythought",
+                    "date": "23/09/2026",
+                    "words": 291
+                },
+                {
+                    "url": "r23251",
+                    "author": "The Familiars",
+                    "date": "23/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r23320",
+                    "author": "Montgomery Thatch",
+                    "date": "24/09/2026",
+                    "words": 677
+                },
+                {
+                    "url": "r23321",
+                    "author": "The Familiars",
+                    "date": "24/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r23559",
+                    "author": "Asteria C. Lestrange",
+                    "date": "01/10/2026",
+                    "words": 290
+                },
+                {
+                    "url": "r23560",
+                    "author": "The Familiars",
+                    "date": "01/10/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r23637",
+                    "author": "Neptune E. Merrythought",
+                    "date": "02/10/2026",
+                    "words": 202
+                },
+                {
+                    "url": "r23638",
+                    "author": "The Familiars",
+                    "date": "02/10/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r24506",
+                    "author": "Viridian L. Greengrass",
+                    "date": "20/10/2026",
+                    "words": 201
+                }
+            ],
+            "date": "14/05/1953",
+            "location": "Aula de pociones",
+            "pociones": [
+                "filtros de amor/amortentia",
+                "amortentia"
+            ]
+        },
+        "1429": {
+            "space": "el pensadero",
+            "url": "/t1429-1953-05-14-clase-de-pociones-amortentia-g3",
+            "simpleTitle": "clase de pociones: amortentia - g3",
+            "creator": "Viridian L. Greengrass",
+            "replyCount": 26,
+            "posts": [
+                {
+                    "url": "r22374",
+                    "author": "Viridian L. Greengrass",
+                    "date": "01/09/2026",
+                    "words": 445
+                },
+                {
+                    "url": "r22404",
+                    "author": "Barnaby R. Rookwood",
+                    "date": "02/09/2026",
+                    "words": 215
+                },
+                {
+                    "url": "r22446",
+                    "author": "Berenike M. Borgin",
+                    "date": "02/09/2026",
+                    "words": 303
+                },
+                {
+                    "url": "r22489",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "04/09/2026",
+                    "words": 257
+                },
+                {
+                    "url": "r22492",
+                    "author": "Viridian L. Greengrass",
+                    "date": "04/09/2026",
+                    "words": 254
+                },
+                {
+                    "url": "r22594",
+                    "author": "Barnaby R. Rookwood",
+                    "date": "06/09/2026",
+                    "words": 195
+                },
+                {
+                    "url": "r22595",
+                    "author": "The Familiars",
+                    "date": "06/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22708",
+                    "author": "Berenike M. Borgin",
+                    "date": "09/09/2026",
+                    "words": 267
+                },
+                {
+                    "url": "r22709",
+                    "author": "The Familiars",
+                    "date": "09/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22830",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "13/09/2026",
+                    "words": 250
+                },
+                {
+                    "url": "r22831",
+                    "author": "The Familiars",
+                    "date": "13/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22954",
+                    "author": "Barnaby R. Rookwood",
+                    "date": "15/09/2026",
+                    "words": 193
+                },
+                {
+                    "url": "r22955",
+                    "author": "The Familiars",
+                    "date": "15/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22994",
+                    "author": "Berenike M. Borgin",
+                    "date": "16/09/2026",
+                    "words": 233
+                },
+                {
+                    "url": "r22995",
+                    "author": "The Familiars",
+                    "date": "16/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r23074",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "18/09/2026",
+                    "words": 231
+                },
+                {
+                    "url": "r23075",
+                    "author": "The Familiars",
+                    "date": "18/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r23254",
+                    "author": "Barnaby R. Rookwood",
+                    "date": "23/09/2026",
+                    "words": 218
+                },
+                {
+                    "url": "r23255",
+                    "author": "The Familiars",
+                    "date": "23/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r23363",
+                    "author": "Berenike M. Borgin",
+                    "date": "25/09/2026",
+                    "words": 282
+                },
+                {
+                    "url": "r23364",
+                    "author": "The Familiars",
+                    "date": "25/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r23509",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "29/09/2026",
+                    "words": 309
+                },
+                {
+                    "url": "r23510",
+                    "author": "The Familiars",
+                    "date": "29/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r23635",
+                    "author": "Barnaby R. Rookwood",
+                    "date": "02/10/2026",
+                    "words": 184
+                },
+                {
+                    "url": "r23636",
+                    "author": "The Familiars",
+                    "date": "02/10/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r23757",
+                    "author": "Berenike M. Borgin",
+                    "date": "04/10/2026",
+                    "words": 185
+                },
+                {
+                    "url": "r24505",
+                    "author": "Viridian L. Greengrass",
+                    "date": "20/10/2026",
+                    "words": 201
+                }
+            ],
+            "date": "14/05/1953",
+            "location": "Aula de pociones",
+            "pociones": [
+                "filtros de amor/amortentia",
+                "amortentia"
+            ]
+        },
         "1462": {
             "space": "el pensadero",
             "url": "/t1462-twist-and-shout-cjt",
@@ -160471,6 +161150,952 @@ const DBModule = (function () {
             "url": "r19317",
             "simpleTitle": "the sun was collapsing",
             "space": "el pensadero"
+        },
+        {
+            "pitcher": "Thaddeus L. Nott",
+            "spread": [
+                10
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "reposar una poción"
+            ],
+            "knowledge": [
+                "pociones"
+            ],
+            "type": [
+                "pociones, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Thaddeus L. Nott ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"pociones\"><strong>Resultado  #1 \"reposar una poción\" (10)</strong><span>Añade al contador de la poción los puntos que el personaje tenga en Destreza + +14.</span></span></div></div></div>",
+            "url": "r22551",
+            "simpleTitle": "clase de pociones: amortentia - g1",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Findlay McCrory",
+            "spread": [
+                19
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "pulverizar un ingrediente"
+            ],
+            "knowledge": [
+                "pociones"
+            ],
+            "type": [
+                "pociones, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Findlay McCrory ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"pociones\"><strong>Resultado  #1 \"pulverizar un ingrediente\" (19)</strong><span>Añade al contador de la poción los puntos que el personaje tenga en Destreza + +12.</span></span></div></div></div>",
+            "url": "r22635",
+            "simpleTitle": "clase de pociones: amortentia - g1",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Hazel Edevane",
+            "spread": [
+                13
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "pulverizar un ingrediente"
+            ],
+            "knowledge": [
+                "pociones"
+            ],
+            "type": [
+                "pociones, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Hazel Edevane ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"pociones\"><strong>Resultado  #1 \"pulverizar un ingrediente\" (13)</strong><span>Añade al contador de la poción los puntos que el personaje tenga en Destreza + +9.</span></span></div></div></div>",
+            "url": "r22688",
+            "simpleTitle": "clase de pociones: amortentia - g1",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Thaddeus L. Nott",
+            "spread": [
+                16
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "mezclar ingredientes en un mortero"
+            ],
+            "knowledge": [
+                "pociones"
+            ],
+            "type": [
+                "pociones, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Thaddeus L. Nott ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"pociones\"><strong>Resultado  #1 \"mezclar ingredientes en un mortero\" (16)</strong><span>Añade al contador de la poción los puntos que el personaje tenga en Destreza + +20.</span></span></div></div></div>",
+            "url": "r22908",
+            "simpleTitle": "clase de pociones: amortentia - g1",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Findlay McCrory",
+            "spread": [
+                8
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "calentar la poción"
+            ],
+            "knowledge": [
+                "pociones"
+            ],
+            "type": [
+                "pociones, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Findlay McCrory ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"pociones\"><strong>Resultado  #1 \"calentar la poción\" (8)</strong><span>Añade al contador de la poción los puntos que el personaje tenga en Destreza + +6.</span></span></div></div></div>",
+            "url": "r22918",
+            "simpleTitle": "clase de pociones: amortentia - g1",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Hazel Edevane",
+            "spread": [
+                12
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "remover poción en sentido horario"
+            ],
+            "knowledge": [
+                "pociones"
+            ],
+            "type": [
+                "pociones, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Hazel Edevane ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"pociones\"><strong>Resultado  #1 \"remover poción en sentido horario\" (12)</strong><span>Añade al contador de la poción los puntos que el personaje tenga en Destreza + +12.</span></span></div></div></div>",
+            "url": "r23249",
+            "simpleTitle": "clase de pociones: amortentia - g1",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Thaddeus L. Nott",
+            "spread": [
+                2
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "remover poción en sentido antihorario"
+            ],
+            "knowledge": [
+                "pociones"
+            ],
+            "type": [
+                "pociones, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Thaddeus L. Nott ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"pociones\"><strong>Resultado  #1 \"remover poción en sentido antihorario\" (2)</strong><span>Añade al contador de la poción los puntos que el personaje tenga en Destreza + +6.</span></span></div></div></div>",
+            "url": "r23774",
+            "simpleTitle": "clase de pociones: amortentia - g1",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Findlay McCrory",
+            "spread": [
+                19
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "añadir ingrediente al caldero"
+            ],
+            "knowledge": [
+                "pociones"
+            ],
+            "type": [
+                "pociones, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Findlay McCrory ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"pociones\"><strong>Resultado  #1 \"añadir ingrediente al caldero\" (19)</strong><span>Añade al contador de la poción los puntos que el personaje tenga en Destreza + +17.</span></span></div></div></div>",
+            "url": "r23807",
+            "simpleTitle": "clase de pociones: amortentia - g1",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Hazel Edevane",
+            "spread": [
+                13
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "calentar la poción"
+            ],
+            "knowledge": [
+                "pociones"
+            ],
+            "type": [
+                "pociones, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Hazel Edevane ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"pociones\"><strong>Resultado  #1 \"calentar la poción\" (13)</strong><span>Añade al contador de la poción los puntos que el personaje tenga en Destreza + +12.</span></span></div></div></div>",
+            "url": "r24073",
+            "simpleTitle": "clase de pociones: amortentia - g1",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Thaddeus L. Nott",
+            "spread": [
+                14
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "almacenar poción"
+            ],
+            "knowledge": [
+                "pociones"
+            ],
+            "type": [
+                "pociones, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Thaddeus L. Nott ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"pociones\"><strong>Resultado  #1 \"almacenar poción\" (14)</strong><span>Añade al contador de la poción los puntos que el personaje tenga en Destreza + +18.</span></span></div></div></div>",
+            "url": "r24283",
+            "simpleTitle": "clase de pociones: amortentia - g1",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Barnaby R. Rookwood",
+            "spread": [
+                16
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "reposar una poción"
+            ],
+            "knowledge": [
+                "pociones"
+            ],
+            "type": [
+                "pociones, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Barnaby R. Rookwood ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"pociones\"><strong>Resultado  #1 \"reposar una poción\" (16)</strong><span>Añade al contador de la poción los puntos que el personaje tenga en Destreza + +15.</span></span></div></div></div>",
+            "url": "r22595",
+            "simpleTitle": "clase de pociones: amortentia - g3",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Berenike M. Borgin",
+            "spread": [
+                4
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "pulverizar un ingrediente"
+            ],
+            "knowledge": [
+                "pociones"
+            ],
+            "type": [
+                "pociones, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Berenike M. Borgin ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"pociones\"><strong>Resultado  #1 \"pulverizar un ingrediente\" (4)</strong><span>Añade al contador de la poción los puntos que el personaje tenga en Destreza + +2.</span></span></div></div></div>",
+            "url": "r22709",
+            "simpleTitle": "clase de pociones: amortentia - g3",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Ruairidh Ó Mhaille",
+            "spread": [
+                11
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "majar un ingrediente"
+            ],
+            "knowledge": [
+                "pociones"
+            ],
+            "type": [
+                "pociones, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Ruairidh Ó Mhaille ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"pociones\"><strong>Resultado  #1 \"majar un ingrediente\" (11)</strong><span>Añade al contador de la poción los puntos que el personaje tenga en Destreza + +15.</span></span></div></div></div>",
+            "url": "r22831",
+            "simpleTitle": "clase de pociones: amortentia - g3",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Barnaby R. Rookwood",
+            "spread": [
+                7
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "mezclar ingredientes en un mortero"
+            ],
+            "knowledge": [
+                "pociones"
+            ],
+            "type": [
+                "pociones, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Barnaby R. Rookwood ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"pociones\"><strong>Resultado  #1 \"mezclar ingredientes en un mortero\" (7)</strong><span>Añade al contador de la poción los puntos que el personaje tenga en Destreza + +5.</span></span></div></div></div>",
+            "url": "r22955",
+            "simpleTitle": "clase de pociones: amortentia - g3",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Berenike M. Borgin",
+            "spread": [
+                4
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "calentar la poción"
+            ],
+            "knowledge": [
+                "pociones"
+            ],
+            "type": [
+                "pociones, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Berenike M. Borgin ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"pociones\"><strong>Resultado  #1 \"calentar la poción\" (4)</strong><span>Añade al contador de la poción los puntos que el personaje tenga en Destreza + +4.</span></span></div></div></div>",
+            "url": "r22995",
+            "simpleTitle": "clase de pociones: amortentia - g3",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Ruairidh Ó Mhaille",
+            "spread": [
+                5
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "remover poción en sentido horario"
+            ],
+            "knowledge": [
+                "pociones"
+            ],
+            "type": [
+                "pociones, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Ruairidh Ó Mhaille ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"pociones\"><strong>Resultado  #1 \"remover poción en sentido horario\" (5)</strong><span>Añade al contador de la poción los puntos que el personaje tenga en Destreza + +9.</span></span></div></div></div>",
+            "url": "r23075",
+            "simpleTitle": "clase de pociones: amortentia - g3",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Barnaby R. Rookwood",
+            "spread": [
+                15
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "remover poción en sentido antihorario"
+            ],
+            "knowledge": [
+                "pociones"
+            ],
+            "type": [
+                "pociones, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Barnaby R. Rookwood ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"pociones\"><strong>Resultado  #1 \"remover poción en sentido antihorario\" (15)</strong><span>Añade al contador de la poción los puntos que el personaje tenga en Destreza + +14.</span></span></div></div></div>",
+            "url": "r23255",
+            "simpleTitle": "clase de pociones: amortentia - g3",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Berenike M. Borgin",
+            "spread": [
+                6
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "añadir ingrediente al caldero"
+            ],
+            "knowledge": [
+                "pociones"
+            ],
+            "type": [
+                "pociones, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Berenike M. Borgin ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"pociones\"><strong>Resultado  #1 \"añadir ingrediente al caldero\" (6)</strong><span>Añade al contador de la poción los puntos que el personaje tenga en Destreza + +5.</span></span></div></div></div>",
+            "url": "r23364",
+            "simpleTitle": "clase de pociones: amortentia - g3",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Ruairidh Ó Mhaille",
+            "spread": [
+                5
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "calentar la poción"
+            ],
+            "knowledge": [
+                "pociones"
+            ],
+            "type": [
+                "pociones, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Ruairidh Ó Mhaille ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"pociones\"><strong>Resultado  #1 \"calentar la poción\" (5)</strong><span>Añade al contador de la poción los puntos que el personaje tenga en Destreza + +9.</span></span></div></div></div>",
+            "url": "r23510",
+            "simpleTitle": "clase de pociones: amortentia - g3",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Barnaby R. Rookwood",
+            "spread": [
+                7
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "almacenar poción"
+            ],
+            "knowledge": [
+                "pociones"
+            ],
+            "type": [
+                "pociones, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Barnaby R. Rookwood ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"pociones\"><strong>Resultado  #1 \"almacenar poción\" (7)</strong><span>Añade al contador de la poción los puntos que el personaje tenga en Destreza + +5.</span></span></div></div></div>",
+            "url": "r23636",
+            "simpleTitle": "clase de pociones: amortentia - g3",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Neptune E. Merrythought",
+            "spread": [
+                3
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "reposar una poción"
+            ],
+            "knowledge": [
+                "pociones"
+            ],
+            "type": [
+                "pociones, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Neptune E. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"pociones\"><strong>Resultado  #1 \"reposar una poción\" (3)</strong><span>Añade al contador de la poción los puntos que el personaje tenga en Destreza + +5.</span></span></div></div></div>",
+            "url": "r22583",
+            "simpleTitle": "clase de pociones: amortentia - g2",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                6
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "pulverizar un ingrediente"
+            ],
+            "knowledge": [
+                "pociones"
+            ],
+            "type": [
+                "pociones, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Montgomery Thatch ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"pociones\"><strong>Resultado  #1 \"pulverizar un ingrediente\" (6)</strong><span>Añade al contador de la poción los puntos que el personaje tenga en Destreza + +2.</span></span></div></div></div>",
+            "url": "r22791",
+            "simpleTitle": "clase de pociones: amortentia - g2",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Asteria C. Lestrange",
+            "spread": [
+                17
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "majar un ingrediente"
+            ],
+            "knowledge": [
+                "pociones"
+            ],
+            "type": [
+                "pociones, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Asteria C. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"pociones\"><strong>Resultado  #1 \"majar un ingrediente\" (17)</strong><span>Añade al contador de la poción los puntos que el personaje tenga en Destreza + +21.</span></span></div></div></div>",
+            "url": "r22905",
+            "simpleTitle": "clase de pociones: amortentia - g2",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Neptune E. Merrythought",
+            "spread": [
+                9
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "mezclar ingredientes en un mortero"
+            ],
+            "knowledge": [
+                "pociones"
+            ],
+            "type": [
+                "pociones, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Neptune E. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"pociones\"><strong>Resultado  #1 \"mezclar ingredientes en un mortero\" (9)</strong><span>Añade al contador de la poción los puntos que el personaje tenga en Destreza + +9.</span></span></div></div></div>",
+            "url": "r22968",
+            "simpleTitle": "clase de pociones: amortentia - g2",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                16
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "calentar la poción"
+            ],
+            "knowledge": [
+                "pociones"
+            ],
+            "type": [
+                "pociones, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Montgomery Thatch ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"pociones\"><strong>Resultado  #1 \"calentar la poción\" (16)</strong><span>Añade al contador de la poción los puntos que el personaje tenga en Destreza + +15.</span></span></div></div></div>",
+            "url": "r23027",
+            "simpleTitle": "clase de pociones: amortentia - g2",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Asteria C. Lestrange",
+            "spread": [
+                9
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "remover poción en sentido horario"
+            ],
+            "knowledge": [
+                "pociones"
+            ],
+            "type": [
+                "pociones, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Asteria C. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"pociones\"><strong>Resultado  #1 \"remover poción en sentido horario\" (9)</strong><span>Añade al contador de la poción los puntos que el personaje tenga en Destreza + +13.</span></span></div></div></div>",
+            "url": "r23125",
+            "simpleTitle": "clase de pociones: amortentia - g2",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Neptune E. Merrythought",
+            "spread": [
+                18
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "remover poción en sentido antihorario"
+            ],
+            "knowledge": [
+                "pociones"
+            ],
+            "type": [
+                "pociones, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Neptune E. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"pociones\"><strong>Resultado  #1 \"remover poción en sentido antihorario\" (18)</strong><span>Añade al contador de la poción los puntos que el personaje tenga en Destreza + +22.</span></span></div></div></div>",
+            "url": "r23251",
+            "simpleTitle": "clase de pociones: amortentia - g2",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                13
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "añadir ingrediente al caldero"
+            ],
+            "knowledge": [
+                "pociones"
+            ],
+            "type": [
+                "pociones, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Montgomery Thatch ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"pociones\"><strong>Resultado  #1 \"añadir ingrediente al caldero\" (13)</strong><span>Añade al contador de la poción los puntos que el personaje tenga en Destreza + +12.</span></span></div></div></div>",
+            "url": "r23321",
+            "simpleTitle": "clase de pociones: amortentia - g2",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Asteria C. Lestrange",
+            "spread": [
+                11
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "calentar la poción"
+            ],
+            "knowledge": [
+                "pociones"
+            ],
+            "type": [
+                "pociones, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Asteria C. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"pociones\"><strong>Resultado  #1 \"calentar la poción\" (11)</strong><span>Añade al contador de la poción los puntos que el personaje tenga en Destreza + +15.</span></span></div></div></div>",
+            "url": "r23560",
+            "simpleTitle": "clase de pociones: amortentia - g2",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Neptune E. Merrythought",
+            "spread": [
+                12
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "almacenar poción"
+            ],
+            "knowledge": [
+                "pociones"
+            ],
+            "type": [
+                "pociones, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Neptune E. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"pociones\"><strong>Resultado  #1 \"almacenar poción\" (12)</strong><span>Añade al contador de la poción los puntos que el personaje tenga en Destreza + +16.</span></span></div></div></div>",
+            "url": "r23638",
+            "simpleTitle": "clase de pociones: amortentia - g2",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jasper R. Gryffith",
+            "spread": [
+                8
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "vuelo en pareja"
+            ],
+            "knowledge": [
+                "vuelo"
+            ],
+            "type": [
+                "quidditch, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jasper R. Gryffith ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"vuelo en pareja\" (8)</strong><span>Vuelo lento, pero estable. Se requieren 6 turnos para llegar al objetivo deseado.</span></span></div></div></div>",
+            "url": "r21964",
+            "simpleTitle": "evento: duetos estelares - thyme y jasper",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Thyme T. Nott",
+            "spread": [
+                20,
+                14,
+                4
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "magia no verbal",
+                "manus umbrarum",
+                "flipendo"
+            ],
+            "knowledge": [
+                "magia no verbal",
+                "contrabando",
+                "dcao"
+            ],
+            "type": [
+                "habilidad, sin magia, neutral",
+                "encantamiento, neutral",
+                "maleficio, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Thyme T. Nott ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"magia no verbal\"><strong>Resultado  #1 \"magia no verbal\" (20)</strong><span>Permite generar un hechizo adicional para el cual se deberán lanzar dados. Si es de daño o defensa, adiciona <em>+0</em> (75% del conocimiento en MAGIA NO VERBAL) a su resultado.</span></span><span class=\"action-result\" data-conocimientos=\"contrabando\"><strong>Resultado  #2 \"manus umbrarum\" (14)</strong><span>Puede operar a distancia, tomar objetos protegidos por hechizos menores y ocultar su energía mágica completamente.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #3 \"flipendo\" (4)</strong><span>El oponente es empujado hacia atrás y puede tambalearse. Adiciona <em>+3</em> (50% del conocimiento en DCAO) en el daño.</span></span></div></div></div>",
+            "url": "r21991",
+            "simpleTitle": "evento: duetos estelares - thyme y jasper",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jasper R. Gryffith",
+            "spread": [
+                14,
+                6
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "vuelo",
+                "vuelo en pareja"
+            ],
+            "knowledge": [
+                "vuelo",
+                "vuelo"
+            ],
+            "type": [
+                "quidditch, sin magia, neutral",
+                "quidditch, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jasper R. Gryffith ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"vuelo\" (14)</strong><span>El vuelo es a una velocidad moderada. Se demora 4 turnos en llegar al objetivo deseado.</span></span><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #2 \"vuelo en pareja\" (6)</strong><span>Vuelo lento, pero estable. Se requieren 6 turnos para llegar al objetivo deseado.</span></span></div></div></div>",
+            "url": "r22379",
+            "simpleTitle": "evento: duetos estelares - thyme y jasper",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Thyme T. Nott",
+            "spread": [
+                14,
+                11
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "expulso",
+                "expulso"
+            ],
+            "knowledge": [
+                "dcao",
+                "dcao"
+            ],
+            "type": [
+                "maldición, defensivo",
+                "maldición, defensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Thyme T. Nott ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"expulso\" (14)</strong><span>El objetivo es empujado unos centímetros hacia atrás. Adiciona +3 de Defensa.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"expulso\" (11)</strong><span>El objetivo es empujado unos centímetros hacia atrás. Adiciona +3 de Defensa.</span></span></div></div></div>",
+            "url": "r22513",
+            "simpleTitle": "evento: duetos estelares - thyme y jasper",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jasper R. Gryffith",
+            "spread": [
+                8,
+                17
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "vuelo en velocidad",
+                "vuelo en pareja"
+            ],
+            "knowledge": [
+                "vuelo",
+                "vuelo"
+            ],
+            "type": [
+                "quidditch, sin magia, neutral",
+                "quidditch, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jasper R. Gryffith ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"vuelo en velocidad\" (8)</strong><span>Se mueve a una velocidad rápida, pero no muy estable. Demora 3 turnos en llegar al objetivo deseado.</span></span><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #2 \"vuelo en pareja\" (17)</strong><span>El vuelo es a una velocidad moderada. Se demora 5 turnos en llegar al objetivo deseado.</span></span></div></div></div>",
+            "url": "r22991",
+            "simpleTitle": "evento: duetos estelares - thyme y jasper",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Thyme T. Nott",
+            "spread": [
+                18,
+                14
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "flipendo",
+                "flipendo"
+            ],
+            "knowledge": [
+                "dcao",
+                "dcao"
+            ],
+            "type": [
+                "maleficio, ofensivo",
+                "maleficio, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Thyme T. Nott ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"flipendo\" (18)</strong><span>El oponente es derribado y lanzado al suelo. Adiciona <em>+4</em> (75% del conocimiento en DCAO) en el daño.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"flipendo\" (14)</strong><span>El oponente es derribado y lanzado al suelo. Adiciona <em>+4</em> (75% del conocimiento en DCAO) en el daño.</span></span></div></div></div>",
+            "url": "r23223",
+            "simpleTitle": "evento: duetos estelares - thyme y jasper",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jasper R. Gryffith",
+            "spread": [
+                18,
+                9
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "amago de wronski",
+                "vuelo en pareja"
+            ],
+            "knowledge": [
+                "vuelo",
+                "vuelo"
+            ],
+            "type": [
+                "quidditch, defensivo, sin magia",
+                "quidditch, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jasper R. Gryffith ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"amago de wronski\" (18)</strong><span>La caída es descontrolada y necesita frenar bruscamente para evitar un accidente. Adiciona <em>+0</em> (25% del conocimiento en VUELO) en defensa y +1 en turnos para llegar al objetivo.</span></span><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #2 \"vuelo en pareja\" (9)</strong><span>Vuelo lento, pero estable. Se requieren 6 turnos para llegar al objetivo deseado.</span></span></div></div></div>",
+            "url": "r23312",
+            "simpleTitle": "evento: duetos estelares - thyme y jasper",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Thyme T. Nott",
+            "spread": [
+                15,
+                2
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "flipendo",
+                "flipendo"
+            ],
+            "knowledge": [
+                "dcao",
+                "dcao"
+            ],
+            "type": [
+                "maleficio, ofensivo",
+                "maleficio, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Thyme T. Nott ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"flipendo\" (15)</strong><span>El oponente es derribado y lanzado al suelo. Adiciona <em>+4</em> (75% del conocimiento en DCAO) en el daño.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"flipendo\" (2)</strong><span>El oponente es empujado hacia atrás y puede tambalearse. Adiciona <em>+3</em> (50% del conocimiento en DCAO) en el daño.</span></span></div></div></div>",
+            "url": "r23361",
+            "simpleTitle": "evento: duetos estelares - thyme y jasper",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jasper R. Gryffith",
+            "spread": [
+                7,
+                11
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "vuelo en velocidad",
+                "vuelo en pareja"
+            ],
+            "knowledge": [
+                "vuelo",
+                "vuelo"
+            ],
+            "type": [
+                "quidditch, sin magia, neutral",
+                "quidditch, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jasper R. Gryffith ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"vuelo en velocidad\" (7)</strong><span>Se mueve a una velocidad rápida, pero no muy estable. Demora 3 turnos en llegar al objetivo deseado.</span></span><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #2 \"vuelo en pareja\" (11)</strong><span>El vuelo es a una velocidad moderada. Se demora 5 turnos en llegar al objetivo deseado.</span></span></div></div></div>",
+            "url": "r23609",
+            "simpleTitle": "evento: duetos estelares - thyme y jasper",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Thyme T. Nott",
+            "spread": [
+                12,
+                13
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "waddiwasi",
+                "waddiwasi"
+            ],
+            "knowledge": [
+                "dcao",
+                "dcao"
+            ],
+            "type": [
+                "embrujo, ofensivo",
+                "embrujo, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Thyme T. Nott ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"waddiwasi\" (12)</strong><span>El objeto vuela hacia el objetivo, pero con poca fuerza. Adiciona +9 en daño.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"waddiwasi\" (13)</strong><span>El objeto vuela hacia el objetivo, pero con poca fuerza. Adiciona +9 en daño.</span></span></div></div></div>",
+            "url": "r23651",
+            "simpleTitle": "evento: duetos estelares - thyme y jasper",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jasper R. Gryffith",
+            "spread": [
+                3,
+                4
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "vuelo en pareja",
+                "vuelo en velocidad"
+            ],
+            "knowledge": [
+                "vuelo",
+                "vuelo"
+            ],
+            "type": [
+                "quidditch, sin magia, neutral",
+                "quidditch, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jasper R. Gryffith ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"vuelo en pareja\" (3)</strong><span>Vuelo lento, pero estable. Se requieren 6 turnos para llegar al objetivo deseado.</span></span><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #2 \"vuelo en velocidad\" (4)</strong><span>Se mueve a una velocidad rápida, pero no muy estable. Demora 3 turnos en llegar al objetivo deseado.</span></span></div></div></div>",
+            "url": "r24127",
+            "simpleTitle": "evento: duetos estelares - thyme y jasper",
+            "space": "el pensadero"
         }
     ];
     const hardcodedInactiveTopics = {
@@ -168197,23 +169822,6 @@ const DBModule = (function () {
             ],
             "date": "11/05/1953",
             "location": "Reserva Natural de Flint"
-        },
-        "1486": {
-            "space": "temas inactivos",
-            "url": "/t1486-navegacion-de-temas",
-            "simpleTitle": "navegación de temas",
-            "creator": "Black Wave",
-            "replyCount": 0,
-            "posts": [
-                {
-                    "url": "r23554",
-                    "author": "Black Wave",
-                    "date": "01/10/2026",
-                    "words": 0
-                }
-            ],
-            "date": "",
-            "location": "Desconocida"
         }
     };
     const hardcodedBeans = [
@@ -173461,7 +175069,9 @@ const DBModule = (function () {
         await delay(2500); // Respiro al servidor para evitar el Error 429
         const response = await $.get(url);
         const $data = $(response);
-        const topicElements = $data.find('.topic').toArray();
+        // El bloque del header_table ("Memos & Guías": anuncios globales, anuncios y fijos) sale como
+        // .topicslist.announcement y se repite en cada foro: no es rol, así que no se lee.
+        const topicElements = $data.find('.topicslist:not(.announcement) .topic').toArray();
 
         for (let element of topicElements) {
             const $link = $(element).find('.topictitle');
