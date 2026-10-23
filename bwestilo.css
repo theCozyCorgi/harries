@@ -12610,14 +12610,22 @@ mark.bw-manifest-marca {
 }
 
 /* el ícono del dato (el animal, el signo…), como en las acciones: grande, opaco y flotando a la derecha */
-[data-panel="portada"] .bw-manifest-stat .game-icon {
+[data-panel="portada"] .bw-manifest-stat .bw-manifest-icono {
   position: absolute;
   right: 8px;
   top: 50%;
   transform: translateY(-50%);
-  font-size: 38px;
+  font-size: 32px;
+  line-height: 1;
   color: var(--mf-1);
   opacity: .35;
+}
+
+/* los signos del zodíaco son un carácter de texto, no un ícono de Font Awesome */
+.bw-manifest-glifo {
+  font-family: "Segoe UI Symbol", "Noto Sans Symbols", "DejaVu Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
 }
 
 [data-panel="portada"] .bw-manifest-stat strong span {
@@ -12625,41 +12633,76 @@ mark.bw-manifest-marca {
 }
 
 /* vista relaciones: una tarjeta por personaje. --rela es el color del grupo del otro personaje si está en el foro;
-   si no, el del autor */
+   si no, el del autor. Las tarjetas tienen ancho fijo y cuántas entran por fila depende del ancho del foro */
 .bw-manifest-relas {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  display: flex;
+  flex-wrap: wrap;
   gap: 10px;
-}
-
-.bw-manifest-relas[modelo="triple"] {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .bw-manifest-rela {
   --rela-color: var(--rela, var(--post-user, var(--mf-grupo)));
   position: relative;
   overflow: hidden;
+  flex: 1 1 260px;
   display: flex;
   flex-flow: column;
   gap: 8px;
   min-width: 0;
   padding: 12px 15px 15px;
   background: var(--mode-opacity-50);
-  border-left: 3px solid var(--rela-color);
-  border-radius: 0 5px 5px 0;
+  border-radius: 5px;
 }
 
-/* la imagen mantiene la proporción de la vieja (220×100 o 130×100): crece con la tarjeta pero no se recorta */
-.bw-manifest-rela-img {
-  aspect-ratio: 22 / 10;
-  margin: -12px -15px 4px;
-  background: var(--mode-back-90) center / cover no-repeat;
-  position: relative;
+/* modelo doble: imagen de 200×100 arriba, la tarjeta mide lo mismo que la imagen */
+.bw-manifest-relas[modelo="doble"] .bw-manifest-rela {
+  flex: 0 0 200px;
+  padding: 0 0 12px;
+}
+
+.bw-manifest-relas[modelo="doble"] .bw-manifest-rela > :not(.bw-manifest-rela-img) {
+  padding: 0 12px;
+}
+
+/* modelo triple: imagen de 100×100 al costado del nombre; el texto va debajo, a todo el ancho */
+.bw-manifest-relas[modelo="triple"] .bw-manifest-rela {
+  display: grid;
+  grid-template-columns: 100px minmax(0, 1fr);
+  grid-template-areas: "img head" "texto texto";
+  align-content: start;
+  align-items: center;
+  gap: 10px 12px;
+  padding: 0 0 12px;
 }
 
 .bw-manifest-relas[modelo="triple"] .bw-manifest-rela-img {
-  aspect-ratio: 13 / 10;
+  grid-area: img;
+}
+
+.bw-manifest-relas[modelo="triple"] .bw-manifest-rela-head {
+  grid-area: head;
+  padding-right: 12px;
+}
+
+.bw-manifest-relas[modelo="triple"] .bw-manifest-rela-texto {
+  grid-area: texto;
+  max-height: 120px;
+  padding: 0 12px;
+}
+
+/* la imagen, de tamaño fijo, con la línea del color de la relación debajo */
+.bw-manifest-rela-img {
+  position: relative;
+  box-sizing: border-box;
+  width: 200px;
+  height: 100px;
+  background: var(--mode-back-90) center / cover no-repeat;
+  border-bottom: 3px solid var(--rela-color);
+}
+
+.bw-manifest-relas[modelo="triple"] .bw-manifest-rela-img {
+  width: 100px;
+  height: 100px;
 }
 
 /* el mismo teñido que la portada */
@@ -12677,13 +12720,11 @@ mark.bw-manifest-marca {
   display: flex;
   flex-flow: column;
   gap: 4px;
-  padding-right: 40px;
 }
 
-.bw-manifest-relas[modelo="doble"] .bw-manifest-rela-head,
-.bw-manifest-relas[modelo="triple"] .bw-manifest-rela-head,
-.bw-manifest-relas[modelo="texto"] .bw-manifest-rela-head {
-  padding-right: 0;
+/* modelo iconos: lugar para el ícono a la derecha */
+.bw-manifest-relas[modelo="iconos"] .bw-manifest-rela-head {
+  padding-right: 45px;
 }
 
 .bw-manifest-rela-nombre {
@@ -12723,25 +12764,19 @@ mark.bw-manifest-marca {
 }
 
 /* modelo iconos: el ícono de la relación grande, opaco y flotando arriba a la derecha (como los datos de la portada) */
-.bw-manifest-rela > .game-icon {
+.bw-manifest-rela > .bw-manifest-icono {
   position: absolute;
-  top: 8px;
-  right: 10px;
-  font-size: 46px;
+  top: 12px;
+  right: 14px;
+  font-size: 34px;
+  line-height: 1;
   color: var(--rela-color);
   opacity: .45;
 }
 
-@media (max-width: 700px) {
-  .bw-manifest-relas[modelo="triple"] {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-}
-
 @media (max-width: 480px) {
-  .bw-manifest-relas,
-  .bw-manifest-relas[modelo="triple"] {
-    grid-template-columns: minmax(0, 1fr);
+  .bw-manifest-relas[modelo="doble"] .bw-manifest-rela {
+    flex: 1 1 200px;
   }
 }
 
