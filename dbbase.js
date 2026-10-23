@@ -174826,7 +174826,12 @@ const DBModule = (function () {
             "ene": "01", "feb": "02", "mar": "03", "abr": "04", "may": "05", "jun": "06",
             "jul": "07", "ago": "08", "sep": "09", "oct": "10", "nov": "11", "dic": "12",
             "enero": "01", "febrero": "02", "marzo": "03", "abril": "04", "mayo": "05", "junio": "06",
-            "julio": "07", "agosto": "08", "septiembre": "09", "octubre": "10", "noviembre": "11", "diciembre": "12"
+            "julio": "07", "agosto": "08", "septiembre": "09", "octubre": "10", "noviembre": "11", "diciembre": "12",
+            // Variantes: setiembre/sept/set y meses en inglés (las abreviaturas que coinciden con el español ya están arriba)
+            "setiembre": "09", "sept": "09", "set": "09",
+            "jan": "01", "apr": "04", "aug": "08", "dec": "12",
+            "january": "01", "february": "02", "march": "03", "april": "04", "june": "06",
+            "july": "07", "august": "08", "september": "09", "october": "10", "november": "11", "december": "12"
         };
 
         let match;
@@ -174844,13 +174849,32 @@ const DBModule = (function () {
         match = t.match(/\[(\d{4})\/(\d{2})\/(\d{2})\]/);
         if (match) return `${match[3]}/${match[2]}/${match[1]}`;
 
+        // Si no se reconoce ningún formato se devuelve el texto sin limpiar: scanTopicPosts compara contra el título original
+        const original = t;
+
+        // Limpieza previa: lo que escriben a mano en <fecha> trae variantes que no cambian la fecha
+        t = t
+            // Día de la semana al principio, solo si sigue una fecha completa (así "Mar 3" sigue siendo marzo)
+            .replace(/^(?:lunes|martes|mi[eé]rcoles|jueves|viernes|s[aá]bado|domingo|monday|tuesday|wednesday|thursday|friday|saturday|sunday|lun|mar|mi[eé]r?|jue|vie|s[aá]b|dom|mon|tue|wed|thu|fri|sat|sun)\.?,?\s+(?=\d{1,2}(?:\s*(?:de\s+)?[a-z]|[\/\-.]\d))/i, '')
+            // Ordinales: 1°, 1º, 1ro, 2do, 3rd, 4th...
+            .replace(/\b(\d{1,2})\s?(?:°|º|ª|ro|er|do|to|vo|no|mo|st|nd|rd|th)(?=[\s,.]|$)/gi, '$1')
+            // "del 1953" → "de 1953"
+            .replace(/\bdel\b/gi, 'de')
+            // Punto de abreviatura: "jun. 1953" → "jun 1953"
+            .replace(/([a-z])\.(?=[\s,]|$)/gi, '$1')
+            // Espacios alrededor de los separadores: "03 / 06 / 1953" → "03/06/1953"
+            .replace(/\s*([\/\-])\s*/g, '$1')
+            .replace(/(\d)\s*\.\s*(\d)/g, '$1.$2')
+            // Puntuación al final: "03/06/1953." o "03/06/1953,"
+            .replace(/[\s.,;:!]+$/, '');
+
         // Formato: Miér 04 Jun 2025...
         match = t.match(/^[a-záéí]{3,}\s+(\d{2})\s+([a-záéí]{3,})\s+(\d{4})/i);
         if (match) {
             dia = match[1].padStart(2, '0');
             mes = meses[match[2].toLowerCase().substring(0, 3)];
             anio = match[3];
-            return (dia && mes && anio) ? `${dia}/${mes}/${anio}` : t;
+            return (dia && mes && anio) ? `${dia}/${mes}/${anio}` : original;
         }
 
         // Formato: Sábado 26 Julio 1952
@@ -174859,7 +174883,7 @@ const DBModule = (function () {
             dia = match[1].padStart(2, '0');
             mes = meses[match[2].toLowerCase()];
             anio = match[3];
-            return (dia && mes && anio) ? `${dia}/${mes}/${anio}` : t;
+            return (dia && mes && anio) ? `${dia}/${mes}/${anio}` : original;
         }
 
         // Formato: 3 de Octubre (sin año → año actual)
@@ -174871,8 +174895,8 @@ const DBModule = (function () {
             if (mes) return `${dia}/${mes}/${anio}`;
         }
 
-        // Formato: 1952/09/07 → aaaa/mm/dd
-        match = t.match(/^(\d{4})[\/\-](\d{1,2})[\/\-](\d{1,2})$/);
+        // Formato: 1952/09/07 o 1952.09.07 → aaaa/mm/dd
+        match = t.match(/^(\d{4})[\/\-\.](\d{1,2})[\/\-\.](\d{1,2})$/);
         if (match) {
             anio = match[1];
             mes = match[2].padStart(2, '0');
@@ -174898,8 +174922,8 @@ const DBModule = (function () {
             if (mes) return `${dia}/${mes}/${anio}`;
         }
 
-        // Formato: 3.octubre.1952
-        match = t.match(/^(\d{1,2})\.([a-z]+)\.(\d{4})$/i);
+        // Formato: 3.octubre.1952, 03-jun-1953 o 03/junio/1953
+        match = t.match(/^(\d{1,2})[\.\/\-]([a-z]+)[\.\/\-](\d{4})$/i);
         if (match) {
             dia = match[1].padStart(2, '0');
             mes = meses[match[2].toLowerCase()];
@@ -174907,8 +174931,8 @@ const DBModule = (function () {
             if (mes) return `${dia}/${mes}/${anio}`;
         }
 
-        // Formato: 3/10/1952, 03/10/52 o 03.10.1952 (acepta punto final: 03/10/1952.)
-        match = t.match(/^(\d{1,2})[\/\-\.](\d{1,2})[\/\-\.](\d{2,4})\.?$/);
+        // Formato: 3/10/1952, 03/10/52 o 03.10.1952
+        match = t.match(/^(\d{1,2})[\/\-\.](\d{1,2})[\/\-\.](\d{2,4})$/);
         if (match) {
             dia = match[1].padStart(2, '0');
             mes = match[2].padStart(2, '0');
@@ -174943,12 +174967,12 @@ const DBModule = (function () {
             if (mes) return `${dia}/${mes}/${anio}`;
         }
 
-        // Formato: 20 de septiembre de 1952
-        match = t.match(/^(\d{1,2})\s+de\s+([a-z]+)\s+de\s+(\d{4})$/i);
+        // Formato: 20 de septiembre de 1952 o 20 de septiembre de 52 ("del" ya se limpió a "de")
+        match = t.match(/^(\d{1,2})\s+de\s+([a-z]+)\s+de\s+(\d{2}|\d{4})$/i);
         if (match) {
             dia = match[1].padStart(2, '0');
             mes = meses[match[2].toLowerCase()];
-            anio = match[3];
+            anio = match[3].length === 2 ? `19${match[3]}` : match[3];
             if (mes) return `${dia}/${mes}/${anio}`;
         }
 
@@ -175042,7 +175066,7 @@ const DBModule = (function () {
             if (dia && mes && anio) return `${dia}/${mes}/${anio}`;
         }
 
-        return t;
+        return original;
     }
 
     function sanitizeTitle(title) {
