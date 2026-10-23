@@ -5801,7 +5801,7 @@ const MissionsModule = (function () {
         },
 
         "triángulo hacia arriba cruzado por una línea": {
-          "visible": { "attr": { "val": "min" }, "know": { "alquimia": "10" }, "job": "invalid", "name": "invalid", }, "place": "revisar el espejo del cuarto",
+          "visible": { "attr": { "val": "min" }, "know": { "alquimia": "5" }, "job": "invalid", "name": "invalid", }, "place": "revisar el espejo del cuarto",
           "cont": '<span>El triángulo hacia arriba cruzado por una línea es la representación alquímica del aire.</span>',
         },
 
@@ -5821,7 +5821,7 @@ const MissionsModule = (function () {
         },
 
         "triángulo hacia arriba sin línea": {
-          "visible": { "attr": { "val": "min" }, "know": { "alquimia": "10" }, "job": "invalid", "name": "invalid", }, "place": "revisar chimenea",
+          "visible": { "attr": { "val": "min" }, "know": { "alquimia": "5" }, "job": "invalid", "name": "invalid", }, "place": "revisar chimenea",
           "cont": '<span>El triángulo hacia arriba sin línea pertenece al símbolo alquímico del fuego.</span>',
         },
 
@@ -5846,7 +5846,7 @@ const MissionsModule = (function () {
         },
 
         "triángulo hacia abajo cruzado por una línea": {
-          "visible": { "attr": { "val": "min" }, "know": { "alquimia": "10" }, "job": "invalid", "name": "invalid", }, "place": "investigar mesa",
+          "visible": { "attr": { "val": "min" }, "know": { "alquimia": "5" }, "job": "invalid", "name": "invalid", }, "place": "investigar mesa",
           "cont": '<span>El triángulo hacia abajo cruzado por una línea representa el símbolo alquímico de la tierra.</span>',
         },
 
