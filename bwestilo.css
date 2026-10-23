@@ -12654,10 +12654,22 @@ mark.bw-manifest-marca {
   border-radius: 5px;
 }
 
-/* modelo doble: imagen de 200×100 arriba, la tarjeta mide lo mismo que la imagen */
+/* modelo doble: imagen de 200×100 arriba. Grilla de hasta 3 columnas: cada una mide un tercio del ancho (o 200px si el
+   tercio es más chico), así tres tarjetas llenan la fila y una sola ocupa su tercio. En pantallas angostas entran 2 o 1 */
+.bw-manifest-relas[modelo="doble"] {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(max(200px, calc((100% - 20px) / 3)), 1fr));
+}
+
 .bw-manifest-relas[modelo="doble"] .bw-manifest-rela {
-  flex: 0 0 200px;
   padding: 0 0 12px;
+}
+
+/* la imagen crece con la tarjeta y mantiene la proporción 2:1, así no se recorta */
+.bw-manifest-relas[modelo="doble"] .bw-manifest-rela-img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 2 / 1;
 }
 
 .bw-manifest-relas[modelo="doble"] .bw-manifest-rela > :not(.bw-manifest-rela-img) {
@@ -12698,6 +12710,13 @@ mark.bw-manifest-marca {
   height: 100px;
   background: var(--mode-back-90) center / cover no-repeat;
   border-bottom: 3px solid var(--rela-color);
+}
+
+/* las imágenes al costado (triple y retrato) llevan la línea a la derecha, del lado del texto */
+.bw-manifest-relas[modelo="triple"] .bw-manifest-rela-img,
+.bw-manifest-relas[modelo="retrato"] .bw-manifest-rela-img {
+  border-bottom: none;
+  border-right: 3px solid var(--rela-color);
 }
 
 .bw-manifest-relas[modelo="triple"] .bw-manifest-rela-img {
@@ -12799,12 +12818,6 @@ mark.bw-manifest-marca {
   grid-area: texto;
   max-height: none;
   padding-bottom: 12px;
-}
-
-@media (max-width: 480px) {
-  .bw-manifest-relas[modelo="doble"] .bw-manifest-rela {
-    flex: 1 1 200px;
-  }
 }
 
 /* vista picspam: mosaico de nueve cuadradas (3 por fila) o diez apaisadas de 5:3 (5 por fila), como las viejas */
