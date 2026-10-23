@@ -12660,6 +12660,7 @@ mark.bw-manifest-marca {
 .bw-manifest-relas {
   display: flex;
   flex-wrap: wrap;
+  align-items: flex-start;
   gap: 10px;
 }
 
@@ -12723,6 +12724,14 @@ mark.bw-manifest-marca {
   grid-area: texto;
   max-height: 120px;
   padding: 0 12px;
+}
+
+/* sin texto, la tarjeta termina con la imagen (sin la fila vacía ni el espacio de abajo) */
+.bw-manifest-relas[modelo="triple"] .bw-manifest-rela.sin-texto,
+.bw-manifest-relas[modelo="retrato"] .bw-manifest-rela.sin-texto {
+  grid-template-rows: auto;
+  grid-template-areas: "img head";
+  padding-bottom: 0;
 }
 
 /* la imagen, de tamaño fijo, con la línea del color de la relación debajo */
