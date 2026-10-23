@@ -12469,6 +12469,120 @@ mark.bw-manifest-marca {
   }
 }
 
+/* vista portada: imagen del mismo tamaño que la .table-trunk vieja (450×320 o 220×320) y al lado la frase y el índice */
+.bw-manifest-portada {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.bw-manifest-portada-img {
+  flex: 0 1 450px;
+  height: 320px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+}
+
+.bw-manifest-portada[modelo="costado"] .bw-manifest-portada-img {
+  flex: 0 0 220px;
+}
+
+/* el mismo teñido que la portada vieja: la imagen en el color del personaje */
+.bw-manifest-portada-img:before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: var(--post-user, var(--mf-grupo));
+  backdrop-filter: grayscale(1) brightness(0.5);
+  mix-blend-mode: overlay;
+}
+
+.bw-manifest-portada-txt {
+  flex: 1 1 220px;
+  min-width: 0;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  gap: 15px;
+  padding: 15px;
+  background: var(--mode-opacity-50);
+  border-radius: 5px;
+}
+
+/* la frase, como la .trunk-quote de la portada vieja sin imagen */
+.bw-manifest-frase {
+  margin: 0;
+  font-weight: bold;
+  line-height: normal;
+  text-align: right;
+  color: var(--post-user);
+  text-shadow: 1px 1px 1px var(--mode-back-100);
+}
+
+.bw-manifest-indice-baul {
+  display: flex;
+  flex-flow: column;
+  gap: 4px;
+}
+
+/* (el fondo necesita !important: los links del manifiesto van sin fondo) */
+.bw-manifest .bw-manifest-indice-baul a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 9px 12px;
+  border-radius: 3px;
+  background: var(--mode-back-100) !important;
+  font: var(--style-link);
+  font-size: 10px;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+}
+
+.bw-manifest .bw-manifest-indice-baul a i {
+  width: 14px;
+  text-align: center;
+  color: var(--mf-1);
+}
+
+/* datos del personaje: cada caja mide lo que su texto (los largos quedan al final y ocupan más) y crece para llenar la fila */
+[data-panel="portada"] .bw-manifest-stats {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+[data-panel="portada"] .bw-manifest-stat {
+  flex: 1 1 auto;
+  min-width: 130px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* el valor es texto libre ("Neutral caótico"), así que corta línea en vez de quedar con "…" */
+[data-panel="portada"] .bw-manifest-stat strong {
+  font-size: 16px;
+  white-space: normal;
+  padding-right: 30px;
+}
+
+/* el ícono del dato (el animal, el signo…), como en las acciones: grande, opaco y flotando a la derecha */
+[data-panel="portada"] .bw-manifest-stat .game-icon {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 38px;
+  color: var(--mf-1);
+  opacity: .35;
+}
+
+[data-panel="portada"] .bw-manifest-stat strong span {
+  position: relative;
+}
+
 /* welcome */
 /* bienvenida: div class="bw-guide"> (backup/codes/welcome.js) */
 .bw-guide {
