@@ -12548,6 +12548,47 @@ mark.bw-manifest-marca {
   color: var(--mf-1);
 }
 
+/* modelo grande: la frase va encima de la imagen, como en la portada vieja */
+.bw-manifest-portada[modelo="grande"] .bw-manifest-portada-img {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+
+/* la frase sobre la imagen, como la .trunk-quote de la portada vieja con imagen */
+.bw-manifest-portada[modelo="grande"] .bw-manifest-portada-img .bw-manifest-frase {
+  position: relative;
+  text-align: center;
+  color: var(--color-text-100);
+  text-shadow: 1px 1px 1px var(--color-complementary-100);
+}
+
+/* al lado, solo el índice: etiquetas del color del personaje, como la .trunk-list vieja */
+.bw-manifest-portada[modelo="grande"] .bw-manifest-portada-txt {
+  justify-content: flex-start;
+  padding: 0;
+  background: none;
+}
+
+.bw-manifest-portada[modelo="grande"] .bw-manifest-indice-baul {
+  gap: 5px;
+}
+
+.bw-manifest .bw-manifest-portada[modelo="grande"] .bw-manifest-indice-baul a {
+  justify-content: space-between;
+  padding: 10px 12px;
+  background: var(--post-user, var(--mf-grupo)) !important;
+  color: var(--color-text-100) !important;
+  text-shadow: 1px 1px 1px var(--color-complementary-100);
+}
+
+.bw-manifest .bw-manifest-portada[modelo="grande"] .bw-manifest-indice-baul a i {
+  width: auto;
+  color: var(--color-text-100);
+}
+
 /* datos del personaje: cada caja mide lo que su texto (los largos quedan al final y ocupan más) y crece para llenar la fila */
 [data-panel="portada"] .bw-manifest-stats {
   display: flex;
@@ -12581,6 +12622,127 @@ mark.bw-manifest-marca {
 
 [data-panel="portada"] .bw-manifest-stat strong span {
   position: relative;
+}
+
+/* vista relaciones: una tarjeta por personaje. --rela es el color del grupo del otro personaje si está en el foro;
+   si no, el del autor */
+.bw-manifest-relas {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.bw-manifest-relas[modelo="triple"] {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.bw-manifest-rela {
+  --rela-color: var(--rela, var(--post-user, var(--mf-grupo)));
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-flow: column;
+  gap: 8px;
+  min-width: 0;
+  padding: 12px 15px 15px;
+  background: var(--mode-opacity-50);
+  border-left: 3px solid var(--rela-color);
+  border-radius: 0 5px 5px 0;
+}
+
+/* la imagen mantiene la proporción de la vieja (220×100 o 130×100): crece con la tarjeta pero no se recorta */
+.bw-manifest-rela-img {
+  aspect-ratio: 22 / 10;
+  margin: -12px -15px 4px;
+  background: var(--mode-back-90) center / cover no-repeat;
+  position: relative;
+}
+
+.bw-manifest-relas[modelo="triple"] .bw-manifest-rela-img {
+  aspect-ratio: 13 / 10;
+}
+
+/* el mismo teñido que la portada */
+.bw-manifest-rela-img:before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: var(--rela-color);
+  backdrop-filter: grayscale(1) brightness(0.6);
+  mix-blend-mode: overlay;
+}
+
+.bw-manifest-rela-head {
+  position: relative;
+  display: flex;
+  flex-flow: column;
+  gap: 4px;
+  padding-right: 40px;
+}
+
+.bw-manifest-relas[modelo="doble"] .bw-manifest-rela-head,
+.bw-manifest-relas[modelo="triple"] .bw-manifest-rela-head,
+.bw-manifest-relas[modelo="texto"] .bw-manifest-rela-head {
+  padding-right: 0;
+}
+
+.bw-manifest-rela-nombre {
+  font-family: var(--font-bold);
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  color: var(--mode-text-100);
+}
+
+.bw-manifest .bw-manifest-rela-nombre a {
+  font-weight: inherit;
+}
+
+/* el tipo de relación: etiqueta del color de la tarjeta */
+.bw-manifest-rela-tipo {
+  width: fit-content;
+  padding: 4px 8px;
+  border-radius: 3px;
+  background: var(--rela-color);
+  color: var(--color-text-100);
+  font: var(--style-link);
+  font-size: 9px;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px var(--color-complementary-100);
+}
+
+.bw-manifest-rela-texto {
+  position: relative;
+  max-height: 150px;
+  overflow: auto;
+  padding-right: 5px;
+  line-height: 1.45;
+  text-align: justify;
+}
+
+/* modelo iconos: el ícono de la relación grande, opaco y flotando arriba a la derecha (como los datos de la portada) */
+.bw-manifest-rela > .game-icon {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  font-size: 46px;
+  color: var(--rela-color);
+  opacity: .45;
+}
+
+@media (max-width: 700px) {
+  .bw-manifest-relas[modelo="triple"] {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 480px) {
+  .bw-manifest-relas,
+  .bw-manifest-relas[modelo="triple"] {
+    grid-template-columns: minmax(0, 1fr);
+  }
 }
 
 /* welcome */
