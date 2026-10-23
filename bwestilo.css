@@ -12548,13 +12548,36 @@ mark.bw-manifest-marca {
   color: var(--mf-1);
 }
 
-/* modelo grande: la frase va encima de la imagen, como en la portada vieja */
+/* modelo grande: imagen y links siempre uno al lado del otro. La imagen mide hasta 450px y se achica (con su proporción
+   de 450×320) para que los links tengan al menos 170px; en el celular van uno abajo del otro */
+.bw-manifest-portada[modelo="grande"] {
+  display: grid;
+  grid-template-columns: minmax(0, 450px) minmax(170px, 1fr);
+  align-items: start;
+}
+
+/* la frase va encima de la imagen, como en la portada vieja */
 .bw-manifest-portada[modelo="grande"] .bw-manifest-portada-img {
   box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 45 / 32;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 15px;
+}
+
+/* sin links al lado, la imagen ocupa su lugar sola */
+.bw-manifest-portada[modelo="grande"] .bw-manifest-portada-img:only-child {
+  grid-column: 1 / -1;
+  max-width: 450px;
+}
+
+@media (max-width: 520px) {
+  .bw-manifest-portada[modelo="grande"] {
+    grid-template-columns: minmax(0, 1fr);
+  }
 }
 
 /* la frase sobre la imagen, como la .trunk-quote de la portada vieja con imagen */
