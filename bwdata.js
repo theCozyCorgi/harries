@@ -5786,17 +5786,17 @@ const MissionsModule = (function () {
         },
 
         "revisar fotografías": {
-          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "matrimonial",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ingresar al cuarto matrimonial",
           "cont": '<span>Al observar las fotografías se puede observar diversas imágenes de unas niñas que juegan y de Hadiya que sonríe a quién toma las fotos. Morian nunca está con ellas, pero sí se puede apreciar la figura de Soly que se une a la familia.</span>',
         },
 
         "acariciar al gato": {
-          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "matrimonial",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ingresar al cuarto matrimonial",
           "cont": '<span>Cuando se acercan al gato, este les gruñe en respuesta y sale corriendo hasta esconderse debajo del tocador.</span>',
         },
 
         "revisar el espejo del cuarto": {
-          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "matrimonial",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ingresar al cuarto matrimonial",
           "cont": '<span>El espejo parece tener grabado algo. Aprovechando al suiciedad el mismo, alguien lo ha escrito. Hay un triángulo hacia arriba con una línea que lo cruza a la mitad y unas letras que no se terminan de comprender.</span>',
         },
 
