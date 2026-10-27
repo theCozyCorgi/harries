@@ -13525,26 +13525,26 @@ mark.bw-manifest-marca {
   text-align: left;
 }
 
-/* diario de a bordo: estadísticas públicas del foro en una hoja del portal, <div class="bw-logbook"> (backup/codes/logbook.js).
-   Adentro va una caja .bw-manifest: reusa todo el estilo del manifiesto; acá solo cambia la paleta y el pie */
+/* diario de a bordo: estadísticas generales del foro en una hoja del portal, <div class="bw-logbook"> (backup/codes/logbook.js).
+   Adentro va una caja .bw-manifest para reusar el estilo de las secciones del manifiesto; acá cambian la paleta,
+   el encabezado (el título de las wikis) y se saca la caja de afuera, porque es una página y no un post */
 .bw-logbook {
-  /* todo en la gama del azul (va en el portal, no en un post: no hay color de personaje). Tonos para el modo oscuro;
-     el claro los cambia abajo. --lb-a1..6: escala ordenada (barras, el mejor mes); --lb-1..8: tortas, distintos entre sí */
-  --lb-a1: oklch(0.74 0.11 250);
-  --lb-a2: oklch(0.67 0.10 252);
-  --lb-a3: oklch(0.60 0.09 255);
-  --lb-a4: oklch(0.53 0.08 258);
-  --lb-a5: oklch(0.47 0.07 260);
-  --lb-a6: oklch(0.41 0.06 262);
-  --lb-1: oklch(0.70 0.12 252);
-  --lb-2: oklch(0.85 0.07 225);
-  --lb-3: oklch(0.50 0.12 265);
-  --lb-4: oklch(0.64 0.09 215);
-  --lb-5: oklch(0.78 0.08 280);
-  --lb-6: oklch(0.40 0.08 245);
-  --lb-7: oklch(0.58 0.06 235);
-  --lb-8: oklch(0.92 0.03 240);
-  /* tiempo de respuesta: del verde (rápido) al rojo (lento) */
+  /* paleta "índigo apagado" (modo oscuro; el claro la cambia abajo). --lb-a1..6: escala ordenada (filas, barras, el
+     mejor mes); --lb-1..8: tortas, distintos entre sí; --lb-r1..4: tiempo de respuesta, del verde al rojo */
+  --lb-a1: oklch(0.740 0.060 272);
+  --lb-a2: oklch(0.674 0.055 272);
+  --lb-a3: oklch(0.608 0.050 272);
+  --lb-a4: oklch(0.542 0.046 272);
+  --lb-a5: oklch(0.476 0.041 272);
+  --lb-a6: oklch(0.410 0.036 272);
+  --lb-1: oklch(0.700 0.072 272);
+  --lb-2: oklch(0.850 0.043 247);
+  --lb-3: oklch(0.500 0.072 284);
+  --lb-4: oklch(0.640 0.058 237);
+  --lb-5: oklch(0.780 0.050 300);
+  --lb-6: oklch(0.400 0.050 265);
+  --lb-7: oklch(0.580 0.036 255);
+  --lb-8: oklch(0.920 0.018 260);
   --lb-r1: oklch(0.66 0.13 150);
   --lb-r2: oklch(0.78 0.13 115);
   --lb-r3: oklch(0.72 0.14 65);
@@ -13554,6 +13554,74 @@ mark.bw-manifest-marca {
   width: 100%;
   max-width: 900px;
   margin: 0 auto;
+}
+
+/* modo claro: los mismos tonos, más oscuros para que se lean sobre el fondo claro */
+body.light-mode .bw-logbook {
+  --lb-a1: oklch(0.420 0.060 272);
+  --lb-a2: oklch(0.490 0.055 272);
+  --lb-a3: oklch(0.560 0.050 272);
+  --lb-a4: oklch(0.630 0.046 272);
+  --lb-a5: oklch(0.700 0.041 272);
+  --lb-a6: oklch(0.770 0.036 272);
+  --lb-1: oklch(0.520 0.072 272);
+  --lb-2: oklch(0.670 0.043 247);
+  --lb-3: oklch(0.320 0.072 284);
+  --lb-4: oklch(0.460 0.058 237);
+  --lb-5: oklch(0.600 0.050 300);
+  --lb-6: oklch(0.220 0.050 265);
+  --lb-7: oklch(0.400 0.036 255);
+  --lb-8: oklch(0.740 0.018 260);
+  --lb-r1: oklch(0.55 0.13 150);
+  --lb-r2: oklch(0.66 0.13 115);
+  --lb-r3: oklch(0.62 0.14 60);
+  --lb-r4: oklch(0.52 0.15 25);
+}
+
+/* sin la caja de afuera del manifiesto (bordes de color, fondo y relleno): las secciones van sueltas en la página.
+   La rampa del manifiesto (--mf-*: filas y barras por mes) pasa a ser la escala de la paleta */
+.bw-logbook > .bw-manifest {
+  --mf-1: var(--lb-a1);
+  --mf-2: var(--lb-a2);
+  --mf-3: var(--lb-a3);
+  --mf-4: var(--lb-a4);
+  --mf-5: var(--lb-a5);
+  --mf-6: var(--lb-a6);
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+/* encabezado: el título de las wikis (.wiki-title.generic-boxtitle viene del CSS del panel) y la antigüedad del foro */
+.bw-logbook-cabecera {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 6px;
+  padding: 30px 0 18px;
+  text-align: center;
+}
+
+.bw-logbook-antiguedad {
+  margin: 0;
+  font-family: var(--font-letter);
+  font-size: 17px;
+  color: var(--mode-back-60);
+}
+
+/* las cajas, tarjetas y tortas ocupan todo el ancho (auto-fit: sin columnas vacías al final) */
+.bw-logbook .bw-manifest-stats {
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+}
+
+/* en el diario los subtítulos de las cajas pueden ir en dos renglones (fechas largas como "22 de diciembre de 2025") */
+.bw-logbook .bw-manifest-stat small {
+  white-space: normal;
+}
+
+/* el ícono de grupo (flaticon) se salía por la izquierda y la etiqueta lo cortaba */
+.bw-logbook .bw-manifest-tipo > span:first-child {
+  padding-left: 2px;
 }
 
 .bw-logbook-foot {
@@ -13574,10 +13642,10 @@ mark.bw-manifest-marca {
   gap: 12px 20px;
 }
 
-/* récords de temas: etiqueta, número y el título del tema (sin link ni autor) */
+/* tarjetas: récords de temas y capítulos (etiqueta, dato y una línea de detalle) */
 .bw-logbook-records {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 6px;
 }
 
@@ -13598,18 +13666,46 @@ mark.bw-manifest-marca {
   color: var(--mode-text-100);
 }
 
-.bw-logbook-record > span:last-child {
-  font-size: 12px;
-  overflow-wrap: anywhere;
-}
-
 /* el dato de la tarjeta cuando es un nombre (los capítulos): fuente normal */
 .bw-logbook-record strong.is-text {
   font-family: var(--font-primary);
   font-weight: 500;
 }
 
-/* torta: un anillo (conic-gradient con los tonos de la rampa) y su leyenda al lado */
+.bw-logbook-record > span:last-child,
+.bw-logbook-record > div > span:last-child {
+  font-size: 12px;
+  overflow-wrap: anywhere;
+}
+
+/* tarjeta con ícono (los otros capítulos): el ícono a la izquierda y el texto al lado */
+.bw-logbook-record.con-icono {
+  flex-flow: row;
+  align-items: center;
+  gap: 12px;
+}
+
+.bw-logbook-record.con-icono > i {
+  display: grid;
+  place-items: center;
+  flex: 0 0 auto;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: var(--tipo, var(--mf-1));
+  color: var(--color-text-100);
+  font-size: 18px;
+}
+
+.bw-logbook-record.con-icono > div {
+  display: flex;
+  flex-flow: column;
+  gap: 3px;
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+/* torta: un anillo (conic-gradient) y su leyenda al lado */
 .bw-logbook-torta {
   display: flex;
   flex-flow: column;
@@ -13624,7 +13720,8 @@ mark.bw-manifest-marca {
 }
 
 .bw-logbook-torta-anillo {
-  flex: 0 0 96px;
+  flex: 0 0 auto;
+  width: 96px;
   height: 96px;
   border-radius: 50%;
   /* agujero del medio: la torta queda como anillo */
@@ -13662,97 +13759,45 @@ mark.bw-manifest-marca {
   white-space: nowrap;
 }
 
-/* varias tortas una al lado de la otra (los personajes) */
+/* varias tortas en una fila (los personajes): cada una con el anillo arriba y la leyenda abajo */
 .bw-logbook-tortas {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-  gap: 14px 20px;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 14px 18px;
 }
 
-/* respuestas: la torta a la izquierda y las cajas de mediana, promedio e histórico a la derecha; en el celular, una abajo de la otra */
-.bw-logbook-resp {
+.bw-logbook-tortas .bw-logbook-torta-cuerpo {
+  flex-flow: column;
+  align-items: stretch;
+}
+
+.bw-logbook-tortas .bw-logbook-torta-anillo {
+  align-self: center;
+  width: 110px;
+  height: 110px;
+}
+
+/* panel: una torta y, al lado, sus cajas (tiempo de respuesta, temas por tipo); el título va arriba, a todo el ancho */
+.bw-logbook-panel {
   display: grid;
-  grid-template-columns: minmax(250px, 1fr) minmax(0, 1fr);
+  grid-template-columns: minmax(250px, 1fr) minmax(0, 1.3fr);
   align-items: center;
-  gap: 12px 20px;
+  gap: 12px 24px;
 }
 
-.bw-logbook-resp .bw-manifest-stats {
-  grid-template-columns: 1fr;
+.bw-logbook-panel .bw-manifest-stats {
+  grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
 }
 
 @media (max-width: 600px) {
-  .bw-logbook-resp {
+  .bw-logbook-panel {
     grid-template-columns: 1fr;
   }
-
-  .bw-logbook-resp .bw-manifest-stats {
-    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
-  }
 }
 
-/* modo claro: los mismos azules, más oscuros para que se lean sobre el fondo claro */
-body.light-mode .bw-logbook {
-  --lb-a1: oklch(0.42 0.12 255);
-  --lb-a2: oklch(0.49 0.11 255);
-  --lb-a3: oklch(0.56 0.10 255);
-  --lb-a4: oklch(0.63 0.09 255);
-  --lb-a5: oklch(0.70 0.07 255);
-  --lb-a6: oklch(0.77 0.05 255);
-  --lb-1: oklch(0.50 0.13 252);
-  --lb-2: oklch(0.72 0.09 225);
-  --lb-3: oklch(0.35 0.11 265);
-  --lb-4: oklch(0.58 0.10 215);
-  --lb-5: oklch(0.62 0.10 280);
-  --lb-6: oklch(0.28 0.07 245);
-  --lb-7: oklch(0.45 0.06 235);
-  --lb-8: oklch(0.80 0.04 240);
-  --lb-r1: oklch(0.55 0.13 150);
-  --lb-r2: oklch(0.66 0.13 115);
-  --lb-r3: oklch(0.62 0.14 60);
-  --lb-r4: oklch(0.52 0.15 25);
-}
-
-/* la rampa del manifiesto (--mf-*: filas, barras por mes) pasa a ser la escala azul */
-.bw-logbook .bw-manifest {
-  --mf-1: var(--lb-a1);
-  --mf-2: var(--lb-a2);
-  --mf-3: var(--lb-a3);
-  --mf-4: var(--lb-a4);
-  --mf-5: var(--lb-a5);
-  --mf-6: var(--lb-a6);
-}
-
-/* tarjeta con ícono (los capítulos): la imagen a la izquierda y el texto al lado */
-.bw-logbook-record.con-icono {
-  flex-flow: row;
-  align-items: center;
-  gap: 12px;
-}
-
-.bw-logbook-record.con-icono > i {
-  display: grid;
-  place-items: center;
-  flex: 0 0 auto;
-  width: 42px;
-  height: 42px;
-  border-radius: 50%;
-  background: var(--tipo, var(--mf-1));
-  color: var(--color-text-100);
-  font-size: 18px;
-}
-
-.bw-logbook-record.con-icono > div {
-  display: flex;
-  flex-flow: column;
-  gap: 3px;
-  flex: 1 1 auto;
-  min-width: 0;
-}
-
-/* avance del capítulo en juego */
+/* barra de avance */
 .bw-logbook-barra {
-  display: block;
+  display: flex;
   height: 6px;
   margin-top: 3px;
   border-radius: 3px;
@@ -13763,25 +13808,34 @@ body.light-mode .bw-logbook {
 .bw-logbook-barra i {
   display: block;
   height: 100%;
-  border-radius: 3px;
   background: var(--tipo, var(--mf-1));
 }
 
-/* en el diario los subtítulos de las cajas pueden ir en dos renglones (fechas largas como "22 de diciembre de 2025") */
-.bw-logbook .bw-manifest-stat small {
-  white-space: normal;
+/* por estado (el capítulo en juego): completadas, en curso y por empezar, cada una con su color */
+.bw-logbook-barra.estados i.hecho,
+.bw-logbook-capitulo-datos .hecho i {
+  background: var(--lb-a1);
 }
 
-/* el capítulo en juego: lo principal del sistema de misiones. Fondo del encabezado, ícono grande y barra de avance */
+.bw-logbook-barra.estados i.curso,
+.bw-logbook-capitulo-datos .curso i {
+  background: var(--lb-a4);
+}
+
+.bw-logbook-barra.estados i.pendiente,
+.bw-logbook-capitulo-datos .pendiente i {
+  background: var(--mode-back-80);
+}
+
+/* el capítulo en juego: lo principal del sistema de misiones. Mismo fondo que las cajas, ícono grande y barra por estado */
 .bw-logbook-capitulo {
   display: flex;
   align-items: center;
   gap: 22px;
   padding: 22px 24px;
   border-radius: 3px;
-  background: linear-gradient(rgb(12 12 15 / 60%), rgb(12 12 15 / 80%)), var(--image-background, none) center / cover no-repeat, var(--mode-back-90);
-  background-blend-mode: luminosity;
-  color: var(--color-text-100);
+  background: var(--mode-back-100);
+  color: var(--mode-text-100);
 }
 
 .bw-logbook-capitulo > i {
@@ -13792,8 +13846,8 @@ body.light-mode .bw-logbook {
   height: 84px;
   border-radius: 50%;
   background: var(--mf-1);
+  color: var(--color-text-100);
   font-size: 38px;
-  box-shadow: 0 0 0 4px rgb(255 255 255 / 8%);
 }
 
 .bw-logbook-capitulo-info {
@@ -13802,11 +13856,6 @@ body.light-mode .bw-logbook {
   gap: 7px;
   flex: 1 1 auto;
   min-width: 0;
-}
-
-.bw-logbook-capitulo-info .bw-manifest-stat-label {
-  color: var(--color-text-100);
-  opacity: .7;
 }
 
 .bw-logbook-capitulo-info > strong {
@@ -13826,13 +13875,8 @@ body.light-mode .bw-logbook {
 
 .bw-logbook-capitulo-avance .bw-logbook-barra {
   flex: 1 1 auto;
-  height: 9px;
+  height: 10px;
   margin: 0;
-  background: rgb(255 255 255 / 12%);
-}
-
-.bw-logbook-capitulo-avance .bw-logbook-barra i {
-  background: var(--mf-1);
 }
 
 .bw-logbook-capitulo-avance b {
@@ -13847,6 +13891,19 @@ body.light-mode .bw-logbook {
   font-size: 12px;
 }
 
+.bw-logbook-capitulo-datos > span {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+/* el color de cada estado, como en la barra */
+.bw-logbook-capitulo-datos > span i {
+  width: 9px;
+  height: 9px;
+  border-radius: 2px;
+}
+
 .bw-logbook-capitulo-datos b {
   font-family: var(--font-code);
   font-size: 14px;
@@ -13854,7 +13911,7 @@ body.light-mode .bw-logbook {
 
 .bw-logbook-capitulo-tipos {
   font-size: 11px;
-  opacity: .75;
+  color: var(--mode-back-70);
 }
 
 @media (max-width: 480px) {
