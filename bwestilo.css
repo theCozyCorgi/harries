@@ -13550,10 +13550,8 @@ mark.bw-manifest-marca {
   --lb-r3: oklch(0.72 0.14 65);
   --lb-r4: oklch(0.60 0.15 25);
   --post-user: var(--lb-a3);
+  /* el ancho y los márgenes son los de .generic-content (la caja de las wikis, que le pone logbook.js): no se pisan acá */
   box-sizing: border-box;
-  width: 100%;
-  max-width: 900px;
-  margin: 0 auto;
 }
 
 /* modo claro: los mismos tonos, más oscuros para que se lean sobre el fondo claro */
@@ -13598,7 +13596,8 @@ body.light-mode .bw-logbook {
   flex-flow: column;
   align-items: center;
   gap: 0;
-  padding: 30px 0 18px;
+  /* sin relleno arriba: el de .generic-content ya da el mismo aire que en las wikis */
+  padding: 0 0 14px;
   text-align: center;
 }
 
