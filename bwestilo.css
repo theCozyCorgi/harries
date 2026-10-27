@@ -13646,6 +13646,14 @@ body.light-mode .bw-logbook {
   gap: 12px 20px;
 }
 
+/* cuando cada lado es un bloque (los dos gráficos por mes): título y gráfico con el mismo espacio que en la sección */
+.bw-logbook-dos > div {
+  display: flex;
+  flex-flow: column;
+  gap: 10px;
+  min-width: 0;
+}
+
 /* tarjetas: récords de temas y capítulos (etiqueta, dato y una línea de detalle) */
 .bw-logbook-records {
   display: grid;
