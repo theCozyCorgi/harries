@@ -175299,6 +175299,74 @@ const DBModule = (function () {
         if (nextUrl) await scanTopicPosts(nextUrl, originalTitle);
     }
 
+    // Une listas de temas (las últimas ganan) y de dados (sin duplicar por post) y repara posts en objeto o repetidos.
+    // La usan getUnifiedData (todo) y getArchivedData (solo lo cerrado y archivado en este archivo).
+    function mergeData(topicSources, diceSources) {
+        // --- FIX DADOS DUPLICADOS ---
+        const allDices = diceSources.flatMap(l => Array.isArray(l) ? l : []);
+        const uniqueDicesMap = new Map();
+
+        allDices.forEach(d => {
+            if (d && d.url) {
+                let postId = '';
+
+                // Si viene del formato viejo o de la propiedad posts ("r10015")
+                if (d.url.startsWith('r')) {
+                    postId = d.url.replace('r', '');
+                }
+                // Si viene del dinámico nuevo ("15#10015" o "/t15-tema#10015")
+                else if (d.url.includes('#')) {
+                    postId = d.url.split('#')[1].replace('p', '');
+                } else {
+                    postId = d.url;
+                }
+
+                // Forzamos a que todos los dados usen tu formato exacto
+                d.url = 'r' + postId;
+
+                // Usamos SOLO el número puro del post para que sea matemáticamente imposible duplicarlos
+                uniqueDicesMap.set(postId, d);
+            }
+        });
+
+        // --- FILTRO ANTI-DUPLICADOS DE TEMAS ---
+        const mergedTopicsRaw = Object.assign({}, ...topicSources);
+        const cleanTopics = {};
+
+        for (let key in mergedTopicsRaw) {
+            const tData = mergedTopicsRaw[key];
+            if (!tData || !tData.url) continue;
+
+            // FIX ERROR CRÍTICO: Faltaba el [1] para extraer la ID limpia
+            const match = tData.url.match(/\/t(\d+)/);
+            const trueKey = match ? match[1] : key;
+
+            // Si ya existía, lo sobreescribe en lugar de crear uno nuevo duplicado
+            cleanTopics[trueKey] = tData;
+
+            // Reparación de Objetos a Arrays
+            if (cleanTopics[trueKey].posts && !Array.isArray(cleanTopics[trueKey].posts)) {
+                cleanTopics[trueKey].posts = Object.values(cleanTopics[trueKey].posts);
+            } else if (!cleanTopics[trueKey].posts) {
+                cleanTopics[trueKey].posts = [];
+            }
+
+            // Cachés viejas pueden traer el primer post repetido por página: nos quedamos con la primera aparición
+            const seenPosts = new Set();
+            cleanTopics[trueKey].posts = cleanTopics[trueKey].posts.filter(p => {
+                if (!p || !p.url) return true;
+                if (seenPosts.has(p.url)) return false;
+                seenPosts.add(p.url);
+                return true;
+            });
+        }
+
+        return {
+            topics: cleanTopics,
+            dices: Array.from(uniqueDicesMap.values())
+        };
+    }
+
     return {
         normalizeDate,
 
@@ -175495,6 +175563,18 @@ const DBModule = (function () {
             }
         },
 
+        // Solo lo cerrado que ya está archivado en este archivo (hardcodedTopics + hardcodedDices), sin la caché
+        // del navegador ni los temas inactivos: es lo mismo para todos, también para los invitados.
+        getArchivedData: function () {
+            return mergeData([hardcodedTopics], [hardcodedDices]);
+        },
+
+        // Cuántas zonas lleva escaneadas el navegador desde el último reinicio de la caché.
+        getScanProgress: function () {
+            const hecho = Math.min(parseInt(localStorage.getItem(INDEX_KEY)) || 0, forums.length);
+            return { hecho, total: forums.length, completo: hecho >= forums.length };
+        },
+
         getUnifiedData: function () {
             let currentTopics = dynamicData.topics || {};
             let currentDices = dynamicData.dices || [];
@@ -175510,73 +175590,8 @@ const DBModule = (function () {
                 }
             }
 
-            const safeCurrentDices = Array.isArray(currentDices) ? currentDices : [];
-            const safeHardDices = Array.isArray(hardcodedDices) ? hardcodedDices : [];
-
-            // --- FIX DADOS DUPLICADOS ---
-            const allDices = [...safeHardDices, ...safeCurrentDices];
-            const uniqueDicesMap = new Map();
-
-            allDices.forEach(d => {
-                if (d && d.url) {
-                    let postId = '';
-
-                    // Si viene del formato viejo o de la propiedad posts ("r10015")
-                    if (d.url.startsWith('r')) {
-                        postId = d.url.replace('r', '');
-                    }
-                    // Si viene del dinámico nuevo ("15#10015" o "/t15-tema#10015")
-                    else if (d.url.includes('#')) {
-                        postId = d.url.split('#')[1].replace('p', '');
-                    } else {
-                        postId = d.url;
-                    }
-
-                    // Forzamos a que todos los dados usen tu formato exacto
-                    d.url = 'r' + postId;
-
-                    // Usamos SOLO el número puro del post para que sea matemáticamente imposible duplicarlos
-                    uniqueDicesMap.set(postId, d);
-                }
-            });
-
-            // --- FILTRO ANTI-DUPLICADOS DE TEMAS ---
             // Inactivos primero: si un tema congelado termina cerrado y hardcodeado en el pensadero, gana el pensadero
-            const mergedTopicsRaw = { ...hardcodedInactiveTopics, ...hardcodedTopics, ...currentTopics };
-            const cleanTopics = {};
-
-            for (let key in mergedTopicsRaw) {
-                const tData = mergedTopicsRaw[key];
-                if (!tData || !tData.url) continue;
-
-                // FIX ERROR CRÍTICO: Faltaba el [1] para extraer la ID limpia
-                const match = tData.url.match(/\/t(\d+)/);
-                const trueKey = match ? match[1] : key;
-
-                // Si ya existía, lo sobreescribe en lugar de crear uno nuevo duplicado
-                cleanTopics[trueKey] = tData;
-
-                // Reparación de Objetos a Arrays
-                if (cleanTopics[trueKey].posts && !Array.isArray(cleanTopics[trueKey].posts)) {
-                    cleanTopics[trueKey].posts = Object.values(cleanTopics[trueKey].posts);
-                } else if (!cleanTopics[trueKey].posts) {
-                    cleanTopics[trueKey].posts = [];
-                }
-
-                // Cachés viejas pueden traer el primer post repetido por página: nos quedamos con la primera aparición
-                const seenPosts = new Set();
-                cleanTopics[trueKey].posts = cleanTopics[trueKey].posts.filter(p => {
-                    if (!p || !p.url) return true;
-                    if (seenPosts.has(p.url)) return false;
-                    seenPosts.add(p.url);
-                    return true;
-                });
-            }
-
-            return {
-                topics: cleanTopics,
-                dices: Array.from(uniqueDicesMap.values())
-            };
+            return mergeData([hardcodedInactiveTopics, hardcodedTopics, currentTopics], [hardcodedDices, currentDices]);
         },
 
         scanExtraTopic: async function (url, spaceName = "Zona Especial") {

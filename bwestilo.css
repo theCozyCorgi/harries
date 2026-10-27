@@ -13524,3 +13524,347 @@ mark.bw-manifest-marca {
   line-height: 1.6;
   text-align: left;
 }
+
+/* diario de a bordo: estadísticas públicas del foro en una hoja del portal, <div class="bw-logbook"> (backup/codes/logbook.js).
+   Adentro va una caja .bw-manifest: reusa todo el estilo del manifiesto; acá solo cambia la paleta y el pie */
+.bw-logbook {
+  /* todo en la gama del azul (va en el portal, no en un post: no hay color de personaje). Tonos para el modo oscuro;
+     el claro los cambia abajo. --lb-a1..6: escala ordenada (barras, el mejor mes); --lb-1..8: tortas, distintos entre sí */
+  --lb-a1: oklch(0.74 0.11 250);
+  --lb-a2: oklch(0.67 0.10 252);
+  --lb-a3: oklch(0.60 0.09 255);
+  --lb-a4: oklch(0.53 0.08 258);
+  --lb-a5: oklch(0.47 0.07 260);
+  --lb-a6: oklch(0.41 0.06 262);
+  --lb-1: oklch(0.70 0.12 252);
+  --lb-2: oklch(0.85 0.07 225);
+  --lb-3: oklch(0.50 0.12 265);
+  --lb-4: oklch(0.64 0.09 215);
+  --lb-5: oklch(0.78 0.08 280);
+  --lb-6: oklch(0.40 0.08 245);
+  --lb-7: oklch(0.58 0.06 235);
+  --lb-8: oklch(0.92 0.03 240);
+  /* tiempo de respuesta: del verde (rápido) al rojo (lento) */
+  --lb-r1: oklch(0.66 0.13 150);
+  --lb-r2: oklch(0.78 0.13 115);
+  --lb-r3: oklch(0.72 0.14 65);
+  --lb-r4: oklch(0.60 0.15 25);
+  --post-user: var(--lb-a3);
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.bw-logbook-foot {
+  margin: 0;
+  font-size: 11px;
+  text-align: center;
+  color: var(--mode-back-70);
+}
+
+.bw-logbook-foot span {
+  display: inline-block;
+}
+
+/* dos listas de filas una al lado de la otra (grupos por personajes y por temas); en el celular, una abajo de la otra */
+.bw-logbook-dos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 12px 20px;
+}
+
+/* récords de temas: etiqueta, número y el título del tema (sin link ni autor) */
+.bw-logbook-records {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 6px;
+}
+
+.bw-logbook-record {
+  display: flex;
+  flex-flow: column;
+  gap: 3px;
+  min-width: 0;
+  padding: 10px 12px;
+  background: var(--mode-back-100);
+  border-radius: 3px;
+}
+
+.bw-logbook-record strong {
+  font-family: var(--font-code);
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--mode-text-100);
+}
+
+.bw-logbook-record > span:last-child {
+  font-size: 12px;
+  overflow-wrap: anywhere;
+}
+
+/* el dato de la tarjeta cuando es un nombre (los capítulos): fuente normal */
+.bw-logbook-record strong.is-text {
+  font-family: var(--font-primary);
+  font-weight: 500;
+}
+
+/* torta: un anillo (conic-gradient con los tonos de la rampa) y su leyenda al lado */
+.bw-logbook-torta {
+  display: flex;
+  flex-flow: column;
+  gap: 8px;
+  min-width: 0;
+}
+
+.bw-logbook-torta-cuerpo {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.bw-logbook-torta-anillo {
+  flex: 0 0 96px;
+  height: 96px;
+  border-radius: 50%;
+  /* agujero del medio: la torta queda como anillo */
+  -webkit-mask: radial-gradient(circle, transparent 52%, #000 53%);
+  mask: radial-gradient(circle, transparent 52%, #000 53%);
+}
+
+.bw-logbook-torta-leyenda {
+  display: flex;
+  flex-flow: column;
+  gap: 4px;
+  flex: 1 1 auto;
+  min-width: 0;
+  font-size: 12px;
+}
+
+.bw-logbook-torta-leyenda > span {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.bw-logbook-torta-leyenda i {
+  flex: 0 0 9px;
+  height: 9px;
+  border-radius: 2px;
+  background: var(--tipo);
+}
+
+.bw-logbook-torta-leyenda b {
+  margin-left: auto;
+  padding-left: 8px;
+  font-family: var(--font-code);
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+/* varias tortas una al lado de la otra (los personajes) */
+.bw-logbook-tortas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 14px 20px;
+}
+
+/* respuestas: la torta a la izquierda y las cajas de mediana, promedio e histórico a la derecha; en el celular, una abajo de la otra */
+.bw-logbook-resp {
+  display: grid;
+  grid-template-columns: minmax(250px, 1fr) minmax(0, 1fr);
+  align-items: center;
+  gap: 12px 20px;
+}
+
+.bw-logbook-resp .bw-manifest-stats {
+  grid-template-columns: 1fr;
+}
+
+@media (max-width: 600px) {
+  .bw-logbook-resp {
+    grid-template-columns: 1fr;
+  }
+
+  .bw-logbook-resp .bw-manifest-stats {
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  }
+}
+
+/* modo claro: los mismos azules, más oscuros para que se lean sobre el fondo claro */
+body.light-mode .bw-logbook {
+  --lb-a1: oklch(0.42 0.12 255);
+  --lb-a2: oklch(0.49 0.11 255);
+  --lb-a3: oklch(0.56 0.10 255);
+  --lb-a4: oklch(0.63 0.09 255);
+  --lb-a5: oklch(0.70 0.07 255);
+  --lb-a6: oklch(0.77 0.05 255);
+  --lb-1: oklch(0.50 0.13 252);
+  --lb-2: oklch(0.72 0.09 225);
+  --lb-3: oklch(0.35 0.11 265);
+  --lb-4: oklch(0.58 0.10 215);
+  --lb-5: oklch(0.62 0.10 280);
+  --lb-6: oklch(0.28 0.07 245);
+  --lb-7: oklch(0.45 0.06 235);
+  --lb-8: oklch(0.80 0.04 240);
+  --lb-r1: oklch(0.55 0.13 150);
+  --lb-r2: oklch(0.66 0.13 115);
+  --lb-r3: oklch(0.62 0.14 60);
+  --lb-r4: oklch(0.52 0.15 25);
+}
+
+/* la rampa del manifiesto (--mf-*: filas, barras por mes) pasa a ser la escala azul */
+.bw-logbook .bw-manifest {
+  --mf-1: var(--lb-a1);
+  --mf-2: var(--lb-a2);
+  --mf-3: var(--lb-a3);
+  --mf-4: var(--lb-a4);
+  --mf-5: var(--lb-a5);
+  --mf-6: var(--lb-a6);
+}
+
+/* tarjeta con ícono (los capítulos): la imagen a la izquierda y el texto al lado */
+.bw-logbook-record.con-icono {
+  flex-flow: row;
+  align-items: center;
+  gap: 12px;
+}
+
+.bw-logbook-record.con-icono > i {
+  display: grid;
+  place-items: center;
+  flex: 0 0 auto;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: var(--tipo, var(--mf-1));
+  color: var(--color-text-100);
+  font-size: 18px;
+}
+
+.bw-logbook-record.con-icono > div {
+  display: flex;
+  flex-flow: column;
+  gap: 3px;
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+/* avance del capítulo en juego */
+.bw-logbook-barra {
+  display: block;
+  height: 6px;
+  margin-top: 3px;
+  border-radius: 3px;
+  background: var(--mode-back-90);
+  overflow: hidden;
+}
+
+.bw-logbook-barra i {
+  display: block;
+  height: 100%;
+  border-radius: 3px;
+  background: var(--tipo, var(--mf-1));
+}
+
+/* en el diario los subtítulos de las cajas pueden ir en dos renglones (fechas largas como "22 de diciembre de 2025") */
+.bw-logbook .bw-manifest-stat small {
+  white-space: normal;
+}
+
+/* el capítulo en juego: lo principal del sistema de misiones. Fondo del encabezado, ícono grande y barra de avance */
+.bw-logbook-capitulo {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  padding: 22px 24px;
+  border-radius: 3px;
+  background: linear-gradient(rgb(12 12 15 / 60%), rgb(12 12 15 / 80%)), var(--image-background, none) center / cover no-repeat, var(--mode-back-90);
+  background-blend-mode: luminosity;
+  color: var(--color-text-100);
+}
+
+.bw-logbook-capitulo > i {
+  display: grid;
+  place-items: center;
+  flex: 0 0 auto;
+  width: 84px;
+  height: 84px;
+  border-radius: 50%;
+  background: var(--mf-1);
+  font-size: 38px;
+  box-shadow: 0 0 0 4px rgb(255 255 255 / 8%);
+}
+
+.bw-logbook-capitulo-info {
+  display: flex;
+  flex-flow: column;
+  gap: 7px;
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.bw-logbook-capitulo-info .bw-manifest-stat-label {
+  color: var(--color-text-100);
+  opacity: .7;
+}
+
+.bw-logbook-capitulo-info > strong {
+  font-family: var(--font-bold);
+  font-size: 28px;
+  font-weight: normal;
+  line-height: 1.05;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+}
+
+.bw-logbook-capitulo-avance {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.bw-logbook-capitulo-avance .bw-logbook-barra {
+  flex: 1 1 auto;
+  height: 9px;
+  margin: 0;
+  background: rgb(255 255 255 / 12%);
+}
+
+.bw-logbook-capitulo-avance .bw-logbook-barra i {
+  background: var(--mf-1);
+}
+
+.bw-logbook-capitulo-avance b {
+  font-family: var(--font-code);
+  font-size: 18px;
+}
+
+.bw-logbook-capitulo-datos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 16px;
+  font-size: 12px;
+}
+
+.bw-logbook-capitulo-datos b {
+  font-family: var(--font-code);
+  font-size: 14px;
+}
+
+.bw-logbook-capitulo-tipos {
+  font-size: 11px;
+  opacity: .75;
+}
+
+@media (max-width: 480px) {
+  .bw-logbook-capitulo {
+    flex-flow: column;
+    text-align: center;
+    padding: 20px 16px;
+  }
+
+  .bw-logbook-capitulo-datos {
+    justify-content: center;
+  }
+}
