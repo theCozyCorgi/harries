@@ -76573,6 +76573,143 @@ const DBModule = (function () {
             "date": "11/04/1953",
             "location": "Dryburgh Abbey"
         },
+        "1344": {
+            "space": "el pensadero",
+            "url": "/t1344-1953-04-18-practica-a-map-of-the-stars",
+            "simpleTitle": "practica: a map of the stars",
+            "creator": "Findlay McCrory",
+            "replyCount": 20,
+            "posts": [
+                {
+                    "url": "r20921",
+                    "author": "Findlay McCrory",
+                    "date": "19/07/2026",
+                    "words": 316
+                },
+                {
+                    "url": "r20922",
+                    "author": "The Familiars",
+                    "date": "19/07/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20927",
+                    "author": "Hazel Edevane",
+                    "date": "20/07/2026",
+                    "words": 289
+                },
+                {
+                    "url": "r20928",
+                    "author": "The Familiars",
+                    "date": "20/07/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r20955",
+                    "author": "Findlay McCrory",
+                    "date": "21/07/2026",
+                    "words": 300
+                },
+                {
+                    "url": "r20956",
+                    "author": "The Familiars",
+                    "date": "21/07/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21066",
+                    "author": "Hazel Edevane",
+                    "date": "28/07/2026",
+                    "words": 225
+                },
+                {
+                    "url": "r21067",
+                    "author": "The Familiars",
+                    "date": "28/07/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21074",
+                    "author": "Findlay McCrory",
+                    "date": "29/07/2026",
+                    "words": 283
+                },
+                {
+                    "url": "r21075",
+                    "author": "The Familiars",
+                    "date": "29/07/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21395",
+                    "author": "Hazel Edevane",
+                    "date": "03/08/2026",
+                    "words": 246
+                },
+                {
+                    "url": "r21507",
+                    "author": "Findlay McCrory",
+                    "date": "05/08/2026",
+                    "words": 279
+                },
+                {
+                    "url": "r21508",
+                    "author": "The Familiars",
+                    "date": "05/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21579",
+                    "author": "Hazel Edevane",
+                    "date": "08/08/2026",
+                    "words": 232
+                },
+                {
+                    "url": "r21588",
+                    "author": "Hazel Edevane",
+                    "date": "08/08/2026",
+                    "words": 225
+                },
+                {
+                    "url": "r21589",
+                    "author": "Hazel Edevane",
+                    "date": "08/08/2026",
+                    "words": 246
+                },
+                {
+                    "url": "r21621",
+                    "author": "Findlay McCrory",
+                    "date": "09/08/2026",
+                    "words": 315
+                },
+                {
+                    "url": "r21738",
+                    "author": "Hazel Edevane",
+                    "date": "12/08/2026",
+                    "words": 211
+                },
+                {
+                    "url": "r22656",
+                    "author": "Findlay McCrory",
+                    "date": "07/09/2026",
+                    "words": 300
+                },
+                {
+                    "url": "r23444",
+                    "author": "Hazel Edevane",
+                    "date": "27/09/2026",
+                    "words": 203
+                },
+                {
+                    "url": "r23881",
+                    "author": "Findlay McCrory",
+                    "date": "07/10/2026",
+                    "words": 258
+                }
+            ],
+            "date": "18/04/1953",
+            "location": "Torre de Astronomía"
+        },
         "1361": {
             "space": "el pensadero",
             "url": "/t1361-1953-05-19-interescolares-mahoutokoro-vs-hogwarts",
@@ -77524,6 +77661,161 @@ const DBModule = (function () {
                     "url": "r23529",
                     "author": "Black Wave",
                     "date": "28/09/2026",
+                    "words": 68
+                }
+            ],
+            "date": "16/05/1953",
+            "location": "Lago Negro"
+        },
+        "1400": {
+            "space": "el pensadero",
+            "url": "/t1400-1953-05-16-evento-duetos-estelares-ksenia-y-asteria",
+            "simpleTitle": "evento: duetos estelares - ksenia y asteria",
+            "creator": "Black Wave",
+            "replyCount": 23,
+            "posts": [
+                {
+                    "url": "r21871",
+                    "author": "Black Wave",
+                    "date": "16/08/2026",
+                    "words": 162
+                },
+                {
+                    "url": "r21932",
+                    "author": "Asteria C. Lestrange",
+                    "date": "18/08/2026",
+                    "words": 191
+                },
+                {
+                    "url": "r21933",
+                    "author": "The Familiars",
+                    "date": "18/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22699",
+                    "author": "Ksenia D. Demidova",
+                    "date": "09/09/2026",
+                    "words": 274
+                },
+                {
+                    "url": "r22700",
+                    "author": "The Familiars",
+                    "date": "09/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r23048",
+                    "author": "Asteria C. Lestrange",
+                    "date": "18/09/2026",
+                    "words": 171
+                },
+                {
+                    "url": "r23049",
+                    "author": "The Familiars",
+                    "date": "18/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r23071",
+                    "author": "Ksenia D. Demidova",
+                    "date": "18/09/2026",
+                    "words": 193
+                },
+                {
+                    "url": "r23072",
+                    "author": "The Familiars",
+                    "date": "18/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r23158",
+                    "author": "Asteria C. Lestrange",
+                    "date": "20/09/2026",
+                    "words": 191
+                },
+                {
+                    "url": "r23159",
+                    "author": "The Familiars",
+                    "date": "20/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r23614",
+                    "author": "Ksenia D. Demidova",
+                    "date": "01/10/2026",
+                    "words": 156
+                },
+                {
+                    "url": "r23615",
+                    "author": "The Familiars",
+                    "date": "01/10/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r23784",
+                    "author": "Asteria C. Lestrange",
+                    "date": "05/10/2026",
+                    "words": 160
+                },
+                {
+                    "url": "r23785",
+                    "author": "The Familiars",
+                    "date": "05/10/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r24124",
+                    "author": "Ksenia D. Demidova",
+                    "date": "13/10/2026",
+                    "words": 165
+                },
+                {
+                    "url": "r24125",
+                    "author": "The Familiars",
+                    "date": "13/10/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r24402",
+                    "author": "Asteria C. Lestrange",
+                    "date": "18/10/2026",
+                    "words": 116
+                },
+                {
+                    "url": "r24403",
+                    "author": "The Familiars",
+                    "date": "18/10/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r24512",
+                    "author": "Ksenia D. Demidova",
+                    "date": "21/10/2026",
+                    "words": 171
+                },
+                {
+                    "url": "r24513",
+                    "author": "The Familiars",
+                    "date": "21/10/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r24716",
+                    "author": "Asteria C. Lestrange",
+                    "date": "25/10/2026",
+                    "words": 123
+                },
+                {
+                    "url": "r24717",
+                    "author": "The Familiars",
+                    "date": "25/10/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r24741",
+                    "author": "Black Wave",
+                    "date": "25/10/2026",
                     "words": 68
                 }
             ],
@@ -162096,6 +162388,420 @@ const DBModule = (function () {
             "url": "r24127",
             "simpleTitle": "evento: duetos estelares - thyme y jasper",
             "space": "el pensadero"
+        },
+        {
+            "pitcher": "Asteria C. Lestrange",
+            "spread": [
+                5
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "vuelo en pareja"
+            ],
+            "knowledge": [
+                "vuelo"
+            ],
+            "type": [
+                "quidditch, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Asteria C. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"vuelo en pareja\" (5)</strong><span>El vuelo es a una buena velocidad. Se demora 4 turnos en llegar al objetivo deseado.</span></span></div></div></div>",
+            "url": "r21933",
+            "simpleTitle": "evento: duetos estelares - ksenia y asteria",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Ksenia D. Demidova",
+            "spread": [
+                10,
+                6
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "flipendo",
+                "confringo"
+            ],
+            "knowledge": [
+                "dcao",
+                "dcao"
+            ],
+            "type": [
+                "maleficio, ofensivo",
+                "maldición, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Ksenia D. Demidova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"flipendo\" (10)</strong><span>El oponente es derribado y lanzado al suelo. Adiciona <em>+3</em> (75% del conocimiento en DCAO) en el daño.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"confringo\" (6)</strong><span>La explosión es menor y apenas causa daño. Adiciona <em>+1</em> (25% del conocimiento en DCAO) en el daño.</span></span></div></div></div>",
+            "url": "r22700",
+            "simpleTitle": "evento: duetos estelares - ksenia y asteria",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Asteria C. Lestrange",
+            "spread": [
+                19,
+                19
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "pivotao aereo",
+                "vuelo en pareja"
+            ],
+            "knowledge": [
+                "vuelo",
+                "vuelo"
+            ],
+            "type": [
+                "quidditch, defensivo, sin magia",
+                "quidditch, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Asteria C. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"pivotao aereo\" (19)</strong><span>Cambia el rumbo noventa grados, pudiendo esquivar grandes ataques. Adiciona +19 en defensa y +1 en turnos para llegar al objetivo.</span></span><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #2 \"vuelo en pareja\" (19)</strong><span>Vuelo perfecto. Se requieren 3 turnos para llegar al objetivo deseado.</span></span></div></div></div>",
+            "url": "r23049",
+            "simpleTitle": "evento: duetos estelares - ksenia y asteria",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Ksenia D. Demidova",
+            "spread": [
+                8,
+                8
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "flipendo",
+                "flipendo"
+            ],
+            "knowledge": [
+                "dcao",
+                "dcao"
+            ],
+            "type": [
+                "maleficio, ofensivo",
+                "maleficio, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Ksenia D. Demidova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"flipendo\" (8)</strong><span>El oponente es empujado hacia atrás y puede tambalearse. Adiciona <em>+2</em> (50% del conocimiento en DCAO) en el daño.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"flipendo\" (8)</strong><span>El oponente es empujado hacia atrás y puede tambalearse. Adiciona <em>+2</em> (50% del conocimiento en DCAO) en el daño.</span></span></div></div></div>",
+            "url": "r23072",
+            "simpleTitle": "evento: duetos estelares - ksenia y asteria",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Asteria C. Lestrange",
+            "spread": [
+                12,
+                14
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "pivotao aereo",
+                "vuelo en pareja"
+            ],
+            "knowledge": [
+                "vuelo",
+                "vuelo"
+            ],
+            "type": [
+                "quidditch, defensivo, sin magia",
+                "quidditch, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Asteria C. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"pivotao aereo\" (12)</strong><span>Cambia el rumbo noventa grados, pudiendo esquivar grandes ataques. Adiciona +14 en defensa y +1 en turnos para llegar al objetivo.</span></span><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #2 \"vuelo en pareja\" (14)</strong><span>Vuelo perfecto. Se requieren 3 turnos para llegar al objetivo deseado.</span></span></div></div></div>",
+            "url": "r23159",
+            "simpleTitle": "evento: duetos estelares - ksenia y asteria",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Ksenia D. Demidova",
+            "spread": [
+                15,
+                7
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "flipendo",
+                "expulso"
+            ],
+            "knowledge": [
+                "dcao",
+                "dcao"
+            ],
+            "type": [
+                "maleficio, ofensivo",
+                "maldición, defensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Ksenia D. Demidova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"flipendo\" (15)</strong><span>El oponente es derribado y lanzado al suelo. Adiciona <em>+3</em> (75% del conocimiento en DCAO) en el daño.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"expulso\" (7)</strong><span>El objetivo siente una leve ráfaga de aire sin mayor efecto. Adiciona +1 de Defensa.</span></span></div></div></div>",
+            "url": "r23615",
+            "simpleTitle": "evento: duetos estelares - ksenia y asteria",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Asteria C. Lestrange",
+            "spread": [
+                11,
+                7
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "pivotao aereo",
+                "vuelo en pareja"
+            ],
+            "knowledge": [
+                "vuelo",
+                "vuelo"
+            ],
+            "type": [
+                "quidditch, defensivo, sin magia",
+                "quidditch, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Asteria C. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"pivotao aereo\" (11)</strong><span>Cambia el rumbo noventa grados, pudiendo esquivar grandes ataques. Adiciona +13 en defensa y +1 en turnos para llegar al objetivo.</span></span><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #2 \"vuelo en pareja\" (7)</strong><span>El vuelo es a una buena velocidad. Se demora 4 turnos en llegar al objetivo deseado.</span></span></div></div></div>",
+            "url": "r23785",
+            "simpleTitle": "evento: duetos estelares - ksenia y asteria",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Ksenia D. Demidova",
+            "spread": [
+                8,
+                19
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "flipendo",
+                "flipendo"
+            ],
+            "knowledge": [
+                "dcao",
+                "dcao"
+            ],
+            "type": [
+                "maleficio, ofensivo",
+                "maleficio, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Ksenia D. Demidova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"flipendo\" (8)</strong><span>El oponente es empujado hacia atrás y puede tambalearse. Adiciona <em>+2</em> (50% del conocimiento en DCAO) en el daño.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"flipendo\" (19)</strong><span>El oponente es derribado y lanzado al suelo. Adiciona <em>+3</em> (75% del conocimiento en DCAO) en el daño.</span></span></div></div></div>",
+            "url": "r24125",
+            "simpleTitle": "evento: duetos estelares - ksenia y asteria",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Asteria C. Lestrange",
+            "spread": [
+                10,
+                11
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "pivotao aereo",
+                "vuelo en pareja"
+            ],
+            "knowledge": [
+                "vuelo",
+                "vuelo"
+            ],
+            "type": [
+                "quidditch, defensivo, sin magia",
+                "quidditch, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Asteria C. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"pivotao aereo\" (10)</strong><span>Cambia el rumbo noventa grados, pudiendo esquivar grandes ataques. Adiciona +12 en defensa y +1 en turnos para llegar al objetivo.</span></span><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #2 \"vuelo en pareja\" (11)</strong><span>Vuelo perfecto. Se requieren 3 turnos para llegar al objetivo deseado.</span></span></div></div></div>",
+            "url": "r24403",
+            "simpleTitle": "evento: duetos estelares - ksenia y asteria",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Ksenia D. Demidova",
+            "spread": [
+                17,
+                18
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "flipendo",
+                "flipendo"
+            ],
+            "knowledge": [
+                "dcao",
+                "dcao"
+            ],
+            "type": [
+                "maleficio, ofensivo",
+                "maleficio, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Ksenia D. Demidova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"flipendo\" (17)</strong><span>El oponente es derribado y lanzado al suelo. Adiciona <em>+3</em> (75% del conocimiento en DCAO) en el daño.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"flipendo\" (18)</strong><span>El oponente es derribado y lanzado al suelo. Adiciona <em>+3</em> (75% del conocimiento en DCAO) en el daño.</span></span></div></div></div>",
+            "url": "r24513",
+            "simpleTitle": "evento: duetos estelares - ksenia y asteria",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Asteria C. Lestrange",
+            "spread": [
+                10,
+                8
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "pivotao aereo",
+                "vuelo en pareja"
+            ],
+            "knowledge": [
+                "vuelo",
+                "vuelo"
+            ],
+            "type": [
+                "quidditch, defensivo, sin magia",
+                "quidditch, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Asteria C. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"pivotao aereo\" (10)</strong><span>Cambia el rumbo noventa grados, pudiendo esquivar grandes ataques. Adiciona +12 en defensa y +1 en turnos para llegar al objetivo.</span></span><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #2 \"vuelo en pareja\" (8)</strong><span>El vuelo es a una buena velocidad. Se demora 4 turnos en llegar al objetivo deseado.</span></span></div></div></div>",
+            "url": "r24717",
+            "simpleTitle": "evento: duetos estelares - ksenia y asteria",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Findlay McCrory",
+            "spread": [
+                6
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "caelum manuscriptum"
+            ],
+            "knowledge": [
+                "astronomía"
+            ],
+            "type": [
+                "encantamiento, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Findlay McCrory ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"astronomía\"><strong>Resultado  #1 \"caelum manuscriptum\" (6)</strong><span>Representación básica pero funcional.</span></span></div></div></div>",
+            "url": "r20922",
+            "simpleTitle": "practica: a map of the stars",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Hazel Edevane",
+            "spread": [
+                9
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "noctis luminis"
+            ],
+            "knowledge": [
+                "astronomía"
+            ],
+            "type": [
+                "encantamiento, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Hazel Edevane ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"astronomía\"><strong>Resultado  #1 \"noctis luminis\" (9)</strong><span>Se logra reducir algunas fuentes de luz artificial.</span></span></div></div></div>",
+            "url": "r20928",
+            "simpleTitle": "practica: a map of the stars",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Findlay McCrory",
+            "spread": [
+                2
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "caelum manuscriptum"
+            ],
+            "knowledge": [
+                "astronomía"
+            ],
+            "type": [
+                "encantamiento, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Findlay McCrory ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"astronomía\"><strong>Resultado  #1 \"caelum manuscriptum\" (2)</strong><span>Representación básica pero funcional.</span></span></div></div></div>",
+            "url": "r20956",
+            "simpleTitle": "practica: a map of the stars",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Hazel Edevane",
+            "spread": [
+                2
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "oculus stellarum"
+            ],
+            "knowledge": [
+                "astronomía"
+            ],
+            "type": [
+                "encantamiento, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Hazel Edevane ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"astronomía\"><strong>Resultado  #1 \"oculus stellarum\" (2)</strong><span>La visión mejora hasta que puede ver cuerpos celestes con gran detalle.</span></span></div></div></div>",
+            "url": "r21067",
+            "simpleTitle": "practica: a map of the stars",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Findlay McCrory",
+            "spread": [
+                12
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "luminis sidereum"
+            ],
+            "knowledge": [
+                "astronomía"
+            ],
+            "type": [
+                "encantamiento, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Findlay McCrory ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"astronomía\"><strong>Resultado  #1 \"luminis sidereum\" (12)</strong><span>Amplifica significativamente la luz de la estrella sin alterar su entorno.</span></span></div></div></div>",
+            "url": "r21075",
+            "simpleTitle": "practica: a map of the stars",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Findlay McCrory",
+            "spread": [
+                16
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "luminis sidereum"
+            ],
+            "knowledge": [
+                "astronomía"
+            ],
+            "type": [
+                "encantamiento, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Findlay McCrory ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"astronomía\"><strong>Resultado  #1 \"luminis sidereum\" (16)</strong><span>Amplifica significativamente la luz de la estrella sin alterar su entorno.</span></span></div></div></div>",
+            "url": "r21508",
+            "simpleTitle": "practica: a map of the stars",
+            "space": "el pensadero"
         }
     ];
     const hardcodedInactiveTopics = {
@@ -169482,6 +170188,41 @@ const DBModule = (function () {
             "date": "03/03/1952",
             "location": "Páramos de York"
         },
+        "1266": {
+            "space": "temas inactivos",
+            "url": "/t1266-privado-paperwork-destiny-egl",
+            "simpleTitle": "paperwork & destiny » egl",
+            "creator": "",
+            "replyCount": 3,
+            "posts": [
+                {
+                    "url": "r19012",
+                    "author": "Invitado",
+                    "date": "26/05/2026",
+                    "words": 227
+                },
+                {
+                    "url": "r19468",
+                    "author": "Elysia G. Lestrange",
+                    "date": "01/06/2026",
+                    "words": 171
+                },
+                {
+                    "url": "r19932",
+                    "author": "Invitado",
+                    "date": "15/06/2026",
+                    "words": 314
+                },
+                {
+                    "url": "r21004",
+                    "author": "Elysia G. Lestrange",
+                    "date": "25/07/2026",
+                    "words": 301
+                }
+            ],
+            "date": "09/03/1953",
+            "location": "Departamento de seguridad mágica"
+        },
         "1273": {
             "space": "temas inactivos",
             "url": "/t1273-1953-03-21-sonrisas-problematicas",
@@ -169737,6 +170478,35 @@ const DBModule = (function () {
             ],
             "date": "27/04/1953",
             "location": "Biblioteca de Hogwarts"
+        },
+        "1342": {
+            "space": "temas inactivos",
+            "url": "/t1342-d-diggory-ni-con-un-rebano-de-ovejas",
+            "simpleTitle": "ni con un rebaño de ovejas",
+            "creator": "Hermes Rosier",
+            "replyCount": 2,
+            "posts": [
+                {
+                    "url": "r20859",
+                    "author": "Hermes Rosier",
+                    "date": "18/07/2026",
+                    "words": 368
+                },
+                {
+                    "url": "r21021",
+                    "author": "Invitado",
+                    "date": "26/07/2026",
+                    "words": 700
+                },
+                {
+                    "url": "r21084",
+                    "author": "Hermes Rosier",
+                    "date": "29/07/2026",
+                    "words": 312
+                }
+            ],
+            "date": "14/04/1953",
+            "location": "Aula de Estudios Muggles"
         },
         "1351": {
             "space": "temas inactivos",
