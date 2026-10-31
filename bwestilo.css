@@ -3722,7 +3722,7 @@ userdata[target="banner"] {
 #cozy-swap .cozy-swap__action:hover,
 #cozy-swap .cozy-swap__action:focus-visible {
   background: var(--color-neutral-100);
-  color: var(--cs-fg);
+  color: var(--color-text-100);
 }
 
 #cozy-swap .cozy-swap__tooltip,
