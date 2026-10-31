@@ -176795,6 +176795,9 @@ const DBModule = (function () {
         },
 
         init: async function () {
+            // Una sola vez por página: lo llama dbbase.js solo y, mientras siga activo, también stats.js
+            if (this.iniciado) { return; }
+            this.iniciado = true;
             // Borra las cachés y los índices de versiones anteriores
             Object.keys(localStorage).forEach(key => {
                 if ((key.startsWith('blackwave_') && key !== CACHE_KEY) || (key.startsWith('current_index_blackwave_') && key !== INDEX_KEY)) {
@@ -177043,6 +177046,13 @@ const DBModule = (function () {
         }
     };
 })();
+
+// Arranque de la base (antes vivía en stats.js, que se va a eliminar)
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', function () { DBModule.init(); });
+} else {
+    DBModule.init();
+}
 
 // === ARCHIVO DE backup/data/auxiliary.js (recordsModule) ===
 const archivedMoney = [
