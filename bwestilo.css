@@ -3676,8 +3676,8 @@ userdata[target="banner"] {
   --cs-danger: var(--validation-failed);
   --cs-success: var(--validation-passed);
   --cs-on-danger: var(--color-text-100);
-  --cs-tooltip-bg: var(--color-bold-100);
-  --cs-tooltip-fg: var(--color-text-100);
+  --cs-tooltip-bg: #000000;
+  --cs-tooltip-fg: #ffffff;
   --cs-status-bg: var(--color-bold-100);
   --cs-status-fg: var(--color-text-100);
   --cs-status-radius: 5px;
@@ -3733,7 +3733,7 @@ userdata[target="banner"] {
 
 #cozy-swap .cozy-swap__tooltip {
   border-radius: 4px;
-  color: var(--cs-user-color, var(--cs-tooltip-fg));
+  color: var(--cs-tooltip-fg);
 }
 
 #cozy-swap .cozy-swap__status {
