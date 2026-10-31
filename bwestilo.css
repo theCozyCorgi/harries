@@ -3348,7 +3348,7 @@ userdata[target="banner"] {
   --cs-avatar-radius: 50%;
   --cs-avatar-radius-hover: 30%;
   --cs-avatar-ratio: 1;
-  --cs-icon-size: calc(var(--cs-size) * .45);
+  --cs-icon-size: calc(var(--cs-size) * .30);
   --cs-offset: 16px;
   --cs-z: 9999;
   --cs-font: inherit;
@@ -3490,7 +3490,7 @@ userdata[target="banner"] {
   height: var(--cs-icon-size);
 }
 
-.cozy-swap__remove .cozy-swap__icon { --cs-icon-size: 12px; }
+.cozy-swap__remove .cozy-swap__icon { --cs-icon-size: 8px; }
 
 .cozy-swap__account.is-broken .cozy-swap__avatar,
 .cozy-swap__account.is-broken .cozy-swap__initial {
