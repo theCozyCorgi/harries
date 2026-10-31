@@ -3338,6 +3338,90 @@ userdata[target="banner"] {
 }
 
 /*** ------------------------------- ***/
+/*** COZY SWAP --------------------- ***/
+/*** Multicuentas sobre el footer -- ***/
+#cozy-swap.cozy-swap {
+  --cs-size: 40px;
+  --cs-gap: 6px;
+  --cs-padding: var(--gap-size, 16px);
+  --cs-radius: 5px;
+  --cs-avatar-ratio: 300 / 480;
+  --cs-avatar-radius: 6px;
+  --cs-avatar-radius-hover: 3px;
+
+  --cs-bg: var(--mode-back-100);
+  --cs-fg: var(--mode-text-100);
+  --cs-muted: var(--color-text-100);
+  --cs-surface: var(--mode-back-80);
+  --cs-accent: var(--mode-back-60);
+  --cs-danger: var(--validation-failed);
+  --cs-success: var(--validation-passed);
+  --cs-on-danger: var(--color-text-100);
+  --cs-tooltip-bg: var(--color-bold-100);
+  --cs-tooltip-fg: var(--color-text-100);
+  --cs-status-bg: var(--color-bold-100);
+  --cs-status-fg: var(--color-text-100);
+  --cs-status-radius: 5px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: var(--wrap);
+  margin: 100px auto 50px;
+  background: var(--background-soft-gradient);
+  box-shadow: none;
+  font: 300 12px/1.4 var(--font-primary);
+}
+
+#cozy-swap .cozy-swap__accounts {
+  flex-wrap: wrap;
+}
+
+#cozy-swap .cozy-swap__account {
+  background: var(--cs-surface);
+  outline: 1px solid color-mix(in srgb, var(--cs-user-color, transparent) 45%, transparent);
+  outline-offset: 2px;
+  transition: border-radius var(--cs-speed), outline-color var(--cs-speed);
+}
+
+#cozy-swap .cozy-swap__account:hover,
+#cozy-swap .cozy-swap__account:focus-visible {
+  box-shadow: none;
+  outline: 2px solid var(--cs-user-color, var(--cs-accent));
+}
+
+#cozy-swap .cozy-swap__account.is-active {
+  box-shadow: none;
+  outline: 2px solid var(--cs-accent);
+}
+
+#cozy-swap .cozy-swap__action {
+  background: var(--cs-surface);
+  color: var(--cs-muted);
+}
+
+#cozy-swap .cozy-swap__action:hover,
+#cozy-swap .cozy-swap__action:focus-visible {
+  background: var(--color-neutral-100);
+  color: var(--cs-fg);
+}
+
+#cozy-swap .cozy-swap__tooltip,
+#cozy-swap .cozy-swap__forget {
+  font: var(--style-link);
+  text-transform: uppercase;
+}
+
+#cozy-swap .cozy-swap__tooltip {
+  border-radius: 4px;
+  color: var(--cs-user-color, var(--cs-tooltip-fg));
+}
+
+#cozy-swap .cozy-swap__status {
+  font: 300 12px/1.4 var(--font-primary);
+}
+
+/*** ------------------------------- ***/
 /*** SWITCHEROO - Par Monomer ------ ***/
 /*** Gestionnaire de multicompte --- ***/
 .switcheroo,
@@ -4592,6 +4676,19 @@ code br,
 
 .character-plus [target="causa"]:before {
   content: 'Causa de sospecha';
+}
+
+/* campos nuevos de la plantilla (2026-10-27); los tres de arriba quedan para las fichas ya publicadas */
+.character-plus [target="conocimiento-clave"]:before {
+  content: 'Conocimiento clave';
+}
+
+.character-plus [target="puertas-trama"]:before {
+  content: 'Puertas de entrada';
+}
+
+.character-plus [target="participacion-trama"]:before {
+  content: 'Participación en tramas';
 }
 
 .character-plus [target="apellido-historia"]:before {
@@ -12043,6 +12140,8 @@ mark.bw-manifest-marca {
 .bw-manifest .estado-desconocido { --estado: var(--mode-back-70); }
 .bw-manifest .aviso-amarillo { --estado: var(--validation-warning); }
 .bw-manifest .aviso-rojo { --estado: var(--validation-failed); }
+/* naranja: a mitad de camino entre el aviso y el error del foro */
+.bw-manifest .aviso-naranja { --estado: color-mix(in oklch, var(--validation-warning), var(--validation-failed)); }
 
 .bw-manifest-grupo-head > span i {
   margin-right: 6px;
@@ -12176,6 +12275,35 @@ mark.bw-manifest-marca {
 }
 
 .bw-manifest-aviso.rojo {
+  background: var(--validation-failed);
+}
+
+.bw-manifest-aviso.naranja {
+  background: color-mix(in oklch, var(--validation-warning), var(--validation-failed));
+}
+
+/* aviso de actividad para la próxima limpieza, debajo de las cajitas de la cronología */
+.bw-manifest-limpieza {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-top: 6px;
+  padding: 10px 12px;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.bw-manifest-limpieza i {
+  padding-top: 2px;
+}
+
+.bw-manifest-limpieza.amarillo {
+  background: var(--validation-warning);
+}
+
+.bw-manifest-limpieza.rojo {
   background: var(--validation-failed);
 }
 
@@ -13941,4 +14069,1163 @@ body.light-mode .bw-logbook {
   .bw-logbook-capitulo-datos {
     justify-content: center;
   }
+}
+
+/* cartography: el contenido automático de las tablas del foro, <div class="bw-cartography" tabla="…" vista="…">
+   (backup/codes/cartography.js). Va ADENTRO de las tablas de rol, que no se tocan: sin borde ni fondo propio, con los
+   mismos tonos, letras y componentes que el manifiesto. */
+.bw-cartography {
+  --mf-grupo: var(--post-user, var(--group-funcionarios, #79708a));
+  --mf-azul: oklch(0.55 0.05 262);
+  --mf-1: oklch(from var(--mf-grupo) 0.55 min(c, 0.06) h);
+  display: flex;
+  flex-flow: column;
+  gap: 8px;
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  font: var(--style-primary);
+  font-size: 12px;
+  color: var(--mode-text-100);
+  text-align: left;
+  white-space: normal;
+}
+
+.bw-cartography :where(button) {
+  all: unset;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.bw-cartography :where(button):focus-visible,
+.bw-cartography input:focus-visible {
+  outline: 2px solid var(--mode-back-60);
+  outline-offset: 1px;
+}
+
+.bw-cartography [hidden] {
+  display: none !important;
+}
+
+.bw-cartography small {
+  font: 500 10px var(--font-code);
+  font-variant-numeric: tabular-nums;
+  opacity: .75;
+}
+
+/* números arriba */
+.bw-carto-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(95px, 1fr));
+  gap: 6px;
+}
+
+.bw-carto-stat {
+  display: flex;
+  flex-flow: column;
+  gap: 3px;
+  min-width: 0;
+  padding: 10px 12px;
+  background: var(--mode-back-100);
+  border-radius: 3px;
+}
+
+.bw-carto-stat span {
+  font: var(--style-link);
+  font-size: 9px;
+  text-transform: uppercase;
+  color: var(--mode-back-60);
+}
+
+.bw-carto-stat strong {
+  font: 700 20px/1.1 var(--font-code);
+  font-variant-numeric: tabular-nums;
+  color: var(--mode-text-100);
+}
+
+.bw-carto-buscar {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 0 8px;
+  border: 1px solid var(--mode-back-80);
+  border-radius: 3px;
+  background: var(--mode-back-100);
+}
+
+.bw-carto-buscar i {
+  color: var(--mf-1);
+}
+
+.bw-carto-buscar input {
+  flex: 1;
+  min-width: 0;
+  padding: 7px 0;
+  border: none;
+  outline: none;
+  background: none;
+  color: var(--mode-text-100);
+  font: var(--style-primary);
+  font-size: 12px;
+}
+
+/* una institución: cabecera plegable con el color del post */
+.bw-carto-bloque {
+  display: flex;
+  flex-flow: column;
+  gap: 2px;
+}
+
+.bw-carto-bloque-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  border-radius: 3px;
+  background: var(--mf-1);
+  color: var(--color-text-100);
+  font: var(--style-link);
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.bw-carto-bloque.vacio .bw-carto-bloque-head {
+  background: var(--mode-back-80);
+}
+
+.bw-carto-bloque-head small {
+  margin-left: auto;
+  white-space: nowrap;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.bw-carto-bloque-head > i {
+  transition: transform var(--fast);
+}
+
+.bw-carto-bloque-head[aria-expanded="false"] > i {
+  transform: rotate(-90deg);
+}
+
+/* los cargos en columnas: 3 en la tabla de rol del foro (~540 px), con el nombre más largo entero ("Hamish Merrythought [PNJ]");
+   títulos, historial y anuario, de lado a lado */
+.bw-carto-bloque-body,
+.bw-carto-anio {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 3px;
+}
+
+.bw-carto-seccion,
+.bw-carto-hist-btn,
+.bw-carto-hist,
+.bw-carto-anio-grupo,
+.bw-carto-anio {
+  grid-column: 1 / -1;
+}
+
+.bw-carto-seccion {
+  display: block;
+  margin-top: 4px;
+  padding: 5px 12px;
+  font: var(--style-link);
+  font-size: 9px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--mode-back-60);
+}
+
+/* cargo | personajes */
+/* cada cargo, una tarjeta: el cargo arriba y los personajes abajo */
+.bw-carto-fila {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-content: start;
+  gap: 4px;
+  padding: 7px;
+  background: var(--mode-back-100);
+  border-radius: 3px;
+}
+
+.bw-carto-cargo {
+  font: var(--style-link);
+  font-size: 10px;
+  text-transform: uppercase;
+  color: var(--mode-back-60);
+}
+
+.bw-carto-pjs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px 12px;
+}
+
+.bw-cartography .bw-carto-pj {
+  white-space: nowrap;
+}
+
+.bw-cartography a.bw-carto-pj,
+.bw-cartography a.bw-carto-pj:visited,
+.bw-cartography a.bw-carto-pj:hover,
+.bw-cartography a.bw-carto-pj:focus,
+.bw-cartography a.bw-carto-pj:active {
+  /* links: siempre iguales, también con el mouse encima (se anula el hover del foro) */
+  color: var(--mode-text-100) !important;
+  font-weight: 500;
+  text-decoration: none !important;
+  background: none !important;
+  opacity: 1 !important;
+}
+
+
+/* los PNJ, más tenues: también con el mouse encima */
+.bw-cartography .bw-carto-pj.pnj,
+.bw-cartography a.bw-carto-pj.pnj:visited,
+.bw-cartography a.bw-carto-pj.pnj:hover,
+.bw-cartography a.bw-carto-pj.pnj:focus,
+.bw-cartography a.bw-carto-pj.pnj:active {
+  font-weight: 300;
+  opacity: .7 !important;
+}
+
+/* el lugar que se puede tomar: en gris, en el lugar del personaje */
+.bw-carto-vacante {
+  font-style: italic;
+  font-weight: 300;
+  color: var(--mode-back-70);
+}
+
+.bw-carto-hist-btn {
+  display: inline-flex;
+  align-self: flex-start;
+  align-items: center;
+  gap: 6px;
+  margin: 2px 0;
+  padding: 5px 10px;
+  border: 1px solid var(--mode-back-80);
+  border-radius: 3px;
+  font: var(--style-link);
+  font-size: 9px;
+  text-transform: uppercase;
+  color: var(--mode-back-70);
+}
+
+.bw-carto-hist-btn[aria-expanded="true"] {
+  border-color: var(--mf-1);
+  color: var(--mode-text-100);
+}
+
+.bw-carto-hist {
+  display: flex;
+  flex-flow: column;
+  gap: 2px;
+}
+
+.bw-carto-hist-fila {
+  display: grid;
+  grid-template-columns: 90px minmax(0, 1fr) minmax(0, 1fr);
+  gap: 12px;
+  padding: 5px 12px;
+  border-radius: 3px;
+  background: var(--mode-opacity-50);
+}
+
+.bw-carto-hist-fila > span:first-child {
+  font: 500 11px var(--font-code);
+  font-variant-numeric: tabular-nums;
+}
+
+.bw-carto-nada {
+  margin: 0;
+  padding: 20px 15px;
+  text-align: center;
+  background: var(--mode-opacity-50);
+  border-radius: 3px;
+  opacity: .8;
+}
+
+@media (max-width: 480px) {
+  .bw-carto-hist-fila {
+    grid-template-columns: 1fr;
+    gap: 2px;
+  }
+}
+
+
+/* estudiantes: P / PA al lado del nombre, y el curso y los cargos del anuario debajo */
+.bw-carto-tag {
+  margin-left: 4px;
+  padding: 1px 4px;
+  border-radius: 2px;
+  background: var(--mf-1);
+  color: var(--color-text-100);
+  opacity: 1 !important;
+}
+
+.bw-carto-alumno {
+  display: inline-flex;
+  flex-flow: column;
+  line-height: 1.25;
+}
+
+
+/* la casa con el color de su grupo, tal cual */
+.bw-cartography .bw-carto-casa {
+  color: var(--mf-1);
+}
+
+
+.bw-carto-stat strong small {
+  font-size: 12px;
+  opacity: .6;
+}
+
+/* estudiantes: años | quidditch, una columna al lado de la otra */
+.bw-carto-bloque-body.dos {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: start;
+}
+
+.bw-carto-columna {
+  display: flex;
+  flex-flow: column;
+  gap: 3px;
+  min-width: 0;
+}
+
+/* anuario: una fila por casa, de lado a lado (casa | estudiantes) */
+.bw-carto-anio {
+  grid-template-columns: 1fr !important;
+}
+
+.bw-carto-fila.linea {
+  grid-template-columns: 110px minmax(0, 1fr);
+  align-items: start;
+  gap: 12px;
+}
+
+.bw-carto-fila.linea .bw-carto-pjs {
+  gap: 6px 16px;
+}
+
+@media (max-width: 480px) {
+  .bw-carto-fila.linea {
+    grid-template-columns: 1fr;
+    gap: 6px;
+  }
+}
+
+.bw-carto-hist-btn {
+  justify-self: start;
+}
+
+/* anuario: cada año escolar con su título plegable */
+.bw-carto-anio-grupo {
+  display: flex;
+  flex-flow: column;
+  gap: 3px;
+}
+
+.bw-carto-anio-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 4px;
+  padding: 5px 12px;
+  border-bottom: 1px solid var(--mode-back-80);
+  font: 700 12px var(--font-code);
+  font-variant-numeric: tabular-nums;
+  color: var(--mode-text-100);
+}
+
+.bw-carto-anio-head > i {
+  font-size: 10px;
+  color: var(--mode-back-60);
+  transition: transform var(--fast);
+}
+
+.bw-carto-anio-head[aria-expanded="false"] > i {
+  transform: rotate(-90deg);
+}
+
+/* un dato chico a la derecha del título de sección (el cupo de prefectos) */
+.bw-carto-seccion small {
+  float: right;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+/* en el celular no entran dos nombres largos uno al lado del otro: años y quidditch, uno debajo del otro */
+@media (max-width: 480px) {
+  .bw-carto-bloque-body.dos {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* una tarjeta de lado a lado con los nombres en columnas (los neutrales) */
+.bw-carto-fila.ancha {
+  grid-column: 1 / -1;
+}
+
+.bw-carto-fila.ancha .bw-carto-pjs {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 3px 12px;
+}
+
+/* apellidos: estado, sangre y Sagrados 28 como etiquetas; la historia en un desplegable */
+.bw-carto-etiquetas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px;
+}
+
+.bw-carto-etiquetas small {
+  padding: 1px 5px;
+  border-radius: 2px;
+  background: var(--mode-back-80);
+  color: var(--color-text-100);
+  opacity: 1;
+}
+
+.bw-carto-apellido.fuera {
+  display: none;
+}
+
+/* cada apellido: a la vista solo el nombre; abierto, ocupa todo el ancho con la historia | etiquetas y familia */
+.bw-carto-apellido {
+  min-width: 0;
+  background: var(--mode-back-100);
+  border-radius: 3px;
+}
+
+.bw-carto-apellido[open] {
+  grid-column: 1 / -1;
+  background: var(--mode-opacity-50);
+}
+
+.bw-carto-apellido summary {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  padding: 7px;
+  list-style: none;
+  cursor: pointer;
+  font: var(--style-link);
+  font-size: 10px;
+  text-transform: uppercase;
+  color: var(--mode-back-60);
+}
+
+.bw-carto-apellido summary::-webkit-details-marker {
+  display: none;
+}
+
+/* los que tienen familia, más marcados */
+.bw-carto-apellido.con-familia summary,
+.bw-carto-apellido[open] summary {
+  color: var(--mode-text-100);
+}
+
+.bw-carto-apellido summary small {
+  margin-left: auto;
+  white-space: nowrap;
+  text-transform: none;
+}
+
+.bw-carto-apellido-info {
+  display: grid;
+  grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+  gap: 14px;
+  padding: 4px 7px 10px;
+}
+
+.bw-carto-apellido-datos {
+  display: flex;
+  flex-flow: column;
+  gap: 6px;
+}
+
+.bw-carto-historia {
+  font-size: 11px;
+  line-height: 1.5;
+  color: var(--mode-text-100);
+}
+
+@media (max-width: 480px) {
+  .bw-carto-apellido-info {
+    grid-template-columns: 1fr;
+  }
+}
+
+.bw-carto-filtros {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px;
+  grid-column: 1 / -1;
+  margin-bottom: 3px;
+}
+
+.bw-carto-filtros button {
+  padding: 3px 8px;
+  border: 1px solid var(--mode-back-80);
+  border-radius: 3px;
+  font: var(--style-link);
+  font-size: 9px;
+  text-transform: uppercase;
+  color: var(--mode-back-70);
+}
+
+.bw-carto-filtros button[aria-pressed="true"] {
+  border-color: var(--mf-1);
+  color: var(--mode-text-100);
+}
+
+/* estado del apellido con el mismo fondo que la leyenda de la tabla de rol (.legend-last): ocupado (con familia) y OC,
+   restringido y no disponible; en ese orden, como en el registro viejo (restringido gana sobre ocupado) */
+.bw-carto-apellido.con-familia summary,
+.bw-carto-apellido[data-estado="oc"] summary {
+  background: var(--color-bold-100);
+  color: var(--color-text-100);
+}
+
+.bw-carto-apellido[data-estado="restringido"] summary {
+  background: var(--mode-back-80);
+  color: var(--mode-text-100);
+}
+
+.bw-carto-apellido[data-estado="anacrónico"] summary {
+  background: var(--color-neutral-100);
+  color: var(--color-text-100);
+}
+
+.bw-carto-apellido summary {
+  border-radius: 3px;
+}
+
+.bw-carto-alumno small {
+  white-space: nowrap;
+}
+
+/* validador de nombre: campo + botón, y el resultado en verde o rojo */
+.bw-carto-validar {
+  display: flex;
+  flex-flow: column;
+  gap: 6px;
+  padding: 0 0 6px;
+}
+
+.bw-carto-validar .bw-carto-seccion {
+  margin: 0;
+  padding: 0;
+}
+
+.bw-carto-validar-campo {
+  display: flex;
+  border: 1px solid var(--mode-back-80);
+  border-radius: 3px;
+  background: var(--mode-back-100);
+}
+
+.bw-carto-validar-campo input {
+  flex: 1;
+  min-width: 0;
+  padding: 7px 8px;
+  border: none;
+  outline: none;
+  background: none;
+  color: var(--mode-text-100);
+  font: var(--style-primary);
+  font-size: 12px;
+}
+
+.bw-carto-validar-campo button {
+  padding: 7px 12px;
+  background: var(--mf-1);
+  color: var(--color-text-100);
+  font: var(--style-link);
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+.bw-carto-validar-res {
+  margin: 0;
+  padding: 7px 10px;
+  border-radius: 3px;
+  color: var(--color-text-100);
+}
+
+/* el resultado con fondo de color entero (verde o rojo), sin borde de costado */
+.bw-carto-validar-res.ok {
+  background: var(--validation-passed);
+}
+
+.bw-carto-validar-res.error {
+  background: var(--validation-failed);
+}
+
+/* ficha de registros de un personaje: ventana sobre la página al tocar un nombre */
+.bw-carto-ficha-fondo {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  background: rgb(0 0 0 / 55%);
+}
+
+.bw-cartography.bw-carto-ficha {
+  width: min(460px, 100%);
+  max-height: calc(100vh - 32px);
+  overflow-y: auto;
+  padding: 14px;
+  border-radius: 5px;
+  background: var(--mode-back-90);
+  box-shadow: 0 10px 40px rgb(0 0 0 / 50%);
+}
+
+.bw-carto-ficha-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 12px;
+  border-radius: 3px;
+  background: var(--mf-1);
+  color: var(--color-text-100);
+  font: var(--style-link);
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.bw-carto-ficha-cerrar {
+  margin-left: auto;
+  padding: 2px 4px;
+  color: var(--color-text-100);
+}
+
+.bw-carto-ficha-filas,
+.bw-carto-ficha-exp {
+  display: flex;
+  flex-flow: column;
+  gap: 3px;
+}
+
+.bw-carto-ficha-filas .bw-carto-fila {
+  grid-template-columns: 130px minmax(0, 1fr);
+  align-items: baseline;
+  gap: 10px;
+}
+
+.bw-carto-ficha-filas .bw-carto-pjs {
+  gap: 2px 10px;
+}
+
+.bw-carto-ficha-exp .bw-carto-hist-fila {
+  grid-template-columns: 90px minmax(0, 1fr);
+}
+
+.bw-cartography a.bw-carto-ficha-perfil,
+.bw-cartography a.bw-carto-ficha-perfil:visited,
+.bw-cartography a.bw-carto-ficha-perfil:hover {
+  align-self: flex-end;
+  padding: 6px 10px;
+  border-radius: 3px;
+  background: var(--mf-1);
+  color: var(--color-text-100) !important;
+  font: var(--style-link);
+  font-size: 10px;
+  text-transform: uppercase;
+  text-decoration: none !important;
+}
+
+@media (max-width: 480px) {
+  .bw-carto-ficha-filas .bw-carto-fila {
+    grid-template-columns: 1fr;
+    gap: 3px;
+  }
+}
+
+/* lo de staff de la ficha (Cartography): debajo de la ficha, a todo el ancho del post, plegable y cerrado de entrada.
+   En la cabecera, el resumen; adentro, los grupos de controles en columnas y los códigos con su botón Copiar */
+.bw-cartography.bw-carto-staff {
+  gap: 0;
+  margin-top: 20px;
+  border-radius: 5px;
+  background: var(--mode-opacity-50);
+}
+
+.bw-carto-staff-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 12px;
+  padding: 10px 14px;
+  border-radius: 5px;
+  background: var(--mf-1);
+  color: var(--color-text-100);
+  font: var(--style-link);
+  font-size: 11px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.bw-carto-staff-head > i {
+  transition: transform var(--fast);
+}
+
+.bw-carto-staff-head[aria-expanded="false"] > i {
+  transform: rotate(-90deg);
+}
+
+.bw-carto-staff-head .bw-carto-resumen {
+  margin-left: auto;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.bw-carto-staff-body {
+  display: flex;
+  flex-flow: column;
+  gap: 12px;
+  padding: 14px;
+}
+
+.bw-carto-staff-body[hidden] {
+  display: none;
+}
+
+.bw-carto-staff-nota {
+  margin: 0;
+  font-size: 11px;
+  opacity: .7;
+}
+
+.bw-carto-codigos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 12px;
+}
+
+.bw-carto-codigo {
+  display: flex;
+  flex-flow: column;
+  gap: 4px;
+  min-width: 0;
+}
+
+.bw-carto-codigo-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.bw-carto-codigo-head .bw-carto-seccion {
+  margin: 0;
+  padding: 0;
+}
+
+.bw-carto-copiar {
+  margin-left: auto;
+  padding: 3px 8px;
+  border: 1px solid var(--mode-back-80);
+  border-radius: 3px;
+  font: var(--style-link);
+  font-size: 9px;
+  text-transform: uppercase;
+  color: var(--mode-text-100);
+}
+
+.bw-carto-codigo pre {
+  max-height: 260px;
+  margin: 0;
+  padding: 10px;
+  overflow: auto;
+  border-radius: 3px;
+  background: var(--mode-back-100);
+  color: var(--mode-text-100);
+  font: 400 11px/1.5 var(--font-code);
+  white-space: pre;
+}
+
+.bw-carto-resumen {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.bw-carto-resumen b {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 10px;
+  border-radius: 3px;
+  background: var(--mode-back-100);
+  font: 500 11px var(--font-code);
+}
+
+.bw-carto-resumen b.error i { color: var(--validation-failed); }
+.bw-carto-resumen b.aviso i { color: var(--validation-warning); }
+.bw-carto-resumen b.ok i { color: var(--validation-passed); }
+
+/* los grupos (Identidad, Atributos…) en columnas */
+.bw-carto-checks-grupos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  align-items: start;
+  gap: 12px;
+}
+
+.bw-carto-checks {
+  display: flex;
+  flex-flow: column;
+  gap: 3px;
+  min-width: 0;
+}
+
+.bw-carto-checks .bw-carto-seccion {
+  margin: 0;
+  padding: 0 0 2px;
+}
+
+.bw-carto-check {
+  display: grid;
+  grid-template-columns: 16px minmax(0, 1fr);
+  align-items: baseline;
+  gap: 8px;
+  padding: 8px 10px;
+  border-radius: 3px;
+  background: var(--mode-back-100);
+}
+
+.bw-carto-check p {
+  margin: 0;
+  line-height: 1.45;
+}
+
+.bw-carto-check.error {
+  background: color-mix(in srgb, var(--validation-failed) 22%, var(--mode-back-100));
+}
+
+.bw-carto-check.aviso {
+  background: color-mix(in srgb, var(--validation-warning) 18%, var(--mode-back-100));
+}
+
+.bw-carto-check.error i { color: var(--validation-failed); }
+.bw-carto-check.aviso i { color: var(--validation-warning); }
+.bw-carto-check.ok i { color: var(--validation-passed); }
+
+/* ===== expediente con el estilo de Cartography (.character-file.bw-carto-expediente, lo agrega cartography.js) =====
+   No se rearma la ficha: se reacomodan sus partes en una grilla a todo el ancho del post, con el estilo del manifiesto.
+   Cabecera con la imagen y el nombre | historia (izquierda) y datos en tarjetas (derecha) | frase | información adicional */
+.character-file.bw-carto-expediente {
+  --mf-1: oklch(from var(--post-user, var(--group-funcionarios, #79708a)) 0.55 min(c, 0.06) h);
+  display: grid;
+  grid-template-columns: minmax(0, 1.5fr) minmax(260px, 1fr);
+  grid-template-areas:
+    "front front"
+    "histsub datos"
+    "historia datos"
+    "historia frase"
+    "admin admin";
+  grid-template-rows: auto auto 1fr auto auto;
+  gap: 12px;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+  padding: 20px;
+  border-top: 5px solid var(--post-user, var(--mf-1));
+  border-bottom: 5px solid var(--post-user, var(--mf-1));
+  border-radius: 0;
+  background: var(--mode-back-100);
+  font: var(--style-primary);
+  font-size: 13px;
+  color: var(--mode-text-100);
+}
+
+/* las cajas que solo agrupan desaparecen: sus partes pasan a la grilla */
+.character-file.bw-carto-expediente .character-section,
+.character-file.bw-carto-expediente .character-aside,
+.character-file.bw-carto-expediente .character-article {
+  display: contents;
+}
+
+/* cabecera: la imagen oscurecida (como la del manifiesto) y el nombre encima */
+.character-file.bw-carto-expediente .character-front {
+  grid-area: front;
+  height: 280px;
+  border-radius: 3px;
+}
+
+.character-file.bw-carto-expediente .character-front:before {
+  background: linear-gradient(transparent 30%, rgb(12 12 15 / 85%));
+  backdrop-filter: grayscale(1) brightness(0.7);
+  mix-blend-mode: normal;
+}
+
+.character-file.bw-carto-expediente .character-header {
+  grid-area: front;
+  position: relative;
+  top: auto;
+  z-index: 1;
+  align-self: end;
+  height: auto;
+  padding: 20px 24px;
+  gap: 2px;
+  font-size: 44px;
+  line-height: 95%;
+  text-shadow: 0 1px 8px rgb(0 0 0 / 70%);
+}
+
+.character-file.bw-carto-expediente .character-header:before {
+  content: "Expediente";
+  margin-bottom: 6px;
+  font: var(--style-link);
+  font-family: var(--font-letter);
+  font-size: 16px;
+  letter-spacing: .5px;
+  text-transform: lowercase;
+  opacity: .8;
+}
+
+.character-file.bw-carto-expediente .bw-carto-expediente-sub {
+  margin-top: 8px;
+  font: 500 12px var(--font-code);
+  letter-spacing: 0;
+  text-transform: none;
+  opacity: .85;
+}
+
+/* subtítulos: la barra de sección del manifiesto */
+.character-file.bw-carto-expediente .character-sub {
+  box-sizing: border-box;
+  padding: 7px 12px;
+  border-radius: 3px;
+  background: var(--mode-back-70);
+  font: var(--style-link);
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-align: left;
+  color: var(--color-text-100);
+}
+
+.character-file.bw-carto-expediente .character-article > .character-sub {
+  grid-area: histsub;
+}
+
+/* historia */
+.character-file.bw-carto-expediente .character-content {
+  grid-area: historia;
+  height: auto;
+  max-height: 640px;
+  padding: 14px 16px;
+  border-radius: 3px;
+  background: var(--mode-opacity-50);
+  font-size: 13px;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+/* datos: tarjetas con la etiqueta arriba y el valor abajo, en dos columnas */
+.character-file.bw-carto-expediente .character-basic {
+  grid-area: datos;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-content: start;
+  gap: 4px;
+  padding: 0;
+  background: none;
+  font: var(--style-primary);
+  font-size: 12px;
+  text-transform: none;
+}
+
+.character-file.bw-carto-expediente .character-basic > span:not(.character-sub),
+.character-file.bw-carto-expediente .character-basic > userdata {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  gap: 3px;
+  min-width: 0;
+  margin: 0;
+  padding: 8px 10px;
+  border-radius: 3px;
+  background: var(--mode-opacity-50);
+  overflow-wrap: anywhere;
+}
+
+.character-file.bw-carto-expediente .character-basic > span:not(.character-sub):before,
+.character-file.bw-carto-expediente .character-basic > userdata:before {
+  padding: 0;
+  background: none;
+  font: var(--style-link);
+  font-size: 9px;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  color: var(--mode-back-60);
+}
+
+/* los largos (nombre, rango, partido, residencia, varita) ocupan las dos columnas */
+.character-file.bw-carto-expediente .character-basic > [target="full-name"],
+.character-file.bw-carto-expediente .character-basic > [target="rango"],
+.character-file.bw-carto-expediente .character-basic > [target="partido"],
+.character-file.bw-carto-expediente .character-basic > [target="residencia"],
+.character-file.bw-carto-expediente .character-basic > [target="varita"],
+.character-file.bw-carto-expediente .character-basic > .character-sub,
+.character-file.bw-carto-expediente .character-basic > .character-extra {
+  grid-column: 1 / -1;
+}
+
+.character-file.bw-carto-expediente .character-basic > .character-sub {
+  margin-top: 8px;
+}
+
+.character-file.bw-carto-expediente .character-extra {
+  height: auto;
+  max-height: 160px;
+  gap: 4px;
+  font-size: 12px;
+}
+
+.character-file.bw-carto-expediente .character-extra span {
+  display: block !important;
+  padding: 6px 10px;
+  border-radius: 3px;
+  background: var(--mode-opacity-50);
+}
+
+/* frase con su imagen */
+.character-file.bw-carto-expediente .character-quote {
+  grid-area: frase;
+  height: auto;
+  min-height: 140px;
+}
+
+/* información adicional (solo autor y staff): a todo el ancho */
+.character-file.bw-carto-expediente .profile-admin {
+  grid-area: admin;
+  display: flex;
+  flex-flow: column;
+  gap: 10px;
+}
+
+.character-file.bw-carto-expediente .profile-admin > .character-sub.show-more {
+  cursor: pointer;
+  background: var(--mf-1);
+}
+
+.character-file.bw-carto-expediente .character-plus {
+  display: grid;
+  grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+  align-items: start;
+  gap: 12px;
+  height: auto;
+  overflow: visible;
+}
+
+/* los textos largos (boggart, conocimiento clave…), en tarjetas */
+.character-file.bw-carto-expediente .character-long-info {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 6px;
+  padding: 0;
+}
+
+.character-file.bw-carto-expediente .character-long-info span.long-info {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  gap: 4px;
+  padding: 10px 12px;
+  border-radius: 3px;
+  background: var(--mode-opacity-50);
+  line-height: 1.5;
+}
+
+.character-file.bw-carto-expediente .character-long-info span.long-info:before {
+  padding: 0;
+  background: none;
+  font: var(--style-link);
+  font-size: 9px;
+  text-transform: uppercase;
+  color: var(--mode-back-60);
+}
+
+.character-file.bw-carto-expediente .character-long-info span[target="experiencia"] {
+  grid-column: 1 / -1;
+}
+
+/* atributos y conocimientos: grillas de números (Roboto mono, como el manifiesto) */
+.character-file.bw-carto-expediente .character-long-section {
+  gap: 12px;
+  padding: 0;
+}
+
+.character-file.bw-carto-expediente .character-attributes,
+.character-file.bw-carto-expediente .character-knowledge {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 4px;
+  padding: 0;
+  background: none;
+}
+
+.character-file.bw-carto-expediente .character-attributes > .character-sub,
+.character-file.bw-carto-expediente .character-knowledge > .character-sub {
+  grid-column: 1 / -1;
+}
+
+.character-file.bw-carto-expediente .character-attributes > span:not(.character-sub),
+.character-file.bw-carto-expediente .character-knowledge > span:not(.character-sub) {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 6px;
+  padding: 6px 10px;
+  border-radius: 3px;
+  background: var(--mode-opacity-50);
+  font: 700 13px var(--font-code);
+}
+
+.character-file.bw-carto-expediente .character-attributes > span:not(.character-sub):before,
+.character-file.bw-carto-expediente .character-knowledge > span:not(.character-sub):before {
+  margin: 0;
+  font: var(--style-link);
+  font-size: 9px;
+  text-transform: uppercase;
+  color: var(--mode-back-60);
+}
+
+.character-file.bw-carto-expediente .character-plus span.invalid-value {
+  background: color-mix(in srgb, var(--validation-failed) 30%, var(--mode-back-100));
+}
+
+@media (max-width: 700px) {
+  .character-file.bw-carto-expediente {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas: "front" "histsub" "historia" "datos" "frase" "admin";
+    padding: 12px;
+  }
+
+  .character-file.bw-carto-expediente .character-header {
+    font-size: 32px;
+  }
+
+  .character-file.bw-carto-expediente .character-plus {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+/* "Adicional" (patronus y animagia) son textos, no números: etiqueta arriba y valor abajo */
+.character-file.bw-carto-expediente .character-knowledge > span.patronus-value,
+.character-file.bw-carto-expediente .character-knowledge > span.animagia-value {
+  grid-column: span 2;
+  flex-flow: column;
+  align-items: flex-start;
+  font: var(--style-primary);
+  font-size: 12px;
 }

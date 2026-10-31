@@ -76946,6 +76946,155 @@ const DBModule = (function () {
             "date": "23/05/1953",
             "location": "Arena Dush"
         },
+        "1382": {
+            "space": "el pensadero",
+            "url": "/t1382-1953-05-18-evento-interescolares-de-quidditch-there-will-come-a-soldier",
+            "simpleTitle": "evento: interescolares de quidditch - there will come a soldier",
+            "creator": "Neptune E. Merrythought",
+            "replyCount": 22,
+            "posts": [
+                {
+                    "url": "r21614",
+                    "author": "Neptune E. Merrythought",
+                    "date": "09/08/2026",
+                    "words": 291
+                },
+                {
+                    "url": "r21625",
+                    "author": "Jupiter Merrythought",
+                    "date": "09/08/2026",
+                    "words": 402
+                },
+                {
+                    "url": "r22042",
+                    "author": "Neptune E. Merrythought",
+                    "date": "21/08/2026",
+                    "words": 243
+                },
+                {
+                    "url": "r22222",
+                    "author": "Jupiter Merrythought",
+                    "date": "25/08/2026",
+                    "words": 307
+                },
+                {
+                    "url": "r22223",
+                    "author": "The Familiars",
+                    "date": "25/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22893",
+                    "author": "Neptune E. Merrythought",
+                    "date": "14/09/2026",
+                    "words": 287
+                },
+                {
+                    "url": "r23280",
+                    "author": "Jupiter Merrythought",
+                    "date": "23/09/2026",
+                    "words": 379
+                },
+                {
+                    "url": "r23475",
+                    "author": "Neptune E. Merrythought",
+                    "date": "28/09/2026",
+                    "words": 396
+                },
+                {
+                    "url": "r23765",
+                    "author": "Jupiter Merrythought",
+                    "date": "04/10/2026",
+                    "words": 561
+                },
+                {
+                    "url": "r23975",
+                    "author": "Neptune E. Merrythought",
+                    "date": "10/10/2026",
+                    "words": 391
+                },
+                {
+                    "url": "r24155",
+                    "author": "Jupiter Merrythought",
+                    "date": "13/10/2026",
+                    "words": 304
+                },
+                {
+                    "url": "r24697",
+                    "author": "Neptune E. Merrythought",
+                    "date": "25/10/2026",
+                    "words": 228
+                },
+                {
+                    "url": "r24698",
+                    "author": "The Familiars",
+                    "date": "25/10/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r24760",
+                    "author": "Jupiter Merrythought",
+                    "date": "26/10/2026",
+                    "words": 348
+                },
+                {
+                    "url": "r24761",
+                    "author": "The Familiars",
+                    "date": "26/10/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r24837",
+                    "author": "Neptune E. Merrythought",
+                    "date": "27/10/2026",
+                    "words": 225
+                },
+                {
+                    "url": "r24838",
+                    "author": "The Familiars",
+                    "date": "27/10/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r24891",
+                    "author": "Jupiter Merrythought",
+                    "date": "28/10/2026",
+                    "words": 160
+                },
+                {
+                    "url": "r24892",
+                    "author": "The Familiars",
+                    "date": "28/10/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r24897",
+                    "author": "Neptune E. Merrythought",
+                    "date": "28/10/2026",
+                    "words": 215
+                },
+                {
+                    "url": "r24898",
+                    "author": "The Familiars",
+                    "date": "28/10/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r24913",
+                    "author": "Jupiter Merrythought",
+                    "date": "28/10/2026",
+                    "words": 226
+                },
+                {
+                    "url": "r24914",
+                    "author": "The Familiars",
+                    "date": "28/10/2026",
+                    "words": 0
+                }
+            ],
+            "date": "18/05/1953",
+            "location": "Zona de Entrenamiento"
+        },
         "1396": {
             "space": "el pensadero",
             "url": "/t1396-1953-05-31-interecolares-hogwarts-vs-ilvermorny",
@@ -78448,6 +78597,77 @@ const DBModule = (function () {
             "date": "16/05/1953",
             "location": "Lago Negro"
         },
+        "1417": {
+            "space": "el pensadero",
+            "url": "/t1417-1953-05-31-evento-interescolares-de-quidditch-before-the-end",
+            "simpleTitle": "evento: interescolares de quidditch - before the end",
+            "creator": "Minerva E. McGonagall",
+            "replyCount": 9,
+            "posts": [
+                {
+                    "url": "r22125",
+                    "author": "Minerva E. McGonagall",
+                    "date": "23/08/2026",
+                    "words": 232
+                },
+                {
+                    "url": "r23080",
+                    "author": "Alastor Moody",
+                    "date": "18/09/2026",
+                    "words": 316
+                },
+                {
+                    "url": "r23719",
+                    "author": "Minerva E. McGonagall",
+                    "date": "04/10/2026",
+                    "words": 320
+                },
+                {
+                    "url": "r23829",
+                    "author": "Alastor Moody",
+                    "date": "06/10/2026",
+                    "words": 383
+                },
+                {
+                    "url": "r24295",
+                    "author": "Minerva E. McGonagall",
+                    "date": "16/10/2026",
+                    "words": 231
+                },
+                {
+                    "url": "r24478",
+                    "author": "Alastor Moody",
+                    "date": "20/10/2026",
+                    "words": 216
+                },
+                {
+                    "url": "r24839",
+                    "author": "Minerva E. McGonagall",
+                    "date": "27/10/2026",
+                    "words": 288
+                },
+                {
+                    "url": "r24862",
+                    "author": "Alastor Moody",
+                    "date": "27/10/2026",
+                    "words": 323
+                },
+                {
+                    "url": "r24912",
+                    "author": "Minerva E. McGonagall",
+                    "date": "28/10/2026",
+                    "words": 294
+                },
+                {
+                    "url": "r24976",
+                    "author": "Alastor Moody",
+                    "date": "29/10/2026",
+                    "words": 377
+                }
+            ],
+            "date": "31/05/1953",
+            "location": "Moscú"
+        },
         "1427": {
             "space": "el pensadero",
             "url": "/t1427-1953-05-14-clase-de-pociones-amortentia-g1",
@@ -79078,6 +79298,95 @@ const DBModule = (function () {
             ],
             "date": "12/05/1953",
             "location": "5ta planta | san mungo"
+        },
+        "1483": {
+            "space": "el pensadero",
+            "url": "/t1483-1953-05-23-evento-interescolares-de-quidditch-estatica",
+            "simpleTitle": "evento: interescolares de quidditch - estática",
+            "creator": "Montgomery Thatch",
+            "replyCount": 12,
+            "posts": [
+                {
+                    "url": "r23507",
+                    "author": "Montgomery Thatch",
+                    "date": "29/09/2026",
+                    "words": 301
+                },
+                {
+                    "url": "r23733",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "04/10/2026",
+                    "words": 233
+                },
+                {
+                    "url": "r23853",
+                    "author": "Montgomery Thatch",
+                    "date": "06/10/2026",
+                    "words": 329
+                },
+                {
+                    "url": "r23854",
+                    "author": "Barnaby R. Rookwood",
+                    "date": "06/10/2026",
+                    "words": 220
+                },
+                {
+                    "url": "r24211",
+                    "author": "Montgomery Thatch",
+                    "date": "14/10/2026",
+                    "words": 323
+                },
+                {
+                    "url": "r24213",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "14/10/2026",
+                    "words": 269
+                },
+                {
+                    "url": "r24495",
+                    "author": "Barnaby R. Rookwood",
+                    "date": "21/10/2026",
+                    "words": 219
+                },
+                {
+                    "url": "r24737",
+                    "author": "Montgomery Thatch",
+                    "date": "25/10/2026",
+                    "words": 377
+                },
+                {
+                    "url": "r24937",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "28/10/2026",
+                    "words": 228
+                },
+                {
+                    "url": "r24960",
+                    "author": "Barnaby R. Rookwood",
+                    "date": "29/10/2026",
+                    "words": 219
+                },
+                {
+                    "url": "r24961",
+                    "author": "The Familiars",
+                    "date": "29/10/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r25019",
+                    "author": "Montgomery Thatch",
+                    "date": "29/10/2026",
+                    "words": 420
+                },
+                {
+                    "url": "r25020",
+                    "author": "The Familiars",
+                    "date": "29/10/2026",
+                    "words": 0
+                }
+            ],
+            "date": "23/05/1953",
+            "location": "Gran Comedor"
         }
     };
     const hardcodedDicesTopics = [
@@ -162802,6 +163111,200 @@ const DBModule = (function () {
             "url": "r21508",
             "simpleTitle": "practica: a map of the stars",
             "space": "el pensadero"
+        },
+        {
+            "pitcher": "Barnaby R. Rookwood",
+            "spread": [
+                2,
+                2
+            ],
+            "title": [
+                "felix felicis"
+            ],
+            "key": [],
+            "knowledge": [],
+            "type": [],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-felix-felicis\"><span>Barnaby R. Rookwood ha lanzado los dados \"felix felicis\"</span><div class=\"dice-results\"><span class=\"roll-result nro2\"><i class=\"fa-solid fa-sparkles\"></i>Se nota que sabes lo que estás haciendo, o Félix lo sabe.</span><span class=\"roll-result nro2\"><i class=\"fa-solid fa-sparkles\"></i>Se nota que sabes lo que estás haciendo, o Félix lo sabe.</span></div></div></div>",
+            "url": "r24961",
+            "simpleTitle": "evento: interescolares de quidditch - estática",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                2
+            ],
+            "title": [
+                "felix felicis"
+            ],
+            "key": [],
+            "knowledge": [],
+            "type": [],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-felix-felicis\"><span>Montgomery Thatch ha lanzado los dados \"felix felicis\"</span><div class=\"dice-results\"><span class=\"roll-result nro2\"><i class=\"fa-solid fa-sparkles\"></i>Se nota que sabes lo que estás haciendo, o Félix lo sabe.</span></div></div></div>",
+            "url": "r25020",
+            "simpleTitle": "evento: interescolares de quidditch - estática",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                2
+            ],
+            "title": [
+                "felix felicis"
+            ],
+            "key": [],
+            "knowledge": [],
+            "type": [],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-felix-felicis\"><span>Jupiter Merrythought ha lanzado los dados \"felix felicis\"</span><div class=\"dice-results\"><span class=\"roll-result nro2\"><i class=\"fa-solid fa-sparkles\"></i>Se nota que sabes lo que estás haciendo, o Félix lo sabe.</span></div></div></div>",
+            "url": "r22223",
+            "simpleTitle": "evento: interescolares de quidditch - there will come a soldier",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Neptune E. Merrythought",
+            "spread": [
+                11
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "amago de wronski"
+            ],
+            "knowledge": [
+                "vuelo"
+            ],
+            "type": [
+                "quidditch, defensivo, sin magia"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Neptune E. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"amago de wronski\" (11)</strong><span>Logra una buena aceleración, pero pierde estabilidad al frenar. Adiciona <em>+6</em> (50% del conocimiento en VUELO) en defensa y +1 en turnos para llegar al objetivo.</span></span></div></div></div>",
+            "url": "r24698",
+            "simpleTitle": "evento: interescolares de quidditch - there will come a soldier",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                16,
+                16
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "vuelo en velocidad",
+                "golpe lateral"
+            ],
+            "knowledge": [
+                "vuelo",
+                "vuelo"
+            ],
+            "type": [
+                "quidditch, sin magia, neutral",
+                "quidditch, ofensivo, sin magia"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"vuelo en velocidad\" (16)</strong><span>Velocidad máxima. Podrá realizar la siguiente acción de manera inmediata.</span></span><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #2 \"golpe lateral\" (16)</strong><span>El golpe es preciso y certero. Adiciona +20 en el daño.</span></span></div></div></div>",
+            "url": "r24761",
+            "simpleTitle": "evento: interescolares de quidditch - there will come a soldier",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Neptune E. Merrythought",
+            "spread": [
+                20,
+                15
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "pivotao aereo",
+                "vuelo en velocidad"
+            ],
+            "knowledge": [
+                "vuelo",
+                "vuelo"
+            ],
+            "type": [
+                "quidditch, defensivo, sin magia",
+                "quidditch, sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Neptune E. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"pivotao aereo\" (20)</strong><span>Puede cambiar el rumbo completamente. Adiciona +26 en defensa.</span></span><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #2 \"vuelo en velocidad\" (15)</strong><span>Velocidad máxima. Podrá realizar la siguiente acción de manera inmediata.</span></span></div></div></div>",
+            "url": "r24838",
+            "simpleTitle": "evento: interescolares de quidditch - there will come a soldier",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                18,
+                11
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "vuelo en velocidad",
+                "punteo"
+            ],
+            "knowledge": [
+                "vuelo",
+                "vuelo"
+            ],
+            "type": [
+                "quidditch, sin magia, neutral",
+                "quidditch, ofensivo, sin magia"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"vuelo en velocidad\" (18)</strong><span>Velocidad máxima. Podrá realizar la siguiente acción de manera inmediata.</span></span><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #2 \"punteo\" (11)</strong><span>El punteo es tan preciso que la quaffle queda en manos de un aliado. Adiciona <em>+17</em> (100% del conocimiento en VUELO) en el daño.</span></span></div></div></div>",
+            "url": "r24892",
+            "simpleTitle": "evento: interescolares de quidditch - there will come a soldier",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Neptune E. Merrythought",
+            "spread": [
+                16,
+                15
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "giro del colacuerno"
+            ],
+            "knowledge": [
+                "vuelo"
+            ],
+            "type": [
+                "quidditch, defensivo, sin magia"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Neptune E. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"giro del colacuerno\" (16)</strong><span>Se realiza el giro, pero con una ligera pérdida de velocidad. Adiciona <em>+6</em> (50% del conocimiento en VUELO) en defensa</span></span><span class=\"roll-result\">15</span></div></div></div>",
+            "url": "r24898",
+            "simpleTitle": "evento: interescolares de quidditch - there will come a soldier",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Jupiter Merrythought",
+            "spread": [
+                20
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "atrapar la quaffle"
+            ],
+            "knowledge": [
+                "vuelo"
+            ],
+            "type": [
+                "quidditch, defensivo, sin magia"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"atrapar la quaffle\" (20)</strong><span>Atrapa la quaffle perfectamente, controlando todo el vuelo para su siguiente acción. Adiciona +4 en su siguiente acción.</span></span></div></div></div>",
+            "url": "r24914",
+            "simpleTitle": "evento: interescolares de quidditch - there will come a soldier",
+            "space": "el pensadero"
         }
     ];
     const hardcodedInactiveTopics = {
@@ -170455,6 +170958,71 @@ const DBModule = (function () {
             ],
             "date": "14/04/1953",
             "location": "Aula de Transformaciones"
+        },
+        "1327": {
+            "space": "temas inactivos",
+            "url": "/t1327-aj-beaufort-first-impressions",
+            "simpleTitle": "first impressions",
+            "creator": "Hermes Rosier",
+            "replyCount": 8,
+            "posts": [
+                {
+                    "url": "r20672",
+                    "author": "Hermes Rosier",
+                    "date": "12/07/2026",
+                    "words": 297
+                },
+                {
+                    "url": "r20678",
+                    "author": "Invitado",
+                    "date": "13/07/2026",
+                    "words": 774
+                },
+                {
+                    "url": "r20711",
+                    "author": "Hermes Rosier",
+                    "date": "13/07/2026",
+                    "words": 308
+                },
+                {
+                    "url": "r20720",
+                    "author": "Invitado",
+                    "date": "14/07/2026",
+                    "words": 631
+                },
+                {
+                    "url": "r20755",
+                    "author": "Hermes Rosier",
+                    "date": "14/07/2026",
+                    "words": 495
+                },
+                {
+                    "url": "r20765",
+                    "author": "Invitado",
+                    "date": "15/07/2026",
+                    "words": 922
+                },
+                {
+                    "url": "r20788",
+                    "author": "Hermes Rosier",
+                    "date": "15/07/2026",
+                    "words": 590
+                },
+                {
+                    "url": "r21065",
+                    "author": "Invitado",
+                    "date": "27/07/2026",
+                    "words": 1029
+                },
+                {
+                    "url": "r21239",
+                    "author": "Hermes Rosier",
+                    "date": "01/08/2026",
+                    "words": 814
+                }
+            ],
+            "date": "24/04/1953",
+            "location": "Lago Negro"
         },
         "1335": {
             "space": "temas inactivos",
