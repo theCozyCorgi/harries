@@ -3661,7 +3661,7 @@ userdata[target="banner"] {
 /* Ajustes de Black Wave */
 #cozy-swap.cozy-swap {
   --cs-size: 40px;
-  --cs-gap: 6px;
+  --cs-gap: 14px;
   --cs-padding: var(--gap-size, 16px);
   --cs-radius: 5px;
   --cs-avatar-ratio: 300 / 480;
