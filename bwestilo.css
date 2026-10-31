@@ -12980,57 +12980,6 @@ mark.bw-manifest-marca {
   padding-bottom: 12px;
 }
 
-/* vista picspam: mosaico de nueve cuadradas (3 por fila) o diez apaisadas de 5:3 (5 por fila), como las viejas */
-.bw-manifest-pics {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 5px;
-}
-
-.bw-manifest-pics[modelo="diez"] {
-  grid-template-columns: repeat(5, minmax(0, 1fr));
-}
-
-.bw-manifest-pic {
-  position: relative;
-  overflow: hidden;
-  display: flex;
-  align-items: flex-end;
-  aspect-ratio: 1 / 1;
-  background: var(--mode-back-90) center / cover no-repeat;
-  border-radius: 3px;
-  font: var(--style-link);
-  text-transform: uppercase;
-  color: var(--color-text-100);
-}
-
-.bw-manifest-pics[modelo="diez"] .bw-manifest-pic {
-  aspect-ratio: 5 / 3;
-}
-
-/* color="si": el teñido del personaje (pic-colored) */
-.bw-manifest-pic.color:before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: var(--post-user, var(--mf-grupo));
-  backdrop-filter: grayscale(1) brightness(0.5);
-  mix-blend-mode: overlay;
-}
-
-/* lo que se escriba adentro de la foto */
-.bw-manifest-pic > span {
-  position: relative;
-  padding: 8px 10px;
-  text-shadow: 1px 1px 1px var(--color-complementary-100);
-}
-
-@media (max-width: 600px) {
-  .bw-manifest-pics[modelo="diez"] {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-}
-
 /* welcome */
 /* bienvenida: div class="bw-guide"> (backup/codes/welcome.js) */
 .bw-guide {
