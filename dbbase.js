@@ -176492,7 +176492,10 @@ const DBModule = (function () {
         const $data = $(response);
         // El bloque del header_table ("Memos & Guías": anuncios globales, anuncios y fijos) sale como
         // .topicslist.announcement y se repite en cada foro: no es rol, así que no se lee.
-        const topicElements = $data.find('.topicslist:not(.announcement) .topic').toArray();
+        // Ojo: de la página 2 en adelante no hay memos y FA le pone "announcement" a la única lista, la de los temas;
+        // por eso el filtro solo aplica cuando la página trae más de una lista
+        const $lists = $data.find('.topicslist');
+        const topicElements = ($lists.length > 1 ? $lists.not('.announcement') : $lists).find('.topic').toArray();
 
         for (let element of topicElements) {
             const $link = $(element).find('.topictitle');
