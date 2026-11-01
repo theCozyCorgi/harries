@@ -176478,7 +176478,8 @@ const DBModule = (function () {
                 // Temas guardados antes de este cambio no tienen replyCount todavía: los tratamos
                 // como 0 para que la comparación dé "distinto" y se re-escaneen una vez,
                 // dejando el dato real guardado para la próxima corrida.
-                const savedReplyCount = dynamicTopic.replyCount ?? 0;
+                // null = lectura cortada a la mitad: nunca coincide, así se vuelve a leer
+                const savedReplyCount = dynamicTopic.replyCount === null ? -1 : (dynamicTopic.replyCount ?? 0);
                 isSaved = !movedForum && (liveReplyCount === null || savedReplyCount === liveReplyCount);
             } else {
                 isSaved = false;
@@ -176486,22 +176487,28 @@ const DBModule = (function () {
 
             if (!isSaved) {
                 // forceRescan (ej. scanCleanForum) pide lectura profunda a propósito: el atajo no aplica ahí.
-                const onlyMoved = !forceRescan && movedForum && liveReplyCount !== null && (dynamicTopic.replyCount ?? 0) === liveReplyCount;
+                const onlyMoved = !forceRescan && movedForum && liveReplyCount !== null && dynamicTopic.replyCount !== null && (dynamicTopic.replyCount ?? 0) === liveReplyCount;
 
                 if (onlyMoved) {
                     // Solo cambió de foro, los posts siguen igual: alcanza con actualizar el espacio.
                     dynamicTopic.space = forumName;
                 } else {
                     console.log(`Analizando tema: ${$link.text()}`);
+                    // replyCount queda en null hasta terminar de leerlo: si se corta a la mitad (el usuario cambia de
+                    // página), la próxima corrida lo ve distinto y lo vuelve a leer entero
                     dynamicData.topics[topicKey] = {
                         space: forumName,
                         url: fullUrl,
                         simpleTitle: sanitizeTitle($link.text()),
                         creator: $(element).find('.topic-started a').text(),
-                        replyCount: liveReplyCount,
+                        replyCount: null,
                         posts: []
                     };
                     await scanTopicPosts(fullUrl, $link.text());
+                    dynamicData.topics[topicKey].replyCount = liveReplyCount;
+                    // Se guarda tema por tema, no al final de la zona: si no, cada página nueva arrancaba la zona desde
+                    // cero, repetía los mismos pedidos y Foroactivo terminaba cortando con 429 a quien no tenía caché
+                    DBModule.save();
                 }
             } else if (dynamicTopic && dynamicTopic.replyCount === undefined && liveReplyCount !== null) {
                 // Tema guardado antes de este cambio, con 0 respuestas reales: completamos el dato sin re-escanear
