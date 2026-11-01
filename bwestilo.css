@@ -12474,12 +12474,12 @@ mark.bw-manifest-marca {
   display: none;
 }
 
-/* colores de los estados: los de la cronología vieja (abierto = color del personaje, cerrado / inactivo / abandonado =
-   colores del foro), con la luminosidad subida lo justo para que se lean sobre las filas */
+/* colores de los estados: todos del color del grupo (--mf-1), cambiando la luminosidad y cuánto color tienen.
+   Con los colores del foro cerrado e inactivo salían violetas (y casi iguales en modo claro) para cualquier grupo */
 .bw-manifest .estado-abierto { --estado: var(--mf-1); }
-.bw-manifest .estado-cerrado { --estado: oklch(from var(--color-bold-100) 0.62 max(c, 0.03) h); }
-.bw-manifest .estado-inactivo { --estado: oklch(from var(--color-complementary-100) 0.62 max(c, 0.05) h); }
-.bw-manifest .estado-abandonado { --estado: oklch(from var(--color-neutral-100) 0.55 max(c, 0.03) h); }
+.bw-manifest .estado-cerrado { --estado: oklch(from var(--mf-1) 0.47 c h); }
+.bw-manifest .estado-inactivo { --estado: oklch(from var(--mf-1) 0.64 calc(c * 0.6) h); }
+.bw-manifest .estado-abandonado { --estado: oklch(from var(--mf-1) 0.58 calc(c * 0.25) h); }
 .bw-manifest .estado-desconocido { --estado: var(--mode-back-70); }
 .bw-manifest .aviso-amarillo { --estado: var(--validation-warning); }
 .bw-manifest .aviso-rojo { --estado: var(--validation-failed); }
