@@ -11199,6 +11199,13 @@ button.bw-manifest-stat[aria-expanded="true"] {
 .bw-manifest-stat strong.is-text {
   font-family: var(--font-primary);
   font-weight: 500;
+  /* "Caramelo de…" no entraba en un renglón: corta línea y recién con "…" pasados los dos */
+  font-size: 16px;
+  white-space: normal;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow-wrap: anywhere;
 }
 
 /* números en Roboto mono, con el peso según cuánto importan: cajas 700, filas y gráficos 500, detalle 300 */
