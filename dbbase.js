@@ -176194,6 +176194,24 @@ const DBModule = (function () {
         } catch (e) { }
     }
 
+    // Un tema no puede abrirse en un mes on-rol posterior al que corría cuando se escribió su primer post (la misma
+    // cuenta que time.js): "05/06/1954" escrito en junio de 1953 queda "05/06/1953". Se respeta el día, se corrigen mes y año
+    function capAmbientDate(fecha, firstPostDate) {
+        const m = /^(\d{2})\/(\d{2})\/(\d{4})$/.exec(fecha || '');
+        if (!m) return fecha;
+        let tope = currentAmbientDate;
+        const p = /^(\d{2})\/(\d{2})\/(\d{4})$/.exec(firstPostDate || '');
+        if (p) {
+            const realMonthsPassed = (+p[3] - forumOpeningDate.getFullYear()) * 12 + (+p[2] - 1 - forumOpeningDate.getMonth());
+            tope = new Date(initialAmbientDate);
+            tope.setMonth(initialAmbientDate.getMonth() + Math.floor((realMonthsPassed + 1) / 2));
+        }
+        const anio = tope.getFullYear(), mes = tope.getMonth() + 1;
+        if (+m[3] * 12 + +m[2] <= anio * 12 + mes) return fecha;
+        const dia = Math.min(+m[1], new Date(anio, mes, 0).getDate());
+        return `${String(dia).padStart(2, '0')}/${String(mes).padStart(2, '0')}/${anio}`;
+    }
+
     function normalizeDate(text) {
         if (!text) return "";
         let t = text.trim();
@@ -176511,6 +176529,8 @@ const DBModule = (function () {
             // sin que se le agregue ningún post nuevo: el replyCount no lo detecta solo,
             // así que el espacio actual también cuenta como señal de cambio.
             const movedForum = dynamicTopic && dynamicTopic.space !== forumName;
+            // Temas guardados con el título como fecha (bug ya corregido en scanTopicPosts): se releen una vez
+            const brokenDate = !!dynamicTopic && !!dynamicTopic.date && dynamicTopic.date === $link.text().trim();
 
             let isSaved;
             if (forceRescan) {
@@ -176523,14 +176543,14 @@ const DBModule = (function () {
                 // dejando el dato real guardado para la próxima corrida.
                 // null = lectura cortada a la mitad: nunca coincide, así se vuelve a leer
                 const savedReplyCount = dynamicTopic.replyCount === null ? -1 : (dynamicTopic.replyCount ?? 0);
-                isSaved = !movedForum && (liveReplyCount === null || savedReplyCount === liveReplyCount);
+                isSaved = !movedForum && !brokenDate && (liveReplyCount === null || savedReplyCount === liveReplyCount);
             } else {
                 isSaved = false;
             }
 
             if (!isSaved) {
                 // forceRescan (ej. scanCleanForum) pide lectura profunda a propósito: el atajo no aplica ahí.
-                const onlyMoved = !forceRescan && movedForum && liveReplyCount !== null && dynamicTopic.replyCount !== null && (dynamicTopic.replyCount ?? 0) === liveReplyCount;
+                const onlyMoved = !forceRescan && movedForum && !brokenDate &&liveReplyCount !== null && dynamicTopic.replyCount !== null && (dynamicTopic.replyCount ?? 0) === liveReplyCount;
 
                 if (onlyMoved) {
                     // Solo cambió de foro, los posts siguen igual: alcanza con actualizar el espacio.
@@ -176587,11 +176607,13 @@ const DBModule = (function () {
             if (postId && dynamicData.topics[topicKey]?.posts.some(p => p.url === `r${postId}`)) continue;
 
             if (!dynamicData.topics[topicKey]?.date) {
+                // Se valida por formato y no comparando con el título: normalizeDate lo devuelve recortado, y el título
+                // de FA trae espacios alrededor, así que la comparación nunca coincidía y el título quedaba como fecha
                 let ambientDate = normalizeDate(originalTitle);
-                if (ambientDate === originalTitle) {
+                if (!/^\d{2}\/\d{2}\/\d{4}$/.test(ambientDate)) {
                     ambientDate = normalizeDate($post.find('fecha').text());
                 }
-                dynamicData.topics[topicKey].date = ambientDate;
+                dynamicData.topics[topicKey].date = capAmbientDate(ambientDate, normalizeDate(postDateText));
                 dynamicData.topics[topicKey].location = $post.find('lugar').text() || "Desconocida";
             }
 
@@ -177001,6 +177023,13 @@ const DBModule = (function () {
                     } catch (e) { }
                 }
             }
+
+            // Las fechas que ya estaban en la caché también se topan al mes on-rol de su primer post
+            Object.values(currentTopics).forEach(t => {
+                if (!t) return;
+                const first = (Array.isArray(t.posts) ? t.posts : Object.values(t.posts || {}))[0];
+                t.date = capAmbientDate(t.date, first && first.date);
+            });
 
             // Inactivos primero: la caché les gana si el tema se reactivó o se movió.
             // Hardcoded al final: lo cerrado y archivado le gana a todo, también a una copia vieja que quedó en la caché
