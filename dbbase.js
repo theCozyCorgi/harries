@@ -176153,6 +176153,47 @@ const DBModule = (function () {
 
     const delay = ms => new Promise(res => setTimeout(res, ms));
 
+    // === CANDADO DE ESCANEO (una sola pestaña escanea a la vez) ===
+    // La clave no empieza con "blackwave_" porque init borra esas claves viejas
+    const SCAN_LOCK_KEY = 'bwdb_scan_lock';
+    const SCAN_LOCK_TTL = 15000; // si la pestaña que escanea deja de renovarlo (se colgó), vence solo
+    const tabId = Math.random().toString(36).slice(2);
+
+    function readScanLock() {
+        try { return JSON.parse(localStorage.getItem(SCAN_LOCK_KEY)); } catch (e) { return null; }
+    }
+    function writeScanLock() {
+        try { localStorage.setItem(SCAN_LOCK_KEY, JSON.stringify({ id: tabId, t: Date.now() })); } catch (e) { }
+    }
+    function ownsScanLock() {
+        const l = readScanLock();
+        return !!l && l.id === tabId;
+    }
+    async function takeScanLock() {
+        const l = readScanLock();
+        if (l && l.id !== tabId && Date.now() - l.t < SCAN_LOCK_TTL) return false;
+        writeScanLock();
+        // Si dos pestañas lo toman a la vez, gana la última que escribió
+        await delay(100);
+        return ownsScanLock();
+    }
+    function releaseScanLock() {
+        if (ownsScanLock()) localStorage.removeItem(SCAN_LOCK_KEY);
+    }
+    // Al cambiar de página se suelta enseguida, así la página nueva no espera a que venza
+    window.addEventListener('pagehide', releaseScanLock);
+
+    // Vuelve a leer la caché guardada (otra pestaña pudo haberla actualizado)
+    function reloadCache() {
+        try {
+            const p = JSON.parse(localStorage.getItem(CACHE_KEY));
+            if (p && p.data) {
+                dynamicData.topics = p.data.topics || {};
+                dynamicData.dices = Array.isArray(p.data.dices) ? p.data.dices : [];
+            }
+        } catch (e) { }
+    }
+
     function normalizeDate(text) {
         if (!text) return "";
         let t = text.trim();
@@ -176842,17 +176883,38 @@ const DBModule = (function () {
                 return;
             }
 
-            const currentForum = forums[currentIndex];
+            // Una sola pestaña escanea a la vez: con varias abiertas, todas leían la misma zona al mismo tiempo y
+            // multiplicaban los pedidos. Las demás esperan y prueban de nuevo por si la que escanea se cierra.
+            if (!(await takeScanLock())) {
+                setTimeout(() => this.processNextBlock(), SCAN_LOCK_TTL);
+                return;
+            }
+            const heartbeat = setInterval(() => { if (ownsScanLock()) writeScanLock(); }, SCAN_LOCK_TTL / 3);
 
-            // "el pensadero" ya no se salta: scanForum solo re-lee temas hardcodeados (nunca)
-            // o dinámicos con cambios/movimiento real, así que incluirlo acá no sale caro
-            // y evita que un tema quede "abierto" para siempre por no actualizar el hardcode a mano.
-            console.log(`[Bloque ${currentIndex + 1}/${forums.length}] Procesando: ${currentForum.name}`);
-            await scanForum(currentForum.path, currentForum.name);
+            try {
+                // Mientras esperaba, otra pestaña pudo haber guardado temas o terminado zonas
+                reloadCache();
+                currentIndex = parseInt(localStorage.getItem(INDEX_KEY)) || 0;
+                if (currentIndex >= forums.length) {
+                    console.log("DBModule: Escaneo al día.");
+                    return;
+                }
 
-            this.save();
-            localStorage.setItem(INDEX_KEY, currentIndex + 1);
-            $(document).trigger("dbBlockFinished");
+                const currentForum = forums[currentIndex];
+
+                // "el pensadero" ya no se salta: scanForum solo re-lee temas hardcodeados (nunca)
+                // o dinámicos con cambios/movimiento real, así que incluirlo acá no sale caro
+                // y evita que un tema quede "abierto" para siempre por no actualizar el hardcode a mano.
+                console.log(`[Bloque ${currentIndex + 1}/${forums.length}] Procesando: ${currentForum.name}`);
+                await scanForum(currentForum.path, currentForum.name);
+
+                this.save();
+                localStorage.setItem(INDEX_KEY, currentIndex + 1);
+                $(document).trigger("dbBlockFinished");
+            } finally {
+                clearInterval(heartbeat);
+                releaseScanLock();
+            }
         },
 
         save: function () {
