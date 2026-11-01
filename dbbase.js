@@ -176489,6 +176489,8 @@ const DBModule = (function () {
             // que siguen vivos en dynamicData.
             const hardcodedTopic = typeof hardcodedTopics !== 'undefined' && hardcodedTopics[topicKey];
             const hardcodedInactive = typeof hardcodedInactiveTopics !== 'undefined' && hardcodedInactiveTopics[topicKey];
+            // Ya hardcodeado: la copia de la caché (de cuando seguía abierto) sobra y solo ocupa lugar
+            if (hardcodedTopic && dynamicData.topics[topicKey]) { delete dynamicData.topics[topicKey]; }
             const dynamicTopic = dynamicData.topics[topicKey];
 
             // Cantidad de respuestas que el listado del foro muestra AHORA para este tema
@@ -177000,8 +177002,10 @@ const DBModule = (function () {
                 }
             }
 
-            // Inactivos primero: si un tema congelado termina cerrado y hardcodeado en el pensadero, gana el pensadero
-            return mergeData([hardcodedInactiveTopics, hardcodedTopics, currentTopics], [hardcodedDices, currentDices]);
+            // Inactivos primero: la caché les gana si el tema se reactivó o se movió.
+            // Hardcoded al final: lo cerrado y archivado le gana a todo, también a una copia vieja que quedó en la caché
+            // de cuando el tema seguía abierto (scanForum ya no relee los hardcodeados, así que esa copia nunca se corrige)
+            return mergeData([hardcodedInactiveTopics, currentTopics, hardcodedTopics], [hardcodedDices, currentDices]);
         },
 
         scanExtraTopic: async function (url, spaceName = "Zona Especial") {
