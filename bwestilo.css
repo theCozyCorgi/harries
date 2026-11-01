@@ -11706,9 +11706,26 @@ button.bw-manifest-row[aria-expanded="true"] {
   display: none;
 }
 
+/* flex y no grid: si el contenedor es angosto (el foro en versión escritorio dentro del celular, donde
+   la media query no salta) las celdas bajan de línea en vez de pisarse. Como el ancho sale solo del
+   flex-basis, el encabezado y las filas cortan en el mismo lugar y las columnas siguen alineadas */
 .bw-manifest-table.puntos .bw-manifest-row {
-  grid-template-columns: minmax(0, 1.2fr) minmax(0, .6fr) minmax(0, 1fr) minmax(0, 1.15fr) minmax(0, 1.6fr);
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 4px;
+  hyphens: manual;
+  -webkit-hyphens: manual;
 }
+
+.bw-manifest-table.puntos .bw-manifest-row > * {
+  min-width: 0;
+}
+
+.bw-manifest-table.puntos .bw-manifest-row > :nth-child(1) { flex: 1.2 1 140px; }
+.bw-manifest-table.puntos .bw-manifest-row > :nth-child(2) { flex: .6 1 40px; }
+.bw-manifest-table.puntos .bw-manifest-row > :nth-child(3) { flex: 1 1 85px; }
+.bw-manifest-table.puntos .bw-manifest-row > :nth-child(4) { flex: 1.15 1 95px; }
+.bw-manifest-table.puntos .bw-manifest-row > :nth-child(5) { flex: 1.6 1 120px; }
 
 .bw-manifest-table.puntos strong {
   font: 700 13px var(--font-code);
@@ -12770,13 +12787,13 @@ mark.bw-manifest-marca {
   }
 
   /* sin encabezado, cada celda dice qué es; el conocimiento y el objetivo ocupan toda la fila */
-  .bw-manifest-table.puntos .bw-manifest-row {
-    grid-template-columns: 1fr 1fr 1fr;
+  .bw-manifest-table.puntos .bw-manifest-row > :nth-child(n) {
+    flex: 1 1 0;
   }
 
   .bw-manifest-table.puntos .bw-manifest-row > span:first-child,
-  .bw-manifest-table.puntos .bw-manifest-meta {
-    grid-column: 1 / -1;
+  .bw-manifest-table.puntos .bw-manifest-row > .bw-manifest-meta {
+    flex-basis: 100%;
   }
 
   .bw-manifest-table.puntos [data-label]::before {
