@@ -176779,6 +176779,7 @@ const DBModule = (function () {
 
     return {
         normalizeDate,
+        capAmbientDate,
 
         getLastCacheTime: function () {
             const last = { timestamp: null, zones: null };
