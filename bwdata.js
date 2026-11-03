@@ -1742,6 +1742,18 @@ const MissionsModule = (function () {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "10" }, "job": "invalid", "name": "invalid", }, "place": "la muestra del sedante",
           "cont": '<span>Al destapar el frasco, el aroma a miel resulta familiar. Es el mismo dulzor empalagoso que se registró en el informe de los laboratorios de San Mungo sobre las bebidas de Edwin Merrythought, Morgana Dempsey y Sirius Black, junto con el entumecimiento en los dedos de quienes las probaron. Si las tres víctimas bebieron este sedante, estaban dormidas o al menos sin sentir nada cuando las atacaron. Eso explicaría que Sirius apareciera inconsciente en su sillón.</span>',
         },
+        {
+          "visible": { "attr": { "sab": "+3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "donn con 10 puntos",
+          "cont": '<span>Donn ya no rellena sus vasos con agua, pero tampoco está tan suelto como aparenta. Estira las palabras y se ríe fuerte, aunque sigue contando las cartas que salieron. Con ese aguante, le falta mucho para perder el control.</span>',
+        },
+        {
+          "visible": { "attr": { "val": "min" }, "know": { "legeremancia": "20" }, "job": "invalid", "name": "invalid", }, "place": "donn con 10 puntos",
+          "cont": '<span>La mente de Donn sigue ordenada, pero las puertas ya no cierran del todo. Detrás de cada respuesta aparece el mismo gesto: una cuchara de madera, un barril abierto y un hilo de líquido dorado que cae dentro. Donn aparta el recuerdo en cuanto asoma.</span>',
+        },
+        {
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "10" }, "job": "invalid", "name": "invalid", }, "place": "frasco a los 10 puntos",
+          "cont": '<span>Al destapar el frasco, el aroma a miel resulta familiar. Es el mismo dulzor empalagoso que se registró en el informe de los laboratorios de San Mungo sobre las bebidas de Edwin Merrythought, Morgana Dempsey y Sirius Black, junto con el entumecimiento en los dedos de quienes las probaron. Si las tres víctimas bebieron este sedante, estaban dormidas o al menos sin sentir nada cuando las atacaron. Eso explicaría que Sirius apareciera inconsciente en su sillón.</span>',
+        },
       ],
 
       "searchs": {
@@ -1769,7 +1781,7 @@ const MissionsModule = (function () {
           "cont": '<span>De todos los registros que se habían revisado en el Departamento de Seguridad, en ninguno de esos lugares se mencionaba a Donn Dempsey. No tiene antecedentes, denuncias ni multas. Su nombre solo aparece en los registros de comercio: desde 1908 figura como titular de "Bodegas Dempsey", con todos los impuestos al día. Demasiado prolijo para alguien que vive del alcohol.</span>',
         },
         "preguntar sobre la relación con morgana": {
-          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "donn dempsey",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "donn con menos de 10 puntos",
           "cont": '<span>Donn suelta una risa que termina en tos y deja el habano sobre un cenicero desbordado.<br><br>—<strong>¿Relación? Hace cuarenta años que no cruzaba palabra con mi prima. Después de lo de Merlina, mi tío Brian y ella dejaron de hablarse. Él no quería que el negocio familiar se hundiera con ellos, así que me dejó todo a mí en su testamento. Morgana se quedó con los papeles hasta que tuviera que pasármelos, y bueno…</strong> —Abre los brazos y señala alrededor con el periódico—. <strong>Me pasó cenizas.</strong></span>',
         },
         "preguntar sobre el incendio de la destilería dempsey": {
@@ -1823,6 +1835,66 @@ const MissionsModule = (function () {
         "la banshee del maroon steed": {
           "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar sobre the maroon steed",
           "cont": '<span>—<strong>¿Aino? ¿Aino Lehtinen, la cantante? Murió.</strong> —Donn tira la ceniza del habano—. <strong>Tuvo un quiebre el Halloween pasado, en medio de una canción. Y no fue solo ella: su voz arrastró a todo el bar. Los que estaban ahí cuentan que cada uno vio a un familiar, alguien que había perdido, y después a todos los alcanzó lo mismo: una ola negra que entraba por las paredes y se los llevaba.</strong> —Bebe un trago—. <strong>Ella se desplomó esa noche y no volvió a despertar. Cosas de banshees. Yo no creo en esas tonterías, pero hay quien dice que fue una premonición.</strong></span>',
+        },
+        "donn con menos de 10 puntos": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "beber o no beber",
+          "cont": '<span>Donn baraja sin apuro, con la mano firme. Quien lo ve beber así entiende enseguida que ese whiskey le hace mucho menos efecto que a cualquier visitante.<br><br><span class="book-clipping"><br><div align="center"><strong>EL CONTADOR DE DONN</strong></div><br><strong>1.</strong> Cada vez que los personajes ganan una ronda, o que las dos cartas tienen el mismo número, Donn bebe un vaso. Cada vaso suma 5 puntos a su contador.<br><strong>2.</strong> Cuando Donn llega a un nuevo nivel, se debe abrir la tarjeta de ese nivel antes de revelar otra.<br><strong>3.</strong> Solo valen las tarjetas del nivel actual. Las de niveles anteriores que no se hayan abierto dejan de estar disponibles.<br><strong>4.</strong> Cada tema se abre una sola vez por nivel. Cuando Donn sube de nivel, se puede volver a preguntar por un tema ya abierto usando la tarjeta del nivel nuevo.<br></span></span>',
+        },
+        "donn con 10 puntos": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "donn con menos de 10 puntos",
+          "cont": '<span>Donn se desabrocha el chaleco con un suspiro de alivio y deja el periódico sobre el escritorio. Tiene los ojos brillantes y la sonrisa más fácil. Estira alguna palabra de vez en cuando, y sigue sirviendo sin derramar una gota.<br><br>—<strong>Ahora síii. Pregunten, caballeros, pregunten.</strong></span>',
+        },
+        "donn con 20 puntos": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "donn con 10 puntos",
+          "cont": '<span>Donn sigue el humo del habano con la mirada y lo espanta con la mano, como si le molestara lo que ve en él. Ya no se molesta en bajar la voz ni en elegir las palabras. Las cartas, en cambio, las sigue barajando sin un solo error.<br><br>—<strong>No me miren así. Otro ya estaría debajo de la mesa.</strong></span>',
+        },
+        "donn con 30 puntos": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "donn con 20 puntos",
+          "cont": '<span>Donn golpea dos veces la pared con los nudillos y le pide silencio. Después sigue hablando como si nada, con las palabras cada vez más largas y la camisa abierta. Se sirve otro vaso y lo llena hasta el borde con un pulso que no le corresponde a alguien en ese estado.<br><br>—<strong>Treinta añooos tomando esto. Las paredes hablan, sí. Uno aprende a no contestarles.</strong></span>',
+        },
+        "donn con 40 puntos": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "donn con 30 puntos",
+          "cont": '<span>Donn se apaga el habano en la palma de la mano y no parpadea. Mira la silla vacía que tiene al lado y le empuja un vaso que nadie toca. A partir de este momento, ya no todo lo que dice ocurrió de verdad, y es imposible saber cuánto.<br><br>—<strong>Ya voy, ya voy. Déjame terminar con estos dos.</strong></span>',
+        },
+        "donn con 50 puntos": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "donn con 40 puntos",
+          "cont": '<span>Donn intenta sacar una carta, la mira un largo rato y la deja boca arriba sobre la mesa. La cabeza se le va hacia atrás y la silla cruje. Empieza a roncar, todavía con el vaso en la mano y sin haber derramado nada. El juego termina y no hay forma de que siga contestando.</span>',
+        },
+        "relación con morgana a los 10 puntos": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "donn con 10 puntos",
+          "cont": '<span>Donn se ríe solo y hace girar el vaso entre los dedos.<br><br>—<strong>¿Cuareeenta años sin hablarle? Eso les dije, ¿no? Un poco de teatro, caballeros. Años después del incendio, la estirada de mi prima volvió a golpear mi puerta como si nada. Que cómo se planta, que cuándo se cosecha, que cómo se destila, que cómo se separa lo que sirve de una planta de lo que mata. Y se sentaba ahí, donde están ustedes, a corregirme la receta de mi abuelo en mi propio despacho.</strong> —Bebe—. <strong>Primero venía una vez al año; después, todos los meses. Perdón no me pidió nunca. Quería curar la licantropía. Eso decía.</strong></span>',
+        },
+        "incendio a los 10 puntos": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "donn con 10 puntos",
+          "cont": '<span>Donn abre un cajón sin que nadie se lo pida y deja sobre el escritorio una nota amarillenta, con una caligrafía elegante: <i>"Tendrás tu destilería, primo. Lo que quede de ella."</i><br><br>—<strong>Llegó la mañana después del incendio. Una semana antes de firmar, ¿eh? Seguridad dijo que fue un accidente. ¡Un accideeente!</strong> —Golpea la nota con un dedo—. <strong>Se aseguró de que no hubiera nadie adentro, eso sí. Pero también ardió el recetario de mi abuelo. Por eso tardé veinte años en volver a hacer este whiskey: lo tuve que sacar de memoria, a vasos.</strong></span>',
+        },
+        "merlina a los 10 puntos": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "donn con 10 puntos",
+          "cont": '<span>Al oír el nombre, Donn se queda callado, pero le dura poco.<br><br>—<strong>Pobre criatura, catorce años tenía…</strong> —Se detiene y se le escapa una risa corta—. <strong>Tiene. Tenía. No se hagan los tontos. Todos los meses llevo rosas a esa tumba, y una de esas veces la encontré abierta. En marzo me llegó una carta. Morgana le había dejado mi dirección por si algún día ella no volvía.</strong> —Saca del chaleco un sobre arrugado y lo vuelve a guardar—. <strong>Fui a verla creyendo que tenía que decirle que su hermana se había muerto, y resulta que ya habían pasado unos aurores y un nigromante. No sé quiénes eran. Merlina me dijo que eran los aurores más despectivos e insulsos que había visto en su vida. Dos sacos de estiércol de dragón con insignia del Ministerio, palabras textuales.</strong> —Levanta el vaso hacia ellos—. <strong>Espero que ustedes tengan mejores modales. Voy cada tanto, le llevo una botella, y a los diez minutos ya me está echando. Quedamos en que yo no sabía nada de ella si venía el Ministerio. Y mírenme, qué buen trabajo.</strong></span>',
+        },
+        "endulzante a los 10 puntos": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "donn con 10 puntos",
+          "cont": '<span>—<strong>No encontró ninguna cura. Encontró otra cosa.</strong> —Donn se inclina sobre el escritorio, que protesta bajo su peso—. <strong>Un endulzante. Parece jarabe de miel, nada más. Una cucharada y la persona se queda dormida, profundameeente dormida, y no siente nada: ni un corte, ni un hueso roto, ni la piel que se estira. Se lo daba a su hermana las noches de luna llena, para que pasara la transformación sin enterarse. Una cucharada duerme a un hombre. Y una gota…</strong> —Mira el vaso que tiene en la mano, se calla y lo vacía de un trago—. <strong>Otra carta, caballeros.</strong></span>',
+        },
+        "frasco a los 10 puntos": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "donn con 10 puntos",
+          "cont": '<span>Donn se estira con esfuerzo hasta un armario y vuelve con un frasco pequeño de vidrio azul, tapado con cera. Lo hace rodar por el escritorio sin ningún cuidado. Dentro hay un líquido espeso y dorado. En la etiqueta, con la letra elegante de Morgana, se lee: <i>"M. — Una cucharada antes de la luna. No más."</i><br><br>—<strong>Llévenselo. Es el último que me queda de los que hizo ella.</strong> —Lo piensa un momento y sonríe—. <strong>De los que hizo ella, dije.</strong></span>',
+        },
+        "investigación de morgana a los 10 puntos": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "donn con 10 puntos",
+          "cont": '<span>—<strong>Con los años dejó de hablar de la licantropía.</strong> —Donn agita una mano en el aire—. <strong>De golpe quería plantas que cerraran heridas, que regeneraran tejido. Devolver un cuerpo a como estaba antes, como si nunca le hubiera pasado nada. Probamos con todo: pociones, bálsamos, ungüentos, savias. Nada serviaaa, y ella ahí, con su cuadernito y esa cara de que la culpa era mía.</strong> —Bebe un trago largo—. <strong>Hasta que un día dejó de venir. Sin carta, sin nada. Lo siguiente que supe fue que había muerto.</strong></span>',
+        },
+        "relación con morgana a los 20 puntos": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "donn con 20 puntos",
+          "cont": '<span>Donn espanta el humo con la mano antes de contestar.<br><br>—<strong>¿Morgana? La muy bruja me quemó la vida y años después vino a pedirme clases. ¡A mí! Que cómo se planta, que cuándo se cosecha, que cómo se separa lo que sirve de una planta de lo que mata. Y yo, idiota, le enseñaaaba. Una vez al año, después todos los meses, sentada ahí con la espalda derecha, sin tocar un vaso. Ni una vez bebió conmigo, ¿saben? Ni una.</strong> —Se sirve otro—. <strong>Quería curar la licantropía. Eso decía.</strong></span>',
+        },
+        "relación con morgana a los 30 puntos": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "donn con 30 puntos",
+          "cont": '<span>Donn suelta una carcajada que le sacude todo el cuerpo y golpea la pared con los nudillos para callarla.<br><br>—<strong>¿Mi prima? Esa perra frígida. Cuarenta años con la nariz levantada, y cuando necesitó saber de plantas, ahí estaba, en mi puerta, con sus guantecitos. Nunca me pidió perdón. Nunca me dio las gracias. Todos los meses, sentadita ahí, anotaaando, anotando, como si yo fuera un libro.</strong> —Llena el vaso hasta el borde sin derramar nada y se queda mirándolo—. <strong>Y yo le abría la puerta. Todos los meses. Pónganlo en su informe.</strong></span>',
+        },
+        "relación con morgana a los 40 puntos": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "donn con 40 puntos",
+          "cont": '<span>Donn no contesta a los aurores. Se gira con esfuerzo hacia la silla vacía y le habla en voz baja, con una calma que no tuvo en toda la tarde.<br><br>—<strong>Te lo diiije. Te dije que no ibas a encontrar nada, perra terca. ¿Quién te lleva ahora las rosas, eh? Yo. Yo, que no me pediste perdón nunca.</strong> —Empuja el vaso hacia la silla y espera. Pasado un momento, frunce el ceño—. <strong>No, no les conté. Solo lo de la licantropía, como quedamos.</strong></span>',
         },
       },
 
