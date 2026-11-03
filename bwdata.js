@@ -8463,10 +8463,10 @@ const MissionsModule = (function () {
           "critico": '<span>La runa puede identificarse como Mannaz.</span>',
         },
         "interpretar runas": {
-          "leve": '<span>La interpretación es vaga: si se trata de la marca de Mercury, habla de algo que muere y no termina de irse. Si se trata del marco del espejo, de algo detenido.</span>',
-          "moderado": '<span>Si se interpreta la marca de Mercury, eihwaz habla del paso entre la vida y la muerte, y de lo que resiste a ese paso. Es una runa de guía en tiempos oscuros. Si se interpreta el marco del espejo, las runas piden que algo permanezca donde está, aunque su naturaleza sea partir.</span>',
-          "exitoso": '<span>Si se interpreta la marca de Mercury, para un nigromante eihwaz es mucho más que un símbolo de pertenencia. El tejo vive durante siglos, crece entre las tumbas y sus raíces atraviesan a los muertos: es el puente entre un mundo y el otro. Quien lleva la runa promete resistir, permanecer arraigado a la manada en los tiempos oscuros y atravesar la muerte sin quebrarse. Es la marca de quienes creen que lo que muere puede volver.<br><br>Si se interpreta el marco del espejo, las runas forman una súplica más que un conjuro: «Quédate, porque te necesito».</span>',
-          "critico": '<span>Si se interpreta la marca de Mercury, revela lo anterior y la intención con la que fue trazada: la manada se sabe golpeada, pero no vencida. Eihwaz se graba en cada nuevo miembro como un juramento: aunque caigan algunos, los lobos perduran y renacen. La captura de Lochlan y Grayson no fue un final para ellos, sino una poda.<br><br>Si se interpreta el marco del espejo, revela lo anterior y que la súplica se escribió para ser respondida cada noche. Sin la última runa, el eco ya no está obligado a quedarse, y no lo hará por mucho tiempo.</span>',
+          "leve": '<span>No es suficiente para revelar información.</span>',
+          "moderado": '<span>No es suficiente para revelar información.</span>',
+          "exitoso": '<span>La runa de Ehwaz podría interpretarse como amansar en equipo, lealtad, pero si se trata de Mannaz, habla de unidad y cooperación.</span>',
+          "critico": '<span>La runa de Ehwaz podría interpretarse como amansar en equipo, lealtad, pero si se trata de Mannaz, habla de unidad y cooperación.</span>',
         },
         "pacem animae": {
           "leve": '<span>Si se lanza sobre la silueta del espejo, la figura se aquieta un instante y vuelve a agitarse en cuanto alguien le habla. No alcanza para conversar. En cualquier otro lugar de la casa, no hay espíritu sobre el que actuar.</span>',
