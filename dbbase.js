@@ -127091,7 +127091,8 @@ const DBModule = (function () {
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cora M. Vance ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"accio\" (4)</strong><span>No sucede nada, capaz este hechizo no es para ti.</span></span></div></div></div>",
             "url": "r4625",
             "simpleTitle": "Investigación: promise in crimson",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Jasper R. Gryffith",
@@ -127099,7 +127100,7 @@ const DBModule = (function () {
                 9
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "pergamino de defunción sm-fd/1124-q"
@@ -127110,10 +127111,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jasper R. Gryffith ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">9</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jasper R. Gryffith ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"pergamino de defunción sm-fd/1124-q\" (9)</strong><span><span><span class=\"book-clipping\"><br><div align=\"center\"><strong>PERGAMINO DE DEFUNCIÓN</strong><br><i>Hospital San Mungo para Enfermedades y Heridas Mágicas – Archivo de los Caídos</i></div><br><strong>Nombre Completo del Paciente</strong>: Meliora Densley<br><strong>No. Expediente</strong>: SM-FD/1124-Q<br><strong>Fecha de Ingreso</strong>: 23 de Diciembre de 1911<br><strong>Fecha de fallecimiento</strong>: 14 de Febrero de 1912 - 21:56 hs.<br><br><strong>Edad</strong>: 63 años.<br><strong>Sangre</strong>: ☐ Pura &nbsp; &nbsp; ☐ Mestiza &nbsp; &nbsp; &nbsp;☒ Muggle &nbsp; &nbsp; &nbsp;☐ Criatura<br><br><strong>Motivo del ingreso</strong>: Envenenamiento progresivo por esporas de musgo iridiscente, inhaladas accidentalmente durante una limpieza en invernadero sellado.<br><strong>Causa de fallecimiento</strong>: Colapso pulmonar mágico por reacción alérgica extrema a estructuras cristalinas vegetales.<br><br><strong>Área médica asignada</strong>: Archivo de los caídos.<br><strong>Atendido por</strong>: M. Thatch, nigromante.<br><strong>Acompañante familiar</strong>: Hijo, Yan Powell<br><br><strong>Anexos</strong>:<br>☒ Firma de M. Thatch.<br>☒ Firma de Yan Powell<br>☒ Sello de defunción emitido</span></span></span></span></div></div></div>",
             "url": "r4669",
             "simpleTitle": "Investigación: promise in crimson",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Alastor Moody",
@@ -127121,7 +127123,7 @@ const DBModule = (function () {
                 20
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "pergamino de defunción sm-fd/873-a"
@@ -127132,10 +127134,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">20</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"pergamino de defunción sm-fd/873-a\" (20)</strong><span><span><span class=\"book-clipping\"><br><div align=\"center\"><strong>PERGAMINO DE DEFUNCIÓN</strong><br><i>Hospital San Mungo para Enfermedades y Heridas Mágicas – Archivo de los Caídos</i></div><br><strong>Nombre Completo del Paciente</strong>: Morwenna Daltry<br><strong>No. Expediente</strong>: SM-FD/873-A<br><strong>Fecha de Ingreso</strong>: 12 de junio de 1941<br><strong>Fecha de fallecimiento</strong>: 14 de junio de 1941 – 19:42 hs.<br><br><strong>Edad</strong>: 41 años.<br><strong>Sangre</strong>: ☐ Pura &nbsp; ☒ Mestiza &nbsp; ☐ Muggle &nbsp; ☐ Criatura<br><br><strong>Motivo del ingreso</strong>: Maleficio crónico no identificado alojado en sistema nervioso<br><strong>Causa de fallecimiento</strong>: Falla neuromágica fulminante. Se presume intervención de magia antigua o residual. Intervención de inefables solicitado post mortem.<br><br><strong>Área médica asignada</strong>: Archivo de los caídos.<br><strong>Atendido por</strong>: E. Rowntree, nigromante.<br><strong>Acompañante familiar</strong>: Padre, John Daltry<br><br><strong>Anexos</strong>:<br>☒ Firma de E. Rowntree.<br>☒ Firma de John Daltry<br>☒ Sello de defunción emitido</span></span></span></span></div></div></div>",
             "url": "r4764",
             "simpleTitle": "Investigación: promise in crimson",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Cora M. Vance",
@@ -127143,7 +127146,7 @@ const DBModule = (function () {
                 2
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "leer noticia 'fallece trágicamente merlina dempsey tras un violento ataque'"
@@ -127154,10 +127157,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cora M. Vance ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">2</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cora M. Vance ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"leer noticia 'fallece trágicamente merlina dempsey tras un violento ataque'\" (2)</strong><span><span><section class=\"bring-news\" title=\"fallece trágicamente merlina dempsey tras un violento ataque\"></section></span></span></span></div></div></div>",
             "url": "r4859",
             "simpleTitle": "Investigación: promise in crimson",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Jasper R. Gryffith",
@@ -127165,7 +127169,7 @@ const DBModule = (function () {
                 18
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "pergamino de defunción sm-fd/1293-g"
@@ -127176,10 +127180,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jasper R. Gryffith ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">18</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jasper R. Gryffith ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"pergamino de defunción sm-fd/1293-g\" (18)</strong><span><span><span class=\"book-clipping\"><br><div align=\"center\"><strong>PERGAMINO DE DEFUNCIÓN</strong><br><i>Hospital San Mungo para Enfermedades y Heridas Mágicas – Archivo de los Caídos</i></div><br><strong>Nombre Completo del Paciente</strong>: Merlina Dempsey<br><strong>No. Expediente</strong>: SM-FD/1293-G<br><strong>Fecha de Ingreso</strong>: 14 de Junio de 1907<br><strong>Fecha de fallecimiento</strong>: 14 de Junio de 1907 - 03:04 hs.<br><br><strong>Edad</strong>: 14 años.<br><strong>Sangre</strong>: ☐ Pura &nbsp; &nbsp; ☒ Mestiza &nbsp; &nbsp; &nbsp;☐ Muggle &nbsp; &nbsp; &nbsp;☐ Criatura<br><br><strong>Motivo del ingreso</strong>: violento ataque de licantropía.<br><strong>Causa de fallecimiento</strong>: El paciente mostraba heridas fatales físicas provocadas por una criatura mágica identificada como Hombre Lobo. Se identifica a la criatura a causa de los daños provocados por garras y mordeduras que coinciden con dicha criatura.<br><br><strong>Área médica asignada</strong>: Archivo de los caídos.<br><strong>Atendido por</strong>: X. Longbottom, nigromante.<br><strong>Acompañante familiar</strong>: Madre, Iris Dempsey (madre)<br><br><strong>Anexos</strong>:<br>☒ Firma de X. Longbottom.<br>☒ Firma de Iris Dempsey<br>☒ Sello de defunción emitido</span></span></span></span></div></div></div>",
             "url": "r4903",
             "simpleTitle": "Investigación: promise in crimson",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Alastor Moody",
@@ -127187,7 +127192,7 @@ const DBModule = (function () {
                 20
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "pergamino de defunción sm-fd/995-b"
@@ -127198,10 +127203,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">20</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"pergamino de defunción sm-fd/995-b\" (20)</strong><span><span><span class=\"book-clipping\"><br><div align=\"center\"><strong>PERGAMINO DE DEFUNCIÓN</strong><br><i>Hospital San Mungo para Enfermedades y Heridas Mágicas – Archivo de los Caídos</i></div><br><strong>Nombre Completo del Paciente</strong>: Marietta Dampier<br><strong>No. Expediente</strong>: SM-FD/995-B<br><strong>Fecha de Ingreso</strong>: 29 de octubre de 1922<br><strong>Fecha de fallecimiento</strong>: 02 de noviembre de 1922 – 06:04 hs<br><br><strong>Edad</strong>: 34 años.<br><strong>Sangre</strong>: ☐ Pura &nbsp;☒ Mestiza &nbsp;☐ Muggle &nbsp;☐ Criatura<br><br><strong>Motivo del ingreso</strong>: Congelación súbita durante práctica de encantamientos de frío.<br><strong>Causa de fallecimiento</strong>: El cuerpo conservó rasgos vitales durante tres días antes de apagarse sin dolor aparente.<br><br><strong>Área médica asignada</strong>: Archivo de los caídos.<br><strong>Atendido por</strong>: E. Rowntree, nigromante.<br><strong>Acompañante familiar</strong>: Esposo, Ian Clapton<br><br><strong>Anexos</strong>:<br>☒ Firma de E. Rowntree.<br>☒ Firma de Ian Clapton<br>☒ Sello de defunción emitido</span></span></span></span></div></div></div>",
             "url": "r5001",
             "simpleTitle": "Investigación: promise in crimson",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Cora M. Vance",
@@ -127209,7 +127215,7 @@ const DBModule = (function () {
                 16
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "informe de ingreso"
@@ -127220,10 +127226,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cora M. Vance ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">16</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cora M. Vance ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"informe de ingreso\" (16)</strong><span><span><span class=\"book-clipping\"><br><div align=\"center\"><strong>FICHA DE INGRESO</strong><br><i>Hospital San Mungo para Enfermedades y Heridas Mágicas – Archivo de los Caídos</i></div><br><strong>Nombre Completo del Paciente</strong>: Merlina Dempsey<br><strong>No. Expediente</strong>: SM-ING-14-06-1907/1293-G<br><strong>Fecha de Ingreso</strong>: 14 de Junio de 1907<br><br><strong>Edad</strong>: 14 años.<br><strong>Sangre</strong>: ☐ Pura ☒ Mestiza ☐ Muggle ☐ Criatura<br><br><strong>Motivo del ingreso</strong>: violento ataque de licantropía.<br><br><strong>Síntomas</strong>:<br>El sangrado irregular, más oscuro o con olor metálico más fuerte de lo normal. <br>Fiebre súbita en las siguientes horas.<br>Espasmos musculares alrededor de la herida.<br><br><strong>Notas</strong>: La paciente ingresa con el cuerpo colapsado a causa de graves heridas provocadas por un ataque de licantropía. <br><br>Étaín Sayre, sanadora, intentó cicatrizar las heridas con magia para detener las hemorragias, sin embargo, la herida es demasiado profunda para cerrarla con magia convencional. Ante ese resultado, Amaya Flamel, sanadora, intentó aplicar un ungüento de murtlap, pero obtuvo los mismos resultados.<br><br>Pese a los muchos intentos, a las 04:21 hs, anuncian la hora de fallecimiento.<br><br><classified style=\"--char: 25\"></classified><br><classified style=\"--char: 54\"></classified><br><classified style=\"--char: 34\"></classified><br><br><strong>Transferencia</strong>: Archivo de los caídos.<br><br><strong>Anexos</strong>:<br>☒ Firma de Étaín Sayre, sanadora.<br>☒ Firma de Amaya Flamel, sanadora.<br>☒ Firma de Iris Dempsey, madre de la paciente.<br>☒ Aprobación de traslado al Archivo de los Caídos.</span></span></span></span></div></div></div>",
             "url": "r5079",
             "simpleTitle": "Investigación: promise in crimson",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Jasper R. Gryffith",
@@ -127242,10 +127249,11 @@ const DBModule = (function () {
             "type": [
                 "encantamiento, neutral"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jasper R. Gryffith ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"aparecium\" (8)</strong><span>Todo lo oculto en el área es revelado con nitidez, incluyendo encantamientos avanzados de invisibilidad.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jasper R. Gryffith ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"aparecium\" (8)</strong><span>Todo lo oculto en el área es revelado con nitidez, incluyendo encantamientos avanzados de invisibilidad.<br /><br /><span><div class=\"mission-card\" data-ver=\"/u8,/u78\"><topes><i class=\"fa-solid fa-eye-low-vision\"></i></topes><req>Solo visible para atributo: int mayor a 1</req><span><span class=\"book-clipping\">El señor, Brian Dempsey, fue detenido tras impedir el correcto cuidado de su hija. Sus acciones posiblemente llevaron a que los sanadores no pudieran realizar sus correspondientes maniobras para mantener a Merlina viva. <br /><br />Merlina es trasladada para ser atendida por Fergus Vance, nigromante de turno.</span></span></div></span></span></span></div></div></div>",
             "url": "r5091",
             "simpleTitle": "Investigación: promise in crimson",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Alastor Moody",
@@ -127271,7 +127279,8 @@ const DBModule = (function () {
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"aritmancia\"><strong>Resultado  #1 \"gematria veritas\" (1)</strong><span>No sucede nada. Capaz deberías practicar más el hechizo.</span></span><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #2 \"revelio\" (2)</strong><span>Además de revelar todo con precisión en un radio de <em>+25</em> (100% del conocimiento en ENCANTAMIENTOS) metros, se obtiene información adicional sobre la magia detectada.</span></span></div></div></div>",
             "url": "r5102",
             "simpleTitle": "Investigación: promise in crimson",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Cora M. Vance",
@@ -127279,7 +127288,7 @@ const DBModule = (function () {
                 15
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "leer noticia 'fallece trágicamente merlina dempsey tras brote de licantropía'"
@@ -127290,10 +127299,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cora M. Vance ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">15</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cora M. Vance ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"leer noticia 'fallece trágicamente merlina dempsey tras brote de licantropía'\" (15)</strong><span><span><section class=\"bring-news\" title=\"fallece trágicamente merlina dempsey tras brote de licantropía\"></section></span></span></span></div></div></div>",
             "url": "r5236",
             "simpleTitle": "Investigación: promise in crimson",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Jasper R. Gryffith",
@@ -127301,7 +127311,7 @@ const DBModule = (function () {
                 20
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "leer noticia 'la familia dempsey denuncia falta de regulación contra la licantropía'"
@@ -127312,10 +127322,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jasper R. Gryffith ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">20</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jasper R. Gryffith ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"leer noticia 'la familia dempsey denuncia falta de regulación contra la licantropía'\" (20)</strong><span><span><section class=\"bring-news\" title=\"la familia dempsey denuncia falta de regulación contra la licantropía\"></section></span></span></span></div></div></div>",
             "url": "r5285",
             "simpleTitle": "Investigación: promise in crimson",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Alastor Moody",
@@ -127341,7 +127352,8 @@ const DBModule = (function () {
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"aritmancia\"><strong>Resultado  #1 \"gematria veritas\" (18)</strong><span>El código permanece en gran parte indescifrable.</span></span><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #2 \"revelio\" (5)</strong><span>Además de revelar todo con precisión en un radio de <em>+25</em> (100% del conocimiento en ENCANTAMIENTOS) metros, se obtiene información adicional sobre la magia detectada.</span></span></div></div></div>",
             "url": "r5341",
             "simpleTitle": "Investigación: promise in crimson",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Cora M. Vance",
@@ -127349,7 +127361,7 @@ const DBModule = (function () {
                 11
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "leer noticia 'trágica pérdida en la comunidad norirlandesa'"
@@ -127360,10 +127372,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cora M. Vance ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">11</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cora M. Vance ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"leer noticia 'trágica pérdida en la comunidad norirlandesa'\" (11)</strong><span><span><section class=\"bring-news\" title=\"trágica pérdida en la comunidad norirlandesa\"></section></span></span></span></div></div></div>",
             "url": "r5421",
             "simpleTitle": "Investigación: promise in crimson",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Jasper R. Gryffith",
@@ -127371,7 +127384,7 @@ const DBModule = (function () {
                 14
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "leer noticia 'incendio devasta la destilería dempsey'"
@@ -127382,10 +127395,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jasper R. Gryffith ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">14</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jasper R. Gryffith ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"leer noticia 'incendio devasta la destilería dempsey'\" (14)</strong><span><span><section class=\"bring-news\" title=\"incendio devasta la destilería dempsey\"></section></span></span></span></div></div></div>",
             "url": "r5427",
             "simpleTitle": "Investigación: promise in crimson",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Iarlaith C. Sayre",

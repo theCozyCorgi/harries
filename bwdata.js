@@ -4162,69 +4162,69 @@ const MissionsModule = (function () {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 5",
           "cont": '<span>Las 3 plumas de Jobberknoll se sumergen poco a poco. Se rizan al tocar el líquido y desaparecen sin ningún sonido.<adding class="check-cards" search="caldero 16"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
         },
-        "agregar 3 gotas de rocío de luna (ya hay raíz y escarabajo)": {
+        "agregar 3 gotas de rocío de luna (raíz y luego escarabajo)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 6",
           "cont": '<span>Las 3 gotas de rocío de luna caen una por una. Cada una deja un breve destello plateado antes de apagarse, y no se observa ninguna reacción clara.<adding class="check-cards" search="caldero 17"></adding></span>',
         },
-        "agregar 5 gotas de rocío de luna (ya hay raíz y escarabajo)": {
+        "agregar 5 gotas de rocío de luna (raíz y luego escarabajo)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 6",
           "cont": '<span>Las 5 gotas de rocío de luna caen una por una. Cada una deja un breve destello plateado antes de apagarse, y no se observa ninguna reacción clara.<adding class="check-cards" search="caldero 18"></adding></span>',
         },
-        "agregar 7 gotas de rocío de luna (ya hay raíz y escarabajo)": {
+        "agregar 7 gotas de rocío de luna (raíz y luego escarabajo)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 6",
-          "cont": '<span>Las 7 gotas de rocío de luna caen una por una. Cada una deja un breve destello plateado antes de apagarse, y no se observa ninguna reacción clara.<adding class="check-cards" search="caldero 17"></adding></span>',
+          "cont": '<span>Las 7 gotas de rocío de luna caen una por una. Cada una deja un breve destello plateado antes de apagarse, y no se observa ninguna reacción clara.<adding class="check-cards" search="caldero 19"></adding></span>',
         },
-        "agregar 1 pluma de Jobberknoll (ya hay raíz y escarabajo)": {
+        "agregar 1 pluma de Jobberknoll (raíz y luego escarabajo)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 6",
-          "cont": '<span>La pluma de Jobberknoll se sumerge poco a poco. Se riza al tocar el líquido y desaparece sin ningún sonido.<adding class="check-cards" search="caldero 19"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
+          "cont": '<span>La pluma de Jobberknoll se sumerge poco a poco. Se riza al tocar el líquido y desaparece sin ningún sonido.<adding class="check-cards" search="caldero 20"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
         },
-        "agregar 2 plumas de Jobberknoll (ya hay raíz y escarabajo)": {
+        "agregar 2 plumas de Jobberknoll (raíz y luego escarabajo)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 6",
-          "cont": '<span>Las 2 plumas de Jobberknoll se sumergen poco a poco. Se rizan al tocar el líquido y desaparecen sin ningún sonido.<adding class="check-cards" search="caldero 19"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
+          "cont": '<span>Las 2 plumas de Jobberknoll se sumergen poco a poco. Se rizan al tocar el líquido y desaparecen sin ningún sonido.<adding class="check-cards" search="caldero 20"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
         },
-        "agregar 3 plumas de Jobberknoll (ya hay raíz y escarabajo)": {
+        "agregar 3 plumas de Jobberknoll (raíz y luego escarabajo)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 6",
-          "cont": '<span>Las 3 plumas de Jobberknoll se sumergen poco a poco. Se rizan al tocar el líquido y desaparecen sin ningún sonido.<adding class="check-cards" search="caldero 19"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
+          "cont": '<span>Las 3 plumas de Jobberknoll se sumergen poco a poco. Se rizan al tocar el líquido y desaparecen sin ningún sonido.<adding class="check-cards" search="caldero 20"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
         },
-        "agregar 1 escama de sirena (ya hay raíz y escarabajo)": {
+        "agregar 1 escama de sirena (raíz y luego escarabajo)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 6",
-          "cont": '<span>La escama de sirena se desliza por la pared del caldero y se hunde sin hacer ondas.<adding class="check-cards" search="caldero 20"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
+          "cont": '<span>La escama de sirena se desliza por la pared del caldero y se hunde sin hacer ondas.<adding class="check-cards" search="caldero 21"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
         },
-        "agregar 3 escamas de sirena (ya hay raíz y escarabajo)": {
+        "agregar 3 escamas de sirena (raíz y luego escarabajo)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 6",
-          "cont": '<span>Las 3 escamas de sirena se deslizan por la pared del caldero y se hunden sin hacer ondas.<adding class="check-cards" search="caldero 20"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
+          "cont": '<span>Las 3 escamas de sirena se deslizan por la pared del caldero y se hunden sin hacer ondas.<adding class="check-cards" search="caldero 21"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
         },
-        "agregar 5 escamas de sirena (ya hay raíz y escarabajo)": {
+        "agregar 5 escamas de sirena (raíz y luego escarabajo)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 6",
-          "cont": '<span>Las 5 escamas de sirena se deslizan por la pared del caldero y se hunden sin hacer ondas.<adding class="check-cards" search="caldero 20"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
+          "cont": '<span>Las 5 escamas de sirena se deslizan por la pared del caldero y se hunden sin hacer ondas.<adding class="check-cards" search="caldero 21"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
         },
         "agregar el polvo de escarabajo azul (ya hay raíz y rocío)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 7",
-          "cont": '<span>El escarabajo azul iridiscente se pulveriza hasta obtener un polvo fino, que se espolvorea sobre el caldero. El polvo se hunde despacio y no se observa ninguna reacción clara.<adding class="check-cards" search="caldero 17"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
+          "cont": '<span>El escarabajo azul iridiscente se pulveriza hasta obtener un polvo fino, que se espolvorea sobre el caldero. El polvo se hunde despacio y no se observa ninguna reacción clara.<adding class="check-cards" search="caldero 22"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
         },
         "agregar 1 pluma de Jobberknoll (ya hay raíz y rocío)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 7",
-          "cont": '<span>La pluma de Jobberknoll se sumerge poco a poco. Se riza al tocar el líquido y desaparece sin ningún sonido.<adding class="check-cards" search="caldero 21"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
+          "cont": '<span>La pluma de Jobberknoll se sumerge poco a poco. Se riza al tocar el líquido y desaparece sin ningún sonido.<adding class="check-cards" search="caldero 23"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
         },
         "agregar 2 plumas de Jobberknoll (ya hay raíz y rocío)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 7",
-          "cont": '<span>Las 2 plumas de Jobberknoll se sumergen poco a poco. Se rizan al tocar el líquido y desaparecen sin ningún sonido.<adding class="check-cards" search="caldero 21"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
+          "cont": '<span>Las 2 plumas de Jobberknoll se sumergen poco a poco. Se rizan al tocar el líquido y desaparecen sin ningún sonido.<adding class="check-cards" search="caldero 23"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
         },
         "agregar 3 plumas de Jobberknoll (ya hay raíz y rocío)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 7",
-          "cont": '<span>Las 3 plumas de Jobberknoll se sumergen poco a poco. Se rizan al tocar el líquido y desaparecen sin ningún sonido.<adding class="check-cards" search="caldero 21"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
+          "cont": '<span>Las 3 plumas de Jobberknoll se sumergen poco a poco. Se rizan al tocar el líquido y desaparecen sin ningún sonido.<adding class="check-cards" search="caldero 23"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
         },
         "agregar 1 escama de sirena (ya hay raíz y rocío)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 7",
-          "cont": '<span>La escama de sirena se desliza por la pared del caldero y se hunde sin hacer ondas.<adding class="check-cards" search="caldero 22"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
+          "cont": '<span>La escama de sirena se desliza por la pared del caldero y se hunde sin hacer ondas.<adding class="check-cards" search="caldero 24"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
         },
         "agregar 3 escamas de sirena (ya hay raíz y rocío)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 7",
-          "cont": '<span>Las 3 escamas de sirena se deslizan por la pared del caldero y se hunden sin hacer ondas.<adding class="check-cards" search="caldero 22"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
+          "cont": '<span>Las 3 escamas de sirena se deslizan por la pared del caldero y se hunden sin hacer ondas.<adding class="check-cards" search="caldero 24"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
         },
         "agregar 5 escamas de sirena (ya hay raíz y rocío)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 7",
-          "cont": '<span>Las 5 escamas de sirena se deslizan por la pared del caldero y se hunden sin hacer ondas.<adding class="check-cards" search="caldero 22"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
+          "cont": '<span>Las 5 escamas de sirena se deslizan por la pared del caldero y se hunden sin hacer ondas.<adding class="check-cards" search="caldero 24"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
         },
         "agregar el polvo de escarabajo azul (ya hay raíz y plumas)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 8",
@@ -4232,15 +4232,15 @@ const MissionsModule = (function () {
         },
         "agregar 3 gotas de rocío de luna (ya hay raíz y plumas)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 8",
-          "cont": '<span>Las 3 gotas de rocío de luna caen una por una. Cada una deja un breve destello plateado antes de apagarse, y no se observa ninguna reacción clara.<adding class="check-cards" search="caldero 21"></adding></span>',
+          "cont": '<span>Las 3 gotas de rocío de luna caen una por una. Cada una deja un breve destello plateado antes de apagarse, y no se observa ninguna reacción clara.<adding class="check-cards" search="caldero 23"></adding></span>',
         },
         "agregar 5 gotas de rocío de luna (ya hay raíz y plumas)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 8",
-          "cont": '<span>Las 5 gotas de rocío de luna caen una por una. Cada una deja un breve destello plateado antes de apagarse, y no se observa ninguna reacción clara.<adding class="check-cards" search="caldero 21"></adding></span>',
+          "cont": '<span>Las 5 gotas de rocío de luna caen una por una. Cada una deja un breve destello plateado antes de apagarse, y no se observa ninguna reacción clara.<adding class="check-cards" search="caldero 23"></adding></span>',
         },
         "agregar 7 gotas de rocío de luna (ya hay raíz y plumas)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 8",
-          "cont": '<span>Las 7 gotas de rocío de luna caen una por una. Cada una deja un breve destello plateado antes de apagarse, y no se observa ninguna reacción clara.<adding class="check-cards" search="caldero 21"></adding></span>',
+          "cont": '<span>Las 7 gotas de rocío de luna caen una por una. Cada una deja un breve destello plateado antes de apagarse, y no se observa ninguna reacción clara.<adding class="check-cards" search="caldero 23"></adding></span>',
         },
         "agregar 1 escama de sirena (ya hay raíz y plumas)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 8",
@@ -4256,83 +4256,83 @@ const MissionsModule = (function () {
         },
         "agregar el polvo de escarabajo azul (ya hay raíz y escamas)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 9",
-          "cont": '<span>El escarabajo azul iridiscente se pulveriza hasta obtener un polvo fino, que se espolvorea sobre el caldero. El polvo se hunde despacio y no se observa ninguna reacción clara.<adding class="check-cards" search="caldero 20"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
+          "cont": '<span>El escarabajo azul iridiscente se pulveriza hasta obtener un polvo fino, que se espolvorea sobre el caldero. El polvo se hunde despacio y no se observa ninguna reacción clara.<adding class="check-cards" search="caldero 21"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
         },
         "agregar 3 gotas de rocío de luna (ya hay raíz y escamas)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 9",
-          "cont": '<span>Las 3 gotas de rocío de luna caen una por una. Cada una deja un breve destello plateado antes de apagarse, y no se observa ninguna reacción clara.<adding class="check-cards" search="caldero 22"></adding></span>',
+          "cont": '<span>Las 3 gotas de rocío de luna caen una por una. Cada una deja un breve destello plateado antes de apagarse, y no se observa ninguna reacción clara.<adding class="check-cards" search="caldero 24"></adding></span>',
         },
         "agregar 5 gotas de rocío de luna (ya hay raíz y escamas)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 9",
-          "cont": '<span>Las 5 gotas de rocío de luna caen una por una. Cada una deja un breve destello plateado antes de apagarse, y no se observa ninguna reacción clara.<adding class="check-cards" search="caldero 22"></adding></span>',
+          "cont": '<span>Las 5 gotas de rocío de luna caen una por una. Cada una deja un breve destello plateado antes de apagarse, y no se observa ninguna reacción clara.<adding class="check-cards" search="caldero 24"></adding></span>',
         },
         "agregar 7 gotas de rocío de luna (ya hay raíz y escamas)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 9",
-          "cont": '<span>Las 7 gotas de rocío de luna caen una por una. Cada una deja un breve destello plateado antes de apagarse, y no se observa ninguna reacción clara.<adding class="check-cards" search="caldero 22"></adding></span>',
+          "cont": '<span>Las 7 gotas de rocío de luna caen una por una. Cada una deja un breve destello plateado antes de apagarse, y no se observa ninguna reacción clara.<adding class="check-cards" search="caldero 24"></adding></span>',
         },
         "agregar 1 pluma de Jobberknoll (ya hay raíz y escamas)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 9",
-          "cont": '<span>La pluma de Jobberknoll se sumerge poco a poco. Se riza al tocar el líquido y desaparece sin ningún sonido.<adding class="check-cards" search="caldero 23"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
+          "cont": '<span>La pluma de Jobberknoll se sumerge poco a poco. Se riza al tocar el líquido y desaparece sin ningún sonido.<adding class="check-cards" search="caldero 25"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
         },
         "agregar 2 plumas de Jobberknoll (ya hay raíz y escamas)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 9",
-          "cont": '<span>Las 2 plumas de Jobberknoll se sumergen poco a poco. Se rizan al tocar el líquido y desaparecen sin ningún sonido.<adding class="check-cards" search="caldero 23"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
+          "cont": '<span>Las 2 plumas de Jobberknoll se sumergen poco a poco. Se rizan al tocar el líquido y desaparecen sin ningún sonido.<adding class="check-cards" search="caldero 25"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
         },
         "agregar 3 plumas de Jobberknoll (ya hay raíz y escamas)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 9",
-          "cont": '<span>Las 3 plumas de Jobberknoll se sumergen poco a poco. Se rizan al tocar el líquido y desaparecen sin ningún sonido.<adding class="check-cards" search="caldero 23"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
+          "cont": '<span>Las 3 plumas de Jobberknoll se sumergen poco a poco. Se rizan al tocar el líquido y desaparecen sin ningún sonido.<adding class="check-cards" search="caldero 25"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
         },
-        "agregar 3 gotas de rocío de luna (ya hay raíz y escarabajo)\u200b": {
+        "agregar 3 gotas de rocío de luna (escarabajo y luego raíz)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 10",
-          "cont": '<span>Las 3 gotas de rocío de luna caen una por una. Cada una deja un breve destello plateado antes de apagarse, y no se observa ninguna reacción clara.<adding class="check-cards" search="caldero 17"></adding></span>',
+          "cont": '<span>Las 3 gotas de rocío de luna caen una por una. Cada una deja un breve destello plateado antes de apagarse, y no se observa ninguna reacción clara.<adding class="check-cards" search="caldero 22"></adding></span>',
         },
-        "agregar 5 gotas de rocío de luna (ya hay raíz y escarabajo)\u200b": {
+        "agregar 5 gotas de rocío de luna (escarabajo y luego raíz)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 10",
-          "cont": '<span>Las 5 gotas de rocío de luna caen una por una. Cada una deja un breve destello plateado antes de apagarse, y no se observa ninguna reacción clara.<adding class="check-cards" search="caldero 17"></adding></span>',
+          "cont": '<span>Las 5 gotas de rocío de luna caen una por una. Cada una deja un breve destello plateado antes de apagarse, y no se observa ninguna reacción clara.<adding class="check-cards" search="caldero 22"></adding></span>',
         },
-        "agregar 7 gotas de rocío de luna (ya hay raíz y escarabajo)\u200b": {
+        "agregar 7 gotas de rocío de luna (escarabajo y luego raíz)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 10",
-          "cont": '<span>Las 7 gotas de rocío de luna caen una por una. Cada una deja un breve destello plateado antes de apagarse, y no se observa ninguna reacción clara.<adding class="check-cards" search="caldero 17"></adding></span>',
+          "cont": '<span>Las 7 gotas de rocío de luna caen una por una. Cada una deja un breve destello plateado antes de apagarse, y no se observa ninguna reacción clara.<adding class="check-cards" search="caldero 22"></adding></span>',
         },
-        "agregar 1 pluma de Jobberknoll (ya hay raíz y escarabajo)\u200b": {
+        "agregar 1 pluma de Jobberknoll (escarabajo y luego raíz)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 10",
-          "cont": '<span>La pluma de Jobberknoll se sumerge poco a poco. Se riza al tocar el líquido y desaparece sin ningún sonido.<adding class="check-cards" search="caldero 19"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
+          "cont": '<span>La pluma de Jobberknoll se sumerge poco a poco. Se riza al tocar el líquido y desaparece sin ningún sonido.<adding class="check-cards" search="caldero 20"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
         },
-        "agregar 2 plumas de Jobberknoll (ya hay raíz y escarabajo)\u200b": {
+        "agregar 2 plumas de Jobberknoll (escarabajo y luego raíz)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 10",
-          "cont": '<span>Las 2 plumas de Jobberknoll se sumergen poco a poco. Se rizan al tocar el líquido y desaparecen sin ningún sonido.<adding class="check-cards" search="caldero 19"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
+          "cont": '<span>Las 2 plumas de Jobberknoll se sumergen poco a poco. Se rizan al tocar el líquido y desaparecen sin ningún sonido.<adding class="check-cards" search="caldero 20"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
         },
-        "agregar 3 plumas de Jobberknoll (ya hay raíz y escarabajo)\u200b": {
+        "agregar 3 plumas de Jobberknoll (escarabajo y luego raíz)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 10",
-          "cont": '<span>Las 3 plumas de Jobberknoll se sumergen poco a poco. Se rizan al tocar el líquido y desaparecen sin ningún sonido.<adding class="check-cards" search="caldero 19"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
+          "cont": '<span>Las 3 plumas de Jobberknoll se sumergen poco a poco. Se rizan al tocar el líquido y desaparecen sin ningún sonido.<adding class="check-cards" search="caldero 20"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
         },
-        "agregar 1 escama de sirena (ya hay raíz y escarabajo)\u200b": {
+        "agregar 1 escama de sirena (escarabajo y luego raíz)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 10",
-          "cont": '<span>La escama de sirena se desliza por la pared del caldero y se hunde sin hacer ondas.<adding class="check-cards" search="caldero 20"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
+          "cont": '<span>La escama de sirena se desliza por la pared del caldero y se hunde sin hacer ondas.<adding class="check-cards" search="caldero 21"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
         },
-        "agregar 3 escamas de sirena (ya hay raíz y escarabajo)\u200b": {
+        "agregar 3 escamas de sirena (escarabajo y luego raíz)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 10",
-          "cont": '<span>Las 3 escamas de sirena se deslizan por la pared del caldero y se hunden sin hacer ondas.<adding class="check-cards" search="caldero 20"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
+          "cont": '<span>Las 3 escamas de sirena se deslizan por la pared del caldero y se hunden sin hacer ondas.<adding class="check-cards" search="caldero 21"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
         },
-        "agregar 5 escamas de sirena (ya hay raíz y escarabajo)\u200b": {
+        "agregar 5 escamas de sirena (escarabajo y luego raíz)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 10",
-          "cont": '<span>Las 5 escamas de sirena se deslizan por la pared del caldero y se hunden sin hacer ondas.<adding class="check-cards" search="caldero 20"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
+          "cont": '<span>Las 5 escamas de sirena se deslizan por la pared del caldero y se hunden sin hacer ondas.<adding class="check-cards" search="caldero 21"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
         },
         "agregar la savia de la raíz de asfódelo (ya hay escarabajo y rocío)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 11",
-          "cont": '<span>La raíz de asfódelo se maja hasta soltar una savia densa y amarga, que se vierte en el caldero. No se observa ninguna reacción clara.<adding class="check-cards" search="caldero 17"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
+          "cont": '<span>La raíz de asfódelo se maja hasta soltar una savia densa y amarga, que se vierte en el caldero. No se observa ninguna reacción clara.<adding class="check-cards" search="caldero 22"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
         },
         "agregar 1 pluma de Jobberknoll (ya hay escarabajo y rocío)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 11",
-          "cont": '<span>La pluma de Jobberknoll se sumerge poco a poco. Se riza al tocar el líquido y desaparece sin ningún sonido.<adding class="check-cards" search="caldero 24"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
+          "cont": '<span>La pluma de Jobberknoll se sumerge poco a poco. Se riza al tocar el líquido y desaparece sin ningún sonido.<adding class="check-cards" search="caldero 26"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
         },
         "agregar 2 plumas de Jobberknoll (ya hay escarabajo y rocío)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 11",
-          "cont": '<span>Las 2 plumas de Jobberknoll se sumergen poco a poco. Se rizan al tocar el líquido y desaparecen sin ningún sonido.<adding class="check-cards" search="caldero 24"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
+          "cont": '<span>Las 2 plumas de Jobberknoll se sumergen poco a poco. Se rizan al tocar el líquido y desaparecen sin ningún sonido.<adding class="check-cards" search="caldero 26"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
         },
         "agregar 3 plumas de Jobberknoll (ya hay escarabajo y rocío)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 11",
-          "cont": '<span>Las 3 plumas de Jobberknoll se sumergen poco a poco. Se rizan al tocar el líquido y desaparecen sin ningún sonido.<adding class="check-cards" search="caldero 24"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
+          "cont": '<span>Las 3 plumas de Jobberknoll se sumergen poco a poco. Se rizan al tocar el líquido y desaparecen sin ningún sonido.<adding class="check-cards" search="caldero 26"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
         },
         "agregar 1 escama de sirena (ya hay escarabajo y rocío)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 11",
@@ -4348,19 +4348,19 @@ const MissionsModule = (function () {
         },
         "agregar la savia de la raíz de asfódelo (ya hay escarabajo y plumas)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 12",
-          "cont": '<span>La raíz de asfódelo se maja hasta soltar una savia densa y amarga, que se vierte en el caldero. No se observa ninguna reacción clara.<adding class="check-cards" search="caldero 19"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
+          "cont": '<span>La raíz de asfódelo se maja hasta soltar una savia densa y amarga, que se vierte en el caldero. No se observa ninguna reacción clara.<adding class="check-cards" search="caldero 20"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
         },
         "agregar 3 gotas de rocío de luna (ya hay escarabajo y plumas)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 12",
-          "cont": '<span>Las 3 gotas de rocío de luna caen una por una. Cada una deja un breve destello plateado antes de apagarse, y no se observa ninguna reacción clara.<adding class="check-cards" search="caldero 24"></adding></span>',
+          "cont": '<span>Las 3 gotas de rocío de luna caen una por una. Cada una deja un breve destello plateado antes de apagarse, y no se observa ninguna reacción clara.<adding class="check-cards" search="caldero 26"></adding></span>',
         },
         "agregar 5 gotas de rocío de luna (ya hay escarabajo y plumas)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 12",
-          "cont": '<span>Las 5 gotas de rocío de luna caen una por una. Cada una deja un breve destello plateado antes de apagarse, y no se observa ninguna reacción clara.<adding class="check-cards" search="caldero 24"></adding></span>',
+          "cont": '<span>Las 5 gotas de rocío de luna caen una por una. Cada una deja un breve destello plateado antes de apagarse, y no se observa ninguna reacción clara.<adding class="check-cards" search="caldero 26"></adding></span>',
         },
         "agregar 7 gotas de rocío de luna (ya hay escarabajo y plumas)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 12",
-          "cont": '<span>Las 7 gotas de rocío de luna caen una por una. Cada una deja un breve destello plateado antes de apagarse, y no se observa ninguna reacción clara.<adding class="check-cards" search="caldero 24"></adding></span>',
+          "cont": '<span>Las 7 gotas de rocío de luna caen una por una. Cada una deja un breve destello plateado antes de apagarse, y no se observa ninguna reacción clara.<adding class="check-cards" search="caldero 26"></adding></span>',
         },
         "agregar 1 escama de sirena (ya hay escarabajo y plumas)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 12",
@@ -4376,35 +4376,35 @@ const MissionsModule = (function () {
         },
         "agregar la savia de la raíz de asfódelo (ya hay escarabajo y escamas)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 13",
-          "cont": '<span>La raíz de asfódelo se maja hasta soltar una savia densa y amarga, que se vierte en el caldero. No se observa ninguna reacción clara.<adding class="check-cards" search="caldero 20"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
+          "cont": '<span>La raíz de asfódelo se maja hasta soltar una savia densa y amarga, que se vierte en el caldero. No se observa ninguna reacción clara.<adding class="check-cards" search="caldero 21"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
         },
         "agregar 3 gotas de rocío de luna (ya hay escarabajo y escamas)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 13",
-          "cont": '<span>Las 3 gotas de rocío de luna caen una por una. Cada una deja un breve destello plateado antes de apagarse, y no se observa ninguna reacción clara.<adding class="check-cards" search="caldero 25"></adding></span>',
+          "cont": '<span>Las 3 gotas de rocío de luna caen una por una. Cada una deja un breve destello plateado antes de apagarse, y no se observa ninguna reacción clara.<adding class="check-cards" search="caldero 27"></adding></span>',
         },
         "agregar 5 gotas de rocío de luna (ya hay escarabajo y escamas)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 13",
-          "cont": '<span>Las 5 gotas de rocío de luna caen una por una. Cada una deja un breve destello plateado antes de apagarse, y no se observa ninguna reacción clara.<adding class="check-cards" search="caldero 25"></adding></span>',
+          "cont": '<span>Las 5 gotas de rocío de luna caen una por una. Cada una deja un breve destello plateado antes de apagarse, y no se observa ninguna reacción clara.<adding class="check-cards" search="caldero 27"></adding></span>',
         },
         "agregar 7 gotas de rocío de luna (ya hay escarabajo y escamas)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 13",
-          "cont": '<span>Las 7 gotas de rocío de luna caen una por una. Cada una deja un breve destello plateado antes de apagarse, y no se observa ninguna reacción clara.<adding class="check-cards" search="caldero 25"></adding></span>',
+          "cont": '<span>Las 7 gotas de rocío de luna caen una por una. Cada una deja un breve destello plateado antes de apagarse, y no se observa ninguna reacción clara.<adding class="check-cards" search="caldero 27"></adding></span>',
         },
         "agregar 1 pluma de Jobberknoll (ya hay escarabajo y escamas)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 13",
-          "cont": '<span>La pluma de Jobberknoll se sumerge poco a poco. Se riza al tocar el líquido y desaparece sin ningún sonido.<adding class="check-cards" search="caldero 26"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
+          "cont": '<span>La pluma de Jobberknoll se sumerge poco a poco. Se riza al tocar el líquido y desaparece sin ningún sonido.<adding class="check-cards" search="caldero 28"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
         },
         "agregar 2 plumas de Jobberknoll (ya hay escarabajo y escamas)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 13",
-          "cont": '<span>Las 2 plumas de Jobberknoll se sumergen poco a poco. Se rizan al tocar el líquido y desaparecen sin ningún sonido.<adding class="check-cards" search="caldero 26"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
+          "cont": '<span>Las 2 plumas de Jobberknoll se sumergen poco a poco. Se rizan al tocar el líquido y desaparecen sin ningún sonido.<adding class="check-cards" search="caldero 28"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
         },
         "agregar 3 plumas de Jobberknoll (ya hay escarabajo y escamas)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 13",
-          "cont": '<span>Las 3 plumas de Jobberknoll se sumergen poco a poco. Se rizan al tocar el líquido y desaparecen sin ningún sonido.<adding class="check-cards" search="caldero 26"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
+          "cont": '<span>Las 3 plumas de Jobberknoll se sumergen poco a poco. Se rizan al tocar el líquido y desaparecen sin ningún sonido.<adding class="check-cards" search="caldero 28"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
         },
         "agregar la savia de la raíz de asfódelo (ya hay rocío y plumas)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 14",
-          "cont": '<span>La raíz de asfódelo se maja hasta soltar una savia densa y amarga, que se vierte en el caldero. No se observa ninguna reacción clara.<adding class="check-cards" search="caldero 21"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
+          "cont": '<span>La raíz de asfódelo se maja hasta soltar una savia densa y amarga, que se vierte en el caldero. No se observa ninguna reacción clara.<adding class="check-cards" search="caldero 23"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
         },
         "agregar el polvo de escarabajo azul (ya hay rocío y plumas)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 14",
@@ -4412,39 +4412,39 @@ const MissionsModule = (function () {
         },
         "agregar 1 escama de sirena (ya hay rocío y plumas)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 14",
-          "cont": '<span>La escama de sirena se desliza por la pared del caldero y se hunde sin hacer ondas.<adding class="check-cards" search="caldero 27"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
+          "cont": '<span>La escama de sirena se desliza por la pared del caldero y se hunde sin hacer ondas.<adding class="check-cards" search="caldero 29"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
         },
         "agregar 3 escamas de sirena (ya hay rocío y plumas)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 14",
-          "cont": '<span>Las 3 escamas de sirena se deslizan por la pared del caldero y se hunden sin hacer ondas.<adding class="check-cards" search="caldero 27"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
+          "cont": '<span>Las 3 escamas de sirena se deslizan por la pared del caldero y se hunden sin hacer ondas.<adding class="check-cards" search="caldero 29"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
         },
         "agregar 5 escamas de sirena (ya hay rocío y plumas)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 14",
-          "cont": '<span>Las 5 escamas de sirena se deslizan por la pared del caldero y se hunden sin hacer ondas.<adding class="check-cards" search="caldero 27"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
+          "cont": '<span>Las 5 escamas de sirena se deslizan por la pared del caldero y se hunden sin hacer ondas.<adding class="check-cards" search="caldero 29"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
         },
         "agregar la savia de la raíz de asfódelo (ya hay rocío y escamas)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 15",
-          "cont": '<span>La raíz de asfódelo se maja hasta soltar una savia densa y amarga, que se vierte en el caldero. No se observa ninguna reacción clara.<adding class="check-cards" search="caldero 22"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
+          "cont": '<span>La raíz de asfódelo se maja hasta soltar una savia densa y amarga, que se vierte en el caldero. No se observa ninguna reacción clara.<adding class="check-cards" search="caldero 24"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
         },
         "agregar el polvo de escarabajo azul (ya hay rocío y escamas)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 15",
-          "cont": '<span>El escarabajo azul iridiscente se pulveriza hasta obtener un polvo fino, que se espolvorea sobre el caldero. El polvo se hunde despacio y no se observa ninguna reacción clara.<adding class="check-cards" search="caldero 25"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
+          "cont": '<span>El escarabajo azul iridiscente se pulveriza hasta obtener un polvo fino, que se espolvorea sobre el caldero. El polvo se hunde despacio y no se observa ninguna reacción clara.<adding class="check-cards" search="caldero 27"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
         },
         "agregar 1 pluma de Jobberknoll (ya hay rocío y escamas)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 15",
-          "cont": '<span>La pluma de Jobberknoll se sumerge poco a poco. Se riza al tocar el líquido y desaparece sin ningún sonido.<adding class="check-cards" search="caldero 27"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
+          "cont": '<span>La pluma de Jobberknoll se sumerge poco a poco. Se riza al tocar el líquido y desaparece sin ningún sonido.<adding class="check-cards" search="caldero 29"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
         },
         "agregar 2 plumas de Jobberknoll (ya hay rocío y escamas)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 15",
-          "cont": '<span>Las 2 plumas de Jobberknoll se sumergen poco a poco. Se rizan al tocar el líquido y desaparecen sin ningún sonido.<adding class="check-cards" search="caldero 27"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
+          "cont": '<span>Las 2 plumas de Jobberknoll se sumergen poco a poco. Se rizan al tocar el líquido y desaparecen sin ningún sonido.<adding class="check-cards" search="caldero 29"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
         },
         "agregar 3 plumas de Jobberknoll (ya hay rocío y escamas)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 15",
-          "cont": '<span>Las 3 plumas de Jobberknoll se sumergen poco a poco. Se rizan al tocar el líquido y desaparecen sin ningún sonido.<adding class="check-cards" search="caldero 27"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
+          "cont": '<span>Las 3 plumas de Jobberknoll se sumergen poco a poco. Se rizan al tocar el líquido y desaparecen sin ningún sonido.<adding class="check-cards" search="caldero 29"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
         },
         "agregar la savia de la raíz de asfódelo (ya hay plumas y escamas)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 16",
-          "cont": '<span>La raíz de asfódelo se maja hasta soltar una savia densa y amarga, que se vierte en el caldero. No se observa ninguna reacción clara.<adding class="check-cards" search="caldero 23"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
+          "cont": '<span>La raíz de asfódelo se maja hasta soltar una savia densa y amarga, que se vierte en el caldero. No se observa ninguna reacción clara.<adding class="check-cards" search="caldero 25"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
         },
         "agregar el polvo de escarabajo azul (ya hay plumas y escamas)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 16",
@@ -4452,282 +4452,426 @@ const MissionsModule = (function () {
         },
         "agregar 3 gotas de rocío de luna (ya hay plumas y escamas)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 16",
-          "cont": '<span>Las 3 gotas de rocío de luna caen una por una. Cada una deja un breve destello plateado antes de apagarse, y no se observa ninguna reacción clara.<adding class="check-cards" search="caldero 27"></adding></span>',
+          "cont": '<span>Las 3 gotas de rocío de luna caen una por una. Cada una deja un breve destello plateado antes de apagarse, y no se observa ninguna reacción clara.<adding class="check-cards" search="caldero 29"></adding></span>',
         },
         "agregar 5 gotas de rocío de luna (ya hay plumas y escamas)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 16",
-          "cont": '<span>Las 5 gotas de rocío de luna caen una por una. Cada una deja un breve destello plateado antes de apagarse, y no se observa ninguna reacción clara.<adding class="check-cards" search="caldero 27"></adding></span>',
+          "cont": '<span>Las 5 gotas de rocío de luna caen una por una. Cada una deja un breve destello plateado antes de apagarse, y no se observa ninguna reacción clara.<adding class="check-cards" search="caldero 29"></adding></span>',
         },
         "agregar 7 gotas de rocío de luna (ya hay plumas y escamas)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 16",
-          "cont": '<span>Las 7 gotas de rocío de luna caen una por una. Cada una deja un breve destello plateado antes de apagarse, y no se observa ninguna reacción clara.<adding class="check-cards" search="caldero 27"></adding></span>',
+          "cont": '<span>Las 7 gotas de rocío de luna caen una por una. Cada una deja un breve destello plateado antes de apagarse, y no se observa ninguna reacción clara.<adding class="check-cards" search="caldero 29"></adding></span>',
         },
-        "agregar 1 pluma de Jobberknoll (ya hay raíz, escarabajo y rocío)\u200b": {
+        "agregar 1 pluma de Jobberknoll (raíz, escarabajo y luego 3 gotas)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 17",
-          "cont": '<span>La pluma de Jobberknoll se sumerge poco a poco. Se riza al tocar el líquido y desaparece sin ningún sonido.<adding class="check-cards" search="caldero 28"></adding></span>',
+          "cont": '<span>La pluma de Jobberknoll se sumerge poco a poco. Se riza al tocar el líquido y desaparece sin ningún sonido.<adding class="check-cards" search="caldero 30"></adding></span>',
         },
-        "agregar 2 plumas de Jobberknoll (ya hay raíz, escarabajo y rocío)\u200b": {
+        "agregar 2 plumas de Jobberknoll (raíz, escarabajo y luego 3 gotas)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 17",
-          "cont": '<span>Las 2 plumas de Jobberknoll se sumergen poco a poco. Se rizan al tocar el líquido y desaparecen sin ningún sonido.<adding class="check-cards" search="caldero 29"></adding></span>',
-        },
-        "agregar 3 plumas de Jobberknoll (ya hay raíz, escarabajo y rocío)\u200b": {
-          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 17",
-          "cont": '<span>Las 3 plumas de Jobberknoll se sumergen poco a poco. Se rizan al tocar el líquido y desaparecen sin ningún sonido.<adding class="check-cards" search="caldero 29"></adding></span>',
-        },
-        "agregar 1 escama de sirena (ya hay raíz, escarabajo y rocío)\u200b": {
-          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 17",
-          "cont": '<span>La escama de sirena se desliza por la pared del caldero y se hunde sin hacer ondas.<adding class="check-cards" search="caldero 30"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
-        },
-        "agregar 3 escamas de sirena (ya hay raíz, escarabajo y rocío)\u200b": {
-          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 17",
-          "cont": '<span>Las 3 escamas de sirena se deslizan por la pared del caldero y se hunden sin hacer ondas.<adding class="check-cards" search="caldero 30"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
-        },
-        "agregar 5 escamas de sirena (ya hay raíz, escarabajo y rocío)\u200b": {
-          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 17",
-          "cont": '<span>Las 5 escamas de sirena se deslizan por la pared del caldero y se hunden sin hacer ondas.<adding class="check-cards" search="caldero 30"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
-        },
-        "agregar 1 pluma de Jobberknoll (ya hay raíz, escarabajo y rocío)": {
-          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 18",
-          "cont": '<span>La pluma de Jobberknoll se sumerge poco a poco. Se riza al tocar el líquido y desaparece sin ningún sonido.<adding class="check-cards" search="caldero 28"></adding></span>',
-        },
-        "agregar 2 plumas de Jobberknoll (ya hay raíz, escarabajo y rocío)": {
-          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 18",
           "cont": '<span>Las 2 plumas de Jobberknoll se sumergen poco a poco. Se rizan al tocar el líquido y desaparecen sin ningún sonido.<adding class="check-cards" search="caldero 31"></adding></span>',
         },
-        "agregar 3 plumas de Jobberknoll (ya hay raíz, escarabajo y rocío)": {
-          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 18",
-          "cont": '<span>Las 3 plumas de Jobberknoll se sumergen poco a poco. Se rizan al tocar el líquido y desaparecen sin ningún sonido.<adding class="check-cards" search="caldero 29"></adding></span>',
+        "agregar 3 plumas de Jobberknoll (raíz, escarabajo y luego 3 gotas)": {
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 17",
+          "cont": '<span>Las 3 plumas de Jobberknoll se sumergen poco a poco. Se rizan al tocar el líquido y desaparecen sin ningún sonido.<adding class="check-cards" search="caldero 32"></adding></span>',
         },
-        "agregar 1 escama de sirena (ya hay raíz, escarabajo y rocío)": {
-          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 18",
-          "cont": '<span>La escama de sirena se desliza por la pared del caldero y se hunde sin hacer ondas.<adding class="check-cards" search="caldero 30"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
+        "agregar 1 escama de sirena (raíz, escarabajo y luego 3 gotas)": {
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 17",
+          "cont": '<span>La escama de sirena se desliza por la pared del caldero y se hunde sin hacer ondas.<adding class="check-cards" search="caldero 33"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
         },
-        "agregar 3 escamas de sirena (ya hay raíz, escarabajo y rocío)": {
-          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 18",
-          "cont": '<span>Las 3 escamas de sirena se deslizan por la pared del caldero y se hunden sin hacer ondas.<adding class="check-cards" search="caldero 30"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
+        "agregar 3 escamas de sirena (raíz, escarabajo y luego 3 gotas)": {
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 17",
+          "cont": '<span>Las 3 escamas de sirena se deslizan por la pared del caldero y se hunden sin hacer ondas.<adding class="check-cards" search="caldero 33"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
         },
-        "agregar 5 escamas de sirena (ya hay raíz, escarabajo y rocío)": {
+        "agregar 5 escamas de sirena (raíz, escarabajo y luego 3 gotas)": {
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 17",
+          "cont": '<span>Las 5 escamas de sirena se deslizan por la pared del caldero y se hunden sin hacer ondas.<adding class="check-cards" search="caldero 33"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
+        },
+        "agregar 1 pluma de Jobberknoll (raíz, escarabajo y luego 5 gotas)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 18",
-          "cont": '<span>Las 5 escamas de sirena se deslizan por la pared del caldero y se hunden sin hacer ondas.<adding class="check-cards" search="caldero 30"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
+          "cont": '<span>La pluma de Jobberknoll se sumerge poco a poco. Se riza al tocar el líquido y desaparece sin ningún sonido.<adding class="check-cards" search="caldero 34"></adding></span>',
+        },
+        "agregar 2 plumas de Jobberknoll (raíz, escarabajo y luego 5 gotas)": {
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 18",
+          "cont": '<span>Las 2 plumas de Jobberknoll se sumergen poco a poco. Se rizan al tocar el líquido y desaparecen sin ningún sonido.<adding class="check-cards" search="caldero 35"></adding></span>',
+        },
+        "agregar 3 plumas de Jobberknoll (raíz, escarabajo y luego 5 gotas)": {
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 18",
+          "cont": '<span>Las 3 plumas de Jobberknoll se sumergen poco a poco. Se rizan al tocar el líquido y desaparecen sin ningún sonido.<adding class="check-cards" search="caldero 36"></adding></span>',
+        },
+        "agregar 1 escama de sirena (raíz, escarabajo y luego 5 gotas)": {
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 18",
+          "cont": '<span>La escama de sirena se desliza por la pared del caldero y se hunde sin hacer ondas.<adding class="check-cards" search="caldero 33"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
+        },
+        "agregar 3 escamas de sirena (raíz, escarabajo y luego 5 gotas)": {
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 18",
+          "cont": '<span>Las 3 escamas de sirena se deslizan por la pared del caldero y se hunden sin hacer ondas.<adding class="check-cards" search="caldero 33"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
+        },
+        "agregar 5 escamas de sirena (raíz, escarabajo y luego 5 gotas)": {
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 18",
+          "cont": '<span>Las 5 escamas de sirena se deslizan por la pared del caldero y se hunden sin hacer ondas.<adding class="check-cards" search="caldero 33"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
+        },
+        "agregar 1 pluma de Jobberknoll (raíz, escarabajo y luego 7 gotas)": {
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 19",
+          "cont": '<span>La pluma de Jobberknoll se sumerge poco a poco. Se riza al tocar el líquido y desaparece sin ningún sonido.<adding class="check-cards" search="caldero 37"></adding></span>',
+        },
+        "agregar 2 plumas de Jobberknoll (raíz, escarabajo y luego 7 gotas)": {
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 19",
+          "cont": '<span>Las 2 plumas de Jobberknoll se sumergen poco a poco. Se rizan al tocar el líquido y desaparecen sin ningún sonido.<adding class="check-cards" search="caldero 38"></adding></span>',
+        },
+        "agregar 3 plumas de Jobberknoll (raíz, escarabajo y luego 7 gotas)": {
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 19",
+          "cont": '<span>Las 3 plumas de Jobberknoll se sumergen poco a poco. Se rizan al tocar el líquido y desaparecen sin ningún sonido.<adding class="check-cards" search="caldero 39"></adding></span>',
+        },
+        "agregar 1 escama de sirena (raíz, escarabajo y luego 7 gotas)": {
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 19",
+          "cont": '<span>La escama de sirena se desliza por la pared del caldero y se hunde sin hacer ondas.<adding class="check-cards" search="caldero 33"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
+        },
+        "agregar 3 escamas de sirena (raíz, escarabajo y luego 7 gotas)": {
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 19",
+          "cont": '<span>Las 3 escamas de sirena se deslizan por la pared del caldero y se hunden sin hacer ondas.<adding class="check-cards" search="caldero 33"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
+        },
+        "agregar 5 escamas de sirena (raíz, escarabajo y luego 7 gotas)": {
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 19",
+          "cont": '<span>Las 5 escamas de sirena se deslizan por la pared del caldero y se hunden sin hacer ondas.<adding class="check-cards" search="caldero 33"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
         },
         "agregar 3 gotas de rocío de luna (ya hay raíz, escarabajo y plumas)": {
-          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 19",
-          "cont": '<span>Las 3 gotas de rocío de luna caen una por una. Cada una deja un breve destello plateado antes de apagarse, y no se observa ninguna reacción clara.<adding class="check-cards" search="caldero 29"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 20",
+          "cont": '<span>Las 3 gotas de rocío de luna caen una por una. Cada una deja un breve destello plateado antes de apagarse, y no se observa ninguna reacción clara.<adding class="check-cards" search="caldero 40"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
         },
         "agregar 5 gotas de rocío de luna (ya hay raíz, escarabajo y plumas)": {
-          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 19",
-          "cont": '<span>Las 5 gotas de rocío de luna caen una por una. Cada una deja un breve destello plateado antes de apagarse, y no se observa ninguna reacción clara.<adding class="check-cards" search="caldero 29"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 20",
+          "cont": '<span>Las 5 gotas de rocío de luna caen una por una. Cada una deja un breve destello plateado antes de apagarse, y no se observa ninguna reacción clara.<adding class="check-cards" search="caldero 40"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
         },
         "agregar 7 gotas de rocío de luna (ya hay raíz, escarabajo y plumas)": {
-          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 19",
-          "cont": '<span>Las 7 gotas de rocío de luna caen una por una. Cada una deja un breve destello plateado antes de apagarse, y no se observa ninguna reacción clara.<adding class="check-cards" search="caldero 29"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 20",
+          "cont": '<span>Las 7 gotas de rocío de luna caen una por una. Cada una deja un breve destello plateado antes de apagarse, y no se observa ninguna reacción clara.<adding class="check-cards" search="caldero 40"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
         },
         "agregar 1 escama de sirena (ya hay raíz, escarabajo y plumas)": {
-          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 19",
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 20",
           "cont": '<span>Las escamas tocan el fondo y durante unos segundos no ocurre nada. Luego la mezcla empieza a chillar, cada vez más alto, hasta que el caldero revienta y la llamarada apaga todas las velas del laboratorio.<br /><br /><u>Resultado</u>: este proceso llevó una hora y la mezcla se perdió. Cuenta como una poción fallida. Al llegar a tres en este tema, deben avisar a la administración, que abrirá un tema nuevo otro día.</span>',
         },
         "agregar 3 escamas de sirena (ya hay raíz, escarabajo y plumas)": {
-          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 19",
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 20",
           "cont": '<span>Las escamas tocan el fondo y durante unos segundos no ocurre nada. Luego la mezcla empieza a chillar, cada vez más alto, hasta que el caldero revienta y la llamarada apaga todas las velas del laboratorio.<br /><br /><u>Resultado</u>: este proceso llevó una hora y la mezcla se perdió. Cuenta como una poción fallida. Al llegar a tres en este tema, deben avisar a la administración, que abrirá un tema nuevo otro día.</span>',
         },
         "agregar 5 escamas de sirena (ya hay raíz, escarabajo y plumas)": {
-          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 19",
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 20",
           "cont": '<span>Las escamas tocan el fondo y durante unos segundos no ocurre nada. Luego la mezcla empieza a chillar, cada vez más alto, hasta que el caldero revienta y la llamarada apaga todas las velas del laboratorio.<br /><br /><u>Resultado</u>: este proceso llevó una hora y la mezcla se perdió. Cuenta como una poción fallida. Al llegar a tres en este tema, deben avisar a la administración, que abrirá un tema nuevo otro día.</span>',
         },
         "agregar 3 gotas de rocío de luna (ya hay raíz, escarabajo y escamas)": {
-          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 20",
-          "cont": '<span>Las 3 gotas de rocío de luna caen una por una. Cada una deja un breve destello plateado antes de apagarse, y no se observa ninguna reacción clara.<adding class="check-cards" search="caldero 30"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 21",
+          "cont": '<span>Las 3 gotas de rocío de luna caen una por una. Cada una deja un breve destello plateado antes de apagarse, y no se observa ninguna reacción clara.<adding class="check-cards" search="caldero 33"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
         },
         "agregar 5 gotas de rocío de luna (ya hay raíz, escarabajo y escamas)": {
-          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 20",
-          "cont": '<span>Las 5 gotas de rocío de luna caen una por una. Cada una deja un breve destello plateado antes de apagarse, y no se observa ninguna reacción clara.<adding class="check-cards" search="caldero 30"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 21",
+          "cont": '<span>Las 5 gotas de rocío de luna caen una por una. Cada una deja un breve destello plateado antes de apagarse, y no se observa ninguna reacción clara.<adding class="check-cards" search="caldero 33"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
         },
         "agregar 7 gotas de rocío de luna (ya hay raíz, escarabajo y escamas)": {
-          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 20",
-          "cont": '<span>Las 7 gotas de rocío de luna caen una por una. Cada una deja un breve destello plateado antes de apagarse, y no se observa ninguna reacción clara.<adding class="check-cards" search="caldero 30"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 21",
+          "cont": '<span>Las 7 gotas de rocío de luna caen una por una. Cada una deja un breve destello plateado antes de apagarse, y no se observa ninguna reacción clara.<adding class="check-cards" search="caldero 33"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
         },
         "agregar 1 pluma de Jobberknoll (ya hay raíz, escarabajo y escamas)": {
-          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 20",
-          "cont": '<span>La pluma de Jobberknoll se sumerge poco a poco. Se riza al tocar el líquido y desaparece sin ningún sonido.<adding class="check-cards" search="caldero 32"></adding></span>',
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 21",
+          "cont": '<span>La pluma de Jobberknoll se sumerge poco a poco. Se riza al tocar el líquido y desaparece sin ningún sonido.<adding class="check-cards" search="caldero 41"></adding></span>',
         },
         "agregar 2 plumas de Jobberknoll (ya hay raíz, escarabajo y escamas)": {
-          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 20",
-          "cont": '<span>Las 2 plumas de Jobberknoll se sumergen poco a poco. Se rizan al tocar el líquido y desaparecen sin ningún sonido.<adding class="check-cards" search="caldero 32"></adding></span>',
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 21",
+          "cont": '<span>Las 2 plumas de Jobberknoll se sumergen poco a poco. Se rizan al tocar el líquido y desaparecen sin ningún sonido.<adding class="check-cards" search="caldero 41"></adding></span>',
         },
         "agregar 3 plumas de Jobberknoll (ya hay raíz, escarabajo y escamas)": {
-          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 20",
-          "cont": '<span>Las 3 plumas de Jobberknoll se sumergen poco a poco. Se rizan al tocar el líquido y desaparecen sin ningún sonido.<adding class="check-cards" search="caldero 32"></adding></span>',
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 21",
+          "cont": '<span>Las 3 plumas de Jobberknoll se sumergen poco a poco. Se rizan al tocar el líquido y desaparecen sin ningún sonido.<adding class="check-cards" search="caldero 41"></adding></span>',
+        },
+        "agregar 1 pluma de Jobberknoll (ya hay raíz, escarabajo y rocío)": {
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 22",
+          "cont": '<span>La pluma de Jobberknoll se sumerge poco a poco. Se riza al tocar el líquido y desaparece sin ningún sonido.<adding class="check-cards" search="caldero 42"></adding></span>',
+        },
+        "agregar 2 plumas de Jobberknoll (ya hay raíz, escarabajo y rocío)": {
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 22",
+          "cont": '<span>Las 2 plumas de Jobberknoll se sumergen poco a poco. Se rizan al tocar el líquido y desaparecen sin ningún sonido.<adding class="check-cards" search="caldero 40"></adding></span>',
+        },
+        "agregar 3 plumas de Jobberknoll (ya hay raíz, escarabajo y rocío)": {
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 22",
+          "cont": '<span>Las 3 plumas de Jobberknoll se sumergen poco a poco. Se rizan al tocar el líquido y desaparecen sin ningún sonido.<adding class="check-cards" search="caldero 40"></adding></span>',
+        },
+        "agregar 1 escama de sirena (ya hay raíz, escarabajo y rocío)": {
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 22",
+          "cont": '<span>La escama de sirena se desliza por la pared del caldero y se hunde sin hacer ondas.<adding class="check-cards" search="caldero 33"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
+        },
+        "agregar 3 escamas de sirena (ya hay raíz, escarabajo y rocío)": {
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 22",
+          "cont": '<span>Las 3 escamas de sirena se deslizan por la pared del caldero y se hunden sin hacer ondas.<adding class="check-cards" search="caldero 33"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
+        },
+        "agregar 5 escamas de sirena (ya hay raíz, escarabajo y rocío)": {
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 22",
+          "cont": '<span>Las 5 escamas de sirena se deslizan por la pared del caldero y se hunden sin hacer ondas.<adding class="check-cards" search="caldero 33"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
         },
         "agregar el polvo de escarabajo azul (ya hay raíz, rocío y plumas)": {
-          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 21",
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 23",
           "cont": '<span>El polvo de escarabajo apenas toca la superficie cuando lo que quedaba de las plumas despierta de golpe. Un chillido agudo sale del caldero, que estalla y lanza la mezcla contra las paredes del laboratorio.<br /><br /><u>Resultado</u>: este proceso llevó una hora y la mezcla se perdió. Cuenta como una poción fallida. Al llegar a tres en este tema, deben avisar a la administración, que abrirá un tema nuevo otro día.</span>',
         },
         "agregar 1 escama de sirena (ya hay raíz, rocío y plumas)": {
-          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 21",
-          "cont": '<span>La escama de sirena se desliza por la pared del caldero y se hunde sin hacer ondas.<adding class="check-cards" search="caldero 33"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 23",
+          "cont": '<span>La escama de sirena se desliza por la pared del caldero y se hunde sin hacer ondas.<adding class="check-cards" search="caldero 43"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
         },
         "agregar 3 escamas de sirena (ya hay raíz, rocío y plumas)": {
-          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 21",
-          "cont": '<span>Las 3 escamas de sirena se deslizan por la pared del caldero y se hunden sin hacer ondas.<adding class="check-cards" search="caldero 33"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 23",
+          "cont": '<span>Las 3 escamas de sirena se deslizan por la pared del caldero y se hunden sin hacer ondas.<adding class="check-cards" search="caldero 43"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
         },
         "agregar 5 escamas de sirena (ya hay raíz, rocío y plumas)": {
-          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 21",
-          "cont": '<span>Las 5 escamas de sirena se deslizan por la pared del caldero y se hunden sin hacer ondas.<adding class="check-cards" search="caldero 33"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 23",
+          "cont": '<span>Las 5 escamas de sirena se deslizan por la pared del caldero y se hunden sin hacer ondas.<adding class="check-cards" search="caldero 43"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
         },
         "agregar el polvo de escarabajo azul (ya hay raíz, rocío y escamas)": {
-          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 22",
-          "cont": '<span>El escarabajo azul iridiscente se pulveriza hasta obtener un polvo fino, que se espolvorea sobre el caldero. El polvo se hunde despacio y no se observa ninguna reacción clara.<adding class="check-cards" search="caldero 30"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 24",
+          "cont": '<span>El escarabajo azul iridiscente se pulveriza hasta obtener un polvo fino, que se espolvorea sobre el caldero. El polvo se hunde despacio y no se observa ninguna reacción clara.<adding class="check-cards" search="caldero 33"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
         },
         "agregar 1 pluma de Jobberknoll (ya hay raíz, rocío y escamas)": {
-          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 22",
-          "cont": '<span>La pluma de Jobberknoll se sumerge poco a poco. Se riza al tocar el líquido y desaparece sin ningún sonido.<adding class="check-cards" search="caldero 33"></adding></span>',
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 24",
+          "cont": '<span>La pluma de Jobberknoll se sumerge poco a poco. Se riza al tocar el líquido y desaparece sin ningún sonido.<adding class="check-cards" search="caldero 43"></adding></span>',
         },
         "agregar 2 plumas de Jobberknoll (ya hay raíz, rocío y escamas)": {
-          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 22",
-          "cont": '<span>Las 2 plumas de Jobberknoll se sumergen poco a poco. Se rizan al tocar el líquido y desaparecen sin ningún sonido.<adding class="check-cards" search="caldero 33"></adding></span>',
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 24",
+          "cont": '<span>Las 2 plumas de Jobberknoll se sumergen poco a poco. Se rizan al tocar el líquido y desaparecen sin ningún sonido.<adding class="check-cards" search="caldero 43"></adding></span>',
         },
         "agregar 3 plumas de Jobberknoll (ya hay raíz, rocío y escamas)": {
-          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 22",
-          "cont": '<span>Las 3 plumas de Jobberknoll se sumergen poco a poco. Se rizan al tocar el líquido y desaparecen sin ningún sonido.<adding class="check-cards" search="caldero 33"></adding></span>',
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 24",
+          "cont": '<span>Las 3 plumas de Jobberknoll se sumergen poco a poco. Se rizan al tocar el líquido y desaparecen sin ningún sonido.<adding class="check-cards" search="caldero 43"></adding></span>',
         },
         "agregar el polvo de escarabajo azul (ya hay raíz, plumas y escamas)": {
-          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 23",
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 25",
           "cont": '<span>El polvo de escarabajo apenas toca la superficie cuando lo que quedaba de las plumas despierta de golpe. Un chillido agudo sale del caldero, que estalla y lanza la mezcla contra las paredes del laboratorio.<br /><br /><u>Resultado</u>: este proceso llevó una hora y la mezcla se perdió. Cuenta como una poción fallida. Al llegar a tres en este tema, deben avisar a la administración, que abrirá un tema nuevo otro día.</span>',
         },
         "agregar 3 gotas de rocío de luna (ya hay raíz, plumas y escamas)": {
-          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 23",
-          "cont": '<span>Las 3 gotas de rocío de luna caen una por una. Cada una deja un breve destello plateado antes de apagarse, y no se observa ninguna reacción clara.<adding class="check-cards" search="caldero 33"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 25",
+          "cont": '<span>Las 3 gotas de rocío de luna caen una por una. Cada una deja un breve destello plateado antes de apagarse, y no se observa ninguna reacción clara.<adding class="check-cards" search="caldero 43"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
         },
         "agregar 5 gotas de rocío de luna (ya hay raíz, plumas y escamas)": {
-          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 23",
-          "cont": '<span>Las 5 gotas de rocío de luna caen una por una. Cada una deja un breve destello plateado antes de apagarse, y no se observa ninguna reacción clara.<adding class="check-cards" search="caldero 33"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 25",
+          "cont": '<span>Las 5 gotas de rocío de luna caen una por una. Cada una deja un breve destello plateado antes de apagarse, y no se observa ninguna reacción clara.<adding class="check-cards" search="caldero 43"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
         },
         "agregar 7 gotas de rocío de luna (ya hay raíz, plumas y escamas)": {
-          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 23",
-          "cont": '<span>Las 7 gotas de rocío de luna caen una por una. Cada una deja un breve destello plateado antes de apagarse, y no se observa ninguna reacción clara.<adding class="check-cards" search="caldero 33"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 25",
+          "cont": '<span>Las 7 gotas de rocío de luna caen una por una. Cada una deja un breve destello plateado antes de apagarse, y no se observa ninguna reacción clara.<adding class="check-cards" search="caldero 43"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
         },
         "agregar la savia de la raíz de asfódelo (ya hay escarabajo, rocío y plumas)": {
-          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 24",
-          "cont": '<span>La raíz de asfódelo se maja hasta soltar una savia densa y amarga, que se vierte en el caldero. No se observa ninguna reacción clara.<adding class="check-cards" search="caldero 29"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 26",
+          "cont": '<span>La raíz de asfódelo se maja hasta soltar una savia densa y amarga, que se vierte en el caldero. No se observa ninguna reacción clara.<adding class="check-cards" search="caldero 40"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
         },
         "agregar 1 escama de sirena (ya hay escarabajo, rocío y plumas)": {
-          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 24",
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 26",
           "cont": '<span>Las escamas tocan el fondo y el polvo de escarabajo se enciende en un resplandor azul que no encuentra por dónde salir. El caldero se parte en dos con un estampido y el líquido hirviendo se derrama por la mesa de trabajo.<br /><br /><u>Resultado</u>: este proceso llevó una hora y la mezcla se perdió. Cuenta como una poción fallida. Al llegar a tres en este tema, deben avisar a la administración, que abrirá un tema nuevo otro día.</span>',
         },
         "agregar 3 escamas de sirena (ya hay escarabajo, rocío y plumas)": {
-          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 24",
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 26",
           "cont": '<span>Las escamas tocan el fondo y el polvo de escarabajo se enciende en un resplandor azul que no encuentra por dónde salir. El caldero se parte en dos con un estampido y el líquido hirviendo se derrama por la mesa de trabajo.<br /><br /><u>Resultado</u>: este proceso llevó una hora y la mezcla se perdió. Cuenta como una poción fallida. Al llegar a tres en este tema, deben avisar a la administración, que abrirá un tema nuevo otro día.</span>',
         },
         "agregar 5 escamas de sirena (ya hay escarabajo, rocío y plumas)": {
-          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 24",
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 26",
           "cont": '<span>Las escamas tocan el fondo y el polvo de escarabajo se enciende en un resplandor azul que no encuentra por dónde salir. El caldero se parte en dos con un estampido y el líquido hirviendo se derrama por la mesa de trabajo.<br /><br /><u>Resultado</u>: este proceso llevó una hora y la mezcla se perdió. Cuenta como una poción fallida. Al llegar a tres en este tema, deben avisar a la administración, que abrirá un tema nuevo otro día.</span>',
         },
         "agregar la savia de la raíz de asfódelo (ya hay escarabajo, rocío y escamas)": {
-          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 25",
-          "cont": '<span>La raíz de asfódelo se maja hasta soltar una savia densa y amarga, que se vierte en el caldero. No se observa ninguna reacción clara.<adding class="check-cards" search="caldero 30"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
-        },
-        "agregar 1 pluma de Jobberknoll (ya hay escarabajo, rocío y escamas)": {
-          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 25",
-          "cont": '<span>La pluma de Jobberknoll se sumerge poco a poco. Se riza al tocar el líquido y desaparece sin ningún sonido.<adding class="check-cards" search="caldero 34"></adding></span>',
-        },
-        "agregar 2 plumas de Jobberknoll (ya hay escarabajo, rocío y escamas)": {
-          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 25",
-          "cont": '<span>Las 2 plumas de Jobberknoll se sumergen poco a poco. Se rizan al tocar el líquido y desaparecen sin ningún sonido.<adding class="check-cards" search="caldero 34"></adding></span>',
-        },
-        "agregar 3 plumas de Jobberknoll (ya hay escarabajo, rocío y escamas)": {
-          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 25",
-          "cont": '<span>Las 3 plumas de Jobberknoll se sumergen poco a poco. Se rizan al tocar el líquido y desaparecen sin ningún sonido.<adding class="check-cards" search="caldero 34"></adding></span>',
-        },
-        "agregar la savia de la raíz de asfódelo (ya hay escarabajo, plumas y escamas)": {
-          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 26",
-          "cont": '<span>La raíz de asfódelo se maja hasta soltar una savia densa y amarga, que se vierte en el caldero. No se observa ninguna reacción clara.<adding class="check-cards" search="caldero 32"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
-        },
-        "agregar 3 gotas de rocío de luna (ya hay escarabajo, plumas y escamas)": {
-          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 26",
-          "cont": '<span>Las 3 gotas de rocío de luna caen una por una. Cada una deja un breve destello plateado antes de apagarse, y no se observa ninguna reacción clara.<adding class="check-cards" search="caldero 34"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
-        },
-        "agregar 5 gotas de rocío de luna (ya hay escarabajo, plumas y escamas)": {
-          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 26",
-          "cont": '<span>Las 5 gotas de rocío de luna caen una por una. Cada una deja un breve destello plateado antes de apagarse, y no se observa ninguna reacción clara.<adding class="check-cards" search="caldero 34"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
-        },
-        "agregar 7 gotas de rocío de luna (ya hay escarabajo, plumas y escamas)": {
-          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 26",
-          "cont": '<span>Las 7 gotas de rocío de luna caen una por una. Cada una deja un breve destello plateado antes de apagarse, y no se observa ninguna reacción clara.<adding class="check-cards" search="caldero 34"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
-        },
-        "agregar la savia de la raíz de asfódelo (ya hay rocío, plumas y escamas)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 27",
           "cont": '<span>La raíz de asfódelo se maja hasta soltar una savia densa y amarga, que se vierte en el caldero. No se observa ninguna reacción clara.<adding class="check-cards" search="caldero 33"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
         },
-        "agregar el polvo de escarabajo azul (ya hay rocío, plumas y escamas)": {
+        "agregar 1 pluma de Jobberknoll (ya hay escarabajo, rocío y escamas)": {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 27",
+          "cont": '<span>La pluma de Jobberknoll se sumerge poco a poco. Se riza al tocar el líquido y desaparece sin ningún sonido.<adding class="check-cards" search="caldero 44"></adding></span>',
+        },
+        "agregar 2 plumas de Jobberknoll (ya hay escarabajo, rocío y escamas)": {
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 27",
+          "cont": '<span>Las 2 plumas de Jobberknoll se sumergen poco a poco. Se rizan al tocar el líquido y desaparecen sin ningún sonido.<adding class="check-cards" search="caldero 44"></adding></span>',
+        },
+        "agregar 3 plumas de Jobberknoll (ya hay escarabajo, rocío y escamas)": {
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 27",
+          "cont": '<span>Las 3 plumas de Jobberknoll se sumergen poco a poco. Se rizan al tocar el líquido y desaparecen sin ningún sonido.<adding class="check-cards" search="caldero 44"></adding></span>',
+        },
+        "agregar la savia de la raíz de asfódelo (ya hay escarabajo, plumas y escamas)": {
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 28",
+          "cont": '<span>La raíz de asfódelo se maja hasta soltar una savia densa y amarga, que se vierte en el caldero. No se observa ninguna reacción clara.<adding class="check-cards" search="caldero 41"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
+        },
+        "agregar 3 gotas de rocío de luna (ya hay escarabajo, plumas y escamas)": {
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 28",
+          "cont": '<span>Las 3 gotas de rocío de luna caen una por una. Cada una deja un breve destello plateado antes de apagarse, y no se observa ninguna reacción clara.<adding class="check-cards" search="caldero 44"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
+        },
+        "agregar 5 gotas de rocío de luna (ya hay escarabajo, plumas y escamas)": {
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 28",
+          "cont": '<span>Las 5 gotas de rocío de luna caen una por una. Cada una deja un breve destello plateado antes de apagarse, y no se observa ninguna reacción clara.<adding class="check-cards" search="caldero 44"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
+        },
+        "agregar 7 gotas de rocío de luna (ya hay escarabajo, plumas y escamas)": {
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 28",
+          "cont": '<span>Las 7 gotas de rocío de luna caen una por una. Cada una deja un breve destello plateado antes de apagarse, y no se observa ninguna reacción clara.<adding class="check-cards" search="caldero 44"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
+        },
+        "agregar la savia de la raíz de asfódelo (ya hay rocío, plumas y escamas)": {
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 29",
+          "cont": '<span>La raíz de asfódelo se maja hasta soltar una savia densa y amarga, que se vierte en el caldero. No se observa ninguna reacción clara.<adding class="check-cards" search="caldero 43"></adding><adding class="check-cards" search="aviso de orden"></adding></span>',
+        },
+        "agregar el polvo de escarabajo azul (ya hay rocío, plumas y escamas)": {
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 29",
           "cont": '<span>El polvo de escarabajo apenas toca la superficie cuando lo que quedaba de las plumas despierta de golpe. Un chillido agudo sale del caldero, que estalla y lanza la mezcla contra las paredes del laboratorio.<br /><br /><u>Resultado</u>: este proceso llevó una hora y la mezcla se perdió. Cuenta como una poción fallida. Al llegar a tres en este tema, deben avisar a la administración, que abrirá un tema nuevo otro día.</span>',
         },
-        "agregar 1 escama de sirena (ya hay raíz, escarabajo, rocío y plumas)\u200b\u200b": {
-          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 28",
+        "agregar 1 escama de sirena (raíz, escarabajo, 3 gotas y luego 1 pluma)": {
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 30",
           "cont": '<span>Las escamas se hunden sin hacer ondas y la mezcla no responde. Se la deja reposar, se la remueve y se la calienta, pero sigue igual de inerte: un líquido tibio, sin olor y sin ninguna propiedad mágica.<br /><br /><u>Resultado</u>: este proceso llevó tres horas y la mezcla se perdió. Cuenta como una poción fallida. Al llegar a tres en este tema, deben avisar a la administración, que abrirá un tema nuevo otro día.</span>',
         },
-        "agregar 3 escamas de sirena (ya hay raíz, escarabajo, rocío y plumas)\u200b\u200b": {
-          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 28",
+        "agregar 3 escamas de sirena (raíz, escarabajo, 3 gotas y luego 1 pluma)": {
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 30",
           "cont": '<span>Las escamas se hunden sin hacer ondas y la mezcla no responde. Se la deja reposar, se la remueve y se la calienta, pero sigue igual de inerte: un líquido tibio, sin olor y sin ninguna propiedad mágica.<br /><br /><u>Resultado</u>: este proceso llevó tres horas y la mezcla se perdió. Cuenta como una poción fallida. Al llegar a tres en este tema, deben avisar a la administración, que abrirá un tema nuevo otro día.</span>',
         },
-        "agregar 5 escamas de sirena (ya hay raíz, escarabajo, rocío y plumas)\u200b\u200b": {
-          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 28",
+        "agregar 5 escamas de sirena (raíz, escarabajo, 3 gotas y luego 1 pluma)": {
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 30",
           "cont": '<span>Las escamas sellan la mezcla sobrante con tanta fuerza que no le dejan por dónde respirar. Durante un minuto el líquido se hincha y empuja contra sí mismo, hasta que el caldero estalla y el fondo sale despedido contra el techo.<br /><br /><u>Resultado</u>: este proceso llevó dos horas y la mezcla se perdió. Cuenta como una poción fallida. Al llegar a tres en este tema, deben avisar a la administración, que abrirá un tema nuevo otro día.</span>',
         },
-        "agregar 1 escama de sirena (ya hay raíz, escarabajo, rocío y plumas)\u200b": {
-          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 29",
+        "agregar 1 escama de sirena (raíz, escarabajo, 3 gotas y luego 2 plumas)": {
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 31",
           "cont": '<span>Las escamas se hunden sin hacer ondas y la mezcla no responde. Se la deja reposar, se la remueve y se la calienta, pero sigue igual de inerte: un líquido tibio, sin olor y sin ninguna propiedad mágica.<br /><br /><u>Resultado</u>: este proceso llevó tres horas y la mezcla se perdió. Cuenta como una poción fallida. Al llegar a tres en este tema, deben avisar a la administración, que abrirá un tema nuevo otro día.</span>',
         },
-        "agregar 3 escamas de sirena (ya hay raíz, escarabajo, rocío y plumas)\u200b": {
-          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 29",
+        "agregar 3 escamas de sirena (raíz, escarabajo, 3 gotas y luego 2 plumas)": {
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 31",
           "cont": '<span>Las escamas se ablandan en lugar de sellar la mezcla. El líquido pierde el brillo y se vuelve una baba verdosa, llena de hilos, que se pega al cucharón y no se desprende.<br /><br /><u>Resultado</u>: este proceso llevó tres horas y la mezcla se perdió. Cuenta como una poción fallida. Al llegar a tres en este tema, deben avisar a la administración, que abrirá un tema nuevo otro día.</span>',
         },
-        "agregar 5 escamas de sirena (ya hay raíz, escarabajo, rocío y plumas)\u200b": {
-          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 29",
+        "agregar 5 escamas de sirena (raíz, escarabajo, 3 gotas y luego 2 plumas)": {
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 31",
+          "cont": '<span>Las escamas sellan la mezcla sobrante con tanta fuerza que no le dejan por dónde respirar. Durante un minuto el líquido se hincha y empuja contra sí mismo, hasta que el caldero estalla y el fondo sale despedido contra el techo.<br /><br /><u>Resultado</u>: este proceso llevó dos horas y la mezcla se perdió. Cuenta como una poción fallida. Al llegar a tres en este tema, deben avisar a la administración, que abrirá un tema nuevo otro día.</span>',
+        },
+        "agregar 1 escama de sirena (raíz, escarabajo, 3 gotas y luego 3 plumas)": {
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 32",
+          "cont": '<span>Las escamas se hunden sin hacer ondas y la mezcla no responde. Se la deja reposar, se la remueve y se la calienta, pero sigue igual de inerte: un líquido tibio, sin olor y sin ninguna propiedad mágica.<br /><br /><u>Resultado</u>: este proceso llevó tres horas y la mezcla se perdió. Cuenta como una poción fallida. Al llegar a tres en este tema, deben avisar a la administración, que abrirá un tema nuevo otro día.</span>',
+        },
+        "agregar 3 escamas de sirena (raíz, escarabajo, 3 gotas y luego 3 plumas)": {
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 32",
+          "cont": '<span>Las escamas se ablandan en lugar de sellar la mezcla. El líquido pierde el brillo y se vuelve una baba verdosa, llena de hilos, que se pega al cucharón y no se desprende.<br /><br /><u>Resultado</u>: este proceso llevó tres horas y la mezcla se perdió. Cuenta como una poción fallida. Al llegar a tres en este tema, deben avisar a la administración, que abrirá un tema nuevo otro día.</span>',
+        },
+        "agregar 5 escamas de sirena (raíz, escarabajo, 3 gotas y luego 3 plumas)": {
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 32",
           "cont": '<span>Las escamas sellan la mezcla sobrante con tanta fuerza que no le dejan por dónde respirar. Durante un minuto el líquido se hincha y empuja contra sí mismo, hasta que el caldero estalla y el fondo sale despedido contra el techo.<br /><br /><u>Resultado</u>: este proceso llevó dos horas y la mezcla se perdió. Cuenta como una poción fallida. Al llegar a tres en este tema, deben avisar a la administración, que abrirá un tema nuevo otro día.</span>',
         },
         "agregar 1 pluma de Jobberknoll (ya hay raíz, escarabajo, rocío y escamas)": {
-          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 30",
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 33",
           "cont": '<span>La última pluma se riza al tocar el líquido y, por un instante, la mezcla parece estar en calma. Después empieza a hablar, con un murmullo de muchas voces que sube hasta convertirse en un grito. El caldero revienta y esparce la mezcla por todo el laboratorio.<br /><br /><u>Resultado</u>: este proceso llevó dos horas y la mezcla se perdió. Cuenta como una poción fallida. Al llegar a tres en este tema, deben avisar a la administración, que abrirá un tema nuevo otro día.<adding class="check-cards" search="aviso de orden"></adding></span>',
         },
         "agregar 2 plumas de Jobberknoll (ya hay raíz, escarabajo, rocío y escamas)": {
-          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 30",
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 33",
           "cont": '<span>La última pluma se riza al tocar el líquido y, por un instante, la mezcla parece estar en calma. Después empieza a hablar, con un murmullo de muchas voces que sube hasta convertirse en un grito. El caldero revienta y esparce la mezcla por todo el laboratorio.<br /><br /><u>Resultado</u>: este proceso llevó dos horas y la mezcla se perdió. Cuenta como una poción fallida. Al llegar a tres en este tema, deben avisar a la administración, que abrirá un tema nuevo otro día.<adding class="check-cards" search="aviso de orden"></adding></span>',
         },
         "agregar 3 plumas de Jobberknoll (ya hay raíz, escarabajo, rocío y escamas)": {
-          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 30",
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 33",
           "cont": '<span>La última pluma se riza al tocar el líquido y, por un instante, la mezcla parece estar en calma. Después empieza a hablar, con un murmullo de muchas voces que sube hasta convertirse en un grito. El caldero revienta y esparce la mezcla por todo el laboratorio.<br /><br /><u>Resultado</u>: este proceso llevó dos horas y la mezcla se perdió. Cuenta como una poción fallida. Al llegar a tres en este tema, deben avisar a la administración, que abrirá un tema nuevo otro día.<adding class="check-cards" search="aviso de orden"></adding></span>',
         },
+        "agregar 1 escama de sirena (raíz, escarabajo, 5 gotas y luego 1 pluma)": {
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 34",
+          "cont": '<span>Las escamas se hunden sin hacer ondas y la mezcla no responde. Se la deja reposar, se la remueve y se la calienta, pero sigue igual de inerte: un líquido tibio, sin olor y sin ninguna propiedad mágica.<br /><br /><u>Resultado</u>: este proceso llevó tres horas y la mezcla se perdió. Cuenta como una poción fallida. Al llegar a tres en este tema, deben avisar a la administración, que abrirá un tema nuevo otro día.</span>',
+        },
+        "agregar 3 escamas de sirena (raíz, escarabajo, 5 gotas y luego 1 pluma)": {
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 34",
+          "cont": '<span>Las escamas se hunden sin hacer ondas y la mezcla no responde. Se la deja reposar, se la remueve y se la calienta, pero sigue igual de inerte: un líquido tibio, sin olor y sin ninguna propiedad mágica.<br /><br /><u>Resultado</u>: este proceso llevó tres horas y la mezcla se perdió. Cuenta como una poción fallida. Al llegar a tres en este tema, deben avisar a la administración, que abrirá un tema nuevo otro día.</span>',
+        },
+        "agregar 5 escamas de sirena (raíz, escarabajo, 5 gotas y luego 1 pluma)": {
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 34",
+          "cont": '<span>Las escamas sellan la mezcla sobrante con tanta fuerza que no le dejan por dónde respirar. Durante un minuto el líquido se hincha y empuja contra sí mismo, hasta que el caldero estalla y el fondo sale despedido contra el techo.<br /><br /><u>Resultado</u>: este proceso llevó dos horas y la mezcla se perdió. Cuenta como una poción fallida. Al llegar a tres en este tema, deben avisar a la administración, que abrirá un tema nuevo otro día.</span>',
+        },
+        "agregar 1 escama de sirena (raíz, escarabajo, 5 gotas y luego 2 plumas)": {
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 35",
+          "cont": '<span>Las escamas se hunden sin hacer ondas y la mezcla no responde. Se la deja reposar, se la remueve y se la calienta, pero sigue igual de inerte: un líquido tibio, sin olor y sin ninguna propiedad mágica.<br /><br /><u>Resultado</u>: este proceso llevó tres horas y la mezcla se perdió. Cuenta como una poción fallida. Al llegar a tres en este tema, deben avisar a la administración, que abrirá un tema nuevo otro día.</span>',
+        },
+        "agregar 3 escamas de sirena (raíz, escarabajo, 5 gotas y luego 2 plumas)": {
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 35",
+          "cont": '<span>Las 3 escamas de sirena se hunden sin hacer ondas y la superficie queda lisa como un espejo. Por primera vez, la mezcla parece contener algo: un zumbido muy leve, casi un canto, que se percibe más en los huesos que en los oídos.<adding class="check-cards" search="mezcla sellada"></adding></span>',
+        },
+        "agregar 5 escamas de sirena (raíz, escarabajo, 5 gotas y luego 2 plumas)": {
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 35",
+          "cont": '<span>Las escamas sellan la mezcla sobrante con tanta fuerza que no le dejan por dónde respirar. Durante un minuto el líquido se hincha y empuja contra sí mismo, hasta que el caldero estalla y el fondo sale despedido contra el techo.<br /><br /><u>Resultado</u>: este proceso llevó dos horas y la mezcla se perdió. Cuenta como una poción fallida. Al llegar a tres en este tema, deben avisar a la administración, que abrirá un tema nuevo otro día.</span>',
+        },
+        "agregar 1 escama de sirena (raíz, escarabajo, 5 gotas y luego 3 plumas)": {
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 36",
+          "cont": '<span>Las escamas se hunden sin hacer ondas y la mezcla no responde. Se la deja reposar, se la remueve y se la calienta, pero sigue igual de inerte: un líquido tibio, sin olor y sin ninguna propiedad mágica.<br /><br /><u>Resultado</u>: este proceso llevó tres horas y la mezcla se perdió. Cuenta como una poción fallida. Al llegar a tres en este tema, deben avisar a la administración, que abrirá un tema nuevo otro día.</span>',
+        },
+        "agregar 3 escamas de sirena (raíz, escarabajo, 5 gotas y luego 3 plumas)": {
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 36",
+          "cont": '<span>Las escamas se ablandan en lugar de sellar la mezcla. El líquido pierde el brillo y se vuelve una baba verdosa, llena de hilos, que se pega al cucharón y no se desprende.<br /><br /><u>Resultado</u>: este proceso llevó tres horas y la mezcla se perdió. Cuenta como una poción fallida. Al llegar a tres en este tema, deben avisar a la administración, que abrirá un tema nuevo otro día.</span>',
+        },
+        "agregar 5 escamas de sirena (raíz, escarabajo, 5 gotas y luego 3 plumas)": {
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 36",
+          "cont": '<span>Las escamas sellan la mezcla sobrante con tanta fuerza que no le dejan por dónde respirar. Durante un minuto el líquido se hincha y empuja contra sí mismo, hasta que el caldero estalla y el fondo sale despedido contra el techo.<br /><br /><u>Resultado</u>: este proceso llevó dos horas y la mezcla se perdió. Cuenta como una poción fallida. Al llegar a tres en este tema, deben avisar a la administración, que abrirá un tema nuevo otro día.</span>',
+        },
+        "agregar 1 escama de sirena (raíz, escarabajo, 7 gotas y luego 1 pluma)": {
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 37",
+          "cont": '<span>Las escamas se hunden sin hacer ondas y la mezcla no responde. Se la deja reposar, se la remueve y se la calienta, pero sigue igual de inerte: un líquido tibio, sin olor y sin ninguna propiedad mágica.<br /><br /><u>Resultado</u>: este proceso llevó tres horas y la mezcla se perdió. Cuenta como una poción fallida. Al llegar a tres en este tema, deben avisar a la administración, que abrirá un tema nuevo otro día.</span>',
+        },
+        "agregar 3 escamas de sirena (raíz, escarabajo, 7 gotas y luego 1 pluma)": {
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 37",
+          "cont": '<span>Las escamas se hunden sin hacer ondas y la mezcla no responde. Se la deja reposar, se la remueve y se la calienta, pero sigue igual de inerte: un líquido tibio, sin olor y sin ninguna propiedad mágica.<br /><br /><u>Resultado</u>: este proceso llevó tres horas y la mezcla se perdió. Cuenta como una poción fallida. Al llegar a tres en este tema, deben avisar a la administración, que abrirá un tema nuevo otro día.</span>',
+        },
+        "agregar 5 escamas de sirena (raíz, escarabajo, 7 gotas y luego 1 pluma)": {
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 37",
+          "cont": '<span>Las escamas sellan la mezcla sobrante con tanta fuerza que no le dejan por dónde respirar. Durante un minuto el líquido se hincha y empuja contra sí mismo, hasta que el caldero estalla y el fondo sale despedido contra el techo.<br /><br /><u>Resultado</u>: este proceso llevó dos horas y la mezcla se perdió. Cuenta como una poción fallida. Al llegar a tres en este tema, deben avisar a la administración, que abrirá un tema nuevo otro día.</span>',
+        },
+        "agregar 1 escama de sirena (raíz, escarabajo, 7 gotas y luego 2 plumas)": {
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 38",
+          "cont": '<span>Las escamas se hunden sin hacer ondas y la mezcla no responde. Se la deja reposar, se la remueve y se la calienta, pero sigue igual de inerte: un líquido tibio, sin olor y sin ninguna propiedad mágica.<br /><br /><u>Resultado</u>: este proceso llevó tres horas y la mezcla se perdió. Cuenta como una poción fallida. Al llegar a tres en este tema, deben avisar a la administración, que abrirá un tema nuevo otro día.</span>',
+        },
+        "agregar 3 escamas de sirena (raíz, escarabajo, 7 gotas y luego 2 plumas)": {
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 38",
+          "cont": '<span>Las escamas se ablandan en lugar de sellar la mezcla. El líquido pierde el brillo y se vuelve una baba verdosa, llena de hilos, que se pega al cucharón y no se desprende.<br /><br /><u>Resultado</u>: este proceso llevó tres horas y la mezcla se perdió. Cuenta como una poción fallida. Al llegar a tres en este tema, deben avisar a la administración, que abrirá un tema nuevo otro día.</span>',
+        },
+        "agregar 5 escamas de sirena (raíz, escarabajo, 7 gotas y luego 2 plumas)": {
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 38",
+          "cont": '<span>Las escamas sellan la mezcla sobrante con tanta fuerza que no le dejan por dónde respirar. Durante un minuto el líquido se hincha y empuja contra sí mismo, hasta que el caldero estalla y el fondo sale despedido contra el techo.<br /><br /><u>Resultado</u>: este proceso llevó dos horas y la mezcla se perdió. Cuenta como una poción fallida. Al llegar a tres en este tema, deben avisar a la administración, que abrirá un tema nuevo otro día.</span>',
+        },
+        "agregar 1 escama de sirena (raíz, escarabajo, 7 gotas y luego 3 plumas)": {
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 39",
+          "cont": '<span>Las escamas se hunden sin hacer ondas y la mezcla no responde. Se la deja reposar, se la remueve y se la calienta, pero sigue igual de inerte: un líquido tibio, sin olor y sin ninguna propiedad mágica.<br /><br /><u>Resultado</u>: este proceso llevó tres horas y la mezcla se perdió. Cuenta como una poción fallida. Al llegar a tres en este tema, deben avisar a la administración, que abrirá un tema nuevo otro día.</span>',
+        },
+        "agregar 3 escamas de sirena (raíz, escarabajo, 7 gotas y luego 3 plumas)": {
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 39",
+          "cont": '<span>Las escamas se ablandan en lugar de sellar la mezcla. El líquido pierde el brillo y se vuelve una baba verdosa, llena de hilos, que se pega al cucharón y no se desprende.<br /><br /><u>Resultado</u>: este proceso llevó tres horas y la mezcla se perdió. Cuenta como una poción fallida. Al llegar a tres en este tema, deben avisar a la administración, que abrirá un tema nuevo otro día.</span>',
+        },
+        "agregar 5 escamas de sirena (raíz, escarabajo, 7 gotas y luego 3 plumas)": {
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 39",
+          "cont": '<span>Las escamas sellan la mezcla sobrante con tanta fuerza que no le dejan por dónde respirar. Durante un minuto el líquido se hincha y empuja contra sí mismo, hasta que el caldero estalla y el fondo sale despedido contra el techo.<br /><br /><u>Resultado</u>: este proceso llevó dos horas y la mezcla se perdió. Cuenta como una poción fallida. Al llegar a tres en este tema, deben avisar a la administración, que abrirá un tema nuevo otro día.</span>',
+        },
         "agregar 1 escama de sirena (ya hay raíz, escarabajo, rocío y plumas)": {
-          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 31",
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 40",
           "cont": '<span>Las escamas se hunden sin hacer ondas y la mezcla no responde. Se la deja reposar, se la remueve y se la calienta, pero sigue igual de inerte: un líquido tibio, sin olor y sin ninguna propiedad mágica.<br /><br /><u>Resultado</u>: este proceso llevó tres horas y la mezcla se perdió. Cuenta como una poción fallida. Al llegar a tres en este tema, deben avisar a la administración, que abrirá un tema nuevo otro día.</span>',
         },
         "agregar 3 escamas de sirena (ya hay raíz, escarabajo, rocío y plumas)": {
-          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 31",
-          "cont": '<span>Las 3 escamas de sirena se hunden sin hacer ondas y la superficie queda lisa como un espejo. Por primera vez, la mezcla parece contener algo: un zumbido muy leve, casi un canto, que se percibe más en los huesos que en los oídos.<adding class="check-cards" search="mezcla sellada"></adding></span>',
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 40",
+          "cont": '<span>Las escamas se ablandan en lugar de sellar la mezcla. El líquido pierde el brillo y se vuelve una baba verdosa, llena de hilos, que se pega al cucharón y no se desprende.<br /><br /><u>Resultado</u>: este proceso llevó tres horas y la mezcla se perdió. Cuenta como una poción fallida. Al llegar a tres en este tema, deben avisar a la administración, que abrirá un tema nuevo otro día.</span>',
         },
         "agregar 5 escamas de sirena (ya hay raíz, escarabajo, rocío y plumas)": {
-          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 31",
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 40",
           "cont": '<span>Las escamas sellan la mezcla sobrante con tanta fuerza que no le dejan por dónde respirar. Durante un minuto el líquido se hincha y empuja contra sí mismo, hasta que el caldero estalla y el fondo sale despedido contra el techo.<br /><br /><u>Resultado</u>: este proceso llevó dos horas y la mezcla se perdió. Cuenta como una poción fallida. Al llegar a tres en este tema, deben avisar a la administración, que abrirá un tema nuevo otro día.</span>',
         },
         "agregar 3 gotas de rocío de luna (ya hay raíz, escarabajo, plumas y escamas)": {
-          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 32",
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 41",
           "cont": '<span>Las gotas de rocío de luna caen sin dejar destello alguno. La mezcla se aclara hasta parecer agua turbia y, por más que se la observe, no vuelve a cambiar. Cualquier magia que tuviera se ha disipado.<br /><br /><u>Resultado</u>: este proceso llevó tres horas y la mezcla se perdió. Cuenta como una poción fallida. Al llegar a tres en este tema, deben avisar a la administración, que abrirá un tema nuevo otro día.<adding class="check-cards" search="aviso de orden"></adding></span>',
         },
         "agregar 5 gotas de rocío de luna (ya hay raíz, escarabajo, plumas y escamas)": {
-          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 32",
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 41",
           "cont": '<span>Las gotas de rocío de luna caen sin dejar destello alguno. La mezcla se aclara hasta parecer agua turbia y, por más que se la observe, no vuelve a cambiar. Cualquier magia que tuviera se ha disipado.<br /><br /><u>Resultado</u>: este proceso llevó tres horas y la mezcla se perdió. Cuenta como una poción fallida. Al llegar a tres en este tema, deben avisar a la administración, que abrirá un tema nuevo otro día.<adding class="check-cards" search="aviso de orden"></adding></span>',
         },
         "agregar 7 gotas de rocío de luna (ya hay raíz, escarabajo, plumas y escamas)": {
-          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 32",
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 41",
           "cont": '<span>Las gotas de rocío de luna caen sin dejar destello alguno. La mezcla se aclara hasta parecer agua turbia y, por más que se la observe, no vuelve a cambiar. Cualquier magia que tuviera se ha disipado.<br /><br /><u>Resultado</u>: este proceso llevó tres horas y la mezcla se perdió. Cuenta como una poción fallida. Al llegar a tres en este tema, deben avisar a la administración, que abrirá un tema nuevo otro día.<adding class="check-cards" search="aviso de orden"></adding></span>',
         },
+        "agregar 1 escama de sirena (ya hay raíz, escarabajo, rocío y 1 pluma al final)": {
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 42",
+          "cont": '<span>Las escamas se hunden sin hacer ondas y la mezcla no responde. Se la deja reposar, se la remueve y se la calienta, pero sigue igual de inerte: un líquido tibio, sin olor y sin ninguna propiedad mágica.<br /><br /><u>Resultado</u>: este proceso llevó tres horas y la mezcla se perdió. Cuenta como una poción fallida. Al llegar a tres en este tema, deben avisar a la administración, que abrirá un tema nuevo otro día.</span>',
+        },
+        "agregar 3 escamas de sirena (ya hay raíz, escarabajo, rocío y 1 pluma al final)": {
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 42",
+          "cont": '<span>Las escamas se hunden sin hacer ondas y la mezcla no responde. Se la deja reposar, se la remueve y se la calienta, pero sigue igual de inerte: un líquido tibio, sin olor y sin ninguna propiedad mágica.<br /><br /><u>Resultado</u>: este proceso llevó tres horas y la mezcla se perdió. Cuenta como una poción fallida. Al llegar a tres en este tema, deben avisar a la administración, que abrirá un tema nuevo otro día.</span>',
+        },
+        "agregar 5 escamas de sirena (ya hay raíz, escarabajo, rocío y 1 pluma al final)": {
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 42",
+          "cont": '<span>Las escamas sellan la mezcla sobrante con tanta fuerza que no le dejan por dónde respirar. Durante un minuto el líquido se hincha y empuja contra sí mismo, hasta que el caldero estalla y el fondo sale despedido contra el techo.<br /><br /><u>Resultado</u>: este proceso llevó dos horas y la mezcla se perdió. Cuenta como una poción fallida. Al llegar a tres en este tema, deben avisar a la administración, que abrirá un tema nuevo otro día.</span>',
+        },
         "agregar el polvo de escarabajo azul (ya hay raíz, rocío, plumas y escamas)": {
-          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 33",
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 43",
           "cont": '<span>El polvo de escarabajo apenas toca la superficie cuando lo que quedaba de las plumas despierta de golpe. Un chillido agudo sale del caldero, que estalla y lanza la mezcla contra las paredes del laboratorio.<br /><br /><u>Resultado</u>: este proceso llevó dos horas y la mezcla se perdió. Cuenta como una poción fallida. Al llegar a tres en este tema, deben avisar a la administración, que abrirá un tema nuevo otro día.</span>',
         },
         "agregar la savia de la raíz de asfódelo (ya hay escarabajo, rocío, plumas y escamas)": {
-          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 34",
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "caldero 44",
           "cont": '<span>La savia de asfódelo cae sobre una mezcla que ya no puede absorberla. El líquido se corta en hilos grises y, poco a poco, se vuelve una baba espesa que se pega a las paredes del caldero y huele a tierra húmeda.<br /><br /><u>Resultado</u>: este proceso llevó tres horas y la mezcla se perdió. Cuenta como una poción fallida. Al llegar a tres en este tema, deben avisar a la administración, que abrirá un tema nuevo otro día.<adding class="check-cards" search="aviso de orden"></adding></span>',
         },
         "llevar el caldero a fuego medio": {
@@ -4775,79 +4919,11 @@ const MissionsModule = (function () {
       "dependency": ["secrets of the silent dead"],
       "type": "investigación", "closed": true, "fecha": "1952-11-10", "link": "https://blackwave.foroactivo.com/t561-investigacion-promise-in-crimson", "tagged": ["morgana", "capitulo 0"],
 
-      "cards": [
-        {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "mensajes ocultos",
-          "cont": '<span><span class="book-clipping">El señor, Brian Dempsey, fue detenido tras impedir el correcto cuidado de su hija. Sus acciones posiblemente llevaron a que los sanadores no pudieran realizar sus correspondientes maniobras para mantener a Merlina viva. <br /><br />Merlina es trasladada para ser atendida por Fergus Vance, nigromante de turno.</span></span>',
-        },
-      ],
+      "cards": [],
 
-      "searchs": {
-        "leer noticia 'fallece trágicamente merlina dempsey tras un violento ataque'": {
-          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span><section class="bring-news" title="fallece trágicamente merlina dempsey tras un violento ataque"></section></span>',
-        },
+      "searchs": {},
 
-        "leer noticia 'fallece trágicamente merlina dempsey tras brote de licantropía'": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "documentos ocultos",
-          "cont": '<span><section class="bring-news" title="fallece trágicamente merlina dempsey tras brote de licantropía"></section></span>',
-        },
-
-        "leer noticia 'la familia dempsey denuncia falta de regulación contra la licantropía'": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "documentos ocultos",
-          "cont": '<span><section class="bring-news" title="la familia dempsey denuncia falta de regulación contra la licantropía"></section></span>',
-        },
-
-        "pergamino de defunción sm-fd/1124-q": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span><span class="book-clipping"><br><div align="center"><strong>PERGAMINO DE DEFUNCIÓN</strong><br><i>Hospital San Mungo para Enfermedades y Heridas Mágicas – Archivo de los Caídos</i></div><br><strong>Nombre Completo del Paciente</strong>: Meliora Densley<br><strong>No. Expediente</strong>: SM-FD/1124-Q<br><strong>Fecha de Ingreso</strong>: 23 de Diciembre de 1911<br><strong>Fecha de fallecimiento</strong>: 14 de Febrero de 1912 - 21:56 hs.<br><br><strong>Edad</strong>: 63 años.<br><strong>Sangre</strong>: ☐ Pura &nbsp; &nbsp; ☐ Mestiza &nbsp; &nbsp; &nbsp;☒ Muggle &nbsp; &nbsp; &nbsp;☐ Criatura<br><br><strong>Motivo del ingreso</strong>: Envenenamiento progresivo por esporas de musgo iridiscente, inhaladas accidentalmente durante una limpieza en invernadero sellado.<br><strong>Causa de fallecimiento</strong>: Colapso pulmonar mágico por reacción alérgica extrema a estructuras cristalinas vegetales.<br><br><strong>Área médica asignada</strong>: Archivo de los caídos.<br><strong>Atendido por</strong>: M. Thatch, nigromante.<br><strong>Acompañante familiar</strong>: Hijo, Yan Powell<br><br><strong>Anexos</strong>:<br>☒ Firma de M. Thatch.<br>☒ Firma de Yan Powell<br>☒ Sello de defunción emitido</span></span>',
-        },
-
-        "pergamino de defunción sm-fd/873-a": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span><span class="book-clipping"><br><div align="center"><strong>PERGAMINO DE DEFUNCIÓN</strong><br><i>Hospital San Mungo para Enfermedades y Heridas Mágicas – Archivo de los Caídos</i></div><br><strong>Nombre Completo del Paciente</strong>: Morwenna Daltry<br><strong>No. Expediente</strong>: SM-FD/873-A<br><strong>Fecha de Ingreso</strong>: 12 de junio de 1941<br><strong>Fecha de fallecimiento</strong>: 14 de junio de 1941 – 19:42 hs.<br><br><strong>Edad</strong>: 41 años.<br><strong>Sangre</strong>: ☐ Pura &nbsp; ☒ Mestiza &nbsp; ☐ Muggle &nbsp; ☐ Criatura<br><br><strong>Motivo del ingreso</strong>: Maleficio crónico no identificado alojado en sistema nervioso<br><strong>Causa de fallecimiento</strong>: Falla neuromágica fulminante. Se presume intervención de magia antigua o residual. Intervención de inefables solicitado post mortem.<br><br><strong>Área médica asignada</strong>: Archivo de los caídos.<br><strong>Atendido por</strong>: E. Rowntree, nigromante.<br><strong>Acompañante familiar</strong>: Padre, John Daltry<br><br><strong>Anexos</strong>:<br>☒ Firma de E. Rowntree.<br>☒ Firma de John Daltry<br>☒ Sello de defunción emitido</span></span>',
-        },
-
-        "pergamino de defunción sm-fd/1293-g": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span><span class="book-clipping"><br><div align="center"><strong>PERGAMINO DE DEFUNCIÓN</strong><br><i>Hospital San Mungo para Enfermedades y Heridas Mágicas – Archivo de los Caídos</i></div><br><strong>Nombre Completo del Paciente</strong>: Merlina Dempsey<br><strong>No. Expediente</strong>: SM-FD/1293-G<br><strong>Fecha de Ingreso</strong>: 14 de Junio de 1907<br><strong>Fecha de fallecimiento</strong>: 14 de Junio de 1907 - 03:04 hs.<br><br><strong>Edad</strong>: 14 años.<br><strong>Sangre</strong>: ☐ Pura &nbsp; &nbsp; ☒ Mestiza &nbsp; &nbsp; &nbsp;☐ Muggle &nbsp; &nbsp; &nbsp;☐ Criatura<br><br><strong>Motivo del ingreso</strong>: violento ataque de licantropía.<br><strong>Causa de fallecimiento</strong>: El paciente mostraba heridas fatales físicas provocadas por una criatura mágica identificada como Hombre Lobo. Se identifica a la criatura a causa de los daños provocados por garras y mordeduras que coinciden con dicha criatura.<br><br><strong>Área médica asignada</strong>: Archivo de los caídos.<br><strong>Atendido por</strong>: X. Longbottom, nigromante.<br><strong>Acompañante familiar</strong>: Madre, Iris Dempsey (madre)<br><br><strong>Anexos</strong>:<br>☒ Firma de X. Longbottom.<br>☒ Firma de Iris Dempsey<br>☒ Sello de defunción emitido</span></span>',
-        },
-
-        "pergamino de defunción sm-fd/995-b": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span><span class="book-clipping"><br><div align="center"><strong>PERGAMINO DE DEFUNCIÓN</strong><br><i>Hospital San Mungo para Enfermedades y Heridas Mágicas – Archivo de los Caídos</i></div><br><strong>Nombre Completo del Paciente</strong>: Marietta Dampier<br><strong>No. Expediente</strong>: SM-FD/995-B<br><strong>Fecha de Ingreso</strong>: 29 de octubre de 1922<br><strong>Fecha de fallecimiento</strong>: 02 de noviembre de 1922 – 06:04 hs<br><br><strong>Edad</strong>: 34 años.<br><strong>Sangre</strong>: ☐ Pura &nbsp;☒ Mestiza &nbsp;☐ Muggle &nbsp;☐ Criatura<br><br><strong>Motivo del ingreso</strong>: Congelación súbita durante práctica de encantamientos de frío.<br><strong>Causa de fallecimiento</strong>: El cuerpo conservó rasgos vitales durante tres días antes de apagarse sin dolor aparente.<br><br><strong>Área médica asignada</strong>: Archivo de los caídos.<br><strong>Atendido por</strong>: E. Rowntree, nigromante.<br><strong>Acompañante familiar</strong>: Esposo, Ian Clapton<br><br><strong>Anexos</strong>:<br>☒ Firma de E. Rowntree.<br>☒ Firma de Ian Clapton<br>☒ Sello de defunción emitido</span></span>',
-        },
-
-        "informe de ingreso": {
-          "visible": { "attr": { "sab": "3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "pergamino de defunción sm-fd/1293-g",
-          "cont": '<span><span class="book-clipping"><br><div align="center"><strong>FICHA DE INGRESO</strong><br><i>Hospital San Mungo para Enfermedades y Heridas Mágicas – Archivo de los Caídos</i></div><br><strong>Nombre Completo del Paciente</strong>: Merlina Dempsey<br><strong>No. Expediente</strong>: SM-ING-14-06-1907/1293-G<br><strong>Fecha de Ingreso</strong>: 14 de Junio de 1907<br><br><strong>Edad</strong>: 14 años.<br><strong>Sangre</strong>: ☐ Pura ☒ Mestiza ☐ Muggle ☐ Criatura<br><br><strong>Motivo del ingreso</strong>: violento ataque de licantropía.<br><br><strong>Síntomas</strong>:<br>El sangrado irregular, más oscuro o con olor metálico más fuerte de lo normal. <br>Fiebre súbita en las siguientes horas.<br>Espasmos musculares alrededor de la herida.<br><br><strong>Notas</strong>: La paciente ingresa con el cuerpo colapsado a causa de graves heridas provocadas por un ataque de licantropía. <br><br>Étaín Sayre, sanadora, intentó cicatrizar las heridas con magia para detener las hemorragias, sin embargo, la herida es demasiado profunda para cerrarla con magia convencional. Ante ese resultado, Amaya Flamel, sanadora, intentó aplicar un ungüento de murtlap, pero obtuvo los mismos resultados.<br><br>Pese a los muchos intentos, a las 04:21 hs, anuncian la hora de fallecimiento.<br><br><classified style="--char: 25"></classified><br><classified style="--char: 54"></classified><br><classified style="--char: 34"></classified><br><br><strong>Transferencia</strong>: Archivo de los caídos.<br><br><strong>Anexos</strong>:<br>☒ Firma de Étaín Sayre, sanadora.<br>☒ Firma de Amaya Flamel, sanadora.<br>☒ Firma de Iris Dempsey, madre de la paciente.<br>☒ Aprobación de traslado al Archivo de los Caídos.</span></span>',
-        },
-
-        "leer noticia 'trágica pérdida en la comunidad norirlandesa'": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "leer noticia 'la familia dempsey denuncia falta de regulación contra la licantropía'",
-          "cont": '<span><section class="bring-news" title="trágica pérdida en la comunidad norirlandesa"></section></span>',
-        },
-
-        "leer noticia 'incendio devasta la destilería dempsey'": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "leer noticia 'trágica pérdida en la comunidad norirlandesa'",
-          "cont": '<span><section class="bring-news" title="incendio devasta la destilería dempsey"></section></span>',
-        },
-      },
-
-      "actions": {
-        "aparecium": {
-          "leve": '',
-          "moderado": '<span><adding search="mensajes ocultos" class="check-cards"></adding></span>',
-          "exitoso": '<span><adding search="mensajes ocultos" class="check-cards"></adding></span>',
-          "critico": '<span><adding search="mensajes ocultos" class="check-cards"></adding></span>',
-        },
-        "revelio": {
-          "leve": '',
-          "moderado": '<span><adding search="documentos ocultos" class="check-cards"></adding></span>',
-          "exitoso": '<span><adding search="documentos ocultos" class="check-cards"></adding></span>',
-          "critico": '<span><adding search="documentos ocultos" class="check-cards"></adding></span>',
-        },
-      },
+      "actions": {},
     },
     // fin promise in crimson
 
