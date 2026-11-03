@@ -565,7 +565,7 @@ const MissionsModule = (function () {
       "description": "Así como los cuerpos fueron trasladados a morgue. Las tazas de té y vasos de té junto con los whiskeys encontrados en las casas de las víctimas, fueron llevados a los laboratorios de San Mungo para identificar su contenido.<br />En este tema, deberán aplicar diferentes métodos alquímicos, un poco de lógica y por supuesto, tener un poco de suerte, hasta encontrar qué había en los vasos de las diferentes víctimas.",
       "image": "https://2img.net/i.imgur.com/fyKLKgt.png", "requisitos": ["Un miembro debe tener Alquimia en Avanzado", "Un trabajador del Dpto de Seguridad Mágica", "Personajes que puedan colaborar oficialmente con la investigación de venenos"],
       "users": ["/u10", "/u77", "/u89", "/u18", "/u42"],
-      "informed": [],
+      "informed": ["/u108"],
       "dependency": [],
       "type": "misión", "closed": true, "fecha": "1952-09-25", "link": "https://blackwave.foroactivo.com/t365-mision-death-in-a-teacup", "tagged": ["edwin", "morgana", "sirius", "capitulo 0"],
 
