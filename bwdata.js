@@ -8267,7 +8267,7 @@ const MissionsModule = (function () {
           "cont": '<span>El frasco tiene casi la mitad vacía, cuando la receta indica una cucharadita por noche y la fecha de la etiqueta es reciente. En el cuello del vidrio queda un cerco verdoso, y bajo el olor del alcohol se percibe otro, rancio y terroso, que no pertenece a la poción para el sueño sin sueños. El corcho tiene una perforación diminuta, del grosor de una aguja: alguien añadió algo al frasco sin necesidad de abrirlo. El resto seco del vaso, en cambio, es solo whisky.</span>',
         },
         {
-          "visible": { "attr": { "val": "min" }, "know": { "runas antiguas": "10" }, "job": "invalid", "name": "invalid", }, "place": "subir las mangas",
+          "visible": { "attr": { "val": "min" }, "know": { "runas antiguas": "15" }, "job": "invalid", "name": "invalid", }, "place": "subir las mangas",
           "cont": '<span>Quien haya estudiado algo de runas nota que la «W» no termina de ser una letra. El asta central es demasiado larga y los ganchos de los extremos, aunque estirados hasta parecer garras, recuerdan el trazo de una runa del futhark antiguo. Parece que alguien la hubiera disfrazado a propósito. Identificarla con certeza requiere un examen más cuidadoso.</span>',
         },
         {
