@@ -5748,11 +5748,6 @@ const MissionsModule = (function () {
           "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ingresar al ático",
           "cont": '<span>El ático es definitivamente el espacio más pequeño de toda la casa. No tiene luces, pero las velas prendidas iluminan débilmente el espacio de madera.<adding search="ático" class="check-cards"></adding></span>',
         },
-
-        {
-          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "gemelas",
-          "cont": '<span>Al ingresar al cuarto de las gemelas, la puerta se cierra con un sonoro golpe y la temperatura empieza a descender rápidamente. Los personajes tendrán 3 turnos para resolver la situación y pierden instantáneamente 75pv y 30pv por cada acción realizada.</span>',
-        },
       ],
 
       "searchs": {
@@ -5834,7 +5829,7 @@ const MissionsModule = (function () {
 
         "ingresar al cuarto de las gemelas": {
           "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "subir al primer piso",
-          "cont": '<span>La primera puerta a la izquierda, luego de recorrer por un pequeño pasillo, conduce a la habitación de las gemelas.</span>',
+          "cont": '<span>La primera puerta a la izquierda, luego de recorrer por un pequeño pasillo, conduce a la habitación de las gemelas. Al ingresar al cuarto de las gemelas, la puerta se cierra con un sonoro golpe y la temperatura empieza a descender rápidamente. Los personajes tendrán 3 turnos para resolver la situación y pierden instantáneamente 75pv y 30pv por cada acción realizada.</span>',
         },
 
         "subir al ático": {
