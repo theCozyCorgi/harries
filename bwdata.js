@@ -5997,30 +5997,30 @@ const MissionsModule = (function () {
 
         "incendio": {
           "leve": '<span>No es suficiente para revelar información.</span>',
-          "moderado": '<span>Al aplicar el hechizo sobre los troncos de la chimenea estos comienzan a arder y la temperatura comienza a subir regresando a una temperatura adecuada. Los personajes ya no pierden más puntos de vida.</span><adding search="gemelas1" class="check-cards"></adding>',
-          "exitoso": '<span>Al aplicar el hechizo sobre los troncos de la chimenea estos comienzan a arder y la temperatura comienza a subir regresando a una temperatura adecuada. Los personajes ya no pierden más puntos de vida.</span><adding search="gemelas1" class="check-cards"></adding>',
-          "critico": '<span>Al aplicar el hechizo sobre los troncos de la chimenea estos comienzan a arder y la temperatura comienza a subir regresando a una temperatura adecuada. Los personajes ya no pierden más puntos de vida.</span><adding search="gemelas1" class="check-cards"></adding>',
+          "moderado": '<span>Al aplicar el hechizo sobre los troncos de la chimenea estos comienzan a arder, restaura 2 puntos de temperatura de 45. Una vez que cubran los puntos totales podrán desbloquear la siguiente información:</span><adding search="gemelas1" class="check-cards"></adding>',
+          "exitoso": '<span>Al aplicar el hechizo sobre los troncos de la chimenea estos comienzan a arder, restaura 5 puntos de temperatura de 45. Una vez que cubran los puntos totales podrán desbloquear la siguiente información:</span><adding search="gemelas1" class="check-cards"></adding>',
+          "critico": '<span>Al aplicar el hechizo sobre los troncos de la chimenea estos comienzan a arder, restaura 10 puntos de temperatura de 45. Una vez que cubran los puntos totales podrán desbloquear la siguiente información:</span><adding search="gemelas1" class="check-cards"></adding>',
         },
 
         "lacarnum inflamarae": {
           "leve": '<span>No es suficiente para revelar información.</span>',
-          "moderado": '<span>Al aplicar el hechizo sobre los troncos de la chimenea estos comienzan a arder y la temperatura comienza a subir regresando a una temperatura adecuada. Los personajes ya no pierden más puntos de vida.</span><adding search="gemelas1" class="check-cards"></adding>',
-          "exitoso": '<span>Al aplicar el hechizo sobre los troncos de la chimenea estos comienzan a arder y la temperatura comienza a subir regresando a una temperatura adecuada. Los personajes ya no pierden más puntos de vida.</span><adding search="gemelas1" class="check-cards"></adding>',
-          "critico": '<span>Al aplicar el hechizo sobre los troncos de la chimenea estos comienzan a arder y la temperatura comienza a subir regresando a una temperatura adecuada. Los personajes ya no pierden más puntos de vida.</span><adding search="gemelas1" class="check-cards"></adding>',
+          "moderado": '<span>Al aplicar el hechizo sobre los troncos de la chimenea estos comienzan a arder, restaura 2 puntos de temperatura de 45. Una vez que cubran los puntos totales podrán desbloquear la siguiente información:</span><adding search="gemelas1" class="check-cards"></adding>',
+          "exitoso": '<span>Al aplicar el hechizo sobre los troncos de la chimenea estos comienzan a arder, restaura 5 puntos de temperatura de 45. Una vez que cubran los puntos totales podrán desbloquear la siguiente información:</span><adding search="gemelas1" class="check-cards"></adding>',
+          "critico": '<span>Al aplicar el hechizo sobre los troncos de la chimenea estos comienzan a arder, restaura 10 puntos de temperatura de 45. Una vez que cubran los puntos totales podrán desbloquear la siguiente información:</span><adding search="gemelas1" class="check-cards"></adding>',
         },
 
         "vocare kanu": {
           "leve": '<span>No es suficiente para revelar información.</span>',
-          "moderado": '<span>Al aplicar el hechizo sobre los troncos de la chimenea estos comienzan a arder y la temperatura comienza a subir regresando a una temperatura adecuada. Los personajes ya no pierden más puntos de vida.</span><adding search="gemelas1" class="check-cards"></adding>',
-          "exitoso": '<span>Al aplicar el hechizo sobre los troncos de la chimenea estos comienzan a arder y la temperatura comienza a subir regresando a una temperatura adecuada. Los personajes ya no pierden más puntos de vida.</span><adding search="gemelas1" class="check-cards"></adding>',
-          "critico": '<span>Al aplicar el hechizo sobre los troncos de la chimenea estos comienzan a arder y la temperatura comienza a subir regresando a una temperatura adecuada. Los personajes ya no pierden más puntos de vida.</span><adding search="gemelas1" class="check-cards"></adding>',
+          "moderado": '<span>Al aplicar el hechizo sobre los troncos de la chimenea estos comienzan a arder, restaura 2 puntos de temperatura de 45. Una vez que cubran los puntos totales podrán desbloquear la siguiente información:</span><adding search="gemelas1" class="check-cards"></adding>',
+          "exitoso": '<span>Al aplicar el hechizo sobre los troncos de la chimenea estos comienzan a arder, restaura 5 puntos de temperatura de 45. Una vez que cubran los puntos totales podrán desbloquear la siguiente información:</span><adding search="gemelas1" class="check-cards"></adding>',
+          "critico": '<span>Al aplicar el hechizo sobre los troncos de la chimenea estos comienzan a arder, restaura 10 puntos de temperatura de 45. Una vez que cubran los puntos totales podrán desbloquear la siguiente información:</span><adding search="gemelas1" class="check-cards"></adding>',
         },
 
         "ignis mortis": {
           "leve": '<span>No es suficiente para revelar información.</span>',
-          "moderado": '<span>Al aplicar el hechizo sobre los troncos de la chimenea estos comienzan a arder y la temperatura comienza a subir regresando a una temperatura adecuada. Los personajes ya no pierden más puntos de vida.</span><adding search="gemelas1" class="check-cards"></adding>',
-          "exitoso": '<span>Al aplicar el hechizo sobre los troncos de la chimenea estos comienzan a arder y la temperatura comienza a subir regresando a una temperatura adecuada. Los personajes ya no pierden más puntos de vida.</span><adding search="gemelas1" class="check-cards"></adding>',
-          "critico": '<span>Al aplicar el hechizo sobre los troncos de la chimenea estos comienzan a arder y la temperatura comienza a subir regresando a una temperatura adecuada. Los personajes ya no pierden más puntos de vida.</span><adding search="gemelas1" class="check-cards"></adding>',
+          "moderado": '<span>Al aplicar el hechizo sobre los troncos de la chimenea estos comienzan a arder, restaura 2 puntos de temperatura de 45. Una vez que cubran los puntos totales podrán desbloquear la siguiente información:</span><adding search="gemelas1" class="check-cards"></adding>',
+          "exitoso": '<span>Al aplicar el hechizo sobre los troncos de la chimenea estos comienzan a arder, restaura 5 puntos de temperatura de 45. Una vez que cubran los puntos totales podrán desbloquear la siguiente información:</span><adding search="gemelas1" class="check-cards"></adding>',
+          "critico": '<span>Al aplicar el hechizo sobre los troncos de la chimenea estos comienzan a arder, restaura 10 puntos de temperatura de 45. Una vez que cubran los puntos totales podrán desbloquear la siguiente información:</span><adding search="gemelas1" class="check-cards"></adding>',
         },
       },
     },
