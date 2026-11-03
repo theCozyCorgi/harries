@@ -8457,10 +8457,10 @@ const MissionsModule = (function () {
           "critico": '<span>Titan comparte un recuerdo emocional reciente: una figura alta y silenciosa a la que no ladró, porque Mercury le dijo «quieto» y le acarició el lomo. El crup recuerda el olor a tinta y a ceniza de esa persona, y que, tras su marcha, Mercury ya no se movió.</span>',
         },
         "identificar runa": {
-          "leve": '<span>Si se examina la marca del antebrazo de Mercury, se reconoce que la «W» oculta una runa del futhark antiguo, pero no se logra precisar cuál. Si se examina el marco del espejo, se distinguen runas entre las cifras, sin poder identificar ninguna.</span>',
-          "moderado": '<span>Si se examina la marca de Mercury, la runa es <strong>eihwaz</strong> (ᛇ), la del tejo. Se asocia de forma vaga con la muerte y con lo que perdura. Si se examina el marco del espejo, se identifican dos runas que se repiten en la espiral: <strong>isa</strong> y <strong>nauthiz</strong>.</span>',
-          "exitoso": '<span>Si se examina la marca de Mercury, lo que todos toman por una «W» alargada es <strong>eihwaz</strong> (ᛇ), deformada a propósito: los ganchos de los extremos se estiraron hasta parecer garras y el asta se quebró para que el conjunto se leyera como la inicial del Wrexham Wolf. Quien no sabe de runas ve un lobo; quien sabe, ve el tejo. Eihwaz es la runa del tejo, el árbol de los cementerios: representa el ciclo de vida, muerte y renacimiento, la transformación, la resistencia y el arraigo.<br><br>Si se examina el marco del espejo, <strong>isa</strong> es el hielo, lo que se detiene y no avanza, y <strong>nauthiz</strong> es la necesidad, lo que se sujeta por obligación. Juntas, retienen algo que de otro modo se iría.</span>',
-          "critico": '<span>Si se examina la marca de Mercury, revela lo anterior y cómo fue hecha: se trazó a fuego, con varita y de un solo movimiento, por una mano experta en runas. No es el trabajo de un iniciado, sino de alguien que ha marcado a muchos antes.<br><br>Si se examina el marco del espejo, revela lo anterior y que las runas fueron talladas por la misma mano que escribió el cuaderno de sesiones. La espiral está incompleta: termina en el hueco vacío del travesaño, donde el objeto perdido llevaba grabada la última runa del círculo.</span>',
+          "leve": '<span>No es suficiente para revelar información.</span>',
+          "moderado": '<span>No es suficiente para revelar información.</span>',
+          "exitoso": '<span>No puede distinguirse si se trata de Ehwaz o Mannaz.</span>',
+          "critico": '<span>La runa puede identificarse como Mannaz.</span>',
         },
         "interpretar runas": {
           "leve": '<span>La interpretación es vaga: si se trata de la marca de Mercury, habla de algo que muere y no termina de irse. Si se trata del marco del espejo, de algo detenido.</span>',
