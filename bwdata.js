@@ -5829,7 +5829,7 @@ const MissionsModule = (function () {
 
         "ingresar al cuarto de las gemelas": {
           "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "subir al primer piso",
-          "cont": '<span>La primera puerta a la izquierda, luego de recorrer por un pequeño pasillo, conduce a la habitación de las gemelas. Al ingresar al cuarto de las gemelas, la puerta se cierra con un sonoro golpe y la temperatura empieza a descender rápidamente. Los personajes tendrán 3 turnos para resolver la situación y pierden instantáneamente 75pv y 30pv por cada acción realizada.</span>',
+          "cont": '<span>La primera puerta a la izquierda, luego de recorrer por un pequeño pasillo, conduce a la habitación de las gemelas. <br><br>Al ingresar al cuarto de las gemelas, la puerta se cierra con un sonoro golpe y la temperatura empieza a descender rápidamente. Los personajes tendrán 3 turnos para resolver la situación y pierden instantáneamente 75pv y 30pv por cada acción realizada.</span>',
         },
 
         "subir al ático": {
