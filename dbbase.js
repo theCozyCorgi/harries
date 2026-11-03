@@ -90542,10 +90542,11 @@ const DBModule = (function () {
             "type": [
                 "habilidad, sin magia, neutral"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"liderazgo\"><strong>Resultado  #1 \"vox imperium\" (12)</strong><span>Los aliados obtienen por tres turnos <em>+15</em> (100% del conocimiento en LIDERAZGO) de Ataque, si la orden es ofensiva, o <em>+15</em> (100% del conocimiento en LIDERAZGO) de Defensa, si la orden es defensiva. Si ignoran la orden, deberán restar el plus de sus correspondientes ataques.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"liderazgo\"><strong>Resultado  #1 \"vox imperium\" (12)</strong><span>Los aliados obtienen por tres turnos <em>+15</em> (100% del conocimiento en LIDERAZGO) de Ataque, si la orden es ofensiva, o <em>+15</em> (100% del conocimiento en LIDERAZGO) de Defensa, si la orden es defensiva. Si ignoran la orden, deberán restar el plus de sus correspondientes ataques.<br /><br />Todos los estudiantes obedecen liberando el despacho del director y dejando que las personas presentes se encarguen de la investigación correspondiente.</span></span></div></div></div>",
             "url": "r12275",
             "simpleTitle": "Misión: the murmur of the old guard",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Hermes Rosier",
@@ -90553,7 +90554,7 @@ const DBModule = (function () {
                 2
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "inspeccionar la escena"
@@ -90564,10 +90565,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Hermes Rosier ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">2</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Hermes Rosier ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"inspeccionar la escena\" (2)</strong><span><span>Dentro de lo que es el usual despacho del Director Dippet, se puede ver que el hombre reposa sobre el escritorio. Desde la distancia no parece que respire, y su piel ha tomado colores grisaceos que no parecen nada sanos y sus ojos miran sin ver cristalizados.</span></span></span></div></div></div>",
             "url": "r12289",
             "simpleTitle": "Misión: the murmur of the old guard",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Montgomery Thatch",
@@ -90589,7 +90591,8 @@ const DBModule = (function () {
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Montgomery Thatch ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"duendes\"><strong>Resultado  #1 \"oculus auri\" (18)</strong><span>Puede ver a través de ilusiones y detectar incluso artefactos protegidos con magia avanzada.</span></span></div></div></div>",
             "url": "r12346",
             "simpleTitle": "Misión: the murmur of the old guard",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Cuthbert S. Selwyn",
@@ -90597,7 +90600,7 @@ const DBModule = (function () {
                 11
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "la taza de té"
@@ -90608,10 +90611,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cuthbert S. Selwyn ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">11</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cuthbert S. Selwyn ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"la taza de té\" (11)</strong><span><span>Sobre el escritorio, se encuentra una de las tantas tazas de té que se usan para el desayuno del director. La taza está vacía, pero hay una mancha de color rojo en la superficie.</span></span></span></div></div></div>",
             "url": "r12428",
             "simpleTitle": "Misión: the murmur of the old guard",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Aidan N. Flamel",
@@ -90620,6 +90624,7 @@ const DBModule = (function () {
                 10
             ],
             "title": [
+                "mission",
                 "actions"
             ],
             "key": [
@@ -90634,10 +90639,11 @@ const DBModule = (function () {
                 "",
                 "curación, encantamiento"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Aidan N. Flamel ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">12</span><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #2 \"morbus revela\" (10)</strong><span>Muestra visual o mentalmente las zonas exactas afectadas, con detalles.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Aidan N. Flamel ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"analizar la salud del director\" (12)</strong><span><span>Si se trata de tomar el pulso, pueden notar que el mismo es lento y pausado, pero constante. Necesitarán un hechizo de sanación para obtener más información.</span></span></span><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #2 \"morbus revela\" (10)</strong><span>Muestra visual o mentalmente las zonas exactas afectadas, con detalles.<br /><br />Permite identificar que Dippet esta vivo, sin embargo, puede identificarse que su cuerpo esta siendo afectado por una poción que le impide moverse con normalidad. Y que el daño ha sido más severo de lo que se esperaba. Pues su cuerpo esta entumecido de la cintura hacia abajo. Un profesional de la salud mágica debería atenderlo a la brevedad antes de que los daños sean permanentes.</span></span></div></div></div>",
             "url": "r12441",
             "simpleTitle": "Misión: the murmur of the old guard",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Minerva E. McGonagall",
@@ -90656,10 +90662,11 @@ const DBModule = (function () {
             "type": [
                 "encantamiento, neutral"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"pociones\"><strong>Resultado  #1 \"revelio potionis\" (19)</strong><span>Puede reconocer efectos generales de la poción y <em>+5</em> (50% del conocimiento en POCIONES) puntos de sus ingredientes principales.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"pociones\"><strong>Resultado  #1 \"revelio potionis\" (19)</strong><span>Puede reconocer efectos generales de la poción y <em>+5</em> (50% del conocimiento en POCIONES) puntos de sus ingredientes principales.<br /><br />Puede detectarse que se trata de una poción para la tos, pero ha sido adulterada para que entumesca más de lo que debería. El frasco posee raiz de asfódelo molida en su interior, provocando dichos efectos.</span></span></div></div></div>",
             "url": "r12483",
             "simpleTitle": "Misión: the murmur of the old guard",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Hermes Rosier",
@@ -90667,7 +90674,7 @@ const DBModule = (function () {
                 8
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "preguntar a los cuadros dónde esta dumbledore"
@@ -90678,10 +90685,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Hermes Rosier ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">8</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Hermes Rosier ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"preguntar a los cuadros dónde esta dumbledore\" (8)</strong><span><span>«¡Oh, Albus!» dijo Phyllida Spore. «Se ha ido a un congreso en Italia, ya saben como es. Demasiado importante, un ejemplo de mago. Creo que debería estar a cargo de la dirección ahora que Dippet...» Dejó la frase sin terminar, aunque todos sabían a qué se refería. Incluso aunque no estuviera muerto, aquello no podía terminar de otra manera más que con la renuncia del mismo. «Ya se lo hemos comunicado, dijo que viajará tan pronto sea posible, pero le tomará unas horas».</span></span></span></div></div></div>",
             "url": "r12685",
             "simpleTitle": "Misión: the murmur of the old guard",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Montgomery Thatch",
@@ -90703,7 +90711,8 @@ const DBModule = (function () {
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Montgomery Thatch ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"aritmancia\"><strong>Resultado  #1 \"numerus occultus\" (14)</strong><span>Los patrones ocultos quedan expuestos con claridad.</span></span></div></div></div>",
             "url": "r12774",
             "simpleTitle": "Misión: the murmur of the old guard",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Cuthbert S. Selwyn",
@@ -90725,7 +90734,8 @@ const DBModule = (function () {
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cuthbert S. Selwyn ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"videncia\"><strong>Resultado  #1 \"prophetia\" (15)</strong><span>Tus ojos se nublan por un momento. Una voz infantil, lejana e imposible de identificar, canta una nana en un idioma olvidado. Solo una palabra resuena claramente al final: \"Ayuda\". No recuerdas la visión, pero un escalofrío recorre tu espalda.</span></span></div></div></div>",
             "url": "r13364",
             "simpleTitle": "Misión: the murmur of the old guard",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Aidan N. Flamel",
@@ -90733,7 +90743,7 @@ const DBModule = (function () {
                 5
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "orden en el despacho"
@@ -90744,10 +90754,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Aidan N. Flamel ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">5</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Aidan N. Flamel ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"orden en el despacho\" (5)</strong><span><span>Por lo general, Dippet suele mantener un orden que para muchos, no es apropiado para el puesto que posee. Siempre su despacho cuenta con periódicos por todas partes, tazas que fue dejando con té en diferentes cantidades. Sin embargo, ese día parece que hay algo fuera de lugar. Y es que, no es que haya algo fuera de lugar, sino que hay demasiado orden y el despacho esta demasiado limpio para que parezca el espacio usual del Director.</span></span></span></div></div></div>",
             "url": "r13620",
             "simpleTitle": "Misión: the murmur of the old guard",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Minerva E. McGonagall",
@@ -90769,7 +90780,8 @@ const DBModule = (function () {
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"historia de la magia\"><strong>Resultado  #1 \"relicta notitia\" (12)</strong><span>Se obtiene un resumen parcial de su historia, con lagunas.</span></span></div></div></div>",
             "url": "r13680",
             "simpleTitle": "Misión: the murmur of the old guard",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Hermes Rosier",
@@ -90791,7 +90803,8 @@ const DBModule = (function () {
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Hermes Rosier ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"specialis revelio\" (14)</strong><span>Los efectos mágicos presentes son revelados claramente.</span></span></div></div></div>",
             "url": "r13837",
             "simpleTitle": "Misión: the murmur of the old guard",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Cuthbert S. Selwyn",
@@ -90813,7 +90826,8 @@ const DBModule = (function () {
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cuthbert S. Selwyn ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #1 \"patronus nuntius\" (3)</strong><span>No sucede nada, capaz este hechizo no es para ti.</span></span></div></div></div>",
             "url": "r13945",
             "simpleTitle": "Misión: the murmur of the old guard",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Aidan N. Flamel",
@@ -90821,7 +90835,7 @@ const DBModule = (function () {
                 18
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "preguntar a los cuadros qué han visto"
@@ -90832,10 +90846,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Aidan N. Flamel ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">18</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Aidan N. Flamel ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"preguntar a los cuadros qué han visto\" (18)</strong><span><span>Un silencio se distribuye entre los cuadros mientras los ojos de los antiguos directores se miran unos a otros. Es Phineas Nigellus Black el primero en hablar: «Nuestro deber es acompañar y aconsejar a los directores que vengan detrás nuestro. Lo que ha pasado, no lo sabemos, pues, nos han bloqueado el acceso a nuestros propios cuadros y cuando hermos regresado, así lo hemos encontrado».</span></span></span></div></div></div>",
             "url": "r14157",
             "simpleTitle": "Misión: the murmur of the old guard",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Minerva E. McGonagall",
@@ -90843,7 +90858,7 @@ const DBModule = (function () {
                 18
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "preguntar a los cuadros vieron algo extraño antes de ser cegado"
@@ -90854,10 +90869,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">18</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"preguntar a los cuadros vieron algo extraño antes de ser cegado\" (18)</strong><span><span>«Estuvimos en el despacho, pero no vimos nada extraño. Solo vimos a Dippet, que estaba muy quieto, para su inquietud de los días anteriores. Luego, todo se volvió negro y nos cegaron», respondió Everard. «Ah, verdad. Decía que iban a ir por él porque se había presentado como candidato y no paraba de caminar de un lado del desapacho a otro», agregó Phyllida Spore.</span></span></span></div></div></div>",
             "url": "r14471",
             "simpleTitle": "Misión: the murmur of the old guard",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Hermes Rosier",
@@ -90879,7 +90895,8 @@ const DBModule = (function () {
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Hermes Rosier ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"rennervate\" (11)</strong><span>El objetivo recupera la conciencia completamente y sin efectos secundarios. Se elimina completamente toda la penalidad que poseía el personaje afectado.</span></span></div></div></div>",
             "url": "r14521",
             "simpleTitle": "Misión: the murmur of the old guard",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Cuthbert S. Selwyn",
@@ -90887,7 +90904,7 @@ const DBModule = (function () {
                 9
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "el reflejo en el techo"
@@ -90898,10 +90915,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cuthbert S. Selwyn ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">9</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cuthbert S. Selwyn ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"el reflejo en el techo\" (9)</strong><span><span>En conclusión a lo dicho, la persona que cegó al director debió haber estado presente antes o debió realizarlo el mismo Director. Al observar el techo, pueden notar un reflejo borroso de la realidad. Al principio sus propios reflejos parecen ser iguales e imitan sus movimientos. Sin embargo, cuando un personaje aparta la mirada, todos los reflejos toman forma propia. Cayendo del reflejo al despacho. Deberán incluir los siguientes personajes no jugables y enfrentarse a sus propios reflejos. Cuando un personaje logre liberarse de su sombra podrán pedir intervención al staff: Sombra Aidan (6 FUE / 6 CON), Sombra Cuthbert (6 FUE / 5 CON), Sombra Hermes (7 FUE / 5 CON), Sombra Minerva (5 FUE / 7 CON) y Sombra Monthgomery (3 FUE / 3 CON). Solo podrán enfrentarse a su propia sombra.<br>Solo podrán enfrentarse a su propia sombra. Si la misma les habla o qué les dice, depende de cada personaje. Cuando un personaje logre librarse de una sombra, deberá avisar al staff para que se realice la siguiente intervención. Las sombras poseen 50PV.</span></span></span></div></div></div>",
             "url": "r14567",
             "simpleTitle": "Misión: the murmur of the old guard",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Aidan N. Flamel",
@@ -90933,10 +90951,11 @@ const DBModule = (function () {
                 "",
                 "encantamiento, defensivo"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Aidan N. Flamel ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"ventus\" (9)</strong><span>Una ráfaga de viento empuja el objetivo con fuerza moderada. Adiciona <em>+5</em> (50% del conocimiento en ENCANTAMIENTOS) en daño en caso de duelos.</span></span><span class=\"roll-result\">6</span><span class=\"roll-result\">12</span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #4 \"protego\" (6)</strong><span>El escudo bloquea la mayoría de los ataques mágicos. Reduce <em>+7</em> (75% del conocimiento en DCAO) puntos el ataque contrario y elimina los efectos secundarios de los hechizos.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Aidan N. Flamel ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"ventus\" (9)</strong><span>Una ráfaga de viento empuja el objetivo con fuerza moderada. Adiciona <em>+5</em> (50% del conocimiento en ENCANTAMIENTOS) en daño en caso de duelos.</span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #2 \"sombra aidan\" (6)</strong><ataque>Ataca con hechizo: \"Obscuro\". El objetivo queda completamente cegado hasta que se elimine el hechizo. Disminuye 4 puntos de sus siguientes dos acciones o hasta que se libere del encantamiento.</ataque><defensa>Defiende con hechizo: \"Protego\". Adiciona +8 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.</defensa></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #3 \"sombra aidan\" (12)</strong><ataque>Ataca con hechizo: \"Fulgari\". Las cuerdas atan firmemente al objetivo, restringiendo su movimiento. Incapacita todas las acciones de la víctima hasta que no se la libere.</ataque><defensa>Defiende con hechizo: \"Protego\". Adiciona +10 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.</defensa></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #4 \"protego\" (6)</strong><span>El escudo bloquea la mayoría de los ataques mágicos. Reduce <em>+7</em> (75% del conocimiento en DCAO) puntos el ataque contrario y elimina los efectos secundarios de los hechizos.</span></span></div></div></div>",
             "url": "r14697",
             "simpleTitle": "Misión: the murmur of the old guard",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Minerva E. McGonagall",
@@ -90968,10 +90987,11 @@ const DBModule = (function () {
                 "maleficio, ofensivo",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">4</span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"protego\" (7)</strong><span>El escudo es extremadamente resistente. Reduce el ataque en <em>+6</em> (40% del conocimiento en DCAO) puntos adicionales.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #3 \"flipendo\" (15)</strong><span>El oponente es lanzado por los aires con gran fuerza, impactando contra una superficie. Adiciona <em>+6</em> (40% del conocimiento en DCAO) puntos adicionales de daño al objetivo.</span></span><span class=\"roll-result\">6</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"sombra minerva\" (4)</strong><ataque>Ataca con hechizo: \"Confringo\". La explosión es fuerte y puede destrozar objetos y causar heridas serias. Adiciona +10 en daño.</ataque><defensa>Defiende con hechizo: \"Protego\". Adiciona +7 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.</defensa></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"protego\" (7)</strong><span>El escudo es extremadamente resistente. Reduce el ataque en <em>+6</em> (40% del conocimiento en DCAO) puntos adicionales.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #3 \"flipendo\" (15)</strong><span>El oponente es lanzado por los aires con gran fuerza, impactando contra una superficie. Adiciona <em>+6</em> (40% del conocimiento en DCAO) puntos adicionales de daño al objetivo.</span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #4 \"sombra minerva\" (6)</strong><ataque>Ataca con hechizo: \"Confringo\". La explosión es fuerte y puede destrozar objetos y causar heridas serias. Adiciona +10 en daño.</ataque><defensa>Defiende con hechizo: \"Protego\". Adiciona +7 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.</defensa></span></div></div></div>",
             "url": "r14709",
             "simpleTitle": "Misión: the murmur of the old guard",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Hermes Rosier",
@@ -91003,10 +91023,11 @@ const DBModule = (function () {
                 "encantamiento, ofensivo",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Hermes Rosier ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">6</span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"protego totalum\" (7)</strong><span>La barrera es fuerte y resistente a la mayoría de los hechizos. Adiciona <em>+22</em> (75% del conocimiento en DCAO) en defensa a todos los personajes dentro del edificio durante 2 turno.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #3 \"lux mortifera\" (1)</strong><span>No sucede nada, capaz este hechizo no es para ti.</span></span><span class=\"roll-result\">17</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Hermes Rosier ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"sombra hermes\" (6)</strong><ataque>Ataca con hechizo: \"Levare\". El objetivo es lanzado con fuerza al aire, sufriendo una caída dolorosa. Adiciona +12 al daño.</ataque><defensa>Defiende con hechizo: \"Protego\". Adiciona +7 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.</defensa></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"protego totalum\" (7)</strong><span>La barrera es fuerte y resistente a la mayoría de los hechizos. Adiciona <em>+22</em> (75% del conocimiento en DCAO) en defensa a todos los personajes dentro del edificio durante 2 turno.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #3 \"lux mortifera\" (1)</strong><span>No sucede nada, capaz este hechizo no es para ti.</span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #4 \"sombra hermes\" (17)</strong><ataque>Ataca con hechizo: \"Ignis Funis\". La cuerda envuelve firmemente al objetivo, causando quemaduras y restringiendo su movimiento. Adiciona +10 en daño y la víctima perderá su siguiente acción instantánea.</ataque><defensa>Defiende con hechizo: \"Protego\". Adiciona +9 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.</defensa></span></div></div></div>",
             "url": "r14911",
             "simpleTitle": "Misión: the murmur of the old guard",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Montgomery Thatch",
@@ -91025,10 +91046,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Montgomery Thatch ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">8</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Montgomery Thatch ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"sombra montgomery\" (8)</strong><ataque>Ataca con hechizo: \"Mimble Wimble\". La víctima apenas puede pronunciar palabras coherentes, dificultando cualquier comunicación. Pierde 5 puntos en todos los hechizos verbales.</ataque><defensa>Defiende con hechizo: \"Protego\". Adiciona +5 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.</defensa></span></div></div></div>",
             "url": "r14938",
             "simpleTitle": "Misión: the murmur of the old guard",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Cuthbert S. Selwyn",
@@ -91060,10 +91082,11 @@ const DBModule = (function () {
                 "maleficio, ofensivo",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cuthbert S. Selwyn ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">3</span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"protego\" (1)</strong><span>No sucede nada, capaz este hechizo no es para ti.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #3 \"flipendo\" (10)</strong><span>No sucede nada, capaz este hechizo no es para ti.</span></span><span class=\"roll-result\">16</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cuthbert S. Selwyn ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"sombra cuthbert\" (3)</strong><ataque>Ataca con hechizo: \"Confringo\". La explosión es fuerte y puede destrozar objetos y causar heridas serias. Adiciona +10 en daño.</ataque><defensa>Defiende con hechizo: \"Protego\". Adiciona +7 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.</defensa></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"protego\" (1)</strong><span>No sucede nada, capaz este hechizo no es para ti.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #3 \"flipendo\" (10)</strong><span>No sucede nada, capaz este hechizo no es para ti.</span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #4 \"sombra cuthbert\" (16)</strong><ataque>Ataca con hechizo: \"Atabraquium\". El objetivo queda firmemente atado de pies y manos. Deberá consumir una acción en liberarse de las ataduras a través de hechizos.</ataque><defensa>Defiende con hechizo: \"Protego\". Adiciona +9 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.</defensa></span></div></div></div>",
             "url": "r14940",
             "simpleTitle": "Misión: the murmur of the old guard",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Aidan N. Flamel",
@@ -91095,10 +91118,11 @@ const DBModule = (function () {
                 "",
                 "encantamiento, defensivo"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Aidan N. Flamel ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"aqua eructo\" (14)</strong><span>El chorro es fuerte y puede apagar un incendio considerable o repeler criaturas ígneas. Empuja lejos al oponente, adiciona +16 al daño</span></span><span class=\"roll-result\">17</span><span class=\"roll-result\">20</span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #4 \"protego\" (10)</strong><span>El escudo es extremadamente resistente. Reduce el ataque en <em>+4</em> (40% del conocimiento en DCAO) puntos adicionales.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Aidan N. Flamel ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"aqua eructo\" (14)</strong><span>El chorro es fuerte y puede apagar un incendio considerable o repeler criaturas ígneas. Empuja lejos al oponente, adiciona +16 al daño</span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #2 \"sombra aidan\" (17)</strong><ataque>Ataca con hechizo: \"Fulgari\". Las cuerdas atan firmemente al objetivo, restringiendo su movimiento. Incapacita todas las acciones de la víctima hasta que no se la libere.</ataque><defensa>Defiende con hechizo: \"Protego\". Adiciona +10 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.</defensa></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #3 \"sombra aidan\" (20)</strong><ataque>Ataca con hechizo: \"Desmaius\". El objetivo cae inconsciente al instante. La víctima pierde sus siguientes 2 acciones.</ataque><defensa>Defiende con hechizo: \"Protego\". Adiciona +13 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.</defensa></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #4 \"protego\" (10)</strong><span>El escudo es extremadamente resistente. Reduce el ataque en <em>+4</em> (40% del conocimiento en DCAO) puntos adicionales.</span></span></div></div></div>",
             "url": "r15090",
             "simpleTitle": "Misión: the murmur of the old guard",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Minerva E. McGonagall",
@@ -91130,10 +91154,11 @@ const DBModule = (function () {
                 "encantamiento, ofensivo",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">20</span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"protego\" (12)</strong><span>El escudo es extremadamente resistente. Reduce el ataque en <em>+6</em> (40% del conocimiento en DCAO) puntos adicionales.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #3 \"regio impetum\" (15)</strong><span>Los oponentes son empujados hacia atrás levemente y quedan algo desorientados. Reduce +7 PV de 2 PNJ.</span></span><span class=\"roll-result\">3</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"sombra minerva\" (20)</strong><ataque>Ataca con hechizo: \"Immobulus Glacius\". Las extremidades del objetivo quedan completamente congeladas y adheridas al suelo. Adiciona +8 en el daño y la víctima pierde su siguiente acción inmediata.</ataque><defensa>Defiende con hechizo: \"Protego\". Adiciona +12 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.</defensa></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"protego\" (12)</strong><span>El escudo es extremadamente resistente. Reduce el ataque en <em>+6</em> (40% del conocimiento en DCAO) puntos adicionales.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #3 \"regio impetum\" (15)</strong><span>Los oponentes son empujados hacia atrás levemente y quedan algo desorientados. Reduce +7 PV de 2 PNJ.</span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #4 \"sombra minerva\" (3)</strong><ataque>Ataca con hechizo: \"Confringo\". La explosión es fuerte y puede destrozar objetos y causar heridas serias. Adiciona +10 en daño.</ataque><defensa>Defiende con hechizo: \"Protego\". Adiciona +7 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.</defensa></span></div></div></div>",
             "url": "r15148",
             "simpleTitle": "Misión: the murmur of the old guard",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Hermes Rosier",
@@ -91165,10 +91190,11 @@ const DBModule = (function () {
                 "encantamiento, ofensivo",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Hermes Rosier ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">11</span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"protego totalum\" (5)</strong><span>La barrera es fuerte y resistente a la mayoría de los hechizos. Adiciona <em>+22</em> (75% del conocimiento en DCAO) en defensa a todos los personajes dentro del edificio durante 2 turno.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #3 \"lux mortifera\" (1)</strong><span>No sucede nada, capaz este hechizo no es para ti.</span></span><span class=\"roll-result\">10</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Hermes Rosier ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"sombra hermes\" (11)</strong><ataque>Ataca con hechizo: \"Ignis Funis\". La cuerda envuelve firmemente al objetivo, causando quemaduras y restringiendo su movimiento. Adiciona +10 en daño y la víctima perderá su siguiente acción instantánea.</ataque><defensa>Defiende con hechizo: \"Protego\". Adiciona +9 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.</defensa></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"protego totalum\" (5)</strong><span>La barrera es fuerte y resistente a la mayoría de los hechizos. Adiciona <em>+22</em> (75% del conocimiento en DCAO) en defensa a todos los personajes dentro del edificio durante 2 turno.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #3 \"lux mortifera\" (1)</strong><span>No sucede nada, capaz este hechizo no es para ti.</span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #4 \"sombra hermes\" (10)</strong><ataque>Ataca con hechizo: \"Ignis Funis\". La cuerda envuelve firmemente al objetivo, causando quemaduras y restringiendo su movimiento. Adiciona +10 en daño y la víctima perderá su siguiente acción instantánea.</ataque><defensa>Defiende con hechizo: \"Protego\". Adiciona +9 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.</defensa></span></div></div></div>",
             "url": "r15155",
             "simpleTitle": "Misión: the murmur of the old guard",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Montgomery Thatch",
@@ -91200,10 +91226,11 @@ const DBModule = (function () {
                 "encantamiento, ofensivo",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Montgomery Thatch ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">3</span><span class=\"action-result\" data-conocimientos=\"duendes\"><strong>Resultado  #2 \"metallum protegit me\" (13)</strong><span>Puede forzar un escudo que se mantiene con el tiempo aunque solo bloquea los ataques por dos turnos. Por los siguientes dos turnos adiciona en defensa la misma cantidad que el ataque recibido.</span></span><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #3 \"depulso\" (14)</strong><span>El objetivo es arrojado violentamente lejos, perdiendo el equilibrio. Adiciona <em>+15</em> (100% del conocimiento en ENCANTAMIENTOS) en el daño, la víctima pierde 2 acciones consecutivas al recibir el ataque.</span></span><span class=\"roll-result\">6</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Montgomery Thatch ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"sombra montgomery\" (3)</strong><ataque>Ataca con hechizo: \"Mimble Wimble\". La víctima apenas puede pronunciar palabras coherentes, dificultando cualquier comunicación. Pierde 5 puntos en todos los hechizos verbales.</ataque><defensa>Defiende con hechizo: \"Protego\". Adiciona +5 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.</defensa></span><span class=\"action-result\" data-conocimientos=\"duendes\"><strong>Resultado  #2 \"metallum protegit me\" (13)</strong><span>Puede forzar un escudo que se mantiene con el tiempo aunque solo bloquea los ataques por dos turnos. Por los siguientes dos turnos adiciona en defensa la misma cantidad que el ataque recibido.</span></span><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #3 \"depulso\" (14)</strong><span>El objetivo es arrojado violentamente lejos, perdiendo el equilibrio. Adiciona <em>+15</em> (100% del conocimiento en ENCANTAMIENTOS) en el daño, la víctima pierde 2 acciones consecutivas al recibir el ataque.</span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #4 \"sombra montgomery\" (6)</strong><ataque>Ataca con hechizo: \"Mimble Wimble\". La víctima apenas puede pronunciar palabras coherentes, dificultando cualquier comunicación. Pierde 5 puntos en todos los hechizos verbales.</ataque><defensa>Defiende con hechizo: \"Protego\". Adiciona +5 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.</defensa></span></div></div></div>",
             "url": "r15206",
             "simpleTitle": "Misión: the murmur of the old guard",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Cuthbert S. Selwyn",
@@ -91235,10 +91262,11 @@ const DBModule = (function () {
                 "maleficio, ofensivo",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cuthbert S. Selwyn ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">7</span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"protego\" (1)</strong><span>No sucede nada, capaz este hechizo no es para ti.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #3 \"flipendo\" (4)</strong><span>No sucede nada, capaz este hechizo no es para ti.</span></span><span class=\"roll-result\">16</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cuthbert S. Selwyn ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"sombra cuthbert\" (7)</strong><ataque>Ataca con hechizo: \"Confringo\". La explosión es fuerte y puede destrozar objetos y causar heridas serias. Adiciona +10 en daño.</ataque><defensa>Defiende con hechizo: \"Protego\". Adiciona +7 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.</defensa></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"protego\" (1)</strong><span>No sucede nada, capaz este hechizo no es para ti.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #3 \"flipendo\" (4)</strong><span>No sucede nada, capaz este hechizo no es para ti.</span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #4 \"sombra cuthbert\" (16)</strong><ataque>Ataca con hechizo: \"Atabraquium\". El objetivo queda firmemente atado de pies y manos. Deberá consumir una acción en liberarse de las ataduras a través de hechizos.</ataque><defensa>Defiende con hechizo: \"Protego\". Adiciona +9 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.</defensa></span></div></div></div>",
             "url": "r15239",
             "simpleTitle": "Misión: the murmur of the old guard",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Aidan N. Flamel",
@@ -91270,10 +91298,11 @@ const DBModule = (function () {
                 "",
                 "encantamiento, defensivo"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Aidan N. Flamel ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"flipendo\" (16)</strong><span>El oponente es lanzado por los aires con gran fuerza, impactando contra una superficie. Adiciona <em>+4</em> (40% del conocimiento en DCAO) puntos adicionales de daño al objetivo.</span></span><span class=\"roll-result\">12</span><span class=\"roll-result\">20</span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #4 \"protego\" (2)</strong><span>El escudo bloquea la mayoría de los ataques mágicos. Reduce <em>+7</em> (75% del conocimiento en DCAO) puntos el ataque contrario y elimina los efectos secundarios de los hechizos.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Aidan N. Flamel ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"flipendo\" (16)</strong><span>El oponente es lanzado por los aires con gran fuerza, impactando contra una superficie. Adiciona <em>+4</em> (40% del conocimiento en DCAO) puntos adicionales de daño al objetivo.</span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #2 \"sombra aidan\" (12)</strong><ataque>Ataca con hechizo: \"Fulgari\". Las cuerdas atan firmemente al objetivo, restringiendo su movimiento. Incapacita todas las acciones de la víctima hasta que no se la libere.</ataque><defensa>Defiende con hechizo: \"Protego\". Adiciona +10 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.</defensa></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #3 \"sombra aidan\" (20)</strong><ataque>Ataca con hechizo: \"Desmaius\". El objetivo cae inconsciente al instante. La víctima pierde sus siguientes 2 acciones.</ataque><defensa>Defiende con hechizo: \"Protego\". Adiciona +13 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.</defensa></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #4 \"protego\" (2)</strong><span>El escudo bloquea la mayoría de los ataques mágicos. Reduce <em>+7</em> (75% del conocimiento en DCAO) puntos el ataque contrario y elimina los efectos secundarios de los hechizos.</span></span></div></div></div>",
             "url": "r15319",
             "simpleTitle": "Misión: the murmur of the old guard",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Minerva E. McGonagall",
@@ -91305,10 +91334,11 @@ const DBModule = (function () {
                 "maleficio, ofensivo",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">17</span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"protego\" (17)</strong><span>El escudo es extremadamente resistente. Reduce el ataque en <em>+6</em> (40% del conocimiento en DCAO) puntos adicionales.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #3 \"flipendo\" (15)</strong><span>El oponente es lanzado por los aires con gran fuerza, impactando contra una superficie. Adiciona <em>+6</em> (40% del conocimiento en DCAO) puntos adicionales de daño al objetivo.</span></span><span class=\"roll-result\">2</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"sombra minerva\" (17)</strong><ataque>Ataca con hechizo: \"Atabraquium\". El objetivo queda firmemente atado de pies y manos. Deberá consumir una acción en liberarse de las ataduras a través de hechizos.</ataque><defensa>Defiende con hechizo: \"Protego\". Adiciona +9 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.</defensa></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"protego\" (17)</strong><span>El escudo es extremadamente resistente. Reduce el ataque en <em>+6</em> (40% del conocimiento en DCAO) puntos adicionales.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #3 \"flipendo\" (15)</strong><span>El oponente es lanzado por los aires con gran fuerza, impactando contra una superficie. Adiciona <em>+6</em> (40% del conocimiento en DCAO) puntos adicionales de daño al objetivo.</span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #4 \"sombra minerva\" (2)</strong><ataque>Ataca con hechizo: \"Confringo\". La explosión es fuerte y puede destrozar objetos y causar heridas serias. Adiciona +10 en daño.</ataque><defensa>Defiende con hechizo: \"Protego\". Adiciona +7 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.</defensa></span></div></div></div>",
             "url": "r15330",
             "simpleTitle": "Misión: the murmur of the old guard",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Hermes Rosier",
@@ -91340,10 +91370,11 @@ const DBModule = (function () {
                 "maldición, ofensivo",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Hermes Rosier ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">6</span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"protego totalum\" (18)</strong><span>La barrera es casi impenetrable y dura un tiempo prolongado. Adiciona <em>+30</em> (100% del conocimiento en DCAO) en defensa a todos los personajes dentro del edificio durante 4 turno.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #3 \"confringo\" (20)</strong><span>La explosión es devastadora, alcanzando a todos los personajes presentes en la escena y causando gran destrucción y heridas graves. Cada uno debe calcular su propia defensa y Adiciona <em>+30</em> (100% del conocimiento en DCAO) en daño.</span></span><span class=\"roll-result\">16</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Hermes Rosier ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"sombra hermes\" (6)</strong><ataque>Ataca con hechizo: \"Levare\". El objetivo es lanzado con fuerza al aire, sufriendo una caída dolorosa. Adiciona +12 al daño.</ataque><defensa>Defiende con hechizo: \"Protego\". Adiciona +7 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.</defensa></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"protego totalum\" (18)</strong><span>La barrera es casi impenetrable y dura un tiempo prolongado. Adiciona <em>+30</em> (100% del conocimiento en DCAO) en defensa a todos los personajes dentro del edificio durante 4 turno.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #3 \"confringo\" (20)</strong><span>La explosión es devastadora, alcanzando a todos los personajes presentes en la escena y causando gran destrucción y heridas graves. Cada uno debe calcular su propia defensa y Adiciona <em>+30</em> (100% del conocimiento en DCAO) en daño.</span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #4 \"sombra hermes\" (16)</strong><ataque>Ataca con hechizo: \"Ignis Funis\". La cuerda envuelve firmemente al objetivo, causando quemaduras y restringiendo su movimiento. Adiciona +10 en daño y la víctima perderá su siguiente acción instantánea.</ataque><defensa>Defiende con hechizo: \"Protego\". Adiciona +9 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.</defensa></span></div></div></div>",
             "url": "r15368",
             "simpleTitle": "Misión: the murmur of the old guard",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Cuthbert S. Selwyn",
@@ -91375,10 +91406,11 @@ const DBModule = (function () {
                 "maleficio, ofensivo",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cuthbert S. Selwyn ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">13</span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"protego\" (15)</strong><span>No sucede nada, capaz este hechizo no es para ti.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #3 \"flipendo\" (20)</strong><span>No sucede nada, capaz este hechizo no es para ti.</span></span><span class=\"roll-result\">16</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cuthbert S. Selwyn ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"sombra cuthbert\" (13)</strong><ataque>Ataca con hechizo: \"Atabraquium\". El objetivo queda firmemente atado de pies y manos. Deberá consumir una acción en liberarse de las ataduras a través de hechizos.</ataque><defensa>Defiende con hechizo: \"Protego\". Adiciona +9 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.</defensa></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"protego\" (15)</strong><span>No sucede nada, capaz este hechizo no es para ti.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #3 \"flipendo\" (20)</strong><span>No sucede nada, capaz este hechizo no es para ti.</span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #4 \"sombra cuthbert\" (16)</strong><ataque>Ataca con hechizo: \"Atabraquium\". El objetivo queda firmemente atado de pies y manos. Deberá consumir una acción en liberarse de las ataduras a través de hechizos.</ataque><defensa>Defiende con hechizo: \"Protego\". Adiciona +9 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.</defensa></span></div></div></div>",
             "url": "r15661",
             "simpleTitle": "Misión: the murmur of the old guard",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Aidan N. Flamel",
@@ -91397,10 +91429,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Aidan N. Flamel ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">15</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Aidan N. Flamel ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"sombra aidan\" (15)</strong><ataque>Ataca con hechizo: \"Fulgari\". Las cuerdas atan firmemente al objetivo, restringiendo su movimiento. Incapacita todas las acciones de la víctima hasta que no se la libere.</ataque><defensa>Defiende con hechizo: \"Protego\". Adiciona +10 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.</defensa></span></div></div></div>",
             "url": "r15814",
             "simpleTitle": "Misión: the murmur of the old guard",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Minerva E. McGonagall",
@@ -91428,10 +91461,11 @@ const DBModule = (function () {
                 "embrujo, defensivo",
                 "encantamiento, contrahechizo, neutral"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">13</span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"impedimenta\" (15)</strong><span>El objetivo es detenido en seco y queda inmóvil por un corto periodo. En caso de realizarse sobre un hechizo, disminuye los adicionales del hechizo.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #3 \"finite\" (10)</strong><span>El encantamiento no solo finaliza el efecto del hechizo, sino que también previene su regreso temporalmente.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"sombra minerva\" (13)</strong><ataque>Ataca con hechizo: \"Atabraquium\". El objetivo queda firmemente atado de pies y manos. Deberá consumir una acción en liberarse de las ataduras a través de hechizos.</ataque><defensa>Defiende con hechizo: \"Protego\". Adiciona +9 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.</defensa></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"impedimenta\" (15)</strong><span>El objetivo es detenido en seco y queda inmóvil por un corto periodo. En caso de realizarse sobre un hechizo, disminuye los adicionales del hechizo.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #3 \"finite\" (10)</strong><span>El encantamiento no solo finaliza el efecto del hechizo, sino que también previene su regreso temporalmente.</span></span></div></div></div>",
             "url": "r15825",
             "simpleTitle": "Misión: the murmur of the old guard",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Hermes Rosier",
@@ -91463,10 +91497,11 @@ const DBModule = (function () {
                 "encantamiento, ofensivo",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Hermes Rosier ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">8</span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"protego totalum\" (15)</strong><span>La barrera es casi impenetrable y dura un tiempo prolongado. Adiciona <em>+30</em> (100% del conocimiento en DCAO) en defensa a todos los personajes dentro del edificio durante 4 turno.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #3 \"immobulus glacius\" (10)</strong><span>El objetivo es completamente inmovilizado, con riesgo de entumecimiento severo. Adiciona +18 en el daño y la víctima no podrá moverse hasta no responder un rol completo sin acción u otro personaje lo libere.</span></span><span class=\"roll-result\">6</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Hermes Rosier ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"sombra hermes\" (8)</strong><ataque>Ataca con hechizo: \"Levare\". El objetivo es lanzado con fuerza al aire, sufriendo una caída dolorosa. Adiciona +12 al daño.</ataque><defensa>Defiende con hechizo: \"Protego\". Adiciona +7 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.</defensa></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"protego totalum\" (15)</strong><span>La barrera es casi impenetrable y dura un tiempo prolongado. Adiciona <em>+30</em> (100% del conocimiento en DCAO) en defensa a todos los personajes dentro del edificio durante 4 turno.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #3 \"immobulus glacius\" (10)</strong><span>El objetivo es completamente inmovilizado, con riesgo de entumecimiento severo. Adiciona +18 en el daño y la víctima no podrá moverse hasta no responder un rol completo sin acción u otro personaje lo libere.</span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #4 \"sombra hermes\" (6)</strong><ataque>Ataca con hechizo: \"Levare\". El objetivo es lanzado con fuerza al aire, sufriendo una caída dolorosa. Adiciona +12 al daño.</ataque><defensa>Defiende con hechizo: \"Protego\". Adiciona +7 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.</defensa></span></div></div></div>",
             "url": "r15880",
             "simpleTitle": "Misión: the murmur of the old guard",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Montgomery Thatch",
@@ -91498,10 +91533,11 @@ const DBModule = (function () {
                 "encantamiento, ofensivo",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Montgomery Thatch ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">11</span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"immobulus\" (17)</strong><span>El hechizo puede paralizar a un único objetivo o, si el lanzador lo decide, a un grupo pequeño de objetivos cercanos entre sí. Cada objetivo alcanzado queda completamente paralizado durante <em>+4</em> (75% del conocimiento en DCAO) turnos, donde no podrá realizar acciones, o hasta que un personaje lo libere si se lo usa como ataque, o impide el ataque, reduciendo el mismo a cero, si se usa como defensa.</span></span><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #3 \"quietus\" (12)</strong><span>El objetivo queda completamente mudo durante un breve periodo de tiempo. La víctima no podrá realizar hechizos verbales hasta que se eliminen sus efectos o realice 5 roles.</span></span><span class=\"roll-result\">20</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Montgomery Thatch ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"sombra montgomery\" (11)</strong><ataque>Ataca con hechizo: \"Flipendo\". El oponente es derribado y lanzado al suelo. Adiciona +10 en el daño.</ataque><defensa>Defiende con hechizo: \"Protego\". Adiciona +7 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.</defensa></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"immobulus\" (17)</strong><span>El hechizo puede paralizar a un único objetivo o, si el lanzador lo decide, a un grupo pequeño de objetivos cercanos entre sí. Cada objetivo alcanzado queda completamente paralizado durante <em>+4</em> (75% del conocimiento en DCAO) turnos, donde no podrá realizar acciones, o hasta que un personaje lo libere si se lo usa como ataque, o impide el ataque, reduciendo el mismo a cero, si se usa como defensa.</span></span><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #3 \"quietus\" (12)</strong><span>El objetivo queda completamente mudo durante un breve periodo de tiempo. La víctima no podrá realizar hechizos verbales hasta que se eliminen sus efectos o realice 5 roles.</span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #4 \"sombra montgomery\" (20)</strong><ataque>Ataca con hechizo: \"Petrificus Totalus\". El objetivo queda completamente inmóvil hasta que el efecto se disipe. El personaje no podrá realizar acciones hasta que otro personaje lo libere o realice dos roles. Si al conjurador le anulan acciones, se eliminan los efectos inmediatamente.</ataque><defensa>Defiende con hechizo: \"Protego\". Adiciona +10 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.</defensa></span></div></div></div>",
             "url": "r15897",
             "simpleTitle": "Misión: the murmur of the old guard",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Cuthbert S. Selwyn",
@@ -91533,10 +91569,11 @@ const DBModule = (function () {
                 "maleficio, ofensivo",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cuthbert S. Selwyn ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">13</span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"protego\" (16)</strong><span>No sucede nada, capaz este hechizo no es para ti.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #3 \"flipendo\" (8)</strong><span>No sucede nada, capaz este hechizo no es para ti.</span></span><span class=\"roll-result\">16</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cuthbert S. Selwyn ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"sombra cuthbert\" (13)</strong><ataque>Ataca con hechizo: \"Atabraquium\". El objetivo queda firmemente atado de pies y manos. Deberá consumir una acción en liberarse de las ataduras a través de hechizos.</ataque><defensa>Defiende con hechizo: \"Protego\". Adiciona +9 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.</defensa></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"protego\" (16)</strong><span>No sucede nada, capaz este hechizo no es para ti.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #3 \"flipendo\" (8)</strong><span>No sucede nada, capaz este hechizo no es para ti.</span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #4 \"sombra cuthbert\" (16)</strong><ataque>Ataca con hechizo: \"Atabraquium\". El objetivo queda firmemente atado de pies y manos. Deberá consumir una acción en liberarse de las ataduras a través de hechizos.</ataque><defensa>Defiende con hechizo: \"Protego\". Adiciona +9 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.</defensa></span></div></div></div>",
             "url": "r15900",
             "simpleTitle": "Misión: the murmur of the old guard",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Aidan N. Flamel",
@@ -91564,10 +91601,11 @@ const DBModule = (function () {
                 "",
                 "encantamiento, defensivo"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Aidan N. Flamel ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"liderazgo\"><strong>Resultado  #1 \"anima vincula\" (5)</strong><span>Los aliados obtienen +7 en Ataques y +7 en Defensa.</span></span><span class=\"roll-result\">11</span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #3 \"protego\" (2)</strong><span>El escudo bloquea la mayoría de los ataques mágicos. Reduce <em>+7</em> (75% del conocimiento en DCAO) puntos el ataque contrario y elimina los efectos secundarios de los hechizos.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Aidan N. Flamel ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"liderazgo\"><strong>Resultado  #1 \"anima vincula\" (5)</strong><span>Los aliados obtienen +7 en Ataques y +7 en Defensa.</span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #2 \"sombra aidan\" (11)</strong><ataque>Ataca con hechizo: \"Fulgari\". Las cuerdas atan firmemente al objetivo, restringiendo su movimiento. Incapacita todas las acciones de la víctima hasta que no se la libere.</ataque><defensa>Defiende con hechizo: \"Protego\". Adiciona +10 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.</defensa></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #3 \"protego\" (2)</strong><span>El escudo bloquea la mayoría de los ataques mágicos. Reduce <em>+7</em> (75% del conocimiento en DCAO) puntos el ataque contrario y elimina los efectos secundarios de los hechizos.</span></span></div></div></div>",
             "url": "r16063",
             "simpleTitle": "Misión: the murmur of the old guard",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Minerva E. McGonagall",
@@ -91595,10 +91633,11 @@ const DBModule = (function () {
                 "embrujo, defensivo",
                 "encantamiento, contrahechizo, neutral"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">11</span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"impedimenta\" (12)</strong><span>El objetivo es detenido en seco y queda inmóvil por un corto periodo. En caso de realizarse sobre un hechizo, disminuye los adicionales del hechizo.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #3 \"finite\" (12)</strong><span>El encantamiento no solo finaliza el efecto del hechizo, sino que también previene su regreso temporalmente.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"sombra minerva\" (11)</strong><ataque>Ataca con hechizo: \"Atabraquium\". El objetivo queda firmemente atado de pies y manos. Deberá consumir una acción en liberarse de las ataduras a través de hechizos.</ataque><defensa>Defiende con hechizo: \"Protego\". Adiciona +9 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.</defensa></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"impedimenta\" (12)</strong><span>El objetivo es detenido en seco y queda inmóvil por un corto periodo. En caso de realizarse sobre un hechizo, disminuye los adicionales del hechizo.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #3 \"finite\" (12)</strong><span>El encantamiento no solo finaliza el efecto del hechizo, sino que también previene su regreso temporalmente.</span></span></div></div></div>",
             "url": "r16087",
             "simpleTitle": "Misión: the murmur of the old guard",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Hermes Rosier",
@@ -91621,10 +91660,11 @@ const DBModule = (function () {
                 "habilidad, sin magia, neutral",
                 "maleficio, ofensivo"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Hermes Rosier ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"liderazgo\"><strong>Resultado  #1 \"vox imperium\" (9)</strong><span>Los aliados obtienen por dos turnos <em>+11</em> (75% del conocimiento en LIDERAZGO) de Ataque, si la orden es ofensiva, o <em>+11</em> (75% del conocimiento en LIDERAZGO) de Defensa, si la orden es defensiva. Si ignoran la orden, deberán restar el plus de sus correspondientes ataques.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"flipendo\" (3)</strong><span>El oponente es lanzado por los aires con gran fuerza, impactando contra una superficie. Adiciona <em>+12</em> (40% del conocimiento en DCAO) puntos adicionales de daño al objetivo.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Hermes Rosier ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"liderazgo\"><strong>Resultado  #1 \"vox imperium\" (9)</strong><span>Los aliados obtienen por dos turnos <em>+11</em> (75% del conocimiento en LIDERAZGO) de Ataque, si la orden es ofensiva, o <em>+11</em> (75% del conocimiento en LIDERAZGO) de Defensa, si la orden es defensiva. Si ignoran la orden, deberán restar el plus de sus correspondientes ataques.<br /><br />Todos los estudiantes obedecen liberando el despacho del director y dejando que las personas presentes se encarguen de la investigación correspondiente.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"flipendo\" (3)</strong><span>El oponente es lanzado por los aires con gran fuerza, impactando contra una superficie. Adiciona <em>+12</em> (40% del conocimiento en DCAO) puntos adicionales de daño al objetivo.</span></span></div></div></div>",
             "url": "r16159",
             "simpleTitle": "Misión: the murmur of the old guard",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Montgomery Thatch",
@@ -91664,10 +91704,11 @@ const DBModule = (function () {
                 "encantamiento, ofensivo",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Montgomery Thatch ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">6</span><span class=\"action-result\" data-conocimientos=\"magia no verbal\"><strong>Resultado  #2 \"magia no verbal\" (6)</strong><span>Permite generar un hechizo adicional para el cual se deberán lanzar dados.</span></span><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #3 \"glacius\" (4)</strong><span>La zona alrededor queda completamente congelada, inmovilizando temporalmente a todos los que se encuentren en ella y no solo al objetivo. El ataque de cada rival alcanzado pierde <em>+6</em> (40% del conocimiento en ENCANTAMIENTOS) puntos adicionales y adiciona <em>+15</em> (100% del conocimiento en ENCANTAMIENTOS) puntos a siguiente acción.</span></span><span class=\"action-result\" data-conocimientos=\"magia no verbal\"><strong>Resultado  #4 \"magia no verbal\" (8)</strong><span>Permite generar un hechizo adicional para el cual se deberán lanzar dados.</span></span><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #5 \"depulso\" (2)</strong><span>El objetivo es arrojado violentamente lejos, perdiendo el equilibrio. Adiciona <em>+15</em> (100% del conocimiento en ENCANTAMIENTOS) en el daño, la víctima pierde 2 acciones consecutivas al recibir el ataque.</span></span><span class=\"roll-result\">1</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Montgomery Thatch ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"sombra montgomery\" (6)</strong><ataque>Ataca con hechizo: \"Mimble Wimble\". La víctima apenas puede pronunciar palabras coherentes, dificultando cualquier comunicación. Pierde 5 puntos en todos los hechizos verbales.</ataque><defensa>Defiende con hechizo: \"Protego\". Adiciona +5 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.</defensa></span><span class=\"action-result\" data-conocimientos=\"magia no verbal\"><strong>Resultado  #2 \"magia no verbal\" (6)</strong><span>Permite generar un hechizo adicional para el cual se deberán lanzar dados.</span></span><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #3 \"glacius\" (4)</strong><span>La zona alrededor queda completamente congelada, inmovilizando temporalmente a todos los que se encuentren en ella y no solo al objetivo. El ataque de cada rival alcanzado pierde <em>+6</em> (40% del conocimiento en ENCANTAMIENTOS) puntos adicionales y adiciona <em>+15</em> (100% del conocimiento en ENCANTAMIENTOS) puntos a siguiente acción.</span></span><span class=\"action-result\" data-conocimientos=\"magia no verbal\"><strong>Resultado  #4 \"magia no verbal\" (8)</strong><span>Permite generar un hechizo adicional para el cual se deberán lanzar dados.</span></span><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #5 \"depulso\" (2)</strong><span>El objetivo es arrojado violentamente lejos, perdiendo el equilibrio. Adiciona <em>+15</em> (100% del conocimiento en ENCANTAMIENTOS) en el daño, la víctima pierde 2 acciones consecutivas al recibir el ataque.</span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #6 \"sombra montgomery\" (1)</strong><ataque>Ataca con hechizo: \"Expelliarmus\". El objeto es expulsado con fuerza y queda fuera del alcance inmediato del objetivo. El objetivo pierde una acción utilizada para recuperar su varita.</ataque><defensa>Defiende con hechizo: \"Protego\". Adiciona +3 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.</defensa></span></div></div></div>",
             "url": "r16193",
             "simpleTitle": "Misión: the murmur of the old guard",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Cuthbert S. Selwyn",
@@ -91693,10 +91734,11 @@ const DBModule = (function () {
                 "",
                 "encantamiento, defensivo"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cuthbert S. Selwyn ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">16</span><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #2 \"confundus\" (20)</strong><span>No sucede nada, capaz este hechizo no es para ti.</span></span><span class=\"roll-result\">7</span><span class=\"roll-result\">5</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cuthbert S. Selwyn ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"sombra cuthbert\" (16)</strong><ataque>Ataca con hechizo: \"Atabraquium\". El objetivo queda firmemente atado de pies y manos. Deberá consumir una acción en liberarse de las ataduras a través de hechizos.</ataque><defensa>Defiende con hechizo: \"Protego\". Adiciona +9 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.</defensa></span><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #2 \"confundus\" (20)</strong><span>No sucede nada, capaz este hechizo no es para ti.</span></span><span class=\"roll-result\">7</span><span class=\"roll-result\">5</span></div></div></div>",
             "url": "r16322",
             "simpleTitle": "Misión: the murmur of the old guard",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Aidan N. Flamel",
@@ -91722,10 +91764,11 @@ const DBModule = (function () {
                 "encantamiento, ofensivo",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Aidan N. Flamel ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"herbología\"><strong>Resultado  #1 \"deprimo\" (20)</strong><span>El suelo colapsa por completo, sepultando al objetivo. En caso de usarse en duelos, la víctima pierde 25 PV y queda incapacitado hasta que un personaje lo libere o escriba 3 respuestas.</span></span><span class=\"roll-result\">11</span><span class=\"roll-result\">4</span><span class=\"roll-result\">19</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Aidan N. Flamel ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"herbología\"><strong>Resultado  #1 \"deprimo\" (20)</strong><span>El suelo colapsa por completo, sepultando al objetivo. En caso de usarse en duelos, la víctima pierde 25 PV y queda incapacitado hasta que un personaje lo libere o escriba 3 respuestas.</span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #2 \"sombra aidan\" (11)</strong><ataque>Ataca con hechizo: \"Fulgari\". Las cuerdas atan firmemente al objetivo, restringiendo su movimiento. Incapacita todas las acciones de la víctima hasta que no se la libere.</ataque><defensa>Defiende con hechizo: \"Protego\". Adiciona +10 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.</defensa></span><span class=\"roll-result\">4</span><span class=\"roll-result\">19</span></div></div></div>",
             "url": "r16524",
             "simpleTitle": "Misión: the murmur of the old guard",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Minerva E. McGonagall",
@@ -91757,10 +91800,11 @@ const DBModule = (function () {
                 "maleficio, ofensivo",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">3</span><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #2 \"glacius\" (19)</strong><span>La zona alrededor queda completamente congelada, inmovilizando temporalmente a todos los que se encuentren en ella y no solo al objetivo. El ataque de cada rival alcanzado pierde <em>+5</em> (40% del conocimiento en ENCANTAMIENTOS) puntos adicionales y adiciona <em>+13</em> (100% del conocimiento en ENCANTAMIENTOS) puntos a siguiente acción.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #3 \"flipendo\" (10)</strong><span>El oponente es lanzado por los aires con gran fuerza, impactando contra una superficie. Adiciona <em>+6</em> (40% del conocimiento en DCAO) puntos adicionales de daño al objetivo.</span></span><span class=\"roll-result\">2</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"sombra minerva\" (3)</strong><ataque>Ataca con hechizo: \"Confringo\". La explosión es fuerte y puede destrozar objetos y causar heridas serias. Adiciona +10 en daño.</ataque><defensa>Defiende con hechizo: \"Protego\". Adiciona +7 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.</defensa></span><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #2 \"glacius\" (19)</strong><span>La zona alrededor queda completamente congelada, inmovilizando temporalmente a todos los que se encuentren en ella y no solo al objetivo. El ataque de cada rival alcanzado pierde <em>+5</em> (40% del conocimiento en ENCANTAMIENTOS) puntos adicionales y adiciona <em>+13</em> (100% del conocimiento en ENCANTAMIENTOS) puntos a siguiente acción.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #3 \"flipendo\" (10)</strong><span>El oponente es lanzado por los aires con gran fuerza, impactando contra una superficie. Adiciona <em>+6</em> (40% del conocimiento en DCAO) puntos adicionales de daño al objetivo.</span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #4 \"sombra minerva\" (2)</strong><ataque>Ataca con hechizo: \"Confringo\". La explosión es fuerte y puede destrozar objetos y causar heridas serias. Adiciona +10 en daño.</ataque><defensa>Defiende con hechizo: \"Protego\". Adiciona +7 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.</defensa></span></div></div></div>",
             "url": "r16531",
             "simpleTitle": "Misión: the murmur of the old guard",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Hermes Rosier",
@@ -91786,7 +91830,8 @@ const DBModule = (function () {
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Hermes Rosier ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"finite\" (17)</strong><span>El encantamiento no solo finaliza el efecto del hechizo, sino que también previene su regreso temporalmente.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"flipendo\" (9)</strong><span>El oponente es lanzado por los aires con gran fuerza, impactando contra una superficie. Adiciona <em>+12</em> (40% del conocimiento en DCAO) puntos adicionales de daño al objetivo.</span></span></div></div></div>",
             "url": "r16642",
             "simpleTitle": "Misión: the murmur of the old guard",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Montgomery Thatch",
@@ -91812,7 +91857,8 @@ const DBModule = (function () {
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Montgomery Thatch ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"magia no verbal\"><strong>Resultado  #1 \"magia no verbal\" (8)</strong><span>Permite generar un hechizo adicional para el cual se deberán lanzar dados.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"finite\" (5)</strong><span>El efecto del hechizo disminuye, pero no desaparece del todo. Se reduce en 30%</span></span></div></div></div>",
             "url": "r16693",
             "simpleTitle": "Misión: the murmur of the old guard",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Cuthbert S. Selwyn",
@@ -91838,7 +91884,8 @@ const DBModule = (function () {
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cuthbert S. Selwyn ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"flipendo\" (5)</strong><span>No sucede nada, capaz este hechizo no es para ti.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"finite\" (6)</strong><span>No sucede nada, capaz este hechizo no es para ti.</span></span></div></div></div>",
             "url": "r16787",
             "simpleTitle": "Misión: the murmur of the old guard",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Aidan N. Flamel",
@@ -91870,10 +91917,11 @@ const DBModule = (function () {
                 "",
                 "encantamiento, defensivo"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Aidan N. Flamel ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"flipendo\" (13)</strong><span>El oponente es lanzado por los aires con gran fuerza, impactando contra una superficie. Adiciona <em>+4</em> (40% del conocimiento en DCAO) puntos adicionales de daño al objetivo.</span></span><span class=\"roll-result\">16</span><span class=\"roll-result\">8</span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #4 \"protego\" (14)</strong><span>El escudo es extremadamente resistente. Reduce el ataque en <em>+4</em> (40% del conocimiento en DCAO) puntos adicionales.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Aidan N. Flamel ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"flipendo\" (13)</strong><span>El oponente es lanzado por los aires con gran fuerza, impactando contra una superficie. Adiciona <em>+4</em> (40% del conocimiento en DCAO) puntos adicionales de daño al objetivo.</span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #2 \"sombra montgomery\" (16)</strong><ataque>Ataca con hechizo: \"Flipendo\". El oponente es derribado y lanzado al suelo. Adiciona +10 en el daño.</ataque><defensa>Defiende con hechizo: \"Protego\". Adiciona +7 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.</defensa></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #3 \"sombra montgomery\" (8)</strong><ataque>Ataca con hechizo: \"Mimble Wimble\". La víctima apenas puede pronunciar palabras coherentes, dificultando cualquier comunicación. Pierde 5 puntos en todos los hechizos verbales.</ataque><defensa>Defiende con hechizo: \"Protego\". Adiciona +5 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.</defensa></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #4 \"protego\" (14)</strong><span>El escudo es extremadamente resistente. Reduce el ataque en <em>+4</em> (40% del conocimiento en DCAO) puntos adicionales.</span></span></div></div></div>",
             "url": "r16808",
             "simpleTitle": "Misión: the murmur of the old guard",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Minerva E. McGonagall",
@@ -91905,10 +91953,11 @@ const DBModule = (function () {
                 "maleficio, ofensivo",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">10</span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"protego\" (1)</strong><span>El escudo bloquea la mayoría de los ataques mágicos. Reduce <em>+12</em> (75% del conocimiento en DCAO) puntos el ataque contrario y elimina los efectos secundarios de los hechizos.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #3 \"flipendo\" (2)</strong><span>El oponente es lanzado por los aires con gran fuerza, impactando contra una superficie. Adiciona <em>+6</em> (40% del conocimiento en DCAO) puntos adicionales de daño al objetivo.</span></span><span class=\"roll-result\">14</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"sombra montgomery\" (10)</strong><ataque>Ataca con hechizo: \"Flipendo\". El oponente es derribado y lanzado al suelo. Adiciona +10 en el daño.</ataque><defensa>Defiende con hechizo: \"Protego\". Adiciona +7 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.</defensa></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"protego\" (1)</strong><span>El escudo bloquea la mayoría de los ataques mágicos. Reduce <em>+12</em> (75% del conocimiento en DCAO) puntos el ataque contrario y elimina los efectos secundarios de los hechizos.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #3 \"flipendo\" (2)</strong><span>El oponente es lanzado por los aires con gran fuerza, impactando contra una superficie. Adiciona <em>+6</em> (40% del conocimiento en DCAO) puntos adicionales de daño al objetivo.</span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #4 \"sombra montgomery\" (14)</strong><ataque>Ataca con hechizo: \"Flipendo\". El oponente es derribado y lanzado al suelo. Adiciona +10 en el daño.</ataque><defensa>Defiende con hechizo: \"Protego\". Adiciona +7 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.</defensa></span></div></div></div>",
             "url": "r16841",
             "simpleTitle": "Misión: the murmur of the old guard",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Hermes Rosier",
@@ -91917,7 +91966,8 @@ const DBModule = (function () {
                 4
             ],
             "title": [
-                "actions"
+                "actions",
+                "mission"
             ],
             "key": [
                 "protego totalum",
@@ -91931,10 +91981,11 @@ const DBModule = (function () {
                 "encantamiento, defensivo",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Hermes Rosier ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"protego totalum\" (7)</strong><span>La barrera es fuerte y resistente a la mayoría de los hechizos. Adiciona <em>+22</em> (75% del conocimiento en DCAO) en defensa a todos los personajes dentro del edificio durante 2 turno.</span></span><span class=\"roll-result\">4</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Hermes Rosier ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"protego totalum\" (7)</strong><span>La barrera es fuerte y resistente a la mayoría de los hechizos. Adiciona <em>+22</em> (75% del conocimiento en DCAO) en defensa a todos los personajes dentro del edificio durante 2 turno.</span></span><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #2 \"contrahechizo para las sombras\" (4)</strong><span><span>Al alzar la vista, el espejo del techo no devuelve un reflejo, sino una distorsión sombría que parece devorar la luz de la estancia. La imagen proyectada es una versión macabra de la realidad, donde las sombras se alargan y los rostros se marchitan en la penumbra. Esta anomalía mágica solo cede ante la voluntad del observador: un audaz \"Riddikulus\" que transforme el horror en una farsa grotesca, rompiendo el hechizo de la superficie.</span></span></span></div></div></div>",
             "url": "r16916",
             "simpleTitle": "Misión: the murmur of the old guard",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Montgomery Thatch",
@@ -91966,10 +92017,11 @@ const DBModule = (function () {
                 "encantamiento, ofensivo",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Montgomery Thatch ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">6</span><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #2 \"glacius\" (18)</strong><span>La zona alrededor queda completamente congelada, inmovilizando temporalmente a todos los que se encuentren en ella y no solo al objetivo. El ataque de cada rival alcanzado pierde <em>+6</em> (40% del conocimiento en ENCANTAMIENTOS) puntos adicionales y adiciona <em>+15</em> (100% del conocimiento en ENCANTAMIENTOS) puntos a siguiente acción.</span></span><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #3 \"depulso\" (20)</strong><span>El objetivo es arrojado violentamente lejos, perdiendo el equilibrio. Adiciona <em>+15</em> (100% del conocimiento en ENCANTAMIENTOS) en el daño, la víctima pierde 2 acciones consecutivas al recibir el ataque.</span></span><span class=\"roll-result\">18</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Montgomery Thatch ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"sombra montgomery\" (6)</strong><ataque>Ataca con hechizo: \"Mimble Wimble\". La víctima apenas puede pronunciar palabras coherentes, dificultando cualquier comunicación. Pierde 5 puntos en todos los hechizos verbales.</ataque><defensa>Defiende con hechizo: \"Protego\". Adiciona +5 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.</defensa></span><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #2 \"glacius\" (18)</strong><span>La zona alrededor queda completamente congelada, inmovilizando temporalmente a todos los que se encuentren en ella y no solo al objetivo. El ataque de cada rival alcanzado pierde <em>+6</em> (40% del conocimiento en ENCANTAMIENTOS) puntos adicionales y adiciona <em>+15</em> (100% del conocimiento en ENCANTAMIENTOS) puntos a siguiente acción.</span></span><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #3 \"depulso\" (20)</strong><span>El objetivo es arrojado violentamente lejos, perdiendo el equilibrio. Adiciona <em>+15</em> (100% del conocimiento en ENCANTAMIENTOS) en el daño, la víctima pierde 2 acciones consecutivas al recibir el ataque.</span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #4 \"sombra montgomery\" (18)</strong><ataque>Ataca con hechizo: \"Flipendo\". El oponente es derribado y lanzado al suelo. Adiciona +10 en el daño.</ataque><defensa>Defiende con hechizo: \"Protego\". Adiciona +7 de defensa. El personaje atacante recibe el mismo daño que inflingió a la sombra y las mismas consecuencias del hechizo lanzado.</defensa></span></div></div></div>",
             "url": "r16925",
             "simpleTitle": "Misión: the murmur of the old guard",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Cuthbert S. Selwyn",
@@ -91991,7 +92043,8 @@ const DBModule = (function () {
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cuthbert S. Selwyn ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"flipendo\" (8)</strong><span>No sucede nada, capaz este hechizo no es para ti.</span></span></div></div></div>",
             "url": "r17170",
             "simpleTitle": "Misión: the murmur of the old guard",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Aidan N. Flamel",
@@ -92013,7 +92066,8 @@ const DBModule = (function () {
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Aidan N. Flamel ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"flipendo\" (17)</strong><span>El oponente es lanzado por los aires con gran fuerza, impactando contra una superficie. Adiciona <em>+4</em> (40% del conocimiento en DCAO) puntos adicionales de daño al objetivo.</span></span></div></div></div>",
             "url": "r17225",
             "simpleTitle": "Misión: the murmur of the old guard",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Minerva E. McGonagall",
@@ -92036,10 +92090,11 @@ const DBModule = (function () {
                 "encantamiento, defensivo",
                 "encantamiento, contrahechizo, neutral"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"ridikkulus\" (1)</strong><span>El boggart se vuelve completamente ridículo y pierde su capacidad de asustar. El personaje recupera las penalidades causadas por el boggart.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"finite\" (1)</strong><span>El hechizo se debilita significativamente, pero aún quedan rastros de su efecto. Se reduce en 50%</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"ridikkulus\" (1)</strong><span>El boggart se vuelve completamente ridículo y pierde su capacidad de asustar. El personaje recupera las penalidades causadas por el boggart.<br /><br />El espejo distorciona la imagen antes de romperse. Las sombras desaparecen en ese mismo momento.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"finite\" (1)</strong><span>El hechizo se debilita significativamente, pero aún quedan rastros de su efecto. Se reduce en 50%</span></span></div></div></div>",
             "url": "r17387",
             "simpleTitle": "Misión: the murmur of the old guard",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Hermes Rosier",
@@ -92047,7 +92102,7 @@ const DBModule = (function () {
                 8
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "la magia de las sombras"
@@ -92058,10 +92113,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Hermes Rosier ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">8</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Hermes Rosier ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"la magia de las sombras\" (8)</strong><span><span>La maldición que habita en el espejo se conoce como el \"Cisma del Alma Alquilada\". No es un simple reflejo, sino un parásito dimensional que se alimenta del arrepentimiento y la duda.<br><br>Se dice que el origen de este artefacto radica en la obsesión de un alquimista por alcanzar la perfección absoluta a través de la purga de la debilidad humana. El proceso culminó con un acto de automutilación: su propia mano derecha fue cercenada y sumergida en el mercurio con el que se selló el espejo, imbuyendo al cristal con una voluntad propia y tóxica.<br><br>El espejo no actúa como una superficie de reflexión común, sino como un prisma de disonancia moral. Al activarse, proyecta versiones de los observadores que encarnan sus temores más profundos o sus potenciales más egoístas. Estas manifestaciones carecen de ética y fatiga, permitiéndoles ejecutar ataques físicos de precisión absoluta mientras desestabilizan emocionalmente a sus objetivos mediante el susurro de verdades privadas y crueles. Al ser proyecciones de una \"perfección\" sin conciencia, las sombras buscan suplantar al individuo original, eliminando aquello que el espejo considera imperfecto.</span></span></span></div></div></div>",
             "url": "r17506",
             "simpleTitle": "Misión: the murmur of the old guard",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Montgomery Thatch",
@@ -92083,7 +92139,8 @@ const DBModule = (function () {
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Montgomery Thatch ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #1 \"episkey\" (3)</strong><span>Las heridas menores comienzan a cerrarse, pero el dolor persiste. Adiciona +5PV.</span></span></div></div></div>",
             "url": "r17512",
             "simpleTitle": "Misión: the murmur of the old guard",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Cuthbert S. Selwyn",
@@ -92091,7 +92148,7 @@ const DBModule = (function () {
                 1
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "efectos del espejo"
@@ -92102,10 +92159,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cuthbert S. Selwyn ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">1</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cuthbert S. Selwyn ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"efectos del espejo\" (1)</strong><span><span>Puede concluirse, entonces, que Dippet no se enfrentó a su propia sombra. Pues, no hay muestras de duelo. Lo que quiere decir que alguien puso el espejo ahí para distraer a las demás personas.</span></span></span></div></div></div>",
             "url": "r17579",
             "simpleTitle": "Misión: the murmur of the old guard",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Aidan N. Flamel",
@@ -92113,7 +92171,7 @@ const DBModule = (function () {
                 11
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "comentario de los cuadros"
@@ -92124,10 +92182,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Aidan N. Flamel ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">11</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Aidan N. Flamel ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"comentario de los cuadros\" (11)</strong><span><span>«Parece evidente concluir que Dippet se envenenó a sí mismo», comentó Black desde su rincón levantando ligeramente el mentón. «Si no fue atacado por su sombra y la única persona dentro del despacho era él, sería lógico concluir que fue él mismo.»</span></span></span></div></div></div>",
             "url": "r17700",
             "simpleTitle": "Misión: the murmur of the old guard",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Cuthbert S. Selwyn",
@@ -92135,7 +92194,7 @@ const DBModule = (function () {
                 16
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "una pista oculta"
@@ -92146,10 +92205,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cuthbert S. Selwyn ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">16</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cuthbert S. Selwyn ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"una pista oculta\" (16)</strong><span><span>A pesar de las conclusiones que parecen evidentes, hay algo en el despacho que recuerda al Castillo Black, a la casa de Merrythought y la casa de Dempsey. Se puede concluir que, Dippet, a pesar de su locura, algo sabía sobre las muertes de los candidatos para poder intentar fingir que fue atacado de la misma manera.</span></span></span></div></div></div>",
             "url": "r17926",
             "simpleTitle": "Misión: the murmur of the old guard",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Jupiter Merrythought",
@@ -117034,7 +117094,7 @@ const DBModule = (function () {
                 11
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "ático"
@@ -117045,10 +117105,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cora M. Vance ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">11</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cora M. Vance ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"ático\" (11)</strong><span><span>El ático de la casa es un espacio pequeño. No tiene más de metro y medio en el espacio más alto. Una pequeña ventana permite el ingreso de luz, permitiendo observar el lugar cubierto de polvo por el paso del tiempo. A pesar de tratarse de un ático pequeño, parece estar bastante ordenado. Hay varios calderos de diferentes tamaños y materiales que han almacenado polvo con tiempo. Y cinco baúles que se distribuyen en todo el lugar. Los mismos han sido etiquetados.</span></span></span></div></div></div>",
             "url": "r6486",
             "simpleTitle": "Investigación: full of emptiness",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Alastor Moody",
@@ -117056,7 +117117,7 @@ const DBModule = (function () {
                 17
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "baúl con la etiqueta 'libros'"
@@ -117067,10 +117128,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">17</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"baúl con la etiqueta 'libros'\" (17)</strong><span><span>Al abrir el baúl se revelan libros que han sido acomodados en grupos. Cada pilón tiene un pergamino que etiqueta su contenido: curación, herbología, pociones y nigromancia. Si se revisa su contenido, pueden darse cuenta de que corresponde al material indicado.</span></span></span></div></div></div>",
             "url": "r6510",
             "simpleTitle": "Investigación: full of emptiness",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "H. Shun Parkinson",
@@ -117078,7 +117140,7 @@ const DBModule = (function () {
                 1
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "baúl con la etiqueta 'hogwarts'"
@@ -117089,10 +117151,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">1</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"baúl con la etiqueta 'hogwarts'\" (1)</strong><span><span>Al abrir el baúl se pueden observar objetos de Hogwarts, libros de diversas asignaturas como Encantamientos, Transformaciones, DCAO e Historia de la Magia. Hay varias túnicas de Slytherin, pergaminos viejos, placa de prefecto, uniforme de quidditch, tinteros viejos y algunas fotografías de sus épocas de estudiante.</span></span></span></div></div></div>",
             "url": "r6593",
             "simpleTitle": "Investigación: full of emptiness",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Venus M. Merrythought",
@@ -117100,7 +117163,7 @@ const DBModule = (function () {
                 8
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "baúl con la etiqueta 'san mungo'"
@@ -117111,10 +117174,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Venus M. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">8</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Venus M. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"baúl con la etiqueta 'san mungo'\" (8)</strong><span><span>Al abrir el baúl con la etiqueta de San Mungo, se puede observar varios libros, particularmente de nigromancia. Túnicas viejas como nigromante, algunos objetos que le han regalado algunos pacientes. Varios ramos de flores secas que ha conservado. También hay un historial de pacientes que tuvo que atender. En la lista se puede observar el nombre de Merlina Dempsey.</span></span></span></div></div></div>",
             "url": "r6648",
             "simpleTitle": "Investigación: full of emptiness",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Cora M. Vance",
@@ -117122,7 +117186,7 @@ const DBModule = (function () {
                 16
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "baúl con la etiqueta 'familia'"
@@ -117133,10 +117197,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cora M. Vance ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">16</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cora M. Vance ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"baúl con la etiqueta 'familia'\" (16)</strong><span><span>Dentro del baúl etiquetado como \"Familia\" se encuentran cajas de fotografías familiares, objetos que fueron pasados de generación en generación. Un libro de pociones escrito a mano que había pertenecido a su abuela. También se encuentran unas bolsas, dentro de las mismas hay varios galeones.</span></span></span></div></div></div>",
             "url": "r6873",
             "simpleTitle": "Investigación: full of emptiness",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Alastor Moody",
@@ -117158,7 +117223,8 @@ const DBModule = (function () {
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"aparecium\" (20)</strong><span>Todo lo oculto en el área es revelado con nitidez, incluyendo encantamientos avanzados de invisibilidad.</span></span></div></div></div>",
             "url": "r7033",
             "simpleTitle": "Investigación: full of emptiness",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "H. Shun Parkinson",
@@ -117166,7 +117232,7 @@ const DBModule = (function () {
                 17
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "baúl con la etiqueta 'ropa'"
@@ -117177,10 +117243,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">17</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"baúl con la etiqueta 'ropa'\" (17)</strong><span><span>Al abrir el baúl de ropa, se pueden observar varias prendas de invierno. Túnicas gruesas, abrigos de lana y también varias frazadas. Sin embargo, entre todas las prendas se puede encontrar un cofre negro que se encuentra cerrado.</span></span></span></div></div></div>",
             "url": "r7038",
             "simpleTitle": "Investigación: full of emptiness",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Venus M. Merrythought",
@@ -117199,10 +117266,11 @@ const DBModule = (function () {
             "type": [
                 "encantamiento, neutral"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Venus M. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"alohomora\" (12)</strong><span>La cerradura se abre sin dejar rastro de haber sido forzada, incluso en casos de cierres mágicos simples.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Venus M. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"alohomora\" (12)</strong><span>La cerradura se abre sin dejar rastro de haber sido forzada, incluso en casos de cierres mágicos simples.<br /><br /><span>Abre el cofre revelando su contenido.</span></span></span></div></div></div>",
             "url": "r7040",
             "simpleTitle": "Investigación: full of emptiness",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Cora M. Vance",
@@ -117210,7 +117278,7 @@ const DBModule = (function () {
                 17
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "caja de madera rúnica"
@@ -117221,10 +117289,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cora M. Vance ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">17</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cora M. Vance ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"caja de madera rúnica\" (17)</strong><span><span>Dentro del cofre se puede encontrar una pequeña caja de madera de cedro, con unas grabadas en ella.<div class=\"mission-card\" data-ver=\"/u8,/u55,/u130\"><topes><i class=\"fa-solid fa-eye-low-vision\"></i></topes><req>Solo visible para atributo: int mayor a 1</req><span>Dentro de la caja rúnica hay un relicario redondo de oro. El labrado es tal que parece juntar dos alas hacia el centro del mismo.</span></div></span></span></span></div></div></div>",
             "url": "r7197",
             "simpleTitle": "Investigación: full of emptiness",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Alastor Moody",
@@ -117247,10 +117316,11 @@ const DBModule = (function () {
                 "habilidad, sin magia, neutral",
                 "encantamiento, neutral"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"runas antiguas\"><strong>Resultado  #1 \"identificar runa\" (11)</strong><span>Permite identificar el nombre de la runa y un vago concepto de su explicación.</span></span><span class=\"action-result\" data-conocimientos=\"historia de la magia\"><strong>Resultado  #2 \"relicta notitia\" (15)</strong><span>Se obtiene un resumen parcial de su historia, con lagunas.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"runas antiguas\"><strong>Resultado  #1 \"identificar runa\" (11)</strong><span>Permite identificar el nombre de la runa y un vago concepto de su explicación.<br /><br /><span>Existen tres runas grabadas en la caja, Gebo (ᚷ), Dagaz (ᛞ) y Tiwaz (ᛏ).</span></span></span><span class=\"action-result\" data-conocimientos=\"historia de la magia\"><strong>Resultado  #2 \"relicta notitia\" (15)</strong><span>Se obtiene un resumen parcial de su historia, con lagunas.</span></span></div></div></div>",
             "url": "r7359",
             "simpleTitle": "Investigación: full of emptiness",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "H. Shun Parkinson",
@@ -117259,6 +117329,7 @@ const DBModule = (function () {
                 18
             ],
             "title": [
+                "mission",
                 "actions"
             ],
             "key": [
@@ -117273,10 +117344,11 @@ const DBModule = (function () {
                 "",
                 "habilidad, sin magia, neutral"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">8</span><span class=\"action-result\" data-conocimientos=\"runas antiguas\"><strong>Resultado  #2 \"interpretar runas\" (18)</strong><span>La interpretación es vaga y poco precisa.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"abrir relicario\" (8)</strong><span><span>Al abrir el relicario, dentro hay una nota que dice «Estimado Fergus, quería hacerte saber que estoy a salvo y he logrado encontrar un pedacito de felicidad después de todo lo que ha ocurrido. Solo me queda decirte gracias, y enviarte este recuerdo como agradecimiento».</span></span></span><span class=\"action-result\" data-conocimientos=\"runas antiguas\"><strong>Resultado  #2 \"interpretar runas\" (18)</strong><span>La interpretación es vaga y poco precisa.<br /><br /><span>No es suficiente para interpretar las runas.</span></span></span></div></div></div>",
             "url": "r7385",
             "simpleTitle": "Investigación: full of emptiness",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Venus M. Merrythought",
@@ -117295,10 +117367,11 @@ const DBModule = (function () {
             "type": [
                 "encantamiento, neutral"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Venus M. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"revelio\" (7)</strong><span>De existir, se revelan con claridad los objetos, mensajes ocultos y pasajes secretos en un radio de <em>+12</em> (75% del conocimiento en ENCANTAMIENTOS) metros.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Venus M. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"revelio\" (7)</strong><span>De existir, se revelan con claridad los objetos, mensajes ocultos y pasajes secretos en un radio de <em>+12</em> (75% del conocimiento en ENCANTAMIENTOS) metros.<br /><br /><span>En el fondo del cofre se puede observar dos sobres que habían sido ocultos a primera vista. Un sobre color verde y otro color celeste. </span></span></span></div></div></div>",
             "url": "r7508",
             "simpleTitle": "Investigación: full of emptiness",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Cora M. Vance",
@@ -117306,7 +117379,7 @@ const DBModule = (function () {
                 15
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "sobre verde"
@@ -117317,10 +117390,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cora M. Vance ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">15</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cora M. Vance ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"sobre verde\" (15)</strong><span><span>Varios pergaminos aparecen en el interior del sobre. Una noticia del periódigo, una habilitación de San Mungo y una nota escrita a mano.</span></span></span></div></div></div>",
             "url": "r7562",
             "simpleTitle": "Investigación: full of emptiness",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Alastor Moody",
@@ -117329,7 +117403,8 @@ const DBModule = (function () {
                 20
             ],
             "title": [
-                "actions"
+                "actions",
+                "mission"
             ],
             "key": [
                 "relicta notitia",
@@ -117343,10 +117418,11 @@ const DBModule = (function () {
                 "encantamiento, neutral",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"historia de la magia\"><strong>Resultado  #1 \"relicta notitia\" (14)</strong><span>Se obtiene un resumen parcial de su historia, con lagunas.</span></span><span class=\"roll-result\">20</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"historia de la magia\"><strong>Resultado  #1 \"relicta notitia\" (14)</strong><span>Se obtiene un resumen parcial de su historia, con lagunas.</span></span><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #2 \"leer noticia 'desaparece delyth kova de las salas de salud mental'\" (20)</strong><span><span><section class=\"bring-news\" title=\"desaparece delyth kova de las salas de salud mental\"></section></span></span></span></div></div></div>",
             "url": "r7582",
             "simpleTitle": "Investigación: full of emptiness",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "H. Shun Parkinson",
@@ -117354,7 +117430,7 @@ const DBModule = (function () {
                 2
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "habilitación de procedimiento experimental"
@@ -117365,10 +117441,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">2</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"habilitación de procedimiento experimental\" (2)</strong><span><span><span class=\"book-clipping\"><br><div align=\"center\"><span style=\"font-size: 14px; line-height: normal\"><strong>Hospital San Mungo de Magia y Enfermedades</strong></span></div><div align=\"center\"><span style=\"font-size: 12px; line-height: normal\">Habilitación de Procedimiento Experimental</span></div><br><hr><br><br><strong>Nombre del Paciente:</strong> <i>Delyth Kova</i><br><strong>Fecha de nacimiento:</strong> <i>23 de febrero de 1883</i><br><strong>Lugar de Procedimiento:</strong> <i>Laboratorios, San Mungo.</i><br><br><hr><br><br><strong>Procedimiento:</strong> Con el fin de minimizar sus habilidades empáticas se sugiere aplicar el hechizo <i>Obliviorum Sugo</i> bajo efectos de belladona, con el fin de drenar sus conocimientos aprendidos de legeremancia. De aprobarse esta autorización, el procedimiento se llevará a cabo el siguiente 20 de Octubre.<br><br><hr><br><br><div align=\"right\"><i>En fe de lo cual, se expide el presente certificado<br>en Londres, a 15 de Octubre de 1904.</i></div><br><div align=\"right\"><i class=\"fi fi-tr-signature\" style=\"font-size: 30px; margin-bottom: -25px; display: block; margin-right: 30px;\"></i><br><strong>_______________________</strong><br><i>Firma y sello de San Mungo</i></div></span></span></span></span></div></div></div>",
             "url": "r7610",
             "simpleTitle": "Investigación: full of emptiness",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Venus M. Merrythought",
@@ -117376,7 +117453,7 @@ const DBModule = (function () {
                 6
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "nota de morgana"
@@ -117387,10 +117464,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Venus M. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">6</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Venus M. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"nota de morgana\" (6)</strong><span><span><span class=\"notebook\">Estimado Fergus,<br><br>No creas que no estoy agradecida por todo lo que has hecho por nosotras, sin embargo, teníamos un acuerdo y aún no lo veo por cumplido. <br><br>He intentado hablar contigo en severas ocasiones, te he enviado cartas que nunca tuvieron respuestas, por lo tanto, espero que esta sea lo suficientemente contundente para poder recibir lo que espero.<br><br>Descubrí tu secreto, no fue demasiado difícil de averiguar.<br><br>Debo decir que me sorprende que los aurores no hayan encontrado nada, aunque asumo que hubo un poco de dinero de por medio. Delyth vive en Prešov, su nombre es Eseniya. Se la ve feliz, fue un acto muy generoso de su parte ayudarla a escaparse. Es una pena que eso pueda quitarte tu puesto de nigromante si la verdad saliera a la luz.<br><br>Es tu decisión,<br>Morgana.</span><br /></span></span></span></div></div></div>",
             "url": "r7655",
             "simpleTitle": "Investigación: full of emptiness",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Cora M. Vance",
@@ -117398,7 +117476,7 @@ const DBModule = (function () {
                 17
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "sobre celeste"
@@ -117409,10 +117487,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cora M. Vance ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">17</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cora M. Vance ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"sobre celeste\" (17)</strong><span><span>Dentro del sobre existen dos pergaminos que, en un principio, aparentan ser iguales.</span></span></span></div></div></div>",
             "url": "r7814",
             "simpleTitle": "Investigación: full of emptiness",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Alastor Moody",
@@ -117420,7 +117499,7 @@ const DBModule = (function () {
                 15
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "donacion brian"
@@ -117431,10 +117510,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">15</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"donacion brian\" (15)</strong><span><span><span class=\"book-clipping\"><br><div align=\"center\"><span style=\"font-size: 14px; line-height: normal\"><strong>Ministerio de Magia</strong></span></div><div align=\"center\"><span style=\"font-size: 12px; line-height: normal\">Contrato de Donación</span></div><br><hr><br><br><strong>Donante:</strong> <i>Brian Dempsey</i> <br><strong>Beneficiario:</strong> <i>Fergus Vance</i> <br><strong>Fecha de formalización:</strong> <i>20 de Junio de 1907</i> <br><strong>Objeto de la donación:</strong> <i>Rainbow Lane</i> <br><br><hr><br><br><strong>Cláusulas:</strong> <br>1. El donante entrega de manera libre y voluntaria el bien o cantidad señalada. <br>2. El beneficiario acepta la donación para fines personales. <br>3. La donación no podrá ser revocada salvo disposición contraria de los estatutos mágicos. <br>4. Ambas partes reconocen la validez del presente contrato bajo la legislación vigente en el mundo mágico. <br><br><hr><br><br><strong>Observaciones adicionales:</strong> <br><i>El contrato solo estará vigente cuando ambas partes firmen el contrato.</i> <br><br><hr><br><br><div align=\"left\"><strong>Firma del Donante:</strong><br><i class=\"fi fi-tr-signature\" style=\"font-size: 30px; margin-bottom: -25px; display: block; margin-right: 30px;\"></i><br>_______________________</div><br><br><div align=\"left\"><strong>Firma del Beneficiario:</strong><br><i class=\"fi fi-tr-signature\" style=\"font-size: 30px; margin-bottom: -25px; display: block; margin-right: 30px;\"></i><br>_______________________</div><br></span></span></span></span></div></div></div>",
             "url": "r7886",
             "simpleTitle": "Investigación: full of emptiness",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "H. Shun Parkinson",
@@ -117442,7 +117522,7 @@ const DBModule = (function () {
                 17
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "donacion fergus"
@@ -117453,10 +117533,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">17</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"donacion fergus\" (17)</strong><span><span><span class=\"book-clipping\"><br><div align=\"center\"><span style=\"font-size: 14px; line-height: normal\"><strong>Ministerio de Magia</strong></span></div><div align=\"center\"><span style=\"font-size: 12px; line-height: normal\">Contrato de Donación</span></div><br><hr><br><br><strong>Donante:</strong> <i>Fergus Vance</i> <br><strong>Beneficiario:</strong> <i>Morgana Dempsey</i> <br><strong>Fecha de formalización:</strong> <i>13 de Enero de 1914</i> <br><strong>Objeto de la donación:</strong> <i>Rainbow Lane</i> <br><br><hr><br><br><strong>Cláusulas:</strong> <br>1. El donante entrega de manera libre y voluntaria el bien o cantidad señalada. <br>2. El beneficiario acepta la donación para fines personales. <br>3. La donación no podrá ser revocada salvo disposición contraria de los estatutos mágicos. <br>4. Ambas partes reconocen la validez del presente contrato bajo la legislación vigente en el mundo mágico. <br><br><hr><br><br><strong>Observaciones adicionales:</strong> <br><i>El contrato solo estará vigente cuando ambas partes firmen el contrato.</i> <br><br><hr><br><br><div align=\"left\"><strong>Firma del Donante:</strong><br><i class=\"fi fi-tr-signature\" style=\"font-size: 30px; margin-bottom: -25px; display: block; margin-right: 30px;\"></i><br>_______________________</div><br><br><div align=\"left\"><strong>Firma del Beneficiario:</strong><br><i class=\"fi fi-tr-signature\" style=\"font-size: 30px; margin-bottom: -25px; display: block; margin-right: 30px;\"></i><br>_______________________</div><br></span></span></span></span></div></div></div>",
             "url": "r8080",
             "simpleTitle": "Investigación: full of emptiness",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Alastor Moody",
@@ -130623,7 +130704,7 @@ const DBModule = (function () {
                 14
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "leer noticia 'nace la hija de las estrellas y los duelos'"
@@ -130634,10 +130715,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">14</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"leer noticia 'nace la hija de las estrellas y los duelos'\" (14)</strong><span><span><section class=\"bring-news\" title=\"nace la hija de las estrellas y los duelos\"></section></span></span></span></div></div></div>",
             "url": "r4279",
             "simpleTitle": "Investigación: commander's orders",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Cuthbert S. Selwyn",
@@ -130645,7 +130727,7 @@ const DBModule = (function () {
                 16
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "leer noticia 'galatea merrythought resuelve su primer caso'"
@@ -130656,10 +130738,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cuthbert S. Selwyn ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">16</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cuthbert S. Selwyn ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"leer noticia 'galatea merrythought resuelve su primer caso'\" (16)</strong><span><span><section class=\"bring-news\" title=\"galatea merrythought resuelve su primer caso\"></section></span></span></span></div></div></div>",
             "url": "r4306",
             "simpleTitle": "Investigación: commander's orders",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Cora M. Vance",
@@ -130667,7 +130750,7 @@ const DBModule = (function () {
                 12
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "leer noticia 'el ascenso de merrythought'"
@@ -130678,10 +130761,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cora M. Vance ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">12</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cora M. Vance ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"leer noticia 'el ascenso de merrythought'\" (12)</strong><span><span><section class=\"bring-news\" title=\"el ascenso de merrythought\"></section></span></span></span></div></div></div>",
             "url": "r4323",
             "simpleTitle": "Investigación: commander's orders",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "H. Shun Parkinson",
@@ -130689,7 +130773,7 @@ const DBModule = (function () {
                 13
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "leer noticia 'galatea merrythought es nombrada jefa de seguridad mágica'"
@@ -130700,10 +130784,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">13</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"leer noticia 'galatea merrythought es nombrada jefa de seguridad mágica'\" (13)</strong><span><span><section class=\"bring-news\" title=\"galatea merrythought es nombrada jefa de seguridad mágica\"></section></span></span></span></div></div></div>",
             "url": "r4372",
             "simpleTitle": "Investigación: commander's orders",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Cuthbert S. Selwyn",
@@ -130712,7 +130797,8 @@ const DBModule = (function () {
                 5
             ],
             "title": [
-                "actions"
+                "actions",
+                "mission"
             ],
             "key": [
                 "veniens empathy",
@@ -130726,10 +130812,11 @@ const DBModule = (function () {
                 "clarividencia, sin magia, neutral",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cuthbert S. Selwyn ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"videncia\"><strong>Resultado  #1 \"veniens empathy\" (20)</strong><span>Te invade una emoción intensa y ajena. En tu mente, una imagen: tú, mirando al mar, sabiendo que algo se avecina. El miedo no es tuyo, pero te atrapa.</span></span><span class=\"roll-result\">5</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cuthbert S. Selwyn ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"videncia\"><strong>Resultado  #1 \"veniens empathy\" (20)</strong><span>Te invade una emoción intensa y ajena. En tu mente, una imagen: tú, mirando al mar, sabiendo que algo se avecina. El miedo no es tuyo, pero te atrapa.</span></span><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #2 \"leer noticia 'órdenes de la comandante'\" (5)</strong><span><span><section class=\"bring-news\" title=\"órdenes de la comandante\"></section></span></span></span></div></div></div>",
             "url": "r4413",
             "simpleTitle": "Investigación: commander's orders",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Cora M. Vance",
@@ -130737,7 +130824,7 @@ const DBModule = (function () {
                 6
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "leer noticia 'galatea merrythought se ve obligada a retirarse forzadamente como jefa de seguridad mágica'"
@@ -130748,10 +130835,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cora M. Vance ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">6</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cora M. Vance ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"leer noticia 'galatea merrythought se ve obligada a retirarse forzadamente como jefa de seguridad mágica'\" (6)</strong><span><span><section class=\"bring-news\" title=\"galatea merrythought se ve obligada a retirarse forzadamente como jefa de seguridad mágica\"></section></span></span></span></div></div></div>",
             "url": "r4622",
             "simpleTitle": "Investigación: commander's orders",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "H. Shun Parkinson",
@@ -130760,6 +130848,7 @@ const DBModule = (function () {
                 4
             ],
             "title": [
+                "mission",
                 "actions"
             ],
             "key": [
@@ -130774,10 +130863,11 @@ const DBModule = (function () {
                 "",
                 "transfiguración, ofensivo"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">1</span><span class=\"action-result\" data-conocimientos=\"transformaciones\"><strong>Resultado  #2 \"mutareforma\" (4)</strong><span>El objeto se transforma completamente en el nuevo objeto deseado, con materiales coherentes.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"leer noticia 'nueva comandante de las aulas'\" (1)</strong><span><span><section class=\"bring-news\" title=\"nueva comandante de las aulas\"></section></span></span></span><span class=\"action-result\" data-conocimientos=\"transformaciones\"><strong>Resultado  #2 \"mutareforma\" (4)</strong><span>El objeto se transforma completamente en el nuevo objeto deseado, con materiales coherentes.</span></span></div></div></div>",
             "url": "r4684",
             "simpleTitle": "Investigación: commander's orders",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Cuthbert S. Selwyn",
@@ -130785,7 +130875,7 @@ const DBModule = (function () {
                 16
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "leer noticia 'galatea merrythought se despide de hogwarts'"
@@ -130796,10 +130886,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cuthbert S. Selwyn ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">16</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cuthbert S. Selwyn ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"leer noticia 'galatea merrythought se despide de hogwarts'\" (16)</strong><span><span><section class=\"bring-news\" title=\"galatea merrythought se despide de hogwarts\"></section></span></span></span></div></div></div>",
             "url": "r4697",
             "simpleTitle": "Investigación: commander's orders",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Cora M. Vance",
@@ -130807,7 +130898,7 @@ const DBModule = (function () {
                 11
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "leer noticia 'la comunidad mágica se despide de galatea merrythought'"
@@ -130818,10 +130909,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cora M. Vance ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">11</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cora M. Vance ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"leer noticia 'la comunidad mágica se despide de galatea merrythought'\" (11)</strong><span><span><section class=\"bring-news\" title=\"la comunidad mágica se despide de galatea merrythought\"></section></span></span></span></div></div></div>",
             "url": "r4733",
             "simpleTitle": "Investigación: commander's orders",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "H. Shun Parkinson",
@@ -130829,7 +130921,7 @@ const DBModule = (function () {
                 10
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "leer noticia 'adiós, comandante'"
@@ -130840,10 +130932,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">10</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"leer noticia 'adiós, comandante'\" (10)</strong><span><span><section class=\"bring-news\" title=\"adiós, comandante\"></section></span></span></span></div></div></div>",
             "url": "r4741",
             "simpleTitle": "Investigación: commander's orders",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Black Wave",
@@ -153849,7 +153942,7 @@ const DBModule = (function () {
                 "actions"
             ],
             "key": [
-                "notas de abril 1929"
+                "notas de abril 1939"
             ],
             "knowledge": [
                 ""
@@ -153871,7 +153964,7 @@ const DBModule = (function () {
                 "actions"
             ],
             "key": [
-                "notas de noviembre 1932"
+                "notas de noviembre 1941"
             ],
             "knowledge": [
                 ""

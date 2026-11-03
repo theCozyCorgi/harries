@@ -2063,97 +2063,8 @@ const MissionsModule = (function () {
       },
 
       "cards": [],
-      "searchs": {
-        "inspeccionar la escena": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "estudiantes calmados",
-          "cont": '<span>Dentro de lo que es el usual despacho del Director Dippet, se puede ver que el hombre reposa sobre el escritorio. Desde la distancia no parece que respire, y su piel ha tomado colores grisaceos que no parecen nada sanos y sus ojos miran sin ver cristalizados.</span>',
-        },
-        "la taza de té": {
-          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "inspeccionar la escena",
-          "cont": '<span>Sobre el escritorio, se encuentra una de las tantas tazas de té que se usan para el desayuno del director. La taza está vacía, pero hay una mancha de color rojo en la superficie.</span>',
-        },
-        "orden en el despacho": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "la taza de té",
-          "cont": '<span>Por lo general, Dippet suele mantener un orden que para muchos, no es apropiado para el puesto que posee. Siempre su despacho cuenta con periódicos por todas partes, tazas que fue dejando con té en diferentes cantidades. Sin embargo, ese día parece que hay algo fuera de lugar. Y es que, no es que haya algo fuera de lugar, sino que hay demasiado orden y el despacho esta demasiado limpio para que parezca el espacio usual del Director.</span>',
-        },
-        "preguntar a los cuadros qué han visto": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "estudiantes calmados",
-          "cont": '<span>Un silencio se distribuye entre los cuadros mientras los ojos de los antiguos directores se miran unos a otros. Es Phineas Nigellus Black el primero en hablar: «Nuestro deber es acompañar y aconsejar a los directores que vengan detrás nuestro. Lo que ha pasado, no lo sabemos, pues, nos han bloqueado el acceso a nuestros propios cuadros y cuando hermos regresado, así lo hemos encontrado».</span>',
-        },
-        "preguntar a los cuadros quién ha ordenado el lugar": {
-          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "orden del despacho",
-          "cont": '<span>«Dippet mismo lo ha hecho. Le llevó más tiempo del que creímos posible. Alguien diría que una eminencia en encantamientos lo debería haber resuelto en menos de cuarenta minutos, pero le ha llevado al menos dos días y medio», comentó Elizabeth Burke sin ocultar su desagrado al hombre.</span>',
-        },
-        "preguntar a los cuadros vieron algo extraño antes de ser cegado": {
-          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar a los cuadros qué han visto",
-          "cont": '<span>«Estuvimos en el despacho, pero no vimos nada extraño. Solo vimos a Dippet, que estaba muy quieto, para su inquietud de los días anteriores. Luego, todo se volvió negro y nos cegaron», respondió Everard. «Ah, verdad. Decía que iban a ir por él porque se había presentado como candidato y no paraba de caminar de un lado del desapacho a otro», agregó Phyllida Spore.</span>',
-        },
-        "analizar la salud del director": {
-          "visible": { "attr": { "val": "min" }, "know": { "curación": "5" }, "job": "invalid", "name": "invalid", }, "place": "inspeccionar la escena",
-          "cont": '<span>Si se trata de tomar el pulso, pueden notar que el mismo es lento y pausado, pero constante. Necesitarán un hechizo de sanación para obtener más información.</span>',
-        },
-        "preguntar a los cuadros dónde esta dumbledore": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "inspeccionar la escena",
-          "cont": '<span>«¡Oh, Albus!» dijo Phyllida Spore. «Se ha ido a un congreso en Italia, ya saben como es. Demasiado importante, un ejemplo de mago. Creo que debería estar a cargo de la dirección ahora que Dippet...» Dejó la frase sin terminar, aunque todos sabían a qué se refería. Incluso aunque no estuviera muerto, aquello no podía terminar de otra manera más que con la renuncia del mismo. «Ya se lo hemos comunicado, dijo que viajará tan pronto sea posible, pero le tomará unas horas».</span>',
-        },
-        "el reflejo en el techo": {
-          "visible": { "attr": { "int": "5" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar a los cuadros vieron algo extraño antes de ser cegado",
-          "cont": '<span>En conclusión a lo dicho, la persona que cegó al director debió haber estado presente antes o debió realizarlo el mismo Director. Al observar el techo, pueden notar un reflejo borroso de la realidad. Al principio sus propios reflejos parecen ser iguales e imitan sus movimientos. Sin embargo, cuando un personaje aparta la mirada, todos los reflejos toman forma propia. Cayendo del reflejo al despacho. Deberán incluir los siguientes personajes no jugables y enfrentarse a sus propios reflejos. Cuando un personaje logre liberarse de su sombra podrán pedir intervención al staff: Sombra Aidan (6 FUE / 6 CON), Sombra Cuthbert (6 FUE / 5 CON), Sombra Hermes (7 FUE / 5 CON), Sombra Minerva (5 FUE / 7 CON) y Sombra Monthgomery (3 FUE / 3 CON). Solo podrán enfrentarse a su propia sombra.<br>Solo podrán enfrentarse a su propia sombra. Si la misma les habla o qué les dice, depende de cada personaje. Cuando un personaje logre librarse de una sombra, deberá avisar al staff para que se realice la siguiente intervención. Las sombras poseen 50PV.</span>',
-        },
-        "la magia de las sombras": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "rompemaldiciones", "name": "invalid", }, "place": "la magia del espejo",
-          "cont": '<span>La maldición que habita en el espejo se conoce como el "Cisma del Alma Alquilada". No es un simple reflejo, sino un parásito dimensional que se alimenta del arrepentimiento y la duda.<br><br>Se dice que el origen de este artefacto radica en la obsesión de un alquimista por alcanzar la perfección absoluta a través de la purga de la debilidad humana. El proceso culminó con un acto de automutilación: su propia mano derecha fue cercenada y sumergida en el mercurio con el que se selló el espejo, imbuyendo al cristal con una voluntad propia y tóxica.<br><br>El espejo no actúa como una superficie de reflexión común, sino como un prisma de disonancia moral. Al activarse, proyecta versiones de los observadores que encarnan sus temores más profundos o sus potenciales más egoístas. Estas manifestaciones carecen de ética y fatiga, permitiéndoles ejecutar ataques físicos de precisión absoluta mientras desestabilizan emocionalmente a sus objetivos mediante el susurro de verdades privadas y crueles. Al ser proyecciones de una "perfección" sin conciencia, las sombras buscan suplantar al individuo original, eliminando aquello que el espejo considera imperfecto.</span>',
-        },
-        "contrahechizo para las sombras": {
-          "visible": { "attr": { "val": "min" }, "know": { "dcao": "15" }, "job": "invalid", "name": "invalid", }, "place": "intervención",
-          "cont": '<span>Al alzar la vista, el espejo del techo no devuelve un reflejo, sino una distorsión sombría que parece devorar la luz de la estancia. La imagen proyectada es una versión macabra de la realidad, donde las sombras se alargan y los rostros se marchitan en la penumbra. Esta anomalía mágica solo cede ante la voluntad del observador: un audaz "Riddikulus" que transforme el horror en una farsa grotesca, rompiendo el hechizo de la superficie.</span>',
-        },
-        "efectos del espejo": {
-          "visible": { "attr": { "val": "min" }, "know": { "dcao": "15" }, "job": "invalid", "name": "invalid", }, "place": "la magia del espejo",
-          "cont": '<span>Puede concluirse, entonces, que Dippet no se enfrentó a su propia sombra. Pues, no hay muestras de duelo. Lo que quiere decir que alguien puso el espejo ahí para distraer a las demás personas.</span>',
-        },
-        "comentario de los cuadros": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "efectos del espejo",
-          "cont": '<span>«Parece evidente concluir que Dippet se envenenó a sí mismo», comentó Black desde su rincón levantando ligeramente el mentón. «Si no fue atacado por su sombra y la única persona dentro del despacho era él, sería lógico concluir que fue él mismo.»</span>',
-        },
-        "una pista oculta": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "cuthbert", }, "place": "efectos del espejo",
-          "cont": '<span>A pesar de las conclusiones que parecen evidentes, hay algo en el despacho que recuerda al Castillo Black, a la casa de Merrythought y la casa de Dempsey. Se puede concluir que, Dippet, a pesar de su locura, algo sabía sobre las muertes de los candidatos para poder intentar fingir que fue atacado de la misma manera.</span>',
-        }
-
-      },
-      "actions": {
-        "prophetia": {
-          "leve": 'Tus ojos se nublan por un momento. Una voz infantil, lejana e imposible de identificar, canta una nana en un idioma olvidado. Solo una palabra resuena claramente al final: "Ayuda". No recuerdas la visión, pero un escalofrío recorre tu espalda.',
-          "moderado": 'Ante tus ojos se dibuja un campo de flores marchitas. La tierra debajo se agrieta lentamente y de ella brota una sustancia oscura como tinta. Alguien pronuncia tu nombre desde el horizonte, y te dice: "Vendrá con el cuarto menguante". Solo recuerdas esa frase, aunque no sabes quién la dijo.',
-          "exitoso": 'Te encuentras en una sala desconocida, donde figuras encapuchadas se reúnen alrededor de un mapa. Uno de ellos se gira hacia ti y señala un punto marcado con una X negra. Dice: "Todo comenzó aquí, todo terminará igual". Cuando despiertas, recuerdas la escena con claridad, la X se encontraba en Londres.',
-          "critico": 'La voz se pierde en un eco. Una profecía naciente: "Una ola negra borrará los nombres, caerá los sabios, caerá la magia. Si alza la vista y vence el temor, podrá advertir del gran error. Once cuervos sellaron el paso, tejieron la grieta, torcieron el lazo. Ya no es de uno, ni de un elegido: el poder se encuentra en lo compartido."',
-        },
-        "vox imperium": {
-          "leve": 'No es suficiente para revelar información adicional.',
-          "moderado": 'Todos los estudiantes obedecen liberando el despacho del director y dejando que las personas presentes se encarguen de la investigación correspondiente.<adding search="estudiantes calmados" class="check-cards"></adding>',
-          "exitoso": 'Todos los estudiantes obedecen liberando el despacho del director y dejando que las personas presentes se encarguen de la investigación correspondiente.<adding search="estudiantes calmados" class="check-cards"></adding>',
-          "critico": 'Todos los estudiantes obedecen liberando el despacho del director y dejando que las personas presentes se encarguen de la investigación correspondiente.<adding search="estudiantes calmados" class="check-cards"></adding>',
-        },
-        "revelio potionis": {
-          "leve": 'No es suficiente para revelar información adicional.',
-          "moderado": 'Puede detectarse que se trata de una poción para la tos, pero ha sido adulterada para que entumesca más de lo que debería. El frasco posee raiz de asfódelo molida en su interior, provocando dichos efectos.',
-          "exitoso": 'Puede detectarse que se trata de una poción para la tos, pero ha sido adulterada para que entumesca más de lo que debería. El frasco posee raiz de asfódelo molida en su interior, provocando dichos efectos.',
-          "critico": 'Puede detectarse que se trata de una poción para la tos, pero ha sido adulterada para que entumesca más de lo que debería. El frasco posee raiz de asfódelo molida en su interior, provocando dichos efectos.',
-        },
-        "morbus revela": {
-          "leve": 'No es suficiente para revelar información adicional.',
-          "moderado": 'Permite identificar que Dippet esta vivo, sin embargo, puede identificarse que su cuerpo esta siendo afectado por una poción que le impide moverse con normalidad. Y que el daño ha sido más severo de lo que se esperaba. Pues su cuerpo esta entumecido de la cintura hacia abajo. Un profesional de la salud mágica debería atenderlo a la brevedad antes de que los daños sean permanentes.',
-          "exitoso": 'Permite identificar que Dippet esta vivo, sin embargo, puede identificarse que su cuerpo esta siendo afectado por una poción que le impide moverse con normalidad. Y que el daño ha sido más severo de lo que se esperaba. Pues su cuerpo esta entumecido de la cintura hacia abajo. Un profesional de la salud mágica debería atenderlo a la brevedad antes de que los daños sean permanentes.',
-          "critico": 'Permite identificar que Dippet esta vivo, sin embargo, puede identificarse que su cuerpo esta siendo afectado por una poción que le impide moverse con normalidad. Y que el daño ha sido más severo de lo que se esperaba. Pues su cuerpo esta entumecido de la cintura hacia abajo. Un profesional de la salud mágica debería atenderlo a la brevedad antes de que los daños sean permanentes.',
-        },
-        "ridikkulus": {
-          "leve": 'No es suficiente para revelar información adicional.',
-          "moderado": 'El espejo distorciona la imagen antes de romperse. Las sombras desaparecen en ese mismo momento.<adding search="la magia del espejo" class="check-cards"></adding>',
-          "exitoso": 'El espejo distorciona la imagen antes de romperse. Las sombras desaparecen en ese mismo momento.<adding search="la magia del espejo" class="check-cards"></adding>',
-          "critico": 'El espejo distorciona la imagen antes de romperse. Las sombras desaparecen en ese mismo momento.<adding search="la magia del espejo" class="check-cards"></adding>',
-        },
-      },
+      "searchs": {},
+      "actions": {},
     },
     // fin the murmur of the old guard
 
@@ -2916,7 +2827,7 @@ const MissionsModule = (function () {
 
         "certificado de defunción": {
           "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "expediente de aria fawley",
-          "cont": '<span><span class="book-clipping"><br><div align="center"><strong>PERGAMINO DE DEFUNCIÓN</strong><br><i>Hospital San Mungo para Enfermedades y Heridas Mágicas – Archivo de los Caídos</i></div><br><strong>Nombre Completo del Paciente</strong>: Dominic.<br><strong>No. Expediente</strong>: SM-FD/1342-G<br><strong>Fecha de Ingreso</strong>: 25 de Marzo de 1939 - 07:05hs.<br><strong>Fecha de fallecimiento</strong>: 24 de Marzo de 1929 - 22:32hs.<br><br><strong>Edad</strong>: 32 años.<br><strong>Sangre</strong>: ☒ Pura &nbsp; ☐ Mestiza &nbsp; ☐ Muggle &nbsp; ☐ Criatura<br><br><strong>Motivo del ingreso</strong>: El cuerpo de Dominic fue hallado fallecido y llevado al hospital.<br><strong>Causa de fallecimiento</strong>: No hay causas suficientes, se supone causas naturales, aunque se notaron rastros de magia negra en su sangre.<br><br><strong>Área médica asignada</strong>: Archivo de los caídos.<br><strong>Atendido por</strong>: Thalia Wyrm, nigromante.<br><strong>Acompañante familiar</strong>: Esposa, Aria Fawley.<br><br><strong>Anexos</strong>:<br>☒ Firma de Thalia Wyrm.<br>☒ Firma de Aria Fawley.<br>☒ Sello de defunción emitido.</span></span>',
+          "cont": '<span><span class="book-clipping"><br><div align="center"><strong>PERGAMINO DE DEFUNCIÓN</strong><br><i>Hospital San Mungo para Enfermedades y Heridas Mágicas – Archivo de los Caídos</i></div><br><strong>Nombre Completo del Paciente</strong>: Dominic.<br><strong>No. Expediente</strong>: SM-FD/1342-G<br><strong>Fecha de Ingreso</strong>: 25 de Marzo de 1939 - 07:05hs.<br><strong>Fecha de fallecimiento</strong>: 24 de Marzo de 1939 - 22:32hs.<br><br><strong>Edad</strong>: 32 años.<br><strong>Sangre</strong>: ☒ Pura &nbsp; ☐ Mestiza &nbsp; ☐ Muggle &nbsp; ☐ Criatura<br><br><strong>Motivo del ingreso</strong>: El cuerpo de Dominic fue hallado fallecido y llevado al hospital.<br><strong>Causa de fallecimiento</strong>: No hay causas suficientes, se supone causas naturales, aunque se notaron rastros de magia negra en su sangre.<br><br><strong>Área médica asignada</strong>: Archivo de los caídos.<br><strong>Atendido por</strong>: Thalia Wyrm, nigromante.<br><strong>Acompañante familiar</strong>: Esposa, Aria Fawley.<br><br><strong>Anexos</strong>:<br>☒ Firma de Thalia Wyrm.<br>☒ Firma de Aria Fawley.<br>☒ Sello de defunción emitido.</span></span>',
         },
 
         "certificado de nacimiento de theolonius covey": {
@@ -4935,101 +4846,11 @@ const MissionsModule = (function () {
       "dependency": ["promise in crimson"],
       "type": "investigación", "closed": true, "fecha": "1952-11-27", "link": "/t661-investigacion-full-of-emptiness", "tagged": ["morgana", "capitulo 0"],
 
-      "cards": [{
-        "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "caja de madera rúnica",
-        "cont": '<span>Dentro de la caja rúnica hay un relicario redondo de oro. El labrado es tal que parece juntar dos alas hacia el centro del mismo.</span>',
-      }
-      ],
+      "cards": [],
 
-      "searchs": {
-        "ático": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "cora", }, "place": "",
-          "cont": '<span>El ático de la casa es un espacio pequeño. No tiene más de metro y medio en el espacio más alto. Una pequeña ventana permite el ingreso de luz, permitiendo observar el lugar cubierto de polvo por el paso del tiempo. A pesar de tratarse de un ático pequeño, parece estar bastante ordenado. Hay varios calderos de diferentes tamaños y materiales que han almacenado polvo con tiempo. Y cinco baúles que se distribuyen en todo el lugar. Los mismos han sido etiquetados.</span>',
-        },
-        "baúl con la etiqueta 'libros'": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ático",
-          "cont": '<span>Al abrir el baúl se revelan libros que han sido acomodados en grupos. Cada pilón tiene un pergamino que etiqueta su contenido: curación, herbología, pociones y nigromancia. Si se revisa su contenido, pueden darse cuenta de que corresponde al material indicado.</span>',
-        },
-        "baúl con la etiqueta 'hogwarts'": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ático",
-          "cont": '<span>Al abrir el baúl se pueden observar objetos de Hogwarts, libros de diversas asignaturas como Encantamientos, Transformaciones, DCAO e Historia de la Magia. Hay varias túnicas de Slytherin, pergaminos viejos, placa de prefecto, uniforme de quidditch, tinteros viejos y algunas fotografías de sus épocas de estudiante.</span>',
-        },
-        "baúl con la etiqueta 'san mungo'": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ático",
-          "cont": '<span>Al abrir el baúl con la etiqueta de San Mungo, se puede observar varios libros, particularmente de nigromancia. Túnicas viejas como nigromante, algunos objetos que le han regalado algunos pacientes. Varios ramos de flores secas que ha conservado. También hay un historial de pacientes que tuvo que atender. En la lista se puede observar el nombre de Merlina Dempsey.</span>',
-        },
-        "baúl con la etiqueta 'ropa'": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ático",
-          "cont": '<span>Al abrir el baúl de ropa, se pueden observar varias prendas de invierno. Túnicas gruesas, abrigos de lana y también varias frazadas. Sin embargo, entre todas las prendas se puede encontrar un cofre negro que se encuentra cerrado.</span>',
-        },
-        "baúl con la etiqueta 'familia'": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ático",
-          "cont": '<span>Dentro del baúl etiquetado como "Familia" se encuentran cajas de fotografías familiares, objetos que fueron pasados de generación en generación. Un libro de pociones escrito a mano que había pertenecido a su abuela. También se encuentran unas bolsas, dentro de las mismas hay varios galeones.</span>',
-        },
-        "caja de madera rúnica": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "revela cofre",
-          "cont": '<span>Dentro del cofre se puede encontrar una pequeña caja de madera de cedro, con unas grabadas en ella.</span>',
-        },
-        "abrir relicario": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "caja de madera rúnica",
-          "cont": '<span>Al abrir el relicario, dentro hay una nota que dice «Estimado Fergus, quería hacerte saber que estoy a salvo y he logrado encontrar un pedacito de felicidad después de todo lo que ha ocurrido. Solo me queda decirte gracias, y enviarte este recuerdo como agradecimiento».</span>',
-        },
-        "sobre verde": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "contenido revelado del cofre",
-          "cont": '<span>Varios pergaminos aparecen en el interior del sobre. Una noticia del periódigo, una habilitación de San Mungo y una nota escrita a mano.</span>',
-        },
-        "leer noticia 'desaparece delyth kova de las salas de salud mental'": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "sobre verde",
-          "cont": '<span><section class="bring-news" title="desaparece delyth kova de las salas de salud mental"></section></span>',
-        },
-        "habilitación de procedimiento experimental": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "sobre verde",
-          "cont": '<span><span class="book-clipping"><br><div align="center"><span style="font-size: 14px; line-height: normal"><strong>Hospital San Mungo de Magia y Enfermedades</strong></span></div><div align="center"><span style="font-size: 12px; line-height: normal">Habilitación de Procedimiento Experimental</span></div><br><hr><br><br><strong>Nombre del Paciente:</strong> <i>Delyth Kova</i><br><strong>Fecha de nacimiento:</strong> <i>23 de febrero de 1883</i><br><strong>Lugar de Procedimiento:</strong> <i>Laboratorios, San Mungo.</i><br><br><hr><br><br><strong>Procedimiento:</strong> Con el fin de minimizar sus habilidades empáticas se sugiere aplicar el hechizo <i>Obliviorum Sugo</i> bajo efectos de belladona, con el fin de drenar sus conocimientos aprendidos de legeremancia. De aprobarse esta autorización, el procedimiento se llevará a cabo el siguiente 20 de Octubre.<br><br><hr><br><br><div align="right"><i>En fe de lo cual, se expide el presente certificado<br>en Londres, a 15 de Octubre de 1904.</i></div><br><div align="right"><i class="fi fi-tr-signature" style="font-size: 30px; margin-bottom: -25px; display: block; margin-right: 30px;"></i><br><strong>_______________________</strong><br><i>Firma y sello de San Mungo</i></div></span></span>',
-        },
-        "nota de morgana": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "sobre verde",
-          "cont": '<span><span class="notebook">Estimado Fergus,<br><br>No creas que no estoy agradecida por todo lo que has hecho por nosotras, sin embargo, teníamos un acuerdo y aún no lo veo por cumplido. <br><br>He intentado hablar contigo en severas ocasiones, te he enviado cartas que nunca tuvieron respuestas, por lo tanto, espero que esta sea lo suficientemente contundente para poder recibir lo que espero.<br><br>Descubrí tu secreto, no fue demasiado difícil de averiguar.<br><br>Debo decir que me sorprende que los aurores no hayan encontrado nada, aunque asumo que hubo un poco de dinero de por medio. Delyth vive en Prešov, su nombre es Eseniya. Se la ve feliz, fue un acto muy generoso de su parte ayudarla a escaparse. Es una pena que eso pueda quitarte tu puesto de nigromante si la verdad saliera a la luz.<br><br>Es tu decisión,<br>Morgana.</span><br /></span>',
-        },
-        "sobre celeste": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "contenido revelado del cofre",
-          "cont": '<span>Dentro del sobre existen dos pergaminos que, en un principio, aparentan ser iguales.</span>',
-        },
-        "donacion brian": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "sobre celeste",
-          "cont": '<span><span class="book-clipping"><br><div align="center"><span style="font-size: 14px; line-height: normal"><strong>Ministerio de Magia</strong></span></div><div align="center"><span style="font-size: 12px; line-height: normal">Contrato de Donación</span></div><br><hr><br><br><strong>Donante:</strong> <i>Brian Dempsey</i> <br><strong>Beneficiario:</strong> <i>Fergus Vance</i> <br><strong>Fecha de formalización:</strong> <i>20 de Junio de 1907</i> <br><strong>Objeto de la donación:</strong> <i>Rainbow Lane</i> <br><br><hr><br><br><strong>Cláusulas:</strong> <br>1. El donante entrega de manera libre y voluntaria el bien o cantidad señalada. <br>2. El beneficiario acepta la donación para fines personales. <br>3. La donación no podrá ser revocada salvo disposición contraria de los estatutos mágicos. <br>4. Ambas partes reconocen la validez del presente contrato bajo la legislación vigente en el mundo mágico. <br><br><hr><br><br><strong>Observaciones adicionales:</strong> <br><i>El contrato solo estará vigente cuando ambas partes firmen el contrato.</i> <br><br><hr><br><br><div align="left"><strong>Firma del Donante:</strong><br><i class="fi fi-tr-signature" style="font-size: 30px; margin-bottom: -25px; display: block; margin-right: 30px;"></i><br>_______________________</div><br><br><div align="left"><strong>Firma del Beneficiario:</strong><br><i class="fi fi-tr-signature" style="font-size: 30px; margin-bottom: -25px; display: block; margin-right: 30px;"></i><br>_______________________</div><br></span></span>',
-        },
-        "donacion fergus": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "sobre celeste",
-          "cont": '<span><span class="book-clipping"><br><div align="center"><span style="font-size: 14px; line-height: normal"><strong>Ministerio de Magia</strong></span></div><div align="center"><span style="font-size: 12px; line-height: normal">Contrato de Donación</span></div><br><hr><br><br><strong>Donante:</strong> <i>Fergus Vance</i> <br><strong>Beneficiario:</strong> <i>Morgana Dempsey</i> <br><strong>Fecha de formalización:</strong> <i>13 de Enero de 1914</i> <br><strong>Objeto de la donación:</strong> <i>Rainbow Lane</i> <br><br><hr><br><br><strong>Cláusulas:</strong> <br>1. El donante entrega de manera libre y voluntaria el bien o cantidad señalada. <br>2. El beneficiario acepta la donación para fines personales. <br>3. La donación no podrá ser revocada salvo disposición contraria de los estatutos mágicos. <br>4. Ambas partes reconocen la validez del presente contrato bajo la legislación vigente en el mundo mágico. <br><br><hr><br><br><strong>Observaciones adicionales:</strong> <br><i>El contrato solo estará vigente cuando ambas partes firmen el contrato.</i> <br><br><hr><br><br><div align="left"><strong>Firma del Donante:</strong><br><i class="fi fi-tr-signature" style="font-size: 30px; margin-bottom: -25px; display: block; margin-right: 30px;"></i><br>_______________________</div><br><br><div align="left"><strong>Firma del Beneficiario:</strong><br><i class="fi fi-tr-signature" style="font-size: 30px; margin-bottom: -25px; display: block; margin-right: 30px;"></i><br>_______________________</div><br></span></span>',
-        }
-      },
+      "searchs": {},
 
-      "actions": {
-        "alohomora": {
-          "leve": '<span>No es suficiente para revelar su contenido.</span>',
-          "moderado": '<span>Abre el cofre revelando su contenido.<adding search="revela cofre" class="check-cards"></adding></span>',
-          "exitoso": '<span>Abre el cofre revelando su contenido.<adding search="revela cofre" class="check-cards"></adding></span>',
-          "critico": '<span>Abre el cofre revelando su contenido.<adding search="revela cofre" class="check-cards"></adding></span>',
-        },
-        "identificar runa": {
-          "leve": '<span>No es suficiente para identificar las runas.</span>',
-          "moderado": '<span>Existen tres runas grabadas en la caja, Gebo (ᚷ), Dagaz (ᛞ) y Tiwaz (ᛏ).</span>',
-          "exitoso": '<span>Existen tres runas grabadas en la caja, Gebo (ᚷ), Dagaz (ᛞ) y Tiwaz (ᛏ).</span>',
-          "critico": '<span>Existen tres runas grabadas en la caja, Gebo (ᚷ), Dagaz (ᛞ) y Tiwaz (ᛏ).</span>',
-        },
-        "interpretar runas": {
-          "leve": '<span>No es suficiente para interpretar las runas.</span>',
-          "moderado": '<span>Las runas en la caja se pueden interpretar de la siguiente manera, Gebo (ᚷ) significa dar y recibir; Dagaz (ᛞ), significa vida nueva y fin de los problemas; y Tiwaz (ᛏ) representa el honor.</span>',
-          "exitoso": '<span>Las runas en la caja se pueden interpretar de la siguiente manera, Gebo (ᚷ) significa dar y recibir; Dagaz (ᛞ), significa vida nueva y fin de los problemas; y Tiwaz (ᛏ) representa el honor.</span>',
-          "critico": '<span>Las runas en la caja se pueden interpretar de la siguiente manera, Gebo (ᚷ) significa dar y recibir; Dagaz (ᛞ), significa vida nueva y fin de los problemas; y Tiwaz (ᛏ) representa el honor.</span>',
-        },
-        "revelio": {
-          "leve": '<span>No es suficiente para revelar el contenido del cofre.</span>',
-          "moderado": '<span>En el fondo del cofre se puede observar dos sobres que habían sido ocultos a primera vista. Un sobre color verde y otro color celeste. <adding search="contenido revelado del cofre" class="check-cards"></adding></span>',
-          "exitoso": '<span>En el fondo del cofre se puede observar dos sobres que habían sido ocultos a primera vista. Un sobre color verde y otro color celeste. <adding search="contenido revelado del cofre" class="check-cards"></adding></span>',
-          "critico": '<span>En el fondo del cofre se puede observar dos sobres que habían sido ocultos a primera vista. Un sobre color verde y otro color celeste. <adding search="contenido revelado del cofre" class="check-cards"></adding></span>',
-        },
-      },
+      "actions": {},
     },
     // fin full of emptiness
 
@@ -5274,66 +5095,9 @@ const MissionsModule = (function () {
       "type": "investigación", "closed": true, "fecha": "1952-10-30", "link": "/t523-investigacion-commander-s-orders", "tagged": ["edwin", "capitulo 0"],
 
       "cards": [],
-      "actions": {
-        "veniens empathy": {
-          "leve": 'Una punzada desconocida recorre tu pecho. No sabes si es miedo, tristeza o algo más oscuro, pero permanece, como si no fuera tuya.',
-          "moderado": 'Te invade una emoción intensa y ajena. En tu mente, una imagen: tú, mirando al mar, sabiendo que algo se avecina. El miedo no es tuyo, pero te atrapa.',
-          "exitoso": 'El aire se torna denso, y una emoción clara surge en ti: desesperanza. No estás solo; puedes sentirla en todos los que estuvieron aquí antes. La tierra misma la recuerda.',
-          "critico": 'Una visión atraviesa tu cuerpo como una descarga: en este mismo lugar, pronto habrá llanto. Lágrimas verdaderas. Puedes sentirlas correr por tus mejillas sin saber por qué. Alguien grita, pero no de dolor: de pérdida.',
-        },
-      },
+      "actions": {},
 
-      "searchs": {
-        "leer noticia 'nace la hija de las estrellas y los duelos'": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span><section class="bring-news" title="nace la hija de las estrellas y los duelos"></section></span>',
-        },
-
-        "leer noticia 'galatea merrythought resuelve su primer caso'": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span><section class="bring-news" title="galatea merrythought resuelve su primer caso"></section></span>',
-        },
-
-        "leer noticia 'el ascenso de merrythought'": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span><section class="bring-news" title="el ascenso de merrythought"></section></span>',
-        },
-
-        "leer noticia 'galatea merrythought es nombrada jefa de seguridad mágica'": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span><section class="bring-news" title="galatea merrythought es nombrada jefa de seguridad mágica"></section></span>',
-        },
-
-        "leer noticia 'órdenes de la comandante'": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span><section class="bring-news" title="órdenes de la comandante"></section></span>',
-        },
-
-        "leer noticia 'galatea merrythought se ve obligada a retirarse forzadamente como jefa de seguridad mágica'": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span><section class="bring-news" title="galatea merrythought se ve obligada a retirarse forzadamente como jefa de seguridad mágica"></section></span>',
-        },
-
-        "leer noticia 'nueva comandante de las aulas'": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span><section class="bring-news" title="nueva comandante de las aulas"></section></span>',
-        },
-
-        "leer noticia 'galatea merrythought se despide de hogwarts'": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span><section class="bring-news" title="galatea merrythought se despide de hogwarts"></section></span>',
-        },
-
-        "leer noticia 'la comunidad mágica se despide de galatea merrythought'": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span><section class="bring-news" title="la comunidad mágica se despide de galatea merrythought"></section></span>',
-        },
-
-        "leer noticia 'adiós, comandante'": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span><section class="bring-news" title="adiós, comandante"></section></span>',
-        },
-      },
+      "searchs": {},
     },
     // fin commander's orders
 
@@ -7414,7 +7178,7 @@ const MissionsModule = (function () {
     // dragonfly's secrets
 
     "tying loose ends": {
-      "description": "[Completada] El 25 de Marzo de 1929 se dio a conocer la muerte de Dominic Edevane a sus 32 años. Sin embargo, un nuevo detalle en el certificado de defunción ha llamado la atención de uno de los aurores encargados de la investigación y lo que en su momento se creía perdido, ahora puede ser el momento de cerrar el caso de una vez por todas.",
+      "description": "[Completada] El 25 de Marzo de 1939 se dio a conocer la muerte de Dominic Edevane a sus 32 años. Sin embargo, un nuevo detalle en el certificado de defunción ha llamado la atención de uno de los aurores encargados de la investigación y lo que en su momento se creía perdido, ahora puede ser el momento de cerrar el caso de una vez por todas.",
       "image": "https://i.imgur.com/9tQNGVG.png", "requisitos": ["Un personaje deberá ser miembro del Departamento de Seguridad"],
       "users": ["c/u150", "/u97", "/u9", "/u156"],
       "informed": [],
@@ -7426,11 +7190,11 @@ const MissionsModule = (function () {
       "searchs": {
         "certificado de defunción de dominic edevane clasificado": {
           "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "jupiter", }, "place": "",
-          "cont": '<span>El personaje puede confirmar que, tras una investigación en el Requisario, encontró un certificado clasificado de Dominic Edevane:<br><br><span class="book-clipping"><br><div align="center"><strong>PERGAMINO DE DEFUNCIÓN</strong><br><i>Hospital San Mungo para Enfermedades y Heridas Mágicas – Archivo de los Caídos</i></div><br><strong>Nombre Completo del Paciente</strong>: Dominic Edevane.<br><strong>No. Expediente</strong>: SM-FD/1342-G<br><strong>Fecha de Ingreso</strong>: 25 de Marzo de 1939 - 07:05hs.<br><br><strong>Fecha de fallecimiento</strong>: 24 de Marzo de 1929 - 22:32hs.<br><br><strong>Edad</strong>: 32 años.<br><strong>Sangre</strong>: ☒ Pura 	 ☐ Mestiza 	 ☐ Muggle 	 ☐ Criatura<br><br><strong>Motivo del ingreso</strong>: El cuerpo de Dominic Edevane fue hallado fallecido y llevado al hospital.<br><strong>Causa de fallecimiento</strong>: Se determina que la causa de la muerte ha sido un parásito en sangre. El mismo no corresponde con alguno anotado con anterioridad. Una muestra ha sido tomada y enviada al Departamento de Misterios para su investigación. Dicho parásito ha causado una cristalización letárgica de las venas principales. El organismo intruso consumió el oxígeno y el calor vital del paciente de manera tan sutil que los órganos se marchitaron en completo silencio.<br><br><strong>Área médica asignada</strong>: Archivo de los caídos.<br><strong>Atendido por</strong>: Thalia Wyrm, nigromante.<br><strong>Acompañante familiar</strong>: Padre, Halden Edevane.<br><br><strong>Anexos</strong>:<br>☒ Firma de Thalia Wyrm.<br>☒ Firma de Padre, Halden Edevane.<br>☒ Sello de defunción emitido.</span></span>',
+          "cont": '<span>El personaje puede confirmar que, tras una investigación en el Requisario, encontró un certificado clasificado de Dominic Edevane:<br><br><span class="book-clipping"><br><div align="center"><strong>PERGAMINO DE DEFUNCIÓN</strong><br><i>Hospital San Mungo para Enfermedades y Heridas Mágicas – Archivo de los Caídos</i></div><br><strong>Nombre Completo del Paciente</strong>: Dominic Edevane.<br><strong>No. Expediente</strong>: SM-FD/1342-G<br><strong>Fecha de Ingreso</strong>: 25 de Marzo de 1939 - 07:05hs.<br><br><strong>Fecha de fallecimiento</strong>: 24 de Marzo de 1939 - 22:32hs.<br><br><strong>Edad</strong>: 32 años.<br><strong>Sangre</strong>: ☒ Pura 	 ☐ Mestiza 	 ☐ Muggle 	 ☐ Criatura<br><br><strong>Motivo del ingreso</strong>: El cuerpo de Dominic Edevane fue hallado fallecido y llevado al hospital.<br><strong>Causa de fallecimiento</strong>: Se determina que la causa de la muerte ha sido un parásito en sangre. El mismo no corresponde con alguno anotado con anterioridad. Una muestra ha sido tomada y enviada al Departamento de Misterios para su investigación. Dicho parásito ha causado una cristalización letárgica de las venas principales. El organismo intruso consumió el oxígeno y el calor vital del paciente de manera tan sutil que los órganos se marchitaron en completo silencio.<br><br><strong>Área médica asignada</strong>: Archivo de los caídos.<br><strong>Atendido por</strong>: Thalia Wyrm, nigromante.<br><strong>Acompañante familiar</strong>: Padre, Halden Edevane.<br><br><strong>Anexos</strong>:<br>☒ Firma de Thalia Wyrm.<br>☒ Firma de Padre, Halden Edevane.<br>☒ Sello de defunción emitido.</span></span>',
         },
         "certificado de defunción de dominic edevane": {
           "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "",
-          "cont": '<span><span class="book-clipping"><br><div align="center"><strong>PERGAMINO DE DEFUNCIÓN</strong><br><i>Hospital San Mungo para Enfermedades y Heridas Mágicas – Archivo de los Caídos</i></div><br><strong>Nombre Completo del Paciente</strong>: Dominic.<br><strong>No. Expediente</strong>: SM-FD/1342-G<br><strong>Fecha de Ingreso</strong>: 25 de Marzo de 1939 - 07:05hs.<br><strong>Fecha de fallecimiento</strong>: 24 de Marzo de 1929 - 22:32hs.<br><br><strong>Edad</strong>: 32 años.<br><strong>Sangre</strong>: ☒ Pura &nbsp; ☐ Mestiza &nbsp; ☐ Muggle &nbsp; ☐ Criatura<br><br><strong>Motivo del ingreso</strong>: El cuerpo de Dominic fue hallado fallecido y llevado al hospital.<br><strong>Causa de fallecimiento</strong>: No hay causas suficientes, se supone causas naturales, aunque se notaron rastros de magia negra en su sangre.<br><br><strong>Área médica asignada</strong>: Archivo de los caídos.<br><strong>Atendido por</strong>: Thalia Wyrm, nigromante.<br><strong>Acompañante familiar</strong>: Esposa, Aria Fawley.<br><br><strong>Anexos</strong>:<br>☒ Firma de Thalia Wyrm.<br>☒ Firma de Aria Fawley.<br>☒ Sello de defunción emitido.</span></span>',
+          "cont": '<span><span class="book-clipping"><br><div align="center"><strong>PERGAMINO DE DEFUNCIÓN</strong><br><i>Hospital San Mungo para Enfermedades y Heridas Mágicas – Archivo de los Caídos</i></div><br><strong>Nombre Completo del Paciente</strong>: Dominic.<br><strong>No. Expediente</strong>: SM-FD/1342-G<br><strong>Fecha de Ingreso</strong>: 25 de Marzo de 1939 - 07:05hs.<br><strong>Fecha de fallecimiento</strong>: 24 de Marzo de 1939 - 22:32hs.<br><br><strong>Edad</strong>: 32 años.<br><strong>Sangre</strong>: ☒ Pura &nbsp; ☐ Mestiza &nbsp; ☐ Muggle &nbsp; ☐ Criatura<br><br><strong>Motivo del ingreso</strong>: El cuerpo de Dominic fue hallado fallecido y llevado al hospital.<br><strong>Causa de fallecimiento</strong>: No hay causas suficientes, se supone causas naturales, aunque se notaron rastros de magia negra en su sangre.<br><br><strong>Área médica asignada</strong>: Archivo de los caídos.<br><strong>Atendido por</strong>: Thalia Wyrm, nigromante.<br><strong>Acompañante familiar</strong>: Esposa, Aria Fawley.<br><br><strong>Anexos</strong>:<br>☒ Firma de Thalia Wyrm.<br>☒ Firma de Aria Fawley.<br>☒ Sello de defunción emitido.</span></span>',
         },
         "certificado de defunción de thalia wyrm": {
           "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "jupiter", }, "place": "",
@@ -7458,7 +7222,7 @@ const MissionsModule = (function () {
         },
         "locker de thalia wyrm": {
           "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "investigar los lockers",
-          "cont": '<span>Tras avanzar hasta el año 1929, llegan a un casillero que tiene la información de Thalia Wyrm. Las etiquetas al frente rezan: "Thalia Wyrm - Investigación sobre parásitos en la sangre - 1929".</span>',
+          "cont": '<span>Tras avanzar hasta el año 1939, llegan a un casillero que tiene la información de Thalia Wyrm. Las etiquetas al frente rezan: "Thalia Wyrm - Investigación sobre parásitos en la sangre - 1939".</span>',
         },
         "abrir locker": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "locker de thalia wyrm",
@@ -7472,20 +7236,20 @@ const MissionsModule = (function () {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir locker",
           "cont": '<span>Al tomar los pergaminos, pueden notarse que hay tres pergaminos con notas fechadas en orden cronológico.</span>',
         },
-        "notas de abril 1929": {
+        "notas de abril 1939": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "pergaminos de notas",
-          "cont": '<span><span class="book-clipping">Fecha: 12 de Abril de 1929. Cámara de la Sangre, Departamento de Misterios.<br><br>La muestra extraída del señor Edevane se niega a coagularse. Lleva tres semanas en un frasco sellado sobre mi escritorio y, si apago las luces, puedo ver cómo la espesa negrura palpita contra el cristal, imitando el ritmo de un corazón que ya no existe. Hoy decidí someterla a hechizos que he aprendido como nigromante. Lo que encontré no es una bacteria ni una bestia microscópica, sino un conjuro. Un hechizo que ha sido forzado a tomar una forma biológica.<br><br>El parásito no ataca los órganos de forma violenta. Se adhiere a la magia natural del torrente sanguíneo y la usa como combustible para bajar la temperatura interna del huésped. Se alimenta del calor vital y del oxígeno, dejando a su paso un rastro de escarcha negra. Por eso las venas de Edevane se cristalizaron. No murió de dolor; murió porque su cuerpo, sencillamente, creyó que era invierno y decidió apagarse para invernar. Es una magia elegante. Demasiado silenciosa.</span></span>',
+          "cont": '<span><span class="book-clipping">Fecha: 12 de Abril de 1939. Cámara de la Sangre, Departamento de Misterios.<br><br>La muestra extraída del señor Edevane se niega a coagularse. Lleva tres semanas en un frasco sellado sobre mi escritorio y, si apago las luces, puedo ver cómo la espesa negrura palpita contra el cristal, imitando el ritmo de un corazón que ya no existe. Hoy decidí someterla a hechizos que he aprendido como nigromante. Lo que encontré no es una bacteria ni una bestia microscópica, sino un conjuro. Un hechizo que ha sido forzado a tomar una forma biológica.<br><br>El parásito no ataca los órganos de forma violenta. Se adhiere a la magia natural del torrente sanguíneo y la usa como combustible para bajar la temperatura interna del huésped. Se alimenta del calor vital y del oxígeno, dejando a su paso un rastro de escarcha negra. Por eso las venas de Edevane se cristalizaron. No murió de dolor; murió porque su cuerpo, sencillamente, creyó que era invierno y decidió apagarse para invernar. Es una magia elegante. Demasiado silenciosa.</span></span>',
         },
-        "notas de noviembre 1932": {
+        "notas de noviembre 1941": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "pergaminos de notas",
-          "cont": '<span><span class="book-clipping">Fecha: 3 de Noviembre de 1932. Cámara de la Sangre.<br><br>He logrado aislar el encantamiento base separando la sangre maldita tras varios hechizos rúnicos. Esto no fue un veneno bebido ni una maldición lanzada a gritos en un callejón. Es un Parasitus Arcanum, una variante de magia de sangre muy antigua y deliberada.<br><br>Para generar algo así, el lanzador tuvo que usar la transmutación. Tomó una emoción densa (odio o un sentido de protección sumamente retorcido), la ató a un filamento de magia oscura y la incubó dentro de un objeto físico cercano a la víctima. Al entrar en contacto prolongado con Edevane, el objeto comenzó a transpirar esta magia hacia sus poros, introduciendo el "parásito" en su sistema. Una vez dentro, el hechizo cobra consciencia biológica: se multiplica, teje raíces de hielo en las arterias y asfixia lentamente. Quien haya creado esto no quería venganza rápida; quería la certeza de una muerte que pasara por fatiga.</span></span>',
+          "cont": '<span><span class="book-clipping">Fecha: 3 de Noviembre de 1941. Cámara de la Sangre.<br><br>He logrado aislar el encantamiento base separando la sangre maldita tras varios hechizos rúnicos. Esto no fue un veneno bebido ni una maldición lanzada a gritos en un callejón. Es un Parasitus Arcanum, una variante de magia de sangre muy antigua y deliberada.<br><br>Para generar algo así, el lanzador tuvo que usar la transmutación. Tomó una emoción densa (odio o un sentido de protección sumamente retorcido), la ató a un filamento de magia oscura y la incubó dentro de un objeto físico cercano a la víctima. Al entrar en contacto prolongado con Edevane, el objeto comenzó a transpirar esta magia hacia sus poros, introduciendo el "parásito" en su sistema. Una vez dentro, el hechizo cobra consciencia biológica: se multiplica, teje raíces de hielo en las arterias y asfixia lentamente. Quien haya creado esto no quería venganza rápida; quería la certeza de una muerte que pasara por fatiga.</span></span>',
         },
         "notas de noviembre 1943": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "pergaminos de notas",
           "cont": '<span><span class="book-clipping">Fecha: 16 de Noviembre de 1943. Cámara de la Sangre.<br><br>He cometido un error de cálculo que me cuesta admitir. Pensé que el parásito moriría de inanición al no tener un huésped vivo del cual alimentarse. Pero los hechizos de este calibre no mueren; quedan en un estado de hibernación, esperando una nueva fuente de calor.<br><br>Ayer, al cambiar el sello del frasco, el cristal se agrietó apenas una fracción de segundo. Fue suficiente. Sentí un pinchazo frío en la yema del dedo índice, como la picadura de una aguja de hielo. Hoy, al mirarme al espejo, he notado que las venas de mi cuello tienen un inusual tono ceniciento. Mis manos ya no entran en calor, ni siquiera acercándolas a la chimenea. El parásito ha encontrado una nueva casa. Es fascinante, en cierto modo macabro, observar el progreso en primera persona. Siento cómo mis órganos comienzan a ralentizarse, marchitándose en completo silencio, tal como le pasó a Edevane. Sellaré estas notas junto con la muestra original. Si alguien del archivo entra aquí cuando yo ya sea polvo y escarcha, espero que tenga el buen juicio de usar guantes gruesos. El letargo es pacífico, pero no planeo compartirlo. Antes de ir al hospital, buscaré sellar el frasco.</span></span>',
         },
         "información del hechizo": {
-          "visible": { "attr": { "val": "min" }, "know": { "magia oscura": "10" }, "job": "invalid", "name": "invalid", }, "place": "notas de noviembre 1932",
+          "visible": { "attr": { "val": "min" }, "know": { "magia oscura": "10" }, "job": "invalid", "name": "invalid", }, "place": "notas de noviembre 1941",
           "cont": '<span>El personaje puede brindar la información del hechizo (parasitus arcanum) que se encuentra bajo el filtro de magia oscura en la lista de hechizos y habilidades.</span>',
         },
       },
@@ -7532,12 +7296,12 @@ const MissionsModule = (function () {
 
         {
           "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "theolonius", }, "place": "pertenencias robadas de la casa de dominic",
-          "cont": '<span>Entre las cartas, doblada aparte, hay una nota en letra de mujer, sin sobre: <span class="book-clipping">«Dom: nació esta madrugada, a las cuatro. Pesa poco y grita mucho. Lo llamaré Theolonius. Ven cuando puedas. Si no puedes venir, al menos mírale la cara: es idéntica a la tuya. — M.»</span> Es la letra de su madre. La fecha es el 21 de marzo de 1929. Dominic nunca llegó a responderla, y el gorrito de lana azul, sin estrenar, estaba guardado junto a ella.</span>',
+          "cont": '<span>Entre las cartas, doblada aparte, hay una nota en letra de mujer, sin sobre: <span class="book-clipping">«Dom: nació esta madrugada, a las cuatro. Pesa poco y grita mucho. Lo llamaré Theolonius. Ven cuando puedas. Si no puedes venir, al menos mírale la cara: es idéntica a la tuya. — M.»</span> Es la letra de su madre. La fecha es el 21 de marzo de 1929. Dominic nunca la respondió, pero la conservó durante diez años, y el gorrito de lana azul, sin estrenar, estaba guardado junto a ella.</span>',
         },
         
         {
           "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad mágica", "name": "invalid", }, "place": "árbol genealógico de los edevane",
-          "cont": '<span>El personaje reconoce los nombres del árbol. Los cruzó en los archivos del Ministerio al revisar el caso, y ninguno sigue con vida. <strong>Halden Edevane</strong> murió en 1934, por causas naturales, mientras dormía. <strong>Cordelia Edevane</strong> murió en 1937, de viruela de dragón. <strong>Perpetua Edevane</strong> murió en 1941, de una neumonía que se complicó durante el invierno. <strong>Lucan Edevane</strong> murió en 1946, soltero y sin descendencia, por un fallo del corazón. Ninguna de esas muertes tuvo nada de extraño, y ninguna se investigó. Con Lucan se extinguió la rama principal: no queda ningún Edevane reconocido que pueda responder por lo que hizo esta familia.</span>',
+          "cont": '<span>El personaje reconoce los nombres del árbol. Los cruzó en los archivos del Ministerio al revisar el caso, y ninguno sigue con vida. <strong>Halden Edevane</strong> murió en 1940, por causas naturales, mientras dormía. <strong>Perpetua Edevane</strong> murió en 1941, de una neumonía que se complicó durante el invierno. <strong>Cordelia Edevane</strong> murió en 1944, de viruela de dragón. <strong>Lucan Edevane</strong> murió en 1946, soltero y sin descendencia, por un fallo del corazón. Ninguna de esas muertes tuvo nada de extraño, y ninguna se investigó. Con Lucan se extinguió la rama principal: no queda ningún Edevane reconocido que pueda responder por lo que hizo esta familia.</span>',
         },
       ],
 
@@ -7609,7 +7373,7 @@ const MissionsModule = (function () {
 
         "árbol genealógico de los edevane": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ingresar a la habitación secreta",
-          "cont": '<span><span class="book-clipping"><br><div align="center"><strong>LOS EDEVANE – Rama principal</strong><br><i>Copiado a mano por T. Wyrm</i></div><br><strong>Halden Edevane</strong> (cabeza de familia) y <strong>Cordelia Edevane</strong><br>&nbsp;&nbsp;&nbsp;├─ <strong>Dominic Edevane</strong> (n. 1897 – † 24/03/1929), casado con <strong>Aria Fawley</strong><br>&nbsp;&nbsp;&nbsp;├─ <strong>Perpetua Edevane</strong>, casada fuera de la familia<br>&nbsp;&nbsp;&nbsp;└─ <strong>Lucan Edevane</strong>, soltero<br><br><i>Anotaciones al margen, con otra tinta:</i> «Dominic no figura como padre de nadie. En ningún registro de la familia. Alguien se encargó de que así fuera». «Se casó con Aria el 21 de marzo, el mismo día en que nació el niño. Primero el hijo, horas después la boda, sin anuncio ni invitados. Tres días más tarde, el entierro». Debajo, una línea a lápiz, sin conexión con el árbol: «Theolonius Covey, n. 21/03/1929. Madre: Myrna Covey. Padre: D. E. No figura».</span></span>',
+          "cont": '<span><span class="book-clipping"><br><div align="center"><strong>LOS EDEVANE – Rama principal</strong><br><i>Copiado a mano por T. Wyrm</i></div><br><strong>Halden Edevane</strong> (cabeza de familia) y <strong>Cordelia Edevane</strong><br>&nbsp;&nbsp;&nbsp;├─ <strong>Dominic Edevane</strong> (n. 1907 – † 24/03/1939), casado con <strong>Aria Fawley</strong><br>&nbsp;&nbsp;&nbsp;├─ <strong>Perpetua Edevane</strong>, casada fuera de la familia<br>&nbsp;&nbsp;&nbsp;└─ <strong>Lucan Edevane</strong>, soltero<br><br><i>Anotaciones al margen, con otra tinta:</i> «Dominic no figura como padre de nadie. En ningún registro de la familia. Alguien se encargó de que así fuera». «Se casó con Aria en 1936, siete años después de que naciera el niño. El 21 de marzo de 1939, el niño cumplió diez años. Tres días más tarde, el entierro». «Aria esperaba un hijo. Lo perdió en mayo». Debajo, una línea a lápiz, sin conexión con el árbol: «Theolonius Covey, n. 21/03/1929. Madre: Myrna Covey. Padre: D. E. No figura».</span></span>',
         },
 
         "planos de la casa de dominic": {
@@ -7632,19 +7396,19 @@ const MissionsModule = (function () {
           "cont": '<span>Son tres cartas, ordenadas por fecha, con sobres que llevan el sello de lacre de los Edevane. Ninguna menciona por su nombre a nadie ni a nada de forma directa, y todas están escritas con una cortesía helada. Los personajes pueden leerlas por separado.</span>',
         },
 
-        "carta del 14 de noviembre de 1928": {
+        "carta del 14 de noviembre de 1938": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "cartas atadas con una cinta gris",
-          "cont": '<span><span class="book-clipping">Fecha: 14 de noviembre de 1928.<br><br>Dominic:<br><br>Han llegado a esta casa ciertos comentarios sobre tus visitas a Wicklow y sobre la compañía que frecuentas allí. No voy a repetirlos por escrito. Tu madre prefiere creer que son calumnias; yo prefiero no hacerme ilusiones.<br><br>Esta familia ha sobrevivido a los siglos porque cada generación supo cerrar a tiempo lo que había que cerrar. Una casa como la nuestra no cría accidentes, hijo. Los corrige. Preferiría que lo hicieras tú. La señorita Fawley sería una elección que todos aplaudiríamos, y un hombre casado con ella no tiene nada que explicar. Tienes hasta Navidad para demostrarme que sigues siendo un Edevane.<br><br>Tu padre.</span></span>',
+          "cont": '<span><span class="book-clipping">Fecha: 14 de noviembre de 1938.<br><br>Dominic:<br><br>Han llegado a esta casa ciertos comentarios sobre el dinero que envías a Wicklow desde hace años y sobre la mujer que lo recibe. No voy a repetirlos por escrito. Tu madre prefiere creer que son calumnias; yo prefiero no hacerme ilusiones.<br><br>Esta familia ha sobrevivido a los siglos porque cada generación supo cerrar a tiempo lo que había que cerrar. Una casa como la nuestra no cría accidentes, hijo. Los corrige. Preferiría que lo hicieras tú. Tu esposa espera un hijo, y ese niño debe heredar un nombre sin deudas ni preguntas. Tienes hasta Navidad para demostrarme que sigues siendo un Edevane.<br><br>Tu padre.</span></span>',
         },
 
-        "carta del 2 de enero de 1929": {
+        "carta del 2 de enero de 1939": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "cartas atadas con una cinta gris",
-          "cont": '<span><span class="book-clipping">Fecha: 2 de enero de 1929.<br><br>Querido hermano:<br><br>Navidad pasó sin una palabra tuya, y padre lo anotó como se anotan las deudas. Me pidió que te escribiera yo, para que no pareciera una orden.<br><br>Te hace llegar, con esta carta, el anillo del abuelo. Dice que te corresponde y que debes llevarlo puesto siempre, como señal de que has entendido lo que se espera de ti. No se rechaza un anillo así, Dominic. Se acepta, o se explica por qué no se acepta, y a nadie le conviene tener que explicar.<br><br>Lo que no se corta a tiempo se pudre. Ya sabes cómo termina.<br><br>Perpetua.</span></span>',
+          "cont": '<span><span class="book-clipping">Fecha: 2 de enero de 1939.<br><br>Querido hermano:<br><br>Navidad pasó sin una palabra tuya, y padre lo anotó como se anotan las deudas. Me pidió que te escribiera yo, para que no pareciera una orden.<br><br>Te hace llegar, con esta carta, el anillo del abuelo. Dice que te corresponde ahora que vas a ser padre y que debes llevarlo puesto siempre, como señal de que has entendido lo que se espera de ti. No se rechaza un anillo así, Dominic. Se acepta, o se explica por qué no se acepta, y a nadie le conviene tener que explicar.<br><br>Lo que no se corta a tiempo se pudre. Ya sabes cómo termina.<br><br>Perpetua.</span></span>',
         },
 
-        "carta del 22 de marzo de 1929": {
+        "carta del 22 de marzo de 1939": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "cartas atadas con una cinta gris",
-          "cont": '<span><span class="book-clipping">Fecha: 22 de marzo de 1929.<br><br>Dominic:<br><br>Nos han llegado dos noticias en el mismo día: la de tu boda y la de lo que ocurrió en Wicklow. No creas que una borra la otra. Casarte era lo que correspondía, pero no era lo único que se te pidió, y el plazo que se te dio ya pasó.<br><br>No responderé a tus cartas, porque ya no hay nada que discutir. Que no quede en ningún lugar un nombre que no sea el tuyo. No nos obligues a decidir por ti. Lo que nosotros decidimos es siempre definitivo, y casi nunca es compasivo. Haz lo que tienes que hacer, o prepárate para que se haga lo que hay que hacer sin ti.<br><br>Halden.</span></span>',
+          "cont": '<span><span class="book-clipping">Fecha: 22 de marzo de 1939.<br><br>Dominic:<br><br>Sabemos que esta semana volvió a salir dinero hacia Wicklow, y sabemos qué fecha era ayer. No creas que llevar el anillo borra lo demás. Llevarlo era lo que correspondía, pero no era lo único que se te pidió, y el plazo que se te dio ya pasó.<br><br>No responderé a tus cartas, porque ya no hay nada que discutir. Que no quede en ningún lugar un nombre que no sea el tuyo. No nos obligues a decidir por ti. Lo que nosotros decidimos es siempre definitivo, y casi nunca es compasivo. Haz lo que tienes que hacer, o prepárate para que se haga lo que hay que hacer sin ti.<br><br>Halden.</span></span>',
         },
 
         "la caja de plomo": {
@@ -7657,19 +7421,19 @@ const MissionsModule = (function () {
           "cont": '<span>Bajo la caja hay un cuaderno de tapas negras, abierto en tres páginas marcadas con cintas. Las notas llevan la fecha en la esquina, con la letra de Thalia, cada vez más pequeña. Los personajes pueden leerlas por separado.</span>',
         },
 
-        "nota del 11 de marzo de 1933": {
+        "nota del 11 de marzo de 1943": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "cuaderno de contención de thalia",
-          "cont": '<span><span class="book-clipping">Fecha: 11 de marzo de 1933.<br><br>Lo tengo. Estaba en el segundo cajón del estudio, envuelto en un paño gris, justo donde calculé. Aria no lo tocó nunca; lo guardó sin mirarlo, como se guarda algo que quema.<br><br>No lo toqué. Usé las tenazas de plata y el paño encantado de la Cámara, y lo metí en la caja de plomo antes de que el frío llegara a la pinza. Tres hileras de runas de contención, una para el calor, otra para el contacto y otra para el nombre. Me tomó un mes aprender a grabarlas sin que se me congelaran los dedos. Nadie en la casa me oyó salir.<br><br>Lo que me inquieta: el anillo no hace nada mientras está solo. Duerme. Pero cuando acerqué la mano al cierre, sentí que me reconocía, como un animal que huele calor. No volveré a acercarme sin guantes.</span></span>',
+          "cont": '<span><span class="book-clipping">Fecha: 11 de marzo de 1943.<br><br>Lo tengo. Estaba en el segundo cajón del estudio, envuelto en un paño gris, justo donde calculé. Aria no lo tocó nunca; lo guardó sin mirarlo, como se guarda algo que quema.<br><br>No lo toqué. Usé las tenazas de plata y el paño encantado de la Cámara, y lo metí en la caja de plomo antes de que el frío llegara a la pinza. Tres hileras de runas de contención, una para el calor, otra para el contacto y otra para el nombre. Me tomó un mes aprender a grabarlas sin que se me congelaran los dedos. Nadie en la casa me oyó salir.<br><br>Lo que me inquieta: el anillo no hace nada mientras está solo. Duerme. Pero cuando acerqué la mano al cierre, sentí que me reconocía, como un animal que huele calor. No volveré a acercarme sin guantes.</span></span>',
         },
 
-        "nota del 5 de mayo de 1933": {
+        "nota del 5 de mayo de 1943": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "cuaderno de contención de thalia",
-          "cont": '<span><span class="book-clipping">Fecha: 5 de mayo de 1933.<br><br>Dos meses estudiándolo a través del plomo y con varillas de cristal. Lo que he averiguado:<br><br>1. Dentro del aro corre una hebra negra, enroscada como una vena. Es el filamento del que hablaba en mis notas de noviembre. El anillo es el portador. Dominic lo llevó puesto semanas.<br>2. En la cara interna está grabado «Nomen manet». El nombre permanece. Un sello de heredero, de los que no se pueden rechazar.<br>3. La maldición solo reacciona a la piel viva. Probé con un ratón de laboratorio: nueve horas. Con metal, madera o cristal, nada.<br>4. Está firmada con sangre de la familia. Eso es lo que más me importa y lo que menos puedo probar: reconozco la firma, pero sin una muestra de comparación no sé de quién es la mano. Solo sé que no fue un accidente ni un extraño.<br>5. No se disuelve con un contrahechizo corriente. Lo contiene, y nada más. Mientras el anillo esté dormido, el parásito espera.</span></span>',
+          "cont": '<span><span class="book-clipping">Fecha: 5 de mayo de 1943.<br><br>Dos meses estudiándolo a través del plomo y con varillas de cristal. Lo que he averiguado:<br><br>1. Dentro del aro corre una hebra negra, enroscada como una vena. Es el filamento del que hablaba en mis notas de noviembre. El anillo es el portador. Dominic lo llevó puesto semanas.<br>2. En la cara interna está grabado «Nomen manet». El nombre permanece. Un sello de heredero, de los que no se pueden rechazar.<br>3. La maldición solo reacciona a la piel viva. Probé con un ratón de laboratorio: nueve horas. Con metal, madera o cristal, nada.<br>4. Está firmada con sangre de la familia. Eso es lo que más me importa y lo que menos puedo probar: reconozco la firma, pero sin una muestra de comparación no sé de quién es la mano. Solo sé que no fue un accidente ni un extraño.<br>5. No se disuelve con un contrahechizo corriente. Lo contiene, y nada más. Mientras el anillo esté dormido, el parásito espera.</span></span>',
         },
 
         "nota del 2 de noviembre de 1943": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "cuaderno de contención de thalia",
-          "cont": '<span><span class="book-clipping">Fecha: 2 de noviembre de 1943.<br><br>Renové las tres hileras de runas. Diez años y el plomo aguanta; es la única cosa de mi trabajo que no me ha defraudado.<br><br>Lo que me preocupa ya no es el anillo. El anillo duerme. Es la muestra que guardo en la Cámara, ese frasco, que no duerme nunca. Voy a cambiar el sello esta semana. Si algo me pasara, que quien encuentre esta habitación sepa dos cosas: que la respuesta está en la familia, y que la caja no se abre sin guantes.</span></span>',
+          "cont": '<span><span class="book-clipping">Fecha: 2 de noviembre de 1943.<br><br>Renové las tres hileras de runas. Ocho meses y el plomo aguanta; es la única cosa de mi trabajo que no me ha defraudado.<br><br>Lo que me preocupa ya no es el anillo. El anillo duerme. Es la muestra que guardo en la Cámara, ese frasco, que no duerme nunca. Voy a cambiar el sello esta semana. Si algo me pasara, que quien encuentre esta habitación sepa dos cosas: que la respuesta está en la familia, y que la caja no se abre sin guantes.</span></span>',
         },
 
         "abrir la caja de plomo": {
@@ -7766,9 +7530,9 @@ const MissionsModule = (function () {
 
         "aparecium": {
           "leve": '<span>Nada aparece. El pergamino sigue en blanco donde no hay tinta.</span>',
-          "moderado": '<span>Si se lanza sobre la carta del 2 de enero de 1929, justo debajo de la firma de Perpetua se dibujan unos trazos tenues, con una letra distinta. Se borran antes de que puedan leerse.</span>',
-          "exitoso": '<span>Si se lanza sobre la carta del 2 de enero de 1929, debajo de la firma de Perpetua aparece una línea escrita con otra letra, más apretada y nerviosa: <span class="book-clipping">«Lo siento. No nos diste otra opción. L. E.»</span> Los bordes del papel conservan además un tenue rastro de escarcha, justo donde el anillo debió de rozarlo.</span>',
-          "critico": '<span>Si se lanza sobre la carta del 2 de enero de 1929, debajo de la firma de Perpetua aparece una línea escrita con otra letra, más apretada y nerviosa: <span class="book-clipping">«Lo siento. No nos diste otra opción. L. E.»</span> La tinta es de la misma época que la carta: quien la escribió preparó el envío del anillo. Si se lanza sobre la pizarra o los planos de la habitación secreta, aparecen pequeñas marcas a lápiz de Thalia que solo ella podía leer: fechas, iniciales y una sola palabra repetida, «Covey».</span>',
+          "moderado": '<span>Si se lanza sobre la carta del 2 de enero de 1939, justo debajo de la firma de Perpetua se dibujan unos trazos tenues, con una letra distinta. Se borran antes de que puedan leerse.</span>',
+          "exitoso": '<span>Si se lanza sobre la carta del 2 de enero de 1939, debajo de la firma de Perpetua aparece una línea escrita con otra letra, más apretada y nerviosa: <span class="book-clipping">«Lo siento. No nos diste otra opción. L. E.»</span> Los bordes del papel conservan además un tenue rastro de escarcha, justo donde el anillo debió de rozarlo.</span>',
+          "critico": '<span>Si se lanza sobre la carta del 2 de enero de 1939, debajo de la firma de Perpetua aparece una línea escrita con otra letra, más apretada y nerviosa: <span class="book-clipping">«Lo siento. No nos diste otra opción. L. E.»</span> La tinta es de la misma época que la carta: quien la escribió preparó el envío del anillo. Si se lanza sobre la pizarra o los planos de la habitación secreta, aparecen pequeñas marcas a lápiz de Thalia que solo ella podía leer: fechas, iniciales y una sola palabra repetida, «Covey».</span>',
         },
 
         "specialis revelio": {
