@@ -82119,6 +82119,7 @@ const DBModule = (function () {
                 14
             ],
             "title": [
+                "mission",
                 "actions"
             ],
             "key": [
@@ -82133,10 +82134,11 @@ const DBModule = (function () {
                 "",
                 "encantamiento, defensivo"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">8</span><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #2 \"expecto patronum\" (14)</strong><span>El escudo toma la forma del guardián y ahuyenta a los Dementores y Lethifolds. Elimina un PNJ que sea Dementor o Lethifold.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"activar traslador\" (8)</strong><span><span>Al activar el traslador, el mismo tiembla por un momento hasta que los traslada al Hall de Azkaban. El Hall, al igual que toda la prisión es un espacio húmedo y frío. Sus paredes y pisos de hierro hacen que cada paso o voz resuene con un eco capaz de causar escalofríos.</span></span></span><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #2 \"expecto patronum\" (14)</strong><span>El escudo toma la forma del guardián y ahuyenta a los Dementores y Lethifolds. Elimina un PNJ que sea Dementor o Lethifold.<br /><br /><span>El hechizo adiciona 3 turnos adicionales antes del ataque de los dementores.</span></span></span></div></div></div>",
             "url": "r15314",
             "simpleTitle": "Misión: the mercy of death",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Gavril A. Ollivander",
@@ -82155,10 +82157,11 @@ const DBModule = (function () {
             "type": [
                 "encantamiento, defensivo"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Gavril A. Ollivander ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #1 \"expecto patronum\" (14)</strong><span>El escudo toma la forma del guardián y ahuyenta a los Dementores y Lethifolds. Elimina un PNJ que sea Dementor o Lethifold.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Gavril A. Ollivander ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #1 \"expecto patronum\" (14)</strong><span>El escudo toma la forma del guardián y ahuyenta a los Dementores y Lethifolds. Elimina un PNJ que sea Dementor o Lethifold.<br /><br /><span>El hechizo adiciona 3 turnos adicionales antes del ataque de los dementores.</span></span></span></div></div></div>",
             "url": "r15335",
             "simpleTitle": "Misión: the mercy of death",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Alastor Moody",
@@ -82167,7 +82170,8 @@ const DBModule = (function () {
                 20
             ],
             "title": [
-                "actions"
+                "actions",
+                "mission"
             ],
             "key": [
                 "expecto patronum",
@@ -82181,10 +82185,11 @@ const DBModule = (function () {
                 "encantamiento, defensivo",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #1 \"expecto patronum\" (14)</strong><span>El escudo toma la forma del guardián y ahuyenta a los Dementores y Lethifolds. Elimina un PNJ que sea Dementor o Lethifold.</span></span><span class=\"roll-result\">20</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #1 \"expecto patronum\" (14)</strong><span>El escudo toma la forma del guardián y ahuyenta a los Dementores y Lethifolds. Elimina un PNJ que sea Dementor o Lethifold.<br /><br /><span>El hechizo adiciona 3 turnos adicionales antes del ataque de los dementores.</span></span></span><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #2 \"primera instrucción\" (20)</strong><span><span>Se deberá ignorar la primera escalera y caminar hasta el final del corredor que tienen frente a ellos.</span></span></span></div></div></div>",
             "url": "r15339",
             "simpleTitle": "Misión: the mercy of death",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Cuthbert S. Selwyn",
@@ -82193,6 +82198,7 @@ const DBModule = (function () {
                 10
             ],
             "title": [
+                "mission",
                 "actions"
             ],
             "key": [
@@ -82207,10 +82213,11 @@ const DBModule = (function () {
                 "",
                 "encantamiento, defensivo"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cuthbert S. Selwyn ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">7</span><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #2 \"expecto patronum\" (10)</strong><span>No sucede nada, capaz este hechizo no es para ti.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cuthbert S. Selwyn ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"caminar hasta el final del pasillo\" (7)</strong><span><span>Al caminar hasta el final del pasillo, se encuentran con otra escalera.</span></span></span><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #2 \"expecto patronum\" (10)</strong><span><span>El hechizo no es suficiente para agregar turnos adicionales.</span></span></span></div></div></div>",
             "url": "r15356",
             "simpleTitle": "Misión: the mercy of death",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Elysia G. Lestrange",
@@ -82219,6 +82226,7 @@ const DBModule = (function () {
                 13
             ],
             "title": [
+                "mission",
                 "actions"
             ],
             "key": [
@@ -82233,10 +82241,11 @@ const DBModule = (function () {
                 "",
                 "encantamiento, defensivo"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Elysia G. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">15</span><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #2 \"expecto patronum\" (13)</strong><span>El escudo toma la forma del guardián que protege al conjurador de cualquier ataque. Por el resto del tema, el conjurador no recibirá daño de Dementores y Lethifolds.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Elysia G. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"subir las escaleras del lado b\" (15)</strong><span><span>Al subir las escaleras se encuentran con una fila de celdas vacías. Sin embargo, al mirar por la pequeña rendija, pueden darse cuenta que han subido más pisos, porque el agua de nota muy debajo de donde se encuentran.</span></span></span><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #2 \"expecto patronum\" (13)</strong><span>El escudo toma la forma del guardián que protege al conjurador de cualquier ataque. Por el resto del tema, el conjurador no recibirá daño de Dementores y Lethifolds.<br /><br /><span>El hechizo adiciona 2 turnos adicionales antes del ataque de los dementores.</span></span></span></div></div></div>",
             "url": "r15370",
             "simpleTitle": "Misión: the mercy of death",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Jasper R. Gryffith",
@@ -82245,6 +82254,7 @@ const DBModule = (function () {
                 12
             ],
             "title": [
+                "mission",
                 "actions"
             ],
             "key": [
@@ -82259,10 +82269,11 @@ const DBModule = (function () {
                 "",
                 "encantamiento, defensivo"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jasper R. Gryffith ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">4</span><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #2 \"expecto patronum\" (12)</strong><span>El escudo toma la forma del guardián que protege al conjurador de cualquier ataque. Por el resto del tema, el conjurador no recibirá daño de Dementores y Lethifolds.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jasper R. Gryffith ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"regresar al corredor\" (4)</strong><span><span>Permite regresar al Hall donde podrán irse si lo desean</span></span></span><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #2 \"expecto patronum\" (12)</strong><span>El escudo toma la forma del guardián que protege al conjurador de cualquier ataque. Por el resto del tema, el conjurador no recibirá daño de Dementores y Lethifolds.<br /><br /><span>El hechizo adiciona 2 turnos adicionales antes del ataque de los dementores.</span></span></span></div></div></div>",
             "url": "r15406",
             "simpleTitle": "Misión: the mercy of death",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "H. Shun Parkinson",
@@ -82271,7 +82282,8 @@ const DBModule = (function () {
                 16
             ],
             "title": [
-                "actions"
+                "actions",
+                "mission"
             ],
             "key": [
                 "expecto patronum",
@@ -82285,10 +82297,11 @@ const DBModule = (function () {
                 "encantamiento, defensivo",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #1 \"expecto patronum\" (2)</strong><span>El escudo toma la forma del guardián y ahuyenta a los Dementores y Lethifolds. Elimina un PNJ que sea Dementor o Lethifold.</span></span><span class=\"roll-result\">16</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #1 \"expecto patronum\" (2)</strong><span>El escudo toma la forma del guardián y ahuyenta a los Dementores y Lethifolds. Elimina un PNJ que sea Dementor o Lethifold.<br /><br /><span>El hechizo adiciona 3 turnos adicionales antes del ataque de los dementores.</span></span></span><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #2 \"segunda instrucción\" (16)</strong><span><span>Las instrucciones indican que deben subir dos pisos más.</span></span></span></div></div></div>",
             "url": "r15549",
             "simpleTitle": "Misión: the mercy of death",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Gavril A. Ollivander",
@@ -82297,7 +82310,8 @@ const DBModule = (function () {
                 15
             ],
             "title": [
-                "actions"
+                "actions",
+                "mission"
             ],
             "key": [
                 "expecto patronum",
@@ -82311,10 +82325,11 @@ const DBModule = (function () {
                 "encantamiento, defensivo",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Gavril A. Ollivander ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #1 \"expecto patronum\" (18)</strong><span>El escudo toma la forma del guardián y ahuyenta a los Dementores y Lethifolds. Elimina un PNJ que sea Dementor o Lethifold.</span></span><span class=\"roll-result\">15</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Gavril A. Ollivander ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #1 \"expecto patronum\" (18)</strong><span>El escudo toma la forma del guardián y ahuyenta a los Dementores y Lethifolds. Elimina un PNJ que sea Dementor o Lethifold.<br /><br /><span>El hechizo adiciona 3 turnos adicionales antes del ataque de los dementores.</span></span></span><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #2 \"subir las escaleras del lado b\" (15)</strong><span><span>Al subir las escaleras se encuentran con una fila de celdas vacías. Sin embargo, al mirar por la pequeña rendija, pueden darse cuenta que han subido más pisos, porque el agua de nota muy debajo de donde se encuentran.</span></span></span></div></div></div>",
             "url": "r15566",
             "simpleTitle": "Misión: the mercy of death",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Alastor Moody",
@@ -82323,7 +82338,8 @@ const DBModule = (function () {
                 16
             ],
             "title": [
-                "actions"
+                "actions",
+                "mission"
             ],
             "key": [
                 "patronus ductor",
@@ -82337,10 +82353,11 @@ const DBModule = (function () {
                 "encantamiento, neutral",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #1 \"patronus ductor\" (3)</strong><span>No sucede nada, capaz este hechizo no es para ti.</span></span><span class=\"roll-result\">16</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #1 \"patronus ductor\" (3)</strong><span><span>El hechizo no es suficiente para agregar turnos adicionales.</span></span></span><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #2 \"subir al segundo piso\" (16)</strong><span><span>El segundo corredor los recibe con el aroma a mar y humedad. Se encuentra vacío, como una planta que no se utiliza. Los dementores se mueven alejados por los patronus. Sin embargo, descuentan 2 turnos del contador si el numero del dado lanzado en la tarjeta es par; descuenta 4 turnos si es impar.</span></span></span></div></div></div>",
             "url": "r15621",
             "simpleTitle": "Misión: the mercy of death",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Cuthbert S. Selwyn",
@@ -82349,6 +82366,7 @@ const DBModule = (function () {
                 12
             ],
             "title": [
+                "mission",
                 "actions"
             ],
             "key": [
@@ -82363,10 +82381,11 @@ const DBModule = (function () {
                 "",
                 "encantamiento, defensivo"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cuthbert S. Selwyn ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">1</span><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #2 \"expecto patronum\" (12)</strong><span>No sucede nada, capaz este hechizo no es para ti.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cuthbert S. Selwyn ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"subir al tercer piso\" (1)</strong><span><span>El tercer piso, igual de frío que los anteriores, está iluminado por una luz tenue que se filtra a través de las ventanas. Los presos en las celdas observan a las personas confundidos en un principio, sin entender si terminan de ser una ilusión. Los dementores se mueven alejados por los patronus. Sin embargo, descuentan 5 turnos del contador si el numero del dado lanzado en la tarjeta es par; descuenta 3 turnos si es impar.</span></span></span><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #2 \"expecto patronum\" (12)</strong><span><span>El hechizo no es suficiente para agregar turnos adicionales.</span></span></span></div></div></div>",
             "url": "r15776",
             "simpleTitle": "Misión: the mercy of death",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Elysia G. Lestrange",
@@ -82375,6 +82394,7 @@ const DBModule = (function () {
                 7
             ],
             "title": [
+                "mission",
                 "actions"
             ],
             "key": [
@@ -82389,10 +82409,11 @@ const DBModule = (function () {
                 "",
                 "encantamiento, defensivo"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Elysia G. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">4</span><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #2 \"expecto patronum\" (7)</strong><span>Se crea un escudo ovalado protegiendo a su dueño y que se mantiene en el tiempo. Adiciona +2 en defensa contra ataques de Dementores y Lethifolds durante tres turnos.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Elysia G. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"revisar celdas\" (4)</strong><span><span>Los presos se dividen entre quienes los miran y quienes les imploran ayuda. «Por favor, ya aprendí» susurran algunos pidiendo ayuda. Los dementores se mueven alejados por los patronus. Sin embargo, descuentan 1 turno del contador si el numero del dado lanzado en la tarjeta es par; descuenta 3 turnos si es impar.</span></span></span><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #2 \"expecto patronum\" (7)</strong><span>Se crea un escudo ovalado protegiendo a su dueño y que se mantiene en el tiempo. Adiciona +2 en defensa contra ataques de Dementores y Lethifolds durante tres turnos.<br /><br /><span>El hechizo adiciona 1 turno adicional antes del ataque de los dementores.</span></span></span></div></div></div>",
             "url": "r15793",
             "simpleTitle": "Misión: the mercy of death",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Jasper R. Gryffith",
@@ -82401,6 +82422,7 @@ const DBModule = (function () {
                 14
             ],
             "title": [
+                "mission",
                 "actions"
             ],
             "key": [
@@ -82415,10 +82437,11 @@ const DBModule = (function () {
                 "",
                 "encantamiento, defensivo"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jasper R. Gryffith ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">9</span><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #2 \"expecto patronum\" (14)</strong><span>El escudo toma la forma del guardián que protege al conjurador de cualquier ataque. Por el resto del tema, el conjurador no recibirá daño de Dementores y Lethifolds.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jasper R. Gryffith ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"tomar el corredor entre las celdas\" (9)</strong><span><span>El corredor, si bien esta vacío, ofrece una visión lateral de todos los presos del lugar. Las celdas vacías, frías y húmedas que no parecen ofrecer descanso alguno.</span></span></span><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #2 \"expecto patronum\" (14)</strong><span>El escudo toma la forma del guardián que protege al conjurador de cualquier ataque. Por el resto del tema, el conjurador no recibirá daño de Dementores y Lethifolds.<br /><br /><span>El hechizo adiciona 2 turnos adicionales antes del ataque de los dementores.</span></span></span></div></div></div>",
             "url": "r15886",
             "simpleTitle": "Misión: the mercy of death",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "H. Shun Parkinson",
@@ -82427,7 +82450,8 @@ const DBModule = (function () {
                 14
             ],
             "title": [
-                "actions"
+                "actions",
+                "mission"
             ],
             "key": [
                 "patronus ductor",
@@ -82441,10 +82465,11 @@ const DBModule = (function () {
                 "encantamiento, neutral",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #1 \"patronus ductor\" (13)</strong><span>No sucede nada, capaz este hechizo no es para ti.</span></span><span class=\"roll-result\">14</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #1 \"patronus ductor\" (13)</strong><span><span>El hechizo no es suficiente para agregar turnos adicionales.</span></span></span><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #2 \"instrucción tercer piso\" (14)</strong><span><span>Deben tomar el corredor entre las celdas y subir un piso adicional.</span></span></span></div></div></div>",
             "url": "r16056",
             "simpleTitle": "Misión: the mercy of death",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Gavril A. Ollivander",
@@ -82453,6 +82478,7 @@ const DBModule = (function () {
                 19
             ],
             "title": [
+                "mission",
                 "actions"
             ],
             "key": [
@@ -82467,10 +82493,11 @@ const DBModule = (function () {
                 "",
                 "encantamiento, defensivo"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Gavril A. Ollivander ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">5</span><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #2 \"expecto patronum\" (19)</strong><span>El escudo toma la forma del guardián y ahuyenta a los Dementores y Lethifolds. Elimina un PNJ que sea Dementor o Lethifold.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Gavril A. Ollivander ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"llegar a la escalera del fondo\" (5)</strong><span><span>El corredor los regresa a un pequeño espacio, donde se puede ver una escalera mucho más pequeña que las anteriores. Los dementores se mueven alejados por los patronus. Sin embargo, descuentan 7 turnos del contador si el numero del dado lanzado en la tarjeta es par; descuenta 5 turnos si es impar.</span></span></span><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #2 \"expecto patronum\" (19)</strong><span>El escudo toma la forma del guardián y ahuyenta a los Dementores y Lethifolds. Elimina un PNJ que sea Dementor o Lethifold.<br /><br /><span>El hechizo adiciona 3 turnos adicionales antes del ataque de los dementores.</span></span></span></div></div></div>",
             "url": "r16066",
             "simpleTitle": "Misión: the mercy of death",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Alastor Moody",
@@ -82479,7 +82506,8 @@ const DBModule = (function () {
                 14
             ],
             "title": [
-                "actions"
+                "actions",
+                "mission"
             ],
             "key": [
                 "expecto patronum",
@@ -82493,10 +82521,11 @@ const DBModule = (function () {
                 "encantamiento, defensivo",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #1 \"expecto patronum\" (13)</strong><span>El escudo toma la forma del guardián y ahuyenta a los Dementores y Lethifolds. Elimina un PNJ que sea Dementor o Lethifold.</span></span><span class=\"roll-result\">14</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #1 \"expecto patronum\" (13)</strong><span>El escudo toma la forma del guardián y ahuyenta a los Dementores y Lethifolds. Elimina un PNJ que sea Dementor o Lethifold.<br /><br /><span>El hechizo adiciona 3 turnos adicionales antes del ataque de los dementores.</span></span></span><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #2 \"subir la escalera del fondo\" (14)</strong><span><span>Al subir por las escaleras, deberán tener cuidado de no resbalarse por ellas, logran llegar a un espacio de pocas celdas, donde puede verse un cartel escrito en runas.Los dementores se mueven alejados por los patronus. Sin embargo, descuentan 2 turnos del contador si el numero del dado lanzado en la tarjeta es par; descuenta 4 turnos si es impar.</span></span></span></div></div></div>",
             "url": "r16089",
             "simpleTitle": "Misión: the mercy of death",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Cuthbert S. Selwyn",
@@ -82505,7 +82534,8 @@ const DBModule = (function () {
                 2
             ],
             "title": [
-                "actions"
+                "actions",
+                "mission"
             ],
             "key": [
                 "expecto patronum",
@@ -82519,10 +82549,11 @@ const DBModule = (function () {
                 "encantamiento, defensivo",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cuthbert S. Selwyn ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #1 \"expecto patronum\" (19)</strong><span>No sucede nada, capaz este hechizo no es para ti.</span></span><span class=\"roll-result\">2</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cuthbert S. Selwyn ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #1 \"expecto patronum\" (19)</strong><span><span>El hechizo no es suficiente para agregar turnos adicionales.</span></span></span><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #2 \"cuatro instrucción\" (2)</strong><span><span>Al llegar al espacio donde se encuentran los nigromantes, deberán buscar la tercera y cuarta celda.</span></span></span></div></div></div>",
             "url": "r16126",
             "simpleTitle": "Misión: the mercy of death",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Elysia G. Lestrange",
@@ -82531,6 +82562,7 @@ const DBModule = (function () {
                 18
             ],
             "title": [
+                "mission",
                 "actions"
             ],
             "key": [
@@ -82545,10 +82577,11 @@ const DBModule = (function () {
                 "",
                 "encantamiento, defensivo"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Elysia G. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">4</span><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #2 \"expecto patronum\" (18)</strong><span>El escudo toma la forma del guardián que protege al conjurador de cualquier ataque. Por el resto del tema, el conjurador no recibirá daño de Dementores y Lethifolds.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Elysia G. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"llegar a la tercera y cuarta celda\" (4)</strong><span><span>Inicia el interrogatorio. Deberán pedir la intervención administrativa para el mismo.</span></span></span><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #2 \"expecto patronum\" (18)</strong><span>El escudo toma la forma del guardián que protege al conjurador de cualquier ataque. Por el resto del tema, el conjurador no recibirá daño de Dementores y Lethifolds.<br /><br /><span>El hechizo adiciona 2 turnos adicionales antes del ataque de los dementores.</span></span></span></div></div></div>",
             "url": "r16130",
             "simpleTitle": "Misión: the mercy of death",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Jasper R. Gryffith",
@@ -82557,6 +82590,7 @@ const DBModule = (function () {
                 5
             ],
             "title": [
+                "mission",
                 "actions"
             ],
             "key": [
@@ -82571,10 +82605,11 @@ const DBModule = (function () {
                 "",
                 "encantamiento, defensivo"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jasper R. Gryffith ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">15</span><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #2 \"expecto patronum\" (5)</strong><span>Se crea un escudo ovalado protegiendo a su dueño y que se mantiene en el tiempo. Adiciona +2 en defensa contra ataques de Dementores y Lethifolds durante tres turnos.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jasper R. Gryffith ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"descripción de yusuf lochlan\" (15)</strong><span><span>De Yusuf Lochlan apenas quedaba un eco material. La imponente figura que alguna vez intimidó con su sola presencia había sido devorada por el implacable frío de Azkaban, dejándolo reducido a un espectro de carne marchita tras un oscuro año de encierro. La brutal ausencia de uno de sus brazos se presentaba como el testimonio silencioso de los horrores inconfesables que aguardan en esa fortaleza. Sin embargo, lo más perturbador en aquel despojo humano no era su fragilidad física. Cuando sus labios agrietados se curvaban en una sonrisa ladeada y afilada, revelaban una verdad inquietante: la prisión le había arrebatado la fuerza, la libertad y hasta una extremidad, pero su sentido del humor seguía intacto. Aquella ironía, retorcida e inquebrantable, resistía en él como un arma secreta que los carceleros jamás lograron quebrar.</span></span></span><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #2 \"expecto patronum\" (5)</strong><span>Se crea un escudo ovalado protegiendo a su dueño y que se mantiene en el tiempo. Adiciona +2 en defensa contra ataques de Dementores y Lethifolds durante tres turnos.<br /><br /><span>El hechizo adiciona 1 turno adicional antes del ataque de los dementores.</span></span></span></div></div></div>",
             "url": "r16190",
             "simpleTitle": "Misión: the mercy of death",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "H. Shun Parkinson",
@@ -82583,7 +82618,8 @@ const DBModule = (function () {
                 19
             ],
             "title": [
-                "actions"
+                "actions",
+                "mission"
             ],
             "key": [
                 "expecto patronum",
@@ -82597,10 +82633,11 @@ const DBModule = (function () {
                 "encantamiento, defensivo",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #1 \"expecto patronum\" (10)</strong><span>El escudo toma la forma del guardián y ahuyenta a los Dementores y Lethifolds. Elimina un PNJ que sea Dementor o Lethifold.</span></span><span class=\"roll-result\">19</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #1 \"expecto patronum\" (10)</strong><span>El escudo toma la forma del guardián y ahuyenta a los Dementores y Lethifolds. Elimina un PNJ que sea Dementor o Lethifold.<br /><br /><span>El hechizo adiciona 3 turnos adicionales antes del ataque de los dementores.</span></span></span><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #2 \"detalles de yusuf lochlan\" (19)</strong><span><span>Una mirada atenta a la túnica raída de Yusuf revela un detalle discordante en la anatomía de su tragedia. La cicatriz que sella el muñón de su hombro no es una herida reciente, ni la obra de los horrores que acechan en el penal. Es una marca pálida, curtida por el tiempo y completamente fusionada con el tejido, un testimonio silencioso que narra una historia distinta.<br><br>La textura de esa piel endurecida revela una verdad irrefutable: la mutilación ocurrió hace bastante más de un año. Azkaban no fue el filo que le arrebató el brazo; Yusuf cruzó los umbrales de la fortaleza estando ya incompleto. Esa vieja amputación sugiere que los fantasmas de su pasado, aquellos que lo acechaban en la penumbra antes de perder su libertad, cobraron su peaje en sangre mucho antes de que la justicia lo alcanzara.</span></span></span></div></div></div>",
             "url": "r16202",
             "simpleTitle": "Misión: the mercy of death",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Gavril A. Ollivander",
@@ -82609,7 +82646,8 @@ const DBModule = (function () {
                 6
             ],
             "title": [
-                "actions"
+                "actions",
+                "mission"
             ],
             "key": [
                 "expecto patronum",
@@ -82623,10 +82661,11 @@ const DBModule = (function () {
                 "encantamiento, defensivo",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Gavril A. Ollivander ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #1 \"expecto patronum\" (16)</strong><span>El escudo toma la forma del guardián y ahuyenta a los Dementores y Lethifolds. Elimina un PNJ que sea Dementor o Lethifold.</span></span><span class=\"roll-result\">6</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Gavril A. Ollivander ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #1 \"expecto patronum\" (16)</strong><span>El escudo toma la forma del guardián y ahuyenta a los Dementores y Lethifolds. Elimina un PNJ que sea Dementor o Lethifold.<br /><br /><span>El hechizo adiciona 3 turnos adicionales antes del ataque de los dementores.</span></span></span><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #2 \"descripción de vinnie grayson\" (6)</strong><span><span>Vinnie Grayson se alzaba como una sombra estirada en la penumbra, un hombre alto y de una delgadez cadavérica que parecía ocultar secretos inconfesables bajo su gélida postura. Su rostro era un mapa de violencia pasada, marcado por una larga cicatriz que le atravesaba la nariz, innegablemente fracturada tiempo atrás por un impacto brutal y nunca sanada del todo.<br><br>A diferencia del inquietante buen humor del otro nigromante, Grayson era un pozo de mutismo insondable. Mantenía los labios rígidamente sellados, carentes de cualquier atisbo de sonrisa. En su mirada calculadora latía una certeza perturbadora: daba la escalofriante sensación de ser alguien que no necesitaba hablar, simplemente porque ya guardaba en su mente las respuestas oscuras que los demás ni siquiera se atrevían a formular.</span></span></span></div></div></div>",
             "url": "r16274",
             "simpleTitle": "Misión: the mercy of death",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Alastor Moody",
@@ -82635,7 +82674,8 @@ const DBModule = (function () {
                 5
             ],
             "title": [
-                "actions"
+                "actions",
+                "mission"
             ],
             "key": [
                 "expecto patronum",
@@ -82649,10 +82689,11 @@ const DBModule = (function () {
                 "encantamiento, defensivo",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #1 \"expecto patronum\" (5)</strong><span>El escudo toma la forma del guardián y ahuyenta a los Dementores y Lethifolds. Elimina un PNJ que sea Dementor o Lethifold.</span></span><span class=\"roll-result\">5</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #1 \"expecto patronum\" (5)</strong><span>El escudo toma la forma del guardián y ahuyenta a los Dementores y Lethifolds. Elimina un PNJ que sea Dementor o Lethifold.<br /><br /><span>El hechizo adiciona 3 turnos adicionales antes del ataque de los dementores.</span></span></span><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #2 \"detalles de vinnie grayson\" (5)</strong><span><span>Al reconocer a uno de los aurores, un destello de desprecio cruzó los ojos de Vinnie. En un acto de insolencia muda, abrió los labios rígidamente sellados y expuso su lengua. Lo que pretendía ser una burla reveló una verdad macabra: la carne estaba brutalmente cercenada, faltándole un fragmento considerable.<br><br>Sin embargo, no se trataba de una simple amputación física. Un rastro miasmático de magia negra, antiguo y denso, aún palpitaba alrededor del tejido mutilado. Para un ojo entrenado, la firma de esa maldición era inconfundible y escalofriante. Aquel daño no buscaba únicamente infligir dolor, sino imponer una mordaza irrevocable. A Vinnie Grayson no le habían cortado la lengua en una simple riña en los bajos fondos; alguien, mediante un ritual oscuro, le había arrancado deliberadamente la capacidad de hablar para sepultar sus secretos en el silencio absoluto.</span></span></span></div></div></div>",
             "url": "r16295",
             "simpleTitle": "Misión: the mercy of death",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Cuthbert S. Selwyn",
@@ -82675,10 +82716,11 @@ const DBModule = (function () {
                 "encantamiento, defensivo",
                 "encantamiento, defensivo"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cuthbert S. Selwyn ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #1 \"expecto patronum\" (8)</strong><span>No sucede nada, capaz este hechizo no es para ti.</span></span><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #2 \"expecto patronum\" (7)</strong><span>No sucede nada, capaz este hechizo no es para ti.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cuthbert S. Selwyn ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #1 \"expecto patronum\" (8)</strong><span><span>El hechizo no es suficiente para agregar turnos adicionales.</span></span></span><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #2 \"expecto patronum\" (7)</strong><span><span>El hechizo no es suficiente para agregar turnos adicionales.</span></span></span></div></div></div>",
             "url": "r16326",
             "simpleTitle": "Misión: the mercy of death",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Elysia G. Lestrange",
@@ -82687,6 +82729,7 @@ const DBModule = (function () {
                 12
             ],
             "title": [
+                "mission",
                 "actions"
             ],
             "key": [
@@ -82701,10 +82744,11 @@ const DBModule = (function () {
                 "",
                 "encantamiento, defensivo"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Elysia G. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">8</span><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #2 \"expecto patronum\" (12)</strong><span>El escudo toma la forma del guardián que protege al conjurador de cualquier ataque. Por el resto del tema, el conjurador no recibirá daño de Dementores y Lethifolds.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Elysia G. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"el ritual entre las manos\" (8)</strong><span><span>Oculto tras la humedad perenne de la pared, en un hueco que a nadie parece importarle, revela una pequeña oquedad oscura. En su interior reposan varias piezas sueltas, dispuestas con una escalofriante simetría. Allí yace el fragmento carnoso y desecado de la lengua de Vinnie, antinaturalmente conservado. A su lado, acompañando el macabro hallazgo, descansan objetos igualmente perturbadores: un diente astillado envuelto en hilo negro, una moneda de plata oxidada por la sangre y un puñado de ceniza de hueso pálido. Evidentemente, no se trata de un simple escondite para contrabando carcelario, sino de un altar clandestino. El ritual, no obstante, no parece destilar maldad.</span></span></span><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #2 \"expecto patronum\" (12)</strong><span>El escudo toma la forma del guardián que protege al conjurador de cualquier ataque. Por el resto del tema, el conjurador no recibirá daño de Dementores y Lethifolds.<br /><br /><span>El hechizo adiciona 2 turnos adicionales antes del ataque de los dementores.</span></span></span></div></div></div>",
             "url": "r16332",
             "simpleTitle": "Misión: the mercy of death",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Jasper R. Gryffith",
@@ -82713,6 +82757,7 @@ const DBModule = (function () {
                 15
             ],
             "title": [
+                "mission",
                 "actions"
             ],
             "key": [
@@ -82727,10 +82772,11 @@ const DBModule = (function () {
                 "",
                 "encantamiento, defensivo"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jasper R. Gryffith ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">7</span><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #2 \"expecto patronum\" (15)</strong><span>El escudo toma la forma del guardián que protege al conjurador de cualquier ataque. Por el resto del tema, el conjurador no recibirá daño de Dementores y Lethifolds.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jasper R. Gryffith ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"la naturaleza del ritual\" (7)</strong><span><span>Para aquellos eruditos versados en las artes más herméticas, el significado de este grotesco relicario es inconfundible. Se trata de un antiguo ritual practicado por nigromantes acorralados para garantizarse un adiós seguro de este mundo. Este rito, estrictamente reservado para los verdaderos creyentes, es una súplica silenciosa. Al ofrendar pedazos de sí mismos y símbolos de su magia, piden disculpas a las fuerzas del más allá. Buscan ser perdonados por las almas que alguna vez profanaron, asegurando que, cuando llegue su hora, su propio espíritu no sea devorado y logre viajar intacto hacia el otro lado del velo. Lo único que les falta es oro y fuego para finalizar el mismo.</span></span></span><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #2 \"expecto patronum\" (15)</strong><span>El escudo toma la forma del guardián que protege al conjurador de cualquier ataque. Por el resto del tema, el conjurador no recibirá daño de Dementores y Lethifolds.<br /><br /><span>El hechizo adiciona 2 turnos adicionales antes del ataque de los dementores.</span></span></span></div></div></div>",
             "url": "r16370",
             "simpleTitle": "Misión: the mercy of death",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "H. Shun Parkinson",
@@ -82753,10 +82799,11 @@ const DBModule = (function () {
                 "encantamiento, defensivo",
                 "encantamiento, defensivo"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #1 \"expecto patronum\" (11)</strong><span>El escudo toma la forma del guardián y ahuyenta a los Dementores y Lethifolds. Elimina un PNJ que sea Dementor o Lethifold.</span></span><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #2 \"expecto patronum\" (17)</strong><span>El escudo toma la forma del guardián y ahuyenta a los Dementores y Lethifolds. Elimina un PNJ que sea Dementor o Lethifold.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #1 \"expecto patronum\" (11)</strong><span>El escudo toma la forma del guardián y ahuyenta a los Dementores y Lethifolds. Elimina un PNJ que sea Dementor o Lethifold.<br /><br /><span>El hechizo adiciona 3 turnos adicionales antes del ataque de los dementores.</span></span></span><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #2 \"expecto patronum\" (17)</strong><span>El escudo toma la forma del guardián y ahuyenta a los Dementores y Lethifolds. Elimina un PNJ que sea Dementor o Lethifold.<br /><br /><span>El hechizo adiciona 3 turnos adicionales antes del ataque de los dementores.</span></span></span></div></div></div>",
             "url": "r16380",
             "simpleTitle": "Misión: the mercy of death",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Gavril A. Ollivander",
@@ -82765,7 +82812,8 @@ const DBModule = (function () {
                 7
             ],
             "title": [
-                "actions"
+                "actions",
+                "mission"
             ],
             "key": [
                 "expecto patronum",
@@ -82779,10 +82827,11 @@ const DBModule = (function () {
                 "encantamiento, defensivo",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Gavril A. Ollivander ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #1 \"expecto patronum\" (18)</strong><span>El escudo toma la forma del guardián y ahuyenta a los Dementores y Lethifolds. Elimina un PNJ que sea Dementor o Lethifold.</span></span><span class=\"roll-result\">7</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Gavril A. Ollivander ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #1 \"expecto patronum\" (18)</strong><span>El escudo toma la forma del guardián y ahuyenta a los Dementores y Lethifolds. Elimina un PNJ que sea Dementor o Lethifold.<br /><br /><span>El hechizo adiciona 3 turnos adicionales antes del ataque de los dementores.</span></span></span><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #2 \"el pago por hablar\" (7)</strong><span><span>Rompiendo el tenso silencio de la galería, Yusuf fue el primero en reaccionar. Sus labios agrietados se estiraron en una sonrisa macabra, revelando una hilera de dientes ennegrecidos por la podredumbre y el abandono. Con una lentitud casi predatoria, se inclinó hacia adelante hasta que su rostro demacrado rozó los fríos barrotes de hierro oxidado. Las sombras de la celda parecían aferrarse a él mientras bajaba la voz a un susurro rasposo, cargado de una anticipación perturbadora.<br><br>—Y, algún día, iban a venir a hacer preguntas —murmuró, con un brillo febril y calculador en sus ojos hundidos—. Un galeón de oro... y les cuento todo.<br><br>Su oferta flotó en el aire viciado del corredor. No era la súplica de un prisionero desesperado, sino el chantaje sutil de un hombre que, incluso desde el abismo, sabe que posee la moneda de cambio más peligrosa: la verdad.</span></span></span></div></div></div>",
             "url": "r16569",
             "simpleTitle": "Misión: the mercy of death",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Alastor Moody",
@@ -82791,7 +82840,8 @@ const DBModule = (function () {
                 1
             ],
             "title": [
-                "actions"
+                "actions",
+                "mission"
             ],
             "key": [
                 "patronus nuntius",
@@ -82805,10 +82855,11 @@ const DBModule = (function () {
                 "encantamiento, neutral",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #1 \"patronus nuntius\" (19)</strong><span>El Patronus no solo entrega el mensaje, sino que también puede proyectar una imagen del remitente.</span></span><span class=\"roll-result\">1</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #1 \"patronus nuntius\" (19)</strong><span>El Patronus no solo entrega el mensaje, sino que también puede proyectar una imagen del remitente.<br /><br /><span>El hechizo adiciona 4 turnos adicionales antes del ataque de los dementores.</span></span></span><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #2 \"preguntar sobre las wraithwood\" (1)</strong><span><span>Al pronunciar el apellido Wraithwood, la atmósfera en la celda pareció enfriarse de golpe. Los dos nigromantes intercambiaron una mirada lenta, cargada de una complicidad sombría y macabra. Yusuf rompió la tensión con una carcajada áspera que arañó los muros de piedra.<br><br>—¿A esas mocosas? —escupió con absoluto desdén—. Creí que ya habíamos matado a una. Pero ya saben lo que dicen... hierba mala nunca muere.<br><br>Un destello de malicia iluminó su rostro demacrado antes de encogerse de hombros, saboreando genuinamente el caos ajeno.<br><br>—Si les están causando problemas a ustedes... en su problema ahora.<br><br>Su risa rasposa volvió a envenenar el aire. A su lado, Vinnie Grayson no emitió sonido alguno, pero acompañó la morbosa burla. Una sonrisa rígida estiró sus labios fuertemente sellados.</span></span></span></div></div></div>",
             "url": "r16591",
             "simpleTitle": "Misión: the mercy of death",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Cuthbert S. Selwyn",
@@ -82831,10 +82882,11 @@ const DBModule = (function () {
                 "encantamiento, defensivo",
                 "encantamiento, defensivo"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cuthbert S. Selwyn ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #1 \"expecto patronum\" (4)</strong><span>No sucede nada, capaz este hechizo no es para ti.</span></span><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #2 \"expecto patronum\" (8)</strong><span>No sucede nada, capaz este hechizo no es para ti.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cuthbert S. Selwyn ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #1 \"expecto patronum\" (4)</strong><span><span>El hechizo no es suficiente para agregar turnos adicionales.</span></span></span><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #2 \"expecto patronum\" (8)</strong><span><span>El hechizo no es suficiente para agregar turnos adicionales.</span></span></span></div></div></div>",
             "url": "r16703",
             "simpleTitle": "Misión: the mercy of death",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Elysia G. Lestrange",
@@ -82843,6 +82895,7 @@ const DBModule = (function () {
                 4
             ],
             "title": [
+                "mission",
                 "actions"
             ],
             "key": [
@@ -82857,10 +82910,11 @@ const DBModule = (function () {
                 "",
                 "encantamiento, defensivo"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Elysia G. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">4</span><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #2 \"expecto patronum\" (4)</strong><span>Se crea un escudo ovalado protegiendo a su dueño y que se mantiene en el tiempo. Adiciona +2 en defensa contra ataques de Dementores y Lethifolds durante tres turnos.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Elysia G. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"preguntar quién le cortó la lengua a vinnie grayson\" (4)</strong><span><span>Yusuf torció el gesto, una mueca donde la crueldad y el orgullo se entrelazaban como raíces podridas. No había rastro de remordimiento en sus ojos hundidos, solo la fría satisfacción de quien ha cumplido con un deber ineludible. Con una naturalidad que helaba la sangre, admitió ser el autor de la mutilación de su compañero.<br><br>—Yo lo hice —confesó, y su voz bajó a un susurro que parecía arrastrarse por el suelo de piedra—. No fue un arrebato de ira, ni una tortura gratuita. Fue una necesidad. Necesitábamos la lengua para el ritual; un sacrificio de carne propia para sellar el vínculo con el otro lado.<br><br>Explicó que, en su mundo, el silencio no se pide, se arranca. Al convertir la lengua de Vinnie en el núcleo de su altar clandestino, no solo le arrebataron la voz, sino que transformaron su capacidad de hablar en una ofrenda perpetua. Para Yusuf, el dolor de su amigo era un precio irrisorio comparado con la protección metafísica que ese fragmento de carne desecada les otorgaba frente a los horrores que ahora, en la soledad de su celda, eran los únicos que les hacían compañía.</span></span></span><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #2 \"expecto patronum\" (4)</strong><span>Se crea un escudo ovalado protegiendo a su dueño y que se mantiene en el tiempo. Adiciona +2 en defensa contra ataques de Dementores y Lethifolds durante tres turnos.<br /><br /><span>El hechizo adiciona 1 turno adicional antes del ataque de los dementores.</span></span></span></div></div></div>",
             "url": "r16827",
             "simpleTitle": "Misión: the mercy of death",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Jasper R. Gryffith",
@@ -82869,7 +82923,8 @@ const DBModule = (function () {
                 8
             ],
             "title": [
-                "actions"
+                "actions",
+                "mission"
             ],
             "key": [
                 "expecto patronum",
@@ -82883,10 +82938,11 @@ const DBModule = (function () {
                 "encantamiento, defensivo",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jasper R. Gryffith ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #1 \"expecto patronum\" (2)</strong><span>Se crea un escudo ovalado protegiendo a su dueño y que se mantiene en el tiempo. Adiciona +2 en defensa contra ataques de Dementores y Lethifolds durante tres turnos.</span></span><span class=\"roll-result\">8</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jasper R. Gryffith ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #1 \"expecto patronum\" (2)</strong><span>Se crea un escudo ovalado protegiendo a su dueño y que se mantiene en el tiempo. Adiciona +2 en defensa contra ataques de Dementores y Lethifolds durante tres turnos.<br /><br /><span>El hechizo adiciona 1 turno adicional antes del ataque de los dementores.</span></span></span><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #2 \"preguntar por qué matarían a las wraithwood\" (8)</strong><span><span>Yusuf alzó su único hombro en un gesto de tétrica y calculada indiferencia, haciendo rechinar la tela raída de su uniforme de presidiario contra las sombras de la celda.<br><br>—Nos suministraban botánica de la más alta pureza, mercancía oscura y muy difícil de rastrear —murmuró, recordando aquellos días con una nostalgia torcida y amarga—. Eran sumamente útiles, sí. Pero la curiosidad siempre termina siendo un veneno mucho más rápido que cualquier toxina.<br><br>Inclinó la cabeza, permitiendo que la penumbra le ocultara a medias el rostro demacrado.<br><br>—Comenzaron a escarbar donde no debían, a formular demasiadas preguntas que nadie les había pedido que hicieran —continuó, fijando en sus interlocutores un brillo letal e implacable en la mirada—. Y ya deberían saber cómo funcionan las reglas. Quien acumula demasiados secretos ajenos, siempre se ve mucho mejor adornando el fondo de un ataúd.</span></span></span></div></div></div>",
             "url": "r16882",
             "simpleTitle": "Misión: the mercy of death",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "H. Shun Parkinson",
@@ -82909,10 +82965,11 @@ const DBModule = (function () {
                 "habilidad, sin magia, neutral",
                 "encantamiento, defensivo"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"liderazgo\"><strong>Resultado  #1 \"fortitudo cordis\" (12)</strong><span>Adiciona <em>5</em> (El 100% de CAR) en acciones del conocimiento mencionado durante todo el tema.</span></span><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #2 \"expecto patronum\" (15)</strong><span>El escudo toma la forma del guardián y ahuyenta a los Dementores y Lethifolds. Elimina un PNJ que sea Dementor o Lethifold.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"liderazgo\"><strong>Resultado  #1 \"fortitudo cordis\" (12)</strong><span>Adiciona <em>5</em> (El 100% de CAR) en acciones del conocimiento mencionado durante todo el tema.<br /><br /><span>Adiciona +3 turnos a todos los hechizos de patronus hasta que el personaje vuelva a participar.</span></span></span><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #2 \"expecto patronum\" (15)</strong><span>El escudo toma la forma del guardián y ahuyenta a los Dementores y Lethifolds. Elimina un PNJ que sea Dementor o Lethifold.<br /><br /><span>El hechizo adiciona 3 turnos adicionales antes del ataque de los dementores.</span></span></span></div></div></div>",
             "url": "r16893",
             "simpleTitle": "Misión: the mercy of death",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Gavril A. Ollivander",
@@ -82935,10 +82992,11 @@ const DBModule = (function () {
                 "encantamiento, neutral",
                 "encantamiento, neutral"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Gavril A. Ollivander ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #1 \"patronus ductor\" (17)</strong><span>No sucede nada, capaz este hechizo no es para ti.</span></span><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #2 \"patronus ductor\" (12)</strong><span>No sucede nada, capaz este hechizo no es para ti.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Gavril A. Ollivander ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #1 \"patronus ductor\" (17)</strong><span><span>El hechizo no es suficiente para agregar turnos adicionales.</span></span></span><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #2 \"patronus ductor\" (12)</strong><span><span>El hechizo no es suficiente para agregar turnos adicionales.</span></span></span></div></div></div>",
             "url": "r16905",
             "simpleTitle": "Misión: the mercy of death",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Alastor Moody",
@@ -82947,7 +83005,8 @@ const DBModule = (function () {
                 5
             ],
             "title": [
-                "actions"
+                "actions",
+                "mission"
             ],
             "key": [
                 "patronus nuntius",
@@ -82961,10 +83020,11 @@ const DBModule = (function () {
                 "encantamiento, neutral",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #1 \"patronus nuntius\" (8)</strong><span>El Patronus entrega el mensaje de forma clara y precisa.</span></span><span class=\"roll-result\">5</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #1 \"patronus nuntius\" (8)</strong><span>El Patronus entrega el mensaje de forma clara y precisa.<br /><br /><span>El hechizo adiciona 3 turnos adicionales antes del ataque de los dementores.</span></span></span><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #2 \"preguntar sobre el día de la redada\" (5)</strong><span><span>Yusuf estiró su único brazo con una languidez que hacía crujir sus articulaciones, soltando un bufido cargado de una nostalgia podrida. Una chispa de malicia purulenta se encendió en su mirada cuando señaló a su compañero con un gesto burlón.<br><br>—Nosotros solo seguíamos el negocio... vendíamos secretos, traficábamos con lo que nadie quería ver. Teníamos a una Veela con nosotros; era nuestro activo más valioso —comentó, dejando que una sonrisa perversa le deformara el rostro—. A Vinnie le gustaba especialmente. Podía pasar horas simplemente... observándola.<br><br>Sin embargo, el tono de Yusuf se volvió gélido al recordar el final del camino. Relató cómo las sombras los alcanzaron, obligándolos a una huida desesperada por los rincones más oscuros del continente.<br><br>—Creímos que seríamos más rápidos que las consecuencias. Creímos que el velo nos ocultaría para siempre, pero volvieron a encontrarnos. Nadie escapa de los lobos dos veces. Y ahora, lo único que nos queda es el frío de estas paredes.</span></span></span></div></div></div>",
             "url": "r16923",
             "simpleTitle": "Misión: the mercy of death",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Cuthbert S. Selwyn",
@@ -82973,7 +83033,8 @@ const DBModule = (function () {
                 7
             ],
             "title": [
-                "actions"
+                "actions",
+                "mission"
             ],
             "key": [
                 "expecto patronum",
@@ -82987,10 +83048,11 @@ const DBModule = (function () {
                 "encantamiento, defensivo",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cuthbert S. Selwyn ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #1 \"expecto patronum\" (11)</strong><span>No sucede nada, capaz este hechizo no es para ti.</span></span><span class=\"roll-result\">7</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cuthbert S. Selwyn ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #1 \"expecto patronum\" (11)</strong><span><span>El hechizo no es suficiente para agregar turnos adicionales.</span></span></span><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #2 \"preguntar por el tatuaje en forma de w\" (7)</strong><span><span>Yusuf hizo una señal imperceptible a Vinnie. Con una sincronía perturbadora, ambos arremangaron la tela harapienta de sus uniformes para revelar el antebrazo derecho. Allí, incrustada en la piel mortecina, resaltaba la prueba irrefutable: una espantosa quemadura queloide de relieves gruesos. Era una \"W\" alargada, con puntas tan afiladas que semejaban garras marcadas a fuego, el inconfundible y cruel sello de lealtad a una facción clandestina que opera al margen de toda ley.<br><br>Yusuf paseó su mirada inquisitiva por los rostros de sus interrogadores, saboreando el tenso y denso silencio que asfixiaba la celda de la prisión.<br><br>—¿Qué pasa? —susurró, con un deje de burla envenenada rascándole la garganta seca—. ¿Acaso nadie aquí escuchó hablar del Wrexham Wolf? ¿No hay ni un solo irlandés entre ustedes que reconozca la marca de los lobos que acechan en la sombra?</span></span></span></div></div></div>",
             "url": "r17165",
             "simpleTitle": "Misión: the mercy of death",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Elysia G. Lestrange",
@@ -82999,6 +83061,7 @@ const DBModule = (function () {
                 17
             ],
             "title": [
+                "mission",
                 "actions"
             ],
             "key": [
@@ -83013,10 +83076,11 @@ const DBModule = (function () {
                 "",
                 "encantamiento, defensivo"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Elysia G. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">8</span><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #2 \"expecto patronum\" (17)</strong><span>El escudo toma la forma del guardián que protege al conjurador de cualquier ataque. Por el resto del tema, el conjurador no recibirá daño de Dementores y Lethifolds.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Elysia G. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"la leyenda de wrexham wolf\" (8)</strong><span><span>Yusuf soltó una risilla seca, un sonido similar al crujir de pergamino viejo.<br><br>—El Wrexham Wolf es descrito a menudo como un espíritu guardián corrupto —susurró con voz febril. —Llevamos la marca para demostrar que somos los dueños de la mandíbula que muerde el velo —declaró, y sus ojos brillaron con una lucidez aterradora—. El tatuaje no es un adorno; es un ancla de sangre y dolor. Sin ella, nuestra propia alma sería succionada por el vacío absoluto mientras manipulamos las fuerzas del Más Allá. Es el precio por no ser arrastrados al abismo que nosotros mismos abrimos.</span></span></span><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #2 \"expecto patronum\" (17)</strong><span>El escudo toma la forma del guardián que protege al conjurador de cualquier ataque. Por el resto del tema, el conjurador no recibirá daño de Dementores y Lethifolds.<br /><br /><span>El hechizo adiciona 2 turnos adicionales antes del ataque de los dementores.</span></span></span></div></div></div>",
             "url": "r17305",
             "simpleTitle": "Misión: the mercy of death",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Jasper R. Gryffith",
@@ -83025,7 +83089,8 @@ const DBModule = (function () {
                 18
             ],
             "title": [
-                "actions"
+                "actions",
+                "mission"
             ],
             "key": [
                 "expecto patronum",
@@ -83039,10 +83104,11 @@ const DBModule = (function () {
                 "encantamiento, defensivo",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jasper R. Gryffith ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #1 \"expecto patronum\" (4)</strong><span>Se crea un escudo ovalado protegiendo a su dueño y que se mantiene en el tiempo. Adiciona +2 en defensa contra ataques de Dementores y Lethifolds durante tres turnos.</span></span><span class=\"roll-result\">18</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jasper R. Gryffith ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #1 \"expecto patronum\" (4)</strong><span>Se crea un escudo ovalado protegiendo a su dueño y que se mantiene en el tiempo. Adiciona +2 en defensa contra ataques de Dementores y Lethifolds durante tres turnos.<br /><br /><span>El hechizo adiciona 1 turno adicional antes del ataque de los dementores.</span></span></span><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #2 \"confirmar la leyenda de wrexham wolf\" (18)</strong><span><span>Para aquellos eruditos que han osado sumergir sus manos en las corrientes más turbias de la magia oscura, las palabras de Yusuf no son meros delirios de grandeza. Los registros herméticos confirman una verdad más antigua que la propia prisión: la \"W\" representa la geometría exacta de una mandíbula hambrienta, diseñada para desgarrar el tejido mismo de la realidad. No es un símbolo de pertenencia, sino un portal liminal; un umbral donde las leyes de la existencia se doblan y los vivos pueden estrechar la mano de los caídos.<br><br>En los círculos de la nigromancia más extrema, portar esta marca es el máximo testimonio de poder. No se lleva con orgullo, sino con una soberbia macabra, como la prueba irrefutable de que el mago ha logrado proyectar su voluntad más allá de la muerte. Es el sello de quienes han caminado por el borde del abismo y, en lugar de caer, han aprendido a alimentarse de él.</span></span></span></div></div></div>",
             "url": "r17396",
             "simpleTitle": "Misión: the mercy of death",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "H. Shun Parkinson",
@@ -83065,10 +83131,11 @@ const DBModule = (function () {
                 "encantamiento, defensivo",
                 "encantamiento, defensivo"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #1 \"expecto patronum\" (19)</strong><span>El escudo toma la forma del guardián y ahuyenta a los Dementores y Lethifolds. Elimina un PNJ que sea Dementor o Lethifold.</span></span><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #2 \"expecto patronum\" (11)</strong><span>El escudo toma la forma del guardián y ahuyenta a los Dementores y Lethifolds. Elimina un PNJ que sea Dementor o Lethifold.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #1 \"expecto patronum\" (19)</strong><span>El escudo toma la forma del guardián y ahuyenta a los Dementores y Lethifolds. Elimina un PNJ que sea Dementor o Lethifold.<br /><br /><span>El hechizo adiciona 3 turnos adicionales antes del ataque de los dementores.</span></span></span><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #2 \"expecto patronum\" (11)</strong><span>El escudo toma la forma del guardián y ahuyenta a los Dementores y Lethifolds. Elimina un PNJ que sea Dementor o Lethifold.<br /><br /><span>El hechizo adiciona 3 turnos adicionales antes del ataque de los dementores.</span></span></span></div></div></div>",
             "url": "r17546",
             "simpleTitle": "Misión: the mercy of death",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Gavril A. Ollivander",
@@ -83077,7 +83144,8 @@ const DBModule = (function () {
                 11
             ],
             "title": [
-                "actions"
+                "actions",
+                "mission"
             ],
             "key": [
                 "patronus ductor",
@@ -83091,10 +83159,11 @@ const DBModule = (function () {
                 "encantamiento, neutral",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Gavril A. Ollivander ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #1 \"patronus ductor\" (12)</strong><span>No sucede nada, capaz este hechizo no es para ti.</span></span><span class=\"roll-result\">11</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Gavril A. Ollivander ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"patronus\"><strong>Resultado  #1 \"patronus ductor\" (12)</strong><span><span>El hechizo no es suficiente para agregar turnos adicionales.</span></span></span><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #2 \"ofrecerles el fuego\" (11)</strong><span><span>Cuando el resplandor del fuego finalmente lamió los barrotes, una calma antinatural descendió sobre la celda. Yusuf y Vinnie no reaccionaron con la avidez del desesperado, sino con la reverencia de quien recibe un sacramento largamente esperado. El reflejo de las llamas danzó en sus ojos hundidos, devolviéndoles por un instante una chispa de la vitalidad que Azkaban les había succionado. Susurros de agradecimiento, apenas audibles entre el crepitar de la mecha, llenaron el aire viciado.</span></span></span></div></div></div>",
             "url": "r17652",
             "simpleTitle": "Misión: the mercy of death",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Jupiter Merrythought",
@@ -83908,7 +83977,7 @@ const DBModule = (function () {
                 18
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "introducción de la cuidadora de hadiya (solo para los que saben francés)"
@@ -83919,10 +83988,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Hermes Rosier ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">18</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Hermes Rosier ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"introducción de la cuidadora de hadiya (solo para los que saben francés)\" (18)</strong><span><span>La cuidadora de Hadiya les dice en fracés: «Tengan cuidado, Hadiya es vieja bruja. No le gustan las visitas, pero hagan lo que hagan, procuren hablar con voz clara y fuerte. Está perdiendo audición del oído izquierdo. El que no lo escucha no lo responde. Y, hagan lo que hagan, no se olviden de presentarse con sus nombres. No le gustan las voces a las que no les puede dar nombre».</span></span></span></div></div></div>",
             "url": "r15362",
             "simpleTitle": "Interrogatorio: licking salted wounds",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Hermes Rosier",
@@ -83944,7 +84014,8 @@ const DBModule = (function () {
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Hermes Rosier ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"oclumancia\"><strong>Resultado  #1 \"motus claudo\" (18)</strong><span>La lectura emocional queda bloqueada completamente; incluso criaturas sensibles no logran identificar sentimientos reales. Adiciona <em>3</em> (El 75% de CAR) a la resistencia mental.</span></span></div></div></div>",
             "url": "r17063",
             "simpleTitle": "Interrogatorio: licking salted wounds",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Ruairidh Ó Mhaille",
@@ -102216,7 +102287,7 @@ const DBModule = (function () {
                 18
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "iniciar zona b1"
@@ -102227,10 +102298,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Ruaan S. Patil ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">18</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Ruaan S. Patil ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"iniciar zona b1\" (18)</strong><span><span><div class=\"mission-card\" data-ver=\"/u9,/u24,/u8,/u12,/u91,/u55,/u110,/u118,/u135\"><topes><i class=\"fa-solid fa-eye-low-vision\"></i></topes><req>Solo visible para atributo: int mayor a 1</req><span>Has ingresado a la zona B1, el bosquecillo de robles y fresnos despojados de sus hojas se encuentran cubiertos de nieve y musgo. A sus pies las hojas verdes de helechos que se resisten a rendirse ante el frío otorgan un paisaje blanco y verde que solo puede notarse ante pequeñas luces que cuelgan de los árboles y permiten guiar el camino de los cazadores.</span></div></span></span></span></div></div></div>",
             "url": "r8899",
             "simpleTitle": "Evento: yule - la caza del diricawl",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Alastor Moody",
@@ -102238,7 +102310,7 @@ const DBModule = (function () {
                 5
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "iniciar zona d1"
@@ -102249,10 +102321,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">5</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"iniciar zona d1\" (5)</strong><span><span><div class=\"mission-card\" data-ver=\"/u9,/u24,/u8,/u12,/u91,/u55,/u110,/u118,/u135\"><topes><i class=\"fa-solid fa-eye-low-vision\"></i></topes><req>Solo visible para atributo: int mayor a 1</req><span>Has ingresado a la zona D1, el bosquecillo de robles y fresnos despojados de sus hojas se encuentran cubiertos de nieve y musgo. A sus pies las hojas verdes de helechos que se resisten a rendirse ante el frío otorgan un paisaje blanco y verde que solo puede notarse ante pequeñas luces que cuelgan de los árboles y permiten guiar el camino de los cazadores.</span></div></span></span></span></div></div></div>",
             "url": "r8941",
             "simpleTitle": "Evento: yule - la caza del diricawl",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Minerva E. McGonagall",
@@ -102260,7 +102333,7 @@ const DBModule = (function () {
                 18
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "ir de zona d1 a zona d2"
@@ -102271,10 +102344,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">18</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"ir de zona d1 a zona d2\" (18)</strong><span><span><div class=\"mission-card\" data-ver=\"/u9,/u24,/u8,/u12,/u91,/u55,/u110,/u118,/u135\"><topes><i class=\"fa-solid fa-eye-low-vision\"></i></topes><req>Solo visible para atributo: int mayor a 1</req><span>Has ingresado a la zona D2, los árboles del bosque comienzan a tomar tamaño y los fresnos se mezclan con las hayas que aún mantienen sus hojas cobrizas a pesar de la nieve y que parecen susurrar una canción cada vez que el viento las mueve.</span></div></span></span></span></div></div></div>",
             "url": "r8995",
             "simpleTitle": "Evento: yule - la caza del diricawl",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "H. Shun Parkinson",
@@ -102282,7 +102356,7 @@ const DBModule = (function () {
                 20
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "iniciar zona a1"
@@ -102293,10 +102367,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">20</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"iniciar zona a1\" (20)</strong><span><span><div class=\"mission-card\" data-ver=\"/u9,/u24,/u8,/u12,/u91,/u55,/u110,/u118,/u135\"><topes><i class=\"fa-solid fa-eye-low-vision\"></i></topes><req>Solo visible para atributo: int mayor a 1</req><span>Has ingresado a la zona A1, el bosquecillo de robles y fresnos despojados de sus hojas se encuentran cubiertos de nieve y musgo. A sus pies las hojas verdes de helechos que se resisten a rendirse ante el frío otorgan un paisaje blanco y verde que solo puede notarse ante pequeñas luces que cuelgan de los árboles y permiten guiar el camino de los cazadores.</span></div></span></span></span></div></div></div>",
             "url": "r9053",
             "simpleTitle": "Evento: yule - la caza del diricawl",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Orion A. Black",
@@ -102304,7 +102379,7 @@ const DBModule = (function () {
                 15
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "iniciar zona c1"
@@ -102315,10 +102390,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Orion A. Black ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">15</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Orion A. Black ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"iniciar zona c1\" (15)</strong><span><span><div class=\"mission-card\" data-ver=\"/u9,/u24,/u8,/u12,/u91,/u55,/u110,/u118,/u135\"><topes><i class=\"fa-solid fa-eye-low-vision\"></i></topes><req>Solo visible para atributo: int mayor a 1</req><span>Has ingresado a la zona C1, el bosquecillo de robles y fresnos despojados de sus hojas se encuentran cubiertos de nieve y musgo. A sus pies las hojas verdes de helechos que se resisten a rendirse ante el frío otorgan un paisaje blanco y verde que solo puede notarse ante pequeñas luces que cuelgan de los árboles y permiten guiar el camino de los cazadores.</span></div></span></span></span></div></div></div>",
             "url": "r9075",
             "simpleTitle": "Evento: yule - la caza del diricawl",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Asteria C. Lestrange",
@@ -102326,7 +102402,7 @@ const DBModule = (function () {
                 9
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "ir de zona b1 a zona b2"
@@ -102337,10 +102413,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Asteria C. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">9</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Asteria C. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"ir de zona b1 a zona b2\" (9)</strong><span><span><div class=\"mission-card\" data-ver=\"/u9,/u24,/u8,/u12,/u91,/u55,/u110,/u118,/u135\"><topes><i class=\"fa-solid fa-eye-low-vision\"></i></topes><req>Solo visible para atributo: int mayor a 1</req><span>Has ingresado a la zona B2, los árboles del bosque comienzan a tomar tamaño y los fresnos se mezclan con las hayas que aún mantienen sus hojas cobrizas a pesar de la nieve y que parecen susurrar una canción cada vez que el viento las mueve.</span></div><div class=\"mission-card\" data-ver=\"/u9,/u24,/u8,/u12,/u91,/u55,/u110,/u118,/u135\"><topes><i class=\"fa-solid fa-eye-low-vision\"></i></topes><req>Solo visible para atributo: int mayor a 1</req><span>Oh no, te has cruzado un Lazo del Diablo, agrega el mismo como PNJ, posee 80PV, 8 de Fuerza y 6 de Constitución.</span></div></span></span></span></div></div></div>",
             "url": "r9079",
             "simpleTitle": "Evento: yule - la caza del diricawl",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Augusta O. Rookwood",
@@ -102348,7 +102425,7 @@ const DBModule = (function () {
                 9
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "ir de zona c1 a zona c2"
@@ -102359,10 +102436,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Augusta O. Rookwood ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">9</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Augusta O. Rookwood ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"ir de zona c1 a zona c2\" (9)</strong><span><span><div class=\"mission-card\" data-ver=\"/u9,/u24,/u8,/u12,/u91,/u55,/u110,/u118,/u135\"><topes><i class=\"fa-solid fa-eye-low-vision\"></i></topes><req>Solo visible para atributo: int mayor a 1</req><span>Has ingresado a la zona C2, los árboles del bosque comienzan a tomar tamaño y los fresnos se mezclan con las hayas que aún mantienen sus hojas cobrizas a pesar de la nieve y que parecen susurrar una canción cada vez que el viento las mueve.</span></div><div class=\"mission-card\" data-ver=\"/u9,/u24,/u8,/u12,/u91,/u55,/u110,/u118,/u135\"><topes><i class=\"fa-solid fa-eye-low-vision\"></i></topes><req>Solo visible para atributo: int mayor a 1</req><span>Oh no, te has cruzado un Lazo del Diablo, agrega el mismo como PNJ, posee 80PV, 8 de Fuerza y 6 de Constitución.</span></div></span></span></span></div></div></div>",
             "url": "r9088",
             "simpleTitle": "Evento: yule - la caza del diricawl",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Kaoru Satoo",
@@ -102370,7 +102448,7 @@ const DBModule = (function () {
                 9
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "ir de zona d2 a zona d3"
@@ -102381,10 +102459,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Kaoru Satoo ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">9</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Kaoru Satoo ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"ir de zona d2 a zona d3\" (9)</strong><span><span><div class=\"mission-card\" data-ver=\"/u9,/u24,/u8,/u12,/u91,/u55,/u110,/u118,/u135\"><topes><i class=\"fa-solid fa-eye-low-vision\"></i></topes><req>Solo visible para atributo: int mayor a 1</req><span>Has ingresado a la zona D3, el bosque de hayas deslumbra con sus hojas cobrizas, en esa zona donde solo esta dicho árbol, puede notarse que alguien ha encantado las hojas para que sean de cobre produciendo una canción de cuna en la zona, además de una imagen hermosa.</span></div></span></span></span></div></div></div>",
             "url": "r9091",
             "simpleTitle": "Evento: yule - la caza del diricawl",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Thaddeus L. Nott",
@@ -102392,7 +102471,7 @@ const DBModule = (function () {
                 2
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "ir de zona a1 a zona a2"
@@ -102403,10 +102482,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Thaddeus L. Nott ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">2</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Thaddeus L. Nott ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"ir de zona a1 a zona a2\" (2)</strong><span><span><div class=\"mission-card\" data-ver=\"/u9,/u24,/u8,/u12,/u91,/u55,/u110,/u118,/u135\"><topes><i class=\"fa-solid fa-eye-low-vision\"></i></topes><req>Solo visible para atributo: int mayor a 1</req><span>Has ingresado a la zona A2, los árboles del bosque comienzan a tomar tamaño y los fresnos se mezclan con las hayas que aún mantienen sus hojas cobrizas a pesar de la nieve y que parecen susurrar una canción cada vez que el viento las mueve.</span></div></span></span></span></div></div></div>",
             "url": "r9094",
             "simpleTitle": "Evento: yule - la caza del diricawl",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Damien A. Ashford-Dempsey",
@@ -102441,7 +102521,8 @@ const DBModule = (function () {
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Damien A. Ashford-Dempsey ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"lazo del diablo\" (3)</strong><ataque>Arrastra a la víctima a la zona anterior. Adiciona +8 de ataque. El personaje deberá usar un turno para regresar a donde estaba.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +5 en Defensa.</defensa></span><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #2 \"glacius\" (2)</strong><span>No sucede nada, capaz este hechizo no es para ti.</span></span><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #3 \"incendio\" (4)</strong><span>No sucede nada, capaz este hechizo no es para ti.<br><br>El PNJ \"lazo del diablo\" es débil a los hechizos de tipo \"fuego\". Duplica el valor del dado y el bonus del hechizo.</span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #4 \"lazo del diablo\" (3)</strong><ataque>Arrastra a la víctima a la zona anterior. Adiciona +8 de ataque. El personaje deberá usar un turno para regresar a donde estaba.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +5 en Defensa.</defensa></span></div></div></div>",
             "url": "r9128",
             "simpleTitle": "Evento: yule - la caza del diricawl",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Hermes Rosier",
@@ -102473,10 +102554,11 @@ const DBModule = (function () {
                 "encantamiento, ofensivo",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Hermes Rosier ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"lazo del diablo\" (6)</strong><ataque>Arrastra a la víctima a la zona anterior. Adiciona +8 de ataque. El personaje deberá usar un turno para regresar a donde estaba.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +5 en Defensa.</defensa></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"protego\" (20)</strong><span>El escudo es extremadamente resistente. Reduce el ataque en <em>+12</em> (40% del conocimiento en DCAO) puntos adicionales.<br><br>El PNJ \"lazo del diablo\" repele los hechizos de tipo \"escudo\". El ataque se reduce en su totalidad a cero.</span></span><span class=\"action-result\" data-conocimientos=\"herbología\"><strong>Resultado  #3 \"lumos solem\" (12)</strong><span>El destello es intenso y momentáneamente deslumbra. Si se usa contra un objetivo, el mismo deberá descontar <em>+3</em> (75% del conocimiento en HERBOLOGÍA) puntos en su siguiente acción.<br><br>El PNJ \"lazo del diablo\" es débil a los hechizos de tipo \"luz\". Duplica el valor del dado y el bonus del hechizo.</span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #4 \"lazo del diablo\" (10)</strong><ataque>Arrastra a la víctima a la zona siguiente. Adiciona +12 de ataque. El personaje deberá usar un turno para regresar a donde estaba.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +8 en Defensa.</defensa></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Hermes Rosier ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"lazo del diablo\" (6)</strong><ataque>Arrastra a la víctima a la zona anterior. Adiciona +8 de ataque. El personaje deberá usar un turno para regresar a donde estaba.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +5 en Defensa.</defensa></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"protego\" (20)</strong><span>El escudo es extremadamente resistente. Reduce el ataque en <em>+12</em> (40% del conocimiento en DCAO) puntos adicionales.<br><br>El PNJ \"lazo del diablo\" repele los hechizos de tipo \"escudo\". El ataque se reduce en su totalidad a cero.</span></span><span class=\"action-result\" data-conocimientos=\"herbología\"><strong>Resultado  #3 \"lumos solem\" (12)</strong><span>El destello es intenso y momentáneamente deslumbra. Si se usa contra un objetivo, el mismo deberá descontar <em>+3</em> (75% del conocimiento en HERBOLOGÍA) puntos en su siguiente acción.<br><br>El PNJ \"lazo del diablo\" es débil a los hechizos de tipo \"luz\". Duplica el valor del dado y el bonus del hechizo.<br /><br /><span>Aleja al Diricawl una casilla.</span></span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #4 \"lazo del diablo\" (10)</strong><ataque>Arrastra a la víctima a la zona siguiente. Adiciona +12 de ataque. El personaje deberá usar un turno para regresar a donde estaba.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +8 en Defensa.</defensa></span></div></div></div>",
             "url": "r9132",
             "simpleTitle": "Evento: yule - la caza del diricawl",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Ruaan S. Patil",
@@ -102508,10 +102590,11 @@ const DBModule = (function () {
                 "",
                 "encantamiento, defensivo"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Ruaan S. Patil ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"herbología\"><strong>Resultado  #1 \"lumos solem\" (17)</strong><span>El destello es intenso y momentáneamente deslumbra. Si se usa contra un objetivo, el mismo deberá descontar <em>+3</em> (75% del conocimiento en HERBOLOGÍA) puntos en su siguiente acción.<br><br>El PNJ \"lazo del diablo\" es débil a los hechizos de tipo \"luz\". Duplica el valor del dado y el bonus del hechizo.</span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #2 \"lazo del diablo\" (7)</strong><ataque>Arrastra a la víctima a la zona anterior. Adiciona +8 de ataque. El personaje deberá usar un turno para regresar a donde estaba.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +5 en Defensa.</defensa></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #3 \"lazo del diablo\" (18)</strong><ataque>Arrastra a la víctima a la zona siguiente. Adiciona +12 de ataque. El personaje deberá usar un turno para regresar a donde estaba.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +8 en Defensa.</defensa></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #4 \"protego\" (11)</strong><span>El escudo es extremadamente resistente. Reduce el ataque en <em>+6</em> (40% del conocimiento en DCAO) puntos adicionales.<br><br>El PNJ \"lazo del diablo\" repele los hechizos de tipo \"escudo\". El ataque se reduce en su totalidad a cero.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Ruaan S. Patil ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"herbología\"><strong>Resultado  #1 \"lumos solem\" (17)</strong><span>El destello es intenso y momentáneamente deslumbra. Si se usa contra un objetivo, el mismo deberá descontar <em>+3</em> (75% del conocimiento en HERBOLOGÍA) puntos en su siguiente acción.<br><br>El PNJ \"lazo del diablo\" es débil a los hechizos de tipo \"luz\". Duplica el valor del dado y el bonus del hechizo.<br /><br /><span>Aleja al Diricawl una casilla.</span></span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #2 \"lazo del diablo\" (7)</strong><ataque>Arrastra a la víctima a la zona anterior. Adiciona +8 de ataque. El personaje deberá usar un turno para regresar a donde estaba.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +5 en Defensa.</defensa></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #3 \"lazo del diablo\" (18)</strong><ataque>Arrastra a la víctima a la zona siguiente. Adiciona +12 de ataque. El personaje deberá usar un turno para regresar a donde estaba.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +8 en Defensa.</defensa></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #4 \"protego\" (11)</strong><span>El escudo es extremadamente resistente. Reduce el ataque en <em>+6</em> (40% del conocimiento en DCAO) puntos adicionales.<br><br>El PNJ \"lazo del diablo\" repele los hechizos de tipo \"escudo\". El ataque se reduce en su totalidad a cero.</span></span></div></div></div>",
             "url": "r9377",
             "simpleTitle": "Evento: yule - la caza del diricawl",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Alastor Moody",
@@ -102537,7 +102620,8 @@ const DBModule = (function () {
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"arte\"><strong>Resultado  #1 \"colorum transmutatio\" (8)</strong><span>El color cambia, pero de forma irregular o despareja.</span></span><span class=\"action-result\" data-conocimientos=\"música\"><strong>Resultado  #2 \"auris incantata\" (6)</strong><span>Puedes reproducir la melodía básica, aunque con errores menores.</span></span></div></div></div>",
             "url": "r9384",
             "simpleTitle": "Evento: yule - la caza del diricawl",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Minerva E. McGonagall",
@@ -102545,7 +102629,7 @@ const DBModule = (function () {
                 5
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "dejar comida"
@@ -102556,10 +102640,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">5</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"dejar comida\" (5)</strong><span><span>Has dejado comida en esa zona, el Diricawl se ha acercado.</span></span></span></div></div></div>",
             "url": "r9418",
             "simpleTitle": "Evento: yule - la caza del diricawl",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "H. Shun Parkinson",
@@ -102567,7 +102652,7 @@ const DBModule = (function () {
                 4
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "ir de zona a2 a zona a3"
@@ -102578,10 +102663,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">4</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"ir de zona a2 a zona a3\" (4)</strong><span><span><div class=\"mission-card\" data-ver=\"/u9,/u24,/u8,/u12,/u91,/u55,/u110,/u118,/u135\"><topes><i class=\"fa-solid fa-eye-low-vision\"></i></topes><req>Solo visible para atributo: int mayor a 1</req><span>Has ingresado a la zona A3, el bosque de hayas deslumbra con sus hojas cobrizas, en esa zona donde solo esta dicho árbol, puede notarse que alguien ha encantado las hojas para que sean de cobre produciendo una canción de cuna en la zona, además de una imagen hermosa.</span></div><div class=\"mission-card\" data-ver=\"\"><topes><i class=\"fa-solid fa-eye-low-vision\"></i></topes><req>Solo visible para </req><span>Oh no, te has cruzado un Lazo del Diablo, agrega el mismo como PNJ, posee 80PV, 8 de Fuerza y 6 de Constitución.</span></div></span></span></span></div></div></div>",
             "url": "r9420",
             "simpleTitle": "Evento: yule - la caza del diricawl",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Orion A. Black",
@@ -102613,10 +102699,11 @@ const DBModule = (function () {
                 "encantamiento, ofensivo",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Orion A. Black ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"lazo del diablo\" (2)</strong><ataque>Arrastra a la víctima a la zona anterior. Adiciona +8 de ataque. El personaje deberá usar un turno para regresar a donde estaba.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +5 en Defensa.</defensa></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"protego\" (19)</strong><span>El escudo es extremadamente resistente. Reduce el ataque en <em>+6</em> (40% del conocimiento en DCAO) puntos adicionales.<br><br>El PNJ \"lazo del diablo\" repele los hechizos de tipo \"escudo\". El ataque se reduce en su totalidad a cero.</span></span><span class=\"action-result\" data-conocimientos=\"herbología\"><strong>Resultado  #3 \"lumos solem\" (6)</strong><span>El destello es intenso y momentáneamente deslumbra. Si se usa contra un objetivo, el mismo deberá descontar <em>+9</em> (75% del conocimiento en HERBOLOGÍA) puntos en su siguiente acción.<br><br>El PNJ \"lazo del diablo\" es débil a los hechizos de tipo \"luz\". Duplica el valor del dado y el bonus del hechizo.</span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #4 \"lazo del diablo\" (6)</strong><ataque>Arrastra a la víctima a la zona anterior. Adiciona +8 de ataque. El personaje deberá usar un turno para regresar a donde estaba.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +5 en Defensa.</defensa></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Orion A. Black ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"lazo del diablo\" (2)</strong><ataque>Arrastra a la víctima a la zona anterior. Adiciona +8 de ataque. El personaje deberá usar un turno para regresar a donde estaba.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +5 en Defensa.</defensa></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"protego\" (19)</strong><span>El escudo es extremadamente resistente. Reduce el ataque en <em>+6</em> (40% del conocimiento en DCAO) puntos adicionales.<br><br>El PNJ \"lazo del diablo\" repele los hechizos de tipo \"escudo\". El ataque se reduce en su totalidad a cero.</span></span><span class=\"action-result\" data-conocimientos=\"herbología\"><strong>Resultado  #3 \"lumos solem\" (6)</strong><span>El destello es intenso y momentáneamente deslumbra. Si se usa contra un objetivo, el mismo deberá descontar <em>+9</em> (75% del conocimiento en HERBOLOGÍA) puntos en su siguiente acción.<br><br>El PNJ \"lazo del diablo\" es débil a los hechizos de tipo \"luz\". Duplica el valor del dado y el bonus del hechizo.<br /><br /><span>Aleja al Diricawl una casilla.</span></span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #4 \"lazo del diablo\" (6)</strong><ataque>Arrastra a la víctima a la zona anterior. Adiciona +8 de ataque. El personaje deberá usar un turno para regresar a donde estaba.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +5 en Defensa.</defensa></span></div></div></div>",
             "url": "r9630",
             "simpleTitle": "Evento: yule - la caza del diricawl",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Asteria C. Lestrange",
@@ -102648,10 +102735,11 @@ const DBModule = (function () {
                 "",
                 "encantamiento, defensivo"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Asteria C. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"herbología\"><strong>Resultado  #1 \"lumos solem\" (19)</strong><span>El destello es cegador. Si se usa contra un objetivo, anula su siguiente acción.<br><br>El PNJ \"lazo del diablo\" es débil a los hechizos de tipo \"luz\". Duplica el valor del dado y el bonus del hechizo.</span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #2 \"lazo del diablo\" (11)</strong><ataque>Arrastra a la víctima a la zona siguiente. Adiciona +12 de ataque. El personaje deberá usar un turno para regresar a donde estaba.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +8 en Defensa.</defensa></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #3 \"lazo del diablo\" (6)</strong><ataque>Arrastra a la víctima a la zona anterior. Adiciona +8 de ataque. El personaje deberá usar un turno para regresar a donde estaba.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +5 en Defensa.</defensa></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #4 \"protego\" (7)</strong><span>El escudo es extremadamente resistente. Reduce el ataque en <em>+6</em> (40% del conocimiento en DCAO) puntos adicionales.<br><br>El PNJ \"lazo del diablo\" repele los hechizos de tipo \"escudo\". El ataque se reduce en su totalidad a cero.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Asteria C. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"herbología\"><strong>Resultado  #1 \"lumos solem\" (19)</strong><span>El destello es cegador. Si se usa contra un objetivo, anula su siguiente acción.<br><br>El PNJ \"lazo del diablo\" es débil a los hechizos de tipo \"luz\". Duplica el valor del dado y el bonus del hechizo.<br /><br /><span>Aleja al Diricawl una casilla.</span></span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #2 \"lazo del diablo\" (11)</strong><ataque>Arrastra a la víctima a la zona siguiente. Adiciona +12 de ataque. El personaje deberá usar un turno para regresar a donde estaba.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +8 en Defensa.</defensa></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #3 \"lazo del diablo\" (6)</strong><ataque>Arrastra a la víctima a la zona anterior. Adiciona +8 de ataque. El personaje deberá usar un turno para regresar a donde estaba.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +5 en Defensa.</defensa></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #4 \"protego\" (7)</strong><span>El escudo es extremadamente resistente. Reduce el ataque en <em>+6</em> (40% del conocimiento en DCAO) puntos adicionales.<br><br>El PNJ \"lazo del diablo\" repele los hechizos de tipo \"escudo\". El ataque se reduce en su totalidad a cero.</span></span></div></div></div>",
             "url": "r9637",
             "simpleTitle": "Evento: yule - la caza del diricawl",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Augusta O. Rookwood",
@@ -102680,7 +102768,8 @@ const DBModule = (function () {
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Augusta O. Rookwood ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"lazo del diablo\" (20)</strong><ataque>Inmoviliza a la víctima atrapandola entre sus lazos. Adiciona +20 de ataque. La víctima no podrá realizar acciones hasta que no la liberen.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +12 en Defensa.</defensa></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"protego\" (9)</strong><span>No sucede nada, capaz este hechizo no es para ti.<br><br>El PNJ \"lazo del diablo\" repele los hechizos de tipo \"escudo\". El ataque se reduce en su totalidad a cero.</span></span><span class=\"roll-result\">19</span><span class=\"roll-result\">1</span></div></div></div>",
             "url": "r9655",
             "simpleTitle": "Evento: yule - la caza del diricawl",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Kaoru Satoo",
@@ -102709,7 +102798,8 @@ const DBModule = (function () {
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Kaoru Satoo ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"fulgari\" (5)</strong><span>Las cuerdas sujetan los brazos, pero pueden soltarse con esfuerzo. Disminuye +6 en la siguiente acción realizada por la víctima.<br><br>El PNJ \"diricawl\" es débil a los hechizos de tipo \"restricción\". Duplica el valor del dado y el bonus del hechizo.</span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #2 \"diricawl\" (17)</strong><ataque>Sin ataque específico.</ataque><defensa>Se desaparece para esquivar el ataque y aparece a unos metros. Adiciona +2 en Defensa.</defensa></span><span class=\"roll-result\">4</span><span class=\"roll-result\">5</span></div></div></div>",
             "url": "r9694",
             "simpleTitle": "Evento: yule - la caza del diricawl",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Thaddeus L. Nott",
@@ -102741,10 +102831,11 @@ const DBModule = (function () {
                 "encantamiento, ofensivo",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Thaddeus L. Nott ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"lazo del diablo\" (12)</strong><ataque>Arrastra a la víctima a la zona siguiente. Adiciona +12 de ataque. El personaje deberá usar un turno para regresar a donde estaba.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +8 en Defensa.</defensa></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"protego\" (16)</strong><span>El escudo es extremadamente resistente. Reduce el ataque en <em>+7</em> (40% del conocimiento en DCAO) puntos adicionales.<br><br>El PNJ \"lazo del diablo\" repele los hechizos de tipo \"escudo\". El ataque se reduce en su totalidad a cero.</span></span><span class=\"action-result\" data-conocimientos=\"herbología\"><strong>Resultado  #3 \"lumos solem\" (13)</strong><span>El destello es cegador. Si se usa contra un objetivo, anula su siguiente acción.<br><br>El PNJ \"lazo del diablo\" es débil a los hechizos de tipo \"luz\". Duplica el valor del dado y el bonus del hechizo.</span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #4 \"lazo del diablo\" (2)</strong><ataque>Arrastra a la víctima a la zona anterior. Adiciona +8 de ataque. El personaje deberá usar un turno para regresar a donde estaba.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +5 en Defensa.</defensa></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Thaddeus L. Nott ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"lazo del diablo\" (12)</strong><ataque>Arrastra a la víctima a la zona siguiente. Adiciona +12 de ataque. El personaje deberá usar un turno para regresar a donde estaba.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +8 en Defensa.</defensa></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"protego\" (16)</strong><span>El escudo es extremadamente resistente. Reduce el ataque en <em>+7</em> (40% del conocimiento en DCAO) puntos adicionales.<br><br>El PNJ \"lazo del diablo\" repele los hechizos de tipo \"escudo\". El ataque se reduce en su totalidad a cero.</span></span><span class=\"action-result\" data-conocimientos=\"herbología\"><strong>Resultado  #3 \"lumos solem\" (13)</strong><span>El destello es cegador. Si se usa contra un objetivo, anula su siguiente acción.<br><br>El PNJ \"lazo del diablo\" es débil a los hechizos de tipo \"luz\". Duplica el valor del dado y el bonus del hechizo.<br /><br /><span>Aleja al Diricawl una casilla.</span></span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #4 \"lazo del diablo\" (2)</strong><ataque>Arrastra a la víctima a la zona anterior. Adiciona +8 de ataque. El personaje deberá usar un turno para regresar a donde estaba.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +5 en Defensa.</defensa></span></div></div></div>",
             "url": "r9704",
             "simpleTitle": "Evento: yule - la caza del diricawl",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Damien A. Ashford-Dempsey",
@@ -102776,10 +102867,11 @@ const DBModule = (function () {
                 "encantamiento, ofensivo",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Damien A. Ashford-Dempsey ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"lazo del diablo\" (4)</strong><ataque>Arrastra a la víctima a la zona anterior. Adiciona +8 de ataque. El personaje deberá usar un turno para regresar a donde estaba.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +5 en Defensa.</defensa></span><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #2 \"glacius\" (3)</strong><span>No sucede nada, capaz este hechizo no es para ti.</span></span><span class=\"action-result\" data-conocimientos=\"herbología\"><strong>Resultado  #3 \"lumos solem\" (14)</strong><span>No sucede nada, capaz este hechizo no es para ti.<br><br>El PNJ \"lazo del diablo\" es débil a los hechizos de tipo \"luz\". Duplica el valor del dado y el bonus del hechizo.</span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #4 \"lazo del diablo\" (19)</strong><ataque>Arrastra a la víctima a la zona siguiente. Adiciona +12 de ataque. El personaje deberá usar un turno para regresar a donde estaba.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +8 en Defensa.</defensa></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Damien A. Ashford-Dempsey ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"lazo del diablo\" (4)</strong><ataque>Arrastra a la víctima a la zona anterior. Adiciona +8 de ataque. El personaje deberá usar un turno para regresar a donde estaba.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +5 en Defensa.</defensa></span><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #2 \"glacius\" (3)</strong><span>No sucede nada, capaz este hechizo no es para ti.</span></span><span class=\"action-result\" data-conocimientos=\"herbología\"><strong>Resultado  #3 \"lumos solem\" (14)</strong><span><span>Aleja al Diricawl una casilla.</span></span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #4 \"lazo del diablo\" (19)</strong><ataque>Arrastra a la víctima a la zona siguiente. Adiciona +12 de ataque. El personaje deberá usar un turno para regresar a donde estaba.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +8 en Defensa.</defensa></span></div></div></div>",
             "url": "r9709",
             "simpleTitle": "Evento: yule - la caza del diricawl",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Hermes Rosier",
@@ -102811,10 +102903,11 @@ const DBModule = (function () {
                 "encantamiento, ofensivo",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Hermes Rosier ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"lazo del diablo\" (20)</strong><ataque>Inmoviliza a la víctima atrapandola entre sus lazos. Adiciona +20 de ataque. La víctima no podrá realizar acciones hasta que no la liberen.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +12 en Defensa.</defensa></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"protego totalum\" (10)</strong><span>La barrera es casi impenetrable y dura un tiempo prolongado. Adiciona <em>+30</em> (100% del conocimiento en DCAO) en defensa a todos los personajes dentro del edificio durante 4 turno.<br><br>El PNJ \"lazo del diablo\" repele los hechizos de tipo \"escudo\". El ataque se reduce en su totalidad a cero.</span></span><span class=\"action-result\" data-conocimientos=\"herbología\"><strong>Resultado  #3 \"lumos solem\" (15)</strong><span>El destello es intenso y momentáneamente deslumbra. Si se usa contra un objetivo, el mismo deberá descontar <em>+3</em> (75% del conocimiento en HERBOLOGÍA) puntos en su siguiente acción.<br><br>El PNJ \"lazo del diablo\" es débil a los hechizos de tipo \"luz\". Duplica el valor del dado y el bonus del hechizo.</span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #4 \"lazo del diablo\" (7)</strong><ataque>Arrastra a la víctima a la zona anterior. Adiciona +8 de ataque. El personaje deberá usar un turno para regresar a donde estaba.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +5 en Defensa.</defensa></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Hermes Rosier ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"lazo del diablo\" (20)</strong><ataque>Inmoviliza a la víctima atrapandola entre sus lazos. Adiciona +20 de ataque. La víctima no podrá realizar acciones hasta que no la liberen.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +12 en Defensa.</defensa></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"protego totalum\" (10)</strong><span>La barrera es casi impenetrable y dura un tiempo prolongado. Adiciona <em>+30</em> (100% del conocimiento en DCAO) en defensa a todos los personajes dentro del edificio durante 4 turno.<br><br>El PNJ \"lazo del diablo\" repele los hechizos de tipo \"escudo\". El ataque se reduce en su totalidad a cero.</span></span><span class=\"action-result\" data-conocimientos=\"herbología\"><strong>Resultado  #3 \"lumos solem\" (15)</strong><span>El destello es intenso y momentáneamente deslumbra. Si se usa contra un objetivo, el mismo deberá descontar <em>+3</em> (75% del conocimiento en HERBOLOGÍA) puntos en su siguiente acción.<br><br>El PNJ \"lazo del diablo\" es débil a los hechizos de tipo \"luz\". Duplica el valor del dado y el bonus del hechizo.<br /><br /><span>Aleja al Diricawl una casilla.</span></span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #4 \"lazo del diablo\" (7)</strong><ataque>Arrastra a la víctima a la zona anterior. Adiciona +8 de ataque. El personaje deberá usar un turno para regresar a donde estaba.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +5 en Defensa.</defensa></span></div></div></div>",
             "url": "r9768",
             "simpleTitle": "Evento: yule - la caza del diricawl",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Alastor Moody",
@@ -102823,6 +102916,7 @@ const DBModule = (function () {
                 9
             ],
             "title": [
+                "mission",
                 "actions"
             ],
             "key": [
@@ -102837,10 +102931,11 @@ const DBModule = (function () {
                 "",
                 "habilidad, sin magia, neutral"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">6</span><span class=\"action-result\" data-conocimientos=\"música\"><strong>Resultado  #2 \"melodia solaminis\" (9)</strong><span>Un aliado cercano se relaja momentáneamente.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"ir de zona d3 a zona d4\" (6)</strong><span><span><div class=\"mission-card\" data-ver=\"/u9,/u24,/u8,/u12,/u91,/u55,/u110,/u118,/u135\"><topes><i class=\"fa-solid fa-eye-low-vision\"></i></topes><req>Solo visible para atributo: int mayor a 1</req><span>Has encontrado al Diricawl, agrega al mismo como personaje no jugable y comprueba si puedes atraparlo (Hasta que el equipo actual no lo resuelva, la criatura no se moverá por acciones del resto).</span></div><div class=\"mission-card\" data-ver=\"/u9,/u24,/u8,/u12,/u91,/u55,/u110,/u118,/u135\"><topes><i class=\"fa-solid fa-eye-low-vision\"></i></topes><req>Solo visible para atributo: int mayor a 1</req><span>Has ingresado a la zona D4, mientras las hayas se desvanecen, los fresnos vuelven a hacerse notar, al igual que unos alisos en cuyas ramas y a los pies del árbol pueden encontrarse conos leñosos. Aunque alguien se ha encarcado de pintar la mayoría de los que se encuentra en el suelo con colores navideños.</span></div><div class=\"mission-card\" data-ver=\"\"><topes><i class=\"fa-solid fa-eye-low-vision\"></i></topes><req>Solo visible para </req><span>Oh no, te has cruzado un Lazo del Diablo, agrega el mismo como PNJ, posee 80PV, 8 de Fuerza y 6 de Constitución.</span></div></span></span></span><span class=\"action-result\" data-conocimientos=\"música\"><strong>Resultado  #2 \"melodia solaminis\" (9)</strong><span>Un aliado cercano se relaja momentáneamente.<br /><br /><span>Atrae al Diricawl una casilla hacia ti.</span></span></span></div></div></div>",
             "url": "r9831",
             "simpleTitle": "Evento: yule - la caza del diricawl",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Minerva E. McGonagall",
@@ -102869,10 +102964,11 @@ const DBModule = (function () {
                 "",
                 "habilidad, sin magia, neutral"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"herbología\"><strong>Resultado  #1 \"lumos solem\" (13)</strong><span>El destello es cegador. Si se usa contra un objetivo, anula su siguiente acción.<br><br>El PNJ \"lazo del diablo\" es débil a los hechizos de tipo \"luz\". Duplica el valor del dado y el bonus del hechizo.</span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #2 \"lazo del diablo\" (1)</strong><ataque>Toma una extremidad de la víctima y la atrae hacia sí. Adiciona +4 de ataque.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +2 en Defensa.</defensa></span><span class=\"action-result\" data-conocimientos=\"liderazgo\"><strong>Resultado  #3 \"fortitudo cordis\" (3)</strong><span>Adiciona <em>2</em> (El 100% de CAR) en acciones del conocimiento mencionado durante todo el tema.</span></span><span class=\"roll-result\">5</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"herbología\"><strong>Resultado  #1 \"lumos solem\" (13)</strong><span>El destello es cegador. Si se usa contra un objetivo, anula su siguiente acción.<br><br>El PNJ \"lazo del diablo\" es débil a los hechizos de tipo \"luz\". Duplica el valor del dado y el bonus del hechizo.<br /><br /><span>Aleja al Diricawl una casilla.</span></span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #2 \"lazo del diablo\" (1)</strong><ataque>Toma una extremidad de la víctima y la atrae hacia sí. Adiciona +4 de ataque.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +2 en Defensa.</defensa></span><span class=\"action-result\" data-conocimientos=\"liderazgo\"><strong>Resultado  #3 \"fortitudo cordis\" (3)</strong><span>Adiciona <em>2</em> (El 100% de CAR) en acciones del conocimiento mencionado durante todo el tema.</span></span><span class=\"roll-result\">5</span></div></div></div>",
             "url": "r9873",
             "simpleTitle": "Evento: yule - la caza del diricawl",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "H. Shun Parkinson",
@@ -102907,7 +103003,8 @@ const DBModule = (function () {
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"lazo del diablo\" (6)</strong><ataque>Arrastra a la víctima a la zona anterior. Adiciona +8 de ataque. El personaje deberá usar un turno para regresar a donde estaba.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +5 en Defensa.</defensa></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"impedimenta\" (19)</strong><span>El objetivo es lanzado hacia atrás por la fuerza del hechizo y queda completamente aturdido. En caso de realizarse sobre un hechizo, anula el ataque completamente.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #3 \"flipendo\" (6)</strong><span>El oponente es lanzado por los aires con gran fuerza, impactando contra una superficie. Adiciona <em>+14</em> (40% del conocimiento en DCAO) puntos adicionales de daño al objetivo.<br><br>El PNJ \"lazo del diablo\" repele los hechizos de tipo \"escudo\". El ataque se reduce en su totalidad a cero.</span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #4 \"lazo del diablo\" (13)</strong><ataque>Arrastra a la víctima a la zona siguiente. Adiciona +12 de ataque. El personaje deberá usar un turno para regresar a donde estaba.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +8 en Defensa.</defensa></span></div></div></div>",
             "url": "r9877",
             "simpleTitle": "Evento: yule - la caza del diricawl",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Orion A. Black",
@@ -102939,10 +103036,11 @@ const DBModule = (function () {
                 "encantamiento, ofensivo",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Orion A. Black ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"lazo del diablo\" (7)</strong><ataque>Arrastra a la víctima a la zona anterior. Adiciona +8 de ataque. El personaje deberá usar un turno para regresar a donde estaba.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +5 en Defensa.</defensa></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"protego\" (1)</strong><span>El escudo bloquea la mayoría de los ataques mágicos. Reduce <em>+12</em> (75% del conocimiento en DCAO) puntos el ataque contrario y elimina los efectos secundarios de los hechizos.<br><br>El PNJ \"lazo del diablo\" repele los hechizos de tipo \"escudo\". El ataque se reduce en su totalidad a cero.</span></span><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #3 \"diffindo\" (3)</strong><span>El objeto se rasga, dejando un daño evidente. Adiciona <em>+7</em> (50% del conocimiento en ENCANTAMIENTOS) en el daño.</span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #4 \"lazo del diablo\" (17)</strong><ataque>Arrastra a la víctima a la zona siguiente. Adiciona +12 de ataque. El personaje deberá usar un turno para regresar a donde estaba.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +8 en Defensa.</defensa></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Orion A. Black ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"lazo del diablo\" (7)</strong><ataque>Arrastra a la víctima a la zona anterior. Adiciona +8 de ataque. El personaje deberá usar un turno para regresar a donde estaba.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +5 en Defensa.</defensa></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"protego\" (1)</strong><span>El escudo bloquea la mayoría de los ataques mágicos. Reduce <em>+12</em> (75% del conocimiento en DCAO) puntos el ataque contrario y elimina los efectos secundarios de los hechizos.<br><br>El PNJ \"lazo del diablo\" repele los hechizos de tipo \"escudo\". El ataque se reduce en su totalidad a cero.</span></span><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #3 \"diffindo\" (3)</strong><span>El objeto se rasga, dejando un daño evidente. Adiciona <em>+7</em> (50% del conocimiento en ENCANTAMIENTOS) en el daño.<br /><br /><span>No es suficiente para brindar información adicional.</span></span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #4 \"lazo del diablo\" (17)</strong><ataque>Arrastra a la víctima a la zona siguiente. Adiciona +12 de ataque. El personaje deberá usar un turno para regresar a donde estaba.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +8 en Defensa.</defensa></span></div></div></div>",
             "url": "r9925",
             "simpleTitle": "Evento: yule - la caza del diricawl",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Asteria C. Lestrange",
@@ -102971,10 +103069,11 @@ const DBModule = (function () {
                 "",
                 "habilidad, sin magia, neutral"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Asteria C. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"herbología\"><strong>Resultado  #1 \"lumos solem\" (20)</strong><span>El destello es cegador. Si se usa contra un objetivo, anula su siguiente acción.<br><br>El PNJ \"lazo del diablo\" es débil a los hechizos de tipo \"luz\". Duplica el valor del dado y el bonus del hechizo.</span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #2 \"lazo del diablo\" (7)</strong><ataque>Arrastra a la víctima a la zona anterior. Adiciona +8 de ataque. El personaje deberá usar un turno para regresar a donde estaba.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +5 en Defensa.</defensa></span><span class=\"action-result\" data-conocimientos=\"liderazgo\"><strong>Resultado  #3 \"fortitudo cordis\" (5)</strong><span>Adiciona <em>2</em> (El 75% de CAR) en acciones del conocimiento mencionado durante dos turnos.</span></span><span class=\"roll-result\">15</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Asteria C. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"herbología\"><strong>Resultado  #1 \"lumos solem\" (20)</strong><span>El destello es cegador. Si se usa contra un objetivo, anula su siguiente acción.<br><br>El PNJ \"lazo del diablo\" es débil a los hechizos de tipo \"luz\". Duplica el valor del dado y el bonus del hechizo.<br /><br /><span>Aleja al Diricawl una casilla.</span></span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #2 \"lazo del diablo\" (7)</strong><ataque>Arrastra a la víctima a la zona anterior. Adiciona +8 de ataque. El personaje deberá usar un turno para regresar a donde estaba.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +5 en Defensa.</defensa></span><span class=\"action-result\" data-conocimientos=\"liderazgo\"><strong>Resultado  #3 \"fortitudo cordis\" (5)</strong><span>Adiciona <em>2</em> (El 75% de CAR) en acciones del conocimiento mencionado durante dos turnos.</span></span><span class=\"roll-result\">15</span></div></div></div>",
             "url": "r9927",
             "simpleTitle": "Evento: yule - la caza del diricawl",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Kaoru Satoo",
@@ -102998,10 +103097,11 @@ const DBModule = (function () {
                 "maldición, ofensivo",
                 "encantamiento, neutral"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Kaoru Satoo ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"petrificus totalus\" (12)</strong><span>El objetivo queda petrificado durante un tiempo prolongado. El personaje no podrá realizar acciones hasta que otro personaje lo libere o realice cinco roles. Si al conjurador le anulan acciones, se eliminan los efectos inmediatamente.</span></span><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #2 \"lumos maxima\" (16)</strong><span>La esfera se mantiene con buena intensidad y sigue las órdenes.<br><br>El PNJ \"lazo del diablo\" es débil a los hechizos de tipo \"luz\". Duplica el valor del dado y el bonus del hechizo.</span></span><span class=\"roll-result\">4</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Kaoru Satoo ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"petrificus totalus\" (12)</strong><span>El objetivo queda petrificado durante un tiempo prolongado. El personaje no podrá realizar acciones hasta que otro personaje lo libere o realice cinco roles. Si al conjurador le anulan acciones, se eliminan los efectos inmediatamente.</span></span><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #2 \"lumos maxima\" (16)</strong><span>La esfera se mantiene con buena intensidad y sigue las órdenes.<br><br>El PNJ \"lazo del diablo\" es débil a los hechizos de tipo \"luz\". Duplica el valor del dado y el bonus del hechizo.<br /><br /><span>Aleja al Diricawl una casilla.</span></span></span><span class=\"roll-result\">4</span></div></div></div>",
             "url": "r10018",
             "simpleTitle": "Evento: yule - la caza del diricawl",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Hermes Rosier",
@@ -103041,10 +103141,11 @@ const DBModule = (function () {
                 "encantamiento, ofensivo",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Hermes Rosier ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"lazo del diablo\" (1)</strong><ataque>Toma una extremidad de la víctima y la atrae hacia sí. Adiciona +4 de ataque.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +2 en Defensa.</defensa></span><span class=\"action-result\" data-conocimientos=\"magia sin varita\"><strong>Resultado  #2 \"magia sin varita\" (4)</strong><span>Permite generar un hechizo adicional para el cual se deberán lanzar dados.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #3 \"immobulus\" (19)</strong><span>El hechizo puede paralizar a un único objetivo o, si el lanzador lo decide, a todo un grupo de objetivos cercanos entre sí, tal como se usa para inmovilizar de una vez a un enjambre completo de criaturas pequeñas. Cada objetivo alcanzado queda paralizado durante <em>+30</em> (100% del conocimiento en DCAO) turnos y tarda más en recuperar el control de su cuerpo, donde no podrá realizar acciones, o hasta que un personaje lo libere si se usa como ataque, o impide el ataque, reduciendo el mismo a cero, si se usa como defensa adicionando +4 puntos en la siguiente acción del defensor.</span></span><span class=\"action-result\" data-conocimientos=\"magia sin varita\"><strong>Resultado  #4 \"magia sin varita\" (14)</strong><span>Permite generar un hechizo adicional para el cual se deberán lanzar dados. Si es de daño o defensa, adiciona <em>+0</em> (50% del conocimiento en MAGIA SIN VARITA) a su resultado.</span></span><span class=\"action-result\" data-conocimientos=\"herbología\"><strong>Resultado  #5 \"lumos solem\" (13)</strong><span>El destello es intenso y momentáneamente deslumbra. Si se usa contra un objetivo, el mismo deberá descontar <em>+3</em> (75% del conocimiento en HERBOLOGÍA) puntos en su siguiente acción.<br><br>El PNJ \"lazo del diablo\" es débil a los hechizos de tipo \"luz\". Duplica el valor del dado y el bonus del hechizo.</span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #6 \"lazo del diablo\" (18)</strong><ataque>Arrastra a la víctima a la zona siguiente. Adiciona +12 de ataque. El personaje deberá usar un turno para regresar a donde estaba.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +8 en Defensa.</defensa></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Hermes Rosier ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"lazo del diablo\" (1)</strong><ataque>Toma una extremidad de la víctima y la atrae hacia sí. Adiciona +4 de ataque.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +2 en Defensa.</defensa></span><span class=\"action-result\" data-conocimientos=\"magia sin varita\"><strong>Resultado  #2 \"magia sin varita\" (4)</strong><span>Permite generar un hechizo adicional para el cual se deberán lanzar dados.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #3 \"immobulus\" (19)</strong><span>El hechizo puede paralizar a un único objetivo o, si el lanzador lo decide, a todo un grupo de objetivos cercanos entre sí, tal como se usa para inmovilizar de una vez a un enjambre completo de criaturas pequeñas. Cada objetivo alcanzado queda paralizado durante <em>+30</em> (100% del conocimiento en DCAO) turnos y tarda más en recuperar el control de su cuerpo, donde no podrá realizar acciones, o hasta que un personaje lo libere si se usa como ataque, o impide el ataque, reduciendo el mismo a cero, si se usa como defensa adicionando +4 puntos en la siguiente acción del defensor.</span></span><span class=\"action-result\" data-conocimientos=\"magia sin varita\"><strong>Resultado  #4 \"magia sin varita\" (14)</strong><span>Permite generar un hechizo adicional para el cual se deberán lanzar dados. Si es de daño o defensa, adiciona <em>+0</em> (50% del conocimiento en MAGIA SIN VARITA) a su resultado.</span></span><span class=\"action-result\" data-conocimientos=\"herbología\"><strong>Resultado  #5 \"lumos solem\" (13)</strong><span>El destello es intenso y momentáneamente deslumbra. Si se usa contra un objetivo, el mismo deberá descontar <em>+3</em> (75% del conocimiento en HERBOLOGÍA) puntos en su siguiente acción.<br><br>El PNJ \"lazo del diablo\" es débil a los hechizos de tipo \"luz\". Duplica el valor del dado y el bonus del hechizo.<br /><br /><span>Aleja al Diricawl una casilla.</span></span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #6 \"lazo del diablo\" (18)</strong><ataque>Arrastra a la víctima a la zona siguiente. Adiciona +12 de ataque. El personaje deberá usar un turno para regresar a donde estaba.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +8 en Defensa.</defensa></span></div></div></div>",
             "url": "r10586",
             "simpleTitle": "Evento: yule - la caza del diricawl",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Ruaan S. Patil",
@@ -103079,7 +103180,8 @@ const DBModule = (function () {
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Ruaan S. Patil ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"flipendo\" (1)</strong><span>El oponente es derribado y lanzado al suelo. Adiciona <em>+12</em> (75% del conocimiento en DCAO) en el daño.<br><br>El PNJ \"lazo del diablo\" repele los hechizos de tipo \"escudo\". El ataque se reduce en su totalidad a cero.</span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #2 \"lazo del diablo\" (1)</strong><ataque>Toma una extremidad de la víctima y la atrae hacia sí. Adiciona +4 de ataque.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +2 en Defensa.</defensa></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #3 \"lazo del diablo\" (15)</strong><ataque>Arrastra a la víctima a la zona siguiente. Adiciona +12 de ataque. El personaje deberá usar un turno para regresar a donde estaba.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +8 en Defensa.</defensa></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #4 \"protego\" (14)</strong><span>El escudo es extremadamente resistente. Reduce el ataque en <em>+6</em> (40% del conocimiento en DCAO) puntos adicionales.<br><br>El PNJ \"lazo del diablo\" repele los hechizos de tipo \"escudo\". El ataque se reduce en su totalidad a cero.</span></span></div></div></div>",
             "url": "r10602",
             "simpleTitle": "Evento: yule - la caza del diricawl",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Alastor Moody",
@@ -103102,10 +103204,11 @@ const DBModule = (function () {
                 "encantamiento, ofensivo",
                 "encantamiento, defensivo"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"diffindo\" (19)</strong><span>El corte es profundo y letal si aplicado sobre un ser vivo. Adiciona <em>+25</em> (100% del conocimiento en ENCANTAMIENTOS) en el daño.</span></span><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #2 \"fianto duri\" (10)</strong><span>El encantamiento se refuerza al máximo, volviéndolo extremadamente difícil de romper. Adiciona <em>+25</em> (100% del conocimiento en ENCANTAMIENTOS) en la siguiente lanzada de dados donde se utilice un hechizo protector.<br><br>El PNJ \"lazo del diablo\" repele los hechizos de tipo \"escudo\". El ataque se reduce en su totalidad a cero.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"diffindo\" (19)</strong><span>El corte es profundo y letal si aplicado sobre un ser vivo. Adiciona <em>+25</em> (100% del conocimiento en ENCANTAMIENTOS) en el daño.<br /><br /><span>Libera a un personaje atrapado por el lazo del diablo.</span></span></span><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #2 \"fianto duri\" (10)</strong><span>El encantamiento se refuerza al máximo, volviéndolo extremadamente difícil de romper. Adiciona <em>+25</em> (100% del conocimiento en ENCANTAMIENTOS) en la siguiente lanzada de dados donde se utilice un hechizo protector.<br><br>El PNJ \"lazo del diablo\" repele los hechizos de tipo \"escudo\". El ataque se reduce en su totalidad a cero.</span></span></div></div></div>",
             "url": "r10628",
             "simpleTitle": "Evento: yule - la caza del diricawl",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Minerva E. McGonagall",
@@ -103128,10 +103231,11 @@ const DBModule = (function () {
                 "transfiguración, ofensivo",
                 "habilidad, sin magia, neutral"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"transformaciones\"><strong>Resultado  #1 \"mutareforma\" (18)</strong><span>La transformación es perfecta e incluso mejora el objeto en detalles.</span></span><span class=\"action-result\" data-conocimientos=\"música\"><strong>Resultado  #2 \"melodia solaminis\" (15)</strong><span>Un aliado cercano se relaja momentáneamente.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"transformaciones\"><strong>Resultado  #1 \"mutareforma\" (18)</strong><span>La transformación es perfecta e incluso mejora el objeto en detalles.</span></span><span class=\"action-result\" data-conocimientos=\"música\"><strong>Resultado  #2 \"melodia solaminis\" (15)</strong><span>Un aliado cercano se relaja momentáneamente.<br /><br /><span>Atrae al Diricawl una casilla hacia ti.</span></span></span></div></div></div>",
             "url": "r10630",
             "simpleTitle": "Evento: yule - la caza del diricawl",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "H. Shun Parkinson",
@@ -103163,10 +103267,11 @@ const DBModule = (function () {
                 "encantamiento, ofensivo",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"lazo del diablo\" (10)</strong><ataque>Arrastra a la víctima a la zona siguiente. Adiciona +12 de ataque. El personaje deberá usar un turno para regresar a donde estaba.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +8 en Defensa.</defensa></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"protego\" (20)</strong><span>El escudo es extremadamente resistente. Reduce el ataque en <em>+14</em> (40% del conocimiento en DCAO) puntos adicionales.<br><br>El PNJ \"lazo del diablo\" repele los hechizos de tipo \"escudo\". El ataque se reduce en su totalidad a cero.</span></span><span class=\"action-result\" data-conocimientos=\"herbología\"><strong>Resultado  #3 \"lumos solem\" (20)</strong><span>El destello es cegador. Si se usa contra un objetivo, anula su siguiente acción.<br><br>El PNJ \"lazo del diablo\" es débil a los hechizos de tipo \"luz\". Duplica el valor del dado y el bonus del hechizo.</span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #4 \"lazo del diablo\" (10)</strong><ataque>Arrastra a la víctima a la zona siguiente. Adiciona +12 de ataque. El personaje deberá usar un turno para regresar a donde estaba.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +8 en Defensa.</defensa></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"lazo del diablo\" (10)</strong><ataque>Arrastra a la víctima a la zona siguiente. Adiciona +12 de ataque. El personaje deberá usar un turno para regresar a donde estaba.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +8 en Defensa.</defensa></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"protego\" (20)</strong><span>El escudo es extremadamente resistente. Reduce el ataque en <em>+14</em> (40% del conocimiento en DCAO) puntos adicionales.<br><br>El PNJ \"lazo del diablo\" repele los hechizos de tipo \"escudo\". El ataque se reduce en su totalidad a cero.</span></span><span class=\"action-result\" data-conocimientos=\"herbología\"><strong>Resultado  #3 \"lumos solem\" (20)</strong><span>El destello es cegador. Si se usa contra un objetivo, anula su siguiente acción.<br><br>El PNJ \"lazo del diablo\" es débil a los hechizos de tipo \"luz\". Duplica el valor del dado y el bonus del hechizo.<br /><br /><span>Aleja al Diricawl una casilla.</span></span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #4 \"lazo del diablo\" (10)</strong><ataque>Arrastra a la víctima a la zona siguiente. Adiciona +12 de ataque. El personaje deberá usar un turno para regresar a donde estaba.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +8 en Defensa.</defensa></span></div></div></div>",
             "url": "r10632",
             "simpleTitle": "Evento: yule - la caza del diricawl",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Asteria C. Lestrange",
@@ -103198,10 +103303,11 @@ const DBModule = (function () {
                 "",
                 "encantamiento, defensivo"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Asteria C. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"herbología\"><strong>Resultado  #1 \"lumos solem\" (13)</strong><span>El destello es cegador. Si se usa contra un objetivo, anula su siguiente acción.<br><br>El PNJ \"lazo del diablo\" es débil a los hechizos de tipo \"luz\". Duplica el valor del dado y el bonus del hechizo.</span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #2 \"lazo del diablo\" (13)</strong><ataque>Arrastra a la víctima a la zona siguiente. Adiciona +12 de ataque. El personaje deberá usar un turno para regresar a donde estaba.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +8 en Defensa.</defensa></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #3 \"lazo del diablo\" (20)</strong><ataque>Inmoviliza a la víctima atrapandola entre sus lazos. Adiciona +20 de ataque. La víctima no podrá realizar acciones hasta que no la liberen.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +12 en Defensa.</defensa></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #4 \"protego\" (17)</strong><span>El escudo es extremadamente resistente. Reduce el ataque en <em>+6</em> (40% del conocimiento en DCAO) puntos adicionales.<br><br>El PNJ \"lazo del diablo\" repele los hechizos de tipo \"escudo\". El ataque se reduce en su totalidad a cero.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Asteria C. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"herbología\"><strong>Resultado  #1 \"lumos solem\" (13)</strong><span>El destello es cegador. Si se usa contra un objetivo, anula su siguiente acción.<br><br>El PNJ \"lazo del diablo\" es débil a los hechizos de tipo \"luz\". Duplica el valor del dado y el bonus del hechizo.<br /><br /><span>Aleja al Diricawl una casilla.</span></span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #2 \"lazo del diablo\" (13)</strong><ataque>Arrastra a la víctima a la zona siguiente. Adiciona +12 de ataque. El personaje deberá usar un turno para regresar a donde estaba.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +8 en Defensa.</defensa></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #3 \"lazo del diablo\" (20)</strong><ataque>Inmoviliza a la víctima atrapandola entre sus lazos. Adiciona +20 de ataque. La víctima no podrá realizar acciones hasta que no la liberen.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +12 en Defensa.</defensa></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #4 \"protego\" (17)</strong><span>El escudo es extremadamente resistente. Reduce el ataque en <em>+6</em> (40% del conocimiento en DCAO) puntos adicionales.<br><br>El PNJ \"lazo del diablo\" repele los hechizos de tipo \"escudo\". El ataque se reduce en su totalidad a cero.</span></span></div></div></div>",
             "url": "r10708",
             "simpleTitle": "Evento: yule - la caza del diricawl",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Kaoru Satoo",
@@ -103209,7 +103315,7 @@ const DBModule = (function () {
                 1
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "dejar comida"
@@ -103220,10 +103326,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Kaoru Satoo ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">1</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Kaoru Satoo ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"dejar comida\" (1)</strong><span><span>Has dejado comida en esa zona, el Diricawl se ha acercado.</span></span></span></div></div></div>",
             "url": "r10891",
             "simpleTitle": "Evento: yule - la caza del diricawl",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Thaddeus L. Nott",
@@ -103251,10 +103358,11 @@ const DBModule = (function () {
                 "",
                 "encantamiento, defensivo"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Thaddeus L. Nott ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"herbología\"><strong>Resultado  #1 \"lumos solem\" (11)</strong><span>El destello es cegador. Si se usa contra un objetivo, anula su siguiente acción.<br><br>El PNJ \"lazo del diablo\" es débil a los hechizos de tipo \"luz\". Duplica el valor del dado y el bonus del hechizo.</span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #2 \"lazo del diablo\" (17)</strong><ataque>Arrastra a la víctima a la zona siguiente. Adiciona +12 de ataque. El personaje deberá usar un turno para regresar a donde estaba.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +8 en Defensa.</defensa></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #3 \"protego\" (7)</strong><span>El escudo es extremadamente resistente. Reduce el ataque en <em>+7</em> (40% del conocimiento en DCAO) puntos adicionales.<br><br>El PNJ \"lazo del diablo\" repele los hechizos de tipo \"escudo\". El ataque se reduce en su totalidad a cero.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Thaddeus L. Nott ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"herbología\"><strong>Resultado  #1 \"lumos solem\" (11)</strong><span>El destello es cegador. Si se usa contra un objetivo, anula su siguiente acción.<br><br>El PNJ \"lazo del diablo\" es débil a los hechizos de tipo \"luz\". Duplica el valor del dado y el bonus del hechizo.<br /><br /><span>Aleja al Diricawl una casilla.</span></span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #2 \"lazo del diablo\" (17)</strong><ataque>Arrastra a la víctima a la zona siguiente. Adiciona +12 de ataque. El personaje deberá usar un turno para regresar a donde estaba.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +8 en Defensa.</defensa></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #3 \"protego\" (7)</strong><span>El escudo es extremadamente resistente. Reduce el ataque en <em>+7</em> (40% del conocimiento en DCAO) puntos adicionales.<br><br>El PNJ \"lazo del diablo\" repele los hechizos de tipo \"escudo\". El ataque se reduce en su totalidad a cero.</span></span></div></div></div>",
             "url": "r10916",
             "simpleTitle": "Evento: yule - la caza del diricawl",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Hermes Rosier",
@@ -103294,10 +103402,11 @@ const DBModule = (function () {
                 "encantamiento, ofensivo",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Hermes Rosier ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"lazo del diablo\" (20)</strong><ataque>Inmoviliza a la víctima atrapandola entre sus lazos. Adiciona +20 de ataque. La víctima no podrá realizar acciones hasta que no la liberen.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +12 en Defensa.</defensa></span><span class=\"action-result\" data-conocimientos=\"magia sin varita\"><strong>Resultado  #2 \"magia sin varita\" (14)</strong><span>Permite generar un hechizo adicional para el cual se deberán lanzar dados. Si es de daño o defensa, adiciona <em>+0</em> (50% del conocimiento en MAGIA SIN VARITA) a su resultado.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #3 \"immobulus\" (16)</strong><span>El hechizo puede paralizar a un único objetivo o, si el lanzador lo decide, a todo un grupo de objetivos cercanos entre sí, tal como se usa para inmovilizar de una vez a un enjambre completo de criaturas pequeñas. Cada objetivo alcanzado queda paralizado durante <em>+30</em> (100% del conocimiento en DCAO) turnos y tarda más en recuperar el control de su cuerpo, donde no podrá realizar acciones, o hasta que un personaje lo libere si se usa como ataque, o impide el ataque, reduciendo el mismo a cero, si se usa como defensa adicionando +4 puntos en la siguiente acción del defensor.</span></span><span class=\"action-result\" data-conocimientos=\"magia sin varita\"><strong>Resultado  #4 \"magia sin varita\" (19)</strong><span>Permite generar un hechizo adicional para el cual se deberán lanzar dados. Si es de daño o defensa, adiciona <em>+0</em> (50% del conocimiento en MAGIA SIN VARITA) a su resultado.</span></span><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #5 \"diffindo\" (4)</strong><span>El objeto se rasga, dejando un daño evidente. Adiciona <em>+8</em> (50% del conocimiento en ENCANTAMIENTOS) en el daño.</span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #6 \"lazo del diablo\" (1)</strong><ataque>Toma una extremidad de la víctima y la atrae hacia sí. Adiciona +4 de ataque.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +2 en Defensa.</defensa></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Hermes Rosier ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"lazo del diablo\" (20)</strong><ataque>Inmoviliza a la víctima atrapandola entre sus lazos. Adiciona +20 de ataque. La víctima no podrá realizar acciones hasta que no la liberen.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +12 en Defensa.</defensa></span><span class=\"action-result\" data-conocimientos=\"magia sin varita\"><strong>Resultado  #2 \"magia sin varita\" (14)</strong><span>Permite generar un hechizo adicional para el cual se deberán lanzar dados. Si es de daño o defensa, adiciona <em>+0</em> (50% del conocimiento en MAGIA SIN VARITA) a su resultado.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #3 \"immobulus\" (16)</strong><span>El hechizo puede paralizar a un único objetivo o, si el lanzador lo decide, a todo un grupo de objetivos cercanos entre sí, tal como se usa para inmovilizar de una vez a un enjambre completo de criaturas pequeñas. Cada objetivo alcanzado queda paralizado durante <em>+30</em> (100% del conocimiento en DCAO) turnos y tarda más en recuperar el control de su cuerpo, donde no podrá realizar acciones, o hasta que un personaje lo libere si se usa como ataque, o impide el ataque, reduciendo el mismo a cero, si se usa como defensa adicionando +4 puntos en la siguiente acción del defensor.</span></span><span class=\"action-result\" data-conocimientos=\"magia sin varita\"><strong>Resultado  #4 \"magia sin varita\" (19)</strong><span>Permite generar un hechizo adicional para el cual se deberán lanzar dados. Si es de daño o defensa, adiciona <em>+0</em> (50% del conocimiento en MAGIA SIN VARITA) a su resultado.</span></span><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #5 \"diffindo\" (4)</strong><span>El objeto se rasga, dejando un daño evidente. Adiciona <em>+8</em> (50% del conocimiento en ENCANTAMIENTOS) en el daño.<br /><br /><span>No es suficiente para brindar información adicional.</span></span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #6 \"lazo del diablo\" (1)</strong><ataque>Toma una extremidad de la víctima y la atrae hacia sí. Adiciona +4 de ataque.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +2 en Defensa.</defensa></span></div></div></div>",
             "url": "r10929",
             "simpleTitle": "Evento: yule - la caza del diricawl",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Alastor Moody",
@@ -103326,7 +103435,8 @@ const DBModule = (function () {
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"ebublio\" (1)</strong><span>Una burbuja transparente y frágil cubre al objetivo. La víctima deberá tirar un lado de acción y sumar su fuerza, si el resultado es mayor a 10 queda liberado.<br><br>El PNJ \"diricawl\" es débil a los hechizos de tipo \"restricción\". Duplica el valor del dado y el bonus del hechizo.</span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #2 \"diricawl\" (16)</strong><ataque>Sin ataque específico.</ataque><defensa>Se desaparece para esquivar el ataque y aparece a unos metros. Adiciona +2 en Defensa.</defensa></span><span class=\"roll-result\">17</span><span class=\"roll-result\">18</span></div></div></div>",
             "url": "r10969",
             "simpleTitle": "Evento: yule - la caza del diricawl",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Minerva E. McGonagall",
@@ -103355,7 +103465,8 @@ const DBModule = (function () {
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"desmaius\" (3)</strong><span>El objetivo cae inconsciente al instante. La víctima pierde sus siguientes 2 acciones.</span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #2 \"diricawl\" (5)</strong><ataque>Sin ataque específico.</ataque><defensa>Se desaparece para esquivar el ataque y aparece a unos metros. Adiciona +1 en Defensa.</defensa></span><span class=\"roll-result\">8</span><span class=\"roll-result\">4</span></div></div></div>",
             "url": "r10983",
             "simpleTitle": "Evento: yule - la caza del diricawl",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "H. Shun Parkinson",
@@ -103387,10 +103498,11 @@ const DBModule = (function () {
                 "encantamiento, ofensivo",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"lazo del diablo\" (1)</strong><ataque>Toma una extremidad de la víctima y la atrae hacia sí. Adiciona +4 de ataque.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +2 en Defensa.</defensa></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"protego\" (13)</strong><span>El escudo es extremadamente resistente. Reduce el ataque en <em>+14</em> (40% del conocimiento en DCAO) puntos adicionales.<br><br>El PNJ \"lazo del diablo\" repele los hechizos de tipo \"escudo\". El ataque se reduce en su totalidad a cero.</span></span><span class=\"action-result\" data-conocimientos=\"herbología\"><strong>Resultado  #3 \"lumos solem\" (15)</strong><span>El destello es cegador. Si se usa contra un objetivo, anula su siguiente acción.<br><br>El PNJ \"lazo del diablo\" es débil a los hechizos de tipo \"luz\". Duplica el valor del dado y el bonus del hechizo.</span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #4 \"lazo del diablo\" (11)</strong><ataque>Arrastra a la víctima a la zona siguiente. Adiciona +12 de ataque. El personaje deberá usar un turno para regresar a donde estaba.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +8 en Defensa.</defensa></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"lazo del diablo\" (1)</strong><ataque>Toma una extremidad de la víctima y la atrae hacia sí. Adiciona +4 de ataque.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +2 en Defensa.</defensa></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"protego\" (13)</strong><span>El escudo es extremadamente resistente. Reduce el ataque en <em>+14</em> (40% del conocimiento en DCAO) puntos adicionales.<br><br>El PNJ \"lazo del diablo\" repele los hechizos de tipo \"escudo\". El ataque se reduce en su totalidad a cero.</span></span><span class=\"action-result\" data-conocimientos=\"herbología\"><strong>Resultado  #3 \"lumos solem\" (15)</strong><span>El destello es cegador. Si se usa contra un objetivo, anula su siguiente acción.<br><br>El PNJ \"lazo del diablo\" es débil a los hechizos de tipo \"luz\". Duplica el valor del dado y el bonus del hechizo.<br /><br /><span>Aleja al Diricawl una casilla.</span></span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #4 \"lazo del diablo\" (11)</strong><ataque>Arrastra a la víctima a la zona siguiente. Adiciona +12 de ataque. El personaje deberá usar un turno para regresar a donde estaba.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +8 en Defensa.</defensa></span></div></div></div>",
             "url": "r10985",
             "simpleTitle": "Evento: yule - la caza del diricawl",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Orion A. Black",
@@ -103422,10 +103534,11 @@ const DBModule = (function () {
                 "encantamiento, ofensivo",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Orion A. Black ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"lazo del diablo\" (6)</strong><ataque>Arrastra a la víctima a la zona anterior. Adiciona +8 de ataque. El personaje deberá usar un turno para regresar a donde estaba.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +5 en Defensa.</defensa></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"protego\" (11)</strong><span>El escudo es extremadamente resistente. Reduce el ataque en <em>+6</em> (40% del conocimiento en DCAO) puntos adicionales.<br><br>El PNJ \"lazo del diablo\" repele los hechizos de tipo \"escudo\". El ataque se reduce en su totalidad a cero.</span></span><span class=\"action-result\" data-conocimientos=\"herbología\"><strong>Resultado  #3 \"lumos solem\" (11)</strong><span>El destello es cegador. Si se usa contra un objetivo, anula su siguiente acción.<br><br>El PNJ \"lazo del diablo\" es débil a los hechizos de tipo \"luz\". Duplica el valor del dado y el bonus del hechizo.</span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #4 \"lazo del diablo\" (2)</strong><ataque>Arrastra a la víctima a la zona anterior. Adiciona +8 de ataque. El personaje deberá usar un turno para regresar a donde estaba.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +5 en Defensa.</defensa></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Orion A. Black ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"lazo del diablo\" (6)</strong><ataque>Arrastra a la víctima a la zona anterior. Adiciona +8 de ataque. El personaje deberá usar un turno para regresar a donde estaba.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +5 en Defensa.</defensa></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"protego\" (11)</strong><span>El escudo es extremadamente resistente. Reduce el ataque en <em>+6</em> (40% del conocimiento en DCAO) puntos adicionales.<br><br>El PNJ \"lazo del diablo\" repele los hechizos de tipo \"escudo\". El ataque se reduce en su totalidad a cero.</span></span><span class=\"action-result\" data-conocimientos=\"herbología\"><strong>Resultado  #3 \"lumos solem\" (11)</strong><span>El destello es cegador. Si se usa contra un objetivo, anula su siguiente acción.<br><br>El PNJ \"lazo del diablo\" es débil a los hechizos de tipo \"luz\". Duplica el valor del dado y el bonus del hechizo.<br /><br /><span>Aleja al Diricawl una casilla.</span></span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #4 \"lazo del diablo\" (2)</strong><ataque>Arrastra a la víctima a la zona anterior. Adiciona +8 de ataque. El personaje deberá usar un turno para regresar a donde estaba.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +5 en Defensa.</defensa></span></div></div></div>",
             "url": "r11104",
             "simpleTitle": "Evento: yule - la caza del diricawl",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Damien A. Ashford-Dempsey",
@@ -103457,10 +103570,11 @@ const DBModule = (function () {
                 "encantamiento, ofensivo",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Damien A. Ashford-Dempsey ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"lazo del diablo\" (14)</strong><ataque>Arrastra a la víctima a la zona siguiente. Adiciona +12 de ataque. El personaje deberá usar un turno para regresar a donde estaba.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +8 en Defensa.</defensa></span><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #2 \"glacius\" (5)</strong><span>No sucede nada, capaz este hechizo no es para ti.</span></span><span class=\"action-result\" data-conocimientos=\"herbología\"><strong>Resultado  #3 \"lumos solem\" (4)</strong><span>No sucede nada, capaz este hechizo no es para ti.<br><br>El PNJ \"lazo del diablo\" es débil a los hechizos de tipo \"luz\". Duplica el valor del dado y el bonus del hechizo.</span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #4 \"lazo del diablo\" (10)</strong><ataque>Arrastra a la víctima a la zona siguiente. Adiciona +12 de ataque. El personaje deberá usar un turno para regresar a donde estaba.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +8 en Defensa.</defensa></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Damien A. Ashford-Dempsey ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"lazo del diablo\" (14)</strong><ataque>Arrastra a la víctima a la zona siguiente. Adiciona +12 de ataque. El personaje deberá usar un turno para regresar a donde estaba.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +8 en Defensa.</defensa></span><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #2 \"glacius\" (5)</strong><span>No sucede nada, capaz este hechizo no es para ti.</span></span><span class=\"action-result\" data-conocimientos=\"herbología\"><strong>Resultado  #3 \"lumos solem\" (4)</strong><span><span>Aleja al Diricawl una casilla.</span></span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #4 \"lazo del diablo\" (10)</strong><ataque>Arrastra a la víctima a la zona siguiente. Adiciona +12 de ataque. El personaje deberá usar un turno para regresar a donde estaba.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +8 en Defensa.</defensa></span></div></div></div>",
             "url": "r11169",
             "simpleTitle": "Evento: yule - la caza del diricawl",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Kaoru Satoo",
@@ -103468,7 +103582,7 @@ const DBModule = (function () {
                 1
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "ir de zona d4 a zona d5"
@@ -103479,10 +103593,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Kaoru Satoo ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">1</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Kaoru Satoo ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"ir de zona d4 a zona d5\" (1)</strong><span><span><div class=\"mission-card\" data-ver=\"/u9,/u24,/u8,/u12,/u91,/u55,/u110,/u118,/u135\"><topes><i class=\"fa-solid fa-eye-low-vision\"></i></topes><req>Solo visible para atributo: int mayor a 1</req><span>Has ingresado a la zona D5, al final del bosque pueden encontrase abedules, con su corteza blanca casi imitando la nieve, las guirlandas de luces crecen por sus troncos hasta unas cintas de colores que advierten que más allá de sus límites no encontrarán a la criatura.</span></div></span></span></span></div></div></div>",
             "url": "r11278",
             "simpleTitle": "Evento: yule - la caza del diricawl",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Hermes Rosier",
@@ -103518,7 +103633,8 @@ const DBModule = (function () {
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Hermes Rosier ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"magia sin varita\"><strong>Resultado  #1 \"magia sin varita\" (6)</strong><span>Permite generar un hechizo adicional para el cual se deberán lanzar dados.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"protego\" (7)</strong><span>El escudo es extremadamente resistente. Reduce el ataque en <em>+12</em> (40% del conocimiento en DCAO) puntos adicionales.<br><br>El PNJ \"lazo del diablo\" repele los hechizos de tipo \"escudo\". El ataque se reduce en su totalidad a cero.</span></span><span class=\"action-result\" data-conocimientos=\"magia sin varita\"><strong>Resultado  #3 \"magia sin varita\" (10)</strong><span>Permite generar un hechizo adicional para el cual se deberán lanzar dados. Si es de daño o defensa, adiciona <em>+0</em> (50% del conocimiento en MAGIA SIN VARITA) a su resultado.</span></span><span class=\"action-result\" data-conocimientos=\"transformaciones\"><strong>Resultado  #4 \"mutareforma\" (12)</strong><span>La transformación es perfecta e incluso mejora el objeto en detalles.</span></span><span class=\"roll-result\">15</span><span class=\"roll-result\">19</span></div></div></div>",
             "url": "r11493",
             "simpleTitle": "Evento: yule - la caza del diricawl",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Ruaan S. Patil",
@@ -103550,10 +103666,11 @@ const DBModule = (function () {
                 "",
                 "maldición, defensivo"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Ruaan S. Patil ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"flipendo\" (2)</strong><span>El oponente es lanzado por los aires con gran fuerza, impactando contra una superficie. Adiciona <em>+6</em> (40% del conocimiento en DCAO) puntos adicionales de daño al objetivo.<br><br>El PNJ \"lazo del diablo\" repele los hechizos de tipo \"escudo\". El ataque se reduce en su totalidad a cero.</span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #2 \"lazo del diablo\" (9)</strong><ataque>Arrastra a la víctima a la zona anterior. Adiciona +8 de ataque. El personaje deberá usar un turno para regresar a donde estaba.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +5 en Defensa.</defensa></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #3 \"lazo del diablo\" (12)</strong><ataque>Arrastra a la víctima a la zona siguiente. Adiciona +12 de ataque. El personaje deberá usar un turno para regresar a donde estaba.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +8 en Defensa.</defensa></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #4 \"expulso\" (9)</strong><span>El objetivo es lanzado varios metros hacia atrás con fuerza. Adiciona el plus del ataque en la Defensa o la Fuerza del personaje.<br><br>El PNJ \"lazo del diablo\" es débil a los hechizos de tipo \"fuego\". Duplica el valor del dado y el bonus del hechizo.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Ruaan S. Patil ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"flipendo\" (2)</strong><span>El oponente es lanzado por los aires con gran fuerza, impactando contra una superficie. Adiciona <em>+6</em> (40% del conocimiento en DCAO) puntos adicionales de daño al objetivo.<br><br>El PNJ \"lazo del diablo\" repele los hechizos de tipo \"escudo\". El ataque se reduce en su totalidad a cero.</span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #2 \"lazo del diablo\" (9)</strong><ataque>Arrastra a la víctima a la zona anterior. Adiciona +8 de ataque. El personaje deberá usar un turno para regresar a donde estaba.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +5 en Defensa.</defensa></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #3 \"lazo del diablo\" (12)</strong><ataque>Arrastra a la víctima a la zona siguiente. Adiciona +12 de ataque. El personaje deberá usar un turno para regresar a donde estaba.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +8 en Defensa.</defensa></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #4 \"expulso\" (9)</strong><span>El objetivo es lanzado varios metros hacia atrás con fuerza. Adiciona el plus del ataque en la Defensa o la Fuerza del personaje.<br><br>El PNJ \"lazo del diablo\" es débil a los hechizos de tipo \"fuego\". Duplica el valor del dado y el bonus del hechizo.<br /><br /><span>Libera al personaje de las ataduras del lazo del diablo, si se utiliza con magia no verbal.</span></span></span></div></div></div>",
             "url": "r11544",
             "simpleTitle": "Evento: yule - la caza del diricawl",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Alastor Moody",
@@ -103582,7 +103699,8 @@ const DBModule = (function () {
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"atabraquium\" (9)</strong><span>El objetivo queda firmemente atado de pies y manos. Deberá consumir una acción en liberarse de las ataduras a través de hechizos.<br><br>El PNJ \"diricawl\" repele los hechizos de tipo \"ilusión\". El ataque se reduce en su totalidad a cero.</span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #2 \"diricawl\" (14)</strong><ataque>Sin ataque específico.</ataque><defensa>Se desaparece para esquivar el ataque y aparece a unos metros. Adiciona +2 en Defensa.</defensa></span><span class=\"roll-result\">4</span><span class=\"roll-result\">17</span></div></div></div>",
             "url": "r11605",
             "simpleTitle": "Evento: yule - la caza del diricawl",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Minerva E. McGonagall",
@@ -103591,7 +103709,8 @@ const DBModule = (function () {
                 3
             ],
             "title": [
-                "actions"
+                "actions",
+                "mission"
             ],
             "key": [
                 "melodia solaminis",
@@ -103605,10 +103724,11 @@ const DBModule = (function () {
                 "habilidad, sin magia, neutral",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"música\"><strong>Resultado  #1 \"melodia solaminis\" (18)</strong><span>Un aliado cercano se relaja momentáneamente.</span></span><span class=\"roll-result\">3</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"música\"><strong>Resultado  #1 \"melodia solaminis\" (18)</strong><span>Un aliado cercano se relaja momentáneamente.<br /><br /><span>Atrae al Diricawl una casilla hacia ti.</span></span></span><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #2 \"ir de zona d5 a zona d4\" (3)</strong><span><span><div class=\"mission-card\" data-ver=\"/u9,/u24,/u8,/u12,/u91,/u55,/u110,/u118,/u135\"><topes><i class=\"fa-solid fa-eye-low-vision\"></i></topes><req>Solo visible para atributo: int mayor a 1</req><span>Has encontrado al Diricawl, agrega al mismo como personaje no jugable y comprueba si puedes atraparlo (Hasta que el equipo actual no lo resuelva, la criatura no se moverá por acciones del resto).</span></div><div class=\"mission-card\" data-ver=\"/u9,/u24,/u8,/u12,/u91,/u55,/u110,/u118,/u135\"><topes><i class=\"fa-solid fa-eye-low-vision\"></i></topes><req>Solo visible para atributo: int mayor a 1</req><span>Has ingresado a la zona D4, mientras las hayas se desvanecen, los fresnos vuelven a hacerse notar, al igual que unos alisos en cuyas ramas y a los pies del árbol pueden encontrarse conos leñosos. Aunque alguien se ha encarcado de pintar la mayoría de los que se encuentra en el suelo con colores navideños.</span></div><div class=\"mission-card\" data-ver=\"\"><topes><i class=\"fa-solid fa-eye-low-vision\"></i></topes><req>Solo visible para </req><span>Oh no, te has cruzado un Lazo del Diablo, agrega el mismo como PNJ, posee 80PV, 8 de Fuerza y 6 de Constitución.</span></div></span></span></span></div></div></div>",
             "url": "r11615",
             "simpleTitle": "Evento: yule - la caza del diricawl",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "H. Shun Parkinson",
@@ -103616,7 +103736,7 @@ const DBModule = (function () {
                 5
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "ir de zona a3 a zona a4"
@@ -103627,10 +103747,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">5</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"ir de zona a3 a zona a4\" (5)</strong><span><span><div class=\"mission-card\" data-ver=\"/u9,/u24,/u8,/u12,/u91,/u55,/u110,/u118,/u135\"><topes><i class=\"fa-solid fa-eye-low-vision\"></i></topes><req>Solo visible para atributo: int mayor a 1</req><span>Has ingresado a la zona A4, mientras las hayas se desvanecen, los fresnos vuelven a hacerse notar, al igual que unos alisos en cuyas ramas y a los pies del árbol pueden encontrarse conos leñosos. Aunque alguien se ha encarcado de pintar la mayoría de los que se encuentra en el suelo con colores navideños.</span></div></span></span></span></div></div></div>",
             "url": "r11617",
             "simpleTitle": "Evento: yule - la caza del diricawl",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Orion A. Black",
@@ -103656,7 +103777,8 @@ const DBModule = (function () {
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Orion A. Black ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"liderazgo\"><strong>Resultado  #1 \"anticipatio hostis\" (15)</strong><span>Los aliados podrán atacar primero indiferente a los resultados de los dados y adiciona <em>+2</em> (50% del conocimiento en LIDERAZGO) al primer ataque.</span></span><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #2 \"incendio\" (13)</strong><span>Las llamas son extremadamente poderosas y difíciles de extinguir, causando incendios descontrolados. Adiciona <em>+15</em> (100% del conocimiento en ENCANTAMIENTOS) en el daño.<br><br>El PNJ \"lazo del diablo\" es débil a los hechizos de tipo \"fuego\". Duplica el valor del dado y el bonus del hechizo.</span></span></div></div></div>",
             "url": "r11738",
             "simpleTitle": "Evento: yule - la caza del diricawl",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Augusta O. Rookwood",
@@ -103678,7 +103800,8 @@ const DBModule = (function () {
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Augusta O. Rookwood ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"incendio\" (17)</strong><span>No sucede nada, capaz este hechizo no es para ti.<br><br>El PNJ \"lazo del diablo\" es débil a los hechizos de tipo \"fuego\". Duplica el valor del dado y el bonus del hechizo.</span></span></div></div></div>",
             "url": "r11926",
             "simpleTitle": "Evento: yule - la caza del diricawl",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Kaoru Satoo",
@@ -103687,7 +103810,8 @@ const DBModule = (function () {
                 9
             ],
             "title": [
-                "actions"
+                "actions",
+                "mission"
             ],
             "key": [
                 "melodia solaminis",
@@ -103701,10 +103825,11 @@ const DBModule = (function () {
                 "habilidad, sin magia, neutral",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Kaoru Satoo ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"música\"><strong>Resultado  #1 \"melodia solaminis\" (15)</strong><span>Un aliado cercano se relaja momentáneamente.</span></span><span class=\"roll-result\">9</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Kaoru Satoo ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"música\"><strong>Resultado  #1 \"melodia solaminis\" (15)</strong><span>Un aliado cercano se relaja momentáneamente.<br /><br /><span>Atrae al Diricawl una casilla hacia ti.</span></span></span><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #2 \"ir de zona d4 a zona d3\" (9)</strong><span><span><div class=\"mission-card\" data-ver=\"/u9,/u24,/u8,/u12,/u91,/u55,/u110,/u118,/u135\"><topes><i class=\"fa-solid fa-eye-low-vision\"></i></topes><req>Solo visible para atributo: int mayor a 1</req><span>Has ingresado a la zona D3, el bosque de hayas deslumbra con sus hojas cobrizas, en esa zona donde solo esta dicho árbol, puede notarse que alguien ha encantado las hojas para que sean de cobre produciendo una canción de cuna en la zona, además de una imagen hermosa.</span></div></span></span></span></div></div></div>",
             "url": "r12169",
             "simpleTitle": "Evento: yule - la caza del diricawl",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Thaddeus L. Nott",
@@ -103712,7 +103837,7 @@ const DBModule = (function () {
                 20
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "dejar comida"
@@ -103723,10 +103848,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Thaddeus L. Nott ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">20</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Thaddeus L. Nott ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"dejar comida\" (20)</strong><span><span>Has dejado comida en esa zona, el Diricawl se ha acercado.</span></span></span></div></div></div>",
             "url": "r12177",
             "simpleTitle": "Evento: yule - la caza del diricawl",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Hermes Rosier",
@@ -103748,7 +103874,8 @@ const DBModule = (function () {
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Hermes Rosier ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"incendio\" (11)</strong><span>Las llamas son extremadamente poderosas y difíciles de extinguir, causando incendios descontrolados. Adiciona <em>+17</em> (100% del conocimiento en ENCANTAMIENTOS) en el daño.<br><br>El PNJ \"lazo del diablo\" es débil a los hechizos de tipo \"fuego\". Duplica el valor del dado y el bonus del hechizo.</span></span></div></div></div>",
             "url": "r12477",
             "simpleTitle": "Evento: yule - la caza del diricawl",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Ruaan S. Patil",
@@ -103780,7 +103907,8 @@ const DBModule = (function () {
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Ruaan S. Patil ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"flipendo\" (8)</strong><span>El oponente es lanzado por los aires con gran fuerza, impactando contra una superficie. Adiciona <em>+6</em> (40% del conocimiento en DCAO) puntos adicionales de daño al objetivo.<br><br>El PNJ \"lazo del diablo\" repele los hechizos de tipo \"escudo\". El ataque se reduce en su totalidad a cero.</span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #2 \"lazo del diablo\" (1)</strong><ataque>Toma una extremidad de la víctima y la atrae hacia sí. Adiciona +4 de ataque.</ataque><defensa>Resistencia natural ante los hechizos. Adiciona +2 en Defensa.</defensa></span><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #3 \"episkey\" (11)</strong><span>Las heridas se cierran parcialmente y la inflamación disminuye. Adiciona +7PV.</span></span><span class=\"roll-result\">7</span></div></div></div>",
             "url": "r12495",
             "simpleTitle": "Evento: yule - la caza del diricawl",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Alastor Moody",
@@ -103812,7 +103940,8 @@ const DBModule = (function () {
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"diricawl\" (15)</strong><ataque>Sin ataque específico.</ataque><defensa>Se desaparece para esquivar el ataque y aparece a unos metros. Adiciona +2 en Defensa.</defensa></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"immobulus\" (17)</strong><span>El hechizo puede paralizar a un único objetivo o, si el lanzador lo decide, a todo un grupo de objetivos cercanos entre sí, tal como se usa para inmovilizar de una vez a un enjambre completo de criaturas pequeñas. Cada objetivo alcanzado queda paralizado durante <em>+32</em> (100% del conocimiento en DCAO) turnos y tarda más en recuperar el control de su cuerpo, donde no podrá realizar acciones, o hasta que un personaje lo libere si se usa como ataque, o impide el ataque, reduciendo el mismo a cero, si se usa como defensa adicionando +5 puntos en la siguiente acción del defensor.<br><br>El PNJ \"diricawl\" es débil a los hechizos de tipo \"restricción\". Duplica el valor del dado y el bonus del hechizo.</span></span><span class=\"action-result\" data-conocimientos=\"transformaciones\"><strong>Resultado  #3 \"silentiaforma\" (12)</strong><span>La transformación es exacta, y el objeto es resistente, durable y puede presentar propiedades mágicas menores.</span></span><span class=\"roll-result\">19</span></div></div></div>",
             "url": "r12515",
             "simpleTitle": "Evento: yule - la caza del diricawl",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Alastor Moody",
@@ -103828,7 +103957,8 @@ const DBModule = (function () {
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-felix-felicis\"><span>Alastor Moody ha lanzado los dados \"felix felicis\"</span><div class=\"dice-results\"><span class=\"roll-result nro2\"><i class=\"fa-solid fa-sparkles\"></i>Se nota que sabes lo que estás haciendo, o Félix lo sabe.</span></div></div></div>",
             "url": "r9351",
             "simpleTitle": "Evento - yule: el baile",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Cuthbert S. Selwyn",
@@ -103836,7 +103966,7 @@ const DBModule = (function () {
                 8
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "perseguir a nina wraithwood"
@@ -103847,10 +103977,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cuthbert S. Selwyn ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">8</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cuthbert S. Selwyn ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"perseguir a nina wraithwood\" (8)</strong><span><span>En el momento en que comienzan a perseguir a Nina, la misma se voltea el tiempo justo antes de saludarlos con un guiño y desaparecerse del lugar con el característico chasquido.</span></span></span></div></div></div>",
             "url": "r9614",
             "simpleTitle": "Evento - yule: el baile",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Iarlaith C. Sayre",
@@ -103858,7 +103989,7 @@ const DBModule = (function () {
                 7
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "investigar caja musical"
@@ -103869,10 +104000,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Iarlaith C. Sayre ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">7</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Iarlaith C. Sayre ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"investigar caja musical\" (7)</strong><span><span>Los personajes de la caja musical podrán notar que carecen de sus varitas mágicas y, además, sus pies comienzan a transformarse en madera.</span></span></span></div></div></div>",
             "url": "r9616",
             "simpleTitle": "Evento - yule: el baile",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Kaoru Satoo",
@@ -103880,7 +104012,7 @@ const DBModule = (function () {
                 9
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "analisis de heridos"
@@ -103891,10 +104023,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Kaoru Satoo ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">9</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Kaoru Satoo ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"analisis de heridos\" (9)</strong><span><span>La cantidad de personas (pnj) afectadas sera compuesta por el resultado de esta acción + 20, adicionales a los personajes que interactúan en la trama. Una vez que todos se encuentren despiertos podrán dar por finalizado ese conflicto.</span></span></span></div></div></div>",
             "url": "r9642",
             "simpleTitle": "Evento - yule: el baile",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Hermes Rosier",
@@ -103902,7 +104035,7 @@ const DBModule = (function () {
                 6
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "magia de la caja musical"
@@ -103913,10 +104046,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Hermes Rosier ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">6</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Hermes Rosier ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"magia de la caja musical\" (6)</strong><span><span>La caja musical fue intervenida con magia, pero construida a tamaño real. Al haber sido contruida a tamaño real, es lo que ha permitido que hayan sido incorporados dentro de la misma.</span></span></span></div></div></div>",
             "url": "r9646",
             "simpleTitle": "Evento - yule: el baile",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Thaddeus L. Nott",
@@ -103924,7 +104058,7 @@ const DBModule = (function () {
                 12
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "abrir compuerta"
@@ -103935,10 +104069,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Thaddeus L. Nott ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">12</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Thaddeus L. Nott ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"abrir compuerta\" (12)</strong><span><span>Como la caja musical fue hecha en tamaño real, pueden localizar en el suelo, una compuerta que lleva al mecánismo de la misma, y tratar de comprender cómo liberarse de aquella maldición.</span></span></span></div></div></div>",
             "url": "r9707",
             "simpleTitle": "Evento - yule: el baile",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Alastor Moody",
@@ -103946,7 +104081,7 @@ const DBModule = (function () {
                 8
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "investigar mecánismo"
@@ -103957,10 +104092,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">8</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"investigar mecánismo\" (8)</strong><span><span>Al abrir la compuerta, se puede observar una escalera que baja hasta el mismo mecánismo, en el cual se puede observar: el muelle (fuente de la caja musical que empuja mecánismo hacia delante), el tambor (cilindro con púas que define la melodía), el peine (una placa de metal con dientes que suenan al ser golpeadas por las púas) y el regulador (unas aspas que giran rápido para determinar la velocidad de la música).</span></span></span></div></div></div>",
             "url": "r9766",
             "simpleTitle": "Evento - yule: el baile",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "H. Shun Parkinson",
@@ -103968,7 +104104,7 @@ const DBModule = (function () {
                 13
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "asegurar a la ministra tuft"
@@ -103979,10 +104115,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">13</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"asegurar a la ministra tuft\" (13)</strong><span><span>Cuando los cuerpos comenzaron a desplomarse del lugar. La seguridad personal de la Ministra se cerró entorno a ella. Uno de los de seguridad se encargó de retirar a la Ministra a un lugar seguro, evacuando a la misma del lugar. Posteriormente, les llegará el patronus de un pitbull que indicará que la Ministra esta a salvo.</span></span></span></div></div></div>",
             "url": "r9771",
             "simpleTitle": "Evento - yule: el baile",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Minerva E. McGonagall",
@@ -103990,7 +104127,7 @@ const DBModule = (function () {
                 20
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "revertir la maldición"
@@ -104001,10 +104138,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">20</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"revertir la maldición\" (20)</strong><span><span>Como la maldición avanza con el objetivo de convertirlos en madera, a medida que la música avanza, para revertir la misma, deberán hacer que la melodía vaya en reversa, de modo que, cuando llegue al inicio, puedan salir de la caja musical.</span></span></span></div></div></div>",
             "url": "r9773",
             "simpleTitle": "Evento - yule: el baile",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Regulus O. Black",
@@ -104026,7 +104164,8 @@ const DBModule = (function () {
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Regulus O. Black ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"rennervate\" (4)</strong><span>El objetivo muestra signos de recuperación, pero sigue inconsciente.<br>[PENALIDAD] El dado actua como \"2\" por Enfermedad de los Temblores.</span></span></div></div></div>",
             "url": "r9775",
             "simpleTitle": "Evento - yule: el baile",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Cuthbert S. Selwyn",
@@ -104052,7 +104191,8 @@ const DBModule = (function () {
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cuthbert S. Selwyn ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"videncia\"><strong>Resultado  #1 \"prophetia\" (20)</strong><span>Tus ojos se nublan por un momento. Una voz infantil, lejana e imposible de identificar, canta una nana en un idioma olvidado. Solo una palabra resuena claramente al final: \"Ayuda\". No recuerdas la visión, pero un escalofrío recorre tu espalda.</span></span><span class=\"action-result\" data-conocimientos=\"pociones\"><strong>Resultado  #2 \"revelio potionis\" (5)</strong><span>No sucede nada. Capaz deberías practicar más el hechizo.</span></span></div></div></div>",
             "url": "r9991",
             "simpleTitle": "Evento - yule: el baile",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Iarlaith C. Sayre",
@@ -104060,7 +104200,7 @@ const DBModule = (function () {
                 2
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "desacoplar el engranaje (solo para quienes están dentro de la caja)"
@@ -104071,10 +104211,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Iarlaith C. Sayre ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">2</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Iarlaith C. Sayre ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"desacoplar el engranaje (solo para quienes están dentro de la caja)\" (2)</strong><span><span>Para poder desacoplar el engranaje que conecta el muelle con el cilindro consta de girar manualmente los engranajes del lado izquierdo y derecho. En este paso no se realiza ninguna acción, es una explicación hipótetica.</span></span></span></div></div></div>",
             "url": "r9997",
             "simpleTitle": "Evento - yule: el baile",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Kaoru Satoo",
@@ -104082,7 +104223,7 @@ const DBModule = (function () {
                 17
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "tomar pulso de los heridos"
@@ -104093,10 +104234,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Kaoru Satoo ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">17</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Kaoru Satoo ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"tomar pulso de los heridos\" (17)</strong><span><span>Cuando se toma el pulso a las personas que se desvanecieron, se puede percibir que es tan bajo que casi desaparece. El hechizo a realizar es el <i>Cordivivus</i>.</span></span></span></div></div></div>",
             "url": "r10081",
             "simpleTitle": "Evento - yule: el baile",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Asteria C. Lestrange",
@@ -104104,7 +104246,7 @@ const DBModule = (function () {
                 4
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "sostener el muelle (solo para quienes están dentro de la caja)"
@@ -104115,10 +104257,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Asteria C. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">4</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Asteria C. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"sostener el muelle (solo para quienes están dentro de la caja)\" (4)</strong><span><span>Hay que tener en cuenta que una vez que el muelle este desacoplado, dos personajes deberán tener el mismo hasta que se realicen todos los pasos y pueda volver a conectarse. En este paso no se realiza ninguna acción, es una explicación hipótetica.</span></span></span></div></div></div>",
             "url": "r10084",
             "simpleTitle": "Evento - yule: el baile",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Augusta O. Rookwood",
@@ -104126,7 +104269,7 @@ const DBModule = (function () {
                 9
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "bloquear el muelle (solo para quienes están dentro de la caja)"
@@ -104137,10 +104280,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Augusta O. Rookwood ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">9</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Augusta O. Rookwood ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"bloquear el muelle (solo para quienes están dentro de la caja)\" (9)</strong><span><span>El primer paso de una estrategia para poder hacer que la música vaya en sentido contrario es bloquear el muelle. Para que la música se detenga. Para ello dos personajes van a tener que sostener el muelle mientras otro lo desacopla. En este paso no se realiza ninguna acción, es una explicación hipótetica.</span></span></span></div></div></div>",
             "url": "r10113",
             "simpleTitle": "Evento - yule: el baile",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Hermes Rosier",
@@ -104148,7 +104292,7 @@ const DBModule = (function () {
                 16
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "maldición de la caja musical"
@@ -104159,10 +104303,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Hermes Rosier ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">16</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Hermes Rosier ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"maldición de la caja musical\" (16)</strong><span><span>La caja musical se trata de la caja musical realizada por Luthier. Un antiguo mago que se dedicaba a la creación de varitas mágicas, pero que, al ver enfermar a su hija quiso hacer una caja musical donde ella pudiera vivir para siempre. Para poder hacer la caja musical, tuvo que tallar la madera en tamaño real. Sin embargo, su hija falleció antes de que pudiera terminar su creación y la caja se perdió con el tiempo.</span></span></span></div></div></div>",
             "url": "r10315",
             "simpleTitle": "Evento - yule: el baile",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Alastor Moody",
@@ -104171,6 +104316,7 @@ const DBModule = (function () {
                 16
             ],
             "title": [
+                "mission",
                 "actions"
             ],
             "key": [
@@ -104185,10 +104331,11 @@ const DBModule = (function () {
                 "",
                 "habilidad, ofensivo, sin magia"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">9</span><span class=\"action-result\" data-conocimientos=\"combate físico\"><strong>Resultado  #2 \"golpe encantado\" (16)</strong><span>El enemigo es derribado o incapacitado por un instante. Puedes desarmarlo si está armado. Resta +21 al Ataque del enemigo y el rival pierde 1 turno.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"aflojar el tornillo del peine (solo para quienes están dentro de la caja)\" (9)</strong><span><span>Para poder hacer que la música gire en sentido contrario, un personaje deberá ir al otro lado del peine y flojar el tornillo, podrá hacerlo con las manos. En este paso no se realiza ninguna acción, es una explicación hipótetica.</span></span></span><span class=\"action-result\" data-conocimientos=\"combate físico\"><strong>Resultado  #2 \"golpe encantado\" (16)</strong><span>El enemigo es derribado o incapacitado por un instante. Puedes desarmarlo si está armado. Resta +21 al Ataque del enemigo y el rival pierde 1 turno.</span></span></div></div></div>",
             "url": "r10438",
             "simpleTitle": "Evento - yule: el baile",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Minerva E. McGonagall",
@@ -104196,7 +104343,7 @@ const DBModule = (function () {
                 20
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "cambiar sentido del peine (solo para quienes están dentro de la caja)"
@@ -104207,10 +104354,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">20</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"cambiar sentido del peine (solo para quienes están dentro de la caja)\" (20)</strong><span><span>Para poder cambiar el sentido del peine, dos personajes deberán girarlo de manera que cambie el sentido en el que avanza la música. En este paso no se realiza ninguna acción, es una explicación hipótetica.</span></span></span></div></div></div>",
             "url": "r10452",
             "simpleTitle": "Evento - yule: el baile",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "H. Shun Parkinson",
@@ -104229,10 +104377,11 @@ const DBModule = (function () {
             "type": [
                 "encantamiento, curación"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #1 \"cordivivus\" (8)</strong><span>El corazón vuelve a latir, aunque el paciente tardará en recuperarse. Restaura +13PV si estaba en 0.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #1 \"cordivivus\" (8)</strong><span>El corazón vuelve a latir, aunque el paciente tardará en recuperarse. Restaura +13PV si estaba en 0.<br /><br /><span>El personaje despierta del sueño profundo.</span></span></span></div></div></div>",
             "url": "r10454",
             "simpleTitle": "Evento - yule: el baile",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Regulus O. Black",
@@ -104255,10 +104404,11 @@ const DBModule = (function () {
                 "encantamiento, curación",
                 "encantamiento, neutral"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Regulus O. Black ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #1 \"cordivivus\" (4)</strong><span>La descarga es muy débil y el corazón apenas late, pero lo hace. El paciente requiere cuidados intensivos.<br>[PENALIDAD] El dado actua como \"2\" por Enfermedad de los Temblores.</span></span><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #2 \"factum signa\" (17)</strong><span>La visión encapsulada es confusa y poco clara.<br>[PENALIDAD] El dado actua como \"14\" por Enfermedad de los Temblores.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Regulus O. Black ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #1 \"cordivivus\" (4)</strong><span>La descarga es muy débil y el corazón apenas late, pero lo hace. El paciente requiere cuidados intensivos.<br>[PENALIDAD] El dado actua como \"2\" por Enfermedad de los Temblores.<br /><br /><span>El personaje puede despertar, pero se encontrará somniolento, no podrá realizar acciones hasta que el hechizo no sea aplicado correctamente.</span></span></span><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #2 \"factum signa\" (17)</strong><span>La visión encapsulada es confusa y poco clara.<br>[PENALIDAD] El dado actua como \"14\" por Enfermedad de los Temblores.</span></span></div></div></div>",
             "url": "r10456",
             "simpleTitle": "Evento - yule: el baile",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Aria J. Fawley",
@@ -104277,10 +104427,11 @@ const DBModule = (function () {
             "type": [
                 "encantamiento, curación"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Aria J. Fawley ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #1 \"cordivivus\" (19)</strong><span>No sucede nada, capaz este hechizo no es para ti.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Aria J. Fawley ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #1 \"cordivivus\" (19)</strong><span><span>El personaje puede despertar, pero se encontrará somniolento, no podrá realizar acciones hasta que el hechizo no sea aplicado correctamente.</span></span></span></div></div></div>",
             "url": "r10670",
             "simpleTitle": "Evento - yule: el baile",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Kaoru Satoo",
@@ -104299,10 +104450,11 @@ const DBModule = (function () {
             "type": [
                 "encantamiento, curación"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Kaoru Satoo ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #1 \"cordivivus\" (15)</strong><span>El corazón late como si fuera nuevo, incluso tras algunos minutos sin respuesta. Restaura +20PV si estaba en 0.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Kaoru Satoo ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #1 \"cordivivus\" (15)</strong><span>El corazón late como si fuera nuevo, incluso tras algunos minutos sin respuesta. Restaura +20PV si estaba en 0.<br /><br /><span>El personaje despierta del sueño profundo.</span></span></span></div></div></div>",
             "url": "r10910",
             "simpleTitle": "Evento - yule: el baile",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Asteria C. Lestrange",
@@ -104310,7 +104462,7 @@ const DBModule = (function () {
                 14
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "girar el cilindro en sentido contrario (solo para quienes están dentro de la caja)"
@@ -104321,10 +104473,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Asteria C. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">14</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Asteria C. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"girar el cilindro en sentido contrario (solo para quienes están dentro de la caja)\" (14)</strong><span><span>Para validar que la música va en sentido contrario, deberán mover manualmente el cilindro. En este paso no se realiza ninguna acción, es una explicación hipótetica.</span></span></span></div></div></div>",
             "url": "r10914",
             "simpleTitle": "Evento - yule: el baile",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Hermes Rosier",
@@ -104332,7 +104485,7 @@ const DBModule = (function () {
                 16
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "romper la maldición de la caja luthier"
@@ -104343,10 +104496,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Hermes Rosier ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">16</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Hermes Rosier ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"romper la maldición de la caja luthier\" (16)</strong><span><span>Para romper la maldición de la caja de la caja de Luthier, se deberá volcar una lágrima de un padre de las personas atrapadas. Solicitar intervención, una vez que hayan regresado a Astorius o Briseida del sueño profundo.</span></span></span></div></div></div>",
             "url": "r10927",
             "simpleTitle": "Evento - yule: el baile",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Alastor Moody",
@@ -104354,7 +104508,7 @@ const DBModule = (function () {
                 3
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "aclopar todas las piezas (solo para quienes están dentro de la caja)"
@@ -104365,10 +104519,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">3</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"aclopar todas las piezas (solo para quienes están dentro de la caja)\" (3)</strong><span><span>Finalmente, deberán volver a acoplar las piezas. Utilizando el regulador para que marque el nuevo sentido del cilindro.</span></span></span></div></div></div>",
             "url": "r11153",
             "simpleTitle": "Evento - yule: el baile",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Minerva E. McGonagall",
@@ -104376,7 +104531,7 @@ const DBModule = (function () {
                 9
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "aplicar todos los pasos (solo para quienes están dentro de la caja)"
@@ -104387,10 +104542,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">9</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"aplicar todos los pasos (solo para quienes están dentro de la caja)\" (9)</strong><span><span>Al aplicar todos los pasos, la música comienza a sonar haciendo un sonido extraño y poco musical, pero los personajes comienzan poco a poco a perder sus partes de madera.</span></span></span></div></div></div>",
             "url": "r11181",
             "simpleTitle": "Evento - yule: el baile",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "H. Shun Parkinson",
@@ -104409,10 +104565,11 @@ const DBModule = (function () {
             "type": [
                 "encantamiento, curación"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #1 \"cordivivus\" (7)</strong><span>El corazón vuelve a latir, aunque el paciente tardará en recuperarse. Restaura +13PV si estaba en 0.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #1 \"cordivivus\" (7)</strong><span>El corazón vuelve a latir, aunque el paciente tardará en recuperarse. Restaura +13PV si estaba en 0.<br /><br /><span>El personaje despierta del sueño profundo.</span></span></span></div></div></div>",
             "url": "r11183",
             "simpleTitle": "Evento - yule: el baile",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Regulus O. Black",
@@ -104431,10 +104588,11 @@ const DBModule = (function () {
             "type": [
                 "encantamiento, curación"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Regulus O. Black ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #1 \"cordivivus\" (3)</strong><span>No sucede nada. Capaz deberías practicar más el hechizo.<br>[PENALIDAD] El dado actua como \"1\" por Enfermedad de los Temblores.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Regulus O. Black ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #1 \"cordivivus\" (3)</strong><span><span>El personaje puede despertar, pero se encontrará somniolento, no podrá realizar acciones hasta que el hechizo no sea aplicado correctamente.</span></span></span></div></div></div>",
             "url": "r11185",
             "simpleTitle": "Evento - yule: el baile",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Cora M. Vance",
@@ -104453,10 +104611,11 @@ const DBModule = (function () {
             "type": [
                 "encantamiento, curación"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cora M. Vance ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #1 \"cordivivus\" (3)</strong><span>No sucede nada. Capaz deberías practicar más el hechizo.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cora M. Vance ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #1 \"cordivivus\" (3)</strong><span><span>El personaje puede despertar, pero se encontrará somniolento, no podrá realizar acciones hasta que el hechizo no sea aplicado correctamente.</span></span></span></div></div></div>",
             "url": "r11293",
             "simpleTitle": "Evento - yule: el baile",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Aria J. Fawley",
@@ -104475,10 +104634,11 @@ const DBModule = (function () {
             "type": [
                 "encantamiento, curación"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Aria J. Fawley ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #1 \"cordivivus\" (11)</strong><span>No sucede nada, capaz este hechizo no es para ti.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Aria J. Fawley ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #1 \"cordivivus\" (11)</strong><span><span>El personaje puede despertar, pero se encontrará somniolento, no podrá realizar acciones hasta que el hechizo no sea aplicado correctamente.</span></span></span></div></div></div>",
             "url": "r11297",
             "simpleTitle": "Evento - yule: el baile",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Kaoru Satoo",
@@ -104497,10 +104657,11 @@ const DBModule = (function () {
             "type": [
                 "encantamiento, curación"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Kaoru Satoo ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #1 \"cordivivus\" (10)</strong><span>El corazón late como si fuera nuevo, incluso tras algunos minutos sin respuesta. Restaura +20PV si estaba en 0.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Kaoru Satoo ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #1 \"cordivivus\" (10)</strong><span>El corazón late como si fuera nuevo, incluso tras algunos minutos sin respuesta. Restaura +20PV si estaba en 0.<br /><br /><span>El personaje despierta del sueño profundo.</span></span></span></div></div></div>",
             "url": "r11464",
             "simpleTitle": "Evento - yule: el baile",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Orion A. Black",
@@ -104519,10 +104680,11 @@ const DBModule = (function () {
             "type": [
                 "encantamiento, curación"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Orion A. Black ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #1 \"cordivivus\" (1)</strong><span>No sucede nada. Capaz deberías practicar más el hechizo.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Orion A. Black ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #1 \"cordivivus\" (1)</strong><span><span>El personaje puede despertar, pero se encontrará somniolento, no podrá realizar acciones hasta que el hechizo no sea aplicado correctamente.</span></span></span></div></div></div>",
             "url": "r11466",
             "simpleTitle": "Evento - yule: el baile",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Asteria C. Lestrange",
@@ -104530,7 +104692,7 @@ const DBModule = (function () {
                 9
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "regresar arriba (solo para quienes están dentro de la caja)"
@@ -104541,10 +104703,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Asteria C. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">9</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Asteria C. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"regresar arriba (solo para quienes están dentro de la caja)\" (9)</strong><span><span>Al subir las escaleras, solo deberán esperar que tres personajes pasen, para que la maldición sea revertida. Pasados esos tres turnos, los personajes salen de la caja musical recuperando su tamaño habitual y sus varitas.</span></span></span></div></div></div>",
             "url": "r11470",
             "simpleTitle": "Evento - yule: el baile",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Augusta O. Rookwood",
@@ -104552,7 +104715,7 @@ const DBModule = (function () {
                 8
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "regresar arriba (solo para quienes están dentro de la caja)"
@@ -104563,10 +104726,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Augusta O. Rookwood ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">8</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Augusta O. Rookwood ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"regresar arriba (solo para quienes están dentro de la caja)\" (8)</strong><span><span>Al subir las escaleras, solo deberán esperar que tres personajes pasen, para que la maldición sea revertida. Pasados esos tres turnos, los personajes salen de la caja musical recuperando su tamaño habitual y sus varitas.</span></span></span></div></div></div>",
             "url": "r11633",
             "simpleTitle": "Evento - yule: el baile",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Minerva E. McGonagall",
@@ -104585,10 +104749,11 @@ const DBModule = (function () {
             "type": [
                 "encantamiento, contrahechizo, neutral"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"finite\" (19)</strong><span>El encantamiento no solo finaliza el efecto del hechizo, sino que también previene su regreso temporalmente.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"finite\" (19)</strong><span>El encantamiento no solo finaliza el efecto del hechizo, sino que también previene su regreso temporalmente.<br /><br /><span>Si se aplica sobre la caja musical, no produce ningún efecto.</span></span></span></div></div></div>",
             "url": "r11706",
             "simpleTitle": "Evento - yule: el baile",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "H. Shun Parkinson",
@@ -104611,10 +104776,11 @@ const DBModule = (function () {
                 "encantamiento, curación",
                 "encantamiento, curación"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #1 \"cordivivus\" (4)</strong><span>El corazón vuelve a latir, aunque el paciente tardará en recuperarse. Restaura +13PV si estaba en 0.</span></span><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #2 \"cordivivus\" (16)</strong><span>El corazón late con normalidad y no parece haber secuelas. Restaura +16PV si estaba en 0.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #1 \"cordivivus\" (4)</strong><span>El corazón vuelve a latir, aunque el paciente tardará en recuperarse. Restaura +13PV si estaba en 0.<br /><br /><span>El personaje despierta del sueño profundo.</span></span></span><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #2 \"cordivivus\" (16)</strong><span>El corazón late con normalidad y no parece haber secuelas. Restaura +16PV si estaba en 0.<br /><br /><span>El personaje despierta del sueño profundo.</span></span></span></div></div></div>",
             "url": "r11860",
             "simpleTitle": "Evento - yule: el baile",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Regulus O. Black",
@@ -104637,10 +104803,11 @@ const DBModule = (function () {
                 "encantamiento, curación",
                 "encantamiento, curación"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Regulus O. Black ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #1 \"cordivivus\" (18)</strong><span>La descarga es muy débil y el corazón apenas late, pero lo hace. El paciente requiere cuidados intensivos.<br>[PENALIDAD] El dado actua como \"15\" por Enfermedad de los Temblores.</span></span><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #2 \"cordivivus\" (4)</strong><span>La descarga es muy débil y el corazón apenas late, pero lo hace. El paciente requiere cuidados intensivos.<br>[PENALIDAD] El dado actua como \"2\" por Enfermedad de los Temblores.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Regulus O. Black ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #1 \"cordivivus\" (18)</strong><span>La descarga es muy débil y el corazón apenas late, pero lo hace. El paciente requiere cuidados intensivos.<br>[PENALIDAD] El dado actua como \"15\" por Enfermedad de los Temblores.<br /><br /><span>El personaje puede despertar, pero se encontrará somniolento, no podrá realizar acciones hasta que el hechizo no sea aplicado correctamente.</span></span></span><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #2 \"cordivivus\" (4)</strong><span>La descarga es muy débil y el corazón apenas late, pero lo hace. El paciente requiere cuidados intensivos.<br>[PENALIDAD] El dado actua como \"2\" por Enfermedad de los Temblores.<br /><br /><span>El personaje puede despertar, pero se encontrará somniolento, no podrá realizar acciones hasta que el hechizo no sea aplicado correctamente.</span></span></span></div></div></div>",
             "url": "r11873",
             "simpleTitle": "Evento - yule: el baile",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Cora M. Vance",
@@ -104663,10 +104830,11 @@ const DBModule = (function () {
                 "encantamiento, curación",
                 "encantamiento, curación"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cora M. Vance ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #1 \"cordivivus\" (16)</strong><span>No sucede nada, capaz este hechizo no es para ti.</span></span><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #2 \"cordivivus\" (15)</strong><span>No sucede nada, capaz este hechizo no es para ti.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cora M. Vance ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #1 \"cordivivus\" (16)</strong><span><span>El personaje puede despertar, pero se encontrará somniolento, no podrá realizar acciones hasta que el hechizo no sea aplicado correctamente.</span></span></span><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #2 \"cordivivus\" (15)</strong><span><span>El personaje puede despertar, pero se encontrará somniolento, no podrá realizar acciones hasta que el hechizo no sea aplicado correctamente.</span></span></span></div></div></div>",
             "url": "r11913",
             "simpleTitle": "Evento - yule: el baile",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Aria J. Fawley",
@@ -104689,10 +104857,11 @@ const DBModule = (function () {
                 "encantamiento, curación",
                 "encantamiento, curación"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Aria J. Fawley ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #1 \"cordivivus\" (11)</strong><span>No sucede nada, capaz este hechizo no es para ti.</span></span><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #2 \"cordivivus\" (19)</strong><span>No sucede nada, capaz este hechizo no es para ti.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Aria J. Fawley ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #1 \"cordivivus\" (11)</strong><span><span>El personaje puede despertar, pero se encontrará somniolento, no podrá realizar acciones hasta que el hechizo no sea aplicado correctamente.</span></span></span><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #2 \"cordivivus\" (19)</strong><span><span>El personaje puede despertar, pero se encontrará somniolento, no podrá realizar acciones hasta que el hechizo no sea aplicado correctamente.</span></span></span></div></div></div>",
             "url": "r11915",
             "simpleTitle": "Evento - yule: el baile",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Kaoru Satoo",
@@ -104715,10 +104884,11 @@ const DBModule = (function () {
                 "encantamiento, curación",
                 "encantamiento, curación"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Kaoru Satoo ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #1 \"cordivivus\" (12)</strong><span>El corazón late como si fuera nuevo, incluso tras algunos minutos sin respuesta. Restaura +20PV si estaba en 0.</span></span><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #2 \"cordivivus\" (15)</strong><span>El corazón late como si fuera nuevo, incluso tras algunos minutos sin respuesta. Restaura +20PV si estaba en 0.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Kaoru Satoo ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #1 \"cordivivus\" (12)</strong><span>El corazón late como si fuera nuevo, incluso tras algunos minutos sin respuesta. Restaura +20PV si estaba en 0.<br /><br /><span>El personaje despierta del sueño profundo.</span></span></span><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #2 \"cordivivus\" (15)</strong><span>El corazón late como si fuera nuevo, incluso tras algunos minutos sin respuesta. Restaura +20PV si estaba en 0.<br /><br /><span>El personaje despierta del sueño profundo.</span></span></span></div></div></div>",
             "url": "r12171",
             "simpleTitle": "Evento - yule: el baile",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Orion A. Black",
@@ -104741,10 +104911,11 @@ const DBModule = (function () {
                 "encantamiento, curación",
                 "encantamiento, curación"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Orion A. Black ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #1 \"cordivivus\" (13)</strong><span>La descarga es muy débil y el corazón apenas late, pero lo hace. El paciente requiere cuidados intensivos.</span></span><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #2 \"cordivivus\" (16)</strong><span>La descarga es muy débil y el corazón apenas late, pero lo hace. El paciente requiere cuidados intensivos.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Orion A. Black ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #1 \"cordivivus\" (13)</strong><span>La descarga es muy débil y el corazón apenas late, pero lo hace. El paciente requiere cuidados intensivos.<br /><br /><span>El personaje puede despertar, pero se encontrará somniolento, no podrá realizar acciones hasta que el hechizo no sea aplicado correctamente.</span></span></span><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #2 \"cordivivus\" (16)</strong><span>La descarga es muy débil y el corazón apenas late, pero lo hace. El paciente requiere cuidados intensivos.<br /><br /><span>El personaje puede despertar, pero se encontrará somniolento, no podrá realizar acciones hasta que el hechizo no sea aplicado correctamente.</span></span></span></div></div></div>",
             "url": "r12173",
             "simpleTitle": "Evento - yule: el baile",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Asteria C. Lestrange",
@@ -104767,10 +104938,11 @@ const DBModule = (function () {
                 "encantamiento, curación",
                 "encantamiento, curación"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Asteria C. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #1 \"cordivivus\" (6)</strong><span>La descarga es muy débil y el corazón apenas late, pero lo hace. El paciente requiere cuidados intensivos.</span></span><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #2 \"cordivivus\" (16)</strong><span>El corazón vuelve a latir, aunque el paciente tardará en recuperarse. Restaura +13PV si estaba en 0.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Asteria C. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #1 \"cordivivus\" (6)</strong><span>La descarga es muy débil y el corazón apenas late, pero lo hace. El paciente requiere cuidados intensivos.<br /><br /><span>El personaje puede despertar, pero se encontrará somniolento, no podrá realizar acciones hasta que el hechizo no sea aplicado correctamente.</span></span></span><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #2 \"cordivivus\" (16)</strong><span>El corazón vuelve a latir, aunque el paciente tardará en recuperarse. Restaura +13PV si estaba en 0.<br /><br /><span>El personaje despierta del sueño profundo.</span></span></span></div></div></div>",
             "url": "r12175",
             "simpleTitle": "Evento - yule: el baile",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Thaddeus L. Nott",
@@ -104793,10 +104965,11 @@ const DBModule = (function () {
                 "encantamiento, curación",
                 "encantamiento, curación"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Thaddeus L. Nott ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #1 \"cordivivus\" (7)</strong><span>La descarga es muy débil y el corazón apenas late, pero lo hace. El paciente requiere cuidados intensivos.</span></span><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #2 \"cordivivus\" (2)</strong><span>La descarga es muy débil y el corazón apenas late, pero lo hace. El paciente requiere cuidados intensivos.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Thaddeus L. Nott ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #1 \"cordivivus\" (7)</strong><span>La descarga es muy débil y el corazón apenas late, pero lo hace. El paciente requiere cuidados intensivos.<br /><br /><span>El personaje puede despertar, pero se encontrará somniolento, no podrá realizar acciones hasta que el hechizo no sea aplicado correctamente.</span></span></span><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #2 \"cordivivus\" (2)</strong><span>La descarga es muy débil y el corazón apenas late, pero lo hace. El paciente requiere cuidados intensivos.<br /><br /><span>El personaje puede despertar, pero se encontrará somniolento, no podrá realizar acciones hasta que el hechizo no sea aplicado correctamente.</span></span></span></div></div></div>",
             "url": "r12192",
             "simpleTitle": "Evento - yule: el baile",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Alastor Moody",
@@ -104805,7 +104978,8 @@ const DBModule = (function () {
                 17
             ],
             "title": [
-                "actions"
+                "actions",
+                "mission"
             ],
             "key": [
                 "morbus revela",
@@ -104819,10 +104993,11 @@ const DBModule = (function () {
                 "curación, encantamiento",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #1 \"morbus revela\" (19)</strong><span>Muestra visual o mentalmente las zonas exactas afectadas, con detalles.</span></span><span class=\"roll-result\">17</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #1 \"morbus revela\" (19)</strong><span>Muestra visual o mentalmente las zonas exactas afectadas, con detalles.</span></span><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #2 \"investigar envenenamiento de los invitados\" (17)</strong><span><span>Al preguntar a Astorius Moody sobre las bebidas. El mismo responde que es imposible, porque se utilizaron más de 30 botellas diferentes, las cuales llegaron de diferentes proveedores y todas estaban cerradas.</span></span></span></div></div></div>",
             "url": "r12342",
             "simpleTitle": "Evento - yule: el baile",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Minerva E. McGonagall",
@@ -104831,7 +105006,8 @@ const DBModule = (function () {
                 14
             ],
             "title": [
-                "actions"
+                "actions",
+                "mission"
             ],
             "key": [
                 "cordivivus",
@@ -104845,10 +105021,11 @@ const DBModule = (function () {
                 "encantamiento, curación",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #1 \"cordivivus\" (15)</strong><span>La descarga es muy débil y el corazón apenas late, pero lo hace. El paciente requiere cuidados intensivos.</span></span><span class=\"roll-result\">14</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #1 \"cordivivus\" (15)</strong><span>La descarga es muy débil y el corazón apenas late, pero lo hace. El paciente requiere cuidados intensivos.<br /><br /><span>El personaje puede despertar, pero se encontrará somniolento, no podrá realizar acciones hasta que el hechizo no sea aplicado correctamente.</span></span></span><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #2 \"posibilidad de envenenamiento de las copas\" (14)</strong><span><span>Si las bebidas no estaban envenenadas, entonces el veneno debía estar en las copas, sería una buena teoría, aunque para aquello deberán aplicarse hechizos alquímicos.</span></span></span></div></div></div>",
             "url": "r12360",
             "simpleTitle": "Evento - yule: el baile",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "H. Shun Parkinson",
@@ -104871,10 +105048,11 @@ const DBModule = (function () {
                 "encantamiento, curación",
                 "encantamiento, curación"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #1 \"cordivivus\" (20)</strong><span>El corazón late como si fuera nuevo, incluso tras algunos minutos sin respuesta. Restaura +20PV si estaba en 0.</span></span><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #2 \"cordivivus\" (3)</strong><span>El corazón vuelve a latir, aunque el paciente tardará en recuperarse. Restaura +13PV si estaba en 0.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #1 \"cordivivus\" (20)</strong><span>El corazón late como si fuera nuevo, incluso tras algunos minutos sin respuesta. Restaura +20PV si estaba en 0.<br /><br /><span>El personaje despierta del sueño profundo.</span></span></span><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #2 \"cordivivus\" (3)</strong><span>El corazón vuelve a latir, aunque el paciente tardará en recuperarse. Restaura +13PV si estaba en 0.<br /><br /><span>El personaje despierta del sueño profundo.</span></span></span></div></div></div>",
             "url": "r12363",
             "simpleTitle": "Evento - yule: el baile",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Regulus O. Black",
@@ -104897,10 +105075,11 @@ const DBModule = (function () {
                 "encantamiento, curación",
                 "encantamiento, curación"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Regulus O. Black ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #1 \"cordivivus\" (18)</strong><span>La descarga es muy débil y el corazón apenas late, pero lo hace. El paciente requiere cuidados intensivos.<br>[PENALIDAD] El dado actua como \"15\" por Enfermedad de los Temblores.</span></span><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #2 \"cordivivus\" (14)</strong><span>La descarga es muy débil y el corazón apenas late, pero lo hace. El paciente requiere cuidados intensivos.<br>[PENALIDAD] El dado actua como \"11\" por Enfermedad de los Temblores.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Regulus O. Black ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #1 \"cordivivus\" (18)</strong><span>La descarga es muy débil y el corazón apenas late, pero lo hace. El paciente requiere cuidados intensivos.<br>[PENALIDAD] El dado actua como \"15\" por Enfermedad de los Temblores.<br /><br /><span>El personaje puede despertar, pero se encontrará somniolento, no podrá realizar acciones hasta que el hechizo no sea aplicado correctamente.</span></span></span><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #2 \"cordivivus\" (14)</strong><span>La descarga es muy débil y el corazón apenas late, pero lo hace. El paciente requiere cuidados intensivos.<br>[PENALIDAD] El dado actua como \"11\" por Enfermedad de los Temblores.<br /><br /><span>El personaje puede despertar, pero se encontrará somniolento, no podrá realizar acciones hasta que el hechizo no sea aplicado correctamente.</span></span></span></div></div></div>",
             "url": "r12366",
             "simpleTitle": "Evento - yule: el baile",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Cora M. Vance",
@@ -104923,10 +105102,11 @@ const DBModule = (function () {
                 "encantamiento, curación",
                 "encantamiento, curación"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cora M. Vance ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #1 \"cordivivus\" (13)</strong><span>No sucede nada, capaz este hechizo no es para ti.</span></span><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #2 \"cordivivus\" (19)</strong><span>No sucede nada, capaz este hechizo no es para ti.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cora M. Vance ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #1 \"cordivivus\" (13)</strong><span><span>El personaje puede despertar, pero se encontrará somniolento, no podrá realizar acciones hasta que el hechizo no sea aplicado correctamente.</span></span></span><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #2 \"cordivivus\" (19)</strong><span><span>El personaje puede despertar, pero se encontrará somniolento, no podrá realizar acciones hasta que el hechizo no sea aplicado correctamente.</span></span></span></div></div></div>",
             "url": "r12528",
             "simpleTitle": "Evento - yule: el baile",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Aria J. Fawley",
@@ -104949,10 +105129,11 @@ const DBModule = (function () {
                 "encantamiento, curación",
                 "encantamiento, curación"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Aria J. Fawley ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #1 \"cordivivus\" (6)</strong><span>No sucede nada. Capaz deberías practicar más el hechizo.</span></span><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #2 \"cordivivus\" (1)</strong><span>No sucede nada. Capaz deberías practicar más el hechizo.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Aria J. Fawley ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #1 \"cordivivus\" (6)</strong><span><span>El personaje puede despertar, pero se encontrará somniolento, no podrá realizar acciones hasta que el hechizo no sea aplicado correctamente.</span></span></span><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #2 \"cordivivus\" (1)</strong><span><span>El personaje puede despertar, pero se encontrará somniolento, no podrá realizar acciones hasta que el hechizo no sea aplicado correctamente.</span></span></span></div></div></div>",
             "url": "r12543",
             "simpleTitle": "Evento - yule: el baile",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Kaoru Satoo",
@@ -104960,7 +105141,7 @@ const DBModule = (function () {
                 8
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "preguntar a briseida si se encuentra bien"
@@ -104971,10 +105152,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Kaoru Satoo ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">8</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Kaoru Satoo ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"preguntar a briseida si se encuentra bien\" (8)</strong><span><span>La mujer se encuentra horrorizada por lo que acaba de suceder y no sabe bien cómo explicar lo ocurrido. Sin embargo, cuando le preguntan si se encuentra bien, se lleva una mano al cuello, mencionando que sintió como si un fantasma la atravesara. Aunque ninguno de los invitados pareció sentir lo mismo.<div class=\"mission-card\" data-ver=\"/u17,/u9,/u24,/u8,/u12,/u91,/u55,/u110,/u118\"><topes><i class=\"fa-solid fa-eye-low-vision\"></i></topes><req>Solo visible para atributo: int mayor a 3</req><span>La cadena de oro que Briseida llevaba, actualmente no se encuentra en su cuello. Ha desaparecido.</span></div></span></span></span></div></div></div>",
             "url": "r12908",
             "simpleTitle": "Evento - yule: el baile",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Alastor Moody",
@@ -104983,7 +105165,8 @@ const DBModule = (function () {
                 5
             ],
             "title": [
-                "actions"
+                "actions",
+                "mission"
             ],
             "key": [
                 "revelio potionis",
@@ -104997,10 +105180,11 @@ const DBModule = (function () {
                 "encantamiento, neutral",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"pociones\"><strong>Resultado  #1 \"revelio potionis\" (11)</strong><span>Identifica con precisión la poción, sus efectos y <em>+11</em> (75% del conocimiento en POCIONES) puntos de sus componentes.</span></span><span class=\"roll-result\">5</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"pociones\"><strong>Resultado  #1 \"revelio potionis\" (11)</strong><span>Identifica con precisión la poción, sus efectos y <em>+11</em> (75% del conocimiento en POCIONES) puntos de sus componentes.</span></span><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #2 \"investigar bebidas\" (5)</strong><span><span>Cuando se dirigen a las bebidas, pueden valir que las mismas han sido adulterados con una poción de sueño profundo.</span></span></span></div></div></div>",
             "url": "r13381",
             "simpleTitle": "Evento - yule: el baile",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Minerva E. McGonagall",
@@ -105026,7 +105210,8 @@ const DBModule = (function () {
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"alquimia\"><strong>Resultado  #1 \"succendam bullae\" (4)</strong><span>El líquido muestra pequeñas burbujas, pero no llega a la temperatura de ebullición.</span></span><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #2 \"aguamenti\" (17)</strong><span>El chorro de agua es constante y puede llenar un recipiente o apagar un fuego común.</span></span></div></div></div>",
             "url": "r13393",
             "simpleTitle": "Evento - yule: el baile",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "H. Shun Parkinson",
@@ -105049,10 +105234,11 @@ const DBModule = (function () {
                 "encantamiento, curación",
                 "encantamiento, curación"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #1 \"cordivivus\" (9)</strong><span>El corazón vuelve a latir, aunque el paciente tardará en recuperarse. Restaura +13PV si estaba en 0.</span></span><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #2 \"cordivivus\" (4)</strong><span>El corazón vuelve a latir, aunque el paciente tardará en recuperarse. Restaura +13PV si estaba en 0.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #1 \"cordivivus\" (9)</strong><span>El corazón vuelve a latir, aunque el paciente tardará en recuperarse. Restaura +13PV si estaba en 0.<br /><br /><span>El personaje despierta del sueño profundo.</span></span></span><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #2 \"cordivivus\" (4)</strong><span>El corazón vuelve a latir, aunque el paciente tardará en recuperarse. Restaura +13PV si estaba en 0.<br /><br /><span>El personaje despierta del sueño profundo.</span></span></span></div></div></div>",
             "url": "r13396",
             "simpleTitle": "Evento - yule: el baile",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Regulus O. Black",
@@ -105075,10 +105261,11 @@ const DBModule = (function () {
                 "encantamiento, neutral",
                 "encantamiento, neutral"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Regulus O. Black ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"alquimia\"><strong>Resultado  #1 \"unus multis\" (4)</strong><span>El objeto se fragmenta de forma irregular y pierde algunas propiedades.<br>[PENALIDAD] El dado actua como \"2\" por Enfermedad de los Temblores.</span></span><span class=\"action-result\" data-conocimientos=\"alquimia\"><strong>Resultado  #2 \"fac illum clamorem\" (11)</strong><span>Se forma una burbuja al rededor de una sección de vapor de la cual se pueden extraer un par de gotas.<br>[PENALIDAD] El dado actua como \"8\" por Enfermedad de los Temblores.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Regulus O. Black ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"alquimia\"><strong>Resultado  #1 \"unus multis\" (4)</strong><span>El objeto se fragmenta de forma irregular y pierde algunas propiedades.<br>[PENALIDAD] El dado actua como \"2\" por Enfermedad de los Temblores.</span></span><span class=\"action-result\" data-conocimientos=\"alquimia\"><strong>Resultado  #2 \"fac illum clamorem\" (11)</strong><span>Se forma una burbuja al rededor de una sección de vapor de la cual se pueden extraer un par de gotas.<br>[PENALIDAD] El dado actua como \"8\" por Enfermedad de los Temblores.<br /><br /><span>Al aplicar sobre las copas de cristal, revela un vapor color azulado, revelando que el veneno no estaba en las bebidas, sino en las copas.</span></span></span></div></div></div>",
             "url": "r13398",
             "simpleTitle": "Evento - yule: el baile",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Cora M. Vance",
@@ -105101,10 +105288,11 @@ const DBModule = (function () {
                 "encantamiento, curación",
                 "encantamiento, curación"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cora M. Vance ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #1 \"cordivivus\" (9)</strong><span>No sucede nada. Capaz deberías practicar más el hechizo.</span></span><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #2 \"cordivivus\" (6)</strong><span>No sucede nada. Capaz deberías practicar más el hechizo.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Cora M. Vance ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #1 \"cordivivus\" (9)</strong><span><span>El personaje puede despertar, pero se encontrará somniolento, no podrá realizar acciones hasta que el hechizo no sea aplicado correctamente.</span></span></span><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #2 \"cordivivus\" (6)</strong><span><span>El personaje puede despertar, pero se encontrará somniolento, no podrá realizar acciones hasta que el hechizo no sea aplicado correctamente.</span></span></span></div></div></div>",
             "url": "r13430",
             "simpleTitle": "Evento - yule: el baile",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Aria J. Fawley",
@@ -105112,7 +105300,7 @@ const DBModule = (function () {
                 14
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "solución para los invitados que no lograron recuperarse"
@@ -105123,10 +105311,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Aria J. Fawley ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">14</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Aria J. Fawley ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"solución para los invitados que no lograron recuperarse\" (14)</strong><span><span>Dado que las copas estaban envenenadas, la solución sería limpiar las mismas para poder volver a consumir líquidos sin envenenar a nadie en el proceso. Además, si se limpian las copas, con una bebida fuerte, pueden reponerse todas las personas que hayan despertado a medias.</span></span></span></div></div></div>",
             "url": "r13432",
             "simpleTitle": "Evento - yule: el baile",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Alastor Moody",
@@ -150231,7 +150420,8 @@ const DBModule = (function () {
                 7
             ],
             "title": [
-                "actions"
+                "actions",
+                "mission"
             ],
             "key": [
                 "homenum revelio",
@@ -150245,10 +150435,11 @@ const DBModule = (function () {
                 "encantamiento, neutral",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"homenum revelio\" (7)</strong><span>Se detectan todas las presencias humanas en un radio de <em>+24</em> (75% del conocimiento en DCAO) metros con claridad.</span></span><span class=\"roll-result\">7</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"homenum revelio\" (7)</strong><span>Se detectan todas las presencias humanas en un radio de <em>+24</em> (75% del conocimiento en DCAO) metros con claridad.</span></span><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #2 \"resultado del perimetro realizado\" (7)</strong><span><span>Tras unos días de investigación sobre el lugar en el que los aurores buscaron recabar información sin levantar las alarmas, notaron que nadie usa la entrada principal. Sino que el ingreso lo hacen al mediodía con un camión que llega a las instalaciones para marcharse a las doce de la noche.</span></span></span></div></div></div>",
             "url": "r18898",
             "simpleTitle": "Misión: gilded herb",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "H. Shun Parkinson",
@@ -150256,7 +150447,7 @@ const DBModule = (function () {
                 4
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "puerta de atrás"
@@ -150267,10 +150458,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">4</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"puerta de atrás\" (4)</strong><span><span>La puerta de atrás parece más simple que la de la entrada. Mucho más pequeña, con un espacio de carga y descarga de mercancía. Sin embargo, la misma se encuentra custodiada por tres guardias que patrullan constantemente. Dos en el interior y uno en el exterior. Ingresar por allí sin involucrar un enfrentamiento sería tarea imposible.</span></span></span></div></div></div>",
             "url": "r18956",
             "simpleTitle": "Misión: gilded herb",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "A. Ignatius Prewett",
@@ -150278,7 +150470,7 @@ const DBModule = (function () {
                 13
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "puerta de atrás"
@@ -150289,10 +150481,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>A. Ignatius Prewett ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">13</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>A. Ignatius Prewett ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"puerta de atrás\" (13)</strong><span><span>La puerta de atrás parece más simple que la de la entrada. Mucho más pequeña, con un espacio de carga y descarga de mercancía. Sin embargo, la misma se encuentra custodiada por tres guardias que patrullan constantemente. Dos en el interior y uno en el exterior. Ingresar por allí sin involucrar un enfrentamiento sería tarea imposible.</span></span></span></div></div></div>",
             "url": "r18970",
             "simpleTitle": "Misión: gilded herb",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Venus M. Merrythought",
@@ -150300,7 +150493,7 @@ const DBModule = (function () {
                 11
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "seguridad interna"
@@ -150311,10 +150504,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Venus M. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">11</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Venus M. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"seguridad interna\" (11)</strong><span><span>Además, el perímetro realizado indicó que el establecimiento tiene veinte ventanas, de las cuales pudo sacarse la siguiente información: existen 22 guardias que patrullan el interior del edificio. Cambian cada doce horas de manera secuencial, de manera que ningún piso se encuentra sin guardia. Esperar un cambio de la misma tampoco sería factible.</span></span></span></div></div></div>",
             "url": "r18973",
             "simpleTitle": "Misión: gilded herb",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Astraea M. Burke",
@@ -150322,7 +150516,7 @@ const DBModule = (function () {
                 15
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "aura de la puerta principal"
@@ -150333,10 +150527,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Astraea M. Burke ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">15</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Astraea M. Burke ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"aura de la puerta principal\" (15)</strong><span><span>Si se observa con cuidado, se puede detectar que la puerta del establecimiento ha sido corrompida con una maldición de magia negra. Aquellos que han estudiado las artes pueden notar la forma en la que la maldición se encuentra aferrada a la madera y se enrieda en el picaporte.</span></span></span></div></div></div>",
             "url": "r19014",
             "simpleTitle": "Misión: gilded herb",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Alastor Moody",
@@ -150344,7 +150539,7 @@ const DBModule = (function () {
                 5
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "hechizos de seguridad"
@@ -150355,10 +150550,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">5</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"hechizos de seguridad\" (5)</strong><span><span>Sumado a eso, todos los cristales cuentan con protecciones para que no se puedan romper desde el exterior y el edificio cuenta con un radio en el que no pueden aparecerse a menos de medio metro de las entradas.</span></span></span></div></div></div>",
             "url": "r19028",
             "simpleTitle": "Misión: gilded herb",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "H. Shun Parkinson",
@@ -150366,7 +150562,7 @@ const DBModule = (function () {
                 13
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "prueba ingreso por la puerta principal"
@@ -150377,10 +150573,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">13</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"prueba ingreso por la puerta principal\" (13)</strong><span><span>El Departamento de Seguridad les prestó un squib que sirve como espía en el mundo muggle para que pudieran hacer la prueba de qué sucedía si alguien se acercaba a la misma. El resultado fue que abrieron la puerta y negaron cualquier relación con la persona hasta que no le quedó otra alternativa más que marcharse. En el interior se veían, además de los guardias de las ventanas, doce guardias en la planta de abajo.</span></span></span></div></div></div>",
             "url": "r19217",
             "simpleTitle": "Misión: gilded herb",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "A. Ignatius Prewett",
@@ -150388,7 +150585,7 @@ const DBModule = (function () {
                 9
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "requisitos para desarmar la maldición"
@@ -150399,10 +150596,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>A. Ignatius Prewett ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">9</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>A. Ignatius Prewett ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"requisitos para desarmar la maldición\" (9)</strong><span><span>Para poder desarmar la maldición, se necesitan un par de hechizos, pero no es un trabajo para hacerse a la distancia. Necesitaría acercamiento para poder identificar la misma y un tiempo adicional para poder hacer que la puerta vuelva a ser inofensiva. Los mejores rompemaldiciones dirían que es una tarea de, al menos, quince minutos.</span></span></span></div></div></div>",
             "url": "r19275",
             "simpleTitle": "Misión: gilded herb",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Venus M. Merrythought",
@@ -150410,7 +150608,7 @@ const DBModule = (function () {
                 1
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "tiempo disponible en la entrada"
@@ -150421,10 +150619,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Venus M. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">1</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Venus M. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"tiempo disponible en la entrada\" (1)</strong><span><span>Por el perímetro realizado, saben de buena mano que, cuando una persona pasa más de cinco minutos en la entrada, un guardia disfrazado de muggle se acerca para pedir que continúe circulando.</span></span></span></div></div></div>",
             "url": "r19507",
             "simpleTitle": "Misión: gilded herb",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Alastor Moody",
@@ -150432,7 +150631,7 @@ const DBModule = (function () {
                 9
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "requisitos para infiltrarse en el camión"
@@ -150443,10 +150642,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">9</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"requisitos para infiltrarse en el camión\" (9)</strong><span><span>Para poder infiltrarse con el camión, deben ir a un punto de encuentro que se encuentra a unas quince cuadras de allí. Un espacio donde podrían tener tiempo para poder detener el camión e ingresar en el mismo. El Ministerio les ha provisto para la misión poción multijugos.</span></span></span></div></div></div>",
             "url": "r19690",
             "simpleTitle": "Misión: gilded herb",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "H. Shun Parkinson",
@@ -150454,7 +150654,7 @@ const DBModule = (function () {
                 2
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "caminar hasta el punto de encuentro con el camión"
@@ -150465,10 +150665,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">2</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"caminar hasta el punto de encuentro con el camión\" (2)</strong><span><span>Permite a los personajes avanzar hasta el punto de encuentro donde el camión siempre se detiene en una señal de tráfico. Una vez seleccionado este camino, no pueden volver para atrás. Pasados unos minutos podrán observar al camión acercarse a la hora indicada.</span></span></span></div></div></div>",
             "url": "r19719",
             "simpleTitle": "Misión: gilded herb",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "A. Ignatius Prewett",
@@ -150476,7 +150677,7 @@ const DBModule = (function () {
                 12
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "acercarse a la entrada"
@@ -150487,10 +150688,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>A. Ignatius Prewett ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">12</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>A. Ignatius Prewett ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"acercarse a la entrada\" (12)</strong><span><span>Al acercarse a la entrada, el personaje puede notar que la maldición que contiene la puerta es de sangre. Solo alguien con la línea genética adecuada podría abrir el lugar desde afuera. Caso contrario, las sombras de una extra maldición se cernirían sobre el umbral. El tiempo para resolver la maldición sube a una hora aproximadamente.</span></span></span></div></div></div>",
             "url": "r19799",
             "simpleTitle": "Misión: gilded herb",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Venus M. Merrythought",
@@ -150499,6 +150701,7 @@ const DBModule = (function () {
                 13
             ],
             "title": [
+                "mission",
                 "actions"
             ],
             "key": [
@@ -150513,10 +150716,11 @@ const DBModule = (function () {
                 "",
                 "encantamiento, defensivo"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Venus M. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">9</span><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #2 \"arresto momentum\" (13)</strong><span>La desaceleración es inmediata y precisa, deteniendo por completo al objetivo sin daños.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Venus M. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"poseer el frasco de poción multijugos\" (9)</strong><span><span>El personaje en cuestión podrá revelar una petaca con poción multijugos y pequeños vasos que permitirá tomar el papel de los conductores del camión.</span></span></span><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #2 \"arresto momentum\" (13)</strong><span>La desaceleración es inmediata y precisa, deteniendo por completo al objetivo sin daños.<br /><br />Permite detener el camión para infiltrarse con el mismo.</span></span></div></div></div>",
             "url": "r19917",
             "simpleTitle": "Misión: gilded herb",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Jasper R. Gryffith",
@@ -150524,7 +150728,7 @@ const DBModule = (function () {
                 5
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "ofrecerse como conductor"
@@ -150535,10 +150739,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jasper R. Gryffith ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">5</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jasper R. Gryffith ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"ofrecerse como conductor\" (5)</strong><span><span>Como el personaje conoce algunas normas de Estudio Muggle podría ofrecerse como conductor del camión tras detener a los conductores y tomar la poción multijugos.</span></span></span></div></div></div>",
             "url": "r20050",
             "simpleTitle": "Misión: gilded herb",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Alastor Moody",
@@ -150547,6 +150752,7 @@ const DBModule = (function () {
                 12
             ],
             "title": [
+                "mission",
                 "actions"
             ],
             "key": [
@@ -150561,10 +150767,11 @@ const DBModule = (function () {
                 "",
                 "encantamiento, neutral"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">3</span><span class=\"action-result\" data-conocimientos=\"estudios muggles\"><strong>Resultado  #2 \"extractum machina\" (12)</strong><span>Se puede obtener el uso del objeto, así como información de su dueño.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"detener a los conductores\" (3)</strong><span><span>En el camión hay un conductor y dos miembros de seguridad que deberán ser detenidos antes de poder avanzar con el plan de infiltración. Deberán agregar a los tres PNJ como \"guardia\" y deberán enfrentarse a ellos. Una vez superado el obstáculo deberán pedir una intervención a la administración. Cada guardia posee 3 de fuerza y consitución y 35pv.</span></span></span><span class=\"action-result\" data-conocimientos=\"estudios muggles\"><strong>Resultado  #2 \"extractum machina\" (12)</strong><span>Se puede obtener el uso del objeto, así como información de su dueño.<br /><br />Permite revelar que la mejor maneja de detener el camión es con un hechizo que genere una pequeña explosión. Algo pequeño que permita detener el camión sin causar daños a los ocupantes, pero que sí lo detenga lo suficiente para que puedan infiltrarse.</span></span></div></div></div>",
             "url": "r20052",
             "simpleTitle": "Misión: gilded herb",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "H. Shun Parkinson",
@@ -150596,10 +150803,11 @@ const DBModule = (function () {
                 "encantamiento, ofensivo",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">16</span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"protego\" (16)</strong><span>El escudo es extremadamente resistente. Reduce el ataque en <em>+14</em> (40% del conocimiento en DCAO) puntos adicionales.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #3 \"regio impetum\" (18)</strong><span>Los oponentes caen al suelo y quedan aturdidos por unos segundos. Reduce +10 PV de 3 PNJ y los incapacita por 2 turnos.</span></span><span class=\"roll-result\">11</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"guardia\" (16)</strong><ataque>Ataca con hechizo: \"Depulso\". El objetivo es lanzado varios metros hacia atrás, perdiendo el equilibrio. Adiciona +12 en el daño y la víctima pierde su siguiente acción inmediata.</ataque><defensa>Defiende con hechizo: \"Protego\". Adiciona +12 de defensa. Si la defensa gana, llama a otro Guardia, sumando un nuevo PNJ con las mismas cualidades a las que deberán enfrentarse. Solo existen 32 guardias en el edificio.</defensa></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"protego\" (16)</strong><span>El escudo es extremadamente resistente. Reduce el ataque en <em>+14</em> (40% del conocimiento en DCAO) puntos adicionales.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #3 \"regio impetum\" (18)</strong><span>Los oponentes caen al suelo y quedan aturdidos por unos segundos. Reduce +10 PV de 3 PNJ y los incapacita por 2 turnos.</span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #4 \"guardia\" (11)</strong><ataque>Ataca con hechizo: \"Depulso\". El objetivo es lanzado varios metros hacia atrás, perdiendo el equilibrio. Adiciona +12 en el daño y la víctima pierde su siguiente acción inmediata.</ataque><defensa>Defiende con hechizo: \"Protego\". Adiciona +12 de defensa. Si la defensa gana, llama a otro Guardia, sumando un nuevo PNJ con las mismas cualidades a las que deberán enfrentarse. Solo existen 32 guardias en el edificio.</defensa></span></div></div></div>",
             "url": "r20062",
             "simpleTitle": "Misión: gilded herb",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "A. Ignatius Prewett",
@@ -150621,7 +150829,8 @@ const DBModule = (function () {
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>A. Ignatius Prewett ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"revelio\" (20)</strong><span>No sucede nada, capaz este hechizo no es para ti.</span></span></div></div></div>",
             "url": "r20078",
             "simpleTitle": "Misión: gilded herb",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Venus M. Merrythought",
@@ -150643,7 +150852,8 @@ const DBModule = (function () {
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Venus M. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"desmaius\" (17)</strong><span>El objetivo cae inconsciente durante un período prolongado. La víctima pierde 10 PV y pierde sus siguientes 5 acciones consecutivas al ataque.</span></span></div></div></div>",
             "url": "r20240",
             "simpleTitle": "Misión: gilded herb",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Jasper R. Gryffith",
@@ -150665,7 +150875,8 @@ const DBModule = (function () {
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jasper R. Gryffith ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"desmaius\" (19)</strong><span>El objetivo cae inconsciente durante un período prolongado. La víctima pierde 10 PV y pierde sus siguientes 5 acciones consecutivas al ataque.</span></span></div></div></div>",
             "url": "r20419",
             "simpleTitle": "Misión: gilded herb",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Alastor Moody",
@@ -150691,7 +150902,8 @@ const DBModule = (function () {
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"desmaius\" (17)</strong><span>El objetivo cae inconsciente durante un período prolongado. La víctima pierde 10 PV y pierde sus siguientes 5 acciones consecutivas al ataque.</span></span><span class=\"action-result\" data-conocimientos=\"transformaciones\"><strong>Resultado  #2 \"lapifors\" (2)</strong><span>La transformación es perfecta y estable, durando <em>+16</em> (100% del conocimiento en TRANSFORMACIONES) turnos.</span></span></div></div></div>",
             "url": "r20501",
             "simpleTitle": "Misión: gilded herb",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "H. Shun Parkinson",
@@ -150699,7 +150911,7 @@ const DBModule = (function () {
                 12
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "tomar poción multijugos"
@@ -150710,10 +150922,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">12</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"tomar poción multijugos\" (12)</strong><span><span>Al tomar la poción multijugos, el personaje podrá cambiar de apariencia y adoptar la identidad de uno de los conductores del camión. La poción solo durará 10 rondas. Una vez terminado ese tiempo, los personajes regresarán a sus apariencias originales.<br><strong>Nota</strong>: El personaje que lance esta tarjeta arranca la ronda y el contador sube uno cada vez que este personaje vuelve a intervenir.</span></span></span></div></div></div>",
             "url": "r20591",
             "simpleTitle": "Misión: gilded herb",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Venus M. Merrythought",
@@ -150721,7 +150934,7 @@ const DBModule = (function () {
                 4
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "ingresar al camión"
@@ -150732,10 +150945,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Venus M. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">4</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Venus M. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"ingresar al camión\" (4)</strong><span><span>Al ingresar al camión pueden validar que hay tres etiquetas diferentes en las cajas. Por un lado, unas están marcadas con una etiqueta marrón que indica \"materiales\", otra color verde indica \"matería prima\" y en el interior de las cajas pueden observarse semillas de una planta. Finalmente, al final de todo hay una caja con una etiqueta que indica \"correspondencias\".</span></span></span></div></div></div>",
             "url": "r20684",
             "simpleTitle": "Misión: gilded herb",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Jasper R. Gryffith",
@@ -150743,7 +150957,7 @@ const DBModule = (function () {
                 18
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "conducir el camión hasta la puerta de atrás"
@@ -150754,10 +150968,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jasper R. Gryffith ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">18</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jasper R. Gryffith ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"conducir el camión hasta la puerta de atrás\" (18)</strong><span><span>Una vez que ingresan al camión, pueden manejar hasta ingresar a la puerta de atrás. Una vez que llegan, unos miembros de seguridad, les abren las puertas. A partir de este momento, todos los personajes deberán lanzar \"tacite\" para pasar inadvertido o \"artimaña\" para poder moverse sin que los guardias detecten que son intrusos.</span></span></span></div></div></div>",
             "url": "r20704",
             "simpleTitle": "Misión: gilded herb",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Alastor Moody",
@@ -150766,7 +150981,8 @@ const DBModule = (function () {
                 3
             ],
             "title": [
-                "actions"
+                "actions",
+                "mission"
             ],
             "key": [
                 "scriptum mendax",
@@ -150780,10 +150996,11 @@ const DBModule = (function () {
                 "encantamiento, neutral",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"contrabando\"><strong>Resultado  #1 \"scriptum mendax\" (19)</strong><span>Reproduce con precisión el texto, aunque el papel y los encantamientos podrían fallar.</span></span><span class=\"roll-result\">3</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"contrabando\"><strong>Resultado  #1 \"scriptum mendax\" (19)</strong><span>Reproduce con precisión el texto, aunque el papel y los encantamientos podrían fallar.<br /><br />Los papeles son suficientes para los guardias, lo dejan pasar indicando que la palabra clave del día es \"Dearg\".</span></span><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #2 \"ingresar al establecimiento\" (3)</strong><span><span>Una vez que bajaron del camión, los guardias se encargan de abrir las puertas de atrás y les ofrecen un pergamino el cual deben firmar para ingresar. Un personaje deberá lanzar la acción \"coartada\" o \"scriptum mendax\" para completar los documentos.<br><strong>Nota</strong>: Durante ese turno no es necesario lanzar \"tacite\" o \"artimaña\".</span></span></span></div></div></div>",
             "url": "r20706",
             "simpleTitle": "Misión: gilded herb",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "H. Shun Parkinson",
@@ -150792,7 +151009,8 @@ const DBModule = (function () {
                 10
             ],
             "title": [
-                "actions"
+                "actions",
+                "mission"
             ],
             "key": [
                 "artimaña",
@@ -150806,10 +151024,11 @@ const DBModule = (function () {
                 "sin magia, infracción, neutral",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"liderazgo\"><strong>Resultado  #1 \"artimaña\" (14)</strong><span>La artimaña surte sus efectos. Queda librado.</span></span><span class=\"roll-result\">10</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"liderazgo\"><strong>Resultado  #1 \"artimaña\" (14)</strong><span>La artimaña surte sus efectos. Queda librado.<br /><br />Los guardias dejan pasar al personaje sin que les llame la atención.</span></span><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #2 \"comenzar a trasladar la mercancía\" (10)</strong><span><span>Una vez entregados todos los papeles, los personajes podrán ingresar al lugar llevando cada uno un carrito con cajas. El lugar en su interior no es algo que llame demasiado la atención.</span></span></span></div></div></div>",
             "url": "r20727",
             "simpleTitle": "Misión: gilded herb",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Venus M. Merrythought",
@@ -150818,7 +151037,8 @@ const DBModule = (function () {
                 16
             ],
             "title": [
-                "actions"
+                "actions",
+                "mission"
             ],
             "key": [
                 "artimaña",
@@ -150832,10 +151052,11 @@ const DBModule = (function () {
                 "sin magia, infracción, neutral",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Venus M. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"liderazgo\"><strong>Resultado  #1 \"artimaña\" (17)</strong><span>La artimaña surte sus efectos. Queda librado.</span></span><span class=\"roll-result\">16</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Venus M. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"liderazgo\"><strong>Resultado  #1 \"artimaña\" (17)</strong><span>La artimaña surte sus efectos. Queda librado.<br /><br />Los guardias dejan pasar al personaje sin que les llame la atención.</span></span><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #2 \"ingresar a planta baja\" (16)</strong><span><span>Al ingresar a la planta baja, los personajes se encontrarán con un pasillo largo y estrecho. Las paredes están recubiertas de un material que parece ser piedra, pero que tiene una textura suave al tacto. Al final del pasillo, hay una puerta que conduce a una sala de almacenamiento, una cocina y un jardín cargado de verde. En el almacenamiento se pueden ver muchas botellas con diferentes productos generados.</span></span></span></div></div></div>",
             "url": "r20873",
             "simpleTitle": "Misión: gilded herb",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Jasper R. Gryffith",
@@ -150844,7 +151065,8 @@ const DBModule = (function () {
                 5
             ],
             "title": [
-                "actions"
+                "actions",
+                "mission"
             ],
             "key": [
                 "tacite",
@@ -150858,10 +151080,11 @@ const DBModule = (function () {
                 "encantamiento, neutral",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jasper R. Gryffith ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"contrabando\"><strong>Resultado  #1 \"tacite\" (15)</strong><span>El personaje avanza, pero la torpeza puede generar catastróficos resultados. Por ahora, esta a salvo.</span></span><span class=\"roll-result\">5</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jasper R. Gryffith ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"contrabando\"><strong>Resultado  #1 \"tacite\" (15)</strong><span>El personaje avanza, pero la torpeza puede generar catastróficos resultados. Por ahora, esta a salvo.<br /><br />No es suficiente para pasar inadvertido. Un guardia los detecta. Atacará primero si la lanzada de esta acción es par. Deberán agregar dos (2) guardias como PNJ \"Guardia\", los mismos tiene 35PV y 3 de fuerza y consitución.</span></span><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #2 \"entregas planta baja\" (5)</strong><span><span>En planta baja no hay que hacer ninguna entrega, sino tomar las cajas con diferentes etiquetas al finalizar toda la entrega.</span></span></span></div></div></div>",
             "url": "r20898",
             "simpleTitle": "Misión: gilded herb",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Alastor Moody",
@@ -150884,10 +151107,11 @@ const DBModule = (function () {
                 "encantamiento, neutral",
                 "encantamiento, neutral"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"contrabando\"><strong>Resultado  #1 \"tacite\" (4)</strong><span>El personaje logra avanzar sin que nadie note su presencia.</span></span><span class=\"action-result\" data-conocimientos=\"pociones\"><strong>Resultado  #2 \"revelio potionis\" (1)</strong><span>Detecta si la poción es inofensiva o peligrosa, identificando <em>+3</em> (25% del conocimiento en POCIONES) puntos de sus componentes, sin identificar ingredientes específicos.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"contrabando\"><strong>Resultado  #1 \"tacite\" (4)</strong><span>El personaje logra avanzar sin que nadie note su presencia.<br /><br />El personaje puede pasar sin llamar la atención.</span></span><span class=\"action-result\" data-conocimientos=\"pociones\"><strong>Resultado  #2 \"revelio potionis\" (1)</strong><span>Detecta si la poción es inofensiva o peligrosa, identificando <em>+3</em> (25% del conocimiento en POCIONES) puntos de sus componentes, sin identificar ingredientes específicos.</span></span></div></div></div>",
             "url": "r20906",
             "simpleTitle": "Misión: gilded herb",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "H. Shun Parkinson",
@@ -150896,7 +151120,8 @@ const DBModule = (function () {
                 3
             ],
             "title": [
-                "actions"
+                "actions",
+                "mission"
             ],
             "key": [
                 "artimaña",
@@ -150910,10 +151135,11 @@ const DBModule = (function () {
                 "sin magia, infracción, neutral",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"liderazgo\"><strong>Resultado  #1 \"artimaña\" (11)</strong><span>La artimaña surte sus efectos. Queda librado.</span></span><span class=\"roll-result\">3</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"liderazgo\"><strong>Resultado  #1 \"artimaña\" (11)</strong><span>La artimaña surte sus efectos. Queda librado.<br /><br />Los guardias dejan pasar al personaje sin que les llame la atención.</span></span><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #2 \"subir a primer piso\" (3)</strong><span><span>Al subir al primer piso, los guardias los detienen y piden la palabra clave. La misma debe ser indicada en el mismo post. En caso de que no la proporcionen, el guardia atacará.<br><strong>Nota</strong>: La palabra clave será validada narrativamente. En caso de no tenerla, el guardia atacará primero si la lanzada de esta tarjeta es par. Deberán agregar un \"Guardia\" como PNJ, el mismo tiene 35PV y 3 de fuerza y consitución.</span></span></span></div></div></div>",
             "url": "r21106",
             "simpleTitle": "Misión: gilded herb",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Venus M. Merrythought",
@@ -150922,7 +151148,8 @@ const DBModule = (function () {
                 12
             ],
             "title": [
-                "actions"
+                "actions",
+                "mission"
             ],
             "key": [
                 "artimaña",
@@ -150936,10 +151163,11 @@ const DBModule = (function () {
                 "sin magia, infracción, neutral",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Venus M. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"liderazgo\"><strong>Resultado  #1 \"artimaña\" (7)</strong><span>La autoridad duda de la artimaña, no demasiado convencido. El usuario que lleva a la autoridad puede decidir qué camino seguir.</span></span><span class=\"roll-result\">12</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Venus M. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"liderazgo\"><strong>Resultado  #1 \"artimaña\" (7)</strong><span>La autoridad duda de la artimaña, no demasiado convencido. El usuario que lleva a la autoridad puede decidir qué camino seguir.<br /><br />No es suficiente para pasar inadvertido. Un guardia los detecta. Atacará primero si la lanzada de esta acción es par. Deberán agregar dos (2) guardias como PNJ \"Guardia\", los mismos tiene 35PV y 3 de fuerza y consitución.</span></span><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #2 \"subir a segundo piso\" (12)</strong><span><span>Al subir al segundo piso, los guardias los detienen y piden la palabra clave. La misma debe ser indicada en el mismo post. En caso de que no la proporcionen, el guardia atacará.<br><strong>Nota</strong>: La palabra clave será validada narrativamente. En caso de no tenerla, el guardia atacará primero si la lanzada de esta tarjeta es par. Deberán agregar un \"Guardia\" como PNJ, el mismo tiene 35PV y 3 de fuerza y consitución.</span></span></span></div></div></div>",
             "url": "r21122",
             "simpleTitle": "Misión: gilded herb",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Jasper R. Gryffith",
@@ -150948,7 +151176,8 @@ const DBModule = (function () {
                 18
             ],
             "title": [
-                "actions"
+                "actions",
+                "mission"
             ],
             "key": [
                 "tacite",
@@ -150962,10 +151191,11 @@ const DBModule = (function () {
                 "encantamiento, neutral",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jasper R. Gryffith ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"contrabando\"><strong>Resultado  #1 \"tacite\" (14)</strong><span>El personaje avanza, pero la torpeza puede generar catastróficos resultados. Por ahora, esta a salvo.</span></span><span class=\"roll-result\">18</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jasper R. Gryffith ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"contrabando\"><strong>Resultado  #1 \"tacite\" (14)</strong><span>El personaje avanza, pero la torpeza puede generar catastróficos resultados. Por ahora, esta a salvo.<br /><br />No es suficiente para pasar inadvertido. Un guardia los detecta. Atacará primero si la lanzada de esta acción es par. Deberán agregar dos (2) guardias como PNJ \"Guardia\", los mismos tiene 35PV y 3 de fuerza y consitución.</span></span><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #2 \"entregar materia prima\" (18)</strong><span><span>Al revisar el lugar, pueden observar que los laboratorios cargados con Salvia Ignor en crecimiento. En este lugar es donde deben entregar la materia prima. Tras hacer la entrega, los guardias indican que la palabra clave para el siguiente piso es \"Newgrange\".</span></span></span></div></div></div>",
             "url": "r21381",
             "simpleTitle": "Misión: gilded herb",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Alastor Moody",
@@ -150974,7 +151204,8 @@ const DBModule = (function () {
                 10
             ],
             "title": [
-                "actions"
+                "actions",
+                "mission"
             ],
             "key": [
                 "tacite",
@@ -150988,10 +151219,11 @@ const DBModule = (function () {
                 "encantamiento, neutral",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"contrabando\"><strong>Resultado  #1 \"tacite\" (5)</strong><span>El personaje logra avanzar sin que nadie note su presencia.</span></span><span class=\"roll-result\">10</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"contrabando\"><strong>Resultado  #1 \"tacite\" (5)</strong><span>El personaje logra avanzar sin que nadie note su presencia.<br /><br />El personaje puede pasar sin llamar la atención.</span></span><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #2 \"entregar abono\" (10)</strong><span><span>Al revisar el lugar pueden notar que todos los trabajadores de la zona, llevan guantes gruesos y túnicas ignifugas. Por la tierra entre sus pies y ropas, puede deducirse que son los encargados de trabajar la tierra. Este es el lugar donde debe entregarse los materiales. Tras la entrega, uno de los guardias indican que la palabra clave para el siguiente piso es \"Inguz\".</span></span></span></div></div></div>",
             "url": "r21386",
             "simpleTitle": "Misión: gilded herb",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "H. Shun Parkinson",
@@ -151000,7 +151232,8 @@ const DBModule = (function () {
                 19
             ],
             "title": [
-                "actions"
+                "actions",
+                "mission"
             ],
             "key": [
                 "artimaña",
@@ -151014,10 +151247,11 @@ const DBModule = (function () {
                 "sin magia, infracción, neutral",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"liderazgo\"><strong>Resultado  #1 \"artimaña\" (8)</strong><span>La artimaña surte sus efectos. Queda librado.</span></span><span class=\"roll-result\">19</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"liderazgo\"><strong>Resultado  #1 \"artimaña\" (8)</strong><span>La artimaña surte sus efectos. Queda librado.<br /><br />Los guardias dejan pasar al personaje sin que les llame la atención.</span></span><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #2 \"responder que el viaje no se originó desde dingle\" (19)</strong><span><span>Responde que el viaje no ha sido desde Dingle, sino desde Kinsale, basándose en un mapa que había en la camioneta y que marcaba aquella ciudad como el origen. El guardia asiente, satisfecho con la corrección, como si aquello confirmara lo que ya sospechaba de la ruta real. La sospecha no desaparece del todo, pero por ahora, alcanza para seguir avanzando.</span></span></span></div></div></div>",
             "url": "r21597",
             "simpleTitle": "Misión: gilded herb",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Venus M. Merrythought",
@@ -151026,6 +151260,7 @@ const DBModule = (function () {
                 20
             ],
             "title": [
+                "mission",
                 "actions"
             ],
             "key": [
@@ -151040,10 +151275,11 @@ const DBModule = (function () {
                 "",
                 "sin magia, infracción, neutral"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Venus M. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">15</span><span class=\"action-result\" data-conocimientos=\"liderazgo\"><strong>Resultado  #2 \"artimaña\" (20)</strong><span>La artimaña surte sus efectos. Queda librado.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Venus M. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"subir a tercer piso\" (15)</strong><span><span>Al subir al tercer piso, los guardias los detienen y piden la palabra clave. La misma debe ser indicada en el mismo post. En caso de que no la proporcionen, el guardia atacará.<br><strong>Nota</strong>: La palabra clave será validada narrativamente. En caso de no tenerla, el guardia atacará primero si la lanzada de esta tarjeta es par. Deberán agregar un \"Guardia\" como PNJ, el mismo tiene 35PV y 3 de fuerza y consitución.</span></span></span><span class=\"action-result\" data-conocimientos=\"liderazgo\"><strong>Resultado  #2 \"artimaña\" (20)</strong><span>La artimaña surte sus efectos. Queda librado.<br /><br />Los guardias dejan pasar al personaje sin que les llame la atención.</span></span></div></div></div>",
             "url": "r21642",
             "simpleTitle": "Misión: gilded herb",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Jasper R. Gryffith",
@@ -151052,7 +151288,8 @@ const DBModule = (function () {
                 19
             ],
             "title": [
-                "actions"
+                "actions",
+                "mission"
             ],
             "key": [
                 "tacite",
@@ -151066,10 +151303,11 @@ const DBModule = (function () {
                 "encantamiento, neutral",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jasper R. Gryffith ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"contrabando\"><strong>Resultado  #1 \"tacite\" (14)</strong><span>El personaje avanza, pero la torpeza puede generar catastróficos resultados. Por ahora, esta a salvo.</span></span><span class=\"roll-result\">19</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jasper R. Gryffith ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"contrabando\"><strong>Resultado  #1 \"tacite\" (14)</strong><span>El personaje avanza, pero la torpeza puede generar catastróficos resultados. Por ahora, esta a salvo.<br /><br />No es suficiente para pasar inadvertido. Un guardia los detecta. Atacará primero si la lanzada de esta acción es par. Deberán agregar dos (2) guardias como PNJ \"Guardia\", los mismos tiene 35PV y 3 de fuerza y consitución.</span></span><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #2 \"entregar correspondencias\" (19)</strong><span><span>Al revisar el lugar, pueden observar que todo el piso esta lleno de diferentes oficinas, algunas llenas y otras vacías. Allí deben entregar la caja de correspondencias.</span></span></span></div></div></div>",
             "url": "r21667",
             "simpleTitle": "Misión: gilded herb",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Alastor Moody",
@@ -151101,10 +151339,11 @@ const DBModule = (function () {
                 "maleficio, ofensivo",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">17</span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"protego\" (10)</strong><span>El escudo es extremadamente resistente. Reduce el ataque en <em>+12</em> (40% del conocimiento en DCAO) puntos adicionales.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #3 \"flipendo\" (8)</strong><span>El oponente es lanzado por los aires con gran fuerza, impactando contra una superficie. Adiciona <em>+12</em> (40% del conocimiento en DCAO) puntos adicionales de daño al objetivo.</span></span><span class=\"roll-result\">20</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"guardia\" (17)</strong><ataque>Ataca con hechizo: \"Depulso\". El objetivo es lanzado varios metros hacia atrás, perdiendo el equilibrio. Adiciona +12 en el daño y la víctima pierde su siguiente acción inmediata.</ataque><defensa>Defiende con hechizo: \"Protego\". Adiciona +12 de defensa. Si la defensa gana, llama a otro Guardia, sumando un nuevo PNJ con las mismas cualidades a las que deberán enfrentarse. Solo existen 32 guardias en el edificio.</defensa></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"protego\" (10)</strong><span>El escudo es extremadamente resistente. Reduce el ataque en <em>+12</em> (40% del conocimiento en DCAO) puntos adicionales.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #3 \"flipendo\" (8)</strong><span>El oponente es lanzado por los aires con gran fuerza, impactando contra una superficie. Adiciona <em>+12</em> (40% del conocimiento en DCAO) puntos adicionales de daño al objetivo.</span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #4 \"guardia\" (20)</strong><ataque>.Ataca con hechizo: \"Desmaius\". El objetivo siente un ligero aturdimiento que le dificulta reaccionar con claridad. Adiciona +15 en el daño y la víctima pierde sus siguientes dos acciones inmediatas.</ataque><defensa>Defiende con hechizo: \"Protego\". Adiciona +15 de defensa. Si la defensa gana, llama a otro Guardia, sumando un nuevo PNJ con las mismas cualidades a las que deberán enfrentarse. Solo existen 32 guardias en el edificio.</defensa></span></div></div></div>",
             "url": "r21684",
             "simpleTitle": "Misión: gilded herb",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "H. Shun Parkinson",
@@ -151136,10 +151375,11 @@ const DBModule = (function () {
                 "maleficio, ofensivo",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">7</span><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #2 \"glacius\" (8)</strong><span>La zona alrededor queda completamente congelada, inmovilizando temporalmente a todos los que se encuentren en ella y no solo al objetivo. El ataque de cada rival alcanzado pierde <em>+6</em> (40% del conocimiento en ENCANTAMIENTOS) puntos adicionales y adiciona <em>+16</em> (100% del conocimiento en ENCANTAMIENTOS) puntos a siguiente acción.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #3 \"flipendo\" (12)</strong><span>El oponente es lanzado por los aires con gran fuerza, impactando contra una superficie. Adiciona <em>+14</em> (40% del conocimiento en DCAO) puntos adicionales de daño al objetivo.</span></span><span class=\"roll-result\">14</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"guardia\" (7)</strong><ataque>Ataca con hechizo: \"Diffindo\". Un corte preciso alcanza al objetivo, dejando una herida evidente. Adiciona +10 en el daño.</ataque><defensa>Defiende con hechizo: \"Protego\". Adiciona +9 de defensa.</defensa></span><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #2 \"glacius\" (8)</strong><span>La zona alrededor queda completamente congelada, inmovilizando temporalmente a todos los que se encuentren en ella y no solo al objetivo. El ataque de cada rival alcanzado pierde <em>+6</em> (40% del conocimiento en ENCANTAMIENTOS) puntos adicionales y adiciona <em>+16</em> (100% del conocimiento en ENCANTAMIENTOS) puntos a siguiente acción.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #3 \"flipendo\" (12)</strong><span>El oponente es lanzado por los aires con gran fuerza, impactando contra una superficie. Adiciona <em>+14</em> (40% del conocimiento en DCAO) puntos adicionales de daño al objetivo.</span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #4 \"guardia\" (14)</strong><ataque>Ataca con hechizo: \"Depulso\". El objetivo es lanzado varios metros hacia atrás, perdiendo el equilibrio. Adiciona +12 en el daño y la víctima pierde su siguiente acción inmediata.</ataque><defensa>Defiende con hechizo: \"Protego\". Adiciona +12 de defensa. Si la defensa gana, llama a otro Guardia, sumando un nuevo PNJ con las mismas cualidades a las que deberán enfrentarse. Solo existen 32 guardias en el edificio.</defensa></span></div></div></div>",
             "url": "r21703",
             "simpleTitle": "Misión: gilded herb",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Venus M. Merrythought",
@@ -151171,10 +151411,11 @@ const DBModule = (function () {
                 "encantamiento, ofensivo",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Venus M. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">3</span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"fumos\" (6)</strong><span>El humo es espeso y persistente, dificultando la visión y la respiración de todos los adversarios presentes en la escena. El lanzador y quienes estén junto a él Adicionan +5 en defensa durante <em>3</em> (El 50% de DES) turnos, mientras dure la cobertura.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #3 \"desmaius\" (7)</strong><span>El objetivo cae inconsciente al instante. La víctima pierde sus siguientes 2 acciones.</span></span><span class=\"roll-result\">1</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Venus M. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #1 \"guardia\" (3)</strong><ataque>Ataca con hechizo: \"Diffindo\". Un corte preciso alcanza al objetivo, dejando una herida evidente. Adiciona +10 en el daño.</ataque><defensa>Defiende con hechizo: \"Protego\". Adiciona +9 de defensa.</defensa></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"fumos\" (6)</strong><span>El humo es espeso y persistente, dificultando la visión y la respiración de todos los adversarios presentes en la escena. El lanzador y quienes estén junto a él Adicionan +5 en defensa durante <em>3</em> (El 50% de DES) turnos, mientras dure la cobertura.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #3 \"desmaius\" (7)</strong><span>El objetivo cae inconsciente al instante. La víctima pierde sus siguientes 2 acciones.</span></span><span class=\"action-result\" data-conocimientos=\"creature\"><strong>Resultado  #4 \"guardia\" (1)</strong><ataque>Ataca con hechizo: \"Confringo\". Una pequeña explosión estalla junto al objetivo, derribándolo con fuerza. Adiciona +7 en el daño.</ataque><defensa>Defiende con hechizo: \"Protego\". Adiciona +6 de defensa.</defensa></span></div></div></div>",
             "url": "r21901",
             "simpleTitle": "Misión: gilded herb",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Jasper R. Gryffith",
@@ -151199,7 +151440,8 @@ const DBModule = (function () {
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jasper R. Gryffith ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"immobulus\" (6)</strong><span>El hechizo puede paralizar a un único objetivo o, si el lanzador lo decide, a todo un grupo de objetivos cercanos entre sí, tal como se usa para inmovilizar de una vez a un enjambre completo de criaturas pequeñas. Cada objetivo alcanzado queda paralizado durante <em>+21</em> (100% del conocimiento en DCAO) turnos y tarda más en recuperar el control de su cuerpo, donde no podrá realizar acciones, o hasta que un personaje lo libere si se usa como ataque, o impide el ataque, reduciendo el mismo a cero, si se usa como defensa adicionando +5 puntos en la siguiente acción del defensor.</span></span><span class=\"roll-result\">14</span><span class=\"roll-result\">6</span><span class=\"roll-result\">13</span></div></div></div>",
             "url": "r21962",
             "simpleTitle": "Misión: gilded herb",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Alastor Moody",
@@ -151225,7 +151467,8 @@ const DBModule = (function () {
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"transformaciones\"><strong>Resultado  #1 \"lapifors\" (12)</strong><span>La transformación es perfecta y estable, durando <em>+16</em> (100% del conocimiento en TRANSFORMACIONES) turnos.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"atabraquium\" (16)</strong><span>Las cuerdas envuelven completamente al objetivo, inmovilizándolo por completo. Las cuerdas poseerán 20 PV, los cuales la víctima tendrá que eliminar para poder liberarse de ellas.</span></span></div></div></div>",
             "url": "r21995",
             "simpleTitle": "Misión: gilded herb",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "H. Shun Parkinson",
@@ -151234,7 +151477,8 @@ const DBModule = (function () {
                 12
             ],
             "title": [
-                "actions"
+                "actions",
+                "mission"
             ],
             "key": [
                 "artimaña",
@@ -151248,10 +151492,11 @@ const DBModule = (function () {
                 "sin magia, infracción, neutral",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"liderazgo\"><strong>Resultado  #1 \"artimaña\" (5)</strong><span>La artimaña surte sus efectos. Queda librado.</span></span><span class=\"roll-result\">12</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"liderazgo\"><strong>Resultado  #1 \"artimaña\" (5)</strong><span>La artimaña surte sus efectos. Queda librado.<br /><br />Los guardias dejan pasar al personaje sin que les llame la atención.</span></span><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #2 \"revisar sala de conferencia\" (12)</strong><span><span>Al pasar por las salas pueden observar que en la sala de conferencias, tienen un mapa de la zona. En particular de Irlanda y no solo eso, sino que tienen marcado el laboratorio donde se encuentran y, también un lugar llamado \"the hallucination mill\" marcado como \"Casa Central\".</span></span></span></div></div></div>",
             "url": "r22005",
             "simpleTitle": "Misión: gilded herb",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Venus M. Merrythought",
@@ -151260,7 +151505,8 @@ const DBModule = (function () {
                 15
             ],
             "title": [
-                "actions"
+                "actions",
+                "mission"
             ],
             "key": [
                 "artimaña",
@@ -151274,10 +151520,11 @@ const DBModule = (function () {
                 "sin magia, infracción, neutral",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Venus M. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"liderazgo\"><strong>Resultado  #1 \"artimaña\" (18)</strong><span>La artimaña surte sus efectos. Queda librado.</span></span><span class=\"roll-result\">15</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Venus M. Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"liderazgo\"><strong>Resultado  #1 \"artimaña\" (18)</strong><span>La artimaña surte sus efectos. Queda librado.<br /><br />Los guardias dejan pasar al personaje sin que les llame la atención.</span></span><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #2 \"retirarse sin ser vistos\" (15)</strong><span><span>Permite a los personajes retirarse sin llamar la atención de los guardias. La misión pueden considerarse éxitosa.</span></span></span></div></div></div>",
             "url": "r22129",
             "simpleTitle": "Misión: gilded herb",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Jupiter Merrythought",
@@ -151636,6 +151883,7 @@ const DBModule = (function () {
                 9
             ],
             "title": [
+                "mission",
                 "actions"
             ],
             "key": [
@@ -151650,10 +151898,11 @@ const DBModule = (function () {
                 "",
                 "curación"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">5</span><span class=\"action-result\" data-conocimientos=\"ccm\"><strong>Resultado  #2 \"sensus mitigo\" (9)</strong><span>La criatura se relaja y muestra señales de menor hostilidad. Contra PNJ, el mismo reduce en 2 su FUE y CON, si es controlable o menor.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"observar por los ventanales\" (5)</strong><span><span>Al asomarse a los ventanales laterales, la magnitud de la pesadilla se revela. No se trata de un simple huerto de mandrágoras abandonado. Ante sus ojos, cientos de estas aberraciones se retuercen bajo la tierra, extendiéndose como una plaga silenciosa por un abismo verde y sin fin.</span></span></span><span class=\"action-result\" data-conocimientos=\"ccm\"><strong>Resultado  #2 \"sensus mitigo\" (9)</strong><span>La criatura se relaja y muestra señales de menor hostilidad. Contra PNJ, el mismo reduce en 2 su FUE y CON, si es controlable o menor.</span></span></div></div></div>",
             "url": "r17720",
             "simpleTitle": "Misión: the murmuring woods",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Elysia G. Lestrange",
@@ -151661,7 +151910,7 @@ const DBModule = (function () {
                 15
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "ingresar a la cocina"
@@ -151672,10 +151921,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Elysia G. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">15</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Elysia G. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"ingresar a la cocina\" (15)</strong><span><span>Traspasando un arco de mampostería al fondo de la sala, se abren las cocinas. El lugar es un mausoleo de lo cotidiano: conserva vestigios de una vida interrumpida bruscamente meses atrás, ahora asfixiada bajo una gruesa mortaja de polvo y óxido. Sin embargo, la atención es irremediablemente capturada por una pesada puerta de madera en el extremo opuesto; el único camino posible hacia el enjambre botánico que los aguarda en el jardín.<br><br>El silencio dentro de la casa es absoluto, pero no representa paz, sino una emboscada en suspenso. La alerta satura el ambiente, espesando el aire y erizando la piel con una advertencia muda pero irrefutable: girar ese cerrojo y abandonar el precario refugio del interior es un atrevimiento cuyo precio deja poco a la imaginación.</span></span></span></div></div></div>",
             "url": "r17741",
             "simpleTitle": "Misión: the murmuring woods",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Vasilisa M. Kuznetzova",
@@ -151683,7 +151933,7 @@ const DBModule = (function () {
                 6
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "inspeccionar la cocina"
@@ -151694,10 +151944,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">6</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"inspeccionar la cocina\" (6)</strong><span><span>Los cristales de las ventanas y la pesada puerta de las cocinas revelan un detalle perturbador: han sido sellados con encantamientos de insonorización casi impenetrables. Gracias a esta densa barrera invisible, el llanto letal de las aberraciones que se retuercen afuera queda ahogado, reducido a un gemido agónico y sepulcral. Este silencio artificial, sin embargo, no ofrece consuelo alguno; es la prueba irrefutable de que alguien intentó, desesperadamente, aislarse de la locura mortal que devoraba su propio hogar.</span></span></span></div></div></div>",
             "url": "r17784",
             "simpleTitle": "Misión: the murmuring woods",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Ksenia D. Demidova",
@@ -151705,7 +151956,7 @@ const DBModule = (function () {
                 14
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "abrir la puerta hacia los jardines"
@@ -151716,10 +151967,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Ksenia D. Demidova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">14</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Ksenia D. Demidova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"abrir la puerta hacia los jardines\" (14)</strong><span><span>Al ceder la pesada puerta de madera y quebrar el sello de insonorización, lo primero que los asalta es el hedor a tierra húmeda. El jardín yace sumido en una calma sepulcral, casi depredadora. El viento se arrastra entre las colosales hojas de las mandrágoras, produciendo un susurro viscoso que se asemeja al roce de miles de respiraciones acompasadas. La horda duerme bajo la superficie, pero la alerta sigue latiendo en el aire, tan densa como la humedad del lugar. Es una paz frágil, a punto de romperse con el más mínimo error.<br><br>A partir de este momento, cada paso debe ser un pacto con el silencio. Todos los personajes deberán realizar una tirada de la acción \"Tacite\" para determinar si logran moverse con el sigilo absoluto que exige el entorno. Un solo crujido bajo la bota o un roce descuidado será suficiente para despertar un coro letal de resultados caóticos.</span></span></span></div></div></div>",
             "url": "r17791",
             "simpleTitle": "Misión: the murmuring woods",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "H. Shun Parkinson",
@@ -151728,7 +151980,8 @@ const DBModule = (function () {
                 3
             ],
             "title": [
-                "actions"
+                "actions",
+                "mission"
             ],
             "key": [
                 "tacite",
@@ -151742,10 +151995,11 @@ const DBModule = (function () {
                 "encantamiento, neutral",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"contrabando\"><strong>Resultado  #1 \"tacite\" (12)</strong><span>El personaje logra avanzar sin que nadie note su presencia.</span></span><span class=\"roll-result\">3</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"contrabando\"><strong>Resultado  #1 \"tacite\" (12)</strong><span>El personaje logra avanzar sin que nadie note su presencia.<br /><br /><span>Permite que el grupo avance 1 baldosa por el sendero.</span></span></span><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #2 \"dayflower garden\" (3)</strong><span><span>A estas alturas, la definición de «jardín» resultaba un eufemismo ridículo; aquel lugar había mutado en un bosque tan hermoso como opresivo. Las inmensas hojas de las mandrágoras se retorcían y entrelazaban en lo alto, tejiendo un laberinto verde, carnoso y asfixiante que devoraba cualquier rastro de luz. A nivel del suelo, un estrecho camino serpenteaba como una víbora pálida, perdiéndose irremediablemente en un abismo de vegetación donde la vista ya no lograba penetrar.<br><br>Lo más inquietante aguardaba bajo sus suelas: un sendero de baldosas blancas, lisas y frías como huesos pulidos, que poseían la macabra cualidad de devorar el sonido. Cada pisada era atenuada hasta convertirse en un eco fantasmagórico. Lejos de brindar alivio, aquel silencio resultaba depredador; la propia tierra parecía tragar sus pasos para mantener la ilusión de calma, obligándolos a avanzar a ciegas sobre un abismo dormido.<br><br>Existen un total de 32 baldosas que deben pasarse hasta llegar al cobertizo. Una vez que lleguen al mismo, deberán advertir a la administración para que realice el correspondiente masteo.</span></span></span></div></div></div>",
             "url": "r17859",
             "simpleTitle": "Misión: the murmuring woods",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Mercury Merrythought",
@@ -151754,7 +152008,8 @@ const DBModule = (function () {
                 7
             ],
             "title": [
-                "actions"
+                "actions",
+                "mission"
             ],
             "key": [
                 "tacite",
@@ -151768,10 +152023,11 @@ const DBModule = (function () {
                 "encantamiento, neutral",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Mercury Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"contrabando\"><strong>Resultado  #1 \"tacite\" (1)</strong><span>No sucede nada, capaz este hechizo no es para ti.</span></span><span class=\"roll-result\">7</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Mercury Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"contrabando\"><strong>Resultado  #1 \"tacite\" (1)</strong><span><span>Un sonido revela la presencia. Las mandrágoras mueven sus hojas, pero aún parece una advertencia. Suma +1 al contador de advertencias. Al llegar a 3 deberán pedir intervención administrativa al despertar a las mismas.</span></span></span><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #2 \"liberar a los dugbogs\" (7)</strong><span><span>Al ser liberados, los dugbogs se hundieron en el fango con voracidad, desatando una brutal carnicería botánica. El crujido de sus mandíbulas triturando las colosales mandrágoras ahogó los agónicos gemidos subterráneos de las raíces. El festín de las bestias forjaba, peldaño a peldaño, un sendero seguro de piedra blanca que les abría paso hacia el corazón del jardín.<br><br>Adiciona +1 en el avance de las baldosas en todos los turnos de todos los personajes.</span></span></span></div></div></div>",
             "url": "r17928",
             "simpleTitle": "Misión: the murmuring woods",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Jupiter Merrythought",
@@ -151780,6 +152036,7 @@ const DBModule = (function () {
                 14
             ],
             "title": [
+                "mission",
                 "actions"
             ],
             "key": [
@@ -151794,10 +152051,11 @@ const DBModule = (function () {
                 "",
                 "encantamiento, neutral"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">12</span><span class=\"action-result\" data-conocimientos=\"contrabando\"><strong>Resultado  #2 \"tacite\" (14)</strong><span>El personaje avanza, pero la torpeza puede generar catastróficos resultados. Por ahora, esta a salvo.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"inspeccionar el suelo\" (12)</strong><span><span>A un lado del sendero, varios contenedores oxidados resguardaban montículos de leña astillada. La madera, antinaturalmente seca en medio de la humedad del lugar, no era un simple vestigio. Se erguía como una clara advertencia: un indicio que advertía de un aliado para forjar un avance seguro a través de la pesadilla verde.</span></span></span><span class=\"action-result\" data-conocimientos=\"contrabando\"><strong>Resultado  #2 \"tacite\" (14)</strong><span>El personaje avanza, pero la torpeza puede generar catastróficos resultados. Por ahora, esta a salvo.<br /><br /><span>El avance torpe requiere quedarse donde están. Las mandrágoras no son advertidas, pero tampoco permite avanzar por el sendero.</span></span></span></div></div></div>",
             "url": "r17937",
             "simpleTitle": "Misión: the murmuring woods",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Elysia G. Lestrange",
@@ -151820,10 +152078,11 @@ const DBModule = (function () {
                 "encantamiento, neutral",
                 "encantamiento, neutral"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Elysia G. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"contrabando\"><strong>Resultado  #1 \"tacite\" (11)</strong><span>El personaje avanza, pero la torpeza puede generar catastróficos resultados. Por ahora, esta a salvo.</span></span><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #2 \"spongify\" (8)</strong><span>El área afectada se vuelve completamente esponjosa y elástica.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Elysia G. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"contrabando\"><strong>Resultado  #1 \"tacite\" (11)</strong><span>El personaje avanza, pero la torpeza puede generar catastróficos resultados. Por ahora, esta a salvo.<br /><br /><span>El avance torpe requiere quedarse donde están. Las mandrágoras no son advertidas, pero tampoco permite avanzar por el sendero.</span></span></span><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #2 \"spongify\" (8)</strong><span>El área afectada se vuelve completamente esponjosa y elástica.</span></span></div></div></div>",
             "url": "r18069",
             "simpleTitle": "Misión: the murmuring woods",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Vasilisa M. Kuznetzova",
@@ -151846,10 +152105,11 @@ const DBModule = (function () {
                 "transfiguración, ofensivo",
                 "encantamiento, neutral"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"transformaciones\"><strong>Resultado  #1 \"mutareforma\" (4)</strong><span>El objeto se transforma completamente en el nuevo objeto deseado, con materiales coherentes.</span></span><span class=\"action-result\" data-conocimientos=\"contrabando\"><strong>Resultado  #2 \"tacite\" (14)</strong><span>El personaje avanza, pero la torpeza puede generar catastróficos resultados. Por ahora, esta a salvo.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"transformaciones\"><strong>Resultado  #1 \"mutareforma\" (4)</strong><span>El objeto se transforma completamente en el nuevo objeto deseado, con materiales coherentes.<br /><br /><span>Permite transformar 2 troncos en tambores.</span></span></span><span class=\"action-result\" data-conocimientos=\"contrabando\"><strong>Resultado  #2 \"tacite\" (14)</strong><span>El personaje avanza, pero la torpeza puede generar catastróficos resultados. Por ahora, esta a salvo.<br /><br /><span>El avance torpe requiere quedarse donde están. Las mandrágoras no son advertidas, pero tampoco permite avanzar por el sendero.</span></span></span></div></div></div>",
             "url": "r18107",
             "simpleTitle": "Misión: the murmuring woods",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Ksenia D. Demidova",
@@ -151872,10 +152132,11 @@ const DBModule = (function () {
                 "encantamiento, neutral",
                 "encantamiento, neutral"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Ksenia D. Demidova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"música\"><strong>Resultado  #1 \"ritmus conexus\" (2)</strong><span>El grupo se descoordina, causando torpeza.</span></span><span class=\"action-result\" data-conocimientos=\"contrabando\"><strong>Resultado  #2 \"tacite\" (8)</strong><span>El personaje avanza, pero algunos ruidos alertan su presencia.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Ksenia D. Demidova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"música\"><strong>Resultado  #1 \"ritmus conexus\" (2)</strong><span>El grupo se descoordina, causando torpeza.</span></span><span class=\"action-result\" data-conocimientos=\"contrabando\"><strong>Resultado  #2 \"tacite\" (8)</strong><span>El personaje avanza, pero algunos ruidos alertan su presencia.<br /><br /><span>Un sonido revela la presencia. Las mandrágoras mueven sus hojas, pero aún parece una advertencia. Suma +1 al contador de advertencias. Al llegar a 3 deberán pedir intervención administrativa al despertar a las mismas.</span></span></span></div></div></div>",
             "url": "r18283",
             "simpleTitle": "Misión: the murmuring woods",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "H. Shun Parkinson",
@@ -151898,10 +152159,11 @@ const DBModule = (function () {
                 "habilidad, sin magia, neutral",
                 "encantamiento, neutral"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"música\"><strong>Resultado  #1 \"melodia solaminis\" (14)</strong><span>Un aliado cercano se relaja momentáneamente.</span></span><span class=\"action-result\" data-conocimientos=\"contrabando\"><strong>Resultado  #2 \"tacite\" (7)</strong><span>El personaje avanza, pero la torpeza puede generar catastróficos resultados. Por ahora, esta a salvo.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"música\"><strong>Resultado  #1 \"melodia solaminis\" (14)</strong><span>Un aliado cercano se relaja momentáneamente.<br /><br /><span>La música calma a las mandrágoras, permitiendo encantar los tambores. Cada tambor les permite avanzar +1 baldosa.</span></span></span><span class=\"action-result\" data-conocimientos=\"contrabando\"><strong>Resultado  #2 \"tacite\" (7)</strong><span>El personaje avanza, pero la torpeza puede generar catastróficos resultados. Por ahora, esta a salvo.<br /><br /><span>El avance torpe requiere quedarse donde están. Las mandrágoras no son advertidas, pero tampoco permite avanzar por el sendero.</span></span></span></div></div></div>",
             "url": "r18314",
             "simpleTitle": "Misión: the murmuring woods",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Mercury Merrythought",
@@ -151924,10 +152186,11 @@ const DBModule = (function () {
                 "transfiguración, ofensivo",
                 "encantamiento, neutral"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Mercury Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"transformaciones\"><strong>Resultado  #1 \"mutareforma\" (4)</strong><span>No sucede nada, capaz este hechizo no es para ti.</span></span><span class=\"action-result\" data-conocimientos=\"contrabando\"><strong>Resultado  #2 \"tacite\" (7)</strong><span>No sucede nada, capaz este hechizo no es para ti.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Mercury Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"transformaciones\"><strong>Resultado  #1 \"mutareforma\" (4)</strong><span><span>No es suficiente para revelar información.</span></span></span><span class=\"action-result\" data-conocimientos=\"contrabando\"><strong>Resultado  #2 \"tacite\" (7)</strong><span><span>Un sonido revela la presencia. Las mandrágoras mueven sus hojas, pero aún parece una advertencia. Suma +1 al contador de advertencias. Al llegar a 3 deberán pedir intervención administrativa al despertar a las mismas.</span></span></span></div></div></div>",
             "url": "r18356",
             "simpleTitle": "Misión: the murmuring woods",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Jupiter Merrythought",
@@ -151950,10 +152213,11 @@ const DBModule = (function () {
                 "encantamiento, neutral",
                 "habilidad, sin magia, neutral"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"contrabando\"><strong>Resultado  #1 \"tacite\" (2)</strong><span>El personaje avanza, pero algunos ruidos alertan su presencia.</span></span><span class=\"action-result\" data-conocimientos=\"liderazgo\"><strong>Resultado  #2 \"fortitudo cordis\" (3)</strong><span>Adiciona <em>9</em> (El 100% de CAR) en acciones del conocimiento mencionado durante todo el tema.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"contrabando\"><strong>Resultado  #1 \"tacite\" (2)</strong><span>El personaje avanza, pero algunos ruidos alertan su presencia.<br /><br /><span>Un sonido revela la presencia. Las mandrágoras mueven sus hojas, pero aún parece una advertencia. Suma +1 al contador de advertencias. Al llegar a 3 deberán pedir intervención administrativa al despertar a las mismas.</span></span></span><span class=\"action-result\" data-conocimientos=\"liderazgo\"><strong>Resultado  #2 \"fortitudo cordis\" (3)</strong><span>Adiciona <em>9</em> (El 100% de CAR) en acciones del conocimiento mencionado durante todo el tema.<br /><br /><span>Si se usa en transformaciones adiciona +2 a la creación de troncos. Si se usa en la música, adiciona +2 al adicional de la música. Duración: una ronda.</span></span></span></div></div></div>",
             "url": "r18409",
             "simpleTitle": "Misión: the murmuring woods",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Elysia G. Lestrange",
@@ -151976,10 +152240,11 @@ const DBModule = (function () {
                 "encantamiento, neutral",
                 "transfiguración, ofensivo"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Elysia G. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"contrabando\"><strong>Resultado  #1 \"tacite\" (4)</strong><span>El personaje avanza, pero algunos ruidos alertan su presencia.</span></span><span class=\"action-result\" data-conocimientos=\"transformaciones\"><strong>Resultado  #2 \"mutareforma\" (19)</strong><span>El objeto se transforma completamente en el nuevo objeto deseado, con materiales coherentes.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Elysia G. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"contrabando\"><strong>Resultado  #1 \"tacite\" (4)</strong><span>El personaje avanza, pero algunos ruidos alertan su presencia.<br /><br /><span>Un sonido revela la presencia. Las mandrágoras mueven sus hojas, pero aún parece una advertencia. Suma +1 al contador de advertencias. Al llegar a 3 deberán pedir intervención administrativa al despertar a las mismas.</span></span></span><span class=\"action-result\" data-conocimientos=\"transformaciones\"><strong>Resultado  #2 \"mutareforma\" (19)</strong><span>El objeto se transforma completamente en el nuevo objeto deseado, con materiales coherentes.<br /><br /><span>Permite transformar 2 troncos en tambores.</span></span></span></div></div></div>",
             "url": "r18460",
             "simpleTitle": "Misión: the murmuring woods",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Vasilisa M. Kuznetzova",
@@ -151995,7 +152260,8 @@ const DBModule = (function () {
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-salud\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"salud\"</span><div class=\"dice-results\"><span class=\"roll-result nro5\"><strong>Saludable</strong>En buenas condiciones con solo algunas molestias menores. Pierde <replace target=\"pv\" calculate=\"0.1\">el 10% de sus puntos de vida</replace>.</span></div></div></div>",
             "url": "r18581",
             "simpleTitle": "Misión: the murmuring woods",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Ksenia D. Demidova",
@@ -152011,7 +152277,8 @@ const DBModule = (function () {
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-salud\"><span>Ksenia D. Demidova ha lanzado los dados \"salud\"</span><div class=\"dice-results\"><span class=\"roll-result nro6\"><strong>Plenitud</strong>El personaje está en excelente estado físico, sin heridas ni molestias. Pierde <replace target=\"pv\" calculate=\"0.05\">5% de sus puntos de vida</replace>.</span></div></div></div>",
             "url": "r18698",
             "simpleTitle": "Misión: the murmuring woods",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "H. Shun Parkinson",
@@ -152027,7 +152294,8 @@ const DBModule = (function () {
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-salud\"><span>H. Shun Parkinson ha lanzado los dados \"salud\"</span><div class=\"dice-results\"><span class=\"roll-result nro4\"><strong>Lastimado</strong>Heridas leves, pero el personaje está en una condición estable. Pierde <replace target=\"pv\" calculate=\"0.3\">el 30% de sus puntos de vida</replace>.</span></div></div></div>",
             "url": "r18719",
             "simpleTitle": "Misión: the murmuring woods",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Mercury Merrythought",
@@ -152043,7 +152311,8 @@ const DBModule = (function () {
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-salud\"><span>Mercury Merrythought ha lanzado los dados \"salud\"</span><div class=\"dice-results\"><span class=\"roll-result nro3\"><strong>Débil</strong>El personaje tiene heridas moderadas que limitan su capacidad, pero aún puede luchar. Pierde <replace target=\"pv\" calculate=\"0.5\">el 50% de sus puntos de vida</replace>.</span></div></div></div>",
             "url": "r18764",
             "simpleTitle": "Misión: the murmuring woods",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Jupiter Merrythought",
@@ -152059,7 +152328,8 @@ const DBModule = (function () {
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-salud\"><span>Jupiter Merrythought ha lanzado los dados \"salud\"</span><div class=\"dice-results\"><span class=\"roll-result nro6\"><strong>Plenitud</strong>El personaje está en excelente estado físico, sin heridas ni molestias. Pierde <replace target=\"pv\" calculate=\"0.05\">5% de sus puntos de vida</replace>.</span></div></div></div>",
             "url": "r18768",
             "simpleTitle": "Misión: the murmuring woods",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Elysia G. Lestrange",
@@ -152075,7 +152345,8 @@ const DBModule = (function () {
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-salud\"><span>Elysia G. Lestrange ha lanzado los dados \"salud\"</span><div class=\"dice-results\"><span class=\"roll-result nro5\"><strong>Saludable</strong>En buenas condiciones con solo algunas molestias menores. Pierde <replace target=\"pv\" calculate=\"0.1\">el 10% de sus puntos de vida</replace>.</span></div></div></div>",
             "url": "r18818",
             "simpleTitle": "Misión: the murmuring woods",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Vasilisa M. Kuznetzova",
@@ -152084,7 +152355,8 @@ const DBModule = (function () {
                 4
             ],
             "title": [
-                "actions"
+                "mission",
+                "acción"
             ],
             "key": [
                 "regresar a la casa con otro personaje"
@@ -152095,10 +152367,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">6</span><span class=\"roll-result\">4</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"regresar a la casa con otro personaje\" (6)</strong><span><span>Permite al personaje regresar a la casa, llevando un personaje por cada 2 puntos de Fuerza que posee. Narrativamente, lleva un personaje, vuelve y luego lleva otro.</span></span></span><span class=\"roll-result\">4</span></div></div></div>",
             "url": "r18964",
             "simpleTitle": "Misión: the murmuring woods",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Ksenia D. Demidova",
@@ -152107,7 +152380,8 @@ const DBModule = (function () {
                 6
             ],
             "title": [
-                "actions"
+                "mission",
+                "acción"
             ],
             "key": [
                 "regresar a la casa con otro personaje"
@@ -152118,10 +152392,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Ksenia D. Demidova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">5</span><span class=\"roll-result\">6</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Ksenia D. Demidova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"regresar a la casa con otro personaje\" (5)</strong><span><span>Permite al personaje regresar a la casa, llevando un personaje por cada 2 puntos de Fuerza que posee. Narrativamente, lleva un personaje, vuelve y luego lleva otro.</span></span></span><span class=\"roll-result\">6</span></div></div></div>",
             "url": "r19156",
             "simpleTitle": "Misión: the murmuring woods",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "H. Shun Parkinson",
@@ -152138,7 +152413,8 @@ const DBModule = (function () {
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-salud\"><span>H. Shun Parkinson ha lanzado los dados \"salud\"</span><div class=\"dice-results\"><span class=\"roll-result nro20\">undefined</span><span class=\"roll-result nro4\"><strong>Lastimado</strong>Heridas leves, pero el personaje está en una condición estable. Pierde <replace target=\"pv\" calculate=\"0.3\">el 30% de sus puntos de vida</replace>.</span></div></div></div>",
             "url": "r19173",
             "simpleTitle": "Misión: the murmuring woods",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Jupiter Merrythought",
@@ -152161,10 +152437,11 @@ const DBModule = (function () {
                 "habilidad, sin magia, neutral",
                 "habilidad, sin magia, neutral"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"liderazgo\"><strong>Resultado  #1 \"renovatio animi\" (7)</strong><span>Los aliados podrán recuperar 15PV o adicionar +7 en defensa.</span></span><span class=\"action-result\" data-conocimientos=\"liderazgo\"><strong>Resultado  #2 \"renovatio animi\" (20)</strong><span>Los aliados podrán recuperar 20PV o adicionar +9 en defensa.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"liderazgo\"><strong>Resultado  #1 \"renovatio animi\" (7)</strong><span>Los aliados podrán recuperar 15PV o adicionar +7 en defensa.<br /><br /><span>Adiciona +3 a la transformación de troncos o +1 al adicional de la música durante una ronda.</span></span></span><span class=\"action-result\" data-conocimientos=\"liderazgo\"><strong>Resultado  #2 \"renovatio animi\" (20)</strong><span>Los aliados podrán recuperar 20PV o adicionar +9 en defensa.<br /><br /><span>Adiciona +4 a la transformación de troncos o +1 al adicional de la música durante una ronda.</span></span></span></div></div></div>",
             "url": "r19460",
             "simpleTitle": "Misión: the murmuring woods",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Elysia G. Lestrange",
@@ -152172,7 +152449,7 @@ const DBModule = (function () {
                 1
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "contadores"
@@ -152183,10 +152460,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Elysia G. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">1</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Elysia G. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"contadores\" (1)</strong><span><span>El contador de baldosas regresa a cero al igual que el contador de advertencias. Deberán esperar 1 hora hasta que las mandragoras se calmen y así poder volver a iniciar.</span></span></span></div></div></div>",
             "url": "r19483",
             "simpleTitle": "Misión: the murmuring woods",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Vasilisa M. Kuznetzova",
@@ -152195,6 +152473,7 @@ const DBModule = (function () {
                 11
             ],
             "title": [
+                "mission",
                 "actions"
             ],
             "key": [
@@ -152209,10 +152488,11 @@ const DBModule = (function () {
                 "",
                 "mental, sin magia, neutral"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">3</span><span class=\"action-result\" data-conocimientos=\"banshees\"><strong>Resultado  #2 \"vox tenebris\" (11)</strong><span>Los oyentes no solo podrán sentir la emoción, sino que podrán recordar un momento en el que se hayan sentido igual. La misma debe ser indicada on-rol.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"sentir las vibraciones de la tierra\" (3)</strong><span><span>Si una banshee apoya sus palmas sobre las gélidas baldosas, su conexión con el más allá le revelará dos verdades absolutas. Primero, el eco putrefacto de una tragedia: ese mismo sendero ya devoró una vida hace décadas. Segundo, una condena latente: la muerte reclamará una nueva alma si quiebran el silencio sepulcral que exige el jardín.</span></span></span><span class=\"action-result\" data-conocimientos=\"banshees\"><strong>Resultado  #2 \"vox tenebris\" (11)</strong><span>Los oyentes no solo podrán sentir la emoción, sino que podrán recordar un momento en el que se hayan sentido igual. La misma debe ser indicada on-rol.<br /><br /><span>La música calma a las mandrágoras, permitiendo que el grupo avance 3 rondas sin necesidad de tirar tacite.</span></span></span></div></div></div>",
             "url": "r19587",
             "simpleTitle": "Misión: the murmuring woods",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Ksenia D. Demidova",
@@ -152220,7 +152500,7 @@ const DBModule = (function () {
                 16
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "investigar los cajones junto a la cocina"
@@ -152231,10 +152511,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Ksenia D. Demidova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">16</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Ksenia D. Demidova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"investigar los cajones junto a la cocina\" (16)</strong><span><span>Si se presta atención, podrán notar que, aunque la casa esta en desuso, aún conserva algunos objetos útiles. Cajones que se abrían y cerraban con frecuencia. Al abrir el primero podrán notar que hay unas orejeras azules por montones. Suficiente para que cada uno pueda colocarse un par. Esto bloquea 15PV del daño que puedan causar las mandragoras a futuro.</span></span></span></div></div></div>",
             "url": "r19687",
             "simpleTitle": "Misión: the murmuring woods",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "H. Shun Parkinson",
@@ -152260,7 +152541,8 @@ const DBModule = (function () {
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #1 \"sanatio orbis\" (14)</strong><span>El hechizo se manifiesta con fuerza. Todos los presentes recuperan vitalidad, fracturas menores se acomodan, dolor y agotamiento reducidos, heridos graves quedan estables y conscientes. Restaura +16PV.</span></span><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #2 \"sanatio orbis\" (15)</strong><span>El hechizo se manifiesta con fuerza. Todos los presentes recuperan vitalidad, fracturas menores se acomodan, dolor y agotamiento reducidos, heridos graves quedan estables y conscientes. Restaura +16PV.</span></span></div></div></div>",
             "url": "r19717",
             "simpleTitle": "Misión: the murmuring woods",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Jupiter Merrythought",
@@ -152269,6 +152551,7 @@ const DBModule = (function () {
                 4
             ],
             "title": [
+                "mission",
                 "actions"
             ],
             "key": [
@@ -152283,10 +152566,11 @@ const DBModule = (function () {
                 "",
                 "habilidad, sin magia, neutral"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">2</span><span class=\"action-result\" data-conocimientos=\"liderazgo\"><strong>Resultado  #2 \"renovatio animi\" (4)</strong><span>Los aliados podrán recuperar 15PV o adicionar +7 en defensa.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"investigar la alacena\" (2)</strong><span><span>Si se abre la alacena, podrán encontrar varios objetos útiles. Termos de agua, algunos caramelos de café que se han puesto viejos con el paso del tiempo, y también un frasco con un unguento negro que no parece demasiado agraciado.</span></span></span><span class=\"action-result\" data-conocimientos=\"liderazgo\"><strong>Resultado  #2 \"renovatio animi\" (4)</strong><span>Los aliados podrán recuperar 15PV o adicionar +7 en defensa.<br /><br /><span>Adiciona +3 a la transformación de troncos o +1 al adicional de la música durante una ronda.</span></span></span></div></div></div>",
             "url": "r19894",
             "simpleTitle": "Misión: the murmuring woods",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Elysia G. Lestrange",
@@ -152295,6 +152579,7 @@ const DBModule = (function () {
                 12
             ],
             "title": [
+                "mission",
                 "actions"
             ],
             "key": [
@@ -152309,10 +152594,11 @@ const DBModule = (function () {
                 "",
                 "encantamiento, neutral"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Elysia G. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">15</span><span class=\"action-result\" data-conocimientos=\"pociones\"><strong>Resultado  #2 \"revelio potionis\" (12)</strong><span>Puede reconocer efectos generales de la poción y <em>+6</em> (50% del conocimiento en POCIONES) puntos de sus ingredientes principales.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Elysia G. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"abrir la puerta del armario\" (15)</strong><span><span>Si se abre las puertas del armario, podrán encontrar una pequeña colección de escobas. Son tres en particular. En la puerta del mismo puede encontrarse una fotografía de un niño cercano a los doce junto a sus dos padres.</span></span></span><span class=\"action-result\" data-conocimientos=\"pociones\"><strong>Resultado  #2 \"revelio potionis\" (12)</strong><span>Puede reconocer efectos generales de la poción y <em>+6</em> (50% del conocimiento en POCIONES) puntos de sus ingredientes principales.</span></span></div></div></div>",
             "url": "r19994",
             "simpleTitle": "Misión: the murmuring woods",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Vasilisa M. Kuznetzova",
@@ -152320,7 +152606,7 @@ const DBModule = (function () {
                 15
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "investigar unguentos"
@@ -152331,10 +152617,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">15</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"investigar unguentos\" (15)</strong><span><span>La pasta que esta en el frasco parece ser un unguento para los oídos generado, principalmente, por raíz de mandragora machacada. La mezcla en si parece barro, pero si se presta atención la letra de Edwin puede leeerse en el tapa indicando: \"para los oídos\".</span></span></span></div></div></div>",
             "url": "r20025",
             "simpleTitle": "Misión: the murmuring woods",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Ksenia D. Demidova",
@@ -152342,7 +152629,7 @@ const DBModule = (function () {
                 3
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "aplicar unguento"
@@ -152353,10 +152640,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Ksenia D. Demidova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">3</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Ksenia D. Demidova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"aplicar unguento\" (3)</strong><span><span>Al aplicar el unguento, el personaje recibe un efecto de curación que reduce el daño recibido por las mandragoras. Restaura 35PV.</span></span></span></div></div></div>",
             "url": "r20158",
             "simpleTitle": "Misión: the murmuring woods",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "H. Shun Parkinson",
@@ -152378,7 +152666,8 @@ const DBModule = (function () {
             "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #1 \"episkey\" (10)</strong><span>El hechizo restaura completamente la zona afectada y acelera la regeneración, eliminando cicatrices o secuelas. Adiciona +12PV.</span></span></div></div></div>",
             "url": "r20179",
             "simpleTitle": "Misión: the murmuring woods",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Mercury Merrythought",
@@ -152387,7 +152676,8 @@ const DBModule = (function () {
                 1
             ],
             "title": [
-                "actions"
+                "mission",
+                "acción"
             ],
             "key": [
                 "aplicar unguento"
@@ -152398,10 +152688,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Mercury Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">10</span><span class=\"roll-result\">1</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Mercury Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"aplicar unguento\" (10)</strong><span><span>Al aplicar el unguento, el personaje recibe un efecto de curación que reduce el daño recibido por las mandragoras. Restaura 35PV.</span></span></span><span class=\"roll-result\">1</span></div></div></div>",
             "url": "r20271",
             "simpleTitle": "Misión: the murmuring woods",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Jupiter Merrythought",
@@ -152410,6 +152701,7 @@ const DBModule = (function () {
                 17
             ],
             "title": [
+                "mission",
                 "actions"
             ],
             "key": [
@@ -152424,10 +152716,11 @@ const DBModule = (function () {
                 "",
                 "habilidad, sin magia, neutral"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">4</span><span class=\"action-result\" data-conocimientos=\"liderazgo\"><strong>Resultado  #2 \"fortitudo cordis\" (17)</strong><span>Adiciona <em>9</em> (El 100% de CAR) en acciones del conocimiento mencionado durante todo el tema.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"parecido de la familia\" (4)</strong><span><span>La familia de tres que se observa en la fotografía, muestra a Edwin junto a sus padres: Mabel y Hamish. Si alguno desea indicar algún parecido a los hermanos o cualquier otro miembro de la familia, puede hacerlo.</span></span></span><span class=\"action-result\" data-conocimientos=\"liderazgo\"><strong>Resultado  #2 \"fortitudo cordis\" (17)</strong><span>Adiciona <em>9</em> (El 100% de CAR) en acciones del conocimiento mencionado durante todo el tema.<br /><br /><span>Si se usa en transformaciones adiciona +2 a la creación de troncos. Si se usa en la música, adiciona +2 al adicional de la música. Duración: una ronda.</span></span></span></div></div></div>",
             "url": "r20276",
             "simpleTitle": "Misión: the murmuring woods",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Elysia G. Lestrange",
@@ -152435,7 +152728,7 @@ const DBModule = (function () {
                 9
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "aplicar unguento"
@@ -152446,10 +152739,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Elysia G. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">9</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Elysia G. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"aplicar unguento\" (9)</strong><span><span>Al aplicar el unguento, el personaje recibe un efecto de curación que reduce el daño recibido por las mandragoras. Restaura 35PV.</span></span></span></div></div></div>",
             "url": "r20382",
             "simpleTitle": "Misión: the murmuring woods",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "H. Shun Parkinson",
@@ -152472,10 +152766,11 @@ const DBModule = (function () {
                 "encantamiento, neutral",
                 "quidditch, sin magia, neutral"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"contrabando\"><strong>Resultado  #1 \"tacite\" (12)</strong><span>El personaje logra avanzar sin que nadie note su presencia.</span></span><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #2 \"vuelo en pareja\" (16)</strong><span>Vuelo perfecto. Se requieren 3 turnos para llegar al objetivo deseado.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"contrabando\"><strong>Resultado  #1 \"tacite\" (12)</strong><span>El personaje logra avanzar sin que nadie note su presencia.<br /><br /><span>Permite que el grupo avance 1 baldosa por el sendero.</span></span></span><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #2 \"vuelo en pareja\" (16)</strong><span>Vuelo perfecto. Se requieren 3 turnos para llegar al objetivo deseado.<br /><br /><span>Permite que el avance sea igual a = <replace target=\"attr\" calculate=\"2.5\" data=\"des\">el 250% de la destreza del personaje</replace> menos la constitución del acompañante en baldosas.</span></span></span></div></div></div>",
             "url": "r20576",
             "simpleTitle": "Misión: the murmuring woods",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Mercury Merrythought",
@@ -152498,10 +152793,11 @@ const DBModule = (function () {
                 "encantamiento, neutral",
                 "quidditch, sin magia, neutral"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Mercury Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"contrabando\"><strong>Resultado  #1 \"tacite\" (15)</strong><span>No sucede nada, capaz este hechizo no es para ti.</span></span><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #2 \"vuelo en pareja\" (10)</strong><span>No sucede nada, capaz este hechizo no es para ti.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Mercury Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"contrabando\"><strong>Resultado  #1 \"tacite\" (15)</strong><span><span>Un sonido revela la presencia. Las mandrágoras mueven sus hojas, pero aún parece una advertencia. Suma +1 al contador de advertencias. Al llegar a 3 deberán pedir intervención administrativa al despertar a las mismas.</span></span></span><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #2 \"vuelo en pareja\" (10)</strong><span><span>No es suficiente para volar en pareja.</span></span></span></div></div></div>",
             "url": "r20608",
             "simpleTitle": "Misión: the murmuring woods",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Jupiter Merrythought",
@@ -152524,10 +152820,11 @@ const DBModule = (function () {
                 "encantamiento, neutral",
                 "quidditch, sin magia, neutral"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"contrabando\"><strong>Resultado  #1 \"tacite\" (16)</strong><span>El personaje avanza, pero la torpeza puede generar catastróficos resultados. Por ahora, esta a salvo.</span></span><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #2 \"vuelo en pareja\" (5)</strong><span>El vuelo es a una buena velocidad. Se demora 4 turnos en llegar al objetivo deseado.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"contrabando\"><strong>Resultado  #1 \"tacite\" (16)</strong><span>El personaje avanza, pero la torpeza puede generar catastróficos resultados. Por ahora, esta a salvo.<br /><br /><span>El avance torpe requiere quedarse donde están. Las mandrágoras no son advertidas, pero tampoco permite avanzar por el sendero.</span></span></span><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #2 \"vuelo en pareja\" (5)</strong><span>El vuelo es a una buena velocidad. Se demora 4 turnos en llegar al objetivo deseado.<br /><br /><span>Permite que el avance sea igual a = <replace target=\"attr\" calculate=\"2\" data=\"des\">el 200% de la destreza del personaje</replace> menos la constitución del acompañante en baldosas.</span></span></span></div></div></div>",
             "url": "r20625",
             "simpleTitle": "Misión: the murmuring woods",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Vasilisa M. Kuznetzova",
@@ -152546,10 +152843,11 @@ const DBModule = (function () {
             "type": [
                 "mental, sin magia, neutral"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"banshees\"><strong>Resultado  #1 \"vox tenebris\" (3)</strong><span>Los oyentes no solo podrán sentir la emoción, sino que podrán recordar un momento en el que se hayan sentido igual. La misma debe ser indicada on-rol.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"banshees\"><strong>Resultado  #1 \"vox tenebris\" (3)</strong><span>Los oyentes no solo podrán sentir la emoción, sino que podrán recordar un momento en el que se hayan sentido igual. La misma debe ser indicada on-rol.<br /><br /><span>La música calma a las mandrágoras, permitiendo que el grupo avance 3 rondas sin necesidad de tirar tacite.</span></span></span></div></div></div>",
             "url": "r20680",
             "simpleTitle": "Misión: the murmuring woods",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Jupiter Merrythought",
@@ -152572,10 +152870,11 @@ const DBModule = (function () {
                 "habilidad, sin magia, neutral",
                 "quidditch, sin magia, neutral"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"liderazgo\"><strong>Resultado  #1 \"fortitudo cordis\" (8)</strong><span>Adiciona <em>9</em> (El 100% de CAR) en acciones del conocimiento mencionado durante todo el tema.</span></span><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #2 \"vuelo en pareja\" (5)</strong><span>El vuelo es a una buena velocidad. Se demora 4 turnos en llegar al objetivo deseado.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"liderazgo\"><strong>Resultado  #1 \"fortitudo cordis\" (8)</strong><span>Adiciona <em>9</em> (El 100% de CAR) en acciones del conocimiento mencionado durante todo el tema.<br /><br /><span>Si se usa en transformaciones adiciona +2 a la creación de troncos. Si se usa en la música, adiciona +2 al adicional de la música. Duración: una ronda.</span></span></span><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #2 \"vuelo en pareja\" (5)</strong><span>El vuelo es a una buena velocidad. Se demora 4 turnos en llegar al objetivo deseado.<br /><br /><span>Permite que el avance sea igual a = <replace target=\"attr\" calculate=\"2\" data=\"des\">el 200% de la destreza del personaje</replace> menos la constitución del acompañante en baldosas.</span></span></span></div></div></div>",
             "url": "r20886",
             "simpleTitle": "Misión: the murmuring woods",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Mercury Merrythought",
@@ -152594,10 +152893,11 @@ const DBModule = (function () {
             "type": [
                 "quidditch, sin magia, neutral"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Mercury Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"vuelo en pareja\" (10)</strong><span>No sucede nada, capaz este hechizo no es para ti.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Mercury Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"vuelo en pareja\" (10)</strong><span><span>No es suficiente para volar en pareja.</span></span></span></div></div></div>",
             "url": "r21001",
             "simpleTitle": "Misión: the murmuring woods",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Jupiter Merrythought",
@@ -152620,10 +152920,11 @@ const DBModule = (function () {
                 "habilidad, sin magia, neutral",
                 "quidditch, sin magia, neutral"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"liderazgo\"><strong>Resultado  #1 \"fortitudo cordis\" (13)</strong><span>Adiciona <em>9</em> (El 100% de CAR) en acciones del conocimiento mencionado durante todo el tema.</span></span><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #2 \"vuelo en pareja\" (6)</strong><span>El vuelo es a una buena velocidad. Se demora 4 turnos en llegar al objetivo deseado.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"liderazgo\"><strong>Resultado  #1 \"fortitudo cordis\" (13)</strong><span>Adiciona <em>9</em> (El 100% de CAR) en acciones del conocimiento mencionado durante todo el tema.<br /><br /><span>Si se usa en transformaciones adiciona +2 a la creación de troncos. Si se usa en la música, adiciona +2 al adicional de la música. Duración: una ronda.</span></span></span><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #2 \"vuelo en pareja\" (6)</strong><span>El vuelo es a una buena velocidad. Se demora 4 turnos en llegar al objetivo deseado.<br /><br /><span>Permite que el avance sea igual a = <replace target=\"attr\" calculate=\"2\" data=\"des\">el 200% de la destreza del personaje</replace> menos la constitución del acompañante en baldosas.</span></span></span></div></div></div>",
             "url": "r21007",
             "simpleTitle": "Misión: the murmuring woods",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Vasilisa M. Kuznetzova",
@@ -152642,10 +152943,11 @@ const DBModule = (function () {
             "type": [
                 "mental, sin magia, neutral"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"banshees\"><strong>Resultado  #1 \"vox tenebris\" (17)</strong><span>Los oyentes no solo podrán sentir la emoción, sino que podrán recordar un momento en el que se hayan sentido igual. La misma debe ser indicada on-rol.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"banshees\"><strong>Resultado  #1 \"vox tenebris\" (17)</strong><span>Los oyentes no solo podrán sentir la emoción, sino que podrán recordar un momento en el que se hayan sentido igual. La misma debe ser indicada on-rol.<br /><br /><span>La música calma a las mandrágoras, permitiendo que el grupo avance 3 rondas sin necesidad de tirar tacite.</span></span></span></div></div></div>",
             "url": "r21057",
             "simpleTitle": "Misión: the murmuring woods",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "H. Shun Parkinson",
@@ -152664,10 +152966,11 @@ const DBModule = (function () {
             "type": [
                 "quidditch, sin magia, neutral"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"vuelo en pareja\" (17)</strong><span>Vuelo perfecto. Se requieren 3 turnos para llegar al objetivo deseado.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"vuelo\"><strong>Resultado  #1 \"vuelo en pareja\" (17)</strong><span>Vuelo perfecto. Se requieren 3 turnos para llegar al objetivo deseado.<br /><br /><span>Permite que el avance sea igual a = <replace target=\"attr\" calculate=\"2.5\" data=\"des\">el 250% de la destreza del personaje</replace> menos la constitución del acompañante en baldosas.</span></span></span></div></div></div>",
             "url": "r21108",
             "simpleTitle": "Misión: the murmuring woods",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Jupiter Merrythought",
@@ -152676,6 +152979,7 @@ const DBModule = (function () {
                 1
             ],
             "title": [
+                "mission",
                 "actions"
             ],
             "key": [
@@ -152690,10 +152994,11 @@ const DBModule = (function () {
                 "",
                 "encantamiento, neutral"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">6</span><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #2 \"revelio\" (1)</strong><span>Solo se pueden detectar rastros débiles de magia en un radio de <em>+3</em> (25% del conocimiento en ENCANTAMIENTOS) metros.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"ingresar al cobertizo\" (6)</strong><span><span>Pese a la antigüedad de la casa, el cobertizo parece ser una obra bastante moderna y muy similar a El Planetarium y El observatorio Galatea (Corresponden al Hogar de los Merrythought y el Observatorio que pertenece a su tía Galatea, para aquellos que hayan conocido on-rol dichos lugares), lo que ayudaría a los presentes a determinar que fueron diseñados o construidos por la misma persona y muchos después de que la casa haya quedado en deshuso.<br>El cobertizo cuenta con varias paredes de vidrio para poder observar la plenitud del jardín, y estar completamente protegidos para evitar sufrir lesiones por las mismas plantas. Todo el sitio esta construido en una madera color clara y, salvando la capa de polvo que cubre todas las superficies, se encuentra extremadamente ordenado.</span></span></span><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #2 \"revelio\" (1)</strong><span>Solo se pueden detectar rastros débiles de magia en un radio de <em>+3</em> (25% del conocimiento en ENCANTAMIENTOS) metros.</span></span></div></div></div>",
             "url": "r21388",
             "simpleTitle": "Misión: the murmuring woods",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Elysia G. Lestrange",
@@ -152701,7 +153006,7 @@ const DBModule = (function () {
                 9
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "investigar pared este"
@@ -152712,10 +153017,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Elysia G. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">9</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Elysia G. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"investigar pared este\" (9)</strong><span><span>Una de las paredes blancas que más llama la atención, es aquella que se encuentra cargada de fotografías. En ella se encuentran todos los aurores que estaban bajo el mando de Edwin Merrythought al momento de su muerte. Cada fotografía cuenta con una nota en la que se indica nombre y apellido, edad y en qué se encontraba trabajando. <br><strong>Nota</strong>: Aquellos que conozcan miembros de seguridad que estaban activos en Agosto de 1952 pueden ver su fotografía. Aquellos miembros del departamento, pueden visualizar su propia fotografía y la nota que indicaba en qué estaban trabajando y completarlo a gusto.</span></span></span></div></div></div>",
             "url": "r21404",
             "simpleTitle": "Misión: the murmuring woods",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Vasilisa M. Kuznetzova",
@@ -152723,7 +153029,7 @@ const DBModule = (function () {
                 13
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "investigar pared norte"
@@ -152734,10 +153040,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">13</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"investigar pared norte\" (13)</strong><span><span>La pared norte, contrario a la pared este, es una pared pintada de un color grisaseo muy similar a las pizarras y se encuentra cargada de notas. Hay dos líneas que dividen el contenido en tres partes y la letra de Edwin se puede percibir en toda la superficie.</span></span></span></div></div></div>",
             "url": "r21546",
             "simpleTitle": "Misión: the murmuring woods",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Ksenia D. Demidova",
@@ -152745,7 +153052,7 @@ const DBModule = (function () {
                 20
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "primera parte de la pared"
@@ -152756,10 +153063,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Ksenia D. Demidova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">20</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Ksenia D. Demidova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"primera parte de la pared\" (20)</strong><span><span>Sobre esta zona están pegadas dos fotografías con el mismo formato que las fotografías de la pared este. Se tratan de Saturn y Mercury Merrythought. Debajo de la misma se encuentran varias notas con varias ideas de hechizos de protección. Desde hechizos que transforman la piel para asegurar a los aurores, hasta hechizos que recrean la composición de un cuerpo antes de una herida. Hay varios cuadros con arabescos que buscan encontrar en ecuaciones aritméticas el mejor trazo que debe realizarse con la varita y varias palabras en latín que buscan dar con las palabras adecuadas para lograrlo. A un costado, puede leerse: \"Proyecto Centinela\".</span></span></span></div></div></div>",
             "url": "r21709",
             "simpleTitle": "Misión: the murmuring woods",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "H. Shun Parkinson",
@@ -152767,7 +153075,7 @@ const DBModule = (function () {
                 16
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "segunda parte de la pared"
@@ -152778,10 +153086,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">16</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"segunda parte de la pared\" (16)</strong><span><span>La siguiente parte de la pared, tiene diferentes constalaciones o señales que podrían indicar una advertencia. También hay varios intentos de hechizos que buscan encontrar una manera de anticiparse a posibles lesiones o muerte de miembros del Departamento de Seguridad durante redadas. Al final de dicha parte, puede encontrarse diferentes ideas de pociones e ingredientes que fueron tachados. Dentro de los ingredientes que no fueron tachados se puede leer: escarabajo azul, raíz de asfódelo, plumas de Jobberknoll, escama de sirena, rocío de luna.</span></span></span></div></div></div>",
             "url": "r21756",
             "simpleTitle": "Misión: the murmuring woods",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Jupiter Merrythought",
@@ -152790,6 +153099,7 @@ const DBModule = (function () {
                 12
             ],
             "title": [
+                "mission",
                 "actions"
             ],
             "key": [
@@ -152804,10 +153114,11 @@ const DBModule = (function () {
                 "",
                 "encantamiento, neutral"
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">8</span><span class=\"action-result\" data-conocimientos=\"historia de la magia\"><strong>Resultado  #2 \"tempus revela\" (12)</strong><span>Se obtiene una fecha estimada con un margen de error de 10-15 años.</span></span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"estrellas y constelaciones\" (8)</strong><span><span>En esta parte de la pared, pueden distinguirse trazos de constelaciones como Draco, Cassiopea y Orion, que aparecen marcadas con símbolos que sugieren un mal augurio. Junto a ellas, se destacan referencias a Sirius y a la Luna en fase menguante, ambas señaladas repetidamente como posibles anuncios de peligro inminente.</span></span></span><span class=\"action-result\" data-conocimientos=\"historia de la magia\"><strong>Resultado  #2 \"tempus revela\" (12)</strong><span>Se obtiene una fecha estimada con un margen de error de 10-15 años.</span></span></div></div></div>",
             "url": "r21762",
             "simpleTitle": "Misión: the murmuring woods",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Elysia G. Lestrange",
@@ -152815,7 +153126,7 @@ const DBModule = (function () {
                 18
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "tercera parte de la pared"
@@ -152826,10 +153137,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Elysia G. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">18</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Elysia G. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"tercera parte de la pared\" (18)</strong><span><span>En la tercera parte de la pared, se encuentra un mapa de Gran Bretaña trazado a mano, donde se encuentran marcados los puntos donde se encuentran trabajando los aurores. Coincide con la información de las fotografías de la pared este. Abajo hay un calendario que marca las fechas desde el 1 hasta el 30 de septiembre, con las actividades o tareas que debía realizar cada día.<br><strong>Nota</strong>: Los que lleven personajes que sean hijo de Merrythought pueden incluir tareas que incluyan a sus propios personajes. Tendría tareas con cada uno de ellos.</span></span></span></div></div></div>",
             "url": "r21800",
             "simpleTitle": "Misión: the murmuring woods",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Vasilisa M. Kuznetzova",
@@ -152837,7 +153149,7 @@ const DBModule = (function () {
                 19
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "investigar escritorio"
@@ -152848,10 +153160,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">19</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"investigar escritorio\" (19)</strong><span><span>El escritorio se encuentra sobre una pared cuya parte superior del estritorio, es mayoritariamente vidrio que da al jardín. Sin embargo, el mismo se encuentra cubierto de 8 fotografías con el mismo formato que las de la pared este, solo que en vez de indicar el trabajo en el que se encuentran, indica la fecha de defunsión o de baja con una nota indicando qué ocurrió con cada uno de ellos. De Saturn y Mercury Merrythought no se encuentra fotografía ya que se encuentra en la pizarra de la pared norte.</span></span></span></div></div></div>",
             "url": "r21909",
             "simpleTitle": "Misión: the murmuring woods",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Ksenia D. Demidova",
@@ -152859,7 +153172,7 @@ const DBModule = (function () {
                 11
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "caja de pociones"
@@ -152870,10 +153183,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Ksenia D. Demidova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">11</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Ksenia D. Demidova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"caja de pociones\" (11)</strong><span><span>En el escritorio, puede observarse que hay una pequeña caja capaz de contener tres pequeños frascos de pociones. No obstante, solo hay dos. El líquido es de un color azul brillante como la noche. Y sobre el mismo hay una nota que cita \"Enviar a Sirius Black\". Debajo de la caja, puede encontrarse unas pequeña bolsa con unos frascos pequeños color rojo y una nota que indica: \"Una mala idea\".</span></span></span></div></div></div>",
             "url": "r21948",
             "simpleTitle": "Misión: the murmuring woods",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "H. Shun Parkinson",
@@ -152882,7 +153196,8 @@ const DBModule = (function () {
                 20
             ],
             "title": [
-                "actions"
+                "actions",
+                "mission"
             ],
             "key": [
                 "revelio potionis",
@@ -152896,10 +153211,11 @@ const DBModule = (function () {
                 "encantamiento, neutral",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"pociones\"><strong>Resultado  #1 \"revelio potionis\" (20)</strong><span>No solo revela la composición exacta de la poción (<em>+18</em> (100% del conocimiento en POCIONES) puntos identificados), sino también si ha sido alterada o mal preparada.</span></span><span class=\"roll-result\">20</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"pociones\"><strong>Resultado  #1 \"revelio potionis\" (20)</strong><span>No solo revela la composición exacta de la poción (<em>+18</em> (100% del conocimiento en POCIONES) puntos identificados), sino también si ha sido alterada o mal preparada.</span></span><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #2 \"investigar la caja de cartas en el escritorio\" (20)</strong><span><span>Bajo una capa de polvo, se puede encontrar una caja de madera cuyas letras doradas marcan \"correspondencia\". Al abrir la caja puede encontrarse una serie de cartas, junto a un espacio donde se encuentra pergamino en blanco, una pluma y un tintero de color azul.</span></span></span></div></div></div>",
             "url": "r22003",
             "simpleTitle": "Misión: the murmuring woods",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Jupiter Merrythought",
@@ -152908,7 +153224,8 @@ const DBModule = (function () {
                 10
             ],
             "title": [
-                "actions"
+                "actions",
+                "mission"
             ],
             "key": [
                 "caelum manuscriptum",
@@ -152922,10 +153239,11 @@ const DBModule = (function () {
                 "encantamiento, neutral",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"astronomía\"><strong>Resultado  #1 \"caelum manuscriptum\" (19)</strong><span>Recrea un mapa detallado y exacto.</span></span><span class=\"roll-result\">10</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"astronomía\"><strong>Resultado  #1 \"caelum manuscriptum\" (19)</strong><span>Recrea un mapa detallado y exacto.</span></span><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #2 \"carta de morgana - 5 de enero\" (10)</strong><span><span class=\"book-clipping\"><span class=\"notebook\">Edwin, no sé qué te hace pensar que, porque me hayas ayudado con Merlina, voy a ayudarte. Para tu sorpresa, te conozco lo suficiente para saber que solo habrías ayudado por tu mera caballerosidad. Así que considera tu pago, saber que te considero una buena persona.<br><br>Suerte con la tarea de Tuft, pero cada uno se encuentra por su lado.<br><br>Morgana,<br>05/01/1952.<br></span><br></span></span></span></div></div></div>",
             "url": "r22007",
             "simpleTitle": "Misión: the murmuring woods",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Elysia G. Lestrange",
@@ -152933,7 +153251,7 @@ const DBModule = (function () {
                 10
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "carta de morgana - 11 de enero"
@@ -152944,10 +153262,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Elysia G. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">10</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Elysia G. Lestrange ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"carta de morgana - 11 de enero\" (10)</strong><span><span class=\"book-clipping\"><span class=\"notebook\">Escuché lo de tus hijos. Darte mis condolencias ya no tiene sentido en este momento y de más está decir que en San Mungo haremos lo posible para recuperar la salud de Mercury.<br><br>Envíame tus notas y no hagas comentarios; veré qué puedo hacer al respecto.<br><br>Morgana,<br>11/01/1952.<br></span><br></span></span></span></div></div></div>",
             "url": "r22014",
             "simpleTitle": "Misión: the murmuring woods",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Vasilisa M. Kuznetzova",
@@ -152955,7 +153274,7 @@ const DBModule = (function () {
                 2
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "carta de morgana - 16 de febrero"
@@ -152966,10 +153285,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">2</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Vasilisa M. Kuznetzova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"carta de morgana - 16 de febrero\" (2)</strong><span><span class=\"book-clipping\"><span class=\"notebook\">Esto es más enrevesado de lo que habías comentado en la primera carta, aunque entiendo por qué lo cuestionas.<br><br>Sobre hechizos y esas cosas, deberías buscar a un aritmético. Cualquier persona que trabaje como académico de la Biblioteca Hollowshade podría ayudarte, siempre que se especialice en aritmancia y encantamientos; capaz también algún transfigurador. No sé si van a tener una solución, pero seguramente te podrán explicar las bases para poder crear un hechizo. Aunque no sé si es posible lograr lo que quieras.<br><br>Transformar la piel para que pueda resistir cualquier ataque podría ser un problema si el hechizo cae en manos equivocadas. Sin mencionar que las posibilidades de que salga mal son más catastróficas que las de que salga bien. Y dado que parece que entiendes menos de sanación de lo que yo sé sobre astronomía, acá detallo por qué no es factible lo que propone:<br><br>Para transformar la piel, debería poder determinar cuál sería la mejor opción. Si lo que quiere es que la piel sea capaz de repeler hechizos, lo ideal es que la piel se transforme en la piel de una criatura. Sin embargo, tienes que tener en cuenta algo muy importante y es que la piel no es solo un saco que contiene tus órganos; es tu órgano más grande y está vivo. Si la conviertes en cualquier otra cosa, puedes tener graves consecuencias.<br><br>Por ejemplo, puedes elegir que se convierta en piel de Graphorn, pero al repeler la magia, la piel es capaz de rechazar cualquier hechizo que regrese la piel a su forma normal. Podrías provocar que el mago quede atrapado en esa forma para siempre. Bastarían cinco minutos para que la magia se asiente y revertirlo se vuelva imposible.<br><br>Las escamas de dragón podrían ser otra opción, como bien mencionaste, pero pueden provocar una asfixia epidérmica y rigidez que tapa los poros, impidiendo que la piel pueda sudar, y esto podría llevar a un fallo multiorgánico, además de desgarros musculares severos a causa de la rigidez y el peso de la propia piel. No creo que una persona sea capaz de sobrevivir a una hora o dos con este tipo de piel antes de que, además de todo lo mencionado, sufra un choque térmico por no ser capaz de regular su propia temperatura.<br><br>Con la piel de mantícora estarías asegurando una muerte a quien reciba el hechizo. No hay manera sutil de decirlo. El rechazo sería inmediato; la piel puede mutar a carne viva y producir una necrosis grave e irreversible, además de que la misma toxina de la piel puede causar paranoia y hostilidad en el mago y no creo que sea lo que un auror necesita.<br><br>Podría sugerir cuero de troll, aunque no creo que haya personas demasiado felices con la idea de que la piel se transforme en un troll... El tema aquí sería que el cuero de troll requiere un grosor que nosotros no poseemos. Por lo que la piel podría seguir creciendo hacia el interior del cuerpo y comprometer los nervios y vasos sanguíneos hasta causar parálisis. Sin embargo, podría durar unas 4 o 5 horas antes de que la compresión nerviosa cause daño permanente.<br><br>Ignora la idea de alterar los huesos. Ya se han hecho investigaciones en San Mungo al respecto y aún se está tratando de descifrar el material correcto, dado que, en la mayoría de los casos, el propio cuerpo rechaza el material, causando una necrosis grave.<br><br>Puedes seguir considerando las opciones, pero también te serviría evaluar una poción, al menos como contrahechizo.<br><br>Suerte,<br>Morgana.<br>16/02/1952.<br></span><br></span></span></span></div></div></div>",
             "url": "r22114",
             "simpleTitle": "Misión: the murmuring woods",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Ksenia D. Demidova",
@@ -152977,7 +153297,7 @@ const DBModule = (function () {
                 17
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "carta de black - 12 de marzo"
@@ -152988,10 +153308,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Ksenia D. Demidova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">17</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Ksenia D. Demidova ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"carta de black - 12 de marzo\" (17)</strong><span><span class=\"book-clipping\"><span class=\"notebook\">Estimado señor Merrythought,<br><br>Considerando lo conversado previamente. Me pongo a su disposición para trabajar como lo hemos sugerido. Sigo siendo escéptico ante la idea de que las estrellas nos han encomendado; las estrellas dicen que ninguno de los tres va a tener éxito en lo que nos propongamos, pero entiendo la idea de investigar lo que al otro corresponde.<br><br>Como tomaré la investigación de Dempsey y ella tomará la tuya, nos encontramos en la situación donde a usted le corresponde tomar mi propia investigación. Lo cual no me convence. Ambas investigaciones, la de usted y la mía, dependen de alguien que sepa tanto de curación como de sanación. No creo que vaya a tener más éxito que yo en la misma.<br><br>Aquí le detallo en lo que he estado trabajando.<br><br>Quiero una poción o una forma de poder revertir la condición de squib. Son una mancha para el mundo de la magia y no dudaré en desheredar a cualquier otro miembro de mi sangre si llega a poseer algo similar. Por lo tanto, quisiera algo que prevenga esta situación.<br><br>Saludos cordiales,<br>S. Black - 12 de Marzo de 1952.<br></span><br></span></span></span></div></div></div>",
             "url": "r22155",
             "simpleTitle": "Misión: the murmuring woods",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "H. Shun Parkinson",
@@ -152999,7 +153320,7 @@ const DBModule = (function () {
                 18
             ],
             "title": [
-                "actions"
+                "mission"
             ],
             "key": [
                 "carta de morgana - 26 de agosto"
@@ -153010,10 +153331,11 @@ const DBModule = (function () {
             "type": [
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">18</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>H. Shun Parkinson ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #1 \"carta de morgana - 26 de agosto\" (18)</strong><span><span class=\"book-clipping\"><span class=\"notebook\">Tienes razón, escribiré a Black. Pero no me gusta la idea de enterrar todo; prefiero quemarlo. Vengan a mi casa el viernes.<br><br>Morgana.<br>26/08/1952.<br></span><br></span></span></span></div></div></div>",
             "url": "r22195",
             "simpleTitle": "Misión: the murmuring woods",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Jupiter Merrythought",
@@ -153022,7 +153344,8 @@ const DBModule = (function () {
                 11
             ],
             "title": [
-                "actions"
+                "actions",
+                "mission"
             ],
             "key": [
                 "orbis celestialis",
@@ -153036,10 +153359,11 @@ const DBModule = (function () {
                 "encantamiento, neutral",
                 ""
             ],
-            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"astronomía\"><strong>Resultado  #1 \"orbis celestialis\" (13)</strong><span>Permite obtener una localización aproximada.</span></span><span class=\"roll-result\">11</span></div></div></div>",
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Jupiter Merrythought ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"astronomía\"><strong>Resultado  #1 \"orbis celestialis\" (13)</strong><span>Permite obtener una localización aproximada.</span></span><span class=\"action-result\" data-conocimientos=\"solo misiones\"><strong>Resultado  #2 \"carta de morgana - 27 de agosto\" (11)</strong><span><span class=\"book-clipping\"><span class=\"notebook\">Bien, también tienes razón en esto. Hagámoslo lo antes posible. Los veo mañana a la noche. Avísale a Black. Está en el Ministerio; acércate con alguna excusa o algo. No quiero que queden más rastros.<br><br>No seas un viejo sentimental, quema esta carta, también la anterior.<br><br>Morgana.<br>27/08/1952.<br></span><br></span></span></span></div></div></div>",
             "url": "r22205",
             "simpleTitle": "Misión: the murmuring woods",
-            "space": "el pensadero"
+            "space": "el pensadero",
+            "frozen": true
         },
         {
             "pitcher": "Barnaby R. Rookwood",
