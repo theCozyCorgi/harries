@@ -9,98 +9,16 @@ const MissionsModule = (function () {
       "type": "misión", "closed": true, "fecha": "1952-09-29", "link": "/t351-mision-secrets-of-the-silent-dead", "tagged": ["edwin", "morgana", "sirius", "capitulo 0"],
 
       "cards": [
-        {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "nigromante", "name": "novalida", }, "place": "",
-          "cont": '<span>Los cuerpos, fueron conservados para el momento en el que se realice la autopsia, de manera tal que no hubo deterioración ni perdida de información.<br><br>A simple vista, se pueden observar las siguientes cuestiones:<br><i class="fa-solid fa-dash" aria-hidden="true"></i> <strong>Edwin</strong>: La muerte fue ocasionada por heridas externas. Se puede observar sangre en ambos oídos, trauma toráxico y colapso pulmonar.<br><i class="fa-solid fa-dash" aria-hidden="true"></i> <strong>Morgana</strong>: También con heridas físicas, se puede observar múltiples marcas de sogas y quemaduras, principalmente en el área del cuello.<br><i class="fa-solid fa-dash" aria-hidden="true"></i> <strong>Sirius</strong>: No posee heridas externas. La muerte fue causada por heridas internas.<br></span>',
-        },
-
-        {
-          "visible": { "attr": { "sab": "4" }, "know": { "val": "min" }, "job": "novalida", "name": "novalida", }, "place": "",
-          "cont": '<span>En ninguno de los cuerpos, se puede observar señales de lucha. E, incluso, si se tocan los cuerpos, pueden sentirse entumecidos.<br></span>',
-        },
-
-        {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad mágica", "name": "novalida", }, "place": "",
-          "cont": '<span>Morgana parece haber padecido bajo los efectos de un "ignis funis", debido a que las marcas coinciden con las marcas que la ex directora de San Mungo posee.<br></span>',
-        },
-
-        {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad mágica", "name": "novalida", }, "place": "",
-          "cont": '<span>En el caso de Edwin, se puede observar sangre en sus oídos. Capaz convendría preguntar por el estado de sus pulmones, debido a que podría tratarse de un ataque con un "regio impetum".<br></span>',
-        },
-
-        {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad mágica", "name": "novalida", }, "place": "",
-          "cont": '<span>La carencia de marcas en el cuerpo de Sirius, parecen indicar que su muerte fue causada por un veneno demasiado fuerte, rápido y letal.<br></span>',
-        }
+        {"visible":{"attr":{"val":"min"},"know":{"val":"min"},"job":"nigromante","name":"novalida"},"place":"","cont":"<span>Los cuerpos, fueron conservados para el momento en el que se realice la autopsia, de manera tal que no hubo deterioración ni perdida de información.<br><br>A simple vista, se pueden observar las siguientes cuestiones:<br><i class=\"fa-solid fa-dash\" aria-hidden=\"true\"></i> <strong>Edwin</strong>: La muerte fue ocasionada por heridas externas. Se puede observar sangre en ambos oídos, trauma toráxico y colapso pulmonar.<br><i class=\"fa-solid fa-dash\" aria-hidden=\"true\"></i> <strong>Morgana</strong>: También con heridas físicas, se puede observar múltiples marcas de sogas y quemaduras, principalmente en el área del cuello.<br><i class=\"fa-solid fa-dash\" aria-hidden=\"true\"></i> <strong>Sirius</strong>: No posee heridas externas. La muerte fue causada por heridas internas.<br></span>"},
+        {"visible":{"attr":{"sab":"4"},"know":{"val":"min"},"job":"novalida","name":"novalida"},"place":"","cont":"<span>En ninguno de los cuerpos, se puede observar señales de lucha. E, incluso, si se tocan los cuerpos, pueden sentirse entumecidos.<br></span>"},
+        {"visible":{"attr":{"val":"min"},"know":{"val":"min"},"job":"seguridad mágica","name":"novalida"},"place":"","cont":"<span>Morgana parece haber padecido bajo los efectos de un \"ignis funis\", debido a que las marcas coinciden con las marcas que la ex directora de San Mungo posee.<br></span>"},
+        {"visible":{"attr":{"val":"min"},"know":{"val":"min"},"job":"seguridad mágica","name":"novalida"},"place":"","cont":"<span>En el caso de Edwin, se puede observar sangre en sus oídos. Capaz convendría preguntar por el estado de sus pulmones, debido a que podría tratarse de un ataque con un \"regio impetum\".<br></span>"},
+        {"visible":{"attr":{"val":"min"},"know":{"val":"min"},"job":"seguridad mágica","name":"novalida"},"place":"","cont":"<span>La carencia de marcas en el cuerpo de Sirius, parecen indicar que su muerte fue causada por un veneno demasiado fuerte, rápido y letal.<br></span>"},
       ],
 
-      "searchs": {
-        "relicta notitia en la pulsera": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad mágica", "name": "invalid", }, "place": "",
-          "cont": '<span>Una imagen se proyecta, la de una niña que corretea por un campo. Lleva puesta la pulsera. Otra niña se suma al juego, es más grande, pero sus rasgos son inconfundibles, se trata de Morgana.</span>',
-        },
-        "disección sirius": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "nigromante", "name": "invalid", }, "place": "",
-          "cont": '<span>Al abrir el cuerpo de Sirius, se puede observar un líquido que cubre ciertos órganos principales, parecen ser todos productos de una misma poción. Si se toma una muestra podrá darse por sentado que se ha tomado una muestra de la poción utilizada para su muerte.<br />Se pueden observar hemorragias internas, una necrosis intensa en los riñones, músculos, piel y corazón, que es el que termina causando la muerte al sufrir un colapso cardiovascular.<br />Se puede determinar su hora de la muerte como las 2:30am.</span>',
-        },
-        "disección morgana": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "nigromante", "name": "invalid", }, "place": "",
-          "cont": '<span>En el caso de Morgana, se la asfixió hasta que su vida se quebró.<br />Se pueden observar huesos y sangre a la altura del cuello.<br />Se puede determinar su hora de la muerte como las 2:30am.</span>',
-        },
-        "disección edwin": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "nigromante", "name": "invalid", }, "place": "",
-          "cont": '<span>Al aplicarse en Edwin, se observa que la muerte fue causada por daños físicos en los pulmones. El impacto fue tan extenso que provocó un colapso alveolar, posee daño auditivo y sus pupilas se encuentran dilatas a causa de fallecer bajo una fuerte desorientación.<br />Las costillas, además de estar quebradas y astilladas por el impacto, tienen rastros y señales de quemaduras, provocadas por el "regio impetum" y confirmando el hechizo utilizado para su muerte.<br />Se puede determinar su hora de la muerte como las 2:30am.</span>',
-        },
-        "muestra de sangre": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "nigromante", "name": "invalid", }, "place": "",
-          "cont": '<span>Se pueden tomar muestras de sangre de los tres fallecidos, en un análisis rápido, se pueden observar las señales que indican que Sirius era sangre pura, Edwin y Morgana, sangre mestiza. A simple vista, no hay más información que brindar al respecto.</span>',
-        },
-      },
+      "searchs": {},
 
-      "actions": {
-        "corruptum lector": {
-          "leve": 'Al aplicarse en Edwin, se observa que la muerte fue causada por daños físicos en los pulmones. En el caso de Morgana, asfixia. Y en el caso de Sirius, su causa son hemorragias internas.',
-          "moderado": 'Al aplicarse en Edwin, se observa que la muerte fue causada por daños físicos en los pulmones, el impacto fue tan extenso que provocó un colapso alveolar. En el caso de Morgana, se la asfixió hasta que que su vida se quebró. Y en el caso de Sirius, su causa son hemorragias internas, aunque también se observan fallos en los riñones y el corazón.',
-          "exitoso": 'Al aplicarse en Edwin, se observa que la muerte fue causada por daños físicos en los pulmones, el impacto fue tan extenso que provocó un colapso alveolar, posee daño auditivo y sus pupilas se encuentran dilatas a causa de fallecer bajo una fuerte desorientación.<br />En el caso de Morgana, se la asfixió hasta que que su vida se quebró.<br />Y en el caso de Sirius, su causa son hemorragias internas, aunque también se observa una necrosis intensa en los riñones, músculos, piel y corazón, que es el que termina causando la muerte al sufrir un colapso cardiovascular.',
-          "critico": 'Al aplicarse en Edwin, se observa que la muerte fue causada por daños físicos en los pulmones, el impacto fue tan extenso que provocó un colapso alveolar, posee daño auditivo y sus pupilas se encuentran dilatas a causa de fallecer bajo una fuerte desorientación. Sin embargo, su cuerpo parecía estar en paz.<br />En el caso de Morgana, se la asfixió hasta que que su vida se quebró. Sus emociones, son de tristeza y de despedida.<br />Y en el caso de Sirius, su causa son hemorragias internas, aunque también se observa una necrosis intensa en los riñones, músculos, piel y corazón, que es el que termina causando la muerte al sufrir un colapso cardiovascular. A pesar de sentir pena y luto, hay una sensación de ironía en sus emociones.',
-        },
-
-        "mortis vox": {
-          "leve": 'Las emociones de Edwin son serenas, como las de un soldado que ha soltado una espada. Morgana, en cambio, parece abrazarse a la misma sus emociones representan valor. Sirius, se encuentra cargado de duelo e ironía, en una extraña combinación.',
-          "moderado": 'El nigromante es capaz de captar unos segundos de sonido antes de la muerte. Los tres los mismos, pero tan diferentes. Edwin se encontraba escuchando jazz, atento, hasta que se escuchan unas pisadas. Morgana murmuraba algo, pero no se la llegaba a entender, hasta que unos pasos cortan el sonido. Sirius se encontraba en total silencio, hasta que unos pasos cortan los sonidos. Los tres pasos son diferentes, personas de diferentes pesos, diferentes dimensiones.',
-          "exitoso": 'El nigromante es capaz de captar unos segundos de sonido antes de la muerte. Los tres los mismos, pero tan diferentes. Edwin se encontraba escuchando jazz, atento, hasta que se escuchan unas pisadas, al final se escucha "creí que llegarías tarde". Morgana murmuraba algo, "Gryffith mantén el secreto, no confíes en nadie", hasta que unos pasos cortan el sonido. Sirius se encontraba en total silencio, hasta que unos pasos cortan los sonidos, de fondo se escucha la voz de una mujer mayor que parece estar renegando de algo, aunque sus palabras carecen sentido. Los tres pasos son diferentes, personas de diferentes pesos, diferentes dimensiones. Los que se escuchan en Edwin son suaves, en los de Morgana firmes y constantes, y en los de Sirius, cortos y elegantes.',
-          "critico": 'El nigromante logra conectar el alma de los muertos provocando que digan unas palabras. En el caso de Edwin, se lo escucha decir: "Dile a mis hijos que los amo"; Sirius guarda silencio, reacio a hablar; Morgana en cambio susurra: "Gryffith, ten cuidado con el velo entre la vida y la muerte".',
-        },
-
-        "animas revelo": {
-          "leve": 'Hay alguien en la sala, pero no se puede identificar quién.',
-          "moderado": 'Se trata del aura de una persona que se encuentra fija en el nigromante.',
-          "exitoso": 'La silueta toma la forma de Morgana, sus brazos cruzados en la espalda miran al nigromante con los labios fruncidos.',
-          "critico": 'La silueta toma la forma de Morgana, sus brazos cruzados en la espalda miran al nigromante con los labios fruncidos, como si quisiera detenerlo sin poder hacerlo.',
-        },
-
-        "evoco spiritum": {
-          "leve": 'El aura de Morgana se siente, pero no se logra la comunicación.',
-          "moderado": 'Los ojos de la silueta de Morgana, miran al espiritista, como si tratara de saber si es de confiar o no.',
-          "exitoso": 'Morgana se encuentra presente de manera tan nítida que parece estar viva, sin embargo, se niega a responder cualquier pregunta.',
-          "critico": 'La figura de morgana acaricia la piel de su cuerpo, observa al espiritista antes de decir: "Entierren mi cuerpo bajo la luna llena".',
-        },
-
-        "revelio": {
-          "leve": 'Se percibe magia alrededor de la mano de Morgana, aunque no es demasiado definido.',
-          "moderado": 'Revela la existencia de un objeto que rodea la muñeca de Morgana, aunque no hay claridad en el mismo.',
-          "exitoso": 'Revela una pulsera en la muñeca de Morgana, parece pertenecer al de una niña, en la que se lee: "Merry".',
-          "critico": 'Revela una pulsera en la muñeca de Morgana, parece pertenecer al de una niña, en la que se lee: "Merry". Los personajes pueden tomar la misma.',
-        },
-
-        "revelio potionis": {
-          "leve": 'Detecta partes de una poción ofensiva y peligrosa, más no revela nada más.',
-          "moderado": 'Se puede detectar que la poción se trata de un veneno hemotóxico y citotóxico, aunque permite obtener más información.',
-          "exitoso": 'No hay una poción creada para dicho veneno, aunque se puede identificar que posee, mayoritariamente, la toxina de un animal.',
-          "critico": 'El veneno perfectamente preparado, fue una manipulación de veneno de alguna serpiente o réptil.',
-        },
-      },
+      "actions": {},
     },
     // fin mision Secrets of the Silent Dead
 
@@ -113,221 +31,21 @@ const MissionsModule = (function () {
       "type": "misión", "closed": true, "fecha": "1952-10-31", "link": "https://blackwave.foroactivo.com/t559-mision-potions-for-all-the-afflections", "tagged": ["morgana", "capitulo 0"],
 
       "cards": [
-        {
-          "visible": { "attr": { "sab": "+2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>Puedes sentir que lo que bebieron no era solamente alcohol, sino que tenía algo más, un sabor seco, pero no sabes reconocer qué es. Sin embargo, tu instinto te dice que no lo sigas bebiendo y capaz convendría mantenerse hidratado.</span>',
-        },
-
-        {
-          "visible": { "attr": { "sab": "+2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>Cada vez que el personaje bebe agua, reduce en 5 los efectos alcohólicos.</span>',
-        },
-
-        {
-          "visible": { "attr": { "int": "+2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>Por la forma en la que la cantante principal canta, puedes afirmar que se trata de una hija de banshee. Y no solo eso, sino que esta utilizando su voz para sumergir a las personas de la taberna en una sensación jocosa, alegre y pacífica.</span>',
-        },
-
-        {
-          "visible": { "attr": { "sab": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "primera intervención",
-          "cont": '<span>Entre el escenario y la barra puedes distinguir una puerta por la que entra uno de los personales de la taberna. Posiblemente entre a un depósito, pero siempre es bueno saber que existe otra salida.</span>',
-        },
-
-        {
-          "visible": { "attr": { "sab": "+2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "primera intervención",
-          "cont": '<span>El humo no tiene buena pinta, al igual que las bebidas parece tener algo adional, algo no declarado. Capaz sería mejor realizar un hechizo que permita generar un casco e impida inhalar el mismo.</span>',
-        },
-
-        {
-          "visible": { "attr": { "int": "+2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>Debido a la madera oscura en todas partes, los banderines que cuelgan detrás de la decoración y la silueta de un trébol negro donde se encuentra una hendidura bordo con el nombre del lugar, el personaje puede deducir que fueron transportados a Irlanda.</span>',
-        },
-
-        {
-          "visible": { "attr": { "val": "min" }, "know": { "dcao": "10" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>Al ingresar al lugar, pueden ver que la entrada está conformada por cinco puertas, la puerta por la que ingresan tiene escrita una runa ᛃ (Jera).</span>',
-        },
-
-        {
-          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "salir del pasadizo",
-          "cont": '<span>Proceso de regreso 3a de 3.<br/><br/>Para llegar a la <strong>sala común de Slytherin</strong> deberán tirar la acción "Mischief Managed" desde los puntos que se hayan quedado en el paso anterior. Se condierará que llegaron correctamente si llegan a 400 puntos. Una vez logrados, podrán decir que llegaron sin ser vistos ni detectados. Ningún otro personaje salvo los presentes podrá declarar que estuvo fuera durante esa noche. Si no cumplen las normas, la administración incluirá intervención con un profesor.</span>',
-        },
-
-        {
-          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "salir del pasadizo",
-          "cont": '<span>Proceso de regreso 3b de 3.<br/><br/>Para llegar a la <strong>sala común de Gryffindor</strong> deberán tirar la acción "Mischief Managed" desde los puntos que se hayan quedado en el paso anterior. Se condierará que llegaron correctamente si llegan a 450 puntos. Una vez logrados, podrán decir que llegaron sin ser vistos ni detectados. Ningún otro personaje salvo los presentes podrá declarar que estuvo fuera durante esa noche. Si no cumplen las normas, la administración incluirá intervención con un profesor.</span>',
-        },
-
-        {
-          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "salir del pasadizo",
-          "cont": '<span>Proceso de regreso 3c de 3.<br/><br/>Para llegar a la <strong>sala común de Ravenclaw</strong> deberán tirar la acción "Mischief Managed" desde los puntos que se hayan quedado en el paso anterior. Se condierará que llegaron correctamente si llegan a 500 puntos. Una vez logrados, podrán decir que llegaron sin ser vistos ni detectados. Ningún otro personaje salvo los presentes podrá declarar que estuvo fuera durante esa noche. Si no cumplen las normas, la administración incluirá intervención con un profesor.</span>',
-        },
-
-        {
-          "visible": { "attr": { "val": "min" }, "know": { "dcao": "5" }, "job": "invalid", "name": "invalid", }, "place": "tercera intervención",
-          "cont": '<span>Un hechizo que puede ser útil para recuperar la cordura es "Rennervate".</span>',
-        },
-
-        {
-          "visible": { "attr": { "val": "min" }, "know": { "encantamientos": "5" }, "job": "invalid", "name": "invalid", }, "place": "tercera intervención",
-          "cont": '<span>Un hechizo que puede ser útil para recuperar la cordura es "Finite".</span>',
-        },
-
-        {
-          "visible": { "attr": { "val": "min" }, "know": { "curación": "5" }, "job": "invalid", "name": "invalid", }, "place": "tercera intervención",
-          "cont": '<span>Algunos hechizos que pueden ser útil para eliminar los efectos de las bebidas son: "memoria lucida", "quieta" y "nervus flemere".</span>',
-        },
+        {"visible":{"attr":{"sab":"+2"},"know":{"val":"min"},"job":"invalid","name":"invalid"},"place":"","cont":"<span>Puedes sentir que lo que bebieron no era solamente alcohol, sino que tenía algo más, un sabor seco, pero no sabes reconocer qué es. Sin embargo, tu instinto te dice que no lo sigas bebiendo y capaz convendría mantenerse hidratado.</span>"},
+        {"visible":{"attr":{"sab":"+2"},"know":{"val":"min"},"job":"invalid","name":"invalid"},"place":"","cont":"<span>Cada vez que el personaje bebe agua, reduce en 5 los efectos alcohólicos.</span>"},
+        {"visible":{"attr":{"int":"+2"},"know":{"val":"min"},"job":"invalid","name":"invalid"},"place":"","cont":"<span>Por la forma en la que la cantante principal canta, puedes afirmar que se trata de una hija de banshee. Y no solo eso, sino que esta utilizando su voz para sumergir a las personas de la taberna en una sensación jocosa, alegre y pacífica.</span>"},
+        {"visible":{"attr":{"sab":"+1"},"know":{"val":"min"},"job":"invalid","name":"invalid"},"place":"primera intervención","cont":"<span>Entre el escenario y la barra puedes distinguir una puerta por la que entra uno de los personales de la taberna. Posiblemente entre a un depósito, pero siempre es bueno saber que existe otra salida.</span>"},
+        {"visible":{"attr":{"sab":"+2"},"know":{"val":"min"},"job":"invalid","name":"invalid"},"place":"primera intervención","cont":"<span>El humo no tiene buena pinta, al igual que las bebidas parece tener algo adional, algo no declarado. Capaz sería mejor realizar un hechizo que permita generar un casco e impida inhalar el mismo.</span>"},
+        {"visible":{"attr":{"int":"+2"},"know":{"val":"min"},"job":"invalid","name":"invalid"},"place":"","cont":"<span>Debido a la madera oscura en todas partes, los banderines que cuelgan detrás de la decoración y la silueta de un trébol negro donde se encuentra una hendidura bordo con el nombre del lugar, el personaje puede deducir que fueron transportados a Irlanda.</span>"},
+        {"visible":{"attr":{"val":"min"},"know":{"dcao":"10"},"job":"invalid","name":"invalid"},"place":"","cont":"<span>Al ingresar al lugar, pueden ver que la entrada está conformada por cinco puertas, la puerta por la que ingresan tiene escrita una runa ᛃ (Jera).</span>"},
+        {"visible":{"attr":{"val":"min"},"know":{"dcao":"5"},"job":"invalid","name":"invalid"},"place":"tercera intervención","cont":"<span>Un hechizo que puede ser útil para recuperar la cordura es \"Rennervate\".</span>"},
+        {"visible":{"attr":{"val":"min"},"know":{"encantamientos":"5"},"job":"invalid","name":"invalid"},"place":"tercera intervención","cont":"<span>Un hechizo que puede ser útil para recuperar la cordura es \"Finite\".</span>"},
+        {"visible":{"attr":{"val":"min"},"know":{"curación":"5"},"job":"invalid","name":"invalid"},"place":"tercera intervención","cont":"<span>Algunos hechizos que pueden ser útil para eliminar los efectos de las bebidas son: \"memoria lucida\", \"quieta\" y \"nervus flemere\".</span>"},
       ],
 
-      "searchs": {
-        "barra": {
-          "visible": { "attr": { "des": "+0" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>El personaje al acercarse a la barra puede pedir cualquiera de las siguientes bebidas:<br><br><strong>Fulgor del Yelmo</strong>: Es un vaso corto y cristalino, como el que les dieron en la entrada. Sabe a moras y crema batida.<br><strong>Fuego de Otoño</strong>: Es un whiskey añejado color ámbar intenso con una hoja amarillenta eternamente prendida fuego que flota en el centro, solo se apaga cuando se termina la bebida. La hoja no quema a su consumidor.<br><strong>Corazón de Mandrágora</strong>: Se trata de un vino añejado con sabor frutal. Viene decorado con pétalos de rosas negras y es popular porque sus consumidores siempre terminan llorando cuando beben demasiado.<br><strong>Gota del Olvido</strong>: Es una bebida color tornasolado entre el azul y el violeta, tiene sabor a lavanda y ron. La bebida parece brillar en un vaso alargado.<br></span>',
-        },
+      "searchs": {},
 
-        "tarotista": {
-          "visible": { "attr": { "car": "+3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>En una esquina, escondida bajo un sombrero de puntiagudo, se encuentra una bruja, que parece sonreír, mientras observa las cartas que giran en sus manos. Si te acercas, la mujer sonríe y pregunta—: <strong>La lectura de cartas es gratis belleza. Capaz quieres sentarte un rato y saber qué te depara el futuro.</strong><br><br>En caso de querer la lectura de cartas, el personaje deberá escribir a la administración para que realice el masteo.<br></span>',
-        },
-
-        "despensa": {
-          "visible": { "attr": { "sab": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "segunda intervención",
-          "cont": '<span>Al abrir la puerta que se encuentra entre la barra y el escenario, se visualiza una escalera de concreto que deciende hasta un depósito oscuro en el que no se puede ver nada.</span>',
-        },
-
-        "jardín interior": {
-          "visible": { "attr": { "sab": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "tercera intervención",
-          "cont": '<span>Una luz capta la atención del personaje. Parece luz solar, pero también titila como el fuego. Si se acercan dentro del laberinto podrán observar que rodeadas de estanterías que tienen frascos con distintos ingredientes, hay una planta. La planta es extraña, tiene hojas en forma de corazón de un color anaranjado que parece tener fuego dentro de ella. Es la responsable de emitir esa extraña luz. Además, la planta se encuentra sobre una superficie que parece reproducir los efectos de la lava.<br /><br />Antes de que alguno pueda acercarse a la misma. Un empleado entra al lugar— ¿Qué están haciendo aquí? Largo, largo —los empuja hasta regresarlos al bar, que ha quedado vacío luego del grito de la banshee. Revelando cinco puertas que conducen a distintos lugares.</span>',
-        },
-
-        "abrir puerta con la runa ansuz": {
-          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "jardín interior",
-          "cont": '<span>La puerta con la runa ᚨ (Ansuz) conduce a las afueras de San Mungo. El personaje ha quedado demasiado lejos de Hogwarts. Deberá solicitar ayuda de un adulto para poder regresar y enfrentarse a las correspondientes consecuencias de sus acciones.</span>',
-        },
-
-        "abrir puerta con la runa tiwaz": {
-          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "jardín interior",
-          "cont": '<span>La puerta con la runa ᛏ (Tiwaz) conduce a las afueras del Museo de Mirabilia. El personaje ha quedado demasiado lejos de Hogwarts. Deberá solicitar ayuda de un adulto para poder regresar y enfrentarse a las correspondientes consecuencias de sus acciones. Ya no pueden regresar al bar.</span>',
-        },
-
-        "abrir puerta con la runa eihwaz": {
-          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "jardín interior",
-          "cont": '<span>La puerta con la runa ᛇ (Eihwaz) conduce a las afueras de la Reserva Natural de Flint. El personaje ha quedado demasiado lejos de Hogwarts. Deberá solicitar ayuda de un adulto para poder regresar y enfrentarse a las correspondientes consecuencias de sus acciones. Ya no pueden regresar al bar.</span>',
-        },
-
-        "abrir puerta con la runa jera": {
-          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "jardín interior",
-          "cont": '<span>La puerta con la runa ᛃ (Jera) conduce a las calles de Hogsmeade y es la puerta correcta a abrir y salir del bar exitosamente. Ahora solo deberán regresar correctamente al castillo sin ser detectados.</span>',
-        },
-
-        "abrir puerta con la runa algiz": {
-          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "jardín interior",
-          "cont": '<span>La puerta con la runa ᛉ (Algiz) conduce a las afueras de la Biblioteca Hollowshade Castle. El personaje ha quedado demasiado lejos de Hogwarts. Deberá solicitar ayuda de un adulto para poder regresar y enfrentarse a las correspondientes consecuencias de sus acciones. Ya no pueden regresar al bar.</span>',
-        },
-
-        "llegar al pasadizo de la estación de hogsmeade": {
-          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir puerta con la runa jera",
-          "cont": '<span>Proceso de regreso 1 de 3.<br/><br/>Para poder llegar desde las calles de Hogsmeade hasta el pasadizo que conduce a Hogwarts. Deberán tirar la acción "Tacite". Se condierará que llegaron correctamente si llegan a 150 puntos. Una vez logrados, podrán habilitar "salir del pasadizo". Recomendamos que todos los personajes realicen la acción, dado que los puntos acumularán para el siguiente paso. Si no cumplen las normas, la administración incluirá intervención con un profesor.</span>',
-        },
-
-        "salir del pasadizo": {
-          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "llegar al pasadizo de la estación de hogsmeade",
-          "cont": '<span>Proceso de regreso 2 de 3.<br/><br/>Permite salir del pasadizo y adentrarse en los corredores de Hogwarts. Salen por el pasadizo del espejo del segundo piso. Deberán continuar tirando la acción "Tacite" desde los puntos que se hayan quedado en el paso anterior. Se condierará que llegaron correctamente si llegan a 350 puntos. Una vez logrados, podrán habilitar las llegadas a las correspondientes casas. Si no cumplen las normas, la administración incluirá intervención con un profesor.</span>',
-        },
-      },
-
-      "actions": {
-        "bulla galea": {
-          "leve": '',
-          "moderado": 'La burbuja solo aguanta lo suficiente para que los efectos del humo no hagan efecto.',
-          "exitoso": 'La burbuja es fuerte y reduce 15 puntos del contador de bebidas, regresando al personaje un poco de consciencia.',
-          "critico": 'La burbuja es fuerte y reduce todos los puntos del contador de bebidas, regresando al personaje a la realidad.',
-        },
-
-        "lumos": {
-          "leve": 'A penas puedes ver más allá de tus pies. Solo distingues un piso de madera que se extiende.',
-          "moderado": 'La luz es alumbra desde la punta de la varita, mostrando unos estantes y alumbrando el camino para no chocarse con nada.',
-          "exitoso": 'La luz es estable. Se pueden visualizar las estanterías llenas de botellas de vidrio y un pasillo que conduce a un baño.',
-          "critico": 'La luz es estable. Se pueden visualizar las estanterías llenas de botellas de vidrio y un pasillo que conduce a un baño.',
-        },
-
-        "tacite": {
-          "leve": 'Adiciona 15 puntos al contador de escapada.',
-          "moderado": 'Adiciona 30 puntos al contador de escapada.',
-          "exitoso": 'Adiciona 45 puntos al contador de escapada.',
-          "critico": 'Adiciona 70 puntos al contador de escapada.',
-        },
-
-        "mischief managed": {
-          "leve": 'Adiciona 15 puntos al contador de escapada.',
-          "moderado": 'Adiciona 30 puntos al contador de escapada.',
-          "exitoso": 'Adiciona 45 puntos al contador de escapada.',
-          "critico": 'Adiciona 70 puntos al contador de escapada.',
-        },
-
-        "artimaña": {
-          "leve": 'En caso de no llegar a los puntos correspondientes. Adiciona 20 puntos al total de la escapada.',
-          "moderado": 'En caso de no llegar a los puntos correspondientes. Adiciona 35 puntos al total de la escapada.',
-          "exitoso": 'En caso de no llegar a los puntos correspondientes. Adiciona 50 puntos al total de la escapada.',
-          "critico": 'En caso de no llegar a los puntos correspondientes. Adiciona 65 puntos al total de la escapada.',
-        },
-
-        "coartada": {
-          "leve": 'En caso de no llegar a los puntos correspondientes. Adiciona 35 puntos al total de la escapada.',
-          "moderado": 'En caso de no llegar a los puntos correspondientes. Adiciona 50 puntos al total de la escapada.',
-          "exitoso": 'En caso de no llegar a los puntos correspondientes. Adiciona 65 puntos al total de la escapada.',
-          "critico": 'En caso de no llegar a los puntos correspondientes. Adiciona 80 puntos al total de la escapada.',
-        },
-
-        "rennervate": {
-          "leve": 'Permite reducir los efectos alucinógenos producidos por las bebidas, recuperando 10 puntos la cordura del personaje.',
-          "moderado": 'Permite reducir los efectos alucinógenos producidos por las bebidas, recuperando 15 puntos la cordura del personaje.',
-          "exitoso": 'Permite reducir los efectos alucinógenos producidos por las bebidas, recuperando 20 puntos la cordura del personaje.',
-          "critico": 'Permite reducir los efectos alucinógenos producidos por las bebidas, recuperando 25 puntos la cordura del personaje.',
-        },
-
-        "finite": {
-          "leve": 'Permite reducir los efectos alucinógenos producidos por las bebidas, recuperando 10 puntos la cordura del personaje.',
-          "moderado": 'Permite reducir los efectos alucinógenos producidos por las bebidas, recuperando 15 puntos la cordura del personaje.',
-          "exitoso": 'Permite reducir los efectos alucinógenos producidos por las bebidas, recuperando 20 puntos la cordura del personaje.',
-          "critico": 'Permite reducir los efectos alucinógenos producidos por las bebidas, recuperando 25 puntos la cordura del personaje.',
-        },
-
-        "memoria lucida": {
-          "leve": 'Permite reducir los efectos alucinógenos producidos por las bebidas, recuperando 15 puntos la cordura de todos los personajes.',
-          "moderado": 'Permite reducir los efectos alucinógenos producidos por las bebidas, recuperando 20 puntos la cordura de todos los personajes.',
-          "exitoso": 'Permite reducir los efectos alucinógenos producidos por las bebidas, recuperando 25 puntos la cordura de todos los personajes.',
-          "critico": 'Permite reducir los efectos alucinógenos producidos por las bebidas, recuperando 30 puntos la cordura de todos los personajes.',
-        },
-
-        "quieta": {
-          "leve": 'Permite reducir los efectos alucinógenos producidos por las bebidas, recuperando 15 puntos la cordura de todos los personajes.',
-          "moderado": 'Permite reducir los efectos alucinógenos producidos por las bebidas, recuperando 20 puntos la cordura de todos los personajes.',
-          "exitoso": 'Permite reducir los efectos alucinógenos producidos por las bebidas, recuperando 25 puntos la cordura de todos los personajes.',
-          "critico": 'Permite reducir los efectos alucinógenos producidos por las bebidas, recuperando 30 puntos la cordura de todos los personajes.',
-        },
-
-        "nervus flemere": {
-          "leve": 'Permite reducir los efectos alucinógenos producidos por las bebidas, recuperando 15 puntos la cordura de todos los personajes.',
-          "moderado": 'Permite reducir los efectos alucinógenos producidos por las bebidas, recuperando 20 puntos la cordura de todos los personajes.',
-          "exitoso": 'Permite reducir los efectos alucinógenos producidos por las bebidas, recuperando 25 puntos la cordura de todos los personajes.',
-          "critico": 'Permite reducir los efectos alucinógenos producidos por las bebidas, recuperando 30 puntos la cordura de todos los personajes.',
-        },
-
-        "lumos maxima": {
-          "leve": 'La luz solo brilla por unos momentos, revelando las estanterías llenas de botellas de vidrio y un pasillo que conduce a un baño.',
-          "moderado": 'La luz es clara por unos momentos, aunque dura unos segundos. Todas las estanterías parecen rodear algo en concreto. Todas las botellas tienen una etiqueta similar, el brebaje cambia, pero todas al final poseen en letra cursiva las palabras "Dempsey Manufacturing".',
-          "exitoso": 'La luz revela que todas las estanterías parecen rodear algo en concreto. Todas las botellas tienen una etiqueta similar, el brebaje cambia, pero todas al final poseen en letra cursiva las palabras "Dempsey Manufacturing", en el medio de las estanterías que se agrupan como un pequeño laberinto, se encuentra un invernadero. Solicitar intervención de la administración.',
-          "critico": 'La luz revela que todas las estanterías parecen rodear algo en concreto. Todas las botellas tienen una etiqueta similar, el brebaje cambia, pero todas al final poseen en letra cursiva las palabras "Dempsey Manufacturing", en el medio de las estanterías que se agrupan como un pequeño laberinto, se encuentra un invernadero, plantas que se encontraban en los brebajes y en el medio un árbol de hojas amarillas que parece brillar con particularidad excéntrica. Solicitar intervención de la administración.',
-        },
-
-        "lumos solem": {
-          "leve": 'La luz solo brilla por unos momentos, revelando las estanterías llenas de botellas de vidrio y un pasillo que conduce a un baño.',
-          "moderado": 'La luz es clara por unos momentos, aunque dura unos segundos. Todas las estanterías parecen rodear algo en concreto. Todas las botellas tienen una etiqueta similar, el brebaje cambia, pero todas al final poseen en letra cursiva las palabras "Dempsey Manufacturing".',
-          "exitoso": 'La luz revela que todas las estanterías parecen rodear algo en concreto. Todas las botellas tienen una etiqueta similar, el brebaje cambia, pero todas al final poseen en letra cursiva las palabras "Dempsey Manufacturing", en el medio de las estanterías que se agrupan como un pequeño laberinto, se encuentra un invernadero. Solicitar intervención de la administración.',
-          "critico": 'La luz revela que todas las estanterías parecen rodear algo en concreto. Todas las botellas tienen una etiqueta similar, el brebaje cambia, pero todas al final poseen en letra cursiva las palabras "Dempsey Manufacturing", en el medio de las estanterías que se agrupan como un pequeño laberinto, se encuentra un invernadero, plantas que se encontraban en los brebajes y en el medio un árbol de hojas amarillas que parece brillar con particularidad excéntrica. Solicitar intervención de la administración.',
-        },
-      },
+      "actions": {},
     },
     // potions for all the afflictions
 
@@ -340,117 +58,20 @@ const MissionsModule = (function () {
       "type": "misión", "closed": true, "fecha": "1952-09-30", "link": "https://blackwave.foroactivo.com/t353-mision-traces-in-black", "tagged": ["sirius", "capitulo 0"],
 
       "cards": [
-        {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "Black", }, "place": "",
-          "cont": '<span>Existen seis elfos domésticos en el Castillo Black. Todos tienen estrictas órdenes de no ser vistos por ningún familiar a no ser que este sea llamado a servir a la familia:<br><br><i class="fa-solid fa-dash" aria-hidden="true"></i> <strong>Nibbin</strong>: Pequeño y servicial, suele hablar en tercera persona. <br><i class="fa-solid fa-dash" aria-hidden="true"></i> <strong>Dottle</strong>: Olvidadizo, pero sabio. Esta encargado de las cocinas y suele murmurar recetas mientras trabaja.<br><i class="fa-solid fa-dash" aria-hidden="true"></i> <strong>Grimy</strong>: Encargado principal de la limpieza, parece de carácter gruñón, pero tiene un gran corazón. Solía cantar canciones de cuna a los pequeños cuando se quedaban a dormir en el castillo.<br><i class="fa-solid fa-dash" aria-hidden="true"></i> <strong>Lixie</strong>: Ágil y alegre, esta encargada de los jardines y mantener flores frescas en todas las mesas disponibles.<br><i class="fa-solid fa-dash" aria-hidden="true"></i> <strong>Braskin</strong>: Viejo, encorvado y con modales antiguos. Lleva en la familia demasiado tiempo y adoraba con todo su fervor al amo Sirius. Esta al mando de todos los elfos de la casa. Fue él quien encontró a su amo aquella trágica mañana.<br><i class="fa-solid fa-dash" aria-hidden="true"></i> <strong>Peppa</strong>: Con una risa que suena como tetera, también se encarga de la limpieza y mantenimiento del castillo. Adora espiar conversaciones.<br></span>',
-        },
-
-        {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "Black", }, "place": "",
-          "cont": '<span>Desde que Sirius heredó el castillo, prohibió a todos sus integrantes acceder a la torre este. Incluso, ordenó a los elfos domésticos que impidan que cualquier familiar o invitado ingresara a aquel espacio del castillo. Hace treinta años que nadie puede ingresar a esa parte. ¿Se mantendrá esa tradición?<br></span>',
-        },
-
-        {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad mágica", "name": "invalid", }, "place": "",
-          "cont": '<span>Se debe, primero, utilizar un turno para investigar las cocinas. En las despensas se encuentran varias variedades de whiskey, sin embargo, todos se encuentran cerrados y en perfectas condiciones.</span>',
-        },
-
-        {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad mágica", "name": "invalid", }, "place": "",
-          "cont": '<span>Primero, se debe solicitar a un miembro de la familia Black, que llame al elfo que encontró a Sirius, esperando a que un familiar utilice un turno para llamarlo. Si a este se le pregunta algo, dirá la misma información que dio cuando se encontró el cuerpo—: <strong>El amo se encontraba en el sillón, inconsciente.</strong> —Nada extraño en el día, nada insual en el estudio. Sin embargo, el elfo titubea—: <strong>El amo Sirius siempre tenía su varita a mano, pero no la tenía aquel día</strong>.</span>',
-        },
-
-        {
-          "visible": { "attr": { "sab": "+5" }, "know": { "val": "min" }, "job": "seguridad mágica", "name": "invalid", }, "place": "",
-          "cont": '<span>Primero, se debe haber utilizado un turno para investigar el estudio de Sirius. Existen varios libros que fueron tomados de la biblioteca, se puede observar porque el polvo acumulado es más que en el resto de los que se encuentra en la bibliteca.</span>',
-        },
-
-        {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "Black", }, "place": "",
-          "cont": '<span>Primero, se debe haber utilizado un turno para haber investigado el invernadero. Un velo separa el invernadero en dos. Las plantas que todos ven, y las que solo ven los miembros correspondientes a la familia. Allí se encuentran plantas carnívoras y varias colecciones botánicas prohíbidas por el Ministerio de Magia.</span>',
-        },
-
-        {
-          "visible": { "attr": { "sab": "+4" }, "know": { "val": "min" }, "job": "seguridad mágica", "name": "invalid", }, "place": "",
-          "cont": '<span>Primero, se debe haber utilizado un turno para haber investigado el invernadero. Hay una planta desaparecida de una de las macetas.</span>',
-        },
-
-        {
-          "visible": { "attr": { "int": "+2" }, "know": { "val": "min" }, "job": "seguridad mágica", "name": "invalid", }, "place": "",
-          "cont": '<span>Primero, se debe haber desbloqueado la tarjeta de la maceta. Si se utiliza un turno para que un familiar Black llame al elfo doméstico que corresponde, este dirá—: <strong>El amo Sirius pidió envolver esa planta para llevar hace unos días.</strong> —Al elfo se le modificó la memoria para que no pudiera decir qué planta era.</span>',
-        },
-
-        {
-          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>Primero, se debe utilizar un turno para investigar la sala del árbol. Existen tres familiares vivos que han sido borrados del tapiz. Phineas Nigellus II, Marius y Cedrella Black. Se deberá solicitar a un familiar que cuente la historia de cómo pérdieron la herencia familiar.</span>',
-        }
+        {"visible":{"attr":{"val":"min"},"know":{"val":"min"},"job":"invalid","name":"Black"},"place":"","cont":"<span>Existen seis elfos domésticos en el Castillo Black. Todos tienen estrictas órdenes de no ser vistos por ningún familiar a no ser que este sea llamado a servir a la familia:<br><br><i class=\"fa-solid fa-dash\" aria-hidden=\"true\"></i> <strong>Nibbin</strong>: Pequeño y servicial, suele hablar en tercera persona. <br><i class=\"fa-solid fa-dash\" aria-hidden=\"true\"></i> <strong>Dottle</strong>: Olvidadizo, pero sabio. Esta encargado de las cocinas y suele murmurar recetas mientras trabaja.<br><i class=\"fa-solid fa-dash\" aria-hidden=\"true\"></i> <strong>Grimy</strong>: Encargado principal de la limpieza, parece de carácter gruñón, pero tiene un gran corazón. Solía cantar canciones de cuna a los pequeños cuando se quedaban a dormir en el castillo.<br><i class=\"fa-solid fa-dash\" aria-hidden=\"true\"></i> <strong>Lixie</strong>: Ágil y alegre, esta encargada de los jardines y mantener flores frescas en todas las mesas disponibles.<br><i class=\"fa-solid fa-dash\" aria-hidden=\"true\"></i> <strong>Braskin</strong>: Viejo, encorvado y con modales antiguos. Lleva en la familia demasiado tiempo y adoraba con todo su fervor al amo Sirius. Esta al mando de todos los elfos de la casa. Fue él quien encontró a su amo aquella trágica mañana.<br><i class=\"fa-solid fa-dash\" aria-hidden=\"true\"></i> <strong>Peppa</strong>: Con una risa que suena como tetera, también se encarga de la limpieza y mantenimiento del castillo. Adora espiar conversaciones.<br></span>"},
+        {"visible":{"attr":{"val":"min"},"know":{"val":"min"},"job":"invalid","name":"Black"},"place":"","cont":"<span>Desde que Sirius heredó el castillo, prohibió a todos sus integrantes acceder a la torre este. Incluso, ordenó a los elfos domésticos que impidan que cualquier familiar o invitado ingresara a aquel espacio del castillo. Hace treinta años que nadie puede ingresar a esa parte. ¿Se mantendrá esa tradición?<br></span>"},
+        {"visible":{"attr":{"val":"min"},"know":{"val":"min"},"job":"seguridad mágica","name":"invalid"},"place":"","cont":"<span>Se debe, primero, utilizar un turno para investigar las cocinas. En las despensas se encuentran varias variedades de whiskey, sin embargo, todos se encuentran cerrados y en perfectas condiciones.</span>"},
+        {"visible":{"attr":{"val":"min"},"know":{"val":"min"},"job":"seguridad mágica","name":"invalid"},"place":"","cont":"<span>Primero, se debe solicitar a un miembro de la familia Black, que llame al elfo que encontró a Sirius, esperando a que un familiar utilice un turno para llamarlo. Si a este se le pregunta algo, dirá la misma información que dio cuando se encontró el cuerpo—: <strong>El amo se encontraba en el sillón, inconsciente.</strong> —Nada extraño en el día, nada insual en el estudio. Sin embargo, el elfo titubea—: <strong>El amo Sirius siempre tenía su varita a mano, pero no la tenía aquel día</strong>.</span>"},
+        {"visible":{"attr":{"sab":"+5"},"know":{"val":"min"},"job":"seguridad mágica","name":"invalid"},"place":"","cont":"<span>Primero, se debe haber utilizado un turno para investigar el estudio de Sirius. Existen varios libros que fueron tomados de la biblioteca, se puede observar porque el polvo acumulado es más que en el resto de los que se encuentra en la bibliteca.</span>"},
+        {"visible":{"attr":{"val":"min"},"know":{"val":"min"},"job":"invalid","name":"Black"},"place":"","cont":"<span>Primero, se debe haber utilizado un turno para haber investigado el invernadero. Un velo separa el invernadero en dos. Las plantas que todos ven, y las que solo ven los miembros correspondientes a la familia. Allí se encuentran plantas carnívoras y varias colecciones botánicas prohíbidas por el Ministerio de Magia.</span>"},
+        {"visible":{"attr":{"sab":"+4"},"know":{"val":"min"},"job":"seguridad mágica","name":"invalid"},"place":"","cont":"<span>Primero, se debe haber utilizado un turno para haber investigado el invernadero. Hay una planta desaparecida de una de las macetas.</span>"},
+        {"visible":{"attr":{"int":"+2"},"know":{"val":"min"},"job":"seguridad mágica","name":"invalid"},"place":"","cont":"<span>Primero, se debe haber desbloqueado la tarjeta de la maceta. Si se utiliza un turno para que un familiar Black llame al elfo doméstico que corresponde, este dirá—: <strong>El amo Sirius pidió envolver esa planta para llevar hace unos días.</strong> —Al elfo se le modificó la memoria para que no pudiera decir qué planta era.</span>"},
+        {"visible":{"attr":{"int":"+1"},"know":{"val":"min"},"job":"invalid","name":"invalid"},"place":"","cont":"<span>Primero, se debe utilizar un turno para investigar la sala del árbol. Existen tres familiares vivos que han sido borrados del tapiz. Phineas Nigellus II, Marius y Cedrella Black. Se deberá solicitar a un familiar que cuente la historia de cómo pérdieron la herencia familiar.</span>"},
       ],
 
-      "searchs": {
-        "vestíbulo principal": {
-          "visible": { "attr": { "des": "+0" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>Alumbrado por candelabros flotantes de plata que simulan ramas de rosales, la sala se encuentra decorada por tapices tejidos por miembros de la familia Black a lo largo de los años. Un imponente retrato de Phineas Nigellus y su esposa Úrsula, ocupan un predominante espacio. También se pueden observar escudos heráldicos de plata que decoran el lugar. En el centro una amplia escalera dirige a los pisos superiores.<br></span>',
-        },
+      "searchs": {},
 
-        "cocinas": {
-          "visible": { "attr": { "des": "+0" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>A pesar de ser un espacio dedicado a los elfos domésticos. Mantiene un espacio pulcro y de líneas claras. Una mesa de madera oscura se encuentra en el medio, junto a un gran hogar cuya llama parece nunca consumirse.</span>',
-        },
-
-        "estudio de sirius black": {
-          "visible": { "attr": { "des": "+0" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>El estudio de Sirius Black es considerado una de las mejores salas del castillo. Sus amplios ventanales dan a los jardines. Las paredes de un color borgoña resaltan incluso sobre las decoraciones de plata y oro. Todos los muebles se encuentran tallados con símbolos rúnicos. Todos los sillones de un terciopelo negro se encuentran intactos a pesar del tiempo que llevan en ese hogar. Una pequeña biblioteca privada, contiene libros que se fueron llenando de polvo con el paso del mes.</span>',
-        },
-
-        "biblioteca": {
-          "visible": { "attr": { "des": "+0" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>La biblioteca del castillo, es un espacio circular. Cuenta con varias mesas de madera labrada, sillones de terciopelo color verdes, y sobre los muebles descansan libros y pergaminos que capaz nunca han sido vistos en otro lugar. Sus ventanales van del piso al techo y contiene un pequeño balcón, donde los familiares pueden sentarse a leer.</span>',
-        },
-
-        "invernadero": {
-          "visible": { "attr": { "des": "+0" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>Muchos consideran que los Black poseen plantas peligrosas e incluso prohibidas por el Ministerio de Magia. Sin embargo, al ingresar, se puede ver una hermosa colecciones de plantas y flores cuyos colores se apegan a la estética de la casa, colores negros, borgoña, rojos intensos y verdes oscuros. Incluso, se puede observara un pequeño espacio donde la temperatura se adapta para poder cultivar té, el favorito de Sirius, té negro.</span>',
-        },
-
-        "torre este": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "Black", }, "place": "",
-          "cont": '<span>Detrás de una puerta doble de madera, se haya el contenido de la torre este. El primer espacio se encuentra vacío, no más que una escalera que conduce a lo más alto de la torre. Allí se encuentra una habitación, hay pinturas, retratos que ya nunca serán pintados, y también tapices, que nunca podrán ser terminados, aún así. Úrsula Flint lo intenta—: <strong>¿Eres tu mi amor?</strong> —pregunta por su esposo. La mujer tiene 110 años, y a perdido la cordura hace muchos años, pero cuando se vuelve a los extraños comienza a golpearlos con el bastón que necesita para mantenerse en pie— <strong>¡INTRUSOS! ¡CANALLAS! ASTRUS, ¿DÓNDE ESTÁS, MALDITO ELFO DOMÉSTICO? LARGO, LARGO DE MI CASA. ¡PHINEAS!</strong> —comienza a gritar la mujer, completamente alterada.<br><br>Si quieren continuar con la interacción a Úrsula, deberán solicitar al staff que realice los correspondientes masteos.</span>',
-        },
-
-        "la sala del árbol": {
-          "visible": { "attr": { "des": "+0" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>La sala del tapiz, es una sala de estar, pero no es una sala de estar como cualquier otra. Decorada con una alfombra negra que tiene en el centro el emblema de los Black, sus paredes cuentan con el árbol familiar Black pintado a mano. Los retratos de los familiares, crecen a medida que ellos los hacen, excepto por aquellos que hayan sido borrados. No existen sillas, ni mesas en aquella sala. Es un espacio para contemplar y apreciar lo que significa ser un miembro de la noble y ancestral casa de los Black.</span>',
-        },
-      },
-
-      "actions": {
-        "veniens empathy": {
-          "leve": 'Una punzada desconocida recorre tu pecho. No sabes si es miedo, tristeza o algo más oscuro, pero permanece, como si no fuera tuya.',
-          "moderado": 'Te invade una emoción intensa y ajena. En tu mente, una imagen: tú, mirando al mar, sabiendo que algo se avecina. El miedo no es tuyo, pero te atrapa.',
-          "exitoso": 'El aire se torna denso, y una emoción clara surge en ti: desesperanza. No estás solo; puedes sentirla en todos los que estuvieron aquí antes. La tierra misma la recuerda.',
-          "critico": 'Una visión atraviesa tu cuerpo como una descarga: en este mismo lugar, pronto habrá llanto. Lágrimas verdaderas. Puedes sentirlas correr por tus mejillas sin saber por qué. Alguien grita, pero no de dolor: de pérdida.',
-        },
-        "identificar runa": {
-          "leve": '',
-          "moderado": 'Una de las runas se trata de Algiz (ᛉ).',
-          "exitoso": 'Existen dos runas que destacan sobre todas las demás, se trata de Algiz (ᛉ) y Uruz (ᚢ), ambas parecen haber sido remarcadas recientemente.',
-          "critico": 'Existen dos runas que destacan sobre todas las demás, se trata de Algiz (ᛉ) y Uruz (ᚢ), ambas parecen haber sido remarcadas recientemente.',
-        },
-
-        "interpretar runas": {
-          "leve": '',
-          "moderado": 'El significado de las runas es difuso, aunque están relacionadas con la protección.',
-          "exitoso": 'La runa Algiz (ᛉ) está relacionada con la protección, los defensores, guardianes y el instinto. La runa Uruz (ᚢ) está relacionada con la fuerza, la salud y el coraje.',
-          "critico": 'La runa Algiz (ᛉ) está relacionada con la protección, los defensores, guardianes y el instinto. La runa Uruz (ᚢ) está relacionada con la fuerza, la salud y el coraje.',
-        },
-
-        "dissendium": {
-          "leve": '',
-          "moderado": '',
-          "exitoso": 'Previamente, será necesario revisar la biblioteca. En una de las esquinas, se encuentra un reloj de pie, tallado en madera con detalles en bronce, cuyas manecillas no marcan la hora. Hace años que no funciona. El mismo reloj cuenta con el escudo de la familia. Al utilizar el hechizo, sus manecillas, se mueven hasta señalar las 12 hs. Un segundo después, una de las baldosas, se mueve revelando unas escaleras que descienden hasta un pequeño lobby de piedra que solo tiene una chimenea y una fuente de plata en forma de hoja con polvos flu. No parece un espacio de la casa utilizado con regularidad.',
-          "critico": 'Previamente, será necesario revisar la biblioteca. En una de las esquinas, se encuentra un reloj de pie, tallado en madera con detalles en bronce, cuyas manecillas no marcan la hora. Hace años que no funciona. El mismo reloj cuenta con el escudo de la familia. Al utilizar el hechizo, sus manecillas, se mueven hasta señalar las 12 hs. Un segundo después, una de las baldosas, se mueve revelando unas escaleras que descienden hasta un pequeño lobby de piedra que solo tiene una chimenea y una fuente de plata en forma de hoja con polvos flu. No parece un espacio de la casa utilizado con regularidad.',
-        },
-      },
+      "actions": {},
     },
     // fin traces in black
 
@@ -463,101 +84,26 @@ const MissionsModule = (function () {
       "type": "misión", "closed": true, "fecha": "1952-09-25", "link": "https://blackwave.foroactivo.com/t354-mision-haunted-dwelling", "tagged": ["edwin", "capitulo 0"],
 
       "cards": [
-        {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "ignatius", }, "place": "",
-          "cont": '<span>Primero se deberá usar un turno para investigar el estudio, el sobre de regalo es algo que le parecerá familiar, dado que Edwin solía enviarle un pergamino con una pista como regalo de cumpleaños cuando era pequeño. Dicha pista revelaba una búsqueda de tesoro perdido. Podrá revelar la información o guardar el sobre. Si en algún momento desea revelar el contenido, deberá pedir la pista al staff. </span>',
-        },
-
-        {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "fleamont", }, "place": "",
-          "cont": '<span>Primero se deberá usar un turno para investigar el dormitorio, el escudo fue un regalo de su tía Galatea, luego de haber recorrido Grecia. Edwin creía que era un auténtico escudo de la edad antigua. Cada vez que tuvo que mudarse se lo llevó consigo porque decía que defendía a la familia durante las noches en las que todos estaban dormidos. </span>',
-        },
-
-        {
-          "visible": { "attr": { "val": "min" }, "know": { "astronomía": "5" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>Primero se deberá usar un turno para investigar el estudio, la constelación del cuadro de Edwin, se trata de la constelación de Orión, una de las constelaciones más visibles del cielo nocturno y considerado una guía para los viajeros. </span>',
-        },
-
-        {
-          "visible": { "attr": { "val": "min" }, "know": { "astronomía": "5" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>Primero se deberá usar un turno para investigar el estudio, y haber mencionado cuál es la constelación. La primera estrella que falta es <i>Betelgeuse</i>, el hombre izquierdo, representando que el cazador no tiene su arma de batalla. La segunda estrella que falta es <i>Bellatrix</i>, la estrella que sostiene el escudo. </span>',
-        },
-
-        {
-          "visible": { "attr": { "sab": "+2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>Primero se deberá usar un turno para investigar el estudio, al cuadro de la constelación, le faltan dos estrellas, las cuales fueron borradas con magia, y por el rastro que dejaron, parece ser algo bastante reciente. </span>',
-        },
-
-        {
-          "visible": { "attr": { "sab": "+4" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>Luego de haber revisado el estudio y el dormitorio, y saber la estrella faltante, solicitar al staff la acción que deben realizar para obtener el cuaderno de Edwin. </span>',
-        },
-
-        {
-          "visible": { "attr": { "int": "+4" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>Luego de haber revisado el estudio y el dormitorio, y saber la estrella faltante, solicitar al staff revelar la tarjeta informativa. </span>',
-        },
-
-        {
-          "visible": { "attr": { "int": "+4" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>La estrella [i]Betelgeuse[/i] representa que a su guerrero le falta su arma principal. Por más que se busque, podrán notar la ausencia de la varita de Edwin. En los registros mágicos, su varita no se encuentra, porque la varita está pérdida. </span>',
-        },
-
-        {
-          "visible": { "attr": { "sab": "+3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>Los crucigramas parecen haber sido sacados del Diario “El Profeta”, día tras día y coleccionando aquellos que fue completando. A simple vista, no hay errores, más allá de alguna que otra palabra tachada. Sin embargo, al recorrer los crucigramas comienza a notarse que en seis páginas hay una estrella en una de las esquinas.</span>',
-        },
-
-        {
-          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>Si se busca la primera página con estrella, se puede observar una consigna vacía: <em>El cazador gigante, una de las constelaciones más reconocibles.</em></span>',
-        },
-
-        {
-          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>Si se busca la segunda página con estrella, se puede observar una consigna vacía: <em>Significa “horno”; una constelación menor en el hemisferio sur.</em></span>',
-        },
-
-        {
-          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>Si se busca la tercera página con estrella, se puede observar una consigna vacía: <em>Nombre de la estatua esculpida por Pigmalión que, según el mito, cobró vida por deseo de su creador.</em></span>',
-        },
-
-        {
-          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>Si se busca la cuarta página con estrella, se puede observar una consigna vacía: <em>El conejo, situado cerca de Orión.</em></span>',
-        },
-
-        {
-          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>Si se busca la quinta página con estrella, se puede observar una consigna vacía: <em>El escudo; pequeña pero visible desde el hemisferio sur.</em></span>',
-        },
-
-        {
-          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>Si se busca la sexta página con estrella, se puede observar una consigna vacía: <em>Representa a la princesa encadenada de la mitología griega.</em></span>',
-        }
+        {"visible":{"attr":{"val":"min"},"know":{"val":"min"},"job":"invalid","name":"ignatius"},"place":"","cont":"<span>Primero se deberá usar un turno para investigar el estudio, el sobre de regalo es algo que le parecerá familiar, dado que Edwin solía enviarle un pergamino con una pista como regalo de cumpleaños cuando era pequeño. Dicha pista revelaba una búsqueda de tesoro perdido. Podrá revelar la información o guardar el sobre. Si en algún momento desea revelar el contenido, deberá pedir la pista al staff. </span>"},
+        {"visible":{"attr":{"val":"min"},"know":{"val":"min"},"job":"invalid","name":"fleamont"},"place":"","cont":"<span>Primero se deberá usar un turno para investigar el dormitorio, el escudo fue un regalo de su tía Galatea, luego de haber recorrido Grecia. Edwin creía que era un auténtico escudo de la edad antigua. Cada vez que tuvo que mudarse se lo llevó consigo porque decía que defendía a la familia durante las noches en las que todos estaban dormidos. </span>"},
+        {"visible":{"attr":{"val":"min"},"know":{"astronomía":"5"},"job":"invalid","name":"invalid"},"place":"","cont":"<span>Primero se deberá usar un turno para investigar el estudio, la constelación del cuadro de Edwin, se trata de la constelación de Orión, una de las constelaciones más visibles del cielo nocturno y considerado una guía para los viajeros. </span>"},
+        {"visible":{"attr":{"val":"min"},"know":{"astronomía":"5"},"job":"invalid","name":"invalid"},"place":"","cont":"<span>Primero se deberá usar un turno para investigar el estudio, y haber mencionado cuál es la constelación. La primera estrella que falta es <i>Betelgeuse</i>, el hombre izquierdo, representando que el cazador no tiene su arma de batalla. La segunda estrella que falta es <i>Bellatrix</i>, la estrella que sostiene el escudo. </span>"},
+        {"visible":{"attr":{"sab":"+2"},"know":{"val":"min"},"job":"invalid","name":"invalid"},"place":"","cont":"<span>Primero se deberá usar un turno para investigar el estudio, al cuadro de la constelación, le faltan dos estrellas, las cuales fueron borradas con magia, y por el rastro que dejaron, parece ser algo bastante reciente. </span>"},
+        {"visible":{"attr":{"sab":"+4"},"know":{"val":"min"},"job":"invalid","name":"invalid"},"place":"","cont":"<span>Luego de haber revisado el estudio y el dormitorio, y saber la estrella faltante, solicitar al staff la acción que deben realizar para obtener el cuaderno de Edwin. </span>"},
+        {"visible":{"attr":{"int":"+4"},"know":{"val":"min"},"job":"invalid","name":"invalid"},"place":"","cont":"<span>Luego de haber revisado el estudio y el dormitorio, y saber la estrella faltante, solicitar al staff revelar la tarjeta informativa. </span>"},
+        {"visible":{"attr":{"int":"+4"},"know":{"val":"min"},"job":"invalid","name":"invalid"},"place":"","cont":"<span>La estrella [i]Betelgeuse[/i] representa que a su guerrero le falta su arma principal. Por más que se busque, podrán notar la ausencia de la varita de Edwin. En los registros mágicos, su varita no se encuentra, porque la varita está pérdida. </span>"},
+        {"visible":{"attr":{"sab":"+3"},"know":{"val":"min"},"job":"invalid","name":"invalid"},"place":"","cont":"<span>Los crucigramas parecen haber sido sacados del Diario “El Profeta”, día tras día y coleccionando aquellos que fue completando. A simple vista, no hay errores, más allá de alguna que otra palabra tachada. Sin embargo, al recorrer los crucigramas comienza a notarse que en seis páginas hay una estrella en una de las esquinas.</span>"},
+        {"visible":{"attr":{"int":"+1"},"know":{"val":"min"},"job":"invalid","name":"invalid"},"place":"","cont":"<span>Si se busca la primera página con estrella, se puede observar una consigna vacía: <em>El cazador gigante, una de las constelaciones más reconocibles.</em></span>"},
+        {"visible":{"attr":{"int":"+1"},"know":{"val":"min"},"job":"invalid","name":"invalid"},"place":"","cont":"<span>Si se busca la segunda página con estrella, se puede observar una consigna vacía: <em>Significa “horno”; una constelación menor en el hemisferio sur.</em></span>"},
+        {"visible":{"attr":{"int":"+1"},"know":{"val":"min"},"job":"invalid","name":"invalid"},"place":"","cont":"<span>Si se busca la tercera página con estrella, se puede observar una consigna vacía: <em>Nombre de la estatua esculpida por Pigmalión que, según el mito, cobró vida por deseo de su creador.</em></span>"},
+        {"visible":{"attr":{"int":"+1"},"know":{"val":"min"},"job":"invalid","name":"invalid"},"place":"","cont":"<span>Si se busca la cuarta página con estrella, se puede observar una consigna vacía: <em>El conejo, situado cerca de Orión.</em></span>"},
+        {"visible":{"attr":{"int":"+1"},"know":{"val":"min"},"job":"invalid","name":"invalid"},"place":"","cont":"<span>Si se busca la quinta página con estrella, se puede observar una consigna vacía: <em>El escudo; pequeña pero visible desde el hemisferio sur.</em></span>"},
+        {"visible":{"attr":{"int":"+1"},"know":{"val":"min"},"job":"invalid","name":"invalid"},"place":"","cont":"<span>Si se busca la sexta página con estrella, se puede observar una consigna vacía: <em>Representa a la princesa encadenada de la mitología griega.</em></span>"},
       ],
 
-      "searchs": {
-        "estudio de edwin": {
-          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>El estudio de Edwin, es un espacio bastante pequeño. Contiene una biblioteca chica, con pergaminos y libros de defensa que, por el polvo que juntan, llevan bastante tiempo sin usarse, y la biblioteca en sí parece más un espacio para apoyar otras cosas que no son necesariamente libros. Como un tocadiscos que tiene un disco de Jazz.<br><br>Las paredes son de color blanco y tiene dos ventanas grandes, de las cuales cuelgan dos canteros llenos de flores de hojas verdes.<br><br>Un escritorio de madera es donde más desorden hay. Pergaminos sobre cuestiones del Departamento de Seguridad Mágica, la entrega de “El Profeta” correspondiente al 28 de agosto, una foto familiar. Si se revisan sus cajones, encontrarán un sobre de regalo, sin destinatario.<br><br>Hay un cuadro detrás de su silla, una constelación que parece haber sido pintada hace muchos años.</span>',
-        },
+      "searchs": {},
 
-        "dormitorio de edwin": {
-          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>La habitación donde Edwin fue encontrado, guarda bastante relación con el resto de la casa. Paredes color claro. La cama de la misma manera en la que se dejó cuando se retiró el cuerpo de Edwin. Las frazadas y mantas azules cuelgan a un costado.<br><br>Un escudo antiguo de bronce corroído por el tiempo y de más de medio metro de diámetro. En el relieve se puede visualizar un búho con las alas extendidas rodeado por una corona de olivos.</span>',
-        },
-
-        "revelio escudo": {
-          "visible": { "attr": { "sab": "+4" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>Cuando se descuelga el escudo y se realiza el encantamiento <i>Revelio</i>, el cuaderno aparece lentamente, enganchado donde iría el brazo de su guerrero. A simple vista parece ser el cuaderno de su dueño, pero al abrirlo. Sus hojas solo revelan un crucigrama tras otro.</span>',
-        },
-      },
-
-      "actions": {
-      },
+      "actions": {},
     },
     // fin Haunted Dwelling
 
@@ -570,110 +116,17 @@ const MissionsModule = (function () {
       "type": "misión", "closed": true, "fecha": "1952-09-25", "link": "https://blackwave.foroactivo.com/t365-mision-death-in-a-teacup", "tagged": ["edwin", "morgana", "sirius", "capitulo 0"],
 
       "cards": [
-        {
-          "visible": { "attr": { "sab": "+3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>Si las bebidas se huelen se puede llegar a las siguientes conclusiones: Todas las bebidas tienen alguna clase de té con whiskey. La bebida de Edwin es té de limón con miel. La bebida de Morgana, es té rojo. La bebida de Sirius es té negro. </span>',
-        },
-
-        {
-          "visible": { "attr": { "val": "min" }, "know": { "alquimia": "5" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>El mejor camino para dividir los elementos de una de las bebidas es el siguiente:<br> <br>1. Condensación para eliminar las esencias más volátiles. <br>2. Hervir de manera controlada los líquidos para liberar compuestos ocultos. <br>3. Calcinación para eliminar residuos no disueltos.<br>4. Separación para eliminar líquidos restantes.</span>',
-        },
-
-        {
-          "visible": { "attr": { "sab": "+2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>Si se observan las bebidas, tras dejarlas reposar un momento, se puede observar que solo la bebida de Morgana, tiene rastros de azúcar.</span>',
-        },
-
-        {
-          "visible": { "attr": { "val": "min" }, "know": { "herbología": "5" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>Los rastros parecen pertenecer a una hoja, por la forma en la que se descompuso entre el té y el alcohol, podría decirse que sus hojas eran duras y de color ambarino.</span>',
-        },
-
-        {
-          "visible": { "attr": { "val": "min" }, "know": { "herbología": "5" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>Mentes capaces piensan igual. Una poción de regerminación, capaz pueda llegar a revelar más sobre la planta en cuestión. Una vez que terminen la poción, pueden avisar al staff para que realice un masteo.</span>',
-        },
-
-        {
-          "visible": { "attr": { "val": "min" }, "know": { "pociones": "5" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>Mentes capaces piensan igual. Una poción de regerminación, capaz pueda llegar a revelar más sobre la planta en cuestión. Una vez que terminen la poción, pueden avisar al staff para que realice un masteo.</span>',
-        }
+        {"visible":{"attr":{"sab":"+3"},"know":{"val":"min"},"job":"invalid","name":"invalid"},"place":"","cont":"<span>Si las bebidas se huelen se puede llegar a las siguientes conclusiones: Todas las bebidas tienen alguna clase de té con whiskey. La bebida de Edwin es té de limón con miel. La bebida de Morgana, es té rojo. La bebida de Sirius es té negro. </span>"},
+        {"visible":{"attr":{"val":"min"},"know":{"alquimia":"5"},"job":"invalid","name":"invalid"},"place":"","cont":"<span>El mejor camino para dividir los elementos de una de las bebidas es el siguiente:<br> <br>1. Condensación para eliminar las esencias más volátiles. <br>2. Hervir de manera controlada los líquidos para liberar compuestos ocultos. <br>3. Calcinación para eliminar residuos no disueltos.<br>4. Separación para eliminar líquidos restantes.</span>"},
+        {"visible":{"attr":{"sab":"+2"},"know":{"val":"min"},"job":"invalid","name":"invalid"},"place":"","cont":"<span>Si se observan las bebidas, tras dejarlas reposar un momento, se puede observar que solo la bebida de Morgana, tiene rastros de azúcar.</span>"},
+        {"visible":{"attr":{"val":"min"},"know":{"herbología":"5"},"job":"invalid","name":"invalid"},"place":"","cont":"<span>Los rastros parecen pertenecer a una hoja, por la forma en la que se descompuso entre el té y el alcohol, podría decirse que sus hojas eran duras y de color ambarino.</span>"},
+        {"visible":{"attr":{"val":"min"},"know":{"herbología":"5"},"job":"invalid","name":"invalid"},"place":"","cont":"<span>Mentes capaces piensan igual. Una poción de regerminación, capaz pueda llegar a revelar más sobre la planta en cuestión. Una vez que terminen la poción, pueden avisar al staff para que realice un masteo.</span>"},
+        {"visible":{"attr":{"val":"min"},"know":{"pociones":"5"},"job":"invalid","name":"invalid"},"place":"","cont":"<span>Mentes capaces piensan igual. Una poción de regerminación, capaz pueda llegar a revelar más sobre la planta en cuestión. Una vez que terminen la poción, pueden avisar al staff para que realice un masteo.</span>"},
       ],
 
-      "searchs": {
-        "beber té con whiskey de edwin": {
-          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>La bebida sabe a lo que se esperaba, té de limón, con miel y whiskey. Su sabor es dulce en un principio gracias a la miel; sin embargo, las notas finales recuerdan el sabor de un whiskey de calidad con notas de roble y vainilla. Hay algo en el fondo, como un sabor distinto a la miel, pero igual de dulce. El personaje por los siguientes tres roles sentirá un cosquilleo en los dedos, como si sus músculos se vieran entumecidos.</span>',
-        },
+      "searchs": {},
 
-        "beber té con whiskey de morgana": {
-          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>La bebida sabe a lo que se esperaba, la base terrosa del té rojo y el whiskey casi no se notan, un sabor dulzor tapa todos los sabores en una combinación que parece hasta empalagosa. El personaje por los siguientes tres roles sentirá un cosquilleo en los dedos, como si sus músculos se vieran entumecidos.</span>',
-        },
-
-        "beber té con whiskey de sirius": {
-          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>La bebida sabe a lo que se esperaba, el whiskey con notas de roble y vainilla sobresalen sobre el sabor a té negro, en el fondo se notan el dulzor del azúcar, dulce casi empalagoso. El personaje por los siguientes tres roles sentirá un cosquilleo en los dedos, como si sus músculos se vieran entumecidos.</span>',
-        },
-
-        "hechizo: fac illum clamorem": {
-          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>Libera las sustancias alcohólicas atrapadas u otros compuestos solubles.</span>',
-        },
-
-        "hechizo: succendam bullae": {
-          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>Acelera la liberación de residuos ocultos, mostrando ciertas granuladidades en la bebida, que bien podrían tratarse de hebras de té.</span>',
-        },
-
-        "hechizo: ignis mortis": {
-          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>Las cenizas revelan material vegetal.</span>',
-        },
-
-        "hechizo: unus multis": {
-          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>Termina de separar los elementos de la poción dejando tres sustancias claras: hebras de té, restos de whiskey y lo que parece ser restos de una planta. Deberá pedirse al staff revelar más información sobre la misma.</span>',
-        }
-      },
-
-      "actions": {
-        "fac illum clamorem": {
-          "leve": '<span>Libera las sustancias alcohólicas atrapadas u otros compuestos solubles.</span>',
-          "moderado": '<span>Libera las sustancias alcohólicas atrapadas u otros compuestos solubles.</span>',
-          "exitoso": '<span>Libera las sustancias alcohólicas atrapadas u otros compuestos solubles.</span>',
-          "critico": '<span>Libera las sustancias alcohólicas atrapadas u otros compuestos solubles.</span>',
-        },
-
-        "succendam bullae": {
-          "leve": '<span>Acelera la liberación de residuos ocultos, mostrando ciertas granuladidades en la bebida, que bien podrían tratarse de hebras de té.</span>',
-          "moderado": '<span>Acelera la liberación de residuos ocultos, mostrando ciertas granuladidades en la bebida, que bien podrían tratarse de hebras de té.</span>',
-          "exitoso": '<span>Acelera la liberación de residuos ocultos, mostrando ciertas granuladidades en la bebida, que bien podrían tratarse de hebras de té.</span>',
-          "critico": '<span>Acelera la liberación de residuos ocultos, mostrando ciertas granuladidades en la bebida, que bien podrían tratarse de hebras de té.</span>',
-        },
-
-        "ignis mortis": {
-          "leve": '<span>Las cenizas revelan material vegetal.</span>',
-          "moderado": '<span>Las cenizas revelan material vegetal.</span>',
-          "exitoso": '<span>Las cenizas revelan material vegetal.</span>',
-          "critico": '<span>Las cenizas revelan material vegetal.</span>',
-        },
-
-        "unus multis": {
-          "leve": '<span>Termina de separar los elementos de la poción dejando tres sustancias claras: hebras de té, restos de whiskey y lo que parece ser restos de una planta. Deberá pedirse al staff revelar más información sobre la misma.</span>',
-          "moderado": '<span>Termina de separar los elementos de la poción dejando tres sustancias claras: hebras de té, restos de whiskey y lo que parece ser restos de una planta. Deberá pedirse al staff revelar más información sobre la misma.</span>',
-          "exitoso": '<span>Termina de separar los elementos de la poción dejando tres sustancias claras: hebras de té, restos de whiskey y lo que parece ser restos de una planta. Deberá pedirse al staff revelar más información sobre la misma.</span>',
-          "critico": '<span>Termina de separar los elementos de la poción dejando tres sustancias claras: hebras de té, restos de whiskey y lo que parece ser restos de una planta. Deberá pedirse al staff revelar más información sobre la misma.</span>',
-        },
-
-        "revelio potionis": {
-          "leve": '<span>Las bebidas solo revelan el té utilizado y whiskey. Edwin: té de limón con miel: Morgana: té rojo; Sirius: té negro.</span>',
-          "moderado": '<span>Se revelan las siguientes composiciones. El té de Edwin es té de limón, whiskey con vainilla y miel. El té de Morgana, posee té rojo y whiskey con vainilla, bastante azucarado. El té de Sirius es té negro con whiskey de vainilla.</span>',
-          "exitoso": '<span>Se revelan las siguientes composiciones. El té de Edwin es té de limón, whiskey con vainilla y miel, hay un ingrediente adicional. El té de Morgana, posee té rojo y whiskey con vainilla, bastante azucarado. El té de Sirius es té negro con whiskey de vainilla. Los tres poseen un ingrediente adicional, pero no se puede distinguir cuál es.</span>',
-          "critico": '<span>Se revelan las siguientes composiciones. El té de Edwin es té de limón, whiskey con vainilla y miel, hay un ingrediente adicional. El té de Morgana, posee té rojo y whiskey con vainilla, bastante azucarado. El té de Sirius es té negro con whiskey de vainilla. Los tres poseen un ingrediente adicional, y la información revelada para indicar que se trata de una salvia, pero no se puede identificar la planta o árbol al que pertenece.</span>',
-        },
-      },
+      "actions": {},
     },
     // fin Death in a Teacup
 
@@ -686,391 +139,12 @@ const MissionsModule = (function () {
       "type": "misión", "closed": true, "fecha": "1952-11-12", "link": "https://blackwave.foroactivo.com/t560-mision-wounds-from-the-past", "tagged": ["morgana", "capitulo 0"],
 
       "cards": [
-        {
-          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "puerta blanca",
-          "cont": '<span>La puerta aparece varios metros por encima de todos los presentes y deberán utilizar hechizos que les permita llegar hasta la misma.</span>',
-        },
-
-        {
-          "visible": { "attr": { "int": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "puerta azul",
-          "cont": '<span>El río se encuentra rodeados de rocas, no hay una playa cercana, pero si un breve espacio de las rocas, que les permitirá subirse a ellas y evitar ser arrastrados por la corriente.</span>',
-        },
-
-        {
-          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "puerta azul",
-          "cont": '<span>La puerta se encuentra a debajo de donde aparecieron. Bastaría un simple hechizo que les permita respirar bajo el agua para poder llegar a la misma.</span>',
-        },
-
-        {
-          "visible": { "attr": { "sab": "3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "puerta azul",
-          "cont": '<span>¡Cuidado! Puedes verlo, la figura que protege la puerta, es un Kelpie. Por verlo primero, puedes atacar primero indiferente del resultado de los dados.</span>',
-        },
-
-        {
-          "visible": { "attr": { "val": "min" }, "know": { "historia de la magia": "5" }, "job": "invalid", "name": "invalid", }, "place": "puerta amarilla",
-          "cont": '<span>Pocos conocen el lugar llamado Torrnamòr, la colina del gigante. Es un espacio protegido por el Ministerio de Magia, que oculta la aldea en uno de los puntos más al norte de Escocia.</span>',
-        },
-
-        {
-          "visible": { "attr": { "val": "min" }, "know": { "ccm": "5" }, "job": "invalid", "name": "invalid", }, "place": "puerta amarilla",
-          "cont": '<span>Los gigantes son inofensivos, no los atacarán a menos que ustedes lo hagan primero. Capaz convendría regresar por donde llegaron y dejar a los gigantes desarrollar su vida en armonía.</span>',
-        },
-
-        {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "san mungo", "name": "invalid", }, "place": "puerta roja",
-          "cont": '<span>Todos los trabajadores de San Mungo que habían trabajado con Morgana por al menos un año, sabían que en algún momento, la misma prepararía un simulacro de evacuación. En el mismo siempre había varias puertas que, al abrirlas, representaban un elemento tierra, agua, fuego, aire, luz, energía, minerales o incluso naturaleza. Ninguna puerta llevaba a dónde correspondía hasta que se realice un hechizo que represente cada elemento. Una vez invocados todos los elementos se debía conjurar una melodía para que las puertas lleven al lugar deseado.</span>',
-        },
-
-        {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad mágica", "name": "invalid", }, "place": "puerta roja",
-          "cont": '<span>Detrás de la parede de hielo se puede observar el hall en que antes estaban.</span>',
-        },
-
-        {
-          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "investigación casa de morgana",
-          "cont": '<span>Mientras que todo parece estar en su lugar, hay algo que parece evidente. La casa está helada. El frío que anuncia las próximas nevadas se cuela por todas las ventanas abiertas de la casa. Cada una de las ventanas deja pasar el viento de Noviembre. Haciendo que el ambiente sea bastante insostenible, pero nada que no se pueda soportar.</span>',
-        },
-
-        {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "investigación casa de morgana",
-          "cont": '<span>En la habitación de Morgana, una de las ventanas tiene siete cuervos en el alfeizar que han aprovechado las ventanas abiertas y la calma de una casa vacía para encontrar un espacio de tranquilidad.</span>',
-        },
-
-        {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad mágica", "name": "invalid", }, "place": "investigación casa de morgana",
-          "cont": '<span>Todas las ventanas tienen la misma pintura azul como marco que parece haber sido pintado hace muchos años. Sin embargo, una de las ventanas parece tener señales cercanas de haber quebrado la pintura, mientras que las otras ventanas no. Podría deducirse que esa ventana no se ha abierto con frecuencia. Y el verano no había sido el más cálido de los últimos años.</span>',
-        },
-
-        {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad mágica", "name": "invalid", }, "place": "investigación casa de morgana",
-          "cont": '<span>En una de las mesas cercanas al sillón, puede observarse la marca de años de colocar tazas en la misma. En ese sillón es que se la encontró fallecida. Hay un espacio debajo de la mesa para tener la varita a mano en caso de un accidente. Sin embargo, la mayor arma de Morgana, está faltante del lugar. </span>',
-        },
-
-        {
-          "visible": { "attr": { "val": "min" }, "know": { "ccm": "5" }, "job": "invalid", "name": "invalid", }, "place": "investigación casa de morgana",
-          "cont": '<span>En el polvo que se ha juntado en el suelo pueden observarse unas pequeñas huellas. Que pertenecen a una familia de Nifflers. Si se observan los cajones, se llevaron los cubiertos y también cualquier objeto metálico.</span>',
-        },
-
-        {
-          "visible": { "attr": { "val": "min" }, "know": { "videncia": "5" }, "job": "invalid", "name": "invalid", }, "place": "investigación casa de morgana",
-          "cont": '<span>Tras revisar la habitación de Morgana, se pueden observar siete cuervos. Primero debe mencionarse esa tarjeta. En videncia, soñar con siete cuervos representa un secreto nunca dicho.</span>',
-        },
-
-        {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "san mungo", "name": "invalid", }, "place": "investigación casa de morgana",
-          "cont": '<span>Morgana era conocida por siempre mantener los ambientes ventilados. Solía decir que, siendo los encargados de la salud mágica, no podían permitirse ser un foco de enfermedades. Por lo tanto, sin importar la época o el frío, solicitaba que haya una ventana abierta por ambiente. Hechizos para mantener el calor había muchos. También solía inspeccionar los lugares y abrir las ventanas sin pedir permiso. Principalmente en invierno, era cuando más intensa solía ponerse con ese tema. Para ustedes, no es una sorpresa que todas las ventanas de la casa estén abiertas. Pues si tenían que morirse de frío en el trabajo para mantener las ventanas abiertas del hospital, tenían que hacerlo.</span>',
-        },
-
-        {
-          "visible": { "attr": { "val": "min" }, "know": { "ccm": "5" }, "job": "invalid", "name": "invalid", }, "place": "investigación pared",
-          "cont": '<span>Las marcas de hombre lobo parecen ser de un hombre lobo joven. Alguien que no había llegado a la mayoría de edad.</span>',
-        },
-
-        {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad mágica", "name": "invalid", }, "place": "investigación pared",
-          "cont": '<span>En el suelo cerca a las cadenas, hay marcas de una silla. Sea lo que sea que haya estado allí. Alguien no demasiado pesado, solía quedarse allí toda la noche. Las marcas son espacio, los cuatro puntos de la silla, la cantidad de veces que empujaron la silla hacia atrás alejándose de algo que podía llegar a dañarlo. Las marcas son abruptas, tomadas por sorpresa.</span>',
-        },
-
-        {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "investigación escritorio",
-          "cont": '<span>En el escritorio hay un libro, tiene varios años en las manos de Morgana y todo ha sido escrito por ella. Hay experimentos, investigaciones, notas, algunos pergaminos nuevos se colaban entre las hojas viejas con nuevos descubrimientos. Se recomienda investigar por separado, no es algo que vayan a poder deducir ni con varias horas leyendo el mismo.</span>',
-        },
-
-        {
-          "visible": { "attr": { "val": "min" }, "know": { "pociones": "10" }, "job": "invalid", "name": "invalid", }, "place": "investigación escritorio",
-          "cont": '<span>Las pociones no son reconocidas fácilmente, y por los comentarios en el libro podía llegar a deducirse que aquellos frascos tienen pociones elaboradas y creadas por Morgana Dempsey.</span>',
-        },
-
-        {
-          "visible": { "attr": { "val": "min" }, "know": { "ccm": "5" }, "job": "invalid", "name": "invalid", }, "place": "intervención kelpie",
-          "cont": '<span>La forma de vencer a un kelpie es pasarle una brida por la cabeza con un encantamiento de colocación, con lo que se vuelven dóciles y mansos (Capistrum).</span>',
-        },
+        {"visible":{"attr":{"val":"min"},"know":{"ccm":"5"},"job":"invalid","name":"invalid"},"place":"intervención kelpie","cont":"<span>La forma de vencer a un kelpie es pasarle una brida por la cabeza con un encantamiento de colocación, con lo que se vuelven dóciles y mansos (Capistrum).</span>"},
       ],
 
-      "searchs": {
-        "puerta blanca": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>Cuando la puerta blanca se abre, el ambiente parece cubrirse de una neblina blanca, que poco a poco va consumiendo las paredes y el suelo, hasta que el mismo ambiente desaparece completamente, revelando la visión de la cima de una montaña. La gravedad tarda un momento en hacer efecto y provocar que todos comiencen a caer. Si nadie realiza un hechizo para ralentizar la caída, todos deberán tirar un dado de salud para determinar los puntos de vida perdidos.</span>',
-        },
+      "searchs": {},
 
-        "realizar aparición": {
-          "visible": { "attr": { "val": "min" }, "know": { "encantamientos": "10" }, "job": "invalid", "name": "invalid", }, "place": "puerta blanca",
-          "cont": '<span>Permite al personaje aparecerse en el hall que se encuentra detrás de la puerta. Solo deberá concentrarse en la puerta para aparecer al borde de la misma y poder ingresar, regresando al lugar de origen.</span>',
-        },
-
-        "puerta azul": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>Al abrir la puerta azul, el hall comienza a llenarse de agua en forma de olas, que rápidamente llenan el espacio dejando a los personajes contra el techo. Sin embargo, antes de que el agua los consuma, el techo parece convertirse en un cielo y se descubren en un río.</span>',
-        },
-
-        "derrotar al kelpie": {
-          "visible": { "attr": { "int": "11" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>La puerta se eleva habilitando a los integrantes a regresar al hall de entrada de Morgana.</span>',
-        },
-
-        "puerta roja": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>Al ingresar por la puerta roja, las paredes se congelan enseguida. Lo que antes era un hall se ha convertido en una cueva que parece estar sumergida en el medio del glaciar. El vaho comienza a salir con cada respiración de los integrantes y sus temperaturas comienzan a bajar rápidamente. Por cada vez que participen hasta resolver, pierden 20 PV. La pared de hielo tiene 180 PV.</span>',
-        },
-
-        "puerta amarilla": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>Al ingresar por la puerta amarilla, los participantes son trasladados al norte de Escocia. A un espacio poco conocido, pero donde unos gigantes se encuentran viviendo sus vidas de manera relajada. La puerta se encuentra cruzando un campo donde los Gigantes se mueven aún sin notar que alguien se ha infiltrado en su campamento. Para salir deberán utilizar la habilidad "Tacite" (contrabando).</span>',
-        },
-
-        "investigación casa de morgana": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "puertas resueltas",
-          "cont": '<span>La casa de Morgana es bastante sencilla. Posee una sala principal que da a una cocina compartida. Varias plantas solían decorar el lugar, actualmente, solo se encuentran amarillas y marchitas debido a los pocos cuidados recibidos tras el fallecimiento de su dueña. Unas escaleras conducen al piso superior donde hay un estudio y una habitación. Toda la casa parece impecable, salvo por la pequeña capa de polvo acumulado con el paso de los días desde la última limpieza realizada.</span>',
-        },
-
-        "investigación pasadizo": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "resuelve pasadizo",
-          "cont": '<span>Después de un breve pasillo muy estrecho, y unas escaleras que conducen al sótano. Las paredes y el suelo de piedra abren un espacio amplio, donde solo hay un escritorio y una silla. Allí abajo, a pesar de no haber ventanas, es el más frío de todos los ambientes.</span>',
-        },
-
-        "investigación pared": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "investigación pasadizo",
-          "cont": '<span>En una de las paredes se puede observar cadenas amuradas a la pared y reforzadas con magia. Es evidente que allí habían mantenido atado a un licántropo. Hay cajas a un costado de la pared que tiene cadenas guardadas. Hace años que ese espacio no se usa.</span>',
-        },
-
-        "investigación escritorio": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "investigación pasadizo",
-          "cont": '<span>Sobre el escritorio hay varias pociones, sin embargo, dos de ellas, son difíciles de distinguir. Se encuentran en frascos estándares, sin descripción alguna. En el centro se puede observar un cuaderno, bastante grueso y lleno de notas.</span>',
-        },
-      },
-
-      "actions": {
-        "ascendio": {
-          "leve": '<span>Permite al personaje elevarse un buen tramo, sin embargo, no es suficiente para poder llegar a la puerta. La caida le provoca una disminución de 20PV.</span>',
-          "moderado": '<span>Permite al personaje elevarse lo suficiente para poder llevar con las manos al marco que contiene la puerta. Sin embargo, solo podrá subir, si el personaje tiene +5 de fuerza, caso contrario, vuelve al suelo, perdiendo 10PV.</span>',
-          "exitoso": '<span>El personaje logra aterrizar con una caída en el suelo de la puerta, que vuelve a ser el hall.</span>',
-          "critico": '<span>El personaje logra caer de pie en el interior de la puerta, que vuelve a ser el hall.</span>',
-        },
-
-        "bulla galea": {
-          "leve": '<span>Antes de poder terminar de conjurar el hechizo, un Kelpie ataca a su conjurador. Provocando un daño de 15 PV. Se deberá enfrentar el NPC respetando la información narrativa del mismo. Avisar a la administración cuando logren derrotarlo para habilitar una nueva tarjeta.</span>',
-          "moderado": '<span>Antes de poder terminar de conjurar el hechizo, un Kelpie ataca a su conjurador. Una pequeña reacción permite amortiguar el daño, recibiendo solo 5 PV de daño. Se deberá enfrentar el NPC respetando la información narrativa del mismo. Avisar a la administración cuando logren derrotarlo para habilitar una nueva tarjeta.</span>',
-          "exitoso": '<span>Puede terminar de conjurar el hechizo, sin embargo, el Kelpie se hace presente evitando su avance. Se deberá enfrentar el NPC respetando la información narrativa del mismo. Avisar a la administración cuando logren derrotarlo para habilitar una nueva tarjeta.</span>',
-          "critico": '<span>Puede terminar de conjurar el hechizo, sin embargo, el Kelpie se hace presente evitando su avance. Se deberá enfrentar el NPC respetando la información narrativa del mismo. Avisar a la administración cuando logren derrotarlo para habilitar una nueva tarjeta.</span>',
-        },
-
-        "lacarnum inflamarae": {
-          "leve": '<span>Se reducen 10 PV de la pared de hielo.</span>',
-          "moderado": '<span>Se reducen 15 PV de la pared de hielo.</span>',
-          "exitoso": '<span>Se reducen 20 PV de la pared de hielo.</span>',
-          "critico": '<span>Se reducen 25 PV de la pared de hielo.</span>',
-        },
-
-        "pestis incendium": {
-          "leve": '<span>Se reducen 15 PV de la pared de hielo.</span>',
-          "moderado": '<span>Se reducen 20 PV de la pared de hielo.</span>',
-          "exitoso": '<span>Se reducen 25 PV de la pared de hielo.</span>',
-          "critico": '<span>Se reducen 30 PV de la pared de hielo.</span>',
-        },
-
-        "vocare kanu": {
-          "leve": '<span>Se reducen 25 PV de la pared de hielo.</span>',
-          "moderado": '<span>Se reducen 30 PV de la pared de hielo.</span>',
-          "exitoso": '<span>Se reducen 35 PV de la pared de hielo.</span>',
-          "critico": '<span>Se reducen 40 PV de la pared de hielo.</span>',
-        },
-
-        "vocare sowuli": {
-          "leve": '<span>Se reducen 25 PV de la pared de hielo.</span>',
-          "moderado": '<span>Se reducen 30 PV de la pared de hielo.</span>',
-          "exitoso": '<span>Se reducen 35 PV de la pared de hielo.</span>',
-          "critico": '<span>Se reducen 40 PV de la pared de hielo.</span>',
-        },
-
-        "calidus flammus": {
-          "leve": '<span>Se reducen 15 PV de la pared de hielo.</span>',
-          "moderado": '<span>Se reducen 20 PV de la pared de hielo.</span>',
-          "exitoso": '<span>Se reducen 25 PV de la pared de hielo.</span>',
-          "critico": '<span>Se reducen 30 PV de la pared de hielo.</span>',
-        },
-
-        "incendio": {
-          "leve": '<span>Se reducen 10 PV de la pared de hielo.</span>',
-          "moderado": '<span>Se reducen 15 PV de la pared de hielo.</span>',
-          "exitoso": '<span>Se reducen 20 PV de la pared de hielo.</span>',
-          "critico": '<span>Se reducen 25 PV de la pared de hielo.</span>',
-        },
-
-        "lumos solem": {
-          "leve": '<span>Se reducen 10 PV de la pared de hielo.</span>',
-          "moderado": '<span>Se reducen 15 PV de la pared de hielo.</span>',
-          "exitoso": '<span>Se reducen 20 PV de la pared de hielo.</span>',
-          "critico": '<span>Se reducen 25 PV de la pared de hielo.</span>',
-        },
-
-        "continentia bulla": {
-          "leve": '<span>Puerta Blanca resuelta. Válido solo si se encuentran en el hall.</span>',
-          "moderado": '<span>Puerta Blanca resuelta. Válido solo si se encuentran en el hall.</span>',
-          "exitoso": '<span>Puerta Blanca resuelta. Válido solo si se encuentran en el hall.</span>',
-          "critico": '<span>Puerta Blanca resuelta. Válido solo si se encuentran en el hall.</span>',
-        },
-
-        "ventus": {
-          "leve": '<span>Puerta Blanca resuelta. Válido solo si se encuentran en el hall.</span>',
-          "moderado": '<span>Puerta Blanca resuelta. Válido solo si se encuentran en el hall.</span>',
-          "exitoso": '<span>Puerta Blanca resuelta. Válido solo si se encuentran en el hall.</span>',
-          "critico": '<span>Puerta Blanca resuelta. Válido solo si se encuentran en el hall.</span>',
-        },
-
-        "aguamenti": {
-          "leve": '<span>Puerta Azul resuelta. Válido solo si se encuentran en el hall.</span>',
-          "moderado": '<span>Puerta Azul resuelta. Válido solo si se encuentran en el hall.</span>',
-          "exitoso": '<span>Puerta Azul resuelta. Válido solo si se encuentran en el hall.</span>',
-          "critico": '<span>Puerta Azul resuelta. Válido solo si se encuentran en el hall.</span>',
-        },
-
-        "aqua eructo": {
-          "leve": '<span>Puerta Azul resuelta. Válido solo si se encuentran en el hall.</span>',
-          "moderado": '<span>Puerta Azul resuelta. Válido solo si se encuentran en el hall.</span>',
-          "exitoso": '<span>Puerta Azul resuelta. Válido solo si se encuentran en el hall.</span>',
-          "critico": '<span>Puerta Azul resuelta. Válido solo si se encuentran en el hall.</span>',
-        },
-
-        "glacius": {
-          "leve": '<span>Puerta Roja resuelta. Válido solo si se encuentran en el hall.</span>',
-          "moderado": '<span>Puerta Roja resuelta. Válido solo si se encuentran en el hall.</span>',
-          "exitoso": '<span>Puerta Roja resuelta. Válido solo si se encuentran en el hall.</span>',
-          "critico": '<span>Puerta Roja resuelta. Válido solo si se encuentran en el hall.</span>',
-        },
-
-        "capistrum": {
-          "leve": '<span>El hechizo no es suficiente para detener al Kelpie.</span>',
-          "moderado": '<span>El hechizo logra controlar al Kelpie, quien tras un rato de forcejeo, regresa al agua para empujar la puerta hacia quienes lograron controlarlo.</span>',
-          "exitoso": '<span>El hechizo logra controlar al Kelpie, quien tras un rato de forcejeo, regresa al agua para empujar la puerta hacia quienes lograron controlarlo.</span>',
-          "critico": '<span>El hechizo logra controlar al Kelpie, quien tras un rato de forcejeo, regresa al agua para empujar la puerta hacia quienes lograron controlarlo.</span>',
-        },
-
-        "immobulus glacius": {
-          "leve": '<span>Puerta Roja resuelta. Válido solo si se encuentran en el hall.</span>',
-          "moderado": '<span>Puerta Roja resuelta. Válido solo si se encuentran en el hall.</span>',
-          "exitoso": '<span>Puerta Roja resuelta. Válido solo si se encuentran en el hall.</span>',
-          "critico": '<span>Puerta Roja resuelta. Válido solo si se encuentran en el hall.</span>',
-        },
-
-        "accio": {
-          "leve": '<span>Puerta Amarilla resuelta. Válido solo si se encuentran en el hall. Permite mover tierra del exterior adentro del hall.</span>',
-          "moderado": '<span>Puerta Amarilla resuelta. Válido solo si se encuentran en el hall. Permite mover tierra del exterior adentro del hall.</span>',
-          "exitoso": '<span>Puerta Amarilla resuelta. Válido solo si se encuentran en el hall. Permite mover tierra del exterior adentro del hall.</span>',
-          "critico": '<span>Puerta Amarilla resuelta. Válido solo si se encuentran en el hall. Permite mover tierra del exterior adentro del hall.</span>',
-        },
-
-        "duro": {
-          "leve": '<span>Puerta Amarilla resuelta. Válido solo si se encuentran en el hall. Convierte la puerta en piedra resolviendo la misma.</span>',
-          "moderado": '<span>Puerta Amarilla resuelta. Válido solo si se encuentran en el hall. Convierte la puerta en piedra resolviendo la misma.</span>',
-          "exitoso": '<span>Puerta Amarilla resuelta. Válido solo si se encuentran en el hall. Convierte la puerta en piedra resolviendo la misma.</span>',
-          "critico": '<span>Puerta Amarilla resuelta. Válido solo si se encuentran en el hall. Convierte la puerta en piedra resolviendo la misma.</span>',
-        },
-
-        "deprimo": {
-          "leve": '<span>Puerta Amarilla resuelta. Válido solo si se encuentran en el hall. Permite reducir la altura de la puerta para que toque la tierra.</span>',
-          "moderado": '<span>Puerta Amarilla resuelta. Válido solo si se encuentran en el hall. Permite reducir la altura de la puerta para que toque la tierra.</span>',
-          "exitoso": '<span>Puerta Amarilla resuelta. Válido solo si se encuentran en el hall. Permite reducir la altura de la puerta para que toque la tierra.</span>',
-          "critico": '<span>Puerta Amarilla resuelta. Válido solo si se encuentran en el hall. Permite reducir la altura de la puerta para que toque la tierra.</span>',
-        },
-
-        "tacite": {
-          "leve": '<span>Un pequeño paso en falso ha llamado la atención de uno de los gigantes que se encontraba cerca. El mismo cuenta con 50 PV, 15 de Fue y 15 de Con. Si sus puntos de vida llegan a cero, significa que han logrado distraerlo.</span>',
-          "moderado": '<span>El personaje logra avanzar sin ser descubierto.</span>',
-          "exitoso": '<span>El personaje logra avanzar sin ser descubierto.</span>',
-          "critico": '<span>El personaje logra avanzar con tanta cautela, que puede librar a un personaje aliado si ha obtenido un resultado "Leve".</span>',
-        },
-
-        "concentus incantatus": {
-          "leve": '<span></span>',
-          "moderado": '<span>Si todas las puertas fueron resueltas. Las mismas se unen permitiendo ingresar a la casa. Solicitar tarjeta al staff.</span>',
-          "exitoso": '<span>Si todas las puertas fueron resueltas. Las mismas se unen permitiendo ingresar a la casa. Solicitar tarjeta al staff.</span>',
-          "critico": '<span>Si todas las puertas fueron resueltas. Las mismas se unen permitiendo ingresar a la casa. Solicitar tarjeta al staff.</span>',
-        },
-
-        "instrumentarius arcanus": {
-          "leve": '<span></span>',
-          "moderado": '<span>Si todas las puertas fueron resueltas. Las mismas se unen permitiendo ingresar a la casa. Solicitar tarjeta al staff.</span>',
-          "exitoso": '<span>Si todas las puertas fueron resueltas. Las mismas se unen permitiendo ingresar a la casa. Solicitar tarjeta al staff.</span>',
-          "critico": '<span>Si todas las puertas fueron resueltas. Las mismas se unen permitiendo ingresar a la casa. Solicitar tarjeta al staff.</span>',
-        },
-
-        "melodia solaminis": {
-          "leve": '<span></span>',
-          "moderado": '<span>Si todas las puertas fueron resueltas. Las mismas se unen permitiendo ingresar a la casa. Las puertas se mueven abriendo paso a una nueva, el color de la madera es natural y el felpudo de entrada cita "bastaba un alohomora". La puerta se abre sin necesidad de pronunciar hechizos.</span><adding search="puertas resueltas" class="check-cards"></adding>',
-          "exitoso": '<span>Si todas las puertas fueron resueltas. Las mismas se unen permitiendo ingresar a la casa. Las puertas se mueven abriendo paso a una nueva, el color de la madera es natural y el felpudo de entrada cita "bastaba un alohomora". La puerta se abre sin necesidad de pronunciar hechizos.</span><adding search="puertas resueltas" class="check-cards"></adding>',
-          "critico": '<span>Si todas las puertas fueron resueltas. Las mismas se unen permitiendo ingresar a la casa. Las puertas se mueven abriendo paso a una nueva, el color de la madera es natural y el felpudo de entrada cita "bastaba un alohomora". La puerta se abre sin necesidad de pronunciar hechizos.</span><adding search="puertas resueltas" class="check-cards"></adding>',
-        },
-
-        "alohomora": {
-          "leve": '<span></span>',
-          "moderado": '<span>Las puertas se mueven abriendo paso a una nueva, el color de la madera es natural y el felpudo de entrada cita "bastaba un alohomora". La puerta se abre sin necesidad de pronunciar hechizos.</span><adding search="puertas resueltas" class="check-cards"></adding>',
-          "exitoso": '<span>Las puertas se mueven abriendo paso a una nueva, el color de la madera es natural y el felpudo de entrada cita "bastaba un alohomora". La puerta se abre sin necesidad de pronunciar hechizos.</span><adding search="puertas resueltas" class="check-cards"></adding>',
-          "critico": '<span>Las puertas se mueven abriendo paso a una nueva, el color de la madera es natural y el felpudo de entrada cita "bastaba un alohomora". La puerta se abre sin necesidad de pronunciar hechizos.</span><adding search="puertas resueltas" class="check-cards"></adding>',
-        },
-
-        "versus fascinans": {
-          "leve": '<span></span>',
-          "moderado": '<span>Si todas las puertas fueron resueltas. Las mismas se unen permitiendo ingresar a la casa. Solicitar tarjeta al staff.</span>',
-          "exitoso": '<span>Si todas las puertas fueron resueltas. Las mismas se unen permitiendo ingresar a la casa. Solicitar tarjeta al staff.</span>',
-          "critico": '<span>Si todas las puertas fueron resueltas. Las mismas se unen permitiendo ingresar a la casa. Solicitar tarjeta al staff.</span>',
-        },
-
-        "dissendium": {
-          "leve": '<span>En una de las columnas, hay un vidrió de un metro por dos metros. Al conjurar el hechizo, se abre dejando a la vista un pasillo largo y estrecho.<br /><adding search="resuelve pasadizo" class="check-cards"></adding></span>',
-          "moderado": '<span>En una de las columnas, hay un vidrió de un metro por dos metros. Al conjurar el hechizo, se abre dejando a la vista un pasillo largo y estrecho.<br /><adding search="resuelve pasadizo" class="check-cards"></adding></span>',
-          "exitoso": '<span>En una de las columnas, hay un vidrió de un metro por dos metros. Al conjurar el hechizo, se abre dejando a la vista un pasillo largo y estrecho.<br /><adding search="resuelve pasadizo" class="check-cards"></adding></span>',
-          "critico": '<span>En una de las columnas, hay un vidrió de un metro por dos metros. Al conjurar el hechizo, se abre dejando a la vista un pasillo largo y estrecho.<br /><adding search="resuelve pasadizo" class="check-cards"></adding></span>',
-        },
-
-        "homenum revelio": {
-          "leve": '<span>No hay otros humanos presentes en la casa.</span>',
-          "moderado": '<span>No hay otros humanos presentes en la casa.</span>',
-          "exitoso": '<span>No hay otros humanos presentes en la casa.</span>',
-          "critico": '<span>No hay otros humanos presentes en la casa.</span>',
-        },
-
-        "aparecium": {
-          "leve": '<span>En la mesa al lado del sillón donde Morgana fue encontrada, hay un mensaje que indica lo siguiente "Limpien la casa". Parece que lleva años allí.</span>',
-          "moderado": '<span>En la mesa al lado del sillón donde Morgana fue encontrada, hay un mensaje que indica lo siguiente "Limpien la casa". Parece que lleva años allí.</span>',
-          "exitoso": '<span>En la mesa al lado del sillón donde Morgana fue encontrada, hay un mensaje que indica lo siguiente "Limpien la casa". Parece que lleva años allí.</span>',
-          "critico": '<span>En la mesa al lado del sillón donde Morgana fue encontrada, hay un mensaje que indica lo siguiente "Limpien la casa". Parece que lleva años allí.</span>',
-        },
-
-        "specialis revelio": {
-          "leve": '<span>Revela el siguiente hechizo utilizado en toda la casa "Tergeo".</span>',
-          "moderado": '<span>Revela el siguiente hechizo utilizado en toda la casa "Tergeo".</span>',
-          "exitoso": '<span>Revela el siguiente hechizo utilizado en toda la casa "Tergeo".</span>',
-          "critico": '<span>Revela el siguiente hechizo utilizado en toda la casa "Tergeo".</span>',
-        },
-
-        "sensus mitigo": {
-          "leve": '<span></span>',
-          "moderado": '<span>Permite calmar al Kelpie, dejando que este los deje pasar.</span>',
-          "exitoso": '<span>Permite calmar al Kelpie, dejando que este los deje pasar.</span>',
-          "critico": '<span>Permite calmar al Kelpie, dejando que este los deje pasar.</span>',
-        },
-
-        "murmura futuri": {
-          "leve": '<span>El vidente podrá elegir a quienes pertenecen las voces siempre que sean de los compañeros del tema, «No corran hacia la orilla, la marea los arrastrará», «Para sobrevivir, alguien debe perderse» y «Aún no lo has visto todo».</span>',
-          "moderado": '<span>El vidente podrá elegir a quienes pertenecen las voces siempre que sean de los compañeros del tema, «No corran hacia la orilla, la marea los arrastrará», «Para sobrevivir, alguien debe perderse» y «Aún no lo has visto todo».</span>',
-          "exitoso": '<span>El vidente podrá elegir a quienes pertenecen las voces siempre que sean de los compañeros del tema, «No corran hacia la orilla, la marea los arrastrará», «Para sobrevivir, alguien debe perderse» y «Aún no lo has visto todo».</span>',
-          "critico": '<span>El vidente podrá elegir a quienes pertenecen las voces siempre que sean de los compañeros del tema, «No corran hacia la orilla, la marea los arrastrará», «Para sobrevivir, alguien debe perderse» y «Aún no lo has visto todo».</span>',
-        },
-
-        "scintillat": {
-          "leve": '<span>El agua comienza a adentrarse por las ventanas. Primero transparente hasta que va tomando colores más y más oscuros hasta volverse negros. El agua comienza a cubrir el suelo y luego los pies. Cuando se gira, los cuervos están sobre los cuerpos de sus compañeros picoteando sus corazones. Todos están muertos, salvo uno (puede elegir quién es) «Tienes que advertirnos».</span>',
-          "moderado": '<span>El agua comienza a adentrarse por las ventanas. Primero transparente hasta que va tomando colores más y más oscuros hasta volverse negros. El agua comienza a cubrir el suelo y luego los pies. Cuando se gira, los cuervos están sobre los cuerpos de sus compañeros picoteando sus corazones. Todos están muertos, salvo uno (puede elegir quién es) «Tienes que advertirnos».</span>',
-          "exitoso": '<span>El agua comienza a adentrarse por las ventanas. Primero transparente hasta que va tomando colores más y más oscuros hasta volverse negros. El agua comienza a cubrir el suelo y luego los pies. Cuando se gira, los cuervos están sobre los cuerpos de sus compañeros picoteando sus corazones. Todos están muertos, salvo uno (puede elegir quién es) «Tienes que advertirnos».</span>',
-          "critico": '<span>El agua comienza a adentrarse por las ventanas. Primero transparente hasta que va tomando colores más y más oscuros hasta volverse negros. El agua comienza a cubrir el suelo y luego los pies. Cuando se gira, los cuervos están sobre los cuerpos de sus compañeros picoteando sus corazones. Todos están muertos, salvo uno (puede elegir quién es) «Tienes que advertirnos».</span>',
-        },
-
-        "veniens empathy": {
-          "leve": '<span>El vidente podrá sentir cierta tensión al rededor de la mesa, como si alguien hubiera tenido una discusión en ese lugar. El aire esta agitado, inquieto, se siente la desesperación y también, como un suspiro, como las partes se rinden.</span>',
-          "moderado": '<span>El vidente podrá sentir cierta tensión al rededor de la mesa, como si alguien hubiera tenido una discusión en ese lugar. El aire esta agitado, inquieto, se siente la desesperación y también, como un suspiro, como las partes se rinden.</span>',
-          "exitoso": '<span>El vidente podrá sentir cierta tensión al rededor de la mesa, como si alguien hubiera tenido una discusión en ese lugar. El aire esta agitado, inquieto, se siente la desesperación y también, como un suspiro, como las partes se rinden.</span>',
-          "critico": '<span>El vidente podrá sentir cierta tensión al rededor de la mesa, como si alguien hubiera tenido una discusión en ese lugar. El aire esta agitado, inquieto, se siente la desesperación y también, como un suspiro, como las partes se rinden.</span>',
-        },
-      },
+      "actions": {},
 
       "creatures": {
         "gigante": {
@@ -1115,48 +189,7 @@ const MissionsModule = (function () {
       "cards": [],
       "actions": {},
 
-      "searchs": {
-        "leer 'mil hierbas mágicas y hongos'": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span><span class="book-clipping">La seta Sombraluna, nombre común para la Mycena lunaris obscura, es una seta pequeña de sombrero translúcido que brilla tenuemente bajo la luz de la luna. Al tacto, deja un polvillo dorado que puede provocar somnolencia o breves episodios de ensoñación lúcida. El sombrero, que gira levemente sobre su tallo cuando está maduro, se inclina hacia las fuentes de magia activa.<br><br>Florece en bosques antiguos y húmedos, especialmente en zonas con historia de duelo mágico o muerte reciente. Al ser ingerida en microdosis, se emplea en pociones para inducir sueños proféticos o comunicar con el plano astral.</span></span>',
-        },
-        "leer 'gran herbario de plantas y árboles'": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span><span class="book-clipping">La Salvia Ignicor, comúnmente conocida como Corazón de Fuego, es una planta ígnea de hoja en forma de corazón, con un color ámbar brillante que parece arder al contacto con la luz. Su savia es una resina espesa de efectos estimulantes, inflamables y, en altas concentraciones, alucinógenos. Al partir su tallo, se revela un interior rojo vivo que recuerda a brasas recién encendidas.<br><br>Utilizada en la elaboración del whiskey de fuego, también es estudiada por sus propiedades vigorizantes en pociones energéticas. Su cultivo está altamente regulado debido a su potencial inestable. Crece en tierras volcánicas y debe manipularse con precaución, usando todas las protecciones mágicas posibles.</span></span>',
-        },
-        "leer 'fábulas de plantas prohíbidas'": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span><span class="book-clipping">La Ferociflora Tenebris, comúnmente conocida como la Garra de Viuda, es una hierba rastrera de hojas filosas y anaranjadas como el topacio, con espinas retráctiles cargadas de toxinas paralizantes. Su floración es rara: produce una única flor violeta al año, la cual atrae insectos mágicos con su aroma dulzón y venenoso.<br><br>Antes era muy usada en pociones de defensa y paralización, su extracto de raíz puede neutralizar encantamientos de movimiento. Crece en lugares sombríos, preferentemente cerca de cementerios o ruinas embrujadas. Los herbólogos expertos la “alimentan” con restos de criaturas mágicas para mantenerla activa. Fue prohibida en el siglo XII, pocos libro aún guardan su fotografía. Aunque recientemente, la han tratado de generar mediante magia, sus efectos no fueron positivos.</span></span>',
-        },
-        "leer 'herbología y fuegos antiguos'": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "leer 'gran herbario de plantas y árboles'",
-          "cont": '<span><span class="book-clipping">La planta Corazón de Fuego crece de forma natural en zonas montañosas con actividad volcánica, donde la tierra conserva propiedades térmicas y mágicas latentes. Se encuentra principalmente en los valles escondidos de la zona de los Alpes, algunos afirman haberla visto en las laderas del Etna o en ciertas zonas inexploradas de Escocia.<br><br>Sus plantaciones requieren una gran cantidad de tierra y agua volcánica natural. Debe sembrarse en el solsticio de verano y cuando la tierra alcanza su mayor carga de calor solar. Germina lentamente, pero florece en otoño, cuando el equilibrio entre el fuego y la tierra es el más propicio. Una vez pasado ese tiempo, la tierra queda inutilizada. Debe cosecharse con guantes protectores de calor, debido a que su floración genera quemaduras en la piel expuesta.</span></span>',
-        },
-        "leer 'brebajes destilados y pociones ardientes'": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "leer 'gran herbario de plantas y árboles'",
-          "cont": '<span><span class="book-clipping">El líquido resinoso que emana la Salvia Ignicor, tiene propiedades altamente inflamables y reactivas al calor durante sus primeras dos semanas. Pasado ese tiempo, es inofensiva, debido a que su resina pierde todas las propiedades mágicas. No obstante, utilizar la resina cuando aún conserva sus propiedades permite que sea utilizada como ingrediente base en la destilación del Whiskey de Fuego, aportando su icónico ardor interno.<br><br>También se la ha utilizado como componente en pociones que buscan estimular la vitalidad o despertar la magia adormecida en magos mayores.<br><br>Nota importante: Su uso en exceso puede causar fiebre, alucinaciones o quemaduras internas.</span></span>',
-        },
-        "leer 'tratado sobre plantas de naturaleza ígnea'": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "leer 'gran herbario de plantas y árboles'",
-          "cont": '<span><span class="book-clipping">Los cuidados que requiere la Corazón de Fuego son, sin duda, uno de los más delicados en lo que se trata a cuidado de plantas. Requiere suelo volcánico rico en minerales y riego con aguas termales naturales, idealmente, que no haya poseído más de cinco días de reposo. <br><br>Debe mantenerse alejada de corrientes de aire frío o ambientes húmedos, que apagan su fulgor y detienen su crecimiento. La Corazón de Fuego es una planta muy propensa a congelarse ante temperaturas ligeramente bajas, y una vez que se hiela no es posible recuperar su floración. <br><br>Agradece la presencia de cristales de cuarzo rojo cerca de sus raíces, que canalizan la energía mágica.<br><br>Las hojas solo pueden tocarse con guantes y protecciones de calor necesarias, debido a que la savia puede provocar ardor o llamaradas menores si entra en contacto con la piel humana.<br><br>En su época de floración, debe tratarse con máscaras de protección, debido a que su aroma puede producir fuertes alucinaciones.</span></span>',
-        },
-        "leer noticia 'jóvenes magos reportan visiones tras experimentos con la corazón de fuego'": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "leer 'gran herbario de plantas y árboles'",
-          "cont": '<span><section class="bring-news" title="jóvenes magos reportan visiones tras experimentos con la corazón de fuego"></section></span>',
-        },
-        "leer noticia 'catorce empleados mueren en destilería tras brote alucinógeno'": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "leer 'gran herbario de plantas y árboles'",
-          "cont": '<span><section class="bring-news" title="catorce empleados mueren en destilería tras brote alucinógeno"></section></span>',
-        },
-        "leer noticia 'europa y asia imponen veto a la corazón de fuego'": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "leer 'gran herbario de plantas y árboles'",
-          "cont": '<span><section class="bring-news" title="europa y asia imponen veto a la corazón de fuego"></section></span>',
-        },
-        "leer noticia 'joven asegura ver thestrals devorando muggles y rompe el estatuto secreto de la magia'": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "leer 'gran herbario de plantas y árboles'",
-          "cont": '<span><section class="bring-news" title="joven asegura ver thestrals devorando muggles y rompe el estatuto secreto de la magia"></section></span>',
-        },
-      },
+      "searchs": {},
     },
     // fin botanical market
 
@@ -1169,223 +202,8 @@ const MissionsModule = (function () {
       "type": "misión", "closed": true, "fecha": "1953-01-17", "link": "https://blackwave.foroactivo.com/t931-mision-moth-to-a-flame", "tagged": ["morgana", "capitulo 0"],
 
       "cards": [],
-      "searchs": {
-        "muelle de recepción": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>Se trata de una plataforma elevada de madera podrida y piedra que da a la vía de un tren. Sobre la misma, se pueden observar unas letras metálicas corroidas y rotas que indican: "Dempsey Manufacturing". El techo de chapa galvanizada esta parcialmentet desprendido y golpea rítimicamente contra las vigas cuando sopla el viento.</span>',
-        },
-        "silo de granos": {
-          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "muelle de recepción",
-          "cont": '<span>A un costado puede notarse un galpón, por las marcas en el suelo, era el depósito de granos. Es un espacio vertical de techos altísimos, con paredes revestidas de madera para evitar la humedad. Al haber retirado los elevadores de cangilones, quedan huecos rectangulares en el suelo y en el techo que, en algún momento, solían conectarlos. El espacio de chapa no tiene demasiadas características, allí guardaban los productos crudos, no necesitaban que cumpliera ninguna regulación.</span>',
-        },
-        "sala de molienda": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "muelle de recepción",
-          "cont": '<span>En la sala domina un silencio sepulcral. El espacio parece demasiado vacío, hay restos de correas de cuero resecas y un panel de control de madera con interruptores de porcelana rotos. Los conductos de ventilación esán abiertos, dejando ver el cielo.</span>',
-        },
-        "pernos en el suelo": {
-          "visible": { "attr": { "sab": "3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "sala de molienda",
-          "cont": '<span>En el suelo pueden observar los huecos de pernos de anclaje que fueron cortados al ras. Indicando que donde ahora solo hay una habitación vacía, allí solían haber máquinas que trituraban el grano.</span>',
-        },
-        "tubos de granos": {
-          "visible": { "attr": { "sab": "3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "sala de molienda",
-          "cont": '<span>Los huecos en el techo no son más que tubos por los que procesaban el grano, transportando el mismo de una sala a la otra.</span>',
-        },
-        "el hueco detrás de la pared": {
-          "visible": { "attr": { "int": "3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "tubos de granos",
-          "cont": '<span>Detrás del lugar donde estaban los tubos, puedo observarse un espacio que demostró los destrozos del incendio, pues permiten pasar a la habitación continua, si se tiene cuidado con el pasaje. La habitación de al lado parece haber sido completamente destruida por el fuego, pero puede notarse un espacio vasto con suelos de baldosas rojas, ahora agrietados y cubiertos por una capa de polvo que oculta su hermoso color.</span>',
-        },
-        "la sala de maceración": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "el hueco detrás de la pared",
-          "cont": '<span>Lo más impresionante son los enormes huecos circulares en el suelo donde antes encajaban las tinas de maceración de madera o hierro. Al mirar hacia abajo, se ve el sótano y las tuberías de drenaje cortadas que parecen arterias expuestas. Las paredes conservan una marca de humedad a media altura, recuerdo del vapor constante que alguna vez llenó la habitación. Es un lugar húmedo y sombrío donde el eco de los pasos se amplifica.</span>',
-        },
-        "escalera al sótano": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "la sala de maceración",
-          "cont": '<span>Una escalera de madera que conduce al sótano, o eso solía hacerlo. La madera completamente destruida por el fuego, solo ha dejado un vago recuerdo de lo que había sido y un vacío que indica que es mala idea intentar bajar por allí.</span>',
-        },
-        "puerta caída": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "la sala de maceración",
-          "cont": '<span>Una puerta de madera caída, que probablemente fue arrancada por el fuego. La madera está completamente carbonizada, y el marco de hierro está oxidado. No hay forma de saber si la puerta era una entrada o una salida, pero si se pasa por las vigas caídas, se puede llegar al siguiente espacio.</span>',
-        },
-        "cuarto de levaduras": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "puerta caída",
-          "cont": '<span>Un pequeño cuarto de levaduras. Las paredes están cubiertas de una capa de polvo y humedad. Se puede notar un olor a levadura que aún perdura con el tiempo y a madera vieja quemada. Gran parte del lugar esta revestido con azulejos blancos que pasaron a ser amarillos y negros, y se han cubierto con una capa de moho. Parece ser la parte más fría de toda la estructura, pues el frío sopla con fuerza por los huecos de las paredes.</span>',
-        },
-        "mas allá de la sala": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "cuarto de levaduras",
-          "cont": '<span>Del cuarto de levaduras, sale una puerta que conduce a la nada. Salas y salas comidas en su totalidad por el fuego. El suelo está cubierto de cenizas y los muros están completamente carbonizados. No hay forma de saber qué hay más allá, solo una oscuridad absoluta.</span>',
-        },
-        "dibujos en los cerámicos": {
-          "visible": { "attr": { "sab": "3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "cuarto de levaduras",
-          "cont": '<span>En las paredes del cuarto de lavaduras, hay unos ceramicos que apenas se distinguen bajo la capa de polvo. Los dibujos son simples, pero parecen representar figuras humanas con rostros sombríos y manos extendidas hacia el vacío. Al observarlos con atención, se nota una mano que señala hacia la oscuridad del otro lado de la sala. Hay algo en su mirada que parece desentonar.</span>',
-        },
-        "seguir la seña": {
-          "visible": { "attr": { "sab": "3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "dibujos en los cerámicos",
-          "cont": '<span>Si se sigue la seña, podrá notarse que señala hacia un cuadro de una mujer que parece amazar. Los razgos de la mujer se perdieron por el paso del tiempo y el fuego, pero arriba de una salamandra apagada, parece empujar hacia abajo.</span>',
-        },
-        "hacer presión hacia abajo": {
-          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "seguir la seña",
-          "cont": '<span>Si se hace presión sobre la salamandra, se siente un leve temblor en el suelo. La salamandra comienza a moverse, y una grieta aparece en la pared detrás de ella. Se puede ver una entrada oculta. Sin embargo, la salamandra, solo llega a revelar el camino antes de terminar de romperse ante el paso del tiempo.</span>',
-        },
-        "ingresar por el pasadizo": {
-          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "hacer presión hacia abajo",
-          "cont": '<span>Después de ingresar por el pasadizo, pueden verse una escalera que parece haber sobrevivido al fuego. Toda la sala a la que conduce parece haber logrado escaparse de las llamas que habían lanzado en el interior. Las mesas y mesas que se encuentran abajo, demuestan que ese había sido un espacio para el Corazón de Fuego, aunque allí no había nada.</span>',
-        },
-        "marcas en el suelo del sótano": {
-          "visible": { "attr": { "sab": "4" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ingresar por el pasadizo",
-          "cont": '<span>En el suelo se pueden observar unas marcas. Los pisos que intercalan blanco y negro en cuadrados perfectos, marcan los blancos con una hoja verde. Algo sobre el borde de los mismos parece fuera de lugar, como si estuviera esperando a que alguien lo pise para caer en la trampa.</span>',
-        },
-        "pisar sobre blanco": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "marcas en el suelo del sótano",
-          "cont": '<span>Al pisar las baldosas blancas, se siente un leve silbido antes de que de las paredes comience a salir un humo que empieza a llenar la sala. El clic de la puerta al cerrarse puede escucharse detrás de ellos, indicando que están atrapados.<br>Por cada personaje que intervenga, los personajes deberán descontar 1 punto de sus acciones. En caso de que la penalidad llegue a diez, todos los personajes quedarán inconscientes. Al terminar, deberán avisar al staff para que realice su correspondiente intervención. Una vez seleccionada esta opción, no puede elegirse la otra.</span>',
-        },
-        "pisar sobre negro": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "marcas en el suelo del sótano",
-          "cont": '<span>Al pisar las baldosas negras, un leve temblor se siente en el suelo y de las baldosas comienza a subir agua. El click de la puerta al cerrarse puede escucharse detrás de ellos, indicando que están atrapados.<br>Por cada personaje que intervenga el agua sube 25 centímetros. Dado que el espacio tiene 2 metros y medio de altura, los personajes tendrán 10 intervenciones para poder liberarse de los efectos. Al terminar, deberán avisar al staff para que realice su correspondiente intervención. Una vez seleccionada esta opción, no puede elegirse la otra.</span>',
-        },
-        "observar las mesadas": {
-          "visible": { "attr": { "val": "min" }, "know": { "herbología": "10" }, "job": "invalid", "name": "invalid", }, "place": "intervención",
-          "cont": '<span>Esta sección, que se encontraba a la altura de la cintura, era donde la Salvia Ignicor solía crecer. Ahora que las plantas han sido retiradas, la mesada presenta un aspecto desolado y marcado por la intensidad de la vida que una vez albergó. Puede concluirse que la planta fue removida del lugar, debido a que no hay rastro de hojas secas o raíces muertas.</span>',
-        },
-        "observar debajo de las mesadas": {
-          "visible": { "attr": { "val": "min" }, "know": { "herbología": "5" }, "job": "invalid", "name": "invalid", }, "place": "observar las mesadas",
-          "cont": '<span>En el fondo de la mesada, que tiene una profundidad de unos 20 cm, queda una capa residual de tierra negra, densa y arcillosa. Esta tierra está salpicada de fragmentos de roca volcánica porosa (puzolana) y restos carbonizados de raíces finas.</span>',
-        },
-        "marcas en la mesada": {
-          "visible": { "attr": { "val": "min" }, "know": { "herbología": "10" }, "job": "invalid", "name": "invalid", }, "place": "observar las mesadas",
-          "cont": '<span>La superficie interior de la mesada está revestida de placas de cerámica. Estas placas muestran marcas de quemaduras localizadas y un tono rojizo permanente, testimonio del calor que generaba la floración de la Salvia. El borde superior de la mesada, donde los cosechadores apoyaban sus brazos protegidos con guantes térmicos, está desgastado y ligeramente ennegrecido.</span>',
-        },
-        "canales de riego": {
-          "visible": { "attr": { "val": "min" }, "know": { "herbología": "5" }, "job": "invalid", "name": "invalid", }, "place": "observar las mesadas",
-          "cont": '<span>A lo largo del perímetro interior de la mesada corre un sistema de tuberías de cobre expuestas con pequeños aspersores, ahora inactivos. Estos aspersores estaban diseñados para suministrar la "gran cantidad de agua volcánica natural" directamente a la base de las plantas.</span>',
-        },
-        "un rastro de testigo": {
-          "visible": { "attr": { "val": "min" }, "know": { "herbología": "10" }, "job": "invalid", "name": "invalid", }, "place": "observar las mesadas",
-          "cont": '<span>Cerca de uno de los extremos, donde quizás una planta fue cortada apresuradamente, hay una mancha seca y de un rojo intenso, casi carmesí. Es la savia endurecida de un tallo partido, que aún parece tener un brillo tenue, como una brasa apagada, incluso a pesar de los años que pasaron. Puede concluirse que, allí se cultivaba el Corazón de Fuego. Sin embargo, alguien se lo llevó.</span>',
-        },
-        "reliquia": {
-          "visible": { "attr": { "sab": "4" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "intervención",
-          "cont": '<span>Bajo el polvo asfixiante y el rastro del agua que pretendía borrarlo todo, un resto sobrevive. En el borde de la mesada, una esquina de papel amarillento asoma como un descuido deliberado. Parece haber eludido el caos, aguardando en silencio a que alguien reclame el secreto que aún late en su fibra. Aquella reliquia olvidada es lo único que el fuego y el olvido no pudieron reclamar.<br>Al tomar la misma se puede observar que se trata de una tarjeta.</span>',
-        },
-        "la tarjeta de maroon steed": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "reliquia",
-          "cont": '<span>La tarjeta es de un cartón grueso, con los bordes desgastados y un profundo color carmesí que parece brillar bajo la luz mortecina, tal como la savia de la Salvia Ignicor. En el frente, un relieve dorado muestra la silueta de un corcel encabritado rodeado de nudos celtas que parecen moverse si se los mira de reojo. Debajo, con una caligrafía elegante pero firme, se lee: "The Maroon Steed: Para las penas que el alma no puede cargar sola". No hay una dirección fija impresa; en su lugar, un pequeño grabado de un trébol de cuatro hojas cambia de color según el clima, indicando que el bar aparece siempre «donde el camino se cruza con el deseo».</span>',
-        },
-        "dorso de la tarjeta": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "la tarjeta de maroon steed",
-          "cont": '<span>Al dorso, los datos de contacto parecen escritos con una tinta que huele sutilmente a turba quemada y whisky añejo. En lugar de su ubicación, reza una instrucción casi ritual: «Vierte tu bebida favorita para ahogar las penas». Se mencionan especialidades como el "Fuego de Otoño" y la "Gota del Olvido", prometiendo que el primer trago corre por cuenta de la casa para quien tenga el corazón lo suficientemente roto.</span>',
-        },
-        "realizar el ritual": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "dorso de la tarjeta",
-          "cont": '<span>Los personajes pueden optar por realizar el ritual al salir del lugar o indicar narrativamente cómo obtuvieron la bebida. Al verter una gota sobre la tarjeta, puede notarse que la tarjeta cambia. Muestra cinco runas, una por Inglaterra, otra por Escocia, otra por Gales, otra por Irlanda y otra por Irlanda del Norte. Una nota cita: "Cambia de ubicación cada noche". Sin embargo, hay una marca adicional. Una pequeña cruz roja al norte de Irlanda que lo único que puede significar es una cosa, la sede del lugar y dónde trasladaron todo el material.</span>',
-        },
-      },
-      "actions": {
-
-        "murmura futuri": {
-          "leve": 'No es suficiente para revelar información adicional.',
-          "moderado": 'Puede escuchar el sonido del agua llenando el lugar. Las olas que chocan contra las paredes y el grito de un personaje del tema (a elección del vidente), que grita su nombre socorriendo un auxilio con la voz ahogada.',
-          "exitoso": 'Puede escuchar el sonido del agua llenando el lugar. Las olas que chocan contra las paredes y el grito de un personaje del tema (a elección del vidente), que grita su nombre socorriendo un auxilio con la voz ahogada.',
-          "critico": 'Puede escuchar el sonido del agua llenando el lugar. Las olas que chocan contra las paredes y el grito de un personaje del tema (a elección del vidente), que grita su nombre socorriendo un auxilio con la voz ahogada.',
-        },
-
-        "veniens empathy": {
-          "leve": 'No es suficiente para revelar información adicional.',
-          "moderado": 'El vidente puede percibir un hormigueo en las yemas de los dedos, la ansiedad que comienza a crecer.',
-          "exitoso": 'El vidente puede percibir un hormigueo en las yemas de los dedos, la ansiedad que comienza a crecer.',
-          "critico": 'El vidente puede percibir un hormigueo en las yemas de los dedos, la ansiedad que comienza a crecer.',
-        },
-
-        "revelio": {
-          "leve": 'No es suficiente para revelar información adicional.',
-          "moderado": 'Pueden notarse los restos de fosforos que han caído al suelo. La causa de que aquel lugar haya sido reducido a cimientos.',
-          "exitoso": 'Pueden notarse los restos de fosforos que han caído al suelo. La causa de que aquel lugar haya sido reducido a cimientos.',
-          "critico": 'Pueden notarse los restos de fosforos que han caído al suelo. La causa de que aquel lugar haya sido reducido a cimientos.',
-        },
-
-        "bulla galea": {
-          "leve": 'No es suficiente para revelar información adicional.',
-          "moderado": 'Previene a los personajes sentirse débiles o les permite respirar bajo el agua, pero los efectos de la penalidad se mantienen.',
-          "exitoso": 'Previene a los personajes sentirse débiles o les permite respirar bajo el agua, pero los efectos de la penalidad se mantienen.',
-          "critico": 'Previene a los personajes sentirse débiles o les permite respirar bajo el agua, pero los efectos de la penalidad se mantienen.',
-        },
-
-        "impervius": {
-          "leve": 'No es suficiente para revelar información adicional.',
-          "moderado": 'Previene a los personajes sentirse débiles o mojados, pero los efectos de la penalidad se mantienen.',
-          "exitoso": 'Previene a los personajes sentirse débiles o mojados, pero los efectos de la penalidad se mantienen.',
-          "critico": 'Previene a los personajes sentirse débiles o mojados, pero los efectos de la penalidad se mantienen.',
-        },
-
-        "umor infundo": {
-          "leve": 'No es suficiente para revelar información adicional.',
-          "moderado": 'Si se pisó la baldosa blanca: Retrae el humo disminuyendo 1 punto la penalidad. En caso de haber pisado la baldosa negra: Sube el agua el agua 10 centímetros.',
-          "exitoso": 'Si se pisó la baldosa blanca: Retrae el humo disminuyendo 1 punto la penalidad. En caso de haber pisado la baldosa negra: Sube el agua el agua 15 centímetros.',
-          "critico": 'Si se pisó la baldosa blanca: Retrae el humo disminuyendo 3 puntos la penalidad. En caso de haber pisado la baldosa negra: Sube el agua el agua 25 centímetros.',
-        },
-
-        "arresto momentum": {
-          "leve": 'No es suficiente para revelar información adicional.',
-          "moderado": 'Si se pisó la baldosa blanca: Retrae el humo disminuyendo 1 punto la penalidad. En caso de haber pisado la baldosa negra: Reduce 1 turno antes de que el agua llegue arriba.',
-          "exitoso": 'Si se pisó la baldosa blanca: Retrae el humo disminuyendo 1 punto la penalidad. En caso de haber pisado la baldosa negra: Reduce 2 turnos antes de que el agua llegue arriba.',
-          "critico": 'Si se pisó la baldosa blanca: Retrae el humo disminuyendo 3 puntos la penalidad. En caso de haber pisado la baldosa negra: Reduce 3 turnos antes de que el agua llegue arriba.',
-        },
-
-        "aguamenti": {
-          "leve": 'No es suficiente para revelar información adicional.',
-          "moderado": 'Contrahechizo para el humo (baldosas blancas): otorga 10 puntos para finalizar los efectos. Para librarse del todo deberán llegar a los 100 puntos.',
-          "exitoso": 'Contrahechizo para el humo (baldosas blancas): otorga 15 puntos para finalizar los efectos. Para librarse del todo deberán llegar a los 100 puntos.',
-          "critico": 'Contrahechizo para el humo (baldosas blancas): otorga 20 puntos para finalizar los efectos. Para librarse del todo deberán llegar a los 100 puntos.',
-        },
-
-        "aqua eructo": {
-          "leve": 'No es suficiente para revelar información adicional.',
-          "moderado": 'Contrahechizo para el humo (baldosas blancas): otorga 10 puntos para finalizar los efectos. Para librarse del todo deberán llegar a los 100 puntos.',
-          "exitoso": 'Contrahechizo para el humo (baldosas blancas): otorga 15 puntos para finalizar los efectos. Para librarse del todo deberán llegar a los 100 puntos.',
-          "critico": 'Contrahechizo para el humo (baldosas blancas): otorga 20 puntos para finalizar los efectos. Para librarse del todo deberán llegar a los 100 puntos.',
-        },
-
-        "umor excido": {
-          "leve": 'No es suficiente para revelar información adicional.',
-          "moderado": 'Contrahechizo para el agua (baldosas negras): otorga 5 puntos para finalizar los efectos. Para librarse del todo deberán llegar a los 100 puntos.',
-          "exitoso": 'Contrahechizo para el agua (baldosas negras): otorga 10 puntos para finalizar los efectos. Para librarse del todo deberán llegar a los 100 puntos.',
-          "critico": 'Contrahechizo para el agua (baldosas negras): otorga 15 puntos para finalizar los efectos. Para librarse del todo deberán llegar a los 100 puntos.',
-        },
-
-        "defodio": {
-          "leve": 'No es suficiente para revelar información adicional.',
-          "moderado": 'Contrahechizo para el agua (baldosas negras): otorga 5 puntos para finalizar los efectos. Para librarse del todo deberán llegar a los 100 puntos.',
-          "exitoso": 'Contrahechizo para el agua (baldosas negras): otorga 10 puntos para finalizar los efectos. Para librarse del todo deberán llegar a los 100 puntos.',
-          "critico": 'Contrahechizo para el agua (baldosas negras): otorga 15 puntos para finalizar los efectos. Para librarse del todo deberán llegar a los 100 puntos.',
-        },
-
-        "glacius": {
-          "leve": 'No es suficiente para revelar información adicional.',
-          "moderado": 'Contrahechizo para el agua (baldosas negras): otorga 5 puntos para finalizar los efectos. Para librarse del todo deberán llegar a los 100 puntos.',
-          "exitoso": 'Contrahechizo para el agua (baldosas negras): otorga 10 puntos para finalizar los efectos. Para librarse del todo deberán llegar a los 100 puntos.',
-          "critico": 'Contrahechizo para el agua (baldosas negras): otorga 15 puntos para finalizar los efectos. Para librarse del todo deberán llegar a los 100 puntos.',
-        },
-
-        "succendam bullae": {
-          "leve": 'No es suficiente para revelar información adicional.',
-          "moderado": 'Contrahechizo para el agua (baldosas negras): otorga 15 puntos para finalizar los efectos. Para librarse del todo deberán llegar a los 100 puntos.',
-          "exitoso": 'Contrahechizo para el agua (baldosas negras): otorga 20 puntos para finalizar los efectos. Para librarse del todo deberán llegar a los 100 puntos.',
-          "critico": 'Contrahechizo para el agua (baldosas negras): otorga 30 puntos para finalizar los efectos. Para librarse del todo deberán llegar a los 100 puntos.',
-        },
-
-        "iteratio perfectum": {
-          "leve": 'No es suficiente para revelar información adicional.',
-          "moderado": 'Adiciona 10 puntos a todas las lanzadas para liberarse de la trampa.',
-          "exitoso": 'Adiciona 15 puntos a todas las lanzadas para liberarse de la trampa.',
-          "critico": 'Adiciona 20 puntos a todas las lanzadas para liberarse de la trampa.',
-        },
-
-        "herbivicus": {
-          "leve": 'No es suficiente para revelar información adicional.',
-          "moderado": 'Libera cualquier penalidad de las baldosas haciendo crecer césped en los bordes de las baldosas para prevenir su accionar. En caso de que ya se haya activado una trampa, detendrá su accionar. Sin embargo, aún deberán librarse de la misma, teniendo que llegar a 10 por cantidad de intervenciones antes de dar con el hechizo, cuando ejecuten los contrahechizos correctos (es decir, si realizaron el hechizo en la tercera intervención, deberán llegar a 30 en vez de a 100).',
-          "exitoso": 'Libera cualquier penalidad de las baldosas haciendo crecer césped en los bordes de las baldosas para prevenir su accionar. En caso de que ya se haya activado una trampa, detendrá su accionar. Sin embargo, aún deberán librarse de la misma, teniendo que llegar a 10 por cantidad de intervenciones antes de dar con el hechizo, cuando ejecuten los contrahechizos correctos (es decir, si realizaron el hechizo en la tercera intervención, deberán llegar a 30 en vez de a 100).',
-          "critico": 'Libera cualquier penalidad de las baldosas haciendo crecer césped en los bordes de las baldosas para prevenir su accionar. En caso de que ya se haya activado una trampa, detendrá su accionar. Sin embargo, aún deberán librarse de la misma, teniendo que llegar a 10 por cantidad de intervenciones antes de dar con el hechizo, cuando ejecuten los contrahechizos correctos (es decir, si realizaron el hechizo en la tercera intervención, deberán llegar a 30 en vez de a 100).',
-        },
-      },
+      "searchs": {},
+      "actions": {},
     },
     // fin moth to a flame
 
@@ -1399,87 +217,9 @@ const MissionsModule = (function () {
 
       "cards": [],
 
-      "searchs": {
-        "seguir las huellas de la ventana": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>Las huellas que salen de la casa marcan la dirección de los nifflers hacia el sur.</span>',
-        },
-        "la moneda de cobre": {
-          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "seguir las huellas de la ventana",
-          "cont": '<span>Un Niffler dejó caer un Knut al salir apresuradamente de la casa. El rastro lleva hacia un arbusto con frutos secos en el jardín.</span>',
-        },
-        "la tierra removida": {
-          "visible": { "attr": { "val": "min" }, "know": { "herbología": "5" }, "job": "invalid", "name": "invalid", }, "place": "la moneda de cobre",
-          "cont": '<span>En el arbusto se observa una zona de tierra recién removida y una gran cantidad de nueces abandonadas, algunas ya abiertas. Alguien (o algo) estaba buscando otra cosa. Una raíz parece haber sido removida y llevada al interior de un bosquecillo.</span>',
-        },
-        "el falso tesoro": {
-          "visible": { "attr": { "val": "min" }, "know": { "ccm": "5" }, "job": "invalid", "name": "invalid", }, "place": "la tierra removida",
-          "cont": '<span>Cerca de la base del árbol más viejo, el suelo está cubierto de trozos de papel de aluminio usados de forma reciente, brillando débilmente. El rastro de unos Nifflers se pierde en la gruesa capa de musgo.</span>',
-        },
-        "la fuente de agua": {
-          "visible": { "attr": { "val": "min" }, "know": { "ccm": "5" }, "job": "invalid", "name": "invalid", }, "place": "el falso tesoro",
-          "cont": '<span>El sonido de un pequeño arroyo, capta la atención. Unos Nifflers se detiene en el borde, donde se han limpiado. Se encuentra una Galeón falso de plata sucio y mojado junto a una piedra.</span>',
-        },
-        "el camino de la luz": {
-          "visible": { "attr": { "val": "min" }, "know": { "ccm": "5" }, "job": "invalid", "name": "invalid", }, "place": "la fuente de agua",
-          "cont": '<span>Se sabe que los Nifflers se sienten atraídos por las cosas brillantes, por lo tanto, cuando el bosquecillo se cierra en sombras, saben que lo que tienen que hacer es girar hacia la luz.</span>',
-        },
-        "el manto de hojas": {
-          "visible": { "attr": { "val": "min" }, "know": { "herbología": "5" }, "job": "invalid", "name": "invalid", }, "place": "el camino de la luz",
-          "cont": '<span>Un rastro de huellas húmedas termina donde el suelo se cubre de una gruesa capa de hojas secas. Alguien tuvo que haber escarbado muy rápido antes de que las hojas cayeran sobre el hueco.</span>',
-        },
-        "el tronco marcado": {
-          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "el manto de hojas",
-          "cont": '<span>Un tronco caído tiene agujeros de insectos y escarabajos. Alrededor de uno de los agujeros, el rastro esparcido incluye virutas finas de oro mezcladas con la madera.</span>',
-        },
-        "el laberinto de zarzas": {
-          "visible": { "attr": { "val": "min" }, "know": { "herbología": "2" }, "job": "invalid", "name": "invalid", }, "place": "el tronco marcado",
-          "cont": '<span>La maleza está muy cerrada. Para avanzar se necesita cortar un camino, pero las huellas no lo hicieron. Hay un patrón de movimientos zigzagueantes y una pequeña campana de latón (desechada por falta de valor) atrapada en una zarza.</span>',
-        },
-        "el cúmulo de barro": {
-          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "el laberinto de zarzas",
-          "cont": '<span>El túnel de la zarza desemboca en una pequeña zona pantanosa, pero el rastro de huellas conduce a una pequeña elevación de tierra seca en el centro. La elevación está rodeada de barro y hay un montículo de tierra fresca sobre ella.</span>',
-        },
-        "el lamento subterráneo": {
-          "visible": { "attr": { "val": "min" }, "know": { "ccm": "0" }, "job": "invalid", "name": "invalid", }, "place": "el cúmulo de barro",
-          "cont": '<span>Justo cuando parece que no hay más huellas que seguir, se escucha un chillido agudo y lastimero proveniente de lo profundo de un montículo de tierra. No es el tintineo de monedas, sino la criatura quejándose de dolor.</span>',
-        },
-        "el niffler herido": {
-          "visible": { "attr": { "val": "min" }, "know": { "ccm": "0" }, "job": "invalid", "name": "invalid", }, "place": "el cúmulo de barro",
-          "cont": '<span>Cuando encuentran la madriguera seguidos por el lamento, pueden encontrar a un Niffler de pelaje marrón herido. Su pelaje está manchado de barro y sangre, y se tiembla en su lugar. Para continuar deberán curarlo.</span>',
-        },
-        "el regalo": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "el niffler",
-          "cont": '<span>Cuando logran calmar al niffler, el mismo comienza a corretear entre las piernas de sus curanderlos. No tarda en volver a la madriguera y buscar lo que tiene de plata para poder entregarlo a sus nuevos amigos. Aunque algo parece captar su atención. Se para en dos patas y comienza a olisquear, persiguiendo un rastro que los humanos no pueden seguir.</span>',
-        },
-        "seguir al niffler": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "el regalo",
-          "cont": '<span>El Niffler, al sentirse seguro, comienza a arrastrarse bajo ramas y hojas, siguiendo un rastro perdido. Se mueve velozmente, como si estuviera siguiendo una pista invisible, hasta que deja de serlo. La madriguera era mucho más grande del lugar en el que habían encontrado al primer niffler y la visión, mucho más desgarradora. Bajo las hojas secas del invierno, una familia de nifflers se encuentra muerta. Sus colores perdidos para siempre.</span>',
-        },
-        "pertenencias de los dempsey": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "seguir al niffler",
-          "cont": '<span>Escondidos entre los nifflers, el tesoro de los Dempsey se encuentra disponibles para ellos. Cubiertos, vajillas, todo cubierto de tierra y enterrado por la familia que se durmió para siempre sobre ellos.</span>',
-        },
-        "adoptar al niffler": {
-          "visible": { "attr": { "val": "min" }, "know": { "ccm": "5" }, "job": "invalid", "name": "invalid", }, "place": "seguir al niffler",
-          "cont": '<span>El pequeño niffler marrón, olisquea a un niffler más grande y deja escapar un gimoteo. Cualquier personaje que lo tome, podrá adoptarlo como propio.</span>',
-        },
-      },
+      "searchs": {},
 
-      "actions": {
-        "pellis sana": {
-          "leve": 'Logra curar las heridas del Niffler, pero este sigue asustado y no colabora mucho.',
-          "moderado": 'Logra curar las heridas del Niffler, pero este sigue asustado y no colabora mucho.',
-          "exitoso": 'Logra curar las heridas del Niffler, pero este sigue asustado y no colabora mucho.',
-          "critico": 'Logra curar las heridas del Niffler, pero este sigue asustado y no colabora mucho.',
-        },
-        "sensus mitigo": {
-          "leve": 'Logra tranquilizar al Niffler lo suficiente para que colabore.<adding search="el niffler" class="check-cards"></adding>',
-          "moderado": 'Logra tranquilizar al Niffler lo suficiente para que colabore.<adding search="el niffler" class="check-cards"></adding>',
-          "exitoso": 'Logra tranquilizar al Niffler lo suficiente para que colabore.<adding search="el niffler" class="check-cards"></adding>',
-          "critico": 'Logra tranquilizar al Niffler lo suficiente para que colabore.<adding search="el niffler" class="check-cards"></adding>',
-        },
-      },
+      "actions": {},
     },
     // fin the lone bellow
 
@@ -2076,97 +816,11 @@ const MissionsModule = (function () {
       "dependency": ["secrets of the silent dead"],
       "type": "investigación", "closed": true, "fecha": "1952-11-29", "link": "/t658-investigacion-ryu-s-breath", "tagged": ["sirius", "capitulo 0"],
 
-      "cards": [
-        {
-          "visible": { "attr": { "val": "min" }, "know": { "herbología": "10" }, "job": "invalid", "name": "invalid", }, "place": "resuelve presencia vegetal",
-          "cont": '<span>La presencia vegetal es facilmente identificable como Belladona.</span>',
-        },
+      "cards": [],
 
-        {
-          "visible": { "attr": { "val": "min" }, "know": { "ccm": "10" }, "job": "invalid", "name": "invalid", }, "place": "resuelve toxina animal",
-          "cont": '<span>El origen de toxina animal es identificada como Mariposa de Jade, un pequeño animal que libera una toxina para protegerse de los depredadores.</span>',
-        },
+      "searchs": {},
 
-        {
-          "visible": { "attr": { "val": "min" }, "know": { "ccm": "10" }, "job": "invalid", "name": "invalid", }, "place": "resuelve toxina animal",
-          "cont": '<span>La toxina de la Mariposa de Jade es extremadamente volátil. Su toxina se libera a través de un polvo que, a temperaturas normales puede invadir una sala entera. Es necesario realizar un "Continentia Bulla", para contener la toxina antes de que se termine de liberar y afecte a los presentes. Si se demora más de tres post en conjurar el hechizo, deberán solicitar una intervención de la administración.</span>',
-        },
-      ],
-
-      "searchs": {
-        "mariposa de jade": {
-          "visible": { "attr": { "val": "min" }, "know": { "ccm": "10" }, "job": "invalid", "name": "invalid", }, "place": "resuelve toxina animal",
-          "cont": '<span><span class="book-clipping">La Mariposa de Jade, Papilio Mortifera, es una criatura extraña de peligrosidad mortal. <br><br>Originaria de las selvas húmedas del sur de Asia, principalmente, Birmania y Tailandia, parece una mariposa luminosa de alas verdes iridiscentes con motas moradas. Su aspecto resulta encantador, y suele confundirse con insectos inofensivos en los bosques tropicales. Se alimenta de néctar en la adultez, pero en estado larvario consume savia venenosa de plantas como la belladona o el acónito, almacenando esas toxinas en su organismo.</span></span>',
-        },
-
-        "toxina de la mariposa de jade": {
-          "visible": { "attr": { "val": "min" }, "know": { "ccm": "10" }, "job": "invalid", "name": "invalid", }, "place": "mariposa de jade",
-          "cont": '<span><span class="book-clipping">El veneno de la mariposa de jade es liberado en forma de polvo que desprenden las alas al batirlas cuando se siente amenazada. Al ser inhalado o entrar en contacto con fluidos corporales, inicia una reacción de descomposición acelerada de los órganos internos. La muerte sobreviene en un rango de 15 a 20 minutos, con colapso multiorgánico irreversible. <br><br>Los síntomas que se presentan son mareo, pérdida de visión, espasmos musculares, hemorragias internas.</span></span>',
-        },
-
-        "tratados de la toxina": {
-          "visible": { "attr": { "val": "min" }, "know": { "alquimia": "5" }, "job": "invalid", "name": "invalid", }, "place": "mariposa de jade",
-          "cont": '<span><span class="book-clipping">La captura, cría o comercio de esta mariposa está penada con condena en Azkaban, desde el siglo XII</span></span>',
-        },
-      },
-
-      "actions": {
-        "unus multis": {
-          "leve": 'Procedimiento inicial incompleto.',
-          "moderado": 'Procedimiento inicial completado: Divide la mezcla en fracciones más simples, resultando una fase (fase 1) con compuestos vegetales y otra fase (fase 2) con un compuesto animal mezclado con impurezas.',
-          "exitoso": 'Procedimiento inicial completado: Divide la mezcla en fracciones más simples, resultando una fase (fase 1) con compuestos vegetales y otra fase (fase 2) con un compuesto animal mezclado con impurezas.',
-          "critico": 'Procedimiento inicial completado: Divide la mezcla en fracciones más simples, resultando una fase (fase 1) con compuestos vegetales y otra fase (fase 2) con un compuesto animal mezclado con impurezas.',
-        },
-
-        "revelio potionis": {
-          "leve": 'Fase 1: Procedimiento 1 de 2 completado: Se confirma la presencia de alcaloides vegetales de una planta potencialmente venenosa.',
-          "moderado": 'Fase 1: Procedimiento 1 de 2 completado: Se confirma la presencia de alcaloides vegetales de una planta potencialmente venenosa.',
-          "exitoso": 'Fase 1: Procedimiento 1 de 2 completado: Se confirma la presencia de alcaloides vegetales de una planta potencialmente venenosa.',
-          "critico": 'Fase 1: Procedimiento 1 de 2 completado: Se confirma la presencia de alcaloides vegetales de una planta potencialmente venenosa.',
-        },
-
-        "herbivicus": {
-          "leve": 'Fase 1: Procedimiento 2 de 2 incompleto.',
-          "moderado": 'Fase 1: Procedimiento 2 de 2 completado: Reactiva las propiedades de la planta permitiendo distinguir que parte del extracto es de origen vegetal.<adding search="resuelve presencia vegetal" class="check-cards"></adding>',
-          "exitoso": 'Fase 1: Procedimiento 2 de 2 completado: Reactiva las propiedades de la planta permitiendo distinguir que parte del extracto es de origen vegetal.<adding search="resuelve presencia vegetal" class="check-cards"></adding>',
-          "critico": 'Fase 1: Procedimiento 2 de 2 completado: Reactiva las propiedades de la planta permitiendo distinguir que parte del extracto es de origen vegetal.<adding search="resuelve presencia vegetal" class="check-cards"></adding>',
-        },
-
-        "ros instauro": {
-          "leve": 'Fase 1: Procedimiento 2 de 2 incompleto.',
-          "moderado": 'Fase 1: Procedimiento 2 de 2 completado: Reactiva las propiedades de la planta permitiendo distinguir que parte del extracto es de origen vegetal.<adding search="resuelve presencia vegetal" class="check-cards"></adding>',
-          "exitoso": 'Fase 1: Procedimiento 2 de 2 completado: Reactiva las propiedades de la planta permitiendo distinguir que parte del extracto es de origen vegetal.<adding search="resuelve presencia vegetal" class="check-cards"></adding>',
-          "critico": 'Fase 1: Procedimiento 2 de 2 completado: Reactiva las propiedades de la planta permitiendo distinguir que parte del extracto es de origen vegetal.<adding search="resuelve presencia vegetal" class="check-cards"></adding>',
-        },
-
-        "umor excido": {
-          "leve": 'Fase 2: Procedimiento 1 de 3 incompleto.',
-          "moderado": 'Fase 2: Procedimiento 1 de 3 completado: Extrae el agua y jugos celulares de la presencia vegetal, reduciendo su interferencia en la fase tóxica.',
-          "exitoso": 'Fase 2: Procedimiento 1 de 3 completado: Extrae el agua y jugos celulares de la presencia vegetal, reduciendo su interferencia en la fase tóxica.',
-          "critico": 'Fase 2: Procedimiento 1 de 3 completado: Extrae el agua y jugos celulares de la presencia vegetal, reduciendo su interferencia en la fase tóxica.',
-        },
-
-        "fac illum clamorem": {
-          "leve": 'Fase 2: Procedimiento 2 de 3 incompleto.',
-          "moderado": 'Fase 2: Procedimiento 2 de 3 completado: Condensa volátiles y elimina restos gaseosos de la presencia vegetal.',
-          "exitoso": 'Fase 2: Procedimiento 2 de 3 completado: Condensa volátiles y elimina restos gaseosos de la presencia vegetal.',
-          "critico": 'Fase 2: Procedimiento 2 de 3 completado: Condensa volátiles y elimina restos gaseosos de la presencia vegetal.',
-        },
-
-        "umbraculum faciunt": {
-          "leve": 'Fase 2: Procedimiento 3 de 3 completado: Proyecta la esencia, revelando la toxina animal pura.<adding search="resuelve toxina animal" class="check-cards"></adding>',
-          "moderado": 'Fase 2: Procedimiento 3 de 3 completado: Proyecta la esencia, revelando la toxina animal pura.<adding search="resuelve toxina animal" class="check-cards"></adding>',
-          "exitoso": 'Fase 2: Procedimiento 3 de 3 completado: Proyecta la esencia, revelando la toxina animal pura.<adding search="resuelve toxina animal" class="check-cards"></adding>',
-          "critico": 'Fase 2: Procedimiento 3 de 3 completado: Proyecta la esencia, revelando la toxina animal pura.<adding search="resuelve toxina animal" class="check-cards"></adding>',
-        },
-
-        "continentia bulla": {
-          "leve": 'La burbuja de contención permite que todos los presentes se encuentren a salvo de la toxina animal.',
-          "moderado": 'La burbuja de contención permite que todos los presentes se encuentren a salvo de la toxina animal.',
-          "exitoso": 'La burbuja de contención permite que todos los presentes se encuentren a salvo de la toxina animal.',
-          "critico": 'La burbuja de contención permite que todos los presentes se encuentren a salvo de la toxina animal.',
-        },
-      },
+      "actions": {},
     },
     // fin ryū's breath
 
@@ -2493,74 +1147,9 @@ const MissionsModule = (function () {
       "dependency": ["traces in black"],
       "type": "investigación", "closed": true, "fecha": "1952-11-05", "link": "https://blackwave.foroactivo.com/t562-investigacion-the-beryl-ash-trail", "tagged": ["sirius", "capitulo 0"],
 
-      "cards": [
-        {
-          "visible": { "attr": { "sab": "3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "examinar registro flu-19520819-7603-lon-0098",
-          "cont": '<span>Se corresponden a las chimeneas del Hall de Entrada del Ministerio de Magia. El mismo código se puede apreciar en los ladrillos interiores.</span>',
-        }
-      ],
+      "cards": [],
 
-      "searchs": {
-        "información red flu chim-lon/0098-p": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span><span class="book-clipping"><br><div align="center"><strong>ALTA DE PUNTO RED FLU</strong></div><br><strong>Código de registro</strong>: CHIM-LON/0098-P<br><strong>Fecha alta</strong>: 12 de Septiembre de 1802.<br><strong>Oficina</strong>: Ministerio de Magia, Departamento de transporte, oficina 3.<br><br><div align="center"><strong>Información punto de conexión</strong></div><br><strong>Dirección</strong>: Castillo Black, Biblioteca.<br><br><strong>Tipo de Propiedad</strong>:<br>☐ Residencia Privada<br>☐ Comercial<br>☐ Institucional<br>☒ Clasificado<br><br><strong>Propietario Registrado</strong>: E. Black<br><br><div align="center"><strong>Detalles técnicos de la chimenea</strong></div><br><strong>Designación oficial de la red flu</strong>: LON-0098<br><br><strong>Tipo de conexión</strong>: <br>☒ Permanente<br>☐ Temporal<br><br><strong>Estado de seguridad mágica</strong>: <br>☐ Supervisada con runas<br>☒ Restringido (solo usuarios autorizados, ver anexo W-934)<br>☐ Abierta al público<br><br><strong>Encantamientos de protección aplicados</strong>:<br>☒ Sello de trazabilidad Flu<br>☒ Encantamiento de refracción muggle (nivel 3)<br>☒ Alarma de flujo inverso<br><br><strong>Documentación presentada</strong> (ver anexos):<br>☒ Contrato de responsabilidad<br>☐ Licencia de uso comercial<br>☒ Declaración jurada de propietario<br>☒ Informe de instalación: inspector Elspeth Jaxtyn.<br>☒ Comprobante de pago</span></span>',
-        },
-
-        "examinar registro flu-19520803-2139-lon-0098": {
-          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span><span class="book-clipping"><br><div align="center"><strong>Viaje FLU-19520803-2139-LON-0098</strong></div><br><strong>Chimenea</strong>: LON-0098<br><strong>Fecha y Hora</strong>: 03/08/1952 - 06:53 hs.<br><strong>Chimenea Destino</strong>: MIN-0076/G<br><strong>Usuario identificado</strong>: Black, Sirius<br><strong>Estado</strong>: Viaje concluido.</span></span>',
-        },
-
-        "examinar registro flu-19520811-8256-lon-0098": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span><span class="book-clipping"><br><div align="center"><strong>Viaje FLU-19520811-8256-LON-0098</strong></div><br><strong>Chimenea</strong>: LON-0098<br><strong>Fecha y Hora</strong>: 11/08/1952 - 21:24 hs.<br><strong>Chimenea Destino</strong>: MIN-0128<br><strong>Usuario identificado</strong>: Black, Sirius<br><strong>Estado</strong>: Viaje concluido.</span></span>',
-        },
-
-        "información red flu chim-min/0128-c": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "examinar registro flu-19520811-8256-lon-0098",
-          "cont": '<span><span class="book-clipping"><br><div align="center"><strong>ALTA DE PUNTO RED FLU</strong></div><br><strong>Código de registro</strong>: CHIM-MIN/0128-C<br><strong>Fecha alta</strong>: 09 de Mayo de 1829.<br><strong>Oficina</strong>: Ministerio de Magia, Departamento de transporte, oficina 1.<br><br><div align="center"><strong>Información punto de conexión</strong></div><br><strong>Dirección</strong>: Ministerio de Magia, Primer Piso, Oficina de Ministro.<br><br><strong>Tipo de Propiedad</strong>:<br>☐ Residencia Privada<br>☐ Comercial<br>☐ Institucional<br>☒ Clasificado<br><br><strong>Propietario Registrado</strong>: Ottaline Gambol<br><br><div align="center"><strong>Detalles técnicos de la chimenea</strong></div><br><strong>Designación oficial de la red flu</strong>: MIN-0128<br><br><strong>Tipo de conexión</strong>:<br>☒ Permanente<br>☐ Temporal<br><br><strong>Estado de seguridad mágica</strong>:<br>☒ Supervisada con runas<br>☐ Restringido (solo usuarios autorizados, ver anexo W-934)<br>☐ Abierta al público<br><br><strong>Encantamientos de protección aplicados</strong>:<br>☒ Sello de trazabilidad Flu<br>☒ Encantamiento de refracción muggle (nivel 3)<br>☒ Alarma de flujo inverso<br><br><strong>Documentación presentada</strong> (ver anexos):<br>☐ Contrato de responsabilidad<br>☐ Licencia de uso comercial<br>☐ Declaración jurada de propietario<br>☒ Informe de instalación: inspector R.B. Lytton.<br>☐ Comprobante de pago</span></span>',
-        },
-
-        "información red flu chim-nir/4973-p": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "examinar registro flu-19520812-4981-nir-4973",
-          "cont": '<span><span class="book-clipping"><br><div align="center"><strong>ALTA DE PUNTO RED FLU</strong></div><br><strong>Código de registro</strong>: CHIM-NIR/4973-P<br><strong>Fecha alta</strong>: 22 de Enero de 1912.<br><strong>Oficina</strong>: Ministerio de Magia, Departamento de transporte, oficina 14.<br><br><div align="center"><strong>Información punto de conexión</strong></div><br><strong>Dirección</strong>: Rowanshade Cottage, 12 Loughfern Lane, Glen Aibhne, County Antrim, BT47 3RA, Northern Ireland<br><br><strong>Tipo de Propiedad</strong>:<br>☒ Residencia Privada<br>☐ Comercial<br>☐ Institucional<br>☐ Clasificado<br><br><strong>Propietario Registrado</strong>: Morgana Dempsey<br><br><div align="center"><strong>Detalles técnicos de la chimenea</strong></div><br><strong>Designación oficial de la red flu</strong>: NIR-4973<br><br><strong>Tipo de conexión</strong>:<br>☒ Permanente<br>☐ Temporal<br><br><strong>Estado de seguridad mágica</strong>:<br>☐ Supervisada con runas<br>☒ Restringido (solo usuarios autorizados, ver anexo W-934)<br>☐ Abierta al público<br><br><strong>Encantamientos de protección aplicados</strong>:<br>☒ Sello de trazabilidad Flu<br>☐ Encantamiento de refracción muggle (nivel 3)<br>☐ Alarma de flujo inverso<br><br><strong>Documentación presentada</strong> (ver anexos):<br>☒ Contrato de responsabilidad<br>☐ Licencia de uso comercial<br>☒ Declaración jurada de propietario<br>☒ Informe de instalación: inspector R.B. Connor.<br>☒ Comprobante de pago</span></span>',
-        },
-
-        "información red flu chim-sco/3629-p": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "examinar registro flu-19520812-4984-sco-3629",
-          "cont": '<span><span class="book-clipping"><br><div align="center"><strong>ALTA DE PUNTO RED FLU</strong></div><br><strong>Código de registro</strong>: CHIM-SCO/3629-P<br><strong>Fecha alta</strong>: 30 de Junio de 1897.<br><strong>Oficina</strong>: Ministerio de Magia, Departamento de transporte, oficina 5.<br><br><div align="center"><strong>Información punto de conexión</strong></div><br><strong>Dirección</strong>: Caer Brannoch Hall, 7 Stag’s Rest Path, Loch Craen, Argyllshire, PA24 5DN, Scotland<br><br><strong>Tipo de Propiedad</strong>:<br>☒ Residencia Privada<br>☐ Comercial<br>☐ Institucional<br>☐ Clasificado<br><br><strong>Propietario Registrado</strong>: Jr. Merrythought<br><br><div align="center"><strong>Detalles técnicos de la chimenea</strong></div><br><strong>Designación oficial de la red flu</strong>: SCO-3629<br><br><strong>Tipo de conexión</strong>:<br>☒ Permanente<br>☐ Temporal<br><br><strong>Estado de seguridad mágica</strong>:<br>☐ Supervisada con runas<br>☒ Restringido (solo usuarios autorizados, ver anexo W-934)<br>☐ Abierta al público<br><br><strong>Encantamientos de protección aplicados</strong>:<br>☒ Sello de trazabilidad Flu<br>☐ Encantamiento de refracción muggle (nivel 3)<br>☒ Alarma de flujo inverso<br><br><strong>Documentación presentada</strong> (ver anexos):<br>☒ Contrato de responsabilidad<br>☐ Licencia de uso comercial<br>☒ Declaración jurada de propietario<br>☒ Informe de instalación: inspector R.B. Connor.<br>☒ Comprobante de pago</span></span>',
-        },
-
-        "examinar registro flu-19520812-4981-nir-4973": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span><span class="book-clipping"><br><div align="center"><strong>Viaje FLU-19520812-4981-NIR-4973</strong></div><br><strong>Chimenea</strong>: NIR-4973<br><strong>Fecha y Hora</strong>: 12/08/1952 - 19:45 hs.<br><strong>Chimenea Destino</strong>: LON-0098<br><strong>Usuario identificado</strong>: Dempsey, Morgana<br><strong>Estado</strong>: Viaje concluido</span></span>',
-        },
-
-        "examinar registro flu-19520812-4984-sco-3629": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span><span class="book-clipping"><br><div align="center"><strong>Viaje FLU-19520812-4984-SCO-3629</strong></div><br><strong>Chimenea</strong>: SCO-3629<br><strong>Fecha y Hora</strong>: 12/08/1952 - 19:50 hs.<br><strong>Chimenea Destino</strong>: LON-0098<br><strong>Usuario identificado</strong>: Merrythought, Edwin<br><strong>Estado</strong>: Viaje concluido</span></span>',
-        },
-
-        "examinar registro flu-19520816-1145-lon-0098": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span><span class="book-clipping"><br><div align="center"><strong>Viaje FLU-19520816-1145-LON-0098</strong></div><br><strong>Chimenea</strong>: LON-0098<br><strong>Fecha y Hora</strong>: <classified style="--char: 21"></classified><br><strong>Chimenea Destino</strong>: <classified style="--char: 7"></classified><br><strong>Usuario identificado</strong>: Black, Sirius<br><strong>Estado</strong>: Clasificado por Orden ORD-CLF-1952/WIZ/3078-B.<br><strong>Nota</strong>: Se detectó presencia no declarada de planta desconocida. Sin emisión mágica.</span></span>',
-        },
-
-        "examinar registro flu-19520819-7603-lon-0098": {
-          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span><span class="book-clipping"><br><div align="center"><strong>Viaje FLU-19520819-7603-LON-0098</strong></div><br><strong>Chimenea</strong>: LON-0098<br><strong>Fecha y Hora</strong>: 19/08/1952 - 07:10 hs.<br><strong>Chimenea Destino</strong>: MIN-0076/G<br><strong>Usuario identificado</strong>: Black, Sirius<br><strong>Estado</strong>: Viaje concluido.</span></span>',
-        },
-
-        "examinar registro flu-19520826-7014-lon-0098": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span><span class="book-clipping"><br><div align="center"><strong>Viaje FLU-19520826-7014-LON-0098</strong></div><br><strong>Chimenea</strong>: LON-0098<br><strong>Fecha y Hora</strong>: 26/08/1952 - 23:55 hs.<br><strong>Chimenea Destino</strong>: SCO-3629<br><strong>Usuario identificado</strong>: Black, Sirius<br><strong>Estado</strong>: Viaje concluido.</span></span>',
-        },
-
-        "examinar registro flu-19520828-8150-lon-0098": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span><span class="book-clipping"><br><div align="center"><strong>Viaje FLU-19520828-8150-LON-0098</strong></div><br><strong>Chimenea</strong>: LON-0098<br><strong>Fecha y Hora</strong>: 28/08/1952 - 16:18 hs.<br><strong>Chimenea Destino</strong>: NIR-4973<br><strong>Usuario identificado</strong>: Black, Sirius<br><strong>Estado</strong>: Viaje concluido.</span></span>',
-        },
-      },
+      "searchs": {},
 
       "actions": {},
     },
@@ -2577,14 +1166,7 @@ const MissionsModule = (function () {
       "cards": [],
       "searchs": {},
 
-      "actions": {
-        "relicta notitia": {
-          "leve": 'No revela información adicional.',
-          "moderado": 'Revela que la profecía fue guardada por el mismo Sirius Black. Quien extrajo un recuerdo y lo guardó en la esfera.',
-          "exitoso": 'Revela que la profecía fue guardada por el mismo Sirius Black. Quien extrajo un recuerdo y lo guardó en la esfera. Al finalizar la creación, se puede escuchar la voz distorcionada de un joven: "Cuando la Estrella del Cazador se incline hacia la Sombra..."',
-          "critico": 'Revela que la profecía fue guardada por el mismo Sirius Black. Quien extrajo un recuerdo y lo guardó en la esfera. Al finalizar la creación, se puede escuchar la voz distorcionada de un joven: "Cuando la Estrella del Cazador se incline hacia la Sombra...", Sirius deja de tocar la profecía, deteniendo el avance de la misma. Hay un papel debajo de la profecía donde se puede leer: "la ola llevará su huella como estigma y condena". Una vez que la profecía esta guardada, Sirius hace una pequeña bola con el pergamino y lo tira al fuego.',
-        },
-      },
+      "actions": {},
     },
     // fin golden pathways
 
@@ -2598,87 +1180,7 @@ const MissionsModule = (function () {
 
       "cards": [],
 
-      "searchs": {
-        "peticionar información anexo 934": {
-          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>Al solicitar al requisario la información sobre el anexo 934, el mismo produce el mismo sonido que los libros al moverse de un espacio para otro, hasta que, pasado un tiempo, extrae tres libros que son colocados en la bandeja de plata: [i]Chimeneas y Caminos[/i], [i]Los Sigilos de la Red Flu[/i] y [i]Travesías y Traslados[/i].</span>',
-        },
-
-        "leer 'chimeneas y camino' capítulo 6": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "peticionar información anexo 934",
-          "cont": '<span><span class="book-clipping">La red flu en chimeneas particulares constituye un sistema de transporte mágico reservado a los miembros autorizados de un hogar. Por norma general, el uso de esta red está permitido al dueño de la residencia y a su descendencia directa, garantizando que la conexión flu se mantenga segura y confiable dentro del linaje familiar. Esta restricción inicial asegura que la red funcione bajo control de la familia propietaria y evita el acceso no autorizado.</span></span>',
-        },
-
-        "leer 'chimeneas y camino' capítulo 9": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "peticionar información anexo 934",
-          "cont": '<span><span class="book-clipping">La red flu también autoriza el acceso a cualquier mago o bruja que la chimenea reconozca como miembro del hogar. Esta autorización no depende únicamente de la sangre, sino que se basa en la afinidad mágica y la frecuencia de presencia de la persona dentro de la residencia. La chimenea evalúa de manera instintiva la legitimidad de los usuarios, asegurando que solo quienes tengan un vínculo real con el hogar puedan utilizarla.</span></span>',
-        },
-
-        "leer 'chimeneas y camino' capítulo 11": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "peticionar información anexo 934",
-          "cont": '<span><span class="book-clipping">En el caso de menores de once años, su acceso a la red flu está estrictamente regulado. Solo podrán desplazarse mediante la chimenea si se encuentran acompañados por sus padres o tutores legales. Esta medida protege tanto al menor como a la integridad de la red flu, evitando accidentes o traslados no supervisados que puedan resultar peligrosos.</span></span>',
-        },
-
-        "leer 'chimeneas y camino' capítulo 14": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "peticionar información anexo 934",
-          "cont": '<span><span class="book-clipping">La propiedad de la chimenea y, por extensión, de su red flu, se transfiere automáticamente cuando se registra el fallecimiento del dueño. El nuevo propietario de la casa pasa a ser el titular de la chimenea, asegurando la continuidad de la red flu bajo la misma línea de residencia. En casos donde no exista una línea directa de herencia, se recomienda acudir al Departamento de Transporte Mágico para validar el alta de la chimenea y garantizar que el acceso se mantenga seguro y regulado.</span></span>',
-        },
-
-        "leer 'los sigilos de la red flu' capítulo 2": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "peticionar información anexo 934",
-          "cont": '<span><span class="book-clipping">Para conceder una autorización temporal de acceso a la red flu de una chimenea particular, es necesario realizar un sigilo específico acompañado de la pronunciación en latín del encantamiento: <i>Aperi ianuam [nombre del autorizado]</i> (Abre la puerta a nombre del autorizado). Esta autorización tiene una duración limitada, permaneciendo activa únicamente hasta la medianoche del día en que se realizó, tras lo cual se desactiva automáticamente. El procedimiento garantiza que los accesos temporales sean controlados y no comprometan la seguridad del hogar.</span></span>',
-        },
-
-        "leer 'los sigilos de la red flu' capítulo 10": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "peticionar información anexo 934",
-          "cont": '<span><span class="book-clipping">En el caso de autorizaciones permanentes, se requiere un sigilo diferente, invocado mediante la frase latina: <i>Agnosce [nombre del autorizado] ut membrum familiae</i> (Reconoce a nombre del autorizado como parte de la familia). Este tipo de autorización concede acceso indefinido a la chimenea, integrando al autorizado en la red flu del hogar con los mismos privilegios que los miembros de la familia. Su implementación requiere precisión mágica y es recomendable que sea realizada únicamente por el propietario o un miembro de confianza del hogar.</span></span>',
-        },
-
-        "leer 'los sigilos de la red flu' capítulo 12": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "peticionar información anexo 934",
-          "cont": '<span><span class="book-clipping">Para revocar un sigilo previamente establecido, se emplea el encantamiento: <i>Clude portas [nombre del desautorizado], eius visitationes non gratae sunt</i> (Cierra tus puertas a nombre del desautorizado, sus visitas ya no son bienvenidas). Este procedimiento anula cualquier permiso anterior, tanto temporal como permanente, asegurando que el acceso a la chimenea quede estrictamente limitado a quienes siguen autorizados por el propietario.</span></span>',
-        },
-
-        "leer 'los sigilos de la red flu' capítulo 16": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "peticionar información anexo 934",
-          "cont": '<span><span class="book-clipping">Es importante destacar que la obtención de listas completas de personas autorizadas para el uso de la red flu no está permitida. La información sobre autorizaciones solo puede ser consultada a través de los sigilos correspondientes, respetando la privacidad y la seguridad de los usuarios. Esta restricción protege los hogares y evita la explotación indebida de la información confidencial asociada a la red flu.</span></span>',
-        },
-
-        "leer 'travesías y traslados' capítulo 3": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "peticionar información anexo 934",
-          "cont": '<span><span class="book-clipping">Los viajes por la red flu que se realizan sin la debida autorización activan automáticamente un encantamiento de protección. Este hechizo impide que el mago o bruja llegue a su destino, dejándolo temporalmente varado en la propia red. Cada incidente es registrado en el Departamento de Transporte Mágico, de manera que un miembro del personal autorizado pueda localizar al afectado y retornarlo de manera segura al Ministerio de Magia, evitando accidentes o pérdidas permanentes.</span></span>',
-        },
-
-        "leer 'travesías y traslados' capítulo 4": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "peticionar información anexo 934",
-          "cont": '<span><span class="book-clipping">Se ha observado que aquellos que quedan atrapados en la red flu suelen no recordar las experiencias previas ni la ubicación exacta de su extravío. Esto se debe a la naturaleza intrínseca de la red, que consiste en una serie de portales interconectados. La manipulación incorrecta o el extravío pueden ser extremadamente peligrosos, aunque algunos miembros del Departamento de Transporte describen la red flu de manera poética como "ríos de agua verde" que fluyen conectando puntos de manera aparentemente fluida pero potencialmente caótica.</span></span>',
-        },
-
-        "leer 'travesías y traslados' capítulo 17": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "peticionar información anexo 934",
-          "cont": '<span><span class="book-clipping">El intento de acceder a chimeneas no autorizadas se considera una infracción administrativa. Los magos y brujas que lo realizan son automáticamente expulsados del hogar y registrados en el Departamento de Transporte Mágico. Aunque este acto no se considera un peligro grave para la seguridad, sí genera sanciones y se mantiene un registro formal de la infracción, garantizando la vigilancia del uso de la red flu en propiedades privadas.</span></span>',
-        },
-
-        "leer 'travesías y traslados' capítulo 23": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "peticionar información anexo 934",
-          "cont": '<span><span class="book-clipping">Todos los viajes realizados a través de la red flu son documentados de manera oficial por el Departamento de Transporte Mágico. Este registro sistemático asegura que cualquier incidencia pueda ser investigada y que la red flu permanezca un sistema seguro y controlado, garantizando tanto la protección de los usuarios como la integridad de las conexiones entre residencias, instituciones y puntos de transporte autorizados.</span></span>',
-        },
-
-        "peticionar información sobre pergaminos clasificados": {
-          "visible": { "attr": { "int": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>Al solicitar al requisario sobre cómo se clasifica la información, el mismo produce el sonido de pergaminos que ruedan de un espacio hacia otro, hasta que termina extrayendo un pergamino que se deposita en la bandeja de plata. En el mismo se puede encontrar la siguiente información: <span class="book-clipping"><br><div align="center"><span style="font-size: 14px; line-height: normal"><strong>Ministerio de Magia</strong></span></div><div align="center"><span style="font-size: 12px; line-height: normal">Clasificación de información mágica reservada</span></div><br>En el ámbito de la administración mágica y la gestión de secretos, la información clasificada se organiza en tres niveles principales, definidos por su grado de protección y los métodos requeridos para su acceso:<br><br><strong>Nivel 1: Información de acceso básico</strong> Esta categoría comprende datos que han sido protegidos mediante hechizos manuales de seguridad. Su resguardo depende de encantamientos sencillos y rutinarios, los cuales pueden ser identificados y neutralizados por magos con conocimientos estándar en seguridad mágica. Aunque su acceso requiere cierta destreza, el nivel 1 está diseñado para permitir una difusión controlada y rápida de información dentro de contextos educativos o administrativos.<br><br><strong>Nivel 2: Información protegida por departamento</strong> La información de nivel 2 se encuentra bajo la custodia de departamentos específicos del Ministerio de Magia o de instituciones oficiales. El acceso a estos datos no puede obtenerse mediante simples encantamientos; es necesario solicitar formalmente la información al departamento responsable. Este nivel asegura que la distribución de datos sensibles sea supervisada y registrada, garantizando responsabilidad administrativa y control interno.<br><br><strong>Nivel 3: Información de alta confidencialidad</strong> Este nivel está reservado para secretos de máxima seguridad, cuyo acceso está restringido al Wizengamot o a los magos directamente autorizados por este cuerpo. Los hechizos de protección utilizados en este nivel son indelebles y personales, diseñados para que solo el conjurador original pueda revelar la información. En caso de necesidad, la única alternativa autorizada para recuperar los datos es mediante la copia de seguridad oficial, custodiada en el Requisario.</span></span>',
-        },
-
-        "peticionar orden clasificada 'ord-clf-1952/wiz/3078-b'": {
-          "visible": { "attr": { "sab": "3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "peticionar información sobre pergaminos clasificados",
-          "cont": '<span><span class="book-clipping"><br><div align="center"><strong>Viaje FLU-19520816-1145-LON-0098</strong></div><br><strong>Chimenea</strong>: LON-0098<br><strong>Fecha y Hora</strong>: 16/08/1952 - 11:20 hs.<br><strong>Chimenea Destino</strong>: WEL-5911<br><strong>Usuario identificado</strong>: Black, Sirius<br><strong>Estado</strong>: Clasificado por Orden ORD-CLF-1952/WIZ/3078-B.<br><strong>Nota</strong>: Se detectó presencia no declarada de planta desconocida. Sin emisión mágica.</span></span>',
-        },
-
-        "peticionar alta de punto red flu 'wel-5911'": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "peticionar orden clasificada 'ord-clf-1952/wiz/3078-b'",
-          "cont": '<span><span class="book-clipping"><br><div align="center"><strong>ALTA DE PUNTO RED FLU</strong></div><br><strong>Código de registro</strong>: CHIM-WEL/5911-P<br><strong>Fecha alta</strong>: 15 de Agosto de 1912.<br><strong>Oficina</strong>: Ministerio de Magia, Departamento de transporte, oficina 3.<br><br><div align="center"><strong>Información punto de conexión</strong></div><br><strong>Dirección</strong>: 14 Maes Y Ddraig, Llanfaelawen, Ceredigion, SA44 7QP, Gales, Reino Unido.<br><br><strong>Tipo de Propiedad</strong>:<br>☒ Residencia Privada<br>☐ Comercial<br>☐ Institucional<br>☐ Clasificado<br><br><strong>Propietario Registrado</strong>: Celyn Covey<br><br><div align="center"><strong>Detalles técnicos de la chimenea</strong></div><br><strong>Designación oficial de la red fu</strong>: WEL-5911<br><br><strong>Tipo de conexión</strong>:<br>☒ Permanente<br>☐ Temporal<br><br><strong>Estado de seguridad mágica</strong>:<br>☐ Supervisada con runas<br>☐ Restringido (solo usuarios autorizados, ver anexo W-934)<br>☒ Abierta al público<br><br><strong>Encantamientos de protección aplicados</strong>:<br>☒ Sello de trazabilidad Flu<br>☒ Encantamiento de refracción muggle (nivel 2)<br>☐ Alarma de flujo inverso<br><br><strong>Documentación presentada</strong> (ver anexos):<br>☒ Contrato de responsabilidad<br>☐ Licencia de uso comercial<br>☒ Declaración jurada de propietario<br>☒ Informe de instalación: inspector Winifred Enfys.<br>☒ Comprobante de pago</span></span>',
-        },
-      },
+      "searchs": {},
 
       "actions": {},
     },
@@ -2693,65 +1195,14 @@ const MissionsModule = (function () {
       "type": "investigación", "closed": true, "fecha": "1952-11-17", "link": "https://blackwave.foroactivo.com/t563-investigacion-underground-roots", "tagged": ["sirius", "capitulo 0"],
 
       "cards": [
-        {
-          "visible": { "attr": { "val": "min" }, "know": { "herbología": "10" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>La planta ha sido arrancada de cuajo. Poco se puede decir más allá del tamaño de la maceta que indica que es una planta de tamaño mediano, y de cuidado frecuentes.</span>',
-        },
-        {
-          "visible": { "attr": { "val": "min" }, "know": { "herbología": "15" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>Por los huecos que se presentan en la tierra, se podría decir que es una planta tóxica, debido a que han utilizado guantes gruesos para poder extraerla.</span>',
-        },
-        {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "black", }, "place": "planta revelada",
-          "cont": '<span>Hay una frase que a Sirius Black le encantaba decir: Los hombrelobos guardan sus secretos, pero sólo recuerdan la podredumbre que arrastran y ven sombras donde nosotros vemos la verdad.</span>',
-        }
+        {"visible":{"attr":{"val":"min"},"know":{"herbología":"10"},"job":"invalid","name":"invalid"},"place":"","cont":"<span>La planta ha sido arrancada de cuajo. Poco se puede decir más allá del tamaño de la maceta que indica que es una planta de tamaño mediano, y de cuidado frecuentes.</span>"},
+        {"visible":{"attr":{"val":"min"},"know":{"herbología":"15"},"job":"invalid","name":"invalid"},"place":"","cont":"<span>Por los huecos que se presentan en la tierra, se podría decir que es una planta tóxica, debido a que han utilizado guantes gruesos para poder extraerla.</span>"},
+        {"visible":{"attr":{"val":"min"},"know":{"val":"min"},"job":"invalid","name":"black"},"place":"planta revelada","cont":"<span>Hay una frase que a Sirius Black le encantaba decir: Los hombrelobos guardan sus secretos, pero sólo recuerdan la podredumbre que arrastran y ven sombras donde nosotros vemos la verdad.</span>"},
       ],
 
       "searchs": {},
 
-      "actions": {
-        "nutrimenta cresco": {
-          "leve": '',
-          "moderado": 'Paso #1: Enriquece el suelo para mejorar las condiciones de crecimiento de la planta.',
-          "exitoso": 'Paso #1: Enriquece el suelo para mejorar las condiciones de crecimiento de la planta.',
-          "critico": 'Paso #1: Enriquece el suelo para mejorar las condiciones de crecimiento de la planta.',
-        },
-
-        "calor crescit": {
-          "leve": 'Paso #2: Reactiva el proceso metabólico de la planta, ayudándola a generar nuevas células en las raíces.',
-          "moderado": 'Paso #2: Reactiva el proceso metabólico de la planta, ayudándola a generar nuevas células en las raíces.',
-          "exitoso": 'Paso #2: Reactiva el proceso metabólico de la planta, ayudándola a generar nuevas células en las raíces.',
-          "critico": 'Paso #2: Reactiva el proceso metabólico de la planta, ayudándola a generar nuevas células en las raíces.',
-        },
-
-        "umor infundo": {
-          "leve": '',
-          "moderado": 'Paso #3: Aporta humedad equilibrada al entorno para que las raíces puedan absorber agua sin pudrirse.',
-          "exitoso": 'Paso #3: Aporta humedad equilibrada al entorno para que las raíces puedan absorber agua sin pudrirse.',
-          "critico": 'Paso #3: Aporta humedad equilibrada al entorno para que las raíces puedan absorber agua sin pudrirse.',
-        },
-
-        "vapor creo": {
-          "leve": '',
-          "moderado": 'Paso #4: Entierra la planta sin dañar más las raíces. El hechizo puede formar un hueco ideal y cubrir la planta con precisión mágica, para mejorar las condiciones de su crecimiento.',
-          "exitoso": 'Paso #4: Entierra la planta sin dañar más las raíces. El hechizo puede formar un hueco ideal y cubrir la planta con precisión mágica, para mejorar las condiciones de su crecimiento.',
-          "critico": 'Paso #4: Entierra la planta sin dañar más las raíces. El hechizo puede formar un hueco ideal y cubrir la planta con precisión mágica, para mejorar las condiciones de su crecimiento.',
-        },
-
-        "ros instauro": {
-          "leve": '',
-          "moderado": 'Paso #5: Ayuda a que las hojas no se marchiten en un crecimiento acelerado mientras las raíces se regeneran.',
-          "exitoso": 'Paso #5: Ayuda a que las hojas no se marchiten en un crecimiento acelerado mientras las raíces se regeneran.',
-          "critico": 'Paso #5: Ayuda a que las hojas no se marchiten en un crecimiento acelerado mientras las raíces se regeneran.',
-        },
-
-        "herbivicus": {
-          "leve": '',
-          "moderado": 'Paso #6: Acelera el crecimiento de las plantas hasta el punto de hacerlas florecer. Si ya tienen todos los pasos solicitar intervención del staff.',
-          "exitoso": 'Paso #6: Acelera el crecimiento de las plantas hasta el punto de hacerlas florecer. Si ya tienen todos los pasos solicitar intervención del staff.',
-          "critico": 'Paso #6: Acelera el crecimiento de las plantas hasta el punto de hacerlas florecer. Si ya tienen todos los pasos solicitar intervención del staff.',
-        },
-      },
+      "actions": {},
     },
     // fin underground roots
 
@@ -2764,143 +1215,9 @@ const MissionsModule = (function () {
       "type": "investigación", "closed": true, "fecha": "1952-11-23", "link": "https://blackwave.foroactivo.com/t643-investigacion-the-withered-pot", "tagged": ["sirius", "capitulo 0"],
 
       "cards": [],
-      "searchs": {
-        "estudio de sirius black": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>El estudio de Sirius Black es considerado una de las mejores salas del castillo. Sus amplios ventanales dan a los jardines. Las paredes de un color borgoña resaltan incluso sobre las decoraciones de plata y oro. Todos los muebles se encuentran tallados con símbolos rúnicos. Todos los sillones de un terciopelo negro se encuentran intactos a pesar del tiempo que llevan en ese hogar. Una pequeña biblioteca privada, contiene libros que se fueron llenando de polvo con el paso del mes.</span>',
-        },
+      "searchs": {},
 
-        "segundo estudio de sirius black": {
-          "visible": { "attr": { "val": "min" }, "know": { "runas antiguas": "10" }, "job": "invalid", "name": "invalid", }, "place": "estudio de sirius black",
-          "cont": '<span>Las runas antiguas siempre fueron importantes para la familia Black. La casa esconde muchos secretos debajo de ellas, protege la casa con ellas. No importan los años, siempre se mantienen presentes. Perthro (ᛈ), una runa marcada en la pared ha sido remarcada cientos de veces. Solo bastará remarcar la misma para poder abrir el espacio.</span>',
-        },
-
-        "conjurar runa perthro": {
-          "visible": { "attr": { "des": "3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "segundo estudio de sirius black",
-          "cont": '<span>La habitación parece girar con un ligero temblor y pronto toda la habitación queda espejada. Revelando, además, un baúl que antes no estaba presente.</span>',
-        },
-
-        "abrir baúl": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "conjurar runa perthro",
-          "cont": '<span>Al abrir el baúl, no se encuentran con el interior inmediato, sino con una cámara de proyección aritmántica. En ella, las paredes, el suelo y el aire mismo muestran patrones cambiantes de símbolos y secuencias. Solo la secuencia adecuada, permitirá revelar su contenido.<br /><br />El baúl proyecta una ilusión donde nada parece tener sentido. Solo descifrando los patrones ocultos en los números y símbolos podrán encontrar la puerta real. Cada error hace que el entorno se reorganice fractalmente, desorientándolos más.</span>',
-        },
-
-        "la rama de acónito seca": {
-          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "segundo nivel del estudio",
-          "cont": '<span>Sobre una pila de pergaminos enrollados, hay una rama de acónito que se ha secado con el paso del tiempo. Son varios pergaminos, si abren uno al azar encontrarán nombres de magos y brujas que han sido conocidos por sus habilidades en las pociones, la herbología o la alquimia.</span>',
-        },
-
-        "expediente de aidan flamel": {
-          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "la rama de acónito seca",
-          "cont": '<span><span class="book-clipping"><div class="book-image" style="--image: url(https://64.media.tumblr.com/ff6d8f15a0ece847a2dd25a7ac8555f2/cb83e7c5bc169ee9-f4/s400x600/1417c283c576c9c343a6657db76036f3746f4c0e.gif)"></div><br><strong>Contrato</strong> Iniciado: 21/04/1952 | Terminado: 01/08/1952.<br><br><strong>Nombre Completo</strong> Aidan Nava Flamel<br><br><strong>Profesión</strong> Actual profesor de Herbología.<br><strong>Edad</strong> 33 años.<br><strong>Linaje</strong> Mestizo.<br><br><strong>Adjuntos</strong> <br>☒ Certificado de Nacimiento.<br>☒ Informe de Análisis de Sangre y Linaje<br>☒ Resultados TIMOs.<br>☒ Resultados EXTASIS<br></span></span>',
-        },
-
-        "amorío de lucian flamel": {
-          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "expediente de aidan flamel",
-          "cont": '<span><span class="book-clipping">Se incluye una serie de fotografías que muestran a Lucian Flamel, padre del sujeto, con otra mujer. En una de las fotografías se puede observar que la mujer está embarazada. Las imágenes se encuentran rotuladas para que sepan qué están viendo en cada imagen.<br><br><div class="book-photos"><br><div class="book-image" style="--image: url(https://2img.net/i.imgur.com/3JLDtU0.gif)"></div><br><div class="book-image" style="--image: url(https://2img.net/i.imgur.com/8A1ErHu.gif)"></div><br><div class="book-image" style="--image: url(https://2img.net/i.imgur.com/E4JsSO9.gif)"></div><br></div></span></span>',
-        },
-
-        "acta de nacimiento del hijo ilegítimo": {
-          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "amorío de lucian flamel",
-          "cont": '<span><span class="book-clipping"><br><div align="center"><span style="font-size: 14px; line-height: normal"><strong>Hospital San Mungo de Magia y Enfermedades</strong></span></div><div align="center"><span style="font-size: 12px; line-height: normal">Certificado de Nacimiento</span></div><br><hr><br><br><strong>Nombre completo del recién nacido:</strong> <i>Thalric Hawkhurst</i><br><strong>Fecha de nacimiento:</strong> <i>8 de Junio de 1930</i><br><strong>Lugar de nacimiento:</strong> <i>Sala de Maternidad, San Mungo</i><br><strong>Nombre del padre:</strong> <i>Lucian Flamel</i><br><strong>Nombre de la madre:</strong> <i>Isolde Hawkhurst</i><br><strong>Linaje mágico:</strong> <i>Mestizo</i><br><br><hr><br><br><strong>Hechicero/a responsable del alumbramiento:</strong> <i>Lyra Wyrm</i><br><strong>Observaciones médicas:</strong> <i>El recién nacido presenta un estado de salud estable.<br>Se recomienda control preventivo contra la fiebre de los duendecillos.</i><br><br><hr><br><br><div align="right"><i>En fe de lo cual, se expide el presente certificado<br>en Irlanda, al 8 de Junio de 1930.</i></div><br><div align="right"><i class="fi fi-tr-signature"></i><br><strong>_______________________</strong><br><i>Firma y sello de San Mungo</i></div></span></span>',
-        },
-
-        "contrato de aidan flamel": {
-          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "expediente de aidan flamel",
-          "cont": '<span><span class="book-clipping"><br><div align="center"><span style="font-size: 14px; line-height: normal"><strong>Ministerio de Magia</strong></span></div><div align="center"><span style="font-size: 12px; line-height: normal">Contrato de Donación</span></div><br><hr><br><br><strong>Donante:</strong> <i>Sirius Altair Black</i> <br><strong>Beneficiario:</strong> <i>Aidan Nava Flamel</i> <br><strong>Fecha de formalización:</strong> <i>30 de Septiembre de 1952</i> <br><strong>Objeto de la donación:</strong> <i>Coldyard: Invernaderos de Leeds</i> <br><br><hr><br><br><strong>Cláusulas:</strong> <br>1. El donante entrega de manera libre y voluntaria el bien o cantidad señalada. <br>2. El beneficiario acepta la donación para fines personales. <br>3. La donación no podrá ser revocada salvo disposición contraria de los estatutos mágicos. <br>4. Ambas partes reconocen la validez del presente contrato bajo la legislación vigente en el mundo mágico. <br><br><hr><br><br><strong>Observaciones adicionales:</strong> <br><i>El contrato solo estará vigente cuando ambas partes firmen el contrato.</i> <br><br><hr><br><br><div align="left"><strong>Firma del Donante:</strong> <br><br>_______________________</div><br><div align="left"><strong>Firma del Beneficiario:</strong> <br><br>_______________________</div><br></span></span>',
-        },
-
-        "invernaderos de leeds": {
-          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "contrato de aidan flamel",
-          "cont": '<span>Los invernaderos de Leeds, son una herencia familiar que ha pasado de generación en generación donde se cultivan plantas exóticas y algunas prohibidas. En él se encuentra la exclusividad para venta de algunas hierbas que pertenecen al monopolio de los Black y hacen a la herencia del mismo.</span>',
-        },
-
-        "expediente de aria fawley": {
-          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "la rama de acónito seca",
-          "cont": '<span><span class="book-clipping"><div class="book-image" style="--image: url(https://64.media.tumblr.com/36a192b703125f1a469e8b2ca5a04f1d/638d96be1047a32f-ed/s400x600/0fe38dab46c44bcfb0af2f0be5ae0d3770e2f4d2.gif)"></div><br><strong>Contrato</strong> Iniciado: 21/04/1952 | Terminado: 01/08/1952.<br><br><strong>Nombre Completo</strong> Aria Joy Fawley<br><br><strong>Profesión</strong> Actual Sanadora de Daños Provocados por Hechizos.<br><strong>Edad</strong> 45 años.<br><strong>Linaje</strong> Semi-Veela.<br><br><strong>Adjuntos</strong><br>☒ Certificado de Nacimiento.<br>☒ Informe de Análisis de Sangre y Linaje<br>☒ Resultados TIMOs.<br>☒ Resultados EXTASIS<br>☒ Inclusión en ATM<br></span></span>',
-        },
-
-        "análisis de sangre de aria fawley": {
-          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "expediente de aria fawley",
-          "cont": '<span><span class="book-clipping"><br><div align="center"><span style="font-size: 14px; line-height: normal"><strong>Hospital San Mungo de Magia y Enfermedades</strong></span></div><div align="center"><span style="font-size: 12px; line-height: normal">Informe de Análisis de Sangre y Linaje</span></div><br><hr><br><br><strong>Nombre del paciente:</strong> <i>Aria J. Fawley</i> <br><strong>Edad:</strong> <i>3 meses</i> <br><strong>Fecha de la muestra:</strong> <i>9 de Mayo de 1907</i> <br><strong>Lugar de extracción:</strong> <i>Laboratorio de San Mungo</i> <br><br><hr><br><br><strong>Resultados del análisis:</strong> <br><i>La muestra ha sido sometida a encantamientos de revelación de linaje. <br>Se observa la siguiente clasificación:</i> <br><br>- <strong>Pureza sanguínea detectada:</strong> <i>Mestiza - Semi Veela</i><br><i>Se detecta linaje mágico estable y fuerte, con trazas de ascendencia no humana (veela). El individuo conserva capacidades mágicas completas, con características hereditarias propias de las veelas.</i> <br><br></span></span>',
-        },
-
-        "certificado de defunción": {
-          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "expediente de aria fawley",
-          "cont": '<span><span class="book-clipping"><br><div align="center"><strong>PERGAMINO DE DEFUNCIÓN</strong><br><i>Hospital San Mungo para Enfermedades y Heridas Mágicas – Archivo de los Caídos</i></div><br><strong>Nombre Completo del Paciente</strong>: Dominic.<br><strong>No. Expediente</strong>: SM-FD/1342-G<br><strong>Fecha de Ingreso</strong>: 25 de Marzo de 1939 - 07:05hs.<br><strong>Fecha de fallecimiento</strong>: 24 de Marzo de 1939 - 22:32hs.<br><br><strong>Edad</strong>: 32 años.<br><strong>Sangre</strong>: ☒ Pura &nbsp; ☐ Mestiza &nbsp; ☐ Muggle &nbsp; ☐ Criatura<br><br><strong>Motivo del ingreso</strong>: El cuerpo de Dominic fue hallado fallecido y llevado al hospital.<br><strong>Causa de fallecimiento</strong>: No hay causas suficientes, se supone causas naturales, aunque se notaron rastros de magia negra en su sangre.<br><br><strong>Área médica asignada</strong>: Archivo de los caídos.<br><strong>Atendido por</strong>: Thalia Wyrm, nigromante.<br><strong>Acompañante familiar</strong>: Esposa, Aria Fawley.<br><br><strong>Anexos</strong>:<br>☒ Firma de Thalia Wyrm.<br>☒ Firma de Aria Fawley.<br>☒ Sello de defunción emitido.</span></span>',
-        },
-
-        "certificado de nacimiento de theolonius covey": {
-          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "expediente de aria fawley",
-          "cont": '<span><span class="book-clipping"><br><div align="center"><span style="font-size: 14px; line-height: normal"><strong>Hospital San Mungo de Magia y Enfermedades</strong></span></div><div align="center"><span style="font-size: 12px; line-height: normal">Certificado de Nacimiento</span></div><br><hr><br><br><strong>Nombre completo del recién nacido:</strong> <i>Theolonius Dimitri Covey</i><br><strong>Fecha de nacimiento:</strong> <i>21 de Marzo de 1929</i><br><strong>Lugar de nacimiento:</strong> <i>Sala de Maternidad, San Mungo</i><br><strong>Nombre del padre:</strong> <i>Dominic.</i><br><strong>Nombre de la madre:</strong> <i>Myrna Covey</i><br><strong>Linaje mágico:</strong> <i>Mestizo</i><br><br><hr><br><br><strong>Hechicero/a responsable del alumbramiento:</strong> <i>Medimaga Lyra Wyrm</i><br><strong>Observaciones médicas:</strong> <i>El recién nacido presenta un estado de salud estable.<br>Se recomienda control preventivo contra la fiebre de los duendecillos.</i><br><br><hr><br><br><div align="right"><i>En fe de lo cual, se expide el presente certificado<br>en Irlanda, al 21 de marzo de 1929.</i></div><br><div align="right"><i class="fi fi-tr-signature" style="font-size: 30px; margin-bottom: -25px; display: block; margin-right: 30px;"></i><br><strong>_______________________</strong><br><i>Firma y sello de San Mungo</i></div></span></span>',
-        },
-
-        "contrato de aria fawley": {
-          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "expediente de aria fawley",
-          "cont": '<span><span class="book-clipping"><span class="notebook">A quien corresponda,<br><br>Por medio de la presente, en calidad de Candidato principal de la Alianza de la Tradición Mágica y en representación propia, tengo el honor de recomendar a Aria Fawley para el ejercicio del cargo Subdirectora de San Mungo dentro de las estructuras políticas de nuestro mundo mágico.<br><br>Durante su trayectoria, Aria ha demostrado: <br>- Compromiso con los principios de la Alianza. <br>- Notable capacidad de liderazgo y organización. <br>- Firmeza en la defensa de los valores compartidos por nuestro grupo. <br>- Dedicación al bienestar de la comunidad mágica en su conjunto.<br><br>Por todo lo anterior, consideramos que su nombramiento en un cargo político superior <br>sería de gran beneficio tanto para nuestra organización como para la sociedad en general.<br><br><div align="left"><strong>_______________________</strong> <br><i>Nombre y cargo del firmante</i></div><br><br><div align="left"><strong>_______________________</strong> <br><i>Sello y respaldo de la organización política</i></div></span><br></span></span>',
-        },
-
-        "expediente de theolonius covey": {
-          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "la rama de acónito seca",
-          "cont": '<span><span class="book-clipping"><div class="book-image" style="--image: url(https://64.media.tumblr.com/0aa548376e05f133aa04ce84ba7eac6c/d9bc33bac1d5011b-ca/s400x600/40a528716b1409ba67fd9499c0103a7fe3c093bc.gif)"></div><br><strong>Contrato</strong> Iniciado: 07/08/1952 | Cancelado: 16/08/1952.<br><br><strong>Nombre Completo</strong> Theolonius Dimitri Covey<br><br><strong>Profesión</strong> Desempleado<br><strong>Edad</strong> 23 años.<br><strong>Linaje</strong> <classified style="--char: 7"></classified> Puro.<br><br><strong>Adjuntos</strong><br>☒ Certificado de Nacimiento.<br>☒ Informe de Análisis de Sangre y Linaje.<br>☒ Evidencias de poderes de clarividencia.<br>☒ Resultados TIMOs.<br>☒ Resultados EXTASIS.<br></span></span>',
-        },
-
-        "certificado de cambio de nombre": {
-          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "expediente de theolonius covey",
-          "cont": '<span><span class="book-clipping"><br><div align="center"><span style="font-size: 14px; line-height: normal"><strong>Ministerio de Magia</strong></span></div><div align="center"><span style="font-size: 12px; line-height: normal">Certificado de Cambio de Nombre</span></div><br><hr><br><br><strong>Nombre original:</strong> <i>Myrna Selwyn</i><br><strong>Nuevo nombre registrado:</strong> <i>Myrna Covey</i><br><strong>Fecha de modificación:</strong> <i>17 de agosto de 1921</i><br><strong>Lugar de registro:</strong> <i>Oficinas del Wizengamot</i><br><br><hr><br><br><strong>Motivo de la solicitud:</strong> <i>Personales.</i><br><br><strong>Hechicero/a certificador:</strong> <i>Fletcher Silverwind</i><br><br><hr><br><br><div align="right"><i>En virtud de los estatutos mágicos en vigor,<br>se reconoce el cambio de nombre con efectos legales inmediatos.</i></div><br><div align="right"><i class="fi fi-tr-signature" style="font-size: 30px; margin-bottom: -25px; display: block; margin-right: 30px;"></i><br><strong>_______________________</strong><br><i>Firma y sello del Ministerio de Magia</i></div><br></span></span>',
-        },
-      },
-
-      "actions": {
-        "gematria veritas": {
-          "leve": 'Paso #1: Se reinicia el desafío.',
-          "moderado": 'Paso #1: Permite visualizar una puerta, aunque desaparece al instante impidiendo su ingreso. Se reinicia el desafío.',
-          "exitoso": 'Paso #1: La puerta aparece materializada frente a ellos. Una vez encontrada la entrada, un torrente de energía caótica bloquea el paso, siendo necesario una estabilización. Si fallan, la energía colapsa en un vórtice que reinicia el desafío.',
-          "critico": 'Paso #1: La puerta aparece materializada frente a ellos. Una vez encontrada la entrada, un torrente de energía caótica bloquea el paso, siendo necesario una estabilización. Si fallan, la energía colapsa en un vórtice que reinicia el desafío.',
-        },
-
-        "numerus occultus": {
-          "leve": 'Paso #1: Se reinicia el desafío.',
-          "moderado": 'Paso #1: Permite visualizar una puerta, aunque desaparece al instante impidiendo su ingreso. Se reinicia el desafío.',
-          "exitoso": 'Paso #1: La puerta aparece materializada frente a ellos. Una vez encontrada la entrada, un torrente de energía caótica bloquea el paso, siendo necesario una estabilización. Si fallan, la energía colapsa en un vórtice que reinicia el desafío.',
-          "critico": 'Paso #1: La puerta aparece materializada frente a ellos. Una vez encontrada la entrada, un torrente de energía caótica bloquea el paso, siendo necesario una estabilización. Si fallan, la energía colapsa en un vórtice que reinicia el desafío.',
-        },
-
-        "iteratio perfectum": {
-          "leve": 'Paso #2: Se reinicia el desafío.',
-          "moderado": 'Paso #2: Balancea múltiples corrientes de magia simultáneas y mantiene el equilibrio mediante repeticiones precisas. Habilita una entrada a lo que parece ser un segundo nivel. Sin embargo, es una entrada fractal que solo se abre si encuentran la proporción áurea exacta dentro de un entramado geométrico.',
-          "exitoso": 'Paso #2: Balancea múltiples corrientes de magia simultáneas y mantiene el equilibrio mediante repeticiones precisas. Habilita una entrada a lo que parece ser un segundo nivel. Sin embargo, es una entrada fractal que solo se abre si encuentran la proporción áurea exacta dentro de un entramado geométrico.',
-          "critico": 'Paso #2: Balancea múltiples corrientes de magia simultáneas y mantiene el equilibrio mediante repeticiones precisas. Habilita una entrada a lo que parece ser un segundo nivel. Sin embargo, es una entrada fractal que solo se abre si encuentran la proporción áurea exacta dentro de un entramado geométrico.',
-        },
-
-        "aequatio incantamenta": {
-          "leve": 'Paso #2: Se reinicia el desafío.',
-          "moderado": 'Paso #2: Balancea múltiples corrientes de magia simultáneas y mantiene el equilibrio mediante repeticiones precisas. Habilita una entrada a lo que parece ser un segundo nivel. Sin embargo, es una entrada fractal que solo se abre si encuentran la proporción áurea exacta dentro de un entramado geométrico.',
-          "exitoso": 'Paso #2: Balancea múltiples corrientes de magia simultáneas y mantiene el equilibrio mediante repeticiones precisas. Habilita una entrada a lo que parece ser un segundo nivel. Sin embargo, es una entrada fractal que solo se abre si encuentran la proporción áurea exacta dentro de un entramado geométrico.',
-          "critico": 'Paso #2: Balancea múltiples corrientes de magia simultáneas y mantiene el equilibrio mediante repeticiones precisas. Habilita una entrada a lo que parece ser un segundo nivel. Sin embargo, es una entrada fractal que solo se abre si encuentran la proporción áurea exacta dentro de un entramado geométrico.',
-        },
-
-        "porta fractalis": {
-          "leve": 'Paso #3: Se reinicia el desafío.',
-          "moderado": 'Paso #3: La energía es colocada en los patrones correctos, habilitando una escalera que desciende a un nivel inferior.<br /><adding search="segundo nivel del estudio" class="check-cards"></adding>',
-          "exitoso": 'Paso #3: La energía es colocada en los patrones correctos, habilitando una escalera que desciende a un nivel inferior.<br /><adding search="segundo nivel del estudio" class="check-cards"></adding>',
-          "critico": 'Paso #3: La energía es colocada en los patrones correctos, habilitando una escalera que desciende a un nivel inferior.<br /><adding search="segundo nivel del estudio" class="check-cards"></adding>',
-        },
-
-        "sectio aurea": {
-          "leve": 'Paso #3: Se reinicia el desafío.',
-          "moderado": 'Paso #3: La energía es colocada en los patrones correctos, habilitando una escalera que desciende a un nivel inferior.<br /><adding search="segundo nivel del estudio" class="check-cards"></adding>',
-          "exitoso": 'Paso #3: La energía es colocada en los patrones correctos, habilitando una escalera que desciende a un nivel inferior.<br /><adding search="segundo nivel del estudio - " class="check-cards"></adding>',
-          "critico": 'Paso #3: La energía es colocada en los patrones correctos, habilitando una escalera que desciende a un nivel inferior.<br /><adding search="segundo nivel del estudio" class="check-cards"></adding>',
-        },
-
-        "modus symmetria": {
-          "leve": 'Paso #3: Se reinicia el desafío.',
-          "moderado": 'Paso #3: La energía es colocada en los patrones correctos, habilitando una escalera que desciende a un nivel inferior.<br /><adding search="segundo nivel del estudio" class="check-cards"></adding>',
-          "exitoso": 'Paso #3: La energía es colocada en los patrones correctos, habilitando una escalera que desciende a un nivel inferior.<br /><adding search="segundo nivel del estudio" class="check-cards"></adding>',
-          "critico": 'Paso #3: La energía es colocada en los patrones correctos, habilitando una escalera que desciende a un nivel inferior.<br /><adding search="segundo nivel del estudio" class="check-cards"></adding>',
-        },
-      },
+      "actions": {},
     },
     // fin the withered pot
 
@@ -2929,42 +1246,7 @@ const MissionsModule = (function () {
       "cards": [],
       "searchs": {},
 
-      "actions": {
-        "legeremens": {
-          "leve": 'No es suficiente para revelar información adicional.',
-          "moderado": 'El personaje puede acceder a los recuerdos del 16 de agosto, visualizar a Theolonius al lado de su madre quien yace recostada en una cama. El reloj sobre la misma, marca las 11:05 am. Sin embargo, hay un pequeño vacío. Las luces cambian de lugar, Theolonius sigue al lado de su madre, pero el reloj marca las 12:30hs.',
-          "exitoso": 'El personaje puede acceder a los recuerdos del 16 de agosto, visualizar a Theolonius al lado de su madre quien yace recostada en una cama. El reloj sobre la misma, marca las 11:05 am. Sin embargo, hay un pequeño vacío. Las luces cambian de lugar, Theolonius sigue al lado de su madre, pero el reloj marca las 12:30hs.',
-          "critico": 'El personaje puede acceder a los recuerdos del 16 de agosto, visualizar a Theolonius al lado de su madre quien yace recostada en una cama. El reloj sobre la misma, marca las 11:05 am. Sin embargo, hay un pequeño vacío. Las luces cambian de lugar, Theolonius sigue al lado de su madre, pero el reloj marca las 12:30hs.',
-        },
-
-        "veritas relego": {
-          "leve": 'No es suficiente para revelar información adicional.',
-          "moderado": 'El personaje interrogado deberá revelar si esta mintiendo o no.',
-          "exitoso": 'El personaje interrogado deberá revelar si esta mintiendo o no.',
-          "critico": 'El personaje interrogado deberá revelar si esta mintiendo o no.',
-        },
-
-        "murmura futuri": {
-          "leve": 'No es suficiente para revelar información adicional.',
-          "moderado": 'Se escuchan los agresivos pasos de las personas que caminan de un lado hacia otro, mientras de fondo se escucha una voz decir: Esto no es un simulacro. Código rojo. Código rojo. Sigan el procedimiento.',
-          "exitoso": 'Se escuchan los agresivos pasos de las personas que caminan de un lado hacia otro, mientras de fondo se escucha una voz decir: Esto no es un simulacro. Código rojo. Código rojo. Sigan el procedimiento.',
-          "critico": 'Se escuchan los agresivos pasos de las personas que caminan de un lado hacia otro, mientras de fondo se escucha una voz decir: Esto no es un simulacro. Código rojo. Código rojo. Sigan el procedimiento.',
-        },
-
-        "veniens empathy": {
-          "leve": 'No es suficiente para revelar información adicional.',
-          "moderado": 'El vidente puede percibir la desesperación, como un suspiro contenido que busca retener una aire faltante.',
-          "exitoso": 'El vidente puede percibir la desesperación, como un suspiro contenido que busca retener una aire faltante.',
-          "critico": 'El vidente puede percibir la desesperación, como un suspiro contenido que busca retener una aire faltante.',
-        },
-
-        "prophetia": {
-          "leve": 'No es suficiente para revelar información adicional.',
-          "moderado": 'La voz se pierde en un eco. Una profecía naciente: "Cuando el metal de las insignias pierda su brillo ante el cielo ceniza, no será el fuego lo que devore los cimientos, sino lo que el mar oculta. Donde antes hubo orden, la marea sembrará la duda; donde hubo valor, la espuma dejará miedo. Los guardianes, cuya mano nunca tembló al alzar la madera, sentirán el peso. Porque cuando la ola rompa contra las puertas del Ministerio, no habrá refugio para los pastores, solo el deber de ser el muro mientras el mundo, a sus espaldas, se ahoga en silencio".',
-          "exitoso": 'La voz se pierde en un eco. Una profecía naciente: "Cuando el metal de las insignias pierda su brillo ante el cielo ceniza, no será el fuego lo que devore los cimientos, sino lo que el mar oculta. Donde antes hubo orden, la marea sembrará la duda; donde hubo valor, la espuma dejará miedo. Los guardianes, cuya mano nunca tembló al alzar la madera, sentirán el peso. Porque cuando la ola rompa contra las puertas del Ministerio, no habrá refugio para los pastores, solo el deber de ser el muro mientras el mundo, a sus espaldas, se ahoga en silencio".',
-          "critico": 'La voz se pierde en un eco. Una profecía naciente: "Cuando el metal de las insignias pierda su brillo ante el cielo ceniza, no será el fuego lo que devore los cimientos, sino lo que el mar oculta. Donde antes hubo orden, la marea sembrará la duda; donde hubo valor, la espuma dejará miedo. Los guardianes, cuya mano nunca tembló al alzar la madera, sentirán el peso. Porque cuando la ola rompa contra las puertas del Ministerio, no habrá refugio para los pastores, solo el deber de ser el muro mientras el mundo, a sus espaldas, se ahoga en silencio".',
-        },
-      },
+      "actions": {},
     },
     // fin the fortune of the three eyes
 
@@ -3198,109 +1480,9 @@ const MissionsModule = (function () {
 
       "cards": [],
 
-      "searchs": {
-        "ingresar a la cámara de las profecías": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "inefable", "name": "invalid", }, "place": "",
-          "cont": '<span>La cámara de las profecías cuenta con una interminable cantidad de estanterias que se abren durante todo el espacio. Si bien puede ser fácil perderse allí, los inefables pueden ver las señales que los guían a donde necesitan.</span>',
-        },
-        "investigar las estanterías": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ingresar a la cámara de las profecías",
-          "cont": '<span>Todas las estanterías parecen tener el mismo patrón. El mismo material de madera, donde se encuentran las profecías de diferentes tamaños. Además, todos los estantes, cuentan con letreros que citan «No Tocar».</span>',
-        },
-        "explicación letrero 'no tocar'": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "inefable", "name": "invalid", }, "place": "ingresar a la cámara de las profecías",
-          "cont": '<span>Las profecías están preparadas para guardar la información y que solo su lector pueda verla. Si alguien intenta tocar una profecía sin ser un inefable, recibirá una enfermedad que inflamará el cerebro produciendo locura o daños irreparables.</span>',
-        },
-        "organización de las estanterías": {
-          "visible": { "attr": { "int": "4" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "investigar las estanterías",
-          "cont": '<span>Si se presta atención, todas las profecías parecen estar numeradas y organizadas de mayor a menor. Aunque hay algunas que faltan. Los inefables conocen que aquellas que faltan son debido a que son profecías ya cumplidas que han sido descartadas de su lugar. Todas las profecías contienen la siguiente información: quién dictó la profecía y para quién correspondía. Las profecías que no están destinadas a una sola persona están marcadas como «Incierto».</span>',
-        },
-        "profecía sirius black": {
-          "visible": { "attr": { "int": "3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "organización de las estanterías",
-          "cont": '<span>La profecía de Sirius Black está ubicada en el estante número 12, doblando a la izquierda y superando unas tres estanterías adicionales. La profecía dicta que el vidente fue: Enfys Elleanore Holcomb y esta destinada a Sirius Black.</span>',
-        },
-        "tomar profecía de sirius black": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "inefable", "name": "invalid", }, "place": "profecía sirius black",
-          "cont": '<span>Solo un inefable puede conjurar las pinzas que toman la profecía y llevarla al pensadero, para poder leer su contenido.</span>',
-        },
-        "leer profecía de sirius black": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "tomar profecía de sirius black",
-          "cont": '<span>Tras ingresar la profecía al pensadero, la misma comienza a narrarse de manera que todos pueden escucharla: «Sobre la casa de los antiguos pesará una marca de luz y sombra. Todo aquel que herede el nombre de la estrella más brillante, heredará también el frío de un invierno prematuro. No busquéis al verdugo en tierras lejanas ni en campos de batalla, pues el final del Sirius siempre se escribe con tinta de su misma sangre. Una mano del mismo tronco cortará la rama que intenta florecer; pues en este linaje, el amor es traición, y el apellido, la propia mortaja. Morirá joven el nombre, morirá a manos de su cuna, hasta que no quede estrella que guíe a la estirpe en la oscuridad».</span>',
-        },
-        "uso de pensaderos": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "inefable", "name": "invalid", }, "place": "pensaderos",
-          "cont": '<span>Los pensaderos son utilizados para almacenar profecías y memorias de los inefables. A su vez, permiten la lectura de dichas profecías y memorias en un entorno seguro y controlado cuando no son los dueños o de quiénes la profecía habla.</span>',
-        },
-        "doblar a la derecha": {
-          "visible": { "attr": { "val": "min" }, "know": { "videncia": "10" }, "job": "invalid", "name": "invalid", }, "place": "seguir la voz",
-          "cont": '<span>La voz susurra en una dirección. Se la nota anciana, pero insistente «Debés escuchar. Escucha. El agua tiene memoria, sus murmullos intentan hablar».</span>',
-        },
-        "pasar tres estanterías": {
-          "visible": { "attr": { "val": "min" }, "know": { "videncia": "10" }, "job": "invalid", "name": "invalid", }, "place": "doblar a la derecha",
-          "cont": '<span>«Sigue, sigue, deja que el agua te lleve» persiste la voz de la mujer mientras lo guía por unas estanterías sin que el camino tenga sentido.</span>',
-        },
-        "doblar a la izquierda": {
-          "visible": { "attr": { "val": "min" }, "know": { "videncia": "10" }, "job": "invalid", "name": "invalid", }, "place": "pasar tres estanterías",
-          "cont": '<span>Al doblar a la izquierda, el vidente se encuentra frente a una puerta de madera oscura. La voz de la mujer se escucha más cerca, como si estuviera al otro lado de la puerta. «No te detengas, sigue el camino que te ha sido señalado».</span>',
-        },
-        "profecía latente": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "doblar a la izquierda",
-          "cont": '<span>Tras realizar todo el camino, puede verse en una de las estanterías una profecía cuyo humo interior brilla y se retuerce. Cualquiera de los prsentes puede tomarla, pues cualquiera de ellos podría tomar la profecía como propia: «Cerrasteis los ojos ante el fuego, creyendo que la oscuridad era refugio. Tapasteis vuestros oídos al grito del destino, pensando que el silencio era olvido. Pero el tiempo no perdona la soberbia de los que se creen eternos. Ya que no buscasteis el mañana, el mañana os dará caza a vosotros. No vendrá como un camino que recorrer, sino como un muro que se desploma; no será una advertencia que escuchar, sino el frío acero que ya os toca. Aquello que evitasteis mirar os encontrará en el rincón más oscuro, y cuando vuestra sangre reclame a su propia sangre bajo el nombre de la estrella, comprenderéis que el futuro no se espera... el futuro os devora.»</span>',
-        },
-        "profecía de aloysius keefe": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "intervención",
-          "cont": '<span>No muy lejos de donde los estantes crujen bajo el peso de verdades olvidadas, una esfera de cristal comienza a vibrar con una luminiscencia turbia. Su brillo, similar al de una tormenta atrapada en vidrio, parece alertar a quienes se atreven a escuchar.</span>',
-        },
-        "escuchar profecía de aloysius keefe": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "profecía de aloysius keefe",
-          "cont": '<span>Desde su interior, la voz de un hombre emerge en un susurro líquido y profundo, dictando una sentencia que parece empapar el aire de la sala: "Cuando el cielo se quiebre en silencio y olvido, llegará el agua sin previo rugido. Del mago la esencia será desnudada, sacando su parte más vil y malvada." El eco de la profecía se desvanece dejando un rastro de humedad antinatural en el ambiente, una advertencia de que la pureza de la magia no resistirá el embate de la marea que se avecina.</span>',
-        },
-        "profecía de roccius keefe": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "escuchar profecía de aloysius keefe",
-          "cont": '<span>Varias hileras más atrás, donde las sombras se vuelven más densas y el aire más gélido, una esfera de cristal pulsa con una luz plateada y rítmica. La etiqueta, que reza Roccius Keefe, delata que este presagio pertenece a una estirpe marcada por el destino, siendo considerablemente posterior a la visión de su antepasado Aloysius.</span>',
-        },
-        "escuchar profecía de roccius keefe": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "profecía de roccius keefe",
-          "cont": '<span>Al tomar la profecía, la voz cristalina de un niño surge del corazón del orbe, entonando una rima que parece flotar sobre el polvo del tiempo: "Días de calma y de sombras inciertas, abrirán paso a verdades desiertas. Cuando el agua a los magos logre alcanzar, solo manos unidas al sol podrán llegar." El mensaje, aunque cargado de una esperanza inusual en este lugar, deja un sabor amargo; la unión no es una opción, sino el último aliento antes de que el abismo los reclame.</span>',
-        },
-        "profecía de cuthbert selwyn": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "profecía de roccius keefe",
-          "cont": '<span>A escasa distancia del presagio de Roccius, el aire parece espesarse alrededor de una esfera que vibra con una autoridad gélida. El nombre inscrito en la etiqueta, Cuthbert Selwyn, resuena en la sala con el peso de la sangre pura y antiguas ambiciones, proyectando un brillo metálico que corta la penumbra.</span>',
-        },
-        "escuchar profecía de cuthbert selwyn": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "inefable", "name": "cuthbert", }, "place": "profecía de cuthbert selwyn",
-          "cont": '<span>La voz resonando en un eco de Cuthbert resuena dentro de la esfera: "Una ola negra borrará los nombres, caerá los sabios, caerá la magia. Si alza la vista y vence el temor, podrá advertir del gran error. Once cuervos sellaron el paso, tejieron la grieta, torcieron el lazo. Ya no es de uno, ni de un elegido: el poder se encuentra en lo compartido."</span>',
-        },
-        "profecía de theolonius covey": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "profecía de roccius keefe",
-          "cont": '<span>Allí, no muy lejos de la profecía de Selwyn, reposa una esfera inusualmente pequeña y de un cristal lechoso. Dictada por Theolonius Covey, esta profecía emite un pulso débil pero constante, como un corazón que late en el vacío.</span>',
-        },
-        "escuchar profecía de theolonius covey": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "inefable", "name": "invalid", }, "place": "profecía de theolonius covey",
-          "cont": '<span>El eco de la voz de Theonolius Covey resuena dentro de la profecía: "Cuando el metal de las insignias pierda su brillo ante el cielo ceniza, no será el fuego lo que devore los cimientos, sino lo que el mar oculta. Donde antes hubo orden, la marea sembrará la duda; donde hubo valor, la espuma dejará miedo. Los guardianes, cuya mano nunca tembló al alzar la madera, sentirán el peso. Porque cuando la ola rompa contra las puertas del Ministerio, no habrá refugio para los pastores, solo el deber de ser el muro mientras el mundo, a sus espaldas, se ahoga en silencio."</span>',
-        },
-      },
+      "searchs": {},
 
-      "actions": {
-        "veniens empathy": {
-          "leve": 'Una punzada desconocida recorre tu pecho. No sabes si es miedo, tristeza o algo más oscuro, pero permanece, como si no fuera tuya.',
-          "moderado": 'Te invade una emoción intensa y ajena. En tu mente, una imagen: tú, mirando al mar, sabiendo que algo se avecina. El miedo no es tuyo, pero te atrapa.',
-          "exitoso": 'El aire se torna denso, y una emoción clara surge en ti: desesperanza. No estás solo; puedes sentirla en todos los que estuvieron aquí antes. La tierra misma la recuerda.',
-          "critico": 'Una visión atraviesa tu cuerpo como una descarga: en este mismo lugar, pronto habrá llanto. Lágrimas verdaderas. Puedes sentirlas correr por tus mejillas sin saber por qué. Alguien grita, pero no de dolor: de pérdida.',
-        },
-        "murmura futuri": {
-          "leve": '<span>No es suficiente para revelar información.</span>',
-          "moderado": '<span>Una voz susurrante se escucha durante toda la cámara, pero solo es el vidente quién la puede escuchar. «Tienen que escuchar el pasado, estoy ya ha pasado». La voz parece provenir de un lugar en participar de la sala.<adding search="seguir la voz" class="check-cards"></adding></span>',
-          "exitoso": '<span>Una voz susurrante se escucha durante toda la cámara, pero solo es el vidente quién la puede escuchar. «Tienen que escuchar el pasado, estoy ya ha pasado». La voz parece provenir de un lugar en participar de la sala.<adding search="seguir la voz" class="check-cards"></adding></span>',
-          "critico": '<span>Una voz susurrante se escucha durante toda la cámara, pero solo es el vidente quién la puede escuchar. «Tienen que escuchar el pasado, estoy ya ha pasado». La voz parece provenir de un lugar en participar de la sala.<adding search="seguir la voz" class="check-cards"></adding></span>',
-        },
-        "revelio": {
-          "leve": '<span>No es suficiente para revelar información.</span>',
-          "moderado": '<span>Todas las estanterías revelan que en sus bordes cuentan con un pensadero.<adding search="pensaderos" class="check-cards"></adding></span>',
-          "exitoso": '<span>Todas las estanterías revelan que en sus bordes cuentan con un pensadero.<adding search="pensaderos" class="check-cards"></adding></span>',
-          "critico": '<span>Todas las estanterías revelan que en sus bordes cuentan con un pensadero.<adding search="pensaderos" class="check-cards"></adding></span>',
-        },
-      },
+      "actions": {},
     },
     // fin whispers of the future
 
@@ -3314,64 +1496,7 @@ const MissionsModule = (function () {
 
       "cards": [],
 
-      "searchs": {
-        "inspeccionar el faro": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>La puerta del lugar es de madera con detalles en hierro negro. Las instrucciones que les dieron, incluyen que deben tocar la misma tres veces, luego dos y luego tres veces de nuevo para que la misma se pueda abrir.</span>',
-        },
-        "historia del faro": {
-          "visible": { "attr": { "val": "min" }, "know": { "historia de la magia": "5" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>Se dice que el faro existía mucho antes de que existiera Hogwarts y el Ministerio. Una bruja lo había tomado y protegido contra muggles con la intención de poder guardar a los magos y brujas que huían de la cacería. Por lo tanto, sus habitantes solían ser mujeres y niños que solo buscaban un espacio para poder estar a salvo. Con el tiempo, la voz se fue corriendo, y toda clase de magos y brujas llegaron al lugar y comenzaron a grabar su historia en las piedras del mismo. Con el tiempo, el sitio quedó olvidado, pero su historia sigue escrita en las paredes.</span>',
-        },
-        "golpear las puertas 3-2-3 veces": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "inspeccionar el faro",
-          "cont": '<span>La puerta suena cuando se golpea la misma tres veces, luego dos y luego tres veces de nuevo. Luego de un momento, la misma se abre, permitiendo que todos los invitados puedan ingresar a la misma.</span>',
-        },
-        "inspeccionar primera planta": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "golpear las puertas 3-2-3 veces",
-          "cont": '<span>La prima planta es una sala redonda. Hay sillones que el tiempo ha corroído, un hogar que no ha visto el fuego en años. Hay pinturas en las paredes y una pequeña cocina con varios calderos que el tiempo ha terminado por destruir. Aquella parecía ser la entrada principal.</span>',
-        },
-        "subir las escaleras": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "inspeccionar primera planta",
-          "cont": '<span>Los escalones de concreto paren ser fiables mientras se avanza en una escalera que rodea la sala circular. Sin embargo, cuando comienzan a divisar la siguiente planta, pueden notar que parece más habitada que la planta que acaban de ver. La alfombra de un color rojo es nueva y toda la sala se encuentra limpia. Hay un escritorio cerca de una de las ventanas. Muebles de madera pulida y una chimenea que parece no dar a ningún lado.</span>',
-        },
-        "inspeccionar la chimenea": {
-          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "subir las escaleras",
-          "cont": '<span>Puede notarse que la chimenea, ha estado encendida con anterioridad. Un par de meses atrás, tal vez un año. Ya no hay rastro de calor, pero los troncos desaparecieron después de tanto tiempo. También pueden comprobar la bandeja de plata en forma de mano que guarda polvos flu.</span>',
-        },
-        "inspeccionar la pared": {
-          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "subir las escaleras",
-          "cont": '<span>Las pinturas de la pared, desgastadas con el paso del tiempo, parecen solo hojas y ramas, hasta que se presta atención a los mismos. Se trata de un árbol familiar, que crece frontodoso a medida que baja. Los apellidos son conocidos de todos los presentes: Black.</span>',
-        },
-        "inspeccionar el escritorio": {
-          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "subir las escaleras",
-          "cont": '<span>Al llegar al escritorio, pueden encontrar un florero que solía contener rosas, pergaminos en blanco y correspondencias cuyo destinatario no era nada más y nada menos que Sirius Black.</span>',
-        },
-        "abrir correspondencia": {
-          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "inspeccionar el escritorio",
-          "cont": '<span>Al abrir la correspondencia, pueden encontrar un correo ordenado de lo más reciente a lo más viejo. Cartas que Sirius guardó allí, en el lugar que más seguro le parecía.</span>',
-        },
-        "abrir correspondencia dempsey-ago1952": {
-          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir correspondencia",
-          "cont": '<span><span class="book-clipping"><span class="notebook">Black.<br><br>Ya le he respondido a Edwin mi opinión, pero te envío su misiva y la mía. Tiene razón. Hemos ido demasiado lejos. Dirás que me estoy dejando llevar por su paternalismo y yo te diré que tienes razón, así como que quieres seguir investigando porque somos tus únicos amigos.<br><br>Edwin se ofreció a cocinar. Diría que sí. Una vez al mes. Por los buenos tiempos. Fuimos en busca del tesoro perdido y encontramos rocas.<br><br>Quememos todo. No quiero dejar ningún rastro. No creo que lo que encontramos sea apto para todos y muchos se espantarán de nuestro pasado como sociedad y yo tendré que señalar la horrible pintura de tu faro con todos tus familiares más antiguos. Sé que te estás riendo mientras lees esto.<br><br>Vengan el viernes a casa. Edwin dijo que se irá temprano porque tiene el estúpido campamento con sus hijos. Puedo hacer un budín de limón y nos reiremos de cómo los tres terminamos cayéndonos bien.<br><br>Seguiré deseando que te pise un troll y te diré lo mismo que le dije a Merrythought, no seas un viejo sentimental, quema esta carta.<br><br>Morgana.<br>26 de agosto de 1952.<br><br>PD: Sé que dijiste que diste todo el veneno de Toxinho, pero si te quedó algo, tráelo. Creo que necesitamos probar ese mal viaje. Luego le decimos a Edwin que es jugo de uva.</span><br></span></span>',
-        },
-        "abrir correspondencia merrythought-ago1952": {
-          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir correspondencia",
-          "cont": '<span><span class="book-clipping"><span class="notebook">Morgana, creo que esto no está yendo por donde debería ir.&nbsp;<br><br>Siento si no estoy muy elocuente; son tiempos de locos. El departamento está más colapsado que nunca.&nbsp;<br><br>Comienzo a cuestionarme si estamos haciendo lo correcto. Al final, siento que somos tres viejos yendo por una aventura que está más allá de nuestras obligaciones. Fue divertido, no lo niego, pero ¿no estamos yendo demasiado lejos?<br><br>A mí también me gustaría formar un grupo que diera con las soluciones que más necesitamos. Armar un centro de investigación propiamente dicho que se encargue de las tareas que nosotros estamos realizando ahora. Nosotros no tenemos el tiempo. Parte de ser un buen líder es saber cuándo delegar. No soy el mejor astrónomo ni el mejor herbólogo, solo soy un auror que sabe que no puede salvar el mundo.<br><br>Necesitamos llegar a un cierre. ¿Cuál es nuestro criterio de cierre? ¿Cuándo terminamos? Si es por la compañía, puedo ir y cocinarles el día que quieran. Ya lo conocemos a Black; dirá que no, pero siempre podemos usar la casa de mi madre si es necesario.<br><br>Creo que lo que podemos concluir de todo esto es que fracasamos. No logramos lo que queríamos lograr. Es tiempo de centrarnos en lo que realmente importa y eso es la gente. Uno de nosotros tres será Ministro de Magia. No podemos seguir jugando a ser... ni siquiera sé qué somos. ¿Tres mosqueteros?&nbsp;<br><br>Habla con Black; a mí me dirá que soy moralmente correcto. Enterremos toda la investigación en el jardín de mi madre y olvidemos todo esto.<br><br>Saludos,<br>Eddie. 26 de agosto de 1952.</span><br></span></span>',
-        },
-        "abrir correspondencia dempsey-abr1952": {
-          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir correspondencia",
-          "cont": '<span><span class="book-clipping"><span class="notebook">Black, ¿necesito recordarte que tengo mejores cosas que hacer que mirar la punta de mis zapatos para ver si están limpios? Algunas personas trabajamos.<br><br>Prometimos mantener los encuentros de los tres en secreto, pero es difícil cuando te presentas en el hospital y no me importan los planos para una nueva ala ni el dinero que quieras poner como excusa. Te esperas como cualquier otra persona decente a que tenga tiempo para escribirte.<br><br>Lo que solo tardé dos días en responderte es porque tenía que escribirle a un contacto. Es un alquimista brasileño. Él me dio instrucciones para tratar con una planta en particular. Le dije que si sabe algo, te escriba.&nbsp;<br><br>No es necesario que vayas a Brasil. No todo puede solucionarse con dinero. Sé un buen niño educado y espera paciente como todas las malditas personas.<br><br>Que te pise un troll.<br>Morgana.</span><br></span></span>',
-        },
-        "traducción correspondencia diogo-abr1952": {
-          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir correspondencia diogo-abr1952",
-          "cont": '<span><span class="book-clipping"><span class="notebook">Estimado señor Black.<br><br>Mi nombre es Diogo, soy un amigo de la señorita Morgana. A ella le gusta llamarme alquimista. No soy tan buen alquimista, pero trabajo en una buena zona.&nbsp;<br><br>Me dijo que lo que están buscando es algo para poder detener las transformaciones a hombre lobo de algunas personas. Me mandó sus notas con todo lo que tenía sobre su hermana Merlina. No sé si tengo lo necesario para detener la transformación, pero tengo algo que puede llegar a aliviarles la conciencia. Le enviaré unos frascos con unas muestras.<br><br>Ustedes no lo conocen, pero hay una pequeña raza aquí, muy sociable, aun así muy oculta. Crecen en la región de Coração do Curupira. Una de las zonas más peligrosas de Brasil. Yo tengo uno siempre conmigo, lo llamo Toxihno. Le he mandado muestras de su veneno.&nbsp;<br><br>Vera Toxinho tiene un veneno particular, no te mata... no obstante, la mente viaja a lugares que nunca habían visto. Algunas personas disuelven una gota en tres litros de agua con limón para ayudar con la concentración.&nbsp;<br><br>Lamentablemente, es todo lo que he podido enviarle. Mi Toxinho está viejo. No lo beba usted; déjeselo a alguien que sepa manipular pociones. Morgana me dijo que usted para lo único que sirve es para pagar dinero.<br><br>Suerte,<br>Diogo.</span><br></span></span>',
-        },
-        "abrir correspondencia diogo-abr1952": {
-          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir correspondencia",
-          "cont": '<span><span class="book-clipping"><span class="notebook" style="font-family: Banana Moonpie Free; font-size: 14px;">Prezado senhor Black,<br><br>Meu nome é Diogo, sou um amigo da senhorita Morgana. Ela gosta de me chamar de alquimista. Não sou um alquimista tão bom assim, mas trabalho numa boa região.<br><br>Ela me disse que o que vocês estão procurando é algo para conseguir deter as transformações de algumas pessoas em lobisomem. Ela me mandou suas anotações com tudo o que tinha sobre sua irmã Merlina. Não sei se tenho o necessário para parar a transformação, mas tenho algo que pode chegar a aliviar a consciência de vocês. Enviarei alguns frascos com algumas amostras.<br><br>Vocês não conhecem, mas há uma pequena raça aqui, muito sociável, e ainda assim muito oculta. Eles crescem na região do Coração do Curupira. Uma das áreas mais perigosas do Brasil. Eu sempre tenho um comigo, eu o chamo de Toxinho. Enviei-lhe amostras do veneno dele.<br><br>Veja bem, Toxinho tem um veneno particular, não mata... no entanto, a mente viaja para lugares que nunca tinham visto. Algumas pessoas dissolvem uma gota em três litros de água com limão para ajudar na concentração.<br><br>Infelizmente, é tudo o que pude lhe enviar. Meu Toxinho está velho. Não beba o senhor mesmo; deixe para alguém que saiba manipular poções. Morgana me disse que a única coisa para a qual o senhor serve é para dar dinheiro.<br><br>Boa sorte,<br>Diogo.</span><br></span></span>',
-        },
-      },
+      "searchs": {},
 
       "actions": {},
     },
@@ -3386,85 +1511,12 @@ const MissionsModule = (function () {
       "type": "investigación", "closed": true, "fecha": "1953-01-23", "link": "https://blackwave.foroactivo.com/t837-investigacion-bottle-of-sorrows", "tagged": ["morgana", "capitulo 0"],
 
       "cards": [
-        {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "viridian", }, "place": "",
-          "cont": '<span>Con su experiencia en pociones, puede reconocer que todo elixir que posea ese brillo y ese aroma no puede estar demasiado lejos de ser un veneno o efectos no del todo positivos. Podría recomendar al resto no pobrar la poción.</span>',
-        }
+        {"visible":{"attr":{"val":"min"},"know":{"val":"min"},"job":"invalid","name":"viridian"},"place":"","cont":"<span>Con su experiencia en pociones, puede reconocer que todo elixir que posea ese brillo y ese aroma no puede estar demasiado lejos de ser un veneno o efectos no del todo positivos. Podría recomendar al resto no pobrar la poción.</span>"},
       ],
 
-      "searchs": {
-        "probar la poción": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>Los primeros síntomas generan un tipo de somnolencia, provocando que el personaje le cueste mantener los ojos abiertos. El cosquilleo en las extremidades es lo primero que se siente, antes de que todo el cuerpo entre en parálisis. Además de eso, la persona sentirá que todas sus emociones se encuentran totalmente apagadas, recibiendo solo un atisbo de ellas. El personaje no podrá realizar acciones o moverse, hasta que no se lo libere.</span>',
-        },
-        "antídoto para el elixir de morgana": {
-          "visible": { "attr": { "val": "min" }, "know": { "pociones": "15" }, "job": "invalid", "name": "invalid", }, "place": "probar la poción",
-          "cont": '<span>La preparación del antídoto para Veneno Rosa, suena como una excelente posibilidad para recuperar el personaje que ha bebido el elixir.</span>',
-        },
-        "parecido con veneno color rosa": {
-          "visible": { "attr": { "val": "min" }, "know": { "pociones": "15" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>El veneno color rosa, de un tono chillón de rosa, es una toxina de acción rápida que ataca el sistema nervioso, provocando un estado inicial de euforia seguido de desorientación, debilidad muscular y, finalmente, una parálisis progresiva. Por alguna razón, y aunque el elixir tiene un color diferente, mantiene una estructura similar.</span>',
-        },
-        "información de muted magic": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "o", }, "place": "intervención",
-          "cont": '<span>Durante la investigación Muted Magic, donde investigaron los diarios de Morgana, habían encontrado una carta que indicaba que un buen inhibidor de los alelos licántropos podía llegar a ser la lágrima de mandrágora en estado puro. Sin embargo, iba acompañada de una lista de contras. Para quien lo ingería, en caso de que la proporción no fuera la correcta, podía generar parálisis total o, incluso, muerte. Para quien la recolectaba, las expectativas de vida eran parecidas, debido a que su llanto es fatal. Incluso, en el diario, encontraron una nota de Morgana indicando que ese no era el mejor camino a tomar. Textualmente: «No, gracias». Sin embargo, todo parecería indicar que no encontró mejor solución.</span>',
-        },
-        "efectos de las lágrimas de mandrágora en la poción": {
-          "visible": { "attr": { "val": "min" }, "know": { "pociones": "15" }, "job": "invalid", "name": "invalid", }, "place": "información de muted magic",
-          "cont": '<span>Al revisar la lista de ingredientes, suponiendo que el último ingrediente son lágrimas de mandrágora se podría concluir que los efectos son suficientes como para dejar incapacitado a un gigante.</span>',
-        },
-        "sobre las lágrimas de mandrágora": {
-          "visible": { "attr": { "val": "min" }, "know": { "herbología": "15" }, "job": "invalid", "name": "invalid", }, "place": "información de muted magic",
-          "cont": '<span>Las lágrimas de mandrágora son extremadamente valiosas y peligrosas. Se dice que su llanto es mortal para quien lo recolecta, y que solo pueden ser utilizadas en proporciones mínimas para evitar efectos letales. Se intentó en varias ocasiones, sin embargo, herbologos de todas partes del mundo continuaban muriendo a causa del llanto de la planta. Finalmente, se dejó de intentar y comenzó a utilizarse únicamente sus raíces, pues eran más fáciles de recolectar.</span>',
-        },
-        "historia de las lágrimas": {
-          "visible": { "attr": { "val": "min" }, "know": { "historia de la magia": "10" }, "job": "invalid", "name": "invalid", }, "place": "sobre las lágrimas de mandrágora",
-          "cont": '<span>Durante muchos años se intentó la manera de recolectar este líquido. Dado que, en los primeros siglos donde se registró la magia, se utilizaba como un potente antídoto que, mezclado con las hierbas correctas, anulaba cualquier rastro de dolor. Sin embargo, el peligro de su recolección y las muertes que produjo, generó que en el XII, comenzara a recomendarse el uso de las raíces. Para cuando el Ministerio se formó, muchos años después, prohíbieron la comercialización de dichas lágrimas con el fin de evitar más muertes.</span>',
-        },
-        "alcance de la poción": {
-          "visible": { "attr": { "val": "min" }, "know": { "alquimia": "10" }, "job": "invalid", "name": "invalid", }, "place": "efectos de las lágrimas de mandrágora en la poción",
-          "cont": '<span>Si se tiene en cuenta que la poción buscaba aplicarse en licantropos, podría concluirse que si una persona tomaba la poción antes de la luna llena, lograría mantener su cuerpo paralisado durante todo el efecto de la luna. Recuperando la consciencia unas 12 o 15 horas después de haber ingerido la misma.</span>',
-        },
-        "conclusión de la poción": {
-          "visible": { "attr": { "val": "min" }, "know": { "curación": "15" }, "job": "invalid", "name": "invalid", }, "place": "efectos de las lágrimas de mandrágora en la poción",
-          "cont": '<span>Lo que Morgana logró no fue inhibir los alelos licantropos de su hermana, sino generar una poción tan potente que la mantendría inconsciente durante toda su transición de luna llena, recuperando la consciencia cuando el proceso hubiera terminado, se transformara o no. No era una solución a la licantropía, era un parche para evitar que Merlina se volviera peligrosa para ella o demás personas durante la luna llena.</span>',
-        },
-        "replicar la poción": {
-          "visible": { "attr": { "val": "min" }, "know": { "pociones": "15" }, "job": "invalid", "name": "invalid", }, "place": "efectos de las lágrimas de mandrágora en la poción",
-          "cont": '<span>Por mucho que deseen intentar replicar la poción, la única forma de lograrlo sería poder recolectar lágrimas de mandrágora, las cuales, al no ser comercializables requerirán seguir los pasos de Morgana para descubrir dónde consiguió ella las mismas para elaborar aquella poción.</span>',
-        },
-        "revisar al ratón": {
-          "visible": { "attr": { "val": "min" }, "know": { "pociones": "15" }, "job": "invalid", "name": "invalid", }, "place": "efectos de las lágrimas de mandrágora en la poción",
-          "cont": '<span>Al revisar la jaula donde se encontraba el pequeño ratón, pueden descubrir que, aunque la poción hizo efecto, la ingesta era demasiado para alguien de su tamaño y, en conclusión, ha fallecido.</span>',
-        },
-      },
+      "searchs": {},
 
-      "actions": {
-        "revelio potionis": {
-          "leve": '<span>Paso #1: no es suficiente para revelar información.</span>',
-          "moderado": '<span>Paso #1: Permite identificar los siguientes ingredientes: Tentáculo de Murtlap, Lavanda seca, Cuerno en polvo de Bicornio, Agua de Luna, veneno de Acromántula, Hojas de Belladona y un ingrendiente adicional que no se llega a reconocer.</span>',
-          "exitoso": '<span>Paso #1: Permite identificar los siguientes ingredientes: Tentáculo de Murtlap, Lavanda seca, Cuerno en polvo de Bicornio, Agua de Luna, veneno de Acromántula, Hojas de Belladona y un ingrendiente adicional que no se llega a reconocer.</span>',
-          "critico": '<span>Paso #1: Permite identificar los siguientes ingredientes: Tentáculo de Murtlap, Lavanda seca, Cuerno en polvo de Bicornio, Agua de Luna, veneno de Acromántula, Hojas de Belladona y un ingrendiente adicional que no se llega a reconocer.</span>',
-        },
-        "ignis mortis": {
-          "leve": '<span>Paso #2: Permite sin reconocer la sustancia original, que fue agregada en escencia pura.</span>',
-          "moderado": '<span>Paso #2: Permite sin reconocer la sustancia original, que fue agregada en escencia pura.</span>',
-          "exitoso": '<span>Paso #2: Permite sin reconocer la sustancia original, que fue agregada en escencia pura.</span>',
-          "critico": '<span>Paso #2: Permite sin reconocer la sustancia original, que fue agregada en escencia pura.</span>',
-        },
-        "unus multis": {
-          "leve": '<span>Paso #3: Al realizarse copias y analisis de las mismas, se puede llegar a la conclusión de que el elixir mantiene propiedades que generan un bloqueo emocional y parálisis.</span>',
-          "moderado": '<span>Paso #3: Al realizarse copias y analisis de las mismas, se puede llegar a la conclusión de que el elixir mantiene propiedades que generan un bloqueo emocional y parálisis.</span>',
-          "exitoso": '<span>Paso #3: Al realizarse copias y analisis de las mismas, se puede llegar a la conclusión de que el elixir mantiene propiedades que generan un bloqueo emocional y parálisis.</span>',
-          "critico": '<span>Paso #3: Al realizarse copias y analisis de las mismas, se puede llegar a la conclusión de que el elixir mantiene propiedades que generan un bloqueo emocional y parálisis.</span>',
-        },
-        "ut solem creare aliquid novi": {
-          "leve": '<span>Paso #4: No es suficiente para revelar información.</span>',
-          "moderado": '<span>Paso #4: Al acelerar la fermentacion de la sustancia, permitiendo su transformación en nuevos compuestos con propiedades alteradas, pueden llegar a la siguiente conclusión: El componente desconocido es la causa del bloqueo emocional y la parálisis corporal, mientras que los ingredientes conocidos refuerzan los alelos propios de los magos y brujas. Notificar al staff cuando tengan los cuatro pasos completados.</span>',
-          "exitoso": '<span>Paso #4: Al acelerar la fermentacion de la sustancia, permitiendo su transformación en nuevos compuestos con propiedades alteradas, pueden llegar a la siguiente conclusión: El componente desconocido es la causa del bloqueo emocional y la parálisis corporal, mientras que los ingredientes conocidos refuerzan los alelos propios de los magos y brujas. Notificar al staff cuando tengan los cuatro pasos completados.</span>',
-          "critico": '<span>Paso #4: Al acelerar la fermentacion de la sustancia, permitiendo su transformación en nuevos compuestos con propiedades alteradas, pueden llegar a la siguiente conclusión: El componente desconocido es la causa del bloqueo emocional y la parálisis corporal, mientras que los ingredientes conocidos refuerzan los alelos propios de los magos y brujas. Notificar al staff cuando tengan los cuatro pasos completados.</span>',
-        },
-      },
+      "actions": {},
     },
     // fin bottle of sorrows
 
@@ -3478,95 +1530,9 @@ const MissionsModule = (function () {
 
       "cards": [],
 
-      "searchs": {
-        "secciones del cuaderno": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>El cuaderno se encuentra separado en 8 partes correspondientes a cada fase lunar. Entre cada parte hay hojas en blanco con anotaciones de Morgana o información adicional.</span>',
-        },
-        "luna nueva": {
-          "visible": { "attr": { "val": "min" }, "know": { "curación": "5" }, "job": "invalid", "name": "invalid", }, "place": "secciones del cuaderno",
-          "cont": '<span class="book-clipping"><u><strong>LUNA NUEVA</strong></u><br><br><strong>Se observan los siguientes comportamientos</strong>: Introspección profunda. Periodo de calma forzada, reclusión. Aislamiento voluntario para planear cómo manejar la siguiente fase.<br><br><strong>Emociones frecuentes</strong>: Serenidad, pero con una melancolía subyacente. Establece intenciones para el ciclo.<br><br><strong>Alelos Genéticos</strong>: Baja: 1/8. El gen licántropo está en su punto de menor expresión, casi inactivo.<br></span>',
-        },
-        "luna creciente": {
-          "visible": { "attr": { "val": "min" }, "know": { "curación": "5" }, "job": "invalid", "name": "invalid", }, "place": "secciones del cuaderno",
-          "cont": '<span class="book-clipping"><u><strong>LUNA CRECIENTE</strong></u><br><br><strong>Se observan los siguientes comportamientos</strong>: Iniciativa para pequeñas tareas sociales o mágicas. Busca amistad y apoyo emocional. Nutre planes o relaciones iniciadas en la Luna Nueva.<br><br><strong>Emociones frecuentes</strong>: Optimismo, cautela. Ligeros picos de suerte o éxito en tareas menores.<br><br><strong>Alelos Genéticos</strong>: Baja-Media: 2/8. El gen comienza a "despertar", incrementando ligeramente la sensibilidad a ruidos o movimientos.<br></span>',
-        },
-        "luna cuarto creciente": {
-          "visible": { "attr": { "val": "min" }, "know": { "curación": "5" }, "job": "invalid", "name": "invalid", }, "place": "secciones del cuaderno",
-          "cont": '<span class="book-clipping"><u><strong>LUNA CUARTO CRECIENTE</strong></u><br><br><strong>Se observan los siguientes comportamientos</strong>: Actúa con fuerza y determinación para lograr una intención. Periodos de gran creatividad mental o mágica. Ciertos cierres o resoluciones de problemas.<br><br><strong>Emociones frecuentes</strong>: Calma superficial, pero con aumento de la motivación y la energía física. Irritabilidad creciente si se frustra.<br><br><strong>Alelos Genéticos</strong>: Media: 4/8. La mitad de la influencia lunar. Aumento notable de la energía y la necesidad de movimiento. Primeros indicios de una postura más defensiva.<br></span>',
-        },
-        "luna creciente gibosa": {
-          "visible": { "attr": { "val": "min" }, "know": { "curación": "5" }, "job": "invalid", "name": "invalid", }, "place": "secciones del cuaderno",
-          "cont": '<span class="book-clipping"><u><strong>LUNA CRECIENTE GIBOSA</strong></u><br><br><strong>Se observan los siguientes comportamientos</strong>: Revisar y doble-chequear planes. Muestra paciencia extrema. Aumenta la perspectiva sobre su condición. Puede mostrar colaboración si se siente segura.<br><br><strong>Emociones frecuentes</strong>: Tranquilidad forzada. Sentimiento de gestación o espera inminente. Ligeros temblores o inquietud nocturna.<br><br><strong>Alelos Genéticos</strong>: Alta: 6/8. El gen está a un nivel de expresión crítica. La biología se prepara para la transformación. Aumento de la fuerza muscular y la agudeza sensorial.<br></span>',
-        },
-        "luna llena": {
-          "visible": { "attr": { "val": "min" }, "know": { "curación": "5" }, "job": "invalid", "name": "invalid", }, "place": "secciones del cuaderno",
-          "cont": '<span class="book-clipping"><u><strong>LUNA LLENA</strong></u><br><br><strong>Se observan los siguientes comportamientos</strong>: Máximo potencial de romance o sanación antes de la transformación. Muestra claridad momentánea sobre su estado. Necesidad de dejar ir y corregir viejas heridas. Carga energía (si se le permite el ritual). Transformación Licántropa.<br><br><strong>Emociones frecuentes</strong>: Exaltación, picos de ansiedad, y finalmente la rendición a la transformación. Miedo seguido de ira/salvajismo.<br><br><strong>Alelos Genéticos</strong>: Máxima: 8/8. Expresión total del gen licántropo. Alteración completa del sistema nervioso y físico.<br></span>',
-        },
-        "luna menguante gibosa": {
-          "visible": { "attr": { "val": "min" }, "know": { "curación": "5" }, "job": "invalid", "name": "invalid", }, "place": "secciones del cuaderno",
-          "cont": '<span class="book-clipping"><u><strong>LUNA MENGUANTE GIBOSA</strong></u><br><br><strong>Se observan los siguientes comportamientos</strong>: Generosidad post-transformación (si la transformación fue "exitosa"). Necesidad de purificación y descanso. Se esfuerza por romper con la sensación de maldición.<br><br><strong>Emociones frecuentes</strong>: Alivio, dolor físico. Sentimiento de abundancia de vida, aunque agotador. Intenta cosechar los frutos de su introspección.<br><br><strong>Alelos Genéticos</strong>: Alta: 6/8. El gen retrocede rápidamente, pero los efectos residuales (dolor, fatiga) son altos. El cuerpo está en modo de recuperación intensiva.<br></span>',
-        },
-        "luna cuarto menguante": {
-          "visible": { "attr": { "val": "min" }, "know": { "curación": "5" }, "job": "invalid", "name": "invalid", }, "place": "secciones del cuaderno",
-          "cont": '<span class="book-clipping"><u><strong>LUNA CUARTO CRECIENTE</strong></u><br><br><strong>Se observan los siguientes comportamientos</strong>: Se enfoca en la limpieza y purga de su entorno. Selección estricta de sus prioridades. Busca activamente la conclusión de temas pendientes.<br><br><strong>Emociones frecuentes</strong>: Sentimiento de reflexión profunda. Cierta frialdad emocional o desapego (para poder dejar ir las toxinas emocionales del ciclo).<br><br><strong>Alelos Genéticos</strong>: Media: 4/8. El gen sigue disminuyendo. Recuperación emocional más lenta que la física. Vuelve a una línea base de control.<br></span>',
-        },
-        "luna menguante": {
-          "visible": { "attr": { "val": "min" }, "know": { "curación": "5" }, "job": "invalid", "name": "invalid", }, "place": "secciones del cuaderno",
-          "cont": '<span class="book-clipping"><u><strong>LUNA MENGUANTE</strong></u><br><br><strong>Se observan los siguientes comportamientos</strong>: Necesidad de descanso y recuperación total. Muestra gran sabiduría al compartir sus aprendizajes. Símbolo de renacimiento personal después de la "muerte" del ciclo anterior.<br><br><strong>Emociones frecuentes</strong>: Profunda rendición al proceso. Una sanación mental y emocional que la prepara para la Luna Nueva.<br><br><strong>Alelos Genéticos</strong>: Baja-Media: 2/8. El gen está casi en el nivel de reposo. El cuerpo prioriza la curación celular y el descanso profundo.<br></span>',
-        },
-        "sobre: explicación de la marea lunar de nuestro querido amiguito": {
-          "visible": { "attr": { "val": "min" }, "know": { "curación": "5" }, "job": "invalid", "name": "invalid", }, "place": "luna cuarto creciente",
-          "cont": '<span class="book-clipping"><span class="notebook">Estimada señorita Dempsey,<br><br>Por petición de Amaya respondo a su consulta, pero quisiera dejar en claro que, la astronomía, para mí, es solo un pasatiempo. Prefiero dedicar mis conocimientos en la seguridad. Sin embargo, he aceptado formar parte de esta investigación y responderé la consulta que me presenta.<br><br>He analizado tus datos sobre la progresión de los alelos licántropos de tu hermana a lo largo del ciclo lunar. Mi teoría propone que la expresión del gen licántropo no es un simple interruptor de encendido/apagado, sino que funciona al igual que la marea, impulsada por la misma fuerza gravitacional que afecta a los océanos de nuestro planeta.<br><br>Las mareas terrestres son el resultado de la atracción gravitacional de la Luna, principalmente, y el sol sobre la tierra.<br><br>Durante el punto más alto, el agua se abulta en el lado de la Tierra más cercano a la luna y, crucialmente, también en el lado opuesto, debido a la inercia y al centro de la masa del sistema Tierra-Luna. Mientras que el punto más bajo ocurre en las zonas intermedias.<br><br>La masa de la Luna, al alcanzar su máximo potencial de visibilidad (lo que conocemos como Luna Llena), ejerce una atracción gravitacional que estimula directamente la expresión de los alelos licántropos en el torrente sanguíneo, el sistema nervioso o el cerebro.<br><br>La variación de los alelos, tu escala de 1/8 a 8/8, calca perfectamente el ciclo de una marea alta, luna llena, y una marea baja, luna nueva.<br><br>Desde la luna nueva, donde se genera la mínima influencia, la marea genética está en su punto más bajo. Los alelos están en estado de latencia, lo que explica la calma y la introspección. <br><br>Durante las lunas crecientes, el campo gravitacional percibido aumenta progresivamente. La energía lunar empieza a atraer o activar la expresión genética. Esto se traduce en el aumento de la energía, la creatividad y la irritabilidad.<br><br>El pico se produce durante la luna llena, la marea genética alcanza su punto máximo de expresión y saturación. Esto provoca la reacción biológica extrema de la transformación. La concentración de los alelos activos es tan alta que sobrepasa el umbral de control mágico o mental. <br><br>Inmediatamente después de la luna llena, la influencia decrece, y el cuerpo entra en un estrado de drenaje y purificación.<br><br>Por supuesto, mis conocimientos de sanación, se basan en curar rápidamente compañeros de trabajo, por lo tanto, no podría ayudarla con cuáles son los siguientes pasos para que enfoque sus intervenciones. <br><br>Sin embargo, dado el puesto de trabajo que ostento y aunque sus intenciones sean buenas, tengo que comentar mi desacuerdo con documentos oficiales en relación con su hermana. Si por el momento guardo silencio se debe a las promesas que le he hecho a Amaya y porque sé que Merlina es inocente de todos los sucesos acontecidos. Pese a eso, si intuyo que algún movimiento excede la protección de su hermana como licántropo, activaré las investigaciones correspondientes. En otras palabras, agradecería que, cualquier acción ilegal, la mantenga alejada de mi conocimiento.<br><br>Espero que esta analogía ayude a estructurar su investigación. La luna no solo se ilumina, también empuja. <br>Suerte con su búsqueda, espero, por el bien de los hombres lobos, que tenga éxito. <br><br>Saludos,<br>Edwin Merrythought.<br>2 de septiembre de 1938.</span><br></span>',
-        },
-        "sobre: opinión de tratamiento médico": {
-          "visible": { "attr": { "val": "min" }, "know": { "curación": "5" }, "job": "invalid", "name": "invalid", }, "place": "luna menguante gibosa",
-          "cont": '<span class="book-clipping"><span class="notebook">Señorita Dempsey,<br><br>Tras revisar sus notas sobre el estado de Merlina en sus diferentes estados de transformación, mi diagnóstico es claro: el cuerpo sufre un «síndrome de resaca celular». Cuando los alelos bajan de 8/8 a 6/8 bruscamente, el tejido muscular y óseo queda exhausto por la contracción acelerada.<br><br>Mi opinión profesional es que cualquier tratamiento debe evitar los sedantes mágicos fuertes en esta fase; el hígado ya está procesando el exceso de toxinas licántropas y añadir pociones para dormir podría inducir un coma. Recomiendo baños de sales para drenar la energía estática de los músculos y una dieta rica en hierro para recuperar la sangre perdida en la regeneración. La sanación aquí no es solo física, es homeostática. Hay que convencer al cuerpo de que la marea ya se ha ido.<br><br>Adjunto diferentes ideas que pueden llegar a recuperar el estado de su hermana y las notas que llevan a mis conclusiones.<br><br>Gracias por permitir que me quede en el anonimato, entenderás que no todos quieren estar relacionados con alguien como tú, excluiré la condición de Merlina de mi decisión, ella no tiene la culpa.<br></span></span>',
-        },
-        "conclusión notas fibras musculares": {
-          "visible": { "attr": { "val": "min" }, "know": { "curación": "10" }, "job": "invalid", "name": "invalid", }, "place": "sobre: opinión de tratamiento médico",
-          "cont": '<span class="book-clipping"><strong>Análisis de fibras musculares tras el retroceso de la fase 8/8 a 6/8</strong>:<br><br>Al observar las muestras de tejido de Merlina apenas doce horas después de la reversión, las células presentan una distorsión por tracción. No es una herida externa, es una fatiga estructural. El paso de la morfología loba a la humana en un tiempo tan reducido obliga a las mitocondrias mágicas a trabajar al triple de su capacidad. Suministrar un sedante fuerte ahora sería como intentar apagar un incendio inundando los cimientos: el sistema colapsaría por exceso de presión, no por falta de descanso.</span>',
-        },
-        "conclusión notas conteo de hematíes": {
-          "visible": { "attr": { "val": "min" }, "know": { "curación": "10" }, "job": "invalid", "name": "invalid", }, "place": "sobre: opinión de tratamiento médico",
-          "cont": '<span class="book-clipping"><strong>Conteo de hematíes en la fase de Luna Menguante Gibosa</strong>:<br><br>He detectado una anemia súbita y severa justo cuando la marea genética, como la has llamado, empieza a retirarse. La regeneración acelerada de heridas y el cambio de pelaje a piel consumen las reservas de hierro de forma voraz. Si no se repone mediante una dieta específica, el cuerpo empezará a canibalizar su propia energía vital para mantener la temperatura corporal. La palidez de Merlina no es por el trauma, es por el consumo interno de recursos.</span>',
-        },
-        "conclusión notas conductividad eléctrica en la piel": {
-          "visible": { "attr": { "val": "min" }, "know": { "curación": "10" }, "job": "invalid", "name": "invalid", }, "place": "sobre: opinión de tratamiento médico",
-          "cont": '<span class="book-clipping"><strong>Medición de la conductividad eléctrica en la piel post-transformación</strong>:<br><br>El cuerpo de un licántropo retiene una carga residual de magia lunar que yo llamo "energía estática de marea". Esta carga mantiene los músculos en un estado de tensión involuntaria (micro-espasmos). Los baños de sales no son un lujo estético, Morgana; actúan como un polo a tierra. El sodio y el magnesio en el agua atraen esa estática hacia afuera, permitiendo que las fibras musculares finalmente "suelten" la forma del lobo y acepten la forma humana.</span>',
-        },
-        "conclusión notas toxinas en el torrente sanguíneo": {
-          "visible": { "attr": { "val": "min" }, "know": { "curación": "10" }, "job": "invalid", "name": "invalid", }, "place": "sobre: opinión de tratamiento médico",
-          "cont": '<span class="book-clipping"><strong>Filtración de toxinas en el torrente sanguíneo</strong>:<br><br>Durante la transformación, el metabolismo cambia tan rápido que genera subproductos químicos que el hígado humano no está diseñado para procesar en grandes cantidades. Mis notas indican que el hígado de Merlina está operando al límite de su capacidad metabólica durante la Luna Menguante. Cualquier poción compleja o "filtro de sueño" adicional en este momento actuaría como un veneno, ya que el órgano simplemente no tendría cómo filtrarlo. Debemos limpiar el filtro antes de añadir más líquido.</span>',
-        },
-        "sobre: sugerencia de ingredientes de nuestro querido amiguito": {
-          "visible": { "attr": { "val": "min" }, "know": { "curación": "5" }, "job": "invalid", "name": "invalid", }, "place": "luna cuarto menguante",
-          "cont": '<span class="book-clipping"><span class="notebook">Morgana,<br><br>Si vas a intentar fabricar un regulador que logre limitar los efectos lunares en los cuerpos de tu hermana, necesitarás componentes que actúen como «anclas» o «diques» para frenar el flujo genético. <br><br>Sé que mi rigidez legal te exaspera y que ves en mi prudencia un obstáculo para tu ambición. No pretendo disculparme, mi lealtad a los protocolos de seguridad es lo que me mantiene con vida en mi profesión. Aunque coincido en que un regulador es una necesidad humanitaria para quienes portan esta condición, no puedo —ni quiero— permitir que experimentes con tu propia hermana en la sombra.<br><br>La experimentación humana no se vuelve aceptable porque el fin sea noble. Una poción de esta naturaleza, mal calibrada, podría derivar en resultados catastróficos: desde un colapso multiorgánico letal hasta una fijación genética irreversible que la deje atrapada en su forma lupina de manera permanente.<br><br>Por lo tanto, mi colaboración se detiene aquí hasta que reciba una confirmación escrita y consciente de Merlina. Ella debe conocer los riesgos, entender que su propia biología es el campo de pruebas y aceptar las consecuencias de un posible fallo. Sin su consentimiento explícito, no habrá más ingredientes, ni más teorías, ni más ayuda por mi parte.<br><br>Espero que tu deseo de salvarla no nuble tu respeto por su voluntad.<br><br>Atentamente,<br>Edwin Merrythought.<br></span></span>',
-        },
-        "segunda parte": {
-          "visible": { "attr": { "val": "min" }, "know": { "curación": "10" }, "job": "invalid", "name": "invalid", }, "place": "sobre: sugerencia de ingredientes de nuestro querido amiguito",
-          "cont": '<span class="book-clipping"><span class="notebook">Morgana,<br><br>Acuso recibo de la confirmación de Merlina. Debo decir que, aunque su saludo de «Estimado Idiota» me resulta del todo innecesario, la validez del consentimiento es lo único que me compete en este asunto, al menos una de las dos se atreve a decir lo que piensa.<br><br>Como te anticipé, para fabricar un regulador capaz de contener la marea genética, requerirás componentes que funcionen como «diques» biológicos. Mi propuesta principal se centra en las lágrimas de mandrágora. He estudiado sus efectos desde mi infancia en las plantaciones familiares, poseen una naturaleza dual única al estar ancladas a la tierra, pero dotadas de una reactividad nerviosa extrema.<br><br>A diferencia de la raíz, cuyo uso es más tosco, las lágrimas actúan directamente sobre el sistema nervioso central. Su propósito no es anular la transformación física —un error común que suele llevar a la muerte— sino preservar un hilo de conciencia humana durante el pico de saturación 8/8. Actúan como un sedante para el instinto atávico, permitiendo que la psique de Merlina flote sobre la marea en lugar de ser devorada por ella.<br><br>Además, su potencia analgésica facilitará que la transición entre fases, especialmente el salto crítico de 4/8 a 6/8, sea un deslizamiento elástico y no un choque violento. Esto debería prevenir las microrroturas de tejido que causan su agotamiento crónico.<br><br>Sin embargo, mi advertencia es severa: una dosificación excesiva o una destilación impura provocaría un «silencio nervioso» permanente. Merlina no solo dejaría de sentir la luna; podría perder la capacidad de procesar cualquier emoción o estímulo mágico, quedando en un estado catatónico irreversible.<br><br>Puedes complementar la fórmula con plata coloidal en dosis homeopáticas para fortalecer la resistencia de la membrana celular contra la mutación, y esencia de díctamo para sellar las fisuras neuronales post-ciclo. Pero ten cuidado: si la pureza de la plata no es absoluta, provocarás un choque anafiláctico inmediato.<br><br>Procede con cautela, si es que conoces el significado de la palabra.<br><br>Atentamente,<br>Edwin Merrythought.<br></span></span>',
-        },
-        "reporte de herbología": {
-          "visible": { "attr": { "val": "min" }, "know": { "curación": "10" }, "job": "invalid", "name": "invalid", }, "place": "segunda parte",
-          "cont": '<span class="book-clipping"><span class="notebook">Señorita Dempsey,<br><br>Siento decirle que lo que pretende, implica un alto riesgo. Entiendo que haya llegado a la conclusión de que las lágrimas de mandrágora tienen mejores efectos que las raíces, pero, han muerto cientos de herbólogos tratando de dar con ellas. Actualmente, no encontrará nadie que brinde ese ingrediente y le tengo que decir que es extremadamente peligroso que usted lo intente. Mi consejo es que renuncie a la idea. Busque algo más. Puedo ofrecer la lista de sugerencias, pero descarte la que le han dado.<br><br>Si mi opinión no parece suficiente, le contaré lo que pasa cuando se acerca a una mandrágora y escucha su llanto.<br><br>El llanto produce una vibración que no golpea los oídos. Al instante, los pulmones se bloquean y el corazón estalla en un espasmo violento.. Creame, no es algo lindo de ver. Las estadísticas marcan que 9 de cada 10 herbologos expertos en la materia, han fallecido tratando de recolectar aquel elemento. No pierda su vida de aquella manera.<br><br>(En la letra de Morgana se puede leer una nota al final que reza: No, gracias).</span></span>',
-        },
-      },
+      "searchs": {},
 
-      "actions": {
-        "relicta notitia": {
-          "leve": 'No es suficiente para revelar información adicional.',
-          "moderado": 'El hechizo revela a Morgana tomando notas en el cuaderno, marcando cada luna nueva donde Merlina se transforma. Hasta que en un momento, por la cantidad de hojas se pueden determinar unos cinco años apróximadamente de registros, arranca las hojas y coloca nuevas, organizando la información de la misma manera que se encuentra ahora.',
-          "exitoso": 'El hechizo revela a Morgana tomando notas en el cuaderno, marcando cada luna nueva donde Merlina se transforma. Los registros marcan la fecha, la conducta agresiva del 1 al 10. Hasta que en un momento, por la cantidad de hojas se pueden determinar unos cinco años apróximadamente de registros, arranca las hojas y coloca nuevas, organizando la información de la misma manera que se encuentra ahora.',
-          "critico": 'El hechizo revela a Morgana tomando notas en el cuaderno, marcando cada luna nueva donde Merlina se transforma. Los registros marcan la fecha, la conducta agresiva del 1 al 10. Hasta que en un momento, el último registro marca 24 de octubre de 1920, arranca las hojas y coloca nuevas, organizando la información de la misma manera que se encuentra ahora.',
-        },
-        "tempus revela": {
-          "leve": 'No es suficiente para revelar información adicional.',
-          "moderado": 'El cuaderno fue comprado a inicios de 1900.',
-          "exitoso": 'El cuaderno fue comprado en 1907 por Morgana Dempsey.',
-          "critico": 'El cuaderno fue comprado en Julio de 1907 por Morgana Dempsey.',
-        },
-      },
+      "actions": {},
     },
     // fin muted magic
 
@@ -4905,151 +2871,17 @@ const MissionsModule = (function () {
       "type": "misión", "closed": true, "fecha": "1952-11-30", "link": "/t664-mision-frozen-sunflowers", "tagged": ["morgana", "capitulo 0"],
 
       "cards": [
-        {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "",
-          "cont": '<span>Nina presenta en sus túnicas los emblemas del Ministerio de Magia, lo que indica que lleva puesto el uniforme oficial. Sus botas de caña alta están ajustadas hasta arriba con un doble nudo y barro fresco en sus botas, lo cual podría considerarse usual, debido al trabajo y al temporal.</span>',
-        },
-        {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "nigromante", "name": "jasper" }, "place": "",
-          "cont": '<span>Debido a que Wenn Wraithwood fue miembro de la casa Gryffindor puedes conocerla. Sin embargo, si ella te conoce, no parece demostrar señales.</span>',
-        },
-        {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "shun", }, "place": "",
-          "cont": '<span>Debido a que Wenn Wraithwood fue miembro de la casa Gryffindor puedes conocerla. Sin embargo, si ella te conoce, no parece demostrar señales.</span>',
-        },
-        {
-          "visible": { "attr": { "val": "min" }, "know": { "contrabando": "10" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>La vida del contrabandista nunca es sencilla. Algunos nombres se escuchan algunas veces. El nombre de Wenn definitivamente lo has escuchado, solo que se hacía llamar Wraith Hood. Una joven que vendía ciertas estupefacientes a aquellos que lo necesitaban, hasta que el consumo hizo que termine en un desastre.</span>',
-        },
-        {
-          "visible": { "attr": { "val": "min" }, "know": { "historia de la magia": "5" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>Puede que no conozcan el nombre de Nina, pero el nombre de Wenn se hizo conocer hace no mucho. Hacía poco tiempo que el nombre de la joven salió en todos los periódicos. Joven del Departamento de Seguridad Mágica fallece en una redada. Todo era su culpa, su muerte y la de sus compañeros. Se suponía que la actividad era regular, demasiado sencilla para que fuera a salir mal, pero la joven con altos consumos de alcohol había soltado un <i>Bombarda</i> en el lugar incorrecto, provocando una explosión y un posterior incendio que termino con tres muertes y siete heridos.<br><br>Los miembros del Departamento, pueden elegir si estuvieron en dicha redada.</span>',
-        },
-        {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "nigromante", "name": "invalid", }, "place": "",
-          "cont": '<span>Puede elegir si fue el que hizo la autopsia de Wenn y sus compañeros o si solamente escuchó los resultados. Wenn tenía altos consumos de alcohol y estupefacientes, el reporte terminó dando a la joven como culpable de la situación en la que se vio involucrada.</span>',
-        },
-        {
-          "visible": { "attr": { "val": "min" }, "know": { "vuelo": "5" }, "job": "invalid", "name": "invalid", }, "place": "mapa del cementerio",
-          "cont": '<span>Gohbán Delaney fue un jugador de Quidditch del Ballycastle Bats, durante 1870, máximo goleador del equipo durante sus años y participó en aquel partido que marcó el récord de mayor cantidad de puntos registrados en un partido de quidditch. Sin embargo, al ser hijo de muggles, muchos magos y brujas no lo reconocieron. Una vez que su carrera de quidditch acabó, rápidamente trataron de hacer que las personas olvidaran su nombre.</span>',
-        },
-        {
-          "visible": { "attr": { "val": "min" }, "know": { "historia de la magia": "5" }, "job": "invalid", "name": "invalid", }, "place": "mapa del cementerio",
-          "cont": '<span>La familia Denman fue conocida hace hará unos cinco o seis años, cuando sus nombres salieron en primera plana en el diario El Profeta. La familia de pocionistas, pasaban su tiempo realizando prácticas de magia oscura y nigromancia. Hasta que sacrificaron a sus seis hijos de entre 12 años y 2 meses para realizar un ritual que acabó con la vida de todos. Habían usado artefactos de magia negra y las investigaciones resultaron en que habían intentado traer a la vida a uno de los hermanos de la mujer. Toda la familia falleció durante el ritual. </span>',
-        },
-        {
-          "visible": { "attr": { "val": "min" }, "know": { "herbología": "5" }, "job": "invalid", "name": "invalid", }, "place": "mapa del cementerio",
-          "cont": '<span>Las secciones del mapa representan diferentes árboles y forman el calendario celta de los árboles una tradición antigua de los celtas.</span>',
-        },
-        {
-          "visible": { "attr": { "int": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "tumba de merlina dempsey",
-          "cont": '<span>Tras derrotar al Wraith puede confirmarse que la tumba esta vacía y siempre estuvo vacía.</span>',
-        },
-        {
-          "visible": { "attr": { "val": "min" }, "know": { "dcao": "15" }, "job": "invalid", "name": "invalid", }, "place": "tumba de brian dempsey",
-          "cont": '<span>Tras derrotar al Inferi puede confirmarse que la tumba esta vacía, sin embargo, también puede confirmarse que el Inferi que derrotaron era, efectivamente Brian.</span>',
-        },
-        {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "mapa del cementerio",
-          "cont": '<span>El espacio de los Dempsey cuenta con varias placas conmemorativas. Algunos nombres ya no se pueden leer por el paso del tiempo. Sin embargo, se pueden distinguir las placas más recientes: Brian, Iris, Merlina y Morgana Demsey, siendo la de la última la más reciente.</span>',
-        },
-        {
-          "visible": { "attr": { "val": "min" }, "know": { "dcao": "15" }, "job": "invalid", "name": "invalid", }, "place": "tumba de iris dempsey",
-          "cont": '<span>Tras derrotar al Inferi puede confirmarse que la tumba esta vacía, sin embargo, también puede confirmarse que el Inferi que derrotaron era, efectivamente Iris.</span>',
-        },
-        {
-          "visible": { "attr": { "val": "min" }, "know": { "ccm": "5" }, "job": "invalid", "name": "invalid", }, "place": "tumba de iris dempsey",
-          "cont": '<span>Los inferius son sensibles a los hechizos de fuego.</span>',
-        },
-        {
-          "visible": { "attr": { "val": "min" }, "know": { "dcao": "15" }, "job": "invalid", "name": "invalid", }, "place": "seguir el sonido",
-          "cont": '<span>La explosión fue mágica, es evidente en el ambiente. Y por un breve segundo, llegas a ver a Nina con una capa negra, varita en mano y el atrevimiento de sonreír y guiñar el ojo antes de marcharse.</span>',
-        },
-        {
-          "visible": { "attr": { "val": "min" }, "know": { "ccm": "5" }, "job": "invalid", "name": "invalid", }, "place": "tumba de brian dempsey",
-          "cont": '<span>Los inferius son sensibles a los hechizos de fuego.</span>',
-        }
+        {"visible":{"attr":{"val":"min"},"know":{"val":"min"},"job":"seguridad","name":"invalid"},"place":"","cont":"<span>Nina presenta en sus túnicas los emblemas del Ministerio de Magia, lo que indica que lleva puesto el uniforme oficial. Sus botas de caña alta están ajustadas hasta arriba con un doble nudo y barro fresco en sus botas, lo cual podría considerarse usual, debido al trabajo y al temporal.</span>"},
+        {"visible":{"attr":{"val":"min"},"know":{"val":"min"},"job":"nigromante","name":"jasper"},"place":"","cont":"<span>Debido a que Wenn Wraithwood fue miembro de la casa Gryffindor puedes conocerla. Sin embargo, si ella te conoce, no parece demostrar señales.</span>"},
+        {"visible":{"attr":{"val":"min"},"know":{"val":"min"},"job":"invalid","name":"shun"},"place":"","cont":"<span>Debido a que Wenn Wraithwood fue miembro de la casa Gryffindor puedes conocerla. Sin embargo, si ella te conoce, no parece demostrar señales.</span>"},
+        {"visible":{"attr":{"val":"min"},"know":{"contrabando":"10"},"job":"invalid","name":"invalid"},"place":"","cont":"<span>La vida del contrabandista nunca es sencilla. Algunos nombres se escuchan algunas veces. El nombre de Wenn definitivamente lo has escuchado, solo que se hacía llamar Wraith Hood. Una joven que vendía ciertas estupefacientes a aquellos que lo necesitaban, hasta que el consumo hizo que termine en un desastre.</span>"},
+        {"visible":{"attr":{"val":"min"},"know":{"historia de la magia":"5"},"job":"invalid","name":"invalid"},"place":"","cont":"<span>Puede que no conozcan el nombre de Nina, pero el nombre de Wenn se hizo conocer hace no mucho. Hacía poco tiempo que el nombre de la joven salió en todos los periódicos. Joven del Departamento de Seguridad Mágica fallece en una redada. Todo era su culpa, su muerte y la de sus compañeros. Se suponía que la actividad era regular, demasiado sencilla para que fuera a salir mal, pero la joven con altos consumos de alcohol había soltado un <i>Bombarda</i> en el lugar incorrecto, provocando una explosión y un posterior incendio que termino con tres muertes y siete heridos.<br><br>Los miembros del Departamento, pueden elegir si estuvieron en dicha redada.</span>"},
+        {"visible":{"attr":{"val":"min"},"know":{"val":"min"},"job":"nigromante","name":"invalid"},"place":"","cont":"<span>Puede elegir si fue el que hizo la autopsia de Wenn y sus compañeros o si solamente escuchó los resultados. Wenn tenía altos consumos de alcohol y estupefacientes, el reporte terminó dando a la joven como culpable de la situación en la que se vio involucrada.</span>"},
       ],
 
-      "searchs": {
-        "mapa del cementerio": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>No muy alejado de la entrada, se encuentra un cartel de hierro que tiene las secciones del cementerio. En el mapa, se puede observar que el Cementerio tiene doce secciones: Ash, Alder, Willow, Hawthorn, Oak, Holly, Hazel, Vine, Ivy, Reed, Elder, Birch, Rowan. Bajo el mapa, se encuentran las familias en cada una de las secciones. Los Dempsey se encuentran en la zona Holly entre Delaney y Denman.</span>',
-        },
-        "tumba de merlina dempsey": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "revela tumbas",
-          "cont": '<span>La tumba de Merlina posee flores secas. Las hojas y pétalos sueltos alrededor de la placa indicaban que alguien se acercaba a dejar rosas con frecuencia. En la placa se puede leer <i>Adorada hermana. Partió demasiado pronto.</i><br><br>Al abrir su tumba un Wraith sale de ella, dejando la tumba vacía. Deberán enfrentarse al mismo respetando sus características: +5 fue, +5 con / 70 pv.</span>',
-        },
-        "tumba de brian dempsey": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "revela tumbas",
-          "cont": '<span>La tumba de Brian se encuentra vacía y cubierta de hojas que fueron llevadas con el tiempo. En la placa, cubierta de tierra, apenas permite leer <i>Amado esposo</i><br><br>Al abrir su tumba un Inferi sale de ella, dejando la tumba vacía. Deberán enfrentarse al mismo respetando sus características: +10 fue, +10 con / 150 pv.</span>',
-        },
-        "tumba de iris dempsey": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "revela tumbas",
-          "cont": '<span>La tumba de Iris se encuentra vacía y cubierta de hojas que fueron llevadas con el tiempo. En la placa, cubierta de tierra, apenas permite leer <i>Amada esposa</i><br><br>Al abrir su tumba un Inferi sale de ella, dejando la tumba vacía. Deberán enfrentarse al mismo respetando sus características: +10 fue, +10 con / 150 pv.</span>',
-        },
-        "presencia de wenn wraithwood": {
-          "visible": { "attr": { "sab": "3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "revela presencias",
-          "cont": '<span>El conjuro, por lo común, revela la huella de lo humano y lo vivo, pero las almas que han pasado a mejor vida eluden su detección con una facilidad desconcertante, como si pertenecieran a un texto cuyas páginas se han arrancado. Aun así, algo logra perforar la quietud: entre la negrura de la espesura, la silueta fantasmagórica de Wenn permanece inmóvil, observándolos. Su presencia, grave y gélida, se mantiene a una distancia calculada, justo en el umbral de la percepción, asegurando que su vigilancia, silenciosa y constante, pase casi inadvertida. Cuando nota que se han fijado en ella, comienza a desaparecer hacia el bosque.</span>',
-        },
-        "perseguir a wenn wraithwood": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "presencia de wenn wraithwood",
-          "cont": '<span>La luz tenúe de la figura de Wenn guía el paso entre la oscuridad. Sus mudos pasos que se abren paso hacia una dirección desconocida. Si le hablan, la misma no responde, demasiada abstraída de la realidad. Hasta que un sonido, muy similar al estruendo de una bomba se escucha en todo el ambiente. En ese momento, Wenn se gira y sonrié—: <strong>Demasiado tarde</strong></span>',
-        },
-        "seguir el sonido": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "perseguir a wenn wraithwood",
-          "cont": '<span>Si siguen la fuente del sonido, llegarán hasta la tumba de los Denman, que alguien ha destruído con un Bombarda. Si algo fue retirado de la misma, se desconoce. En caso de querer investigarlo, deberán solicitar la investigación en "Tramites Narrativos".</span>',
-        },
-        "regresar a la entrada": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "seguir el sonido",
-          "cont": '<span>Al regresar a la entrada, pueden notar que ninguna de las hermanas está presente, pero desde la pequeña casa del guardián del Cementerio, se pueden observar unos pies en el suelo. Al acercarse, pueden notar que es un guardia al que han dejado inconsciente. En caso de querer investigarlo, deberán solicitar la investigación en "Tramites Narrativos".</span>',
-        },
-      },
+      "searchs": {},
 
-      "actions": {
-        "defodio": {
-          "leve": 'No es suficiente para revelar el contenido.',
-          "moderado": '<adding search="revela tumbas" class="check-cards"></adding>',
-          "exitoso": '<adding search="revela tumbas" class="check-cards"></adding>',
-          "critico": '<adding search="revela tumbas" class="check-cards"></adding>',
-        },
-        "vestigium sanguinis": {
-          "leve": 'No es suficiente para revelar el contenido.',
-          "moderado": 'Guía al grupo hasta la sección Holly, entre las tumbas pueden distinguir el nombre de la familia Dempsey.',
-          "exitoso": 'Guía al grupo hasta la sección Holly, entre las tumbas pueden distinguir el nombre de la familia Dempsey.',
-          "critico": 'Guía al grupo hasta la sección Holly, entre las tumbas pueden distinguir el nombre de la familia Dempsey.',
-        },
-        "mutareforma": {
-          "leve": 'Convierte la tierra en sal provocando un círculo que trata de contener al Wraith. Adiciona +5 de ataque.',
-          "moderado": 'Convierte la tierra en sal provocando un círculo que trata de contener al Wraith. Adiciona +10 de ataque.',
-          "exitoso": 'Convierte la tierra en sal provocando un círculo que trata de contener al Wraith. Adiciona +15 de ataque.',
-          "critico": 'Convierte la tierra en sal provocando un círculo que trata de contener al Wraith. Adiciona +25 de ataque.',
-        },
-        "homenum revelio": {
-          "leve": '<adding search="revela presencias" class="check-cards"></adding>',
-          "moderado": '<adding search="revela presenciasrevela tumbas" class="check-cards"></adding>',
-          "exitoso": '<adding search="revela presencias" class="check-cards"></adding>',
-          "critico": '<adding search="revela presencias" class="check-cards"></adding>',
-        },
-        "mortis vox": {
-          "leve": 'No es suficiente para revelar su contenido.',
-          "moderado": 'Al realizarse sobre los inferius revela las identidades de Brian e Iris Depmsey, y la persona que los convirtió a Inferius: Merlina Dempsey.',
-          "exitoso": 'Al realizarse sobre los inferius revela las identidades de Brian e Iris Depmsey, y la persona que los convirtió a Inferius: Merlina Dempsey.',
-          "critico": 'Al realizarse sobre los inferius revela las identidades de Brian e Iris Depmsey, y la persona que los convirtió a Inferius: Merlina Dempsey.',
-        },
-        "memoriae vestigium": {
-          "leve": 'No es suficiente para revelar su contenido.',
-          "moderado": 'Al realizarse sobre los inferius revela las identidades de Brian e Iris Depmsey, y la persona que los convirtió a Inferius: Merlina Dempsey.',
-          "exitoso": 'Al realizarse sobre los inferius revela las identidades de Brian e Iris Depmsey, y la persona que los convirtió a Inferius: Merlina Dempsey.',
-          "critico": 'Al realizarse sobre los inferius revela las identidades de Brian e Iris Depmsey, y la persona que los convirtió a Inferius: Merlina Dempsey.',
-        },
-        "mobilicorpus": {
-          "leve": 'Nina logra defenderse del hechizo, sin embargo, como su hermana ya había dicho. Era tarde, y con un objeto entre sus manos, se retira con el chasquido propio de una aparición.',
-          "moderado": 'Nina logra defenderse del hechizo, sin embargo, como su hermana ya había dicho. Era tarde, y con un objeto entre sus manos, se retira con el chasquido propio de una aparición.',
-          "exitoso": 'Nina logra defenderse del hechizo, sin embargo, como su hermana ya había dicho. Era tarde, y con un objeto entre sus manos, se retira con el chasquido propio de una aparición.',
-          "critico": 'Nina logra defenderse del hechizo, sin embargo, como su hermana ya había dicho. Era tarde, y con un objeto entre sus manos, se retira con el chasquido propio de una aparición.',
-        }
-      },
+      "actions": {},
     },
     // fin frozen sunflowers
 
@@ -5063,26 +2895,7 @@ const MissionsModule = (function () {
 
       "cards": [],
       "searchs": {},
-      "actions": {
-        "veritas relego": {
-          "leve": 'No es suficiente para revelar información.',
-          "moderado": 'Permite saber con certeza que Merlina no mintió en ningún momento durante el interrogatorio, y que lo que dijo es completamente cierto desde su punto de vista.',
-          "exitoso": 'Permite saber con certeza que Merlina no mintió en ningún momento durante el interrogatorio, y que lo que dijo es completamente cierto desde su punto de vista.',
-          "critico": 'Permite saber con certeza que Merlina no mintió en ningún momento durante el interrogatorio, y que lo que dijo es completamente cierto desde su punto de vista.',
-        },
-        "legeremens": {
-          "leve": 'No es suficiente para revelar información.',
-          "moderado": 'Permite leer la mente de Merlina, descubriendo que todo el terreno es una jaula perfectamente diseñada. Merlina los dejo pasar, sabiendo que que podrían salir sin que ella les revelara cómo hacerlo.',
-          "exitoso": 'Permite leer la mente de Merlina, descubriendo que todo el terreno es una jaula perfectamente diseñada. Merlina los dejo pasar, sabiendo que que podrían salir sin que ella les revelara cómo hacerlo.',
-          "critico": 'Permite leer la mente de Merlina, descubriendo que todo el terreno es una jaula perfectamente diseñada. Merlina los dejo pasar, sabiendo que que podrían salir sin que ella les revelara cómo hacerlo.',
-        },
-        "reparo": {
-          "leve": 'No es suficiente para revelar información.',
-          "moderado": '<span>Permite abrir la puerta de la casa, habilitando la salida.</span>',
-          "exitoso": '<span>Permite abrir la puerta de la casa, habilitando la salida.</span>',
-          "critico": '<span>Permite abrir la puerta de la casa, habilitando la salida.</span>',
-        },
-      },
+      "actions": {},
     },
     // fin the apple house
 
@@ -5110,321 +2923,14 @@ const MissionsModule = (function () {
       "type": "misión", "closed": true, "fecha": "1952-11-29", "link": "/t665-mision-unveiling-the-unseen", "tagged": ["edwin", "capitulo 0"],
 
       "cards": [
-        {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "venus", }, "place": "",
-          "cont": '<span>Ingresar al observatorio Galatea sería una tarea difícil, si su padre no les hubiera revelado la entrada hace mucho tiempo. Para hacerlo, deben meterse dentro del armario y dibujar la constelación de Perseo.</span>',
-        },
-        {
-          "visible": { "attr": { "val": "min" }, "know": { "astronomía": "5" }, "job": "invalid", "name": "invalid", }, "place": "jardín de galatea",
-          "cont": '<span>Los puntos del portón forman la constelación de Eridanus. Hace referencia al río Erídano de la mitología clásica, río a medio caballo entre el mito y la realidad. Su última estrella significa "el final del río".</span>',
-        },
-        {
-          "visible": { "attr": { "val": "min" }, "know": { "astronomía": "5" }, "job": "invalid", "name": "merrythought", }, "place": "jardín de galatea",
-          "cont": '<span>Para poder ingresar, hay que tirarle agua al portón.</span>',
-        },
-        {
-          "visible": { "attr": { "val": "min" }, "know": { "astronomía": "5" }, "job": "invalid", "name": "invalid", }, "place": "observatorio galatea",
-          "cont": '<span>Las puertas se abren revelando un camino de piedras. El observatorio no parece más que una casa a simple vista, y si miran para atrás pueden observar que han dejado atrás el cobertizo. La casa de estilo georgiano, posee casi todas sus paredes repletas de una hiedra inglesa. Sin embargo, una parte parece haber sido alterada con el paso de los años, cortando aquella forma austera con una estructura circular. Frente a ellos se encuentra el observatorio Galatea, llamado así por Edwin tras la muerte de su tía.</span>',
-        },
-        {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "merrythought", }, "place": "observatorio galatea",
-          "cont": '<span>El observatorio siempre fue como un segundo hogar, aquel con amplios jardines para jugar y una biblioteca cargada de libros. Todos en la familia le tenían mucho cariño al lugar, sin embargo, las respuestas que buscan las encontrarán en el observatorio.</span>',
-        },
-        {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "tercer código",
-          "cont": '<span>Todos los mensajes que hay en la pared pertenecen al mismo año: 1936. Cuando esta información es revelada, se escucha el suspiro de Galatea «Dije que solo una persona muy inteligente podría revelarlo, pero, seré generosa, solo porque hay un Merrythought entre ustedes: miren la maqueta».</span>',
-        },
-        {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "mensaje oculto",
-          "cont": '<span>Inicien la investigación en Dayflower Garden.</span>',
-        }
+        {"visible":{"attr":{"val":"min"},"know":{"val":"min"},"job":"invalid","name":"venus"},"place":"","cont":"<span>Ingresar al observatorio Galatea sería una tarea difícil, si su padre no les hubiera revelado la entrada hace mucho tiempo. Para hacerlo, deben meterse dentro del armario y dibujar la constelación de Perseo.</span>"},
+        {"visible":{"attr":{"val":"min"},"know":{"astronomía":"5"},"job":"invalid","name":"invalid"},"place":"observatorio galatea","cont":"<span>Las puertas se abren revelando un camino de piedras. El observatorio no parece más que una casa a simple vista, y si miran para atrás pueden observar que han dejado atrás el cobertizo. La casa de estilo georgiano, posee casi todas sus paredes repletas de una hiedra inglesa. Sin embargo, una parte parece haber sido alterada con el paso de los años, cortando aquella forma austera con una estructura circular. Frente a ellos se encuentra el observatorio Galatea, llamado así por Edwin tras la muerte de su tía.</span>"},
+        {"visible":{"attr":{"val":"min"},"know":{"val":"min"},"job":"invalid","name":"merrythought"},"place":"observatorio galatea","cont":"<span>El observatorio siempre fue como un segundo hogar, aquel con amplios jardines para jugar y una biblioteca cargada de libros. Todos en la familia le tenían mucho cariño al lugar, sin embargo, las respuestas que buscan las encontrarán en el observatorio.</span>"},
       ],
 
-      "searchs": {
-        "jardín de galatea": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "armario bajo la escalera",
-          "cont": '<span>Al volver a abrir la puerta del armario, un pasillo empedrado los lleva a un portón de hierro. Las paredes del jardín están cubiertas de Calatheas de todos los colores, aunque por las fechas ya sus flores han desaparecido. En el portón pueden observarse distintos puntos que pueden moverse. Y la simetría labrada de hierro parece mostrar lo que indicaría un laberinto.</span>',
-        },
-        "ingreso al observatorio": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "observatorio galatea",
-          "cont": '<span>Al ingresar a la casa, muchas de las decoraciones son azules y con detalles de estrellas. La casa se encuentra en silencio. Una gran escalera en el centro divide el camino en dos, uno hacia las habitaciones y otro hacia el observatorio cuyas puertas de madera están abiertas. La sala circular tiene un techo de cristal en forma de domo, ideal para ver las estrellas. Sus paredes parecen de pizarra para que cualquiera pueda tomar notas y varias constelaciones han sido dibujadas con el paso de los años. En el escritorio se pueden observar varios papeles, un té negro, con una rodaja de limón a medio tomar. Y sobre una chimenea, un retrato de Galatea Merrythought los observa, espera a que noten su presencia antes de preguntar.<br><br>—<strong>Ha muerto, ¿verdad?</strong> —su mirada es triste, porque teme la respuesta, incluso aunque ya la sabe—. <strong>Demasiado tiempo sin venir a verme</strong>.<br/><u>Nota</u>: Podrán narrar las preguntas y respuestas de la manera que más les convenga, siempre manteniendo un tono sofisticado de parte de Galatea. Cualquier otra pregunta la ignorará.</span>',
-        },
-        "preguntar sobre algún comportamiento extraño de edwin": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ingreso al observatorio",
-          "cont": '<span>La mujer niega—. <strong>El último tiempo se ha pasado investigando. Estaba nervioso, pero todos los aurores están nerviosos cuando están por descubrir algo.</strong></span>',
-        },
-        "preguntar sobre sirius y morgana": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ingreso al observatorio",
-          "cont": '<span>—<strong>Vinieron aquí una noche, los tres estaban bastante entusiasmados. Dempsey fue la única en saludarme, el otro ni me miró</strong> —respondió la mujer—. <strong>Estaban programando una excursión. Iban a ir cuando la luna menguante estuviera en Tauro. No supe más nada tras ello.</strong>.</span>',
-        },
-        "luna menguante en tauro": {
-          "visible": { "attr": { "val": "min" }, "know": { "astronomía": "5" }, "job": "invalid", "name": "invalid", }, "place": "preguntar sobre sirius y morgana",
-          "cont": '<span>Al buscar en los mapas estelares, se puede observar que entre el 26 y 27 de Agosto de ese mismo año, la luna menguante estaba en Tauro.</span>',
-        },
-        "preguntar sobre tareas de tuft": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ingreso al observatorio",
-          "cont": '<span>La mujer asintió, aunque muy levemente—. <strong>No era demasiado extraordinario, un poco abstracto para ser la preparación para el próximo Ministro de Magia, en mi opinión. Escuché su plan, su estructura sobre salud, seguridad y sociedad. ¿Qué palabras había usado? Ahh sí, <i>Protocolo Estrella Polar</i>, demasiado confuso, pero era su nombre clave.</strong> —La mujer hace una pausa—. <strong>Pero Eddie siempre quiso saber más, comenzó a preparar otro plan. <i>Plan Centinela</i>, quería ver si había algo en las estrellas que pudieran prevenir algún acontecimiento. Fue cuando lo encontró. Betelguese, Sirius y Rigel, formarían una línea recta. Los tres a punto de colapsar, recuerdo que dijo que tenía que advertirles, luego de eso sé que se reunieron un par de veces, pero no me enteré de nada más. Mi consejo fue que no compartiera con ellos, el desarrollo como Ministro es una carrera que es mejor recorrer en soledad.</strong></span>',
-        },
-        "preguntar por el cuaderno de edwin": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar sobre algún comportamiento extraño de edwin",
-          "cont": '<span>La mujer parece confusa por un breve momento— <strong>¿Qué clase de inepto guardaría toda la información de su vida en un cuaderno?</strong> —preguntó Galatea bastante horrorizada por la idea de que alguien guardase tanta información en un lugar que cualquier podría leer. Sin embargo, después de un momento, agregó— <strong>Si te refieres a sus notas, están en las paredes. Edwin sabía que este lugar era seguro y cifró las mismas solo para que alguien con su nivel de inteligencia pudiera resolverlas.</strong></span>',
-        },
-        "betelguese, sirius y rigel": {
-          "visible": { "attr": { "val": "min" }, "know": { "astronomía": "10" }, "job": "invalid", "name": "invalid", }, "place": "preguntar sobre tareas de tuft",
-          "cont": '<span>Si bien podría existir una explicación simbólica de una alineación entre las tres estrellas. La cual físicamente sería muy improbable que sucediera, dado que Betelguese y Rigel se encuentran en la misma constelación. Sin embargo, en la astrología: <u>Betelguese</u>, se considera una estrella de acción, coraje, logros y honor. Marca fuertes ambiciones, las cuales pueden producir grandes resultados o grandes pérdidas. <u>Sirius</u>, está asociada con el éxito, fama, gloria y poder espiritual. Marca la luz y trascendencia espiritual como destino final. Finalmente, <u>Rigel</u>, representa la sabiduría, conocimiento, enseñanza y habilidad estratégica. Marca la sabiduría y el conocimiento como guía de acción.</span>',
-        },
-        "observar las paredes": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar por el cuaderno de edwin",
-          "cont": '<span>Al prestar atención a las paredes, puede observar que los dibujos hechos en realidad son palabras encadenadas. Por ejemplo, en una parte indica: «OIEK TE MEAIEID TE BSP CQERE OIESCOG X KESK, JG CGLSTD CEFOQCE, KQK JEIBGCDK BECLSDCGAGC PD FEHQECD HQE EIG, CD FDTISGBDK JGAEIPE FQEKOD TE DOIG BGCEIG».<br><br><adding search="intervención uno" class="check-cards"></adding></span>',
-        },
+      "searchs": {},
 
-        "segundo código": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "intervención uno",
-          "cont": '<span>Un nuevo mensaje revela: HQSCLE TE GAISP TE BSP CQERE OIESCOG X KESK, IETGTG EC PG OSECTG TE FDLSDCEK TE NCDLNOQIC. EP PDOE TE GBDIOECOSG LGTQLGTG DPSG G MPDIEK TE LEIEWD, ECVGCDKGBECOE PEOGP. JEBDK KEPPGTD 200 RSGPEK. EP TQECD GPEVD "MEIBECOGLSDC FISBGREIGP". CD JG LDPGTD.</span>',
-        },
-
-        "tercer código": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "intervención uno",
-          "cont": '<span>Un nuevo mensaje revela: RESCOSQCD TE UQPSD TE BSP CQERE OIESCOG X KESK, FEIKELQLSDC LDKOEIG EYSODKG. EP KDKFELJDKD SCOECOD ERGTSICDK QKGCTD QC OIGCKMSVQIGTDI TE GIECG FGIG LIEGI QC PGAEISCOD. TEKBGCOEPE EP JELJSWD LDC QC KSBFPE MSCSOE. SCLGQOGTG PG RGISOG.</span>',
-        },
-
-        "maqueta del sistema solar": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "tercer código",
-          "cont": '<span>En el medio de todos los dibujos hay un cuadro que tiene una maqueta del sistema solar. El sol se encuentra en el centro y cada esfera del color que corresponde ubican su correspondiente posición. Sin embargo, cada plantea se encuentra sobre un alambre que parece tener ocho posiciones. Y en el lienzo negro que hace de fondo se puede notar que alguien marcó los puntos cardinales: N (norte), NE (noreste), E (este), SE (sureste), S (sur), SO (suroeste), O (oeste) y NO (noroeste). Como si cada planeta podría ser movido de lugar. Las posiciones actuales son: Mercurio en NO, Venus en SO, Tierra en E, Marte en SE, Júpiter en SE, Saturno en NW, Urano en SO y Neptuno en E.</span>',
-        },
-
-        "mover planeta neptuno": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "maqueta del sistema solar",
-          "cont": '<span>Al mover el último planeta, se mueve al SW y presionar el sol, la cupula del observatorio pierde la gravedad por un momento provocando que todos comiencen a flotar, el observatorio en su totalidad parece girar y cuando termina, la gravedad vuelve en sí. Todos los personajes pieden 20PV. Las paredes han perdido todos sus dibujos y en el cuadro Galatea bufa «Aún no hemos llegado a la década del noventa, queridos». Las únicas combinaciones posibles, son las que aparecen a continuación, cualquier otra combinación, revela paredes vacías.</span>',
-        },
-
-        "generar secuencia: mercurio (no) - venus(so) - tierra (e) - marte (n) - júpiter (so) - saturno (e) - urano (ne) - neptuno (se)": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "mover planeta neptuno",
-          "cont": '<span>La sala vuelve a girar haciendo que todos los personajes pierdan 20 puntos de vida. La pared se encuentra completa de dibujos de constelaciones que marcan todo un año de notas, al leer el primero se lee: DCLE TE CDRSEBAIE TE BSP CQERE LQGIECOG X QCD, PDVSKOSLG TE VQEIIG. KQFEIRSKSDC TEP OIGKPGTD TE GIOEMGLODK BGVSLDK KECKSAPEK G PQVGIEK KEVQIDK. PG IQOG TEAE KEI BDTSMSLGTG LGTG 72 JDIGK.</span>',
-        },
-
-        "generar secuencia: mercurio (no) - venus(se) - tierra (e) - marte (o) - júpiter (ne) - saturno (o) - urano (so) - neptuno (e)": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "mover planeta neptuno",
-          "cont": '<span>La sala vuelve a girar haciendo que todos los personajes pierdan 20 puntos de vida. La pared se encuentra completa de dibujos de constelaciones que marcan todo un año de notas, al leer el primero se lee: TSEW TE DLOQAIE TE BSP CQERE OIESCOG X TDK, BSKSDC TE FEIKELQLSDC EYSODKG EC VGPEK TEP CDIOE. EP DAUEOSRD EIG QC MGPKSMSLGTDI TE VGPEDCEK. PG LDDITSCGLSDC LDC EP EKLQGTIDC MQE SBFELGAPE.</span>',
-        },
-
-        "generar secuencia: mercurio (no) - venus(s) - tierra (e) - marte (so) - júpiter (o) - saturno (e) - urano (ne) - neptuno (se)": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "mover planeta neptuno",
-          "cont": '<span>La sala vuelve a girar haciendo que todos los personajes pierdan 20 puntos de vida. La pared se encuentra completa de dibujos de constelaciones que marcan todo un año de notas, al leer el primero se lee: DCLE TE GVDKOD TE BSP CQERE LQGIECOG X LQGOID, BSKSDC TE SCMSPOIGLSDC. KE JG DAOECSTD SCMDIBGLSDC RSOGP: PG REITGTEIG CGOQIGPEWG TE PDK DAUEOSRDK TEP ECEBSVD. EKOE LDCDLSBSECOD TEAE KEI LPGKSMSLGTD SCBETSGOGBECOE.</span>',
-        },
-
-        "generar secuencia: mercurio (no) - venus(n) - tierra (e) - marte (o) - júpiter (e) - saturno (so) - urano (ne) - neptuno (s)": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "mover planeta neptuno",
-          "cont": '<span>La sala vuelve a girar haciendo que todos los personajes pierdan 20 puntos de vida. La pared se encuentra completa de dibujos de constelaciones que marcan todo un año de notas, al leer el primero se lee, sin embargo, el resto de los dibujos aparecen borroneados: DCLE TE ECEID TE BSP CQERE LSCLQECOG X TDK, KGOQIC, BS CSCG...</span>',
-        },
-
-        "generar secuencia: mercurio (ne) - venus(ne) - tierra (e) - marte (no) - júpiter (e) - saturno (o) - urano (so) - neptuno (e)": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "mover planeta neptuno",
-          "cont": '<span>La sala vuelve a girar haciendo que todos los personajes pierdan 20 puntos de vida. La pared se encuentra completa de dibujos de constelaciones que marcan todo un año de notas, al leer el primero se lee: RESCOE TE KEFOSEBAIE TE BSP CQERE OIESCOG X OIEK, ECMDLGIKE EC EP ECOIECGBSECOD TE CQERDK IELPQOGK. EP LQIISLQPQB CELEKSOG QCG KELLSDC TETSLGTG G PG DLQPOGLSDC GRGCWGTG.</span>',
-        },
-
-        "generar secuencia: mercurio (n) - venus(s) - tierra (e) - marte (e) - júpiter (n) - saturno (se) - urano (ne) - neptuno (s)": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "mover planeta neptuno",
-          "cont": '<span>La sala vuelve a girar haciendo que todos los personajes pierdan 20 puntos de vida. La pared se encuentra completa de dibujos de constelaciones que marcan todo un año de notas, al leer el primero se lee: LQGOID TE KEFOSEBAIE TE BSP CQERE LQGIECOG X CQERE, IEKDPQLSDC TE PG LISKSK TEP "VGPEDC". KE PDVID SCOEILEFOGI EP LGIVGBECOD. PG SCMDIBGLSDC KQVSEIE HQE QC BSEBAID SCOEICD TEP BSCSKOEISD EKOQRD SBFPSLGTD.</span>',
-        },
-
-        "generar secuencia: mercurio (n) - venus(ne) - tierra (e) - marte (so) - júpiter (o) - saturno (se) - urano (ne) - neptuno (se)": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "mover planeta neptuno",
-          "cont": '<span>La sala vuelve a girar haciendo que todos los personajes pierdan 20 puntos de vida. La pared se encuentra completa de dibujos de constelaciones que marcan todo un año de notas, al leer el primero se lee: OIEK TE UQCSD TE BSP CQERE LQGIECOG X LSCLD, GKLECKD G UEME TE GQIDIEK. BS FISBEIG GLLSDC EK PG IERSKSDC ODOGP TE PGK PEXEK TE VQEIIG BGVSLG. EK QC CQERD LGFSOQPD FGIG PG DMSLSCG.</span>',
-        },
-
-        "generar secuencia: mercurio (n) - venus(ne) - tierra (e) - marte (o) - júpiter (so) - saturno (no) - urano (so) - neptuno (se)": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "mover planeta neptuno",
-          "cont": '<span>La sala vuelve a girar haciendo que todos los personajes pierdan 20 puntos de vida. La pared se encuentra completa de dibujos de constelaciones que marcan todo un año de notas, al leer el primero se lee: RESCOSCQERE TE BGIWD TE BSP CQERE OIESCOG X CQERE, GPEIOG IDUG. EP ISEKVD TE LDCOGVSD BGVSLD EK IEGP TEASTD G PG EKLGPGTG EC EP LDCOSCECOE. ODTD EP TEFGIOGBECOD TE GQIDIEK EC BGYSBG GPEIOG.</span>',
-        },
-
-        "generar secuencia: mercurio (e) - venus(o) - tierra (e) - marte (s) - júpiter (s) - saturno (no) - urano (so) - neptuno (e)": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "mover planeta neptuno",
-          "cont": '<span>La sala vuelve a girar haciendo que todos los personajes pierdan 20 puntos de vida. La pared se encuentra completa de dibujos de constelaciones que marcan todo un año de notas, al leer el primero se lee: KESK TE CDRSEBAIE TE BSP CQERE OIESCOG X KSEOE, PG GBECGWG KE SCOECKSMSLG. PDVIE SCOEILEFOGI QCG LDBQCSLGLSDC LSMIGTG ECOIE VIQFDK EYOIGCUEIDK. KE IEHQSEIE TEKLSMIGTD SCBETSGOD TEP BECKGUE.</span>',
-        },
-
-        "generar secuencia: mercurio (e) - venus(ne) - tierra (e) - marte (o) - júpiter (o) - saturno (se) - urano (ne) - neptuno (se)": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "mover planeta neptuno",
-          "cont": '<span>La sala vuelve a girar haciendo que todos los personajes pierdan 20 puntos de vida. La pared se encuentra completa de dibujos de constelaciones que marcan todo un año de notas, al leer el primero se lee: OIESCOG TE ECEID TE BSP CQERE LQGIECOG X KESK, EYSOD EC PG IEDIVGCSWGLSDC GTBSCSKOIGOSRG. LIEGLSDC TE PG QCSTGT TE IELQFEIGLSDC TE DAUEODK DKLQIDK. PG PSBFSEWG FDKO-VQEIIG IEHQEISIG GCDK.</span>',
-        },
-
-        "generar secuencia: mercurio (e) - venus(n) - tierra (e) - marte (ne) - júpiter (s) - saturno (e) - urano (ne) - neptuno (se)": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "mover planeta neptuno",
-          "cont": '<span>La sala vuelve a girar haciendo que todos los personajes pierdan 20 puntos de vida. La pared se encuentra completa de dibujos de constelaciones que marcan todo un año de notas, al leer el primero se lee: OIEK TE GVDKOD TE BSP CQERE LQGIECOG X TDK, SBFPEBECOGLSDC TE PG IEMDIBG TE EBEIVECLSG. EP ECMDHQE KE BQERE TE PG FIERECLSDC GP LDBAGOE GLOSRD. PDK GQIDIEK GJDIG KE TEKFPSEVGC EC FGIEUGK GIBGTGK.</span>',
-        },
-
-        "generar secuencia: mercurio (so) - venus(o) - tierra (e) - marte (so) - júpiter (ne) - saturno (so) - urano (ne) - neptuno (s)": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "mover planeta neptuno",
-          "cont": '<span>La sala vuelve a girar haciendo que todos los personajes pierdan 20 puntos de vida. La pared se encuentra completa de dibujos de constelaciones que marcan todo un año de notas, al leer el primero se lee: TDK TE TSLSEBAIE TE BSP CQERE LSCLQECOG X QCD, KE GKEVQIG PG SCMDIBGLSDC BGK KECKSAPE. BS FISCLSFGP OEBDI EK PG MSPOIGLSDC TEKTE TECOID. BSKSDC LDBFPEOGTG.</span>',
-        },
-
-        "generar secuencia: mercurio (se) - venus(se) - tierra (e) - marte (se) - júpiter (so) - saturno (e) - urano (ne) - neptuno (se)": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "mover planeta neptuno",
-          "cont": '<span>La sala vuelve a girar haciendo que todos los personajes pierdan 20 puntos de vida. La pared se encuentra completa de dibujos de constelaciones que marcan todo un año de notas, al leer el primero se lee: OIESCOG X QCD TE ECEID TE BSP CQERE LQGIECOG X OIEK, EP RDPQBEC TE LGKDK KE JG TQFPSLGTD. KE GFIDAD PG KDPSLSOQT TE BGK FEIKDCGP X IELQIKDK. EP TEKVGKOE EC PG MQEIWG EK FIEDLQFGCOE. CELEKSTGT TE IDOGLSDC.</span>',
-        },
-
-        "generar secuencia: mercurio (se) - venus(no) - tierra (e) - marte (so) - júpiter (s) - saturno (no) - urano (so) - neptuno (se)": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "mover planeta neptuno",
-          "cont": '<span>La sala vuelve a girar haciendo que todos los personajes pierdan 20 puntos de vida. La pared se encuentra completa de dibujos de constelaciones que marcan todo un año de notas, al leer el primero se lee: OIEK TE MEAIEID TE BSP CQERE OIESCOG X DLJD, EYFETSECOE I.B.O. GASEIOD. PG SCREKOSVGLSDC KE LECOIGIG EC QC UDREC TE JGASPSTGTEK EYLEFLSDCGPEK.</span>',
-        },
-
-        "generar secuencia: mercurio (se) - venus(ne) - tierra (e) - marte (se) - júpiter (ne) - saturno (se) - urano (ne) - neptuno (s)": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "mover planeta neptuno",
-          "cont": '<span>La sala vuelve a girar haciendo que todos los personajes pierdan 20 puntos de vida. La pared se encuentra completa de dibujos de constelaciones que marcan todo un año de notas, al leer el primero se lee: LGODILE TE GVDKOD TE BSP CQERE LSCLQECOG, SCREKOSVGLSDC SCOEICG SCSLSGTG. KE IEHQSEIE QCG GQTSODISG FIDMQCTG TE PDK MDCTDK DFEIGOSRDK X TE PG PEGPOGT TEP FEIKDCGP. CD FDTEBDK LDCMSGI EC CGTSE.</span>',
-        },
-
-        "generar secuencia: mercurio (s) - venus(s) - tierra (e) - marte (n) - júpiter (e) - saturno (o) - urano (so) - neptuno (e)": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "mover planeta neptuno",
-          "cont": '<span>La sala vuelve a girar haciendo que todos los personajes pierdan 20 puntos de vida. La pared se encuentra completa de dibujos de constelaciones que marcan todo un año de notas, al leer el primero se lee: TSELSCQERE TE BGXD TE BSP CQERE OIESCOG X LQGOID, EP GILJSRD 77, RSVSPGCLSG TE BGVDK DKLQIDK BECDIEK, LIELE. GKSVCGLSDC TE IELQIKDK GTSLSDCGPEK.</span>',
-        },
-
-        "generar secuencia: mercurio (s) - venus(o) - tierra (e) - marte (no) - júpiter (so) - saturno (se) - urano (ne) - neptuno (se)": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "mover planeta neptuno",
-          "cont": '<span>La sala vuelve a girar haciendo que todos los personajes pierdan 20 puntos de vida. La pared se encuentra completa de dibujos de constelaciones que marcan todo un año de notas, al leer el primero se lee: LGODILE TE GVDKOD TE BSP CQERE LQGIECOG X KSEOE, TEKLQAISBSECOD X CEQOIGPSWGLSDC TEP MQEIOE SPEVGP LDKOEID. KE PDVID LDCMSKLGI QC GIKECGP TE RGISOGK BDTSMSLGTGK. EP LDCOIGAGCTD EK EP CQERD MIECOE.</span>',
-        },
-
-        "generar secuencia: mercurio (s) - venus(o) - tierra (e) - marte (no) - júpiter (se) - saturno (e) - urano (ne) - neptuno (se)": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "mover planeta neptuno",
-          "cont": '<span>La sala vuelve a girar haciendo que todos los personajes pierdan 20 puntos de vida. La pared se encuentra completa de dibujos de constelaciones que marcan todo un año de notas, al leer el primero se lee: LSCLD TE ECEID TE BSP CQERE LQGIECOG, CQERDK EKMQEIWDK EC PG DMSLSCG. KE EKOG MDIBGCTD QCG GPSGCWG SCOEICGLSDCGP TE GQIDIEK. BS IDP KEIG EP TE ECPGLE FISCLSFGP.</span>',
-        },
-
-        "generar secuencia: mercurio (o) - venus(s) - tierra (e) - marte (ne) - júpiter (se) - saturno (o) - urano (so) - neptuno (e)": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "mover planeta neptuno",
-          "cont": '<span>La sala vuelve a girar haciendo que todos los personajes pierdan 20 puntos de vida. La pared se encuentra completa de dibujos de constelaciones que marcan todo un año de notas, al leer el primero se lee: RESCOSCQERE TE UQPSD TE BSP CQERE OIESCOG X LSCLD, TEKGFGISLSDC TEP OEKOSVD T.B. MIGLGKD DFEIGOSRD. KE IEHQSEIE QCG IERSKSDC TE ODTDK PDK FIDODLDPDK TE FIDOELLSDC. GPOD CSREP TE EKOIEK EC PG QCSTGT.</span>',
-        },
-
-        "generar secuencia: mercurio (o) - venus(o) - tierra (e) - marte (so) - júpiter (n) - saturno (o) - urano (so) - neptuno (e)": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "mover planeta neptuno",
-          "cont": '<span>La sala vuelve a girar haciendo que todos los personajes pierdan 20 puntos de vida. La pared se encuentra completa de dibujos de constelaciones que marcan todo un año de notas, al leer el primero se lee: HQSCLE TE MEAIEID TE BSP CQERE OIESCOG X QCD, SCSLSGLSDC. BSK FISBEIDK IEFDIOEK KDC FIDBEOETDIEK. ECMDHQE: TEOELLSDC TE LDCMQCTQK EC FDKSAPEK OEKOSVDK.</span>',
-        },
-
-        "generar secuencia: mercurio (o) - venus(no) - tierra (e) - marte (n) - júpiter (so) - saturno (se) - urano (ne) - neptuno (se)": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "mover planeta neptuno",
-          "cont": '<span>La sala vuelve a girar haciendo que todos los personajes pierdan 20 puntos de vida. La pared se encuentra completa de dibujos de constelaciones que marcan todo un año de notas, al leer el primero se lee: RESCOSLQGOID TE MEAIEID TE BSP CQERE LQGIECOG X DLJD, EP FEPSVID KE TSKMIGWG. SCSLSD TE PG RSVSPGCLSG TE BGVSG ECLQASEIOG EC SCKOSOQLSDCEK ETQLGOSRGK. PG LDIIQFLSDC FQETE EBFEWGI EC LQGPHQSEI FGIOE.</span>',
-        },
-
-        "mover planeta tierra": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "maqueta del sistema solar",
-          "cont": '<span>Por más que lo intenten, el planeta Tierra se mantiene en su lugar. Y al notar el alambre que simula su recorrido, no contiene ninguna marca como sucede con el resto de los planetas.</span>',
-        },
-
-        "posición planeta tierra": {
-          "visible": { "attr": { "val": "min" }, "know": { "astronomía": "5" }, "job": "invalid", "name": "invalid", }, "place": "mover planeta tierra",
-          "cont": '<span>La posición del plantea Tierra marca los meses comprendidos en el verano. Para ser más preciso, marca lo posición del solsticio de verano.</span>',
-        },
-
-        "obtención de notas": {
-          "visible": { "attr": { "val": "min" }, "know": { "astronomía": "5" }, "job": "invalid", "name": "invalid", }, "place": "mover planeta tierra",
-          "cont": '<span>Para poder obtener la combinación de los planetas en el año 1952 deben encontrar la posición de los planetas en dicho año. Si le preguntan a Galatea la misma responderá «¿Me has visto cara de enciclopedia? Lo que una tiene que escuchar. Las revistas de astronomía están en el armario». Basta buscar la entrega de Julio 1952 para encontrar las posiciones correspondientes.</span>',
-        },
-
-        "posición de mercurio en 1952": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "obtención de notas",
-          "cont": '<span>Mercurio se encuentra aproximadamente en el Noroeste.</span>',
-        },
-
-        "posición de venus en 1952": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "obtención de notas",
-          "cont": '<span>Venus se encuentra aproximadamente en el Norte.</span>',
-        },
-
-        "posición de marte en 1952": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "obtención de notas",
-          "cont": '<span>Marte se encuentra aproximadamente en el Oeste.</span>',
-        },
-
-        "posición de júpiter en 1952": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "obtención de notas",
-          "cont": '<span>Júpiter se encuentra aproximadamente en el Este.</span>',
-        },
-
-        "posición de saturno en 1952": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "obtención de notas",
-          "cont": '<span>Saturno se encuentra aproximadamente en el Suroeste.</span>',
-        },
-
-        "posición de urano en 1952": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "obtención de notas",
-          "cont": '<span>Urano se encuentra aproximadamente en el Noreste.</span>',
-        },
-
-        "posición de neptuno en 1952": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "obtención de notas",
-          "cont": '<span>Neptuno se encuentra aproximadamente en el Sur.</span>',
-        },
-
-        "mensaje en el medio de la pared": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "generar secuencia: mercurio (no) - venus(n) - tierra (e) - marte (o) - júpiter (e) - saturno (so) - urano (ne) - neptuno (s)",
-          "cont": '<span>Si bien todo ha sido borrado, un mensaje aparece casi en el centro y en el cual se puede leer: Ks qcd te bsk jsudk ke eclqecoig ec ep viqfd, ekfeid hqe kefg lqgcod pd ksecod. Ks cscvqcd te eppdk ekog fiekecoe, fdi mgrdi, jgvgc ppevgi ep beckgue.<br><br>Ke hqe bdisie ekog cdlje, x xg je sbgvscgtd pd hqe kqleteig, x cd fqetd jglei cgtg bgk hqe fetsi feitdc. Bs bqeioe pg je lgqkgtd xd bskbd. Odtd glod osece ldckelqeclsg x cd oebd g pg bqeioe. Oebd g pdk ielqeitdk hqe oigeig bs bqeioe g bsk jsudk.<br><br>Ks jgc ppevgtd jgkog ghqs, bgihqec bs bqeioe ldbd gllstecoe.<br><br>G bsk aeaek... fgfg pdk gbg. Pd ksecod, pek je mgppgtd gp uqigi fidoeveipdk.</span>',
-        },
-
-        "revelar mensaje para miembros que no sean merrythought (incluye letra a)": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "a", }, "place": "mensaje en el medio de la pared",
-          "cont": '<span>Al final del mensaje, en letras de otro color, aparece un mensaje que ningún Merrythought puede leer: «Dejen a mis niños fuera del caso» y, a continuación, un código cifrado: Kdpd pg kgcvie bdkoigig ep iekod te pg scmdibglsdc hqe fqetec celeksogi.</span>',
-        },
-
-        "revelar mensaje para miembros que no sean merrythought (incluye letra w)": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "w", }, "place": "mensaje en el medio de la pared",
-          "cont": '<span>Al final del mensaje, en letras de otro color, aparece un mensaje que ningún Merrythought puede leer: «Dejen a mis niños fuera del caso» y, a continuación, un código cifrado: Kdpd pg kgcvie bdkoigig ep iekod te pg scmdibglsdc hqe fqetec celeksogi.</span>',
-        },
-      },
-
-      "actions": {
-        "stellaris illustra": {
-          "leve": 'No es suficiente para dibujar la constelación.',
-          "moderado": 'No es suficiente para dibujar la constelación.',
-          "exitoso": 'Dibuja la constelación de Perseo a la perfección ingresando al Observatorio Galatea.<adding search="armario bajo la escalera" class="check-cards"></adding>',
-          "critico": 'Dibuja la constelación de Perseo a la perfección ingresando al Observatorio Galatea.<adding search="armario bajo la escalera" class="check-cards"></adding>',
-        },
-        "aguamenti": {
-          "leve": 'No es suficiente para resolver el problema.',
-          "moderado": 'No es suficiente para resolver el problema.',
-          "exitoso": 'El agua moja el portón las constelaciones brillan y sus puertas se abren.<adding search="observatorio galatea" class="check-cards"></adding>',
-          "critico": 'El agua moja el portón las constelaciones brillan y sus puertas se abren.<adding search="observatorio galatea" class="check-cards"></adding>',
-        },
-        "numerus occultus": {
-          "leve": 'Las primeras palabras hasta la coma indican la fecha en la que fueron escritos.',
-          "moderado": 'Las primeras palabras hasta la coma indican la fecha en la que fueron escritos.',
-          "exitoso": 'Las primeras palabras hasta la coma indican la fecha en la que fueron escritos.',
-          "critico": 'Las primeras palabras hasta la coma indican la fecha en la que fueron escritos.',
-        },
-        "gematria veritas": {
-          "leve": 'No es suficiente para resolver el problema.',
-          "moderado": 'El método de cifrado consiste en que el alfabeto esta ordenado de una manera diferente, pero no indica el patrón.',
-          "exitoso": 'El método de cifrado consiste en que el alfabeto esta ordenado de una manera diferente, pero no indica el patrón.',
-          "critico": 'El método de cifrado consiste en que el alfabeto esta ordenado de una manera diferente, pero no indica el patrón.',
-        },
-        "diffindo": {
-          "leve": 'Ignorar mensaje de arriba y aplicar las siguientes consecuencias: el personaje logra hacer un corte en la palma perdiendo 10PV. <adding search="mensaje oculto" class="check-cards"></adding>',
-          "moderado": 'Ignorar mensaje de arriba y aplicar las siguientes consecuencias: el personaje logra hacer un corte en la palma perdiendo 5PV. <adding search="mensaje oculto" class="check-cards"></adding>',
-          "exitoso": 'Ignorar mensaje de arriba y aplicar las siguientes consecuencias: el personaje logra hacer un corte en la palma perdiendo 2PV. <adding search="mensaje oculto" class="check-cards"></adding>',
-          "critico": 'Ignorar mensaje de arriba y aplicar las siguientes consecuencias: el personaje logra hacer un corte en la palma perdiendo 0PV. <adding search="mensaje oculto" class="check-cards"></adding>',
-        },
-        "colloshoo": {
-          "leve": '<span>No es suficiente para generar efectos.</span>',
-          "moderado": '<span>El personaje se libra de la perdida de puntos por los cambios en la maqueta.</span>',
-          "exitoso": '<span>El personaje se libra de la perdida de puntos por los cambios en la maqueta.</span>',
-          "critico": '<span>El personaje se libra de la perdida de puntos por los cambios en la maqueta.</span>',
-        },
-        "arresto momentum": {
-          "leve": '<span>No es suficiente para generar efectos.</span>',
-          "moderado": '<span>Se puede escuchar el suspiro de Galatea de fondo— <strong>La maqueta produce dos hechizos, uno es ese, ¿Qué te hace pensar que es la solución?</strong>.</span>',
-          "exitoso": '<span>Se puede escuchar el suspiro de Galatea de fondo— <strong>La maqueta produce dos hechizos, uno es ese, ¿Qué te hace pensar que es la solución?</strong>.</span>',
-          "critico": '<span>Se puede escuchar el suspiro de Galatea de fondo— <strong>La maqueta produce dos hechizos, uno es ese, ¿Qué te hace pensar que es la solución?</strong>.</span>',
-        },
-        "wingardium leviosa": {
-          "leve": '<span>No es suficiente para generar efectos.</span>',
-          "moderado": '<span>Se puede escuchar la risa baja de Galatea, quien se cubre la boca con una mano— <strong>Ese no es...</strong></span>',
-          "exitoso": '<span>Se puede escuchar la risa baja de Galatea, quien se cubre la boca con una mano— <strong>Ese no es...</strong></span>',
-          "critico": '<span>Se puede escuchar la risa baja de Galatea, quien se cubre la boca con una mano— <strong>Ese no es...</strong></span>',
-        },
-        "locomotor": {
-          "leve": '<span>No es suficiente para generar efectos.</span>',
-          "moderado": '<span>El bufido de Galatea se hace escuchar— <strong>Les hace falta un Ravenclaw en el equipo.</strong></span>',
-          "exitoso": '<span>El bufido de Galatea se hace escuchar— <strong>Les hace falta un Ravenclaw en el equipo.</strong></span>',
-          "critico": '<span>El bufido de Galatea se hace escuchar— <strong>Les hace falta un Ravenclaw en el equipo.</strong></span>',
-        },
-      },
+      "actions": {},
     },
     // fin unveiling the unseen
 
@@ -5438,17 +2944,7 @@ const MissionsModule = (function () {
 
       "cards": [],
 
-      "searchs": {
-        "copia de la red flu": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "neptune", }, "place": "",
-          "cont": '<span>Permite recolectar el sobre con la información de la red flu que conecta a Dayflower Garden. La ubicación del mismo queda a disposición del usuario.</span>',
-        },
-
-        "información red flu chim-sco/0123-p": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "copia de la red flu",
-          "cont": '<span><span class="book-clipping"><br><div align="center"><strong>ALTA DE PUNTO RED FLU</strong></div><br><strong>Código de registro</strong>: CHIM-SCO/0123-P<br><strong>Fecha alta</strong>: 17 de Agosto de 1893.<br><strong>Oficina</strong>: Ministerio de Magia, Departamento de transporte, oficina 3.<br><br><div align="center"><strong>Información punto de conexión</strong></div><br><strong>Dirección</strong>: Dayflower Garden, Tairlaw en Sala de Estar.<br><br><strong>Tipo de Propiedad</strong>:<br>☒ Residencia Privada<br>☐ Comercial<br>☐ Institucional<br>☐ Clasificado<br><br><strong>Propietario Registrado</strong>: Mabel Merrythought<br><br><div align="center"><strong>Detalles técnicos de la chimenea</strong></div><br><strong>Designación oficial de la red flu</strong>: SCO-0123<br><br><strong>Tipo de conexión</strong>: <br>☒ Permanente<br>☐ Temporal<br><br><strong>Estado de seguridad mágica</strong>: <br>☐ Supervisada con runas<br>☒ Restringido (solo usuarios autorizados, ver anexo W-934)<br>☐ Abierta al público<br><br><strong>Encantamientos de protección aplicados</strong>:<br>☒ Sello de trazabilidad Flu<br>☒ Encantamiento de refracción muggle (nivel 3)<br>☒ Alarma de flujo inverso<br><br><strong>Documentación presentada</strong> (ver anexos):<br>☒ Contrato de responsabilidad<br>☐ Licencia de uso comercial<br>☒ Declaración jurada de propietario<br>☒ Informe de instalación: inspector Harlan Jaxtyn.<br>☒ Comprobante de pago</span></span>',
-        },
-      },
+      "searchs": {},
 
       "actions": {},
     },
@@ -5805,134 +3301,9 @@ const MissionsModule = (function () {
       "type": "misión", "closed": true, "fecha": "1953-01-03", "link": "https://blackwave.foroactivo.com/t933-mision-the-rest-of-us", "tagged": ["original", "capitulo 3"],
 
       "cards": [],
-      "searchs": {
-        "vidrios rotos": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>Lo primero que se puede observar al ingresar a la residencia, es que la mayoría de los vidrios de la sala de estar, se encuentran rotos. En algunos faltan algunas partes, otros se encuentran trizados.</span>',
-        },
-        "forma de la ruptura de los vidrios": {
-          "visible": { "attr": { "int": "3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "vidrios rotos",
-          "cont": '<span>Por la forma en la que se encuentran rotos y trizados los vidrios, se puede concluir que el origen fue el mismo para todo lo que era de vidrio del lugar. Algo provocó un estallido que tuvo como consecuencia, los vidrios rotos.</span>',
-        },
-        "preguntar: ¿por qué aun no repararon los vidrios?": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "vidrios rotos",
-          "cont": '<span>Uno de los coordinadores responde a la pregunta: «Un miembro del Departamento de seguridad, nos pidió que no tocaramos nada hasta que alguien pudiera analizar la escena. Y como queremos que encuentren a todos, no lo hemos hecho. Estabamos esperando que encuentren todo lo que necesiten para poder reparar todo, en especial los vidios».</span>',
-        },
-        "origen de la explosión": {
-          "visible": { "attr": { "int": "3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "forma de la ruptura de los vidrios",
-          "cont": '<span>Lo que haya hecho explotar los vidrios, lo hizo en un costado de la sala, cerca de un juego de niños, unos cubos con letras. Es donde más daño hay y desde allí se propaga. Lo que parecería indicar que el origen fue un niño de la residencia.</span>',
-        },
-        "preguntar: ¿a qué niño le gusta jugar con esos juegos?": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "origen de la explosión",
-          "cont": '<span>Uno de los lorien responde: «Pertenecen a Velisse. En realidad, pertenecen a todos, pero Velisse es quien más juega con ellos. Uno de los Lorien desaparecidos la encontró y como es muy retraida no quisimos dejarla en el orfanato.».</span>',
-        },
-        "preguntar: ¿velisse ya ha realizado sus primera muestra de magia?": {
-          "visible": { "attr": { "int": "3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar: ¿a qué niño le gusta jugar con esos juegos?",
-          "cont": '<span>Uno de los lorien responde: «Velisse no es una bruja, nació de una banshee y un muggle. Llegamos a dar con el muggle, pero dejó en claro que no la quería porque se desperaba a la noche gritando... Por eso la abandonó».</span>',
-        },
-        "preguntar: ¿tienen algún protocolo de emergencia?": {
-          "visible": { "attr": { "int": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>Uno de los coordinadores responde: «Por supuesto, son demasiadas criaturas en un solo lugar. En caso de una emergencia, tienen que abrir las puertas y dejarlas trabajadas. A veces, las hijas de banshee pueden trabar las mismas con sus gritos y luego los demás quedan encerrados. Ocurre lo mismo en caso de terremoto. Luego deben hacer una fila y caminar pegados a las paredes, liberar el centro de los pasillos en caso de incendio. Todos se retiran hasta el jardín trasero, donde se debe hacer el conteo de cabezas y esperar que un coordinador de indicaciones».</span>',
-        },
-        "preguntar: ¿cada cuánto realizan un simulacro?": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar: ¿tienen algún protocolo de emergencia?",
-          "cont": '<span>Uno de los coordinadores responde: «Una vez cada tres meses, es importante que sepan qué deben hacer en caso de una emergencia».</span>',
-        },
-        "preguntar: ¿quiénes fueron secuestrados?": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>Uno de los coordinadores responde: «Wiley y Nessa, eran los coordinadores del día. Baird era uno de los Lorien que cuidaba a los más pequeños. Y luego estaban: Bonnie, Dalia, Fridric, Edda, Loch y Velisse».</span>',
-        },
-        "preguntar: ¿había alguien más en el lugar?": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar: ¿quiénes fueron secuestrados?",
-          "cont": '<span>Uno de los coordinadores responde: «No, ellos eran todos los que estaban en la residencia anoche».</span>',
-        },
-        "preguntar: ¿qué es lo último que supieron de ellos?": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>Uno de los coordinadores responde: «Era como cualquier otro día. La mayoría no pasamos la noche aquí, salvo que sea luna llena y solo por prevención. Se habían quedado dos coordinadores y un lorien para cuidar a todos, pero al día siguiente llegamos y no había nadie. Shea fue la primera en llegar, me avisó a mi y luego al Departamento de Seguridad... y aquí estamos. Como nos han dicho, no hemos tocado nada más allá de revisar las habitaciones. En caso de que lo pregunten, no, no están en las habitaciones».</span>',
-        },
-        "seguir protocolo de seguridad": {
-          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar: ¿tienen algún protocolo de emergencia?",
-          "cont": '<span>Al seguir el protocolo de seguridad, pueden notar que todas las puertas están cerradas, pero ninguna de ellas se encuentra trabada. Salvo la puerta que da al jardín que se encuentra cerrada con llave, aunque la misma se encuentra colgada al lado de la puerta.</span>',
-        },
-        "preguntar: ¿esta llave abre la puerta?": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "seguir protocolo de seguridad",
-          "cont": '<span>Un Lorien responde: «Sí, la cerramos cuando ya no estamos todos. El resto de las puertas al exterior se cierran cuando todos van a dormir».</span>',
-        },
-        "conclusión sobre el protocolo de seguridad": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "seguir protocolo de seguridad",
-          "cont": '<span>La falta de movimiento y que la llave este colgada como si nada hubiera pasado, indica que el protocolo no se siguió aquella noche.</span>',
-        },
-        "preguntar sobre los poderes de banshee de velisse": {
-          "visible": { "attr": { "int": "4" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar: ¿velisse ya ha realizado sus primera muestra de magia?",
-          "cont": '<span>Un Lorien responde: «La encontró Baird cuando tenía tres años y medio. Ya era pequeña, pero ya podía ver trágicos futuros con claridad, a muchos les daba miedo. Aterró a más de un semi gigante. Creemos que por eso es tan introvertida, no se relaciona demasiado con las personas. Le tiene mucho miedo a sus propios poderes, teme que todo lo que ve pase».</span>',
-        },
-        "preguntar: ¿dónde se esconde velisse cuando tiene miedo?": {
-          "visible": { "attr": { "int": "4" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar sobre los poderes de banshee de velisse",
-          "cont": '<span>Un Lorien responde: «Por lo general, a los brazos de Baird, si él no esta, busca una sala que tenemos para banshees que esta asilada».</span>',
-        },
-        "visitar la sala": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar: ¿dónde se esconde velisse cuando tiene miedo?",
-          "cont": '<span>Uno de los Lorien encamina la marcha. Comienza por uno de los pasillos que conduce a una escalera, y recorre el tramo hasta llegar al sótano. Abren la puerta y allí encuentran una sala completamente vacía. También se puede notar que la sala esta insonorizada. Por lo tanto, ninguno de los ruidos interiores se escucha desde el exterior.</span>',
-        },
-        "realizar revelio en la sala de banshees": {
-          "visible": { "attr": { "int": "4" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "visitar la sala",
-          "cont": '<span>Si se realiza revelio en la sala, se pueden visulizar las huellas embarradas que llegaban hasta allí, giraban en la sala y regresaban.</span>',
-        },
-        "abrir la puerta al exterior": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar: ¿esta llave abre la puerta?",
-          "cont": '<span>El frío saluda a los invitados. Un jardín que se extiendo con el césped bien cortado y algunos lugares donde aún no ha logrado derretir la nieve de la temporada.</span>',
-        },
-        "pisadas en el barro": {
-          "visible": { "attr": { "int": "4" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir la puerta al exterior",
-          "cont": '<span>Si se observa con detalle, se puede notar que hay varias pisadas en el suelo que se dirigen al exterior. Si se pregunta a un Lorien, este mencionará que llevan a la casa del árbol.</span>',
-        },
-        "ir a la casa del árbol": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "pisadas en el barro",
-          "cont": '<span>Si se sigue la dirección de las pisadas, estás llegan, como el Lorien había mencionado, a la casa del árbol. Una casa de madera a los pies de un sauce que aún no ha perdido la nieve sobre sus ramas. Desde el exterior, puede escucharse lo que parece ser una nana.</span>',
-        },
+      "searchs": {},
 
-        "la canción de cuna": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ir a la casa del árbol",
-          "cont": '<span>Mientras todos se acercan, la canción de cuna se vuelve más clara. Es la canción para niños. El o los personajes con menos constitución comienza a sentir una somnolencia que los lleva a tambalearse y con determinación querer regresar al lugar por el que vinieron. Los coordinadores y lorien caen bajo el encanto.</span>',
-        },
-
-        "el canto de la banshee": {
-          "visible": { "attr": { "con": "4" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "la canción de cuna",
-          "cont": '<span>Quien canta la canción es una niña y las palabras con las que las canta produce sueño, pero no parece ser demasiado agresivo. Simplemente, una forma de calmar a aquellos que quieran acercarse.</span>',
-        },
-
-        "abrir la casa del árbol": {
-          "visible": { "attr": { "fue": "3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "el canto de la banshee",
-          "cont": '<span>Al abrir la puerta de la casa del árbol, se puede observar a Velisse junto a todas las personas que estaban desaparecitas. La niña se encuentra en el centro de todos ellos, cantando y acariciando sus cabellos. Parece cansada, como si hubiera estado así toda la noche. Al verlos, deja de cantar y el hechizo se rompe.</span>',
-        },
-
-        "preguntarle a velisse qué sucedió": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir la casa del árbol",
-          "cont": '<span>Velisse corre a esconderse detrás de uno de los coordinadores y se esconde detrás de una de sus piernas antes de responder: «Lo vi venir, quería sacarle el corazón a todos. Entonces me los traje aquí. Tenía un ojo cerrado y una cicatriz extraña que le recorría dicho ojo». Por más que se intente, Velisse está demasiado asustada para responder más preguntas.</span>',
-        },
-
-        "marcas de pisadas": {
-          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "marcas del suelo",
-          "cont": '<span>En el suelo se marcan unas pisadas. Por su tamaño, podría deducirse que se trata de un hombre. Los pasos recorren todas las habitaciones.</span>',
-        },
-        "dirección de las pisadas": {
-          "visible": { "attr": { "int": "3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "marcas del suelo",
-          "cont": '<span>Las marcas de las pisadas entran y salen, y por el peso de las mismas, se puede deducir que no llevaba carga extra al salir. Aunque el caminar delata que iba borrando su paso al salir.</span>',
-        },
-        "cuadro roto": {
-          "visible": { "attr": { "int": "3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>Un cuadro se encuentra roto. Es un cuadro dibujado por un niño. Parece que alguien lo ha golpeado.</span>',
-        },
-      },
-
-      "actions": {
-        "revelio": {
-          "leve": '<span>No es suficiente para generar efectos.</span>',
-          "moderado": '<span>Pueden notarse unas marcas en el piso. Pisadas realizadas con barro que fueron removidas con un hechizo de limpieza.<adding search="marcas del suelo" class="check-cards"></adding></span>',
-          "exitoso": '<span>Pueden notarse unas marcas en el piso. Pisadas realizadas con barro que fueron removidas con un hechizo de limpieza.<adding search="marcas del suelo" class="check-cards"></adding></span>',
-          "critico": '<span>Pueden notarse unas marcas en el piso. Pisadas realizadas con barro que fueron removidas con un hechizo de limpieza.<adding search="marcas del suelo" class="check-cards"></adding></span>',
-        },
-      },
+      "actions": {},
     },
     // the rest of us
 
@@ -5945,40 +3316,12 @@ const MissionsModule = (function () {
       "type": "investigación", "closed": true, "fecha": "1953-02-13", "link": "/t984-interrogatorio-silent-sentinel", "tagged": ["original", "capitulo 2"],
 
       "cards": [
-        {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>Con poco más de veinte años, Daelan Blevins posee una presencia física difícil de ignorar pero fácil de subestimar. Su figura es esbelta y larguirucha, marcada por facciones puntiagudas que le dan un perfil definido y algo severo. El color arena de su cabello contrasta con la calidez de sus ojos castaños, mientras que sus orejas, algo despegadas, rompen la simetría de su rostro dándole un aspecto genuino. Es, en todo sentido, el retrato de la juventud temprana: enérgico, algo desgarbado y claramente en pleno crecimiento.</span>'
-        },
-        {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "",
-          "cont": '<span>En los registros oficiales del Ministerio de Magia, el nombre de Daelan Blevins figura bajo la etiqueta de Squib. Actualmente, reside con su madre, manteniendo un vínculo estrecho con la única parte de su herencia que parece aceptarlo plenamente.</span>'
-        },
-        {
-          "visible": { "attr": { "val": "min" }, "know": { "estudios muggles": "10" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>Para un conocedor del mundo muggle, el apellido Blevins evoca antiguas raíces galesas, derivado del nombre Bleddyn, que significa "cachorro de lobo". Es un apellido que habla de linajes humildes pero resistentes, de pastores y artesanos que trabajaron la tierra mucho antes de que el Ministerio empezara a clasificar la sangre.</span>'
-        }
+        {"visible":{"attr":{"int":"1"},"know":{"val":"min"},"job":"invalid","name":"invalid"},"place":"","cont":"<span>Con poco más de veinte años, Daelan Blevins posee una presencia física difícil de ignorar pero fácil de subestimar. Su figura es esbelta y larguirucha, marcada por facciones puntiagudas que le dan un perfil definido y algo severo. El color arena de su cabello contrasta con la calidez de sus ojos castaños, mientras que sus orejas, algo despegadas, rompen la simetría de su rostro dándole un aspecto genuino. Es, en todo sentido, el retrato de la juventud temprana: enérgico, algo desgarbado y claramente en pleno crecimiento.</span>"},
+        {"visible":{"attr":{"val":"min"},"know":{"val":"min"},"job":"seguridad","name":"invalid"},"place":"","cont":"<span>En los registros oficiales del Ministerio de Magia, el nombre de Daelan Blevins figura bajo la etiqueta de Squib. Actualmente, reside con su madre, manteniendo un vínculo estrecho con la única parte de su herencia que parece aceptarlo plenamente.</span>"},
+        {"visible":{"attr":{"val":"min"},"know":{"estudios muggles":"10"},"job":"invalid","name":"invalid"},"place":"","cont":"<span>Para un conocedor del mundo muggle, el apellido Blevins evoca antiguas raíces galesas, derivado del nombre Bleddyn, que significa \"cachorro de lobo\". Es un apellido que habla de linajes humildes pero resistentes, de pastores y artesanos que trabajaron la tierra mucho antes de que el Ministerio empezara a clasificar la sangre.</span>"},
       ],
       "searchs": {},
-      "actions": {
-        "legeremens": {
-          "leve": '<span>No es suficiente para revelar información.</span>',
-          "moderado": '<span>Si se buscan los recuerdos de ese día, puede recordar que Daelan se encontraba ingresando a la cabaña cuando sintió un golpe por detrás que lo dejó inconsciente.</span>',
-          "exitoso": '<span>Si se buscan los recuerdos de ese día, puede recordar que Daelan se encontraba ingresando a la cabaña cuando sintió un golpe por detrás que lo dejó inconsciente.</span>',
-          "critico": '<span>Si se buscan los recuerdos de ese día, puede recordar que Daelan se encontraba ingresando a la cabaña cuando sintió un golpe por detrás que lo dejó inconsciente.</span>',
-        },
-        "sensum eximo": {
-          "leve": '<span>No es suficiente para revelar información.</span>',
-          "moderado": '<span>Puede notarse que el joven esta nervioso, si bien esta intentando colaborar, ver a tantas personas juntas lo altera.</span>',
-          "exitoso": '<span>Puede notarse que el joven esta nervioso, si bien esta intentando colaborar, ver a tantas personas juntas lo altera.</span>',
-          "critico": '<span>Puede notarse que el joven esta nervioso, si bien esta intentando colaborar, ver a tantas personas juntas lo altera.</span>',
-        },
-        "veritas relego": {
-          "leve": '<span>No es suficiente para revelar información.</span>',
-          "moderado": '<span>Permite confirmar que Daelan no mintió en ninguna pregunta.</span>',
-          "exitoso": '<span>Permite confirmar que Daelan no mintió en ninguna pregunta.</span>',
-          "critico": '<span>Permite confirmar que Daelan no mintió en ninguna pregunta.</span>',
-        },
-      },
+      "actions": {},
     },
     // silent sentinel
 
@@ -5991,199 +3334,15 @@ const MissionsModule = (function () {
       "type": "misión", "closed": true, "fecha": "1953-02-21", "link": "/t983-mision-clandestine-melodies", "tagged": ["original", "capitulo 3"],
 
       "cards": [
-        {
-          "visible": { "attr": { "val": "min" }, "know": { "contrabando": "10" }, "job": "invalid", "name": "invalid", }, "place": "segunda intervención",
-          "cont": '<span>Puedes notar que el líquido azul brilla con un matiz metálico, similar al de los galeones encantados; es una bebida que exige saldar cuentas. Además, puedes observar que el vaso verde es el único que no deja rastro de sedimento, indicando una pureza que los otros no tienen.</span>'
-        },
-        {
-          "visible": { "attr": { "val": "min" }, "know": { "pociones": "10" }, "job": "invalid", "name": "invalid", }, "place": "segunda intervención",
-          "cont": '<span>El líquido amarillo desprende un vapor incoloro que adormece los sentidos, típico de los bloqueadores de memoria a largo plazo. Puedes identificar también que el líquido naranja tiene una textura viscosa que, al ser ingerida, suele agarrotar las articulaciones y los canales de flujo mágico.</span>'
-        },
-        {
-          "visible": { "attr": { "val": "min" }, "know": { "dcao": "15" }, "job": "invalid", "name": "invalid", }, "place": "segunda intervención",
-          "cont": '<span>Puedes sentir una vibración punzante en el líquido rojo, un calor agresivo que presagia dolor físico. Por otro lado, puedes detectar que el vaso morado emite un eco residual; no es una maldición de daño, sino un lazo sensorial que pretende quedarse contigo tras marcharte.</span>'
-        },
-        {
-          "visible": { "attr": { "val": "min" }, "know": { "magia oscura": "10" }, "job": "invalid", "name": "invalid", }, "place": "segunda intervención",
-          "cont": '<span>Puedes percibir una falta total de energía en el líquido índigo; es una bebida que drena la voluntad, dejando a quien la toma como una cáscara vacía incapaz de sostenerse. Sin embargo, puedes sentir que el líquido verde es neutral, carente de cualquier rastro de oscuridad o manipulación.</span>'
-        }
+        {"visible":{"attr":{"val":"min"},"know":{"contrabando":"10"},"job":"invalid","name":"invalid"},"place":"segunda intervención","cont":"<span>Puedes notar que el líquido azul brilla con un matiz metálico, similar al de los galeones encantados; es una bebida que exige saldar cuentas. Además, puedes observar que el vaso verde es el único que no deja rastro de sedimento, indicando una pureza que los otros no tienen.</span>"},
+        {"visible":{"attr":{"val":"min"},"know":{"pociones":"10"},"job":"invalid","name":"invalid"},"place":"segunda intervención","cont":"<span>El líquido amarillo desprende un vapor incoloro que adormece los sentidos, típico de los bloqueadores de memoria a largo plazo. Puedes identificar también que el líquido naranja tiene una textura viscosa que, al ser ingerida, suele agarrotar las articulaciones y los canales de flujo mágico.</span>"},
+        {"visible":{"attr":{"val":"min"},"know":{"dcao":"15"},"job":"invalid","name":"invalid"},"place":"segunda intervención","cont":"<span>Puedes sentir una vibración punzante en el líquido rojo, un calor agresivo que presagia dolor físico. Por otro lado, puedes detectar que el vaso morado emite un eco residual; no es una maldición de daño, sino un lazo sensorial que pretende quedarse contigo tras marcharte.</span>"},
+        {"visible":{"attr":{"val":"min"},"know":{"magia oscura":"10"},"job":"invalid","name":"invalid"},"place":"segunda intervención","cont":"<span>Puedes percibir una falta total de energía en el líquido índigo; es una bebida que drena la voluntad, dejando a quien la toma como una cáscara vacía incapaz de sostenerse. Sin embargo, puedes sentir que el líquido verde es neutral, carente de cualquier rastro de oscuridad o manipulación.</span>"},
       ],
 
-      "searchs": {
-        "presentarse como contrabandistas": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>A ritmo constante de una marcha exigente y ruda, la banda responde: «A nadie cerramos la puerta si el rastro es de oscuridad, / pero el hierro no se dobla sin la palabra de verdad. / Di el nombre que abre el cerrojo, suelta el santo y la señal, / y verás que nuestra lengua no distingue el bien del mal».</span>'
-        },
-        "ofrecer la contraseña": {
-          "visible": { "attr": { "val": "min" }, "know": { "contrabando": "10" }, "job": "invalid", "name": "invalid", }, "place": "presentarse como contrabandistas",
-          "cont": '<span>Tras brindar la contraseña, que es nombrar al primer trovador en entonar una nota, en este caso Tadhg, el ritmo de la guitarra cambia. Las notas se vuelven más suaves y cálidas, un acorde de Sol Mayor: «Viejo amigo de las sombras, es un gusto volverte a ver, / dime qué carga traes hoy que nos pueda convencer. / ¿Buscas llenar los bolsillos, o que el cuervo dicte sentencia? / ¿O es que el camino te pesa y buscas paz y clemencia?».<adding search="comenzar interrogatorio" class="check-cards"></adding></span>'
-        },
-        "deducir la contraseña": {
-          "visible": { "attr": { "sab": "3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "presentarse como contrabandistas",
-          "cont": '<span>Mientras suena un punteo tenso y agudo esperando la respuesta. El personaje puede darse cuenta de que un par de músicos observan a uno de sus miembros en particular, que suavemente mueve la pierna con una sonrisa vaga en sus labios. El personaje puede señalar al trovador, y varios miembros de la banda mostrarían su sorpresa antes de que Cillian responda: «Bienvenido sea el colega, aunque el rostro no nos suena, / no recordamos tu sombra en esta mesa ajena. / Si quieres ganar el sitio y que el juicio se desvanezca, / haz que un poco de arte negro ante nosotros florezca».</span>'
-        },
-        "inventar la contraseña": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "presentarse como contrabandistas",
-          "cont": '<span>Tras inventar una contraseña, la música se detiene de súbito. Algunos miembros cuelgan sus guitarras dando la intervención por terminada: «Lamentamos el desvío, caminante de otra acera, / aquí solo hay viejas cuerdas y madera que desespera. / Somos músicos de paso, no buscamos el conflicto, / siga su ruta, viajero, su nombre no está escrito». <br>Los usuarios deben avisar a la administración. No pasaron la prueba de los trovadores y, en consecuencia, han perdido la misión. Todos los personajes pierden 2 puntos en contrabando o 1 de sabiduría.</span>'
-        },
-        "presentarse como miembros del ministerio": {
-          "visible": { "attr": { "int": "3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>Tras presentarse como miembros del Ministerio de Magia, los trovadores sonríen, enderezan sus aspectos y acomodan los chalecos o las gabardinas. El tono empleado es servil, pero cargado con una ironía peligrosa: «Por nuestra querida Tuft, lo que el orden necesite, / que la ley toque a la puerta y el miedo se nos quite. / ¿Ha enviado la señora a quien domeñe lo oscuro? / ¿Traes contigo la marca que atraviese este muro?».</span>'
-        },
-        "presentarse como personas que buscan información": {
-          "visible": { "attr": { "int": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>Tras presentarse como neutrales, el tono de la banda se vuelve burlón: «Si no traes causa ni guerra, y tu sangre es de cristal, / el baño está a la derecha, al fondo del pastizal. / Si el vientre te ruge fuerte y el apuro te condena, / abre bien la ventana para que el aire no dé pena».</span>'
-        },
-        "volver a presentarse como miembros del ministerio": {
-          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "presentarse como personas que buscan información",
-          "cont": '<span>Tras corregir la presentación y confesar ser enviados por el Ministerio de Magia, Cillian da un golpe violento a la caja de la guitarra antes de señalar al grupo: «Amigo, a nosotros no se nos engaña con ese disfraz barato, / el ojo que todo lo ve ha detectado el maltrato. / Dos mil galeones de multa por el error cometido, / el precio de ser un sordo en este nido de ruido».</span>'
-        },
-        "pagar": {
-          "visible": { "attr": { "int": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "volver a presentarse como miembros del ministerio",
-          "cont": '<span>La música, detenida por un momento, cobra el ritmo nuevamente, de una manera prolija y profesional: «Ya suena el metal de nuevo, el costo de ser sincero, / nuestras rimas son de acero, pero el trato es lo primero. / No aceptamos la mentira en el verso ni en el suelo, / ahora habla con la verdad, o busca paz en el cielo».<adding search="comenzar interrogatorio" class="check-cards"></adding></span>'
-        },
-        "preguntar por los denman": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "comenzar interrogatorio",
-          "cont": '<span>La música se vuelve lenta y lúgubre: «Eran gente simple, de mente muy llana, / que quiso burlar la ley soberana. / Buscaron la vida donde habita el frío, / y el arte prohibido causó su desvío. / La magia tiene fronteras de fuego, / y a los Denman atrapó en su juego. / La sombra los quiso a todos llevar, / ni un alma quedó para el cuento narrar».</span>'
-        },
-        "preguntar por el anillo": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar por los denman",
-          "cont": '<span>Con una pausa larga, los músicos buscan a Cillian, quien turce el gesto y la música continúa: «Se dice que el viejo, con mano de acero, / cazó a un gran lobo en el monte fiero. / De un hueso bendito talló su amuleto, / cargando en su dedo un poder secreto. / Dicen que el brillo su magia ensanchaba, / y al mismo destino el hombre retaba. / Aunque él con silencio su obra cubrió, / la fama del anillo su tumba cavó».</span>'
-        },
-        "preguntar por los wraitwood": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar por el anillo",
-          "cont": '<span>La música se vuelve un susurro, los músicos que preguntan a su líder si continuar: «No llames al muerto que duerme en el lodo, / que el nombre de Morian lo pudre todo. / Las gemelas pronto el umbral cruzaron, / y en oscuras artes su sed calmaron. / Dijeron a todos: "Estamos en Francia", / mintiendo con clase y con elegancia. / Pero en Inglaterra la sombra buscaban, / y al mundo entre robos ellas engañaban».</span>'
-        },
-        "preguntar sobre morian": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar por los wraitwood",
-          "cont": '<span>Una sonrisa aparece en Cillian y la música cobra ritmo golpeado: «Mejor le hubiera ido al pobre de Zeke, / si el odio fraterno no fuera su trueque. / Escapó de la Parca por sendas extrañas, / burlando a la muerte con mil artimañas. / Pero ella es más lista, su hermana es astuta, / lo halló en el final de su lúgubre ruta. / Las causas son justas, la ley lo aceptó, / y el beso del ente su alma bebió».</span>'
-        },
-        "preguntar por la traición": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar sobre morian",
-          "cont": '<span>Puede notarse el respeto de los músicos en aquella parte, el estilo solemne que arrastran con la voz quebrada: «Un padre podrido, de estirpe acabada, / vendió a la muchacha por una tajada. / Tan joven e indigna de tal sufrimiento, / su propia familia fue su tormento. / El hijo mayor puso mano en la infamia, / el menor calló con su cobarde infamia. / Pero ella guardó cada herida y rencor, / tejiendo en su pecho un invierno de horror». Por el fondo se escucha a uno de los músicos negar y decir: «A penas había abandonado los quince». Los otros músicos lo callan, que interrumpa la música.</span>'
-        },
-        "preguntar por la justicia": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar por la traición",
-          "cont": '<span>Después de la interrupción, la música cobra ritmo: «La tinta del diario gritó su bajeza, / poniendo precio a cada cabeza. / Pues ella entregó los secretos de casa, / quemando el linaje con fuego y con brasa. / Recibieron todos su amargo merecido, / por lo que a la joven le habían rendido. / Apenas la ley ellos osaron romper, / ella les hizo el infierno conocer». La sonrisa orgullosa de los músicos cobra fuerza, sabiendo que la triste historia tenía final feliz.</span>'
-        },
-        "preguntar por la identidad": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar por la justicia",
-          "cont": '<span>La tonada toma silencio, Cillian los observa hasta decidir que son de confianza: «Ya no hay Rosier que recuerde la historia, / borró su apellido de toda memoria. / Ni influencias ni oro la pueden atar, / prefirió su pasado del mapa borrar. / Nosotros la amamos, fue escudo y fue guía, / para que nadie sufra su propia agonía. / Pero hasta en la sombra le guardan respeto, / pues lleva el filo bajo el amuleto».</span>'
-        },
-        "preguntar por el apellido": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar por la identidad",
-          "cont": '<span>«Aurelius dejó solo sangre en el suelo, / Valerian fue muerte bajo un negro velo. / Zeke fue Morian, fingiendo su vida, / pero Wilhelmina cerró la salida. / No dejó a ninguno de aquellos varones, / pagaron sus deudas en mil ocasiones. / Salvo a las gemelas, que al ver la matanza, / juraron ser rostro de otra venganza». la música se vuelve desgarradora en esa pequeña parte. Una mueca pues la sangre con sangre se paga.</span>'
-        },
-        "preguntar por wrenn": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "comenzar interrogatorio",
-          "cont": '<span>la voz de Cillian se vuelve seca y cortante: «Vendió su linaje, vendió su decencia, / buscando en el mundo mayor eminencia. / Quiso ser más grande que el padre maldito, / y alzó su bandera en un reino proscrito. / Mas puso los ojos en manos erradas, / y vio sus apuestas del todo truncadas. / No pudo el dinero la deuda pagar, / y un tiro en el pecho la fue a silenciar».<br><br><u>Nota</u>Si tienen más preguntas que quieran hacer, pueden enviar las mismas por privado. En caso contrario, deberán avisar a la administración para que realice el correspondiente masteo.</span>'
-        },
-        "preguntar por nina": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "primera intervención",
-          "cont": '<span>La voz de Cillian se aclara y la música suave comienza a sonar: «Nina nació sin la chispa, / la magia su sangre hería, / mas halló valor distinto / donde nadie lo veía. / Callada como la sombra, / escurridiza en su andar, / buscaba siempre las luces / para a su hermana ocultar. / Hoy es alma entre dos mundos, / espectro que el viento trajo, / y aún no se sabe si es buena / o viene del mismo averno».</span>'
-        },
-        "preguntar por el trato de wrenn": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "primera intervención",
-          "cont": '<span>Las cuerdas parecen tensarse, pero la música continua mientras la banda busca a su lider, evaluando si es seguro responder. Cillian responde, «Se buscaba un cuerpo breve / para un robo realizar, / Wrenn necesitaba el oro, / nosotros solo el hablar. / El contacto fue sencillo, / mas dicen que ella guardó / el objeto prohibido / y este sitio la expulsó».</span>'
-        },
-        "preguntar por el beso de zeke": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "primera intervención",
-          "cont": '<span>Cillian comparte una sonrisa con su compañero de guitarra antes de volverse a los invitados: «Morian se creyó astuto, / de la muerte hizo su hogar, / oculto entre los difuntos / para al mundo engañar. / Una magia practicaba / que no gusta al Ministerio, / pero el rastro de una gota / desveló su vil misterio. / Una sangre en el camino / que Tuft supo rastrear, / y veinte vidas segadas / tuvo el reo que pagar».</span>'
-        },
-        "preguntar por el anillo de denman": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "primera intervención",
-          "cont": '<span>Dos músicos se miraron, pero luego se encogieron de hombro y aligeraron la música: «Dicen que el hueso de bestia / abre un puente al más allá, / que el hechizo se hace fuerte / con lo que muerto ya está. / Por eso el oso en el dedo, / por magia negra caído, / un nexo con los espectros / que el anillo ha bendecido».</span>'
-        },
-        "preguntar por soly": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "primera intervención",
-          "cont": '<span>Por un momento, Cillian se rasca la barbilla antes de decir: «¿Soly dice? No me suena, / ese nombre no es de aquí. / Sus pies nunca caminaron / por el suelo que yo vi».</span>'
-        },
-        "beber vaso con líquido rojo": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "segunda intervención",
-          "cont": '<span>La bebida hace que el líquido arda en las venas. El personaje pierde 100 PV. El personaje no podrá mencionar a la banda ni el lugar donde se encuentran.</span>'
-        },
-        "beber vaso con líquido naranja": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "segunda intervención",
-          "cont": '<span>La bebida provoca que el cuerpo se paralice ligeramente, impidiendo que realice hechizos por el tiempo que el personaje considere adecuado para su trama. El personaje no podrá mencionar a la banda ni el lugar donde se encuentran.</span>'
-        },
-        "beber vaso con líquido amarillo": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "segunda intervención",
-          "cont": '<span>El personaje olvida quién es y por qué esta ahí por el tiempo que el personaje considere adecuado para su trama. El personaje no podrá mencionar a la banda ni el lugar donde se encuentran.</span>'
-        },
-        "beber vaso con líquido verde": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "segunda intervención",
-          "cont": '<span>El líquido sabe a agua fresca. El personaje no podrá mencionar a la banda ni el lugar donde se encuentran.</span>'
-        },
-        "beber vaso con líquido azul": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "segunda intervención",
-          "cont": '<span>El personaje deberá confesar si mintió en algún momento de todo el intercambio. Si lo hizo, deberá pagar 500 galeones para poder irse. El personaje no podrá mencionar a la banda ni el lugar donde se encuentran.</span>'
-        },
-        "beber vaso con líquido índigo": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "segunda intervención",
-          "cont": '<span>El personaje sentirá las piernas de gelatina, otro personaje deberá ayudarlo a salir. El personaje no podrá mencionar a la banda ni el lugar donde se encuentran.</span>'
-        },
-        "beber vaso con líquido morado": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "segunda intervención",
-          "cont": '<span>Hace que el personaje siga escuchando la melodía de la banda por el tiempo que el personaje considere adecuado. El personaje no podrá mencionar a la banda ni el lugar donde se encuentran.</span>'
-        },
-      },
+      "searchs": {},
 
-      "actions": {
-        "anima vinculum": {
-          "leve": '<span>No es suficiente para revelar información.</span>',
-          "moderado": '<span>Cuando la muestra de magia negra es requerida y el hechizo realizado. El ritmo de la música cambia a un rasgueo desordenado y disonante, celebrando el hechizo realizado: «Ahora que el aire se pudre y el pacto se ha consumado, / un placer es conocerte, compañero del pecado. / Abre el libro de tus cuitas, dinos qué es lo que te guía, / los Fhómhair son tus siervos en este día sombrío».<adding search="comenzar interrogatorio" class="check-cards"></adding></span>',
-          "exitoso": '<span>Cuando la muestra de magia negra es requerida y el hechizo realizado. El ritmo de la música cambia a un rasgueo desordenado y disonante, celebrando el hechizo realizado: «Ahora que el aire se pudre y el pacto se ha consumado, / un placer es conocerte, compañero del pecado. / Abre el libro de tus cuitas, dinos qué es lo que te guía, / los Fhómhair son tus siervos en este día sombrío».<adding search="comenzar interrogatorio" class="check-cards"></adding></span>',
-          "critico": '<span>Cuando la muestra de magia negra es requerida y el hechizo realizado. El ritmo de la música cambia a un rasgueo desordenado y disonante, celebrando el hechizo realizado: «Ahora que el aire se pudre y el pacto se ha consumado, / un placer es conocerte, compañero del pecado. / Abre el libro de tus cuitas, dinos qué es lo que te guía, / los Fhómhair son tus siervos en este día sombrío».<adding search="comenzar interrogatorio" class="check-cards"></adding></span>',
-        },
-        "animae inquisitio": {
-          "leve": '<span>No es suficiente para revelar información.</span>',
-          "moderado": '<span>Cuando la muestra de magia negra es requerida y el hechizo realizado. El ritmo de la música cambia a un rasgueo desordenado y disonante, celebrando el hechizo realizado: «Ahora que el aire se pudre y el pacto se ha consumado, / un placer es conocerte, compañero del pecado. / Abre el libro de tus cuitas, dinos qué es lo que te guía, / los Fhómhair son tus siervos en este día sombrío».<adding search="comenzar interrogatorio" class="check-cards"></adding></span>',
-          "exitoso": '<span>Cuando la muestra de magia negra es requerida y el hechizo realizado. El ritmo de la música cambia a un rasgueo desordenado y disonante, celebrando el hechizo realizado: «Ahora que el aire se pudre y el pacto se ha consumado, / un placer es conocerte, compañero del pecado. / Abre el libro de tus cuitas, dinos qué es lo que te guía, / los Fhómhair son tus siervos en este día sombrío».<adding search="comenzar interrogatorio" class="check-cards"></adding></span>',
-          "critico": '<span>Cuando la muestra de magia negra es requerida y el hechizo realizado. El ritmo de la música cambia a un rasgueo desordenado y disonante, celebrando el hechizo realizado: «Ahora que el aire se pudre y el pacto se ha consumado, / un placer es conocerte, compañero del pecado. / Abre el libro de tus cuitas, dinos qué es lo que te guía, / los Fhómhair son tus siervos en este día sombrío».<adding search="comenzar interrogatorio" class="check-cards"></adding></span>',
-        },
-        "memoriae vestigium": {
-          "leve": '<span>No es suficiente para revelar información.</span>',
-          "moderado": '<span>Cuando la muestra de magia negra es requerida y el hechizo realizado. El ritmo de la música cambia a un rasgueo desordenado y disonante, celebrando el hechizo realizado: «Ahora que el aire se pudre y el pacto se ha consumado, / un placer es conocerte, compañero del pecado. / Abre el libro de tus cuitas, dinos qué es lo que te guía, / los Fhómhair son tus siervos en este día sombrío».<adding search="comenzar interrogatorio" class="check-cards"></adding></span>',
-          "exitoso": '<span>Cuando la muestra de magia negra es requerida y el hechizo realizado. El ritmo de la música cambia a un rasgueo desordenado y disonante, celebrando el hechizo realizado: «Ahora que el aire se pudre y el pacto se ha consumado, / un placer es conocerte, compañero del pecado. / Abre el libro de tus cuitas, dinos qué es lo que te guía, / los Fhómhair son tus siervos en este día sombrío».<adding search="comenzar interrogatorio" class="check-cards"></adding></span>',
-          "critico": '<span>Cuando la muestra de magia negra es requerida y el hechizo realizado. El ritmo de la música cambia a un rasgueo desordenado y disonante, celebrando el hechizo realizado: «Ahora que el aire se pudre y el pacto se ha consumado, / un placer es conocerte, compañero del pecado. / Abre el libro de tus cuitas, dinos qué es lo que te guía, / los Fhómhair son tus siervos en este día sombrío».<adding search="comenzar interrogatorio" class="check-cards"></adding></span>',
-        },
-        "obliviorum sugo": {
-          "leve": '<span>No es suficiente para revelar información.</span>',
-          "moderado": '<span>Cuando la muestra de magia negra es requerida y el hechizo realizado. El ritmo de la música cambia a un rasgueo desordenado y disonante, celebrando el hechizo realizado: «Ahora que el aire se pudre y el pacto se ha consumado, / un placer es conocerte, compañero del pecado. / Abre el libro de tus cuitas, dinos qué es lo que te guía, / los Fhómhair son tus siervos en este día sombrío».<adding search="comenzar interrogatorio" class="check-cards"></adding></span>',
-          "exitoso": '<span>Cuando la muestra de magia negra es requerida y el hechizo realizado. El ritmo de la música cambia a un rasgueo desordenado y disonante, celebrando el hechizo realizado: «Ahora que el aire se pudre y el pacto se ha consumado, / un placer es conocerte, compañero del pecado. / Abre el libro de tus cuitas, dinos qué es lo que te guía, / los Fhómhair son tus siervos en este día sombrío».<adding search="comenzar interrogatorio" class="check-cards"></adding></span>',
-          "critico": '<span>Cuando la muestra de magia negra es requerida y el hechizo realizado. El ritmo de la música cambia a un rasgueo desordenado y disonante, celebrando el hechizo realizado: «Ahora que el aire se pudre y el pacto se ha consumado, / un placer es conocerte, compañero del pecado. / Abre el libro de tus cuitas, dinos qué es lo que te guía, / los Fhómhair son tus siervos en este día sombrío».<adding search="comenzar interrogatorio" class="check-cards"></adding></span>',
-        },
-        "reductus bestia": {
-          "leve": '<span>No es suficiente para revelar información.</span>',
-          "moderado": '<span>Cuando la muestra de magia negra es requerida y el hechizo realizado. El ritmo de la música cambia a un rasgueo desordenado y disonante, celebrando el hechizo realizado: «Ahora que el aire se pudre y el pacto se ha consumado, / un placer es conocerte, compañero del pecado. / Abre el libro de tus cuitas, dinos qué es lo que te guía, / los Fhómhair son tus siervos en este día sombrío».<adding search="comenzar interrogatorio" class="check-cards"></adding></span>',
-          "exitoso": '<span>Cuando la muestra de magia negra es requerida y el hechizo realizado. El ritmo de la música cambia a un rasgueo desordenado y disonante, celebrando el hechizo realizado: «Ahora que el aire se pudre y el pacto se ha consumado, / un placer es conocerte, compañero del pecado. / Abre el libro de tus cuitas, dinos qué es lo que te guía, / los Fhómhair son tus siervos en este día sombrío».<adding search="comenzar interrogatorio" class="check-cards"></adding></span>',
-          "critico": '<span>Cuando la muestra de magia negra es requerida y el hechizo realizado. El ritmo de la música cambia a un rasgueo desordenado y disonante, celebrando el hechizo realizado: «Ahora que el aire se pudre y el pacto se ha consumado, / un placer es conocerte, compañero del pecado. / Abre el libro de tus cuitas, dinos qué es lo que te guía, / los Fhómhair son tus siervos en este día sombrío».<adding search="comenzar interrogatorio" class="check-cards"></adding></span>',
-        },
-        "serpens internus": {
-          "leve": '<span>No es suficiente para revelar información.</span>',
-          "moderado": '<span>Cuando la muestra de magia negra es requerida y el hechizo realizado. El ritmo de la música cambia a un rasgueo desordenado y disonante, celebrando el hechizo realizado: «Ahora que el aire se pudre y el pacto se ha consumado, / un placer es conocerte, compañero del pecado. / Abre el libro de tus cuitas, dinos qué es lo que te guía, / los Fhómhair son tus siervos en este día sombrío».<adding search="comenzar interrogatorio" class="check-cards"></adding></span>',
-          "exitoso": '<span>Cuando la muestra de magia negra es requerida y el hechizo realizado. El ritmo de la música cambia a un rasgueo desordenado y disonante, celebrando el hechizo realizado: «Ahora que el aire se pudre y el pacto se ha consumado, / un placer es conocerte, compañero del pecado. / Abre el libro de tus cuitas, dinos qué es lo que te guía, / los Fhómhair son tus siervos en este día sombrío».<adding search="comenzar interrogatorio" class="check-cards"></adding></span>',
-          "critico": '<span>Cuando la muestra de magia negra es requerida y el hechizo realizado. El ritmo de la música cambia a un rasgueo desordenado y disonante, celebrando el hechizo realizado: «Ahora que el aire se pudre y el pacto se ha consumado, / un placer es conocerte, compañero del pecado. / Abre el libro de tus cuitas, dinos qué es lo que te guía, / los Fhómhair son tus siervos en este día sombrío».<adding search="comenzar interrogatorio" class="check-cards"></adding></span>',
-        },
-        "umbrae revelantur": {
-          "leve": '<span>No es suficiente para revelar información.</span>',
-          "moderado": '<span>Cuando la muestra de magia negra es requerida y el hechizo realizado. El ritmo de la música cambia a un rasgueo desordenado y disonante, celebrando el hechizo realizado: «Ahora que el aire se pudre y el pacto se ha consumado, / un placer es conocerte, compañero del pecado. / Abre el libro de tus cuitas, dinos qué es lo que te guía, / los Fhómhair son tus siervos en este día sombrío».<adding search="comenzar interrogatorio" class="check-cards"></adding></span>',
-          "exitoso": '<span>Cuando la muestra de magia negra es requerida y el hechizo realizado. El ritmo de la música cambia a un rasgueo desordenado y disonante, celebrando el hechizo realizado: «Ahora que el aire se pudre y el pacto se ha consumado, / un placer es conocerte, compañero del pecado. / Abre el libro de tus cuitas, dinos qué es lo que te guía, / los Fhómhair son tus siervos en este día sombrío».<adding search="comenzar interrogatorio" class="check-cards"></adding></span>',
-          "critico": '<span>Cuando la muestra de magia negra es requerida y el hechizo realizado. El ritmo de la música cambia a un rasgueo desordenado y disonante, celebrando el hechizo realizado: «Ahora que el aire se pudre y el pacto se ha consumado, / un placer es conocerte, compañero del pecado. / Abre el libro de tus cuitas, dinos qué es lo que te guía, / los Fhómhair son tus siervos en este día sombrío».<adding search="comenzar interrogatorio" class="check-cards"></adding></span>',
-        },
-        "umbrae targere": {
-          "leve": '<span>No es suficiente para revelar información.</span>',
-          "moderado": '<span>Cuando la muestra de magia negra es requerida y el hechizo realizado. El ritmo de la música cambia a un rasgueo desordenado y disonante, celebrando el hechizo realizado: «Ahora que el aire se pudre y el pacto se ha consumado, / un placer es conocerte, compañero del pecado. / Abre el libro de tus cuitas, dinos qué es lo que te guía, / los Fhómhair son tus siervos en este día sombrío».<adding search="comenzar interrogatorio" class="check-cards"></adding></span>',
-          "exitoso": '<span>Cuando la muestra de magia negra es requerida y el hechizo realizado. El ritmo de la música cambia a un rasgueo desordenado y disonante, celebrando el hechizo realizado: «Ahora que el aire se pudre y el pacto se ha consumado, / un placer es conocerte, compañero del pecado. / Abre el libro de tus cuitas, dinos qué es lo que te guía, / los Fhómhair son tus siervos en este día sombrío».<adding search="comenzar interrogatorio" class="check-cards"></adding></span>',
-          "critico": '<span>Cuando la muestra de magia negra es requerida y el hechizo realizado. El ritmo de la música cambia a un rasgueo desordenado y disonante, celebrando el hechizo realizado: «Ahora que el aire se pudre y el pacto se ha consumado, / un placer es conocerte, compañero del pecado. / Abre el libro de tus cuitas, dinos qué es lo que te guía, / los Fhómhair son tus siervos en este día sombrío».<adding search="comenzar interrogatorio" class="check-cards"></adding></span>',
-        },
-        "veritas macula": {
-          "leve": '<span>No es suficiente para revelar información.</span>',
-          "moderado": '<span>Cuando la muestra de magia negra es requerida y el hechizo realizado. El ritmo de la música cambia a un rasgueo desordenado y disonante, celebrando el hechizo realizado: «Ahora que el aire se pudre y el pacto se ha consumado, / un placer es conocerte, compañero del pecado. / Abre el libro de tus cuitas, dinos qué es lo que te guía, / los Fhómhair son tus siervos en este día sombrío».<adding search="comenzar interrogatorio" class="check-cards"></adding></span>',
-          "exitoso": '<span>Cuando la muestra de magia negra es requerida y el hechizo realizado. El ritmo de la música cambia a un rasgueo desordenado y disonante, celebrando el hechizo realizado: «Ahora que el aire se pudre y el pacto se ha consumado, / un placer es conocerte, compañero del pecado. / Abre el libro de tus cuitas, dinos qué es lo que te guía, / los Fhómhair son tus siervos en este día sombrío».<adding search="comenzar interrogatorio" class="check-cards"></adding></span>',
-          "critico": '<span>Cuando la muestra de magia negra es requerida y el hechizo realizado. El ritmo de la música cambia a un rasgueo desordenado y disonante, celebrando el hechizo realizado: «Ahora que el aire se pudre y el pacto se ha consumado, / un placer es conocerte, compañero del pecado. / Abre el libro de tus cuitas, dinos qué es lo que te guía, / los Fhómhair son tus siervos en este día sombrío».<adding search="comenzar interrogatorio" class="check-cards"></adding></span>',
-        },
-      },
+      "actions": {},
     },
     // clandestine melodies
 
@@ -6197,48 +3356,7 @@ const MissionsModule = (function () {
 
       "cards": [],
 
-      "searchs": {
-        "diario de misión 11 de enero de 1952 - wrenn wraithwood": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "",
-          "cont": '<span>A continuación, se presenta las bitácoras de los hechos correspondiente al incidente de Wrenn Wraithwood que acabó con su vida y las de tres personas. Siete heridos han sido registrados.</span>'
-        },
-        "bitácora de los hechos nro.01": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "diario de misión 11 de enero de 1952 - wrenn wraithwood",
-          "cont": '<span>A las 8:30am del 11 de Enero, se llevó a cabo una redada que buscaba detener a un legeremante que había sido reportado por el Departamento de Seguridad. El legeremante, no identificado, había sido acusado de infiltrar información del Ministerio de Magia Británico a Ministerios de Magia del exterior, además de infiltrar información a los Ministros Muggles de diferentes partes del mundo.</span>'
-        },
-        "bitácora de los hechos nro.02": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "bitácora de los hechos nro.01",
-          "cont": '<span>A las 9:05 am, el grupo compuesto por diez aurores del Departamento de Seguridad, se dirigió a la supuesta dirección del legeremante. Al llegar, se encontraron con un escenario de caos: había dos cuerpos ensangrentados cuyas vidas habían sido tomadas por, se supone, el legeremante. Dos personas, identificadas posteriormente, como nigromantes ilegales, presentaron un duelo a los aurores presentes.</span>'
-        },
-        "bitácora de los hechos nro.03": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "bitácora de los hechos nro.02",
-          "cont": '<span>A las 9:08 am, la situación se encontraba bajo control total. Los aurores habían logrado incapacitar a los nigromantes para su correspondiente interrogatorio, y otros aurores ingresaban al lugar para realizar el correspondiente peritaje. Sin embargo, la aurora Wrenn Wraithwood, conjuró un hechizo explosivo, sin razón aparente, que terminó provocando una explosión que destruyó el lugar y causó heridas a varios aurores.</span>'
-        },
-        "bitácora de los hechos nro.04": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "bitácora de los hechos nro.03",
-          "cont": '<span>A las 9:42 am, se registró la muerte de Wrenn Wraithwood, quien había sido herida por el hechizo explosivo. La aurora fue declarada muerta por el Departamento de Seguridad, junto a tres compañeros. Los heridos habían sido colocados en resguardo, sus heridas más graves habían sido curadas y solo debían esperar la llegada de los medimagos correspondientes. Los nigromantes, aprovecharon la situación para escapar.</span>'
-        },
-        "bitácora de los hechos nro.05": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "bitácora de los hechos nro.04",
-          "cont": '<span>A las 10:30 am, Edwin Merrythought localizó a los nigromantes, los cuales fueron detenidos por el resto de los aurores del Departamento de Seguridad Mágica y fueron trasladados a la cárcel de Azkaban.</span>'
-        },
-        "informe de la morgue": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "nigromante", "name": "invalid", }, "place": "bitácora de los hechos nro.05",
-          "cont": '<span><span class="book-clipping"><br><div align="center"><strong>PERGAMINO DE DEFUNCIÓN</strong><br><i>Hospital San Mungo para Enfermedades y Heridas Mágicas – Archivo de los Caídos</i></div><br><strong>Nombre Completo del Paciente</strong>: Wrenn Wraithwood<br><strong>No. Expediente</strong>: SM-FD/5034-G<br><strong>Fecha de Ingreso</strong>: 11 de Enero de 1952.<br><strong>Fecha de fallecimiento</strong>: 11 de Enero de 1952 a las 9:42 am.<br><br><strong>Edad</strong>: 31 años.<br><strong>Sangre</strong>: ☐ Pura &nbsp;☒ Mestiza &nbsp;☐ Muggle &nbsp;☐ Criatura<br><br><strong>Motivo del ingreso</strong>: Víctima de la explosión de un bombarda que ella misma conjuró.<br><strong>Causa de fallecimiento</strong>: Traumatismo masivo por la explosión que causó un daño multisistémico instantáneo; destrucción cerebral y del tallo encefálico, causando la desintegración de las estructuras vitales que controlan el cuerpo; exanguinación, la pérdida de sangre rápida y masiva por la rotura de grandes vasos y órganos; laceración y fragmentación de órganos virales, provocando un daño físico al corazón, pulmones y aorta que es incompatible con la vida.<br><br><strong>Área médica asignada</strong>: Archivo de los caídos.<br><strong>Atendido por</strong>: Jasper R. Gryffith, nigromante.<br><strong>Acompañante familiar</strong>: Nina Wraithwood (hermana)<br><br><strong>Anexos</strong>:<br>☒ Firma de Jasper R. Gryffith.<br>☒ Firma de Nina Wraithwood.<br>☒ Sello de defunción emitido.</span></span>'
-        },
-        "información adicional por presencia": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "parkinson", }, "place": "bitácora de los hechos nro.05",
-          "cont": '<span>Como alguien que participó de aquella situación, puedes constatar que toda la información revelada ha sido la correcta. Se suponía que el caso era sencillo, atrapar al legeremante e irse. Solo que no era un legeremante, sino dos nigromantes. Había una veela que mantenían drogada y era la que usaban para extraer la información. Esa información está censurada para proteger la identidad de la víctima. La identidad de la víctima no fue revelada y se la llevaron a otro país donde pudiera iniciar su vida desde cero. Sin embargo, el personaje puede haber estado presente cuando se comprobó que se trataba de una veela.</span>'
-        },
-        "informe de asaldo 11 de enero de 1952": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "bitácora de los hechos nro.05",
-          "cont": '<span><span class="book-clipping"><br><div align="center"><strong>INFORME DE ASALTO: 11 DE ENERO DE 1952 A LAS 10:30 AM</strong><br><i>Ministerio de Magia – Departamento de Seguridad</i></div><br><strong>Resumen Ejecutivo</strong>: Bajo la autorización directa del Jefe del Departamento, Edwin Merrythought, se procedió a la interceptación y captura de dos individuos vinculados a artes oscuras. Debido a la peligrosidad de los sujetos y la inmediatez del riesgo de fuga tras una escena del crimen activa, los protocolos de captura se formalizaron a posteriori de la intervención.<br><br><strong>Detalle del Enfrentamiento</strong>: La unidad de intervención localizó a los sospechosos en las afueras de Leeds. Se produjo un duelo mágico de alta intensidad con una duración aproximada de 25 minutos.<br><br>- Bajas/Heridos: Ninguna víctima fatal reportada.<br>- Intervención civil: Se requirió el despliegue del Comité de Disculpas para Muggles para la aplicación masiva de encantamientos desmemorizantes y reparación de daños estructurales en el área.<br><br><strong>Identificación de los detenidos</strong>: Los sujetos han sido identificados como: <br>- Yusuf Lochlan: Ex nigromante de San Mungo.<br>- Vinnie Grayson: Ex nigromante de San Mungo.<br><br>Antecedentes: Ambos sirvieron en el Archivo de los Caídos hasta 1938 y fueron reportados como desaparecidos de la sociedad mágica británica en 1947.<br><br><strong>Hallazgos y Evidencias</strong>: <br>- Marca Distintiva: Ambos detenidos presentan una quemadura queloide en el antebrazo con la forma de una "W" alargada y de puntas afiladas. Se investiga posible vinculación con organizaciones clandestinas.<br><br><strong>Declaraciones de los imputados</strong>: Tras el interrogatorio bajo los protocolos estándar de seguridad, ambos detenidos coincidieron en sus testimonios:<br><br><i>Los imputados admitieron haber actuado bajo estricta voluntad propia, negando coacción externa. Confesaron mantener a la Veela en cautiverio con el único fin de explotar sus facultades mágicas para la sustracción de información confidencial, la cual era posteriormente subastada al mejor postor en el mercado negro.</i><br><br>Firma: <i class="fi fi-tr-signature" style="font-size: 30px; margin-bottom: -25px; display: block; margin-right: 30px;"></i><br>_________________________<br>Nombre y título: Edwin Merrythought, Jefe del Departamento de Seguridad Mágica.<br></span></span>'
-        },
-        "sobre yusuf y vinnie": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "nigromante", "name": "invalid", }, "place": "informe de asaldo 11 de enero de 1952",
-          "cont": '<span>Yusuf Lochlan y Vinnie Grayson eran dos nigromantes que habían sido parte del Archivo de los Caídos hasta 1938. Ambos fueron reportados como desaparecidos de la sociedad mágica británica en 1947. Queda a elección del personaje si los conoció. Lo que se sabía era que ambos trabajaban juntos todo el tiempo y solían tomar los turnos de trasnoche. Hubo rumores de que habían desaparecido por que iban a ser expulsados del Archivo por acciones ilegales. Yusuf era un hombre práctico, pero solía ser un carnicero, nunca había tenido problema con visualizar sangre o quitar todos los organos del cuerpo si era necesario. Vinnie era más limpió y distante con las personas, pero el que mejor sabía explicar cada parte de la anatomía del cuerpo humano.</span>'
-        },
-      },
+      "searchs": {},
 
       "actions": {},
     },
@@ -6252,152 +3370,11 @@ const MissionsModule = (function () {
       "dependency": ["frozen sunflowers"],
       "type": "investigación", "closed": true, "fecha": "1953-01-09", "link": "https://blackwave.foroactivo.com/t838-investigacion-18-paper-mask", "tagged": ["original", "capitulo 2"],
 
-      "cards": [
-        {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "nigromante", "name": "invalid", }, "place": "abrir cuerpo de wrenn wraithwood",
-          "cont": '<span>El tejido visible era correoso y quebradizo, sin la elasticidad del cuerpo reciente. La explosión había dejado bordes irregulares y carbonizados en muchos de los fragmentos más grandes.</span>',
-        },
-        {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "nigromante", "name": "invalid", }, "place": "abrir cuerpo de wrenn wraithwood",
-          "cont": '<span>Si se toma una respiración profunda, puede sentirse en el ambiente una mezcla de azufre apagado, metal quemado y polvo industrial, un testimonio silencioso del momento final que se negaba a disiparse por completo.</span>',
-        },
-        {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "shun", }, "place": "origen de la canción",
-          "cont": '<span>El día de la redada, el personaje no escuchó ninguna canción de banshee, no era algo que todos pudieran escuchar.</span>',
-        },
-        {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "hufflepuff", "name": "invalid", }, "place": "origen del tatuaje",
-          "cont": '<span>Si el personaje jugaba quidditch y su casa ganó la copa en sus años como jugador, puede elegir si tiene el tatuaje o no. Sean conscientes de que el personaje lo habría conseguido de manera ilegal si era menor de edad.</span>',
-        }
-      ],
+      "cards": [],
 
-      "searchs": {
-        "abrir cuerpo de wrenn wraithwood": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "nigromante", "name": "invalid", }, "place": "",
-          "cont": '<span>Lo que la explosión no había consumido o dispersado inmediatamente, ahora se presentaba como una colección de fragmentos orgánicos y restos esqueléticos, que alguien había tenido la amabilidad de presentar en la posición que correspondían. No era un cuerpo completo, sino un mosaico de tejido y hueso que desafiaba la imaginación.<br><br>Bajo la luz fría, los restos mostraban una gama de colores opacos, el blanco hueso de las piezas que ya no tenían brillo, los grises oscuros de tejidos deshidratados, y el marrón grisáceo donde el tejido se había corroído por el paso del tiempo.<br><br>La visión más perturbadora no era lo que quedaba, sin embargo, sino lo que faltaba. Las piezas que se habían dispuesto cuidadosamente en la larga bandeja de acero, demostraba un inventario de la ausencia de órganos, huesos y tejidos.<br><br>El olor, era otro tema. En un principio, el olor dominante era el del anexo de los caídos, una mezcla punzante y metálica de desinfectantes y el aire frío y estéril que se adhería a la ropa. Tras unos segundos de tener el cuerpo expuesto, comenzaba a notarse el olor denso y terroso, más parecido a un sótano húmedo o la tierra removida más que el de un cuerpo fresco. Y finalmente llegaba todo el aroma junto, el matiz rancio y graso que parecía aferrarse a cualquier espacio donde se encontrara.</span>',
-        },
-        "origen de la canción": {
-          "visible": { "attr": { "val": "min" }, "know": { "ccm": "5" }, "job": "invalid", "name": "invalid", }, "place": "el efecto banshee",
-          "cont": '<span>Por la forma en la que la canción resuena, se puede deducir que es proveniente de una banshee, o una hija de banshee con un fuerte poder, que genera emociones a quienes escuchan su canción. Con un <i>finite</i> o un <i>quieta</i> deberán desaparecer todos sus efectos.</span>',
-        },
-        "acta de ingreso de wrenn wraithwood a los aurores": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "",
-          "cont": '<span class="book-clipping"><div class="book-image" style="--image: url(https://2img.net/i.imgur.com/7IFmFqm.png)"></div><strong>Fecha de Incorporación</strong>: 18 de Mayo de 1940.<br><strong>Posición</strong>: Auror.<br><br>Se adjunta:<br>☒ Resultados de la academia de aurores.<br>☒ EXTASIS<br>☒ Muestra de sangre.<br><br><br><strong>Comentarios</strong><br>Aunque sus calificaciones son buenas, los instructores de la academia han notado una tendencia a llegar tarde, saltear las normas y el uso de hechizos que pueden comprometer al personal si se los realiza de manera indebida. Tiende a querer sobrepasarse continuamente realizando algunas acciones que están fuera de sus capacidades.<br><br>Se aprueba su promoción a auror, pero se recomienda hacer seguimiento el primer año.</span>',
-        },
-        "aviso de conducta inaporpiada": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "acta de ingreso de wrenn wraithwood a los aurores",
-          "cont": '<span class="book-clipping"><strong>Asunto</strong>: Informe de conducta indebida y requerimiento disciplinario - Auror Wrenn Wraithwood.<br><br>Mediante el presente, y con carácter de urgencia, se reporta la conducta profesional inapropiada de la Oficial Wrenn Wraithwood, adscrita a la Brigada de la Aplicación de la Ley.<br><br>La auror Wraithwood se presentó a sus deberes en la oficina el día de hoy bajo una evidente influencia de estupefacientes. Dicho estado compromete su juicio y la incapacita para ejecutar las funciones de la Brigada de la Aplicación de la Ley con la diligencia y precisión requeridas.<br><br>Por la gravedad de esta transgresión y en aras de salvaguardar la seguridad del personal y del público mágico, se establece la siguiente orden disciplinaria de cumplimiento inmediato:<br><br>1. Monitoreo Obligatorio: Durante los próximos treinta (30) días laborales, la auror Wraithwood deberá someterse a una prueba de Sangre y Magia diaria al inicio de su turno.<br><br>2. Objetivo de la Prueba: El propósito de estas pruebas es validar que la auror no presente rastro de sustancias ilícitas ni síntomas de efectos residuales que puedan suponer un peligro operativo para sí misma o para cualquier miembro de su equipo.<br><br>Consecuencia por Incumplimiento:<br>Cualquier transgresión o negativa a cumplir con esta orden de monitoreo resultará en la expulsión inmediata y automática de Wrenn Wraithwood de las fuerzas de seguridad del Ministerio de Magia Británico.<br><br>Atentamente,<br>Edwin Merrythought Jefe del Departamento de Seguridad Mágica, Ministerio de Magia Británico<br></span>',
-        },
-        "control de consumo de sustancias": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "aviso de conducta inaporpiada",
-          "cont": '<span class="book-clipping"><strong>Registro de Monitoreo - Auror Wrenn Wraithwood</strong><br><br>— 30/11/1951: Limpio. La auror se encuentra capacitada para trabajar.<br>— 03/12/1951: Limpio. La auror se encuentra capacitada para trabajar.<br>— 04/12/1951: Limpio. La auror se encuentra capacitada para trabajar.<br>— 05/12/1951: Limpio. La auror se encuentra capacitada para trabajar.<br>— 06/12/1951: Limpio. La auror se encuentra capacitada para trabajar.<br>— 07/12/1951: Limpio. La auror se encuentra capacitada para trabajar.<br>— 10/12/1951: Limpio. La auror se encuentra capacitada para trabajar.<br>— 11/12/1951: Limpio. La auror se encuentra capacitada para trabajar.<br>— 12/12/1951: Limpio. La auror se encuentra capacitada para trabajar.<br>— 13/12/1951: Limpio. La auror se encuentra capacitada para trabajar.<br>— 14/12/1951: Limpio. La auror se encuentra capacitada para trabajar.<br>— 17/12/1951: Limpio. La auror se encuentra capacitada para trabajar.<br>— 18/12/1951: Limpio. La auror se encuentra capacitada para trabajar.<br>— 19/12/1951: Limpio. La auror se encuentra capacitada para trabajar.<br>— 20/12/1951: Limpio. La auror se encuentra capacitada para trabajar.<br>— 21/12/1951: Limpio. La auror se encuentra capacitada para trabajar.<br>— 24/12/1951: Limpio. La auror se encuentra capacitada para trabajar.<br>— 25/12/1951: Limpio. La auror se encuentra capacitada para trabajar.<br>— 26/12/1951: Limpio. La auror se encuentra capacitada para trabajar.<br>— 27/12/1951: Limpio. La auror se encuentra capacitada para trabajar.<br>— 28/12/1951: Limpio. La auror se encuentra capacitada para trabajar.<br>— 31/12/1951: Limpio. La auror se encuentra capacitada para trabajar.<br>— 01/01/1952: Limpio. La auror se encuentra capacitada para trabajar.<br>— 02/01/1952: Limpio. La auror se encuentra capacitada para trabajar.<br>— 03/01/1952: Limpio. La auror se encuentra capacitada para trabajar.<br>— 04/01/1952: Limpio. La auror se encuentra capacitada para trabajar.<br>— 07/01/1952: Limpio. La auror se encuentra capacitada para trabajar.<br>— 08/01/1952: Limpio. La auror se encuentra capacitada para trabajar.<br>— 09/01/1952: Limpio. La auror se encuentra capacitada para trabajar.<br>— 10/01/1952: Limpio. La auror se encuentra capacitada para trabajar.<br></span>',
-        },
-        "acta de nacimiento de wrenn wraithwood": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "sanador", "name": "invalid", }, "place": "",
-          "cont": '<span class="book-clipping"><br><div align="center"><span style="font-size: 14px; line-height: normal"><strong>Hospital San Mungo de Magia y Enfermedades</strong></span></div><div align="center"><span style="font-size: 12px; line-height: normal">Certificado de Nacimiento</span></div><br><hr><br><br><strong>Nombre completo del recién nacido:</strong> Wrenn Winifred Wraithwood<br><strong>Fecha de nacimiento:</strong> <i>30 de enero de 1921</i><br><strong>Lugar de nacimiento:</strong> <i>Sala de Maternidad, San Mungo, Londres</i><br><strong>Nombre del padre:</strong> Morian Wraithwood<br><strong>Nombre de la madre:</strong> Hadiya Wraithwood<br><strong>Linaje mágico:</strong> Sangre Mestiza<br><br><hr><br><br><strong>Hechicero/a responsable del alumbramiento:</strong> <i>Medimaga Euphemia Strout</i><br><strong>Observaciones médicas:</strong> <i>El recién nacido presenta un estado de salud estable.<br>Se recomienda control preventivo contra la fiebre de los duendecillos.</i><br><br><hr><br><br><div align="right"><i>En fe de lo cual, se expide el presente certificado<br>en Londres, a 30 de enero de 1921.</i></div><br><div align="right"><i class="fi fi-tr-signature" style="font-size: 30px; margin-bottom: -25px; display: block; margin-right: 30px;"></i><br><strong>_______________________</strong><br><i>Firma y sello de San Mungo</i></div></span>',
-        },
-        "acta de nacimiento de nina wraithwood": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "sanador", "name": "invalid", }, "place": "",
-          "cont": '<span class="book-clipping"><br><div align="center"><span style="font-size: 14px; line-height: normal"><strong>Hospital San Mungo de Magia y Enfermedades</strong></span></div><div align="center"><span style="font-size: 12px; line-height: normal">Certificado de Nacimiento</span></div><br><hr><br><br><strong>Nombre completo del recién nacido:</strong> Nina Edwina Wraithwood<br><strong>Fecha de nacimiento:</strong> <i>30 de enero de 1921</i><br><strong>Lugar de nacimiento:</strong> <i>Sala de Maternidad, San Mungo, Londres</i><br><strong>Nombre del padre:</strong> Morian Wraithwood<br><strong>Nombre de la madre:</strong> Hadiya Wraithwood<br><strong>Linaje mágico:</strong> Sangre Mestiza<br><br><hr><br><br><strong>Hechicero/a responsable del alumbramiento:</strong> <i>Medimaga Euphemia Strout</i><br><strong>Observaciones médicas:</strong> <i>El recién nacido presenta un estado de salud estable.<br>Se recomienda control preventivo contra la fiebre de los duendecillos.</i><br><br><hr><br><br><div align="right"><i>En fe de lo cual, se expide el presente certificado<br>en Londres, a 30 de enero de 1921.</i></div><br><div align="right"><i class="fi fi-tr-signature" style="font-size: 30px; margin-bottom: -25px; display: block; margin-right: 30px;"></i><br><strong>_______________________</strong><br><i>Firma y sello de San Mungo</i></div></span>',
-        },
-        "leer noticia: fallecimiento de morian wraithwood": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "",
-          "cont": '<span class="book-clipping"><strong>Recorte noticia, nota al pie</strong>:<br><br>Se ha notificado a las autoridades que el pasado 12 de marzo de 1930 ha fallecido el contrabandista que se hacía llamar Morian Wraithwood. Sus acciones de nigromante y el uso inapropiado de la magia oscura llevaron a las autoridades que presentar a Morian para que reciba el correspondiente beso de los dementores.<br><br>Sus hijas Nina y Wrenn Wraithwood fueron trasladadas a Francia, donde vivirán con su madre.</span>',
-        },
-        "origen del tatuaje": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "hufflepuff", "name": "invalid", }, "place": "tatuaje",
-          "cont": '<span>Cada vez que Hufflepuff gana el torneo de quidditch, se escucha la pregunta si se harán el tatuaje de la casa. Corre la pregunta como un rumor, porque la mayoría son menores de edad para hacer una hazaña como aquella.</span>',
-        },
-        "significado del tatuaje": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "hufflepuff", "name": "invalid", }, "place": "origen del tatuaje",
-          "cont": '<span>La leyenda dice que, si Hufflepuff gana el torneo de quidditch, al menos tres jugadores se tienen que hacer el tatuaje para que pueda volver a ganar el torneo nuevamente.</span>',
-        },
-        "interpretación del tatuaje": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "origen del tatuaje",
-          "cont": '<span>Wrenn pertenció a la casa Gryffindor, en conscuencia, no puede haber tenido nunca aquel tatuaje.</span>',
-        },
-        "soly nisrine: información": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "soly",
-          "cont": '<span>Soly Nisrine fue una estudiante que egresó de Hogwarts en 1920. Se dice que era una alumna muy brillante, con mucho potencial mágico. Trabajó como magizoologa en la Reserva Natural de Flint. Sin embargo, el 9 de Enero de 1952, sus padres confesaron encontrar a Soly muerta en el baño de la casa. La causa de la muerte fue suicidio.</span>',
-        },
-        "soly nisrine: certificado de defunción": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "nigromante", "name": "invalid", }, "place": "soly",
-          "cont": '<span>Jasper puede reconocer el nombre, dado que le informaron que había que hacer una autopsia y se encontró a los padres junto al personal del Ministerio y San Mungo, porque su hija había muerto y no querían que nadie realizara esas tareas sobre ellas. Después de una gran discusión, los padres se llevaron al cuerpo de su hija sin que se pueda realizar la autopsia.</span>',
-        },
-        "hechizos habilitados": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "nigromante", "name": "invalid", }, "place": "origen del tatuaje",
-          "cont": '<span>Mientras el grupo debate, un memo volador llega al espacio de trabajo, firmado por el actual Director de San Mungo indicando: <span class="book-clipping">Gryffith, conseguí la autorización. Por el día de la fecha puedes realizar los siguientes hechizos de los inefables: memoriae vestigium, vestigium sanguinis y extractum genericae. Adjunto la información que me mandaron para que puedas realizarlos. Éxitos.</span></span>',
-        },
-      },
+      "searchs": {},
 
-      "actions": {
-        "aparecium": {
-          "leve": '<span>No es suficiente para revelar la información.</span>',
-          "moderado": '<span>Se puede ver en lo que sería el tobillo que aparece un pequeño tatuaje de un tejón volando sobre una escoba de quidditch.<adding search="tatuaje" class="check-cards"></adding></span>',
-          "exitoso": '<span>Se puede ver en lo que sería el tobillo que aparece un pequeño tatuaje de un tejón volando sobre una escoba de quidditch.<adding search="tatuaje" class="check-cards"></adding></span>',
-          "critico": '<span>Se puede ver en lo que sería el tobillo que aparece un pequeño tatuaje de un tejón volando sobre una escoba de quidditch.<adding search="tatuaje" class="check-cards"></adding></span>',
-        },
-        "corruptum lector": {
-          "leve": '<span>No es suficiente para revelar la información.</span>',
-          "moderado": '<span>Información completa: Revela que la causa de la muerte se debe a un <i>Bombarda Máxima</i> que causó: traumatismo masivo por la explosión que causó un daño multisistémico instantáneo; destrucción cerebral y del tallo encefálico, causando la desintegración de las estructuras vitales que controlan el cuerpo; exanguinación, la pérdida de sangre rápida y masiva por la rotura de grandes vasos y órganos; laceración y fragmentación de órganos virales, provocando un daño físico al corazón, pulmones y aorta que es incompatible con la vida.</span>',
-          "exitoso": '<span>Información completa: Revela que la causa de la muerte se debe a un <i>Bombarda Máxima</i> que causó: traumatismo masivo por la explosión que causó un daño multisistémico instantáneo; destrucción cerebral y del tallo encefálico, causando la desintegración de las estructuras vitales que controlan el cuerpo; exanguinación, la pérdida de sangre rápida y masiva por la rotura de grandes vasos y órganos; laceración y fragmentación de órganos virales, provocando un daño físico al corazón, pulmones y aorta que es incompatible con la vida.</span>',
-          "critico": '<span>Información completa: Revela que la causa de la muerte se debe a un <i>Bombarda Máxima</i> que causó: traumatismo masivo por la explosión que causó un daño multisistémico instantáneo; destrucción cerebral y del tallo encefálico, causando la desintegración de las estructuras vitales que controlan el cuerpo; exanguinación, la pérdida de sangre rápida y masiva por la rotura de grandes vasos y órganos; laceración y fragmentación de órganos virales, provocando un daño físico al corazón, pulmones y aorta que es incompatible con la vida.</span>',
-        },
-        "mortis vox": {
-          "leve": '<span>No es suficiente para revelar la información.</span>',
-          "moderado": '<span>Dada las circunstancias en las que se encuentra el cuerpo, es imposible realizar este hechizo.</span>',
-          "exitoso": '<span>Dada las circunstancias en las que se encuentra el cuerpo, es imposible realizar este hechizo.</span>',
-          "critico": '<span>Dada las circunstancias en las que se encuentra el cuerpo, es imposible realizar este hechizo.</span>',
-        },
-        "memoriae vestigium": {
-          "leve": '<span>Se pueden observar los últimos recuerdos, la visión borrosa y el dolor punzante de una migraña, antes de convocar un <i>Bombarda Maxima</i> que rebotó de manera incorrecta y que disparó contra ella y el equipo. A lo lejos se escucha la voz de una mujer cantando lentamente una canción de cuna.</span>',
-          "moderado": '<span>Se pueden observar los últimos recuerdos, la visión borrosa y el dolor punzante de una migraña, antes de convocar un <i>Bombarda Maxima</i> que rebotó de manera incorrecta y que disparó contra ella y el equipo. A lo lejos se escucha la voz de una mujer cantando lentamente una canción de cuna.</span>',
-          "exitoso": '<span>Se pueden observar los últimos recuerdos, la visión borrosa y el dolor punzante de una migraña, antes de convocar un <i>Bombarda Maxima</i> que rebotó de manera incorrecta y que disparó contra ella y el equipo. A lo lejos se escucha la voz de una mujer cantando lentamente una canción de cuna.</span>',
-          "critico": '<span>Se pueden observar los últimos recuerdos, la visión borrosa y el dolor punzante de una migraña, antes de convocar un <i>Bombarda Maxima</i> que rebotó de manera incorrecta y que disparó contra ella y el equipo. A lo lejos se escucha la voz de una mujer cantando lentamente una canción de cuna.</span>',
-        },
-        "vestigium sanguinis": {
-          "leve": '<span>Si se realiza sobre la muestra de sangre que presentan los aurores Moody y Parkinson, el rastro del vínculo se pierde por un momento, revelando unos pisos adosados. No puede dar su ubicación precisa, pero puede asegurar que no están en el mismo país y podría estar casi seguro que no están en el mismo continente.</span>',
-          "moderado": '<span>Si se realiza sobre la muestra de sangre que presentan los aurores Moody y Parkinson, el rastro del vínculo se pierde por un momento, revelando unos pisos adosados. No puede dar su ubicación precisa, pero puede asegurar que no están en el mismo país y podría estar casi seguro que no están en el mismo continente.</span>',
-          "exitoso": '<span>Si se realiza sobre la muestra de sangre que presentan los aurores Moody y Parkinson, el rastro del vínculo se pierde por un momento, revelando unos pisos adosados. No puede dar su ubicación precisa, pero puede asegurar que no están en el mismo país y podría estar casi seguro que no están en el mismo continente.</span>',
-          "critico": '<span>Si se realiza sobre la muestra de sangre que presentan los aurores Moody y Parkinson, el rastro del vínculo se pierde por un momento, revelando unos pisos adosados. No puede dar su ubicación precisa, pero puede asegurar que no están en el mismo país y podría estar casi seguro que no están en el mismo continente.</span>',
-        },
-        "homenum revelio": {
-          "leve": '<span>No es suficiente para revelar la información.</span>',
-          "moderado": '<span>Revela la presencia de los dos aurores, un nigromante y un sanador. No hay nadie más en la sala.</span>',
-          "exitoso": '<span>Revela la presencia de los dos aurores, un nigromante y un sanador. No hay nadie más en la sala.</span>',
-          "critico": '<span>Revela la presencia de los dos aurores, un nigromante y un sanador. No hay nadie más en la sala.</span>',
-        },
-        "revelio potionis": {
-          "leve": '<span>No es suficiente para revelar la información.</span>',
-          "moderado": '<span>Al realizarse sobre el cuerpo de Wrenn se revela que no había sustancias en su sistema. No hay rastros de alcohol o estupefacientes.</span>',
-          "exitoso": '<span>Al realizarse sobre el cuerpo de Wrenn se revela que no había sustancias en su sistema. No hay rastros de alcohol o estupefacientes.</span>',
-          "critico": '<span>Al realizarse sobre el cuerpo de Wrenn se revela que no había sustancias en su sistema. No hay rastros de alcohol o estupefacientes.</span>',
-        },
-        "finite": {
-          "leve": '<span>No es suficiente para revelar la información.</span>',
-          "moderado": '<span>Los síntomas de los efectos de la canción de Banshee desaparecen de todos los presentes.</span>',
-          "exitoso": '<span>Los síntomas de los efectos de la canción de Banshee desaparecen de todos los presentes.</span>',
-          "critico": '<span>Los síntomas de los efectos de la canción de Banshee desaparecen de todos los presentes.</span>',
-        },
-        "quieta": {
-          "leve": '<span>No es suficiente para revelar la información.</span>',
-          "moderado": '<span>Los síntomas de los efectos de la canción de Banshee desaparecen de todos los presentes.</span>',
-          "exitoso": '<span>Los síntomas de los efectos de la canción de Banshee desaparecen de todos los presentes.</span>',
-          "critico": '<span>Los síntomas de los efectos de la canción de Banshee desaparecen de todos los presentes.</span>',
-        },
-        "extractum genericae": {
-          "leve": '<span>Permite identificar a la víctima como Soly Nisrine.<adding search="soly" class="check-cards"></adding></span>',
-          "moderado": '<span>Permite identificar a la víctima como Soly Nisrine.<adding search="soly" class="check-cards"></adding></span>',
-          "exitoso": '<span>Permite identificar a la víctima como Soly Nisrine.<adding search="soly" class="check-cards"></adding></span>',
-          "critico": '<span>Permite identificar a la víctima como Soly Nisrine.<adding search="soly" class="check-cards"></adding></span>',
-        },
-        "specialis revelio": {
-          "leve": '<span>No es suficiente para revelar la información.</span>',
-          "moderado": '<span>Comienza a reproducirse los últimos efectos de una canción de cuna que se transmite como un eco, en una sintonía que produce una sensación de mareo entre los presentes. El personaje con menor consitución, comenzará a tener una sensación de vértigo: mareos, visión borrosa y la sensación de estar a punto de caerse sin siquiera moverse. En caso de empate, afecta a todos los personajes que tengan ese valor en constitución.<adding search="el efecto banshee" class="check-cards"></adding></span>',
-          "exitoso": '<span>Comienza a reproducirse los últimos efectos de una canción de cuna que se transmite como un eco, en una sintonía que produce una sensación de mareo entre los presentes. El personaje con menor consitución, comenzará a tener una sensación de vértigo: mareos, visión borrosa y la sensación de estar a punto de caerse sin siquiera moverse. En caso de empate, afecta a todos los personajes que tengan ese valor en constitución.<adding search="el efecto banshee" class="check-cards"></adding></span>',
-          "critico": '<span>Comienza a reproducirse los últimos efectos de una canción de cuna que se transmite como un eco, en una sintonía que produce una sensación de mareo entre los presentes. El personaje con menor consitución, comenzará a tener una sensación de vértigo: mareos, visión borrosa y la sensación de estar a punto de caerse sin siquiera moverse. En caso de empate, afecta a todos los personajes que tengan ese valor en constitución.<adding search="el efecto banshee" class="check-cards"></adding></span>',
-        },
-      },
+      "actions": {},
     },
     // paper mask
 
@@ -6727,453 +3704,9 @@ const MissionsModule = (function () {
 
       "cards": [],
 
-      "searchs": {
-        "inspeccionar fuente": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>La fuente frente a ellos no tiene nada de extraordinario. Es un parque, como cualquier otro. De acceso público y con un jardín que envuelve la fuente. La misma es una fuente de piedra, con decoraciones llenas de flores e insectos que recuerdan a la primavera. Salvo por una pequeña libélula que se encuentra faltante en uno de los bordes que da al norte del parque.</span>',
-        },
-        "liberar la líbelula": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "moody", }, "place": "",
-          "cont": '<span>Como ya se les había indicado, el personaje puede poseer la libélula en un frasco para liberarla en sus aguas.</span>',
-        },
-        "descender por las escaleras": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "escaleras",
-          "cont": '<span>La fuente abre paso a unas escaleras de piedra. La humedad corre por sus paredes mientras la fuente pierde parte de su agua y los escalones se pierden a medida que la vista desciende y la luz de la noche se pierde.</span>',
-        },
-        "abrir puerta del depósito": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "puerta",
-          "cont": '<span>Al llegar a la puerta, la misma se encuentra sin llave. Basta girar su cerrojo para adentrarse a un galpón subterraneo alumbrado por el fuego de una antorchas que nunca parece apagarse. El ambiente se siente cálido. Pisos de madera y paredes pintadas de un color durazno pálido. Se puede observar que en un principio el lugar iba usando sus paredes, pero a medida que la cantidad de obras iba creciendo, pueden notar que se fueron agregando estanterías en el medio, formando un laberinto que parece no tener fin.</span>',
-        },
-        "obras relevantes": {
-          "visible": { "attr": { "val": "min" }, "know": { "arte": "10" }, "job": "invalid", "name": "invalid", }, "place": "abrir puerta del depósito",
-          "cont": '<span>Dentro de las pinturas que se puede ver a simple vista se encuentra "La Dama del Velo de Ceniza" una pintura que pertenece a Egil Ansfred, un pintor que nunca reveló la misma, pero que en todas sus obras podía reflejarse la pintura que nunca había logrado mostrar públicamente. Muchos se refieren a la obra como el retrato perdido. La pintura data del siglo XI.</span>',
-        },
-        "la magia del retrato": {
-          "visible": { "attr": { "val": "min" }, "know": { "transformaciones": "15" }, "job": "rompemaldiciones", "name": "invalid", }, "place": "obras relevantes",
-          "cont": '<span>Si se observa la pintura con atención, podrá notarse que ese no es un retrato, sino que es una mujer que ha quedado cautiva dentro del retrato sin posibilidad de escape. No hay magia que la puedra traer de regreso.</span>',
-        },
-        "artefactos relevantes": {
-          "visible": { "attr": { "val": "min" }, "know": { "historia de la magia": "10" }, "job": "invalid", "name": "invalid", }, "place": "abrir puerta del depósito",
-          "cont": '<span>Dentro de los artefactos que se puede ver a simple vista se encuentra la Copa de la Plaga. Un cáliz de bronce abollado que perteneció a un boticario de la Edad Media. El metal siempre está cubierto por una fina y permanente capa de rocío tóxico. Se suponía pérdido hace mucho tiempo. Se recomienda no tocar.</span>',
-        },
-        "inspeccionar una obra": {
-          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir puerta del depósito",
-          "cont": '<span>Al mirar cualquiera de las obras que se encuentran frente a ellos, puede notarse que Briseida fue encargandose de agregar una etiqueta a cada una de ellas. Indicaba el año de adquisición, de creación y a quién pertenecía, así como si estaba catalogado como pintura, escultura o artefacto.</span>',
-        },
-        "abrir inventario": {
-          "visible": { "attr": { "sab": "4" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir puerta del depósito",
-          "cont": '<span>Detrás de la puerta de entrada, puede notarse una recopilación de pergaminos que hacen de inventario del lugar. En su portada indica cuántas esculturas, pinturas y artefactos se encuentran en la sala y debajo de ellos un pergamino por cada obra agregando más información a la misma.</span>',
-        },
-        "inventario de esculturas": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir inventario",
-          "cont": '<span>Según el inventario, se posee un total de 127 esculturas.</span>',
-        },
-        "inventario de pinturas": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir inventario",
-          "cont": '<span>Según el inventario, se posee un total de 89 pinturas.</span>',
-        },
-        "inventario de artefactos": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir inventario",
-          "cont": '<span>Según el inventario, se posee un total de 156 artefactos.</span>',
-        },
-        "contar estantería central 1": {
-          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir inventario",
-          "cont": '<span>Se encuentran 10 esculturas, 3 pinturas y 2 artefactos en esta estantería.</span>',
-        },
-        "contar estantería central 2": {
-          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir inventario",
-          "cont": '<span>Se encuentran 8 esculturas, 3 pinturas y 10 artefactos en esta estantería.</span>',
-        },
-        "contar estantería central 3": {
-          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir inventario",
-          "cont": '<span>Se encuentran 8 esculturas, 3 pinturas y 10 artefactos en esta estantería.</span>',
-        },
-        "contar estantería central 4": {
-          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir inventario",
-          "cont": '<span>Se encuentran 8 esculturas, 3 pinturas y 10 artefactos en esta estantería.</span>',
-        },
-        "contar estantería central 5": {
-          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir inventario",
-          "cont": '<span>Se encuentran 8 esculturas, 3 pinturas y 10 artefactos en esta estantería.</span>',
-        },
-        "contar estantería central 6": {
-          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir inventario",
-          "cont": '<span>Se encuentran 8 esculturas, 3 pinturas y 10 artefactos en esta estantería.</span>',
-        },
-        "contar estantería lateral este 1": {
-          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir inventario",
-          "cont": '<span>Se encuentran 8 esculturas, 3 pinturas y 10 artefactos en esta estantería.</span>',
-        },
-        "contar estantería lateral este 2": {
-          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir inventario",
-          "cont": '<span>Se encuentran 8 esculturas, 3 pinturas y 10 artefactos en esta estantería.</span>',
-        },
-        "contar estantería lateral este 3": {
-          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir inventario",
-          "cont": '<span>Se encuentran 8 esculturas, 3 pinturas y 10 artefactos en esta estantería.</span>',
-        },
-        "contar estantería posterior 1": {
-          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir inventario",
-          "cont": '<span>Se encuentran 12 esculturas, 3 pinturas y 12 artefactos en esta estantería.</span>',
-        },
-        "contar estantería posterior 2": {
-          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir inventario",
-          "cont": '<span>Se encuentran 9 esculturas, 3 pinturas y 12 artefactos en esta estantería.</span>',
-        },
-        "contar estantería posterior 3": {
-          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir inventario",
-          "cont": '<span>Se encuentran 4 esculturas, 3 pinturas y 5 artefactos en esta estantería.</span>',
-        },
-        "contar estantería lateral oeste 1": {
-          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir inventario",
-          "cont": '<span>Se encuentran 8 esculturas, 3 pinturas y 10 artefactos en esta estantería.</span>',
-        },
-        "contar estantería lateral oeste 2": {
-          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir inventario",
-          "cont": '<span>Se encuentran 8 esculturas, 3 pinturas y 10 artefactos en esta estantería.</span>',
-        },
-        "contar estantería lateral oeste 3": {
-          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir inventario",
-          "cont": '<span>Se encuentran 8 esculturas, 3 pinturas y 10 artefactos en esta estantería.</span>',
-        },
-        "contar pared este": {
-          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir inventario",
-          "cont": '<span>Se encuentran 2 esculturas, 15 pinturas y 3 artefactos en esta pared.</span>',
-        },
-        "contar pared sur": {
-          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir inventario",
-          "cont": '<span>Se encuentran 2 esculturas, 14 pinturas y 5 artefactos en esta pared.</span>',
-        },
-        "contar pared oeste": {
-          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir inventario",
-          "cont": '<span>Se encuentra 1 escultura, 14 pinturas y 5 artefactos en esta pared.</span>',
-        },
-        "revisar inventario": {
-          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "intervencion1",
-          "cont": '<span>Todas las piezas del inventario cuentan con la siguiente información: "Tipo: Nombre de la pieza - Autor (año)" y se encuentran ordenadas según la estantería que corresponde.</span>',
-        },
-        "contar objetos por estanterías": {
-          "visible": { "attr": { "sab": "3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "revisar inventario",
-          "cont": '<span>Al contar los objetos por estantería con todo el tiempo que eso lleva, pueden concluir que faltan objetos en las estanterías pared este, estantería lateral oeste 3 y estantería posterior 3.</span>',
-        },
-        "ir a estantería pared este": {
-          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "contar objetos por estanterías",
-          "cont": '<span>Al ir hacia la pared Este, pueden encontrar que en sus estanterías hay 2 esculturas, 15 pinturas y 3 artefactos en esta pared.</span>',
-        },
-        "revisar inventario estantería pared este": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería pared este",
-          "cont": '<span>Según el inventario, en la estantería de la pared Este se pueden encontrar los siguientes objetos:<br>— Escultura: El Centinela de Piedra Caliza - Aldric Fenwyck (1503)<br>— Escultura: Fénix en Reposo - Marisol Quintanilla (1567)<br>— Pintura: Retrato del Duque Sin Rostro - Ottavia Pellegrini (1487)<br>— Pintura: Cosecha Bajo la Luna Roja - Fenwick Ashdown (1602)<br>— Pintura: Los Siete Pilares de Avalon - Constance Whitlock (1714)<br>— Pintura: Naturaleza Muerta con Serpientes - Bartholomew Grey (1745)<br>— Pintura: El Jardín que Nunca Duerme - Ines Marchetti (1780)<br>— Pintura: Autorretrato con Máscara de Zorro - Egil Ansfred (Siglo XI, atribuido)<br>— Pintura: La Boda de los Cuervos - Aurelia Thistlewood (1801)<br>— Pintura: Paisaje de Escocia en Invierno - Duncan MacFarlane (1823)<br>— Pintura: Tres Hermanas y una Vela - Perpetua Fane (1836)<br>— Pintura: El Mercader de Sombras - Lázaro Cavalcanti (1849)<br>— Pintura: La Última Cena de los Alquimistas - Bartholomew Grey (1861)<br>— Pintura: Campos de Amapolas Ardientes - Ines Marchetti (1874)<br>— Pintura: El Espejo que Miente - Lázaro Cavalcanti (1889)<br>— Pintura: Estudio de Manos - Perpetua Fane (1893)<br>— Pintura: Nocturno sobre el Lago Negro - Duncan MacFarlane (1901)<br>— Artefacto: Reloj de Arena Detenido - Cornelius Abernathy (1490)<br>— Artefacto: Espejo de las Voces Perdidas - Odalys Ferngrove (1523)<br>— Artefacto: Brújula que Señala al Miedo - Cornelius Abernathy (1567)<br>— Artefacto: Vaso de Cuerno de Unicornio - Odalys Ferngrove (1634)</span>',
-        },
-        "ir a estantería lateral oeste 3": {
-          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "contar objetos por estanterías",
-          "cont": '<span>Al ir hacia la tercera estantería lateral oeste, pueden encontrar que en ella hay 7 esculturas, 3 pinturas y 10 artefactos en esta estantería.</span>',
-        },
-        "revisar inventario lateral oeste 3": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería lateral oeste 3",
-          "cont": '<span>Según el inventario, en la estantería lateral oeste 3 se pueden encontrar los siguientes objetos:<br>— Escultura: La Doncella de Cristal - Marisol Quintanilla (1894)<br>— Escultura: Cabeza de Medusa en Basalto - Cassius Loredan (1885)<br>— Escultura: El Centauro Meditabundo - Wilhelmina Draycott (1871)<br>— Escultura: La Libélula de Jade - Wilhelmina Draycott (1856)<br>— Escultura: El Niño y la Serpiente - Wilhelmina Draycott (1834)<br>— Escultura: El Lobo y la Luna - Cassius Loredan (1803)<br>— Escultura: La Bruja del Pozo - Aldric Fenwyck (1756)<br>— Pintura: La Coronación Olvidada - Aurelia Thistlewood (1912)<br>— Pintura: La Viuda de Hollín - Aurelia Thistlewood (1795)<br>— Pintura: la sombra de los infiernos - Lázaro Cavalcanti (1841)<br>— Pintura: Retrato Doble de los Hermanos Fane - Perpetua Fane (1858)<br>— Artefacto: Espejo de Mano con Marco de Hueso - Odalys Ferngrove (1556)<br>— Artefacto: Bastón con Cabeza de Serpiente - Ignatius Thorne (1687)<br>— Artefacto: Máscara de Plata para Rituales - Fabricante desconocido (1733)<br>— Artefacto: Pesas de Bronce para Ingredientes - Cornelius Abernathy (1769)<br>— Artefacto: Sello de Cera Encantado - Ignatius Thorne (1876)<br>— Artefacto: Estuche de Pociones Portátil - Boticario anónimo (Edad Media, restaurado 1710)<br>— Artefacto: Reloj que Marcha al Revés - Cornelius Abernathy (1601)<br>— Artefacto: Frasco de Lágrimas de Unicornio - Odalys Ferngrove (1802)<br>— Artefacto: Amuleto contra el Mal de Ojo - Fabricante desconocido (1834)<br>— Artefacto: Sello de Cera de Sangre - Ignatius Thorne (1876)<br>— Artefacto: Tintero de Plata Ennegrecida - Ignatius Thorne (1939)</span>',
-        },
-        "ir a estantería posterior 3": {
-          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "contar objetos por estanterías",
-          "cont": '<span>Al ir hacia la tercera estantería posterior, pueden encontrar que en ella hay 4 esculturas, 3 pinturas y 5 artefactos en esta estantería.</span>',
-        },
-        "revisar inventario estantería posterior 3": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería posterior 3",
-          "cont": '<span>Según el inventario, en la estantería posterior 3 se pueden encontrar los siguientes objetos:<br>— Escultura: El Guardián de las Cuatro Casas - Aldric Fenwyck (1902)<br>— Escultura: Torso Femenino Inacabado - Wilhelmina Draycott (1919)<br>— Escultura: El Unicornio Yacente - Kwill Healy (1927)<br>— Escultura: La Quimera de Hierro Fundido - Marisol Quintanilla (1944)<br>— Pintura: Bodegón con Copa de Bronce - Constance Whitlock (1924)<br>— Pintura: El Baile de las Máscaras Blancas - Ottavia Pellegrini (1929)<br>— Pintura: Los Jardines de Mirabilia - Perpetua Fane (1941)<br>— Artefacto: Frasco de Cristal para Criaturas - Odalys Ferngrove (1915)<br>— Artefacto: Balanza de la Verdad - Ignatius Thorne (1790)<br>— Artefacto: Collar con Piedra Lunar - Odalys Ferngrove (1768)<br>— Artefacto: Lámpara de Aceite Eterno - Ignatius Thorne (1723)<br>— Artefacto: Cetro de Marfil Tallado - Cornelius Abernathy (1678)<br>— Artefacto: Anillo de Sello de los Ansfred - Taller de Egil Ansfred (Siglo XI, restaurado 1650)</span>',
-        },
+      "searchs": {},
 
-        // ===== LATERAL OESTE 3 =====
-        // -- Esculturas --
-        "identificar escultura la doncella de cristal": {
-          "visible": { "attr": { "val": "min" }, "know": { "historia de la magia": "5" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería lateral oeste 3",
-          "cont": '<span>Quintanilla trabajaba el cristal encantado; se dice que talló esta doncella a partir del reflejo de una modelo real, atrapando parte de su esencia en la escultura. Sin embargo, se dice que fue tal el vínculo que cualquier daño a la escultura afectaría a la modelo real. La modelo falleció por un ataque al corazón y se puede observar que la esculura tiene una grieta a la altura del corazón.</span>',
-        },
-        "identificar escultura cabeza de medusa en basalto": {
-          "visible": { "attr": { "val": "min" }, "know": { "dcao": "5" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería lateral oeste 3",
-          "cont": '<span>Los ojos de basalto conservan una versión debilitada de la maldición de petrificación, motivo por el cual la pieza figura en un registro especial de objetos con criaturas.</span>',
-        },
-        "identificar escultura el centauro meditabundo": {
-          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería lateral oeste 3",
-          "cont": '<span>La postura reflexiva y los símbolos astrológicos grabados en la base delatan el estilo de Draycott, conocida por sus figuras mitológicas contemplativas.</span>',
-        },
-        "identificar escultura la libélula de jade": {
-          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería lateral oeste 3",
-          "cont": '<span>Basta fijarse en las alas de jade veteado, un material poco común en escultura, y en la firma de Draycott grabada en la base.</span>',
-        },
-        "identificar escultura el niño y la serpiente": {
-          "visible": { "attr": { "val": "min" }, "know": { "historia de la magia": "10" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería lateral oeste 3",
-          "cont": '<span>Se rumorea que esta pieza representa al primer hijo de Draycott, quien murió tras la mordida de una serpiente venenosa; la escultora nunca volvió a trabajar con reptiles después de crearla. En la escultura se puede observar a un niño jugando envuelto en una boa que juega con él.</span>',
-        },
-        "identificar escultura el lobo y la luna": {
-          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería lateral oeste 3",
-          "cont": '<span>El pelaje erizado y la luna creciente tallada en relieve son marcas distintivas del estilo temprano de Loredan. Sin embargo, hay algo extraño en la escultura. Los ojos del lobo parecen seguir a quienes lo observan y sus dientes parecen demasiado reales. Tal como si alguien hubiera congelado a un lobo en plena luna llena. Cualquiera sea el caso, lo mejor es mantener distancia del mismo.</span>',
-        },
-        "identificar escultura la bruja del pozo": {
-          "visible": { "attr": { "val": "min" }, "know": { "historia de la magia": "10" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería lateral oeste 3",
-          "cont": '<span>Representa a una bruja acusada de brujería y arrojada a un pozo en el siglo XVIII; Fenwyck la esculpió como homenaje después de que se demostrara su inocencia. Al acercarse, el pozo a sus pies se prende fuego y la bruja sonríe.</span>',
-        },
-
-        // -- Pinturas --
-        "identificar pintura la coronación olvidada": {
-          "visible": { "attr": { "val": "min" }, "know": { "historia de la magia": "5" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería lateral oeste 3",
-          "cont": '<span>Retrata una coronación mágica que jamás llegó a celebrarse porque el candidato desapareció misteriosamente la noche anterior. Las flores silvestres que rodean su cabeza parecen ser venenosas.</span>',
-        },
-        "identificar pintura la viuda de hollín": {
-          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería lateral oeste 3",
-          "cont": '<span>La mujer de la pintura viste completamente de negro y sostiene un carbón encendido; el título hace referencia directa a la escena.</span>',
-        },
-        "identificar pintura la sombra de los infiernos": {
-          "visible": { "attr": { "val": "min" }, "know": { "historia de la magia": "10" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería lateral oeste 3",
-          "cont": '<span>La historia cuenta que Lázaro Cavalcanti logró plasmar en sombras los infiernos de Dante. Sin embargo, muchos afirmaban que la pintura estaba maldita y lograba atrapar a encantar a las personas y luego se terminaban suicidando. La pintura había causado mucho revuelo cuando llegó al museo Mirabilia. No obstante, el museo aseguró haber tapado el cuadro y ocultarlo en un lugar seguro. Ningún cuadro de los presentes coincide con la descripción.</span>',
-        },
-        "identificar pintura retrato doble de los hermanos fane": {
-          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería lateral oeste 3",
-          "cont": '<span>El gran parecido entre los dos rostros retratados y el apellido "Fane" firmado en la esquina delatan que se trata de un autorretrato familiar de la propia pintora.</span>',
-        },
-
-        // -- Artefactos --
-        "identificar artefacto espejo de mano con marco de hueso": {
-          "visible": { "attr": { "val": "min" }, "know": { "banshee": "10" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería lateral oeste 3",
-          "cont": '<span>El marco está hecho de hueso de banshee; quien se mira en él durante demasiado tiempo empieza a escuchar lamentos.</span>',
-        },
-        "identificar artefacto bastón con cabeza de serpiente": {
-          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería lateral oeste 3",
-          "cont": '<span>La cabeza está tallada con la boca abierta, lista para escupir veneno; un diseño típico de bastones defensivos de la época.</span>',
-        },
-        "identificar artefacto máscara de plata para rituales": {
-          "visible": { "attr": { "val": "min" }, "know": { "historia de la magia": "10" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería lateral oeste 3",
-          "cont": '<span>Este tipo de máscaras se usaban para ocultar la identidad durante ceremonias prohibidas por el Ministerio en el siglo XVIII.</span>',
-        },
-        "identificar artefacto pesas de bronce para ingredientes": {
-          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería lateral oeste 3",
-          "cont": '<span>Las pesas tienen grabados los símbolos alquímicos estándar para medir ingredientes de poción, fáciles de reconocer para cualquiera con algo de conocimiento de pociones.</span>',
-        },
-        "identificar artefacto sello de cera encantado": {
-          "visible": { "attr": { "val": "min" }, "know": { "dcao": "5" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería lateral oeste 3",
-          "cont": '<span>Al calentarse, este sello libera un aroma que revela si el documento sellado ha sido falsificado.</span>',
-        },
-        "identificar artefacto estuche de pociones portátil": {
-          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería lateral oeste 3",
-          "cont": '<span>Los compartimentos numerados y el tamaño reducido son típicos de los estuches que llevaban los boticarios itinerantes medievales.</span>',
-        },
-        "identificar artefacto reloj que marcha al revés": {
-          "visible": { "attr": { "val": "min" }, "know": { "historia de la magia": "10" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería lateral oeste 3",
-          "cont": '<span>Fue creado como advertencia contra el uso de giratiempos sin autorización; marcha al revés como recordatorio simbólico de las consecuencias de manipular el tiempo.</span>',
-        },
-        "identificar artefacto frasco de lágrimas de unicornio": {
-          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería lateral oeste 3",
-          "cont": '<span>El líquido dentro brilla con un tono plateado inconfundible, propio de las lágrimas de unicornio genuinas.</span>',
-        },
-        "identificar artefacto amuleto contra el mal de ojo": {
-          "visible": { "attr": { "val": "min" }, "know": { "dcao": "5" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería lateral oeste 3",
-          "cont": '<span>El diseño del ojo abierto en el centro es característico de los amuletos protectores de tradición mediterránea contra maleficios menores.</span>',
-        },
-        "identificar artefacto sello de cera de sangre": {
-          "visible": { "attr": { "val": "min" }, "know": { "dcao": "10" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería lateral oeste 3",
-          "cont": '<span>A diferencia del sello común, este exige una gota de sangre del firmante y queda ligado mágicamente a su propietario; se usaba en contratos de sangre.</span>',
-        },
-        "identificar artefacto tintero de plata ennegrecida": {
-          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería lateral oeste 3",
-          "cont": '<span>La plata está ennegrecida de forma pareja, algo típico de un tintero que ha estado en contacto constante con tinta encantada de calidad.</span>',
-        },
-
-        // ===== POSTERIOR 3 =====
-
-        // -- Esculturas --
-        "identificar escultura el guardián de las cuatro casas": {
-          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería posterior 3",
-          "cont": '<span>Los cuatro emblemas de Hogwarts tallados alrededor de la base hacen evidente a qué institución rinde homenaje la pieza. Sin embargo, hay algo que no cuadra y es que al mirar con detenimiento el inventario, indica que el cuadro fue hecho con los huesos de un niño squib que se quitó la vida tras saber que nunca podría asistir a Hogwarts.</span>',
-        },
-        "identificar escultura torso femenino inacabado": {
-          "visible": { "attr": { "val": "min" }, "know": { "historia de la magia": "5" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería posterior 3",
-          "cont": '<span>Se sabe que Draycott dejó esta obra sin terminar tras la muerte de su modelo, y se negó a que nadie más la completara.</span>',
-        },
-        "identificar escultura el unicornio yacente": {
-          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería posterior 3",
-          "cont": '<span>La postura relajada y las crines grabadas con hebras de plata auténtica son características del estilo tardío de Healy.</span>',
-        },
-        "identificar escultura la quimera de hierro fundido": {
-          "visible": { "attr": { "val": "min" }, "know": { "dcao": "10" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería posterior 3",
-          "cont": '<span>Las tres cabezas responden a distintos hechizos de activación; se cree que fue diseñada originalmente como sistema de alarma. Al acercarse, los tres comienzan a ladrar y querer atacar al o los personajes que más fuerza posean.</span>',
-        },
-
-        // -- Pinturas --
-        "identificar pintura bodegón con copa de bronce": {
-          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería posterior 3",
-          "cont": '<span>La copa de bronce central coincide en forma con las piezas de vajilla que Whitlock solía retratar en sus bodegones.</span>',
-        },
-        "identificar pintura el baile de las máscaras blancas": {
-          "visible": { "attr": { "val": "min" }, "know": { "historia de la magia": "10" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería posterior 3",
-          "cont": '<span>Retrata un baile real que terminó en escándalo cuando se descubrió que varios invitados usaban máscaras para ocultar su identidad y evadir al Ministerio.</span>',
-        },
-        "identificar pintura los jardines de mirabilia": {
-          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería posterior 3",
-          "cont": '<span>El título coincide con el nombre del propio Museo Mirabilia, y los jardines retratados son fácilmente reconocibles para quien lo haya visitado. Sin embargo, toda la vida natural esta muerta en el cuadro, haciendo que la visión sea bastante escalofriante.</span>',
-        },
-
-        // -- Artefactos --
-        "identificar artefacto frasco de cristal para criaturas": {
-          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería posterior 3",
-          "cont": '<span>El tamaño y las perforaciones de ventilación en la tapa son típicas de los frascos usados para transportar criaturas pequeñas con vida.</span>',
-        },
-        "identificar artefacto balanza de la verdad": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "ir a estantería posterior 3",
-          "cont": '<span>Hay una imagen de la misma en el Departamento de Seguridad, una pintura que saluda a todos en la entrada. Se dice que la balanza se inclinaba dependiendo de lo escuchado. Sin embargo, un mago había logrado burlarla y fue retirada. Para cualquier persona se seguridad sería facilmente identificable, pese a eso, la balanza no se encuentra en la estantería.</span>',
-        },
-        "identificar artefacto collar con piedra lunar": {
-          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería posterior 3",
-          "cont": '<span>La piedra cambia de color según la fase lunar, un efecto fácil de notar para cualquiera que la observe unos minutos.</span>',
-        },
-        "identificar artefacto lámpara de aceite eterno": {
-          "visible": { "attr": { "val": "min" }, "know": { "historia de la magia": "5" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería posterior 3",
-          "cont": '<span>Este tipo de lámparas nunca se apaga porque su aceite fue encantado con fuego de salamandra, una técnica prohibida desde el siglo XIX por su inestabilidad.</span>',
-        },
-        "identificar artefacto cetro de marfil tallado": {
-          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería posterior 3",
-          "cont": '<span>Las figuras talladas en el marfil representan una línea sucesoria; parece pertenecer a una familia de cierto rango.</span>',
-        },
-        "identificar artefacto anillo de sello de los ansfred": {
-          "visible": { "attr": { "val": "min" }, "know": { "historia de la magia": "10" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería posterior 3",
-          "cont": '<span>El sello coincide con el escudo que aparece firmado en las pinturas de Ansfred, confirmando el vínculo entre esta pieza y el pintor.</span>',
-        },
-
-        // ===== PARED ESTE =====
-
-        // -- Esculturas --
-        "identificar escultura el centinela de piedra caliza": {
-          "visible": { "attr": { "val": "min" }, "know": { "historia de la magia": "10" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería pared este",
-          "cont": '<span>Este tipo de centinelas de piedra caliza se usaban como defensa pasiva en propiedades de sangre pura antes de la llegada de los encantamientos protectores modernos.</span>',
-        },
-        "identificar escultura fénix en reposo": {
-          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería pared este",
-          "cont": '<span>Las plumas talladas en posición de descanso y el pico curvado son inconfundiblemente los de un fénix.</span>',
-        },
-
-        // -- Pinturas --
-        "identificar pintura retrato del duque sin rostro": {
-          "visible": { "attr": { "val": "min" }, "know": { "historia de la magia": "10" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería pared este",
-          "cont": '<span>El retratado nunca mostró su rostro en vida por miedo a una maldición familiar; Pellegrini respetó su deseo incluso después de su muerte.</span>',
-        },
-        "identificar pintura cosecha bajo la luna roja": {
-          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería pared este",
-          "cont": '<span>El cielo pintado con una luna de tono rojizo sobre un campo de cultivo hace evidente la escena descrita en el título.</span>',
-        },
-        "identificar pintura los siete pilares de avalon": {
-          "visible": { "attr": { "val": "min" }, "know": { "historia de la magia": "5" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería pared este",
-          "cont": '<span>Los siete pilares representan a las siete familias fundadoras de una comunidad mágica hoy desaparecida.</span>',
-        },
-        "identificar pintura naturaleza muerta con serpientes": {
-          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería pared este",
-          "cont": '<span>Las serpientes enroscadas entre la fruta son el elemento central y más llamativo de la composición.</span>',
-        },
-        "identificar pintura el jardín que nunca duerme": {
-          "visible": { "attr": { "val": "min" }, "know": { "dcao": "5" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería pared este",
-          "cont": '<span>Las flores pintadas corresponden a especies que florecen únicamente de noche, motivo del nombre de la obra.</span>',
-        },
-        "identificar pintura autorretrato con máscara de zorro": {
-          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería pared este",
-          "cont": '<span>El estilo del rostro coincide con el de "La Dama del Velo de Ceniza", lo que sugiere que se trata del mismo pintor, aunque la obra no está firmada.</span>',
-        },
-        "identificar pintura la boda de los cuervos": {
-          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería pared este",
-          "cont": '<span>Los invitados a la boda pintada llevan plumas negras en lugar de ropa formal, una escena poco sutil sobre lo que representa el título.</span>',
-        },
-        "identificar pintura paisaje de escocia en invierno": {
-          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería pared este",
-          "cont": '<span>El paisaje nevado y las montañas escocesas son fácilmente reconocibles para cualquiera con algo de conocimiento geográfico.</span>',
-        },
-        "identificar pintura tres hermanas y una vela": {
-          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería pared este",
-          "cont": '<span>La pintura muestra literalmente a tres hermanas alrededor de una única vela encendida.</span>',
-        },
-        "identificar pintura el mercader de sombras": {
-          "visible": { "attr": { "val": "min" }, "know": { "dcao": "10" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería pared este",
-          "cont": '<span>Retrata a un mercader que comerciaba con sombras robadas, una práctica de magia oscura prohibida desde el siglo XIX.</span>',
-        },
-        "identificar pintura la última cena de los alquimistas": {
-          "visible": { "attr": { "val": "min" }, "know": { "historia de la magia": "5" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería pared este",
-          "cont": '<span>Representa una cena real entre alquimistas que discutían la creación de la Piedra Filosofal, poco antes de que la práctica fuera regulada.</span>',
-        },
-        "identificar pintura campos de amapolas ardientes": {
-          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería pared este",
-          "cont": '<span>Las amapolas están pintadas con tonos de fuego real en lugar del rojo habitual, haciendo evidente el "ardiente" del título.</span>',
-        },
-        "identificar pintura el espejo que miente": {
-          "visible": { "attr": { "val": "min" }, "know": { "dcao": "10" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería pared este",
-          "cont": '<span>El espejo pintado es una representación de un objeto real que mostraba versiones falsas de la realidad a quien se miraba en él.</span>',
-        },
-        "identificar pintura estudio de manos": {
-          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería pared este",
-          "cont": '<span>La obra se compone únicamente de bocetos de manos en distintas posiciones, sin ningún otro elemento en el lienzo.</span>',
-        },
-        "identificar pintura nocturno sobre el lago negro": {
-          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería pared este",
-          "cont": '<span>El lago oscuro bajo un cielo estrellado remite directamente al nombre de la obra, sin mayor misterio.</span>',
-        },
-
-        // -- Artefactos --
-        "identificar artefacto reloj de arena detenido": {
-          "visible": { "attr": { "val": "min" }, "know": { "dcao": "10" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería pared este",
-          "cont": '<span>La arena de este reloj se detuvo mágicamente en el instante exacto de una muerte; algunos coleccionistas lo consideran de mal augurio.</span>',
-        },
-        "identificar artefacto espejo de las voces perdidas": {
-          "visible": { "attr": { "val": "min" }, "know": { "historia de la magia": "10" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería pared este",
-          "cont": '<span>Se dice que conserva ecos de conversaciones antiguas; los historiadores lo usaban para investigar eventos del pasado antes de que la práctica fuera prohibida.</span>',
-        },
-        "identificar artefacto brújula que señala al miedo": {
-          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería pared este",
-          "cont": '<span>Se supone que, al tratarse de un artefacto sería fácil de identificar. Pese a eso, no hay ninguna brújula en la estantería.</span>',
-        },
-        "identificar artefacto vaso de cuerno de unicornio": {
-          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ir a estantería pared este",
-          "cont": '<span>La forma curva y el color nacarado del material dejan en claro que está hecho de cuerno de unicornio auténtico.</span>',
-        },
-      },
-
-      "actions": {
-        "duro": {
-          "leve": '<span>No es suficiente para revelar información.</span>',
-          "moderado": '<span>Al transfigurarse al libélula, la fuente se abre revelando unas escaleras hacía un piso inferior.<adding class="check-cards" search="escaleras"></adding></span>',
-          "exitoso": '<span>Al transfigurarse al libélula, la fuente se abre revelando unas escaleras hacía un piso inferior.<adding class="check-cards" search="escaleras"></adding></span>',
-          "critico": '<span>Al transfigurarse al libélula, la fuente se abre revelando unas escaleras hacía un piso inferior.<adding class="check-cards" search="escaleras"></adding></span>',
-        },
-        "silentiaforma": {
-          "leve": '<span>No es suficiente para revelar información.</span>',
-          "moderado": '<span>Al transfigurarse al libélula, la fuente se abre revelando unas escaleras hacía un piso inferior.<adding class="check-cards" search="escaleras"></adding></span>',
-          "exitoso": '<span>Al transfigurarse al libélula, la fuente se abre revelando unas escaleras hacía un piso inferior.<adding class="check-cards" search="escaleras"></adding></span>',
-          "critico": '<span>Al transfigurarse al libélula, la fuente se abre revelando unas escaleras hacía un piso inferior.<adding class="check-cards" search="escaleras"></adding></span>',
-        },
-        "lumos": {
-          "leve": '<span>No es suficiente para revelar información.</span>',
-          "moderado": '<span>Permite iluminar el pasillo, revelando una pequeña luz, pero no es suficiente para revelar toda la información.</span>',
-          "exitoso": '<span>Permite iluminar el pasillo y la puerta que se encuentra al final del mismo.<adding class="check-cards" search="puerta"></adding></span>',
-          "critico": '<span>Permite iluminar el pasillo y la puerta que se encuentra al final del mismo.<adding class="check-cards" search="puerta"></adding></span>',
-        },
-        "lumos maxima": {
-          "leve": '<span>No es suficiente para revelar información.</span>',
-          "moderado": '<span>Permite iluminar el pasillo, revelando una pequeña luz, pero no es suficiente para revelar toda la información.</span>',
-          "exitoso": '<span>Permite iluminar el pasillo y la puerta que se encuentra al final del mismo.<adding class="check-cards" search="puerta"></adding></span>',
-          "critico": '<span>Permite iluminar el pasillo y la puerta que se encuentra al final del mismo.<adding class="check-cards" search="puerta"></adding></span>',
-        },
-        "lumos solem": {
-          "leve": '<span>No es suficiente para revelar información.</span>',
-          "moderado": '<span>Permite iluminar el pasillo, revelando una pequeña luz, pero no es suficiente para revelar toda la información.</span>',
-          "exitoso": '<span>Permite iluminar el pasillo y la puerta que se encuentra al final del mismo.<adding class="check-cards" search="puerta"></adding></span>',
-          "critico": '<span>Permite iluminar el pasillo y la puerta que se encuentra al final del mismo.<adding class="check-cards" search="puerta"></adding></span>',
-        },
-        "computus": {
-          "leve": '<span>No es suficiente para revelar información.</span>',
-          "moderado": '<span>Permite obtener la cantidad de Esculturas, Pinturas o Artefactos. Solicitar a la administración uno de los valores. Una vez que se tengan los tres valores, solicitar intervención de la administración.</span>',
-          "exitoso": '<span>Permite obtener la cantidad de Esculturas, Pinturas o Artefactos. Solicitar a la administración uno de los valores. Una vez que se tengan los tres valores, solicitar intervención de la administración.</span>',
-          "critico": '<span>Permite obtener la cantidad de Esculturas, Pinturas o Artefactos. Solicitar a la administración uno de los valores. Una vez que se tengan los tres valores, solicitar intervención de la administración.</span>',
-        },
-        "iteratio perfectum": {
-          "leve": '<span>No es suficiente para revelar información.</span>',
-          "moderado": '<span>Permite lanzar dos tarjetas en un mismo post durante 1 ronda.</span>',
-          "exitoso": '<span>Permite lanzar dos tarjetas en un mismo post durante 2 rondas.</span>',
-          "critico": '<span>Permite lanzar dos tarjetas en un mismo post durante 3 rondas.</span>',
-        },
-
-      },
+      "actions": {},
     },
     // dragonfly's secrets
 
@@ -7187,81 +3720,9 @@ const MissionsModule = (function () {
 
       "cards": [],
 
-      "searchs": {
-        "certificado de defunción de dominic edevane clasificado": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "jupiter", }, "place": "",
-          "cont": '<span>El personaje puede confirmar que, tras una investigación en el Requisario, encontró un certificado clasificado de Dominic Edevane:<br><br><span class="book-clipping"><br><div align="center"><strong>PERGAMINO DE DEFUNCIÓN</strong><br><i>Hospital San Mungo para Enfermedades y Heridas Mágicas – Archivo de los Caídos</i></div><br><strong>Nombre Completo del Paciente</strong>: Dominic Edevane.<br><strong>No. Expediente</strong>: SM-FD/1342-G<br><strong>Fecha de Ingreso</strong>: 25 de Marzo de 1939 - 07:05hs.<br><br><strong>Fecha de fallecimiento</strong>: 24 de Marzo de 1939 - 22:32hs.<br><br><strong>Edad</strong>: 32 años.<br><strong>Sangre</strong>: ☒ Pura 	 ☐ Mestiza 	 ☐ Muggle 	 ☐ Criatura<br><br><strong>Motivo del ingreso</strong>: El cuerpo de Dominic Edevane fue hallado fallecido y llevado al hospital.<br><strong>Causa de fallecimiento</strong>: Se determina que la causa de la muerte ha sido un parásito en sangre. El mismo no corresponde con alguno anotado con anterioridad. Una muestra ha sido tomada y enviada al Departamento de Misterios para su investigación. Dicho parásito ha causado una cristalización letárgica de las venas principales. El organismo intruso consumió el oxígeno y el calor vital del paciente de manera tan sutil que los órganos se marchitaron en completo silencio.<br><br><strong>Área médica asignada</strong>: Archivo de los caídos.<br><strong>Atendido por</strong>: Thalia Wyrm, nigromante.<br><strong>Acompañante familiar</strong>: Padre, Halden Edevane.<br><br><strong>Anexos</strong>:<br>☒ Firma de Thalia Wyrm.<br>☒ Firma de Padre, Halden Edevane.<br>☒ Sello de defunción emitido.</span></span>',
-        },
-        "certificado de defunción de dominic edevane": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "",
-          "cont": '<span><span class="book-clipping"><br><div align="center"><strong>PERGAMINO DE DEFUNCIÓN</strong><br><i>Hospital San Mungo para Enfermedades y Heridas Mágicas – Archivo de los Caídos</i></div><br><strong>Nombre Completo del Paciente</strong>: Dominic.<br><strong>No. Expediente</strong>: SM-FD/1342-G<br><strong>Fecha de Ingreso</strong>: 25 de Marzo de 1939 - 07:05hs.<br><strong>Fecha de fallecimiento</strong>: 24 de Marzo de 1939 - 22:32hs.<br><br><strong>Edad</strong>: 32 años.<br><strong>Sangre</strong>: ☒ Pura &nbsp; ☐ Mestiza &nbsp; ☐ Muggle &nbsp; ☐ Criatura<br><br><strong>Motivo del ingreso</strong>: El cuerpo de Dominic fue hallado fallecido y llevado al hospital.<br><strong>Causa de fallecimiento</strong>: No hay causas suficientes, se supone causas naturales, aunque se notaron rastros de magia negra en su sangre.<br><br><strong>Área médica asignada</strong>: Archivo de los caídos.<br><strong>Atendido por</strong>: Thalia Wyrm, nigromante.<br><strong>Acompañante familiar</strong>: Esposa, Aria Fawley.<br><br><strong>Anexos</strong>:<br>☒ Firma de Thalia Wyrm.<br>☒ Firma de Aria Fawley.<br>☒ Sello de defunción emitido.</span></span>',
-        },
-        "certificado de defunción de thalia wyrm": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "jupiter", }, "place": "",
-          "cont": '<span>El personaje puede confirmar que, tras investigar a Thalia Wyrm, encontró su certificado de defunción:<br><br><span class="book-clipping"><br><div align="center"><strong>PERGAMINO DE DEFUNCIÓN</strong><br><i>Hospital San Mungo para Enfermedades y Heridas Mágicas – Archivo de los Caídos</i></div><br><strong>Nombre Completo del Paciente</strong>: Thalia Wyrm.<br><strong>No. Expediente</strong>: SM-FD/1432-S<br><strong>Fecha de Ingreso</strong>: 16 de Noviembre de 1943 - 18:22hs.<br><br><strong>Fecha de fallecimiento</strong>: 16 de Noviembre de 1943 - 23:56hs.<br><br><strong>Edad</strong>: 81 años.<br><strong>Sangre</strong>: ☐ Pura ☒ Mestiza ☐ Muggle ☐ Criatura<br><br><strong>Motivo del ingreso</strong>: Un compañero de la señora Wyrm encontró a la mujer recostada sobre el escritorio, tras el chequeo de los signos vitales, su corazón latía demasiado despacio según lo habitual.<br><strong>Causa de fallecimiento</strong>: Fallo sistémico agudo y colapso respiratorio, condicionados por la avanzada edad de la paciente (81 años). El examen forense reveló una atípica cristalización y endurecimiento de las venas principales, atribuida preliminarmente a una drástica e inexplicable caída del calor vital en sus últimas horas. Esta condición interrumpió el flujo natural de oxígeno, provocando que los órganos internos se marchitaran a un ritmo acelerado y en completo silencio. Al no presentar marcas de violencia ni signos de agonía consciente, se dictamina como muerte natural.<br><br><strong>Área médica asignada</strong>: Archivo de los caídos.<br><strong>Atendido por</strong>: Tabor Mariner, nigromante.<br><strong>Acompañante familiar</strong>: Hija, Attilia Harper.<br><br><strong>Anexos</strong>:<br>☒ Firma de Tabor Mariner.<br>☒ Firma de Hija, Attilia Harper.<br>☒ Sello de defunción emitido.</span></span>',
-        },
-        "ingresar al departamento de misterios": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "certificado de defunción de dominic edevane clasificado",
-          "cont": '<span>Con la compañía de un inefable y sabiendo que la nigromante Wyrm dejó una muestra de sangre en la Cámara de la Sangre y con una autorización del Jefe del Departamento de Seguridad Mágica, pueden ingresar al mismo para buscar la investigación de la mujer.</span>',
-        },
-        "información sobre thalia wyrm": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "orion", }, "place": "certificado de defunción de thalia wyrm",
-          "cont": '<span>El personaje puede haber escuchado el nombre de la mujer de los labios de su abuela, Hesper Black, quien también trabajó en la cámara de la sangre. Thalia era una mujer tozuda, quería respuestas y las buscaba. Cuando le negaron investigar la sangre y pasados meses de que fuera poco prioritario, pidió traslado hacia la cámara para poder trabajar como inefable. Llevó a cabo su investigación durante unos años y luego falleció. La mujer estaba simplemente grande. Nadie completó la investigación porque no tenía prioridad. Aunque nada se pierde en el Departamento de Misterios, si se sabe dónde buscar, se pueden encontrar todas las investigaciones en cámaras que las resguardan del tiempo.</span>',
-        },
-        "ingresar a la cámara del tiempo": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "inefable", "name": "invalid", }, "place": "ingresar al departamento de misterios",
-          "cont": '<span>Todos los inefables conocen que todas las investigaciones se guardan en un archivo en la cámara del tiempo. Muchos años atrás, capaz al inicio del Departamento, los inefables necesitaban un lugar seguro para almacenar sus hallazgos donde el tiempo no fuera un problema. Fue el inicio de la cámara del tiempo, incluso. Por lo tanto, el personaje puede guiarlos a la cámara donde sabe que estará la investigación de Thalia Wyrm.</span>',
-        },
-        "ingresar al archivo de la cámara del tiempo": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "inefable", "name": "invalid", }, "place": "ingresar a la cámara del tiempo",
-          "cont": '<span>El Archivo de la Cámara del Tiempo, es la primera puerta a la derecha del espacio destinado a los inefables que examinan el tiempo. Desde allí, se puede observar el centro de la cámara donde un péndulo se mueve de un lado hacía otro. Al ingresar al archivo, sin embargo, no parece ser más que otra cosa que una fila interminable de lockers.</span>',
-        },
-        "investigar los lockers": {
-          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ingresar al archivo de la cámara del tiempo",
-          "cont": '<span>Todas las puertas metálicas de los lockes son de un color azul oscuro. Las mismas se encuentran etiquetadas con los nombres de los investigadores, una descripción corta de la investigación y el año en el que se realizó. Si algún personaje quiere hacer la mención sobre un personaje cercano o pariente que tenga un tema allí, puede hacerlo. El inefable que los guía también puede mencionar alguna de sus propias investigaciones.</span>',
-        },
-        "locker de thalia wyrm": {
-          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "investigar los lockers",
-          "cont": '<span>Tras avanzar hasta el año 1939, llegan a un casillero que tiene la información de Thalia Wyrm. Las etiquetas al frente rezan: "Thalia Wyrm - Investigación sobre parásitos en la sangre - 1939".</span>',
-        },
-        "abrir locker": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "locker de thalia wyrm",
-          "cont": '<span>El locker cuenta con dos niveles. En el nivel superior hay una caja de cristal en cuyo interior flota un frasco con una muestra de sangre de un color denso y oscuro, mientras que en el nivel inferior se encuentran tres pergaminos archivos.</span>',
-        },
-        "muestra de sangre de dominic edevane": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir locker",
-          "cont": '<span>La muestra de sangre de Dominic Edevane se encuentra dentro de una caja de cristal la cual ha sido hechizada para que no pueda abrirse ni romperse. Ninguno de los hechizos utilizados puede causar tal efecto. Sin embargo, y por las dudas, Thalia agregó una nota: "Esta muestra es extremadamente peligrosa. No se debe manipular sin la debida protección."</span>',
-        },
-        "pergaminos de notas": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir locker",
-          "cont": '<span>Al tomar los pergaminos, pueden notarse que hay tres pergaminos con notas fechadas en orden cronológico.</span>',
-        },
-        "notas de abril 1939": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "pergaminos de notas",
-          "cont": '<span><span class="book-clipping">Fecha: 12 de Abril de 1939. Cámara de la Sangre, Departamento de Misterios.<br><br>La muestra extraída del señor Edevane se niega a coagularse. Lleva tres semanas en un frasco sellado sobre mi escritorio y, si apago las luces, puedo ver cómo la espesa negrura palpita contra el cristal, imitando el ritmo de un corazón que ya no existe. Hoy decidí someterla a hechizos que he aprendido como nigromante. Lo que encontré no es una bacteria ni una bestia microscópica, sino un conjuro. Un hechizo que ha sido forzado a tomar una forma biológica.<br><br>El parásito no ataca los órganos de forma violenta. Se adhiere a la magia natural del torrente sanguíneo y la usa como combustible para bajar la temperatura interna del huésped. Se alimenta del calor vital y del oxígeno, dejando a su paso un rastro de escarcha negra. Por eso las venas de Edevane se cristalizaron. No murió de dolor; murió porque su cuerpo, sencillamente, creyó que era invierno y decidió apagarse para invernar. Es una magia elegante. Demasiado silenciosa.</span></span>',
-        },
-        "notas de noviembre 1941": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "pergaminos de notas",
-          "cont": '<span><span class="book-clipping">Fecha: 3 de Noviembre de 1941. Cámara de la Sangre.<br><br>He logrado aislar el encantamiento base separando la sangre maldita tras varios hechizos rúnicos. Esto no fue un veneno bebido ni una maldición lanzada a gritos en un callejón. Es un Parasitus Arcanum, una variante de magia de sangre muy antigua y deliberada.<br><br>Para generar algo así, el lanzador tuvo que usar la transmutación. Tomó una emoción densa (odio o un sentido de protección sumamente retorcido), la ató a un filamento de magia oscura y la incubó dentro de un objeto físico cercano a la víctima. Al entrar en contacto prolongado con Edevane, el objeto comenzó a transpirar esta magia hacia sus poros, introduciendo el "parásito" en su sistema. Una vez dentro, el hechizo cobra consciencia biológica: se multiplica, teje raíces de hielo en las arterias y asfixia lentamente. Quien haya creado esto no quería venganza rápida; quería la certeza de una muerte que pasara por fatiga.</span></span>',
-        },
-        "notas de noviembre 1943": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "pergaminos de notas",
-          "cont": '<span><span class="book-clipping">Fecha: 16 de Noviembre de 1943. Cámara de la Sangre.<br><br>He cometido un error de cálculo que me cuesta admitir. Pensé que el parásito moriría de inanición al no tener un huésped vivo del cual alimentarse. Pero los hechizos de este calibre no mueren; quedan en un estado de hibernación, esperando una nueva fuente de calor.<br><br>Ayer, al cambiar el sello del frasco, el cristal se agrietó apenas una fracción de segundo. Fue suficiente. Sentí un pinchazo frío en la yema del dedo índice, como la picadura de una aguja de hielo. Hoy, al mirarme al espejo, he notado que las venas de mi cuello tienen un inusual tono ceniciento. Mis manos ya no entran en calor, ni siquiera acercándolas a la chimenea. El parásito ha encontrado una nueva casa. Es fascinante, en cierto modo macabro, observar el progreso en primera persona. Siento cómo mis órganos comienzan a ralentizarse, marchitándose en completo silencio, tal como le pasó a Edevane. Sellaré estas notas junto con la muestra original. Si alguien del archivo entra aquí cuando yo ya sea polvo y escarcha, espero que tenga el buen juicio de usar guantes gruesos. El letargo es pacífico, pero no planeo compartirlo. Antes de ir al hospital, buscaré sellar el frasco.</span></span>',
-        },
-        "información del hechizo": {
-          "visible": { "attr": { "val": "min" }, "know": { "magia oscura": "10" }, "job": "invalid", "name": "invalid", }, "place": "notas de noviembre 1941",
-          "cont": '<span>El personaje puede brindar la información del hechizo (parasitus arcanum) que se encuentra bajo el filtro de magia oscura en la lista de hechizos y habilidades.</span>',
-        },
-      },
+      "searchs": {},
 
-      "actions": {
-        "murmura futuri": {
-          "leve": 'Un murmullo comienza a escucharse en la lejanía: "se acerca...", pero no está claro qué.',
-          "moderado": 'El mar se escucha de fondo, incluso cuando no sabes dónde te encuentras. Puedes percibir palabras, pero no demasiado claras: "¡Cuidado!", "Se acerca", "Hay que frenarlo".',
-          "exitoso": 'La voz que habla es conocida, alguien que tenga un vínculo fuerte con el personaje: "Tienes que ayudarme, prometiste que me ayudarías ¿Por qué no me ayudas?" El mar oculta la mayoría de las palabras.',
-          "critico": 'El sonido del mar es claro y placentero. Hay una sensación de tranquilidad que rápidamente es cortada por una voz que comienza como un susurro y termina como grito: "Una ola negra se acerca".',
-        },
-      },
+      "actions": {},
     },
     // tying loose ends
 
@@ -7640,198 +4101,11 @@ const MissionsModule = (function () {
         },
       },
 
-      "cards": [
-        {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "sótano",
-          "cont": '<span>Los sótanos del lugar son un lugar sin ventanas y húmero, solo alumbrado con candelabros que emiten una luz tenue y crepuscular. Esta lleno de jaulas cargadas de animales. Algunas de ellas se encuentran vacías, pero se puede observar que antes había habido un animal dentro. Otros animales están heridos, apenas pueden moverse y observan con lastima a las personas que posan sus miradas en ellos. Otros animales parecen más amigables, buscando ayuda a través de pequeños gimoteos. Existen un total de 10 jaulas con 16 animales dentro de los cuales 12 se encuentran heridos.</span>',
-        },
-        {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "hall",
-          "cont": '<span>El hall es un lugar amplio y oscuro, con paredes de piedra y techo alto. Hay una gran escalera que conduce al segundo piso. Las luces cuelan de la parte superior, iluminando débilmente el espacio. Al ingresar a la misma se encuentran con 2 guardias a los que deberán enfrentarse. A los "Guardias" deberán incluirlos como PNJ. Poseen 35PV y 3 de Fuerza y Constitución. Solo existen 13 guardias en el edificio.</span>',
-        },
-        {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "cocina",
-          "cont": '<span>La cocina es un lugar pequeño y acogedor, con una gran estufa en el centro. Hay varios recipientes y utensilios de cocina por todo el lugar. El olor a comida cocinada llena el aire. Al ingresar a la misma se encuentran con 7 guardias a los que deberán enfrentarse. A los "Guardias" deberán incluirlos como PNJ. Poseen 35PV y 3 de Fuerza y Constitución. Solo existen 13 guardias en el edificio.</span>',
-        },
-        {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "laboratorio",
-          "cont": '<span>El laboratorio es un lugar oscuro y lleno de instrumentos de investigación. Las paredes están cubiertas con fórmulas y diagramas complejos. El aire huele a químicos y experimentos. Al ingresar a la misma se encuentran con 1 guardia a los que deberán enfrentarse. A los "Guardias" deberán incluirlos como PNJ. Poseen 35PV y 3 de Fuerza y Constitución. Solo existen 13 guardias en el edificio.</span>',
-        },
-        {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "segundo piso",
-          "cont": '<span>El segundo piso es un lugar tranquilo y bien iluminado, con pasillos largos y habitaciones individuales. Las paredes están decoradas con cuadros y mobiliario elegante.</span>',
-        }
-      ],
+      "cards": [],
 
-      "searchs": {
-        "inspeccionar el lugar": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>La casa a simple vista, no parece gran cosa. Una casa de dos plantas, custodiada por un guardia que circula la misma y dos que están plantados en la entrada.</span>',
-        },
-        "posible entrada por la puerta principal": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "inspeccionar el lugar",
-          "cont": '<span>Una posible entrada, es ingresar por la puerta principal. Noquear a los dos guardias e ingresar al lugar por la puerta grande, aunque, implicaría levantar las alertas si no se hace con la velocidad necesaria. Una vez que el personaje inicie un camino, no podrá optar por otra opción.</span>',
-        },
-        "puerta principal": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "posible entrada por la puerta principal",
-          "cont": '<span>Al llegar a la puerta principal, deberán enfrentarse a dos "Guardias", deberán incluir a los mismos como PNJ. Poseen 35PV y 3 de Fuerza y Constitución. Al finalizar el duelo deberán solicitar intervención al staff.</span>',
-        },
-        "posible entrada por la ventana": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "inspeccionar el lugar",
-          "cont": '<span>Una posible entrada, es ingresar por la ventana del segundo piso. En el cobertizo detrás de la casa hay un par de escobas voladoras. Podrían robar unas y usarlas para acceder a la ventana. Una vez que el personaje inicie un camino, no podrá optar por otra opción.</span>',
-        },
-        "entrada por la ventana": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "posible entrada por la ventana",
-          "cont": '<span>Para poder ingresar por la ventana del segundo piso deberán usar contrabando para robar las escobas y luego vuelo para poder ingresar por la ventana. Todos los turnos tendrán que lanzar el dado "Tacite" para ver si son vistos por el guardia que patrulla los alrededores.</span>',
-        },
-        "posible entrada por las alcantarillas": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "seguridad", "name": "invalid", }, "place": "inspeccionar el lugar",
-          "cont": '<span>No muy lejos de donde están, puede notarse la boca de una alcantarilla, si se ignora el mal olor que emana de ella, es una posible entrada para ingresar con cautela. Una vez que el personaje inicie un camino, no podrá optar por otra opción.</span>',
-        },
-        "entrada por las alcantarillas": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "posible entrada por las alcantarillas",
-          "cont": '<span>Al ingresar por la alcantarilla, deberán utilizar lumos para iluminar el camino y poder llegar a destino.</span>',
-        },
-        "ingresar al hall": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "intervención hall",
-          "cont": '<span></span>',
-        },
-        "ingresar al segundo piso": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "intervención segundo piso",
-          "cont": '<span></span>',
-        },
-        "entreabrir la puerta al sótano": {
-          "visible": { "attr": { "sab": "3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "intervención sótano",
-          "cont": '<span>Tras abrir la puerta trampa del sótano, pueden observar unos pisos de madera y jaulas de animales llenas de perros de diferentes razas. Algunos heridos, otros asustados. Algunas de las jaulas se encuentran vacías. Existen dos guardias patrullando el área.</span>',
-        },
-        "escuchar los guardias": {
-          "visible": { "attr": { "sab": "3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "entreabrir la puerta al sótano",
-          "cont": '<span>Si se escucha con atención, pueden oír conversaciones entre los guardias sobre el estado de la comida. Parecen quejarse de que ese día no ha llegado a tiempo y que tienen hambre. E indican que les falta diez minutos para cortar en su hora de almuerzo.</span>',
-        },
-        "esperar diez minutos (primer turno)": {
-          "visible": { "attr": { "sab": "3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "escuchar los guardias",
-          "cont": '<span>Los personajes deberán esperar dos turnos a que los guardias suban a comer.</span>',
-        },
-        "esperar diez minutos (segundo turno)": {
-          "visible": { "attr": { "sab": "3" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "esperar diez minutos (primer turno)",
-          "cont": '<span>Si los personajes abren la puerta al sótano, podrán ingresar estando solos.</span>',
-        },
-        "abrir la puerta trampa tras la espera": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "esperar diez minutos (segundo turno)",
-          "cont": '<span>Al abrir la puerta trampa pueden validar que están solos. A partir de este momento, todos los personajes deberán lanzar "Tacite" para moverse en todos los turnos.<adding class="check-cards" search="sótano"></adding></span>',
-        },
-        "abrir la puerta al sótano": {
-          "visible": { "attr": { "sab": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "intervención sótano",
-          "cont": '<span>Tras abrir la puerta trampa del sótano, pueden observar unos pisos de madera y jaulas de animales llenas de perros de diferentes razas. Algunos heridos, otros asustados. Algunas de las jaulas se encuentran vacías. Al ingresar a la misma se encuentran con 2 guardias a los que deberán enfrentarse. A los "Guardias" deberán incluirlo como PNJ. Poseen 35PV y 3 de Fuerza y Constitución. Solo existen 13 guardias en el edificio.</span>',
-        },
-        "ir del hall a la cocina": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "hall",
-          "cont": '<span>Permite ir del hall a la cocina.<adding class="check-cards" search="cocina"></adding></span>',
-        },
-        "ir de la cocina al hall": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "cocina",
-          "cont": '<span>Permite ir de la cocina al hall.<adding class="check-cards" search="hall"></adding></span>',
-        },
-        "ir de la cocina al sótano": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "cocina",
-          "cont": '<span>Permite ir de la cocina al sótano.<adding class="check-cards" search="sótano"></adding></span>',
-        },
-        "ir del sótano a la cocina": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "sótano",
-          "cont": '<span>Permite ir del sótano a la cocina.<adding class="check-cards" search="cocina"></adding></span>',
-        },
-        "ir del hall al laboratorio": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "hall",
-          "cont": '<span>Permite ir del hall al laboratorio.<adding class="check-cards" search="laboratorio"></adding></span>',
-        },
-        "ir del laboratorio al hall": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "laboratorio",
-          "cont": '<span>Permite ir del laboratorio al hall.<adding class="check-cards" search="hall"></adding></span>',
-        },
-        "ir del laboratorio al segundo piso": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "laboratorio",
-          "cont": '<span>Permite ir del laboratorio al segundo piso.<adding class="check-cards" search="segundo piso"></adding></span>',
-        },
-        "ir del segundo piso al laboratorio": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "segundo piso",
-          "cont": '<span>Permite ir del segundo piso al laboratorio.<adding class="check-cards" search="laboratorio"></adding></span>',
-        },
-      },
+      "searchs": {},
 
-      "actions": {
-        "tacite": {
-          "leve": '<span>Los personajes son vistos por un guardia, deberán enfrentarse a un "Guardia" deberán incluirlo como PNJ. Posee 35PV y 3 de Fuerza y Constitución. Solo existen 13 guardias en el edificio.</span>',
-          "moderado": '<span>Los personajes son vistos por un guardia, deberán enfrentarse a un "Guardia" deberán incluirlo como PNJ. Posee 35PV y 3 de Fuerza y Constitución. Solo existen 13 guardias en el edificio.</span>',
-          "exitoso": '<span>Logran evitar ser vistos por un guardia.</span>',
-          "critico": '<span>Logran evitar ser vistos por un guardia.</span>',
-        },
-        "lumos": {
-          "leve": '<span>Alerta a un guardia de su presencia, deberán enfrentarse a un "Guardia" deberán incluirlo como PNJ. Posee 35PV y 3 de Fuerza y Constitución. Solo existen 13 guardias en el edificio.</span>',
-          "moderado": '<span>Adiciona +10 en el puntaje de avance. Para poder llegar a la entrada, deberán llegar a 200 puntos. Al finalizar el objetivo, deberán pedir intervención del staff.</span>',
-          "exitoso": '<span>Adiciona +15 en el puntaje de avance. Para poder llegar a la entrada, deberán llegar a 200 puntos. Al finalizar el objetivo, deberán pedir intervención del staff.</span>',
-          "critico": '<span>Adiciona +20 en el puntaje de avance. Para poder llegar a la entrada, deberán llegar a 200 puntos. Al finalizar el objetivo, deberán pedir intervención del staff.</span>',
-        },
-        "manus umbrarum": {
-          "leve": '<span>Alerta a un guardia de su presencia, deberán enfrentarse a un "Guardia" deberán incluirlo como PNJ. Posee 35PV y 3 de Fuerza y Constitución. Solo existen 13 guardias en el edificio.</span>',
-          "moderado": '<span>Permite robar una escoba.</span>',
-          "exitoso": '<span>Permite robar dos escobas.</span>',
-          "critico": '<span>Permite robar tres escobas.</span>',
-        },
-        "vuelo": {
-          "leve": '<span>Alerta a un guardia de su presencia, deberán enfrentarse a un "Guardia" deberán incluirlo como PNJ. Posee 35PV y 3 de Fuerza y Constitución. Solo existen 13 guardias en el edificio.</span>',
-          "moderado": '<span>Permite ascender hasta el segundo piso. Sin embargo el aterrizaje advierte a uno de los guardias. Deberán enfrentarse a un "Guardia" deberán incluirlo como PNJ. Posee 35PV y 3 de Fuerza y Constitución. Solo existen 13 guardias en el edificio.</span>',
-          "exitoso": '<span>Permite ascender hasta el segundo piso. Deberán solicitar intervención al staff.</span>',
-          "critico": '<span>Permite ascender hasta el segundo piso. Deberán solicitar intervención al staff.</span>',
-        },
-        "vuelo en velocidad": {
-          "leve": '<span>Alerta a un guardia de su presencia, deberán enfrentarse a un "Guardia" deberán incluirlo como PNJ. Posee 35PV y 3 de Fuerza y Constitución. Solo existen 13 guardias en el edificio.</span>',
-          "moderado": '<span>Permite ascender hasta el segundo piso. Deberán solicitar intervención al staff.</span>',
-          "exitoso": '<span>Permite ascender hasta el segundo piso. Deberán solicitar intervención al staff.</span>',
-          "critico": '<span>Permite ascender hasta el segundo piso. Deberán solicitar intervención al staff.</span>',
-        },
-        "alohomora": {
-          "leve": '<span>Permite abrir 1 jaula.</span>',
-          "moderado": '<span>Permite abrir 2 jaulas.</span>',
-          "exitoso": '<span>Permite abrir 3 jaulas.</span>',
-          "critico": '<span>Permite abrir 4 jaulas.</span>',
-        },
-        "portaberto": {
-          "leve": '<span>Alerta a un guardia de su presencia, deberán enfrentarse a un "Guardia" deberán incluirlo como PNJ. Posee 35PV y 3 de Fuerza y Constitución. Solo existen 13 guardias en el edificio.</span>',
-          "moderado": '<span>Alerta a un guardia de su presencia, deberán enfrentarse a un "Guardia" deberán incluirlo como PNJ. Posee 35PV y 3 de Fuerza y Constitución. Solo existen 13 guardias en el edificio.</span>',
-          "exitoso": '<span>Alerta a 2 guardias de su presencia, deberán enfrentarse a 2 "Guardias" deberán incluirlos como PNJ. Poseen 35PV y 3 de Fuerza y Constitución. Solo existen 13 guardias en el edificio.</span>',
-          "critico": '<span>Alerta a 2 guardias de su presencia, deberán enfrentarse a 2 "Guardias" deberán incluirlos como PNJ. Poseen 35PV y 3 de Fuerza y Constitución. Solo existen 13 guardias en el edificio.</span>',
-        },
-        "brackium emende": {
-          "leve": '<span>Permite curar 1 animal para que pueda moverse fuera del lugar.</span>',
-          "moderado": '<span>Permite curar 2 animales para que puedan moverse fuera del lugar.</span>',
-          "exitoso": '<span>Permite curar 3 animales para que puedan moverse fuera del lugar.</span>',
-          "critico": '<span>Permite curar 4 animales para que puedan moverse fuera del lugar.</span>',
-        },
-        "pellis sana": {
-          "leve": '<span>Permite curar 1 animal para que pueda moverse fuera del lugar.</span>',
-          "moderado": '<span>Permite curar 1 animal para que puedan moverse fuera del lugar.</span>',
-          "exitoso": '<span>Permite curar 2 animales para que puedan moverse fuera del lugar.</span>',
-          "critico": '<span>Permite curar 2 animales para que puedan moverse fuera del lugar.</span>',
-        },
-        "sensus mitigo": {
-          "leve": '<span>No es suficiente para revelar información.</span>',
-          "moderado": '<span>Permite calmar a los perros para que confíen en ellos y sigan sus instrucciones, liberando 1 animal de las jaulas.</span>',
-          "exitoso": '<span>Permite calmar a los perros para que confíen en ellos y sigan sus instrucciones, liberando 2 animales de las jaulas.</span>',
-          "critico": '<span>Permite calmar a los perros para que confíen en ellos y sigan sus instrucciones, liberando 3 animales de las jaulas.</span>',
-        },
-        "fermaportus": {
-          "leve": '<span>No es suficiente para revelar información.</span>',
-          "moderado": '<span>Solo podrá lanzarse una vez. Al realizar este hechizo, los personajes podrán evitar lanzar "Tacite" por 1 ronda.</span>',
-          "exitoso": '<span>Solo podrá lanzarse una vez. Al realizar este hechizo, los personajes podrán evitar lanzar "Tacite" por 2 rondas.</span>',
-          "critico": '<span>Solo podrá lanzarse una vez. Al realizar este hechizo, los personajes podrán evitar lanzar "Tacite" por 3 rondas.</span>',
-        },
-        "iteratio perfectum": {
-          "leve": '<span>No es suficiente para revelar información.</span>',
-          "moderado": '<span>Permite curar o liberar 1 animal adicional por cada hechizo de ccm lanzado.</span>',
-          "exitoso": '<span>Permite curar o liberar 2 animales adicionales por cada hechizo de ccm lanzado.</span>',
-          "critico": '<span>Permite curar o liberar 3 animales adicionales por cada hechizo de ccm lanzado.</span>',
-        },
-      },
+      "actions": {},
     },
     // a gentle hand
 
@@ -8157,57 +4431,7 @@ const MissionsModule = (function () {
 
       "cards": [],
 
-      "searchs": {
-        "leer 'tratado secreto sobre la herencia de los cambiaformas'": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>El libro de portada rojiza desgastada. Es un artículo tan viejo que su fecha de escritura se ha perdido con el tiempo. Ya no existen cambiaformas en el mundo, sino que han mutado a Animagos, optando por la forma de un único animal. Tampoco es una habilidad hereditaria, sino una que se realiza por ritual.</span>',
-        },
-
-        "leer capítulo iv de 'tratado secreto sobre la herencia de los cambiaformas'": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "leer 'tratado secreto sobre la herencia de los cambiaformas'",
-          "cont": '<span><span class="book-clipping">Se entiende por cambiaformas a los individuos, generalmente vinculados a linajes de magos y brujas, que poseen la singular facultad de alterar su apariencia corporal a voluntad adoptando la forma de cualquier animal. Esta aptitud no se consideraba fruto del aprendizaje común, sino de una herencia transmitida de generación en generación, como si se tratase de una propiedad sanguínea o un secreto de familia celosamente guardado. En muchas tradiciones, la primera manifestación de dicha habilidad ocurría en la juventud, al despertar las potencias ocultas del heredero.</span></span>',
-        },
-
-        "leer capítulo viii de 'tratado secreto sobre la herencia de los cambiaformas'": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "leer 'tratado secreto sobre la herencia de los cambiaformas'",
-          "cont": '<span><span class="book-clipping">Los ocultistas del siglo IX recogieron testimonios según los cuales la transmisión del don metamórfico exigía no sólo consanguinidad, sino también la iniciación ritual. Padres y madres instruían a sus descendientes en fórmulas y sellos arcanos que permitían orientar la transformación hacia determinada forma animal o humana. Así, cada estirpe de cambiaformas se distinguía por sus preferencias simbólicas: lobos, cuervos, serpientes o incluso figuras fantasmales. La práctica se preservaba en secreto, bajo amenaza de maldiciones contra quien revelase la tradición familiar.</span></span>',
-        },
-
-        "leer capítulo xi de 'tratado secreto sobre la herencia de los cambiaformas'": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "leer 'tratado secreto sobre la herencia de los cambiaformas'",
-          "cont": '<span><span class="book-clipping">Algunos médicos de inicios del siglo X interpretaron estas narraciones como metáforas heredadas de la histeria o de los trastornos de personalidad, pero lo cierto es que los relatos persistían con notable coherencia en ámbitos rurales y en círculos esotéricos urbanos. No era raro que sociedades ocultistas de Londres, París o Buenos Aires incluyeran entre sus miembros a descendientes autoproclamados de antiguas dinastías de cambiaformas, cuya sola presencia servía de aval para prácticas y ritos de transformación simbólica.</span></span>',
-        },
-
-        "leer capítulo xx de 'tratado secreto sobre la herencia de los cambiaformas'": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "leer 'tratado secreto sobre la herencia de los cambiaformas'",
-          "cont": '<span><span class="book-clipping">Desde un punto de vista antropológico, la idea de la herencia metamórfica en animales confirma la profunda relación entre sangre, memoria y poder mágico. La habilidad de cambiar de forma no era considerada un artificio individual, sino una obligación de linaje, un deber transmitido como las propiedades o los títulos. El cambiaformas, al alterar su aspecto, no sólo mostraba su maestría, sino que representaba a toda su genealogía, asegurando la continuidad del misterio a lo largo de los siglos.</span></span>',
-        },
-
-        "leer 'genealogías del lenguaje animal'": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>El libro de portada de cuero marrón, ha sido escrito hace al menos cien años, actualmente no hay copias del mismo, debido a que las personas dejaron de leerlos dado que fue una habilidad pérdida en el tiempo.</span>',
-        },
-
-        "leer capítulo i de 'genealogías del lenguaje animal'": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "leer 'genealogías del lenguaje animal'",
-          "cont": '<span><span class="book-clipping">Se denomina zoógrafos o parlantes de bestias a los individuos que, según la tradición, poseen desde el nacimiento la capacidad de comprender y hacerse entender por los animales. Esta facultad, considerada un don hereditario, no podía adquirirse mediante estudio ni imitación: era un patrimonio exclusivo de ciertas familias, cuya genealogía se hallaba marcada por la singular afinidad con el reino animal. El don se manifestaba con particular claridad en la infancia, cuando los herederos respondían a los sonidos de aves o mamíferos como si se tratase de un lenguaje común.</span></span>',
-        },
-
-        "leer capítulo ix de 'genealogías del lenguaje animal'": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "leer 'genealogías del lenguaje animal'",
-          "cont": '<span><span class="book-clipping">Los cronistas del siglo VIII y IX señalaban con asombro que los descendientes de estas estirpes lograban calmar caballos indómitos, atraer aves migratorias o persuadir a canes desconocidos. La transmisión del talento no dependía de instrucción ni de fórmulas secretas, sino de la pura consanguinidad. En consecuencia, la habilidad era considerada tan natural como el color de los ojos o la estatura, aunque revestida de un carácter profundamente misterioso.</span></span>',
-        },
-
-        "leer capítulo xi de 'genealogías del lenguaje animal'": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "leer 'genealogías del lenguaje animal'",
-          "cont": '<span><span class="book-clipping">En los registros médicos y veterinarios de finales del siglo VI se encuentran menciones marginales a familias campesinas capaces de prever el comportamiento de sus animales con precisión extraordinaria. Tales testimonios, si bien interpretados por algunos facultativos como simples coincidencias o intuición aguda, fueron tomados por los ocultistas de la época como prueba de la existencia de una sensibilidad heredada que trasciende la mera observación empírica.</span></span>',
-        },
-
-        "leer capítulo xv de 'genealogías del lenguaje animal'": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "leer 'genealogías del lenguaje animal'",
-          "cont": '<span><span class="book-clipping">Desde el punto de vista antropológico, el legado de los zoógrafos muestra una continuidad entre lo humano y lo animal que contrasta con la separación tajante promovida por la ciencia moderna. Para estas familias, el don no constituía un privilegio extraordinario, sino una forma natural de convivencia con la fauna circundante. La herencia de esta facultad aseguraba no sólo la supervivencia práctica, sino también un vínculo espiritual con el mundo viviente.</span></span>',
-        },
-      },
+      "searchs": {},
 
       "actions": {},
     },
@@ -8304,61 +4528,9 @@ const MissionsModule = (function () {
 
       "cards": [],
 
-      "searchs": {
-        "expediente x. parkinson": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "san mungo", "name": "invalid", }, "place": "",
-          "cont": '<span>Al abrir la carpeta, se pueden visualizar todos los pergaminos correspondientes a la prima de Shun Parkinson y madre de la criatura que se encuentrn en busqueda.</span>',
-        },
+      "searchs": {},
 
-        "análisis de pureza de sangre": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "expediente x. parkinson",
-          "cont": '<span><span class="book-clipping"><br><div align="center"><span style="font-size: 14px; line-height: normal"><strong>Hospital San Mungo de Magia y Enfermedades</strong></span></div><div align="center"><span style="font-size: 12px; line-height: normal">Informe de Análisis de Sangre y Linaje</span></div><br><hr><br><br><strong>Nombre del paciente:</strong> <i>X. Parkinson</i> &nbsp;<br><strong>Edad:</strong> <i>2 años</i> &nbsp;<br><strong>Fecha de la muestra:</strong> <i>25 de noviembre</i> &nbsp;<br><strong>Lugar de extracción:</strong> <i>Laboratorio de San Mungo</i> &nbsp;<br><br><hr><br><br><strong>Resultados del análisis:</strong> &nbsp;<br><i>La muestra ha sido sometida a encantamientos de revelación de linaje. &nbsp;<br>Se observa la siguiente clasificación:</i> &nbsp;<br><br>- <strong>Pureza sanguínea detectada:</strong> <i>99.99% Sangre Pura.</i> &nbsp;<br><br></span></span>',
-        },
-
-        "poción antigripal": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "expediente x. parkinson",
-          "cont": '<span>El siguiente resultado aparece apróximadamente dos veces al año. Salvo en 1937<br /><br /><span class="book-clipping"><br><div align="center"><span style="font-size: 14px; line-height: normal"><strong>Hospital San Mungo de Magia y Enfermedades</strong></span></div><div align="center"><span style="font-size: 12px; line-height: normal">Receta Médica</span></div><br><hr><br><br><strong>Paciente:</strong> <i>X. Parkinson</i> <br><strong>Edad:</strong> <i>19 años</i> <br><strong>Fecha de emisión:</strong> <i>3 de enero</i> <br><strong>Medimago tratante:</strong> <i>Suzana Kralj</i> <br><br><hr><br><br><strong>Poción prescrita:</strong> <i>Poción Antigripal de San Mungo</i> <br><br><strong>Ingredientes principales:</strong> <br>- Infusión de raíz de jengibre<br>- Hojas secas de eucalipto<br>- 3 gotas de esencia de mandrágora diluida <br>- Una pizca de polvo de cuerno de unicornio (grado médico) <br>- Melaza de escaramujo <br><br><strong>Indicaciones de preparación:</strong> <br>1. Hervir agua a fuego lento durante 7 minutos. <br>2. Añadir la raíz de jengibre y las hojas de eucalipto. <br>3. Incorporar la esencia de mandrágora y remover en sentido antihorario. <br>4. Agregar el polvo de cuerno de unicornio y dejar reposar 3 minutos. <br>5. Endulzar con melaza de escaramujo antes de consumir. <br><br><strong>Dosis recomendada:</strong> <br><i>Una cucharada sopera, tres veces al día durante 5 días. <br>No administrar a menores de 5 años sin supervisión de un medimago.</i> <br><br><hr><br><br><div align="right"><i>Emitido en Londres, a 3 de enero</i></div><br><br><div align="right"><i class="fi fi-tr-signature" style="font-size: 30px; margin-bottom: -25px; display: block; margin-right: 30px;"></i><br><strong>_______________________</strong><br><i>Firma y sello de San Mungo</i></div></span></span>',
-        },
-
-        "derivación a maternal": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "expediente x. parkinson",
-          "cont": '<span><span class="book-clipping"><br><div align="center"><span style="font-size: 14px; line-height: normal"><strong>Hospital San Mungo de Magia y Enfermedades</strong></span></div><div align="center"><span style="font-size: 12px; line-height: normal">Derivación a Sala Maternal</span></div><br><hr><br><br><strong>Nombre de la paciente:</strong> <i>X. Parkinson</i><br><strong>Edad:</strong> <i>Desconocida.</i><br><strong>Fecha de emisión:</strong> <i>29 de Noviembre de 1936</i> <br><strong>Medimago remitente:</strong> <i>Jozefa Koren</i><br><br><hr><br><br><strong>Motivo de la derivación:</strong> <br><i>La paciente presenta signos correspondientes a etapa avanzada de gestación. <br>Se recomienda ingreso en la Sala Maternal para control y seguimiento especializado.</i> <br><br><hr><br><br><strong>Instrucciones adicionales:</strong> <br>- Monitoreo regular de constantes vitales. <br>- Evaluación con encantamientos preventivos. <br>- Preparar historial médico para el área de partos. <br><br><hr><br><br><div align="right"><i>Se autoriza el traslado inmediato a la Sala Maternal.</i></div><br><br><div align="right"><i class="fi fi-tr-signature" style="font-size: 30px; margin-bottom: -25px; display: block; margin-right: 30px;"></i><br /><strong>_______________________</strong> <br><i>Firma y sello de San Mungo</i></div></span></span>',
-        },
-
-        "hoja del diario": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "shun", }, "place": "",
-          "cont": '<span><span class="notebook">No puedo hablar de esto, pero quería ver como se veían escritos:<br><br>Ascanius Parkinson<br>Aeneas Parkinson<br>Ilus Parkinson<br>Evander Parkinson<br>Turnus Parkinson</span></span>',
-        },
-
-        "certificado de nacimiento 'ascacius heally'": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "shun", }, "place": "hoja del diario",
-          "cont": '<span><span class="book-clipping"> <div align="center"><span style="font-size: 14px; line-height: normal"><strong>Hospital San Mungo de Magia y Enfermedades</strong></span></div> <div align="center"><span style="font-size: 12px; line-height: normal">Certificado de Nacimiento</span></div><br><hr><br><br><strong>Nombre completo del recién nacido:</strong> <i>Ascacius Heally</i><br><strong>Fecha de nacimiento:</strong> <i>15 de noviembre de 1936</i><br><strong>Lugar de nacimiento:</strong> <i>Sala de Maternidad, San Mungo</i><br><strong>Nombre del padre:</strong> <i>Cormac Heally</i><br><strong>Nombre de la madre:</strong> <i>Maeve O’Rourke</i><br><strong>Linaje mágico:</strong> <i>Sangre pura</i><br><br><hr><br><br><strong>Hechicero/a responsable del alumbramiento:</strong> <i>Medimaga Euphemia Strout</i><br><strong>Observaciones médicas:</strong> <i>El recién nacido presenta vitalidad notable. Se aconseja seguimiento por antecedentes familiares de asma mágica.</i><br><br><hr><br><br><div align="right"><i>En fe de lo cual, se expide el presente certificado<br>en Londres, a 16 de noviembre de 1936.</i></div><br><div align="right"><i class="fi fi-tr-signature" style="font-size: 30px; margin-bottom: -25px; display: block; margin-right: 30px;"></i><br><strong>_______________________</strong><br><i>Firma y sello de San Mungo</i></div></span></span>',
-        },
-
-        "certificado de nacimiento 'aeneas maher'": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "shun", }, "place": "hoja del diario",
-          "cont": '<span><span class="book-clipping"> <div align="center"><span style="font-size: 14px; line-height: normal"><strong>Hospital San Mungo de Magia y Enfermedades</strong></span></div> <div align="center"><span style="font-size: 12px; line-height: normal">Certificado de Nacimiento</span></div><br><hr><br><br><strong>Nombre completo del recién nacido:</strong> <i>Aeneas Maher</i><br><strong>Fecha de nacimiento:</strong> <i>7 de enero de 1937</i><br><strong>Lugar de nacimiento:</strong> <i>Sala de Maternidad, San Mungo</i><br><strong>Nombre del padre:</strong> <i>Donnacha Maher</i><br><strong>Nombre de la madre:</strong> <i>Brigid Walsh</i><br><strong>Linaje mágico:</strong> <i>Mestizo</i><br><br><hr><br><br><strong>Hechicero/a responsable del alumbramiento:</strong> <i>Medimaga Euphemia Strout</i><br><strong>Observaciones médicas:</strong> <i>Ligeramente bajo de peso al nacer, evolución favorable. Se recomienda poción fortificante mensual.</i><br><br><hr><br><br><div align="right"><i>En fe de lo cual, se expide el presente certificado<br>en Londres, a 8 de enero de 1937.</i></div><br><div align="right"><i class="fi fi-tr-signature" style="font-size: 30px; margin-bottom: -25px; display: block; margin-right: 30px;"></i><br><strong>_______________________</strong><br><i>Firma y sello de San Mungo</i></div></span></span>',
-        },
-
-        "certificado de nacimiento 'ilus dwyer'": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "shun", }, "place": "hoja del diario",
-          "cont": '<span><span class="book-clipping"> <div align="center"><span style="font-size: 14px; line-height: normal"><strong>Hospital San Mungo de Magia y Enfermedades</strong></span></div> <div align="center"><span style="font-size: 12px; line-height: normal">Certificado de Nacimiento</span></div><br><hr><br><br><strong>Nombre completo del recién nacido:</strong> <i>Ilus Dwyer</i><br><strong>Fecha de nacimiento:</strong> <i>22 de octubre de 1937</i><br><strong>Lugar de nacimiento:</strong> <i>Sala de Maternidad, San Mungo</i><br><strong>Nombre del padre:</strong> <i>Eoghan Dwyer</i><br><strong>Nombre de la madre:</strong> <i>Sorcha Kavanagh</i><br><strong>Linaje mágico:</strong> <i>Sangre pura</i><br><br><hr><br><br><strong>Hechicero/a responsable del alumbramiento:</strong> <i>Medimaga Euphemia Strout</i><br><strong>Observaciones médicas:</strong> <i>Sin incidencias destacables. Se recomienda vigilancia por historial familiar de hipersensibilidad a encantamientos de luz.</i><br><br><hr><br><br><div align="right"><i>En fe de lo cual, se expide el presente certificado<br>en Londres, a 23 de octubre de 1937.</i></div><br><div align="right"><i class="fi fi-tr-signature" style="font-size: 30px; margin-bottom: -25px; display: block; margin-right: 30px;"></i><br><strong>_______________________</strong><br><i>Firma y sello de San Mungo</i></div></span></span>',
-        },
-
-        "certificado de nacimiento 'turnus sheridan'": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "shun", }, "place": "hoja del diario",
-          "cont": '<span><span class="book-clipping"> <div align="center"><span style="font-size: 14px; line-height: normal"><strong>Hospital San Mungo de Magia y Enfermedades</strong></span></div> <div align="center"><span style="font-size: 12px; line-height: normal">Certificado de Nacimiento</span></div><br><hr><br><br><strong>Nombre completo del recién nacido:</strong> <i>Turnus Sheridan</i><br><strong>Fecha de nacimiento:</strong> <i>3 de marzo de 1938</i><br><strong>Lugar de nacimiento:</strong> <i>Sala de Maternidad, San Mungo</i><br><strong>Nombre del padre:</strong> <i>Malachy Sheridan</i><br><strong>Nombre de la madre:</strong> <i>Róisín Byrne</i><br><strong>Linaje mágico:</strong> <i>Mestizo</i><br><br><hr><br><br><strong>Hechicero/a responsable del alumbramiento:</strong> <i>Medimaga Euphemia Strout</i><br><strong>Observaciones médicas:</strong> <i>El recién nacido responde bien a estímulos mágicos básicos. Se recomienda evaluación de reflejos en 6 meses.</i><br><br><hr><br><br><div align="right"><i>En fe de lo cual, se expide el presente certificado<br>en Londres, a 4 de marzo de 1938.</i></div><br><div align="right"><i class="fi fi-tr-signature" style="font-size: 30px; margin-bottom: -25px; display: block; margin-right: 30px;"></i><br><strong>_______________________</strong><br><i>Firma y sello de San Mungo</i></div></span></span>',
-        },
-
-        "certificado de nacimiento 'turnus mooney'": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "shun", }, "place": "hoja del diario",
-          "cont": '<span><span class="book-clipping"> <div align="center"><span style="font-size: 14px; line-height: normal"><strong>Hospital San Mungo de Magia y Enfermedades</strong></span></div> <div align="center"><span style="font-size: 12px; line-height: normal">Certificado de Nacimiento</span></div><br><hr><br><br><strong>Nombre completo del recién nacido:</strong> <i>Turnus Mooney</i><br><strong>Fecha de nacimiento:</strong> <i>29 de septiembre de 1938</i><br><strong>Lugar de nacimiento:</strong> <i>Sala de Maternidad, San Mungo</i><br><strong>Nombre del padre:</strong> <i>Padraig Mooney</i><br><strong>Nombre de la madre:</strong> <i>Deirdre Malley</i><br><strong>Linaje mágico:</strong> <i>Sangre pura</i><br><br><hr><br><br><strong>Hechicero/a responsable del alumbramiento:</strong> <i>Medimaga Euphemia Strout</i><br><strong>Observaciones médicas:</strong> <i>El niño goza de excelente salud. Se recomienda control rutinario anual.</i><br><br><hr><br><br><div align="right"><i>En fe de lo cual, se expide el presente certificado<br>en Londres, a 30 de septiembre de 1938.</i></div><br><div align="right"><i class="fi fi-tr-signature" style="font-size: 30px; margin-bottom: -25px; display: block; margin-right: 30px;"></i><br><strong>_______________________</strong><br><i>Firma y sello de San Mungo</i></div></span></span>',
-        },
-
-      },
-
-      "actions": {
-      },
+      "actions": {},
     },
     // fin operation birth ledger
 
@@ -8370,120 +4542,9 @@ const MissionsModule = (function () {
       "dependency": ["operation birth ledger"],
       "type": "investigación", "closed": true, "fecha": "1952-12-17", "link": "https://blackwave.foroactivo.com/t753-investigacion-enrolled-origins", "tagged": ["original"],
 
-      "cards": [
-        {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "descubrir despacho del director",
-          "cont": '<span>Era de común conocimiento para los empleados del castillo que Dippet desconfiaba de los elfos domésticos y, por dicha razón, había prohibido el ingreso a su despacho. Aunque, él no era lo suficientemente ordenado para que no se notara aquella decisión.</span>',
-        },
-        {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "lista de estudiantes de primer año",
-          "cont": '<span>El profesor puede notar que hay algo raro en el registro dado que Findlay McCrory debería aparecer como "sangre muggle", aunque siempre puede ser un mal entendimiento.</span>',
-        }
+      "cards": [],
 
-      ],
-
-      "searchs": {
-        "abrir despacho del director": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "",
-          "cont": '<span>Al ingresar a la estatua del grifo, cualquier profesor puede presentar la contraseña adecuada para que la misma abra. En ese caso, al pronunciar "Pluma ligera", la estatua comienza a girar revelando la escalera que asciende hasta el despacho del director.</span>',
-        },
-
-        "descubrir despacho del director": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir despacho del director",
-          "cont": '<span>El despacho del Director Dippet no era lo que se esperaría de un jefe de escuela: el trabajo y las ideas habían claramente tomado la delantera sobre la pulcritud. Los llamativos detalles azules y plateados de la casa de Ravenclaw quedaban relegados a un segundo plano ante el desorden, con pilas de ejemplares de El Profeta esparcidos por doquier, listos para ser releídos cuando el Director necesitaba un poco de perspectiva.</span>',
-        },
-
-        "investigar escritorio": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "descubrir despacho del director",
-          "cont": '<span>En el escritorio pueden observarse varios libros de liderazgo, biografías de antiguos Ministros de Magia y un sinfín de tazas de té, algunas a medio tomar, que habían quedado como demostración de un trabajo en solidario—. <strong>No deberías husmear donde no los han llamado</strong> —advierte el retrato de un director, reclamando orden a quienes considera intrusos.</span>',
-        },
-
-        "subir las escaleras": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "descubrir despacho del director",
-          "cont": '<span>Los profesores conocen que el archivo de todos los estudiantes se encuentra en lo que muchos llaman "El Ático", aunque en realidad se trata del segundo nivel del despacho del director. Un espacio que cuenta con una biblioteca privada y un registro de todos los estudiantes y empleados que habían pasado por el establecimiento.</span>',
-        },
-
-        "abrir archivos": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "subir las escaleras",
-          "cont": '<span>Existen dos archivos importantes, dos muebles de caoba que guardan toda la información necesaria. <br><br>El primer mueble contiene cuatro diales que permiten seleccionar los números del cero a nueve hasta que se marca la fecha deseaba. Luego basta mover la manija para que se revelen los archivos correspondientes del año. Dicho mueble es llamado "El Cronario", dado que muestra por año el registro de estudiantes y profesores, además de empleados del ciclo lectivo. <br><br>El segundo mueble, contiene un dial oculto que permite seleccionar una letra a la vez, permitiendo buscar la información por apellido. A dicho mueble se lo conoce como "El Lexicón", dado que permite buscar por apellido todos los documentos que existen bajo esa primera letra.</span>',
-        },
-
-        "buscar en el cronario los registros de 1948": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "abrir archivos",
-          "cont": '<span>Cuando en los cuatro diales se colan los numeros 1-9-4-8, fecha en la que se dedució que el niño ingresó a Hogwarts, y mover la manija, se pueden observar todos los registros de la fecha, en particular, aquellos estudiantes que ingresaron a primer año ese mismo año.</span>',
-        },
-
-        "lista de estudiantes de primer año": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "buscar en el cronario los registros de 1948",
-          "cont": '<span>La lista de estudiantes de primer año, muestra la siguiente información. <br><span class="book-clipping"><div align="center"><span style="font-size: 14px; line-height: normal"><strong>Ingresos de 1948</strong></span></div><br>— Alistair MacLeod (sangre pura): Gryffindor<br>— Bronwyn Pritchard (sangre pura): Gryffindor<br>— Damien A. Ashford-Dempsey (sangre mestiza): Ravenclaw<br>— Davies Driscoll (sangre muggle): Hufflepuff<br>— Findlay McCrory (sangre mestiza): Ravenclaw<br>— Gwendolyn Hughes (sangre mestiza): Hufflepuff<br>— Kieran Brennan (sangre mestiza): Slytherin<br>— Lachlan Kerr (sangre pura): Slytherin<br>— Montgomery Thatch (hijo de duendes): Hufflepuff<br>— Penelope Fairfax (sangre mestiza): Ravenclaw<br></span></span>',
-        },
-
-        "ingresar la letra 'd' en el lexicón": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "lista de estudiantes de primer año",
-          "cont": '<span>Al ingresar la letra "D", pueden buscar dentro de los archivos, el expediente de "Davies Driscoll".</span>',
-        },
-
-        "expediente de davies driscoll": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ingresar la letra 'd' en el lexicón",
-          "cont": '<span>Dentro del expediente se encuentra el siguiente documento:<br><br><span class="book-clipping"><br><div align="center"><span style="font-size: 14px; line-height: normal"><strong>AUTORIZACIÓN ANUAL DE TUTORES PARA ESTUDIANTES MENORES DE EDAD</strong></span></div><div align="center"><span style="font-size: 12px; line-height: normal">Colegio Hogwarts de Magia y Hechicería</span></div><br>Yo, Maeve Driscoll, por la presente, autorizo al alumno Davies Driscoll a: <br><br>1. Participar en todas las asignaturas obligatorias y optativas del plan de estudios de Hogwarts, incluyendo aquellas que involucren transformaciones, pociones, y el manejo de criaturas mágicas.<br>2. Utilizar equipos mágicos y de vuelo (incluyendo escobas) bajo la supervisión de un profesor o miembro del personal autorizado.<br>3. Permitir el uso de la Red Flu o el Traslador, solo para traslados de emergencia autorizados por la Dirección.<br><br><u>OBSERVACIONES IMPORTANTES</u>:<br>— El Colegio Hogwarts de Magia y Hechicería no se responsabiliza por la pérdida o daño de bienes personales, varitas o mascotas.<br>— El uso de magia fuera del colegio por parte de menores es una violación del Estatuto Internacional del Secreto y será investigado por el Ministerio.<br><br><strong>Firma del Padre/Madre/Tutor</strong>: <i class="fi fi-tr-signature" style="font-size: 30px; margin-bottom: -25px; display: block; margin-right: 30px;"></i><br>_________________________<br><br><strong>Relación con el Estudiante</strong>: Madre<br><strong>Fecha</strong>: 13 de Mayo de 1948.<br></span></span>',
-        },
-
-        "ingresar la letra 'm' en el lexicón": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "lista de estudiantes de primer año",
-          "cont": '<span>Al ingresar la letra "M", pueden buscar dentro de los archivos, el expediente de "Findlay McCrory".</span>',
-        },
-
-        "expediente de findlay mccrory": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ingresar la letra 'm' en el lexicón",
-          "cont": '<span>Dentro del expediente se encuentran los siguientes documentos:</span>',
-        },
-
-        "autorización de findlay mccrory": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "expediente de findlay mccrory",
-          "cont": '<span><span class="book-clipping"><br><div align="center"><span style="font-size: 14px; line-height: normal"><strong>AUTORIZACIÓN ANUAL DE TUTORES PARA ESTUDIANTES MENORES DE EDAD</strong></span></div><div align="center"><span style="font-size: 12px; line-height: normal">Colegio Hogwarts de Magia y Hechicería</span></div><br><hr><br><br>Yo, Bruce McCrory Sr, por la presente, autorizo al alumno Aeneas Findlay McCrory a:<br><br>1. &nbsp;Participar en todas las asignaturas obligatorias y optativas del plan de estudios de Hogwarts, incluyendo aquellas que involucren transformaciones, pociones, y el manejo de criaturas mágicas.<br>2. &nbsp;Utilizar equipos mágicos y de vuelo (incluyendo escobas) bajo la supervisión de un profesor o miembro del personal autorizado.<br>3. &nbsp;Permitir el uso de la Red Flu o el Traslador, solo para traslados de emergencia autorizados por la Dirección.<br><br><u>OBSERVACIONES IMPORTANTES</u>:<br>— El Colegio Hogwarts de Magia y Hechicería no se responsabiliza por la pérdida o daño de bienes personales, varitas o mascotas.<br>— El uso de magia fuera del colegio por parte de menores es una violación del Estatuto Internacional del Secreto y será investigado por el Ministerio.<br><br><strong>Firma del Padre/Madre/Tutor</strong>: <i class="fi fi-tr-signature" style="font-size: 30px; margin-bottom: -25px; display: block; margin-right: 30px;"></i><br>_________________________<br><strong>Relación con el Estudiante</strong>: Abuelo<br><strong>Fecha</strong>: 30 de Mayo de 1948<br></span></span>',
-        },
-
-        "analisis de paternidad": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "expediente de findlay mccrory",
-          "cont": '<span><span class="book-clipping"><br><div align="center"><span style="font-size: 14px; line-height: normal"><strong>SERVICIO NACIONAL DE SALUD (NHS) ESCOCIA</strong></span></div><div align="center"><span style="font-size: 12px; line-height: normal">DEPARTAMENTO DE PATOLOGÍA E INVESTIGACIÓN</span></div><br><strong>INFORME DE PRUEBA DE PATERNIDAD POR ANÁLISIS DE ADN</strong><br>REFERENCIA DE LABORATORIO: QEUH-PT-1939-0482<br>FECHA DE TOMA DE MUESTRAS: 15/09/1939<br>FECHA DE EMISIÓN DEL INFORME: 22/09/1939<br><br><strong>SUJETOS ANALIZADOS (MUESTRAS ORALES)</strong>:<br>1. Presunto Padre (PP): Bruce McCrory Jr | Identificador Único: NHS-645321<br>2. Niño (N): Aeneas Findlay McCrory | Identificador Único: NHS-789012<br>3. Madre (M): No localizable<br><br><strong>METODOLOGÍA DE ANÁLISIS</strong>:<br>El análisis fue realizado mediante la técnica de Reacción en Cadena de la Polimerasa (PCR) para amplificar y evaluar 16 Marcadores de Repeticiones Cortas en Tándem (STR) del ADN nuclear. La prueba compara el perfil genético del niño con el del presunto padre para determinar la coincidencia de alelos heredados.<br><br><strong>RESULTADOS DEL ANÁLISIS DE MARCADORES (STR)</strong>:<br>| Marcador (Locus) | Alelos del Niño | Alelos del Presunto Padre (PP) | Conclusión |<br>| :---: | :---: | :---: | :---: |<br>| D3S1358 | 15, 17 | 17, 18 | Coincidencia ( 17 ) |<br>| vWA | 16, 19 | 16, 20 | Coincidencia ( 16 ) |<br>| FGA | 22, 23 | 23, 25 | Coincidencia ( 23 ) |<br>| D8S1179 | 11, 14 | 14, 15 | Coincidencia ( 14 ) |<br>| TPOX | 8, 9 | 8, 11 | Coincidencia ( 8 ) |<br>| *(...Marcadores Adicionales...)* | *...* | *...* | Coincidencia |<br><br><strong>CÁLCULO DE PROBABILIDAD Y CONCLUSIÓN</strong>:<br>Índice de Paternidad Combinado (CPI): 5,684,103,921<br>Probabilidad de Paternidad: 99.99999%<br><br><strong>CONCLUSIÓN FINAL</strong>:<br>Basándose en el análisis de los 16 marcadores genéticos STR, el presunto padre, Bruce McCrory Jr, NO PUEDE SER EXCLUIDO como el padre biológico del niño, Findlay McCrory.<br><br>La Probabilidad de Paternidad es del 99.99999% en comparación con un hombre no relacionado de la misma población étnica.<br><br>Firma: <i class="fi fi-tr-signature" style="font-size: 30px; margin-bottom: -25px; display: block; margin-right: 30px;"></i><br>_________________________<br>Nombre y Título: Dr. Iain Murray, Director de Genética Forense.<br></span></span>',
-        },
-
-        "certificado de nacimiento de bruce mccrory jr": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "expediente de findlay mccrory",
-          "cont": '<span><span class="book-clipping"><br><div align="center"><span style="font-size: 14px; line-height: normal"><strong>Queen Elizabeth University Hospital</strong></span></div><div align="center"><span style="font-size: 12px; line-height: normal">Certificado de Nacimiento</span></div><br><hr><br><br><strong>Nombre completo del recién nacido:</strong> Bruce McCrory Junior<br><strong>Fecha de nacimiento:</strong> <i>25 de marzo de 1913</i><br><strong>Lugar de nacimiento:</strong> <i>Sala de Maternidad, Queen Elizabeth University Hospital, Glasgow</i><br><strong>Nombre del padre:</strong> Bruce McCrory<br><strong>Nombre de la madre:</strong> Amelia Findlay<br><br><hr><br><br>Se confirma mediante la presente que Bruce McCrory Junior nació a las 12:24 del día veinticinco de marzo de mil nueve trece, sin problemas notables de salud.<br><br><div align="right"><i class="fi fi-tr-signature" style="font-size: 30px; margin-bottom: -25px; display: block; margin-right: 30px;"></i><br><strong>_______________________</strong><br><i>Firma y sello de Queen Elizabeth University Hospital</i></div></span></span>',
-        },
-
-        "ingresar la letra 'h' en el lexicón": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "lista de estudiantes de primer año",
-          "cont": '<span>Al ingresar la letra "H", pueden buscar dentro de los archivos, el expediente de "Gwendolyn Hughes".</span>',
-        },
-
-        "expediente de gwendolyn hughes": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ingresar la letra 'h' en el lexicón",
-          "cont": '<span>Dentro del expediente se encuentra el siguiente documento:<br><br><span class="book-clipping"><br><div align="center"><span style="font-size: 14px; line-height: normal"><strong>AUTORIZACIÓN ANUAL DE TUTORES PARA ESTUDIANTES MENORES DE EDAD</strong></span></div><div align="center"><span style="font-size: 12px; line-height: normal">Colegio Hogwarts de Magia y Hechicería</span></div><br>Yo, Rhiannon Hughes, por la presente, autorizo al alumno Gwendolyn Hughes a: <br><br>1. Participar en todas las asignaturas obligatorias y optativas del plan de estudios de Hogwarts, incluyendo aquellas que involucren transformaciones, pociones, y el manejo de criaturas mágicas.<br>2. Utilizar equipos mágicos y de vuelo (incluyendo escobas) bajo la supervisión de un profesor o miembro del personal autorizado.<br>3. Permitir el uso de la Red Flu o el Traslador, solo para traslados de emergencia autorizados por la Dirección.<br><br><u>OBSERVACIONES IMPORTANTES</u>:<br>— El Colegio Hogwarts de Magia y Hechicería no se responsabiliza por la pérdida o daño de bienes personales, varitas o mascotas.<br>— El uso de magia fuera del colegio por parte de menores es una violación del Estatuto Internacional del Secreto y será investigado por el Ministerio.<br><br><strong>Firma del Padre/Madre/Tutor</strong>: <i class="fi fi-tr-signature" style="font-size: 30px; margin-bottom: -25px; display: block; margin-right: 30px;"></i><br>_________________________<br><br><strong>Relación con el Estudiante</strong>: Madre<br><strong>Fecha</strong>: 24 de Mayo de 1948.<br></span></span>',
-        },
-
-        "ingresar la letra 'b' en el lexicón": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "lista de estudiantes de primer año",
-          "cont": '<span>Al ingresar la letra "B", pueden buscar dentro de los archivos, el expediente de "Kieran Brennan".</span>',
-        },
-
-        "expediente de kieran brennan": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ingresar la letra 'b' en el lexicón",
-          "cont": '<span>Dentro del expediente se encuentra el siguiente documento:<br><br><span class="book-clipping"><br><div align="center"><span style="font-size: 14px; line-height: normal"><strong>AUTORIZACIÓN ANUAL DE TUTORES PARA ESTUDIANTES MENORES DE EDAD</strong></span></div><div align="center"><span style="font-size: 12px; line-height: normal">Colegio Hogwarts de Magia y Hechicería</span></div><br>Yo, Gareth Brennan, por la presente, autorizo al alumno Kieran Brennan a: <br><br>1. Participar en todas las asignaturas obligatorias y optativas del plan de estudios de Hogwarts, incluyendo aquellas que involucren transformaciones, pociones, y el manejo de criaturas mágicas.<br>2. Utilizar equipos mágicos y de vuelo (incluyendo escobas) bajo la supervisión de un profesor o miembro del personal autorizado.<br>3. Permitir el uso de la Red Flu o el Traslador, solo para traslados de emergencia autorizados por la Dirección.<br><br><u>OBSERVACIONES IMPORTANTES</u>:<br>— El Colegio Hogwarts de Magia y Hechicería no se responsabiliza por la pérdida o daño de bienes personales, varitas o mascotas.<br>— El uso de magia fuera del colegio por parte de menores es una violación del Estatuto Internacional del Secreto y será investigado por el Ministerio.<br><br><strong>Firma del Padre/Madre/Tutor</strong>: <i class="fi fi-tr-signature" style="font-size: 30px; margin-bottom: -25px; display: block; margin-right: 30px;"></i><br>_________________________<br><br><strong>Relación con el Estudiante</strong>: Padre<br><strong>Fecha</strong>: 03 de Mayo de 1948.<br></span></span>',
-        },
-
-        "ingresar la letra 'f' en el lexicón": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "lista de estudiantes de primer año",
-          "cont": '<span>Al ingresar la letra "F", pueden buscar dentro de los archivos, el expediente de "Penelope Fairfax".</span>',
-        },
-
-        "expediente de penelope fairfax": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "ingresar la letra 'f' en el lexicón",
-          "cont": '<span>Dentro del expediente se encuentra el siguiente documento:<br><br><span class="book-clipping"><br><div align="center"><span style="font-size: 14px; line-height: normal"><strong>AUTORIZACIÓN ANUAL DE TUTORES PARA ESTUDIANTES MENORES DE EDAD</strong></span></div><div align="center"><span style="font-size: 12px; line-height: normal">Colegio Hogwarts de Magia y Hechicería</span></div><br>Yo, Eleanor Fairfax, por la presente, autorizo al alumno Penelope Fairfax a: <br><br>1. Participar en todas las asignaturas obligatorias y optativas del plan de estudios de Hogwarts, incluyendo aquellas que involucren transformaciones, pociones, y el manejo de criaturas mágicas.<br>2. Utilizar equipos mágicos y de vuelo (incluyendo escobas) bajo la supervisión de un profesor o miembro del personal autorizado.<br>3. Permitir el uso de la Red Flu o el Traslador, solo para traslados de emergencia autorizados por la Dirección.<br><br><u>OBSERVACIONES IMPORTANTES</u>:<br>— El Colegio Hogwarts de Magia y Hechicería no se responsabiliza por la pérdida o daño de bienes personales, varitas o mascotas.<br>— El uso de magia fuera del colegio por parte de menores es una violación del Estatuto Internacional del Secreto y será investigado por el Ministerio.<br><br><strong>Firma del Padre/Madre/Tutor</strong>: <i class="fi fi-tr-signature" style="font-size: 30px; margin-bottom: -25px; display: block; margin-right: 30px;"></i><br>_________________________<br><br><strong>Relación con el Estudiante</strong>: Madre<br><strong>Fecha</strong>: 15 de Junio de 1948.<br></span></span>',
-        },
-
-      },
+      "searchs": {},
       "actions": {},
     },
     // fin enrolled origins
@@ -9926,25 +5987,12 @@ const MissionsModule = (function () {
       "type": "quidditch", "closed": true, "fecha": "", "link": "", "tagged": ["quidditch"],
 
       "cards": [
-        {
-          "visible": { "attr": { "val": "min" }, "know": { "liderazgo": "10" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>Para poder calmar el pánico colectivo y su penalidad, se deberá tirar un <i>vox imperium</i>. La prioridad la tendrá la primera intervención del <u>profesor</u>.</span>',
-        },
-        {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "",
-          "cont": '<span>Se debrán realizar las siguientes pociones teniendo en cuenta los siguientes resultados: Poción Calmante (terminarla finaliza en 15 frascos); Poción Herbovitalizante (terminarla finaliza en 15 frascos); Poción para las heridas (terminarla finaliza en 20 frascos); y Poción para la tos (terminarla finaliza en 20 fracos).</span>',
-        }
+        {"visible":{"attr":{"val":"min"},"know":{"liderazgo":"10"},"job":"invalid","name":"invalid"},"place":"","cont":"<span>Para poder calmar el pánico colectivo y su penalidad, se deberá tirar un <i>vox imperium</i>. La prioridad la tendrá la primera intervención del <u>profesor</u>.</span>"},
+        {"visible":{"attr":{"int":"1"},"know":{"val":"min"},"job":"invalid","name":"invalid"},"place":"","cont":"<span>Se debrán realizar las siguientes pociones teniendo en cuenta los siguientes resultados: Poción Calmante (terminarla finaliza en 15 frascos); Poción Herbovitalizante (terminarla finaliza en 15 frascos); Poción para las heridas (terminarla finaliza en 20 frascos); y Poción para la tos (terminarla finaliza en 20 fracos).</span>"},
       ],
       "searchs": {},
 
-      "actions": {
-        "vox imperium": {
-          "leve": '<span>Las penalidades se reduce a 2 puntos.</span>',
-          "moderado": '<span>Las penalidades se reduce a 2 puntos.</span>',
-          "exitoso": '<span>La penalidad se reduce a 0 puntos.</span>',
-          "critico": '<span>La penalidad se reduce a 0 puntos.</span>',
-        },
-      },
+      "actions": {},
     },
     // under: recuperación
 
@@ -11072,37 +7120,7 @@ const MissionsModule = (function () {
 
       "cards": [],
 
-      "searchs": {
-        "revelar boggart en el armario": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "profesor", "name": "invalid", }, "place": "",
-          "cont": '<span>Revela por personaje el boggar que visualizan.</span>',
-        },
-
-        "boggart raven": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "raven", }, "place": "revelar boggart en el armario",
-          "cont": '<span>El armario tambalea y cuando el boggart sale de la puerta, lo hace en forma de ola gigante. El agua es verdosa oscura, como las partes más oscuras del océano en un día de tormenta.</span>',
-        },
-
-        "boggart iarlaith": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "iarlaith", }, "place": "revelar boggart en el armario",
-          "cont": '<span>Del armario sale un familiar de Iarlaith, puede elegir cual. Tras un momento de confusión, la pira se arma a los pies del mismo: los leños prendidos, las brasas ardientes y, finalmente, el fuego. Los gritos comienzan segundos después.</span>',
-        },
-
-        "boggart findlay": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "findlay", }, "place": "revelar boggart en el armario",
-          "cont": '<span>El armario tambalea y cuando el boggart sale de la puerta nada aparece, hasta que desde el techo parece que hay un cuerpo cayendo. Tiene el uniforme militar de la fuerza área muggle. Cae lentamente, pero todos pueden ver que la caída será letal.</span>',
-        },
-
-        "boggart minerva": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "minerva", }, "place": "revelar boggart en el armario",
-          "cont": '<span>El armario tambalea y cuando el boggart sale de la puerta lo hace en forma de una ola de varitas rotas, apilándose en el suelo de una clase mientras se escucha el sonido de las varitas que se rompen a medida que caen en el suelo.</span>',
-        },
-
-        "boggart damien": {
-          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "damien", }, "place": "revelar boggart en el armario",
-          "cont": '<span>La figura de Morgana sale por la puerta, su espalda derecha, sus manos cruzadas al frente. Esta sangrando, pero no parece importarle. Lanza una mirada al joven midiendo el mismo antes de murmurar: "qué decepción".</span>',
-        },
-      },
+      "searchs": {},
 
       "actions": {},
     },
@@ -11119,20 +7137,7 @@ const MissionsModule = (function () {
       "cards": [],
       "searchs": {},
 
-      "actions": {
-        "incarcerous": {
-          "leve": '<span></span>',
-          "moderado": '<span></span>',
-          "exitoso": '<span>La llave logra ser capturada exitosamente.</span>',
-          "critico": '<span>La llave logra ser capturada exitosamente.</span>',
-        },
-        "alohomora": {
-          "leve": '<span>Al pronunciar el hechizo, se revela una pequeña medalla metálica en forma de gragea en cuyo frente se puede leer «Rompemaldiciones Junior».</span>',
-          "moderado": '<span>Al pronunciar el hechizo, se revela una pequeña medalla metálica en forma de gragea en cuyo frente se puede leer «Rompemaldiciones Junior».</span>',
-          "exitoso": '<span>Al pronunciar el hechizo, se revela una pequeña medalla metálica en forma de gragea en cuyo frente se puede leer «Rompemaldiciones Junior».</span>',
-          "critico": '<span>Al pronunciar el hechizo, se revela una pequeña medalla metálica en forma de gragea en cuyo frente se puede leer «Rompemaldiciones Junior».</span>',
-        },
-      },
+      "actions": {},
     },
     // fin más allá de la defensa
 
@@ -11147,26 +7152,7 @@ const MissionsModule = (function () {
       "cards": [],
       "searchs": {},
 
-      "actions": {
-        "arresto momentum": {
-          "leve": '<span>Permite que un duendecillo quede relentizados impidiendo sus movimientos.</span>',
-          "moderado": '<span>Permite que dos duendecillos queden relentizados impidiendo sus movimientos.</span>',
-          "exitoso": '<span>Permite que tres duendecillos queden relentizados impidiendo sus movimientos.</span>',
-          "critico": '<span>Permite que cuatro duendecillos queden relentizados impidiendo sus movimientos.</span>',
-        },
-        "incarcerous": {
-          "leve": '<span>Permite atar dos duendecillos impidiendo sus movimientos.</span>',
-          "moderado": '<span>Permite atar tres duendecillos impidiendo sus movimientos.</span>',
-          "exitoso": '<span>Permite atar cuatro duendecillos impidiendo sus movimientos.</span>',
-          "critico": '<span>Permite atar cinco duendecillos impidiendo sus movimientos.</span>',
-        },
-        "waddiwasi": {
-          "leve": '<span>Permite descontar 5 PV a 2 duendecillos.</span>',
-          "moderado": '<span>Permite descontar 10 PV a 4 duendecillos.</span>',
-          "exitoso": '<span>Permite descontar 15 PV a 6 duendecillos.</span>',
-          "critico": '<span>Permite descontar 20 PV a 8 duendecillos.</span>',
-        },
-      },
+      "actions": {},
     },
     // concierto
 
@@ -11181,35 +7167,7 @@ const MissionsModule = (function () {
       "cards": [],
       "searchs": {},
 
-      "actions": {
-        "identificar runa": {
-          "leve": '<span>El personaje deberá leer el libro para saber su nombre y significado.</span>',
-          "moderado": '<span>El personaje podrá saber el nombre, pero necesitará del libro para saber su significado.</span>',
-          "exitoso": '<span>El personaje podrá saber el nombre y su significado sin necesidad de leer el libro.</span>',
-          "critico": '<span>El personaje podrá saber el nombre y su significado sin necesidad de leer el libro.</span>',
-        },
-
-        "incísio fúndito": {
-          "leve": '<span>El personaje deberá volver a intentar el grabado.</span>',
-          "moderado": '<span>El grabado es moderado, el personaje puede volver a intentarlo o dejarlo de esa manera.</span>',
-          "exitoso": '<span>El grabado es preciso, el personaje no debe volver a intentar. Se escuchá la felicitación del profesor Diggory que brinda 10 puntos a la correspondiente casa.</span>',
-          "critico": '<span>El grabado es preciso, el personaje no debe volver a intentar. Se escuchá la felicitación del profesor Diggory que brinda 10 puntos a la correspondiente casa.</span>',
-        },
-
-        "abolitio signi": {
-          "leve": '<span>El personaje deberá volver a intentar anular los efectos.</span>',
-          "moderado": '<span>El personaje lo ha logrado, puede intentar el grabado nuevamente.</span>',
-          "exitoso": '<span>El personaje lo ha logrado, puede intentar el grabado nuevamente.</span>',
-          "critico": '<span>El personaje lo ha logrado, puede intentar el grabado nuevamente.</span>',
-        },
-
-        "deletio runicum": {
-          "leve": '<span>El personaje deberá volver a intentar eliminar la runa.</span>',
-          "moderado": '<span>El personaje lo ha logrado, puede intentar el grabado nuevamente. Gana 5 puntos para su casa por lograr la eliminación completa.</span>',
-          "exitoso": '<span>El personaje lo ha logrado, puede intentar el grabado nuevamente. Gana 10 puntos para su casa por lograr la eliminación completa.</span>',
-          "critico": '<span>El personaje lo ha logrado, puede intentar el grabado nuevamente. Gana 15 puntos para su casa por lograr la eliminación completa.</span>',
-        },
-      },
+      "actions": {},
     },
     // fin grabado de runas
 
