@@ -15566,10 +15566,10 @@ body.light-mode .bw-logbook {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-bottom: 5px;
+  padding-bottom: 0px;
   color: var(--post-user);
   font-family: var(--font-bold);
-  font-size: 26px;
+  font-size: 22px;
   font-weight: bold;
   line-height: 1;
 }
