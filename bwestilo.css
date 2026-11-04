@@ -15660,6 +15660,11 @@ body.light-mode .bw-logbook {
   }
 }
 
+.bw-sin-guirnaldas .bw-guirnalda,
+.bw-sin-guirnaldas .bw-guirnalda-focos {
+  display: none;
+}
+
 /* botón de las luces: order 1 lo deja a la izquierda de todo sin importar qué script corre primero */
 .menu-luces {
   order: 1;
