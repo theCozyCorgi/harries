@@ -1,16 +1,4 @@
-// Resumenes de los temas del sistema de misiones (backup/historical/*.json).
-// Clave = id numerico del tema (coincide con el prefijo del archivo en backup/historical).
-// personajes: ids de CharactersModule que participaron y siguen teniendo cuenta activa hoy;
-// se recalcula dinamicamente contra el registro de personajes, no es un valor fijo.
-// interrogado: solo se completa en temas de tipo "interrogatorio"; el nombre vive solo en
-// este campo, nunca repetido dentro del resumen (asi lo puede mostrar aparte el render).
-// resumen: puede nombrar a cualquier personaje que NO haya sido jugado en esa escena
-// (victimas, sospechosos, figuras del canon, etc.) - solo los personajes efectivamente
-// jugados/roleados en el tema (los de "personajes", y el interrogado si es el caso) se
-// mantienen anonimos, para evitar metagaming sobre que cuenta participo.
-// tag: copia del campo "tagged" de la mision correspondiente en bwdata.js (MissionsModule),
-// cruzado por titulo en minuscula (la clave del objeto "missions" == tema.toLowerCase()).
-// Sirve para saber a que capitulo/arco de guide.js pertenece el resumen.
+// Resumenes de los temas del sistema de misiones
 const _historical = {
   "351": {
     "tema": 'Secrets Of The Silent Dead',
@@ -443,6 +431,15 @@ const _historical = {
     "personajes": ['/u8', '/u55', '/u130', '/u78'],
     "interrogado": null,
     "resumen": 'La misión consistió en infiltrarse en Mane Boilers, la fábrica y destilería que abastecía de bebidas a The Maroon Steed, tras rastrear el origen del cargamento hasta ese lugar. El perímetro reveló un edificio fuertemente vigilado, con una entrada principal protegida por una maldición de sangre y un acceso trasero resguardado por guardias en rotación constante, por lo que se optó por infiltrarse haciéndose pasar por conductores de un camión de reparto mediante poción multijugos. Dentro de las instalaciones, entregando materiales, materia prima y correspondencia piso por piso bajo distintas contraseñas, se confirmó que allí se cultivaba y procesaba la Salvia Ignicor (Corazón de Fuego), la planta empleada para adulterar las bebidas del lugar. Un guardia sospechó de la coartada y se produjo un breve enfrentamiento que logró resolverse sin delatar la infiltración. En la sala de conferencias se halló además un mapa que señalaba una nueva ubicación, presentada como la casa central de la operación, quedando el grupo con esa pista para continuar la investigación tras retirarse sin ser detectados.',
+  },
+  "1291": {
+    "tema": 'Dragonfly\'s Secrets',
+    "fecha": '1953-04-29',
+    "tipo": 'mision',
+    "tag": ['original'],
+    "personajes": ['/u8', '/u161', '/u13'],
+    "interrogado": null,
+    "resumen": 'Siguiendo las instrucciones reveladas por Barbara Moody, un grupo de magos y brujas se reunió de noche en Magpie Park, en el condado de Offaly, donde se oculta el antiguo depósito de los Moody. El parque no tenía nada de extraordinario salvo una libélula faltante en el borde norte de su fuente de piedra; al liberar una libélula viva en sus aguas, la fuente abrió unas escaleras que descendían hasta una puerta sin llave y un galpón subterráneo, cálido y alumbrado por antorchas, convertido en un laberinto de estanterías repletas de obras. Al amanecer quedó confirmado que faltaban tres piezas que nadie había echado de menos en años: la pintura \"La sombra de los infiernos\", de Lázaro Cavalcanti, la Brújula que Señala al Miedo, de Cornelius Abernathy, y la Balanza de la Verdad, de Ignatius Thorne. Las Wraithwood las habían sustraído con cuidado, sin dejar huecos ni marcas de polvo, y qué pretendían hacer con ellas siguió siendo una incógnita.',
   },
   "1320": {
     "tema": 'Tying Loose Ends',
