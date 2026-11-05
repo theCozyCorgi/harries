@@ -67198,6 +67198,113 @@ const DBModule = (function () {
             "date": "05/12/1945",
             "location": "Aula de Runas Antiguas"
         },
+        "1174": {
+            "space": "el pensadero",
+            "url": "/t1174-1953-03-13-throw-it-on-my-shoulders",
+            "simpleTitle": "throw it on my shoulders",
+            "creator": "Ruaan S. Patil",
+            "replyCount": 15,
+            "posts": [
+                {
+                    "url": "r16864",
+                    "author": "Ruaan S. Patil",
+                    "date": "23/04/2026",
+                    "words": 303
+                },
+                {
+                    "url": "r17498",
+                    "author": "Viridian L. Greengrass",
+                    "date": "03/05/2026",
+                    "words": 305
+                },
+                {
+                    "url": "r17554",
+                    "author": "Ruaan S. Patil",
+                    "date": "04/05/2026",
+                    "words": 252
+                },
+                {
+                    "url": "r18747",
+                    "author": "Viridian L. Greengrass",
+                    "date": "21/05/2026",
+                    "words": 276
+                },
+                {
+                    "url": "r19050",
+                    "author": "Ruaan S. Patil",
+                    "date": "27/05/2026",
+                    "words": 375
+                },
+                {
+                    "url": "r19604",
+                    "author": "Viridian L. Greengrass",
+                    "date": "04/06/2026",
+                    "words": 331
+                },
+                {
+                    "url": "r19674",
+                    "author": "Ruaan S. Patil",
+                    "date": "07/06/2026",
+                    "words": 332
+                },
+                {
+                    "url": "r19883",
+                    "author": "Viridian L. Greengrass",
+                    "date": "13/06/2026",
+                    "words": 279
+                },
+                {
+                    "url": "r20437",
+                    "author": "Ruaan S. Patil",
+                    "date": "02/07/2026",
+                    "words": 371
+                },
+                {
+                    "url": "r20914",
+                    "author": "Viridian L. Greengrass",
+                    "date": "19/07/2026",
+                    "words": 402
+                },
+                {
+                    "url": "r21778",
+                    "author": "Ruaan S. Patil",
+                    "date": "13/08/2026",
+                    "words": 344
+                },
+                {
+                    "url": "r22072",
+                    "author": "Viridian L. Greengrass",
+                    "date": "21/08/2026",
+                    "words": 428
+                },
+                {
+                    "url": "r22452",
+                    "author": "Ruaan S. Patil",
+                    "date": "03/09/2026",
+                    "words": 343
+                },
+                {
+                    "url": "r23147",
+                    "author": "Viridian L. Greengrass",
+                    "date": "19/09/2026",
+                    "words": 289
+                },
+                {
+                    "url": "r23471",
+                    "author": "Ruaan S. Patil",
+                    "date": "28/09/2026",
+                    "words": 308
+                },
+                {
+                    "url": "r24870",
+                    "author": "Viridian L. Greengrass",
+                    "date": "27/10/2026",
+                    "words": 309
+                }
+            ],
+            "date": "13/03/1953",
+            "location": "Hogsmeade"
+        },
         "1176": {
             "space": "el pensadero",
             "url": "/t1176-1934-09-20-you-hold-your-ground",
@@ -69968,6 +70075,173 @@ const DBModule = (function () {
             ],
             "date": "15/12/1949",
             "location": "Sala de Música"
+        },
+        "1225": {
+            "space": "el pensadero",
+            "url": "/t1225-1953-03-17-stumbling-blind-through-the-streets",
+            "simpleTitle": "stumbling blind through the streets",
+            "creator": "Margareth T. Moody",
+            "replyCount": 25,
+            "posts": [
+                {
+                    "url": "r18028",
+                    "author": "Margareth T. Moody",
+                    "date": "10/05/2026",
+                    "words": 246
+                },
+                {
+                    "url": "r18029",
+                    "author": "The Familiars",
+                    "date": "10/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r18085",
+                    "author": "Alastor Moody",
+                    "date": "10/05/2026",
+                    "words": 280
+                },
+                {
+                    "url": "r18086",
+                    "author": "The Familiars",
+                    "date": "10/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r18843",
+                    "author": "Margareth T. Moody",
+                    "date": "23/05/2026",
+                    "words": 412
+                },
+                {
+                    "url": "r18844",
+                    "author": "The Familiars",
+                    "date": "23/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r18925",
+                    "author": "Alastor Moody",
+                    "date": "25/05/2026",
+                    "words": 476
+                },
+                {
+                    "url": "r18926",
+                    "author": "The Familiars",
+                    "date": "25/05/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r19318",
+                    "author": "Margareth T. Moody",
+                    "date": "31/05/2026",
+                    "words": 548
+                },
+                {
+                    "url": "r19369",
+                    "author": "Alastor Moody",
+                    "date": "31/05/2026",
+                    "words": 329
+                },
+                {
+                    "url": "r19874",
+                    "author": "Margareth T. Moody",
+                    "date": "13/06/2026",
+                    "words": 266
+                },
+                {
+                    "url": "r20168",
+                    "author": "Alastor Moody",
+                    "date": "23/06/2026",
+                    "words": 308
+                },
+                {
+                    "url": "r20580",
+                    "author": "Margareth T. Moody",
+                    "date": "08/07/2026",
+                    "words": 250
+                },
+                {
+                    "url": "r20846",
+                    "author": "Alastor Moody",
+                    "date": "17/07/2026",
+                    "words": 317
+                },
+                {
+                    "url": "r21791",
+                    "author": "Margareth T. Moody",
+                    "date": "14/08/2026",
+                    "words": 282
+                },
+                {
+                    "url": "r21996",
+                    "author": "Alastor Moody",
+                    "date": "19/08/2026",
+                    "words": 365
+                },
+                {
+                    "url": "r22240",
+                    "author": "Margareth T. Moody",
+                    "date": "26/08/2026",
+                    "words": 251
+                },
+                {
+                    "url": "r22610",
+                    "author": "Alastor Moody",
+                    "date": "06/09/2026",
+                    "words": 472
+                },
+                {
+                    "url": "r23021",
+                    "author": "Margareth T. Moody",
+                    "date": "17/09/2026",
+                    "words": 377
+                },
+                {
+                    "url": "r23153",
+                    "author": "Alastor Moody",
+                    "date": "19/09/2026",
+                    "words": 310
+                },
+                {
+                    "url": "r23496",
+                    "author": "Margareth T. Moody",
+                    "date": "29/09/2026",
+                    "words": 432
+                },
+                {
+                    "url": "r23828",
+                    "author": "Alastor Moody",
+                    "date": "05/10/2026",
+                    "words": 464
+                },
+                {
+                    "url": "r23966",
+                    "author": "Margareth T. Moody",
+                    "date": "10/10/2026",
+                    "words": 274
+                },
+                {
+                    "url": "r24407",
+                    "author": "Alastor Moody",
+                    "date": "18/10/2026",
+                    "words": 195
+                },
+                {
+                    "url": "r24853",
+                    "author": "Margareth T. Moody",
+                    "date": "27/10/2026",
+                    "words": 255
+                },
+                {
+                    "url": "r25199",
+                    "author": "Alastor Moody",
+                    "date": "01/11/2026",
+                    "words": 238
+                }
+            ],
+            "date": "17/03/1953",
+            "location": "Casa de Alastor"
         },
         "1232": {
             "space": "el pensadero",
@@ -72938,6 +73212,89 @@ const DBModule = (function () {
             ],
             "date": "15/03/1953",
             "location": "Gramola"
+        },
+        "1275": {
+            "space": "el pensadero",
+            "url": "/t1275-1953-03-17-ignorantes",
+            "simpleTitle": "ignorantes",
+            "creator": "Thyme T. Nott",
+            "replyCount": 11,
+            "posts": [
+                {
+                    "url": "r19183",
+                    "author": "Thyme T. Nott",
+                    "date": "28/05/2026",
+                    "words": 341
+                },
+                {
+                    "url": "r20105",
+                    "author": "Ishwar S. Patil",
+                    "date": "21/06/2026",
+                    "words": 298
+                },
+                {
+                    "url": "r20639",
+                    "author": "Thyme T. Nott",
+                    "date": "11/07/2026",
+                    "words": 328
+                },
+                {
+                    "url": "r21030",
+                    "author": "Ishwar S. Patil",
+                    "date": "26/07/2026",
+                    "words": 316
+                },
+                {
+                    "url": "r21143",
+                    "author": "Thyme T. Nott",
+                    "date": "30/07/2026",
+                    "words": 353
+                },
+                {
+                    "url": "r21653",
+                    "author": "Ishwar S. Patil",
+                    "date": "09/08/2026",
+                    "words": 320
+                },
+                {
+                    "url": "r21974",
+                    "author": "Thyme T. Nott",
+                    "date": "18/08/2026",
+                    "words": 348
+                },
+                {
+                    "url": "r22618",
+                    "author": "Ishwar S. Patil",
+                    "date": "07/09/2026",
+                    "words": 257
+                },
+                {
+                    "url": "r23322",
+                    "author": "Thyme T. Nott",
+                    "date": "24/09/2026",
+                    "words": 397
+                },
+                {
+                    "url": "r24291",
+                    "author": "Ishwar S. Patil",
+                    "date": "16/10/2026",
+                    "words": 285
+                },
+                {
+                    "url": "r25254",
+                    "author": "Thyme T. Nott",
+                    "date": "02/11/2026",
+                    "words": 299
+                },
+                {
+                    "url": "r25281",
+                    "author": "Ishwar S. Patil",
+                    "date": "03/11/2026",
+                    "words": 198
+                }
+            ],
+            "date": "17/03/1953",
+            "location": "Atrio"
         },
         "1284": {
             "space": "el pensadero",
@@ -76828,6 +77185,89 @@ const DBModule = (function () {
             "date": "19/05/1953",
             "location": "Arena Dush"
         },
+        "1377": {
+            "space": "el pensadero",
+            "url": "/t1377-hazel-e-strawberry-shortcake",
+            "simpleTitle": "strawberry shortcake",
+            "creator": "Berenike M. Borgin",
+            "replyCount": 11,
+            "posts": [
+                {
+                    "url": "r21514",
+                    "author": "Berenike M. Borgin",
+                    "date": "06/08/2026",
+                    "words": 300
+                },
+                {
+                    "url": "r21587",
+                    "author": "Hazel Edevane",
+                    "date": "08/08/2026",
+                    "words": 218
+                },
+                {
+                    "url": "r21661",
+                    "author": "Berenike M. Borgin",
+                    "date": "10/08/2026",
+                    "words": 289
+                },
+                {
+                    "url": "r21736",
+                    "author": "Hazel Edevane",
+                    "date": "12/08/2026",
+                    "words": 281
+                },
+                {
+                    "url": "r21737",
+                    "author": "The Familiars",
+                    "date": "12/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22304",
+                    "author": "Berenike M. Borgin",
+                    "date": "28/08/2026",
+                    "words": 281
+                },
+                {
+                    "url": "r22517",
+                    "author": "Hazel Edevane",
+                    "date": "05/09/2026",
+                    "words": 262
+                },
+                {
+                    "url": "r22518",
+                    "author": "The Familiars",
+                    "date": "05/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r23179",
+                    "author": "Berenike M. Borgin",
+                    "date": "20/09/2026",
+                    "words": 250
+                },
+                {
+                    "url": "r23710",
+                    "author": "Hazel Edevane",
+                    "date": "04/10/2026",
+                    "words": 198
+                },
+                {
+                    "url": "r24240",
+                    "author": "Berenike M. Borgin",
+                    "date": "15/10/2026",
+                    "words": 205
+                },
+                {
+                    "url": "r24241",
+                    "author": "The Familiars",
+                    "date": "15/10/2026",
+                    "words": 0
+                }
+            ],
+            "date": "06/05/1953",
+            "location": "lago negro"
+        },
         "1379": {
             "space": "el pensadero",
             "url": "/t1379-1953-05-23-interescolares-durmstrang-vs-hogwarts",
@@ -77094,6 +77534,113 @@ const DBModule = (function () {
             ],
             "date": "18/05/1953",
             "location": "Zona de Entrenamiento"
+        },
+        "1388": {
+            "space": "el pensadero",
+            "url": "/t1388-high-hopes-alastor",
+            "simpleTitle": "high hopes | alastor",
+            "creator": "H. Shun Parkinson",
+            "replyCount": 15,
+            "posts": [
+                {
+                    "url": "r21723",
+                    "author": "H. Shun Parkinson",
+                    "date": "12/08/2026",
+                    "words": 231
+                },
+                {
+                    "url": "r21745",
+                    "author": "Alastor Moody",
+                    "date": "12/08/2026",
+                    "words": 341
+                },
+                {
+                    "url": "r22090",
+                    "author": "H. Shun Parkinson",
+                    "date": "22/08/2026",
+                    "words": 321
+                },
+                {
+                    "url": "r22603",
+                    "author": "Alastor Moody",
+                    "date": "06/09/2026",
+                    "words": 365
+                },
+                {
+                    "url": "r22779",
+                    "author": "H. Shun Parkinson",
+                    "date": "12/09/2026",
+                    "words": 327
+                },
+                {
+                    "url": "r23150",
+                    "author": "Alastor Moody",
+                    "date": "19/09/2026",
+                    "words": 262
+                },
+                {
+                    "url": "r23151",
+                    "author": "The Familiars",
+                    "date": "19/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r23473",
+                    "author": "H. Shun Parkinson",
+                    "date": "28/09/2026",
+                    "words": 269
+                },
+                {
+                    "url": "r23823",
+                    "author": "Alastor Moody",
+                    "date": "05/10/2026",
+                    "words": 273
+                },
+                {
+                    "url": "r24116",
+                    "author": "H. Shun Parkinson",
+                    "date": "13/10/2026",
+                    "words": 248
+                },
+                {
+                    "url": "r24448",
+                    "author": "Alastor Moody",
+                    "date": "19/10/2026",
+                    "words": 266
+                },
+                {
+                    "url": "r24835",
+                    "author": "H. Shun Parkinson",
+                    "date": "27/10/2026",
+                    "words": 466
+                },
+                {
+                    "url": "r24861",
+                    "author": "Alastor Moody",
+                    "date": "27/10/2026",
+                    "words": 356
+                },
+                {
+                    "url": "r24966",
+                    "author": "H. Shun Parkinson",
+                    "date": "29/10/2026",
+                    "words": 325
+                },
+                {
+                    "url": "r24977",
+                    "author": "Alastor Moody",
+                    "date": "29/10/2026",
+                    "words": 184
+                },
+                {
+                    "url": "r25048",
+                    "author": "H. Shun Parkinson",
+                    "date": "29/10/2026",
+                    "words": 198
+                }
+            ],
+            "date": "19/05/1953",
+            "location": "Arena Dush"
         },
         "1396": {
             "space": "el pensadero",
@@ -79298,6 +79845,83 @@ const DBModule = (function () {
             ],
             "date": "12/05/1953",
             "location": "5ta planta | san mungo"
+        },
+        "1476": {
+            "space": "el pensadero",
+            "url": "/t1476-kalinka-priv-kaoru-satoo",
+            "simpleTitle": "kalinka || priv. kaoru satoo",
+            "creator": "Cipriano J. Thompson",
+            "replyCount": 10,
+            "posts": [
+                {
+                    "url": "r23306",
+                    "author": "Cipriano J. Thompson",
+                    "date": "24/09/2026",
+                    "words": 546
+                },
+                {
+                    "url": "r23790",
+                    "author": "Kaoru Satoo",
+                    "date": "05/10/2026",
+                    "words": 368
+                },
+                {
+                    "url": "r23847",
+                    "author": "Cipriano J. Thompson",
+                    "date": "06/10/2026",
+                    "words": 392
+                },
+                {
+                    "url": "r23877",
+                    "author": "Kaoru Satoo",
+                    "date": "07/10/2026",
+                    "words": 274
+                },
+                {
+                    "url": "r23878",
+                    "author": "Cipriano J. Thompson",
+                    "date": "07/10/2026",
+                    "words": 536
+                },
+                {
+                    "url": "r23894",
+                    "author": "Kaoru Satoo",
+                    "date": "08/10/2026",
+                    "words": 445
+                },
+                {
+                    "url": "r23897",
+                    "author": "Cipriano J. Thompson",
+                    "date": "08/10/2026",
+                    "words": 386
+                },
+                {
+                    "url": "r24117",
+                    "author": "Kaoru Satoo",
+                    "date": "13/10/2026",
+                    "words": 335
+                },
+                {
+                    "url": "r24548",
+                    "author": "Cipriano J. Thompson",
+                    "date": "22/10/2026",
+                    "words": 368
+                },
+                {
+                    "url": "r24713",
+                    "author": "Kaoru Satoo",
+                    "date": "25/10/2026",
+                    "words": 230
+                },
+                {
+                    "url": "r24999",
+                    "author": "Cipriano J. Thompson",
+                    "date": "29/10/2026",
+                    "words": 520
+                }
+            ],
+            "date": "23/05/1953",
+            "location": "Koldovstoretz"
         },
         "1483": {
             "space": "el pensadero",
@@ -164726,6 +165350,82 @@ const DBModule = (function () {
             "url": "r24914",
             "simpleTitle": "evento: interescolares de quidditch - there will come a soldier",
             "space": "el pensadero"
+        },
+        {
+            "pitcher": "Margareth T. Moody",
+            "spread": [
+                7
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "maledictus"
+            ],
+            "knowledge": [
+                "atenuador"
+            ],
+            "type": [
+                "sin magia, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Margareth T. Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"atenuador\"><strong>Resultado  #1 \"maledictus\" (7)</strong><span>No logra controlar la maldición, se convierte por un post entero. Suma 3 al contador de la maldición.</span></span></div></div></div>",
+            "url": "r18029",
+            "simpleTitle": "stumbling blind through the streets",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                14
+            ],
+            "title": [
+                "acción"
+            ],
+            "key": [],
+            "knowledge": [],
+            "type": [],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">14</span></div></div></div>",
+            "url": "r18086",
+            "simpleTitle": "stumbling blind through the streets",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Margareth T. Moody",
+            "spread": [
+                6
+            ],
+            "title": [
+                "acción"
+            ],
+            "key": [],
+            "knowledge": [],
+            "type": [],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Margareth T. Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"roll-result\">6</span></div></div></div>",
+            "url": "r18844",
+            "simpleTitle": "stumbling blind through the streets",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Alastor Moody",
+            "spread": [
+                18
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "legeremens"
+            ],
+            "knowledge": [
+                "legeremancia"
+            ],
+            "type": [
+                "mental, encantamiento, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Alastor Moody ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"legeremancia\"><strong>Resultado  #1 \"legeremens\" (18)</strong><span>Accedes profundamente a la mente del objetivo, obteniendo información detallada. Adiciona <em>2</em> (El 100% de SAB) al intento de penetrar la mente contraria.</span></span></div></div></div>",
+            "url": "r18926",
+            "simpleTitle": "stumbling blind through the streets",
+            "space": "el pensadero"
         }
     ];
     const hardcodedInactiveTopics = {
@@ -177974,7 +178674,7 @@ const DBModule = (function () {
 
             if (!isSaved) {
                 // forceRescan (ej. scanCleanForum) pide lectura profunda a propósito: el atajo no aplica ahí.
-                const onlyMoved = !forceRescan && movedForum && !brokenDate &&liveReplyCount !== null && dynamicTopic.replyCount !== null && (dynamicTopic.replyCount ?? 0) === liveReplyCount;
+                const onlyMoved = !forceRescan && movedForum && !brokenDate && liveReplyCount !== null && dynamicTopic.replyCount !== null && (dynamicTopic.replyCount ?? 0) === liveReplyCount;
 
                 if (onlyMoved) {
                     // Solo cambió de foro, los posts siguen igual: alcanza con actualizar el espacio.
