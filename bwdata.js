@@ -395,7 +395,7 @@ const MissionsModule = (function () {
           "cont": '<span>Donn baraja sin apuro, con la mano firme. Quien lo ve beber así entiende enseguida que ese whiskey le hace mucho menos efecto que a cualquier visitante.<br><br><span class="book-clipping"><br><div align="center"><strong>EL CONTADOR DE DONN</strong></div><br><strong>1.</strong> Cada vez que los personajes ganan una ronda, o que las dos cartas tienen el mismo número, Donn bebe un vaso. Cada vaso suma 5 puntos a su contador.<br><strong>2.</strong> Cuando Donn llega a un nuevo nivel, se debe abrir la tarjeta de ese nivel antes de revelar otra.<br><strong>3.</strong> Solo valen las tarjetas del nivel actual. Las de niveles anteriores que no se hayan abierto dejan de estar disponibles.<br><strong>4.</strong> Cada tema se abre una sola vez por nivel. Cuando Donn sube de nivel, se puede volver a preguntar por un tema ya abierto usando la tarjeta del nivel nuevo.<br></span></span>',
         },
         "donn con 10 puntos": {
-          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "donn con menos de 10 puntos",
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "beber o no beber",
           "cont": '<span>Donn se desabrocha el chaleco con un suspiro de alivio y deja el periódico sobre el escritorio. Tiene los ojos brillantes y la sonrisa más fácil. Estira alguna palabra de vez en cuando, y sigue sirviendo sin derramar una gota.<br><br>—<strong>Ahora síii. Pregunten, caballeros, pregunten.</strong></span>',
         },
         "donn con 20 puntos": {
