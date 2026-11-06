@@ -392,23 +392,23 @@ const MissionsModule = (function () {
         },
         "donn con menos de 10 puntos": {
           "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "beber o no beber",
-          "cont": '<span>Donn baraja sin apuro, con la mano firme. Quien lo ve beber así entiende enseguida que ese whiskey le hace mucho menos efecto que a cualquier visitante.<br><br><span class="book-clipping"><br><div align="center"><strong>EL CONTADOR DE DONN</strong></div><br><strong>1.</strong> Cada vez que los personajes ganan una ronda, o que las dos cartas tienen el mismo número, Donn bebe un vaso. Cada vaso suma 5 puntos a su contador.<br><strong>2.</strong> Cuando Donn llega a un nuevo nivel, se debe abrir la tarjeta de ese nivel antes de revelar otra.<br><strong>3.</strong> Solo valen las tarjetas del nivel actual. Las de niveles anteriores que no se hayan abierto dejan de estar disponibles.<br><strong>4.</strong> Cada tema se abre una sola vez por nivel. Cuando Donn sube de nivel, se puede volver a preguntar por un tema ya abierto usando la tarjeta del nivel nuevo.<br></span></span>',
+          "cont": '<span>Donn baraja sin apuro, con la mano firme. Quien lo ve beber así entiende enseguida que ese whiskey le hace mucho menos efecto que a cualquier visitante. <br>Pueden lanzar tres tarjetas antes de volver a jugar con las cartas.</span>',
         },
         "donn con 10 puntos": {
           "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "beber o no beber",
-          "cont": '<span>Donn se desabrocha el chaleco con un suspiro de alivio y deja el periódico sobre el escritorio. Tiene los ojos brillantes y la sonrisa más fácil. Estira alguna palabra de vez en cuando, y sigue sirviendo sin derramar una gota.<br><br>—<strong>Ahora síii. Pregunten, caballeros, pregunten.</strong></span>',
+          "cont": '<span>Donn se desabrocha el chaleco con un suspiro de alivio y deja el periódico sobre el escritorio. Tiene los ojos brillantes y la sonrisa más fácil. Estira alguna palabra de vez en cuando, y sigue sirviendo sin derramar una gota.<br><br>—<strong>Ahora síii. Pregunten, caballeros, pregunten.</strong><br>Pueden lanzar tres tarjetas antes de volver a jugar con las cartas.</span>',
         },
         "donn con 20 puntos": {
           "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "donn con 10 puntos",
-          "cont": '<span>Donn sigue el humo del habano con la mirada y lo espanta con la mano, como si le molestara lo que ve en él. Ya no se molesta en bajar la voz ni en elegir las palabras. Las cartas, en cambio, las sigue barajando sin un solo error.<br><br>—<strong>No me miren así. Otro ya estaría debajo de la mesa.</strong></span>',
+          "cont": '<span>Donn sigue el humo del habano con la mirada y lo espanta con la mano, como si le molestara lo que ve en él. Ya no se molesta en bajar la voz ni en elegir las palabras. Las cartas, en cambio, las sigue barajando sin un solo error.<br><br>—<strong>No me miren así. Otro ya estaría debajo de la mesa.</strong><br>Pueden lanzar cinco tarjetas antes de volver a jugar con las cartas.</span>',
         },
         "donn con 30 puntos": {
           "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "donn con 20 puntos",
-          "cont": '<span>Donn golpea dos veces la pared con los nudillos y le pide silencio. Después sigue hablando como si nada, con las palabras cada vez más largas y la camisa abierta. Se sirve otro vaso y lo llena hasta el borde con un pulso que no le corresponde a alguien en ese estado.<br><br>—<strong>Treinta añooos tomando esto. Las paredes hablan, sí. Uno aprende a no contestarles.</strong></span>',
+          "cont": '<span>Donn golpea dos veces la pared con los nudillos y le pide silencio. Después sigue hablando como si nada, con las palabras cada vez más largas y la camisa abierta. Se sirve otro vaso y lo llena hasta el borde con un pulso que no le corresponde a alguien en ese estado.<br><br>—<strong>Treinta añooos tomando esto. Las paredes hablan, sí. Uno aprende a no contestarles.</strong><br>Pueden lanzar cinco tarjetas antes de volver a jugar con las cartas.</span>',
         },
         "donn con 40 puntos": {
           "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "donn con 30 puntos",
-          "cont": '<span>Donn se apaga el habano en la palma de la mano y no parpadea. Mira la silla vacía que tiene al lado y le empuja un vaso que nadie toca. A partir de este momento, ya no todo lo que dice ocurrió de verdad, y es imposible saber cuánto.<br><br>—<strong>Ya voy, ya voy. Déjame terminar con estos dos.</strong></span>',
+          "cont": '<span>Donn se apaga el habano en la palma de la mano y no parpadea. Mira la silla vacía que tiene al lado y le empuja un vaso que nadie toca. A partir de este momento, ya no todo lo que dice ocurrió de verdad, y es imposible saber cuánto.<br><br>—<strong>Ya voy, ya voy. Déjame terminar con estos dos.</strong><br>Pueden lanzar todas las tarjetas restantes antes de volver a jugar con las cartas.</span>',
         },
         "donn con 50 puntos": {
           "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "donn con 40 puntos",
