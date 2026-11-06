@@ -392,7 +392,7 @@ const MissionsModule = (function () {
         },
         "donn con menos de 10 puntos": {
           "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "beber o no beber",
-          "cont": '<span>Donn baraja sin apuro, con la mano firme. Quien lo ve beber así entiende enseguida que ese whiskey le hace mucho menos efecto que a cualquier visitante. <br>Pueden lanzar tres tarjetas antes de volver a jugar con las cartas.</span>',
+          "cont": '<span>Donn baraja sin apuro, con la mano firme. Quien lo ve beber así entiende enseguida que ese whiskey le hace mucho menos efecto que a cualquier visitante.</span>',
         },
         "donn con 10 puntos": {
           "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "beber o no beber",
