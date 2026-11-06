@@ -1367,7 +1367,7 @@ const MissionsModule = (function () {
     "unlocking the veiled": {
       "description": "Con la investigación realizada del elixir de Edwin, un pocionista o alquimista tratarán de replicar la fórmula para saber verdaderamente sus efectos y poder determinar si son o no una cura para los squibs.",
       "image": "https://2img.net/i.imgur.com/gr7QrwZ.png", "requisitos": ["Un miembro debe tener Alquimia en Consagrado", "Un miembro debe tener Pociones en Avanzado"],
-      "users": ["/u159"],
+      "users": ["/u159","/u206","/u207"],
       "informed": [],
       "dependency": ["the murmuring woods"],
       "type": "investigación", "closed": false, "fecha": "", "link": "", "tagged": ["edwin", "capitulo 0"],
