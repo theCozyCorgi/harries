@@ -702,6 +702,16 @@ const MissionsModule = (function () {
         },
 
         {
+          "visible": { "attr": { "val": "min" }, "know": { "astronomía": "10" }, "job": "invalid", "name": "invalid", }, "place": "cómo llegar al faro",
+          "cont": '<span>Con conocimientos de astronomía, calcular las fases de la luna es cuestión de minutos. Este verano solo hay tres noches de cuarto menguante: el <strong>3 de julio</strong>, el <strong>2 de agosto</strong> y el <strong>31 de agosto</strong>. La primera está a menos de una semana.<br><br>Pero hay algo que no cierra en lo que repiten los que saben del faro: las mareas muertas no ocurren solo en cuarto menguante, sino en los dos cuartos de la luna. Si lo que libera el faro es la marea, también debería asomar en cuarto creciente, el <strong>19 de julio</strong> y el <strong>17 de agosto</strong>. O nadie se dio cuenta, o alguien prefirió que no se supiera.</span>',
+        },
+
+        {
+          "visible": { "attr": { "val": "min" }, "know": { "astronomía": "10" }, "job": "invalid", "name": "invalid", }, "place": "cómo llegar al faro",
+          "cont": '<span>Las mismas cuentas sirven hacia atrás. En el verano de 1952, las noches de cuarto menguante fueron el <strong>14 de julio</strong> y el <strong>12 de agosto</strong>.<br><br>Y las de cuarto creciente, el <strong>30 de julio</strong> y el <strong>28 de agosto</strong>.</span>',
+        },
+
+        {
           "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "la visita de los tres candidatos",
           "cont": '<span>Rouge baja la voz, aunque no haya nadie cerca para escucharlo—: <strong>Y no era el único que sabía</strong> —dice—. <strong>En el ambiente ya se comentaba que los tres andaban detrás de la piedra. Al poco tiempo empezaron a circular rumores sobre cuánto valdrían sus cabezas si llegaban a encontrarla.</strong> —Se encoge de hombros, incómodo—. <strong>Nadie lo decía en voz alta, pero todos sabían el precio.</strong></span>',
         },
@@ -875,7 +885,7 @@ const MissionsModule = (function () {
 
         "cómo llegar al faro": {
           "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "la verdad sobre el faro",
-          "cont": '<span>Rouge explica que el único modo de llegar es en bote, desde Unst, la isla más al norte de las Shetland. Un pescador del lugar, Magnus Tait, conoce la corriente y cobra caro por cruzar, aunque se niega a acercarse al faro y deja a los pasajeros sobre el hielo—: <strong>Solo en julio o agosto, y solo con cuarto menguante</strong> —insiste—. <strong>Es lo que dicen todos los que saben del faro. Cualquier otra noche, el agua tapa la isla, y no quieren estar encima cuando eso pase.</strong> —La próxima noche de cuarto menguante cae el 3 de julio, en apenas unos días.</span>',
+          "cont": '<span>Rouge explica que el único modo de llegar es en bote, desde Unst, la isla más al norte de las Shetland. Un pescador del lugar, Magnus Tait, conoce la corriente y cobra caro por cruzar, aunque se niega a acercarse al faro y deja a los pasajeros sobre el hielo—: <strong>Solo en julio o agosto, y solo con cuarto menguante</strong> —insiste—. <strong>Es lo que dicen todos los que saben del faro. Cualquier otra noche, el agua tapa la isla, y no quieren estar encima cuando eso pase.</strong></span>',
         },
 
         "lágrimas de mandrágora": {
