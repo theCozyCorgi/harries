@@ -12348,7 +12348,8 @@ mark.bw-manifest-marca {
 .bw-limpieza-bloque .bw-manifest-grupo-body {
   display: flex;
   flex-flow: column;
-  gap: 6px;
+  gap: 8px;
+  padding: 10px 0 2px;
 }
 
 .bw-limpieza-bloque .bw-manifest-grupo-body[hidden],
@@ -12357,90 +12358,53 @@ mark.bw-manifest-marca {
   display: none;
 }
 
-/* limpieza paso a paso: números arriba, el paso que toca y los botones */
-.bw-limpieza-progreso {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 4px;
+/* la cabecera de la limpieza con la rampa del manifiesto */
+.bw-limpieza-pasos > .bw-manifest-grupo-head {
+  background: linear-gradient(90deg, var(--mf-1), var(--mf-6));
 }
 
-.bw-limpieza-progreso span {
-  display: grid;
-  place-items: center;
-  width: 22px;
-  height: 22px;
-  border-radius: 50%;
-  background: var(--mode-back-100);
-  color: var(--mode-text-100);
-  font: var(--style-link);
-  font-size: 10px;
-  opacity: .5;
-}
-
-.bw-limpieza-progreso span.hecho {
-  background: var(--validation-success, var(--post-user, var(--mf-grupo)));
-  color: #fff;
-  opacity: 1;
-}
-
-.bw-limpieza-progreso span.actual {
-  background: var(--post-user, var(--mf-grupo));
-  color: var(--color-text-100);
-  opacity: 1;
-}
-
-.bw-limpieza-paso {
-  display: flex;
-  flex-flow: column;
-  gap: 6px;
-}
-
-.bw-limpieza-paso h5,
-.bw-limpieza-validar-res h5 {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  margin: 4px 0 0;
-  font: var(--style-link);
-  font-size: 11px;
-  text-transform: uppercase;
-  color: var(--mode-text-100);
-}
-
-.bw-limpieza-paso h5 span {
-  padding: 2px 8px;
-  border-radius: 3px;
-  background: var(--mode-back-100);
-  font-size: 9px;
-}
-
-.bw-limpieza-nav {
-  justify-content: space-between;
-  margin-top: 4px;
-}
-
-/* barra de progreso de la limpieza, arriba de todo */
+/* ---------- barra de progreso, arriba de todo ---------- */
 .bw-limpieza-barra {
   display: flex;
   flex-flow: column;
-  gap: 4px;
+  gap: 6px;
+  padding: 10px 12px;
+  border-radius: 5px;
+  background: var(--mode-opacity-50);
+}
+
+.bw-limpieza-barra-txt {
+  display: flex;
+  align-items: center;
+  gap: 8px;
   font: var(--style-link);
   font-size: 10px;
+  letter-spacing: 1px;
   text-transform: uppercase;
   color: var(--mode-text-100);
 }
 
-.bw-limpieza-barra span {
-  display: flex;
-  align-items: center;
-  gap: 6px;
+.bw-limpieza-barra-txt i {
+  color: var(--mf-1);
+}
+
+.bw-limpieza-barra-txt b {
+  font-weight: 500;
+  opacity: .75;
+  color: var(--mode-text-100) !important;
+}
+
+.bw-limpieza-barra-txt small {
+  margin-left: auto;
+  font: 700 12px var(--font-code);
+  letter-spacing: 0;
 }
 
 .bw-limpieza-pista {
   position: relative;
-  height: 6px;
+  height: 8px;
   overflow: hidden;
-  border-radius: 3px;
+  border-radius: 4px;
   background: color-mix(in oklch, var(--mode-back-80) 45%, transparent);
 }
 
@@ -12448,13 +12412,17 @@ mark.bw-manifest-marca {
   position: absolute;
   inset: 0 auto 0 0;
   width: 0;
-  border-radius: 3px;
-  background: var(--post-user, var(--mf-grupo));
-  transition: width .4s ease;
+  border-radius: 4px;
+  background: linear-gradient(90deg, var(--mf-1), var(--mf-6));
+  transition: width .5s ease;
 }
 
 .bw-limpieza-barra.completa .bw-limpieza-pista i {
-  background: var(--validation-success, var(--post-user, var(--mf-grupo)));
+  background: var(--validation-passed);
+}
+
+.bw-limpieza-barra.completa .bw-limpieza-barra-txt i {
+  color: var(--validation-passed);
 }
 
 /* sincronizando: la barra va y viene mientras trabaja */
@@ -12468,14 +12436,212 @@ mark.bw-manifest-marca {
   100% { left: 100%; }
 }
 
-/* resultado de comprobar un paso */
+/* ---------- pasos: los números unidos por una línea que avanza (--avance lo pone cleaning.js) ---------- */
+.bw-limpieza-progreso {
+  position: relative;
+  z-index: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 2px;
+}
+
+.bw-limpieza-progreso::before,
+.bw-limpieza-progreso::after {
+  content: '';
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  z-index: -1;
+  height: 2px;
+  transform: translateY(-50%);
+}
+
+.bw-limpieza-progreso::before {
+  right: 15px;
+  background: var(--mode-back-80);
+  opacity: .5;
+}
+
+.bw-limpieza-progreso::after {
+  width: calc((100% - 30px) * var(--avance, 0));
+  background: var(--validation-passed);
+  transition: width .5s ease;
+}
+
+.bw-limpieza-progreso span {
+  display: grid;
+  place-items: center;
+  flex: 0 0 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: var(--mode-back-90);
+  box-shadow: inset 0 0 0 1px var(--mode-back-80);
+  color: var(--mode-back-70);
+  font: 700 11px var(--font-code);
+  transition: background var(--fast), color var(--fast), box-shadow var(--fast);
+}
+
+.bw-limpieza-progreso span.hecho {
+  background: var(--validation-passed);
+  box-shadow: none;
+  color: #fff;
+}
+
+.bw-limpieza-progreso span.actual {
+  background: var(--mf-1);
+  color: var(--color-text-100);
+  box-shadow: 0 0 0 3px color-mix(in oklch, var(--mf-1) 35%, transparent);
+}
+
+/* colores de la limpieza: hecho en verde, pendiente en rojo, salteado (modo prueba) en azul */
+.bw-limpieza {
+  --lp-verde: var(--validation-passed);
+  --lp-rojo: var(--validation-failed);
+  --lp-azul: oklch(0.58 0.11 252);
+}
+
+.bw-manifest .aviso-verde { --estado: var(--lp-verde); }
+.bw-manifest .aviso-azul { --estado: var(--lp-azul); }
+
+.bw-limpieza-progreso span:not(.hecho):not(.actual):not(.saltado) {
+  background: color-mix(in oklch, var(--lp-rojo) 14%, var(--mode-back-90));
+  box-shadow: inset 0 0 0 1.5px var(--lp-rojo);
+  color: var(--lp-rojo);
+}
+
+.bw-limpieza-progreso span.saltado {
+  background: var(--lp-azul);
+  box-shadow: none;
+  color: #fff;
+}
+
+/* filas y MPs con casillas: el fondo toma el color de su estado */
+.bw-manifest-tema.bw-limpieza-fila {
+  background: color-mix(in oklch, var(--estado) 14%, var(--mode-back-100));
+  transition: background var(--fast);
+}
+
+.bw-limpieza-fila.aviso-verde .bw-manifest-aviso.rojo {
+  background: var(--lp-verde);
+}
+
+.bw-limpieza-mp.bw-limpieza-fila {
+  border-top: 3px solid var(--estado);
+  background: color-mix(in oklch, var(--estado) 10%, var(--mode-back-100));
+  transition: background var(--fast), border-color var(--fast);
+}
+
+/* ---------- el paso que toca ---------- */
+.bw-limpieza-paso {
+  display: flex;
+  flex-flow: column;
+  gap: 8px;
+}
+
+/* cabecera del paso: como la del manifiesto, en chico */
+.bw-limpieza-paso-head {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 14px 16px;
+  border-radius: 5px;
+  background: linear-gradient(110deg, var(--mf-1), var(--mf-4));
+  color: var(--color-text-100);
+}
+
+.bw-limpieza-paso-head > i {
+  display: grid;
+  place-items: center;
+  flex: 0 0 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgb(0 0 0 / 20%);
+  font-size: 17px;
+  color: var(--color-text-100);
+}
+
+.bw-limpieza-paso-head > div {
+  display: flex;
+  flex-flow: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.bw-limpieza-paso-kicker {
+  font-family: var(--font-letter);
+  font-size: 14px;
+  text-transform: lowercase;
+  opacity: .85;
+}
+
+.bw-limpieza-paso-head strong {
+  font-family: var(--font-bold);
+  font-size: 20px;
+  line-height: 1.1;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  color: var(--color-text-100) !important;
+}
+
+/* el paso completo: verde */
+.bw-limpieza-fin .bw-limpieza-paso-head {
+  background: linear-gradient(110deg, var(--validation-passed), color-mix(in oklab, var(--validation-passed) 60%, var(--mf-6)));
+}
+
+.bw-limpieza-paso .bw-limpieza-ayuda {
+  padding: 10px 12px;
+  border-radius: 3px;
+  background: var(--mode-opacity-50);
+  line-height: 1.5;
+  opacity: 1;
+}
+
+/* los links de la ayuda: en el color del manifiesto y sin el estilo de link del foro */
+.cleaning-day .bw-limpieza .bw-limpieza-ayuda a {
+  margin: 0;
+  padding: 0;
+  font: inherit !important;
+  font-weight: 700 !important;
+  color: var(--mf-1) !important;
+}
+
+.bw-limpieza-ayuda code {
+  padding: 0 4px;
+  border-radius: 3px;
+  background: var(--mode-back-100);
+  font: 11px var(--font-code);
+}
+
+/* subtítulos dentro del paso: la barra de .bw-manifest-sub */
+.bw-limpieza-paso h5,
+.bw-limpieza-validar-res h5,
+.bw-limpieza-estado h5 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 4px 0 0 !important;
+  padding: 6px 12px !important;
+  border: none !important;
+  border-radius: 3px;
+  background: var(--mode-back-80);
+  font: var(--style-link);
+  font-size: 10px !important;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--color-text-100) !important;
+}
+
+/* ---------- resultado de comprobar ---------- */
 .bw-limpieza-estado {
+  --estado: var(--mf-6);
   display: flex;
   flex-flow: column;
   gap: 6px;
-  padding: 8px 12px;
+  padding: 10px 12px;
+  border-top: 3px solid var(--estado);
   border-radius: 3px;
-  background: var(--mode-opacity-50);
+  background: color-mix(in oklch, var(--estado) 12%, var(--mode-back-90));
   font-size: 12px;
 }
 
@@ -12484,45 +12650,97 @@ mark.bw-manifest-marca {
 }
 
 .bw-limpieza-estado.mal {
-  background: color-mix(in oklch, var(--validation-failed) 15%, transparent);
+  --estado: var(--validation-failed);
+}
+
+.bw-limpieza-estado.mal h5 {
+  background: var(--validation-failed);
 }
 
 .bw-limpieza-sync {
   display: flex;
   align-items: center;
   gap: 8px;
+  font: var(--style-link);
+  font-size: 11px;
 }
 
-/* casillas manuales (puntos, Discord, MP enviado, tema cerrado) */
+.bw-limpieza-sync i {
+  font-size: 14px;
+  color: var(--estado);
+}
+
+/* ---------- casillas: pastillas que se pintan al marcarlas ---------- */
 .bw-limpieza-checks {
   display: flex;
   flex-basis: 100%;
   flex-wrap: wrap;
-  gap: 4px 12px;
+  gap: 4px;
+  margin-top: 2px;
 }
 
 .bw-limpieza-check {
   display: inline-flex;
   align-items: center;
-  gap: 4px;
-  font-size: 11px;
+  gap: 6px;
+  padding: 3px 9px 3px 6px;
+  border-radius: 10px;
+  /* pendiente: rojo; marcada: verde */
+  background: color-mix(in oklch, var(--lp-rojo) 22%, var(--mode-back-90));
+  color: var(--mode-text-100);
+  font: var(--style-link);
+  font-size: 9px;
+  letter-spacing: .5px;
+  text-transform: uppercase;
   cursor: pointer;
+  transition: background var(--fast), color var(--fast);
 }
 
 .bw-limpieza-check input {
+  appearance: none;
+  display: grid;
+  place-items: center;
+  width: 12px;
+  height: 12px;
   margin: 0;
-  accent-color: var(--post-user, var(--mf-grupo));
+  border: 1.5px solid var(--lp-rojo);
+  border-radius: 50%;
+  cursor: pointer;
 }
 
-.bw-limpieza-check:has(input:checked) span {
-  opacity: .6;
-  text-decoration: line-through;
+/* el tilde, dibujado con bordes */
+.bw-limpieza-check input::after {
+  content: '';
+  width: 3px;
+  height: 6px;
+  margin-top: -2px;
+  border: solid transparent;
+  border-width: 0 1.5px 1.5px 0;
+  transform: rotate(45deg);
 }
 
+.bw-limpieza-check:hover {
+  background: color-mix(in oklch, var(--lp-rojo) 40%, var(--mode-back-90));
+}
+
+.bw-limpieza-check:has(input:checked) {
+  background: var(--lp-verde);
+  color: #fff;
+}
+
+.bw-limpieza-check input:checked {
+  border-color: #fff;
+}
+
+.bw-limpieza-check input:checked::after {
+  border-color: #fff;
+}
+
+/* ---------- MPs ---------- */
 .bw-limpieza-mp-acciones {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
+  gap: 8px;
   margin-left: auto;
 }
 
@@ -12530,16 +12748,24 @@ mark.bw-manifest-marca {
   margin-left: 0;
 }
 
-/* botoncito al lado del aviso (mover, copiar título) */
+/* ---------- botones ---------- */
 .bw-limpieza-mini {
-  padding: 1px 8px;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 8px;
   border-radius: 3px;
-  background: var(--post-user, var(--mf-grupo));
+  background: var(--mf-3);
   color: var(--color-text-100);
   font: var(--style-link);
   font-size: 9px;
   line-height: 16px;
   text-transform: uppercase;
+  transition: background var(--fast);
+}
+
+.bw-limpieza-mini:hover {
+  background: var(--mf-1);
 }
 
 .bw-limpieza-sugerido {
@@ -12549,18 +12775,75 @@ mark.bw-manifest-marca {
 }
 
 .bw-limpieza-sugerido code {
-  padding: 0 6px;
+  padding: 1px 6px;
   border-radius: 3px;
   background: var(--mode-back-90);
   font: 11px var(--font-code);
   text-transform: none;
 }
 
-/* validar actividad: selector de cuenta y lo que devuelve */
+.bw-limpieza-nav {
+  justify-content: space-between;
+  margin-top: 4px;
+}
+
+.bw-limpieza-nav button {
+  padding: 9px 16px;
+  border-radius: 3px;
+  background: var(--mf-1);
+  color: var(--color-text-100);
+  font-size: 10px;
+  letter-spacing: 1px;
+  transition: background var(--fast), opacity var(--fast);
+}
+
+.bw-limpieza-nav button:hover:not(:disabled) {
+  background: var(--mf-2);
+}
+
+.bw-limpieza-nav [data-paso-volver] {
+  background: transparent;
+  color: var(--mode-text-100);
+  box-shadow: inset 0 0 0 1px var(--mode-back-80);
+}
+
+.bw-limpieza-nav [data-paso-volver]:hover:not(:disabled) {
+  background: var(--mode-back-90);
+}
+
+/* el botón de saltar (modo prueba, se prende por consola) */
+.bw-limpieza-nav [data-paso-saltar] {
+  margin-left: auto;
+  background: var(--validation-warning);
+  color: #fff;
+}
+
+.bw-limpieza-nav [data-paso-saltar] + button {
+  margin-left: 6px;
+}
+
+.bw-limpieza-prueba {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 12px;
+  border-radius: 3px;
+  background: color-mix(in oklch, var(--validation-warning) 20%, var(--mode-back-90));
+  font: var(--style-link);
+  font-size: 10px;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+}
+
+.bw-limpieza-prueba i {
+  color: var(--validation-warning);
+}
+
+/* ---------- validar actividad: selector de cuenta y lo que devuelve ---------- */
 .bw-limpieza-select {
   box-sizing: border-box;
   width: 100%;
-  padding: 6px 8px;
+  padding: 7px 10px;
   border: 1px solid var(--mode-back-80);
   border-radius: 3px;
   background: var(--mode-back-100);
