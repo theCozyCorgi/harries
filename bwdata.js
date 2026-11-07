@@ -910,7 +910,7 @@ const MissionsModule = (function () {
 
         "rouge pide silencio": {
           "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "la verdad sobre el faro",
-          "cont": '<span>Cuando ya no le queda nada por contar, Rouge se pasa las manos por la cara—: <strong>Les di todo</strong> —dice, con la voz gastada—. <strong>Todo. No le digan nada al Ministerio. Las mariposas no le hacen daño a nadie mientras estén acá, y si me llevan, nadie va a sostener ese domo. Se van a morir todas.</strong> —Los mira uno por uno, esperando una respuesta.</span>',
+          "cont": '<span>Cuando ya no le queda nada por contar, Rouge se pasa las manos por la cara—: <strong>Les di todo</strong> —dice, con la voz gastada—. <strong>Todo. No le digan nada al Ministerio. Las mariposas no le hacen daño a nadie mientras estén acá, y si me llevan, nadie va a sostener ese domo. Se van a morir todas.</strong> —Señala la barrera con un gesto cansado—. <strong>Todos en la reserva saben del domo, pero nadie sabe de las mariposas. Las escondí con un fidelio, y el guardián del secreto soy yo. Ni siquiera la señora Moody puede verlas. Si yo no estoy, nadie va a saber que siguen ahí.</strong> —Los mira uno por uno, esperando una respuesta.</span>',
         },
 
         "apresar a rouge": {
