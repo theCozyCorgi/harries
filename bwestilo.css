@@ -12193,6 +12193,23 @@ mark.bw-manifest-marca {
   content: none;
 }
 
+/* la nota de ausencias (Jasper recién vuelto) pegada al título y con la misma sangría */
+.cleaning-day .bw-limpieza .bw-manifest-tema-txt {
+  row-gap: 0;
+}
+
+.cleaning-day .bw-limpieza .bw-manifest-tema-txt > a {
+  margin-left: 0;
+  padding-left: 0;
+  text-indent: 0;
+}
+
+.cleaning-day .bw-limpieza .bw-manifest-tema-txt small {
+  margin: -1px 0 0;
+  padding: 0;
+  line-height: 1.2;
+}
+
 /* aviso de base vacía o vieja en este navegador */
 .bw-limpieza-alerta {
   display: flex;
@@ -12325,6 +12342,236 @@ mark.bw-manifest-marca {
   gap: 4px;
   margin: 0;
   font-size: 12px;
+}
+
+/* secciones plegables de la limpieza: el cuerpo en columna */
+.bw-limpieza-bloque .bw-manifest-grupo-body {
+  display: flex;
+  flex-flow: column;
+  gap: 6px;
+}
+
+.bw-limpieza-bloque .bw-manifest-grupo-body[hidden],
+.bw-limpieza-paso[hidden],
+.bw-limpieza-botones button[hidden] {
+  display: none;
+}
+
+/* limpieza paso a paso: números arriba, el paso que toca y los botones */
+.bw-limpieza-progreso {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.bw-limpieza-progreso span {
+  display: grid;
+  place-items: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: var(--mode-back-100);
+  color: var(--mode-text-100);
+  font: var(--style-link);
+  font-size: 10px;
+  opacity: .5;
+}
+
+.bw-limpieza-progreso span.hecho {
+  background: var(--validation-success, var(--post-user, var(--mf-grupo)));
+  color: #fff;
+  opacity: 1;
+}
+
+.bw-limpieza-progreso span.actual {
+  background: var(--post-user, var(--mf-grupo));
+  color: var(--color-text-100);
+  opacity: 1;
+}
+
+.bw-limpieza-paso {
+  display: flex;
+  flex-flow: column;
+  gap: 6px;
+}
+
+.bw-limpieza-paso h5,
+.bw-limpieza-validar-res h5 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 4px 0 0;
+  font: var(--style-link);
+  font-size: 11px;
+  text-transform: uppercase;
+  color: var(--mode-text-100);
+}
+
+.bw-limpieza-paso h5 span {
+  padding: 2px 8px;
+  border-radius: 3px;
+  background: var(--mode-back-100);
+  font-size: 9px;
+}
+
+.bw-limpieza-nav {
+  justify-content: space-between;
+  margin-top: 4px;
+}
+
+/* barra de progreso de la limpieza, arriba de todo */
+.bw-limpieza-barra {
+  display: flex;
+  flex-flow: column;
+  gap: 4px;
+  font: var(--style-link);
+  font-size: 10px;
+  text-transform: uppercase;
+  color: var(--mode-text-100);
+}
+
+.bw-limpieza-barra span {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.bw-limpieza-pista {
+  position: relative;
+  height: 6px;
+  overflow: hidden;
+  border-radius: 3px;
+  background: color-mix(in oklch, var(--mode-back-80) 45%, transparent);
+}
+
+.bw-limpieza-pista i {
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 0;
+  border-radius: 3px;
+  background: var(--post-user, var(--mf-grupo));
+  transition: width .4s ease;
+}
+
+.bw-limpieza-barra.completa .bw-limpieza-pista i {
+  background: var(--validation-success, var(--post-user, var(--mf-grupo)));
+}
+
+/* sincronizando: la barra va y viene mientras trabaja */
+.bw-limpieza-pista.indeterminada i {
+  width: 35%;
+  animation: bw-limpieza-ida 1.4s ease-in-out infinite;
+}
+
+@keyframes bw-limpieza-ida {
+  0% { left: -35%; }
+  100% { left: 100%; }
+}
+
+/* resultado de comprobar un paso */
+.bw-limpieza-estado {
+  display: flex;
+  flex-flow: column;
+  gap: 6px;
+  padding: 8px 12px;
+  border-radius: 3px;
+  background: var(--mode-opacity-50);
+  font-size: 12px;
+}
+
+.bw-limpieza-estado[hidden] {
+  display: none;
+}
+
+.bw-limpieza-estado.mal {
+  background: color-mix(in oklch, var(--validation-failed) 15%, transparent);
+}
+
+.bw-limpieza-sync {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* casillas manuales (puntos, Discord, MP enviado, tema cerrado) */
+.bw-limpieza-checks {
+  display: flex;
+  flex-basis: 100%;
+  flex-wrap: wrap;
+  gap: 4px 12px;
+}
+
+.bw-limpieza-check {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+.bw-limpieza-check input {
+  margin: 0;
+  accent-color: var(--post-user, var(--mf-grupo));
+}
+
+.bw-limpieza-check:has(input:checked) span {
+  opacity: .6;
+  text-decoration: line-through;
+}
+
+.bw-limpieza-mp-acciones {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: auto;
+}
+
+.bw-limpieza-mp-acciones button {
+  margin-left: 0;
+}
+
+/* botoncito al lado del aviso (mover, copiar título) */
+.bw-limpieza-mini {
+  padding: 1px 8px;
+  border-radius: 3px;
+  background: var(--post-user, var(--mf-grupo));
+  color: var(--color-text-100);
+  font: var(--style-link);
+  font-size: 9px;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+
+.bw-limpieza-sugerido {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.bw-limpieza-sugerido code {
+  padding: 0 6px;
+  border-radius: 3px;
+  background: var(--mode-back-90);
+  font: 11px var(--font-code);
+  text-transform: none;
+}
+
+/* validar actividad: selector de cuenta y lo que devuelve */
+.bw-limpieza-select {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 6px 8px;
+  border: 1px solid var(--mode-back-80);
+  border-radius: 3px;
+  background: var(--mode-back-100);
+  color: var(--mode-text-100);
+  font-size: 12px;
+}
+
+.bw-limpieza-validar-res {
+  display: flex;
+  flex-flow: column;
+  gap: 6px;
 }
 
 /* vista wrap-up: selector de año arriba de las pestañas y línea de hitos */
