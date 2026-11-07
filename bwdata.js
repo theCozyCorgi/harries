@@ -685,6 +685,56 @@ const MissionsModule = (function () {
           "visible": { "attr": { "val": "min" }, "know": { "ccm": "10" }, "job": "invalid", "name": "invalid", }, "place": "vacío legal",
           "cont": '<span>Un clima que no debería existir ahí, sostenido de forma artificial para algo que nadie sembró ni vendió: la respuesta solo puede estar en el <strong>bioma selvático de la reserva</strong>.</span>',
         },
+
+        {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "acorralar a rouge",
+          "cont": '<span><strong>Tarjeta informativa, no cuenta para el límite de tarjetas que pueden leer.</strong><br><br>Quien haya tirado «acorralar a rouge» debe sumar su Carisma al resultado del dado. Con 14 o más, Rouge se quiebra y habla: continúen con «la verdad sobre el faro». Con menos de 14, intenta huir: continúen con «detener a rouge».</span>',
+        },
+
+        {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "cómo se extrae el veneno",
+          "cont": '<span><strong>Tarjeta informativa, no cuenta para el límite de tarjetas que pueden leer.</strong><br><br>Rouge les alcanza un par de guantes de piel de dragón y un frasco con tapa de cera. Para extraer el veneno se deben seguir, en orden, los siguientes pasos: <i>Ventus</i> sobre la colonia para asustar a una mariposa, <i>Continentia Bulla</i> para encerrar el polvo y <i>Tergeo</i> para llevarlo al frasco. Si un paso queda incompleto, se debe repetir antes de pasar al siguiente.</span>',
+        },
+
+        {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "cómo se extrae el veneno",
+          "cont": '<span>Guantes de piel de dragón, frascos sellados, un embudo de cristal: el material para robar el veneno no se consigue en cualquier lado. Quien se lo llevó sabía de pociones, o trabajaba cerca de alguien que sabía.</span>',
+        },
+
+        {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "la visita de los tres candidatos",
+          "cont": '<span>Rouge baja la voz, aunque no haya nadie cerca para escucharlo—: <strong>Y no era el único que sabía</strong> —dice—. <strong>En el ambiente ya se comentaba que los tres andaban detrás de la piedra. Al poco tiempo empezaron a circular rumores sobre cuánto valdrían sus cabezas si llegaban a encontrarla.</strong> —Se encoge de hombros, incómodo—. <strong>Nadie lo decía en voz alta, pero todos sabían el precio.</strong></span>',
+        },
+
+        {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "la visita de los tres candidatos",
+          "cont": '<span><strong>Por Sirius Black ofrecían diez mil galeones</strong> —dice Rouge—. <strong>La cifra más baja de los tres. Era el que a nadie le molestaba perder.</strong></span>',
+        },
+
+        {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "la visita de los tres candidatos",
+          "cont": '<span><strong>Morgana Dempsey valía treinta y cinco mil</strong> —sigue Rouge—. <strong>La más cara, por lejos.</strong></span>',
+        },
+
+        {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "la visita de los tres candidatos",
+          "cont": '<span><strong>Por Edwin Merrythought, veinticinco mil</strong> —dice Rouge—. <strong>Y quince mil más por cada hijo.</strong> —Hace una mueca—. <strong>Eso fue lo que menos me gustó escuchar.</strong></span>',
+        },
+
+        {
+          "visible": { "attr": { "val": "min" }, "know": { "val": "min" }, "job": "invalid", "name": "viridian", }, "place": "la visita de los tres candidatos",
+          "cont": '<span>A Viridian le suena. Hace un tiempo, entre la gente del oficio, se habló en voz baja de una posible cacería y de una buena suma por alguien. Nunca se mencionaron nombres, y ella no supo nada más. Hasta ahora, no había forma de saber que se trataba de los candidatos.</span>',
+        },
+
+        {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "la visita de los tres candidatos",
+          "cont": '<span>Rouge duda un momento antes de seguir—: <strong>Los precios no salieron de una charla de taberna. Llegaron en una misiva, sin firma, que pasó de mano en mano entre la gente del oficio</strong> —admite—. <strong>No sé quién la mandó. Pero el que la escribió sabía adónde iban los tres, cuándo y qué buscaban.</strong> —Mira al grupo con una seriedad que no le habían visto en toda la tarde—: <strong>Alguien los estaba vigilando.</strong></span>',
+        },
+
+        {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "rouge pide silencio",
+          "cont": '<span><strong>Tarjeta informativa, no cuenta para el límite de tarjetas que pueden leer.</strong><br><br>El grupo debe elegir una sola opción: «apresar a rouge» o «dejar libre a rouge». La primera que se tire es la que cuenta.</span>',
+        },
       ],
 
       "searchs": {
@@ -753,18 +803,13 @@ const MissionsModule = (function () {
           "cont": '<span>Rouge cuenta que, tiempo atrás, encontró una larva y la identificó como una mariposa de jade. La guardó en ese espacio y la protegió para que no lastimara a nadie ni fuera lastimada. Solo debe informar sobre las criaturas que trata oficialmente, no sobre lo que llega por su cuenta—: la mariposa creció allí de forma natural y, con el tiempo, se reprodujo.</span>',
         },
 
-        "reproducción de las mariposas": {
-          "visible": { "attr": { "val": "min" }, "know": { "ccm": "10" }, "job": "invalid", "name": "invalid", }, "place": "colonia de mariposas",
-          "cont": '<span>Si se pregunta cómo se reprodujo estando sola, Rouge responde que seguramente llegó otra en algún momento. Lleva unos meses viviendo en libertad, y asegura que todas las criaturas del lugar están a salvo.</span>',
-        },
-
         "preguntar si alguien compró o se llevó una mariposa o su veneno": {
-          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "reproducción de las mariposas",
+          "visible": { "attr": { "int": "+1", "sab": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "la verdad sobre el faro",
           "cont": '<span>Por primera vez, Rouge responde sin rodeos—: <strong>Siempre hay uno o dos.</strong> —dice, encogiéndose de hombros—. <strong>Gente que se cree más lista que el resto y prueba suerte.</strong> —La mayoría ni siquiera lo intenta en serio, y se van con las manos vacías.<br><br>Se queda pensando un momento, y su expresión cambia—: <strong>Aunque, ahora que lo dicen...</strong> —hace una pausa—. <strong>Hace un tiempo vi a una mujer escabullirse de acá, apurada, como si no quisiera que la vieran.</strong> —admite—. <strong>No le di importancia entonces, pero fue el mismo día que Morgana vino a visitar a la señora Moody.</strong></span>',
         },
 
         "mariposa de jade para sirius": {
-          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar si alguien compró o se llevó una mariposa o su veneno",
+          "visible": { "attr": { "int": "+1", "sab": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "preguntar si alguien compró o se llevó una mariposa o su veneno",
           "cont": '<span>La pregunta golpea distinto cuando se menciona el nombre de Sirius Black. Rouge deja de sonreír por un momento—: <strong>No. A él, no</strong> —dice, tajante—. Insiste en que nunca trató directamente con Sirius, y que si alguien consiguió una mariposa de jade para dársela, no fue él quien se la puso en las manos—. <strong>Pero ya les dije lo de la mujer que vi escabullirse</strong> —agrega, más serio de lo habitual—. <strong>Si quieren atar cabos, empiecen por ahí. Yo ya até los míos y no me gustó adónde llegaban.</strong></span>',
         },
 
@@ -806,6 +851,61 @@ const MissionsModule = (function () {
         "últimos trabajos de rouge": {
           "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "presentarse ante rouge",
           "cont": '<span>Al preguntarle por sus tareas recientes, Rouge enumera con cierto fastidio, como si le aburriera la propia rutina—: contención de una camada de escarbatos que no paran de escapar de su recinto, revisión semanal del domo selvático y su fauna, alimentación de las criaturas del ala de reptiles, y acompañamiento a un par de sanadores que vinieron a extraer veneno de doxy con fines medicinales bajo supervisión del Ministerio—. <strong>Nada emocionante</strong> —resume, encogiéndose de hombros—. <strong>Ese es el punto de estar retirado: que no pase nada digno de mención.</strong></span>',
+        },
+
+        "no tan rápido": {
+          "visible": { "attr": { "val": "min" }, "know": { "ccm": "5" }, "job": "invalid", "name": "invalid", }, "place": "preguntar hace cuánto están las mariposas allí",
+          "cont": '<span>Quien sabe algo de criaturas no se deja llevar por la historia de Rouge, porque no cierra por ningún lado. Una larva de mariposa de jade no sobrevive sola un viaje desde Birmania, y aunque lo hiciera, una sola larva no forma una colonia: hacen falta macho y hembra. Además, la oruga solo se alimenta de plantas de su selva natal, y alguien tuvo que sembrarlas dentro del domo. Ese calor tampoco se sostiene solo; se renueva cada semana, y Rouge mismo lo nombró entre sus tareas.<br><br>Eso no es una colonia que creció por su cuenta: es un criadero. Mantener sin declarar una criatura prohibida dentro de una reserva registrada, y además dejarla reproducirse, no es un vacío legal. Para el Departamento de Regulación y Control de las Criaturas Mágicas es delito, y quien lo comete termina en Azkaban.<br><br>Rouge deja de sonreír. No responde. Se queda inmóvil junto a la barrera, con la mandíbula apretada y los hombros rígidos, y lo único que se mueve en él son los ojos, que van y vienen entre el grupo y la salida del domo.</span>',
+        },
+
+        "acorralar a rouge": {
+          "visible": { "attr": { "val": "min" }, "know": { "contrabando": "10" }, "job": "invalid", "name": "invalid", }, "place": "no tan rápido",
+          "cont": '<span>Quien conoce el oficio sabe dónde apretar. El polvo de mariposa de jade se paga por onzas en el Callejón Knockturn, y un criadero con decenas de ejemplares vale más que el sueldo de toda una vida en la reserva. Nadie mantiene algo así por compasión: lo mantiene para vender, o para que otro venda. Cada palabra cierra una salida más, y Rouge lo sabe. Retrocede un paso, después otro, hasta que la espalda le choca contra el cristal del domo.</span>',
+        },
+
+        "detener a rouge": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "acorralar a rouge",
+          "cont": '<span>Rouge no espera a escuchar el final. Saca la varita de la manga con una rapidez que nadie esperaría de un hombre de su edad y sale disparado hacia la puerta del domo, derribando a su paso una maceta de enredaderas. Afuera, los guardias de la reserva gritan algo que nadie alcanza a entender.<br><br>Para continuar, deberán detener a Rouge, que cuenta como PNJ de la misión: <strong>130 PV, +6 en Fuerza y +6 en Constitución</strong>. Conoce la reserva como la palma de su mano, y cada vez que se defienda puede liberar criaturas de los recintos cercanos.<br><br>Mientras Rouge no esté atrapado, se anulan las respuestas de los searchs de la misión. Una vez que lo atrapen, avisen a la administración para que un miembro del staff realice el masteo del interrogatorio.</span>',
+        },
+
+        "la verdad sobre el faro": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "acorralar a rouge",
+          "cont": '<span>Sin salida, Rouge se derrumba. Habla rápido, atropellando las palabras, como si callar un segundo más fuera a costarle la libertad—: <strong>Lo del contrabandista borracho era cierto, pero no me quedé ahí. Fui a ver si existía.</strong> —Hay un faro tan al norte de Escocia que casi se cae del mapa, más allá de las Shetland, donde ya no queda nada más que mar. Se levanta sobre una isla de hielo que el agua cubre casi todo el año. Solo en julio y agosto el verano derrite lo suficiente, y aun así hace falta esperar la noche de cuarto menguante, cuando la marea sube tan poco que el faro asoma y se puede llegar hasta él. Según Rouge, la piedra está ahí, bajo el faro, donde el río que corre por debajo del fondo del mar sale a la superficie.<br><br><strong>Yo no entré</strong> —admite—. <strong>Lo vi desde el bote y me di la vuelta. Algo que puede traer tanto bien tiene que tener un precio, y yo no quise descubrir cuál era.</strong> —Traga saliva—. <strong>A los tres les dije dónde estaba. A los tres.</strong></span>',
+        },
+
+        "cómo llegar al faro": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "la verdad sobre el faro",
+          "cont": '<span>Rouge explica que el único modo de llegar es en bote, desde Unst, la isla más al norte de las Shetland. Un pescador del lugar, Magnus Tait, conoce la corriente y cobra caro por cruzar, aunque se niega a acercarse al faro y deja a los pasajeros sobre el hielo—: <strong>Solo en julio o agosto, y solo con cuarto menguante</strong> —insiste—. <strong>Es lo que dicen todos los que saben del faro. Cualquier otra noche, el agua tapa la isla, y no quieren estar encima cuando eso pase.</strong> —La próxima noche de cuarto menguante cae el 3 de julio, en apenas unos días.</span>',
+        },
+
+        "lágrimas de mandrágora": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "la verdad sobre el faro",
+          "cont": '<span>Rouge confiesa que la piedra no fue lo único que ofreció. A Morgana y a Edwin también les propuso lágrimas de mandrágora, que valen una fortuna en el mercado negro y que él podía conseguir por un precio razonable—: <strong>Cualquiera que busque una cura imposible las pagaría con los ojos cerrados</strong> —dice—. <strong>Pero ninguno de los dos mostró el menor interés. Ni siquiera preguntaron cuánto costaban.</strong> —Frunce el ceño—. <strong>Eso fue lo que más me extrañó. Gente desesperada no rechaza una oferta así, a menos que ya tenga lo que necesita.</strong></span>',
+        },
+
+        "la visita de los tres candidatos": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "la verdad sobre el faro",
+          "cont": '<span>Rouge duda antes de seguir, como si lo que va a decir le hubiera dado vueltas en la cabeza durante meses—: <strong>Había algo raro en la forma en que vinieron</strong> —admite—. <strong>Llegaron por separado, con semanas de diferencia, y cada uno hizo como si no conociera a los otros dos. Pero los tres me pidieron lo mismo antes de irse: que si los otros venían a preguntar, no les dijera que habían estado acá.</strong> —Levanta la vista—. <strong>¿Cómo sabían que los otros iban a venir?</strong></span>',
+        },
+
+        "cómo se extrae el veneno": {
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "20" }, "job": "invalid", "name": "invalid", }, "place": "la verdad sobre el faro",
+          "cont": '<span>Quien domina las pociones no necesita que Rouge lo diga: si la mariposa libera el veneno como polvo al batir las alas cuando se siente amenazada, basta con asustarla dentro de un espacio cerrado. El polvo se recoge en el aire con un embudo de cristal y se guarda en un frasco sellado con cera, igual que cualquier ingrediente volátil. Para tocarlo sin riesgo hacen falta guantes de piel de dragón, los mismos que se usan en cualquier laboratorio de pociones.<br><br>Rouge asiente despacio, sin sorpresa—: <strong>Así es. No hace falta llevarse la mariposa. Con un frasco y buenos guantes, cualquiera sale de acá con el veneno en el bolsillo.</strong></span>',
+        },
+
+        "rouge pide silencio": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "la verdad sobre el faro",
+          "cont": '<span>Cuando ya no le queda nada por contar, Rouge se pasa las manos por la cara—: <strong>Les di todo</strong> —dice, con la voz gastada—. <strong>Todo. No le digan nada al Ministerio. Las mariposas no le hacen daño a nadie mientras estén acá, y si me llevan, nadie va a sostener ese domo. Se van a morir todas.</strong> —Los mira uno por uno, esperando una respuesta.</span>',
+        },
+
+        "apresar a rouge": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "rouge pide silencio",
+          "cont": '<span>Apenas entiende que no habrá trato, algo se apaga en la mirada de Rouge y otra cosa ocupa su lugar. Con un movimiento brusco golpea la barrera de la colonia, y una nube de mariposas de jade se levanta en el aire entre él y el grupo. Aprovecha la confusión para correr hacia la salida, varita en mano.<br><br>Para continuar, deberán enfrentarse a Rouge, que cuenta como PNJ de la misión: <strong>130 PV, +6 en Fuerza y +6 en Constitución</strong>. Cada vez que se defienda puede liberar criaturas de los recintos cercanos.<br><br>Mientras Rouge no esté atrapado, se anulan las respuestas de los searchs de la misión. Una vez que lo atrapen, avisen a la administración para que un miembro del staff realice el masteo correspondiente.</span>',
+        },
+
+        "dejar libre a rouge": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "rouge pide silencio",
+          "cont": '<span>Rouge suelta el aire como si lo hubiera contenido durante toda la tarde. Asiente, sin agradecer en voz alta, y vuelve a acomodar la barrera de la colonia con manos que todavía tiemblan—: <strong>Si alguna vez necesitan algo de este lugar</strong> —dice, sin mirarlos—, <strong>ya saben dónde encontrarme.</strong> —Por primera vez desde que llegaron, parece decirlo en serio.</span>',
         },
       },
 
@@ -948,6 +1048,52 @@ const MissionsModule = (function () {
           "moderado": 'El cebo queda pegado al suelo, aunque se despega con un par de tirones. <replace target="cantidad" calculate="0.25" data="5">[25% del dado + bonus por conocimiento, máximo 5]</replace> de los escarbatos atraídos se quedan forcejeando con él.',
           "exitoso": 'El cebo queda bien fijado. <replace target="cantidad" calculate="0.25" data="5">[25% del dado + bonus por conocimiento, máximo 5]</replace> de los escarbatos atraídos se quedan intentando arrancarlo.',
           "critico": 'El cebo queda inamovible. <replace target="cantidad" calculate="0.25" data="5">[25% del dado + bonus por conocimiento, máximo 5]</replace> de los escarbatos atraídos no se apartan de él ni aunque los espanten.',
+        },
+
+        "ventus": {
+          "leve": 'Paso 1 de 3: Incompleto. Si se lanza sobre la colonia, la ráfaga no alcanza a ninguna mariposa. En cualquier otro lugar, el viento apenas mueve el aire.',
+          "moderado": 'Paso 1 de 3: Completado. Si se lanza sobre la colonia, una mariposa se asusta y bate las alas, liberando una nube fina de polvo verde. En cualquier otro lugar, la ráfaga empuja objetos livianos.',
+          "exitoso": 'Paso 1 de 3: Completado. Si se lanza sobre la colonia, una mariposa se asusta y libera una nube densa de polvo, que queda suspendida en el aire. En cualquier otro lugar, la ráfaga desequilibra al objetivo.',
+          "critico": 'Paso 1 de 3: Completado. Si se lanza sobre la colonia, una sola mariposa libera todo su polvo sin alterar al resto de la colonia. En cualquier otro lugar, la ráfaga derriba al objetivo.',
+        },
+
+        "continentia bulla": {
+          "leve": 'Paso 2 de 3: Incompleto. La burbuja se cierra tarde y el polvo se escapa; quien esté más cerca de la colonia pierde 10 PV por el contacto con el veneno. En cualquier otro lugar, la burbuja no llega a formarse.',
+          "moderado": 'Paso 2 de 3: Completado. La burbuja encierra parte del polvo, aunque algo se filtra por los bordes. En cualquier otro lugar, la burbuja contiene una explosión pequeña.',
+          "exitoso": 'Paso 2 de 3: Completado. La burbuja encierra todo el polvo y flota estable a la altura de la varita. En cualquier otro lugar, la burbuja contiene por completo una explosión.',
+          "critico": 'Paso 2 de 3: Completado. La burbuja encierra todo el polvo y se encoge hasta el tamaño de un puño, lista para vaciarse en el frasco. En cualquier otro lugar, la burbuja contiene una explosión y la devuelve hacia quien la provocó.',
+        },
+
+        "tergeo": {
+          "leve": 'Paso 3 de 3: Incompleto. El polvo se dispersa antes de llegar al frasco y hay que volver a encerrarlo. En cualquier otro lugar, la varita no logra aspirar la sustancia.',
+          "moderado": 'Paso 3 de 3: Completado. Una parte del polvo llega al frasco: alcanza para una muestra pequeña. En cualquier otro lugar, la varita aspira parte de la sustancia indicada.',
+          "exitoso": 'Paso 3 de 3: Completado. Todo el polvo entra al frasco, que queda sellado con cera. En cualquier otro lugar, la varita aspira por completo la sustancia indicada.',
+          "critico": 'Paso 3 de 3: Completado. Todo el polvo entra al frasco sin desperdiciar un grano, y queda sellado. La cantidad obtenida coincide con lo que se necesitaría para preparar un veneno como el que mató a Sirius Black. En cualquier otro lugar, la varita aspira la sustancia sin dejar rastro.',
+        },
+      },
+
+      "creatures": {
+        "rouge": {
+          "atributos": ["+6 fue", "+6 con"],
+          "pv": "130",
+          "rareza": "corriente",
+          "peligrosidad": "peligrosa",
+          "clasificación": "ser / personaje no jugable",
+          "descripción": "personaje no jugable",
+          "imagen": "https://placehold.co/150x250",
+          "ataques": {
+            "leve": 'Ataca con hechizo: "Expelliarmus". El objeto es expulsado con fuerza y queda fuera del alcance inmediato del objetivo. El objetivo pierde una acción utilizada para recuperar su varita.',
+            "moderado": 'Ataca con hechizo: "Flipendo". El oponente es derribado contra una cerca o un corral. Adiciona +8 en el daño.',
+            "exitoso": 'Ataca con hechizo: "Incarcerous". Unas cuerdas envuelven al objetivo, que pierde su próxima acción para liberarse. Adiciona +10 en el daño.',
+            "critico": 'Ataca con hechizo: "Desmaius". El objetivo queda inconsciente hasta que otro personaje lo reanime o realice dos roles. Adiciona +12 en el daño.',
+          },
+
+          "defensas": {
+            "leve": 'Abre el estanque de los murtlaps y se escuda detrás de ellos. Adiciona +3 en Defensa y suma un PNJ murtlap con los stats del bestiario. Solo hay tres murtlaps en el estanque.',
+            "moderado": 'Patea la reja del recinto de fuego y deja salir a las salamandras entre las brasas. Adiciona +5 en Defensa y suma un PNJ salamandra de fuego con los stats del bestiario. Solo hay dos salamandras en el recinto.',
+            "exitoso": 'Abre el terrario del ala de reptiles y libera a la runespoor. Adiciona +7 en Defensa y suma un PNJ runespoor con los stats del bestiario. Solo puede ocurrir una vez.',
+            "critico": 'Corre hasta el recinto acorazado del fondo de la reserva y rompe el sello de la jaula: una mantícora sale rugiendo, con la cola en alto. Adiciona +9 en Defensa y suma un PNJ mantícora con los stats del bestiario. Solo puede ocurrir una vez.',
+          },
         },
       },
     },
