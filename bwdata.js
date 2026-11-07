@@ -687,6 +687,11 @@ const MissionsModule = (function () {
         },
 
         {
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "20" }, "job": "invalid", "name": "invalid", }, "place": "colonia de mariposas",
+          "cont": '<span>A quien conoce de ingredientes no se le escapa un detalle: varias mariposas tienen las alas opacas, sin el brillo del polvo, y otras lo están recuperando en distintos grados. El polvo vuelve a cubrir las alas en unas dos semanas, y las diferencias entre unas y otras marcan un patrón demasiado regular para ser casual: alguien asusta a la colonia y recoge el veneno cada quince días, más o menos. La última vez fue hace muy poco. Junto a la barrera, sobre una piedra, quedan unas gotas secas de cera, como las que se usan para sellar frascos.</span>',
+        },
+
+        {
           "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "acorralar a rouge",
           "cont": '<span><strong>Tarjeta informativa, no cuenta para el límite de tarjetas que pueden leer.</strong><br><br>Quien haya tirado «acorralar a rouge» debe sumar su Carisma al resultado del dado. Con 14 o más, Rouge se quiebra y habla: continúen con «la verdad sobre el faro». Con menos de 14, intenta huir: continúen con «detener a rouge».</span>',
         },
