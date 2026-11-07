@@ -12491,7 +12491,7 @@ mark.bw-manifest-marca {
 .bw-limpieza-progreso span.actual {
   background: var(--mf-1);
   color: var(--color-text-100);
-  box-shadow: 0 0 0 3px color-mix(in oklch, var(--mf-1) 35%, transparent);
+  box-shadow: 0 0 0 3px color-mix(in oklch, var(--color-neutral-100) 35%, transparent);
 }
 
 /* colores de la limpieza: hecho en verde, pendiente en rojo, salteado (modo prueba) en azul */
@@ -12556,7 +12556,7 @@ mark.bw-manifest-marca {
   flex: 0 0 40px;
   height: 40px;
   border-radius: 50%;
-  background: rgb(0 0 0 / 20%);
+  background: color-mix(in oklch, var(--color-neutral-100) 30%, transparent);
   font-size: 17px;
   color: var(--color-text-100);
 }
