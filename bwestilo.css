@@ -11835,7 +11835,7 @@ button.bw-manifest-row[aria-expanded="true"] {
 
 .bw-manifest-curso {
   display: grid;
-  grid-template-columns: minmax(0, 7em) minmax(0, 1fr) auto;
+  grid-template-columns: minmax(7em, max-content) minmax(0, 1fr) auto;
   align-items: center;
   gap: 10px;
   padding: 6px 12px;
@@ -11844,8 +11844,9 @@ button.bw-manifest-row[aria-expanded="true"] {
   font-size: 12px;
 }
 
+/* el curso actual se marca con fondo tintado del color de la casa, sin borde lateral */
 .bw-manifest-curso.actual {
-  border-left: 3px solid var(--mf-1);
+  background: color-mix(in srgb, var(--mf-1) 14%, var(--mode-back-100));
 }
 
 .bw-manifest-curso-anio {
@@ -11856,6 +11857,7 @@ button.bw-manifest-row[aria-expanded="true"] {
 
 .bw-manifest-curso-anio small {
   font-family: var(--font-primary);
+  white-space: nowrap;
 }
 
 .bw-manifest-curso-cargos,
