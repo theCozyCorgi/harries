@@ -16386,10 +16386,10 @@ body.light-mode .bw-logbook {
 }
 
 .bw-regalos span.sin-regalos {
-  background: var(--post-user);
-  color: var(--color-text-100);
+  background: rgb(122 34 38);
+  color: rgb(240 225 220) !important;
 }
 
 .bw-regalos span.sin-regalos b {
-  color: var(--color-text-100);
+  color: rgb(240 225 220) !important;
 }
