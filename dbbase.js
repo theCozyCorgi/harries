@@ -179236,10 +179236,26 @@ const DBModule = (function () {
             if (!isSaved) {
                 // forceRescan (ej. scanCleanForum) pide lectura profunda a propósito: el atajo no aplica ahí.
                 const onlyMoved = !forceRescan && movedForum && !brokenDate && liveReplyCount !== null && dynamicTopic.replyCount !== null && (dynamicTopic.replyCount ?? 0) === liveReplyCount;
+                // Solo respuestas nuevas sobre una lectura completa: se leen desde la última página hacia atrás.
+                // Si bajó la cantidad (se borró un post) o la lectura anterior quedó cortada, se relee entero.
+                const onlyNewReplies = !forceRescan && !brokenDate && liveReplyCount !== null
+                    && !!dynamicTopic && dynamicTopic.replyCount != null && dynamicTopic.posts.length > 0
+                    && liveReplyCount > dynamicTopic.replyCount;
 
                 if (onlyMoved) {
                     // Solo cambió de foro, los posts siguen igual: alcanza con actualizar el espacio.
-                    dynamicTopic.space = forumName;
+                    moveTopicSpace(dynamicTopic, forumName);
+                } else if (onlyNewReplies) {
+                    console.log(`Analizando respuestas nuevas: ${$link.text()}`);
+                    moveTopicSpace(dynamicTopic, forumName);
+                    dynamicTopic.url = fullUrl;
+                    dynamicTopic.simpleTitle = sanitizeTitle($link.text());
+                    const savedReplyCount = dynamicTopic.replyCount;
+                    // Igual que en la lectura completa: null mientras lee, así un corte a la mitad obliga a releerlo
+                    dynamicTopic.replyCount = null;
+                    await scanNewTopicPosts(fullUrl, $link.text(), savedReplyCount);
+                    dynamicTopic.replyCount = liveReplyCount;
+                    DBModule.save();
                 } else {
                     console.log(`Analizando tema: ${$link.text()}`);
                     // replyCount queda en null hasta terminar de leerlo: si se corta a la mitad (el usuario cambia de
@@ -179271,6 +179287,60 @@ const DBModule = (function () {
         if (nextUrl) await scanForum(nextUrl, forumName, forceRescan);
     }
 
+    // Un tema que cambia de foro lleva también sus dados (si no, quedaban con el foro viejo)
+    function moveTopicSpace(topic, forumName) {
+        if (topic.space === forumName) return;
+        topic.space = forumName;
+        const suyos = new Set((Array.isArray(topic.posts) ? topic.posts : Object.values(topic.posts || {})).map(p => p.url));
+        dynamicData.dices.forEach(d => { if (suyos.has(d.url)) d.space = forumName; });
+    }
+
+    const POSTS_PER_PAGE = 20; // FA: la página 2 es /t174p20-…, la 3 /t174p40-…
+
+    // URL de la página que arranca en el post número `start` (0 = la primera)
+    function topicPageUrl(url, start) {
+        const limpia = url.replace(/^(.*?\/t\d+)p\d+-/, '$1-');
+        return start > 0 ? limpia.replace(/^(.*?\/t\d+)-/, `$1p${start}-`) : limpia;
+    }
+
+    function pagePostIds($data) {
+        return $data.find('.viewtopic-replies').toArray()
+            .map(r => $(r).find('.go-to').attr('id'))
+            .filter(Boolean)
+            .map(id => `r${id}`);
+    }
+
+    // Respuestas nuevas de un tema ya leído: arranca en la página del último post guardado y avanza con normalidad.
+    async function scanNewTopicPosts(url, originalTitle, savedReplyCount) {
+        const topicKey = extractTopicKey(url);
+        const topic = dynamicData.topics[topicKey];
+        if (!topicKey || !topic) return;
+
+        // /r<post> lleva directo a la página de ese post, sin hacer la cuenta de p40
+        const ultimo = topic.posts[topic.posts.length - 1].url;
+        await delay(3000);
+        let $data = $(await $.get('/' + ultimo));
+
+        // Si ese post ya no está (lo borraron), se calcula la página por la cantidad de respuestas guardada.
+        // Si esa página no trae ningún post guardado (se borraron otros y todo se corrió hacia atrás), retrocede una.
+        // El primer post no cuenta como guardado: FA lo repite arriba de cada página.
+        if (!pagePostIds($data).includes(ultimo)) {
+            const primero = topic.posts[0].url;
+            const conocidos = new Set(topic.posts.map(p => p.url));
+            let start = Math.floor(savedReplyCount / POSTS_PER_PAGE) * POSTS_PER_PAGE;
+            while (true) {
+                await delay(3000);
+                $data = $(await $.get(topicPageUrl(url, start)));
+                if (start === 0 || pagePostIds($data).some(id => id !== primero && conocidos.has(id))) break;
+                start -= POSTS_PER_PAGE;
+            }
+        }
+
+        await processTopicPage($data, topicKey, originalTitle);
+        const nextUrl = $data.find('.pagination .sprite-arrow_prosilver_right').parent('a').attr('href');
+        if (nextUrl) await scanTopicPosts(nextUrl, originalTitle);
+    }
+
     async function scanTopicPosts(url, originalTitle) {
         if (!url) return;
         await delay(3000);
@@ -179280,6 +179350,15 @@ const DBModule = (function () {
         const topicKey = extractTopicKey(url);
         if (!topicKey) return;
 
+        await processTopicPage($data, topicKey, originalTitle);
+
+        const $nextPageLink = $data.find('.pagination .sprite-arrow_prosilver_right').parent('a');
+        const nextUrl = $nextPageLink.attr('href');
+        if (nextUrl) await scanTopicPosts(nextUrl, originalTitle);
+    }
+
+    // Guarda los posts (y sus dados y pociones) de una página de tema que todavía no estén guardados
+    async function processTopicPage($data, topicKey, originalTitle) {
         // FIX: Cambiamos el .each() por un bucle for...of para poder usar await
         const replies = $data.find('.viewtopic-replies').toArray();
 
@@ -179388,10 +179467,6 @@ const DBModule = (function () {
                 }
             }
         }
-
-        const $nextPageLink = $data.find('.pagination .sprite-arrow_prosilver_right').parent('a');
-        const nextUrl = $nextPageLink.attr('href');
-        if (nextUrl) await scanTopicPosts(nextUrl, originalTitle);
     }
 
     // Une listas de temas (las últimas ganan) y de dados (sin duplicar por post) y repara posts en objeto o repetidos.

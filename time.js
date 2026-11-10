@@ -68,6 +68,36 @@ const globalKnowledgeDefaults = {
   "transformaciones": 0, "videncia": 0, "vuelo": 0
 };
 
+// Período de la experiencia de un personaje (characters.js → experiencia[].entre).
+// Formatos: "1946-1952", "1946-Actualidad", "07/1953-Actualidad", "09/1946-06/1953" y mezclados ("1946-06/1953").
+// Es tolerante para que siempre funcione:
+// - un mes que no va (00, 13…) se ignora y queda solo el año ("13/1953" → 1953);
+// - un final que no se puede leer como fecha ("act", "hoy", vacío) cuenta como Actualidad;
+// - un solo año sin final ("1953") también cuenta como "1953-Actualidad".
+// Devuelve { from, fromMonth, to, toMonth } (mes = null si no se escribió o no va; to = null si es Actualidad),
+// o null si ni siquiera el inicio tiene un año, o si el final es anterior al inicio.
+function globalPeriod(text) {
+  const readSide = function (s) {
+    s = String(s || '').trim();
+    let m = /(\d{1,2})\s*\/\s*(\d{4})/.exec(s);
+    if (m) { return { year: +m[2], month: (+m[1] >= 1 && +m[1] <= 12) ? +m[1] : null }; }
+    m = /(\d{4})/.exec(s);
+    return m ? { year: +m[1], month: null } : null;
+  };
+  const parts = String(text || '').split('-');
+  const start = readSide(parts[0]);
+  if (!start) { return null; }
+  const end = parts.length > 1 ? readSide(parts.slice(1).join('-')) : null;
+  if (end) {
+    if (end.year < start.year) { return null; }
+    if (end.year === start.year && start.month && end.month && end.month < start.month) { return null; }
+  }
+  return {
+    from: start.year, fromMonth: start.month,
+    to: end ? end.year : null, toMonth: end ? end.month : null
+  };
+}
+
 function globalCalcularEdad(nac, amb, useDay = false) {
   let birthYear = nac.getFullYear();
   let birthMonth = nac.getMonth();
