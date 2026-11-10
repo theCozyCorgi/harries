@@ -16215,7 +16215,7 @@ body.light-mode .bw-logbook {
   cursor: pointer;
 }
 
-/* CARTA DE REGALO (Navidad): <details class="bw-carta"> con <summary> como sobre y .carta-papel como pergamino. Sin JS. */
+/* CARTA DE REGALO */
 .bw-carta {
   --carta-papel: rgb(236 226 205);
   --carta-borde: rgb(196 178 145);
@@ -16255,7 +16255,6 @@ body.light-mode .bw-logbook {
   display: none;
 }
 
-/* solapa del sobre */
 .bw-carta>summary::before {
   content: "";
   position: absolute;
@@ -16268,7 +16267,6 @@ body.light-mode .bw-logbook {
   filter: drop-shadow(0 2px 2px rgb(0 0 0 / 20%));
 }
 
-/* sello de cera: el ícono lo elige quien escribe (<span class="carta-sello"><i class="..."></i></span>) */
 .bw-carta .carta-sello {
   position: absolute;
   z-index: 2;
@@ -16311,7 +16309,6 @@ body.light-mode .bw-logbook {
   aspect-ratio: 16 / 6;
 }
 
-/* abierta: la solapa queda como el interior oscuro del sobre */
 .bw-carta[open]>summary::before {
   height: 75%;
   background: linear-gradient(180deg, rgb(120 98 70), rgb(160 136 100));
@@ -16323,7 +16320,6 @@ body.light-mode .bw-logbook {
   scale: .6;
 }
 
-/* el pergamino */
 .bw-carta .carta-papel {
   background: var(--carta-papel);
   background-image: radial-gradient(rgb(160 130 90 / 12%) 1px, transparent 1px);
@@ -16356,7 +16352,7 @@ body.light-mode .bw-logbook {
   .bw-carta .carta-papel { transition: none; animation: none; }
 }
 
-/* CONTADOR DE REGALOS: chips por usuario */
+/* CONTADOR DE REGALOS */
 .bw-regalos {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
@@ -16394,7 +16390,7 @@ body.light-mode .bw-logbook {
   color: rgb(240 225 220) !important;
 }
 
-/* CALENDARIO DE ADVIENTO: lo dibuja backup/pages/adviento.js dentro de .bw-adviento (que además lleva .bw-manifest) */
+/* CALENDARIO DE ADVIENTO */
 .bw-adviento-grid {
   display: grid;
   grid-template-columns: repeat(5, minmax(0, 1fr));
@@ -16440,7 +16436,6 @@ body.light-mode .bw-logbook {
   transform: translateY(-2px);
 }
 
-/* el día de hoy: una etiqueta "hoy" debajo del ícono, sin borde */
 .bw-adviento .bw-adviento-puerta.hoy::after {
   content: "hoy";
   font: var(--style-link);
@@ -16452,7 +16447,6 @@ body.light-mode .bw-logbook {
   background: rgb(255 255 255 / 20%);
 }
 
-/* día 25: el regalo final, en rojo lacre como el sello de la carta */
 .bw-adviento .bw-adviento-puerta.regalo.abierta {
   background: rgb(122 34 38);
   color: rgb(240 225 220);
