@@ -15068,13 +15068,14 @@ body.light-mode .bw-logbook {
 
 .bw-carto-seccion {
   display: block;
-  margin-top: 4px;
-  padding: 5px 12px;
+  margin-top: 10px;
+  padding: 4px 7px 5px;
+  border-bottom: 1px solid var(--mode-back-80);
   font: var(--style-link);
-  font-size: 9px;
-  letter-spacing: 1px;
+  font-size: 11px;
+  letter-spacing: .5px;
   text-transform: uppercase;
-  color: var(--mode-back-60);
+  color: var(--mf-1);
 }
 
 /* cargo | personajes */
@@ -15138,23 +15139,25 @@ body.light-mode .bw-logbook {
 }
 
 .bw-carto-hist-btn {
-  display: inline-flex;
-  align-self: flex-start;
+  display: flex;
   align-items: center;
-  gap: 6px;
-  margin: 2px 0;
-  padding: 5px 10px;
-  border: 1px solid var(--mode-back-80);
+  gap: 8px;
+  width: 100%;
+  margin: 8px 0 2px;
+  padding: 8px 12px;
+  border: 1px solid var(--mf-1);
   border-radius: 3px;
+  background: transparent;
   font: var(--style-link);
-  font-size: 9px;
+  font-size: 10px;
+  letter-spacing: .5px;
   text-transform: uppercase;
-  color: var(--mode-back-70);
+  color: var(--mf-1);
 }
 
 .bw-carto-hist-btn[aria-expanded="true"] {
-  border-color: var(--mf-1);
-  color: var(--mode-text-100);
+  background: var(--mf-1);
+  color: var(--color-text-100);
 }
 
 .bw-carto-hist {
@@ -15258,7 +15261,7 @@ body.light-mode .bw-logbook {
 }
 
 .bw-carto-hist-btn {
-  justify-self: start;
+  justify-self: stretch;
 }
 
 /* anuario: cada año escolar con su título plegable */
