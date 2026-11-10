@@ -14987,7 +14987,7 @@ body.light-mode .bw-logbook {
   box-sizing: border-box;
   width: 100%;
   max-width: none;
-  margin: 0;
+  margin: 15px 0 0;
   align-self: stretch;
 }
 
