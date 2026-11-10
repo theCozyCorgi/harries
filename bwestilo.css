@@ -16214,3 +16214,185 @@ body.light-mode .bw-logbook {
   border: none;
   cursor: pointer;
 }
+
+/* CARTA DE REGALO (Navidad): <details class="bw-carta"> con <summary> como sobre y .carta-papel como pergamino. Sin JS. */
+.bw-carta {
+  --carta-papel: rgb(236 226 205);
+  --carta-borde: rgb(196 178 145);
+  --carta-tinta: rgb(52 40 30);
+  --carta-sello: rgb(122 34 38);
+  width: min(460px, 100%);
+  margin: 15px auto;
+  font-family: var(--font-letter);
+  color: var(--carta-tinta);
+}
+
+.bw-carta br {
+  display: inline;
+}
+
+.bw-carta>summary {
+  list-style: none;
+  cursor: pointer;
+  position: relative;
+  aspect-ratio: 16 / 9;
+  max-width: 100%;
+  background: linear-gradient(160deg, var(--carta-papel), var(--carta-borde));
+  border-radius: 4px;
+  box-shadow: 0 6px 18px rgb(0 0 0 / 35%);
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 18px 22px;
+  box-sizing: border-box;
+  overflow: hidden;
+  font: var(--style-link);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--carta-tinta);
+}
+
+.bw-carta>summary::-webkit-details-marker {
+  display: none;
+}
+
+/* solapa del sobre */
+.bw-carta>summary::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 58%;
+  background: linear-gradient(180deg, var(--carta-borde), var(--carta-papel));
+  clip-path: polygon(0 0, 100% 0, 50% 100%);
+  transform-origin: top;
+  transition: transform .5s ease;
+  filter: drop-shadow(0 2px 2px rgb(0 0 0 / 20%));
+}
+
+/* sello de cera */
+.bw-carta>summary::after {
+  content: "BW";
+  position: absolute;
+  top: 58%;
+  left: 50%;
+  translate: -50% -50%;
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: radial-gradient(circle at 35% 30%, rgb(170 60 62), var(--carta-sello) 60%, rgb(80 18 22));
+  box-shadow: 0 2px 4px rgb(0 0 0 / 40%), inset 0 0 0 4px rgb(255 255 255 / 8%);
+  color: rgb(236 200 190 / 85%);
+  font-family: var(--font-bold);
+  font-size: 18px;
+  letter-spacing: 0;
+  transition: opacity .3s ease, scale .3s ease;
+}
+
+.bw-carta>summary:hover::after {
+  scale: 1.06;
+}
+
+.bw-carta>summary:focus-visible {
+  outline: 2px solid var(--carta-sello);
+  outline-offset: 3px;
+}
+
+.bw-carta .carta-para,
+.bw-carta .carta-de {
+  position: relative;
+  z-index: 1;
+}
+
+.bw-carta .carta-de {
+  text-align: right;
+}
+
+.bw-carta[open]>summary {
+  aspect-ratio: 16 / 6;
+}
+
+/* abierta: la solapa queda como el interior oscuro del sobre */
+.bw-carta[open]>summary::before {
+  height: 75%;
+  background: linear-gradient(180deg, rgb(120 98 70), rgb(160 136 100));
+  filter: none;
+}
+
+.bw-carta[open]>summary::after {
+  opacity: 0;
+  scale: .6;
+}
+
+/* el pergamino */
+.bw-carta .carta-papel {
+  background: var(--carta-papel);
+  background-image: radial-gradient(rgb(160 130 90 / 12%) 1px, transparent 1px);
+  background-size: 6px 6px;
+  border: 1px solid var(--carta-borde);
+  border-radius: 2px;
+  margin: -12px 10px 0;
+  padding: 30px 28px 26px;
+  font-size: 16px;
+  line-height: 1.6;
+  box-shadow: 0 8px 18px rgb(0 0 0 / 30%);
+  transform-origin: top;
+  animation: carta-desplegar .6s ease both;
+}
+
+.bw-carta .carta-firma {
+  display: block;
+  text-align: right;
+  margin-top: 18px;
+  font-style: italic;
+}
+
+@keyframes carta-desplegar {
+  from { transform: scaleY(0); opacity: 0; }
+  to { transform: scaleY(1); opacity: 1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .bw-carta>summary::before,
+  .bw-carta>summary::after,
+  .bw-carta .carta-papel { transition: none; animation: none; }
+}
+
+/* CONTADOR DE REGALOS: chips por usuario */
+.bw-regalos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 5px;
+}
+
+.bw-regalos br {
+  display: none;
+}
+
+.bw-regalos span {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  background: var(--mode-opacity-50);
+  border-radius: 5px;
+  padding: 5px 10px;
+  font: var(--style-link);
+  text-transform: uppercase;
+  color: var(--mode-text-100);
+}
+
+.bw-regalos span b {
+  font-family: var(--font-code);
+  color: var(--post-user);
+}
+
+.bw-regalos span.sin-regalos {
+  background: var(--post-user);
+  color: var(--color-text-100);
+}
+
+.bw-regalos span.sin-regalos b {
+  color: var(--color-text-100);
+}
