@@ -52102,6 +52102,101 @@ const DBModule = (function () {
             "date": "02/02/1953",
             "location": "Departamento de Seguridad Mágica"
         },
+        "955": {
+            "space": "el pensadero",
+            "url": "/t955-1953-03-02-pas-de-deux",
+            "simpleTitle": "pas de deux",
+            "creator": "Ksenia D. Demidova",
+            "replyCount": 13,
+            "posts": [
+                {
+                    "url": "r12793",
+                    "author": "Ksenia D. Demidova",
+                    "date": "06/02/2026",
+                    "words": 226
+                },
+                {
+                    "url": "r14213",
+                    "author": "Venus M. Merrythought",
+                    "date": "01/03/2026",
+                    "words": 322
+                },
+                {
+                    "url": "r14628",
+                    "author": "Ksenia D. Demidova",
+                    "date": "08/03/2026",
+                    "words": 310
+                },
+                {
+                    "url": "r15829",
+                    "author": "Venus M. Merrythought",
+                    "date": "31/03/2026",
+                    "words": 328
+                },
+                {
+                    "url": "r15954",
+                    "author": "Ksenia D. Demidova",
+                    "date": "01/04/2026",
+                    "words": 240
+                },
+                {
+                    "url": "r16519",
+                    "author": "Venus M. Merrythought",
+                    "date": "14/04/2026",
+                    "words": 252
+                },
+                {
+                    "url": "r17336",
+                    "author": "Ksenia D. Demidova",
+                    "date": "01/05/2026",
+                    "words": 310
+                },
+                {
+                    "url": "r18797",
+                    "author": "Venus M. Merrythought",
+                    "date": "22/05/2026",
+                    "words": 255
+                },
+                {
+                    "url": "r19682",
+                    "author": "Ksenia D. Demidova",
+                    "date": "07/06/2026",
+                    "words": 285
+                },
+                {
+                    "url": "r20341",
+                    "author": "Venus M. Merrythought",
+                    "date": "29/06/2026",
+                    "words": 292
+                },
+                {
+                    "url": "r21711",
+                    "author": "Ksenia D. Demidova",
+                    "date": "11/08/2026",
+                    "words": 259
+                },
+                {
+                    "url": "r22501",
+                    "author": "Venus M. Merrythought",
+                    "date": "04/09/2026",
+                    "words": 255
+                },
+                {
+                    "url": "r22745",
+                    "author": "Ksenia D. Demidova",
+                    "date": "11/09/2026",
+                    "words": 281
+                },
+                {
+                    "url": "r23540",
+                    "author": "Venus M. Merrythought",
+                    "date": "30/09/2026",
+                    "words": 411
+                }
+            ],
+            "date": "02/02/1953",
+            "location": "Londres, Academia de Baile"
+        },
         "956": {
             "space": "el pensadero",
             "url": "/t956-1953-02-14-evento-you-still-have-my-heart",
@@ -79144,6 +79239,113 @@ const DBModule = (function () {
             "date": "16/05/1953",
             "location": "Lago Negro"
         },
+        "1416": {
+            "space": "el pensadero",
+            "url": "/t1416-1953-05-21-evento-interescolares-de-quidditch-it-ain-t-no-sin",
+            "simpleTitle": "evento: interescolares de quidditch - it ain't no sin",
+            "creator": "Regulus O. Black",
+            "replyCount": 15,
+            "posts": [
+                {
+                    "url": "r22124",
+                    "author": "Regulus O. Black",
+                    "date": "23/08/2026",
+                    "words": 229
+                },
+                {
+                    "url": "r22225",
+                    "author": "Jupiter Merrythought",
+                    "date": "26/08/2026",
+                    "words": 201
+                },
+                {
+                    "url": "r22652",
+                    "author": "Regulus O. Black",
+                    "date": "07/09/2026",
+                    "words": 252
+                },
+                {
+                    "url": "r22919",
+                    "author": "Jupiter Merrythought",
+                    "date": "14/09/2026",
+                    "words": 232
+                },
+                {
+                    "url": "r23431",
+                    "author": "Regulus O. Black",
+                    "date": "27/09/2026",
+                    "words": 241
+                },
+                {
+                    "url": "r23455",
+                    "author": "Jupiter Merrythought",
+                    "date": "27/09/2026",
+                    "words": 348
+                },
+                {
+                    "url": "r23893",
+                    "author": "Regulus O. Black",
+                    "date": "08/10/2026",
+                    "words": 242
+                },
+                {
+                    "url": "r23909",
+                    "author": "Jupiter Merrythought",
+                    "date": "08/10/2026",
+                    "words": 477
+                },
+                {
+                    "url": "r24251",
+                    "author": "Regulus O. Black",
+                    "date": "15/10/2026",
+                    "words": 252
+                },
+                {
+                    "url": "r24681",
+                    "author": "Jupiter Merrythought",
+                    "date": "24/10/2026",
+                    "words": 478
+                },
+                {
+                    "url": "r24792",
+                    "author": "Regulus O. Black",
+                    "date": "26/10/2026",
+                    "words": 269
+                },
+                {
+                    "url": "r24798",
+                    "author": "Jupiter Merrythought",
+                    "date": "26/10/2026",
+                    "words": 524
+                },
+                {
+                    "url": "r25359",
+                    "author": "Regulus O. Black",
+                    "date": "05/11/2026",
+                    "words": 332
+                },
+                {
+                    "url": "r25374",
+                    "author": "Jupiter Merrythought",
+                    "date": "05/11/2026",
+                    "words": 390
+                },
+                {
+                    "url": "r25472",
+                    "author": "Regulus O. Black",
+                    "date": "08/11/2026",
+                    "words": 452
+                },
+                {
+                    "url": "r25485",
+                    "author": "Jupiter Merrythought",
+                    "date": "08/11/2026",
+                    "words": 248
+                }
+            ],
+            "date": "21/05/1953",
+            "location": "Moscú"
+        },
         "1417": {
             "space": "el pensadero",
             "url": "/t1417-1953-05-31-evento-interescolares-de-quidditch-before-the-end",
@@ -79733,6 +79935,101 @@ const DBModule = (function () {
                 "amortentia"
             ]
         },
+        "1437": {
+            "space": "el pensadero",
+            "url": "/t1437-1953-05-23-willow",
+            "simpleTitle": "willow",
+            "creator": "Elysia G. Lestrange",
+            "replyCount": 13,
+            "posts": [
+                {
+                    "url": "r22599",
+                    "author": "Elysia G. Lestrange",
+                    "date": "06/09/2026",
+                    "words": 375
+                },
+                {
+                    "url": "r22725",
+                    "author": "Abraxas Malfoy",
+                    "date": "10/09/2026",
+                    "words": 305
+                },
+                {
+                    "url": "r22756",
+                    "author": "Elysia G. Lestrange",
+                    "date": "11/09/2026",
+                    "words": 262
+                },
+                {
+                    "url": "r22761",
+                    "author": "Abraxas Malfoy",
+                    "date": "11/09/2026",
+                    "words": 237
+                },
+                {
+                    "url": "r23085",
+                    "author": "Elysia G. Lestrange",
+                    "date": "18/09/2026",
+                    "words": 401
+                },
+                {
+                    "url": "r23270",
+                    "author": "Abraxas Malfoy",
+                    "date": "23/09/2026",
+                    "words": 356
+                },
+                {
+                    "url": "r23438",
+                    "author": "Elysia G. Lestrange",
+                    "date": "27/09/2026",
+                    "words": 420
+                },
+                {
+                    "url": "r23482",
+                    "author": "Abraxas Malfoy",
+                    "date": "28/09/2026",
+                    "words": 190
+                },
+                {
+                    "url": "r23669",
+                    "author": "Elysia G. Lestrange",
+                    "date": "02/10/2026",
+                    "words": 346
+                },
+                {
+                    "url": "r23998",
+                    "author": "Abraxas Malfoy",
+                    "date": "10/10/2026",
+                    "words": 705
+                },
+                {
+                    "url": "r24591",
+                    "author": "Elysia G. Lestrange",
+                    "date": "22/10/2026",
+                    "words": 560
+                },
+                {
+                    "url": "r25256",
+                    "author": "Abraxas Malfoy",
+                    "date": "02/11/2026",
+                    "words": 429
+                },
+                {
+                    "url": "r25343",
+                    "author": "Elysia G. Lestrange",
+                    "date": "04/11/2026",
+                    "words": 362
+                },
+                {
+                    "url": "r25416",
+                    "author": "Abraxas Malfoy",
+                    "date": "07/11/2026",
+                    "words": 224
+                }
+            ],
+            "date": "23/05/1953",
+            "location": "stonemere hall"
+        },
         "1462": {
             "space": "el pensadero",
             "url": "/t1462-twist-and-shout-cjt",
@@ -79923,6 +80220,130 @@ const DBModule = (function () {
             "date": "23/05/1953",
             "location": "Koldovstoretz"
         },
+        "1480": {
+            "space": "el pensadero",
+            "url": "/t1480-1953-02-01-el-peso-de-una-promesa",
+            "simpleTitle": "el peso de una promesa",
+            "creator": "Abraxas Malfoy",
+            "replyCount": 7,
+            "posts": [
+                {
+                    "url": "r23481",
+                    "author": "Abraxas Malfoy",
+                    "date": "28/09/2026",
+                    "words": 202
+                },
+                {
+                    "url": "r23515",
+                    "author": "Daphne Vanderbilt",
+                    "date": "29/09/2026",
+                    "words": 777
+                },
+                {
+                    "url": "r24000",
+                    "author": "Abraxas Malfoy",
+                    "date": "10/10/2026",
+                    "words": 606
+                },
+                {
+                    "url": "r24173",
+                    "author": "Daphne Vanderbilt",
+                    "date": "14/10/2026",
+                    "words": 705
+                },
+                {
+                    "url": "r24315",
+                    "author": "Abraxas Malfoy",
+                    "date": "16/10/2026",
+                    "words": 409
+                },
+                {
+                    "url": "r24510",
+                    "author": "Daphne Vanderbilt",
+                    "date": "21/10/2026",
+                    "words": 374
+                },
+                {
+                    "url": "r25258",
+                    "author": "Abraxas Malfoy",
+                    "date": "02/11/2026",
+                    "words": 338
+                },
+                {
+                    "url": "r25476",
+                    "author": "Daphne Vanderbilt",
+                    "date": "08/11/2026",
+                    "words": 680
+                }
+            ],
+            "date": "01/02/1953",
+            "location": "Mansión Malfoy"
+        },
+        "1482": {
+            "space": "el pensadero",
+            "url": "/t1482-1953-05-19-evento-interescolares-de-quidditch-the-sharpest-live",
+            "simpleTitle": "evento: interescolares de quidditch - the sharpest live",
+            "creator": "Asteria C. Lestrange",
+            "replyCount": 8,
+            "posts": [
+                {
+                    "url": "r23493",
+                    "author": "Asteria C. Lestrange",
+                    "date": "29/09/2026",
+                    "words": 207
+                },
+                {
+                    "url": "r23725",
+                    "author": "Minerva E. McGonagall",
+                    "date": "04/10/2026",
+                    "words": 252
+                },
+                {
+                    "url": "r23788",
+                    "author": "Asteria C. Lestrange",
+                    "date": "05/10/2026",
+                    "words": 209
+                },
+                {
+                    "url": "r24274",
+                    "author": "Minerva E. McGonagall",
+                    "date": "15/10/2026",
+                    "words": 286
+                },
+                {
+                    "url": "r24718",
+                    "author": "Asteria C. Lestrange",
+                    "date": "25/10/2026",
+                    "words": 241
+                },
+                {
+                    "url": "r24840",
+                    "author": "Minerva E. McGonagall",
+                    "date": "27/10/2026",
+                    "words": 211
+                },
+                {
+                    "url": "r25401",
+                    "author": "Asteria C. Lestrange",
+                    "date": "06/11/2026",
+                    "words": 313
+                },
+                {
+                    "url": "r25437",
+                    "author": "Minerva E. McGonagall",
+                    "date": "08/11/2026",
+                    "words": 279
+                },
+                {
+                    "url": "r25439",
+                    "author": "Asteria C. Lestrange",
+                    "date": "08/11/2026",
+                    "words": 197
+                }
+            ],
+            "date": "19/05/1953",
+            "location": "Koldovoretz"
+        },
         "1483": {
             "space": "el pensadero",
             "url": "/t1483-1953-05-23-evento-interescolares-de-quidditch-estatica",
@@ -80011,6 +80432,95 @@ const DBModule = (function () {
             ],
             "date": "23/05/1953",
             "location": "Gran Comedor"
+        },
+        "1518": {
+            "space": "el pensadero",
+            "url": "/t1518-1953-06-14-difficult-loves",
+            "simpleTitle": "difficult loves",
+            "creator": "Octavia Goyle",
+            "replyCount": 12,
+            "posts": [
+                {
+                    "url": "r24352",
+                    "author": "Octavia Goyle",
+                    "date": "18/10/2026",
+                    "words": 269
+                },
+                {
+                    "url": "r24607",
+                    "author": "Elysia G. Lestrange",
+                    "date": "22/10/2026",
+                    "words": 377
+                },
+                {
+                    "url": "r24658",
+                    "author": "Octavia Goyle",
+                    "date": "24/10/2026",
+                    "words": 323
+                },
+                {
+                    "url": "r24659",
+                    "author": "The Familiars",
+                    "date": "24/10/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r24689",
+                    "author": "Elysia G. Lestrange",
+                    "date": "25/10/2026",
+                    "words": 315
+                },
+                {
+                    "url": "r24887",
+                    "author": "Octavia Goyle",
+                    "date": "27/10/2026",
+                    "words": 397
+                },
+                {
+                    "url": "r24933",
+                    "author": "Elysia G. Lestrange",
+                    "date": "28/10/2026",
+                    "words": 371
+                },
+                {
+                    "url": "r24975",
+                    "author": "Octavia Goyle",
+                    "date": "29/10/2026",
+                    "words": 340
+                },
+                {
+                    "url": "r25001",
+                    "author": "Elysia G. Lestrange",
+                    "date": "29/10/2026",
+                    "words": 376
+                },
+                {
+                    "url": "r25006",
+                    "author": "Octavia Goyle",
+                    "date": "30/10/2026",
+                    "words": 471
+                },
+                {
+                    "url": "r25219",
+                    "author": "Elysia G. Lestrange",
+                    "date": "01/11/2026",
+                    "words": 483
+                },
+                {
+                    "url": "r25298",
+                    "author": "Octavia Goyle",
+                    "date": "03/11/2026",
+                    "words": 432
+                },
+                {
+                    "url": "r25419",
+                    "author": "Elysia G. Lestrange",
+                    "date": "07/11/2026",
+                    "words": 391
+                }
+            ],
+            "date": "14/06/1953",
+            "location": "Stonemere Hall"
         }
     };
     const hardcodedDicesTopics = [
@@ -165426,6 +165936,28 @@ const DBModule = (function () {
             "url": "r18926",
             "simpleTitle": "stumbling blind through the streets",
             "space": "el pensadero"
+        },
+        {
+            "pitcher": "Octavia Goyle",
+            "spread": [
+                17
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "tergeo"
+            ],
+            "knowledge": [
+                "encantamientos"
+            ],
+            "type": [
+                "encantamiento, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Octavia Goyle ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"tergeo\" (17)</strong><span>Elimina por completo cualquier sustancia indeseada.</span></span></div></div></div>",
+            "url": "r24659",
+            "simpleTitle": "difficult loves",
+            "space": "el pensadero"
         }
     ];
     const hardcodedInactiveTopics = {
@@ -173144,6 +173676,35 @@ const DBModule = (function () {
             ],
             "date": "24/04/1953",
             "location": "Lago Negro"
+        },
+        "1329": {
+            "space": "temas inactivos",
+            "url": "/t1329-you-can-tell-me-what-you-see-jaqueline",
+            "simpleTitle": "you can tell me what you see | jaqueline",
+            "creator": "Hankford B. Diggory",
+            "replyCount": 2,
+            "posts": [
+                {
+                    "url": "r20690",
+                    "author": "Hankford B. Diggory",
+                    "date": "13/07/2026",
+                    "words": 317
+                },
+                {
+                    "url": "r20719",
+                    "author": "Invitado",
+                    "date": "14/07/2026",
+                    "words": 827
+                },
+                {
+                    "url": "r21693",
+                    "author": "Hankford B. Diggory",
+                    "date": "11/08/2026",
+                    "words": 319
+                }
+            ],
+            "date": "28/04/1953",
+            "location": "Biblioteca"
         },
         "1335": {
             "space": "temas inactivos",
