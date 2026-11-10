@@ -2861,10 +2861,10 @@ const MissionsModule = (function () {
         },
 
         "calor vitalis": {
-          "leve": '<span>Sobre el dragón, el calor apenas alcanza las escamas del cuello antes de disiparse. Entreabre un ojo, pero vuelve a enroscarse, tenso. Sobre un compañero, restaura +5PV.</span>',
-          "moderado": '<span>Sobre el dragón, una ola tibia le recorre el costado sano. Deja de temblar por un momento y afloja las garras sobre el barro, aunque sigue mostrando los dientes si alguien da un paso. Sobre un compañero, restaura +6PV.</span>',
-          "exitoso": '<span>Sobre el dragón, el calor se extiende por todo el cuerpo. Suelta un resoplido largo, apoya la cabeza en el pasto y baja la cola. Permite que se acerquen sin gruñir. Sobre un compañero, restaura +7PV.<adding search="se deja acercar" class="check-cards"></adding></span>',
-          "critico": '<span>Sobre el dragón, un calor profundo lo envuelve de la cabeza a la cola. Cierra los ojos, estira el ala sana sobre la orilla y deja escapar un ronroneo grave. Ya no ve a los personajes como una amenaza. Sobre un compañero, restaura +8PV.<adding search="se deja acercar" class="check-cards"></adding></span>',
+          "leve": '<span>Sobre el dragón, el calor apenas alcanza las escamas del cuello antes de disiparse. Entreabre un ojo, pero vuelve a enroscarse, tenso.</span>',
+          "moderado": '<span>Sobre el dragón, una ola tibia le recorre el costado sano. Deja de temblar por un momento y afloja las garras sobre el barro, aunque sigue mostrando los dientes si alguien da un paso.</span>',
+          "exitoso": '<span>Sobre el dragón, el calor se extiende por todo el cuerpo. Suelta un resoplido largo, apoya la cabeza en el pasto y baja la cola. Permite que se acerquen sin gruñir.<adding search="se deja acercar" class="check-cards"></adding></span>',
+          "critico": '<span>Sobre el dragón, un calor profundo lo envuelve de la cabeza a la cola. Cierra los ojos, estira el ala sana sobre la orilla y deja escapar un ronroneo grave. Ya no ve a los personajes como una amenaza. <adding search="se deja acercar" class="check-cards"></adding></span>',
         },
 
         "suturo": {
