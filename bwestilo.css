@@ -16440,9 +16440,16 @@ body.light-mode .bw-logbook {
   transform: translateY(-2px);
 }
 
-.bw-adviento .bw-adviento-puerta.hoy {
-  outline: 2px dashed var(--color-text-100);
-  outline-offset: -5px;
+/* el día de hoy: una etiqueta "hoy" debajo del ícono, sin borde */
+.bw-adviento .bw-adviento-puerta.hoy::after {
+  content: "hoy";
+  font: var(--style-link);
+  font-size: 9px;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  padding: 2px 7px;
+  border-radius: 99px;
+  background: rgb(255 255 255 / 20%);
 }
 
 /* día 25: el regalo final, en rojo lacre como el sello de la carta */
