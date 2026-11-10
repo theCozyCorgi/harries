@@ -15117,6 +15117,11 @@ body.light-mode .bw-logbook {
   -webkit-hyphens: manual;
 }
 
+.bw-carto-pjs.bw-carto-stack {
+  flex-direction: column;
+  gap: 3px;
+}
+
 .bw-carto-cupo {
   margin-left: 6px;
   font-family: var(--font-code);
