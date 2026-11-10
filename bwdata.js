@@ -2812,11 +2812,6 @@ const MissionsModule = (function () {
           "cont": '<span>El dragón no se aleja del río. Se arrastra hasta el borde, hunde el hocico en el agua y bebe apenas unos sorbos antes de apartarse, como si incluso eso le costara. Atrapa una de las ovejas que se le acercan, pero la deja a medio comer. Sin embargo, sigue siendo peligroso: cuando una oveja se mueve a sus espaldas, la cola barre la orilla con un golpe seco y las fauces se cierran en el aire a pocos centímetros del animal. Cualquiera que se acerque sin ganarse antes su confianza recibirá el mismo trato.</span>',
         },
 
-        "se deja acercar": {
-          "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "junto al agua",
-          "cont": '<span>El calor cambia al dragón. Deja de seguir cada movimiento con la mirada, afloja las garras sobre el barro y apoya la cabeza en el pasto. Cuando los personajes salen del escondite y se acercan despacio, a la vista, solo gira un ojo hacia ellos y resopla. No hay gruñidos ni dientes. Por fin pueden llegar hasta la herida.</span>',
-        },
-
         "tratar al dragón": {
           "visible": { "attr": { "int": "1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "se deja acercar",
           "cont": '<span>Proceso de curación.<br/><br/>Los hechizos de curación solo cuentan si el dragón ya permitió que se acerquen. Si no, se aparta con un coletazo y el hechizo se pierde. Hay dos contadores:<br/><br/><strong>Contador de herida</strong>: 0/80.<br/><strong>Contador de huesos</strong>: 0/3 costillas.<br/><br/>Cuando ambos contadores estén completos, podrán habilitar "la herida cerrada". Si avanzan sin completar los contadores, la administración intervendrá.</span>',
