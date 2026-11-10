@@ -14983,6 +14983,14 @@ body.light-mode .bw-logbook {
   color: var(--mode-text-100);
 }
 
+.bw-cartography .bw-carto-buscar {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  align-self: stretch;
+}
+
 .bw-carto-buscar {
   display: flex;
   align-items: center;
@@ -15101,6 +15109,12 @@ body.light-mode .bw-logbook {
   display: flex;
   flex-wrap: wrap;
   gap: 3px 12px;
+}
+
+.bw-cartography,
+.bw-cartography * {
+  hyphens: manual;
+  -webkit-hyphens: manual;
 }
 
 .bw-carto-cupo {
