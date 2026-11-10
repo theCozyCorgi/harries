@@ -14909,6 +14909,11 @@ body.light-mode .bw-logbook {
 /* cartography: el contenido automático de las tablas del foro, <div class="bw-cartography" tabla="…" vista="…">
    (backup/codes/cartography.js). Va ADENTRO de las tablas de rol, que no se tocan: sin borde ni fondo propio, con los
    mismos tonos, letras y componentes que el manifiesto. */
+.rol-table.bw-carto-wide,
+.rol-table.table-record.bw-carto-wide {
+  width: 100%;
+}
+
 .bw-cartography {
   --mf-grupo: var(--post-user, var(--group-funcionarios, #79708a));
   --mf-azul: oklch(0.55 0.05 262);
@@ -15098,7 +15103,7 @@ body.light-mode .bw-logbook {
 }
 
 .bw-cartography .bw-carto-pj {
-  white-space: nowrap;
+  overflow-wrap: anywhere;
 }
 
 .bw-cartography a.bw-carto-pj,
@@ -15441,7 +15446,7 @@ body.light-mode .bw-logbook {
 }
 
 .bw-carto-alumno small {
-  white-space: nowrap;
+  overflow-wrap: anywhere;
 }
 
 /* validador de nombre: campo + botón, y el resultado en verde o rojo */
