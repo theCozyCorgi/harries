@@ -16239,7 +16239,6 @@ body.light-mode .bw-logbook {
   max-width: 100%;
   background: linear-gradient(160deg, var(--carta-papel), var(--carta-borde));
   border-radius: 4px;
-  box-shadow: 0 6px 18px rgb(0 0 0 / 35%);
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
@@ -16269,10 +16268,10 @@ body.light-mode .bw-logbook {
   filter: drop-shadow(0 2px 2px rgb(0 0 0 / 20%));
 }
 
-/* sello de cera */
-.bw-carta>summary::after {
-  content: "BW";
+/* sello de cera: el ícono lo elige quien escribe (<span class="carta-sello"><i class="..."></i></span>) */
+.bw-carta .carta-sello {
   position: absolute;
+  z-index: 2;
   top: 58%;
   left: 50%;
   translate: -50% -50%;
@@ -16282,7 +16281,6 @@ body.light-mode .bw-logbook {
   display: grid;
   place-items: center;
   background: radial-gradient(circle at 35% 30%, rgb(170 60 62), var(--carta-sello) 60%, rgb(80 18 22));
-  box-shadow: 0 2px 4px rgb(0 0 0 / 40%), inset 0 0 0 4px rgb(255 255 255 / 8%);
   color: rgb(236 200 190 / 85%);
   font-family: var(--font-bold);
   font-size: 18px;
@@ -16290,7 +16288,7 @@ body.light-mode .bw-logbook {
   transition: opacity .3s ease, scale .3s ease;
 }
 
-.bw-carta>summary:hover::after {
+.bw-carta>summary:hover .carta-sello {
   scale: 1.06;
 }
 
@@ -16320,7 +16318,7 @@ body.light-mode .bw-logbook {
   filter: none;
 }
 
-.bw-carta[open]>summary::after {
+.bw-carta[open] .carta-sello {
   opacity: 0;
   scale: .6;
 }
@@ -16336,7 +16334,6 @@ body.light-mode .bw-logbook {
   padding: 30px 28px 26px;
   font-size: 16px;
   line-height: 1.6;
-  box-shadow: 0 8px 18px rgb(0 0 0 / 30%);
   transform-origin: top;
   animation: carta-desplegar .6s ease both;
 }
@@ -16355,7 +16352,7 @@ body.light-mode .bw-logbook {
 
 @media (prefers-reduced-motion: reduce) {
   .bw-carta>summary::before,
-  .bw-carta>summary::after,
+  .bw-carta .carta-sello,
   .bw-carta .carta-papel { transition: none; animation: none; }
 }
 
