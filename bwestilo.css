@@ -16393,3 +16393,122 @@ body.light-mode .bw-logbook {
 .bw-regalos span.sin-regalos b {
   color: rgb(240 225 220) !important;
 }
+
+/* CALENDARIO DE ADVIENTO: lo dibuja backup/pages/adviento.js dentro de .bw-adviento (que además lleva .bw-manifest) */
+.bw-adviento-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 6px;
+}
+
+.bw-adviento .bw-adviento-puerta {
+  aspect-ratio: 1;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  border-radius: 5px;
+  background: var(--puerta);
+  color: var(--color-text-100);
+  transition: filter var(--fast, .3s ease), transform var(--fast, .3s ease);
+}
+
+.bw-adviento .bw-adviento-puerta i {
+  font-size: 15px;
+  opacity: .85;
+}
+
+.bw-adviento-num {
+  font-family: var(--font-bold);
+  font-size: 24px;
+  line-height: 1;
+}
+
+.bw-adviento .bw-adviento-puerta.cerrada {
+  background: var(--mode-opacity-50);
+  color: var(--mode-back-60);
+  cursor: default;
+}
+
+.bw-adviento .bw-adviento-puerta.cerrada i {
+  font-size: 11px;
+}
+
+.bw-adviento .bw-adviento-puerta.abierta:hover {
+  filter: brightness(1.12);
+  transform: translateY(-2px);
+}
+
+.bw-adviento .bw-adviento-puerta.hoy {
+  outline: 2px dashed var(--color-text-100);
+  outline-offset: -5px;
+}
+
+/* día 25: el regalo final, en rojo lacre como el sello de la carta */
+.bw-adviento .bw-adviento-puerta.regalo.abierta {
+  background: rgb(122 34 38);
+  color: rgb(240 225 220);
+}
+
+.bw-adviento .bw-adviento-puerta.elegida {
+  outline: 2px solid var(--mode-text-100);
+  outline-offset: 2px;
+}
+
+.bw-adviento-detalle {
+  display: flex;
+  flex-flow: column;
+  gap: 6px;
+  padding: 15px 18px;
+  background: var(--mode-opacity-50);
+  border-radius: 5px;
+}
+
+.bw-adviento-detalle.vacio {
+  text-align: center;
+  opacity: .8;
+}
+
+.bw-adviento-detalle p {
+  margin: 0;
+  line-height: 1.6;
+}
+
+.bw-adviento-titulo {
+  font-family: var(--font-bold);
+  font-weight: normal;
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  line-height: 1;
+}
+
+.bw-adviento-pie {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.bw-adviento-premio {
+  font: var(--style-link);
+  line-height: 1.4;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background: var(--mf-1);
+  color: var(--color-text-100);
+}
+
+.bw-adviento .bw-adviento-enlace {
+  font: var(--style-link);
+  text-transform: uppercase;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .bw-adviento .bw-adviento-puerta { transition: none; }
+  .bw-adviento .bw-adviento-puerta.abierta:hover { transform: none; }
+}
