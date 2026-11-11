@@ -15492,20 +15492,29 @@ body.light-mode .bw-logbook {
 .bw-carto-validar {
   display: flex;
   flex-flow: column;
-  gap: 6px;
-  padding: 0 0 6px;
+  gap: 8px;
+  margin-top: 15px;
+  padding: 12px;
+  border-radius: 3px;
+  background: var(--mode-back-100);
 }
 
 .bw-carto-validar .bw-carto-seccion {
   margin: 0;
   padding: 0;
+  border: none;
+}
+
+.legend-last br {
+  display: none;
 }
 
 .bw-carto-validar-campo {
   display: flex;
+  overflow: hidden;
   border: 1px solid var(--mode-back-80);
   border-radius: 3px;
-  background: var(--mode-back-100);
+  background: var(--mode-opacity-50);
 }
 
 .bw-carto-validar-campo input {
