@@ -20042,6 +20042,12 @@ body.light-mode .bw-logbook {
   font-size: 9px;
   text-transform: uppercase;
   letter-spacing: .3px;
+  white-space: nowrap;
+  hyphens: none;
+}
+
+.bw-dataadmin-row {
+  hyphens: none;
 }
 
 .bw-dataadmin-tag.state {
@@ -20174,11 +20180,26 @@ body.light-mode .bw-logbook {
 }
 
 /* REGISTRO */
-.bw-dataadmin-when {
-  flex: 0 0 118px;
+.bw-dataadmin-who {
+  display: flex;
+  flex: 0 0 130px;
+  flex-flow: column;
+  gap: 3px;
+}
+
+.bw-dataadmin-who ~ .bw-dataadmin-tags {
+  flex-shrink: 0;
+}
+
+.bw-dataadmin-who strong {
+  font-weight: 500;
+}
+
+.bw-dataadmin-who span {
   font-family: var(--font-code);
-  font-size: 10.5px;
+  font-size: 10px;
   opacity: .7;
+  white-space: nowrap;
 }
 
 .bw-dataadmin-diff {
