@@ -20209,14 +20209,14 @@ body.light-mode .bw-logbook {
   color: var(--color-text-100);
 }
 
-.bw-dataadmin-total {
+.bw-dataadmin .bw-dataadmin-total {
   margin: 0 0 0 auto;
   padding: 8px 14px;
   background: var(--color-bold-100);
   border-radius: 3px;
   color: var(--color-text-100);
-  font: var(--style-link);
-  font-size: 10px;
+  font: var(--style-link) !important;
+  font-size: 10px !important;
   text-transform: uppercase;
   letter-spacing: .5px;
 }
