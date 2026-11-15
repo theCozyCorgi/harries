@@ -2911,6 +2911,13 @@ const MissionsModule = (function () {
           "critico": '<span>La piel se regenera con firmeza a lo largo de un buen tramo del flanco, aunque las escamas de alrededor siguen opacas. Suma +10 al contador de herida.</span>',
         },
 
+        "squama restituo": {
+          "leve": '<span>Alivia el ardor de los bordes del corte, pero la piel sigue abierta. Suma +5 al contador de herida.</span>',
+          "moderado": '<span>La piel entre las escamas se cierra en un tramo corto. El dragón resopla, más tranquilo. Suma +8 al contador de herida.</span>',
+          "exitoso": '<span>Un tramo del corte se cierra sin dejar marca. El dragón gira el cuello y olfatea la zona curada, como si no terminara de creerlo. Suma +10 al contador de herida.</span>',
+          "critico": '<span>La piel se regenera con firmeza a lo largo de un buen tramo del flanco, aunque las escamas de alrededor siguen opacas. Suma +15 al contador de herida.</span>',
+        },
+
         "vermillious": {
           "leve": '<span>Las chispas apenas iluminan el aire y se apagan antes de llegar al borde del domo. Nadie las ve.</span>',
           "moderado": '<span>Las chispas suben, pero son débiles y se pierden contra el cielo. Desde afuera del domo es difícil distinguirlas.</span>',
