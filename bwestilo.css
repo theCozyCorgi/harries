@@ -20179,12 +20179,31 @@ body.light-mode .bw-logbook {
   color: var(--color-text-100);
 }
 
+/* CLAVE EN EL MENSAJE */
+.bw-admin-token {
+  display: inline-block;
+  font-size: 0;
+}
+
+.bw-admin-token::before {
+  content: "Clave de administración | oculta";
+  display: inline-block;
+  padding: 7px 12px;
+  background: var(--mode-back-80);
+  border-radius: 3px;
+  color: var(--color-text-100);
+  font: var(--style-link);
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+}
+
 /* REGISTRO */
 .bw-dataadmin-who {
   display: flex;
   flex: 0 0 130px;
   flex-flow: column;
-  gap: 3px;
+  gap: 2px;
 }
 
 .bw-dataadmin-who ~ .bw-dataadmin-tags {
@@ -20193,11 +20212,13 @@ body.light-mode .bw-logbook {
 
 .bw-dataadmin-who strong {
   font-weight: 500;
+  line-height: 1.15;
 }
 
 .bw-dataadmin-who span {
   font-family: var(--font-code);
   font-size: 10px;
+  line-height: 1.15;
   opacity: .7;
   white-space: nowrap;
 }
@@ -20205,18 +20226,20 @@ body.light-mode .bw-logbook {
 .bw-dataadmin-diff {
   display: flex;
   flex-flow: column;
-  gap: 6px;
-  padding: 6px 12px 14px;
+  gap: 14px;
+  margin: 2px 12px 12px;
+  padding: 14px;
+  background: var(--mode-back-100);
+  border-radius: 5px;
 }
 
 .bw-dataadmin-change {
   display: flex;
-  flex-wrap: wrap;
+  flex-flow: column;
   gap: 6px;
 }
 
 .bw-dataadmin-change > strong {
-  flex: 1 1 100%;
   font: var(--style-link);
   font-size: 9.5px;
   text-transform: uppercase;
@@ -20224,21 +20247,66 @@ body.light-mode .bw-logbook {
   opacity: .75;
 }
 
-.bw-dataadmin-change > div {
-  flex: 1 1 260px;
+.bw-dataadmin-compare {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  gap: 8px;
+}
+
+.bw-dataadmin-compare > div {
+  flex: 1 1 220px;
   min-width: 0;
-  padding: 8px 10px;
-  background: var(--mode-back-100);
+  padding: 10px 12px;
+  background: var(--mode-opacity-50);
   border-radius: 3px;
-  font-size: 12px;
+  font-size: 12.5px;
   line-height: 150%;
   overflow-wrap: anywhere;
 }
 
-.bw-dataadmin-change > div > small {
+.bw-dataadmin-compare > .before {
+  opacity: .7;
+}
+
+.bw-dataadmin-compare > .after {
+  background: var(--mode-back-80);
+  color: var(--color-text-100);
+}
+
+.bw-dataadmin-compare > i {
+  align-self: center;
+  font-size: 11px;
+  opacity: .5;
+}
+
+.bw-dataadmin-compare small {
   display: block;
-  margin-bottom: 3px;
-  opacity: .6;
+  margin-bottom: 4px;
+  font: var(--style-link);
+  font-size: 8.5px;
+  letter-spacing: .5px;
+  opacity: .7;
+}
+
+.bw-dataadmin-restore {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  padding-top: 12px;
+  border-top: 1px solid var(--mode-back-80);
+}
+
+.bw-dataadmin-restore p {
+  flex: 1 1 220px;
+  margin: 0;
+  font-size: 11.5px;
+  opacity: .75;
+}
+
+.bw-dataadmin-restore p i {
+  margin-right: 6px;
 }
 
 /* NAVIDAD: lo prende backup/pages/navidad.js poniendo .bw-navidad en el body */
