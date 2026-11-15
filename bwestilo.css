@@ -7008,7 +7008,7 @@ userdata[target="multicuentas"] a {
   position: relative;
   font-size: 24px;
   font-family: var(--font-complemntary);
-  color: var(--strong);
+  color: var(--strong-text, var(--strong));
 }
 
 .action-title i {
@@ -7034,12 +7034,12 @@ userdata[target="multicuentas"] a {
 
 .action-type:before {
   content: 'Tipo: ';
-  color: var(--strong);
+  color: var(--strong-text, var(--strong));
 }
 
 .action-req:before {
   content: 'Requisitos: ';
-  color: var(--strong);
+  color: var(--strong-text, var(--strong));
   margin-right: 5px;
 }
 
@@ -7083,174 +7083,182 @@ userdata[target="multicuentas"] a {
 
 leve:before {
   content: 'Leve: ';
-  color: var(--strong);
+  color: var(--strong-text, var(--strong));
 }
 
 moderado:before {
   content: 'Moderado: ';
-  color: var(--strong);
+  color: var(--strong-text, var(--strong));
 }
 
 exitoso:before {
   content: 'Exitoso: ';
-  color: var(--strong);
+  color: var(--strong-text, var(--strong));
 }
 
 critico:before {
   content: 'Crítico: ';
-  color: var(--strong);
+  color: var(--strong-text, var(--strong));
 }
 
 [data-conocimientos="adivinación"] {
-  --strong: rgb(72 69 102);
+  --strong: rgb(106 74 122);
 }
 
 [data-conocimientos="alquimia"] {
-  --strong: rgb(88 102 67);
+  --strong: rgb(100 112 52);
 }
 
 [data-conocimientos="animagia"] {
-  --strong: rgb(38 78 97);
+  --strong: rgb(34 78 117);
 }
 
 [data-conocimientos="aritmancia"] {
-  --strong: rgb(63 84 114);
+  --strong: rgb(63 91 139);
 }
 
 [data-conocimientos="arpías"] {
-  --strong: rgb(57 106 96);
+  --strong: rgb(52 118 109);
 }
 
 [data-conocimientos="arte"] {
-  --strong: rgb(112 76 60);
+  --strong: rgb(117 71 36);
 }
 
 [data-conocimientos="astronomía"] {
-  --strong: rgb(68 55 87);
+  --strong: rgb(73 70 122);
 }
 
 [data-conocimientos="banshees"] {
-  --strong: rgb(76 92 101);
+  --strong: rgb(83 98 116);
 }
 
 [data-conocimientos="ccm"] {
-  --strong: rgb(71 82 47);
+  --strong: rgb(90 80 34);
 }
 
 [data-conocimientos="combate físico"] {
-  --strong: rgb(92 57 42);
+  --strong: rgb(112 53 48);
 }
 
 [data-conocimientos="contrabando"] {
-  --strong: rgb(69 57 46);
+  --strong: rgb(70 58 52);
 }
 
 [data-conocimientos="curación"] {
-  --strong: rgb(52 72 60);
+  --strong: rgb(63 76 59);
 }
 
 [data-conocimientos="dcao"] {
-  --strong: rgb(83 46 54);
+  --strong: rgb(95 39 60);
 }
 
 [data-conocimientos="duendes"] {
-  --strong: rgb(10 56 72);
+  --strong: rgb(28 65 87);
 }
 
 [data-conocimientos="encantamientos"] {
-  --strong: rgb(103 85 90);
+  --strong: rgb(111 90 97);
 }
 
 [data-conocimientos="estudios muggles"] {
-  --strong: rgb(89 72 62);
+  --strong: rgb(95 74 66);
 }
 
 [data-conocimientos="gigantes"] {
-  --strong: rgb(82 101 95);
+  --strong: rgb(100 107 101);
 }
 
 [data-conocimientos="herbología"] {
-  --strong: rgb(48 64 32);
+  --strong: rgb(59 86 33);
 }
 
 [data-conocimientos="historia de la magia"] {
-  --strong: rgb(79 67 31);
+  --strong: rgb(66 62 25);
 }
 
 [data-conocimientos="legeremancia"] {
-  --strong: rgb(55 44 75);
+  --strong: rgb(70 49 98);
 }
 
 [data-conocimientos="liderazgo"] {
-  --strong: rgb(74 42 25);
+  --strong: rgb(88 50 24);
 }
 
 [data-conocimientos="magia oscura"] {
-  --strong: rgb(66 66 75);
+  --strong: rgb(86 78 99);
 }
 
 [data-conocimientos="magia sin varita"] {
-  --strong: rgb(126 86 97);
+  --strong: rgb(137 85 121);
 }
 
 [data-conocimientos="magia no verbal"] {
-  --strong: rgb(90 60 75);
+  --strong: rgb(92 58 89);
 }
 
 [data-conocimientos="metamorfomagia"] {
-  --strong: rgb(59 103 120);
+  --strong: rgb(51 112 144);
 }
 
 [data-conocimientos="música"] {
-  --strong: rgb(125 89 72);
+  --strong: rgb(148 85 78);
 }
 
 [data-conocimientos="oclumancia"] {
-  --strong: rgb(36 64 88);
+  --strong: rgb(43 58 105);
 }
 
 [data-conocimientos="pársel"] {
-  --strong: rgb(19 54 45);
+  --strong: rgb(28 72 38);
 }
 
 [data-conocimientos="pociones"] {
-  --strong: rgb(86 87 71);
+  --strong: rgb(83 93 73);
 }
 
 [data-conocimientos="runas antiguas"] {
-  --strong: rgb(108 89 55);
+  --strong: rgb(133 98 46);
 }
 
 [data-conocimientos="transformaciones"] {
-  --strong: rgb(105 70 90);
+  --strong: rgb(123 64 86);
 }
 
 [data-conocimientos="videncia"] {
-  --strong: rgb(93 95 123);
+  --strong: rgb(103 96 151);
 }
 
 [data-conocimientos="vuelo"] {
-  --strong: rgb(58 95 73);
+  --strong: rgb(46 104 68);
 }
 
 [data-conocimientos="patronus"] {
-  --strong: rgb(70 80 85);
+  --strong: rgb(57 79 89);
 }
 
 [data-conocimientos="licántropos"] {
-  --strong: rgb(12 67 63);
+  --strong: rgb(17 70 66);
 }
 
 [data-conocimientos="veelas"] {
-  --strong: rgb(36 85 76);
+  --strong: rgb(38 90 79);
 }
 
 [data-conocimientos="sirenas"] {
-  --strong: rgb(42 92 101);
+  --strong: rgb(43 96 110);
 }
 
 [data-conocimientos="atenuador"] {
-  --strong: rgb(50 53 60);
+  --strong: rgb(63 61 80);
+}
+
+[data-conocimientos] {
+  --strong-text: oklch(from var(--strong) clamp(0.6, calc(l + 0.24), 0.78) calc(c * 1.45) h);
+}
+
+.light-mode [data-conocimientos] {
+  --strong-text: oklch(from var(--strong) clamp(0.3, calc(l - 0.02), 0.5) calc(c * 1.3) h);
 }
 
 .show-results line {
@@ -7455,22 +7463,22 @@ critico:before {
 
 .book-year:before {
   content: 'Publicación: ';
-  color: var(--strong);
+  color: var(--strong-text, var(--strong));
 }
 
 .book-author:before {
   content: 'Autor: ';
-  color: var(--strong);
+  color: var(--strong-text, var(--strong));
 }
 
 .book-know:before {
   content: 'Conocimiento: ';
-  color: var(--strong);
+  color: var(--strong-text, var(--strong));
 }
 
 .book-exp:before {
   content: 'Experiencia: ';
-  color: var(--strong);
+  color: var(--strong-text, var(--strong));
 }
 
 .plant-use,
@@ -7491,7 +7499,7 @@ critico:before {
   font: var(--fa-font-solid) !important;
   content: "\f00d";
   margin-right: 2px;
-  color: var(--strong);
+  color: var(--strong-text, var(--strong));
 }
 
 .creature-description,
@@ -18771,7 +18779,7 @@ body.light-mode .bw-logbook {
 .bw-spell.bw-potion,
 .bw-spell.bw-book,
 .bw-spell.bw-canon {
-  --strong-text: oklch(from var(--strong) max(l, 0.62) c h);
+  --strong-text: oklch(from var(--strong) clamp(0.6, calc(l + 0.24), 0.78) calc(c * 1.45) h);
   position: relative;
   overflow: hidden;
   display: flex;
@@ -18797,7 +18805,7 @@ body.light-mode .bw-logbook {
 .light-mode .bw-spell.bw-potion,
 .light-mode .bw-spell.bw-book,
 .light-mode .bw-spell.bw-canon {
-  --strong-text: oklch(from var(--strong) min(l, 0.45) c h);
+  --strong-text: oklch(from var(--strong) clamp(0.3, calc(l - 0.02), 0.5) calc(c * 1.3) h);
 }
 
 .bw-spell-head {
@@ -19111,11 +19119,11 @@ body.light-mode .bw-logbook {
 /* tarjeta de libro */
 .bw-book-inner {
   display: contents;
-  --strong-text: oklch(from var(--strong) max(l, 0.62) c h);
+  --strong-text: oklch(from var(--strong) clamp(0.6, calc(l + 0.24), 0.78) calc(c * 1.45) h);
 }
 
 .light-mode .bw-book-inner {
-  --strong-text: oklch(from var(--strong) min(l, 0.45) c h);
+  --strong-text: oklch(from var(--strong) clamp(0.3, calc(l - 0.02), 0.5) calc(c * 1.3) h);
 }
 
 .bw-book-text {
