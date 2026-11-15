@@ -8738,7 +8738,7 @@ critico:before {
 
 /* combate */
 .action-title strong {
-  color: var(--strong) !important;
+  color: var(--strong-text, var(--strong)) !important;
 }
 
 .rol-combat {
