@@ -20182,21 +20182,47 @@ body.light-mode .bw-logbook {
 /* VISTAS DE CADA TABLA */
 .bw-dataadmin-views {
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
   gap: 4px;
 }
 
 .bw-dataadmin-views button {
-  padding: 7px 12px;
+  padding: 8px 14px;
+  background: var(--mode-opacity-50);
   border-radius: 3px;
-  color: var(--mode-back-70);
+  color: var(--mode-text-100);
   font: var(--style-link);
   font-size: 10px;
   text-transform: uppercase;
+  letter-spacing: .5px;
+  transition: background var(--fast, .2s), color var(--fast, .2s);
+}
+
+.bw-dataadmin-views button:hover {
+  background: var(--mode-back-70);
+  color: var(--color-text-100);
 }
 
 .bw-dataadmin-views button[aria-selected="true"] {
-  background: var(--mode-opacity-50);
-  color: var(--mode-text-100);
+  background: var(--post-user);
+  color: var(--color-text-100);
+}
+
+.bw-dataadmin-total {
+  margin: 0 0 0 auto;
+  padding: 8px 14px;
+  background: var(--color-bold-100);
+  border-radius: 3px;
+  color: var(--color-text-100);
+  font: var(--style-link);
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+}
+
+.bw-dataadmin-total:empty {
+  display: none;
 }
 
 .bw-dataadmin textarea.short {
