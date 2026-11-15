@@ -20014,7 +20014,7 @@ body.light-mode .bw-logbook {
 }
 
 .bw-dataadmin-meta {
-  flex: 0 1 220px;
+  flex: 1 1 220px;
   min-width: 0;
   overflow: hidden;
   font-size: 11.5px;
@@ -20177,6 +20177,34 @@ body.light-mode .bw-logbook {
 
 .bw-dataadmin-pending .quiet {
   color: var(--color-text-100);
+}
+
+/* VISTAS DE CADA TABLA */
+.bw-dataadmin-views {
+  display: flex;
+  gap: 4px;
+}
+
+.bw-dataadmin-views button {
+  padding: 7px 12px;
+  border-radius: 3px;
+  color: var(--mode-back-70);
+  font: var(--style-link);
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+.bw-dataadmin-views button[aria-selected="true"] {
+  background: var(--mode-opacity-50);
+  color: var(--mode-text-100);
+}
+
+.bw-dataadmin textarea.short {
+  min-height: 70px;
+}
+
+.bw-dataadmin-compare > div {
+  white-space: pre-line;
 }
 
 /* PAGINACIÓN */
