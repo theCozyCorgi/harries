@@ -76841,6 +76841,89 @@ const DBModule = (function () {
             "date": "22/04/1953",
             "location": "Departamento de Misterios"
         },
+        "1325": {
+            "space": "el pensadero",
+            "url": "/t1325-1953-04-15-dreaming-one-day-i-could-call-you-mine",
+            "simpleTitle": "dreaming one day i could call you mine",
+            "creator": "Hankford B. Diggory",
+            "replyCount": 11,
+            "posts": [
+                {
+                    "url": "r20441",
+                    "author": "Hankford B. Diggory",
+                    "date": "02/07/2026",
+                    "words": 237
+                },
+                {
+                    "url": "r20603",
+                    "author": "Aidan N. Flamel",
+                    "date": "09/07/2026",
+                    "words": 305
+                },
+                {
+                    "url": "r21624",
+                    "author": "Hankford B. Diggory",
+                    "date": "09/08/2026",
+                    "words": 388
+                },
+                {
+                    "url": "r22484",
+                    "author": "Aidan N. Flamel",
+                    "date": "04/09/2026",
+                    "words": 331
+                },
+                {
+                    "url": "r22629",
+                    "author": "Hankford B. Diggory",
+                    "date": "07/09/2026",
+                    "words": 368
+                },
+                {
+                    "url": "r23186",
+                    "author": "Aidan N. Flamel",
+                    "date": "20/09/2026",
+                    "words": 285
+                },
+                {
+                    "url": "r23257",
+                    "author": "Hankford B. Diggory",
+                    "date": "23/09/2026",
+                    "words": 281
+                },
+                {
+                    "url": "r23340",
+                    "author": "Aidan N. Flamel",
+                    "date": "25/09/2026",
+                    "words": 320
+                },
+                {
+                    "url": "r23342",
+                    "author": "Hankford B. Diggory",
+                    "date": "25/09/2026",
+                    "words": 376
+                },
+                {
+                    "url": "r24297",
+                    "author": "Aidan N. Flamel",
+                    "date": "16/10/2026",
+                    "words": 299
+                },
+                {
+                    "url": "r24856",
+                    "author": "Hankford B. Diggory",
+                    "date": "27/10/2026",
+                    "words": 300
+                },
+                {
+                    "url": "r25565",
+                    "author": "Aidan N. Flamel",
+                    "date": "13/11/2026",
+                    "words": 243
+                }
+            ],
+            "date": "15/04/1953",
+            "location": "Invernaderos"
+        },
         "1330": {
             "space": "el pensadero",
             "url": "/t1330-1953-04-11-undercover",
@@ -79935,6 +80018,269 @@ const DBModule = (function () {
                 "amortentia"
             ]
         },
+        "1432": {
+            "space": "el pensadero",
+            "url": "/t1432-1953-05-13-duelo-21-montgomery-vs-ruairidh",
+            "simpleTitle": "duelo #21: montgomery vs ruairidh",
+            "creator": "Black Wave",
+            "replyCount": 41,
+            "posts": [
+                {
+                    "url": "r22534",
+                    "author": "Black Wave",
+                    "date": "06/09/2026",
+                    "words": 154
+                },
+                {
+                    "url": "r22535",
+                    "author": "The Familiars",
+                    "date": "06/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22642",
+                    "author": "Montgomery Thatch",
+                    "date": "07/09/2026",
+                    "words": 412
+                },
+                {
+                    "url": "r22643",
+                    "author": "The Familiars",
+                    "date": "07/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22695",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "09/09/2026",
+                    "words": 302
+                },
+                {
+                    "url": "r22696",
+                    "author": "The Familiars",
+                    "date": "09/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22717",
+                    "author": "Montgomery Thatch",
+                    "date": "10/09/2026",
+                    "words": 234
+                },
+                {
+                    "url": "r22718",
+                    "author": "The Familiars",
+                    "date": "10/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22834",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "13/09/2026",
+                    "words": 191
+                },
+                {
+                    "url": "r22835",
+                    "author": "The Familiars",
+                    "date": "13/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r22992",
+                    "author": "Montgomery Thatch",
+                    "date": "16/09/2026",
+                    "words": 159
+                },
+                {
+                    "url": "r22993",
+                    "author": "The Familiars",
+                    "date": "16/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r23089",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "18/09/2026",
+                    "words": 135
+                },
+                {
+                    "url": "r23090",
+                    "author": "The Familiars",
+                    "date": "18/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r23317",
+                    "author": "Montgomery Thatch",
+                    "date": "24/09/2026",
+                    "words": 273
+                },
+                {
+                    "url": "r23318",
+                    "author": "The Familiars",
+                    "date": "24/09/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r23508",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "29/09/2026",
+                    "words": 243
+                },
+                {
+                    "url": "r23547",
+                    "author": "Montgomery Thatch",
+                    "date": "30/09/2026",
+                    "words": 400
+                },
+                {
+                    "url": "r23558",
+                    "author": "Valerian",
+                    "date": "01/10/2026",
+                    "words": 375
+                },
+                {
+                    "url": "r23734",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "04/10/2026",
+                    "words": 318
+                },
+                {
+                    "url": "r23735",
+                    "author": "The Familiars",
+                    "date": "04/10/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r23749",
+                    "author": "Montgomery Thatch",
+                    "date": "04/10/2026",
+                    "words": 215
+                },
+                {
+                    "url": "r23750",
+                    "author": "The Familiars",
+                    "date": "04/10/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r24209",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "14/10/2026",
+                    "words": 164
+                },
+                {
+                    "url": "r24210",
+                    "author": "The Familiars",
+                    "date": "14/10/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r24214",
+                    "author": "Montgomery Thatch",
+                    "date": "14/10/2026",
+                    "words": 150
+                },
+                {
+                    "url": "r24215",
+                    "author": "The Familiars",
+                    "date": "14/10/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r24271",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "15/10/2026",
+                    "words": 166
+                },
+                {
+                    "url": "r24272",
+                    "author": "The Familiars",
+                    "date": "15/10/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r24321",
+                    "author": "Montgomery Thatch",
+                    "date": "17/10/2026",
+                    "words": 196
+                },
+                {
+                    "url": "r24322",
+                    "author": "The Familiars",
+                    "date": "17/10/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r24968",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "29/10/2026",
+                    "words": 182
+                },
+                {
+                    "url": "r24969",
+                    "author": "The Familiars",
+                    "date": "29/10/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r25014",
+                    "author": "Montgomery Thatch",
+                    "date": "30/10/2026",
+                    "words": 202
+                },
+                {
+                    "url": "r25015",
+                    "author": "The Familiars",
+                    "date": "30/10/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r25116",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "31/10/2026",
+                    "words": 194
+                },
+                {
+                    "url": "r25117",
+                    "author": "The Familiars",
+                    "date": "31/10/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r25319",
+                    "author": "Montgomery Thatch",
+                    "date": "04/11/2026",
+                    "words": 200
+                },
+                {
+                    "url": "r25320",
+                    "author": "The Familiars",
+                    "date": "04/11/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r25552",
+                    "author": "Ruairidh Ó Mhaille",
+                    "date": "12/11/2026",
+                    "words": 225
+                },
+                {
+                    "url": "r25553",
+                    "author": "The Familiars",
+                    "date": "12/11/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r25635",
+                    "author": "Black Wave",
+                    "date": "15/11/2026",
+                    "words": 124
+                }
+            ],
+            "date": "13/05/1953",
+            "location": "Club de Duelos"
+        },
         "1437": {
             "space": "el pensadero",
             "url": "/t1437-1953-05-23-willow",
@@ -80279,6 +80625,77 @@ const DBModule = (function () {
             "date": "01/02/1953",
             "location": "Mansión Malfoy"
         },
+        "1481": {
+            "space": "el pensadero",
+            "url": "/t1481-1953-05-23-evento-interescolares-de-quidditch-hexagons",
+            "simpleTitle": "evento: interescolares de quidditch - hexagons",
+            "creator": "Thaddeus L. Nott",
+            "replyCount": 9,
+            "posts": [
+                {
+                    "url": "r23491",
+                    "author": "Thaddeus L. Nott",
+                    "date": "29/09/2026",
+                    "words": 251
+                },
+                {
+                    "url": "r23716",
+                    "author": "Neptune E. Merrythought",
+                    "date": "04/10/2026",
+                    "words": 232
+                },
+                {
+                    "url": "r23783",
+                    "author": "Thaddeus L. Nott",
+                    "date": "05/10/2026",
+                    "words": 287
+                },
+                {
+                    "url": "r23976",
+                    "author": "Neptune E. Merrythought",
+                    "date": "10/10/2026",
+                    "words": 242
+                },
+                {
+                    "url": "r24109",
+                    "author": "Thaddeus L. Nott",
+                    "date": "13/10/2026",
+                    "words": 225
+                },
+                {
+                    "url": "r24696",
+                    "author": "Neptune E. Merrythought",
+                    "date": "25/10/2026",
+                    "words": 252
+                },
+                {
+                    "url": "r24715",
+                    "author": "Thaddeus L. Nott",
+                    "date": "25/10/2026",
+                    "words": 274
+                },
+                {
+                    "url": "r24836",
+                    "author": "Neptune E. Merrythought",
+                    "date": "27/10/2026",
+                    "words": 242
+                },
+                {
+                    "url": "r25400",
+                    "author": "Thaddeus L. Nott",
+                    "date": "06/11/2026",
+                    "words": 311
+                },
+                {
+                    "url": "r25512",
+                    "author": "Neptune E. Merrythought",
+                    "date": "10/11/2026",
+                    "words": 284
+                }
+            ],
+            "date": "23/05/1953",
+            "location": "Koldovoretz"
+        },
         "1482": {
             "space": "el pensadero",
             "url": "/t1482-1953-05-19-evento-interescolares-de-quidditch-the-sharpest-live",
@@ -80432,6 +80849,311 @@ const DBModule = (function () {
             ],
             "date": "23/05/1953",
             "location": "Gran Comedor"
+        },
+        "1490": {
+            "space": "el pensadero",
+            "url": "/t1490-1953-06-03-duelo-23-minerva-vs-montgomery",
+            "simpleTitle": "duelo #23: minerva vs montgomery",
+            "creator": "Black Wave",
+            "replyCount": 48,
+            "posts": [
+                {
+                    "url": "r23706",
+                    "author": "Black Wave",
+                    "date": "03/10/2026",
+                    "words": 155
+                },
+                {
+                    "url": "r23707",
+                    "author": "The Familiars",
+                    "date": "03/10/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r23747",
+                    "author": "Montgomery Thatch",
+                    "date": "04/10/2026",
+                    "words": 229
+                },
+                {
+                    "url": "r23748",
+                    "author": "The Familiars",
+                    "date": "04/10/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r23768",
+                    "author": "Minerva E. McGonagall",
+                    "date": "04/10/2026",
+                    "words": 220
+                },
+                {
+                    "url": "r23769",
+                    "author": "The Familiars",
+                    "date": "04/10/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r23811",
+                    "author": "Montgomery Thatch",
+                    "date": "05/10/2026",
+                    "words": 178
+                },
+                {
+                    "url": "r23812",
+                    "author": "The Familiars",
+                    "date": "05/10/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r23831",
+                    "author": "Minerva E. McGonagall",
+                    "date": "06/10/2026",
+                    "words": 205
+                },
+                {
+                    "url": "r23832",
+                    "author": "The Familiars",
+                    "date": "06/10/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r23851",
+                    "author": "Montgomery Thatch",
+                    "date": "06/10/2026",
+                    "words": 212
+                },
+                {
+                    "url": "r23852",
+                    "author": "The Familiars",
+                    "date": "06/10/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r23868",
+                    "author": "Minerva E. McGonagall",
+                    "date": "06/10/2026",
+                    "words": 186
+                },
+                {
+                    "url": "r23869",
+                    "author": "The Familiars",
+                    "date": "06/10/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r23917",
+                    "author": "Montgomery Thatch",
+                    "date": "08/10/2026",
+                    "words": 197
+                },
+                {
+                    "url": "r23918",
+                    "author": "The Familiars",
+                    "date": "08/10/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r23930",
+                    "author": "Minerva E. McGonagall",
+                    "date": "09/10/2026",
+                    "words": 156
+                },
+                {
+                    "url": "r23931",
+                    "author": "The Familiars",
+                    "date": "09/10/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r23949",
+                    "author": "Montgomery Thatch",
+                    "date": "09/10/2026",
+                    "words": 118
+                },
+                {
+                    "url": "r23950",
+                    "author": "The Familiars",
+                    "date": "09/10/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r24047",
+                    "author": "Minerva E. McGonagall",
+                    "date": "12/10/2026",
+                    "words": 135
+                },
+                {
+                    "url": "r24048",
+                    "author": "The Familiars",
+                    "date": "12/10/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r24207",
+                    "author": "Montgomery Thatch",
+                    "date": "14/10/2026",
+                    "words": 273
+                },
+                {
+                    "url": "r24208",
+                    "author": "The Familiars",
+                    "date": "14/10/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r24305",
+                    "author": "Minerva E. McGonagall",
+                    "date": "16/10/2026",
+                    "words": 193
+                },
+                {
+                    "url": "r24306",
+                    "author": "The Familiars",
+                    "date": "16/10/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r24323",
+                    "author": "Montgomery Thatch",
+                    "date": "17/10/2026",
+                    "words": 170
+                },
+                {
+                    "url": "r24324",
+                    "author": "The Familiars",
+                    "date": "17/10/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r24496",
+                    "author": "Minerva E. McGonagall",
+                    "date": "21/10/2026",
+                    "words": 168
+                },
+                {
+                    "url": "r24497",
+                    "author": "The Familiars",
+                    "date": "21/10/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r24731",
+                    "author": "Montgomery Thatch",
+                    "date": "25/10/2026",
+                    "words": 248
+                },
+                {
+                    "url": "r24732",
+                    "author": "The Familiars",
+                    "date": "25/10/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r24843",
+                    "author": "Minerva E. McGonagall",
+                    "date": "27/10/2026",
+                    "words": 178
+                },
+                {
+                    "url": "r24844",
+                    "author": "The Familiars",
+                    "date": "27/10/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r25012",
+                    "author": "Montgomery Thatch",
+                    "date": "30/10/2026",
+                    "words": 207
+                },
+                {
+                    "url": "r25013",
+                    "author": "The Familiars",
+                    "date": "30/10/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r25096",
+                    "author": "Minerva E. McGonagall",
+                    "date": "31/10/2026",
+                    "words": 236
+                },
+                {
+                    "url": "r25097",
+                    "author": "The Familiars",
+                    "date": "31/10/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r25317",
+                    "author": "Montgomery Thatch",
+                    "date": "04/11/2026",
+                    "words": 209
+                },
+                {
+                    "url": "r25318",
+                    "author": "The Familiars",
+                    "date": "04/11/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r25396",
+                    "author": "Minerva E. McGonagall",
+                    "date": "06/11/2026",
+                    "words": 192
+                },
+                {
+                    "url": "r25397",
+                    "author": "The Familiars",
+                    "date": "06/11/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r25483",
+                    "author": "Montgomery Thatch",
+                    "date": "09/11/2026",
+                    "words": 158
+                },
+                {
+                    "url": "r25484",
+                    "author": "The Familiars",
+                    "date": "09/11/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r25562",
+                    "author": "Minerva E. McGonagall",
+                    "date": "13/11/2026",
+                    "words": 159
+                },
+                {
+                    "url": "r25563",
+                    "author": "The Familiars",
+                    "date": "13/11/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r25619",
+                    "author": "Montgomery Thatch",
+                    "date": "15/11/2026",
+                    "words": 213
+                },
+                {
+                    "url": "r25620",
+                    "author": "The Familiars",
+                    "date": "15/11/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r25636",
+                    "author": "Black Wave",
+                    "date": "15/11/2026",
+                    "words": 131
+                }
+            ],
+            "date": "03/06/1953",
+            "location": "Club de Duelos"
         },
         "1518": {
             "space": "el pensadero",
@@ -165958,6 +166680,1075 @@ const DBModule = (function () {
             "url": "r24659",
             "simpleTitle": "difficult loves",
             "space": "el pensadero"
+        },
+        {
+            "pitcher": "Black Wave",
+            "spread": [
+                1
+            ],
+            "title": [
+                "felix felicis"
+            ],
+            "key": [],
+            "knowledge": [],
+            "type": [],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-felix-felicis\"><span>Black Wave ha lanzado los dados \"felix felicis\"</span><div class=\"dice-results\"><span class=\"roll-result nro1\"><i class=\"fa-solid fa-flask-round-poison\"></i>No hubo suerte esta vez, mejor intenta la próxima.</span></div></div></div>",
+            "url": "r23707",
+            "simpleTitle": "duelo #23: minerva vs montgomery",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                10,
+                12
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "fianto duri",
+                "vocare naudiz"
+            ],
+            "knowledge": [
+                "encantamientos",
+                "runas antiguas"
+            ],
+            "type": [
+                "encantamiento, defensivo",
+                "encantamiento, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Montgomery Thatch ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"fianto duri\" (10)</strong><span>El escudo se fortalece significativamente y dura más tiempo. Adiciona <em>+14</em> (75% del conocimiento en ENCANTAMIENTOS) en la siguiente lanzada de dados donde se utilice un hechizo protector.</span></span><span class=\"action-result\" data-conocimientos=\"runas antiguas\"><strong>Resultado  #2 \"vocare naudiz\" (12)</strong><span>Resta +7 puntos a la siguiente acción del objetivo.</span></span></div></div></div>",
+            "url": "r23748",
+            "simpleTitle": "duelo #23: minerva vs montgomery",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Minerva E. McGonagall",
+            "spread": [
+                19,
+                13
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "salvio hexia",
+                "ebublio"
+            ],
+            "knowledge": [
+                "encantamientos",
+                "dcao"
+            ],
+            "type": [
+                "encantamiento, defensivo",
+                "embrujo, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"salvio hexia\" (19)</strong><span>Protege una zona designada creando una barrera temporal. Adiciona <em>+7</em> (50% del conocimiento en ENCANTAMIENTOS) de defensa a todos los aliados durante 2 turnos.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"ebublio\" (13)</strong><span>El objetivo queda atrapado en una burbuja más resistente, que se rompe con un golpe fuerte. La víctima deberá tirar un lado de acción y sumar su fuerza, si el resultado es mayor a 15 queda liberado.</span></span></div></div></div>",
+            "url": "r23769",
+            "simpleTitle": "duelo #23: minerva vs montgomery",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                1,
+                18
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "metallum protegit me",
+                "baubillious"
+            ],
+            "knowledge": [
+                "duendes",
+                "encantamientos"
+            ],
+            "type": [
+                "encantamiento, defensivo",
+                "encantamiento, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Montgomery Thatch ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"duendes\"><strong>Resultado  #1 \"metallum protegit me\" (1)</strong><span>Permite moldear metales resistentes generando un escudo más fuerte. Adiciona +5 en defensa.</span></span><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #2 \"baubillious\" (18)</strong><span>El destello es intenso, cegando momentáneamente al objetivo y causando confusión. Adiciona +22 en daño.</span></span></div></div></div>",
+            "url": "r23812",
+            "simpleTitle": "duelo #23: minerva vs montgomery",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Minerva E. McGonagall",
+            "spread": [
+                18,
+                1
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "protego totalum",
+                "immobulus glacius"
+            ],
+            "knowledge": [
+                "dcao",
+                "dcao"
+            ],
+            "type": [
+                "encantamiento, defensivo",
+                "encantamiento, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"protego totalum\" (18)</strong><span>La barrera es fuerte y resistente a la mayoría de los hechizos. Adiciona <em>+14</em> (75% del conocimiento en DCAO) en defensa a todos los personajes dentro del edificio durante 2 turno.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"immobulus glacius\" (1)</strong><span>Una fina capa de hielo aparece, pero se rompe fácilmente. Adiciona +2 en el daño.</span></span></div></div></div>",
+            "url": "r23832",
+            "simpleTitle": "duelo #23: minerva vs montgomery",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                7,
+                3
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "vocare algiz",
+                "serpensortia"
+            ],
+            "knowledge": [
+                "runas antiguas",
+                "transformaciones"
+            ],
+            "type": [
+                "encantamiento, defensivo",
+                "transfiguración, ofensivo, defensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Montgomery Thatch ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"runas antiguas\"><strong>Resultado  #1 \"vocare algiz\" (7)</strong><span>El aura es tenue y apenas mitiga el daño recibido. Adiciona +1 en defensa.</span></span><span class=\"action-result\" data-conocimientos=\"transformaciones\"><strong>Resultado  #2 \"serpensortia\" (3)</strong><span>Surge una serpiente grande y amenazante lista para atacar. Genera un PNJ con las siguientes características: <em>+7</em> (75% del conocimiento en TRANSFORMACIONES) PV, <em>0</em> (El 75% de FUE) de Fue y <em>2</em> (El 75% de CON) de Con. El oponente deberá atacar primero al PNJ antes que al conjurador. Adiciona <em>+7</em> (75% del conocimiento en TRANSFORMACIONES) en daño o defensa.</span></span></div></div></div>",
+            "url": "r23852",
+            "simpleTitle": "duelo #23: minerva vs montgomery",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Minerva E. McGonagall",
+            "spread": [
+                2,
+                3
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "vipera evanesca",
+                "aqua eructo"
+            ],
+            "knowledge": [
+                "ccm",
+                "encantamientos"
+            ],
+            "type": [
+                "maleficio, contrahechizo, defensivo",
+                "encantamiento, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"ccm\"><strong>Resultado  #1 \"vipera evanesca\" (2)</strong><span>La serpiente desaparece por completo sin dejar rastro. Resta todos los puntos de vida de la serpiente.</span></span><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #2 \"aqua eructo\" (3)</strong><span>El chorro es suficiente para apagar pequeñas llamas o refrescar un área. Empuja levemente al oponente, adiciona +5 al daño.</span></span></div></div></div>",
+            "url": "r23869",
+            "simpleTitle": "duelo #23: minerva vs montgomery",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                11,
+                6
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "sigillum numerorum",
+                "quietus"
+            ],
+            "knowledge": [
+                "aritmancia",
+                "encantamientos"
+            ],
+            "type": [
+                "encantamiento, defensivo",
+                "encantamiento, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Montgomery Thatch ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"aritmancia\"><strong>Resultado  #1 \"sigillum numerorum\" (11)</strong><span>El sigilo queda trazado con precisión, ofreciendo una protección sólida. Adiciona <em>+12</em> (75% del conocimiento en ARITMANCIA) en defensa.</span></span><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #2 \"quietus\" (6)</strong><span>El objetivo apenas puede ser escuchado, incluso si grita.  Disminuye en <em>+14</em> (75% del conocimiento en ENCANTAMIENTOS) todas los hechizos verbales del personaje hasta que se elimine el efecto o pasen 3 turnos.</span></span></div></div></div>",
+            "url": "r23918",
+            "simpleTitle": "duelo #23: minerva vs montgomery",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Minerva E. McGonagall",
+            "spread": [
+                14,
+                18
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "glacius",
+                "colloshoo"
+            ],
+            "knowledge": [
+                "encantamientos",
+                "dcao"
+            ],
+            "type": [
+                "encantamiento, defensivo",
+                "embrujo, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"glacius\" (14)</strong><span>La zona alrededor queda completamente congelada. El ataque del rival pierde <em>+5</em> (40% del conocimiento en ENCANTAMIENTOS) puntos adicionales y adiciona <em>+14</em> (100% del conocimiento en ENCANTAMIENTOS) puntos a su siguiente acción.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"colloshoo\" (18)</strong><span>El hechizo es tan potente que deja una sensación de inmobilidad completa en toda la víctima, pierde dos acciones consecutivas al embrujo.</span></span></div></div></div>",
+            "url": "r23931",
+            "simpleTitle": "duelo #23: minerva vs montgomery",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                20,
+                9
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "sectio aurea",
+                "mobilicorpus"
+            ],
+            "knowledge": [
+                "aritmancia",
+                "encantamientos"
+            ],
+            "type": [
+                "encantamiento, defensivo",
+                "encantamiento, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Montgomery Thatch ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"aritmancia\"><strong>Resultado  #1 \"sectio aurea\" (20)</strong><span>El ajuste es perfecto, volviendo la estructura extremadamente resistente. Adiciona <em>+16</em> (100% del conocimiento en ARITMANCIA) en defensa.</span></span><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #2 \"mobilicorpus\" (9)</strong><span>La víctima queda suspendida en el aire y es fácilmente manipulable por el lanzador del hechizo. Disminuye en <em>+14</em> (75% del conocimiento en ENCANTAMIENTOS) puntos su acción siguiente a ser atacado.</span></span></div></div></div>",
+            "url": "r23950",
+            "simpleTitle": "duelo #23: minerva vs montgomery",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Minerva E. McGonagall",
+            "spread": [
+                9,
+                15
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "protego",
+                "melofors"
+            ],
+            "knowledge": [
+                "dcao",
+                "dcao"
+            ],
+            "type": [
+                "encantamiento, defensivo",
+                "embrujo, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"protego\" (9)</strong><span>El escudo es extremadamente resistente. Reduce el ataque en <em>+19</em> (100% del conocimiento en DCAO) puntos adicionales.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"melofors\" (15)</strong><span>La calabaza queda completamente sellada y resistente, dejando a la víctima en una total oscuridad y sin oír nada. Pierde +21 puntos durante todas sus acciones hasta que se libere del embrujo.</span></span></div></div></div>",
+            "url": "r24048",
+            "simpleTitle": "duelo #23: minerva vs montgomery",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                13,
+                6
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "modus symmetria",
+                "lumos solem"
+            ],
+            "knowledge": [
+                "aritmancia",
+                "herbología"
+            ],
+            "type": [
+                "encantamiento, defensivo",
+                "encantamiento, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Montgomery Thatch ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"aritmancia\"><strong>Resultado  #1 \"modus symmetria\" (13)</strong><span>El hechizo obtiene cierta estabilidad adicional. El escudo tiene una duración de un turno adicional y se refuerza en <em>+8</em> (50% del conocimiento en ARITMANCIA) en defensa.</span></span><span class=\"action-result\" data-conocimientos=\"herbología\"><strong>Resultado  #2 \"lumos solem\" (6)</strong><span>El destello es intenso y momentáneamente deslumbra. Si se usa contra un objetivo, el mismo deberá descontar <em>+7</em> (75% del conocimiento en HERBOLOGÍA) puntos en su siguiente acción.</span></span></div></div></div>",
+            "url": "r24208",
+            "simpleTitle": "duelo #23: minerva vs montgomery",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Minerva E. McGonagall",
+            "spread": [
+                14,
+                8
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "fianto duri",
+                "waddiwasi"
+            ],
+            "knowledge": [
+                "encantamientos",
+                "dcao"
+            ],
+            "type": [
+                "encantamiento, defensivo",
+                "embrujo, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"fianto duri\" (14)</strong><span>El escudo defensivo se vuelve más resistente. Adiciona <em>+7</em> (50% del conocimiento en ENCANTAMIENTOS) en la siguiente lanzada de dados donde se utilice un hechizo protector.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"waddiwasi\" (8)</strong><span>El objeto impacta al objetivo con precisión y fuerza considerable. Adiciona +12 puntos de daño.</span></span></div></div></div>",
+            "url": "r24306",
+            "simpleTitle": "duelo #23: minerva vs montgomery",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                19,
+                19
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "vocare isa",
+                "duro"
+            ],
+            "knowledge": [
+                "runas antiguas",
+                "transformaciones"
+            ],
+            "type": [
+                "encantamiento, defensivo",
+                "transfiguración, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Montgomery Thatch ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"runas antiguas\"><strong>Resultado  #1 \"vocare isa\" (19)</strong><span>El atacante queda momentáneamente congelado, dando tiempo de sobra para reaccionar. Adiciona +7 en defensa.</span></span><span class=\"action-result\" data-conocimientos=\"transformaciones\"><strong>Resultado  #2 \"duro\" (19)</strong><span>El objetivo queda casi convertido en piedra en su totalidad. En caso de usarse en duelos, la víctima pierde sus acciones hasta que alguien lo libere o rolee 1 respuesta.</span></span></div></div></div>",
+            "url": "r24324",
+            "simpleTitle": "duelo #23: minerva vs montgomery",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Minerva E. McGonagall",
+            "spread": [
+                4,
+                17
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "protego totalum",
+                "immobulus glacius"
+            ],
+            "knowledge": [
+                "dcao",
+                "dcao"
+            ],
+            "type": [
+                "encantamiento, defensivo",
+                "encantamiento, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"protego totalum\" (4)</strong><span>La barrera protege contra intrusos, pero puede romperse con magia avanzada. Adiciona <em>+9</em> (50% del conocimiento en DCAO) en defensa a todos los personajes dentro del edificio durante 1 turno.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"immobulus glacius\" (17)</strong><span>Las extremidades del objetivo quedan completamente congeladas y adheridas al suelo. Adiciona +19 en el daño y la víctima pierde su siguiente acción inmediata.</span></span></div></div></div>",
+            "url": "r24497",
+            "simpleTitle": "duelo #23: minerva vs montgomery",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                11,
+                8
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "metallum protegit me"
+            ],
+            "knowledge": [
+                "duendes"
+            ],
+            "type": [
+                "encantamiento, defensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Montgomery Thatch ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"duendes\"><strong>Resultado  #1 \"metallum protegit me\" (11)</strong><span>Puede forzar un escudo que se mantiene con el tiempo aunque solo bloquea los ataques por dos turnos. Por los siguientes dos turnos adiciona en defensa la misma cantidad que el ataque recibido.</span></span><span class=\"roll-result\">8</span></div></div></div>",
+            "url": "r24732",
+            "simpleTitle": "duelo #23: minerva vs montgomery",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Minerva E. McGonagall",
+            "spread": [
+                10,
+                11
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "fortitudo cordis",
+                "ebublio"
+            ],
+            "knowledge": [
+                "liderazgo",
+                "dcao"
+            ],
+            "type": [
+                "habilidad, sin magia, neutral",
+                "embrujo, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"liderazgo\"><strong>Resultado  #1 \"fortitudo cordis\" (10)</strong><span>Adiciona <em>2</em> (El 100% de CAR) en acciones del conocimiento mencionado durante todo el tema.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"ebublio\" (11)</strong><span>El objetivo queda atrapado en una burbuja más resistente, que se rompe con un golpe fuerte. La víctima deberá tirar un lado de acción y sumar su fuerza, si el resultado es mayor a 15 queda liberado.</span></span></div></div></div>",
+            "url": "r24844",
+            "simpleTitle": "duelo #23: minerva vs montgomery",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                4,
+                7
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "salvio hexia"
+            ],
+            "knowledge": [
+                "encantamientos"
+            ],
+            "type": [
+                "encantamiento, defensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Montgomery Thatch ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"salvio hexia\" (4)</strong><span>Protege una zona designada creando una barrera temporal. Adiciona <em>+9</em> (50% del conocimiento en ENCANTAMIENTOS) de defensa a todos los aliados durante 2 turnos.</span></span><span class=\"roll-result\">7</span></div></div></div>",
+            "url": "r25013",
+            "simpleTitle": "duelo #23: minerva vs montgomery",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Minerva E. McGonagall",
+            "spread": [
+                4,
+                11
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "spongify",
+                "finite"
+            ],
+            "knowledge": [
+                "encantamientos",
+                "dcao"
+            ],
+            "type": [
+                "encantamiento, neutral",
+                "encantamiento, contrahechizo, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"spongify\" (4)</strong><span>El área afectada se vuelve completamente esponjosa y elástica.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"finite\" (11)</strong><span>El encantamiento no solo finaliza el efecto del hechizo, sino que también previene su regreso temporalmente.</span></span></div></div></div>",
+            "url": "r25097",
+            "simpleTitle": "duelo #23: minerva vs montgomery",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                7
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "lacarnum inflamarae"
+            ],
+            "knowledge": [
+                "encantamientos"
+            ],
+            "type": [
+                "encantamiento, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Montgomery Thatch ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"lacarnum inflamarae\" (7)</strong><span>Las llamas arden con gran intensidad, provocando incendios difíciles de controlar. Si se usa contra un oponente, adiciona +11 en daño.</span></span></div></div></div>",
+            "url": "r25318",
+            "simpleTitle": "duelo #23: minerva vs montgomery",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Minerva E. McGonagall",
+            "spread": [
+                4,
+                7
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "protego",
+                "ventus"
+            ],
+            "knowledge": [
+                "dcao",
+                "encantamientos"
+            ],
+            "type": [
+                "encantamiento, defensivo",
+                "encantamiento, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"protego\" (4)</strong><span>El escudo es extremadamente resistente. Reduce el ataque en <em>+19</em> (100% del conocimiento en DCAO) puntos adicionales.</span></span><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #2 \"ventus\" (7)</strong><span>Una ráfaga de viento empuja el objetivo con fuerza moderada. Adiciona <em>+7</em> (50% del conocimiento en ENCANTAMIENTOS) en daño en caso de duelos.</span></span></div></div></div>",
+            "url": "r25397",
+            "simpleTitle": "duelo #23: minerva vs montgomery",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                4,
+                9
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "glacius",
+                "vocare naudiz"
+            ],
+            "knowledge": [
+                "encantamientos",
+                "runas antiguas"
+            ],
+            "type": [
+                "encantamiento, defensivo",
+                "encantamiento, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Montgomery Thatch ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"glacius\" (4)</strong><span>La zona alrededor queda completamente congelada. El ataque del rival pierde <em>+7</em> (40% del conocimiento en ENCANTAMIENTOS) puntos adicionales y adiciona <em>+19</em> (100% del conocimiento en ENCANTAMIENTOS) puntos a su siguiente acción.</span></span><span class=\"action-result\" data-conocimientos=\"runas antiguas\"><strong>Resultado  #2 \"vocare naudiz\" (9)</strong><span>Resta +5 puntos a la siguiente acción del objetivo.</span></span></div></div></div>",
+            "url": "r25484",
+            "simpleTitle": "duelo #23: minerva vs montgomery",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Minerva E. McGonagall",
+            "spread": [
+                12,
+                9
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "immobulus",
+                "colloshoo"
+            ],
+            "knowledge": [
+                "dcao",
+                "dcao"
+            ],
+            "type": [
+                "encantamiento, defensivo, ofensivo",
+                "embrujo, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Minerva E. McGonagall ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"immobulus\" (12)</strong><span>El hechizo puede paralizar a un único objetivo o, si el lanzador lo decide, a todo un grupo de objetivos cercanos entre sí, tal como se usa para inmovilizar de una vez a un enjambre completo de criaturas pequeñas. Cada objetivo alcanzado queda paralizado durante <em>+19</em> (100% del conocimiento en DCAO) turnos y tarda más en recuperar el control de su cuerpo, donde no podrá realizar acciones, o hasta que un personaje lo libere si se usa como ataque, o impide el ataque, reduciendo el mismo a cero, si se usa como defensa adicionando +4 puntos en la siguiente acción del defensor.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"colloshoo\" (9)</strong><span>El objetivo queda pegado al suelo hasta que se le libere mágicamente, todas las acciones hasta que se libere pierden +6 puntos.</span></span></div></div></div>",
+            "url": "r25563",
+            "simpleTitle": "duelo #23: minerva vs montgomery",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                1,
+                15
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "metallum protegit me"
+            ],
+            "knowledge": [
+                "duendes"
+            ],
+            "type": [
+                "encantamiento, defensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Montgomery Thatch ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"duendes\"><strong>Resultado  #1 \"metallum protegit me\" (1)</strong><span>Permite moldear metales resistentes generando un escudo más fuerte. Adiciona +5 en defensa.</span></span><span class=\"roll-result\">15</span></div></div></div>",
+            "url": "r25620",
+            "simpleTitle": "duelo #23: minerva vs montgomery",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Black Wave",
+            "spread": [
+                2
+            ],
+            "title": [
+                "felix felicis"
+            ],
+            "key": [],
+            "knowledge": [],
+            "type": [],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-felix-felicis\"><span>Black Wave ha lanzado los dados \"felix felicis\"</span><div class=\"dice-results\"><span class=\"roll-result nro2\"><i class=\"fa-solid fa-sparkles\"></i>Se nota que sabes lo que estás haciendo, o Félix lo sabe.</span></div></div></div>",
+            "url": "r22535",
+            "simpleTitle": "duelo #21: montgomery vs ruairidh",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                16
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "vocare naudiz"
+            ],
+            "knowledge": [
+                "runas antiguas"
+            ],
+            "type": [
+                "encantamiento, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Montgomery Thatch ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"runas antiguas\"><strong>Resultado  #1 \"vocare naudiz\" (16)</strong><span>Resta +7 puntos a la siguiente acción del objetivo.</span></span></div></div></div>",
+            "url": "r22643",
+            "simpleTitle": "duelo #21: montgomery vs ruairidh",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Ruairidh Ó Mhaille",
+            "spread": [
+                19,
+                20
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "confundus",
+                "ventus"
+            ],
+            "knowledge": [
+                "encantamientos",
+                "encantamientos"
+            ],
+            "type": [
+                "encantamiento, defensivo",
+                "encantamiento, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Ruairidh Ó Mhaille ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"confundus\" (19)</strong><span>El objetivo pierde completamente el sentido de orientación temporalmente. Su siguiente acción instantánea no puede estar relacionada lógicamente a la situación en la que se encuentra el personaje. En caso de tratarse de un duelo, quedan restringidas todas las acciones ofensivas y defensivas.</span></span><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #2 \"ventus\" (20)</strong><span>Una ráfaga poderosa arroja al objetivo varios metros. Adiciona <em>+10</em> (100% del conocimiento en ENCANTAMIENTOS) en daño en caso de duelos.</span></span></div></div></div>",
+            "url": "r22696",
+            "simpleTitle": "duelo #21: montgomery vs ruairidh",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                4,
+                16
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "circulus potentiae",
+                "colorum transmutatio"
+            ],
+            "knowledge": [
+                "aritmancia",
+                "arte"
+            ],
+            "type": [
+                "habilidad, ritual, neutral",
+                "transfiguración, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Montgomery Thatch ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"aritmancia\"><strong>Resultado  #1 \"circulus potentiae\" (4)</strong><span>El círculo se traza de forma imprecisa; solo canaliza una fracción del poder combinado de los participantes.</span></span><span class=\"action-result\" data-conocimientos=\"arte\"><strong>Resultado  #2 \"colorum transmutatio\" (16)</strong><span>El cambio es perfecto y natural.</span></span></div></div></div>",
+            "url": "r22718",
+            "simpleTitle": "duelo #21: montgomery vs ruairidh",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Ruairidh Ó Mhaille",
+            "spread": [
+                3
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "finite"
+            ],
+            "knowledge": [
+                "dcao"
+            ],
+            "type": [
+                "encantamiento, contrahechizo, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Ruairidh Ó Mhaille ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"finite\" (3)</strong><span>El hechizo o maleficio se disipa por completo.</span></span></div></div></div>",
+            "url": "r22835",
+            "simpleTitle": "duelo #21: montgomery vs ruairidh",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                12,
+                18
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "ros instauro",
+                "episkey"
+            ],
+            "knowledge": [
+                "herbología",
+                "curación"
+            ],
+            "type": [
+                "encantamiento, neutral",
+                "encantamiento, curación"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Montgomery Thatch ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"herbología\"><strong>Resultado  #1 \"ros instauro\" (12)</strong><span>El rocío posee propiedades mágicas que revitalizan las hojas y potencian su fotosíntesis.</span></span><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #2 \"episkey\" (18)</strong><span>Las heridas se curan por completo y el dolor desaparece. Adiciona +9PV.</span></span></div></div></div>",
+            "url": "r22993",
+            "simpleTitle": "duelo #21: montgomery vs ruairidh",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Ruairidh Ó Mhaille",
+            "spread": [
+                4
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "finite"
+            ],
+            "knowledge": [
+                "dcao"
+            ],
+            "type": [
+                "encantamiento, contrahechizo, neutral"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Ruairidh Ó Mhaille ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"finite\" (4)</strong><span>El hechizo o maleficio se disipa por completo.</span></span></div></div></div>",
+            "url": "r23090",
+            "simpleTitle": "duelo #21: montgomery vs ruairidh",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                12,
+                14
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "episkey",
+                "lumos solem"
+            ],
+            "knowledge": [
+                "curación",
+                "herbología"
+            ],
+            "type": [
+                "encantamiento, curación",
+                "encantamiento, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Montgomery Thatch ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"curación\"><strong>Resultado  #1 \"episkey\" (12)</strong><span>Las heridas se curan por completo y el dolor desaparece. Adiciona +9PV.</span></span><span class=\"action-result\" data-conocimientos=\"herbología\"><strong>Resultado  #2 \"lumos solem\" (14)</strong><span>El destello es cegador. Si se usa contra un objetivo, anula su siguiente acción.</span></span></div></div></div>",
+            "url": "r23318",
+            "simpleTitle": "duelo #21: montgomery vs ruairidh",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Ruairidh Ó Mhaille",
+            "spread": [
+                8
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "expelliarmus"
+            ],
+            "knowledge": [
+                "dcao"
+            ],
+            "type": [
+                "encantamiento, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Ruairidh Ó Mhaille ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"expelliarmus\" (8)</strong><span>El objeto es lanzado lejos y el objetivo es empujado hacia atrás por la fuerza del hechizo. El objetivo pierde dos acciones consecutivas después de haber recibido el encantamiento.</span></span></div></div></div>",
+            "url": "r23735",
+            "simpleTitle": "duelo #21: montgomery vs ruairidh",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                16,
+                19
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "metallum protegit me",
+                "pacem animae"
+            ],
+            "knowledge": [
+                "duendes",
+                "encantamientos"
+            ],
+            "type": [
+                "encantamiento, defensivo",
+                "encantamiento, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Montgomery Thatch ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"duendes\"><strong>Resultado  #1 \"metallum protegit me\" (16)</strong><span>Puede forzar un escudo que se mantiene con el tiempo aunque solo bloquea los ataques por dos turnos. Por los siguientes dos turnos adiciona en defensa la misma cantidad que el ataque recibido.</span></span><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #2 \"pacem animae\" (19)</strong><span>El espíritu reacciona brevemente al conjuro, pero su estado agitado regresa en segundos. Adiciona <em>+4</em> (25% del conocimiento en ENCANTAMIENTOS) en Ataque.</span></span></div></div></div>",
+            "url": "r23750",
+            "simpleTitle": "duelo #21: montgomery vs ruairidh",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Ruairidh Ó Mhaille",
+            "spread": [
+                3,
+                18
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "fumos",
+                "--"
+            ],
+            "knowledge": [
+                "dcao",
+                ""
+            ],
+            "type": [
+                "encantamiento, defensivo",
+                ""
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Ruairidh Ó Mhaille ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"fumos\" (3)</strong><span>El humo es espeso y persistente, dificultando la visión y la respiración de todos los adversarios presentes en la escena. El lanzador y quienes estén junto a él Adicionan +4 en defensa durante <em>1</em> (El 50% de DES) turnos, mientras dure la cobertura.</span></span><span class=\"roll-result\">18</span></div></div></div>",
+            "url": "r24210",
+            "simpleTitle": "duelo #21: montgomery vs ruairidh",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                10,
+                17
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "fianto duri",
+                "quietus"
+            ],
+            "knowledge": [
+                "encantamientos",
+                "encantamientos"
+            ],
+            "type": [
+                "encantamiento, defensivo",
+                "encantamiento, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Montgomery Thatch ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"fianto duri\" (10)</strong><span>El escudo se fortalece significativamente y dura más tiempo. Adiciona <em>+14</em> (75% del conocimiento en ENCANTAMIENTOS) en la siguiente lanzada de dados donde se utilice un hechizo protector.</span></span><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #2 \"quietus\" (17)</strong><span>El objetivo queda completamente mudo durante un breve periodo de tiempo. La víctima no podrá realizar hechizos verbales hasta que se eliminen sus efectos o realice 5 roles.</span></span></div></div></div>",
+            "url": "r24215",
+            "simpleTitle": "duelo #21: montgomery vs ruairidh",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Ruairidh Ó Mhaille",
+            "spread": [
+                9,
+                18
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "glacius",
+                "melofors"
+            ],
+            "knowledge": [
+                "encantamientos",
+                "dcao"
+            ],
+            "type": [
+                "encantamiento, defensivo",
+                "embrujo, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Ruairidh Ó Mhaille ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"glacius\" (9)</strong><span>El aire se enfría completamente y la zona alrededor queda cubierta de una gruesa capa de hielo, reduciendo <em>+7</em> (75% del conocimiento en ENCANTAMIENTOS) puntos al ataque del rival.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"melofors\" (18)</strong><span>La calabaza queda completamente sellada y resistente, dejando a la víctima en una total oscuridad y sin oír nada. Pierde +24 puntos durante todas sus acciones hasta que se libere del embrujo.</span></span></div></div></div>",
+            "url": "r24272",
+            "simpleTitle": "duelo #21: montgomery vs ruairidh",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                5,
+                12
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "modus symmetria",
+                "petrificus totalus"
+            ],
+            "knowledge": [
+                "aritmancia",
+                "dcao"
+            ],
+            "type": [
+                "encantamiento, defensivo",
+                "maldición, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Montgomery Thatch ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"aritmancia\"><strong>Resultado  #1 \"modus symmetria\" (5)</strong><span>El patrón es irregular y la estabilidad es mínima. El escudo posee una duración de una acción adicional y se refuerza en <em>+4</em> (25% del conocimiento en ARITMANCIA) en defensa.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"petrificus totalus\" (12)</strong><span>El objetivo queda completamente inmóvil hasta que el efecto se disipe. El personaje no podrá realizar acciones hasta que otro personaje lo libere o realice dos roles. Si al conjurador le anulan acciones, se eliminan los efectos inmediatamente.</span></span></div></div></div>",
+            "url": "r24322",
+            "simpleTitle": "duelo #21: montgomery vs ruairidh",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Ruairidh Ó Mhaille",
+            "spread": [
+                20,
+                9
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "impedimenta",
+                "balbutio"
+            ],
+            "knowledge": [
+                "dcao",
+                "transformaciones"
+            ],
+            "type": [
+                "embrujo, defensivo",
+                "maldición, ofensivo, transfiguración"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Ruairidh Ó Mhaille ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"impedimenta\" (20)</strong><span>El objetivo es lanzado hacia atrás por la fuerza del hechizo y queda completamente aturdido. En caso de realizarse sobre un hechizo, anula el ataque completamente.</span></span><span class=\"action-result\" data-conocimientos=\"transformaciones\"><strong>Resultado  #2 \"balbutio\" (9)</strong><span>El tartamudeo interfiere en la fluidez del habla, dificultando la comunicación. Pierde +4 punto en todos los hechizos verbales.</span></span></div></div></div>",
+            "url": "r24969",
+            "simpleTitle": "duelo #21: montgomery vs ruairidh",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                10,
+                16
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "salvio hexia",
+                "desmaius"
+            ],
+            "knowledge": [
+                "encantamientos",
+                "dcao"
+            ],
+            "type": [
+                "encantamiento, defensivo",
+                "encantamiento, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Montgomery Thatch ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"salvio hexia\" (10)</strong><span>Crea una barrera en la zona en la que se encuentran. Adiciona <em>+14</em> (75% del conocimiento en ENCANTAMIENTOS) en todos los hechizos defensivos durante todo el tema.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"desmaius\" (16)</strong><span>El objetivo queda mareado por unos segundos. La víctima pierde +11 puntos en su siguiente acción.</span></span></div></div></div>",
+            "url": "r25015",
+            "simpleTitle": "duelo #21: montgomery vs ruairidh",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Ruairidh Ó Mhaille",
+            "spread": [
+                15,
+                10
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "expulso",
+                "duro"
+            ],
+            "knowledge": [
+                "dcao",
+                "transformaciones"
+            ],
+            "type": [
+                "maldición, defensivo",
+                "transfiguración, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Ruairidh Ó Mhaille ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #1 \"expulso\" (15)</strong><span>El objetivo es arrojado violentamente contra una superficie, pudiendo sufrir heridas graves. Adiciona <em>+0</em> (100% del conocimiento en COMBATE FÍSICO) puntos de Combate Físico en Defensa.</span></span><span class=\"action-result\" data-conocimientos=\"transformaciones\"><strong>Resultado  #2 \"duro\" (10)</strong><span>El objetivo queda convertido en piedra en su completa totalidad. En caso de usarse en duelos, la víctima pierde 10 PV y pierde todas sus acciones hasta que alguien lo libere o rolee 3 respuestas.</span></span></div></div></div>",
+            "url": "r25117",
+            "simpleTitle": "duelo #21: montgomery vs ruairidh",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Montgomery Thatch",
+            "spread": [
+                9,
+                2
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "glacius",
+                "immobulus"
+            ],
+            "knowledge": [
+                "encantamientos",
+                "dcao"
+            ],
+            "type": [
+                "encantamiento, defensivo",
+                "encantamiento, defensivo, ofensivo"
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Montgomery Thatch ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"glacius\" (9)</strong><span>La zona alrededor queda completamente congelada. El ataque del rival pierde <em>+7</em> (40% del conocimiento en ENCANTAMIENTOS) puntos adicionales y adiciona <em>+19</em> (100% del conocimiento en ENCANTAMIENTOS) puntos a su siguiente acción.</span></span><span class=\"action-result\" data-conocimientos=\"dcao\"><strong>Resultado  #2 \"immobulus\" (2)</strong><span>El objetivo queda inmovilizado por unos segundos antes de liberarse. El objetivo pierde +3 en su siguiente lanzada de dados consecutiva al ataque si se usa como defensa, o recibe +3 de daño si se usa como ataque.</span></span></div></div></div>",
+            "url": "r25320",
+            "simpleTitle": "duelo #21: montgomery vs ruairidh",
+            "space": "el pensadero"
+        },
+        {
+            "pitcher": "Ruairidh Ó Mhaille",
+            "spread": [
+                11,
+                8
+            ],
+            "title": [
+                "actions"
+            ],
+            "key": [
+                "cave inimicum",
+                "---"
+            ],
+            "knowledge": [
+                "encantamientos",
+                ""
+            ],
+            "type": [
+                "encantamiento, defensivo",
+                ""
+            ],
+            "html": "<div class=\"dice\"><span class=\"dice-header\">Lanzada de dados</span><div class=\"dice-roll roll-acción\"><span>Ruairidh Ó Mhaille ha lanzado los dados \"acción\"</span><div class=\"dice-results\"><span class=\"action-result\" data-conocimientos=\"encantamientos\"><strong>Resultado  #1 \"cave inimicum\" (11)</strong><span>La barrera oculta visualmente, pero sonidos pueden filtrarse. Adiciona <em>+5</em> (50% del conocimiento en ENCANTAMIENTOS) de defensa al lugar de escondite.</span></span><span class=\"roll-result\">8</span></div></div></div>",
+            "url": "r25553",
+            "simpleTitle": "duelo #21: montgomery vs ruairidh",
+            "space": "el pensadero"
         }
     ];
     const hardcodedInactiveTopics = {
@@ -171460,6 +173251,95 @@ const DBModule = (function () {
             "date": "10/02/1953",
             "location": "Casa Humeante"
         },
+        "1052": {
+            "space": "temas inactivos",
+            "url": "/t1052-1953-02-19-the-chase-is-over",
+            "simpleTitle": "the chase is over",
+            "creator": "H. Shun Parkinson",
+            "replyCount": 12,
+            "posts": [
+                {
+                    "url": "r14413",
+                    "author": "H. Shun Parkinson",
+                    "date": "04/03/2026",
+                    "words": 252
+                },
+                {
+                    "url": "r14811",
+                    "author": "Uranus H. Merrythought",
+                    "date": "12/03/2026",
+                    "words": 303
+                },
+                {
+                    "url": "r15622",
+                    "author": "H. Shun Parkinson",
+                    "date": "27/03/2026",
+                    "words": 338
+                },
+                {
+                    "url": "r15788",
+                    "author": "Uranus H. Merrythought",
+                    "date": "30/03/2026",
+                    "words": 380
+                },
+                {
+                    "url": "r16141",
+                    "author": "H. Shun Parkinson",
+                    "date": "06/04/2026",
+                    "words": 298
+                },
+                {
+                    "url": "r17267",
+                    "author": "Uranus H. Merrythought",
+                    "date": "01/05/2026",
+                    "words": 372
+                },
+                {
+                    "url": "r17868",
+                    "author": "H. Shun Parkinson",
+                    "date": "08/05/2026",
+                    "words": 301
+                },
+                {
+                    "url": "r18397",
+                    "author": "Uranus H. Merrythought",
+                    "date": "15/05/2026",
+                    "words": 299
+                },
+                {
+                    "url": "r19260",
+                    "author": "H. Shun Parkinson",
+                    "date": "29/05/2026",
+                    "words": 379
+                },
+                {
+                    "url": "r19867",
+                    "author": "Uranus H. Merrythought",
+                    "date": "12/06/2026",
+                    "words": 304
+                },
+                {
+                    "url": "r20393",
+                    "author": "H. Shun Parkinson",
+                    "date": "30/06/2026",
+                    "words": 287
+                },
+                {
+                    "url": "r20910",
+                    "author": "Uranus H. Merrythought",
+                    "date": "19/07/2026",
+                    "words": 263
+                },
+                {
+                    "url": "r21720",
+                    "author": "H. Shun Parkinson",
+                    "date": "12/08/2026",
+                    "words": 289
+                }
+            ],
+            "date": "19/02/1953",
+            "location": "Departamento de Seguridad"
+        },
         "1054": {
             "space": "temas inactivos",
             "url": "/t1054-1953-02-07-like-father",
@@ -173571,6 +175451,47 @@ const DBModule = (function () {
             "date": "17/04/1953",
             "location": "Exteriores del castillo"
         },
+        "1314": {
+            "space": "temas inactivos",
+            "url": "/t1314-1953-04-11-all-jokes-aside",
+            "simpleTitle": "all jokes aside",
+            "creator": "Regulus O. Black",
+            "replyCount": 4,
+            "posts": [
+                {
+                    "url": "r20234",
+                    "author": "Regulus O. Black",
+                    "date": "26/06/2026",
+                    "words": 206
+                },
+                {
+                    "url": "r20261",
+                    "author": "Invitado",
+                    "date": "27/06/2026",
+                    "words": 236
+                },
+                {
+                    "url": "r20800",
+                    "author": "Regulus O. Black",
+                    "date": "16/07/2026",
+                    "words": 287
+                },
+                {
+                    "url": "r20986",
+                    "author": "Invitado",
+                    "date": "24/07/2026",
+                    "words": 208
+                },
+                {
+                    "url": "r21891",
+                    "author": "Regulus O. Black",
+                    "date": "16/08/2026",
+                    "words": 320
+                }
+            ],
+            "date": "11/04/1953",
+            "location": "Castillo Black"
+        },
         "1315": {
             "space": "temas inactivos",
             "url": "/t1315-c-lytvyn-changeling",
@@ -173611,6 +175532,41 @@ const DBModule = (function () {
             ],
             "date": "14/04/1953",
             "location": "Aula de Transformaciones"
+        },
+        "1318": {
+            "space": "temas inactivos",
+            "url": "/t1318-1953-04-19-hell-bent",
+            "simpleTitle": "hell bent",
+            "creator": "",
+            "replyCount": 3,
+            "posts": [
+                {
+                    "url": "r20262",
+                    "author": "Invitado",
+                    "date": "27/06/2026",
+                    "words": 203
+                },
+                {
+                    "url": "r20440",
+                    "author": "Ruaan S. Patil",
+                    "date": "02/07/2026",
+                    "words": 227
+                },
+                {
+                    "url": "r20874",
+                    "author": "Invitado",
+                    "date": "19/07/2026",
+                    "words": 260
+                },
+                {
+                    "url": "r21777",
+                    "author": "Ruaan S. Patil",
+                    "date": "13/08/2026",
+                    "words": 265
+                }
+            ],
+            "date": "19/04/1953",
+            "location": "Un pub en Knockturn"
         },
         "1327": {
             "space": "temas inactivos",
@@ -173808,6 +175764,71 @@ const DBModule = (function () {
             ],
             "date": "29/08/1952",
             "location": "Estación de Hogsmeade"
+        },
+        "1363": {
+            "space": "temas inactivos",
+            "url": "/t1363-1953-05-10-el-principio-del-fin",
+            "simpleTitle": "el principio del fin",
+            "creator": "",
+            "replyCount": 8,
+            "posts": [
+                {
+                    "url": "r21306",
+                    "author": "Invitado",
+                    "date": "02/08/2026",
+                    "words": 273
+                },
+                {
+                    "url": "r21372",
+                    "author": "Alastor Moody",
+                    "date": "03/08/2026",
+                    "words": 358
+                },
+                {
+                    "url": "r21398",
+                    "author": "Invitado",
+                    "date": "03/08/2026",
+                    "words": 262
+                },
+                {
+                    "url": "r21430",
+                    "author": "Alastor Moody",
+                    "date": "04/08/2026",
+                    "words": 335
+                },
+                {
+                    "url": "r21540",
+                    "author": "Invitado",
+                    "date": "08/08/2026",
+                    "words": 282
+                },
+                {
+                    "url": "r21566",
+                    "author": "Alastor Moody",
+                    "date": "08/08/2026",
+                    "words": 476
+                },
+                {
+                    "url": "r21567",
+                    "author": "The Familiars",
+                    "date": "08/08/2026",
+                    "words": 0
+                },
+                {
+                    "url": "r21689",
+                    "author": "Invitado",
+                    "date": "11/08/2026",
+                    "words": 215
+                },
+                {
+                    "url": "r21744",
+                    "author": "Alastor Moody",
+                    "date": "12/08/2026",
+                    "words": 374
+                }
+            ],
+            "date": "10/05/1953",
+            "location": "OFICINA DE AURORES"
         },
         "1386": {
             "space": "temas inactivos",
