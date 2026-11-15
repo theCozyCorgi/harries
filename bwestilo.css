@@ -20179,6 +20179,52 @@ body.light-mode .bw-logbook {
   color: var(--color-text-100);
 }
 
+/* PAGINACIÓN */
+.bw-dataadmin-pager {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4px;
+}
+
+.bw-dataadmin-pager:empty {
+  display: none;
+}
+
+.bw-dataadmin-pager > button:not(.bw-dataadmin-btn),
+.bw-dataadmin-pager > span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 30px;
+  height: 30px;
+  padding: 0 8px;
+  background: var(--mode-back-70);
+  color: var(--color-text-100);
+  font: var(--style-link);
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.bw-dataadmin-pager > span {
+  background: none;
+  color: var(--mode-text-100);
+  opacity: .6;
+}
+
+.bw-dataadmin-pager > button:not(.bw-dataadmin-btn):hover {
+  background: var(--mode-back-80);
+}
+
+.bw-dataadmin-pager > button[aria-current="page"] {
+  background: var(--color-bold-100);
+}
+
+.bw-dataadmin-pager > button[disabled] {
+  opacity: .4;
+  cursor: default;
+}
+
 /* CLAVE EN EL MENSAJE */
 .bw-admin-token {
   display: inline-block;
