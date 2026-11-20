@@ -308,6 +308,18 @@ const MissionsModule = (function () {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "10" }, "job": "invalid", "name": "invalid", }, "place": "frasco a los 10 puntos",
           "cont": '<span>Al destapar el frasco, el aroma a miel resulta familiar. Es el mismo dulzor empalagoso que se registró en el informe de los laboratorios de San Mungo sobre las bebidas de Edwin Merrythought, Morgana Dempsey y Sirius Black, junto con el entumecimiento en los dedos de quienes las probaron. Si las tres víctimas bebieron este sedante, estaban dormidas o al menos sin sentir nada cuando las atacaron. Eso explicaría que Sirius apareciera inconsciente en su sillón.</span>',
         },
+        {
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "10" }, "job": "invalid", "name": "invalid", }, "place": "frasco a los 20 puntos",
+          "cont": '<span>Al destapar el frasco, el aroma a miel resulta familiar. Es el mismo dulzor empalagoso que se registró en el informe de los laboratorios de San Mungo sobre las bebidas de Edwin Merrythought, Morgana Dempsey y Sirius Black, junto con el entumecimiento en los dedos de quienes las probaron. Si las tres víctimas bebieron este sedante, estaban dormidas o al menos sin sentir nada cuando las atacaron. Eso explicaría que Sirius apareciera inconsciente en su sillón.</span>',
+        },
+        {
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "10" }, "job": "invalid", "name": "invalid", }, "place": "frasco a los 30 puntos",
+          "cont": '<span>Al destapar el frasco, el aroma a miel resulta familiar. Es el mismo dulzor empalagoso que se registró en el informe de los laboratorios de San Mungo sobre las bebidas de Edwin Merrythought, Morgana Dempsey y Sirius Black, junto con el entumecimiento en los dedos de quienes las probaron. Si las tres víctimas bebieron este sedante, estaban dormidas o al menos sin sentir nada cuando las atacaron. Eso explicaría que Sirius apareciera inconsciente en su sillón.</span>',
+        },
+        {
+          "visible": { "attr": { "val": "min" }, "know": { "pociones": "10" }, "job": "invalid", "name": "invalid", }, "place": "frasco a los 40 puntos",
+          "cont": '<span>Al destapar el frasco, el aroma a miel resulta familiar. Es el mismo dulzor empalagoso que se registró en el informe de los laboratorios de San Mungo sobre las bebidas de Edwin Merrythought, Morgana Dempsey y Sirius Black, junto con el entumecimiento en los dedos de quienes las probaron. Si las tres víctimas bebieron este sedante, estaban dormidas o al menos sin sentir nada cuando las atacaron. Eso explicaría que Sirius apareciera inconsciente en su sillón.</span>',
+        },
       ],
 
       "searchs": {
@@ -392,7 +404,7 @@ const MissionsModule = (function () {
         },
         "donn con menos de 10 puntos": {
           "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "beber o no beber",
-          "cont": '<span>Donn baraja sin apuro, con la mano firme. Quien lo ve beber así entiende enseguida que ese whiskey le hace mucho menos efecto que a cualquier visitante.</span>',
+          "cont": '<span>Donn baraja sin apuro, con la mano firme. Quien lo ve beber así entiende enseguida que ese whiskey le hace mucho menos efecto que a cualquier visitante.<br>Cada vez que los personajes ganan una ronda, Donn bebe un vaso de Whiskey de Fuego Dempsey, que suma 10 puntos a su contador.</span>',
         },
         "donn con 10 puntos": {
           "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "beber o no beber",
@@ -449,6 +461,66 @@ const MissionsModule = (function () {
         "relación con morgana a los 40 puntos": {
           "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "donn con 40 puntos",
           "cont": '<span>Donn no contesta a los aurores. Se gira con esfuerzo hacia la silla vacía y le habla en voz baja, con una calma que no tuvo en toda la tarde.<br><br>—<strong>Te lo diiije. Te dije que no ibas a encontrar nada, perra terca. ¿Quién te lleva ahora las rosas, eh? Yo. Yo, que no me pediste perdón nunca.</strong> —Empuja el vaso hacia la silla y espera. Pasado un momento, frunce el ceño—. <strong>No, no les conté. Solo lo de la licantropía, como quedamos.</strong></span>',
+        },
+        "incendio a los 20 puntos": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "donn con 20 puntos",
+          "cont": '<span>Donn espanta el humo con la mano y escupe la respuesta.<br><br>—<strong>La muy bruja me quemó la destilería una semana antes de firmar. Barriles, alambiques, todo. Me dejó una notita, muy educada, y una deuda con los proveedores que no podía pagar ni vendiendo la casa.</strong> —Se sirve otro vaso—. <strong>Seis meses después alguien pagó la deuda entera. Sin firma, sin carta, sin nada. ¿Y saben qué? Sé que fue ella. Ni para pedir perdón tenía la decencia de dar la caaara.</strong></span>',
+        },
+        "incendio a los 30 puntos": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "donn con 30 puntos",
+          "cont": '<span>Donn golpea la pared con los nudillos y se queda un momento esperando una respuesta que no llega.<br><br>—<strong>¿El incendio? ¿Cuál de todos? Esa perra frígida me quemó la destilería, sí, una semana antes de firmar, y después me pagó las deudas a escondidas, como si con eso quedáramos a mano.</strong> —Bebe sin derramar una gota—. <strong>Pero no fue el único fuego de la familia, ¿eh? Pregúntenle a la periodista esa, la Thimble. Escribió de los dos incendios y nunca se le ocurrió preguntar por qué en esa familia todo terminaaa en cenizas.</strong></span>',
+        },
+        "incendio a los 40 puntos": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "donn con 40 puntos",
+          "cont": '<span>Donn mira la silla vacía con los ojos entrecerrados, como si alguien acabara de sentarse.<br><br>—<strong>Ya sé que fuiste tú, Morgana. Una semana antes de firmar. Lo sé desde la noche que llegó tu nota.</strong> —Se inclina hacia la silla y baja la voz—. <strong>Pero dime una cosa. El cuaderno del abuelo, el de las recetas. Me dijiste que se había quemado con todo lo demás. ¿Lo sacaste antes, verdad? Lo sacaste antes de prender el fuego.</strong><br><br>Espera una respuesta que nadie más escucha y asiente despacio, como si la hubiera recibido.</span>',
+        },
+        "merlina a los 20 puntos": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "donn con 20 puntos",
+          "cont": '<span>Donn deja de espantar el humo y se queda mirándolo.<br><br>—<strong>Merlina está viva. Ya está, lo dije. Encontré la tumba abierta, en marzo me escribió, fui a verla. Alguien ya le había contado lo de su hermana, unos aurores insoportables, según ella.</strong> —Se ríe solo—. <strong>Vive sola en esa granja, con las gallinas y una cerca llena de runas que no la deja salir las noches de luna. Yo no toco esa cerca ni borracho. Y miren cómo estoy.</strong></span>',
+        },
+        "merlina a los 30 puntos": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "donn con 30 puntos",
+          "cont": '<span>Donn se lleva un dedo a los labios y le pide silencio a la pared antes de hablar.<br><br>—<strong>Esa perra frígida le dejó mi dirección a su hermana. A su hermana sí, y a mí ni una carta. Merlina me escribió en marzo porque se le estaba terminando la miel. La de las noches de luna, ¿entienden? Sin eso no duerme. Sin eso…</strong> —Hace un gesto vago con la mano—. <strong>Así que ahora se la preparo yo. Mal, porque no tengo las notas de Morgana, pero se la preparo. Despierta antes de tiempo y me lo reprocha cada vez que voy. Pero duerme.</strong></span>',
+        },
+        "merlina a los 40 puntos": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "donn con 40 puntos",
+          "cont": '<span>Donn le habla a la silla vacía con una ternura que no mostró en toda la tarde.<br><br>—<strong>Le llevé la miel, Morgana. Como hacías tú. Ya no aúlla, duerme toda la noche.</strong> —Sonríe y enseguida se le borra la sonrisa—. <strong>¿Y si se acaba? Yo no sé hacerla como tú. ¿Y si una noche no alcanza? ¿Quién la ata a ella, eh? ¿Quién?</strong><br><br>Se queda callado, mirando la silla, y no vuelve a hablar hasta que alguien le acerca otra carta.</span>',
+        },
+        "endulzante a los 20 puntos": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "donn con 20 puntos",
+          "cont": '<span>Donn levanta su vaso a contraluz y lo hace girar.<br><br>—<strong>La miel de Morgana. Una cucharada y uno duerme como un tronco y no siente nada: ni un corte, ni un hueso roto. Se la daba a su hermana las noches de luna llena.</strong> —Bebe y chasquea la lengua—. <strong>¿Y no notaron que este whiskey no raspa? Una gota por barril, caballeros. Una sola gota. La gente cree que es la receta de mi abuelo. La receta de mi abuelo te arrancaba la garganta.</strong></span>',
+        },
+        "endulzante a los 30 puntos": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "donn con 30 puntos",
+          "cont": '<span>Donn se ríe con todo el cuerpo y la silla se queja debajo de él.<br><br>—<strong>¿La miel? Esa perra frígida la inventó para su hermana, una cucharada antes de la luna y a dormir sin sentir nada. Yo le pongo una gota a cada barril, que no se entere el Ministerio.</strong> —Les guiña un ojo y se acuerda de quiénes son—. <strong>Bueno. Ya se enteró.</strong> —Se pone serio de golpe—. <strong>La última vez que vino se llevó tres frascos. Tres. Me dijo que era precaución. ¡Precaución!</strong></span>',
+        },
+        "endulzante a los 40 puntos": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "donn con 40 puntos",
+          "cont": '<span>Donn prueba su whiskey, frunce el ceño y se lo ofrece a la silla vacía.<br><br>—<strong>Pruébalo tú. ¿Ves? Una gota, nada más. Te lo juro, una gota. Nadie se duerme con una gota.</strong> —Espera y asiente—. <strong>Tres frascos te llevaste. Tres. Uno para ti y dos para tus amigos, el de la estrella y el del jardín.</strong> —Se le quiebra la voz—. <strong>No tenía que darte tres. Tenía que darte uno. ¿Qué les hiciste? ¿Qué les hiciste, Morgana?</strong></span>',
+        },
+        "frasco a los 20 puntos": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "donn con 20 puntos",
+          "cont": '<span>Donn se levanta con un esfuerzo enorme, va hasta el armario sin tambalearse y vuelve con un frasco de vidrio azul, tapado con cera. Dentro hay un líquido espeso y dorado. En la etiqueta, con la letra elegante de Morgana, se lee: <i>"M. — Una cucharada antes de la luna. No más."</i><br><br>—<strong>Tomen. El último de la muy bruja.</strong> —Lo deja caer sobre el escritorio—. <strong>Hay más en el sótano, pero esos son míos y no salen tan bien. Esos no se los doy.</strong></span>',
+        },
+        "frasco a los 30 puntos": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "donn con 30 puntos",
+          "cont": '<span>Donn saca del armario dos frascos y los pone uno al lado del otro. Uno es de vidrio azul, tapado con cera, con la letra elegante de Morgana: <i>"M. — Una cucharada antes de la luna. No más."</i> El otro es de vidrio verde, con una etiqueta torcida escrita a mano: <i>"D. — Para M."</i><br><br>—<strong>El azul es el de esa perra frígida. El verde es el mío.</strong> —Les empuja el azul y guarda el verde en el bolsillo del chaleco—. <strong>Llévense el bueno. El mío despierta antes de tiempo. Pregúntenle a Merlina.</strong></span>',
+        },
+        "frasco a los 40 puntos": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "donn con 40 puntos",
+          "cont": '<span>Donn saca del armario un frasco de vidrio azul, tapado con cera, y lo deja sobre el escritorio. En la etiqueta, con la letra elegante de Morgana, se lee: <i>"M. — Una cucharada antes de la luna. No más."</i> Después se gira hacia la silla vacía, satisfecho.<br><br>—<strong>¿Ves? Se lo di. Como dijiste: si venía el Ministerio, que se lo llevaran ellos y no otro.</strong> —Frunce el ceño, como si alguien le hubiera contestado—. <strong>No, el otro no. El otro es para tu hermana.</strong></span>',
+        },
+        "investigación de morgana a los 20 puntos": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "donn con 20 puntos",
+          "cont": '<span>Donn sigue con la mirada una forma en el humo que nadie más distingue.<br><br>—<strong>Primero quería curar la licantropía. Después, cerrar heridas, regenerar tejido, devolver un cuerpo a como estaba antes. Probamos de todo y nada servía.</strong> —Bebe—. <strong>Al final ya no preguntaba por plantas. Preguntaba por agua. Agua de mar, agua de río, agua que corre por debajo de la tierra. Le dije que yo de agua sé lo justo para cortar el whiskey, y la muy bruja se rió. La única vez que la vi reírse en mi despacho.</strong></span>',
+        },
+        "investigación de morgana a los 30 puntos": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "donn con 30 puntos",
+          "cont": '<span>Donn golpea la pared dos veces y espera, con la oreja casi pegada al papel.<br><br>—<strong>Quería devolver los cuerpos a como estaban antes, esa perra frígida. Y después ya ni eso, solo preguntaba por agua.</strong> —Se endereza—. <strong>La última vez trajo un mapa de la costa. Lo desplegó aquí, encima de mis papeles, sin pedir permiso. Tenía un faro marcado con tinta roja. Me preguntó si alguna vez había mandado barriles por mar hasta ahí. Le dije que no. Dobló el mapa y no volvió nunca más.</strong></span>',
+        },
+        "investigación de morgana a los 40 puntos": {
+          "visible": { "attr": { "int": "+1" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "donn con 40 puntos",
+          "cont": '<span>Donn le sirve un vaso a la silla vacía, con el pulso firme, y le habla en voz baja.<br><br>—<strong>¿Lo encontraste al final? Eso que nace debajo del mar. Me dijiste que curaba todo, que con eso no hacían falta más cucharadas.</strong> —Espera y se le endurece la cara—. <strong>¿Y entonces por qué te moriste, Morgana? Si curaba todo. ¿Por qué?</strong><br><br>Empuja el vaso hacia la silla. Nadie lo toca.</span>',
         },
       },
 
