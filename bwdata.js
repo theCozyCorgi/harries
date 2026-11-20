@@ -320,6 +320,10 @@ const MissionsModule = (function () {
           "visible": { "attr": { "val": "min" }, "know": { "pociones": "10" }, "job": "invalid", "name": "invalid", }, "place": "frasco a los 40 puntos",
           "cont": '<span>Al destapar el frasco, el aroma a miel resulta familiar. Es el mismo dulzor empalagoso que se registró en el informe de los laboratorios de San Mungo sobre las bebidas de Edwin Merrythought, Morgana Dempsey y Sirius Black, junto con el entumecimiento en los dedos de quienes las probaron. Si las tres víctimas bebieron este sedante, estaban dormidas o al menos sin sentir nada cuando las atacaron. Eso explicaría que Sirius apareciera inconsciente en su sillón.</span>',
         },
+        {
+          "visible": { "attr": { "sab": "2" }, "know": { "val": "min" }, "job": "invalid", "name": "invalid", }, "place": "donn con 20 puntos",
+          "cont": '<span>Con Donn ya entonado, el whiskey de su vaso se ve distinto: del borde sube un vapor con un brillo rojizo que se disipa enseguida. Para cualquiera con nociones de alquimia o pociones, es la señal de que la savia de Salvia Ignicor está disuelta en el alcohol. Los dos viajan juntos y se evaporan juntos, mucho antes de que el agua llegue a hervir. Si el whiskey se calienta lo justo, el alcohol se lleva la savia y en el vaso queda solo agua tibia con un dejo de miel. Los vasos de Donn son de peltre, los mismos de la vieja destilería de su abuelo, y aguantan bien el calor.</span>',
+        },
       ],
 
       "searchs": {
@@ -566,6 +570,24 @@ const MissionsModule = (function () {
           "moderado": 'Se percibe miedo y cansancio. Donn no le teme al Ministerio, le teme a lo que le pasó a Morgana.',
           "exitoso": 'Aparece un recuerdo: Morgana sentada en ese mismo despacho, con un cuaderno lleno de notas, preguntando por plantas que regeneran tejido.',
           "critico": 'Aparece un recuerdo: Morgana sentada en ese mismo despacho, con un cuaderno lleno de notas, preguntando por plantas que regeneran tejido. Antes de irse por última vez, le dice: «Si no vuelvo, Merlina te va a escribir. Respóndele».',
+        },
+        "succendam bullae": {
+          "leve": 'El vaso de peltre apenas se entibia y el alcohol sigue ahí. El personaje bebe el whiskey tal cual: suma 10 puntos a su contador.',
+          "moderado": 'Del vaso sube un hilo de vapor rojizo y se evapora la mitad del alcohol: el vaso suma 5 puntos al contador del personaje. Si Donn tiene menos de 40 puntos, huele el vapor, se ríe y le sirve otro vaso, que el personaje debe beber de verdad: suma 10 puntos más.',
+          "exitoso": 'El alcohol se evapora por completo y se lleva la savia con él; en el vaso queda agua tibia con un dejo de miel. El vaso cuenta como bebido y no suma puntos. Si Donn tiene menos de 30 puntos, nota el vapor y le sirve otro vaso, que el personaje debe beber de verdad: suma 10 puntos a su contador.',
+          "critico": 'El alcohol se evapora por completo sin que suba un solo hilo de vapor; en el vaso queda agua tibia con un dejo de miel. Donn no se da cuenta, tenga los puntos que tenga: el vaso cuenta como bebido y no suma puntos.',
+        },
+        "incendio": {
+          "leve": 'La llama sale demasiado fuerte y el whiskey se enciende en una llamarada azul sobre la mesa. Donn lo ve, tenga los puntos que tenga, suelta una carcajada y le sirve otro vaso, que el personaje debe beber de verdad: suma 10 puntos a su contador.',
+          "moderado": 'Una llama pequeña lame el fondo del vaso de peltre por debajo de la mesa y se evapora la mitad del alcohol: el vaso suma 5 puntos al contador del personaje. Si Donn tiene menos de 40 puntos, ve el resplandor, se ríe y le sirve otro vaso, que el personaje debe beber de verdad: suma 10 puntos más.',
+          "exitoso": 'La llama calienta el vaso de peltre lo justo y el alcohol se evapora por completo, llevándose la savia con él; en el vaso queda agua tibia con un dejo de miel. El vaso cuenta como bebido y no suma puntos. Si Donn tiene menos de 30 puntos, ve el resplandor y le sirve otro vaso, que el personaje debe beber de verdad: suma 10 puntos a su contador.',
+          "critico": 'Una llama diminuta, oculta en la palma, evapora todo el alcohol en un instante; en el vaso queda agua tibia con un dejo de miel. El vaso cuenta como bebido y no suma puntos. Si Donn tiene menos de 20 puntos, nota un olor a quemado y le sirve otro vaso, que el personaje debe beber de verdad: suma 10 puntos a su contador.',
+        },
+        "calidus flammus": {
+          "leve": 'El calor se queda en la mano y apenas entibia el vaso de peltre. El alcohol sigue ahí y el personaje bebe el whiskey tal cual: suma 10 puntos a su contador.',
+          "moderado": 'La mano del personaje se vuelve una fuente de calor suave y se evapora la mitad del alcohol: el vaso suma 5 puntos al contador del personaje. Si Donn tiene menos de 30 puntos, nota el vapor y le sirve otro vaso, que el personaje debe beber de verdad: suma 10 puntos más.',
+          "exitoso": 'El vaso de peltre se calienta de a poco entre los dedos del personaje y el alcohol se evapora por completo, llevándose la savia con él; en el vaso queda agua tibia con un dejo de miel. El vaso cuenta como bebido y no suma puntos. Si Donn tiene menos de 20 puntos, nota el vapor y le sirve otro vaso, que el personaje debe beber de verdad: suma 10 puntos a su contador.',
+          "critico": 'El calor pasa de la mano al vaso sin que se note nada y el alcohol se evapora por completo, sin un hilo de vapor; en el vaso queda agua tibia con un dejo de miel. Donn no se da cuenta, tenga los puntos que tenga: el vaso cuenta como bebido y no suma puntos.',
         },
       },
     },
