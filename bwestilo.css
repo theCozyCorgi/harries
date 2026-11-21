@@ -20287,6 +20287,65 @@ body.light-mode .bw-logbook {
   cursor: default;
 }
 
+/* TEXTOS ANIDADOS */
+.bw-dataadmin-tree {
+  gap: 8px;
+}
+
+.bw-dataadmin-tree-node {
+  display: flex;
+  flex-flow: column;
+  gap: 8px;
+}
+
+.bw-dataadmin-tree-node .bw-dataadmin-tree-node {
+  padding: 8px 10px;
+  background: var(--mode-opacity-50);
+  border-radius: 3px;
+}
+
+.bw-dataadmin-tree-group,
+.bw-dataadmin-leaf-label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font: var(--style-link);
+  font-size: 9.5px;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+}
+
+.bw-dataadmin-tree-group > span {
+  color: var(--mode-text-100);
+}
+
+.bw-dataadmin-leaf {
+  display: flex;
+  flex-flow: column;
+  gap: 4px;
+}
+
+.bw-dataadmin-leaf-label {
+  opacity: .75;
+}
+
+.bw-dataadmin-tree-remove {
+  padding: 2px 5px;
+  border-radius: 3px;
+  color: var(--mode-text-100);
+  opacity: .6;
+}
+
+.bw-dataadmin-tree-remove:hover {
+  background: var(--mode-back-80);
+  opacity: 1;
+}
+
+.bw-dataadmin .bw-dataadmin-tree-add {
+  align-self: flex-start;
+  padding: 6px 10px;
+}
+
 /* CLAVE EN EL MENSAJE */
 .bw-admin-token {
   display: inline-block;
