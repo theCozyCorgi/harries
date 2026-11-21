@@ -1,3 +1,11 @@
+window._characters = window._characters || {};
+window._housePoints = window._housePoints || [];
+window._quidditch = window._quidditch || [];
+window._beans = window._beans || [];
+window._money = window._money || [];
+window._beanFlavors = window._beanFlavors || {};
+window._actions = window._actions || {};
+
 // CONFIGURACIÓN INICIAL
 const forumOpeningDate = new Date(2025, 4, 2);    // 2 de Mayo 2025
 const initialAmbientDate = new Date(1952, 8, 1); // 1 de Septiembre 1952
