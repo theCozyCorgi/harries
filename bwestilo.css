@@ -19149,22 +19149,8 @@ body.light-mode .bw-logbook {
   --combat-color: var(--combat-pass);
 }
 
-.combat-action.bw-combat[estado="neutral"] > .bw-combat-head {
-  background: var(--mode-back-100) !important;
-  color: var(--mode-text-100);
-}
-
-.combat-action.bw-combat[estado="neutral"] .bw-combat-type {
-  color: var(--mode-text-100);
-}
-
-.combat-action.bw-combat[estado="neutral"] .bw-combat-icon {
-  background: var(--strong);
-  color: var(--color-text-100);
-}
-
-.combat-action.bw-combat[estado="neutral"] .bw-combat-body:before {
-  background: var(--strong);
+.combat-action.bw-combat[estado="neutral"] {
+  --combat-color: var(--post-user);
 }
 
 .bw-combat-head {
