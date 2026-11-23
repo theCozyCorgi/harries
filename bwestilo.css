@@ -18228,7 +18228,7 @@ body.light-mode .bw-logbook {
 
 /* expediente: barra del nombre e historia */
 .character-file.bw-carto-expediente .character-header {
-  margin-bottom: 0;
+  margin-bottom: 17px;
   border-bottom: none;
   background: var(--post-user);
   color: var(--color-text-100);
