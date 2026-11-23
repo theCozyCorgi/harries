@@ -18268,6 +18268,10 @@ body.light-mode .bw-logbook {
   background: var(--mode-back-100);
 }
 
+.character-file.bw-carto-expediente .character-knowledge.bw-exp-extra > span:not(.character-sub) {
+  background: var(--mode-opacity-50);
+}
+
 @media (max-width: 600px) {
   .character-file.bw-carto-expediente .bw-exp-familia {
     grid-template-columns: minmax(0, 1fr);
