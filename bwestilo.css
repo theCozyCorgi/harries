@@ -18255,6 +18255,25 @@ body.light-mode .bw-logbook {
   text-align: justify;
 }
 
+/* expediente: familia en dos columnas y fichas de atributos y conocimientos */
+.character-file.bw-carto-expediente .bw-exp-familia {
+  grid-column: 1 / -1;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.character-file.bw-carto-expediente .character-attributes > span:not(.character-sub),
+.character-file.bw-carto-expediente .character-knowledge > span:not(.character-sub) {
+  background: var(--mode-back-100);
+}
+
+@media (max-width: 600px) {
+  .character-file.bw-carto-expediente .bw-exp-familia {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
 /* búsquedas de cartography */
 .rol-table.bw-search-table {
   width: 100%;
