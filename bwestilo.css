@@ -9406,7 +9406,8 @@ userdata[target="multicuentas"] a {
   flex-wrap: wrap;
   gap: 5px;
   background: var(--mode-opacity-50);
-  margin: 10px;
+  max-width: 480px;
+  margin: 10px auto;
   border-radius: 5px;
   overflow: hidden;
 }
@@ -9463,7 +9464,8 @@ userdata[target="multicuentas"] a {
 .bw-clue-search,
 .bw-clue-card {
   position: relative;
-  margin: 10px;
+  max-width: 480px;
+  margin: 10px auto;
   overflow: hidden;
   border-radius: 5px;
   font: var(--style-primary);
@@ -18060,8 +18062,14 @@ body.light-mode .bw-logbook {
   order: 3;
 }
 
-.character-file.bw-carto-expediente .bw-exp-tramas {
+.character-file.bw-carto-expediente .bw-exp-tramas,
+.character-file.bw-carto-expediente .bw-exp-caso {
   order: 4;
+}
+
+.character-file.bw-carto-expediente .character-plus span.long-info {
+  flex: none;
+  align-self: stretch;
 }
 
 .character-file.bw-carto-expediente .bw-exp-extra {
