@@ -18236,6 +18236,7 @@ body.light-mode .bw-logbook {
   z-index: 1;
   height: 22px;
   background: var(--post-user);
+  opacity: .45;
   pointer-events: none;
 }
 
