@@ -2206,7 +2206,7 @@ ol {
   width: 100%;
 }
 
-.poster-contact {
+.poster-contact, .poster-contact > strong {
   display: flex;
   align-items: center;
   gap: 5px;
