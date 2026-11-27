@@ -20256,6 +20256,127 @@ body.light-mode .bw-logbook {
   padding: 6px 10px;
 }
 
+/* HERRAMIENTAS DE CADA VISTA */
+.bw-dataadmin-tool {
+  display: flex;
+  flex-flow: column;
+  gap: 10px;
+  font: var(--style-primary);
+  font-size: 12.5px;
+  line-height: 1.5;
+  color: var(--mode-text-100);
+}
+
+.bw-dataadmin-tool-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font: var(--style-link);
+  font-size: 11px;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  color: var(--strong-text, var(--mode-text-100));
+}
+
+.bw-dataadmin-tool-scan {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 10px;
+  border-radius: 3px;
+  background: color-mix(in srgb, var(--validation-warning) 20%, var(--mode-back-100));
+}
+
+.bw-dataadmin-tool-scan.ok {
+  background: color-mix(in srgb, var(--validation-passed) 20%, var(--mode-back-100));
+}
+
+.bw-dataadmin-tool-block {
+  display: flex;
+  flex-flow: column;
+  gap: 6px;
+  padding: 10px 12px;
+  border-radius: 3px;
+  background: var(--mode-opacity-50);
+}
+
+.bw-dataadmin-tool-block > strong {
+  font: var(--style-link);
+  font-size: 10px;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+}
+
+.bw-dataadmin-tool-list {
+  display: flex;
+  flex-flow: column;
+  gap: 2px;
+  max-height: 180px;
+  overflow: auto;
+  font-size: 11.5px;
+  scrollbar-width: thin;
+}
+
+.bw-dataadmin-tool-check {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.bw-dataadmin-tool-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+/* TARJETAS DE MISIÓN EN FILAS */
+.bw-dataadmin-card-row {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+  gap: 6px 8px;
+  padding: 8px 10px;
+  background: var(--mode-opacity-50);
+  border-radius: 3px;
+}
+
+.bw-dataadmin-card-row > .bw-dataadmin-tree-group,
+.bw-dataadmin-card-row > .bw-dataadmin-card-cell.wide,
+.bw-dataadmin-card-row > .bw-dataadmin-leaf,
+.bw-dataadmin-card-row > .bw-dataadmin-tree-node {
+  grid-column: 1 / -1;
+}
+
+.bw-dataadmin-card-cell {
+  display: flex;
+  flex-flow: column;
+  gap: 4px;
+}
+
+.bw-dataadmin-card-cell > span {
+  font: var(--style-link);
+  font-size: 9.5px;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  opacity: .75;
+}
+
+.bw-dataadmin-card-cell textarea[data-tree-json] {
+  font-family: var(--font-code);
+  font-size: 11px;
+}
+
+.bw-dataadmin-card-cell textarea.bad-json {
+  outline: 2px solid var(--validation-failed);
+}
+
+@media (max-width: 600px) {
+  .bw-dataadmin-card-row {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
 /* CLAVE EN EL MENSAJE */
 .bw-admin-token {
   display: inline-block;
