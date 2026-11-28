@@ -12390,7 +12390,7 @@ mark.bw-manifest-marca {
   color: var(--estado);
 }
 
-.bw-limpieza-progreso span:not(.hecho):not(.actual):not(.saltado) {
+.bw-limpieza-progreso span:not(.hecho):not(.actual):not(.saltado):not(.manual) {
   background: color-mix(in oklch, var(--lp-rojo) 14%, var(--mode-back-90));
   box-shadow: inset 0 0 0 1.5px var(--lp-rojo);
   color: var(--lp-rojo);
@@ -12398,6 +12398,12 @@ mark.bw-manifest-marca {
 
 .bw-limpieza-progreso span.saltado {
   background: var(--lp-azul);
+  box-shadow: none;
+  color: #fff;
+}
+
+.bw-limpieza-progreso span.manual {
+  background: var(--validation-warning);
   box-shadow: none;
   color: #fff;
 }
@@ -20333,6 +20339,12 @@ body.light-mode .bw-logbook {
   margin: 0;
 }
 
+.bw-dataadmin-tool-check > span {
+  flex: 1;
+  min-width: 0;
+  text-align: left;
+}
+
 .bw-dataadmin-tool-actions {
   display: flex;
   flex-wrap: wrap;
@@ -20435,6 +20447,64 @@ body.light-mode .bw-logbook {
   font-family: var(--font-code);
   font-size: 10px;
   opacity: .6;
+}
+
+/* BLOQUES PLEGABLES */
+.bw-dataadmin-fold {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 0;
+  border: none;
+  background: none;
+  font: var(--style-link);
+  font-size: 10px;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  color: var(--mode-text-100);
+  cursor: pointer;
+}
+
+.bw-dataadmin-fold i {
+  width: 10px;
+  font-size: 9px;
+}
+
+.bw-dataadmin-fold small {
+  opacity: .6;
+}
+
+.bw-dataadmin-fold-head {
+  display: flex;
+  align-items: center;
+}
+
+.bw-dataadmin-tree.folded {
+  padding: 8px 10px;
+  border-radius: 3px;
+  background: var(--mode-opacity-50);
+}
+
+.bw-dataadmin-fold-place {
+  padding: 1px 6px;
+  border-radius: 3px;
+  background: var(--mode-back-100);
+  font-family: var(--font-code);
+  font-size: 9.5px;
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+.bw-dataadmin-card-row.folded {
+  gap: 4px;
+}
+
+.bw-dataadmin-fold-preview {
+  grid-column: 1 / -1;
+  margin: 0;
+  font: var(--style-primary);
+  font-size: 11.5px;
+  opacity: .8;
 }
 
 /* TARJETAS DE MISIÓN EN FILAS */
